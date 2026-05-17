@@ -15,7 +15,7 @@ access_url: https://www.sciencedirect.com/science/article/pii/B97804445945320003
 license: copyright-licensed-private
 metals: [Cd]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/root-vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/potatoes]]", "[[ingredients/peanuts]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/lentils]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/fish]]", "[[ingredients/organ-meats]]", "[[ingredients/cocoa]]"]
-products: []
+products: ["[[products/sunflower-seeds]]"]
 jurisdictions: [international, EU, US, JP]
 superseded_by: null
 updated: 2026-04-24

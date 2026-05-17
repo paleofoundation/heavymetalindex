@@ -16,7 +16,7 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 2
+sources: 5
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -74,6 +74,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles et al. 2023]]. *Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk*, International Journal of Environmental Research and Public Health 20:531 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/kicinska2025-cosmetics-online-market-heavy-metals\|Kicińska et al. 2025]]. *Health risks from heavy metals in cosmetic products available in the online consumer market*, Scientific Reports 15: 316 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/oecd2024-crafts-toys-children-exposure\|(OECD) 2024]]. *Considerations when Estimating Exposure to Crafts and Toys in Children (OECD Series on Testing and Assessment No. 401)*, OECD Publishing, Paris (Series on Testing and Assessment No. 401) | 2024 | Government report | *[awaiting synthesis]* |
+| 4 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles et al. 2023]]. *Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk*, International Journal of Environmental Research and Public Health 20:531 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

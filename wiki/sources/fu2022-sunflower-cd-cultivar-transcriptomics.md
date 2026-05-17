@@ -15,7 +15,7 @@ access_date: 2026-05-12
 access_url: "https://doi.org/10.3389/fpls.2022.854386"
 metals: [Cd]
 ingredients: ["[[ingredients/sunflower-seeds]]"]
-products: []
+products: ["[[products/sunflower-seeds]]"]
 matrices: [sunflower-shoot, sunflower-root]
 jurisdictions: [CN, UA]
 sample_n: 2

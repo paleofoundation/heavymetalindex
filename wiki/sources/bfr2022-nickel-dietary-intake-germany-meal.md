@@ -15,7 +15,7 @@ license: "© BfR (German Federal Institute for Risk Assessment)"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nickel_ estimate of long-term intake via food based on the BfR MEAL Study.pdf"
 metals: [Ni]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/cashew-nuts]]", "[[ingredients/oat]]", "[[ingredients/wheat]]", "[[ingredients/coffee]]", "[[ingredients/tea]]", "[[ingredients/walnuts]]", "[[ingredients/soy]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/dark-chocolate]]"]
-products: ["[[products/snacks-crackers-biscuits]]", "[[products/chocolate]]", "[[products/infant-formula]]"]
+products: ["[[products/snacks-crackers-biscuits]]", "[[products/cashews]]", "[[products/chocolate]]", "[[products/infant-formula]]"]
 matrices: [ready-to-eat-food, dietary-intake, total-diet-study]
 jurisdictions: [DE, EU]
 sample_n: 840

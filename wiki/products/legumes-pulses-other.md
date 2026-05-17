@@ -87,5 +87,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|Ccopi et al. 2026]]. *Bioaccumulation of heavy metals in high Andean crops of the Peruvian Andes: comparative evaluation between irrigated and dry systems*, Journal of Agriculture and Food Research | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/chaura2026-phaseolus-multiomics-ionomics\|Chaura et al. 2026]]. *Nutritional and Biochemical Diversity in Beans Accessions from Three Phaseolus Species Using Multiomics Characterization*, ACS Nutrition Science | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/galal2021-heavy-metals-pisum-sativum\|Galal et al. 2021]]. *Heavy metals uptake by the global economic crop (Pisum sativum L.) grown in contaminated soils and its associated health risks*, PLoS ONE | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

@@ -130,6 +130,13 @@ HMT&C certification thresholds for products in this row are developed under the 
 
 *Pending ingest. Regulatory events relevant to soft drinks and carbonated beverages will be added as agency records are routed to this row.*
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- Source promotion pending. The Cat 5 Step 0 lock identifies [[sources/tarigan2016-factors-tin-released-canned-beverages]] as the canned-beverage Sn-migration anchor for this row.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/tarigan2016-factors-tin-released-canned-beverages\|Tarigan et al. 2016]]. *Factors are Affecting Tin Released in Canned Beverages*, International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

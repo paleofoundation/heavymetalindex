@@ -16,7 +16,7 @@ variant_type: clean_benchmark
 pair_row: 8
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 0
+sources: 1
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Diaper Cream, Non-ZnO
@@ -84,5 +84,5 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

@@ -31,12 +31,12 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 3. [[products/infant-formula-rtf-liquid-non-soy|Infant formula, RTF liquid (non-soy)]] (21 sources)
 4. [[products/infant-formula-rtf-liquid-soy-based|Infant formula, RTF liquid (soy-based)]] (13 sources)
 5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]] (32 sources)
-6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (60 sources)
+6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (61 sources)
 7. [[products/fruit-purees|Fruit purees]] (25 sources)
 8. [[products/non-root-vegetable-purees|Non-root vegetable purees]] (16 sources)
 9. [[products/root-vegetable-purees|Root-vegetable purees]] (19 sources)
 10. [[products/meat-and-poultry-purees|Meat and poultry purees]] (13 sources)
-11. [[products/fish-containing-baby-foods|Fish-containing baby foods]] (11 sources)
+11. [[products/fish-containing-baby-foods|Fish-containing baby foods]] (12 sources)
 12. [[products/mixed-meals-non-rice|Mixed meals, non-rice]] (17 sources)
 13. [[products/mixed-meals-rice-containing|Mixed meals, rice-containing]] (16 sources)
 14. [[products/fruit-juice-not-canned|Fruit juice (not canned)]] (22 sources)
@@ -47,7 +47,7 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 
 These pages are graph anchors for sources that report a broader product category than the locked HMTc row split. They should not replace the 16 Category 1 row pages or carry final p90/p100 candidate values unless the evidence is later resolved into a specific row.
 
-- [[products/infant-formula-powder|Infant formula powder]] (12 sources)
+- [[products/infant-formula-powder|Infant formula powder]] (13 sources)
 - [[products/infant-formula-concentrated-liquid-non-soy|Infant formula, concentrated liquid (non-soy)]] (2 sources)
 - [[products/infant-formula-concentrated-liquid-soy-based|Infant formula, concentrated liquid (soy-based)]] (2 sources)
 - [[products/oral-electrolyte-solutions|Oral electrolyte solutions]] (2 sources)
@@ -59,22 +59,22 @@ These pages report what the evidence says about children's personal-care product
 
 Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration during application, hand-to-mouth transfer, and per-application volume per kg body weight are the relevant exposure routes. The methodology supplement is at [[health/cat-2-non-ingestion-exposure-pathways]].
 
-1. [[products/baby-lotion-cream|Baby lotion and cream]] (1 source)
+1. [[products/baby-lotion-cream|Baby lotion and cream]] (4 sources)
 2. [[products/baby-oil|Baby oil]] (0 sources)
 3. [[products/baby-powder-cornstarch|Baby powder, cornstarch base]] (0 sources)
 4. [[products/baby-talcum-powder|Baby talcum powder]] (1 source)
-5. [[products/baby-shampoo-body-wash|Baby shampoo and body wash]] (1 source)
-6. [[products/baby-wipes|Baby wipes]] (0 sources)
-7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (0 sources)
-8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] (0 sources)
-9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (0 sources)
-10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (0 sources)
-11. [[products/toothpaste|Children's toothpaste]] (2 sources)
-12. [[products/face-paint|Children's face paint]] (2 sources)
-13. [[products/childrens-makeup|Children's makeup]] (2 sources)
+5. [[products/baby-shampoo-body-wash|Baby shampoo and body wash]] (2 sources)
+6. [[products/baby-wipes|Baby wipes]] (1 source)
+7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (1 source)
+8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] (1 source)
+9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (2 sources)
+10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (2 sources)
+11. [[products/toothpaste|Children's toothpaste]] (4 sources)
+12. [[products/face-paint|Children's face paint]] (5 sources)
+13. [[products/childrens-makeup|Children's makeup]] (7 sources)
 14. [[products/childrens-nail-polish|Children's nail polish]] (1 source)
-15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (2 sources)
-16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (3 sources)
+15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (3 sources)
+16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (5 sources)
 
 ## HMTc Category 3: Grains, Cereals, and Rice Products
 
@@ -111,8 +111,8 @@ These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/co
 - [[products/soy-products|Soy Products]] (1 source)
 - [[products/peanuts|Peanuts]] (5 sources)
 - [[products/nuts-seeds-other|Nuts and Seeds, Other]] (2 sources)
-- [[products/cashews|Cashews]] (0 sources)
-- [[products/sunflower-seeds|Sunflower Seeds]] (0 sources)
+- [[products/cashews|Cashews]] (4 sources)
+- [[products/sunflower-seeds|Sunflower Seeds]] (5 sources)
 - [[products/nut-seed-butters-other|Nut and Seed Butters, Other]] (1 source)
 - [[products/peanut-butter|Peanut Butter]] (2 sources)
 - [[products/sunflower-seed-butter|Sunflower Seed Butter]] (0 sources)
@@ -133,7 +133,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/sports-energy-drinks]] (0 sources)
 - [[products/herbal-botanical-infusions]] (1 source)
 - [[products/true-tea-camellia-sinensis]] (4 sources)
-- [[products/matcha]] (0 sources)
+- [[products/matcha]] (1 source)
 - [[products/coffee]] (3 sources)
 - [[products/soft-drinks-carbonated-beverages]] (1 source)
 - [[products/fermented-beverages-non-tea-based]] (1 source)
@@ -165,7 +165,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 1. [[products/olive-oil|Olive oil]] (0 sources)
 2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (3 sources)
-3. [[products/butter-and-ghee|Butter and ghee]] (0 sources)
+3. [[products/butter-and-ghee|Butter and ghee]] (3 sources)
 4. [[products/honey-and-syrups|Honey and syrups (maple, agave, molasses)]] (0 sources)
 5. [[products/vinegar|Vinegar]] (9 sources)
 6. [[products/condiments-general|Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)]] (6 sources)
@@ -511,7 +511,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
 - [[products/breakfast-cereals|Breakfast Cereals]] (5 sources)
-- [[products/toothpaste|Toothpaste (Cat 2)]] (2 sources)
+- [[products/toothpaste|Toothpaste (Cat 2)]] (4 sources)
 
 _Retired (kept for redirect, not in HMT&C Cat 2 scope):_
 - ~~[[products/lipstick]]~~ — adult lipstick; redirected to [[products/childrens-lip-balm-mineral-bearing]] (Cat 2 Row 16) and future Cat 13 (adult color cosmetics)

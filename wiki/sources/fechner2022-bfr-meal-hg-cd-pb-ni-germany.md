@@ -13,7 +13,7 @@ license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Results of the BfR MEAL Study_ In Germany, mercury is mostly contained in fish and seafood while cad.pdf"
 metals: [tHg, MeHg, Cd, Pb, Ni]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/cashew-nuts]]", "[[ingredients/walnuts]]", "[[ingredients/hazelnuts]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/seaweed]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/spices]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]"]
-products: ["[[products/canned-fish]]", "[[products/chocolate]]", "[[products/snacks-crackers-biscuits]]"]
+products: ["[[products/canned-fish]]", "[[products/cashews]]", "[[products/chocolate]]", "[[products/snacks-crackers-biscuits]]"]
 matrices: [dietary-intake]
 jurisdictions: [DE, EU]
 near_duplicates: []

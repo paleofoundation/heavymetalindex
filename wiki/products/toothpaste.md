@@ -13,7 +13,7 @@ vulnerable_population: children-2-12yr-and-adults
 applicable_regulations: [washington-tfca-toothpaste-pb-1000ppb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 2
+sources: 4
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care
@@ -100,5 +100,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky et al. 2025]]. *Health risk implications of heavy metals in toothpaste*, Public Health and Toxicology 5(2):9 | 2025 | Peer-reviewed | Pb/Cd/Hg ADD and As LADD per-product exposure values for children 2-4yr and adults 20-35yr; HQ comparison against HGVs |
+| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky et al. 2025]]. *Health risk implications of heavy metals in toothpaste*, Public Health and Toxicology 5(2):9 | 2025 | Peer-reviewed | Pb/Cd/Hg ADD and As LADD per-product exposure values for children 2-4yr and adults 20-35yr; HQ comparison against HGVs |
+| 3 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

@@ -81,5 +81,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements\|Rodríguez-Rodríguez et al. 2026]]. *Trace Element Content in Tomato Fruit Grown with Sargassum-Based Biofertilizer*, Agronomy | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/cfia2025-toxic-metals-selected-foods-2022-23\|CFIA 2025]]. *Toxic metals in selected foods – April 1, 2022 to March 31, 2023: Food chemistry – Targeted surveys – Final report*, Canadian Food Inspection Agency | 2025 | Government report | *[awaiting synthesis]* |
+| 3 | [[sources/vella2024-malta-olive-cultivars-aas\|Vella et al. 2024]]. *Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS*, MCAST Journal of Applied Research & Practice | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/bedoya-perales2023-moquegua-peru-mining-dataset\|Bedoya-Perales et al. 2023]]. *Dataset of metals and metalloids in food crops and soils sampled across the mining region of Moquegua in Peru*, Scientific Data | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|Wang et al. 2023]]. *Deterministic and Probabilistic Health Risk Assessment of Toxic Metals in the Daily Diets of Residents in Industrial Regions of Northern Ningxia, China*, Archives of Environmental Contamination and Toxicology | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/orywal2021-heavy-metals-dried-mushrooms\|Orywal et al. 2021]]. *Health risk assessment of exposure to toxic elements resulting from consumption of dried wild-grown mushrooms available for sale*, PLoS ONE | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland\|Grochowska-Niedworok et al. 2020]]. *Assessment of cadmium and lead content in tomatoes and tomato products*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/ametepey2018-ghana-vegetables-heavy-metals\|Ametepey et al. 2018]]. *Determination of heavy metals in selected vegetables from markets in Tamale Metropolis, Ghana*, International Journal of Food Contamination | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|Karatasli 2018]]. *Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey*, Nuclear Technology & Radiation Protection | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland\|Mirończuk-Chodakowska et al. 2013]]. *Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'*, Polish Journal of Environmental Studies | 2013 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

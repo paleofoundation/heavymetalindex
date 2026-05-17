@@ -13,7 +13,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Monitoring of total mercury level in dairy products from various .pdf"
 metals: [tHg]
 ingredients: ["[[ingredients/milk]]", "[[ingredients/yogurt]]", "[[ingredients/cheese]]", "[[ingredients/butter]]"]
-products: []
+products: ["[[products/butter-and-ghee]]"]
 matrices: [milk, yogurt, cheese, butter, dairy]
 jurisdictions: [PL]
 near_duplicates: []

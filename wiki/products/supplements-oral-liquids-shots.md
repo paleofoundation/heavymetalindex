@@ -13,12 +13,18 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
+literature_scope: thin
 sources: 0
 updated: 2026-05-17
 ---
 # Oral liquids: liquid shots
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 10: **Oral liquids: liquid shots**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [supplements-oral-liquids-shots]`. Sections below are populated by the routing layer (CLAUDE.md Part 5b) as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+
+
+## Literature scope
+
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetaltested.com](https://heavymetaltested.com), not on this public page.
 
 ## Who this page is for
 

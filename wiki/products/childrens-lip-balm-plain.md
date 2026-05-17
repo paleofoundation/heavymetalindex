@@ -16,7 +16,7 @@ variant_type: clean_benchmark
 pair_row: 16
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 2
+sources: 3
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Lip Balm, Plain (uncolored, no SPF)
@@ -84,5 +84,6 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/oecd2024-crafts-toys-children-exposure\|(OECD) 2024]]. *Considerations when Estimating Exposure to Crafts and Toys in Children (OECD Series on Testing and Assessment No. 401)*, OECD Publishing, Paris (Series on Testing and Assessment No. 401) | 2024 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

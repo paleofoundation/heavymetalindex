@@ -16,7 +16,7 @@ variant_type: whole_row_platform
 platform_metals: [Pb, Ni, Cr]
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 2
+sources: 7
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Makeup (ages 0-5)
@@ -85,5 +85,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/kicinska2025-cosmetics-online-market-heavy-metals\|Kicińska et al. 2025]]. *Health risks from heavy metals in cosmetic products available in the online consumer market*, Scientific Reports 15: 316 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/oecd2024-crafts-toys-children-exposure\|(OECD) 2024]]. *Considerations when Estimating Exposure to Crafts and Toys in Children (OECD Series on Testing and Assessment No. 401)*, OECD Publishing, Paris (Series on Testing and Assessment No. 401) | 2024 | Government report | *[awaiting synthesis]* |
+| 4 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan\|Arshad et al. 2020]]. *Evaluation of heavy metals in cosmetic products and their health risk assessment*, Saudi Pharmaceutical Journal 28(2020):779-790 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/scher2010-toy-migration-limits-opinion\|EU Scientific Committee on 2010]]. *Evaluation of the Migration Limits for Chemical Elements in Toys (SCHER Opinion)*, European Commission DG Health & Consumers; SCHER Opinion adopted 1 July 2010 | 2010 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

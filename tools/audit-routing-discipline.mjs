@@ -119,6 +119,16 @@ for (const file of productFiles) {
   if (hmtcCategory === undefined || hmtcRow === undefined) continue
   summary.check_2_products_hmtc_locked += 1
 
+  // Exemption: pages explicitly flagged `literature_scope: thin` are
+  // acknowledged scaffolds where the food-focused source corpus does not
+  // yet cover the product class. The page carries a "Literature scope"
+  // caveat section visible to readers. Exempt from the failure count;
+  // tracked separately as `literature_scope_thin_acknowledged`.
+  if (parsed.data.literature_scope === "thin") {
+    summary.check_2_literature_scope_thin = (summary.check_2_literature_scope_thin ?? 0) + 1
+    continue
+  }
+
   const sourceCount = routingAudit.get(slug) ?? 0
   if (sourceCount === 0) {
     summary.check_2_failures += 1
@@ -127,7 +137,7 @@ for (const file of productFiles) {
       target: `wiki/products/${file}`,
       detail: `hmtc_category=${hmtcCategory} hmtc_row=${hmtcRow}`,
       severity: "fail",
-      note: `Product page is Step-0-locked (hmtc_category=${hmtcCategory}, hmtc_row=${hmtcRow}) but no source pages route to it. Either the scaffold has not yet received its Phase 1 ingest, or sources that should route declare incorrect slugs. See docs/order-of-operations.md Phase 5.`,
+      note: `Product page is Step-0-locked (hmtc_category=${hmtcCategory}, hmtc_row=${hmtcRow}) but no source pages route to it. Either the scaffold has not yet received its Phase 1 ingest, or sources that should route declare incorrect slugs. To acknowledge as scope-thin and exempt this row from the failure count, add 'literature_scope: thin' to the frontmatter and run tools/apply-literature-scope-caveat.mjs to insert the caveat section. See docs/order-of-operations.md Phase 5.`,
     })
   }
 }

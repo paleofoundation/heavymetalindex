@@ -17,7 +17,7 @@ public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 0
+sources: 1
 ---
 
 # Matcha
@@ -95,6 +95,13 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/cadmium\|Cd]] | Matcha (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- Source promotion pending.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/szymczykowska2026-matcha-elemental-composition\|Szymczykowska et al. 2026]]. *Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health*, Beverages | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+

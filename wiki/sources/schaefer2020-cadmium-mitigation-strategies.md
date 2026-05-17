@@ -13,7 +13,7 @@ license: "CC BY-NC-ND"
 raw_path: "raw/Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices/Cadmium_ Mitigation strategies to reduce dietary exposure.pdf"
 metals: [Cd]
 ingredients: ["[[ingredients/sunflower-seeds]]", "[[ingredients/spinach]]", "[[ingredients/peanut-butter]]", "[[ingredients/peanuts]]", "[[ingredients/lettuce]]", "[[ingredients/rice]]", "[[ingredients/cocoa]]", "[[ingredients/wheat]]", "[[ingredients/potatoes]]"]
-products: ["[[products/cereal]]"]
+products: ["[[products/cereal]]", "[[products/sunflower-seeds]]"]
 matrices: [dietary-intake, soil, crops, plant-tissue]
 jurisdictions: [US, EU, AU, JP]
 near_duplicates: []

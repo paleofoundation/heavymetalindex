@@ -86,5 +86,5 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/kim2024-metals-kale-urban-rural-maryland\|Kim et al. 2024]]. *Nutrients and non-essential metals in darkibor kale grown at urban and rural farms: a pilot study*, PLOS ONE | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

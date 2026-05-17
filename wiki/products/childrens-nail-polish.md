@@ -16,6 +16,7 @@ variant_type: whole_row_platform
 platform_metals: [Pb, Ni, Cr]
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
+literature_scope: thin
 sources: 1
 created_by: cat2_step0_scaffold_2026_05_16
 ---
@@ -24,6 +25,11 @@ created_by: cat2_step0_scaffold_2026_05_16
 Nail polish products marketed for ages 0-5. Whole-row platform — every commercial product uses mineral pigments and/or pearlescent agents (iron oxides, mica, bismuth oxychloride, chromium oxides) which carry Pb/Ni/Cr platform load. No within-row split because no clean-counterpart variant exists in this row.
 
 This page is a Step 0 lock scaffold for Cat 2 Row 14. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow in CLAUDE.md Part 9. The Step 0 lock document at `Category2_Clean_vs_Contaminated_Splits.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+
+
+## Literature scope
+
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **this product class** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetaltested.com](https://heavymetaltested.com), not on this public page.
 
 ## Who this page is for
 

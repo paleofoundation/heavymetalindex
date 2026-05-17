@@ -15,7 +15,7 @@ access_url: https://www.efsa.europa.eu/en/efsajournal/pub/980
 license: public-reference-only
 metals: [Cd]
 ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/leafy-greens]]", "[[ingredients/root-vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/peanuts]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/lentils]]", "[[ingredients/chocolate]]", "[[ingredients/cocoa]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/fish]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]", "[[ingredients/seafood]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/spinach]]"]
-products: ["[[products/infant-formula]]"]
+products: ["[[products/infant-formula]]", "[[products/sunflower-seeds]]"]
 jurisdictions: [EU]
 superseded_by: null
 updated: 2026-04-24

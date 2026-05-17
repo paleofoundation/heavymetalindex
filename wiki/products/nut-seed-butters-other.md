@@ -87,5 +87,5 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/potorti2026-tahini-quality-safety-inorganic-elements\|Potortì et al. 2026]]. *Chemical Composition and Nutritional Quality of Commercial Tahini*, Applied Sciences | 2026 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

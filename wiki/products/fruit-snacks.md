@@ -81,5 +81,5 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/fda2016-arsenic-rice-cereal-analytic-results\|FDA 2016]]. *Analytical Results: Inorganic Arsenic in Infant/Toddler Foods (2016)*, US Food and Drug Administration | 2016 | Government dataset | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->

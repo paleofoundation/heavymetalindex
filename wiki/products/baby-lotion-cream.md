@@ -14,7 +14,7 @@ primary_metals_of_concern: [Pb, Cd]
 applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 1
+sources: 4
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Lotion / Baby Cream
@@ -79,5 +79,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan\|Arshad et al. 2020]]. *Evaluation of heavy metals in cosmetic products and their health risk assessment*, Saudi Pharmaceutical Journal 28(2020):779-790 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
