@@ -508,6 +508,23 @@ function setupAskPage(root: HTMLElement) {
     textarea.value = ""
     submitQuestion(question)
   })
+
+  // Deep-link support: /ask?q=<question> prefills the textarea, and /ask?q=...&auto=1
+  // additionally submits immediately. Useful for shareable question URLs and for
+  // browser screenshot verification.
+  try {
+    const params = new URLSearchParams(window.location.search)
+    const prefill = params.get("q")
+    if (prefill) {
+      textarea.value = prefill
+      if (params.get("auto") === "1") {
+        // Submit on the next tick so the page has a chance to paint the prefill first.
+        setTimeout(() => form.requestSubmit(), 50)
+      }
+    }
+  } catch {
+    // No-op if URL parsing fails.
+  }
 }
 
 function setupAllAskPage() {
