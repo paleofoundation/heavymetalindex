@@ -11,6 +11,7 @@ updated: 2026-04-30
     <a href="products/">Products</a>
     <a href="ingredients/">Ingredients</a>
     <a href="metals/">Metals</a>
+    <a href="mitigation/">Mitigation</a>
     <a href="regulations/">Regulations</a>
     <a href="synthesis/">Synthesis</a>
     <a href="sources/">Sources</a>

@@ -121,6 +121,391 @@ These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/co
 - [[products/peanut-butter|Peanut Butter]] (0 sources) — contaminated (Al, Ni)
 - [[products/sunflower-seed-butter|Sunflower Seed Butter]] (0 sources) — contaminated (Cd)
 
+
+## HMTc Category 3: Grains, Cereals, and Rice Products
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Contamination platform notes: Rice is a known contamination platform for iAs, Cd, and Pb. Non-rice grains are the clean counterpart.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/flour-non-rice|Flour (wheat, corn, other)]]
+2. [[products/bread-and-baked-goods|Bread and baked goods]]
+3. [[products/pasta-wheat-based|Pasta (wheat-based)]]
+4. [[products/pasta-rice-based|Pasta (rice-based)]]
+5. [[products/breakfast-cereal-non-rice|Breakfast cereal (non-rice)]]
+6. [[products/breakfast-cereal-rice-based|Breakfast cereal (rice-based)]]
+7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]]
+8. [[products/rice-snacks-crackers|Rice snacks/crackers]]
+9. [[products/rice-noodles|Rice noodles]]
+10. [[products/rice-beverages-rice-milk|Rice beverages (rice milk)]]
+11. [[products/other-grain-products|Other grain products (oat, millet, quinoa, barley)]]
+
+## HMTc Category 6: Seafood
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Contamination platform notes: Predatory fish are a contamination platform for MeHg. Seaweed is a contamination platform for iAs and Cd. Non-predatory fish and shellfish are the clean counterparts for Hg.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/fish-freshwater|Fish — freshwater (tilapia, catfish, trout)]]
+2. [[products/fish-marine-non-predatory|Fish — marine, non-predatory (sardines, anchovies, salmon, cod)]]
+3. [[products/fish-marine-predatory|Fish — marine, predatory (tuna, swordfish, shark, king mackerel)]]
+4. [[products/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]]
+5. [[products/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]]
+6. [[products/canned-seafood|Canned seafood (with tin flag)]]
+
+## HMTc Category 7: Oils, Condiments, and Specialty Foods
+
+Exposure pathway: **Ingestion (oral, typically small serving sizes)**.  Regulatory jurisdiction: **FDA, EU, Codex**.
+
+Contamination platform notes: Cacao → Cd, Pb (from soil); spices → Pb, Cr (from adulteration, processing); canned goods → Sn (from tinplate migration).
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/olive-oil|Olive oil]]
+2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]]
+3. [[products/butter-and-ghee|Butter and ghee]]
+4. [[products/honey-and-syrups|Honey and syrups (maple, agave, molasses)]]
+5. [[products/vinegar|Vinegar]]
+6. [[products/condiments-general|Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)]]
+7. [[products/cocoa-chocolate-products|Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)]]
+8. [[products/herbs-spices-dried-seasonings|Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)]]
+9. [[products/salt|Salt (table, sea, Himalayan)]]
+10. [[products/snacks-general|Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)]]
+11. [[products/canned-foods-general|Canned foods, general (canned tomatoes, beans, soups — with tin flag)]]
+12. [[products/mixed-meals-prepared-foods|Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)]]
+
+## HMTc Category 8: Water and Water-Based Products
+
+Exposure pathway: **Ingestion (oral, high-volume daily consumption)**.  Regulatory jurisdiction: **EPA (MCLs), FDA (bottled water), EU (Drinking Water Directive)**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]]
+2. [[products/mineral-water|Mineral water]]
+3. [[products/sparkling-carbonated-water|Sparkling/carbonated water (unflavored)]]
+4. [[products/infant-nursery-water|Infant water / nursery water (if not routed to Category 1 by age-marketing)]]
+
+## HMTc Category 9: Infant and Child Contact Products (Ages 0-5)
+
+Exposure pathway: **Oral (mouthing) + dermal (contact with mucous membranes, saliva)**.  Regulatory jurisdiction: **CPSIA, CPSC, FDA (food-contact for bottles/nipples), EU**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/infant-bottles|Bottles (plastic, glass, stainless steel)]]
+2. [[products/infant-bottle-nipples|Bottle nipples and spouts]]
+3. [[products/sippy-cups-toddler-drinkware|Sippy cups and toddler drinkware components]]
+4. [[products/pacifiers-and-sucking-teething-aids|Pacifiers and sucking/teething aids]]
+5. [[products/teething-toys-teethers|Teething toys/teethers]]
+6. [[products/infant-food-storage-items|Infant food-storage items (milk storage bags/containers)]]
+7. [[products/diapers-and-components|Diapers and diaper components]]
+8. [[products/feeding-accessories-child-sized|Feeding accessories (spoons, plates, bowls — child-sized)]]
+
+## HMTc Category 10: Infant and Child Durable Goods and Textiles (Ages 0-5)
+
+Exposure pathway: **Dermal (prolonged skin contact) + incidental oral (mouthing of fabric, clasps)**.  Regulatory jurisdiction: **CPSIA, ASTM F963, OEKO-TEX, EU REACH**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/cribs-and-bassinets|Cribs and bassinets]]
+2. [[products/play-yards-and-gates|Play yards and gates/enclosures]]
+3. [[products/strollers|Strollers]]
+4. [[products/walkers|Walkers]]
+5. [[products/swings-and-bouncers|Swings and bouncers]]
+6. [[products/infant-carriers|Infant carriers (wraps, structured carriers)]]
+7. [[products/high-chairs-and-booster-seats|High chairs and booster seats]]
+8. [[products/car-seats|Car seats (if retained in HMTc scope)]]
+9. [[products/infant-clothing|Clothing (onesies, pajamas, outerwear)]]
+10. [[products/bibs|Bibs]]
+11. [[products/blankets-and-sleep-sacks|Blankets and sleep sacks]]
+12. [[products/clasps-fasteners-infant-products|Clasps/fasteners (snaps, zippers, buttons) used in infant products]]
+
+## HMTc Category 11: Meat, Poultry, and Eggs
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA, USDA (meat/poultry inspection), EU, Codex**.
+
+Contamination platform notes: Organ meats (especially liver, kidney) accumulate Cd and Pb at higher levels than muscle tissue. Game meats may contain Pb from lead ammunition.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/beef-product|Beef]]
+2. [[products/pork-product|Pork]]
+3. [[products/lamb-mutton|Lamb/mutton]]
+4. [[products/poultry-product|Poultry (chicken, turkey, duck)]]
+5. [[products/game-meats|Game meats (venison, bison, rabbit)]]
+6. [[products/eggs-product|Eggs]]
+7. [[products/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]]
+8. [[products/canned-meats|Canned meats (with tin flag)]]
+
+## HMTc Category 12: Household Cleaning and Dishwashing
+
+Exposure pathway: **Dermal (incidental skin contact) + ingestion (residue on dishes/surfaces)**.  Regulatory jurisdiction: **EPA (Safer Choice), Green Seal, state disclosure laws**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/all-purpose-cleaners|All-purpose cleaners]]
+2. [[products/kitchen-countertop-cleaners|Kitchen/countertop cleaners]]
+3. [[products/bathroom-tub-tile-cleaners|Bathroom/tub/tile cleaners]]
+4. [[products/toilet-bowl-cleaners|Toilet bowl cleaners]]
+5. [[products/window-glass-mirror-cleaners|Window/glass/mirror cleaners]]
+6. [[products/floor-cleaners-hard-surface|Floor cleaners (hard surface)]]
+7. [[products/floor-finishes-strippers|Floor finishes & strippers (if included in HMTc scope)]]
+8. [[products/carpet-cleaners|Carpet cleaners]]
+9. [[products/carpet-spot-removers|Carpet spot removers]]
+10. [[products/degreasers|Degreasers]]
+11. [[products/oven-grill-bbq-cleaners|Oven/grill/BBQ cleaners]]
+12. [[products/appliance-cleaners|Appliance cleaners (including stainless steel cleaners)]]
+13. [[products/descalers|Descalers]]
+14. [[products/dish-soaps-manual|Dish soaps (manual dishwashing)]]
+15. [[products/automatic-dishwasher-detergents|Automatic dishwasher detergents]]
+16. [[products/rinse-aids|Rinse aids]]
+17. [[products/cleaning-wipes-household|Cleaning wipes (household surface wipes)]]
+18. [[products/drain-maintainers-cleaners|Drain maintainers/cleaners (including biological-based)]]
+19. [[products/odor-removers-hard-surfaces|Odor removers for hard surfaces]]
+20. [[products/household-specialty-cleaners-other|Other household specialty cleaners (by functional use-case)]]
+
+## HMTc Category 13: Cosmetics and Personal Care — Leave-on
+
+Exposure pathway: **Dermal (prolonged skin/hair/nail contact)**.  Regulatory jurisdiction: **FDA cosmetics, EU Cosmetics Regulation 1223/2009**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/fragrance-preparations|Fragrance preparations (perfumes, colognes, body sprays)]]
+2. [[products/dusting-talc-powders-adult|Dusting/talc powders (adult)]]
+3. [[products/face-neck-leave-on-skin-care|Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)]]
+4. [[products/body-hand-leave-on-skin-care|Body/hand leave-on skin care]]
+5. [[products/makeup-foundation-powders-blush|Makeup — foundation, powders, blush/rouge]]
+6. [[products/makeup-body-paints-bases-fixatives|Makeup — body/leg paints, bases, fixatives (including airbrush)]]
+7. [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]]
+8. [[products/lip-products|Lip products (lipstick, gloss, lip balm)]]
+9. [[products/deodorants|Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)]]
+10. [[products/sun-suntan-products|Sun/suntan products (including spray, self-tan, airbrush)]]
+11. [[products/leave-on-hair-preparations|Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)]]
+12. [[products/permanent-hair-dyes-tints|Permanent hair dyes/tints (remain in hair after application)]]
+13. [[products/manicuring-preparations-leave-on|Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)]]
+14. [[products/tattoo-inks|Tattoo inks (permanent and temporary)]]
+15. [[products/leave-on-preparations-other|Other leave-on preparations (case-by-case)]]
+
+## HMTc Category 14: Cosmetics and Personal Care — Rinse-off
+
+Exposure pathway: **Dermal (brief skin contact, then rinsed)**.  Regulatory jurisdiction: **FDA cosmetics, EU Cosmetics Regulation 1223/2009**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/shampoo-adult|Shampoo (general adult)]]
+2. [[products/conditioner-adult-rinse-out|Conditioner (general adult, rinse-out)]]
+3. [[products/body-wash-shower-gel|Body wash/shower gel]]
+4. [[products/facial-cleansers|Facial cleansers (foaming, cream, gel, oil, micellar)]]
+5. [[products/hand-soap|Hand soap (liquid and bar)]]
+6. [[products/exfoliants-scrubs|Exfoliants/scrubs (body, facial)]]
+7. [[products/shaving-cream-gel-foam|Shaving cream/gel/foam]]
+8. [[products/hair-removal-products|Hair removal products (depilatory creams)]]
+9. [[products/hair-dye-rinse-off|Hair dye/color rinses (rinse-off after processing)]]
+10. [[products/deep-conditioning-treatments-rinse-off|Deep conditioning treatments/hair masks (rinse-off)]]
+11. [[products/rinse-off-preparations-other|Other rinse-off preparations (case-by-case)]]
+
+## HMTc Category 15: Feminine Care
+
+Exposure pathway: **Mucosal (vaginal/vulvar mucosa) + dermal**.  Regulatory jurisdiction: **FDA (medical devices for tampons/pads/cups), EU MDR, FDA cosmetics**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/menstrual-tampons|Menstrual tampons (scented/unscented; applicator tested as distinct component)]]
+2. [[products/menstrual-pads|Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)]]
+3. [[products/menstrual-cups|Menstrual cups (silicone/latex/other polymers)]]
+4. [[products/menstrual-discs|Menstrual discs]]
+5. [[products/period-underwear-reusable-garments|Period underwear and reusable menstrual garments]]
+6. [[products/feminine-wipes|Feminine wipes/towelettes]]
+7. [[products/feminine-deodorants|Feminine deodorants (leave-on and rinse-off)]]
+8. [[products/douches-vaginal-irrigation|Douches and vaginal irrigation solutions/apparatus components]]
+9. [[products/intimate-washes-cleansers|Intimate washes/cleansers]]
+10. [[products/menstrual-intimate-products-other|Other menstrual/intimate products (case-by-case)]]
+
+## HMTc Category 16: Dietary Supplements (Human)
+
+Exposure pathway: **Ingestion (oral)**.  Regulatory jurisdiction: **FDA (DSHEA), USP, California Prop 65**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/supplements-oral-solids-tablets|Oral solids: tablets/caplets]]
+2. [[products/supplements-oral-solids-capsules|Oral solids: capsules]]
+3. [[products/supplements-oral-solids-softgels|Oral solids: softgels/gelcaps]]
+4. [[products/supplements-oral-solids-gummies|Oral solids: gummies/chewables]]
+5. [[products/supplements-oral-solids-lozenges|Oral solids: lozenges]]
+6. [[products/supplements-oral-solids-powders|Oral solids: powders (bulk tubs, sachets, stick packs)]]
+7. [[products/supplements-oral-solids-effervescent|Oral solids: effervescent tablets]]
+8. [[products/supplements-oral-liquids-tinctures|Oral liquids: tinctures/drops]]
+9. [[products/supplements-oral-liquids-syrups|Oral liquids: syrups]]
+10. [[products/supplements-oral-liquids-shots|Oral liquids: liquid shots]]
+11. [[products/supplements-oral-liquids-droppers|Oral liquids: droppers]]
+12. [[products/supplements-teas-labeled|Food-like forms: teas (when labeled as supplement)]]
+13. [[products/supplements-bars-labeled|Food-like forms: bars (when labeled as supplement)]]
+14. [[products/supplements-vitamin-mineral|Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)]]
+15. [[products/supplements-botanicals-herbs|Ingredient class — botanicals/herbs/traditional formulas]]
+16. [[products/supplements-amino-acids-isolates|Ingredient class — amino acids & isolates]]
+17. [[products/supplements-enzymes|Ingredient class — enzymes]]
+18. [[products/supplements-probiotics|Ingredient class — live microbials/probiotics]]
+19. [[products/supplements-algae-seaweed-based|Ingredient class — algae/seaweed-based]]
+20. [[products/supplements-protein-collagen-powders|Ingredient class — protein/collagen powders]]
+21. [[products/supplements-oil-based|Ingredient class — oil-based supplements (fish oil/omega-3 and similar)]]
+
+## HMTc Category 17: Pet Foods
+
+Exposure pathway: **Ingestion (oral, animal)**.  Regulatory jurisdiction: **FDA CVM, AAFCO, EU Directive 2002/32**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/pet-food-dry-kibble|Complete & balanced dry (kibble)]]
+2. [[products/pet-food-canned-wet|Complete & balanced canned/wet]]
+3. [[products/pet-food-semi-moist|Semi-moist pet foods]]
+4. [[products/pet-food-raw|Raw pet foods (frozen/chilled raw diets)]]
+5. [[products/pet-food-freeze-dried|Freeze-dried/dehydrated pet foods (including freeze-dried raw)]]
+6. [[products/pet-treats-snacks|Pet treats/snacks]]
+7. [[products/pet-chews-dental|Pet chews (including dental chews)]]
+8. [[products/pet-toppers-mixers-broths|Toppers/mixers/broths]]
+9. [[products/pet-milk-replacers-specialty-liquids|Milk replacers and specialty pet liquids]]
+
+## HMTc Category 18: Pet Supplements
+
+Exposure pathway: **Ingestion (oral, animal)**.  Regulatory jurisdiction: **FDA CVM, NASC (voluntary), EU feed additive regulations**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/pet-supplements-vitamin-mineral|Vitamin/mineral supplements]]
+2. [[products/pet-supplements-oils|Oils (omega-3, fish oil, coconut oil)]]
+3. [[products/pet-supplements-probiotics-digestive|Probiotics/digestive aids]]
+4. [[products/pet-supplements-botanical-herbal|Botanical/herbal blends]]
+5. [[products/pet-supplements-functional-blends|Joint/skin/coat functional blends]]
+6. [[products/pet-supplements-calming-behavioral|Calming/behavioral supplements]]
+7. [[products/pet-supplements-other|Other pet ingestibles (case-by-case)]]
+
+## HMTc Category 19: Laundry and Fabric-Contact Home Products
+
+Exposure pathway: **Dermal (residue on fabric in prolonged skin contact)**.  Regulatory jurisdiction: **Green Seal GS-48, EPA Safer Choice**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/laundry-detergents|Laundry detergents (liquid, powder, pods/sheets, delicates)]]
+2. [[products/laundry-detergent-boosters-additives|Laundry detergent boosters/additives]]
+3. [[products/pre-treaters-stain-removers|Pre-treaters (spray/gel/stick) and stand-alone stain/spot removers]]
+4. [[products/bleaching-whitening-additives|Bleaching/whitening additives]]
+5. [[products/fabric-softeners|Fabric softeners (liquids and sheets)]]
+6. [[products/anti-static-products|Anti-static products (liquid and sheets)]]
+7. [[products/fabric-refresher-products|Fabric refresher products]]
+8. [[products/anti-wrinkle-wrinkle-release-products|Anti-wrinkle/wrinkle-release products]]
+9. [[products/laundry-prewash-products|Laundry prewash products]]
+10. [[products/laundry-starch-sizing-fabric-finish|Laundry starch/sizing/fabric finish products]]
+11. [[products/fabric-protectants|Fabric protectants (excluding waterproofing/flame-retardant per GS-48 boundaries)]]
+12. [[products/fabric-contact-combination-products|Combination products serving multiple functions]]
+13. [[products/fabric-contact-products-other|Other fabric-contact home products (case-by-case)]]
+
+## HMTc Category 20: Oral Care
+
+Exposure pathway: **Oral mucosal (direct contact with mouth/teeth/gums)**.  Regulatory jurisdiction: **FDA (OTC drug monograph, cosmetics), ADA, EU Cosmetics Regulation 1223/2009**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/dentifrices|Dentifrices (toothpaste, gel, powder, tablets)]]
+2. [[products/mouthwash-oral-rinse|Mouthwash/oral rinse]]
+3. [[products/breath-fresheners|Breath fresheners (sprays/strips/lozenges)]]
+4. [[products/toothbrushes|Toothbrushes (manual, electric heads)]]
+5. [[products/floss-interdental-cleaners|Floss and interdental cleaners (floss, picks, interdental brushes, woodsticks)]]
+6. [[products/oral-irrigators-water-flossers|Oral irrigators/water flossers and tips (if included)]]
+7. [[products/whitening-products|Whitening products (strips/gels/powders/pens)]]
+8. [[products/tongue-cleaners-scrapers|Tongue cleaners/scrapers]]
+9. [[products/denture-orthodontic-care|Denture and orthodontic-appliance care (adhesives, cleaning tablets/solutions)]]
+10. [[products/oral-products-other|Other oral products (case-by-case)]]
+
+## HMTc Category 21: Children's Toys, Arts, and Crafts
+
+Exposure pathway: **Oral (mouthing) + dermal (handling) + incidental ingestion (art materials)**.  Regulatory jurisdiction: **CPSC (ASTM F963, CPSIA, LHAMA), EU Toy Safety Directive**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/toys-painted|General toys with paint/surface coatings]]
+2. [[products/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]]
+3. [[products/toys-stuffed-bean-bag|Stuffed toys and bean bag-type toys]]
+4. [[products/toys-stuffing-materials|Stuffing materials]]
+5. [[products/toys-rattles|Rattles]]
+6. [[products/toys-squeeze|Squeeze toys]]
+7. [[products/toy-pacifiers|Toy pacifiers (toy-designated)]]
+8. [[products/toys-battery-electronic|Battery-operated/electronic toys]]
+9. [[products/toys-sound-producing|Sound-producing toys]]
+10. [[products/toys-with-magnets|Toys with magnets]]
+11. [[products/toys-projectile-guns|Projectile toys and toy guns]]
+12. [[products/toys-balloons|Balloons]]
+13. [[products/toys-balls|Balls]]
+14. [[products/toys-marbles|Marbles]]
+15. [[products/toys-yo-yo-elastic-tether|Yo-yo elastic tether toys]]
+16. [[products/toys-pompoms-fibrous-craft|Pompoms and similar small fibrous craft items]]
+17. [[products/toys-attached-cribs-playpens|Toys attached to cribs/playpens]]
+18. [[products/toys-stroller-carriage|Stroller/carriage toys]]
+19. [[products/toy-chests|Toy chests]]
+20. [[products/art-craft-materials|Art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits)]]
+21. [[products/toys-crafts-other|Other toys/crafts (case-by-case)]]
+
+## HMTc Category 22: Home Air and Inhalation-Adjacent Products
+
+Exposure pathway: **Inhalation (ambient air emission, respiratory)**.  Regulatory jurisdiction: **RIVM, CPSC (candles), EU CLP**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/instant-air-refreshment-sprays|Instant air refreshment sprays (aerosol cans, trigger sprays)]]
+2. [[products/electric-plug-in-evaporators|Electric plug-in evaporators]]
+3. [[products/automatic-puff-releasers|Automatic puff releasers]]
+4. [[products/sensor-puff-releasers|Sensor puff releasers]]
+5. [[products/scented-candles|Scented candles]]
+6. [[products/scented-wax-blocks-melts|Scented wax blocks/wax melts]]
+7. [[products/heated-oil-diffusers|Heated oil diffusers]]
+8. [[products/nebula-diffusers|Nebula diffusers]]
+9. [[products/gel-diffusers|Gel diffusers]]
+10. [[products/capillary-reed-wood-diffusers|Capillary reed/wood diffusers]]
+11. [[products/incense-sticks-cones|Incense sticks/cones]]
+12. [[products/potpourri-sachets|Potpourri/sachets]]
+13. [[products/vacuum-cleaner-fragrance-additives|Vacuum cleaner fragrance additives]]
+14. [[products/air-product-refill-materials|Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills)]]
+15. [[products/home-air-emission-products-other|Other home-air emission products (case-by-case, inhalation prioritized)]]
+
+## HMTc Category 23: Food-Contact Consumer Goods and Kitchenware
+
+Exposure pathway: **Ingestion (indirect — metals migrate/leach from product into food/beverage)**.  Regulatory jurisdiction: **FDA (food-contact substances), EU (food-contact material regulations), California Prop 65**.
+
+These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
+
+1. [[products/food-packaging-cans-lids|Cans/lids]]
+2. [[products/food-packaging-glass-jars|Glass jars]]
+3. [[products/food-packaging-plastic-tubs|Plastic tubs]]
+4. [[products/food-packaging-paperboard-cartons|Paperboard cartons]]
+5. [[products/food-packaging-flexible-pouches-films|Flexible pouches/films]]
+6. [[products/food-packaging-foils-wraps|Foils/wraps]]
+7. [[products/food-packaging-caps-closures|Caps/closures]]
+8. [[products/food-storage-plastic-containers|Plastic food storage containers]]
+9. [[products/food-storage-glass-containers|Glass food storage containers]]
+10. [[products/food-storage-silicone|Silicone food storage]]
+11. [[products/food-storage-lids-gaskets|Lids/gaskets]]
+12. [[products/tableware-ceramicware|Ceramicware]]
+13. [[products/tableware-glassware|Glassware]]
+14. [[products/tableware-metal-bottles-tumblers|Metal bottles/tumblers]]
+15. [[products/tableware-plastic-drinkware|Plastic drinkware]]
+16. [[products/tableware-decorative-decals-coatings|Decorative decals/coatings on tableware]]
+17. [[products/cookware-metal-alloy|Metal and alloy cookware (cast iron, stainless steel, aluminum)]]
+18. [[products/cookware-nonstick-coated|Nonstick-coated cookware]]
+19. [[products/cookware-ceramic-coated|Ceramic-coated cookware]]
+20. [[products/bakeware|Bakeware]]
+21. [[products/cookware-specialty-alloy|Specialty alloy cookware (copper, carbon steel)]]
+22. [[products/utensils-metal|Metal utensils]]
+23. [[products/utensils-plastic-silicone-tools|Plastic/silicone tools]]
+24. [[products/cutting-boards|Cutting boards (wood, plastic)]]
+25. [[products/food-prep-blender-jars|Blender jars]]
+26. [[products/food-prep-processor-bowls|Food processor bowls]]
+27. [[products/food-prep-coffee-maker-pathways|Coffee-maker pathways]]
+28. [[products/food-prep-kettle-interiors|Kettle interiors]]
+29. [[products/water-filters|Water filters]]
+30. [[products/filter-media-and-housings|Filter media and housings]]
+
 <!-- BEGIN: hmi-auto-linked-stubs -->
 
 ## Auto-linked stubs
