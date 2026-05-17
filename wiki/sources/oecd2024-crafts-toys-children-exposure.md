@@ -14,12 +14,12 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Considerations_when_Estimating_Exposure_to_Crafts_and_Toys_in_Children.pdf"
 metals: []
 ingredients: []
-products: ["[[products/face-paint]]", "[[products/childrens-makeup]]"]
+products: ["[[products/face-paint]]"]
 matrices: []
 jurisdictions: []
 near_duplicates: []
 sample_n: null
-sample_population: "OECD-led methodology compilation across 7 craft-and-toy product categories; case studies submitted by Netherlands, Germany, Canada, Denmark, France, Italy, Japan, Korea, Sweden, US, EU"
+sample_population: "OECD methodology compilation across 7 craft-and-toy product categories. Twelve worked case studies (A-L) submitted by 4 WPEA contributing countries (Netherlands, Germany, Canada, Denmark) per Executive Summary; broader WPEA Children's Health subgroup membership comprised Australia, Canada, Costa Rica, France, Germany, Italy, Japan, Korea, Netherlands, Sweden, US, EU, BIAC, WHO, and the European Environment Bureau (per Foreword)."
 updated: 2026-05-17
 ---
 
@@ -32,8 +32,10 @@ This OECD Working Party on Exposure Assessment (WPEA) document compiles paramete
 - Product categories covered (Exec Summary p. 7): modelling clay/putty/slime; paint (craft/face/finger); markers/highlighters/pens; cuddle toy/squishy; glues/adhesives/pastes; temporary tattoos; chalk/crayons/colouring pencils.
 - Emerging product categories examined (Section 3): kinetic sand and thinking putty; water gel, jelly marbles, and fake snow powder; Science kits and "make your own cosmetics" kits.
 - Age groups for craft/toy exposure (Table 2.1): the document references international age-bracket conventions (infant 0-1 yr; toddler 1-3 yr; pre-schooler 3-6 yr; school-age 6-11 yr; adolescent 11-21 yr) with body-weight defaults to be drawn from US EPA EFH 2011, EU EFSA Default Values for Children, or OECD Tier 1 defaults.
-- Case studies (Annex C, pp. 54-65): each case study presents a worked exposure-dose calculation for a single product category and route combination. Face Paint-Dermal (Case Study D) and Face Paint-Dermal-Oral (Case Study E) are the most directly relevant for heavy-metal cosmetic exposure modeling.
-- Twelve case studies submitted by Working Party members from: Netherlands, Germany, Canada, Denmark, France, Italy, Japan, Korea, Sweden, US, EU.
+- Case studies (Annex C, pp. 54-65): twelve worked exposure-dose calculations (A-L), each covering one product-category × route combination. Face Paint-Dermal (Case D, ages 3-6, ConsExpo dermal-direct-contact model) and Face Paint-Dermal-Oral (Case E, ages 0.5-4, ConsExpo v4.1 dermal + oral) are the most directly relevant for heavy-metal craft/cosmetic exposure modeling.
+- Case A (Crayon-Oral) is the only case study with an inorganic substance illustration: applies the framework to copper exposure from a single MSDS-reported crayon (Crayon-Aqua, 0.3% Cu per MSDS 2009) at PA 8 mg/day, F 1/day, BW 15.5 kg, age 0.5-4 yr. Methodology only; not a peer-reviewed occurrence value.
+- Case H (Slime-Dermal-Oral, inorganic) references the EN 71-3 element-migration test (boron migration up to 6,384 mg/kg) under the BfR (2022) opinion framework. EN 71-3 is the Toy Safety Directive 2009/48/EC analytical reference for migration of Pb, Cd, As, Sb, Ba, Hg, Se, Cr, and other elements.
+- Case studies submitted by 4 WPEA contributors (Netherlands, Germany, Canada, Denmark) per Executive Summary p. 7. Broader subgroup membership (Australia, Canada, Costa Rica, France, Germany, Italy, Japan, Korea, Netherlands, Sweden, US, EU, BIAC, WHO, EEB) reviewed the document per Foreword.
 - Endorsed by OECD WPEA June 2024; published under Chemicals and Biotechnology Committee responsibility.
 
 ## Methods (brief)
@@ -42,19 +44,21 @@ OECD WPEA-led methodology compilation. Sources reviewed: existing exposure-model
 
 ## Implications
 
-- Certification (HMTc): Methodology reference for face paint, finger paint, and cosmetic kit threshold work. The Face Paint case studies (D and E) provide a worked dermal and dermal+oral exposure calculation framework that can be reused with heavy-metal occurrence data. Not directly threshold-anchoring (no occurrence values).
+- Certification (HMTc): Methodology reference for face-paint and finger-paint exposure modelling. Case D (Face Paint-Dermal, ConsExpo direct-contact, 410 cm² exposed half-head area, 1.2 g product amount, 12 applications/year, 15.7 kg BW) and Case E (Face Paint-Dermal-Oral, ConsExpo v4.1, 1.4 g/application, 0.44 mg/min oral ingestion rate, 480 min duration) supply default exposure parameters that can be combined with heavy-metal occurrence data from other sources to estimate per-event dose. Not directly threshold-anchoring (no occurrence values in this document).
 - Courses: Foundational regulatory-affairs reading for children's product exposure-assessment modules. Demonstrates the OECD-harmonized framework for craft/toy exposure estimation across dermal, oral, and inhalation routes.
 - App: Not relevant to ingredient contamination_profile. Provides per-product use-frequency and use-duration defaults that could seed a children's-product use-pattern table.
 
 ## Wiki pages this source may touch
 
 - [[products/face-paint]]
-- [[products/childrens-makeup]]
-- [[products/childrens-lip-balm-mineral-bearing]]
-- [[products/childrens-lip-balm-plain]]
+- [[metals/lead]], [[metals/cadmium]], [[metals/arsenic]], [[metals/antimony]], [[metals/barium]], [[metals/mercury]], [[metals/chromium]] — only via EN 71-3 reference framework cited in Case H; no occurrence data reported here.
 
 ## Verification notes
 
-- This is a methodology document with NO heavy-metal occurrence data. Frontmatter `metals: []` is correct.
-- Case studies use generic chemicals as examples (not metals specifically); the algorithmic framework is metal-agnostic and reusable.
-- Emerging-product gap analysis (kinetic sand, science kits) flags categories where HMI may need new product slugs in the future; "make your own cosmetics" kits in particular straddle children-personal-care and toy regulatory frames.
+- 2026-05-17 merge-enhance pass (Claude Opus 4.7, fresh-context read of pp. 1-15 and 53-66): page metadata, twelve case-study tally, OECD WPEA provenance and CC BY 4.0 licence reverified against title page, copyright page (p. 2), Foreword (p. 4), Executive Summary (p. 7), Scope (pp. 9-11), Annex B (p. 53), and Annex C (pp. 54-65).
+- Corrected contributing-country claim: prior revision conflated case-study contributors (4 countries — Netherlands, Germany, Canada, Denmark per Executive Summary p. 7) with WPEA Children's Health subgroup membership (broader 15-entity list per Foreword p. 4). Now stated separately.
+- Removed the children's-makeup product pointer from frontmatter `products:` (prior revision had it as a wikilink). The OECD scope statement (p. 10) explicitly excludes cosmetics: "Some exposure scenarios for children, such as cosmetics ... were not included in this case study as these products would be considered separate from crafts and toys." Face paint is treated as a craft product (Annex A toy/article categorisation), not a cosmetic. The HMTc Cat 2 Row 13 children's-makeup page covers cosmetic-grade makeup (eye shadow, blush, foundation), which is outside this source's scope.
+- Removed two speculative children's-lip-balm pointers (mineral-bearing and plain) from the prior "Wiki pages this source may touch" list: lip balm is not addressed anywhere in this document.
+- `metals: []` retained: the document is methodology and exposure-modelling guidance, not an occurrence study. The only metal-specific case study (Case A — copper in crayon at 0.3% per a single MSDS) uses an MSDS placeholder rather than a peer-reviewed measurement; the EN 71-3 reference in Case H names the analyte list (Pb, Cd, As, Sb, Ba, Hg, Se, Cr) but does not report values. Adding `metals:` slugs would over-attribute the document.
+- Brand-firewall clean: case studies cite agencies (Danish EPA, BfR, RIVM, ECCC/Health Canada, US EPA, SCHER, EFSA), regulatory test standards (EN 71-3, Toy Safety Directive 2009/48/EC), exposure tools (ConsExpo, ConsExpo Web 4.1, ExpoFIRST, SHEDS), and academic references (te Biesebeek 2014, Van Engelen 2008, Park 2018, Guak 2018, den Braver 2021, Affourtit 2023). The Case A "Crayon-Aqua (MSDS 2009, Horizon Group USA)" reference names a single MSDS document, not a brand-attributable contamination value — this is the scientific-methods exception per Part 12 (Exception 2). No brand-attributed contamination data anywhere in the document.
+- Emerging-product gap analysis (kinetic sand, water gel marbles, "make your own cosmetics" kits, science kits) flags categories where HMI may need new product slugs in the future. Surfaced for Karen's category-creation queue, not actioned in this ingest.
