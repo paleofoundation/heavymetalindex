@@ -15,7 +15,7 @@ raw_path: raw/markdown/FM_10407656/FM_10407656.md
 metals: [Pb, Cd, tAs, tHg, Al]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingredients/seafood]]"]
 products: ["[[products/fresh-fish]]", "[[products/seafood]]"]
-matrices: [fish, freshwater-fish, marine-fish]
+matrices: [fish]
 jurisdictions: [EG]
 near_duplicates: []
 sample_n: 120
@@ -70,6 +70,7 @@ App: May contribute to the `contamination_profile` for `fish` and `freshwater-fi
 
 ## Verification notes
 
+- Cross-vendor audit (Codex, 2026-05-17) caught noncanonical matrix terms `freshwater-fish` and `marine-fish`; collapsed `matrices:` to the broad controlled-vocabulary term `fish` per source scope.
 - The paper cites European Commission Regulation (EC) No 1881/2006 as the source of the Pb (0.30 mg/kg), Cd (0.05 mg/kg), and Hg (0.50 mg/kg) limits for fish flesh. No regulation page for EC 1881/2006 currently exists in the wiki taxonomy. EC 1881/2006 was the operative EU contaminants framework before being recast by EU 2023/915 (May 2023). Worth adding `eu-1881-2006-contaminants-superseded` as a regulation page so that pre-recast literature has a citable target; flagged for Karen per Part 10.
 - The Results paragraph on page 5 lists the species in the same order as Table 1 but reverses the Cd exceedance counts (paragraph reads 1, 8, 13, 15, 13, 4 against species O. niloticus → L. nebulosus, while Table 1 reads 4, 13, 15, 13, 8, 1 across the same species columns). Table 1 values are used in this source page; the discrepancy is a paper-internal error, not a transcription issue.
 - The paper's Abstract reports the Pb/Cd exceedance percentages for L. niloticus as "75 and 15%" — the Pb and Cd percentages are swapped relative to Table 1, which has L. niloticus at 25% Pb and 75% Cd. This is a third paper-internal inconsistency in addition to the Results-vs-Table-1 mismatch above. Table 1 values are canonical.
