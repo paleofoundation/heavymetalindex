@@ -102,11 +102,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Soy-based infant formula uses soy protein isolate as the protein base rather than cow-milk protein. The soy protein isolate carries the source-soybean Al, Ni, and Cd profile at concentrated per-mass levels (because protein extraction concentrates these metals; see [[ingredients/soy]]). Soy-based formula consequently carries elevated Al, Ni, and Cd relative to cow-milk-based formula even when the rest of the formulation (carbohydrate source, fat blend, vitamin-mineral premix) is identical. Multiple infant-formula surveys document this consistently: [[sources/kazi2009-toxic-elements-in-infant-formulae|Kazi 2009]] Pakistani-market soy formula Al at 2,270 ppb vs cow-milk formula substantially lower; [[sources/burrell2010-aluminium-in-infant-formulas|Burrell 2010]] UK soy powder formula at 4.3 µg/g (629 µg/L prepared); [[sources/chuchu2013-aluminium-in-infant-formulas|Chuchu 2013]] soy powder formula at 656-756 µg/L prepared.
+
+Soy-based formula is medically indicated for infants with cow-milk-protein allergy or with galactosemia, and is otherwise consumed by infants of vegan families or by parents of preference. The Cat 1 Step 0 lock splits soy-based formula from non-soy into separate rows ([[products/infant-formula-powder-soy-based]] and [[products/infant-formula-rtf-liquid-soy-based]]) because the Al/Ni/Cd-elevated profile warrants separate certification analysis.
+
+The HMTc panel concerns for soy-based infant formula are dominantly Al, Ni, and Cd (the soy-protein-isolate inheritance pathway), plus the standard Pb concerns common to all infant formulas.
 
 ## Heavy metal contamination profile
 
-_Pending synthesis. The per-analyte concentration table for this commodity will be populated as contributing sources accumulate per CLAUDE.md Part 9. Stub state until then._
+The body-level analyte snapshot for soy-based formula follows the per-format pages: see [[products/infant-formula-powder-soy-based]] and [[products/infant-formula-rtf-liquid-soy-based]] for the format-specific concentration tables. The dominant analytes of concern (Al, Ni, Cd) reflect the soy-protein-isolate inheritance described above; the contributing sources documented in the Source legend collectively establish the multi-fold Al elevation vs cow-milk formula.
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
@@ -123,22 +127,42 @@ _Pending synthesis. The per-analyte concentration table for this commodity will 
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within soy-based infant formula tracks: (a) source-soybean origin (US Midwest vs Brazilian vs Argentine vs Chinese vs European soy production), (b) the protein-isolation process used by the soy-isolate supplier, (c) the manufacturer's formulation choices (vitamin-mineral premix supplier, water source), and (d) historical generation (post-2020 vs pre-2010 manufacturer responses to the Al-in-soy-formula debate documented in Burrell 2010 and earlier).
+
+US-market soy-based formula, EU-market soy-based formula, and emerging-market soy-based formula carry different baseline profiles reflecting these per-region soy-supplier and per-manufacturer differences. The Al elevation in soy formula relative to cow-milk formula is consistent across markets at multiple-fold; absolute levels vary by manufacturer.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Soy-based infant formula manufacturing follows the same processing chain as cow-milk-based formula (see [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]]) with soy protein isolate substituted for the milk-protein-and-lactose ingredients. The protein-isolation step at the upstream soy-supplier stage is the dominant metal-concentration-from-raw-soybean event; once the isolate is incorporated into formula, downstream processing follows the standard infant-formula pathway without changing the Al/Ni/Cd-elevated profile.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Soy-based formula derivatives are the same format set as other infant formulas: powder, RTF liquid, concentrated liquid (Cat 1 Step 0 lock variants).
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) for soy-based formula are limited because the soy-isolate ingredient itself carries the elevated Al/Ni profile by species characteristic. The dominant brand-side decisions are:
+
+- Soy-supplier specification (testing of incoming soy protein isolate for Al, Ni, Cd against the per-mass-in-finished-formula compliance target).
+- Soy-origin selection within low-Al soybean production regions (limited efficacy because species-level Al accumulation dominates).
+- Hydrolysate or amino-acid formula substitution for infants with cow-milk-protein allergy as an alternative to soy-based formula where medically appropriate.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the soybean-production stage (see [[ingredients/soy]]).
+
+**Processing levers** ([[mitigation/processing]]) are limited; the Al/Ni profile is in the soy protein isolate already.
+
+**Formulation levers** ([[mitigation/formulation]]) include the alternative-base-protein substitution (hydrolyzed cow-milk protein, amino-acid-based formula) for medical-indication infants where soy is not the only option.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level Al, Ni, Cd, Pb testing on finished soy-based formula against the EU 10 ppb Pb prepared-for-feeding ML and applicable Al/Ni reference levels (EFSA TWI for Al).
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification (BPA-NI epoxy or food-grade alternative) and aluminum-foil-lined packaging considerations.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets binding maximum levels for infant formula: Pb 10 ppb prepared-for-feeding (~70 ppb powder basis), Cd 5 ppb, iAs 20 ppb, Hg 20 ppb. These apply to soy-based formula identically to cow-milk-based.
+- [[regulations/fda2020-inorganic-arsenic-infant-rice-cereal]] — FDA Closer to Zero iAs framework covers rice-containing formula.
+- Codex Alimentarius CXS 72-1981 (infant formula) and CXS 156-1987 (follow-up formula) — composition standards.
+- JECFA Al PTWI of 2 mg/kg b.w./week and EFSA TWI of 1 mg/kg b.w./week are the relevant dose-response references; soy-based formula at the upper end of the Al-concentration range documented in the corpus can deliver Al intakes that approach or exceed these reference levels for exclusive-soy-formula-fed infants.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
 
 
