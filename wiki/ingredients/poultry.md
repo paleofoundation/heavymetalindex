@@ -129,26 +129,54 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Poultry (chicken, turkey, duck, and other domestic fowl) inherits heavy metals through the bird's dietary and environmental exposure. The bird consumes feed grains, water, and supplements that may carry trace metals; lifetime exposure deposits in muscle, organs, bone, and feathers at different rates. Cadmium concentrates in kidney and liver tissue; lead deposits in bone with slow turnover. Chromium and nickel appear at trace levels reflecting feed-supplement composition and environmental exposure.
+
+Poultry production systems differ markedly in metal-exposure pathways. Conventional broiler chickens raised on grain feeds for 6-8 week production cycles have limited time for organ-Cd accumulation. Layer hens have longer lifespans (18-24 months for commercial layers) and accumulate more lifetime Cd. Pasture-raised and free-range poultry are exposed to soil and forage Pb in addition to feed-Pb; in regions with contaminated soils (urban, post-mining, lead-paint-deposition areas), backyard and free-range chicken eggs and meat have been documented at elevated Pb. [[sources/mahmud2011-crvi-chicken-pakistan|Mahmud 2011]] documents chromium-VI in Pakistani chicken; [[sources/kazimov2014-dietary-heavy-metals-azerbaijan|Kazimov 2014]] places poultry in the broader Azerbaijani dietary exposure picture.
+
+The HMTc panel concerns for poultry are dominantly Pb and Cd (muscle and organ), with secondary Cr concerns (some studies, including Mahmud 2011, identify Cr-VI specifically in poultry from Pakistan).
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Per-cut variation: White meat (breast) generally carries lower Pb and Cd than dark meat (thigh, drumstick) from the same bird, reflecting tissue-specific metal-binding patterns. Skin carries higher Pb in some surveys because skin is the deposition surface for environmental contamination. Organ meats (chicken liver, gizzard, heart) carry several-fold higher Cd than muscle; chicken liver is the dominant per-serving Cd contributor among poultry products.
+
+Geographic variation tracks production region and feed-source: regions with elevated soil-Cd or industrial Pb deposition produce poultry with elevated metal loads compared to regions with clean feed-source supply chains. The European, Australian, and North American commercial broiler systems with documented feed-supplier QC typically carry low metal loads. Sub-Saharan African and Asian production systems show more variance, often with elevated Pb in backyard and informal-sector poultry.
+
+Species variation: Chicken (Gallus gallus) is the dominant industrial species; turkey, duck, and goose have related but distinct profiles. Duck, raised in some production systems on pond water, can carry elevated metals where pond water is contaminated. Game birds (pheasant, quail, dove) hunted with lead ammunition can carry ammunition-derived Pb fragments and Pb-particle contamination.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Poultry processing (slaughter, scalding, de-feathering, evisceration, chilling, cutting, packaging) does not change muscle and organ metal content meaningfully. Chemical antimicrobial rinses (chlorine, peracetic acid, chlorine dioxide) at the processing plant do not affect HMTc-panel metals.
+
+Cooking does not reduce poultry Pb or Cd; water loss during cooking concentrates the metals per cooked-mass unit (per-serving total approximately conserved). Removing skin before cooking reduces per-serving Pb modestly where skin is the deposition surface. Boiling and broth-discard removes a small water-soluble metal fraction.
+
+Processing into deli meats, sausages, and ready meals inherits the source-poultry metal load plus added contributions from cure salts, binders, and packaging. Chicken nuggets, breaded products, and pre-cooked items carry the source-meat profile with breading and processing-aid contributions.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Chicken broth and bone broth from poultry can carry trace Pb from bone tissue; the level depends on the source bird's lifetime Pb exposure. Chicken protein powder and dehydrated chicken supplements carry concentrated per-mass metal content. Poultry-organ-based supplements (liver pills, chicken-liver-derived iron supplements) carry concentrated Cd characteristic of the organ source.
+
+Eggs (chicken eggs, duck eggs) are addressed at [[ingredients/eggs|eggs]]. Egg-Pb specifically can be elevated in eggs from layers exposed to environmental Pb (backyard chickens on contaminated soil); shell, white, and yolk carry different metal profiles.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Single-source-region sourcing from documented low-Pb production areas, supplier-feed-source verification, and avoidance of high-Cd organ sourcing reduce per-product metal load. Documented-feed-source specification (testing of feed for Pb and Cd) is the operational supplier-side intervention.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the feed-grain stage (feed-grain sourcing) and at the production facility (soil-Pb screening for pasture-raised and free-range operations; water-source Pb testing for waterfowl operations).
+
+**Processing levers** ([[mitigation/processing]]) for poultry are limited. Removing skin before cooking reduces per-serving Pb modestly. Boiling-and-discard removes a small Pb fraction. The total metal-removal potential through processing is small relative to source-bird-variance.
+
+**Formulation levers** ([[mitigation/formulation]]) include muscle-only vs muscle-plus-organ formulation, breast-vs-thigh formulation in mixed products, and ingredient-percentage adjustment in processed poultry products.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb and Cd testing on incoming carcasses, particularly for products targeted at infants and young children. Cr-VI speciation testing in poultry from production regions with documented Cr-VI exposure (per Mahmud 2011 Pakistani context) where applicable. See [[testing/icp-ms]] and [[testing/arsenic-speciation]] (analogous speciation method for Cr).
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) are not generally consequential for fresh poultry; canned poultry carries the standard Sn-migration consideration.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in muscle meat of poultry and in offal. Offal MLs are higher than muscle MLs reflecting the organ-accumulation pattern.
+- Codex Alimentarius CXS 193-1995 — sets Cd and Pb MLs for meat and offal, distinguishing muscle from organ; poultry-specific values apply where they exist.
+- USDA/FSIS Pathogen Reduction and HACCP Systems regulation covers pathogen safety; heavy-metal surveillance is conducted under the FSIS National Residue Program.
+- FDA does not maintain a binding action level for Pb or Cd in poultry.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to poultry sold in California.
 
 

@@ -131,26 +131,52 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Beef (the muscle, organs, and tallow of Bos taurus cattle) inherits heavy metals through the dietary and environmental exposure of the live animal. Cattle graze on forage and consume feed grains that themselves carry soil-derived Pb, Cd, and other metals; cattle drink water that may carry trace metals; cattle in some regions are exposed to mineral supplements (some of which contain trace Pb and Cd as impurities). Through these intake pathways, metals deposit in muscle tissue, organs, bone, and fat at different rates. Cadmium concentrates particularly in liver and kidney through the lifetime of the animal; lead deposits in bone tissue with slower turnover. Muscle tissue carries lower steady-state metal concentrations than organs.
+
+The HMTc panel concerns for beef are dominantly Pb and Cd, with secondary concerns for the organ-meat subcategory (where Cd and Pb are higher). Mercury in beef is generally low because cattle do not bioaccumulate methylmercury through their grass-and-grain diet. Nickel, aluminum, chromium, and tin in beef are typically at background levels reflecting cattle-feed and environmental-exposure baselines.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Per-cut variation: Muscle cuts (steak, roast, ground beef from muscle) typically carry the lowest Cd. Organ meats — particularly liver and kidney — carry 5-20× the Cd of muscle from the same animal because organ tissue is the lifelong Cd-accumulation site. Bone-in cuts and bone broth carry varying Pb depending on the animal's lead exposure history. Tallow and rendered fat carry distinct profiles for fat-soluble contaminants.
+
+Geographic and production-system variation: Cattle raised in regions with historic mining, industrial Pb deposition, or contaminated forage carry higher Pb than cattle from cleaner regions. Grass-fed cattle in regions with low-Pb soil and clean forage carry lower Pb than feedlot cattle fed contaminated grain or organ-supplemented rations. [[sources/rabeey2025-bovine-hg-pb-cd-egypt|Rabeey 2025]] documents the Egyptian bovine muscle and organ Pb/Cd/Hg profile; [[sources/altalib2025-frozen-meat-libya|Altalib 2025]] documents frozen meat Pb/Cd in Libya. [[sources/hoha2014-pork-pb-cd-cu-zn-romania|Hoha 2014]] (porcine but parallel mechanism) documents the regional profile for European production.
+
+Age effects: Older animals carry higher Cd in organs than younger animals because lifetime exposure accumulates. Veal (very young cattle) therefore carries less organ-Cd than adult beef.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Beef processing (slaughter, butchering, aging, packaging) does not change the metal content of muscle and organ tissue meaningfully. The metals are bound within the tissue protein and lipid fractions and are not removed by cutting, aging, or trimming.
+
+Cooking effects are minor for the HMTc panel metals. Roasting, grilling, or boiling does not change total Pb or Cd content in muscle, though water loss during cooking concentrates the metals per unit cooked mass (the total per serving is approximately conserved). Boiling and discarding cooking liquid removes a small fraction of water-soluble metals.
+
+Curing (salt-curing, brining), smoking, and drying (jerky, biltong) concentrate metals per unit dry mass through water loss; smoked beef can also carry trace deposition from smoke-source contamination depending on wood and smoking technique. Processed meats (sausage, deli meat, hot dogs, bacon) inherit the source-meat metal load with additional contributions from added salt, nitrite curing salts, and binders. The processed-meat fraction of the corpus is documented separately at [[ingredients/processed-meats]] (if applicable).
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Beef derivative products with elevated metal concentrations: bone broth (Pb from bone tissue), beef liver and beef-organ-based supplements (organ Cd, sold as desiccated organ supplements in some health-food channels), beef tallow used in cosmetics or food applications. Beef gelatin (rendered from connective tissue and bone) typically carries lower per-mass metal than the source bone because of the rendering and filtration steps but can carry trace Pb. Beef-protein powders inherit the source-meat metal load with processing-step adjustments.
+
+Bone-in canned beef products (corned beef, canned beef stew) inherit the source-meat metal load plus any tinplate-migration Sn from the can.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention. Single-source-region sourcing from documented low-Pb cattle-production areas (the geographic-segmented sourcing decision), grass-fed sourcing where feed-grain-Pb is a documented concern, and avoidance of organ-meat sourcing from regions with high-Pb-exposure cattle reduce per-product Pb. Documented-feed-source specification (testing of feed for Pb and Cd) is the operational supplier-side intervention.
+
+**Agronomic levers** ([[mitigation/agronomic]]) apply at the feed-grain stage. Feed-grain sourcing from low-Cd growing regions, water-supply Pb testing, and avoidance of contaminated pasture (post-mining-area restoration, urban-adjacent grazing on Pb-deposition soils) operate at the farm level.
+
+**Processing levers** ([[mitigation/processing]]) for beef are limited. Trimming visible fat does not reduce Pb or Cd meaningfully. Cooking-method choice does not reduce total exposure. Removing organ meat from a recipe (using muscle only) reduces organ-Cd contribution.
+
+**Formulation levers** ([[mitigation/formulation]]) include muscle-only vs muscle-plus-organ formulation in processed products, and ingredient-percentage adjustment in mixed-meat products.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb and Cd testing on incoming carcasses or finished cuts, particularly for products targeted at infants, young children, or pregnancy populations. See [[testing/icp-ms]].
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include the Sn-migration consideration for canned beef and the food-contact-substance considerations for plastic and aluminum-foil packaging of fresh and frozen beef.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in muscle meat of bovine animals and in offal (liver, kidney). Offal has separate, higher Cd MLs reflecting the organ-accumulation pattern.
+- Codex Alimentarius CXS 193-1995 — sets Cd and Pb MLs for meat and offal, distinguishing muscle from organ.
+- USDA/FSIS Pathogen Reduction and HACCP Systems regulation covers pathogen safety; metal-content surveillance is conducted under the FSIS National Residue Program. FSIS does not maintain a binding Pb or Cd action level for beef beef but does monitor.
+- FDA does not maintain a binding action level for Pb or Cd in beef.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to beef sold in California; the serving-based screen governs.
 
 
