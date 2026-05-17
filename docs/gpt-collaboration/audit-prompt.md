@@ -86,7 +86,17 @@ Report each finding with the exact source-evidence support or absence thereof.
 
 CLAUDE.md Part 12: brand names do not belong in the wiki. The strict reading: ZERO brand naming in source-page content. Product-form descriptors (preterm, soya-based, ready-made, powdered, follow-on, growing-up, hypoallergenic) carry the same identifying information without naming the brand. The wiki defaults to no brand attribution.
 
-ONE EXPLICIT EXCEPTION carved out by Part 12 itself: brands MAY be named when documenting a public-record regulatory event (Congressional investigation, FDA recall, agency enforcement action) where the brand is the subject of the action. Frame as a regulatory event, not a brand ranking. Naming the manufacturers investigated by a Congressional subcommittee is documenting a regulatory event; reporting per-manufacturer percentile rankings would still violate Part 12 even inside that exception.
+TWO EXPLICIT EXCEPTIONS — neither violates Part 12:
+
+**Exception 1 — Regulatory-event subject (per Part 12 itself):** brands MAY be named when documenting a public-record regulatory event (Congressional investigation, FDA recall, agency enforcement action) where the brand is the subject of the action. Frame as a regulatory event, not a brand ranking. Naming the manufacturers investigated by a Congressional subcommittee is documenting a regulatory event; reporting per-manufacturer percentile rankings would still violate Part 12 even inside that exception.
+
+**Exception 2 — Scientific-method vendor/material names (locked 2026-05-17):** Part 12's intent is to prevent the wiki from becoming a brand-ranking-by-contamination-level surface. Methods sections SHOULD name the instrument vendor and model, the reference material vendor, the statistical software, the digestion equipment, etc. Scientific reproducibility depends on this. Examples that are PERMITTED:
+- "graphite furnace AAS (PerkinElmer PinAAcle 900T)"
+- "NRCC DORM-3 Fish Protein reference material"
+- "JMP (SAS Institute, Cary, NC)"
+- "CEM MARS 6 microwave digester"
+
+The distinction: a brand name attached to a CONTAMINATION VALUE (the sampled product being measured) is the Part 12 violation. A brand name attached to a METHOD (the instrument doing the measuring, the reference material, the software) is scientific reporting. Strip the former; keep the latter. Do NOT flag instrument/reference-material/software vendor names in Methods sections as Part 12 violations.
 
 Scan the wiki page for:
 - ANY brand names in the body text, Key numbers, or tables (other than the regulatory-event exception above)

@@ -40,7 +40,7 @@ This systematic review and meta-analysis synthesises 24 studies across 13 countr
 
 ## Methods (brief)
 
-Systematic review following PRISMA 2009. Search databases: PubMed, ScienceDirect, Google Scholar. Inclusion criteria: original research reporting Pb concentrations (mean ± SD) in irrigation wastewater, irrigated soil, and edible plant parts, with a control group and clearly stated wastewater type. 5,268 articles identified; 24 met final inclusion criteria. Meta-analysis conducted with statistical and review-management software. Health risk assessment used health risk index (HRI = DIM/RfD), bioconcentration factor (BCF), pollution load index (PLI), and soil accumulation factor (SAF). RfD for Pb (adults): 0.001 mg/kg/day.
+Systematic review following PRISMA 2009. Search databases: PubMed, ScienceDirect, Google Scholar. Inclusion criteria: original research reporting Pb concentrations (mean ± SD) in irrigation wastewater, irrigated soil, and edible plant parts, with a control group and clearly stated wastewater type. 5,268 articles identified; 24 met final inclusion criteria. Meta-analysis conducted in Stata v16.0 and Cochrane RevMan 5. Health risk assessment used health risk index (HRI = DIM/RfD), bioconcentration factor (BCF), pollution load index (PLI), and soil accumulation factor (SAF). RfD for Pb (adults): 0.001 mg/kg/day.
 
 ## Implications
 

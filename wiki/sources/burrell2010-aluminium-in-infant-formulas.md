@@ -40,7 +40,7 @@ Burrell and Exley measured aluminium in infant formula products from the UK mark
 
 ## Methods (brief)
 
-Samples were taken directly from packaging (ready-made liquids shaken before sampling). Microwave digestion used a 50/50 mixture of 14 M HNO3 and 30% w/v H2O2. Digestates were diluted in ultra-pure water (conductivity <0.067 µS/cm). Aluminium was measured by transversely heated graphite atomiser atomic absorption spectrometry. Five replicate preparations per product × three measurements per preparation; means accepted only if % RSD <10%. LOD/LOQ are not reported in the published methods.
+Samples were taken directly from packaging (ready-made liquids shaken before sampling). Microwave digestion used a 50/50 mixture of 14 M HNO3 and 30% w/v H2O2. Digestates were diluted in ultra-pure water (conductivity <0.067 µS/cm). Aluminium was measured by transversely heated graphite atomiser on a PerkinElmer Analyst 600 atomic absorption spectrometer. Five replicate preparations per product × three measurements per preparation; means accepted only if % RSD <10%. LOD/LOQ are not reported in the published methods.
 
 ## Ingredient and process signals
 
