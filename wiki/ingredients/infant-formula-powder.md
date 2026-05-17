@@ -133,11 +133,25 @@ _Pending synthesis. The soil, plant biology, processing, or sourcing reasons thi
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+The dominant axes of variance in infant formula powder heavy-metal load are the base ingredient class (cow-milk-based vs soy-based vs hydrolysate vs amino-acid-based), the source market (regulatory regime under which the formula is manufactured), and the historical generation of the product (post-2020 formulations differ from pre-2010 formulations for some analytes).
+
+**Base ingredient class** is the largest single axis of variance. Cow-milk-based formula carries the lowest baseline aluminum among ingestion-routed infant nutrition because dairy is relatively low in Al. Soy-based formula carries substantially higher aluminum because soybean plants accumulate Al from acid agricultural soils; multiple surveys document soy-based formula Al at several-fold the cow-milk-based mean. Soy-based formula also carries elevated nickel and elevated cadmium relative to cow-milk-based equivalents. The Cat 1 Step 0 lock distinguishes powder-non-soy from powder-soy-based on this basis; see [[products/infant-formula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]] for the certified-row distinctions. Hydrolysate and amino-acid formulas (used for cow-milk-protein-allergic infants) carry their own profile, generally intermediate between cow-milk and soy bases.
+
+**Source-market variation** reflects regulatory and supply-chain differences. EU-market formula manufactured under [[regulations/eu-2023-915|EU Reg. 2023/915]] maximum levels carries documented Pb at or below the binding ML. US-market formula manufactured under FDA Closer-to-Zero-era guidance follows action-level discipline but is not subject to a binding US Pb maximum level for formula specifically. Imported formula from third markets (parallel imports, gray market) is the higher-risk source because regulatory oversight is jurisdictional rather than global.
+
+**Historical generation** matters for the post-2020 vs pre-2010 comparison. Aluminum in formula has been a documented concern since [[sources/burrell2010-aluminium-in-infant-formulas|Burrell & Exley 2010]]; manufacturer responses since then have varied. The Cat 1 master rollup at [[products/infant-and-child-foods-master]] tracks the temporal-decline signal where corpus density permits.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Infant formula powder is manufactured by spray-drying a reconstituted liquid base; the powder is the as-placed-on-market form for the powder rows of Cat 1. The processing effects on heavy-metal content are primarily concentration effects rather than removal effects.
+
+**Spray-drying** removes water but does not remove heavy metals. The powder carries the metals from the liquid base concentrated approximately 7-fold (the conservative 1:7 reconstitution factor used in the wiki's basis-conversion calculations per [[methodology]]). A liquid formula at low ppb Pb as-fed converts to approximately 7× higher ppb Pb as-powder; the regulatory and certification math is performed in the row's native finished-product basis to avoid silent cross-basis comparison.
+
+**Reconstitution** at the consumer point recovers the as-fed concentration assuming manufacturer-specified water-to-powder ratios. Where consumers reconstitute with different water volumes (concentrated or dilute), the as-fed concentration shifts proportionately. Infant feeding-water heavy-metal load adds to the as-fed concentration; this is the rationale for separate consideration of [[ingredients/water]] in infant feeding contexts where water quality varies.
+
+**Fortification and additive contributions** are documented contamination pathways in infant formula. Vitamin-mineral premixes can carry trace metals from the source minerals; the premix supplier's specification controls the trace-metal contribution. Cocoa-flavored or chocolate-flavored toddler formulas inherit cocoa cadmium (see [[ingredients/cocoa]]); these products are out of HMTc Cat 1 ages-0-12-months scope but enter Cat 1 toddler-bridging scope where applicable.
+
+**Packaging migration** is the standard Sn-canned-formula consideration for canned-powder products and the standard food-contact-substance consideration for plastic-lined and aluminum-foil-lined packaging. See [[mitigation/packaging-and-storage]] for the migration framework.
 
 ## Ingredient-derivative risk
 
