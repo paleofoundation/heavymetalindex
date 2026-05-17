@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-17
 
-Generated: 2026-05-17T16:58:36.751Z
+Generated: 2026-05-17T17:57:43.200Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 922
+- Source pages processed: 923
 - Pages with `## Key numbers` section: 811
 - Pages without Key numbers section (skipped): 111
-- Structured rows extracted: 4223
+- Structured rows extracted: 4247
 - Pages with Key numbers but no parseable values: 58
 
 ## Output
@@ -19,36 +19,36 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 915 rows
+- Pb: 914 rows
 - Cd: 873 rows
 - Cr-total: 431 rows
-- Ni: 379 rows
+- Ni: 384 rows
 - tAs: 344 rows
-- Al: 280 rows
-- tHg: 277 rows
+- Al: 281 rows
+- tHg: 278 rows
 - iAs: 167 rows
-- MeHg: 92 rows
-- Cu: 79 rows
+- MeHg: 93 rows
+- Cu: 86 rows
 - Sn: 71 rows
-- Fe: 57 rows
-- Co: 45 rows
+- Fe: 59 rows
+- Co: 46 rows
 - U: 42 rows
 - Mn: 36 rows
-- Se: 33 rows
+- Se: 35 rows
 - Sb: 24 rows
-- V: 12 rows
+- V: 13 rows
+- Ba: 12 rows
 - Cr-VI: 11 rows
-- Ba: 10 rows
 - Mo: 8 rows
 - DMA: 7 rows
+- Be: 6 rows
 - K: 5 rows
-- Be: 5 rows
+- Tl: 3 rows
 - B: 3 rows
 - Ca: 2 rows
 - Mg: 2 rows
 - MMA: 2 rows
 - W: 2 rows
-- Tl: 2 rows
 - F: 1 rows
 - I: 1 rows
 - Ge: 1 rows
@@ -59,7 +59,7 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 1785 rows
+- (empty): 1782 rows
 - fresh-fish: 255 rows
 - spices: 180 rows
 - seafood: 168 rows
@@ -77,5 +77,5 @@ Elapsed: 0s
 - children-personal-care: 42 rows
 - breakfast-cereals: 42 rows
 - chocolate: 41 rows
+- olive-oil: 38 rows
 - peanuts: 36 rows
-- fruit-purees: 32 rows

@@ -71,10 +71,10 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (2 sources)
 11. [[products/toothpaste|Children's toothpaste]] (4 sources)
 12. [[products/face-paint|Children's face paint]] (5 sources)
-13. [[products/childrens-makeup|Children's makeup]] (7 sources)
+13. [[products/childrens-makeup|Children's makeup]] (6 sources)
 14. [[products/childrens-nail-polish|Children's nail polish]] (1 source)
-15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (3 sources)
-16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (5 sources)
+15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (2 sources)
+16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (4 sources)
 
 ## HMTc Category 3: Grains, Cereals, and Rice Products
 
@@ -110,7 +110,7 @@ These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/co
 - [[products/legumes-pulses-other|Legumes and Pulses, Other]] (4 sources)
 - [[products/soy-products|Soy Products]] (1 source)
 - [[products/peanuts|Peanuts]] (5 sources)
-- [[products/nuts-seeds-other|Nuts and Seeds, Other]] (2 sources)
+- [[products/nuts-seeds-other|Nuts and Seeds, Other]] (1 source)
 - [[products/cashews|Cashews]] (4 sources)
 - [[products/sunflower-seeds|Sunflower Seeds]] (5 sources)
 - [[products/nut-seed-butters-other|Nut and Seed Butters, Other]] (1 source)
@@ -163,8 +163,8 @@ Contamination platform notes: Cacao → Cd, Pb (from soil); spices → Pb, Cr (f
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/olive-oil|Olive oil]] (0 sources)
-2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (5 sources)
+1. [[products/olive-oil|Olive oil]] (3 sources)
+2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (6 sources)
 3. [[products/butter-and-ghee|Butter and ghee]] (3 sources)
 4. [[products/honey-and-syrups|Honey and syrups (maple, agave, molasses)]] (0 sources)
 5. [[products/vinegar|Vinegar]] (9 sources)
@@ -510,6 +510,17 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/breakfast-cereals|Breakfast Cereals]]
-- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
+- [[products/canned-fish|Canned Fish]]
+- [[products/canned-fruit|Canned Fruit]]
+- [[products/canned-tomatoes|Canned Tomatoes]]
+- [[products/canned-vegetables|Canned Vegetables]]
+- [[products/dietary-supplements|Dietary Supplements]]
+- [[products/fresh-fish|Fresh Fish]]
+- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
+- [[products/infant-cereal|Infant Cereal]]
+- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
+- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
+- [[products/tea-infusions|Tea Infusions]]
+- [[products/tomato-paste|Tomato Paste]]
+- [[products/tomato-sauce|Tomato Sauce]]
 <!-- END: hmi-auto-linked-stubs -->

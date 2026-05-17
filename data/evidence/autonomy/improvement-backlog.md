@@ -97,3 +97,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis trigger conditions: second source, n_studies doubling, contradictions), Part 18 (lint: ingredient coverage asymmetry), Part 19 (HMT&C thresholds depend on populated ingredient cells).
 
 ---
+
+- [ ] **2026-05-17** — see proposal below
+
+### Rank Step 0 Locks by gap-driven user demand
+
+**What:** Parse the 634 gap-driven wishlist queries to identify which provisional product scaffolds users are asking for, then emit a ranked recommendation for Step 0 Lock sequencing to Karen, ordered by (user_queries × blocked_cells_unblocked).
+
+**Why this lever now:** 286 cells are pool-blocked, waiting for product-row locks. The gap-driven wishlist is direct user demand signal from Ask the Index. Step 0 Locks are currently decided by batch ingest order or ad-hoc judgment, not by where unlocking would raise the most value. Aligning lock sequencing to wishlist demand closes the feedback loop between users and governance, and prioritizes the locks that would unblock the most cells and serve the most queries.
+
+**Where:**
+- Input: `data/evidence/autonomy/gap-driven-wishlist-2026-05-17.csv`
+- Input: `data/evidence/provisional-product-scaffolds.jsonl`
+- Output: `data/evidence/autonomy/step0-lock-priority-ranking.csv` with columns: `product_slug`, `user_queries`, `routed_sources`, `blocked_cells_unblockable`, `rank`
+
+**How:**
+1. Parse gap-driven wishlist to extract product references and count frequency per category slug
+2. Cross-reference against provisional scaffolds to find which user-demanded categories have pending locks
+3. For each pending-lock candidate, count how many currently-blocked ingredient/metal cells would become poolable if that row locked
+4. Rank by (query_frequency × unblockable_cells) and emit as actionable governance input for Karen's lock decisions
+
+**Anchors:** CLAUDE.md Part 10 (Step 0 Lock governance trigger), Part 9 (synthesis blocked by provisionally-scaffolded rows), project_order_of_operations.md (lock timing), project_ask_the_index.md (user demand surface feeding wishlist)
+
+---

@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: baby-cereals-dry-non-rice
 native_basis: dry_as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-17T17:27:33.352Z
+generated_at: 2026-05-17T18:06:26.592Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -270,17 +270,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `d2cbeb04e904994a8a704c12d943f65da552ec75` in the heavymetalindex.com repository.
+1. Checking out commit `045e59ece52cd1dec2c11b6236fabe768a1bbf4e` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=baby-cereals-dry-non-rice` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-17T17:27:33.363Z |
+| Generated at | 2026-05-17T18:06:26.601Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `d2cbeb04e904994a8a704c12d943f65da552ec75` |
+| Git commit | `045e59ece52cd1dec2c11b6236fabe768a1bbf4e` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

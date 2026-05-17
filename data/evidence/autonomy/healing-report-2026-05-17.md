@@ -1,15 +1,21 @@
 # Heal-gaps report — 2026-05-17
 
-Generated: 2026-05-17T16:58:36.539Z
+Generated: 2026-05-17T17:57:42.945Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
 - Queued for synthesis: 0
-- Routing typo proposals: 0
-- Provisional scaffolds created: 0
+- Routing typo proposals: 1
+- Provisional scaffolds created: 1
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 218
+
+## Provisional scaffolds created
+
+- product/`baby-food` (triggered by source introduction2025-concentrations-heavy-metals-processed)
+
+See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
 ## Items needing surfacing
 

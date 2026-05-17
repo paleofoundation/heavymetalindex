@@ -61,3 +61,21 @@ updated: 2026-05-17
 **Karen note (separate dedup):** Two source pages exist for the same DOI (one Kimi-fetched, one Papers-Cube-fetched). This is a duplicate-page-cleanup item for the `wiki/sources/` register, not work for this skill cycle (the skill ingests PDFs; it does not merge wiki/source-page duplicates that originated from different raw ingest paths). Recommend a separate pass: keep `tatsuta2024-mehg-duplicate-diet-children-japan` (post-schema, comprehensive Key numbers covering all six tables, populated correlations, QA detail, accurate exposure counts) and retire `tatsuta2024-methylmercury-intake-children-duplicate-diet` (older schema, malformed advisory, contains an unverifiable "13.8% above EPA RfD" claim not present in the source — the paper reports 51.8% of children with hair THg over 1.0 ppm RfD-equivalent and 15.6% over 2.2 ppm PTWI-equivalent; no 13.8% figure appears in the paper).
 
 **Action taken:** none. No commit, no audit subagent spawned, no edits to either wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
+
+## mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals (MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia)
+
+**PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`
+
+**Stop reason:** PDF already processed and audited within v2 skill skip window.
+
+**Identity checks:**
+- DOI grep (`10.1038/s41598-026-44198-w`) → hit at `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals.md`.
+- Existing page `updated: 2026-05-17` (today).
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Audit queue already records `audited-revised` for this cite-key, applied 2026-05-17 (commit `c75d66e`): subagent REVISE verdict, 5 findings (1 ❌ + 4 ⚠️), all 5 applied (Cr THQ misattribution corrected — Table 3 has no Cr column; BM Ni exceedance count 6→5; Cr highest-sample body-vs-Table-2 contradiction noted; Fe/Mn/Zn dropped from metals as nutritional not contamination; baby-food matrix dropped as non-vocab).
+- Suggested handle from wrapper (`MFK_nutrient-exploration-and-heavy-metal-risk-assessme`) differs from canonical raw_handle (`MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia`), which is why discovery picked this PDF up despite the existing canonical match.
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.
