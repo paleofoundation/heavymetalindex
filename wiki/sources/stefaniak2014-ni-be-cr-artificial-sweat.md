@@ -33,7 +33,7 @@ This Environmental Science: Processes & Impacts paper compares reactant-assisted
   - Ni: sweat 0.0013 ± 0.0003% vs digestion 0.14 ± 0.01% → 1/108 ratio
   - Cr-total: sweat 0.0024 ± 0.0008% vs digestion 6.08 ± 0.31% → 1/2500 ratio
 - Artificial sweat composition (Harvey et al. recipe): 61 constituents; major ions Na+ 30.7 mM, Cl- 23.2 mM, lactic acid 14.0 mM, urea 10.0 mM, ammonium 5.3 mM; pH adjusted to 5.3 with NaOH. Skin pH range generally 4.2-6.1 (median 5.3).
-- Sweat extraction conditions: 0.050 L artificial sweat (calculated from 1.08 L/h/m² whole-body sweat × 5% body area × 1 hour); 0.05 g powder; powders sealed between two filters; static dissolution at 33, 36, 45 °C across 7 time points spanning 12 hours.
+- Sweat extraction conditions: 0.050 L artificial sweat (calculated from average adult whole-body sweat output 1.08 L/h × 5% body-area fraction for hands × 1 hour); 0.05 g powder per sample; powders sealed between two filters and immersed in artificial sweat using the static dissolution technique; triplicate samples at 33, 36, 45 °C across 7 time points spanning ~12 hours.
 - Dissolution kinetics (Fig. 3): Be and Cr biphasic - rapid initial phase 4-6 h half-time followed by long-term phase hundreds of days; Ni linear over time, several hundred days half-time.
 - On total-mass basis (per Results section): Be <0.35%, Ni <0.003%, Cr <0.004% of total powder dissolved in artificial sweat over the test duration.
 - Cr speciation in sweat (Fig. 4 / Results): Cr-VI added as potassium dichromate at 2 or 10 µg/mL decayed over 420 minutes; decay accompanied by Cr-III formation in the sweat model (speciated isotope dilution MS using 53Cr-VI / 50Cr-III).
@@ -49,7 +49,7 @@ Three high-purity metal sensitizer powders characterized by Auger spectroscopy (
 - Courses: Teaching reference for the distinction between "total," "soluble," and "bioaccessible" metal in occupational/consumer dermal exposure assessment. Pairs with the OEHHA and ATSDR dermal-absorption guidance.
 - App: Not relevant to ingredient contamination_profile (no food-matrix data).
 
-## Wiki pages this source may touch
+## Wiki pages updated on ingest
 
 - [[metals/nickel]]
 - [[metals/beryllium]]
@@ -61,3 +61,4 @@ Three high-purity metal sensitizer powders characterized by Auger spectroscopy (
 - "artificial-sweat" matrix is not in the standard matrices vocabulary; flagging for Part 10 review. Used as bare string.
 - This paper is methodology + materials-science occurrence, not finished-product surveillance. The 1/2500 Cr bioaccessibility ratio is for chromium carbide powder; ratios for Cr-VI in cosmetic pigments may differ and would need source-specific measurement.
 - Cr-VI half-life in artificial sweat ("hours, decayed over 420 min" per Results) is a non-trivial finding for the Cr-VI vs total-Cr discipline in dermal exposure assessment.
+- 2026-05-17 merge-enhance pass: corrected sweat-volume calculation unit description (1.08 L/h whole-body output × 5% body-area fraction for hands, not L/h/m²); renamed "Wiki pages this source may touch" to template-standard "Wiki pages updated on ingest"; added replicate-sample structure note (triplicate samples at each temperature).
