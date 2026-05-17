@@ -30,7 +30,7 @@ This Pharmaceutics paper constructs an age-dependent pediatric dermal absorption
 
 - Skin layer thickness maturation parameters (Table 4, p. 10):
   - Stratum corneum thickness reaches adult values at ~1510 days (≈4.1 years; Model 1) or 1604 days (≈4.4 yr; Model 2). Infant SC is ~30% thinner on lower thigh (7.3 ± 1.1 µm vs adult 10.5 ± 2.1 µm; Stamatas et al.); 34% thinner on lower thigh and 18% thinner on upper inner arm (Liu et al.).
-  - Epidermis thickness reaches adult values at ~100 days postnatal age. Infants 3-24 months have epidermis 8-20% thinner than adults (Stamatas, Liu); 22% thinner inner arm.
+  - Epidermis thickness reaches adult values at approximately 4 months (~120 days) postnatal age (body text, p. 8); the sigmoid maturation curve in Table 4 / Figure 2B plateaus near 100-150 days. Infants 3-24 months have thigh epidermis 20% thinner (Stamatas et al.) and 8% thinner (Liu et al.) than adults; Liu et al. additionally measured 22% thinner inner arm.
   - Dermis thickness: child remains ~40% of adult thickness until ~2 years (730 days); reaches adult at ~9883 days (≈27 yr). Scalp dermis 1125 µm at 2 weeks to 1500 µm at 21 yr (max); 850 µm at 2 weeks to 2200 µm at 21 yr (min) (de Viragh).
   - Skin hydration: peaks around 100-1000 days postnatal age (ratio ~1.25 vs adult), declining to 1.0 at 1182 days (≈3.2 yr).
 - Validation drugs (Table 1, p. 5): buprenorphine (MW 467.6, Log P 4); diamorphine (MW 369.4, Log P 1.5); phenobarbital (MW 232.2, Log P 1.47).
@@ -60,3 +60,5 @@ Model construction: extension of the Dancik et al. 2013 three-compartment (SC, v
 - Author name in the paper's Tables 2-3 is rendered "Barret et al." but the reference list (entries 29, 30, 87) shows "Barrett, D.A." The reference-list spelling is canonical.
 - Funding: NSERC grants 2016-01382 and 2020-547790. No declared conflicts of interest. No HMTc, brand, or industry funding.
 - 2026-05-17 enhancement: tightened the buprenorphine predictive-performance summary using Table 7 and the Discussion (the original "acceptable" wording was a faithful abstract restatement but elided the 30-fold sample-pair discrepancy that the authors themselves attribute to experimental error). All other fields preserved (cite_key, raw_handle, raw_path, license, jurisdictions, near_duplicates).
+- Audit subagent (2026-05-17) flagged that the prior "epidermis reaches adult values at ~100 days" wording conflated the Table 4 / Figure 2B plateau with the body-text claim of "four months of age" (p. 8); verified against source — corrected to "approximately 4 months (~120 days)" with the curve-plateau range stated separately.
+- Audit subagent (2026-05-17) flagged that the prior "8-20% thinner (Stamatas, Liu); 22% thinner inner arm" gloss obscured per-study attribution (p. 8 actually pairs Stamatas with 20% and Liu with 8% on thigh; Liu with 22% on inner arm); verified against source — corrected to per-study attribution.
