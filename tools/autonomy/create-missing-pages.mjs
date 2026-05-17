@@ -98,27 +98,23 @@ const eligible = candidates.filter((c) => {
   return true
 })
 
-// Split product candidates off as Phase 0 proposals (Karen's Step 0 Lock).
-// Per docs/order-of-operations.md, product pages are governance items and
-// auto-stubbing them causes downstream rewrite churn (Cat 2 scaffold had to
-// retire 3 auto-stubs on 2026-05-15). With --allow-products, the legacy
-// behavior is preserved for one-off Karen-authorized cases.
-const productProposals = eligible.filter((c) => c.kind === "product")
-const ingredientCandidates = eligible.filter((c) => c.kind === "ingredient")
-let pageEligible
-if (allowProducts) {
-  pageEligible = eligible
-  if (productProposals.length > 0) {
-    console.log(`create-missing-pages: WARNING — creating ${productProposals.length} product stub(s) under --allow-products. Per docs/order-of-operations.md this requires Karen's Step 0 Lock approval.`)
-  }
-} else {
-  pageEligible = ingredientCandidates
-  if (productProposals.length > 0) {
-    console.log(`create-missing-pages: ${productProposals.length} product proposal(s) deferred to morning report (Phase 0 Step 0 Lock pending). Re-run with --allow-products only with Karen's explicit approval.`)
-  }
-}
+// Per Karen 2026-05-17 (Path A): product stubs are now auto-created with
+// `pending_category_lock: true` in frontmatter. The flag is the governance
+// signal — the page exists as a routing destination, but is explicitly
+// marked as not-yet-locked-by-Step-0. The 2026-05-14 incident (face-paint /
+// lipstick / skin-lightening-cream stubs created, retired the next day) was
+// caused by stubs being created WITHOUT this flag — they looked like full
+// product pages. With the flag, governance is preserved: lint can fail-or-
+// warn on locked-vs-unlocked, routing resolves, the page sits visibly
+// incomplete until Karen authors the Step 0 Lock.
+//
+// `--no-products` opts back into the old defer-via-CSV behavior for one-off
+// cases where Karen wants a stub proposal without a real page yet.
+const noProducts = args.has("no-products")
+const productProposals = noProducts ? eligible.filter((c) => c.kind === "product") : []
+const pageEligible = noProducts ? eligible.filter((c) => c.kind === "ingredient") : eligible
 
-console.log(`create-missing-pages: ${pageEligible.length} candidates eligible (freq >= ${minFreq}; product auto-stub ${allowProducts ? "ALLOWED" : "DEFERRED"})`)
+console.log(`create-missing-pages: ${pageEligible.length} candidates eligible (freq >= ${minFreq}; product auto-stub ${noProducts ? "DEFERRED" : "ENABLED via pending_category_lock"})`)
 
 const created = []
 for (const c of pageEligible) {
@@ -253,11 +249,15 @@ sources: ${entry.count}
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: ${entry.count}
+pending_category_lock: true
+hmtc_category: null
+hmtc_row: null
+governance_status: "Auto-created routing destination. Not yet locked under a Step 0 protocol — HMTc category, within-row clean/dirty splits, and contamination-platform classification are pending Karen's Step 0 Lock. Sources route here; thresholds and certification scope do not derive from this page until the lock is authored."
 ---
 
 # ${title}
 
-This page is an autonomy-created stub product-category page. The routing audit identified ${entry.count} source pages in the corpus declaring \`products: [${slug}]\` in their frontmatter without a dedicated product page existing. Per OPERATING.md Part 3, the autonomy loop created this stub so those sources route to a defined target. The synthesis pass per CLAUDE.md Part 9 populates the evidence-summary table as sources accumulate.
+This page is an autonomy-created stub product-category page, **pending HMTc Step 0 Lock**. The routing audit identified ${entry.count} source pages in the corpus declaring \`products: [${slug}]\` in their frontmatter without a dedicated product page existing. The autonomy loop created this stub so those sources route to a defined target; the page is explicitly flagged \`pending_category_lock: true\` to signal that its HMTc category, within-row clean/dirty splits, and contamination-platform classification are not yet defined. The synthesis pass per CLAUDE.md Part 9 populates the evidence-summary table as sources accumulate; HMTc threshold work waits on the Step 0 Lock.
 
 ## Who this page is for
 

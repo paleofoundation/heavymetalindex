@@ -220,6 +220,17 @@ if [[ "$FETCH_ENABLED" == "always" ]] || { [[ "$FETCH_ENABLED" == "1" ]] && [[ "
   run_step "wishlist fetch (gap-driven)" npm run wishlist:gap-driven  || true
 fi
 
+# Step 5c: weekly briefing — runs daily, self-cadenced (skips if last
+# briefing was <6 days ago). Writes wiki/briefings/weekly-<date>.md with
+# 7-day metrics + a Cochrane comparison dispatched to claude --print.
+# Per Karen 2026-05-17: "I want to go away for a week and come back SHOCKED."
+run_step "weekly briefing" node tools/autonomy/weekly-briefing.mjs || true
+
+# Step 5d: improvement scout — picks one thing the wiki could do better
+# and writes it to the improvement-backlog. Self-cadenced (one item per
+# tick when novel candidates exist; idempotent on the backlog).
+run_step "improvement scout" node tools/autonomy/improvement-scout.mjs || true
+
 # Step 6: regenerate briefings for Category 1
 log "=== regenerating Cat 1 briefings ==="
 for slug in infant-formula-powder-non-soy infant-formula-powder-soy-based \
