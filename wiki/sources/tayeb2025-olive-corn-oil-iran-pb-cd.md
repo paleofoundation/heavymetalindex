@@ -47,8 +47,9 @@ Risk assessment (70 kg adult, daily consumption 0.147 g corn oil + 0.328 g olive
 - MOE for Pb: traditional olive oil = 7,875 (below 10,000 threshold, concern flagged); all other oils > 10,000 (no significant carcinogenic concern)
 - MOE for Cd: all oils ≥ 36,000 (no concern)
 - EFSA BMDL10 values used: Pb 0.63 µg/kg bw/day, Cd 0.36 µg/kg bw/day
+- Source caveat: Table 2 is captioned as using 40.2 g/day, which conflicts with the methods text and the very small EDI values shown in the table; this page preserves the methods text inputs and flags the inconsistency below.
 
-Traditional corn oil showed significantly higher Pb than all other types (p < 0.001). Authors attribute higher lead in traditional oils to environmental contamination and absence of industrial refining steps.
+Traditional corn oil showed significantly higher Pb than all other types (p < 0.001). The source discusses environmental, agronomic, processing, packaging, and storage pathways generally but does not isolate the cause of the traditional/commercial difference.
 
 ## Methods
 
@@ -56,11 +57,11 @@ GFAAS (Varian SpectrAA-200 with GTA-110 graphite tube atomizer, deuterium backgr
 
 ## Implications
 
-Certification: Pb levels in these northern Iranian oils (13–32 µg/kg) are well below Codex/EU limits (100 µg/kg) and ISIRI (80 µg/kg). Cd levels were 3.5–5.8 µg/kg, and the source states that Iranian and EU standards do not define a vegetable-oil Cd MRL. Traditional (unrefined) oils showed consistently higher Pb than commercial oils, suggesting refining reduces Pb burden. This paper provides directly usable ppb-level data for olive oil and corn oil Pb/Cd profiling.
+Certification: Pb levels in these northern Iranian oils (13–32 µg/kg) are well below Codex/EU limits (100 µg/kg) and ISIRI (80 µg/kg). Cd levels were 3.5–5.8 µg/kg, and the source states that Iranian and EU standards do not define a vegetable-oil Cd MRL. Traditional oils showed higher Pb than commercial oils within each oil type, but the source does not isolate refining as the causal factor. This paper provides regional ppb-level data for olive oil and corn oil Pb/Cd profiling.
 
-Courses: Demonstrates that traditional/artisanal oils sourced from local stores may carry higher metal loads than commercially refined equivalents, with practical implications for supply-chain sourcing decisions.
+Courses: Demonstrates a source-specific comparison between traditional/local-store oils and commercial oils, with production mode treated as a stratification variable rather than a proven causal mechanism.
 
-App: Directly usable for [[ingredients/olive-oil]] and [[ingredients/corn-oil]] contamination profiles for Pb and Cd. Traditional corn oil Pb (mean 32.4 µg/kg = 32.4 ppb) is the highest value in this dataset.
+App: Usable as regional data points for [[ingredients/olive-oil]] and [[ingredients/corn-oil]] Pb/Cd profiles. Traditional corn oil Pb (mean 32.4 µg/kg = 32.4 ppb) is the highest value in this dataset.
 
 ## Wiki pages this source may touch
 
@@ -78,3 +79,6 @@ App: Directly usable for [[ingredients/olive-oil]] and [[ingredients/corn-oil]] 
 - Source reports total Pb and Cd by GFAAS; no speciation issue is present.
 - Lead ranges corrected against Table 1: commercial corn oil min 9.50 µg/kg and traditional olive oil range 9.60-26.10 µg/kg.
 - `olive-oil`, `corn-oil`, and `edible-oil` are sample-matrix descriptors used here for routing/context; only existing ingredient/product/metals/regulation slugs are linked.
+- Cross-vendor audit (Codex, 2026-05-17) preserved the source methods' daily-consumption inputs (0.147 g corn oil and 0.328 g olive oil) but flagged the conflicting Table 2 caption ("40.2 g/day").
+- The source introduction contains an internal geography error ("Gilan province"); the title, methods, sample collection, figures, and conclusion identify the study location as Gonbad-Kavus City, Golestan province/northern Iran.
+- `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
