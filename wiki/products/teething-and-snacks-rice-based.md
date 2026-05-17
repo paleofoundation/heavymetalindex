@@ -28,7 +28,7 @@ cc_relationship:
       role_of_partner: clean_benchmark
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
+updated: 2026-05-03
 sources: 15
 ---
 
@@ -133,10 +133,10 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | Not established | No snack-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes snack foods; infant rice cereal lead/iAs values do not automatically apply to snacks |
-| EU 2023/915 | 20 ppb | processed cereal-based food as placed on market | EU maximum level if classified as processed cereal-based infant/young-child food. |
-| Prop 65 MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething/snack dry grain product RACC of 7 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
-| HMTc standards use | ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use rice as a higher-contamination row flag, but do not silently attach infant-rice-cereal regulatory values to rice snacks. |
+| Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | Not established | No snack-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes snack foods; infant rice cereal lead/iAs values do not automatically apply to snacks |
+| [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as placed on market | EU maximum level if classified as processed cereal-based infant/young-child food. |
+| [[regulations/california-prop65|Prop 65]] MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething/snack dry grain product RACC of 7 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| HMTc standards use | ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use rice as a contamination-platform flag, but do not silently attach infant-rice-cereal regulatory values to rice snacks. |
 
 Rice-based snacks remain a priority because rice can drive arsenic and cadmium even where the FDA lead action level is not established.
 

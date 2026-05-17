@@ -40,9 +40,9 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | ${displayFda(row)} | ${row.fda_basis} | ${row.fda_scope} |
-| EU 2023/915 | ${displayPpb(row.eu_lead_ppb)} | ${row.eu_basis} | ${row.eu_value_type}. |
-| Prop 65 MADL screen | ${displayPpb(row.prop65_ppb_equivalent)} | ${row.prop65_basis} | Derived from the 0.5 ug/day lead MADL using \`500 ÷ grams/day\`; not a product-specific food limit. |
+| Current [[regulations/fda-closer-to-zero\|FDA Closer to Zero]] | ${displayFda(row)} | ${row.fda_basis} | ${row.fda_scope} |
+| [[regulations/eu-2023-915\|EU 2023/915]] | ${displayPpb(row.eu_lead_ppb)} | ${row.eu_basis} | ${row.eu_value_type}. |
+| [[regulations/california-prop65\|Prop 65]] MADL screen | ${displayPpb(row.prop65_ppb_equivalent)} | ${row.prop65_basis} | Derived from the 0.5 ug/day lead MADL using \`500 ÷ grams/day\`; not a product-specific food limit. |
 | HMTc standards use | ppb-normalized context | ${row.ppb_interpretation} | ${row.hmtc_use} |
 
 ${row.public_note}

@@ -134,9 +134,9 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | 20 ppb (FDA final guidance action level) | dry infant cereal, as sold | Dry infant cereals for children under 2; FDA does not split the lead action level by rice versus non-rice |
-| EU 2023/915 | 20 ppb | processed cereal-based food as placed on market | EU maximum level. |
-| Prop 65 MADL screen | 33.3 ppb | 21 CFR 101.12 dry instant infant cereal RACC of 15 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 20 ppb (FDA final guidance action level) | dry infant cereal, as sold | Dry infant cereals for children under 2; FDA does not split the lead action level by rice versus non-rice |
+| [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as placed on market | EU maximum level. |
+| [[regulations/california-prop65|Prop 65]] MADL screen | 33.3 ppb | 21 CFR 101.12 dry instant infant cereal RACC of 15 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
 | HMTc standards use | ppb-normalized context | FDA and EU both map to 20 ppb for lead; the Prop 65 value is a one-serving exposure conversion and would fall with higher daily intake. | Use 20 ppb as an external regulatory cap/context; occurrence percentiles decide whether HMTc can justify a lower standard. |
 
 A 20 ppb cereal can be legally aligned while still not representing best-in-class occurrence if the category median is lower.

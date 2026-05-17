@@ -28,7 +28,7 @@ cc_relationship:
       metals: [Cd, Pb]
       notes: "Non-root vegetable purees serve as the clean cross-row CC source for root-vegetable purees on Cd and Pb. Within row 8 itself, no within-row contamination split exists."
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
+updated: 2026-05-03
 sources: 15
 ---
 
@@ -134,9 +134,9 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | 10 ppb (FDA final guidance action level) | ready-to-eat processed baby food | Vegetables excluding single-ingredient root vegetables for babies and young children under 2 |
-| EU 2023/915 | 20 ppb | baby food as placed on market | EU maximum level. |
-| Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior ready-to-serve infant food RACC of 110 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level) | ready-to-eat processed baby food | Vegetables excluding single-ingredient root vegetables for babies and young children under 2 |
+| [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market | EU maximum level. |
+| [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior ready-to-serve infant food RACC of 110 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
 | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context and occurrence evidence to determine whether lower HMTc targets are feasible. |
 
 Non-root vegetable products should not inherit the 20 ppb root-vegetable FDA value unless the product is a covered single-ingredient root vegetable.

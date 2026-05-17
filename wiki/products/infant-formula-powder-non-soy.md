@@ -28,7 +28,7 @@ cc_relationship:
       role_of_partner: contamination_platform
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-08
+updated: 2026-05-03
 sources: 49
 ---
 
@@ -156,9 +156,9 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | Not established | No current formula-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes infant formula |
-| EU 2023/915 | 20 ppb | as placed on market as powder | EU maximum level. |
-| Prop 65 MADL screen | 5 ppb | Illustrative 100 g/day powder-intake screen; formula-specific exposure model required | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | Not established | No current formula-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes infant formula |
+| [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | as placed on market as powder | EU maximum level. |
+| [[regulations/california-prop65|Prop 65]] MADL screen | 5 ppb | Illustrative 100 g/day powder-intake screen; formula-specific exposure model required | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
 | HMTc standards use | ppb-normalized context | All values are shown in ppb, but the FDA entry is a not-established status and the Prop 65 value is an exposure conversion, not a commodity limit. | Do not borrow FDA processed-baby-food action levels for formula; use basis-matched occurrence data and the EU powder ceiling as external legal context. |
 
 No U.S. FDA formula-specific lead action level is currently established; the EU powder ceiling is a legal backstop, not a clean-product target.

@@ -124,10 +124,10 @@ ingredient,banana,Regulatory limits that apply,0.10 mg/kg,true,ation (EU) 2023/9
 ingredient,banana,Regulatory limits that apply,100 ppb,true,"023/915 applies the general fresh fruit maximum level to banana: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), we"
 ingredient,banana,Regulatory limits that apply,0.050 mg/kg,true,"the general fresh fruit maximum level to banana: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), wet weight as plac"
 ingredient,banana,Regulatory limits that apply,50 ppb,true,"resh fruit maximum level to banana: Pb 0.10 mg/kg (100 ppb) and Cd 0.050 mg/kg (50 ppb), wet weight as placed on the mar"
-ingredient,beans,Mitigation options,5 ppb,false,"  ### Testing and QC levers  Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for c"
-ingredient,beans,Mitigation options,1 ppb,false,"and QC levers  Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni"
-ingredient,beans,Mitigation options,50 ppb,false," Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) is"
-ingredient,beans,Mitigation options,50 ppb,false,"Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) is the standard intervention.  #"
+ingredient,beans,Mitigation options,5 ppb,true,"  ### Testing and QC levers  Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for c"
+ingredient,beans,Mitigation options,1 ppb,true,"and QC levers  Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni"
+ingredient,beans,Mitigation options,50 ppb,true," Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) [["
+ingredient,beans,Mitigation options,50 ppb,true,"Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) [[testing/icp-ms]] is the standa"
 ingredient,beans,Regulatory limits that apply,0.10 mg/kg,false,pply  The Codex Alimentarius General Standard CXS 193-1995 sets a Pb maximum of 0.10 mg/kg fresh weight for legumes (dry
 ingredient,beans,Regulatory limits that apply,0.10 mg/kg,false,CXS 193-1995 sets a Pb maximum of 0.10 mg/kg fresh weight for legumes (dry) and 0.10 mg/kg for canned vegetables; Cd at 
 ingredient,beans,Regulatory limits that apply,0.10 mg/kg,false,g/kg fresh weight for legumes (dry) and 0.10 mg/kg for canned vegetables; Cd at 0.10 mg/kg for legumes. The EU Regulatio
@@ -1634,8 +1634,6 @@ ingredient,yogurt,Regulatory limits that apply,20 ppb,true,"apply  European Unio
 ingredient,yogurt,Regulatory limits that apply,10 ppb,true,k and dairy-products scope. The FDA Closer to Zero final guidance establishes a 10 ppb (0.010 mg/kg) action level for Pb
 ingredient,yogurt,Regulatory limits that apply,0.010 mg/kg,true,iry-products scope. The FDA Closer to Zero final guidance establishes a 10 ppb (0.010 mg/kg) action level for Pb in yogu
 ingredient,yogurt,Sources,10 ppb,true,rogram | 2025 | Government guidance | FDA Closer to Zero final guidance setting 10 ppb Pb action level for yogurt intend
-product,art-craft-materials,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,art-craft-materials,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
 product,baby-cereals-dry-non-rice,Federal / Regulatory Limits vs Field Findings,20 ug/kg,true,egulations/fda2025-lead-processed-baby-foods]]: Federal FDA final action level: 20 ug/kg Pb. Scope: dry infant cereals f
 product,baby-cereals-dry-non-rice,Federal / Regulatory Limits vs Field Findings,20 ug/kg,true,ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and proces
 product,baby-cereals-dry-non-rice,Federal / Regulatory Limits vs Field Findings,40 ug/kg,true,d) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and proces
@@ -1646,12 +1644,12 @@ product,baby-cereals-dry-non-rice,Literature Evidence Summary,40 ppb,true," 96% 
 product,baby-cereals-dry-non-rice,Literature Evidence Summary,7 ppb,true," [[metals/lead\|Pb]] | non-rice grain-based, dry (direct row-fit) | median 4 to 7 ppb (2 sources); highest reported 9.9 "
 product,baby-cereals-dry-non-rice,Literature Evidence Summary,9.9 ppb,true,"n-based, dry (direct row-fit) | median 4 to 7 ppb (2 sources); highest reported 9.9 ppb | 84% detected (21/25, Fda 2024,"
 product,baby-cereals-dry-non-rice,Literature Evidence Summary,20 ppb,true,"(21/25, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 20 ppb (dry infant cereal) | 3 cited | m"
-product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 20 ppb (FDA final guidance action level)
-product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,false, does not split the lead action level by rice versus non-rice | | EU 2023/915 | 20 ppb | processed cereal-based food as 
-product,baby-cereals-dry-non-rice,Lead Benchmark Context,33.3 ppb,false,al-based food as placed on market | EU maximum level. | | Prop 65 MADL screen | 33.3 ppb | 21 CFR 101.12 dry instant inf
-product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,false,limit. | | HMTc standards use | ppb-normalized context | FDA and EU both map to 20 ppb for lead; the Prop 65 value is a 
-product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,false, one-serving exposure conversion and would fall with higher daily intake. | Use 20 ppb as an external regulatory cap/con
-product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,false,; occurrence percentiles decide whether HMTc can justify a lower standard. |  A 20 ppb cereal can be legally aligned whi
+product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 20 ppb (FDA final guidance action level)
+product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,true,ion level by rice versus non-rice | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as 
+product,baby-cereals-dry-non-rice,Lead Benchmark Context,33.3 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 33.3 ppb | 21 CFR 101.12 dry instant inf
+product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,true,limit. | | HMTc standards use | ppb-normalized context | FDA and EU both map to 20 ppb for lead; the Prop 65 value is a 
+product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,true, one-serving exposure conversion and would fall with higher daily intake. | Use 20 ppb as an external regulatory cap/con
+product,baby-cereals-dry-non-rice,Lead Benchmark Context,20 ppb,true,; occurrence percentiles decide whether HMTc can justify a lower standard. |  A 20 ppb cereal can be legally aligned whi
 product,baby-cereals-dry-non-rice,Distribution Context,12.9 ppb,true," named | tAs 25; Cd 25; Pb 25; tHg 9 | lower-bound p50, p90, p95, max | tAs p50 12.9 ppb, p90 37.8 ppb, max 54.8 ppb; Cd"
 product,baby-cereals-dry-non-rice,Distribution Context,37.8 ppb,true,"5; Cd 25; Pb 25; tHg 9 | lower-bound p50, p90, p95, max | tAs p50 12.9 ppb, p90 37.8 ppb, max 54.8 ppb; Cd p90 27.4 ppb,"
 product,baby-cereals-dry-non-rice,Distribution Context,54.8 ppb,true,"5; tHg 9 | lower-bound p50, p90, p95, max | tAs p50 12.9 ppb, p90 37.8 ppb, max 54.8 ppb; Cd p90 27.4 ppb, max 62.9 ppb;"
@@ -1768,11 +1766,11 @@ product,baby-cereals-dry-rice-based,Literature Evidence Summary,40 ppb,true,"4% 
 product,baby-cereals-dry-rice-based,Literature Evidence Summary,8 ppb,true,"ported | | [[metals/lead\|Pb]] | rice-based, dry (direct row-fit) | median 5 to 8 ppb (2 sources); highest reported 32 p"
 product,baby-cereals-dry-rice-based,Literature Evidence Summary,32 ppb,true,"e-based, dry (direct row-fit) | median 5 to 8 ppb (2 sources); highest reported 32 ppb | 77% detected (196/256, Fda 2024"
 product,baby-cereals-dry-rice-based,Literature Evidence Summary,20 ppb,true,"96/256, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 20 ppb (dry infant cereal) | 3 cited | m"
-product,baby-cereals-dry-rice-based,Lead Benchmark Context,20 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 20 ppb (FDA final guidance action level)
-product,baby-cereals-dry-rice-based,Lead Benchmark Context,20 ppb,false,ildren under 2; lead action level is not split by rice status | | EU 2023/915 | 20 ppb | processed cereal-based food as 
-product,baby-cereals-dry-rice-based,Lead Benchmark Context,33.3 ppb,false,al-based food as placed on market | EU maximum level. | | Prop 65 MADL screen | 33.3 ppb | 21 CFR 101.12 dry instant inf
-product,baby-cereals-dry-rice-based,Lead Benchmark Context,20 ppb,false,limit. | | HMTc standards use | ppb-normalized context | FDA and EU both map to 20 ppb for lead; rice status mainly chan
-product,baby-cereals-dry-rice-based,Lead Benchmark Context,20 ppb,false,"nly changes arsenic concern and occurrence profile, not the lead ceiling. | Use 20 ppb as the lead regulatory cap/contex"
+product,baby-cereals-dry-rice-based,Lead Benchmark Context,20 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 20 ppb (FDA final guidance action level)
+product,baby-cereals-dry-rice-based,Lead Benchmark Context,20 ppb,true,level is not split by rice status | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as 
+product,baby-cereals-dry-rice-based,Lead Benchmark Context,33.3 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 33.3 ppb | 21 CFR 101.12 dry instant inf
+product,baby-cereals-dry-rice-based,Lead Benchmark Context,20 ppb,true,limit. | | HMTc standards use | ppb-normalized context | FDA and EU both map to 20 ppb for lead; rice status mainly chan
+product,baby-cereals-dry-rice-based,Lead Benchmark Context,20 ppb,true,"nly changes arsenic concern and occurrence profile, not the lead ceiling. | Use 20 ppb as the lead regulatory cap/contex"
 product,baby-cereals-dry-rice-based,Distribution Context,115 ppb,true,"ed | tAs 253; Cd 252; Pb 256; tHg 64 | lower-bound p50, p90, p95, max | tAs p50 115 ppb, p90 135 ppb, max 348 ppb; Cd p9"
 product,baby-cereals-dry-rice-based,Distribution Context,135 ppb,true," Cd 252; Pb 256; tHg 64 | lower-bound p50, p90, p95, max | tAs p50 115 ppb, p90 135 ppb, max 348 ppb; Cd p90 22 ppb, max"
 product,baby-cereals-dry-rice-based,Distribution Context,348 ppb,true,"56; tHg 64 | lower-bound p50, p90, p95, max | tAs p50 115 ppb, p90 135 ppb, max 348 ppb; Cd p90 22 ppb, max 40.5 ppb; Pb"
@@ -1934,12 +1932,6 @@ product,baby-talcum-powder,Sources,0.430 ppm,true,", IRIS — Journal for Young 
 product,baby-talcum-powder,Sources,0.027 ppm,true," Young Scientists, Vol. X | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three I"
 product,baby-talcum-powder,Sources,0.025 ppm,true,"ol. X | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby ta"
 product,baby-wipes,(opening),558 µg/L,false,"te**: the dominant heavy-metal finding for baby wipes is antimony (Sb, up to 19,558 µg/L from polyester catalyst residue"
-product,bibs,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,bibs,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
-product,blankets-and-sleep-sacks,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,blankets-and-sleep-sacks,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
-product,car-seats,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,car-seats,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
 product,cashews,(opening),434 µg/kg,false,"production geography (West Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  Thi"
 product,cashews,(opening),350 µg/kg,false,"t Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  This page is a Step 0 lock s"
 product,cashews,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,false,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg EU); FDA Closer-to-Zero appli"
@@ -1950,8 +1942,6 @@ product,children-personal-care,Federal/Regulatory Limits vs Field Findings,1000 
 product,children-personal-care,Federal/Regulatory Limits vs Field Findings,1000 ppb,true, Washington TFCA 1000 ppb Pb cap at [[regulations/washington-tfca-toothpaste-pb-1000ppb]]._ - _**US wipes (Row 6)**: cos
 product,children-personal-care,Historical recalls and enforcement,1000 ppb,true,"e, Rows 11-16 cosmetics generally); [[regulations/washington-tfca-toothpaste-pb-1000ppb]]. - New York TCCP Chemical List"
 product,children-personal-care,Historical recalls and enforcement,100 ppm,true," heavy metals in cosmetics); Rows 4, 11-16. - CPSIA Lead in children's products 100 ppm total Pb (toys + ancillary child"
-product,clasps-fasteners-infant-products,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,clasps-fasteners-infant-products,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
 product,coffee,Source Evidence Inventory,0.02 mg/kg,true, Cd | Roasted Arabica coffee | 8 | Range | <LOQ–0.088; mean 0.058 | mg/kg | LOQ 0.02 mg/kg | exact (roasted Arabica bean
 product,coffee,Source Evidence Inventory,0.01 mg/kg,true,Pb | Roasted Arabica coffee | 8 | Range | 0.021–0.791; mean 0.140 | mg/kg | LOQ 0.01 mg/kg | exact | dry matter | [[sour
 product,coffee,Source Evidence Inventory,0.1 mg/kg,true,e-poland\|1]] | | tAs | Roasted Arabica coffee | 8 | Range | <LOQ | mg/kg | LOQ 0.1 mg/kg | exact | dry matter | [[sourc
@@ -1959,8 +1949,6 @@ product,coffee,Source Evidence Inventory,0.005 mg/kg,true, tHg | Roasted Arabica
 product,coffee,Source Evidence Inventory,0.791 mg/kg,true,"8 collection, Lublin supermarkets and eastern Polish farms). The Pb range 0.021–0.791 mg/kg DM is notable for having one"
 product,coffee,Source Evidence Inventory,0.791 mg/kg,true,. The Pb range 0.021–0.791 mg/kg DM is notable for having one high-end value at 0.791 mg/kg; the sample is too small to 
 product,coffee,Source Evidence Inventory,0.058 mg/kg,true,ther this is a genuine outlier or reflects real supply-chain variation. Cd mean 0.058 mg/kg and As below LOQ in all samp
-product,cribs-and-bassinets,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,cribs-and-bassinets,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
 product,diaper-cream-zno,(opening),300 ppb,false,"utes reduce but do not eliminate Pb and Cd carry-through. Documented Pb up to 3,300 ppb in surveyed products.  This page"
 product,dried-fruit,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,false,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg EU); FDA Closer-to-Zero appli"
 product,fermented-beverages-non-tea-based,Levers to reduce contamination,47 mg/kg,true, The Ibiza kombucha outbreak (munilla-garcia2023) demonstrates Pb escalation to 47 mg/kg in ceramic vessels over 14–19 d
@@ -1975,11 +1963,11 @@ product,fish-containing-baby-foods,Federal / Regulatory Limits vs Field Findings
 product,fish-containing-baby-foods,Federal / Regulatory Limits vs Field Findings,40 ug/kg,true,d) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and proces
 product,fish-containing-baby-foods,Federal / Regulatory Limits vs Field Findings,5 ug/kg,true,and young children. Basis: product as placed on market. | Meli 2024 reports Cd <5 ug/kg wet weight in three homogenized 
 product,fish-containing-baby-foods,Federal / Regulatory Limits vs Field Findings,40 ug/kg,true,rce summary. | EU baby-food maximum level loaded; censored upper bound is below 40 ug/kg but remains summary evidence on
-product,fish-containing-baby-foods,Lead Benchmark Context,10 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 10 ppb (FDA final guidance action level 
-product,fish-containing-baby-foods,Lead Benchmark Context,20 ppb,false,idance; fish-containing mixtures can map to the mixture value | | EU 2023/915 | 20 ppb | baby food or infant/young-child
-product,fish-containing-baby-foods,Lead Benchmark Context,4.5 ppb,false,ld mixed meal as placed on market | EU maximum level. | | Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
-product,fish-containing-baby-foods,Lead Benchmark Context,10 ppb,false,-specific food limit. | | HMTc standards use | ppb-normalized context | The FDA 10 ppb value is a scope-dependent mixtur
-product,fish-containing-baby-foods,Lead Benchmark Context,4.5 ppb,false,scope-dependent mixture mapping; the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use as external 
+product,fish-containing-baby-foods,Lead Benchmark Context,10 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level 
+product,fish-containing-baby-foods,Lead Benchmark Context,20 ppb,true,ures can map to the mixture value | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food or infant/young-child
+product,fish-containing-baby-foods,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
+product,fish-containing-baby-foods,Lead Benchmark Context,10 ppb,true,-specific food limit. | | HMTc standards use | ppb-normalized context | The FDA 10 ppb value is a scope-dependent mixtur
+product,fish-containing-baby-foods,Lead Benchmark Context,4.5 ppb,true,scope-dependent mixture mapping; the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use as external 
 product,fish-containing-baby-foods,Source Evidence Inventory,0.165 mg/kg,true,ic-total|Arsenic]] | Fish/fish-mix baby foods in global scoping review | median 0.165 mg/kg | 165 ppb | [[sources/collad
 product,fish-containing-baby-foods,Source Evidence Inventory,165 ppb,true,ic]] | Fish/fish-mix baby foods in global scoping review | median 0.165 mg/kg | 165 ppb | [[sources/collado-lopez2025-he
 product,fish-containing-baby-foods,Source Evidence Inventory,0.016 mg/kg,true,ry-total|Mercury]] | Fish/fish-mix baby foods in global scoping review | median 0.016 mg/kg | 16 ppb | [[sources/collado
@@ -2016,9 +2004,6 @@ product,fish-containing-baby-foods,Why This Category Is High-Risk,100 ppb,true,"
 product,fish-containing-baby-foods,Why This Category Is High-Risk,0.143 ug/kg,true,"d food had the highest estimated daily intake for total arsenic in the study at 0.143 ug/kg body weight per day, but it "
 product,fish-containing-baby-foods,Sources,0.008 mg/kg,true, Hg detection rates and medians; fish mixes had the highest reported Pb median (0.008 mg/kg) among all baby-food categor
 product,fish-containing-baby-foods,Sources,20.15 µg/kg,true,h ready-to-eat baby foods; fish dinner subcategory had highest reported Cd (max 20.15 µg/kg) among product groups tested
-product,fish-freshwater,Federal/Regulatory Limits vs Field Findings,1.0 ppm,false,g. 2023/915 Hg MLs for fish (species-specific); FDA methylmercury action level (1.0 ppm in fish); Codex MeHg MLs for fis
-product,fish-marine-non-predatory,Federal/Regulatory Limits vs Field Findings,1.0 ppm,false,g. 2023/915 Hg MLs for fish (species-specific); FDA methylmercury action level (1.0 ppm in fish); Codex MeHg MLs for fis
-product,fish-marine-predatory,Federal/Regulatory Limits vs Field Findings,1.0 ppm,false,g. 2023/915 Hg MLs for fish (species-specific); FDA methylmercury action level (1.0 ppm in fish); Codex MeHg MLs for fis
 product,flavored-waters,(opening),5 ppb,false,nter on the water source itself (lead at low ppb levels visible against the FDA 5 ppb bottled water standard) plus any f
 product,flavored-waters,Federal / Regulatory Limits vs Field Findings,5 ug/kg,true,/fda-21cfr165110-bottled-water-lead]]: Federal FDA regulatory quality standard: 5 ug/kg Pb. Scope: bottled drinking wate
 product,flavored-waters,Literature Evidence Summary,5 ppb,true,tection rate not reported | [[regulations/fda-21cfr165110-bottled-water-lead]]: 5 ppb (bottled water) | 0 | data gap | B
@@ -2065,14 +2050,14 @@ product,fruit-juice-not-canned,Literature Evidence Summary,100 ppb,true,"anned) 
 product,fruit-juice-not-canned,Literature Evidence Summary,35 ppb,true,uit juice (not canned) (summary-only / supporting context) | mean/median 1.5 to 35 ppb (3 sources); highest reported 40 
 product,fruit-juice-not-canned,Literature Evidence Summary,40 ppb,true,"/ supporting context) | mean/median 1.5 to 35 ppb (3 sources); highest reported 40 ppb | 67% detected (2/3, Fda 2022, FD"
 product,fruit-juice-not-canned,Literature Evidence Summary,10 ppb,true,rted concentration values retained) | [[regulations/fda2022-draft-lead-juice]]: 10 ppb (single-strength ready-to-drink j
-product,fruit-juice-not-canned,Lead Benchmark Context,50 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 50 ppb (FDA current Juice HACCP guidance
-product,fruit-juice-not-canned,Lead Benchmark Context,20 ppb,false,ead-in-juice guidance is not final and not for implementation | | EU 2023/915 | 20 ppb | infant/young-child drink ready-
-product,fruit-juice-not-canned,Lead Benchmark Context,4.2 ppb,false,maximum level if labelled for infants/young children. | | Prop 65 MADL screen | 4.2 ppb | 21 CFR 101.12 infant/young-chi
-product,fruit-juice-not-canned,Lead Benchmark Context,50 ppb,false,limit. | | HMTc standards use | ppb-normalized context | FDA current context is 50 ppb; EU infant-labelled juice is 20 p
-product,fruit-juice-not-canned,Lead Benchmark Context,20 ppb,false,normalized context | FDA current context is 50 ppb; EU infant-labelled juice is 20 ppb; Prop 65 is about 4.2 ppb at 120 
-product,fruit-juice-not-canned,Lead Benchmark Context,4.2 ppb,false,current context is 50 ppb; EU infant-labelled juice is 20 ppb; Prop 65 is about 4.2 ppb at 120 g/day. | Use 50 ppb as cu
-product,fruit-juice-not-canned,Lead Benchmark Context,50 ppb,false,"U infant-labelled juice is 20 ppb; Prop 65 is about 4.2 ppb at 120 g/day. | Use 50 ppb as current FDA context, keep the "
-product,fruit-juice-not-canned,Lead Benchmark Context,20 ppb,false,"is about 4.2 ppb at 120 g/day. | Use 50 ppb as current FDA context, keep the 10/20 ppb FDA juice values as draft-only co"
+product,fruit-juice-not-canned,Lead Benchmark Context,50 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 50 ppb (FDA current Juice HACCP guidance
+product,fruit-juice-not-canned,Lead Benchmark Context,20 ppb,true, final and not for implementation | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | infant/young-child drink ready-
+product,fruit-juice-not-canned,Lead Benchmark Context,4.2 ppb,true,nts/young children. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.2 ppb | 21 CFR 101.12 infant/young-chi
+product,fruit-juice-not-canned,Lead Benchmark Context,50 ppb,true,limit. | | HMTc standards use | ppb-normalized context | FDA current context is 50 ppb; EU infant-labelled juice is 20 p
+product,fruit-juice-not-canned,Lead Benchmark Context,20 ppb,true,normalized context | FDA current context is 50 ppb; EU infant-labelled juice is 20 ppb; Prop 65 is about 4.2 ppb at 120 
+product,fruit-juice-not-canned,Lead Benchmark Context,4.2 ppb,true,current context is 50 ppb; EU infant-labelled juice is 20 ppb; Prop 65 is about 4.2 ppb at 120 g/day. | Use 50 ppb as cu
+product,fruit-juice-not-canned,Lead Benchmark Context,50 ppb,true,"U infant-labelled juice is 20 ppb; Prop 65 is about 4.2 ppb at 120 g/day. | Use 50 ppb as current FDA context, keep the "
+product,fruit-juice-not-canned,Lead Benchmark Context,20 ppb,true,"is about 4.2 ppb at 120 g/day. | Use 50 ppb as current FDA context, keep the 10/20 ppb FDA juice values as draft-only co"
 product,fruit-juice-not-canned,Regulatory Guidance Source Handling,20 ppb,true,"source context, not fruit-juice occurrence evidence. They document the draft 10/20 ppb lead context and current 50 ppb J"
 product,fruit-juice-not-canned,Regulatory Guidance Source Handling,50 ppb,true,occurrence evidence. They document the draft 10/20 ppb lead context and current 50 ppb Juice HACCP context used in the c
 product,fruit-juice-not-canned,Source Evidence Inventory,4.9 ppb,true,rganic arsenic]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9
@@ -2252,14 +2237,14 @@ product,fruit-purees,Literature Evidence Summary,7 ppb,true,| Fruit purees (gene
 product,fruit-purees,Literature Evidence Summary,1.4 ppb,true,2 sources) | as-consumed | | V | Fruit purees (general) (direct row-fit) | mean 1.4 ppb (1 source); highest reported 4 p
 product,fruit-purees,Literature Evidence Summary,4 ppb,true,t purees (general) (direct row-fit) | mean 1.4 ppb (1 source); highest reported 4 ppb | Sample-level detection rate not 
 product,fruit-purees,Literature Evidence Summary,5002 ppb,true,| Fruit purees (general) (summary-only / supporting context) | highest reported 5002 ppb | Sample-level detection rate n
-product,fruit-purees,Lead Benchmark Context,10 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 10 ppb (FDA final guidance action level)
-product,fruit-purees,Lead Benchmark Context,20 ppb,false,ssed baby food | Fruits for babies and young children under 2 | | EU 2023/915 | 20 ppb | baby food as placed on market |
-product,fruit-purees,Lead Benchmark Context,4.5 ppb,false,b | baby food as placed on market | EU maximum level. | | Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
-product,fruit-purees,Lead Benchmark Context,10 ppb,false,"t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop "
-product,fruit-purees,Lead Benchmark Context,20 ppb,false,"imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equiva"
-product,fruit-purees,Lead Benchmark Context,4.5 ppb,false,"s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb a"
-product,fruit-purees,Lead Benchmark Context,10 ppb,false," the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context, EU 2"
-product,fruit-purees,Lead Benchmark Context,20 ppb,false,"is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context, EU 20 ppb as a looser legal ceiling, and oc"
+product,fruit-purees,Lead Benchmark Context,10 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level)
+product,fruit-purees,Lead Benchmark Context,20 ppb,true,babies and young children under 2 | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |
+product,fruit-purees,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
+product,fruit-purees,Lead Benchmark Context,10 ppb,true,"t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop "
+product,fruit-purees,Lead Benchmark Context,20 ppb,true,"imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equiva"
+product,fruit-purees,Lead Benchmark Context,4.5 ppb,true,"s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb a"
+product,fruit-purees,Lead Benchmark Context,10 ppb,true," the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context, EU 2"
+product,fruit-purees,Lead Benchmark Context,20 ppb,true,"is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context, EU 20 ppb as a looser legal ceiling, and oc"
 product,fruit-purees,Distribution Context,1.4 ppb,true,"egory | tAs 39; Cd 39; Pb 44; tHg 14 | lower-bound p50, p90, p95, max | tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p9"
 product,fruit-purees,Distribution Context,5.2 ppb,true,"9; Cd 39; Pb 44; tHg 14 | lower-bound p50, p90, p95, max | tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p90 2.2 ppb, ma"
 product,fruit-purees,Distribution Context,8.7 ppb,true,"44; tHg 14 | lower-bound p50, p90, p95, max | tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p90 2.2 ppb, max 4 ppb; Pb p"
@@ -2358,10 +2343,6 @@ product,fruit-purees,Sources,125 µg/kg,true,"tals (including Al, tAs, iAs, Cd, 
 product,fruit-purees,Sources,50 µg/kg,true,"l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 20 | "
 product,fruit-snacks,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,false,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg EU); FDA Closer-to-Zero appli"
 product,herbal-botanical-infusions,Levers to reduce contamination,2.17 mg/kg,true,2021-metals-herbs-spices-tea-coffee-poland]] for herb-specific ranges (Cd up to 2.17 mg/kg DM in hoary rockrose vs <LOQ 
-product,high-chairs-and-booster-seats,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,high-chairs-and-booster-seats,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
-product,infant-clothing,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,infant-clothing,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
 product,infant-formula-concentrated-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,0.4 ug/kg,true,"deral product-specific limit loaded in this crosswalk. | tAs: N=8, detected 0.2-0.4 ug/kg; Pb: N=8, detected 0.05-0.4 ug"
 product,infant-formula-concentrated-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,0.4 ug/kg,true,"d in this crosswalk. | tAs: N=8, detected 0.2-0.4 ug/kg; Pb: N=8, detected 0.05-0.4 ug/kg; Cd: N=8, detected 0.08-0.5 ug"
 product,infant-formula-concentrated-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,0.5 ug/kg,true,"etected 0.2-0.4 ug/kg; Pb: N=8, detected 0.05-0.4 ug/kg; Cd: N=8, detected 0.08-0.5 ug/kg; tHg: N=8, not detected. FDA f"
@@ -2408,8 +2389,8 @@ product,infant-formula-powder-non-soy,Federal / Regulatory Limits vs Field Findi
 product,infant-formula-powder-non-soy,Federal / Regulatory Limits vs Field Findings,10.4 ppb,true,ited range 0.1 to 1.3 ppb prepared-for-feeding converts to approximately 0.8 to 10.4 ppb powder-as-placed at the conserv
 product,infant-formula-powder-non-soy,Federal / Regulatory Limits vs Field Findings,10 ppb,true,"he conservative 1:7 reconstitution (1 g powder per 7 g water), compared against 10 ppb cap (infant formula powder manufa"
 product,infant-formula-powder-non-soy,Federal / Regulatory Limits vs Field Findings,20 ug/kg,true,"ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: infant formulae, fo"
-product,infant-formula-powder-non-soy,Lead Benchmark Context,20 ppb,false,025 processed-baby-food lead guidance excludes infant formula | | EU 2023/915 | 20 ppb | as placed on market as powder |
-product,infant-formula-powder-non-soy,Lead Benchmark Context,5 ppb,false,b | as placed on market as powder | EU maximum level. | | Prop 65 MADL screen | 5 ppb | Illustrative 100 g/day powder-in
+product,infant-formula-powder-non-soy,Lead Benchmark Context,20 ppb,true, guidance excludes infant formula | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | as placed on market as powder |
+product,infant-formula-powder-non-soy,Lead Benchmark Context,5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 5 ppb | Illustrative 100 g/day powder-in
 product,infant-formula-powder-non-soy,Source Evidence Inventory,2.03 ppb,true,[[metals/lead|Pb]] | China cow milk-based formulas | 93 | mean and range | mean 2.03 ppb; range 0.36 to 5.75 ppb | 5.75 
 product,infant-formula-powder-non-soy,Source Evidence Inventory,5.75 ppb,true,na cow milk-based formulas | 93 | mean and range | mean 2.03 ppb; range 0.36 to 5.75 ppb | 5.75 ppb | Row-fit: matrix ax
 product,infant-formula-powder-non-soy,Source Evidence Inventory,5.75 ppb,true,-based formulas | 93 | mean and range | mean 2.03 ppb; range 0.36 to 5.75 ppb | 5.75 ppb | Row-fit: matrix axis exact (c
@@ -2494,8 +2475,8 @@ product,infant-formula-powder-soy-based,Literature Evidence Summary,1300 ppb,tru
 product,infant-formula-powder-soy-based,Literature Evidence Summary,18.3 ppb,true,"[metals/cadmium\|Cd]] | soy-based, powder (direct row-fit) | mean/median 0.8 to 18.3 ppb (6 sources); highest reported 3"
 product,infant-formula-powder-soy-based,Literature Evidence Summary,35 ppb,true,"er (direct row-fit) | mean/median 0.8 to 18.3 ppb (6 sources); highest reported 35 ppb | 100% detected (38/38, FDA 2026,"
 product,infant-formula-powder-soy-based,Literature Evidence Summary,20 ppb,true," (38/38, FDA 2026, prepared-for-feeding) | [[regulations/eu-2023-915-cadmium]]: 20 ppb (product as placed on market) | 6"
-product,infant-formula-powder-soy-based,Lead Benchmark Context,20 ppb,false,025 processed-baby-food lead guidance excludes infant formula | | EU 2023/915 | 20 ppb | as placed on market as powder |
-product,infant-formula-powder-soy-based,Lead Benchmark Context,5 ppb,false,b | as placed on market as powder | EU maximum level. | | Prop 65 MADL screen | 5 ppb | Illustrative 100 g/day powder-in
+product,infant-formula-powder-soy-based,Lead Benchmark Context,20 ppb,true, guidance excludes infant formula | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | as placed on market as powder |
+product,infant-formula-powder-soy-based,Lead Benchmark Context,5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 5 ppb | Illustrative 100 g/day powder-in
 product,infant-formula-powder-soy-based,Distribution Context,13.3 ppb,true," Milk-free or soy-base infant formula powders | 15 | mean, median, range | mean 13.3 ppb; median 12.0 ppb; range 1.1-35 "
 product,infant-formula-powder-soy-based,Distribution Context,12.0 ppb,true,"-base infant formula powders | 15 | mean, median, range | mean 13.3 ppb; median 12.0 ppb; range 1.1-35 ppb | Supports me"
 product,infant-formula-powder-soy-based,Distribution Context,35 ppb,true," powders | 15 | mean, median, range | mean 13.3 ppb; median 12.0 ppb; range 1.1-35 ppb | Supports median/max only | Hist"
@@ -2573,8 +2554,8 @@ product,infant-formula-rtf-liquid-non-soy,Literature Evidence Summary,9 ppb,true
 product,infant-formula-rtf-liquid-non-soy,Literature Evidence Summary,0.27 ppb,true,"y (cow milk-based), ready-to-feed liquid (direct row-fit) | mean/median 0.09 to 0.27 ppb (3 sources); highest reported 1"
 product,infant-formula-rtf-liquid-non-soy,Literature Evidence Summary,1.26 ppb,true,"d (direct row-fit) | mean/median 0.09 to 0.27 ppb (3 sources); highest reported 1.26 ppb | 100% detected (67/67, Dabeka "
 product,infant-formula-rtf-liquid-non-soy,Literature Evidence Summary,5 ppb,true,"tected (67/67, Dabeka 2011, as-consumed) | [[regulations/eu-2023-915-cadmium]]: 5 ppb (product as placed on market) | 4 "
-product,infant-formula-rtf-liquid-non-soy,Lead Benchmark Context,10 ppb,false,025 processed-baby-food lead guidance excludes infant formula | | EU 2023/915 | 10 ppb | as placed on market as liquid |
-product,infant-formula-rtf-liquid-non-soy,Lead Benchmark Context,0.625 ppb,false,b | as placed on market as liquid | EU maximum level. | | Prop 65 MADL screen | 0.625 ppb | Illustrative 800 g/day ready
+product,infant-formula-rtf-liquid-non-soy,Lead Benchmark Context,10 ppb,true, guidance excludes infant formula | | [[regulations/eu-2023-915|EU 2023/915]] | 10 ppb | as placed on market as liquid |
+product,infant-formula-rtf-liquid-non-soy,Lead Benchmark Context,0.625 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 0.625 ppb | Illustrative 800 g/day ready
 product,infant-formula-rtf-liquid-non-soy,Source Evidence Inventory,34 ug/L,true,| | [[metals/aluminum|Aluminum]] | UK ready-to-feed first/hungrier milk | 18 to 34 ug/L | 18 to 34 ppb in liquid formula
 product,infant-formula-rtf-liquid-non-soy,Source Evidence Inventory,34 ppb,true,minum|Aluminum]] | UK ready-to-feed first/hungrier milk | 18 to 34 ug/L | 18 to 34 ppb in liquid formula | [[sources/fsa
 product,infant-formula-rtf-liquid-non-soy,Source Evidence Inventory,0.3 ug/L,true,als/arsenic-total|Total arsenic]] | UK ready-to-feed first/hungrier milk | 0 to 0.3 ug/L | 0 to 0.3 ppb in liquid formul
@@ -2623,9 +2604,9 @@ product,infant-formula-rtf-liquid-soy-based,Literature Evidence Summary,1121 ppb
 product,infant-formula-rtf-liquid-soy-based,Literature Evidence Summary,2.35 ppb,true,"m\|Cd]] | soy-based, ready-to-feed liquid (direct row-fit) | mean/median 0.9 to 2.35 ppb (3 sources); highest reported 7"
 product,infant-formula-rtf-liquid-soy-based,Literature Evidence Summary,7.55 ppb,true,"id (direct row-fit) | mean/median 0.9 to 2.35 ppb (3 sources); highest reported 7.55 ppb | 100% detected (16/16, Dabeka "
 product,infant-formula-rtf-liquid-soy-based,Literature Evidence Summary,10 ppb,true,"tected (16/16, Dabeka 1987, as-consumed) | [[regulations/eu-2023-915-cadmium]]: 10 ppb (product as placed on market) | 3"
-product,infant-formula-rtf-liquid-soy-based,Lead Benchmark Context,10 ppb,false,025 processed-baby-food lead guidance excludes infant formula | | EU 2023/915 | 10 ppb | as placed on market as liquid |
-product,infant-formula-rtf-liquid-soy-based,Lead Benchmark Context,0.625 ppb,false,b | as placed on market as liquid | EU maximum level. | | Prop 65 MADL screen | 0.625 ppb | Illustrative 800 g/day ready
-product,infant-formula-rtf-liquid-soy-based,Lead Benchmark Context,65 ppb,false,gal context. |  RTF soy formula needs basis-matched occurrence review; the Prop 65 ppb screen is driven by assumed daily
+product,infant-formula-rtf-liquid-soy-based,Lead Benchmark Context,10 ppb,true, guidance excludes infant formula | | [[regulations/eu-2023-915|EU 2023/915]] | 10 ppb | as placed on market as liquid |
+product,infant-formula-rtf-liquid-soy-based,Lead Benchmark Context,0.625 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 0.625 ppb | Illustrative 800 g/day ready
+product,infant-formula-rtf-liquid-soy-based,Lead Benchmark Context,65 ppb,true,gal context. |  RTF soy formula needs basis-matched occurrence review; the Prop 65 ppb screen is driven by assumed daily
 product,infant-formula-rtf-liquid-soy-based,Source Evidence Inventory,0.4 ug/L,true,-- | --- | | [[metals/lead|Lead]] | UK ready-to-feed first/hungrier milk | 0 to 0.4 ug/L | 0 to 0.4 ppb in liquid formul
 product,infant-formula-rtf-liquid-soy-based,Source Evidence Inventory,0.4 ppb,true,etals/lead|Lead]] | UK ready-to-feed first/hungrier milk | 0 to 0.4 ug/L | 0 to 0.4 ppb in liquid formula | [[sources/fs
 product,infant-formula-rtf-liquid-soy-based,Source Evidence Inventory,0.2 ug/L,true,c. | | [[metals/cadmium|Cadmium]] | UK ready-to-feed first/hungrier milk | 0 to 0.2 ug/L | 0 to 0.2 ppb in liquid formul
@@ -2744,13 +2725,13 @@ product,meat-and-poultry-purees,Literature Evidence Summary,86 ppb,true,ght | | 
 product,meat-and-poultry-purees,Literature Evidence Summary,86 ppb,true, and poultry purees (direct row-fit) | mean 86 ppb (1 source); highest reported 86 ppb | Sample-level detection rate not
 product,meat-and-poultry-purees,Literature Evidence Summary,267 ppb,true,weight | | [[metals/tin\|Sn]] | Meat and poultry purees (direct row-fit) | mean 267 ppb (1 source); highest reported 267
 product,meat-and-poultry-purees,Literature Evidence Summary,267 ppb,true,and poultry purees (direct row-fit) | mean 267 ppb (1 source); highest reported 267 ppb | Sample-level detection rate no
-product,meat-and-poultry-purees,Lead Benchmark Context,10 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 10 ppb (FDA final guidance action level)
-product,meat-and-poultry-purees,Lead Benchmark Context,20 ppb,false,and meat-based mixtures for babies and young children under 2 | | EU 2023/915 | 20 ppb | baby food as placed on market |
-product,meat-and-poultry-purees,Lead Benchmark Context,4.5 ppb,false,b | baby food as placed on market | EU maximum level. | | Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
-product,meat-and-poultry-purees,Lead Benchmark Context,10 ppb,false,"t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop "
-product,meat-and-poultry-purees,Lead Benchmark Context,20 ppb,false,"imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equiva"
-product,meat-and-poultry-purees,Lead Benchmark Context,4.5 ppb,false,"s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb a"
-product,meat-and-poultry-purees,Lead Benchmark Context,10 ppb,false," the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as regulatory cap/context, then r"
+product,meat-and-poultry-purees,Lead Benchmark Context,10 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level)
+product,meat-and-poultry-purees,Lead Benchmark Context,20 ppb,true,babies and young children under 2 | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |
+product,meat-and-poultry-purees,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
+product,meat-and-poultry-purees,Lead Benchmark Context,10 ppb,true,"t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop "
+product,meat-and-poultry-purees,Lead Benchmark Context,20 ppb,true,"imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equiva"
+product,meat-and-poultry-purees,Lead Benchmark Context,4.5 ppb,true,"s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb a"
+product,meat-and-poultry-purees,Lead Benchmark Context,10 ppb,true," the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as regulatory cap/context, then r"
 product,meat-and-poultry-purees,Source Evidence Inventory,15 ug/kg,true,ls/arsenic-total|Total arsenic]] | UK meat and fish based infant foods/dishes | 15 ug/kg | 15 ppb | [[sources/fsa2016-in
 product,meat-and-poultry-purees,Source Evidence Inventory,15 ppb,true,total|Total arsenic]] | UK meat and fish based infant foods/dishes | 15 ug/kg | 15 ppb | [[sources/fsa2016-infant-food-f
 product,meat-and-poultry-purees,Source Evidence Inventory,4 ug/kg,true,organic|Inorganic arsenic]] | UK meat and fish based infant foods/dishes | 2 to 4 ug/kg | 2 to 4 ppb | [[sources/fsa2016
@@ -2806,14 +2787,14 @@ product,mixed-meals-non-rice,Literature Evidence Summary,40 ppb,true," 86% detec
 product,mixed-meals-non-rice,Literature Evidence Summary,1.6 ppb,true,/lead\|Pb]] | non-rice grain-based (summary-only / supporting context) | median 1.6 ppb (1 source); highest reported 13 
 product,mixed-meals-non-rice,Literature Evidence Summary,13 ppb,true,"ummary-only / supporting context) | median 1.6 ppb (1 source); highest reported 13 ppb | 76% detected (59/78, Fda 2024, "
 product,mixed-meals-non-rice,Literature Evidence Summary,10 ppb,true,"(59/78, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 10 ppb (as sold or ready-to-eat as appli"
-product,mixed-meals-non-rice,Lead Benchmark Context,10 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 10 ppb (FDA final guidance action level)
-product,mixed-meals-non-rice,Lead Benchmark Context,20 ppb,false,and meat-based mixtures for babies and young children under 2 | | EU 2023/915 | 20 ppb | baby food as placed on market |
-product,mixed-meals-non-rice,Lead Benchmark Context,4.5 ppb,false,b | baby food as placed on market | EU maximum level. | | Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
-product,mixed-meals-non-rice,Lead Benchmark Context,10 ppb,false,t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equ
-product,mixed-meals-non-rice,Lead Benchmark Context,20 ppb,false,imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 
-product,mixed-meals-non-rice,Lead Benchmark Context,4.5 ppb,false,lized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g
-product,mixed-meals-non-rice,Lead Benchmark Context,2.9 ppb,false,0 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb a
-product,mixed-meals-non-rice,Lead Benchmark Context,10 ppb,false, 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb as regulatory cap/context and kee
+product,mixed-meals-non-rice,Lead Benchmark Context,10 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level)
+product,mixed-meals-non-rice,Lead Benchmark Context,20 ppb,true,babies and young children under 2 | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |
+product,mixed-meals-non-rice,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
+product,mixed-meals-non-rice,Lead Benchmark Context,10 ppb,true,t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equ
+product,mixed-meals-non-rice,Lead Benchmark Context,20 ppb,true,imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 
+product,mixed-meals-non-rice,Lead Benchmark Context,4.5 ppb,true,lized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g
+product,mixed-meals-non-rice,Lead Benchmark Context,2.9 ppb,true,0 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb a
+product,mixed-meals-non-rice,Lead Benchmark Context,10 ppb,true, 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb as regulatory cap/context and kee
 product,mixed-meals-non-rice,Distribution Context,3 ppb,true,"named | tAs 77; Cd 77; Pb 78; tHg 36 | lower-bound p50, p90, p95, max | tAs p50 3 ppb, p90 5.6 ppb, max 13.6 ppb; Cd p50"
 product,mixed-meals-non-rice,Distribution Context,5.6 ppb,true," 77; Cd 77; Pb 78; tHg 36 | lower-bound p50, p90, p95, max | tAs p50 3 ppb, p90 5.6 ppb, max 13.6 ppb; Cd p50 2.2 ppb, p"
 product,mixed-meals-non-rice,Distribution Context,13.6 ppb,true,"b 78; tHg 36 | lower-bound p50, p90, p95, max | tAs p50 3 ppb, p90 5.6 ppb, max 13.6 ppb; Cd p50 2.2 ppb, p90 5.2 ppb, m"
@@ -2902,14 +2883,14 @@ product,mixed-meals-rice-containing,Literature Evidence Summary,40 ppb,true," | 
 product,mixed-meals-rice-containing,Literature Evidence Summary,8 ppb,true," Mixed meals, rice-containing (summary-only / supporting context) | median 1 to 8 ppb (2 sources); highest reported 11.6"
 product,mixed-meals-rice-containing,Literature Evidence Summary,11.6 ppb,true,"ry-only / supporting context) | median 1 to 8 ppb (2 sources); highest reported 11.6 ppb | 56% detected (5/9, Fda 2024, "
 product,mixed-meals-rice-containing,Literature Evidence Summary,10 ppb,true,"d (5/9, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 10 ppb (as sold or ready-to-eat as appli"
-product,mixed-meals-rice-containing,Lead Benchmark Context,10 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 10 ppb (FDA final guidance action level)
-product,mixed-meals-rice-containing,Lead Benchmark Context,20 ppb,false,s does not make the dry-infant-cereal lead action level apply | | EU 2023/915 | 20 ppb | baby food as placed on market |
-product,mixed-meals-rice-containing,Lead Benchmark Context,4.5 ppb,false,b | baby food as placed on market | EU maximum level. | | Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
-product,mixed-meals-rice-containing,Lead Benchmark Context,10 ppb,false,t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equ
-product,mixed-meals-rice-containing,Lead Benchmark Context,20 ppb,false,imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 
-product,mixed-meals-rice-containing,Lead Benchmark Context,4.5 ppb,false,lized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g
-product,mixed-meals-rice-containing,Lead Benchmark Context,2.9 ppb,false,0 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb a
-product,mixed-meals-rice-containing,Lead Benchmark Context,10 ppb,false," 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb as lead cap/context, but preserve"
+product,mixed-meals-rice-containing,Lead Benchmark Context,10 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level)
+product,mixed-meals-rice-containing,Lead Benchmark Context,20 ppb,true,nt-cereal lead action level apply | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |
+product,mixed-meals-rice-containing,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
+product,mixed-meals-rice-containing,Lead Benchmark Context,10 ppb,true,t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equ
+product,mixed-meals-rice-containing,Lead Benchmark Context,20 ppb,true,imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 
+product,mixed-meals-rice-containing,Lead Benchmark Context,4.5 ppb,true,lized context | FDA is 10 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g
+product,mixed-meals-rice-containing,Lead Benchmark Context,2.9 ppb,true,0 ppb and EU is 20 ppb; the Prop 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb a
+product,mixed-meals-rice-containing,Lead Benchmark Context,10 ppb,true," 65 equivalent is about 4.5 ppb at 110 g/day or 2.9 ppb at 170 g/day. | Use FDA 10 ppb as lead cap/context, but preserve"
 product,mixed-meals-rice-containing,Distribution Context,11 ppb,true,"ice named | tAs 9; Cd 9; Pb 9; tHg 3 | lower-bound p50, p90, p95, max | tAs p50 11 ppb, p90/max 28.3 ppb; Cd p50 1.3 ppb"
 product,mixed-meals-rice-containing,Distribution Context,28.3 ppb,true,"9; Cd 9; Pb 9; tHg 3 | lower-bound p50, p90, p95, max | tAs p50 11 ppb, p90/max 28.3 ppb; Cd p50 1.3 ppb, p90/max 7 ppb;"
 product,mixed-meals-rice-containing,Distribution Context,1.3 ppb,true,"g 3 | lower-bound p50, p90, p95, max | tAs p50 11 ppb, p90/max 28.3 ppb; Cd p50 1.3 ppb, p90/max 7 ppb; Pb p50 1 ppb, p9"
@@ -3001,14 +2982,14 @@ product,non-root-vegetable-purees,Literature Evidence Summary,40 ppb,true," 64% 
 product,non-root-vegetable-purees,Literature Evidence Summary,2.3 ppb,true, | [[metals/lead\|Pb]] | non-root vegetable (direct row-fit) | mean/median 0 to 2.3 ppb (2 sources); highest reported 7.
 product,non-root-vegetable-purees,Literature Evidence Summary,7.6 ppb,true,"table (direct row-fit) | mean/median 0 to 2.3 ppb (2 sources); highest reported 7.6 ppb | 45% detected (13/29, Fda 2024,"
 product,non-root-vegetable-purees,Literature Evidence Summary,10 ppb,true,"(13/29, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 10 ppb (as sold or ready-to-eat as appli"
-product,non-root-vegetable-purees,Lead Benchmark Context,10 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 10 ppb (FDA final guidance action level)
-product,non-root-vegetable-purees,Lead Benchmark Context,20 ppb,false,redient root vegetables for babies and young children under 2 | | EU 2023/915 | 20 ppb | baby food as placed on market |
-product,non-root-vegetable-purees,Lead Benchmark Context,4.5 ppb,false,b | baby food as placed on market | EU maximum level. | | Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
-product,non-root-vegetable-purees,Lead Benchmark Context,10 ppb,false,"t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop "
-product,non-root-vegetable-purees,Lead Benchmark Context,20 ppb,false,"imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equiva"
-product,non-root-vegetable-purees,Lead Benchmark Context,4.5 ppb,false,"s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb a"
-product,non-root-vegetable-purees,Lead Benchmark Context,10 ppb,false, the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context and o
-product,non-root-vegetable-purees,Lead Benchmark Context,20 ppb,false,MTc targets are feasible. |  Non-root vegetable products should not inherit the 20 ppb root-vegetable FDA value unless t
+product,non-root-vegetable-purees,Lead Benchmark Context,10 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level)
+product,non-root-vegetable-purees,Lead Benchmark Context,20 ppb,true,babies and young children under 2 | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |
+product,non-root-vegetable-purees,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
+product,non-root-vegetable-purees,Lead Benchmark Context,10 ppb,true,"t-specific food limit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop "
+product,non-root-vegetable-purees,Lead Benchmark Context,20 ppb,true,"imit. | | HMTc standards use | ppb-normalized context | FDA is 10 ppb and EU is 20 ppb, while the Prop 65 serving-equiva"
+product,non-root-vegetable-purees,Lead Benchmark Context,4.5 ppb,true,"s 10 ppb and EU is 20 ppb, while the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb a"
+product,non-root-vegetable-purees,Lead Benchmark Context,10 ppb,true, the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use FDA 10 ppb as a regulatory cap/context and o
+product,non-root-vegetable-purees,Lead Benchmark Context,20 ppb,true,MTc targets are feasible. |  Non-root vegetable products should not inherit the 20 ppb root-vegetable FDA value unless t
 product,non-root-vegetable-purees,Distribution Context,1 ppb,true,"terms | tAs 20; Cd 22; Pb 29; tHg 13 | lower-bound p50, p90, p95, max | tAs p90 1 ppb, max 11 ppb; Cd p50 0.7 ppb, p90 1"
 product,non-root-vegetable-purees,Distribution Context,11 ppb,true," 20; Cd 22; Pb 29; tHg 13 | lower-bound p50, p90, p95, max | tAs p90 1 ppb, max 11 ppb; Cd p50 0.7 ppb, p90 12.8 ppb, ma"
 product,non-root-vegetable-purees,Distribution Context,0.7 ppb,true,"29; tHg 13 | lower-bound p50, p90, p95, max | tAs p90 1 ppb, max 11 ppb; Cd p50 0.7 ppb, p90 12.8 ppb, max 23.1 ppb; Pb "
@@ -3144,8 +3125,6 @@ product,plant-milks-soy-based,Levers to reduce contamination,176 µg/L,true,n wh
 product,plant-milks-soy-based,Levers to reduce contamination,758 µg/L,true, 2023 group-mean comparison) | Al group means 176 µg/L (isolate-protein) vs 609–758 µg/L (hydrosoluble/soybean) | [[sour
 product,plant-milks-soy-based,Levers to reduce contamination,191 ppb,true,"ting for Al, Ni, Cd, and Pb; Milani 2023 ICP-OES LOQs for tAs and Cd were high (191 ppb and 19 ppb respectively), so met"
 product,plant-milks-soy-based,Levers to reduce contamination,19 ppb,true," Ni, Cd, and Pb; Milani 2023 ICP-OES LOQs for tAs and Cd were high (191 ppb and 19 ppb respectively), so method selectio"
-product,play-yards-and-gates,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,play-yards-and-gates,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
 product,regulatory-crosswalk-field-findings,Crosswalk Surface,20 ug/kg,false,rmula-powder-non-soy]] and [[products/infant-formula-powder-soy-based]] | EU Pb 20 ug/kg; EU Cd 10 or 20 ug/kg by protei
 product,regulatory-crosswalk-field-findings,Crosswalk Surface,20 ug/kg,false, and [[products/infant-formula-powder-soy-based]] | EU Pb 20 ug/kg; EU Cd 10 or 20 ug/kg by protein source; EU iAs 20 ug
 product,regulatory-crosswalk-field-findings,Crosswalk Surface,20 ug/kg,false,"er-soy-based]] | EU Pb 20 ug/kg; EU Cd 10 or 20 ug/kg by protein source; EU iAs 20 ug/kg | Legal values are visible, but"
@@ -3197,12 +3176,12 @@ product,root-vegetable-purees,Literature Evidence Summary,40 ppb,true," 93% dete
 product,root-vegetable-purees,Literature Evidence Summary,15.8 ppb,true,metals/lead\|Pb]] | Root-vegetable purees (direct row-fit) | mean/median 5.1 to 15.8 ppb (3 sources); highest reported 4
 product,root-vegetable-purees,Literature Evidence Summary,48 ppb,true,"es (direct row-fit) | mean/median 5.1 to 15.8 ppb (3 sources); highest reported 48 ppb | 93% detected (55/59, Fda 2024, "
 product,root-vegetable-purees,Literature Evidence Summary,20 ppb,true,"(55/59, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 20 ppb (as sold or ready-to-eat as appli"
-product,root-vegetable-purees,Lead Benchmark Context,20 ppb,false,ad ppb view | Basis | How to use it | | --- | --- | --- | --- | | Current FDA | 20 ppb (FDA final guidance action level 
-product,root-vegetable-purees,Lead Benchmark Context,10 ppb,false,d | Single-ingredient carrots or sweet potatoes; root mixtures can route to the 10 ppb mixture value | | EU 2023/915 | 2
-product,root-vegetable-purees,Lead Benchmark Context,20 ppb,false,potatoes; root mixtures can route to the 10 ppb mixture value | | EU 2023/915 | 20 ppb | baby food as placed on market |
-product,root-vegetable-purees,Lead Benchmark Context,4.5 ppb,false,b | baby food as placed on market | EU maximum level. | | Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
-product,root-vegetable-purees,Lead Benchmark Context,20 ppb,false,-specific food limit. | | HMTc standards use | ppb-normalized context | The FDA 20 ppb value applies only to covered sin
-product,root-vegetable-purees,Lead Benchmark Context,4.5 ppb,false, only to covered single-ingredient root vegetables; the Prop 65 screen is about 4.5 ppb at 110 g/day. | Use the FDA root
+product,root-vegetable-purees,Lead Benchmark Context,20 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 20 ppb (FDA final guidance action level 
+product,root-vegetable-purees,Lead Benchmark Context,10 ppb,true,d | Single-ingredient carrots or sweet potatoes; root mixtures can route to the 10 ppb mixture value | | [[regulations/e
+product,root-vegetable-purees,Lead Benchmark Context,20 ppb,true,route to the 10 ppb mixture value | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |
+product,root-vegetable-purees,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
+product,root-vegetable-purees,Lead Benchmark Context,20 ppb,true,-specific food limit. | | HMTc standards use | ppb-normalized context | The FDA 20 ppb value applies only to covered sin
+product,root-vegetable-purees,Lead Benchmark Context,4.5 ppb,true, only to covered single-ingredient root vegetables; the Prop 65 screen is about 4.5 ppb at 110 g/day. | Use the FDA root
 product,root-vegetable-purees,Distribution Context,6.4 ppb,true,"terms | tAs 54; Cd 54; Pb 59; tHg 25 | lower-bound p50, p90, p95, max | tAs p90 6.4 ppb, max 10.3 ppb; Cd p50 8.7 ppb, p"
 product,root-vegetable-purees,Distribution Context,10.3 ppb,true,"4; Cd 54; Pb 59; tHg 25 | lower-bound p50, p90, p95, max | tAs p90 6.4 ppb, max 10.3 ppb; Cd p50 8.7 ppb, p90 31.5 ppb, "
 product,root-vegetable-purees,Distribution Context,8.7 ppb,true,"tHg 25 | lower-bound p50, p90, p95, max | tAs p90 6.4 ppb, max 10.3 ppb; Cd p50 8.7 ppb, p90 31.5 ppb, max 42 ppb; Pb p5"
@@ -3298,23 +3277,17 @@ product,root-vegetable-purees,Sources,48 ppb,true,-vegetable group (N=9) with mi
 product,root-vegetable-purees,Sources,21 ppb,true, FS102048 | 2016 | Government report | UK survey providing category-average Cd (21 ppb potatoes) and Pb (0-1 ppb potatoe
 product,root-vegetable-purees,Sources,1 ppb,true,nt report | UK survey providing category-average Cd (21 ppb potatoes) and Pb (0-1 ppb potatoes) for UK infant-diet veget
 product,root-vegetable-purees,Sources,10 ppb,true,n in 330 baby-food samples including strained and junior vegetables by AAS; LOD 10 ppb makes values a historical ceiling
-product,seaweed-kelp-foods,Federal/Regulatory Limits vs Field Findings,1.0 ppm,false,g. 2023/915 Hg MLs for fish (species-specific); FDA methylmercury action level (1.0 ppm in fish); Codex MeHg MLs for fis
-product,shellfish,Federal/Regulatory Limits vs Field Findings,1.0 ppm,false,g. 2023/915 Hg MLs for fish (species-specific); FDA methylmercury action level (1.0 ppm in fish); Codex MeHg MLs for fis
 product,skin-lightening-cream,(opening),000 ppm,true,"s position on documented mercury contamination in this product class (up to 210,000 ppm in the literature) and the recom"
 product,soy-products,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,false,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg EU); FDA Closer-to-Zero appli"
 product,spinach,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,false,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg EU); FDA Closer-to-Zero appli"
-product,strollers,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,strollers,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
 product,sunflower-seed-butter,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,false,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg EU); FDA Closer-to-Zero appli"
 product,sunflower-seeds,(opening),265 µg/kg,false,remediation literature. Fechner BfR MEAL commercial sunflower seed Cd group-max 265 µg/kg.  This page is a Step 0 lock s
 product,sunflower-seeds,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,false,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg EU); FDA Closer-to-Zero appli"
-product,swings-and-bouncers,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,swings-and-bouncers,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s
-product,teething-and-snacks-non-rice,Lead Benchmark Context,20 ppb,false,"ludes snack foods such as puffs, rusks, and teething biscuits | | EU 2023/915 | 20 ppb | processed cereal-based food as "
-product,teething-and-snacks-non-rice,Lead Benchmark Context,71.4 ppb,false,ed as processed cereal-based infant/young-child food. | | Prop 65 MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething
-product,teething-and-snacks-non-rice,Lead Benchmark Context,20 ppb,false,| ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processe
-product,teething-and-snacks-non-rice,Lead Benchmark Context,71.4 ppb,false, 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use occurrence ev
-product,teething-and-snacks-non-rice,Lead Benchmark Context,65 ppb,false,"real action levels for snacks. |  Small serving size makes the one-serving Prop 65 ppb equivalent high, but frequent con"
+product,teething-and-snacks-non-rice,Lead Benchmark Context,20 ppb,true,"ffs, rusks, and teething biscuits | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as "
+product,teething-and-snacks-non-rice,Lead Benchmark Context,71.4 ppb,true,t/young-child food. | | [[regulations/california-prop65|Prop 65]] MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething
+product,teething-and-snacks-non-rice,Lead Benchmark Context,20 ppb,true,| ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processe
+product,teething-and-snacks-non-rice,Lead Benchmark Context,71.4 ppb,true, 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use occurrence ev
+product,teething-and-snacks-non-rice,Lead Benchmark Context,65 ppb,true,"real action levels for snacks. |  Small serving size makes the one-serving Prop 65 ppb equivalent high, but frequent con"
 product,teething-and-snacks-non-rice,Distribution Context,61 ppb,true,"lated | tAs 91; Cd 91; Pb 91; tHg 28 | lower-bound p50, p90, p95, max | tAs p50 61 ppb, p90 224 ppb, p95 383 ppb, max 56"
 product,teething-and-snacks-non-rice,Distribution Context,224 ppb,true,"91; Cd 91; Pb 91; tHg 28 | lower-bound p50, p90, p95, max | tAs p50 61 ppb, p90 224 ppb, p95 383 ppb, max 561 ppb; Cd p9"
 product,teething-and-snacks-non-rice,Distribution Context,383 ppb,true," 91; tHg 28 | lower-bound p50, p90, p95, max | tAs p50 61 ppb, p90 224 ppb, p95 383 ppb, max 561 ppb; Cd p90 27 ppb, max"
@@ -3387,10 +3360,10 @@ product,teething-and-snacks-rice-based,Literature Evidence Summary,7 ppb,true,ls
 product,teething-and-snacks-rice-based,Literature Evidence Summary,3.5 ppb,true,"ry-only / supporting context) | median 0 to 7 ppb (2 sources); highest reported 3.5 ppb | 50% detected (1/2, Fda 2024, a"
 product,teething-and-snacks-rice-based,Literature Evidence Summary,8 ppb,true,etals/lead\|Pb]] | rice-based (summary-only / supporting context) | median 0 to 8 ppb (2 sources); highest reported 6.5 
 product,teething-and-snacks-rice-based,Literature Evidence Summary,6.5 ppb,true,"ry-only / supporting context) | median 0 to 8 ppb (2 sources); highest reported 6.5 ppb | 50% detected (1/2, Fda 2024, a"
-product,teething-and-snacks-rice-based,Lead Benchmark Context,20 ppb,false,e cereal lead/iAs values do not automatically apply to snacks | | EU 2023/915 | 20 ppb | processed cereal-based food as 
-product,teething-and-snacks-rice-based,Lead Benchmark Context,71.4 ppb,false,ed as processed cereal-based infant/young-child food. | | Prop 65 MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething
-product,teething-and-snacks-rice-based,Lead Benchmark Context,20 ppb,false,| ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processe
-product,teething-and-snacks-rice-based,Lead Benchmark Context,71.4 ppb,false, 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use rice as a hig
+product,teething-and-snacks-rice-based,Lead Benchmark Context,20 ppb,true,not automatically apply to snacks | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as 
+product,teething-and-snacks-rice-based,Lead Benchmark Context,71.4 ppb,true,t/young-child food. | | [[regulations/california-prop65|Prop 65]] MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething
+product,teething-and-snacks-rice-based,Lead Benchmark Context,20 ppb,true,| ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processe
+product,teething-and-snacks-rice-based,Lead Benchmark Context,71.4 ppb,true, 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use rice as a con
 product,teething-and-snacks-rice-based,Distribution Context,96.3 ppb,true," rows with rice named | tAs 2; Cd 2; Pb 2 | lower-bound p50, p90, max | tAs p50 96.3 ppb, p90/max 171 ppb; Cd p90/max 3."
 product,teething-and-snacks-rice-based,Distribution Context,171 ppb,true,"med | tAs 2; Cd 2; Pb 2 | lower-bound p50, p90, max | tAs p50 96.3 ppb, p90/max 171 ppb; Cd p90/max 3.5 ppb; Pb p90/max "
 product,teething-and-snacks-rice-based,Distribution Context,3.5 ppb,true,"b 2 | lower-bound p50, p90, max | tAs p50 96.3 ppb, p90/max 171 ppb; Cd p90/max 3.5 ppb; Pb p90/max 6.5 ppb | Small sour"
@@ -3481,49 +3454,7 @@ product,toothpaste,Federal/Regulatory Limits vs Field Findings,1000 ppb,false,it
 product,toothpaste,Levers to reduce contamination,100 ppb,false,rom pre-screened sources runs Pb in single-digit ppb; industrial-grade can run >100 ppb. 2. **Formulation levers**: refo
 product,toothpaste,Historical recalls and enforcement,1000 ppb,false,umer-advocacy reports identifying toothpastes above the recently-effective TFCA 1000 ppb threshold) - Washington State T
 product,toothpaste,Historical recalls and enforcement,1000 ppb,false,"shington State Toxic-Free Cosmetics Act (TFCA, effective 2025) implementing the 1000 ppb Pb limit on toothpaste - FDA co"
-product,toy-chests,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toy-chests,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toy-pacifiers,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toy-pacifiers,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-attached-cribs-playpens,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-attached-cribs-playpens,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-balloons,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-balloons,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-balls,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-balls,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-battery-electronic,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-battery-electronic,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-crafts-other,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-crafts-other,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-marbles,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-marbles,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-painted,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-painted,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-pompoms-fibrous-craft,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-pompoms-fibrous-craft,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-projectile-guns,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-projectile-guns,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-rattles,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-rattles,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-sound-producing,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-sound-producing,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-squeeze,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-squeeze,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-stroller-carriage,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-stroller-carriage,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-stuffed-bean-bag,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-stuffed-bean-bag,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-stuffing-materials,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-stuffing-materials,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-substrate-materials,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-substrate-materials,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-with-magnets,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-with-magnets,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
-product,toys-yo-yo-elastic-tether,Federal/Regulatory Limits vs Field Findings,100 ppm,false,PSC ASTM F963 toy-type mapping and requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm);
-product,toys-yo-yo-elastic-tether,Federal/Regulatory Limits vs Field Findings,90 ppm,false,nd requirements chart; CPSIA total lead limits (100 ppm) and lead paint limits (90 ppm); LHAMA/ASTM D-4236 for art mater
 product,vegetable-juices-non-root,Federal / Regulatory Limits vs Field Findings,20 ug/kg,true,"| [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 20 ug/kg Pb. Scope: other single-strengt"
 product,vegetable-juices-non-root,Literature Evidence Summary,20 ppb,true,e-level detection rate not reported | [[regulations/fda2022-draft-lead-juice]]: 20 ppb (single-strength ready-to-drink j
 product,vegetable-juices-root-vegetable-containing,Federal / Regulatory Limits vs Field Findings,20 ug/kg,true,"| [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 20 ug/kg Pb. Scope: other single-strengt"
 product,vegetable-juices-root-vegetable-containing,Literature Evidence Summary,20 ppb,true,e-level detection rate not reported | [[regulations/fda2022-draft-lead-juice]]: 20 ppb (single-strength ready-to-drink j
-product,walkers,Federal/Regulatory Limits vs Field Findings,100 ppm,false,t. The applicable regulatory anchors for this row are: CPSIA total lead limits (100 ppm in accessible parts) and lead pa
-product,walkers,Federal/Regulatory Limits vs Field Findings,90 ppm,false,e: CPSIA total lead limits (100 ppm in accessible parts) and lead paint limits (90 ppm); ASTM F963 surface coating and s

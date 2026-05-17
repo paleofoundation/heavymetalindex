@@ -145,7 +145,7 @@ For finished products using beans as an ingredient (chili, soups, dips, ready-me
 
 ### Testing and QC levers
 
-Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) is the standard intervention.
+Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) [[testing/icp-ms]] is the standard intervention.
 
 ### Packaging and storage levers
 

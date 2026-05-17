@@ -48,7 +48,7 @@ cc_relationship:
       - teething-and-snacks-rice-based
     rationale: "Non-fish baby foods constitute the lower-end reference distribution for MeHg in Category 1; fish-containing baby foods diverge from this distribution because of bioaccumulation, which is the higher-contamination row characterized by this page."
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
+updated: 2026-05-03
 sources: 11
 ---
 
@@ -153,9 +153,9 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | 10 ppb (FDA final guidance action level when covered as a mixture) | processed baby-food mixture | No separate single-ingredient fish lead value in FDA 2025 baby-food guidance; fish-containing mixtures can map to the mixture value |
-| EU 2023/915 | 20 ppb | baby food or infant/young-child mixed meal as placed on market | EU maximum level. |
-| Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior ready-to-serve infant food RACC of 110 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level when covered as a mixture) | processed baby-food mixture | No separate single-ingredient fish lead value in FDA 2025 baby-food guidance; fish-containing mixtures can map to the mixture value |
+| [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food or infant/young-child mixed meal as placed on market | EU maximum level. |
+| [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior ready-to-serve infant food RACC of 110 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
 | HMTc standards use | ppb-normalized context | The FDA 10 ppb value is a scope-dependent mixture mapping; the Prop 65 serving-equivalent screen is about 4.5 ppb at 110 g/day. | Use as external context only until product-scope review confirms whether the specific fish product is a covered mixture. |
 
 Fish-containing foods need separate mercury/speciation treatment; the lead ppb row should not be treated as the whole risk story.

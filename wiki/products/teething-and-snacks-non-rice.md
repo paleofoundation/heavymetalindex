@@ -27,7 +27,7 @@ cc_relationship:
       role_of_partner: contamination_platform
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
+updated: 2026-05-03
 sources: 9
 ---
 
@@ -132,9 +132,9 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | Not established | No snack-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes snack foods such as puffs, rusks, and teething biscuits |
-| EU 2023/915 | 20 ppb | processed cereal-based food as placed on market | EU maximum level if classified as processed cereal-based infant/young-child food. |
-| Prop 65 MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething/snack dry grain product RACC of 7 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | Not established | No snack-specific FDA lead action level | FDA 2025 processed-baby-food lead guidance excludes snack foods such as puffs, rusks, and teething biscuits |
+| [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | processed cereal-based food as placed on market | EU maximum level if classified as processed cereal-based infant/young-child food. |
+| [[regulations/california-prop65|Prop 65]] MADL screen | 71.4 ppb | 21 CFR 101.12 infant teething/snack dry grain product RACC of 7 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
 | HMTc standards use | ppb-normalized context | The FDA entry is a not-established status; EU can be 20 ppb if the product is in the processed-cereal infant-food scope; Prop 65 is 71.4 ppb at 7 g/day. | Use occurrence evidence only until product-scope review confirms applicable regulation; do not borrow dry infant cereal action levels for snacks. |
 
 Small serving size makes the one-serving Prop 65 ppb equivalent high, but frequent consumption or larger servings lower the equivalent.

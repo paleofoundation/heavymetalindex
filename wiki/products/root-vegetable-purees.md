@@ -29,7 +29,7 @@ cc_relationship:
       metals: [Cd, Pb]
       notes: "Cross-row CC: clean counterpart lives in row 8, not as a sibling within a vegetable-purees base split."
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
+updated: 2026-05-03
 sources: 18
 ---
 
@@ -135,9 +135,9 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | 20 ppb (FDA final guidance action level for covered single-ingredient root vegetables) | single-ingredient carrot or sweet potato baby food, as sold | Single-ingredient carrots or sweet potatoes; root mixtures can route to the 10 ppb mixture value |
-| EU 2023/915 | 20 ppb | baby food as placed on market | EU maximum level. |
-| Prop 65 MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior ready-to-serve infant food RACC of 110 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 20 ppb (FDA final guidance action level for covered single-ingredient root vegetables) | single-ingredient carrot or sweet potato baby food, as sold | Single-ingredient carrots or sweet potatoes; root mixtures can route to the 10 ppb mixture value |
+| [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market | EU maximum level. |
+| [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior ready-to-serve infant food RACC of 110 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
 | HMTc standards use | ppb-normalized context | The FDA 20 ppb value applies only to covered single-ingredient root vegetables; the Prop 65 screen is about 4.5 ppb at 110 g/day. | Use the FDA root-vegetable cap only when the product scope matches; compare root occurrence separately because soil uptake drives the upper tail. |
 
 Root purees can be under the FDA root value and still be high relative to fruit or non-root vegetable occurrence.

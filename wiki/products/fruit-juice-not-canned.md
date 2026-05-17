@@ -24,7 +24,7 @@ cc_relationship:
   scope: none
   partners: []
 audience: [regulator, educator, consumer, app]
-updated: 2026-05-09
+updated: 2026-05-03
 sources: 20
 ---
 
@@ -134,9 +134,9 @@ HMI normalizes this row's lead benchmarks to ppb so regulatory ceilings, exposur
 
 | Reference point | Lead ppb view | Basis | How to use it |
 | --- | --- | --- | --- |
-| Current FDA | 50 ppb (FDA current Juice HACCP guidance hazard-control level) | ready-to-drink fruit juices and fruit nectars | Current FDA guidance context; 2022 draft lead-in-juice guidance is not final and not for implementation |
-| EU 2023/915 | 20 ppb | infant/young-child drink ready-to-use basis; ordinary juices have different EU lead levels | EU maximum level if labelled for infants/young children. |
-| Prop 65 MADL screen | 4.2 ppb | 21 CFR 101.12 infant/young-child juice RACC of 120 mL, approximated as 120 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
+| Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 50 ppb (FDA current Juice HACCP guidance hazard-control level) | ready-to-drink fruit juices and fruit nectars | Current FDA guidance context; 2022 draft lead-in-juice guidance is not final and not for implementation |
+| [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | infant/young-child drink ready-to-use basis; ordinary juices have different EU lead levels | EU maximum level if labelled for infants/young children. |
+| [[regulations/california-prop65|Prop 65]] MADL screen | 4.2 ppb | 21 CFR 101.12 infant/young-child juice RACC of 120 mL, approximated as 120 g | Derived from the 0.5 ug/day lead MADL using `500 ÷ grams/day`; not a product-specific food limit. |
 | HMTc standards use | ppb-normalized context | FDA current context is 50 ppb; EU infant-labelled juice is 20 ppb; Prop 65 is about 4.2 ppb at 120 g/day. | Use 50 ppb as current FDA context, keep the 10/20 ppb FDA juice values as draft-only context, and split apple/non-apple before standards use. |
 
 Juice is the clearest example where a current federal context value can look loose relative to Prop 65 and modern occurrence data.
