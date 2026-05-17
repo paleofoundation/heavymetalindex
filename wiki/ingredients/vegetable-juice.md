@@ -119,25 +119,39 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 No source pages are currently cited for this ingredient node.
 ## Why this commodity accumulates heavy metals
 
-_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+Vegetable juice is the liquid extracted or processed from vegetables (tomato juice, carrot juice, beet juice, celery juice, and mixed-vegetable products like V8). Vegetable juice carries the source-[[ingredients/vegetables|vegetable]] heavy-metal profile, concentrated per-mass via water-content removal during juicing or evaporation. Different vegetable types contribute different baseline metal profiles: [[ingredients/tomato-paste|tomato]] juice carries source-tomato Cd; [[ingredients/carrots|carrot]] juice carries source-carrot Pb and Cd at moderate concentrations; [[ingredients/beet|beet]] juice can carry higher Pb because beet (Beta vulgaris) is a moderate Pb accumulator; leafy-vegetable juice (kale, spinach, parsley juices in cold-pressed and craft-juice formulations) carries the leafy-greens Cd and Pb at concentrated per-mass levels. The HMTc panel concerns for vegetable juice are Pb and Cd (dominant), iAs in juice from vegetables grown in As-affected regions, and Sn for canned vegetable juices including canned tomato juice.
 
 ## Ranges by source, region, and variety
 
-_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+Variance within vegetable juice tracks vegetable type (tomato vs leafy-green vs root-vegetable juice carry different baseline profiles), source-vegetable origin region (industrial-region production, urban-garden production, atmospheric-deposition-affected production drive higher loads), processing scale (commodity scale vs cold-pressed craft juicing), and packaging (canned vs glass-bottle vs aseptic carton vs PET). Cold-pressed leafy-green juices marketed for health-and-wellness consumption can carry per-mass Pb and Cd at concentrated levels because the cold-pressing efficiently extracts the per-mass leafy-green metal load with minimal dilution.
 
 ## Processing effects
 
-_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+Vegetable-juice manufacturing varies by product: tomato juice is typically pressed from cooked tomato; carrot and beet juice are pressed from raw or lightly-blanched vegetables; cold-pressed juice extracts the per-vegetable juice content without thermal processing. Each method partitions metals between juice and solid fractions differently. Cold-pressed juicing typically retains more of the source-vegetable metal load in the juice phase because the pressing is less aggressive than thermal-and-pressed extraction. Canned vegetable juice (canned tomato juice, V8, canned mixed-vegetable juices) introduces a Sn migration pathway. Pasteurization does not affect metals.
 
 ## Ingredient-derivative risk
 
-_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+Vegetable juice routes into the [[products/vegetable-juices-non-root|vegetable-juices-non-root]] and [[products/vegetable-juices-root-vegetable-containing|vegetable-juices-root-vegetable-containing]] product rows. Derivatives include canned tomato juice, V8 and similar mixed-vegetable juices, fresh-pressed cold-pressed juice products, and vegetable-juice concentrates (further concentration of per-mass metals). Vegetable-juice powders (used in flavoring and seasoning applications) concentrate per-mass metals via dehydration.
 
 ## Mitigation options
 
-_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+**Sourcing levers** ([[mitigation/supply-chain-screening]]) include source-vegetable origin specification (avoidance of industrial-region or atmospheric-deposition-affected production); supplier-soil verification for vegetable suppliers; and contractual specification of Pb/Cd ceiling on incoming vegetable supply.
+
+**Agronomic levers** ([[mitigation/agronomic]]) operate at the source-vegetable cultivation stage; see [[ingredients/vegetables|vegetables]], [[ingredients/leafy-greens|leafy-greens]], and per-vegetable ingredient pages for the upstream interventions.
+
+**Processing levers** ([[mitigation/processing]]) include processing-equipment material specification; pressing-residue handling (the solid residue concentrates source-vegetable metals and should not be returned to the juice stream); and washing optimization to maximize surface-Pb removal pre-juicing.
+
+**Formulation levers** ([[mitigation/formulation]]) include mixed-vegetable formulations that dilute single-vegetable metal loads; substitution of higher-risk vegetables (leafy greens, beets) with lower-risk vegetables (tomatoes, citrus) where the matrix permits.
+
+**Testing and QC levers** ([[mitigation/testing-and-qc]]) include lot-level Pb, Cd, iAs testing on finished vegetable juice. ICP-MS is the standard analytical platform.
+
+**Packaging and storage levers** ([[mitigation/packaging-and-storage]]) include can-lining specification for canned vegetable juice; aseptic carton, glass, or PET eliminates Sn migration.
 
 ## Regulatory limits that apply
 
-_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+- [[regulations/eu-2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in processed vegetables including vegetable juice as a processed-vegetable derivative.
+- FDA does not currently set a quantitative action level specific to vegetable juice; general FDA enforcement on toxic-element contamination applies.
+- Codex Alimentarius CXS 247-2005 (General Standard for Fruit Juices and Nectars) includes provisions that have been extended to vegetable juices in some interpretive contexts.
+- California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to vegetable-juice products sold in California.
+- EU Sn-in-canned-food regulation sets 100 mg/kg maximum level for canned beverages including canned vegetable juice.
 
