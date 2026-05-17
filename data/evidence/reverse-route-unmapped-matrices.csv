@@ -17,6 +17,7 @@ raw-cow-milk,2,Low frequency; review and add to map or no_route list when next e
 coffee-beans,2,Low frequency; review and add to map or no_route list when next encountered.
 cow-milk,2,Low frequency; review and add to map or no_route list when next encountered.
 gestational-exposure,2,Low frequency; review and add to map or no_route list when next encountered.
+baby-food-puree,2,Low frequency; review and add to map or no_route list when next encountered.
 fish-gill,2,Low frequency; review and add to map or no_route list when next encountered.
 cacao-pod-husk,2,Low frequency; review and add to map or no_route list when next encountered.
 fungi,2,Low frequency; review and add to map or no_route list when next encountered.
@@ -30,6 +31,7 @@ processed-baby-food,2,Low frequency; review and add to map or no_route list when
 canned-tomato-paste,2,Low frequency; review and add to map or no_route list when next encountered.
 in-vitro-digestion,2,Low frequency; review and add to map or no_route list when next encountered.
 bottled-water,2,Low frequency; review and add to map or no_route list when next encountered.
+cephalopods,2,Low frequency; review and add to map or no_route list when next encountered.
 rice-based-products,2,Low frequency; review and add to map or no_route list when next encountered.
 grain-based-products,2,Low frequency; review and add to map or no_route list when next encountered.
 rice-root,2,Low frequency; review and add to map or no_route list when next encountered.
@@ -108,7 +110,6 @@ meconium,1,Low frequency; review and add to map or no_route list when next encou
 intestinal-microbiome,1,Low frequency; review and add to map or no_route list when next encountered.
 metal-toxicity,1,Low frequency; review and add to map or no_route list when next encountered.
 coal,1,Low frequency; review and add to map or no_route list when next encountered.
-infant-juice,1,Low frequency; review and add to map or no_route list when next encountered.
 leachate,1,Low frequency; review and add to map or no_route list when next encountered.
 mechanistic-toxicology,1,Low frequency; review and add to map or no_route list when next encountered.
 ros,1,Low frequency; review and add to map or no_route list when next encountered.
@@ -241,6 +242,10 @@ fish-sauce,1,Low frequency; review and add to map or no_route list when next enc
 fermented-fish-condiment,1,Low frequency; review and add to map or no_route list when next encountered.
 seasoning-powder,1,Low frequency; review and add to map or no_route list when next encountered.
 biological,1,Low frequency; review and add to map or no_route list when next encountered.
+fish-muscle-meat,1,Low frequency; review and add to map or no_route list when next encountered.
+marine-gastropods,1,Low frequency; review and add to map or no_route list when next encountered.
+food-supplements,1,Low frequency; review and add to map or no_route list when next encountered.
+salt,1,Low frequency; review and add to map or no_route list when next encountered.
 wild-game-muscle,1,Low frequency; review and add to map or no_route list when next encountered.
 wild-game-liver,1,Low frequency; review and add to map or no_route list when next encountered.
 wild-game-fat,1,Low frequency; review and add to map or no_route list when next encountered.
@@ -674,6 +679,9 @@ olive-flesh,1,Low frequency; review and add to map or no_route list when next en
 olive-pit,1,Low frequency; review and add to map or no_route list when next encountered.
 olive-mill-waste,1,Low frequency; review and add to map or no_route list when next encountered.
 dried-fish,1,Low frequency; review and add to map or no_route list when next encountered.
+cosmetic-finished-product,1,Low frequency; review and add to map or no_route list when next encountered.
+makeup,1,Low frequency; review and add to map or no_route list when next encountered.
+hair-care,1,Low frequency; review and add to map or no_route list when next encountered.
 edible-fungi,1,Low frequency; review and add to map or no_route list when next encountered.
 plant-based-drink,1,Low frequency; review and add to map or no_route list when next encountered.
 dairy-alternative,1,Low frequency; review and add to map or no_route list when next encountered.
@@ -696,7 +704,6 @@ sausage-casing,1,Low frequency; review and add to map or no_route list when next
 animal-byproduct,1,Low frequency; review and add to map or no_route list when next encountered.
 forest-soil,1,Low frequency; review and add to map or no_route list when next encountered.
 soil-ingestion,1,Low frequency; review and add to map or no_route list when next encountered.
-cephalopods,1,Low frequency; review and add to map or no_route list when next encountered.
 aquatic-food,1,Low frequency; review and add to map or no_route list when next encountered.
 infant-serum,1,Low frequency; review and add to map or no_route list when next encountered.
 camel-milk,1,Low frequency; review and add to map or no_route list when next encountered.

@@ -13,7 +13,7 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs && node tools/build-corpus-counter.mjs && node tools/evidence/build-source-legend.mjs && node tools/sync-source-counts.mjs && node tools/audit-routing-discipline.mjs --warn-only",
+    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs && node tools/build-corpus-counter.mjs && node tools/evidence/build-source-legend.mjs && node tools/sync-source-counts.mjs && node tools/audit-routing-discipline.mjs --warn-only && node tools/taxonomy/audit-coverage.mjs && node tools/build-coverage-page.mjs",
     "sync:source-counts": "node tools/sync-source-counts.mjs",
     "lint:routing-discipline": "node tools/audit-routing-discipline.mjs",
     "reverse-route:dry-run": "node tools/autonomy/reverse-route-products.mjs",
