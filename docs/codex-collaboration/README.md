@@ -32,8 +32,18 @@ The two agents have complementary, non-overlapping roles. Both run autonomously 
 **Folder assignment to prevent conflicts:**
 
 - **Claude's autonomy daemon** processes top-down priority: `06_Infant_Foods_Formula/`, `Children Personal Care Papers/`, `04_Meat_Poultry_Seafood/`, `03_Grains_and_Grain_Products/`, `05_Dairy_Eggs_and_Alternatives/`. These are Cat 1 / Cat 2 / Cat 4 highest-stakes folders.
-- **Codex** processes bottom-up priority: `condiment_papers/` (70 PDFs), `08_Nuts_Seeds_Legumes_and_Misc/` (15), `07_Processed_Foods_Snacks_Beverages/` (16), `02_Vegetables_and_Vegetable_Products/` (17), `01_Fruits_and_Fruit_Products/` (24), `Papers Cube Manual Fetch/` (57), `Manual Resourcing/` (1).
-- **Convergence point:** when one agent finishes its assigned folders, it picks up from the other end of the priority list. If both reach the same folder, the one that gets there first claims it; the other moves to the next available folder in its direction. Use the per-PDF tracker (`data/evidence/autonomy/manual-fetch-tracker.csv`) to check what's already processed before starting.
+- **Codex** processes ALL remaining manual-fetch folders as of 2026-05-18 (Karen's directive — she's freeing herself for seafood-axis synthesis work). New priority order, seafood-first to unblock Karen's synthesis:
+  1. `04_Meat_Poultry_Seafood/` (highest priority — unblocks Karen)
+  2. `06_Infant_Foods_Formula/` (Cat 1, partially done by daemon — finish it)
+  3. `03_Grains_and_Grain_Products/`
+  4. `05_Dairy_Eggs_and_Alternatives/`
+  5. `condiment_papers/`
+  6. `08_Nuts_Seeds_Legumes_and_Misc/`
+  7. `07_Processed_Foods_Snacks_Beverages/`
+  8. `02_Vegetables_and_Vegetable_Products/`
+  9. `01_Fruits_and_Fruit_Products/`
+  10. `Manual Resourcing/`
+- **Convergence point with daemon:** daemon is still loaded in launchd and ticking. The per-PDF tracker (`data/evidence/autonomy/manual-fetch-tracker.csv`) prevents race conditions — either agent that claims a PDF first wins; the other skips. Daemon will simply exit cleanly each tick after finding nothing un-tracked in its priority order, which is fine. **Papers Cube Manual Fetch is now FULLY done as of 2026-05-18 (Claude completed the rotation); Children Personal Care Papers is also fully done.** No active claim conflicts with Claude Code; both those folders should be skipped.
 
 **Role B — Cross-vendor audits.** Codex is the second set of AI eyes on every wiki source page produced by Claude OR by Codex itself (the daemon's audit subagent is a Claude subagent; Codex's audit subagent is a Codex subagent; the cross-vendor pass on the audit-queue gives EVERY page one Claude audit + one GPT-5.5 audit). The "fresh context" requirement (Part 2 firewall, brand firewall, slug vocabulary, speciation, numerical fidelity) is best satisfied by a different model family, not just a different same-model subagent.
 
@@ -167,7 +177,19 @@ You have FIVE roles this session, in priority order, with NO per-role page cap. 
 
 1. Audit queue. Pull data/evidence/audit-queue.csv. Pick oldest row with status=pending or status=pending-brand-firewall-recheck-locked-strict. Audit per docs/gpt-collaboration/audit-prompt.md (Check 4 strict brand-firewall locked 2026-05-17; Exception 2 permits instrument/reference-material/software vendor names in Methods sections). Apply real findings, commit per page, update queue row.
 
-2. Manual-fetch ingest on your assigned folders, in priority order: condiment_papers/, 08_Nuts_Seeds_Legumes_and_Misc/, 07_Processed_Foods_Snacks_Beverages/, 02_Vegetables_and_Vegetable_Products/, 01_Fruits_and_Fruit_Products/, Manual Resourcing/. SKIP Papers Cube Manual Fetch/ (Claude is rotating through it). SKIP daemon's folders (06_Infant_Foods_Formula/, Children Personal Care Papers/, 04_Meat_Poultry_Seafood/, 03_Grains_and_Grain_Products/, 05_Dairy_Eggs_and_Alternatives/). Use tools/autonomy/ingest-manual-fetch-batch.mjs as reference. Check data/evidence/autonomy/manual-fetch-tracker.csv before claiming any PDF. Roughly a quarter of session budget on ingest.
+2. Manual-fetch ingest on ALL remaining folders. Priority order (seafood-first to unblock Karen's synthesis work as of 2026-05-18):
+   1. 04_Meat_Poultry_Seafood/ (highest — unblocks Karen)
+   2. 06_Infant_Foods_Formula/ (Cat 1, daemon started not finished)
+   3. 03_Grains_and_Grain_Products/
+   4. 05_Dairy_Eggs_and_Alternatives/
+   5. condiment_papers/
+   6. 08_Nuts_Seeds_Legumes_and_Misc/
+   7. 07_Processed_Foods_Snacks_Beverages/
+   8. 02_Vegetables_and_Vegetable_Products/
+   9. 01_Fruits_and_Fruit_Products/
+   10. Manual Resourcing/
+   
+   SKIP Children Personal Care Papers/ and Papers Cube Manual Fetch/ — both are fully done. Use tools/autonomy/ingest-manual-fetch-batch.mjs as reference. Always check data/evidence/autonomy/manual-fetch-tracker.csv before claiming any PDF. The daemon is still loaded and ticking; tracker prevents race conditions. Roughly a quarter of session budget on ingest.
 
 3. Mandatory prose sections (Role C, added 2026-05-18). Per CLAUDE.md Part 6, ingredient pages need 8 mandatory H2 sections and product pages need 10. Daemon writes "Pending synthesis" placeholders; nothing replaces them with real prose. Process: `grep -l "Pending synthesis" wiki/ingredients/ wiki/products/` → pick page with ≥3 contributing sources (per data/evidence/product_source_routing_audit.csv) → read contributing sources + existing page → write prose replacing placeholders (NOT inside <!-- BEGIN --> / <!-- END --> markers; NOT contamination_profile YAML) → commit "sections (codex): <slug> — <list>".
 
