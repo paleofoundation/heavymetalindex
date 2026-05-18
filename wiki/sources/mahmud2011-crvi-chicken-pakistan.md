@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_p0137-chromium-vi-levels-in-chicken-parts
 cite_key: mahmud2011-crvi-chicken-pakistan
 title: "Estimation of Chromium (VI) in various body parts of Local Chicken"
 authors: [Mahmud T, Rehman R, Ali S, Anwar J, Abbas A, Farooq M, Ali A]
@@ -13,21 +13,22 @@ source_type: peer-reviewed
 evidence_tier: B
 license: "Subscription journal; no open-access license confirmed"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0137_Chromium (VI) Levels in Chicken Parts.pdf"
+raw_sha256: "52766996aa8ecb2f235ef0fe807dde604377e1c4b78fed2e3cfa9da92a72e9ee"
 metals: [Cr-VI]
-ingredients: ["[[ingredients/chicken]]"]
+ingredients: ["[[ingredients/chicken]]", "[[ingredients/poultry]]", "[[ingredients/organ-meats]]"]
 products: ["[[products/poultry-product]]"]
 matrices: [chicken-muscle, chicken-bone, chicken-liver, chicken-offal]
 jurisdictions: [PK]
 sample_n: null
 sample_population: "Local chicken parts (meat: sternum, leg, arm, gizzard, neck, heart, liver; bones: chest cage, neck, leg, head, arm) purchased from Barkat Market, Garden Town, Lahore, Pakistan"
-updated: 2026-05-13
+updated: 2026-05-18
 ---
 
 # Mahmud et al. 2011 — Chromium(VI) in chicken meat and bones, Lahore, Pakistan
 
-This 2011 study from the University of the Punjab, Lahore measured speciated hexavalent chromium (Cr-VI) — not total chromium — in multiple meat parts and bones of local Pakistani chickens, finding Cr-VI at concentrations of 0.233 to 1.433 mg/kg across all tissues tested. The contamination pathway identified by the authors is specific to Pakistan's poultry industry practice of incorporating leather scraps in chicken feed to provide protein; these leather offcuts retain Cr(VI) from the chrome tanning process (K2CrO4 and K2Cr2O7), and the Cr-VI bioaccumulates in chicken tissues. Leg muscle had the highest mean Cr-VI in meat parts (1.266 mg/kg); head bone had the highest mean in bones (1.433 mg/kg).
+This 2011 study from the University of the Punjab, Lahore reported hexavalent chromium (Cr-VI) in multiple meat parts and bones of local Pakistani chickens, finding author-reported Cr-VI at mean concentrations of 0.233 to 1.433 mg/kg across tissues tested. The contamination pathway identified by the authors is specific to Pakistan's poultry industry practice of incorporating leather scraps in chicken feed to provide protein; these leather offcuts retain Cr(VI) from the chrome tanning process (K2CrO4 and K2Cr2O7), and the authors describe accumulation in chicken tissues. Leg muscle had the highest mean Cr-VI in meat parts (1.266 mg/kg); head bone had the highest mean in bones (1.433 mg/kg).
 
-**Critical speciation note:** This paper measures hexavalent chromium (Cr-VI), a Group 1 human carcinogen (IARC), not total chromium (Cr-total). These values cannot be used as total Cr figures and must not be conflated with total chromium in any synthesis or ingredient contamination profile. Cr-VI is the toxic, carcinogenic form; total Cr encompasses both Cr-VI and trivalent Cr-III, which has very different toxicology. The contamination mechanism here (leather-tanning waste in feed) is a Pakistan-specific supply chain vulnerability, not a general poultry contamination pathway.
+**Critical speciation note:** This paper reports hexavalent chromium (Cr-VI), a Group 1 human carcinogen (IARC), not total chromium (Cr-total). However, the methods section describes ashing, nitric-acid digestion, and atomic absorption spectrophotometry after calibration with potassium dichromate; it does not describe chromatographic separation, colorimetric Cr(VI) confirmation, or a speciation-preservation validation step. Use these values only as author-reported Cr(VI), not as independently validated chromium speciation data, and do not conflate them with total chromium in synthesis.
 
 ## Key numbers
 
@@ -53,19 +54,27 @@ All concentrations in mg/kg (= ppm wet weight; equivalent to 1,000 ppb).
 
 ## Methods (brief)
 
-Samples from Barkat Market, Garden Town, Lahore. Meat parts and bones separately ashed in muffle furnace, ash dissolved in concentrated nitric acid, filtered through sintered glass crucible, boiled, diluted in 100 mL volumetric flask with deionized water. Analysis by atomic absorption spectrophotometry (Perkin Elmer AAnalyst 100). Standard solutions prepared from K2Cr2O7 at 2, 4, 6, 8, 10 ppm for calibration. Method reference: Tuzen (2003). Limitation: sample size per body part not explicitly reported (no n stated); the study appears to use pooled or replicate measurements per body part from market-purchased chicken. The paper does not report LOD/LOQ values explicitly.
+Samples from Barkat Market, Garden Town, Lahore. Meat parts and bones separately ashed in muffle furnace, ash dissolved in concentrated nitric acid, filtered through sintered glass crucible, boiled, diluted in 100 mL volumetric flask with deionized water. Analysis by atomic absorption spectrophotometry (Perkin Elmer AAnalyst 100). Standard solutions prepared from K2Cr2O7 at 2, 4, 6, 8, 10 ppm for calibration. Method reference: Tuzen (2003). Limitations: sample size per body part is not explicitly reported, no LOD/LOQ values are reported, and the AAS digestion method does not document a Cr(VI)-specific separation or preservation validation.
 
 ## Implications
 
-**Certification:** Cr-VI at 1.266 mg/kg in chicken leg muscle is a substantial concentration of a IARC Group 1 carcinogen. This is a Pakistan-specific contamination pathway (leather tanning waste in feed) and does not generalize to poultry production systems that prohibit leather scrap in feed. For HMTc, this source is relevant if certifying poultry from supply chains with uncontrolled feed inputs. EU regulations (EC 1881/2006) set maximum limits for total Cr in some foods but not specifically for Cr-VI in poultry. This is a regulatory gap.
+**Certification:** Provides a supply-chain contamination case for poultry pages where leather-tanning waste may enter feed. Because the analyte is author-reported Cr(VI) and the study does not document a speciation-preservation validation step, do not use these values as total chromium data or as a general poultry baseline. This source is most useful as a targeted hazard screen for uncontrolled feed-input pathways.
 
 **Courses:** This paper is an outstanding teaching case for supply-chain contamination pathways: the industrial practice of leather-tanning (using Cr-VI salts) produces waste that enters poultry feed because leather scraps provide cheap protein, and the carcinogenic form of chromium accumulates in consumer food at levels that may be dangerous. The contrast between a chemical used in one industrial process (tanning) showing up as a food contaminant via an unexpected supply-chain link is directly relevant to supply-chain screening concepts.
 
-**App:** The ingredient-risk mapping for chicken should note that Cr-VI contamination is a supply-chain-dependent risk, not a general background contamination issue. Markets where leather scraps are used in poultry feed (documented in Pakistan and potentially other South Asian markets) represent a distinct risk category from conventionally produced chicken.
+**App:** The ingredient-risk mapping for chicken should note that Cr-VI contamination is a supply-chain-dependent risk, not a general background contamination issue. The documented pathway is leather scraps in poultry feed in the sampled Pakistan context; extrapolation to other markets requires separate source evidence.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/chicken]]
-- [[products/chicken]]
+- [[ingredients/poultry]]
+- [[ingredients/organ-meats]]
+- [[products/poultry-product]]
+- [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
-- [[supply-chain/poultry-feed-contamination]]
+
+## Verification notes
+
+- 2026-05-18 Codex seafood-priority merge check corrected the raw handle and added the PDF hash while preserving the existing cite key and raw path.
+- Numerical values in Tables 1-3 were checked against the PDF text. The page follows table values; the source has internal variability inconsistencies in the coefficient-of-variation reporting, so CVs should be treated as source-reported descriptive statistics rather than recomputed values.
+- The paper calls the analyte Cr(VI), but the reported AAS workflow is not a modern validated speciation method. Retain `metals: [Cr-VI]` because it is the source's declared analyte, with the author-reported speciation caveat above.
