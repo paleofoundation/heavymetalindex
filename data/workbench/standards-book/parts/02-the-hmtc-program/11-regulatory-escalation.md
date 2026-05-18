@@ -19,7 +19,7 @@ This escalation path is a hard-stop condition. It applies irrespective of whethe
 
 ## Why this rule is structural rather than discretionary
 
-A regulator reading this chapter should understand that HMTc is not a shadow regulatory regime. Brands that violate FDA action levels for lead in baby foods, EU maximum levels under Regulation 2023/915, or any other operative regulatory threshold cannot use HMTc enrollment to defer the regulator's response. The Program Operator's enforcement-cooperation obligation is contractually binding under the license agreement.
+A regulator reading this chapter should understand that HMTc is not a shadow regulatory regime. Brands that violate FDA action levels [2] for lead in baby foods, EU maximum levels under Regulation 2023/915 [19], or any other operative regulatory threshold cannot use HMTc enrollment to defer the regulator's response. The Program Operator's enforcement-cooperation obligation is contractually binding under the license agreement.
 
 A brand legal team should understand the corollary: the Program is designed so that brands that pass HMTc certification are confidently inside the regulatory envelope. A brand that triggers a §2.11 escalation has not just exceeded an HMTc limit; they have produced a lot that, on the merits, was already a regulatory violation regardless of HMTc status. The escalation rule does not create a new violation; it acknowledges an existing one and ensures that Program-internal processes do not slow the brand's regulatory response.
 

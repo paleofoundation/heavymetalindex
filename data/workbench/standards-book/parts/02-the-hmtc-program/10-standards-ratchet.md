@@ -18,7 +18,7 @@ The annual operational review (referenced throughout §12.3 below) is distinct f
 
 The Standards Ratchet operates under a directional commitment: **action levels may be tightened (lowered) but shall not be loosened (raised) unless the underlying science changes in a manner that justifies relaxation.** This commitment ensures that the Program continuously drives exposure reduction and that brands can plan their improvement trajectories with confidence that the goalposts will move in only one direction.
 
-A science-based relaxation, for example, a future EFSA reassessment that meaningfully revises a metal's reference dose upward, would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
+A science-based relaxation, for example, a future EFSA reassessment [10] that meaningfully revises a metal's reference dose upward, would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
 
 ## 12.3 Trigger Conditions
 

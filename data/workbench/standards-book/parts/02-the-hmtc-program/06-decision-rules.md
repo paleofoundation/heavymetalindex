@@ -4,7 +4,7 @@
 
 The analytical chemistry of heavy metal testing at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb limit does not necessarily indicate that the true concentration exceeds the limit; the measurement could reflect analytical noise. Conversely, a result of 9 ppb does not guarantee the true concentration is below the limit. **Certification decision rules must account for this uncertainty to be both scientifically valid and legally defensible.**
 
-The HMTc decision rule follows established metrological principles documented in international standards (EURACHEM/CITAC, ILAC-G8) and accredited laboratory practice under ISO/IEC 17025. Under cross-examination by a plaintiff's expert or a hostile regulatory reviewer, a decision based on this framework is defensible because it is neither biased toward the brand nor toward the regulator: it is biased toward analytical accuracy.
+The HMTc decision rule follows established metrological principles documented in international standards (EURACHEM/CITAC [34], ILAC-G8) and accredited laboratory practice under ISO/IEC 17025 [33]. Under cross-examination by a plaintiff's expert or a hostile regulatory reviewer, a decision based on this framework is defensible because it is neither biased toward the brand nor toward the regulator: it is biased toward analytical accuracy.
 
 ## 7.1 Primary Decision Rule
 
@@ -38,7 +38,7 @@ If a laboratory does not report Measurement Uncertainty, the measured result is 
 
 ## Cross-references
 
-- Laboratory accreditation requirements (ISO/IEC 17025): Part 2.7 and Part 4 §10.
+- Laboratory accreditation requirements (ISO/IEC 17025 [33]): Part 2.7 and Part 4 §10.
 - Data integrity violations and their consequences: Part 2.7.
 - CAPA procedures when a fail is confirmed: Part 2.8.
 - Chain-of-custody requirements: Part 4 §10.

@@ -1,6 +1,6 @@
 <!--
 HMTc Program Manual, 2026 Edition — v0-pre-audit
-Generated: 2026-05-18T16:09:49.722Z
+Generated: 2026-05-18T16:52:31.911Z
 Source: data/workbench/standards-book/
 Build tool: tools/standards/build-program-manual.mjs
 -->
@@ -569,7 +569,7 @@ A certifying body that operates its own evidence base has a structural conflict 
 
 The HMI/HMTc separation defeats this attack. HMI is a curated literature wiki published as a public resource. It exists whether HMTc does or does not exist. It will continue to exist when the methodology in this manual is replaced by a future revision. It contains studies whose findings make HMTc thresholds look conservative and studies whose findings make HMTc thresholds look aggressive. It does not adjust its evidence to fit the certification program. The Paleo Foundation operates HMI as a public-good resource because curating the complete literature is the only durable foundation for any defensible standards program built on top.
 
-This is the **Cochrane-for-heavy-metals** positioning. Cochrane systematic reviews are the gold standard in medicine for a single reason: they aggregate the complete relevant literature, not selected papers, and they publish their methodology so that any reviewer can verify their conclusions. HMI is structured on the same principle. Aggregating the complete literature, not selected papers, is what produces durable epistemic authority, and durable epistemic authority is what allows the standards program built on top to withstand adversarial scrutiny.
+This is the **Cochrane-for-heavy-metals** positioning. Cochrane systematic reviews [41] are the gold standard in medicine for a single reason: they aggregate the complete relevant literature, not selected papers, and they publish their methodology so that any reviewer can verify their conclusions. HMI is structured on the same principle. Aggregating the complete literature, not selected papers, is what produces durable epistemic authority, and durable epistemic authority is what allows the standards program built on top to withstand adversarial scrutiny.
 
 ## Provenance: how a limit in this manual traces to the corpus
 
@@ -978,7 +978,7 @@ Under the Confidential Remediation Track:
 
 A primary value proposition of HMTc enrollment, including the Confidential Remediation Track, is the creation of a **documented, timestamped, third-party-verified record of continuous improvement.**
 
-In the current litigation environment, the most legally exposed posture for a brand is the *absence* of any documented heavy metal reduction program. A brand that has no testing data, no improvement record, and no documented engagement with reduction efforts faces plaintiffs' counsel arguing that the brand "knew or should have known" about contamination and "did nothing." This framing is the basis of the neurodevelopmental-injury theories advanced in MDL 3101 and parallel state actions.
+In the current litigation environment, the most legally exposed posture for a brand is the *absence* of any documented heavy metal reduction program. A brand that has no testing data, no improvement record, and no documented engagement with reduction efforts faces plaintiffs' counsel arguing that the brand "knew or should have known" about contamination and "did nothing." This framing is the basis of the neurodevelopmental-injury theories advanced in MDL 3101 [24] and parallel state actions.
 
 A brand enrolled in the Confidential Remediation Track has a different posture available. The brand can document, with third-party verification: when it became aware of its baseline contamination profile; what remediation actions it undertook; how those actions performed against pre-defined improvement targets; and whether its lots are trending toward Status A or B over time. **The legal narrative shifts from "the brand knew and did nothing" to "the brand knew, enrolled in an independent certification program, and has documented evidence of continuous improvement." That shift is the difference between exposure and defense.**
 
@@ -996,7 +996,7 @@ Brands evaluating the Track should consult counsel about how the Track interacts
 
 A regulator or consumer-advocacy reader may ask: doesn't the Confidential Remediation Track let brands hide contamination data from the public?
 
-The answer is that the Track is the *structural* answer to the chilling-effect failure mode, not a workaround of consumer protection. **A brand that remains outside the program because it fears the consequences of joining is a brand whose products are not improving.** A brand that enters confidentially and begins reducing heavy metal levels is a brand whose products *are* getting safer, even if the public does not yet know. The relevant public-health question is which arrangement produces more contamination reduction in the food supply, and the compliance theory literature, summarized in Part 1.2, is clear that punitive-disclosure regimes produce less reduction than confidential-improvement regimes.
+The answer is that the Track is the *structural* answer to the chilling-effect failure mode, not a workaround of consumer protection. **A brand that remains outside the program because it fears the consequences of joining is a brand whose products are not improving.** A brand that enters confidentially and begins reducing heavy metal levels is a brand whose products *are* getting safer, even if the public does not yet know. The relevant public-health question is which arrangement produces more contamination reduction in the food supply, and the compliance theory literature [43, 44, 45], summarized in Part 1.2, is clear that punitive-disclosure regimes produce less reduction than confidential-improvement regimes.
 
 A brand that successfully completes the Track and qualifies for Status A or B then *can* display the mark publicly. Their improvement record becomes a competitive asset rather than a liability. The Track does not let brands hide forever; it lets brands enter from a starting position that would otherwise exclude them, build the improvement record that justifies the mark, and then operate publicly when they have earned the right to do so.
 
@@ -1083,7 +1083,7 @@ The Program Operator will not unilaterally publicize a brand's participation or 
 
 The analytical chemistry of heavy metal testing at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb limit does not necessarily indicate that the true concentration exceeds the limit; the measurement could reflect analytical noise. Conversely, a result of 9 ppb does not guarantee the true concentration is below the limit. **Certification decision rules must account for this uncertainty to be both scientifically valid and legally defensible.**
 
-The HMTc decision rule follows established metrological principles documented in international standards (EURACHEM/CITAC, ILAC-G8) and accredited laboratory practice under ISO/IEC 17025. Under cross-examination by a plaintiff's expert or a hostile regulatory reviewer, a decision based on this framework is defensible because it is neither biased toward the brand nor toward the regulator: it is biased toward analytical accuracy.
+The HMTc decision rule follows established metrological principles documented in international standards (EURACHEM/CITAC [34], ILAC-G8) and accredited laboratory practice under ISO/IEC 17025 [33]. Under cross-examination by a plaintiff's expert or a hostile regulatory reviewer, a decision based on this framework is defensible because it is neither biased toward the brand nor toward the regulator: it is biased toward analytical accuracy.
 
 ## 7.1 Primary Decision Rule
 
@@ -1117,7 +1117,7 @@ If a laboratory does not report Measurement Uncertainty, the measured result is 
 
 ## Cross-references
 
-- Laboratory accreditation requirements (ISO/IEC 17025): Part 2.7 and Part 4 §10.
+- Laboratory accreditation requirements (ISO/IEC 17025 [33]): Part 2.7 and Part 4 §10.
 - Data integrity violations and their consequences: Part 2.7.
 - CAPA procedures when a fail is confirmed: Part 2.8.
 - Chain-of-custody requirements: Part 4 §10.
@@ -1156,7 +1156,7 @@ The consequence calibration is intentional. Status D suspension is reserved for 
 
 ## 8.3 Laboratory Requirements
 
-All testing used for certification decisions must be performed by laboratories accredited to ISO/IEC 17025 for the relevant analytical methods and food matrices. Analytical methods must be fit for purpose, meaning they can reliably quantify target heavy metals at concentrations at or below the applicable HMTc category limits. The laboratory's Limit of Quantitation (LOQ) for each analyte must be at or below the HMTc action level. If an LOQ exceeds the Program limit, a non-detect result is not acceptable proof of compliance.
+All testing used for certification decisions must be performed by laboratories accredited to ISO/IEC 17025 [33] for the relevant analytical methods and food matrices. Analytical methods must be fit for purpose, meaning they can reliably quantify target heavy metals at concentrations at or below the applicable HMTc category limits. The laboratory's Limit of Quantitation (LOQ) for each analyte must be at or below the HMTc action level. If an LOQ exceeds the Program limit, a non-detect result is not acceptable proof of compliance.
 
 Laboratories that the Program Operator has reason to question, based on proficiency-test performance, audit findings, or pattern analysis of results across participating brands, may be removed from the list of Program-acceptable laboratories. Licensees using removed laboratories must transition to a Program-acceptable laboratory before their next surveillance cycle. The Program Operator maintains the current list of acceptable laboratories under document control.
 
@@ -1289,7 +1289,7 @@ The annual operational review (referenced throughout §12.3 below) is distinct f
 
 The Standards Ratchet operates under a directional commitment: **action levels may be tightened (lowered) but shall not be loosened (raised) unless the underlying science changes in a manner that justifies relaxation.** This commitment ensures that the Program continuously drives exposure reduction and that brands can plan their improvement trajectories with confidence that the goalposts will move in only one direction.
 
-A science-based relaxation, for example, a future EFSA reassessment that meaningfully revises a metal's reference dose upward, would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
+A science-based relaxation, for example, a future EFSA reassessment [10] that meaningfully revises a metal's reference dose upward, would require Technical Committee review, Program Operator approval, and a defined transition period before any limit relaxation took effect. The directional commitment is not absolute, but its scope is narrow and its conditions are documented.
 
 ## 12.3 Trigger Conditions
 
@@ -1417,7 +1417,7 @@ This escalation path is a hard-stop condition. It applies irrespective of whethe
 
 ## Why this rule is structural rather than discretionary
 
-A regulator reading this chapter should understand that HMTc is not a shadow regulatory regime. Brands that violate FDA action levels for lead in baby foods, EU maximum levels under Regulation 2023/915, or any other operative regulatory threshold cannot use HMTc enrollment to defer the regulator's response. The Program Operator's enforcement-cooperation obligation is contractually binding under the license agreement.
+A regulator reading this chapter should understand that HMTc is not a shadow regulatory regime. Brands that violate FDA action levels [2] for lead in baby foods, EU maximum levels under Regulation 2023/915 [19], or any other operative regulatory threshold cannot use HMTc enrollment to defer the regulator's response. The Program Operator's enforcement-cooperation obligation is contractually binding under the license agreement.
 
 A brand legal team should understand the corollary: the Program is designed so that brands that pass HMTc certification are confidently inside the regulatory envelope. A brand that triggers a §2.11 escalation has not just exceeded an HMTc limit; they have produced a lot that, on the merits, was already a regulatory violation regardless of HMTc status. The escalation rule does not create a new violation; it acknowledges an existing one and ensures that Program-internal processes do not slow the brand's regulatory response.
 
@@ -1682,7 +1682,7 @@ The two instruments are deliberately drawn from different model vendors (OpenAI 
 4. **Brand-firewall compliance** (no brand-identifying contamination data on category or ingredient pages; brand-level data is structurally excluded from the public wiki).
 5. **Wiki/HMTc separation compliance** (no certification thresholds, percentile arithmetic, or workbench-side engine vocabulary leaking into the public wiki).
 
-Verdicts (PROMOTE, REVISE, QUARANTINE) and all applied corrections are logged to `data/evidence/audit-queue.csv` and to per-page commit messages in the project's git history. The dual-instrument architecture is conceptually similar to the dual-reviewer protocol used in Cochrane systematic reviews; the substitution of two AI instruments for two human reviewers is documented openly rather than concealed, and every wiki claim traces through git history to the source citation and the audit verdict.
+Verdicts (PROMOTE, REVISE, QUARANTINE) and all applied corrections are logged to `data/evidence/audit-queue.csv` and to per-page commit messages in the project's git history. The dual-instrument architecture is conceptually similar to the dual-reviewer protocol used in Cochrane systematic reviews [41]; the substitution of two AI instruments for two human reviewers is documented openly rather than concealed, and every wiki claim traces through git history to the source citation and the audit verdict.
 
 ## Accountability and Authority
 
@@ -6243,7 +6243,7 @@ The uplift is uniform across all analytes today. Per-analyte differentiation, fo
 
 ### Layer 3: Pool admission, basis, regulatory cap, and rationale tagging
 
-Every source loaded for a (row, metal) cell contributes to the pooled distribution unless explicitly dispositioned out with a stated reason. Sample-level data uses raw values; summary-only sources (mean, median, max, SD, lower/upper bound, IQR) contribute via moment-matching pseudo-sample expansion under log-normal or gamma assumptions following the standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food).
+Every source loaded for a (row, metal) cell contributes to the pooled distribution unless explicitly dispositioned out with a stated reason. Sample-level data uses raw values; summary-only sources (mean, median, max, SD, lower/upper bound, IQR) contribute via moment-matching pseudo-sample expansion under log-normal or gamma assumptions following the standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology [13]; EFSA Scientific Opinions on Pb and Cd in food [8, 11]).
 
 Sources are weighted by their reported sample size, capped at twice the median per-source N. The cap prevents any single large survey, for example, a 5,000-sample FDA TDS sub-extract, from dominating the pooled distribution for a cell where most contributing sources have N=50–200. The 2× ratio preserves large-N influence proportionally while preventing pool concentration in a single source. Without the cap, a single large survey could effectively determine the per-analyte percentile for a cell regardless of what other contributing sources report; with the cap, the percentile reflects the weighted consensus of the corpus rather than the dominant single survey.
 
@@ -6296,7 +6296,7 @@ The chapter is organized by attack category. For each: the attack as a hostile r
 
 **Attack.** "The manual asserts that limits are calibrated via P97 clean / P45 dirty per-analyte percentiles to deliver 90/30 row-pass calibration. But the boundary between clean and dirty subcategories is undefined; the analyte-correlation assumption of 0.6 is asserted but not derived; the 2× median per-source N cap is named but not motivated. An independent analyst cannot replicate the calibration from this manual."
 
-**Response.** Part 5.1 §"Layer 1" now specifies the clean-vs-dirty platform classification rule: a platform is clean when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; dirty when p50(platform) > 1.5 × p50(parent category) for at least one Tier 1 metal. The classification is data-driven and reproducible from public corpus data on heavymetalindex.com. Part 5.1 §"Layer 2" anchors the 0.6 analyte-correlation estimate to cross-analyte correlation observed in FDA TDS and EFSA surveillance datasets, and commits to an empirical revision at the 12-month post-launch methodology review if HMTc-internal lot data diverges materially from the assumed value. Part 5.1 §"Layer 3" motivates the 2× median per-source N cap: it prevents any single large survey from dominating the pooled distribution while preserving large-N influence proportionally.
+**Response.** Part 5.1 §"Layer 1" now specifies the clean-vs-dirty platform classification rule: a platform is clean when its empirical median across the literature-pooled distribution sits at or below the parent-category median for the analyte; dirty when p50(platform) > 1.5 × p50(parent category) for at least one Tier 1 metal. The classification is data-driven and reproducible from public corpus data on heavymetalindex.com. Part 5.1 §"Layer 2" anchors the 0.6 analyte-correlation estimate to cross-analyte correlation observed in FDA TDS [1] and EFSA surveillance datasets, and commits to an empirical revision at the 12-month post-launch methodology review if HMTc-internal lot data diverges materially from the assumed value. Part 5.1 §"Layer 3" motivates the 2× median per-source N cap: it prevents any single large survey from dominating the pooled distribution while preserving large-N influence proportionally.
 
 The principle of standards-setting is specified at sufficient depth in Part 5.1 for independent analysts to understand the calibration architecture. The engine implementation that operationalizes the principle is held as a trade secret per the firewall in Part 5.7 (Colophon); qualified reviewers may request the engine's inputs and outputs under the controlled-terms request process in Part 5.1.
 
@@ -6388,7 +6388,7 @@ The auditability claim is now operationally specified with a documented response
 
 **Attack.** "The Part 5.6 dispute-resolution provisions specify California-seated arbitration under California law. A non-California Licensee may argue the choice of forum disadvantages them in jurisdictional terms, or that California arbitration awards face enforcement friction in other states."
 
-**Response.** Part 5.6 §"Dispute resolution" specifies California-seated mediation followed by AAA Commercial Arbitration in San Diego. The choice of forum reflects three operational considerations: (a) MDL 3101 and the relevant baby-food heavy-metal product liability case law are being made in the Northern District of California, so the operative legal landscape is California's; (b) AB 899 and Proposition 65 are California-state regimes whose enforcement intersects directly with HMTc certification obligations; (c) the Program's defense counsel operates from San Diego, locating defense expertise in the dispute forum. California arbitration awards are enforceable in every U.S. jurisdiction under the Federal Arbitration Act, so a California award reaches non-California Licensees without enforcement friction. Non-U.S. Licensees may discuss alternative-forum proposals during license negotiations.
+**Response.** Part 5.6 §"Dispute resolution" specifies California-seated mediation followed by AAA Commercial Arbitration in San Diego. The choice of forum reflects three operational considerations: (a) MDL 3101 [24] and the relevant baby-food heavy-metal product liability case law are being made in the Northern District of California, so the operative legal landscape is California's; (b) AB 899 [21] and Proposition 65 [28] are California-state regimes whose enforcement intersects directly with HMTc certification obligations; (c) the Program's defense counsel operates from San Diego, locating defense expertise in the dispute forum. California arbitration awards are enforceable in every U.S. jurisdiction under the Federal Arbitration Act, so a California award reaches non-California Licensees without enforcement friction. Non-U.S. Licensees may discuss alternative-forum proposals during license negotiations.
 
 ## Forward-forecast accountability
 

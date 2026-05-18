@@ -28,7 +28,7 @@ The consequence calibration is intentional. Status D suspension is reserved for 
 
 ## 8.3 Laboratory Requirements
 
-All testing used for certification decisions must be performed by laboratories accredited to ISO/IEC 17025 for the relevant analytical methods and food matrices. Analytical methods must be fit for purpose, meaning they can reliably quantify target heavy metals at concentrations at or below the applicable HMTc category limits. The laboratory's Limit of Quantitation (LOQ) for each analyte must be at or below the HMTc action level. If an LOQ exceeds the Program limit, a non-detect result is not acceptable proof of compliance.
+All testing used for certification decisions must be performed by laboratories accredited to ISO/IEC 17025 [33] for the relevant analytical methods and food matrices. Analytical methods must be fit for purpose, meaning they can reliably quantify target heavy metals at concentrations at or below the applicable HMTc category limits. The laboratory's Limit of Quantitation (LOQ) for each analyte must be at or below the HMTc action level. If an LOQ exceeds the Program limit, a non-detect result is not acceptable proof of compliance.
 
 Laboratories that the Program Operator has reason to question, based on proficiency-test performance, audit findings, or pattern analysis of results across participating brands, may be removed from the list of Program-acceptable laboratories. Licensees using removed laboratories must transition to a Program-acceptable laboratory before their next surveillance cycle. The Program Operator maintains the current list of acceptable laboratories under document control.
 

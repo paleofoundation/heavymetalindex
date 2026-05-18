@@ -239,6 +239,22 @@ function main() {
   console.log("[render-manual-typst] converting markdown to Typst...")
   let typstBody = convertMarkdownToTypst(content)
 
+  // Superscript inline citations. Cochrane / Vancouver style: a citation
+  // marker like [12] or [12, 13] appearing inline in prose is rendered in
+  // superscript. The same pattern at the start of a line (i.e., as a
+  // reference-list entry) stays full-size. The pattern only fires when the
+  // citation is genuinely *inline*: preceded by a word character, an
+  // alphanumeric, a closing quote/paren, or a period. This excludes
+  // standalone bracketed values in table cells (preceded by a comma, an
+  // open-bracket, or whitespace-only line context) and excludes citations
+  // numbered [0] (no such reference exists). The matched preceding
+  // character is preserved and the citation digits are wrapped in a Typst
+  // #super[...] directive that keeps the visible brackets.
+  typstBody = typstBody.replace(
+    /([A-Za-z0-9\.\)\"’”])\s?\[([1-9]\d*(?:\s*,\s*[1-9]\d*)*)\]/g,
+    (match, before, nums) => `${before}#super[\\[${nums}\\]]`,
+  )
+
   // Swap the sentinel for a real Typst outline. The outline auto-collects
   // every H1 (chapter) and H2 (section) and produces a publisher-grade TOC
   // with right-aligned page numbers and dot leaders. Chapter-level entries

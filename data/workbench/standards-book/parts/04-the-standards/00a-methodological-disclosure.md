@@ -16,7 +16,7 @@ The two instruments are deliberately drawn from different model vendors (OpenAI 
 4. **Brand-firewall compliance** (no brand-identifying contamination data on category or ingredient pages; brand-level data is structurally excluded from the public wiki).
 5. **Wiki/HMTc separation compliance** (no certification thresholds, percentile arithmetic, or workbench-side engine vocabulary leaking into the public wiki).
 
-Verdicts (PROMOTE, REVISE, QUARANTINE) and all applied corrections are logged to `data/evidence/audit-queue.csv` and to per-page commit messages in the project's git history. The dual-instrument architecture is conceptually similar to the dual-reviewer protocol used in Cochrane systematic reviews; the substitution of two AI instruments for two human reviewers is documented openly rather than concealed, and every wiki claim traces through git history to the source citation and the audit verdict.
+Verdicts (PROMOTE, REVISE, QUARANTINE) and all applied corrections are logged to `data/evidence/audit-queue.csv` and to per-page commit messages in the project's git history. The dual-instrument architecture is conceptually similar to the dual-reviewer protocol used in Cochrane systematic reviews [41]; the substitution of two AI instruments for two human reviewers is documented openly rather than concealed, and every wiki claim traces through git history to the source citation and the audit verdict.
 
 ## Accountability and Authority
 
