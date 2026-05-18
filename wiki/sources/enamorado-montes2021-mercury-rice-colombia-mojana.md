@@ -1,72 +1,93 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_mercury-accumulation-in-commercial-varieties-of-or
 cite_key: enamorado-montes2021-mercury-rice-colombia-mojana
 title: "Mercury Accumulation in Commercial Varieties of Oryza sativa L. Cultivated in Soils of La Mojana Region, Colombia"
 authors: [Enamorado-Montes G, Reino-Causil B, Urango-Cardenas I, Marrugo-Madrid S, Marrugo-Negrete J]
 year: 2021
-publication: "Toxics"
-doi: 10.3390/toxics9110304
+publication: "Toxics 9(11):304"
+doi: "10.3390/toxics9110304"
+no_doi_assigned: false
+access_url: "https://doi.org/10.3390/toxics9110304"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Mercury Accumulation in Commercial Varieties of Oryza sativa.pdf"
+raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Mercury Accumulation in Commercial Varieties of Oryza sativa L. Cultivated in Soils of La Mojana Region, Colombia.pdf"
+raw_sha256: 98b60fa2f1d76100e790d8a19c87773b7d969793852973efdc11da9ed1faf164
+near_duplicates: []
 metals: [tHg]
 ingredients: ["[[ingredients/rice]]"]
-products: []
-matrices: [rice-grain, rice-root, rice-husk, soil]
+products: ["[[products/rice-bulk-grain]]"]
+matrices: [rice, soil]
 jurisdictions: [CO]
 sample_n: 27
-sample_population: "Greenhouse pot experiment; 3 commercial rice varieties (FA473, FA2000, FAM) grown in La Mojana region soil spiked to 3 total Hg levels (130, 800, 1500 µg kg−1)"
-updated: 2026-05-13
+sample_population: "Greenhouse pot experiment; three commercial rice cultivar codes (FA473, FA2000, FAM) grown in La Mojana region soil at three total-Hg levels (130, 800, 1500 ug/kg)"
+updated: 2026-05-18
 ---
 
-# Enamorado-Montes et al. 2021 — Total mercury accumulation in three commercial rice varieties grown in La Mojana region soil, Colombia
+# Enamorado-Montes et al. 2021 - Total mercury accumulation in rice grown in La Mojana-region soil, Colombia
 
-This controlled greenhouse study evaluated total mercury (tHg) accumulation in roots, husks, and grains of three commercial Oryza sativa L. varieties (Fedearroz-473, Fedearroz-2000, Fedearroz-Mocarí) cultivated in soils from La Mojana, Colombia, spiked to ambient (130 µg kg−1), moderate (800 µg kg−1), and high (1500 µg kg−1) Hg concentrations. La Mojana is an ecologically significant wetland region downstream from artisanal gold-mining activity on the San Jorge and Cauca rivers, where background soil Hg in rice-growing sites already exceeds world-soil averages (~70 µg kg−1). Across all varieties and treatments, Hg partitioned strongly into roots (overall mean 739.04 µg kg−1 tHg), with substantially lower concentrations in husks (74.18 µg kg−1) and grains (17.02 µg kg−1), and translocation factors from root to grain were less than 0.13 in all cases. All measured grain concentrations remained below the hazard-quotient threshold for noncarcinogenic risk (HQ < 0.36), though the FA473 variety at the highest soil Hg level (1500 µg kg−1) exceeded both the European Commission maximum level for tHg in rice (10 µg kg−1) and the Chinese National Standard (20 µg kg−1).
+This controlled greenhouse study evaluated total mercury (tHg) accumulation in roots, husks, and grains of three commercial Oryza sativa L. cultivar codes (FA473, FA2000, FAM) cultivated in soil from La Mojana, Colombia. The control soil already contained 130 ug/kg Hg; the authors also spiked soil to 800 and 1500 ug/kg Hg. Across all cultivar/treatment combinations, Hg partitioned strongly into roots (overall mean 739.04 ug/kg tHg), with lower concentrations in husks (74.18 ug/kg) and grains (17.02 ug/kg), and translocation factors from root to grain were below 0.13 in all cases. The highest reported grain concentration, 26.15 +/- 3.23 ug/kg in FA473 at 1500 ug/kg soil Hg, exceeded the source-cited EU 10 ug/kg and China 20 ug/kg rice comparators, while all hazard quotients remained below 1.
 
 ## Key numbers
 
-**Grain tHg by variety and soil treatment (µg kg−1, dry weight):**
+**Grain tHg by cultivar code and soil treatment (ug/kg dry weight):**
 
-| Variety | Soil 130 µg kg−1 | Soil 800 µg kg−1 | Soil 1500 µg kg−1 |
+| Cultivar code | Soil 130 ug/kg | Soil 800 ug/kg | Soil 1500 ug/kg |
 |---------|-----------------|-----------------|------------------|
 | FA473 | 8.64 ± 1.28 | — | 26.15 ± 3.23 |
-| FA2000 | all values below 20 µg kg−1; no significant effect of soil Hg | | |
-| FAM | below Chinese threshold at 130 µg kg−1 | — | 20.09 ± 0.48 |
+| FA2000 | All values below 20 ug/kg; no significant effect of soil Hg | — | — |
+| FAM | Below the China 20 ug/kg comparator at 130 ug/kg soil Hg | — | 20.09 ± 0.48 |
 
-**Root tHg:** Overall mean 739.04 µg kg−1; highest value 1950.70 ± 347.15 µg kg−1 (FA2000, 1500 µg kg−1 soil treatment).
+**Root tHg:** Overall mean 739.04 ug/kg; highest value 1950.70 ± 347.15 ug/kg (FA2000, 1500 ug/kg soil treatment).
 
-**Husk tHg:** Overall mean 74.18 µg kg−1; FA2000 at intermediate soil level reached 105.32 ± 3.51 µg kg−1.
+**Husk tHg:** Overall mean 74.18 ug/kg; FA2000 at the intermediate soil level reached 105.32 ± 3.51 ug/kg.
 
-**Grain tHg overall mean:** 17.02 µg kg−1 across all treatments and varieties.
+**Grain tHg overall mean:** 17.02 ug/kg across all treatments and cultivar codes.
 
 **Translocation factor (root→grain):** <1 in all cases; highest was FA2000 at ambient soil Hg, 0.129.
 
-**Regulatory reference points:** EU Commission Regulation (EU) 2018/73 sets a maximum tHg level of 10 µg kg−1 in rice. China GB 2762-2017 sets 20 µg kg−1. The ambient-soil (130 µg kg−1) native Hg concentration in La Mojana region is below Colombian/international agricultural-soil Maximum Allowable Concentration ranges (500–5000 µg kg−1) but above the crustal/world-soil average of ~70 µg kg−1.
+**Regulatory reference points:** EU Commission Regulation (EU) 2018/73 sets an MRL for mercury compounds expressed as mercury of 0.01 mg/kg in cereals, including rice, equivalent to 10 ug/kg ([[regulations/eu-reg-2018-73-mercury-compounds-mrls]]). China GB 2762-2017 sets 20 ug/kg for total mercury in rice. The ambient-soil control concentration (130 ug/kg Hg) is below the agricultural-soil maximum-allowable-concentration ranges cited by the authors (500-5000 ug/kg Hg) but above the crustal/world-soil average of approximately 70 ug/kg Hg.
 
-**Health risk:** Hazard quotients (HQ) calculated using a La Mojana-specific weekly rice intake of 1218 g/week and JECFA PTWI of 4 µg Hg/kg body weight/week. HQ ranged up to 0.350 (FA473, 1500 µg kg−1 soil) — below the HQ = 1 threshold — at even the most extreme experimental soil conditions.
+**Health risk:** Hazard quotients (HQ) were calculated using a La Mojana-specific weekly rice intake of 1218 g/week, 70 kg body weight, and the JECFA PTWI of 4 ug Hg/kg body weight/week. HQ ranged up to 0.350 (FA473, 1500 ug/kg soil Hg), below the HQ = 1 threshold.
 
-**Biomass:** Highest dry biomass at 1500 µg kg−1 soil was FA473 (308.76 ± 108.26 g); lowest was FAM (140.02 ± 2.36 g). Weight per 1000 grains ranged 17.64–20.62 g overall mean 19.16 g; significantly lower at 800 µg kg−1 soil for all three varieties.
+**Biomass:** Highest dry biomass at 1500 ug/kg soil Hg was FA473 (308.76 ± 108.26 g); lowest was FAM (140.02 ± 2.36 g). Weight per 1000 grains ranged 17.64-20.62 g, with an overall mean of 19.16 g; it was significantly lower at 800 ug/kg soil Hg for all three cultivar codes.
 
 ## Methods (brief)
 
-Greenhouse pot experiment at University of Córdoba, Colombia (October 2014–February 2015). 3 × 3 factorial design: three varieties × three soil Hg levels, three replicates, 27 experimental units total. Surface soil (0–30 cm) from a La Mojana rice-growing site was homogenized, sieved (4 mm), and spiked to target concentrations using Hg(NO3)2 solution; 15-day stabilization before planting. Water management was aerobic (not flooded). Hg in roots, husks, and grains was analyzed by Direct Mercury Analyzer (DMA-80 TRICELL, Milestone) via thermal decomposition and amalgamation per EPA method 7473. Measurement is total Hg (tHg); the study does not speciate inorganic Hg and methylmercury. LOD = 0.01 ng tHg per sample. Method validated against certified tomato leaves (CRM 1753a, 34 µg kg−1); recovery 97–102%, RSD 5.35%.
+Greenhouse pot experiment at the University of Cordoba, Colombia (October 2014-February 2015). The design was a 3 x 3 factorial experiment: three commercial rice cultivar codes x three soil Hg levels, three replicates, and 27 experimental units total. Surface soil (0-30 cm) from a La Mojana rice-growing site was homogenized, sieved (4 mm), and spiked to target concentrations using Hg(NO3)2 solution; soils were stabilized for 15 days before planting. Water management was aerobic rather than flooded.
 
-**Important limitations:** This is a controlled greenhouse study under aerobic conditions at spiked concentrations up to ~11× the ambient La Mojana soil level. Aerobic conditions reduce MeHg production relative to flooded paddy conditions; results may underestimate tHg and MeHg grain accumulation under actual flooded-field management. The study measures tHg only; it does not partition MeHg from inorganic Hg in the grain, which is toxicologically important. The three varieties (Fedearroz series) are Colombian commercial cultivars; results do not directly generalize to other rice markets.
+Hg in roots, husks, and grains was analyzed by Direct Mercury Analyzer (DMA-80 TRICELL, Milestone) via thermal decomposition and amalgamation per EPA method 7473. The method was validated with certified tomato leaves CRM 1753a (34 ug/kg), with 97%-102% recovery, 5.35% RSD, a 0.01 ng total-Hg per sample LOD, and calibration-curve R2 values above 0.9995. Two-way ANOVA with Tukey contrasts was conducted in SAS Plus 4.1.
+
+## Speciation and methods caveats
+
+- The study measures total mercury only. It does not distinguish methylmercury from inorganic mercury in rice grain, husk, or root.
+- This is a controlled greenhouse pot study under aerobic water management. Aerobic conditions can reduce methylmercury formation relative to flooded paddy conditions, so the results should not be generalized directly to flooded-field rice without additional evidence.
+- The 800 and 1500 ug/kg soil treatments are experimental spike levels; the 130 ug/kg control soil represents the native La Mojana-region soil concentration used by the authors.
+- The three cultivar codes are Colombian commercial cultivars, so the cultivar-specific findings do not directly generalize to all rice varieties or rice markets.
 
 ## Implications
 
-**Certification:** This paper establishes that commercially grown rice in mining-impacted Colombian regions can approach or exceed EU tHg limits (10 µg kg−1) at ambient soil concentrations for some varieties. For the HMT&C program, it is relevant to tHg in rice ingredients and rice-based products, particularly when sourcing from mining-adjacent origins. The study does not provide MeHg data; for MeHg exposure from rice, separate speciation studies are needed.
+Standards work: This paper contributes mechanistic source-route evidence for total mercury transfer from mining-impacted soil into rice grain. It is best used as experimental context for rice-bulk-grain sourcing from mining-adjacent regions, not as a broad market-occurrence distribution.
 
-**Courses:** Illustrates the root-as-barrier mechanism limiting tHg translocation to grain, the importance of cultivar selection in contaminated-soil regions, and the relevance of water management regime (aerobic vs flooded) to Hg speciation and bioaccumulation.
+Courses: The study illustrates the root-as-barrier mechanism limiting tHg translocation to grain, the role of cultivar differences in contaminated-soil regions, and the importance of water management regime when interpreting mercury speciation and bioaccumulation in rice.
 
-**App:** The grain tHg values in this study (ranging from ~8.6 to 26.2 µg kg−1 under spiked-soil conditions) are above commercial US/EU market survey levels but demonstrate the upper range possible in mining-impact origin regions. The typical_ppb field for tHg in rice should remain anchored on broader market surveys rather than this single-origin, spiked-soil study.
+App: Display this source as experimental, dry-weight, total-mercury evidence for rice grown in La Mojana-region soil. It should be labeled as a greenhouse/spiked-soil study rather than a retail-market survey.
 
-**Microbiome:** Not directly addressed in this paper.
+Microbiome: Not directly addressed in this paper.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/rice]]
-- [[metals/mercury]]
-- [[supply-chain/soil-mercury-rice]]
+- [[products/rice-bulk-grain]]
+- [[metals/mercury-total]]
+- [[regulations/eu-reg-2018-73-mercury-compounds-mrls]]
+- [[regulations/china-gb-2762-2017-contaminants-superseded]]
+
+## Verification notes
+
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Replaced product-empty and non-vocabulary matrix routing with `products/rice-bulk-grain` and broad matrices `rice` and `soil`.
+- Replaced certification-threshold language with source-only implications.
+- Created [[regulations/eu-reg-2018-73-mercury-compounds-mrls]] because the source uses EU Regulation 2018/73 as the 10 ug/kg rice comparator.
+- Strict brand-firewall check: sampled commercial cultivar names are reduced to source codes (FA473, FA2000, FAM); instrument/software/vendor names are retained only as Methods details under the Part 12 scientific-method exception.
