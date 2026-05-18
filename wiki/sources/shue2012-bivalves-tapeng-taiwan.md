@@ -73,7 +73,7 @@ K. hiantina 1.04 (0.77–1.46) · A. squamosa 4.06 (3.52–4.60) · P. viridis 2
 ### Pearson correlations (Table 2) — analyte versus season rank
 
 Pb −0.592 (p < 0.01) · Ni −0.565 (p < 0.01) · Cr −0.276 (p < 0.05) · Cu 0.034 (n.s.) · Zn 0.003 (n.s.) · Cd 0.029 (n.s.).
-Between-analyte: Pb–Ni r = 0.385 (p < 0.01); Pb–Cr r = 0.247 (p < 0.05); Ni–Cr r = 0.445 (p < 0.01); Cd–Cu r = −0.310 (p < 0.01); Cd–Pb r = 0.290 (p < 0.01); Cd–organism r = −0.422 (p < 0.01).
+Between-analyte: Pb–Ni r = 0.385 (p < 0.01); Pb–Cr r = 0.247 (p < 0.05); Ni–Cr r = 0.445 (p < 0.01); Cd–Cu r = −0.310 (p < 0.01); Cd–Pb r = 0.290 (p < 0.05); Cd–organism r = −0.422 (p < 0.01).
 
 ### Moisture content (% wet-tissue water lost on drying at 105 °C)
 
@@ -108,6 +108,8 @@ Field collection from Ta-Peng Bay lagoon at four sampling times (12/2005, 03/200
 
 Page was rebuilt from the PDF on 2026-05-18 to correct method-detail invented by an earlier ingest pass and to extract Tables 1, 2, 4, and 5 in full.
 
+- Audit subagent (2026-05-18) flagged Cd–Pb correlation as p < 0.01; verified against Table 2 — the cell reads "0.290*" with a single asterisk, and the table footer defines `*` as p < 0.05 (and `**` as p < 0.01). Corrected to p < 0.05.
+- Audit subagent (2026-05-18) flagged Cr summer A. squamosa value of "5.24 µg/g, range 0.22–10.3" as wrong, claiming Table 1 reads 0.75 (0.34–1.08). Verified against Table 1 (06/2006 summer row, Cr line): the value 5.24 (0.22~10.3) is in the A. squamosa column; 0.75 (0.34~1.08) is in the P. viridis column. The subagent misread the column. Wiki value retained.
 - Earlier version stated tissues were "lyophilized (freeze-dried)". The source says "Dried samples were dried at 105 ºC to keep a constant dry weight" (Methods, Sampling and Pretreatment paragraph) — i.e., oven-drying. Corrected.
 - Earlier version stated the digestion was "HNO3/HClO4". The source describes 10 mL HNO₃ + 2 mL 30% H₂O₂ (Methods, Analysis for Heavy Metals paragraph). Perchloric acid is not used. Corrected.
 - Earlier version stated "Zeeman background correction" on the Hitachi Z-5000. The source identifies only "AAS, HITACHI, Z-5000, Japan" with "air-acetylene flame / Graphite Atomizer". Zeeman is not in the source. Removed; the limitation now notes absence of stated background-correction technique.
