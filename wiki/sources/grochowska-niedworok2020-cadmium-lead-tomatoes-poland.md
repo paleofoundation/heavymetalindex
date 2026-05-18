@@ -12,14 +12,14 @@ evidence_tier: A
 license: "CC BY-NC 3.0 Poland"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Assessment of cadmium and lead content in tomatoes and tomato products.pdf"
 metals: [Pb, Cd]
-ingredients: ["[[ingredients/tomatoes]]", "[[ingredients/tomato-paste]]", "[[ingredients/tomato-products]]"]
-products: ["[[products/canned-tomatoes]]", "[[products/tomato-paste]]", "[[products/tomato-sauce]]", "[[products/tomato-juice]]", "[[products/vegetable-juices-non-root]]", "[[products/non-root-vegetables]]", "[[products/condiments-general]]"]
+ingredients: ["[[ingredients/tomato]]", "[[ingredients/tomato-paste]]", "[[ingredients/canned-tomatoes]]", "[[ingredients/ketchup]]"]
+products: ["[[products/canned-tomatoes]]", "[[products/tomato-paste]]", "[[products/tomato-sauce]]", "[[products/vegetable-juices-non-root]]", "[[products/non-root-vegetables]]", "[[products/condiments-general]]"]
 matrices: [fresh-tomato, dry-mass-tomato, canned-tomato-concentrate, tomato-puree, tomato-juice, tomato-sauce, ketchup, dried-tomato]
 jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 25
 sample_population: "Fresh and processed tomato products purchased in Polish retail and local markets; variety includes conventional, organic, multiple varieties, and multiple packaging types (glass jar, metal can, carton, plastic)"
-updated: 2026-05-13
+updated: 2026-05-18
 ---
 
 # Grochowska-Niedworok et al. 2020 — Cadmium and lead in Polish tomatoes and tomato products
@@ -81,7 +81,7 @@ Limitation: small convenience sample (n = 25 products); Polish market sourcing l
 
 ## Implications
 
-Certification: Cd levels in Polish-market tomato products are generally well below the EU 50 ppb fresh-weight limit, but one canned concentrate exceeded it. The packaging-migration pathway (metal can) is flagged as a contributing factor to elevated Cd in the concentrate vs. glass jar. HMT&C tomato product standards should note that metal-can packaging may elevate Cd above glass-packaged equivalents from the same source material.
+Certification: Cd levels in Polish-market tomato products are generally well below the EU 50 ppb fresh-weight limit, but one canned concentrate exceeded it. The paper contributes occurrence evidence for tomato-product Cd/Pb profiles and flags metal-can packaging as a plausible contributor to elevated Cd in the concentrate versus the glass-jar concentrate. It does not set HMT&C thresholds.
 
 Courses: Illustrates that organic production does not reliably reduce heavy metal contamination; organic tomatoes in this dataset showed higher Cd on a dry-mass basis. Useful case study for supply-chain course modules on the limits of "organic" as a contamination proxy.
 
@@ -89,8 +89,19 @@ App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb v
 
 ## Wiki pages updated on ingest
 
-- [[ingredients/tomatoes]]
+- [[ingredients/tomato]]
 - [[ingredients/tomato-paste]]
+- [[ingredients/canned-tomatoes]]
+- [[ingredients/ketchup]]
 - [[products/canned-tomatoes]]
 - [[products/tomato-paste]]
-- [[regulations/eu-1881-2006]]
+- [[products/tomato-sauce]]
+- [[products/vegetable-juices-non-root]]
+- [[products/non-root-vegetables]]
+- [[products/condiments-general]]
+
+## Verification notes
+
+- 2026-05-18 Codex merge-enhance from duplicate manual-fetch copy `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Cadmium and lead in tomatoes and tomato products from Polish market.pdf`; SHA-256 matches the existing `raw_path`, so no second source page was created.
+- Corrected stale routing links: `[[ingredients/tomatoes]]`, `[[ingredients/tomato-products]]`, `[[products/tomato-juice]]`, and `[[regulations/eu-1881-2006]]` do not exist as live wiki pages. Routed fresh tomato to `[[ingredients/tomato]]`, tomato juice to `[[products/vegetable-juices-non-root]]`, and surfaced Commission Regulation (EC) No 1881/2006 as a regulation-page candidate rather than linking a non-existent page.
+- Part 2 firewall: softened the HMT&C sentence from a standards recommendation to source-level occurrence and packaging-pathway evidence.
