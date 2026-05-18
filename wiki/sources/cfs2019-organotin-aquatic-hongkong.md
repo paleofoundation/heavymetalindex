@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_p0135-organotin-compounds-in-aquatic-products-avai
 cite_key: cfs2019-organotin-aquatic-hongkong
 title: "Organotin Compounds in Aquatic Products Available at Local Markets"
 authors: [Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region]
@@ -12,22 +12,23 @@ access_url: "https://www.cfs.gov.hk/english/programme/programme_rafs/programme_r
 source_type: government-report
 evidence_tier: A
 license: "Government publication"
-raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0135_Organotin compounds in aquatic products available at l.pdf"
+raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0135_Organotin compounds in aquatic products available at local markets (Hong Kong).pdf"
+raw_sha256: "5c9d40c9953710f5e7f635bfc04f1a62d075fd3a53d5fc6f733bd8eaae0d4d87"
 metals: [Sn]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/crustaceans]]", "[[ingredients/molluscs]]"]
-products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/shellfish]]"]
 matrices: [fish, crustaceans, molluscs, seafood]
 jurisdictions: [HK]
 sample_n: 341
 sample_population: "Fish, crustaceans, and molluscs collected from local markets in Hong Kong, October 2017 to June 2018; 201 fish, 31 crustaceans, 109 molluscs"
-updated: 2026-05-13
+updated: 2026-05-18
 ---
 
 # Centre for Food Safety 2019 — Organotin compounds in aquatic products, Hong Kong
 
-This 2019 government risk assessment report from Hong Kong's Centre for Food Safety (CFS) measured four organotin compounds (OTC) — tributyltin (TBT), dibutyltin (DBT), di-n-octyltin (DOT), and triphenyltin (TPT) — in 341 samples of fish, crustaceans, and molluscs collected from local markets in 2017–2018, finding detection in 60% of samples with TPT as the dominant compound. Dietary exposures for both average (0.020 mcg/kg bw/day as Sn) and high (0.057 mcg/kg bw/day as Sn) consumers were below the EFSA group TDI of 0.1 mcg/kg bw/day (expressed as Sn), representing 20% and 57% of the TDI respectively, and the CFS concluded no adverse health outcome was likely.
+This 2019 government risk assessment report from Hong Kong's Centre for Food Safety (CFS) measured four organotin compounds (OTC) — tributyltin (TBT), dibutyltin (DBT), di-n-octyltin (DOT), and triphenyltin (TPT) — in 341 samples of fish, crustaceans, and molluscs collected from local markets in 2017–2018, finding detection in 60% of samples with TPT as the dominant compound. Dietary exposures for both average (0.020-0.021 mcg/kg bw/day as Sn) and high (0.0574-0.0588 mcg/kg bw/day as Sn) consumers were below the EFSA group TDI of 0.1 mcg/kg bw/day (expressed as Sn), representing 20-21% and 57-59% of the TDI respectively, and the CFS concluded no adverse health outcome was likely.
 
-**Important note on metals classification:** The analytes in this paper are organotin compounds (TBT, DBT, DOT, TPT), not inorganic tin. Organotin species are distinct from total tin (Sn) in toxicological profile, environmental behavior, and regulatory framework. These compounds enter aquatic food chains primarily through antifouling paints on ships and from agricultural pesticide use; they are endocrine disruptors at very low concentrations (1 ng/L in water for TBT and TPT imposex effects) and are not addressed by the HMTc analyte vocabulary. They are included here under `metals: [Sn]` for routing purposes because they are tin-organic compounds, but the synthesis page for tin/organotin must not conflate inorganic Sn with OTC toxicology.
+**Important note on metals classification:** The analytes in this paper are organotin compounds (TBT, DBT, DOT, TPT), not inorganic tin. Organotin species are distinct from total tin (Sn) in toxicological profile, environmental behavior, and regulatory framework. These compounds enter aquatic food chains primarily through antifouling paints on ships and from agricultural pesticide use; they are endocrine disruptors at very low concentrations (1 ng/L in water for TBT and TPT imposex effects) and are outside the HMTc 10-analyte scope. They are included here under `metals: [Sn]` for element-level routing because they are tin-organic compounds, but synthesis should route the toxicological discussion to [[metals/organotins]] and must not conflate organotins with inorganic Sn.
 
 ## Key numbers
 
@@ -58,9 +59,9 @@ All concentrations expressed as mcg/kg (equivalent to µg/kg = ppb) as Sn unless
 - Molluscs: LB/UB 43 mcg/kg (15 mcg/kg as Sn)
 - Crustaceans: LB 41 mcg/kg, UB 42 mcg/kg (14 mcg/kg as Sn)
 
-**Dietary exposure (consumers only, LB; body weight 61.13 kg):**
-- Average consumer: 0.020 mcg/kg bw/day as Sn (20% of EFSA TDI)
-- High consumer (90th percentile): 0.057 mcg/kg bw/day as Sn (57% of EFSA TDI)
+**Dietary exposure (consumers only; LB-UB; body weight 61.13 kg):**
+- Average consumer: 0.020-0.021 mcg/kg bw/day as Sn (20-21% of EFSA TDI)
+- High consumer (90th percentile): 0.0574-0.0588 mcg/kg bw/day as Sn (57-59% of EFSA TDI)
 - Fish was the major contributor: 88% of dietary OTC exposure (0.018 mcg/kg bw/day)
 
 **EFSA group TDI:** 0.1 mcg/kg bw/day as Sn (equivalent to 0.25 mcg/kg bw/day as TBTO) for the group of TBT, DBT, TPT, and DOT combined, based on NOAEL for immunotoxicity of 0.025 mg/kg bw/day (as TBTO) in rats, safety factor of 100 (EFSA 2004).
@@ -71,17 +72,25 @@ Samples collected October 2017 to June 2018 from local Hong Kong retail markets.
 
 ## Implications
 
-**Certification:** Organotin compounds are not currently in the HMTc 10-analyte vocabulary, but TPT contamination at levels up to 1400 mcg/kg in some predatory fish species (mangrove snapper, giant grouper) is a meaningful food safety signal. If HMTc expands scope to seafood categories, OTC should be considered alongside the standard analyte set. The regulatory landscape for OTC in food is sparse — Codex has no limit; the EFSA TDI is the primary health-based benchmark.
+**Certification:** Provides organotin occurrence context for seafood and fresh-fish pages. Organotins are outside the current HMTc 10-analyte vocabulary; do not fold these values into inorganic tin or total-tin standards. The regulatory landscape for OTC in food is sparse: Codex has no limit, and the EFSA TDI is the primary health-based benchmark cited by the source.
 
 **Courses:** This report provides a clear case study in environmental contaminant bioaccumulation: TPT concentrations in predatory/demersal fish far exceed those in filter feeders, illustrating biomagnification. The contrast between 57% of HBGV for high consumers (concerning) and 20% for average consumers (low concern) illustrates how consumption frequency and species selection drive exposure.
 
 **App:** For the ingredient-risk estimator, the relevant signal is that predatory and coastal fish carry substantially higher OTC loads than freshwater or cold-water species. Species-level differentiation is more meaningful than aggregate seafood categories for organotin exposure. Salmon, grass carp, eel, grey mullet, cod, sole, turbot had no detectable TBT; tuna, sea bass, mangrove snapper, giant grouper, and rabbitfish had high TPT.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/fish]]
 - [[ingredients/shellfish]]
-- [[ingredients/crustaceans]]
 - [[ingredients/molluscs]]
 - [[products/seafood]]
+- [[products/fresh-fish]]
+- [[products/shellfish]]
+- [[metals/organotins]]
 - [[metals/tin]]
+
+## Verification notes
+
+- 2026-05-18 Codex seafood-priority merge check corrected the raw handle/path/hash from the original manual-fetch placeholder and verified the sample count (341 total; 201 fish, 31 crustaceans, 109 molluscs), detection rates, Table 2 maxima, Table 3 means, and exposure ranges against the report text.
+- The source separates crustaceans from molluscs analytically, but there is no `ingredients/crustaceans` page in the current taxonomy. Routing uses `ingredients/shellfish` plus `ingredients/molluscs`, while retaining `crustaceans` as a source-specific matrix descriptor.
+- Frontmatter keeps `metals: [Sn]` for element-level routing; the toxicological and methods discussion should be treated as organotin-specific and linked to [[metals/organotins]], not pooled with inorganic tin.
