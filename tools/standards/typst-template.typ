@@ -238,6 +238,16 @@
     }
   )
 
+  // Running-head title derived from the title/subtitle inputs so any future
+  // category (Cat 2 children's personal care, Cat 5 beverages, etc.) renders
+  // with the correct header without forking the template. Falls back to the
+  // generic title if no subtitle is provided.
+  let running-title = if subtitle == none {
+    "HMTc Program Manual"
+  } else {
+    "HMTc " + subtitle
+  }
+
   // Front matter pages start with roman numeral page numbers.
   // The body chapters use arabic numerals starting from 1.
   set page(
@@ -255,7 +265,7 @@
         #grid(
           columns: (1fr, auto),
           align: (left, right),
-          upper("HMTc Infant and Child Foods Program Manual"),
+          upper(running-title),
           upper(edition),
         )
         #v(-0.3em)

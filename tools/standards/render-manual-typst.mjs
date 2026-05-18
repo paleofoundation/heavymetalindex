@@ -164,19 +164,26 @@ function renderTable(token) {
   // text within the available column width rather than overflowing the trim.
   const colSpec = `(${Array(cols).fill("1fr").join(", ")})`
 
+  // Insert zero-width-space (U+200B) after underscores in cell content so
+  // Typst's text-shaping engine can break long underscored identifiers
+  // (e.g., "lognormal_lod_censored_midpoint", "as_sold_or_source_reported")
+  // at underscore boundaries rather than overflowing the column. Also break
+  // long hyphenated tokens for the same reason.
+  const allowBreaks = (s) => s.replace(/_/g, "_​").replace(/-(?=[A-Za-z])/g, "-​")
+
   // Build a Typst table.
   let out = `#table(\n  columns: ${colSpec},\n  align: (col, row) => left + top,\n`
   out += `  table.header(\n`
   out += header
     .map((cell) => {
-      const text = renderInline(cell.tokens).replace(/\n+/g, " ").trim()
+      const text = allowBreaks(renderInline(cell.tokens).replace(/\n+/g, " ").trim())
       return `    [${text}]`
     })
     .join(",\n")
   out += `\n  ),\n`
   for (const row of rows) {
     for (const cell of row) {
-      const text = renderInline(cell.tokens).replace(/\n+/g, " ").trim()
+      const text = allowBreaks(renderInline(cell.tokens).replace(/\n+/g, " ").trim())
       out += `  [${text}],\n`
     }
   }

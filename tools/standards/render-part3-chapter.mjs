@@ -186,6 +186,32 @@ function renderChapter(briefing, chapter) {
   // contexts alone.
   content = content.replace(/ — /g, ", ")
 
+  // Step 8: shorten long section headings that visually clutter the TOC.
+  // The briefings carry verbose, descriptive section titles ("Adversarial
+  // Read, what a plaintiff's expert will attack, and the response"); the
+  // bound manual prefers crisp ones ("Adversarial Read"). The full
+  // descriptive paragraph remains as body text inside the section.
+  content = content.replace(
+    /^## Adversarial Read[^\n]*$/gm,
+    "## Adversarial Read"
+  )
+  content = content.replace(
+    /^## Master Limit Table[^\n]*$/gm,
+    "## Master Limit Table"
+  )
+  content = content.replace(
+    /^## Methodology[, ][^\n]*$/gm,
+    "## Methodology"
+  )
+  content = content.replace(
+    /^## Methodology — [^\n]*$/gm,
+    "## Methodology"
+  )
+  content = content.replace(
+    /^## Pre-Publication Checklist[^\n]*$/gm,
+    "## Pre-Publication Checklist"
+  )
+
   return content
 }
 

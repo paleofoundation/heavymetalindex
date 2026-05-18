@@ -116,54 +116,6 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 
 
 
-= Methodological Disclosure: AI Literature-Processing Instruments
-
-
-
-== Role categorization: literature-processing instrument, not certification authority
-
-
-The Heavy Metal Index wiki, which is the literature evidence layer underlying HMTc certification standards, is built using OpenAI's Codex (GPT-5.5) as one of two parallel AI literature-processing instruments, alongside Anthropic's Claude Code (Opus 4.7). Both instruments operate on the same corpus of peer-reviewed primary studies, government reports (FDA, EFSA, EPA, WHO, Codex, ATSDR), and regulatory documents. Both produce the `wiki/sources/` per-paper source pages, the `wiki/ingredients/` commodity contamination profiles, the `wiki/products/` category evidence inventories, and the `wiki/metals/` toxicology context that constitute the literature-baseline for HMTc threshold work.
-
-
-*Neither instrument sets HMTc certification thresholds. Neither instrument decides certification pass/fail.* The HMTc certification pages, threshold percentile arithmetic, and threshold-setting workflow are maintained separately on a staff-side workbench at heavymetaltested.com and in `data/workbench/standards/` (not under `wiki/`), as documented in the project's governing principles (the wiki/HMTc firewall) and the threshold-setting methodology.
-
-
-
-== Methodological role: cross-vendor verification, transparent and reproducible
-
-
-The two instruments are deliberately drawn from different model vendors (OpenAI for Codex, Anthropic for Claude Code) to enable cross-vendor verification on every wiki source page. The protocol: when one instrument writes or merge-enhances a source page, the other independently audits it against the original source document using a five-check protocol. The five checks are:
-
-
-+ *Numerical fidelity* against source tables (every reported number traces to the source's stated value with no rounding, averaging, or harmonization).
-+ *Slug-vocabulary validation* against the project's controlled taxonomy (every ingredient, product, regulation, and metal slug declared in frontmatter resolves to an existing page or surfaces as an explicit new-page proposal).
-+ *Speciation discipline* enforcement of inorganic vs. total arsenic and methylmercury vs. total mercury (the two non-negotiable distinctions named in the project's analytical conventions; speciation is never substituted in pooling).
-+ *Brand-firewall compliance* (no brand-identifying contamination data on category or ingredient pages; brand-level data is structurally excluded from the public wiki).
-+ *Wiki/HMTc separation compliance* (no certification thresholds, percentile arithmetic, or workbench-side engine vocabulary leaking into the public wiki).
-
-
-Verdicts (PROMOTE, REVISE, QUARANTINE) and all applied corrections are logged to `data/evidence/audit-queue.csv` and to per-page commit messages in the project's git history. The dual-instrument architecture is conceptually similar to the dual-reviewer protocol used in Cochrane systematic reviews; the substitution of two AI instruments for two human reviewers is documented openly rather than concealed, and every wiki claim traces through git history to the source citation and the audit verdict.
-
-
-
-== Accountability and authority remain with the Paleo Foundation as named program operator
-
-
-Karen Pendergrass (Paleo Certified, Inc. dba The Paleo Foundation) is the named principal investigator with sole authority over: HMTc product category creation, the project's governance documents (CLAUDE.md and OPERATING.md), regulatory interpretation, certification threshold finalization, and program-manual publication. Both Codex and Claude Code operate under published operating manuals (`docs/codex-collaboration/README.md`, `docs/gpt-collaboration/system-prompt.md`, `docs/gpt-collaboration/verification-checklist.md`) that explicitly prohibit autonomous threshold-setting, autonomous synthesis claims beyond what the cited literature supports, and any modification of governance documents without principal-investigator approval.
-
-
-Where either instrument surfaces a finding requiring human judgment (a paper-internal contradiction, a true duplicate conflict, a new product-category proposal, an HMTc-relevant policy decision), the instrument stops and surfaces to the principal investigator rather than guessing. This boundary is enforced operationally (stop conditions in the operating manuals), logged transparently (per-session run summaries in `data/evidence/codex-runs/` and morning reports in `data/evidence/autonomy/`), and reproducible from git history.
-
-
-
-== Why this architecture is documented in the front matter
-
-
-This disclosure appears at the front of the manual, not in a colophon footnote, because it is structurally important to how the program defends itself against hostile review. Hiding the AI involvement would be the failure mode; the Cochrane-quality standard the program aspires to expects methodology transparency. AI literature-processing is increasingly standard in systematic-review work; AI threshold-setting in a regulated certification program would be novel and harder to defend. The wiki/HMTc firewall, the cross-vendor verification protocol, the named principal investigator, and the audit-trail-from-git-history together form the methodological architecture that lets this manual carry the weight of "Cochrane for heavy metals" rather than "AI-generated certification of food products."
-
-
-
 = Table of Contents
 
 
@@ -239,7 +191,7 @@ You are reading this manual to assess whether HMTc represents legitimate industr
 
 
 
-== For Adversarial Readers (Plaintiff's Experts, Competing Standards Bodies, Hostile Reviewers)
+== For Adversarial Readers
 
 
 You are reading this manual to find the gaps. You are looking for methodology underspecification, missing toxicological anchors, weak chain-of-custody language, ratchet gaming opportunities, conflict-of-interest framings, or claims that overreach what the literature supports. You will brief your conclusions to a court, a state attorney general's office, or a competing program's leadership.
@@ -527,7 +479,7 @@ Real-world costs vary by category, channel mix, and incident severity. The scena
   [~\$0.38M revenue],
   [Remediation and verification surge],
   [\$0.05M–\$0.3M],
-  [*Indicative total one-year cost*],
+  [*Indicative total one-​year cost*],
   [*\$1.6M–\$6.6M+*],
 )
 
@@ -558,7 +510,7 @@ For a brand at \$5M revenue, this is sufficient to impair growth or threaten sol
   [~\$3.75M revenue],
   [Remediation and verification surge],
   [\$0.2M–\$1M],
-  [*Indicative total one-year cost*],
+  [*Indicative total one-​year cost*],
   [*\$8M–\$33M+*],
 )
 
@@ -586,7 +538,7 @@ For a brand at \$5M revenue, this is sufficient to impair growth or threaten sol
   [~\$37.5M revenue],
   [Remediation and verification surge],
   [\$0.5M–\$5M],
-  [*Indicative total one-year cost*],
+  [*Indicative total one-​year cost*],
   [*\$57M–\$187M+*],
 )
 
@@ -1167,16 +1119,16 @@ Tier 1 metals are those that are carcinogenic with no established safe threshold
   ),
   [*Lead (Pb)*],
   [Total elemental lead],
-  [EFSA (2010) concluded that "a threshold for the critical effects of lead in children's neurodevelopment could not be identified" (BMDL01 = 12 µg/L blood lead for one-point IQ decrement). JECFA (2011) withdrew its PTWI on the grounds that "conventional tolerable intake values were no longer health-protective" for endpoints without an identifiable threshold. Full toxicology: see Part 5 Glossary and `wiki/metals/lead` on heavymetalindex.com.],
+  [EFSA (2010) concluded that "a threshold for the critical effects of lead in children's neurodevelopment could not be identified" (BMDL01 = 12 µg/L blood lead for one-​point IQ decrement). JECFA (2011) withdrew its PTWI on the grounds that "conventional tolerable intake values were no longer health-​protective" for endpoints without an identifiable threshold. Full toxicology: see Part 5 Glossary and `wiki/metals/lead` on heavymetalindex.com.],
   [*Cadmium (Cd)*],
   [Total elemental cadmium],
-  [Bioaccumulative with biological half-life of 10–30 years; renal cortex is the primary target organ; IARC classifies cadmium and cadmium compounds as Group 1 (carcinogenic to humans). EFSA TWI 2.5 µg/kg bw/week; JECFA PTMI 25 µg/kg bw/month. Full toxicology: `wiki/metals/cadmium` on heavymetalindex.com.],
+  [Bioaccumulative with biological half-​life of 10–30 years; renal cortex is the primary target organ; IARC classifies cadmium and cadmium compounds as Group 1 (carcinogenic to humans). EFSA TWI 2.5 µg/kg bw/week; JECFA PTMI 25 µg/kg bw/month. Full toxicology: `wiki/metals/cadmium` on heavymetalindex.com.],
   [*Arsenic (iAs)*],
-  [Inorganic arsenic (speciation required for rice-containing products; reflex for others)],
-  [IARC classifies inorganic arsenic as Group 1 (carcinogenic to humans) on the basis of lung, skin, and bladder cancer evidence. EFSA's 2024 reassessment derived a cancer reference point of approximately 0.06 µg/kg bw/day and concluded that margins of exposure at current dietary intake levels remain low. Full toxicology: `wiki/metals/arsenic-inorganic` on heavymetalindex.com.],
+  [Inorganic arsenic (speciation required for rice-​containing products; reflex for others)],
+  [IARC classifies inorganic arsenic as Group 1 (carcinogenic to humans) on the basis of lung, skin, and bladder cancer evidence. EFSA's 2024 reassessment derived a cancer reference point of approximately 0.06 µg/kg bw/day and concluded that margins of exposure at current dietary intake levels remain low. Full toxicology: `wiki/metals/arsenic-​inorganic` on heavymetalindex.com.],
   [*Mercury (MeHg)*],
-  [Methylmercury (speciation required for fish-containing products; reflex for others)],
-  [Methylmercury crosses the blood-brain barrier and accumulates in developing neural tissue; prenatal and early postnatal exposure windows are most critical. EFSA TWI 1.3 µg/kg bw/week; EPA RfD 0.1 µg/kg bw/day. Full toxicology: `wiki/metals/mercury-methyl` on heavymetalindex.com.],
+  [Methylmercury (speciation required for fish-​containing products; reflex for others)],
+  [Methylmercury crosses the blood-​brain barrier and accumulates in developing neural tissue; prenatal and early postnatal exposure windows are most critical. EFSA TWI 1.3 µg/kg bw/week; EPA RfD 0.1 µg/kg bw/day. Full toxicology: `wiki/metals/mercury-​methyl` on heavymetalindex.com.],
 )
 
 
@@ -1197,10 +1149,10 @@ Tier 2 metals are those with established tolerable daily intakes, shorter biolog
   ),
   [*Nickel (Ni)*],
   [Total elemental nickel],
-  [Chronic TDI established by EFSA (13 µg/kg bw/day); controllable via sourcing and process. Tier 2 reflects established benchmark rather than no-threshold framing.],
+  [Chronic TDI established by EFSA (13 µg/kg bw/day); controllable via sourcing and process. Tier 2 reflects established benchmark rather than no-​threshold framing.],
   [*Tin (Sn)*],
   [Total elemental tin],
-  [Acute GI endpoint only; sentinel for packaging integrity; very large margin to chronic-effect levels.],
+  [Acute GI endpoint only; sentinel for packaging integrity; very large margin to chronic-​effect levels.],
   [*Aluminum (Al)*],
   [Total elemental aluminum],
   [JECFA PTWI established (2 mg/kg bw/week); controllable via water treatment and process controls.],
@@ -2401,35 +2353,35 @@ The fifteen Part 3 chapters appear in document order below. Each chapter follows
     [Chapter]
   ),
   [3.1],
-  [Infant Formula, Powder (Non-Soy)],
+  [Infant Formula, Powder (Non-​Soy)],
   [3.2],
-  [Infant Formula, Powder (Soy-Based)],
+  [Infant Formula, Powder (Soy-​Based)],
   [3.3],
-  [Infant Formula, Ready-to-Feed Liquid (Non-Soy)],
+  [Infant Formula, Ready-​to-​Feed Liquid (Non-​Soy)],
   [3.4],
-  [Infant Formula, Ready-to-Feed Liquid (Soy-Based)],
+  [Infant Formula, Ready-​to-​Feed Liquid (Soy-​Based)],
   [3.5],
-  [Baby Cereals, Dry (Rice-Based)],
+  [Baby Cereals, Dry (Rice-​Based)],
   [3.6],
-  [Baby Cereals, Dry (Non-Rice)],
+  [Baby Cereals, Dry (Non-​Rice)],
   [3.7],
   [Fruit Purées],
   [3.8],
-  [Non-Root Vegetable Purées],
+  [Non-​Root Vegetable Purées],
   [3.9],
-  [Root-Vegetable Purées],
+  [Root-​Vegetable Purées],
   [3.10],
   [Meat and Poultry Purées],
   [3.11],
-  [Fish-Containing Baby Foods],
+  [Fish-​Containing Baby Foods],
   [3.12],
-  [Mixed Meals (Rice-Containing)],
+  [Mixed Meals (Rice-​Containing)],
   [3.13],
-  [Mixed Meals (Non-Rice)],
+  [Mixed Meals (Non-​Rice)],
   [3.14],
-  [Teething and Snacks (Rice-Based)],
+  [Teething and Snacks (Rice-​Based)],
   [3.15],
-  [Teething and Snacks (Non-Rice)],
+  [Teething and Snacks (Non-​Rice)],
 )
 
 
@@ -2451,6 +2403,54 @@ Each chapter is the deterministic output of a Standards Briefing generator (`too
 
 
 
+= Methodological Disclosure
+
+
+
+== Role: Instrument, Not Authority
+
+
+The Heavy Metal Index wiki, which is the literature evidence layer underlying HMTc certification standards, is built using OpenAI's Codex (GPT-5.5) as one of two parallel AI literature-processing instruments, alongside Anthropic's Claude Code (Opus 4.7). Both instruments operate on the same corpus of peer-reviewed primary studies, government reports (FDA, EFSA, EPA, WHO, Codex, ATSDR), and regulatory documents. Both produce the `wiki/sources/` per-paper source pages, the `wiki/ingredients/` commodity contamination profiles, the `wiki/products/` category evidence inventories, and the `wiki/metals/` toxicology context that constitute the literature-baseline for HMTc threshold work.
+
+
+*Neither instrument sets HMTc certification thresholds. Neither instrument decides certification pass/fail.* The HMTc certification pages, threshold percentile arithmetic, and threshold-setting workflow are maintained separately on a staff-side workbench at heavymetaltested.com and in `data/workbench/standards/` (not under `wiki/`), as documented in the project's governing principles (the wiki/HMTc firewall) and the threshold-setting methodology.
+
+
+
+== Cross-Vendor Verification
+
+
+The two instruments are deliberately drawn from different model vendors (OpenAI for Codex, Anthropic for Claude Code) to enable cross-vendor verification on every wiki source page. The protocol: when one instrument writes or merge-enhances a source page, the other independently audits it against the original source document using a five-check protocol. The five checks are:
+
+
++ *Numerical fidelity* against source tables (every reported number traces to the source's stated value with no rounding, averaging, or harmonization).
++ *Slug-vocabulary validation* against the project's controlled taxonomy (every ingredient, product, regulation, and metal slug declared in frontmatter resolves to an existing page or surfaces as an explicit new-page proposal).
++ *Speciation discipline* enforcement of inorganic vs. total arsenic and methylmercury vs. total mercury (the two non-negotiable distinctions named in the project's analytical conventions; speciation is never substituted in pooling).
++ *Brand-firewall compliance* (no brand-identifying contamination data on category or ingredient pages; brand-level data is structurally excluded from the public wiki).
++ *Wiki/HMTc separation compliance* (no certification thresholds, percentile arithmetic, or workbench-side engine vocabulary leaking into the public wiki).
+
+
+Verdicts (PROMOTE, REVISE, QUARANTINE) and all applied corrections are logged to `data/evidence/audit-queue.csv` and to per-page commit messages in the project's git history. The dual-instrument architecture is conceptually similar to the dual-reviewer protocol used in Cochrane systematic reviews; the substitution of two AI instruments for two human reviewers is documented openly rather than concealed, and every wiki claim traces through git history to the source citation and the audit verdict.
+
+
+
+== Accountability and Authority
+
+
+Karen Pendergrass (Paleo Certified, Inc. dba The Paleo Foundation) is the named principal investigator with sole authority over: HMTc product category creation, the project's governance documents (CLAUDE.md and OPERATING.md), regulatory interpretation, certification threshold finalization, and program-manual publication. Both Codex and Claude Code operate under published operating manuals (`docs/codex-collaboration/README.md`, `docs/gpt-collaboration/system-prompt.md`, `docs/gpt-collaboration/verification-checklist.md`) that explicitly prohibit autonomous threshold-setting, autonomous synthesis claims beyond what the cited literature supports, and any modification of governance documents without principal-investigator approval.
+
+
+Where either instrument surfaces a finding requiring human judgment (a paper-internal contradiction, a true duplicate conflict, a new product-category proposal, an HMTc-relevant policy decision), the instrument stops and surfaces to the principal investigator rather than guessing. This boundary is enforced operationally (stop conditions in the operating manuals), logged transparently (per-session run summaries in `data/evidence/codex-runs/` and morning reports in `data/evidence/autonomy/`), and reproducible from git history.
+
+
+
+== Why This Disclosure Lives Here
+
+
+This disclosure appears at the front of the manual, not in a colophon footnote, because it is structurally important to how the program defends itself against hostile review. Hiding the AI involvement would be the failure mode; the Cochrane-quality standard the program aspires to expects methodology transparency. AI literature-processing is increasingly standard in systematic-review work; AI threshold-setting in a regulated certification program would be novel and harder to defend. The wiki/HMTc firewall, the cross-vendor verification protocol, the named principal investigator, and the audit-trail-from-git-history together form the methodological architecture that lets this manual carry the weight of "Cochrane for heavy metals" rather than "AI-generated certification of food products."
+
+
+
 = 3.1 Infant Formula, Powder (Non-Soy)
 
 
@@ -2461,7 +2461,7 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 *Subcategory role:* clean subcategory (within-pair)
 *Native basis for published thresholds:* powder\_as\_placed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -2494,7 +2494,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for infant formula powder non soy.
@@ -2506,7 +2506,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
@@ -2514,74 +2514,74 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   ),
   [Pb],
   [*20 ppb* [powder]≈ 3 ppb [prepared]],
-  [62.966 ppb (capped to 20 by reg cap)],
-  [regulatory-alignment],
-  [15],
+  [66.321 ppb (capped to 20 by reg cap)],
+  [regulatory-​alignment],
+  [18],
   [stable],
-  [20 ppb (eu2023\_pb\_formula\_powder\_20)],
+  [20 ppb (eu2023\_​pb\_​formula\_​powder\_​20)],
   [iAs],
   [*10 ppb* [powder]≈ 2 ppb [prepared]],
   [8.655 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [7],
   [provisional],
-  [20 ppb (eu2023\_ias\_formula\_powder\_20)],
+  [20 ppb (eu2023\_​ias\_​formula\_​powder\_​20)],
   [tAs],
   [*25 ppb* [powder]≈ 5 ppb [prepared]],
   [23.730 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [17],
   [stable],
   [,],
   [Sn],
   [*100 ppb* [powder]≈ 15 ppb [prepared]],
   [76.200 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [16],
   [stable],
   [,],
   [Ni],
-  [*100 ppb* [powder]≈ 10 ppb [prepared]],
-  [57.635 ppb],
-  [literature-baseline],
-  [7],
-  [stable],
+  [*100 ppb* [powder]≈ 15 ppb [prepared]],
+  [83.496 ppb],
+  [literature-​baseline],
+  [9],
+  [provisional],
   [,],
   [Cd],
   [*10 ppb* [powder]≈ 2 ppb [prepared]],
-  [8.432 ppb],
-  [literature-baseline],
-  [21],
-  [stable],
-  [10 ppb (eu2023\_cd\_formula\_cow\_powder\_10)],
-  [Cr-VI],
+  [13.028 ppb (capped to 10 by reg cap)],
+  [regulatory-​alignment],
+  [24],
+  [provisional],
+  [10 ppb (eu2023\_​cd\_​formula\_​cow\_​powder\_​10)],
+  [Cr-​VI],
   [*50 ppb* [powder]≈ 5 ppb [prepared]],
   [34.705 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [3],
   [stable],
   [,],
   [Al],
   [*5000 ppb* [powder]≈ 500 ppb [prepared]],
   [3130.713 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [19],
   [provisional],
   [,],
   [tHg],
   [*2 ppb* [powder]≈ 0.5 ppb [prepared]],
   [1.575 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [8],
   [provisional],
   [,],
   [MeHg],
   [*1 ppb* [powder]≈ 0.5 ppb [prepared]],
-  [0.787 ppb (read-across)],
-  [feasibility-driven],
+  [0.787 ppb (read-​across)],
+  [feasibility-​driven],
   [0],
-  [feasibility-anchored (analytical LOQ binds)],
-  [EFSA TWI 1.3 µg/kg-bw/wk (exposure)],
+  [feasibility-​anchored (analytical LOQ binds)],
+  [EFSA TWI 1.3 µg/kg-​bw/wk (exposure)],
 )
 
 
@@ -2593,7 +2593,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -2638,12 +2638,12 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Cross-basis: ≈ 3 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `regulatory-alignment`
 *Regulatory ceiling reference:* 20 ppb (eu2023\_pb\_formula\_powder\_20)
-*Pool composition:* 15 sources contributing · 236 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [4.06, 82.86] ppb*
-*Sensitivity: log-normal 57.48 · gamma 57.87 · nonparametric 59.43 ppb · spread 3% (stable)*
+*Pool composition:* 18 sources contributing · 296 pseudo-samples in pool · 1 sample-level contributors
+*Bootstrap 95% CI: [5.53, 160.67] ppb*
+*Sensitivity: log-normal 66.55 · gamma 69.55 · nonparametric 69.66 ppb · spread 5% (stable)*
 
 
-*Defensibility.* The published value matches the lowest applicable regulatory ceiling (eu2023\_pb\_formula\_powder\_20). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 62.97 ppb sits above the cap, confirming the cap is the protective constraint.
+*Defensibility.* The published value matches the lowest applicable regulatory ceiling (eu2023\_pb\_formula\_powder\_20). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 66.32 ppb sits above the cap, confirming the cap is the protective constraint.
 
 
 *Brand legal read.* This threshold matches the binding government cap (eu2023\_pb\_formula\_powder\_20). A Daubert challenge on the value reduces to "is eu2023\_pb\_formula\_powder\_20 a legitimate regulatory anchor?", and the answer is yes, it is published, finalized, and enforced.
@@ -2652,7 +2652,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Retailer compliance read.* A certified product tests at or below 20 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* HMTc threshold = eu2023\_pb\_formula\_powder\_20 cap. The pooled occurrence distribution from 15 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
+*Regulator read.* HMTc threshold = eu2023\_pb\_formula\_powder\_20 cap. The pooled occurrence distribution from 18 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 
 
@@ -2667,95 +2667,113 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [gardener2019-​pb-​cd-​us-​infant-​formula-​baby-​foods (2019) · US],
+  [Lead and cadmium contamination in a large sample of United S…],
+  [unknown],
+  [564],
+  [uniform\_​max\_​only],
+  [3.4%],
+  [mgbemena2026-​baby-​milk-​infant-​formula-​nigeria-​nutrients-​heavy-​metals (2026) · NG],
+  [Nutrient exploration and heavy metal risk assessment of baby…],
+  [unknown],
+  [8],
+  [uniform\_​range\_​only],
+  [2.7%],
+  [mgbemena2026-​baby-​milk-​infant-​formula-​nigeria-​nutrients-​heavy-​metals (2026) · NG],
+  [Nutrient exploration and heavy metal risk assessment of baby…],
+  [unknown],
+  [12],
+  [uniform\_​range\_​only],
+  [4.0%],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [57],
-  [lognormal\_mean\_median],
-  [24.1%],
-  [kazi2009-toxic-elements-in-infant-formulae (2009) · PK],
+  [lognormal\_​mean\_​median],
+  [19.3%],
+  [kazi2009-​toxic-​elements-​in-​infant-​formulae (2009) · PK],
   [Determination of toxic elements in infant formulae by using …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [13],
-  [lognormal\_mean\_max],
-  [5.5%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [lognormal\_​mean\_​max],
+  [4.4%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [single\_​point],
+  [0.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [4.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [3.4%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [4.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [3.4%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [4.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [3.4%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
-  [0.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [single\_​point],
+  [0.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [4.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [3.4%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
-  [0.4%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
+  [single\_​point],
+  [0.3%],
+  [pandelova2012-​eu-​baby-​food-​formula-​elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
-  [0.4%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
+  [single\_​point],
+  [0.3%],
+  [pandelova2012-​eu-​baby-​food-​formula-​elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
-  [0.4%],
-  [fda2026-infant-formula-toxic-elements-special-survey (2026) · US],
+  [single\_​point],
+  [0.3%],
+  [fda2026-​infant-​formula-​toxic-​elements-​special-​survey (2026) · US],
   [Analytical Results for Toxic Elements in Infant Formula, FY2…],
-  [prepared\_for\_feeding],
+  [prepared\_​for\_​feeding],
   [230],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -2770,7 +2788,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* 20 ppb (eu2023\_ias\_formula\_powder\_20)
 *Pool composition:* 7 sources contributing · 52 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [4.71, 21.98] ppb*
+*Bootstrap 95% CI: [4.26, 20.22] ppb*
 *Sensitivity: log-normal 11.45 · gamma 8.54 · nonparametric 14.11 ppb · spread 40% (provisional)*
 
 
@@ -2798,47 +2816,47 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [shibata2016-arsenic-rice-cereal-risk-assessment-us (2016) · US],
+  [shibata2016-​arsenic-​rice-​cereal-​risk-​assessment-​us (2016) · US],
   [Risk Assessment of Arsenic in Rice Cereal and Other Dietary …],
   [unknown],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.9%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [19.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [19.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [19.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [19.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [19.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.9%],
 )
 
@@ -2881,107 +2899,107 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [carignan2015-arsenic-infancy-well-water-breast-milk (2015) · US],
+  [carignan2015-​arsenic-​infancy-​well-​water-​breast-​milk (2015) · US],
   [Arsenic Exposure in Infancy: Estimating the Contributions of…],
   [unknown],
   [9],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [carignan2015-arsenic-infancy-well-water-breast-milk (2015) · US],
+  [carignan2015-​arsenic-​infancy-​well-​water-​breast-​milk (2015) · US],
   [Arsenic Exposure in Infancy: Estimating the Contributions of…],
   [unknown],
   [72],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [9.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [9.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [9.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [9.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.0%],
-  [fda2026-infant-formula-toxic-elements-special-survey (2026) · US],
+  [fda2026-​infant-​formula-​toxic-​elements-​special-​survey (2026) · US],
   [Analytical Results for Toxic Elements in Infant Formula, FY2…],
-  [prepared\_for\_feeding],
+  [prepared\_​for\_​feeding],
   [230],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -3024,101 +3042,101 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.6%],
 )
 
@@ -3128,25 +3146,25 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Ni
 
 
-*Published HMTc threshold:* 100 ppb [powder] · 57.635 ppb (pre-rounding)
-*Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* 100 ppb [powder] · 83.496 ppb (pre-rounding)
+*Cross-basis: ≈ 15 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
-*Pool composition:* 7 sources contributing · 61 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [53.06, 131.62] ppb*
-*Sensitivity: log-normal 105.78 · gamma 84.35 · nonparametric 96.16 ppb · spread 20% (stable)*
+*Pool composition:* 9 sources contributing · 81 pseudo-samples in pool · 0 sample-level contributors
+*Bootstrap 95% CI: [42.34, 107.35] ppb*
+*Sensitivity: log-normal 78.16 · gamma 86.74 · nonparametric 124.88 ppb · spread 37% (provisional)*
 
 
-*Defensibility.* Pooled P97 from 7 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+*Defensibility.* Pooled P97 from 9 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
 
 
-*Brand legal read.* The value is pooled P97 from 7 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+*Brand legal read.* The value is pooled P97 from 9 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
 *Retailer compliance read.* A certified product tests at or below 100 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 7 contributing sources across multiple jurisdictions. Sensitivity band stable.
+*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 9 contributing sources across multiple jurisdictions. Sensitivity band provisional.
 
 
 
@@ -3161,48 +3179,60 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [mgbemena2026-​baby-​milk-​infant-​formula-​nigeria-​nutrients-​heavy-​metals (2026) · NG],
+  [Nutrient exploration and heavy metal risk assessment of baby…],
+  [unknown],
+  [8],
+  [uniform\_​range\_​only],
+  [9.9%],
+  [mgbemena2026-​baby-​milk-​infant-​formula-​nigeria-​nutrients-​heavy-​metals (2026) · NG],
+  [Nutrient exploration and heavy metal risk assessment of baby…],
+  [unknown],
+  [12],
+  [uniform\_​range\_​only],
+  [14.8%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [12.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [12.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [12.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [12.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [16.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [12.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [16.4%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [12.3%],
+  [pandelova2012-​eu-​baby-​food-​formula-​elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
-  [1.6%],
+  [single\_​point],
+  [1.2%],
 )
 
 
@@ -3211,25 +3241,25 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Cd
 
 
-*Published HMTc threshold:* 10 ppb [powder] · 8.432 ppb (pre-rounding)
+*Published HMTc threshold:* 10 ppb [powder] · 10 ppb (pre-rounding)
 *Cross-basis: ≈ 2 ppb [prepared] (÷7 (1:7 reconstitution))*
-*Rationale tag:* `literature-baseline`
+*Rationale tag:* `regulatory-alignment`
 *Regulatory ceiling reference:* 10 ppb (eu2023\_cd\_formula\_cow\_powder\_10)
-*Pool composition:* 21 sources contributing · 280 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [5.12, 10.27] ppb*
-*Sensitivity: log-normal 8.03 · gamma 8.48 · nonparametric 8.28 ppb · spread 5% (stable)*
+*Pool composition:* 24 sources contributing · 340 pseudo-samples in pool · 1 sample-level contributors
+*Bootstrap 95% CI: [5.57, 156.93] ppb*
+*Sensitivity: log-normal 12.70 · gamma 9.45 · nonparametric 9.71 ppb · spread 26% (provisional)*
 
 
-*Defensibility.* Pooled P97 from 21 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 10 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+*Defensibility.* The published value matches the lowest applicable regulatory ceiling (eu2023\_cd\_formula\_cow\_powder\_10). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 13.03 ppb sits above the cap, confirming the cap is the protective constraint.
 
 
-*Brand legal read.* The value is pooled P97 from 21 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+*Brand legal read.* This threshold matches the binding government cap (eu2023\_cd\_formula\_cow\_powder\_10). A Daubert challenge on the value reduces to "is eu2023\_cd\_formula\_cow\_powder\_10 a legitimate regulatory anchor?", and the answer is yes, it is published, finalized, and enforced.
 
 
 *Retailer compliance read.* A certified product tests at or below 10 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 21 contributing sources across multiple jurisdictions. Sensitivity band stable.
+*Regulator read.* HMTc threshold = eu2023\_cd\_formula\_cow\_powder\_10 cap. The pooled occurrence distribution from 24 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 
 
@@ -3244,126 +3274,126 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [gardener2019-​pb-​cd-​us-​infant-​formula-​baby-​foods (2019) · US],
+  [Lead and cadmium contamination in a large sample of United S…],
+  [unknown],
+  [564],
+  [uniform\_​max\_​only],
+  [2.9%],
+  [mgbemena2026-​baby-​milk-​infant-​formula-​nigeria-​nutrients-​heavy-​metals (2026) · NG],
+  [Nutrient exploration and heavy metal risk assessment of baby…],
+  [unknown],
+  [8],
+  [uniform\_​range\_​only],
+  [2.4%],
+  [mgbemena2026-​baby-​milk-​infant-​formula-​nigeria-​nutrients-​heavy-​metals (2026) · NG],
+  [Nutrient exploration and heavy metal risk assessment of baby…],
+  [unknown],
+  [12],
+  [uniform\_​range\_​only],
+  [3.5%],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [57],
-  [lognormal\_mean\_median],
-  [20.4%],
-  [kazi2009-toxic-elements-in-infant-formulae (2009) · PK],
+  [lognormal\_​mean\_​median],
+  [16.8%],
+  [kazi2009-​toxic-​elements-​in-​infant-​formulae (2009) · PK],
   [Determination of toxic elements in infant formulae by using …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [13],
-  [lognormal\_mean\_max],
-  [4.6%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [lognormal\_​mean\_​max],
+  [3.8%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [single\_​point],
+  [0.3%],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [0.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [single\_​point],
+  [0.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [3.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [2.9%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [3.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [2.9%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
-  [0.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [single\_​point],
+  [0.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [3.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [2.9%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [3.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [2.9%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
-  [0.4%],
-  [dabeka1987-canada-infant-formula-lead-cadmium (1987) · Canada],
-  [Lead, cadmium, and fluoride levels in market milk and infant…],
-  [as\_sold],
-  [17],
-  [lognormal\_mean\_max],
-  [6.1%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
-  [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
-  [1],
-  [single\_point],
-  [0.4%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
-  [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
-  [1],
-  [single\_point],
-  [0.4%],
+  [single\_​point],
+  [0.3%],
 )
 
 
@@ -3405,23 +3435,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [soares2000-chromium-vi-powdered-milk-formulas (2000) · PT],
+  [soares2000-​chromium-​vi-​powdered-​milk-​formulas (2000) · PT],
   [Selective Determination of Chromium (VI) in Powdered Milk In…],
-  [as\_sold],
+  [as\_​sold],
   [7],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [35.0%],
-  [soares2000-chromium-vi-powdered-milk-formulas (2000) · PT],
+  [soares2000-​chromium-​vi-​powdered-​milk-​formulas (2000) · PT],
   [Selective Determination of Chromium (VI) in Powdered Milk In…],
-  [as\_sold],
+  [as\_​sold],
   [5],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [25.0%],
-  [soares2000-chromium-vi-powdered-milk-formulas (2000) · PT],
+  [soares2000-​chromium-​vi-​powdered-​milk-​formulas (2000) · PT],
   [Selective Determination of Chromium (VI) in Powdered Milk In…],
-  [as\_sold],
+  [as\_​sold],
   [8],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [40.0%],
 )
 
@@ -3464,119 +3494,119 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [57],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [47.5%],
-  [kazi2009-toxic-elements-in-infant-formulae (2009) · PK],
+  [kazi2009-​toxic-​elements-​in-​infant-​formulae (2009) · PK],
   [Determination of toxic elements in infant formulae by using …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [13],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [10.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [almeida2022-brazil-infant-formula-toxic-metals (2022) · BR],
+  [almeida2022-​brazil-​infant-​formula-​toxic-​metals (2022) · BR],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in B…],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [8.3%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [8.3%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [burrell2010-aluminium-in-infant-formulas (2010) · UK],
+  [burrell2010-​aluminium-​in-​infant-​formulas (2010) · UK],
   [There is (still) too much aluminium in infant formulas],
-  [prepared\_for\_feeding],
+  [prepared\_​for\_​feeding],
   [7],
-  [uniform\_max\_only],
+  [uniform\_​max\_​only],
   [5.8%],
-  [chuchu2013-aluminium-in-infant-formulas (2013) · UK],
+  [chuchu2013-​aluminium-​in-​infant-​formulas (2013) · UK],
   [The aluminium content of infant formulas remains too high],
-  [prepared\_for\_feeding],
+  [prepared\_​for\_​feeding],
   [18],
-  [uniform\_max\_only],
+  [uniform\_​max\_​only],
   [8.3%],
 )
 
@@ -3619,53 +3649,53 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [8.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [8.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [8.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [8.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [8.2%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [8.2%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
+  [pandelova2012-​eu-​baby-​food-​formula-​elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [0.8%],
-  [fda2026-infant-formula-toxic-elements-special-survey (2026) · US],
+  [fda2026-​infant-​formula-​toxic-​elements-​special-​survey (2026) · US],
   [Analytical Results for Toxic Elements in Infant Formula, FY2…],
-  [prepared\_for\_feeding],
+  [prepared\_​for\_​feeding],
   [230],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -3712,7 +3742,7 @@ Each anchor is independently citable. The published threshold is the maximum of 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -3731,11 +3761,11 @@ Response: P45 of the dirty subcategory's distribution, applied per-analyte, deli
 
 
 *Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."*
-Response: For Pb, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification, a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
+Response: For Pb, Cd, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification, a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
 
 
 *Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."*
-Response: The sensitivity bands are explicitly reported per analyte. 3 analytes (iAs, Al, tHg) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
+Response: The sensitivity bands are explicitly reported per analyte. 5 analytes (iAs, Ni, Cd, Al, tHg) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
 
 *Attack 6: "Methylmercury, you have no data, but you published a value anyway."*
@@ -3769,40 +3799,46 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`almeida2022-brazil-infant-formula-toxic-metals` (A)],
+  [`almeida2022-​brazil-​infant-​formula-​toxic-​metals` (A)],
   [Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk],
-  [Almeida CC; Baiao DS; Rodrigues PA; Saint-Pierre TD; Hauser-Davis RA; Leandro KC · 2022 · International Journal of Environmental Research and Public Health 19(18):11178 · doi:10.3390/ijerph191811178],
-  [`burrell2010-aluminium-in-infant-formulas` (A)],
+  [Almeida CC; Baiao DS; Rodrigues PA; Saint-​Pierre TD; Hauser-​Davis RA; Leandro KC · 2022 · International Journal of Environmental Research and Public Health 19(18):11178 · doi:10.3390/ijerph191811178],
+  [`burrell2010-​aluminium-​in-​infant-​formulas` (A)],
   [There is (still) too much aluminium in infant formulas],
-  [Shelle-Ann M. Burrell; Christopher Exley · 2010 · BMC Pediatrics · doi:10.1186/1471-2431-10-63],
-  [`carignan2015-arsenic-infancy-well-water-breast-milk` (A)],
+  [Shelle-​Ann M. Burrell; Christopher Exley · 2010 · BMC Pediatrics · doi:10.1186/1471-2431-10-63],
+  [`carignan2015-​arsenic-​infancy-​well-​water-​breast-​milk` (A)],
   [Arsenic Exposure in Infancy: Estimating the Contributions of Well Water and Human Milk],
   [Carignan CC; Cottingham KL; Jackson BP; Farzan SF; Gandolfi AJ; Punshon T; Folt CL; Karagas MR · 2015 · Environmental Health Perspectives 123(12):1281–1287 · doi:10.1289/ehp.1408789],
-  [`chuchu2013-aluminium-in-infant-formulas` (A)],
+  [`chuchu2013-​aluminium-​in-​infant-​formulas` (A)],
   [The aluminium content of infant formulas remains too high],
   [Nancy Chuchu; Bhavini Patel; Blaise Sebastian; Christopher Exley · 2013 · BMC Pediatrics · doi:10.1186/1471-2431-13-162],
-  [`dabeka1987-canada-infant-formula-lead-cadmium` (A)],
+  [`dabeka1987-​canada-​infant-​formula-​lead-​cadmium` (A)],
   [Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada],
   [Dabeka; McKenzie · 1987 · Journal of Association of Official Analytical Chemists 70(4):754-757 · doi:10.1093/jaoac/70.4.754],
-  [`dabeka2011-canada-infant-formula-lead-cadmium-aluminum` (A)],
+  [`dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum` (A)],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions],
   [Robert Dabeka; Andre Fouquet; Stephane Belisle; Stephane Turcotte · 2011 · Food Additives & Contaminants: Part A · doi:10.1080/19393210.2011.571795],
-  [`fda2026-infant-formula-toxic-elements-special-survey` (A)],
-  [Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey],
+  [`fda2026-​infant-​formula-​toxic-​elements-​special-​survey` (A)],
+  [Analytical Results for Toxic Elements in Infant Formula, FY2023-​FY2025 Special Survey],
   [U.S. Food and Drug Administration · 2026 · FDA analytical results table],
-  [`fsa2016-infant-food-formula-metals-survey` (A)],
-  [Survey of metals in commercial infant foods, infant formula and non-infant specific foods],
+  [`fsa2016-​infant-​food-​formula-​metals-​survey` (A)],
+  [Survey of metals in commercial infant foods, infant formula and non-​infant specific foods],
   [Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048],
-  [`kazi2009-toxic-elements-in-infant-formulae` (A)],
+  [`gardener2019-​pb-​cd-​us-​infant-​formula-​baby-​foods` (A)],
+  [Lead and cadmium contamination in a large sample of United States infant formulas and baby foods],
+  [Gardener H; Bowen J; Callan SP · 2019 · Science of the Total Environment · doi:10.1016/j.scitotenv.2018.09.026],
+  [`kazi2009-​toxic-​elements-​in-​infant-​formulae` (A)],
   [Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer],
   [Tasneem G. Kazi; Nusrat Jalbani; Jameel A. Baig; Hassan I. Afridi; Ghulam A. Kandhro; Mohammad B. Arain; Mohammad K. Jamali; Abdul Q. Shah · 2009 · Food and Chemical Toxicology · doi:10.1016/j.fct.2009.03.025],
-  [`pandelova2012-eu-baby-food-formula-elements` (A)],
+  [`mgbemena2026-​baby-​milk-​infant-​formula-​nigeria-​nutrients-​heavy-​metals` (A)],
+  [Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria],
+  [Maryann Nkoli Mgbemena; Innocent Nwazulu Okwunodulu; Felicia Uchechukwu Okwunodulu; Mary Onuchi Mac-​kalunta; Helen Okorie-​Chukwuemeka · 2026 · Scientific Reports 16: 13751 · doi:10.1038/s41598-026-44198-​w],
+  [`pandelova2012-​eu-​baby-​food-​formula-​elements` (A)],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market: Comparison of assessed infant intakes with the present safety limits for minerals and trace elements],
   [Pandelova M; Levy Lopez W; Michalke B; Schramm KW · 2012 · Journal of Food Composition and Analysis · doi:10.1016/j.jfca.2012.04.011],
-  [`shibata2016-arsenic-rice-cereal-risk-assessment-us` (B)],
+  [`shibata2016-​arsenic-​rice-​cereal-​risk-​assessment-​us` (B)],
   [Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.],
   [Shibata T; Meng C; Umoren J; West H · 2016 · International Journal of Environmental Research and Public Health 13(4):361 · doi:10.3390/ijerph13040361],
-  [`soares2000-chromium-vi-powdered-milk-formulas` (A)],
+  [`soares2000-​chromium-​vi-​powdered-​milk-​formulas` (A)],
   [Selective Determination of Chromium (VI) in Powdered Milk Infant Formulas by Electrothermal Atomization Atomic Absorption Spectrometry after Ion Exchange],
   [Maria E Soares; Maria L Bastos; Margarida Ferreira · 2000 · Journal of AOAC International 83(1):220-223 · doi:10.1093/jaoac/83.1.220],
 )
@@ -3849,7 +3885,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=infant-formula-powder-non-soy` to regenerate this document.
 
@@ -3862,15 +3898,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:28.866Z],
+  [2026-05-18T05:18:42.994Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -3903,10 +3939,10 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 
 
 *Product class:* Infant Formula, Powder (Soy-Based)
-*Subcategory role:* dirty subcategory (within-pair)
+*Subcategory role:* higher-contamination-sibling
 *Native basis for published thresholds:* powder\_as\_placed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -3939,7 +3975,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for infant formula powder soy based.
@@ -3951,32 +3987,32 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Ni],
-  [*1000 ppb* [powder]≈ 100 ppb [prepared]],
-  [1267 ppb (capped to 695 by reg cap)],
-  [literature-baseline],
+  [*1300 ppb* [powder]≈ 200 ppb [prepared]],
+  [1267 ppb],
+  [literature-​baseline],
   [2],
   [stable],
   [,],
   [Cd],
-  [*10 ppb* [powder]≈ 2 ppb [prepared]],
-  [1536.566 ppb (capped to 8.3 by reg cap)],
-  [literature-baseline],
+  [_​data gap_​],
+  [1536.566 ppb],
+  [no-​data],
   [8],
-  [stable],
-  [20 ppb (eu2023\_cd\_formula\_soy\_powder\_20)],
+  [needs\_​review],
+  [20 ppb (eu2023\_​cd\_​formula\_​soy\_​powder\_​20)],
   [Al],
-  [*2000 ppb* [powder]≈ 500 ppb [prepared]],
-  [7016.933 ppb (capped to 1934.9 by reg cap)],
-  [literature-baseline],
-  [6],
-  [provisional],
+  [*10000 ppb* [powder]≈ 1000 ppb [prepared]],
+  [5262.172 ppb],
+  [literature-​baseline],
+  [7],
+  [stable],
   [,],
 )
 
@@ -3989,7 +4025,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -4030,13 +4066,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Ni
 
 
-*Published HMTc threshold:* 1000 ppb [powder] · 695 ppb (pre-rounding)
-*Cross-basis: ≈ 100 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* 1300 ppb [powder] · 1267 ppb (pre-rounding)
+*Cross-basis: ≈ 200 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 2 sources contributing · 2 pseudo-samples in pool · 0 sample-level contributors
 *Bootstrap 95% CI: [200, 1300] ppb*
-*Sensitivity: log-normal 695 · gamma 695 · nonparametric 695 ppb · spread 0% (stable)*
+*Sensitivity: log-normal 1267 · gamma 1267 · nonparametric 1267 ppb · spread 0% (stable)*
 
 
 *Defensibility.* Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
@@ -4045,7 +4081,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Brand legal read.* The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 1000 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 1300 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
 *Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -4063,17 +4099,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [50.0%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
+  [pandelova2012-​eu-​baby-​food-​formula-​elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [50.0%],
 )
 
@@ -4083,25 +4119,24 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Cd
 
 
-*Published HMTc threshold:* 10 ppb [powder] · 8.273 ppb (pre-rounding)
-*Cross-basis: ≈ 2 ppb [prepared] (÷7 (1:7 reconstitution))*
-*Rationale tag:* `literature-baseline`
+*Published HMTc threshold:* _data gap_
+*Rationale tag:* `no-data`
 *Regulatory ceiling reference:* 20 ppb (eu2023\_cd\_formula\_soy\_powder\_20)
 *Pool composition:* 8 sources contributing · 92 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [5.67, 288.09] ppb*
-*Sensitivity: log-normal 7.93 · gamma 7.67 · nonparametric 8.07 ppb · spread 5% (stable)*
+*Bootstrap 95% CI: [15.64, 3379.35] ppb*
+*Sensitivity: log-normal 1157.39 · gamma 2347.68 · nonparametric 1094.13 ppb · spread 53% (needs\_review)*
 
 
-*Defensibility.* Pooled P97 from 8 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+*Defensibility.* This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
 
 
 *Brand legal read.* The value is pooled P97 from 8 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 10 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below no published value (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 8 contributing sources across multiple jurisdictions. Sensitivity band stable.
+*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 8 contributing sources across multiple jurisdictions. Sensitivity band needs\_review.
 
 
 
@@ -4116,53 +4151,53 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [kazi2009-toxic-elements-in-infant-formulae (2009) · PK],
+  [kazi2009-​toxic-​elements-​in-​infant-​formulae (2009) · PK],
   [Determination of toxic elements in infant formulae by using …],
   [unknown],
   [17],
-  [lognormal\_mean\_only],
+  [lognormal\_​mean\_​only],
   [18.5%],
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [15],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [16.3%],
-  [kazi2009-toxic-elements-in-infant-formulae (2009) · PK],
+  [kazi2009-​toxic-​elements-​in-​infant-​formulae (2009) · PK],
   [Determination of toxic elements in infant formulae by using …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [4],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [4.3%],
-  [dabeka1987-canada-infant-formula-lead-cadmium (1987) · Canada],
+  [dabeka1987-​canada-​infant-​formula-​lead-​cadmium (1987) · Canada],
   [Lead, cadmium, and fluoride levels in market milk and infant…],
-  [as\_sold],
+  [as\_​sold],
   [15],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [16.3%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.1%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
+  [pandelova2012-​eu-​baby-​food-​formula-​elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.1%],
-  [pandelova2012-eu-baby-food-formula-elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
+  [pandelova2012-​eu-​baby-​food-​formula-​elements (2012) · EU, FR, DE, IT, PT, SE, UK, ES, SK],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.1%],
-  [fda2026-infant-formula-toxic-elements-special-survey (2026) · US],
+  [fda2026-​infant-​formula-​toxic-​elements-​special-​survey (2026) · US],
   [Analytical Results for Toxic Elements in Infant Formula, FY2…],
-  [prepared\_for\_feeding],
+  [prepared\_​for\_​feeding],
   [38],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [41.3%],
 )
 
@@ -4172,25 +4207,25 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Al
 
 
-*Published HMTc threshold:* 2000 ppb [powder] · 1934.909 ppb (pre-rounding)
-*Cross-basis: ≈ 500 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* 10000 ppb [powder] · 5262.172 ppb (pre-rounding)
+*Cross-basis: ≈ 1000 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
-*Pool composition:* 6 sources contributing · 40 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [428.79, 4754.62] ppb*
-*Sensitivity: log-normal 1842.08 · gamma 1314.05 · nonparametric 1389.14 ppb · spread 29% (provisional)*
+*Pool composition:* 7 sources contributing · 48 pseudo-samples in pool · 0 sample-level contributors
+*Bootstrap 95% CI: [2394.39, 8342.64] ppb*
+*Sensitivity: log-normal 6567.64 · gamma 6602.91 · nonparametric 7403.05 ppb · spread 11% (stable)*
 
 
-*Defensibility.* Pooled P97 from 6 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+*Defensibility.* Pooled P97 from 7 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 
-*Brand legal read.* The value is pooled P97 from 6 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+*Brand legal read.* The value is pooled P97 from 7 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 2000 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 10000 ppb (native basis: [powder]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 6 contributing sources across multiple jurisdictions. Sensitivity band provisional.
+*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 7 contributing sources across multiple jurisdictions. Sensitivity band stable.
 
 
 
@@ -4205,42 +4240,48 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [kazi2009-toxic-elements-in-infant-formulae (2009) · PK],
+  [burrell2010-​aluminium-​in-​infant-​formulas (2010) · UK],
+  [There is (still) too much aluminium in infant formulas],
+  [powder\_​as\_​placed],
+  [8],
+  [uniform\_​max\_​only],
+  [16.7%],
+  [kazi2009-​toxic-​elements-​in-​infant-​formulae (2009) · PK],
   [Determination of toxic elements in infant formulae by using …],
   [unknown],
   [17],
-  [lognormal\_mean\_only],
-  [42.5%],
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [lognormal\_​mean\_​only],
+  [35.4%],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [15],
-  [lognormal\_mean\_median],
-  [37.5%],
-  [kazi2009-toxic-elements-in-infant-formulae (2009) · PK],
+  [lognormal\_​mean\_​median],
+  [31.3%],
+  [kazi2009-​toxic-​elements-​in-​infant-​formulae (2009) · PK],
   [Determination of toxic elements in infant formulae by using …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [4],
-  [lognormal\_mean\_max],
-  [10.0%],
-  [burrell2010-aluminium-in-infant-formulas (2010) · UK],
+  [lognormal\_​mean\_​max],
+  [8.3%],
+  [burrell2010-​aluminium-​in-​infant-​formulas (2010) · UK],
   [There is (still) too much aluminium in infant formulas],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [uniform\_max\_only],
-  [2.5%],
-  [chuchu2013-aluminium-in-infant-formulas (2013) · UK],
+  [uniform\_​max\_​only],
+  [2.1%],
+  [chuchu2013-​aluminium-​in-​infant-​formulas (2013) · UK],
   [The aluminium content of infant formulas remains too high],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [2],
-  [uniform\_max\_only],
-  [5.0%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [uniform\_​max\_​only],
+  [4.2%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold],
+  [as\_​sold],
   [1],
-  [single\_point],
-  [2.5%],
+  [single\_​point],
+  [2.1%],
 )
 
 
@@ -4250,7 +4291,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -4266,10 +4307,6 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 
 *Attack 3: "Why is your dirty subcategory P45 instead of P10?"*
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver \<1% joint row-pass and the program would have no commercial uptake on the dirty side.
-
-
-*Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."*
-Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Al) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
 
 *Attack 7: "Where does basis conversion happen and what authority do you cite?"*
@@ -4299,28 +4336,28 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`burrell2010-aluminium-in-infant-formulas` (A)],
+  [`burrell2010-​aluminium-​in-​infant-​formulas` (A)],
   [There is (still) too much aluminium in infant formulas],
-  [Shelle-Ann M. Burrell; Christopher Exley · 2010 · BMC Pediatrics · doi:10.1186/1471-2431-10-63],
-  [`chuchu2013-aluminium-in-infant-formulas` (A)],
+  [Shelle-​Ann M. Burrell; Christopher Exley · 2010 · BMC Pediatrics · doi:10.1186/1471-2431-10-63],
+  [`chuchu2013-​aluminium-​in-​infant-​formulas` (A)],
   [The aluminium content of infant formulas remains too high],
   [Nancy Chuchu; Bhavini Patel; Blaise Sebastian; Christopher Exley · 2013 · BMC Pediatrics · doi:10.1186/1471-2431-13-162],
-  [`dabeka1987-canada-infant-formula-lead-cadmium` (A)],
+  [`dabeka1987-​canada-​infant-​formula-​lead-​cadmium` (A)],
   [Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada],
   [Dabeka; McKenzie · 1987 · Journal of Association of Official Analytical Chemists 70(4):754-757 · doi:10.1093/jaoac/70.4.754],
-  [`dabeka2011-canada-infant-formula-lead-cadmium-aluminum` (A)],
+  [`dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum` (A)],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions],
   [Robert Dabeka; Andre Fouquet; Stephane Belisle; Stephane Turcotte · 2011 · Food Additives & Contaminants: Part A · doi:10.1080/19393210.2011.571795],
-  [`fda2026-infant-formula-toxic-elements-special-survey` (A)],
-  [Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey],
+  [`fda2026-​infant-​formula-​toxic-​elements-​special-​survey` (A)],
+  [Analytical Results for Toxic Elements in Infant Formula, FY2023-​FY2025 Special Survey],
   [U.S. Food and Drug Administration · 2026 · FDA analytical results table],
-  [`fsa2016-infant-food-formula-metals-survey` (A)],
-  [Survey of metals in commercial infant foods, infant formula and non-infant specific foods],
+  [`fsa2016-​infant-​food-​formula-​metals-​survey` (A)],
+  [Survey of metals in commercial infant foods, infant formula and non-​infant specific foods],
   [Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048],
-  [`kazi2009-toxic-elements-in-infant-formulae` (A)],
+  [`kazi2009-​toxic-​elements-​in-​infant-​formulae` (A)],
   [Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer],
   [Tasneem G. Kazi; Nusrat Jalbani; Jameel A. Baig; Hassan I. Afridi; Ghulam A. Kandhro; Mohammad B. Arain; Mohammad K. Jamali; Abdul Q. Shah · 2009 · Food and Chemical Toxicology · doi:10.1016/j.fct.2009.03.025],
-  [`pandelova2012-eu-baby-food-formula-elements` (A)],
+  [`pandelova2012-​eu-​baby-​food-​formula-​elements` (A)],
   [Ca, Cd, Cu, Fe, Hg, Mn, Ni, Pb, Se, and Zn contents in baby foods from the EU market: Comparison of assessed infant intakes with the present safety limits for minerals and trace elements],
   [Pandelova M; Levy Lopez W; Michalke B; Schramm KW · 2012 · Journal of Food Composition and Analysis · doi:10.1016/j.jfca.2012.04.011],
 )
@@ -4367,7 +4404,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=infant-formula-powder-soy-based` to regenerate this document.
 
@@ -4380,15 +4417,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:29.035Z],
+  [2026-05-18T05:18:43.171Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -4424,7 +4461,7 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 *Subcategory role:* clean subcategory (within-pair)
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -4457,7 +4494,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for infant formula rtf liquid non soy.
@@ -4469,30 +4506,30 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Ni],
-  [*20 ppb* [as-consumed]≈ 200 ppb [powder]],
+  [*20 ppb* [as-​consumed]≈ 200 ppb [powder]],
   [19.408 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [3],
   [stable],
   [,],
   [Cd],
-  [*1 ppb* [as-consumed]≈ 10 ppb [powder]],
+  [*1 ppb* [as-​consumed]≈ 10 ppb [powder]],
   [0.761 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [6],
   [stable],
-  [5 ppb (eu2023\_cd\_formula\_cow\_liquid\_5)],
+  [5 ppb (eu2023\_​cd\_​formula\_​cow\_​liquid\_​5)],
   [Al],
-  [*1000 ppb* [as-consumed]≈ 10000 ppb [powder]],
+  [*1000 ppb* [as-​consumed]≈ 10000 ppb [powder]],
   [714.478 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [6],
   [stable],
   [,],
@@ -4507,7 +4544,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -4581,23 +4618,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [33.3%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [33.3%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [33.3%],
 )
 
@@ -4640,41 +4677,41 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [67],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [50.0%],
-  [dabeka1987-canada-infant-formula-lead-cadmium (1987) · Canada],
+  [dabeka1987-​canada-​infant-​formula-​lead-​cadmium (1987) · Canada],
   [Lead, cadmium, and fluoride levels in market milk and infant…],
-  [as\_consumed],
+  [as\_​consumed],
   [13],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [10.3%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [7.9%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [7.9%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [7.9%],
-  [fda2026-infant-formula-toxic-elements-special-survey (2026) · US],
+  [fda2026-​infant-​formula-​toxic-​elements-​special-​survey (2026) · US],
   [Analytical Results for Toxic Elements in Infant Formula, FY2…],
-  [prepared\_for\_feeding],
+  [prepared\_​for\_​feeding],
   [20],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [15.9%],
 )
 
@@ -4717,41 +4754,41 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [67],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [50.0%],
-  [burrell2010-aluminium-in-infant-formulas (2010) · UK],
+  [burrell2010-​aluminium-​in-​infant-​formulas (2010) · UK],
   [There is (still) too much aluminium in infant formulas],
-  [as\_consumed],
+  [as\_​consumed],
   [8],
-  [uniform\_max\_only],
+  [uniform\_​max\_​only],
   [8.3%],
-  [chuchu2013-aluminium-in-infant-formulas (2013) · UK],
+  [chuchu2013-​aluminium-​in-​infant-​formulas (2013) · UK],
   [The aluminium content of infant formulas remains too high],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [uniform\_max\_only],
+  [uniform\_​max\_​only],
   [10.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [10.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [10.4%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [10.4%],
 )
 
@@ -4762,7 +4799,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -4807,23 +4844,23 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`burrell2010-aluminium-in-infant-formulas` (A)],
+  [`burrell2010-​aluminium-​in-​infant-​formulas` (A)],
   [There is (still) too much aluminium in infant formulas],
-  [Shelle-Ann M. Burrell; Christopher Exley · 2010 · BMC Pediatrics · doi:10.1186/1471-2431-10-63],
-  [`chuchu2013-aluminium-in-infant-formulas` (A)],
+  [Shelle-​Ann M. Burrell; Christopher Exley · 2010 · BMC Pediatrics · doi:10.1186/1471-2431-10-63],
+  [`chuchu2013-​aluminium-​in-​infant-​formulas` (A)],
   [The aluminium content of infant formulas remains too high],
   [Nancy Chuchu; Bhavini Patel; Blaise Sebastian; Christopher Exley · 2013 · BMC Pediatrics · doi:10.1186/1471-2431-13-162],
-  [`dabeka1987-canada-infant-formula-lead-cadmium` (A)],
+  [`dabeka1987-​canada-​infant-​formula-​lead-​cadmium` (A)],
   [Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada],
   [Dabeka; McKenzie · 1987 · Journal of Association of Official Analytical Chemists 70(4):754-757 · doi:10.1093/jaoac/70.4.754],
-  [`dabeka2011-canada-infant-formula-lead-cadmium-aluminum` (A)],
+  [`dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum` (A)],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions],
   [Robert Dabeka; Andre Fouquet; Stephane Belisle; Stephane Turcotte · 2011 · Food Additives & Contaminants: Part A · doi:10.1080/19393210.2011.571795],
-  [`fda2026-infant-formula-toxic-elements-special-survey` (A)],
-  [Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey],
+  [`fda2026-​infant-​formula-​toxic-​elements-​special-​survey` (A)],
+  [Analytical Results for Toxic Elements in Infant Formula, FY2023-​FY2025 Special Survey],
   [U.S. Food and Drug Administration · 2026 · FDA analytical results table],
-  [`fsa2016-infant-food-formula-metals-survey` (A)],
-  [Survey of metals in commercial infant foods, infant formula and non-infant specific foods],
+  [`fsa2016-​infant-​food-​formula-​metals-​survey` (A)],
+  [Survey of metals in commercial infant foods, infant formula and non-​infant specific foods],
   [Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048],
 )
 
@@ -4869,7 +4906,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=infant-formula-rtf-liquid-non-soy` to regenerate this document.
 
@@ -4882,15 +4919,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:29.198Z],
+  [2026-05-18T05:18:43.356Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -4923,10 +4960,10 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 
 
 *Product class:* Infant Formula, RTF Liquid (Soy-Based)
-*Subcategory role:* dirty subcategory (within-pair)
+*Subcategory role:* higher-contamination-sibling
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -4959,7 +4996,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for infant formula rtf liquid soy based.
@@ -4971,30 +5008,30 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Ni],
-  [_data gap_],
+  [_​data gap_​],
   [,],
-  [no-data],
+  [no-​data],
   [0],
-  [no\_data],
+  [no\_​data],
   [,],
   [Cd],
-  [*2 ppb* [as-consumed]≈ 10 ppb [powder]],
-  [3.616 ppb (capped to 1.1 by reg cap)],
-  [literature-baseline],
+  [*5 ppb* [as-​consumed]≈ 50 ppb [powder]],
+  [3.616 ppb],
+  [literature-​baseline],
   [3],
   [stable],
-  [10 ppb (eu2023\_cd\_formula\_soy\_liquid\_10)],
+  [10 ppb (eu2023\_​cd\_​formula\_​soy\_​liquid\_​10)],
   [Al],
-  [_data gap_],
+  [_​data gap_​],
   [768.747 ppb],
-  [no-data],
+  [no-​data],
   [1],
   [stable],
   [,],
@@ -5009,7 +5046,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -5073,13 +5110,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Cd
 
 
-*Published HMTc threshold:* 2 ppb [as-consumed] · 1.079 ppb (pre-rounding)
-*Cross-basis: ≈ 10 ppb [powder] (×7 (1:7 reconstitution))*
+*Published HMTc threshold:* 5 ppb [as-consumed] · 3.616 ppb (pre-rounding)
+*Cross-basis: ≈ 50 ppb [powder] (×7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* 10 ppb (eu2023\_cd\_formula\_soy\_liquid\_10)
 *Pool composition:* 3 sources contributing · 33 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [0.87, 1.97] ppb*
-*Sensitivity: log-normal 1.15 · gamma 1.16 · nonparametric 1.19 ppb · spread 4% (stable)*
+*Bootstrap 95% CI: [1.36, 8.17] ppb*
+*Sensitivity: log-normal 5.18 · gamma 4.68 · nonparametric 5.48 ppb · spread 14% (stable)*
 
 
 *Defensibility.* Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 10 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
@@ -5088,7 +5125,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Brand legal read.* The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 2 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 5 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
 *Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -5106,23 +5143,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [14],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [42.4%],
-  [dabeka1987-canada-infant-formula-lead-cadmium (1987) · Canada],
+  [dabeka1987-​canada-​infant-​formula-​lead-​cadmium (1987) · Canada],
   [Lead, cadmium, and fluoride levels in market milk and infant…],
-  [as\_consumed],
+  [as\_​consumed],
   [16],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [48.5%],
-  [fda2026-infant-formula-toxic-elements-special-survey (2026) · US],
+  [fda2026-​infant-​formula-​toxic-​elements-​special-​survey (2026) · US],
   [Analytical Results for Toxic Elements in Infant Formula, FY2…],
-  [prepared\_for\_feeding],
+  [prepared\_​for\_​feeding],
   [3],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [9.1%],
 )
 
@@ -5136,7 +5173,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Rationale tag:* `no-data`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [767.51, 770.35] ppb*
+*Bootstrap 95% CI: [767.51, 770.69] ppb*
 *Sensitivity: log-normal 768.89 · gamma 769.16 · nonparametric 768.94 ppb · spread 0% (stable)*
 
 
@@ -5164,11 +5201,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [dabeka2011-canada-infant-formula-lead-cadmium-aluminum (2011) · CA],
+  [dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum (2011) · CA],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral…],
-  [as\_consumed],
+  [as\_​consumed],
   [14],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [100.0%],
 )
 
@@ -5179,7 +5216,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -5224,14 +5261,14 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`dabeka1987-canada-infant-formula-lead-cadmium` (A)],
+  [`dabeka1987-​canada-​infant-​formula-​lead-​cadmium` (A)],
   [Lead, cadmium, and fluoride levels in market milk and infant formulas in Canada],
   [Dabeka; McKenzie · 1987 · Journal of Association of Official Analytical Chemists 70(4):754-757 · doi:10.1093/jaoac/70.4.754],
-  [`dabeka2011-canada-infant-formula-lead-cadmium-aluminum` (A)],
+  [`dabeka2011-​canada-​infant-​formula-​lead-​cadmium-​aluminum` (A)],
   [Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions],
   [Robert Dabeka; Andre Fouquet; Stephane Belisle; Stephane Turcotte · 2011 · Food Additives & Contaminants: Part A · doi:10.1080/19393210.2011.571795],
-  [`fda2026-infant-formula-toxic-elements-special-survey` (A)],
-  [Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey],
+  [`fda2026-​infant-​formula-​toxic-​elements-​special-​survey` (A)],
+  [Analytical Results for Toxic Elements in Infant Formula, FY2023-​FY2025 Special Survey],
   [U.S. Food and Drug Administration · 2026 · FDA analytical results table],
 )
 
@@ -5277,7 +5314,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=infant-formula-rtf-liquid-soy-based` to regenerate this document.
 
@@ -5290,15 +5327,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:29.362Z],
+  [2026-05-18T05:18:43.546Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -5331,10 +5368,10 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 
 
 *Product class:* Baby Cereals / Grain Products, Dry (Rice-Based)
-*Subcategory role:* dirty subcategory (within-pair)
+*Subcategory role:* higher-contamination-sibling
 *Native basis for published thresholds:* dry\_as\_sold
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -5367,7 +5404,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for baby cereals dry rice based.
@@ -5379,33 +5416,33 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [*5 ppb* [dry]≈ 1 ppb [prepared]],
-  [295.627 ppb (capped to 4.8 by reg cap)],
-  [literature-baseline],
-  [4],
+  [*20 ppb* [dry]≈ 3 ppb [prepared]],
+  [285.311 ppb (capped to 20 by reg cap)],
+  [regulatory-​alignment],
+  [5],
   [stable],
-  [20 ppb (fda2025\_pb\_dry\_infant\_cereal\_20)],
+  [20 ppb (fda2025\_​pb\_​dry\_​infant\_​cereal\_​20)],
   [iAs],
   [*100 ppb* [dry]≈ 15 ppb [prepared]],
-  [261.782 ppb (capped to 90.0 by reg cap)],
-  [literature-baseline],
-  [8],
+  [299.027 ppb (capped to 100 by reg cap)],
+  [regulatory-​alignment],
+  [10],
   [stable],
-  [100 ppb (fda2020\_ias\_infant\_rice\_cereal\_100)],
+  [100 ppb (fda2020\_​ias\_​infant\_​rice\_​cereal\_​100)],
   [Cd],
-  [*20 ppb* [dry]≈ 3 ppb [prepared]],
-  [137.662 ppb (capped to 17.5 by reg cap)],
-  [literature-baseline],
-  [4],
+  [*50 ppb* [dry]≈ 10 ppb [prepared]],
+  [129.075 ppb (capped to 40 by reg cap)],
+  [regulatory-​alignment],
+  [5],
   [stable],
-  [40 ppb (eu2023\_cd\_babyfood\_cereal\_40)],
+  [40 ppb (eu2023\_​cd\_​babyfood\_​cereal\_​40)],
 )
 
 
@@ -5417,7 +5454,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -5458,25 +5495,25 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Pb
 
 
-*Published HMTc threshold:* 5 ppb [dry] · 4.780 ppb (pre-rounding)
-*Cross-basis: ≈ 1 ppb [prepared] (÷7 (1:7 reconstitution))*
-*Rationale tag:* `literature-baseline`
+*Published HMTc threshold:* 20 ppb [dry] · 20 ppb (pre-rounding)
+*Cross-basis: ≈ 3 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Rationale tag:* `regulatory-alignment`
 *Regulatory ceiling reference:* 20 ppb (fda2025\_pb\_dry\_infant\_cereal\_20)
-*Pool composition:* 4 sources contributing · 50 pseudo-samples in pool · 2 sample-level contributors
-*Bootstrap 95% CI: [0.28, 159.64] ppb*
-*Sensitivity: log-normal 4.77 · gamma 4.78 · nonparametric 4.78 ppb · spread 0% (stable)*
+*Pool composition:* 5 sources contributing · 70 pseudo-samples in pool · 2 sample-level contributors
+*Bootstrap 95% CI: [7.99, 392.56] ppb*
+*Sensitivity: log-normal 274.75 · gamma 292.71 · nonparametric 291.20 ppb · spread 6% (stable)*
 
 
-*Defensibility.* Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+*Defensibility.* The published value matches the lowest applicable regulatory ceiling (fda2025\_pb\_dry\_infant\_cereal\_20). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 285.31 ppb sits above the cap, confirming the cap is the protective constraint.
 
 
-*Brand legal read.* The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+*Brand legal read.* This threshold matches the binding government cap (fda2025\_pb\_dry\_infant\_cereal\_20). A Daubert challenge on the value reduces to "is fda2025\_pb\_dry\_infant\_cereal\_20 a legitimate regulatory anchor?", and the answer is yes, it is published, finalized, and enforced.
 
 
-*Retailer compliance read.* A certified product tests at or below 5 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 20 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band stable.
+*Regulator read.* HMTc threshold = fda2025\_pb\_dry\_infant\_cereal\_20 cap. The pooled occurrence distribution from 5 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 
 
@@ -5491,30 +5528,36 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [gardener2019-​pb-​cd-​us-​infant-​formula-​baby-​foods (2019) · US],
+  [Lead and cadmium contamination in a large sample of United S…],
+  [unknown],
+  [471],
+  [uniform\_​max\_​only],
+  [14.3%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [20.0%],
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [14.3%],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [2.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [single\_​point],
+  [1.4%],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [256],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
-  [toledo2024-essential-toxic-elements-infant-cereal-brazil (2024) · BR],
+  [toledo2024-​essential-​toxic-​elements-​infant-​cereal-​brazil (2024) · BR],
   [Essential and Toxic Elements in Infant Cereal in Brazil: Exp…],
-  [as\_consumed],
+  [as\_​consumed],
   [14],
-  [percentile\_interpolation],
-  [28.0%],
+  [percentile\_​interpolation],
+  [20.0%],
 )
 
 
@@ -5523,25 +5566,25 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === iAs
 
 
-*Published HMTc threshold:* 100 ppb [dry] · 90.031 ppb (pre-rounding)
+*Published HMTc threshold:* 100 ppb [dry] · 100 ppb (pre-rounding)
 *Cross-basis: ≈ 15 ppb [prepared] (÷7 (1:7 reconstitution))*
-*Rationale tag:* `literature-baseline`
+*Rationale tag:* `regulatory-alignment`
 *Regulatory ceiling reference:* 100 ppb (fda2020\_ias\_infant\_rice\_cereal\_100)
-*Pool composition:* 8 sources contributing · 132 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [1.64, 122.60] ppb*
-*Sensitivity: log-normal 89.11 · gamma 86.08 · nonparametric 94.02 ppb · spread 8% (stable)*
+*Pool composition:* 10 sources contributing · 326 pseudo-samples in pool · 1 sample-level contributors
+*Bootstrap 95% CI: [174.67, 405.10] ppb*
+*Sensitivity: log-normal 361.58 · gamma 312.05 · nonparametric 322.26 ppb · spread 14% (stable)*
 
 
-*Defensibility.* Pooled P97 from 8 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 100 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+*Defensibility.* The published value matches the lowest applicable regulatory ceiling (fda2020\_ias\_infant\_rice\_cereal\_100). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 299.03 ppb sits above the cap, confirming the cap is the protective constraint.
 
 
-*Brand legal read.* The value is pooled P97 from 8 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+*Brand legal read.* This threshold matches the binding government cap (fda2020\_ias\_infant\_rice\_cereal\_100). A Daubert challenge on the value reduces to "is fda2020\_ias\_infant\_rice\_cereal\_100 a legitimate regulatory anchor?", and the answer is yes, it is published, finalized, and enforced.
 
 
 *Retailer compliance read.* A certified product tests at or below 100 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 8 contributing sources across multiple jurisdictions. Sensitivity band stable.
+*Regulator read.* HMTc threshold = fda2020\_ias\_infant\_rice\_cereal\_100 cap. The pooled occurrence distribution from 10 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 
 
@@ -5556,54 +5599,66 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [carey2018-rice-dilution-infant-food-eu-arsenic (2018) · GB, EU],
+  [arsenic2025-​unknown (2025) · MY, EU],
+  [Arsenic speciation using HPLC-​ICP-​MS in white and brown rice…],
+  [unknown],
+  [15],
+  [lognormal\_​mean\_​only],
+  [4.6%],
+  [carey2018-​rice-​dilution-​infant-​food-​eu-​arsenic (2018) · GB, EU],
   [Dilution of rice with other gluten free grains to lower inor…],
   [unknown],
   [6],
-  [single\_point],
-  [0.8%],
-  [efsa2021-chronic-exposure-iAs (2021) · EU],
+  [single\_​point],
+  [0.3%],
+  [efsa2021-​chronic-​exposure-​iAs (2021) · EU],
   [Chronic dietary exposure to inorganic arsenic],
   [unknown],
   [15],
-  [lognormal\_mean\_max],
-  [11.4%],
-  [signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US],
-  [Inorganic arsenic in rice-based products for infants and you…],
-  [dry\_weight],
-  [85],
-  [uniform\_max\_only],
-  [7.6%],
-  [signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US],
-  [Inorganic arsenic in rice-based products for infants and you…],
-  [dry\_weight],
-  [29],
-  [uniform\_max\_only],
-  [7.6%],
-  [signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US],
-  [Inorganic arsenic in rice-based products for infants and you…],
-  [dry\_weight],
-  [105],
-  [uniform\_max\_only],
-  [7.6%],
-  [signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US],
-  [Inorganic arsenic in rice-based products for infants and you…],
-  [dry\_weight],
-  [53],
-  [uniform\_max\_only],
-  [7.6%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
-  [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold\_or\_source\_reported],
-  [10],
-  [lognormal\_lod\_censored\_midpoint],
-  [7.6%],
-  [fda2016-infant-toddler-foods-inorganic-arsenic (2016) · US-FDA],
-  [Analytical Results from Inorganic Arsenic in Rice Cereals fo…],
-  [as\_sold\_dry\_cereal],
-  [82],
-  [percentile\_interpolation],
+  [lognormal\_​mean\_​max],
+  [4.6%],
+  [fda2020-​iAs-​rice-​cereal-​supporting-​doc (2020) · US],
+  [Supporting Document for Action Level for Inorganic Arsenic i…],
+  [unknown],
+  [306],
+  [lognormal\_​mean\_​only],
   [50.0%],
+  [signes-​pastor2016-​inorganic-​arsenic-​rice-​products-​infants (2016) · GB, EU],
+  [Inorganic arsenic in rice-​based products for infants and you…],
+  [dry\_​weight],
+  [85],
+  [uniform\_​max\_​only],
+  [3.1%],
+  [signes-​pastor2016-​inorganic-​arsenic-​rice-​products-​infants (2016) · GB, EU],
+  [Inorganic arsenic in rice-​based products for infants and you…],
+  [dry\_​weight],
+  [29],
+  [uniform\_​max\_​only],
+  [3.1%],
+  [signes-​pastor2016-​inorganic-​arsenic-​rice-​products-​infants (2016) · GB, EU],
+  [Inorganic arsenic in rice-​based products for infants and you…],
+  [dry\_​weight],
+  [105],
+  [uniform\_​max\_​only],
+  [3.1%],
+  [signes-​pastor2016-​inorganic-​arsenic-​rice-​products-​infants (2016) · GB, EU],
+  [Inorganic arsenic in rice-​based products for infants and you…],
+  [dry\_​weight],
+  [53],
+  [uniform\_​max\_​only],
+  [3.1%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
+  [Survey of metals in commercial infant foods, infant formula …],
+  [as\_​sold\_​or\_​source\_​reported],
+  [10],
+  [lognormal\_​lod\_​censored\_​midpoint],
+  [3.1%],
+  [fda2016-​infant-​toddler-​foods-​inorganic-​arsenic (2016) · US-​FDA],
+  [Analytical Results from Inorganic Arsenic in Rice Cereals fo…],
+  [as\_​sold\_​dry\_​cereal],
+  [82],
+  [percentile\_​interpolation],
+  [25.1%],
 )
 
 
@@ -5612,25 +5667,25 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Cd
 
 
-*Published HMTc threshold:* 20 ppb [dry] · 17.541 ppb (pre-rounding)
-*Cross-basis: ≈ 3 ppb [prepared] (÷7 (1:7 reconstitution))*
-*Rationale tag:* `literature-baseline`
+*Published HMTc threshold:* 50 ppb [dry] · 40 ppb (pre-rounding)
+*Cross-basis: ≈ 10 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Rationale tag:* `regulatory-alignment`
 *Regulatory ceiling reference:* 40 ppb (eu2023\_cd\_babyfood\_cereal\_40)
-*Pool composition:* 4 sources contributing · 32 pseudo-samples in pool · 2 sample-level contributors
-*Bootstrap 95% CI: [2.92, 77.53] ppb*
-*Sensitivity: log-normal 17.53 · gamma 17.53 · nonparametric 17.51 ppb · spread 0% (stable)*
+*Pool composition:* 5 sources contributing · 52 pseudo-samples in pool · 2 sample-level contributors
+*Bootstrap 95% CI: [3, 144.41] ppb*
+*Sensitivity: log-normal 131.25 · gamma 127.58 · nonparametric 129.15 ppb · spread 3% (stable)*
 
 
-*Defensibility.* Pooled P97 from 4 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 40 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+*Defensibility.* The published value matches the lowest applicable regulatory ceiling (eu2023\_cd\_babyfood\_cereal\_40). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot, the cap binds. The pooled P97 of 129.08 ppb sits above the cap, confirming the cap is the protective constraint.
 
 
-*Brand legal read.* The value is pooled P97 from 4 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+*Brand legal read.* This threshold matches the binding government cap (eu2023\_cd\_babyfood\_cereal\_40). A Daubert challenge on the value reduces to "is eu2023\_cd\_babyfood\_cereal\_40 a legitimate regulatory anchor?", and the answer is yes, it is published, finalized, and enforced.
 
 
-*Retailer compliance read.* A certified product tests at or below 20 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 50 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 4 contributing sources across multiple jurisdictions. Sensitivity band stable.
+*Regulator read.* HMTc threshold = eu2023\_cd\_babyfood\_cereal\_40 cap. The pooled occurrence distribution from 5 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 
 
@@ -5645,30 +5700,36 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [gardener2019-​pb-​cd-​us-​infant-​formula-​baby-​foods (2019) · US],
+  [Lead and cadmium contamination in a large sample of United S…],
+  [unknown],
+  [471],
+  [uniform\_​max\_​only],
+  [19.2%],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [3.1%],
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [single\_​point],
+  [1.9%],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
-  [3.1%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [single\_​point],
+  [1.9%],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [252],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
-  [toledo2024-essential-toxic-elements-infant-cereal-brazil (2024) · BR],
+  [toledo2024-​essential-​toxic-​elements-​infant-​cereal-​brazil (2024) · BR],
   [Essential and Toxic Elements in Infant Cereal in Brazil: Exp…],
-  [as\_consumed],
+  [as\_​consumed],
   [14],
-  [percentile\_interpolation],
-  [43.8%],
+  [percentile\_​interpolation],
+  [26.9%],
 )
 
 
@@ -5678,7 +5739,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -5694,6 +5755,10 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 
 *Attack 3: "Why is your dirty subcategory P45 instead of P10?"*
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver \<1% joint row-pass and the program would have no commercial uptake on the dirty side.
+
+
+*Attack 4: "Your threshold matches the EU/FDA cap; HMTc adds no value over the regulator."*
+Response: For Pb, iAs, Cd, the published threshold matches the binding regulatory cap because the pooled P97 sits above the cap. HMTc cannot defensibly publish a tighter standard than the literature supports under its row-pass calibration. The value HMTc adds is row-level certification, a brand must meet every value in the Master Limit Table simultaneously on a like-for-like basis, with documented contribution logs and sensitivity analyses. Single-analyte regulatory caps do not deliver row-level certification.
 
 
 *Attack 7: "Where does basis conversion happen and what authority do you cite?"*
@@ -5723,28 +5788,37 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`carey2018-rice-dilution-infant-food-eu-arsenic` (A)],
+  [`arsenic2025-​unknown` (A)],
+  [Arsenic speciation using HPLC-​ICP-​MS in white and brown rice and health risk assessment],
+  [Navaretnam R; Aris AZ; Shukor MFA; Norrrahim MNF; Knight VF; Chin TT; Isa NM; Looi LJ · 2025 · Environmental Geochemistry and Health · doi:10.1007/s10653-025-02723-2],
+  [`carey2018-​rice-​dilution-​infant-​food-​eu-​arsenic` (A)],
   [Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards],
-  [Carey M; Donaldson E; Signes-Pastor AJ; Meharg AA · 2018 · PLoS ONE · doi:10.1371/journal.pone.0194700],
-  [`collado-lopez2025-heavy-metals-baby-food-formula` (A)],
+  [Carey M; Donaldson E; Signes-​Pastor AJ; Meharg AA · 2018 · PLoS ONE · doi:10.1371/journal.pone.0194700],
+  [`collado-​lopez2025-​heavy-​metals-​baby-​food-​formula` (A)],
   [Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review],
-  [Sonia Collado-Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-Moreno; Martha Maria Tellez-Rojo; Larissa Betanzos-Robledo; Moises Reyes Luna; Alejandra Cantoral-Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
-  [`efsa2021-chronic-exposure-iAs` (A)],
+  [Sonia Collado-​Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-​Moreno; Martha Maria Tellez-​Rojo; Larissa Betanzos-​Robledo; Moises Reyes Luna; Alejandra Cantoral-​Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
+  [`efsa2021-​chronic-​exposure-​iAs` (A)],
   [Chronic dietary exposure to inorganic arsenic],
   [EFSA; Arcella D; Cascio C; Gómez Ruiz JA · 2021 · EFSA Journal · doi:10.2903/j.efsa.2021.6380],
-  [`fda2016-infant-toddler-foods-inorganic-arsenic` (A)],
-  [Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers],
-  [U.S. Food and Drug Administration · 2016 · U.S. Food and Drug Administration],
-  [`fda2024-toxic-elements-baby-food-compliance-2009-2024` (A)],
-  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)],
-  [U.S. Food and Drug Administration · 2024 · FDA analytical results table],
-  [`fsa2016-infant-food-formula-metals-survey` (A)],
-  [Survey of metals in commercial infant foods, infant formula and non-infant specific foods],
+  [`fda2016-​infant-​toddler-​foods-​inorganic-​arsenic` (A)],
+  [Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-​Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers],
+  [U.S. Food and Drug Administration · 2016 · U.S. Food and Drug Administration · doi:null],
+  [`fda2020-​iAs-​rice-​cereal-​supporting-​doc` (A)],
+  [Supporting Document for Action Level for Inorganic Arsenic in Rice Cereals for Infants],
+  [U.S. Food and Drug Administration · 2020 · U.S. Food and Drug Administration · doi:null],
+  [`fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024` (A)],
+  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-​FY2024)],
+  [U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null],
+  [`fsa2016-​infant-​food-​formula-​metals-​survey` (A)],
+  [Survey of metals in commercial infant foods, infant formula and non-​infant specific foods],
   [Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048],
-  [`signes-pastor2016-inorganic-arsenic-rice-products-infants` (A)],
-  [Inorganic arsenic in rice-based products for infants and young children],
-  [2016 · Food Chemistry · doi:10.1016/j.foodchem.2014.11.078],
-  [`toledo2024-essential-toxic-elements-infant-cereal-brazil` (A)],
+  [`gardener2019-​pb-​cd-​us-​infant-​formula-​baby-​foods` (A)],
+  [Lead and cadmium contamination in a large sample of United States infant formulas and baby foods],
+  [Gardener H; Bowen J; Callan SP · 2019 · Science of the Total Environment · doi:10.1016/j.scitotenv.2018.09.026],
+  [`signes-​pastor2016-​inorganic-​arsenic-​rice-​products-​infants` (A)],
+  [Inorganic arsenic in rice-​based products for infants and young children],
+  [2016 · Food Chemistry 191:128-134 · doi:10.1016/j.foodchem.2014.11.078],
+  [`toledo2024-​essential-​toxic-​elements-​infant-​cereal-​brazil` (A)],
   [Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment],
   [Toledo MC; Lee JS; Batista BL; Olympio KPK; Nardocci AC · 2024 · International Journal of Environmental Research and Public Health 21(4):381 · doi:10.3390/ijerph21040381],
 )
@@ -5791,7 +5865,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=baby-cereals-dry-rice-based` to regenerate this document.
 
@@ -5804,15 +5878,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:29.527Z],
+  [2026-05-18T05:18:43.736Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -5848,7 +5922,7 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 *Subcategory role:* clean subcategory (within-pair)
 *Native basis for published thresholds:* dry\_as\_sold
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -5881,7 +5955,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for baby cereals dry non rice.
@@ -5893,7 +5967,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
@@ -5902,24 +5976,24 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   [Pb],
   [*20 ppb* [dry]≈ 3 ppb [prepared]],
   [172.239 ppb (capped to 20 by reg cap)],
-  [regulatory-alignment],
+  [regulatory-​alignment],
   [4],
   [stable],
-  [20 ppb (fda2025\_pb\_dry\_infant\_cereal\_20)],
+  [20 ppb (fda2025\_​pb\_​dry\_​infant\_​cereal\_​20)],
   [iAs],
   [*25 ppb* [dry]≈ 5 ppb [prepared]],
   [24.439 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [2],
   [stable],
   [,],
   [Cd],
   [*50 ppb* [dry]≈ 10 ppb [prepared]],
   [43.065 ppb (capped to 40 by reg cap)],
-  [regulatory-alignment],
+  [regulatory-​alignment],
   [4],
   [stable],
-  [40 ppb (eu2023\_cd\_babyfood\_cereal\_40)],
+  [40 ppb (eu2023\_​cd\_​babyfood\_​cereal\_​40)],
 )
 
 
@@ -5931,7 +6005,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -6005,29 +6079,29 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [33.3%],
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [3.3%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [25],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
-  [toledo2024-essential-toxic-elements-infant-cereal-brazil (2024) · BR],
+  [toledo2024-​essential-​toxic-​elements-​infant-​cereal-​brazil (2024) · BR],
   [Essential and Toxic Elements in Infant Cereal in Brazil: Exp…],
-  [as\_consumed],
+  [as\_​consumed],
   [4],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [13.3%],
 )
 
@@ -6070,17 +6144,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [50.0%],
-  [fda2016-infant-toddler-foods-inorganic-arsenic (2016) · US-FDA],
+  [fda2016-​infant-​toddler-​foods-​inorganic-​arsenic (2016) · US-​FDA],
   [Analytical Results from Inorganic Arsenic in Rice Cereals fo…],
-  [as\_sold\_dry\_cereal],
+  [as\_​sold\_​dry\_​cereal],
   [30],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -6123,29 +6197,29 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_sold\_or\_source\_reported],
+  [as\_​sold\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [8.3%],
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [8.3%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [25],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
-  [toledo2024-essential-toxic-elements-infant-cereal-brazil (2024) · BR],
+  [toledo2024-​essential-​toxic-​elements-​infant-​cereal-​brazil (2024) · BR],
   [Essential and Toxic Elements in Infant Cereal in Brazil: Exp…],
-  [as\_consumed],
+  [as\_​consumed],
   [4],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [33.3%],
 )
 
@@ -6156,7 +6230,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -6205,19 +6279,19 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`collado-lopez2025-heavy-metals-baby-food-formula` (A)],
+  [`collado-​lopez2025-​heavy-​metals-​baby-​food-​formula` (A)],
   [Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review],
-  [Sonia Collado-Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-Moreno; Martha Maria Tellez-Rojo; Larissa Betanzos-Robledo; Moises Reyes Luna; Alejandra Cantoral-Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
-  [`fda2016-infant-toddler-foods-inorganic-arsenic` (A)],
-  [Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers],
-  [U.S. Food and Drug Administration · 2016 · U.S. Food and Drug Administration],
-  [`fda2024-toxic-elements-baby-food-compliance-2009-2024` (A)],
-  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)],
-  [U.S. Food and Drug Administration · 2024 · FDA analytical results table],
-  [`fsa2016-infant-food-formula-metals-survey` (A)],
-  [Survey of metals in commercial infant foods, infant formula and non-infant specific foods],
+  [Sonia Collado-​Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-​Moreno; Martha Maria Tellez-​Rojo; Larissa Betanzos-​Robledo; Moises Reyes Luna; Alejandra Cantoral-​Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
+  [`fda2016-​infant-​toddler-​foods-​inorganic-​arsenic` (A)],
+  [Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-​Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers],
+  [U.S. Food and Drug Administration · 2016 · U.S. Food and Drug Administration · doi:null],
+  [`fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024` (A)],
+  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-​FY2024)],
+  [U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null],
+  [`fsa2016-​infant-​food-​formula-​metals-​survey` (A)],
+  [Survey of metals in commercial infant foods, infant formula and non-​infant specific foods],
   [Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048],
-  [`toledo2024-essential-toxic-elements-infant-cereal-brazil` (A)],
+  [`toledo2024-​essential-​toxic-​elements-​infant-​cereal-​brazil` (A)],
   [Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment],
   [Toledo MC; Lee JS; Batista BL; Olympio KPK; Nardocci AC · 2024 · International Journal of Environmental Research and Public Health 21(4):381 · doi:10.3390/ijerph21040381],
 )
@@ -6264,7 +6338,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=baby-cereals-dry-non-rice` to regenerate this document.
 
@@ -6277,15 +6351,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:29.691Z],
+  [2026-05-18T05:18:43.911Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -6321,7 +6395,7 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 *Subcategory role:* independent\_no\_split
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -6354,7 +6428,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for fruit purees.
@@ -6366,40 +6440,40 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [*10 ppb* [as-consumed]≈ 50 ppb [powder]],
+  [*10 ppb* [as-​consumed]≈ 50 ppb [powder]],
   [6.241 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [3],
   [provisional],
-  [10 ppb (fda2025\_pb\_baby\_food\_10)],
+  [10 ppb (fda2025\_​pb\_​baby\_​food\_​10)],
   [iAs],
-  [_data gap_],
+  [_​data gap_​],
   [0.847 ppb],
-  [no-data],
+  [no-​data],
   [1],
-  [needs\_review],
-  [20 ppb (eu2023\_ias\_babyfood\_20)],
+  [needs\_​review],
+  [20 ppb (eu2023\_​ias\_​babyfood\_​20)],
   [tAs],
-  [*10 ppb* [as-consumed]≈ 50 ppb [powder]],
+  [*10 ppb* [as-​consumed]≈ 50 ppb [powder]],
   [5.001 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [4],
   [stable],
   [,],
   [Cd],
-  [_data gap_],
+  [_​data gap_​],
   [4.624 ppb],
-  [no-data],
+  [no-​data],
   [4],
-  [needs\_review],
-  [40 ppb (eu2023\_cd\_babyfood\_cereal\_40)],
+  [needs\_​review],
+  [40 ppb (eu2023\_​cd\_​babyfood\_​cereal\_​40)],
 )
 
 
@@ -6411,7 +6485,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -6457,7 +6531,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* 10 ppb (fda2025\_pb\_baby\_food\_10)
 *Pool composition:* 3 sources contributing · 38 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [0, 17.22] ppb*
+*Bootstrap 95% CI: [0.49, 12.46] ppb*
 *Sensitivity: log-normal 3.01 · gamma 4.29 · nonparametric 3.40 ppb · spread 30% (provisional)*
 
 
@@ -6485,23 +6559,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [26.3%],
-  [parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US],
+  [parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk (2022) · US],
   [Human health risk assessment of arsenic, cadmium, lead, and …],
-  [as\_consumed],
+  [as\_​consumed],
   [9],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [23.7%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [44],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -6543,11 +6617,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [100.0%],
 )
 
@@ -6590,29 +6664,29 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [chekri2019-french-infant-toddler-tds-trace-elements (2019) · FR],
+  [chekri2019-​french-​infant-​toddler-​tds-​trace-​elements (2019) · FR],
   [Trace element contents in foods from the first French Total …],
-  [as\_consumed],
+  [as\_​consumed],
   [30],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [38.0%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [1],
-  [single\_point],
+  [single\_​point],
   [1.3%],
-  [parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US],
+  [parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk (2022) · US],
   [Human health risk assessment of arsenic, cadmium, lead, and …],
-  [as\_consumed],
+  [as\_​consumed],
   [9],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [11.4%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [39],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [49.4%],
 )
 
@@ -6654,29 +6728,29 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [chekri2019-french-infant-toddler-tds-trace-elements (2019) · FR],
+  [chekri2019-​french-​infant-​toddler-​tds-​trace-​elements (2019) · FR],
   [Trace element contents in foods from the first French Total …],
-  [as\_consumed],
+  [as\_​consumed],
   [30],
-  [lognormal\_mean\_max],
+  [lognormal\_​mean\_​max],
   [34.1%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [11.4%],
-  [parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US],
+  [parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk (2022) · US],
   [Human health risk assessment of arsenic, cadmium, lead, and …],
-  [as\_consumed],
+  [as\_​consumed],
   [9],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [10.2%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [39],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [44.3%],
 )
 
@@ -6687,7 +6761,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -6736,16 +6810,16 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`chekri2019-french-infant-toddler-tds-trace-elements` (A)],
+  [`chekri2019-​french-​infant-​toddler-​tds-​trace-​elements` (A)],
   [Trace element contents in foods from the first French Total Diet Study on infants and toddlers],
-  [Rachida Chekri; Emilie Le Calvez; Julie Zinck; Jean-Charles Leblanc; Veronique Sirot; Marion Hulin; Laurent Noel; Thierry Guerin · 2019 · Journal of Food Composition and Analysis · doi:10.1016/j.jfca.2019.02.002],
-  [`fda2024-toxic-elements-baby-food-compliance-2009-2024` (A)],
-  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)],
-  [U.S. Food and Drug Administration · 2024 · FDA analytical results table],
-  [`fsa2016-infant-food-formula-metals-survey` (A)],
-  [Survey of metals in commercial infant foods, infant formula and non-infant specific foods],
+  [Rachida Chekri; Emilie Le Calvez; Julie Zinck; Jean-​Charles Leblanc; Veronique Sirot; Marion Hulin; Laurent Noel; Thierry Guerin · 2019 · Journal of Food Composition and Analysis · doi:10.1016/j.jfca.2019.02.002],
+  [`fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024` (A)],
+  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-​FY2024)],
+  [U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null],
+  [`fsa2016-​infant-​food-​formula-​metals-​survey` (A)],
+  [Survey of metals in commercial infant foods, infant formula and non-​infant specific foods],
   [Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048],
-  [`parker2022-baby-food-arsenic-cadmium-lead-mercury-risk` (A)],
+  [`parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk` (A)],
   [Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods],
   [Parker GH; Gillie CE; Miller JV; Badger DE; Kreider ML · 2022 · Toxicology Reports · doi:10.1016/j.toxrep.2022.02.001],
 )
@@ -6792,7 +6866,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=fruit-purees` to regenerate this document.
 
@@ -6805,15 +6879,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:29.874Z],
+  [2026-05-18T05:18:44.090Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -6849,7 +6923,7 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 *Subcategory role:* independent\_serves\_as\_cross\_row\_cc
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -6882,7 +6956,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for non root vegetable purees.
@@ -6894,26 +6968,26 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [_data gap_],
+  [_​data gap_​],
   [5.145 ppb],
-  [no-data],
+  [no-​data],
   [2],
-  [needs\_review],
-  [10 ppb (fda2025\_pb\_baby\_food\_10)],
+  [needs\_​review],
+  [10 ppb (fda2025\_​pb\_​baby\_​food\_​10)],
   [Cd],
-  [*2 ppb* [as-consumed]≈ 15 ppb [powder]],
+  [*2 ppb* [as-​consumed]≈ 15 ppb [powder]],
   [1.538 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [2],
   [stable],
-  [40 ppb (eu2023\_cd\_babyfood\_cereal\_40)],
+  [40 ppb (eu2023\_​cd\_​babyfood\_​cereal\_​40)],
 )
 
 
@@ -6925,7 +6999,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -6998,17 +7072,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US],
+  [parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk (2022) · US],
   [Human health risk assessment of arsenic, cadmium, lead, and …],
-  [as\_consumed],
+  [as\_​consumed],
   [9],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [50.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [29],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -7051,17 +7125,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US],
+  [parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk (2022) · US],
   [Human health risk assessment of arsenic, cadmium, lead, and …],
-  [as\_consumed],
+  [as\_​consumed],
   [9],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [50.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [22],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -7072,7 +7146,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -7117,10 +7191,10 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`fda2024-toxic-elements-baby-food-compliance-2009-2024` (A)],
-  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)],
-  [U.S. Food and Drug Administration · 2024 · FDA analytical results table],
-  [`parker2022-baby-food-arsenic-cadmium-lead-mercury-risk` (A)],
+  [`fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024` (A)],
+  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-​FY2024)],
+  [U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null],
+  [`parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk` (A)],
   [Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods],
   [Parker GH; Gillie CE; Miller JV; Badger DE; Kreider ML · 2022 · Toxicology Reports · doi:10.1016/j.toxrep.2022.02.001],
 )
@@ -7167,7 +7241,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=non-root-vegetable-purees` to regenerate this document.
 
@@ -7180,15 +7254,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:30.037Z],
+  [2026-05-18T05:18:44.271Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -7221,10 +7295,10 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 
 
 *Product class:* Root-Vegetable Purees
-*Subcategory role:* dirty subcategory (within-pair)
+*Subcategory role:* higher-contamination-sibling
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -7257,7 +7331,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for root vegetable purees.
@@ -7269,26 +7343,26 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [*2 ppb* [as-consumed]≈ 10 ppb [powder]],
-  [17.304 ppb (capped to 1.3 by reg cap)],
-  [literature-baseline],
+  [_​data gap_​],
+  [17.304 ppb],
+  [no-​data],
   [3],
-  [provisional],
-  [20 ppb (fda2025\_pb\_root\_baby\_food\_20)],
+  [needs\_​review],
+  [20 ppb (fda2025\_​pb\_​root\_​baby\_​food\_​20)],
   [Cd],
-  [*5 ppb* [as-consumed]≈ 50 ppb [powder]],
-  [5.003 ppb (capped to 4.1 by reg cap)],
-  [literature-baseline],
+  [*10 ppb* [as-​consumed]≈ 50 ppb [powder]],
+  [5.003 ppb],
+  [literature-​baseline],
   [2],
   [stable],
-  [40 ppb (eu2023\_cd\_babyfood\_cereal\_40)],
+  [40 ppb (eu2023\_​cd\_​babyfood\_​cereal\_​40)],
 )
 
 
@@ -7300,7 +7374,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -7341,25 +7415,24 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Pb
 
 
-*Published HMTc threshold:* 2 ppb [as-consumed] · 1.299 ppb (pre-rounding)
-*Cross-basis: ≈ 10 ppb [powder] (×7 (1:7 reconstitution))*
-*Rationale tag:* `literature-baseline`
+*Published HMTc threshold:* _data gap_
+*Rationale tag:* `no-data`
 *Regulatory ceiling reference:* 20 ppb (fda2025\_pb\_root\_baby\_food\_20)
 *Pool composition:* 3 sources contributing · 20 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [0.14, 10.92] ppb*
-*Sensitivity: log-normal 1.79 · gamma 1.18 · nonparametric 2.14 ppb · spread 45% (provisional)*
+*Bootstrap 95% CI: [2.99, 131.10] ppb*
+*Sensitivity: log-normal 63.28 · gamma 16.72 · nonparametric 67.28 ppb · spread 75% (needs\_review)*
 
 
-*Defensibility.* Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 20 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
+*Defensibility.* This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
 
 
 *Brand legal read.* The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 2 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below no published value (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band provisional.
+*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band needs\_review.
 
 
 
@@ -7374,23 +7447,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [5.0%],
-  [parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US],
+  [parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk (2022) · US],
   [Human health risk assessment of arsenic, cadmium, lead, and …],
-  [as\_consumed],
+  [as\_​consumed],
   [9],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [45.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [59],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -7400,13 +7473,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Cd
 
 
-*Published HMTc threshold:* 5 ppb [as-consumed] · 4.079 ppb (pre-rounding)
+*Published HMTc threshold:* 10 ppb [as-consumed] · 5.003 ppb (pre-rounding)
 *Cross-basis: ≈ 50 ppb [powder] (×7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* 40 ppb (eu2023\_cd\_babyfood\_cereal\_40)
 *Pool composition:* 2 sources contributing · 18 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [1.12, 5.00] ppb*
-*Sensitivity: log-normal 4.11 · gamma 4.06 · nonparametric 4.17 ppb · spread 3% (stable)*
+*Bootstrap 95% CI: [0.17, 5.67] ppb*
+*Sensitivity: log-normal 5.01 · gamma 5.01 · nonparametric 5.01 ppb · spread 0% (stable)*
 
 
 *Defensibility.* Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 40 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
@@ -7415,7 +7488,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Brand legal read.* The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 5 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 10 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
 *Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -7433,17 +7506,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [parker2022-baby-food-arsenic-cadmium-lead-mercury-risk (2022) · US],
+  [parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk (2022) · US],
   [Human health risk assessment of arsenic, cadmium, lead, and …],
-  [as\_consumed],
+  [as\_​consumed],
   [9],
-  [lognormal\_mean\_median],
+  [lognormal\_​mean\_​median],
   [50.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [54],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -7454,7 +7527,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -7470,10 +7543,6 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 
 *Attack 3: "Why is your dirty subcategory P45 instead of P10?"*
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver \<1% joint row-pass and the program would have no commercial uptake on the dirty side.
-
-
-*Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."*
-Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (Pb) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
 
 *Attack 7: "Where does basis conversion happen and what authority do you cite?"*
@@ -7503,13 +7572,13 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`collado-lopez2025-heavy-metals-baby-food-formula` (A)],
+  [`collado-​lopez2025-​heavy-​metals-​baby-​food-​formula` (A)],
   [Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review],
-  [Sonia Collado-Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-Moreno; Martha Maria Tellez-Rojo; Larissa Betanzos-Robledo; Moises Reyes Luna; Alejandra Cantoral-Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
-  [`fda2024-toxic-elements-baby-food-compliance-2009-2024` (A)],
-  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)],
-  [U.S. Food and Drug Administration · 2024 · FDA analytical results table],
-  [`parker2022-baby-food-arsenic-cadmium-lead-mercury-risk` (A)],
+  [Sonia Collado-​Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-​Moreno; Martha Maria Tellez-​Rojo; Larissa Betanzos-​Robledo; Moises Reyes Luna; Alejandra Cantoral-​Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
+  [`fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024` (A)],
+  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-​FY2024)],
+  [U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null],
+  [`parker2022-​baby-​food-​arsenic-​cadmium-​lead-​mercury-​risk` (A)],
   [Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods],
   [Parker GH; Gillie CE; Miller JV; Badger DE; Kreider ML · 2022 · Toxicology Reports · doi:10.1016/j.toxrep.2022.02.001],
 )
@@ -7556,7 +7625,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=root-vegetable-purees` to regenerate this document.
 
@@ -7569,15 +7638,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:30.202Z],
+  [2026-05-18T05:18:44.455Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -7613,7 +7682,7 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 *Subcategory role:* independent\_added\_step\_0c
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -7646,7 +7715,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for meat and poultry purees.
@@ -7658,37 +7727,37 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [_data gap_],
+  [_​data gap_​],
   [,],
-  [no-data],
+  [no-​data],
   [0],
-  [no\_data],
-  [10 ppb (fda2025\_pb\_baby\_food\_10)],
+  [no\_​data],
+  [10 ppb (fda2025\_​pb\_​baby\_​food\_​10)],
   [tAs],
-  [_data gap_],
+  [_​data gap_​],
   [,],
-  [no-data],
+  [no-​data],
   [0],
-  [no\_data],
+  [no\_​data],
   [,],
   [Cd],
-  [_data gap_],
+  [_​data gap_​],
   [,],
-  [no-data],
+  [no-​data],
   [0],
-  [no\_data],
-  [40 ppb (eu2023\_cd\_babyfood\_cereal\_40)],
+  [no\_​data],
+  [40 ppb (eu2023\_​cd\_​babyfood\_​cereal\_​40)],
   [tHg],
-  [_data gap_],
+  [_​data gap_​],
   [3.915 ppb],
-  [no-data],
+  [no-​data],
   [1],
   [stable],
   [,],
@@ -7703,7 +7772,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -7845,11 +7914,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [meli2024-chemical-characterization-baby-food-italy (2024) · EU, Italy],
+  [meli2024-​chemical-​characterization-​baby-​food-​italy (2024) · EU, Italy],
   [Chemical characterization of baby food consumed in Italy],
-  [wet\_weight],
+  [wet\_​weight],
   [4],
-  [lognormal\_mean\_only],
+  [lognormal\_​mean\_​only],
   [100.0%],
 )
 
@@ -7860,7 +7929,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -7905,7 +7974,7 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`meli2024-chemical-characterization-baby-food-italy` (A)],
+  [`meli2024-​chemical-​characterization-​baby-​food-​italy` (A)],
   [Chemical characterization of baby food consumed in Italy],
   [Meli MA; Desideri D; Sisti D; Fagiolino I; Roselli C · 2024 · PLOS ONE · doi:10.1371/journal.pone.0297158],
 )
@@ -7952,7 +8021,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=meat-and-poultry-purees` to regenerate this document.
 
@@ -7965,15 +8034,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:30.368Z],
+  [2026-05-18T05:18:44.637Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -8006,10 +8075,10 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 
 
 *Product class:* Fish-Containing Baby Foods
-*Subcategory role:* dirty subcategory (within-pair)
+*Subcategory role:* higher-contamination-sibling
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -8042,7 +8111,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for fish containing baby foods.
@@ -8054,19 +8123,19 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [MeHg],
-  [*0.5 ppb* [as-consumed]≈ 5 ppb [powder]],
-  [0.500 ppb (read-across)],
-  [feasibility-driven],
-  [0],
-  [feasibility-anchored (analytical LOQ binds)],
-  [EFSA TWI 1.3 µg/kg-bw/wk (exposure)],
+  [*0.5 ppb* [as-​consumed]≈ 5 ppb [powder]],
+  [0.500 ppb (read-​across)],
+  [feasibility-​driven],
+  [1],
+  [feasibility-​anchored (analytical LOQ binds)],
+  [EFSA TWI 1.3 µg/kg-​bw/wk (exposure)],
 )
 
 
@@ -8078,7 +8147,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -8123,8 +8192,9 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Cross-basis: ≈ 5 ppb [powder] (×7 (1:7 reconstitution))*
 *Rationale tag:* `feasibility-driven`
 *Regulatory ceiling reference:* EFSA TWI 1.3 µg/kg-bw/week (exposure context, not concentration cap)
-*Pool composition:* 0 sources contributing · 0 pseudo-samples in pool · 0 sample-level contributors
-*feasibility-anchored (analytical LOQ binds)*
+*Pool composition:* 1 sources contributing · 1 pseudo-samples in pool · 0 sample-level contributors
+*Bootstrap 95% CI: [2.60, 2.60] ppb*
+*Sensitivity: log-normal 2.60 · gamma 2.60 · nonparametric 2.60 ppb · spread 0% (feasibility-anchored (analytical LOQ binds))*
 
 
 *Four-anchor read-across (this row has no direct MeHg occurrence data):*
@@ -8148,7 +8218,29 @@ Each anchor is independently citable. The published threshold is the maximum of 
 *Retailer compliance read.* A certified product tests at or below 0.5 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* No direct MeHg occurrence data for this matrix in the structured corpus. Threshold is derived via four-anchor read-across documented above: empirical (total Hg pool for this row, see tHg row); analytical (ICP-MS-HG LOQ × 5); regulatory (EFSA TWI 1.3 µg/kg-bw/week + EPA RfD 0.1 µg/kg-bw/day + JECFA PTWI 1.6 µg/kg-bw/week as exposure ceiling); inferential (non-fish matrix chemistry). Methodology follows WHO/JECFA read-across precedent for analytes where direct occurrence data is absent but the parent species, the regulatory exposure framework, and the matrix biology are all citable.
+*Regulator read.* No direct MeHg occurrence data for this matrix in the structured corpus. Threshold is derived via four-anchor read-across documented above: empirical (total Hg pool for this row, ); analytical (ICP-MS-HG LOQ × 5); regulatory (EFSA TWI 1.3 µg/kg-bw/week + EPA RfD 0.1 µg/kg-bw/day + JECFA PTWI 1.6 µg/kg-bw/week as exposure ceiling); inferential (non-fish matrix chemistry). Methodology follows WHO/JECFA read-across precedent for analytes where direct occurrence data is absent but the parent species, the regulatory exposure framework, and the matrix biology are all citable.
+
+
+
+#table(
+  columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+  align: (col, row) => left + top,
+  table.header(
+    [Source],
+    [Title],
+    [Basis],
+    [N used],
+    [Reconstruction],
+    [Pool share]
+  ),
+  [tatsuta2024-​mehg-​duplicate-​diet-​children-​japan (2024) · JP],
+  [Dietary intake of methylmercury by 0–5 years children using …],
+  [unknown],
+  [63],
+  [single\_​point],
+  [100.0%],
+)
+
 
 
 
@@ -8156,7 +8248,7 @@ Each anchor is independently citable. The published threshold is the maximum of 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -8205,6 +8297,9 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
+  [`tatsuta2024-​mehg-​duplicate-​diet-​children-​japan` (A)],
+  [Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan],
+  [Tatsuta N; Asato K; Iwai-​Shimada M; Iwai K; Nakayama SF; Yamazaki S; Nakai K · 2024 · Environmental Health and Preventive Medicine · doi:10.1265/ehpm.24-00048],
 )
 
 
@@ -8249,7 +8344,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=fish-containing-baby-foods` to regenerate this document.
 
@@ -8262,15 +8357,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:30.533Z],
+  [2026-05-18T05:18:44.815Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -8303,10 +8398,10 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 
 
 *Product class:* Mixed Meals, Rice-Containing
-*Subcategory role:* dirty subcategory (within-pair)
+*Subcategory role:* higher-contamination-sibling
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -8339,7 +8434,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for mixed meals rice containing.
@@ -8351,33 +8446,33 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [*2 ppb* [as-consumed]≈ 10 ppb [powder]],
-  [15.052 ppb (capped to 1.1 by reg cap)],
-  [literature-baseline],
+  [_​data gap_​],
+  [15.052 ppb],
+  [no-​data],
   [3],
-  [stable],
-  [10 ppb (fda2025\_pb\_baby\_food\_10)],
+  [needs\_​review],
+  [10 ppb (fda2025\_​pb\_​baby\_​food\_​10)],
   [iAs],
-  [_data gap_],
+  [_​data gap_​],
   [12.380 ppb],
-  [no-data],
+  [no-​data],
   [1],
   [stable],
   [,],
   [Cd],
-  [*3 ppb* [as-consumed]≈ 20 ppb [powder]],
-  [9.730 ppb (capped to 2.6 by reg cap)],
-  [literature-baseline],
+  [*10 ppb* [as-​consumed]≈ 100 ppb [powder]],
+  [9.730 ppb],
+  [literature-​baseline],
   [3],
   [stable],
-  [40 ppb (eu2023\_cd\_babyfood\_cereal\_40)],
+  [40 ppb (eu2023\_​cd\_​babyfood\_​cereal\_​40)],
 )
 
 
@@ -8389,7 +8484,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -8430,25 +8525,24 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Pb
 
 
-*Published HMTc threshold:* 2 ppb [as-consumed] · 1.094 ppb (pre-rounding)
-*Cross-basis: ≈ 10 ppb [powder] (×7 (1:7 reconstitution))*
-*Rationale tag:* `literature-baseline`
+*Published HMTc threshold:* _data gap_
+*Rationale tag:* `no-data`
 *Regulatory ceiling reference:* 10 ppb (fda2025\_pb\_baby\_food\_10)
 *Pool composition:* 3 sources contributing · 20 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [0.13, 8] ppb*
-*Sensitivity: log-normal 1.04 · gamma 0.97 · nonparametric 1.16 ppb · spread 16% (stable)*
+*Bootstrap 95% CI: [3.43, 19.29] ppb*
+*Sensitivity: log-normal 7.47 · gamma 16.00 · nonparametric 9.03 ppb · spread 53% (needs\_review)*
 
 
-*Defensibility.* Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 10 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+*Defensibility.* This analyte has no defensible threshold today. The pool is empty; no read-across is available; no regulatory cap applies. The HMTc certification mark on this product does NOT cover this analyte until evidence is loaded. This is the honest position; we explicitly do not pretend coverage we cannot defend.
 
 
 *Brand legal read.* The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 2 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below no published value (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band stable.
+*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band needs\_review.
 
 
 
@@ -8463,23 +8557,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [5.0%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [50.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [9],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [45.0%],
 )
 
@@ -8521,11 +8615,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [100.0%],
 )
 
@@ -8535,13 +8629,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Cd
 
 
-*Published HMTc threshold:* 3 ppb [as-consumed] · 2.613 ppb (pre-rounding)
-*Cross-basis: ≈ 20 ppb [powder] (×7 (1:7 reconstitution))*
+*Published HMTc threshold:* 10 ppb [as-consumed] · 9.730 ppb (pre-rounding)
+*Cross-basis: ≈ 100 ppb [powder] (×7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* 40 ppb (eu2023\_cd\_babyfood\_cereal\_40)
 *Pool composition:* 3 sources contributing · 4 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [0.16, 9.70] ppb*
-*Sensitivity: log-normal 2.57 · gamma 2.56 · nonparametric 2.60 ppb · spread 2% (stable)*
+*Bootstrap 95% CI: [0.94, 10] ppb*
+*Sensitivity: log-normal 9.73 · gamma 9.73 · nonparametric 9.73 ppb · spread 0% (stable)*
 
 
 *Defensibility.* Pooled P97 from 3 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 40 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
@@ -8550,7 +8644,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Brand legal read.* The value is pooled P97 from 3 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 3 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 10 ppb (native basis: [as-consumed]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
 *Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 3 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -8568,23 +8662,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [25.0%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [1],
-  [single\_point],
+  [single\_​point],
   [25.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [9],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -8595,7 +8689,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -8640,14 +8734,14 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`collado-lopez2025-heavy-metals-baby-food-formula` (A)],
+  [`collado-​lopez2025-​heavy-​metals-​baby-​food-​formula` (A)],
   [Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review],
-  [Sonia Collado-Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-Moreno; Martha Maria Tellez-Rojo; Larissa Betanzos-Robledo; Moises Reyes Luna; Alejandra Cantoral-Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
-  [`fda2024-toxic-elements-baby-food-compliance-2009-2024` (A)],
-  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)],
-  [U.S. Food and Drug Administration · 2024 · FDA analytical results table],
-  [`fsa2016-infant-food-formula-metals-survey` (A)],
-  [Survey of metals in commercial infant foods, infant formula and non-infant specific foods],
+  [Sonia Collado-​Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-​Moreno; Martha Maria Tellez-​Rojo; Larissa Betanzos-​Robledo; Moises Reyes Luna; Alejandra Cantoral-​Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
+  [`fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024` (A)],
+  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-​FY2024)],
+  [U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null],
+  [`fsa2016-​infant-​food-​formula-​metals-​survey` (A)],
+  [Survey of metals in commercial infant foods, infant formula and non-​infant specific foods],
   [Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048],
 )
 
@@ -8693,7 +8787,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=mixed-meals-rice-containing` to regenerate this document.
 
@@ -8706,15 +8800,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:30.695Z],
+  [2026-05-18T05:18:44.994Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -8750,7 +8844,7 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 *Subcategory role:* clean subcategory (within-pair)
 *Native basis for published thresholds:* as\_consumed
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -8783,7 +8877,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for mixed meals non rice.
@@ -8795,33 +8889,33 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [_data gap_],
+  [_​data gap_​],
   [6.949 ppb],
-  [no-data],
+  [no-​data],
   [2],
-  [needs\_review],
-  [10 ppb (fda2025\_pb\_baby\_food\_10)],
+  [needs\_​review],
+  [10 ppb (fda2025\_​pb\_​baby\_​food\_​10)],
   [iAs],
-  [_data gap_],
+  [_​data gap_​],
   [7.505 ppb],
-  [no-data],
+  [no-​data],
   [1],
-  [needs\_review],
+  [needs\_​review],
   [,],
   [Cd],
-  [*10 ppb* [as-consumed]≈ 100 ppb [powder]],
+  [*10 ppb* [as-​consumed]≈ 100 ppb [powder]],
   [9.820 ppb],
-  [literature-baseline],
+  [literature-​baseline],
   [3],
   [stable],
-  [40 ppb (eu2023\_cd\_babyfood\_cereal\_40)],
+  [40 ppb (eu2023\_​cd\_​babyfood\_​cereal\_​40)],
 )
 
 
@@ -8833,7 +8927,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -8878,7 +8972,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Rationale tag:* `no-data`
 *Regulatory ceiling reference:* 10 ppb (fda2025\_pb\_baby\_food\_10)
 *Pool composition:* 2 sources contributing · 20 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [1.38, 19.13] ppb*
+*Bootstrap 95% CI: [0, 17.09] ppb*
 *Sensitivity: log-normal 3.46 · gamma 12.56 · nonparametric 21.12 ppb · spread 84% (needs\_review)*
 
 
@@ -8906,17 +9000,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [50.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [78],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -8958,11 +9052,11 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [10],
-  [lognormal\_lod\_censored\_midpoint],
+  [lognormal\_​lod\_​censored\_​midpoint],
   [100.0%],
 )
 
@@ -8977,7 +9071,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* 40 ppb (eu2023\_cd\_babyfood\_cereal\_40)
 *Pool composition:* 3 sources contributing · 4 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [3.43, 10] ppb*
+*Bootstrap 95% CI: [0, 10] ppb*
 *Sensitivity: log-normal 9.82 · gamma 9.82 · nonparametric 9.82 ppb · spread 0% (stable)*
 
 
@@ -9005,23 +9099,23 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [25.0%],
-  [fsa2016-infant-food-formula-metals-survey (2016) · UK],
+  [fsa2016-​infant-​food-​formula-​metals-​survey (2016) · UK],
   [Survey of metals in commercial infant foods, infant formula …],
-  [as\_consumed],
+  [as\_​consumed],
   [1],
-  [single\_point],
+  [single\_​point],
   [25.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [77],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -9032,7 +9126,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -9077,14 +9171,14 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`collado-lopez2025-heavy-metals-baby-food-formula` (A)],
+  [`collado-​lopez2025-​heavy-​metals-​baby-​food-​formula` (A)],
   [Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review],
-  [Sonia Collado-Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-Moreno; Martha Maria Tellez-Rojo; Larissa Betanzos-Robledo; Moises Reyes Luna; Alejandra Cantoral-Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
-  [`fda2024-toxic-elements-baby-food-compliance-2009-2024` (A)],
-  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)],
-  [U.S. Food and Drug Administration · 2024 · FDA analytical results table],
-  [`fsa2016-infant-food-formula-metals-survey` (A)],
-  [Survey of metals in commercial infant foods, infant formula and non-infant specific foods],
+  [Sonia Collado-​Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-​Moreno; Martha Maria Tellez-​Rojo; Larissa Betanzos-​Robledo; Moises Reyes Luna; Alejandra Cantoral-​Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
+  [`fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024` (A)],
+  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-​FY2024)],
+  [U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null],
+  [`fsa2016-​infant-​food-​formula-​metals-​survey` (A)],
+  [Survey of metals in commercial infant foods, infant formula and non-​infant specific foods],
   [Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048],
 )
 
@@ -9130,7 +9224,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=mixed-meals-non-rice` to regenerate this document.
 
@@ -9143,15 +9237,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:30.858Z],
+  [2026-05-18T05:18:45.176Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -9184,10 +9278,10 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 
 
 *Product class:* Teething & Snacks (Rice-Based)
-*Subcategory role:* dirty subcategory (within-pair)
+*Subcategory role:* higher-contamination-sibling
 *Native basis for published thresholds:* as\_sold
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -9220,7 +9314,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for teething and snacks rice based.
@@ -9232,30 +9326,30 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [*5 ppb* [as-sold]≈ 1 ppb [prepared]],
-  [7.828 ppb (capped to 4.9 by reg cap)],
-  [literature-baseline],
+  [*10 ppb* [as-​sold]≈ 2 ppb [prepared]],
+  [7.828 ppb],
+  [literature-​baseline],
   [2],
   [stable],
   [,],
   [iAs],
-  [*200 ppb* [as-sold]≈ 25 ppb [prepared]],
-  [231.660 ppb (capped to 148.3 by reg cap)],
-  [literature-baseline],
+  [*500 ppb* [as-​sold]≈ 50 ppb [prepared]],
+  [231.660 ppb],
+  [literature-​baseline],
   [2],
-  [provisional],
-  [300 ppb (eu2023\_ias\_rice\_products\_300)],
+  [stable],
+  [300 ppb (eu2023\_​ias\_​rice\_​products\_​300)],
   [Cd],
-  [*5 ppb* [as-sold]≈ 1 ppb [prepared]],
-  [6.809 ppb (capped to 3.5 by reg cap)],
-  [literature-baseline],
+  [*10 ppb* [as-​sold]≈ 1 ppb [prepared]],
+  [6.809 ppb],
+  [literature-​baseline],
   [2],
   [stable],
   [,],
@@ -9270,7 +9364,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -9311,13 +9405,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === Pb
 
 
-*Published HMTc threshold:* 5 ppb [as-sold] · 4.851 ppb (pre-rounding)
-*Cross-basis: ≈ 1 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* 10 ppb [as-sold] · 7.828 ppb (pre-rounding)
+*Cross-basis: ≈ 2 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* no applicable cap loaded
 *Pool composition:* 2 sources contributing · 2 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [2.00, 8] ppb*
-*Sensitivity: log-normal 4.87 · gamma 4.87 · nonparametric 4.87 ppb · spread 0% (stable)*
+*Bootstrap 95% CI: [0.87, 8] ppb*
+*Sensitivity: log-normal 7.83 · gamma 7.83 · nonparametric 7.83 ppb · spread 0% (stable)*
 
 
 *Defensibility.* Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
@@ -9326,7 +9420,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 *Brand legal read.* The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 5 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 10 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
 *Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -9344,17 +9438,17 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
   [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
+  [mixed\_​or\_​source\_​reported],
   [1],
-  [single\_point],
+  [single\_​point],
   [50.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [2],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -9364,75 +9458,22 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 === iAs
 
 
-*Published HMTc threshold:* 200 ppb [as-sold] · 148.308 ppb (pre-rounding)
-*Cross-basis: ≈ 25 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Published HMTc threshold:* 500 ppb [as-sold] · 231.660 ppb (pre-rounding)
+*Cross-basis: ≈ 50 ppb [prepared] (÷7 (1:7 reconstitution))*
 *Rationale tag:* `literature-baseline`
 *Regulatory ceiling reference:* 300 ppb (eu2023\_ias\_rice\_products\_300)
 *Pool composition:* 2 sources contributing · 20 pseudo-samples in pool · 0 sample-level contributors
-*Bootstrap 95% CI: [67.11, 169.61] ppb*
-*Sensitivity: log-normal 87.51 · gamma 65.47 · nonparametric 109.16 ppb · spread 40% (provisional)*
+*Bootstrap 95% CI: [15.43, 268.25] ppb*
+*Sensitivity: log-normal 230.05 · gamma 235.29 · nonparametric 209.06 ppb · spread 11% (stable)*
 
 
-*Defensibility.* Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 300 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%, signaling heterogeneity that should be resolved before final publication. Likely sources: basis mixing, regional outliers, or sparse pseudo-sample contributions.
-
-
-*Brand legal read.* The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
-
-
-*Retailer compliance read.* A certified product tests at or below 200 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
-
-
-*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band provisional.
-
-
-
-#table(
-  columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
-  align: (col, row) => left + top,
-  table.header(
-    [Source],
-    [Title],
-    [Basis],
-    [N used],
-    [Reconstruction],
-    [Pool share]
-  ),
-  [signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US],
-  [Inorganic arsenic in rice-based products for infants and you…],
-  [dry\_weight],
-  [199],
-  [uniform\_max\_only],
-  [50.0%],
-  [signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · EU, US],
-  [Inorganic arsenic in rice-based products for infants and you…],
-  [dry\_weight],
-  [97],
-  [uniform\_max\_only],
-  [50.0%],
-)
-
-
-
-
-=== Cd
-
-
-*Published HMTc threshold:* 5 ppb [as-sold] · 3.502 ppb (pre-rounding)
-*Cross-basis: ≈ 1 ppb [prepared] (÷7 (1:7 reconstitution))*
-*Rationale tag:* `literature-baseline`
-*Regulatory ceiling reference:* no applicable cap loaded
-*Pool composition:* 2 sources contributing · 2 pseudo-samples in pool · 1 sample-level contributors
-*Bootstrap 95% CI: [1.19, 7] ppb*
-*Sensitivity: log-normal 3.51 · gamma 3.50 · nonparametric 3.51 ppb · spread 0% (stable)*
-
-
-*Defensibility.* Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+*Defensibility.* Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination below the pooled value (cap = 300 ppb). The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
 
 
 *Brand legal read.* The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
 
 
-*Retailer compliance read.* A certified product tests at or below 5 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+*Retailer compliance read.* A certified product tests at or below 500 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 
 *Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
@@ -9450,17 +9491,70 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
     [Reconstruction],
     [Pool share]
   ),
-  [collado-lopez2025-heavy-metals-baby-food-formula (2025) · global],
-  [Concentrations of Heavy Metals in Processed Baby Foods and I…],
-  [mixed\_or\_source\_reported],
-  [1],
-  [single\_point],
+  [signes-​pastor2016-​inorganic-​arsenic-​rice-​products-​infants (2016) · GB, EU],
+  [Inorganic arsenic in rice-​based products for infants and you…],
+  [dry\_​weight],
+  [199],
+  [uniform\_​max\_​only],
   [50.0%],
-  [fda2024-toxic-elements-baby-food-compliance-2009-2024 (2024) · US],
+  [signes-​pastor2016-​inorganic-​arsenic-​rice-​products-​infants (2016) · GB, EU],
+  [Inorganic arsenic in rice-​based products for infants and you…],
+  [dry\_​weight],
+  [97],
+  [uniform\_​max\_​only],
+  [50.0%],
+)
+
+
+
+
+=== Cd
+
+
+*Published HMTc threshold:* 10 ppb [as-sold] · 6.809 ppb (pre-rounding)
+*Cross-basis: ≈ 1 ppb [prepared] (÷7 (1:7 reconstitution))*
+*Rationale tag:* `literature-baseline`
+*Regulatory ceiling reference:* no applicable cap loaded
+*Pool composition:* 2 sources contributing · 2 pseudo-samples in pool · 1 sample-level contributors
+*Bootstrap 95% CI: [0.35, 7] ppb*
+*Sensitivity: log-normal 6.81 · gamma 6.81 · nonparametric 6.81 ppb · spread 0% (stable)*
+
+
+*Defensibility.* Pooled P97 from 2 contributing sources across multiple jurisdictions. No applicable regulatory ceiling for this analyte-matrix combination. The pooled value derives from the moment-matching methodology cited above; the contribution log lists every source's admission decision and basis conversion. Sensitivity band is stable across log-normal, gamma, and nonparametric parametric variants.
+
+
+*Brand legal read.* The value is pooled P97 from 2 peer-reviewed and agency sources across multiple jurisdictions. Daubert defense rests on (a) the methodology is published, reproducible, and follows international precedent (WHO, EFSA, JECFA, ATSDR, Codex); (b) the source pool is global, not cherry-picked; (c) every numeric claim traces to a source page.
+
+
+*Retailer compliance read.* A certified product tests at or below 10 ppb (native basis: [as-sold]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
+
+
+*Regulator read.* Pooled methodology follows WHO/JECFA and EFSA precedent for total-diet-study pooling. 2 contributing sources across multiple jurisdictions. Sensitivity band stable.
+
+
+
+#table(
+  columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+  align: (col, row) => left + top,
+  table.header(
+    [Source],
+    [Title],
+    [Basis],
+    [N used],
+    [Reconstruction],
+    [Pool share]
+  ),
+  [collado-​lopez2025-​heavy-​metals-​baby-​food-​formula (2025) · global],
+  [Concentrations of Heavy Metals in Processed Baby Foods and I…],
+  [mixed\_​or\_​source\_​reported],
+  [1],
+  [single\_​point],
+  [50.0%],
+  [fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024 (2024) · US],
   [Analytical Results for Arsenic, Lead, Cadmium, and Mercury i…],
-  [as\_sold],
+  [as\_​sold],
   [2],
-  [percentile\_interpolation],
+  [percentile\_​interpolation],
   [50.0%],
 )
 
@@ -9471,7 +9565,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -9487,10 +9581,6 @@ Response: P97 per analyte is calibrated to deliver approximately 90% row-pass fo
 
 *Attack 3: "Why is your dirty subcategory P45 instead of P10?"*
 Response: P45 of the dirty subcategory's distribution, applied per-analyte, delivers approximately 30% joint row-pass for dirty-subcategory brands. This is the design intent stated in the Governing Principles v2.0: the dirty subcategory standard must give dirty-platform brands a realistic path to certification so the program drives reformulation rather than excluding the platform. A P10 dirty standard would deliver \<1% joint row-pass and the program would have no commercial uptake on the dirty side.
-
-
-*Attack 5: "Your sensitivity analysis shows the methodology is unstable for some analytes."*
-Response: The sensitivity bands are explicitly reported per analyte. 1 analytes (iAs) are flagged provisional, log-normal, gamma, and nonparametric variants disagree by more than 25%. This is transparent reporting, not a methodological flaw. Provisional values are published with the band stated and a commitment to resolve before final publication. The alternative, silently picking one parametric form, would be the actual methodological flaw.
 
 
 *Attack 7: "Where does basis conversion happen and what authority do you cite?"*
@@ -9520,15 +9610,15 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
     [Title],
     [Citation]
   ),
-  [`collado-lopez2025-heavy-metals-baby-food-formula` (A)],
+  [`collado-​lopez2025-​heavy-​metals-​baby-​food-​formula` (A)],
   [Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review],
-  [Sonia Collado-Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-Moreno; Martha Maria Tellez-Rojo; Larissa Betanzos-Robledo; Moises Reyes Luna; Alejandra Cantoral-Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
-  [`fda2024-toxic-elements-baby-food-compliance-2009-2024` (A)],
-  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)],
-  [U.S. Food and Drug Administration · 2024 · FDA analytical results table],
-  [`signes-pastor2016-inorganic-arsenic-rice-products-infants` (A)],
-  [Inorganic arsenic in rice-based products for infants and young children],
-  [2016 · Food Chemistry · doi:10.1016/j.foodchem.2014.11.078],
+  [Sonia Collado-​Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-​Moreno; Martha Maria Tellez-​Rojo; Larissa Betanzos-​Robledo; Moises Reyes Luna; Alejandra Cantoral-​Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138],
+  [`fda2024-​toxic-​elements-​baby-​food-​compliance-2009-2024` (A)],
+  [Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-​FY2024)],
+  [U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null],
+  [`signes-​pastor2016-​inorganic-​arsenic-​rice-​products-​infants` (A)],
+  [Inorganic arsenic in rice-​based products for infants and young children],
+  [2016 · Food Chemistry 191:128-134 · doi:10.1016/j.foodchem.2014.11.078],
 )
 
 
@@ -9573,7 +9663,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=teething-and-snacks-rice-based` to regenerate this document.
 
@@ -9586,15 +9676,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:31.021Z],
+  [2026-05-18T05:18:45.359Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -9630,7 +9720,7 @@ _This chapter is one of fifteen per-product chapters in Part 3 of the HMTc Progr
 *Subcategory role:* clean subcategory (within-pair)
 *Native basis for published thresholds:* as\_sold
 *Methodology:* HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-*Date generated:* 2026-05-14
+*Date generated:* 2026-05-18
 *Author:* Karen Pendergrass, Standards Architect, Paleo Foundation
 *Status:* Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -9663,7 +9753,7 @@ The HMTc certification mark serves multiple audiences with different concerns. T
 
 
 
-== Master Limit Table, Executive Summary
+== Master Limit Table
 
 
 All ten HMTc analytes for this product class. Each row shows the published HMTc threshold (rounded up to the primary increment ladder), the precise pooled-engine value before rounding, the rationale tag, the contributing source count, the parametric-sensitivity band, and the lowest applicable regulatory ceiling. Brands meeting every value in this table on a like-for-like basis qualify for the HMTc certification mark for teething and snacks non rice.
@@ -9675,32 +9765,32 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
   table.header(
     [Analyte],
     [HMTc Threshold (published)],
-    [Pooled value (precise, pre-rounding)],
+    [Pooled value (precise, pre-​rounding)],
     [Rationale],
     [Sources],
     [Sensitivity],
     [Reg cap]
   ),
   [Pb],
-  [_data gap_],
+  [_​data gap_​],
   [,],
-  [no-data],
+  [no-​data],
   [0],
-  [no\_data],
+  [no\_​data],
   [,],
   [iAs],
-  [_data gap_],
+  [_​data gap_​],
   [,],
-  [no-data],
+  [no-​data],
   [0],
-  [no\_data],
+  [no\_​data],
   [,],
   [Cd],
-  [_data gap_],
+  [_​data gap_​],
   [,],
-  [no-data],
+  [no-​data],
   [0],
-  [no\_data],
+  [no\_​data],
   [,],
 )
 
@@ -9713,7 +9803,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Methodology, one page
+== Methodology
 
 
 *Per-analyte standards.* For each (product row, analyte) cell, every source loaded for that cell contributes to a pooled distribution via moment-matching pseudo-sample expansion. Sample-level data uses raw values; summary statistics (mean, median, max, lb/ub, reported percentiles) reconstruct under log-normal or Tobit assumptions documented per source. Pseudo-samples are weighted by source N and capped at 50% relative pool share to prevent any one survey from dominating. The pooled distribution is sorted and queried at the per-analyte target percentile:
@@ -9824,7 +9914,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 
 
 
-== Adversarial Read, what a plaintiff's expert will attack, and the response
+== Adversarial Read
 
 
 This section explicitly addresses the most likely attack vectors a plaintiff's expert, a competing standards body, or a journalist working an adversarial angle will use against this briefing. Each attack is named and answered.
@@ -9913,7 +10003,7 @@ In addition to occurrence sources, this briefing cites:
 This briefing is reproducible by:
 
 
-+ Checking out commit `0aa1131496274a31616fd4424e62b997014ad909` in the heavymetalindex.com repository.
++ Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
 + Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 + Running `npm run briefing -- --product=teething-and-snacks-non-rice` to regenerate this document.
 
@@ -9926,15 +10016,15 @@ This briefing is reproducible by:
     [Value]
   ),
   [Generated at],
-  [2026-05-14T09:09:31.191Z],
+  [2026-05-18T05:18:45.540Z],
   [Generator],
-  [`tools/standards/build-standards-briefing.mjs`],
+  [`tools/standards/build-​standards-​briefing.mjs`],
   [Pooling engine],
-  [`tools/evidence/build-hmtc-aggregate-distributions.mjs`],
+  [`tools/evidence/build-​hmtc-​aggregate-​distributions.mjs`],
   [Methodology version],
-  [HMTc-10 / P97-P45 per / Governing Principles v2.0],
+  [HMTc-10 / P97-​P45 per / Governing Principles v2.0],
   [Git commit],
-  [`0aa1131496274a31616fd4424e62b997014ad909`],
+  [`2e44dd7751a2620f3d6da74745d090840c3a71c6`],
   [Author],
   [Karen Pendergrass, Standards Architect, Paleo Foundation],
   [Status],
@@ -10076,9 +10166,9 @@ The following table defines the minimum testing frequency for routine surveillan
   align: (col, row) => left + top,
   table.header(
     [Status],
-    [High-Risk],
-    [Moderate-Risk],
-    [Lower-Risk],
+    [High-​Risk],
+    [Moderate-​Risk],
+    [Lower-​Risk],
     [Hold & Release],
     [Independent Sampling]
   ),
@@ -10105,7 +10195,7 @@ The following table defines the minimum testing frequency for routine surveillan
   [Every lot],
   [Every lot],
   [Mandatory],
-  [Yes + 3rd-party sampling],
+  [Yes + 3rd-​party sampling],
 )
 
 
@@ -10378,7 +10468,7 @@ Speciation analysis determines the specific chemical form of a metal present, wh
   ),
   [Arsenic],
   [Inorganic arsenic (iAs)],
-  [All products containing rice or rice-derived ingredients],
+  [All products containing rice or rice-​derived ingredients],
   [Total As approaches or exceeds limit in any product],
   [Mercury],
   [Methylmercury (MeHg)],
@@ -10492,19 +10582,19 @@ For each lot, the PoL is calculated for every analyte: PoL = (Result / Applicabl
   [101–150%],
   [Any Tier 1 metal],
   [Status C],
-  [CAPA (5 days), every-lot hold-and-release],
+  [CAPA (5 days), every-​lot hold-​and-​release],
   [151–175%],
   [Any],
   [Status C (Low)],
-  [CAPA (5 days), every-lot hold-and-release],
+  [CAPA (5 days), every-​lot hold-​and-​release],
   [176–200%],
   [Any],
   [Status C (High)],
-  [CAPA (5 days), every-lot + 3rd-party sampling],
+  [CAPA (5 days), every-​lot + 3rd-​party sampling],
   [\> 200%],
   [Any],
   [Status D (Suspension)],
-  [Stop-ship, CAPA (2 days), mark removal],
+  [Stop-​ship, CAPA (2 days), mark removal],
 )
 
 
@@ -10554,18 +10644,18 @@ The following timelines govern CAPA initiation and execution across certificatio
   [Target for Status A],
   [12 months],
   [As defined in CAPA],
-  [Full re-qualification],
-  [Re-application],
+  [Full re-​qualification],
+  [Re-​application],
   [VOE required],
   [Yes],
   [Yes],
   [Yes],
-  [If re-applying],
+  [If re-​applying],
   [Exit requirement],
   [Improving trend + meet A criteria],
   [5+ consecutive passing lots + CAPA closure],
   [Program Operator approval],
-  [Full re-application],
+  [Full re-​application],
 )
 
 
@@ -10647,7 +10737,7 @@ This Lot Testing Schedule shall be reviewed at least annually or upon any update
   [Initial issuance (PDF).],
   [2.0],
   [May 2026],
-  [Markdown migration. No substantive change to testing protocols; reformatted for repo-based version control and cross-referencing with the Program Manual.],
+  [Markdown migration. No substantive change to testing protocols; reformatted for repo-​based version control and cross-​referencing with the Program Manual.],
 )
 
 
@@ -11341,7 +11431,7 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
     [Feature],
     [HMTc],
     [USDA Organic],
-    [Non-GMO Project],
+    [Non-​GMO Project],
     [Clean Label Project],
     [EWG Healthy Living],
     [Consumer Reports Testing]
@@ -11353,21 +11443,21 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
   [Yes (heavy metals included in scope)],
   [Yes (in product scoring)],
   [Yes (when tested)],
-  [*Risk-tiered metal classification (Tier 1 / Tier 2)*],
+  [*Risk-​tiered metal classification (Tier 1 / Tier 2)*],
   [Yes],
   [N/A],
   [N/A],
   [No],
   [No],
   [No],
-  [*Per-analyte action levels with regulatory-cap interaction*],
+  [*Per-​analyte action levels with regulatory-​cap interaction*],
   [Yes (Part 3)],
   [N/A],
   [N/A],
   [Yes (product specifications)],
-  [No (scoring-based)],
+  [No (scoring-​based)],
   [N/A (testing report)],
-  [*Aggregate-exposure framing across categories*],
+  [*Aggregate-​exposure framing across categories*],
   [Yes (Part 2.2)],
   [No],
   [No],
@@ -11379,7 +11469,7 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
   [Binary],
   [Binary],
   [Binary],
-  [Scoring-based],
+  [Scoring-​based],
   [N/A],
   [*Confidential Remediation Track*],
   [Yes (Part 2.4)],
@@ -11402,7 +11492,7 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
   [Yes],
   [N/A],
   [Yes (CR labs accredited)],
-  [*Speciation requirements (iAs, MeHg, Cr-VI)*],
+  [*Speciation requirements (iAs, MeHg, Cr-​VI)*],
   [Yes (Part 4 §9)],
   [No],
   [No],
@@ -11430,21 +11520,21 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
   [No],
   [N/A],
   [N/A],
-  [*Anti-arbitrage mark re-entry rules*],
+  [*Anti-​arbitrage mark re-​entry rules*],
   [Yes (Part 2.5 §6.3)],
   [N/A],
   [N/A],
   [N/A],
   [N/A],
   [N/A],
-  [*No-testing-into-compliance prohibition*],
+  [*No-​testing-​into-​compliance prohibition*],
   [Yes (Part 2.6 §7.3)],
   [N/A],
   [N/A],
   [Partial],
   [N/A],
   [N/A],
-  [*Lot-level surveillance (every-lot at probation)*],
+  [*Lot-​level surveillance (every-​lot at probation)*],
   [Yes (Part 4)],
   [No],
   [No],
@@ -11455,7 +11545,7 @@ The intent is not to denigrate other programs or claim HMTc is uniformly superio
   [Infant/child foods (Cat 1); other categories coming],
   [Agricultural production methods],
   [GMO ingredient sourcing],
-  [Multi-contaminant, all foods],
+  [Multi-​contaminant, all foods],
   [All consumer products (scoring)],
   [Selected products (advocacy)],
 )

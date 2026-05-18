@@ -35,7 +35,7 @@ You are reading this manual to assess whether HMTc represents legitimate industr
 4. **Part 2.10 (Standards Ratchet Mechanism)**. The data-driven mechanism that commits the program to tighten limits as industry capability improves. Trigger conditions, step-size cap, transition rules, and forward-forecast obligation are all specified.
 5. **Part 5.1 (How HMTc Standards Are Set)** and **Part 5.4 (Consolidated Sources Index)**. The methodology described in principle, with the full source attribution.
 
-## For Adversarial Readers (Plaintiff's Experts, Competing Standards Bodies, Hostile Reviewers)
+## For Adversarial Readers
 
 You are reading this manual to find the gaps. You are looking for methodology underspecification, missing toxicological anchors, weak chain-of-custody language, ratchet gaming opportunities, conflict-of-interest framings, or claims that overreach what the literature supports. You will brief your conclusions to a court, a state attorney general's office, or a competing program's leadership.
 
