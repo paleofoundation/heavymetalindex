@@ -8,7 +8,7 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/cadmium-gut-axis]]", "[[microbiome/cadmium-dysbiosis]]"]
 updated: 2026-05-02
-sources: 430
+sources: 431
 ---
 
 # Cadmium

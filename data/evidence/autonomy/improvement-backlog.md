@@ -400,3 +400,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis triggers), Part 19 (pool admission rules in docs/standards-methodology), and the routing audit's existing classification discipline (Part 5b).
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Draft Step 0 Lock templates for categories ready to lock
+
+**What:** Create `tools/autonomy/draft-step0-locks.mjs` to scan all `wiki/products/` pages with `provisional_scaffold: true` and ≥ 4 routed sources, generate pre-filled markdown templates with HMTc category/row/clean-dirty metadata, and write approval-ready blocks to `data/workbench/pending-locks-for-approval.md`.
+
+**Why this lever now:** The 305 pool_blocked_cells are stalled waiting for product-category Step 0 Locks. Baby-food has 4 routed sources but cannot flow to synthesis until the provisional flag clears. Automating template generation (infer HMTc category from slug, pre-populate row assignment, suggest clean/dirty splits based on metal coverage) turns a hand-authored governance bottleneck into a one-click Karen approval flow. As wishlist queries (672) continue to identify priority gaps, this tool keeps lock throughput in sync with source accrual.
+
+**Where:**
+- Script: `tools/autonomy/draft-step0-locks.mjs`
+- Input: `wiki/products/*.md` with `provisional_scaffold: true`
+- Output: `data/workbench/pending-locks-for-approval.md`
+- Integrate into morning-report pipeline before `audit-pending-locks.mjs`
+
+**How:**
+1. Scan `wiki/products/` for `provisional_scaffold: true` AND `sources_routed >= 4`
+2. Map slug to HMTc category (baby-food → "infant-and-child-foods")
+3. Pre-populate row name and suggest clean (P97) vs dirty (P45) based on source metal coverage
+4. Generate markdown approval block with YAML header + rationale prompts for Karen
+5. Log template generation to `data/evidence/review_events.jsonl`
+
+**Anchors:** CLAUDE.md Part 10 (Step 0 Lock mechanics), Part 5b (routing unblocks synthesis), Part 19 (per-row P97/P45 thresholds).
+
+---

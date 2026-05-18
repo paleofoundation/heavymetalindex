@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: baby-cereals-dry-rice-based
 native_basis: dry_as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-18T03:59:05.629Z
+generated_at: 2026-05-18T04:39:49.708Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -81,7 +81,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 20 ppb (fda2025_pb_dry_infant_cereal_20)
 **Pool composition:** 5 sources contributing · 70 pseudo-samples in pool · 2 sample-level contributors
-**Bootstrap 95% CI: [8, 383.62] ppb**
+**Bootstrap 95% CI: [7.99, 392.56] ppb**
 **Sensitivity: log-normal 274.75 · gamma 292.71 · nonparametric 291.20 ppb · spread 6% (stable)**
 
 
@@ -158,7 +158,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 40 ppb (eu2023_cd_babyfood_cereal_40)
 **Pool composition:** 5 sources contributing · 52 pseudo-samples in pool · 2 sample-level contributors
-**Bootstrap 95% CI: [3, 142.13] ppb**
+**Bootstrap 95% CI: [3, 144.41] ppb**
 **Sensitivity: log-normal 131.25 · gamma 127.58 · nonparametric 129.15 ppb · spread 3% (stable)**
 
 
@@ -286,17 +286,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `57c1265f33e03fc978bdf8dc76dfd732ad877522` in the heavymetalindex.com repository.
+1. Checking out commit `de9d0b9cff627e27c77d76d175af090bc7670d33` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=baby-cereals-dry-rice-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-18T03:59:05.640Z |
+| Generated at | 2026-05-18T04:39:49.718Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `57c1265f33e03fc978bdf8dc76dfd732ad877522` |
+| Git commit | `de9d0b9cff627e27c77d76d175af090bc7670d33` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

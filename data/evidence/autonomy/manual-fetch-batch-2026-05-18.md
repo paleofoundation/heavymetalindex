@@ -94,3 +94,32 @@
 ### Succeeded
 - `alharbi2023-baby-foods-saudi-arabia-heavy-metals` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia.pdf)
 - `hopfner2025-infant-formula-dietary-exposure-germany` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/The contribution of infant formula to the food survey-based dietary exposure of nine selected elements.pdf)
+
+## Tick 2026-05-18T03:27:34.883Z
+
+- Candidates this tick: 5
+- Succeeded: 3
+- Stopped (need Karen): 1
+- Failed: 1
+
+### Succeeded
+- `mahaffey1975-fda-total-diet-study-heavy-metals` (raw/Papers Cube Manual Fetch/Heavy metal exposure from foods..pdf)
+- `zhang2021-in-utero-metals-childhood-blood-pressure` (raw/Papers Cube Manual Fetch/In Utero Exposure to Heavy Metals and Trace Elements and Childhood Blood Pressure in a U.S. Urban, Low-Income, Minority Birth Cohort.pdf)
+- `du2025-petfood-china-metals` (raw/Papers Cube Manual Fetch/Individual and Combined Contamination of the Heavy Metals in Commercial Cat and Dog Food.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Papers Cube Manual Fetch/Heavy Metals in Infant Clothing: Assessing Dermal Exposure Risks and Pathways for Sustainable Textile Policies.pdf`: xiong2025-heavy-metals-infant-clothing already post-2026-05-14 clean (byte-identical PCMF duplicate of Kimi PDF ingested + audited yesterday; advisory-only routing_malformed entry is intentional ingredients:[])
+
+### Failed
+- `raw/Papers Cube Manual Fetch/IJSHR12.pdf`: unrecognized final line: "Merge-enhanced the existing page (fixed `raw_handle`, removed two invented ingredient slugs, expanded metals to the full analyte set, added derived SP2 Pb / SP3 Cd from EDI back-calc, scrubbed a Part 2 synthesis claim, strengthened Methods QA notes). Subagent verdict was REVISE; applied the per-metal CR dominance correction (Cd-dominant in SP1/SP2, Ni-dominant in SP3/SP4 — subagent caught SP4 only, independent check caught SP3 too) and rejected the `products/condiments-general` false positive (slug exists; the taxonomy snapshot is stale). Routing audit: 0 unresolved, 0 blocking malformed. Three commits: ingest (ee936a1), audit revisions (2a25593), audit-queue update (dadfd33)."
+
+## Tick 2026-05-18T04:32:06.360Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia.pdf`: page already post-2026-05-14 clean (alharbi2023-baby-foods-saudi-arabia-heavy-metals audited-promote earlier today)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/The contribution of infant formula to the food survey-based dietary exposure of nine selected elements.pdf`: hopfner2025-infant-formula-dietary-exposure-germany page already post-2026-05-14 clean (merge-enhanced + audit-applied earlier today; not in routing_malformed/unresolved). Logged as Stop 8 in `data/evidence/autonomy/manual-fetch-stops-2026-05-18.md`; tracker row flipped from `unprocessed` to `stopped`. No content commits made.

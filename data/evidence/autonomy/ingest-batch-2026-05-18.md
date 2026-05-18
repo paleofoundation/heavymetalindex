@@ -33,3 +33,15 @@
 
 ### Failed
 - P1 `extending2023-extending-regulatory-biokinetic-lead` (FM_10379829): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-18T04:32:06.262Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `extending2023-extending-regulatory-biokinetic-lead` (FM_10379829)
+
+### Failed
+- P1 `concentration2023-concentration-essential-toxic-rare` (FM_10384816): stdout did not contain '---' frontmatter

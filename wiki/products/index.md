@@ -148,7 +148,7 @@ Contamination platform notes: Predatory fish are a contamination platform for Me
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/fish-freshwater|Fish — freshwater (tilapia, catfish, trout)]] (2 sources)
+1. [[products/fish-freshwater|Fish — freshwater (tilapia, catfish, trout)]] (3 sources)
 2. [[products/fish-marine-non-predatory|Fish — marine, non-predatory (sardines, anchovies, salmon, cod)]] (0 sources)
 3. [[products/fish-marine-predatory|Fish — marine, predatory (tuna, swordfish, shark, king mackerel)]] (0 sources)
 4. [[products/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]] (9 sources)
@@ -357,7 +357,7 @@ Exposure pathway: **Ingestion (oral, animal)**.  Regulatory jurisdiction: **FDA 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
 1. [[products/pet-food-dry-kibble|Complete & balanced dry (kibble)]] (5 sources)
-2. [[products/pet-food-canned-wet|Complete & balanced canned/wet]] (0 sources)
+2. [[products/pet-food-canned-wet|Complete & balanced canned/wet]] (1 source)
 3. [[products/pet-food-semi-moist|Semi-moist pet foods]] (0 sources)
 4. [[products/pet-food-raw|Raw pet foods (frozen/chilled raw diets)]] (0 sources)
 5. [[products/pet-food-freeze-dried|Freeze-dried/dehydrated pet foods (including freeze-dried raw)]] (0 sources)
@@ -510,17 +510,11 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/infant-food-general|Infant Food General]]
+- [[products/infant-formula-dairy|Infant Formula Dairy]]
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->
