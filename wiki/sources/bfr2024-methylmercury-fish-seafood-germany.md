@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_p0145-methylmercury-fish-seafood-bfr-meal
 cite_key: bfr2024-methylmercury-fish-seafood-germany
 title: "Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study"
 authors: [German Federal Institute for Risk Assessment (BfR)]
@@ -10,15 +10,16 @@ doi: 10.17590/20240626-094256-0
 source_type: government-report
 evidence_tier: A
 license: "BfR open publication"
-raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0145_Methylmercury in fish and seafood - health risk assess.pdf"
+raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0145_Methylmercury in fish and seafood - health risk assessment of new data from the BfR MEAL study.pdf"
+near_duplicates: ["bfr2024-mehg-fish-seafood-meal-germany (deleted 2026-05-18)"]
 metals: [MeHg, tHg]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/tuna]]", "[[ingredients/salmon]]", "[[ingredients/herring]]", "[[ingredients/seafood]]"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/canned-tuna]]", "[[ingredients/seafood]]"]
 products: ["[[products/canned-fish]]", "[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: [fish, seafood, ready-to-eat-fish, canned-fish]
 jurisdictions: [DE, EU]
 sample_n: null
 sample_population: "German population across age groups (infants 0.5–<1 yr through elderly 65–<80 yr); consumption data from KiESEL (n=1,008 children 0.5–<5 yr), EsKiMo II (n=1,190 children 6–<12 yr), NVS II (n=13,926 adolescents and adults ≥14 yr); BfR MEAL study pool samples of ready-to-eat fish (15–20 individual samples per pool)"
-updated: 2026-05-13
+updated: 2026-05-18
 ---
 
 # BfR 2024 — Methylmercury in fish and seafood: health risk assessment from the BfR MEAL study
