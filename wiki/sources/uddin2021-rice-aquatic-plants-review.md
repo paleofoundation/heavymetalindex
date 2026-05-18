@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: papers-cube
+raw_handle: PCMF_article-1-copy-5
 cite_key: uddin2021-rice-aquatic-plants-review
 title: "Heavy Metal Accumulation in Rice and Aquatic Plants Used as Human Food: A General Review"
 authors: [Uddin MM, Zakeel MCMM, Zavahir JS, Marikar FMMT, Jahan I]
@@ -11,51 +11,62 @@ source_type: review
 evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Papers Cube Manual Fetch/article (1) copy 5.pdf"
-metals: [Cd, tAs, Pb, Cr, tHg, Ni]
+metals: [Cd, tAs, Pb, Cr, tHg, Ni, Cu, Zn, Co]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/water-spinach]]", "[[ingredients/lotus-root]]", "[[ingredients/watercress]]", "[[ingredients/taro]]"]
 products: []
-matrices: [rice, aquatic-vegetables, irrigation-water]
+matrices: [rice, leafy-vegetable, root-vegetable, irrigation-water]
 jurisdictions: [BD, LK, TH, CN, AU, NG]
 near_duplicates: []
 sample_n: null
-sample_population: "Review synthesizing global literature on rice and aquatic edible plants"
-updated: 2026-05-14
+sample_population: "Narrative review synthesizing global literature on rice and edible aquatic plants; no primary sampling"
+updated: 2026-05-18
 ---
 
-This 2021 review published in Toxics synthesizes global literature on heavy metal accumulation in rice and six categories of edible aquatic plants (water spinach, lotus, watercress, water chestnut, taro, and wild rice), with a focus on bioaccumulation mechanisms, health effects, and mitigation strategies. The authors compile findings from sites across Asia (Bangladesh, Sri Lanka, Thailand, China), Africa (Nigeria), and Australia, showing that Cd, As, Cr, Pb, and Hg repeatedly appear in these food plants above WHO/FAO permissible limits. Rice is identified as the dominant exposure pathway for Hg in inland Asian populations due to paddy methylation dynamics, not fish consumption.
+This 2021 narrative review in Toxics synthesizes the global literature on heavy metal accumulation in rice (Oryza sativa) and edible aquatic plants — water spinach (Ipomoea aquatica), Indian lotus (Nelumbo nucifera), watercress (Nasturtium officinale), Chinese water chestnut (Eleocharis dulcis), water mimosa (Neptunia oleracea), taro (Colocasia esculenta), and others. The authors compile occurrence values from sites across Bangladesh, Sri Lanka, Thailand, China, Australia, and Nigeria, showing that Cd, As, Cr, Pb, and Hg repeatedly appear in these food plants at concentrations exceeding WHO/FAO permissible limits. The review identifies rice as the dominant Hg exposure pathway for inland Asian populations through paddy methylation, in contrast with the fish-mediated pathway elsewhere.
 
 ## Key numbers
 
-Permissible limits compiled from WHO/FAO (Table 2):
-- As: 0.1–0.2 mg/kg (cereals/vegetables)
-- Cd: 0.05–0.4 mg/kg
-- Cr: 1.3 mg/kg
-- Hg: 0.03 mg/kg
-- Ni: 0.1 mg/kg
-- Pb: 0.05–0.3 mg/kg
+Permissible limits compiled from WHO/FAO references [63,64] in Table 2 (mg/kg, cereals and vegetables):
+- As 0.1–0.2; Cd 0.05–0.4; Co 0.01; Cr 1.3; Cu 20.0; Hg 0.03; Ni 0.1; Pb 0.05–0.3; Zn 60.0.
 
-Observed concentrations compiled across studies (Table 2, mg/kg wet produce, asterisked values exceed permissible limits):
-- Rice: As 0.09–0.13, Cd 0.003–0.06, Pb 0.12–0.37*, Cr 2.6–5.3*, Ni 0.01–0.53*
-- Water spinach (I. aquatica, Bangkok sites): Hg up to 1.44 µg/kg dry weight; Pb 0.06–1.10*, Cd 1.44*, Zn 16–36
-- Indian lotus (N. nucifera, Yichang China): Cd and As exceeding national food standards; edible tuber peel concentrations 1.3–9.0× higher than inner flesh
-- Watercress: As 2.0*, Pb 0.86*, Cd 0.10, Cr 0.30*, Zn 0.34
-- Rice–fish aquaponic system: Cd in rice grain reached 5.86 mg/kg when Cd added to water (above threshold)
+Observed concentrations compiled across cited studies (Table 2, mg/kg wet produce; asterisk = exceeds the permissible limit in at least one cited study):
+- Rice (Oryza sativa): As 0.09–0.13, Cd 0.003–0.06, Cr 0.12–0.37, Cu 2.6–5.3, Hg 0.002–0.034*, Ni 0.25*, Pb 0.01–0.53*, Zn 16–36.
+- Water spinach (Ipomoea aquatica): Cd 0.06–1.10*, Co 0.04–0.09, Hg 1.44*, Pb 0.28.
+- Indian lotus (Nelumbo nucifera): As 0.1–1.3*, Cd 0.04–0.09, Cr 1.6–2.2*, Cu 4.4–7.4, Pb 0.3–0.8*, Zn 9.8–15.4.
+- Watercress (Nasturtium officinale): As 2.0*, Cd 0.10, Co 0.30*, Cr 0.34, Ni 0.34*, Pb 0.86*.
 
-Bioconcentration factors (BCF) in brown rice: As 0.001–0.224, Cd 0.001–2.434, Pb 0.001–0.048.
+Site-level findings cited in the body:
+- Greater Bangkok region, Thailand: nine-site survey of I. aquatica reported Hg "up to 1.440 µg kg⁻¹ dry weight" in the body text (p.4, citing Göthberg et al. 2002 [38]); the same reference is summarized in Table 2 as Hg 1.44 mg/kg wet produce. The two values cannot both be correct; the paper does not reconcile them (see verification notes).
+- Yichang City, China (unmanaged pond): Nelumbo nucifera tubers exceeded the national food standard for Cd and As; edible-tuber peel concentrations were 1.3–9.0× higher than inner flesh (p.4, citing Luo et al. 2017 [39]).
+- Rice–fish co-culture: Cd in rice grain reached 5.86 mg/kg when Cd was added to the water, well above the cereal threshold (p.4, citing Luo et al. 2020 [42]).
 
-Average blood Pb in Nigerian children aged 1–6 years: 10.6 µg/dL (exceeding CDC maximum of 10 µg/dL), linked to Pb-contaminated rice varieties.
+Bioconcentration factors (BCF) compiled for brown rice (p.5, citing Lee et al. 2017 [47]): As 0.001–0.224, Cd 0.001–2.434, Pb 0.001–0.048.
+
+Exposure/health-effect anchors:
+- Daily Intake Rate equation (p.12, Eq. 1): DIR = C × IR / BW, where C is the heavy metal concentration in the food (mg/kg fresh weight), IR is plant-food ingestion rate (g fresh weight per person per day), and BW is mean adult body weight (kg).
+- Nigeria rice study (p.10, citing Otitoju et al. 2014 [71]): mean blood Pb in children 1–6 years old was 10.6 µg/dL, exceeding the CDC reference value of 10 µg/dL; Pb concentrations in studied rice varieties exceeded the recommended tolerable weekly intake.
 
 ## Methods (brief)
 
-This is a narrative review; no primary analytical method is described. The authors synthesize reported values from ICP-MS, AAS, and ICP-OES studies across the corpus. The review covers rice and the aquatic plant species listed in Table 1. No LOD/LOQ are given for the review itself; these vary by original source. The main limitation is that compiled values aggregate wet-weight and dry-weight data without always distinguishing basis, and geographic diversity is wide.
+Narrative review; no primary measurements. The authors aggregate values from approximately 140 cited references (1949–2021), with most occurrence data drawn from regional surveys using ICP-MS, ICP-OES, AAS, and HG-AAS reported in the original studies; analytical detail varies by source and is not standardized in the review. Table 2 compiles permissible-limit and occurrence data without normalizing wet-weight vs dry-weight basis. Table 3 catalogues main oxidation states and natural/anthropogenic sources for As, Cd, Cr, Pb, and Hg. Tables 4 and 5 catalogue health endpoints and mitigation techniques. The review does not separate inorganic from total arsenic, nor methylmercury from total mercury, in its compiled occurrence values — those are reported in the source page as tAs and tHg. The authors explicitly note as limitations: (i) absence of focus on plant adaptation/coping mechanisms; (ii) absence of international policy and regulatory framework analysis.
 
 ## Implications
 
-**Certification:** Rice is confirmed as the highest-priority grain matrix for Cd and As; the review supports treating Pb in rice as a secondary concern in certain production regions (Nigeria, Southeast Asia). The peel-vs-flesh gradient in lotus root illustrates why whole-vegetable vs edible-part matrix definitions matter in certification scope.
+**Certification:** The review's compiled values reinforce rice as the highest-priority grain matrix for Cd and As. The reported Pb-in-rice range (0.01–0.53 mg/kg, with the upper end above the EU and WHO cereal limits) supports continued attention to Pb in rice-based infant cereals and rice flours sourced from certain production regions. The peel-vs-flesh contrast in lotus tuber (1.3–9.0× higher in peel) is relevant to whole-vegetable vs edible-part scope decisions for root-vegetable certification.
 
-**Courses:** Useful overview-level source for modules on aquatic food plant contamination, paddy methylation of Hg, and the distinction between essential micronutrients (Fe, Zn, Cu) and non-essential toxic metals. Covers the food-chain exposure narrative clearly.
+**Courses:** Useful overview-level source for modules on aquatic food-plant contamination, paddy methylation of Hg, bioconcentration factor (BCF), and the distinction between essential micronutrients (Fe, Mn, Cu, Mo, Ni, Zn) and non-essential toxic metals (As, Cd, Cr, Pb, Hg). The DIR equation and worked Nigeria blood-Pb anchor support exposure-translation modules.
 
-**App:** Supports flagging water spinach, lotus root, and watercress as higher-risk aquatic vegetables. Reinforces rice as a high-priority ingredient for As and Cd profiling.
+**App:** Reinforces rice as a high-priority ingredient for As and Cd profiling. Supports flagging water spinach, lotus root, and watercress as higher-risk aquatic vegetables when sourced from regions with documented industrial or mining contamination of irrigation water.
+
+## Verification notes
+
+- Enhanced 2026-05-18 from prior 2026-05-14 revision. Cite_key, DOI, raw_path, license preserved.
+- **Numerical corrections to Table 2 transcription.** The prior revision had column-shifted values for Rice, Water Spinach, and Watercress rows. Corrected against the source PDF Table 2 (p.8): Rice Pb is 0.01–0.53* (not 0.12–0.37), Rice Cr is 0.12–0.37 (not 2.6–5.3), Rice Cu is 2.6–5.3 (not previously reported), Rice Ni is 0.25* (not 0.01–0.53). Water spinach Cd is 0.06–1.10* (not Pb), water spinach Hg is 1.44* (not Cd); Zn 16–36 belongs to the Rice row, not Water Spinach. Watercress Cr is 0.34 (not 0.30), watercress Co is 0.30* (newly included), watercress Ni 0.34* added. All values cross-verified to Table 2 columns.
+- **Paper-internal Hg inconsistency for water spinach.** The body (p.4) cites Göthberg et al. 2002 as "Hg concentrations of up to 1.440 µg kg⁻¹ dry weight"; Table 2 summarizes the same reference as 1.44 (mg/kg wet produce). The difference is three orders of magnitude. Reported here as the paper presents both, without choosing one over the other. Downstream synthesis should consult Göthberg et al. 2002 directly before using either value.
+- **Speciation discipline.** The review does not separate iAs/tAs or MeHg/tHg in its occurrence tables, so frontmatter uses tAs and tHg. The metals field expanded from the prior revision to include Cu, Zn, and Co because Table 2 reports occurrence values for those three across the cited species.
+- **Raw handle correction.** Changed from non-standard `papers-cube` to `PCMF_article-1-copy-5` per the manual-fetch handle convention.
+- **Matrices.** Updated from `[rice, aquatic-vegetables, irrigation-water]` to `[rice, leafy-vegetable, root-vegetable, irrigation-water]` to align with the controlled vocabulary in `docs/gpt-collaboration/system-prompt.md`; aquatic-vegetables is not in the vocabulary, and leafy-vegetable + root-vegetable better describe what the review actually compiles (water spinach/watercress leaves; lotus tuber, taro corm).
+- **Routing advisory.** `products: []` is correct for this review — it is a synthesis across food-source categories, not a product-category study; the advisory entry in `routing_malformed.csv` is expected and non-blocking for a review of this kind.
 
 ## Wiki pages updated on ingest
 - [[metals/arsenic]]
@@ -63,7 +74,12 @@ This is a narrative review; no primary analytical method is described. The autho
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[metals/mercury]]
+- [[metals/nickel]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/cobalt]]
 - [[ingredients/rice]]
 - [[ingredients/water-spinach]]
 - [[ingredients/lotus-root]]
 - [[ingredients/watercress]]
+- [[ingredients/taro]]
