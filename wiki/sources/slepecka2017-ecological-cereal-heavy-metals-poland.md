@@ -31,7 +31,7 @@ This study compared cadmium, lead, zinc, and copper concentrations in 10 ecologi
 
 ## Key numbers
 
-All concentrations are mg/kg. The paper cites PN-EN 14084:2004P reference levels as Cd 0.20 mg/kg, Pb 0.20 mg/kg, Zn 73.5 mg/kg, and Cu 10.3 mg/kg.
+All concentrations are mg/kg. The authors cite PN-EN 14084:2004P reference levels as Cd 0.20 mg/kg, Pb 0.20 mg/kg, Zn 73.5 mg/kg, and Cu 10.3 mg/kg; this page treats those values as the paper's cited comparator rather than independently re-validating the standard.
 
 Flour findings:
 
@@ -55,12 +55,12 @@ Flake findings:
 
 | Analyte | Ecological flakes | Non-ecological flakes |
 | --- | --- | --- |
-| Cd | Mean 20.70 mg/kg; range 16.90 mg/kg in barley flakes to 23.75 mg/kg in oat flakes | Below the determination limit |
-| Pb | Mean 1.58 mg/kg; range 0.39 mg/kg in oat flakes to 2.44 mg/kg in rye flakes | Mean 2.43 mg/kg; range 2.12 mg/kg in oat flakes to 2.61 mg/kg in rye flakes |
-| Cu | Mean 19.98 mg/kg; range 18.91 mg/kg in barley flakes to 20.77 mg/kg in oat flakes | Mean 26.26 mg/kg; range 25.22 mg/kg in oat flakes to 27.16 mg/kg in rye flakes |
-| Zn | Mean 48.95 mg/kg; range 37.55 mg/kg in barley flakes to 48.81 mg/kg in oat flakes | Mean 77.88 mg/kg; range 34.30 mg/kg in barley flakes to 132.00 mg/kg in rye flakes |
+| Cd | Mean 20.70 mg/kg; range 16.90 mg/kg in barley flakes to 23.75 mg/kg in oatmeal/oat flakes | Below the determination limit |
+| Pb | Mean 1.58 mg/kg; range 0.39 mg/kg in oatmeal/oat flakes to 2.44 mg/kg in rye flakes | Mean 2.43 mg/kg; range 2.12 mg/kg in oatmeal/oat flakes to 2.61 mg/kg in rye flakes |
+| Cu | Mean 19.98 mg/kg; range 18.91 mg/kg in barley flakes to 20.77 mg/kg in oatmeal/oat flakes | Mean 26.26 mg/kg; range 25.22 mg/kg in oatmeal/oat flakes to 27.16 mg/kg in rye flakes |
+| Zn | Mean 48.95 mg/kg; range 37.55 mg/kg in barley flakes to 48.81 mg/kg in oatmeal/oat flakes | Mean 77.88 mg/kg; range 34.30 mg/kg in barley flakes to 132.00 mg/kg in rye flakes |
 
-Source conclusion against PN-EN 14084:2004P:
+Source conclusion against the authors' cited PN-EN 14084:2004P comparator:
 
 - Ecological products were not distinguished by lower heavy-metal content than non-ecological products.
 - All tested cereal products except conventional flours and ecological buckwheat flour exceeded the Cd level permitted by the cited standard.
@@ -79,11 +79,11 @@ Sample preparation used 0.5 g product weighed to 0.001 g, 3 mL 65% nitric acid (
 - Pb, Cd, Zn, and Cu are reported as total element concentrations; no chemical species are distinguished.
 - The paper is a small occurrence survey (20 products total), and the group means are mostly reported in narrative text and figures rather than sample-level tables.
 - The paper does not report LODs, LOQs, certified-reference-material recoveries, or blank values.
-- The Cd values reported for ecological flours, bran, and flakes are extremely high for cereal products. The source does not flag a unit anomaly, so this page preserves the source's mg/kg values but treats the source as B-tier and flags the values for cautious use.
+- The Cd values reported for ecological flours, bran, and flakes are far above the authors' cited 0.20 mg/kg comparator. The source does not flag a unit anomaly, so this page preserves the source's mg/kg values but treats the source as B-tier and flags the values for cautious use.
 
 ## Implications
 
-Standards work: This source contributes Polish occurrence context for Cd, Pb, Zn, and Cu in cereal flours, bran, and flakes. It is most useful as a cautionary small-study datapoint: the reported Cd values are much higher than typical cereal surveillance values, and the paper lacks enough QA/QC detail to use the values as a primary threshold anchor without corroboration.
+Standards work: This source contributes Polish occurrence context for Cd, Pb, Zn, and Cu in cereal flours, bran, and flakes. It is most useful as a cautionary small-study datapoint: the reported Cd values are far above the authors' cited 0.20 mg/kg comparator, and the paper lacks enough QA/QC detail to use the values as a primary threshold anchor without corroboration.
 
 Courses: The paper is useful for teaching that ecological/organic production status does not by itself demonstrate lower metal concentrations. It also illustrates why bran and whole-grain fractions need separate attention from refined flours when source data are available.
 
