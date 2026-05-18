@@ -267,7 +267,7 @@ The reader who finishes Part 1 should understand three things. The current enfor
 = 1.2 The Structural Problem: Why Public Exposé Testing Fails
 
 
-The detection of heavy metals in consumer food products is not a question of _if_ but of _how much, how often, and in what context_. The United States Food and Drug Administration's Total Diet Study reports lead in 15% of food samples, arsenic in 43%, cadmium in 33%, and mercury in 10%. These are not anomalies attributable to negligent manufacturers; they reflect the geochemistry of agricultural soils, the hydrology of irrigation systems, and the industrial legacy of environmental contamination. Heavy metals are, in the strictest analytical sense, ubiquitous in the food supply.
+The detection of heavy metals in consumer food products is not a question of _if_ but of _how much, how often, and in what context_. The United States Food and Drug Administration's Total Diet Study reports lead in 15% of food samples, arsenic in 43%, cadmium in 33%, and mercury in 10% [1]. These are not anomalies attributable to negligent manufacturers; they reflect the geochemistry of agricultural soils, the hydrology of irrigation systems, and the industrial legacy of environmental contamination. Heavy metals are, in the strictest analytical sense, ubiquitous in the food supply.
 
 
 Against this backdrop, a pattern of consumer advocacy has emerged that this manual calls _unstructured public exposé testing_. Independent actors, typically bloggers, consumer watchdog organizations, or self-described whistleblowers, privately commission heavy metal testing of commercially available products, then publicly disclose the results in formats designed to maximize consumer alarm and media attention. The tested brands are identified by name. The results are presented without population-level context, without category benchmarking, without measurement uncertainty disclosure, and without the analytical framework necessary to distinguish a meaningful public health concern from a statistically unremarkable detection.
@@ -289,16 +289,16 @@ The typical unstructured exposé follows a recognizable pattern. An independent 
 What is present in this methodology is a _detection_. What is absent is everything required to make that detection meaningful.
 
 
-There is no *population-level benchmarking*. A chickpea product reporting 15 ppb lead may be the cleanest product in an entire category where the median is 40 ppb. Without population-level data, the distribution of results across all comparable products in the category, the reported number is analytically orphaned. It cannot be contextualized, and therefore it cannot inform a rational purchasing decision or a meaningful public-health assessment. The FDA's Total Diet Study and its Closer to Zero initiative are explicitly designed around population-level exposure modeling precisely because single-sample results are insufficient for risk characterization. The exposé model inverts this logic: it treats the single sample as the unit of analysis and asks the consumer to draw conclusions that the data cannot support.
+There is no *population-level benchmarking*. A chickpea product reporting 15 ppb lead may be the cleanest product in an entire category where the median is 40 ppb. Without population-level data, the distribution of results across all comparable products in the category, the reported number is analytically orphaned. It cannot be contextualized, and therefore it cannot inform a rational purchasing decision or a meaningful public-health assessment. The FDA's Total Diet Study [1] and its Closer to Zero initiative [7] are explicitly designed around population-level exposure modeling precisely because single-sample results are insufficient for risk characterization. The exposé model inverts this logic: it treats the single sample as the unit of analysis and asks the consumer to draw conclusions that the data cannot support.
 
 
-There is no *measurement uncertainty disclosure*. Analytical chemistry at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb threshold does not necessarily indicate that the true concentration exceeds the threshold; the measurement may reflect analytical noise. Accredited laboratory practice under ISO/IEC 17025 requires that measurement uncertainty be reported and incorporated into compliance decisions through formal decision rules. The exposé model treats reported values as exact, presenting 11 ppb as a definitive exceedance when it may not be one. This is not a minor methodological quibble; it is a fundamental analytical error that can make or break a brand's public reputation.
+There is no *measurement uncertainty disclosure*. Analytical chemistry at low parts-per-billion concentrations introduces inherent measurement uncertainty. A reported result of 11 ppb against a 10 ppb threshold does not necessarily indicate that the true concentration exceeds the threshold; the measurement may reflect analytical noise. Accredited laboratory practice under ISO/IEC 17025 [33] requires that measurement uncertainty be reported and incorporated into compliance decisions through formal decision rules [34, 35]. The exposé model treats reported values as exact, presenting 11 ppb as a definitive exceedance when it may not be one. This is not a minor methodological quibble; it is a fundamental analytical error that can make or break a brand's public reputation.
 
 
-There is no *temporal or seasonal context*. Heavy metal concentrations in agricultural products are not static. They vary by growing season, soil conditions, irrigation source, geographic origin, and post-harvest processing. A single lot tested at a single point in time may not represent the product's typical contamination profile. Population-level trend analysis, which requires structured, repeated testing across multiple lots and seasons, is the methodological standard for characterizing a product's heavy metal performance. A single snapshot cannot distinguish a systemic problem from a seasonal outlier, yet the exposé model treats every detection as a stable characteristic of the brand.
+There is no *temporal or seasonal context*. Heavy metal concentrations in agricultural products are not static. They vary by growing season, soil conditions, irrigation source, geographic origin, and post-harvest processing. A single lot tested at a single point in time may not represent the product's typical contamination profile. Population-level trend analysis, which requires structured, repeated testing across multiple lots and seasons, is the methodological standard for characterizing a product's heavy metal performance [8]. A single snapshot cannot distinguish a systemic problem from a seasonal outlier, yet the exposé model treats every detection as a stable characteristic of the brand.
 
 
-There is no *distinction between detection and risk*. Detection is not synonymous with danger. The toxicological significance of a detected concentration depends on the serving size, consumption frequency, body weight, co-exposure pathways, and the specific metal's dose-response relationship. EFSA, JECFA, and the FDA all employ exposure-based risk-assessment frameworks that integrate these variables. The exposé model collapses this complexity into a binary: detected or not detected, safe or unsafe. This framing is not merely oversimplified, it is actively misleading, because it conflates the presence of a contaminant with the presence of a health risk.
+There is no *distinction between detection and risk*. Detection is not synonymous with danger. The toxicological significance of a detected concentration depends on the serving size, consumption frequency, body weight, co-exposure pathways, and the specific metal's dose-response relationship. EFSA, JECFA, and the FDA all employ exposure-based risk-assessment frameworks that integrate these variables [8, 13, 7]. The exposé model collapses this complexity into a binary: detected or not detected, safe or unsafe. This framing is not merely oversimplified, it is actively misleading, because it conflates the presence of a contaminant with the presence of a health risk.
 
 
 
@@ -308,13 +308,13 @@ There is no *distinction between detection and risk*. Detection is not synonymou
 The compliance theory literature identifies a well-documented phenomenon: when disclosure is weaponized against the discloser, rational actors respond by reducing disclosure. This is the _chilling effect_, and it operates with particular force in the heavy metals domain because the underlying contamination is largely not within the brand's direct control.
 
 
-Consider the decision facing a food brand that is actively working to reduce heavy metal contamination in its products. The brand has two strategic options: invest in testing, data collection, and transparency (Option A), or minimize testing and avoid generating discoverable data (Option B). In the absence of public exposé risk, Option A dominates: better data enables better supplier management, better regulatory defense, and better consumer trust. But the introduction of exposé risk changes the payoff matrix. Under Option A, the brand generates data that can be captured, decontextualized, and published by an external actor in a format that maximizes reputational damage. Under Option B, the brand generates no data, cannot be targeted, and faces only the background regulatory risk that all brands share. The rational strategic response to public exposé risk is therefore to reduce testing, reduce data generation, and reduce transparency, precisely the opposite of what the food-safety system requires.
+Consider the decision facing a food brand that is actively working to reduce heavy metal contamination in its products. The brand has two strategic options: invest in testing, data collection, and transparency (Option A), or minimize testing and avoid generating discoverable data (Option B). In the absence of public exposé risk, Option A dominates: better data enables better supplier management, better regulatory defense, and better consumer trust. But the introduction of exposé risk changes the payoff matrix. Under Option A, the brand generates data that can be captured, decontextualized, and published by an external actor in a format that maximizes reputational damage. Under Option B, the brand generates no data, cannot be targeted, and faces only the background regulatory risk that all brands share. The rational strategic response to public exposé risk is therefore to reduce testing, reduce data generation, and reduce transparency, precisely the opposite of what the food-safety system requires [45, 46].
 
 
-A substantial body of research across international relations, regulatory theory, and criminology examines the conditions under which naming and shaming improves or degrades compliance. The findings are consistent: shaming is most likely to backfire when the target perceives the shaming agent as an out-group actor lacking legitimate authority, when the shaming lacks proportionality to the offense, and when the target has no clear pathway to redemption. All three conditions are satisfied in the public exposé model. The shaming agent is typically a blogger or advocacy organization with no regulatory authority, no accreditation, and no formal relationship with the brand. The shaming is disproportionate because it treats the presence of a ubiquitous environmental contaminant as if it were evidence of corporate malfeasance. And there is no pathway to redemption: once results are published, the brand has no mechanism to demonstrate improvement, no graduated framework for compliance, and no way to contextualize its performance against category peers.
+A substantial body of research across international relations, regulatory theory, and criminology examines the conditions under which naming and shaming improves or degrades compliance. The findings are consistent: shaming is most likely to backfire when the target perceives the shaming agent as an out-group actor lacking legitimate authority, when the shaming lacks proportionality to the offense, and when the target has no clear pathway to redemption [43, 44, 45]. All three conditions are satisfied in the public exposé model. The shaming agent is typically a blogger or advocacy organization with no regulatory authority, no accreditation, and no formal relationship with the brand. The shaming is disproportionate because it treats the presence of a ubiquitous environmental contaminant as if it were evidence of corporate malfeasance. And there is no pathway to redemption: once results are published, the brand has no mechanism to demonstrate improvement, no graduated framework for compliance, and no way to contextualize its performance against category peers.
 
 
-Snyder (2020) documents that naming and shaming in international contexts frequently produces a "backlash narrative" that locks in the targeted behavior rather than correcting it. Terman's research demonstrates a "politicization paradox" in which enforcement mechanisms designed to punish violations can operate in ways that encourage, reward, and perpetuate them. Van Erp (2011) finds that regulatory disclosure influences compliance only when it connects to firms' existing motivations for maintaining a good reputation, not when it is perceived as arbitrary or punitive. The exposé model satisfies none of these conditions for productive shaming.
+Snyder (2020) documents that naming and shaming in international contexts frequently produces a "backlash narrative" that locks in the targeted behavior rather than correcting it [44]. Terman's research demonstrates a "politicization paradox" in which enforcement mechanisms designed to punish violations can operate in ways that encourage, reward, and perpetuate them. Van Erp (2011) finds that regulatory disclosure influences compliance only when it connects to firms' existing motivations for maintaining a good reputation, not when it is perceived as arbitrary or punitive [43]. The exposé model satisfies none of these conditions for productive shaming. The full peer-track treatment of these compliance-theory mechanisms appears in [46].
 
 
 
@@ -343,13 +343,13 @@ This creates a deeply perverse outcome: the brands most committed to quality imp
 Public exposé testing does not operate in a vacuum. It operates in a legal environment where plaintiffs' attorneys are actively monitoring consumer advocacy disclosures for actionable data. The connection between published testing results and litigation filings is direct and documented.
 
 
-A Reuters report described a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least \$5 million in damages and citing a published third-party testing report as the precipitating trigger. This is a prototypical pattern: a published testing report becomes the complaint's factual scaffold, and the brand is named even if it did not manufacture the product. The exposé actor may intend consumer education, but what they produce is plaintiff-ready evidence.
+A Reuters report described a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least \$5 million in damages and citing a published third-party testing report as the precipitating trigger [26, 27]. This is a prototypical pattern: a published testing report becomes the complaint's factual scaffold, and the brand is named even if it did not manufacture the product. The exposé actor may intend consumer education, but what they produce is plaintiff-ready evidence.
 
 
-The baby-food heavy-metal litigation consolidated in MDL No. 3101, with approximately 345 pending claims as of late 2025 alleging neurodevelopmental injury, provides a further demonstration of how testing disclosures become legal instruments. The MDL record reflects plaintiffs' allegations that any detectable amount could cause injury, illustrating how the absence of agreed-upon safe thresholds can be operationalized into litigation narratives. Defense costs in such matters routinely exceed \$2 million per major case, with discovery costs alone often exceeding \$600,000.
+The baby-food heavy-metal litigation consolidated in MDL No. 3101 [24], with approximately 345 pending claims as of late 2025 alleging neurodevelopmental injury [25], provides a further demonstration of how testing disclosures become legal instruments. The MDL record reflects plaintiffs' allegations that any detectable amount could cause injury, illustrating how the absence of agreed-upon safe thresholds can be operationalized into litigation narratives. Defense costs in such matters routinely exceed \$2 million per major case, with discovery costs alone often exceeding \$600,000 [38].
 
 
-In California, Proposition 65 creates a private-enforcement regime where any private party can initiate litigation alleging exposure to a listed chemical without a government enforcement action. Published exposé results provide the factual predicate for such actions. Settlement economics in Proposition 65 cases are dominated by attorneys' fees: a \$28,000 settlement may allocate \$25,000 to attorneys' fees and only \$3,000 to civil penalties. A brand without a documented third-party testing and certification framework becomes a repeat defendant across SKUs, lots, and flavors, with each exposé publication providing a new cause of action. The irony is acute: the exposé actor generates the evidence that enables the litigation that imposes the costs that discourage the transparency that would enable contamination reduction.
+In California, Proposition 65 creates a private-enforcement regime where any private party can initiate litigation alleging exposure to a listed chemical without a government enforcement action [28]. Published exposé results provide the factual predicate for such actions. Settlement economics in Proposition 65 cases are dominated by attorneys' fees: a \$28,000 settlement may allocate \$25,000 to attorneys' fees and only \$3,000 to civil penalties [29]. A brand without a documented third-party testing and certification framework becomes a repeat defendant across SKUs, lots, and flavors, with each exposé publication providing a new cause of action. The irony is acute: the exposé actor generates the evidence that enables the litigation that imposes the costs that discourage the transparency that would enable contamination reduction.
 
 
 The cycle is self-reinforcing. Public exposé testing generates data. The data is published without context. The publication triggers consumer alarm and media coverage. The media coverage attracts plaintiffs' attorneys. The litigation imposes costs on the named brand. The brand learns that transparency is punished. The brand reduces transparency. Less data is generated. Less data means less ability to identify and remediate contamination. Contamination levels do not decline. The exposé actor tests again and finds contamination. The cycle repeats.
@@ -392,7 +392,7 @@ The core finding: a single contamination-triggered event, recall, delisting, or 
 The relevant business question is not whether heavy metals will be detected in a brand's products, but whether the brand's controls are credible, documented, and independently defensible when regulators, retailers, or plaintiffs' counsel ask. Three independent surveillance datasets establish that detection is common enough that absence-of-data is not a defensible posture.
 
 
-The FDA modernized Total Diet Study for FY2018–2020 analyzed 3,241 food and beverage samples across 305 foods and beverages for 21 elements. Detection frequencies for the key toxic elements: lead detected in 15% of samples (non-detect to 164 ppb), arsenic detected in 43% (non-detect to 10,900 ppb), cadmium detected in 33% (non-detect to 485 ppb), and mercury detected in 10% (non-detect to 2,890 ppb). For baby foods specifically, FDA's FY2019 sampling of 384 samples found 65% of Pb/As/Cd/Hg results were non-detect, with no significant regional or seasonal differences, detection is _common_ even though exceedances are rare.
+The FDA modernized Total Diet Study [1] for FY2018–2020 analyzed 3,241 food and beverage samples across 305 foods and beverages for 21 elements. Detection frequencies for the key toxic elements: lead detected in 15% of samples (non-detect to 164 ppb), arsenic detected in 43% (non-detect to 10,900 ppb), cadmium detected in 33% (non-detect to 485 ppb), and mercury detected in 10% (non-detect to 2,890 ppb). For baby foods specifically, FDA's FY2019 sampling of 384 samples found 65% of Pb/As/Cd/Hg results were non-detect, with no significant regional or seasonal differences, detection is _common_ even though exceedances are rare.
 
 
 The Canadian Food Inspection Agency Children's Food Project Annual Report (2022) tested 108 infant and children's snack and cereal samples. *96% contained detectable levels of arsenic, cadmium, lead, and/or mercury.* For lead specifically, 41% were non-detect; positive samples ranged from 0.0050 to 0.196 ppm. Detection is the normal state of affairs, not the anomaly.
@@ -417,10 +417,10 @@ In the United States, FDA's action levels for lead in processed foods intended f
 California Assembly Bill 899 establishes a direct-cost compliance regime: manufacturers of baby food must test and disclose levels of arsenic, cadmium, lead, and mercury, with state-code requirements effective January 1, 2024, and public disclosure obligations for baby food products sold on or after January 1, 2025. On March 6, 2026, the California Attorney General issued an enforcement advisory letter reminding companies of AB 899 obligations, signaling an active enforcement posture.
 
 
-In the EU, Regulation (EU) 2023/915 explicitly reiterates the ALARA principle and consolidates maximum levels across contaminants. The annex includes detailed maximum levels for lead, arsenic, and mercury across numerous commodities, including infant and young child categories with inorganic arsenic maximum levels at 0.020 mg/kg for baby food and 0.10 mg/kg for infant/young child rice. Globally, the Codex Alimentarius General Standard for Contaminants and Toxins (CXS 193-1995) provides internationally recognized principles and lists maximum levels.
+In the EU, Regulation (EU) 2023/915 [19] explicitly reiterates the ALARA principle and consolidates maximum levels across contaminants. The annex includes detailed maximum levels for lead, arsenic, and mercury across numerous commodities, including infant and young child categories with inorganic arsenic maximum levels at 0.020 mg/kg for baby food and 0.10 mg/kg for infant/young child rice. Globally, the Codex Alimentarius General Standard for Contaminants and Toxins (CXS 193-1995) provides internationally recognized principles and lists maximum levels.
 
 
-The convergence, FDA action levels hardening, California AB 899 mandating disclosure, EU 2023/915 consolidating maximum levels with ALARA expectations, means that the regulatory floor is rising under brands' feet at the same time that litigation centralization and retailer gatekeeping are tightening from above. A brand operating without a documented, third-party-verified program is increasingly exposed at every layer simultaneously.
+The convergence, FDA action levels hardening, California AB 899 [21] mandating disclosure, EU 2023/915 consolidating maximum levels with ALARA expectations, means that the regulatory floor is rising under brands' feet at the same time that litigation centralization and retailer gatekeeping are tightening from above. A brand operating without a documented, third-party-verified program is increasingly exposed at every layer simultaneously.
 
 
 
@@ -430,16 +430,16 @@ The convergence, FDA action levels hardening, California AB 899 mandating disclo
 In heavy-metals disputes, being targeted is rarely only about the presence of metals; it is frequently about whether a brand can defend its controls, warnings, and claims using evidence that courts, regulators, retailers, and consumers accept as credible. When that credibility is weak, litigation can become cheaper to file and more expensive to defend.
 
 
-The Judicial Panel on Multidistrict Litigation centralized baby-food heavy-metal cases into MDL No. 3101 (_In re: Baby Food Products Liability Litigation_) in the Northern District of California. A subsequent district-court order referenced over 100 subsequently filed actions alleging toxic heavy metals in baby food and asserting neurodevelopmental injury theories including ASD and ADHD allegations. The MDL had grown to approximately 345 pending claims by late 2025. From a cost standpoint, MDL centralization changes the incentive landscape: common discovery, expert battles, and bellwether structures can amplify legal spend and reputational exposure even before merits are adjudicated.
+The Judicial Panel on Multidistrict Litigation centralized baby-food heavy-metal cases into MDL No. 3101 [24] (_In re: Baby Food Products Liability Litigation_) in the Northern District of California. A subsequent district-court order referenced over 100 subsequently filed actions alleging toxic heavy metals in baby food and asserting neurodevelopmental injury theories including ASD and ADHD allegations. The MDL had grown to approximately 345 pending claims by late 2025. From a cost standpoint, MDL centralization changes the incentive landscape: common discovery, expert battles, and bellwether structures can amplify legal spend and reputational exposure even before merits are adjudicated.
 
 
 Reuters reported a proposed class action suing Amazon.com over alleged sale of rice products contaminated with arsenic and other heavy metals, seeking at least \$5 million in damages under state consumer protection theories. Reuters later reported Amazon's attempt to dismiss, arguing among other points that no excessive levels beyond regulatory limits were alleged. Even when ultimate liability is uncertain, this pattern imposes a predictable cost stack: rapid expert engagement, e-discovery, motion practice, and brand-risk management, costs that are typically higher when a company cannot point to recognized third-party testing and certification as part of routine operations.
 
 
-California Proposition 65 is structurally important because it can generate frequent, product-by-product disputes where attorney fees are significant relative to the underlying exposure issue. A Prop 65 settlement agreement involving a pre-workout product allocated \$25,000 of a \$28,000 total settlement to attorneys' fees and related costs, with only \$3,000 in civil penalties [_People v. Promix Nutrition_, Prop. 65 Settlement No. 2024-02424S4488, Cal. Off. Att'y Gen.]. The micro-economics imply that if a brand lacks an HMTc-like framework, it can become a repeat defendant across SKUs, flavors, and lots, with recurring settlements and ongoing testing and warning obligations that are more expensive than a proactive certification strategy.
+California Proposition 65 [28] is structurally important because it can generate frequent, product-by-product disputes where attorney fees are significant relative to the underlying exposure issue. A Prop 65 settlement agreement involving a pre-workout product allocated \$25,000 of a \$28,000 total settlement to attorneys' fees and related costs, with only \$3,000 in civil penalties [29]. The micro-economics imply that if a brand lacks an HMTc-like framework, it can become a repeat defendant across SKUs, flavors, and lots, with recurring settlements and ongoing testing and warning obligations that are more expensive than a proactive certification strategy.
 
 
-A widely cited federal-courts survey of major companies found mean outside legal fees per major case around \$2.0 million, with discovery costs often well in excess of \$600,000 [Federal Judicial Center, _Litigation Cost Survey of Major Companies_]. These benchmarks are not heavy-metals-specific, but they are critical for modeling: if a heavy-metals dispute becomes major litigation, *defense costs alone can plausibly exceed the annual cost of robust third-party certification, even before settlements, recalls, or sales impacts are included.*
+A widely cited federal-courts survey of major companies [38] found mean outside legal fees per major case around \$2.0 million, with discovery costs often well in excess of \$600,000 [38]. These benchmarks are not heavy-metals-specific, but they are critical for modeling: if a heavy-metals dispute becomes major litigation, *defense costs alone can plausibly exceed the annual cost of robust third-party certification, even before settlements, recalls, or sales impacts are included.*
 
 
 
@@ -449,7 +449,7 @@ A widely cited federal-courts survey of major companies found mean outside legal
 A brand without credible third-party certification faces not only regulators and plaintiffs but also commercial gatekeepers. Retailers, marketplaces, and procurement teams increasingly outsource trust to recognized standards and accredited testing.
 
 
-CVS publicly states it requires third-party laboratory testing of all vitamins and supplements and explicitly lists heavy metals, inorganic arsenic, cadmium, chromium VI, mercury, and lead, as contaminants that cannot exceed the current NSF/ANSI 173 Standard, framing this as a consumer-facing trust commitment. For marketplace access, Amazon's dietary supplement seller documentation requirements include submission of a GMP certificate from an accredited third-party body (21 CFR 111/117) and a finished product COA issued by an ISO/IEC 17025 accredited laboratory, or evidence of enrollment in recognized third-party quality certification programs including NSF/ANSI 173 product certification and USP verification.
+CVS [30] publicly states it requires third-party laboratory testing of all vitamins and supplements and explicitly lists heavy metals, inorganic arsenic, cadmium, chromium VI, mercury, and lead, as contaminants that cannot exceed the current NSF/ANSI 173 [31] Standard, framing this as a consumer-facing trust commitment. For marketplace access, Amazon's dietary supplement seller documentation requirements include submission of a GMP certificate from an accredited third-party body (21 CFR 111/117) and a finished product COA issued by an ISO/IEC 17025 [33] accredited laboratory, or evidence of enrollment in recognized third-party quality certification programs including NSF/ANSI 173 [31] product certification and USP verification.
 
 
 These requirements convert lack of certification into direct commercial risk: listing suppression, delayed launches, forced reformulation, or delisting, each of which has an immediate revenue impact independent of whether a regulator has acted.
@@ -568,10 +568,10 @@ Expected annual benefit: _ΔE = E₀ − E₁ = p × r × L_.
 Break-even condition: _C ≤ p × r × L_.
 
 
-As a worked illustration for a mid-size brand: if _L = \$15M_, _p = 3%_, and _r = 25%_, then _ΔE ≈ \$112,500 per year_. Under those conservative assumptions, certification must cost \$112,500 per year or less to break even on downside-risk avoidance alone. If the brand's channel access depends on third-party testing (such as marketplace COA plus ISO/IEC 17025 requirements) or if the probability or severity is higher (such as children's category exposure or complex botanicals), the break-even rapidly improves.
+As a worked illustration for a mid-size brand: if _L = \$15M_, _p = 3%_, and _r = 25%_, then _ΔE ≈ \$112,500 per year_. Under those conservative assumptions, certification must cost \$112,500 per year or less to break even on downside-risk avoidance alone. If the brand's channel access depends on third-party testing (such as marketplace COA plus ISO/IEC 17025 [33] requirements) or if the probability or severity is higher (such as children's category exposure or complex botanicals), the break-even rapidly improves.
 
 
-*This expected-loss model undervalues certification whenever certification is a prerequisite for market access*, a gating benefit, because avoided delisting is effectively an earned revenue protection rather than avoided loss. Retailer policies like those of CVS explicitly position third-party testing as a standard for supplements sold in their channel, meaning certification can be a revenue-enabling investment, not merely an insurance-like expense.
+*This expected-loss model undervalues certification whenever certification is a prerequisite for market access*, a gating benefit, because avoided delisting is effectively an earned revenue protection rather than avoided loss. Retailer policies like those of CVS [30] explicitly position third-party testing as a standard for supplements sold in their channel, meaning certification can be a revenue-enabling investment, not merely an insurance-like expense.
 
 
 
@@ -590,14 +590,14 @@ The second is *severity reduction via faster containment and smaller scope*. EU 
 The third is *litigation defensibility, or the due-diligence premium*. MDL centralization and consumer class actions illustrate that heavy-metals claims can become scalable. Third-party certification creates contemporaneous, independently validated evidence that can narrow claims, support motions, and reduce settlement leverage.
 
 
-The fourth is *channel access and procurement de-risking*. Retailers and marketplaces increasingly require third-party testing, recognized standards such as NSF/ANSI 173, and ISO/IEC 17025 documentation. Certification therefore reduces the probability of delisting even absent a recall.
+The fourth is *channel access and procurement de-risking*. Retailers and marketplaces increasingly require third-party testing, recognized standards such as NSF/ANSI 173 [31], and ISO/IEC 17025 [33] documentation. Certification therefore reduces the probability of delisting even absent a recall.
 
 
 
 == What this means for the rest of this manual
 
 
-The financial picture is unambiguous. The cost of a contamination event for a brand at any revenue tier is large enough that the expected-loss reduction from certification can exceed certification costs even under conservative probability assumptions. The channel-access value of certification, increasingly required by major retailers and marketplaces, provides additional return that the expected-loss model does not fully capture. The convergence of hardening regulatory frameworks, litigation centralization in MDL 3101, Proposition 65 economics, and retailer gatekeeping means that the cost of inaction is not a static compliance risk but an accelerating commercial liability.
+The financial picture is unambiguous. The cost of a contamination event for a brand at any revenue tier is large enough that the expected-loss reduction from certification can exceed certification costs even under conservative probability assumptions. The channel-access value of certification, increasingly required by major retailers and marketplaces, provides additional return that the expected-loss model does not fully capture. The convergence of hardening regulatory frameworks, litigation centralization in MDL No. 3101 [24], Proposition 65 [28] economics, and retailer gatekeeping means that the cost of inaction is not a static compliance risk but an accelerating commercial liability.
 
 
 What remains is to specify the program itself. Chapter 1.4 bridges the structural argument from Chapter 1.2 and the financial argument from this chapter to the operational program in Part 2.
@@ -752,7 +752,7 @@ What remains in Part 1 is to introduce the evidence base. The HMTc methodology r
 #line(length: 100%, stroke: 0.4pt + rgb("#bbb"))
 
 
-*Full peer-track treatment.* The design rationale summarized in this chapter is presented at peer-track length in _Pendergrass, K. Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods: Integrating Legal Defensibility, Scientific Rigor, and Commercial Viability. Journal of Food Metallomics. 2026. doi: #link("https://doi.org/10.5281/zenodo.18905821")[10.5281/zenodo.18905821]._ The preprint's calibration framing (an 80% achievability threshold) reflects the program's March 2026 state; the current operational calibration is the 90/30 row-pass intent specified in the Governing Principles and Part 2 of this manual. The preprint's structural design principles remain canonical.
+*Full peer-track treatment.* The design rationale summarized in this chapter is presented at peer-track length in _Pendergrass, K. Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods: Integrating Legal Defensibility, Scientific Rigor, and Commercial Viability. Journal of Food Metallomics. 2026_ [48]. The preprint's calibration framing (an 80% achievability threshold) reflects the program's March 2026 state; the current operational calibration is the 90/30 row-pass intent specified in the Governing Principles and Part 2 of this manual. The preprint's structural design principles remain canonical.
 
 
 
@@ -1085,7 +1085,7 @@ Before specifying the tier classification, this chapter establishes the most imp
 == The aggregate-exposure framing
 
 
-#quote(block: true)[A day's consumption *at the FDA action level* across four common categories, 800 milliliters of ready-to-feed formula at the 10 ppb FDA action level for infant formula and most baby foods [FDA, _Guidance for Industry: Action Levels for Lead in Processed Food Intended for Babies and Young Children_, January 2025], one 20 ppb serving of dry infant cereal (FDA action level for dry cereals, _ibid._), one 10 ppb fruit purée (FDA action level for most baby foods, _ibid._), and one 20 ppb root-vegetable purée (FDA action level for root vegetables, _ibid._), yields approximately *10.4 µg lead per day*, more than *4.7 times* the FDA Interim Reference Level of 2.2 µg/day for young children [FDA, _Updated Interim Reference Levels for Dietary Lead_, June 2022]. Even at full compliance with FDA action levels across all four food categories, aggregate intake at typical infant consumption patterns substantially exceeds the IRL.
+#quote(block: true)[A day's consumption *at the FDA action level* across four common categories, 800 milliliters of ready-to-feed formula at the 10 ppb FDA action level for infant formula and most baby foods [2], one 20 ppb serving of dry infant cereal (FDA action level for dry cereals) [2], one 10 ppb fruit purée (FDA action level for most baby foods) [2], and one 20 ppb root-vegetable purée (FDA action level for root vegetables) [2], yields approximately *10.4 µg lead per day*, more than *4.7 times* the FDA Interim Reference Level of 2.2 µg/day for young children [3]. Even at full compliance with FDA action levels across all four food categories, aggregate intake at typical infant consumption patterns substantially exceeds the IRL.
 
 
 This is why HMTc category limits sit below applicable regulatory action levels rather than at them. Aggregate exposure across categories, not single-product compliance, is the relevant exposure metric for infants and young children. The Program drives every product, in every category, steadily and measurably closer to the lowest achievable levels of contamination, simultaneously.]
@@ -1125,16 +1125,16 @@ Tier 1 metals are those that are carcinogenic with no established safe threshold
   ),
   [*Lead (Pb)*],
   [Total elemental lead],
-  [EFSA (2010) concluded that "a threshold for the critical effects of lead in children's neurodevelopment could not be identified" (BMDL01 = 12 µg/L blood lead for one-​point IQ decrement). JECFA (2011) withdrew its PTWI on the grounds that "conventional tolerable intake values were no longer health-​protective" for endpoints without an identifiable threshold. Full toxicology: see Part 5 Glossary and `wiki/metals/lead` on heavymetalindex.com.],
+  [EFSA (2010) [8] concluded that "a threshold for the critical effects of lead in children's neurodevelopment could not be identified" (BMDL01 = 12 µg/L blood lead for one-​point IQ decrement). JECFA (2011) [13] withdrew its PTWI on the grounds that "conventional tolerable intake values were no longer health-​protective" for endpoints without an identifiable threshold. Full toxicology: see Part 5 Glossary and `wiki/metals/lead` on heavymetalindex.com.],
   [*Cadmium (Cd)*],
   [Total elemental cadmium],
-  [Bioaccumulative with biological half-​life of 10–30 years; renal cortex is the primary target organ; IARC classifies cadmium and cadmium compounds as Group 1 (carcinogenic to humans). EFSA TWI 2.5 µg/kg bw/week; JECFA PTMI 25 µg/kg bw/month. Full toxicology: `wiki/metals/cadmium` on heavymetalindex.com.],
+  [Bioaccumulative with biological half-​life of 10–30 years; renal cortex is the primary target organ; IARC [17] classifies cadmium and cadmium compounds as Group 1 (carcinogenic to humans). EFSA TWI 2.5 µg/kg bw/week [11]; JECFA PTMI 25 µg/kg bw/month [15]. Full toxicology: `wiki/metals/cadmium` on heavymetalindex.com.],
   [*Arsenic (iAs)*],
   [Inorganic arsenic (speciation required for rice-​containing products; reflex for others)],
-  [IARC classifies inorganic arsenic as Group 1 (carcinogenic to humans) on the basis of lung, skin, and bladder cancer evidence. EFSA's 2024 reassessment derived a cancer reference point of approximately 0.06 µg/kg bw/day and concluded that margins of exposure at current dietary intake levels remain low. Full toxicology: `wiki/metals/arsenic-​inorganic` on heavymetalindex.com.],
+  [IARC classifies inorganic arsenic [9] as Group 1 (carcinogenic to humans) on the basis of lung, skin, and bladder cancer evidence. EFSA's 2024 reassessment [10] derived a cancer reference point of approximately 0.06 µg/kg bw/day and concluded that margins of exposure at current dietary intake levels remain low. Full toxicology: `wiki/metals/arsenic-​inorganic` on heavymetalindex.com.],
   [*Mercury (MeHg)*],
   [Methylmercury (speciation required for fish-​containing products; reflex for others)],
-  [Methylmercury crosses the blood-​brain barrier and accumulates in developing neural tissue; prenatal and early postnatal exposure windows are most critical. EFSA TWI 1.3 µg/kg bw/week; EPA RfD 0.1 µg/kg bw/day. Full toxicology: `wiki/metals/mercury-​methyl` on heavymetalindex.com.],
+  [Methylmercury crosses the blood-​brain barrier and accumulates in developing neural tissue; prenatal and early postnatal exposure windows are most critical. EFSA TWI 1.3 µg/kg bw/week [12]; EPA RfD 0.1 µg/kg bw/day [16]. Full toxicology: `wiki/metals/mercury-​methyl` on heavymetalindex.com.],
 )
 
 
@@ -10849,7 +10849,7 @@ To deliver the 90/30 row-level intent, per-analyte limits are set as follows:
 The reasoning is the row-pass calibration: a brand certifies a product (one row, ten analytes simultaneously), not one analyte at a time. Under analyte independence, per-analyte limits set at the raw P90 of the clean distribution would deliver a joint row-pass rate of approximately 0.9^10 = 35%. Under realistic analyte correlation (around 0.6, since supply-chain hygiene drives multiple metals together), the joint rate sits around 50–70%. To deliver the 90% row-pass intent for clean-platform brands, per-analyte limits are uplifted from the raw P90 to P97; the analogous uplift for dirty-platform brands moves from raw P30 to P45.
 
 
-The analyte-correlation estimate of approximately 0.6 is consistent with cross-analyte correlation observed in published surveillance datasets (FDA Total Diet Study; EFSA scientific opinions on Pb, Cd, and iAs in food). It is an estimate from external surveillance data, not a measurement from HMTc-internal lot data. The 12-month post-launch methodology review will measure empirical analyte correlation from HMTc lot results and may revise the per-analyte percentile uplift if the empirical correlation diverges materially from the assumed value.
+The analyte-correlation estimate of approximately 0.6 is consistent with cross-analyte correlation observed in published surveillance datasets (FDA Total Diet Study [1]; EFSA scientific opinions [8, 10] on Pb, Cd, and iAs in food). It is an estimate from external surveillance data, not a measurement from HMTc-internal lot data. The 12-month post-launch methodology review will measure empirical analyte correlation from HMTc lot results and may revise the per-analyte percentile uplift if the empirical correlation diverges materially from the assumed value.
 
 
 The uplift is uniform across all analytes today. Per-analyte differentiation, for example, lead tighter than nickel based on regulatory pressure or toxicology, is a Tier 2 calibration deferred until HMTc has accumulated 6–12 months of lot-testing data to measure actual joint pass rates empirically.
@@ -11292,128 +11292,241 @@ The glossary travels with every licensing-exhibit extraction (Part 3 chapter det
 
 
 
-= 5.4 Consolidated Sources Index
+= 5.4 References
 
 
-This index consolidates the citations referenced across the Program Manual. Each entry is keyed by the document type and includes the chapter cross-references where the source is cited. For per-product literature sources cited in Part 3 chapters, see each chapter's chapter-scoped Sources Cited section; the consolidated index below focuses on cross-cutting sources cited in Parts 1, 2, and 5.
-
-
-
-== Toxicological reference documents
-
-
-- *EFSA Panel on Contaminants in the Food Chain.* Scientific Opinion on Lead in Food. _EFSA Journal_ 2010;8(4):1570. doi:10.2903/j.efsa.2010.1570. (Cited Parts 1.3, 2.2, 5.1, 5.3; full review at `wiki/metals/lead` on heavymetalindex.com.)
-- *EFSA CONTAM Panel.* Scientific Opinion on Arsenic in Food. _EFSA Journal_ 2009;7(10):1351. doi:10.2903/j.efsa.2009.1351.
-- *EFSA CONTAM Panel.* Update of the Risk Assessment of Inorganic Arsenic in Food. _EFSA Journal_ 2024;22(1):8488. doi:10.2903/j.efsa.2024.8488.
-- *EFSA.* EFSA Sets Lower Tolerable Intake Level for Cadmium in Food. News Release, March 2009 (TWI 2.5 µg/kg bw/week).
-- *EFSA.* Mercury in Food, EFSA Updates Advice on Risks for Public Health. Press Release, December 2012 (MeHg TWI 1.3 µg/kg bw/week; inorganic Hg TWI 4 µg/kg bw/week).
-- *JECFA.* Evaluation of Certain Food Additives and Contaminants: Seventy-Third Report. WHO Technical Report Series No. 960, 2011 (Lead PTWI withdrawal).
-- *JECFA.* Methylmercury and Mercury Chemical Evaluation Database Entries.
-- *JECFA.* Cadmium PTMI database entry (25 µg/kg bw/month).
-- *EPA/FDA.* Fish Advice: Technical Information. Reference Dose for Methylmercury (0.1 µg/kg/day RfD).
-- *ATSDR.* Toxicological Profile for Cadmium. U.S. Department of Health and Human Services, 2012.
-- *National Research Council.* Toxicological Effects of Methylmercury. National Academies Press, 2000.
+This numbered references list covers the citations used in Parts 1, 2, 2.5, and 5 of this manual. Inline citations in those parts appear as bracketed numbers [N] keyed to this list. Per-product references for the standards published in Part 3 chapters appear in each chapter's Sources Cited section and are not duplicated here; that chapter-scoped attribution is the authoritative trail for the limit values in each chapter.
 
 
 
-== US regulatory documents
+== Regulatory and toxicological authorities
 
 
-- *FDA.* Total Diet Study (TDS): FY2018–2020 TDS Elements Report. 2022. Available: #link("https://www.fda.gov/media/159745/download")[https://www.fda.gov/media/159745/download]
-- *FDA.* Guidance for Industry: Action Levels for Lead in Processed Food Intended for Babies and Young Children. Final Guidance. January 2025.
-- *FDA.* Updated Interim Reference Levels for Dietary Lead to Support FDA's Closer to Zero Action Plan. June 2022.
-- *FDA.* Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry. June 2023.
-- *FDA.* Inorganic Arsenic in Rice Cereals for Infants: Action Level. August 2020.
-- *FDA.* Compliance Program 7304.019: Toxic Elements in Food and Foodware, and Radionuclides in Food. August 2023.
-- *FDA.* Closer to Zero: Reducing Childhood Exposure to Contaminants from Foods. 2021.
-- *OEHHA.* Lead, Arsenic, and Cadmium Proposition 65 listings and safe harbor levels.
+[1]  U.S. Food and Drug Administration. _Analytical Results of the Total Diet Study, FY2018–FY2020 TDS Elements Report._ 2022. #link("https://www.fda.gov/media/159745/download")[https://www.fda.gov/media/159745/download]
+
+
+[2]  U.S. Food and Drug Administration. _Guidance for Industry: Action Levels for Lead in Processed Food Intended for Babies and Young Children._ Final Guidance. January 2025.
+
+
+[3]  U.S. Food and Drug Administration. _Updated Interim Reference Levels for Dietary Lead to Support FDA's Closer to Zero Action Plan._ June 2022.
+
+
+[4]  U.S. Food and Drug Administration. _Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry._ June 2023.
+
+
+[5]  U.S. Food and Drug Administration. _Inorganic Arsenic in Rice Cereals for Infants: Action Level._ August 2020.
+
+
+[6]  U.S. Food and Drug Administration. _Compliance Program 7304.019: Toxic Elements in Food and Foodware, and Radionuclides in Food._ August 2023.
+
+
+[7]  U.S. Food and Drug Administration. _Closer to Zero: Reducing Childhood Exposure to Contaminants from Foods._ 2021.
+
+
+[8]  EFSA Panel on Contaminants in the Food Chain (CONTAM). Scientific Opinion on Lead in Food. _EFSA Journal_ 2010;8(4):1570. doi:10.2903/j.efsa.2010.1570
+
+
+[9]  EFSA CONTAM Panel. Scientific Opinion on Arsenic in Food. _EFSA Journal_ 2009;7(10):1351. doi:10.2903/j.efsa.2009.1351
+
+
+[10] EFSA CONTAM Panel. Update of the Risk Assessment of Inorganic Arsenic in Food. _EFSA Journal_ 2024;22(1):8488. doi:10.2903/j.efsa.2024.8488
+
+
+[11] European Food Safety Authority. EFSA Sets Lower Tolerable Intake Level for Cadmium in Food. News Release, March 2009 (Cd TWI 2.5 µg/kg bw/week).
+
+
+[12] European Food Safety Authority. Mercury in Food, EFSA Updates Advice on Risks for Public Health. Press Release, December 2012 (MeHg TWI 1.3 µg/kg bw/week; inorganic Hg TWI 4 µg/kg bw/week).
+
+
+[13] Joint FAO/WHO Expert Committee on Food Additives (JECFA). _Evaluation of Certain Food Additives and Contaminants: Seventy-Third Report._ WHO Technical Report Series No. 960, 2011 (Lead PTWI withdrawal).
+
+
+[14] JECFA. Methylmercury and Mercury Chemical Evaluation Database Entries.
+
+
+[15] JECFA. Cadmium PTMI Database Entry (25 µg/kg bw/month).
+
+
+[16] EPA/FDA. Fish Advice: Technical Information. Reference Dose for Methylmercury (0.1 µg/kg/day RfD).
+
+
+[17] Agency for Toxic Substances and Disease Registry (ATSDR). _Toxicological Profile for Cadmium._ U.S. Department of Health and Human Services, 2012.
+
+
+[18] National Research Council. _Toxicological Effects of Methylmercury._ National Academies Press, 2000.
 
 
 
 == EU and international regulatory documents
 
 
-- *Commission Regulation (EU) 2023/915* on Maximum Levels for Certain Contaminants in Food. May 2023.
-- *Codex Alimentarius.* General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995).
+[19] Commission Regulation (EU) 2023/915 on Maximum Levels for Certain Contaminants in Food. May 2023.
+
+
+[20] Codex Alimentarius. _General Standard for Contaminants and Toxins in Food and Feed_ (CXS 193-1995).
 
 
 
 == State-level regulatory documents
 
 
-- *California Assembly Bill 899* (Food Safety: Baby Food; Health and Safety Code).
-- *California Department of Public Health.* AB 899 Frequently Asked Questions.
-- *California Attorney General.* Enforcement Advisory Letter on AB 899 (March 6, 2026).
+[21] California Assembly Bill 899 (Food Safety: Baby Food; Health and Safety Code, effective January 1, 2024).
+
+
+[22] California Department of Public Health. AB 899 Frequently Asked Questions.
+
+
+[23] California Attorney General. Enforcement Advisory Letter on AB 899. March 6, 2026.
 
 
 
 == Litigation references
 
 
-- *Judicial Panel on Multidistrict Litigation.* _In re: Baby Food Products Liability Litigation_ (MDL No. 3101). Transfer Order, April 11, 2024.
-- *N.D. Cal.* District Court Order Referencing Over 100 Subsequently Filed Actions in MDL 3101. April 2025.
-- *Reuters.* "Amazon.com Sued Over Alleged Sale of Contaminated Rice." May 23, 2025.
-- *Reuters.* "Amazon.com Seeks to End Lawsuit Claiming Rice Contaminated by Heavy Metals." July 29, 2025.
-- *Proposition 65 Settlement Agreement* _People v. Promix Nutrition_ (lead warning/testing obligations). 2024.
+[24] Judicial Panel on Multidistrict Litigation. _In re: Baby Food Products Liability Litigation_ (MDL No. 3101). Transfer Order, April 11, 2024.
+
+
+[25] Northern District of California. District Court Order Referencing Over 100 Subsequently Filed Actions in MDL 3101. April 2025.
+
+
+[26] Reuters. "Amazon.com Sued Over Alleged Sale of Contaminated Rice." May 23, 2025.
+
+
+[27] Reuters. "Amazon.com Seeks to End Lawsuit Claiming Rice Contaminated by Heavy Metals." July 29, 2025.
+
+
+[28] OEHHA. Proposition 65 Listings and Safe Harbor Levels (Lead, Arsenic, Cadmium).
+
+
+[29] _People v. Promix Nutrition_, Prop. 65 Settlement No. 2024-02424S4488, California Office of the Attorney General. 2024.
 
 
 
-== Industry and retailer documents
+== Industry, retailer, and accreditation documents
 
 
-- *CVS.* "Tested to Be Trusted: Supplement Testing and Contaminant Requirements Statement."
-- *NSF.* NSF/ANSI 173 Product and Ingredient Certification (only American National Standard for dietary supplement testing and certification).
-- *ANAB.* Amazon Dietary Supplements Seller Requirements.
-- *ISO.* ISO/IEC 17025, Testing and Calibration Laboratories. Overview.
-- *EURACHEM/CITAC.* "Use of Uncertainty Information in Compliance Assessment," 2nd ed., 2021.
-- *ILAC.* "Guidelines on Decision Rules and Statements of Conformity," ILAC-G8:09/2019.
+[30] CVS. "Tested to Be Trusted: Supplement Testing and Contaminant Requirements Statement."
+
+
+[31] NSF. _NSF/ANSI 173 Product and Ingredient Certification_ (American National Standard for dietary supplement testing and certification).
+
+
+[32] ANAB. Amazon Dietary Supplements Seller Requirements.
+
+
+[33] International Organization for Standardization. _ISO/IEC 17025, General Requirements for the Competence of Testing and Calibration Laboratories._
+
+
+[34] EURACHEM/CITAC. _Use of Uncertainty Information in Compliance Assessment,_ 2nd ed., 2021.
+
+
+[35] ILAC. _Guidelines on Decision Rules and Statements of Conformity,_ ILAC-G8:09/2019.
 
 
 
-== Recall economics documents
+== Recall economics and litigation cost
 
 
-- *GMA/Covington/EY.* "Capturing Recall Costs: Measuring and Recovering the Losses."
-- *Allianz Global Corporate and Specialty.* Product Recall Reports.
-- *Federal Judicial Center.* "Litigation Cost Survey of Major Companies."
-- *Thomsen, M. R. and McKenzie, A. M.* "Sales Responses to Recalls for Meat and Poultry Products." _Review of Agricultural Economics_ 2006;28(4):482–493.
+[36] GMA/Covington/EY. _Capturing Recall Costs: Measuring and Recovering the Losses._
+
+
+[37] Allianz Global Corporate and Specialty. Product Recall Reports.
+
+
+[38] Federal Judicial Center. _Litigation Cost Survey of Major Companies,_ 2008.
+
+
+[39] Thomsen, M. R., and McKenzie, A. M. Sales Responses to Recalls for Meat and Poultry Products. _Review of Agricultural Economics_ 2006;28(4):482–493.
+
+
+[40] Pozo, V. F., and Schroeder, T. C. Evaluating the Costs of Meat and Poultry Recalls to Firms. _Food Policy_ 2016;59:46–57.
 
 
 
 == Compliance and regulatory-theory literature
 
 
-- *National Research Council.* "The Potential Consequences of Public Release of Food Safety and Inspection Service Establishment-Specific Data." National Academies Press, 2011. doi:10.17226/13304.
-- *Bovay, J.* "Food Safety, Reputation, and Regulation." _Applied Economic Perspectives and Policy_ 2023;45(2):1070–1093.
-- *van Erp, J. G.* "Naming Without Shaming: The Publication of Sanctions in the Dutch Financial Market." _Regulation & Governance_ 2011;5(3):287–308.
-- *Snyder, J.* "Backlash Against Naming and Shaming." _British Journal of Politics and International Relations_ 2020;22(4):644–653.
-- *Carnegie, A. and Carson, A.* "The Spotlight's Harsh Glare: Rethinking Publicity and International Order." _International Organization_ 2018;72(3):627–657.
+[41] National Research Council. _The Potential Consequences of Public Release of Food Safety and Inspection Service Establishment-Specific Data._ National Academies Press, 2011. doi:10.17226/13304
+
+
+[42] Bovay, J. Food Safety, Reputation, and Regulation. _Applied Economic Perspectives and Policy_ 2023;45(2):1070–1093.
+
+
+[43] van Erp, J. G. Naming Without Shaming: The Publication of Sanctions in the Dutch Financial Market. _Regulation and Governance_ 2011;5(3):287–308.
+
+
+[44] Snyder, J. Backlash Against Naming and Shaming: The Politics of Status and Emotion. _British Journal of Politics and International Relations_ 2020;22(4):644–653.
+
+
+[45] Carnegie, A., and Carson, A. The Spotlight's Harsh Glare: Rethinking Publicity and International Order. _International Organization_ 2018;72(3):627–657.
 
 
 
-== HMTc-related publications
+== HMTc-related Journal of Food Metallomics publications
 
 
-- *Pendergrass, K.* _The Counterproductive Consequences of Public Exposé Testing: How Unstructured Disclosure Undermines Heavy Metal Contamination Reduction._ Journal of Food Metallomics. 2026. doi: 10.5281/zenodo.19470572. (Cited Part 1.2; repo copy at `data/workbench/standards-book/source-documents/preprints/`.)
-- *Pendergrass, K.* _The Cost of Operating Without Credible Third-Party Heavy-Metal Certification._ Journal of Food Metallomics. 2026. doi: 10.5281/zenodo.18903738. (Cited Part 1.3.)
-- *Pendergrass, K.* _Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods._ Journal of Food Metallomics. 2026. doi: 10.5281/zenodo.18905821. (Cited Part 1.4, Part 2 narrative bridges.)
+[46] Pendergrass, K. _The Counterproductive Consequences of Public Exposé Testing: How Unstructured Disclosure Undermines Heavy Metal Contamination Reduction._ Journal of Food Metallomics. 2026. doi:10.5281/zenodo.19470572
+
+
+[47] Pendergrass, K. _The Cost of Operating Without Credible Third-Party Heavy-Metal Certification._ Journal of Food Metallomics. 2026. doi:10.5281/zenodo.18903738
+
+
+[48] Pendergrass, K. _Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods: Integrating Legal Defensibility, Scientific Rigor, and Commercial Viability._ Journal of Food Metallomics. 2026. doi:10.5281/zenodo.18905821
+
+
+
+== Surveillance and Congressional documents
+
+
+[49] Canadian Food Inspection Agency. _Children's Food Project, Annual Report 2022._ Canadian surveillance of infant and children's snack and cereal samples.
+
+
+[50] U.S. House of Representatives, Subcommittee on Economic and Consumer Policy. _Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury._ Staff Report. February 2021.
+
+
+[51] International Food Information Council. _2025 Food and Health Survey: Full Report._ 2025.
+
+
+[52] Gallup. _Trust in Government Assurance of Food Safety Hits Record Low._ September 2024.
+
+
+
+== FDA enforcement-action references
+
+
+[53] FDA. Warning Letter to Dollar Tree Inc. June 11, 2024.
+
+
+[54] FDA. WanaBana Voluntary Recall Notice (elevated lead in cinnamon apple sauce pouches). October 29, 2023.
+
+
+[55] FDA. Beech-Nut Voluntary Recall of Rice Cereal (inorganic arsenic exceedance). June 8, 2021.
+
+
+[56] FDA. Ground Cinnamon Public Health Alert (elevated lead). 2024.
 
 
 
 == HMTc operational documents
 
 
-- *HMTc Governing Principles*, v2.1. `docs/governance/hmtc-governing-principles.md`.
-- *HMTc Program Governance Policy*, v2.0. `data/workbench/standards-book/source-documents/governance-policy.md` (reproduced as Part 2 of this manual).
-- *HMTc Lot Testing Schedule*, v2.0. `data/workbench/standards-book/source-documents/lot-testing-schedule.md` (reproduced as Part 4 of this manual).
-- *HMTc Toxicology Callouts*, v1.0. `data/workbench/standards-book/source-documents/toxicology-callouts.md`.
+[57] HMTc Governing Principles, v2.1. (Internal controlled document at `docs/governance/hmtc-governing-principles.md`.)
+
+
+[58] HMTc Program Governance Policy, v2.0. (Internal controlled document; reproduced as Part 2 of this manual.)
+
+
+[59] HMTc Lot Testing Schedule, v2.0. (Internal controlled document; reproduced as Part 4 of this manual.)
+
+
+[60] HMTc Toxicology Callouts, v1.0. (Internal reference at `data/workbench/standards-book/source-documents/toxicology-callouts.md`.)
 
 
 
 == Note on chapter-scoped sources
 
 
-Per-product Sources Cited sections in each Part 3 chapter reference specific peer-reviewed studies, regulatory guidance documents, and surveillance data anchoring the standards published in that chapter. Those citations are not reproduced here; the chapter-scoped lists are authoritative for the standards they anchor. Adversarial readers auditing a specific limit follow the chapter-scoped citations to source pages on heavymetalindex.com per the methodology in Part 5.1.
+Each Part 3 chapter has its own Sources Cited section. Those chapter-scoped citations anchor the specific limit values published in that chapter and are the authoritative trail for those limits. The numbered references above cover the cross-cutting citations in Parts 1, 2, 2.5, and 5; they do not duplicate the per-product literature in Part 3. Adversarial readers auditing a specific limit in Part 3 should follow the chapter's Sources Cited entries to the underlying source pages on heavymetalindex.com per Part 5.1.
 
 
 
