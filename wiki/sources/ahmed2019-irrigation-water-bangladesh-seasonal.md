@@ -18,8 +18,8 @@ products: []
 matrices: [irrigation-water, agricultural-soil, leafy-vegetable, root-vegetable, vegetable]
 jurisdictions: [BD]
 near_duplicates: []
-sample_n: 99
-sample_population: "Irrigation water, soil, and mixed vegetables from 3 industrial zone areas (Banglabazar, Kashimpur, Chandra) in Gazipur District, Bangladesh. Dry season sampled Nov–Dec 2017: water n=12 per area, soil n=12 per area (each a composite of 5 topsoil subsamples), vegetables n=24 per area. Wet season sampled Jun–Jul 2015 (drawn from authors' prior study): water n=12 per area, soil n=12 per area, vegetables n=9 per area."
+sample_n: 243
+sample_population: "Irrigation water, soil, and mixed vegetables from 3 industrial zone areas (Banglabazar, Kashimpur, Chandra) in Gazipur District, Bangladesh. Total samples across media and seasons: 243 (water 72 + soil 72 + vegetables 99). Dry season sampled Nov–Dec 2017: water n=12 per area, soil n=12 per area (each a composite of 5 topsoil subsamples), vegetables n=24 per area. Wet season sampled Jun–Jul 2015 (drawn from authors' prior study): water n=12 per area, soil n=12 per area, vegetables n=9 per area."
 updated: 2026-05-18
 ---
 
@@ -85,7 +85,7 @@ Vegetable-specific peaks (dry season, mg/kg):
 
 - Taro root: Zn 113.89, Cr 39.84, Cu 20.81, Pb 14.72, As 4.61, Cd 0.31 — highest overall metal load
 - Radish leaf: Cr 48.98, Cu 25.77 — highest among leafy vegetables
-- Helencha (wet season): Zn 102.97 — highest wet-season Zn
+- Helencha (wet season): Zn 102.97 — Zn was the highest of the six metals within helencha, and helencha had the highest overall metal load among wet-season species (Figure 4b)
 
 Bioconcentration factor (BCF, vegetable mg/kg ÷ soil mg/kg, dry season):
 
@@ -102,7 +102,7 @@ Statistical tests: one-way ANOVA across metals F=97.6–110.1, df=5, p<0.05 (wat
 
 ## Methods (brief)
 
-Irrigation water: 500 mL grab samples filtered through paper filter, acidified with HNO₃ (65%) to pH<2, stored at 4 °C in acid-washed 20 mL polyethylene bottles. Sampled at 12 randomly selected points per area.
+Irrigation water: 500 mL grab samples filtered through paper filter, acidified with HNO₃ (65%) to pH<2, stored at 4 °C in acid-washed 20 mL plastic bottles. Sampled at 12 randomly selected points per area.
 
 Soil: 0–15 cm topsoil; 5 subsamples per point composited; air-dried, ground, sieved (2 mm); digested per US EPA Method 3050B.
 
@@ -127,3 +127,9 @@ Merge-enhanced 2026-05-18 from prior 2026-05-14 version. Changes:
 - Removed legacy `## Implications` section (certification / courses / app translation) per Wiki/HMTc firewall (Part 2): source pages report what the paper found, not how it applies to the certification program or consumer apps.
 - Removed legacy `## Wiki pages updated on ingest` section (not part of current source-page schema; routing is now the system's responsibility per Part 5b).
 - No brand names appear in this paper (only generic vegetable species and the analytical instrument vendor), so no brand-firewall application was needed.
+
+Audit subagent (2026-05-18, verdict PROMOTE) flagged three minor concerns; all three verified against source and applied:
+
+- `sample_n: 99` was ambiguous in a 3-medium 2-season design (99 happened to equal total vegetable samples 72 dry + 27 wet, but the field semantic was unclear). Updated to 243 (water 72 + soil 72 + vegetables 99) with a per-medium breakdown in sample_population.
+- "Helencha (wet season): Zn 102.97 — highest wet-season Zn" reworded to "Zn was the highest of the six metals within helencha, and helencha had the highest overall metal load among wet-season species (Figure 4b)" to mirror the paper's p.7 framing.
+- Water-storage bottle material corrected from "polyethylene" (invented detail) to "plastic" per paper §2.2 wording.
