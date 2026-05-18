@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-17T20:15:40.063Z",
-  "check_1_sources_scanned": 930,
+  "generated_at": "2026-05-18T00:21:43.019Z",
+  "check_1_sources_scanned": 949,
   "check_1_sources_with_product_matrices": 361,
   "check_1_failures": 1,
-  "check_2_products_scanned": 321,
-  "check_2_products_hmtc_locked": 291,
+  "check_2_products_scanned": 326,
+  "check_2_products_hmtc_locked": 296,
   "check_2_failures": 0,
-  "check_2_literature_scope_thin": 211
+  "check_2_literature_scope_thin": 216
 }
