@@ -498,3 +498,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis triggering on population threshold), Part 18 (ingredient coverage-asymmetry lint rule), Part 19 (contamination_profile is prerequisite for standards-setting workbench). Maps to [[feedback_no_hand_curated.md]] — generators should overwrite freely, never skip coverage gaps.
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Mine the gap wishlist to prioritize source acquisition
+
+**What:** Build a deterministic aggregator that parses the 600 gap-driven-wishlist queries, extracts (ingredient, metal, geography) tuples, ranks them by frequency, and outputs a ranked-by-need summary so future ingest prioritizes the highest-leverage sources first.
+
+**Why this lever now:** The 45 pool_too_thin cells signal that synthesis is bottlenecked on source scarcity, not processing. The 600 gap_driven_wishlist_queries represent explicit, corpus-grounded signals of what the sources themselves are asking for. Aggregating these queries into a ranked acquisition wishlist turns a side effect of ingest into a *prospective priority map*. Karen can then run targeted searches on the top 20 gaps instead of broad queries, and the autonomy loop can tier ingest priorities to unblock high-frequency gaps first.
+
+**Where:** 
+- Input: `data/evidence/gap-driven-wishlist-2026-05-18.md` (the corpus of 600 queries)
+- New script: `tools/autonomy/analyze-gap-wishlist.mjs`
+- Output: `data/evidence/autonomy/gap-analysis-top-needs-2026-05-19.md` with top 20 gaps ranked by query frequency, broken down by ingredient/metal/geography
+
+**How:**
+1. Parse `gap-driven-wishlist-2026-05-18.md` to extract (ingredient, metal, matrix, geography) tuples from each query.
+2. Aggregate by tuple, count, sort by frequency descending.
+3. Cross-reference each top gap against the routing audit to flag: (a) which gap has contributing sources not yet routed, (b) which provisional scaffolds should be locked next because they have enough evidence accumulating.
+4. Emit a markdown report ranking the top 20 by frequency, with a "suggested next ingest priority" section for Karen.
+
+**Anchors:** Part 8 (ingest workflows—this informs priority tiers P1-P5); Part 9 (synthesis—identifies which thin cells are source-thin vs other blockers); Part 11 (priority ordering). Maps to the gap_driven_wishlist signal in the snapshot.
+
+---

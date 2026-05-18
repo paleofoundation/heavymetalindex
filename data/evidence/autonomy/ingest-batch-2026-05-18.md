@@ -79,3 +79,13 @@
 
 ### Failed
 - P1 `concentration2023-concentration-essential-toxic-rare` (FM_10384816): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-18T21:54:43.708Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `concentration2023-concentration-essential-toxic-rare` (FM_10384816): stdout did not contain '---' frontmatter
+- P1 `health2022-health-safety-ready-to-eat-products` (FM_9183086): stdout did not contain '---' frontmatter

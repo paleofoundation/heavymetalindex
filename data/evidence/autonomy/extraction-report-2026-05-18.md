@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-18
 
-Generated: 2026-05-18T21:04:08.364Z
+Generated: 2026-05-18T21:51:26.071Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 965
-- Pages with `## Key numbers` section: 859
+- Source pages processed: 968
+- Pages with `## Key numbers` section: 862
 - Pages without Key numbers section (skipped): 105
-- Structured rows extracted: 5208
+- Structured rows extracted: 5257
 - Pages with Key numbers but no parseable values: 68
 
 ## Output
@@ -19,27 +19,27 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1043 rows
-- Cd: 996 rows
-- Cr-total: 523 rows
-- Ni: 474 rows
+- Pb: 1050 rows
+- Cd: 1003 rows
+- Cr-total: 524 rows
+- Ni: 480 rows
 - tAs: 404 rows
-- Al: 329 rows
+- Al: 332 rows
 - tHg: 321 rows
-- iAs: 164 rows
-- Cu: 153 rows
+- iAs: 172 rows
+- Cu: 155 rows
 - Co: 123 rows
 - MeHg: 92 rows
-- Fe: 85 rows
+- Fe: 86 rows
 - Sn: 84 rows
-- Mn: 70 rows
+- Mn: 71 rows
 - Se: 65 rows
-- U: 49 rows
-- V: 44 rows
-- Sb: 37 rows
+- U: 55 rows
+- V: 46 rows
+- Sb: 38 rows
 - Ba: 29 rows
 - Cr-VI: 23 rows
-- Mo: 14 rows
+- Mo: 18 rows
 - Tl: 12 rows
 - Ca: 10 rows
 - Be: 9 rows
@@ -63,9 +63,9 @@ Elapsed: 0s
 
 - (empty): 2030 rows
 - fresh-fish: 289 rows
+- baby-cereals-dry-rice-based: 180 rows
 - seafood: 171 rows
 - spices: 171 rows
-- baby-cereals-dry-rice-based: 153 rows
 - canned-fish: 128 rows
 - fresh-fruit: 125 rows
 - face-paint: 81 rows

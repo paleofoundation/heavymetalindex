@@ -290,3 +290,14 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Development of a Fast Method Using ICP-MS Coupled with HPLC and Exploration of the Reduction Mechanism of Cr(VI) in Foods.pdf`: misnamed PDF — actual contents (Ren et al. 2024 soy protein processing) out of scope for HMI; promised paper (Song et al. 2024 Cr(VI) HPLC-ICP-MS) already ingested from a different folder
+
+## Tick 2026-05-18T21:54:43.812Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `sarkis2025-heavy-metals-yogurt-lebanon` (raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metal Contamination in Yogurt from Lebanon_ Evaluating Lead (Pb) and Cadmium (Cd) Concentrations Across Multiple Regions.pdf)
+- `aisyiah2025-heavy-metals-breast-milk-systematic-review` (raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metal Content in Breast Milk and Contributing Environmental and Maternal Factors_ A Systematic Review.pdf)

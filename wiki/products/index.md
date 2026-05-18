@@ -134,7 +134,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/herbal-botanical-infusions]] (2 sources)
 - [[products/true-tea-camellia-sinensis]] (4 sources)
 - [[products/matcha]] (1 source)
-- [[products/coffee]] (4 sources)
+- [[products/coffee]] (6 sources)
 - [[products/soft-drinks-carbonated-beverages]] (1 source)
 - [[products/fermented-beverages-non-tea-based]] (1 source)
 - [[products/kombucha-tea-based]] (1 source)
@@ -510,17 +510,11 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/infant-food-general|Infant Food General]]
+- [[products/infant-formula-dairy|Infant Formula Dairy]]
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->
