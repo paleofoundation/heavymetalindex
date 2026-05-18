@@ -59,7 +59,7 @@ Inorganic Hg (derived from total Hg assuming 100% inorganic for non-fish/seafood
 
 Cr: Total Cr exposure (assuming 100% Cr-III) reached a maximum of 1% of the EFSA TDI (300 µg/kg bw/day) at the 95th percentile (1.93 µg/kg bw/day infants, 2.71 µg/kg bw/day toddlers). Infant formula contributed 19% (infants) and 8% (toddlers) of total Cr exposure at the mean.
 
-Mn: Median total Mn exposure 0.83 mg/day infants (P95 1.51), 1.07 mg/day toddlers (P95 2.68); safe levels of intake 2 mg/day infants and 4 mg/day toddlers. Infants reached 76% of the safe level at the 95th percentile; one infant (2%) exceeded the safe level. No toddler exceeded. Infant formula contributed 7% (infants) and 4% (toddlers) of Mn exposure at the mean.
+Mn: Median total Mn exposure 0.83 mg/day infants (P95 1.51), 1.07 mg/day toddlers (P95 2.35); safe levels of intake 2 mg/day infants and 4 mg/day toddlers. Infants reached 76% of the safe level at the 95th percentile; one infant (2%) exceeded the safe level. No toddler exceeded. Infant formula contributed 7% (infants) and 4% (toddlers) of Mn exposure at the mean.
 
 Se: Median total Se exposure 15.7 µg/day infants (P95 27.9), 18.9 µg/day toddlers (P95 29.2); UL 55 µg/day infants and 70 µg/day toddlers. Median Se exposure was approximately 30% of UL and the P95 reached 51% (infants). No child exceeded the UL. Infant formula contributed 53% (infants) and 31% (toddlers) of Se exposure at the mean.
 
@@ -92,9 +92,14 @@ App: TDS mean occurrence values for powdered infant formula (iAs 4.55, Cd 4.00, 
 - [[metals/cadmium]]
 - [[metals/arsenic-inorganic]]
 - [[metals/nickel]]
+- [[metals/chromium]]
+- [[metals/manganese]]
+- [[metals/zinc]]
+- [[metals/mercury]]
 - [[regulations/eu-2023-915-cadmium]]
 
 ## Verification notes
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, replaced invalid matrix `powdered-formula` with `infant-formula-powder`, corrected the Zn/UL statement to reflect that no UL is established for infants under one year and that the 93% UL comparison applies to toddlers, clarified the iAs conversion-factor method for infant formula, replaced the invalid EU regulation link with `eu-2023-915-cadmium`, and tightened HMTc implication language away from certification-analyte justification.
 - Merge-enhance (Claude, 2026-05-18, v2.0 manual-fetch skill): added `Mn` and `Zn` to `metals:` to route this source to the manganese and zinc pages (paper provides exposure-vs-HBGV findings for both that were previously missing from Key numbers); added Cr, Mn, and Se exposure paragraphs to Key numbers covering the EFSA TDI / safe-level-of-intake / UL comparisons reported in Tables 5–6; verified per-table that all numbers match the source. Brand-firewall recheck under the strict 2026-05-17 reading: page body and Methods name no brands attached to contamination values; the only corporate string is the "DMA-80" Hg analyzer model, which is the Exception 2 scientific-method carve-out.
+- Audit subagent (Claude general-purpose, 2026-05-18) flagged toddler Mn P95 as 2.68 mg/day when Table 5 reports 2,348 µg/day = 2.35 mg/day; verified against source — corrected to 2.35 (the 2.68 figure was the European-average upper-bound from the paper's Discussion, not the present study's own P95). Same audit flagged the "Wiki pages this source may touch" bulleted list as inconsistent with the post-2026-05-18 `metals:` frontmatter (missing `chromium`, `manganese`, `zinc`, `mercury`); propagated the four routing bullets to match. iAs attribution-slip and `dietary-intake` matrix concerns noted but left as-is (cosmetic pattern consistent across other analyte bullets; matrix string benign).
