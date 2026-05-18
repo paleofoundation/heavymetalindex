@@ -26,6 +26,10 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]] - 20 ppb lead action level for single-ingredient root vegetables.
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] - 20 ppb lead action level for dry infant cereals.
 
+## FDA Fishery Product Regulations
+
+- [[regulations/fda-cpg-540-600-methylmercury-fish]] - FDA compliance policy guide action level for methylmercury in fish, shellfish, crustaceans, and other aquatic animals.
+
 ## Mexico Fishery Product Regulations
 
 - [[regulations/mx-nom-242-ssa1-2009-fishery-products]] - current Mexican sanitary standard for fresh, refrigerated, frozen, and processed fishery products, including fishery-product heavy-metal and metalloid limits.
