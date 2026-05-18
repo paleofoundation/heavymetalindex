@@ -160,8 +160,12 @@ function renderTable(token) {
   const rows = token.rows
   const cols = header.length
 
+  // Columns: use fr units so the table fills the page width but wraps cell
+  // text within the available column width rather than overflowing the trim.
+  const colSpec = `(${Array(cols).fill("1fr").join(", ")})`
+
   // Build a Typst table.
-  let out = `#table(\n  columns: ${cols},\n  align: (col, row) => left,\n`
+  let out = `#table(\n  columns: ${colSpec},\n  align: (col, row) => left + top,\n`
   out += `  table.header(\n`
   out += header
     .map((cell) => {
@@ -205,18 +209,47 @@ function main() {
 
   // The master markdown begins with HTML comments and the front-matter
   // title page. We strip the HTML comments because the Typst converter
-  // doesn't pass through HTML, but the title page's "# Heavy Metal Tested
-  // & Certified" h1 would compete with the template's title page. We
-  // remove the title-page h1 and the manual's own table-of-contents page
-  // entries because Typst's template provides both natively.
+  // doesn't pass through HTML. We also replace the markdown TOC section
+  // (between "# Table of Contents" and the next H1) with a single sentinel
+  // line that the post-conversion step swaps for a Typst `#outline()`
+  // directive — Typst auto-generates the TOC with page numbers from the
+  // heading hierarchy, which produces a real publisher-grade TOC.
   let content = md
 
   // Remove HTML comments.
   content = content.replace(/<!--[\s\S]*?-->/g, "")
 
+  // Replace the markdown TOC block with a sentinel paragraph. The sentinel
+  // is a plain-text marker (not an HTML comment) so it survives marked's
+  // HTML-comment stripping and emerges in the Typst output where we can
+  // swap it for a real `#outline()` directive.
+  content = content.replace(
+    /^# Table of Contents[\s\S]*?(?=^# )/m,
+    "# Table of Contents\n\nTYPSTOUTLINEPLACEHOLDER\n\n"
+  )
+
   // Convert.
   console.log("[render-manual-typst] converting markdown to Typst...")
-  const typstBody = convertMarkdownToTypst(content)
+  let typstBody = convertMarkdownToTypst(content)
+
+  // Swap the sentinel for a real Typst outline. The outline auto-collects
+  // every H1 (chapter) and H2 (section) and produces a publisher-grade TOC
+  // with right-aligned page numbers and dot leaders.
+  const typstOutline = `
+#show outline.entry: it => {
+  set text(font: ("FreightTextProBook", "Georgia", "Times New Roman"), size: 10.5pt)
+  it
+}
+
+#outline(
+  title: none,
+  target: heading.where(level: 1).or(heading.where(level: 2)),
+  indent: auto,
+  depth: 2,
+)
+
+`
+  typstBody = typstBody.replace(/TYPSTOUTLINEPLACEHOLDER/g, typstOutline)
 
   // Assemble the full Typst document.
   const templateRel = path.relative(path.dirname(OUTPUT_TYP), TEMPLATE_PATH)

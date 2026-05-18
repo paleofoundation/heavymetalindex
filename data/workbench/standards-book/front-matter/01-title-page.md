@@ -8,7 +8,7 @@
 
 **Karen Pendergrass**
 Standards Architect, Paleo Foundation
-ORCID: [pending]
+ORCID: [0000-0002-2348-7259](https://orcid.org/0000-0002-2348-7259)
 
 Paleo Certified, Inc. dba The Paleo Foundation
 Orlando, Florida

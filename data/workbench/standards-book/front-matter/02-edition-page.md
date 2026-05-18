@@ -31,9 +31,8 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 
 ## Publication metadata
 
-**Publication date:** [pending]
-**ISBN:** [pending]
-**DOI:** [pending, to be minted via Zenodo or Crossref]
+**Publication date:** 2026-05-18
+**DOI:** [10.5281/zenodo.20270512](https://doi.org/10.5281/zenodo.20270512)
 
 **Copyright** © 2026 Paleo Certified, Inc. dba The Paleo Foundation. All rights reserved. The HMTc Certification Mark, the Paleo Foundation name, and the seal artwork are trademarks of Paleo Certified, Inc. The methodology described in this manual is protected as a trade secret to the extent set forth in the Colophon (back matter).
 

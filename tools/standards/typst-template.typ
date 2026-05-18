@@ -50,11 +50,12 @@
     hyphenate: true,
   )
 
-  // Justified paragraphs with measured leading.
+  // Justified paragraphs with measured leading and generous between-paragraph
+  // spacing for Elsevier-quality breathing room.
   set par(
     justify: true,
-    leading: 0.62em,
-    spacing: 1.0em,
+    leading: 0.65em,
+    spacing: 1.2em,
     first-line-indent: 1.2em,
     linebreaks: "optimized",
   )
@@ -71,9 +72,9 @@
   // H1 — chapter level. Page break before, large display, red accent.
   show heading.where(level: 1): it => {
     pagebreak(weak: true)
-    v(0.4in)
+    v(0.5in)
     block(
-      below: 0.4in,
+      below: 0.45in,
       text(
         font: ("Avenir Next Cyr", "Avenir Next", "Helvetica Neue", "Arial"),
         weight: "semibold",
@@ -82,15 +83,16 @@
         it.body,
       )
     )
-    // Thin rule under chapter title.
-    block(below: 0.3in, line(length: 100%, stroke: 0.6pt + red-accent))
+    // Thin rule under chapter title with extra space below for breathing room.
+    block(below: 0.45in, line(length: 100%, stroke: 0.6pt + red-accent))
   }
 
-  // H2 — section level. Sans-serif, smaller, red.
+  // H2 — section level. Sans-serif, smaller, red. Extra space above to give
+  // sections clear separation from preceding content.
   show heading.where(level: 2): it => {
     block(
-      above: 1.6em,
-      below: 0.6em,
+      above: 2.2em,
+      below: 1.0em,
       text(
         font: ("Avenir Next Cyr", "Avenir Next", "Helvetica Neue", "Arial"),
         weight: "semibold",
@@ -104,8 +106,8 @@
   // H3 — subsection. Sans-serif, dark, smaller.
   show heading.where(level: 3): it => {
     block(
-      above: 1.2em,
-      below: 0.4em,
+      above: 1.6em,
+      below: 0.7em,
       text(
         font: ("Avenir Next Cyr", "Avenir Next", "Helvetica Neue", "Arial"),
         weight: "semibold",
@@ -119,8 +121,8 @@
   // H4 — minor subsection. Italic serif.
   show heading.where(level: 4): it => {
     block(
-      above: 1.0em,
-      below: 0.3em,
+      above: 1.3em,
+      below: 0.5em,
       text(
         weight: "semibold",
         style: "italic",
@@ -145,12 +147,18 @@
   )
 
   // Tables — striped rows, header in red-accent on tinted background.
+  // Tighter type and inset so wide tables fit within the trim without overflow.
+  // Generous block spacing above and below for breathing room.
   set table(
-    inset: (x: 8pt, y: 6pt),
+    inset: (x: 5pt, y: 4pt),
     stroke: 0.4pt + rgb("#bbb"),
   )
+  show table: it => block(above: 1.4em, below: 1.4em, {
+    set text(size: 9pt)
+    set par(leading: 0.55em, spacing: 0.5em, first-line-indent: 0pt, justify: false)
+    it
+  })
   show table.cell.where(y: 0): set text(weight: "semibold", fill: rgb("#000"))
-  show table.cell.where(y: 0): set par(first-line-indent: 0pt)
 
   // Lists — tighter spacing.
   set list(indent: 0.8em, body-indent: 0.4em, marker: ([•], [◦], [‣]))
