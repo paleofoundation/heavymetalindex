@@ -19,13 +19,13 @@ matrices: [spices, dried-herbs]
 jurisdictions: [NG]
 near_duplicates: []
 sample_n: 7
-sample_population: "Six coded commercial spice samples and one fresh scent leaf sample purchased from New Heaven market, Enugu, Nigeria"
+sample_population: "Six coded commercial spice samples purchased from New Heaven market, Enugu, Nigeria, plus one scent leaf sample collected from a nearby garden at Ugwuaji"
 updated: 2026-05-18
 ---
 
 # Chime et al. 2025 — Toxic trace metals in food spices from Enugu, Nigeria
 
-This study measured total arsenic (As), cadmium (Cd), and lead (Pb) in seven spice/herb samples (six coded commercial spice samples A–F, plus one fresh scent leaf) purchased from a single market in Enugu, Nigeria, using AAS. The most alarming finding is cadmium: all seven samples exceeded the FAO/WHO permissible limit of 0.02 µg/g by a substantial margin, with values ranging from 2.58 to 6.45 µg/g — between 129 and 322 times the limit. Arsenic exceeded the upper end of the source's 0.1–0.5 µg/g permissible range in two samples (C: 1.68, E: 1.26 µg/g); Sample D (0.315 µg/g) exceeded the lower end but not the 0.5 µg/g upper threshold. Lead exceeded the 2.0 µg/g threshold in two samples (A: 2.16, B: 2.19 µg/g). The authors attribute contamination to roadside sun-drying, polluted irrigation sources, and atmospheric deposition.
+This study measured total arsenic (As), cadmium (Cd), and lead (Pb) in seven spice/herb samples: six coded commercial spice samples A–F purchased from New Heaven market in Enugu, Nigeria, plus one scent leaf sample collected from a nearby garden at Ugwuaji. The most alarming finding is cadmium: all seven samples exceeded the FAO/WHO permissible limit of 0.02 µg/g by a substantial margin, with values ranging from 2.58 to 6.45 µg/g — between 129 and 322 times the limit. Arsenic exceeded the upper end of the source's 0.1–0.5 µg/g permissible range in two samples (C: 1.68, E: 1.26 µg/g); Sample D (0.315 µg/g) exceeded the lower end but not the 0.5 µg/g upper threshold. Lead exceeded the 2.0 µg/g threshold in two samples (A: 2.16, B: 2.19 µg/g). The authors discuss possible contamination pathways including improper drying practices, polluted irrigation sources, atmospheric deposition, and poor post-harvest handling.
 
 ## Key numbers
 
@@ -52,7 +52,7 @@ Samples were labelled A–F (product identities not disclosed) plus one scent le
 
 **Certification:** The cadmium results in this study are extraordinary — 129–322x over FAO/WHO limits — and should be treated as evidence of a severely contaminated informal-market supply chain rather than a representative distribution for certified supply chains. The study contributes occurrence context for spice Cd, Pb, and total-As screening, but these values should not anchor threshold math.
 
-**Courses:** Excellent case study for contamination-pathway modules: roadside drying, atmospheric deposition, and informal market monitoring failure. Pair with better-controlled A-tier spice studies for a balanced picture.
+**Courses:** Excellent case study for contamination-pathway modules: improper or roadside drying as a possible pathway, atmospheric deposition, and informal market monitoring failure. Pair with better-controlled A-tier spice studies for a balanced picture.
 
 **App:** Contributes a high-contamination informal-market scenario for spices as a Cd- and total-As-relevant ingredient category. The extremely high values here are likely outliers from local market conditions rather than typical commercial-grade supply.
 
@@ -67,3 +67,4 @@ Samples were labelled A–F (product identities not disclosed) plus one scent le
 - 2026-05-18 Codex merge-enhance against the source PDF in `condiment_papers`: corrected the truncated `raw_path`, broadened product routing to include `[[products/condiments-general]]`, and generalized "brands" wording to coded samples because the source does not disclose product identities.
 - Numerical fidelity correction: the prior page repeated the source abstract/discussion phrasing that three samples exceeded a 0.5 µg/g As limit, but Table 1 shows only Sample C (1.68 µg/g) and Sample E (1.26 µg/g) exceed 0.5 µg/g; Sample D is 0.315 µg/g and only exceeds the lower end of the source's 0.1–0.5 µg/g permissible range. Lead exceedances remain Samples A and B; Cd exceedance remains all seven samples.
 - Part 2 firewall: softened the HMT&C monitoring/testing sentence to source-level occurrence context and explicitly kept the values out of threshold math.
+- Cross-vendor audit (Codex, 2026-05-18) corrected the sample-population description: the six coded spice samples were purchased from New Heaven market, while the scent leaf was collected from a nearby garden at Ugwuaji. Pathway language is treated as author-discussed possibilities, not confirmed source attribution for each sample.
