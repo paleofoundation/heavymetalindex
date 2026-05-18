@@ -48,20 +48,20 @@ The source presents Table 1 as min–max, mean, median, and SD per brand for eac
 
 | Element | Across-brand mean: lowest to highest (µg/g) | Single-sample min–max across all brands (µg/g) | Limit-exceedance count and rank |
 |---|---|---|---|
-| Al | 553 – 25,117 | 116 – 37,970 | Mean limit-exceedance reported for 57.15% of samples (combined Al/As/Cd/Co/Hg/Mn/Sb/Zn MoS exceedances); Al-specific SED > TDI in 54.55% of brand means (n=6 of 11 brand-mean entries reported in source) and Al worst-case-95th-percentile SED > TDI in 7 of 10 brands |
-| Cr | 0.04 – 7.44 | 0.23 – 12.53 | Skin-sensitization-limit (5 mg/kg in cosmetics, per Basketter et al.) exceeded in 17 of 63 samples; LCR > 1×10⁻⁶ in 100% (n=63) |
-| Mn | 0.21 – 93.84 | <LOQ – 258.64 | MoS-exceedance lever (n=53 brand-mean entries flagged Mn-MoS-unsafe per text); no permissible cosmetic limit cited |
+| Al | 1121 – 25,117 | 116 – 37,970 | Mean limit-exceedance reported for 57.15% of samples (combined Al/As/Cd/Co/Hg/Mn/Sb/Zn MoS exceedances); Al-specific SED > TDI in 54.55% of brand means (n=6 of 11 brand-mean entries reported in source) and Al worst-case-95th-percentile SED > TDI in 7 of 10 brands |
+| Cr | 0.30 – 7.44 | 0.23 – 12.53 | Skin-sensitization-limit (5 mg/kg in cosmetics, per Basketter et al.) exceeded in 17 of 63 samples; LCR > 1×10⁻⁶ in 100% (n=63) |
+| Mn | 0.45 – 151.24 | <LOQ – 258.64 | MoS-exceedance lever (n=53 brand-mean entries flagged Mn-MoS-unsafe per text); no permissible cosmetic limit cited |
 | Co | <LOQ – 2.55 | <LOQ – 2.88 | Limit-exceeded in 35 of 63 samples (55.56%); HQ > 1 reported in BRAND-mean for one brand |
-| Ni | <LOQ – 29.17 | <LOQ – 40.15 | Skin-sensitization-limit exceeded in 49 of 63 samples (77.78%, Ni); LCR-exceedance in 79.37% (n=50) |
-| Cu | <LOQ – 43.33 | <LOQ – 164.68 | Single-sample max 164.68 µg/g; no permissible limit cited |
+| Ni | <LOQ – 29.17 | <LOQ – 40.15 | Permissible-cosmetic-limit exceedance 77.78% (n=49) — Ni was the most prevalent limit-exceeder of the eight regulated toxic elements per p. 33981; skin-sensitization-limit (>5 mg/kg, Basketter et al.) exceeded in 6 of 63 samples (9.52%, n=6); LCR > 1×10⁻⁶ in 79.37% (n=50) |
+| Cu | <LOQ – 67.30 | <LOQ – 164.68 | Single-sample max 164.68 µg/g; no permissible limit cited |
 | Zn | <LOQ – 5762 | <LOQ – 6227 | Mean limit-exceedance reported under combined Zn/Al/Mn no-limit umbrella; Zn MoS unsafe in 32 brand-means |
-| As | <LOQ – 0.39 | <LOQ – 27.68 | Single-sample max 27.68 µg/g; 85.71% (n=54) LCR exceedance |
+| As | <LOQ – 13.03 | <LOQ – 27.68 | Single-sample max 27.68 µg/g; 85.71% (n=54) LCR exceedance |
 | Se | <LOQ – 1.47 | <LOQ – 2.74 | Below cosmetic-toxic-limit; HQ contribution |
-| Cd | <LOQ – 0.35 | <LOQ – 0.81 | 2 brands above the Cd permissible limit; 18.87% (n=10) LCR exceedance among the n=53 samples with Cd > LOQ |
+| Cd | <LOQ – 0.33 | <LOQ – 0.81 | 2 brands above the Cd permissible limit; 18.87% (n=10) LCR exceedance among the n=53 samples with Cd > LOQ |
 | Sb | <LOQ – 0.78 | <LOQ – 1.62 | 19.05% (n=12) above the Sb permissible limit |
-| Ba | 0.31 – 87.00 | <LOQ – 222.24 | No cosmetic limit; max in the brand reported as 222.24 µg/g |
-| Hg | <LOQ across most brands | <LOQ – 4.92 | 2 samples exceeded the Hg permissible limit; one brand-mean's single-sample maximum 4.92 µg/g |
-| Pb | 0.18 – 81.71 | <LOQ – 171.20 | Single-sample maximum 171.20 µg/g (85-fold above the BVL "permissible limit"); LCR-exceedance in 77.78% (n=49) and SED-vs-TDI exceedance in 9.09% (reported as n=8 in source text) |
+| Ba | 0.89 – 294 | <LOQ – 1103 | No cosmetic limit; single-sample maximum 1103 µg/g in one brand's Ba min-max range |
+| Hg | <LOQ – 1.32 | <LOQ – 4.92 | 2 samples exceeded the Hg permissible limit; one brand's single-sample maximum 4.92 µg/g |
+| Pb | <LOQ – 81.71 | <LOQ – 171.20 | Single-sample maximum 171.20 µg/g (85-fold above the BVL "permissible limit"); LCR-exceedance in 77.78% (n=49) and SED-vs-TDI exceedance in 9.09% (reported as n=8 in source text) |
 
 The source body explicitly notes: "the highest Pb concentration was observed … with a concentration of 171.200 µg g⁻¹ which was 85-fold higher than the permissible limit set by BVL" (p. 33979); the highest As detected was 27.68 µg/g (p. 33979); the highest Hg mean reported in any single brand was 1.80 µg/g, with a single-sample maximum of 4.92 µg/g (p. 33979).
 
@@ -139,3 +139,6 @@ The sample set is geographically restricted to Istanbul toy retailers between an
 - The skin-sensitization-limit count for Cr (n=17) on p. 33981 and the LCR-Cd denominator (n=53 for Cd > LOQ) on p. 33979 reflect text-versus-table inconsistencies the source itself does not resolve. The narrative preserves the source's printed values.
 - The single qualitative organic finding (2-phenoxyethanol) is recorded as detected/not-quantitated per the GC–MS scan limitations stated by the authors. The page does not extrapolate a per-product 2-phenoxyethanol concentration.
 - This source contributes to `[[products/childrens-makeup]]` (HMTc Cat 2 Row 13) as direct evidence on the cosmetic-pigment platform metals Pb, Ni, Cr (the row's platform_metals) as well as Al, Mn, Co, Cd, Sb, As, Hg, Zn, Cu, Se, Ba.
+- Audit subagent (2026-05-18) flagged five across-brand-mean-range transpositions in the Key-numbers Table 1 summary where the first-pass row had picked up a brand's SD or a non-highest brand's mean instead of the across-brand min/max of the means; corrected against re-read of Table 1 (PDF pp. 33980–33981) to: Al `1121 – 25,117` (BRAND J lowest, E highest); Cr `0.30 – 7.44` (D, C); Mn `0.45 – 151.24` (D, A); Cu `<LOQ – 67.30` (D, A); Ba `0.89 – 294` (D, I); As `<LOQ – 13.03` (D, A); Cd `<LOQ – 0.33` (most brands <LOQ, A 0.33); Pb `<LOQ – 81.71` (D, A); Hg `<LOQ – 1.32` (most brands <LOQ, I 1.32). The audit subagent's proposed Ba highest of 91.48 was itself a misread (91.48 is BRAND A's Ba median, not a mean); independent re-read of Table 1 confirms BRAND I's Ba mean of 294 µg/g as the actual across-brand maximum.
+- Audit subagent (2026-05-18) flagged the Ni body-table row label as conflating skin-sensitization with permissible-cosmetic-limit exceedance; corrected. The 49/77.78% figure is Ni's permissible-cosmetic-limit exceedance per p. 33981 ("Cr, Co, and Ni at ratios of 73.02% (n=46), 55.56% (n=35), and 77.78% (n=49)"), making Ni the most prevalent limit-exceeder of the eight regulated toxic elements. The skin-sensitization-limit (>5 mg/kg, Basketter et al.) exceedance for Ni is the separate n=6 / 9.52% figure from p. 33981 and Conclusion. Both are now reported under the correct labels.
+- Audit subagent (2026-05-18) flagged the "7 of 10 brands exceeded Al TDI" attribution to Table 3 worst-case 95th-percentile section as misattributed to Table 3 instead of Table 2 mean SED. Independent re-verification against p. 33985 (paragraph 1) shows the source explicitly attributes this to the worst-case exposure scenario: "According to the worst-case exposure scenario results, 7 out of 10 brands (BRAND A, C, E, F, G, H, and I) exceeded the TDI levels for Al. Also, the worst-case exposure scenario results exceeded the TDI levels in BRAND A for both Pb and As as the prominent toxic elements." Finding rejected as a false positive — the wiki's attribution to Table 3 worst-case 95th-percentile is correct per the source text.
