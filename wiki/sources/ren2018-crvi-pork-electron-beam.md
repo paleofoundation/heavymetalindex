@@ -3,7 +3,7 @@ type: source
 raw_handle: papers-cube
 cite_key: ren2018-crvi-pork-electron-beam
 title: "One-Step and Nondestructive Reduction of Cr(VI) in Pork by High-Energy Electron Beam Irradiation"
-authors: [Ren J, Wang Z, Yang F, Bie X, Lu F]
+authors: [Ren J, Zhang G, Wang D, Han J, Wu Z, Cai D]
 year: 2018
 publication: "Journal of Food Science"
 doi: 10.1111/1750-3841.14088
@@ -11,60 +11,89 @@ source_type: peer-reviewed
 evidence_tier: A
 license: unknown
 raw_path: "raw/Papers Cube Manual Fetch/ren2018.pdf"
-metals: [Cr]
-ingredients: ["[[ingredients/pork]]"]
+metals: [Cr-VI, Cr]
+ingredients: ["[[ingredients/meat]]", "[[ingredients/pork-chop]]", "[[ingredients/pork-bacon]]"]
 products: []
 matrices: [pork, meat]
-jurisdictions: []
+jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
-sample_population: "Laboratory pork samples (lean, fat, tenderloin) spiked with Cr(VI) at concentrations of 1.0–4.0 mg/kg; irradiated at 0–40 kGy using high-energy electron beam (HEEB); study of distribution and mitigation of Cr(VI) in naturally chromium-contaminated pork also referenced from domestic market sampling"
-updated: 2026-05-14
+sample_population: "Laboratory experiment using lean, fat, and marbled pork purchased from a market in Hefei, China; pork tissues (2 g portions) spiked with K2Cr2O7 to total Cr(VI) concentrations of 150, 200, or 250 ppm and irradiated with high-energy electron beam at doses of 5–25 kGy; no in vivo or naturally chromium-contaminated cohort"
+updated: 2026-05-18
 ---
 
 # Ren et al. 2018 — Cr(VI) Reduction in Pork by High-Energy Electron Beam Irradiation
 
-This study investigated the use of high-energy electron beam (HEEB) irradiation as a one-step, nondestructive method to reduce hexavalent chromium (Cr(VI)) in pork. The motivation is that chromium-containing mineral supplements in pig feed can result in Cr(VI) accumulation in pork tissue, with fat tissue retaining significantly higher free Cr(VI) than lean tissue due to the relative absence of protein binding sites. HEEB irradiation at doses up to 40 kGy reduced spiked Cr(VI) by up to 98.03%, converting it to the far less toxic Cr(III) form. The reduction was stable across a broad range of pH (3–10), temperature (-20 to 60°C), and salinity conditions, and the product remained organoleptically acceptable at the optimal 20 kGy dose.
+This is a laboratory mitigation study, not an occurrence survey. Lean, fat, and marbled pork from a Hefei, China market were cut into 0.5 cm cubes, spiked with potassium dichromate to defined Cr(VI) levels, and irradiated with a 10 MeV / 10 kW high-energy electron beam (HEEB) at doses from 5 to 25 kGy. The reductive efficiency (RE) for free Cr(VI), defined as the fraction of free Cr(VI) converted to Cr(III), reached a maximum of 98.03% at 20 kGy. Free-Cr(VI) fraction differed sharply across tissue types — fat pork carried 80–85% of its total Cr(VI) as free (unbound) Cr(VI), marbled pork 20–35%, and lean pork only 2–4% — attributed to the differing density of protein-borne amine binding sites across tissues. RE was largely insensitive to NaCl (100–250 mg/g), pH (3–10), temperature (−20 to 60 °C), and soybean-oil content (20–50%). XPS spectra confirmed that adsorbed Cr(VI) is desorbed and reduced to Cr(III) during irradiation.
 
 ## Key numbers
 
-**Cr(VI) distribution by tissue type (naturally contaminated pork):**
-- Fat pork: free Cr(VI) = 80–85% of total Cr(VI) content (remainder protein-bound)
-- Lean pork: free Cr(VI) = 2–4% of total Cr(VI) content
-- Tenderloin (intermediate protein content): intermediate free Cr(VI) fraction
-- Explanation: Cr(VI) binds preferentially to proteins; fat tissue has fewer binding sites, leaving more Cr(VI) in the free (bioavailable) form.
+**Free Cr(VI) as a fraction of total Cr(VI), by tissue type (spiked CCP samples; total Cr(VI) initial concentrations 150 / 200 / 250 ppm; Figure 1):**
 
-**HEEB irradiation reduction efficiency:**
-- At 20 kGy (optimal dose): Cr(VI) reduction ~98.03% in spiked pork samples
-- At 40 kGy: marginal additional reduction above 20 kGy; above-threshold doses not justified by incremental benefit
-- Dose-response relationship: reduction increases with dose up to the plateau near 20 kGy
-- Mechanism: ionizing radiation generates reducing free radicals (primarily from water radiolysis) that convert Cr(VI) to Cr(III)
+- CCFP (Cr(VI)-containing fat pork): 80–85% free Cr(VI)
+- CCMP (Cr(VI)-containing marbled pork): 20–35% free Cr(VI)
+- CCLP (Cr(VI)-containing lean pork): 2–4% free Cr(VI)
+- Explanation given by the authors: protein content carries amine (−NH3+) groups that adsorb negatively charged Cr(VI) ions; fat tissue has very low protein content (triacylglycerols hydrolyze to glycerin and aliphatic acid), so adsorption capacity is low and free Cr(VI) dominates.
 
-**Stability of reduction across conditions:**
-- pH range 3–10: reduction efficiency maintained
-- Temperature range -20 to 60°C: reduction efficiency maintained (relevant to chilled, frozen, and cooked pork)
-- Various NaCl concentrations (simulating typical cured or fresh meat matrices): no significant effect on reduction efficiency
+**HEEB reductive efficiency (RE) for free Cr(VI) (Figure 2):**
 
-**Spiking concentrations used in experiments:** 1.0, 2.0, 3.0, and 4.0 mg/kg Cr(VI) in pork tissue; reduction percentages consistent across spike levels.
+- Maximum overall RE (across all conditions, reported in abstract): 98.03% at 20 kGy
+- Dose-response: RE increased from 5 kGy to 20 kGy, then decreased between 20 and 25 kGy. The authors attribute the decline above 20 kGy to accumulated Cr(III) inhibiting contact between reductive particles (eaq− and ·H) and remaining Cr(VI), because Cr(III) at high concentration is insoluble.
+- At 20 kGy in CCLP at 150 ppm initial: approximately 96–98% RE (Figure 2A; exact tabulated value not provided, the 98.03% figure is the maximum across the study).
+- RE in CCFP was significantly lower than in CCLP and CCMP at matched dose, attributed to the dramatically higher free Cr(VI) load in fat pork (Figure 2C).
+- At a given dose, RE in CCMP and CCFP decreased as initial total Cr(VI) increased from 150 to 250 ppm, attributed to a fixed pool of reductive particles per HEEB dose being diluted across more Cr(VI) ions.
+
+**Stability of RE across environmental conditions (CCLP, 150 ppm Cr(VI), 20 kGy; Figure 3):**
+
+- NaCl 100, 150, 200, 250 mg/g: RE held at approximately 95%; no significant difference across the range.
+- pH 3, 4, 5, 6, 7, 8, 9, 10: RE held at approximately 95%; no significant difference across the range.
+- Temperature −20, 0, 25, 60 °C: RE rose slightly from 0 to 25 °C (attributed to higher eaq− and ·H mobility), but held in the 87–96% band across the full temperature range.
+
+**Real Cr(VI)-containing lean pork (RCCLP) experiment (Figure 4):** 2 g of RCCLP at 86 ppm initial free Cr(VI) irradiated at 20 kGy under the same stress conditions as CCLP showed RE in the ~78–87% band across NaCl 100–250 mg/g, pH 3–10, temperature −20 to 60 °C, and soybean oil 20–50%. The "real" sample is still spiked pork, not pork from naturally Cr-exposed pigs; the authors describe it as Cr(VI)-pre-incorporated lean pork used to model adsorbed (rather than freshly mixed) Cr(VI).
+
+**XPS chemical-state evidence (CCLP, 150 ppm, 20 kGy; Figure 5):**
+
+- K2CrO7 reference: Cr 2p3/2 peak at 580 eV (Cr(VI) standard).
+- CCLP pre-irradiation: Cr 2p3/2 peak at 577.35 eV — the authors interpret this as adsorbed Cr(VI) shifted from the 580 eV reference by protein electrostatic interaction.
+- CCLP post-20 kGy irradiation: the 577.35 eV adsorbed-Cr(VI) peak disappears; a shoulder at 579.15 eV (free Cr(VI)) and a peak at 576.90 eV (Cr(III)) appear. Authors interpret this as HEEB desorbing adsorbed Cr(VI) to free Cr(VI), which is then reduced to Cr(III).
 
 ## Methods (brief)
 
-Pork samples (lean, fat, tenderloin) obtained from domestic markets. Spiked with potassium dichromate (K2Cr2O7) solution to achieve target Cr(VI) concentrations. Irradiated using a high-energy electron beam irradiator at doses 0, 5, 10, 15, 20, 25, 30, 35, 40 kGy. Cr(VI) quantified by colorimetric diphenylcarbazide method (DPC); total Cr by ICP-OES. Free vs. protein-bound Cr(VI) fractionation by precipitation and centrifugation. Sensory and physical quality assessments conducted on irradiated samples. No certified reference material for Cr(VI) in meat matrix reported; method validation via spiked recovery.
+Lean, fat, and marbled pork purchased from a market in Dongpu Island (Hefei, China). Tissues cut into 0.5 × 0.5 × 0.5 cm cubes, water-boiled 5 min, then 1 mL of K2Cr2O7 solution (Sinopharm Chemical Reagent Company, Shanghai; analytical grade) at 300, 400, or 500 mg/L added to 2 g pork to yield CCLP / CCMP / CCFP at 150, 200, or 250 ppm initial total Cr(VI). Samples sealed in 50 mL plastic centrifuge tubes and irradiated by a 10 MeV / 10 kW high-energy electron beam accelerator (IHI10, IHI Co., Japan) at 5, 10, 15, 20, or 25 kGy. Post-irradiation, samples were extracted in 24 mL deionized water (30 min shaking), centrifuged at 12,000 rpm for 6 min, and supernatant free Cr(VI) quantified by the diphenylcarbazide (DPC) colorimetric method at 540 nm on a PerkinElmer UV Lambda 365 UV-vis spectrophotometer. RE calculated as (C0 − Ct) / C0 × 100%. All experiments performed in triplicate. Microstructure characterized on a Sirion 200 scanning electron microscope (FEI Co., USA); Cr valence states characterized by X-ray photoelectron spectroscopy (ESCALAB 250, Thermo-VG Scientific, USA; 51.1 s acquisition, 500 µm spot, 30.0 eV pass energy, 0.05 eV step).
 
-**Limitation:** Spiking studies do not fully replicate the chemical speciation of Cr(VI) accumulated through natural dietary exposure in pigs, where chromium may be more tightly integrated into tissue matrices.
+No certified reference material for Cr speciation in meat matrix is reported. The DPC method is specific to Cr(VI); total Cr is referred to but the instrument and method for total-Cr quantification are not stated in the extracted text (no ICP-OES or ICP-MS instrument is named for total-Cr work; the earlier wiki page's claim of ICP-OES is not supported by this PDF).
+
+**Limitations.** Spiking with K2Cr2O7 in vitro does not replicate the chemical speciation of Cr that accumulates in pig tissue through dietary chromium-supplemented feed; the in vivo speciation may be more tightly bound to tissue matrices than the spiked Cr(VI) studied here. The "RCCLP" sample is also spiked, with the Cr(VI) pre-incubated in the pork prior to the stress experiment; it is not pork from in vivo Cr-exposed pigs. No naturally Cr-contaminated cohort is included in the study.
 
 ## Implications
 
-Certification: Directly relevant to the HMT&C program's Cr-VI analyte. Establishes that (a) Cr(VI) can accumulate in pork from chromium-supplemented feed, (b) the tissue distribution is highly nonuniform — fat cuts carry far more bioavailable free Cr(VI) than lean cuts — and (c) HEEB irradiation is an effective mitigation strategy. For HMT&C-relevant pork products, the fat content of the cut is a primary determinant of Cr(VI) exposure, an insight that matters for both ingredient profiling and certification criteria.
+Certification: Establishes that (a) Cr(VI) adsorption to pork tissue is highly protein-dependent, with fat tissue retaining a much larger free (and presumably more bioavailable) Cr(VI) fraction than lean tissue, and (b) HEEB irradiation at 20 kGy is an effective in-process mitigation for free Cr(VI) in pork matrices across realistic salt, pH, temperature, and oil-content conditions. The findings are direct evidence for the Cr-VI analyte in the HMT&C 10-analyte vocabulary; they do not by themselves set thresholds.
 
-Courses: Model case for the processing-effects module: irradiation as a mitigation lever for a specific metal species. Also illustrates species-level complexity — total Cr measurements would miss the Cr(VI) fraction that drives toxicity; this paper reinforces why the HMT&C analyte vocabulary uses Cr-VI rather than total Cr.
+Courses: Useful as a processing-effects case study illustrating speciation-dependent mitigation — the same irradiation that reduces free Cr(VI) does not address adsorbed Cr that XPS shows is desorbed and then reduced through the radiolysis intermediates eaq− and ·H. Also illustrates why total-Cr measurements are insufficient: total Cr is conserved through the irradiation step; only the speciation shifts from Cr(VI) toward Cr(III).
 
-App: Pork ingredient Cr-VI contamination profile contribution: fat cuts are materially higher risk than lean cuts; the app should distinguish fat pork from lean pork when estimating Cr-VI exposure from pork-containing products.
+App: Pork tissue type (lean vs marbled vs fat) is a candidate modifier of Cr(VI) bioavailability if and when pork enters the consumer-app contamination model. The findings do not establish that fat pork in retail markets is more contaminated than lean pork; they establish that, at equal total Cr loading, a larger fraction of Cr(VI) in fat pork is in the free, unbound form.
 
-Mitigation: Contributes to `mitigation/electron-beam-irradiation.md` (if created). HEEB at 20 kGy reduces Cr(VI) by ~98% without requiring disassembly or chemical treatment of the food matrix; the reduction is stable under cold chain, cooking, and normal food-processing conditions.
+Microbiome: Not applicable.
 
 ## Wiki pages updated on ingest
 
-- [[ingredients/pork]]
 - [[metals/chromium-hexavalent]]
-- [[mitigation/electron-beam-irradiation]]
+- [[metals/chromium]]
+- [[ingredients/meat]]
+- [[ingredients/pork-chop]]
+- [[ingredients/pork-bacon]]
+
+## Verification notes
+
+- 2026-05-18 merge-enhance against the source PDF, replacing the 2026-05-14 draft. Corrections applied:
+  - **CCMP identity:** prior draft labeled the intermediate tissue "tenderloin (intermediate protein content)." The source consistently labels it CCMP = Cr(VI)-containing marbled pork (Materials and Methods, p. 3; Figure 1 caption). Corrected.
+  - **Spiking concentrations:** prior draft said "1.0, 2.0, 3.0, 4.0 mg/kg." The source spikes at 150, 200, 250 ppm total Cr(VI) in pork (300 / 400 / 500 mg/L K2Cr2O7 solution × 1 mL added to 2 g pork; p. 3 Materials and Methods; figure x-axis labels). Corrected. 1–4 mg/kg is approximately 1–4 ppm, two orders of magnitude lower than the actual spike levels.
+  - **Dose range:** prior draft said "0, 5, 10, 15, 20, 25, 30, 35, 40 kGy." The source uses 5, 10, 15, 20, 25 kGy only (p. 3 Materials and Methods, Figures 2 and 3). Corrected.
+  - **Dose-response shape:** prior draft said "at 40 kGy: marginal additional reduction above 20 kGy." Source actually reports RE rising 5→20 kGy and then declining 20→25 kGy, with no doses above 25 kGy run (p. 4 Results and Discussion, Figure 2). Corrected.
+  - **"Naturally chromium-contaminated pork...from domestic market sampling":** the prior draft attributed the 80–85% / 20–35% / 2–4% free-Cr(VI) values to a naturally-contaminated cohort. The source applies these to spiked CCFP / CCMP / CCLP samples (Figure 1 caption; p. 4). The pork was purchased from a market but Cr(VI) was added in vitro. Corrected.
+  - **Total-Cr method (ICP-OES claim):** prior draft asserted "total Cr by ICP-OES." The extracted PDF text does not name an ICP-OES instrument or method for total-Cr quantification. The DPC UV-vis method is specific to Cr(VI). Removed the unsupported ICP-OES claim.
+  - **Authors:** prior draft listed authors as "Ren J, Wang Z, Yang F, Bie X, Lu F" — those names do not appear on the title page. Title page lists Jingya Ren, Guilong Zhang, Dongfang Wang, Jie Han, Zhengyan Wu, and Dongqing Cai. Corrected.
+- **Frontmatter slug correction:** prior draft used `[[ingredients/pork]]`, which is not a taxonomy slug (snapshot dated 2026-05-17). Replaced with `[[ingredients/meat]]` (umbrella anchor), plus `[[ingredients/pork-chop]]` (lean pork preparation, the CCLP analog) and `[[ingredients/pork-bacon]]` (fatty pork preparation, the CCFP analog) to give the routing layer enough to fan the source out to the right ingredient pages.
+- **Matrices vocabulary:** `pork` and `meat` are not in the standard matrices vocabulary in system-prompt.md (which centers on infant-formula, rice, fish, etc.). Retained the prior draft's `[pork, meat]` because no closer match exists; flagging for taxonomy review. If a `red-meat` or `pork-tissue` matrix is added, this page should be revisited.
+- **Jurisdictions:** changed from `[]` to `[CN]`. Study performed in Hefei, China; authors from Chinese Academy of Sciences; pork sourced from a Hefei market. This is a methods/mitigation study with no jurisdictional limit-comparison content, but the experimental context is unambiguously Chinese.
+- **Removed `[[mitigation/electron-beam-irradiation]]`** from the Wiki-pages-updated-on-ingest section; no such page exists. The mitigation framing belongs in `wiki/processing.md` or a future dedicated electron-beam page; this source page does not create that page.
