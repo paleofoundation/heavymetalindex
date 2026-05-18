@@ -24,7 +24,7 @@ updated: 2026-05-17
 
 # Ziarati et al. 2019 — Toxic metals in Iranian and Italian flavoured olive oil
 
-This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purchased across three consecutive seasons from markets in Lombardy (Italy) and Tehran (Iran), comparing non-flavoured (virgin, extra-virgin) and flavoured (fungi, aroma vegetable, pepper) varieties. Iranian samples had higher Pb, Cd, and As combined means than Italian samples, while Italian non-flavoured samples had the higher combined mean Ni value. Fungi-flavoured olive oil exhibited the highest Italian Pb and Cd concentrations, while pepper-flavoured olive oil showed the lowest heavy metal levels across the Italian flavour categories.
+This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purchased across three consecutive seasons from markets in Lombardy (Italy) and Tehran (Iran), comparing non-flavoured (virgin, extra-virgin) and flavoured (fungi, aroma vegetable, pepper) varieties. Table 3 reports higher Iranian Pb, Cd, and As combined means than Italian samples and a lower Iranian Ni combined mean, although the narrative text states that Iranian Ni was higher; treat the country-level Ni comparison as source-internal contradictory. Fungi-flavoured olive oil exhibited the highest Italian Pb and Cd concentrations, while pepper-flavoured olive oil showed the lowest heavy metal levels across the Italian flavour categories.
 
 ## Key numbers
 
@@ -44,12 +44,13 @@ This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purch
 - Italian: Pb 8.546, Cd 0.396, Ni 12.253, As 0.00020
 - Iranian: Pb 14.944, Cd 3.362, Ni 9.579, As 0.0039
 - Cd in Iranian samples was approximately ten times higher than in Italian samples (p < 0.005)
+- Ni caveat: Table 3 reports Iranian Ni (9.579 µg/g) below Italian Ni (12.253 µg/g), but the surrounding narrative says Iranian Ni was higher than Italian Ni; preserve the tabulated values and do not use the country-level Ni direction without source review.
 
 **Storage effect (combined samples, µg/g):**
 - Pb: 14.221 ± 0.028 at 1 month, 15.128 ± 0.033 at 3 months, 15.867 ± 0.081 at 6 months, and 27.111 ± 0.102 at 12 months
 - Cd: 2.989 ± 0.032 at 1 month, 3.156 ± 0.022 at 3 months, 4.001 ± 0.005 at 6 months, and 4.989 ± 0.011 at 12 months
 
-Note: µg/g is equivalent to mg/kg. The reported Pb and Cd concentrations in several rows are orders of magnitude above the Codex/USDA 0.1 mg/kg limits cited by the authors. The paper does not reconcile those high concentrations with the limit comparison, so the source should be treated as high-caution occurrence evidence until cross-audited.
+Note: µg/g is equivalent to mg/kg. The reported Pb concentrations and several Cd values are orders of magnitude above the paper's own regulatory discussion. The 0.1 mg/kg Codex/USDA limits cited in the introduction are stated for Pb and As; the paper also states that fungi-flavoured Cd exceeded a FAO/WHO permissible level but does not tabulate a Cd-specific vegetable-oil limit. The source should be treated as high-caution occurrence evidence.
 
 ## Methods (brief)
 
@@ -57,13 +58,13 @@ ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0
 
 ## Implications
 
-- Certification (HMTc): Provides source-specific occurrence evidence for Pb, Cd, Ni, and As in flavoured and non-flavoured olive oils from two market geographies. Because the reported Pb and Cd values are extremely high relative to the limits cited in the paper, use as high-caution occurrence evidence pending cross-audit rather than as a direct calibration input.
+- Certification (HMTc): Provides source-specific occurrence evidence for Pb, Cd, Ni, and As in flavoured and non-flavoured olive oils from two market geographies. Because the reported Pb and Cd values are extremely high relative to the paper's own regulatory discussion, use as high-caution occurrence evidence rather than as a direct calibration input.
 
 - Courses: Storage time as a driver of Pb and Cd accumulation (12-month values roughly double 1-month values in this dataset) is a practical supply-chain case study for QA training.
 
 - App: Adds contextual evidence that flavoured oils may not share the same occurrence profile as plain olive oil; do not use the extreme values as contamination-profile calibration inputs until independently replicated or cross-audited.
 
-**Caution:** The source's quantitative values are unusually high relative to the paper's own cited limits. They should be used to indicate source-reported direction-of-effect (fungi-flavoured > pepper-flavoured in the Italian subset; Iranian combined Pb/Cd/As > Italian combined Pb/Cd/As) rather than as calibration inputs until independently replicated.
+**Caution:** The source's quantitative values are unusually high relative to the paper's own regulatory discussion. They should be used to indicate source-reported direction-of-effect (fungi-flavoured > pepper-flavoured in the Italian subset; Iranian combined Pb/Cd/As > Italian combined Pb/Cd/As) rather than as calibration inputs until independently replicated. The country-level Ni direction is internally inconsistent between Table 3 and the narrative.
 
 ## Wiki pages this source may touch
 - [[ingredients/olive-oil]]
@@ -78,3 +79,5 @@ ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0
 - 2026-05-17 Codex merge-enhance: identity checked against DOI 10.2478/ata-2019-0012 and the manual-fetch PDF; corrected legacy `raw_handle`/truncated path, rerouted from `products/cooking-oils-other` to `products/olive-oil`, corrected Italian Table 1 transcriptions (non-flavoured Pb/As and fungi vs vegetable Ni), aggregated the four Iranian anonymized series into ranges to avoid brand/series-level ranking, and changed legacy headings to current source-page headings.
 - Strict Part 12 cleanup: source reports four anonymized Iranian series; the wiki page now reports the range across the series rather than listing series-by-series values with a highest-series callout.
 - Arsenic methods include speciation standards and separation, but the result tables report a single `As` concentration; frontmatter therefore retains `tAs` pending cross-audit.
+- `edible-oil`, `olive-oil`, and `flavoured-olive-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
+- 2026-05-18 Cross-vendor audit (Codex) made the source-internal Ni contradiction explicit: Table 3 reports Iranian Ni lower than Italian Ni (9.579 vs 12.253 µg/g), while the narrative says Iranian Ni was higher. Also tightened the regulatory note so Codex/USDA 0.1 mg/kg is not over-attributed to Cd.
