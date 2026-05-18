@@ -425,3 +425,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 10 (Step 0 Lock mechanics), Part 5b (routing unblocks synthesis), Part 19 (per-row P97/P45 thresholds).
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Extract heavy-metal values from 40% of unsourced papers
+
+**What:** Audit which of the 959 corpus sources lack structured `contamination_profile` value rows (or have incomplete frontmatter preventing synthesis), then run batched extraction on the backlog to populate them.
+
+**Why this lever now:** Only 557/959 sources (~58%) have extracted values. The 305 pool-blocked cells and 42 thin-pool cells are symptoms: synthesis can't run until a cell has 2+ sources with structured values. Closing the extraction gap directly unlocks ~42 synthesis initializations (→ populated cells with confidence: low), which seed the citation tables that make product pages credible to HMT&C Step 0 Lock decisions. The pending-lock products (baby-food, infant-formula variants) are waiting on exactly this signal.
+
+**Where:**
+- Audit script: `tools/autonomy/audit-source-value-completeness.mjs` (new) — iterate `wiki/sources/*.md`, check for `frontmatter.metals` population and `<!-- contamination_profile extracted -->` marker (or equivalent schema field); emit `data/evidence/autonomy/source-extraction-backlog.csv` with sources missing structured values, grouped by metals/analytes missing.
+- Extraction runner: feed backlog through existing ingest-skill pipeline or new `tools/autonomy/batch-extract-source-values.mjs` to populate `contamination_profile` blocks on source pages.
+- Tracking: log to `data/evidence/autonomy/value-extraction-<YYYY-MM-DD>.md` with before/after pool-cell counts.
+
+**How:**
+1. Run audit script to enumerate sources with incomplete frontmatter or missing value extraction.
+2. For each source, re-read the PDF to extract per-analyte values (typical ppb, p95 ppb, sample count, study quality) into structured YAML under the source page's `contamination_profile`.
+3. Re-run routing audit (auto-triggered by source-page write).
+4. Run synthesis on cells that now reach 2+ source threshold.
+5. Log cell-unblock count in morning report; flag categories whose pending locks now have routed+synthesized evidence.
+
+**Anchors:** CLAUDE.md Part 9 (synthesis blocked without structured values), Part 5b (routing depends on frontmatter completeness), Part 18 (lint rule: provenance gaps).
+
+---

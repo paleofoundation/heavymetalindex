@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [fruit-juices-apple-containing, fruit-purees]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 12
+sources: 14
 ---
 
 # Apple

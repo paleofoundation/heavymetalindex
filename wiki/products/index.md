@@ -31,11 +31,11 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 3. [[products/infant-formula-rtf-liquid-non-soy|Infant formula, RTF liquid (non-soy)]] (22 sources)
 4. [[products/infant-formula-rtf-liquid-soy-based|Infant formula, RTF liquid (soy-based)]] (13 sources)
 5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]] (30 sources)
-6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (61 sources)
-7. [[products/fruit-purees|Fruit purees]] (26 sources)
+6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (62 sources)
+7. [[products/fruit-purees|Fruit purees]] (27 sources)
 8. [[products/non-root-vegetable-purees|Non-root vegetable purees]] (17 sources)
-9. [[products/root-vegetable-purees|Root-vegetable purees]] (19 sources)
-10. [[products/meat-and-poultry-purees|Meat and poultry purees]] (14 sources)
+9. [[products/root-vegetable-purees|Root-vegetable purees]] (20 sources)
+10. [[products/meat-and-poultry-purees|Meat and poultry purees]] (15 sources)
 11. [[products/fish-containing-baby-foods|Fish-containing baby foods]] (13 sources)
 12. [[products/mixed-meals-non-rice|Mixed meals, non-rice]] (18 sources)
 13. [[products/mixed-meals-rice-containing|Mixed meals, rice-containing]] (17 sources)
@@ -47,7 +47,7 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 
 These pages are graph anchors for sources that report a broader product category than the locked HMTc row split. They should not replace the 16 Category 1 row pages or carry final p90/p100 candidate values unless the evidence is later resolved into a specific row.
 
-- [[products/infant-formula-powder|Infant formula powder]] (15 sources)
+- [[products/infant-formula-powder|Infant formula powder]] (16 sources)
 - [[products/infant-formula-concentrated-liquid-non-soy|Infant formula, concentrated liquid (non-soy)]] (2 sources)
 - [[products/infant-formula-concentrated-liquid-soy-based|Infant formula, concentrated liquid (soy-based)]] (2 sources)
 - [[products/oral-electrolyte-solutions|Oral electrolyte solutions]] (2 sources)
@@ -123,7 +123,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 
 - [[products/category-5-beverages]] (0 sources)
 - [[products/fruit-juices-non-apple]] (13 sources)
-- [[products/fruit-juices-apple-containing]] (13 sources)
+- [[products/fruit-juices-apple-containing]] (14 sources)
 - [[products/vegetable-juices-non-root]] (2 sources)
 - [[products/vegetable-juices-root-vegetable-containing]] (0 sources)
 - [[products/plant-milks-non-soy-non-rice]] (2 sources)
@@ -510,11 +510,17 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/breakfast-cereals|Breakfast Cereals]]
-- [[products/infant-food-general|Infant Food General]]
-- [[products/infant-formula-dairy|Infant Formula Dairy]]
-- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
-- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
-- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
-- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
+- [[products/canned-fish|Canned Fish]]
+- [[products/canned-fruit|Canned Fruit]]
+- [[products/canned-tomatoes|Canned Tomatoes]]
+- [[products/canned-vegetables|Canned Vegetables]]
+- [[products/dietary-supplements|Dietary Supplements]]
+- [[products/fresh-fish|Fresh Fish]]
+- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
+- [[products/infant-cereal|Infant Cereal]]
+- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
+- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
+- [[products/tea-infusions|Tea Infusions]]
+- [[products/tomato-paste|Tomato Paste]]
+- [[products/tomato-sauce|Tomato Sauce]]
 <!-- END: hmi-auto-linked-stubs -->

@@ -8,7 +8,7 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
 updated: 2026-04-30
-sources: 145
+sources: 147
 ---
 
 # Nickel

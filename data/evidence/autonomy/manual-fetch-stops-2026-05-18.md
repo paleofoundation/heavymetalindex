@@ -164,6 +164,137 @@ The existing page's `raw_handle` (`FM_9271943`) and `raw_path` (`raw/markdown/FM
 
 **No content commits made beyond `2e44dd7`.** This stop-report and the `audit-queue.csv` status update are the only edits in this Phase 3 segment.
 
+## Stop 11 — true duplicate conflict: two existing source pages for the same DOI
+
+- **PDF:** `raw/Papers Cube Manual Fetch/article (2) copy 7.pdf`
+- **Suggested handle (per daemon):** `PCMF_article-2-copy-7`
+- **DOI:** `10.1016/j.toxrep.2022.02.001` (Parker GH, Gillie CE, Miller JV, Badger DE, Kreider ML 2022, *Toxicology Reports* 9:238–249, "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods")
+
+**Two existing wiki source pages for this one paper:**
+
+1. `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md` — `updated: 2026-04-29`, `raw_path: raw/markdown/FM_8850323/FM_8850323.md`. Created from the FM-derived markdown ingest. Thinner content, legacy schema, declares some pre-taxonomy product slugs (`fruit-purees`, `root-vegetable-purees`, `non-root-vegetable-purees`, `baby-cereals`, `mixed-meals`). Currently in `routing_malformed.csv` at `severity: advisory` (`missing_advisory: ingredients;matrices`).
+2. `wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb.md` — `updated: 2026-05-15`, `raw_path: raw/Papers Cube Manual Fetch/article (2) copy 7.pdf`. Created from the PCMF copy of the same paper. Richer content, current schema, declares current product slugs (`baby-cereals-dry-rice-based`, `baby-cereals-dry-non-rice`, `infant-and-child-foods-master`, `root-tuber-vegetables`), full Key numbers with the Table 4 distribution, Conflict-of-interest disclosure, Methods + Limitations + Implications sections.
+
+**Why stopped:** This is the "True duplicate conflict" stop condition. All three identity checks (DOI, raw_handle, cite-key) hit *two* canonical pages, not one. The skill's merge-enhance path assumes a single existing page to enhance. Re-ingesting against either page silently leaves the other in place, perpetuating the duplicate. Deduping requires:
+  (a) deciding which cite-key is canonical (the newer `parker2022-baby-food-risk-assessment-as-cd-hg-pb` is the better candidate — current schema, richer content, declares current product taxonomy, points at the PCMF PDF that is the better-preserved source artifact),
+  (b) retiring the other cite-key by rewriting every reference across wiki/products/ (7 pages), wiki/metals/ (4 pages), wiki/ingredients/ (4 pages), wiki/log.md, wiki/batch-reports/, wiki/static/hmi-lab-comparator-context.json, data/evidence/values.jsonl, data/evidence/hmtc_aggregate_distributions.csv, data/evidence/product_regulatory_crosswalk.csv, data/evidence/product_source_routing_audit.csv, data/evidence/routing_malformed.csv, and data/evidence/category1_autonomy_extracted_summary.csv,
+  (c) merging any unique content from the retired page (the Table 4 wikilink-anchored table, the FM_8850323 raw provenance lineage if worth preserving) into the canonical page,
+  (d) deleting the retired source file, and
+  (e) re-running the routing audit to confirm clean.
+
+Steps (b)–(c) cross marker-block-owned generator outputs in several files (`wiki/static/hmi-lab-comparator-context.json` and parts of `data/evidence/product_source_routing_audit.csv` are generator-owned), so the right execution path is a dedicated dedup-and-regenerate pass that runs the generators after the retire-and-rewrite, not a per-file hand-edit in an ingest cycle. This is out of scope for the per-PDF manual-fetch skill.
+
+**Routing-audit status:** The newer canonical page (`…risk-assessment-as-cd-hg-pb`) is clean — absent from both `routing_unresolved.csv` and `routing_malformed.csv`. The older legacy page (`…arsenic-cadmium-lead-mercury-risk`) is in `routing_malformed.csv` at advisory severity for missing ingredients/matrices. The PCMF PDF's content is already fully captured on the newer page; no ingest data is at risk by stopping here.
+
+**Action for the daemon:** advance past this PDF. The basename stem `article (2) copy 7` can be added to the daemon's already-post-2026-05-14-clean skip list keyed to the canonical cite-key `parker2022-baby-food-risk-assessment-as-cd-hg-pb`. Re-presenting this PDF would just trigger the same duplicate-conflict stop again.
+
+**Recommendation for Karen:** queue a dedicated dedup pass for parker2022. The pattern (one paper → two cite-keys created at different times from different raw paths — one FM-derived, one PCMF-derived) likely affects other papers ingested across the FM→PCMF transition. A scripted scan that groups source pages by DOI and reports DOI→multiple-cite-key collisions would find these systematically. The retire-by-rewriting step is mechanical once the canonical pick is made, and the routing audit + product-page regenerators will validate the cleanup.
+
+**No commits made.** Page state unchanged.
+
+## Stop 12 — true duplicate conflict: two existing source pages for the same DOI (gardener2019)
+
+- **PDF:** `raw/Papers Cube Manual Fetch/gardener2019.pdf`
+- **Suggested handle (per daemon):** `PCMF_gardener2019`
+- **DOI:** `10.1016/j.scitotenv.2018.09.026` (Gardener H, Bowen J, Callan SP 2019, *Science of the Total Environment*, "Lead and cadmium contamination in a large sample of United States infant formulas and baby foods")
+- **MD5:** `40c30de3b1094c07380ec0324f0916c2` — byte-identical to `raw/studies/gardener2019.pdf`.
+
+**Two existing wiki source pages for this one paper:**
+
+1. `wiki/sources/gardener2019-lead-cadmium-infant-formula-baby-food.md` — `updated: 2026-04-29`, `raw_path: raw/studies/gardener2019.pdf`. Created from the earlier `raw/studies/` ingest path. No `raw_handle`. Declares legacy/matrix-shaped product slugs in frontmatter (`infant-formula`, `baby-cereals`, `toddler-formula`, `fruit-juice`, `jars-first-meals`, `pouches`, `snacks`, `kids-meals`) — none of these are valid product page slugs; routing fans them out as `broad_*_context` to the locked rows. Currently in `routing_malformed.csv` at `severity: advisory` (`missing_advisory: ingredients;matrices`). Body has Full-Sample table, Infant Formula Exposure table, and Solid Baby-Food Exceedance table, but the narrative is thinner than the PCMF page and omits the Conflict-of-interest / Clean Label Project funding disclosure.
+2. `wiki/sources/gardener2019-pb-cd-us-infant-formula-baby-foods.md` — `updated: 2026-05-15`, `raw_path: raw/Papers Cube Manual Fetch/gardener2019.pdf`, `raw_handle: papers-cube`. Created from the PCMF copy of the same PDF. Current schema, declares current locked product slugs (`infant-formula-powder-non-soy`, `infant-formula-powder-soy-based`, `infant-formula-powder`, `baby-cereals-dry-rice-based`, `infant-and-child-foods-master`, `oral-electrolyte-solutions`) in wikilink form, populates `ingredients: [[ingredients/rice]], [[ingredients/sweet-potato]]`, `matrices`, `sample_n`, `sample_population`, `license`. Richer Key numbers (full Table 1 + Table 4 distributions, regulatory exceedance percentages for FDA/Prop 65/WHO at four intake scenarios, rice prevalence by sub-category), full Methods (analytical, sampling, statistical), Funding-and-independence note (Clean Label Project), and Implications sections.
+
+**Why stopped:** This is the "True duplicate conflict" stop condition — same DOI, same paper, byte-identical raw PDF, but two distinct canonical source pages with different cite-keys, both already wired into the routing audit. All three identity checks hit *two* pages, not one. The skill's merge-enhance path assumes a single existing page to enhance. Re-ingesting against either page silently leaves the other in place, perpetuating the duplicate.
+
+**Scope of references** (both cite-keys live in the routing fabric):
+
+- `gardener2019-lead-cadmium-infant-formula-baby-food` is referenced in `wiki/log.md`, `wiki/batch-reports/row-fit-sweep-2026-05-08.md`, 4 metal/ingredient pages (`wiki/metals/lead.md`, `wiki/metals/cadmium.md`), 11 product pages (`mixed-meals-rice-containing`, `teething-and-snacks-non-rice`, `root-vegetable-purees`, `baby-cereals-dry-rice-based`, `baby-cereals-dry-non-rice`, `infant-formula-rtf-liquid-non-soy`, `teething-and-snacks-rice-based`, `mixed-meals-non-rice`, `infant-formula-rtf-liquid-soy-based`, `fruit-juice-not-canned`, `infant-formula-powder-soy-based`, `infant-formula-powder-non-soy`), `data/evidence/routing_malformed.csv`, `data/evidence/raw_ingest_inventory.csv`, and `data/evidence/product_source_routing_audit.csv`.
+- `gardener2019-pb-cd-us-infant-formula-baby-foods` is referenced in `wiki/log.md`, `wiki/metals/cadmium.md`, `wiki/metals/lead.md`, 5 product pages (`oral-electrolyte-solutions`, `baby-cereals-dry-rice-based`, `infant-formula-powder-non-soy`, `infant-formula-powder-soy-based`, `infant-formula-powder`), `wiki/synthesis/organic-certification-not-protective.md`, `wiki/ingredients/sweet-potato.md`, `wiki/ingredients/rice.md`, `data/evidence/category1_autonomy_extracted_summary.csv`, `data/evidence/product_source_routing_audit.csv`, `data/workbench/briefings/baby-cereals-dry-rice-based.md`, `data/workbench/briefings/infant-formula-powder-non-soy.md`, `data/evidence/hmtc_aggregate_distributions.csv`, and `data/evidence/review_events.jsonl`.
+
+Deduping requires:
+  (a) deciding which cite-key is canonical (the newer `gardener2019-pb-cd-us-infant-formula-baby-foods` is the better candidate — current schema, richer content, declares current product taxonomy, populates ingredients/matrices/sample_n, points at the PCMF PDF, captures the Clean Label Project funding disclosure that the older page omits),
+  (b) retiring the other cite-key by rewriting every reference across the surfaces enumerated above,
+  (c) merging any unique content from the retired page into the canonical page — specifically the Solid Baby-Food Exceedance Findings table (the canonical page has the same numbers as inline bullets rather than as a wikilink-anchored table, but the older page's `[[metals/lead]]`/`[[metals/cadmium]]` row-keyed table is the more wikilink-graph-friendly representation), and any unique provenance the `raw/studies/gardener2019.pdf` path encodes,
+  (d) deleting the retired source file,
+  (e) re-running the routing audit to confirm clean, and
+  (f) regenerating the briefings + the `hmtc_aggregate_distributions.csv` + the `category1_autonomy_extracted_summary.csv` so the cite-key reference is consistent across generator outputs.
+
+Steps (b)–(c) cross marker-block-owned generator outputs in several files (`data/evidence/product_source_routing_audit.csv` and parts of the workbench briefings are generator-owned), so the right execution path is a dedicated dedup-and-regenerate pass that runs the generators after the retire-and-rewrite, not a per-file hand-edit in an ingest cycle. This is out of scope for the per-PDF manual-fetch skill.
+
+**Routing-audit status:** The newer canonical page (`…pb-cd-us-infant-formula-baby-foods`) is clean — absent from `routing_unresolved.csv` and `routing_malformed.csv`. The older legacy page (`…lead-cadmium-infant-formula-baby-food`) is in `routing_malformed.csv` at advisory severity for missing ingredients/matrices. The PCMF PDF's content is already fully captured on the newer page; no ingest data is at risk by stopping here.
+
+**Action for the daemon:** advance past this PDF. The basename stem `gardener2019` (under `raw/Papers Cube Manual Fetch/`) can be added to the daemon's already-post-2026-05-14-clean skip list keyed to the canonical cite-key `gardener2019-pb-cd-us-infant-formula-baby-foods`. Re-presenting this PDF would just trigger the same duplicate-conflict stop again.
+
+**Recommendation for Karen:** this is the second observed instance of the FM/`raw/studies/`-vs-PCMF duplicate-cite-key pattern (Stop 11 covered Parker 2022; this is Gardener 2019). The pattern is now confirmed systematic across the FM→PCMF transition. A scripted DOI→multiple-cite-key collision scan across `wiki/sources/` (already recommended on Stop 11) would surface the full population in one pass and let a single dedup pass clear all of them; doing them one-by-one as they surface in the manual-fetch loop is strictly slower than the systematic scan.
+
+**No commits made.** Page state unchanged.
+
+## Stop 13 — byte-identical duplicate PDF re-presented; already ingested+audited today
+
+- **PDF (this tick):** `raw/Papers Cube Manual Fetch/mathew2015.pdf`
+- **Suggested handle (per daemon):** `PCMF_mathew2015`
+- **Existing wiki page:** `wiki/sources/vaishaly2015-health-effects-metal-groundwater.md` (`updated: 2026-05-18`)
+- **DOI:** null (`no_doi_assigned: true`; journal DOI 10.7439/ijasr is for the journal itself, not the article; the article carries no article-level DOI)
+- **SHA-1:** `0ae8bf80804072c44ae9384b690e17e323deacc8` — byte-identical to the sibling PDF `raw/Papers Cube Manual Fetch/mathew2015 (1).pdf` already ingested under raw_handle `PCMF_mathew2015-1` (commit `ec1d778`) and audited PROMOTE under `audit-queue.csv` row dated `2026-05-18T09:25:42Z`.
+
+**Why stopped:** Two byte-identical copies of the same PDF sit in `raw/Papers Cube Manual Fetch/` — `mathew2015.pdf` and `mathew2015 (1).pdf`. The "(1)" copy was ingested fresh earlier today (Vaishaly, Mathew, Krishnamurthy 2015, *Int J Adv Sci Res* 1(02):60–64; narrative review of heavy metals in groundwater), audited via fresh-context subagent (verdict PROMOTE, 0 findings), and recorded `audited-promote` in `data/evidence/audit-queue.csv`. The daemon now re-presented the no-suffix copy under handle `PCMF_mathew2015`. Identity checks confirm match:
+
+1. DOI grep — paper has no article-level DOI (`no_doi_assigned: true`); not applicable.
+2. `raw_handle` grep — the existing page records `PCMF_mathew2015-1`; the proposed handle `PCMF_mathew2015` differs only by the `-1` disambiguator suffix that earlier ingest applied to mark the "(1)" filename. Same underlying paper.
+3. Cite-key stem grep — `ls wiki/sources/ | grep mathew2015` returns `vaishaly2015-health-effects-metal-groundwater.md` (the cite-key resolves the corresponding-author/first-author ambiguity in favor of first author Vaishaly per cite-key convention; the page title correctly attributes both Vaishaly AG and Mathew BB).
+4. SHA-1 of the new PDF (`0ae8bf80…`) equals the SHA-1 of the already-ingested sibling — byte-identical, not a republication or different version.
+
+**Routing-malformed status:** The existing page appears in `data/evidence/routing_malformed.csv` at `severity: advisory` with `missing_advisory: products;ingredients;jurisdictions`. This is correct and intentional — a generic groundwater-toxicology review has no food-occurrence data and no jurisdiction-specific regulatory subject, so the frontmatter correctly leaves those arrays empty. The routing layer falls back to broad metal/matrix scope. This is the advisory-only fallback documented in the audit-queue note, not a blocking defect.
+
+**Page-cleanliness verdict:** Existing page is post-2026-05-14 clean (`updated: 2026-05-18`, audited PROMOTE today, only advisory routing-malformed entry that is correct by design). Per the skill's Phase 1 step 1, this PDF must be skipped — re-ingesting would overwrite the just-audited page with no new information (same source, same content, same author list) and would either invalidate or duplicate the audit-queue.csv row.
+
+**Action for the daemon:** advance past `raw/Papers Cube Manual Fetch/mathew2015.pdf`. Adding the SHA `0ae8bf80…` (or the basename stem `mathew2015`) to the daemon's de-dup skip list keyed to the canonical cite-key `vaishaly2015-health-effects-metal-groundwater` prevents this duplicate from being re-presented on subsequent ticks. The PCMF folder has at least one other observed byte-identical-sibling pattern (the `(1)` suffix convention appears repeatedly), so a folder-wide SHA-based dedup scan at daemon-startup would catch the full population in one pass.
+
+**No commits made.** Page state unchanged.
+
+## Stop 14 — true duplicate conflict: two existing source pages for the same DOI (sadiq-beauchemin2021)
+
+- **PDF:** `raw/Papers Cube Manual Fetch/sadiq-beauchemin-2021-multi-elemental-risk-assessment-of-various-baby-rice-cereals-some-cause-for-concern.pdf`
+- **Suggested handle (per daemon):** `PCMF_sadiq-beauchemin-2021-multi-elemental-risk-assessm`
+- **DOI:** `10.1139/cjc-2020-0518` (Sadiq NW, Beauchemin D 2021, *Canadian Journal of Chemistry* 99(8):742–750, "Multi-elemental risk assessment of various baby rice cereals: some cause for concern?")
+- **SHA-256 of PCMF copy:** `326c67806b06a557a7e73d98bc62636077e1c25449c3f73c8c2717cd5e259a30`
+
+**Two existing wiki source pages for this one paper:**
+
+1. `wiki/sources/sadiq-beauchemin-2021-multielemental-baby-rice-cereals.md` — `updated: 2026-05-09`, `raw_path: raw/external-fetch/Multi-elemental_risk_assessment_of_various_baby_ri.pdf` (1,128,453 bytes, SHA-256 `8b270fa1fd8644979a822ebcbd1203d4d0a21dec7dd0823e06b3e0181c539a4b`). Created from the externally-fetched copy. Frontmatter declares `products: [baby-cereals-dry-rice-based]` (single product, correctly scoped to the rice-cereal-only data). Substantive scientific call: explicitly attributes the residual non-Cr(III) Cr fraction (0–30%) to "method-related rather than actual Cr(VI) presence" and cross-references the Hernandez 2019 + Saraiva 2021 SS-ID gold-standard chemistry findings. Page is in `routing_malformed.csv` at `severity: advisory` (`missing_advisory: ingredients`).
+2. `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation.md` — `updated: 2026-05-15`, `raw_path: raw/Papers Cube Manual Fetch/sadiq-beauchemin-2021-multi-elemental-risk-assessment-of-various-baby-rice-cereals-some-cause-for-concern.pdf` (1,127,804 bytes — different file from the external-fetch copy but same paper). Created from the PCMF copy. Frontmatter declares `products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]"]`, `ingredients: ["[[ingredients/rice-cereal]]", "[[ingredients/rice]]"]`, and includes the full Table A1 µg/kg distribution per brand. Substantive scientific call: reports "Cr(VI): 15–50% of total bio-accessible Cr in some leachate fractions (saliva: 20–40 ng/g; gastric: 30–40 ng/g for samples A and B)" and quotes the authors' "remains a concern" language, treating Cr(VI) as a real positive detection.
+
+**Why stopped:** This is the "True duplicate conflict" stop condition — same DOI, same paper, two byte-different copies of the PDF in two different `raw/` folders, two distinct canonical source pages already wired into the routing audit. All three identity checks hit *two* pages, not one. The skill's merge-enhance path assumes a single existing page to enhance. Re-ingesting against either page silently leaves the other in place, perpetuating the duplicate. This is the third observed instance of the duplicate-cite-key pattern on 2026-05-18 (Stop 11 = Parker 2022; Stop 12 = Gardener 2019; this stop = Sadiq & Beauchemin 2021).
+
+**Substantive scientific contradiction between the two pages:** Unlike the Parker 2022 and Gardener 2019 duplicates (where the two pages differ mainly in schema completeness, not in scientific interpretation), the two Sadiq & Beauchemin pages disagree on whether Cr(VI) is genuinely detected in the bio-accessible fraction of baby rice cereal. The older external-fetch page attributes the residual non-Cr(III) Cr fraction to HPLC-ICPMS-without-isotope-dilution method artefact and aligns with Hernandez 2019 + Saraiva 2021 SS-ID measurements that find food-matrix Cr is essentially all Cr(III). The newer PCMF page treats the 15–50% Cr(VI) fraction as a real positive detection. This disagreement is load-bearing for the HMTc Cr-VI cell evidence base — Cr-VI is on the official 10-analyte HMT&C list, and whether baby rice cereal is a positive-detection source affects threshold-setting. The dedup pass must re-read the PDF (Tables 4 + 5) to settle which interpretation the source actually supports, not just pick the structurally-richer page.
+
+**Additional defect on the newer page:** Frontmatter declares `products: [..., baby-cereals-dry-non-rice]` based on the paper's "preliminary oatmeal" comparison data (n=1 brand, explicitly preliminary per the paper's own framing). Per row-fit discipline, n=1 preliminary data does not warrant `direct_evidence` routing to a sibling product page — that should be `broad_product_context` at most, or omitted entirely. The older external-fetch page correctly scopes to rice-cereal only.
+
+**Scope of references** (both cite-keys live in the routing fabric):
+
+- `sadiq-beauchemin-2021-multielemental-baby-rice-cereals` is referenced in `wiki/log.md`, `wiki/batch-reports/infant-and-child-overnight-2026-05-09.md`, 5 metal pages (`metals/arsenic-total`, `metals/chromium-hexavalent`, `metals/cadmium`, `metals/lead`, `metals/arsenic-inorganic`), 1 product page (`products/baby-cereals-dry-rice-based`), `data/evidence/routing_malformed.csv`, `data/evidence/product_source_routing_audit.csv`, `data/evidence/local_reingest_queue.csv`, `data/evidence/local_reingest_packets/packet_manifest.csv`, the snippets file `037-sadiq-beauchemin-2021-multielemental-baby-rice-cereals.snippets.txt`, and `data/workbench/infant-and-child-foods-master.md`.
+- `sadiq2021-baby-rice-cereal-bioaccessibility-speciation` is referenced in `wiki/log.md`, 5 metal pages (`metals/chromium`, `metals/arsenic-total`, `metals/lead`, `metals/cadmium`, `metals/arsenic-inorganic`), 2 product pages (`products/baby-cereals-dry-rice-based`, `products/baby-cereals-dry-non-rice`), 2 ingredient pages (`ingredients/rice-cereal`, `ingredients/rice`), `data/evidence/category1_autonomy_extracted_summary.csv`, `data/evidence/cells-needing-synthesis.csv`, `data/evidence/review_events.jsonl`, `data/evidence/hmtc_aggregate_distributions.csv`, and `data/evidence/product_source_routing_audit.csv`.
+
+Deduping requires:
+  (a) **Resolving the Cr-VI scientific contradiction first** — re-read Tables 4 + 5 of the source PDF, determine whether the 15–50% Cr(VI) fraction is the paper's actual claim or a methodological caveat, and reconcile with the Hernandez/Saraiva SS-ID evidence in the Cr-VI synthesis cell. This is the load-bearing decision; the cite-key pick depends on it.
+  (b) Picking the canonical cite-key. The newer `sadiq2021-baby-rice-cereal-bioaccessibility-speciation` has richer Key numbers (full Table A1 per-brand distribution) and current-schema frontmatter, but the older `sadiq-beauchemin-2021-multielemental-baby-rice-cereals` has the more defensible Cr-VI interpretation and correct row-fit scope (rice-cereal-only, no dry-non-rice spillover). The right canonical may be a hybrid: newer page's structural shell, older page's Cr-VI section + product-routing discipline.
+  (c) Fixing the newer page's `baby-cereals-dry-non-rice` routing (downgrade from direct_evidence to broad_product_context or remove entirely, depending on (a)'s resolution).
+  (d) Retiring the other cite-key by rewriting every reference across the surfaces enumerated above.
+  (e) Merging any unique content from the retired page into the canonical page.
+  (f) Deleting the retired source file.
+  (g) Re-running the routing audit + regenerators (`hmtc_aggregate_distributions.csv`, `category1_autonomy_extracted_summary.csv`, the workbench briefings) so the cite-key reference is consistent across generator outputs.
+  (h) Updating `review_events.jsonl` to retire the stale synthesis-event rows tied to the retired cite-key.
+
+Steps (d)–(g) cross marker-block-owned generator outputs in several files, so the right execution path is a dedicated dedup-and-regenerate pass that runs the generators after the retire-and-rewrite, not a per-file hand-edit in an ingest cycle. This is out of scope for the per-PDF manual-fetch skill.
+
+**Routing-audit status:** The newer canonical-candidate page (`sadiq2021-baby-rice-cereal-bioaccessibility-speciation`) is absent from `routing_malformed.csv` (clean) and routes to both rice-based and dry-non-rice product pages. The older legacy page (`sadiq-beauchemin-2021-multielemental-baby-rice-cereals`) is in `routing_malformed.csv` at advisory severity for missing ingredients and routes to only the rice-based product page. Both pages currently contribute to the same metals-page evidence rows under different cite-keys, which means metals pages double-count this paper's evidence in any aggregate that sums n_a_tier by cite-key.
+
+**Action for the daemon:** advance past this PDF. The basename stem `sadiq-beauchemin-2021-multi-elemental-risk-assessment-of-various-baby-rice-cereals-some-cause-for-concern` (under `raw/Papers Cube Manual Fetch/`) can be added to the daemon's already-post-2026-05-14-clean skip list keyed pending dedup resolution. Re-presenting this PDF would just trigger the same duplicate-conflict stop again.
+
+**Recommendation for Karen:** this is the third observed instance of the duplicate-cite-key pattern today (Stops 11, 12, 14). The pattern is now confirmed systematic across the FM/`raw/studies/`/`raw/external-fetch/`-vs-PCMF transition. A scripted DOI→multiple-cite-key collision scan across `wiki/sources/` (already recommended on Stops 11 and 12) should be prioritized — doing these one-by-one as they surface in the manual-fetch loop is strictly slower than a single systematic dedup pass, and in the Sadiq case the metals pages are likely double-counting evidence in the Cr-VI cell specifically because of the unresolved Cr-VI interpretation contradiction between the two pages.
+
+**No commits made.** Page state unchanged.
+
 ## Stop 15 — true duplicate conflict: two existing source pages for the same DOI (BfR 2024 MeHg fish/seafood)
 
 - **PDF:** `raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0145_Methylmercury in fish and seafood - health risk assessment of new data from the BfR MEAL study.pdf`

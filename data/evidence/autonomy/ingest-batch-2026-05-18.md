@@ -45,3 +45,15 @@
 
 ### Failed
 - P1 `concentration2023-concentration-essential-toxic-rare` (FM_10384816): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-18T05:12:53.290Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `childhood2023-childhood-lead-exposure-linked` (FM_11262827)
+
+### Failed
+- P1 `concentration2023-concentration-essential-toxic-rare` (FM_10384816): cite_key mismatch: henriguez2023-heavy-metals-baby-purees

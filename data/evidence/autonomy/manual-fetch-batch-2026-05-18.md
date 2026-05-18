@@ -123,3 +123,144 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia.pdf`: page already post-2026-05-14 clean (alharbi2023-baby-foods-saudi-arabia-heavy-metals audited-promote earlier today)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/The contribution of infant formula to the food survey-based dietary exposure of nine selected elements.pdf`: hopfner2025-infant-formula-dietary-exposure-germany page already post-2026-05-14 clean (merge-enhanced + audit-applied earlier today; not in routing_malformed/unresolved). Logged as Stop 8 in `data/evidence/autonomy/manual-fetch-stops-2026-05-18.md`; tracker row flipped from `unprocessed` to `stopped`. No content commits made.
+
+## Tick 2026-05-18T04:13:21.012Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `kuzan2025-placental-metallomics-lower-silesia` (raw/Papers Cube Manual Fetch/Metallomic Profile of Placental Tissue and Its Association with Maternal and Neonatal Parameters: A Cross-Sectional ICP-OES Study in Lower Silesia.pdf)
+- `naseem2026-seasonal-heavy-metals-water-fish` (raw/Papers Cube Manual Fetch/Naseem+Bhanu+@+TEMJ+2026.pdf)
+- `okubo2023-periconceptional-diet-blood-metals-lbw` (raw/Papers Cube Manual Fetch/Periconceptional maternal diet quality influences blood heavy metal concentrations and their effect on low birth weight: the Japan Environment and Children’s Study.pdf)
+- `garuba2024-heavy-metals-commercial-baby-foods` (raw/Papers Cube Manual Fetch/afns-aid1056.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Papers Cube Manual Fetch/Literature review and health risks assessment of heavy metal contamination in human milk.pdf`: sushila2024-heavy-metals-human-milk-review page already post-2026-05-14 audited+quarantined
+
+## Tick 2026-05-18T05:12:53.371Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia.pdf`: alharbi2023-baby-foods-saudi-arabia-heavy-metals page already post-2026-05-14 clean and audited-promote (Stop 7 earlier today); tracker row re-marked stopped after parallel-session race regression, no ingest work needed
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/The contribution of infant formula to the food survey-based dietary exposure of nine selected elements.pdf`: hopfner2025-infant-formula-dietary-exposure-germany already ingested + audited today (2026-05-18, audited-revised); does not meet any "next candidate" condition in the v2.0 skill (not NEW, updated >= 2026-05-14, not in routing_malformed).
+
+## Tick 2026-05-18T04:54:44.653Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `afonne2020-heavy-metals-plant-foods` (raw/Papers Cube Manual Fetch/afonne2020.pdf)
+- `mukhi2022-heavy-metals-food-packaging` (raw/Papers Cube Manual Fetch/article (1) copy 2.pdf)
+- `xu2025-heavy-metals-aquatic-foods-global` (raw/Papers Cube Manual Fetch/article (1) copy 3.pdf)
+- `meng2023-electrochemical-sensors-food-heavy-metals` (raw/Papers Cube Manual Fetch/article (1) copy 4.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Papers Cube Manual Fetch/ajol-file-journals_579_articles_269230_66292f9b93362.pdf`: routing-audit-blocked-by-concurrent-autonomy_v0-malformed-yaml-childhood2023
+
+## Tick 2026-05-18T05:58:51.182Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Succeeded
+- `kalicharan2025-heavy-metals-pet-food-south-africa` (raw/Papers Cube Manual Fetch/article (1) copy 6.pdf)
+- `vasilachi2023-heavy-metals-cereal-crops` (raw/Papers Cube Manual Fetch/article (1) copy 7.pdf)
+- `sharma2023-phytoremediation-heavy-metal-soil` (raw/Papers Cube Manual Fetch/article (1) copy 8.pdf)
+- `si2024-nanomaterial-detection-heavy-metals-food` (raw/Papers Cube Manual Fetch/article (1) copy 9.pdf)
+
+### Failed
+- `raw/Papers Cube Manual Fetch/article (1) copy 5.pdf`: unrecognized final line: "One-PDF cycle complete: merge-enhanced the existing 2026-05-14 page (Table 2 column transpositions across Rice/Water Spinach/Watercress rows, paper-internal Hg unit inconsistency flagged, raw_handle normalized, metals expanded to include Cu/Zn/Co, matrices normalized to controlled vocab, Verification notes added). Subagent audit returned REVISE with 6 findings (4 ❌ missing-ingredient-slug + 2 ⚠️ wiki/HMTc boundary); all 6 independently verified against source and applied. Routing audit clean (0 unresolved, advisory-only entry expected for narrative review with empty products). Audit-queue updated."
+
+## Tick 2026-05-18T06:45:04.473Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Succeeded
+- `lee2019-food-processing-heavy-metals-migration` (raw/Papers Cube Manual Fetch/article (1) copy.pdf)
+- `sitarik2020-fetal-postnatal-lead-gut-microbiota` (raw/Papers Cube Manual Fetch/article (1).pdf)
+- `ahmed2019-irrigation-water-bangladesh-seasonal` (raw/Papers Cube Manual Fetch/article (2) copy 2.pdf)
+- `okonofua2024-mining-pits-cabbage-fish-nigeria` (raw/Papers Cube Manual Fetch/article (2) copy 4.pdf)
+
+### Failed
+- `raw/Papers Cube Manual Fetch/article (2) copy 3.pdf`: unrecognized final line: "Per-PDF cycle complete. Ingest commit `4f7cdae` merge-enhanced the existing 2026-05-14 page (fixed raw_handle/raw_path/license/matrices, added KEP MENLH 0.08 ppm fishery threshold and Station C ±SD values, removed legacy Implications/wiki-pages-updated sections and invented WHO 0.01 mg/L + supply-chain slug). Audit commit `4e43679` documents one rejected false-positive finding (subagent missed page 8 of the references list; Djalil/Silvanandya/Imah/Munir attributions verified correct). Audit-queue commit `b1ae70c` marks status `audited-revised`. Routing clean, 0 unresolved."
+
+## Tick 2026-05-18T07:30:40.549Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `ali2024-leek-microbial-metals-iraq` (raw/Papers Cube Manual Fetch/article (2) copy 5.pdf)
+- `malone2024-community-garden-soils-us` (raw/Papers Cube Manual Fetch/article (2) copy 6.pdf)
+- `groleau2025-inuit-fish-broth-metals-pregnancy` (raw/Papers Cube Manual Fetch/article (2) copy 8.pdf)
+- `shamkhi2021-wastewater-adsorbents-review` (raw/Papers Cube Manual Fetch/article (2) copy.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Papers Cube Manual Fetch/article (2) copy 7.pdf`: parker2022 duplicate-source conflict
+
+## Tick 2026-05-18T08:12:01.347Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `stasinos2014-heavy-metals-tubers-review` (raw/Papers Cube Manual Fetch/article (2).pdf)
+- `fu2019-heavy-metals-human-metabolism` (raw/Papers Cube Manual Fetch/fu2019.pdf)
+- `guan2014-soil-heavy-metal-food-safety-china` (raw/Papers Cube Manual Fetch/guan2014.pdf)
+- `islam2007-dietary-toxicity-vegetables-food-crops` (raw/Papers Cube Manual Fetch/islam2007.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Papers Cube Manual Fetch/gardener2019.pdf`: true-duplicate-conflict-two-cite-keys-for-gardener2019
+
+## Tick 2026-05-18T08:57:38.412Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `khan2015-heavy-metals-food-plants-bioaccumulation` (raw/Papers Cube Manual Fetch/khan2015.pdf)
+- `mansour2014-monitoring-health-risk-food-chapter` (raw/Papers Cube Manual Fetch/mansour2014.pdf)
+- `vaishaly2015-health-effects-metal-groundwater` (raw/Papers Cube Manual Fetch/mathew2015 (1).pdf)
+- `pasumpon2021-seagrass-heavy-metals-palk-bay` (raw/Papers Cube Manual Fetch/pasumpon2021.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Papers Cube Manual Fetch/mathew2015.pdf`: byte-identical duplicate of already-ingested+audited PDF (mathew2015.pdf == mathew2015 (1).pdf; existing page vaishaly2015-health-effects-metal-groundwater audited PROMOTE today)
+
+## Tick 2026-05-18T09:41:02.517Z
+
+- Candidates this tick: 7
+- Succeeded: 6
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `pollard2016-southeastern-usa-heavy-metals-plants` (raw/Papers Cube Manual Fetch/pollard2016.pdf)
+- `rajeshkumar2018-taihu-lake-fish-oyster-metals` (raw/Papers Cube Manual Fetch/rajeshkumar2018.pdf)
+- `ren2018-crvi-pork-electron-beam` (raw/Papers Cube Manual Fetch/ren2018.pdf)
+- `saraiva2021-cr-iii-cr-vi-ssid-method-validation-talanta` (raw/Papers Cube Manual Fetch/saraiva2021.pdf)
+- `sarker2022-bangladesh-food-webs-review` (raw/Papers Cube Manual Fetch/sarker2021.pdf)
+- `shue2012-bivalves-tapeng-taiwan` (raw/Papers Cube Manual Fetch/shue2012.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Papers Cube Manual Fetch/sadiq-beauchemin-2021-multi-elemental-risk-assessment-of-various-baby-rice-cereals-some-cause-for-concern.pdf`: true duplicate conflict — sadiq-beauchemin 2021 has two existing wiki source pages (sadiq-beauchemin-2021-multielemental-baby-rice-cereals + sadiq2021-baby-rice-cereal-bioaccessibility-speciation) for the same DOI 10.1139/cjc-2020-0518, with a substantive Cr-VI interpretation contradiction between them; deferred to a dedicated dedup pass per Stop 14 in data/evidence/autonomy/manual-fetch-stops-2026-05-18.md

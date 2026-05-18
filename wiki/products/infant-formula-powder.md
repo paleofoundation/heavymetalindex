@@ -10,7 +10,7 @@ primary_metals_of_concern: [Al, Ni, Cd, Pb, tAs, iAs, tHg, MeHg, Cr-VI, Sn]
 vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
-sources: 15
+sources: 16
 updated: 2026-05-08
 ---
 

@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-18
 
-Generated: 2026-05-18T04:29:15.279Z
+Generated: 2026-05-18T05:09:58.731Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 958
-- Pages with `## Key numbers` section: 844
+- Source pages processed: 959
+- Pages with `## Key numbers` section: 845
 - Pages without Key numbers section (skipped): 113
-- Structured rows extracted: 4833
+- Structured rows extracted: 4847
 - Pages with Key numbers but no parseable values: 67
 
 ## Output
@@ -19,14 +19,14 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 992 rows
-- Cd: 950 rows
-- Cr-total: 482 rows
-- Ni: 444 rows
-- tAs: 379 rows
-- Al: 310 rows
-- tHg: 302 rows
-- iAs: 167 rows
+- Pb: 996 rows
+- Cd: 953 rows
+- Cr-total: 484 rows
+- Ni: 447 rows
+- tAs: 380 rows
+- Al: 312 rows
+- tHg: 300 rows
+- iAs: 168 rows
 - Cu: 114 rows
 - Co: 102 rows
 - MeHg: 98 rows
@@ -61,11 +61,11 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 1975 rows
+- (empty): 1979 rows
 - fresh-fish: 255 rows
 - spices: 170 rows
 - seafood: 169 rows
-- baby-cereals-dry-rice-based: 127 rows
+- baby-cereals-dry-rice-based: 131 rows
 - fresh-fruit: 125 rows
 - canned-fish: 106 rows
 - face-paint: 81 rows
@@ -74,7 +74,7 @@ Elapsed: 0s
 - honey: 62 rows
 - children-personal-care: 59 rows
 - poultry-product: 56 rows
-- root-tuber-vegetables: 52 rows
+- root-tuber-vegetables: 55 rows
 - vinegar: 50 rows
 - tea-infusions: 49 rows
 - baby-lotion-cream: 46 rows
