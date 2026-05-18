@@ -129,6 +129,12 @@ Merge-enhance pass 2026-05-18 against the PDF at `raw/Papers Cube Manual Fetch/1
 - **Legacy section heading** `## Wiki pages updated on ingest` replaced with current convention `## Wiki pages this source may touch`.
 - **Speciation:** `metals: [Pb, tAs, Cd, Ni, Al]` retained — the paper measures total elemental As (no speciation), so `tAs` is correct.
 
+Fresh-context audit (2026-05-18, general-purpose subagent) verdict: REVISE.
+
+- ⚠️ Audit finding: `products: []` on a food paper flagged as a Phase 1 frontmatter defect. **Verified false positive.** Per CLAUDE.md Part 18 lint, the "missing products field on food/personal-care paper" rule fires only when `matrices:` contains product-shaped slugs (i.e., slugs in the products taxonomy). For this paper, `matrices: [milk, food-packaging, packaging-material]` — none of those are product-taxonomy slugs (verified against the taxonomy snapshot at `docs/gpt-collaboration/taxonomy-snapshot.md`). The convention for milk papers is `products: []` with ingredient routing via `milk-and-dairy` — established by other milk papers (e.g., `abdelnaby2022-lead-cadmium-milk.md`) that share the identical pattern and produce the same advisory-only severity entry in `data/evidence/routing_malformed.csv`. The current products taxonomy does not include a "fluid milk in aseptic carton" product page; milk is intentionally represented at the ingredient level. No frontmatter change applied.
+- ⚠️ Audit borderline note on matrices duplication (`food-packaging` vs `packaging-material`). Retained both: `food-packaging` flags the paper as a food-contact-material study; `packaging-material` flags the data as in-substrate concentrations on the packaging itself. They route distinct intents.
+- Checks 1, 3, 4, 5 all ✅ from the audit, including independent verification of every Key numbers value against Table 5.
+
 ## Wiki pages this source may touch
 
 - [[ingredients/milk-and-dairy]]
