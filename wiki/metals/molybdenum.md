@@ -6,7 +6,7 @@ name: Molybdenum
 species: [Mo, molybdate, molybdenum-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 2
+sources: 3
 updated: 2026-04-30
 status: stub
 n_sources: 1

@@ -357,3 +357,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 10 (scaffolds are routing destinations, not governance endpoints), Part 5b (routing audit coherence), Part 18 (lint rules), `docs/order-of-operations.md` Phase 0 (scaffold creation tied to source-evidence thresholds).
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Audit under-routed infant-formula sources to unblock subcategory locks
+
+**What:** Create a routing audit that identifies sources routed to parent product categories (e.g., `infant-formula`) when their content should declare sub-variants (`infant-formula-dairy` vs `infant-formula-dairy-free`); generate a repair manifest listing sources to re-frontmatter and re-route.
+
+**Why this lever now:** Six pending category locks have zero routed sources—notably `infant-formula-dairy` and `infant-formula-dairy-free`, which are core HMT&C categories. This is a routing discipline gap, not a data gap: sources likely exist that distinguish dairy from dairy-free formulae but are being routed only to the parent. Unblocking these routes directly unlocks synthesis for 2+ scaffolds and reduces pool_blocked_cells by enabling pooling on sub-variants. Fixing routing is faster than sourcing new papers.
+
+**Where:** 
+- Audit script: `tools/autonomy/audit-under-routed-products.mjs` (new)
+- Input: `data/evidence/product_source_routing_audit.csv` (existing routing audit)
+- Output: `data/evidence/routing_repair_manifest.csv` (new) — lists (source_cite_key, declared_parent_slug, missing_subvariant_slugs, source_page_ref)
+
+**How:**
+1. Scan routing audit for product rows with `provisional_scaffold: true` and `routed_source_count: 0`.
+2. For each zero-routed scaffold, identify its parent category (e.g., `infant-formula` is parent of `infant-formula-dairy`).
+3. Search parent category's routed sources for ones whose source page body discusses sub-variant distinctions (dairy, dairy-free, soy, etc.) but whose frontmatter declares only the parent.
+4. Emit repair manifest with cite-key, parent slug, and correct sub-variant slug; flag as `repair_required: true` for the autonomy loop.
+
+**Anchors:** CLAUDE.md Part 5b (routing layer accountability), Part 18 (lint checks for routing malformed/unresolved), Part 10 (subcategory routing discipline). Memory: [[feedback_no_hand_curated]] — generators should overwrite routing; audit should detect gaps, not require Karen to list them.
+
+---

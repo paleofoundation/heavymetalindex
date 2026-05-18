@@ -24,3 +24,32 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already post-2026-05-14 clean (updated 2026-05-17, absent from routing_malformed.csv and routing_unresolved.csv; v2 skill Phase 1 step 1 says to skip)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: page already post-2026-05-14 clean (mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals audited-revised 2026-05-17)
+
+## Tick 2026-05-18T00:50:16.913Z
+
+- Candidates this tick: 7
+- Succeeded: 6
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `aldayel2018-facial-cosmetics-saudi-arabia` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Heavy_Metals_Concentration_in_Facial_Cosmetics.pdf)
+- `ricketts2020-mercury-skin-lightening-jamaica` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Mercury_Exposure_Associated_with_Use_of_Skin_Lightening_Products_in_Jamaica.pdf)
+- `dasilva2025-neurodevelopmental-outcomes-early-life-systematic-review` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Neurodevelopmental_Outcomes_Associated_with_Early-Life_Exposure_to_Heavy_Metals.pdf)
+- `smajgl2015-tin-baby-diapers-croatia` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Occurrence_of_tin_in_disposable_baby_diapers.pdf)
+- `salles2023-face-paints-pancakes-brazil-cancer-risk` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Potentially_Toxic_Elements_in_Costume_Cosmetics_Used_by_Children_and_Adults_Are.pdf)
+- `cephed2013-heavy-metals-childrens-toys-nepal` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Study_of_Heavy_Metals_in_Childrens_Toys_and_Products.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Heavy_metal_in_cosmetics_and_its_risk_to_future_generation_in_remote_area_of_Aza.pdf`: duplicate-of-2026-05-17-ingest (bashir2025-heavy-metals-cosmetics-kashmir)
+
+## Tick 2026-05-18T01:53:09.763Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: page already post-2026-05-14 clean (rahati2026-infant-formula-baby-food-iran-health-risk, updated 2026-05-17, absent from routing_malformed.csv and routing_unresolved.csv; stop already logged at data/evidence/autonomy/manual-fetch-stops-2026-05-18.md#stop-2)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: page already post-2026-05-14 clean (mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals, updated 2026-05-17, audited-revised yesterday, not in malformed/unresolved — Stop 3 already recorded)
