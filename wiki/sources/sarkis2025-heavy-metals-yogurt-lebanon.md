@@ -122,7 +122,7 @@ App: Contributes Lebanon-anchored cow's milk yogurt occurrence data for the [[in
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[regulations/eu-2023-915-cadmium]]
-- [[regulations/eu-2023-915-lead-infant-young-child-foods]]
+- [[regulations/eu2023-contaminants-maximum-levels]]
 - [[regulations/efsa-cadmium-twi]]
 - [[regulations/efsa-lead-contam-2010]]
 
@@ -137,3 +137,5 @@ App: Contributes Lebanon-anchored cow's milk yogurt occurrence data for the [[in
 **Wiki/HMTc firewall.** No HMTc threshold proposals, consumer risk advisories, or cross-source synthesis claims are made on this page. The `## Implications` section limits itself to what this single paper contributes to threshold work (sample-level vs producer-level acceptance, the right-skew structure of the distribution) and does not propose certification values.
 
 **Products field.** `products: []` is retained because no yogurt product slug exists in the current taxonomy. The matrices field captures the product form (`yogurt`, `dairy`); creation of a yogurt product page is a Step 0 Lock decision and is not made here.
+
+**Audit subagent (2026-05-19) flagged** that `[[regulations/eu-2023-915-lead-infant-young-child-foods]]` was the wrong EU 2023/915 sub-slug for this paper because the source measures Pb in raw-milk-derived dairy (EU 2023/915 dairy table, 0.020 mg/kg limit), not the infant/young-child foods Pb sub-table. Verified against the source (paper benchmarks against "Commission Regulation (EU) 2023/915 ... 0.020 mg/kg and 0.005 mg/kg of lead and Cd" for "raw milk and dairy products", p.3) and against the regulation page (`wiki/regulations/eu2023-contaminants-maximum-levels.md` is the umbrella slug covering all metals/all matrices in EU 2023/915, including the dairy Pb limit). Finding correct — replaced `[[regulations/eu-2023-915-lead-infant-young-child-foods]]` with `[[regulations/eu2023-contaminants-maximum-levels]]`.
