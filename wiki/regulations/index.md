@@ -16,6 +16,7 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 ## EU Contaminants Maximum Levels
 
 - [[regulations/eu2023-contaminants-maximum-levels]] - canonical HMI hub for Commission Regulation (EU) 2023/915, the EU maximum-level framework for contaminants in food.
+- [[regulations/eu-2015-1006-iAs-rice]] - historical Commission Regulation (EU) 2015/1006 amendment adding inorganic-arsenic maximum levels for rice and rice products, including rice for infant and young-child foods.
 - [[regulations/eu-2023-915-cadmium]] - cadmium matrix maximum levels for infant foods, cereals, rice, vegetables, oilseeds, cocoa/chocolate, fishery products, offal, and supplements.
 
 ## Category 5 Beverage Regulations
