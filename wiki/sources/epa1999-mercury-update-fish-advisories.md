@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: MFK_p0169-mercury-update-fish-advisories-epa
+raw_handle: MFK_p0169-mercury-update-fish-advisories-epa-report
 cite_key: epa1999-mercury-update-fish-advisories
 title: "Mercury Update: Impact on Fish Advisories"
 authors: [US EPA Office of Water]
@@ -8,19 +8,21 @@ year: 1999
 publication: "US EPA Fact Sheet EPA-823-F-99-016"
 doi: null
 no_doi_assigned: true
+access_url: "https://www.epa.gov/sites/default/files/2019-05/documents/mercury-update-fish-advisories-1999.pdf"
 source_type: government-report
 evidence_tier: A
 license: "US Government Work (public domain)"
 raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0169_Mercury Update_ Fish Advisories (EPA Report).pdf"
+raw_sha256: "17537654343b3d6c7a558253fd7623bab1c3c47407ca20de774b89c6449b0504"
 metals: [tHg, MeHg]
-ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingredients/shark]]", "[[ingredients/seafood]]", "[[ingredients/canned-tuna]]"]
-products: ["[[products/fresh-fish]]", "[[products/seafood]]"]
-matrices: [fish, freshwater-fish, dietary-intake]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingredients/shark]]", "[[ingredients/seafood]]"]
+products: ["[[products/fresh-fish]]", "[[products/fish-freshwater]]", "[[products/seafood]]"]
+matrices: [fish, dietary-intake]
 jurisdictions: [US]
 near_duplicates: []
 sample_n: 1931
 sample_population: "1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA NSCRF (n=374 sites) and US FWS NCBP (315 composite samples, 109 stations, 1984–85) and from NESCAUM 1998 Northeast study."
-updated: 2026-05-17
+updated: 2026-05-18
 ---
 
 # US EPA 1999 — Mercury Update: Impact on Fish Advisories
@@ -29,9 +31,9 @@ This EPA Office of Water fact sheet (September 1999) summarizes total-mercury an
 
 ## Key numbers
 
-US National Contaminant Biomonitoring Program (NCBP), 315 composite whole-fish samples from 109 stations (1984–85): mercury maximum 1.77 ppm, geometric mean 0.10 ppm, 85th percentile 0.17 ppm wet weight. Mean tissue concentration of 0.12 ± 0.08 ppm in predatory species (trout, walleye, largemouth bass) was significantly higher than the mean of 0.08 ± 0.06 ppm in bottom feeders (carp, white sucker, channel catfish) (p. 2).
+US National Contaminant Biomonitoring Program (NCBP), 315 composite whole-fish samples from 109 stations (1984–85): mercury maximum 0.37 ppm, geometric mean 0.10 ppm, 85th percentile 0.17 ppm wet weight. Mean tissue concentration of 0.12 ± 0.08 ppm in predatory species (trout, walleye, largemouth bass) was significantly higher than the mean of 0.08 ± 0.06 ppm in bottom feeders (carp, white sucker, channel catfish) (p. 2).
 
-EPA National Study of Chemical Residues in Fish (NSCRF, 1987): mercury detected at 92% of 374 sites; fillet-sample maximum 1.77 ppm, arithmetic mean 0.26 ppm, median 0.17 ppm wet weight (p. 2).
+EPA National Study of Chemical Residues in Fish (NSCRF, 1987): mercury detected at 92% of 374 sites; fish-tissue maximum 1.77 ppm, arithmetic mean 0.26 ppm, median 0.17 ppm wet weight (p. 2).
 
 Table 1 — Mean mercury concentrations in freshwater fish (ppm wet weight, Bahnick et al. 1994):
 - Bottom feeders: Carp 0.11; White sucker 0.11; Channel catfish 0.09
@@ -46,14 +48,14 @@ Bioconcentration / biomagnification: bioconcentration factor for MeHg in fish ~3
 MeHg fraction of total Hg in adult fish: 90–100% (p. 1, "Sources of Mercury in the Environment").
 
 Table 3 — EPA risk-based monthly fish-consumption limits for MeHg (assuming consumer body weight 72 kg, 8-oz meal size 0.227 kg, MeHg RfD 1×10^-4 mg/kg/day):
-- 16 meals/month: tissue 0.03–0.06 ppm
-- 12 meals/month: 0.06–0.08 ppm
-- 8 meals/month: 0.08–0.12 ppm
-- 4 meals/month: 0.12–0.24 ppm
-- 3 meals/month: 0.24–0.32 ppm
-- 2 meals/month: 0.32–0.48 ppm
-- 1 meal/month: 0.48–0.97 ppm
-- 0.5 meals/month: 0.97–1.9 ppm
+- 16 meals/month: tissue >0.03–0.06 ppm
+- 12 meals/month: >0.06–0.08 ppm
+- 8 meals/month: >0.08–0.12 ppm
+- 4 meals/month: >0.12–0.24 ppm
+- 3 meals/month: >0.24–0.32 ppm
+- 2 meals/month: >0.32–0.48 ppm
+- 1 meal/month: >0.48–0.97 ppm
+- 0.5 meals/month: >0.97–1.9 ppm
 - None (<0.5/month): >1.9 ppm
 
 Advisory growth: mercury-based advisories rose from 899 in 1993 to 1,931 in 1998 (+115%). Number of states with advisories rose from 27 (1993) to 40 (1998). Top states by advisory count (1998): Minnesota 821, Wisconsin 402, Indiana 126, Florida 97, Georgia 80, Massachusetts 58, Michigan 53, New Jersey 30, New Mexico 26, South Carolina 24, Montana 22. Ten states issued statewide freshwater advisories; five Gulf Coast states issued statewide coastal-marine advisories.
@@ -64,11 +66,13 @@ EPA interim RfD for MeHg = 1×10^-4 mg/kg-day (cited from EPA IRIS, 1999c). Esti
 
 Fact-sheet synthesis (not primary analysis); cites US EPA NSCRF (1987), US FWS NCBP (1984–85), Bahnick et al. 1994, NESCAUM 1998, and EPA 1997 Mercury Study Report to Congress. EPA position stated explicitly: in absence of speciated analysis, total Hg should be measured and the conservative assumption applied that all mercury in fish is present as MeHg. Concentrations reported on wet-weight basis except as noted; the bluefin tuna value cited from another source is reported on dry weight. Fact sheet does not report LOD/LOQ values. Sample numbers reflect site counts and composite-sample counts rather than individual fish.
 
-## Implications
+## Implications for wiki use
 
-- Certification (HMTc): Contributes US fresh-water fish total-Hg/MeHg occurrence baseline (NCBP and NESCAUM) and a widely adopted consumption-limit framework keyed to fish-tissue mercury. Pike, shark, swordfish, and large freshwater predators (largemouth bass, walleye, chain pickerel) sit at the high end of the wild-fish distribution.
-- Courses: Useful regulatory-affairs and public-health teaching case on how fish consumption advisories are constructed from tissue-concentration data and an RfD. Demonstrates the EPA convention of assuming total-Hg ≈ MeHg as a conservative default when speciation is unavailable.
-- App: Adds fish ingredient-level Hg/MeHg occurrence anchors and a tissue-concentration → meals/month risk-band table that is directly relevant to consumer-facing logic for the seafood category (downstream of the wiki firewall — consumer translation is not implemented at this layer).
+This source is a US fish-advisory framework anchor rather than a primary analytical study. It contributes freshwater-fish and seafood mercury occurrence context from cited national programs and state advisories, and it documents EPA's conservative convention of treating fish-tissue total Hg as MeHg when speciation is unavailable.
+
+For product routing, this source is strongest for fresh fish and freshwater fish, especially high-trophic recreational and subsistence-caught species. Its marine values for shark and bluefin tuna are useful as predatory-fish context, but the page should not be treated as a finished-product canned-fish or infant-food study.
+
+For regulation pages, the source explicitly cites the EPA IRIS methylmercury RfD used to build fish-consumption advisory bands. The table is source-side advisory context, not a wiki-created threshold.
 
 ## Wiki pages this source may touch
 
@@ -78,8 +82,12 @@ Fact-sheet synthesis (not primary analysis); cites US EPA NSCRF (1987), US FWS N
 - [[ingredients/freshwater-fish]]
 - [[ingredients/shark]]
 - [[ingredients/seafood]]
-- [[ingredients/canned-tuna]]
 - [[products/fresh-fish]]
+- [[products/fish-freshwater]]
 - [[products/seafood]]
 - [[regulations/epa-iris-methylmercury-rfd]]
-- [[regulations/efsa-methylmercury-twi]]
+
+## Verification notes
+
+- The manual-fetch PDF is a scanned EPA copy with no embedded text; values were checked against the rendered PDF pages and the public EPA PDF landing file.
+- No DOI is assigned to this EPA fact sheet.
