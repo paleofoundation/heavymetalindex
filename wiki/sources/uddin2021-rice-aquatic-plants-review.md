@@ -52,7 +52,7 @@ Narrative review; no primary measurements. The authors aggregate values from app
 
 ## Implications
 
-**Certification:** The review's compiled values reinforce rice as the highest-priority grain matrix for Cd and As. The reported Pb-in-rice range (0.01–0.53 mg/kg, with the upper end above the EU and WHO cereal limits) supports continued attention to Pb in rice-based infant cereals and rice flours sourced from certain production regions. The peel-vs-flesh contrast in lotus tuber (1.3–9.0× higher in peel) is relevant to whole-vegetable vs edible-part scope decisions for root-vegetable certification.
+**Certification:** Contributes occurrence data for rice (As, Cd, Pb, Hg, Ni) and four edible aquatic-plant categories (water spinach, Indian lotus, watercress, taro). The Pb-in-rice range cited (0.01–0.53 mg/kg, with upper end above WHO/FAO cereal limits) is a rice-grain occurrence range, not specific to any processed rice product. The peel-vs-flesh contrast in lotus tuber (1.3–9.0× higher in peel) is a single-study finding cited via Luo et al. 2017 that contributes occurrence data on within-tuber distribution.
 
 **Courses:** Useful overview-level source for modules on aquatic food-plant contamination, paddy methylation of Hg, bioconcentration factor (BCF), and the distinction between essential micronutrients (Fe, Mn, Cu, Mo, Ni, Zn) and non-essential toxic metals (As, Cd, Cr, Pb, Hg). The DIR equation and worked Nigeria blood-Pb anchor support exposure-translation modules.
 
@@ -67,6 +67,8 @@ Narrative review; no primary measurements. The authors aggregate values from app
 - **Raw handle correction.** Changed from non-standard `papers-cube` to `PCMF_article-1-copy-5` per the manual-fetch handle convention.
 - **Matrices.** Updated from `[rice, aquatic-vegetables, irrigation-water]` to `[rice, leafy-vegetable, root-vegetable, irrigation-water]` to align with the controlled vocabulary in `docs/gpt-collaboration/system-prompt.md`; aquatic-vegetables is not in the vocabulary, and leafy-vegetable + root-vegetable better describe what the review actually compiles (water spinach/watercress leaves; lotus tuber, taro corm).
 - **Routing advisory.** `products: []` is correct for this review — it is a synthesis across food-source categories, not a product-category study; the advisory entry in `routing_malformed.csv` is expected and non-blocking for a review of this kind.
+- **Missing-ingredient-slug proposals.** Four declared ingredient slugs do not currently exist as wiki pages (verified 2026-05-18 against `wiki/ingredients/` directory): `water-spinach`, `lotus-root`, `watercress`, `taro`. Each is contributed to by this A-tier review; the freq-2+ auto-stub script will pick them up if a second contributing source appears, per Part 10. Documenting here so the audit's slug-vocabulary finding is explicit rather than implicit.
+- **Implications-section tightening 2026-05-18 (subagent audit).** Audit subagent (2026-05-18) flagged two Implications phrasings as boundary-extrapolating beyond what this single review supports ("rice-based infant cereals and rice flours" — verified not in source; "root-vegetable certification" scope decision — verified not in source). Both verified against source and softened to stay strictly within "contributes occurrence data" framing.
 
 ## Wiki pages updated on ingest
 - [[metals/arsenic]]
