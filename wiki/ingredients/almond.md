@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [plant-milks-non-soy-non-rice]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 7
+sources: 6
 ---
 
 # Almond

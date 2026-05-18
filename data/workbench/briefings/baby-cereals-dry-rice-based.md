@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: baby-cereals-dry-rice-based
 native_basis: dry_as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-18T05:18:43.726Z
+generated_at: 2026-05-18T20:33:57.345Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -43,7 +43,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 | Analyte | HMTc Threshold (published) | Pooled value (precise, pre-rounding) | Rationale | Sources | Sensitivity | Reg cap |
 |---|---|---|---|---:|---|---|
 | Pb | **20 ppb** [dry]<br>≈ 3 ppb [prepared] | 285.311 ppb (capped to 20 by reg cap) | regulatory-alignment | 5 | stable | 20 ppb (fda2025_pb_dry_infant_cereal_20) |
-| iAs | **100 ppb** [dry]<br>≈ 15 ppb [prepared] | 299.027 ppb (capped to 100 by reg cap) | regulatory-alignment | 10 | stable | 100 ppb (fda2020_ias_infant_rice_cereal_100) |
+| iAs | **100 ppb** [dry]<br>≈ 15 ppb [prepared] | 240.358 ppb (capped to 100 by reg cap) | regulatory-alignment | 9 | stable | 100 ppb (fda2020_ias_infant_rice_cereal_100) |
 | Cd | **50 ppb** [dry]<br>≈ 10 ppb [prepared] | 129.075 ppb (capped to 40 by reg cap) | regulatory-alignment | 5 | stable | 40 ppb (eu2023_cd_babyfood_cereal_40) |
 
 **How to read this table.** "Published" values are rounded up to the HMTc primary increment ladder (1, 2, 3, 5, 10, 15, 20, 25, 50, 100, 200, 500, 1000, 1300, 1500, 2000, 5000, 10000 ppb) per the program's publication conventions; this gives brands an unambiguous bin to test against. The "precise" column shows the pooled-engine output before rounding so the methodology is transparent and re-derivable. Rationale tags map to CLAUDE.md Part 19's four allowed tags: `literature-baseline` (pooled value binds), `regulatory-alignment` (regulatory ceiling binds), `feasibility-driven` (analytical method binds), and `precautionary` (manual override below pooled and regulatory).
@@ -81,7 +81,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 20 ppb (fda2025_pb_dry_infant_cereal_20)
 **Pool composition:** 5 sources contributing · 70 pseudo-samples in pool · 2 sample-level contributors
-**Bootstrap 95% CI: [7.99, 392.56] ppb**
+**Bootstrap 95% CI: [8, 389.36] ppb**
 **Sensitivity: log-normal 274.75 · gamma 292.71 · nonparametric 291.20 ppb · spread 6% (stable)**
 
 
@@ -116,13 +116,13 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Cross-basis: ≈ 15 ppb [prepared] (÷7 (1:7 reconstitution))**
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 100 ppb (fda2020_ias_infant_rice_cereal_100)
-**Pool composition:** 10 sources contributing · 326 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [174.67, 405.10] ppb**
-**Sensitivity: log-normal 361.58 · gamma 312.05 · nonparametric 322.26 ppb · spread 14% (stable)**
+**Pool composition:** 9 sources contributing · 162 pseudo-samples in pool · 1 sample-level contributors
+**Bootstrap 95% CI: [150.44, 291.67] ppb**
+**Sensitivity: log-normal 242.68 · gamma 231.31 · nonparametric 232.45 ppb · spread 5% (stable)**
 
 
 
-**Defensibility.** The published value matches the lowest applicable regulatory ceiling (fda2020_ias_infant_rice_cereal_100). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 299.03 ppb sits above the cap, confirming the cap is the protective constraint.
+**Defensibility.** The published value matches the lowest applicable regulatory ceiling (fda2020_ias_infant_rice_cereal_100). This is the strongest defense vector: HMTc certifies at the binding government limit, regardless of where the pooled literature value falls. Any attack on the underlying pool is moot — the cap binds. The pooled P97 of 240.36 ppb sits above the cap, confirming the cap is the protective constraint.
 
 <!-- audience: brand-legal -->
 **Brand legal read.** This threshold matches the binding government cap (fda2020_ias_infant_rice_cereal_100). A Daubert challenge on the value reduces to "is fda2020_ias_infant_rice_cereal_100 a legitimate regulatory anchor?" — and the answer is yes, it is published, finalized, and enforced.
@@ -131,23 +131,22 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Retailer compliance read.** A certified product tests at or below 100 ppb (native basis: [dry]) for this analyte. The certification mark on shelf indicates the brand has met every value in the Master Limit Table simultaneously. Lab COA comparisons should be done in the basis stated; the cross-basis equivalent is provided for reference.
 
 <!-- audience: regulator -->
-**Regulator read.** HMTc threshold = fda2020_ias_infant_rice_cereal_100 cap. The pooled occurrence distribution from 10 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
+**Regulator read.** HMTc threshold = fda2020_ias_infant_rice_cereal_100 cap. The pooled occurrence distribution from 9 sources confirms the cap is the protective constraint; the cap binds at a value below where the pooled P97 falls.
 
 <details>
-<summary>Per-source contribution log (10 admitted)</summary>
+<summary>Per-source contribution log (9 admitted)</summary>
 
 | Source | Title | Basis | N used | Reconstruction | Pool share |
 |---|---|---|---:|---|---:|
-| arsenic2025-unknown (2025) · MY, EU | Arsenic speciation using HPLC-ICP-MS in white and brown rice… | unknown | 15 | lognormal_mean_only | 4.6% |
-| carey2018-rice-dilution-infant-food-eu-arsenic (2018) · GB, EU | Dilution of rice with other gluten free grains to lower inor… | unknown | 6 | single_point | 0.3% |
-| efsa2021-chronic-exposure-iAs (2021) · EU | Chronic dietary exposure to inorganic arsenic | unknown | 15 | lognormal_mean_max | 4.6% |
-| fda2020-iAs-rice-cereal-supporting-doc (2020) · US | Supporting Document for Action Level for Inorganic Arsenic i… | unknown | 306 | lognormal_mean_only | 50.0% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 85 | uniform_max_only | 3.1% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 29 | uniform_max_only | 3.1% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 105 | uniform_max_only | 3.1% |
-| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 53 | uniform_max_only | 3.1% |
-| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_sold_or_source_reported | 10 | lognormal_lod_censored_midpoint | 3.1% |
-| fda2016-infant-toddler-foods-inorganic-arsenic (2016) · US-FDA | Analytical Results from Inorganic Arsenic in Rice Cereals fo… | as_sold_dry_cereal | 82 | percentile_interpolation | 25.1% |
+| arsenic2025-unknown (2025) · MY, EU | Arsenic speciation using HPLC-ICP-MS in white and brown rice… | unknown | 15 | lognormal_mean_only | 9.3% |
+| carey2018-rice-dilution-infant-food-eu-arsenic (2018) · GB, EU | Dilution of rice with other gluten free grains to lower inor… | unknown | 6 | single_point | 0.6% |
+| efsa2021-chronic-exposure-iAs (2021) · EU | Chronic dietary exposure to inorganic arsenic | unknown | 15 | lognormal_mean_max | 9.3% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 85 | uniform_max_only | 6.2% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 29 | uniform_max_only | 6.2% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 105 | uniform_max_only | 6.2% |
+| signes-pastor2016-inorganic-arsenic-rice-products-infants (2016) · GB, EU | Inorganic arsenic in rice-based products for infants and you… | dry_weight | 53 | uniform_max_only | 6.2% |
+| fsa2016-infant-food-formula-metals-survey (2016) · UK | Survey of metals in commercial infant foods, infant formula … | as_sold_or_source_reported | 10 | lognormal_lod_censored_midpoint | 6.2% |
+| fda2016-infant-toddler-foods-inorganic-arsenic (2016) · US-FDA | Analytical Results from Inorganic Arsenic in Rice Cereals fo… | as_sold_dry_cereal | 82 | percentile_interpolation | 50.0% |
 
 </details>
 
@@ -158,7 +157,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 40 ppb (eu2023_cd_babyfood_cereal_40)
 **Pool composition:** 5 sources contributing · 52 pseudo-samples in pool · 2 sample-level contributors
-**Bootstrap 95% CI: [3, 144.41] ppb**
+**Bootstrap 95% CI: [6.38, 142.66] ppb**
 **Sensitivity: log-normal 131.25 · gamma 127.58 · nonparametric 129.15 ppb · spread 3% (stable)**
 
 
@@ -262,7 +261,6 @@ Every numeric claim in this briefing traces to one of the source pages below. Fu
 | `collado-lopez2025-heavy-metals-baby-food-formula` (A) | Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review | Sonia Collado-Lopez; Maria Fernanda Rodriguez Hernandez; Rosa Maria Mariscal-Moreno; Martha Maria Tellez-Rojo; Larissa Betanzos-Robledo; Moises Reyes Luna; Alejandra Cantoral-Preciado · 2025 · Nutrition Reviews · doi:10.1093/nutrit/nuaf138 |
 | `efsa2021-chronic-exposure-iAs` (A) | Chronic dietary exposure to inorganic arsenic | EFSA; Arcella D; Cascio C; Gómez Ruiz JA · 2021 · EFSA Journal · doi:10.2903/j.efsa.2021.6380 |
 | `fda2016-infant-toddler-foods-inorganic-arsenic` (A) | Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers | U.S. Food and Drug Administration · 2016 · U.S. Food and Drug Administration · doi:null |
-| `fda2020-iAs-rice-cereal-supporting-doc` (A) | Supporting Document for Action Level for Inorganic Arsenic in Rice Cereals for Infants | U.S. Food and Drug Administration · 2020 · U.S. Food and Drug Administration · doi:null |
 | `fda2024-toxic-elements-baby-food-compliance-2009-2024` (A) | Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024) | U.S. Food and Drug Administration · 2024 · FDA analytical results table · doi:null |
 | `fsa2016-infant-food-formula-metals-survey` (A) | Survey of metals in commercial infant foods, infant formula and non-infant specific foods | Food Standards Agency / Fera Science Ltd · 2016 · UK Food Standards Agency report FS102048 |
 | `gardener2019-pb-cd-us-infant-formula-baby-foods` (A) | Lead and cadmium contamination in a large sample of United States infant formulas and baby foods | Gardener H; Bowen J; Callan SP · 2019 · Science of the Total Environment · doi:10.1016/j.scitotenv.2018.09.026 |
@@ -286,17 +284,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
+1. Checking out commit `da3479331720df43767f94b8dfd3c8c534fb1c08` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=baby-cereals-dry-rice-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-18T05:18:43.736Z |
+| Generated at | 2026-05-18T20:33:57.356Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `2e44dd7751a2620f3d6da74745d090840c3a71c6` |
+| Git commit | `da3479331720df43767f94b8dfd3c8c534fb1c08` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

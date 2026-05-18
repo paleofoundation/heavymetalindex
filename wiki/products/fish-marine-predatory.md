@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 0
+sources: 2
 updated: 2026-05-17
 ---
 # Fish — marine, predatory (tuna, swordfish, shark, king mackerel)

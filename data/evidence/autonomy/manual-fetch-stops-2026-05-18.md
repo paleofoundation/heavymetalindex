@@ -312,3 +312,21 @@ Steps (d)–(g) cross marker-block-owned generator outputs in several files, so 
 **Action needed:** Run a dedicated dedup pass for DOI `10.17590/20240626-094256-0`: choose the canonical cite-key, merge any unique content and provenance, retire the duplicate cite-key by updating inbound references, delete or quarantine the retired source page, and regenerate routing/evidence outputs. The newer `bfr2024-mehg-fish-seafood-meal-germany.md` is likely the canonical candidate because it already points at the exact P0145 PDF and has current-schema provenance, but the older page's richer exposure table should be checked before retiring it.
 
 **No source-page changes made.** Tracker row marked `stopped-codex`; session stopped per user instruction.
+
+## Stop — CEPHED 2013 already ingested + audited earlier today
+
+- **PDF:** `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Study_of_Heavy_Metals_in_Childrens_Toys_and_Products.pdf`
+- **Suggested handle (per daemon):** `MFK_study-of-heavy-metals-in-childrens-toys-and-produc`
+- **Existing wiki page:** `wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal.md` (`updated: 2026-05-18`, `ingest_method: autonomy_v2_manual_fetch`)
+- **Cite-key:** `cephed2013-heavy-metals-childrens-toys-nepal`
+- **No DOI assigned** (NGO investigative report, Sah et al., CEPHED Lalitpur, July 2013)
+
+**Why stopped:** The page was ingested fresh, audited via fresh-context subagent, and audit findings applied earlier today (2026-05-18). `data/evidence/audit-queue.csv` row for this cite-key shows `status: audited-revised`, `audit_verdict: REVISE`, `audit_applied_at: 2026-05-18`, with 1 finding applied (added `## Verification notes` documenting audit + slug verification + in-PDF Cd-range Section-11.3-vs-Table-5 inconsistency) and 1 finding rejected (slug-existence false positive on `toys-painted`/`toys-substrate-materials` — both pages exist on disk as locked HMTc Cat 21 Row 1/Row 2 scaffolds; the 2026-05-17 taxonomy snapshot is simply stale).
+
+Three identity checks all hit the same canonical page: cite-key, `raw_handle: MFK_study-of-heavy-metals-in-childrens-toys-and-produc`, and exact `raw_path` match.
+
+**Routing-malformed status:** appears in `data/evidence/routing_malformed.csv` at `severity: advisory` with `missing_advisory: ingredients;matrices`. This is the expected baseline for a toys-only source — XRF surface screening of plastic/metal/wood/rubber/fabric/clay/foam/paper toys does not declare food-style ingredient or matrix slugs. Documented as such in the page's own Verification notes and in the audit-queue row. Not a blocking defect requiring re-ingest.
+
+**Action for the daemon:** advance past this PDF. The page is post-2026-05-14 clean by the skill's own definition (Phase 1 step 1 skip rule). Recommend adding `MFK_study-of-heavy-metals-in-childrens-toys-and-produc` (or SHA `21a45c17108be0bba1a6d1b96347e023d0ddf1da57569629386f5460418c0e4b`) to the daemon's de-dup skip list so the same handle is not re-presented in subsequent ticks.
+
+**No commits made.** Page state unchanged.

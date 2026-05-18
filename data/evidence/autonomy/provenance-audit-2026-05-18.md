@@ -1,12 +1,12 @@
 # Provenance audit — 2026-05-18
 
-Generated: 2026-05-18T05:16:46.779Z
+Generated: 2026-05-18T20:31:53.928Z
 
 ## Summary
 
-- Files scanned: 654
-- Files with unsourced claims: 217
-- Total unsourced claims: 372
+- Files scanned: 671
+- Files with unsourced claims: 226
+- Total unsourced claims: 395
 
 ## Methodology
 
@@ -53,6 +53,30 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
   > The TFCA does not specify a single official method but anticipates standard cosmetic-industry analytical practice: nitric acid + hydrogen peroxide microwave digestion followed by ICP-MS quantification…
 - … 3 more on this page
 
+### wiki/products/canned-fish.md (5)
+- line 80: claim `4.5 mg/kg`
+  > - **Species selection — same dominant lever as seafood category.** Salmon (especially US-farmed) and small forage species (sardine, mackerel, anchovy) have lower MeHg by 5-10× than canned tuna of comp…
+- line 86: claim `200 mg/kg`
+  > - **Tin migration from tin-plate cans.** Modern epoxy-lined tin-plate cans keep Sn migration well below the EC 1881/2006 200 mg/kg cap (Benjamin 2023 Ghana data: 14-17 µg/g, two orders of magnitude un…
+- line 92: claim `1.98 mg/kg`
+  > - **Lot-level tHg testing on canned tuna.** Aguilar-Miranda 2024 documented within-brand variability with one lot at 1.98 mg/kg (over the EU 1.0 mg/kg cap) while the brand mean was 0.41 mg/kg. Brand-a…
+- line 104: claim `50 mg/kg`
+  > - **Recipe substitution within product lines.** Replacing canned-tuna content in fish-salad SKUs with canned-salmon or canned-sardine content shifts the MeHg vs tAs balance per the species-specific pa…
+- line 109: claim `200 mg/kg`
+  > - **EU 2022/617** per-species Hg cap is the primary regulatory backdrop for canned tuna. - **EC 1881/2006** Sn cap (200 mg/kg adult, 50 mg/kg infant) is the primary regulatory backdrop for canned-prod…
+
+### wiki/metals/mercury-methyl.md (5)
+- line 17: claim `1.0 ppm`
+  > For per-species detail and the trophic-level rationale, see [[ingredients/fish|fish]], [[ingredients/freshwater-fish|freshwater fish]], [[ingredients/shark|shark]], and [[ingredients/canned-tuna|canne…
+- line 21: claim `1.0 ppm`
+  > Regulatory instruments for methylmercury split into three classes. **Maximum levels in food** (binding) include the EU Reg. 2023/915 species-specific Hg maximum levels for fishery products (which the …
+- line 39: claim `30.9 µg/kg`
+  > The present-day baseline from the same dataset establishes that freshwater wild fish carry MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across trophic classes, and 1.7 times…
+- line 69: claim `2 mg/kg`
+  > The Faroe Islands cohort, where dietary Hg exposure comes primarily from pilot whale consumption (very high MeHg, often >2 mg/kg in muscle), found consistent associations between cord-blood mercury an…
+- line 104: claim `50 µg/kg`
+  > Rice is the second-most-important dietary MeHg source after fish, particularly in Asian populations with low fish consumption but high paddy-grown rice consumption. Paddy rice grown in contaminated so…
+
 ### wiki/metals/tin-inorganic.md (5)
 - line 19: claim `2 ppm`
   > Other ingestion routes are minor: foods not packaged in metal cans contain tin generally below 2 ppm. Drinking water tin is typically below 0.003 mg per liter. Stannous fluoride in toothpaste contribu…
@@ -74,6 +98,16 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
   > - _**US cosmetics**: FDA FD&C Act adulteration provisions only; no binding finished-product heavy-metal limits for cosmetics generally. Color-additive-specific limits at 21 CFR 73-82._ - _**US sunscre…
 - line 125: claim `1000ppb`
   > - Johnson & Johnson talcum powder litigation 2018-2023 (primarily asbestos, with parallel heavy-metal exposure questions); Row 4 context. - FDA cosmetic talc testing 2019-2020 (asbestos focus, paralle…
+
+### wiki/products/seafood.md (4)
+- line 8: claim `100 mg/kg`
+  > This page serves brand legal teams, retailer-compliance reviewers, HMTc certification staff, and regulators who need a literature-anchored view of heavy-metal contamination in commercial seafood. The …
+- line 81: claim `2.0 mg/kg`
+  > - **Species selection — the dominant lever.** Avoiding large predatory species (Atlantic bluefin tuna, swordfish, shark, marlin, king mackerel, tilefish) shifts the central tendency of MeHg by roughly…
+- line 104: claim `200 mg/kg`
+  > - **Material migration is generally not the dominant source for finfish.** Migration of Sn from canned-fish packaging is the documented exception; EC 1881/2006 cap of 200 mg/kg for canned foods (and 5…
+- line 109: claim `1.3 µg/kg`
+  > - **EU-2022/617 and EC-1881/2006-superseded thresholds** are the operative regulatory backdrop. HMTc certification setting tighter thresholds than these caps follows the methodology in CLAUDE.md Part …
 
 ### wiki/ingredients/flavored-carbonated-bottled-waters.md (4)
 - line 38: claim `10 µg/L`
@@ -261,28 +295,4 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 - line 148: claim `1 mg/kg`
   > The aluminum reference value is a single TWI of 1 mg/kg b.w./week (EFSA, JECFA-aligned). The app can present a "percent of TWI" benchmark as the primary aluminum signal. Default reference: 1 mg Al/kg …
 
-### wiki/metals/mercury-methyl.md (3)
-- line 17: claim `1.0 ppm`
-  > For per-species detail and the trophic-level rationale, see [[ingredients/fish|fish]], [[ingredients/freshwater-fish|freshwater fish]], [[ingredients/shark|shark]], and [[ingredients/canned-tuna|canne…
-- line 21: claim `1.0 ppm`
-  > Regulatory instruments for methylmercury split into three classes. **Maximum levels in food** (binding) include the EU Reg. 2023/915 species-specific Hg maximum levels for fishery products (which the …
-- line 39: claim `30.9 µg/kg`
-  > The present-day baseline from the same dataset establishes that freshwater wild fish carry MeHg concentrations 2.9 to 6.2 times higher than freshwater farmed fish across trophic classes, and 1.7 times…
-
-### wiki/regulations/fda-ctz-Pb-cereal-20ppb.md (3)
-- line 3: claim `20 ppb`
-  > # FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals…
-- line 52: claim `10ppb`
-  > See [[regulations/fda-ctz-Pb-babyfood-10ppb]] for the IRL derivation. The 2.2 µg/day IRL for children is the same reference value against which all three action levels under this guidance were evaluat…
-- line 60: claim `20 ppb`
-  > For the Category 1 lead comparison layer, see [[products/lead-benchmark-context]]. EU Regulation 2023/915 maps processed cereal-based food for infants and young children to 20 ppb lead as placed on th…
-
-### wiki/regulations/fda-juice-haccp-lead-50ppb.md (3)
-- line 3: claim `50 ppb`
-  > # FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice…
-- line 5: claim `50 ppb`
-  > FDA's Juice HACCP guidance recommends controls to ensure lead levels in ready-to-drink fruit juices and fruit nectars do not exceed 50 ppb when lead is a hazard reasonably likely to occur. HMI treats …
-- line 7: claim `10 ppb`
-  > The FDA issued draft lead-in-juice action levels in 2022 that would set 10 ppb for apple juice and 20 ppb for other single-strength juices and blends. Those draft values are not for implementation and…
-
-_187 more files — see CSV._
+_196 more files — see CSV._

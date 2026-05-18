@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-powder-non-soy
 native_basis: powder_as_placed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-18T05:18:42.983Z
+generated_at: 2026-05-18T20:33:56.468Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -88,7 +88,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 20 ppb (eu2023_pb_formula_powder_20)
 **Pool composition:** 18 sources contributing · 296 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [5.53, 160.67] ppb**
+**Bootstrap 95% CI: [4.17, 156.31] ppb**
 **Sensitivity: log-normal 66.55 · gamma 69.55 · nonparametric 69.66 ppb · spread 5% (stable)**
 
 
@@ -137,7 +137,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 20 ppb (eu2023_ias_formula_powder_20)
 **Pool composition:** 7 sources contributing · 52 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [4.26, 20.22] ppb**
+**Bootstrap 95% CI: [4.71, 21.98] ppb**
 **Sensitivity: log-normal 11.45 · gamma 8.54 · nonparametric 14.11 ppb · spread 40% (provisional)**
 
 
@@ -270,7 +270,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** no applicable cap loaded
 **Pool composition:** 9 sources contributing · 81 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [42.34, 107.35] ppb**
+**Bootstrap 95% CI: [39.62, 108.44] ppb**
 **Sensitivity: log-normal 78.16 · gamma 86.74 · nonparametric 124.88 ppb · spread 37% (provisional)**
 
 
@@ -310,7 +310,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `regulatory-alignment`
 **Regulatory ceiling reference:** 10 ppb (eu2023_cd_formula_cow_powder_10)
 **Pool composition:** 24 sources contributing · 340 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [5.57, 156.93] ppb**
+**Bootstrap 95% CI: [5.74, 150.13] ppb**
 **Sensitivity: log-normal 12.70 · gamma 9.45 · nonparametric 9.71 ppb · spread 26% (provisional)**
 
 
@@ -618,17 +618,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
+1. Checking out commit `da3479331720df43767f94b8dfd3c8c534fb1c08` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-powder-non-soy` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-18T05:18:42.994Z |
+| Generated at | 2026-05-18T20:33:56.490Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `2e44dd7751a2620f3d6da74745d090840c3a71c6` |
+| Git commit | `da3479331720df43767f94b8dfd3c8c534fb1c08` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

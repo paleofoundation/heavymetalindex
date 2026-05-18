@@ -57,3 +57,13 @@
 
 ### Failed
 - P1 `concentration2023-concentration-essential-toxic-rare` (FM_10384816): cite_key mismatch: henriguez2023-heavy-metals-baby-purees
+
+## Batch 2026-05-18T20:21:00.715Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `concentration2023-concentration-essential-toxic-rare` (FM_10384816): exit 1: 
+- P1 `health2022-health-safety-ready-to-eat-products` (FM_9183086): stdout did not contain '---' frontmatter

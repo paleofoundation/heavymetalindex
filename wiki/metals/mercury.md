@@ -8,7 +8,7 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: medium
 wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
 updated: 2026-04-30
-sources: 191
+sources: 182
 ---
 
 # Mercury

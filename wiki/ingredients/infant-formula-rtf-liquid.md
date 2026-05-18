@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Infant Formula Rtf Liquid

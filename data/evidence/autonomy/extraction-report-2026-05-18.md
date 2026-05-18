@@ -1,16 +1,16 @@
 # Source-value extraction report — 2026-05-18
 
-Generated: 2026-05-18T05:09:58.731Z
+Generated: 2026-05-18T20:18:59.468Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 959
-- Pages with `## Key numbers` section: 845
-- Pages without Key numbers section (skipped): 113
-- Structured rows extracted: 4847
-- Pages with Key numbers but no parseable values: 67
+- Source pages processed: 964
+- Pages with `## Key numbers` section: 858
+- Pages without Key numbers section (skipped): 105
+- Structured rows extracted: 5196
+- Pages with Key numbers but no parseable values: 68
 
 ## Output
 
@@ -19,39 +19,39 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 996 rows
-- Cd: 953 rows
-- Cr-total: 484 rows
-- Ni: 447 rows
-- tAs: 380 rows
-- Al: 312 rows
-- tHg: 300 rows
-- iAs: 168 rows
-- Cu: 114 rows
-- Co: 102 rows
-- MeHg: 98 rows
-- Sn: 80 rows
-- Fe: 74 rows
-- Mn: 63 rows
-- Se: 55 rows
-- U: 46 rows
+- Pb: 1037 rows
+- Cd: 994 rows
+- Cr-total: 526 rows
+- Ni: 476 rows
+- tAs: 402 rows
+- Al: 332 rows
+- tHg: 319 rows
+- iAs: 164 rows
+- Cu: 151 rows
+- Co: 123 rows
+- MeHg: 92 rows
+- Sn: 86 rows
+- Fe: 84 rows
+- Mn: 69 rows
+- Se: 65 rows
+- U: 49 rows
+- V: 44 rows
 - Sb: 37 rows
-- V: 32 rows
-- Ba: 25 rows
+- Ba: 28 rows
+- Cr-VI: 23 rows
 - Mo: 12 rows
-- Cr-VI: 10 rows
+- Tl: 11 rows
+- Ca: 10 rows
 - Be: 9 rows
+- K: 9 rows
 - DMA: 7 rows
 - Ti: 6 rows
-- K: 5 rows
-- Sr: 5 rows
-- Tl: 4 rows
+- Sr: 6 rows
+- B: 5 rows
+- Ag: 4 rows
 - Li: 3 rows
-- Ag: 3 rows
+- Mg: 3 rows
 - W: 3 rows
-- B: 3 rows
-- Ca: 2 rows
-- Mg: 2 rows
 - MMA: 2 rows
 - F: 1 rows
 - I: 1 rows
@@ -61,23 +61,23 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 1979 rows
-- fresh-fish: 255 rows
-- spices: 170 rows
-- seafood: 169 rows
-- baby-cereals-dry-rice-based: 131 rows
+- (empty): 2076 rows
+- fresh-fish: 289 rows
+- seafood: 171 rows
+- spices: 171 rows
+- baby-cereals-dry-rice-based: 153 rows
 - fresh-fruit: 125 rows
-- canned-fish: 106 rows
+- canned-fish: 119 rows
 - face-paint: 81 rows
-- infant-formula-powder-non-soy: 72 rows
 - non-root-vegetables: 70 rows
+- infant-formula-powder-non-soy: 66 rows
 - honey: 62 rows
 - children-personal-care: 59 rows
-- poultry-product: 56 rows
-- root-tuber-vegetables: 55 rows
+- fish-freshwater: 58 rows
+- root-tuber-vegetables: 53 rows
 - vinegar: 50 rows
+- infant-formula-powder: 49 rows
 - tea-infusions: 49 rows
+- poultry-product: 48 rows
 - baby-lotion-cream: 46 rows
 - true-tea-camellia-sinensis: 46 rows
-- infant-formula-powder: 42 rows
-- breakfast-cereals: 42 rows

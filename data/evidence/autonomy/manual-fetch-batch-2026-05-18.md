@@ -264,3 +264,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Papers Cube Manual Fetch/sadiq-beauchemin-2021-multi-elemental-risk-assessment-of-various-baby-rice-cereals-some-cause-for-concern.pdf`: true duplicate conflict — sadiq-beauchemin 2021 has two existing wiki source pages (sadiq-beauchemin-2021-multielemental-baby-rice-cereals + sadiq2021-baby-rice-cereal-bioaccessibility-speciation) for the same DOI 10.1139/cjc-2020-0518, with a substantive Cr-VI interpretation contradiction between them; deferred to a dedicated dedup pass per Stop 14 in data/evidence/autonomy/manual-fetch-stops-2026-05-18.md
+
+## Tick 2026-05-18T20:21:00.927Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `fera2015-uk-tds-metals` (raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/UK Total Diet Study of metals and other elements in food.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Study_of_Heavy_Metals_in_Childrens_Toys_and_Products.pdf`: cephed2013-heavy-metals-childrens-toys-nepal — already ingested + audited + applied earlier today (post-2026-05-14 clean, audit-queue audited-revised, routing-malformed entry is advisory baseline only)

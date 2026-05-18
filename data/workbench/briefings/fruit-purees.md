@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: fruit-purees
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-18T05:18:44.080Z
+generated_at: 2026-05-18T20:33:57.718Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -82,7 +82,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 10 ppb (fda2025_pb_baby_food_10)
 **Pool composition:** 3 sources contributing · 38 pseudo-samples in pool · 1 sample-level contributors
-**Bootstrap 95% CI: [0.49, 12.46] ppb**
+**Bootstrap 95% CI: [0.58, 20.08] ppb**
 **Sensitivity: log-normal 3.01 · gamma 4.29 · nonparametric 3.40 ppb · spread 30% (provisional)**
 
 
@@ -303,17 +303,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `2e44dd7751a2620f3d6da74745d090840c3a71c6` in the heavymetalindex.com repository.
+1. Checking out commit `da3479331720df43767f94b8dfd3c8c534fb1c08` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=fruit-purees` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-18T05:18:44.090Z |
+| Generated at | 2026-05-18T20:33:57.731Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `2e44dd7751a2620f3d6da74745d090840c3a71c6` |
+| Git commit | `da3479331720df43767f94b8dfd3c8c534fb1c08` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

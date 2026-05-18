@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [flavored-waters]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 19
+sources: 21
 ---
 
 # Water

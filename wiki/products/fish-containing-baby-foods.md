@@ -49,7 +49,7 @@ cc_relationship:
     rationale: "Non-fish baby foods constitute the lower-end reference distribution for MeHg in Category 1; fish-containing baby foods diverge from this distribution because of bioaccumulation, which is the higher-contamination row characterized by this page."
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 13
+sources: 14
 ---
 
 # Fish-Containing Baby Foods

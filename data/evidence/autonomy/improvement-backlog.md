@@ -449,3 +449,29 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis blocked without structured values), Part 5b (routing depends on frontmatter completeness), Part 18 (lint rule: provenance gaps).
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Extract user-demand signal from gap-driven wishlist to repriorize ingest
+
+**What:** Parse the 666 gap-driven wishlist queries to extract product/ingredient slugs and their ask-frequency, then emit a ranked ingest-priority queue that feeds next-batch prioritization.
+
+**Why this lever now:** The snapshot shows 6 infant-food category scaffolds with zero routed sources; simultaneously, 666 user queries represent unmet demand. These two signals should converge. A user asking "what does the literature say about infant barley cereal?" 12 times is evidence-of-demand that should bump barley-based infant products up the ingest queue, independent of raw source count.
+
+**Where:** 
+- Input: `data/evidence/gap-driven-wishlist-2026-05-18.csv` (exists, 666 rows)
+- Output: `data/autonomy/wishlist-ingest-priorities.csv` (new)
+- Integration point: Part 11 priority-tier logic in next batch report
+
+**How:**
+1. Parse the `gap_query` column; extract product/ingredient slugs and metals via pattern-matching (e.g., "lead in infant oat cereal" → `products: infant-cereals`, `ingredients: oats`, `metals: Pb`)
+2. Aggregate by slug; compute frequency distribution
+3. Emit ranked CSV: `slug | product_type | query_count | top_query_variant | inferred_evidence_gap`
+4. Surface the top 20 user-demand entries in the next batch report as "user-demand tier" candidates to justify bumping scaffolds past zero-sources
+
+**Anchors:** 
+- CLAUDE.md Part 11 (priority ordering) — adds user-demand as a tier signal alongside P1-P5
+- Part 5b (routing layer) — unresolved routes → wishlist queries; wishlist queries → ingest priorities
+- Ask the Index product spec (docs/ask-the-index-spec.md) — closes the loop from user questions to ingest work
+
+---
