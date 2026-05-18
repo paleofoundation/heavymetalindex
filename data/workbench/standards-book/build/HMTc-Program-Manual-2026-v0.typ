@@ -116,6 +116,19 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
 
 
 
+== How to cite this document
+
+
+Academic, regulatory, and legal works citing this Program Manual should use the following form:
+
+
+#quote(block: true)[Pendergrass, K. _Heavy Metal Tested & Certified (HMTc) Infant and Child Foods Program Manual._ 2026 Edition. Paleo Certified, Inc. dba The Paleo Foundation, 2026. doi: #link("https://doi.org/10.5281/zenodo.20270512")[10.5281/zenodo.20270512].]
+
+
+For citations to specific chapters or sections, append the part and section identifier (e.g., "Part 2.10 §12.3, _Standards Ratchet Trigger Conditions_"). For citations to specific HMTc limit values, cite the relevant Part 3 chapter by its product slug (e.g., "Part 3.1, _Infant Formula, Powder (Non-Soy)_, Master Limit Table") and the chapter's Sources Cited section for the underlying source attribution. Numbered references in this manual (Part 5.4) follow IEEE-adjacent format; readers needing alternative bibliographic format (APA, Vancouver, Chicago) may request the reference list as a structured BibTeX or RIS file from the Program Operator.
+
+
+
 = Table of Contents
 
 
@@ -11964,6 +11977,33 @@ This is *v0-pre-audit* of the 2026 Edition. The audit-strengthened v0 ships afte
 
 
 _End of Heavy Metal Tested & Certified Infant and Child Foods Program Manual, 2026 Edition._
+
+
+
+= 5.8 About the Author
+
+
+*Karen Pendergrass* is the Standards Architect of the Heavy Metal Tested & Certified (HMTc) program and the founder and Chief Executive Officer of Paleo Certified, Inc., the Florida corporation doing business as The Paleo Foundation. She is a microbial metallomics researcher with active investigation into the intersection of heavy metal exposure, the human gut microbiome, and developmental health outcomes. She works from Larnaca, Cyprus.
+
+
+Her current research program centers on methodologically defensible certification standards for environmental contaminants in food, with particular attention to vulnerable populations (infants, young children, pregnant individuals) where aggregate exposure across multiple food categories systematically exceeds health-based reference values even at full regulatory compliance. The HMTc methodology, presented in this manual, is the operational expression of that research program: a third-party certification framework calibrated against the open peer-reviewed literature, anchored to a public curated corpus at heavymetalindex.com, governed by published principles that constrain both the wiki layer and the certification layer, and built to be more rigorous than current regulatory floors without losing commercial viability.
+
+
+Pendergrass's peer-track publications in the _Journal of Food Metallomics_ document the structural, financial, and design rationale that underlies the program reproduced in this manual:
+
+
+- _The Counterproductive Consequences of Public Exposé Testing: How Unstructured Disclosure Undermines Heavy Metal Contamination Reduction._ 2026. doi: #link("https://doi.org/10.5281/zenodo.19470572")[10.5281/zenodo.19470572].#super[\[46\]]
+- _The Cost of Operating Without Credible Third-Party Heavy-Metal Certification._ 2026. doi: #link("https://doi.org/10.5281/zenodo.18903738")[10.5281/zenodo.18903738].#super[\[47\]]
+- _Certification as a Framework for Reducing Heavy Metal Exposure in Infant and Child Foods: Integrating Legal Defensibility, Scientific Rigor, and Commercial Viability._ 2026. doi: #link("https://doi.org/10.5281/zenodo.18905821")[10.5281/zenodo.18905821].#super[\[48\]]
+
+
+Pendergrass's ORCID identifier is #link("https://orcid.org/0000-0002-2348-7259")[0000-0002-2348-7259].
+
+
+*Standards Architect / CEO dual-role disclosure.* Karen Pendergrass holds both the methodological authority (as Standards Architect, responsible for limit-setting calibration, methodology revisions, and Governing Principles) and the operational authority (as CEO of Paleo Certified, Inc., responsible for commercial decisions, licensing, and program continuity) for the HMTc program. This dual role is disclosed here as a matter of transparency. The structural mitigation for the conflict that could arise from this combination is documented in Part 2.12 §14.1 (the two-tier appeals process with the binding Independent Appeals Committee external to the Paleo Foundation) and in the firewall provisions of the Governing Principles that separate the wiki literature evidence layer from the threshold-setting methodology. Adversarial readers concerned with the dual role should follow those structural mitigations to the institutional answer.
+
+
+*Contact.* Editorial questions about this manual, requests for the controlled-terms aggregate distribution data per Part 5.1, and academic correspondence about the methodology may be directed to the Program Operator via the contact channels in the Colophon (Part 5.7).
 
 
 
