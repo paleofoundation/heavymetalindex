@@ -179,7 +179,6 @@ epa-iris-inorganic-arsenic-2025,wiki/sources/epa-iris-inorganic-arsenic-2025.md,
 epa-iris-lead-2004,wiki/sources/epa-iris-lead-2004.md,advisory,,,products;ingredients;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 epa-iris-mercuric-chloride,wiki/sources/epa-iris-mercuric-chloride.md,advisory,,,products;ingredients;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 epa-iris-methylmercury,wiki/sources/epa-iris-methylmercury.md,advisory,,,products;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
-epa1997-arsenic-fish-shellfish,wiki/sources/epa1997-arsenic-fish-shellfish.md,advisory,,,products,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 erol2025-turkish-cheese-metals,wiki/sources/erol2025-turkish-cheese-metals.md,advisory,,,products,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 eu-2023-915-contaminants-maximum-levels,wiki/sources/eu-2023-915-contaminants-maximum-levels.md,advisory,,,ingredients,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 eu-scf-2002-acute-tin-canned-foods,wiki/sources/eu-scf-2002-acute-tin-canned-foods.md,advisory,,,ingredients,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
