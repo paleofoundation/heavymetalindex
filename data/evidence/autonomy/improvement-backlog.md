@@ -521,3 +521,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 8 (ingest workflows—this informs priority tiers P1-P5); Part 9 (synthesis—identifies which thin cells are source-thin vs other blockers); Part 11 (priority ordering). Maps to the gap_driven_wishlist signal in the snapshot.
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Ingest gap-driven query signals to prioritize evidence backlog
+
+**What:** Parse the 600 unmatched Ask-the-Index queries to identify which ingredient/metal/product cells the market is actually asking about, then auto-generate an ingest priority queue ranked by question frequency.
+
+**Why this lever now:** The snapshot shows 302 pool_blocked_cells (zero evidence) and 45 pool_too_thin (unstable), while 6 infant-formula product stubs have 0–2 sources. Simultaneously, 600 gap_driven_wishlist_queries represent real demand signals showing where ingesting papers would yield the highest FAQ volume. Data-driven prioritization replaces guesswork and accelerates synthesis on the most-asked cells.
+
+**Where:**
+- `data/evidence/gap_driven_wishlist_queries.jsonl` (input query log)
+- `tools/autonomy/analyze-query-gaps.mjs` (new script: query → cell mapping)
+- `data/evidence/ingest-priority-queue.csv` (output: (ingredient, metal, product) triples ranked by query count)
+
+**How:**
+1. Parse each unmatched query to extract the ingredient/metal/product/regulation cells it's asking about (route by keyword match + LLM slot-fill as fallback).
+2. Aggregate frequency per (ingredient, metal) pair and (product, metal) pair.
+3. Emit `ingest-priority-queue.csv` ranked by frequency descending.
+4. Wire into the autonomy loop: future gap-driven ingest phases target the top unmet cells first.
+
+**Anchors:** Part 9 (synthesis gates on evidence density), Part 11 (priority ordering), Part 1 (epistemic asymmetry requires _completeness_), memory [[feedback_data_driven_not_subjective]]
+
+---

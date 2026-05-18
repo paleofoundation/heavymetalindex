@@ -353,3 +353,27 @@ Three identity checks all hit the same canonical page: cite-key, `raw_handle: MF
 **Action for the daemon:** advance past this PDF. Recommend adding SHA `e5153c106afd9d3513406dab59caabbe9f49ee3c7ff378dacdf2a1f59bf0a28e` (or the handle `MFK_development-of-a-fast-method-using-icp-ms-coupled-`) to the daemon's skip list so this misnamed file is not re-presented.
 
 **No commits made.** No wiki page created. No audit-queue row appended.
+
+## Stop — PDF filename/content mismatch, actual paper out of scope (camel milk drying)
+
+- **PDF:** `raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metals in Milk and Dairy Products_ Safety and Analysis.pdf`
+- **Suggested handle (per daemon):** `MFK_heavy-metals-in-milk-and-dairy-products-safety-and`
+- **Filename promises:** A review of heavy metals in milk and dairy products (safety + analytical methods).
+- **Actual contents:** Rakhmatulina A, Dikhanbayeva F, Tlevlessova D, Zagorska J, Aralbayev N, Majore K, Yessenova A. "Advancements in Camel Milk Drying Technology: A Comprehensive Review of Methods, Chemical Composition, and Nutritional Preservation." *Dairy* 2024, 5(3):360–371. DOI `10.3390/dairy5030029`. Published 25 June 2024 (Joldasbekov Institute of Mechanics and Engineering + Almaty Technological University + Latvia University of Life Sciences). 12 pages.
+
+**Why stopped:** The PDF inside this file is a semi-systematic review of camel milk drying technology — spray drying vs freeze drying, their effects on protein/fat/lactose/moisture content, drying parameters (inlet/outlet temperature, feed rate, vacuum pressure), and bioactive-compound preservation. All 12 pages report nutrient retention metrics (%w/w protein/fat/lactose, moisture content, vitamin loss %, amino-acid composition shifts) plus a vendor table of commercial camel milk powder producers (Camelicious, Desert Farms, etc.). **There are zero heavy metal concentration measurements, zero analytical results for Pb/Cd/As/Hg/Cr/Ni/Al/Sn/Sb/U, zero exposure or risk-assessment data, and zero references to the HMTc 10-analyte list anywhere in the paper.** The paper is out of scope for HMI in its entirety — it is a food-processing technology review, not a contamination study. The funding statement explicitly identifies the underlying programme as "Development of deep processing technology and equipment for vacuum sublimation drying of mare and camel milk" (Kazakhstan grant BR21881957).
+
+**Identity checks:**
+1. DOI grep `10.3390/dairy5030029` against `wiki/sources/` — no hits (correctly; this paper has no HMI page and should not have one).
+2. `rakhmatulina` grep against `wiki/sources/` — no hits.
+3. Filename-stem grep `Heavy Metals in Milk and Dairy Products_ Safety and Analysis` against `wiki/sources/` — no hits.
+
+No cite-key collision; no risk of overwriting existing work by stopping here.
+
+**Action for Karen:** The PDF was filed under the wrong filename when Kimi sourced it. The filename suggests a heavy-metals-in-dairy review (which would be in scope; e.g., the cite `Zwierzchowski G, Ametaj BN 2018 Metals in milk and dairy and their relation to public health, *Foods* 7(11):164` or similar review papers exist in the literature). Two reasonable resolutions:
+- (a) Delete or move this PDF out of the manual-fetch queue — it is not an HMI paper.
+- (b) If a heavy-metals-in-dairy review was the intended target, refetch under the correct DOI; the dairy folder already contains in-scope dairy contamination studies (al-sidawi2021 Kvemo Kartli, the Lebanon yogurt paper, Poland total mercury, Poland noxious elements, etc.) so the corpus is not blocked by this one misfile.
+
+**Action for the daemon:** advance past this PDF. Recommend adding the basename stem `Heavy Metals in Milk and Dairy Products_ Safety and Analysis` (or computing+adding the SHA-256) to the daemon's skip list so this misnamed file is not re-presented.
+
+**No commits made.** No wiki page created. No audit-queue row appended.

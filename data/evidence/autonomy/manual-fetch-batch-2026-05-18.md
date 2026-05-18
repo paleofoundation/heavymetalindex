@@ -301,3 +301,16 @@
 ### Succeeded
 - `sarkis2025-heavy-metals-yogurt-lebanon` (raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metal Contamination in Yogurt from Lebanon_ Evaluating Lead (Pb) and Cadmium (Cd) Concentrations Across Multiple Regions.pdf)
 - `aisyiah2025-heavy-metals-breast-milk-systematic-review` (raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metal Content in Breast Milk and Contributing Environmental and Maternal Factors_ A Systematic Review.pdf)
+
+## Tick 2026-05-18T22:51:05.232Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia` (raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metal Levels in Milk and Cheese Produced in the Kvemo Kartli Region, Georgia.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metals in Milk and Dairy Products_ Safety and Analysis.pdf`: filename-content-mismatch-camel-milk-drying-out-of-scope
