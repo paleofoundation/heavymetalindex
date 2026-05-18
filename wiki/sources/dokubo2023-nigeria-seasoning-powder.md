@@ -61,7 +61,7 @@ Estimated Daily Intake for Pb (Table 4, µg/kg-bw/day; FAO/WHO tolerable limit 0
 
 Hazard Index summed across measured metals (Table 5): SP1 0.35; SP2 1.04; SP3 0.26; SP4 0.83. Only SP2 exceeded the threshold of 1.
 
-Excess Cancer Risk (ILCR, sum of CR for Ni + Pb + Cd; Table 6, USEPA acceptable upper bound 1×10⁻⁴): SP1 5.31×10⁻⁴; SP2 31.99×10⁻⁴; SP3 6.01×10⁻⁴; SP4 16.7×10⁻⁴. All four brands exceeded the upper bound; ordering SP2 > SP4 > SP3 > SP1. The dominant per-metal contributor was Cd (e.g., SP1 Cd CR 95.8×10⁻⁴); Pb CR values were within the acceptable range in every brand (1.45×10⁻⁶ to 1.65×10⁻⁵).
+Excess Cancer Risk (ILCR, sum of CR for Ni + Pb + Cd; Table 6, USEPA acceptable upper bound 1×10⁻⁴): SP1 5.31×10⁻⁴; SP2 31.99×10⁻⁴; SP3 6.01×10⁻⁴; SP4 16.7×10⁻⁴. All four brands exceeded the upper bound; ordering SP2 > SP4 > SP3 > SP1. The dominant per-metal contributor differed by brand: Cd dominated in SP1 (Cd CR 95.8×10⁻⁴) and SP2 (Cd CR 29.2×10⁻⁴), while Ni dominated in SP3 (Ni CR 3.70×10⁻⁴ vs Cd CR 2.43×10⁻⁴) and SP4 (Ni CR 11.5×10⁻⁴ vs Cd CR 5.05×10⁻⁴). Pb CR values were within the acceptable range in every brand (1.45×10⁻⁶ to 1.65×10⁻⁵).
 
 USEPA model parameters: adult body weight 65 kg, daily seasoning-powder ingestion 0.01 kg, exposure frequency 365 days/year, exposure duration 54 years, lifetime 54 years.
 
@@ -98,3 +98,8 @@ App: Commercial seasoning / bouillon powders in West African markets are a flag 
 - Removed the synthesis claim "consistent with broader literature on processed spice contamination" from the Certification line (Part 2 wiki/HMTc firewall — single-source page should not synthesize across the corpus).
 - Strengthened the Methods section with the omitted-QA detail: no LOD/LOQ, no CRM, no replicate digestion, no recovery data reported.
 - Brand-firewall check: Table 1 of the paper names four commercial brands (Spicity Stew and Jollof, Lasor Chicken, Kitchen Glory, Onga Classic). The wiki page deliberately preserves only the anonymous SP1–SP4 codes per Part 12. No brand names appear anywhere on this page.
+
+2026-05-18 audit-subagent pass (general-purpose Agent, fresh context):
+- ⚠️ Subagent flagged the original "dominant per-metal CR contributor was Cd" claim as over-broad. Verified against Table 6 (PDF p. 5): Cd-dominant holds for SP1 (95.8×10⁻⁴ Cd vs 4.27×10⁻⁴ Ni) and SP2 (29.2×10⁻⁴ Cd vs 2.78×10⁻⁴ Ni); Ni-dominant for SP3 (3.70×10⁻⁴ Ni vs 2.43×10⁻⁴ Cd) and SP4 (11.5×10⁻⁴ Ni vs 5.05×10⁻⁴ Cd). The subagent caught SP4 but missed SP3; the wiki was wrong in both. Corrected the Key-numbers sentence to enumerate by brand.
+- ⚠️ Subagent flagged `products/condiments-general` as not present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified independently — `wiki/products/condiments-general.md` exists in the live wiki (the routing audit also produces a row for it for this source). The taxonomy snapshot is stale; the slug is valid. False positive against the source page, real flag against the snapshot. Leaving slug in place.
+- Subagent verdict: REVISE. All other findings (numerical fidelity, speciation/methods, brand firewall, Part 2 firewall) were clean.
