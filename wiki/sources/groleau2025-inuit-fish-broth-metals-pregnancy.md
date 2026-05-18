@@ -45,10 +45,10 @@ Broth volumes: 5 L pots; daily-intake calculations assumed a 250 mL cup. Fish br
 - Arctic char muscle (n=4): well below the RMRV in raw and cooked tissue.
 - MeHg as % of THg in fish muscle: >93% across all fish species, except raw Arctic char at 81%.
 - Hg speciation by tissue: lower MeHg proportions were observed in mussels (<14%), clams (<56%), and seaweeds (<16%).
-- Lake trout cheek: >1.0 µg/g ww — double the RMRV for commercial fish (cheeks consumed as a delicacy).
-- Lake trout tongue: up to 0.640 µg/g ww.
-- Lake trout brain: 0.03–0.3 µg/g ww (lower than muscle and cheek; attributed to high lipid content / lower protein content).
-- Arctic char organ tissues (cheek, tongue, brain): all below 0.640 µg/g ww.
+- Lake trout cheek MeHg: >1.0 µg/g ww — double the RMRV for commercial fish (cheeks consumed as a delicacy).
+- Lake trout tongue and brain THg (combined range, paper does not separate tongue from brain): 0.154 to 0.640 µg/g ww — significantly less than muscle and cheek (attributed to high lipid content / lower protein content; MeHg binds protein-rich tissues).
+- Arctic char cheek MeHg: 0.03 to 0.3 µg/g ww.
+- Arctic char tongue and brain THg (combined range): <0.002 µg/g ww.
 
 **Arsenic — total (TAs) in tissues (µg/g ww)**
 
@@ -65,7 +65,7 @@ Broth volumes: 5 L pots; daily-intake calculations assumed a 250 mL cup. Fish br
 | Lake trout cheek | >75% | with some As-Sug, AsL | — | — |
 | Lake trout brain and tongue | 38–74% | — | — | — |
 | Arctic char muscle and cheek | 55–71% (raw and cooked) | — | 18–29% | — |
-| Arctic char tongue and brain | mainly AsB | with <13% As-Sug, <2% AsL | — | — |
+| Arctic char tongue and brain | <13% | <2% | not specified | not specified (large unknown fraction) |
 | Seaweed | — | 25% raw, <1% cooked | 33% raw, <16% cooked | — |
 | Clam, mussel | <15% raw, <5% cooked | <25% raw, <1% cooked | 66–69% raw, 73% cooked | — |
 
@@ -81,7 +81,7 @@ Broth volumes: 5 L pots; daily-intake calculations assumed a 250 mL cup. Fish br
 
 - THg in broths: most below the Canadian potable-water RMRV of 1 µg/L; one lake trout broth exceeded this.
 - Cd in broths: all below the potable-water RMRV of 7 µg/L.
-- Pb in broths: all below the potable-water RMRV of 5 µg/L, except one lake trout broth.
+- Pb in broths: all below the potable-water RMRV of 5 µg/L, except a few lake trout broths.
 - TAs in broths: fish and seaweed broths exceeded the Canadian potable-water RMRV of 10 µg/L for TAs (Fig. S9), with some approaching 100 µg/L; HQ values for TAs in fish broth were 1.6–2.3 assuming daily consumption, but speciation must be considered.
 
 **Arsenic speciation in broths (% of total As in broth)**
@@ -181,3 +181,17 @@ Quality control used the following certified reference materials: DORM-2, DORM-4
 - `bivalve-molluscs` added to ingredients (paper substantively measures mussels and clams).
 - `Ca`, `Mg`, `Zn` added to metals frontmatter (paper measures these alongside the heavy-metal panel as nutrient elements; consistent with the existing inclusion of `Fe`, `K`, `Se`).
 - `access_url` added (CC BY 4.0 open access via DOI).
+
+**Audit application 2026-05-18 (fresh-context subagent, verdict REVISE):**
+
+Findings applied:
+- Lake trout cheek/tongue/brain THg attribution corrected. Previous version had "Lake trout brain: 0.03–0.3 µg/g ww"; PDF p. 8 attributes 0.03–0.3 to Arctic char cheeks, not lake trout brain. Lake trout tongue and brain are reported only as a combined range (0.154 to 0.640 µg/g ww). Arctic char tongue/brain reported separately as <0.002 µg/g ww.
+- Arctic char tongue/brain As-speciation row corrected. Previous version had labels inverted ("mainly AsB | with <13% As-Sug, <2% AsL"); PDF p. 8 reads "tongues and brains contained AsB (<13 %) and As-Sug (<2 %), but a large amount remains unknown." Corrected to AsB <13%, As-Sug <2%, AsL/iAs not specified, unknown fraction noted.
+- Pb broth exception language corrected: "except one lake trout broth" → "except a few lake trout broths" per PDF p. 8.
+
+Findings rejected (false positives):
+- Audit flagged "Cd in broths: all below the potable-water RMRV of 7 µg/L" as a missing exception. Verified against PDF p. 8: the source reads "THg (1 µg/L, except one lake trout broth), Cd (7 µg/L), and Pb (5 µg/L, except a few lake trout broths)." The "except one lake trout broth" parenthetical applies to THg, not Cd; Cd is parenthesized alone with no exception. Wiki claim is correct as written.
+- Audit flagged the Arctic char broth row of Table 1 as having mismatched values (Ca, Fe, Zn). Verified against PDF p. 6 Table 1 directly: Arctic char Broth (NF), n=4: K 26 ± 5, Ca 12.0 ± 1.9, Mg 14.5 ± 0.8, Fe 4.4 ± 2.0, Zn 3.2 ± 2.0, Se 94 ± 20. Wiki matches exactly. The audit subagent appears to have parsed the table with a one-column offset.
+- Audit flagged `drinking-water` as a non-snapshot matrices slug. Verified against `docs/gpt-collaboration/system-prompt.md` matrices vocabulary list: "drinking-water" is in the controlled vocab.
+- Audit deferred the Lucky Iron Fish naming as a borderline Part 12 call. Decision retained: the device is the explicit subject of one of the four experiments in the paper and is being evaluated against its own marketing claim (not ranked against competitors for contamination). Without naming it, the finding cannot be traced to the cited Armstrong 2016 and Charles 2012 references. The Part 12 spirit (no brand-ranking-by-contamination) is preserved because the value attached is *non-contamination* (sub-marketed iron release). Karen-level policy override welcome.
+
