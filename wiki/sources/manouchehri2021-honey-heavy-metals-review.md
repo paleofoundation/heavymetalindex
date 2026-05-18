@@ -15,11 +15,11 @@ metals: [Pb, Cd, tHg, Cr, Ni, Al, Fe, Zn, Cu, tAs, Mn, Co, Sn]
 ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
 matrices: [honey]
-jurisdictions: [IR, TR, NG, AR, PK, HR, XK, BD, IQ, GH, IT, UA, PL, ET, RO, BR, IN, SA, MA, HU]
+jurisdictions: [IR, TR, NG, AR, PK, HR, XK, BD, IQ, GH, IT, UA, PL, ET, RO, BR, IN, SA, MA, HU, CL, CN]
 near_duplicates: []
 sample_n: null
-sample_population: "Systematic review of published literature on heavy metals in honey, drawing from studies in Iran, Turkey, Nigeria, Argentina, Pakistan, Croatia, Kosovo, Bangladesh, Iraq, Ghana, Italy, Ukraine, Poland, Ethiopia, Romania, Brazil, India, Saudi Arabia, Morocco, Hungary, and other countries"
-updated: 2026-05-17
+sample_population: "Systematic review of published literature on heavy metals in honey, drawing from studies in Iran, Turkey, Nigeria, Argentina, Pakistan, Croatia, Kosovo, Bangladesh, Iraq, Ghana, Italy, Ukraine, Poland, Ethiopia, Romania, Brazil, India, Saudi Arabia, Morocco, Hungary, Chile, China, and other countries"
+updated: 2026-05-18
 ---
 
 # Manouchehri et al. 2021 — Heavy metals in honey: systematic review (Uludag Bee Journal)
@@ -28,14 +28,32 @@ This systematic review from Iranian and Turkish authors, published in the Turkis
 
 ## Key numbers
 
-The review does not generate primary concentration data. Selected findings from cited studies reported in the review:
-- Turkey/Iran: Cd and Hg above permitted limits in some honey samples from industrially proximate regions
-- Nigeria: Fe, Cu, Mn, Zn mean concentrations above WHO/FAO MPL in honey
-- A cited Croatian/Kosovo study: Pb in honey above reported values for other European countries
-- One Iranian study (Saveh City, Markazi Province): Cd and As contamination measured in honey; values "similar to Turkey, Argentina, Nigeria, Pakistan"
-- Several studies reported Cr, Zn, Fe, Ni, Mn, Pb, Cu, Cd, Co concentrations in honey below FAO/WHO limits, posing no risk (e.g., one multi-country study cited by Altekin et al. and Piven et al.)
+The review does not generate primary concentration data. Table 1 of the review aggregates honey heavy metal measurements from 28 cited studies across 19 countries, sampling years 2010–2021. Reporting units across cited studies are heterogeneous (mg/kg, µg/kg, ppm, ppb, ng/g, mg/L) and are not harmonised in the review; consequently the table is a directional gateway rather than a pooled occurrence estimate.
 
-Metals covered in the review: Fe, Zn, Cu, As, Pb, Cd, Ni, Cr, Al, Mn, Co, Hg, and Sn as a storage-container pathway. Methods referenced in cited studies include ICP-OES, ICP-MS, ICP-AES, AAS, FAAS, GFAAS, HGAAS, FES, HPLC, and TXRF.
+Selected high-value findings as reported in Table 1 of the review (units as printed in the source):
+
+- Iran, Markazi Province, n=25 industrial-area samples (Aghamirlou et al. 2015, ICP-OES): Pb 507.58 ± 402.14 µg/kg, Cr 899.75 ± 184.03 µg/kg, Cd 27.62 ± 32 µg/kg, Ni 651.78 ± 173.29 µg/kg — the highest Pb and Cr means in the table, attributed to industrial proximity.
+- Iran, Iran-wide markets, n=15 (Sobhanardakani & Kianpour 2016, ICP-OES): Cd 63.18 ± 43.39 µg/kg, Cr 58.05 ± 30.39 µg/kg, Zn 684.43 ± 190.43 µg/kg, Al 56.15 ± 54.32 µg/kg.
+- Italy, n=72 (Quinto et al. 2016, ICP-MS): Pb 32.8 ± 47.9 µg/kg, Al 1400 ± 2300 µg/kg, Fe 2080 ± 1060 µg/kg, Cr 116 ± 10.7 µg/kg.
+- Croatia, n=244 (Bilandžić et al. 2011, ICP-MS): Pb 0.458 mg/kg, Cd 0.013 mg/kg, Al 288.5 mg/kg, Mn 53.1 mg/kg — the Croatian study cited as having Pb above other European values.
+- Kosovo, n=80 (Fadil et al.): Pb 0.88 mg/kg, Cd 0.05 mg/kg — also flagged in the discussion as elevated against other European ranges.
+- Ghana, n=20 (Magna et al. 2018, AAS): Ni 79.815 ± 16.796 mg/kg, Al 15.785 ± 10.968 mg/kg, Cu 13.855 ± 10.213 mg/kg — Ni reported by the review as exceeding WHO/FAO limits.
+- China, multi-region (Tuzen et al. 2007): Cd 1.34 µg/kg, Pb 33.98 µg/kg, As 13.44 µg/kg, Hg 1.65 µg/kg.
+- Chile (Fredes & Montenegro 2006, volcanic-soil region): Al 6.15 ± 4.53 mg/kg, Cd 0.01–0.05 mg/kg — Al attributed by the authors to volcanic soils.
+- Saudi Arabia, n=1 (Aljedani 2017, HGAAS): Cd 0.008 ± 0.008 mg/kg in 1/n samples; otherwise near-detection-limit values across metals.
+- Hungary, n=187 (Sajtos et al. 2019, MP-AES): Pb 0.51 ± 0.2 mg/kg, Mn 3.32 ± 3.11 mg/kg, Al 2.53 ± 4.67 mg/kg.
+
+Country-level synthesis statements made by the review (not pooled occurrence numbers):
+
+- Turkey/Iran: Cd and Hg above permitted limits in some honey samples from industrially proximate regions.
+- Nigeria (Toma et al. 2020 study cited): Fe, Cu, Mn, Zn mean concentrations above WHO/FAO maximum permissible levels in honey; industrial-area honey higher than rural-area.
+- Croatia/Kosovo: Pb in honey "higher than reported amounts in other European countries", framed by the review as worrying.
+- Iran (Akbari et al. 2012, Saghaei et al. 2012): Pb in honey from Iran, Ardabil, and Urmia city markets reported as 0.011, 0.935, and 0.04 mg/kg respectively; Urmia honey samples described as good quality.
+- Poland, Romania, Ethiopia (Winiarska-Mieczan et al. 2021): cumulative consumption considered nutritionally safe for children and adults.
+- Bhalchandra & Baviskar (India, *Apis dorsata*): As, Cd, Pb, Hg, and Ni detected in all honey samples, but mean concentrations below the Indian regulatory limit.
+- A multi-country study cited by Altekin et al. (2015) and Piven et al. (2020) reported Cr, Zn, Fe, Ni, Mn, Pb, Cu, Cd, and Co concentrations in honey below FAO/WHO limits, posing no risk; the same studies note bee-body burden higher than honey burden for most metals, consistent with bees acting as a filter during nectar processing.
+
+Metals covered in the review: Fe, Zn, Cu, As, Pb, Cd, Ni, Cr, Al, Mn, Co, Hg, and Sn as a storage-container pathway. Methods referenced in cited studies include ICP-OES, ICP-MS, ICP-AES, AAS, FAAS, GFAAS, HGAAS, MP-AES, FES, HPLC, and TXRF.
 
 Bee body accumulation is reported to be higher than honey accumulation for most metals, suggesting bees filter out some contamination in the honey production process.
 
@@ -72,5 +90,8 @@ Systematic review using keywords "heavy metals" and "honey" in databases: Google
 ## Verification notes
 
 - Cross-vendor audit (Codex, 2026-05-17) expanded the metal and country scope to match the review table and discussion, removed the invalid `supply-chain/packaging` link, and replaced HMT&C category speculation with source-level language.
+- 2026-05-18 brand-firewall recheck (Part 12, stricter reading): re-read full PDF body, abstract, ÖZ, discussion, and references against the wiki page. No commercial honey brand names appear in the source or in the wiki page; the cited Akbari et al. 2012 study title references "Iranian Honey Brands" but the review body presents only country/region/market identifiers (Iran, Ardabil, Urmia, Saveh City, Markazi Province, Tadla-Azilal, etc.). Firewall passes.
+- 2026-05-18 merge-enhance: added Chile (CL) and China (CN) to `jurisdictions` to match the Fredes & Montenegro 2006 (Chile) and Tuzen et al. 2007 (China) studies discussed in the body text, and expanded Key numbers with quantitative Table 1 highlights so the page is usable as a directional gateway to the cited primary sources.
 - The review does not provide arsenic or mercury speciation; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
 - Sn is included only for the storage-container leaching pathway discussed by the review, not as a pooled honey occurrence estimate.
+- Table 1 of the review contains internal anomalies (cross-unit inconsistencies, e.g., the "UT 2015" Turkey row reporting Pb 110 ± 1.277 mg/kg wet weight in the table, which is implausible and the review does not flag). The Key numbers section selects table rows whose reported magnitudes are self-consistent across the row; values whose units do not survive a basic plausibility check are not pulled into the wiki page.
