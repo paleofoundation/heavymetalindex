@@ -11,14 +11,14 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/The contribution of infant formula to the food survey-based dietary exposure of nine selected elements.pdf"
-metals: [iAs, Cd, Pb, Cr, Ni, tHg]
+metals: [iAs, Cd, Pb, Cr, Ni, tHg, Mn, Zn]
 ingredients: ["[[ingredients/infant-formula-ingredients]]", "[[ingredients/milk-and-dairy]]"]
 products: ["[[products/infant-formula-powder-non-soy]]"]
 matrices: [infant-formula, infant-formula-powder, dietary-intake]
 jurisdictions: [DE, EU]
 sample_n: 114
 sample_population: "German infants (0.5 to <1 year, n=51) and toddlers (1 to <3 years, n=63) consuming infant formula, from the KiESEL cross-sectional nutrition survey 2014-2017; occurrence data from the BfR MEAL Study (first German total diet study, 2017-2019)"
-updated: 2026-05-13
+updated: 2026-05-18
 ---
 
 # Höpfner et al. 2025 — Infant Formula Contribution to Dietary Exposure of Nine Elements in Germany
@@ -57,6 +57,12 @@ Ni: Infants median total Ni 2.96 µg/kg bw/day; well below EFSA TDI of 13 µg/kg
 
 Inorganic Hg (derived from total Hg assuming 100% inorganic for non-fish/seafood): infants median 0.11 µg/kg bw/day; well below EFSA TWI of 4 µg/kg bw/week; formula contributed 18% for infants.
 
+Cr: Total Cr exposure (assuming 100% Cr-III) reached a maximum of 1% of the EFSA TDI (300 µg/kg bw/day) at the 95th percentile (1.93 µg/kg bw/day infants, 2.71 µg/kg bw/day toddlers). Infant formula contributed 19% (infants) and 8% (toddlers) of total Cr exposure at the mean.
+
+Mn: Median total Mn exposure 0.83 mg/day infants (P95 1.51), 1.07 mg/day toddlers (P95 2.68); safe levels of intake 2 mg/day infants and 4 mg/day toddlers. Infants reached 76% of the safe level at the 95th percentile; one infant (2%) exceeded the safe level. No toddler exceeded. Infant formula contributed 7% (infants) and 4% (toddlers) of Mn exposure at the mean.
+
+Se: Median total Se exposure 15.7 µg/day infants (P95 27.9), 18.9 µg/day toddlers (P95 29.2); UL 55 µg/day infants and 70 µg/day toddlers. Median Se exposure was approximately 30% of UL and the P95 reached 51% (infants). No child exceeded the UL. Infant formula contributed 53% (infants) and 31% (toddlers) of Se exposure at the mean.
+
 Zn: Infant formula contributed 64% of median Zn exposure in infants and 43% in toddlers. Median total Zn exposure was 4.09 mg/day in infants and 4.70 mg/day in toddlers. The source states that no UL has been established for infants under one year; toddler Zn exposure was over 60% of the 7 mg/day UL at the median and 93% at the 95th percentile, with 2 toddlers exceeding the UL.
 
 Consumption of infant formula (dry weight): infants mean 8.01 g/kg bw/day (median 6.61; P95 15.8 g/kg bw/day); toddlers mean 4.46 g/kg bw/day (median 3.86; P95 8.38 g/kg bw/day).
@@ -91,3 +97,4 @@ App: TDS mean occurrence values for powdered infant formula (iAs 4.55, Cd 4.00, 
 ## Verification notes
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, replaced invalid matrix `powdered-formula` with `infant-formula-powder`, corrected the Zn/UL statement to reflect that no UL is established for infants under one year and that the 93% UL comparison applies to toddlers, clarified the iAs conversion-factor method for infant formula, replaced the invalid EU regulation link with `eu-2023-915-cadmium`, and tightened HMTc implication language away from certification-analyte justification.
+- Merge-enhance (Claude, 2026-05-18, v2.0 manual-fetch skill): added `Mn` and `Zn` to `metals:` to route this source to the manganese and zinc pages (paper provides exposure-vs-HBGV findings for both that were previously missing from Key numbers); added Cr, Mn, and Se exposure paragraphs to Key numbers covering the EFSA TDI / safe-level-of-intake / UL comparisons reported in Tables 5–6; verified per-table that all numbers match the source. Brand-firewall recheck under the strict 2026-05-17 reading: page body and Methods name no brands attached to contamination values; the only corporate string is the "DMA-80" Hg analyzer model, which is the Exception 2 scientific-method carve-out.
