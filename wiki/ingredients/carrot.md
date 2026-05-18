@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [root-vegetable-purees]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 5
+sources: 8
 ---
 
 # Carrot

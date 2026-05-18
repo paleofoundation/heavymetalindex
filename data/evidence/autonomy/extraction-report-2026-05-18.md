@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-18
 
-Generated: 2026-05-18T01:49:47.007Z
+Generated: 2026-05-18T03:29:39.422Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 956
-- Pages with `## Key numbers` section: 841
-- Pages without Key numbers section (skipped): 114
-- Structured rows extracted: 4647
+- Source pages processed: 958
+- Pages with `## Key numbers` section: 844
+- Pages without Key numbers section (skipped): 113
+- Structured rows extracted: 4779
 - Pages with Key numbers but no parseable values: 66
 
 ## Output
@@ -19,28 +19,28 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 977 rows
-- Cd: 931 rows
-- Cr-total: 460 rows
-- Ni: 425 rows
-- tAs: 377 rows
-- Al: 300 rows
-- tHg: 296 rows
+- Pb: 991 rows
+- Cd: 945 rows
+- Cr-total: 479 rows
+- Ni: 442 rows
+- tAs: 378 rows
+- Al: 310 rows
+- tHg: 298 rows
 - iAs: 167 rows
-- Cu: 103 rows
+- Cu: 112 rows
+- Co: 99 rows
 - MeHg: 94 rows
-- Co: 82 rows
-- Sn: 79 rows
-- Fe: 64 rows
-- Mn: 48 rows
+- Sn: 80 rows
+- Fe: 71 rows
+- Mn: 53 rows
 - U: 46 rows
 - Se: 46 rows
-- Sb: 36 rows
-- Ba: 24 rows
-- V: 17 rows
-- Mo: 9 rows
-- Cr-VI: 9 rows
-- Be: 7 rows
+- Sb: 37 rows
+- V: 25 rows
+- Ba: 25 rows
+- Mo: 12 rows
+- Cr-VI: 10 rows
+- Be: 9 rows
 - DMA: 7 rows
 - Ti: 6 rows
 - K: 5 rows
@@ -61,9 +61,9 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 1821 rows
+- (empty): 1943 rows
 - fresh-fish: 255 rows
-- spices: 180 rows
+- spices: 170 rows
 - seafood: 168 rows
 - fresh-fruit: 125 rows
 - baby-cereals-dry-rice-based: 125 rows
@@ -71,9 +71,9 @@ Elapsed: 0s
 - infant-formula-powder-non-soy: 81 rows
 - face-paint: 81 rows
 - non-root-vegetables: 70 rows
+- honey: 62 rows
 - children-personal-care: 59 rows
 - poultry-product: 56 rows
-- honey: 55 rows
 - root-tuber-vegetables: 52 rows
 - vinegar: 50 rows
 - tea-infusions: 49 rows

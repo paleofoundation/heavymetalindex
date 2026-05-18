@@ -380,3 +380,23 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 5b (routing layer accountability), Part 18 (lint checks for routing malformed/unresolved), Part 10 (subcategory routing discipline). Memory: [[feedback_no_hand_curated]] — generators should overwrite routing; audit should detect gaps, not require Karen to list them.
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Audit and unblock pool-blocked cells (305 constraint)
+
+**What:** Run an audit identifying why 305 contamination cells cannot be pooled (missing fields, admission-rule violations, insufficient n, censoring incompatibilities), classify them by blockage reason, and generate a repair plan for extraction or admission-rule tuning.
+
+**Why this lever now:** Pool-blocked cells are the binding constraint preventing synthesis from scaling past the current 957 papers. Every unblocked cell unlocks percentile computation, every percentile feeds threshold-setting, every threshold feeds courses and product positioning. The 305 count represents latent evidence that cannot yet inform HMT&C standards. This is the single highest-leverage constraint on the roadmap.
+
+**Where:** Create `tools/autonomy/audit-pool-blocked-cells.mjs` to iterate `data/evidence/review_events.jsonl`, identify cells flagged `pool_blocked: true`, cross-reference source pages for present/missing fields (analyte, n, method detection limit, censoring, unit, basis, distribution shape), and emit classified blockers to `data/evidence/autonomy/pool-blocked-audit-<date>.csv`.
+
+**How:**
+1. Script reads review_events for every cell marked `pool_blocked` and joins against source page frontmatter (`cite_key` → `wiki/sources/<cite_key>.md`).
+2. Emit rows with columns: `ingredient`, `metal`, `source_count`, `top_blockers_by_frequency` (e.g., `missing_censoring_type: 47`, `n_too_small: 38`, `mixed_bases_unresolved: 22`), `example_source_slugs`.
+3. Summarize by blocker type with repair strategy (backfill extraction field, relax admission threshold, request Karen decision on mixed bases).
+4. Commit audit to git with log entry `op: audit, type: pool-blocked-cells` and flag for next synthesis pass.
+
+**Anchors:** CLAUDE.md Part 9 (synthesis triggers), Part 19 (pool admission rules in docs/standards-methodology), and the routing audit's existing classification discipline (Part 5b).
+
+---

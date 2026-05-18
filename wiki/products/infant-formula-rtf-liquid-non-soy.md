@@ -28,7 +28,7 @@ cc_relationship:
       metals: [Al, Ni, Cd]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 21
+sources: 22
 ---
 
 # Infant Formula, RTF Liquid (Non-Soy)

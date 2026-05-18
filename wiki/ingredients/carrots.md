@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]"]
 audience: [regulator, educator, consumer, app]
-sources: 13
+sources: 12
 updated: 2026-05-16
 ---
 

@@ -48,3 +48,34 @@ updated: 2026-05-18
 **Action for the daemon:** advance past this PDF. The basename stem `Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria` can be added to the daemon's "already post-2026-05-14-clean" skip list so this PDF is not re-presented in future ticks for this folder.
 
 **No commits made.** Page state unchanged.
+
+## Stop 4 — page already post-2026-05-14 clean
+
+- **PDF:** `raw/Papers Cube Manual Fetch/A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy.pdf`
+- **Suggested handle (per daemon):** `PCMF_a-narrative-review-of-toxic-heavy-metal-content-of`
+- **Existing wiki page:** `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md` (`updated: 2026-05-17`)
+- **DOI:** `10.3389/fnut.2022.919913` (Bair 2022, *Frontiers in Nutrition*)
+
+**Why stopped:** The v2 skill's Phase 1 step 1 says to skip PDFs whose existing pages are post-2026-05-14 clean and not in `routing_malformed.csv`. The Bair 2022 page was merge-enhanced (Mode B direct-PDF) and Codex-audited yesterday (2026-05-17), including a Part 12 brand-firewall strict recheck. Three identity checks confirm the match: DOI grep hit, title match on `bair2022-infant-toddler-food-heavy-metals-policy`, and cite-key stem hit. The page is absent from both `routing_malformed.csv` and `routing_unresolved.csv` (0 hits each).
+
+The existing page's `raw_handle` (`FM_9271943`) and `raw_path` (`raw/markdown/FM_9271943/FM_9271943.md`) point to the PMC-derived ingest of this same paper. The PCMF copy here is a byte-distinct but content-identical duplicate of the same Bair 2022 paper that has already been fully processed under the v2 skill from the Kimi folder. No re-ingest needed.
+
+**Action for the daemon:** advance past this PDF. The basename stem `A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy` can be added to the daemon's "already post-2026-05-14-clean" skip list so this PDF is not re-presented in future ticks for this folder.
+
+**No commits made.** Page state unchanged.
+
+## Stop 5 — duplicate of yesterday's ingest (cross-folder SHA match)
+
+- **PDF:** `raw/Papers Cube Manual Fetch/Heavy Metals in Infant Clothing: Assessing Dermal Exposure Risks and Pathways for Sustainable Textile Policies.pdf`
+- **Suggested handle (per daemon):** `PCMF_heavy-metals-in-infant-clothing-assessing-dermal-e`
+- **Existing wiki page:** `wiki/sources/xiong2025-heavy-metals-infant-clothing.md` (`updated: 2026-05-17`)
+- **DOI:** `10.3390/toxics13080622` (Xiong et al. 2025, *Toxics* 13:622)
+- **SHA-256:** `81eadba663aff62fa2d124976a8e12a62105e61a347331d4d08216f6a1353161` — byte-identical to the PDF already ingested yesterday at `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/Heavy_Metals_in_Infant_Clothing_Assessing_Dermal_Exposure_Risks_and_Pathways_for_Sustainable_Textil.pdf`.
+
+**Why stopped:** Same paper, byte-identical file, sitting in two folders (`Papers Cube Manual Fetch/` and `Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/`). Page was ingested fresh (NEW path), subagent-audited, and revisions applied yesterday (2026-05-17) under the v2 manual-fetch skill — `audit-queue.csv` records `audited-revised` with REVISE verdict, commit `b4ad505`, 2 CHECK1 ⚠️ findings applied (Cu→Ti typo; Sb/Cr-Cu/Ti-Zn additive-role rewrite). Three identity checks confirm match: DOI grep hit, `raw_handle: MFK_heavy-metals-in-infant-clothing-assessing-dermal-e` hit (the daemon's suggested `PCMF_…` handle is a different truncation of the same filename — same paper), and cite-key stem `xiong2025` hit.
+
+**Routing-malformed status:** the page appears in `data/evidence/routing_malformed.csv` at `severity: advisory` with `missing_advisory: ingredients`. This is intentional — the paper measures finished garments, not raw textile ingredients (cotton fibers, polyester yarn, dye constituents), and the verification notes already document `ingredients: []` with rationale. The routing layer's broad-scope fallback handles this correctly. Not a defect to fix; advisory-only entries do not gate routing.
+
+**Action for the daemon:** advance past this PDF. Recommend adding the SHA `81eadba6…` (or the file basename stem `Heavy Metals in Infant Clothing: Assessing Dermal Exposure Risks and Pathways for Sustainable Textile Policies`) to the daemon's de-dup skip list so duplicate copies across Kimi and PCMF folders are not re-presented in future ticks.
+
+**No commits made.** Page state unchanged.

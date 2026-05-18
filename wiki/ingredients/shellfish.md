@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/bivalve-molluscs]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 31
+sources: 30
 ---
 
 # Shellfish
