@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: papers-cube
+raw_handle: PCMF_article-2-copy-5
 cite_key: ali2024-leek-microbial-metals-iraq
 title: "Contamination Alert: Microbial and Heavy Metal Levels in Green Vegetables"
 authors: [Ali NK]
@@ -12,62 +12,69 @@ source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
 raw_path: "raw/Papers Cube Manual Fetch/article (2) copy 5.pdf"
-metals: [Pb, Ni, Zn, Cu]
+raw_sha256: 955437466fd803f30490b920b3ba17a11222d212ea92ee36e7e232e9dc0369df
+metals: [Pb, Ni, Cu]
 ingredients: ["[[ingredients/leafy-vegetables]]"]
 products: []
-matrices: [plant-tissue, soil, leek, vegetable]
+matrices: [leafy-vegetable, soil]
 jurisdictions: [IQ]
 near_duplicates: []
 sample_n: 100
-sample_population: "100 leek (Allium porrum) samples collected across three agricultural stations in Thi-Qar governorate, Iraq (city center and district areas), January to May"
-updated: 2026-05-15
+sample_population: "100 leek (Allium porrum) samples collected from farms, home gardens, markets, and vegetable vendors in the center and districts of Nasiriyah, Thi-Qar governorate, Iraq, January–May; soil samples from three agricultural stations (one outside city center near Al-Gharf, one near Sharif/thermal station, one in Sednawia area) with three replicates each."
+updated: 2026-05-18
 ---
 
-# Ali 2024 — Microbial and heavy metal contamination in leeks, Iraq
+# Ali 2024 — Microbial and heavy metal contamination in leeks, Thi-Qar, Iraq
 
-Ali investigated both microbial (Escherichia coli, Klebsiella) and heavy metal (Zn, Cu, Pb, Ni) contamination in leeks collected from three agricultural stations in the Thi-Qar governorate of southern Iraq, across winter and summer seasons. One hundred leek samples were collected from farms, home gardens, markets, and vegetable vendors in and around Nasiriyah city. The study reports soil and plant tissue concentrations separately and documents a seasonal pattern (higher concentrations in summer) and a spatial gradient (higher contamination in district areas near pollution sources than in city center areas).
-
-This is a conference proceedings paper (Seminar Nasional & Call Paper, Universitas Muhammadiyah Sidoarjo, Vol. 7 2024), which warrants caution regarding peer review rigor. The paper is open-access (CC BY). It is classified B-tier as conference proceedings with primary occurrence data rather than A-tier peer-reviewed journal.
+Ali measured microbial contamination (Escherichia coli, Klebsiella) and three heavy metals (Ni, Cu, Pb) in 100 leek samples and in soil at three agricultural stations in Thi-Qar governorate, southern Iraq, across winter and summer seasons. The study reports soil and leek-tissue concentrations separately, documents a seasonal pattern (higher concentrations in summer) and a spatial gradient (markets and district samples higher than city-center samples and farm samples), and links the elevated Station 2 metals to proximity to a thermal electric station, traffic emissions, and small industrial activity. This is a conference proceedings paper (Seminar Nasional & Call Paper, SENASAINS 7th, Universitas Muhammadiyah Sidoarjo, *Procedia of Engineering and Life Science* Vol. 7, 2024); B-tier.
 
 ## Key numbers
 
-**Soil (µg/g dry weight):**
+**Soil (µg/g dry weight; mean of three stations):**
 
-- Winter season: Ni = 94.99, Cu = 44.82, Pb = 20.68 µg/g
-- Summer season: Ni = 101.03, Cu = 62.10, Pb = 21.25 µg/g
-- Highest contamination at Station 2 (near thermal electric station and traffic)
-- Pb in soil within the permissible limit of 100 µg/g (WHO reference cited)
-- Cu within WHO limits; Zn exceeds the permissible limit in both seasons
+- Winter: Ni 94.99, Cu 44.82, Pb 20.68 (p. 712)
+- Summer: Ni 101.03, Cu 62.10, Pb 21.25 (p. 712)
+- Station 2 (near thermal station, traffic, small industry) had the highest concentrations in both seasons (p. 712)
+- Pb in soil reported as within the 100 µg/g dry-weight reference cited as "allowed concentration" by the author; Ni in soil exceeds 94 µg/g in both seasons (p. 712)
 
-**Leek plant tissue:**
+**Leek tissue (µg/g dry weight):**
 
-- Highest Zn concentration: 28.41 ppm during summer (from abstract; plant tissue data)
-- District areas showed higher concentrations than city center areas across all metals and seasons
+- Summer market sample (highest): Ni 28.41, Cu 22.08, Pb 6.73 (p. 713)
+- Winter farm sample (lowest): Ni 18.05, Cu 15.42, Pb 4.25 (p. 713)
+- Rank across sampling sources: market > restaurant > farmer in both seasons (p. 713)
+- Pb concentrations in leek exceeded the WHO permissible level of 5 µg/g dry weight in both seasons (p. 713)
+- Ni and Cu reported as below the stated permissible limit by the author
 
-The paper presents data primarily in figures rather than tables, and the extracted file does not reproduce the figures. The soil concentrations above are from the text body. Exact leek plant tissue concentrations for Pb, Cu, and Ni are presented in figures (4–7 in the original) and cannot be precisely transcribed from the text alone; 28.41 ppm Zn (summer, plant tissue) is the only exact plant value in the abstract.
+**Microbial (% of samples positive):**
 
-## Methodological notes
+- E. coli, city-center markets: 29.51% positive; districts markets: 44.26% (p. 711, Table 1)
+- E. coli, city-center farms: 4.29%; districts farms: 11.48% (p. 711, Table 1)
+- E. coli, city-center restaurants: 3.28%; districts restaurants: 6.56% (p. 711, Table 1; X² = 82.40, df = 4, P = 0.00)
+- Klebsiella, city-center markets: 37.50%; districts markets: 40.63% (p. 712, Table 2)
+- Klebsiella, city-center farms: 3.13%; districts farms: 6.25% (p. 712, Table 2)
+- Klebsiella, city-center restaurants: 4.69%; districts restaurants: 7.81% (p. 712, Table 2; X² = 92.60, df = 4, P = 0.00)
 
-Soil samples were digested with hydrochloric acid (15 mL per 1 g sample). Plant samples were washed, dried at room temperature, ground, sieved, then digested. The specific analytical instrument is referenced by citation [17] but not named in the text body. The absence of explicit LOD/LOQ values and the non-tabular presentation of metal data reduce this paper's quantitative utility for the wiki's evidence register.
+## Methods (brief)
 
-The three-station design captures a spatial gradient from a known industrial point source (thermal electric station) to more distal agricultural areas, which provides useful context for supply-chain assessments of crops grown near point-source industrial pollution in lower-income MENA-region agricultural systems.
-
-## Relevance
-
-The leek data are the most direct food occurrence contribution. Leeks are an Allium species with documented capacity to bioaccumulate Zn and Cu; the Zn value of 28.41 ppm (28,410 µg/kg) is consistent with the known Zn accumulation behavior of Allium species on metal-rich soils. However, because Zn, Cu, and Ni are essential metals with different toxicological profiles than Pb, Cd, iAs, and tHg, this paper's direct relevance to the HMT&C analyte set is limited to lead (Pb) in leeks grown near industrial point sources in Iraq.
-
-The seasonal and spatial patterns — higher metals in summer, higher near pollution sources — are consistent with findings from other MENA-region vegetable contamination studies and support the geographic variance framing on ingredient pages.
+Heavy metals: 1 g soil digested with 15 mL hydrochloric acid plus 5 mL nitric acid in a sand bath at 80 °C for 45–60 minutes; after cooling, an additional 5 mL HCl and 50 mL distilled water added; heated, filtered, diluted to 100 mL. Plant samples washed with distilled and deionized water, dried at room temperature, ground, sieved, and digested per method cited as [17] (Barman et al. 2000). Final extracts analyzed by flame atomic absorption spectrophotometry; specific instrument vendor and model not stated in text. LODs and LOQs not reported. Microbial: 1 g samples in peptone water, serial dilutions 10⁻¹ to 10⁻⁶ plated on MacConkey and EMB agar, incubated 37 °C for 24 h; phenotypic colony identification and VITEK 2 confirmation. Three stations sampled; plant samples taken with three replicates per station; sampling January–May.
 
 ## Limitations
 
-Conference proceedings, B-tier. No DOI. Primary data presented in figures not recoverable from text extraction. Analytical method not fully specified. The Allium species studied (leek) is a minor crop in the HMT&C product scope. Iraq-specific findings have limited direct extrapolation to US/EU market supply chains.
+Conference proceedings, B-tier; no DOI assigned. The abstract and one discussion sentence refer to "zinc" as a measured analyte (the abstract attributes "28.41 ppm during the summer" to zinc), but the methods, results text, all four figures of metal data (Figs. 4–7), and the explicit numeric tuples in the body identify the three measured metals as Ni, Cu, and Pb — the 28.41 µg/g summer value is Ni in market-sourced leek tissue. This is treated here as a paper-internal labeling error rather than a fourth analyte; zinc is not represented in the metals frontmatter. Analytical instrument vendor/model not specified. LOD/LOQ not stated. Numeric leek-tissue results are reported only as min/max tuples in the text plus three small bar charts (Figs. 6 and 7); per-station means by source-type are not tabulated and cannot be recovered from the figures with the precision needed for occurrence-distribution work. The "allowed concentration" of 100 µg/g for soil and 5 µg/g for leek Pb are stated by the author with reference to WHO but without specific citation. Iraq, single-governorate, single-Allium-crop scope.
 
 ## Implications
 
-Ingredients: marginal contribution to [[ingredients/leafy-vegetables]] for the MENA-region geographic context and seasonal variance narrative. The spatial gradient near industrial point sources is a supply-chain screening argument.
+Direct evidence for Pb, Ni, and Cu occurrence in leek (an Allium leafy vegetable) grown near industrial point sources in southern Iraq; Pb in leek tissue exceeded the WHO 5 µg/g reference in both seasons across all three sampling-source types (market, farm, restaurant). The seasonal pattern (summer > winter) and the spatial gradient (Station 2 near thermal station > Stations 1 and 3) contribute geographic-variance context for [[ingredients/leafy-vegetables]] in MENA-region market gardening systems. Microbial findings are out of scope for the heavy-metals wiki but are noted in the source page for completeness.
 
-Supply chain: supports the soil proximity-to-pollution-source framing on [[supply-chain/soil]].
+## Verification notes
 
-## Wiki pages updated on ingest
-
-- [[ingredients/leafy-vegetables]]
+- **2026-05-18 (Claude session, merge-enhance):** Re-read full PDF (8 pages, all tables and figures) against the prior page version (`updated: 2026-05-15`, `raw_handle: papers-cube`).
+- `raw_handle`: corrected from the legacy placeholder `papers-cube` to the current convention `PCMF_article-2-copy-5` (filename-derived).
+- `raw_sha256`: added (`955437466fd803f30490b920b3ba17a11222d212ea92ee36e7e232e9dc0369df`).
+- `metals`: corrected from `[Pb, Ni, Zn, Cu]` to `[Pb, Ni, Cu]`. The paper's abstract names "zinc, copper, and lead" and attributes "28.41 ppm" to zinc, but the methods section, the three-element tuples in the soil and leek results, and Figures 4–7 (all labeled Ni, Cu, Pb on the x-axis) consistently report only Ni, Cu, and Pb. The 28.41 µg/g value is identified in the body as Ni in summer market leek, not Zn. The "Zn"/"zinc" mentions are treated as paper-internal labeling errors, not a fourth measured analyte.
+- `matrices`: corrected from `[plant-tissue, soil, leek, vegetable]` to `[leafy-vegetable, soil]` to align with the controlled-vocabulary convention seen on sibling leafy-vegetable contamination source pages.
+- Key numbers: prior page reported "Highest Zn concentration: 28.41 ppm during summer (from abstract; plant tissue data)" — corrected to the body's actual attribution (Ni 28.41 µg/g, Cu 22.08, Pb 6.73 in summer market leek) and added the winter farm minima (Ni 18.05, Cu 15.42, Pb 4.25). Prior page said "Cu within WHO limits; Zn exceeds the permissible limit in both seasons" — corrected: Zn is not measured; the elevated-versus-WHO finding the paper actually makes is for Pb in leek tissue (5 µg/g reference exceeded in both seasons).
+- Microbial findings (E. coli and Klebsiella percentages by source-type and location, with chi-square statistics from Tables 1 and 2) added to Key numbers; absent from prior page.
+- Methods section expanded with the digestion protocol details actually stated in the paper (HCl/HNO₃ volumes, sand-bath temperature/duration, dilution scheme; flame AAS; VITEK 2 for microbial confirmation).
+- Implications section: invalid wikilink `[[supply-chain/soil]]` (no such page) removed. Implications narrowed to what the paper supports (geographic-variance context for leafy vegetables) without inventing supply-chain claims.
+- Note on `products: []`: leek is not currently in either the ingredient or product taxonomy (only `[[ingredients/leafy-vegetables]]` covers it). Routing audit lists this source under `routing_malformed.csv` with severity `advisory` only ("Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible") — not a blocking defect. If a future `ingredients/leek` page is created (≥5 papers on leek-specific contamination), this source's frontmatter should be updated then.
