@@ -75,11 +75,11 @@ Detection limits (selected): GF-AAS achieves lowest LODs — Cd 2.00×10⁻⁶ m
 
 ## Methods (brief)
 
-Systematic literature review. Inclusion criteria: edible vegetable oils for consumption, 2015–2022 publication, concentration data for at least one heavy metal, LD reported. Excluded: crude/virgin oils unfit for consumption, fish oils, algae oils. Regulatory comparison uses: Codex Alimentarius (CX-A), WHO, EFSA, EU Regulation 2021/1317 (Pb), EU Regulation 2021/1323 (Cd), China GB/T23347-2021 (olive oil export), and Spain RD 308/1983.
+Systematic literature review of edible vegetable oils for consumption, 2015–2022 publications, and concentration data for at least one heavy metal. Excluded: crude/virgin oils unfit for consumption, fish oils, algae oils, and other out-of-scope oil matrices. For the Table 1 sensitivity comparison, articles without reported detection limits were removed before selecting the most sensitive techniques. Regulatory comparison uses: Codex Alimentarius (CX-A), WHO, EFSA, EU Regulation 2021/1317 (Pb), EU Regulation 2021/1323 (Cd), China GB/T23347-2021 (olive oil export), and Spain RD 308/1983.
 
 ## Implications
 
-- Certification (HMTc): Provides review-level context for Pb, Cd, Cu, Fe, and Sb occurrence in edible vegetable oils and identifies regulation gaps the authors saw in the 2015–2022 literature set. Use the cited primary studies, not this review-level table alone, for source-specific standards calculations.
+- Certification (HMTc): Provides review-level context for Pb, Cd, Cu, Fe, and Sb occurrence in edible vegetable oils and identifies regulation gaps the authors saw in the 2015–2022 literature set. Use the cited primary studies, not this review-level table alone, for source-specific occurrence calculations.
 
 - Courses: Excellent reference for teaching the analytical technique landscape (ICP-OES vs. FAAS vs. GF-AAS vs. ICP-MS), regulatory patchwork, and the PET/antimony migration issue.
 
@@ -99,9 +99,11 @@ Systematic literature review. Inclusion criteria: edible vegetable oils for cons
 - [[metals/antimony]]
 - [[metals/copper]]
 - [[metals/iron]]
+- [[metals/nickel]]
 
 ## Verification notes
 
 - 2026-05-17 Codex merge-enhance: identity checked against DOI 10.3390/app13053020 and the manual-fetch PDF at the updated `raw_path`; corrected legacy `raw_handle`/truncated path, added product routes for olive oil and other cooking oils, replaced rounded study-frequency percentages with the source's exact values, and corrected the Pb country attribution so 8.546–18.783 mg/kg is Iran/Italy olive oil while Pakistan olive oil is 1.321–7.249 mg/kg (Table 4).
 - `edible-oil`, `olive-oil`, `sunflower-oil`, `corn-oil`, and `rapeseed-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
 - The source discusses Codex named-vegetable-oil limits, Commission Regulation (EU) 2021/1317 for lead, Commission Regulation (EU) 2021/1323 for cadmium, GB/T23347-2021, and Spain RD 308/1983, but no exact regulation pages exist for several of those identifiers in the current wiki taxonomy. Surface these as regulation-page candidates rather than inventing slugs.
+- 2026-05-18 Cross-vendor audit (Codex) corrected Methods wording: detection-limit reporting is the Table 1 sensitivity-comparison filter, not a whole-review inclusion criterion, per pp. 2 and 5–6 of the PDF. Added the missing `[[metals/nickel]]` touch-link to match the frontmatter and source discussion of Ni among the reviewed metals.
