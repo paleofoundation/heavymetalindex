@@ -1,6 +1,6 @@
 # Heal-gaps report — 2026-05-17
 
-Generated: 2026-05-17T23:17:25.213Z
+Generated: 2026-05-17T23:55:18.631Z
 Mode: EXECUTED
 
 ## Summary
@@ -8,19 +8,12 @@ Mode: EXECUTED
 - Fixes applied: 1
 - Queued for synthesis: 0
 - Routing typo proposals: 0
-- Provisional scaffolds created: 2
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 221
+- Provisional scaffolds created: 0
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 222
 
 ## Fixes applied
 
-- wiki/products/infant-formula-dairy-free.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
-
-## Provisional scaffolds created
-
-- product/`infant-formula-dairy` (triggered by source research2024-research-open-access-y)
-- product/`infant-porridges-dairy` (triggered by source research2024-research-open-access-y)
-
-See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
+- wiki/products/infant-formula-dairy.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
 
 ## Items needing surfacing
 
@@ -46,4 +39,4 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
 - missing_primary_metals_of_concern: `wiki/products/butter-and-ghee.md` — no canonical analyte default for slug butter-and-ghee
-- ... and 201 more (see queue file)
+- ... and 202 more (see queue file)

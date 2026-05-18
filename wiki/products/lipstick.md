@@ -10,7 +10,7 @@ redirect_target: products/childrens-lip-balm-mineral-bearing
 redirect_target_pending: false
 audience: [regulator, educator, consumer]
 updated: 2026-05-16
-sources: 9
+sources: 10
 ---
 
 # Lipstick — RETIRED (no Cat 2 placement)

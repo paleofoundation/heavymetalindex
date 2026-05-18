@@ -286,3 +286,32 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf`: rahati2026-infant-formula-baby-food-iran-health-risk already clean post-2026-05-14 (updated 2026-05-17, audit-queue audited-codex-revised, not in malformed/unresolved); skill v2.0 skip rule applies
 - `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals already post-2026-05-14 clean (updated 2026-05-17, audited-revised in queue, not in malformed/unresolved)
+
+## Tick 2026-05-17T23:15:53.119Z
+
+- Candidates this tick: 5
+- Succeeded: 4
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `bae2018-absorbent-hygiene-pads-safety-review` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Safety_Evaluation_of_Absorbent_Hygiene_Pads_A_Review_on_Assessment_Framework_an.pdf)
+- `druml2023-sunscreen-label-marketing-pediatric-populations` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Sunscreen_Label_Marketing_Towards_Pediatric_Populations.pdf)
+- `hepp2014-fda-cosmetics-seven-elements` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Survey_of_cosmetics_for_arsenic_cadmium_chromium_cobalt_lead_mercury_and_n.pdf)
+- `li2021-lead-lip-cosmetics-china-ecommerce` (raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Trace_Metal_Lead_Exposure_in_Typical_Lip_Cosmetics_From_Electronic_Commercial_Pl.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/Survey_of_Chemical_Substances_in_Consumer_Products_No_88_-_A_survey_and_health.pdf`: true-duplicate-already-ingested — babycare_04 PDF is SHA-256 bit-identical to babycare_03 copy ingested today as poulsen2007-cosmetic-products-children-denmark; registered as near_duplicate, tracker marked stopped, no new ingest needed.
+
+## Tick 2026-05-17T23:58:14.416Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `rahati2026-infant-formula-baby-food-iran-health-risk` (raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals — existing page already post-2026-05-14 clean and audited-revised on 2026-05-17 (audit-queue row 44, commit c75d66e); not in routing_unresolved or routing_malformed. Per the skill v2.0 skip rule, this PDF is a no-op. Stop note appended to data/evidence/autonomy/manual-fetch-stops-2026-05-17.md; no commit, no subagent spawned.

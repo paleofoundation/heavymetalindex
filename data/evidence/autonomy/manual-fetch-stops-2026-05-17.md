@@ -509,3 +509,20 @@ Until Karen triages this PDF, the wrapper will continue re-serving it on every f
 **Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." Plus the "True duplicate conflict" stop condition (in the variant where the wrapper's filename-based handle suggests a new page but SHA-256 confirms the PDF is already ingested under a different folder location).
 
 **Action taken:** added the babycare_04 raw_path to the existing page's `near_duplicates` array (with `relation: bit_identical_duplicate` and the matching SHA-256) so subsequent ingest passes recognise the second location. Updated the manual-fetch tracker entry for the babycare_04 path to `status=stopped`, `cite_key=poulsen2007-cosmetic-products-children-denmark`, with a note explaining the SHA-256 match. Re-ran routing audit: 0 unresolved, 0 blocking malformed. No new audit-subagent spawn; the canonical page is already audited.
+
+## mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals (MFK_nutrient-exploration-baby-milk-infant-formulae-umuahia) — already ingested and audited
+
+**PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf`
+
+**Stop reason:** post-2026-05-14 clean page already exists and is already audited. Orchestrator handed this PDF in this tick but the work is a no-op.
+
+**Identity checks:**
+- DOI grep `10.1038/s41598-026-44198-w` → hit at `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals.md`.
+- Existing page `updated: 2026-05-17` (post-2026-05-14 cutoff).
+- Page is NOT present in `data/evidence/routing_unresolved.csv`.
+- Page is NOT present in `data/evidence/routing_malformed.csv`.
+- Audit queue (row 44) records `status=audited-revised`, `audit_verdict=REVISE`, `audit_applied_at=2026-05-17` for this cite-key (commit `c75d66e`). Five findings (1 ❌ + 4 ⚠️) already applied: Cr THQ misattribution corrected, BM Ni exceedance count corrected 6→5, Cr highest-sample contradiction noted, Fe/Mn/Zn dropped from metals, `baby-food` matrix dropped.
+
+**Skill v2.0 rule applied:** "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+**Action taken:** none. No commit, no audit subagent spawned, no edits to the wiki source page or the audit queue. The wrapper script will move on to the next PDF in the folder on the next tick.

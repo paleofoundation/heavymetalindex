@@ -307,3 +307,29 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 10 (unfunded provisional scaffolds must accumulate evidence before promotion), Part 5b (routing audit identifies unfunded cells), Part 2 (infant defensibility is highest-stakes). Governance: "Tier-1 population gaps block synthesis and certification defensibility."
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Prioritize source-hunting by pending-lock query volume
+
+**What:** Create an audit script that counts gap-driven wishlist queries against each pending-category-lock, ranking them by urgency so the ingest workflow knows which empty scaffolds to fill first.
+
+**Why this lever now:** The snapshot shows 6 pending locks with zero or near-zero sources (four infant formula variants, four infant porridges), blocking synthesis and standards-setting. The 672 gap-driven wishlist queries are latent demand signals. Correlating these reveals which scaffolds are starving for evidence vs. which are truly low-demand.
+
+**Where:** 
+- New script: `tools/autonomy/audit-pending-locks-vs-wishlist.mjs`
+- Input: `data/evidence/autonomy/gap-driven-wishlist.csv` (existing, 672 rows)
+- Input: `wiki/products/*.md` (all scaffolds with `provisional_scaffold: true`)
+- Output: `data/evidence/autonomy/pending-locks-wishlist-priority.csv`
+- Optional: wire into `npm run lint` to emit a morning report
+
+**How:**
+1. Read wishlist queries; parse `query` and `category_hints` fields for product slug mentions and related keywords (e.g., "lead in infant formula" → matches `infant-formula-dairy`, `infant-formula-dairy-free`)
+2. Scan pending-lock product frontmatter for `slug` and `provisional_scaffold: true`; count routed sources via routing audit
+3. For each pending lock, count matching wishlist queries (exact slug match + keyword variants)
+4. Emit CSV: `slug | routed_sources | wishlist_queries | priority_score` ranked descending by query volume
+5. Log to `data/evidence/autonomy/` so the ingest kickoff procedure can read it and target high-signal categories first
+
+**Anchors:** CLAUDE.md Part 10 (provisional scaffolds pending promotion), Part 9 (synthesis trigger conditions), Part 11 (priority ordering). Governance principle: autonomy should route effort toward evidence gaps that queries reveal, not toward arbitrary category assignments. Makes the next ingest batch deterministic and defensible.
+
+---

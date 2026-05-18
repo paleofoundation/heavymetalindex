@@ -67,10 +67,10 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 6. [[products/baby-wipes|Baby wipes]] (3 sources)
 7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (3 sources)
 8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] (3 sources)
-9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (4 sources)
-10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (5 sources)
+9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (5 sources)
+10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (6 sources)
 11. [[products/toothpaste|Children's toothpaste]] (11 sources)
-12. [[products/face-paint|Children's face paint]] (5 sources)
+12. [[products/face-paint|Children's face paint]] (6 sources)
 13. [[products/childrens-makeup|Children's makeup]] (6 sources)
 14. [[products/childrens-nail-polish|Children's nail polish]] (3 sources)
 15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (3 sources)
@@ -272,15 +272,15 @@ Exposure pathway: **Dermal (prolonged skin/hair/nail contact)**.  Regulatory jur
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
 1. [[products/fragrance-preparations|Fragrance preparations (perfumes, colognes, body sprays)]] (0 sources)
-2. [[products/dusting-talc-powders-adult|Dusting/talc powders (adult)]] (0 sources)
+2. [[products/dusting-talc-powders-adult|Dusting/talc powders (adult)]] (1 source)
 3. [[products/face-neck-leave-on-skin-care|Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)]] (2 sources)
-4. [[products/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] (3 sources)
-5. [[products/makeup-foundation-powders-blush|Makeup — foundation, powders, blush/rouge]] (4 sources)
+4. [[products/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] (4 sources)
+5. [[products/makeup-foundation-powders-blush|Makeup — foundation, powders, blush/rouge]] (5 sources)
 6. [[products/makeup-body-paints-bases-fixatives|Makeup — body/leg paints, bases, fixatives (including airbrush)]] (0 sources)
-7. [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]] (4 sources)
+7. [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]] (5 sources)
 8. [[products/lip-products|Lip products (lipstick, gloss, lip balm)]] (0 sources)
 9. [[products/deodorants|Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)]] (1 source)
-10. [[products/sun-suntan-products|Sun/suntan products (including spray, self-tan, airbrush)]] (4 sources)
+10. [[products/sun-suntan-products|Sun/suntan products (including spray, self-tan, airbrush)]] (5 sources)
 11. [[products/leave-on-hair-preparations|Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)]] (2 sources)
 12. [[products/permanent-hair-dyes-tints|Permanent hair dyes/tints (remain in hair after application)]] (1 source)
 13. [[products/manicuring-preparations-leave-on|Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)]] (1 source)
@@ -299,7 +299,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 4. [[products/facial-cleansers|Facial cleansers (foaming, cream, gel, oil, micellar)]] (1 source)
 5. [[products/hand-soap|Hand soap (liquid and bar)]] (0 sources)
 6. [[products/exfoliants-scrubs|Exfoliants/scrubs (body, facial)]] (0 sources)
-7. [[products/shaving-cream-gel-foam|Shaving cream/gel/foam]] (1 source)
+7. [[products/shaving-cream-gel-foam|Shaving cream/gel/foam]] (2 sources)
 8. [[products/hair-removal-products|Hair removal products (depilatory creams)]] (0 sources)
 9. [[products/hair-dye-rinse-off|Hair dye/color rinses (rinse-off after processing)]] (0 sources)
 10. [[products/deep-conditioning-treatments-rinse-off|Deep conditioning treatments/hair masks (rinse-off)]] (0 sources)
@@ -510,17 +510,11 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/infant-food-general|Infant Food General]]
+- [[products/infant-formula-dairy|Infant Formula Dairy]]
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->
