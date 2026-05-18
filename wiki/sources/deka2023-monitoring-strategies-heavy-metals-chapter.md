@@ -26,7 +26,7 @@ updated: 2026-05-18
 
 # Deka et al. 2023 — Monitoring strategies for heavy metals in foods and beverages (IntechOpen chapter)
 
-This IntechOpen open-access book chapter reviews analytical monitoring methods, exposure parameters (RDA, EDI, MPL, THQ, HI, TCR), and remediation tactics for heavy metals in foods and beverages. The chapter compiles maximum permissible limits (MPL) from WHO, USEPA, JECFA, CalEPA, ATSDR, and the Standards Organisation of Nigeria, lists oral reference doses for several metals, and summarizes analytical techniques (ICP-OES, ICP-MS, FAAS variants including HGAAS and CVAAS, TRXF, CR-SENLIBS, electrochemical aptasensors). Remediation strategies covered include nanotechnological innovations, chelating ligands, plant phenolic compounds, and microbial bio-absorbents (gram-positive and gram-negative bacteria, cyanobacteria, yeast, fungi, algae). No primary food-concentration measurements are reported; the chapter is a methods, regulatory, and remediation summary with educational orientation. Authors are affiliated with the Department of Chemistry, Central Institute of Technology Kokrajhar (Assam, India).
+This IntechOpen open-access book chapter reviews analytical monitoring methods, exposure parameters (RDA, EDI, MPL, THQ, HI, TCR), and remediation tactics for heavy metals in foods and beverages. The chapter compiles maximum permissible limits (MPL) from WHO, USEPA, JECFA, CalEPA, ATSDR, the Standards Organisation of Nigeria (SON), and the International Organization of Grapes and Wine (OIV), lists oral reference doses for several metals, and summarizes analytical techniques (ICP-OES, ICP-MS, FAAS variants including HGAAS and CVAAS, TRXF, CR-SENLIBS, electrochemical aptasensors). Remediation strategies covered include nanotechnological innovations, chelating ligands, plant phenolic compounds, and microbial bio-absorbents (gram-positive and gram-negative bacteria, cyanobacteria, yeast, fungi, algae). No primary food-concentration measurements are reported; the chapter is a methods, regulatory, and remediation summary with educational orientation. Authors are affiliated with the Department of Chemistry, Central Institute of Technology Kokrajhar (Assam, India).
 
 ## Key numbers
 
@@ -108,6 +108,8 @@ Enhancement run 2026-05-18 (cite-key existed before 2026-05-14; routing audit fl
 
 Preserved fields: `cite_key`, `raw_handle`, `raw_path`, `access_url`, `source_type`, `evidence_tier`, sample-population framing, license (refined to CC BY 3.0 per the chapter's printed license stamp).
 
+Audit subagent (2026-05-18) flagged three ⚠️ advisory items — all applied: (i) added OIV to the agency list in the introduction (chapter p. 2 cites OIV alongside WHO/USEPA/JECFA/SON, the prior draft omitted it); (ii) added `[[metals/chromium]]` alongside `[[metals/chromium-hexavalent]]` in the wiki-pages-touched section (Table 1 row 4 covers Cr generally as well as the Cr-VI carcinogenicity classification); (iii) noted that the `matrices:` entries (`alcoholic-beverages`, `non-alcoholic-beverages`, `herbal-drinks`, `soft-drinks`, `wine`, `drinking-water`) are routing-input descriptors rather than slugs from the closed taxonomy-snapshot vocabulary — they exist as free-form matrix labels that the routing layer fans out, and the routing audit accepts them without unresolved entries. No findings rejected.
+
 ## Wiki pages this source may touch
 
 - [[testing/icp-ms]]
@@ -118,6 +120,7 @@ Preserved fields: `cite_key`, `raw_handle`, `raw_path`, `access_url`, `source_ty
 - [[metals/cadmium]]
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
+- [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
 - [[metals/nickel]]
 - [[metals/aluminum]]
