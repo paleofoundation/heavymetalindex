@@ -141,6 +141,12 @@ Defects corrected from the prior wiki revision (updated 2026-05-13):
 
 No brand-firewall violations to remove (the study does not name brands; sample identification is by country of origin only). No HMT&C threshold proposals or consumer risk advisories in the page.
 
+2026-05-18 (fresh-context audit subagent, verdict REVISE):
+
+Checks 1, 3, 4, 5 returned ✅. Check 2 raised a ⚠️ finding that `products/pet-food-dry-kibble` and `products/pet-food-canned-wet` are not present in the 2026-05-17 taxonomy snapshot at `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified false positive: both pages exist in live `wiki/products/` (`ls wiki/products/ | grep '^pet-food-'` returns the expected files), and the routing audit successfully generated direct-evidence rows for both targets without raising unresolved entries. The snapshot is stale relative to live state — pet-food product pages were added after the snapshot's `generated: 2026-05-17` timestamp. No correction to the source page is needed; flagged here so the snapshot can be regenerated in a separate housekeeping pass.
+
+All other findings ✅: full Table 1-6 numerical fidelity verified, Methods/speciation correct (tHg + tAs, no Cr-VI speciation noted), brand firewall clean (Methods instrument/reagent vendors are Exception 2 permitted), wiki/HMTc firewall clean (Implications appropriately scopes to indirect supply-chain framing without proposing thresholds).
+
 ## Wiki pages this source may touch
 
 - [[metals/lead]]
