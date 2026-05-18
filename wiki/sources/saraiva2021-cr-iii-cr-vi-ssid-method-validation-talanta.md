@@ -16,7 +16,7 @@ raw_sha256: 9ded73cb42640c770af4a6ccc818b6760fd07f47ba45b4acce26c5263d6d4e46
 metals: [Cr, Cr-VI]
 ingredients: ["[[ingredients/infant-formula-rtf-liquid]]", "[[ingredients/semi-skimmed-milk]]", "[[ingredients/beef]]"]
 products: ["[[products/infant-formula-rtf-liquid-non-soy]]"]
-matrices: [baby-milk, semi-skimmed-milk, beef]
+matrices: [infant-formula, semi-skimmed-milk, beef-muscle]
 jurisdictions: [FR, DK]
 near_duplicates: ["[[sources/saraiva2021-chromium-speciation-milk-meat-cooking-france]]", "[[sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp]]"]
 sample_n: 3
@@ -45,12 +45,14 @@ Level 1 = <2 × LOQ; Level 2 = ≥2 × LOQ; 0.3 g sample weight. Bias |·| <0.1%
 
 ### Interconversion factors (Table 3, n=12 over 6 days)
 
-| Sample | Level (µg/kg) | α — Cr(III)→Cr(VI) oxidation (%) | β — Cr(VI)→Cr(III) reduction (%) |
+| Sample | Level | α — Cr(III)→Cr(VI) oxidation (%) | β — Cr(VI)→Cr(III) reduction (%) |
 | --- | ---: | ---: | ---: |
-| Standard solution at LOQ level | 0.030 (Cr(III)) / 0.049 (Cr(VI)) | 25 ± 18 | 55 ± 17 |
-| Baby milk | 2.70 | 0 | 111 ± 10 |
-| Semi-skimmed milk | 4.31 | 0 | 112 ± 11 |
-| Steak beef | 4.67 | 0 | 110 ± 6 |
+| Standard solution at LOQ level | 0.030 µg/L Cr(III) / 0.049 µg/L Cr(VI) | 25 ± 18 | 55 ± 17 |
+| Baby milk | 2.70 µg/kg | 0 | 111 ± 10 |
+| Semi-skimmed milk | 4.31 µg/kg | 0 | 112 ± 11 |
+| Steak beef | 4.67 µg/kg | 0 | 110 ± 6 |
+
+The standard solution row reports the analyte concentration in solution (µg/L) per the paper's footnote c; the food-matrix rows report genuine Cr(III) levels as mass fractions (µg/kg) per footnote b.
 
 α = 0 in every food matrix tested (no Cr(III) → Cr(VI) oxidation during analysis). β values >100% reflect complete reduction of Cr(VI) to Cr(III) under the reducing conditions of the food matrix, which SS-ID corrects for mathematically; this is the central reason single-spike speciation methods over-report Cr(III) and under-report Cr(VI), and why simultaneous-double-spike SS-ID is the only approach that can deliver accurate Cr(VI) numbers in reducing matrices.
 
@@ -100,7 +102,7 @@ Detection: ICP-MS iCAP Q (ThermoFisher Scientific, Courtaboeuf, France) with PFA
 
 ## Implications
 
-**Certification.** This Talanta paper establishes the analytical foundation for Cr(VI) absence in dairy and meat at the sub-50 ng/kg sensitivity floor. The methodological contribution — α = 0% (no oxidation) and β = 110–112% (complete reduction, corrected mathematically) in food matrices — is the key result for any future Cr(VI) limit-setting work: results from speciation methods that do not use isotope-dilution correction are systematically biased downward for Cr(VI) recovery in reducing food matrices, so prior pre-SS-ID Cr(VI) detections in milk/meat (Soares 2000, Mandiwana 2011, Ambushe 2009 etc.) must be re-evaluated against an artefact baseline. The baby-milk single-composite result (Cr(VI) <0.049 µg/kg; Cr(III) = 2.64 µg/kg ≈ Cr(Tot) = 2.30 µg/kg) contributes occurrence evidence for the infant-formula RTF liquid product category and supports the EFSA 2014a statement that Cr in foodstuffs is found solely as Cr(III).
+**Certification.** This Talanta paper contributes the analytical foundation for Cr(VI) quantification in dairy and meat at the sub-50 ng/kg sensitivity floor. The methodological contribution — α = 0% (no oxidation) and β = 110–112% (complete reduction, mathematically corrected by SS-ID) in food matrices — is what the paper itself frames as the prerequisite for accurate Cr(VI) numbers in reducing matrices: the authors' introduction (citing Milačič and Ščančar 2020) attributes prior Cr(VI) detections in milk/meat/bread/cereals/tea/mushrooms (Figueiredo 2007, Ambushe 2009, Soares 2010, Mandiwana 2011, Pyrżyńska 2017, Mathebula 2017, Chen 2020, Shittu 2020) to analytical artefacts of pre-SS-ID methods. The baby-milk single-composite result (Cr(VI) <0.049 µg/kg; Cr(III) = 2.64 µg/kg ≈ Cr(Tot) = 2.30 µg/kg) contributes occurrence evidence for the infant-formula RTF liquid product category. The paper's conclusion explicitly supports the EFSA statement that Cr in this type of samples is found solely as Cr(III).
 
 **Courses.** Strong teaching exemplar for (a) the species-specific isotope-dilution principle, (b) why simultaneous speciation methods that do not correct for interconversion under-report Cr(VI) in reducing matrices, (c) accuracy-profile method validation per NF V03-110, and (d) the EDTA/DPC sequential complexation chemistry. Figures 1 (reaction schemes), 2 (pH optimisation), 4 (chromatogram of standard mixture at 5 µg/kg), and 6 (chromatograms of real samples) are course-grade illustrative material.
 
@@ -125,4 +127,5 @@ Detection: ICP-MS iCAP Q (ThermoFisher Scientific, Courtaboeuf, France) with PFA
 - Baby-milk sample format: the methods describe "baby milk (500 mL)" purchased in retail shops in France with no further format specification (powder vs RTF). In French/European retail context, "baby milk" sold by the litre is typically a follow-on or infant formula RTF liquid; routing to `products/infant-formula-rtf-liquid-non-soy` reflects this best-fit reading. The companion F&CT 2021 application paper resolves any ambiguity (Cr(VI) <LOQ in n=10 infant formula milk samples) on the same product slug.
 - Sample size: this paper analyses one composite per food matrix, with replicate counts of n=2 for Cr(Tot) and n=5 for speciation. `sample_n` is set to 3 (the count of distinct matrices); per-replicate counts are documented inside `sample_population` and in the Key numbers tables.
 - Speciation labels: `metals: [Cr, Cr-VI]` per Part 14 abbreviation rules (Cr-III and Cr-total are not separate slugs; Cr covers both Cr(III) and total).
-- Steak beef and semi-skimmed milk: these are not infant-and-child-foods product categories and therefore have no HMTc product slug. Routing for these matrices is by ingredient (`semi-skimmed-milk`, `beef`) and matrix only. The Cr(VI) <LOQ findings in these matrices still support the wiki's chromium page and the methodological supersession argument, but they do not populate any HMTc product page.
+- Steak beef and semi-skimmed milk: these are not infant-and-child-foods product categories and therefore have no HMTc product slug. Routing for these matrices is by ingredient (`semi-skimmed-milk`, `beef`) and matrix only. The Cr(VI) <LOQ findings in these matrices still support the wiki's chromium page, but they do not populate any HMTc product page.
+- Audit 2026-05-18 (fresh-context subagent): three ⚠️ findings applied. (1) Table 3 standard-solution row had unit-column header conflict (paper's footnote c flags µg/L for the standard solution row vs µg/kg for food-matrix rows); table now uses a unit-per-row format with explanatory note. (2) `matrices:` updated from `[baby-milk, semi-skimmed-milk, beef]` to `[infant-formula, semi-skimmed-milk, beef-muscle]` to align with established matrix-vocabulary precedent in the corpus. (3) Implications/Certification paragraph reworded to attribute the "prior detections are artefact" framing to the paper's introduction citing Milačič and Ščančar 2020, rather than asserting a synthesis claim about prior-literature re-evaluation. No QUARANTINE findings; no numerical or brand-firewall issues.
