@@ -25,7 +25,7 @@ updated: 2026-05-18
 
 # Vaishali & Negi 2020 — Lead and cadmium in tomato ketchup from Delhi NCR street vendors
 
-This short research article reports Pb and Cd concentrations in 12 tomato ketchup samples collected from street food vendors across four locales in the Delhi NCR region of India. Lead was detected in samples from three of four locales, with mean concentrations in Delhi (0.183 ppm), Noida (0.096 ppm), and Faridabad (0.089 ppm) all exceeding the FAO/WHO Codex limit of 0.05 mg/kg; only Gurugram samples (0.031 ppm mean) fell below. Cadmium was below detectable limit in all 12 samples.
+This short research article reports Pb and Cd concentrations in 12 tomato ketchup samples collected from street food vendors across four locales in the Delhi NCR region of India. Lead was reported in all four locale summaries, with mean concentrations in Delhi (0.183 ppm), Noida (0.096 ppm), and Faridabad (0.089 ppm) exceeding the FAO/WHO Codex limit of 0.05 mg/kg; only Gurugram samples (0.031 ppm mean) fell below. Cadmium was below detectable limit in all 12 samples.
 
 ## Key numbers
 
@@ -43,7 +43,7 @@ n = 12 samples (3 per locale). Method: Atomic Absorption Spectrophotometry (AAS)
 
 ## Methods (brief)
 
-Samples were collected in sterilised sealed glass containers from street vendors and transported to the laboratory within two days. Digestion and analysis by AAS. Statistical analysis by one-way ANOVA in Microsoft Excel. No LOD or LOQ values are specified, and BDL is not numerically defined; this limits quantitative utility. The study does not distinguish branded vs. unbranded ketchup or report processing/storage conditions.
+Samples were collected in sterilised sealed glass containers from street vendors and transported to the laboratory within two days. Analysis was by AAS; sample preparation and digestion chemistry are not specified. Statistical analysis was by one-way ANOVA in Microsoft Excel. No LOD or LOQ values are specified, and BDL is not numerically defined; this limits quantitative utility. The study does not distinguish branded vs. unbranded ketchup or report processing/storage conditions.
 
 ## Implications
 
@@ -63,3 +63,4 @@ Samples were collected in sterilised sealed glass containers from street vendors
 
 - 2026-05-18 Codex merge-enhance against the source PDF in `condiment_papers`: corrected `raw_path`, changed unsupported `license: "CC BY"` to `unknown` because the PDF states open access but does not state a Creative Commons license, and replaced missing `[[products/ketchup]]` with live product route `[[products/condiments-general]]`.
 - Numerical table checked against Table 1 and Table 2: Pb means/ranges for Delhi, Gurugram, Faridabad, and Noida match the source; Cd is BDL in all four locales; ANOVA p = 0.42 matches Table 1.
+- Cross-vendor audit (Codex, 2026-05-18) retained `matrices: [ketchup]` as a source-specific matrix label because the common matrices vocabulary does not include a clean tomato-ketchup or condiment matrix; routing is carried by live `[[ingredients/ketchup]]` and `[[products/condiments-general]]` links.
