@@ -15,7 +15,7 @@ license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/mansour2014.pdf"
 raw_sha256: 553247af22939503338593b8c3eb49973cf5587bce04f225a66f23f4c6fa6b55
 metals: [Pb, Cd, tHg, tAs, Cr, Ni, Sn, Al]
-ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/cucumber]]", "[[ingredients/potatoes]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/herbal-botanicals]]", "[[ingredients/fish]]"]
+ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/cucumber]]", "[[ingredients/potatoes]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/herbal-botanicals]]", "[[ingredients/fish]]", "[[ingredients/bivalve-molluscs]]"]
 products: []
 matrices: [food, vegetables, fruit, cereals, fish, medicinal-plants, dietary-intake, analytical-method]
 jurisdictions: [EG, CN, IN, GH, IR, NG, AR, RO, NZ, NO, RU]
@@ -99,9 +99,8 @@ Range summaries reported in §13.6: Pb intake from vegetables 20.02–118.30 µg
 - Highest Fe in mint, lowest in radish. Highest Zn in carrot, lowest in radish and brinjal.
 - All values were reported as below recommended maximum tolerable levels.
 
-### Figure 13.2 — Heavy metals in Chongqing-market vegetables (Yang et al. 2011; mg/kg dry weight; ranges)
-- Cd 0.478–9.890, Cu 6.94–49.76, Zn 0.684–2.751, Pb 11.51–94.05 mg/kg across the 11 vegetables.
-- Pb highest on dry-weight basis in mustard (14.9 mg/kg), then spinach (12.8 mg/kg); Pb in garlic leaf (10.4 mg/kg) > stem (9.72 mg/kg).
+### Figure 13.2 — Heavy metals in Chongqing-market vegetables (Yang et al. 2011; mg/kg dry weight)
+- Pb highest on dry-weight basis in mustard (14.9 mg/kg), then spinach (12.8 mg/kg); Pb in garlic leaf (10.4 mg/kg) > stem (9.72 mg/kg). Bar chart depicts Pb/Cd/Cu/Zn across 11 vegetables (potato, lettuce, cucumber, mustard, cabbage, spinach, asparagus stem/leaf, garlic stem/leaf, leek); per-metal numeric ranges are not given in the chapter text.
 - Measured Pb and Cd exceeded FAO/WHO and Chinese regulatory limits — flagged as serious contamination.
 
 ### Figure 13.5 — Health Risk Index (HRI) for Cd and Pb in 10 Indian wastewater-irrigated foodstuffs (Singh et al. 2010)
@@ -134,9 +133,9 @@ Approximate HRI readings (HRI ≥ 1 indicates risk):
 - Amundsen et al. 1997 (Norway/Russia border freshwater fish): Cd, Cu, Hg, Ni, Zn in muscle/liver/gills of whitefish, perch, pike, brown trout, burbot, vendace; Cd and Ni in fish liver rose with smelter proximity. Hg was the only metal where species differences appeared to track biomagnification.
 - Whyte et al. 2009 (NZ greenshell mussel *Perna canaliculus*): Cd 0.75 mg/kg and As 2.97 mg/kg highest at Urapukapuka; all below FSANZ MLs. Average diet PTWI not exceeded except potentially for Cd in Māori/Pacific-Islander/Asian consumers with higher shellfish intake.
 - Zhuang et al. 2009 (Dabaoshan mine, south China): Fandong-village paddy soil Cu 703, Zn 1100, Pb 386, Cd 5.5 mg/kg. Rice grain Cd/Pb/Zn concentrations in vegetables exceeded Chinese permissible concentrations. THQ ranges across four villages: Cu 0.66–0.89, Zn 0.48–0.60, Pb 1.43–1.99, Cd 2.61–6.25. Bioaccumulation order Cd > Zn > Cu > Pb.
-- Maleki & Zarasvand 2008 (Sanandaj, Iran): mean Pb/Cu/Cr/Cd in 6 vegetables 13.60 ± 2.27, 11.50 ± 2.16, 7.90 ± 1.05, 0.31 ± 0.17 mg/kg respectively. Dietary intakes Pb/Cu/Cr/Cd 2.96/2.50/1.72/0.07 mg/day. Vegetables flagged as a health hazard.
+- Maleki & Zarasvand 2008 (Sanandaj, Iran): mean Pb/Cu/Cr/Cd in various vegetables (examples named: leek *Allium ampeloprasum*, sweet basil *Ocimum basilicum*, parsley *Petroselinum crispum*, garden cress *Lepidium sativum*, tarragon *Artemisia dracunculus*) 13.60 ± 2.27, 11.50 ± 2.16, 7.90 ± 1.05, 0.31 ± 0.17 mg/kg respectively. Dietary intakes Pb/Cu/Cr/Cd 2.96/2.50/1.72/0.07 mg/day. Vegetables flagged as a health hazard.
 - Zheng et al. 2007 (Huludao industrial city, China): per-metal THQ < 1 for single foodstuffs, but HIs for all-foodstuff intake > 1 for adults and children. Relative HI contributions Hg/Pb/Cd/Zn/Cu were 1.7%/11.7%/24.0%/23.4%/39.6% in adults and 1.5%/11.7%/21.8%/26.1%/38.8% in children.
-- Raghunath et al. 2006 (Mumbai duplicate-diet, 250 samples): vegetarian and non-vegetarian Na/K/Ca/Cu/Zn/Fe/Mn/Mg/Pb/Cd/Co/Ni daily intakes reported; Pb/Cd/Co/Ni daily intakes 32.3/2.2/2.2/108 mg respectively. Toxic-metal intake reported as much lower than FAO/WHO PTWI.
+- Raghunath et al. 2006 (Mumbai duplicate-diet, 250 samples): vegetarian and non-vegetarian Na/K/Ca/Cu/Zn/Fe/Mn/Mg/Pb/Cd/Co/Ni daily intakes reported; Pb/Cd/Co/Ni daily intakes reported in the chapter as 32.3/2.2/2.2/108 mg/day respectively. The chapter prints "mg" — likely a typographic error for µg propagated from the cited primary source, since 108 mg/day Ni is roughly 30× a typical adult Ni TDI and the same paragraph states "the intake of toxic metals such as Pb, Cd, and Ni is much lower than the tolerable daily intake derived from PTWI given by FAO/WHO." The wiki preserves the printed unit; downstream synthesis should consult the Raghunath 2006 primary paper before using these values.
 
 ### Dietary HRA framework equations (§13.5; reproduced verbatim from the chapter)
 - Exposure (mg/kg bw/day) = Consumption (mg/kg bw/day) × Residue (mg/kg)
@@ -195,6 +194,7 @@ Limitations relevant to wiki use:
 - [[ingredients/wheat]]
 - [[ingredients/herbal-botanicals]]
 - [[ingredients/fish]]
+- [[ingredients/bivalve-molluscs]]
 - [[testing/icp-ms]]
 - [[testing/aas]]
 
@@ -219,3 +219,14 @@ Merge-enhanced 2026-05-18 from the prior 2026-05-14 page. The prior page's centr
 - Body — kept Part 2 wiki/HMTc firewall: no threshold proposals; the Implications section describes what the chapter contributes to threshold work without advocating any HMTc certification level.
 - Body — kept Part 12 brand firewall: the chapter does not name commercial brands attached to contamination values; no brand stripping was needed. The reference-material/instrument-vendor exception was not invoked (the chapter does not name vendors).
 - Body — preserved unit fidelity (mg/kg dry weight specified where dw applies; µg/day for Table 13.4 dietary intake) and noted the chapter's own internal unit slip (narrative "mg day⁻¹" vs table header "µg day⁻¹" for Table 13.4 — table header is authoritative).
+
+### Post-audit corrections (subagent audit, 2026-05-18)
+
+Three definite errors flagged by the fresh-context audit subagent and verified against the PDF on re-read:
+
+- **Figure 13.2 (Yang 2011) misattribution corrected.** The prior wiki revision attributed the ranges Cd 0.478–9.890 / Cu 6.94–49.76 / Zn 0.684–2.751 / Pb 11.51–94.05 mg/kg to Figure 13.2 / Yang 2011 / Chongqing-market vegetables. Verified against PDF p. 239: those ranges belong to **Subramanian et al. 2012** (15 Indian medicinal plants used in curries) as Pb/Zn/Cd/Cu respectively, not to Yang 2011. The Yang 2011 / Figure 13.2 section in the chapter provides only qualitative Pb maxima (mustard 14.9, spinach 12.8, garlic leaf 10.4, garlic stem 9.72 mg/kg dw) plus the bar-chart depiction across 11 vegetables; no per-metal range is given in the chapter text. Figure 13.2 bullet rewritten; the Subramanian bullet (which already had the correct attribution) preserved. Audit subagent finding **verified correct and applied**.
+- **Maleki & Zarasvand 2008 "6 vegetables" corrected.** Verified against PDF p. 251: the chapter writes "various vegetables – for example, leek (*Allium ampeloprasum*), sweet basil (*Ocimum basilicum*), parsley (*Petroselinum crispum*), garden cress (*Lepidium sativum*) and tarragon (*Artemisia dracunculus*)" — five named examples under "various vegetables", not six. Rewritten to name the five examples explicitly and drop the count. Audit subagent finding **verified correct and applied**.
+- **`bivalve-molluscs` ingredient slug added.** Verified against PDF p. 250: §13.3.4 Fish-and-seafood includes Whyte et al. 2009 greenshell mussel (*Perna canaliculus*) Cd 0.75 / As 2.97 mg/kg from Bay of Islands, NZ. Added `[[ingredients/bivalve-molluscs]]` to `ingredients:` frontmatter and to the wiki-pages-this-source-may-touch list. Audit subagent finding **verified correct and applied**.
+- **Raghunath 2006 "mg" unit anomaly flagged in body.** The Raghunath bullet under §13.5 expanded to note the unit discrepancy (108 mg/day Ni is ~30× a typical adult Ni TDI; the chapter's own sentence "the intake of toxic metals such as Pb, Cd, and Ni is much lower than the tolerable daily intake" is incompatible with the printed "mg" attribution). Wiki preserves the chapter's printed unit per audit fidelity but warns downstream synthesis to consult the Raghunath 2006 primary paper. Audit subagent ⚠ concern **verified and addressed by adding the cross-check note** (no edit to the numeric value itself).
+
+No false positives in this round. All other audit checks returned ✅.
