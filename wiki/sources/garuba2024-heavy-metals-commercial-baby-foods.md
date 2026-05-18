@@ -70,8 +70,8 @@ Garuba et al. (2024) measured seven metals (Al, Cr, Ni, Zn, total As, Cd, Pb) in
 | Metal | MRL cited by authors | Samples exceeding | Values |
 |---|---|---|---|
 | Al (oral, intermediate/chronic) | 1 µg/g/day | S2, S3 | 4.09, 2.50 µg/g |
-| Zn (oral, intermediate; NIH 2-3 µg/g/day cited for infants/toddlers) | 2-3 µg/g/day | S6, S7, S8, S10 | 33.55, 69.54, 30.25, 23.69 µg/g |
-| As (oral, acute 0.005 µg/g) | 0.005 µg/g | All except S4 (0.006) and S9 (0.008) fall above acute MRL; S6 (0.023), S7 (0.102) substantially above | — |
+| Zn (oral, intermediate; NIH 2-3 µg/g/day cited for infants/toddlers) | 2-3 µg/g/day | S6, S7, S8 (per paper's Discussion); S10 also exceeds per Table 3 | 33.55, 69.54, 30.25 µg/g (paper-enumerated); 23.69 µg/g for S10 (Table 3 only, not in paper's Discussion list) |
+| As (oral, acute 0.005 µg/g) | 0.005 µg/g | All ten samples exceed the cited 0.005 µg/g acute MRL (range 0.006 to 0.102 µg/g); S6 (0.023) and S7 (0.102) substantially above | — |
 
 The authors compare values against ATSDR's per-day MRLs as if they were per-gram limits in the food; this conflates intake-rate guidance with concentration-in-food, and the comparison should be read as the authors' interpretation, not as a regulatory exceedance per se.
 
@@ -141,3 +141,11 @@ Enhanced on 2026-05-18 from a pre-2026-05-14 ingest that contained multiple crit
 Brand firewall: No action required. The source paper anonymizes brands as Brand 1-Brand 7; this page preserves that anonymization.
 
 Wiki/HMTc firewall: No threshold proposals, no consensus claims, no certification advocacy. The Implications section reports observation-level utility for the literature register and methodological learning, not synthesis.
+
+**Audit application (2026-05-18, fresh-context subagent, verdict REVISE):**
+
+11. **As exceedance line corrected.** Audit subagent (2026-05-18) flagged that the line "All except S4 (0.006) and S9 (0.008) fall above acute MRL" was internally contradictory because both 0.006 and 0.008 are above the cited 0.005 µg/g acute MRL. Verified against PDF Table 3 — every one of the ten As values (range 0.006 to 0.102 µg/g) does exceed 0.005 µg/g. Reworded to "All ten samples exceed the cited 0.005 µg/g acute MRL (range 0.006 to 0.102 µg/g); S6 (0.023) and S7 (0.102) substantially above."
+
+12. **Zn exceedance scope annotated.** Audit subagent flagged that the wiki listed S6/S7/S8/S10 as exceeding the cited Zn MRL while the paper's Discussion enumerates only S6/S7/S8 explicitly. Verified — S10 Zn = 23.694 µg/g (Table 3) does exceed the cited 2-3 µg/g/day reference, but the paper's own Discussion narrative omits S10 from its Zn-exceedance list. The exceedance table now distinguishes the paper-enumerated S6/S7/S8 from the Table-3-derived S10 finding.
+
+Audit findings: 2 ⚠️ flagged, 2 applied, 0 false positives. Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (brand firewall), and 5 (wiki/HMTc firewall) returned clean.
