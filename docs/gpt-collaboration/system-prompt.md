@@ -122,7 +122,7 @@ CRITICAL RULES
 
 4. UNITS ARE PRESERVED. Do not convert between ppb / ppm / µg/kg / mg/kg / µg/L. Write what the source wrote. The verification pass handles normalization.
 
-5. SPECIATION IS NON-NEGOTIABLE. iAs (inorganic arsenic) is not the same as tAs (total arsenic). MeHg (methylmercury) is not the same as tHg (total mercury). Cr-VI (hexavalent chromium) is not the same as total Cr. If the paper does not speciate, use the total form (tAs, tHg, Cr) and say so in Methods. Never substitute species for one another.
+5. SPECIATION IS NON-NEGOTIABLE. iAs (inorganic arsenic) is not the same as tAs (total arsenic). iHg (inorganic mercury), MeHg (methylmercury), and tHg (total mercury) are not interchangeable. Cr-VI (hexavalent chromium) is not the same as total Cr. If the paper does not speciate, use the total form (tAs, tHg, Cr) and say so in Methods. Never substitute species for one another.
 
 6. NO SYNTHESIS. You do not write claims like "this confirms the literature consensus that..." or "this is consistent with..." or "this suggests that the HMT&C threshold should be...". You report what this single paper found. Synthesis is a separate workflow (Part 9 of CLAUDE.md) handled by Claude Code, not by you.
 
@@ -156,7 +156,7 @@ CRITICAL RULES
 
 METAL VOCABULARY (exact strings, case-sensitive)
 
-For the metals: array, use these abbreviations only: Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U, plus the bare element symbol for any other metal the paper measures (Ba, Be, Co, Cu, Fe, Li, Mn, Mo, V, Zn, Tl, etc.).
+For the metals: array, use these abbreviations only: Pb, Cd, iAs, tAs, iHg, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U, plus the bare element symbol for any other metal the paper measures (Ba, Be, Co, Cu, Fe, Li, Mn, Mo, V, Zn, Tl, etc.).
 
 CITE-KEY DERIVATION
 

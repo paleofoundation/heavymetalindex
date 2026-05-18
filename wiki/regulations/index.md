@@ -9,6 +9,10 @@ Regulation pages describe specific thresholds, action levels, and guidance from 
 
 For the Category 1 lead comparison layer, start with [[products/lead-benchmark-context]]. It normalizes FDA, EU, Prop 65, and occurrence-context lead values into ppb while preserving each value's legal or evidentiary role.
 
+## Australia/New Zealand Contaminants Maximum Levels
+
+- [[regulations/au-nz-food-standards-code-schedule-19-contaminants]] - Australia New Zealand Food Standards Code Schedule 19 maximum levels for contaminants and natural toxicants, including selected metal limits in food.
+
 ## EU Contaminants Maximum Levels
 
 - [[regulations/eu2023-contaminants-maximum-levels]] - canonical HMI hub for Commission Regulation (EU) 2023/915, the EU maximum-level framework for contaminants in food.

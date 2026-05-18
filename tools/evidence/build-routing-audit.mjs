@@ -357,6 +357,7 @@ function metalSlug(metal) {
     ["tAs", "arsenic-total"],
     ["As", "arsenic-total"],
     ["MeHg", "mercury-methyl"],
+    ["iHg", "mercury"],
     ["tHg", "mercury-total"],
     ["Hg", "mercury-total"],
     ["Ni", "nickel"],
