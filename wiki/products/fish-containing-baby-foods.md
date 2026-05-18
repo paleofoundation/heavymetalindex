@@ -253,7 +253,7 @@ Fish-containing baby foods present a distinct contamination profile: methylmercu
 | 5 | Testing and QC | Lot-level tHg and MeHg speciation testing on incoming fish ingredient. Total mercury alone is insufficient because MeHg/tHg ratios vary substantially by species and processing; iAs speciation is needed if rice-based ingredients are co-formulated. | MeHg speciation required to close the tHg-to-MeHg data gap documented in the cited literature. | — |
 | 6 | Packaging and storage | Not a primary lever for retort-pouched or glass-jarred fish baby foods under normal conditions. | — | — |
 
-Cross-links: [[ingredients/fish]] if it exists; [[ingredients/salmon]] if it exists; [[metals/mercury-methyl]] for MeHg mechanisms; relevant mitigation pages where they exist.
+Cross-links: [[ingredients/fish]] (the canonical ingredient page covering finfish broadly), [[ingredients/freshwater-fish]], [[ingredients/seafood]], [[ingredients/canned-tuna]], [[products/seafood]], [[products/canned-fish]], [[products/fresh-fish]] (the adult-category counterparts) for the same evidence base read at the adult-product level. [[metals/mercury-methyl]] for MeHg mechanisms and toxicology.
 
 ## How standards math uses this page
 
