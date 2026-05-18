@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_p0139-heavy-metals-contamination-levels-in-pork-pr
 cite_key: hoha2014-pork-pb-cd-cu-zn-romania
 title: "Heavy metals contamination levels in processed meat marketed in Romania"
 authors: [Hoha GV, Costăchescu E, Leahu A, Păsărin B]
@@ -12,22 +12,23 @@ access_url: "http://omicron.ch.tuiasi.ro/EEMJ/"
 source_type: peer-reviewed
 evidence_tier: B
 license: "Subscription journal; no open-access license confirmed"
-raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0139_Heavy metals contamination levels in pork products (ba.pdf"
-metals: [Pb, Cd]
-ingredients: ["[[ingredients/pork]]", "[[ingredients/bacon]]", "[[ingredients/ham]]", "[[ingredients/sausage]]"]
-products: ["[[products/processed-meat]]", "[[products/pork-products]]", "[[products/pork-product]]"]
+raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0139_Heavy metals contamination levels in pork products (bacon, ham, sausage, salami) in Romania.pdf"
+raw_sha256: "5a36154190180b9f1102ffe19e4e20b7e1736ac4400676922780f9e21ece69a1"
+metals: [Pb, Cd, Cu, Zn]
+ingredients: ["[[ingredients/meat]]", "[[ingredients/meat-and-poultry]]", "[[ingredients/pork-bacon]]", "[[ingredients/ham]]", "[[ingredients/pork-sausages]]", "[[ingredients/spices]]"]
+products: ["[[products/processed-meats]]", "[[products/pork-product]]"]
 matrices: [pork-bacon, pork-ham, pork-sausage, pork-salami, processed-pork]
 jurisdictions: [RO]
 sample_n: 36
 sample_population: "Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced by six slaughterhouses; sampled November–December 2012"
-updated: 2026-05-13
+updated: 2026-05-18
 ---
 
 # Hoha et al. 2014 — Heavy metals in processed pork products, Romania
 
-A 2014 study from the University of Agricultural Sciences and Veterinary Medicine Iasi, Romania analyzed 36 samples of pork products (bacon, ham, sausage, salami) from four commercial centers in Iasi for lead (Pb), cadmium (Cd), copper (Cu), and zinc (Zn) by atomic absorption spectrophotometry. All cadmium values in all four product types exceeded the maximum level of 0.1 mg/kg set by FAO and EC (now EC 1881/2006); lead values in all products were below the 1 mg/kg FAO/EC limit, though sausage and salami approached it. The authors identified spice additions during processing as a likely driver of elevated Pb and Cd in sausage and salami relative to less-seasoned bacon and ham.
+A 2014 study from the University of Agricultural Sciences and Veterinary Medicine Iasi, Romania analyzed 36 samples of pork products (bacon, ham, sausage, salami) from four commercial centers in Iasi for lead (Pb), cadmium (Cd), copper (Cu), and zinc (Zn) by atomic absorption spectrophotometry. Product-type mean cadmium values in all four product types exceeded the paper-cited FAO/EC comparator of 0.1 mg/kg, while lead means were below the paper-cited 1 mg/kg comparator; the salami maximum for Pb reached 1.06 mg/kg. The authors identified spice additions during processing as a likely driver of elevated Pb and Cd in sausage and salami relative to less-seasoned bacon and ham.
 
-**Note on metals coverage:** This paper also reports copper (Cu) and zinc (Zn) as part of the analysis. Cu and Zn are essential trace elements, not among the HMTc 10-analyte vocabulary for heavy metals, and are not included in the `metals` frontmatter array. They are noted here for completeness: Cu ranged from 0.73 to 1.32 mg/kg (all below the 3 mg/kg EU limit); Zn ranged from 32.19 to 42.12 mg/kg (all below the 50 mg/kg limit).
+**Note on metals coverage:** This paper reports Pb, Cd, Cu, and Zn. Cu and Zn are retained in the `metals` frontmatter for source discoverability, but the certification-relevant signal in this source is primarily Pb/Cd because the paper reports Cu and Zn means below its cited comparators.
 
 ## Key numbers
 
@@ -38,7 +39,7 @@ All concentrations in mg/kg wet weight (= ppm; equivalent to 1,000 ppb).
 - Ham (n=6): 0.65 ± 0.005 mg/kg; min 0.35, max 0.86
 - Sausage (n=12): 0.82 ± 0.006 mg/kg; min 0.72, max 0.97
 - Salami (n=12): 0.96 ± 0.004 mg/kg; min 0.72, max 1.06
-- Regulatory limit (FAO/EC 1881/2006): 1.0 mg/kg for meat products
+- Paper-cited comparator (FAO/EC): 1.0 mg/kg for meat products
 - Exceedance: bacon and ham significantly below (p < 0.05); sausage and salami approaching limit; salami max (1.06 mg/kg) exceeded the limit
 
 **Cadmium (Cd) — Table 2:**
@@ -46,13 +47,13 @@ All concentrations in mg/kg wet weight (= ppm; equivalent to 1,000 ppb).
 - Ham (n=6): 0.13 ± 0.006 mg/kg; min 0.09, max 0.16
 - Sausage (n=12): 0.16 ± 0.008 mg/kg; min 0.08, max 0.19
 - Salami (n=12): 0.21 ± 0.005 mg/kg; min 0.09, max 0.24
-- Regulatory limit (FAO/EC): 0.1 mg/kg for pork products
-- Exceedance: **all four product types exceeded the 0.1 mg/kg Cd limit** (all mean values significantly above, p < 0.05)
+- Paper-cited comparator (FAO/EC): 0.1 mg/kg for pork products
+- Exceedance: all four product-type means exceeded 0.1 mg/kg; individual product ranges include values below 0.1 mg/kg, so this should not be summarized as every individual sample exceeding the comparator.
 
-**Copper (Cu) — Table 3 (reference only; not an HMTc analyte):**
+**Copper (Cu) — Table 3:**
 - Bacon 1.02 mg/kg; ham 0.73 mg/kg; sausage 0.84 mg/kg; salami 1.32 mg/kg; all below 3 mg/kg limit
 
-**Zinc (Zn) — Table 4 (reference only; not an HMTc analyte):**
+**Zinc (Zn) — Table 4:**
 - Bacon 42.1 mg/kg; ham 33.5 mg/kg; sausage 38.4 mg/kg; salami 32.19 mg/kg; all below 50 mg/kg limit
 
 **Processing effect signal:** Sausage and salami showed significantly higher Pb and Cd than ham and bacon. Authors attribute this to spice additions during sausage/salami manufacture; pepper in particular may contribute >2.5 ppm Pb and elevated Cd. This is a processing-driven concentration mechanism distinct from background meat contamination.
@@ -63,19 +64,30 @@ Samples purchased fresh from four commercial centers in Iasi, Romania, November�
 
 ## Implications
 
-**Certification:** Universal Cd exceedance (all 36 samples) above the 0.1 mg/kg EU limit in Romanian pork products is directly relevant to certification. The current EC Regulation 1881/2006 Cd limit for meat is 0.05 mg/kg muscle meat (the paper cites 0.1 mg/kg, which was the limit at the time; the current EU limit was tightened to 0.05 mg/kg for muscle meat in some revisions). This needs cross-checking against the current regulation page. If the current limit is 0.05 mg/kg, exceedance would be even more widespread.
+**Certification:** Provides processed-pork occurrence data showing product-type mean Cd above the paper-cited 0.1 mg/kg comparator, with salami and sausage also carrying the highest Pb means among the four product types. Use the paper-cited FAO/EC comparator as historical context only; current legal-limit synthesis belongs on the regulation page, not in this source page.
 
 **Courses:** The spice contamination pathway for Pb and Cd in processed meat products is a supply-chain teaching point. Spices (especially pepper, paprika) are high-risk Cd and Pb contributors to processed meat, and formulation choices drive contamination levels in salami and sausage beyond what the underlying raw pork contains.
 
-**App:** The contamination profile for processed pork products (sausage, salami) is meaningfully higher for both Pb and Cd than for less-processed cuts. The app's ingredient-to-risk mapping should distinguish between raw pork/ham and heavily seasoned processed pork products (sausage, salami) as separate risk profiles for Cd.
+**App:** The contamination profile for processed pork products (sausage, salami) is meaningfully higher for both Pb and Cd than for less-seasoned bacon and ham in this dataset. Ingredient-to-risk mapping should treat heavily seasoned processed pork products as distinct from minimally seasoned pork products when source evidence supports that distinction.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
-- [[ingredients/pork]]
-- [[ingredients/bacon]]
+- [[ingredients/meat]]
+- [[ingredients/meat-and-poultry]]
+- [[ingredients/pork-bacon]]
 - [[ingredients/ham]]
-- [[ingredients/sausage]]
-- [[products/processed-meat]]
+- [[ingredients/pork-sausages]]
+- [[ingredients/spices]]
+- [[products/processed-meats]]
+- [[products/pork-product]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[supply-chain/spices-contamination]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[regulations/eu-1881-2006-contaminants-superseded]]
+
+## Verification notes
+
+- 2026-05-18 Codex seafood-priority merge check corrected the raw handle/path/hash and aligned ingredients/products to existing taxonomy slugs.
+- Numerical values were checked against Tables 1-4 in the PDF. The page reports the paper's product-type means; Table 2 ranges show some individual Cd values below 0.1 mg/kg despite the paper's conclusion language that all samples contained Cd above the maximum level.
+- Legal-limit statements are retained only as paper-cited comparators. Do not use this page as a current EU limit source without checking the regulation page.
