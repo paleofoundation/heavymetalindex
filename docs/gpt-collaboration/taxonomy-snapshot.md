@@ -2,8 +2,8 @@
 type: doc
 purpose: Slug vocabulary snapshot for GPT-5.5 source-page drafting
 audience: [karen, chatgpt]
-generated: 2026-05-17
-generated_from: live wiki state at commit e442cbe
+generated: 2026-05-18
+generated_from: live wiki state during Codex regulation-page ingest session
 ---
 
 # Taxonomy snapshot
@@ -49,7 +49,7 @@ aluminum, antimony, arsenic-inorganic, arsenic-total, arsenic, barium, beryllium
 
 ## Regulations
 
-atsdr-aluminum-mrls, atsdr-cadmium-mrls, codex-cadmium-mls, efsa-aluminium-twi, efsa-arsenic-contam-2009, efsa-cadmium-twi, efsa-lead-contam-2010, efsa-mercury-twi, efsa-methylmercury-twi, efsa-nickel-tdi, epa-arsenic-mcl, epa-iris-cadmium-rfd, epa-iris-inorganic-arsenic-rfd, epa-iris-lead-rfd, epa-iris-mercury-rfd, epa-iris-methylmercury-rfd, eu-2023-915-cadmium, eu-2023-915-lead-infant-young-child-foods, eu-nickel-directive-94-27-ec, eu-reg-2022-617-mercury-fish, eu2023-arsenic-rice-based-drinks, eu2023-contaminants-maximum-levels, fda-closer-to-zero, fda-ctz-Pb-babyfood-10ppb, fda-ctz-Pb-cereal-20ppb, fda-ctz-Pb-rootveg-20ppb, fda-iAs-rice-cereal-100ppb, fda-juice-haccp-lead-50ppb, fda2022-draft-lead-juice, fda2025-lead-processed-baby-foods, jecfa-arsenic-bmdl, jecfa-cadmium-ptmi, jecfa-lead-ptwi-withdrawn, jecfa-methylmercury-ptwi, oehha-arsenic-prop65, oehha-cadmium-prop65, oehha-lead-prop65, washington-tfca-toothpaste-pb-1000ppb
+atsdr-aluminum-mrls, atsdr-cadmium-mrls, codex-cadmium-mls, efsa-aluminium-twi, efsa-arsenic-contam-2009, efsa-cadmium-twi, efsa-lead-contam-2010, efsa-mercury-twi, efsa-methylmercury-twi, efsa-nickel-tdi, epa-arsenic-mcl, epa-iris-cadmium-rfd, epa-iris-inorganic-arsenic-rfd, epa-iris-lead-rfd, epa-iris-mercury-rfd, epa-iris-methylmercury-rfd, eu-1881-2006-contaminants-superseded, eu-2023-915-cadmium, eu-2023-915-lead-infant-young-child-foods, eu-466-2001-contaminants-superseded, eu-nickel-directive-94-27-ec, eu-reg-2022-617-mercury-fish, eu2023-arsenic-rice-based-drinks, eu2023-contaminants-maximum-levels, fda-closer-to-zero, fda-ctz-Pb-babyfood-10ppb, fda-ctz-Pb-cereal-20ppb, fda-ctz-Pb-rootveg-20ppb, fda-iAs-rice-cereal-100ppb, fda-juice-haccp-lead-50ppb, fda2022-draft-lead-juice, fda2025-lead-processed-baby-foods, jecfa-arsenic-bmdl, jecfa-cadmium-ptmi, jecfa-lead-ptwi-withdrawn, jecfa-methylmercury-ptwi, mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded, mx-nom-028-ssa1-1993-canned-fish-superseded, mx-nom-242-ssa1-2009-fishery-products, oehha-arsenic-prop65, oehha-cadmium-prop65, oehha-lead-prop65, washington-tfca-toothpaste-pb-1000ppb
 
 ---
 
@@ -61,4 +61,4 @@ The page slugs above are only for the `## Wiki pages this source may touch` bull
 
 ## Notes on the regulations list
 
-The regulations list is intentionally short (39 pages) compared to ingredients (238) and products (80). Most papers GPT drafts will not cite a specific regulation; the `jurisdictions:` field is for country/region codes (US, EU, CN, etc.), not regulation slugs. The `## Wiki pages this source may touch` section only references a regulation slug when the paper explicitly discusses that regulation (e.g., an FDA Closer-to-Zero compliance study would reference `[[regulations/fda-closer-to-zero]]`).
+The regulations list is intentionally short compared to ingredients (238) and products (80). Most papers GPT drafts will not cite a specific regulation; the `jurisdictions:` field is for country/region codes (US, EU, CN, etc.), not regulation slugs. The `## Wiki pages this source may touch` section only references a regulation slug when the paper explicitly discusses that regulation (e.g., an FDA Closer-to-Zero compliance study would reference `[[regulations/fda-closer-to-zero]]`).

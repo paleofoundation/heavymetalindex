@@ -26,6 +26,12 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]] - 20 ppb lead action level for single-ingredient root vegetables.
 - [[regulations/fda-ctz-Pb-cereal-20ppb]] - 20 ppb lead action level for dry infant cereals.
 
+## Mexico Fishery Product Regulations
+
+- [[regulations/mx-nom-242-ssa1-2009-fishery-products]] - current Mexican sanitary standard for fresh, refrigerated, frozen, and processed fishery products, including fishery-product heavy-metal and metalloid limits.
+- [[regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded]] - historical fresh/refrigerated/frozen fish standard cancelled by NOM-242-SSA1-2009.
+- [[regulations/mx-nom-028-ssa1-1993-canned-fish-superseded]] - historical canned-fish standard cancelled by NOM-242-SSA1-2009.
+
 <!-- BEGIN: hmi-auto-linked-stubs -->
 
 ## Auto-linked stubs
