@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
-sources: 32
+sources: 33
 updated: 2026-05-16
 ---
 

@@ -3,10 +3,10 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1192 candidate queries
-- Path B (empty product + thin ingredient pages): 7962 candidate queries
-- Total candidates (after dedup): 9154
+- Path B (empty product + thin ingredient pages): 7954 candidate queries
+- Total candidates (after dedup): 9146
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9154
+- Eligible after filtering: 9146
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 148 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | exfoliants-scrubs × Pb | exfoliants/scrubs (body, facial) Pb |
-| P1 | baby-talcum-powder × Pb | baby talcum powder heavy metals lead occurrence |
-| P1 | food-storage-glass-containers × tHg | food storage glass containers heavy metals mercury |
-| P1 | toys-stroller-carriage × Cd | toys stroller carriage cadmium |
-| P1 | infant-porridges-dairy-free × Pb | infant porridges dairy free heavy metals Pb |
-| P1 | baby-talcum-powder × Cd | baby talcum powder Cd occurrence |
-| P1 | pet-supplements-vitamin-mineral × Pb | pet supplements vitamin mineral lead |
-| P1 | supplements-oral-solids-softgels × Cd | supplements oral solids softgels cadmium |
-| P1 | infant-formula-dairy-free × iAs | infant formula dairy free heavy metals speciated arsenic occurrence |
-| P1 | body-wash-shower-gel × tHg | body wash/shower gel mercury |
-| P1 | true-tea-camellia-sinensis × Pb | true tea camellia sinensis Pb occurrence |
-| P1 | supplements-teas-labeled × Cd | supplements teas labeled cadmium occurrence |
-| P1 | rice-snacks-crackers × tAs | rice snacks crackers heavy metals arsenic occurrence |
-| P1 | odor-removers-hard-surfaces × tHg | odor removers hard surfaces total mercury |
-| P1 | toys-sound-producing × Pb | toys sound producing lead |
-| P1 | carpet-spot-removers × tAs | carpet spot removers total arsenic |
-| P1 | infant-formula-dairy-free × Sn | infant formula dairy free heavy metals tin occurrence |
-| P1 | bottled-drinking-water × tAs | bottled drinking water arsenic occurrence |
-| P1 | pet-chews-dental × tAs | pet chews dental total arsenic |
-| P1 | descalers × Pb | descalers heavy metals Pb |
+| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking teething aids total arsenic |
+| P1 | fabric-refresher-products × tAs | fabric refresher products heavy metals total arsenic |
+| P1 | baby-talcum-powder × tAs | baby talcum powder arsenic occurrence |
+| P1 | car-seats × Pb | car seats heavy metals Pb |
+| P1 | nebula-diffusers × Cd | nebula diffusers cadmium |
+| P1 | bibs × tHg | bibs heavy metals mercury |
+| P1 | canned-fruit × tAs | canned fruit heavy metals arsenic occurrence |
+| P1 | pet-supplements-calming-behavioral × tHg | pet supplements calming behavioral heavy metals total mercury |
+| P1 | infant-formula-powder × Cr-VI | infant formula powder heavy metals hexavalent chromium occurrence |
+| P1 | infant-bottle-nipples × Pb | bottle nipples and spouts lead |
+| P1 | cutting-boards × tHg | cutting boards (wood, plastic) mercury |
+| P1 | supplements-oral-solids-gummies × Pb | oral solids: gummies/chewables lead |
+| P1 | capillary-reed-wood-diffusers × tHg | capillary reed wood diffusers mercury |
+| P1 | fabric-protectants × tHg | fabric protectants heavy metals mercury |
+| P1 | sensor-puff-releasers × Pb | sensor puff releasers heavy metals lead |
+| P1 | baby-lotion-cream × Cd | baby lotion cream Cd occurrence |
+| P1 | food-packaging-foils-wraps × tHg | food packaging foils wraps mercury |
+| P1 | pet-supplements-probiotics-digestive × Pb | pet supplements probiotics digestive heavy metals Pb |
+| P1 | baby-oil × Cd | baby oil Cd occurrence |
+| P1 | sports-energy-drinks × Pb | sports energy drinks Pb occurrence |
 
 ## Coverage rotation
 

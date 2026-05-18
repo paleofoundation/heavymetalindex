@@ -79,7 +79,7 @@ contamination_profile:
 used_in_products: [infant-formula-powder-soy-based, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 6
+sources: 7
 ---
 
 # Soy-Based Infant Formula

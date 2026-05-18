@@ -330,3 +330,26 @@ Three identity checks all hit the same canonical page: cite-key, `raw_handle: MF
 **Action for the daemon:** advance past this PDF. The page is post-2026-05-14 clean by the skill's own definition (Phase 1 step 1 skip rule). Recommend adding `MFK_study-of-heavy-metals-in-childrens-toys-and-produc` (or SHA `21a45c17108be0bba1a6d1b96347e023d0ddf1da57569629386f5460418c0e4b`) to the daemon's de-dup skip list so the same handle is not re-presented in subsequent ticks.
 
 **No commits made.** Page state unchanged.
+
+## Stop — PDF filename/content mismatch, actual paper out of scope
+
+- **PDF:** `raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Development of a Fast Method Using ICP-MS Coupled with HPLC and Exploration of the Reduction Mechanism of Cr(VI) in Foods.pdf`
+- **Suggested handle (per daemon):** `MFK_development-of-a-fast-method-using-icp-ms-coupled-`
+- **SHA-256:** `e5153c106afd9d3513406dab59caabbe9f49ee3c7ff378dacdf2a1f59bf0a28e`
+- **Filename promises:** Song et al. 2024 — HPLC-ICP-MS method for Cr(VI) in foods (already ingested at `wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md`, DOI 10.3390/toxics12050325, sourced from `01_Fruits_and_Fruit_Products`).
+- **Actual contents:** Ren S, Du Y, Zhang J, Zhao K, Guo Z, Wang Z. "Commercial Production of Highly Rehydrated Soy Protein Powder by the Treatment of Soy Lecithin Modification Combined with Alcalase Hydrolysis." *Foods* 2024, 13:1800. DOI 10.3390/foods13121800. Published 7 June 2024 (Northeast Agricultural University, Harbin). 21 pages.
+
+**Why stopped:** The PDF inside this file is a soy protein processing study — soy lecithin modification + Alcalase enzymatic hydrolysis to improve rehydration, emulsification, and viscosity properties of spray-dried soy protein isolate. All 21 pages (verified through page 15, with the remainder consistent with the established study scope: viscosity, emulsifying activity/stability, discussion, references) report particle size (nm), zeta potential (mV), turbidity (a.u.), surface hydrophobicity (H0), FTIR secondary-structure ratios (α-helix/β-sheet/β-turn/random coil %), bulk density (kg/m³), wettability (min), dispersibility (s), and solubility (%). **There are zero heavy metal concentration measurements, zero ICP-MS data, zero Cr/Pb/Cd/As/Hg results, and zero analytes from the HMTc 10-analyte list.** The paper is out of scope for HMI in its entirety — not a thin-evidence paper, not a method paper with downstream relevance, simply a different domain (plant-protein processing science).
+
+**Identity checks:**
+1. DOI grep `10.3390/foods13121800` against `wiki/sources/` — no hits (correctly; this paper has no HMI page and should not have one).
+2. The DOI for the promised paper (`10.3390/toxics12050325`, Song et al.) IS already represented at `wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md` — so the wiki is not missing the Cr(VI) method paper that the filename advertises.
+3. No cite-key collision for `ren2024-*` in `wiki/sources/`.
+
+**Action for Karen:** The PDF was filed under the wrong filename when Kimi sourced it. Two reasonable resolutions:
+- (a) Delete or move this PDF out of the manual-fetch queue — it is not an HMI paper.
+- (b) If Kimi was meant to fetch the Song et al. Cr(VI) paper for the dairy folder context (because Song et al. tested milk powder and yoghurt among its 7 foods), no action is needed — the paper is already ingested from the Fruits folder. The Song page's frontmatter already declares `[[products/milk-powder]]` and `[[products/yoghurt]]` so routing covers the dairy context correctly.
+
+**Action for the daemon:** advance past this PDF. Recommend adding SHA `e5153c106afd9d3513406dab59caabbe9f49ee3c7ff378dacdf2a1f59bf0a28e` (or the handle `MFK_development-of-a-fast-method-using-icp-ms-coupled-`) to the daemon's skip list so this misnamed file is not re-presented.
+
+**No commits made.** No wiki page created. No audit-queue row appended.

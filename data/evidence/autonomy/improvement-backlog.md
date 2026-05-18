@@ -475,3 +475,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 - Ask the Index product spec (docs/ask-the-index-spec.md) — closes the loop from user questions to ingest work
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Complete metal coverage on ingredient-source pairs
+
+**What:** Build a structured-extraction completion audit that identifies every (source, ingredient) pair where ingest extracted some but not all ten HMT&C metals, then auto-populate missing metals with explicit "not-reported" markers in source frontmatter so ingredient contamination_profile synthesis can proceed.
+
+**Why this lever now:** 302 blocked cells in the contamination-profile matrix cannot synthesize because ingredient-metal coverage is asymmetric. When a source routes to an ingredient but extracts only 3 of 10 analytes (Pb, Cd, iAs), the cell stays in mixed state (some metals `populated`, others `pending`) and triggers the lint failure in Part 18. Unblocking these cells unblocks the incremental-synthesis pathway and accelerates contamination_profile population across all 245 ingredients.
+
+**Where:** 
+- New audit: `tools/audit-extraction-completeness.mjs` (identifies incomplete (source, ingredient, metal) tuples)
+- Schema extension: source frontmatter gains `[metal]_coverage: not-reported` fields for metals absent from the source
+- Update: `tools/audit-ingredient-metal-coverage.mjs` to treat explicit not-reported markers as valid completion, not gaps
+
+**How:**
+1. Run the audit against all 965 sources to identify (source, ingredient) pairs with < 10 metals extracted
+2. For each missing metal, append `al_coverage: not-reported, cr_vi_coverage: not-reported` (etc.) to the source page frontmatter 
+3. Commit the frontmatter completions as a single batch (`docs: fix extraction coverage gaps`)
+4. Trigger ingredient-synthesis sweep to populate contamination_profile blocks now that all (source, ingredient) pairs are metrically complete
+
+**Anchors:** CLAUDE.md Part 9 (synthesis triggering on population threshold), Part 18 (ingredient coverage-asymmetry lint rule), Part 19 (contamination_profile is prerequisite for standards-setting workbench). Maps to [[feedback_no_hand_curated.md]] — generators should overwrite freely, never skip coverage gaps.
+
+---

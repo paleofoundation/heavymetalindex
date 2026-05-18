@@ -30,7 +30,7 @@ cc_relationship:
       notes: "Cross-row CC: clean counterpart lives in row 8, not as a sibling within a vegetable-purees base split."
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 20
+sources: 21
 ---
 
 # Root-Vegetable Purees

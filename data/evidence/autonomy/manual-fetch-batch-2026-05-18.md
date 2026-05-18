@@ -277,3 +277,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Study_of_Heavy_Metals_in_Childrens_Toys_and_Products.pdf`: cephed2013-heavy-metals-childrens-toys-nepal — already ingested + audited + applied earlier today (post-2026-05-14 clean, audit-queue audited-revised, routing-malformed entry is advisory baseline only)
+
+## Tick 2026-05-18T21:09:09.501Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus` (raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Determination of Some Minerals and Heavy metals in Raw Cow's Milk Collected from Different Regions of Muş Province.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Development of a Fast Method Using ICP-MS Coupled with HPLC and Exploration of the Reduction Mechanism of Cr(VI) in Foods.pdf`: misnamed PDF — actual contents (Ren et al. 2024 soy protein processing) out of scope for HMI; promised paper (Song et al. 2024 Cr(VI) HPLC-ICP-MS) already ingested from a different folder

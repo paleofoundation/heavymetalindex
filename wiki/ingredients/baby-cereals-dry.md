@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 1
+sources: 2
 ---
 
 # Baby Cereals Dry

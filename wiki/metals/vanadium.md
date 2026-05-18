@@ -6,7 +6,7 @@ name: Vanadium
 species: [V, vanadium-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 7
+sources: 8
 updated: 2026-04-30
 status: stub
 n_sources: 1

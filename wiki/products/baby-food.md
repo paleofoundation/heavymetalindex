@@ -12,7 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 3
+sources: 2
 updated: 2026-05-17
 ---
 

@@ -16,7 +16,7 @@ public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-15
-sources: 3
+sources: 4
 ---
 
 # Coffee

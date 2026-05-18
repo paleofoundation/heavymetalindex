@@ -28,7 +28,7 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 12
+sources: 13
 ---
 
 # Teething & Snacks (Non-Rice)
