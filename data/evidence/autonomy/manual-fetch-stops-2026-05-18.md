@@ -124,3 +124,42 @@ The existing page's `raw_handle` (`FM_9271943`) and `raw_path` (`raw/markdown/FM
 **Action for the daemon:** advance past this PDF. The basename stem `The contribution of infant formula to the food survey-based dietary exposure of nine selected elements` can be added to the daemon's already-post-2026-05-14-clean skip list. Re-ingesting would duplicate work already merge-enhanced and audited today.
 
 **No content commits made.** Page state unchanged. Tracker-row correction is the only file edit.
+
+## Stop 9 — re-presentation of Stop 7 PDF after tracker regressed by parallel-session race
+
+- **PDF:** `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia.pdf`
+- **Suggested handle (per daemon):** `MFK_occurrence-and-dietary-exposure-assessment-of-heav`
+- **Existing wiki page:** `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals.md` (`updated: 2026-05-18`)
+- **DOI:** `10.1002/fsn3.3485` (Alharbi et al. 2023, *Food Science & Nutrition* 11:5270–5282)
+
+**Why stopped (again):** Same PDF as Stop 7 earlier today. The page is post-2026-05-14 clean (`updated: 2026-05-18`, `audited-promote` in `data/evidence/audit-queue.csv`, absent from both `routing_unresolved.csv` and `routing_malformed.csv`). Three identity checks all confirm the existing page is the right canonical destination: DOI `10.1002/fsn3.3485` grep hit, `raw_handle: FM_10494610` hit (existing page; daemon's suggested `MFK_…` handle is the alternate truncation of the same file), and `cite_key` stem `alharbi2023` hit.
+
+**Why the PDF was re-presented this tick.** `git diff data/evidence/autonomy/manual-fetch-tracker.csv` at session start showed the working-tree state of this row reverted from `stopped, 2026-05-18T04:32:06.360Z, alharbi2023-baby-foods-saudi-arabia-heavy-metals, "Stop: …"` back to `unprocessed,,,`. The same diff also reverted the Höpfner 2025 row (Stop 8 PDF) and progressed three unrelated PCMF rows from `unprocessed` to `ingested`. This is the parallel-session tracker race pattern: two concurrent daemon ticks each load an in-memory snapshot of the tracker, each make per-row edits, and the later writer overwrites the earlier writer's edits with its older snapshot. The net effect is that some rows advance and some rows regress.
+
+**Action this tick.** Re-marked the row `stopped` with this tick's timestamp and cite-key. No content commits. The Höpfner 2025 row regression (Stop 8 PDF) is left for the next session to detect and fix on its own tick — touching it here would risk widening the diff and racing again.
+
+**Recommendation for the daemon.** The tracker write step needs a read-modify-write lock or row-level merge instead of full-file replace. Until that lands, every parallel-session tick re-creates this same regression. Workaround: as Stop 7 already suggested, add the basename stem `Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia` to a daemon-side already-post-2026-05-14-clean skip list keyed independently of the tracker so re-regression of the tracker row does not re-surface the PDF.
+
+**No content commits made.** Page state unchanged. Tracker-row correction is the only file edit.
+
+## Stop 10 — Phase 3 audit application blocked by concurrent autonomy_v0 malformed YAML
+
+- **PDF:** `raw/Papers Cube Manual Fetch/ajol-file-journals_579_articles_269230_66292f9b93362.pdf`
+- **Handle:** `PCMF_ajol-file-journals-579-articles-269230-66292f9b933`
+- **Cite-key:** `abdullahi2024-heavy-metals-maize-nigeria-seasonal`
+- **DOI:** `10.4314/dujopas.v10i1a.9` (Abdullahi N et al. 2024, *DUJOPAS* 10(1a):78–87)
+- **Phase 1 commit:** `2e44dd7`
+
+**What completed.** Phase 1 ingest (merge-enhance against updated:2026-05-14 page in routing_malformed advisory) committed cleanly: raw_handle promoted from `papers-cube` placeholder to canonical `PCMF_…`, raw_sha256 added, metals expanded from [Pb Cd Cr Ni] to all 8 measured analytes [Pb Cd Cr Ni Zn Cu Co tHg], evidence_tier A → B, sample_n 20 → 40, wet-season root means (Table 2, all 5 wrong) corrected, dry-season root means (Table 4, 6 of 7 wrong) corrected, fabricated PL values (Zn 5 / Cd 0.1 → paper's actual 0.6 / 0.02) corrected, dry-season TF interpretation (inverted on prior page) corrected, per-site exceedance counts added, method limitations expanded (Hg / LOD / sampling discontinuity / no-As), Implications softened per Part 2 firewall. Phase 2 audit subagent ran cleanly with verdict REVISE: 2 ❌ findings (dry-season grain Pb count 7 of 10 should be 9 of 10; dry-season grain Cr count 8 of 10 should be 10 of 10) and 2 ⚠️ slug concerns (matrices `maize-grain` / `maize-root`; missing `[[supply-chain/irrigation-water]]` page). All 4 findings independently verified against the source.
+
+**Why Phase 3 stopped.** `npm run evidence:source-routes` re-run fails with `YAMLException end of the stream or a document separator is expected at line 16, column 35` in `wiki/sources/childhood2023-childhood-lead-exposure-linked.md` — an untracked file just created by a concurrent `autonomy_v0` ingest agent. The malformed line is `ingredients: [[ingredients/apple]], [[ingredients/cinnamon]]` (bare wikilinks without quotes, violating Part 14 frontmatter wikilink rules). The failure is on an unrelated source page; my source is clean. Per skill stop conditions (`Routing audit fails`) and the multi-Claude coherence memory (don't touch concurrent agents' in-flight work), stopped without re-running the audit or committing the Phase 3 corrections.
+
+**State on disk.** Source page `wiki/sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal.md` is at Phase 1 state (commit `2e44dd7`). The 4 audit findings are fully specified in the `audit-queue.csv` notes row for re-application; they are NOT half-applied — they are documented for a future session to re-run cleanly. Phase 1 corrections (the major merge-enhance work that fixed all the wrong root values, fabricated PL, inverted TFs, etc.) are durably committed and form the canonical state of the page.
+
+**Action for the daemon.** Skip this PDF on subsequent ticks (the Phase 1 commit's `updated: 2026-05-18` puts it in the post-2026-05-14-clean class). Re-application of the 4 Phase 3 micro-corrections will happen when:
+  (a) the `autonomy_v0` agent fixes the `childhood2023` YAML (most likely on its own next tick — bare-wikilink in frontmatter is the kind of bug that breaks the agent's own validation as well, not just the routing audit), AND
+  (b) a future audit-application sweep re-runs against `audited-revised-blocked` audit-queue rows.
+
+**Recommendation.** The `autonomy_v0` agent's frontmatter-emit code is producing Part-14-violating wikilink arrays (`[[ingredients/apple]], [[ingredients/cinnamon]]` instead of `["[[ingredients/apple]]", "[[ingredients/cinnamon]]"]`). This is a code-level defect in that agent that should be fixed at the emitter, not patched per-file. Until that fix lands, expect intermittent routing-audit failures from autonomy_v0 ingests blocking concurrent manual-fetch sessions.
+
+**No content commits made beyond `2e44dd7`.** This stop-report and the `audit-queue.csv` status update are the only edits in this Phase 3 segment.
