@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_p0161-heavy-metals-accumulation-in-different-organ
 cite_key: morshed2024-heavy-metals-poultry-organs-bangladesh
 title: "Heavy Metals Accumulation in Different Organs of Poultry and Hypothetical Risk Analysis: Evidence from Experimental Feeding with Assorted Metal Feed"
 authors: [Morshed AJM, Islam MSM, Hossain AHR, Chakraborty D, Chowdhury TA, Roy B, Das S]
@@ -9,79 +9,83 @@ publication: "Research Square (preprint)"
 doi: 10.21203/rs.3.rs-4210575/v1
 no_doi_assigned: false
 access_url: "https://doi.org/10.21203/rs.3.rs-4210575/v1"
-source_type: peer-reviewed
+source_type: preprint
 evidence_tier: B
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi/04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0161_Heavy Metals Accumulation in Different Organs of Poult.pdf"
+raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0161_Heavy Metals Accumulation in Different Organs of Poultry.pdf"
+raw_sha256: "97100042ddba16cca2393d777d0d144a28fc15234215a8ec9590aeec25b7c5dc"
 metals: [Pb, Cd, Cr]
-ingredients: ["[[ingredients/chicken]]"]
+ingredients: ["[[ingredients/chicken]]", "[[ingredients/poultry]]", "[[ingredients/organ-meats]]", "[[ingredients/meat-and-poultry]]"]
 products: ["[[products/poultry-product]]"]
-matrices: [chicken-muscle, chicken-bone, chicken-liver, chicken-kidney, chicken-lung]
+matrices: [poultry-feed, chicken-muscle, chicken-bone, chicken-liver, chicken-kidney, chicken-lung]
 jurisdictions: [BD]
 sample_n: 24
-sample_population: "24 day-old broiler chickens divided into 8 groups (C0–C7; 3 birds per group), Bangladesh; experimentally fed graded concentrations of Pb, Cd, and Cr (as lead nitrate, cadmium chloride, chromium nitrate) for 28 days"
-updated: 2026-05-13
+sample_population: "24 day-old broiler chickens divided into 8 experimental groups (C0-C7; 3 birds per group) in Bangladesh and fed graded Pb, Cd, and Cr additions via poultry feed for 28 days"
+updated: 2026-05-18
 ---
 
-# Morshed et al. 2024 — Heavy metal bioaccumulation in poultry organs, Bangladesh (preprint)
+# Morshed et al. 2024 - Heavy metals in experimental poultry organs, Bangladesh
 
-This experimental study from BCSIR Chattogram Laboratories, Bangladesh, fed broiler chickens graded concentrations of lead (Pb), cadmium (Cd), and chromium (Cr) via intentionally adulterated feed for 28 days, then measured metal concentrations in muscle, bone, liver, kidney, and lung at slaughter. Eight groups (C0 = control, C1–C7 = progressively higher metal loads) were used. The study establishes a clear organ-distribution hierarchy: bone accumulates the highest concentrations of Pb and Cd, while liver is the primary site of Cr accumulation. The paper is a preprint (Research Square, April 2024; CC BY 4.0) and should be treated as B-tier until formal peer review; the experimental design is valid but sample size is very small (n=3 birds per group).
+This Research Square preprint reports a 28-day experimental feeding study in which broiler chickens were fed poultry feed intentionally adulterated with graded concentrations of lead (Pb), cadmium (Cd), and chromium (Cr). The authors measured Pb, Cd, and Cr in feed and in chicken muscle, bone, liver, kidney, and lung after slaughter. The source is useful as a mechanistic dose-response and organ-distribution study; it is not retail occurrence evidence for ambient commercial chicken because the feed metal additions were deliberate and high-dose.
 
 ## Key numbers
 
-All organ values reported on dry-weight basis (mg/kg dry weight = ppm dw). Feed contamination concentrations also in mg/kg.
+All feed values below are source-reported in mg/kg from Table 3.1. Organ-deposition values are source-reported on a dry basis in mg/kg from Table 3.5. The PDF rendering of Table 3.5 is incomplete and internally inconsistent; this page reports only values visible in the PDF and flags the source-internal issue in Verification notes.
 
-**Feed concentrations (mg/kg; Table 3.1):**
-- C0 (control): Pb 0, Cd 0, Cr 0.88 ± 0.47
-- C1: Pb 0.72 ± 0.20; Cd 0.90 ± 0.53; Cr 1.77 ± 0.91
-- C7 (highest): Pb 46.14 ± 21.20; Cd 40.46 ± 12.25; Cr 45.90 ± 20.08
+**Feed concentrations, Table 3.1:**
+- Pb in feed: C0 = 0; C1 = 0.72 +/- 0.20; C2 = 1.52 +/- 0.11; C3 = 2.66 +/- 0.66; C4 = 4.34 +/- 0.06; C5 = 10.58 +/- 3.83; C6 = 18.21 +/- 4.54; C7 = 46.14 +/- 21.20 mg/kg.
+- Cd in feed: C0 = 0; C1 = 0.90 +/- 0.53; C2 = 1.40 +/- 0.07; C3 = 2.03 +/- 0.03; C4 = 2.63 +/- 1.37; C5 = 9.18 +/- 2.84; C6 = 22.67 +/- 9.15; C7 = 40.46 +/- 12.25 mg/kg.
+- Cr in feed: C0 = 0.88 +/- 0.47; C1 = 1.77 +/- 0.91; C2 = 2.29 +/- 0.54; C3 = 2.96 +/- 0.95; C4 = 3.64 +/- 0.30; C5 = 10.86 +/- 4.86; C6 = 24.37 +/- 1.40; C7 = 45.90 +/- 20.08 mg/kg.
+- Day-28 total feed consumption ranged from 2792.50 +/- 209.08 g per bird in C0 to 3495 +/- 278.25 g per bird in C1. The authors state that feed intake did not change monotonically with increasing heavy-metal concentration.
 
-**Organ deposition — Cadmium (Cd; Table 3.5, dry basis):**
+**Growth and feed conversion:**
+- Final mean body weight after 28 days: C0 = 1552.5 +/- 245.41 g; C1 = 1560 +/- 124.90 g; C7 = 925 +/- 135.28 g. The source states that body weight declined from C0/C1 toward C7 as feed metal concentration increased.
+- Average total feed conversion ratio after 28 days: C0 = 1.81 +/- 0.14; C1 = 2.24 +/- 0.08; C2 = 2.29 +/- 0.19; C3 = 2.30 +/- 0.28; C4 = 2.29 +/- 0.06; C5 = 2.34 +/- 0.10; C6 = 2.96 +/- 0.06; C7 = 3.53 +/- 0.44.
 
-Bone showed the highest Cd concentrations across all experimental groups:
-- C0: all organs below BDL
-- C1: Muscle 0.31 ± 0.17; Bone 0.65 ± 0.05; Liver 1.09 ± 0.09; Kidney BDL; Lung 0.10 ± 0.03
-- C5 (Cd in feed 9.18 ± 2.84): Muscle 1.26 ± 0.15; Bone 5.66 ± 0.47; Liver 6.49 ± 0.50; Kidney 2.63 ± 0.22; Lung 0.87 ± 0.26
-- C7 (Cd in feed 40.46 ± 12.25): Muscle 6.57 ± 0.31; Bone 20.72 ± 0.54; Liver 43.36 ± 0.63; Kidney 8.72 ± 0.45; Lung 2.22 ± 0.45
+**Cadmium organ deposition, visible Table 3.5 block:**
+- C0: muscle, bone, liver, kidney, and lung all <BDL.
+- C1: muscle 0.31 +/- 0.17; bone 0.65 +/- 0.05; liver 1.09 +/- 0.09; kidney <BDL; lung 0.10 +/- 0.03.
+- C5: muscle 1.26 +/- 0.15; bone 5.66 +/- 0.47; liver 6.49 +/- 0.50; kidney 2.63 +/- 0.22; lung 0.87 +/- 0.26.
+- C7: muscle 6.57 +/- 0.31; bone 20.72 +/- 0.54; liver 43.36 +/- 0.63; kidney 8.72 +/- 0.45; lung 2.22 +/- 0.45.
+- The visible Cd table values place liver above bone at the highest dose, although the abstract states that bone had the highest Cd concentration. This page follows the visible table values and treats the abstract/table mismatch as a source-internal inconsistency.
 
-Note: the table header in the source document says "Concentration of Cd in Feed" over the Cd body section but the organ deposition columns appear misaligned in the extracted text. Based on the abstract and results prose confirming bone-highest Pb/Cd and liver-highest Cr, the following organ hierarchy is confirmed:
-- **For Pb and Cd: bone > liver > kidney > muscle > lung**
-- **For Cr: liver > bone > muscle > kidney/lung**
+**Chromium organ deposition, visible Table 3.5 block:**
+- C0: muscle 0.23 +/- 0.04; bone 0.41 +/- 0.01; liver <BDL; kidney <BDL; lung <BDL.
+- C1: muscle 0.37 +/- 0.05; bone 0.60 +/- 0.05; liver 0.32 +/- 0.02; kidney <BDL; lung 0.39 +/- 0.07.
+- C2: muscle 0.59 +/- 0.03; bone 0.93 +/- 0.03; liver 0.55 +/- 0.03; kidney <BDL; lung 0.63 +/- 0.03.
+- C3: muscle 0.97 +/- 0.04; bone 1.43 +/- 0.05; liver 0.68 +/- 0.02; kidney <BDL; lung 0.96 +/- 0.04.
+- The abstract states that the highest Cr amount was found in liver, but the PDF table rows for C4-C7 are blank/unreadable in this copy; this page does not report high-dose Cr organ values not visible in the source.
 
-**Chromium (Cr; Table 3.5, dry basis):**
-- C0 (background Cr 0.88 mg/kg): Muscle 0.23 ± 0.04; Bone 0.41 ± 0.01; Liver BDL; Kidney BDL; Lung BDL
-- C1 (Cr 1.77 ± 0.91): Muscle 0.37; Bone 0.60; Liver 0.32; Kidney BDL; Lung 0.39
-- C3 (Cr 2.96 ± 0.95): Muscle 0.97; Bone 1.43; Liver 0.68; Kidney BDL; Lung 0.96
-- Note: Cr values reported as total Cr; speciation into Cr(III)/Cr(VI) not performed
-
-**Growth performance:**
-- Final mean body weight decreased from C0 (1552.5 ± 245.41 g) to C7 (925 ± 135.28 g) after 28 days
-- Feed conversion ratio (FCR) increased progressively from C0 (1.81 ± 0.14) to C7 (3.53 ± 0.44)
-- No consistent alteration in feed intake rate with increasing HM concentration
-
-**Health risk analysis (hypothetical):**
-- THQ and target cancer risk (TR) increased with increasing HM concentration in feed groups
-- THQ >1 threshold exceeded at higher concentration groups for Cd and Pb in combination
-- HI (hazard index, sum of THQs) exceeded 1 at higher dose groups, indicating cumulative non-carcinogenic risk
-
-**Histopathology:** Liver, kidney, intestine, skin, and lung showed tissue changes with increasing metal dose; brain was the only organ relatively unaffected histologically.
+**Histopathology and modeled risk:**
+- The abstract reports that liver, kidney, intestine, skin, and lung were more affected histologically than brain after heavy-metal feeding.
+- The source states that THQ and target cancer risk (TR) increased with increasing heavy-metal concentration; numerical THQ/TR values are presented in figures whose data tables are not readable in this PDF copy.
 
 ## Methods (brief)
 
-Experimental feeding study; 24 day-old broiler chickens, 8 groups of 3 birds, 28-day trial, BCSIR Chattogram Laboratories. Feed adulterated with solutions of lead nitrate, cadmium chloride, and chromium nitrate in seven graded concentrations. Organs (muscle, bone, liver, kidney, lung) collected at day 28, dried at 105°C, digested with HNO₃/HClO₄ (3:2 v/v), and analyzed by Thermo Scientific iCE 3000 AAS for Pb, Cd, and Cr. All values on dry-weight basis. THQ calculated using FAO/WHO RfDs: Pb 0.0035 mg/kg-bw/day, Cd 0.00083 mg/kg-bw/day, Cr 0.0083 mg/kg-bw/day. Cancer risk slope factors from USEPA. Key limitations: preprint status; n=3 birds per group is very small; intentionally high metal doses (up to 46 mg/kg Pb, 40 mg/kg Cd in feed) far exceed real-world commercial poultry feed exposure and do not represent ambient contamination of commercial chicken; results should be read as dose-response/organ-distribution mechanistic data, not as ambient concentration baseline.
+Experimental feeding study; 24 day-old broiler chickens were divided into eight groups of three birds each and fed starter feed from days 1-22 and grower feed from days 23-28. Groups C1-C7 received feed manually adulterated with lead nitrate, cadmium chloride, and chromium nitrate solutions at seven graded concentrations; C0 received market feed without artificial Pb/Cd addition. Feed and organ samples were dried at 105 deg C. Feed samples and approximately 2 g dried organ samples were digested with concentrated nitric acid/perchloric acid (3:2 v/v), then brought to 25 mL with distilled water. Pb, Cd, and total Cr were measured by atomic absorption spectrophotometry (Thermo Scientific iCE 3000); no chromium speciation was performed. Moisture was measured with a MAC 50 RADWAG moisture analyzer. The risk calculations used RfDs of 0.0035 mg/kg-bw/day for Pb, 0.00083 mg/kg-bw/day for Cd, and 0.0083 mg/kg-bw/day for Cr. Key limitations: preprint status, n=3 birds per group, deliberate high-dose feed adulteration, and incomplete/contradictory Table 3.5 rendering in the available PDF.
 
 ## Implications
 
-**Certification:** The organ-distribution hierarchy (bone and liver concentrate Pb and Cd more than muscle; liver is primary Cr accumulation site) is the critical finding for any HMT&C product page that covers organ meats (liver products, chicken liver pâté). Edible muscle has substantially lower concentrations than bone or liver at every dose level. This study supports the regulatory logic of different limits for liver/kidney vs. muscle tissue in EU and Codex frameworks.
+**Certification (HMTc):** This source contributes mechanistic evidence that poultry organs can accumulate Pb, Cd, and Cr differently from edible muscle under contaminated-feed exposure. Because the feed was experimentally adulterated and the sample size was three birds per group, the numeric organ concentrations should not be used as ambient commercial-poultry occurrence baselines.
 
-**Courses:** Excellent mechanistic teaching case for organ-specific bioaccumulation: why eating liver or kidney poses higher Cd exposure than eating muscle, and how this drives the separate regulatory limits for offal vs. muscle meat in EU/Codex standards.
+**Courses:** Useful teaching case for feed-to-tissue transfer, organ-distribution uncertainty, and why source-table QA matters before using organ-meat values in standards work.
 
-**App:** For the ingredient-risk model: chicken muscle is the appropriate matrix for most consumer-facing risk estimates. Chicken liver and chicken kidney should be flagged as higher-Cd matrices, consistent with this study's hierarchy (liver Cd at C7 = 43.36 mg/kg vs. muscle 6.57 mg/kg at same dose). Even for ambient (non-experimental) poultry, liver Cd concentrations are systematically higher than muscle.
+**App:** The source may inform chicken, poultry, and organ-meat source-side context for Pb, Cd, and total Cr, but values from the high-dose experimental groups should remain separated from retail/market occurrence datasets.
 
-**Caution on direct value transfer:** The concentrations reported here result from experimental metal doses 10–100× higher than found in commercial poultry feed; they establish mechanistic organ-distribution patterns, not ambient contamination levels. For commercial chicken muscle baseline values see [[sources/hossain2023-bangladesh-chicken-metals]] and [[sources/kamaly2023-egypt-poultry-metals]].
-
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/chicken]]
+- [[ingredients/poultry]]
+- [[ingredients/organ-meats]]
+- [[ingredients/meat-and-poultry]]
+- [[products/poultry-product]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+- [[metals/chromium]]
+
+## Verification notes
+
+- 2026-05-18 Codex merge-enhance: matched DOI 10.21203/rs.3.rs-4210575/v1 to the already committed source page, added the exact MFK raw handle/path and SHA-256 provenance, changed `source_type` from `peer-reviewed` to `preprint`, expanded routing to existing poultry/organ-meat ingredient pages, and removed overconfident organ-hierarchy claims.
+- Source-internal table caution: the visible Table 3.5 Cd block is headed "Deposition of chromium" even though the first column says "Concentration of Cd in Feed"; the visible Cd values place liver above bone at C7 (43.36 vs 20.72 mg/kg dry basis), while the abstract says bone had the highest Cd concentration. This page reports the visible table values and flags the contradiction rather than resolving it silently.
+- The Cr organ-deposition block is visible only through C3 in this PDF; the continuation rows for C4-C7 are blank/unreadable. The page therefore does not report high-dose Cr organ-deposition values.
+- The `matrices:` terms use source-specific poultry tissue strings because the common matrix list has no exact poultry-organ terms; sibling meat-source pages already use `chicken-muscle` and related tissue matrices for edible tissue routing.
