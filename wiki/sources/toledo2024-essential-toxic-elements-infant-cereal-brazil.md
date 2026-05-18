@@ -1,107 +1,151 @@
 ---
 type: source
+raw_handle: MFK_essential-and-toxic-elements-in-infant-cereal-in-b
 cite_key: toledo2024-essential-toxic-elements-infant-cereal-brazil
 title: "Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment"
 authors: ["Toledo MC", "Lee JS", "Batista BL", "Olympio KPK", "Nardocci AC"]
 year: 2024
 publication: "International Journal of Environmental Research and Public Health 21(4):381"
 doi: "10.3390/ijerph21040381"
+no_doi_assigned: false
 pmid: "38673295"
 pmcid: "PMC11050093"
 source_type: peer-reviewed
 evidence_tier: A
-license: "CC BY"
+license: "CC BY 4.0"
 access_url: "https://doi.org/10.3390/ijerph21040381"
-raw_path: "raw/external-fetch/2026-05-09/toledo2024-essential-toxic-elements-infant-cereal-brazil.jats.xml"
+raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Essential and Toxic Elements in Infant Cereal in Brazil.pdf"
+raw_sha256: 5514757f3e60d0c50a918f72088e2871aa9792347de30d0e68f58846dbf9654e
 data_paths:
   - data/evidence/category1_toledo2024_infant_cereal_brazil_samples.csv
-metals: [Al, tAs, iAs, Cd, Cr, Cu, Fe, Mn, Ni, Pb, Sn, Zn]
-products: [baby-cereals-dry-rice-based, baby-cereals-dry-non-rice]
-matrices: [infant-rice-cereal, multigrain-cereal-with-rice, non-rice-infant-cereal]
+  - raw/external-fetch/2026-05-09/toledo2024-essential-toxic-elements-infant-cereal-brazil.jats.xml
+near_duplicates: []
+metals: [Ag, Al, tAs, iAs, B, Ba, Cd, Co, Cr, Cu, Mn, Ni, Pb, Se, Sr, Zn]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/oat]]", "[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/infant-cereal-ingredients]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]"]
+matrices: [rice-cereal, cereal-grain, dietary-intake]
 jurisdictions: [BR]
 sample_n: 18
-sample_population: "Eighteen samples of eight different brands of infant cereal acquired 2014-2015 in Brazilian grocery stores: 9 rice cereal, 5 multi-grain cereal containing rice, 4 non-rice cereal (corn, oatmeal, multi-grain). Concentration data drawn from Pedron et al. (cited as ref [10] in the paper); Toledo 2024 performs the cancer/non-cancer risk-assessment integration."
-acquired_via: "PubMed E-utilities EFetch JATS XML (db=pmc, id=PMC11050093) — 2026-05-09 autonomous run"
-updated: 2026-05-09
+sample_population: "Eighteen Brazilian infant-cereal samples acquired in 2014-2015: 9 rice cereals, 5 multi-grain cereals containing rice, and 4 non-rice-based cereals."
+updated: 2026-05-18
 ---
 
-# Toledo et al. 2024 — Essential and Toxic Elements in Infant Cereal in Brazil
+# Toledo et al. 2024 - Essential and toxic elements in infant cereal, Brazil
 
-This A-tier peer-reviewed paper reports total concentrations of 14 essential and non-essential elements (Ag, Al, As, B, Ba, Co, Cr, Cu, Mn, Se, Sr, Zn, Ni, Cd, Pb) in 18 samples of Brazilian infant cereal across three matrix subcategories: rice cereal (n=9), multi-grain cereal containing rice (n=5), and non-rice-based cereal (n=4 — corn, oatmeal, multi-grain). Concentrations were measured by ICP-MS with HPLC-ICP-MS speciation for arsenic; the paper integrates the concentration data (drawn from Pedron et al. as ref [10]) with EPA/Codex toxicity values to compute incremental lifetime cancer risks and hazard quotients for infant exposure. Author scope is exact on matrix axis (rice vs multi-grain-with-rice vs non-rice infant cereal per Section 2.2 sample collection) and exact on format axis (dry infant cereal as sold). Per the corrected row-fit rule (CLAUDE.md Part 6), this routes directly to the rice-based and non-rice cereal HMTc subcategory pages.
+Toledo et al. (2024) used published concentration data from Pedron et al. to assess cancer and non-cancer risk from essential and toxic elements in Brazilian infant cereals. The occurrence dataset covers 18 infant-cereal samples bought in 2014-2015 across several Brazilian jurisdictions, with three source groupings: rice cereal, multi-grain cereal containing rice, and non-rice-based cereal. The paper's added contribution is the deterministic exposure and risk assessment for infants and toddlers aged 4 to <24 months.
 
-## Key Numbers
+## Key numbers
 
-Table 3 of the paper reports per-sample mean ± SD concentrations in ng/g (= ppb) for each of the 18 samples (labeled A through R). Sample-level extract written to `data/evidence/category1_toledo2024_infant_cereal_brazil_samples.csv`. Computed percentiles by HMTc subcategory under the lower-bound treatment (samples reported as `5×10⁻⁵ ± <0` treated as below LOD = 0):
+Source dataset and analytes:
 
-### Rice-based subcategory pool (rice + multigrain-with-rice; n=14)
+| Source grouping | n | Description |
+| --- | ---: | --- |
+| Rice cereal | 9 | Rice-only infant cereals |
+| Multi-grain cereal containing rice | 5 | Rice-and-oat, rice-and-fruit, and rice-and-cornstarch cereals |
+| Non-rice-based cereal | 4 | Corn, oatmeal, and non-rice multi-grain cereals |
 
-| Analyte | n | p30 | p50 | p90 | p100 (max) |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Total arsenic (tAs) | 14 | 80.67 ppb | 107.91 ppb | 141.64 ppb | 168.08 ppb |
-| Aluminum (Al) | 14 | 504.94 ppb | 1836.97 ppb | 4890.31 ppb | 8799.73 ppb |
-| Nickel (Ni) | 14 | 173.13 ppb | 199.10 ppb | 428.00 ppb | 484.46 ppb |
-| Cadmium (Cd) | 14 | 4.24 ppb | 12.75 ppb | 19.00 ppb | 22.15 ppb |
-| Lead (Pb) | 14 | 22.36 ppb | 25.12 ppb | 44.94 ppb | 60.13 ppb |
+The paper reports total concentrations for Ag, Al, As, B, Ba, Co, Cr, Cu, Mn, Se, Sr, Zn, Ni, Cd, and Pb in Table 3. It also discusses arsenic as total arsenic (tAs) for the full 18-sample set and as inorganic arsenic (iAs) only through source-side speciation assumptions.
 
-### Non-rice subcategory pool (n=4)
+Source-reported total arsenic means by cereal grouping:
 
-| Analyte | n | p30 | p50 | p90 | p100 (max) |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Total arsenic (tAs) | 4 | 6.14 ppb | 9.41 ppb | 12.76 ppb | 12.86 ppb |
-| Aluminum (Al) | 4 | 2208.12 ppb | 2528.15 ppb | 3300.92 ppb | 3516.70 ppb |
-| Nickel (Ni) | 4 | 81.75 ppb | 249.75 ppb | 474.13 ppb | 498.52 ppb |
-| Cadmium (Cd) | 4 | 1.50 ppb | 1.72 ppb | 7.22 ppb | 9.52 ppb |
-| Lead (Pb) | 4 | 15.83 ppb | 21.64 ppb | 29.91 ppb | 31.30 ppb |
+| Group | tAs mean +/- SD |
+| --- | ---: |
+| Rice cereal | 111.37 +/- 43.23 ng/g |
+| Multi-grain cereal containing rice | 48.13 +/- 46.76 ng/g |
+| Non-rice-based cereal | 7.86 +/- 4.12 ng/g |
 
-The non-rice pool n=4 is below the 10-sample defensibility floor; values are reported for traceability but should not be treated as a defensible standalone non-rice distribution. They serve as triangulation with the FDA 2024 non-rice (n=25) and FDA 2016 non-rice (n=30) pools.
+Regulatory-comparator outcomes reported by the source:
 
-### Comparison with FDA 2024 + FDA 2016 (rice-based subcategory)
+| Scenario or comparator | Source-reported result |
+| --- | --- |
+| iAs assumed to equal 100% of tAs | 1 of 18 samples (5.5%) above the Brazilian iAs maximum contaminant level; 8 of 18 samples (44.4%) above the US FDA and European Commission iAs comparator of 100 ng/g |
+| iAs assumed to equal 90% of tAs | 7 of 18 samples (38.9%) above the US FDA and European Commission comparator |
+| iAs assumed to equal 80%, 70%, 60%, and 50% of tAs | 4 samples (22.2%), 2 samples (11.1%), 1 sample (5.5%), and no samples, respectively, above the US FDA and European Commission comparator |
+| Cd | Under the cited maximum contaminant levels in all samples |
+| Pb | Two samples above the Brazilian and European Union Pb maximum contaminant levels: one cereal containing rice and oats and one rice-only cereal |
 
-| Analyte | Toledo 2024 p90 (BR, n=14) | FDA 2024 p90 (US, n=252-256) | FDA 2016 p90 (US, n=82) |
-| --- | ---: | ---: | ---: |
-| tAs | 141.64 ppb | 135.00 ppb | — (iAs only) |
-| iAs | — (only one sample speciated) | — (total only) | 124.90 ppb |
-| Al | 4890.31 ppb | — | — |
-| Ni | 428.00 ppb | — | — |
-| Cd | 19.00 ppb | 22.00 ppb | — |
-| Pb | 44.94 ppb | 19.10 ppb | — |
+Selected cancer-risk outputs:
 
-Toledo 2024 shows substantially higher Pb in Brazilian rice-based infant cereal (p90 44.94 vs FDA 19.10) — geographic variation that should not be silently merged into a single global aggregate without jurisdiction labeling per CLAUDE.md Part 6. tAs is consistent across U.S. and Brazil (~140 ppb p90). Al and Ni were not in the FDA datasets, so Toledo 2024 supplies the first sample-level Al and Ni distributions for rice-based infant cereal.
+| Output | Source-reported value |
+| --- | ---: |
+| Combined iAs + Pb ILCR range across infant cereals | 1.14 x 10^-6 to 3.99 x 10^-5 |
+| Mean ILCR for rice cereal | 2.6 x 10^-5 +/- 9.7 x 10^-6 |
+| Mean ILCR for multi-grain cereal containing rice | 1.3 x 10^-5 +/- 1.0 x 10^-5 |
+| Mean ILCR for non-rice-based cereal | 2.2 x 10^-6 +/- 8.7 x 10^-7 |
+| iAs contribution to total ILCR | 98.5% to 99.9% |
+| iAs-risk range if iAs is assumed to be 52% of tAs | 5.9 x 10^-7 to 2.1 x 10^-5 |
+| Mean rice-cereal ILCR if iAs is assumed to be 52% of tAs | 1.4 x 10^-5 |
+| Pb ILCR range across infant cereals | 1.15 x 10^-8 to 8.08 x 10^-8 |
 
-## Methods (brief)
+Selected non-cancer-risk outputs:
 
-Sample preparation: ICP-MS for total elements; HPLC-ICP-MS for arsenic speciation. The arsenic speciation was performed only on one sample where the concentration of As was below detection in the total-As determination, so iAs is not available at the sample level for the broader 18-sample pool — author's iAs analysis relies on the total-As to iAs conversion typical of rice-based products. Concentrations reported on a dry-weight basis. The paper notes that the underlying concentration data is from Pedron et al. and the Toledo 2024 contribution is the risk-assessment integration.
+| Output | Source-reported value |
+| --- | --- |
+| Samples with at least one HQ > 1 | 18 of 18 |
+| Elements responsible for HQ > 1 | As, Cd, Cu, Mn, Se, and Zn |
+| Elements most often responsible for HQ > 1 | Cd, Cu, Mn, and Zn, each in 15 or 16 samples |
+| Element least often responsible for HQ > 1 | Se, in 3 samples |
+| Proportion of evaluated element-sample combinations with HQ > 1 | 81.5% for rice cereal, 52.8% for multi-grain cereal containing rice, and 50.0% for non-rice-based cereal |
+| If iAs is assumed to be 52% of tAs | the number of samples with iAs HQ > 1 remains the same in the source's iAs sensitivity scenario; the authors state that 10 samples might present human-health risk under that assumption |
+| Elements with HQ < 1 in all evaluated samples | Ag, B, Ba, Co, Cr, Ni, Sr, Al, and Pb |
 
-## Evidence Fitness
+The sample-level Table 3 extraction for five structured-extraction analytes (tAs, Al, Ni, Cd, Pb) is retained at `data/evidence/category1_toledo2024_infant_cereal_brazil_samples.csv`; the source page does not use that extraction as an independent study count.
 
-EF-2 reconstructable A-tier sample-level evidence for the rice-based and non-rice infant cereal subcategories, with the caveat that the source-paper-of-record for the underlying concentration measurements is Pedron et al. (cited as ref [10] in Toledo 2024). The data table is faithfully reproduced in Toledo 2024's Table 3 with per-sample mean ± SD; sample-level extraction is reconstructable.
+## Methods
 
-## Limitations
+Toledo et al. used a deterministic risk-assessment framework with hazard identification, dose-response assessment, exposure assessment, and risk characterization. Exposure was modeled for two age groups: 4 to <12 months and 12 to <24 months.
 
-- Sample size is small (n=18) and concentrated in Brazilian-market products acquired 2014-2015. Geographic and temporal applicability to U.S. or EU contexts requires explicit jurisdiction metadata.
-- The non-rice subset is n=4, below the 10-sample defensibility floor. Use only for triangulation against U.S. FDA 2024 non-rice (n=25) and FDA 2016 non-rice (n=30).
-- iAs at sample level is not directly reported (speciation only on one sample where total As was below LOD); routing to iAs cells uses total-As as a conservative upper bound only with explicit caveat.
-- Toledo 2024 is the citing/risk-assessment paper. The original concentration source is Pedron et al. (ref [10] in Toledo 2024). When Pedron et al. is independently ingested as a source page, this Toledo 2024 entry should be reviewed for whether it adds risk-assessment context only (not double-counted as a separate concentration source) per the Part 6 row-fit n_a_tier counting.
-- Cr is total Cr only (not speciated); do not interpret as Cr-VI per CLAUDE.md Part 14.
+Risk inputs in Table 1:
+
+| Parameter | 4 to <12 months | 12 to <24 months |
+| --- | ---: | ---: |
+| Body weight | 7.8 kg | 11.2 kg |
+| Exposure frequency | 365 days/year | 365 days/year |
+| Exposure duration | 0.67 years | 1 year |
+| Ingestion rate | 31.2 g/day | 94.08 g/day |
+
+The concentration data came from 18 infant-cereal samples reported by Pedron et al. The source states that total concentrations of 22 elements were determined by ICP-MS and that arsenic speciation used HPLC coupled to the mass spectrometer. For the risk assessment, the authors selected elements with available slope factors or reference doses from IARC, US EPA, OEHHA, ATSDR, FAO, and related agencies. Cancer risk was calculated for iAs and Pb only because those were the two agents with available slope factors in the authors' framework.
+
+## Speciation and methods caveats
+
+- The full sample set reports total arsenic, not measured sample-by-sample iAs. One Brazilian rice-cereal sample had iAs speciation; the authors cite that iAs was approximately 40% of tAs in that sample.
+- The authors present a conservative scenario where iAs is 100% of tAs, and a lower scenario where iAs is 52% of tAs based on cited infant-cereal literature.
+- Chromium is total Cr only; the paper does not report Cr-VI.
+- Al, Cd, and Ni were not included in the cancer-risk calculation because the authors did not have cancer slope factors for those elements.
+- The Pb reference dose was calculated from a provisional tolerable weekly intake that the source notes had been withdrawn; the authors therefore caution that no Pb exposure level is currently considered safe.
+- The concentration data were originally generated by Pedron et al.; Toledo et al. is the risk-assessment integration paper and should not be double-counted as an independent concentration survey if Pedron et al. is separately ingested.
 
 ## Implications
 
-Certification: Direct A-tier sample-level evidence for the rice-based infant cereal Pb, Cd, tAs, Ni, and Al cells under HMTc Category 1, plus first sample-level Al and Ni distributions for that subcategory. Combined with FDA 2024 (n=252-256, U.S. compliance) and FDA 2016 (n=82, U.S. iAs), Toledo 2024 brings n_a_tier to 2-3 for several rice-based cereal cells. Geographic-context note required: Toledo's Brazilian-market Pb p90 (44.94 ppb) is more than 2× the U.S. FDA 2024 p90 (19.10 ppb), so any aggregate must label jurisdiction composition per Part 6.
+Standards work: This source provides Brazilian-market infant-cereal occurrence context and risk-model outputs for rice-based and non-rice dry baby-cereal pages. Its strongest source-specific signal is the contrast between rice-containing cereals and non-rice cereals for total arsenic and modeled iAs risk, with Cd and Pb retained as secondary toxic-element comparators.
 
-Courses: Useful illustration of geographic variation in rice cereal contamination, and of the value of sample-level data tables for downstream risk assessment.
+Courses: The paper is useful for teaching how speciation assumptions move arsenic risk estimates. The same tAs table can support materially different iAs risk scenarios depending on whether the model assumes 100%, 52%, or another fraction of total arsenic is inorganic.
 
-App: Supports rice-based infant cereal contamination_profile values for Al, Cd, Pb, Ni, tAs.
+App: The Table 3 sample extraction can support jurisdiction-labeled Brazilian occurrence context for baby-cereal displays, but it should be labeled as Brazilian-market data acquired in 2014-2015 and as a small sample set.
 
-Microbiome: No direct microbiome endpoint.
+## Wiki pages updated on ingest
 
-## Provenance Notes
-
-This source was acquired during the 2026-05-09 autonomous run via NCBI EFetch JATS XML for PMC11050093 (CC BY license per PMC OA bulk API). The JATS XML is preserved at `raw/external-fetch/2026-05-09/toledo2024-essential-toxic-elements-infant-cereal-brazil.jats.xml`. The PDF was not directly fetched (PMC's HTML interstitial blocked direct PDF download); the JATS XML is the canonical full-text artifact.
-
-The PMC ID PMC11050093 was originally surfaced via PubMed E-utilities elink as a candidate when searching for hexavalent chromium in baby food (where it was a citing paper rather than the original Mathebula 2019 target). On reverse-verification via PMC esummary, PMC11050093 was identified as Toledo 2024 — itself a high-value paper directly relevant to infant cereal subcategories. See `wiki/batch-reports/data-gap-wishlist-2026-05-09.md` for the full PMC ID correction note.
-
-## Wiki Pages Updated On Ingest
-
+- [[metals/arsenic-total]]
+- [[metals/arsenic-inorganic]]
+- [[metals/aluminum]]
+- [[metals/cadmium]]
+- [[metals/lead]]
+- [[metals/nickel]]
+- [[ingredients/rice]]
+- [[ingredients/corn]]
+- [[ingredients/oat]]
+- [[ingredients/wheat]]
+- [[ingredients/non-rice-grains]]
+- [[ingredients/infant-cereal-ingredients]]
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/baby-cereals-dry-non-rice]]
-- [[products/infant-and-child-foods-master]]
+- [[regulations/fda-iAs-rice-cereal-100ppb]]
+- [[regulations/fda-closer-to-zero]]
+
+## Verification notes
+
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter, while retaining the earlier JATS and sample-extraction paths.
+- Fresh-context audit (Codex, 2026-05-18) caught an ambiguous 52% iAs non-cancer-risk row; clarified that the unchanged HQ count refers to the source's iAs sensitivity scenario and the authors' 10-sample risk statement, not the overall 18-of-18 all-element count.
+- Removed the unsupported `Sn` frontmatter metal from the older page; tin appears in the Brazilian infant-food regulation background but was not one of the paper's reported infant-cereal concentration analytes.
+- Replaced older cross-study HMTc comparison prose with source-only risk-assessment results to preserve the wiki/HMTc firewall.
+- Strict brand-firewall check: the source says the 18 samples came from eight brands, but this page does not name or rank any sampled brand.
