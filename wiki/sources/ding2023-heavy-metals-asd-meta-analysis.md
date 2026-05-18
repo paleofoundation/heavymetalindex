@@ -9,7 +9,7 @@ doi: "10.3389/fped.2023.1169733"
 source_type: peer-reviewed
 evidence_tier: A
 tier_rationale: "Per CLAUDE.md Part 13: peer-reviewed systematic review and meta-analysis in Frontiers in Pediatrics. PRISMA-compliant search across PubMed, Web of Science, Embase, and Cochrane Library; Newcastle-Ottawa Scale quality assessment (all 53 included studies scored ≥6, mean 7.1); 5,054 participants pooled."
-method_quality_caveat: "Meta-analysis of case-control studies only; causality cannot be inferred from the pooled estimates. Random-effects heterogeneity was very high for every metal (I² = 92.1% Cd, 96.7% Pb, 97.3% As, 94.6% Hg). Confounders (age, sex, BMI, dietary patterns) could not be adjusted across primary studies because the pooled estimates compared case and control groups directly. Significant publication bias detected for Pb (Begg's P=0.002, Egger's P<0.001) and Hg (Begg's P=0.003, Egger's P<0.001), though Trim-and-Fill did not change conclusions. Included studies used heterogeneous analytical methods (AAS, ICP-MS, FAAS, ABA, ICP-OES). Most included studies measured total arsenic and total mercury rather than speciated iAs/MeHg."
+method_quality_caveat: "Meta-analysis of case-control studies only; causality cannot be inferred from the pooled estimates. Random-effects heterogeneity was very high for every metal (I² = 92.1% Cd, 96.7% Pb, 97.3% As, 94.6% Hg). Confounders (age, sex, BMI, dietary patterns) could not be adjusted across primary studies because the pooled estimates compared case and control groups directly. Significant publication bias detected for Pb (Begg's P=0.002, Egger's P<0.001) and Hg (Begg's P=0.002, Egger's P=0.008), though Trim-and-Fill did not change conclusions. Included studies used heterogeneous analytical methods (AAS, ICP-MS, FAAS, ABA, ICP-OES). Most included studies measured total arsenic and total mercury rather than speciated iAs/MeHg."
 license: cc-by
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Association_between_heavy_metals_exposure_cadmium_lead_arsenic_mercury_and.pdf"
 raw_handle: MFK_association-between-heavy-metals-exposure-cadmium-
@@ -62,7 +62,7 @@ Mercury (34 studies, random-effects model, I²=94.6%, P_heterogeneity<0.001):
 - Overall: SMD = 0.74, 95% CI (0.44, 1.03), P<0.001 (ASD > controls).
 - By detection source (Table 2): hair 20 studies, SMD 0.91 (0.35, 1.48), P=0.001; blood 13 studies, SMD 0.77 (0.35, 1.19), P<0.001; urine 20 studies, SMD 0.29 (0.11, 0.47), P=0.002; fingernails SMD 1.22 (0.60, 1.83), P<0.05; teeth SMD 0.40 (−0.42, 1.21), P>0.05.
 - By region (Table 2): North America 8 studies, SMD −0.02 (−0.62, 0.59), P=0.951; Asia 13 studies, SMD 1.55 (0.82, 2.29), P<0.001; Europe 12 studies, SMD 0.55 (0.24, 0.86), P<0.001.
-- Significant publication bias (Begg's P=0.003, Egger's P<0.001); Trim-and-Fill did not change conclusions.
+- Significant publication bias (Begg's P=0.002, Egger's P=0.008); Trim-and-Fill did not change conclusions.
 
 Sensitivity analysis (leave-one-out, Figure 3) did not reverse the pooled direction for any of the four metals.
 
@@ -72,7 +72,7 @@ PRISMA-aligned systematic review and meta-analysis. Search: PubMed, Embase, Web 
 
 ## Implications
 
-- Certification (HMTc): Exposure-side evidence rather than food-contamination evidence. The pooled estimates connect elevated body burdens of Pb, As, and Hg in children to a neurodevelopmental outcome (ASD). This is the population-health context that motivates tight thresholds in infant-and-child product categories — measured body burden differences of SMD>1.0 for Pb and As in case-control comparison are large effect sizes in epidemiological terms. The Cd null result overall, and reversed direction in North America, are themselves informative for threshold-setting that needs to account for regional exposure mix.
+- Certification (HMTc): Exposure-side evidence rather than food-contamination evidence. Contributes pooled biomarker-elevation data linking ASD case status to higher body burdens of Pb (SMD 1.16), As (SMD 1.40), and Hg (SMD 0.74) versus healthy controls; the Cd null result overall, with reversed direction in North America, is part of the same evidence base. This is the population-health context that threshold-setting workflows draw on; the paper does not propose threshold values and neither does this page.
 - Courses: Useful as a teachable example of high-heterogeneity meta-analysis where geographic subgroup analysis materially changes the conclusion. The North America vs Asia/Europe split (with North American studies showing lower or null ASD-control differences for Cd, As, and Hg) is a useful case study for regulatory-affairs audiences working across jurisdictions.
 - App: Does not contribute to ingredient `contamination_profile` values. This is biomarker/exposure data, not food-occurrence data.
 - Microbiome: The discussion (section 4.4) notes that altered gut flora in ASD children (related to antibiotic use and to glutathione/GSH levels) may compromise Hg excretion via reduced demethylation of methylmercury, contributing to higher body burdens. This is a literature-citation framing within the discussion, not an original measurement; relevant context for the metals-microbiome-neurodevelopment axis but secondary to the meta-analytic findings.
@@ -87,6 +87,8 @@ PRISMA-aligned systematic review and meta-analysis. Search: PubMed, Embase, Web 
 - Matrices field uses `hair`, `blood`, `urine` from the controlled vocabulary; the paper also reports fingernail and teeth measurements as a smaller fraction of contributing studies. No bare-string matrices were invented.
 - `jurisdictions: [international]` follows the global-review convention; the included primary studies span 22 countries across five continents.
 - Products and ingredients are both empty because no food product or ingredient is measured. This source contributes exposure/health-outcomes evidence to the four metal pages only.
+- Audit subagent 2026-05-18 flagged Hg publication-bias values as Begg's P=0.003 / Egger's P<0.001 instead of the PDF's "P = 0.002 in Begg's test and P = 0.008 in Egger's test" (Section 3.6); verified against PDF page 6 — corrected to Begg's P=0.002, Egger's P=0.008 in both `## Key numbers` Mercury bullet and `method_quality_caveat`.
+- Audit subagent 2026-05-18 flagged the Certification (HMTc) implications bullet as edging into prescriptive language ("motivates tight thresholds", "needs to account for regional exposure mix"); softened to neutral contribution-only framing per Part 2.
 
 ## Wiki pages this source may touch
 
