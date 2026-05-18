@@ -11,6 +11,7 @@ limit_unit: "mg/kg total mercury as Hg"
 status: active
 effective_date: 2013-01-29
 source_url: "https://leap.unep.org/en/countries/ec/national-legislation/resolucion-no-302-nte-inen-184-sobre-requisitos-para-atun-y"
+near_duplicates: ["ec-nte-inen-184-2013-canned-tuna (deleted 2026-05-18)"]
 audience: [regulator, educator, commercial, app, legal]
 updated: 2026-05-18
 ---
