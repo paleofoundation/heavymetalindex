@@ -57,7 +57,7 @@ Effect size on the original (ng/g) scale per +10-point BDS: Hg +1.04, Pb −0.98
 - Pb: 0.129 ng/g
 - Cd: 0.0234 ng/g
 
-All measured whole-blood concentrations of Hg, Pb and Cd were above the analyte LOD. BDS range across the cohort: 13.1–70.0 (median 48.0, IQR 42.3–53.0). Hg measured as total Hg (no speciation); reported here as tHg per wiki convention.
+All measured whole-blood concentrations of Hg, Pb and Cd were above the analyte LOD. BDS observed quartile cutoffs span 13.1 (Q1 lower bound) to 70.0 (Q4 upper bound, which is also the theoretical maximum); median 48.0 (IQR 42.3–53.0); central 98% of the distribution (1st–99th percentile) is 27.7–62.6 (paper §3.1, p.5). Hg measured as total Hg (no speciation); reported here as tHg per wiki convention.
 
 ## Methods (brief)
 
@@ -69,7 +69,7 @@ Statistical analysis: Bayesian inference of univariate and multiple linear regre
 
 ## Implications
 
-**Certification:** This is one of the largest prospective birth cohort studies (n=72,317) demonstrating a Pb-LBW dose-response across blood Pb concentrations in the 1.2–110 ng/g range, with significant LBW associations down to the second quartile of blood Pb (4.72–5.85 ng/g; adjusted OR 1.18, 95% CrI 1.07, 1.30 vs Q1 ≤4.71 ng/g). The literature-baseline finding here is that even very low background-level blood Pb in a low-exposure population is associated with measurable LBW risk; the per-doubling adjusted OR of 1.50 means each doubling of maternal blood Pb is associated with roughly 50% greater odds of LBW. The diet-quality interaction does not eliminate this risk, only attenuates it. For HMTc threshold-setting on infant and maternal-relevant matrices, this study anchors the literature view that the Pb-LBW association is detectable below the former CDC blood-Pb level of concern (50 ng/g = 5 µg/dL) and supports stringent dietary-Pb minimisation.
+**Certification:** This is one of the largest prospective birth cohort studies (n=72,317) demonstrating a Pb-LBW dose-response across blood Pb concentrations in the 1.2–110 ng/g range, with significant LBW associations down to the second quartile of blood Pb (4.72–5.85 ng/g; adjusted OR 1.18, 95% CrI 1.07, 1.30 vs Q1 ≤4.71 ng/g). The per-doubling adjusted OR of 1.50 means each doubling of maternal blood Pb is associated with roughly 50% greater odds of LBW; the diet-quality interaction attenuates but does not eliminate this risk. For HMTc literature-baseline use, this study contributes prospective-cohort evidence that maternal blood Pb below the former CDC blood-Pb level of concern (50 ng/g = 5 µg/dL) is associated with measurable LBW risk.
 
 **Courses:** Useful case study for the interaction between dietary quality and metal toxicity. The Hg-fish-consumption pattern illustrates a co-exposure trade-off: higher BDS reflects more fish and shellfish, which raises Hg but lowers Pb and Cd through better mineral status (Ca, Fe, Zn) and lower intestinal Pb/Cd absorption. Relevant to prenatal-nutrition modules and to dietary-counselling content that addresses the fish-Hg trade-off in pregnancy.
 
@@ -90,6 +90,11 @@ Defects corrected:
 - **access_url** and **raw_sha256** added for provenance.
 
 Preserved per v2 skill rule: `cite_key`, `doi`, `evidence_tier: A`, `license: CC BY-NC-ND 4.0`, `source_type: peer-reviewed`, `jurisdictions: [JP]`, `sample_n: 72317`, `near_duplicates: []`, `matrices: [blood, maternal-blood]`, `products: []`, `ingredients: []` (paper measures blood biomarkers and dietary patterns, not food contamination; product/ingredient frontmatter correctly empty — advisory-only routing_malformed entry expected).
+
+**Audit subagent (2026-05-18, fresh-context general-purpose):** REVISE verdict. Three findings; two applied, one rejected as false positive.
+- ⚠️ Check 1 BDS-range phrasing — applied. Tightened "BDS range across the cohort: 13.1–70.0" to distinguish observed quartile cutoffs (13.1–70.0) from the 1st–99th percentile range (27.7–62.6, per §3.1 p.5).
+- ⚠️ Check 5 "supports stringent dietary-Pb minimisation" — applied. Reworded Implications-Certification closing to data-contribution framing per Part 2 (literature-reports, does-not-advocate).
+- ❌ Check 3 "Agilent 7700 instrument-model regression" — **rejected as false positive.** Re-read of PDF p.2 §2.2 confirms the published paper text reads "...inductively coupled plasma-mass spectrometry analysis (Agilent Technologies, Tokyo, Japan)" with no model number. The subagent's quoted text "(Agilent 7700, Agilent Technologies, Tokyo, Japan)" does not appear in this paper; the model "Agilent 7700" likely came from a citing reference (Nakayama et al. 2019 is cited for full method detail) and was incorrectly attributed to the present paper. The wiki page's correction (removing "Agilent 7700") is faithful to the source.
 
 ## Wiki pages updated on ingest
 
