@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
+Disallow: /staff
+Disallow: /staff/
+Disallow: /workbench
+Disallow: /workbench/
+Disallow: /admin
+Disallow: /admin/
+Disallow: /standards-workbench
+Disallow: /standards-workbench/
 
 Sitemap: https://heavymetalindex.com/sitemap.xml

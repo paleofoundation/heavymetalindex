@@ -1,5 +1,13 @@
 import { next } from "@vercel/functions";
 
+const PERMANENTLY_GONE_PREFIXES = ["/workbench", "/standards-workbench"];
+
+function isPermanentlyGone(pathname: string): boolean {
+  return PERMANENTLY_GONE_PREFIXES.some(
+    (p) => pathname === p || pathname.startsWith(`${p}/`),
+  );
+}
+
 const PROTECTED_PREFIXES = [
   "/staff",
   "/admin",
@@ -34,6 +42,17 @@ export const config = {
 
 export default async function middleware(request: Request) {
   const url = new URL(request.url);
+
+  // /workbench/* and /standards-workbench/* have no production content and
+  // never will — the workbench is a local dev tool. Return 410 so Google
+  // deindexes the historical URLs from the pre-May-13 deploys, instead of
+  // keeping them in the discovery queue via the /staff/login 302.
+  if (isPermanentlyGone(url.pathname)) {
+    return new Response("Gone", {
+      status: 410,
+      headers: { "Cache-Control": "no-store" },
+    });
+  }
 
   if (!isProtectedPath(url.pathname)) {
     return next();

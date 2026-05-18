@@ -91,9 +91,18 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
-    // Url of current page
+    const canonicalSlug = (slug: string | undefined): string => {
+      if (!slug) return ""
+      return slug.replace(/\/index$/, "").replace(/^index$/, "")
+    }
+
+    // Url of current page, with /index suffix stripped for hub/folder pages
     const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+      fileData.slug === "404"
+        ? url.toString()
+        : joinSegments(url.toString(), canonicalSlug(fileData.slug))
+
+    const isNoindexPage = frontmatterBoolean(fileData.frontmatter?.noindex)
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
@@ -148,9 +157,8 @@ export default (() => {
 
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
-        {frontmatterBoolean(fileData.frontmatter?.noindex) && (
-          <meta name="robots" content="noindex, nofollow" />
-        )}
+        {!isNoindexPage && <link rel="canonical" href={socialUrl} />}
+        {isNoindexPage && <meta name="robots" content="noindex, nofollow" />}
         <CitationMetadata
           frontmatter={fileData.frontmatter}
           slug={fileData.slug}

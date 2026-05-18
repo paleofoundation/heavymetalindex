@@ -36,9 +36,14 @@ const defaultOptions: BreadcrumbOptions = {
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
+  const resolved = resolveRelative(baseSlug, currentSlug)
+  const path =
+    resolved.endsWith("/") && resolved !== "./" && resolved !== "../"
+      ? resolved.slice(0, -1)
+      : resolved
   return {
     displayName: displayName.replaceAll("-", " "),
-    path: resolveRelative(baseSlug, currentSlug),
+    path,
   }
 }
 

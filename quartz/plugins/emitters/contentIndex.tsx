@@ -40,6 +40,22 @@ const defaultOptions: Options = {
   includeEmptyFiles: true,
 }
 
+const PRIVATE_PATH_PREFIXES = [
+  "staff",
+  "workbench",
+  "admin",
+  "standards-workbench",
+  "batch-reports",
+]
+
+function isPrivateSlug(slug: string): boolean {
+  return PRIVATE_PATH_PREFIXES.some((p) => slug === p || slug.startsWith(`${p}/`))
+}
+
+function hasXmlExt(slug: string): boolean {
+  return slug.endsWith(".xml")
+}
+
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string {
   const base = cfg.baseUrl ?? ""
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<url>
@@ -47,7 +63,10 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string
     ${content.date && `<lastmod>${content.date.toISOString()}</lastmod>`}
   </url>`
   const urls = Array.from(idx)
-    .filter(([_, content]) => !content.noindex)
+    .filter(([slug, content]) => {
+      const simple = simplifySlug(slug)
+      return !content.noindex && !isPrivateSlug(simple) && !hasXmlExt(simple)
+    })
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .join("")
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
@@ -65,7 +84,10 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?:
   </item>`
 
   const items = Array.from(idx)
-    .filter(([_, content]) => !content.noindex)
+    .filter(([slug, content]) => {
+      const simple = simplifySlug(slug)
+      return !content.noindex && !isPrivateSlug(simple) && !hasXmlExt(simple)
+    })
     .sort(([_, f1], [__, f2]) => {
       if (f1.date && f2.date) {
         return f2.date.getTime() - f1.date.getTime()
@@ -145,7 +167,10 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       const fp = joinSegments("static", "contentIndex") as FullSlug
       const simplifiedIndex = Object.fromEntries(
         Array.from(linkIndex)
-          .filter(([_, content]) => !content.noindex)
+          .filter(([slug, content]) => {
+            const simple = simplifySlug(slug)
+            return !content.noindex && !isPrivateSlug(simple) && !hasXmlExt(simple)
+          })
           .map(([slug, content]) => {
             // remove description and from content index as nothing downstream
             // actually uses it. we only keep it in the index as we need it

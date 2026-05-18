@@ -22,6 +22,13 @@ const config: QuartzConfig = {
       "_TEMPLATE.md",
       "raw",
       "**/raw/**",
+      "workbench",
+      "**/workbench/**",
+      "staff",
+      "staff.md",
+      "**/staff/**",
+      "admin",
+      "**/admin/**",
     ],
     defaultDateType: "modified",
     theme: {

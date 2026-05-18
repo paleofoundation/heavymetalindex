@@ -37,7 +37,6 @@ const footerSections = [
       ["Privacy Notice", "/privacy"],
       ["Terms", "/terms"],
       ["Licensing", "/contact"],
-      ["Staff", "/staff"],
     ],
   },
 ]
