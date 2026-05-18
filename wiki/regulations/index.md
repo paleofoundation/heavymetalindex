@@ -36,6 +36,10 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 - [[regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded]] - historical fresh/refrigerated/frozen fish standard cancelled by NOM-242-SSA1-2009.
 - [[regulations/mx-nom-028-ssa1-1993-canned-fish-superseded]] - historical canned-fish standard cancelled by NOM-242-SSA1-2009.
 
+## Turkey Contaminants Maximum Levels
+
+- [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk]] - Turkish Food Codex raw milk, heat-treated milk, and milk for milk-based products lead maximum level.
+
 <!-- BEGIN: hmi-auto-linked-stubs -->
 
 ## Auto-linked stubs
