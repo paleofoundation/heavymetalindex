@@ -1,87 +1,119 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_cadmium-and-lead-content-in-gluten-and-gluten-free
 cite_key: gacal2023-cadmium-lead-bread-gluten-free-poland
-title: "Cadmium and lead content in gluten and gluten-free bread available on Polish market – potential health risk to consumers"
+title: "Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers"
 authors: [Gacal M, Gut-Pietrasz K, Cwielag-Drabek M]
 year: 2023
 publication: "Annales Academiae Medicae Silesiensis"
 doi: 10.18794/aams/172906
+no_doi_assigned: false
+access_url: "https://doi.org/10.18794/aams/172906"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-SA 4.0"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Cadmium and lead content in gluten and gluten-free bread.pdf"
+raw_sha256: 83e76c74efe28246742514850941b5a12262945654f9069dd59d5c7ec92052b4
+near_duplicates: []
 metals: [Cd, Pb]
-ingredients: ["[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/rice-flour]]", "[[ingredients/corn]]"]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/rice-flour]]", "[[ingredients/corn]]", "[[ingredients/bread]]"]
 products: ["[[products/bread-and-baked-goods]]"]
-matrices: [bread, wheat-bread, rye-bread, wheat-rye-bread, gluten-free-bread]
+matrices: [cereal-grain, dietary-intake]
 jurisdictions: [PL, EU]
 sample_n: 50
-sample_population: "50 bread samples purchased in Silesia Province, Poland: 10 gluten-free, 12 wheat-rye, 20 wheat, 8 rye"
-updated: 2026-05-13
+sample_population: "50 bread samples purchased in Silesia Province, Poland: 10 gluten-free, 12 wheat-rye, 20 wheat, and 8 rye."
+updated: 2026-05-18
 ---
 
-# Gacal et al. 2023 — Cadmium and lead in gluten and gluten-free bread, Poland
+# Gacal et al. 2023 - Cadmium and lead in gluten and gluten-free bread, Poland
 
-This peer-reviewed study measured Cd and Pb concentrations in 50 bread samples from the Polish market (Silesia Province) using ET-AAS (electrothermal atomic absorption spectrometry), then assessed non-carcinogenic and carcinogenic health risk for eight age groups using US EPA THQ/HQ and cancer risk methods. The central finding is that Cd concentrations ranked wheat-rye bread highest (mean 0.072 mg/kg) and gluten-free bread lowest (mean 0.021 mg/kg), contradicting the hypothesis that gluten-free breads — which typically contain rice or maize flour — would carry higher heavy metal loads for Cd and Pb. Lead was detectable above LOQ in only one wheat bread sample (max 0.152 mg/kg). Significant non-carcinogenic risk (HQ > 1) for Cd appeared only for the youngest children (6 months to <3 years) exposed to maximum wheat-rye bread concentrations; cancer risk for Cd and combined Cd+Pb exceeded 10-4 for children under 11 years in worst-case scenarios. The study concludes that at current contamination and consumption levels, children under 11 years face potential significant cancer health risk from Cd and Pb in wheat and wheat-rye bread.
+Gacal et al. (2023) measured cadmium and lead in 50 bread samples purchased in Silesia Province, Poland, then estimated non-cancer and cancer risk across eight age groups. The study is a finished-product bread occurrence source for Cd and Pb, with separate rows for gluten-free, wheat-rye, wheat, and rye bread. The authors' initial hypothesis was that gluten-free bread would be more contaminated because many gluten-free formulations use rice or maize flour, but measured Cd was lowest in the gluten-free group and Pb was above LOQ in only one wheat-bread sample.
 
 ## Key numbers
 
-Cd concentrations in bread (mg/kg fresh weight):
+Table VI reports Cd and Pb concentrations in mg/kg for the tested bread samples.
 
-| Bread type | Min | Mean | Max |
-|---|---|---|---|
-| Gluten-free (n=10) | < LOQ | 0.021 | 0.040 |
-| Wheat-rye (n=12) | 0.030 | 0.072 | 0.164 |
-| Wheat (n=20) | 0.022 | 0.050 | 0.090 |
-| Rye (n=8) | 0.008 | 0.041 | 0.088 |
+| Bread type | n | Cd min mg/kg | Cd mean mg/kg | Cd max mg/kg | Pb result |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Gluten-free | 10 | < LOQ | 0.021 | 0.040 | all < LOQ |
+| Wheat-rye | 12 | 0.030 | 0.072 | 0.164 | all < LOQ |
+| Wheat | 20 | 0.022 | 0.050 | 0.090 | one sample above LOQ; max 0.152 mg/kg |
+| Rye | 8 | 0.008 | 0.041 | 0.088 | all < LOQ |
 
-Cd LOD: 0.0043 mg/kg; LOQ: 0.008 mg/kg.
+Cd ranking by mean concentration: wheat-rye > wheat > rye > gluten-free.
 
-Pb concentrations: below LOQ in all samples except one wheat bread sample (max 0.152 mg/kg; mean reported as "—" since only one detectable result). Pb LOD: 0.044 mg/kg; LOQ: 0.08 mg/kg.
+Method limits:
 
-EU regulatory limits for reference:
-- Cd in cereals: 0.10 mg/kg fresh weight (EU Reg 2021/1323); rye specifically: 0.050 mg/kg
-- Pb in cereals: 0.20 mg/kg fresh weight (EU Reg 2021/1317)
-- Exceedances: Cd in 2 of 8 rye bread samples exceeded the rye-specific 0.050 mg/kg limit; 1 wheat-rye sample exceeded the general 0.10 mg/kg Cd limit. The single detectable Pb sample did not exceed 0.20 mg/kg.
+| Metal | LOD | LOQ | Wavelength |
+| --- | ---: | ---: | ---: |
+| Cd | 0.0043 mg/kg | 0.008 mg/kg | 228.8 nm |
+| Pb | 0.044 mg/kg | 0.08 mg/kg | 217 nm |
 
-Non-carcinogenic risk (HQ) for Cd at maximum concentration in wheat-rye bread:
-- Children 6–11 months: HQ = 1.78 (exceeds safe threshold of 1)
-- Children 1–<2 years: HQ = 1.44
-- Children 2–<3 years: HQ = 1.19
-- All older groups: HQ < 1
+Regulatory comparators cited by the source:
 
-Cancer risk (CR) for Cd at mean concentration in wheat-rye bread:
-- Children 6–11 months: 1.3 × 10-4 (exceeds acceptable 10-4 threshold)
-- Children 1–<2 years: 1.0 × 10-4
+- EU Regulation 2021/1323 set Cd maximum levels for cereals at 0.10 mg/kg wet weight, with rye and barley at 0.050 mg/kg.
+- EU Regulation 2021/1317 set Pb maximum levels for cereals and pulses at 0.20 mg/kg wet weight.
+- In this study, Cd exceeded the rye-specific 0.050 mg/kg comparator in 2 of 8 rye samples, and one wheat-rye sample exceeded the 0.10 mg/kg general cereal comparator. The single detectable Pb sample did not exceed 0.20 mg/kg.
 
-Cancer risk index (CRI, combined Cd + Pb at maximum wheat bread concentrations):
-- Children 6–11 months: 3.54 × 10-4
-- Children 1–<2 years: 2.86 × 10-4
-- Children 2–<3 years: 2.36 × 10-4
-- Children up to < 11 years: all exceed 10-4
+Risk-model inputs and selected outputs:
 
-Consumption assumption: 100 g bread/day (approximately 4 slices), applied uniformly across age groups. Authors note this is high but possible for youngest groups.
+| Parameter | Value |
+| --- | --- |
+| Consumption assumption | 100 g bread/day, described as approximately 4 slices |
+| Cd RfD | 0.0010 mg/kg/day |
+| Pb RfD | 0.0036 mg/kg/day |
+| Cd slope factor | 6.1 mg/kg/day |
+| Pb slope factor | 8.5 mg/kg/day |
+| Age groups | 6-11 months, 1-<2 years, 2-<3 years, 3-<6 years, 6-<11 years, 11-<16 years, 16-<21 years, adult |
 
-## Methods (brief)
+Selected risk results:
 
-ET-AAS (electrothermal atomic absorption spectrometry) on Savanta Sigma spectrometer (GBC, Australia). Microwave closed-vessel mineralization: 1 g sample in HNO3 + H2O2. Matrix modifier for Pb: NH4H2PO4 + Mg(NO3)2. LOD Cd: 0.0043 mg/kg; LOQ Cd: 0.008 mg/kg. LOD Pb: 0.044 mg/kg; LOQ Pb: 0.08 mg/kg. Wavelengths: Cd 228.8 nm, Pb 217 nm. Health risk: US EPA HQ/THQ and cancer risk (slope factor) methods for 8 age groups. Note: only Cd and Pb measured; no As, Hg, or Ni data.
+- For maximum Cd in wheat-rye bread, Cd HQ exceeded 1 for children aged 6-11 months (1.78), 1-<2 years (1.44), and 2-<3 years (1.19). Older age groups were below 1.
+- For mean Cd in wheat-rye bread, Cd CR was 1.3 x 10^-4 for children aged 6-11 months and 1.0 x 10^-4 for children aged 1-<2 years.
+- For maximum Cd in wheat-rye bread, Cd CR exceeded 10^-4 for children aged 6 months to <6 years.
+- For maximum Cd in wheat bread, Cd CR exceeded 10^-4 for children aged 6 months to <3 years.
+- For the single maximum Pb wheat-bread sample, Pb HQ did not exceed 1 in any age group, but Pb CR exceeded 10^-4 for children aged 6 months to <3 years.
+- For combined maximum Pb and Cd in wheat bread, HI exceeded 1 for children aged 6-11 months (1.43) and 1-<2 years (1.16); CRI exceeded 10^-4 for children aged 6 months to <11 years.
+
+## Methods
+
+The study analyzed 50 bread samples purchased in various cities in Silesia Province, Poland. The sample set consisted of 10 gluten-free breads, 12 wheat-rye breads, 20 wheat breads, and 8 rye breads. The authors homogenized the bread and prepared 1 g (+/- 3%) analytical portions.
+
+Samples were mineralized in a closed microwave system with 8 mL ultrapure nitric acid and 1 mL hydrogen peroxide, then diluted to 25 mL. Cd and Pb were determined by electrothermal atomic absorption spectrometry (ET-AAS). The Pb method used a matrix modifier containing ammonium dihydrogen phosphate and magnesium nitrate in nitric acid. The authors monitored validity with duplicate samples and standard-addition checks.
+
+Health-risk calculations followed US EPA ingestion equations. Average daily dose (ADD), hazard quotient (HQ), hazard index (HI), cancer risk (CR), and cancer risk index (CRI) were calculated from the measured concentrations, assumed ingestion rate, age-specific body weights, RfDs, and slope factors.
+
+## Speciation and methods caveats
+
+- Cd and Pb are reported as total element concentrations in finished bread. No chemical species are distinguished.
+- The study did not measure arsenic, mercury, nickel, or gluten concentration. The source discusses gluten-free formulation and literature on arsenic/mercury in gluten-free diets as background only.
+- The 100 g/day ingestion assumption was applied to every age group. The authors explicitly note that this is high for the youngest groups, though not impossible.
+- The EU 2021 amendment regulations cited by the source have since been superseded by Regulation (EU) 2023/915; they remain relevant here because they are the comparators used in the paper.
 
 ## Implications
 
-Certification: Provides bread-specific Cd concentration data for Poland/EU market. The finding that wheat-rye bread carries the highest Cd load (mean 0.072 mg/kg) while gluten-free bread carries the lowest (mean 0.021 mg/kg) is counterintuitive given that gluten-free breads often contain rice flour, which is a high-iAs ingredient. The authors note the absence of As and Hg measurements as a study limitation. HMT&C product pages for baked goods should reflect this Cd hierarchy: wheat-rye > wheat > rye > gluten-free for Cd.
+Standards work: This source contributes Polish/EU finished-bread Cd and Pb occurrence evidence for bread-and-baked-goods routing. It is especially useful for distinguishing wheat-rye, wheat, rye, and gluten-free bread within one sampling frame.
 
-Courses: Good teaching case for population-stratified risk assessment — the HQ and CR calculations demonstrate why children under 3 years face qualitatively different risk from the same bread consumed at the same rate as adults, due to lower body weight. The gluten-free paradox (lower Cd but expected higher As) is pedagogically valuable.
+Courses: The study is a strong teaching case for age-stratified exposure math. A concentration that produces HQ below 1 in adults can exceed or approach risk-screen values in small children when the same serving assumption is applied across body weights.
 
-App: Mean Cd values by bread type (gluten-free: 21 ppb; rye: 41 ppb; wheat: 50 ppb; wheat-rye: 72 ppb; all in µg/kg) are usable for Polish/EU market bread Cd profiling. Pb is effectively below LOQ for all bread types except one outlier wheat sample. As, Hg, and Ni data absent from this study; those fields remain uncharacterized for bread from this source.
+App: The bread-type Cd means can support occurrence-context displays for Polish/EU bread products. They are not HMT&C thresholds, and the risk-model outputs depend heavily on the 100 g/day assumption.
 
 ## Wiki pages updated on ingest
 
 - [[metals/cadmium]]
 - [[metals/lead]]
-- [[ingredients/wheat-flour]]
-- [[ingredients/rye-flour]]
+- [[ingredients/wheat]]
+- [[ingredients/non-rice-grains]]
+- [[ingredients/rice-flour]]
+- [[ingredients/corn]]
 - [[ingredients/bread]]
 - [[products/bread-and-baked-goods]]
-- [[regulations/eu-reg-2021-1323-cadmium]]
-- [[regulations/eu-reg-2021-1317-lead]]
+- [[regulations/eu-2021-1323-cadmium-cereals-superseded]]
+- [[regulations/eu-2021-1317-lead-cereals-superseded]]
+
+## Verification notes
+
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Replaced invalid/nonexistent regulation links with source-specific superseded EU 2021 amendment pages created during this ingest.
+- Replaced non-vocabulary matrix labels such as wheat-bread and gluten-free-bread with common matrix labels; bread subtype details remain in `sample_population` and the Key numbers table.
+- Strict brand-firewall check: no consumer brands are named. The source says gluten-free samples considered brand availability/dissemination, but this wiki page does not identify those brands.
