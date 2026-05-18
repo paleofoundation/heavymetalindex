@@ -10,7 +10,9 @@ doi: 10.1007/s11356-021-17153-7
 source_type: review
 evidence_tier: B
 license: "unknown"
+access_url: "https://doi.org/10.1007/s11356-021-17153-7"
 raw_path: "raw/Papers Cube Manual Fetch/sarker2021.pdf"
+raw_sha256: b7f4bb2a7b8ec0a0f207fc6c767eecfa8ecd3ceaa26d1a6894ef376636f49d35
 metals: [Pb, Cd, tAs, Cr, Ni, Zn, Cu, tHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]", "[[ingredients/fruit]]", "[[ingredients/meat]]", "[[ingredients/milk-and-dairy]]"]
 products: ["[[products/fresh-fish]]"]
@@ -19,7 +21,7 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic review of published literature on heavy metal contamination in foodstuffs, soil, and water in Bangladesh; first systematic review to explore multi-trophic transfer in Bangladesh food webs"
-updated: 2026-05-17
+updated: 2026-05-18
 ---
 
 # Sarker et al. 2022 — Heavy metals in Bangladesh food webs: systematic review (ESPR)
@@ -73,3 +75,4 @@ Systematic and non-exhaustive review (no PRISMA protocol or verified methodology
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected the tilapia arsenic claim from "above safety limits" to the source-supported comparison, expanded metal and ingredient scope to match review tables, replaced nonstandard matrix terms, removed invalid supply-chain/regulation links, and reframed origin-risk language as source-level context.
 - The review reports arsenic and mercury without species separation; this page treats them as total arsenic (`tAs`) and total mercury (`tHg`).
+- Brand-firewall recheck under the stricter Part 12 reading locked 2026-05-17 (Claude Code, 2026-05-18): zero brand names present in page content. Species names (rahu, tilapia, pangas — `Labeo rohita`, `Oreochromis mossambicus`, `Pangasius pangasius`) are scientific binomials, not brand attributions. The review itself names no brands; it summarises prior studies by river, agroecological zone, and market. `access_url` and `raw_sha256` were added in the same pass.
