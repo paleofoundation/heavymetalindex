@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 access_url: "https://doi.org/10.3390/agriculture13101983"
 raw_path: "raw/Papers Cube Manual Fetch/article (1) copy 7.pdf"
 raw_sha256: 205991258bf7d9c6b12d79d20d8e7e0bf23c365c805dbf00c75ccaf411774c08
-metals: [Pb, Cd, tAs, Cr, Ni, Al, Sn, tHg, MeHg]
+metals: [Pb, Cd, tAs, Cr, Cr-VI, Ni, Al, tHg, MeHg]
 ingredients: ["[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/maize]]", "[[ingredients/barley]]"]
 products: []
 matrices: [cereal-grain, agricultural-soil]
@@ -61,3 +61,10 @@ Narrative literature review. No primary measurements, no analytical methods, no 
 - "Root barrier formation (Casparian strip apoplastic barriers) limits Pb and Cd translocation to shoots in excluder-type cereals" — *partially invented.* The paper mentions "root barrier formation" in the abstract but does not name the Casparian strip mechanism specifically nor invoke "excluder-type cereals" as a term.
 
 All five invented claims have been removed. Replaced with the actual quantitative content the paper does carry (PGPB biosorption examples, pH cut-offs, specific transporter examples). Frontmatter normalised: raw_handle corrected from `papers-cube` to `PCMF_article-1-copy-7` per the PCMF folder convention; `access_url` and `raw_sha256` added; matrices tightened from `soil` to `agricultural-soil`; metal list extended to include MeHg (the paper specifically calls out methylmercury formation in waterlogged paddy soils, p. 7). The pre-existing "Wiki pages updated on ingest" footer was removed because two of its four listed targets (`supply-chain/soil-contamination`, `mitigation/agronomic-levers`) do not exist as wiki pages and were speculative routing claims; downstream routing is now the system's responsibility per CLAUDE.md Part 5b.
+
+**Audit application, 2026-05-18.** Fresh-context audit subagent (verdict REVISE, one ⚠️ on slug vocabulary) flagged four points; verified each against the PDF:
+
+- ❌→applied: `Sn` was in the prior metals list (carried over from the 2026-05-14 page) but tin is not discussed anywhere in the source — Table 2 (pp. 7–8) systematically covers Cd, As, Hg, Pb, Ni, Cu, Zn, Cr only, and Sn does not appear elsewhere across the 50 pages. Removed from the metals array.
+- ⚠️→applied: `Cr-VI` added to the metals list. The audit correctly noted that the paper explicitly discusses chromate (CrO₄²⁻) uptake mechanisms and Cr(VI) carcinogenicity distinct from Cr(III) (Table 2 p. 8, mechanism discussion p. 11), justifying inclusion of the speciated slug alongside total `Cr`.
+- ⚠️→documented: Cu and Zn are extensively discussed in the source (Table 2 columns, the Cd–Zn competition mechanism on pp. 11–17) but are intentionally omitted from the metals frontmatter because they are essential micronutrients, not HMTc-scope toxic-metal analytes. Recording the design choice here so a future session does not re-add them mechanically.
+- ⚠️→rejected as false positive: the audit raised concern that `cereal-grain` and `agricultural-soil` may not be canonical matrices slugs because they do not appear in the taxonomy-snapshot doc. Verified against the actual matrices inventory: both slugs are in widespread use across `wiki/sources/` (the taxonomy snapshot enumerates ingredients/products/metals/regulations but not the matrices vocabulary, which is documented by usage). No change made; flagging here so the snapshot can be expanded if useful.
