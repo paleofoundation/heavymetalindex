@@ -40,7 +40,8 @@ This study quantifies arsenic (As), vanadium (V), mercury (Hg), and cadmium (Cd)
 
 | Packaging material | V (ppm) | tAs (ppm) | tHg (ppm) | Cd (ppm) |
 |---|---|---|---|---|
-| Permitted concentration (v3, Nordic Council 2015) | ≤0.01 | ≤0.002 | ≤0.03 | ≤0.05 |
+| Permitted concentration (v3, Nordic Council 2015, per paper's prose and Author Response 6) | ≤0.01 | ≤0.002 | ≤0.003 | ≤0.005 |
+| Permitted concentration (v3, as printed in Table 3 column header; 10× higher than the prose; treat prose as authoritative) | ≤0.01 | ≤0.002 | ≤0.03 | ≤0.05 |
 | Permitted concentration (v1, uncited; superseded) | ≤0.01 | ≤0.002 | ≤100 | ≤100 |
 | Aluminium can | 0.59 | 3.3 | 3.2 | ND |
 | Leak-proof bag | 0.49 | 86 | 5.6 | 3.50 |
@@ -65,10 +66,12 @@ This study quantifies arsenic (As), vanadium (V), mercury (Hg), and cadmium (Cd)
 
 ### Exceedance counts under v3 (Nordic Council 2015) limit reference
 
+Counts are arithmetically identical under either the v3 prose values (Hg 0.003, Cd 0.005 ppm) or the v3 Table 3 header values (Hg 0.03, Cd 0.05 ppm) because every detected Hg and Cd concentration exceeds both candidate caps by ≥30×. Treat the prose values as authoritative.
+
 - Vanadium > 0.01 ppm: 10 of 13 samples (paper's stated count, treating tissue 0.097 ppm as "within limits"); strictly numerical exceedance is 11 of 13 because tissue (0.097 ppm) is 9.7× the 0.01 ppm cap. The paper's text says vanadium was within limits in tissue, sachet, and cellophane; sachet and cellophane were ND, tissue was detected above the cap. This is an internal inconsistency in the paper.
 - Arsenic > 0.002 ppm: 13 of 13 samples.
-- Mercury > 0.03 ppm: 13 of 13 samples.
-- Cadmium > 0.05 ppm: 10 of 13 detected samples (3 samples — aluminium can, plastic container, medicinal blister packet — were ND); all 10 detections exceeded the cap.
+- Mercury > 0.003 ppm (prose) or > 0.03 ppm (Table header): 13 of 13 samples.
+- Cadmium > 0.005 ppm (prose) or > 0.05 ppm (Table header): 10 of 13 detected samples (3 samples — aluminium can, plastic container, medicinal blister packet — were ND); all 10 detections exceeded the cap.
 
 ### Exceedance counts under v1 (uncited 100 ppm Hg/Cd reference; SUPERSEDED)
 
@@ -103,7 +106,7 @@ Thirteen packaging-material types (eleven food packaging, two drug packaging) we
 
 - *Extraction-versus-migration mismatch (post-publication reader comment, Davide Marchesi, Tetra Pak, 07 Jan 2026):* The Nordic Council 2015 limits the authors cite are migration-test specific release limits (SRLs) — they bound the amount of metal that transfers from packaging into food under standardised migration testing, not the total metal in an acid extract of the packaging itself. Acid digestion of the packaging measures total metal content, which is necessarily ≥ migration. Comparing total-extraction concentrations against migration limits overstates the regulatory-compliance signal. Downstream synthesis should not propagate the v3 "exceeded permissible limits in all 13" claim without this caveat.
 - *Peer review trajectory:* v1 (2022) was reviewed 1 approved-with-reservations + 1 not-approved (Huang, plant ionomics); v2 (2023) became 2 approved (Ganesapillai, Vellore IIT) + 1 not approved (Senila, ICP-OES specialist); v3 (2024) carries 2 approved + 1 not-approved status banner. Reviewer Senila later updated v3 to "Approved" per a 15 May 2024 editorial note. Net: among the three reviewers, two ultimately approved (Ganesapillai, Senila v3); one (Huang, v1 only) did not re-review and remains as the non-approval.
-- *Internal inconsistencies in the published paper:* The v3 Discussion states vanadium was "within the permissible limits in three samples (tissue, sachet, cellophane)" but Table 3 shows tissue at 0.097 ppm, which is 9.7× the stated 0.01 ppm cap. Similarly the v3 Discussion gives ranges (V 0.29–40.8, As 1.7–236.2, Cd 2.2–337) that omit lower-end detected values present in Table 3. Treat the table values as authoritative.
+- *Internal inconsistencies in the published paper:* (1) The v3 Discussion states vanadium was "within the permissible limits in three samples (tissue, sachet, cellophane)" but Table 3 shows tissue at 0.097 ppm, which is 9.7× the stated 0.01 ppm cap. (2) The v3 Discussion gives ranges (V 0.29–40.8, As 1.7–236.2, Cd 2.2–337) that omit lower-end detected values present in Table 3. Treat the table values as authoritative for sample-level concentrations and ranges. (3) The v3 Table 3 column header gives the Hg permissible concentration as ≤0.03 ppm and Cd as ≤0.05 ppm, but the v3 Quantitative-analysis prose on the same page and the v3 Author Response 6 both give Hg ≤0.003 ppm and Cd ≤0.005 ppm (i.e., 10× more restrictive than the table header). Treat the prose values as authoritative because they are corroborated by the Author Response 6 explicit numbering; the table-header is a probable typo. Exceedance counts are unchanged under either value because every detected Hg/Cd concentration exceeds both candidates by ≥30×.
 - *No blank controls or recovery data.* v1 reviewer Huang flagged this; author response did not address.
 - *Brand-name terminology in the original paper:* The authors use "tetrapak" generically for aseptic carton packaging; a post-publication reader comment from Tetra Pak (07 Jan 2026) corrects this as a trademark-usage error. This wiki page uses "aseptic carton" in the body and notes the paper's terminology in the sample_population field.
 
@@ -119,6 +122,8 @@ Microbiome: Not addressed.
 
 ## Verification notes
 
+- **2026-05-18 (audit subagent verdict REVISE; verified against v3 PDF page 9 prose and Author Response 6 p. 17 — applied):** Subagent flagged the wiki's v3 permissible-limit row (`Hg ≤0.03`, `Cd ≤0.05`) as inconsistent with the paper's prose, which gives `Hg ≤0.003` and `Cd ≤0.005`. Re-verified: v3 p. 9 Quantitative-analysis paragraph states "The maximum permitted quantity (ppm) as suggested by the European Council for Food Packaging Association (Nordic guidance for authorities) is; As – 0.002 ppm, V – 0.01 ppm, Hg – 0.003 ppm, Cd – 0.005 ppm." v3 Author Response 6 (p. 17) corroborates the same values. v3 Table 3 column header reads `≤0.03 / ≤0.05` for Hg and Cd, which is a 10× discrepancy from the prose. Corrected: Table 3 in this wiki page now shows the prose values as authoritative and the table-header values as a flagged paper-internal inconsistency, and the inconsistency is documented in the Methods (brief) section alongside the V-tissue and range-omission flags. Exceedance counts unchanged because every Hg/Cd value exceeds both candidate caps.
+- **2026-05-18 (audit subagent ⚠️ on matrices `food-packaging`/`packaging-material`; verified — finding noted, no edit):** Subagent noted these are not in the taxonomy snapshot's enumerated lists. Verified via `grep -h '^matrices:' wiki/sources/*.md`: both slugs appear repeatedly across the existing source-page corpus as established matrices for packaging-material studies. Per the audit-prompt note that "matrices vocabulary is its own controlled list," these are corpus-established matrices for this paper's scope. No defect; finding noted as a stale-snapshot artefact, no edit applied.
 - **2026-05-18 (Claude session, merge-enhance from v3 PDF re-read):** The prior page (updated 2026-05-14) used the v1 abstract's exceedance counts (Hg 2 of 13, Cd 1 of 13) as the headline Key numbers but framed them as v1+v3-combined. v1 and v3 give *different* exceedance counts because v3 revised the Hg and Cd permissible-limit reference from an uncited 100 ppm value to the Nordic Council 2015 TN2015-522 values (0.03 ppm Hg, 0.05 ppm Cd). The prior page's headline numbers were faithful to v1 but materially understated v3's exceedance findings (v3: Hg 13/13, Cd 10/13 detected). Both readings are now preserved with their respective limit references.
   - Title field: kept v1 title as canonical `title:` to preserve cite-key alignment; added `title_v3:` for the v3-revised title.
   - DOI: kept `doi: 10.12688/f1000research.121473.1` aligned with cite_key `mukhi2022`; added `doi_latest: 10.12688/f1000research.121473.3` and updated `access_url` to resolve to the latest version.
