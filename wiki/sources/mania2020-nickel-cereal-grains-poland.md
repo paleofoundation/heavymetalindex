@@ -1,36 +1,40 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_assessment-of-exposure-to-nickel-intake-with-selec
 cite_key: mania2020-nickel-cereal-grains-poland
 title: "Assessment of exposure to nickel intake with selected cereal grains and cereal-based products"
 authors: [Mania M, Rebeniak M, Orshulyak O, Postupolski J]
 year: 2020
 publication: "Roczniki Panstwowego Zakladu Higieny (Annals of the National Institute of Hygiene)"
 doi: 10.32394/rpzh.2020.0142
+no_doi_assigned: false
+access_url: "https://doi.org/10.32394/rpzh.2020.0142"
 source_type: peer-reviewed
 evidence_tier: A
-license: "CC BY-NC"
-raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Assessment of exposure to nickel intake with selected cereal.pdf"
+license: "CC BY-NC 3.0 PL"
+raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Assessment of exposure to nickel intake with selected cereal grains and cereal-based products.pdf"
+raw_sha256: e69ce1868e2a989df541a0cde4c8e3819935fd9ba9a177b427ca618787187002
+near_duplicates: []
 metals: [Ni]
 ingredients: ["[[ingredients/wheat]]", "[[ingredients/oat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/pasta]]", "[[ingredients/cereals]]"]
-products: ["[[products/other-grain-products]]"]
-matrices: [cereal-grain, wheat-flour, oat-flakes, buckwheat-groats, pasta, bran, groats, flakes]
+products: ["[[products/other-grain-products]]", "[[products/flour-non-rice]]", "[[products/pasta-wheat-based]]"]
+matrices: [cereal-grain, dietary-intake]
 jurisdictions: [PL, EU]
 sample_n: 56
-sample_population: "Polish market samples 2019–2020: 5 cereal grains (millet, rye, wheat, barley), 11 pasta, 13 flours, 12 groats, 10 flakes, 5 bran samples"
-updated: 2026-05-13
+sample_population: "Polish market samples collected in 2019-2020: 5 cereal grains, 11 pasta samples, 13 flours, 12 groats, 10 flakes, and 5 bran samples."
+updated: 2026-05-18
 ---
 
-# Mania et al. 2020 — Nickel in cereal grains and grain-based products, Poland
+# Mania et al. 2020 - Nickel in cereal grains and cereal-based products, Poland
 
-This peer-reviewed study from Poland's National Institute of Public Health measured nickel content in 56 samples of cereal grains and grain-based products purchased from the Polish market in 2019–2020, using GFAAS (graphite furnace atomic absorption spectrometry) after microwave acid digestion, and assessed dietary exposure relative to EFSA's 2020 tolerable daily intake (TDI) of 13 µg Ni/kg bw/day. Mean (middle-bound) nickel across all 56 samples was 0.66 mg/kg, with a 95th percentile of 1.93 mg/kg; whole grains contained higher concentrations (mean 1.16 mg/kg) than processed grain products (mean 0.61 mg/kg). Estimated exposures for adults and children from cereal grains and products ranged from 1.1% to 13.4% of the EFSA TDI, with no health concern identified at population level, though individual sample contamination reached 4.80 mg/kg in millet and 2.53 mg/kg in oat flakes. No EU maximum level for nickel in food existed at the time of the study; only drinking water and food additives had EU-level Ni requirements.
+Mania et al. (2020) measured nickel in 56 cereal-grain and cereal-based product samples from the Polish retail market in 2019-2020. The study used graphite furnace atomic absorption spectrometry (GFAAS) after microwave acid digestion and compared estimated dietary exposure with the EFSA 2020 tolerable daily intake of 13 ug Ni/kg body weight per day. It is a primary Polish-market occurrence source for Ni in non-rice grains, pasta, flour, groats, flakes, and bran.
 
 ## Key numbers
 
-All concentrations in mg/kg (= ppm) fresh weight; middle-bound (MB) treatment of left-censored data (27% of results below LOQ of 0.06 mg/kg):
+Concentrations are reported in mg/kg on an as-purchased product basis. The authors used middle-bound (MB) substitution for the main summary after 27% of analytical results fell below the food-matrix LOQ of 0.06 mg/kg.
 
 | Category | n | Mean (MB) mg/kg | P95 (MB) mg/kg | SD (MB) |
-|---|---|---|---|---|
+| --- | ---: | ---: | ---: | ---: |
 | Cereal grains (millet, rye, wheat, barley) | 5 | 1.16 | 3.91 | 2.04 |
 | Pasta | 11 | 0.26 | 1.04 | 0.52 |
 | Flour | 13 | 0.35 | 1.35 | 0.58 |
@@ -38,49 +42,79 @@ All concentrations in mg/kg (= ppm) fresh weight; middle-bound (MB) treatment of
 | Flakes | 10 | 0.93 | 1.97 | 0.66 |
 | Bran | 5 | 1.34 | 1.76 | 0.36 |
 | All grain-based products | 51 | 0.61 | 1.84 | 0.66 |
-| Cereal grains and grain-based products (all) | 56 | 0.66 | 1.93 | 0.85 |
+| Cereal grains and grain-based products, all samples | 56 | 0.66 | 1.93 | 0.85 |
 
-Individual highlights:
-- Millet (grain): range not fully reported individually; overall grain max 4.80 mg/kg
-- Rye (grain): 0.10 mg/kg (lowest grain value)
-- Roasted buckwheat groat: 1.81 mg/kg (highest reported groat value)
-- Oat flakes: 2.53 mg/kg (highest reported flake value; highest single product value in study)
-- Whole wheat flour: 0.23–2.12 mg/kg
-- Wheat flour (refined): below LOQ
-- Spelt flour: 0.14–0.18 mg/kg
-- Whole grain pasta: 0.20–1.79 mg/kg
-- Regular wheat pasta: 0.03–0.08 mg/kg
+Individual and subgroup values reported in the text:
 
-Comparative EU context (EFSA 2020 occurrence data cited): Mean (LB-UB) for grains and grain-based products: 0.31–0.33 mg/kg; P95: 1.25 mg/kg. This study's values are modestly higher.
+- Cereal-grain Ni ranged from 0.10 mg/kg for rye to 4.80 mg/kg for millet.
+- Roasted buckwheat had 1.81 mg/kg Ni.
+- Oat flakes had 2.53 mg/kg Ni.
+- Whole-grain pasta ranged from 0.20 to 1.79 mg/kg; regular pasta made from wheat flour ranged from 0.03 to 0.08 mg/kg.
+- Whole-grain flour ranged from 0.23 to 2.12 mg/kg; wheat flour was below LOQ; spelt flour ranged from 0.14 to 0.18 mg/kg.
+- EFSA 2020 occurrence data cited by the authors reported grains and grain-based products at mean LB-UB 0.31-0.33 mg/kg and P95 1.25 mg/kg.
 
-Exposure estimates as % of EFSA TDI (13 µg Ni/kg bw/day):
-- Adults (WHO GEMS/Food cereal grain consumption, excluding rice): 13.4% TDI
-- Adults (average cereal product consumption, excluding bread/rice/bakery): 1.1% TDI; children: 3.9% TDI
-- At P95 contamination: 3.4% TDI (adults), 11.8% TDI (children)
-- Pasta only: below 0.5% TDI (adults), 1.3% TDI (children)
+Exposure estimates as percent of EFSA's 13 ug Ni/kg bw/day TDI:
 
-Method parameters: GFAAS (VARIAN SpectrAA 880Z), microwave mineralization with HNO3/H2O2; LOD 0.95 µg/L; LOQ 1.25 µg/L (in-solution) = 0.06 mg/kg in food; recovery 97%; RSDr 7%; validated against NIST SRM 1515 Apple Leaves.
+| Exposure scenario | Population | Percent of TDI |
+| --- | --- | ---: |
+| WHO GEMS/Food cereal-grain consumption, excluding rice, at mean MB contamination | Adults | 13.4% |
+| Average cereal-product consumption, excluding bread, rice, and bakery products, at mean MB contamination | Adults | 1.1% |
+| Average cereal-product consumption, excluding bread, rice, and bakery products, at mean MB contamination | Children | 3.9% |
+| Same cereal-product scenario at P95 contamination | Adults | 3.4% |
+| Same cereal-product scenario at P95 contamination | Children | 11.8% |
+| Pasta-only exposure at mean MB contamination | Adults | below 0.5% |
+| Pasta-only exposure at mean MB contamination | Children | 1.3% |
 
-## Methods (brief)
+## Methods
 
-Analytical method: GFAAS with Zeeman background correction after microwave closed-vessel acid digestion (0.5 g sample, HNO3 + H2O2). LOQ in food matrix: 0.06 mg/kg. 27% of results below LOQ; EFSA's substitution method applied (LB=0, MB=LOQ/2, UB=LOQ). External validation via FAPAS and EURL-MN proficiency testing. Nickel only — no other metals measured.
+The study used 56 samples from the Polish market: 5 grain samples and 51 grain-product samples. Product groups were pasta (n=11), flours (n=13), groats (n=12), flakes (n=10), bran (n=5), and grains including wheat, rye, barley, and millet.
+
+Nickel was measured with an accredited in-house GFAAS method using Zeeman background correction after microwave closed-vessel digestion. Approximately 0.5 g of sample was digested with 5 mL concentrated nitric acid and 1 mL hydrogen peroxide. The method was validated with NIST SRM 1515 Apple Leaves, which had a certified Ni mass fraction of 0.936 +/- 0.094 mg/kg.
+
+Method performance reported by the authors:
+
+| Parameter | Value |
+| --- | --- |
+| In-solution LOD | 0.95 ug/L |
+| In-solution LOQ | 1.25 ug/L |
+| Food-matrix LOQ used for censoring | 0.06 mg/kg |
+| Repeatability | RSDr 7% |
+| Relative error | 3.4% |
+| Recovery | 97% |
+| Expanded uncertainty | 24% |
+| Calibration range | LOQ to 25.0 ug/L |
+
+The authors used EFSA's substitution method for left-censored data: lower bound = 0, middle bound = half the LOQ, and upper bound = LOQ. Exposure estimates used Polish Central Statistical Office consumption data and WHO GEMS/Food Consumption Cluster Diets.
+
+## Speciation and methods caveats
+
+- Nickel is reported as total Ni; no nickel species are distinguished.
+- The study measured only Ni. Mentions of Pb, Cd, pesticides, herbicides, and other contaminants in the introduction are contextual and should not be routed as measured analytes from this source.
+- The exposure estimates exclude bread, rice, and bakery products in the cereal-product scenario; do not generalize those percentages to total grain intake.
 
 ## Implications
 
-Certification: This is the most methodologically rigorous nickel-in-cereals study encountered in this batch. GFAAS is appropriate for Ni quantification and the study uses an accredited, EFSA-validated treatment of left-censored data. The finding that bran, whole-grain flakes (especially oats), and whole-grain flour carry 3–6x higher Ni than refined flour or pasta is directly relevant to ingredient sourcing decisions for products targeting nickel-sensitive consumers. EFSA identified grains as contributing up to 49% of infant/toddler dietary Ni exposure; this study's data supports that conclusion.
+Standards work: The study is useful for nickel monitoring in non-rice cereal ingredients and grain-based products, especially where whole-grain, bran, oat, millet, or buckwheat components are present. It also documents that, at the time of publication, EU food law did not set general maximum levels for nickel in foodstuffs apart from food-additive specifications, while EFSA had identified grains and grain-based products as important dietary contributors.
 
-Courses: Illustrates the whole-grain vs. refined-grain Ni gradient clearly. The EFSA TDI progression (2.8 µg/kg bw/day in 2015 → 13 µg/kg bw/day in 2020) is a useful teaching example of how risk assessments evolve. The absence of an EU maximum level for Ni in food (only drinking water and additives regulated) is a current regulatory gap worth noting.
+Courses: The study is a clean teaching example of how processing fraction matters. Bran, flakes, and whole-grain products carried higher Ni than refined wheat flour and regular pasta.
 
-App: Mean (MB) values by category are usable as region-specific estimates for Polish/EU market products. The oat flakes P95 of 1.97 mg/kg (1,970 ppb) and bran P95 of 1.76 mg/kg (1,760 ppb) are the most relevant inputs for high-bran and high-oat ingredients. Unit conversion: 0.66 mg/kg = 660 µg/kg = 660 ppb (Ni); 1.93 mg/kg (P95) = 1,930 ppb.
+App: Category means and P95 values can support Polish/EU context screens for Ni in cereal-grain products. They should be used as occurrence context, not as HMT&C thresholds.
 
 ## Wiki pages updated on ingest
 
 - [[metals/nickel]]
-- [[ingredients/wheat-flour]]
-- [[ingredients/oats]]
-- [[ingredients/buckwheat]]
-- [[ingredients/millet]]
-- [[ingredients/rye]]
-- [[ingredients/barley]]
-- [[ingredients/cereal-bran]]
-- [[regulations/efsa-nickel-tdi-2020]]
+- [[ingredients/wheat]]
+- [[ingredients/oat]]
+- [[ingredients/non-rice-grains]]
+- [[ingredients/pasta]]
+- [[ingredients/cereals]]
+- [[products/other-grain-products]]
+- [[products/flour-non-rice]]
+- [[products/pasta-wheat-based]]
+- [[regulations/efsa-nickel-tdi]]
+
+## Verification notes
+
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Replaced stale/nonexistent wikilinks such as `ingredients/oats`, individual missing grain slugs, and `regulations/efsa-nickel-tdi-2020` with current wiki slugs.
+- Strict brand-firewall check: no consumer brands are named. Instrument and reference-material vendor names appear only in the Methods section and fall under the Part 12 instrument/reference-material exception.
