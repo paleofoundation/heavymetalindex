@@ -71,7 +71,7 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (6 sources)
 11. [[products/toothpaste|Children's toothpaste]] (11 sources)
 12. [[products/face-paint|Children's face paint]] (6 sources)
-13. [[products/childrens-makeup|Children's makeup]] (6 sources)
+13. [[products/childrens-makeup|Children's makeup]] (7 sources)
 14. [[products/childrens-nail-polish|Children's nail polish]] (3 sources)
 15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (3 sources)
 16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (4 sources)
@@ -199,7 +199,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 4. [[products/pacifiers-and-sucking-teething-aids|Pacifiers and sucking/teething aids]] (0 sources)
 5. [[products/teething-toys-teethers|Teething toys/teethers]] (0 sources)
 6. [[products/infant-food-storage-items|Infant food-storage items (milk storage bags/containers)]] (0 sources)
-7. [[products/diapers-and-components|Diapers and diaper components]] (2 sources)
+7. [[products/diapers-and-components|Diapers and diaper components]] (3 sources)
 8. [[products/feeding-accessories-child-sized|Feeding accessories (spoons, plates, bowls — child-sized)]] (0 sources)
 
 ## HMTc Category 10: Infant and Child Durable Goods and Textiles (Ages 0-5)
@@ -273,9 +273,9 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 1. [[products/fragrance-preparations|Fragrance preparations (perfumes, colognes, body sprays)]] (0 sources)
 2. [[products/dusting-talc-powders-adult|Dusting/talc powders (adult)]] (1 source)
-3. [[products/face-neck-leave-on-skin-care|Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)]] (2 sources)
+3. [[products/face-neck-leave-on-skin-care|Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)]] (3 sources)
 4. [[products/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] (4 sources)
-5. [[products/makeup-foundation-powders-blush|Makeup — foundation, powders, blush/rouge]] (5 sources)
+5. [[products/makeup-foundation-powders-blush|Makeup — foundation, powders, blush/rouge]] (6 sources)
 6. [[products/makeup-body-paints-bases-fixatives|Makeup — body/leg paints, bases, fixatives (including airbrush)]] (0 sources)
 7. [[products/eye-makeup|Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)]] (5 sources)
 8. [[products/lip-products|Lip products (lipstick, gloss, lip balm)]] (0 sources)
@@ -423,7 +423,7 @@ Exposure pathway: **Oral (mouthing) + dermal (handling) + incidental ingestion (
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/toys-painted|General toys with paint/surface coatings]] (0 sources)
+1. [[products/toys-painted|General toys with paint/surface coatings]] (1 source)
 2. [[products/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] (0 sources)
 3. [[products/toys-stuffed-bean-bag|Stuffed toys and bean bag-type toys]] (0 sources)
 4. [[products/toys-stuffing-materials|Stuffing materials]] (0 sources)
@@ -510,11 +510,17 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/breakfast-cereals|Breakfast Cereals]]
-- [[products/infant-food-general|Infant Food General]]
-- [[products/infant-formula-dairy|Infant Formula Dairy]]
-- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
-- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
-- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
-- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
+- [[products/canned-fish|Canned Fish]]
+- [[products/canned-fruit|Canned Fruit]]
+- [[products/canned-tomatoes|Canned Tomatoes]]
+- [[products/canned-vegetables|Canned Vegetables]]
+- [[products/dietary-supplements|Dietary Supplements]]
+- [[products/fresh-fish|Fresh Fish]]
+- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
+- [[products/infant-cereal|Infant Cereal]]
+- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
+- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
+- [[products/tea-infusions|Tea Infusions]]
+- [[products/tomato-paste|Tomato Paste]]
+- [[products/tomato-sauce|Tomato Sauce]]
 <!-- END: hmi-auto-linked-stubs -->

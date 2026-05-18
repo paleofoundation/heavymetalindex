@@ -16,7 +16,7 @@ variant_type: whole_row_platform
 platform_metals: [Pb, Ni, Cr]
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 6
+sources: 7
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Makeup (ages 0-5)

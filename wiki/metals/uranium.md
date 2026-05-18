@@ -6,7 +6,7 @@ name: Uranium
 species: [U, uranium-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 10
+sources: 11
 updated: 2026-04-30
 status: stub
 n_sources: 1

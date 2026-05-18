@@ -333,3 +333,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 10 (provisional scaffolds pending promotion), Part 9 (synthesis trigger conditions), Part 11 (priority ordering). Governance principle: autonomy should route effort toward evidence gaps that queries reveal, not toward arbitrary category assignments. Makes the next ingest batch deterministic and defensible.
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Audit zero-source scaffolds for deletion or targeted ingest
+
+**What:** Add a lint audit that flags product and ingredient scaffolds with `provisional_scaffold: true` but zero routed sources after 30+ days, and recommends either explicit deletion or targeted source-finding campaigns to justify keeping them.
+
+**Why this lever now:** The pending_category_locks snapshot shows 4 of the top 6 entries have zero sources (infant-formula-dairy, infant-formula-dairy-free, infant-porridges-dairy, infant-porridges-dairy-free). These scaffolds are blocking HMT&C Step 0 Lock review because they have no evidence base. Deleting unjustified scaffolds reduces governance friction; flagging low-evidence scaffolds for targeted source-finding unblocks Lock advancement and focuses ingest on the highest-evidence categories.
+
+**Where:**
+- New audit script: `tools/autonomy/audit-zero-source-scaffolds.mjs`
+- Audit output: `data/evidence/autonomy/zero-source-scaffolds-<date>.md`
+- Runs as part of the pre-commit lint hook and morning report
+
+**How:**
+1. Query `data/evidence/product_source_routing_audit.csv` for routed-source counts per target product page.
+2. Cross-reference pages in `wiki/products/` with frontmatter `provisional_scaffold: true` AND `created_at > 30 days`.
+3. For each zero-source scaffold: output a decision row recommending deletion (with note: "no evidence base") OR a source-finding campaign (with keywords extracted from the scaffold's slug/description).
+4. For scaffolds with 1–3 sources: flag as "thin-evidence candidates for acceleration" with a list of which metals/ingredients are covered.
+5. Output as markdown so Karen or the autonomy loop can batch-act on recommendations.
+
+**Anchors:** Part 10 (scaffolds are routing destinations, not governance endpoints), Part 5b (routing audit coherence), Part 18 (lint rules), `docs/order-of-operations.md` Phase 0 (scaffold creation tied to source-evidence thresholds).
+
+---
