@@ -25,7 +25,7 @@ updated: 2026-05-17
 
 # Pehlivan et al. 2008 — Inorganic metals in Turkish edible vegetable oils by ICP-AES
 
-This study determined nine metals (Cu, Fe, Mn, Co, Cr, Pb, Cd, Ni, Zn) in 17 edible vegetable oil samples from Turkish markets using ICP-AES after direct acid extraction with dilute nitric acid. The study demonstrates a simple sample preparation approach — 2–3 g oil + 1 mL 10% HNO3, shaken and incubated 2 h at 50°C, then centrifuged — that avoided the losses associated with wet digestion or dry ashing. All measured metal concentrations were low and generally within regulatory limits. Virgin olive oil had the highest lead among oil types (0.0074 mg/kg), and almond oil showed the highest values for Cu, Cr, Ni, and Zn.
+This study determined nine metals (Cu, Fe, Mn, Co, Cr, Pb, Cd, Ni, Zn) in 17 edible vegetable oil samples from Turkish markets using ICP-AES after direct acid extraction with dilute nitric acid. The study demonstrates a simple sample preparation approach — 2–3 g oil + 1 mL 10% HNO3, shaken and incubated 2 h at 50°C, then centrifuged — that avoided the losses associated with wet digestion or dry ashing. Lead concentrations were below the EC 466/2001 vegetable-oil Pb limit cited by the authors; the paper does not provide vegetable-oil regulatory limits for most other measured metals. Virgin olive oil had the highest lead among oil types (0.0074 mg/kg), and almond oil showed the highest values for Cu, Cr, Ni, and Zn.
 
 Note on evidence tier: downgraded from A to B. The paper predates current open-access norms; license status is unknown. The study is older (2008), uses ICP-AES without speciation, and the variety of oil subtypes within a single category (e.g., 5 sunflower oil brands) means per-variety n=1. Total chromium is reported; this cannot be treated as Cr-VI.
 
@@ -54,7 +54,7 @@ Corn oils (a–c):
 Soybean oil:
 - Pb: 0.0000; Cd: 0.0013; Mn: 0.0220; Cu: 0.0273
 
-EU regulatory limit (Regulation EC 466/2001, as noted by authors): Pb 0.10 mg/kg for vegetable oils. All values well below this limit. No regulatory limit for Cd, Cu, Ni, Zn in vegetable oils at time of publication.
+EU regulatory limit (Regulation EC 466/2001, as noted by authors): Pb 0.10 mg/kg for vegetable oils. All Pb values were below this limit. The authors state that no legislation existed for Cd, Cu, and Zn in vegetable oils at the time of publication; the paper does not identify vegetable-oil limits for the other measured metals.
 
 Recovery: the authors state that average standard-addition recoveries were higher than 95% for all metal ions, although Table 1's added/found central values are lower for some low-level spikes. Precision: RSD below 10% for Cu, 5% for Fe, 15% for Mn, 8% for Co, 10% for Cr, 20% for Pb, 5% for Cd, 16% for Ni, and 11% for Zn.
 
@@ -97,3 +97,4 @@ Limitation: This is a 2008 study with no speciation. The method is dilute-acid e
 - Source reports total Cr by ICP-AES, not Cr-VI; the page therefore uses `Cr` and links `[[metals/chromium]]`.
 - `olive-oil`, `sunflower-oil`, `corn-oil`, `soybean-oil`, `hazelnut-oil`, `almond-oil`, and `edible-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
 - The paper cites EC 466/2001 Pb limit for vegetable oils (0.10 mg/kg), but no exact regulation page exists in the current wiki taxonomy. Surface as a regulation-page candidate rather than inventing a slug.
+- 2026-05-18 Cross-vendor audit (Codex) tightened regulatory framing: the paper supports the EC 466/2001 Pb comparison and explicitly says no legislation existed for Cd, Cu, and Zn, but it does not support a broad all-metals "within regulatory limits" statement or a Ni no-limit claim.
