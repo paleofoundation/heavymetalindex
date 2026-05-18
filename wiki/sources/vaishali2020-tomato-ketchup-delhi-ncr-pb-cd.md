@@ -10,8 +10,8 @@ doi: 10.24321/2394.6539.202007
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: B
-license: "CC BY"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/A Comparative Study on Presence of Heavy Metals Lead and Cadmium .pdf"
+license: "unknown"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/A Comparative Study on Presence of Heavy Metals Lead and Cadmium in Tomato Ketchups used by Street V.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/tomato]]", "[[ingredients/ketchup]]"]
 products: ["[[products/condiments-general]]"]
@@ -20,7 +20,7 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 12
 sample_population: "Tomato ketchup from street vendors in Delhi, Noida, Gurugram, and Faridabad (3 samples per locale)"
-updated: 2026-05-14
+updated: 2026-05-18
 ---
 
 # Vaishali & Negi 2020 — Lead and cadmium in tomato ketchup from Delhi NCR street vendors
@@ -51,9 +51,15 @@ Samples were collected in sterilised sealed glass containers from street vendors
 
 **Courses:** Useful illustration of urban-market lead burden in processed condiments; suitable for modules on informal supply-chain contamination pathways.
 
-**App:** Supports flagging ketchup/tomato sauce as a Pb-relevant product category; Cd signal here is null (BDL), consistent with tomatoes being a low-Cd matrix.
+**App:** Contributes context for ketchup/tomato sauce as a Pb-relevant condiment category in informal-market settings; Cd signal here is null (BDL), consistent with the study's tomato-ketchup matrix.
 
 ## Wiki pages updated on ingest
 
-- [[products/ketchup]]
+- [[products/condiments-general]]
 - [[ingredients/tomato]]
+- [[ingredients/ketchup]]
+
+## Verification notes
+
+- 2026-05-18 Codex merge-enhance against the source PDF in `condiment_papers`: corrected `raw_path`, changed unsupported `license: "CC BY"` to `unknown` because the PDF states open access but does not state a Creative Commons license, and replaced missing `[[products/ketchup]]` with live product route `[[products/condiments-general]]`.
+- Numerical table checked against Table 1 and Table 2: Pb means/ranges for Delhi, Gurugram, Faridabad, and Noida match the source; Cd is BDL in all four locales; ANOVA p = 0.42 matches Table 1.
