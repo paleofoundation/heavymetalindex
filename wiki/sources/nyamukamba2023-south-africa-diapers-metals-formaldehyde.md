@@ -75,9 +75,9 @@ This study quantifies extractable heavy metals (Pb, Cu, As, Zn, Co, Ni, Cr, Cd, 
 |---|---:|---:|---:|---|
 | Pb | 0.001 | 0.011 (multiple) | < 0.2 | 20/20 |
 | Cu | 0.008 | 0.019 (M2) | < 25 | 20/20 |
-| As | 0.001 | 0.031 (M6); n.d. in 6 samples | < 0.2 | 20/20 |
+| As | 0.001 | 0.031 (M6); n.d. in 5 samples (H2, H3, M1, M10, L4) | < 0.2 | 20/20 |
 | Zn | 0.002 | 0.230 (L2) | < 750 | 20/20 |
-| Co | 0.002 | 0.013 (multiple); n.d. in 6 samples | < 1.0 | 20/20 |
+| Co | 0.002 | 0.013 (multiple); n.d. in 5 samples (H1, H4, H5, M5, L3) | < 1.0 | 20/20 |
 | Ni | 0.001 | **0.224 (L2)** | < 0.1 | 19/20 (L2 over) |
 | Cr | 0.001 | 0.078 (H4); n.d. in L3 | < 1.0 | 20/20 |
 | Cd | 0.001 | 0.006 (multiple); n.d. in L3 | < 0.1 | 20/20 |
@@ -123,3 +123,4 @@ Microbiome: Not addressed.
 - **Brand firewall.** The paper does not name diaper brands; samples are anonymous codes (H1-H5, M1-M10, L1-L5) with retail-tier and country-of-manufacture descriptors only. No brand-firewall scrubbing was needed. The instrument vendor (Spectro Arcos), FTIR vendor (PerkinElmer), and reagent supplier (Merck) are scientific-method vendor names and are retained per the Part 12 Exception 2.
 - **Speciation.** As is reported as total (tAs) — no inorganic-vs-total speciation. Cr is reported as total (Cr) — no hexavalent-vs-trivalent speciation. Hg is not in the analyte list. Metals frontmatter uses tAs, Cr, etc., reflecting the paper's actual analytical scope.
 - **Extraction shake-time gap.** The paper specifies a 24-h shake for the artificial-sweat extraction (Section 2.3.2) but does not state a shake time for the artificial-urine extraction (Section 2.3.1). The urine extraction time is therefore unknown and not back-fillable.
+- **Audit correction 2026-05-18 (fresh-context subagent).** The first commit of this page reported "n.d. in 6 samples" for both urine-extract As and urine-extract Co. Re-counting Table 5 (PDF p. 10): As n.d. = 5 (H2, H3, M1, M10, L4); Co n.d. = 5 (H1, H4, H5, M5, L3). Corrected to "n.d. in 5 samples" with the sample codes named explicitly. The audit subagent flagged the As count as 4 (missed L4) and the Co count as 5; an independent re-read confirmed 5 for both, so the larger of the two flagged counts was adopted with explicit sample-code attribution.
