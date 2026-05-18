@@ -16,7 +16,7 @@ license: CC BY
 raw_path: raw/markdown/FM_10384816/FM_10384816.md
 metals: [tHg, As, Cr, Ni, Mn, Mo, Tl]
 ingredients: [baby-food, fish]
-products: [infant-puree-fruit, infant-puree-chicken, infant-puree-fish, infant-puree-beef]
+products: ["[[products/fruit-purees]]", "[[products/meat-and-poultry-purees]]", "[[products/fish-containing-baby-foods]]"]
 matrices: [whole-food]
 jurisdictions: [ES]
 sample_n: 159
@@ -84,7 +84,6 @@ This source contributes evidence to:
 - [[metals/thallium|Tl toxicity thresholds]]
 - [[ingredients/fish|Fish contamination profile]]
 - [[ingredients/baby-food|Baby food contamination and regulation]]
-- [[products/infant-puree-fish|Fish purees market survey]]
-- [[products/infant-puree-chicken|Chicken purees market survey]]
-- [[products/infant-puree-beef|Beef purees market survey]]
-- [[products/infant-puree-fruit|Fruit purees market survey]]
+- [[products/fish-containing-baby-foods|Fish-containing baby foods]]
+- [[products/meat-and-poultry-purees|Meat and poultry purees (chicken/beef varieties)]]
+- [[products/fruit-purees|Fruit purees]]

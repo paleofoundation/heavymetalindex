@@ -12,10 +12,12 @@ raw_path: raw/markdown/FM_11111292/FM_11111292.md
 access_url: https://doi.org/10.1265/ehpm.24-00048
 pdf_path: raw/studies/FM_11111292_Dietary_intake_of_methylmercury_by_0-5_years_children_using.pdf
 metals: [tHg, MeHg]
-ingredients: [fish, infant-formula-ingredients]
-products: [fish-containing-baby-foods, infant-formula, baby-foods, toddler-meals]
-jurisdictions: [Japan]
-updated: 2026-04-28
+ingredients: ["[[ingredients/fish]]", "[[ingredients/infant-formula-ingredients]]"]
+products: ["[[products/fish-containing-baby-foods]]", "[[products/infant-formula-powder]]", "[[products/infant-formula-rtf-liquid-non-soy]]"]
+matrices: [dietary-intake, hair, breast-milk, infant-formula]
+jurisdictions: [JP]
+near_duplicates: ["research2024-research-c (deleted 2026-05-18)"]
+updated: 2026-05-18
 ---
 
 # Tatsuta 2024 — Dietary Intake Of Methylmercury By 0-5 Years Children
