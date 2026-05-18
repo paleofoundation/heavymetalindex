@@ -11,97 +11,149 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_05_Other_Categories/05_Other_Categories/Potentially_Toxic_Elements_in_Costume_Cosmetics_Used_by_Children_and_Adults_Are.pdf"
-metals: [Al, tAs, Cd, Cr, Cr-VI, Ni, Pb, Sb, Sn]
+metals: [Al, tAs, Ba, Cd, Co, Cr, Cu, Ni, Pb, Sb, Sn, Sr]
 ingredients: []
-products: ["[[products/face-paint]]", "[[products/costume-cosmetics]]", "[[products/children-personal-care]]"]
+products: ["[[products/face-paint]]", "[[products/childrens-makeup]]", "[[products/children-personal-care]]"]
 matrices: [cosmetic-personal-care, exposure-modeling]
-jurisdictions: [BR, US]
+jurisdictions: [BR]
 near_duplicates: []
 sample_n: 95
-sample_population: "95 samples of face paints (n=90) and pancakes (n=5) purchased at the largest high-street commercial center in São Paulo, Brazil. Four brands of face paints in three textures (liquid, cream, fluorescent) and 10 colors; one brand of pancake in 5 colors."
-updated: 2026-05-14
+sample_population: "95 samples of face paints (n=90) and pancakes (n=5) purchased at the largest high-street commercial center in São Paulo, Brazil. All manufacturers Brazilian. Four brands of face paints in three textures (liquid, cream, fluorescent) and 10 colors (red, yellow, black, white, green, orange, purple, blue, brown, pink, lilac); one brand of pancakes in 5 colors (blue, orange, red, yellow, white). When available, two batches per type+color were purchased."
+updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
 ---
 
-# Salles et al. 2023 — Toxic elements in costume cosmetics (face paints + pancakes), Brazil
+# Salles et al. 2023 — Potentially toxic elements in costume cosmetics (face paints + pancakes), Brazil
 
-This study quantifies 12 potentially toxic elements (Al, As, Ba, Cd, Co, Cr, Cu, Ni, Pb, Sb, Sn, Sr) in 95 costume cosmetics (90 face paints + 5 pancakes) purchased in São Paulo, Brazil, and runs USEPA risk-assessment models for dermal-absorption and incidental-ingestion (hand-to-mouth) pathways for both children and adults. **Cancer risk for children ranges from 10⁻⁸ to 10⁻⁵**; for adults in occupational scenarios (theater, makeup artists), 10⁻³ to 10⁻⁵. Non-cancer hazard quotients stay below 1 except for dermal exposure to some target systems in adults. **The highest cancer risks are associated with the dermal exposure pathway**, not the incidental-ingestion pathway. This complements the Arshad 2020 Pakistani cosmetics finding that lifetime cancer risk exceeds the acceptable threshold across most regular cosmetic categories — both papers converge on the conclusion that chronic dermal exposure to heavy-metal-containing cosmetics is the dominant carcinogenic risk pathway, not ingestion.
+This study quantifies twelve potentially toxic elements (PTEs: Al, As, Ba, Cd, Co, Cr, Cu, Ni, Pb, Sb, Sn, Sr) in 95 costume cosmetics (90 face paints + 5 pancakes) purchased in São Paulo, Brazil, and runs USEPA risk-assessment models for dermal-absorption and incidental-ingestion (hand-to-mouth) exposure pathways for both children (age 2 to <11 y) and adults (≥21 y, occupational scenario). Cancer risk for children ranged from 10⁻⁸ to 10⁻⁵; for adults in occupational scenarios, 10⁻³ to 10⁻⁵. Non-cancer hazard quotients (HQ) stayed below 1 except for dermal exposure in adults for cardiovascular/dermal targets (driven by As, ≈100% contribution) and "other" targets in pancakes (driven by Cr(VI), ≈99% contribution). Arsenic contributed approximately 90% of total cancer risk across all scenarios. Pancake exposure scenarios were associated with higher total risk values than face paint scenarios.
 
-Cited adjacent finding (Campaign for Safe Cosmetics 2009, USA): all commercial face paints tested contained lead; 60% contained known skin allergens (Ni, Co, Cr) at higher-than-recommended levels.
+The paper cites the 2009 USA Campaign for Safe Cosmetics finding (its reference [10]) that all commercial face paints tested contained lead and 60% contained known skin allergens (Ni, Co, Cr) at higher-than-recommended levels.
 
 ## Key numbers
 
-**95 face paints + pancakes from Brazilian high-street market**:
-- 12 PTEs analyzed: Al, As, Ba, Cd, Co, Cr (total), Cr-VI (estimated via ABS_gi), Cu, Ni, Pb, Sb, Sn, Sr
-- 90 face paints: 4 brands × 3 textures (liquid/cream/fluorescent) × ~10 colors each (red, yellow, black, white, green, orange, purple, blue, brown, pink, lilac)
-- 5 pancakes: 1 brand × 5 colors
+**Sample design:**
+- 95 samples total: 90 face paints + 5 professional pancakes
+- 12 PTEs quantified: Al, As, Ba, Cd, Co, Cr, Cu, Ni, Pb, Sb, Sn, Sr
+- Below-LOD substitution: LOD/√2 for values <LOD (18.7% for Cu; 9.4% for Cd; 6.3% for Sn)
+- Excluded from statistical means (RSD >30%): Cu 28%; Cd 24%; Sn 21.9%; Sb 18.7%; Al 10.4%; As, Sr, Pb 3%; Ba 2%; Co, Ni 1%
 
-Specific per-element concentrations are tabulated in the paper but not in the abstract-level excerpts read here.
+**Table 3 — Concentrations (mg/kg) in face paints and pancakes** (n = number of samples retained after RSD filtering):
 
-**Risk-assessment outputs (USEPA methodology, summed across all 12 PTEs):**
+| PTE | Face paints n | Face paints mean | Face paints min–max | Face paints P95 | Pancakes n | Pancakes mean | Pancakes min–max | Pancakes P95 |
+|---|---|---|---|---|---|---|---|---|
+| Al | 80 | 1420.71 | 5.91–19,325.04 | 9703.04 | 5 | 5082.81 | 490.49–20,717.28 | 20,717.28 |
+| As | 87 | 0.19 | 0.01–1.69 | 0.76 | 5 | 0.43 | 0.08–1.24 | 1.24 |
+| Ba | 88 | 173.42 | 0.70–33,700.51 | 1074.27 | 5 | 27.57 | 3.42–72.97 | 0.21 |
+| Cd | 67 | 0.03 | <0.01–0.25 | 0.12 | 4 | 0.21 | 0.01–0.40 | 0.40 |
+| Co | 89 | 0.02 | <0.01–0.15 | 0.05 | 5 | 0.46 | 0.04–1.01 | 1.01 |
+| Cr | 90 | 0.64 | 0.09–5.32 | 2.58 | 5 | 12.15 | 1.04–22.63 | 22.63 |
+| Cu | 63 | 67.77 | <0.01–946.71 | 646.73 | 5 | 4.78 | 0.10–9.92 | 9.92 |
+| Ni | 89 | 0.28 | 0.45–1.24 | 0.79 | 5 | 3.03 | 0.27–8.27 | 8.27 |
+| Pb | 87 | 0.43 | 0.01–2.99 | 1.65 | 5 | 4.05 | 0.52–11.69 | 72.97 |
+| Sb | 72 | 0.07 | <0.01–2.65 | 0.24 | 4 | 0.02 | <0.01–0.06 | 0.06 |
+| Sn | 69 | 0.12 | <0.01–1.11 | 0.38 | 5 | 0.26 | <0.01–0.95 | 0.95 |
+| Sr | 87 | 81.93 | 0.11–328.64 | 258.19 | 5 | 4.28 | 0.50–11.21 | 11.21 |
 
-| Scenario | Population | Cancer risk range | Non-cancer HQ range |
-|---|---|---|---|
-| Dermal exposure | Children (face-only surface area) | 10⁻⁸ to 10⁻⁵ | mostly <1 |
-| Dermal exposure | Adults (occupational, head + trunk) | 10⁻³ to 10⁻⁵ | >1 for some target systems |
-| Incidental ingestion (hand-to-mouth) | Children + adults | lower than dermal | <1 |
+Two table cells transcribed exactly as printed in the paper but look anomalous: Ba pancakes P95 = 0.21 (below the reported min 3.42) and Pb pancakes P95 = 72.97 (well above the reported max 11.69). Both are likely typesetting transpositions in the published Table 3 — but the wiki preserves the source as printed rather than silently "correcting" it.
 
-**USEPA model parameters used (paper Eqs 1-8)**:
-- Dermal absorption fractions (ABS, dimensionless): As 0.03; Cr-VI 0.04; other PTEs 0.001
-- Conversion factor (CF): 10⁻⁶ mg/kg
-- Adherence factor (AF): paints applied per skin event ÷ surface area
-- Body weight (BW): age-group specific
-- Skin surface area (SA): head-only for children; head + trunk for adults
-- Reference doses (RfD): USEPA/IRIS oral RfD for As, Sr; ATSDR MRL for Al, Co, Cu, Sn; USEPA absorbed RfD (RfD_abs = RfD_o × ABS_gi) for Ba, Cd, Cr-III, Cr-VI, Ni, Sb
-- Slope factors (SF): California OEHHA oral SF for As, Pb; USEPA SF_abs for Cr-VI
+**Compliance counts against published cosmetic-impurity limits (face paint samples only):**
+- German BVL technically-avoidable limits: Pb (2 ppm) exceeded by 2.2% of samples; Sb (0.5 ppm) by 2.7%; As (0.5 ppm) by 10.9%; Cd (0.1 ppm) by 12.7%
+- Health Canada limits (Pb 10 ppm, As 3 ppm, Cd 3 ppm, Sb 5 ppm): Pb exceeded by 1.1% of samples
+- US FDA color-additive limits (As 3 ppm, Pb 20 ppm, Hg 1 ppm): the paper does not tabulate Salles study compliance counts against these
+- Brazil MERCOSUR technical regulation: lists permitted color additives (20 ppm Pb, 100 ppm other heavy metals) but does not set general cosmetic impurity limits
+
+**Color-stratified statistical signals (Kruskal–Wallis, p-values from the paper):**
+- White, blue, and purple paints had highest mean Pb and Cd (p = 0.01)
+- Lilac, brown, and white paints had highest mean As (p < 0.01)
+- Lilac, blue, and green had highest Cu (p < 0.01)
+- Red had highest Ba (p < 0.01); brown and yellow had highest Co (p = 0.03)
+- For most elements (Al, As, Ba, Cd, Co, Cr, Ni, Pb, Sb, Sn), means were higher in pancakes and liquid face paints than in cream/fluorescent face paints (p < 0.05)
+- Cream and professional pancakes had higher means for Cd, Cr, Pb (p < 0.0001)
+- Sr was higher in fluorescent and liquid paints
+- Cu did not differ across product types
+
+**Table 4 — Cancer risk (CR) and non-cancer HQ summed across all PTEs** (selected target systems with HQ approaching or exceeding 1 in italics in the source; values reproduced from the published table for child and adult exposure scenarios):
+
+*Children (2 to <11 y), face paints:*
+- Cancer risk: 8.97 × 10⁻⁸ (female dermal) to 7.70 × 10⁻⁶ (male total); range 10⁻⁸ to 10⁻⁵
+- Non-cancer HQ all targets <1 (highest: cardiovascular/dermal in males, 1.71 × 10⁻³)
+
+*Children (2 to <11 y), pancakes:*
+- Cancer risk: 3.26 × 10⁻⁷ to 9.13 × 10⁻⁵; range 10⁻⁷ to 10⁻⁵
+- Non-cancer HQ all targets <1
+
+*Adults (≥21 y, occupational), face paints:*
+- Cancer risk: 6.57 × 10⁻⁵ (female ingestion) to 1.28 × 10⁻³ (female total); range 10⁻⁵ to 10⁻³
+- Non-cancer HQ: cardiovascular/dermal (female total = 7.13 × 10⁻¹; male = 6.16 × 10⁻¹); "other" (female total 1.28 × 10⁻¹; male 1.11 × 10⁻¹)
+
+*Adults (≥21 y, occupational), pancakes:*
+- Cancer risk: 6.51 × 10⁻³ to 6.82 × 10⁻³ (female total) and 2.67 × 10⁻⁴ to 3.65 × 10⁻³ (male); range 10⁻⁴ to 10⁻³
+- Non-cancer HQ: cardiovascular/dermal (female total 1.57 × 10⁰; male 1.36 × 10⁰) — exceeds 1; "other" (female total 2.44 × 10⁰; male 2.11 × 10⁰) — exceeds 1
+
+Carcinogenic risk contributions: arsenic ≈ 90% of total cancer risk; in pancake "other"-target HQ, Cr(VI) contributed ≈ 99%; in cardiovascular/dermal HQ, As contributed ≈ 100%.
+
+**USEPA model parameter values used by the paper (Table 1):**
+- Dermal absorption fractions (ABS): As 0.03; Cr(VI) 0.04; all other PTEs 0.001
+- Conversion factor (CF): 1 × 10⁻⁶ mg/kg
+- Adherence factor (AF, mg cm⁻² event⁻¹): children 196.08 (age 2-3), 166.67 (3-6), 151.52 (6-11); adult females 260.42, adult males 207.68
+- Mass per application: 1000 mg children, 20,000 mg adults
+- Skin surface area (SA): children head only 510 / 600 / 660 cm²; adult head + trunk 9630 (F) / 7680 (M) cm²
+- Exposure frequency (EF, days yr⁻¹): children 2 (4 h/day, 12 d/yr); adults 83 (8 h/day, 250 d/yr — occupational)
+- Exposure duration (ED, yr): children 1 / 3 / 5; adults 35
+- Hand-to-mouth frequency (λ_D, contacts/hour): children 13; adults 8
+- Hand-to-mouth transfer efficiency (f_D): 0.24
+- Time of oral exposure (t, h/day): children 4; adults 8
+- Body weight (BW, kg): female children 14.45 / 18.70 / 30.05; male children 14.95 / 19.02 / 29.46; adults 63.35 (F) / 73.25 (M)
+- Averaging time: carcinogenic AT = 70 × 365 d; non-carcinogenic AT = ED × 365 d
+
+**Toxicity-value sources (Table 2):** oral slope factor (SF_o) from California OEHHA for As (9.5) and Pb (0.0085) and from USEPA for Cr(VI) (0.5); oral RfD from USEPA/IRIS for As (0.0003), Cd (0.001), Cr(III) (1), Cr(VI) (0.003), Ni (0.02), Sb (0.0004), Sr (0.6); ATSDR MRL used for Al, Co (0.01), Cu (0.02), Sn (0.3); USEPA absorbed RfD (RfD_abs = RfD_o × ABS_gi) computed for Ba (ABS_gi 7), Cd (5), Cr(III) (1.3), Cr(VI) (2.5), Ni (4), Sb (15).
 
 ## Methods
 
-Sample collection: 95 samples (4 brands × multiple textures/colors face paints, 1 brand of pancakes) from highest-traffic commercial center in São Paulo. All manufacturers Brazilian. When possible, two batches per type+color purchased.
+Sample collection: 95 samples (90 face paints across 4 Brazilian brands × 3 textures (liquid, cream, fluorescent) × multiple colors; 5 pancakes from 1 brand × 5 colors) purchased at the largest high-street commercial center in São Paulo. Two batches per type+color collected when available.
 
-Sample preparation: 150-200 mg sample in triplicate + 2 mL conc. HNO3 (14 mol/L, sub-distilled), overnight room temp pre-digestion, graphite-covered digester block at 120 °C × 4 h, dilute to 40 mL with 18.2 MΩ deionized water, filter 0.2 µm cellulose acetate.
+Sample preparation: 150–200 mg sample in triplicate, + 2 mL conc. HNO₃ (14 mol/L, sub-distilled, ~65% m/m; Synth, Brazil; sub-distilled in DST-1000, Savillex, USA). Overnight room-temperature pre-digestion. Heating in graphite-covered EasyDigest digester block (Analab, France) at 120 °C × 4 h (per Paniz et al. [16]). Dilute to 40 mL with 18.2 MΩ·cm deionized water (Master System All, Gehaka, Brazil). Filter 0.2 µm cellulose acetate prior to ICP-MS.
 
-Instrumentation: Agilent 7900 ICP-MS. External calibration 1-200 µg/L, linearity 1.00 for most elements (0.9999 for Pb). CRMs: NIST 2709 (soil), ERM CC 141 (loam), NIST 1573 (tomato leaves), Agro 1003a. LOD = 3σ procedural blank / slope × dilution factor.
+Instrumentation: Agilent 7900 ICP-MS (Hachioji, Japan). External calibration with multi-element standard (1000 µg L⁻¹ PerkinElmer) at 1, 5, 10, 20, 50, 100, 200 µg L⁻¹. Linearity ≈1.00 for most elements; 0.9999 for Pb. LOD = 3σ procedural blank / calibration slope × dilution factor (10 independent blank measurements).
 
-Risk assessment: USEPA-based dermal + ingestion exposure modelling per Salles' paper Eqs 1-8. Dermal absorption fractions sourced from USEPA Risk Assessment Guidance for Superfund. Hand-to-mouth transfer factor 0.24 conversion efficiency (literature consensus). Slope factors from California OEHHA (As, Pb) and USEPA (Cr-VI).
+Quality assurance: CRMs analyzed alongside samples — NIST 2709 (San Joaquim soil), ERM CC 141 (loam soil), NIST 1573 (Tomato Leaves), Agro 1003a (Tomato Leaves). Recoveries reported in supplementary Table S2.
 
-Speciation: Total Cr by ICP-MS, with Cr-VI fraction estimated using ABS_gi (gastrointestinal absorption fraction) per USEPA convention. Total Hg not measured.
+Risk assessment: USEPA exposure modelling for dermal absorption (Eqs 1–6) and incidental hand-to-mouth ingestion (Eqs 7–8), with cumulative cancer risk and HQ across PTEs (Eqs 9–10). Dermal absorption fractions from USEPA Risk Assessment Guidance for Superfund. Slope factors for As and Pb from California OEHHA; for Cr(VI) from USEPA. Cancer risk computed for As, Cr(VI), and Pb. For Cr(VI), the entire measured total Cr concentration was assumed to be Cr(VI) (worst-case assumption — no speciation was performed).
+
+Statistical analysis: Descriptive statistics (arithmetic mean, min, max, 95th percentile). Kruskal–Wallis test across colors and product types; Dunn's test for multiple comparisons after significant Kruskal–Wallis (p < 0.05). Software: R [31].
+
+Speciation: Total Cr by ICP-MS only — no Cr(VI) speciation; the paper applied a worst-case "all Cr is Cr(VI)" assumption to risk math but did not measure Cr(VI) directly. Arsenic reported as total (no inorganic/organic speciation). Total Hg not measured (Hg not on the analyte list).
 
 ## Implications
 
-Certification: For HMTc Cat 2 face-paint / costume-cosmetic row:
+Occurrence data this paper contributes:
+- Brazilian high-street face-paint and pancake concentrations for 12 PTEs (Al, As, Ba, Cd, Co, Cr, Cu, Ni, Pb, Sb, Sn, Sr), n = 90 face paints + 5 pancakes. The Table 3 means, ranges, and P95 values are the principal occurrence data the wiki should carry into product-page pooling for face paint and professional pancakes.
+- Color-stratified concentrations for face paints across 10–11 colors, with statistical-significance flags. White / blue / purple drive Pb and Cd; lilac / brown / white drive As; red drives Ba; brown / yellow drive Co.
+- Texture-stratified differences: pancake and liquid forms tend to carry higher PTE concentrations than cream and fluorescent forms; cream and professional pancakes have the highest Cd, Cr, Pb.
 
-1. **Cancer risk from chronic dermal exposure is the dominant concern**, not incidental ingestion. HMTc Cat 2 thresholds for face paints should anchor on dermal-absorbed-dose × lifetime-application-frequency for both children and adult-occupational users.
+Exposure-pathway data this paper contributes:
+- A worked USEPA dermal + incidental-ingestion exposure model for a face-paint and pancake exposure scenario, with parameter values (Tables 1 and 2) sourced from USEPA, ATSDR, OEHHA, and the published exposure-factors literature. Dermal-absorbed-dose dominates cancer risk for adults under the occupational scenario (8 h/day, 250 d/yr). Incidental ingestion (hand-to-mouth) dominates cancer risk for children under the recreational scenario (4 h/day, 12 d/yr).
+- Per-element contribution analysis: arsenic ≈ 90% of total cancer risk; Cr(VI) ≈ 99% of "other"-target HQ in pancakes (driven by the worst-case all-Cr-is-Cr(VI) assumption); As ≈ 100% of cardiovascular/dermal HQ.
+- A 1.1%–12.7% non-compliance rate against the German BVL technically-avoidable limits across Pb, Sb, As, Cd for face-paint samples, and 1.1% non-compliance with Health Canada Pb (10 ppm) for face paints.
 
-2. **Adult occupational exposure (theater, makeup artists, costumed entertainers) is the highest-risk scenario** — cancer risk 10⁻³ to 10⁻⁵, well above the 10⁻⁴ acceptable threshold. HMTc Cat 2 face-paint certification should include the occupational-use scenario, not just the once-yearly Halloween / Carnival use scenario.
+Cr(VI) caveat for downstream use: this paper's Cr(VI) risk numbers should be treated as upper-bound, not measured — total Cr was substituted into the Cr(VI) risk equations rather than speciated. Any downstream synthesis on Cr(VI) in face paints needs a speciated source.
 
-3. **As, Pb, and Cr-VI are the binding carcinogenic-risk analytes** because they have the dermal slope factors and dermal absorption fractions in the model. Cd, Ni, Sb contribute to non-carcinogenic hazard quotient but not the cancer risk.
+Courses: Worked example of USEPA dermal + incidental-ingestion exposure modelling for cosmetics. Equations 1–8 and the full parameter table are usable as-is for teaching how exposure assessment translates concentration data into risk.
 
-4. **Color matters**: face paints in different colors carry different pigment loads (red and yellow tend toward Cd-pigments; black toward Mn/Fe; white toward TiO2 with Pb impurities; brown toward iron oxides). The paper's per-color data should inform per-color HMTc thresholds rather than a single matrix threshold.
-
-5. **Brazilian Carnival + US Halloween + children's parties** are the realistic user scenarios. HMTc Cat 2 face-paint certification needs to default to "regular use" assumptions (multiple events per year × multi-hour applications) rather than a single-application worst case.
-
-6. **The Campaign for Safe Cosmetics 2009 finding (100% face paints had Pb, 60% had allergen-level Ni/Co/Cr)** is consistent with this paper's results — face paints have systematically higher heavy-metal load than regular makeup because they use cheaper / less-refined pigments.
-
-Courses: Excellent case study for USEPA risk-assessment methodology applied to a cosmetic exposure scenario. Eqs 1-8 are well-documented and the per-PTE absorption-fraction logic is clean.
-
-App: For the consumer app, face paint should carry an "elevated risk" flag, especially for repeat use within a year (theater, themed parties, recurring Halloween). The cancer-risk concern is occupational and lifetime, not single-use.
+App: Face paints and theatrical pancakes warrant a per-color contamination-likelihood signal rather than a single product-form signal, given the strong color-stratified signals for Pb, Cd, As, Ba, Co.
 
 Microbiome: Not addressed.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[metals/aluminum]]
-- [[metals/arsenic-total]]
-- [[metals/cadmium]]
-- [[metals/chromium]]
-- [[metals/chromium-hexavalent]]
-- [[metals/nickel]]
-- [[metals/lead]]
-- [[metals/antimony]]
-- [[metals/tin]]
-- [[products/face-paint]] (Cat 2 row — to be created)
-- [[products/costume-cosmetics]] (Cat 2 row — to be created)
-- [[products/children-personal-care]]
-- [[health/cat-2-non-ingestion-exposure-pathways]] — this paper's methodology is the canonical reference for the Cat 2 dermal-exposure modelling described in the supplement
+- 2026-05-18 merge-enhance (Claude Opus 4.7) against the original PDF (17 pp.):
+  - **Key numbers section rewritten** — prior page said "Specific per-element concentrations are tabulated in the paper but not in the abstract-level excerpts read here." Replaced with the full Table 3 (per-PTE n, mean, min-max, P95 for face paints and pancakes), Table 4 risk summary (cancer + HQ by sex, pathway, age group), and the color-stratification statistical signals from §3.1. USEPA model parameters from Table 1 and toxicity-value sources from Table 2 added.
+  - **`metals:` array expanded** from [Al, tAs, Cd, Cr, Cr-VI, Ni, Pb, Sb, Sn] to [Al, tAs, Ba, Cd, Co, Cr, Cu, Ni, Pb, Sb, Sn, Sr] to cover all 12 PTEs actually measured. **Removed Cr-VI** from `metals:` because the paper explicitly did not speciate (Section 2.5: "the entire concentration of total chromium determined was considered hexavalent chromium"). Per Part 14 speciation discipline, total-Cr-only papers list `Cr`, not `Cr-VI`. The Cr(VI) assumption is preserved in Methods and Implications as a worst-case modelling choice.
+  - **`products/costume-cosmetics` removed** from frontmatter — not in current taxonomy (taxonomy snapshot 2026-05-17). The face-paint product page covers the form; children-personal-care and childrens-makeup cover the audience. Added childrens-makeup as a closer-fit slug than the deprecated costume-cosmetics.
+  - **Jurisdictions narrowed from [BR, US] to [BR]** — the paper samples are 100% Brazilian-manufactured and Brazil-purchased; the US references are background-literature citations only, not study samples.
+  - **Synthesis claim deleted** from opening paragraph: prior page said "This complements the Arshad 2020 Pakistani cosmetics finding... both papers converge on the conclusion that chronic dermal exposure...is the dominant carcinogenic risk pathway" — Part 2 firewall (no cross-source synthesis on source pages; synthesis is a Part 9 workflow).
+  - **HMTc threshold-policy proposals reframed** in Implications. Prior numbered items 1–6 contained recommendations like "HMTc Cat 2 thresholds for face paints should anchor on dermal-absorbed-dose × lifetime-application-frequency" and "HMTc Cat 2 face-paint certification needs to default to 'regular use' assumptions." Per Part 2 boundary (allowed: "contributes occurrence data"; not allowed: "suggests HMTc should certify at Y"), reframed as a description of the occurrence and exposure-pathway data the paper contributes, without recommending threshold logic or scenario defaults.
+  - **Legacy heading "## Wiki pages updated on ingest" removed** along with the bulleted-wikilink list — current schema uses the routing audit to compute fan-out automatically from frontmatter, not a hand-curated list at the bottom of the source page.
+  - **Two anomalous Table 3 values preserved as printed** (Ba pancakes P95 = 0.21 vs min 3.42; Pb pancakes P95 = 72.97 vs max 11.69) with a one-line note that they look like typesetting transpositions but the wiki defaults to faithful transcription. Flag for any future synthesis pass that wants to use the pancake P95s.
+- Preserved from prior page: cite_key, raw_handle (kimi-children-personal-care-salles2023 — pre-MFK_ format), raw_path, license, evidence_tier, sample_n.
