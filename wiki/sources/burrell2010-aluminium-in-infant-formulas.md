@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: Digest/1471-2431-10-63.pdf
+raw_handle: MFK_there-is-still-too-much-aluminium-in-infant-formul
 cite_key: burrell2010-aluminium-in-infant-formulas
 title: "There is (still) too much aluminium in infant formulas"
 authors: ["Shelle-Ann M. Burrell", "Christopher Exley"]
@@ -10,7 +10,7 @@ doi: "10.1186/1471-2431-10-63"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
-raw_path: "raw/studies/1471-2431-10-63.pdf"
+raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/There is (still) too much aluminium in infant formulas.pdf"
 access_url: https://doi.org/10.1186/1471-2431-10-63
 raw_sha256: "3f79353a3f8c325ab6ae57a1b12ccaa3504176286228428bffbba261e3630279"
 metals: [Al]
@@ -48,11 +48,11 @@ The paper identifies cow-milk-based formulas, a soya-based formula, powder and r
 
 ## Implications
 
-Certification (HMTc): Contributes aluminium occurrence data across three distinct infant-formula product subcategories (cow-milk-based powder, cow-milk-based ready-to-feed liquid, soya-based powder) plus a preterm subcategory not currently represented in the product taxonomy. The soya-powder value (629.0 µg/L prepared) and the preterm ready-made value (700.4 µg/L) are at the upper end of the literature range and warrant subcategory-specific treatment in any aluminium threshold work.
+This source contributes direct aluminium occurrence data for infant-formula products sampled on the UK market in 2010, with separate evidence for ready-made liquid formulas, powdered formulas prepared according to manufacturer directions, a soya-based powder, and a preterm ready-made formula.
 
-Courses: Teachable case study for manufacturer QA, supply-chain, and regulatory-affairs audiences on format-specific contamination (powder vs ready-made differ on raw-material aluminium, water reconstitution, packaging migration), ingredient-platform effects (soya cultivar selection and acid-soil agronomy on aluminium uptake), and the gap between feeding-direction-based intake estimates and lab-measured product concentrations.
+The strongest source-page use is format and ingredient-platform differentiation. Powdered formulas generally produced higher prepared-milk aluminium estimates than ready-made liquid formulas, and the authors discuss the soya-based powder in relation to aluminium accumulation in soybean plants grown on acid soils. The preterm ready-made formula is also a distinct evidence category because the authors discuss infant vulnerability and compare formula concentrations to typical breast-milk aluminium.
 
-App: Contributes to the `contamination_profile` Al sub-block for the infant-formula ingredient family, with format-specific differentiation: cow-milk-based powder (n=7), cow-milk-based RTF (n=8), soya-based powder (n=1).
+The paper provides product-level occurrence and feeding-direction intake estimates, but the wiki stores those as aggregated format descriptors rather than sampled-product names. It does not provide a regulatory maximum level or a safe exposure threshold for aluminium in infant formula.
 
 ## Wiki pages this source may touch
 
@@ -68,7 +68,8 @@ App: Contributes to the `contamination_profile` Al sub-block for the infant-form
 
 ## Verification notes
 
-- Cross-vendor audit (Codex, 2026-05-17) corrected Table 2 powder row count from n=7 to n=8 and cow-milk-based powder count from n=6 to n=7; reassigned the 863.0 µg/L ready-made replicate maximum to the preterm product per Table 1; removed avoidable product-name-attributed values from Key numbers; and corrected `raw_path` to the matching SHA-256 PDF at `raw/studies/1471-2431-10-63.pdf`.
+- Cross-vendor audit (Codex, 2026-05-17) corrected Table 2 powder row count from n=7 to n=8 and cow-milk-based powder count from n=6 to n=7; reassigned the 863.0 µg/L ready-made replicate maximum to the preterm product per Table 1; removed avoidable product-name-attributed values from Key numbers; and corrected `raw_path` to the matching SHA-256 PDF.
 - The current product taxonomy has no preterm-formula slug; the preterm-formula evidence is captured under `infant-formula-rtf-liquid-non-soy` for routing purposes but is a distinct subcategory in the literature. Flag for Karen per Part 10: consider `infant-formula-preterm-rtf` as a future product page if more preterm-formula evidence accumulates.
 - This page was enhanced 2026-05-17 from a Mode B (direct PDF) GPT-5.5 fast-mode draft via the verification pipeline. Prior version (2026-04-29) had a legacy `## Summary` heading and thin Key numbers (4 rounded bullets); enhanced revision adds replicate-sample structure, EDI estimates, breast-milk comparison anchor, and per-table source citation. GPT draft initially listed product-name-specific values in Key numbers (Part 12 violation); aggregated to format/category level using product-form descriptors (preterm, soya-based, ready-made, powder) without naming sampled products. Modernized `## Wiki pages updated on ingest` heading to `## Wiki pages this source may touch`.
-- Strict Part 12 recheck (Codex, 2026-05-17) removed a named instrument vendor from Methods; sampled-product names remain excluded.
+- Strict Part 12 recheck (Codex, 2026-05-17) removed sampled-product names from the page body. The method instrument vendor/model remains in Methods because the current Part 12 Exception 2 permits scientific-method vendor names for reproducibility.
+- Manual-fetch recheck (Codex, 2026-05-18) updated the provenance to the `MFK_` PDF path, which is byte-identical to the older `raw/studies/1471-2431-10-63.pdf` file (SHA-256 `3f79353a3f8c325ab6ae57a1b12ccaa3504176286228428bffbba261e3630279`), and rewrote the legacy Certification/Courses/App implications into source-evidence context only.
