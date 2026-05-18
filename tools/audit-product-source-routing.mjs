@@ -175,6 +175,7 @@ for (const file of fs.readdirSync(sourceDir).filter((name) => name.endsWith(".md
   const raw = fs.readFileSync(sourcePath, "utf8")
   const parsed = matter(raw)
   if (isRegulatorySource(parsed.data)) continue
+  if (isDuplicateSource(parsed.data)) continue
 
   const sourceId = String(parsed.data.cite_key || path.basename(file, ".md"))
   const sourceTitle = String(parsed.data.title || firstHeading(raw) || readableSlug(sourceId))
@@ -366,6 +367,10 @@ function productSlugFromValue(value) {
   const markdownMatch = text.match(/products\/([^)\]#]+)/)
   if (markdownMatch) return markdownMatch[1]
   return text
+}
+
+function isDuplicateSource(data) {
+  return String(data.status || "").trim().toLowerCase() === "duplicate" || Boolean(data.canonical_source)
 }
 
 function readAuditedProductPages() {

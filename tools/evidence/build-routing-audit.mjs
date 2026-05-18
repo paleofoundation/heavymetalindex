@@ -142,6 +142,7 @@ for (const file of sourceFiles) {
   const parsed = matter(raw)
   const sourceId = String(parsed.data.cite_key || path.basename(file, ".md"))
   const sourcePage = `wiki/sources/${file}`
+  if (isDuplicateSource(parsed.data)) continue
 
   // --- 2a. Malformed check.
   const missingBlocking = blockingFields.filter((field) => !hasFrontmatterValue(parsed.data, field))
@@ -309,6 +310,10 @@ function hasFrontmatterValue(data, field) {
   if (Array.isArray(value)) return value.length > 0
   if (typeof value === "string") return value.trim().length > 0
   return true
+}
+
+function isDuplicateSource(data) {
+  return String(data.status || "").trim().toLowerCase() === "duplicate" || Boolean(data.canonical_source)
 }
 
 function asStringArray(value) {

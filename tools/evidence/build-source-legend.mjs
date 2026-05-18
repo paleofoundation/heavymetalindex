@@ -91,6 +91,10 @@ function displayType(srcType) {
   return s.charAt(0).toUpperCase() + s.slice(1).replace(/-/g, " ")
 }
 
+function isDuplicateSource(fm) {
+  return String(fm.status || "").trim().toLowerCase() === "duplicate" || Boolean(fm.canonical_source)
+}
+
 // ---------- Step 1: build reverse index source → target pages ----------
 
 const sourceFiles = fs.readdirSync(sourcesDir).filter((f) => f.endsWith(".md"))
@@ -107,6 +111,7 @@ for (const file of sourceFiles) {
   } catch (e) {
     continue  // skip pages with malformed frontmatter
   }
+  if (isDuplicateSource(fm)) continue
   const citeKey = fm.cite_key || file.replace(/\.md$/, "")
   sourcesByCiteKey.set(citeKey, {
     file,

@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_p0132-health-risk-assessment-of-heavy-metals-in-im
 cite_key: rabeey2025-bovine-hg-pb-cd-egypt
 title: "Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt"
 authors: [Rabeey MA, Sabala RF, Zakaria AI, Sallam KI]
@@ -10,64 +10,90 @@ doi: 10.1038/s41598-025-29927-x
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0132_Health risk assessment of heavy metals in imported fro.pdf"
+raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0132_Health risk assessment of heavy metals in imported frozen bovine meat.pdf"
+raw_sha256: "00898019867cec01eff4bf4855ad80422a098d4ad8f2ff88cc3b88521f3d26de"
 metals: [tHg, Pb, Cd]
-ingredients: ["[[ingredients/beef]]", "[[ingredients/beef-liver]]", "[[ingredients/beef-kidney]]"]
+ingredients: ["[[ingredients/beef]]", "[[ingredients/organ-meats]]", "[[ingredients/meat]]", "[[ingredients/meat-and-poultry]]"]
 products: ["[[products/beef-product]]"]
-matrices: [beef-muscle, beef-liver, beef-kidney]
+matrices: [meat, beef-muscle, bovine-liver, bovine-kidney]
 jurisdictions: [EG, BR, IN, US]
+near_duplicates: []
 sample_n: 315
-sample_population: "Imported frozen bovine muscle, liver, and kidney (105 each) collected from local markets in Sohag governorate, Egypt; origin countries include Brazil, India, and USA"
-updated: 2026-05-13
+sample_population: "315 imported frozen bovine samples (105 muscle, 105 liver, 105 kidney) collected from local markets in Sohag governorate, Egypt; source countries described by the authors as Brazil, India, and the USA."
+updated: 2026-05-18
 ---
 
 # Rabeey et al. 2025 — Heavy metals in imported frozen bovine tissues, Sohag, Egypt
 
-A 2025 peer-reviewed study analyzed 315 imported frozen bovine samples (105 each of muscle, liver, and kidney) from local markets in Sohag, Egypt for total mercury (tHg), lead (Pb), and cadmium (Cd) by atomic absorption spectrophotometry, finding that more than half of muscle and liver samples exceeded international maximum permissible limits (MPLs) for Hg and Pb. Despite widespread exceedance of regulatory thresholds, calculated health risk indices (THQ, cancer risk) remained below the level of concern for average Egyptian consumers at reported ingestion rates. The findings underscore a significant disconnect between regulatory threshold exceedance and formal risk-index estimates, and highlight the importance of ongoing heavy metal surveillance in imported frozen meat products.
+This study analyzed 315 imported frozen bovine samples (105 each of muscle, liver, and kidney) from local markets in Sohag, Egypt, for total mercury (tHg), lead (Pb), and cadmium (Cd) by atomic absorption spectrophotometry. The authors report frequent exceedance of their cited maximum permissible limits for Pb and Hg, while calculated dietary risk indices remained below concern thresholds for average adult Egyptian consumption rates. The core tissue pattern was muscle highest for tHg, liver highest for Pb, and kidney highest for Cd.
 
 ## Key numbers
 
-All concentrations reported as mg/kg wet weight (equivalent to ppm wet weight; 1 mg/kg = 1,000 ppb).
+All concentrations are reported as mg/kg wet weight. The source table labels the same basis as µg/g wet weight; 1 µg/g = 1 mg/kg.
 
-**Mercury (tHg):**
-- Muscle: range 0.013–1.228 mg/kg; mean ± SE = 0.312 ± 0.034 mg/kg; 54.3% (57/105) exceeded MPL of 0.05 mg/kg (USDA 2023)
-- Liver: range 0.001–1.190 mg/kg; mean ± SE = 0.273 ± 0.031 mg/kg; 57.1% (60/105) exceeded MPL
-- Kidney: range 0.001–0.790 mg/kg; mean ± SE = 0.167 ± 0.023 mg/kg; 40% (42/105) exceeded MPL
+**Table 1 concentrations and exceedance rates**
 
-**Lead (Pb):**
-- Muscle: range 0.020–1.999 mg/kg; mean ± SE = 0.684 ± 0.06 mg/kg; 62.9% (66/105) exceeded MPL of 0.1 mg/kg (EC 2015)
-- Liver: range 0.006–1.841 mg/kg; mean ± SE = 0.763 ± 0.061 mg/kg; 60% (63/105) exceeded MPL of 0.5 mg/kg (EC 2015)
-- Kidney: range 0.003–2.050 mg/kg; mean ± SE = 0.716 ± 0.068 mg/kg; 54.3% (57/105) exceeded MPL of 0.5 mg/kg (EC 2015)
+| Metal | Tissue | n | Range | Mean ± SE | Author-cited MPL | Exceeding MPL |
+|---|---|---:|---:|---:|---:|---:|
+| tHg | Muscle | 105 | 0.013-1.228 | 0.312 ± 0.034 | 0.05 | 57/105 (54.3%) |
+| tHg | Liver | 105 | 0.001-1.190 | 0.273 ± 0.031 | 0.05 | 60/105 (57.1%) |
+| tHg | Kidney | 105 | 0.001-0.790 | 0.167 ± 0.023 | 0.05 | 42/105 (40.0%) |
+| Pb | Muscle | 105 | 0.020-1.999 | 0.684 ± 0.060 | 0.10 | 66/105 (62.9%) |
+| Pb | Liver | 105 | 0.006-1.841 | 0.763 ± 0.061 | 0.50 | 63/105 (60.0%) |
+| Pb | Kidney | 105 | 0.003-2.050 | 0.716 ± 0.068 | 0.50 | 57/105 (54.3%) |
+| Cd | Muscle | 105 | 0.007-0.100 | 0.030 ± 0.003 | 0.05 | 24/105 (22.9%) |
+| Cd | Liver | 105 | 0.010-0.390 | 0.056 ± 0.008 | 0.50 | 0/105 (0%) |
+| Cd | Kidney | 105 | 0.011-0.211 | 0.073 ± 0.004 | 1.0 | 0/105 (0%) |
 
-**Cadmium (Cd):**
-- Muscle: range 0.007–0.100 mg/kg; mean ± SE = 0.030 ± 0.003 mg/kg; 22.9% (24/105) exceeded MPL of 0.05 mg/kg (EC 2014)
-- Liver: range 0.010–0.390 mg/kg; mean ± SE = 0.056 ± 0.008 mg/kg; 0% exceeded MPL of 0.5 mg/kg (EC 2014)
-- Kidney: range 0.011–0.211 mg/kg; mean ± SE = 0.073 ± 0.004 mg/kg; 0% exceeded MPL of 1.0 mg/kg (EC 2014)
+**Estimated dietary intake and non-cancer risk indices**
 
-**Health risk estimates (muscle and liver only; kidney excluded due to lower exceedance rates and per capita consumption):**
-- EDI as % of PTDI/BMDL: Hg 13.75% (muscle), 4.05% (liver); Pb 11.01% (muscle), 4.135% (liver); Cd 0.366% (muscle), 0.3% (liver)
-- THQ: Hg 0.316 (muscle), 0.0928 (liver); Pb 0.433 (muscle), 0.1625 (liver); Cd 0.00304 (muscle), 0.00248 (liver)
-- TTHQ: 0.752 (muscle), 0.257 (liver) — both below 1.0, indicating no non-carcinogenic concern at the reported ingestion rates
-- Cancer risk (CR) for Pb and Cd: all values between E-7 and E-6, within acceptable range (below E-4 threshold)
+| Metal | Muscle EDI (µg/day/person) | Muscle THQ | Liver EDI (µg/day/person) | Liver THQ |
+|---|---:|---:|---:|---:|
+| tHg | 2.215 | 0.316 | 0.65 | 0.0928 |
+| Pb | 4.856 | 0.433 | 1.82 | 0.1625 |
+| Cd | 0.213 | 0.00304 | 0.174 | 0.00248 |
+| Combined | — | TTHQ 0.752 | — | TTHQ 0.257 |
+
+**Cancer risk estimates**
+
+| Metal | Muscle EDI (mg/kg bw/day) | Muscle CR | Liver EDI (mg/kg bw/day) | Liver CR |
+|---|---:|---:|---:|---:|
+| Pb | 6.9E-5 | 5.86E-7 | 2.6E-5 | 2.2E-7 |
+| Cd | 3.04E-6 | 1.15E-6 | 2.48E-6 | 9.4E-7 |
+
+Kidney was excluded from the authors' health-risk calculations because they describe lower exceedance rates and lower per-capita kidney consumption than muscle and liver.
 
 ## Methods (brief)
 
-Samples digested in concentrated nitric-perchloric acid (2:1) overnight at 55°C, filtered, and analyzed by atomic absorption spectrophotometry (Buck Scientific 210 VGP AAS). Mercury determined by cold vapor technique (MHS); Pb and Cd by air-acetylene flame. Wavelengths: 253.65 nm (Hg), 283.31 nm (Pb), 228.80 nm (Cd). Validation: R² = 0.999 for all calibration curves; spike recoveries of 96.4% (Hg), 98.9% (Pb), 95.9% (Cd) in fish tissue reference material (dogfish liver DOLT-4). Basis: wet weight. Speciation note: mercury reported as total mercury (tHg); the paper does not speciate inorganic vs. methylmercury. This paper reports tHg, not MeHg; tHg and MeHg must not be conflated in synthesis. Ingestion rates for risk assessment: muscle 7.1 g/day per 70 kg adult; liver 2.39 g/day per 70 kg adult (USDA 2022/2020 references for Egyptian consumers).
+Sample collection: 315 imported frozen bovine tissue samples (105 muscle, 105 liver, 105 kidney) collected from local markets in Sohag City, Egypt, and held frozen until analysis.
+
+Preparation: 2 g tissue homogenized in a screw-capped tube with 12 mL concentrated nitric-perchloric acid (2:1), digested overnight in a 55 °C water bath, cooled, diluted with deionized water, filtered through Whatman Grade 42 paper, and made up to 50 mL.
+
+Analysis: Buck Scientific 210 VGP atomic absorption spectrophotometer. Pb and Cd were measured with an oxidizing air-acetylene flame; Hg was measured using a mercury hydride system / cold-vapor technique. Wavelengths were 253.65 nm (Hg), 283.31 nm (Pb), and 228.80 nm (Cd). Calibration curve R² values were 0.999. The authors report spike recoveries of 96.4% (Hg), 98.9% (Pb), and 95.9% (Cd), with dogfish liver DOLT-4 used as certified reference material.
+
+Speciation: The paper reports total mercury. It does not speciate methylmercury from inorganic mercury, so this page uses `tHg`, not `MeHg`.
 
 ## Implications
 
-**Certification:** Pb and Hg levels in over half of imported frozen bovine muscle and liver samples exceed EU and USDA MPLs. This is direct evidence that imported beef from Brazil, India, and the USA entering the Egyptian market carries contamination levels relevant to certification thresholds. For HMT&C, note that the relevant matrix is bovine muscle and organ meats; the MPL frameworks are EU Commission Regulations 1005/2015 (Pb) and 488/2014 (Cd). The high exceedance rates (62.9% for Pb in muscle) make this a high-priority source for the beef products page.
+- Certification: Provides occurrence and exceedance-rate evidence for the beef product row and the beef / organ-meat ingredient nodes. Preserve the market context: imported frozen bovine tissues sampled in Sohag, Egypt, with source countries described as Brazil, India, and the USA.
+- Courses: Useful as a teaching example for separating regulatory-limit exceedance from exposure-index calculations. More than half of several tissue-metal combinations exceeded author-cited MPLs, while THQ, TTHQ, and CR values remained below the authors' concern thresholds under their Egyptian adult consumption assumptions.
+- App: Provides market-specific beef and organ-meat occurrence values. Do not generalize these values to all US or EU beef without additional source support.
 
-**Courses:** Illustrates why country-of-origin and supply-chain provenance matter for heavy metal risk. Demonstrates the gap between formal risk index values below 1 (no concern at average daily intake) and widespread MPL exceedance, which is a useful teaching case for distinguishing regulatory exceedance from health risk assessment.
-
-**App:** Bovine muscle mean tHg: 312 ppb wet weight (0.312 mg/kg); mean Pb: 684 ppb; mean Cd: 30 ppb. These are market-specific values from imported product in Egypt. App should note geographic and supply-chain context; these values likely exceed what would be measured in US or EU domestic markets.
-
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/beef]]
-- [[ingredients/beef-liver]]
-- [[ingredients/beef-kidney]]
-- [[products/beef]]
+- [[ingredients/organ-meats]]
+- [[ingredients/meat]]
+- [[ingredients/meat-and-poultry]]
+- [[products/beef-product]]
+- [[metals/mercury-total]]
 - [[metals/lead]]
-- [[metals/mercury]]
 - [[metals/cadmium]]
+
+## Verification notes
+
+- 2026-05-18 Codex duplicate cleanup: retained `rabeey2025-bovine-hg-pb-cd-egypt` as the canonical source page and retired duplicate source page `rabeey2025-bovine-meat-organs-hg-pb-cd-egypt`.
+- The local seafood-folder PDF is the same DOI as the earlier loose manual-fetch copy. This page now points to the seafood-priority PDF path and records its SHA-256.
+- Numerical fidelity follows the article's Tables 1-4. The abstract reports different SE values for several means (for example tHg muscle 0.312 ± 0.058), while Table 1 reports 0.312 ± 0.034; this page follows Table 1 because it is the full tissue-by-metal results table and supports the range and exceedance columns.
+- The Methods prose states an Hg RfD of 1.0 µg/kg/day, but Table 3 uses 0.1 µg/kg/day to calculate the reported THQs. This page preserves the Table 3 THQ values rather than recalculating them.
+- The author-cited Hg MPL is from the USDA Foreign Agricultural Service report on China's contaminant standard; the Pb and Cd MPL references are EU amendment regulations 2015/1005 and 488/2014. This page reports those as author-cited benchmarks, not as current universal limits.
