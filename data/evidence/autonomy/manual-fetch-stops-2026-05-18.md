@@ -163,3 +163,21 @@ The existing page's `raw_handle` (`FM_9271943`) and `raw_path` (`raw/markdown/FM
 **Recommendation.** The `autonomy_v0` agent's frontmatter-emit code is producing Part-14-violating wikilink arrays (`[[ingredients/apple]], [[ingredients/cinnamon]]` instead of `["[[ingredients/apple]]", "[[ingredients/cinnamon]]"]`). This is a code-level defect in that agent that should be fixed at the emitter, not patched per-file. Until that fix lands, expect intermittent routing-audit failures from autonomy_v0 ingests blocking concurrent manual-fetch sessions.
 
 **No content commits made beyond `2e44dd7`.** This stop-report and the `audit-queue.csv` status update are the only edits in this Phase 3 segment.
+
+## Stop 15 — true duplicate conflict: two existing source pages for the same DOI (BfR 2024 MeHg fish/seafood)
+
+- **PDF:** `raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0145_Methylmercury in fish and seafood - health risk assessment of new data from the BfR MEAL study.pdf`
+- **Suggested handle:** `MFK_p0145-methylmercury-in-fish-and-seafood-health-ris`
+- **DOI:** `10.17590/20240626-094256-0` (BfR Opinion 023/2024, "Methylmercury in fish and seafood - health risk assessment of new data from the BfR MEAL study")
+- **SHA-256 of P0145 PDF:** `62e01b8a34dcf34db2a8d6dcac7ebaf9b34b0719ddb8697de2542d50af7be450`
+
+**Two existing wiki source pages for this one DOI:**
+
+1. `wiki/sources/bfr2024-methylmercury-fish-seafood-germany.md` — legacy page with `raw_handle: manual-fetch-kimi`, `raw_path` truncated to `P0145_Methylmercury in fish and seafood - health risk assess.pdf`, broader tabular Key numbers, and `updated: 2026-05-13`.
+2. `wiki/sources/bfr2024-mehg-fish-seafood-meal-germany.md` — newer page with `raw_handle: MFK_p0145-methylmercury-fish-seafood-bfr-meal`, exact P0145 raw path, current-schema source-page sections, and `updated: 2026-05-17`.
+
+**Why stopped:** This is the true-duplicate-conflict stop condition. DOI grep hits two source pages with different cite-keys for the same BfR opinion. The per-PDF merge-enhance path assumes one canonical destination; enhancing either page silently would leave the other duplicate in place and risk double-counting this agency opinion in seafood and mercury evidence surfaces.
+
+**Action needed:** Run a dedicated dedup pass for DOI `10.17590/20240626-094256-0`: choose the canonical cite-key, merge any unique content and provenance, retire the duplicate cite-key by updating inbound references, delete or quarantine the retired source page, and regenerate routing/evidence outputs. The newer `bfr2024-mehg-fish-seafood-meal-germany.md` is likely the canonical candidate because it already points at the exact P0145 PDF and has current-schema provenance, but the older page's richer exposure table should be checked before retiring it.
+
+**No source-page changes made.** Tracker row marked `stopped-codex`; session stopped per user instruction.
