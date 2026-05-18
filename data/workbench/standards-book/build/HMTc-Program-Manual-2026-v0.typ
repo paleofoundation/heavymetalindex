@@ -125,6 +125,12 @@ Every numeric claim, regulatory reference, and toxicological framing in this man
   it
 }
 
+#show outline.entry.where(level: 1): it => {
+  v(0.9em, weak: true)
+  set text(font: ("FreightTextProBook", "Georgia", "Times New Roman"), size: 11pt, weight: "semibold")
+  it
+}
+
 #outline(
   title: none,
   target: heading.where(level: 1).or(heading.where(level: 2)),

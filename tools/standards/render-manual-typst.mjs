@@ -241,10 +241,20 @@ function main() {
 
   // Swap the sentinel for a real Typst outline. The outline auto-collects
   // every H1 (chapter) and H2 (section) and produces a publisher-grade TOC
-  // with right-aligned page numbers and dot leaders.
+  // with right-aligned page numbers and dot leaders. Chapter-level entries
+  // (H1) get extra vertical lead above them so each chapter visually
+  // clusters with its sections and separates from the previous chapter's
+  // section list. The first chapter does not need the lead since it has
+  // no preceding chapter cluster.
   const typstOutline = `
 #show outline.entry: it => {
   set text(font: ("FreightTextProBook", "Georgia", "Times New Roman"), size: 10.5pt)
+  it
+}
+
+#show outline.entry.where(level: 1): it => {
+  v(0.9em, weak: true)
+  set text(font: ("FreightTextProBook", "Georgia", "Times New Roman"), size: 11pt, weight: "semibold")
   it
 }
 
