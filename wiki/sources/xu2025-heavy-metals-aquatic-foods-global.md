@@ -94,13 +94,13 @@ Trophic level is the single most important predictor for all four metals (Hg 32.
 ### Risk-benefit (Section 2.6, Fig. 5)
 
 - Total CVD deaths prevented per million through aquatic-food EPA + DHA intake at 250 mg/day: 39,816.
-- Cancer deaths caused by aquatic-food heavy-metal intake at population level: approximately 1/1,000 the CVD deaths prevented (paper's phrasing).
-- Maximum modelled IQ gain through aquatic-food EPA + DHA in pregnant women: 5.8 IQ points across 153 countries; Macao the highest at 40 deaths per million people over a lifetime cancer-mortality rate from heavy-metal intake.
+- Cancer mortality rate from cadmium/lead/arsenic intake via aquatic food consumption is, per the paper's phrasing, "only one-thousandth of the cardiovascular disease mortality rate that can be prevented by aquatic foods"; Macao has the highest national lifetime cancer-mortality rate from this exposure at 40 deaths per million people.
+- In 153 countries, pregnant women could potentially increase their newborns' IQ by 5.8 points through aquatic-food EPA + DHA intake at average national consumption levels.
 - Kiribati: highest modelled IQ decline from aquatic-food mercury (3.13 points) but still achieving net IQ gain of 2.67 points; one of 49 countries with > 1 IQ point lost from mercury exposure.
 
 ### Monte-Carlo policy scenarios (Section 2.8)
 
-- Carcinogenic risk: Business-as-Usual (BAU) projects 27.6 % of the modelled population at high risk (15.0 % from cadmium and 13.0 % from arsenic). "Limit Worst" reduces this to 7.2 % (3.4 % Cd, 4.2 % As). "Only Best" reduces it to 5.9 % (1.9 % Cd, 4.2 % As).
+- Carcinogenic risk: Business-as-Usual (BAU) projects 27.6 % of the modelled population at high risk (18.3 % from cadmium and 13.0 % from arsenic). "Limit Worst" reduces this to 7.2 % (3.4 % Cd, 4.2 % As). "Only Best" reduces it to 5.9 % (1.9 % Cd, 4.2 % As).
 - Non-cancer risk: BAU 15.0 % of population at high risk; "Limit Worst" 16.4 %; "Only Best" 12.3 % (the slight BAU→Limit-Worst increase reflects higher mercury in medium- and low-risk products).
 - Exposure-threshold exceedance under BAU 16.1 %, Limit-Worst 9.3 %, Only-Best 6.2 %.
 
@@ -149,6 +149,12 @@ Microbiome: Not addressed.
 
 ## Verification notes
 
+- **2026-05-18 (audit subagent verdict REVISE; verified against PDF — 2 applied, 1 false positive noted):**
+  - ❌ Check 1: Monte-Carlo cadmium BAU cancer-risk percentage. Subagent flagged the wiki's "15.0 % from cadmium" against the paper's reported 18.3 %. Re-verified p. 7: "the simulations predicted 27.6 % of the population to be at high risk under the BAU scenario, with 18.3 % for cadmium and 13.0 % for arsenic." Wiki had transposed the BAU non-cancer-risk total (15.0 %) into the Cd BAU CR cell. **Corrected to 18.3 %.**
+  - ❌ Check 1: Conflated Macao cancer-mortality finding with the 5.8 IQ-gain finding. Subagent flagged the wiki sentence "Maximum modelled IQ gain ... 5.8 IQ points across 153 countries; Macao the highest at 40 deaths per million people" as two separate findings run together. Re-verified p. 5: the 5.8-IQ-gain sentence and the Macao 40-deaths-per-million sentence are distinct paragraphs about distinct quantities (IQ gain from EPA + DHA vs cancer mortality from heavy-metal intake). **Corrected: split into two separate bullets and removed "Maximum modelled" qualifier (the paper says "could potentially increase their newborns' IQ by 5.8 points," not "maximum modelled").**
+  - ❌ Check 2 (false positive): Subagent flagged `[[products/fish-marine-predatory]]` as not in the taxonomy snapshot and proposed it be removed pending Karen's Step 0 Lock. Re-verified: `wiki/products/fish-marine-predatory.md` exists in the live tree (size 6878 bytes, last touched 2026-05-17). The taxonomy-snapshot.md document under `docs/gpt-collaboration/` is a stale static reference (the products section does not list this slug) but the live wiki tree and the routing audit both accept the slug — `npm run evidence:source-routes` generated a `locked_hmtc_row` routing row for `fish-marine-predatory` with no errors. **No edit applied; the snapshot doc is the false-positive surface, not the slug. Pattern matches mukhi2022's corpus-established matrices vs snapshot.**
+  - ⚠️ Check 1: "(paper's phrasing)" parenthetical kept as in original — subagent noted the paraphrase is faithful, no edit needed.
+  - ⚠️ Check 2: matrices vocabulary (`crustaceans`, `cephalopods`, `aquatic-food`, `seafood`) not verifiable against the snapshot doc. These are corpus-established matrix bare-strings (verified via `grep -h '^matrices:' wiki/sources/*.md`); the matrices controlled vocabulary lives implicitly across the corpus, not in the snapshot. No edit; finding noted as a stale-snapshot artefact.
 - **2026-05-18 (Claude session, merge-enhance from PDF re-read):** Prior page (updated 2026-05-14) carried multiple defects against the current schema and the v2.0 ingest workflow:
   - `raw_handle: papers-cube` was a non-standard placeholder; corrected to `PCMF_article-1-copy-3` per the manual-fetch handle convention.
   - `raw_sha256` was missing; computed and added (3c3fec2e6cf9f4afbbcae74aaec2d992f6d4911a987d167ed7cd6d31cfb439a9, shasum -a 256).
