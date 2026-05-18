@@ -1,77 +1,189 @@
 ---
 type: source
-raw_handle: papers-cube
+raw_handle: PCMF_khan2015
 cite_key: khan2015-heavy-metals-food-plants-bioaccumulation
 title: "The uptake and bioaccumulation of heavy metals by food plants, their effects on plants nutrients, and associated health risk: a review"
 authors: [Khan A, Khan S, Khan MA, Qamar Z, Waqas M]
 year: 2015
 publication: "Environmental Science and Pollution Research"
 doi: 10.1007/s11356-015-4881-0
+access_url: "https://doi.org/10.1007/s11356-015-4881-0"
 source_type: review
-evidence_tier: A
-license: unknown
+evidence_tier: B
+license: "unknown"
 raw_path: "raw/Papers Cube Manual Fetch/khan2015.pdf"
-metals: [Pb, Cd, tAs, tHg, Ni, Al, Cr, Zn, Cu]
+metals: [Pb, Cd, tAs, Ni, Cr, Cu, Zn]
 ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/cereals]]", "[[ingredients/legumes]]"]
 products: []
-matrices: [soil, plant-tissue, leaf, root, stem, tuber, grain]
+matrices: [soil, leafy-vegetable, root-vegetable, cereal-grain, dietary-intake]
 jurisdictions: []
 near_duplicates: []
 sample_n: null
-sample_population: "Narrative review of global literature on heavy metal accumulation in food plants"
-updated: 2026-05-15
+sample_population: "Narrative review of global literature on heavy metal accumulation in food plants. The authors (Department of Environmental Sciences, University of Peshawar, Pakistan) summarize soil and plant occurrence ranges compiled from approximately 30 prior studies (Table 1, soil) and approximately 40 prior studies (Table 3, plants), tabulate published soil-to-plant transfer factors (Table 4), and present published daily-intake and health-risk-index values (Tables 5–6). No primary sampling, no PRISMA protocol, no quality assessment of cited studies, no quantitative synthesis."
+updated: 2026-05-18
 ---
 
 # Khan et al. 2015 — Heavy metal uptake and bioaccumulation in food plants
 
-Khan and colleagues review the mechanisms by which food plants take up heavy metals from contaminated soils, how metals redistribute across plant tissues, the effects of metal accumulation on plant nutritional quality, and the resulting health risks for human consumers. This is a wide-scope A-tier review covering Pb, Cd, As, Hg, Ni, Cr, Zn, Cu, and Mn across leafy vegetables, root vegetables, cereals, and legumes. It is particularly useful for the supply-chain section of this wiki because it provides a systematic view of the soil-to-plant transfer pathway that is upstream of food occurrence data.
+Khan and colleagues (University of Peshawar, Pakistan) review published data on heavy-metal contamination in agricultural soils and the resulting metal accumulation in food plants, with attention to soil-to-plant transfer, effects of metals on plant nutritional composition, and health-risk-index calculations for human consumers. The review compiles ranges and individual values from approximately seventy prior studies across Cd, Cr, Cu, Ni, Pb, and As for soils and plants worldwide, and provides the standard equations for daily intake of metals (DIM), health risk index (HRI), target hazard quotient (THQ), and target cancer risk (TCR). The paper is a narrative review without PRISMA-style inclusion criteria or quality assessment; the quantitative values it reports are reattributions of cited primary studies and should be verified against those primaries before downstream use.
 
-## Soil-to-plant transfer mechanisms
+## Key numbers
 
-The authors identify six primary uptake routes. Passive diffusion across root cell membranes is the dominant mechanism for cationic metals (Pb²⁺, Cd²⁺, Ni²⁺) under conditions of low soil pH and high metal bioavailability. Cadmium enters plant roots via the same calcium and zinc transporter systems (including ZIP family transporters and IRT1) that serve essential micronutrient uptake — a structural reason why Cd accumulation is difficult to prevent by metabolic exclusion alone. Arsenic enters as arsenate through phosphate transporters (particularly PHT1 family) because arsenate mimics phosphate in shape and charge; arsenite enters through aquaporin channels (NIPs — nodulin-26-like intrinsic proteins). Mercury is taken up primarily as inorganic Hg²⁺ through aquaporins; methylmercury uptake via roots is limited but not zero. Lead uptake at the root surface is partially blocked by the apoplastic barrier (endodermis, Casparian strip), which is why stem and grain Pb concentrations typically fall below root concentrations by one to two orders of magnitude.
+### Exposure-pathway attribution (Introduction, page 2 of PDF)
 
-## Bioaccumulation patterns across plant parts
+- Vegetables contribute approximately 90 % of total human heavy-metal intake; the remaining 10 % occurs through dermal contact and inhalation of contaminated dust (attributed to Martorell et al. 2011; Kim et al. 2009; Ferré-Huguet et al. 2008; Khan et al. 2014).
 
-The review documents a consistent bioaccumulation hierarchy for non-hyperaccumulating crops: **leaf > root ≈ stem > tuber > grain** for most metals. Exceptions are notable: cadmium is more mobile in the phloem than most divalent metals, so it reaches grain and fruit at proportionally higher fractions than lead. Arsenic (as arsenate) is largely immobilized in root vacuoles and has low phloem mobility, except in rice where silicon transporter activity and waterlogged-paddy conditions create a specialized high-As grain pathway. The practical consequence is that leafy vegetables generally carry the highest multi-metal contamination burden per edible portion across crops grown on contaminated soil.
+### Heavy metal definitions adopted by the review
 
-## Effects of heavy metals on plant nutritional quality
+- Heavy metals are defined as elements with atomic density five times greater than water, or more than 4 g/cm³ (Hawkes 1997) or more than 5 g/cm³ (Saxena and Shekhawat 2013; Weast 1984).
+- Cd, Pb, Hg, and Zn are named as heavy metals by density; As is included by analogous toxicity properties.
+- Essential elements named: Cu, Cr, Fe, Mn, Zn.
+- Non-essential elements named (no nutritional role): As, Cd, Pb.
 
-A section of the review that is less commonly cited but directly relevant to consumer-facing risk assessment: metal contamination degrades plant nutritional composition independently of direct metal toxicity to the consumer. The authors synthesize data showing that:
+### Compiled soil-concentration ranges (Table 1, mg/kg)
 
-- Cadmium and lead reduce total protein and amino acid content, particularly in cereal grains, by interfering with nitrogen assimilation enzymes (nitrate reductase, glutamate synthase).
-- Arsenic disrupts carbohydrate metabolism, reducing glucose and starch in contaminated wheat and rice.
-- Heavy metals at phytotoxic concentrations deplete ascorbic acid (vitamin C), carotenoids, and chlorophyll.
-- Nickel and chromium suppress root growth and lateral root branching, reducing uptake of phosphorus and micronutrients (Fe, Mn, Zn) even when those elements are adequate in the soil.
+The review reports ranges across cited studies, not original measurements. Selected entries (footnotes a/b/c/d/e indicate exceedance vs. India, USEPA, China EPA, EU, FAO/WHO permissible limits respectively):
 
-The practical implication: populations relying heavily on crops from contaminated soils face a double burden — metal exposure and nutritional impairment — a coupling particularly relevant to developing-country agricultural systems where malnutrition and metal contamination co-occur.
+- Cd in agricultural soil: 0.14 (Gichner et al. 2006) to 17.1 (Luo et al. 2011); 30 cited studies.
+- Cr: 0.121 (Noor-ul-Amin et al. 2013) to 204.25 (Meers et al. 2005).
+- Cu: 0.225 (Noor-ul-Amin et al. 2013) to 11,140 (Luo et al. 2011, range upper bound).
+- Ni: 0.123 (Noor-ul-Amin et al. 2013) to 60.1 (Luo et al. 2011).
+- Pb: <0.2 (Castro et al. 2009) to 4,500 (Luo et al. 2011, range upper bound).
 
-## Transfer factor data
+### Permissible soil and plant limits compiled (Table 2, mg/kg)
 
-The review synthesizes transfer factor (TF) data — the ratio of metal concentration in plant dry matter to metal concentration in soil — from multiple studies. Reported TF ranges for the most commonly measured crops:
+The review reproduces these regulatory ceilings (verify against current primary documents before use):
 
-- Cd in leafy vegetables: TF = 1–10 (high bioavailability; some species exceed 10, classifying as hyperaccumulators)
-- Cd in cereals: TF = 0.1–1.0
-- Pb in leafy vegetables: TF = 0.01–0.5 (low bioavailability; Pb is largely immobilized in soil organic matter and root apoplast)
-- Pb in root vegetables: TF = 0.01–0.2
-- As in rice grain: TF = 0.02–0.2 (highly variable; waterlogging and silica status are primary determinants)
-- Ni in leafy vegetables: TF = 0.5–5
+| Metal | EU 2006 soil | EU 2006 plants | US EPA 2005 soil | FAO/WHO soil | FAO/WHO plants | SEPA China soil | SEPA China plants | Indian soil | Indian plants |
+|---|---|---|---|---|---|---|---|---|---|
+| As | NA | NA | 75 | 20 | 0.1 | 30 | 0.5 | N/A | 1.1 |
+| Cd | 3 | 0.2 | 85 | 0.3 | 0.1 | 0.6 | 0.1–0.2 | 3–6 | 1.5 |
+| Cu | 100 | 20 | NA | 100 | 73 | 100 | 20 | 135–270 | 30 |
+| Cr | 100 | 1 | 3,000 | 100 | 2.3 | 200 | 0.5 | NA | 20 |
+| Ni | 50 | NA | NA | 50 | 66.9 | 50 | 10 | 75–150 | 1.5 |
+| Pb | 100 | 0.30 | 420 | 100 | 0.3 | 300 | 9 | 250–500 | 2.5 |
 
-The authors note that TF values span orders of magnitude within species because soil pH, organic matter, and redox potential are as important as total soil metal concentration. A soil with 2 mg/kg Cd at pH 5 can produce higher plant Cd than a soil with 5 mg/kg Cd at pH 7.
+### Compiled plant-tissue concentrations (Table 3, mg/kg)
+
+The review tabulates plant concentrations across cited studies. Examples (footnotes again indicate which regulatory permissible limit each value exceeds):
+
+- Lettuce Cd: 0.04–14.98 across studies; Pb: 0.13–47.69; Cu: 0.84–32.11; Cr: 0.13–109.44.
+- Spinach Cd: 0.20–12.97; Pb: 2.57–47.69; Cu: 1.01–32.11.
+- Rice Cd: 0.03–0.43; Pb: 0.22–13.6; Cu: 0.19–63.3; Cr: 0.97–8.8.
+- Potato Cd: 0.09–6.3; Pb: 2.58–51.2; Cu: 0.06–24.4.
+
+The maximum concentration was reported in leafy vegetables (notably lettuce). The contamination order across plant parts cited in the review: leafy > fruit > ground-stem.
+
+### Soil-to-plant transfer factors compiled (Table 4)
+
+Selected TF values (ratio of plant concentration to soil concentration) reported in the review:
+
+- Lettuce Cd TF: 0.239 (Luo et al. 2011) to 4.10 (Wang et al. 2012b, upper bound of range).
+- Lettuce Pb TF: 0.002 (Waterlot et al. 2013) to 0.25 (Wang et al. 2012b, upper bound).
+- Rice Cd TF: 0.17 (Liu et al. 2005a) to 0.85 (Cheraghi et al. 2013).
+- Rice As TF: 0.01 (Liu et al. 2005a).
+- Tomato Pb TF: 1.26 (Gebrekidan et al. 2013) to 14 (Noor-ul-Amin et al. 2013).
+- Slender amaranth (Ghinri) Cd TF: 1.135; Cr TF: 0.326; Cu TF: 0.677; Pb TF: 0.399 (Abbasi et al. 2013).
+
+TF values in Table 4 span roughly two orders of magnitude within crops and metals; the review attributes the spread to differences in soil pH, organic matter, redox status, cultivar, and irrigation regime.
+
+### Reported plant-part bioaccumulation pattern
+
+- Xu et al. (2013a, cited by the review): leaf > root > stem > tuber.
+- Vanassche and Clijsters (1990, cited by the review): root concentrations higher than shoots.
+- The review notes leafy vegetables generally show higher metal uptake than non-leafy vegetables (citing Yu et al. 2006).
+
+### Daily dietary intake and health-risk-index equations (pages 11–13 of PDF)
+
+The review presents the standard exposure-assessment equations (no original parameter values; equation references USEPA 2006, 2010, Cui et al. 2004, Singh et al. 2010a):
+
+- DIM (Eq. 5) = (C_metal × C_factor × D_food intake) / BW_average weight.
+- Reference daily intake values used in the cited HRI calculations (Table 5, attributed to USEPA 2012): As 3.0 × 10⁻⁴; Cd 1.0 × 10⁻³; Cr 3.0 × 10⁻³; Cu 4.0 × 10⁻⁴; Ni 2.0 × 10⁻²; Pb 7.3 × 10⁻³ mg/kg/day (oral reference dose row).
+- HRI (Eq. 6) = Σ n(C_n × D_n) / RfD × BW.
+- THQ (Eq. 7) = (MC × FI × EF_r × ED) / (RfD_o × BW × AT) × 10⁻³.
+- HI (Eq. 8) = THQ₁ + THQ₂ + … + THQ_n.
+- TCR (Eq. 9) = (C_b × I × 10⁻³ × CPS_o × EF_r × ED_tot) / (BW_a × AT_c).
+- Exposure-frequency, ingestion-rate, and averaging-time defaults cited from USEPA 2006: ingestion rate I = 255 g/day/person; exposure frequency EF_r = 350 days/year; exposure duration ED = 70 years; non-carcinogen averaging time AT_n = ED × 365 days/year; carcinogen averaging time = 70 × 365 days.
+
+### Daily intake by population (Table 5, mg/kg/day)
+
+Reference body-weight assumptions for cited HRI calculations: adults 73 kg (FAO 2000); children 32.7 kg (Ge 1992; Khan et al. 2010a; Wang et al. 2005). Daily vegetable intake (FAO 2000): adults 0.345 kg/person/day; children 0.232 kg/person/day. Daily intake for pulses, vegetables, cereals: 55, 105, 445 g/day per individual (Tripathi et al. 1997). Table 5 reproduces dozens of individual-paper daily-intake estimates; refer to the source for specific cells.
+
+### Reported health-risk-index examples (Table 6)
+
+Selected adult HRI values reported in the review:
+
+- Lettuce, adults: Cd HRI 0.34 (Khan et al. 2010a); Cu HRI 0.24; Ni HRI 0.21; Pb HRI 1.7.
+- Spinach, adults: Cd HRI 0.84; Cu HRI 0.11; Ni HRI 0.14; Pb HRI 2.1.
+- Rice, adults: Cd HRI 2.5 (Zhuang et al. 2009); Cu HRI 0.15; Pb HRI 1.0.
+- Vegetables, adults: Cu HRI 2.6 × 10⁻¹; Pb HRI 8.6 × 10⁻¹ (Luo et al. 2011).
+- Rice, adults: Cd HRI 3.16 (Minh et al. 2012); children 2.27.
+
+HRI > 1 indicates exposure above the reference dose and is the threshold the review treats as concerning.
+
+### Daily nutrient requirements compiled (Table 7, FAO/WHO 2001b)
+
+Reproduced for reference (selected rows):
+
+- Infant 0–12 months: vitamin A 375–400 µg RE/day, vitamin C 25–30 mg/day, Fe 9.3 mg/day, Zn 6.6–8.4 mg/day, Ca 300–400 mg/day, Mg 26–54 mg/day.
+- Children 1–9 years: Fe 5.8–8.9 mg/day, Zn 8.3–11.2 mg/day, Ca 500–700 mg/day.
+
+### Effects on plant nutritional values reported in the review
+
+- Heavy metals (notably Cd) can reduce protein contents and alter amino acid composition in leafy vegetables (cited: Sandalio et al. 2001; Chaffei et al. 2004; Mehrag 1993; Wu et al. 2014).
+- High Pb reduces sucrose content in rooted vegetables (Gaweda 2007); Cd alters carbohydrate metabolism (Rodríguez-Celma et al. 2010; Chaffei et al. 2004).
+- Cd induces lipid peroxidation in chloroplasts (Khanna-Chopra 2012; Monteiro et al. 2004).
+- Heavy metals reduce vitamin contents in cultivated crops (Sugawara et al. 1981; Pleasants et al. 1992; Tatli Seven et al. 2012; Munzuroglu et al. 2005).
+
+### Reported human-health classifications (Metal exposure and human effects section)
+
+- As, Cd, Cr, Ni, and Pb are declared human carcinogens by US Department of Health and Human Services (2011), IARC (2012), USEPA/IRIS (2012), and California EPA (2011), per the review.
+- Pb, Cd, Hg, As, Ni named as toxic to humans even at trace concentrations.
+
+## Methods (brief)
+
+Narrative literature review. The authors describe their aim as "to summarize the literature about the heavy metals as a major environmental issue and critically discuss the information about heavy metal (As, Cd, Cr, Cu, Ni, and Pb) contamination in soil and the grown food plants, metal bioaccumulation, soil-to-plant transfer, nutritional effects, and health risks." No PRISMA protocol, no documented database queries, no inclusion/exclusion criteria, no quality assessment of cited studies, no quantitative synthesis. Tables 1, 3, 4, 5, and 6 compile values and ranges from the cited primary studies; the review reproduces the original authors' values, units, and statistic types without re-deriving them. Equations 1–9 reproduce DIM/HRI/THQ/HI/TCR formulations from USEPA 2006/2010 and Cui et al. 2004. The authors are affiliated with the Department of Environmental Sciences, University of Peshawar, Pakistan; funding was acknowledged to the Higher Education Commission, Islamabad. Submission 26 January 2015; accepted 11 June 2015; published online 22 July 2015. Springer-Verlag Berlin Heidelberg; not open-access.
+
+The review does not separate inorganic from total arsenic; arsenic is reported throughout as bulk "As" and is recorded on this page as tAs. The review reports total chromium without Cr-VI speciation and is recorded as Cr. Mercury (Hg) is named in the introductory definition of "heavy metals" and in the human-health-effects list but is not measured in any tabulated study; this page does not claim Hg coverage.
 
 ## Implications
 
-Supply chain: supports the [[supply-chain/soil]] page's framing that soil pH and speciation are the primary determinants of plant-available metal load, not total soil metal concentration alone. The TF data provide quantitative anchors for ingredient-page risk-driver sections.
+**Certification (HMTc):** Limited direct contribution to threshold-setting. The compiled regulatory ceilings in Table 2 are useful as auditor-guidance cross-references against Codex, FDA, EU, and SEPA China primary documents but must be re-verified against current revisions of those primaries before insertion into HMTc certification text — several of the cited values are pre-2010 and have since been revised. The HRI/THQ/TCR equations the review reproduces (Eqs. 6–9) are the standard exposure-assessment scaffolding HMTc certification rationale relies on, and the review's documented parameter assumptions (255 g/day ingestion, 350 day/year exposure frequency, 70-year exposure duration) are the USEPA 2006 defaults already in use.
 
-Ingredients: directly relevant to [[ingredients/leafy-vegetables]], [[ingredients/root-vegetables]], [[ingredients/cereals]], [[ingredients/legumes]]. The bioaccumulation hierarchy (leaf > root > grain) is the foundational organizing principle for ingredient risk comparisons.
+**Courses:** Useful as an introductory reading for a soil-to-plant pathway module in supply-chain courses. The leaf > fruit > ground-stem ordering of contamination accumulation, the 90 %/10 % dietary-vs-inhalation exposure split, and the worked HRI example using lettuce and spinach are teachable cases. The review's omission of mercury speciation and inorganic-arsenic discussion should be flagged in any teaching adaptation.
 
-Mitigation: the soil-pH and organic-matter modulation strategies described in the review underpin the sourcing and agronomic lever sections across ingredient pages. The cadmium-via-zinc-transporter mechanism explains why zinc-adequate soils reduce cadmium uptake — a mitigation lever with published evidence.
+**App:** Not a source of primary concentration values for ingredient `contamination_profile` blocks; the review's tabulated values are reattributions of primary studies. The compiled TF ranges (Table 4) can inform qualitative copy about which crops act as accumulators relative to others on the app's risk-comparison surface, but specific TF values for app logic should be drawn from the cited primaries.
 
-App: the transfer factor data are the conceptual basis for ingredient-to-soil-risk reverse inference; the app can use ingredient TF ranges to flag high-Cd-risk leafy green products when the supply chain is known to draw from acidic, high-Cd soils.
+**Microbiome:** Not applicable; the review does not address gut microbiome interactions.
 
-Courses: the dual burden (metal exposure + nutritional impairment) is a strong pedagogical hook for supply-chain courses aimed at brand QA and formulation teams.
+## Wiki pages this source may touch
 
-## Wiki pages updated on ingest
-
-- [[supply-chain/soil]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic-total]]
+- [[metals/nickel]]
+- [[metals/chromium]]
+- [[metals/copper]]
+- [[metals/zinc]]
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/root-vegetables]]
+- [[ingredients/cereals]]
+- [[ingredients/legumes]]
+
+## Verification notes
+
+Enhanced 2026-05-18 from prior revision dated 2026-05-15. Defects corrected on touch:
+
+- `raw_handle` corrected from `papers-cube` to `PCMF_khan2015` per the current manual-fetch-corpus handle convention.
+- `metals` reduced from `[Pb, Cd, tAs, tHg, Ni, Al, Cr, Zn, Cu]` to `[Pb, Cd, tAs, Ni, Cr, Cu, Zn]`. tHg and Al are removed: Hg is named in the review's heavy-metals definition but does not appear in any of the tabulated occurrence, transfer-factor, daily-intake, or HRI tables; Al is not discussed at all.
+- `matrices` rewritten from `[soil, plant-tissue, leaf, root, stem, tuber, grain]` to controlled-vocabulary values `[soil, leafy-vegetable, root-vegetable, cereal-grain, dietary-intake]`.
+- `evidence_tier` downgraded from A to B. The paper is a narrative review without PRISMA protocol, inclusion/exclusion criteria, or quality assessment of cited studies, so A-tier is overstated; B-tier (useful synthesis, treat as leads pointing to cited primaries) is the appropriate grade.
+- `access_url` and `sample_population` description expanded.
+- Prior body content under invented section headings (`## Soil-to-plant transfer mechanisms`, `## Bioaccumulation patterns across plant parts`, `## Effects of heavy metals on plant nutritional quality`, `## Transfer factor data`, `## Implications`, `## Wiki pages updated on ingest`) replaced with the standard Part 6 source-page template (Key numbers / Methods (brief) / Implications / Wiki pages this source may touch).
+- Prior body claims about specific molecular transporter families (ZIP, IRT1, PHT1, NIPs, aquaporins) removed: the review does not name those transporter families. The review's actual mechanism content is limited to phytochelatin and glutathione binding (citing Grill et al. 1989 and Lugon-Moulin et al. 2004) and a high-level three-pathway framing (soil–plant, water–plant, air–plant interfaces).
+- Prior fabricated transfer-factor "ranges by crop type" (e.g., "Cd in leafy vegetables: TF = 1–10") replaced with actual Table 4 values cited to the specific contributing studies.
+- Prior `## Implications` section's wikilink to `[[supply-chain/soil]]` removed: that page does not exist in the current wiki taxonomy.
+- Synthesis-style framing in the prior body (e.g., "supports the X page's framing that...") removed per the Part 2 wiki/HMTc firewall; the source page now reports what this one review compiled, not how it relates to other wiki pages.
+- `near_duplicates: []` preserved.
+- `cite_key` preserved (`khan2015-heavy-metals-food-plants-bioaccumulation`).
+- `raw_path` preserved (`raw/Papers Cube Manual Fetch/khan2015.pdf`).
