@@ -1,96 +1,133 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_assessing-heavy-metal-contamination-in-food-review
 cite_key: mititelu2025-heavy-metal-food-contamination-review
 title: "Assessing Heavy Metal Contamination in Food: Implications for Human Health and Environmental Safety"
 authors: [Mititelu M, Neacsu SM, Busnatu SS, Scafa-Udriste A, Andronic O, Lacraru AE, Ionita-Mindrican CB, Lupuliasa D, Negrei C, Olteanu G]
 year: 2025
 publication: "Toxics"
 doi: 10.3390/toxics13050333
+no_doi_assigned: false
+access_url: "https://doi.org/10.3390/toxics13050333"
 source_type: review
 evidence_tier: B
 license: "CC BY"
-raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Assessing Heavy Metal Contamination in Food (Review - Tin in.pdf"
+raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/Assessing Heavy Metal Contamination in Food (Review - Tin in Cereals).pdf"
+raw_sha256: 7ae39dac066091d015180a6eff29564b2f05eb91ea0e3727cdc9a59d242f874f
+near_duplicates: []
 metals: [Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Cr, Sn]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/fish]]"]
-products: ["[[products/infant-and-child-foods-master]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/fresh-fish]]", "[[products/canned-fish]]"]
-matrices: [cereal-grain, rice, bread, pasta, canned-food, fish, dairy, dietary-intake, drinking-water]
-jurisdictions: [EU, US, RO]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/meat]]", "[[ingredients/milk-and-dairy]]"]
+products: ["[[products/infant-and-child-foods-master]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/canned-vegetables]]"]
+matrices: [cereal-grain, rice, fish, shellfish, cow-milk, drinking-water, dietary-intake]
+jurisdictions: [EU, US, RO, international]
 sample_n: null
 sample_population: "Narrative review; no primary sample collection. Synthesizes published literature and regulatory data across multiple countries."
-updated: 2026-05-13
+updated: 2026-05-18
 ---
 
-# Mititelu et al. 2025 — Heavy metal contamination in food: review of sources, speciation, and health outcomes
+# Mititelu et al. 2025 - Heavy metal contamination in food: review of sources, speciation, and health outcomes
 
-This 2025 narrative review from Romanian pharmacy and medical researchers synthesizes the contamination pathways, speciation chemistry, toxicokinetics, and health consequences of Pb, Cd, Hg (including MeHg), As (inorganic and organic species), and Sn across the food supply, with particular attention to how chemical species rather than elemental form governs toxicity. The review provides a consolidated reference table of maximum allowable limits from FDA, EFSA, EPA, WHO, and Codex across food categories including cereals and grains, vegetables, fruits, meat, fish, dairy, baby foods, and canned products, and compiles observed contamination levels from published occurrence studies across multiple countries. It advocates for precise species-level terminology throughout, distinguishing for instance between inorganic arsenic (AsIII and AsV) and organoarsenic forms, and between methylmercury and mercuric ions. The review does not generate original concentration data; it synthesizes published values.
+Mititelu et al. (2025) is a narrative review of Pb, Cd, Hg/MeHg, As/iAs, Ni, Cr, and Sn across food, water, and human biomonitoring contexts. Its value for the HMI wiki is as a secondary synthesis: it compiles regulatory values and published occurrence examples across cereals, rice, fish, dairy, baby foods, canned foods, and other matrices, but it does not generate original concentration data or provide a pooled meta-analysis. Any occurrence value below should be traced to the cited primary study before use in contamination-profile math.
 
 ## Key numbers
 
-Regulatory limits compiled (Table 1, from FDA/EFSA/EPA/WHO):
+### Regulatory values compiled in Table 1, plus tin narrative limits
 
-Lead (Pb):
-- Cereals and grains: 0.02 mg/kg (FDA, EFSA)
-- Vegetables: 0.10 mg/kg (EFSA)
-- Fruits: 0.10 mg/kg (EFSA)
-- Meat and offal: 0.10 mg/kg (EFSA)
-- Fish and seafood: 0.30 mg/kg (EFSA)
-- Milk and dairy products: 0.02 mg/kg (EFSA)
-- Baby foods (fruits, vegetables, yogurts, dry cereals): 0.10 mg/kg / proposed 0.01 mg/kg (FDA)
-- Bottled/drinking water: 0.005 mg/L (FDA), 0.01 mg/L (EPA)
+The review's Table 1 compiles selected limits from FDA, EFSA/EU, EPA, and WHO. The two Codex tin rows below come from the review's tin narrative rather than Table 1. These rows are source-side summaries and should be checked against the operative legal text before legal use.
 
-Cadmium (Cd):
-- Cereals and grains: 0.10 mg/kg (EFSA)
-- Leafy vegetables: 0.20 mg/kg (EFSA)
-- Root and tuber vegetables: 0.10 mg/kg (EFSA)
-- Legumes, fish, meat (excl. offal): 0.05 mg/kg (EFSA)
-- Drinking water: 0.005 mg/L (FDA), 0.003 mg/L (EPA)
-- Typical Cd range in staple crops (cereals, vegetables): 0.01–0.20 mg/kg (cited from literature)
+| Metal/species | Matrix or food category | Value in the review | Source-side attribution / caveat |
+| --- | --- | --- | --- |
+| Pb | Cereals and grains | 0.02 mg/kg | FDA, EFSA |
+| Pb | Vegetables; fruits; meat and offal | 0.10 mg/kg | EFSA |
+| Pb | Fish and seafood | 0.30 mg/kg | EFSA |
+| Pb | Milk and dairy products | 0.02 mg/kg | EFSA |
+| Pb | Bottled/drinking water | 0.005 mg/L FDA; 0.01 mg/L EPA/WHO | Water row, not food matrix |
+| Pb | Juice | 0.05 mg/L (50 ppb) | FDA |
+| Pb | Candy | 0.1 mg/kg (100 ppb) | FDA |
+| Pb | Baby foods (fruits, vegetables, yogurts, dry cereals) | proposed 0.01 mg/kg (10 ppb) | FDA; do not confuse with the separate candy row |
+| Cd | Cereals and grains; root and tuber vegetables; legumes | 0.10 mg/kg | EFSA |
+| Cd | Leafy vegetables | 0.20 mg/kg | EFSA |
+| Cd | Fish and seafood; meat excluding offal | 0.05 mg/kg | EFSA |
+| Cd | Drinking water | 0.005 mg/L FDA; 0.003 mg/L EPA/WHO | Water row, not food matrix |
+| Hg | Fish and seafood, general | 0.5 mg/kg | EU regulation |
+| Hg | Large predatory fish such as tuna or shark | 1.0 mg/kg | EU regulation |
+| Hg | Drinking water | 0.002 mg/L FDA; 0.001 mg/L EPA/WHO | Water row, not food matrix |
+| As (source Table 1 label) | Rice and rice-based products | 0.1 mg/kg | EFSA; the review table labels this under arsenic rather than a cleanly separated species |
+| As (source Table 1 label) | Rice cereals for infants | 0.1 mg/kg / 100 ppb | FDA; the underlying FDA rice-cereal action level is inorganic arsenic, but the review table labels the metal as As |
+| As (source Table 1 label) | Bottled/drinking water | 0.01 mg/L | FDA, EPA, WHO |
+| Ni | Cereal-based products | 0.20 mg/kg | EFSA |
+| Ni | Chocolate and cocoa products | 0.80 mg/kg | EFSA |
+| Ni | Nuts and seeds | 0.50 mg/kg | EFSA |
+| Sn | Canned beverages | 150 mg/kg | Codex |
+| Sn | Canned foods other than beverages | 250 mg/kg | Codex |
 
-Mercury (Hg):
-- Fish and seafood (general): 0.5 mg/kg (EU Regulation)
-- Large predatory fish (tuna, shark): 1.0 mg/kg (EU Regulation)
-- Drinking water: 0.002 mg/L (FDA), 0.001 mg/L (EPA)
-- EFSA TWI for MeHg: 1.3 µg/kg bw/week
-- EPA/NAS reference dose: 0.1 µg/kg bw/day; blood Hg threshold: 5.0 µg/L; hair Hg: 1.0 µg/g
+The table also includes a chromium row labeled "Chromium (Cr VI)" while describing the matrix as "All food (total Cr)" at 0.05 mg/kg. Treat that as a source-side speciation ambiguity, not a clean Cr(VI)-specific food limit.
 
-Arsenic (As):
-- Rice and rice-based products: 0.1 mg/kg (EFSA)
-- Rice cereals for infants: 0.1 mg/kg / 100 ppb (FDA)
-- Drinking water: 0.01 mg/L (FDA, EPA, WHO)
-- Baby rice cereals reported up to 150 ppb tAs in some products (cited from Spectroscopy 2021 ref [26])
+### Occurrence values summarized by the review
 
-Nickel (Ni):
-- Cereal-based products: 0.20 mg/kg (EFSA)
-- Chocolate and cocoa products: 0.80 mg/kg (EFSA)
-- Nuts and seeds: 0.50 mg/kg (EFSA)
+These are review-cited occurrence examples, not new measurements from Mititelu et al.
 
-Tin (Sn) observed levels in food (Italy, Table 6 in review):
-- Cereals and cereal products (pasta, rice, bread, salty snacks): 3.6 µg/kg (3.6 ppb)
-- Preserved foods in unlacquered cans (tomatoes): 46–156 mg/kg; (pineapples): 44–136 mg/kg; (fruit cocktail): 88–107 mg/kg
-- Preserved foods in lacquered cans (tomatoes): 3.2–8.8 mg/kg; (carrots): 0.08 mg/kg
-- Canned vegetables (Malaysia): 96–937 mg/kg
-- Aged cheese (Italy): 5.05 µg/kg
-- Meat and meat products (Italy): 5.73 µg/kg
-- Preserved and tinned fish (Italy): 10.41 µg/kg
+| Metal/species | Matrix / country or context | Value reported by the review | Notes |
+| --- | --- | --- | --- |
+| Cd | Staple crops such as cereals and vegetables | 0.01-0.20 mg/kg | Narrative summary from the review's cited literature |
+| Cd | Germany, cereals | 29.18 ug/kg | Table 3 |
+| Cd | Ghana, rice grain | 13.4 ug/kg | Table 3 |
+| Cd | Bolivia, rice grain | 23.05 ug/kg | Table 3 |
+| Cd | India, rice grain | 27.55 ug/kg | Table 3 |
+| Cd | Italy, cereals | 6.24-54.52 ug/kg | Table 3 |
+| Pb | Brazil, grains/cereals/products | 0.056 mg/kg | Table 4 |
+| Pb | Italy, cereals and cereal products | 11.427 ug/kg | Table 4 |
+| Pb | Mexico, infant rice cereal | 1.005 mg/kg | Table 4 |
+| Pb | Mexico, pre-cooked rice | 0.276 mg/kg | Table 4 |
+| Pb | Mexico, whole wheat bread | 0.447 mg/kg | Table 4 |
+| As | Egypt, white rice | 0.01-0.58 mg/kg | Table 5 |
+| As | France, white rice | 0.09-0.56 mg/kg | Table 5 |
+| As | Japan, white rice | 0.07-0.42 mg/kg | Table 5 |
+| As | United Kingdom, baby rice | 0.11 mg/kg | Table 5 |
+| As | United States, white rice | 0.03-0.66 mg/kg | Table 5 |
+| Hg | United States, canned tuna | 0.096-0.431 mg/kg | Table 2 |
+| Hg | Republic of Korea, canned fishery products | 0.02-0.13 mg/kg | Table 2 |
 
-US NHANES biomonitoring medians (cited):
-- Urinary As (total): 8.4 µg/L
-- Blood Cd: 0.3 µg/L
-- Blood Hg: 0.86 µg/L
-- Blood Pb: 0.85 µg/dL (about 2.5% of US children 1–5 years exceed 5 µg/dL reference value)
+### Tin examples from Table 6
 
-## Methods (brief)
+Tin is the strongest canning-specific contribution from this review. The review distinguishes low ug/kg total-diet-study values from much higher mg/kg concentrations in canned products, especially unlacquered or corroding cans.
 
-Systematic narrative review. Sources retrieved from PubMed, Scopus, Web of Science, Google Scholar using keywords including "heavy metals," "food contamination," "mercury," "lead," "cadmium," "arsenic," "tin." Inclusion criteria: articles addressing contamination sources, pathophysiological mechanisms, and health effects. No meta-analytic pooling; qualitative synthesis. Published April 2025 (received February 2025). The review does not present LODs; all cited concentration values are sourced from the referenced primary studies.
+| Matrix / country | Sn value reported by the review | Unit context |
+| --- | ---: | --- |
+| Italy, cereals and cereal products (pasta, rice, bread, salty snacks) | 3.6 ug/kg | Low-level total diet / food-category value |
+| Italy, aged cheese | 5.05 ug/kg | Low-level total diet / food-category value |
+| Italy, meat and meat products | 5.73 ug/kg | Low-level total diet / food-category value |
+| Italy, preserved and tinned fish | 10.41 ug/kg | Low-level total diet / food-category value |
+| France, unlacquered canned tomatoes | 46-156 mg/kg | Canned-food migration context |
+| France, unlacquered canned pineapples | 44-136 mg/kg | Canned-food migration context |
+| France, unlacquered canned fruit cocktail | 88-107 mg/kg | Canned-food migration context |
+| France, lacquered canned tomatoes | 3.2-8.8 mg/kg | Canned-food migration context |
+| France, lacquered canned carrots | 0.08 mg/kg | Canned-food migration context |
+| Malaysia, canned vegetables | 96-937 mg/kg | Canned-food migration context; includes values above Codex's 250 mg/kg non-beverage ML |
+
+### Human biomonitoring values cited from NHANES
+
+The review cites NHANES medians as exposure-context values: total urinary arsenic 8.4 ug/L, blood cadmium 0.3 ug/L, blood mercury 0.86 ug/L, and blood lead 0.85 ug/dL. It also states that about 2.5% of US children aged 1-5 years had blood lead above the 5 ug/dL reference value in the NHANES period discussed.
+
+## Methods
+
+The authors describe a qualitative narrative-review workflow using PubMed, Scopus, Web of Science, and Google Scholar. Search terms included "heavy metals," "food contamination," "food toxicity," "mercury," "lead," "cadmium," "arsenic," and "tin." Eligible articles addressed contamination sources, pathophysiological mechanisms, and health effects. The review does not report PRISMA screening counts, risk-of-bias assessment, LOD/LOQ harmonization, or meta-analytic pooling.
+
+## Speciation and methods caveats
+
+- Arsenic is discussed as both total arsenic and inorganic arsenic, with toxicity concentrated in inorganic As(III) and As(V). Rice/rice-cereal regulatory comparisons should use iAs where the legal standard is iAs-specific.
+- Mercury is discussed as total mercury, inorganic mercury, and methylmercury. Fish-consumption risk language should not substitute total Hg for MeHg unless the source or regulation permits that mapping.
+- Frontmatter includes iAs and MeHg because the review discusses those species and cites species-specific regulatory/toxicological contexts. The occurrence tables summarized above should still be treated as total-or-unspecified arsenic and mercury unless the cited primary study confirms species.
+- Tin is treated as total Sn in the occurrence tables, with the mechanistic discussion focused on inorganic tin migration from canned-food packaging.
+- The chromium limit row in Table 1 mixes a Cr(VI) label with "total Cr" language. Do not use that row as a clean species-specific Cr(VI) regulatory value.
 
 ## Implications
 
-Certification: Primary value is as a regulatory-limit reference compilation. Table 1 consolidates FDA, EFSA, EPA, WHO, and Codex limits across food matrices in one place. The tin-in-canned-food section (Table 6) provides the most useful Sn contamination data encountered in this category batch. The unlacquered-vs-lacquered can distinction (Sn ranges from 46–156 mg/kg down to 3.2–8.8 mg/kg in tomatoes) is directly relevant to ingredient sourcing decisions.
+Standards work: This is a useful secondary source for identifying regulatory comparators and locating primary studies for cereal, rice, canned-food, fish, dairy, and baby-food matrices. It should not be used as a primary occurrence distribution unless the underlying study is traced.
 
-Courses: Useful as a broad-brush explainer of speciation chemistry (iAs vs tAs, MeHg vs tHg). The cardiovascular/metabolic health effects sections are accessible for brand QA education. The Flint water crisis example and Bangladesh arsenic sections provide strong risk-communication examples.
+Courses: The review is useful for explaining why species-level language matters: iAs differs from tAs, MeHg differs from tHg, and inorganic Sn migration from cans is a different problem from low background Sn in cereals.
 
-App: Tin concentration data in cereals (3.6 µg/kg = 3.6 ppb) is the only primary cereal-level number from this source suitable for contamination profile use; it is secondary (cited from Italian total diet study). All other numbers here are regulatory thresholds or review-cited values and should not be used as contamination profile inputs without tracing to the original primary studies.
+App: The tin section is useful for flagging canned-food packaging as a risk modifier. The Italy cereal Sn value of 3.6 ug/kg is a review-cited secondary value, not a profile-ready primary measurement.
 
 Microbiome: Not addressed in this review.
 
@@ -102,9 +139,25 @@ Microbiome: Not addressed in this review.
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[metals/nickel]]
-- [[regulations/efsa-contaminants-food]]
-- [[regulations/fda-ctz-iAs-cereal-100ppb]]
+- [[regulations/eu2023-contaminants-maximum-levels]]
+- [[regulations/fda-iAs-rice-cereal-100ppb]]
+- [[regulations/fda-ctz-Pb-babyfood-10ppb]]
+- [[regulations/fda-ctz-Pb-cereal-20ppb]]
+- [[regulations/codex-cxs-193-1995-tin-canned-foods]]
 - [[ingredients/rice]]
 - [[ingredients/cereals]]
-- [[products/baby-food]]
+- [[ingredients/fish]]
+- [[ingredients/seafood]]
+- [[products/baby-cereals-dry-rice-based]]
+- [[products/canned-fish]]
 - [[products/canned-vegetables]]
+
+## Verification notes
+
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Corrected the prior Pb baby-food line: Table 1 lists candy at 0.1 mg/kg and proposed FDA baby-food Pb at 0.01 mg/kg, not a baby-food range of 0.10/0.01 mg/kg.
+- Corrected the prior Cd grouping: Table 1 lists legumes at 0.10 mg/kg, while fish/seafood and meat excluding offal are 0.05 mg/kg.
+- Clarified that the Codex tin 150/250 mg/kg values come from the review's tin narrative rather than Table 1.
+- Replaced invalid regulation wikilinks with existing or newly created regulation anchors.
+- The Codex tin regulation slug was created during this ingest under the current Part 10 regulation-page rule, so it may not yet appear in the static taxonomy snapshot used by audit agents.
+- Strict brand-firewall check: no consumer brand or manufacturer names are named. Method database and agency names are retained.
