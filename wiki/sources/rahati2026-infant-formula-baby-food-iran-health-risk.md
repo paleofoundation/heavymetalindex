@@ -31,12 +31,12 @@ This 2026 Journal of Health, Population and Nutrition study from Mashhad Univers
 
 Instrument: Inductive Coupled Plasma Emission Spectrometry (Spectro Arcoes-76004555, Germany). Acid digestion: 1 g sample + 5 mL HNO₃ + 5 mL HCl, Bain-Marie indirect heating (90 °C, 2 h after 24 h ambient), filtered through Whatman grade-42, made up to 25 mL in volumetric flask. Calibration r > 0.99 for all elements; recovery 80.46–100.55%; three iterations per sample plus a control. Reference standard materials (CRMs) used for quality control. All concentrations reported in mg/kg on the as-sampled (dry powder) basis.
 
-LOD (Method validation, p. 3): Fe 0.06 mg/kg, Cu 0.2 mg/kg, Cr 0.14 mg/kg, Zn 0.02 mg/kg, Al 0.44 mg/kg, Cd 0.03 mg/kg, Co 0.012 mg/kg, Hg 0.0014 mg/kg, Pb 0.01 mg/kg, Se 0.11 mg/kg, Ba 0.13 mg/kg.
+LOD (Method validation, p. 3): Fe 0.06 mg/kg, Cu 0.2 mg/kg, Cr 0.14 mg/kg, Zn 0.02 mg/kg, Al 0.44 mg/kg, Cd 0.03 mg/kg, Co 0.0014 mg/kg, Hg 0.012 mg/kg, Pb 0.01 mg/kg, Se 0.11 mg/kg, Ba 0.13 mg/kg.
 
 **Below-LOD results in all samples (Table 2, p. 6):**
 - Pb: below LOD (0.01 mg/kg) in all 80 infant formula and 27 baby food samples across all three sampling rounds.
 - Cd: below LOD (0.03 mg/kg) in all samples.
-- Hg: below LOD (0.0014 mg/kg) in all samples (the paper measures total mercury by ICP-OES; no MeHg speciation).
+- Hg: below LOD (0.012 mg/kg) in all samples (the paper measures total mercury by ICP-OES; no MeHg speciation).
 
 **Infant formula total mean concentrations (N=80, Table 2):**
 - Al: 1 ± 1.4 mg/kg (FAO/WHO ML for infant formula is 1 mg/kg; mean equals the limit)
@@ -192,3 +192,4 @@ Monte Carlo simulation via Crystal Ball v11.1.34190 (10,000 iterations) at 95% c
 - Paper-internal note: the Results-and-discussion paragraph on p. 5 lists cadmium among elements exceeding FAO/WHO permissible limits ("aluminium, cadmium, cobalt, chromium, copper, iron, and zinc"), but Table 2 on p. 6 reports cadmium as `nd` (below the 0.03 mg/kg LOD) in all 80 infant formula and all 27 baby food samples, and the abstract also omits Cd from the exceedance list. The wiki's exceedance summary follows Table 2 and the abstract (Al, Co, Cr, Cu, Fe, Zn) rather than the contradicted p. 5 sentence.
 - Paper-internal note: the authors substitute the inhalation-route Cancer Slope Factor for Cr in place of the (non-established) oral-route CSF (limitation 2, p. 14). This is explicitly named in the source; downstream Cr threshold work should treat the CR values as a methodological-uncertainty signal, not as direct evidence for an oral Cr-VI carcinogenicity endpoint.
 - 2026-05-17 audit subagent (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf` v2.0) returned PROMOTE on all five checks against the source PDF. Optional enhancement applied: the p. 5 / Table 2 Cd inconsistency note above. No corrections required; no false positives recorded.
+- 2026-05-17 second-pass merge-enhance (Claude Code, `/ingest-next-manual-fetch-pdf` skill v2.0, re-process of the originally-named PDF): identified a Co/Hg LOD transposition that both the prior subagent PROMOTE pass and the Codex REVISE pass missed. Source PDF p. 3 body text states verbatim "0.0014mg/kg for cobalt, 0.012mg/kg for mercury"; the predecessor revision (and both subsequent audits) recorded "Co 0.012 mg/kg, Hg 0.0014 mg/kg" — i.e., the Co and Hg LOD values were swapped. The downstream consequence is that the Hg below-LOD censoring threshold reported on this page was off by an order of magnitude (0.0014 vs the correct 0.012 mg/kg). Corrected both the LOD list and the Hg below-LOD statement. No other Table 2 / Table 3 / Table 4 values touched on this pass; the Codex SD audit is preserved as-is.
