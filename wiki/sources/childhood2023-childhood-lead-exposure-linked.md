@@ -14,7 +14,7 @@ license: CC0
 raw_path: raw/markdown/FM_11262827/FM_11262827.md
 metals: [Pb, Cr-VI]
 ingredients: ["[[ingredients/apple]]", "[[ingredients/cinnamon]]"]
-products: ["[[products/fruit-puree]]"]
+products: ["[[products/fruit-purees]]"]
 matrices: [whole-food, blood]
 jurisdictions: [US]
 sample_n: 22
