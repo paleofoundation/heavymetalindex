@@ -1,11 +1,11 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_uk-total-diet-study-of-metals-and-other-elements-i
 cite_key: fera2015-uk-tds-metals
 title: "Total Diet Study of metals and other elements in food"
 authors: [Baxter M, Brereton N]
 year: 2015
-publication: "Food and Environment Research Agency (FERA) Report for UK Food Standards Agency"
+publication: "Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081"
 doi: null
 no_doi_assigned: true
 access_url: "https://www.food.gov.uk/research/total-diet-study"
@@ -13,108 +13,145 @@ source_type: government-report
 evidence_tier: A
 license: "UK Open Government Licence (Crown Copyright)"
 raw_path: "raw/Manual Fetch Kimi /03_Grains_and_Grain_Products/03_Grains_and_Grain_Products/UK Total Diet Study of metals and other elements in food.pdf"
-metals: [Pb, Cd, iAs, tAs, tHg, Ni, Al, Cr, Sn, Sb]
-ingredients: ["[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/cereals]]", "[[ingredients/pasta]]", "[[ingredients/beef]]", "[[ingredients/meat-and-poultry]]", "[[ingredients/fish]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/eggs]]", "[[ingredients/potatoes]]", "[[ingredients/leafy-greens]]", "[[ingredients/almond]]"]
-products: []
-matrices: [total-diet, as-consumed, food-group-composite, food-category-composite]
+raw_sha256: 42f26f4a8f861576f5f992217ff2d56ac03c13d4c37d9561595a104350d6e5f1
+near_duplicates: []
+metals: [Al, Sb, tAs, iAs, Ba, Cd, Cr, Cu, Pb, Mn, tHg, Mo, Ni, Pd, Pt, Sn, Tl, Zn]
+ingredients: ["[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/cereals]]", "[[ingredients/pasta]]", "[[ingredients/bread]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/eggs]]", "[[ingredients/potatoes]]", "[[ingredients/leafy-greens]]", "[[ingredients/peanuts]]"]
+products: ["[[products/bread-and-baked-goods]]", "[[products/flour-non-rice]]", "[[products/breakfast-cereals]]", "[[products/rice-bulk-grain]]", "[[products/pasta-wheat-based]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/shellfish]]", "[[products/eggs-product]]", "[[products/peanut-butter]]", "[[products/nuts-seeds-other]]", "[[products/snacks-crackers-biscuits]]", "[[products/condiments-general]]"]
+matrices: [dietary-intake, cereal-grain, rice, fish, shellfish]
 jurisdictions: [GB]
 sample_n: 3312
-sample_population: "3312 retail food samples from 24 UK locations, combined into 138 food categories and 28 food groups, all prepared as for consumption"
-updated: 2026-05-13
+sample_population: "3312 retail food samples from 24 UK locations, combined into 138 prepared-as-consumed food-category composites and 28 food-group composites"
+updated: 2026-05-18
 ---
 
-# FERA / FSA 2015 — UK Total Diet Study of metals and other elements in food
+# FERA / FSA 2015 - UK Total Diet Study of metals and other elements in food
 
-This government-commissioned total diet study (TDS) is the UK's most comprehensive post-2010 baseline for heavy metals and trace elements in the British food supply as consumed. The Food and Environment Research Agency (FERA) purchased 3,312 individual retail food samples across 138 food categories from 24 UK locations, prepared them as for consumption following FSA protocols, and composited them into 138 food-category pools and 28 food-group pools before analysis by ICP-MS. The study updates the prior UK TDS on metals from 2006 and is notable for simultaneously reporting total arsenic (tAs) and inorganic arsenic (iAs) as separate measurements, using separate validated extraction methods — a critical design feature for arsenic speciation. All data are reported on an as-consumed (wet weight) basis in mg/kg. Results for elements above LOD but below LOQ are flagged as semi-quantitative with the prefix "~".
+This UK Food Standards Agency total diet study measured metals and other elements in 3312 retail food samples collected from 24 UK locations. Foods were prepared as for consumption, composited into 138 food categories and 28 food groups, and analyzed primarily by ICP-MS. The report is valuable because it gives as-consumed UK baseline concentrations for broad food groups and category composites, and because it reports inorganic arsenic separately from total arsenic. All values below are mg/kg as received or prepared unless otherwise noted; the source uses a leading `~` for values above LoD but below LoQ.
 
 ## Key numbers
 
-All concentrations in mg/kg as-consumed (wet weight) unless otherwise noted. LODs and LOQs vary by sample weight; see Table 3 of the report for element-specific values at each sample weight tier (0.25 g, 0.5 g, 1 g, 2.5 g). Values prefixed "~" are semi-quantitative (above LOD, below LOQ).
+### Selected food-group composites (Table 5)
 
-### Group-level summary (Table 5 — 28 food groups)
+| Food group | Al | Cd | tAs | iAs | tHg | Pb | Notes |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Bread | 4.01 | 0.021 | <0.006 | <0.012 | <0.001 | ~0.006 | Group 1 |
+| Miscellaneous cereals | 3.67 | 0.016 | ~0.009 | ~0.013 | <0.0005 | ~0.004 | Group 2; Sn 1.26 mg/kg |
+| Offal | ~0.29 | 0.067 | <0.006 | <0.012 | 0.0035 | 0.042 | Group 4 |
+| Fish | 1.43 | 0.014 | 2.0 | <0.012 | 0.0497 | ~0.004 | Group 7; high tAs but iAs below LoQ |
+| Green vegetables | 1.28 | ~0.006 | <0.003 | <0.012 | <0.0005 | 0.017 | Group 11 |
+| Potatoes | 0.99 | ~0.020 | <0.006 | ~0.015 | <0.001 | <0.004 | Group 12 |
+| Nuts | 2.31 | 0.020 | ~0.005 | <0.012 | <0.0005 | <0.002 | Group 20; Ni 2.14 mg/kg |
+| Snacks | 3.97 | 0.059 | 0.011 | <0.012 | ~0.0005 | ~0.005 | Group 23 |
+| Condiments | 4.06 | 0.008 | 0.011 | <0.012 | <0.0002 | 0.009 | Group 26 |
 
-Selected groups of highest relevance to heavy-metal certification and exposure assessment:
+### Cereal and grain category composites (Table 7)
 
-| Group | Description | Pb (mg/kg) | Cd (mg/kg) | iAs (mg/kg) | tAs (mg/kg) | tHg (mg/kg) | Ni (mg/kg) | Al (mg/kg) | Sn (mg/kg) |
-|-------|-------------|-----------|-----------|------------|------------|------------|-----------|-----------|-----------|
-| 1 | Bread | ~0.027 | 0.021 | <0.012 | <0.006 | <0.02 | ~0.07 | 4.01 | 0.016 |
-| 2 | Misc. Cereals | 0.065 | 0.067 | ~0.013 | ~0.009 | <0.02 | 0.17 | 3.67 | — |
-| 3 | Carcass Meat | <0.004 | <0.0012 | <0.012 | <0.006 | <0.02 | ~0.05 | 0.49 | <0.02 |
-| 4 | Offal | ~0.004 | 0.23 | <0.012 | <0.006 | 0.018 (fish-adj.) | <0.04 | ~0.29 | <0.02 |
-| 7 | Fish | 0.0497 | 0.014 | <0.012 | 2.0 | 0.811 | 0.10 | 1.43 | ~0.02 |
-| 11 | Green Vegetables | 0.017 | ~0.006 | <0.012 | <0.003 | <0.005 | ~0.06 | 1.28 | <0.01 |
-| 12 | Potatoes | ~0.006 | ~0.020 | ~0.015 | <0.006 | ~0.006 | ~0.10 | 0.99 | <0.02 |
-| 20 | Nuts | <0.002 | 0.02 | <0.012 | ~0.005 | <0.01 | — | 2.31 | <0.01 |
-| 22 | Meat Substitutes | ~0.005 | ~0.007 | <0.012 | ~0.004 | 0.052 | 0.14 | 2.7 | <0.01 |
-| 23 | Snacks | ~0.003 | 0.059 | <0.012 | 0.011 | 0.063 | 0.13 | 3.97 | <0.01 |
+| Category | Al | Cd | tAs | iAs | tHg | Pb | Sn |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Flour | 5.19 | 0.030 | 0.008 | <0.012 | <0.0002 | 0.006 | <0.004 |
+| Buns, cakes and pastries | 5.04 | 0.012 | ~0.005 | <0.012 | <0.0005 | ~0.006 | ~0.02 |
+| Savoury biscuits | 3.02 | 0.024 | ~0.004 | <0.012 | <0.0005 | ~0.005 | <0.01 |
+| Sweet biscuits | 2.83 | 0.015 | ~0.003 | <0.012 | <0.0005 | ~0.005 | <0.01 |
+| Chocolate biscuits | 6.90 | ~0.017 | <0.006 | <0.012 | <0.001 | ~0.010 | <0.02 |
+| Breakfast cereals | 2.42 | 0.026 | ~0.010 | <0.012 | <0.001 | <0.004 | <0.02 |
+| Rice | 0.59 | ~0.006 | 0.036 | ~0.028 | ~0.0012 | <0.004 | <0.02 |
+| Other cereal products | 2.32 | 0.014 | ~0.005 | <0.012 | <0.0005 | ~0.005 | <0.01 |
+| Pasta | 1.04 | ~0.009 | <0.003 | <0.012 | <0.0005 | <0.002 | 13.3 |
+| Pizza | 3.72 | 0.015 | ~0.005 | <0.012 | <0.0005 | ~0.005 | <0.01 |
 
-Note: Cd for offal group is 0.23 mg/kg — the highest by a wide margin across groups, reflecting kidney and liver accumulation. Fish group total arsenic (2.0 mg/kg) is organic-arsenic dominated; iAs in fish is below LOQ (<0.012 mg/kg).
+The rice composite reports iAs at ~0.028 mg/kg and total arsenic at 0.036 mg/kg as consumed, while the fish group reports total arsenic at 2.0 mg/kg but inorganic arsenic below LoQ. That contrast is one of the report's clearest demonstrations that total arsenic and inorganic arsenic cannot be interchanged across food matrices.
 
-### Cereal/grain category detail (Table 7 — Miscellaneous Cereals)
+### Bread category composites (Table 6)
 
-All values in mg/kg as-consumed. The "~" prefix denotes semi-quantitative (above LOD, below LOQ).
+| Category | Al | Cd | tAs | iAs | tHg | Pb |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| White sliced bread | 5.12 | 0.021 | ~0.003 | <0.012 | ~0.0003 | 0.008 |
+| White unsliced bread | 4.84 | 0.019 | ~0.004 | <0.012 | <0.0005 | ~0.005 |
+| Brown bread | 4.27 | 0.026 | <0.006 | <0.012 | <0.001 | ~0.006 |
+| Wholemeal and granary bread | 2.72 | 0.025 | <0.006 | <0.012 | <0.001 | ~0.004 |
+| Other bread | 4.02 | 0.016 | 0.007 | <0.012 | <0.0002 | 0.005 |
 
-| Category | Description | Pb | Cd | iAs | tAs | tHg | Al | Ni | Sn |
-|----------|-------------|----|----|-----|-----|-----|----|----|----|
-| 2_6 | Flour | 0.006 | 0.03 | <0.012 | 0.008 | <0.0005 | 5.19 | 0.04 | <0.004 |
-| 2_7 | Buns, cakes and pastries | ~0.006 | 0.012 | <0.012 | ~0.005 | <0.0005 | 5.04 | 0.16 | ~0.02 |
-| 2_8 | Savoury biscuits | ~0.005 | 0.024 | <0.012 | ~0.004 | <0.0005 | 3.02 | ~0.06 | <0.01 |
-| 2_9 | Sweet biscuits | ~0.005 | 0.015 | <0.012 | ~0.003 | <0.0005 | 2.83 | 0.09 | <0.01 |
-| 2_10 | Chocolate biscuits | ~0.010 | ~0.017 | <0.012 | <0.006 | <0.001 | 6.9 | 0.35 | <0.02 |
-| 2_11 | Breakfast cereals | <0.004 | 0.026 | <0.012 | ~0.010 | <0.001 | 2.42 | 0.35 | <0.02 |
-| 2_12 | Rice (as consumed) | <0.004 | ~0.006 | ~0.028 | 0.036 | ~0.0012 | 0.59 | ~0.11 | <0.02 |
-| 2_13 | Other cereal products | ~0.005 | 0.014 | <0.012 | ~0.005 | <0.0005 | 2.32 | ~0.03 | <0.01 |
-| 2_14 | Pasta | <0.002 | ~0.009 | <0.012 | <0.003 | <0.0005 | 1.04 | ~0.03 | 13.3 |
-| 2_15 | Pizza | ~0.005 | 0.015 | <0.012 | ~0.005 | <0.0005 | 3.72 | ~0.06 | <0.01 |
+### Fish category composites (Table 12)
 
-Rice (category 2_12) shows iAs ~0.028 mg/kg (28 µg/kg, semi-quantitative) and tAs 0.036 mg/kg (36 µg/kg) as consumed — consistent with iAs forming the majority of tAs in rice, typical of the literature. tHg in rice is semi-quantitative at ~0.0012 mg/kg (1.2 µg/kg as consumed). The pasta category shows a marked Sn elevation (13.3 mg/kg), likely an artefact of canning or packaging contact during sample preparation; noted in source context.
-
-### Bread category detail (Table 6)
-
-| Category | Description | Pb (mg/kg) | Cd (mg/kg) | iAs (mg/kg) | tAs (mg/kg) | tHg (mg/kg) | Al (mg/kg) |
-|----------|-------------|-----------|-----------|------------|------------|------------|-----------|
-| 1_1 | White sliced bread | 0.008 | 0.021 | <0.012 | ~0.003 | ~0.0003 | 5.12 |
-| 1_2 | White unsliced bread | ~0.005 | 0.019 | <0.012 | ~0.004 | <0.0005 | 5.88 |
-| 1_3 | Brown bread | ~0.006 | 0.026 | <0.012 | <0.006 | <0.001 | 4.27 |
-| 1_4 | Wholemeal and granary bread | ~0.004 | 0.025 | <0.012 | <0.006 | <0.001 | 2.72 |
-| 1_5 | Other bread | 0.005 | 0.016 | <0.012 | 0.007 | <0.0002 | 4.02 |
+| Category | Cd | tAs | iAs | tHg | Pb |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| White fish | <0.003 | 4.78 | ~0.016 | 0.0719 | ~0.004 |
+| Fatty fish | <0.003 | 1.08 | ~0.014 | 0.0698 | ~0.003 |
+| Shellfish | 0.085 | 1.77 | ~0.035 | 0.0567 | 0.017 |
+| Canned salmon | <0.003 | 0.237 | <0.012 | 0.0302 | <0.002 |
+| Other canned/bottled fish | 0.019 | 0.831 | <0.012 | 0.207 | <0.002 |
+| Fish-based ready meals/products | ~0.007 | 1.35 | <0.012 | 0.0212 | ~0.002 |
+| Takeaway fish-based meals | ~0.006 | 2.51 | <0.012 | 0.0537 | ~0.005 |
 
 ## Methods (brief)
 
-3,312 retail food samples were collected from 24 UK locations by HallMark Meat Hygiene Ltd. Foods were prepared as for consumption (cooking, discarding inedible portions, using tap water) following FSA-specified protocols designed to reflect consumer practices. Prepared samples were homogenized and composited into 138 food categories and 28 food groups by proportion matching UK household food purchase data from three prior years of the Family Food Survey.
+Retail foods were collected by HallMark Meat Hygiene Ltd from 24 UK locations and sent to Fera. Samples were prepared as for consumption following FSA instructions: inedible portions were discarded where appropriate, foods were cooked where appropriate, and potable tap water was used when water was needed for preparation. Prepared samples were homogenized with a Buchi B-400 mixer or Robot Coupe food processor. Food-category composites were then pooled into 28 food groups according to UK household food-purchase proportions from the Family Food Survey.
 
-Multi-element analysis: 0.5 g (or up to 3 g fresh material) aliquots were digested in concentrated nitric/hydrochloric acid (4:1 v/v) using a microwave single-reaction-chamber system (UltraWAVE, Milestone), then analyzed by Agilent 7700x ICP-MS with yttrium and holmium internal standards. All methods UKAS-accredited (ISO 17025).
+Multi-element analysis used UKAS-accredited ISO 17025 methods. Aliquots of 0.5 g dry material or up to 3 g fresh material were digested in concentrated nitric/hydrochloric acid at 4:1 using an UltraWAVE single-reaction-chamber microwave digestion system, diluted, and measured on an Agilent 7700x ICP-MS with yttrium and holmium internal standards. Iodine used a separate enzyme/TMAH extraction and ICP-MS method. Inorganic arsenic used a separate method based on Munoz et al. 1999: hydrochloric-acid standing, hydrobromic acid and hydrazinium sulfate, chloroform extraction/back-extraction, and ICP-MS measurement with gallium and rhodium internal standards.
 
-Inorganic arsenic (iAs): Separate method based on Munoz et al. (1999); HCl/hydrobromic acid/hydrazinium sulfate extraction with chloroform back-extraction, measured by ICP-MS. This is a validated, published speciation method that distinguishes iAs from total arsenic. The separate measurement of iAs alongside tAs is a key strength of this study.
+QA/QC included a 10% duplicate audit, procedural blanks, spike recoveries, certified or in-house reference materials in each analytical batch, instrument-stability checks, FAPAS proficiency testing, and replicate-agreement criteria. For the 0.5 g LoD/LoQ row in Table 3, the LoD/LoQ grouping is 0.006/0.020 ug/kg for As, iAs, Cd, Pb, and Tl and 0.001/0.0033 ug/kg for Hg, In, Rh, and Sb. Measurement uncertainty was 21% for iAs, 17% for As, 18% for Cd, 16% for Hg, 14% for Pb, 15% for Al/Cu/Zn, 25% for Cr, and 8% for Sn.
 
-Mercury (tHg): Measured in the standard multi-element ICP-MS run as total mercury; no speciation of MeHg vs inorganic Hg. For fish group, tHg was 0.811 mg/kg reflecting mixed organic/inorganic mercury; MeHg fraction not reported.
+## Speciation and methods caveats
 
-LOD/LOQ: Vary by sample weight taken; see Table 3. For the 0.5 g sample weight typical of this study: Hg LOD = 0.006 µg/kg, LOQ = 0.020 µg/kg (converted per weight factor). Measurement uncertainty estimated at 21% for Hg, 11–18% for most elements of primary interest.
-
-QA/QC: 10% audit in duplicate, procedural blanks, spiked samples, certified and in-house reference materials in each analytical batch. Z-scores from FAPAS proficiency testing all within satisfactory range (−2 to +2). Reference materials included DORM-4 fish protein, NIST 1548a total diet, NIST 1547 peach leaves, NIST 1549 non-fat milk powder, powdered rice (IMEP-107), and rice flour (NMIJ7503a).
-
-**Basis note:** All data are reported on an as-received/as-prepared (as-consumed wet weight) basis. Converting to dry weight requires moisture content data not provided in this report. Direct comparison to standards expressed on a dry-weight or as-sold basis requires a documented conversion factor.
+- Inorganic arsenic is separately measured iAs, not inferred from total arsenic.
+- Total arsenic is not a proxy for inorganic arsenic in fish: the fish group has tAs 2.0 mg/kg while iAs is <0.012 mg/kg.
+- Mercury is total mercury; methylmercury was not speciated.
+- Results are composite concentrations, not sample-level distributions. They are useful for as-consumed baseline context but cannot support within-category percentile estimates.
+- All values are as received or prepared, not dry weight. Dry-weight comparison requires moisture conversion not supplied in this report.
 
 ## Implications
 
-**Certification:** This is the most authoritative post-2010 whole-diet baseline for metals in UK food as consumed. For HMT&C products sold or sourced in the UK, the TDS group and category data provide context for expected metal levels in cereal products, bread, rice, nuts, meat, fish, dairy, and vegetables. The rice-specific iAs value of ~0.028 mg/kg (28 µg/kg, semi-quantitative) as consumed is consistent with the broader literature and with EU/FDA guidance levels for iAs in rice-based products. The study confirms that iAs in fish is below detection even as total arsenic (fish group tAs = 2.0 mg/kg) is elevated — demonstrating the critical importance of iAs/tAs distinction in seafood contexts.
+Standards work: This source provides A-tier UK as-consumed composite baselines for grains, rice, bread, fish, nuts, snacks, condiments, and other food groups. It is strongest for source-route context and regulatory cross-checking, not percentile math, because the underlying retail samples are pooled before analysis.
 
-**Courses:** Excellent teaching example for TDS methodology (as-consumed compositing, proportional dietary weighting), arsenic speciation design (separate iAs and tAs measurements), and the pattern that high tAs in fish is dominated by organic arsenicals (arsenobetaine) of low toxicological concern, not iAs.
+Courses: The report is a compact teaching example for total-diet-study design, prepared-as-consumed compositing, matrix-specific arsenic speciation, and the consequences of mixing total-As and iAs endpoints.
 
-**App:** Group-level and category-level concentrations as consumed can inform the UK-market baseline for the app's contamination estimates, with the caveat that these are composite averages reflecting the whole dietary basket, not point estimates for individual products.
+App: Values can support UK baseline context displays for broad product groups, with prominent labels that they are composite means and not individual-product measurements.
 
-**Microbiome:** Not addressed in this study.
+Microbiome: Not addressed in this study.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
-- [[ingredients/rice]]
-- [[ingredients/bread]]
-- [[ingredients/wheat-flour]]
-- [[ingredients/breakfast-cereals]]
-- [[ingredients/fish]]
-- [[ingredients/milk]]
-- [[metals/lead]]
+- [[metals/aluminum]]
+- [[metals/antimony]]
+- [[metals/arsenic-inorganic]]
+- [[metals/arsenic-total]]
+- [[metals/barium]]
 - [[metals/cadmium]]
-- [[metals/arsenic]]
-- [[metals/mercury]]
-- [[regulations/uk-fsa-tds]]
+- [[metals/chromium]]
+- [[metals/copper]]
+- [[metals/lead]]
+- [[metals/manganese]]
+- [[metals/mercury-total]]
+- [[metals/molybdenum]]
+- [[metals/nickel]]
+- [[metals/palladium]]
+- [[metals/platinum]]
+- [[metals/thallium]]
+- [[metals/tin]]
+- [[metals/zinc]]
+- [[ingredients/bread]]
+- [[ingredients/cereals]]
+- [[ingredients/fish]]
+- [[ingredients/rice]]
+- [[ingredients/shellfish]]
+- [[ingredients/wheat]]
+- [[products/bread-and-baked-goods]]
+- [[products/breakfast-cereals]]
+- [[products/canned-fish]]
+- [[products/condiments-general]]
+- [[products/flour-non-rice]]
+- [[products/fresh-fish]]
+- [[products/nuts-seeds-other]]
+- [[products/pasta-wheat-based]]
+- [[products/rice-bulk-grain]]
+- [[products/shellfish]]
+- [[products/snacks-crackers-biscuits]]
+
+## Verification notes
+
+- Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
+- Corrected an earlier table-column alignment error: Table 5's iodine column had been misread as Hg/Pb in several group rows. The page now uses the report's actual Cd, Hg, and Pb columns from the second half of each table.
+- Replaced product-empty routing and non-vocabulary matrices with controlled product routes and broad matrices.
+- Replaced invalid wiki links such as `ingredients/wheat-flour`, `ingredients/breakfast-cereals`, `ingredients/milk`, `metals/mercury`, and `regulations/uk-fsa-tds`.
+- Strict brand-firewall check: no sampled consumer brands are named; contractor, instrument, utensil/material, reagent, and reference-material names are retained only as Methods details under the Part 12 scientific-method exception.
