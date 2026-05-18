@@ -88,7 +88,7 @@ Two table cells transcribed exactly as printed in the paper but look anomalous: 
 - Non-cancer HQ: cardiovascular/dermal (female total = 7.13 × 10⁻¹; male = 6.16 × 10⁻¹); "other" (female total 1.28 × 10⁻¹; male 1.11 × 10⁻¹)
 
 *Adults (≥21 y, occupational), pancakes:*
-- Cancer risk: 6.51 × 10⁻³ to 6.82 × 10⁻³ (female total) and 2.67 × 10⁻⁴ to 3.65 × 10⁻³ (male); range 10⁻⁴ to 10⁻³
+- Cancer risk: female 3.09 × 10⁻⁴ (ingestion) to 6.82 × 10⁻³ (total), with female dermal 6.51 × 10⁻³; male 2.67 × 10⁻⁴ (ingestion) to 3.65 × 10⁻³ (total), with male dermal 3.39 × 10⁻³; overall range 10⁻⁴ to 10⁻³
 - Non-cancer HQ: cardiovascular/dermal (female total 1.57 × 10⁰; male 1.36 × 10⁰) — exceeds 1; "other" (female total 2.44 × 10⁰; male 2.11 × 10⁰) — exceeds 1
 
 Carcinogenic risk contributions: arsenic ≈ 90% of total cancer risk; in pancake "other"-target HQ, Cr(VI) contributed ≈ 99%; in cardiovascular/dermal HQ, As contributed ≈ 100%.
@@ -135,7 +135,7 @@ Occurrence data this paper contributes:
 Exposure-pathway data this paper contributes:
 - A worked USEPA dermal + incidental-ingestion exposure model for a face-paint and pancake exposure scenario, with parameter values (Tables 1 and 2) sourced from USEPA, ATSDR, OEHHA, and the published exposure-factors literature. Dermal-absorbed-dose dominates cancer risk for adults under the occupational scenario (8 h/day, 250 d/yr). Incidental ingestion (hand-to-mouth) dominates cancer risk for children under the recreational scenario (4 h/day, 12 d/yr).
 - Per-element contribution analysis: arsenic ≈ 90% of total cancer risk; Cr(VI) ≈ 99% of "other"-target HQ in pancakes (driven by the worst-case all-Cr-is-Cr(VI) assumption); As ≈ 100% of cardiovascular/dermal HQ.
-- A 1.1%–12.7% non-compliance rate against the German BVL technically-avoidable limits across Pb, Sb, As, Cd for face-paint samples, and 1.1% non-compliance with Health Canada Pb (10 ppm) for face paints.
+- A 2.2%–12.7% non-compliance rate against the German BVL technically-avoidable limits across Pb (2.2%), Sb (2.7%), As (10.9%), and Cd (12.7%) for face-paint samples, and 1.1% non-compliance with Health Canada Pb (10 ppm) for face paints.
 
 Cr(VI) caveat for downstream use: this paper's Cr(VI) risk numbers should be treated as upper-bound, not measured — total Cr was substituted into the Cr(VI) risk equations rather than speciated. Any downstream synthesis on Cr(VI) in face paints needs a speciated source.
 
@@ -157,3 +157,7 @@ Microbiome: Not addressed.
   - **Legacy heading "## Wiki pages updated on ingest" removed** along with the bulleted-wikilink list — current schema uses the routing audit to compute fan-out automatically from frontmatter, not a hand-curated list at the bottom of the source page.
   - **Two anomalous Table 3 values preserved as printed** (Ba pancakes P95 = 0.21 vs min 3.42; Pb pancakes P95 = 72.97 vs max 11.69) with a one-line note that they look like typesetting transpositions but the wiki defaults to faithful transcription. Flag for any future synthesis pass that wants to use the pancake P95s.
 - Preserved from prior page: cite_key, raw_handle (kimi-children-personal-care-salles2023 — pre-MFK_ format), raw_path, license, evidence_tier, sample_n.
+- 2026-05-18 audit-application (Claude Opus 4.7, fresh-context subagent verdict REVISE, 3 ⚠️):
+  - **Applied (Table 4 attribution)**: prior "Cancer risk: 6.51 × 10⁻³ to 6.82 × 10⁻³ (female total) and 2.67 × 10⁻⁴ to 3.65 × 10⁻³ (male)" was a loose attribution — 6.51 × 10⁻³ is female *dermal*, not female total. Restated as: female 3.09 × 10⁻⁴ (ingestion) to 6.82 × 10⁻³ (total), with female dermal 6.51 × 10⁻³; male 2.67 × 10⁻⁴ (ingestion) to 3.65 × 10⁻³ (total), with male dermal 3.39 × 10⁻³. Verified against PDF Table 4 p. 9.
+  - **Applied (BVL non-compliance range)**: prior prose said "1.1%–12.7% non-compliance rate" but the BVL exceedances are Pb 2.2%, Sb 2.7%, As 10.9%, Cd 12.7% (range floor is 2.2%, not 1.1%). The 1.1% is Health Canada Pb. Restated as "2.2%–12.7%" with per-element percentages spelled out. Verified against PDF p. 11.
+  - **Rejected (Ni face paints min — false positive)**: subagent flagged Ni face paints min as "<0.01" (claimed wiki's "0.45" was a misread). Independent re-verification against PDF Table 3 p. 8: PDF prints "0.45–1.24" for Ni face paints. Wiki value is correct; subagent finding was a transcription error on the subagent's part, not the wiki's. No change.
