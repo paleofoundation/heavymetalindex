@@ -1,64 +1,143 @@
 ---
 type: source
-raw_handle: papers-cube
+raw_handle: PCMF_afns-aid1056
 cite_key: garuba2024-heavy-metals-commercial-baby-foods
-title: "Heavy Metals Analysis in Selected Commercial Baby Foods for Infant and Toddler: Health Risk Assessment of Baby Foods"
-authors: [Garuba HA, Olarewaju OO, Srinivasan P, Ojwang LM]
+title: "Evaluation of Heavy Metals in Commercial Baby Foods"
+authors: [Garuba OD, Anglin JC, Good S, Olufemi SE, Oyawoye OM, Sodipe A]
 year: 2024
 publication: "Archives of Food and Nutritional Science"
 doi: 10.29328/journal.afns.1001056
+access_url: "https://doi.org/10.29328/journal.afns.1001056"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
 raw_path: "raw/Papers Cube Manual Fetch/afns-aid1056.pdf"
-metals: [Pb, Cd, tAs, Al, Zn, Mn, Fe, Cu]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]", "[[ingredients/banana]]"]
-products: ["[[products/infant-cereal]]", "[[products/baby-food-purees]]", "baby-cereals", "[[products/infant-and-child-foods-master]]"]
-matrices: [infant-cereal, baby-food, infant-toddler-food]
+metals: [Pb, Cd, tAs, Al, Zn, Cr, Ni]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]", "[[ingredients/banana]]", "[[ingredients/apple]]", "[[ingredients/oranges]]", "[[ingredients/turkey]]", "[[ingredients/chicken]]", "[[ingredients/beef]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/meat-and-poultry-purees]]", "[[products/root-vegetable-purees]]", "[[products/fruit-purees]]", "[[products/fruit-juices-apple-containing]]", "[[products/infant-formula-powder]]"]
+matrices: [baby-food, infant-cereal, infant-formula]
 jurisdictions: [US]
 near_duplicates: []
 sample_n: 10
-sample_population: "10 commercial baby food products (7 brands), US market, stages 1-3 infant/toddler formulations; purchased from retail stores in Texas, USA"
-updated: 2026-05-14
+sample_population: "10 commercial baby and toddler food products across 7 anonymized brands, purchased from a local retail store in Houston, Texas, USA; products spanned stages 1-3 (0-12 months) and toddler 2-6+ years categories; each product analyzed in triplicate"
+updated: 2026-05-18
 ---
 
-Garuba et al. (2024) measured eight metals (Pb, Cd, As, Al, Zn, Mn, Fe, Cu) in ten commercial US infant and toddler food products (stages 1-3, seven brands) using QQQ-ICP-MS after microwave acid digestion. Two products exceeded aluminum maximum residue limits (MRL), and three products exceeded zinc MRL, with one beef-gravy product containing 69.5 µg/g Zn — more than 23 times the upper MRL. The rice cereal product (S7) measured 0.102 µg/g arsenic (total, not speciated), essentially at FDA's action level of 0.1 µg/g for inorganic arsenic in infant rice cereal, though direct comparison is limited because the study did not perform arsenic speciation. No significant relationship between packaging material type and metal concentration was found.
+# Garuba et al. 2024 — Heavy metals in commercial US baby foods
+
+Garuba et al. (2024) measured seven metals (Al, Cr, Ni, Zn, total As, Cd, Pb) in ten commercial US infant and toddler food products from seven anonymized brands (labeled Brand 1-Brand 7) using single-reaction-chamber microwave digestion followed by triple-quadrupole ICP-MS (QQQ-ICP-MS). Each product was analyzed in triplicate. Aluminum exceeded the ATSDR oral intermediate MRL of 1 µg/g/day in two plant-based fruit/vegetable purees (4.09 and 2.50 µg/g), and zinc exceeded the cited 2-3 µg/g/day reference in three products (syrup 33.55 µg/g, beef-and-gravy 69.54 µg/g, fruit punch 30.25 µg/g). Mercury was not analyzed. Regression analysis showed no significant relationship between packaging material (squeezable pouch, plastic, glass jar, aluminum can, box pouch) and metal concentration, supporting a soil-to-crop rather than packaging-migration origin for the contamination observed.
 
 ## Key numbers
 
-| Sample | Product description | Al (µg/g) | Zn (µg/g) | As (µg/g) | Cd (µg/g) | Pb (µg/g) | Notes |
+**Sample directory (Table 1, Garuba 2024):**
+
+| Sample | Product description | Packaging | Age range |
+|---|---|---|---|
+| S1 | Sweet potato and turkey puree (natural) | Squeezable pouch, 3.5 oz | Stage 3, 6-12 months |
+| S2 | Banana and raspberry fruities (natural) | Squeezable pouch, 3.5 oz | Stage 2, 6-9 months |
+| S3 | Sweet potato and apple puree (organic, non-GMO) | Squeezable pouch, 4 oz | Stage 3, 6-12 months |
+| S4 | Chicken casserole, vegetable, and rice puree (organic, non-GMO) | Squeezable pouch, 4.5 oz | Stage 3, 6-12 months |
+| S5 | Rice cereal (natural) | Plastic, 16 oz | Stage 2 supported sitter, 4-6 months |
+| S6 | Syrup (natural) | Plastic, 8 oz | Toddlers 2-6+ years |
+| S7 | Beef and gravy (natural) | Glass jar, 2.5 oz | Sitter, 6-8 months |
+| S8 | Apple, orange, strawberry, and cherry fruit punch (natural) | Box pouch, 6 fl oz | Toddlers 2-6+ years |
+| S9 | Infant formula A (natural, non-GMO) | White-varnish-lined aluminum can, 12.7 oz | Stage 1, 0-12 months |
+| S10 | Infant formula B (natural, non-GMO) | White-varnish-lined aluminum can, 12.4 oz | Stage 1, 0-12 months |
+
+**Metal concentrations, mean (SD) of triplicate measurements, µg/g (= mg/kg = ppm) of as-sold product (Table 3, Garuba 2024):**
+
+| Sample | Al | Cr | Ni | Zn | tAs | Cd | Pb |
 |---|---|---|---|---|---|---|---|
-| S1 | Sweet potato/turkey puree | — | — | — | — | 0.004 | Highest Pb in set |
-| S2 | Banana/raspberry puree | 4.09 | — | — | — | — | Al exceeds 1 µg/g/day MRL |
-| S3 | Sweet potato/apple puree | 2.50 | — | — | — | — | Al exceeds MRL |
-| S6 | Syrup/snack | — | 33.5 | — | — | — | Zn exceeds 2-3 µg/g/day MRL |
-| S7 | Rice cereal | — | — | 0.102 | 0.017 | — | As at FDA action level; Cd highest in set |
-| S8 | Fruit punch | — | 30.2 | — | — | — | Zn exceeds MRL |
-| Beef/gravy (S7 alt.) | Meat-based toddler | — | 69.5 | — | — | — | Zn 23× above MRL |
+| S1 sweet potato/turkey puree | 0.217 (0.06) | 0.045 (0.012) | 0.220 (0.202) | 1.617 (0.014) | 0.011 (0.001) | 0.003 (0.000) | 0.004 (0.001) |
+| S2 banana/raspberry puree | 4.089 (0.172) | 0.136 (0.098) | 0.414 (0.300) | 1.346 (0.024) | 0.012 (0.001) | 0.001 (0.000) | 0.001 (0.000) |
+| S3 sweet potato/apple puree | 2.501 (0.355) | 0.267 (0.046) | 0.148 (0.004) | 1.304 (0.092) | 0.013 (0.001) | 0.002 (0.001) | 0.003 (0.000) |
+| S4 chicken/vegetable/rice puree | 0.316 (0.048) | 0.013 (0.003) | 0.019 (0.012) | 0.006 (0.001) | 0.006 (0.001) | 0.000 (0.000) | 0.000 (0.000) |
+| S5 rice cereal | 0.824 (0.060) | 0.048 (0.005) | 0.065 (0.006) | 2.900 (0.006) | 0.013 (0.001) | 0.004 (0.001) | 0.001 (0.000) |
+| S6 syrup | 0.353 (0.000) | 0.032 (0.001) | 0.095 (0.001) | 33.553 (1.569) | 0.023 (0.001) | 0.000 (0.000) | 0.002 (0.000) |
+| S7 beef and gravy | 0.492 (0.038) | 0.067 (0.008) | 0.235 (0.011) | 69.535 (3.198) | 0.102 (0.004) | 0.017 (0.001) | 0.001 (0.000) |
+| S8 fruit punch | 0.416 (0.034) | 0.037 (0.013) | 0.069 (0.016) | 30.247 (1.497) | 0.012 (0.001) | 0.000 (0.000) | 0.0007 (3.457*) |
+| S9 infant formula A | 0.085 (0.023) | 0.010 (0.003) | 0.015 (0.002) | 0.063 (0.020) | 0.008 (0.000) | 0.000 (0.000) | 0.000 (0.000) |
+| S10 infant formula B | 0.271 (0.023) | 0.023 (0.008) | 0.020 (0.001) | 23.694 (1.346) | 0.009 (0.001) | 0.000 (0.000) | 0.001 (0.000) |
 
-Average metal concentration across all samples: 0.96 µg/g. ANOVA across sample groups: F(6,24)=2.75, p=0.035. No significant correlation between packaging material (glass, plastic, pouch) and metal levels.
+\* S8 Pb SD of 3.457 µg/g is reported as such in Table 3 of the source paper but is implausible given a mean of 0.0007 µg/g and SDs of 0.000-0.001 for all other Pb cells; treated as a likely typographical error in the source.
 
-**Arsenic note:** The paper reports "arsenic" without speciation. The 0.102 µg/g value is total arsenic (tAs). FDA's 100 ppb action level applies to inorganic arsenic (iAs); iAs is typically a fraction of tAs in rice cereal (commonly 70-80% in rice-based products). Direct comparison to FDA's iAs action level is not valid without speciation; the authors' stated comparison is methodologically imprecise.
+**ANOVA across food types (Table 4):** F(6,24) = 2.75, p = 0.035. Average metal concentration across the dataset: 0.96 µg/g. The mixed-model output reports significant per-metal main effects for Pb (p=0.038), Cd (p=0.038), As (p=0.041), Cr (p=0.042), Ni (p=0.049), and a near-significant effect for Zn (p=0.052); the Al effect is the intercept reference.
 
-**Zinc note:** Zinc is not a heavy metal regulated by HMT&C but is an essential nutrient with upper intake levels. The extreme Zn values in beef/gravy likely reflect added zinc in infant formula-grade supplementation rather than contamination. The authors' interpretation of Zn exceedances as toxicological concern should be read cautiously; context for the product type is not provided.
+**Regression of metal concentration vs packaging material (Table 5):** No coefficient was statistically significant (all p > 0.39); the authors conclude packaging-to-food migration is not a major source of the observed contamination.
+
+**Exceedances of cited ATSDR Minimal Risk Levels (MRLs) (Garuba 2024 Table 6):**
+
+| Metal | MRL cited by authors | Samples exceeding | Values |
+|---|---|---|---|
+| Al (oral, intermediate/chronic) | 1 µg/g/day | S2, S3 | 4.09, 2.50 µg/g |
+| Zn (oral, intermediate; NIH 2-3 µg/g/day cited for infants/toddlers) | 2-3 µg/g/day | S6, S7, S8, S10 | 33.55, 69.54, 30.25, 23.69 µg/g |
+| As (oral, acute 0.005 µg/g) | 0.005 µg/g | All except S4 (0.006) and S9 (0.008) fall above acute MRL; S6 (0.023), S7 (0.102) substantially above | — |
+
+The authors compare values against ATSDR's per-day MRLs as if they were per-gram limits in the food; this conflates intake-rate guidance with concentration-in-food, and the comparison should be read as the authors' interpretation, not as a regulatory exceedance per se.
+
+**Speciation note:** The paper reports total arsenic (tAs) only; no speciation into iAs/MeHg/DMA was performed. The authors' comparison of the S7 value (0.102 µg/g tAs) to FDA's 0.1 µg/g (100 ppb) iAs action level for infant rice cereal is not directly valid because (a) the 100 ppb FDA action level applies to iAs in infant rice cereal specifically, (b) S7 in this study is beef and gravy per Table 1, not rice cereal, and (c) the value is total arsenic, not inorganic. The rice cereal sample in this study (S5 per Table 1) measured 0.013 µg/g tAs, well below 100 ppb.
+
+**Paper-internal labeling inconsistency:** Table 1 lists S5 as rice cereal, S6 as syrup, S7 as beef and gravy, and S8 as fruit punch, but the Discussion section text repeatedly refers to S7 as "rice cereal" and to S6/S8 as "infant formula" when describing the elevated Zn and As findings. The Table 1 product identifications are treated as authoritative here because they are the formal sample manifest; the Discussion's narrative attributions appear to be authorship errors. Citations that propagate the "S7 = rice cereal" reading from the Discussion text should be flagged as inheriting the source paper's internal labeling error.
 
 ## Methods (brief)
 
-Instrument: QQQ-ICP-MS (triple-quadrupole). Sample preparation: SRC microwave acid digestion (concentrated HNO3/H2O2). Calibration: external calibration with internal standard correction. No CRM validation mentioned in available text. Arsenic not speciated; reported as total. Sample size: n=10 products across 7 brands; no replication within products stated. Stage classification (1, 2, 3) recorded but analysis primarily by product code.
+**Instrument:** Triple-quadrupole inductively coupled plasma mass spectrometer (QQQ-ICP-MS) operated per Milestone's UltraWAVE single-reaction-chamber (SRC) method, with an additional quadrupole mass filter ahead of the collision/reaction cell for spectral-interference suppression. Authors cite a 95% recovery rate from a prior method paper (Yang et al.). Operating parameters (Table 2): RF power 1500 W; plasma gas flow 1.8 L/min; carrier gas 1.07 L/min; PTFE liner under pure N₂; concentric nebulizer; pressure range 15-19.9 MPa; temperature range 90-300 °C.
+
+**Sample preparation:** 500 mg of each food sample digested in 40 mL quartz tubes with 5 mL 16 N HNO₃ + 1 mL 12 N HCl + 1 mL 30% H₂O₂ via SRC microwave. Post-digestion solution dried down on a hot plate at ~180 °C, reconstituted with 2% HNO₃, heated 30-90 min at ~180 °C to re-dissolve, then diluted to ~4 g final mass (≈10× dilution). Analysis performed at the Center for Advanced Analytical Geochemistry, University of Houston.
+
+**Metals analyzed:** Total Al, Cr, As, Cd, Zn, Pb, Ni. Mercury was explicitly excluded ("with the exception of Hg") and is not reported. No speciation was performed (no iAs/tAs split; no MeHg/tHg split since Hg was not analyzed).
+
+**Statistics:** Mean ± SEM of triplicate measurements. Mixed-model ANOVA across food types (SAS, 2004). Regression of metal concentration on packaging material. Significance threshold p < 0.05.
+
+**Limitations from a Cochrane-grade reading:** No certified reference material (CRM) or method-recovery results reported in the available text. LOD/LOQ not stated. No arsenic speciation despite reporting an arsenic value at FDA's iAs action level. Sample size of n=10 distinct products (with n=3 replicates each) is small for category-level inference. Anonymized brand labels (Brand 1-Brand 7) prevent independent re-analysis or replication. The author's MRL comparison conflates ATSDR's intake-rate-per-day guidance with concentration-in-food, which is not a like-for-like exceedance.
 
 ## Implications
 
-**Certification:** The rice cereal tAs result (0.102 µg/g = 102 ppb) near FDA's iAs action level (100 ppb iAs) supports continued priority attention to rice-based infant foods. Notably, if iAs is ~75% of this tAs value, the actual iAs would be approximately 77 ppb — below the action level. The lack of speciation limits this study's direct value for HMT&C Path A threshold work on iAs in infant rice cereal. The aluminum exceedances are potentially notable for HMT&C review, as Al is one of the certified analytes.
+**For the wiki literature register:** This study contributes seven-metal concentrations for ten US baby/toddler products at as-sold product basis. The Al values in fruit/root-vegetable purees (4.09 and 2.50 µg/g) and the high Zn in animal-protein and sugar/fruit-punch products are useful additions to the small body of US-market product-level data. The tAs value in beef-and-gravy (0.102 µg/g) is notable as an unusual finding warranting independent verification (beef is not typically a high-arsenic matrix). The lack of arsenic speciation and the absence of CRM validation limit the page's contribution to Pb/Cd/iAs synthesis at the A-tier level.
 
-**Courses:** Good example for discussing why arsenic speciation matters in regulatory comparison: a study reporting "arsenic at the FDA action level" without speciation cannot actually confirm a regulatory exceedance. Illustrates measurement gaps in secondary literature.
+**Methodological example for courses:** The paper illustrates two common interpretive errors that students of the literature should learn to spot — (1) comparing per-gram concentration in food to per-day intake-rate MRLs, and (2) comparing total arsenic to an inorganic-arsenic action level. Both errors inflate apparent regulatory exceedance.
 
-**App:** Can contribute tAs values for infant rice cereal and baby food purees, with appropriate caveats about speciation uncertainty. Al data for banana/raspberry and sweet potato/apple products is notable for the app's Al modeling for stage 1-2 purees.
+**For the app exposure model:** Use the as-sold µg/g values directly; note that this paper does not report serving sizes consumed per day, so daily intake estimates require pairing with separate consumption-pattern data.
 
 ## Wiki pages updated on ingest
 
-- [[products/infant-cereal]]
-- [[products/baby-food-purees]]
+- [[products/baby-cereals-dry-rice-based]]
+- [[products/meat-and-poultry-purees]]
+- [[products/root-vegetable-purees]]
+- [[products/fruit-purees]]
+- [[products/fruit-juices-apple-containing]]
+- [[products/infant-formula-powder]]
 - [[ingredients/rice]]
+- [[ingredients/sweet-potato]]
+- [[ingredients/banana]]
+- [[ingredients/apple]]
+- [[ingredients/oranges]]
+- [[ingredients/turkey]]
+- [[ingredients/chicken]]
+- [[ingredients/beef]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[regulations/fda-ctz-iAs-cereal-100ppb]]
+- [[metals/arsenic]]
+- [[metals/aluminum]]
+- [[metals/zinc]]
+- [[metals/chromium]]
+- [[metals/nickel]]
+
+## Verification notes
+
+Enhanced on 2026-05-18 from a pre-2026-05-14 ingest that contained multiple critical defects:
+
+1. **Authors corrected.** Prior frontmatter listed `[Garuba HA, Olarewaju OO, Srinivasan P, Ojwang LM]` — none of these are authors of this paper. Actual author list per the title page of the PDF: Omobolanle David Garuba, Judith C Anglin, Sonya Good, Shodimu-Emmanuel Olufemi, Olubukola Monisola Oyawoye, Sodipe Ayodotun (corresponding). Recorded in the canonical surname-initials form.
+2. **Title corrected.** Prior title was a fabrication ("Heavy Metals Analysis in Selected Commercial Baby Foods for Infant and Toddler: Health Risk Assessment of Baby Foods"); actual title per cover page is "Evaluation of Heavy Metals in Commercial Baby Foods".
+3. **`raw_handle` set to `PCMF_afns-aid1056`** to match the manual-fetch naming convention; prior value was the bare `papers-cube` placeholder.
+4. **Metals list corrected.** Prior frontmatter declared `[Pb, Cd, tAs, Al, Zn, Mn, Fe, Cu]` — Mn, Fe, and Cu were invented (not measured in this study); Cr and Ni were measured and present in Table 3 but were missing from frontmatter. Mercury was explicitly excluded by the authors. Corrected to `[Pb, Cd, tAs, Al, Zn, Cr, Ni]`.
+5. **Products list corrected.** Prior frontmatter referenced `baby-food-purees` (not a wiki slug), a bare `baby-cereals` string (not a wikilink), and `infant-and-child-foods-master` (an internal scaffold, not the appropriate routing target). Replaced with the six current product slugs that this paper actually touches.
+6. **Ingredients list expanded.** Prior list contained only rice, sweet-potato, and banana; the paper also measures apple (S3, S8), oranges (S8), turkey (S1), chicken (S4), and beef (S7), all of which have existing wiki ingredient pages.
+7. **Key numbers fully rebuilt from Table 3.** Prior Key numbers table contained a serious sample-ID transposition: it labeled S7 as "rice cereal" (per Table 1, S5 is rice cereal and S7 is beef and gravy) and listed a malformed row "Beef/gravy (S7 alt.)". The corrected table reproduces all seven metal values for all ten samples directly from Table 3 of the source paper. The paper-internal labeling inconsistency between Table 1 and the Discussion narrative is now explicitly flagged in a dedicated note.
+8. **Methods section expanded.** Prior version said "no CRM validation mentioned" and "no replication within products stated"; the latter was wrong — the paper explicitly states triplicate analysis per product. Added correct digestion reagents (HNO₃ + HCl + H₂O₂), instrument-operating parameters from Table 2, and statistical methodology.
+9. **Arsenic / FDA action-level comparison rewritten.** Prior Implications text stated "the rice cereal tAs result (0.102 µg/g = 102 ppb) near FDA's iAs action level" — this propagated the paper's own labeling error. The 0.102 µg/g tAs value is from S7 (beef and gravy per Table 1), not from rice cereal. Corrected.
+10. **MRL comparison framing tightened.** Added the methodological observation that the paper conflates ATSDR's per-day intake-rate MRLs with concentration-in-food, which is a category error in the source's interpretation.
+
+Brand firewall: No action required. The source paper anonymizes brands as Brand 1-Brand 7; this page preserves that anonymization.
+
+Wiki/HMTc firewall: No threshold proposals, no consensus claims, no certification advocacy. The Implications section reports observation-level utility for the literature register and methodological learning, not synthesis.
