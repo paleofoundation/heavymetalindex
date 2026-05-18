@@ -66,6 +66,65 @@ function renderCitations(citations: AskCitation[]) {
   return `<div class="ask-index-sources"><div class="ask-index-sources-title">Sources</div><ol>${items}</ol></div>`
 }
 
+// Consume a Server-Sent Events stream from /api/ask. Each event block is
+// separated by a blank line, with an optional `event: <name>` line and one or
+// more `data: ...` lines. The api emits `event: meta` (citations), `event: error`
+// (Gateway-level errors like insufficient_funds), and unnamed events whose data
+// is an OpenAI-compatible chat completion delta chunk.
+async function consumeSSEStream(
+  response: Response,
+  onEvent: (name: string, payload: unknown) => void,
+): Promise<void> {
+  if (!response.body) return
+  const reader = response.body.getReader()
+  const decoder = new TextDecoder()
+  let buffer = ""
+  let currentEvent = "message"
+
+  const flush = () => {
+    let nlIndex = buffer.indexOf("\n\n")
+    while (nlIndex !== -1) {
+      const block = buffer.slice(0, nlIndex)
+      buffer = buffer.slice(nlIndex + 2)
+      const lines = block.split("\n")
+      let eventName = currentEvent
+      const dataLines: string[] = []
+      for (const line of lines) {
+        if (line.startsWith("event:")) eventName = line.slice(6).trim()
+        else if (line.startsWith("data:")) dataLines.push(line.slice(5).trimStart())
+      }
+      if (dataLines.length === 0) {
+        currentEvent = "message"
+        nlIndex = buffer.indexOf("\n\n")
+        continue
+      }
+      const dataStr = dataLines.join("\n")
+      if (dataStr === "[DONE]") {
+        currentEvent = "message"
+        nlIndex = buffer.indexOf("\n\n")
+        continue
+      }
+      try {
+        const payload = JSON.parse(dataStr)
+        onEvent(eventName, payload)
+      } catch {
+        // Ignore malformed payloads; the stream may yield partial chunks.
+      }
+      currentEvent = "message"
+      nlIndex = buffer.indexOf("\n\n")
+    }
+  }
+
+  while (true) {
+    const { done, value } = await reader.read()
+    if (done) break
+    buffer += decoder.decode(value, { stream: true })
+    flush()
+  }
+  buffer += "\n\n"
+  flush()
+}
+
 function setupAskIndex(root: Element) {
   const button = root.querySelector(".ask-index-button") as HTMLButtonElement | null
   const panel = root.querySelector(".ask-index-panel") as HTMLDivElement | null
@@ -142,41 +201,95 @@ function setupAskIndex(root: Element) {
     const status = appendMessage(messagesEl, "status", "<p>Searching the Index...</p>")
 
     try {
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 60_000)
       const response = await fetch("/api/ask", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "text/event-stream, application/json",
+        },
         body: JSON.stringify({
           question,
           pageSlug: document.body.dataset.slug || "",
         }),
+        signal: controller.signal,
       })
-
-      const data = (await response.json()) as AskResponse
+      clearTimeout(timeoutId)
       status.remove()
 
-      if (!response.ok || data.error) {
+      if (!response.ok) {
+        const errBody = await response.json().catch(() => ({}) as { error?: string })
         appendMessage(
           messagesEl,
           "assistant",
-          `<p>${escapeHTML(data.error || "Ask the Index could not answer right now.")}</p>`,
+          `<p>${escapeHTML(errBody.error || `Ask the Index could not answer (status ${response.status}).`)}</p>`,
         )
         return
       }
 
-      const citations = data.citations || []
-      const limits =
-        data.limits && data.confidence !== "high"
-          ? `<div class="ask-index-limits">${escapeHTML(data.limits)}</div>`
-          : ""
+      const contentType = response.headers.get("content-type") || ""
 
-      appendMessage(
-        messagesEl,
-        "assistant",
-        `${renderAnswer(data.answer || "", citations)}${limits}${renderCitations(citations)}`,
-      )
-    } catch {
+      // JSON path: the api falls back to JSON for no_evidence_loaded /
+      // retrieval_only / guardrail_fallback modes.
+      if (contentType.includes("application/json")) {
+        const data = (await response.json()) as AskResponse
+        if (data.error) {
+          appendMessage(messagesEl, "assistant", `<p>${escapeHTML(data.error)}</p>`)
+          return
+        }
+        const citations = data.citations || []
+        const limits =
+          data.limits && data.confidence !== "high"
+            ? `<div class="ask-index-limits">${escapeHTML(data.limits)}</div>`
+            : ""
+        appendMessage(
+          messagesEl,
+          "assistant",
+          `${renderAnswer(data.answer || "", citations)}${limits}${renderCitations(citations)}`,
+        )
+        return
+      }
+
+      // SSE path: stream chat completion deltas into one assistant message.
+      let citations: AskCitation[] = []
+      let streamedText = ""
+      let errored = false
+      const assistantEl = appendMessage(messagesEl, "assistant", "")
+
+      await consumeSSEStream(response, (name, rawPayload) => {
+        const payload = rawPayload as {
+          citations?: AskCitation[]
+          message?: string
+          status?: number
+          choices?: Array<{ delta?: { content?: string } }>
+        }
+        if (name === "meta" && Array.isArray(payload.citations)) {
+          citations = payload.citations
+        } else if (name === "error") {
+          errored = true
+          const message =
+            payload.message || `Ask the Index could not answer (status ${payload.status ?? "?"}).`
+          assistantEl.innerHTML = `<p>${escapeHTML(message)}</p>`
+        } else if (!errored) {
+          const delta = payload.choices?.[0]?.delta?.content
+          if (typeof delta === "string" && delta.length > 0) {
+            streamedText += delta
+            assistantEl.innerHTML = renderAnswer(streamedText, citations)
+          }
+        }
+      })
+
+      if (!errored) {
+        assistantEl.innerHTML = renderAnswer(streamedText, citations) + renderCitations(citations)
+      }
+    } catch (err) {
       status.remove()
-      appendMessage(messagesEl, "assistant", "<p>Ask the Index could not connect. Try again in a moment.</p>")
+      const message =
+        err instanceof DOMException && err.name === "AbortError"
+          ? "The request timed out. Try again."
+          : "Ask the Index could not connect. Try again in a moment."
+      appendMessage(messagesEl, "assistant", `<p>${escapeHTML(message)}</p>`)
     } finally {
       isSubmitting = false
     }
