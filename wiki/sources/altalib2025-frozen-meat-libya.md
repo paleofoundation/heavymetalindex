@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_p0156-estimation-of-heavy-metal-concentrations-in-
 cite_key: altalib2025-frozen-meat-libya
 title: "Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market"
 authors: [Altalib SA, Ghania AA, Alazzabi AA]
@@ -12,24 +12,25 @@ access_url: "https://doi.org/10.5281/zenodo.17986261"
 source_type: peer-reviewed
 evidence_tier: B
 license: "CC BY"
-raw_path: "raw/Manual Fetch Kimi/04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0156_Estimation of heavy metal concentrations in imported f.pdf"
-metals: [Pb, Cd, Cr]
-ingredients: ["[[ingredients/beef]]", "[[ingredients/chicken]]", "[[ingredients/lamb]]"]
-products: ["[[products/processed-meats]]"]
+raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0156_Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market.pdf"
+raw_sha256: "bee95cc3f60b9d22442fc06027777b05ebb55dbda4792c4c378aff4aec0130f8"
+metals: [Pb, Cd, Cr, Cu]
+ingredients: ["[[ingredients/beef]]", "[[ingredients/chicken]]", "[[ingredients/poultry]]", "[[ingredients/meat]]", "[[ingredients/meat-and-poultry]]"]
+products: ["[[products/beef-product]]", "[[products/poultry-product]]", "[[products/lamb-mutton]]", "[[products/processed-meats]]"]
 matrices: [beef-muscle, chicken-muscle, lamb-muscle, processed-meat]
 jurisdictions: [LY]
 sample_n: 30
 sample_population: "Imported frozen meat (chicken, beef, lamb, processed products) from Tripoli commercial markets; origins: Brazil, USA, Jordan, Spain, Australia; Feb–May 2025"
-updated: 2026-05-13
+updated: 2026-05-18
 ---
 
 # Altalib et al. 2025 — Heavy metals in imported frozen meat, Tripoli markets
 
-This cross-sectional study measured lead (Pb), cadmium (Cd), chromium (Cr), and copper (Cu) in 30 imported frozen meat samples collected from retail markets in Tripoli, Libya. Samples included chicken (50% of total), beef (27%), and lamb (23%), sourced from Brazil, USA, Jordan, Spain, and Australia. Analysis was by Atomic Absorption Spectrophotometry (AAS) following acid digestion. All samples complied with Libyan and international safety limits for Cd, Cr, and Cu; one sample (3.3%) exceeded the Libyan Pb limit of 0.10 mg/kg. The study provides a baseline Pb, Cd, and Cr dataset for imported commercial meat in a North African market context.
+This cross-sectional study measured lead (Pb), cadmium (Cd), chromium (Cr), and copper (Cu) in 30 imported frozen meat samples collected from retail markets in Tripoli, Libya. Samples included chicken (50% of total), beef (27%), and lamb (23%), sourced from Brazil, USA, Jordan, Spain, and Australia. Analysis was by Atomic Absorption Spectrophotometry (AAS) following acid digestion. All samples complied with the tabulated Libyan limits for Cd and Cr and with the study's Cu reference level; one sample (3.3%) exceeded the tabulated Libyan Pb limit of 0.10 mg/kg. The study provides a baseline Pb, Cd, Cr, and Cu dataset for imported commercial meat in a North African market context.
 
 ## Key numbers
 
-All values reported as mg/kg wet weight. Libyan standard limits: Pb 0.10 mg/kg, Cd 0.05 mg/kg, Cr 1.00 mg/kg.
+All values are source-reported as mg/kg; the paper does not state a wet-weight/dry-weight conversion basis, and the Methods section digests a dried sample. Libyan standard limits: Pb 0.10 mg/kg, Cd 0.05 mg/kg, Cr 1.00 mg/kg.
 
 **Lead (Pb):**
 - Mean: 0.0145 mg/kg (14.5 µg/kg / 14.5 ppb)
@@ -66,18 +67,37 @@ All values reported as mg/kg wet weight. Libyan standard limits: Pb 0.10 mg/kg, 
 
 ## Methods (brief)
 
-Cross-sectional study; 30 samples collected Feb–May 2025 from Tripoli retail markets. Samples mechanically homogenized; 1.0 g dried sample digested with concentrated HNO₃ and perchloric acid or H₂O₂; diluted to 50 mL. Flame AAS (unspecified instrument). Total chromium only; Cr(VI) speciation not performed. Standard solutions prepared from 1000 mg/L certified stock solutions (Pb, Cd, Cu, Cr). Statistical analysis: SPSS v26, one-way ANOVA. Sample size (n=30) is small; no LOQ/LOD values reported in the text; the single Pb exceedance sample is an outlier substantially above the distribution mean.
+Cross-sectional study; 30 samples collected Feb–May 2025 from Tripoli retail markets. Samples mechanically homogenized; 1.0 g dried sample digested with concentrated HNO₃ and perchloric acid or H₂O₂; diluted to 50 mL. Metals were measured by AAS; the instrument model and AAS subtype are not specified. Total chromium only; Cr(VI) speciation not performed. The paper states that 1000 mg/L stock solutions for Pb, Cd, Cu, and Cr were prepared by dissolving pure metal in nitric acid and diluting to 1 L. Statistical analysis: SPSS v26, one-way ANOVA. Sample size (n=30) is small; no LOQ/LOD values reported in the text; the single Pb exceedance sample is an outlier substantially above the distribution mean.
 
 ## Implications
 
-**Certification:** The 257 ppb Pb maximum in one chicken sample and the overall chicken-highest Pb mean are consistent with findings in other middle-income market surveys. The Cd range (1.0–2.3 ppb) is well below EU/Codex limits for muscle meat. The Cr data are total Cr only; the authors correctly flag that Cr(VI) determination requires speciation methods — this is the same wiki rule (total Cr ≠ Cr(VI)) documented at [[metals/chromium-hexavalent]]. The Jordan-origin Pb spike (mean 74.5 ppb vs Brazil/USA/Spain/Australia at 2–3 ppb) is flagged but is not statistically significant at p=0.795, likely due to the very small per-country subsample sizes.
+**Certification:** The source contributes occurrence data for imported frozen meat in Tripoli: one Pb maximum at 257 ppb, Cd at 1.0–2.3 ppb, total Cr at 9.0–83.0 ppb, and Cu at 118.7–923.3 ppb. The Cr data are total Cr only; the authors explicitly state that AAS cannot differentiate Cr(III) from Cr(VI). Jordan-origin samples had the highest Pb mean (74.46 ppb vs Brazil/USA/Spain/Australia at about 2–3 ppb), but country of origin was not statistically significant (p=0.795).
 
-**Courses:** Useful case for illustrating the difference between regulatory compliance at the population level and individual outlier risk. The mean Pb is well below limits, but a single sample at 257 ppb (2.57× the Libyan limit) illustrates why lot-level testing matters.
+**Courses:** Useful case for illustrating the difference between a low sample-set mean and an individual outlier. The mean Pb is below the tabulated limit, while the maximum Pb value is 257 ppb (2.57× the tabulated Libyan limit).
 
-**App:** Beef, chicken, and lamb muscle: Pb in the low double-digit ppb range for the great majority of commercial imports; Cd in the 1–2 ppb range. The single outlier at 257 ppb is not representative of the distribution. Total Cr 9–83 ppb range is uninformative for Cr(VI) risk without speciation.
+**App:** Source-side inputs include beef, chicken, and lamb/processed-meat Pb means by meat type, overall Cd in the 1–2 ppb range, Cu below the study's 1.0 mg/kg reference value, and total Cr 9–83 ppb without Cr(VI) speciation.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[ingredients/beef]]
 - [[ingredients/chicken]]
-- [[ingredients/lamb]]
+- [[ingredients/poultry]]
+- [[ingredients/meat]]
+- [[ingredients/meat-and-poultry]]
+- [[products/beef-product]]
+- [[products/poultry-product]]
+- [[products/lamb-mutton]]
+- [[products/processed-meats]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/chromium]]
+- [[metals/copper]]
+- [[metals/chromium-hexavalent]]
+
+## Verification notes
+
+- 2026-05-18 Codex merge-enhance: matched DOI/raw path to P0156, added full MFK raw handle/path and SHA-256 provenance, added Cu to frontmatter because the paper measures Cu, replaced nonexistent `[[ingredients/lamb]]` with existing broader meat/poultry ingredient slugs, and routed the sampled food forms to existing Category 11 product pages.
+- The `matrices:` terms retain source-specific meat-cut wording (`beef-muscle`, `chicken-muscle`, `lamb-muscle`, `processed-meat`) because the common matrix list does not include a broad meat/poultry term, while sibling meat-source pages already use `beef-muscle` and `chicken-muscle` for edible muscle tissue.
+- The paper contains repeated typographical uses of "Pd" where context and tables identify Pb (lead).
+- The Results prose states that one Pb sample exceeded a "0.05 mg/kg" Libyan limit, but Table 1 and Table 2 give the Pb limit as 0.10 mg/kg; this page uses the tabulated 0.10 mg/kg value and flags the source-internal inconsistency.
+- Product slugs `beef-product`, `poultry-product`, `lamb-mutton`, and `processed-meats` exist as Category 11 routing destinations, although the GPT taxonomy snapshot had lagged this category during the initial manual-fetch pass.
