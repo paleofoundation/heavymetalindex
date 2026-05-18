@@ -101,6 +101,7 @@ B-tier mini-review (Frontiers in Chemistry, CC BY 4.0). Coverage is restricted t
 - [[metals/chromium-hexavalent]]
 - [[metals/copper]]
 - [[metals/zinc]]
+- [[metals/iron]]
 - [[ingredients/rice]]
 - [[ingredients/wheat]]
 - [[ingredients/corn]]
@@ -128,3 +129,4 @@ B-tier mini-review (Frontiers in Chemistry, CC BY 4.0). Coverage is restricted t
 - Brand firewall (Part 12): the review names no food brands. No firewall edits required.
 - Part 2 firewall: Implications restates the methods-landscape position without proposing HMTc thresholds or harmonizing with HMTc certification criteria. Edit direction: toward the literature (correcting away from invented detail), not toward HMTc convenience.
 - Speciation discipline (CLAUDE.md Part 14): Hg(II) → tHg; Cr(VI) → Cr-VI; tAs removed because not a detection target in this paper.
+- Audit subagent (2026-05-18) verdict PROMOTE on numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall. One ⚠️ minor consistency finding: `[[metals/iron]]` was missing from the "Wiki pages this source may touch" list despite `Fe` being in frontmatter metals — verified against `wiki/metals/iron.md` and added.
