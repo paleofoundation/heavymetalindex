@@ -16,7 +16,7 @@ manual_fetch_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foo
 metals: [tAs, Cd, Pb]
 ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/baby-cereals-dry]]"]
 products: ["[[products/infant-formula-powder]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/teething-and-snacks-rice-based]]", "[[products/teething-and-snacks-non-rice]]"]
-matrices: [infant-formula-powder, baby-cereal-meals, biscuits, dry-weight, dietary-intake]
+matrices: [infant-formula-powder, cereal-grain, baby-snack, dietary-intake]
 jurisdictions: [SA]
 near_duplicates: []
 sample_n: 111
@@ -32,7 +32,7 @@ Saudi Food and Drug Authority (SFDA) study quantifying total arsenic, cadmium, a
 
 ## Key numbers
 
-**Mean concentrations by food category (middle-bound, µg/kg as-sold; n = 4 replicates per sample, per Figure 1 caption):**
+**Mean concentrations by food category (middle-bound, µg/kg as-sold; Figure 1 reports mean ± SD):**
 
 | Category | n | As mean ± SD | Cd mean ± SD | Pb mean ± SD |
 |---|---:|---|---|---|
@@ -81,7 +81,7 @@ All THQ and HI values are below 1.00; the paper interprets this as "low potentia
 | Stage 1 formula only (0–6 mo) | 2.38 / 1.67 / 1.00 |
 | Baby foods (6–12 mo) | 5.00 / 2.94 / 2.38 |
 
-The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intake from stage 1 formula alone equals the BMDL01 — i.e., the dose at which a 1-point IQ decrement is expected. EFSA considers MoE ≥ 10 indicative of low risk; every MoE in this dataset falls below that threshold.
+The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intake from stage 1 formula alone equals the BMDL01 for developmental neurotoxicity. EFSA considers MoE ≥ 10 indicative of low risk; every MoE in this dataset falls below that threshold.
 
 **Per-food-group contribution to total dietary exposure (7–12 mo group):**
 
@@ -107,7 +107,7 @@ The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intak
 
 **Sample preparation.** 200 g per sample homogenized to fine powder with a Knief Mill GM 200 (Retsch) titanium homogenizer. 0.50 g aliquots weighed into quartz vessels with 5 mL ultrapure 65 % HNO₃ (Romil Pure Chemistry), digested in a Milestone UltraCLAVE pressure-controlled microwave system (60 → 200 °C ramp over 30 min, 120 bar). Digestate diluted to 50 mL with Milli-Q grade 1 water (Millipore), giving a 100× dilution. A 6 mL aliquot was pipetted to disposable ICP-MS vials without filtration.
 
-**Analysis.** Quadrupole ICP-MS with collision-cell technology (Agilent 7700). RF power 1500 W; plasma gas 15.0 L/min; auxiliary gas 1.00 L/min; helium collision gas 4.50 mL/min. Monitored masses: As 75, Cd 111, Pb 208. Both no-gas and helium modes evaluated; results approved in helium mode. Multi-element standard 10.0 mg/L (As, Cd, Pb) and internal standard 100 mg/L from Agilent. Validation to CSN EN 15763 and BS EN 13804:2013 (European Standards 2023a, 2023b).
+**Analysis.** Quadrupole ICP-MS with collision-cell technology (Agilent 7700). RF power 1500 W; plasma gas 15.0 L/min; auxiliary gas 1.00 L/min; helium collision gas 4.50 mL/min. Monitored masses: As 75, Cd 111, Pb 208. Both no-gas and helium modes evaluated; results approved in helium mode. Multi-element standard 10.0 mg/L (As, Cd, Pb) and internal standard 100 mg/mL from Agilent. Validation to CSN EN 15763 and BS EN 13804:2013 (European Standards 2023a, 2023b).
 
 **Method validation (n = 8 replicates per fortification, Table 1):** LOD As 0.70 µg/L, Cd 0.90 µg/L, Pb 6.90 µg/L (in solution); LOQ As 2.40 µg/L, Cd 3.00 µg/L, Pb 23 µg/L. Linear dynamic range 0–100 µg/L with R² = 1.00 for each analyte. Recovery: As 116 %, Cd 106 %, Pb 108 % (within the Eurachem 70–120 % acceptance band). RSD: As 6.42 %, Cd 3.28 %, Pb 3.83 % (within the < 20 % acceptance band). Selectivity assessed via blank samples (no analyte response). QC controls per batch: solvent blank, fresh calibration standards, spiked samples, certified reference material.
 
@@ -163,3 +163,4 @@ The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intak
 - **Routing scope.** Stage 1 and stage 2 formulas are entered under the umbrella `products/infant-formula-powder` slug because the paper does not separate soy from non-soy. Cereal-based meals and biscuits are entered under both rice-based and non-rice slugs because the paper does not separate by grain type (the discussion notes rice is the dominant grain in Saudi infant cereals but does not stratify the dataset by grain).
 - **Body-weight and consumption assumptions.** Body weights (5.45 kg at 0–6 mo; 8.90 kg at 7–12 mo) cite Ministry of Health Saudi Arabia 2021. Label-recommended consumption was used; the paper notes that consumption data specific to Saudi infants under one year is sparse and that label portions may not reflect actual intake — a documented limitation of the EDI estimates.
 - **Enhancement scope (2026-05-18, manual-fetch PDF re-ingest).** Relative to the 2026-05-12 revision of this page: full LB/MB/UB EDI, THQ/HI, and MoE values added from Tables 2–4; analytical method detail expanded from Methods §2.2 (UltraCLAVE program, ICP-MS RF/gas settings, atomic masses, EN method references, recovery/RSD/LOD/LOQ); statistical-test results added; per-food-group exposure contributions added; reference-value context (JECFA, EFSA, IARC) added; legacy `## Wiki pages updated on ingest` heading replaced with `## Wiki pages this source may touch`; speciation note clarified per CLAUDE.md Part 14.
+- **Codex manual-fetch recheck (2026-05-18).** Fresh-context audit returned REVISE for three cleanup items: unsupported `n = 4 replicates per sample` wording, nonstandard matrix terms, and the internal-standard unit. The PDF page image confirms the source prints `100 mg/mL`; this page now preserves that unit, normalizes matrices to broad controlled terms, and softens the BMDL01/Pb wording to what the source states.
