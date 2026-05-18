@@ -43,7 +43,7 @@ Additional in-text figures cited from primary sources:
 - *Lemna valdiviana* can extract up to 82% of As from contaminated water (Souza et al. 2019, cited; page 4).
 - *Bixa orellana* can accumulate 82.8% of Cr(VI) and 40.4% of As(III) starting from 3 and 6 ppm respectively (Kumar et al. 2022b, cited; page 4).
 - *Arundo donax* with *Stenotrophomonas maltophilia* + *Agrobacterium* volatilized ≈75% of an initial 20 mg/L As, with ≈25% retained in sand and 0.15% in plant tissue (Guarino et al. 2020, cited; page 4).
-- Biochar amendment at 5% (w/w) reduced extractable Cd, Cu, Pb, and Zn in polluted soil by 52%, 46%, 29%, and 36% respectively (Chen et al. 2018, cited; page 7); a separate study reported 5% w/w bamboo/rice-straw/biochar amendment reduced extractable Cd, Cu, Pb, Zn by 38–42% via biochar–metal sorption (Lu et al. 2017, cited; page 7).
+- Biochar amendment at 5% (w/w) reduced extractable Cd, Cu, Pb, and Zn in polluted soil by 52%, 46%, 29%, and 36% respectively (Chen et al. 2018, cited; page 7). A separate citation reports 5% (w/w) bamboo, rice-straw, and biochar amendment reduced extractable Cd, Cu, Pb, and Zn in polluted soil (Lu et al. 2017, cited; page 7) — no per-metal reduction percentage is given for that citation. The paper also states that biochar functional-group contact with heavy metals is responsible for 38–42% of total Pb²⁺ adsorbed (page 7; mechanism statement, not a four-metal reduction figure).
 - Rutin application to *Amaranthus hypochondriacus* enhanced Cd phytoextraction by 219–260% (Kang et al. 2022, cited; page 7).
 - *Typha angustifolia* Cd and Zn uptake: 4,941.1–14,109.4 mg per plant (Cd) and 14,039.3–59,360.8 mg per plant (Zn) — Woraharn et al. 2021, cited; page 4.
 
@@ -118,3 +118,6 @@ App: no per-product or per-ingredient occurrence data; this review does not cont
 - Replaced defective `raw_handle: papers-cube` with stable `raw_handle: PCMF_article-1-copy-8`.
 - Added `access_url` (DOI link) and `raw_sha256` provenance fields.
 - Added `water` to matrices to cover the rhizofiltration and aquatic-plant content.
+- Audit subagent (2026-05-18) flagged the Key numbers wording on the Lu et al. 2017 biochar entry as conflating two adjacent paper sentences — verified against page 7: the 38–42% figure refers to the proportion of total Pb²⁺ adsorbed via biochar functional-group contact, NOT to the Lu et al. 2017 four-metal reduction (which has no per-metal percentage in the source). Corrected: Lu et al. 2017 entry now reports the 5% (w/w) amendment without a percentage, and the 38–42% Pb²⁺ figure is given separately as a mechanism statement.
+- Audit subagent (2026-05-18) flagged `plant-tissue` as a possibly non-vocabulary matrix slug — verified against `wiki/sources/`: the slug is in active use in multiple existing source pages, so it is a recognized matrix value not a vocabulary defect. False positive; no change.
+- Audit subagent (2026-05-18) flagged `[[mitigation/agronomic]]` as possibly a missing page — verified `wiki/mitigation/agronomic.md` exists in the repo. False positive; no change.
