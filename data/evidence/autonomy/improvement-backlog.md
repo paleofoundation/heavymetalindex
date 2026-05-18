@@ -544,3 +544,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (synthesis gates on evidence density), Part 11 (priority ordering), Part 1 (epistemic asymmetry requires _completeness_), memory [[feedback_data_driven_not_subjective]]
 
 ---
+
+- [ ] **2026-05-18** — see proposal below
+
+### Mine gap-wishlist queries to surface thin-cell evidence gaps
+
+**What:** Extract search terms from the 600 gap-driven-wishlist queries, map them to thin-cell (ingredient, metal, matrix) combinations, and output a ranked list of queries to feed to Manual Fetch so the autonomy loop knows which papers would unblock the 6 infant-formula scaffolds (0–2 sources each) and 302 blocked cells.
+
+**Why this lever now:** The corpus has 302 pool-blocked cells that cannot yet generate HMT&C standards, and 6 high-priority infant-product scaffolds starving with 0–2 sources. The gap-wishlist (600 user queries) directly encodes what literature is missing. Bridging them means the next autonomous ingest batch can target high-impact evidence gaps rather than sampling from Manual Fetch blindly. Unblocking 20% of pool-blocked cells would enable 60+ new standards to be set.
+
+**Where:**
+- Input: `data/evidence/gap_driven_wishlist_queries.csv` (the 600 queries)
+- Output: `data/evidence/autonomy/thin-cell-evidence-gaps.csv` (queries ranked by cell impact)
+- Script: `tools/autonomy/map-wishlist-to-thin-cells.mjs` (new)
+
+**How:**
+1. Parse each of the 600 wishlist queries for (ingredient, metal, product-category) signals using the existing slug index and regex.
+2. Cross-reference each inferred tuple against `data/evidence/product_source_routing_audit.csv` to find cells with source_count ≤ 2.
+3. Emit a CSV: `query_term | inferred_ingredient | inferred_metal | product_category | current_source_count | query_frequency | suggested_search_strings`.
+4. Hand the ranked output to Manual Fetch curator or query-to-DOI lookup tool to prioritize next batch by evidence impact.
+
+**Anchors:** CLAUDE.md Part 5b (routing as system responsibility), Part 9 (synthesis trigger: "contradiction trigger" and cell population), Part 11 (priority ordering). This is deterministic source-gap discovery, not hand-curation.
+
+---

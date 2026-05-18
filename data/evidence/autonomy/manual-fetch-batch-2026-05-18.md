@@ -314,3 +314,14 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy Metals in Milk and Dairy Products_ Safety and Analysis.pdf`: filename-content-mismatch-camel-milk-drying-out-of-scope
+
+## Tick 2026-05-18T23:38:14.810Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `li2026-heavy-metals-chinese-chicken-eggs-urban-mining` (raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy metal concentrations in Chinese chicken eggs_ insights from comparative study of urban and mining areas.pdf)
+- `guo2024-heavy-metals-duck-eggs-mercury-mine-china` (raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Heavy metal contamination in duck eggs from a mercury mining area, southwestern China.pdf)
