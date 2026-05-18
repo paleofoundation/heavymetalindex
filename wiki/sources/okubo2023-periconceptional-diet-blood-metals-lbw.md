@@ -1,64 +1,100 @@
 ---
 type: source
-raw_handle: papers-cube
+raw_handle: PCMF_periconceptional-maternal-diet-quality-influences-
 cite_key: okubo2023-periconceptional-diet-blood-metals-lbw
-title: "Periconceptional maternal diet quality influences blood heavy metal concentrations and the association between blood lead levels and low birth weight"
+title: "Periconceptional maternal diet quality influences blood heavy metal concentrations and their effect on low birth weight: the Japan Environment and Children's Study"
 authors: [Okubo H, Nakayama SF]
 year: 2023
 publication: "Environment International"
 doi: 10.1016/j.envint.2023.107808
+access_url: "https://doi.org/10.1016/j.envint.2023.107808"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"
-raw_path: "raw/Papers Cube Manual Fetch/Periconceptional maternal diet quality influences blood heavy metal concentrations and the association between blood lead levels and low birth weight.pdf"
-metals: [Pb, Hg, Cd]
+raw_path: "raw/Papers Cube Manual Fetch/Periconceptional maternal diet quality influences blood heavy metal concentrations and their effect on low birth weight: the Japan Environment and Children's Study.pdf"
+raw_sha256: bd8cbc44b42ee4be71a7a2eb86bfa0497c9e80e244824519054166dcc812264f
+metals: [Pb, tHg, Cd]
 ingredients: []
 products: []
 matrices: [blood, maternal-blood]
 jurisdictions: [JP]
 near_duplicates: []
 sample_n: 72317
-sample_population: "Japan Environment and Children's Study (JECS) nationwide prospective birth cohort; mother-child pairs recruited 2011-2014; 15 regional study centers across Japan"
-updated: 2026-05-14
+sample_population: "Japan Environment and Children's Study (JECS) nationwide prospective birth cohort; 72,317 mother-child pairs from singleton live births, derived from 103,057 pregnancies registered January 2011-March 2014 at 15 regional centres across Japan; complete-case dataset after exclusions for multiples, miscarriages/stillbirths, missing data, implausible energy intake (<500 or >4,000 kcal/day), dietary change within 1 year, and missing covariates"
+updated: 2026-05-18
 ---
 
-Okubo and Nakayama (2023) analyzed 72,317 mother-child pairs from the Japan Environment and Children's Study (JECS) to test whether periconceptional diet quality (scored using the Balanced Diet Score, BDS) modifies both blood metal concentrations in early pregnancy and the association between blood lead and low birth weight (LBW). Higher diet quality was associated with modestly lower Pb (β=−0.03 per 10-point BDS increase) and Cd (β=−0.010 per 10-point increase) but higher Hg (β=+0.05 per 10-point increase), the latter reflecting greater fish consumption among women with higher diet quality scores. Critically, in the full cohort, each log2-doubling of blood Pb was associated with LBW (adjusted OR=1.50 per quartile Q4 vs Q1, 95% CI 1.36-1.64), and higher diet quality attenuated this Pb-LBW association (interaction OR=0.991 per log2-Pb doubling, 95% CI 0.983-0.999), suggesting that dietary quality independently modifies fetal vulnerability to lead toxicity.
+Okubo and Nakayama (2023) analysed 72,317 mother-child pairs from the Japan Environment and Children's Study (JECS) to test whether periconceptional diet quality, scored using a modified Balanced Diet Score (BDS) anchored to the Japanese Food Guide Spinning Top, modifies both maternal blood metal concentrations measured in the second/third trimester and the association between blood Pb and low birth weight (LBW, birth weight <2,500 g). Higher periconceptional BDS was associated with modestly lower blood Pb (adjusted β = −0.03 per 10-point BDS increase, 95% CrI −0.04, −0.03) and Cd (adjusted β = −0.010, 95% CrI −0.016, −0.004) but higher Hg (adjusted β = +0.05, 95% CrI 0.05, 0.06), the Hg signal reflecting greater fish and shellfish consumption in higher-quality diets. In Bayesian logistic regression adjusted for maternal age, height, pre-pregnancy BMI, gestational weight gain, parity, education, smoking, alcohol, folate supplementation, physical activity, gestational age, and child sex, each log2-doubling of blood Pb was associated with elevated LBW risk (adjusted OR 1.50, 95% CrI 1.36, 1.64); equivalently, Q4 vs Q1 blood Pb (≥7.33 ng/g vs ≤4.71 ng/g) adjusted OR was 1.44 (95% CrI 1.34, 1.56). Higher BDS attenuated this association (BDS × log2-Pb interaction OR 0.991, 95% CrI 0.983, 0.999; multiple-imputation sensitivity OR 0.993, 95% CrI 0.986, 0.999), with the effect more visible at higher blood Pb concentrations. No effect modification of BDS was found on Cd-LBW or Hg-LBW relationships.
 
 ## Key numbers
 
-| Metal | Overall median (ng/g WB) | Q1 median | Q4 median | BDS β per +10pt | Notes |
+**Blood metal concentration medians (ng/g whole blood) stratified by balanced diet score quartile (Table 2):**
+
+| Metal | BDS Q1 (lowest) | BDS Q2 | BDS Q3 | BDS Q4 (highest) | Adjusted β per +10pt BDS |
 |---|---|---|---|---|---|
-| Pb | 5.85 | 6.05 | 5.71 | −0.03 | Modest BDS association |
-| Hg | 3.63 | — | — | +0.05 | Increases with diet quality (fish consumption) |
-| Cd | 0.659 | — | — | −0.010 | Modest BDS association |
+| Hg | 3.42 | 3.59 | 3.71 | 3.81 | +0.05 (0.05, 0.06) |
+| Pb | 6.05 | 5.87 | 5.79 | 5.71 | −0.03 (−0.04, −0.03) |
+| Cd | 0.673 | 0.659 | 0.659 | 0.662 | −0.010 (−0.016, −0.004) |
 
-**LBW outcomes:**
-- LBW prevalence in cohort: 7.6% (n=5,504 / 72,317)
-- Pb Q4 vs Q1 LBW adjusted OR: 1.50 (95% CI: 1.36-1.64)
-- Diet quality × Pb interaction on LBW: OR=0.991 per log2-Pb doubling (95% CI: 0.983-0.999)
+Effect size on the original (ng/g) scale per +10-point BDS: Hg +1.04, Pb −0.98, Cd −0.99 ng/g.
 
-**Analyte LODs (ICP-MS Agilent 7700):**
+**LBW outcomes (Table 3, n=72,317, overall LBW prevalence 7.6%):**
+
+| Exposure | Q4 range | Q4 vs Q1 adjusted OR (95% CrI) | Per-doubling adjusted OR (95% CrI) |
+|---|---|---|---|
+| Blood Hg (ng/g) | 5.19–43.7 | 1.15 (1.05, 1.26) | 1.07 (1.03, 1.12) |
+| Blood Pb (ng/g) | 7.33–110.0 | 1.44 (1.34, 1.56) | 1.50 (1.36, 1.64) |
+| Blood Cd (ng/g) | 0.905–5.330 | 1.08 (0.98, 1.19) | 1.06 (1.01, 1.12) |
+| Balanced diet score | 53.0–70.0 | 0.87 (0.79, 0.96) | 0.92 (0.88, 0.96) per +10pt |
+
+**Effect modification by diet quality on the blood Pb–LBW association:**
+- BDS × log2-Pb interaction OR: 0.991 (95% CrI 0.983, 0.999)
+- Multiple-imputation sensitivity analysis: OR 0.993 (95% CrI 0.986, 0.999)
+- Predicted LBW probability at high blood Pb (Fig. 2B) is visibly lower in the highest BDS tertile (median 54.9) than the lowest (median 39.7); no clear modification by BDS for Cd or Hg.
+
+**Analyte detection limits (whole-blood ICP-MS, Agilent Technologies, Tokyo, Japan):**
 - Hg: 0.049 ng/g
 - Pb: 0.129 ng/g
 - Cd: 0.0234 ng/g
 
-Detection rates: Pb >99%, Cd ~98%, Hg ~96% of samples above LOD. BDS range: 0-24 points (higher = better diet quality). Quartile 4 (highest BDS) had 23% lower odds of Pb-associated LBW compared to Quartile 1 interaction model. JECS recruitment: 2011-2014, 15 regional centers; blood collected at first prenatal visit (median 8 weeks gestation). Hg speciation not performed; reported as total Hg.
+All measured whole-blood concentrations of Hg, Pb and Cd were above the analyte LOD. BDS range across the cohort: 13.1–70.0 (median 48.0, IQR 42.3–53.0). Hg measured as total Hg (no speciation); reported here as tHg per wiki convention.
 
 ## Methods (brief)
 
-Whole-blood metals measured by ICP-MS (Agilent 7700) at the JECS central laboratory. Pb, Cd, and tHg reported as wet-weight ng/g whole blood. Diet quality assessed by Balanced Diet Score (BDS) from self-administered food frequency questionnaire at first prenatal visit. LBW defined as birth weight <2,500 g. Logistic regression with adjustment for maternal age, BMI, smoking, alcohol, parity, income, education, gestational age, and child sex. Diet-metal interaction tested by multiplicative interaction term. Missing data handled by multiple imputation.
+Whole-blood samples (200 µL) collected from a peripheral vein at a prenatal-care visit during the second/third trimester were diluted 1:5 (v/v) in a buffer of 2% (v/v) 1-butanol, 0.1% tetramethylammonium hydroxide, 0.5 g/L polyoxyethylene (10) octylphenyl ether, and 0.5 g/L ethylenediaminetetraacetic acid, then vortex-mixed and analysed by inductively coupled plasma–mass spectrometry (Agilent Technologies, Tokyo, Japan; instrument model not specified in this paper, methods described previously in Nakayama et al. 2019). Pb, Cd and tHg reported as wet-weight ng/g whole blood.
+
+Habitual diet was assessed via self-administered food-frequency questionnaires (FFQs) at the first trimester (covering the year before enrolment, used here as the periconceptional measure) and again at the second/third trimester. The Balanced Diet Score (BDS), modified from the Japanese Food Guide Spinning Top scoring system per Kuriyama et al. 2016, summed scores across seven components — grain dishes, vegetable dishes, fish-and-meat dishes, milk, fruits, snacks-and-alcoholic-beverages, and sodium from seasonings — each scored 0-10 proportionally, for a total range of 0-70. Upper cut-offs for over-consumption of the five dish categories were dropped for the pregnant-women population. LBW defined as birth weight <2,500 g.
+
+Statistical analysis: Bayesian inference of univariate and multiple linear regression for diet-metal associations; Bayesian logistic regression (R package `brms`) for LBW risk, with blood metals categorised by quartile and modelled continuously as log2-transformed concentrations. Effect modification by BDS tested via interaction term. Adjusted models included maternal age, height, pre-pregnancy BMI, gestational weight gain, parity, education (<13, 13-14, ≥15 years), smoking status, alcohol drinking, routine folate supplementation, physical activity (low/moderate/high), gestational age at birth, and child sex; metal-on-LBW models added BDS as a confounder. Multiple imputation by chained equations (R `miceRanger`, m=10, random-forest, majority-vote method) handled missing covariates (11.0% of mothers had one or more missing values). STROBE-compliant reporting.
 
 ## Implications
 
-**Certification:** This is one of the largest prospective birth cohort studies (n=72,317) demonstrating Pb-LBW dose-response at blood Pb levels in the range 5-6 ng/g, well below the former CDC "level of concern" of 100 ng/g (10 µg/dL). The finding that diet quality attenuates but does not eliminate the Pb-LBW association supports the relevance of minimizing dietary Pb exposure even when maternal overall nutrition is good. For HMT&C, this study anchors the rationale for strict infant and maternal food Pb limits even at low population-mean Pb exposures.
+**Certification:** This is one of the largest prospective birth cohort studies (n=72,317) demonstrating a Pb-LBW dose-response across blood Pb concentrations in the 1.2–110 ng/g range, with significant LBW associations down to the second quartile of blood Pb (4.72–5.85 ng/g; adjusted OR 1.18, 95% CrI 1.07, 1.30 vs Q1 ≤4.71 ng/g). The literature-baseline finding here is that even very low background-level blood Pb in a low-exposure population is associated with measurable LBW risk; the per-doubling adjusted OR of 1.50 means each doubling of maternal blood Pb is associated with roughly 50% greater odds of LBW. The diet-quality interaction does not eliminate this risk, only attenuates it. For HMTc threshold-setting on infant and maternal-relevant matrices, this study anchors the literature view that the Pb-LBW association is detectable below the former CDC blood-Pb level of concern (50 ng/g = 5 µg/dL) and supports stringent dietary-Pb minimisation.
 
-**Courses:** Excellent case study for the interaction between dietary quality and metal toxicity. Illustrates the trade-off in dietary guidance: fish consumption improves diet quality and reduces Pb/Cd but increases Hg. Relevant to prenatal nutrition modules and the concept of dietary co-exposure trade-offs.
+**Courses:** Useful case study for the interaction between dietary quality and metal toxicity. The Hg-fish-consumption pattern illustrates a co-exposure trade-off: higher BDS reflects more fish and shellfish, which raises Hg but lowers Pb and Cd through better mineral status (Ca, Fe, Zn) and lower intestinal Pb/Cd absorption. Relevant to prenatal-nutrition modules and to dietary-counselling content that addresses the fish-Hg trade-off in pregnancy.
 
-**App:** Diet quality → metal exposure interactions are not directly modelable from an ingredient list, but the JECS Pb-LBW association provides supporting context for why minimizing dietary Pb in foods consumed during pregnancy is a priority. Blood Pb values (median 5.85 ng/g) provide a real-world exposure calibration point for Japanese population (low-exposure context).
+**App:** Diet-quality × metal interactions are not directly modelable from packaged-food ingredient lists, but the JECS Pb-LBW dose-response provides a real-world calibration anchor for blood-Pb exposure in a low-exposure Japanese population (BDS-stratified blood-Pb medians 5.71–6.05 ng/g). The reported per-doubling OR is a useful sanity check for any future model that estimates LBW-relevant Pb exposure from food contamination data.
+
+## Verification notes
+
+Merge-enhanced 2026-05-18 from the PCMF PDF (`raw/Papers Cube Manual Fetch/Periconceptional maternal diet quality influences blood heavy metal concentrations and their effect on low birth weight: the Japan Environment and Children's Study.pdf`, SHA-256 `bd8cbc44...264f`). Page was created 2026-05-14 with `raw_handle: papers-cube` placeholder and was in `routing_malformed.csv` (advisory: empty optional routing fields).
+
+Defects corrected:
+- **Title**: prior page used "and the association between blood lead levels and low birth weight"; published Environment International title is "and their effect on low birth weight: the Japan Environment and Children's Study". Corrected.
+- **raw_handle**: `papers-cube` placeholder → `PCMF_periconceptional-maternal-diet-quality-influences-` (PCMF_ convention, 50-char window matching sibling pages).
+- **raw_path**: filename in prior `raw_path` ("…and the association between blood lead levels and low birth weight.pdf") did not exist on filesystem; corrected to actual PDF filename in PCMF folder.
+- **Pb-LBW OR label**: prior page asserted "adjusted OR=1.50 per quartile Q4 vs Q1, 95% CI 1.36-1.64" — this conflated two distinct statistics. Per Table 3, the Q4 vs Q1 adjusted OR for blood Pb is **1.44 (1.34, 1.56)** and the per-log2-doubling adjusted OR is **1.50 (1.36, 1.64)**. Both now reported separately with correct labels.
+- **"23% lower odds of Pb-associated LBW" for BDS Q4 vs Q1**: not supported by Table 3. Q4 BDS adjusted OR for LBW = 0.87 (0.79, 0.96), which is a 13% lower-odds figure, not 23%. Removed.
+- **Methods "Agilent 7700" model**: paper specifies "Agilent Technologies, Tokyo, Japan" without instrument model and refers to Nakayama et al. 2019 for full method detail. Model number removed to avoid fabricated specificity.
+- **Hg → tHg**: paper measures total Hg without speciation (no separate MeHg). Per Part 14 convention, the speciated label `tHg` is used on this page; metals frontmatter updated.
+- **access_url** and **raw_sha256** added for provenance.
+
+Preserved per v2 skill rule: `cite_key`, `doi`, `evidence_tier: A`, `license: CC BY-NC-ND 4.0`, `source_type: peer-reviewed`, `jurisdictions: [JP]`, `sample_n: 72317`, `near_duplicates: []`, `matrices: [blood, maternal-blood]`, `products: []`, `ingredients: []` (paper measures blood biomarkers and dietary patterns, not food contamination; product/ingredient frontmatter correctly empty — advisory-only routing_malformed entry expected).
 
 ## Wiki pages updated on ingest
 
 - [[metals/lead]]
 - [[metals/cadmium]]
+- [[metals/mercury]]
 - [[health/vulnerable-populations]]
 - [[health/reproductive-outcomes]]
