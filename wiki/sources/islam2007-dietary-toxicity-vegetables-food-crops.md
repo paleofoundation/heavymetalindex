@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: papers-cube
+raw_handle: PCMF_islam2007
 cite_key: islam2007-dietary-toxicity-vegetables-food-crops
 title: "Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops"
 authors: [Islam EU, Yang XE, He ZL, Mahmood Q]
@@ -8,66 +8,150 @@ year: 2007
 publication: "Journal of Zhejiang University Science B"
 doi: 10.1631/jzus.2007.B0001
 source_type: review
-evidence_tier: A
+evidence_tier: B
 license: "unknown"
+access_url: "https://doi.org/10.1631/jzus.2007.B0001"
 raw_path: "raw/Papers Cube Manual Fetch/islam2007.pdf"
-metals: [Pb, Cd, Cr, tAs, Al]
+raw_sha256: 77d3edb4d978bb3f02964442a327dd120ecf6262704f2d4f333415bd470fe1f9
+metals: [Cd, Zn, Cu, Pb, Al]
 ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/chinese-cabbage]]", "[[ingredients/celery]]", "[[ingredients/pakchoi]]"]
 products: []
 matrices: [vegetable, leaf, root, soil]
 jurisdictions: [CN, UK, US]
 near_duplicates: []
 sample_n: null
-sample_population: "Review with primary data from Zhejiang University pot/greenhouse experiments on Chinese cabbage, winter greens, pakchoi, and celery; supplemented by literature from China, UK, and US"
-updated: 2026-05-14
+sample_population: "Narrative review compiling pot, greenhouse, and nutrient-solution experiments on Chinese cabbage (Brassica chinensis cv. Zao-Shu 5), winter greens (B. rosularis var. Tsen et Lee cv. Shang-Hai-Qing), pakchoi (B. chinensis), and celery (Apium graveolens var. dulce DC) conducted at Zhejiang University (Long et al. 2003; Ni et al. 2002; Yang et al. 2002; Xiong & Wang 2005; Zhang & Zhou 2005), supplemented by literature comparators from China, the UK, the US, the Netherlands, Romania, and Tanzania"
+updated: 2026-05-18
 ---
 
-Islam et al. (2007) review phytotoxic effects and bioaccumulation of heavy metals (Cd, Zn, Cu, Pb, Cr) in selected Asian vegetables — Chinese cabbage (Brassica chinensis), winter greens (B. rosularis), pakchoi, and celery — and derive soil heavy metal threshold values for potential dietary toxicity. The paper integrates primary pot and greenhouse experiment data from Zhejiang University with a literature review to answer: at what soil concentration does edible plant tissue metal concentration cross the food safety threshold? Soil extractable Cd threshold for safe vegetable production was estimated at 0.489–0.869 mg/kg soil depending on vegetable species. The paper also covers the bioavailability of soil metals (DTPA-extractable Zn, Cu fractionation) and agronomic factors (pH, organic matter, fertilizer) affecting uptake.
+Islam et al. (2007) review phytotoxic effects and bioaccumulation of Cd, Zn, Cu, Pb, and Al in four Asian leafy vegetables — Chinese cabbage (Brassica chinensis cv. Zao-Shu 5), winter greens (B. rosularis), pakchoi (B. chinensis), and celery (Apium graveolens var. dulce DC) — and compile soil heavy metal threshold values for "potential dietary toxicity" (PDT) derived from pot and nutrient-solution work at Zhejiang University. The principal numerical contributions are (i) soil extractable Cd thresholds of 0.869, 0.730, and 0.489 mg/kg for Chinese cabbage, winter greens, and celery, respectively, calculated against the Chinese food-hygiene limit of 0.05 mg/kg FW Cd in vegetables (GB N238-84); (ii) soil Zn and Cu PDT thresholds (total and DTPA-available) for the same four crops, against Chinese food limits of 20 mg/kg Zn and 10 mg/kg Cu; and (iii) accumulation-coefficient (AF = tissue/soil) tables showing celery as the most sensitive Cd accumulator in edible parts. The paper also reviews Al phytotoxicity (Al-based coagulants on Brassica seed germination) and surveys dietary intake estimates from European urban-garden studies (Lăcătuşu et al. 1996, Bahemuka & Mubofu 1999). Lead is discussed qualitatively only: the paper cites a 0.2 mg/kg edible-crop limit (Chinese Department of Preventive Medicine 1994) and notes that soil Pb thresholds for safe vegetable production "are not available". Cr and Hg are mentioned in the abstract as important environmental pollutants but no quantitative data are presented for either.
 
 ## Key numbers
 
-Cd in vegetable shoots and roots (pot experiment, Table 5; soil extractable Cd range 0.15–2.30 mg/kg; mg/kg fresh weight):
-- Chinese cabbage (shoot, increasing Cd): 0.010 → 0.049 → 0.076 → 0.086 → 0.151 mg/kg FW
-- Winter greens (shoot): 0.022 → 0.038 → 0.103 → 0.119 → 0.166 mg/kg FW
-- Celery (leaf): 0.020 → 0.040 → 0.072 → 0.082 → 0.253 mg/kg FW
-- Celery (stem): 0.020 → 0.085 → 0.113 → 0.204 → 0.241 mg/kg FW
-- Celery accumulated highest Cd in edible parts among the three vegetable crops.
+Food-hygiene limits the paper references as the basis for its PDT calculations:
+- Cd in edible vegetable parts: 0.05 mg/kg fresh weight (China, GB N238-84)
+- Pb in edible parts of crops: 0.2 mg/kg (Chinese Department of Preventive Medicine, 1994)
+- Zn for human health: 20 mg/kg (Chinese Department of Preventive Medicine, 1995)
+- Cu in food: 10 mg/kg (Chinese Department of Preventive Medicine, 1995)
 
-Soil Cd thresholds for potential dietary toxicity (limit: 0.05 mg/kg FW per Chinese standard GB N238-84):
-- Chinese cabbage: soil extractable Cd threshold 0.869 mg/kg
-- Winter greens: 0.730 mg/kg
-- Celery: 0.489 mg/kg (most sensitive — lowest threshold)
+### Cd in vegetable tissue (Table 5; soil extractable-Cd ladder 0.15 → 0.89 → 1.38 → 1.84 → 2.30 mg/kg; mg/kg fresh weight)
+- Chinese cabbage root: 0.017 → 0.158 → 0.332 → 0.455 → 1.095
+- Chinese cabbage shoot (edible): 0.010 → 0.049 → 0.076 → 0.086 → 0.151
+- Winter greens root: 0.023 → 0.095 → 0.151 → 0.235 → 0.428
+- Winter greens shoot (edible): 0.022 → 0.038 → 0.103 → 0.119 → 0.166
+- Celery root: 0.096 → 0.265 → 0.385 → 0.439 → 0.653
+- Celery stem (edible): 0.020 → 0.085 → 0.113 → 0.204 → 0.241
+- Celery leaf (edible): 0.020 → 0.040 → 0.072 → 0.082 → 0.253
+- F-ANOVA across the soil-Cd ladder significant at P=0.01 for every tissue column.
+- Celery accumulated the highest Cd in edible parts among the three vegetable crops.
 
-Soil Zn thresholds for potential dietary toxicity (limit: 20 mg/kg per Chinese standard):
-- Total soil Zn: 122–413 mg/kg depending on crop and tissue
-- Available (DTPA) Zn: 74.9–175.6 mg/kg for shoot tissue
+### Soil extractable-Cd PDT thresholds (Table 10; regression-derived, n=5 each; correlations P<0.01)
+- Chinese cabbage: 0.869 mg/kg (Cp = 0.0575 × Cs; r = 0.965)
+- Winter greens: 0.730 mg/kg (Cp = 0.0685 × Cs; r = 0.969)
+- Celery: 0.489 mg/kg (Cp = 0.1022 × Cs; r = 0.983)
+- Celery has the lowest threshold (most sensitive accumulator).
 
-Soil Cu thresholds for potential dietary toxicity (limit: 10 mg/kg):
-- Total soil Cu: 429.93–835.56 mg/kg; available Cu: 269.14–338.98 mg/kg
+### Zn in vegetable tissue (Table 3; nutrient-solution Zn supply 0.03 → 200 mg/L; mg/kg dry weight)
+- Chinese cabbage shoot: 65.9 → 494 → 1024 → 1835 → 2975 (at supply 0.03 → 25 → 50 → 100 → 200 mg/L)
+- Chinese cabbage root: 135.5 → 1167 → 2313 → 3595 → 12807
+- Pakchoi shoot: 61.7 → 925 → 977 → 1883 → 2375
+- Pakchoi root: 127.5 → 1587 → 2623 → 4642 → 7483
+- Celery stem: 72.5 → 870 → 2820 → 4075 → 4514
+- Celery leaf: 125.8 → 1295 → 2070 → 2342 → 2978
+- Celery root: 115.0 → 2308 → 4350 → 7567 → 12823
+- Shoots/edible parts accumulated >3-fold less Zn than roots under nutrient-solution culture.
 
-Pb food safety limit referenced: 0.2 mg/kg for edible parts of crops (Chinese Department of Preventive Medicine, 1994). Soil Pb thresholds for safe vegetable production described as "not available" at time of writing.
+### Zn accumulation coefficient (Table 4; AF = plant Zn / total soil Zn; soil ladder CK → 200 → 400 → 600 → 800 mg/kg added Zn)
+- Chinese cabbage shoot AF: 0.039 → 0.030 → 0.036 → 0.042 → 0.058
+- Pakchoi shoot AF: 0.056 → 0.078 → 0.098 → 0.119 → 0.189 (rises monotonically)
+- Celery stem AF: 0.113 → 0.068 → 0.069 → 0.066 → 0.068
+- Celery leaf AF: 0.195 → 0.138 → 0.114 → 0.135 → 0.130
 
-Al toxicity: Al-based coagulants at tested concentrations inhibited seed germination of Brassica chinensis; root elongation inhibited in acidic conditions; tissue uptake at pH 4.5 confirmed.
+### Soil Zn PDT thresholds (Table 9; against Chinese 20 mg/kg Zn food limit)
+- Total soil Zn (mg/kg): Chinese cabbage 413, pakchoi 224, celery (stem) 272, celery (leaf) 122 → range 122–413
+- DTPA-extractable soil Zn (mg/kg): Chinese cabbage 175.6, pakchoi 74.9, celery (stem) 101.0, celery (leaf) 19.4 → range 19.4–175.6
+- Soil-Zn thresholds for 10% yield reduction (SDMYR) are systematically lower than PDT thresholds for shoot tissue but higher for celery (leaf), indicating that for some species PDT is reached before visible yield loss.
+
+### Cu in vegetable tissue (Table 6; nutrient-solution Cu supply 0.01 → 40 mg/L; mg/kg dry weight)
+- Chinese cabbage shoot: 13.34 → 45.00 → 58.75 → 71.13 → 97.50
+- Chinese cabbage root: 13.00 → 238.30 → 361.30 → 565.60 → 711.30
+- Pakchoi shoot: 9.00 → 17.67 → 32.33 → 128.30 → 179.20
+- Pakchoi root: 18.67 → 235.80 → 475.00 → 528.30 → 705.60
+- Celery stem: 21.50 → 53.00 → 81.50 → 95.00 → 145.00
+- Celery leaf: 31.17 → 65.83 → 101.00 → 123.30 → 166.70
+- Celery root: 27.00 → 566.70 → 1312.00 → 1423.00 → 1557.00 (highest tissue Cu among the three species)
+- ~10–20% of absorbed Cu translocated from root to shoot; remainder retained in roots.
+
+### Soil Cu PDT thresholds (Table 8; against Chinese 10 mg/kg Cu food limit)
+- Total soil Cu (mg/kg): Chinese cabbage 835.56, pakchoi 429.93, celery (stem) 608.22, celery (leaf) 161.07 → range 161.07–835.56
+- DTPA-available soil Cu (mg/kg): Chinese cabbage 338.98, pakchoi 269.14, celery (stem) 312.72, celery (leaf) 57.22 → range 57.22–338.98
+- Soil total/available Cu PDT thresholds for edible parts run ~5-fold higher than thresholds for phytotoxicity (10% yield reduction) — Cu reaches PDT before visible plant injury, particularly for the more sensitive tissues.
+- Among the three species, pakchoi had the lowest total and available Cu thresholds.
+
+### Pb (qualitative only)
+- Edible-crop Pb limit: 0.2 mg/kg (Chinese Department of Preventive Medicine, 1994).
+- Soil Pb thresholds for safe vegetable production: "not available" per the review.
+- Bilateral and curvilinear correlations exist between shoot Pb and soil NH4NO3-extractable Pb (Song 2002, cited).
+
+### Al (qualitative; Zhang & Zhou 2005, cited)
+- Al-based coagulants at tested concentrations inhibited seed germination of Brassica chinensis under acidic and neutral conditions.
+- Curvilinear/linear positive relationships between inhibition rate and Al concentration in acidic and neutral conditions, except polyaluminum-chloride (PAC) under neutral conditions.
+- Root elongation of Brassica chinensis exposed to AlCl₃ depressed in acidic pH conditions.
+
+### European urban-garden context (Lăcătuşu et al. 1996, Romania; cited p. 9)
+- In neutral-to-slightly-alkaline polluted soils, soluble forms of Cd, Cu, Pb, Zn averaged 37%, 17%, 28%, and 14% of their global concentration, respectively.
+- Plant uptake exceeded the maximum allowable level (MAL) for soluble forms by up to 14.8× (Pb), 4.2× (Cd), 2.1× (Zn).
+- For an adult consuming 2 kg potatoes + 2 kg tomatoes + 1 kg carrots per week, intake exceeded Cd MAL by 12% (0.525 mg/wk).
+- Consuming 880 g/wk of mixed vegetables (potatoes/tomatoes/carrots/cucumbers in equal parts) exceeded MAL for Pb by 23.4×, Cd 2.1×, Cu 2.8×, Zn 2.7×.
+- Pb in carrots was 10× the MAL; Cd in analyzed vegetables exceeded MAL by 5×.
+- Reported diseases attributed to chronic exposure: Pb and Cd intoxication, saturnine encephalopathy, radial nerve paralysis, saturnine colic — with children identified as the most affected group.
+- Dietary intake estimates (cited from various 1980s–1990s studies): Pb 54–412 mg/day (Dabeca 1987; Dick 1978), Cd 10–30 mg/day (Reilly 1991), Zn 1–3 mg/day, Cu 10–20 mg/day (Fox 1982).
 
 ## Methods (brief)
 
-Combination of primary data (pot experiments, greenhouse, nutrient solution cultures at Zhejiang University using AAS, ICP-MS) and literature review. Primary data uses Chinese cabbages (B. chinensis cv. Zao-Shu 5), winter greens, pakchoi, and celery grown in Chinese garden soil. Soil extractable Cd measured by DTPA extraction. Soil Zn, Cu fractionation methods per Shuman 1991 and Kuo 1983 frameworks. Food safety standards reference Chinese GB standards (0.05 mg/kg Cd, 0.2 mg/kg Pb, 20 mg/kg Zn). Limitation: 2007 data; Chinese garden soil context; may not represent commercial supply chain soils; Chinese food standards differ from EU and Codex limits.
+This is a narrative review (received 2006-05-02; accepted 2006-07-24). The authors integrate primary experimental data from their own and collaborators' work at Zhejiang University Key Lab of Environment Remediation and Ecosystem Health (Long et al. 2003 *Commun. Soil Sci. Plant Anal.* 34:1421–1434; Ni et al. 2002 *J. Plant Nutr.* 25:957–968; Yang et al. 2002 *J. Environ. Sci. Health* B37:625–635; Xiong & Wang 2005 *Environ. Toxicol.* 20:188–194; Zhang & Zhou 2005 *Environ. Toxicol.* 20:179–187) with literature comparators. Primary experimental designs were pot, greenhouse, and nutrient-solution cultures using Brassica and Apium cultivars in Chinese garden soil. Soil heavy metal fractionation used DTPA extraction (per Lindsay & Norvell, as documented in Shuman 1991 and Kuo 1983 frameworks cited in the references). Tissue analysis methods (AAS or ICP-MS) are referenced through the cited primary studies; the review itself does not redescribe analytical detail. Pot experiments report values as means of 3–4 replications; significant-letter coding by Duncan's multiple range test (P<0.05 / P<0.01).
+
+Limitations relevant to wiki use:
+- This is a narrative literature review (no PRISMA, no formal quality appraisal, no meta-analysis); evidence_tier downgraded to B.
+- Primary data are concentrated in Chinese garden-soil and nutrient-solution contexts; transferability to other soil types, climates, or commercial supply chains is not addressed by the review.
+- Food-hygiene reference values cited are Chinese GB standards (1994/1995). Codex CXS 193 and EU Regulation 1881/2006 maximum levels for the same crops are not compared; readers wanting jurisdiction-specific PDT recalculation must substitute their own regulatory ceiling into the regression equations in Table 10.
+- The Cr and Hg mentions in the abstract are not backed by quantitative data anywhere in the body. No speciation work (iAs vs tAs, MeHg vs tHg, Cr-VI vs Cr-III) is reported. The wiki `metals` field reflects only the metals with quantitative data in the review (Cd, Zn, Cu, Pb, Al).
+- Lăcătuşu et al. 1996 dietary-intake values reported as "mg/day" in the review are likely "µg/day" (typical adult dietary Pb and Cd are in the µg/day range; the review's "mg/day" reads as a units mismatch transmitted from the cited Romanian source). The Key numbers preserve the review's printed units but flag the discrepancy here.
+- Al data are summarized qualitatively from Zhang & Zhou 2005; no soil-Al PDT threshold is calculated.
 
 ## Implications
 
-**Certification:** The soil Cd threshold work (0.489–0.869 mg/kg extractable Cd) provides useful reference values for agricultural soil certification criteria. The finding that celery is the most sensitive accumulator (lowest threshold for dietary toxicity) suggests celery and related crops deserve specific attention in soil-based certification tiers. The literature is dated but foundational for soil-to-crop Cd transfer reasoning.
+**Certification.** The Cd regression equations in Table 10 (Cp = a × Cs, where Cp is tissue Cd mg/kg FW and Cs is soil extractable Cd mg/kg) are the most directly usable contribution for soil-screening criteria on Asian leafy-vegetable supply. The species-specific slopes (Chinese cabbage 0.0575, winter greens 0.0685, celery 0.1022) let a soil-Cd measurement be converted to expected edible-tissue Cd under any chosen food-side limit. Celery's slope is roughly 2× that of Chinese cabbage; a single soil-Cd standard for "leafy vegetables" will under-protect celery and over-protect Chinese cabbage. Soil Zn and Cu PDT thresholds (Tables 8–9) span more than 6× across the four crop-tissue combinations and likewise resist a single-number aggregation. The review's reliance on Chinese GB food limits means HMTc workbench use requires substituting the relevant jurisdictional ceiling (Codex CXS 193, EU 1881/2006, or HMTc's own) into the regressions; the Cd-tissue values themselves are independent of the food-side limit.
 
-**Courses:** Excellent mechanistic background on soil-to-plant metal transfer for Asian leafy vegetables. The dose-response tables for Cd, Zn, and Cu bioaccumulation in vegetables are useful for illustrating the linear relationship between soil contamination and crop contamination.
+**Courses.** The Tables 1–10 sequence is an unusually clean teaching set on soil-to-plant transfer: dose-response in pot cultures (Table 5), dose-response in nutrient solution (Tables 3, 6), species differences (every table), and the derivation of a soil threshold by setting a regression equal to the food-side limit (Table 10 plus surrounding text). Suitable for a worked-example module on how soil standards for vegetable production are calculated.
 
-**App:** The vegetable crop species data (celery, Chinese cabbage, pakchoi) provides Cd bioaccumulation coefficients that can inform ingredient-level risk estimates for Asian leafy vegetables. Primary Chinese garden soil context limits direct applicability to global commercial supply chains.
+**App.** Provides Cd accumulation factors for Chinese cabbage, winter greens, pakchoi, and celery in Chinese garden soil — usable as ingredient-level priors for Asian leafy-vegetable risk estimates where soil-Cd data are available. The 2007 vintage and Chinese-soil-only context limit direct applicability to global commercial supply chains; the app should treat this as one regional/older comparator rather than a global baseline.
 
 ## Wiki pages updated on ingest
 - [[ingredients/leafy-vegetables]]
-- [[ingredients/chinese-cabbage]]
 - [[ingredients/celery]]
-- [[ingredients/pakchoi]]
 - [[metals/cadmium]]
+- [[metals/zinc]]
+- [[metals/copper]]
 - [[metals/lead]]
-- [[metals/aluminium]]
-- [[supply-chain/soil-contamination]]
-- [[mitigation/agronomic-levers]]
+- [[metals/aluminum]]
+
+## Verification notes
+
+Merge-enhanced 2026-05-18 from the prior 2026-05-14 page, which appeared in `routing_malformed.csv` as an advisory (missing optional `products` field; correct to leave empty for a soil-to-vegetable transfer review with no commercial-product framing). Defects corrected against the source PDF (Tables 1–10, pp. 4, 5, 6, 7, 8):
+
+- `raw_handle`: `papers-cube` placeholder → canonical `PCMF_islam2007` (per established PCMF handling).
+- Added `raw_sha256: 77d3edb4d978bb3f02964442a327dd120ecf6262704f2d4f333415bd470fe1f9`.
+- Added `access_url: https://doi.org/10.1631/jzus.2007.B0001` (DOI resolver).
+- `metals`: corrected from `[Pb, Cd, Cr, tAs, Al]` to `[Cd, Zn, Cu, Pb, Al]`. The prior list invented `tAs` (As is not mentioned anywhere in the paper; the abstract names "cadmium, copper, lead, chromium and mercury" as important pollutants — no As) and overweighted `Cr` (mentioned in the abstract as a background pollutant but never quantified; no Cr data appear in any table). Zn and Cu were missing despite being the most extensively measured metals in the review (Tables 1, 3, 4, 6, 7, 8, 9). Pb retained (Chinese food limit cited; qualitative discussion). Al retained (Zhang & Zhou 2005 phytotoxicity work).
+- `evidence_tier`: A → B. This is a narrative literature review without PRISMA, formal quality appraisal, or meta-analysis. Primary experimental data are concentrated in cited primary papers (Long et al. 2003; Ni et al. 2002; Yang et al. 2002; Xiong & Wang 2005; Zhang & Zhou 2005); the review compiles and contextualizes them.
+- `sample_population` rewritten to identify the actual cited primary studies (Long, Ni, Yang, Xiong & Wang, Zhang & Zhou) rather than the previous vague "supplemented by literature from China, UK, and US"; jurisdictions list preserved (the review's literature scope does touch UK and US comparators).
+- Body — Key numbers rebuilt as subsections per analyte (Cd / Zn / Cu / Pb / Al / European context), with full Tables 1–10 coverage. Prior page had only Cd thresholds plus partial Cd shoot-tissue data plus three narrow range numbers; Zn and Cu tables (the bulk of the paper's primary data) were missing entirely.
+- Body — Zn thresholds: prior range "Total soil Zn: 122–413 mg/kg" matches Table 9 in span but did not state per-species values; "Available (DTPA) Zn: 74.9–175.6 mg/kg for shoot tissue" excluded the celery (leaf) row (19.4 mg/kg) which is part of the same PDT-threshold table. Corrected to full range 19.4–175.6 with per-species values.
+- Body — Cu thresholds: prior ranges "Total soil Cu: 429.93–835.56 mg/kg; available Cu: 269.14–338.98 mg/kg" excluded the celery (leaf) row (total 161.07; available 57.22 mg/kg). Corrected to full ranges 161.07–835.56 (total) and 57.22–338.98 (available) with per-species values.
+- Body — Pb section reworked from "Pb food safety limit referenced: 0.2 mg/kg…" to explicit qualitative-only treatment, with the "no soil Pb threshold available" note moved into the Pb subsection and the Song 2002 NH4NO3-Pb correlation finding added.
+- Body — Al section retained but specified that Al data come from Zhang & Zhou 2005 (the original studies the review cites) rather than from primary work in this paper.
+- Body — added European urban-garden context subsection (Lăcătuşu et al. 1996; Bahemuka & Mubofu 1999) which the prior page omitted. Flagged the Lăcătuşu mg/day vs likely µg/day units discrepancy.
+- Body — Implications section softened from concrete "useful reference values for agricultural soil certification criteria" framing to a more accurate description of how the Cd regression equations could feed soil-screening workflows after jurisdictional ceiling substitution; explicit caveat added that any single-number leafy-vegetable Cd threshold will under-protect celery (slope ~2× Chinese cabbage). This keeps the wiki on the literature side of the Part 2 firewall (the equations themselves are not a recommendation that HMTc adopt these thresholds).
+- Wiki pages updated on ingest — removed broken wikilinks to `[[ingredients/chinese-cabbage]]`, `[[ingredients/pakchoi]]`, `[[supply-chain/soil-contamination]]`, and `[[mitigation/agronomic-levers]]` (none of these pages exist in the wiki). Frontmatter `ingredients` array retains the chinese-cabbage and pakchoi slugs since they are valid routing-layer inputs handled by the auto-stub system (pakchoi is freq-2 across the corpus; chinese-cabbage is freq-1 here). The body link list now reflects only pages that actually exist.
+- `## Methods (brief)` expanded to identify each primary study the review cites and to state limitations relevant to wiki use (narrative-review status, Chinese-soil-only context, GB-only food-side limits, no Cr/Hg quantification, no speciation work, Al-only-qualitative).
