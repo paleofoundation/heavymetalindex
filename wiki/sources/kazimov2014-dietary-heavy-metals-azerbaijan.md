@@ -148,6 +148,7 @@ Paper-internal discrepancies flagged (data faithfully reported, judgment deferre
 - Table 1 vs discussion text on the butter/sunflower-oil attribution (see above).
 - Discussion narrative says "only Cr, Ni, Zn in blood exceeded physiological norm"; Table 4 prints all three within their reference ranges (Cr 0.42 inside 0.1–0.5; Ni 0.28 inside 0.1–1.0; Zn 0.98 inside 0.7–1.10). Reported as the authors stated; the wiki notes the numerical position in the range.
 - Discussion narrative says "hair concentrations of all metals exceeded reference by 2–5×"; Table 4 prints most hair means inside their cited reference ranges. Reported as printed.
+- Discussion narrative on page 707 states the Ni hazard-quotient range across foods is "1.4–11.43"; Table 1 prints Ni for butter as 19 (and Ni for sunflower oil as 11.43). The 11.43 value the narrative quotes is the sunflower-oil cell, not the table maximum. The page reports the Table 1 numbers as printed and flags the discrepancy here (audit subagent 2026-05-18 finding; verified against PDF p. 707).
 - "XRF-18000" instrument label inside the methods paragraph despite an AAS analytical approach in the abstract and methods narrative. Reported as printed.
 
 Preserved fields per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_path`, `near_duplicates`, `evidence_tier: B`, `license: unknown`, `source_type: peer-reviewed`, `jurisdictions: [AZ]`, `sample_n: 57`, `products: ["[[products/fresh-fish]]"]`.
