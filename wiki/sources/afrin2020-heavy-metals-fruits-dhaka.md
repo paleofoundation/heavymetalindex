@@ -20,16 +20,16 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: 75
 sample_population: "Grape, apple, orange, banana, and pomegranate purchased from 5 retail shops/markets in Dhaka city, Bangladesh, 2018–2019; 25 treatment-shop combinations with 3 replications each"
-updated: 2026-05-14
+updated: 2026-05-19
 ---
 
 # Afrin 2020 — Heavy metals in retail fruits from Dhaka city, Bangladesh
 
-Five fruit types (grape, apple, orange, banana, pomegranate) were collected from five retail outlets in Dhaka and analyzed for Pb, Cd, Cr, Ni, and Co by AAS. All measured concentrations were below FAO/WHO maximum allowable concentrations: Pb <1.50 mg/kg, Cd <0.20 mg/kg, Cr <2.30 mg/kg, Ni <0.80 mg/kg, Co <50 mg/kg. Pb varied most strongly by outlet/fruit combination, with banana samples from two markets approaching but not exceeding the FAO/WHO Pb limit. Risk indices (single-factor pollution index, sum of pollution index, metal pollution index) all indicated the fruits posed no contamination risk under FAO/WHO reference values at the time of sampling.
+Five fruit types (grape, apple, orange, banana, pomegranate) were collected from five retail outlets in Dhaka and analyzed for Pb, Cd, Cr, Ni, and Co by AAS. All measured concentrations were below FAO/WHO maximum allowable concentrations: Pb <1.50 mg/kg, Cd <0.20 mg/kg, Cr <2.30 mg/kg, Ni <0.80 mg/kg, Co <50 mg/kg. Pb varied most strongly by outlet/fruit combination, with banana samples from two markets approaching but not exceeding the FAO/WHO Pb limit (1.31 and 1.24 mg/kg vs. a 1.50 mg/kg ceiling). Risk indices (single-factor pollution index, sum of pollution index, metal pollution index) all indicated the fruits posed no contamination risk under FAO/WHO reference values at the time of sampling.
 
 ## Key numbers
 
-Concentrations in mg/kg (all sites combined, typical ranges observed):
+Concentrations in mg/kg fresh weight (all 25 fruit × site treatments combined, observed ranges):
 
 | Metal | Range across all fruits/sites | FAO/WHO MAC |
 |-------|-------------------------------|------------|
@@ -39,13 +39,13 @@ Concentrations in mg/kg (all sites combined, typical ranges observed):
 | Ni | 0.001–0.016 mg/kg | 0.80 mg/kg |
 | Co | 0.001–0.004 mg/kg | 50.00 mg/kg |
 
-Highest Pb at Kawran Bazar (banana, 1.31 mg/kg); highest single-factor pollution index was 0.9001 (banana, Kawran Bazar). All pollution index values less than 1.0 indicate no contamination by FAO/WHO reference.
+Highest measured Pb concentrations were both in banana: 1.31 mg/kg at Kawran Bazar fruit market and 1.24 mg/kg at Meena Bazar (Shyamoli). Highest single-factor pollution index (PI = C_fruit / C_FAO-WHO) was Pb in T19 banana at Kawran Bazar (PI ≈ 0.87 = 1.31 / 1.50). Highest sum-of-pollution-index (SPI, summed across all five metals) was 0.9001 in the same banana sample, followed by 0.8726 in T24 banana at Meena Bazar. Lowest SPI was 0.028 in T8 orange at Agora super market (Dhanmondi). All PI and SPI values remained below 1.0, which the thesis interprets as no contamination under FAO/WHO reference values.
 
 Note: Cr is measured as total chromium; speciation into Cr-VI vs. Cr-III was not performed.
 
 ## Methods (brief)
 
-AAS (method not fully specified beyond "atomic absorption spectroscopy"). Samples sun-dried, oven-dried, and ground before acid digestion. Quality assurance included CRD design with 3 replications. Study conducted at Sher-e-Bangla Agricultural University laboratory, 2018–2019 season. This is an M.S. thesis (evidence tier B: not journal peer-reviewed).
+Atomic absorption spectrophotometer (Chemito Technologies AA-203, slit width 0.5 nm; hollow-cathode lamps selected per element); HNO₃/H₂O₂ wet digestion of dried, ground fruit at 95–125°C; method validation by spike recovery at 1.0, 1.5, and 2.0 ppm; results reported on a dry-weight basis. Samples were sun-dried (7 days) then oven-dried (45°C/24 h then 30°C/24 h) and manually powdered prior to digestion. Standards (Pb, Cd, Cr, Ni, Co) sourced from Merck (Darmstadt). Experiment laid out in Completely Randomized Design with 3 replications; ANOVA via MSTAT-C with Duncan's Multiple Range Test for mean separation. Sample prep at Sher-e-Bangla Agricultural University; final AAS readings at BARI Soil Science Division, Gazipur. This is an M.S. thesis under Dr. Md. Sirajul Islam Khan (evidence tier B: not journal peer-reviewed).
 
 ## Implications
 
@@ -70,3 +70,4 @@ AAS (method not fully specified beyond "atomic absorption spectroscopy"). Sample
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, added measured Co, corrected fruit ingredient slugs, and fixed Key-number ranges/highest Pb/SPI against the thesis abstract and Chapter 4 result tables.
+- 2026-05-19 merge-enhance pass against full PDF (pages 33–59): disambiguated single-factor PI (≈0.87 for Pb T19 banana) from SPI (0.9001 for T19; 0.8726 for T24 banana at Meena Bazar), added the 0.028 minimum SPI (T8 orange at Agora), expanded Methods with the specific AAS instrument (Chemito AA-203), digestion protocol (HNO₃/H₂O₂, 95–125°C), drying schedule, ANOVA/DMRT statistical workflow, and the BARI/SAU lab split. Brand-firewall (Part 12) re-checked: the named "shops" (Shwapno, Agora, Prince Bazar, Kawran Bazar, Meena Bazar) are retail sampling locations in Dhaka, not brand owners of the loose-commodity fruit, so site naming remains in scope for synthesis routing.
