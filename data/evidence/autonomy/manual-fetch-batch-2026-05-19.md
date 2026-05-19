@@ -47,3 +47,14 @@
 ### Succeeded
 - `islam2024-heavy-metals-bangladeshi-fruits-review` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks.pdf)
 - `paudel2024-packaged-fruit-juices-nepal` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Analysis and Detection of Heavy Metals Content in Some Selected Packaged Fruit Juices of Kathmandu City by Flame Atomic Absorption Spectroscopy.pdf)
+
+## Tick 2026-05-19T16:55:03.456Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `rahim2020-toxic-heavy-metals-fruits-pakistan` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Analysis of Toxic Heavy Metal Content of the Most Widely Used Fruits in Khyber Pakhtunkhwa, Pakistan.pdf)
+- `fda2023-ias-apple-juice-guidance` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Arsenic in Pear Juice Analytical Results from 2005-2011.pdf)

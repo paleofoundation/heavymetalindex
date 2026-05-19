@@ -664,3 +664,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 4 (deterministic extraction belongs first in evidence register), Part 5b (sources must leave structured traces or explicit gap records), Part 9 (synthesis reads values from evidence layer). This audit surfaces the exact blocking condition and feeds either re-extraction or schema-gap resolution.
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Rank gap-driven wishlist by thin-cell-recovery potential
+
+**What:** Create a tool that maps the 600 gap-driven wishlist queries to the 45 pool-too-thin cells (sources-per-cell < 2), then ranks wishlist queries by "how many thin cells would this query push over the synthesis threshold."
+
+**Why this lever now:** 45 cells are blocked from synthesis by insufficient source count. The gap-driven wishlist has 600 candidate queries waiting to be executed. Right now there's no signal showing which queries would most efficiently unblock the thin cells. This creates a choose-your-own-adventure problem for the next ingest daemon tick. Ranking the wishlist by recovery impact would let the daemon execute the 10–20 highest-impact queries and systematically push thin cells toward synthesis-readiness.
+
+**Where:** 
+- Create `tools/autonomy/rank-wishlist-by-cell-impact.mjs`
+- Read `data/evidence/autonomy/gap-driven-wishlist-2026-05-19.md` (infer target ingredient/metal from query text via keyword extraction)
+- Read routing audit + ingredient page contamination_profile states to identify which cells have < 2 sources
+- Output `data/evidence/autonomy/wishlist-execution-priority-2026-05-19.csv` with columns: query_text, target_ingredient, target_metal, thin_cells_unblocked_if_executed, rank
+
+**How:**
+1. Parse each wishlist query for ingredient and metal keywords (e.g., "arsenic rice infant" → ingredient:rice, metal:iAs)
+2. Count how many pool-too-thin cells each query would feed (add 1+ sources to)
+3. Rank by cell-recovery count descending
+4. Emit the ranked list as CSV + log to autonomy report
+
+**Anchors:** Part 9 (synthesis triggered at 2+ sources), Part 11 (priority ordering), and the autonomy architecture (deterministic extraction + audit → ranked queue)
+
+---

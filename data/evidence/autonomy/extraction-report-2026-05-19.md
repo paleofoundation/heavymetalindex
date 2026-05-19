@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-19
 
-Generated: 2026-05-19T15:55:46.245Z
+Generated: 2026-05-19T16:51:44.380Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 985
-- Pages with `## Key numbers` section: 878
+- Source pages processed: 993
+- Pages with `## Key numbers` section: 886
 - Pages without Key numbers section (skipped): 106
-- Structured rows extracted: 5423
+- Structured rows extracted: 5454
 - Pages with Key numbers but no parseable values: 72
 
 ## Output
@@ -19,31 +19,31 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1080 rows
-- Cd: 1025 rows
-- Cr-total: 527 rows
-- Ni: 492 rows
-- tAs: 406 rows
-- Al: 343 rows
-- tHg: 328 rows
+- Pb: 1085 rows
+- Cd: 1028 rows
+- Cr-total: 528 rows
+- Ni: 494 rows
+- tAs: 410 rows
+- Al: 346 rows
+- tHg: 331 rows
 - iAs: 172 rows
 - Cu: 161 rows
 - Co: 133 rows
+- Fe: 97 rows
 - MeHg: 93 rows
-- Fe: 92 rows
 - Sn: 87 rows
-- Mn: 79 rows
-- Se: 72 rows
+- Mn: 80 rows
+- Se: 73 rows
 - U: 61 rows
-- V: 51 rows
+- V: 52 rows
 - Sb: 40 rows
-- Ba: 33 rows
+- Ba: 34 rows
 - Cr-VI: 23 rows
 - Mo: 22 rows
 - Be: 15 rows
 - Tl: 14 rows
+- Mg: 11 rows
 - Ca: 10 rows
-- Mg: 10 rows
 - K: 9 rows
 - Ti: 8 rows
 - DMA: 7 rows
@@ -61,7 +61,7 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2053 rows
+- (empty): 2077 rows
 - fresh-fish: 289 rows
 - baby-cereals-dry-rice-based: 180 rows
 - seafood: 171 rows
@@ -69,7 +69,7 @@ Elapsed: 0s
 - fresh-fruit: 135 rows
 - canned-fish: 128 rows
 - infant-formula-powder: 94 rows
-- fruit-juice-not-canned: 84 rows
+- fruit-juice-not-canned: 88 rows
 - face-paint: 81 rows
 - non-root-vegetables: 70 rows
 - infant-formula-powder-non-soy: 66 rows

@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [mixed-meals-non-rice, mixed-meals-rice-containing]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 31
+sources: 32
 ---
 
 # Meat and poultry

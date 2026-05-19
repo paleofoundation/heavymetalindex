@@ -21,7 +21,7 @@
 
 Threshold: a (query × cell) attempted >=5 times with <2 successful downloads is dropped from this run.
 
-Audit-log scale: 148 (query × cell) histories tracked.
+Audit-log scale: 0 (query × cell) histories tracked.
 
 ## Top 20 priority queries this run
 

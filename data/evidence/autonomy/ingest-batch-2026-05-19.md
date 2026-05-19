@@ -41,3 +41,15 @@
 ### Succeeded
 - P1 `comparative2022-comparative-biomonitoring-arsenic-exposure` (FM_9739351)
 - P1 `unknown2021-current-research-toxicology` (FM_11621596)
+
+## Batch 2026-05-19T16:55:03.346Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `toxicology2020-chronic-renal-failure-sri` (FM_7127468)
+
+### Failed
+- P1 `original2020-original-a` (FM_10494610): stdout did not contain '---' frontmatter

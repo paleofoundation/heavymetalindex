@@ -17,7 +17,7 @@ review_state: phase3
 hmtc_threshold_status: at_bar_iAs_dirty_p30
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-09
-sources: 17
+sources: 18
 ---
 
 # Fruit Juices, Apple-Containing
