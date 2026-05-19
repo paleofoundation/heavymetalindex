@@ -567,3 +567,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 5b (routing as system responsibility), Part 9 (synthesis trigger: "contradiction trigger" and cell population), Part 11 (priority ordering). This is deterministic source-gap discovery, not hand-curation.
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Unblock 302 pool-cells by extraction audit
+
+**What:** Create `tools/autonomy/audit-blocked-pool-sources.mjs` to identify sources routed to pool-blocked or pool-too-thin (ingredient, metal) cells that either have missing quantitative extractions or contradictory values within the same source.
+
+**Why this lever now:** The snapshot shows 302 pool-blocked and 45 pool-too-thin cells, yet only 557/970 sources (57%) have structured values extracted. Many sources are routed to cells that cannot pool because their quantitative data was never parsed or flagged as contradictory. This is a pure execution bottleneck — the evidence is already ingested; it just needs targeted re-extraction and contradiction-flagging.
+
+**Where:** 
+- New script: `tools/autonomy/audit-blocked-pool-sources.mjs`
+- Output: `data/evidence/autonomy/blocked-pool-extraction-audit-2026-05-19.csv` (columns: ingredient slug, metal, routed_sources, extraction_status per source, contradiction_flags)
+- Governance note in `data/evidence/autonomy/` summarizing which cells are blocked due to missing-data vs. incomparable-values vs. extraction-failure
+
+**How:**
+1. Read the routing audit and identify all (ingredient, metal) cells with status `in_progress` or `populated` that have blocking flags
+2. For each routed source, check whether it has an entry in `data/evidence/structured-values/` for that (ingredient, metal) pair
+3. For sources with existing entries, check for internal contradictions (e.g., same study reports both 2.3 ppb and 8.1 ppb for the same analyte/matrix)
+4. Emit the gap report ranked by frequency (cells with most routed-but-unextracted sources first)
+
+**Anchors:** Part 9 (Synthesis requires quantitative pooling), Part 18 (Lint should flag provenance gaps), Part 19 (HMT&C standards derive from percentile pools).
+
+---
