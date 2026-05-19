@@ -98,7 +98,7 @@ Standards work: The study is useful for nickel monitoring in non-rice cereal ing
 
 Courses: The study is a clean teaching example of how processing fraction matters. Bran, flakes, and whole-grain products carried higher Ni than refined wheat flour and regular pasta.
 
-App: Category means and P95 values can support Polish/EU context screens for Ni in cereal-grain products. They should be used as occurrence context, not as HMT&C thresholds.
+App: Category means and P95 values can support Polish/EU context screens for Ni in cereal-grain products. They should be used as occurrence context, not as certification limits.
 
 ## Wiki pages updated on ingest
 

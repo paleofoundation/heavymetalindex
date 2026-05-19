@@ -105,5 +105,5 @@ App: The 2018 dataset provides a recent FDA surveillance context for US-market i
 - Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
 - Fresh-context audit (Codex, 2026-05-18) caught a stale source-page link in the taxonomy-style page-touch list; removed it because source-page cross-references are not part of the ingredient/product/metal/regulation vocabulary.
 - Replaced the older invalid regulation link `fda-ctz-iAs-cereal-100ppb` with the live regulation page `fda-iAs-rice-cereal-100ppb`.
-- Replaced older HMTc threshold-setting language with source-only implications for standards work, courses, and app context.
+- Replaced older certification-limit language with source-only implications for standards work, courses, and app context.
 - Strict brand-firewall check: the source references 12 Consumer Reports samples as part of the 2011-2013 dataset, but this page does not report any brand-specific values or rankings.

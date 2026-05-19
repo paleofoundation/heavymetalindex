@@ -96,7 +96,7 @@ Standards work: This source contributes Polish/EU finished-bread Cd and Pb occur
 
 Courses: The study is a strong teaching case for age-stratified exposure math. A concentration that produces HQ below 1 in adults can exceed or approach risk-screen values in small children when the same serving assumption is applied across body weights.
 
-App: The bread-type Cd means can support occurrence-context displays for Polish/EU bread products. They are not HMT&C thresholds, and the risk-model outputs depend heavily on the 100 g/day assumption.
+App: The bread-type Cd means can support occurrence-context displays for Polish/EU bread products. They are not certification limits, and the risk-model outputs depend heavily on the 100 g/day assumption.
 
 ## Wiki pages updated on ingest
 
