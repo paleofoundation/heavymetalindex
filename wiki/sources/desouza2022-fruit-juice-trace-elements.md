@@ -35,9 +35,9 @@ This study measured essential and toxic trace elements in 21 fruit juice and nec
 | --- | --- | --- |
 | As | Not detected in all 21 samples; sample LOD 2.1 µg/L | all <2.1 µg/L |
 | Sb | Not detected in all 21 samples; sample LOD 1.6 µg/L | all <1.6 µg/L |
-| Pb | Detected only in Apple 1 | 62 ± 7 µg/L; text reports 61.7 ± 7.2 µg/L and states this exceeds 0.03-0.05 mg/kg regulatory limits |
+| Pb | Detected only in Apple 1 | 61.7 ± 7.2 µg/L per results text (Table V rounds to 62 ± 7); the authors state this value exceeds the 0.03-0.05 mg/kg regulatory limits cited from Codex, EU Reg 2021/1317, and ANVISA IN 88/2021 |
 | Cd | Quantified only in Apple 1 and Pineapple 1 | Apple 1: 2.6 ± 0.1 µg/L; Pineapple 1: 2.8 ± 0.1 µg/L |
-| Co | Detected in 13 of 21 samples | 1.2-37.8 µg/L; maximum in passion-fruit nectar |
+| Co | Detected in 13 of 21 samples | 1.2-37.8 µg/L per results text; maximum in passion-fruit nectar (Table V reports 38 ± 2 for the passion-fruit-nectar maximum; the small text/table discrepancy is preserved as a source-internal note) |
 | Cr | Detected in all samples except laboratory-squeezed Orange 4 and Orange 5 | 3.1-18.9 µg/L |
 | Cu | Detected in 19 samples | 99.2-501.4 µg/L; maximum in Pineapple 2 |
 | Mo | Quantified in 20 samples | 0.8-5.9 µg/L; maximum in Pineapple 2 |
@@ -61,7 +61,7 @@ The authors conclude that toxic elements did not pose a general health risk in t
 
 Commercial juice bottles were manually shaken immediately before subsampling. Each 2.5 mL aliquot was digested with 3.0 mL 69% nitric acid, 1.0 mL 33% hydrogen peroxide, and 2.0 mL ultrapure water in 100 mL closed Teflon microwave vessels. The microwave program ramped to 90°C, then 140°C, then 180°C and held at 180°C for 15 minutes. Digests were diluted to 25 mL and analyzed by ICP OES for Ca, Mg, and Zn and by ICP-MS for Al, As, Cd, Co, Cr, Cu, Fe, Mn, Mo, Na, Ni, Pb, Sb, and V.
 
-Major-element analysis used a Perkin Elmer Optima 3300 DV ICP OES. Trace-element analysis used a Perkin Elmer NexIon 300X ICP-MS with kinetic energy discrimination and Rh/Y internal standards. The method validation covered linearity, precision, recovery, and limits of detection/quantification; analytical recoveries ranged from 89% to 103% for the main method-validation table.
+Major-element analysis used a Perkin Elmer Optima 3300 DV ICP OES. Trace-element analysis used a Perkin Elmer NexIon 300X ICP-MS with kinetic energy discrimination and Rh/Y internal standards. The method validation covered linearity, precision, recovery, and limits of detection/quantification; analytical recoveries ranged from 89% to 108% for the main method-validation table (Mg recovery 108 ± 5).
 
 ## Implications
 
@@ -106,3 +106,4 @@ Microbiome: Not addressed.
 - The paper reports total As, total Cr, and total Sb only; no arsenic, chromium, or antimony speciation was performed.
 - Strict brand firewall: the paper refers to fruit types and sample labels only; no commercial juice brands are named in this source page.
 - Methods vendor/equipment/reagent names are retained under Part 12 Exception 2.
+- Fresh-context audit (Claude subagent, 2026-05-19): REVISE → applied. Three findings corrected: (1) Pb row leads with the precise 61.7 ± 7.2 µg/L text value with Table V rounding noted, plus explicit citation of the EU 2021/1317 and ANVISA IN 88/2021 comparators the paper invokes; (2) Co row notes the text-vs-Table-V discrepancy (37.8 vs 38 ± 2); (3) recovery range corrected from 89-103% to 89-108% to capture the Mg 108 ± 5 maximum. Slug vocabulary clean, speciation discipline correct (tAs/Cr-total/Sb explicitly labeled), brand firewall clean (sample labels anonymized as in source), HMTc firewall clean.

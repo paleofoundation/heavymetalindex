@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-al_2018_10-5539-ijc-v10n4p68.pdf"
 raw_sha256: 44e015b922fac71dd38c89341100c350a1991bdd2f7b5d01d6cf7d73006aed56
 access_url: "https://doi.org/10.5539/ijc.v10n4p68"
-metals: [Al, tAs, Ba, Be, Cd, Hg, Pb, Sn, Sr, Th, Tl, U]
+metals: [Al, tAs, Ba, Be, Cd, Hg, Pb, Sn, Tl, U]
 ingredients: ["[[ingredients/fruit-juice]]", "[[ingredients/watermelon]]"]
 products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-non-apple]]"]
 matrices: [bottled-pineapple-juice, pineapple-watermelon-cocktail, pineapple-syrup]
@@ -100,7 +100,6 @@ Microbiome: Not addressed.
 - [[metals/mercury-total]]
 - [[metals/lead]]
 - [[metals/tin]]
-- [[metals/strontium]]
 - [[metals/thallium]]
 - [[metals/uranium]]
 - [[ingredients/fruit-juice]]
@@ -115,3 +114,4 @@ Microbiome: Not addressed.
 - The paper reports total As and total Hg only; no arsenic or mercury speciation was performed.
 - Strict brand firewall: processing units are anonymized by code in the paper and no commercial juice brands are named in this source page.
 - Methods vendor/equipment/software names are retained under Part 12 Exception 2.
+- Fresh-context audit (Claude subagent, 2026-05-19): PROMOTE. All five checks clean: numerical fidelity verified against Tables 8/9/10/11 (percentiles, means, JUA6/OJA3/VIP3/FRU4/FRU5/FRE2/FRE4 high-end values all match); slug vocabulary valid (auditor flagged `products/fruit-juices-non-apple` as missing but the page exists on disk — auditor was working from stale taxonomy snapshot, no edit needed); speciation correct (tAs/tHg, no speciation performed); brand firewall clean (3-letter anonymized processor codes preserved as in source); HMTc firewall clean (no percentile arithmetic). 0 findings applied.
