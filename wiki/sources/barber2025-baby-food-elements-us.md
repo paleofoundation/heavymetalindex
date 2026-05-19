@@ -127,7 +127,7 @@ Arsenic speciation was targeted rather than universal. Rice-containing dry foods
 
 ## Implications
 
-**Certification (HMTc):** This is high-value A-tier occurrence evidence for U.S. infant and young-child foods because it uses FDA methods, low detection limits, and a large 2023 sample frame that complements FDA's 2021 puree survey and FY2023 lead-guidance analytical table. It contributes category-level occurrence signals for rice-containing dry foods/snacks, puree/mixtures, root-vegetable purees, fish-containing baby foods, and baby/young-child liquids without supporting brand-level comparison or any standalone HMTc threshold value.
+**Certification (HMTc):** This is high-value A-tier occurrence evidence for U.S. infant and young-child foods because it uses FDA methods, low detection limits, and a large 2023 sample frame that complements FDA's 2021 puree survey and FY2023 lead-guidance analytical table. It contributes category-level occurrence signals for rice-containing dry foods/snacks, puree/mixtures, root-vegetable purees, fish-containing baby foods, and baby/young-child liquids without supporting brand-level comparison or any standalone certification-limit value.
 
 **Courses:** Strong teaching case for how FDA pairs occurrence surveillance with ingredient-predictor screening, including the limits of weak-to-modest R2 models and the need to distinguish total As from inorganic As, total Hg from methylmercury, and ingredient association from causation.
 
