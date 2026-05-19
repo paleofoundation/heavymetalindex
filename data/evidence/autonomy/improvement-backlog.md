@@ -615,3 +615,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 8 (query-driven ingest workflow), Part 11 (infant foods are P1 priority), Part 10 (scaffolds needing sources). Memory: order-of-operations Phase 3 (bootstrap thin categories). Closes the gap between provisional scaffolds and locked rows.
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Prioritize query-workflow ingest for high-demand thin cells
+
+**What:** create `tools/autonomy/rank-thin-cells-by-demand.mjs` to intersect gap-driven-wishlist.csv with the 45 pool_too_thin cells, rank by query volume, and emit a prioritized search brief for the query-ingest workflow.
+
+**Why this lever now:** 600 gap-driven queries are unmet demand; pool_too_thin = 45 cells are stuck at 1–2 sources (below synthesis confidence threshold); the top 10 cells likely concentrate 60%+ of demand. The query workflow (CLAUDE.md Part 8) is designed to source papers for specific gaps—it just needs demand-driven prioritization instead of ad-hoc ordering.
+
+**Where:**
+- `tools/autonomy/rank-thin-cells-by-demand.mjs` (new) — reads gap-driven-wishlist.csv and synthesis audit; ranks thin cells by query volume
+- `data/evidence/gap-driven-wishlist.csv` (read-only) — source of market-demand signal
+- `data/evidence/query-workflow-priority.csv` (new output) — top 10 thin cells ranked by query count, with search brief (analytes, matrices, date range, target n_sources=3+) for each
+
+**How:**
+1. Parse gap-driven-wishlist.csv; aggregate query count by (ingredient, metal) pair.
+2. Load pool_too_thin cell list from the synthesis-readiness audit.
+3. Inner-join; compute total query volume per thin cell.
+4. Sort by volume descending; select top 10.
+5. Emit to query-workflow-priority.csv with search parameters for each cell.
+
+**Anchors:** CLAUDE.md Part 8 (query workflow), Part 9 (synthesis thresholds: 2+ sources to initialize, 3+ for confidence), Part 11 (priority ordering), autonomy-prioritization layer.
+
+---

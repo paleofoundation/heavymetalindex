@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1192 candidate queries
+- Path A (pooling-engine-driven thin cells): 1208 candidate queries
 - Path B (empty product + thin ingredient pages): 8174 candidate queries
-- Total candidates (after dedup): 9366
+- Total candidates (after dedup): 9382
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9366
+- Eligible after filtering: 9382
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | floor-cleaners-hard-surface × Pb | floor cleaners hard surface Pb |
-| P1 | automatic-puff-releasers × Cd | automatic puff releasers heavy metals Cd |
-| P1 | cookware-ceramic-coated × Cd | cookware ceramic coated cadmium |
-| P1 | infant-formula-dairy-free × MeHg | infant formula dairy free heavy metals methylmercury |
-| P1 | makeup-body-paints-bases-fixatives × Cd | makeup — body/leg paints, bases, fixatives (including airbrush) Cd |
-| P1 | plant-milks-rice-based × Pb | plant milks rice based heavy metals Pb occurrence |
-| P1 | childrens-makeup × Cr | childrens makeup heavy metals chromium occurrence |
-| P1 | sports-energy-drinks × Pb | sports energy drinks heavy metals Pb |
-| P1 | feminine-wipes × Pb | feminine wipes Pb |
-| P1 | drain-maintainers-cleaners × tAs | drain maintainers/cleaners (including biological-based) total arsenic |
-| P1 | childrens-lip-balm-mineral-bearing × Cr | childrens lip balm mineral bearing heavy metals chromium occurrence |
-| P1 | baby-wipes × Pb | baby wipes Pb occurrence |
-| P1 | nut-seed-butters-other × Ni | nut seed butters other nickel occurrence |
-| P1 | pet-supplements-botanical-herbal × tHg | pet supplements botanical herbal mercury |
-| P1 | oral-products-other × Cd | oral products other cadmium |
-| P1 | pet-treats-snacks × tAs | pet treats snacks arsenic occurrence |
-| P1 | feminine-wipes × tHg | feminine wipes/towelettes mercury |
-| P1 | bottled-drinking-water × Pb | bottled drinking water heavy metals Pb occurrence |
-| P1 | window-glass-mirror-cleaners × tAs | window glass mirror cleaners total arsenic |
-| P1 | fruit-snacks × tAs | fruit snacks arsenic occurrence |
+| P1 | canned-fish × MeHg | canned fish methyl mercury occurrence |
+| P1 | infant-porridges-dairy × tAs | infant porridges dairy total arsenic |
+| P1 | baby-oil × Cd | baby oil Cd occurrence |
+| P1 | baby-oil × Cd | baby oil heavy metals Cd occurrence |
+| P1 | carpet-cleaners × Pb | carpet cleaners heavy metals lead |
+| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking teething aids arsenic occurrence |
+| P1 | salt × Cd | salt food contact material Cd |
+| P1 | supplements-oral-liquids-droppers × tHg | oral liquids: droppers mercury |
+| P1 | toys-battery-electronic × tAs | battery-operated/electronic toys arsenic |
+| P1 | salt × tAs | salt cookware leaching arsenic |
+| P1 | sensor-puff-releasers × tAs | sensor puff releasers heavy metals total arsenic |
+| P1 | infant-cereal × tHg | infant cereal mercury occurrence |
+| P1 | baby-powder-cornstarch × Cd | baby powder cornstarch cosmetic safety cadmium |
+| P1 | infant-bottles × tAs | infant bottles arsenic |
+| P1 | home-air-emission-products-other × tAs | home air emission products other total arsenic |
+| P1 | food-packaging-foils-wraps × Cd | food packaging foils wraps Cd |
+| P1 | supplements-teas-labeled × Cd | supplements teas labeled heavy metals cadmium occurrence |
+| P1 | plant-milks-non-soy-non-rice × Cd | plant milks non soy non rice heavy metals Cd occurrence |
+| P1 | infant-formula-dairy × Sn | infant formula dairy heavy metals tin occurrence |
+| P1 | clasps-fasteners-infant-products × Pb | clasps fasteners infant products heavy metals Pb |
 
 ## Coverage rotation
 

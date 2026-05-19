@@ -8,7 +8,7 @@ provisional_scaffold: true
 provisional_created: 2026-05-19
 provisional_reason: "heal-gaps: routing_unresolved entry from source concentration2023-concentration-essential-toxic-rare declared product/infant-food-puree, no close-slug match"
 provisional_source: "[[sources/concentration2023-concentration-essential-toxic-rare]]"
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin

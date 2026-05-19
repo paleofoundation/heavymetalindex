@@ -1,28 +1,19 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T01:14:43.678Z
+Generated: 2026-05-19T02:05:24.438Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 0
+- Fixes applied: 1
 - Queued for synthesis: 0
 - Routing typo proposals: 0
-- Provisional scaffolds created: 8
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 224
+- Provisional scaffolds created: 0
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 229
 
-## Provisional scaffolds created
+## Fixes applied
 
-- product/`infant-food-puree` (triggered by source concentration2023-concentration-essential-toxic-rare)
-- product/`infant-food-puree-mixed-meat` (triggered by source concentration2023-concentration-essential-toxic-rare)
-- product/`infant-food-puree-fish` (triggered by source concentration2023-concentration-essential-toxic-rare)
-- product/`infant-food-puree-poultry` (triggered by source concentration2023-concentration-essential-toxic-rare)
-- product/`infant-food-puree-fruit` (triggered by source concentration2023-concentration-essential-toxic-rare)
-- product/`infant-food-puree-vegetable` (triggered by source concentration2023-concentration-essential-toxic-rare)
-- ingredient/`fruit-mixed` (triggered by source concentration2023-concentration-essential-toxic-rare)
-- ingredient/`vegetables-mixed` (triggered by source concentration2023-concentration-essential-toxic-rare)
-
-See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
+- wiki/products/infant-food-puree.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `baby-puree`)
 
 ## Items needing surfacing
 
@@ -48,4 +39,4 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
 - missing_primary_metals_of_concern: `wiki/products/butter-and-ghee.md` — no canonical analyte default for slug butter-and-ghee
-- ... and 204 more (see queue file)
+- ... and 209 more (see queue file)

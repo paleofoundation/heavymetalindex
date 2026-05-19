@@ -30,7 +30,7 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 - [[metals/manganese]] (38 sources)
 - [[metals/mercury]] (179 sources)
 - [[metals/mercury-methyl]] (24 sources)
-- [[metals/mercury-total]] (94 sources)
+- [[metals/mercury-total]] (95 sources)
 - [[metals/molybdenum]] (7 sources)
 - [[metals/nickel]] (164 sources)
 - [[metals/organotins]] (3 sources)
