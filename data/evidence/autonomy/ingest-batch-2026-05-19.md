@@ -53,3 +53,15 @@
 
 ### Failed
 - P1 `original2020-original-a` (FM_10494610): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-19T17:47:31.731Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `original2020-original-a` (FM_10494610)
+
+### Failed
+- P1 `abstract2020-content-dietary-exposure-toxic` (FM_7763862): cite_key mismatch: abstract2020-content-dietary-exposure-toxic-elements-infant-formulas-chinese-market

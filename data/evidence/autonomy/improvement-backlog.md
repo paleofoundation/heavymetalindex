@@ -688,3 +688,29 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (synthesis triggered at 2+ sources), Part 11 (priority ordering), and the autonomy architecture (deterministic extraction + audit → ranked queue)
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Generate wishlist-to-raw prospecting manifest
+
+**What:** Build a deterministic prospector (`tools/autonomy/build-wishlist-prospecting-manifest.mjs`) that reads the 600 gap-driven wishlist queries, searches `raw/` for papers touching those (ingredient, metal) pairs, cross-references ingested sources, and emits a ranked manifest of prospecting hits ordered by pool-cell impact.
+
+**Why this lever now:** The snapshot shows 305 pool_blocked_cells (the standards-setting blocker) and 600 gap-driven_wishlist_queries (the prioritized gaps to fill). Right now, the pathway from "we know what we need" to "here's what to ingest next" is manual. A prospecting manifest closes that gap and turns the wishlist into an executable ingest queue, feeding the next batch.
+
+**Where:** 
+- Input: `data/evidence/autonomy/gap-driven-wishlist.csv` (600 rows)
+- Input: `raw/` directory (all available source PDFs/markdown)
+- Input: `wiki/sources/*.md` frontmatter (cite_keys, to exclude already-ingested)
+- Output: `data/evidence/autonomy/wishlist-prospecting-manifest.csv` with columns: `ingredient`, `metal`, `raw_file`, `wishlist_gap_count_filled`, `priority_rank`
+- Script: `tools/autonomy/build-wishlist-prospecting-manifest.mjs`
+
+**How:**
+1. Read `gap-driven-wishlist.csv`; extract (ingredient, metal) tuples; count how many cells each tuple represents.
+2. Grep `raw/` filenames and Marker-converted markdown for mentions of ingredient + metal keywords (fuzzy match on ingredient synonyms; exact on metal symbols: Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U).
+3. For each prospecting hit, read its frontmatter cite_key; cross-reference `wiki/sources/*/frontmatter` to exclude already-ingested files.
+4. Rank hits by: number of wishlist cells they'd fill (descending), then by source tier (A > B > C), then by recency.
+5. Emit manifest as CSV with a `-- ingestible_next` header comment listing the top 20 for the next batch.
+
+**Anchors:** CLAUDE.md Part 9 (Synthesis triggers — cells stay `pending` until sources routed), Part 11 (Priority ordering — prospecting manifest becomes the P-tier input), Part 5b (Routing audit as the automation linchpin — this tool feeds routing discipline by identifying what sources to route next).
+
+---

@@ -58,3 +58,16 @@
 ### Succeeded
 - `rahim2020-toxic-heavy-metals-fruits-pakistan` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Analysis of Toxic Heavy Metal Content of the Most Widely Used Fruits in Khyber Pakhtunkhwa, Pakistan.pdf)
 - `fda2023-ias-apple-juice-guidance` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Arsenic in Pear Juice Analytical Results from 2005-2011.pdf)
+
+## Tick 2026-05-19T17:47:31.830Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 1
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Assessment of Contents and Health Risk of Aluminum and Copper through Consumption of Commercial Fruit Juices.pdf`: routing audit fails on pre-existing untracked malformed wiki/sources/original2020-original-a.md (missing frontmatter terminator); cannot verify routing for sobhanardakani2017 ingest; merge-enhance reverted, no commit made.
+
+### Failed
+- `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin.pdf`: unrecognized final line: "```"

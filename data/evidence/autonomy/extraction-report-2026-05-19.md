@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-19
 
-Generated: 2026-05-19T16:51:44.380Z
+Generated: 2026-05-19T17:44:23.389Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 993
-- Pages with `## Key numbers` section: 886
+- Source pages processed: 995
+- Pages with `## Key numbers` section: 888
 - Pages without Key numbers section (skipped): 106
-- Structured rows extracted: 5454
+- Structured rows extracted: 5474
 - Pages with Key numbers but no parseable values: 72
 
 ## Output
@@ -19,16 +19,16 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1085 rows
-- Cd: 1028 rows
-- Cr-total: 528 rows
-- Ni: 494 rows
-- tAs: 410 rows
+- Pb: 1087 rows
+- Cd: 1036 rows
+- Cr-total: 529 rows
+- Ni: 496 rows
+- tAs: 412 rows
 - Al: 346 rows
 - tHg: 331 rows
-- iAs: 172 rows
+- iAs: 173 rows
 - Cu: 161 rows
-- Co: 133 rows
+- Co: 137 rows
 - Fe: 97 rows
 - MeHg: 93 rows
 - Sn: 87 rows
@@ -61,15 +61,15 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2077 rows
+- (empty): 2083 rows
 - fresh-fish: 289 rows
 - baby-cereals-dry-rice-based: 180 rows
 - seafood: 171 rows
 - spices: 171 rows
-- fresh-fruit: 135 rows
+- fresh-fruit: 142 rows
 - canned-fish: 128 rows
 - infant-formula-powder: 94 rows
-- fruit-juice-not-canned: 88 rows
+- fruit-juice-not-canned: 92 rows
 - face-paint: 81 rows
 - non-root-vegetables: 70 rows
 - infant-formula-powder-non-soy: 66 rows
