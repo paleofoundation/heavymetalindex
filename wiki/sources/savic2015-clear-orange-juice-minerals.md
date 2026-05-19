@@ -25,7 +25,7 @@ updated: 2026-05-19
 
 # Savic et al. 2015 - minerals in clear orange juices
 
-This study measured 23 mineral and trace elements in seven clear orange-juice samples purchased from the Leskovac, Serbia local market. The paper is direct non-apple fruit-juice occurrence evidence. Its main HMT&C signal is high total arsenic in all tested samples and high lead in at least one sample, with cadmium detected in three samples.
+This study measured 23 mineral and trace elements in seven clear orange-juice samples purchased from the Leskovac, Serbia local market. The paper is direct non-apple fruit-juice occurrence evidence. Its main HMT&C signal is high total arsenic in all seven samples and lead detected in all seven samples (sample VI an outlier maximum at 1.19 mg/L), with cadmium detected in three samples.
 
 ## Key numbers
 
@@ -48,7 +48,7 @@ This study measured 23 mineral and trace elements in seven clear orange-juice sa
 | Ca | 0.68-16.8 mg/L |
 | P | 0.2-94.54 mg/L, below the Serbian orange-juice quality range of 115-210 mg/L |
 
-The paper reports that nickel was not detected in the tested orange-juice samples. It also reports that silver, aluminum, boron, calcium, cadmium, cobalt, chromium, copper, iron, potassium, lithium, magnesium, manganese, sodium, nickel, lead, strontium, zinc, silicon, arsenic, phosphorus, molybdenum, and antimony were included in the ICP-OES screen.
+The paper reports that nickel was not detected in the tested orange-juice samples and that antimony was at or below detection (LOD 2.44 µg/L per Table 1) across all samples in Figure 3. It also reports that silver, aluminum, boron, calcium, cadmium, cobalt, chromium, copper, iron, potassium, lithium, magnesium, manganese, sodium, nickel, lead, strontium, zinc, silicon, arsenic, phosphorus, molybdenum, and antimony were included in the ICP-OES screen; values for Mn, Co, Cr, B, Sr, Si, and Ag were screened but not quantified above body-table threshold and are not extracted here.
 
 ## Methods (brief)
 
@@ -93,3 +93,4 @@ Microbiome: Not addressed.
 - The paper reports elemental arsenic only; no arsenic speciation was performed.
 - Strict brand firewall: the source page uses product/matrix descriptions only. The source states that samples came from different manufacturers, but no manufacturer or brand names are included here.
 - Methods vendor/equipment/reagent names are retained under Part 12 Exception 2.
+- Fresh-context audit (Claude subagent, 2026-05-19): REVISE → applied. Two findings corrected: (1) opening prose updated to state Pb was detected in all seven samples (was "at least one"), with sample VI as outlier maximum; (2) added explicit Sb-below-detection note (LOD 2.44 µg/L per Table 1) and acknowledged the Mn/Co/Cr/B/Sr/Si/Ag screen-but-not-extracted status. All other checks clean: slug vocabulary verified on disk (auditor cross-checked actual files), speciation discipline correct (tAs explicitly labeled, no Cr-VI substitution), brand firewall clean (samples I-VII anonymization preserved), HMTc firewall clean.
