@@ -1,15 +1,25 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T21:10:54.184Z
+Generated: 2026-05-19T22:04:30.006Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
 - Queued for synthesis: 0
-- Routing typo proposals: 5
-- Provisional scaffolds created: 0
+- Routing typo proposals: 6
+- Provisional scaffolds created: 5
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 231
+
+## Provisional scaffolds created
+
+- product/`infant-formula-powder-dairy` (triggered by source editor2019-manganese-levels-infant-formula)
+- product/`infant-formula-rtf-dairy` (triggered by source editor2019-manganese-levels-infant-formula)
+- product/`infant-formula-rtf-soy` (triggered by source editor2019-manganese-levels-infant-formula)
+- product/`nutritional-beverage-child` (triggered by source editor2019-manganese-levels-infant-formula)
+- ingredient/`casein` (triggered by source editor2019-manganese-levels-infant-formula)
+
+See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
 ## Items needing surfacing
 

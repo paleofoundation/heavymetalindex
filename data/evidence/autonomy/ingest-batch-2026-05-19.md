@@ -108,4 +108,16 @@
 - P1 `editor2019-manganese-levels-infant-formula` (FM_6830775)
 
 ### Failed
-- P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): exit 1: 
+- P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): exit 1:
+
+## Batch 2026-05-19T22:06:46.761Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `funding2018-unknown` (FM_5856424)
+
+### Failed
+- P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): cite_key mismatch: igweze2019
