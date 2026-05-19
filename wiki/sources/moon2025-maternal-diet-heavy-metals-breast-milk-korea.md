@@ -10,7 +10,7 @@ doi: 10.3390/toxics13050381
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/The Association Between Maternal Dietary Intake and the Risk of H.pdf"
+raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/The Association Between Maternal Dietary Intake and the Risk of Heavy Metals in Human Breast Milk in Korea.pdf"
 metals: [Pb, Cd, tHg, tAs]
 ingredients: ["[[ingredients/breastmilk]]"]
 products: []
@@ -19,34 +19,47 @@ jurisdictions: [KR]
 near_duplicates: []
 sample_n: 209
 sample_population: "209 healthy lactating Korean mothers (mean age 34.8 years, infant age <12 months) sampled January–March 2023 as part of a prospective cohort on early-life environmental exposure"
-updated: 2026-05-14
+updated: 2026-05-19
 ---
 
 This study measured Pb, Cd, tHg, and tAs in breast milk from 209 Korean lactating mothers, assessed potential infant health risks using estimated daily intake (EDI) and hazard quotient (HQ), and identified maternal dietary factors associated with heavy metal concentrations via multiple linear regression. Cadmium was the most frequently detected metal (99% of samples), followed by Hg (97%), As (89%), and Pb (79%). The authors employed age-specific infant body weight and milk consumption to refine the exposure model beyond single representative values. Arsenic was identified as the largest contributor to potential health risk. Dietary associations: Pb with legume and seaweed consumption; Cd with vegetables and seaweed; tHg with sugar intake; tAs with meat intake.
 
 ## Key numbers
 
-All concentrations in µg/L (breast milk). n = 209. Analyzed by ICP-MS. LODs: Pb 0.017 µg/L, Cd 0.030 µg/L, Hg 0.047 µg/L, As 0.054 µg/L.
+All concentrations in µg/L (breast milk, wet-weight equivalent — milk reported in volume basis). n = 209 mother–infant pairs sampled January–March 2023. Analyzed by ICP-MS (PerkinElmer Nexion 2000 B in DRC mode) for Pb, Cd, and tAs; direct mercury analyzer (DMA; Milestones DMA, Sorisole, Italy) by thermal decomposition/amalgamation/AAS for Hg. LODs: Pb 0.017 µg/L, Cd 0.030 µg/L, Hg 0.047 µg/L, As 0.054 µg/L. Values < LOD imputed as LOD/√2.
 
-**Concentrations (from available extracted data):**
-- Cd: GM and median = 0.13 µg/L; detection rate = 99%
-- Hg: GM = 0.18 µg/L; range = 0.05–1.28 µg/L; detection rate = 97%
-- tAs: GM = 1.16 µg/L; range = 0.08–9.48 µg/L; detection rate = 89%
-- Pb: GM = 0.11 µg/L; range = 0.02–1.49 µg/L; detection rate = 79%
+**Concentrations — Table 3 (µg/L):**
 
-**EDI (µg/kg body weight/day, median, GM, range):**
-- Pb: 0.017, 0.016 (SD 0.030), range 0.002–0.150
-- Hg: 0.021, 0.019 (SD 0.015), range 0.004–0.070
-- Cd: 0.014, 0.014 (SD 0.012), range 0.003–0.051
-- tAs: full values in paper Tables 3/S3 (not fully extracted; As was the largest HQ contributor)
+| Analyte | n detected (DF%) | GM | Min | P5 | P25 | P50 (median) | P75 | P95 | Max |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Pb | 165 (79%) | 0.11 | 0.02 | 0.03 | 0.07 | 0.10 | 0.17 | 0.57 | 1.49 |
+| Cd | 207 (99%) | 0.13 | 0.04 | 0.05 | 0.08 | 0.13 | 0.20 | 0.45 | 1.51 |
+| Hg (tHg) | 204 (97%) | 0.18 | 0.05 | 0.06 | 0.11 | 0.19 | 0.27 | 0.56 | 1.28 |
+| As (tAs) | 187 (89%) | 1.16 | 0.08 | 0.32 | 0.76 | 1.11 | 1.72 | 4.62 | 9.48 |
 
-**Dietary associations (multiple linear regression):**
-- Pb ↑: higher legume and seaweed consumption
-- Cd ↑: higher vegetable and seaweed consumption
-- tHg ↑: higher sugar intake (unusual — mechanism not explained; possibly proxy for processed food consumption)
-- tAs ↑: higher meat intake (possibly reflecting organic As from animal feed additives)
+**EDI (µg/kg body weight/day; median, GM (SD), min–max):**
+- Pb: 0.017, 0.016 (0.030), 0.002–0.150
+- Cd: 0.014, 0.014 (0.012), 0.003–0.051
+- Hg: 0.021, 0.019 (0.015), 0.004–0.070
+- As (tAs): 0.130, 0.059 (0.238), 0.003–1.503
 
-**Health risk:** As had the highest HQ among the four metals; HQ for As exceeded 1.0 in some infants. All other metals had HQ < 1 at median EDI.
+Mean infant body weight 5.71 kg (range 2.99–9.40); absolute breastfed-infant daily milk intake (n = 40) 883.54 mL/day (range 420–1260).
+
+**Health-based guidance reference values used (Table 1):**
+- Pb: JECFA 0.6 µg/kg bw/day; K-MFDS BMDL₀.₁ 0.5 µg/kg bw/day
+- Cd: JECFA PTMI 25 µg/kg bw/month (≈ 0.8 µg/kg bw/day); K-MFDS PTMI 25 µg/kg bw/month
+- Hg (inorganic): JECFA PTWI 4.0 µg/kg bw/week (≈ 0.6 µg/kg bw/day); K-MFDS TWI 3.7 µg/kg bw/week (≈ 0.5 µg/kg bw/day)
+- As (inorganic): JECFA BMDL₀.₅ 3.0 µg/kg bw/day; K-MFDS PTWI 9.0 µg/kg bw/week (≈ 1.3 µg/kg bw/day)
+
+**Health risk (HQ):** As was the largest HQ contributor among the four analytes. One infant's As EDI exceeded the Korea-MFDS health-based guidance value (HQ > 1 for As, MFDS basis). HQ for Pb, Cd, and Hg remained below 1 across the cohort at median EDI. Among absolutely breastfed infants, the ordering of HQ contribution was As > Hg > Cd > Pb (consistent with both JECFA and MFDS reference bases).
+
+**Dietary associations — Table 4 (multiple linear regression β coefficients, 95% CI; significant rows only):**
+- Pb ↑: Legumes β = 0.281 (95% CI 0.002–0.029); Seaweed β = 0.286 (95% CI 0.001–0.049)
+- Cd ↑: Vegetables β = 0.218 (95% CI 0.004–0.036); Seaweed β = 0.191 (95% CI 0.001–0.021)
+- Hg ↑: Sugars β = 0.351 (95% CI 0.008–0.059)
+- As ↑: Meat β = 0.191 (95% CI 0.002–0.100)
+
+Pine mushroom intake contributed most to total HM concentration across all four analytes (Figure 3a). Seaweed contributed most to Cd and As. By food-category aggregate (Figure 3b), agricultural products dominated Pb, Cd, and Hg contributions; seafood dominated As contribution.
 
 ## Methods (brief)
 
@@ -71,3 +84,7 @@ Microbiome: High tAs exposure to the infant gut during the 0–6 month colonizat
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/arsenic]]
+
+## Verification notes
+
+2026-05-19 (Claude Opus 4.7, manual-fetch enhancement): Repaired truncated `raw_path` filename (was cut at "Risk of H.pdf"; now reflects the actual on-disk filename). Expanded Key numbers to include the full Table 3 percentile distribution (P5 / P25 / P50 / P75 / P95) for Pb, Cd, Hg, tAs, the complete As EDI quartet (median, GM, SD, range), the four health-based guidance reference values reproduced from Table 1, and the regression β coefficients with 95% CIs from Table 4. Added instrument-model detail for both ICP-MS (PerkinElmer Nexion 2000 B, DRC mode) and DMA (Milestones, Sorisole, Italy). Documented LOD/√2 censoring rule applied to sub-LOD values. No content claims were softened or strengthened relative to the literature; this enhancement adds precision that was previously summarized.
