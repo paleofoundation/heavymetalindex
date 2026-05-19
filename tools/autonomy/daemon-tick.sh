@@ -145,6 +145,15 @@ if [[ "$MFETCH_ENABLED" == "1" ]]; then
     "--max-pdfs=$MFETCH_MAX" "--model=$MFETCH_MODEL" || true
 fi
 
+# Step 3d: auto-fetched/ hygiene sweep. Moves PDFs out of auto-fetched/
+# once dispositioned so Codex and the daemon do not waste fires re-triaging
+# stale skips and dedup rollups. Idempotent. Anything moved here got there
+# via wishlist-fetch-audit.csv decision (skip:*/fail:*/ingested) or because
+# a wiki/sources/*.md page already references it. PDFs with no disposition
+# stay in auto-fetched/ — that's the real work queue. See
+# tools/autonomy/auto-fetched-hygiene.mjs for full rules.
+run_step "auto-fetched hygiene" node tools/autonomy/auto-fetched-hygiene.mjs --report || true
+
 # Step 4: pooling engine refresh
 run_step "pooling engine" node tools/evidence/build-hmtc-aggregate-distributions.mjs || true
 
