@@ -39,7 +39,7 @@ This systematic review synthesized findings from 10 primary studies (2012–2022
 | Hg    | fresh fruit | ND–0.006 | — | Elephant apple |
 | Mn    | fresh fruit | ND–570 | — | Papaya (570 max) |
 | Cu    | fresh fruit | 0.5–32 | 4.5 | Guava (0.51–32 max) |
-| Zn    | fresh fruit | 0.24–134 | — | Table names papaya (134 max); narrative names guava at 134 — internal contradiction in source. Banana Zn range is 0.24–102. |
+| Zn    | fresh fruit | 0.24–134 | — | Table names papaya (134 max); narrative (p.7) names banana at 134 — internal contradiction in source. Banana Zn range per Table 2 is 0.24–102. |
 
 All metals reported on fresh weight (FW) basis. Analytical methods across included studies: ICP-MS (n=4), ICP-OES (n=1), AAS (n=4), FAAS (n=1). Quality assurance reported in 8 of 10 studies (IQCs, CRMs, or accuracy/precision analysis).
 
@@ -68,10 +68,15 @@ Systematic review following PRISMA guidelines. Databases: PubMed, Google Scholar
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/mercury-total]]
+- [[metals/manganese]]
+- [[metals/copper]]
+- [[metals/zinc]]
 
 ## Verification notes
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, changed unspeciated arsenic from `As` to `tAs`, added Mn/Cu/Zn to frontmatter because the review reports those metals, removed non-taxonomy ingredient slugs (`papaya`, `jackfruit`) in favor of `fruits`, removed invented matrix `edible-fruit-flesh`, and modernized the wiki-link section. The source itself reports Pb as ND-2.4 mg/kg in the abstract/table while the narrative names mango at 0.75 mg/kg as the highest Pb level; the Key numbers row now flags that internal source tension rather than assigning 2.4 to mango.
 - 2026-05-19 brand-firewall recheck under stricter 2026-05-17 Part 12 reading: no commercial brand names in page body; the only varietal-name references in the underlying PDF (Bangla kola, Chapa kola, Sabri kola, Sagor kola — banana cultivars from Sajib et al. 2013) are botanical/cultivar identifiers, not commercial brands, and were never carried into this wiki page. Page is clean.
-- 2026-05-19 corrected Zn row in Key numbers: previously stated "Banana (134 max)", but Table 2 shows banana Zn range is 0.24–102 mg/kg. The 134 max value corresponds to papaya per Table 2, while the narrative on p.7 names guava at 134 — internal source contradiction now flagged in the table row.
+- 2026-05-19 corrected Zn row in Key numbers: previously stated "Banana (134 max)", but Table 2 shows banana Zn range is 0.24–102 mg/kg. The 134 max value corresponds to papaya per Table 2, while the narrative on p.7 names banana at 134 ("banana contained the highest concentration of Zn (134 mg/kg of FW) followed by papaya and guava") — internal source contradiction now flagged in the table row.
+- Audit subagent (2026-05-19) flagged Cd row as missing an internal-contradiction flag (claiming Table 2 stone-apple = 0.51 vs narrative 0.64). Verified against Table 2 p.6 — stone-apple Cd IS 0.64 in Table 2 (the subagent confused stone-apple with indian gooseberry/tamarind, both at 0.51). Table and narrative agree on stone-apple 0.64; no contradiction exists. Finding rejected as false positive.
+- Audit subagent (2026-05-19) flagged Mn/Cu/Zn missing from "Wiki pages this source may touch" despite being in `metals:` frontmatter. Verified; added [[metals/manganese]], [[metals/copper]], [[metals/zinc]] for symmetry.
 - Potential future ingredient slugs surfaced for Karen if the fruit corpus accumulates enough independent papers: `papaya`, `jackfruit`, `litchi`, `blackberry`, `pineapple`, `pomegranate`, and `tamarind`.
