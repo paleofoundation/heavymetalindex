@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1238 candidate queries
-- Path B (empty product + thin ingredient pages): 8202 candidate queries
-- Total candidates (after dedup): 9440
+- Path A (pooling-engine-driven thin cells): 1276 candidate queries
+- Path B (empty product + thin ingredient pages): 8224 candidate queries
+- Total candidates (after dedup): 9500
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9440
+- Eligible after filtering: 9500
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | scented-wax-blocks-melts × Pb | scented wax blocks melts heavy metals lead |
-| P1 | biscuits × tHg | biscuits mercury |
-| P1 | pet-supplements-calming-behavioral × tAs | calming/behavioral supplements arsenic |
-| P1 | window-glass-mirror-cleaners × Pb | window glass mirror cleaners lead |
-| P1 | pet-supplements-functional-blends × Cd | pet supplements functional blends Cd |
-| P1 | dried-fruit × Cd | dried fruit heavy metals Cd occurrence |
-| P1 | baby-talcum-powder × Cd | baby talcum powder heavy metals cadmium occurrence |
-| P1 | food-storage-silicone × Pb | food storage silicone Pb |
-| P1 | infant-and-child-foods-master × iAs | infant and child foods master inorganic arsenic occurrence |
-| P1 | infant-formula-stage1 × Cd | infant formula stage1 Cd occurrence |
-| P1 | bottled-drinking-water × Pb | bottled drinking water lead occurrence |
-| P1 | infant-food-puree-poultry × Cd | infant food puree poultry Cd |
-| P1 | pet-supplements-oils × Cd | pet supplements oils heavy metals cadmium |
-| P1 | oral-products-other × Pb | other oral products (case-by-case) lead |
-| P1 | fruit-snacks × Pb | fruit snacks Pb occurrence |
-| P1 | infant-food-puree-fruit × Cd | infant food puree fruit heavy metals cadmium |
-| P1 | supplements-oral-solids-softgels × tAs | supplements oral solids softgels arsenic |
-| P1 | utensils-plastic-silicone-tools × tHg | utensils plastic silicone tools mercury |
-| P1 | fermented-beverages-non-tea-based × Cd | fermented beverages non tea based Cd occurrence |
-| P1 | cookware-specialty-alloy × Pb | cookware specialty alloy heavy metals Pb |
+| P1 | pet-supplements-probiotics-digestive × tHg | pet supplements probiotics digestive heavy metals total mercury |
+| P1 | tableware-metal-bottles-tumblers × Pb | metal bottles/tumblers lead |
+| P1 | cribs-and-bassinets × Cd | cribs and bassinets cadmium |
+| P1 | cookware-metal-alloy × tHg | metal and alloy cookware (cast iron, stainless steel, aluminum) total mercury |
+| P1 | pasta-rice-based × Cd | pasta rice based food contaminant Cd |
+| P1 | baby-powder-cornstarch × Pb | baby powder cornstarch personal care product Pb |
+| P1 | feeding-accessories-child-sized × tAs | feeding accessories (spoons, plates, bowls — child-sized) arsenic |
+| P1 | matcha × Al | matcha aluminum occurrence |
+| P1 | children-personal-care × Cd | children personal care Cd occurrence |
+| P1 | supplements-probiotics × tAs | supplements probiotics heavy metals arsenic |
+| P1 | infant-formula-powder-soy × Pb | infant formula powder soy heavy metals Pb occurrence |
+| P1 | exfoliants-scrubs × tHg | exfoliants/scrubs (body, facial) mercury |
+| P1 | instant-air-refreshment-sprays × Pb | instant air refreshment sprays (aerosol cans, trigger sprays) Pb |
+| P1 | floss-interdental-cleaners × tAs | floss interdental cleaners heavy metals arsenic |
+| P1 | toys-projectile-guns × Cd | toys projectile guns heavy metals Cd |
+| P1 | infant-porridges-dairy-free × tHg | infant porridges dairy free heavy metals mercury |
+| P1 | fish-freshwater × iAs | fish freshwater heavy metals speciated arsenic occurrence |
+| P1 | leafy-vegetables-other × Pb | leafy vegetables other heavy metals Pb occurrence |
+| P1 | tomato-paste × Cd | tomato paste Cd occurrence |
+| P1 | dietary-supplements × Cr-VI | dietary supplements Cr(VI) occurrence |
 
 ## Coverage rotation
 

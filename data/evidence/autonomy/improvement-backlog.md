@@ -763,3 +763,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (synthesis triggers, n_studies thresholds); Part 5b (routing layer, fan-out to product pages); docs/order-of-operations.md (Phase 4: synthesis readiness); feedback_no_implication_lists (execute the data mapping, not just suggest it).
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Rank gap-driven queries by pending-product impact
+
+**What:** Create an audit report that ranks the 600 gap-driven-wishlist queries by how many pool-blocked cells they would unblock, prioritized by the pending product scaffolds with the most routed sources.
+
+**Why this lever now:** 325 pool_blocked_cells (ingredient-metal pairs with <2 sources) block all synthesis and HMT&C standard-setting per Part 9. The autonomy loop already generated 600 specific gap-driven queries (visible in `data/evidence/autonomy/gap-driven-wishlist.csv`), but they lack prioritization. Focusing query-ingest on queries that directly unblock the top pending categories—especially infant-formula-dairy (6 routed sources, governance-ready for Step 0 Lock) and baby-food (2 sources)—would convert the hardest-blocked cells into thin-but-poolable cells, unblocking synthesis for at least the highest-impact products first.
+
+**Where:**
+- New audit: `tools/autonomy/rank-gap-queries-by-pending-product.mjs`
+- Input: `data/evidence/autonomy/gap-driven-wishlist.csv` + `data/evidence/product_source_routing_audit.csv` + `wiki/products/*/` frontmatter
+- Output: `data/evidence/autonomy/gap-query-prioritization-ranked.csv` (columns: query | target_ingredient | target_metal | target_product_slug | routed_sources_in_product | pool_status | impact_rank)
+
+**How:**
+1. Load all pending-lock products sorted by `routed_sources` descending (infant-formula-dairy → biscuits)
+2. For each product, extract declared ingredients from its scaffold frontmatter
+3. For each ingredient, identify pool-blocked cells (0–1 sources) via routing audit
+4. Cross-match gap-queries to those cells; score by product-source-count and cell-criticality
+5. Sort descending by impact_rank and emit ranked CSV for query-ingest orchestration
+
+**Anchors:** CLAUDE.md Part 9 (synthesis requires ≥2 sources per cell), Part 19 (pooling unblocks HMT&C standard math), Part 10 (pending-lock scaffolds are governance gates), order-of-operations.md Phase 2–3 (query-ingest follows gap identification)
+
+---

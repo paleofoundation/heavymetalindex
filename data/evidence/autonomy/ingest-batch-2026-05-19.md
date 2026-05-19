@@ -86,4 +86,14 @@
 
 ### Failed
 - P1 `editor2019-manganese-levels-infant-formula` (FM_6830775): exit 1: 
-- P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): exit 1: 
+- P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): exit 1:
+
+## Batch 2026-05-19T20:21:25.890Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `editor2019-manganese-levels-infant-formula` (FM_6830775): stdout did not contain '---' frontmatter
+- P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): stdout did not contain '---' frontmatter

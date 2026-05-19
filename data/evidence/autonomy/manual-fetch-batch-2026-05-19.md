@@ -82,3 +82,16 @@
 ### Succeeded
 - `reczajska2005-chromium-plant-foods-poland` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Chromium content of selected food and beverages of plant origin.pdf)
 - `rusin2021-vegetables-fruits-cadmium-lead-poland` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Concentration of cadmium and lead in vegetables and fruits.pdf)
+
+## Tick 2026-05-19T20:21:25.979Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Succeeded
+- `sembratowicz2010-nitrates-pb-cd-lublin-fruits` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Contents of Nitrates (III) and (V), Lead and Cadmium in the Selected Domestic Fruits from Lublin Region.pdf)
+
+### Failed
+- `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Determination and risk analysis of heavy metals in different fruits collected from different shops of Dhaka city.pdf`: unrecognized final line: "Cycle summary: enhanced existing source page with PI/SPI disambiguation, expanded methods detail, and a second-highest-Pb data point (T24 Meena Bazar banana, 1.24 mg/kg). Fresh-context audit subagent returned **PROMOTE** — 5 checks clean, 1 ⚠️ on a source-internal AAS-model discrepancy (Chemito AA-203 in §3.5.2 vs "AA-7000" in §3.6), applied as a one-line Methods parenthetical for defensibility. Routing clean (1 direct_evidence row to fresh-fruit, all 5 metals). Three commits: a53c1bc (ingest), 0845432 (audit application), c337a94 (queue update)."

@@ -1,6 +1,6 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T19:35:04.192Z
+Generated: 2026-05-19T20:17:16.282Z
 Mode: EXECUTED
 
 ## Summary
@@ -8,19 +8,12 @@ Mode: EXECUTED
 - Fixes applied: 1
 - Queued for synthesis: 0
 - Routing typo proposals: 5
-- Provisional scaffolds created: 2
+- Provisional scaffolds created: 0
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 231
 
 ## Fixes applied
 
-- wiki/products/infant-formula-stage1.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
-
-## Provisional scaffolds created
-
-- product/`infant-formula-powder-soy` (triggered by source abstract2020-content-dietary-exposure-toxic)
-- ingredient/`infant-formula` (triggered by source abstract2020-content-dietary-exposure-toxic)
-
-See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
+- wiki/products/infant-formula-powder-soy.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
 
 ## Items needing surfacing
 
