@@ -15,7 +15,7 @@ raw_path: raw/markdown/FM_12990068/FM_12990068.md
 metals: [Fe, Ag]
 ingredients: []
 products: []
-matrices: [drinking-water, water]
+matrices: [drinking-water]
 jurisdictions: [IN]
 sample_n: null
 sample_population: "Analytical-method paper for ferric iron detection in water samples."
@@ -54,4 +54,5 @@ Use this source as method evidence for Fe3+ detection in water. Do not convert m
 ## Verification notes
 
 - Manifest cite-key retained, despite its generic placeholder form.
+- Matrix scope is recorded as `drinking-water`; the paper also describes real-water method testing without presenting a market occurrence dataset.
 - Brand firewall: instrument, reagent, and standards names are method context only.

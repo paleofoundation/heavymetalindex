@@ -15,7 +15,7 @@ raw_path: raw/markdown/FM_3365045/FM_3365045.md
 metals: [tAs]
 ingredients: []
 products: []
-matrices: [drinking-water, breast-milk, animal-tissue, urine]
+matrices: [drinking-water, breast-milk]
 jurisdictions: [US]
 sample_n: null
 sample_population: "C57BL/6 mouse developmental arsenic-exposure model; not a human food occurrence study."
@@ -54,4 +54,5 @@ Use this source only for source-scoped arsenic exposure/toxicology context. Do n
 
 - Manifest cite-key retained.
 - The paper is P1 in the Marker manifest but is not product-occurrence evidence.
+- Matrix scope is narrowed to established broad terms; the paper also measures mouse placenta, pup stomach contents, and urine as animal-model exposure matrices.
 - Brand firewall: no sampled consumer brand names are reproduced.

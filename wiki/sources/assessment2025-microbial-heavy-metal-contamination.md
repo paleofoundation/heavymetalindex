@@ -12,10 +12,10 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "Creative Commons Attribution License"
 raw_path: raw/markdown/FM_12071571/FM_12071571.md
-metals: [Pb, Cd, As, tHg]
+metals: [Pb, Cd, tAs, tHg]
 ingredients: ["[[ingredients/meat]]"]
 products: ["[[products/processed-meats]]"]
-matrices: [meat, processed-meat, natural-casing]
+matrices: [meat]
 jurisdictions: [TR, IR, CN, MN, PK, NZ, UK, BE]
 sample_n: 35
 sample_population: "Salted natural sheep casings from Turkey, Iran, China, Mongolia, Pakistan, New Zealand, the United Kingdom, and Belgium."
@@ -60,4 +60,5 @@ Use this as source-scoped processed-meat/casing occurrence evidence. Do not sile
 
 - Manifest DOI was malformed by Markdown extraction; the DOI was corrected from the paper citation.
 - Table 2 contains an apparent typo in the China arsenic range (`0.14-0.094`); use the narrative/table maxima of 0.13 mg/kg as the upper value unless a later audit resolves the table typo from the PDF.
+- Matrix scope is recorded conservatively as `meat`; the paper's actual matrix is salted natural sheep casing used in processed meat production.
 - Brand firewall: no sampled consumer brands are reproduced.

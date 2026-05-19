@@ -15,7 +15,7 @@ raw_path: raw/markdown/FM_12903879/FM_12903879.md
 metals: [Mn, Ag]
 ingredients: []
 products: []
-matrices: [drinking-water, water]
+matrices: [drinking-water]
 jurisdictions: [VN]
 sample_n: null
 sample_population: "Analytical-method paper using drinking water, tap water, and Tau Hu canal water matrices."
@@ -55,4 +55,5 @@ Use this source as method evidence for manganese detection in water. Do not rout
 
 - Manifest cite-key retained.
 - Publication year corrected from the accepted/published article metadata rather than the manifest first-author placeholder.
+- Matrix scope is recorded as `drinking-water`; the paper also tests laboratory tap water and Tau Hu canal water as method-validation matrices.
 - Brand firewall: method vendor and reagent names, if used in Methods, are instrument/reagent context rather than sampled consumer brands.
