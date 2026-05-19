@@ -67,8 +67,8 @@ Codex status: no Codex Alimentarius maximum level for iAs in apple juice at the 
 
 Guidance document compiled from FDA Toxic Elements in Food and Foodware, and Radionuclides in Food (TEP) program surveillance and the FDA Total Diet Study. Analytical methods cited:
 
-- Total arsenic: inductively coupled plasma mass spectrometry (ICP-MS), FDA EAM 4.7 series methods.
-- Arsenic speciation: high-performance liquid chromatography coupled to ICP-MS (HPLC-ICP-MS), FDA in-house speciation methods. Speciation distinguishes iAs from organic forms monomethylarsonic acid (MMA) and dimethylarsinic acid (DMA). FDA's stated practice is to screen for total arsenic and speciate only samples with elevated totals.
+- Total arsenic: inductively coupled plasma mass spectrometry (ICP-MS), FDA in-house method (link cited in guidance footnote 9).
+- Arsenic speciation: high-performance liquid chromatography coupled to ICP-MS (HPLC-ICP-MS), FDA in-house method (link cited in footnote 9). Speciation distinguishes iAs from organic forms monomethylarsonic acid (MMA) and dimethylarsinic acid (DMA). FDA's stated practice is to screen for total arsenic and speciate only samples with elevated totals.
 
 Limit of quantitation: 2.8 ppb per arsenic species in the FY2011 work; values below the LOQ were set to 1.4 ppb when computing the FY2011 inorganic-arsenic average. In the FY2013-2022 total-As achievability analysis, non-quantified values below LOQ were imputed at 2 or 4 ppb (the relevant LOQ) and values below LOD were set to zero — a conservative approach that assumes all measured arsenic is inorganic when computing disease rates.
 
@@ -82,7 +82,7 @@ The guidance is non-binding: FDA states it will consider analytical confidence a
 
 ## Implications
 
-- Certification: This is the operative US regulatory ceiling for iAs in apple juice and apple cider. Any HMT&C product standard touching apple juice or apple juice concentrate must not exceed 10 ppb iAs (literature-baseline binding floor); a tighter HMT&C value would carry rationale `market-ratcheting` or `precautionary` per Part 19. Manufacturer achievability data in this guidance (89% of FY2013-2022 samples already ≤10 ppb on the total-As conservative basis) supports a feasibility ceiling at 10 ppb iAs and suggests a market-ratcheting target near 5 ppb iAs is reachable for most producers.
+- Certification: This is the operative US regulatory ceiling for iAs in apple juice and apple cider. The 10 ppb action level is the regulatory cap input for any HMT&C apple-juice or apple-juice-concentrate row. Manufacturer-side achievability percentages from Tables 3-4 (FY2011 iAs basis: 31% / 54% / 100% at 3 / 5 / 10 ppb; FY2013-2022 tAs basis: 63% / 78% / 89% at 3 / 5 / 10 ppb) are available as occurrence inputs to the Standards Workbench; threshold selection itself is a workbench decision per Part 2 / Part 19, not a wiki claim.
 - Courses: Anchor regulatory document for the US iAs-in-juice standard. Useful exemplar of FDA's use of achievability as a co-criterion with risk; the rationale chain (FY2011 surveillance → 2013 draft → 2023 final) is teachable as a Closer to Zero workflow.
 - App: Apple juice as an ingredient carries a 10 ppb iAs regulatory ceiling in the US, with market mean iAs around 4 ppb in routine surveillance. Apple cider falls under the same action level. Concentrate and ready-to-drink reconstituted juice are both in scope.
 
@@ -101,3 +101,10 @@ Enhancements applied:
 - Expanded Key numbers with the FY2013-2022 speciation subset (n=14, mean iAs 20.6 ppb), TDS data (n=47), achievability percentages from Tables 3-4, modeled disease rates, the 42% exposure-reduction figure, and the historical 2008 23 ppb level of concern.
 - Strengthened Methods to name ICP-MS (total) and HPLC-ICP-MS (speciation), LOQs, consumption inputs (NHANES, WWEIA), and the Taiwanese dose-response basis.
 - Tightened the opening prose and Limitations to reflect the cancer + neurodevelopmental dual basis and the conservative total-As substitution in disease-rate modeling.
+
+Audit subagent (2026-05-19, fresh-context general-purpose) flagged two ⚠️ concerns; both verified against the source and applied:
+
+- Check 3 ⚠️: Methods section attributed the analytical methods to "FDA EAM 4.7 series" — the PDF footnote 9 only links to FDA lab method PDFs (UCM377005.pdf for total As; media/86499/download for HPLC-ICPMS speciation) and does not literally name "EAM 4.7." Corrected to "FDA in-house method (link cited in guidance footnote 9)" for both methods.
+- Check 5 ⚠️: Implications → Certification bullet proposed a "market-ratcheting target near 5 ppb iAs" derived from achievability data, which crosses the Part 2 boundary between describing occurrence data and proposing HMTc threshold values. Rewrote the bullet to surface the FY2011 and FY2013-2022 achievability percentages as occurrence inputs to the Standards Workbench, and to state explicitly that threshold selection is a workbench decision per Part 2 / Part 19.
+
+Checks 1, 2, 4 returned clean. No false-positive rejections this pass.
