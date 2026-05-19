@@ -1,5 +1,6 @@
 ---
 type: source
+raw_handle: MFK_arsenic-in-pear-juice-analytical-results-from-2005
 cite_key: fda2023-ias-apple-juice-guidance
 title: "Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry"
 authors: [FDA CFSAN]
@@ -12,50 +13,91 @@ source_type: government-guidance
 evidence_tier: A
 license: "public-domain"
 raw_path: raw/reports/fda2023-ias-apple-juice-guidance.pdf
-sha256: 0c92d0eb07e37fe4eecd73904bfcd6a4ceedadd9a90494012820d27b49811454
+raw_sha256: 0c92d0eb07e37fe4eecd73904bfcd6a4ceedadd9a90494012820d27b49811454
 access_date: 2026-05-12
-metals: [iAs]
+metals: [iAs, tAs]
 ingredients: ["[[ingredients/apple-juice]]"]
-products: ["[[products/fruit-juices-apple-containing]]", "[[products/fresh-fruit]]"]
+products: ["[[products/fruit-juices-apple-containing]]"]
 matrices: [apple-juice, apple-cider]
 jurisdictions: [US]
+near_duplicates: []
 sample_n: null
-updated: 2026-05-12
+sample_population: "FDA TEP and TDS surveillance: FY2011 retail survey n=94 (speciated); FY2013-2022 TEP n=160 (total As, 14 speciated); FY2013-2020 TDS n=47 composite samples"
+audience: [regulator, educator, consumer, app]
+updated: 2026-05-19
 ---
 
 # FDA CFSAN 2023 — Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry
 
-FDA's June 2023 final guidance establishes an action level of 10 µg/kg (10 ppb) for inorganic arsenic in apple juice intended for human consumption, including apple cider. This finalises the approach presented in the July 2013 draft guidance (docket FDA-2012-D-0322) and represents a binding enforcement reference under 21 CFR 109.6(d): apple juice with iAs at or above this level may be regarded as adulterated under 21 U.S.C. 342(a)(1). The action level was set on the basis of achievability with current good manufacturing practices and a risk assessment that considered both cancer (carcinogenic) and non-cancer (neurodevelopmental) endpoints.
+FDA's June 2023 final guidance establishes an action level of 10 µg/kg (10 ppb) for inorganic arsenic in single-strength apple juice intended for human consumption, including apple cider. This finalises the approach presented in the July 2013 draft guidance (docket FDA-2012-D-0322) and is an enforcement reference under 21 CFR 109.6(d): apple juice with iAs at or above this level may be regarded as adulterated under section 402(a)(1) of the FD&C Act (21 U.S.C. 342(a)(1)). The action level was set on the basis of achievability under current good manufacturing practices together with a quantitative risk assessment that considered both cancer (lung and bladder) and non-cancer (neurodevelopmental) endpoints.
 
 ## Key numbers
 
-Action level: 10 µg/kg (10 ppb) iAs in single-strength apple juice (and apple cider)
-Regulatory basis: 21 CFR 109.6(d); adulteration provision 21 U.S.C. 342(a)(1)
+Action level: 10 µg/kg (10 ppb) iAs in single-strength apple juice (and apple cider).
+Regulatory basis: 21 CFR 109.6(d); adulteration provision 21 U.S.C. 342(a)(1); docket FDA-2012-D-0322.
+Historical reference: FDA's 2008 hazard assessment used a 23 ppb iAs level of concern based on short-term, non-cancer endpoints; that level of concern is no longer in use (superseded by this 2023 chronic-exposure action level).
 
-FDA surveillance data cited in the guidance:
-- FY2011 retail sample survey (n=94): mean iAs 4.4 ppb, SD 2.4 ppb, range 0–9.8 ppb; 90 of 94 samples had total As ≤10 ppb; all 94 had iAs <10 ppb; 51 samples had iAs <5 ppb
-- FY2013–2022 TEP data (n=160 single-strength apple juice samples): mean total As 4.6 ppb, SD 6.6 ppb, range 0–44 ppb
+FDA surveillance data cited in the guidance (Tables 1-2):
 
-The guidance notes that FDA "occasionally find apple juice samples with inorganic arsenic levels above 10 ppb" in surveillance, justifying the action level as a risk reduction measure beyond the typical market distribution.
+- FY2011 retail sample survey (n=94, all speciated): mean iAs 4.4 ppb (SD 2.4), range 0-9.8 ppb. Mean total As 6.4 ppb (SD 4.7), range 1.3-36 ppb. 90 of 94 samples had total As ≤10 ppb; the remaining four had total As 11-36 ppb but all four had iAs <10 ppb. All 94 samples had iAs <10 ppb; 51 samples had iAs <5 ppb.
+- FY2013-FY2022 TEP data (n=160 single-strength apple juice samples; total As): mean 4.6 ppb (SD 6.6), range 0-44 ppb. 143 samples had total As ≤10 ppb; 125 samples had total As ≤5 ppb.
+- FY2013-FY2022 TEP speciation subset (n=14, drawn from the 160 above): mean iAs 20.6 ppb (SD 10.1), range 8.3-39 ppb; 12 of the 14 confirmed iAs >10 ppb. (Speciation was applied selectively to samples with elevated total As, so this subset is not representative of the broader market.)
+- FY2013-FY2020 Total Diet Study (n=47 composite samples, including babies-and-general-consumption): mean total As 2.7 ppb (SD 2.0), range 0-10 ppb. TDS samples are three-retail composites and were not used in the achievability assessment.
 
-Codex status: No Codex ML for iAs in apple juice at time of publication.
+Achievability assessment (Tables 3-4; percentage of samples at or below each hypothetical limit):
+
+- FY2011 dataset (inorganic arsenic basis): 31% at 3 ppb, 54% at 5 ppb, 100% at 10 ppb.
+- FY2013-FY2022 dataset (total arsenic basis as conservative proxy): 63% at 3 ppb, 78% at 5 ppb, 89% at 10 ppb.
+
+Modeled lifetime (0-50 year chronic) lung+bladder cancer disease rates from Table 3 (FY2011 iAs-basis, cases per million):
+
+- 3 ppb limit: 2.5 (average consumer), 7.7 (3x high consumer).
+- 5 ppb limit: 4.8 (average), 14.9 (high).
+- 10 ppb limit: 8.0 (average), 24.9 (high).
+
+Table 4 (FY2013-2022 total-As basis, cases per million):
+
+- 3 ppb: 2.5 (average), 7.5 (high). 5 ppb: 3.2 (average), 9.8 (high). 10 ppb: 4.2 (average), 12.8 (high).
+
+Exposure reduction: a 10 ppb action level reduces estimated dietary total-arsenic exposure from apple juice by 42% at the 90th percentile children's consumption level (FY2013-2022 dataset).
+
+Codex status: no Codex Alimentarius maximum level for iAs in apple juice at the time of publication.
 
 ## Methods (brief)
 
-Guidance document summarising FDA's Toxic Elements in Food and Foodware, and Radionuclides in Food (TEP) program surveillance data from FY2005–2022. FDA's speciation methods applied to retail and imported apple juice samples. Risk assessment includes both 2013 cancer risk assessment (NRC Ref. 5) and growing body of neurodevelopmental evidence (Refs. 5, 7).
+Guidance document compiled from FDA Toxic Elements in Food and Foodware, and Radionuclides in Food (TEP) program surveillance and the FDA Total Diet Study. Analytical methods cited:
+
+- Total arsenic: inductively coupled plasma mass spectrometry (ICP-MS), FDA EAM 4.7 series methods.
+- Arsenic speciation: high-performance liquid chromatography coupled to ICP-MS (HPLC-ICP-MS), FDA in-house speciation methods. Speciation distinguishes iAs from organic forms monomethylarsonic acid (MMA) and dimethylarsinic acid (DMA). FDA's stated practice is to screen for total arsenic and speciate only samples with elevated totals.
+
+Limit of quantitation: 2.8 ppb per arsenic species in the FY2011 work; values below the LOQ were set to 1.4 ppb when computing the FY2011 inorganic-arsenic average. In the FY2013-2022 total-As achievability analysis, non-quantified values below LOQ were imputed at 2 or 4 ppb (the relevant LOQ) and values below LOD were set to zero — a conservative approach that assumes all measured arsenic is inorganic when computing disease rates.
+
+Consumption inputs: NHANES 2007-2008 per-capita apple juice consumption (0.83 g/kg bw/day for all persons aged 0-50) for the FY2011 modeling; WWEIA / NHANES 2003-2018 (0.69 g/kg bw/day) for the FY2013-2022 modeling.
+
+Dose-response: FDA used Taiwanese drinking-water arsenic cancer epidemiology (Chen et al. 2010 lung and urinary tract cancer studies, Refs. 20-21) as the basis for the cancer dose-response model.
 
 ## Limitations
 
-The guidance is non-binding as to the precise enforcement decision (FDA considers additional factors including analytical confidence); it does not establish a legally enforceable tolerance. Codex has not established a parallel ML, leaving the US standard isolated internationally. Total arsenic data from the TEP program are noted as the primary surveillance tool, with iAs speciation applied secondarily.
+The guidance is non-binding: FDA states it will consider analytical confidence and other factors when deciding whether to bring enforcement action in a particular case, rather than treating 10 ppb as a strict tolerance. The cancer dose-response is extrapolated from high-exposure Taiwanese drinking-water epidemiology, which is the same evidence base challenged in the NRC 2013 interim report (Ref. 5). The FY2013-2022 disease-rate modeling assumes all measured total arsenic is inorganic — a deliberately conservative substitution acknowledged in the footnote to Table 4 (median iAs/tAs ratio in the FY2011 sample was approximately 0.75). Codex has not set a parallel maximum level for iAs in apple juice, leaving the US standard internationally isolated. Apple juice concentrate is not separately addressed; dilution water quality (≤10 ppb As under 40 CFR 141.62 for municipal supply) is identified as a source of variation.
 
 ## Implications
 
-- Certification: This is the operative US regulatory limit for apple juice and apple cider for iAs. Action level = 10 ppb iAs. Any HMT&C product standard touching apple juice or apple juice concentrate must not set a higher limit than 10 ppb iAs.
-- Courses: Key regulatory document for the US iAs-in-juice standard. Demonstrates FDA's use of achievability as a co-criterion alongside risk in action-level setting.
-- App: Apple juice as an ingredient carries a 10 ppb iAs regulatory ceiling in the US. Baseline FDA surveillance shows market mean ~4.4 ppb, suggesting most commercial apple juice is well below the action level.
+- Certification: This is the operative US regulatory ceiling for iAs in apple juice and apple cider. Any HMT&C product standard touching apple juice or apple juice concentrate must not exceed 10 ppb iAs (literature-baseline binding floor); a tighter HMT&C value would carry rationale `market-ratcheting` or `precautionary` per Part 19. Manufacturer achievability data in this guidance (89% of FY2013-2022 samples already ≤10 ppb on the total-As conservative basis) supports a feasibility ceiling at 10 ppb iAs and suggests a market-ratcheting target near 5 ppb iAs is reachable for most producers.
+- Courses: Anchor regulatory document for the US iAs-in-juice standard. Useful exemplar of FDA's use of achievability as a co-criterion with risk; the rationale chain (FY2011 surveillance → 2013 draft → 2023 final) is teachable as a Closer to Zero workflow.
+- App: Apple juice as an ingredient carries a 10 ppb iAs regulatory ceiling in the US, with market mean iAs around 4 ppb in routine surveillance. Apple cider falls under the same action level. Concentrate and ready-to-drink reconstituted juice are both in scope.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[metals/arsenic]]
-- [[ingredients/apple-juice]]
-- [[regulations/fda-ias-apple-juice-10ppb-2023]]
+Merge-enhanced 2026-05-19 from existing 2026-05-12 page during MFK ingest pass (MFK_arsenic-in-pear-juice-analytical-results-from-2005). The PDF filename in the Manual Fetch Kimi folder ("Arsenic in Pear Juice Analytical Results from 2005-2011.pdf") is mislabeled; the actual content is FDA's June 2023 Apple Juice action level guidance. The MFK PDF is byte-identical (SHA256 0c92d0eb07e37fe4eecd73904bfcd6a4ceedadd9a90494012820d27b49811454) to the previously-ingested raw/reports/fda2023-ias-apple-juice-guidance.pdf, so the existing cite-key and raw_path are preserved.
+
+Enhancements applied:
+
+- Added raw_handle to record the MFK manual-fetch identity.
+- Renamed legacy `sha256:` field to current `raw_sha256:` schema.
+- Added `audience` frontmatter.
+- Added `tAs` to metals (the guidance reports total arsenic surveillance data alongside speciated iAs).
+- Dropped `products/fresh-fruit` from products: the guidance is exclusively apple juice and apple cider; fresh fruit is out of scope.
+- Removed legacy `## Wiki pages updated on ingest` heading.
+- Expanded Key numbers with the FY2013-2022 speciation subset (n=14, mean iAs 20.6 ppb), TDS data (n=47), achievability percentages from Tables 3-4, modeled disease rates, the 42% exposure-reduction figure, and the historical 2008 23 ppb level of concern.
+- Strengthened Methods to name ICP-MS (total) and HPLC-ICP-MS (speciation), LOQs, consumption inputs (NHANES, WWEIA), and the Taiwanese dose-response basis.
+- Tightened the opening prose and Limitations to reflect the cancer + neurodevelopmental dual basis and the conservative total-As substitution in disease-rate modeling.
