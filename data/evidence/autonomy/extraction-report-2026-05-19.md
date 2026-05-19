@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-19
 
-Generated: 2026-05-19T22:04:30.496Z
+Generated: 2026-05-19T23:02:43.341Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 998
-- Pages with `## Key numbers` section: 888
-- Pages without Key numbers section (skipped): 109
-- Structured rows extracted: 5512
+- Source pages processed: 999
+- Pages with `## Key numbers` section: 890
+- Pages without Key numbers section (skipped): 108
+- Structured rows extracted: 5589
 - Pages with Key numbers but no parseable values: 72
 
 ## Output
@@ -19,22 +19,22 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1098 rows
-- Cd: 1045 rows
-- Cr-total: 532 rows
-- Ni: 497 rows
-- tAs: 412 rows
+- Pb: 1109 rows
+- Cd: 1050 rows
+- Cr-total: 538 rows
+- Ni: 508 rows
+- tAs: 424 rows
 - Al: 345 rows
-- tHg: 331 rows
-- iAs: 173 rows
-- Cu: 164 rows
+- tHg: 334 rows
+- iAs: 180 rows
+- Cu: 166 rows
 - Co: 139 rows
 - Fe: 99 rows
 - MeHg: 93 rows
 - Sn: 87 rows
 - Mn: 82 rows
+- U: 81 rows
 - Se: 73 rows
-- U: 61 rows
 - V: 52 rows
 - Sb: 40 rows
 - Ba: 34 rows
@@ -61,10 +61,10 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2083 rows
+- (empty): 2084 rows
 - fresh-fish: 289 rows
+- fresh-fruit: 180 rows
 - baby-cereals-dry-rice-based: 180 rows
-- fresh-fruit: 174 rows
 - seafood: 171 rows
 - spices: 171 rows
 - canned-fish: 128 rows
@@ -76,8 +76,8 @@ Elapsed: 0s
 - honey: 62 rows
 - children-personal-care: 59 rows
 - vinegar: 59 rows
+- chocolate: 58 rows
 - fish-freshwater: 58 rows
 - root-tuber-vegetables: 55 rows
 - tea-infusions: 49 rows
 - poultry-product: 48 rows
-- baby-lotion-cream: 46 rows

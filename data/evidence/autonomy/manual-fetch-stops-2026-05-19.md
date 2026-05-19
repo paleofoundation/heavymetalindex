@@ -52,3 +52,28 @@ The task wrapper is explicit: "If you hit any of the stop conditions defined in 
 Either (a) finish or remove `wiki/sources/original2020-original-a.md` so the YAML parses (close the frontmatter with `---` before the first `##` heading, or move the file out of `wiki/sources/` while it is still in draft), or (b) decide that the file should be deleted (it is currently untracked; `rm` removes it without git churn). After either, `npm run evidence:source-routes` will reach the sobhanardakani page and the merge-enhance can be re-applied and committed in a future tick.
 
 **Final line**: `STOP: routing audit fails on pre-existing untracked malformed wiki/sources/original2020-original-a.md (missing frontmatter terminator); cannot verify routing for sobhanardakani2017 ingest; merge-enhance reverted, no commit made.`
+
+## shavalig2025-canned-tomato-olives-pickles-iran (MFK/01_Fruits_and_Fruit_Products)
+
+**PDF**: `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf`
+
+**Stop reason**: duplicate-page conflict — two wiki source pages exist for the same DOI (`10.1038/s41598-025-06896-9`), each ingested from a different copy of the same PDF. Consolidation requires Karen's call.
+
+**Detail**:
+
+- DOI grep against `wiki/sources/` returns two hits for `10.1038/s41598-025-06896-9`:
+  1. `wiki/sources/shavalig2025-canned-tomato-olives-pickles-iran.md` — `updated: 2026-05-17` (post-cutoff), `raw_handle: MFK_investigation-heavy-metal-canned-tomato-olives-pickle`, `raw_path` points to the 01_Fruits folder (the PDF assigned this tick), full current-schema body (Key numbers with all 8 metals × 3 matrices, Methods brief with full instrument detail, Implications, Wiki pages this source may touch). Comprehensive and clean.
+  2. `wiki/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran.md` — `updated: 2026-05-13` (pre-cutoff), `raw_handle: manual-fetch-kimi` (generic placeholder), `raw_path` points to a duplicate copy under `02_Vegetables_and_Vegetable_Products/.../Investigation of Heavy Metal Levels in Canned Tomato Paste, Olives, and Pickled Cucumbers.pdf` (which does exist on disk; the same paper was shipped into both Kimi category folders). Legacy schema: trailing section is `## Wiki pages updated on ingest`, frontmatter `metals: [Pb, Cd, tHg, Sn]` is incomplete (Cu/As/Fe/Zn detected and reported in body but omitted from frontmatter), ingredients/products slug lists overlap but not identical to the newer page.
+- Both PDFs (01_Fruits and 02_Vegetables copies) are the same paper — Shavali-gilani P et al., *Scientific Reports* 15:20923 (2025), DOI 10.1038/s41598-025-06896-9.
+- Neither cite-key appears in `data/evidence/product_source_routing_audit.csv`, `routing_unresolved.csv`, `routing_malformed.csv`, or `audit-queue.csv`. The newer comprehensive page is therefore not currently producing any product-page routes — likely because the products it declares (`canned-tomatoes`, `canned-vegetables`) are not Step-0-Locked HMTc rows yet, so routing skips them. That is a separate matter from this stop.
+- Per skill Phase 1 step 1: "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." The 01_Fruits PDF's page (shavalig2025) qualifies for skip. The 02_Vegetables sibling page is the defect.
+
+**Why no autonomous merge/delete**:
+
+The two pages have different cite-keys, so any inbound wikilinks (from product pages, metal pages, generator outputs) using `[[wiki/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran]]` would break if I deleted the older page; conversely, deleting the newer (correct) page would lose the better-curated content. Resolving the conflict requires (a) a grep of inbound references to both cite-keys across `wiki/` and `data/`, (b) a decision on the canonical cite-key form (`shavalig2025-...` vs `shavali-gilani2025-...` — the latter is more conventional first-author-surname formatting), and (c) deletion of the loser. That is consolidation work that should happen as a dedicated dedup pass, not folded into a per-PDF ingest tick.
+
+**What unblocks**:
+
+Karen (or a dedicated dedup pass) chooses the canonical cite-key, redirects any inbound links to it, deletes the loser, and re-runs the routing audit. After that, this PDF's ingest is complete and no further action is needed.
+
+**Final line**: `STOP: duplicate-page conflict — wiki/sources/shavalig2025-canned-tomato-olives-pickles-iran.md (post-cutoff, clean) and wiki/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran.md (pre-cutoff, legacy schema) both cover DOI 10.1038/s41598-025-06896-9; consolidation requires Karen's call on canonical cite-key.`

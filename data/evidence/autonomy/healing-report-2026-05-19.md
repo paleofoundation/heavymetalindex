@@ -1,25 +1,21 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T22:04:30.006Z
+Generated: 2026-05-19T23:02:43.094Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 0
+- Fixes applied: 3
 - Queued for synthesis: 0
 - Routing typo proposals: 6
-- Provisional scaffolds created: 5
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 231
+- Provisional scaffolds created: 0
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 232
 
-## Provisional scaffolds created
+## Fixes applied
 
-- product/`infant-formula-powder-dairy` (triggered by source editor2019-manganese-levels-infant-formula)
-- product/`infant-formula-rtf-dairy` (triggered by source editor2019-manganese-levels-infant-formula)
-- product/`infant-formula-rtf-soy` (triggered by source editor2019-manganese-levels-infant-formula)
-- product/`nutritional-beverage-child` (triggered by source editor2019-manganese-levels-infant-formula)
-- ingredient/`casein` (triggered by source editor2019-manganese-levels-infant-formula)
-
-See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
+- wiki/products/infant-formula-powder-dairy.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
+- wiki/products/infant-formula-rtf-dairy.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
+- wiki/products/infant-formula-rtf-soy.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
 
 ## Items needing surfacing
 
@@ -45,4 +41,4 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/body-wash-shower-gel.md` — no canonical analyte default for slug body-wash-shower-gel
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
-- ... and 211 more (see queue file)
+- ... and 212 more (see queue file)

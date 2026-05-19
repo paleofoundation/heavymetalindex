@@ -835,3 +835,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 11 (priority ordering), Part 9 (synthesis gating at n=2), Part 18 (pool_too_thin audit). Supplies ranked input to future bulk-ingest campaigns.
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Create pool-blocked root-cause audit
+
+**What:** Build a deterministic audit that categorizes each of the 351 pool_blocked_cells by root blocker (missing structured values, insufficient tier, basis mismatch, routing unresolved, etc.), ranks by impact, and emits a prioritized recovery roadmap.
+
+**Why this lever now:** The 351 blocked cells represent evidence trapped downstream of synthesis—they have routed sources but cannot form pools. Without visibility into the breakdown by reason, the autonomy loop cannot allocate extraction work strategically. The audit will answer: do 20 structured-value extractions unblock 80 cells, or is the constraint elsewhere (basis conversion, insufficient tier, routing gaps)?
+
+**Where:**
+- New script: `tools/autonomy/audit-pool-blocked-root-causes.mjs`
+- Output: `data/evidence/autonomy/pool-blocked-analysis-<date>.md` 
+- Ranked summary showing "extract from N sources in category X → unblocks M cells"
+
+**How:**
+1. For each of 351 blocked (ingredient, metal) cells, list contributing sources via routing audit
+2. Per source: check structured-value completion, evidence tier, basis/matrix/species compatibility
+3. Classify the primary blocker (missing_extraction, insufficient_tier, basis_mismatch, matrix_mismatch, routing_unresolved)
+4. Group by blocker type, count cells per type, sort by leverage
+5. Output a ranked to-do: "Fix source extraction in category X (20 sources) → unlocks 47 cells" etc.
+
+**Anchors:** CLAUDE.md Part 9 (synthesis triggering preconditions), Part 18 (lint-audit pattern), Part 19 (synthesis feeds threshold-setting). Similar architecture to existing `audit-pending-locks.mjs` (Part 10).
+
+---

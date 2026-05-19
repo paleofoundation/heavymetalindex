@@ -117,3 +117,16 @@
 ### Succeeded
 - `amer2019-egyptian-fruits-heavy-metals` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Exposure assessment of heavy metal residues in some selected fruits (apples, grapes, and oranges) obtained from four Egyptian governorates.pdf)
 - `fda-tds-elements-2018-2020` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/FDA Total Diet Study Report_ Fiscal Years 2018-2020 Elements Data.pdf)
+
+## Tick 2026-05-19T23:03:34.543Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `mawari2022-heavy-metals-fruits-vegetables-india` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf`: duplicate-page conflict — wiki/sources/shavalig2025-canned-tomato-olives-pickles-iran.md (post-2026-05-14, clean) and wiki/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran.md (pre-2026-05-14, legacy schema) both cover DOI 10.1038/s41598-025-06896-9; consolidation requires Karen's call on canonical cite-key.
