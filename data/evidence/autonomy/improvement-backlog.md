@@ -639,3 +639,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 8 (query workflow), Part 9 (synthesis thresholds: 2+ sources to initialize, 3+ for confidence), Part 11 (priority ordering), autonomy-prioritization layer.
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Audit routed sources missing structured-value extraction
+
+**What:** Create `tools/autonomy/audit-routed-sources-missing-values.mjs` to identify all sources routed to pool-blocked cells and output a prioritized extraction queue ranked by cell-impact and source-tier, surfacing why structured values are absent.
+
+**Why this lever now:** 306 pool_blocked_cells represent routed sources that cannot synthesize because their metal values (typical_ppb, p95_ppb, n) are missing from the evidence register. The 43% extraction rate (557/986 sources) suggests systematic ingest coverage gaps, not random defects. Auditing which routed sources lack values unblocks synthesis directly and surfaces extraction schema mismatches before they accumulate further.
+
+**Where:**
+- New script: `tools/autonomy/audit-routed-sources-missing-values.mjs`
+- Output: `data/evidence/autonomy/missing-extracted-values-<date>.json` (one row per [source, target_cell] pair, ranked by number_of_blocked_cells × evidence_tier)
+- Report rows: cite_key, target_cell, routed_metal_count, extracted_metal_count, evidence_tier, reason_missing (never_attempted | schema_mismatch | source_type_uncovered | manual_only)
+- Include in morning-report manifest (`data/evidence/autonomy/`)
+
+**How:**
+1. Read routing audit to enumerate all (source, target_cell, route_kind) triples
+2. For each source, query evidence register: count metals with extracted values vs metals the cell requires
+3. For sources with routed cells but <100% extracted metals: classify reason and compute impact (how many cells waiting on this source)
+4. Rank descending by (cells_blocked × evidence_tier), emit queue
+5. Backfill the script into the prebuild pipeline so the queue regenerates after each ingest
+
+**Anchors:** CLAUDE.md Part 4 (deterministic extraction belongs first in evidence register), Part 5b (sources must leave structured traces or explicit gap records), Part 9 (synthesis reads values from evidence layer). This audit surfaces the exact blocking condition and feeds either re-extraction or schema-gap resolution.
+
+---

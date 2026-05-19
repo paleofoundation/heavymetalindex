@@ -36,3 +36,14 @@
 
 ### Failed
 - `raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Pollutants in Breast Milk_ A Scoping Review of the Most Recent Data in 2024.pdf`: unrecognized final line: "End-of-turn summary: Re-ingested the 2026-05-17 codex-revised page after re-reading source pp. 1–14. The Phase 1 ingest corrected a Pb-urban exposure-determinant transposition (urban actually attributes to As, Pb to smoking and well-water), added the Murcia mining-vs-agricultural pattern, added the Italian PHIME tHg neurodevelopment OR (with `tHg` added to `metals:`), and added the Ethiopian DDT EDI. The fresh-context audit subagent returned REVISE with three findings, all verified correct and applied: split the Murcia (ref [12]) from Ghana (ref [13]) for the WHO-exceedance percentages, removed the cross-source Katrynska sentence, and removed a Table 1 DDT line with a FAO/WHO mis-attribution. Three commits: ingest enhancement (c533300), audit application (fdcce06), audit-queue update (d06b7ad). Routing audit clean throughout (0 unresolved, 0 blocking)."
+
+## Tick 2026-05-19T15:57:42.315Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `islam2024-heavy-metals-bangladeshi-fruits-review` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks.pdf)
+- `paudel2024-packaged-fruit-juices-nepal` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Analysis and Detection of Heavy Metals Content in Some Selected Packaged Fruit Juices of Kathmandu City by Flame Atomic Absorption Spectroscopy.pdf)

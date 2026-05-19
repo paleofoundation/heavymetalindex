@@ -30,4 +30,14 @@
 - P1 `unknown2021-current-research-toxicology` (FM_11621596)
 
 ### Failed
-- P1 `comparative2022-comparative-biomonitoring-arsenic-exposure` (FM_9739351): exit 1: 
+- P1 `comparative2022-comparative-biomonitoring-arsenic-exposure` (FM_9739351): exit 1:
+
+## Batch 2026-05-19T15:57:42.223Z
+
+- Candidates this batch: 2
+- Succeeded: 2
+- Failed: 0
+
+### Succeeded
+- P1 `comparative2022-comparative-biomonitoring-arsenic-exposure` (FM_9739351)
+- P1 `unknown2021-current-research-toxicology` (FM_11621596)

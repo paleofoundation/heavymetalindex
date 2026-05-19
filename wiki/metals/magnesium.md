@@ -6,7 +6,7 @@ name: Magnesium
 species: [Mg2+, magnesium-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 3
+sources: 7
 updated: 2026-04-30
 status: stub
 n_sources: 1

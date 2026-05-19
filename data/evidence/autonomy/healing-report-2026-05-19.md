@@ -1,19 +1,15 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T02:05:24.438Z
+Generated: 2026-05-19T15:55:46.015Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 1
+- Fixes applied: 0
 - Queued for synthesis: 0
 - Routing typo proposals: 0
 - Provisional scaffolds created: 0
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 229
-
-## Fixes applied
-
-- wiki/products/infant-food-puree.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `baby-puree`)
 
 ## Items needing surfacing
 

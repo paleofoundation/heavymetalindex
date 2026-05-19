@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1208 candidate queries
-- Path B (empty product + thin ingredient pages): 8174 candidate queries
-- Total candidates (after dedup): 9382
+- Path A (pooling-engine-driven thin cells): 1204 candidate queries
+- Path B (empty product + thin ingredient pages): 8116 candidate queries
+- Total candidates (after dedup): 9320
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9382
+- Eligible after filtering: 9320
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -21,32 +21,32 @@
 
 Threshold: a (query × cell) attempted >=5 times with <2 successful downloads is dropped from this run.
 
-Audit-log scale: 0 (query × cell) histories tracked.
+Audit-log scale: 148 (query × cell) histories tracked.
 
 ## Top 20 priority queries this run
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | canned-fish × MeHg | canned fish methyl mercury occurrence |
-| P1 | infant-porridges-dairy × tAs | infant porridges dairy total arsenic |
-| P1 | baby-oil × Cd | baby oil Cd occurrence |
-| P1 | baby-oil × Cd | baby oil heavy metals Cd occurrence |
-| P1 | carpet-cleaners × Pb | carpet cleaners heavy metals lead |
-| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking teething aids arsenic occurrence |
-| P1 | salt × Cd | salt food contact material Cd |
-| P1 | supplements-oral-liquids-droppers × tHg | oral liquids: droppers mercury |
-| P1 | toys-battery-electronic × tAs | battery-operated/electronic toys arsenic |
-| P1 | salt × tAs | salt cookware leaching arsenic |
-| P1 | sensor-puff-releasers × tAs | sensor puff releasers heavy metals total arsenic |
-| P1 | infant-cereal × tHg | infant cereal mercury occurrence |
-| P1 | baby-powder-cornstarch × Cd | baby powder cornstarch cosmetic safety cadmium |
-| P1 | infant-bottles × tAs | infant bottles arsenic |
-| P1 | home-air-emission-products-other × tAs | home air emission products other total arsenic |
-| P1 | food-packaging-foils-wraps × Cd | food packaging foils wraps Cd |
-| P1 | supplements-teas-labeled × Cd | supplements teas labeled heavy metals cadmium occurrence |
-| P1 | plant-milks-non-soy-non-rice × Cd | plant milks non soy non rice heavy metals Cd occurrence |
-| P1 | infant-formula-dairy × Sn | infant formula dairy heavy metals tin occurrence |
-| P1 | clasps-fasteners-infant-products × Pb | clasps fasteners infant products heavy metals Pb |
+| P1 | herbal-botanical-infusions × Al | herbal botanical infusions aluminium occurrence |
+| P1 | infant-bottle-nipples × Pb | bottle nipples and spouts lead |
+| P1 | rice-noodles × tAs | rice noodles heavy metals arsenic |
+| P1 | baby-sunscreen-mineral × Pb | baby sunscreen mineral Pb occurrence |
+| P1 | baby-oil × Pb | baby oil heavy metals Pb occurrence |
+| P1 | canned-vegetables × Pb | canned vegetables Pb occurrence |
+| P1 | supplements-vitamin-mineral × Cd | ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral) cadmium |
+| P1 | fabric-softeners × tAs | fabric softeners (liquids and sheets) arsenic |
+| P1 | baby-powder-cornstarch × Pb | baby powder cornstarch Pb occurrence |
+| P1 | supplements-oral-liquids-shots × Cd | oral liquids: liquid shots Cd |
+| P1 | nebula-diffusers × Cd | nebula diffusers heavy metals Cd |
+| P1 | anti-static-products × Pb | anti static products Pb |
+| P1 | toothbrushes × Pb | toothbrushes (manual, electric heads) Pb |
+| P1 | tableware-metal-bottles-tumblers × Cd | metal bottles/tumblers cadmium |
+| P1 | sports-energy-drinks × Pb | sports energy drinks heavy metals Pb occurrence |
+| P1 | baby-powder-cornstarch × Cd | baby powder, cornstarch-based Cd |
+| P1 | food-storage-glass-containers × Cd | food storage glass containers heavy metals cadmium |
+| P1 | food-storage-glass-containers × tHg | food storage glass containers heavy metals mercury |
+| P1 | instant-air-refreshment-sprays × Pb | instant air refreshment sprays heavy metals Pb |
+| P1 | baby-sunscreen-mineral × Cd | baby sunscreen mineral Cd occurrence |
 
 ## Coverage rotation
 
