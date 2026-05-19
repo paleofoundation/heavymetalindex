@@ -21,7 +21,7 @@ matrices: [packaged-fruit-juice, apple-juice, mango-juice, orange-juice]
 jurisdictions: [NP]
 near_duplicates: []
 sample_n: 16
-sample_population: "Sixteen commercially packaged fruit-juice samples — four flavours (orange, apple, mango, lychee) drawn from four popular brands sold in retail markets of Kathmandu, Nepal. Brand identities are not disclosed in the source; the paper labels the four brands as A, B, C, and D as anonymised codes. Each sample was acid-digested and analysed in analytical triplicate (n=48 measurements over 16 samples)."
+sample_population: "Sixteen commercially packaged fruit-juice samples — four flavours (orange, apple, mango, lychee) drawn from four popular brands sold in retail markets of Kathmandu, Nepal. Brand identities are not disclosed in the source; the paper anonymises the four brands as A, B, C, and D. Each sample was prepared in analytical triplicate (source p. 159: 'All the samples were prepared three times to minimize the possibility of error')."
 updated: 2026-05-19
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -37,36 +37,38 @@ Sixteen packaged fruit-juice samples (4 brands × 4 flavours), analysed in analy
 
 ### Iron (Table 2 of source, p. 161; mg/L)
 
-| Flavour | Range across four brands | Mean of four | WHO/JECFA inferred ref (mg/L) |
-|---|---|---:|---|
-| Orange juice | 0.572–0.762 | 0.657 | 2.0 |
-| Mango juice | 0.362–0.624 | 0.525 | 2.0 |
-| Apple juice | 0.277–3.649 | 1.199 | 2.0 |
-| Lychee juice | 0.279–1.770 | 0.707 | 2.0 |
+| Flavour | Range across four samples | Mean (wiki-computed)¹ | WHO/JECFA inferred ref (mg/L) | Samples > ref |
+|---|---|---:|---|---:|
+| Orange juice | 0.572–0.762 | 0.657 | 2.0 | 0 / 4 |
+| Mango juice | 0.362–0.624 | 0.525 | 2.0 | 0 / 4 |
+| Apple juice | 0.277–3.649 | 1.199 | 2.0 | 1 / 4 |
+| Lychee juice | 0.279–1.770 | 0.707 | 2.0 | 0 / 4 |
 
-One apple-juice sample at 3.649 mg/L exceeds the 2 mg/L WHO/JECFA PMTDI-derived reference; the second-highest single value was a lychee sample at 1.770 mg/L. All other thirteen samples sit ≤0.762 mg/L. Per-brand values for the apple flavour were 0.347, 0.277, 3.649, and 0.523 mg/L (brands A, B, C, D in the source ordering); for the lychee flavour 0.442, 0.336, 0.279, and 1.770 mg/L.
+¹ Flavour-level means are computed on this page from the four per-flavour values reported in source Table 2; the source itself does not report flavour means.
+
+One of the four apple-juice samples carried Fe at 3.649 mg/L, exceeding the 2 mg/L WHO/JECFA PMTDI-derived water-derived reference; the other three apple-juice samples were ≤0.523 mg/L. The next-highest single Fe value across all sixteen samples was a lychee sample at 1.770 mg/L; the remaining fourteen samples were ≤0.762 mg/L.
 
 ### Copper (Figure 5 of source, p. 161; mg/L)
 
-| Flavour | Range across four brands | WHO drinking-water guideline (mg/L) |
-|---|---|---|
-| Orange juice | BDL–0.574 | 2.0 |
-| Mango juice | BDL across all four brands | 2.0 |
-| Apple juice | BDL–0.023 | 2.0 |
-| Lychee juice | BDL–0.041 | 2.0 |
+| Flavour | Range across four samples | Samples >BDL / 4 | WHO drinking-water guideline (mg/L) |
+|---|---|---:|---|
+| Orange juice | BDL–0.574 | 3 / 4 | 2.0 |
+| Mango juice | BDL across all four | 0 / 4 | 2.0 |
+| Apple juice | BDL–0.023 | 1 / 4 | 2.0 |
+| Lychee juice | BDL–0.041 | 1 / 4 | 2.0 |
 
-Per-brand orange-juice Cu was 0.111, BDL, 0.574, and 0.523 mg/L (A, B, C, D); the 0.023 mg/L apple-juice and 0.041 mg/L lychee-juice maxima were both in brand C. All sixteen samples are well within the 2 mg/L WHO drinking-water guideline.
+All sixteen samples are well within the 2 mg/L WHO drinking-water guideline; the overall maximum (0.574 mg/L, one orange-juice sample) is ~29% of that guideline.
 
 ### Zinc (Table 3 of source, p. 162; mg/L)
 
-| Flavour | Range across four brands | WHO drinking-water guideline (mg/L) |
-|---|---|---|
-| Orange juice | 0.0511–0.2026 | 3.0 |
-| Mango juice | <0.01–0.0700 | 3.0 |
-| Apple juice | <0.01 across all four brands | 3.0 |
-| Lychee juice | <0.01–0.0287 | 3.0 |
+| Flavour | Range across four samples | Samples ≥0.01 mg/L / 4 | WHO drinking-water guideline (mg/L) |
+|---|---|---:|---|
+| Orange juice | 0.0511–0.2026 | 4 / 4 | 3.0 |
+| Mango juice | <0.01–0.0700 | 3 / 4 | 3.0 |
+| Apple juice | <0.01 across all four | 0 / 4 | 3.0 |
+| Lychee juice | <0.01–0.0287 | 1 / 4 | 3.0 |
 
-Per-brand orange-juice Zn was 0.0521, 0.1692, 0.2026, and 0.0511 mg/L (A, B, C, D); per-brand mango-juice Zn was 0.0481, 0.0663, 0.0700, and <0.01 mg/L. Apple-juice Zn was below 0.01 mg/L for all four brands; only one lychee sample (brand D, 0.0287 mg/L) was above 0.01 mg/L. All measurable values are well within the 3 mg/L WHO drinking-water guideline.
+The overall Zn maximum (0.2026 mg/L, one orange-juice sample) is ~7% of the 3 mg/L WHO drinking-water guideline; all sixteen samples are well within that guideline.
 
 ### Lead (Figure 6 of source, p. 162; mg/L)
 
@@ -77,7 +79,7 @@ Per-brand orange-juice Zn was 0.0521, 0.1692, 0.2026, and 0.0511 mg/L (A, B, C, 
 | Apple juice | BDL across all four brands | 0.01 | 0.03 (general) |
 | Lychee juice | BDL across all four brands | 0.01 | 0.03 (general) |
 
-Lead was below the detection limit in every one of the sixteen samples. The source reports R² = 0.978 for the Pb calibration curve (with curve equation y = 0.039x + 0.030) and a Pb working range covering 0–10 mg/L; an explicit numerical LOD value is not stated, so "below detection limit" cannot be converted to a numeric upper bound from the paper alone.
+Lead was below the detection limit in every one of the sixteen samples. The source reports R² = 0.978 for the Pb calibration curve (equation y = 0.039x + 0.030); the x-axis of Fig. 4 (p. 160) extends to ~10 mg/L, but the source does not explicitly state a Pb working range or a numerical LOD, so "below detection limit" cannot be converted to a numeric upper bound from the paper alone.
 
 ### Calibration performance (Table 1 of source, p. 161)
 
@@ -94,7 +96,7 @@ Sample collection: sixteen commercially packaged fruit juices (4 brands × 4 fla
 
 ## Implications
 
-**Certification:** Lead was below detection in all sixteen Kathmandu packaged fruit-juice samples (FAAS, no explicit numeric LOD reported), consistent with prior Nepali and South-Asian beverage studies that report Pb in packaged juices at or below the WHO 0.01 mg/L drinking-water reference. The dataset is small (n=16) and the analytical method (FAAS without GFAAS or ICP-MS confirmation, no CRM recovery reported) is not the most sensitive available for Pb at sub-ppb levels; the certifier should treat "below detection" here as bounding rather than excluding contamination.
+**Certification:** Lead was below detection in all sixteen Kathmandu packaged fruit-juice samples (FAAS, no explicit numeric LOD reported). The dataset is small (n=16) and the analytical method (FAAS without GFAAS or ICP-MS confirmation, no CRM recovery reported) is not the most sensitive available for Pb at sub-ppb levels; "below detection" here bounds rather than excludes contamination.
 
 **Courses:** Useful as an example of how drinking-water guideline values are commonly substituted for fruit-juice-specific maximum levels in regional studies when the Codex MLs (Pb 0.03 mg/kg general, 0.04 mg/kg grape, 0.05 mg/kg berry/small-fruit) are not invoked. Also illustrates why FAAS with R²=0.978 on the Pb curve is at the lower edge of usable for sub-ppb Pb work.
 
@@ -119,7 +121,12 @@ Sample collection: sixteen commercially packaged fruit juices (4 brands × 4 fla
 - Frontmatter `metals` expanded from `[Pb]` to `[Pb, Fe, Cu, Zn]` — the prior listing dropped three of the four metals the source actually measured. All four have wiki metal pages.
 - Frontmatter `ingredients` previously listed `[[ingredients/lychee-juice]]`, which is not a wiki page; "lychee-juice" is registered only as an alias on `ingredients/fruit-juice.md`. Replaced the invalid slug with `[[ingredients/fruit-juice]]` so the lychee evidence still routes to the parent ingredient. (Per CLAUDE.md Part 10 the lychee-juice page is below the 5-paper threshold for its own ingredient page; this is the routing the alias was created for.) `matrices:` similarly trimmed to remove the bare `lychee-juice` matrix that has no controlled-vocabulary entry.
 - Evidence tier reduced from A to B: the source is peer-reviewed open-access, but the methods section reports no CRM recovery, no LOD/LOQ table, no procedural-blank values, and no matrix-matched standards. Pb calibration R²=0.978 is at the lower edge of accepted linear-range fit. Per CLAUDE.md Part 13 evidence-tier rules, those omissions place this paper in B rather than A.
-- Per-brand values for Fe, Cu, and Zn are reproduced in the Key numbers narrative because the source itself anonymises the brands as A, B, C, D — no real brand names are disclosed in the source and none have been introduced on this page. The brand letters are the source's own anonymisation, not a wiki-side ranking; no Part 12 brand-firewall violation arises. Ranges and means are also tabulated so downstream synthesis can use the aggregate without per-brand reattribution.
 - The source's calibration values for Cu, Zn, and Pb in Table 1 use truncated decimal forms (y=0.173x+0.007, y=0.12x+0.008, y=0.039x+0.030) while the figures (Figs 2–4) carry one more decimal place. The Key numbers table reproduces the Table 1 forms because that is the source's stated calibration record.
 - WHO/FAO comparison values used by the authors are reproduced as the authors state them. The 2 mg/L Fe reference is explicitly an inference from the JECFA 1983 PMTDI, not a fruit-juice MAC; the 0.01 mg/L Pb reference is the WHO drinking-water guideline; the Codex MLs for Pb in fruit juice (0.03 mg/kg general; 0.04 mg/kg grape; 0.05 mg/kg berry/small-fruit) are noted on this page but were not used by the authors as the primary comparator.
-- No HMTc threshold proposals, consumer risk advisories, or cross-literature synthesis claims appear in the body — Part 2 firewall clean.
+- Audit subagent (2026-05-19) flagged Check 4 ❌ for per-brand contamination values reproduced under the source's anonymous A/B/C/D codes throughout the Key numbers narrative — the original draft of this page named "brand C" three times as the highest-Fe, highest-Cu, and highest-Zn brand. Verified against Part 12 strict reading (locked 2026-05-17): even though the source's A/B/C/D codes do not disclose real brand names, reproducing per-brand rankings on the wiki side is the brand-by-brand ranking pattern Part 12 prohibits. Finding applied — Key numbers tables and narrative now report ranges, wiki-computed flavour means, and counts of samples above thresholds, with no per-brand attribution. The previous Verification-notes paragraph that defended the per-brand reproduction has been removed.
+- Audit subagent (2026-05-19) flagged Check 5 ⚠️ for a cross-source synthesis claim ("consistent with prior Nepali and South-Asian beverage studies…") and an imperative voice ("the certifier should treat…") in the Implications → Certification block. Verified against Part 2 firewall: both are real boundary slips. Synthesis sentence removed; "should treat" softened to descriptive "bounds rather than excludes contamination."
+- Audit subagent (2026-05-19) flagged Check 1 ⚠️ that "Pb working range covering 0–10 mg/L" was inferred from the x-axis of Fig. 4 rather than stated by the source. Verified against source p. 160 Fig. 4 and p. 159 Methods: the inference is reasonable but the source does not use the words "working range." Wording corrected to "the x-axis of Fig. 4 (p. 160) extends to ~10 mg/L, but the source does not explicitly state a Pb working range or a numerical LOD."
+- Audit subagent (2026-05-19) flagged Check 1 ⚠️ that the "n=48 measurements over 16 samples" framing was wiki-derived from "samples were prepared three times." Verified against source p. 159: source uses "prepared three times to minimize the possibility of error" without stating an n=48 count. Sample-population field rewritten to quote the source verbatim and drop the n=48 framing.
+- Audit subagent (2026-05-19) flagged Check 1 ⚠️ that the Fe "Mean of four" column is wiki-computed because the source does not report flavour means. Verified: arithmetic checked, source Table 2 does not report means. Footnote added under the Fe table noting the means are wiki-computed.
+- Audit subagent (2026-05-19) flagged Check 2 ❌ that `ingredients/apple-juice` and `ingredients/mango-juice` are not present in the taxonomy snapshot. Verified against `docs/gpt-collaboration/taxonomy-snapshot.md`: both slugs ARE present in the snapshot's Ingredients line (alongside `orange-juice`, `fruit-juice`, `grapefruit-juice`, etc.); both have wiki pages at `wiki/ingredients/apple-juice.md` and `wiki/ingredients/mango-juice.md`. The audit finding is a false positive — the subagent missed these slugs while scanning the comma-separated list. No change applied.
+- No HMTc threshold proposals, consumer risk advisories, or remaining cross-literature synthesis claims appear in the body — Part 2 firewall clean after audit-application edits. Part 12 brand firewall clean after audit-application edits.
