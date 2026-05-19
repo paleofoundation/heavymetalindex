@@ -76,4 +76,14 @@
 - P1 `abstract2020-content-dietary-exposure-toxic` (FM_7763862)
 
 ### Failed
+- P1 `editor2019-manganese-levels-infant-formula` (FM_6830775): exit 1:
+
+## Batch 2026-05-19T19:37:43.642Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
 - P1 `editor2019-manganese-levels-infant-formula` (FM_6830775): exit 1: 
+- P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): exit 1: 

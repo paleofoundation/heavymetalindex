@@ -8,7 +8,7 @@ provisional_scaffold: true
 provisional_created: 2026-05-19
 provisional_reason: "heal-gaps: routing_unresolved entry from source original2020-original-a declared product/infant-formula-stage1, no close-slug match"
 provisional_source: "[[sources/original2020-original-a]]"
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin

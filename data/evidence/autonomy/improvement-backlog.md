@@ -739,3 +739,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 19 (pool methodology is locked; audit executes it), Part 5b (routing audit is the upstream input), Part 18 (lint extends into standards-derivation layer), docs/standards-methodology.md (pool admission rules)
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Map gap-driven wishlist queries to blocked synthesis targets
+
+**What:** Parse the 600 gap-driven-wishlist queries, extract their ingredient/metal targets, and create a ranked ingest queue that shows which queries would unblock the most synthesis tasks (the 315 `pool_blocked_cells` and 44 `pool_too_thin` cells).
+
+**Why this lever now:** The 315 blocked cells are the wiki's synthesis bottleneck — they're contamination-profile sub-blocks stuck at n_studies<2 with zero pooled estimates. The 600 gap-driven queries are concrete research leads that could unlock these cells, but they're currently a flat list with no prioritization against the wiki's actual gaps. Mapping the two together creates an actionable ingest queue that shows Karen exactly which queries would unblock synthesis on which ingredients, with downstream impact (how many product pages depend on each ingredient). This turns scattered research suggestions into a targeted unblocking strategy.
+
+**Where:** 
+- Input: `data/evidence/gap-driven-wishlist-2026-05-19.md` (600 queries)
+- Output: `data/evidence/prioritized-ingest-queue-2026-05-19.md`
+- Script: `tools/evidence/map-wishlist-to-blocked-cells.mjs` (new)
+
+**How:**
+1. Parse gap-driven-wishlist queries and extract (ingredient, metal, species) targets from each query text/metadata.
+2. Cross-reference each target against `wiki/ingredients/*.md` frontmatter to find current n_studies and status for each (ingredient, metal) cell.
+3. Rank queries by impact: cells that are `pool_blocked_cells` (n_studies=0–1) score highest; `pool_too_thin` (n_studies=2) score second; stable cells (n_studies≥4) score lowest.
+4. For each ingredient, count downstream impact: how many product pages reference it in their `contributing_ingredients` or source routing.
+5. Emit a markdown report showing: query rank, target cell, current n_studies, estimated sources-needed-to-stabilize, downstream impact, and a projection ("top 50 queries → unblock 147 cells + stabilize 58 thin cells").
+
+**Anchors:** Part 9 (synthesis triggers, n_studies thresholds); Part 5b (routing layer, fan-out to product pages); docs/order-of-operations.md (Phase 4: synthesis readiness); feedback_no_implication_lists (execute the data mapping, not just suggest it).
+
+---

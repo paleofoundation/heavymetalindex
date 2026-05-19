@@ -1,21 +1,24 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T18:38:15.060Z
+Generated: 2026-05-19T19:35:04.192Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 0
+- Fixes applied: 1
 - Queued for synthesis: 0
-- Routing typo proposals: 4
-- Provisional scaffolds created: 3
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 229
+- Routing typo proposals: 5
+- Provisional scaffolds created: 2
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 231
+
+## Fixes applied
+
+- wiki/products/infant-formula-stage1.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
 
 ## Provisional scaffolds created
 
-- product/`infant-formula-stage1` (triggered by source original2020-original-a)
-- product/`cereal-meals` (triggered by source original2020-original-a)
-- product/`biscuits` (triggered by source original2020-original-a)
+- product/`infant-formula-powder-soy` (triggered by source abstract2020-content-dietary-exposure-toxic)
+- ingredient/`infant-formula` (triggered by source abstract2020-content-dietary-exposure-toxic)
 
 See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
@@ -36,11 +39,11 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/bathroom-tub-tile-cleaners.md` — no canonical analyte default for slug bathroom-tub-tile-cleaners
 - missing_primary_metals_of_concern: `wiki/products/beef-product.md` — no canonical analyte default for slug beef-product
 - missing_primary_metals_of_concern: `wiki/products/bibs.md` — no canonical analyte default for slug bibs
+- missing_primary_metals_of_concern: `wiki/products/biscuits.md` — no canonical analyte default for slug biscuits
 - missing_primary_metals_of_concern: `wiki/products/blankets-and-sleep-sacks.md` — no canonical analyte default for slug blankets-and-sleep-sacks
 - missing_primary_metals_of_concern: `wiki/products/bleaching-whitening-additives.md` — no canonical analyte default for slug bleaching-whitening-additives
 - missing_primary_metals_of_concern: `wiki/products/body-hand-leave-on-skin-care.md` — no canonical analyte default for slug body-hand-leave-on-skin-care
 - missing_primary_metals_of_concern: `wiki/products/body-wash-shower-gel.md` — no canonical analyte default for slug body-wash-shower-gel
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
-- missing_primary_metals_of_concern: `wiki/products/butter-and-ghee.md` — no canonical analyte default for slug butter-and-ghee
-- ... and 209 more (see queue file)
+- ... and 211 more (see queue file)
