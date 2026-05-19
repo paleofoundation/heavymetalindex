@@ -118,49 +118,55 @@ Per cycle:
 
 Don't draft a paper that already has a wiki source page or a draft. The triage manifest's `already_ingested` column is one signal; existence of `wiki/sources/<cite-key>.md` is the canonical check.
 
-### Role priority within a Codex session
+### Goal-based work model (locked 2026-05-19)
 
-Sessions should split time across the five roles in this order, working until natural exhaustion or a ~3-hour wall-clock budget (whichever first). No per-role page-count cap. Budget bumped from 2h to 3h on 2026-05-18 per Karen's directive ("we should give it more").
+Codex runs in fast mode. Time-based pacing ("3-hour budget", "20-30 min triage sweep") is the wrong abstraction for a fast-inference model — it produces self-paced behavior that stops on "feeling done" rather than on goal-met. **Every Codex session is assigned a concrete goal and stops only when that goal is met or a named hard blocker fires.** No wall-clock budget, no soft per-role estimates, no "feeling done."
 
-1. **Audit queue** (highest priority — gates the Cochrane bar). Drain pending rows until empty of `pending` and `pending-brand-firewall-recheck-locked-strict`. After each commit, re-read the queue.
-2. **Manual-fetch ingest** on assigned folders, in order: condiment_papers/, 08_Nuts_Seeds_Legumes_and_Misc/, 07_Processed_Foods_Snacks_Beverages/, 02_Vegetables_and_Vegetable_Products/, 01_Fruits_and_Fruit_Products/, Manual Resourcing/. (Papers Cube Manual Fetch/ is Claude's active rotation; skip.) Roughly a quarter of session budget on ingest. Switch back to audits if pending rows accumulate.
-3. **Mandatory prose sections** (Role C). Fill "Pending synthesis" placeholders on pages with ≥3 contributing sources.
-4. **Lint and cleanup** (Role D). Drain `data/evidence/routing_malformed.csv`, fix broken cite-keys, add missing DOI markers, repair invalid wikilinks. 5-15 items per visit, then return to higher-priority work.
-5. **Marker drafts** (Quaternary). Only if 1-4 caught up.
+### Goal types
 
-This ordering prevents the audit queue from growing unbounded while still making progress on ingest backlog AND closing the prose-section gap AND draining accumulated lint debt. A single Codex session at the ~3-hour budget should land roughly 20-40 audits + 10-20 ingests + 3-7 prose-section fills + 10-30 lint items = 45-100 pages-or-fixes of work, depending on per-item complexity.
+The five roles map to five goal shapes. Karen's session prompt names which goal(s) apply:
 
-### Throughput discipline (locked 2026-05-19)
+1. **DRAIN-AUDIT-QUEUE goal**: reduce `status=pending` and `status=pending-brand-firewall-recheck-locked-strict` rows in `data/evidence/audit-queue.csv` to zero, OR to a named target count (e.g., "drain to ≤20 pending").
+2. **DRAIN-FOLDER goal**: every PDF in a named folder ends the session either represented by a `wiki/sources/*.md` page (real ingest), folded into an existing source page (same-DOI rollup), or marked in `data/evidence/wishlist-fetch-audit.csv` with an explicit `skip:*` / `fail:*` / `ingested` decision. Folder ends empty of un-dispositioned PDFs.
+3. **FILL-PROSE-SECTIONS goal**: every wiki page in a named list (or every page matching a `grep "Pending synthesis"` query against a named directory) ends with the `Pending synthesis` placeholders replaced by real prose tied to contributing sources.
+4. **DRAIN-LINT goal**: a named lint counter (e.g., `wc -l data/evidence/routing_malformed.csv`, or count of broken cite-keys matching a named pattern) ends ≤ a named target count.
+5. **DRAFT-MARKER-PAPERS goal**: a named count of Marker P4 papers from a named priority slice ends drafted to `raw/gpt-drafts/`.
 
-The 2026-05-19 06:14 fire exposed a self-rationalization failure mode: Codex invented a "calibrated per-fire lower bound" stop criterion that nowhere exists in the operating doc and stopped after 2 source pages with 4h+ of session budget remaining. The four rules below close that loophole and push per-session throughput 3-5× higher without changing the budget.
+The session prompt assigns one goal as primary. If the primary goal is met before the session naturally ends, Codex switches to the next-priority goal type (audit-queue → drain-folder → prose-sections → lint → marker-drafts) and continues until ANY of: (a) the new goal is also met, (b) a hard blocker fires, or (c) the session is interrupted externally.
 
-1. **PARALLEL READS.** When starting an ingest or triage sweep, issue Read in parallel for 5-10 PDFs in a single tool message. Do NOT read one PDF, write one page, then read the next. Read a batch, sort into dispositions, then act on the batch. Same pattern applies to audit work: pull a batch of pending audit-queue rows, read each page + each source PDF in parallel, then write findings sequentially.
-2. **BATCH COMMITS.** Commit every ~10 dispositions, not every 1. Per CLAUDE.md Part 4: "per-paper commits at 23,000-paper scale produce unusable git history." Commit message format for ingest sweeps: `ingest sweep N (papers N1-N10): K source pages + M rollups + P triaged`. Audit commits stay per-page because they modify the canonical wiki page that's already committed; ingest commits batch.
-3. **ROUTING AUDIT ONCE PER FIRE.** Run `npm run evidence:source-routes` at session end, not after every commit. The pre-commit hook catches malformed frontmatter per file; the full routing audit only needs to land before the daemon picks up. If a session is unusually long (≥2 hours), run a mid-session audit to catch routing drift early, otherwise end-of-session only.
-4. **TRIAGE FIRST FOR AUTO-FETCHED FOLDERS.** Auto-fetched wishlist folders (currently `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/`) are heavily padded with same-DOI duplicates, false-positives, and download failures. First 20-30 minutes of a fire targeting these folders is a triage sweep: open each PDF, classify as (a) real ingest needed, (b) same-DOI rollup of existing page, (c) skip:no-heavy-metal-data / skip:not-target-cell / skip:not-food-occurrence / similar, (d) ingest blocker. Write all (b) and (c) decisions to `data/evidence/wishlist-fetch-audit.csv` as one batch commit. Then start real ingests on the (a) pile. This is dramatically faster than interleaving triage with full ingest per PDF.
+### Mechanical rules for hitting any goal faster
 
-The per-session floor is **50 dispositions** (real ingests + dedup rollups + triaged false-positives + drained audit rows + lint fixes, summed). Falling below 50 with budget remaining means a self-invented stop criterion fired and must be diagnosed in the run summary. The ceiling is queue-empty OR 3-hour wall-clock OR a named data-integrity blocker from the list below.
+These four mechanical rules apply to every goal type. They are about HOW Codex works, not WHEN it stops.
 
-### When to stop a session
+1. **PARALLEL READS.** Issue Read in parallel for 5-10 PDFs (or pages, or queue rows) in a single tool message. Read a batch, sort into dispositions, then act on the batch. Do NOT read one item, write one output, then read the next.
+2. **BATCH COMMITS.** Commit every ~10 dispositions, not every 1. Per CLAUDE.md Part 4: "per-paper commits at 23,000-paper scale produce unusable git history." Ingest sweep commit format: `ingest sweep N (papers N1-N10): K source pages + M rollups + P triaged`. Audit commits stay per-page because they modify the canonical wiki page that's already committed.
+3. **ROUTING AUDIT ONCE PER GOAL CYCLE.** Run `npm run evidence:source-routes` at session end (or at goal-met transitions when switching goal types), not after every commit. The pre-commit hook catches malformed frontmatter per file.
+4. **TRIAGE-FIRST FOR DRAIN-FOLDER GOALS.** Auto-fetched wishlist folders are heavily padded with same-DOI duplicates, false-positives, and download failures. The drain-folder goal is met fastest by: (a) opening every PDF in the folder in parallel batches of 10, (b) classifying each as `real-ingest` / `dedup-rollup` / `skip:<reason>` / `blocker`, (c) batch-committing all `dedup-rollup` and `skip:*` decisions to `wishlist-fetch-audit.csv` in one or two commits, (d) then doing real ingests on the remaining `real-ingest` pile. Interleaving triage with full ingest per PDF is slower.
+
+### When to stop a session (goal-based, NOT time-based)
 
 Stop the session and write the summary when ANY of these fires:
 
-- **Audit queue is empty** AND **assigned manual-fetch folders are exhausted** AND **auto-fetched wishlist folders are drained** AND **no Marker drafts available**. Genuine completion.
-- **3-hour wall-clock budget reached** (bumped from 2h on 2026-05-18 per Karen's directive). Resume on next session.
-- **Paper-internal contradiction** that cannot be cleanly resolved during ingest. Stop on that PDF, log it, surface to Karen.
-- **True duplicate conflict** (DOI hit returns a page with a different DOI or paper). Data-integrity issue, needs Karen.
-- **Routing audit fails** with new unresolved/malformed entries that cannot be fixed in-session. Surface in summary.
-- **Three consecutive QUARANTINE verdicts on audits**. Indicates either systematic ingest errors or systematic audit false positives. Surface to Karen.
+- **Primary goal met** AND **no secondary goal cascade configured** (or secondary goals also met).
+- **Hard blocker** (named, not invented):
+  - Paper-internal contradiction that cannot be cleanly resolved during ingest. Stop on that PDF, log it, surface to Karen.
+  - True duplicate conflict (DOI hit returns a page with a different DOI or paper). Data-integrity issue, needs Karen.
+  - Routing audit fails with new unresolved/malformed entries that cannot be fixed in-session. Surface in summary.
+  - Three consecutive QUARANTINE verdicts on audits. Indicates either systematic ingest errors or systematic audit false positives. Surface to Karen.
 
-Stop criteria that are NOT valid (regressions from the 2026-05-19 throughput lock):
+Stop criteria that are NOT valid (regressions from the 2026-05-19 goal-based lock):
 
-- ❌ "Calibrated per-fire lower bound reached" — no such concept exists. If invoked, the run summary must include `STOPPED EARLY — REASON: self-invented stop criterion` so Karen sees the regression.
-- ❌ "Agent tool / sub-task spawn failed" — best-effort audit policy applies (locked 2026-05-18). Commit the page with `status=pending-audit-spawn-failed` in audit-queue.csv and CONTINUE to the next PDF. NEVER stop on audit-spawn failure.
+- ❌ "Calibrated per-fire lower bound reached" — no such concept exists.
+- ❌ "3-hour budget reached" — time budgets retired 2026-05-19. Goal-met or hard-blocker only.
+- ❌ "Agent tool / sub-task spawn failed" — best-effort audit policy (locked 2026-05-18). Commit the page with `status=pending-audit-spawn-failed` and CONTINUE.
 - ❌ "Routing looks clean so I'll stop" — clean routing is the baseline expectation, not a completion signal.
-- ❌ "5 PDFs processed feels like enough" — feelings are not stop criteria.
-- ❌ "Pending async audits accumulating" — the async-audit lane is designed to accumulate; Claude or a later Codex session drains it. Do not let queue depth gate continued ingest.
+- ❌ "N PDFs processed feels like enough" — feelings are not stop criteria.
+- ❌ "Pending async audits accumulating" — the async-audit lane is designed to accumulate; do not let queue depth gate continued ingest.
+- ❌ "I've been reading docs for a while" — there is no per-session reading budget. If you need a doc, read just the section you need. Do not re-read `docs/codex-collaboration/README.md` mid-session if you've already read it this session.
 
-The full backlog (335 manual-fetch PDFs + however many strict-recheck rows + 23K Marker corpus + auto-fetched wishlist accumulations) is NOT a single-session goal. Multiple sessions are expected. The goal of each session is to make sustained, bounded progress with NO artificial caps and NO self-invented stop criteria.
+If any invalid stop criterion fires, the run summary must be prefixed `STOPPED EARLY — REASON: <reason>` so Karen sees the regression.
+
+The full backlog (manual-fetch PDFs + strict-recheck rows + Marker corpus + auto-fetched wishlist accumulations) is NOT a single-session goal. Multiple sessions are expected. Each session's job is to meet its named goal, no more, no less.
 
 ### What Codex does NOT do (hard prohibitions)
 
@@ -183,61 +189,85 @@ Both agents commit to the same branch. Conflicts are unlikely because the role s
 
 If Codex sees a wiki source page mid-edit (e.g., daemon is currently ingesting it), the audit-queue.csv `status` will still be `pending` for that cite-key — the daemon writes the row only after its own audit completes. So queue-driven picking automatically avoids in-flight work.
 
-## Session prompt for Karen to paste into Codex
+## Session prompts (goal-targeted, fast-mode-friendly)
 
-When Karen starts a Codex session for this repo, she pastes this:
+Codex runs in fast mode. Prompts are tight, goal-named, and self-sufficient — Codex does NOT re-read the full README per session. The five templates below cover every routine Codex job. Karen picks the template matching the goal, fills the named target, and pastes.
+
+### Template A — DRAIN-AUDIT-QUEUE
 
 ```
-You are Codex (GPT-5.5) operating as a peer autonomous agent on the Heavy Metal Index build. Read docs/codex-collaboration/README.md in full before any work; that is your operating manual. Then read CLAUDE.md and OPERATING.md for the project-wide constitution.
+GOAL: data/evidence/audit-queue.csv has 0 rows with status=pending or status=pending-brand-firewall-recheck-locked-strict. Stop when met OR when a hard blocker fires (three consecutive QUARANTINE verdicts, paper-internal contradiction, DOI conflict requiring Karen).
 
-You have FIVE roles this session, in priority order, with NO per-role page cap. Work until natural exhaustion or ~3-hour wall-clock budget (bumped from 2h on 2026-05-18). The 5-audit / 3-ingest caps from earlier prompts are removed.
+How: parallel-Read 5-10 source pages + their PDFs per tool message, audit each per docs/gpt-collaboration/audit-prompt.md (5 checks; Check 4 strict brand firewall; Exception 2 permits instrument/CRM/software vendor names in Methods). Apply real findings, commit per page, update queue row. If audit spawn fails with thread limit, commit page with status=pending-audit-spawn-failed and continue — never stop on spawn failure.
 
-THROUGHPUT DISCIPLINE (locked 2026-05-19; full spec in docs/codex-collaboration/README.md "Throughput discipline" section):
-- PARALLEL READS: issue Read for 5-10 PDFs in a single tool message, then act on the batch. Do NOT read one PDF, write one page, then read the next.
-- BATCH COMMITS: commit every ~10 ingest dispositions, not every 1. Commit message format: "ingest sweep N (papers N1-N10): K source pages + M rollups + P triaged". Audit commits stay per-page.
-- ROUTING AUDIT ONCE PER FIRE: run `npm run evidence:source-routes` at session end, not after every commit. Mid-session run only if session exceeds 2h.
-- TRIAGE FIRST for auto-fetched folders: first 20-30 min is a sweep that disposes every PDF as (a) real ingest, (b) same-DOI rollup, (c) skip:<reason> false-positive, or (d) ingest blocker. Write all (b)+(c) decisions to data/evidence/wishlist-fetch-audit.csv as one batch commit. Then ingest the (a) pile.
-- FLOOR: 50 dispositions per session. CEILING: queue empty OR 3-hour wall-clock OR named data-integrity blocker. "Calibrated per-fire lower bound" is NOT a real concept; if you invent a stop criterion, prefix the run summary with "STOPPED EARLY — REASON: self-invented stop criterion" so Karen sees the regression.
-- AUDIT SPAWN: best-effort policy. If `agent thread limit reached`, commit page with status=pending-audit-spawn-failed and CONTINUE. NEVER stop on audit-spawn failure.
+Output: data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md with goal-met state (queue depth before/after), per-page verdicts, commit hashes, hard-blocker name if stopped early.
 
-1. Audit queue. Pull data/evidence/audit-queue.csv. Pick oldest row with status=pending or status=pending-brand-firewall-recheck-locked-strict. Audit per docs/gpt-collaboration/audit-prompt.md (Check 4 strict brand-firewall locked 2026-05-17; Exception 2 permits instrument/reference-material/software vendor names in Methods sections). Apply real findings, commit per page, update queue row.
-
-2. Manual-fetch ingest on ALL remaining folders. Priority order (seafood-first to unblock Karen's synthesis work as of 2026-05-18):
-   1. 04_Meat_Poultry_Seafood/ (highest — unblocks Karen)
-   2. 06_Infant_Foods_Formula/ (Cat 1, daemon started not finished)
-   3. 03_Grains_and_Grain_Products/
-   4. 05_Dairy_Eggs_and_Alternatives/
-   5. condiment_papers/
-   6. 08_Nuts_Seeds_Legumes_and_Misc/
-   7. 07_Processed_Foods_Snacks_Beverages/
-   8. 02_Vegetables_and_Vegetable_Products/
-   9. 01_Fruits_and_Fruit_Products/
-   10. Manual Resourcing/
-   
-   SKIP Children Personal Care Papers/ and Papers Cube Manual Fetch/ — both are fully done. Use tools/autonomy/ingest-manual-fetch-batch.mjs as reference. Always check data/evidence/autonomy/manual-fetch-tracker.csv before claiming any PDF. The daemon is still loaded and ticking; tracker prevents race conditions. Roughly a quarter of session budget on ingest.
-
-3. Mandatory prose sections (Role C, added 2026-05-18). Per CLAUDE.md Part 6, ingredient pages need 8 mandatory H2 sections and product pages need 10. Daemon writes "Pending synthesis" placeholders; nothing replaces them with real prose. Process: `grep -l "Pending synthesis" wiki/ingredients/ wiki/products/` → pick page with ≥3 contributing sources (per data/evidence/product_source_routing_audit.csv) → read contributing sources + existing page → write prose replacing placeholders (NOT inside <!-- BEGIN --> / <!-- END --> markers; NOT contamination_profile YAML) → commit "sections (codex): <slug> — <list>".
-
-4. Lint and cleanup (Role D, added 2026-05-18). The wiki has ~600 advisory-malformed source-page rows in data/evidence/routing_malformed.csv plus broken cite-keys from manifest derivation failures (patterns: ^cite_key: (original|research|introduction|background|considerations|abstract|article|plant|hhs|lead)[0-9]). Drain these. Per visit: pick 5-15 items from one category (broken cite-keys / missing DOI / invalid wikilinks / missing frontmatter), fix them, commit per category "lint (codex): <category> — <N> items". Return to higher-priority roles between visits.
-
-5. Marker P4 drafts to raw/gpt-drafts/ — only if 1-4 all caught up.
-
-Regulation pages: directly create on first encounter per CLAUDE.md Part 10 (surfacing-first rule retired 2026-05-18). Look up the agency rule ID from eur-lex.europa.eu, FDA.gov, codexalimentarius.org, etc. Use the Part 6 regulation template. Required frontmatter: rule_id, jurisdiction, agency, metal (list if omnibus), matrix, limit_value, limit_unit, status, effective_date, source_url; for superseded regs add sunset_date + superseded_by wikilink.
-
-For new ingredient or product pages declared by an ingest that don't yet exist: run the provisional-scaffold tools per docs/codex-collaboration/README.md prohibitions section.
-
-Do NOT update contamination_profile YAML (daemon races). Do NOT edit inside <!-- BEGIN --> / <!-- END --> marker blocks. Do NOT modify product_source_routing_audit.csv by hand. Do NOT push to remote. Do NOT edit CLAUDE.md / OPERATING.md / AGENTS.md without Karen.
-
-Do NOT ingest any PDF from Claude's assigned folders: 06_Infant_Foods_Formula/, Children Personal Care Papers/, 04_Meat_Poultry_Seafood/, 03_Grains_and_Grain_Products/, 05_Dairy_Eggs_and_Alternatives/. Those belong to the daemon.
-
-Do NOT run Part 9 synthesis. Do NOT create new regulation pages without surfacing the agency rule ID. For ingredient/product pages declared by an ingest that do not yet exist, run the provisional-scaffold tools (see docs/codex-collaboration/README.md prohibitions section). Do NOT push to remote. All other prohibitions in docs/codex-collaboration/README.md apply.
-
-When done, write a session summary to data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md describing: total dispositions (against the 50-floor), breakdown (audits drained / ingests / rollups / triaged / prose fills / lint items), commit hashes (with batched-commit ranges where applicable), regulation pages created (rule_id + cite-key), provisional scaffolds created (read from data/evidence/provisional-{ingredient,product}-scaffolds.jsonl entries for this session window), stop reason. If stop reason is anything other than queue-empty, 3h-budget, or a named data-integrity blocker from docs/codex-collaboration/README.md "When to stop a session", prefix the report title with "STOPPED EARLY".
-
-Start now. No further confirmation needed from me.
+Start.
 ```
 
-Karen pastes that once per Codex session. Codex runs autonomously from there.
+### Template B — DRAIN-FOLDER (auto-fetched wishlist or manual-fetch)
+
+```
+GOAL: <FOLDER_PATH> has 0 un-dispositioned PDFs. Every PDF ends either represented by a wiki/sources/*.md page (real ingest), folded into an existing page as a same-DOI rollup (with the wishlist row marked ingested), or marked in data/evidence/wishlist-fetch-audit.csv with an explicit skip:<reason> or fail:<reason> decision. Stop when met OR hard blocker (paper-internal contradiction, DOI conflict).
+
+How: TRIAGE FIRST. Open every PDF in the folder in parallel batches of 10. Classify each as (a) real-ingest, (b) dedup-rollup, (c) skip:<reason>, (d) blocker. Batch-commit all (b)+(c) decisions to wishlist-fetch-audit.csv in one or two commits. Then real-ingest the (a) pile, batch-committing every ~10 source pages. Per CLAUDE.md Part 4, do NOT commit per-paper.
+
+Audit each new source page per audit-prompt.md (best-effort: commit with status=pending-audit-spawn-failed if spawn errors, do not stop). Routing audit (`npm run evidence:source-routes`) runs ONCE at session end. Frontmatter discipline per CLAUDE.md Part 5 — products/ingredients/matrices/metals/jurisdictions at the level of specificity the source states.
+
+Prohibitions: do NOT ingest PDFs from Claude's assigned folders (06_Infant_Foods_Formula/, Children Personal Care Papers/, 04_Meat_Poultry_Seafood/, 03_Grains_and_Grain_Products/, 05_Dairy_Eggs_and_Alternatives/ — daemon owns these); do NOT update contamination_profile YAML; do NOT edit inside <!-- BEGIN --> / <!-- END --> markers; do NOT push to remote.
+
+Output: data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md with goal-met state (folder count before/after), breakdown by disposition, commit hashes (with batch ranges).
+
+Start.
+```
+
+### Template C — FILL-PROSE-SECTIONS
+
+```
+GOAL: every page returned by `grep -l "Pending synthesis" wiki/ingredients/ wiki/products/` that has ≥3 contributing sources in data/evidence/product_source_routing_audit.csv ends with the "Pending synthesis" placeholders replaced by real prose. Stop when met OR hard blocker (insufficient source coverage to write any of the 8 mandatory ingredient sections / 10 mandatory product sections honestly).
+
+How: parallel-Read 5-10 candidate pages + their top contributing sources per tool message. Write prose replacing placeholders. Per CLAUDE.md Part 6, ingredient pages need the 8 mandatory H2 sections in order; product pages need the 10 mandatory H2 sections. Do NOT edit inside <!-- BEGIN --> / <!-- END --> markers. Do NOT touch contamination_profile YAML. Commit per page: "sections (codex): <slug> — <section list>".
+
+Output: data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md with pages filled, sections written per page, commit hashes.
+
+Start.
+```
+
+### Template D — DRAIN-LINT
+
+```
+GOAL: <NAMED_COUNTER> reaches ≤ <TARGET_COUNT>. Examples: `wc -l data/evidence/routing_malformed.csv` ≤ 100; count of broken cite-keys matching `^cite_key: (original|research|introduction|background|considerations|abstract|article|plant|hhs|lead)[0-9]` reaches 0. Stop when met.
+
+How: parallel-Read 10-20 lint-flagged source pages per tool message. Fix one category at a time (broken cite-keys / missing DOI / invalid wikilinks / missing frontmatter). Commit per category: "lint (codex): <category> — <N> items".
+
+Output: data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md with counter-before/counter-after, per-category fix counts, commit hashes.
+
+Start.
+```
+
+### Template E — DRAFT-MARKER-PAPERS
+
+```
+GOAL: <N> Marker P4 papers from <PRIORITY_SLICE> drafted to raw/gpt-drafts/. Stop when count met.
+
+How: parallel-Read 5-10 Marker markdown files per tool message. Draft per Marker-draft template. Commit every ~10 drafts.
+
+Output: data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md with drafts written, commit hashes.
+
+Start.
+```
+
+### Universal rules across all templates
+
+These apply to every template and do not need to be re-pasted:
+
+- **Goal-met or hard-blocker stops only.** No time budgets, no soft estimates, no "feels like enough." Invalid stop criteria are listed in docs/codex-collaboration/README.md "When to stop a session"; if any of them fires, prefix the run summary `STOPPED EARLY — REASON: <reason>`.
+- **Parallel reads, batch commits, end-of-session routing audit, triage-first for drain-folder.** Full spec in docs/codex-collaboration/README.md "Mechanical rules for hitting any goal faster".
+- **Do NOT run Part 9 synthesis. Do NOT edit CLAUDE.md / OPERATING.md / AGENTS.md without Karen. Do NOT push to remote.** Full prohibitions list in docs/codex-collaboration/README.md "What Codex does NOT do".
+- **Regulation pages**: directly create on first encounter per CLAUDE.md Part 10. Required frontmatter: rule_id, jurisdiction, agency, metal, matrix, limit_value, limit_unit, status, effective_date, source_url; superseded regs add sunset_date + superseded_by wikilink.
+- **Provisional scaffolds**: when an ingest declares an ingredient or product slug that does not yet exist, run `tools/autonomy/create-provisional-{ingredient,product}-scaffold.mjs`. Ingest continues.
+
+If Codex has not read docs/codex-collaboration/README.md this session, it reads it ONCE at session start (only the sections relevant to the goal type) and does not re-read.
 
 ## Throughput estimate with Codex in the loop
 
