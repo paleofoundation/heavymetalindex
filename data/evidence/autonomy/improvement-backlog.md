@@ -810,3 +810,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis trigger conditions: cells move from pending to populated with 2 sources); Part 5b (routing layer connects evidence to synthesis); Part 18 (lint fails on mixed-coverage cells, which this audit operationalizes).
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Rank pool_too_thin cells by wishlist query density
+
+**What:** Cross-reference the 600 gap-driven wishlist queries against the 45 under-pooled cells to identify which (ingredient, metal) pairs have user demand but are blocked at n=1 source, then emit a prioritized source-acquisition manifest.
+
+**Why this lever now:** 45 cells are stuck at n=1 waiting for a second source to trigger synthesis (Part 9). Meanwhile, 600 wishlist queries signal user demand for content — many likely on these same bottleneck cells. Mapping demand to blocking conditions reveals which cells to prioritize for targeted source acquisition, turning the wishlist from a diagnostic into a ranked ingest roadmap.
+
+**Where:**
+- Input: `data/evidence/autonomy/gap-driven-wishlist-2026-05-19.csv` (600 queries)
+- Input: `data/evidence/autonomy/pool-too-thin-cells-2026-05-19.csv` (45 cells at n=1)
+- New script: `tools/autonomy/rank-wishlist-blocking-cells.mjs`
+- Output: `data/evidence/autonomy/wishlist-driven-ingest-manifest-2026-05-20.md`
+
+**How:**
+1. Parse the wishlist CSV to extract (ingredient, metal) pairs mentioned in each query
+2. Count query frequency per pair
+3. Intersect with the 45 pool_too_thin cells
+4. Rank by query count descending
+5. For top-20, emit: ingredient slug | metal | current sources (n=1) | query frequency | search keywords from wishlist
+
+**Anchors:** CLAUDE.md Part 11 (priority ordering), Part 9 (synthesis gating at n=2), Part 18 (pool_too_thin audit). Supplies ranked input to future bulk-ingest campaigns.
+
+---

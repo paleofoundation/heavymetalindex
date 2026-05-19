@@ -106,3 +106,14 @@
 ### Succeeded
 - `rashid2015-metals-rock-melon-malaysia` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Determination of Metals Contamination in Rock Melon (Cucumis melo).pdf)
 - `song2024-crvi-hplc-icpms-food-reduction` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Development of a Fast Method Using HPLC-ICP-MS and Exploration of the Reduction Mechanism of Cr(VI) in Foods.pdf)
+
+## Tick 2026-05-19T22:06:46.850Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `amer2019-egyptian-fruits-heavy-metals` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Exposure assessment of heavy metal residues in some selected fruits (apples, grapes, and oranges) obtained from four Egyptian governorates.pdf)
+- `fda-tds-elements-2018-2020` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/FDA Total Diet Study Report_ Fiscal Years 2018-2020 Elements Data.pdf)

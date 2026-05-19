@@ -3,10 +3,10 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1280 candidate queries
-- Path B (empty product + thin ingredient pages): 8224 candidate queries
-- Total candidates (after dedup): 9504
+- Path B (empty product + thin ingredient pages): 8172 candidate queries
+- Total candidates (after dedup): 9452
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9504
+- Eligible after filtering: 9452
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | car-seats × tHg | car seats (if retained in hmtc scope) mercury |
-| P1 | baby-shampoo-body-wash × Pb | baby shampoo body wash Pb occurrence |
-| P1 | high-chairs-and-booster-seats × Cd | high chairs and booster seats cadmium |
-| P1 | nut-seed-butters-other × Pb | nut seed butters other Pb occurrence |
-| P1 | deep-conditioning-treatments-rinse-off × Cd | deep conditioning treatments rinse off heavy metals Cd |
-| P1 | rice-noodles × tHg | rice noodles mercury |
-| P1 | toys-yo-yo-elastic-tether × Cd | toys yo yo elastic tether heavy metals cadmium |
-| P1 | baby-oil × Cd | baby oil heavy metals Cd occurrence |
-| P1 | food-storage-plastic-containers × tHg | food storage plastic containers mercury |
-| P1 | infant-formula-powder × iAs | infant formula powder speciated arsenic occurrence |
-| P1 | seaweed-kelp-foods × Pb | seaweed kelp foods cleaning product safety lead |
-| P1 | toys-attached-cribs-playpens × tHg | toys attached to cribs/playpens mercury |
-| P1 | baby-shampoo-body-wash × Cd | baby shampoo body wash heavy metals Cd occurrence |
-| P1 | descalers × Pb | descalers Pb |
-| P1 | food-packaging-caps-closures × tHg | food packaging caps closures heavy metals total mercury |
-| P1 | cookware-specialty-alloy × Pb | cookware specialty alloy heavy metals Pb |
-| P1 | peanuts × Cd | peanuts Cd occurrence |
-| P1 | cookware-nonstick-coated × tAs | cookware nonstick coated total arsenic |
-| P1 | non-root-vegetables × tAs | non root vegetables heavy metals arsenic occurrence |
-| P1 | automatic-puff-releasers × Cd | automatic puff releasers heavy metals Cd |
+| P1 | cookware-specialty-alloy × Cd | cookware specialty alloy Cd |
+| P1 | baby-powder-cornstarch × Cd | baby powder cornstarch heavy metals Cd occurrence |
+| P1 | douches-vaginal-irrigation × tAs | douches vaginal irrigation total arsenic |
+| P1 | pet-food-freeze-dried × tHg | pet food freeze dried heavy metals mercury |
+| P1 | food-prep-processor-bowls × Cd | food processor bowls Cd |
+| P1 | douches-vaginal-irrigation × tAs | douches and vaginal irrigation solutions/apparatus components arsenic |
+| P1 | hand-soap × tAs | hand soap heavy metals arsenic |
+| P1 | baby-powder-cornstarch × Cd | baby powder cornstarch Cd occurrence |
+| P1 | diaper-cream-zno × Cd | diaper cream zno Cd occurrence |
+| P1 | pet-supplements-botanical-herbal × Pb | botanical/herbal blends Pb |
+| P1 | tomato-sauce × tAs | tomato sauce arsenic occurrence |
+| P1 | makeup-body-paints-bases-fixatives × tAs | makeup body paints bases fixatives arsenic |
+| P1 | infant-food-puree × iAs | infant food puree heavy metals speciated arsenic occurrence |
+| P1 | pet-supplements-other × tHg | pet supplements other mercury |
+| P1 | pet-supplements-probiotics-digestive × tHg | pet supplements probiotics digestive total mercury |
+| P1 | food-packaging-caps-closures × tHg | caps/closures total mercury |
+| P1 | pet-supplements-other × tAs | other pet ingestibles (case-by-case) total arsenic |
+| P1 | high-chairs-and-booster-seats × tHg | high chairs and booster seats total mercury |
+| P1 | baby-talcum-powder × tHg | baby talcum powder heavy metals mercury occurrence |
+| P1 | infant-food-puree × Cd | infant food puree heavy metals Cd occurrence |
 
 ## Coverage rotation
 

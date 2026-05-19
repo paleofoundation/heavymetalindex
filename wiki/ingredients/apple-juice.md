@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [fruit-juice-not-canned]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 17
+sources: 18
 ---
 
 # Apple juice

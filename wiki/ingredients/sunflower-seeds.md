@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/sunflower-oil]]"]
 higher_risk_variants: ["[[ingredients/sunflower-meal]]", "[[ingredients/sunflower-protein]]", "[[ingredients/whole-seed]]", "[[ingredients/seed-butter]]"]
 used_in_products: ["[[products/snack-mixes]]", "[[products/granola-bars]]", "[[products/seed-butters]]", "[[products/baked-goods]]", "[[products/sunflower-oil]]", "[[products/protein-powder]]", "[[products/vegan-alternative-products]]"]
 audience: [regulator, educator, consumer, app]
-sources: 8
+sources: 9
 updated: 2026-05-16
 ---
 
