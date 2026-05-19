@@ -590,3 +590,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (Synthesis requires quantitative pooling), Part 18 (Lint should flag provenance gaps), Part 19 (HMT&C standards derive from percentile pools).
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Source the infant-food-puree variants from gap-driven queries
+
+**What:** Query the gap_driven_wishlist (600 queries) to identify candidate sources for the eight infant-food-puree variants (puree, fish, fruit, mixed-meat, poultry, vegetable) that were auto-scaffolded with zero sources, then run targeted ingest on top matches to bootstrap those stubs above the source threshold.
+
+**Why this lever now:** The top 10 pending category locks are dominated by infant-food-purees with zero sources (8 of 10 are puree variants). These scaffolds cannot graduate to locked HMTc rows without evidence. The gap_driven_wishlist represents user questions the system couldn't answer—many of these queries likely target exactly these variants. Matching gap queries to sources turns dead scaffolds into routed evidence in a single pass.
+
+**Where:** 
+- `data/evidence/gap-driven-wishlist.csv` (600 queries, intersection with "infant food" and "puree" keywords)
+- Query job output → candidate sources list
+- `tools/autonomy/query-to-sources.mjs` (new script or enhancement to existing query runner)
+- `wiki/products/infant-food-puree*.md` (eight target pages)
+
+**How:**
+1. Extract queries from gap_driven_wishlist that mention puree, fruit, fish, vegetable, poultry, or meat in infant-food context.
+2. For each query cluster, run PubMed search to identify A-tier and B-tier sources that directly answer it.
+3. Rank candidate sources by coverage (how many puree variants and how many gap queries each source would resolve).
+4. Ingest top 10–15 sources; routing audit auto-fans them to the eight puree variants.
+5. Once each variant has ≥2 sources, flag for Step 0 Lock eligibility in `audit-pending-locks.mjs` output.
+
+**Anchors:** CLAUDE.md Part 8 (query-driven ingest workflow), Part 11 (infant foods are P1 priority), Part 10 (scaffolds needing sources). Memory: order-of-operations Phase 3 (bootstrap thin categories). Closes the gap between provisional scaffolds and locked rows.
+
+---

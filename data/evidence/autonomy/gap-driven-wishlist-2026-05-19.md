@@ -3,10 +3,10 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1192 candidate queries
-- Path B (empty product + thin ingredient pages): 8006 candidate queries
-- Total candidates (after dedup): 9198
+- Path B (empty product + thin ingredient pages): 8174 candidate queries
+- Total candidates (after dedup): 9366
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9198
+- Eligible after filtering: 9366
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | baby-shampoo-body-wash × Pb | baby shampoo body wash Pb occurrence |
-| P1 | automatic-dishwasher-detergents × Pb | automatic dishwasher detergents heavy metals lead |
-| P1 | mineral-water × tAs | mineral water total arsenic occurrence |
-| P1 | cookware-metal-alloy × Pb | cookware metal alloy heavy metals Pb |
-| P1 | toys-stroller-carriage × tHg | stroller/carriage toys mercury |
-| P1 | pacifiers-and-sucking-teething-aids × iAs | pacifiers and sucking teething aids inorganic arsenic |
-| P1 | supplements-teas-labeled × tAs | food-like forms: teas (when labeled as supplement) total arsenic |
-| P1 | tableware-glassware × Pb | glassware Pb |
-| P1 | pet-food-semi-moist × tAs | pet food semi moist heavy metals total arsenic |
-| P1 | period-underwear-reusable-garments × Cd | period underwear reusable garments heavy metals cadmium |
-| P1 | food-prep-processor-bowls × Cd | food processor bowls cadmium |
-| P1 | hand-soap × Pb | hand soap heavy metals Pb |
-| P1 | pasta-rice-based × Pb | pasta rice based dietary exposure lead |
-| P1 | infant-food-powder × tHg | infant food powder heavy metals total mercury |
-| P1 | all-purpose-cleaners × Pb | all purpose cleaners Pb |
-| P1 | toys-crafts-other × Pb | toys crafts other lead |
-| P1 | dish-soaps-manual × tAs | dish soaps (manual dishwashing) arsenic |
-| P1 | tableware-glassware × Pb | glassware lead |
-| P1 | fish-marine-non-predatory × Cd | fish marine non predatory cleaning product safety Cd |
-| P1 | sunflower-seeds × Cd | sunflower seeds Cd occurrence |
+| P1 | floor-cleaners-hard-surface × Pb | floor cleaners hard surface Pb |
+| P1 | automatic-puff-releasers × Cd | automatic puff releasers heavy metals Cd |
+| P1 | cookware-ceramic-coated × Cd | cookware ceramic coated cadmium |
+| P1 | infant-formula-dairy-free × MeHg | infant formula dairy free heavy metals methylmercury |
+| P1 | makeup-body-paints-bases-fixatives × Cd | makeup — body/leg paints, bases, fixatives (including airbrush) Cd |
+| P1 | plant-milks-rice-based × Pb | plant milks rice based heavy metals Pb occurrence |
+| P1 | childrens-makeup × Cr | childrens makeup heavy metals chromium occurrence |
+| P1 | sports-energy-drinks × Pb | sports energy drinks heavy metals Pb |
+| P1 | feminine-wipes × Pb | feminine wipes Pb |
+| P1 | drain-maintainers-cleaners × tAs | drain maintainers/cleaners (including biological-based) total arsenic |
+| P1 | childrens-lip-balm-mineral-bearing × Cr | childrens lip balm mineral bearing heavy metals chromium occurrence |
+| P1 | baby-wipes × Pb | baby wipes Pb occurrence |
+| P1 | nut-seed-butters-other × Ni | nut seed butters other nickel occurrence |
+| P1 | pet-supplements-botanical-herbal × tHg | pet supplements botanical herbal mercury |
+| P1 | oral-products-other × Cd | oral products other cadmium |
+| P1 | pet-treats-snacks × tAs | pet treats snacks arsenic occurrence |
+| P1 | feminine-wipes × tHg | feminine wipes/towelettes mercury |
+| P1 | bottled-drinking-water × Pb | bottled drinking water heavy metals Pb occurrence |
+| P1 | window-glass-mirror-cleaners × tAs | window glass mirror cleaners total arsenic |
+| P1 | fruit-snacks × tAs | fruit snacks arsenic occurrence |
 
 ## Coverage rotation
 

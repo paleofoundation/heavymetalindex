@@ -28,7 +28,7 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 - [[metals/lithium]] (2 sources)
 - [[metals/magnesium]] (3 sources)
 - [[metals/manganese]] (38 sources)
-- [[metals/mercury]] (180 sources)
+- [[metals/mercury]] (179 sources)
 - [[metals/mercury-methyl]] (24 sources)
 - [[metals/mercury-total]] (94 sources)
 - [[metals/molybdenum]] (7 sources)

@@ -1,6 +1,6 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T00:27:46.447Z
+Generated: 2026-05-19T01:14:43.678Z
 Mode: EXECUTED
 
 ## Summary
@@ -8,14 +8,19 @@ Mode: EXECUTED
 - Fixes applied: 0
 - Queued for synthesis: 0
 - Routing typo proposals: 0
-- Provisional scaffolds created: 3
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 222
+- Provisional scaffolds created: 8
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 224
 
 ## Provisional scaffolds created
 
-- product/`infant-food-ready-to-eat` (triggered by source health2022-health-safety-ready-to-eat-products)
-- product/`infant-food-powder` (triggered by source health2022-health-safety-ready-to-eat-products)
-- ingredient/`meat-poultry` (triggered by source health2022-health-safety-ready-to-eat-products)
+- product/`infant-food-puree` (triggered by source concentration2023-concentration-essential-toxic-rare)
+- product/`infant-food-puree-mixed-meat` (triggered by source concentration2023-concentration-essential-toxic-rare)
+- product/`infant-food-puree-fish` (triggered by source concentration2023-concentration-essential-toxic-rare)
+- product/`infant-food-puree-poultry` (triggered by source concentration2023-concentration-essential-toxic-rare)
+- product/`infant-food-puree-fruit` (triggered by source concentration2023-concentration-essential-toxic-rare)
+- product/`infant-food-puree-vegetable` (triggered by source concentration2023-concentration-essential-toxic-rare)
+- ingredient/`fruit-mixed` (triggered by source concentration2023-concentration-essential-toxic-rare)
+- ingredient/`vegetables-mixed` (triggered by source concentration2023-concentration-essential-toxic-rare)
 
 See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
@@ -43,4 +48,4 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
 - missing_primary_metals_of_concern: `wiki/products/butter-and-ghee.md` — no canonical analyte default for slug butter-and-ghee
-- ... and 202 more (see queue file)
+- ... and 204 more (see queue file)
