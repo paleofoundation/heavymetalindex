@@ -787,3 +787,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis requires ≥2 sources per cell), Part 19 (pooling unblocks HMT&C standard math), Part 10 (pending-lock scaffolds are governance gates), order-of-operations.md Phase 2–3 (query-ingest follows gap identification)
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Audit pool-blocked cells to prioritize the ingest queue
+
+**What:** Build `tools/autonomy/audit-pool-blocked-cells.mjs` to categorize each of the 326 blocked ingredient/metal cells by root cause (0 sources | 1 source + specific missing analyte | awaiting product Step 0 Lock | source frontmatter incomplete), emit structured CSV, and recommend targeted fixes.
+
+**Why this lever now:** The snapshot shows 326 cells cannot be synthesized, but the breakdown is opaque. Each root cause demands a different action: thin cells need specific papers (ingest task), locked products need governance (Karen task), incomplete frontmatter needs correction (audit task). Without the breakdown, the ingest queue is unfocused. The 600 gap-driven queries exist; we need to know which ones unblock the most cells.
+
+**Where:** 
+- New tool: `tools/autonomy/audit-pool-blocked-cells.mjs`
+- Output: `data/evidence/autonomy/pool-blocked-cells-audit-<YYYY-MM-DD>.csv` with columns: `ingredient_slug | metal | current_status | source_count | root_cause | recommendation | gap_query_match`
+- Morning report log: `data/evidence/autonomy/morning-report-<YYYY-MM-DD>.md` includes summary table
+
+**How:**
+1. Query wiki state: for each ingredient and metal, count routed sources from `product_source_routing_audit.csv` and fetch frontmatter from contributing source pages.
+2. Classify each cell: `0_sources` | `1_source_missing_<analyte>` | `incomplete_source_frontmatter` | `awaiting_product_lock_<product_slug>` | `populated_confidence_low` (edge case).
+3. Emit CSV with recommendation column: e.g., "add Cd data to song2024 source" or "lock infant-formula-dairy Step 0 before synthesis" or "search wishlist for Ni in baby-food-puree sources."
+4. Surface top 20 by fix-impact: which single paper or one-step governance action would unblock the most cells.
+
+**Anchors:** CLAUDE.md Part 9 (synthesis trigger conditions: cells move from pending to populated with 2 sources); Part 5b (routing layer connects evidence to synthesis); Part 18 (lint fails on mixed-coverage cells, which this audit operationalizes).
+
+---

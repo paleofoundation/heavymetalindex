@@ -1,6 +1,6 @@
 # Source-value extraction report — 2026-05-19
 
-Generated: 2026-05-19T20:17:16.519Z
+Generated: 2026-05-19T21:10:54.418Z
 Mode: EXECUTED
 Elapsed: 0s
 
@@ -9,7 +9,7 @@ Elapsed: 0s
 - Source pages processed: 997
 - Pages with `## Key numbers` section: 888
 - Pages without Key numbers section (skipped): 108
-- Structured rows extracted: 5499
+- Structured rows extracted: 5497
 - Pages with Key numbers but no parseable values: 72
 
 ## Output
@@ -19,9 +19,9 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1099 rows
-- Cd: 1047 rows
-- Cr-total: 530 rows
+- Pb: 1098 rows
+- Cd: 1045 rows
+- Cr-total: 531 rows
 - Ni: 496 rows
 - tAs: 412 rows
 - Al: 344 rows
@@ -66,7 +66,7 @@ Elapsed: 0s
 - baby-cereals-dry-rice-based: 180 rows
 - seafood: 171 rows
 - spices: 171 rows
-- fresh-fruit: 165 rows
+- fresh-fruit: 163 rows
 - canned-fish: 128 rows
 - infant-formula-powder: 94 rows
 - fruit-juice-not-canned: 92 rows

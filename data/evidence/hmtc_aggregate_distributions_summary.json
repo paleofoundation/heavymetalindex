@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-19T20:38:52.642Z",
+  "generated_at": "2026-05-19T21:32:14.038Z",
   "product_filter": null,
   "metal_filter": null,
   "cells_total": 391,
   "cells_by_verdict": {
-    "READY FOR REVIEW": 37,
+    "READY FOR REVIEW": 36,
     "READY FOR REVIEW (regulatory cap applies)": 16,
     "BLOCKED: no usable evidence": 271,
-    "BLOCKED: pool too thin (≥2 admitted sources required)": 44,
+    "BLOCKED: pool too thin (≥2 admitted sources required)": 45,
     "PROVISIONAL: review sensitivity disagreement": 13,
     "BLOCKED: sensitivity unstable across parametric assumptions": 10
   },

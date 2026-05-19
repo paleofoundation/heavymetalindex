@@ -95,3 +95,14 @@
 
 ### Failed
 - `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Determination and risk analysis of heavy metals in different fruits collected from different shops of Dhaka city.pdf`: unrecognized final line: "Cycle summary: enhanced existing source page with PI/SPI disambiguation, expanded methods detail, and a second-highest-Pb data point (T24 Meena Bazar banana, 1.24 mg/kg). Fresh-context audit subagent returned **PROMOTE** — 5 checks clean, 1 ⚠️ on a source-internal AAS-model discrepancy (Chemito AA-203 in §3.5.2 vs "AA-7000" in §3.6), applied as a one-line Methods parenthetical for defensibility. Routing clean (1 direct_evidence row to fresh-fruit, all 5 metals). Three commits: a53c1bc (ingest), 0845432 (audit application), c337a94 (queue update)."
+
+## Tick 2026-05-19T21:13:16.782Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `rashid2015-metals-rock-melon-malaysia` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Determination of Metals Contamination in Rock Melon (Cucumis melo).pdf)
+- `song2024-crvi-hplc-icpms-food-reduction` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Development of a Fast Method Using HPLC-ICP-MS and Exploration of the Reduction Mechanism of Cr(VI) in Foods.pdf)
