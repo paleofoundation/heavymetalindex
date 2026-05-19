@@ -11,7 +11,7 @@ access_url: "https://www.agriculturejournals.cz/publicFiles/531_2014-CJFS.pdf"
 source_type: peer-reviewed
 evidence_tier: B
 license: "open access"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-fruit-juice-not-canned-cd_2015_10-17221-531-2014-cjfs.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-fruit-juice-not-canned-cd_2015_10-17221-531-2014-cjfs.pdf"
 raw_sha256: 20fe9d1bad716c3ff9def1f60ebe537aa7bf245987c220b877546c6eb951c92b
 metals: [Cd, Cr, Pb, Ni, Zn, Fe]
 ingredients: ["[[ingredients/fruit-juice]]", "[[ingredients/apple-juice]]", "[[ingredients/orange-juice]]", "[[ingredients/grape-juice]]"]
