@@ -74,7 +74,7 @@ All concentrations in mg/kg dry weight (DW). Means ± SD across 10 sampling site
 | Cr | 0.50–1.00 | 0.74 ± 0.16 | 21.18 |
 | Cu | 3.30–4.10 | 3.74 ± 0.26 | 7.04 |
 | Pb | 0.01–0.08 | 0.04 ± 0.02 | 38.84 |
-| As | 0.01–0.07 | 0.05 ± 0.02 | 11.84 |
+| As | 0.02–0.07 | 0.05 ± 0.02 | 53.84 |
 | Fe | 85.00–120.00 | 103.35 ± 12.23 | 11.84 |
 | Mn | 10.00–15.00 | 12.47 ± 2.00 | 16.03 |
 | Zn | 9.00–18.00 | 14.10 ± 3.03 | 21.46 |
@@ -99,7 +99,7 @@ HRI (dimensionless):
 | Cantaloupe | 0.5486 | 0.6540 | 0.3879 | 0.3214 | 0.6714 | 0.5928 | 0.4120 | 0.1990 |
 | Kajri | 0.5507 | 0.6300 | 0.4007 | 0.4286 | 0.6429 | 0.6328 | 0.3817 | 0.2014 |
 
-THQ values were ≤0.0007 across all PTEs and varieties (Table 3). PCA reduced the dataset to two principal components capturing 95.65% (Arka Shyama), 96.22% (Crimson Sweet), 98.73% (Cantaloupe), and 97.99% (Kajri) of variance. HCA identified sites L3 and L6 (Saharanpur, near Hindon/Solani tributaries) and L4 (Yamuna riverbank) as hotspots for elevated Cd, Pb, and As.
+THQ values were ≤0.0007 across all PTEs and varieties (Table 3). PCA reduced the dataset to two principal components capturing 95.65% (Arka Shyama: PC1 77.25 + PC2 18.40), 96.22% (Crimson Sweet: 87.53 + 8.69), 98.73% (Cantaloupe: 87.30 + 11.43), and 98.02% (Kajri: 93.74 + 4.28) of variance. Fe and Zn showed the most dominant distributions on L3 and L6 sites per the Arka Shyama PCA biplot (Figure 3b,d). HCA cluster-similarity pairs reported by the paper (Section 3.2): L2–L3 and L5–L7 for Arka Shyama; L3–L8 and L4–L5 for Crimson Sweet; L2–L9 and L7–L10 for Cantaloupe; L5–L9 and L4–L7 for Kajri. Per Section 3.1, Pb peaks at 0.11 mg/kg at site L10 (Crimson Sweet) and several samples exceed the WHO/FAO Cd MPL of 0.05 mg/kg DW.
 
 ## Methods (brief)
 
@@ -132,3 +132,13 @@ Page enhanced 2026-05-19 from a prior revision dated 2026-05-14. Corrections app
 - `sample_population` expanded to capture the L1–L4 (Yamuna), L5–L8 (Hindon/Solani tributaries), L9–L10 (Ganges) site partitioning (Section 2.1).
 - Regulatory comparison clarified: the paper compares dry-weight concentrations to a WHO/FAO MPL normally applied on fresh weight, which limits direct interpretability; this caveat was added rather than removed because the paper itself makes the comparison.
 - Legacy `## Wiki pages updated on ingest` section removed per the current Part 6 source-page template.
+
+Audit subagent (2026-05-19) findings — verified independently against the PDF and applied:
+
+- ❌ Kajri As CV%: subagent flagged wiki value 11.84 as a column-shift duplicate of the Fe CV; Table 2 Kajri CV row reads 41.47/21.18/7.04/38.84/**53.84**/11.84/16.03/21.46 (Cd/Cr/Cu/Pb/As/Fe/Mn/Zn). Verified; corrected As CV to 53.84.
+- ❌ Kajri As range: subagent flagged wiki value 0.01–0.07 as understating the minimum; Table 2 Kajri As column L1=0.02, no value below 0.02. Verified; corrected to 0.02–0.07.
+- ⚠️ Kajri PCA variance sum: subagent flagged wiki "97.99%" as arithmetic drift; PC1=93.74 + PC2=4.28 = 98.02. Verified; corrected to 98.02 and added per-component variances for all four varieties.
+- ⚠️ HCA hotspot attribution: subagent flagged that the wiki sentence "L3 and L6 ... and L4 ... as hotspots for elevated Cd, Pb, and As" is not in the source. Section 3.2 actually names Fe/Zn (not Cd/Pb/As) as dominant on L3/L6 in the Arka Shyama biplot, and identifies cluster-similarity pairs not "hotspots." Verified; rewrote the sentence to track what Section 3.2 actually reports (similarity pairs L2–L3/L5–L7 for Arka Shyama, L3–L8/L4–L5 for Crimson Sweet, L2–L9/L7–L10 for Cantaloupe, L5–L9/L4–L7 for Kajri) and moved the regulatory-exceedance summary up from the prior hotspot sentence to a faithful restatement of Section 3.1.
+- ⚠️ Wet-weight conversion in Implications/Certification: subagent flagged as borderline Part 2 (wiki-side arithmetic on top of a source-internal regulatory claim). Rejected as a correction: the conversion is framed as a comparability caveat ("constrains direct comparison"), not as a threshold proposal, and is necessary to honestly report the paper's own DW-vs-WW MPL comparison. Leaving in place.
+- ⚠️ `matrices: melon-pulp` not flagged as a new-vocabulary proposal: noted here. Matrices vocabulary per `docs/gpt-collaboration/system-prompt.md` is open ("Add a new term only if none of these fits"); `melon-pulp` is unambiguous and consistent with naming conventions like `fish-muscle`, `cocoa-powder`, `egg-yolk` already in use across the corpus. No correction required.
+- Checks 2, 3, 4 returned ✅. Verdict was REVISE on the basis of the four findings above; after applying the three real corrections and rewriting the hotspot sentence, the page should clear a re-audit on Checks 1 and 5.
