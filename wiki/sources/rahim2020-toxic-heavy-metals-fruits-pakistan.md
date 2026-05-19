@@ -68,7 +68,7 @@ Limitations: no certified reference material is mentioned, no recovery / QC data
 
 Certification: provides a low-contamination dry-weight baseline for 11 fresh-fruit commodities sourced from a low-industry region of Pakistan. Useful as a comparator for category-level fresh-fruit pooling. Values must be converted from dry weight to as-marketed wet weight (typical 7–10× reduction) before comparison with fresh-weight regulatory limits or HMTc per-row standards.
 
-Courses: useful illustration that fruit heavy-metal loadings vary strongly by geography and industrial footprint; KPK data sit notably below the typical ranges reported for fruits from more industrialised or arsenic-groundwater regions.
+Courses: useful illustration that fruit heavy-metal loadings vary with regional industrial footprint and pesticide use; the authors attribute KPK's low values to almost-negligible industrialisation and limited pesticide application in the province through 2011.
 
 App: supports a low-contamination prior for fresh apple, peach, apricot, grapes, mango, banana, orange, pomegranate, guava, lemon and cherry sourced from low-industry regions, with the caveat that the data are DW-basis and need conversion before comparison with as-consumed limits.
 
@@ -103,3 +103,11 @@ Merge-enhanced 2026-05-19 from the 2026-05-14 revision against the source PDF (J
 - Frontmatter `updated` advanced to 2026-05-19.
 
 Existing `cite_key`, `doi`, `license`, `evidence_tier`, `near_duplicates`, `sample_n` and `products` preserved as in the prior revision.
+
+Post-ingest audit (fresh-context subagent, 2026-05-19): verdict REVISE.
+
+- Check 5 ⚠️ on the Courses bullet phrase "arsenic-groundwater regions" — verified against §3 Discussion (p. 64): the paper attributes low KPK values to "almost negligible industrialisation" and "negligible" pesticide application through 2011 only; it does not invoke arsenic-groundwater context. Applied: Courses bullet rewritten to track the paper's own attribution.
+- Check 5 ⚠️ on the Certification bullet phrase "HMTc per-row standards" — audit itself rated this on the allowed side of the Part 2 boundary (contributes occurrence data, does not propose a threshold value). No change applied; leaving the phrase as written.
+- Check 1 ⚠️ on `sample_n: 308` as a wiki-side derivation — verified: §2.1 (p. 63) states each fruit was purchased from 28 markets at 1 kg, and §1 / Table 2 enumerate the 11 fruit varieties. The total 11 × 28 = 308 is an explicit consequence of the stated design and is preserved in `sample_population`. No change applied.
+- Check 1 ⚠️ on closest-approach ratios (cherry Cd ~92%, lemon Cd ~78%, grapes Cd ~66%, grapes Pb ~36%) — verified: each ratio is arithmetic on the source's Table 2 means and the source's own cited WHO limits (Cr 2.3, Co 50, Ni 70, Cd 0.1, Pb 0.3 mg kg⁻¹ DW). The paper's own §3 framing is qualitative ("much lower"); the wiki adds the quantitative ratios from the same source values. No change applied; ratios retained as useful for downstream pooling.
+- Checks 2, 3, 4 returned clean.
