@@ -16,3 +16,15 @@ Dry run: false
 - `skip:biomonitoring-not-product-occurrence`: 3
 - `skip:remediation-method-not-occurrence`: 1
 - `skip:already-indexed`: 1
+
+## Later sweep — 2026-05-19 19:48
+
+Total PDFs in folder at sweep: 0
+Moved to ingested/: 0
+Moved to skipped/<reason>/: 0
+Left in auto-fetched/ (truly un-dispositioned, real work queue): 0
+Dry run: false
+
+### Skip buckets
+
+(none)
