@@ -11,7 +11,7 @@ source_type: review
 evidence_tier: B
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Pollutants in Breast Milk_ A Scoping Review of the Most Recent Data in 2024.pdf"
-metals: [Pb, Cd, tAs, MeHg]
+metals: [Pb, Cd, tAs, MeHg, tHg]
 ingredients: ["[[ingredients/breastmilk]]"]
 products: []
 matrices: [breast-milk]
@@ -19,39 +19,46 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Scoping review of 54 articles (1995–2023) on persistent organic pollutants and heavy metals in breast milk; globally distributed populations"
-updated: 2026-05-17
+updated: 2026-05-19
 ---
 
-This scoping review examined the persistent presence of POPs (PCBs, PFAs, pesticides, flame retardants) and heavy metals in breast milk, searching MEDLINE and Google Scholar for articles published from 1995 to June 2023. Of 341 primary studies identified, 54 were selected for synthesis. The review is primarily focused on organic pollutants, with heavy metals as a secondary concern. Table 1 cites mixed food and water reference values for Pb and Cd, but it does not establish breast-milk-specific regulatory limits. The review notes that heavy metal exposure occurs via the diet (over 90% for Cd in non-smokers, 100% for MeHg), that place of residence (urban vs. rural) correlates with some heavy metal exposure patterns, and that smoking increases Pb in breast milk. The review situates breast milk contamination within the 'One Health' concept, noting that breast milk quality serves as an indicator of overall environmental health.
+This scoping review examined the persistent presence of POPs (PCBs, PFASs, organochlorine pesticides, halogenated flame retardants, dioxins/furans, PAHs, DDT, PBDEs) and heavy metals in breast milk. MEDLINE and Google Scholar were searched from 1995 to June 2023; 341 primary studies were identified and 54 were selected via PRISMA screening. The review is primarily focused on organic pollutants, with heavy metals as a secondary concern. Table 1 cites mixed food and water reference values for Pb and Cd; it does not establish breast-milk-specific regulatory limits. The review situates breast milk contamination within the 'One Health' concept, noting that breast milk quality serves as an indicator of overall environmental health, and concludes that breastfeeding remains WHO-recommended for the first six months of life despite the pollutant load.
 
 ## Key numbers
 
-Specific heavy metal concentration data from the 54 included articles are not fully quantified in the extracted body text (the review is primarily descriptive/qualitative for metals). Reference values cited:
+The 54 included articles' heavy-metal concentration values are not pooled or quantitatively re-analyzed in this review; metal-specific results are described narratively. Reference values cited and a small number of single-study findings are reproduced below.
 
-**Reference values cited in Table 1 (not breast-milk-specific regulatory limits):**
-- Pb: 0.020 mg/kg for milk (EU) and 0.015 mg/L (15 µg/L) for water
-- Cd: 0.010 mg/kg for infant food (EU) and 0.005 mg/L (5 µg/L) for water
+**Reference values cited in Table 1 (mixed food and drinking-water limits — not breast-milk-specific):**
+- Pb: 0.020 mg/kg (milk, EU); 0.015 mg/L (15 µg/L) (EPA, water)
+- Cd: 0.010 mg/kg (infant food, EU); 0.005 mg/L (5 µg/L) (EPA, water)
+- Benzo[a]pyrene: 0.002 mg/kg; PAHs (group of four): 0.010 mg/kg
+- DDT: provisional tolerable daily intake (PTDI) 0.1 mg/kg body weight/day (FAO/WHO)
 
-**Exposure determinants identified:**
-- Pb: positive association with urban residence (p < 0.05), smoking (p = 0.024), and well water consumption (p = 0.046)
-- As: positive association with urban residence (p = 0.013)
-- Cd: non-smokers: >90% of exposure from diet; no specific association with residence cited
+**Heavy-metal exposure determinants extracted from cited primary studies:**
+- Pb: positive association with smoking (p = 0.024) and with well-water consumption (p = 0.046) in a 170-nursing-mother prospective study (reference [35] in source).
+- As: positive association with urban residence (p = 0.013) in the same 170-mother prospective study.
+- Cd: in non-smokers, >90% of exposure is dietary; for methylmercury, 100% of exposure is dietary.
+- Spanish (Murcia) study of 50 breastfeeding women: highest milk concentrations of Al, Zn, As, Pb, Hg, and Ni in women living in mining areas; highest Mn, Cr, and Fe in women living in agricultural areas. WHO-limit exceedance: As 46.4%, Hg 33.3%, Pb 4.4% of breastfed babies.
 
-**POPs context (not metals):** PCBs 0.123 µg/g lipid weight; PFOA 0.022 µg/L; PFOS 0.021 µg/L — these are the primary quantitative focus of the review.
+**POPs context (organic pollutants — primary quantitative focus of the review):**
+- Sum of 6 indicator PCBs: 123.12 ng/g lipid weight (Czech Republic, 2019–2021, n=231).
+- PFOA: 22 pg/mL; PFOS: 21 pg/mL (same Czech cohort).
+- Italian PHIME mother-child cohort (n=456 children at 40 months): adjusted odds ratio for sub-optimal neurodevelopment in the high-tHg / low-Se category was 2.55 (90% CI 1.02; 6.41) in the multiplicative model; 1.33 (90% CI 0.80; 1.87) in the additive model.
+- DDT (Ethiopia, n=168 mothers): estimated daily infant intake 11.24 µg/kg body weight/day in the first month of breastfeeding, exceeding the FAO/WHO PTDI of 10 µg/kg bw/day.
 
-The heavy metals section of this review is limited in quantitative scope. The Katrynska et al. (2026) review [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review]] provides more comprehensive metal-specific data.
+The heavy-metals quantitative content of this review is thin. The Katrynska et al. (2026) review [[sources/katrynska2026-human-milk-biomonitor-toxic-metals-review]] provides a denser metal-specific data set for the breast-milk matrix.
 
 ## Methods (brief)
 
-Scoping review per PRISMA checklist. Databases: MEDLINE, Google Scholar. Date range: 1995–2023. Three reviewers for title/abstract and full-text screening. Inclusion: English-language peer-reviewed studies on POPs and heavy metals in breast milk with methodology reported; includes infant formula vs. breast milk comparisons. Not a systematic review; no formal risk-of-bias assessment or meta-analysis. 341 studies identified; 54 selected.
+Scoping review per PRISMA. Databases: MEDLINE, Google Scholar. Date range: 1995 to June 2023 (literature search performed 15 June 2023). Three reviewers screened titles, abstracts, and full texts; disagreements resolved by consensus. Inclusion criteria: peer-reviewed English-language journal articles 1995–2023, human participants, measured POPs and/or heavy metals in breast milk, included assay methodology. Articles comparing infant formula and breast milk were also included. PRISMA flow: 665,751 heavy-metals articles → 6,362 with "milk" → 54 with breast-milk human-health-outcome scope. Of 341 POP/heavy-metal primary studies identified, 54 were ultimately selected. Not a systematic review; no formal risk-of-bias assessment, no meta-analysis. No external funding.
 
 ## Implications
 
-Certification: This source is a biomonitoring and public-health context paper rather than an HMTc threshold source. The cited Pb and Cd values can provide regulatory context only when clearly labeled as food/water reference values, not as breast-milk limits. The review confirms that breastfeeding remains WHO-recommended even with pollutant presence, but that reducing maternal environmental exposure is a public health priority.
+Certification: This is a biomonitoring and public-health context paper, not an HMTc threshold source. The Pb and Cd values in Table 1 can be cited as regulatory context only when clearly labeled as mixed food and water reference values, not as breast-milk regulatory limits. The review confirms WHO-recommended exclusive breastfeeding for the first six months and emphasizes reducing maternal environmental exposure as the leverage point.
 
-Courses: The 'One Health' framing — breast milk contamination as indicator of environmental health — is a useful teaching concept. The smoking-Pb, well-water-Pb, residence-As, diet-Cd, and diet-MeHg observations are exposure-determinant examples.
+Courses: The 'One Health' framing — breast milk contamination as an indicator of broader environmental health — is a useful teaching frame for course modules on supply-chain contamination pathways. The smoking-Pb, well-water-Pb, urban-As, mining-residence (Al/Zn/As/Pb/Hg/Ni), and dietary-Cd/MeHg findings provide concrete exposure-determinant examples.
 
-App: Breast milk is a biomonitoring and health-context matrix rather than a certification product benchmark. This review primarily supports health-context sections and cross-links from relevant metal pages.
+App: Breast milk is a biomonitoring and health-context matrix rather than a certification product benchmark. This review primarily supports health-context cross-links from metal pages, not contamination-profile values on ingredient pages.
 
 Microbiome: No microbiome-specific findings were extracted from this review.
 
@@ -62,11 +69,9 @@ Microbiome: No microbiome-specific findings were extracted from this review.
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/mercury-methyl]]
+- [[metals/mercury-total]]
 
 ## Verification notes
 
-- Corrected the raw PDF path to the full manual-fetch filename.
-- Corrected the Pb/Cd reference-value attribution: Table 1 gives mixed EU food and water values, not EU breast-milk regulatory limits.
-- Added arsenic-total and methylmercury routing because the source page summarizes As residence and MeHg diet-exposure findings.
-- Strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content.
-- Removed unsupported microbiome expansion and reframed HMTc/app implications as biomonitoring context.
+- 2026-05-17 (Codex audit, revised): corrected the raw PDF path to the full manual-fetch filename; corrected the Pb/Cd reference-value attribution (Table 1 gives mixed EU food and EPA water values, not EU breast-milk regulatory limits); added arsenic-total and methylmercury routing; strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content; removed unsupported microbiome expansion; reframed HMTc/app implications as biomonitoring context.
+- 2026-05-19 (manual-fetch re-ingest re-verification): re-read source pages 1–14 in full. Corrected an exposure-determinant transposition: the prior page attributed Pb to urban residence (p < 0.05); the source actually attributes urban residence to As (p = 0.013) and attributes Pb to smoking (p = 0.024) and to well-water consumption (p = 0.046) within the same 170-mother prospective study (reference [35] in source, p. 6). Added the Spanish Murcia (n=50) mining-vs-agricultural metal-residence pattern that the prior page had omitted, including the WHO-limit exceedance percentages (As 46.4%, Hg 33.3%, Pb 4.4%) from reference [13]. Added the Italian PHIME tHg cognitive-neurodevelopment OR (2.55, multiplicative model, n=456 at 40 months) and added `tHg` to `metals:` because the PHIME analysis uses total mercury, not methylmercury, even though the dietary-source paragraph attributes 100% of exposure to MeHg. Added the Ethiopian DDT EDI (11.24 µg/kg bw/day vs PTDI 10) for completeness on the POPs side. Strict Part 12 recheck: methods discussion names only analytical-instrument classes (GC-MS/MS, UHPLC-MS/MS), no sampled-product brands. Strict Part 2 recheck: implications stop at "biomonitoring context"; no HMTc threshold proposed.
