@@ -12,7 +12,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "Creative Commons Attribution 4.0 International License"
 raw_path: raw/markdown/FM_9947434/FM_9947434.md
-metals: [Al, As, Ba, Cr, Cu, Fe, Li, Mg, Mn, Mo, Ni, Pb, Se, V]
+metals: [Al, tAs, Ba, Cr, Cu, Fe, Li, Mg, Mn, Mo, Ni, Pb, Se, V]
 ingredients: ["[[ingredients/breastmilk]]"]
 products: []
 matrices: [breast-milk]
