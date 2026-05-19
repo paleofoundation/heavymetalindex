@@ -100,6 +100,8 @@ This page was merge-enhanced on 2026-05-19 from a prior version (updated: 2026-0
 
 The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metals-drinking-water-india`) is a separate, distinct paper from a different study and is unrelated to this one; matched on author lastname only.
 
+**Audit subagent 2026-05-19 (REVISE verdict, one ❌ finding):** The subagent flagged Potato HI = 0.916 as inconsistent with Table 4, asserting Table 4 reports Potato HI = 0.2958333. Verified against Table 4 directly (page 6): row 3 (Ginger) HI = 0.2958333; row 4 (Potato) HI = 0.9156667 ≈ 0.916. The 0.916 value in the wiki page is correct and confirmed by the row-level HRI sum (Potato: HRI Cd 0.115 + HRI Pb 0.6775 + HRI As 0.1166667 + HRI Hg 0.0065 = 0.9156667). The subagent's finding is a false positive caused by row mis-alignment between Ginger (row 3) and Potato (row 4). No change applied. The subagent's ⚠️ concerns about the Implications/App framing were considered — both are scoped as program-only/downstream-app context, not as wiki claims, and remain unchanged.
+
 ## Wiki pages this source touches
 
 - [[metals/lead]]
