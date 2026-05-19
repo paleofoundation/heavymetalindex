@@ -90,7 +90,7 @@ Ten canned fish samples; 2 ± 0.001 g representative homogenized subsamples per 
 
 ## Verification notes
 
-- 2026-05-18 Codex merge-enhance: matched DOI/raw path to P0157, added full MFK raw handle/path and SHA-256 provenance, expanded `metals:` to include all six measured analytes, replaced the invalid `[[ingredients/canned-fish]]` link with existing fish/seafood/tinned-fish/canned-tuna ingredient slugs, and added `[[products/seafood]]` as broad product context.
+- 2026-05-18 Codex merge-enhance: matched DOI/raw path to P0157, added full MFK raw handle/path and SHA-256 provenance, expanded `metals:` to include all six measured analytes, replaced the invalid `ingredients/canned-fish` link with existing fish/seafood/tinned-fish/canned-tuna ingredient slugs, and added `[[products/seafood]]` as broad product context.
 - Existing cite key `benjamin2023-canned-fish-ghana` was retained for stable backlinks, but the page heading and author field now follow the PDF's printed author order: Bartels Benjamin; Apaah Brakye Kenneth; Gadzekpo Victor Patrick Yao.
 - Strict Part 12 brand-firewall cleanup: the source names the sampled products, but this page aggregates by fish type and omits all sampled-product brand names.
 - Source Table 1 lists a Zn recommended limit of 100 µg/g under the "EU Reg. No 1881/2006" row. That value is reported above as a source-cited comparator, but the attribution appears questionable because EC 1881/2006 sets maximum levels for contaminants such as Pb, Cd, Hg, iAs, and Sn, not a fish-specific Zn maximum level.

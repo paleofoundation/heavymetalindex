@@ -96,7 +96,7 @@ Cross-sectional study; 30 samples collected Feb–May 2025 from Tripoli retail m
 
 ## Verification notes
 
-- 2026-05-18 Codex merge-enhance: matched DOI/raw path to P0156, added full MFK raw handle/path and SHA-256 provenance, added Cu to frontmatter because the paper measures Cu, replaced nonexistent `[[ingredients/lamb]]` with existing broader meat/poultry ingredient slugs, and routed the sampled food forms to existing Category 11 product pages.
+- 2026-05-18 Codex merge-enhance: matched DOI/raw path to P0156, added full MFK raw handle/path and SHA-256 provenance, added Cu to frontmatter because the paper measures Cu, replaced nonexistent `ingredients/lamb` with existing broader meat/poultry ingredient slugs, and routed the sampled food forms to existing Category 11 product pages.
 - The `matrices:` terms retain source-specific meat-cut wording (`beef-muscle`, `chicken-muscle`, `lamb-muscle`, `processed-meat`) because the common matrix list does not include a broad meat/poultry term, while sibling meat-source pages already use `beef-muscle` and `chicken-muscle` for edible muscle tissue.
 - The paper contains repeated typographical uses of "Pd" where context and tables identify Pb (lead).
 - The Results prose states that one Pb sample exceeded a "0.05 mg/kg" Libyan limit, but Table 1 and Table 2 give the Pb limit as 0.10 mg/kg; this page uses the tabulated 0.10 mg/kg value and flags the source-internal inconsistency.
