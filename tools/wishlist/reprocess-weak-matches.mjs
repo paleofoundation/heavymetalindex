@@ -74,6 +74,22 @@ if (!DRY_RUN) fs.mkdirSync(AUTO_FETCHED, { recursive: true });
 
 const summary = { attempted: 0, downloaded: 0, skipped_html: 0, failed: 0, fetch_errors: 0 };
 
+// Hard wall-clock guard via Promise.race — AbortSignal.timeout() does NOT
+// reliably kill Node fetches stuck on certain TLS handshakes or chunked
+// responses with no data. Promise.race() lets us bail unconditionally.
+const HARD_FETCH_TIMEOUT_MS = 25000;
+function withHardTimeout(promise, ms, label) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => setTimeout(() => reject(new Error(`hard-timeout-${label}`)), ms)),
+  ]);
+}
+
+function persistCsv() {
+  if (DRY_RUN) return;
+  fs.writeFileSync(CSV, lines.join('\n'));
+}
+
 for (const c of toAttempt) {
   summary.attempted++;
   const filename = candidateFilename(c.cols);
@@ -91,11 +107,15 @@ for (const c of toAttempt) {
   } else {
     process.stdout.write(`  [${c.score}] fetching ${c.url.slice(0, 70)}... `);
     try {
-      const response = await fetch(c.url, {
-        headers: { 'User-Agent': USER_AGENT },
-        redirect: 'follow',
-        signal: AbortSignal.timeout(30000),
-      });
+      const response = await withHardTimeout(
+        fetch(c.url, {
+          headers: { 'User-Agent': USER_AGENT },
+          redirect: 'follow',
+          signal: AbortSignal.timeout(20000),
+        }),
+        HARD_FETCH_TIMEOUT_MS,
+        'fetch',
+      );
       if (!response.ok) {
         console.log(`HTTP ${response.status}`);
         newDecision = `fail:http-${response.status}`;
@@ -107,7 +127,7 @@ for (const c of toAttempt) {
           newDecision = `skip:not-pdf:${contentType.slice(0, 40)}`;
           summary.skipped_html++;
         } else {
-          const buffer = Buffer.from(await response.arrayBuffer());
+          const buffer = Buffer.from(await withHardTimeout(response.arrayBuffer(), HARD_FETCH_TIMEOUT_MS, 'body'));
           fs.writeFileSync(target, buffer);
           const sizeKB = (buffer.length / 1024).toFixed(0);
           console.log(`${sizeKB} KB`);
@@ -124,14 +144,13 @@ for (const c of toAttempt) {
     await new Promise(r => setTimeout(r, 500));
   }
 
-  // Update row in-place
+  // Update row in-place + persist immediately (per-row, so a future hang
+  // doesn't lose successful work — the prior version only wrote at end of
+  // loop and a single stuck fetch lost all preceding state).
   c.cols[idxDecision] = newDecision;
   c.cols[idxDownloadedPath] = newPath;
   lines[c.rowIdx] = c.cols.join(',');
-}
-
-if (!DRY_RUN && summary.attempted > 0) {
-  fs.writeFileSync(CSV, lines.join('\n'));
+  persistCsv();
 }
 
 console.log('');
