@@ -68,10 +68,10 @@ The July 2022 FDA Total Diet Study Report is the first analytical report from th
 
 | Food / matrix | Analyte | Action Level / standard | TDS observation |
 | --- | --- | --- | --- |
-| Apple juice (FDA 2013 draft guidance) | Pb | 10 ppb | All apple-juice samples below 10 ppb |
-| Apple juice (FDA 2013 draft guidance) | tAs (speciation trigger) | 10 ppb tAs (above which speciation runs) | No apple-juice sample exceeded 10 ppb tAs; no speciation needed |
+| Apple juice (FDA draft guidance for Pb in juice, FDA 2022d-context) | Pb | 10 ppb | All apple-juice samples below 10 ppb |
+| Apple juice (FDA 2013 iAs draft guidance) | iAs | 10 ppb iAs (speciation runs at 10 ppb tAs trigger; FDA 2013 is the iAs action-level draft guidance) | No apple-juice sample exceeded 10 ppb tAs; no speciation needed |
 | Chocolate and hard candy (FDA 2006 guidance) | Pb | 100 ppb | All 9 chocolate/sugar-candy results below 100 ppb; max detect 8.3 ppb; 6 of 9 ND |
-| Infant rice cereal (FDA 2020a guidance) | iAs | 100 ppb | All infant rice-cereal iAs results below 100 ppb (range 8.9 – 103 ppb among speciated samples; one crisped rice cereal sample reached 103 ppb on speciation though mean was 93 ppb for the 3 speciated; see §4.1.2) |
+| Infant rice cereal (FDA 2020a guidance) | iAs | 100 ppb | All infant-rice-cereal iAs results below 100 ppb (infant rice cereal was the food with the largest number of speciated samples and all of its iAs results were below the AL; see §4.1.2). Separately, *crisped* rice cereal — a different TDS food — had a mean iAs of 93 ppb across 3 speciated samples ranging 8.9–103 ppb; one of the three crisped-rice-cereal samples reached 103 ppb on speciation but the mean stayed below the 100 ppb AL (the AL is set for infant rice cereal specifically). |
 | Bottled water (21 CFR 165.110) | Pb | 5 ppb | All bottled-water samples below 5 ppb |
 | Bottled water (21 CFR 165.110) | Total arsenic | 10 ppb | All bottled-water samples below 10 ppb |
 | Bottled water (21 CFR 165.110) | Cd | 5 ppb | All bottled-water samples below 5 ppb |
@@ -174,7 +174,7 @@ Reporting limits vary by sample weight; representative values for ICP-MS in food
 - ICP-MS (draft EAM 4.12; Agilent 7700/7900/8900): Sb 0.04, As (total) 0.05, Ba 0.5, Be 0.04, Cd 0.03, Cr 4, Cu 2.5, Fe 25, Pb 0.4, Mn 0.4, Hg 0.03, Ni 2, Se 0.4, Tl 0.3, U 0.05, Zn 9 ppb reporting limits at 25 g sample weight.
 - ICP-MS (EAM 4.13; Agilent 7900): Iodine, 3 ppb reporting limit at 5 g sample weight.
 
-The four water-only analytes (antimony, barium, beryllium, thallium) are included because they are named in the bottled-water regulation 21 CFR 165.110. Thallium was detected only in bottled-water intended for infants; antimony, barium, beryllium were detected in regular bottled water.
+The four water-only analytes (antimony, barium, beryllium, thallium) are included because they are named in the bottled-water regulation 21 CFR 165.110. Per Table 3 footnote 13, all four were detected in regular bottled water; thallium was additionally also detected in bottled water intended for infants (BF water), uniquely among the four.
 
 **Speciation trigger.** Total arsenic was speciated when a sample's tAs exceeded a food-specific threshold (Appendix B Table 10): 10 ppb tAs for juices and wines (red, white, apple, grape, pear, cranberry cocktail, grapefruit, lemon, orange, pineapple, tomato-vegetable, fruit drinks, fruit juice blends, baby-food juices), 10 ppb for baby food rice/cereal products and mixed-grain cereals, 10 ppb for puffed snacks and teething biscuits, 100 ppb for crisped rice cereal, 125 ppb for cooked brown rice, 70 ppb for cooked white enriched rice. Fish and seafood were not speciated in this reporting cycle (analytical methods used in FY2018–FY2020 were not capable of speciating arsenic in fish/seafood matrices).
 
@@ -210,6 +210,14 @@ License `us-government-work`. The TDS data is published on the FDA website at th
 - Numerical fidelity note: Figure 10 and Figure 12 values are read from bar charts; the source does not provide tabular per-vegetable or per-fruit min/mean/max for the top-10 panels, so values in the wiki tables are stated as approximate and rounded to ppb-level resolution. The exact per-food values are available in the row-level CSV captured by [[sources/fda2022-tds-elements-fy2018-fy2020]].
 - Brand firewall: report names no brand names in body text; instrument/reference-material vendor names (Agilent) are method-vendor names permitted by the 2026-05-17 Part 12 exception 2 and are retained in `## Methods (brief)`.
 - HMTc firewall: this page reports what FDA measured and what FDA's Action Levels are; no HMTc threshold inferences are made.
+- 2026-05-20 audit-subagent pass (verdict REVISE): four ❌/⚠️ findings applied; one ⚠️ rejected as false positive; remaining ✅ checks (Check 4 brand firewall, Check 5 HMTc firewall, Check 1 numerical-fidelity bulk, Check 3 speciation/methods bulk) confirmed clean.
+  - Applied (Check 1 ⚠️ infant-vs-crisped rice cereal conflation): rewrote the infant-rice-cereal AL row to detach the 8.9–103 ppb range and 93 ppb mean from infant rice cereal; those values belong to crisped rice cereal per p20. Infant rice cereal's claim is restated as "all iAs below 100 ppb AL; largest number of speciated samples"; the 8.9–103 / 93 ppb numbers are now correctly stated against crisped rice cereal, with a note that the 100 ppb AL is set for infant rice cereal specifically.
+  - Applied (Check 1 ⚠️ apple-juice Pb regulatory attribution): re-split the apple-juice Action-Level rows so the 10 ppb Pb row no longer cites FDA 2013 (which p20 explicitly identifies as the iAs apple-juice draft guidance). FDA 2013 is now correctly attached to the iAs row only.
+  - Applied (Check 2 ❌ wrong regulation slug): replaced `[[regulations/fda-juice-haccp-lead-50ppb]]` (the 50 ppb HACCP juice-Pb action) with `[[regulations/fda2022-draft-lead-juice]]` (the 10 ppb apple-juice Pb draft action level that the TDS report actually compares against).
+  - Applied (Check 3 ⚠️ thallium narrative inversion): rewrote the water-only-analytes sentence in Methods so it correctly states that Sb, Ba, Be, and Tl were all detected in regular bottled water and Tl was additionally also detected in BF water (per Table 3 footnote 13). The prior phrasing had inverted the meaning by implying Tl was detected only in BF water.
+  - Applied (Check 2 ⚠️ coverage gap): added `[[regulations/fda-cpg-540-600-methylmercury-fish]]` to "Wiki pages updated on ingest" since CPG 540.600 is explicitly discussed in the Action-Level table.
+  - Rejected (Check 2 ⚠️ matrices vocabulary): subagent flagged `total-diet-study-prepared-food` in `matrices:` as not in the supplied taxonomy snapshot. False positive: the matrices field uses its own controlled vocabulary that is not enumerated in `docs/gpt-collaboration/taxonomy-snapshot.md` (only ingredients/products/metals/regulations are in that file). The matrices label `total-diet-study-prepared-food` is the established convention used by the companion source page [[sources/fda2022-tds-elements-analytical-key]] (verified: that page's frontmatter carries `matrices: [total-diet-study-prepared-food]`). Keeping the same label here is intentional and correct.
+  - Figure 10 / Figure 12 approximation flags: subagent confirmed approximations are directionally consistent with the source bar charts and the explicit "approximate, rounded" caveat in the wiki body is appropriate. No change needed.
 
 ## Wiki pages updated on ingest
 
@@ -249,4 +257,5 @@ License `us-government-work`. The TDS data is published on the FDA website at th
 - [[products/baby-food]]
 - [[regulations/fda-closer-to-zero]]
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
-- [[regulations/fda-juice-haccp-lead-50ppb]]
+- [[regulations/fda2022-draft-lead-juice]]
+- [[regulations/fda-cpg-540-600-methylmercury-fish]]
