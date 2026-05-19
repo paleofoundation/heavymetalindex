@@ -71,3 +71,14 @@
 
 ### Failed
 - `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin.pdf`: unrecognized final line: "```"
+
+## Tick 2026-05-19T18:41:38.718Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `reczajska2005-chromium-plant-foods-poland` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Chromium content of selected food and beverages of plant origin.pdf)
+- `rusin2021-vegetables-fruits-cadmium-lead-poland` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Concentration of cadmium and lead in vegetables and fruits.pdf)

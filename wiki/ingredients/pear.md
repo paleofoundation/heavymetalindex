@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [fruit-purees]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 3
+sources: 4
 ---
 
 # Pear

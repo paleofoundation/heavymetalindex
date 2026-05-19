@@ -13,7 +13,7 @@ primary_metals_of_concern: [Pb, Cd, tAs]
 applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 10
+sources: 11
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 

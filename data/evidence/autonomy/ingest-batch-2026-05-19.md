@@ -65,3 +65,15 @@
 
 ### Failed
 - P1 `abstract2020-content-dietary-exposure-toxic` (FM_7763862): cite_key mismatch: abstract2020-content-dietary-exposure-toxic-elements-infant-formulas-chinese-market
+
+## Batch 2026-05-19T18:41:38.605Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `abstract2020-content-dietary-exposure-toxic` (FM_7763862)
+
+### Failed
+- P1 `editor2019-manganese-levels-infant-formula` (FM_6830775): exit 1: 

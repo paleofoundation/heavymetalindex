@@ -714,3 +714,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (Synthesis triggers — cells stay `pending` until sources routed), Part 11 (Priority ordering — prospecting manifest becomes the P-tier input), Part 5b (Routing audit as the automation linchpin — this tool feeds routing discipline by identifying what sources to route next).
 
 ---
+
+- [ ] **2026-05-19** — see proposal below
+
+### Build pool-blocks audit and triage
+
+**What:** Create `tools/autonomy/audit-pool-blocks.mjs` that reads the standards workbench pool state and routing audit, identifies which of the 305 blocked cells have a resolvable root cause (basis conversion, metadata gap, tier mismatch, source contradiction), assigns each a resolution path, and outputs `data/evidence/autonomy/pool-blocks-triage-<YYYY-MM-DD>.csv` prioritized by (sources_routed × impact) so autonomy steps or Karen can unblock high-leverage cells first.
+
+**Why this lever now:** The 305 pool_blocked_cells are the single largest friction point between the corpus and publishable HMT&C standards. Per CLAUDE.md Part 19, the locked methodology is sound; the barrier is visibility into *why* cells cannot pool. Naming blocking reasons and resolution paths converts a backlog into actionable work, unblocks the threshold-setting machinery, and feeds deterministic path fixes (basis conversion, metadata extraction) back to autonomy. This multiplies the wiki's downstream usability.
+
+**Where:** 
+- Create `tools/autonomy/audit-pool-blocks.mjs` 
+- Output: `data/evidence/autonomy/pool-blocks-triage-<YYYY-MM-DD>.csv` with columns: `cell_id | product_slug | metal | blocking_reason | source_count | resolution_path | priority_rank | actionable_by`
+- Read: `data/evidence/product_source_routing_audit.csv`, source frontmatter via `wiki/sources/`, and (once workbench pool state is exposable) the standards-workbench pool register
+- Blocking reason taxonomy: `basis_conflict`, `tier_mismatch`, `metadata_gap`, `contradiction`, `statistical_instability`
+- Resolution path taxonomy: `auto_convert_basis`, `manual_review_contradiction`, `extract_missing_metadata`, `re_tier_after_qa`, `escalate_to_karen`
+
+**How:**
+1. Read `docs/standards-methodology.md` pool admission rules and basis-conversion lookup (in `tools/evidence/basis-conversion.mjs`) to define what "valid pool" means
+2. For each blocked cell, walk its contributing sources; match each source to its wiki page; extract `evidence_tier`, `basis`, required analyte/statistic metadata
+3. Classify blocks: basis mismatch against row's native basis → `basis_conflict`; source tier + pool-composition rule → `tier_mismatch`; missing cite_key or analyte → `metadata_gap`; P>2x disagreement between A-tier sources → `contradiction`
+4. Assign resolution paths and priority; write triage CSV; surface in morning report
+
+**Anchors:** CLAUDE.md Part 19 (pool methodology is locked; audit executes it), Part 5b (routing audit is the upstream input), Part 18 (lint extends into standards-derivation layer), docs/standards-methodology.md (pool admission rules)
+
+---

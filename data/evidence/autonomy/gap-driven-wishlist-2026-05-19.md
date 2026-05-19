@@ -3,10 +3,10 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1200 candidate queries
-- Path B (empty product + thin ingredient pages): 8116 candidate queries
-- Total candidates (after dedup): 9316
+- Path B (empty product + thin ingredient pages): 8144 candidate queries
+- Total candidates (after dedup): 9344
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9316
+- Eligible after filtering: 9344
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | electric-plug-in-evaporators × Pb | electric plug-in evaporators Pb |
-| P1 | supplements-teas-labeled × Pb | supplements teas labeled heavy metals lead occurrence |
-| P1 | pet-supplements-botanical-herbal × tAs | pet supplements botanical herbal total arsenic |
-| P1 | fabric-softeners × tAs | fabric softeners heavy metals total arsenic |
-| P1 | baby-powder-cornstarch × Pb | baby powder cornstarch Pb occurrence |
-| P1 | infant-formula-dairy × iAs | infant formula dairy speciated arsenic occurrence |
-| P1 | carpet-cleaners × Cd | carpet cleaners cadmium |
-| P1 | pet-toppers-mixers-broths × tAs | pet toppers mixers broths heavy metals total arsenic |
-| P1 | infant-food-puree × iAs | infant food puree speciated arsenic occurrence |
-| P1 | infant-bottles × Cd | infant bottles toy heavy metals cadmium |
-| P1 | baby-shampoo-body-wash × Pb | baby shampoo body wash heavy metals Pb occurrence |
-| P1 | baby-powder-cornstarch × Ni | baby powder, cornstarch-based nickel |
-| P1 | oral-products-other × Cd | oral products other heavy metals cadmium |
-| P1 | floss-interdental-cleaners × tAs | floss interdental cleaners heavy metals arsenic |
-| P1 | childrens-lip-balm-mineral-bearing × Pb | childrens lip balm mineral bearing Pb occurrence |
-| P1 | menstrual-discs × tHg | menstrual discs heavy metals total mercury |
-| P1 | canned-fish × tAs | canned fish arsenic occurrence |
-| P1 | menstrual-intimate-products-other × tHg | menstrual intimate products other mercury |
-| P1 | nuts-seeds-other × Pb | nuts seeds other heavy metals Pb occurrence |
-| P1 | deep-conditioning-treatments-rinse-off × tHg | deep conditioning treatments/hair masks (rinse-off) mercury |
+| P1 | infant-formula-dairy × Cr-VI | infant formula dairy heavy metals hexavalent chromium occurrence |
+| P1 | fabric-contact-products-other × tHg | other fabric-contact home products (case-by-case) mercury |
+| P1 | infant-cereal × Al | infant cereal aluminium occurrence |
+| P1 | toothbrushes × tHg | toothbrushes heavy metals mercury |
+| P1 | high-chairs-and-booster-seats × tHg | high chairs and booster seats mercury |
+| P1 | whitening-products × tHg | whitening products mercury |
+| P1 | tableware-glassware × Cd | tableware glassware heavy metals cadmium |
+| P1 | pet-supplements-calming-behavioral × tHg | calming/behavioral supplements mercury |
+| P1 | conditioner-adult-rinse-out × Pb | conditioner adult rinse out heavy metals lead |
+| P1 | menstrual-tampons × Pb | menstrual tampons heavy metals lead |
+| P1 | cutting-boards × tAs | cutting boards arsenic |
+| P1 | douches-vaginal-irrigation × Cd | douches vaginal irrigation Cd |
+| P1 | baby-shampoo-body-wash × Cd | baby shampoo body wash Cd occurrence |
+| P1 | supplements-oral-solids-powders × tHg | oral solids: powders (bulk tubs, sachets, stick packs) mercury |
+| P1 | pet-treats-snacks × Cd | pet treats/snacks cadmium |
+| P1 | cookware-nonstick-coated × tAs | nonstick-coated cookware arsenic |
+| P1 | cashews × Pb | cashews Pb occurrence |
+| P1 | fish-marine-non-predatory × tHg | fish — marine, non-predatory (sardines, anchovies, salmon, cod) total mercury |
+| P1 | breath-fresheners × Pb | breath fresheners heavy metals Pb |
+| P1 | hair-removal-products × Pb | hair removal products Pb |
 
 ## Coverage rotation
 

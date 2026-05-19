@@ -1,15 +1,23 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T17:44:23.134Z
+Generated: 2026-05-19T18:38:15.060Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
 - Queued for synthesis: 0
-- Routing typo proposals: 0
-- Provisional scaffolds created: 0
+- Routing typo proposals: 4
+- Provisional scaffolds created: 3
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 229
+
+## Provisional scaffolds created
+
+- product/`infant-formula-stage1` (triggered by source original2020-original-a)
+- product/`cereal-meals` (triggered by source original2020-original-a)
+- product/`biscuits` (triggered by source original2020-original-a)
+
+See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
 ## Items needing surfacing
 
