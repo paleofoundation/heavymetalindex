@@ -37,7 +37,42 @@ const PER_QUERY_LIMIT = 8
 const FROM_YEAR = 2015
 const API_DELAY_MS = 250
 const DOWNLOAD_DELAY_MS = 500
-const DOWNLOAD_THRESHOLD = 3
+// Threshold lowered 2026-05-19 from 3 → 1 after measuring that the prior
+// threshold rejected 63% of wishlist candidates (440 skip:no-keyword-overlap
+// + 102 review:weak-match out of 868 rows). The negative-keyword filter is
+// the real precision gate (biosensor/perovskite/case-report etc. score below
+// zero and stay out). Any positive hit after negative-penalty applies is
+// worth a fetch + content-check.
+const DOWNLOAD_THRESHOLD = 1
+
+// Metal alias table — mirrors METAL_SPECS in tools/wishlist/parse-wishlist.mjs.
+// Used to score paper abstracts against ALL synonyms of a metal, not just the
+// canonical search term. Without this, a paper saying "Pb levels" wouldn't
+// score against a query whose extracted metal is "lead".
+const METAL_ALIASES = {
+  "lead": ["lead", "pb"],
+  "cadmium": ["cadmium", "cd"],
+  "inorganic arsenic": ["inorganic arsenic", "ias"],
+  "arsenic": ["arsenic", "tas", "total arsenic"],
+  "methylmercury": ["methylmercury", "mehg"],
+  "mercury": ["mercury", "thg", "total mercury"],
+  "nickel": ["nickel", "ni"],
+  "aluminum": ["aluminum", "aluminium", "al"],
+  "hexavalent chromium": ["hexavalent chromium", "cr-vi", "cr(vi)"],
+  "chromium": ["chromium", "cr"],
+  "tin": ["tin", "sn"],
+  "antimony": ["antimony", "sb"],
+  "uranium": ["uranium"],
+  "heavy metals": ["heavy metal", "heavy metals", "toxic metal", "toxic metals", "trace metal", "trace metals"],
+}
+function expandMetalAliases(metalSearchTerms) {
+  const expanded = new Set()
+  for (const t of metalSearchTerms || []) {
+    const aliases = METAL_ALIASES[t.toLowerCase()] || [t]
+    for (const a of aliases) expanded.add(a)
+  }
+  return [...expanded]
+}
 
 // Negative-keyword prefilter. Papers with these phrases in title/abstract
 // are predominantly sensor methodology, materials science, plant molecular
@@ -156,7 +191,7 @@ for (let i = 0; i < queries.length; i += 1) {
       ...q.extracted.crops,
       ...q.extracted.regions,
       ...q.extracted.metals,
-      ...(q.extracted.metal_search_terms ?? []),
+      ...expandMetalAliases(q.extracted.metal_search_terms),
       ...q.extracted.periods,
     ])
     const penalty = negativeScore(haystack)
