@@ -43,3 +43,16 @@
 ### Succeeded
 - `dearing2025-hawkes-bay-organic-nonorganic-vegetables` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Assessment of Heavy Metals in Organic and Non-Organic Vegetables in Hawkes Bay, New Zealand.pdf)
 - `mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'.pdf)
+
+## Tick 2026-05-20T04:17:18.803Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `imongben2026-kaduna-vegetables-hra` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Determination of Some Heavy Metals and Their Potential Risk in Selected Vegetables on Sale within Kaduna Metropolis.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables.pdf`: saleem2025-foods14132264 has two existing source pages (`saleem2025-locally-grown-vegetables-north-dakota` canonical + `saleem2025-nd-vegetables-hra` legacy duplicate); consolidating requires updating 14 downstream files in `wiki/ingredients/`, `wiki/metals/`, and `data/evidence/`, which this skill's constraints forbid.

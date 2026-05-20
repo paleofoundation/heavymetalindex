@@ -14,7 +14,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/apple-juice|Apple juice]] (18 sources)
 - [[ingredients/applesauce|Applesauce]] (3 sources)
 - [[ingredients/asparagus|Asparagus]] (1 source)
-- [[ingredients/avocado|Avocado]] (5 sources)
+- [[ingredients/avocado|Avocado]] (6 sources)
 - [[ingredients/baby-cereals-dry|Baby Cereals Dry]] (2 sources)
 - [[ingredients/baked-beans|Baked beans]] (0 sources)
 - [[ingredients/baked-potato-with-peel|Baked potato with peel]] (1 source)
@@ -26,7 +26,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/blueberry-muffin|Blueberry muffin]] (1 source)
 - [[ingredients/bologna-luncheon-meat|Bologna luncheon meat]] (2 sources)
 - [[ingredients/bran-cereal-with-raisins|Bran cereal with raisins]] (1 source)
-- [[ingredients/broccoli|Broccoli]] (5 sources)
+- [[ingredients/broccoli|Broccoli]] (6 sources)
 - [[ingredients/butter|Butter]] (4 sources)
 - [[ingredients/butternut-squash|Butternut squash]] (1 source)
 - [[ingredients/camellia-sinensis|Camellia sinensis]] (14 sources)
@@ -38,10 +38,10 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/canned-spaghetti|Canned spaghetti in tomato sauce]] (0 sources)
 - [[ingredients/canned-tomatoes|Canned tomatoes]] (3 sources)
 - [[ingredients/cantaloupe|Cantaloupe]] (3 sources)
-- [[ingredients/carrot|Carrot]] (8 sources)
+- [[ingredients/carrot|Carrot]] (9 sources)
 - [[ingredients/carrots|Carrots]] (12 sources)
-- [[ingredients/cauliflower|Cauliflower]] (3 sources)
-- [[ingredients/celery|Celery]] (6 sources)
+- [[ingredients/cauliflower|Cauliflower]] (4 sources)
+- [[ingredients/celery|Celery]] (7 sources)
 - [[ingredients/chapattis|Chapattis]] (0 sources)
 - [[ingredients/cheddar-cheese|Cheddar cheese]] (2 sources)
 - [[ingredients/chicken|Chicken]] (11 sources)
@@ -101,7 +101,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/infant-formula-rtf-liquid|Infant Formula Rtf Liquid]] (1 source)
 - [[ingredients/ketchup|Ketchup]] (3 sources)
 - [[ingredients/lamb-chop|Lamb chop]] (1 source)
-- [[ingredients/leafy-greens|Leafy Greens]] (29 sources)
+- [[ingredients/leafy-greens|Leafy Greens]] (28 sources)
 - [[ingredients/lentils|Lentils]] (15 sources)
 - [[ingredients/lima-beans|Lima beans]] (1 source)
 - [[ingredients/macaroni-and-cheese|Macaroni and cheese]] (1 source)
@@ -163,12 +163,12 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/soy|Soy]] (15 sources)
 - [[ingredients/soy-protein-isolate|Soy Protein Isolate]] (0 sources)
 - [[ingredients/soy-based-infant-formula|Soy-based infant formula]] (8 sources)
-- [[ingredients/spinach|Spinach]] (20 sources)
+- [[ingredients/spinach|Spinach]] (21 sources)
 - [[ingredients/sports-drink-bases|Sports drink bases]] (0 sources)
 - [[ingredients/squash|Squash]] (0 sources)
 - [[ingredients/strawberries|Strawberries]] (8 sources)
 - [[ingredients/sunflower-seeds|Sunflower Seeds]] (9 sources)
-- [[ingredients/sweet-potato|Sweet potato]] (9 sources)
+- [[ingredients/sweet-potato|Sweet potato]] (10 sources)
 - [[ingredients/teething-and-snacks|Teething And Snacks]] (0 sources)
 - [[ingredients/tinned-fish|Tinned fish]] (12 sources)
 - [[ingredients/tomato|Tomato]] (19 sources)
@@ -200,55 +200,15 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[ingredients/apple-cider-vinegar|Apple Cider Vinegar]]
-- [[ingredients/balsamic-vinegar|Balsamic Vinegar]]
-- [[ingredients/beverages|Beverages]]
-- [[ingredients/black-pepper|Black Pepper]]
-- [[ingredients/breastmilk|Breastmilk]]
-- [[ingredients/cabbage|Cabbage]]
-- [[ingredients/canned-tuna|Canned Tuna]]
-- [[ingredients/casein|Casein]]
-- [[ingredients/cashew-nuts|Cashew Nuts]]
-- [[ingredients/cashews|Cashews]]
-- [[ingredients/cinnamon|Cinnamon]]
-- [[ingredients/corn-oil|Corn Oil]]
-- [[ingredients/cucumbers|Cucumbers]]
-- [[ingredients/dried-herbs|Dried Herbs]]
-- [[ingredients/fresh-herbs|Fresh Herbs]]
-- [[ingredients/freshwater-fish|Freshwater Fish]]
-- [[ingredients/fruits|Fruits]]
-- [[ingredients/guava|Guava]]
-- [[ingredients/hazelnuts|Hazelnuts]]
-- [[ingredients/herbs-and-spices|Herbs And Spices]]
-- [[ingredients/leafy-vegetables|Leafy Vegetables]]
-- [[ingredients/legumes|Legumes]]
-- [[ingredients/maize|Maize]]
-- [[ingredients/mango|Mango]]
-- [[ingredients/mango-juice|Mango Juice]]
-- [[ingredients/meat-poultry|Meat Poultry]]
-- [[ingredients/olive-oil|Olive Oil]]
-- [[ingredients/olives|Olives]]
-- [[ingredients/parsley|Parsley]]
-- [[ingredients/peanut-oil|Peanut Oil]]
-- [[ingredients/pear-juice|Pear juice]]
-- [[ingredients/plums|Plums]]
-- [[ingredients/quinoa|Quinoa]]
-- [[ingredients/rapeseed-oil|Rapeseed Oil]]
-- [[ingredients/raspberries|Raspberries]]
-- [[ingredients/rice-bran-oil|Rice Bran Oil]]
-- [[ingredients/seaweed|Seaweed]]
-- [[ingredients/sesame-oil|Sesame Oil]]
-- [[ingredients/shark|Shark]]
-- [[ingredients/shellfish|Shellfish]]
-- [[ingredients/soybean-oil|Soybean Oil]]
-- [[ingredients/spices|Spices]]
-- [[ingredients/sunflower-oil|Sunflower Oil]]
-- [[ingredients/tea|Tea]]
-- [[ingredients/tomato-paste|Tomato Paste]]
-- [[ingredients/turmeric|Turmeric]]
-- [[ingredients/vegetable-oil|Vegetable Oil]]
-- [[ingredients/vegetable-oils|Vegetable Oils]]
-- [[ingredients/vinegar|Vinegar]]
-- [[ingredients/walnuts|Walnuts]]
-- [[ingredients/wine-vinegar|Wine Vinegar]]
+- [[ingredients/fruit-mixed|Fruit Mixed]]
+- [[ingredients/infant-mixed-grain-cereal|Infant Mixed Grain Cereal]]
+- [[ingredients/infant-oat-cereal|Infant Oat Cereal]]
+- [[ingredients/infant-rice-cereal|Infant Rice Cereal]]
+- [[ingredients/marlin|Marlin]]
+- [[ingredients/nectarine|Nectarine]]
+- [[ingredients/pineapple|Pineapple]]
+- [[ingredients/rice-milk|Rice Milk]]
+- [[ingredients/soy-milk|Soy Milk]]
+- [[ingredients/swordfish|Swordfish]]
+- [[ingredients/vegetables-mixed|Vegetables Mixed]]
 <!-- END: hmi-auto-linked-stubs -->

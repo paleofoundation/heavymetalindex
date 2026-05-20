@@ -978,3 +978,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 10 (auto-creation of pages when sources declare unresolved slugs). Part 18 (routing_unresolved.csv non-empty is a build failure). Part 5b (routing audit is the system's responsibility, not the model's — it should auto-heal). The autonomy loop has the page-creation tools; using them here closes a synchronization gap.
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Audit pooling blockers to unblock synthesis
+
+**What:** Create `tools/autonomy/audit-pooling-blockers.mjs` that diagnoses why each of the 351 blocked cells cannot form a pool, categorizing them by blocker type (insufficient samples, basis mismatch, missing metadata, sensitivity instability) and emitting a diagnostic CSV with remediation signals.
+
+**Why this lever now:** The 351 pool-blocked cells represent synthesis opportunities that are currently dark — sources exist but cannot contribute to contamination-profile summary statistics or HMTc standard-setting. Categorizing blockers reveals which are fixable in autonomy (metadata corrections, basis-annotation rules) vs. which require new sources (thin-cell hunting) vs. which need statistical review (sensitivity instability). This is the single biggest bottleneck between ingest and threshold-setting.
+
+**Where:** 
+- Create: `tools/autonomy/audit-pooling-blockers.mjs`
+- Output: `data/evidence/pooling-blockers-diagnostic-<YYYY-MM-DD>.csv`
+- Input: contamination_profile sub-blocks from every `wiki/ingredients/*.md` where status != "pending" and n_studies >= 1
+
+**How:**
+1. Iterate over every ingredient page's metal sub-blocks; for each with sources but no pooled values, determine the blocker via source count, basis consistency, outlier-sensitivity flags, and metadata completeness checks.
+2. Emit diagnostic CSV with columns: ingredient_slug, metal, n_studies, blocker_category, blocker_detail, first_contributing_source.
+3. Lint should flag if diagnostic is >5 days old OR if 351 blocked count has changed without diagnostic refresh.
+4. Route the CSV to the autonomy morning report so the next cycle prioritizes unblocking: metadata-fixable cells → synthesis run → new-source hunts for thin cells → iterative reduction of blocked count.
+
+**Anchors:** Part 9 (Synthesis triggers), Part 18 (Lint), Part 19 (Pooling methodology). Enables autonomy to drive systematic unblocking rather than blind searching.
+
+---

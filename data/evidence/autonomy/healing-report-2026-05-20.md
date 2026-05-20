@@ -1,6 +1,6 @@
 # Heal-gaps report — 2026-05-20
 
-Generated: 2026-05-20T03:24:00.218Z
+Generated: 2026-05-20T04:14:43.962Z
 Mode: EXECUTED
 
 ## Summary
@@ -8,16 +8,8 @@ Mode: EXECUTED
 - Fixes applied: 0
 - Queued for synthesis: 0
 - Routing typo proposals: 7
-- Provisional scaffolds created: 3
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 232
-
-## Provisional scaffolds created
-
-- product/`infant-food-fruits` (triggered by source open2017-open-infants-dietary-arsenic-a)
-- product/`infant-food-vegetables` (triggered by source open2017-open-infants-dietary-arsenic-a)
-- ingredient/`formula` (triggered by source open2017-open-infants-dietary-arsenic-a)
-
-See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
+- Provisional scaffolds created: 0
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 234
 
 ## Items needing surfacing
 
@@ -43,4 +35,4 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/body-wash-shower-gel.md` — no canonical analyte default for slug body-wash-shower-gel
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
-- ... and 212 more (see queue file)
+- ... and 214 more (see queue file)

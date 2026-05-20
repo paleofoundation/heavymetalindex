@@ -42,4 +42,14 @@
 
 ### Failed
 - P1 `open2017-open-infants-dietary-arsenic` (FM_5940663): stdout did not contain '---' frontmatter
-- P1 `unknown2016-risk-arsenic-rice-cereal` (FM_4847023): exit 1: 
+- P1 `unknown2016-risk-arsenic-rice-cereal` (FM_4847023): exit 1:
+
+## Batch 2026-05-20T04:17:18.712Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `open2017-open-infants-dietary-arsenic` (FM_5940663): stdout did not contain '---' frontmatter
+- P1 `unknown2016-risk-arsenic-rice-cereal` (FM_4847023): cite_key mismatch: shibata2016-risk-arsenic-rice-cereal
