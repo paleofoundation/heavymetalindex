@@ -156,4 +156,14 @@
 - P1 `abstract2011-availability-arsenic-human-milk` (FM_4265415)
 
 ### Failed
+- P1 `unknown2012-original` (FM_3775530): exit 1:
+
+## Batch 2026-05-20T12:30:45.989Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
 - P1 `unknown2012-original` (FM_3775530): exit 1: 
+- P1 `breast-feeding2008-breast-feeding-protects-against-arsenic` (FM_2453168): exit 1: 

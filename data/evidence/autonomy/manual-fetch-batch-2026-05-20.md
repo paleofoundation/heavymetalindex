@@ -169,3 +169,14 @@
 
 ### Failed
 - `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf`: unrecognized final line: "Successfully merge-enhanced the pre-2026-05-14 page, fixed transposed honey Cu Al-Baha (0.159 → ND; 0.159 was Cr), corrected Mn Makkah honeybee per Table 1, fixed truncated raw_path, expanded Methods with full instrument/digestion/CRM detail, expanded Wiki-pages list to all measured metals, and dropped the source's nonsensical "50 (mg/g) of bees" line. Audit subagent verdict PROMOTE — all five checks clean; no audit-application commit needed."
+
+## Tick 2026-05-20T12:30:46.071Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `dasilva2017-heavy-metals-coffee-brazil` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of heavy metals in the roasted and ground coffee beans and brew.pdf)
+- `szymczykowska2026-matcha-elemental-composition` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health.pdf)

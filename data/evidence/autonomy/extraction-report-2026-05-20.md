@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-20
 
-Generated: 2026-05-20T11:41:57.469Z
+Generated: 2026-05-20T12:30:28.000Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 1011
-- Pages with `## Key numbers` section: 897
+- Source pages processed: 1012
+- Pages with `## Key numbers` section: 898
 - Pages without Key numbers section (skipped): 113
-- Structured rows extracted: 5776
+- Structured rows extracted: 5784
 - Pages with Key numbers but no parseable values: 75
 
 ## Output
@@ -21,10 +21,10 @@ Elapsed: 0s
 
 - Pb: 1131 rows
 - Cd: 1074 rows
-- Cr-total: 556 rows
+- Cr-total: 557 rows
 - Ni: 530 rows
-- tAs: 424 rows
-- Al: 362 rows
+- tAs: 426 rows
+- Al: 367 rows
 - tHg: 336 rows
 - iAs: 180 rows
 - Cu: 174 rows
@@ -61,7 +61,7 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2073 rows
+- (empty): 2075 rows
 - fresh-fish: 289 rows
 - seafood: 239 rows
 - fresh-fruit: 231 rows
@@ -73,11 +73,11 @@ Elapsed: 0s
 - face-paint: 81 rows
 - non-root-vegetables: 70 rows
 - infant-formula-powder-non-soy: 66 rows
-- honey: 62 rows
+- honey: 63 rows
 - children-personal-care: 59 rows
 - vinegar: 59 rows
 - chocolate: 58 rows
 - fish-freshwater: 58 rows
 - root-tuber-vegetables: 55 rows
-- tea-infusions: 49 rows
+- tea-infusions: 54 rows
 - poultry-product: 48 rows
