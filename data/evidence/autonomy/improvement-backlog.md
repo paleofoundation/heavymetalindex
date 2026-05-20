@@ -1122,3 +1122,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 5b (routing system rule: "no session maintains routing by hand"), Part 9 (synthesis trigger: cell moves from `pending` to `populated` once 2+ sources are routed), Part 18 (lint rule: routing_unresolved and routing_malformed are build-blocking failures). This targets the system's own stated failure condition.
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Audit and resolve all 17 routing_unresolved entries
+
+**What:** Read `data/evidence/routing_unresolved.csv`, categorize each of the 17 entries as either (a) a source frontmatter typo (quick fix) or (b) a missing page that needs creation, execute all category-A corrections immediately, and propose category-B pages to Karen with frequency counts and threshold analysis.
+
+**Why this lever now:** 17 routing_unresolved entries block the build (Part 18 lint failure). Each one represents a source whose declared product or ingredient slug does not route to any page, orphaning it from synthesis. Clearing all 17 removes a hard lint failure and allows those sources to feed ingredient-page contamination_profile cells, which directly advances pool→synthesis→populated workflows.
+
+**Where:**
+- Input: `data/evidence/routing_unresolved.csv`
+- Category-A fixes: correct frontmatter in `wiki/sources/<cite-key>.md`
+- Category-B output: emit to `data/evidence/autonomy/routing-gap-proposals-<date>.csv` [declared_slug] [observed_frequency] [meets_threshold] [recommendation]
+- Re-run: `tools/evidence/build-routing-audit.mjs` to confirm `routing_unresolved.csv` is empty post-fix
+
+**How:**
+1. For each routing_unresolved row, fetch the source page and compare the declared slug against what's actually in frontmatter. Correct any typos (e.g., `infant_formula_dairy` → `infant-formula-dairy`).
+2. For genuinely missing pages: count how many sources declare that slug across the corpus. If product and freq ≥ 2 (or ingredient and freq ≥ 5), create page via `create-provisional-product-scaffold.mjs` with `provisional_scaffold: true`. Otherwise, log as proposal for Karen.
+3. Commit each frontmatter correction individually; batch the proposals into a single CSV report with rationale.
+
+**Anchors:** CLAUDE.md Part 18 (routing_unresolved.csv non-empty is a build blocker), Part 5b (routing layer is the system's responsibility for connecting sources to synthesis), Part 10 (new pages get Karen approval unless auto-scaffolding thresholds are met).
+
+---

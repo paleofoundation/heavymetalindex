@@ -260,3 +260,36 @@ Both pages are in `routing_malformed.csv` advisory state (Phase 1 `products: []`
 **Why not consolidate the dual-folder filesystem entry**: this is a legitimate cross-folder duplicate of the raw PDF, not a duplicate source page. The canonical source page is unambiguous (`ye2026-tin-foods-dietary-exposure-zhejiang.md`). The tracker shows the 01_Fruits row as `ingested` and the 02_Vegetables row as `unprocessed`; updating the 02_Vegetables tracker row to point at the same canonical cite-key is a tracker housekeeping task, not a source-page edit. Logged here so the wrapper recognizes the situation rather than re-tripping on the same PDF again.
 
 **No commits made for this PDF.** Audit-queue not updated (already has the canonical entry from this morning). Wrapper should advance to the next PDF in the folder.
+
+## STOP: Cr(VI) polluted soils vegetables PDF — filename/content mismatch
+
+**PDF (as listed in raw/)**: `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The Potential Health Risk Associated with Edible Vegetables Grown on Cr(VI) Polluted Soils.pdf`
+
+**Suggested handle**: `MFK_the-potential-health-risk-associated-with-edible-v`
+
+**Situation**: the file on disk does not contain the paper its filename advertises. Reading pages 1-7 and confirming via `pdftotext` shows the actual content is a completely different paper:
+
+- Title: "Exploring the Effect of Market Conditions on Price Premiums in the Online Health Community"
+- Authors: Li, Chaoran; Zhang, E; Han, Jingti
+- Journal: *International Journal of Environmental Research and Public Health* 2020, 17(4), 1326
+- DOI: 10.3390/ijerph17041326
+- Subject: economics/management study of online doctor consultation pricing on Haodf.com (n=68,945 doctors); resource supply, resource concentration, and social stigma of disease as predictors of price premium; 2SLS fixed-effects regression.
+
+**Why this is a hard stop, not a routing problem**: the actual paper contains no heavy-metal data at all. It is an econometric study of doctor-pricing behavior on a Chinese health-services website. There is no Pb/Cd/As/Hg/Ni/Al/Cr/Sn/Cr-VI measurement, no exposure assessment of any HMI-vocabulary analyte, no soil/vegetable sampling, no regulatory comparison. The paper is out of scope for this wiki regardless of how the file is renamed (same shape as the Yangtze-cadmium / Skoko-patulin mismatch above).
+
+The intended PDF (Cr(VI) polluted soils → edible vegetables health risk) appears to be missing from the folder — the slot it would have occupied is filled by an unrelated econometrics paper. Same likely causes as the prior mismatch: copy-paste mistake at fetch time, wrong-URL download, or renamed-but-wrong-content swap during folder reorganization. Both mismatched PDFs share the IJERPH/MDPI source domain, which suggests the misfile occurred during a bulk MDPI fetch.
+
+**What I did NOT do**:
+
+- Did not create `wiki/sources/MFK_the-potential-health-risk-associated-with-edible-v.md` (would have created a fraudulent source page — wiki entry claiming to be a Cr(VI) vegetables paper, with cite pointing at the unrelated Li-Zhang-Han online-pricing paper, or vice versa).
+- Did not ingest the Li-Zhang-Han online-pricing paper under a corrected handle, because it has no metals content (Part 1 / Part 14 — out of scope for HMI).
+- Did not commit. Did not append to `data/evidence/audit-queue.csv`.
+
+**Recommended next steps** (Karen):
+
+1. Verify the intended source: "The Potential Health Risk Associated with Edible Vegetables Grown on Cr(VI) Polluted Soils" — likely a recent Cr(VI) bioaccumulation study (multiple candidate papers match that title pattern, including some open-access MDPI entries). Locate the correct PDF and re-fetch.
+2. Decide whether the misplaced Li-Zhang-Han online-pricing paper should be moved into `raw/_skipped/` (out-of-scope) or deleted from the vegetables folder. It is not an HMI source under any cite-key.
+3. Worth a sweep of the 02_Vegetables folder for additional filename/content mismatches — this is now the **second** confirmed mismatch in this folder (first was the Yangtze-cadmium PDF that turned out to be a Croatian apple/patulin paper). Two mismatches in one folder suggests the bulk-fetch step had a systematic shuffle, not a one-off slip.
+4. After the correct Cr(VI)-vegetables PDF is restored to the slot, re-run `/ingest-next-manual-fetch-pdf folder=02_Vegetables_and_Vegetable_Products`.
+
+**No commits made this tick.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.

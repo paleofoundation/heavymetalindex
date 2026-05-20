@@ -1,6 +1,6 @@
 # Heal-gaps report — 2026-05-20
 
-Generated: 2026-05-20T08:23:59.593Z
+Generated: 2026-05-20T09:21:03.171Z
 Mode: EXECUTED
 
 ## Summary
@@ -8,12 +8,18 @@ Mode: EXECUTED
 - Fixes applied: 0
 - Queued for synthesis: 1
 - Routing typo proposals: 5
-- Provisional scaffolds created: 0
+- Provisional scaffolds created: 1
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 235
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 
 - pending_contamination_profile_with_sources: 1 item(s)
+
+## Provisional scaffolds created
+
+- product/`infant-juice` (triggered by source cereal2013-cereal-juice-lead-arsenic)
+
+See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
 ## Items needing surfacing
 

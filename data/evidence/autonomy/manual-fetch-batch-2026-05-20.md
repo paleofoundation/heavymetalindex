@@ -117,3 +117,16 @@
 ### Succeeded
 - `armand2026-lettuce-cabbage-behbahan` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Probabilistic Carcinogenic and Health Risk Assessment of Heavy Metals in Lettuce and Cabbage.pdf)
 - `cfs2013-hktds-metallic-contaminants` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf)
+
+## Tick 2026-05-20T09:23:10.691Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `abdolahpour2023-heavy-metals-babol-vegetables` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The Health Risk Assessment of Heavy Metals in Vegetables Cultivated in Babol City, Iran.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The Potential Health Risk Associated with Edible Vegetables Grown on Cr(VI) Polluted Soils.pdf`: cr-vi-vegetables-pdf-filename-content-mismatch (PDF labeled "Edible Vegetables Grown on Cr(VI) Polluted Soils" actually contains Li-Zhang-Han 2020 IJERPH paper on online-doctor-pricing economics — no heavy-metal content, out of scope; second mismatched MDPI PDF in this folder). Stop note appended to `data/evidence/autonomy/manual-fetch-stops-2026-05-20.md`. No commits made.

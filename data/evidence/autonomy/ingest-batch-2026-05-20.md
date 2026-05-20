@@ -113,3 +113,13 @@
 
 ### Failed
 - P1 `introduction2014-randomized-controlled-trial-jujube` (FM_5322685): cite_key mismatch: kelishadi2016-randomized-jujube-human-milk
+
+## Batch 2026-05-20T09:23:10.597Z
+
+- Candidates this batch: 2
+- Succeeded: 2
+- Failed: 0
+
+### Succeeded
+- P1 `introduction2014-randomized-controlled-trial-jujube` (FM_5322685)
+- P1 `arsenic2012-arsenic-organic-foods-brown` (FM_3346791)
