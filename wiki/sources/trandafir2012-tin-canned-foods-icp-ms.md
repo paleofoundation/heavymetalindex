@@ -14,7 +14,7 @@ evidence_tier: B
 license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry.pdf"
 metals: [Sn]
-ingredients: ["[[ingredients/canned-vegetables]]", "[[ingredients/canned-fruit-cocktail]]", "[[ingredients/canned-tomatoes]]", "[[ingredients/canned-mushrooms]]", "[[ingredients/canned-green-beans]]", "[[ingredients/canned-corn]]", "[[ingredients/canned-tuna]]"]
+ingredients: ["[[ingredients/canned-fruit-cocktail]]", "[[ingredients/canned-tomatoes]]", "[[ingredients/canned-mushrooms]]", "[[ingredients/canned-green-beans]]", "[[ingredients/canned-corn]]", "[[ingredients/canned-tuna]]"]
 products: ["[[products/canned-vegetables]]", "[[products/canned-fruit]]", "[[products/canned-tomatoes]]", "[[products/canned-fish]]"]
 matrices: [canned-food]
 jurisdictions: [RO, EU]
@@ -99,7 +99,6 @@ What this method measures and does not measure: total dissolved tin (Sn) includi
 ## Wiki pages this source may touch
 
 - [[metals/tin]]
-- [[ingredients/canned-vegetables]]
 - [[ingredients/canned-tomatoes]]
 - [[ingredients/canned-fruit-cocktail]]
 - [[ingredients/canned-mushrooms]]
@@ -131,3 +130,4 @@ What this method measures and does not measure: total dissolved tin (Sn) includi
 - Speciation discipline: paper measures total dissolved Sn; it does not separate Sn(II) from Sn(IV), and does not measure organotins. `metals: [Sn]` is correct (the bare `Sn` abbreviation covers total inorganic tin; the dedicated `[[metals/tin-inorganic]]` slug exists but the umbrella `Sn` matches how the source reports values). The Methods section explicitly disclaims organotin coverage so downstream pages do not over-interpret.
 - Brand firewall: the source labels its four pineapple cans and two peeled-tomato cans as A/B/C/D and A/B with no brand names; no brand-by-brand attribution is required or possible from the source. Methods names instrument vendors (Perkin-Elmer ELAN 9000, Milestone Labstation), reagent vendors (Fluka, Riedel-de-Haën), and the water-system vendor (Basic TWF) — these are scientific-method vendor names and are explicitly permitted under the 2026-05-17 Part 12 carve-out.
 - Routing: `matrices: [canned-food]` covers the analytical matrix; product slugs cover the four canned-product categories the source touches (canned-vegetables, canned-fruit, canned-tomatoes, canned-fish). `jurisdictions: [RO, EU]` because the survey is Romanian-market and the regulatory frame cited is EU plus Codex.
+- 2026-05-20 — Audit subagent verdict REVISE; one ❌ on Check 2 (slug vocabulary): `[[ingredients/canned-vegetables]]` was not a valid ingredient slug (the slug exists only as a product slug under `wiki/products/`, not as an ingredient page under `wiki/ingredients/`). Verified against `ls wiki/ingredients/canned-*.md` — confirmed no `canned-vegetables.md` ingredient page exists. Finding applied: removed the invalid `[[ingredients/canned-vegetables]]` entry from the `ingredients:` frontmatter array and from the "Wiki pages this source may touch" section. The specific canned-ingredient slugs already in the page (`canned-corn`, `canned-green-beans`, `canned-mushrooms`, `canned-tomatoes`, `canned-fruit-cocktail`, `canned-tuna`) cover the canned vegetables actually measured. Checks 1, 3, 4, and 5 were ✅; no other findings to apply.
