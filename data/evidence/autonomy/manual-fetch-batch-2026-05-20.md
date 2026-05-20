@@ -82,3 +82,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Exposure to Lead and Cadmium in the Sixth Total Diet Study - China.pdf`: zhao2022 Sixth China TDS Pb/Cd — two existing wiki source pages under different cite-keys (`zhao2022-china-tds6-lead-cadmium-exposure` vs `zhao2022-china-sixth-tds-pb-cd`) for DOI 10.46234/ccdcw2022.045, with 9 + 4 downstream backlinks needing curation-driven consolidation
+
+## Tick 2026-05-20T06:41:55.103Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 1
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Investigation of Heavy Metal Levels in Canned Tomato Paste, Olives, and Pickled Cucumbers.pdf`: duplicate-page conflict — wiki/sources/shavalig2025-canned-tomato-olives-pickles-iran.md (post-cutoff, clean) and wiki/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran.md (pre-cutoff, legacy schema) both cover DOI 10.1038/s41598-025-06896-9; this is the 02_Vegetables sibling-PDF re-encounter of the same conflict logged 2026-05-19; consolidation requires Karen's call on canonical cite-key.
+
+### Failed
+- `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Heavy Metals in Commonly Consumed Root and Leafy Vegetables in Dhaka City, Bangladesh, and Assessment of Associated Public Health Risks.pdf`: spawnSync claude ETIMEDOUT

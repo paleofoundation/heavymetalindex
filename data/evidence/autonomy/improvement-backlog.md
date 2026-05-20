@@ -1050,3 +1050,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 5b (routing layer must be maintained by system, not by-hand), Part 10 (scaffold-based new-page creation), Part 18 (lint failure: unresolved CSV non-empty)
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Rank thin-cell synthesis targets by wishlist demand
+
+**What:** Build a tool (`tools/autonomy/rank-thin-cells-by-demand.mjs`) that crosses the 42 pool_too_thin cells (1–2 sources each) with the 600 gap-driven-wishlist queries to identify which (ingredient, metal) pairs would answer the most unanswered questions if populated with one or two additional sources.
+
+**Why this lever now:** The snapshot shows two disconnected signals: 42 synthesis cells too thin to populate, and 600 unanswered questions in the demand corpus. Linking them produces a ranked list for source-finding workflows: "If we find 2 more papers on iAs in rice, we answer 47 wishlist queries and move that cell to populated. If we find 2 more on Pb in spinach, we answer 3." This directs synthesis effort toward actual demand instead of arbitrary order.
+
+**Where:**
+- Input: `data/evidence/pool_too_thin.csv`, `data/evidence/gap_driven_wishlist.csv`
+- Output: `data/evidence/thin_cells_ranked_by_demand.csv` with columns `ingredient | metal | current_sources | target_sources_needed | answerable_wishlist_queries | top_3_queries`
+- Script location: `tools/autonomy/rank-thin-cells-by-demand.mjs`
+
+**How:**
+1. Parse both input CSVs; for each thin cell, count how many wishlist queries mention that (ingredient, metal) pair
+2. Sort by answerable-queries descending; tie-break by product rows citing the pair
+3. Emit ranked list with top 3 queries per cell so Karen or gap-healing can see what gets answered
+4. Integrate into morning report as a synthesis-priority rank
+
+**Anchors:** CLAUDE.md Part 9 (synthesis-trigger thresholds), Part 24 (proactive maintenance: "suggest new sources"), order-of-operations playbook (phases 0–5 source-priority ranking).
+
+---

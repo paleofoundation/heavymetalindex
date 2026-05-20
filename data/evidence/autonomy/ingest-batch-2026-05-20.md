@@ -77,3 +77,15 @@
 
 ### Failed
 - P1 `estimated2015-estimated-exposure-arsenic-breastfed` (FM_4421773): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-20T06:41:55.010Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `open2015-mercury-exposure-healthy-korean` (FM_4661673)
+
+### Failed
+- P1 `estimated2015-estimated-exposure-arsenic-breastfed` (FM_4421773): exit 1: 

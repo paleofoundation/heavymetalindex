@@ -3,10 +3,10 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1420 candidate queries
-- Path B (empty product + thin ingredient pages): 8210 candidate queries
-- Total candidates (after dedup): 9630
+- Path B (empty product + thin ingredient pages): 8190 candidate queries
+- Total candidates (after dedup): 9610
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9630
+- Eligible after filtering: 9610
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | toy-pacifiers × Pb | toy pacifiers heavy metals lead |
-| P1 | kitchen-countertop-cleaners × Pb | kitchen countertop cleaners Pb |
-| P1 | conditioner-adult-rinse-out × tHg | conditioner adult rinse out heavy metals mercury |
-| P1 | baby-wipes × Pb | baby wipes heavy metals lead occurrence |
-| P1 | capillary-reed-wood-diffusers × Pb | capillary reed/wood diffusers lead |
-| P1 | art-craft-materials × tAs | art craft materials arsenic |
-| P1 | toys-stuffing-materials × Cd | stuffing materials Cd |
-| P1 | infant-food-puree-vegetable × tAs | infant food puree vegetable arsenic |
-| P1 | baby-lotion-cream × Pb | baby lotion cream Pb occurrence |
-| P1 | childrens-lip-balm-mineral-bearing × Ni | childrens lip balm mineral bearing heavy metals nickel occurrence |
-| P1 | cookware-nonstick-coated × tAs | nonstick-coated cookware arsenic |
-| P1 | instant-air-refreshment-sprays × Pb | instant air refreshment sprays Pb |
-| P1 | baby-shampoo-body-wash × Pb | baby shampoo body wash heavy metals Pb occurrence |
-| P1 | teething-and-snacks-non-rice × Cd | teething and snacks non rice Cd occurrence |
-| P1 | baby-shampoo-body-wash × Pb | baby shampoo body wash Pb occurrence |
-| P1 | infant-formula-rtf-soy × Al | infant formula rtf soy aluminium occurrence |
-| P1 | infant-formula-stage1 × Pb | infant formula stage1 heavy metals Pb occurrence |
-| P1 | supplements-probiotics × Pb | ingredient class — live microbials/probiotics lead |
-| P1 | infant-bottle-nipples × tAs | infant bottle nipples toy heavy metals total arsenic |
-| P1 | food-storage-silicone × Pb | food storage silicone heavy metals Pb |
+| P1 | pacifiers-and-sucking-teething-aids × iAs | pacifiers and sucking/teething aids speciated arsenic |
+| P1 | diaper-cream-non-zno × Pb | diaper cream non zno Pb occurrence |
+| P1 | cookware-specialty-alloy × Pb | cookware specialty alloy lead |
+| P1 | hair-removal-products × tHg | hair removal products (depilatory creams) mercury |
+| P1 | baby-oil × Cd | baby oil Cd occurrence |
+| P1 | baby-wipes × Pb | baby wipes Pb occurrence |
+| P1 | hand-soap × tHg | hand soap (liquid and bar) mercury |
+| P1 | fabric-protectants × Cd | fabric protectants (excluding waterproofing/flame-retardant per gs-48 boundaries) Cd |
+| P1 | automatic-puff-releasers × tAs | automatic puff releasers total arsenic |
+| P1 | pet-food-semi-moist × tAs | semi-moist pet foods total arsenic |
+| P1 | filter-media-and-housings × Pb | filter media and housings Pb |
+| P1 | dish-soaps-manual × Cd | dish soaps (manual dishwashing) Cd |
+| P1 | toy-pacifiers × tHg | toy pacifiers total mercury |
+| P1 | childrens-lip-balm-mineral-bearing × iAs | childrens lip balm mineral bearing heavy metals speciated arsenic occurrence |
+| P1 | food-packaging-caps-closures × Pb | food packaging caps closures heavy metals lead |
+| P1 | infant-formula-powder-soy × Cr-VI | infant formula powder soy heavy metals chromium(VI) occurrence |
+| P1 | infant-food-puree-vegetable × Pb | infant food puree vegetable Pb |
+| P1 | infant-rice-cereal × tHg | infant rice cereal mercury occurrence |
+| P1 | infant-rice-cereal × tHg | infant rice cereal total mercury occurrence |
+| P1 | rice-noodles × tAs | rice noodles total arsenic |
 
 ## Coverage rotation
 

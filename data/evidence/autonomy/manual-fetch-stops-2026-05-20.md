@@ -153,3 +153,46 @@ Choosing a canonical cite-key, retiring the other, and rewriting backlinks acros
 **Same pattern as saleem2025 stop above.** Worth a single sweep across all `raw_handle: manual-fetch-kimi` (legacy-generic) pages to surface any other duplicates the May-17 dedupe sweep missed.
 
 **No commits made for this PDF.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
+
+## STOP: shavali-gilani2025 canned tomato/olives/pickles Iran — duplicate source pages (sibling-PDF re-encounter)
+
+**PDF**: `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Investigation of Heavy Metal Levels in Canned Tomato Paste, Olives, and Pickled Cucumbers.pdf`
+
+**Paper**: Shavali-gilani P, Abedini A, Irshad N, Maleknezhad S, Yazdanfar N, Sadighara P. "Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers." *Scientific Reports* 2025, 15:20923. DOI: 10.1038/s41598-025-06896-9
+
+**Situation**: this is the **02_Vegetables sibling copy** of the same PDF flagged yesterday under `manual-fetch-stops-2026-05-19.md` (where the 01_Fruits copy of the identical paper was the assigned PDF). The same DOI `10.1038/s41598-025-06896-9` still has two existing wiki source pages, and the duplicate has not yet been consolidated:
+
+1. `wiki/sources/shavalig2025-canned-tomato-olives-pickles-iran.md` — newer, current schema.
+   - `raw_handle: MFK_investigation-heavy-metal-canned-tomato-olives-pickle`
+   - `updated: 2026-05-17`
+   - `raw_path` points at the **01_Fruits** copy (still incorrect for the PDF on disk in 02_Vegetables; was already noted in the 2026-05-19 stop).
+   - Full current-schema Key numbers (all 8 metals × 3 matrices, exact Table 2 values), Methods brief, Implications.
+   - `metals: [Cd, Cu, tAs, Fe, Pb, Sn, Zn, tHg]` (complete).
+   - 5 inbound refs: `wiki/ingredients/olives.md`, `wiki/ingredients/dill-pickles.md`, `data/evidence/category1_autonomy_extracted_summary.csv`, `data/evidence/hmtc_aggregate_distributions.csv`, and yesterday's stop/batch notes.
+
+2. `wiki/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran.md` — older, legacy schema.
+   - `raw_handle: manual-fetch-kimi` (legacy generic — same dedupe-miss pattern as saleem2025 and zhao2022 above)
+   - `updated: 2026-05-13`
+   - `raw_path` points at the **02_Vegetables** copy (correct for the PDF on disk in this tick).
+   - Has the table-formatted Key numbers and an explicit `## Wiki pages updated on ingest` legacy section.
+   - `metals: [Pb, Cd, tHg, Sn]` (incomplete — Cu/As/Fe/Zn detected and reported in body but omitted from frontmatter).
+   - Frontmatter declares `products/canned-tomato-paste`, `products/canned-olives`, `products/pickled-vegetables` slugs that may or may not be valid in the current taxonomy.
+   - 8 inbound refs (more than the newer page): `wiki/metals/{cadmium,tin,lead,mercury-total}.md`, `wiki/ingredients/{cucumbers,olives,tomato}.md`, `wiki/log.md`, plus the same evidence-CSV / review-events / stop-note hits.
+
+**Why stop rather than consolidate autonomously**: same reasoning as the 2026-05-19 stop and the saleem2025 / zhao2022 stops above. Resolving this requires (a) Karen's pick of canonical cite-key (`shavalig2025-...` vs `shavali-gilani2025-...` — the latter preserves the hyphenated surname more naturally), (b) fixing the `raw_path` on the surviving page so it matches whichever PDF copy stays canonical (or noting both copies exist as `near_duplicates`), (c) rewriting 8-11 downstream inbound references across `wiki/metals/`, `wiki/ingredients/`, `wiki/log.md`, and four evidence artifacts, and (d) merging any unique content from the loser onto the winner. The skill's hard constraints forbid editing `wiki/metals/*.md`, `wiki/ingredients/*.md`, etc., so this cannot be done inside an ingest tick.
+
+**This is now the third sibling-PDF re-encounter of the same duplicate-page conflict** (1st: 01_Fruits copy on 2026-05-19; 2nd: 02_Vegetables copy today). Both `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/.../Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf` and the 02_Vegetables sibling are the same paper. Until the duplicate is resolved, the tracker should mark **both** filesystem entries as `skip-known-stop` so future ticks don't re-process them.
+
+**Recommended next steps** (Karen — same shape as saleem2025 / zhao2022):
+
+1. Pick canonical cite-key. Suggested: `shavali-gilani2025-canned-tomato-olive-pickle-iran` (matches the author's hyphenated surname; the newer `shavalig2025` collapses it into a non-standard form). But the newer page has the more complete `metals` frontmatter and current schema, so this requires either (a) renaming the newer file to the `shavali-gilani2025` cite-key, or (b) lifting the newer page's body content over to the older filename. Mechanical sed-rename is cleanest.
+2. Lift unique content from the loser onto the winner before deletion. The newer page has the complete 8-metal body; the older page has the table-formatted Key numbers (already in the newer page's prose). Confirm no narrative deltas are lost.
+3. Fix `raw_path` on the winner: both copies exist on disk; list one as canonical and the other as `near_duplicates`.
+4. Sed-rewrite the loser's cite-key → winner's cite-key across the 8+ inbound files.
+5. Delete the loser page.
+6. Re-run routing audit.
+
+**What I did NOT do** this tick: did not edit either source page, did not pick a canonical cite-key, did not rewrite any downstream references, did not commit, did not append to `data/evidence/audit-queue.csv`. The audit-queue still lacks this paper (under either cite-key), confirming the duplicate has remained un-promoted since the 2026-05-13/17 ingests.
+
+**No commits made for this PDF.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
+
