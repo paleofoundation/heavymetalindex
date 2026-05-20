@@ -859,3 +859,26 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis triggering preconditions), Part 18 (lint-audit pattern), Part 19 (synthesis feeds threshold-setting). Similar architecture to existing `audit-pending-locks.mjs` (Part 10).
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Emit structured synthesis-block diagnostics to unblock pooling
+
+**What:** Extend the contamination-profile pooling script to emit `data/evidence/synthesis-blocks-audit.csv` — a diagnostic register naming the specific reason each of the 351 blocked cells cannot compute distributions (contradiction, outlier-driven instability, species mismatch, unit-conversion ambiguity, sample-size underflow, etc.).
+
+**Why this lever now:** `pool_blocked_cells: 351` is the largest quality bottleneck in the snapshot, but the blocking reasons are invisible. Without diagnostics, future synthesis passes can't prioritize which blocks to resolve first. The 557 structured values extracted exist; the pooling step knows why it rejects them; that knowledge isn't being captured as a signal for downstream work.
+
+**Where:** 
+- `tools/evidence/build-contamination-profile-pooling.mjs` — extend to emit reason codes (e.g., `contradiction`, `outlier_p97_unstable`, `species_mismatch_iAs_vs_tAs`, `unit_basis_ambiguous`, `n_studies_<3`, `censor_rate_>90pct`)
+- `data/evidence/synthesis-blocks-audit.csv` — new structured log: `[ingredient_slug, metal, reason_code, contributing_source_cite_keys, notes]`
+- `tools/audit-synthesis-blocks.mjs` — new audit script that ranks blocks by impact (product frequency, citation count, coverage-rule violations)
+
+**How:**
+1. Add reason-code emit to pooling script; categorize every reject into one of ~12 common block reasons.
+2. Run the audit script as part of the morning report to surface which blocks affect the most product pages or source density.
+3. Feed the ranked block list into Part 9's synthesis orchestrator so future passes tackle high-impact blocks first (e.g., contradictions in top 10 products before low-frequency ingredient outliers).
+4. Add a lint rule: if `synthesis-blocks-audit.csv` is stale (older than any source-page modification), fail the build.
+
+**Anchors:** [[CLAUDE.md Part 9]] (synthesis workflow, trigger conditions), routing-audit pattern, Part 18 (lint layer), `data/evidence/` deterministic-extraction discipline.
+
+---

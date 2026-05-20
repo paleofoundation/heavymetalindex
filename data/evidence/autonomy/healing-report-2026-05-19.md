@@ -1,21 +1,15 @@
 # Heal-gaps report — 2026-05-19
 
-Generated: 2026-05-19T23:02:43.094Z
+Generated: 2026-05-19T23:46:13.576Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 3
+- Fixes applied: 0
 - Queued for synthesis: 0
 - Routing typo proposals: 6
 - Provisional scaffolds created: 0
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 232
-
-## Fixes applied
-
-- wiki/products/infant-formula-powder-dairy.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
-- wiki/products/infant-formula-rtf-dairy.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
-- wiki/products/infant-formula-rtf-soy.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
 
 ## Items needing surfacing
 

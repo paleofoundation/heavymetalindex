@@ -132,4 +132,14 @@
 - P1 `infant2018-research` (FM_5941801)
 
 ### Failed
+- P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): exit 1:
+
+## Batch 2026-05-19T23:47:12.961Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
 - P1 `keywords2019-appropriateness-essentials-trace-metals` (FM_7061406): exit 1: 
+- P1 `open2017-open-infants-dietary-arsenic` (FM_5940663): stdout did not contain '---' frontmatter

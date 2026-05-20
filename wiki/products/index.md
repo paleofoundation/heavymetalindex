@@ -122,8 +122,8 @@ These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/co
 These pages carry the first Category 5 beverage comparison layer. The locked row nodes separate finished-product evidence from ingredient-only values and place regulatory context next to actual field findings where the matrix, species, and unit basis match.
 
 - [[products/category-5-beverages]] (0 sources)
-- [[products/fruit-juices-non-apple]] (20 sources)
-- [[products/fruit-juices-apple-containing]] (19 sources)
+- [[products/fruit-juices-non-apple]] (21 sources)
+- [[products/fruit-juices-apple-containing]] (20 sources)
 - [[products/vegetable-juices-non-root]] (2 sources)
 - [[products/vegetable-juices-root-vegetable-containing]] (0 sources)
 - [[products/plant-milks-non-soy-non-rice]] (1 source)
@@ -510,17 +510,26 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/breakfast-cereals|Breakfast Cereals]]
-- [[products/infant-food-general|Infant Food General]]
-- [[products/infant-food-puree|Infant Food Puree]]
-- [[products/infant-food-puree-fish|Infant Food Puree Fish]]
-- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]]
-- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]]
-- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]]
-- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]]
-- [[products/infant-formula-dairy|Infant Formula Dairy]]
-- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
-- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
-- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
-- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
+- [[products/biscuits|Biscuits]]
+- [[products/canned-fish|Canned Fish]]
+- [[products/canned-fruit|Canned Fruit]]
+- [[products/canned-tomatoes|Canned Tomatoes]]
+- [[products/canned-vegetables|Canned Vegetables]]
+- [[products/cereal-meals|Cereal Meals]]
+- [[products/dietary-supplements|Dietary Supplements]]
+- [[products/fresh-fish|Fresh Fish]]
+- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
+- [[products/infant-cereal|Infant Cereal]]
+- [[products/infant-food-powder|Infant Food Powder]]
+- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]]
+- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]]
+- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]]
+- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]]
+- [[products/infant-formula-stage1|Infant Formula Stage1]]
+- [[products/nutritional-beverage-child|Nutritional Beverage Child]]
+- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
+- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
+- [[products/tea-infusions|Tea Infusions]]
+- [[products/tomato-paste|Tomato Paste]]
+- [[products/tomato-sauce|Tomato Sauce]]
 <!-- END: hmi-auto-linked-stubs -->
