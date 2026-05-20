@@ -70,7 +70,7 @@ Non-detects treated per WHO GEMS/Food-EURO guidance: ≤60% < LOD → medium-bou
 | Sugars and confectionery | 8 | 50 | 5.6 | ND-19 |
 | Condiments, sauces and herbs | 20 | 20 | 4.3 | ND-11 |
 
-Highest food-item means: deep-fried dough 250 mg/kg (range 50-450), steamed barbecued pork bun 170 mg/kg, oyster 62 mg/kg, Chinese spinach 35 mg/kg (range 25-45), ear fungus 23 mg/kg, cake 19 mg/kg, fermented bean products 18 mg/kg. The high deep-fried-dough and steamed-bun values are attributed to aluminium-containing raising agents. Non-alcoholic beverages contributed 33% of total dietary aluminium exposure despite moderate concentrations (milk tea 11 mg/kg, Chinese tea and malt drinks 3.2 mg/kg each), driven by high consumption (1,625 g/person/day in the FCS).
+Highest food-item means (per Appendix I, Table A): deep-fried dough 250 mg/kg (range 50-450), steamed barbecued pork bun 170 mg/kg, oyster 62 mg/kg, Chinese spinach 35 mg/kg (range 25-45 per Appendix I Table A; chapter prose §3.8 abbreviates this to "range 25-35"), ear fungus 23 mg/kg (range 14-36), cake 19 mg/kg (range 2.0-51), fermented bean products 18 mg/kg (range 3.3-31). The high deep-fried-dough and steamed-bun values are attributed to aluminium-containing raising agents. Non-alcoholic beverages contributed 33% of total dietary aluminium exposure despite moderate concentrations (milk tea 11 mg/kg, Chinese tea and malt drinks 3.2 mg/kg each), driven by high consumption (1,625 g/person/day in the FCS).
 
 **Cadmium contents (µg/kg) by food group (Table 5.1):**
 
@@ -190,6 +190,7 @@ Merge-enhance pass 2026-05-20 from the original 2026-05-13 ingest:
 - Added `near_duplicates` and `related_sources` cross-link to [[sources/cfs2012-hktds-inorganic-arsenic]] (Report No. 2 of the same TDS series, ingested separately).
 - Numerical fidelity rechecked: all PTWI/PTMI/TDI percentages, LOD/LOQ values, food-group means and ranges, top food-item means (oyster 1,300 µg/kg Cd; deep-fried dough 250 mg/kg Al; tuna 330 µg/kg MeHg; peanut 5,300 µg/kg Ni; oyster 190 µg/kg V), and the 11%-of-childbearing-age-women-exceeding-1.6-PTWI exposure figure verified against Tables 3.1, 4.1, 5.1, 6.1, 7.1, 8.1, 9.1, 10.1, and the Executive Summary paragraphs 4-7.
 - Brand-firewall scan: the source contains no brand-name product attribution; only generic food-item descriptors ("deep-fried dough", "steamed barbecued pork bun", "oyster", "ear fungus"). No Part 12 violations to strip.
+- Audit subagent (2026-05-20) flagged three ⚠️ items under Check 1 about item-level Al ranges (Chinese spinach, deep-fried dough, ear fungus/cake/fermented bean products) not visible in §3.7-3.8 chapter prose. Independently verified: all three sets of values are present in Appendix I Table A of the source PDF, which the auditor did not read. A genuine source-internal discrepancy was surfaced for Chinese spinach: §3.8 chapter prose says "range 25-35 mg/kg" while Appendix I Table A row says "mean 35, range 25-45 mg/kg". Resolution: the page now cites both numbers and tags item-level ranges as sourced from Appendix I Table A explicitly. No values changed; only sourcing made explicit. Audit verdict: PROMOTE (with minor wording revision applied).
 
 ## Wiki pages updated on ingest
 
