@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees, vegetable-juices-non-root]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 1
+sources: 2
 ---
 
 # Non-root vegetables

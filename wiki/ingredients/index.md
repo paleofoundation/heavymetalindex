@@ -10,7 +10,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 ## Ingredient Nodes
 
 - [[ingredients/almond|Almond]] (6 sources)
-- [[ingredients/apple|Apple]] (18 sources)
+- [[ingredients/apple|Apple]] (19 sources)
 - [[ingredients/apple-juice|Apple juice]] (18 sources)
 - [[ingredients/applesauce|Applesauce]] (3 sources)
 - [[ingredients/asparagus|Asparagus]] (1 source)
@@ -18,11 +18,11 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/baby-cereals-dry|Baby Cereals Dry]] (2 sources)
 - [[ingredients/baked-beans|Baked beans]] (0 sources)
 - [[ingredients/baked-potato-with-peel|Baked potato with peel]] (1 source)
-- [[ingredients/banana|Banana]] (7 sources)
+- [[ingredients/banana|Banana]] (8 sources)
 - [[ingredients/beef|Beef]] (9 sources)
 - [[ingredients/beet|Beet]] (4 sources)
 - [[ingredients/bivalve-molluscs|Bivalve Molluscs (Excluding Oysters)]] (23 sources)
-- [[ingredients/blueberries|Blueberries]] (2 sources)
+- [[ingredients/blueberries|Blueberries]] (3 sources)
 - [[ingredients/blueberry-muffin|Blueberry muffin]] (1 source)
 - [[ingredients/bologna-luncheon-meat|Bologna luncheon meat]] (2 sources)
 - [[ingredients/bran-cereal-with-raisins|Bran cereal with raisins]] (1 source)
@@ -69,7 +69,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/egg-noodles|Egg noodles]] (1 source)
 - [[ingredients/eggs|Eggs]] (20 sources)
 - [[ingredients/fermented-beverage-bases|Fermented beverage bases]] (0 sources)
-- [[ingredients/fish|Fish]] (118 sources)
+- [[ingredients/fish|Fish]] (119 sources)
 - [[ingredients/fish-containing-baby-foods|Fish Containing Baby Foods]] (0 sources)
 - [[ingredients/fish-fingers|Fish fingers]] (1 source)
 - [[ingredients/flavored-carbonated-bottled-waters|Flavored carbonated bottled waters]] (0 sources)
@@ -119,7 +119,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/non-apple-fruit|Non-apple fruit]] (0 sources)
 - [[ingredients/non-dairy-creamer|Non-dairy creamer]] (1 source)
 - [[ingredients/non-root-vegetable-purees|Non-root vegetable purees]] (0 sources)
-- [[ingredients/non-root-vegetables|Non-root vegetables]] (1 source)
+- [[ingredients/non-root-vegetables|Non-root vegetables]] (2 sources)
 - [[ingredients/non-soy-infant-formula|Non-soy infant formula]] (14 sources)
 - [[ingredients/noodles|Noodles]] (1 source)
 - [[ingredients/oat|Oat]] (10 sources)
@@ -200,54 +200,15 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[ingredients/apple-cider-vinegar|Apple Cider Vinegar]]
-- [[ingredients/balsamic-vinegar|Balsamic Vinegar]]
-- [[ingredients/beverages|Beverages]]
-- [[ingredients/black-pepper|Black Pepper]]
-- [[ingredients/breastmilk|Breastmilk]]
-- [[ingredients/cabbage|Cabbage]]
-- [[ingredients/canned-tuna|Canned Tuna]]
-- [[ingredients/casein|Casein]]
-- [[ingredients/cashew-nuts|Cashew Nuts]]
-- [[ingredients/cashews|Cashews]]
-- [[ingredients/cinnamon|Cinnamon]]
-- [[ingredients/corn-oil|Corn Oil]]
-- [[ingredients/cucumbers|Cucumbers]]
-- [[ingredients/dried-herbs|Dried Herbs]]
-- [[ingredients/fresh-herbs|Fresh Herbs]]
-- [[ingredients/freshwater-fish|Freshwater Fish]]
-- [[ingredients/fruits|Fruits]]
-- [[ingredients/guava|Guava]]
-- [[ingredients/hazelnuts|Hazelnuts]]
-- [[ingredients/herbs-and-spices|Herbs And Spices]]
-- [[ingredients/leafy-vegetables|Leafy Vegetables]]
-- [[ingredients/legumes|Legumes]]
-- [[ingredients/maize|Maize]]
-- [[ingredients/mango|Mango]]
-- [[ingredients/mango-juice|Mango Juice]]
-- [[ingredients/meat-poultry|Meat Poultry]]
-- [[ingredients/olive-oil|Olive Oil]]
-- [[ingredients/olives|Olives]]
-- [[ingredients/parsley|Parsley]]
-- [[ingredients/peanut-oil|Peanut Oil]]
-- [[ingredients/plums|Plums]]
-- [[ingredients/quinoa|Quinoa]]
-- [[ingredients/rapeseed-oil|Rapeseed Oil]]
-- [[ingredients/raspberries|Raspberries]]
-- [[ingredients/rice-bran-oil|Rice Bran Oil]]
-- [[ingredients/seaweed|Seaweed]]
-- [[ingredients/sesame-oil|Sesame Oil]]
-- [[ingredients/shark|Shark]]
-- [[ingredients/shellfish|Shellfish]]
-- [[ingredients/soybean-oil|Soybean Oil]]
-- [[ingredients/spices|Spices]]
-- [[ingredients/sunflower-oil|Sunflower Oil]]
-- [[ingredients/tea|Tea]]
-- [[ingredients/tomato-paste|Tomato Paste]]
-- [[ingredients/turmeric|Turmeric]]
-- [[ingredients/vegetable-oil|Vegetable Oil]]
-- [[ingredients/vegetable-oils|Vegetable Oils]]
-- [[ingredients/vinegar|Vinegar]]
-- [[ingredients/walnuts|Walnuts]]
-- [[ingredients/wine-vinegar|Wine Vinegar]]
+- [[ingredients/fruit-mixed|Fruit Mixed]]
+- [[ingredients/infant-mixed-grain-cereal|Infant Mixed Grain Cereal]]
+- [[ingredients/infant-oat-cereal|Infant Oat Cereal]]
+- [[ingredients/infant-rice-cereal|Infant Rice Cereal]]
+- [[ingredients/marlin|Marlin]]
+- [[ingredients/nectarine|Nectarine]]
+- [[ingredients/pineapple|Pineapple]]
+- [[ingredients/rice-milk|Rice Milk]]
+- [[ingredients/soy-milk|Soy Milk]]
+- [[ingredients/swordfish|Swordfish]]
+- [[ingredients/vegetables-mixed|Vegetables Mixed]]
 <!-- END: hmi-auto-linked-stubs -->

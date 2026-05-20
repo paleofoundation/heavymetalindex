@@ -882,3 +882,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** [[CLAUDE.md Part 9]] (synthesis workflow, trigger conditions), routing-audit pattern, Part 18 (lint layer), `data/evidence/` deterministic-extraction discipline.
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Route gap-driven-wishlist queries into synthesis prioritization
+
+**What:** Build `tools/autonomy/audit-wishlist-coverage.mjs` to parse the 600 gap-driven-wishlist queries into (ingredient, metal) demand signals, then identify synthesis-backlog cells where demand exceeds evidence.
+
+**Why this lever now:** Gap-driven-wishlist is 600 queries — a structured demand signal that currently sits orphaned while synthesis runs reactively (new evidence, contradictions, Karen's ask). The wishlist represents what users *want* the wiki to answer. Routing that signal into the synthesis queue focuses evidence work on visible gaps and closes the loop between customer need and knowledge work.
+
+**Where:** 
+- Create `tools/autonomy/audit-wishlist-coverage.mjs` 
+- Emit `data/evidence/wishlist-synthesis-backlog.csv` (cells where demand > sources AND synthesis is blocked by <2 sources)
+- Emit `data/evidence/wishlist-source-gaps.csv` (cells where demand > 0 BUT sources = 0, prioritized for source acquisition)
+- Wire into daily cron via existing daemon
+
+**How:**
+1. Parse `data/evidence/autonomy/gap-driven-wishlist.csv` to extract ingredient + metal pairs and query frequency
+2. Cross-reference routing audit's `product_source_routing_audit.csv` to count sources per (ingredient, metal) cell
+3. Rank cells by (query_count / source_count) — high demand, low coverage first
+4. Filter for synthesis-backlog: cells with 1 source (next source triggers synthesis) or cells at n_studies boundaries where demand is high enough to justify full re-synthesis
+
+**Anchors:** CLAUDE.md Part 9 (synthesis triggers expand to include demand signal), Part 24 (proactive maintenance: call out weak spots), Part 11 (source priority ordering).
+
+---
