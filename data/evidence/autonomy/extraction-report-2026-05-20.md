@@ -1,6 +1,6 @@
 # Source-value extraction report — 2026-05-20
 
-Generated: 2026-05-20T14:13:42.895Z
+Generated: 2026-05-20T15:11:27.947Z
 Mode: EXECUTED
 Elapsed: 0s
 
@@ -9,7 +9,7 @@ Elapsed: 0s
 - Source pages processed: 1012
 - Pages with `## Key numbers` section: 898
 - Pages without Key numbers section (skipped): 113
-- Structured rows extracted: 5797
+- Structured rows extracted: 5798
 - Pages with Key numbers but no parseable values: 75
 
 ## Output
@@ -22,7 +22,7 @@ Elapsed: 0s
 - Pb: 1134 rows
 - Cd: 1075 rows
 - Cr-total: 557 rows
-- Ni: 530 rows
+- Ni: 531 rows
 - tAs: 426 rows
 - Al: 368 rows
 - tHg: 336 rows

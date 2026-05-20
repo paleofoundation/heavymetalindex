@@ -202,3 +202,16 @@
 ### Succeeded
 - `bfr2022-nickel-dietary-intake-germany-meal` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nickel_ estimate of long-term intake via food based on the BfR MEAL Study.pdf)
 - `haider2022-biscuits-basrah-iraq-safety` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nutritional Quality and Safety Characteristics of Imported Biscuits Marketed in Basrah, Iraq.pdf)
+
+## Tick 2026-05-20T15:14:07.606Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `fan2025-hangzhou-green-tea-metals` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Occurrence, exposure and health risk assessment of heavy metals in green tea samples cultivated in Hangzhou area.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Potential Health Risk Assessment of Heavy Metals via Consumption of Green, Black and Herbal Tea Marketed in Northwestern Nigeria.pdf`: PDF file corrupted (invalid XRef table, missing EOF marker) — unreadable by pdftotext, pypdf, and Anthropic Read tool; no fallback source content exists in the repo.

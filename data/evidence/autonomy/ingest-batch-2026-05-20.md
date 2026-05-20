@@ -186,4 +186,16 @@
 
 ### Failed
 - P1 `unknown2012-original` (FM_3775530): exit 1: 
-- P1 `breast-feeding2008-breast-feeding-protects-against-arsenic` (FM_2453168): exit 1: 
+- P1 `breast-feeding2008-breast-feeding-protects-against-arsenic` (FM_2453168): exit 1:
+
+## Batch 2026-05-20T15:14:07.517Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `breast-feeding2008-breast-feeding-protects-against-arsenic` (FM_2453168)
+
+### Failed
+- P1 `unknown2012-original` (FM_3775530): cite_key mismatch: freire2013-fish-mercury-italy

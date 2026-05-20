@@ -1,6 +1,6 @@
 # Provenance audit — 2026-05-20
 
-Generated: 2026-05-20T14:39:00.262Z
+Generated: 2026-05-20T15:32:35.605Z
 
 ## Summary
 

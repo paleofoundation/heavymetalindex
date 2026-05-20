@@ -376,3 +376,45 @@ Particularly notable: two `wiki/synthesis/*.md` pages (`organic-certification-no
 **Why skip per skill v2.0 Phase 1 step 1**: "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." This PDF meets all three conditions — existing canonical page with current schema, last updated 2026-05-18, clean routing, already Codex-audited and revised. There is also a sibling PDF copy at `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Cadmium and lead in tomatoes and tomato products from Polish market.pdf` (same SHA-256), already noted in the existing page's verification notes.
 
 **No commits made for this PDF.** Audit-queue not updated (already has the canonical entry from 2026-05-18). Wrapper should advance to the next PDF in the folder.
+
+## STOP: Northwestern Nigeria green/black/herbal tea — PDF file corrupted (unreadable)
+
+**PDF**: `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Potential Health Risk Assessment of Heavy Metals via Consumption of Green, Black and Herbal Tea Marketed in Northwestern Nigeria.pdf`
+
+**Suggested handle**: `MFK_potential-health-risk-assessment-of-heavy-metals-v`
+
+**Situation**: the file on disk is a malformed PDF that cannot be opened by any available tool.
+
+- `file` reports `PDF document, version 1.7` (header recognized).
+- `pdftotext` (from poppler) fails with multiple `Syntax Error: Invalid XRef entry 0`, `Missing 'endstream' or incorrect stream length`, `Couldn't find trailer dictionary`, `Couldn't read xref table` — no text extracted, exit code 1, no output file produced.
+- Python `pypdf.PdfReader(strict=False)` fails with `EOF marker not found` / `Stream has ended unexpectedly`.
+- Direct binary inspection: header is `%PDF-1.7\n%\x81\x81\x81\x81\n\n6 0 obj\n<<\n/Filter /FlateDecode\n/Length 218599\n/Length1 611644\n>>\nstream\n...` — i.e., the file begins inside object 6's encoded stream. There is no XRef table and no `%%EOF` trailer at the tail. The 432 KB on disk appears to be only a partial download or a truncated copy; the file is structurally invalid.
+- Anthropic Read tool reports `PDF file is corrupted or invalid.` when given the path with the `pages` parameter.
+- No `qpdf`, `mutool`, or `gs` available in PATH to attempt repair; no `pdfplumber` / `PyPDF2` / `fitz` Python modules installed.
+
+There is no fallback content for this paper in the repo: no Marker markdown sibling, no FM_ handle, no DOI mention in `wiki/sources/`. The Kimi-folder PDF is the only artifact, and it cannot be read.
+
+**Identity checks run** (all negative):
+
+- Title-substring grep (`Northwestern Nigeria`, `northwestern-nigeria`) across `wiki/sources/` — 4 hits, all unrelated papers (Okonofua mining-pits cabbage, Ewubare academic review, Balogun body creams, Njinga herbal Cd/Cr).
+- Title-substring grep (`green.*black.*herbal.*tea`) — no hits.
+- Suggested handle grep (`MFK_potential-health-risk-assessment-of-heavy-metals-v`) — no hits.
+
+No existing page exists to merge-enhance. Writing a fresh page is impossible without source content (no abstract, no methods, no tables, no Key numbers, no metals list, no exposure numbers, no DOI to set in frontmatter). Fabricating any of those would violate the Cochrane bar this skill exists to enforce.
+
+**Why this is a hard stop**: the v2.0 skill requires reading the PDF in step 2 of Phase 1 ("Tables are mandatory — Key numbers needs exact figures"). The file cannot be opened. There is no path forward inside an ingest tick.
+
+**What I did NOT do**:
+
+- Did not create `wiki/sources/MFK_potential-health-risk-assessment-of-heavy-metals-v.md` (would have been a fraudulent source page — frontmatter and Key numbers would have been invented or copied from the filename + title only).
+- Did not commit. Did not append to `data/evidence/audit-queue.csv`.
+- Did not spawn an audit subagent.
+
+**Recommended next steps** (Karen):
+
+1. Re-fetch the source PDF. Likely candidates by title pattern: Galadima & Garba (2012/2013) on Kano-market teas, or a more recent Northwestern Nigeria tea heavy-metals study — the exact paper needs to be re-identified from the filename. A clean PDF should be at least 500 KB - 2 MB for a typical tea-survey study; 432 KB with no XRef table strongly suggests truncated download.
+2. Replace the corrupted file at the same path, or move the broken copy to `raw/_quarantine/` and drop the clean copy into the folder slot.
+3. Optionally install `qpdf` (`brew install qpdf`) on this machine so future malformed-PDF cases can attempt `qpdf --linearize` repair before stopping.
+4. Re-run `/ingest-next-manual-fetch-pdf folder=07_Processed_Foods_Snacks_Beverages` once the file is restored.
+
+**No commits made this tick.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
