@@ -33,3 +33,13 @@
 
 ### Failed
 - P1 `open2017-open-infants-dietary-arsenic` (FM_5940663): cite_key mismatch: signes-pastor2018-infants-dietary-arsenic
+
+## Batch 2026-05-20T03:25:49.504Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `open2017-open-infants-dietary-arsenic` (FM_5940663): stdout did not contain '---' frontmatter
+- P1 `unknown2016-risk-arsenic-rice-cereal` (FM_4847023): exit 1: 

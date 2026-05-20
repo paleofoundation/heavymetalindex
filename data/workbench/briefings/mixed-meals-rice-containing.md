@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: mixed-meals-rice-containing
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-20T02:53:52.037Z
+generated_at: 2026-05-20T03:44:36.703Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -260,17 +260,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `a90eabf27ed4af30988837906241431d189f97bb` in the heavymetalindex.com repository.
+1. Checking out commit `26da8450a9c196adf160ea9f77309f1437eb9180` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=mixed-meals-rice-containing` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-20T02:53:52.047Z |
+| Generated at | 2026-05-20T03:44:36.712Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `a90eabf27ed4af30988837906241431d189f97bb` |
+| Git commit | `26da8450a9c196adf160ea9f77309f1437eb9180` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

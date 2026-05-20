@@ -954,3 +954,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 5b (routing is deterministic input), Part 9 (synthesis triggered by routing + values), Part 4 (AI adjudication default), Part 18 (provenance lint requires traceable values).
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Resolve routing_unresolved by auto-creating missing pages
+
+**What:** Process the 10 entries in `data/evidence/routing_unresolved.csv`, classify each as a product/ingredient slug that needs a page, auto-create those pages via `create-provisional-product-scaffold.mjs` and `create-provisional-ingredient-scaffold.mjs`, and re-run the routing audit to clear the failure.
+
+**Why this lever now:** These 10 entries block the routing audit (a build-time failure per Part 18) and strand sources that have already been ingested. They represent mid-pipeline gaps where sources declared target pages that were never created. Clearing them unblocks synthesis on 10+ product categories and restores the routing audit to clean.
+
+**Where:**
+- `data/evidence/routing_unresolved.csv` (input list)
+- `tools/autonomy/create-provisional-product-scaffold.mjs` (for product slugs)
+- `tools/autonomy/create-provisional-ingredient-scaffold.mjs` (for ingredient slugs)
+- `tools/evidence/build-routing-audit.mjs` (verify)
+
+**How:**
+1. Read `routing_unresolved.csv` and classify each unresolved target as product vs. ingredient vs. matrix mismatch.
+2. For each product slug, invoke `create-provisional-product-scaffold.mjs` with `--scaffold-only`.
+3. For each ingredient slug, invoke `create-provisional-ingredient-scaffold.mjs` with `--scaffold-only`.
+4. Re-run `build-routing-audit.mjs`; confirm `routing_unresolved.csv` is now empty.
+
+**Anchors:** Part 10 (auto-creation of pages when sources declare unresolved slugs). Part 18 (routing_unresolved.csv non-empty is a build failure). Part 5b (routing audit is the system's responsibility, not the model's — it should auto-heal). The autonomy loop has the page-creation tools; using them here closes a synchronization gap.
+
+---

@@ -32,3 +32,14 @@
 ### Succeeded
 - `weldegebriel2025-ethiopia-packaged-fruit-juice-metals` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Toxic metal contamination and health risk assessment of packaged fruit juices consumed by children in Northwest Ethiopia.pdf)
 - `tsegay2025-fruit-byproduct-toxicology-detoxification-review` (raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Toxicological qualities and detoxification trends of fruit by-products_ A review.pdf)
+
+## Tick 2026-05-20T03:25:49.603Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `dearing2025-hawkes-bay-organic-nonorganic-vegetables` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Assessment of Heavy Metals in Organic and Non-Organic Vegetables in Hawkes Bay, New Zealand.pdf)
+- `mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'.pdf)

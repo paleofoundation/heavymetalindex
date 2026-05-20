@@ -1,15 +1,23 @@
 # Heal-gaps report — 2026-05-20
 
-Generated: 2026-05-20T02:27:48.921Z
+Generated: 2026-05-20T03:24:00.218Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
 - Queued for synthesis: 0
-- Routing typo proposals: 6
-- Provisional scaffolds created: 0
+- Routing typo proposals: 7
+- Provisional scaffolds created: 3
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 232
+
+## Provisional scaffolds created
+
+- product/`infant-food-fruits` (triggered by source open2017-open-infants-dietary-arsenic-a)
+- product/`infant-food-vegetables` (triggered by source open2017-open-infants-dietary-arsenic-a)
+- ingredient/`formula` (triggered by source open2017-open-infants-dietary-arsenic-a)
+
+See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
 ## Items needing surfacing
 

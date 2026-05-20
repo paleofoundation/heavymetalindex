@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-20
 
-Generated: 2026-05-20T02:27:49.292Z
+Generated: 2026-05-20T03:24:00.753Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 1001
-- Pages with `## Key numbers` section: 891
+- Source pages processed: 1002
+- Pages with `## Key numbers` section: 892
 - Pages without Key numbers section (skipped): 109
-- Structured rows extracted: 5657
+- Structured rows extracted: 5707
 - Pages with Key numbers but no parseable values: 72
 
 ## Output
@@ -19,16 +19,16 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1120 rows
-- Cd: 1063 rows
-- Cr-total: 547 rows
-- Ni: 516 rows
+- Pb: 1128 rows
+- Cd: 1072 rows
+- Cr-total: 559 rows
+- Ni: 528 rows
 - tAs: 424 rows
 - Al: 345 rows
 - tHg: 335 rows
 - iAs: 179 rows
 - Cu: 166 rows
-- Co: 141 rows
+- Co: 150 rows
 - Fe: 99 rows
 - Sn: 96 rows
 - MeHg: 93 rows
@@ -61,14 +61,14 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2089 rows
+- (empty): 2107 rows
 - fresh-fish: 289 rows
 - fresh-fruit: 231 rows
 - baby-cereals-dry-rice-based: 180 rows
 - seafood: 171 rows
 - spices: 171 rows
+- fruit-juice-not-canned: 129 rows
 - canned-fish: 128 rows
-- fruit-juice-not-canned: 101 rows
 - infant-formula-powder: 94 rows
 - face-paint: 81 rows
 - non-root-vegetables: 70 rows

@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1376 candidate queries
-- Path B (empty product + thin ingredient pages): 8178 candidate queries
-- Total candidates (after dedup): 9554
+- Path A (pooling-engine-driven thin cells): 1382 candidate queries
+- Path B (empty product + thin ingredient pages): 8230 candidate queries
+- Total candidates (after dedup): 9612
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9554
+- Eligible after filtering: 9612
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | kitchen-countertop-cleaners × Pb | kitchen/countertop cleaners lead |
-| P1 | anti-static-products × tHg | anti static products heavy metals total mercury |
-| P1 | feminine-deodorants × tHg | feminine deodorants (leave-on and rinse-off) total mercury |
-| P1 | baby-oil × Pb | baby oil heavy metals Pb occurrence |
-| P1 | plant-milks-rice-based × iAs | plant milks rice based heavy metals inorganic arsenic occurrence |
-| P1 | food-packaging-cans-lids × Cd | food packaging cans lids Cd |
-| P1 | infant-bottles × Cd | infant bottles Cd |
-| P1 | toy-pacifiers × tHg | toy pacifiers heavy metals total mercury |
-| P1 | toys-attached-cribs-playpens × tHg | toys attached cribs playpens total mercury |
-| P1 | supplements-oral-solids-lozenges × Cd | supplements oral solids lozenges heavy metals Cd |
-| P1 | cereal-meals × Pb | cereal meals lead |
-| P1 | pasta-rice-based × tAs | pasta (rice-based) arsenic |
-| P1 | douches-vaginal-irrigation × tHg | douches and vaginal irrigation solutions/apparatus components total mercury |
-| P1 | baby-sunscreen-mineral × Cd | baby sunscreen mineral Cd occurrence |
-| P1 | oven-grill-bbq-cleaners × Cd | oven grill bbq cleaners Cd |
-| P1 | swings-and-bouncers × tHg | swings and bouncers heavy metals mercury |
-| P1 | menstrual-intimate-products-other × tAs | menstrual intimate products other total arsenic |
-| P1 | water-filters × Cd | water filters Cd |
-| P1 | infant-formula-dairy × iAs | infant formula dairy heavy metals speciated arsenic occurrence |
-| P1 | food-storage-lids-gaskets × tAs | food storage lids gaskets arsenic |
+| P1 | intimate-washes-cleansers × tAs | intimate washes cleansers total arsenic |
+| P1 | food-packaging-foils-wraps × tAs | food packaging foils wraps heavy metals total arsenic |
+| P1 | kitchen-countertop-cleaners × Cd | kitchen countertop cleaners heavy metals Cd |
+| P1 | vacuum-cleaner-fragrance-additives × Pb | vacuum cleaner fragrance additives Pb |
+| P1 | pasta-rice-based × tAs | pasta rice based food contaminant total arsenic |
+| P1 | tableware-ceramicware × tAs | ceramicware total arsenic |
+| P1 | infant-bottles × Cd | bottles (plastic, glass, stainless steel) Cd |
+| P1 | anti-wrinkle-wrinkle-release-products × Cd | anti wrinkle wrinkle release products cadmium |
+| P1 | air-product-refill-materials × tAs | air product refill materials heavy metals arsenic |
+| P1 | infant-food-puree × tAs | infant food puree heavy metals arsenic occurrence |
+| P1 | nuts-seeds-other × Cd | nuts seeds other heavy metals Cd occurrence |
+| P1 | infant-formula-stage1 × Pb | infant formula stage1 heavy metals Pb occurrence |
+| P1 | bathroom-tub-tile-cleaners × tAs | bathroom tub tile cleaners arsenic |
+| P1 | window-glass-mirror-cleaners × tHg | window glass mirror cleaners heavy metals total mercury |
+| P1 | walkers × Pb | walkers Pb |
+| P1 | food-packaging-paperboard-cartons × Pb | food packaging paperboard cartons heavy metals Pb |
+| P1 | pet-food-raw × tHg | pet food raw heavy metals mercury |
+| P1 | pet-treats-snacks × Cd | pet treats snacks heavy metals Cd |
+| P1 | fragrance-preparations × tAs | fragrance preparations (perfumes, colognes, body sprays) arsenic |
+| P1 | pet-supplements-functional-blends × tAs | pet supplements functional blends arsenic |
 
 ## Coverage rotation
 
