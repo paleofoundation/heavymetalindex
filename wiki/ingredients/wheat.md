@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/refined-white-flour]]"]
 higher_risk_variants: ["[[ingredients/wheat-bran]]", "[[ingredients/wheat-germ]]", "[[ingredients/whole-wheat-flour]]", "[[ingredients/wheat-protein-concentrate]]"]
 used_in_products: ["[[products/bread]]", "[[products/pasta]]", "[[products/cereals]]", "[[products/baked-goods]]", "[[products/baby-cereal]]", "[[products/wheat-based-snacks]]", "[[products/crackers]]", "[[products/couscous]]", "[[products/bulgur]]"]
 audience: [regulator, educator, consumer, app]
-sources: 52
+sources: 53
 updated: 2026-05-16
 ---
 

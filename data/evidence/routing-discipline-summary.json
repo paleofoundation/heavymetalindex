@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-18T06:21:35.825Z",
-  "check_1_sources_scanned": 958,
-  "check_1_sources_with_product_matrices": 361,
-  "check_1_failures": 2,
-  "check_2_products_scanned": 326,
-  "check_2_products_hmtc_locked": 296,
+  "generated_at": "2026-05-20T14:18:13.648Z",
+  "check_1_sources_scanned": 1010,
+  "check_1_sources_with_product_matrices": 388,
+  "check_1_failures": 5,
+  "check_2_products_scanned": 349,
+  "check_2_products_hmtc_locked": 319,
   "check_2_failures": 0,
-  "check_2_literature_scope_thin": 216
+  "check_2_literature_scope_thin": 238,
+  "check_2_provisional_pending_review": 1
 }

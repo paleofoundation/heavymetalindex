@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/milk-chocolate]]", "[[ingredients/white-cho
 higher_risk_variants: ["[[ingredients/high-cocoa-dark-chocolate]]", "[[ingredients/baking-chocolate]]", "[[ingredients/cocoa-powder-heavy-confections]]"]
 used_in_products: ["[[products/chocolate-bars]]", "[[products/chocolate-confections]]", "[[products/baked-goods]]", "[[products/ice-cream]]", "[[products/chocolate-beverages]]", "[[products/nutritional-supplements]]", "[[products/chocolate-coated-snacks]]"]
 audience: [regulator, educator, consumer, app]
-sources: 18
+sources: 19
 updated: 2026-05-16
 ---
 

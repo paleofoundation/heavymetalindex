@@ -1,6 +1,6 @@
 # Source-value extraction report — 2026-05-20
 
-Generated: 2026-05-20T13:22:09.092Z
+Generated: 2026-05-20T14:13:42.895Z
 Mode: EXECUTED
 Elapsed: 0s
 
@@ -9,7 +9,7 @@ Elapsed: 0s
 - Source pages processed: 1012
 - Pages with `## Key numbers` section: 898
 - Pages without Key numbers section (skipped): 113
-- Structured rows extracted: 5784
+- Structured rows extracted: 5797
 - Pages with Key numbers but no parseable values: 75
 
 ## Output
@@ -19,20 +19,20 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1131 rows
-- Cd: 1074 rows
+- Pb: 1134 rows
+- Cd: 1075 rows
 - Cr-total: 557 rows
 - Ni: 530 rows
 - tAs: 426 rows
-- Al: 367 rows
+- Al: 368 rows
 - tHg: 336 rows
+- Cu: 181 rows
 - iAs: 180 rows
-- Cu: 174 rows
 - Co: 153 rows
 - Sn: 106 rows
 - Fe: 102 rows
 - MeHg: 97 rows
-- Mn: 83 rows
+- Mn: 84 rows
 - U: 82 rows
 - Se: 73 rows
 - V: 67 rows
@@ -72,8 +72,8 @@ Elapsed: 0s
 - infant-formula-powder: 94 rows
 - face-paint: 81 rows
 - non-root-vegetables: 70 rows
+- honey: 68 rows
 - infant-formula-powder-non-soy: 66 rows
-- honey: 63 rows
 - children-personal-care: 59 rows
 - vinegar: 59 rows
 - chocolate: 58 rows

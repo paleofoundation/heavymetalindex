@@ -191,3 +191,14 @@
 ### Succeeded
 - `wise2025-elevated-metals-us-honeys` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Elevated Metal Levels in U.S. Honeys.pdf)
 - `khalil2017-snacks-peshawar-pakistan-heavy-metals` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Heavy Metals Toxicity_ Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan.pdf)
+
+## Tick 2026-05-20T14:14:03.752Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `bfr2022-nickel-dietary-intake-germany-meal` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nickel_ estimate of long-term intake via food based on the BfR MEAL Study.pdf)
+- `haider2022-biscuits-basrah-iraq-safety` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nutritional Quality and Safety Characteristics of Imported Biscuits Marketed in Basrah, Iraq.pdf)
