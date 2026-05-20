@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_uptake-of-arsenic-by-irrigated-vegetables-and-cook
 cite_key: clair-caliot2021-arsenic-irrigated-vegetables-burkina
 title: "Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso"
 authors: [Clair-Caliot G, Marks SJ, Hug SJ, Bretzler A, N'guessan ND, Tihe SFK, Lalanne F]
@@ -12,15 +12,16 @@ access_url: "https://doi.org/10.3389/frwa.2021.667308"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Uptake of Arsenic by Irrigated Vegetables and Cooked Food Product.pdf"
+raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso.pdf"
 metals: [tAs]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/spinach]]", "[[ingredients/lettuce]]", "[[ingredients/root-vegetables]]", "[[ingredients/carrots]]", "[[ingredients/tomatoes]]", "[[ingredients/beans]]", "[[ingredients/rice]]"]
+ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/spinach]]", "[[ingredients/lettuce]]", "[[ingredients/root-vegetables]]", "[[ingredients/carrots]]", "[[ingredients/tomato]]", "[[ingredients/beans]]", "[[ingredients/rice]]"]
 products: []
 matrices: [leafy-vegetable, root-vegetable, fruit-vegetable, cooked-food]
 jurisdictions: [BF]
+near_duplicates: []
 sample_n: 168
 sample_population: "Greenhouse-cultivated vegetables (7 species × 4 As irrigation concentrations × 6 replicates) at 2iE, Ouagadougou, Burkina Faso (dry season November 2017–February 2018); plus externally purchased market foods cooked with As-spiked water"
-updated: 2026-05-13
+updated: 2026-05-20
 ---
 
 # Clair-Caliot et al. 2021 — Arsenic uptake by irrigated vegetables and cooked foods in Burkina Faso
@@ -105,10 +106,13 @@ Microbiome: Not applicable.
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/spinach]]
 - [[ingredients/lettuce]]
+- [[ingredients/root-vegetables]]
 - [[ingredients/carrots]]
-- [[ingredients/tomatoes]]
+- [[ingredients/tomato]]
 - [[ingredients/beans]]
 - [[ingredients/rice]]
 - [[metals/arsenic]]
-- [[supply-chain/irrigation-water-arsenic]]
-- [[mitigation/cooking-arsenic-reduction]]
+
+## Verification notes
+
+2026-05-20 merge-enhance pass (v2 manual-fetch skill): preserved cite_key, license, access_url, and existing Key numbers (independently verified against PDF — concentrations at 500 µg/L, averages across spiked levels, category averages, cooking extraction percentages, steamed-vs-boiled ratios, soil properties, NIST recoveries, and detection limits all match source). Fixes applied: (a) `raw_handle` normalized from `manual-fetch-kimi` to `MFK_uptake-of-arsenic-by-irrigated-vegetables-and-cook` per current handle convention; (b) `raw_path` corrected — previous value was truncated mid-filename ("Cooked Food Product.pdf") and now points to the actual file ("Cooked Food Products in Burkina Faso.pdf"); (c) ingredient slug `tomatoes` corrected to canonical `tomato` (taxonomy snapshot lists `tomato` as singular); (d) `root-vegetables` re-added to Wiki-pages-updated list (was in frontmatter but missing from body list); (e) removed dead wikilinks `[[supply-chain/irrigation-water-arsenic]]` and `[[mitigation/cooking-arsenic-reduction]]` — neither page exists in current taxonomy; (f) added `near_duplicates: []`; (g) `updated` advanced to 2026-05-20. Amaranth and okra (both extensively covered by this paper) are not yet in the ingredient taxonomy; their data is routed via the `leafy-vegetables` and `fruit-vegetable` umbrella slugs respectively per Part 5b broad-scope rule. Speciation discipline upheld: paper measured total As only, page records `metals: [tAs]` and Key numbers includes an explicit speciation note.
