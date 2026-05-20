@@ -1,10 +1,10 @@
 # Provenance audit — 2026-05-20
 
-Generated: 2026-05-20T09:39:36.803Z
+Generated: 2026-05-20T10:25:42.797Z
 
 ## Summary
 
-- Files scanned: 706
+- Files scanned: 709
 - Files with unsourced claims: 227
 - Total unsourced claims: 397
 

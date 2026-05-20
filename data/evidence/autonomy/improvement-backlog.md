@@ -1145,3 +1145,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 18 (routing_unresolved.csv non-empty is a build blocker), Part 5b (routing layer is the system's responsibility for connecting sources to synthesis), Part 10 (new pages get Karen approval unless auto-scaffolding thresholds are met).
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Automate synthesis-trigger detection for pool-blocked cells
+
+**What:** Write `tools/autonomy/identify-resynthesis-triggers.mjs` to scan every ingredient/metal cell and flag which are synthesis-ready per Part 9 triggers (second source accumulated, n_studies doubled, contradictions detected), outputting a prioritized queue to `data/evidence/autonomy/resynthesis-queue.jsonl`.
+
+**Why this lever now:** 364 pool_blocked_cells exist with sources routed but no synthesis applied. Synthesis triggers are deterministic per Part 9, but trigger-detection is not automated—cells sit opaque until manual review. The snapshot shows synthesis is now the bottleneck (not ingest). Automating detection converts an opaque 364-cell backlog into a ranked queue, unblocking downstream Page regeneration and infant-product category locks (infant-rice-cereal: 13 sources waiting for governance).
+
+**Where:**
+- Create: `tools/autonomy/identify-resynthesis-triggers.mjs`
+- Input: Every `wiki/ingredients/*.md` and `data/evidence/review_events.jsonl`
+- Output: `data/evidence/autonomy/resynthesis-queue.jsonl` (ranked by trigger priority + routed-source count)
+- Log: `data/evidence/autonomy/resynthesis-queue-<YYYY-MM-DD>.md` (summary by trigger type)
+
+**How:**
+1. Iterate each ingredient page; extract every metal's `last_reviewed`, `last_full_resynthesis`, `n_studies` from frontmatter.
+2. Cross-reference routing audit to count sources accumulated since each field.
+3. Check Part 9 conditions: (a) second source since `last_reviewed`? (b) n_studies doubled since `last_full_resynthesis`? (c) contradiction in `review_events.jsonl`? (d) A-tier/B-tier conflict?
+4. Output each triggered cell with trigger reason, source count, and priority score (contradiction > doubling > second-source).
+5. Integrate into `npm run serve` watch and pre-commit hook so queue stays fresh.
+
+**Anchors:** CLAUDE.md Part 9 (synthesis workflow, trigger definitions, modes), Part 5b (routing audit), [[docs/order-of-operations.md]] Phase 3 (synthesis scheduling).
+
+---

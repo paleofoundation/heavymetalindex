@@ -130,3 +130,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The Potential Health Risk Associated with Edible Vegetables Grown on Cr(VI) Polluted Soils.pdf`: cr-vi-vegetables-pdf-filename-content-mismatch (PDF labeled "Edible Vegetables Grown on Cr(VI) Polluted Soils" actually contains Li-Zhang-Han 2020 IJERPH paper on online-doctor-pricing economics — no heavy-metal content, out of scope; second mismatched MDPI PDF in this folder). Stop note appended to `data/evidence/autonomy/manual-fetch-stops-2026-05-20.md`. No commits made.
+
+## Tick 2026-05-20T10:13:21.070Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `clair-caliot2021-arsenic-irrigated-vegetables-burkina` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA.pdf`: hands2024 duplicate source pages (DOI 10.3389/fnut.2024.1366231 has two existing wiki pages — `hands2024-multiyear-dark-chocolate-cocoa-usa.md` and `hands2024-dark-chocolate-cocoa-heavy-metals-usa.md` — both pre-2026-05-14, both cross-linked as near_duplicates, with 13–16 downstream references each including two synthesis pages that cite only one of them. Needs Karen's canonical-pick + sed-rewrite, not autonomous merge. Fifth duplicate-pages stop in the 2026-05-20 stops file; pattern variant — not the legacy-generic `manual-fetch-kimi` shape, so a complementary sweep using `near_duplicates:` cross-references would catch it.)

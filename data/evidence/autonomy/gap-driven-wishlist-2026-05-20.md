@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1420 candidate queries
-- Path B (empty product + thin ingredient pages): 8246 candidate queries
-- Total candidates (after dedup): 9666
+- Path A (pooling-engine-driven thin cells): 1436 candidate queries
+- Path B (empty product + thin ingredient pages): 8298 candidate queries
+- Total candidates (after dedup): 9734
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9666
+- Eligible after filtering: 9734
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | laundry-detergents × tHg | laundry detergents total mercury |
-| P1 | dietary-supplements × Cd | dietary supplements Cd occurrence |
-| P1 | sparkling-carbonated-water × Pb | sparkling carbonated water heavy metals Pb |
-| P1 | bleaching-whitening-additives × Cd | bleaching whitening additives Cd |
-| P1 | dietary-supplements × Pb | dietary supplements heavy metals Pb occurrence |
-| P1 | soft-drinks-carbonated-beverages × Pb | soft drinks carbonated beverages heavy metals Pb occurrence |
-| P1 | infant-bottles × tHg | infant bottles toy heavy metals mercury |
-| P1 | infant-food-powder × tAs | infant food powder total arsenic |
-| P1 | dish-soaps-manual × Cd | dish soaps manual Cd |
-| P1 | infant-formula-rtf-soy × Ni | infant formula rtf soy nickel occurrence |
-| P1 | food-storage-plastic-containers × tAs | plastic food storage containers arsenic |
-| P1 | whitening-products × Cd | whitening products Cd |
-| P1 | makeup-body-paints-bases-fixatives × tAs | makeup body paints bases fixatives heavy metals arsenic |
-| P1 | cleaning-wipes-household × Pb | cleaning wipes (household surface wipes) Pb |
-| P1 | tableware-glassware × Cd | tableware glassware cadmium |
-| P1 | meat-and-poultry-purees × Pb | meat and poultry purees heavy metals Pb occurrence |
-| P1 | baby-sunscreen-chemical × Pb | baby sunscreen chemical Pb occurrence |
-| P1 | water-filters × tAs | water filters arsenic occurrence |
-| P1 | rice-noodles × Pb | rice noodles dietary exposure Pb |
-| P1 | food-packaging-cans-lids × Pb | food packaging cans lids lead |
+| P1 | floor-cleaners-hard-surface × tAs | floor cleaners hard surface arsenic |
+| P1 | anti-wrinkle-wrinkle-release-products × Pb | anti wrinkle wrinkle release products heavy metals Pb |
+| P1 | infant-and-child-foods-master × iAs | infant and child foods master inorganic arsenic occurrence |
+| P1 | category-5-beverages × Cd | category 5 beverages beverage contaminants Cd |
+| P1 | degreasers × Cd | degreasers heavy metals Cd |
+| P1 | dietary-supplements × tHg | dietary supplements mercury occurrence |
+| P1 | sunflower-seed-butter × Cd | sunflower seed butter cadmium |
+| P1 | infant-formula-rtf-soy × Cd | infant formula rtf soy Cd occurrence |
+| P1 | floor-cleaners-hard-surface × tAs | floor cleaners hard surface total arsenic |
+| P1 | sensor-puff-releasers × tAs | sensor puff releasers heavy metals total arsenic |
+| P1 | infant-formula-powder-dairy × Al | infant formula powder dairy aluminium occurrence |
+| P1 | pet-food-semi-moist × tHg | pet food semi moist mercury |
+| P1 | toys-projectile-guns × tAs | toys projectile guns arsenic |
+| P1 | exfoliants-scrubs × tAs | exfoliants/scrubs (body, facial) arsenic |
+| P1 | cookware-specialty-alloy × tHg | specialty alloy cookware (copper, carbon steel) mercury |
+| P1 | peanuts × Cd | peanuts heavy metals Cd occurrence |
+| P1 | toys-stuffed-bean-bag × tHg | stuffed toys and bean bag-type toys total mercury |
+| P1 | supplements-algae-seaweed-based × tHg | ingredient class — algae/seaweed-based mercury |
+| P1 | laundry-detergent-boosters-additives × Pb | laundry detergent boosters/additives Pb |
+| P1 | infant-formula-stage1 × Sn | infant formula stage1 tin |
 
 ## Coverage rotation
 

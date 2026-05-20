@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-20
 
-Generated: 2026-05-20T09:21:03.823Z
+Generated: 2026-05-20T10:12:16.942Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 1008
+- Source pages processed: 1010
 - Pages with `## Key numbers` section: 897
-- Pages without Key numbers section (skipped): 110
-- Structured rows extracted: 5777
+- Pages without Key numbers section (skipped): 112
+- Structured rows extracted: 5776
 - Pages with Key numbers but no parseable values: 75
 
 ## Output
@@ -19,15 +19,15 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1132 rows
-- Cd: 1075 rows
+- Pb: 1131 rows
+- Cd: 1074 rows
 - Cr-total: 556 rows
 - Ni: 530 rows
 - tAs: 424 rows
 - Al: 362 rows
 - tHg: 336 rows
 - iAs: 180 rows
-- Cu: 173 rows
+- Cu: 174 rows
 - Co: 153 rows
 - Sn: 106 rows
 - Fe: 102 rows
@@ -61,7 +61,7 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2074 rows
+- (empty): 2073 rows
 - fresh-fish: 289 rows
 - seafood: 239 rows
 - fresh-fruit: 231 rows

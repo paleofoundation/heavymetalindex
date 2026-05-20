@@ -293,3 +293,68 @@ The intended PDF (Cr(VI) polluted soils → edible vegetables health risk) appea
 4. After the correct Cr(VI)-vegetables PDF is restored to the slot, re-run `/ingest-next-manual-fetch-pdf folder=02_Vegetables_and_Vegetable_Products`.
 
 **No commits made this tick.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
+
+## STOP: hands2024 multi-year dark chocolate/cocoa USA — duplicate source pages (different pipeline-origin pattern)
+
+**PDF**: `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA.pdf`
+
+**Paper**: Hands JM, Anderson ML, Cooperman T, Balsky JE, Frame LA. "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA." *Frontiers in Nutrition* 2024, 11:1366231. DOI: 10.3389/fnut.2024.1366231. CC BY.
+
+**Situation**: DOI grep returns two existing source pages for this paper — same paper, different ingest pipelines. This differs from the saleem2025 / zhao2022 / shavali-gilani2025 / li2017 pattern (which had legacy-generic `manual-fetch-kimi` raw_handle on the older copy). Here both pages cross-reference each other in `near_duplicates`, suggesting the duplication was noticed during ingest but never consolidated.
+
+1. `wiki/sources/hands2024-multiyear-dark-chocolate-cocoa-usa.md` — manual-fetch / studies-folder origin.
+   - No `raw_handle`; `raw_path: raw/studies/hands2024-multiyear-dark-chocolate-cocoa-usa.pdf` (present on disk, 568178 bytes)
+   - `sha256: 817bb032242a39581ddd1845bb8c384d2cd0f9ddb80510444ba02eb55cd92bb0`
+   - `updated: 2026-05-13`
+   - `near_duplicates: [FM_11321977]`
+   - Body: prose Key numbers, Table 1 summary stats reproduction, by-cohort table, Methods, Limitations (notes total-As not speciated, product-selection bias from prior exclusions), Implications across cert / courses / app / microbiome.
+   - `ingredients: [cocoa, chocolate]`; `products: [chocolate]`; `matrices: [dark-chocolate, cocoa-powder, cocoa-products]`.
+
+2. `wiki/sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa.md` — Frontiers/Marker pipeline origin.
+   - `raw_handle: FM_11321977` with `raw_path: raw/markdown/FM_11321977/FM_11321977.md` (present on disk, plus 5 extracted figure JPEGs)
+   - `updated: 2026-05-13`
+   - `near_duplicates: [hands2024-multiyear-dark-chocolate-cocoa-usa]`
+   - Body: same metals/cohort numbers in slightly different prose form; explicit Organic Welch's T-test reproduction (6.09 vs 3.18 µg/day Cd); arsenic-speciation caveat ("predominantly inorganic due to soil uptake by cacao") — content **not** present on the studies-folder page.
+   - `ingredients: [cocoa, chocolate]`; `products: [chocolate]`; `matrices: [dark-chocolate, cocoa-powder, cocoa-product]` (singular vs plural diff vs page 1).
+   - Lists `[[regulations/california-prop65-madl]]` in `## Wiki pages updated on ingest` (legacy section) — content not on page 1.
+   - Lists `[[products/dark-chocolate]]` in the same section — different slug from page 1's `[[products/chocolate]]`.
+
+The MFK_ PDF on this tick (`raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/...`) is a **third** filesystem copy of the same paper. Same DOI, same 568178-byte file as the studies-folder copy. The suggested handle `MFK_a-multi-year-heavy-metal-analysis-of-72-dark-choco` is not currently the raw_handle on either existing page.
+
+**Both pages are pre-2026-05-14 (updated 2026-05-13)**, so both qualify for merge-enhance under skill v2.0 Phase 1 step 1. Neither is currently in `routing_malformed.csv` (status would need verification), but both are referenced widely.
+
+**Why stop rather than consolidate autonomously**: same reasoning as the four sibling stops earlier in this file. Reference distribution across downstream files (16 inbound for the canonical-candidate, 13 inbound for the FM_-handle copy; substantial overlap):
+
+| File class | hands2024-multiyear-* refs | hands2024-dark-chocolate-* refs |
+|---|---|---|
+| wiki/metals/{lead, cadmium, arsenic-total}.md | 3 | 3 |
+| wiki/ingredients/{chocolate, cocoa}.md | 2 | 2 |
+| wiki/synthesis/{organic-certification-not-protective, us-chocolate-lead-temporal-decline}.md | 2 | 0 |
+| wiki/batch-reports/* | seasonal-geographic-variance-2026-05-12 | p4-batch7-2026-05-13 |
+| wiki/log.md | 1 | 1 |
+| data/evidence/category1_autonomy_extracted_summary.csv | 1 | 1 |
+| data/evidence/hmtc_aggregate_distributions.csv | 1 | 1 |
+| data/evidence/review_events.jsonl | 1 | 1 |
+| data/evidence/data-gap-with-sources.csv | 1 | 1 |
+| data/evidence/cells-needing-synthesis.csv | 1 | 1 |
+
+Particularly notable: two `wiki/synthesis/*.md` pages (`organic-certification-not-protective`, `us-chocolate-lead-temporal-decline`) cite **only** `hands2024-multiyear-dark-chocolate-cocoa-usa` and not the FM_-handle version, so dropping that cite-key without lifting onto the canonical would break synthesis-page provenance. Meanwhile the FM_-handle page has unique content (arsenic-speciation caveat, explicit Welch's T-test numbers, prop65-MADL regulation cross-link, dark-chocolate vs chocolate product slug). Mechanical pick + sed-rename loses some of the unique content from whichever loses.
+
+**This is the fifth duplicate-source-pages stop in this file** (saleem2025, zhao2022, shavali-gilani2025, li2017, hands2024). Pattern variant: this one is **not** the legacy-generic `manual-fetch-kimi` raw_handle pattern — both pages have specific raw_handle / raw_path setups and explicitly cross-reference each other in `near_duplicates`. So the proposed one-shot sweep across `raw_handle: manual-fetch-kimi` would miss this case; a complementary sweep across pages that list a counterpart cite-key under `near_duplicates:` would catch the hands2024-style pattern.
+
+**Recommended resolution** (Karen):
+
+1. Pick canonical cite-key. Recommendation: `hands2024-multiyear-dark-chocolate-cocoa-usa` — preserves the "multi-year" descriptor central to the paper's contribution and is already referenced by both `wiki/synthesis/*.md` pages.
+2. Before deleting `hands2024-dark-chocolate-cocoa-heavy-metals-usa.md`, lift onto the canonical:
+   - The arsenic-speciation caveat ("predominantly inorganic due to soil uptake by cacao, distinct from marine matrices where organoarsenicals dominate").
+   - The explicit Welch's T-test per-group numbers (organic 6.09 µg/day Cd vs non-organic 3.18 µg/day Cd, p=0.02).
+   - The `[[regulations/california-prop65-madl]]` cross-link.
+   - Decide between `products/chocolate` and `products/dark-chocolate` slug (current canonical uses `products/chocolate`; the FM_-handle page uses `dark-chocolate`).
+3. Set `raw_handle: FM_11321977` on the canonical (preserves the Frontiers/Marker handle for retroactive PMC linkage); keep the existing `raw_path` (`raw/studies/...`) and update `near_duplicates: [FM_11321977, MFK_a-multi-year-heavy-metal-analysis-of-72-dark-choco]` to acknowledge all three filesystem copies of the same paper.
+4. Sed-rewrite `hands2024-dark-chocolate-cocoa-heavy-metals-usa` → `hands2024-multiyear-dark-chocolate-cocoa-usa` across the 13 downstream files.
+5. Delete the FM_-handle source page.
+6. Re-run routing audit.
+
+**What I did NOT do** this tick: did not edit either source page, did not pick a canonical cite-key, did not rewrite any downstream references, did not commit, did not append to `data/evidence/audit-queue.csv`. The MFK_-handle PDF copy in `07_Processed_Foods_Snacks_Beverages/` remains un-ingested as a separate source-page identity (correctly so — it's the same paper, just a third filesystem location).
+
+**No commits made for this PDF.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.

@@ -1,15 +1,19 @@
 # Heal-gaps report — 2026-05-20
 
-Generated: 2026-05-20T09:21:03.171Z
+Generated: 2026-05-20T10:12:16.136Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 0
+- Fixes applied: 1
 - Queued for synthesis: 1
 - Routing typo proposals: 5
-- Provisional scaffolds created: 1
+- Provisional scaffolds created: 3
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 235
+
+## Fixes applied
+
+- wiki/products/infant-juice.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `juice`)
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 
@@ -17,7 +21,9 @@ Mode: EXECUTED
 
 ## Provisional scaffolds created
 
-- product/`infant-juice` (triggered by source cereal2013-cereal-juice-lead-arsenic)
+- product/`cereal-products` (triggered by source arsenic2012-arsenic-organic-foods-brown)
+- product/`snack-bars-energy-bars` (triggered by source arsenic2012-arsenic-organic-foods-brown)
+- ingredient/`cereal-bars` (triggered by source arsenic2012-arsenic-organic-foods-brown)
 
 See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 

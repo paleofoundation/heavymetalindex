@@ -123,3 +123,15 @@
 ### Succeeded
 - P1 `introduction2014-randomized-controlled-trial-jujube` (FM_5322685)
 - P1 `arsenic2012-arsenic-organic-foods-brown` (FM_3346791)
+
+## Batch 2026-05-20T10:13:20.970Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `original2012-synthesis-coimmobilized-microorganisms-removal` (FM_8358380)
+
+### Failed
+- P1 `unknown2012-original` (FM_3775530): exit 1: 

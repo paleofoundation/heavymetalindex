@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: meat-and-poultry-purees
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-20T09:42:06.973Z
+generated_at: 2026-05-20T10:27:46.814Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -261,17 +261,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `c229e8cba3aedb2faccd4513ef903f040b477853` in the heavymetalindex.com repository.
+1. Checking out commit `b0bad81d3e8ac0dad50659d291c2c6c6859cb2cc` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=meat-and-poultry-purees` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-20T09:42:06.983Z |
+| Generated at | 2026-05-20T10:27:46.823Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `c229e8cba3aedb2faccd4513ef903f040b477853` |
+| Git commit | `b0bad81d3e8ac0dad50659d291c2c6c6859cb2cc` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

@@ -8,7 +8,7 @@ provisional_scaffold: true
 provisional_created: 2026-05-20
 provisional_reason: "heal-gaps: routing_unresolved entry from source cereal2013-cereal-juice-lead-arsenic declared product/infant-juice, no close-slug match"
 provisional_source: "[[sources/cereal2013-cereal-juice-lead-arsenic]]"
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
