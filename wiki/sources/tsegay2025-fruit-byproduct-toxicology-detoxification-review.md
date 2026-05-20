@@ -73,7 +73,7 @@ Hazard quotient ranges cited from upstream literature (ref [2]) for fruit by-pro
 **Mycotoxin highlights (mg/kg, from Table 2 of the review):**
 - Apple peel/skin/seed/pomace: AOH-3-S 1.4–10.8 × 10⁻³, AME-3-S 1.7–10 × 10⁻³ (refs [57–61]).
 - Apricot seeds: AFB1 and AFB2 = 0.0017–22.451 (refs [62–64]).
-- Pineapple shell/pomace: Fusarium = 250, Aflatoxin B₁ = 0.008 × 10⁻³, Aflatoxin G₁ = 0.013–0.033 × 10⁻³, OTA = 0.051 × 10⁻³ (refs [60,72]).
+- Pineapple shell: Fusarium = 250 (refs [70–72]). Pineapple pomace: Aflatoxin B₂ and B₁ = 0.008 × 10⁻³, Aflatoxin G₁ = 0.013–0.033 × 10⁻³, OTA = 0.051 × 10⁻³ (refs [60,72,79]).
 - Tangerine peel: tryptoquialanine A = 248.1, tryptoquialanine C = 375.80 (refs [34,60,69,72–75]).
 - Watermelon peel: AOH = 0.003–0.017 (refs [60,81,82]).
 - Pineapple shell mycotoxins: aflatoxin B₂, aflatoxin G₁, and OTA all measured below detection limit 2.9 × 10⁻³ mg/kg (ref [77]).
@@ -115,6 +115,9 @@ Narrative review, not a systematic review. The authors prioritized fruits with g
 4. Hazard quotient ranges (As 2.71–11.38, etc.) are cited from a single upstream review (ref [2]) without identifying the underlying contamination concentrations, exposure scenarios, body-weight assumptions, or consumption rates used to compute them.
 5. Pineapple peel Pb outlier (0.64 mg/100 g dry weight) is presented without sample n, geographic origin, growing-region soil background, or replication context. A single dry-weight measurement reported as a hard maximum should not be over-weighted in any downstream synthesis.
 6. No regulatory-event documentation. The review cites WHO and EC limits as comparators but does not document any enforcement actions, recalls, or jurisdictional MRL exceedances tied to by-product valorization.
+7. Suspected source-printing errors preserved verbatim in Key numbers (the review is the authoritative record; we do not silently correct):
+   - Watermelon meal tannin "32 × 10⁵ mg/kg" (Table 2, ref [81]) implies 3,200 g/kg, which exceeds physical possibility (>100% of dry mass). Most likely intended `32 × 10²` (= 3,200 mg/kg) or similar; do not propagate as a quantitative input without re-checking ref [81].
+   - Orange pomace "Prochloraz = 8.11.7 mg/kg" (Table 2, refs [34,60,69,72–75]) is a malformed numeric (extra decimal). Do not propagate as a quantitative input without re-checking the cited refs.
 
 ## Implications
 
@@ -142,3 +145,9 @@ Narrative review, not a systematic review. The authors prioritized fruits with g
 - `ingest_method` and `created_by` fields added per current frontmatter schema.
 
 No primary-data values were silently altered. The review's pineapple peel Pb outlier (0.64 mg/100 g dry weight) and the contrasting "below 0.1 µg/L" framing for the other six by-products are preserved verbatim as they appear in the source on p.2 even though the unit basis is inconsistent — the review's own framing is the authoritative record.
+
+**Audit subagent (2026-05-20) — REVISE verdict; three ⚠️ findings, all applied:**
+
+1. Pineapple shell vs pomace mycotoxin attribution — the original "Pineapple shell/pomace" collapsed row was split per Table 2 p.7 into "Pineapple shell: Fusarium = 250" (refs [70–72]) and "Pineapple pomace: Aflatoxin B₂ and B₁ = 0.008 × 10⁻³, Aflatoxin G₁ = 0.013–0.033 × 10⁻³, OTA = 0.051 × 10⁻³" (refs [60,72,79]). The aflatoxin label was also corrected from "B₁" to the source's "B₂ and B₁".
+2. Watermelon meal tannin (32 × 10⁵ mg/kg) and orange pomace Prochloraz (8.11.7 mg/kg) added as bullet 7 in the limitations list, explicitly flagged as suspected source-printing errors preserved verbatim. The review is the authoritative record; we do not silently correct primary-source typesetting.
+3. Matrices vocabulary clarification: `matrices: [fruit-by-products, fruit-peels, fruit-pomace, fruit-seeds]` are descriptive of the review's actual subject (by-product fractions, not fresh fruit) and are treated as advisory-only by the routing audit. They are not enumerated in the taxonomy snapshot's controlled-vocabulary list, but they remain in frontmatter because removing them would mis-describe the source.
