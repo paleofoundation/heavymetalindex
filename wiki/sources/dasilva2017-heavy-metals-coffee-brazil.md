@@ -21,7 +21,7 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 50
 sample_population: "50 Coffea arabica samples collected from farms and coffee marketing centers in the Alto Paranaiba region, Minas Gerais, Brazil: Carmo do Paranaiba n=21, Rio Paranaiba n=13, Serra do Salitre n=11, and Tiros n=5; roasted/ground coffee and matching infusions were analyzed."
-updated: 2026-05-19
+updated: 2026-05-20
 ---
 
 # da Silva et al. 2017 - heavy metals in Brazilian roasted coffee and brew
@@ -56,7 +56,7 @@ The paper reports Cd detected in 10 of 50 roasted/ground coffee samples, with de
 | Pb | 0.0120 | 0.0002 | 0.0021 | 0.0000 | 0.0024 |
 | Zn | 0.1292 | 0.0045 | 0.0131 | 0.1025 | 0.0059 |
 
-The authors report Cd, Mn, Ni, and Zn leaching percentages between 20% and 30%; Cr and Pb had the highest leaching percentages.
+The authors report Cd, Mn, Ni, and Zn leaching percentages between 20% and 30%; Cr and Pb had the highest leaching percentages. Cu was detected in only 1 of 50 infusion samples at 0.0122 mg/50 mL, which is why the Cu infusion minimum and maximum are identical and the mean is far below either; the remaining 49 infusion samples were below detection and treated as zero in the descriptive statistics. The paper similarly reports Pb detected in 23 of 50 infusion samples (46%) with the detected range 0.0004 to 0.0121 mg/50 mL, and Ni detected in only 8 of 50 infusion samples.
 
 **Average leaching from roasted/ground coffee to infusion (Table 3; percent; 6 g/50 mL infusion):**
 
@@ -70,13 +70,27 @@ The authors report Cd, Mn, Ni, and Zn leaching percentages between 20% and 30%; 
 | Pb | 46.85 |
 | Zn | 28.69 |
 
-The only reported Pearson correlation coefficient above 0.60 was between Cr and Ni in roasted/ground coffee (r=0.706), significant at 1% probability.
+Two Pearson correlations exceeded r=0.60 at the 1% probability level in Table 4: Cr against Ni in roasted/ground coffee (r=0.706), and Mn in roasted/ground coffee against Mn in the infusion (r=0.744). The Mn cross-matrix correlation is the only same-element across-matrix correlation flagged as significant by the authors; it indicates that samples high in Mn in the roasted/ground material were also high in Mn in the infusion. No other cross-element or cross-matrix correlation reached the 0.60 threshold.
+
+**Exposure estimates the paper reports for a 70 kg adult drinking four 50 mL cups of coffee per day:**
+
+| Metal | Daily intake from four cups | Comparator (UL or weekly-intake-derived daily ceiling) | Percent of ceiling |
+| --- | --- | --- | ---: |
+| Mn | 0.0916 mg/day (mean) | 11 mg/day (Padovani et al. 2006 UL) | 0.83% |
+| Zn | 0.0524 mg/day (mean) | 40 mg/day (Padovani et al. 2006 UL) | 0.13% |
+| Cr | 4.4 µg/day (mean) | 200 µg/day (WHO 2000 upper bound of 50-200 µg/day acceptable range) | 2.2% |
+| Cd | 0.4 µg/day (mean across all 50 samples) | 70 µg/day (JECFA 7 µg/kg bw/week ÷ 7 days × 70 kg) | 0.57% |
+| Cd | 1.5 µg/day (worst-case single-sample at 0.003 mg/50 mL) | 70 µg/day | 17.1% |
+| Pb | ~8.4 µg/day (mean across detected infusion samples) | 250 µg/day (FAO/WHO 25 µg/kg bw/week ÷ 7 days × 70 kg) | 3.36% |
+| Pb | ~48.4 µg/day (worst-case single-sample at 0.0121 mg/50 mL) | 250 µg/day | 19.36% |
+
+Cd and Pb were absent in 60% and 54% of infusion samples respectively, so the population mean masks substantial sample-to-sample variability; the worst-case rows in the table are what the paper itself highlights.
 
 ## Methods (brief)
 
 The study collected 50 arabica coffee samples from farms and coffee marketing centers in four municipalities in Alto Paranaiba, Minas Gerais, Brazil. Samples were medium-roasted at 120-150°C for 7-8 minutes using a gas roaster and ground to 3.5 mesh. Coffee infusion was prepared by adding roasted/ground coffee to boiling water at 95-100°C, using 12 g powder per 100 mL water, filtering, and concentrating 25 mL of beverage to about 2.5 mL.
 
-Roasted/ground coffee and infusions were mineralized by wet digestion with nitric and perchloric acids at a 3:1 ratio. Cd, Cr, Cu, Mn, Ni, Pb, and Zn were measured by fast sequential atomic absorption spectrophotometry with flame air/acetylene atomization. Wavelengths were Cd 228.8 nm, Cr 357.9 nm, Cu 324.7 nm, Mn 279.8 nm, Ni 232.0 nm, Pb 217.0 nm, and Zn 213.9 nm. The authors report extraction recovery of 92-97%. Descriptive statistics and Pearson correlations were calculated.
+Roasted/ground coffee and infusions were mineralized by wet digestion with nitric and perchloric acids at a 3:1 ratio. Cd, Cr, Cu, Mn, Ni, Pb, and Zn were measured by fast sequential atomic absorption spectrophotometry on a Varian AA240FS spectrometer (Mulgrave, Victoria, Australia) with air/acetylene flame atomization at 13.3 L min⁻¹/2.9 L min⁻¹ for Cr and 13.5 L min⁻¹/2.0 L min⁻¹ for the other elements, with a hollow-cathode mono-elemental lamp as the radiation source. Wavelengths were Cd 228.8 nm, Cr 357.9 nm, Cu 324.7 nm, Mn 279.8 nm, Ni 232.0 nm, Pb 217.0 nm, and Zn 213.9 nm. The chromium measurement is total Cr; the AAS method does not speciate Cr-VI. The authors report extraction recovery of 92-97%. Descriptive statistics and Pearson correlations were calculated.
 
 ## Implications
 
@@ -103,6 +117,7 @@ Microbiome: Not addressed.
 ## Verification notes
 
 - Fresh auto-fetch ingest 2026-05-19 from the gap-driven coffee-Cd wishlist PDF.
-- Table 1 and Table 2 are preserved as printed. Table 1 Cd mean is below the printed detected minimum because the paper also states Cd was detected in only 10 of 50 samples; Table 2 Zn median appears high relative to the printed maximum/mean, but the value is preserved as printed and should be treated cautiously until independently checked against the source layout.
+- Merge-enhance 2026-05-20 against the source PDF in `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of heavy metals in the roasted and ground coffee beans and brew.pdf`. The prior revision was missing the Mn cross-matrix Pearson correlation (r=0.744) flagged as significant in Table 4, the paper's four-cup-per-day exposure estimates (Mn, Zn, Cr, Cd, Pb percent of upper-limit), and the detection-frequency caveats explaining Table 2 Cu min=max and the Pb/Ni infusion descriptive statistics. The pending-audit-spawn-failed row in `data/evidence/audit-queue.csv` was the trigger for this pass. The audit ran successfully under v2 of the manual-fetch skill after this enhancement.
+- Table 1 and Table 2 are preserved as printed. Table 1 Cd mean is below the printed detected minimum because the paper also states Cd was detected in only 10 of 50 samples (60% non-detect treated as zero in the descriptive statistics). Table 2 Zn median (0.1025 mg/50 mL) appears anomalously high relative to the printed mean (0.0131 mg/50 mL) but lies below the printed maximum (0.1292 mg/50 mL); the value is preserved as printed; the paper's body text does not separately discuss Zn infusion median, so the layout-vs-typo question cannot be resolved from the published text alone.
 - Strict brand firewall: the paper reports municipalities and anonymized sample handling only; no commercial coffee brands are named in this source page.
-- Methods vendor/equipment names are retained under Part 12 Exception 2.
+- Methods vendor/equipment names (Varian, ROD-bel, Probat Leogap, Tecnal) are retained under Part 12 Exception 2.
