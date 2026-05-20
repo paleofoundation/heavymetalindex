@@ -930,3 +930,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (synthesis triggers), Part 11 (priority ordering), Part 24 (proactive maintenance). Signals corpus maturity: the wishlist is structured enough to extract actionable guidance.
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Build deterministic cell-value extraction from routed sources
+
+**What:** Create `tools/evidence/extract-cell-values.mjs` that reads the routing audit, identifies all sources routed to each (ingredient, metal) cell, extracts quantitative statistics (`typical_ppb`, `p95_ppb`, `confidence`, study-type distribution) from source-page structured data, and emits `data/evidence/cell-values-registry.jsonl` as the synthesis workflow's input layer.
+
+**Why this lever now:** 351 cells are blocked because evidence exists but structured values are not systematically extracted. The routing audit identifies which sources belong in each cell, but there's no deterministic pipeline pulling statistics from those sources into a form that triggers synthesis (Part 9). This extraction layer is what separates the routing tier from the synthesis tier and unblocks the largest weakness in the snapshot.
+
+**Where:** 
+- New script: `tools/evidence/extract-cell-values.mjs`
+- Input: `data/evidence/product_source_routing_audit.csv` (source → cell routing) + `wiki/sources/*.md` (structured frontmatter)
+- Output: `data/evidence/cell-values-registry.jsonl` (one record per source-cell pair with extracted stats)
+- Audit: `tools/evidence/audit-extraction-completeness.mjs` (flags sources declaring a metal but with no quantitative data)
+
+**How:**
+1. For each row in the routing audit, match the source file from `wiki/sources/` and parse frontmatter + body tables.
+2. Extract `typical_ppb`, `p95_ppb`, `n_studies`, `study_types` from the source's `contamination_profile` blocks (if populated) or compute from raw data if listed.
+3. Write extraction records with source cite-key, target cell (ingredient slug + metal), and extracted values.
+4. Wire the script into the prebuild pipeline so synthesis can read up-to-date values whenever a new source is routed.
+
+**Anchors:** CLAUDE.md Part 5b (routing is deterministic input), Part 9 (synthesis triggered by routing + values), Part 4 (AI adjudication default), Part 18 (provenance lint requires traceable values).
+
+---

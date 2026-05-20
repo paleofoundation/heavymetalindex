@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/mango-juice]]"]
 used_in_products: ["[[products/fruit-juice]]", "[[products/fruit-purees]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 4
+sources: 5
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
