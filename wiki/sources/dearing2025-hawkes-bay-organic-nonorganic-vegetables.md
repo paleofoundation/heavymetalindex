@@ -12,14 +12,14 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Assessment of Heavy Metals in Organic and Non-Organic Vegetables in Hawkes Bay, New Zealand.pdf"
 metals: [Cd, Pb, tAs, Ni, Cr, Tl, tHg]
-ingredients: ["[[ingredients/vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/lettuce]]", "[[ingredients/parsley]]", "[[ingredients/cabbage]]", "[[ingredients/broccoli]]", "[[ingredients/onions]]", "[[ingredients/potatoes]]", "[[ingredients/tomato]]", "[[ingredients/corn]]", "[[ingredients/green-beans]]", "[[ingredients/cauliflower]]", "[[ingredients/celery]]", "[[ingredients/beet]]", "[[ingredients/butternut-squash]]"]
+ingredients: ["[[ingredients/vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/lettuce]]", "[[ingredients/parsley]]", "[[ingredients/cabbage]]", "[[ingredients/broccoli]]", "[[ingredients/onions]]", "[[ingredients/potatoes]]", "[[ingredients/tomato]]", "[[ingredients/corn]]", "[[ingredients/green-beans]]", "[[ingredients/cauliflower]]", "[[ingredients/celery]]", "[[ingredients/beet]]", "[[ingredients/butternut-squash]]"]
 products: []
 matrices: [vegetable, leafy-vegetable, root-vegetable]
 jurisdictions: [NZ]
 near_duplicates: []
 sample_n: 153
 sample_population: "153 composite representative samples (combined from 736 individual vegetables) sourced from 14 market gardens across 10 growing sites in Hawke's Bay, New Zealand, February 2024 (one year post Cyclone Gabrielle); includes organic and non-organic plus flooded and non-flooded growing sites"
-updated: 2026-05-17
+updated: 2026-05-20
 ---
 
 # Dearing et al. 2025 — Heavy metals in Hawke's Bay vegetables one year after Cyclone Gabrielle, with organic vs. non-organic and flooded vs. non-flooded comparisons
@@ -60,6 +60,7 @@ Dearing and colleagues sampled 736 commercially grown vegetables (combined into 
 
 - [[ingredients/vegetables]]
 - [[ingredients/leafy-vegetables]]
+- [[ingredients/root-vegetables]]
 - [[ingredients/lettuce]]
 - [[ingredients/parsley]]
 - [[ingredients/cabbage]]
@@ -82,3 +83,10 @@ Dearing and colleagues sampled 736 commercially grown vegetables (combined into 
 - [[metals/mercury-total]]
 - [[regulations/codex-cadmium-mls]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
+
+## Verification notes
+
+- 2026-05-20 — Re-audited against PDF (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Assessment of Heavy Metals in Organic and Non-Organic Vegetables in Hawkes Bay, New Zealand.pdf). All 153-sample descriptive statistics in Table 2 (Cd, Pb, As, Ni, Cr, Tl, Hg including/excluding LOD), all Table 3 genus medians/maxes for Cd and Ni across 17 genera, ANOVA outputs from Tables 4 and 5, and Table 6 sensitivity sub-analysis (n=37) values verified line-by-line — all match. Exceedance counts verified (three lead exceeding Codex 0.1 mg/kg FW: two Lactuca sativa + one Petroselinum crispum; one Brassica rapa exceeding 0.05 mg/kg FW Cd). Methods description (ICP-MS, ISO-17025 lab, aqua regia digestion, 2% HNO3/1% HCl dilution, oven-dry at 60 °C, fresh-weight basis, half-LOD substitution + LOD-excluded duplicate stats) matches PDF. Speciation conventions correct (tAs not iAs, tHg not MeHg, Cr not Cr-VI — paper used total elemental ICP-MS without speciation).
+- Added [[ingredients/root-vegetables]] to ingredients array and to wiki-pages list — root-vegetable was already in matrices but the parent ingredient slug was missing.
+- products: [] is intentional. This is raw fresh produce; no packaged-product slug applies. The routing-malformed advisory note ("Source is missing optional routing-input fields") is expected and does not indicate a defect.
+- Genera mentioned in PDF whose ingredient slugs do not yet exist (not added to ingredients array, not stubbed here): kale, bok-choi, red-cabbage (Brassica sub-types), garlic, leek, red-onion, spring-onion (Allium sub-types), chard, silver-beet (Beta sub-types), beetroot (Beta — beet slug used as parent), chinese-winter-melon, courgette (Cucumis), grey-pumpkin (Cucurbita — butternut-squash slug used as parent), fennel (Foeniculum), chinese-water-spinach (Ipomoea), bottle-gourd (Lagenaria), luffa-gourd (Luffa), bitter-melon (Momordica), daikon/diakon (Raphanus), cherry-tomatoes (Solanum — tomato slug used as parent), sweet-corn (Zea — corn slug used as parent). Auto-stub freq-counter will catch the freq≥2 cases across the corpus.
