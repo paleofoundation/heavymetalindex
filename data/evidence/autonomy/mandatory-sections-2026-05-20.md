@@ -1,6 +1,6 @@
 # Mandatory-sections audit — 2026-05-20
 
-Generated: 2026-05-20T12:50:26.211Z
+Generated: 2026-05-20T13:41:51.748Z
 Mode: EXECUTED (audit + autofill)
 
 ## Summary

@@ -3,10 +3,10 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1448 candidate queries
-- Path B (empty product + thin ingredient pages): 8314 candidate queries
-- Total candidates (after dedup): 9762
+- Path B (empty product + thin ingredient pages): 8294 candidate queries
+- Total candidates (after dedup): 9742
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9762
+- Eligible after filtering: 9742
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | scented-candles × Pb | scented candles Pb |
-| P1 | fermented-beverages-non-tea-based × Pb | fermented beverages non tea based Pb occurrence |
-| P1 | fish-marine-non-predatory × tHg | fish — marine, non-predatory (sardines, anchovies, salmon, cod) total mercury |
-| P1 | baby-powder-cornstarch × Cr | baby powder cornstarch heavy metals chromium occurrence |
-| P1 | infant-formula-powder-dairy × Cr-VI | infant formula powder dairy Cr(VI) occurrence |
-| P1 | supplements-bars-labeled × tAs | food-like forms: bars (when labeled as supplement) total arsenic |
-| P1 | canned-fruit × tAs | canned fruit arsenic occurrence |
-| P1 | cookware-metal-alloy × tAs | metal and alloy cookware (cast iron, stainless steel, aluminum) arsenic |
-| P1 | food-packaging-glass-jars × Pb | food packaging glass jars heavy metals lead |
-| P1 | toothbrushes × Cd | toothbrushes cadmium |
-| P1 | supplements-algae-seaweed-based × tAs | ingredient class — algae/seaweed-based total arsenic |
-| P1 | baby-powder-cornstarch × Cr | baby powder cornstarch heavy metals chromium |
-| P1 | infant-formula-powder-dairy × MeHg | infant formula powder dairy methyl mercury occurrence |
-| P1 | bleaching-whitening-additives × tAs | bleaching/whitening additives arsenic |
-| P1 | canned-vegetables × Pb | canned vegetables heavy metals Pb occurrence |
-| P1 | douches-vaginal-irrigation × Cd | douches vaginal irrigation Cd |
-| P1 | infant-formula-stage1 × Ni | infant formula stage1 nickel |
-| P1 | pet-food-semi-moist × Cd | pet food semi moist heavy metals cadmium |
-| P1 | clasps-fasteners-infant-products × Pb | clasps fasteners infant products lead |
-| P1 | conditioner-adult-rinse-out × Cd | conditioner adult rinse out heavy metals Cd |
+| P1 | fabric-contact-products-other × tHg | other fabric-contact home products (case-by-case) total mercury |
+| P1 | food-storage-glass-containers × tAs | food storage glass containers heavy metals total arsenic |
+| P1 | plant-milks-non-soy-non-rice × Cd | plant milks non soy non rice Cd occurrence |
+| P1 | glucose-solutions × Pb | glucose solutions lead occurrence |
+| P1 | body-wash-shower-gel × Cd | body wash shower gel Cd |
+| P1 | high-chairs-and-booster-seats × tAs | high chairs and booster seats heavy metals arsenic |
+| P1 | kitchen-countertop-cleaners × tAs | kitchen countertop cleaners heavy metals total arsenic |
+| P1 | infant-juice × tAs | infant juice arsenic |
+| P1 | seaweed-kelp-foods × Cd | seaweed kelp foods Cd |
+| P1 | peanuts × Ni | peanuts heavy metals nickel occurrence |
+| P1 | sparkling-carbonated-water × Pb | sparkling carbonated water textile heavy metals Pb |
+| P1 | toy-chests × Cd | toy chests heavy metals Cd |
+| P1 | baby-lotion-cream × Cd | baby lotion cream Cd occurrence |
+| P1 | food-packaging-plastic-tubs × Cd | food packaging plastic tubs heavy metals Cd |
+| P1 | supplements-oral-liquids-syrups × tAs | supplements oral liquids syrups heavy metals total arsenic |
+| P1 | food-packaging-plastic-tubs × Pb | food packaging plastic tubs heavy metals Pb |
+| P1 | true-tea-camellia-sinensis × Al | true tea camellia sinensis aluminium occurrence |
+| P1 | infant-rice-cereal × tHg | infant rice cereal heavy metals mercury occurrence |
+| P1 | soy-products × Al | soy products aluminium occurrence |
+| P1 | infant-cereal × Sn | infant cereal heavy metals tin occurrence |
 
 ## Coverage rotation
 

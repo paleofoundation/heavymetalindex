@@ -180,3 +180,14 @@
 ### Succeeded
 - `dasilva2017-heavy-metals-coffee-brazil` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of heavy metals in the roasted and ground coffee beans and brew.pdf)
 - `szymczykowska2026-matcha-elemental-composition` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health.pdf)
+
+## Tick 2026-05-20T13:22:33.116Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `wise2025-elevated-metals-us-honeys` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Elevated Metal Levels in U.S. Honeys.pdf)
+- `khalil2017-snacks-peshawar-pakistan-heavy-metals` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Heavy Metals Toxicity_ Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan.pdf)
