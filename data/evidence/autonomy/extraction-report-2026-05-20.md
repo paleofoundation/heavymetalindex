@@ -1,14 +1,14 @@
 # Source-value extraction report — 2026-05-20
 
-Generated: 2026-05-20T10:12:16.942Z
+Generated: 2026-05-20T10:57:56.051Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 1010
+- Source pages processed: 1011
 - Pages with `## Key numbers` section: 897
-- Pages without Key numbers section (skipped): 112
+- Pages without Key numbers section (skipped): 113
 - Structured rows extracted: 5776
 - Pages with Key numbers but no parseable values: 75
 

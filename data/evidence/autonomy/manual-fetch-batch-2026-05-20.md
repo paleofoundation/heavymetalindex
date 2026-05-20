@@ -143,3 +143,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA.pdf`: hands2024 duplicate source pages (DOI 10.3389/fnut.2024.1366231 has two existing wiki pages — `hands2024-multiyear-dark-chocolate-cocoa-usa.md` and `hands2024-dark-chocolate-cocoa-heavy-metals-usa.md` — both pre-2026-05-14, both cross-linked as near_duplicates, with 13–16 downstream references each including two synthesis pages that cite only one of them. Needs Karen's canonical-pick + sed-rewrite, not autonomous merge. Fifth duplicate-pages stop in the 2026-05-20 stops file; pattern variant — not the legacy-generic `manual-fetch-kimi` shape, so a complementary sweep using `near_duplicates:` cross-references would catch it.)
+
+## Tick 2026-05-20T10:58:52.765Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `teferi2026-honey-ethiopia-kellem-wollega` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Assessment of Heavy Metal Contamination and Associated Health Risks in Honey from Kellem Wollega Zone, Ethiopia.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Assessment of cadmium and lead content in tomatoes and tomato products.pdf`: existing post-2026-05-14 audited page (grochowska-niedworok2020-cadmium-lead-tomatoes-poland updated 2026-05-18, audited-codex-revised 2026-05-18, clean routing)

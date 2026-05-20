@@ -1,10 +1,10 @@
 # Firewall lint — 2026-05-20
 
-Generated: 2026-05-20T10:25:42.265Z
+Generated: 2026-05-20T11:09:54.559Z
 
 ## Summary
 
-- Files scanned: 715
+- Files scanned: 716
 - ERROR violations: 1
 - WARN violations: 0
 

@@ -134,4 +134,14 @@
 - P1 `original2012-synthesis-coimmobilized-microorganisms-removal` (FM_8358380)
 
 ### Failed
+- P1 `unknown2012-original` (FM_3775530): exit 1:
+
+## Batch 2026-05-20T10:58:52.666Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
 - P1 `unknown2012-original` (FM_3775530): exit 1: 
+- P1 `abstract2011-availability-arsenic-human-milk` (FM_4265415): cite_key mismatch: islam2014-availability-arsenic-human-milk

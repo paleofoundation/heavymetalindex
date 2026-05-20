@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1436 candidate queries
-- Path B (empty product + thin ingredient pages): 8298 candidate queries
-- Total candidates (after dedup): 9734
+- Path A (pooling-engine-driven thin cells): 1448 candidate queries
+- Path B (empty product + thin ingredient pages): 8314 candidate queries
+- Total candidates (after dedup): 9762
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9734
+- Eligible after filtering: 9762
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | floor-cleaners-hard-surface × tAs | floor cleaners hard surface arsenic |
-| P1 | anti-wrinkle-wrinkle-release-products × Pb | anti wrinkle wrinkle release products heavy metals Pb |
-| P1 | infant-and-child-foods-master × iAs | infant and child foods master inorganic arsenic occurrence |
-| P1 | category-5-beverages × Cd | category 5 beverages beverage contaminants Cd |
-| P1 | degreasers × Cd | degreasers heavy metals Cd |
-| P1 | dietary-supplements × tHg | dietary supplements mercury occurrence |
-| P1 | sunflower-seed-butter × Cd | sunflower seed butter cadmium |
-| P1 | infant-formula-rtf-soy × Cd | infant formula rtf soy Cd occurrence |
-| P1 | floor-cleaners-hard-surface × tAs | floor cleaners hard surface total arsenic |
-| P1 | sensor-puff-releasers × tAs | sensor puff releasers heavy metals total arsenic |
-| P1 | infant-formula-powder-dairy × Al | infant formula powder dairy aluminium occurrence |
-| P1 | pet-food-semi-moist × tHg | pet food semi moist mercury |
-| P1 | toys-projectile-guns × tAs | toys projectile guns arsenic |
-| P1 | exfoliants-scrubs × tAs | exfoliants/scrubs (body, facial) arsenic |
-| P1 | cookware-specialty-alloy × tHg | specialty alloy cookware (copper, carbon steel) mercury |
-| P1 | peanuts × Cd | peanuts heavy metals Cd occurrence |
-| P1 | toys-stuffed-bean-bag × tHg | stuffed toys and bean bag-type toys total mercury |
-| P1 | supplements-algae-seaweed-based × tHg | ingredient class — algae/seaweed-based mercury |
-| P1 | laundry-detergent-boosters-additives × Pb | laundry detergent boosters/additives Pb |
-| P1 | infant-formula-stage1 × Sn | infant formula stage1 tin |
+| P1 | scented-candles × Pb | scented candles Pb |
+| P1 | fermented-beverages-non-tea-based × Pb | fermented beverages non tea based Pb occurrence |
+| P1 | fish-marine-non-predatory × tHg | fish — marine, non-predatory (sardines, anchovies, salmon, cod) total mercury |
+| P1 | baby-powder-cornstarch × Cr | baby powder cornstarch heavy metals chromium occurrence |
+| P1 | infant-formula-powder-dairy × Cr-VI | infant formula powder dairy Cr(VI) occurrence |
+| P1 | supplements-bars-labeled × tAs | food-like forms: bars (when labeled as supplement) total arsenic |
+| P1 | canned-fruit × tAs | canned fruit arsenic occurrence |
+| P1 | cookware-metal-alloy × tAs | metal and alloy cookware (cast iron, stainless steel, aluminum) arsenic |
+| P1 | food-packaging-glass-jars × Pb | food packaging glass jars heavy metals lead |
+| P1 | toothbrushes × Cd | toothbrushes cadmium |
+| P1 | supplements-algae-seaweed-based × tAs | ingredient class — algae/seaweed-based total arsenic |
+| P1 | baby-powder-cornstarch × Cr | baby powder cornstarch heavy metals chromium |
+| P1 | infant-formula-powder-dairy × MeHg | infant formula powder dairy methyl mercury occurrence |
+| P1 | bleaching-whitening-additives × tAs | bleaching/whitening additives arsenic |
+| P1 | canned-vegetables × Pb | canned vegetables heavy metals Pb occurrence |
+| P1 | douches-vaginal-irrigation × Cd | douches vaginal irrigation Cd |
+| P1 | infant-formula-stage1 × Ni | infant formula stage1 nickel |
+| P1 | pet-food-semi-moist × Cd | pet food semi moist heavy metals cadmium |
+| P1 | clasps-fasteners-infant-products × Pb | clasps fasteners infant products lead |
+| P1 | conditioner-adult-rinse-out × Cd | conditioner adult rinse out heavy metals Cd |
 
 ## Coverage rotation
 

@@ -1170,3 +1170,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis workflow, trigger definitions, modes), Part 5b (routing audit), [[docs/order-of-operations.md]] Phase 3 (synthesis scheduling).
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Triage blocked-cell sources by extraction impact
+
+**What:** Create a deterministic audit that identifies which sources feed the 367 pool-blocked cells, ranks them by how many cells each would unblock if extracted, and outputs a prioritized extraction queue to feed the extraction pipeline.
+
+**Why this lever now:** 367 blocked cells represent the largest single bottleneck. These cells have routed sources but lack structured values (`typical_ppb`, `p95_ppb`) needed for synthesis. Systematizing extraction priorities would unlock the synthesis → propagation → standards pipeline. With 1010 sources in the corpus and only 557 extracted, the corpus is extraction-constrained, not source-constrained. Ranking by impact (sources that unblock most cells first) would let the extraction orchestrator focus its token budget where it matters most.
+
+**Where:**
+- Create `tools/autonomy/audit-extraction-priority.mjs` — reads pool-blocked audit and source routing to compute impact scores
+- Output: `data/evidence/autonomy/extraction-priority.csv` with columns: `cite_key | blocked_cells_count | metals_touched | ingredient_slugs | missing_value_types | tier`
+- Tier assignment: P1 = sources unblocking 5+ cells, P2 = 2–4 cells, P3 = 1 cell (to handle low-priority edge cases explicitly)
+- Rank by `blocked_cells_count DESC`, then `metals_touched DESC`
+
+**How:**
+1. Load `data/evidence/pool-blocked-cells.jsonl` (or regenerate from pool audit) and group by source `cite_key`
+2. For each source, count distinct (ingredient, metal) pairs waiting for its extraction
+3. Join with source-page frontmatter to identify which value types are missing (typical_ppb, p95_ppb, p50_ppb, range, etc.)
+4. Write ranked CSV and add to morning report so extraction batches pull high-impact sources first
+
+**Anchors:** CLAUDE.md Part 9 (synthesis relies on source-page extraction); Part 4 ("AI adjudication is default evidence workflow"); synthesis trigger condition (cell moves from pending to first-source extraction). Unblocks deterministic propagation to product pages (Part 9 downstream rule).
+
+---

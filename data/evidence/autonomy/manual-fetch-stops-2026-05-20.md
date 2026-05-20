@@ -358,3 +358,21 @@ Particularly notable: two `wiki/synthesis/*.md` pages (`organic-certification-no
 **What I did NOT do** this tick: did not edit either source page, did not pick a canonical cite-key, did not rewrite any downstream references, did not commit, did not append to `data/evidence/audit-queue.csv`. The MFK_-handle PDF copy in `07_Processed_Foods_Snacks_Beverages/` remains un-ingested as a separate source-page identity (correctly so — it's the same paper, just a third filesystem location).
 
 **No commits made for this PDF.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
+
+## SKIP: grochowska-niedworok2020 Cd/Pb in Polish tomatoes — already ingested + audited 2026-05-18
+
+**PDF (this tick)**: `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Assessment of cadmium and lead content in tomatoes and tomato products.pdf`
+
+**Paper**: Grochowska-Niedworok E, Nieć J, Baranowska R. "Assessment of cadmium and lead content in tomatoes and tomato products." *Rocz Panstw Zakl Hig* 2020;71(3):313-319. DOI: 10.32394/rpzh.2020.0126. CC BY-NC 3.0 Poland.
+
+**Existing canonical source page**: `wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md`
+- `cite_key: grochowska-niedworok2020-cadmium-lead-tomatoes-poland`
+- `updated: 2026-05-18` (post-2026-05-14)
+- `raw_path` points at the 07_Processed_Foods_Snacks_Beverages copy (the PDF on disk this tick)
+- Audit queue entry exists (row 141): `status=audited-codex-revised`, `audit_verdict=REVISE`, `audit_applied_at=2026-05-18`, Codex merge-enhance applied on 2026-05-18 with 2 findings / 2 applied / 0 rejected
+- Absent from both `routing_unresolved.csv` and `routing_malformed.csv`
+- Routing audit shows 3 product-page rows
+
+**Why skip per skill v2.0 Phase 1 step 1**: "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." This PDF meets all three conditions — existing canonical page with current schema, last updated 2026-05-18, clean routing, already Codex-audited and revised. There is also a sibling PDF copy at `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Cadmium and lead in tomatoes and tomato products from Polish market.pdf` (same SHA-256), already noted in the existing page's verification notes.
+
+**No commits made for this PDF.** Audit-queue not updated (already has the canonical entry from 2026-05-18). Wrapper should advance to the next PDF in the folder.
