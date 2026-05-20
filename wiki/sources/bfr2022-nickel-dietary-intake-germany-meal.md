@@ -14,8 +14,8 @@ evidence_tier: A
 license: "© BfR (German Federal Institute for Risk Assessment)"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nickel_ estimate of long-term intake via food based on the BfR MEAL Study.pdf"
 metals: [Ni]
-ingredients: ["[[ingredients/cocoa]]", "[[ingredients/cashew-nuts]]", "[[ingredients/oat]]", "[[ingredients/wheat]]", "[[ingredients/coffee]]", "[[ingredients/tea]]", "[[ingredients/walnuts]]", "[[ingredients/soy]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/dark-chocolate]]"]
-products: ["[[products/snacks-crackers-biscuits]]", "[[products/cashews]]", "[[products/chocolate]]", "[[products/infant-formula]]"]
+ingredients: ["[[ingredients/cocoa]]", "[[ingredients/cashew-nuts]]", "[[ingredients/oat]]", "[[ingredients/wheat]]", "[[ingredients/coffee]]", "[[ingredients/tea]]", "[[ingredients/walnuts]]", "[[ingredients/soy]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/chocolate]]"]
+products: ["[[products/snacks-crackers-biscuits]]", "[[products/cashews]]", "[[products/chocolate]]"]
 matrices: [ready-to-eat-food, dietary-intake, total-diet-study]
 jurisdictions: [DE, EU]
 sample_n: 840
@@ -67,7 +67,7 @@ The German Federal Institute for Risk Assessment (BfR) conducted a total diet st
 - Children (N=732, ages 6 months–<5 years): mean UB 6.1 µg/kg BW/day; P50 5.5 µg/kg BW/day; P95 10.6 µg/kg BW/day. TDI exhaustion: mean 47%, P50 42%, P95 82%.
 - Children aged 1–<2 years exhibit the highest exposure: mean UB 6.3 µg/kg BW/day; P50 5.8 µg/kg BW/day; P95 11.0 µg/kg BW/day (TDI exhaustion mean 48%, P50 45%, P95 84%).
 - Children aged 6 months–<1 year (the lowest-exposure pediatric subgroup): mean UB 4.9 µg/kg BW/day; P50 4.4 µg/kg BW/day; P95 9.0 µg/kg BW/day (TDI exhaustion mean 38%, P50 34%, P95 69%).
-- Highly exposed children exceeding TDI: 2% of children ages 0.5–5 years overall (N=15); 3% in the 1–<2 years subgroup; 1% in the 6 months–<1 year subgroup. EFSA 2020 framing: <5% of high-consumer children exceed the TDI in this MEAL assessment, vs typically exceeding the TDI in the EFSA estimate for the same age groups.
+- Highly exposed children exceeding TDI: 2% of children ages 0.5–5 years overall (n=15 children exceeding the TDI out of N=732 in the cohort); 3% in the 1–<2 years subgroup; 1% in the 6 months–<1 year subgroup. EFSA 2020 framing: <5% of high-consumer children exceed the TDI in this MEAL assessment, vs typically exceeding the TDI in the EFSA estimate for the same age groups.
 
 **Largest contributors to adult nickel exposure (% of total, UB; Figure 1):** Grains and grain-based products 24%; Coffee, cocoa and tea 20%; Water and water-based beverages 11%; Composite dishes 7%; Sugar/confectionery/sweet desserts 7%; Fruit and fruit products 6%; Milk and dairy products 5%; all other groups <5% each (total "Other" 20%).
 
@@ -95,7 +95,7 @@ Certification: Nickel is in the HMT&C analyte vocabulary. This report establishe
 
 Courses: The BfR MEAL Study is the definitive German total diet study for nickel and provides the concentration data for estimating nickel exposure from processed foods and snacks. Children's exposure substantially exceeds adults' on a body-weight basis (mean UB 6.1 vs 1.6 µg/kg BW/day), and grains are the dominant pathway at population scale even though coffee, cocoa, and nuts carry higher concentrations per kg of food. The roughly 2× gap between the MEAL estimate and the EFSA (2020) estimate for Germany using the same consumption data is a useful teaching example for how occurrence-data sourcing (national TDS vs pooled European data) affects exposure estimates.
 
-App: Cocoa powder, cashews, sunflower seeds, walnuts, hazelnut spread, dark chocolate, soy milk, soy protein extrudate, oatmeal, and porridge/millet should carry high nickel flags in the ingredient risk model. Soy-based products (soy milk, soy protein extrudate) are high-exposure drivers for the small fraction of the population consuming them frequently. Infant formula prepared with high-nickel tap water can be an additional exposure pathway via the drinking-water route per the paper's uncertainty discussion, though the MEAL Study itself does not measure infant formula products directly.
+App: Cocoa powder, cashews, sunflower seeds, walnuts, hazelnut spread, dark chocolate, soy milk, soy protein extrudate, oatmeal, and porridge/millet should carry high nickel flags in the ingredient risk model. Soy-based products (soy milk, soy protein extrudate) are high-exposure drivers for the small fraction of the population consuming them frequently. Infant formula prepared with high-nickel tap water can be an additional exposure pathway via the drinking-water route per the paper's uncertainty discussion, though the MEAL Study itself does not measure infant formula products directly — the "Food products for infants and toddlers" food group in this study covers weaning porridges, millet powders, and similar complementary foods rather than infant formula proper.
 
 Microbiome: Not addressed in this report.
 
@@ -112,14 +112,23 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 - **Clarified TDI hazard-characterisation framing.** The TDI of 13 µg/kg BW/day replaces the prior 2.8 µg/kg BW/day value; the update reflects revised BMD methodology guidance (EFSA 2017). Also surfaced the LOAEL of 4.3 µg/kg BW for acute sensitization-related effects in nickel-allergic individuals and the methodological note that the MEAL Study cannot inform acute-effect assessment (long-term exposure only).
 - **Labeled the lead-paragraph "11% / 42% of TDI" framing as P50, UB.** The prior page paraphrased the BfR summary directly; the merged version preserves the same numbers but adds the (P50, UB) qualifier so the reader does not confuse them with the means (12% and 47% respectively) reported in Tables 9 and 10.
 - **Corrected legacy slug in `## Wiki pages updated on ingest`.** Prior entry `[[ingredients/oats]]` had no corresponding page; `wiki/ingredients/oat.md` is the canonical slug (matching the frontmatter declaration). Corrected to `[[ingredients/oat]]`. The mismatch was the result of pre-2026-05-14 ingest writing both slug forms inconsistently.
-- Preserved cite_key, raw_handle (`manual-fetch-kimi` per the existing-page convention), raw_path, license, evidence_tier, doi (null with `no_doi_assigned: true`), access_url, sample_n, sample_population, jurisdictions, source_type, publication, products array, ingredients array, matrices array. No new ingredient, product, regulation, or metal pages proposed. No brand-by-brand listings appear in the source; Part 12 firewall posture unchanged.
+- Preserved cite_key, raw_handle (`manual-fetch-kimi` per the existing-page convention), raw_path, license, evidence_tier, doi (null with `no_doi_assigned: true`), access_url, sample_n, sample_population, jurisdictions, source_type, publication, matrices array. No new ingredient, product, regulation, or metal pages proposed. No brand-by-brand listings appear in the source; Part 12 firewall posture unchanged.
+
+Phase 2 audit application 2026-05-20 (fresh-context Agent subagent, verdict REVISE):
+
+- **Applied ❌ slug-vocabulary finding: `[[ingredients/dark-chocolate]]`.** Auditor flagged that no `wiki/ingredients/dark-chocolate.md` exists in the current taxonomy snapshot; the canonical ingredient slug for dark and semisweet chocolate is `[[ingredients/chocolate]]`. Verified independently: `ls wiki/ingredients/dark-chocolate.md` errors with "No such file or directory"; `wiki/ingredients/chocolate.md` is present; the taxonomy snapshot ingredients list contains `chocolate` and `cocoa` but no `dark-chocolate`. Corrected the frontmatter ingredients array entry and the Wiki-pages-updated list entry (the legacy `[[ingredients/dark-chocolate]]` was a pre-2026-05-14 invented sub-variant slug that the merge-enhance carried forward unchecked). The 2,800 µg/kg "semisweet chocolate/dark chocolate" Table 1 / Table 2 value is preserved verbatim in Key numbers prose; only the slug routing target changed.
+- **Applied ❌ slug-vocabulary finding: `[[products/infant-formula]]`.** Auditor flagged two issues: (a) no bare `products/infant-formula` page exists in the taxonomy (only sub-variant pages: powder-non-soy, powder-soy-based, rtf-liquid-non-soy, rtf-liquid-soy-based, etc.), and (b) the MEAL Study does not measure infant formula products directly — the only mention in the paper is in the uncertainty discussion about drinking-water Ni potentially affecting infant formula prepared with tap water. Verified independently: `ls wiki/products/infant-formula.md` errors; the routing audit was carrying the bare `infant-formula` slug as a broadcast key to the four sub-variant pages via `broad_formula_context`, but this routing is not supported by direct measurement in the paper. Removed `[[products/infant-formula]]` from the frontmatter products array. Downstream routing change: the paper will no longer fan out to the four infant-formula sub-pages as broad context. This is the correct outcome because the paper genuinely does not provide infant-formula context — the "Food products for infants and toddlers" food group covers weaning porridges and millet powders, not infant formula. The App-block in Implications is updated to clarify this distinction.
+- **Applied ⚠️ slug-vocabulary finding: `[[regulations/efsa-ni-contam-2020]]`.** Auditor flagged that this slug is not in the regulations taxonomy snapshot; the canonical regulation slug for the EFSA 2020 nickel TDI of 13 µg/kg BW/day is `[[regulations/efsa-nickel-tdi]]`. Verified independently: `ls wiki/regulations/efsa-ni-contam-2020.md` errors; `wiki/regulations/efsa-nickel-tdi.md` is present; the taxonomy snapshot regulations list contains `efsa-nickel-tdi` but no `efsa-ni-contam-2020`. Corrected the Wiki-pages-updated list entry.
+- **Applied ⚠️ Check-1 N=15 parenthetical clarification.** Auditor flagged that the prior wording "2% of children ages 0.5–5 years overall (N=15)" could mislead a casual reader into thinking N=15 is sample size rather than the count of children exceeding the TDI. PDF p. 17 confirms N=15 is the numerator (children exceeding TDI), not the cohort N. Clarified to "n=15 children exceeding the TDI out of N=732 in the cohort" to remove the ambiguity.
+- **Did not change** the numerical fidelity content of Key numbers (auditor confirmed ✅ on all verified table cells, exposure values, TDI exhaustion percentages, food group means, Table 2/7/8 high-concentration and high-consumer foods, methods particulars), the Part 12 brand firewall posture (no brand names anywhere; trivially clean for a government TDS), or the Part 2 wiki/HMTc firewall posture (no threshold proposals, no softening/strengthening, P50/UB framing correctly labeled in lead paragraph). Auditor noted Sirot 2018 omission from the France-children comparison as optional polish; declined to add given that the prior page captured the more comparable Arnich 2012 entry and the synthesis pass can add additional triangulation points if needed (scope creep relative to the audit-application pass).
+- No findings rejected as false positives. All four applied findings were verified against the actual file system / taxonomy snapshot / PDF before applying.
 
 ## Wiki pages updated on ingest
 
 - [[metals/nickel]]
 - [[ingredients/cocoa]]
 - [[ingredients/cashew-nuts]]
-- [[ingredients/dark-chocolate]]
+- [[ingredients/chocolate]]
 - [[ingredients/oat]]
 - [[ingredients/wheat]]
 - [[ingredients/soy]]
@@ -127,5 +136,4 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 - [[ingredients/sunflower-seeds]]
 - [[products/snacks-crackers-biscuits]]
 - [[products/chocolate]]
-- [[health/nickel-toxicology]]
-- [[regulations/efsa-ni-contam-2020]]
+- [[regulations/efsa-nickel-tdi]]
