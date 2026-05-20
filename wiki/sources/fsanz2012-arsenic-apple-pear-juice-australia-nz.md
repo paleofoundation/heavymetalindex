@@ -33,7 +33,7 @@ Food Standards Australia New Zealand (FSANZ) conducted a targeted analytical sur
 
 **Inorganic arsenic (apple juice, n=34 with total As >LOR).** Of these 34 samples, 14 had inorganic arsenic at "Trace" level (0.5–2.5 µg/kg) and 20 had inorganic arsenic >LOR, ranging 2.5 to 11.3 µg/kg (AsIII + AsV combined). The highest individual sample inorganic arsenic was 11.3 µg/kg in a New Zealand-purchased sample (paired with total arsenic of 13.3 µg/kg); the sample with the highest total arsenic (15.7 µg/kg) had a lower inorganic arsenic of 10.3 µg/kg. Detection rate of quantifiable inorganic arsenic among the 34 was 54% for Australian-purchased samples and 62% for New Zealand-purchased samples.
 
-**Arsenic speciation.** Inorganic arsenic was reported as the sum of AsIII and AsV. AsIII concentrations ranged from <LOD (0.5 µg/kg) only up to "Trace" level (no sample had quantifiable AsIII ≥LOR). AsV was the predominant inorganic species when quantifiable: 41% of speciated samples had AsV at trace level and 59% had AsV ≥LOR.
+**Arsenic speciation.** Inorganic arsenic was reported as the sum of AsIII and AsV. AsIII concentrations ranged from <LOD (0.5 µg/kg) only up to "Trace" level (no sample had quantifiable AsIII ≥LOR). AsV was the predominant inorganic species when iAs was quantifiable: of the 34 samples analysed for inorganic arsenic, 14 (41%) had AsV at "Trace" level only, and 20 (59%) had inorganic arsenic (AsIII + AsV combined) ≥LOR — with AsV the quantifiable component in those 20 samples since AsIII never exceeded "Trace".
 
 **Mean and median (middle-bound scenario, all 96 samples).** Mean total arsenic 1.5 µg/kg (Australia, n=48), 2.7 µg/kg (New Zealand, n=48), 2.1 µg/kg (combined). Median 0.25 µg/kg in each group.
 
@@ -84,7 +84,11 @@ This page is a 2026-05-20 merge-enhance pass over the 2026-05-14 initial-ingest 
 - **Wiki pages updated on ingest**: removed the prior reference to `regulations/fda-ctz-iAs-apple-juice-10ppb`. That page does not exist in the regulations directory and per the skill stop conditions this session does not create new regulation pages. The FDA action-level context is captured in the body prose.
 - **ingredients/pear-juice**: declared in this page's frontmatter but the wiki ingredient page did not yet exist at the time of the 2026-05-14 ingest. A provisional ingredient scaffold is being created via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` in this enhance pass so the routing audit is clean.
 
-Sample-by-sample verification: the highest-iAs sample (11.3 µg/kg, paired with total arsenic 13.3 µg/kg) was identified by cross-walking Attachment 1's sample-level table; sample 46 is the only NZ & Imported sample in the table with AsIII+AsV = 0.0113 mg/kg.
+Sample-by-sample verification: the highest-iAs sample (11.3 µg/kg, paired with total arsenic 13.3 µg/kg) was identified by cross-walking Attachment 1's sample-level table; sample 46 is the only NZ & Imported sample in the table with AsIII+AsV = 0.0113 mg/kg. The other ≥10 µg/kg iAs sample is sample 6 (NZ & Imported, total As 0.0157626 mg/kg, AsV 0.0103 mg/kg = iAs 10.3 µg/kg).
+
+2026-05-20 subagent audit (Agent tool, fresh context) returned REVISE with 2 ⚠️ findings, 0 ❌:
+- Finding 1 (Check 1 numerical fidelity): the "AsV was the predominant inorganic species when quantifiable: 41% of speciated samples had AsV at trace level and 59% had AsV ≥LOR" sentence conflated AsV ≥LOR with iAs (AsIII+AsV) ≥LOR. Source p.7 text "Fourteen (41%) samples had trace amounts of AsV and 20 (59%) of samples analysed for inorganic arsenic had concentrations greater than 2.5 µg/kg" attributes the 59% to total iAs ≥LOR, not to AsV ≥LOR specifically. **Applied:** revised the Arsenic speciation paragraph to attribute 59% to combined iAs ≥LOR with AsV the quantifiable component (since AsIII never exceeded trace).
+- Finding 2 (Check 2 slug vocabulary): `ingredients/pear-juice` is not in the taxonomy snapshot. **Already addressed in the ingest commit** — provisional ingredient scaffold was created via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` and committed alongside the source page; taxonomy snapshot will pick it up on the next refresh.
 
 ## Wiki pages updated on ingest
 
