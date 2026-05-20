@@ -14,7 +14,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso.pdf"
 metals: [tAs]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/spinach]]", "[[ingredients/lettuce]]", "[[ingredients/root-vegetables]]", "[[ingredients/carrots]]", "[[ingredients/tomato]]", "[[ingredients/beans]]", "[[ingredients/rice]]"]
+ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/spinach]]", "[[ingredients/lettuce]]", "[[ingredients/root-vegetables]]", "[[ingredients/carrots]]", "[[ingredients/tomato]]", "[[ingredients/beans]]", "[[ingredients/green-beans]]", "[[ingredients/rice]]", "[[ingredients/maize]]"]
 products: []
 matrices: [leafy-vegetable, root-vegetable, fruit-vegetable, cooked-food]
 jurisdictions: [BF]
@@ -83,7 +83,7 @@ This greenhouse study characterizes the transfer of arsenic from geogenic As-con
 - Only carrot had TF > 1 (leaves concentrate more than roots); all other species had TF < 1
 - Tomato had lowest TF among measured species (~0.6)
 
-**Cancer risk (CR):** Exceeded 1 in 10,000 for leafy vegetables (amaranth, lettuce, spinach) and carrot under 500 and 1,000 µg/L irrigation; tomato and okra had CR < 1 in 10,000 across all treatments. Risk characterization used EPA OSF for inorganic arsenic (1.5 (mg/kg/day)^-1) applied to total As — a conservative assumption.
+**Cancer risk (CR) for raw irrigated vegetables (Table 3, p. 10):** CR exceeded 1 in 10,000 for green bean, lettuce, and spinach at 500 and 1,000 µg/L irrigation; for amaranth only at 1,000 µg/L; and for carrot at all spiked treatments (100, 500, and 1,000 µg/L). Tomato and okra had CR < 1 in 10,000 across all treatments. Risk characterization used EPA OSF for inorganic arsenic (1.5 (mg/kg/day)^-1) applied to total As — a conservative assumption.
 
 **Detection limits:** 0.05 µg/L in digest liquid; 0.05 µg/g in food dry mass.
 
@@ -110,9 +110,13 @@ Microbiome: Not applicable.
 - [[ingredients/carrots]]
 - [[ingredients/tomato]]
 - [[ingredients/beans]]
+- [[ingredients/green-beans]]
 - [[ingredients/rice]]
+- [[ingredients/maize]]
 - [[metals/arsenic]]
 
 ## Verification notes
 
 2026-05-20 merge-enhance pass (v2 manual-fetch skill): preserved cite_key, license, access_url, and existing Key numbers (independently verified against PDF — concentrations at 500 µg/L, averages across spiked levels, category averages, cooking extraction percentages, steamed-vs-boiled ratios, soil properties, NIST recoveries, and detection limits all match source). Fixes applied: (a) `raw_handle` normalized from `manual-fetch-kimi` to `MFK_uptake-of-arsenic-by-irrigated-vegetables-and-cook` per current handle convention; (b) `raw_path` corrected — previous value was truncated mid-filename ("Cooked Food Product.pdf") and now points to the actual file ("Cooked Food Products in Burkina Faso.pdf"); (c) ingredient slug `tomatoes` corrected to canonical `tomato` (taxonomy snapshot lists `tomato` as singular); (d) `root-vegetables` re-added to Wiki-pages-updated list (was in frontmatter but missing from body list); (e) removed dead wikilinks `[[supply-chain/irrigation-water-arsenic]]` and `[[mitigation/cooking-arsenic-reduction]]` — neither page exists in current taxonomy; (f) added `near_duplicates: []`; (g) `updated` advanced to 2026-05-20. Amaranth and okra (both extensively covered by this paper) are not yet in the ingredient taxonomy; their data is routed via the `leafy-vegetables` and `fruit-vegetable` umbrella slugs respectively per Part 5b broad-scope rule. Speciation discipline upheld: paper measured total As only, page records `metals: [tAs]` and Key numbers includes an explicit speciation note.
+
+2026-05-20 audit-application (fresh-context subagent, verdict REVISE): two ⚠️ findings verified against PDF and applied. (1) Cancer-risk sentence corrected — prior wording said "leafy vegetables (amaranth, lettuce, spinach) and carrot under 500 and 1,000 µg/L" exceeded 1E-4. Verified against Table 3 (p. 10) and Discussion text (p. 8): amaranth CR at 500 µg/L is 9.5E-05 (below 1E-4), exceeds only at 1,000; green bean exceeded at 500 and 1,000 (was entirely missing from prior wording); carrot exceeded at all spiked treatments (100, 500, 1,000), not just 500 and 1,000. Sentence rewritten to match author wording exactly. (2) Added specific ingredient slugs `green-beans` (paper studies *Phaseolus vulgaris* pods explicitly in the greenhouse experiment) and `maize` (paper measures maize flour used for tô) — both exist in current taxonomy. Generic `beans` retained as umbrella for black-eyed pea/niébé market-food data. Carrots-vs-carrot slug choice noted by audit as inconsistent with tomato singular-form fix; not applied — both `carrot` and `carrots` exist in the taxonomy snapshot with comparable corpus usage (9 vs 12 sources), so the existing `carrots` declaration is preserved to avoid introducing slug churn.
