@@ -93,7 +93,7 @@ Health-risk equations: EDI = (E_f × E_D × F_IR × C_M × C_f) / (BW × T_A) ×
 
 **Certification:** This study documents non-detection of Cd, Cr, Cu, and Pb in four commonly consumed leafy vegetables from a major Malaysian urban wholesale market (Pasar Borong Selangor) — a positive baseline finding for Klang Valley supply. However, the authors note that other Malaysian studies (Sulaiman et al. 2020 in Pahang; Aweng et al. 2020 in Kelantan) found As, Pb, Cd, and other metals in leafy vegetables from agricultural and rural areas at concerning levels, suggesting market origin matters significantly. Non-detection in this study does not generalise to all Malaysian leafy vegetable supply.
 
-**Courses:** Illustrates that market-point surveillance of leafy vegetables in urbanised Malaysia may show lower Cd/Pb contamination than farm-gate or near-mining surveys, due to sourcing from cleaner growing regions (Cameron Highlands suppliers). Al is the notable exception — spinach accumulates Al at 41.37 mg/kg, with Al EDI from spinach alone contributing ~12% of the adult Al PTWI-derived MTDI. Methodologically useful as a study that pairs IC P-OES occurrence with EDI/THQ/HI/TCR computation in the native fresh-weight basis with the standard 240 g/day Malaysian adult intake assumption.
+**Courses:** Illustrates that market-point surveillance of leafy vegetables in urbanised Malaysia can show lower Cd/Pb contamination than farm-gate or near-mining surveys; the authors note that Pasar Borong Selangor draws supply both from within Selangor and from Cameron Highlands, Pahang (without concluding that the latter explains the non-detections). Al is the notable exception — spinach accumulates Al at 41.37 mg/kg, and the paper cites Martín-León et al. (2023) as having found Al EDI from spinach contributing 12% of the adult Al toxic-reference dose and 4% of the children's value (the 12% figure is from the cited reference, not measured in this study). Methodologically useful as a study that pairs ICP-OES occurrence with EDI/THQ/HI/TCR computation in the native fresh-weight basis with the standard 240 g/day Malaysian adult intake assumption.
 
 **App:** Pak choi, cabbage, mustard greens, and spinach from Malaysian Klang Valley wet-market sources: Cd, Cr, Cu, and Pb are data gaps under <0.004–0.01 mg/kg LODs in this single study; Al is a relevant analyte for spinach specifically. Geographic and market-channel context (urban wet-market sourcing from Selangor wholesale vs. near-farm sampling) is a key uncertainty flag — the app should not treat these non-detections as representative of all Malaysian or Southeast Asian leafy vegetables.
 
@@ -101,7 +101,7 @@ Health-risk equations: EDI = (E_f × E_D × F_IR × C_M × C_f) / (BW × T_A) ×
 
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/aluminium]]
+- [[metals/aluminum]]
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/iron]]
@@ -129,3 +129,8 @@ Mustard (*B. juncea*) routes via [[ingredients/leafy-greens]] (mustard-greens is
 - Speciation discipline: the paper measures total Cr (ICP-OES, no Cr-VI separation) and does not measure As or Hg at all. `metals: [Cr ...]` is correct (not Cr-VI). No speciation flags required.
 - Brand firewall: no brand names appear in the source or this page; the paper samples market-level vendor lots without brand attribution.
 - Routing: `products: [spinach, leafy-vegetables-other]` routes this source as broad context to both Row 4 (clean benchmark) and Row 5 (higher-contamination sibling) of the HMTc fruits-and-vegetables category. `matrices: [leafy-vegetable]` retained; `fresh-weight` removed as it is a basis label, not a matrix.
+- 2026-05-20 — Fresh-context audit subagent (verdict REVISE) flagged three findings; all three were verified against the source and corrected:
+  - ❌ Check 2: `[[metals/aluminium]]` (British spelling) — verified against the taxonomy snapshot (line 50) and `wiki/metals/`: the canonical slug is `aluminum` (US spelling). Corrected to `[[metals/aluminum]]`.
+  - ⚠️ Check 5: "Al EDI from spinach alone contributing ~12% of the adult Al PTWI-derived MTDI" — verified against PDF p.227: this 12% (adult) / 4% (children) figure is explicitly attributed by See et al. to Martín-León et al. (2023), not to their own data. Reattributed in the Courses Implication so the cited authorship is preserved.
+  - ⚠️ Check 5: "due to sourcing from cleaner growing regions (Cameron Highlands suppliers)" — verified against PDF p.217: the paper mentions Cameron Highlands as a supply region but does not conclude that the wet-market non-detections are caused by Cameron Highlands sourcing. Softened to factual mention without the causal "due to" framing.
+  - The auditor's ⚠️ on the Al Total EDI typo handling (Check 1) was explicitly noted as acceptable disclosure; no further action required.
