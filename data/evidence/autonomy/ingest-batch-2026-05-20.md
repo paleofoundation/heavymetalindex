@@ -88,4 +88,16 @@
 - P1 `open2015-mercury-exposure-healthy-korean` (FM_4661673)
 
 ### Failed
-- P1 `estimated2015-estimated-exposure-arsenic-breastfed` (FM_4421773): exit 1: 
+- P1 `estimated2015-estimated-exposure-arsenic-breastfed` (FM_4421773): exit 1:
+
+## Batch 2026-05-20T07:46:03.346Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `estimated2015-estimated-exposure-arsenic-breastfed` (FM_4421773)
+
+### Failed
+- P1 `introduction2014-randomized-controlled-trial-jujube` (FM_5322685): cite_key mismatch: kelishadi2016-jujube-fruit-toxic-trace-elements-human-milk

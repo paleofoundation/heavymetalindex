@@ -196,3 +196,67 @@ Choosing a canonical cite-key, retiring the other, and rewriting backlinks acros
 
 **No commits made for this PDF.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
 
+
+## STOP: li2017 Hg in vegetables/grains near Chinese coal-fired power plants — duplicate source pages
+
+**PDF**: `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Mercury Pollution in Vegetables, Grains and Soils from Areas Surrounding Coal-Fired Power Plants.pdf`
+
+**Paper**: Li R, Wu H, Ding J, Fu W, Gan L, Li Y. "Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants." *Scientific Reports* 2017, 7:46545. DOI: 10.1038/srep46545. CC BY 4.0.
+
+**Situation**: DOI grep returns two existing source pages for this paper — same recurring pattern as the saleem2025 / zhao2022 / shavali-gilani2025 stops above.
+
+1. `wiki/sources/li2017-mercury-vegetables-grains-coal-power-china.md` — newer, current schema, canonical candidate.
+   - `raw_handle: MFK_mercury-pollution-vegetables-grains-soils-coal-fi`
+   - `updated: 2026-05-17`
+   - Complete prose Key numbers (full Table 2 per-vegetable/grain × 6-site × control matrix, soil Hg at all 6 sites, tomato organ distribution Fig. 3, full Table 4 water-rinse before/after, Table 5 PWI calculation).
+   - Methods paragraph correctly identifies AFS detection, EPA Method 7473, Milestone ETHOS One digestor, no MeHg speciation.
+   - `ingredients` uses specific canonical slugs: `lettuce`, `tomato`, `cucumber`, `green-bell-pepper`, `leafy-greens`, `rice`, `maize`, `legumes`, `vegetables`, `cereals`.
+   - 5 inbound refs (wiki): `wiki/ingredients/{leafy-greens,rice,lettuce,cucumber,green-bell-pepper}.md`.
+
+2. `wiki/sources/li2017-mercury-coal-power-plants-vegetables-grains.md` — older, legacy schema.
+   - `raw_handle: manual-fetch-kimi` (legacy generic handle — same dedupe-miss pattern as the other three stops in this file)
+   - `updated: 2026-05-13`
+   - Table-formatted Key numbers (subset: A1, B1, max only — not full 6-site matrix), with prose THQ-style fold-exceedance summary.
+   - Asserts "Jiangsu province area, China" in `sample_population` and Methods — **this is not in the source PDF**, which only identifies the plants as Power Plant A and Power Plant B in China without naming a province. This is invented detail.
+   - Legacy `## Wiki pages updated on ingest` section listing `[[supply-chain/coal-combustion-mercury-pathway]]` — **this page does not exist**; another invented slug.
+   - `ingredients: [leafy-vegetables, root-vegetables, rice, tomato]` — `root-vegetables` is taxonomy-valid but not declared by this paper (no root vegetables were sampled; cowpea is a legume, cucumber/eggplant/pepper/tomato are fruits, lettuce/amaranth/water spinach are leafy).
+   - `metals: [tHg]` correct; `matrices: [leafy-vegetable, fruit-vegetable, grain, soil]` reasonable.
+   - 6 inbound refs (wiki): `wiki/ingredients/{rice,leafy-vegetables,root-vegetables,tomato}.md`, `wiki/metals/mercury-total.md`, `wiki/log.md`.
+
+Both pages are in `routing_malformed.csv` advisory state (Phase 1 `products: []` warn-only).
+
+**Why stop rather than consolidate autonomously**: same reasoning as the three sibling stops in this file. Cite-key retirement requires Karen's pick, plus a sed-rewrite of 6 downstream `wiki/ingredients/*.md` + `wiki/metals/*.md` + `wiki/log.md` references that this skill's hard constraints explicitly forbid touching from inside an ingest tick. The older page also has invented attribution (Jiangsu, supply-chain page) and an off-target ingredient slug (root-vegetables) that should be removed during consolidation, not silently propagated.
+
+**This is the fourth manual-fetch-kimi legacy-handle duplicate surfaced in this folder this week** (saleem2025, zhao2022, shavali-gilani2025, li2017). The pattern is consistent enough that a single one-shot sweep across `wiki/sources/*.md` with `raw_handle: manual-fetch-kimi` would surface the full duplicate set in one pass — likely worth doing before more ingest ticks burn cycles re-encountering them.
+
+**Recommended next steps** (Karen — same shape as the other three stops):
+
+1. Pick canonical cite-key. Recommendation: `li2017-mercury-vegetables-grains-coal-power-china` (current schema, complete data table, proper MFK_ handle, no invented attribution).
+2. Before deleting `li2017-mercury-coal-power-plants-vegetables-grains.md`, lift onto the canonical page any unique narrative deltas. Quick scan: the older page's "supply-chain sourcing risk factor" framing in Implications is an interpretation, not source content; the table-formatted Key numbers are a subset of the canonical page's prose; no genuine deltas appear to be lost.
+3. Drop the invented `[[supply-chain/coal-combustion-mercury-pathway]]` reference and the unsupported "Jiangsu" attribution during merge.
+4. Sed-rewrite `li2017-mercury-coal-power-plants-vegetables-grains` → `li2017-mercury-vegetables-grains-coal-power-china` across the 6 downstream wiki files plus the 3 evidence artifacts (`category1_autonomy_extracted_summary.csv`, `routing_malformed.csv`, `review_events.jsonl`).
+5. Delete the older sources page.
+6. Re-run routing audit.
+
+**What I did NOT do** this tick: did not edit either source page, did not pick a canonical cite-key, did not rewrite any downstream references, did not commit, did not append to `data/evidence/audit-queue.csv`.
+
+**No commits made for this PDF.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
+
+## SKIP: ye2026 Sn in foods Zhejiang — same PDF already ingested + audited from 01_Fruits sibling earlier today
+
+**PDF (this tick)**: `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China.pdf`
+
+**Sibling PDF (same content, ingested earlier today)**: `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China.pdf`
+
+**Existing canonical source page**: `wiki/sources/ye2026-tin-foods-dietary-exposure-zhejiang.md`
+- `cite_key: ye2026-tin-foods-dietary-exposure-zhejiang`
+- `updated: 2026-05-20` (today, post-2026-05-14)
+- `raw_path` points at the 01_Fruits sibling
+- Audit queue entry exists: `status=audited-revised`, `audit_verdict=REVISE`, `audit_applied_at=2026-05-20`
+- Absent from both `routing_unresolved.csv` and `routing_malformed.csv`
+
+**Why skip per skill v2.0 Phase 1 step 1**: "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." This PDF meets all three conditions — existing canonical page, updated today, clean routing. The 01_Fruits sibling was the entry point for the earlier ingest (commit `a6c57b8`); the 02_Vegetables sibling on this tick is the same paper byte-for-byte under the same DOI (`10.3390/foods15060982`).
+
+**Why not consolidate the dual-folder filesystem entry**: this is a legitimate cross-folder duplicate of the raw PDF, not a duplicate source page. The canonical source page is unambiguous (`ye2026-tin-foods-dietary-exposure-zhejiang.md`). The tracker shows the 01_Fruits row as `ingested` and the 02_Vegetables row as `unprocessed`; updating the 02_Vegetables tracker row to point at the same canonical cite-key is a tracker housekeeping task, not a source-page edit. Logged here so the wrapper recognizes the situation rather than re-tripping on the same PDF again.
+
+**No commits made for this PDF.** Audit-queue not updated (already has the canonical entry from this morning). Wrapper should advance to the next PDF in the folder.

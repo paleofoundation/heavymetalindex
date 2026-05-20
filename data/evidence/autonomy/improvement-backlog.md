@@ -1073,3 +1073,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis-trigger thresholds), Part 24 (proactive maintenance: "suggest new sources"), order-of-operations playbook (phases 0–5 source-priority ranking).
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Promote pending infant-rice-cereal scaffold to Phase 0 Lock proposal
+
+**What:** Build a governance-scaffold promotion script that reads `wiki/products/infant-rice-cereal.md` (13 routed sources, marked `provisional_scaffold: true`), runs preliminary pooling to show the emerging data shape, and outputs a Phase 0 Lock proposal document that Karen can approve—unblocking synthesis for the highest-evidence-concentration category.
+
+**Why this lever now:** The snapshot shows infant-rice-cereal with 13 routed sources (largest pending scaffold), but it remains locked in `provisional_scaffold` state, preventing its sources from flowing into pooling and synthesis. The 360 pool_blocked_cells are partly blocked because their parent categories (like infant-rice-cereal) lack locked HMT&C assignments. Promoting one locked category unblocks not just those 13 sources but downstream synthesis across multiple blocked cells. Infant rice cereal is also the highest media/regulatory profile product category for infant health, making it the marquee lock to showcase the system working.
+
+**Where:** 
+- Input: `wiki/products/infant-rice-cereal.md` 
+- Create: `tools/autonomy/promote-provisional-to-locked.mjs`
+- Output: `data/workbench/phase0-locks/infant-rice-cereal-lock-proposal-2026-05-20.md`
+- Update: `data/evidence/autonomy/pending-locks-promoted.jsonl`
+
+**How:**
+1. Read the provisional scaffold's frontmatter and routed sources list (from routing audit).
+2. Run preliminary pooling for each metal across the 13 sources to show pooled µg/kg distributions and current data shape.
+3. Suggest clean/dirty subcategory structure based on the evidence (if infant rice cereal has soy and non-soy variants with distinct profiles, propose rows for each).
+4. Output a lock proposal with pooling summary, suggested `hmtc_category`, `hmtc_row` assignments, and rationale tags (`literature-baseline` vs regulatory-alignment).
+
+**Anchors:** CLAUDE.md Part 10 (page creation and naming), Part 19 (HMT&C threshold-setting methodology), docs/order-of-operations.md (Phase 0 Lock mechanics). Related to [[feedback_no_approval_gates]] — the script emits a proposal Karen reviews and approves; it does not request permission before running.
+
+---

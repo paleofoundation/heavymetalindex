@@ -95,3 +95,14 @@
 
 ### Failed
 - `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Heavy Metals in Commonly Consumed Root and Leafy Vegetables in Dhaka City, Bangladesh, and Assessment of Associated Public Health Risks.pdf`: spawnSync claude ETIMEDOUT
+
+## Tick 2026-05-20T07:46:03.436Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Mercury Pollution in Vegetables, Grains and Soils from Areas Surrounding Coal-Fired Power Plants.pdf`: li2017 duplicate source pages (li2017-mercury-vegetables-grains-coal-power-china.md + li2017-mercury-coal-power-plants-vegetables-grains.md both reference DOI 10.1038/srep46545) — fourth manual-fetch-kimi legacy-handle duplicate in this folder; full resolution requires Karen-level downstream backlink rewrites across wiki/ingredients/ + wiki/metals/ + wiki/log.md that the skill forbids inside an ingest tick. Details in data/evidence/autonomy/manual-fetch-stops-2026-05-20.md.
+- `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China.pdf`: ye2026-tin-foods-dietary-exposure-zhejiang already ingested + audited from 01_Fruits sibling earlier today (post-2026-05-14 clean, not in malformed)

@@ -12,7 +12,7 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 - [[metals/aluminum]] (70 sources)
 - [[metals/antimony]] (17 sources)
 - [[metals/arsenic]] (258 sources)
-- [[metals/arsenic-inorganic]] (37 sources)
+- [[metals/arsenic-inorganic]] (38 sources)
 - [[metals/arsenic-total]] (92 sources)
 - [[metals/barium]] (13 sources)
 - [[metals/beryllium]] (6 sources)
