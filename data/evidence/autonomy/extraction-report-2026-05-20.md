@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-20
 
-Generated: 2026-05-20T05:04:45.530Z
+Generated: 2026-05-20T05:49:32.001Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 1002
-- Pages with `## Key numbers` section: 892
-- Pages without Key numbers section (skipped): 109
-- Structured rows extracted: 5715
+- Source pages processed: 1004
+- Pages with `## Key numbers` section: 893
+- Pages without Key numbers section (skipped): 110
+- Structured rows extracted: 5718
 - Pages with Key numbers but no parseable values: 72
 
 ## Output
@@ -26,11 +26,11 @@ Elapsed: 0s
 - tAs: 424 rows
 - Al: 345 rows
 - tHg: 335 rows
-- iAs: 179 rows
+- iAs: 180 rows
 - Cu: 167 rows
 - Co: 153 rows
 - Fe: 100 rows
-- Sn: 96 rows
+- Sn: 98 rows
 - MeHg: 93 rows
 - Mn: 83 rows
 - U: 82 rows

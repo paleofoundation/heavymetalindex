@@ -90,3 +90,66 @@ The intended PDF (cadmium in Yangtze River Delta vegetables) appears to be missi
 3. After the correct cadmium-in-vegetables PDF is restored to the slot, re-run `/ingest-next-manual-fetch-pdf folder=02_Vegetables_and_Vegetable_Products`.
 
 **No commits made this tick.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
+
+## STOP: zhao2022 Sixth China TDS Pb/Cd — duplicate source pages
+
+**PDF**: `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Exposure to Lead and Cadmium in the Sixth Total Diet Study - China.pdf`
+
+**Paper**: Zhao X, Shao Y, Ma L, Shang X, Zhao Y, Wu Y. "Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019." *China CDC Weekly* 2022, 4(9), 176–179. DOI: 10.46234/ccdcw2022.045
+
+**Situation**: DOI grep returns two existing source pages for this paper — same recurring pattern as the saleem2025 stop above.
+
+1. `wiki/sources/zhao2022-china-tds6-lead-cadmium-exposure.md` — newer, more complete.
+   - `raw_handle: MFK_exposure-lead-cadmium-sixth-tds-china`
+   - `updated: 2026-05-17`
+   - Prose Key numbers (full per-category mean ± SD ranges for Pb and Cd, all 12 food categories).
+   - Methods paragraph noting JECFA-73 PTWI withdrawal, BMDL₀.₁ for MOE, 63 kg adult-male reference.
+   - Ingredients use canonical slugs: `[[ingredients/seafood]]`, `[[ingredients/vegetables]]`, `[[ingredients/milk-and-dairy]]`, `[[ingredients/beverages]]`.
+   - No "China GB 2762-2017" regulation cross-link.
+   - No cross-country comparison table.
+
+2. `wiki/sources/zhao2022-china-sixth-tds-pb-cd.md` — older redundant copy.
+   - `raw_handle: manual-fetch-kimi` (legacy generic handle — the reason the v2 raw_handle grep didn't catch the duplicate when the May-17 ingest ran)
+   - `updated: 2026-05-13`
+   - Table-formatted Key numbers (cleaner rendering than the newer prose version).
+   - Supplementary Table S1 cross-country comparison reproduced (France, USA, UK, Australia, Canada, China 5th vs 6th TDS) — content NOT present on the newer page.
+   - Cites China GB 2762-2017 maximum-level compliance — content NOT present on the newer page.
+   - Uses legacy ingredient slugs `[[ingredients/aquatic-foods]]` and `[[ingredients/leafy-vegetables]]` (different from the canonical `[[ingredients/seafood]]` + `[[ingredients/vegetables]]` on the newer page).
+   - Lists `[[regulations/china-gb-2762-2017]]` under "Wiki pages updated on ingest".
+
+Same Phase 1 advisory state as saleem2025: both pages have `products: []` and are in `routing_malformed.csv` warn-only.
+
+**Why stop rather than consolidate autonomously**: the older duplicate cite-key `zhao2022-china-sixth-tds-pb-cd` is referenced from 9 downstream wiki files and the newer cite-key `zhao2022-china-tds6-lead-cadmium-exposure` is referenced from 4 — and some pages reference both, double-counting the same source. Reference distribution:
+
+| Downstream file | old (sixth-tds-pb-cd) refs | new (tds6-lead-cadmium-exposure) refs |
+|---|---|---|
+| wiki/ingredients/vegetables.md | 2 | 0 |
+| wiki/ingredients/rice.md | 2 | 1 |
+| wiki/ingredients/leafy-vegetables.md | 1 | 0 |
+| wiki/metals/lead.md | 1 | 0 |
+| wiki/metals/cadmium.md | 1 | 0 |
+| wiki/ingredients/meat.md | 0 | 1 |
+| wiki/ingredients/eggs.md | 0 | 1 |
+| wiki/ingredients/wheat.md | 1 | 0 |
+| wiki/ingredients/potatoes.md | 1 | 1 |
+| wiki/ingredients/legumes.md | 3 | 0 |
+| wiki/ingredients/white-sugar.md | 0 | 1 |
+
+`data/evidence/category1_autonomy_extracted_summary.csv`, `data/evidence/routing_malformed.csv`, `data/evidence/review_events.jsonl`, and `data/evidence/cells-needing-synthesis.csv` also reference one or both cite-keys.
+
+Choosing a canonical cite-key, retiring the other, and rewriting backlinks across 9-11 wiki files plus 4 evidence artifacts is a curation decision (which slugs win — `aquatic-foods` vs `seafood`, `leafy-vegetables` as a sub-page vs collapsed into `vegetables`), not a mechanical merge. Doing it silently in an ingest tick risks (a) losing the unique content on the older page (cross-country comparison table, GB 2762-2017 compliance statement) and (b) drift in downstream pages that have synthesized against one cite-key or the other.
+
+**Recommended resolution** (Karen):
+
+1. Canonical pick: `zhao2022-china-tds6-lead-cadmium-exposure` (more descriptive cite-key + specific MFK_ handle that survived the May-17 dedupe sweep is the cleaner forward-compatible identity).
+2. Before deleting `zhao2022-china-sixth-tds-pb-cd.md`, lift onto the canonical page: (a) the Supplementary Table S1 cross-country comparison; (b) the explicit "all values below China GB 2762-2017" compliance statement; (c) the `regulations/china-gb-2762-2017` backlink.
+3. Decide whether `[[ingredients/aquatic-foods]]` and `[[ingredients/seafood]]` are taxonomy-aliases or two distinct ingredient slugs. The newer page uses `seafood`; the older uses `aquatic-foods`. Same question for `[[ingredients/leafy-vegetables]]` as a sub-page of `[[ingredients/vegetables]]`.
+4. Run a sed-style backlink rewrite (`zhao2022-china-sixth-tds-pb-cd` → `zhao2022-china-tds6-lead-cadmium-exposure`) across the 9-11 wiki files and 4 evidence artifacts.
+5. Delete the older sources page.
+6. Re-run routing audit and synthesis triggers for any cell whose contributing-source count just changed.
+
+**What I did NOT do** this tick: did not edit either source page, did not pick a canonical cite-key, did not rewrite any downstream references, did not commit, did not append to `data/evidence/audit-queue.csv`.
+
+**Same pattern as saleem2025 stop above.** Worth a single sweep across all `raw_handle: manual-fetch-kimi` (legacy-generic) pages to surface any other duplicates the May-17 dedupe sweep missed.
+
+**No commits made for this PDF.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.

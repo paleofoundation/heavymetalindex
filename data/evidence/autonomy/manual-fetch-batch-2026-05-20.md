@@ -69,3 +69,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Distribution of Cadmium in Fresh Vegetables Marketed in the Yangtze River Delta Region and Health Risk Assessment.pdf`: filename-content-mismatch-MFK_distribution-of-cadmium-in-fresh-vegetables-market
+
+## Tick 2026-05-20T05:53:21.856Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `see2025-malaysia-leafy-vegetables-icp-oes` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Heavy Metals Assessment in Selected Leafy Vegetables from Malaysian Wet Markets.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Exposure to Lead and Cadmium in the Sixth Total Diet Study - China.pdf`: zhao2022 Sixth China TDS Pb/Cd — two existing wiki source pages under different cite-keys (`zhao2022-china-tds6-lead-cadmium-exposure` vs `zhao2022-china-sixth-tds-pb-cd`) for DOI 10.46234/ccdcw2022.045, with 9 + 4 downstream backlinks needing curation-driven consolidation

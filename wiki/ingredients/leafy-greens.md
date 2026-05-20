@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 28
+sources: 29
 ---
 
 # Leafy Greens

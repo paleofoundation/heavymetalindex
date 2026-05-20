@@ -1026,3 +1026,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (synthesis as a workflow, not an ingest step), Part 18 (lint and gap detection), Part 24 (proactive maintenance — this flags weak spots). Also feeds [[ask-the-index-spec]] public-app design: the app's search hits are strongest when the underlying wiki cells are synthesized and current.
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Resolve 14 routing-unresolved entries
+
+**What:** Audit the 14 sources logged in `data/evidence/routing_unresolved.csv`, categorize each failure (frontmatter error vs. missing product vs. missing ingredient), fix frontmatter directly, scaffold missing targets via `create-provisional-product-scaffold.mjs` or `create-provisional-ingredient-scaffold.mjs`, and re-run `tools/evidence/build-routing-audit.mjs` to confirm resolution.
+
+**Why this lever now:** 14 sources are declaring products or ingredients that don't route to any page, so their evidence is orphaned and invisible to synthesis. This is a hard blocker on routing completeness; resolving these 14 gets to zero unresolved and clears the build-failure condition that lint already catches (CLAUDE.md Part 18: `routing_unresolved.csv` non-empty). With routing clean, the next pooling phase will see complete evidence fan-out.
+
+**Where:**
+- Unresolved entries: `data/evidence/routing_unresolved.csv`
+- Source pages to fix: `wiki/sources/<cite_key>.md` (frontmatter corrections)
+- Scaffold tools: `tools/autonomy/create-provisional-product-scaffold.mjs`, `create-provisional-ingredient-scaffold.mjs`
+- Audit re-run: `tools/evidence/build-routing-audit.mjs`
+
+**How:**
+1. Read each of the 14 `routing_unresolved.csv` rows; note the declared slug, source cite-key, and reason code
+2. For frontmatter-error rows, open the source page and correct the slug (or remove the erroneous field if it was miscopied)
+3. For missing-product/missing-ingredient rows, run the appropriate scaffold tool with the target slug
+4. Re-run the routing audit; confirm `routing_unresolved.csv` is empty; if not, surface the edge case (likely a routing-audit logic issue)
+
+**Anchors:** CLAUDE.md Part 5b (routing layer must be maintained by system, not by-hand), Part 10 (scaffold-based new-page creation), Part 18 (lint failure: unresolved CSV non-empty)
+
+---

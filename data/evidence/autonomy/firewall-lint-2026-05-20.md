@@ -1,9 +1,15 @@
 # Firewall lint — 2026-05-20
 
-Generated: 2026-05-20T05:17:26.383Z
+Generated: 2026-05-20T06:08:08.516Z
 
 ## Summary
 
-- Files scanned: 706
-- ERROR violations: 0
+- Files scanned: 709
+- ERROR violations: 1
 - WARN violations: 0
+
+## ERROR violations
+
+### wiki/products/infant-rice-cereal.md
+- **CONTAMINATION_PLATFORM** — "contamination platform" is workbench row-architecture framing. State the literature evidence directly.
+  - line 20: `ithin-row clean/dirty splits, contamination-platform classification, and certification thresholds do not deriv`

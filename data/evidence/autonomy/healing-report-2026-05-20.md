@@ -1,15 +1,26 @@
 # Heal-gaps report — 2026-05-20
 
-Generated: 2026-05-20T05:04:45.137Z
+Generated: 2026-05-20T05:49:31.434Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
-- Queued for synthesis: 0
+- Queued for synthesis: 1
 - Routing typo proposals: 7
-- Provisional scaffolds created: 0
+- Provisional scaffolds created: 2
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 234
+
+## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
+
+- pending_contamination_profile_with_sources: 1 item(s)
+
+## Provisional scaffolds created
+
+- product/`infant-solid-foods-mixed` (triggered by source unknown2016-risk-arsenic-rice-cereal)
+- ingredient/`cow-milk-infant-formula` (triggered by source unknown2016-risk-arsenic-rice-cereal)
+
+See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
 ## Items needing surfacing
 

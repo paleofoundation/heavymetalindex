@@ -65,3 +65,15 @@
 
 ### Failed
 - P1 `open2017-open-infants-dietary-arsenic` (FM_5940663): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-20T05:53:21.760Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `open2017-open-infants-dietary-arsenic` (FM_5940663)
+
+### Failed
+- P1 `estimated2015-estimated-exposure-arsenic-breastfed` (FM_4421773): stdout did not contain '---' frontmatter

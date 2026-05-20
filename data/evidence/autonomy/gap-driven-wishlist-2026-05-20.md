@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1382 candidate queries
+- Path A (pooling-engine-driven thin cells): 1420 candidate queries
 - Path B (empty product + thin ingredient pages): 8210 candidate queries
-- Total candidates (after dedup): 9592
+- Total candidates (after dedup): 9630
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9592
+- Eligible after filtering: 9630
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
+| P1 | toy-pacifiers × Pb | toy pacifiers heavy metals lead |
+| P1 | kitchen-countertop-cleaners × Pb | kitchen countertop cleaners Pb |
+| P1 | conditioner-adult-rinse-out × tHg | conditioner adult rinse out heavy metals mercury |
+| P1 | baby-wipes × Pb | baby wipes heavy metals lead occurrence |
+| P1 | capillary-reed-wood-diffusers × Pb | capillary reed/wood diffusers lead |
+| P1 | art-craft-materials × tAs | art craft materials arsenic |
+| P1 | toys-stuffing-materials × Cd | stuffing materials Cd |
+| P1 | infant-food-puree-vegetable × tAs | infant food puree vegetable arsenic |
 | P1 | baby-lotion-cream × Pb | baby lotion cream Pb occurrence |
-| P1 | fish-marine-non-predatory × tHg | fish marine non predatory cleaning product safety mercury |
-| P1 | laundry-starch-sizing-fabric-finish × Cd | laundry starch/sizing/fabric finish products Cd |
-| P1 | biscuits × tHg | biscuits heavy metals total mercury |
-| P1 | carpet-spot-removers × Cd | carpet spot removers Cd |
-| P1 | tableware-glassware × tAs | tableware glassware arsenic |
-| P1 | toys-attached-cribs-playpens × tHg | toys attached cribs playpens heavy metals total mercury |
-| P1 | pet-supplements-functional-blends × Cd | joint/skin/coat functional blends cadmium |
-| P1 | feminine-wipes × Cd | feminine wipes heavy metals Cd |
-| P1 | art-craft-materials × tAs | art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits) arsenic |
-| P1 | tattoo-inks × Cd | tattoo inks cadmium |
-| P1 | supplements-oral-liquids-tinctures × tHg | supplements oral liquids tinctures total mercury |
-| P1 | tableware-ceramicware × tHg | tableware ceramicware mercury |
-| P1 | childrens-makeup × Ni | childrens makeup heavy metals nickel occurrence |
-| P1 | drain-maintainers-cleaners × Pb | drain maintainers/cleaners (including biological-based) lead |
-| P1 | food-packaging-flexible-pouches-films × tHg | flexible pouches/films mercury |
-| P1 | canned-fish × tAs | canned fish heavy metals arsenic occurrence |
-| P1 | toys-stuffed-bean-bag × tHg | stuffed toys and bean bag-type toys total mercury |
-| P1 | pet-supplements-vitamin-mineral × tHg | pet supplements vitamin mineral heavy metals mercury |
-| P1 | pet-food-raw × tHg | pet food raw mercury |
+| P1 | childrens-lip-balm-mineral-bearing × Ni | childrens lip balm mineral bearing heavy metals nickel occurrence |
+| P1 | cookware-nonstick-coated × tAs | nonstick-coated cookware arsenic |
+| P1 | instant-air-refreshment-sprays × Pb | instant air refreshment sprays Pb |
+| P1 | baby-shampoo-body-wash × Pb | baby shampoo body wash heavy metals Pb occurrence |
+| P1 | teething-and-snacks-non-rice × Cd | teething and snacks non rice Cd occurrence |
+| P1 | baby-shampoo-body-wash × Pb | baby shampoo body wash Pb occurrence |
+| P1 | infant-formula-rtf-soy × Al | infant formula rtf soy aluminium occurrence |
+| P1 | infant-formula-stage1 × Pb | infant formula stage1 heavy metals Pb occurrence |
+| P1 | supplements-probiotics × Pb | ingredient class — live microbials/probiotics lead |
+| P1 | infant-bottle-nipples × tAs | infant bottle nipples toy heavy metals total arsenic |
+| P1 | food-storage-silicone × Pb | food storage silicone heavy metals Pb |
 
 ## Coverage rotation
 
