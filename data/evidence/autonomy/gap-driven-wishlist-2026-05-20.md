@@ -3,10 +3,10 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1382 candidate queries
-- Path B (empty product + thin ingredient pages): 8230 candidate queries
-- Total candidates (after dedup): 9612
+- Path B (empty product + thin ingredient pages): 8210 candidate queries
+- Total candidates (after dedup): 9592
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9612
+- Eligible after filtering: 9592
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | intimate-washes-cleansers × tAs | intimate washes cleansers total arsenic |
-| P1 | food-packaging-foils-wraps × tAs | food packaging foils wraps heavy metals total arsenic |
-| P1 | kitchen-countertop-cleaners × Cd | kitchen countertop cleaners heavy metals Cd |
-| P1 | vacuum-cleaner-fragrance-additives × Pb | vacuum cleaner fragrance additives Pb |
-| P1 | pasta-rice-based × tAs | pasta rice based food contaminant total arsenic |
-| P1 | tableware-ceramicware × tAs | ceramicware total arsenic |
-| P1 | infant-bottles × Cd | bottles (plastic, glass, stainless steel) Cd |
-| P1 | anti-wrinkle-wrinkle-release-products × Cd | anti wrinkle wrinkle release products cadmium |
-| P1 | air-product-refill-materials × tAs | air product refill materials heavy metals arsenic |
-| P1 | infant-food-puree × tAs | infant food puree heavy metals arsenic occurrence |
-| P1 | nuts-seeds-other × Cd | nuts seeds other heavy metals Cd occurrence |
-| P1 | infant-formula-stage1 × Pb | infant formula stage1 heavy metals Pb occurrence |
-| P1 | bathroom-tub-tile-cleaners × tAs | bathroom tub tile cleaners arsenic |
-| P1 | window-glass-mirror-cleaners × tHg | window glass mirror cleaners heavy metals total mercury |
-| P1 | walkers × Pb | walkers Pb |
-| P1 | food-packaging-paperboard-cartons × Pb | food packaging paperboard cartons heavy metals Pb |
-| P1 | pet-food-raw × tHg | pet food raw heavy metals mercury |
-| P1 | pet-treats-snacks × Cd | pet treats snacks heavy metals Cd |
-| P1 | fragrance-preparations × tAs | fragrance preparations (perfumes, colognes, body sprays) arsenic |
-| P1 | pet-supplements-functional-blends × tAs | pet supplements functional blends arsenic |
+| P1 | baby-lotion-cream × Pb | baby lotion cream Pb occurrence |
+| P1 | fish-marine-non-predatory × tHg | fish marine non predatory cleaning product safety mercury |
+| P1 | laundry-starch-sizing-fabric-finish × Cd | laundry starch/sizing/fabric finish products Cd |
+| P1 | biscuits × tHg | biscuits heavy metals total mercury |
+| P1 | carpet-spot-removers × Cd | carpet spot removers Cd |
+| P1 | tableware-glassware × tAs | tableware glassware arsenic |
+| P1 | toys-attached-cribs-playpens × tHg | toys attached cribs playpens heavy metals total mercury |
+| P1 | pet-supplements-functional-blends × Cd | joint/skin/coat functional blends cadmium |
+| P1 | feminine-wipes × Cd | feminine wipes heavy metals Cd |
+| P1 | art-craft-materials × tAs | art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits) arsenic |
+| P1 | tattoo-inks × Cd | tattoo inks cadmium |
+| P1 | supplements-oral-liquids-tinctures × tHg | supplements oral liquids tinctures total mercury |
+| P1 | tableware-ceramicware × tHg | tableware ceramicware mercury |
+| P1 | childrens-makeup × Ni | childrens makeup heavy metals nickel occurrence |
+| P1 | drain-maintainers-cleaners × Pb | drain maintainers/cleaners (including biological-based) lead |
+| P1 | food-packaging-flexible-pouches-films × tHg | flexible pouches/films mercury |
+| P1 | canned-fish × tAs | canned fish heavy metals arsenic occurrence |
+| P1 | toys-stuffed-bean-bag × tHg | stuffed toys and bean bag-type toys total mercury |
+| P1 | pet-supplements-vitamin-mineral × tHg | pet supplements vitamin mineral heavy metals mercury |
+| P1 | pet-food-raw × tHg | pet food raw mercury |
 
 ## Coverage rotation
 

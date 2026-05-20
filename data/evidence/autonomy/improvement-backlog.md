@@ -1001,3 +1001,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** Part 9 (Synthesis triggers), Part 18 (Lint), Part 19 (Pooling methodology). Enables autonomy to drive systematic unblocking rather than blind searching.
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Map gap-driven queries to synthesis priorities
+
+**What:** Parse the 600 gap-driven-wishlist queries to identify which (ingredient, metal) cells have real user demand, then generate a ranked synthesis-priority list for cells that are currently thin or unsynthesized.
+
+**Why this lever now:** The gap-driven-wishlist is direct user signal of what users are looking for. Right now that signal informs ingest triage but not synthesis scheduling. Synthesis currently runs on fixed triggers (n_studies doubled, new source contradicts prior, etc.) and Karen's explicit requests. The 600 queries are a golden source of *demand-driven* prioritization — synthesis passes should flow toward the cells users are actually trying to learn about, not just wherever new evidence lands. This raises both the public app's usefulness and the wiki's utility as the canonical reference.
+
+**Where:** 
+- Source: `data/evidence/gap-driven-wishlist.csv` (600 rows from daemon logs)
+- Generator script: `tools/autonomy/synthesize-gap-driven-priorities.mjs` (new)
+- Output: `data/evidence/autonomy/synthesis-targets-by-user-demand-<YYYY-MM-DD>.csv` 
+- Frontmatter target: add `synthesis_demand_score: <float>` to ingredient pages for ranking
+
+**How:**
+1. Parse the 600 gap-driven-wishlist rows; extract (ingredient/family, metal/family, product-family) tuples
+2. Map each tuple to its wiki cell(s) using the routing audit + ingredient-page index
+3. For each cell, read current synthesis status and `n_studies` count
+4. Rank cells by: (user_query_frequency DESC, confidence ASC) — high-demand, low-confidence cells float to top
+5. Generate the CSV with synthesis target slug, demand score, current n_studies, and suggested synthesis mode (initial, incremental, or full-resynthesis)
+
+**Anchors:** Part 9 (synthesis as a workflow, not an ingest step), Part 18 (lint and gap detection), Part 24 (proactive maintenance — this flags weak spots). Also feeds [[ask-the-index-spec]] public-app design: the app's search hits are strongest when the underlying wiki cells are synthesized and current.
+
+---

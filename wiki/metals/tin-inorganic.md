@@ -6,7 +6,7 @@ name: Tin, inorganic
 species: [Sn2+, Sn4+, SnCl2, SnCl4]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: low
-sources: 6
+sources: 7
 updated: 2026-05-08
 status: scaffold
 n_sources: 4

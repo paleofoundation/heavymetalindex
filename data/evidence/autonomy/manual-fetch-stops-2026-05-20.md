@@ -58,3 +58,35 @@ The right consolidation pass is a multi-file rename/redirect (or a structured re
 - Re-run routing audit.
 
 **No commits made this tick.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
+
+## STOP: Yangtze vegetables cadmium PDF — filename/content mismatch
+
+**PDF (as listed in raw/)**: `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Distribution of Cadmium in Fresh Vegetables Marketed in the Yangtze River Delta Region and Health Risk Assessment.pdf`
+
+**Suggested handle**: `MFK_distribution-of-cadmium-in-fresh-vegetables-market`
+
+**Situation**: the file on disk does not contain the paper its filename advertises. Reading all 15 pages of the PDF confirms the actual content is a completely different paper:
+
+- Title: "Occurrence of Patulin and Polyphenol Profile of Croatian Traditional and Conventional Apple Cultivars during Storage"
+- Authors: Skoko, A-MG; Vilić, R; Kovač, M; Nevistić, A; Šarkanj, B; Lores, M; Celeiro, M; Babojelić, MS; Kovač, T; Lončarić, A
+- Journal: *Foods* 2022, 11, 1912
+- DOI: 10.3390/foods11071912
+- Subject: mycotoxin patulin and polyphenol profile in apples after storage; *Penicillium expansum* susceptibility studies
+
+**Why this is a hard stop, not a routing problem**: the actual paper contains no heavy-metal data at all. Patulin is an organic mycotoxin, not a metal. There is no Pb/Cd/As/Hg/Ni/Al/Cr/Sn measurement, no exposure assessment of any HMI-vocabulary analyte, and no regulatory comparison to a heavy-metal limit. The paper is out of scope for this wiki regardless of how the file is renamed.
+
+The intended PDF (cadmium in Yangtze River Delta vegetables) appears to be missing from the folder — the slot it would have occupied is filled by an unrelated apple/patulin paper. Possible causes: copy-paste mistake at fetch time; PDF downloaded from a wrong URL; renamed-but-wrong-content swap during folder reorganization.
+
+**What I did NOT do**:
+
+- Did not create `wiki/sources/MFK_distribution-of-cadmium-in-fresh-vegetables-market.md` (would have created a fraudulent source page — a wiki entry claiming to be a cadmium-in-vegetables paper, while the actual cite would point to an apples/patulin paper, or vice versa).
+- Did not ingest the Skoko-et-al. apple/patulin paper under a corrected handle, because it has no metals content (Part 1 / Part 14 — out of scope for HMI).
+- Did not commit. Did not append to `data/evidence/audit-queue.csv`.
+
+**Recommended next steps** (Karen):
+
+1. Verify the intended source: cadmium distribution in Yangtze River Delta fresh vegetables (likely Hu et al. or similar — multiple candidate papers match that title pattern). Locate the correct PDF and re-fetch.
+2. Decide whether the misplaced Skoko-et-al. patulin paper should be moved into `raw/_skipped/` (out-of-scope) or simply deleted from `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/`. It is not an HMI source under any cite-key.
+3. After the correct cadmium-in-vegetables PDF is restored to the slot, re-run `/ingest-next-manual-fetch-pdf folder=02_Vegetables_and_Vegetable_Products`.
+
+**No commits made this tick.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.

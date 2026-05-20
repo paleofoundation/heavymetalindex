@@ -56,3 +56,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Concentration and Potential Non-Carcinogenic and Carcinogenic Health Risk Assessment of Metals in Locally Grown Vegetables.pdf`: saleem2025-foods14132264 has two existing source pages (`saleem2025-locally-grown-vegetables-north-dakota` canonical + `saleem2025-nd-vegetables-hra` legacy duplicate); consolidating requires updating 14 downstream files in `wiki/ingredients/`, `wiki/metals/`, and `data/evidence/`, which this skill's constraints forbid.
+
+## Tick 2026-05-20T05:07:57.802Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `trandafir2012-tin-canned-foods-icp-ms` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Distribution of Cadmium in Fresh Vegetables Marketed in the Yangtze River Delta Region and Health Risk Assessment.pdf`: filename-content-mismatch-MFK_distribution-of-cadmium-in-fresh-vegetables-market
