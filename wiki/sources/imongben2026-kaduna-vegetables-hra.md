@@ -91,7 +91,7 @@ EMDI ranges as authors summarise (mg/kg body-weight/day, adult / children): Cr 0
 | Spinach      | 1.5 / 9.1   | 1.2 / 7.0   | 321 / 1924   | 263 / 1580  | 1.1 / 6.5   | 6.8 / 40.9  | 0.9 / 5.4   | 16.1 / 96.8 | 402 / 2411  |
 | Beans        | 32.3 / 193  | 3.4 / 20.6  | 300 / 1801   | 81.1 / 487  | 0.0 / 0.0   | 32.9 / 198  | 4.0 / 15.8  | 28.2 / 169  | 663 / 3979  |
 | Broccoli     | 3.5 / 20.9  | 0.4 / 2.3   | 48.1 / 289   | 61.0 / 366  | 3.2 / 19.2  | 3.2 / 19.0  | 0.3 / 1.9   | 0.7 / 4.4   | 141 / 843   |
-| Eggplant     | 10.5 / 63.2 | 1.3 / 7.9   | 121 / 725    | 366 / nan   | 8.7 / 52.1  | 12.3 / 73.8 | 0.6 / 3.7   | 20.5 / 123  | 236 / 1415  |
+| Eggplant     | 10.5 / 63.2 | 1.3 / 7.9   | 121 / 725    | 61.0 / 366  | 8.7 / 52.1  | 12.3 / 73.8 | 0.6 / 3.7   | 20.5 / 123  | 236 / 1415  |
 
 (Table 3 lists vegetables in the source order: Cauliflower, Carrot, Avocado, Cabbage, Celery, Potato, Pea, Lettuce, Spinach, Beans, Broccoli, Eggplant.)
 
@@ -177,3 +177,4 @@ Method limitations: ED-XRF measures total elemental composition without speciati
 - Speciation discipline: Cr is reported as total chromium (paper used ED-XRF, no Cr-VI speciation); `metals: [Cr ...]` is correct (not Cr-VI). No As/Hg/Pb/Cd analyses are reported by this paper, so no speciation flags apply.
 - Brand firewall: no brand names appear in the source page; no aggregation of brand-level data was required because the source does not report brand-level data — only market-aggregated composites from five general markets.
 - Routing: products: [] is intentional (paper measures raw fresh produce; no packaged-product slug applies). matrices: includes leafy-vegetable, root-vegetable, fruit-vegetable, and the generic fresh-vegetable to cover the 12 vegetable types that span those plant-part classes.
+- 2026-05-20 — Fresh-context audit subagent (verdict REVISE) flagged the Eggplant HQ_Co cell in Table 3 as `366 / nan` when PDF Table 3 reads `61.0 / 366` (Eggplant column, HQCo row Ad = 61.0, Ch = 366). Re-verified against the PDF Table 3 image; correction applied (adult HQ_Co now 61.0, children 366). Single-cell transcription defect in the merge-enhance pass, not a row-wide shift. No other audit findings required action: Check 1 was otherwise clean across 17 spot-checks; Checks 2–5 were ✅. The auditor's ⚠️ note about Broccoli HI adult (table 141 vs narrative 140) is preserved as a source-internal contradiction, not a wiki defect.
