@@ -11,3 +11,13 @@
 
 ### Failed
 - P1 `open2017-open-infants-dietary-arsenic` (FM_5940663): stdout did not contain '---' frontmatter
+
+## Batch 2026-05-20T01:37:53.409Z
+
+- Candidates this batch: 2
+- Succeeded: 0
+- Failed: 2
+
+### Failed
+- P1 `open2017-open-infants-dietary-arsenic` (FM_5940663): stdout did not contain '---' frontmatter
+- P1 `open2017-open-infants-dietary-arsenic-a` (FM_5940663_Infants_dietary_arsenic_exposure_during_transition_to_solid): cite_key mismatch: "signes-pastor2018"

@@ -906,3 +906,27 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 9 (synthesis triggers expand to include demand signal), Part 24 (proactive maintenance: call out weak spots), Part 11 (source priority ordering).
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Parse gap-driven wishlist into structured ingest priorities
+
+**What:** Extract the 600 gap-driven queries into a ranked CSV of (ingredient, metal) pairs by frequency, then create `data/evidence/ingest-priority-from-gaps.csv` so autonomy workflows know which thin cells to fill first.
+
+**Why this lever now:** The 600 gap-driven queries represent structured, literature-derived demand for sources that don't yet exist in the corpus. Parsing them into ranked (ingredient, metal) pairs would convert this latent signal into executable priorities, directly addressing the 44 pool-too-thin cells and reducing the 351 blocked cells by focusing future ingests on high-impact gaps instead of guessing what to ingest next.
+
+**Where:**
+- Input: `data/evidence/gap-driven-wishlist.csv` (the 600 queries)
+- New script: `tools/autonomy/parse-gap-wishlist.mjs`
+- Output: `data/evidence/ingest-priority-from-gaps.csv` (ranked by frequency)
+- Docs: `docs/ingest-workflows.md` (Priority ordering section updated to reference it)
+
+**How:**
+1. Build `parse-gap-wishlist.mjs` to parse each query, extract the (ingredient, metal) pair it targets, and count frequencies across all 600 queries
+2. Emit `ingest-priority-from-gaps.csv` with columns: `ingredient_slug`, `metal_symbol`, `query_count`, `current_n_studies`, `synthesis_target` (e.g., 4), sorted by `query_count` descending
+3. Update the Priority ordering section in `docs/ingest-workflows.md` to note that P1 slots should bias toward (ingredient, metal) pairs with the highest query_count from this CSV
+4. Run the parser as a post-lint autonomy step so priorities stay current as the corpus grows
+
+**Anchors:** Part 9 (synthesis triggers), Part 11 (priority ordering), Part 24 (proactive maintenance). Signals corpus maturity: the wishlist is structured enough to extract actionable guidance.
+
+---

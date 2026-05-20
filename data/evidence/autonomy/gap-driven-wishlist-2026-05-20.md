@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1374 candidate queries
+- Path A (pooling-engine-driven thin cells): 1376 candidate queries
 - Path B (empty product + thin ingredient pages): 8218 candidate queries
-- Total candidates (after dedup): 9592
+- Total candidates (after dedup): 9594
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9592
+- Eligible after filtering: 9594
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | baby-lotion-cream × Pb | baby lotion cream Pb occurrence |
-| P1 | blankets-and-sleep-sacks × Cd | blankets and sleep sacks heavy metals cadmium |
-| P1 | carpet-spot-removers × tHg | carpet spot removers mercury |
-| P1 | tableware-plastic-drinkware × Pb | tableware plastic drinkware heavy metals Pb |
-| P1 | toys-balls × tAs | balls total arsenic |
-| P1 | pet-supplements-other × Pb | pet supplements other lead |
-| P1 | feminine-wipes × tHg | feminine wipes mercury |
-| P1 | art-craft-materials × tHg | art craft materials heavy metals mercury |
-| P1 | tongue-cleaners-scrapers × Cd | tongue cleaners scrapers cadmium |
-| P1 | supplements-oral-solids-effervescent × Cd | supplements oral solids effervescent heavy metals cadmium |
-| P1 | oral-irrigators-water-flossers × tAs | oral irrigators water flossers heavy metals arsenic |
-| P1 | tableware-glassware × Cd | tableware glassware heavy metals Cd |
-| P1 | childrens-makeup × Pb | childrens makeup heavy metals Pb occurrence |
-| P1 | drain-maintainers-cleaners × Cd | drain maintainers cleaners heavy metals cadmium |
-| P1 | food-packaging-foils-wraps × Pb | food packaging foils wraps heavy metals Pb |
-| P1 | canned-fish × tAs | canned fish heavy metals arsenic occurrence |
-| P1 | pet-treats-snacks × iAs | pet treats/snacks speciated arsenic |
-| P1 | pet-milk-replacers-specialty-liquids × Cd | pet milk replacers specialty liquids heavy metals Cd |
-| P1 | plant-milks-non-soy-non-rice × Pb | plant milks non soy non rice lead occurrence |
-| P1 | infant-food-powder × Cd | infant food powder cadmium |
+| P1 | supplements-oral-solids-gummies × tHg | oral solids: gummies/chewables total mercury |
+| P1 | dish-soaps-manual × tAs | dish soaps manual heavy metals arsenic |
+| P1 | infant-formula-rtf-dairy × Ni | infant formula rtf dairy heavy metals nickel occurrence |
+| P1 | toys-pompoms-fibrous-craft × tAs | toys pompoms fibrous craft heavy metals total arsenic |
+| P1 | supplements-oral-solids-effervescent × tHg | supplements oral solids effervescent heavy metals total mercury |
+| P1 | childrens-nail-polish × Pb | childrens nail polish Pb occurrence |
+| P1 | cribs-and-bassinets × Cd | cribs and bassinets cadmium |
+| P1 | fish-freshwater × Pb | fish freshwater Pb occurrence |
+| P1 | infant-formula-powder-dairy × Cr-VI | infant formula powder dairy heavy metals chromium(VI) occurrence |
+| P1 | pet-supplements-functional-blends × Pb | pet supplements functional blends lead |
+| P1 | fish-marine-non-predatory × Pb | fish marine non predatory cleaning product safety Pb |
+| P1 | oral-electrolyte-solutions × Pb | oral electrolyte solutions Pb occurrence |
+| P1 | childrens-nail-polish × Pb | childrens nail polish heavy metals Pb occurrence |
+| P1 | clasps-fasteners-infant-products × tHg | clasps/fasteners (snaps, zippers, buttons) used in infant products total mercury |
+| P1 | fabric-softeners × tHg | fabric softeners mercury |
+| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking teething aids heavy metals arsenic |
+| P1 | childrens-lip-balm-mineral-bearing × Cr | childrens lip balm mineral bearing heavy metals chromium occurrence |
+| P1 | toys-yo-yo-elastic-tether × tAs | yo-yo elastic tether toys arsenic |
+| P1 | dietary-supplements × Cd | dietary supplements Cd occurrence |
+| P1 | infant-formula-powder-soy × tAs | infant formula powder soy arsenic occurrence |
 
 ## Coverage rotation
 

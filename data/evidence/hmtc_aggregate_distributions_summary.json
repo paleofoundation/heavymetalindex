@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T23:14:03.374Z",
+  "generated_at": "2026-05-20T01:55:54.176Z",
   "product_filter": null,
   "metal_filter": null,
   "cells_total": 421,
@@ -21,9 +21,9 @@
     "independent_clean_by_default": 362
   },
   "sensitivity_band_distribution": {
-    "stable": 82,
+    "stable": 81,
     "no_data": 297,
-    "provisional": 19,
+    "provisional": 20,
     "needs_review": 23
   },
   "methodology": {
