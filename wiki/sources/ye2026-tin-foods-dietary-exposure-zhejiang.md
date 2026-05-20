@@ -7,94 +7,186 @@ authors: [Ye S, Chen J, Zhang R, Wu P, Zhao D, Pan X, Wang J, Zhang H, Qi X, Lu 
 year: 2026
 publication: "Foods"
 doi: 10.3390/foods15060982
+access_url: https://doi.org/10.3390/foods15060982
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhe.pdf"
-metals: [Sn]
-ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/aquatic-vegetables]]", "[[ingredients/tea]]"]
-products: ["[[products/canned-vegetables]]", "[[products/canned-fruits]]", "[[products/canned-meat]]", "[[products/canned-fish]]", "[[products/canned-fruit]]", "[[products/tea]]", "[[products/fresh-fruit]]"]
-matrices: [leafy-vegetable, root-vegetable, aquatic-vegetable, fruit-vegetable, canned-vegetable, canned-fruit, canned-meat, canned-fish, tea, fresh-fruit, fresh-aquatic-product]
+raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China.pdf"
+metals: [Sn, organotins]
+ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/fruits]]", "[[ingredients/tea]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]"]
+products: ["[[products/canned-vegetables]]", "[[products/canned-fruit]]", "[[products/canned-fish]]", "[[products/tea]]", "[[products/fresh-fruit]]"]
+matrices: [leafy-vegetable, root-vegetable, fruit-vegetable, canned-vegetable, canned-fruit, canned-meat, canned-fish, canned-edible-fungi, tea, fresh-fruit, fresh-aquatic-product]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: 2014
-sample_population: "2014 food samples from Zhejiang Province, China, collected 2018–2019 using multistage stratified random sampling: fresh vegetables (n=673), tea (n=378), fresh aquatic products (n=392), fresh fruits (n=133), canned foods (n=438). Dietary consumption data from 2015–2017 Zhejiang Nutrition and Health Surveillance (~10,000 participants)"
-updated: 2026-05-13
+sample_population: "2014 food samples from Zhejiang Province, China, collected 2018–2019 using multistage stratified random sampling: fresh vegetables (n=673), tea (n=378), fresh aquatic products (n=392), fresh fruits (n=133), canned foods (n=438). Dietary consumption data from the 2015–2017 Zhejiang Nutrition and Health Surveillance (~10,000 participants; 3-day, 24-hour recall) stratified into five age groups (≤6, 7–12, 13–17, 18–59, ≥60 y)."
+updated: 2026-05-20
 ---
 
 # Ye et al. 2026 — Tin in foods and dietary exposure, Zhejiang Province, China
 
-This comprehensive provincial survey measured total tin (Sn) concentrations in 2014 food samples across five major categories (fresh vegetables, tea, fresh aquatic products, fresh fruits, and canned foods) in Zhejiang Province, China, and assessed dietary exposure risk across five age groups using matched consumption data from a 2015–2017 nutrition survey. Canned foods, particularly acidic canned fruits (mean 12.67 mg/kg, max 134 mg/kg), contained the highest Sn concentrations by far; fresh vegetables, fruits, and most aquatic products had uniformly low concentrations. All total hazard quotients (THQ) for inorganic Sn remained well below 1 across all scenarios, indicating minimal inorganic Sn health risk under current dietary patterns. A separate organotin analysis using a conservative reverse dietary risk approach found that only 0.16% of total Sn in canned foods or 0.37% in fresh aquatic products would need to be organotin species to reach the organotin TDI, highlighting that while total Sn is safe, organotin speciation in these high-risk categories warrants ongoing monitoring, particularly for children aged 6 years and under.
+This comprehensive provincial survey measured total tin (Sn) concentrations in 2014 food samples across five major categories (fresh vegetables, tea, fresh aquatic products, fresh fruits, and canned foods) in Zhejiang Province, China, and assessed dietary exposure risk across five age groups using matched consumption data from a 2015–2017 nutrition survey. Canned foods, particularly acidic canned fruits (mean 12.67 mg/kg dw, max 134 mg/kg dw), contained the highest Sn concentrations by far; fresh vegetables, fresh fruits, and most aquatic products had uniformly low concentrations. All total hazard quotients (THQ) for inorganic Sn remained below 1 across all scenarios; the highest THQ (0.2176) was for adults aged 18–59 years under the P95-consumption × P95-concentration scenario, dominated by canned fruits. A separate organotin analysis using a conservative reverse dietary risk approach found that only 0.16% of total Sn in canned foods or 0.37% in fresh aquatic products would need to be organotin species to reach the organotin TDI, highlighting that even though total Sn is safe, organotin speciation in these high-risk categories warrants ongoing monitoring, particularly for children aged 6 years and under.
 
 ## Key numbers
 
-All Sn concentrations expressed on dry weight (dw) basis unless noted otherwise.
+All Sn concentrations expressed on dry weight (dw) basis from Table 1; the EDI/THQ calculations subsequently use wet-weight concentrations per the formulas in section 2.2.4.
 
 **Fresh vegetables (mg/kg dw; n=673):**
 
-| Subcategory | Mean | P50 | P95 | Max |
-|-------------|------|-----|-----|-----|
-| Solanaceous | 0.04 | 0.00 | 0.27 | 0.34 |
-| Cruciferous | 0.01 | 0.00 | 0.03 | 0.04 |
-| Cucurbit | 0.01 | 0.00 | 0.04 | 0.04 |
-| Tuber and root | 0.06 | 0.00 | 0.33 | 4.53 |
-| Aquatic vegetables | 0.01 | 0.01 | 0.04 | 0.10 |
-| Leafy vegetables | 0.04 | 0.00 | 0.21 | 1.14 |
+| Subcategory | n | Detect (n / %) | Mean | P50 | P95 | IQR | Max |
+|---|---|---|---|---|---|---|---|
+| Solanaceous | 32 | 11 / 34% | 0.04 | 0.00 | 0.27 | 0.01 | 0.34 |
+| Cruciferous | 40 | 12 / 30% | 0.01 | 0.00 | 0.03 | 0.00 | 0.04 |
+| Cucurbit | 24 | 4 / 17% | 0.01 | 0.00 | 0.04 | 0.00 | 0.04 |
+| Tuber and root | 239 | 72 / 30% | 0.06 | 0.00 | 0.33 | 0.01 | 4.53 |
+| Aquatic vegetables | 199 | 64 / 32% | 0.01 | 0.01 | 0.04 | 0.01 | 0.10 |
+| Leafy vegetables | 139 | 35 / 25% | 0.04 | 0.00 | 0.21 | 0.00 | 1.14 |
 
-Tuber and root vegetables show the highest Sn among fresh vegetables (mean 0.06 mg/kg, max 4.53 mg/kg), attributed to soil contact and surface adsorption.
+Tuber and root vegetables show the highest Sn among fresh vegetables (mean 0.06 mg/kg dw, max 4.53 mg/kg dw), attributed to soil contact and surface adsorption.
 
 **Tea (mg/kg dw; n=378):**
-Green tea: mean 0.08, P50 0.03, P95 0.37, max 1.30
-Black tea: mean 0.08, P50 0.04, P95 0.31, max 0.57
-Oolong tea: mean 0.13, P50 0.03, P95 0.31, max 2.02
-Dark tea: mean 0.08, P50 0.03, P95 0.49, max 0.57
-Detection rates 76–96% across tea types.
+
+| Subcategory | n | Detect (n / %) | Mean | P50 | P95 | IQR | Max |
+|---|---|---|---|---|---|---|---|
+| Green tea | 268 | 204 / 76% | 0.08 | 0.03 | 0.37 | 0.08 | 1.30 |
+| Black tea | 55 | 45 / 82% | 0.08 | 0.04 | 0.31 | 0.06 | 0.57 |
+| Oolong tea | 31 | 25 / 81% | 0.13 | 0.03 | 0.31 | 0.09 | 2.02 |
+| Dark tea | 24 | 23 / 96% | 0.08 | 0.03 | 0.49 | 0.03 | 0.57 |
+
+Detection rates 76–96% across tea types — consistently higher than fresh vegetables/fruits.
 
 **Fresh aquatic products (mg/kg dw; n=392):**
-Fish: mean 0.26, P50 0.01, P95 0.50, max 10.30 (detection rate 15%)
-Crustaceans: mean 0.02, P50 0.01, P95 0.10, max 0.40
-Mollusks: mean 0.01, P50 0.00, P95 0.03, max 0.50
+
+| Subcategory | n | Detect (n / %) | Mean | P50 | P95 | IQR | Max |
+|---|---|---|---|---|---|---|---|
+| Fish | 175 | 26 / 15% | 0.26 | 0.01 | 0.50 | 0.15 | 10.30 |
+| Crustaceans | 157 | 90 / 57% | 0.02 | 0.01 | 0.10 | 0.01 | 0.40 |
+| Mollusks | 60 | 26 / 43% | 0.01 | 0.00 | 0.03 | 0.00 | 0.50 |
+
+Fish mean (0.26 mg/kg dw) is elevated only because of a long upper tail; the median is 0.01 mg/kg dw and detection rate is 15%, so most fish samples were below LOD.
+
+**Fresh fruits (mg/kg dw; n=133):**
+
+| Subcategory | n | Detect (n / %) | Mean | P50 | P95 | IQR | Max |
+|---|---|---|---|---|---|---|---|
+| Citrus fruits | 8 | 1 / 13% | 0.00 | 0.00 | 0.01 | 0.00 | 0.02 |
+| Melons and gourd fruits | 9 | 3 / 33% | 0.01 | 0.00 | 0.02 | 0.00 | 0.02 |
+| Stone fruits | 19 | 7 / 37% | 0.00 | 0.00 | 0.01 | 0.00 | 0.02 |
+| Berries and other small fruits | 36 | 3 / 8% | 0.00 | 0.00 | 0.00 | 0.00 | 0.02 |
+| Tropical and subtropical fruits | 38 | 6 / 16% | 0.00 | 0.00 | 0.01 | 0.00 | 0.03 |
+| Pome fruits | 23 | 9 / 39% | 0.02 | 0.00 | 0.03 | 0.01 | 0.24 |
+
+All fresh fruit subcategory means and 95th percentiles are at or below 0.03 mg/kg dw; the maximum across all 133 fresh fruit samples is 0.24 mg/kg dw (pome fruits). Fresh fruits are the lowest-Sn category in the dataset.
 
 **Canned foods (mg/kg dw; n=438):**
-Cereal-based canned foods: mean 0.04, P50 0.01, P95 0.21, max 0.37
-Canned vegetables and vegetable products: mean 1.05, P50 0.12, P95 5.13, max 19.80
-Canned fruits and fruit products: mean 12.67, P50 0.15, P95 80.73, max 134.00
-Canned meat and meat products: mean 0.96, P50 0.03, P95 3.42, max 23.70
-Canned aquatic products: mean 0.12, P50 0.02, P95 0.62, max 1.51
-Canned edible fungi: mean 1.61, P50 0.06, P95 0.48, max 38.90
 
-No samples exceeded national Sn maximum limits (canned foods: 100 mg/kg; other foods: 200 mg/kg per Chinese standards).
+| Subcategory | n | Detect (n / %) | Mean | P50 | P95 | IQR | Max |
+|---|---|---|---|---|---|---|---|
+| Cereal-based canned foods | 52 | 27 / 52% | 0.04 | 0.01 | 0.21 | 0.04 | 0.37 |
+| Canned vegetables and vegetable products | 57 | 38 / 67% | 1.05 | 0.12 | 5.13 | 0.23 | 19.80 |
+| Canned fruits and fruit products | 82 | 65 / 79% | 12.67 | 0.15 | 80.73 | 5.79 | 134.00 |
+| Canned meat and meat products | 71 | 47 / 66% | 0.96 | 0.03 | 3.42 | 0.10 | 23.70 |
+| Canned aquatic products | 93 | 62 / 67% | 0.12 | 0.02 | 0.62 | 0.10 | 1.51 |
+| Canned edible fungi and fungal product | 83 | 60 / 73% | 1.61 | 0.06 | 0.48 | 0.12 | 38.90 |
 
-**Health risk (inorganic Sn):** All THQ values below 1 across all five age groups under all four exposure scenarios (A: P50×P50 through D: P95×P95). Maximum THQ was under scenario D for children ≤6 years: not explicitly tabulated for individual categories but ΣEDI across all foods was 65.29 µg/kg BW/day, THQ = 0.218, using RfD of 300 µg/kg BW/day (ATSDR MRL for chronic inorganic Sn exposure).
+Canned fruits dominate the Sn load by two orders of magnitude over other canned categories (mean 12.67 vs ≤1.61 mg/kg dw). No sample in any category exceeded the Chinese national maximum allowable Sn limits (canned foods 100 mg/kg; other foods 200 mg/kg). The canned-edible-fungi distribution is heavily right-skewed (mean 1.61 driven by Max 38.90 despite P95 of only 0.48); the page reports the table values as published.
 
-**Organotin risk (reverse assessment):** Minimum proportion of total Sn that would need to be organotin to reach organotin TDI (0.25 µg/kg bw/day; EFSA; or RfD 0.3 µg/kg bw/day; U.S. EPA for tributyltin oxide):
-- Canned foods: 0.16% (95% CI: 0.15–0.18%)
-- Fresh aquatic products: 0.37% (95% CI: 0.29–0.45%)
-- Fresh vegetables: 1.15% (95% CI: 0.96–1.57%)
-- Fresh fruits: 7.77% (95% CI: 7.45–8.75%)
-- Tea: 18.67% (95% CI: 18.14–21.93%)
+**Inorganic Sn dietary exposure (Table 3, age-stratified, four scenarios):**
 
-**Organotin exposure from fresh aquatic products (conservative scenario, Monte Carlo):** Children ≤6 years exceed the organotin TDI at the 69.3th percentile (95% CI: 68.4–70.2%), indicating that approximately 30% of children aged ≤6 years with typical consumption remain below TDI. Under Scenario C (P50 consumption × P95 contamination), THQ for organotins from aquatic products is 7.0–16.0 for all age groups.
+Reference dose RfD = 300 µg/kg BW/day (ATSDR chronic-duration oral minimal risk level for inorganic Sn, conservatively applied to total Sn). Body weights used in EDI: ≤6 = 19.9 kg, 7–12 = 33.7 kg, 13–17 = 52.3 kg, 18–59 = 62.1 kg, ≥60 = 60.4 kg.
+
+| Scenario | ≤6 ΣEDI / THQ | 7–12 ΣEDI / THQ | 13–17 ΣEDI / THQ | 18–59 ΣEDI / THQ | ≥60 ΣEDI / THQ |
+|---|---|---|---|---|---|
+| A (P50 cons × P50 conc) | 0.16 / 0.0005 | 0.23 / 0.0008 | 0.14 / 0.0005 | 0.29 / 0.0010 | 0.20 / 0.0007 |
+| B (P95 cons × P50 conc) | 0.55 / 0.0018 | 0.54 / 0.0018 | 0.35 / 0.0012 | 0.46 / 0.0015 | 0.37 / 0.0012 |
+| C (P50 cons × P95 conc) | 6.43 / 0.0214 | 8.14 / 0.0271 | 5.48 / 0.0183 | 58.44 / 0.1948 | 6.29 / 0.0210 |
+| D (P95 cons × P95 conc) | 24.01 / 0.0800 | 23.81 / 0.0794 | 16.68 / 0.0556 | **65.29 / 0.2176** | 13.90 / 0.0463 |
+
+ΣEDI in µg/kg BW/day. The maximum THQ in the dataset is 0.2176 for adults aged 18–59 under Scenario D, dominated by canned fruits (52.00 of the 65.29 ΣEDI). Children ≤6 reach their own maximum of THQ 0.0800 under Scenario D, dominated by canned meat (11.45 of the 24.01 ΣEDI). All age groups remain well below THQ = 1 for inorganic Sn in every scenario.
+
+Per-category dietary intake highlights under Scenario D (µg/kg BW/day): canned fruits 52.00 for adults 18–59 (zero for all other age groups, because P95 consumption is 0 g/day for canned fruits outside this age band); canned meat 11.45 for ≤6 y, 10.13 for 7–12, 8.05 for 13–17; fish 2.51 for ≤6 y; canned vegetables 3.04 for 7–12 (zero in ≤6, who do not consume them at P95). Tea contributes near-zero exposure across all age groups (Sn intake from tea infusion is limited by the small mass extracted into the cup relative to the dry-weight basis of measurement).
+
+**Organotin reverse dietary risk assessment (paper section 3.4.1):**
+
+Minimum proportion of total Sn that would need to be organotin to reach the organotin RDF of 0.1 µg-Sn/kg BW/day (equivalent to the EFSA TDI of 0.25 µg/kg bw/day for the sum of TBT+DBT+TPT, expressed as Sn; section 2.2.6):
+
+| Food category | Required organotin / total Sn (%) | 95% CI |
+|---|---|---|
+| Canned foods | 0.16 | 0.15–0.18 |
+| Fresh aquatic products | 0.37 | 0.29–0.45 |
+| Fresh vegetables | 1.15 | 0.96–1.57 |
+| Fresh fruits | 7.77 | 7.45–8.75 |
+| Tea | 18.67 | 18.14–21.93 |
+| Total diet | 0.16 | 0.15–0.17 |
+
+Canned foods and fresh aquatic products have the narrowest margin: organotin speciation accounting for only ~0.16–0.37% of total Sn would push exposure to the toxicological reference value. The 5.83% organotin-to-total-Sn proportion from the only available speciation reference (mollusks, Sousa et al. 2009) — applied conservatively as a benchmark across categories — exceeds the canned-food and fresh-aquatic-product thresholds by an order of magnitude.
+
+**Organotin scenario-based assessment for fresh aquatic products (Table 4, RDF = 0.1 µg/kg BW/day, organotin-to-total-Sn = 5.83% from mollusks reference):**
+
+| Scenario | ≤6 ΣEDI / THQ | 7–12 ΣEDI / THQ | 13–17 ΣEDI / THQ | 18–59 ΣEDI / THQ | ≥60 ΣEDI / THQ |
+|---|---|---|---|---|---|
+| A (P50 × P50) | 0.04 / 0.4 | 0.02 / 0.2 | 0.02 / 0.2 | 0.02 / 0.2 | 0.02 / 0.2 |
+| B (P95 × P50) | 0.15 / 1.5 | 0.09 / 0.9 | 0.07 / 0.7 | 0.07 / 0.7 | 0.07 / 0.7 |
+| C (P50 × P95) | 1.6 / 16 | 0.94 / 9.4 | 0.83 / 8.3 | 0.78 / 7.8 | 0.7 / 7 |
+| D (P95 × P95) | 3.68 / 36.8 | 2.96 / 29.6 | 2.03 / 20.3 | 2.12 / 21.2 | 2.14 / 21.4 |
+
+Under high-consumption-only scenario B, children ≤6 already exceed the organotin RDF (THQ 1.5). Under high-concentration scenarios C and D every age group exceeds the RDF, with ≤6 children reaching THQ 36.8 in scenario D.
+
+**Monte Carlo probabilistic organotin exposure (Table 5, fresh aquatic products, 10,000 iterations):** Percentile of the simulated exposure distribution at which the TDI (0.1 µg/kg BW/day) is reached: ≤6 = 69.3% (95% CI 68.4–70.2); 7–12 = 67.7% (95% CI 66.8–68.6); 13–17 = 65.8% (95% CI 64.8–66.7); 18–59 = 65.0% (95% CI 64.2–65.9); ≥60 = 65.6% (95% CI 64.6–66.6); total population = 66.3% (95% CI 65.4–67.3). Roughly one-third of children ≤6 with typical fresh-aquatic-product consumption reach or exceed the organotin TDI under the conservative 5.83% organotin fraction assumption.
 
 ## Methods (brief)
 
-2014 food samples from Zhejiang Province collected 2018–2019, multistage stratified random sampling. Sn by ICP-MS per Chinese national standard protocol. Samples dried before analysis; concentrations reported on dry weight basis. LOD: 0.004 mg/kg (vegetables, fruits, aquatic products, canned foods); 0.008 mg/kg (tea). Non-detects substituted at half the LOD per WHO guidelines. Consumption data from 2015–2017 Zhejiang Nutrition and Health Surveillance (approximately 10,000 participants; 3-day, 24-hour dietary recall). Age groups: ≤6, 7–12, 13–17, 18–59, ≥60 years. Body weight 57 kg (provincial survey mean).
+2014 food samples were collected across Zhejiang Province in 2018–2019 using multistage stratified random sampling at farmers' markets, retail stores, street vendors, online stores, aquaculture sites, and capture fisheries; the sampling frame covered 25 food types in five major categories (fresh vegetables, tea, fresh fruits, fresh aquatic products, canned foods). Both bulk and pre-packaged products were included. Samples were sealed and frozen prior to analysis.
 
-Critical species note: All Sn concentrations are total Sn. The paper explicitly distinguishes inorganic Sn from organotin compounds, noting that organotin compounds are substantially more toxic (EFSA TDI for sum of TBT+DBT+TPT: 0.25 µg/kg bw/day vs. inorganic Sn MRL: 300 µg/kg bw/day — a ~1200-fold difference in toxicological threshold). Organotin speciation (TBT, DBT, TPT, DOT) was not directly measured; the organotin risk assessment used a conservative reverse approach with a literature-derived proportion of 5.83% organotin-to-total-Sn from mollusks as a benchmark. This is a conservative upper-bound assumption for most food categories.
+Total Sn quantification was performed under unified national protocols (China National Center for Food Safety Risk Assessment, 2018) by inductively coupled plasma mass spectrometry (ICP-MS) on dried samples. Concentrations are reported on a dry-weight basis in Table 1. Method detection limit: 0.004 mg/kg for fresh vegetables, fresh fruits, fresh aquatic products, and canned foods; 0.008 mg/kg for tea. Non-detect samples were imputed at half the LOD per WHO guidance for trace-level contaminants. Quality control included certified reference materials, interference-correction equations, and two procedural blanks per batch.
+
+Consumption data were drawn from the 2015–2017 Zhejiang Nutrition and Health Surveillance (10 counties; ~10,000 participants; multistage stratified random sampling at household level; 3-day 24-h dietary recall). Age groups: ≤6, 7–12, 13–17, 18–59, ≥60 y. Body weights from the same survey were used in EDI calculations (per Table 2: ≤6 = 19.9 kg, 7–12 = 33.7 kg, 13–17 = 52.3 kg, 18–59 = 62.1 kg, ≥60 = 60.4 kg). The Monte Carlo organotin assessment used a single average body weight of 57 kg derived from the provincial survey.
+
+Inorganic Sn risk was characterized by THQ = Σ HQᵢ where HQᵢ = EDIᵢ / RfD. The toxicological benchmark was the ATSDR chronic-duration oral MRL of 0.3 mg/kg BW/day for inorganic Sn (conservatively applied here to total Sn). Organotin risk used a literature-derived organotin-to-total-Sn proportion of 5.83% (Sousa et al. 2009, mollusks) applied as a protective benchmark to fresh aquatic products only, with an organotin RDF of 0.1 µg-Sn/kg BW/day (EFSA TDI of 0.25 µg/kg bw/day for the TBT+DBT+TPT sum, expressed as Sn via molecular-weight ratio). Probabilistic exposure used 10,000-iteration Monte Carlo simulation with category-specific concentration sampling and 24-h recall consumption.
+
+Four deterministic exposure scenarios were defined (A: P50 cons × P50 conc; B: P95 × P50; C: P50 × P95; D: P95 × P95). Maximum Sn concentrations were used to represent worst-case contamination in additional sensitivity work but not tabulated as a separate scenario.
+
+Critical species note: All Sn concentrations are total Sn. Compound-specific quantification of organotin species (TBT, DBT, TPT, DOT) by LC-MS/MS or GC-MS was **not performed**. The organotin risk assessment is a conservative model using a literature-derived organotin fraction; direct speciation in Zhejiang foods is identified by the authors as a major data gap. The toxicological gap between inorganic Sn (RfD ≈ 300 µg/kg BW/day) and organotin compounds (RfD 0.1 µg-Sn/kg BW/day; ~3000-fold lower) makes this distinction load-bearing for risk characterization.
+
+Explicit limitations stated by the authors: temporal mismatch between consumption data (2015–2017) and concentration data (2018–2019); absence of established toxicological reference values for specific organotin species in food matrices; no direct organotin measurements; limited data on Sn concentrations in fresh fruits in China overall.
 
 ## Implications
 
-Certification: This study provides the most comprehensive regional food-category Sn dataset available for China as of 2026. Canned fruits are the highest-Sn food matrix by a wide margin (mean 12.67 mg/kg, max 134 mg/kg); all remain below regulatory maxima but represent an important fraction of dietary Sn load. HMT&C Sn analyte coverage applies primarily to canned products; fresh vegetables and fruits present negligible Sn exposure. The organotin analysis, while based on a conservative model rather than direct speciation, is important: it establishes that the margin between total Sn and the organotin toxicological threshold is narrow for canned foods and fresh aquatic products, meaning direct organotin measurement in those matrices is warranted for future certification or monitoring programs.
+**Certification (HMTc):** This is the most comprehensive regional food-category Sn dataset available for China as of 2026 and the only one published with paired age-stratified probabilistic exposure assessment. Canned fruits are the highest-Sn food matrix in the dataset by two orders of magnitude (mean 12.67 mg/kg dw, max 134 mg/kg dw); all samples remain below the Chinese 100 mg/kg national limit. For HMTc Sn analyte coverage, the canned-fruit distribution is the most informative single input from this paper; fresh vegetables, fresh fruits, and tea contribute negligible inorganic-Sn exposure. The organotin analysis is the most strategically important finding: the margin between total Sn and the organotin toxicological threshold is narrow enough (0.16% required conversion in canned foods, 0.37% in fresh aquatic products) that direct organotin speciation in these matrices is warranted for any future certification or monitoring program. The paper does not propose threshold values; it documents the distributions.
 
-Courses: Illustrates the inorganic-Sn vs. organotin distinction operationally: total Sn measurements that look safe under inorganic Sn thresholds may carry hidden organotin risk, and the speciation gap in food monitoring is identified as a data limitation. Fresh vegetables present minimal Sn risk compared to canned products.
+**Courses:** Cleanly illustrates the inorganic-Sn vs. organotin distinction in operational risk assessment: total Sn measurements that look safe under inorganic Sn thresholds may carry hidden organotin risk. Children ≤6 are the most-exposed group for organotin risk from fresh aquatic products (THQ 1.5 already under high-consumption-only scenario B); adults 18–59 are the most-exposed group for total inorganic Sn (THQ 0.22 under P95 × P95, dominated by canned fruits). The speciation gap in food monitoring is a recurring data limitation worth highlighting for brand QA and supply-chain audiences.
 
-App: For Sn risk scoring: canned fruits carry by far the highest Sn exposure load; canned vegetables and canned fungi are intermediate; fresh vegetables, fresh fruits, and fresh aquatic products are low. The maximum fresh-vegetable Sn value (tuber/root: 4.53 mg/kg dw) is a realistic upper bound for non-industrial produce but is orders of magnitude below canned-product maxima.
+**App:** For Sn risk scoring in a packaged-food context: canned fruits carry by far the highest Sn exposure load; canned vegetables, canned meat, and canned fungi are intermediate; fresh vegetables, fresh fruits, and fresh aquatic products are low at the typical-consumption tail. The maximum fresh-vegetable Sn value (tuber/root: 4.53 mg/kg dw) is a realistic upper bound for non-industrial produce but is orders of magnitude below canned-product maxima.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[ingredients/leafy-vegetables]]
-- [[ingredients/root-vegetables]]
-- [[ingredients/tea]]
-- [[products/canned-vegetables]]
-- [[products/canned-fruits]]
-- [[metals/tin]]
+2026-05-20 — Merge-enhance pass against the source PDF (Ye S. et al. 2026, *Foods* 15:982, DOI 10.3390/foods15060982). Corrections applied to the prior 2026-05-13 revision:
+
+- **Critical factual error — max-THQ misattribution (CORRECTED).** The prior page stated: "Maximum THQ was under scenario D for children ≤6 years: not explicitly tabulated for individual categories but ΣEDI across all foods was 65.29 µg/kg BW/day, THQ = 0.218." Verified against Table 3 (PDF page 11) and the discussion text on PDF page 15 ("adults aged 18–59 years reached a THQ of 0.22"). The ΣEDI of 65.29 µg/kg BW/day and THQ of 0.2176 belong to **adults aged 18–59 under Scenario D**, not children ≤6 (whose Scenario D ΣEDI is 24.01 and THQ is 0.0800). The 18–59 maximum is dominated by canned fruits (52.00 of the 65.29 ΣEDI, ~80%) because canned-fruit P95 consumption (40 g/day in Table 2) is non-zero only in this age band. The children-≤6 maximum is dominated by canned meat (11.45 of 24.01, ~48%). Both attribution and dominant-contributor analysis are now correct.
+- **Fresh-fruit subcategory data added.** The paper's Table 1 reports six fresh-fruit subcategories (citrus, melons and gourd, stone, berries, tropical, pome) with sample sizes, detection rates, means, P50, P95, IQR, and maxima. The prior page omitted this entire block. Added as a full table; all 133 fresh-fruit samples are at or below 0.24 mg/kg dw, with pome fruits the only subcategory with P95 above 0.02.
+- **Full scenario × age THQ matrix added** (Table 3, scenarios A–D). The prior page noted only the (incorrectly attributed) max ΣEDI; added the complete 4×5 matrix from the paper.
+- **Organotin scenario assessment added** (Table 4 for fresh aquatic products). Prior page mentioned the scenario-C value range qualitatively; added the full scenarios A–D × five-age-group matrix. Key new fact: under scenario B (high consumption only), children ≤6 already exceed the organotin RDF at THQ 1.5.
+- **Monte Carlo TDI-percentile data added** (Table 5). Prior page reported only the ≤6 percentile (69.3%); added the full age-group breakdown.
+- **Body-weight table added** to Methods (per Table 2): age-specific body weights used in deterministic EDI calculations vs. the 57 kg average used in Monte Carlo. The prior page implied 57 kg was used throughout, which understates the body-weight stratification.
+- **Detection-rate columns added** to all five Key-numbers tables (Table 1 columns the prior page dropped).
+- **IQR columns added** to all five Key-numbers tables.
+- **`raw_path` corrected** — prior value pointed to `02_Vegetables_and_Vegetable_Products` and used a truncated filename (`...in Zhe.pdf`). The actual file is in `01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/` with the full title.
+- **Frontmatter slug fixes:** `products: canned-fruits` (plural; not in taxonomy snapshot) removed; canonical `canned-fruit` already present. `products: canned-meat` removed (not in current product taxonomy; processed-meats umbrella exists but is not a canned-specific slug, and the paper's canned-meat data fans out via the matrices array). `ingredients: aquatic-vegetables` removed (not in taxonomy snapshot); the umbrella `non-root-vegetables` added to cover solanaceous, cruciferous, cucurbit, leafy. `ingredients: fish`, `shellfish`, and `molluscs` added (paper reports fish, crustaceans, and mollusks separately with distinct distributions; the taxonomy snapshot has `fish`/`shellfish`/`molluscs`). `ingredients: fruits` added as the umbrella for the fresh-fruit subcategory data (paper does not split by individual species). `matrices: canned-edible-fungi` added (paper has a distinct canned-edible-fungi-and-fungal-product category at mean 1.61 mg/kg dw, max 38.90).
+- **Metals frontmatter:** added `organotins` alongside `Sn`. The paper's organotin reverse-risk and scenario assessments are about the organotin compound class (TBT, DBT, TPT, DOT) even though direct speciation was not performed.
+- **`access_url` added** (DOI-resolved URL).
+- **Legacy heading `## Wiki pages updated on ingest` removed** per current page-template convention. The ingest pass does not edit those downstream pages directly; the routing audit and synthesis pass do.
+- **`sample_population` expanded** to record the consumption-survey integration (2015–2017 survey, ~10,000 participants, 3-day 24-h recall) and the five age groups; the prior wording bundled this into one sentence and dropped the age groups entirely.
+
+**Numerical fidelity check (independent re-verification of values retained from the prior revision):**
+- Canned fruits mean 12.67, max 134.00 — verified against Table 1 (PDF page 8).
+- Canned edible fungi: mean 1.61, P95 0.48, max 38.90 — verified. The P95 < mean inversion is real (heavily right-skewed distribution); the table values are reproduced as published.
+- Organotin required-fraction percentages (0.16, 0.37, 1.15, 7.77, 18.67) — verified against PDF page 12 and Figure 2.
+- Monte Carlo TDI percentile for ≤6 = 69.3% — verified against Table 5 (PDF page 14).
+- LOD 0.004 mg/kg (vegetables/fruits/aquatic/canned), 0.008 mg/kg (tea) — verified against section 2.2.1 (PDF page 5).
+- Sample-size breakdown 673+378+392+133+438 = 2014 — verified.
+- ATSDR MRL 0.3 mg/kg BW/day for inorganic Sn — verified against section 2.2.5 (PDF page 6) and Table 3 footnote.
+- EFSA TDI 0.25 µg/kg bw/day for sum of TBT+DBT+TPT and the molecular-weight-ratio conversion to 0.1 µg-Sn/kg BW/day — verified against PDF page 4 and section 2.2.6.
+
+**Brand firewall (Part 12):** No brand names appear in source-page content. The paper itself names no brands in its findings. The methods section names the analytical-protocol authority (China National Center for Food Safety Risk Assessment) and the ICP-MS technique generically — no instrument-vendor names appear in the paper.
+
+**Wiki/HMTc firewall (Part 2):** No synthesis claims, no HMTc threshold proposals, no consumer advisories. The Implications section reports what this single paper contributes to threshold work without proposing values, and explicitly notes that the canned-fruit distribution is informative for HMTc inputs without specifying a threshold.
