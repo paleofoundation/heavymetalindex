@@ -1097,3 +1097,28 @@ Auto-managed by `tools/autonomy/improvement-scout.mjs`. The scout appends one it
 **Anchors:** CLAUDE.md Part 10 (page creation and naming), Part 19 (HMT&C threshold-setting methodology), docs/order-of-operations.md (Phase 0 Lock mechanics). Related to [[feedback_no_approval_gates]] — the script emits a proposal Karen reviews and approves; it does not request permission before running.
 
 ---
+
+- [ ] **2026-05-20** — see proposal below
+
+### Bulk-extract structured values from 450 unprocessed sources
+
+**What:** Create and execute a deterministic extraction batch targeting the 450 sources (1007 total − 557 with extracted values) that have not yet yielded structured contamination data, prioritized by HMT&C category, ingredient frequency, and thinness-of-evidence cells.
+
+**Why this lever now:** The 360 pool-blocked cells and 13 routing-unresolved entries are downstream symptoms of a single root cause: sources without extracted structure (analyte, matrix, ppb value, population, study design). These 450 sources are "ingested" (exist in `raw/` and wiki/sources) but have not generated the metadata that feeds routing and synthesis. Extracting from them would simultaneously unblock synthesis for ~70% of the pool-blocked cells, resolve most routing-unresolved entries, and populate ~40 of the 42 pool-too-thin cells.
+
+**Where:** 
+- `tools/autonomy/extract-structured-values-batch.mjs` (create new script to audit which sources have empty extraction records)
+- `tools/evidence/build-routing-audit.mjs` (regenerates routing once extraction is complete)
+- `data/evidence/autonomy/` (extraction-batch logs and audit trail)
+- Priority queue: HMT&C infant-food categories first (infant-rice-cereal, infant-formula-dairy), then ingredients with freq-2+ declarations but zero synthesis, then cells at P <= 3 studies
+
+**How:**
+1. Audit all 1007 source pages to identify which have `structured_values_extracted: 0` or missing extraction-metadata records in `data/evidence/autonomy/`
+2. Rank the 450 by HMT&C category (top 10 pending locks get priority), ingredient frequency, and cell thinness
+3. Batch into groups of 100 with clear entry/exit criteria (extraction succeeds → routing updates → synthesis triggers if conditions met)
+4. Execute via autonomy loop (`/ingest-next-manual-fetch-pdf` variant or dedicated extraction-batch orchestrator), logging each batch to `data/evidence/autonomy/extraction-batch-<date>.md`
+5. Measure success: routing_unresolved drops to <5, pool-blocked drops below 100, pool-too-thin filled to <20
+
+**Anchors:** CLAUDE.md Part 5b (routing system rule: "no session maintains routing by hand"), Part 9 (synthesis trigger: cell moves from `pending` to `populated` once 2+ sources are routed), Part 18 (lint rule: routing_unresolved and routing_malformed are build-blocking failures). This targets the system's own stated failure condition.
+
+---

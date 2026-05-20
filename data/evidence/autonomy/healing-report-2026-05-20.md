@@ -1,13 +1,13 @@
 # Heal-gaps report — 2026-05-20
 
-Generated: 2026-05-20T07:42:02.709Z
+Generated: 2026-05-20T08:23:59.593Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
 - Queued for synthesis: 1
-- Routing typo proposals: 7
+- Routing typo proposals: 5
 - Provisional scaffolds created: 0
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 235
 

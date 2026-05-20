@@ -106,3 +106,14 @@
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Mercury Pollution in Vegetables, Grains and Soils from Areas Surrounding Coal-Fired Power Plants.pdf`: li2017 duplicate source pages (li2017-mercury-vegetables-grains-coal-power-china.md + li2017-mercury-coal-power-plants-vegetables-grains.md both reference DOI 10.1038/srep46545) — fourth manual-fetch-kimi legacy-handle duplicate in this folder; full resolution requires Karen-level downstream backlink rewrites across wiki/ingredients/ + wiki/metals/ + wiki/log.md that the skill forbids inside an ingest tick. Details in data/evidence/autonomy/manual-fetch-stops-2026-05-20.md.
 - `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China.pdf`: ye2026-tin-foods-dietary-exposure-zhejiang already ingested + audited from 01_Fruits sibling earlier today (post-2026-05-14 clean, not in malformed)
+
+## Tick 2026-05-20T08:26:15.603Z
+
+- Candidates this tick: 2
+- Succeeded: 2
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `armand2026-lettuce-cabbage-behbahan` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Probabilistic Carcinogenic and Health Risk Assessment of Heavy Metals in Lettuce and Cabbage.pdf)
+- `cfs2013-hktds-metallic-contaminants` (raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf)

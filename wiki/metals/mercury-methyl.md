@@ -6,7 +6,7 @@ name: Methylmercury
 species: [CH3Hg+]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
-sources: 24
+sources: 25
 updated: 2026-04-30
 
 n_sources: 1

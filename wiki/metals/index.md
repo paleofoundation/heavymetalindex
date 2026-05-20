@@ -9,8 +9,8 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 
 ## Metal Pages
 
-- [[metals/aluminum]] (70 sources)
-- [[metals/antimony]] (17 sources)
+- [[metals/aluminum]] (71 sources)
+- [[metals/antimony]] (18 sources)
 - [[metals/arsenic]] (258 sources)
 - [[metals/arsenic-inorganic]] (38 sources)
 - [[metals/arsenic-total]] (92 sources)
@@ -29,7 +29,7 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 - [[metals/magnesium]] (8 sources)
 - [[metals/manganese]] (50 sources)
 - [[metals/mercury]] (181 sources)
-- [[metals/mercury-methyl]] (24 sources)
+- [[metals/mercury-methyl]] (25 sources)
 - [[metals/mercury-total]] (101 sources)
 - [[metals/molybdenum]] (12 sources)
 - [[metals/nickel]] (177 sources)
@@ -43,5 +43,5 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 - [[metals/tin-inorganic]] (7 sources)
 - [[metals/titanium]] (4 sources)
 - [[metals/uranium]] (16 sources)
-- [[metals/vanadium]] (11 sources)
+- [[metals/vanadium]] (12 sources)
 - [[metals/zinc]] (70 sources)

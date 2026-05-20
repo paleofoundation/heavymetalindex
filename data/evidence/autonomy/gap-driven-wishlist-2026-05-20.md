@@ -3,10 +3,10 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1420 candidate queries
-- Path B (empty product + thin ingredient pages): 8190 candidate queries
-- Total candidates (after dedup): 9610
+- Path B (empty product + thin ingredient pages): 8230 candidate queries
+- Total candidates (after dedup): 9650
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9610
+- Eligible after filtering: 9650
 - Final wishlist (capped at 600): 600
 
 ### By priority
@@ -27,26 +27,26 @@ Audit-log scale: 0 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | pacifiers-and-sucking-teething-aids × iAs | pacifiers and sucking/teething aids speciated arsenic |
-| P1 | diaper-cream-non-zno × Pb | diaper cream non zno Pb occurrence |
-| P1 | cookware-specialty-alloy × Pb | cookware specialty alloy lead |
-| P1 | hair-removal-products × tHg | hair removal products (depilatory creams) mercury |
-| P1 | baby-oil × Cd | baby oil Cd occurrence |
-| P1 | baby-wipes × Pb | baby wipes Pb occurrence |
-| P1 | hand-soap × tHg | hand soap (liquid and bar) mercury |
-| P1 | fabric-protectants × Cd | fabric protectants (excluding waterproofing/flame-retardant per gs-48 boundaries) Cd |
-| P1 | automatic-puff-releasers × tAs | automatic puff releasers total arsenic |
-| P1 | pet-food-semi-moist × tAs | semi-moist pet foods total arsenic |
-| P1 | filter-media-and-housings × Pb | filter media and housings Pb |
-| P1 | dish-soaps-manual × Cd | dish soaps (manual dishwashing) Cd |
-| P1 | toy-pacifiers × tHg | toy pacifiers total mercury |
-| P1 | childrens-lip-balm-mineral-bearing × iAs | childrens lip balm mineral bearing heavy metals speciated arsenic occurrence |
-| P1 | food-packaging-caps-closures × Pb | food packaging caps closures heavy metals lead |
-| P1 | infant-formula-powder-soy × Cr-VI | infant formula powder soy heavy metals chromium(VI) occurrence |
-| P1 | infant-food-puree-vegetable × Pb | infant food puree vegetable Pb |
-| P1 | infant-rice-cereal × tHg | infant rice cereal mercury occurrence |
-| P1 | infant-rice-cereal × tHg | infant rice cereal total mercury occurrence |
-| P1 | rice-noodles × tAs | rice noodles total arsenic |
+| P1 | supplements-enzymes × Cd | supplements enzymes cadmium |
+| P1 | food-storage-lids-gaskets × Pb | food storage lids gaskets heavy metals Pb |
+| P1 | bibs × tAs | bibs heavy metals total arsenic |
+| P1 | hand-soap × Pb | hand soap (liquid and bar) lead |
+| P1 | deep-conditioning-treatments-rinse-off × tHg | deep conditioning treatments/hair masks (rinse-off) total mercury |
+| P1 | infant-food-puree-poultry × tAs | infant food puree poultry heavy metals total arsenic |
+| P1 | swings-and-bouncers × Cd | swings and bouncers cadmium |
+| P1 | supplements-bars-labeled × tAs | food-like forms: bars (when labeled as supplement) arsenic |
+| P1 | cribs-and-bassinets × tAs | cribs and bassinets arsenic |
+| P1 | leave-on-preparations-other × tHg | other leave-on preparations (case-by-case) mercury |
+| P1 | cutting-boards × Cd | cutting boards heavy metals Cd |
+| P1 | toys-stuffed-bean-bag × tAs | toys stuffed bean bag heavy metals arsenic |
+| P1 | hand-soap × tAs | hand soap heavy metals total arsenic |
+| P1 | nut-seed-butters-other × Pb | nut seed butters other Pb occurrence |
+| P1 | canned-tomatoes × Sn | canned tomatoes heavy metals tin occurrence |
+| P1 | cookware-specialty-alloy × Pb | cookware specialty alloy Pb |
+| P1 | baby-shampoo-body-wash × Cd | baby shampoo body wash Cd occurrence |
+| P1 | toilet-bowl-cleaners × tAs | toilet bowl cleaners total arsenic |
+| P1 | fabric-contact-products-other × Pb | fabric contact products other heavy metals Pb |
+| P1 | food-packaging-flexible-pouches-films × Cd | flexible pouches/films cadmium |
 
 ## Coverage rotation
 

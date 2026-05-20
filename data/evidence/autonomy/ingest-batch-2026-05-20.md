@@ -101,3 +101,15 @@
 
 ### Failed
 - P1 `introduction2014-randomized-controlled-trial-jujube` (FM_5322685): cite_key mismatch: kelishadi2016-jujube-fruit-toxic-trace-elements-human-milk
+
+## Batch 2026-05-20T08:26:15.509Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `cereal2013-cereal-juice-lead-arsenic` (FM_9140990)
+
+### Failed
+- P1 `introduction2014-randomized-controlled-trial-jujube` (FM_5322685): cite_key mismatch: kelishadi2016-randomized-jujube-human-milk
