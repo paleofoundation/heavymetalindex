@@ -156,3 +156,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Assessment of cadmium and lead content in tomatoes and tomato products.pdf`: existing post-2026-05-14 audited page (grochowska-niedworok2020-cadmium-lead-tomatoes-poland updated 2026-05-18, audited-codex-revised 2026-05-18, clean routing)
+
+## Tick 2026-05-20T11:42:59.673Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Succeeded
+- `ozturk2024-al-tea-infusion-teapot` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of aluminium concentrations in black, green, and white tea samples_ effects of different infusion times and teapot species on aluminium.pdf)
+
+### Failed
+- `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf`: unrecognized final line: "Successfully merge-enhanced the pre-2026-05-14 page, fixed transposed honey Cu Al-Baha (0.159 → ND; 0.159 was Cr), corrected Mn Makkah honeybee per Table 1, fixed truncated raw_path, expanded Methods with full instrument/digestion/CRM detail, expanded Wiki-pages list to all measured metals, and dropped the source's nonsensical "50 (mg/g) of bees" line. Audit subagent verdict PROMOTE — all five checks clean; no audit-application commit needed."

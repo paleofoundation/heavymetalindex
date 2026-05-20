@@ -1,19 +1,15 @@
 # Heal-gaps report — 2026-05-20
 
-Generated: 2026-05-20T10:57:55.380Z
+Generated: 2026-05-20T11:41:56.813Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 1
+- Fixes applied: 0
 - Queued for synthesis: 1
 - Routing typo proposals: 4
 - Provisional scaffolds created: 0
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 236
-
-## Fixes applied
-
-- wiki/products/snack-bars-energy-bars.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, tAs] (inferred from class `soft-drink`)
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 

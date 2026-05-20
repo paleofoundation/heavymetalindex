@@ -145,3 +145,15 @@
 ### Failed
 - P1 `unknown2012-original` (FM_3775530): exit 1: 
 - P1 `abstract2011-availability-arsenic-human-milk` (FM_4265415): cite_key mismatch: islam2014-availability-arsenic-human-milk
+
+## Batch 2026-05-20T11:42:59.582Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `abstract2011-availability-arsenic-human-milk` (FM_4265415)
+
+### Failed
+- P1 `unknown2012-original` (FM_3775530): exit 1: 
