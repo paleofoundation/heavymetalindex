@@ -113,7 +113,7 @@ No original data; values are compiled from cited primary studies. The Table 1 co
 - Olive oil — Spain (Bakkali 2012): 2.85 µg/kg
 - Corn oil — Spain (Bakkali 2012): 5.05 µg/kg
 - Sunflower oil — Spain (Bakkali 2012): 5.32 µg/kg
-- Soybean — Europe (EFSA 2014b): Cr(III) concentration of 214-227.3 µg/g across 455 oilseed samples
+- Oilseeds — Europe (EFSA 2014b): Cr(III) concentration of 214-227.3 µg/g across 455 oilseed samples
 
 **Regulatory maximum permission levels (Table 2, p. 116):**
 - Pb: Codex 0.1 mg/kg; US FDA 10 mg/kg (rapeseed oil standard); EU 0.1 mg/kg wet weight
@@ -123,7 +123,7 @@ No original data; values are compiled from cited primary studies. The Table 1 co
 - Ni: Codex 0.2-1 mg/kg (hydrogenated food oils); US FDA 0.5 mg/kg (menhaden oil standard); EU 20 mg/kg maximum in hydrogenated vegetable oils/fats (Arcella 2019)
 
 **Toxicological reference values cited (sections 5):**
-- JECFA 2010 provisional tolerable monthly intake for Cd: 25 µg/kg body weight
+- JECFA 2010 provisional tolerable monthly intake for Cd: 25 µg/kg body weight (the review prints "25 µg/g body weight" on p. 116; reproduced here in the canonical JECFA unit of µg/kg bw because the µg/g formatting is the same printing-artefact pattern as the Bakkali 2012 Cd note above)
 - JECFA 2003 PTWI for CH3Hg: 1.6 µg/kg body weight (revised 2010 to 4 µg/kg body weight for inorganic Hg per Arnich 2012; EFSA 2012c)
 - EFSA TDI for Cr(III): 300 µg/kg body weight/day
 - WHO TDI for Ni: 11 µg/kg body weight/day
@@ -161,6 +161,8 @@ Enhancement on 2026-05-25 from prior 2026-05-14 revision:
 - No primary data; all the above are transcriptions from the review's own tables and prose, not synthesis claims against the broader literature.
 
 No brand names appear in this review's compilations (samples are referenced by oil type and country, not by manufacturer); no Part 12 redaction was required. No HMTc threshold proposals appear in the review and none were inserted (Part 2 firewall observed).
+
+Audit subagent (2026-05-25) flagged the EFSA 2014b Cr(III) entry as mis-attributing the matrix as "Soybean — Europe" when the review explicitly says "455 oilseed samples"; verified against PDF p. 111 §2.5 — corrected to "Oilseeds — Europe". Audit subagent also flagged the JECFA Cd PTMI as a silent unit correction (review prints "25 µg/g body weight" on p. 116; wiki had written "25 µg/kg body weight" without note); verified against the source and against the canonical JECFA Cd PTMI (25 µg/kg bw/month) — retained the canonical value but added an inline transcription note matching the pattern used for the Bakkali 2012 Cd inconsistency. Audit subagent also noted matrices `[oilseed, vegetable-oil, seed-oil]` are not in the loaded taxonomy snapshot (matrices uses its own controlled vocabulary per `docs/gpt-collaboration/system-prompt.md`); no change applied because matrices vocabulary verification is out of scope for this audit and the existing values match prior usage in the corpus for oilseed-and-vegetable-oil reviews.
 
 ## Wiki pages this source may touch
 
