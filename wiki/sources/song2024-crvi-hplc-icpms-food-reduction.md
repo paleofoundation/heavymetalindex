@@ -17,7 +17,8 @@ ingredients: ["[[ingredients/rice-flour]]", "[[ingredients/whole-wheat-bread]]",
 products: ["[[products/vinegar]]", "[[products/fruit-juices-non-apple]]", "[[products/tea]]", "[[products/bread-and-baked-goods]]"]
 matrices: [rice-flour, cereal-grain, cow-milk, yoghurt, tea, fruit-juice, vinegar]
 jurisdictions: [CN]
-near_duplicates: []
+near_duplicates:
+  - "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0327_Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry.pdf"
 sample_n: 7
 sample_population: "Seven commercially purchased food samples from a local supermarket in Nanjing, China — milk powder, rice flour, whole wheat bread, yoghurt, white vinegar, orange juice, and green tea — analyzed for Cr(VI) by speciation HPLC-ICP-MS; six food components (vitamin C, tea polyphenols, whey proteins, gelatin, fructose, cellulose) sourced from Aladdin (Shanghai) were also used in spiking stability experiments. Each food was measured in triplicate (n = 3 per sample per condition)."
 updated: 2026-05-20
