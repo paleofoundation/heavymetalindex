@@ -12,14 +12,14 @@ evidence_tier: B
 license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Heavy Metals in Foods and Beverages - Edible Oils Section.pdf"
 metals: [Pb, Cd, tAs, Ni, Cr, tHg, Al, Cu, Zn]
-ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/rice-bran-oil]]", "[[ingredients/rapeseed-oil]]", "[[ingredients/sesame-oil]]", "[[ingredients/corn-oil]]", "[[ingredients/vegetable-oils]]"]
-products: []
+ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/rice-bran-oil]]", "[[ingredients/rapeseed-oil]]", "[[ingredients/sesame-oil]]", "[[ingredients/corn-oil]]", "[[ingredients/coconut]]", "[[ingredients/vegetable-oils]]"]
+products: [olive-oil, cooking-oils-other]
 matrices: [edible-oil, vegetable-oil]
 jurisdictions: [IR, CN, GR, CY, TR, PK, UA, PL, BR, KR, GB, US, MC]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and beer; oil data drawn from published studies spanning multiple countries (2008–2023)"
-updated: 2026-05-17
+updated: 2026-05-25
 ---
 
 # Scutarasu and Trincă 2023 — Heavy metals in foods and beverages: global review including edible oils
@@ -52,6 +52,12 @@ Sesame oil:
 - Iran: Cd 0.0935 mg/kg (2020, ref 89)
 - Pakistan: Pb 4.005 mg/kg (2022, ref 95)
 - Korea: Pb 36.01 µg/kg; tAs 15.18 µg/kg; Al 15.97 mg/kg (2019, ref 41)
+
+Coconut oil:
+- London: Pb 0.158 mg/kg (2022, ref 94)
+
+Linseed oil:
+- Poland: Cu 0.10 mg/kg (2016, ref 98)
 
 Flaxseed oil:
 - Korea: Pb 25.65 µg/kg; Cd 70.03 µg/kg; tAs 3.1 µg/kg; Al 29,814 µg/kg = 29.81 mg/kg (2019, ref 41)
@@ -108,7 +114,10 @@ Narrative literature review (not systematic, no PRISMA or explicit inclusion cri
 - [[ingredients/rapeseed-oil]]
 - [[ingredients/sesame-oil]]
 - [[ingredients/corn-oil]]
+- [[ingredients/coconut]]
 - [[ingredients/vegetable-oils]]
+- [[products/olive-oil]]
+- [[products/cooking-oils-other]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
@@ -123,5 +132,6 @@ Narrative literature review (not systematic, no PRISMA or explicit inclusion cri
 ## Verification notes
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected multiple Table 4 metal/product transpositions, expanded metal and ingredient scope for the edible-oil section, replaced narrow oil-specific matrix terms with broad oil matrices, and reframed olive-oil origin language as source-level stratification rather than a sourcing rule.
+- 2026-05-25 manual-fetch re-ingest: added the two Table 4 rows previously omitted from Key numbers — Coconut oil (London Pb 0.158 mg/kg, 2022, ref 94) and Linseed oil (Poland Cu 0.10 mg/kg, 2016, ref 98). Declared `products: [olive-oil, cooking-oils-other]` so the routing layer fans this source out to the HMTc-locked oil rows it actually bears on; the prior empty `products: []` left the source flagged advisory-malformed and producing zero product-page routes despite covering both Cat 7 Row 1 (olive oil) and Cat 7 Row 2 (other cooking oils) directly.
 - The review reports arsenic and mercury without species separation; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
 - Negative concentration entries are reproduced only because they appear in Table 4; primary-source verification is required before interpreting them quantitatively.
