@@ -9,7 +9,7 @@ publication: "Atomic Spectroscopy"
 doi: "10.46770/as.2017.04.005"
 source_type: peer-reviewed
 evidence_tier: A
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-infant-formula-powder-non-soy-al_2017_10-46770-as-2017-04-005.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-infant-formula-powder-non-soy-al_2017_10-46770-as-2017-04-005.pdf"
 raw_sha256: ba8f7acd426df8bf2b46b7fe22070b678059f9892d451f71dc06fbd75dae02ed
 access_url: "https://doi.org/10.46770/as.2017.04.005"
 metals: [Al, Pb, Fe, Mg, Zn]
