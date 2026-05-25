@@ -12,7 +12,7 @@ evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-cd_2023_10-14202-vetworld-2023-858-868.pdf"
 metals: ["Cd", "Pb", "tHg"]
-ingredients: ["[[ingredients/swordfish]]", "[[ingredients/tuna]]"]
+ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
 products: ["[[products/seafood]]"]
 matrices: ["swordfish", "yellowfin-tuna"]
 jurisdictions: ["ID"]
@@ -41,7 +41,7 @@ This source supports seafood context for Indonesian tuna and swordfish export/co
 ## Wiki pages this source may touch
 
 - [[ingredients/swordfish]]
-- [[ingredients/tuna]]
+- [[ingredients/fish]]
 - [[products/seafood]]
 - [[metals/cadmium]]
 - [[metals/lead]]

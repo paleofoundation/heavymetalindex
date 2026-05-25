@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-cd_2021_10-47191-ijcsrr-v4-i5-14.pdf"
 metals: ["Pb", "Ni", "Cd", "Fe"]
 ingredients: ["[[ingredients/pineapple]]"]
-products: ["[[products/fruit]]"]
+products: ["[[products/fresh-fruit]]"]
 matrices: ["pineapple-fruit", "pineapple-leaves", "pineapple-roots", "pineapple-cultivated-soil"]
 jurisdictions: ["IN"]
 sample_population: "Pineapple cultivated tracts in Ernakulam district, Kerala, India"
@@ -46,7 +46,7 @@ The fruit values are routeable for pineapple ingredient context, while root, lea
 ## Wiki pages this source may touch
 
 - [[ingredients/pineapple]]
-- [[products/fruit]]
+- [[products/fresh-fruit]]
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/cadmium]]

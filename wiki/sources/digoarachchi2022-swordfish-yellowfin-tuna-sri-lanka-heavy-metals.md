@@ -12,7 +12,7 @@ evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-cd_2022_10-47191-ijcsrr-v5-i7-03.pdf"
 metals: ["tHg", "Pb", "tAs", "Cd"]
-ingredients: ["[[ingredients/swordfish]]", "[[ingredients/tuna]]"]
+ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
 products: ["[[products/seafood]]"]
 matrices: ["swordfish", "yellowfin-tuna"]
 jurisdictions: ["LK"]
@@ -45,7 +45,7 @@ The source is useful for geographic/seasonal swordfish mercury context and for n
 ## Wiki pages this source may touch
 
 - [[ingredients/swordfish]]
-- [[ingredients/tuna]]
+- [[ingredients/fish]]
 - [[products/seafood]]
 - [[metals/mercury-total]]
 - [[metals/cadmium]]

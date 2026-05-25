@@ -34,7 +34,6 @@ Source units are mg/kg.
 - Mean mercury concentration: 1.2 +/- 1.2.
 - Median mercury concentration: 0.6.
 - The highest concentration was 6.552 in muscle from fish from the Ruzin water reservoir, more than 13 times the 0.5 mg/kg comparison level.
-- The authors call out shark, swordfish, and king mackerel as seafood categories not recommended for children, women of childbearing age, pregnant women, and nursing mothers.
 
 ## Methods
 
@@ -42,7 +41,7 @@ Total mercury was measured using an AMA 254 atomic absorption mercury analyzer. 
 
 ## Implications
 
-The source supports fish/seafood total-mercury surveillance context for Slovakia. The dataset combines retail fish/products and reservoir fish, so local reservoir findings should not be pooled blindly with retail seafood.
+The source supports fish/seafood total-mercury surveillance context for Slovakia. The dataset combines retail fish/products and reservoir fish, so local reservoir findings should not be pooled blindly with retail seafood. The authors' consumer-safety conclusion specifically calls out shark, swordfish, and king mackerel as categories of concern for children, women of childbearing age, pregnant women, and nursing mothers.
 
 ## Wiki pages this source may touch
 

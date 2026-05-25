@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-vegetables-mixed-ni_2025_10-51584-ijrias-2025-10100000203.pdf"
 metals: ["Ni", "Co", "Cd", "Pb", "Fe", "Zn"]
 ingredients: ["[[ingredients/leafy-greens]]"]
-products: ["[[products/vegetables-mixed]]"]
+products: ["[[products/leafy-vegetables-other]]"]
 matrices: ["leafy-vegetables", "bitter-leaf", "garden-egg-leaf", "amaranth"]
 jurisdictions: ["NG"]
 sample_population: "Ten composite samples from six leafy vegetable types in Ondo Metropolis, Nigeria"
@@ -47,7 +47,7 @@ The source supports leafy-vegetable nickel/cobalt context for Ondo, Nigeria. Dry
 ## Wiki pages this source may touch
 
 - [[ingredients/leafy-greens]]
-- [[products/vegetables-mixed]]
+- [[products/leafy-vegetables-other]]
 - [[metals/nickel]]
 - [[metals/cobalt]]
 - [[metals/cadmium]]

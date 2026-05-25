@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-ni_2022_10-46676-ij-fanres-v3i3-113.pdf"
 metals: ["Cd", "Cr", "Cu", "Mn", "Ni", "Zn", "Pb"]
 ingredients: ["[[ingredients/chicken]]"]
-products: ["[[products/meat-poultry]]"]
+products: ["[[products/poultry-product]]"]
 matrices: ["chicken-drumstick", "fresh-chicken", "frozen-chicken"]
 jurisdictions: ["NG"]
 sample_population: "Fresh and frozen commercial chicken drumsticks from Umuahia metropolis, Abia State, Nigeria"
@@ -43,7 +43,7 @@ The source supports poultry-meat occurrence context for Nigerian market chicken,
 ## Wiki pages this source may touch
 
 - [[ingredients/chicken]]
-- [[products/meat-poultry]]
+- [[products/poultry-product]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/nickel]]

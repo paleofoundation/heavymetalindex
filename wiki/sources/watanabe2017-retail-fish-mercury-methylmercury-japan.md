@@ -45,7 +45,7 @@ The source supports Japanese retail-fish mercury surveillance and flags swordfis
 - [[ingredients/fish]]
 - [[products/seafood]]
 - [[metals/mercury-total]]
-- [[metals/methylmercury]]
+- [[metals/mercury-methyl]]
 
 ## Verification notes
 

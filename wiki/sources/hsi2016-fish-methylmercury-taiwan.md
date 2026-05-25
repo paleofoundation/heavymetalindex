@@ -12,7 +12,7 @@ evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-mehg_2016_10-1371-journal-pone-0155704.pdf"
 metals: ["MeHg"]
-ingredients: ["[[ingredients/swordfish]]", "[[ingredients/tuna]]", "[[ingredients/fish]]"]
+ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
 products: ["[[products/seafood]]"]
 matrices: ["fish", "swordfish", "tuna"]
 jurisdictions: ["TW"]
@@ -45,9 +45,8 @@ Swordfish and tuna MeHg values are routeable to seafood occurrence context. Huma
 ## Wiki pages this source may touch
 
 - [[ingredients/swordfish]]
-- [[ingredients/tuna]]
 - [[products/seafood]]
-- [[metals/methylmercury]]
+- [[metals/mercury-methyl]]
 
 ## Verification notes
 

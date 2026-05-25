@@ -12,8 +12,8 @@ evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-cd_2022_10-30954-2277-940x-03-2022-11.pdf"
 metals: ["Pb", "Cd", "Cr"]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/milk]]"]
-products: ["[[products/rice]]", "[[products/dairy]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/milk-and-dairy]]"]
+products: ["[[products/rice-bulk-grain]]"]
 matrices: ["rice-bran", "paddy-straw", "cow-milk", "soil"]
 jurisdictions: ["IN"]
 sample_population: "Soil-plant-animal samples near brick kilns in Kashmir Himalayas"
@@ -44,10 +44,9 @@ Milk values are directly routeable for dairy context. Rice bran and paddy straw 
 
 ## Wiki pages this source may touch
 
-- [[ingredients/milk]]
+- [[ingredients/milk-and-dairy]]
 - [[ingredients/rice]]
-- [[products/dairy]]
-- [[products/rice]]
+- [[products/rice-bulk-grain]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]

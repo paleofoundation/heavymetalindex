@@ -12,7 +12,7 @@ evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-mehg_2019_10-12681-jhvms-21792.pdf"
 metals: ["tHg", "MeHg"]
-ingredients: ["[[ingredients/swordfish]]", "[[ingredients/sardine]]"]
+ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
 products: ["[[products/seafood]]"]
 matrices: ["swordfish", "sardine"]
 jurisdictions: ["DZ"]
@@ -46,10 +46,10 @@ This source supports Algerian swordfish and sardine mercury occurrence with expl
 ## Wiki pages this source may touch
 
 - [[ingredients/swordfish]]
-- [[ingredients/sardine]]
+- [[ingredients/fish]]
 - [[products/seafood]]
 - [[metals/mercury-total]]
-- [[metals/methylmercury]]
+- [[metals/mercury-methyl]]
 
 ## Verification notes
 

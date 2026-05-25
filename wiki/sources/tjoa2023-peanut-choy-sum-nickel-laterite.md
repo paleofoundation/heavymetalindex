@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-vegetables-mixed-ni_2023_10-24259-jpkwallacea-v12i1-26615.pdf"
 metals: ["Ni"]
 ingredients: ["[[ingredients/peanuts]]", "[[ingredients/leafy-greens]]"]
-products: ["[[products/vegetables-mixed]]"]
+products: ["[[products/non-root-vegetables]]"]
 matrices: ["peanut-shoots", "choy-sum-shoots", "laterite-soil"]
 jurisdictions: ["ID"]
 sample_population: "Peanut and choy sum grown in limonitic laterite soil from nickel-mining context in mono- and mixed-cropping pots"
@@ -46,10 +46,11 @@ This is experimental plant-uptake context rather than market-basket occurrence. 
 
 - [[ingredients/peanuts]]
 - [[ingredients/leafy-greens]]
-- [[products/vegetables-mixed]]
+- [[products/non-root-vegetables]]
 - [[metals/nickel]]
 
 ## Verification notes
 
 - Source identity checked against DOI 10.24259/jpkwallacea.v12i1.26615 and the downloaded PDF.
+- The PDF states the limonitic laterite soil contained 7.884 mg kg-1 Ni; this value is preserved as printed in the source.
 - The source reports shoot concentrations, not finished edible retail samples; route with experimental context preserved.

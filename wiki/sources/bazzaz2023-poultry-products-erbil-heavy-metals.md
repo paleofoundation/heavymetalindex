@@ -12,8 +12,8 @@ evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-tas_2023_10-25130-tjas-23-2-17.pdf"
 metals: ["Cu", "tAs", "Pb"]
-ingredients: ["[[ingredients/chicken]]", "[[ingredients/quail-eggs]]"]
-products: ["[[products/meat-poultry]]", "[[products/eggs]]"]
+ingredients: ["[[ingredients/chicken]]"]
+products: ["[[products/poultry-product]]", "[[products/eggs-product]]"]
 matrices: ["chicken-thigh", "chicken-breast", "quail-meat", "quail-eggs"]
 jurisdictions: ["IQ"]
 sample_population: "Imported and local poultry products consumed in Erbil city, including chicken thigh, chicken breast, quail meat, and quail eggs"
@@ -44,9 +44,8 @@ The source supports poultry product occurrence routing for Erbil market/import c
 ## Wiki pages this source may touch
 
 - [[ingredients/chicken]]
-- [[ingredients/quail-eggs]]
-- [[products/meat-poultry]]
-- [[products/eggs]]
+- [[products/poultry-product]]
+- [[products/eggs-product]]
 - [[metals/lead]]
 - [[metals/arsenic-total]]
 - [[metals/copper]]

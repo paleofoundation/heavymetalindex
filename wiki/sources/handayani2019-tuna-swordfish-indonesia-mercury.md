@@ -12,7 +12,7 @@ evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-thg_2019_10-15578-jpbkp-v14i1-572.pdf"
 metals: ["tHg"]
-ingredients: ["[[ingredients/swordfish]]", "[[ingredients/tuna]]"]
+ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
 products: ["[[products/seafood]]"]
 matrices: ["yellowfin-tuna", "bigeye-tuna", "swordfish"]
 jurisdictions: ["ID"]
@@ -46,7 +46,7 @@ The source is strong context for ocean-origin and fish-weight stratification in 
 ## Wiki pages this source may touch
 
 - [[ingredients/swordfish]]
-- [[ingredients/tuna]]
+- [[ingredients/fish]]
 - [[products/seafood]]
 - [[metals/mercury-total]]
 
