@@ -11,7 +11,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/studies/signes-pastor2017-infant-arsenic-rice-weaning.pdf
-auto_fetch_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-rice-based-ias_2017_10-1371-journal-pone-0176923.pdf"
+auto_fetch_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-baby-cereals-dry-rice-based-ias_2017_10-1371-journal-pone-0176923.pdf"
 raw_sha256: 686b2a50b1780790c23e21fe27b7d7dbae553e71fd68328bdfceecbbb24dda0c
 access_url: "https://doi.org/10.1371/journal.pone.0176923"
 metals: [iAs]
