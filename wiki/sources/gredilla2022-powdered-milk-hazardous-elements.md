@@ -9,7 +9,7 @@ publication: "Food Analytical Methods"
 doi: "10.1007/s12161-022-02267-6"
 source_type: peer-reviewed
 evidence_tier: A
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-infant-formula-powder-non-soy-ca_2022_10-1007-s12161-022-02267-6.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-infant-formula-powder-non-soy-ca_2022_10-1007-s12161-022-02267-6.pdf"
 raw_sha256: 5d9da3d21c4b2b6f650a0000d0ee376dbad45bf0d63ad0bc1a1d959807e8cd47
 access_url: "https://doi.org/10.1007/s12161-022-02267-6"
 metals: [Li, Al, Mg, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, tAs, Se, Cd, Sn, Sb, Ba, tHg, Tl, Pb, Mo]
