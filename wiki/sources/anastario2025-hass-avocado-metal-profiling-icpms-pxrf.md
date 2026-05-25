@@ -32,7 +32,7 @@ Concentrations are reported as geometric mean (95% CI) per Table 1. The basis is
 
 **Mesocarp (edible pulp), HMTc-priority analytes — geometric means in µg/g dry weight unless noted:**
 
-| Analyte | Cal-USA conventional | Cal-USA organic | Mexico conventional | Mexico organic | n>LOD (of 48) |
+| Analyte | Cal-USA conventional | Cal-USA organic | Mexico conventional | Mexico organic | n>LOD (combined tissues, of 48) |
 |---|---|---|---|---|---|
 | Pb | <LOD | 0.14 (single detect)* | <LOD | <LOD | 12 |
 | Cd | 0.02 (0.01–0.02) | 0.01 (0.01–0.02) | 0.01 (0.01–0.02) | 0.02 (0.01–0.04) | 44 |
@@ -45,7 +45,7 @@ Concentrations are reported as geometric mean (95% CI) per Table 1. The basis is
 
 **Exocarp (peel, generally not eaten), HMTc-priority analytes — geometric means in µg/g dry weight unless noted:**
 
-| Analyte | Cal-USA conventional | Cal-USA organic | Mexico conventional | Mexico organic | n>LOD (of 48) |
+| Analyte | Cal-USA conventional | Cal-USA organic | Mexico conventional | Mexico organic | n>LOD (combined tissues, of 48) |
 |---|---|---|---|---|---|
 | Pb | 0.02 (single detect) | 0.01 (0.01–0.02) | 0.01 (0.01–0.01) | 0.01 (0.01–0.02) | 12 |
 | Cd | 0.04 (0.03–0.05) | 0.01 (0.01–0.02) | 0.02 (0.01–0.03) | 0.02 (0.01–0.04) | 44 |
@@ -89,11 +89,11 @@ Cross-sectional pilot, n=24 Hass avocados commercially sourced in the US (12 Cal
 
 ## Implications
 
-Certification: Mercury findings in avocado mesocarp — though below seafood MRLs — exceed some strict produce reference values at the high end, supporting inclusion of tHg in risk monitoring for avocado-containing products. Avocado is a growing ingredient in functional foods and infant-targeting products; the Hg finding and the origin-linked Co/Ni signal are actionable for supply-chain screening guidance.
+Certification: Contributes occurrence data for tHg in Hass avocado mesocarp and exocarp, including a moisture-adjusted fresh-weight maximum (0.012–0.021 mg/kg) that exceeds the EFSA-cited 0.01 mg/kg produce reference value while remaining below the FAO/WHO Codex CXS 193 fish range (0.5–1.0 mg/kg). Mesocarp values for Pb, Cd, and tAs are at low µg/g dry-weight levels with high non-detection rates; the most notable Pb observation is a single Cal-USA-organic detect at 0.14 µg/g dry weight that drives PC1 loadings but does not represent a stratum geometric mean. Origin-linked Co/Ni co-occurrence (present only in organic Cal-USA mesocarp) is a candidate signal for origin-aware research, attributed by the authors to ultramafic/serpentine soil geology rather than to farming practice.
 
 Courses: The organic/conventional difference for Ni and Co (linked to soil geology, not farming practice) is a strong illustration of why origin matters more than label for certain metals. The pXRF vs. ICP-MS calibration data are relevant to field-screening curriculum in testing methods.
 
-App: Pilot data only; insufficient n for robust app-facing concentration distributions. Flag as provisional until a larger study is available. Matrix split (mesocarp vs. exocarp) is relevant: consumers do not eat the exocarp, so mesocarp values are the appropriate basis for dietary exposure.
+App: n=24 with 6 per origin×practice stratum is below the threshold for app-facing concentration distributions; the page should be treated as provisional until larger-n occurrence data are available. The tissue split (mesocarp vs. exocarp) matters for dietary-exposure inputs: consumers do not eat the exocarp, so the mesocarp values — not the higher exocarp values — are the appropriate basis for ingestion estimates.
 
 ## Wiki pages updated on ingest
 
@@ -108,3 +108,6 @@ App: Pilot data only; insufficient n for robust app-facing concentration distrib
 - 2026-05-25: Corrected the Hg unit. Table 1 footnote: "Values for Hg represented in ng/g," whereas all other elements are µg/g dry weight. Prior version of the Methods section did not flag this distinction.
 - 2026-05-25: Flagged Pb mesocarp Cal-USA organic = 0.14 µg/g as a single-detect outlier (only 1 of 6 samples above LOD), not a stratum geometric mean. This value drove the Pb loading on mesocarp PC1 and the "moderate Pb" cluster identified in the K-means analysis. Correct interpretation: organic Cal-USA mesocarp has at least one fruit with anomalously elevated Pb relative to all other strata; the geometric-mean value is not representative.
 - 2026-05-25: Corrected `raw_path` frontmatter (previously truncated to `P0309.pdf`; actual file is `P0309_Metal profiling of Hass avocados.pdf`).
+- 2026-05-25 (audit-application): Fresh-context audit subagent (REVISE verdict) flagged the `n>LOD (of 48)` column header as potentially misleading because Table 1's n>LOD column is a single combined-tissue count, not per-tissue. Verified against Table 1 — the column shows e.g. Pb=12 with no tissue split. Relabeled column to `n>LOD (combined tissues, of 48)` in both mesocarp and exocarp tables.
+- 2026-05-25 (audit-application): Subagent flagged three phrases in Implications/Certification as drifting toward HMTc programmatic recommendation rather than literature reporting ("supporting inclusion of tHg in risk monitoring," "actionable for supply-chain screening guidance," "Flag as provisional"). Verified against CLAUDE.md Part 2 — these phrases do cross from "what the literature reports" into "what HMTc should do." Rewrote the Certification paragraph to factual occurrence-data framing and softened App-section advisory language. Preserved the substantive findings (Hg fresh-weight reconstruction, EFSA/Codex comparison, Pb single-detect outlier, origin-linked Co/Ni signature) without programmatic verbs.
+- 2026-05-25 (audit-application note): Subagent flagged `avocado-mesocarp` and `avocado-exocarp` matrix slugs as outside the documented snapshot. These were preserved from the prior version of the page; the current routing audit accepts them and the source is not in `routing_malformed.csv` or `routing_unresolved.csv`. Tissue-level matrix slugs are the correct granularity for this paper because the mesocarp/exocarp distinction is foundational to its findings (different metal-mixture signatures by tissue, only mesocarp is consumed). Slug-vocabulary governance for tissue-level matrices is a routing-layer concern, not a per-source fix; leaving slugs as-is.
