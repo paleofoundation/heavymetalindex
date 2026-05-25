@@ -159,7 +159,40 @@ let totalSkippedWeak = 0
 let totalSkippedNoOa = 0
 let totalFailed = 0
 
-for (let i = 0; i < queries.length; i += 1) {
+// Sprint mode 2026-05-25: wall-clock budget per invocation so the fetcher
+// fits inside a 30-min daemon tick when the wishlist generator emits up to
+// 2500 queries. Override with HMI_FETCH_BUDGET_MS env. Default 15 min
+// leaves the rest of the tick for routing, hygiene, briefings, etc.
+const FETCH_BUDGET_MS = parseInt(process.env.HMI_FETCH_BUDGET_MS || "900000", 10)
+const FETCH_START = Date.now()
+let budgetExhausted = false
+
+// Resume from where the previous invocation left off (rotates through the
+// 2500-query list across multiple daemon ticks instead of always restarting
+// from query 0). The checkpoint resets when the generator emits a fresh
+// query list (different hash) or the fetcher completes the whole list.
+const CHECKPOINT_PATH = path.join(repoRoot, "data/evidence/wishlist-fetch-checkpoint.json")
+let startIndex = 0
+const queriesHash = JSON.stringify(queries.slice(0, 5).map(q => q.id))  // cheap signature
+if (fs.existsSync(CHECKPOINT_PATH)) {
+  try {
+    const cp = JSON.parse(fs.readFileSync(CHECKPOINT_PATH, "utf8"))
+    if (cp.queriesHash === queriesHash && typeof cp.nextIndex === "number" && cp.nextIndex < queries.length) {
+      startIndex = cp.nextIndex
+      console.error(`[checkpoint] resuming from query index ${startIndex} of ${queries.length}`)
+    }
+  } catch {}
+}
+
+for (let i = startIndex; i < queries.length; i += 1) {
+  if (Date.now() - FETCH_START > FETCH_BUDGET_MS) {
+    if (!budgetExhausted) {
+      console.error(`[budget] FETCH_BUDGET_MS=${FETCH_BUDGET_MS} exhausted after ${i - startIndex} queries this run (${i}/${queries.length} total); checkpointing.`)
+      budgetExhausted = true
+      fs.writeFileSync(CHECKPOINT_PATH, JSON.stringify({ queriesHash, nextIndex: i }))
+    }
+    break
+  }
   const q = queries[i]
   const searchTerms = q.search_query_core || q.search_query_full
   if (!searchTerms.trim()) {
@@ -298,13 +331,18 @@ for (let i = 0; i < queries.length; i += 1) {
     audit.push(row)
   }
 
-  for (let i = 0; i < fetchCandidates.length; i += CONCURRENT_FETCHES) {
-    const batch = fetchCandidates.slice(i, i + CONCURRENT_FETCHES)
+  for (let bi = 0; bi < fetchCandidates.length; bi += CONCURRENT_FETCHES) {
+    const batch = fetchCandidates.slice(bi, bi + CONCURRENT_FETCHES)
     await Promise.all(batch.map(fetchOne))
     await new Promise((r) => setTimeout(r, DOWNLOAD_DELAY_MS))
   }
 
   await new Promise((r) => setTimeout(r, API_DELAY_MS))
+}
+
+// Clear checkpoint if we got through the whole list this run (or never hit budget)
+if (!budgetExhausted) {
+  try { fs.existsSync(CHECKPOINT_PATH) && fs.unlinkSync(CHECKPOINT_PATH) } catch {}
 }
 
 audit.sort((a, b) => a.wishlist_id.localeCompare(b.wishlist_id) || b.relevance_score - a.relevance_score)
