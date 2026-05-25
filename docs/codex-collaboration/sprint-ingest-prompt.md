@@ -27,7 +27,15 @@ STEP 3 — TRIAGE-FIRST. Open every PDF in your snapshot in parallel batches of 
 Batch-commit ALL (b)+(c) decisions to data/evidence/wishlist-fetch-audit.csv in ONE commit titled:
   triage sweep <date> <time>: <K> rollups + <P> skips
 
-STEP 4 — INGEST SWEEP. For the (a) pile, write source pages per CLAUDE.md Part 6 template (TL;DR prose under H1, then ## Key numbers, ## Methods (brief), ## Implications, ## Wiki pages this source may touch, ## Verification notes). Frontmatter discipline per CLAUDE.md Part 5:
+STEP 4 — INGEST SWEEP. For the (a) pile, write source pages per CLAUDE.md Part 6 template (TL;DR prose under H1, then ## Key numbers, ## Methods (brief), ## Implications, ## Wiki pages this source may touch, ## Verification notes).
+
+HARD RULES — placeholder pages are FORBIDDEN. If you cannot extract real numbers from the PDF, the PDF is (c) skip:no-primary-data, NOT (a) ingest. Specifically:
+  - cite_key MUST be <first-author-surname><year>-<topic-slug>. NOT "trace2025-...", NOT "research2026-...", NOT "abstract2020-...", NOT "rsc2025-...", NOT "unknown2025-...". If you cannot identify the first author's surname from the PDF byline (NOT the title's first word), the PDF goes to (c) skip:no-author-attribution.
+  - NO empty required fields. authors, doi, journal, year, publication MUST be populated from the PDF. If any are missing, the PDF is (c) skip:incomplete-metadata.
+  - NO "status: pending-review" field. NO "tags:" field. NO "study_design:" or "geographic_scope:" custom fields. Only the frontmatter fields in CLAUDE.md Part 6 are permitted.
+  - NO placeholder prose ("Pending full paper integration", "Notes for Integration", "Study Overview" without real numbers). If a section can't be filled with real PDF content, the PDF is not (a) ingest.
+
+Frontmatter discipline per CLAUDE.md Part 5:
   - cite_key: <first-author><year>-<topic-slug> (lowercase, hyphenated, disambiguated -a/-b if collision)
   - raw_handle: AUTO_<wishlist-row-id>
   - raw_path: relative path to the PDF
