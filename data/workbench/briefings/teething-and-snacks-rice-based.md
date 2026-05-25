@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: teething-and-snacks-rice-based
 native_basis: as_sold
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-20T15:36:14.020Z
+generated_at: 2026-05-20T16:22:51.860Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -261,17 +261,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `2d6a6026559573785a2da4a82599d9aed916777e` in the heavymetalindex.com repository.
+1. Checking out commit `fd913b5744b1c8014952409657e3975b71831a65` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=teething-and-snacks-rice-based` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-20T15:36:14.034Z |
+| Generated at | 2026-05-20T16:22:51.870Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `2d6a6026559573785a2da4a82599d9aed916777e` |
+| Git commit | `fd913b5744b1c8014952409657e3975b71831a65` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

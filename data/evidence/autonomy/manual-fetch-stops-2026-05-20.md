@@ -418,3 +418,49 @@ No existing page exists to merge-enhance. Writing a fresh page is impossible wit
 4. Re-run `/ingest-next-manual-fetch-pdf folder=07_Processed_Foods_Snacks_Beverages` once the file is restored.
 
 **No commits made this tick.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.
+
+## STOP: FSANZ Survey of chemical contaminants and residues in coffee — PDF file corrupted (unreadable)
+
+**PDF**: `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Survey of chemical contaminants and residues in coffee (FSANZ).pdf`
+
+**Suggested handle**: `MFK_survey-of-chemical-contaminants-and-residues-in-co`
+
+**Paper (per Kimi manifest)**: "Survey of chemical contaminants and residues in coffee" — FSANZ Technical Report (Food Standards Australia New Zealand), manifest paper ID P0267, DOI listed as "Not available", file size 300,138 bytes.
+
+**Situation**: the file on disk is a malformed PDF that cannot be opened by any available tool.
+
+- `file` reports `PDF document, version 1.5, 45 pages` (header recognized).
+- Header inspection (first 160 bytes): valid `%PDF-1.5` magic, catalog object 1 declares `Pages 2 0 R` with `Count 45`, structure tree references object 207. So the document logically claims to be 45 pages.
+- Tail inspection (last 100 bytes): pure binary garbage. No `%%EOF` marker. No `startxref` offset. No trailer dictionary. The file ends mid-stream.
+- `pdftotext` (from poppler) fails with `Syntax Error: Invalid XRef entry 0`, `Syntax Error: Missing 'endstream' or incorrect stream length`, `Syntax Error: Couldn't find trailer dictionary`, `Syntax Error: Couldn't read xref table` — no text extracted, exit code 1, no output file produced. Same failure with `-layout`, `-raw`, and `-nopgbrk` flags.
+- Anthropic Read tool reports `PDF file is corrupted or invalid.` when given the path with the `pages` parameter (tried `pages: 1-10`).
+- No `qpdf`, `mutool`, `gs`, or any other PDF-repair tool available in PATH.
+
+This is the **second corrupted PDF in the 07_Processed_Foods_Snacks_Beverages folder this tick** (first was the Northwestern Nigeria green/black/herbal tea PDF stopped earlier today with the same pattern: valid PDF header, no trailer, XRef errors, ~300-432 KB on disk). Two truncation failures in one folder is consistent with a partial-download episode in the original Kimi fetch run, not isolated file corruption — the manifest-declared size (300,138 bytes) matches the on-disk size exactly, which means the fetcher saved a stream it had only partially received and then wrote the final size to the manifest, masking the truncation.
+
+**Identity checks run** (all negative for the FSANZ coffee survey specifically):
+
+- Title-substring grep across `wiki/sources/` for `FSANZ.*coffee`, `coffee.*FSANZ`, `survey.*chemical.*contaminants.*coffee`, `chemical-contaminants-and-residues-in-coffee` — no hits.
+- Existing FSANZ pages in `wiki/sources/`: `fsanz2012-arsenic-apple-pear-juice-australia-nz.md` and `fsanz2019-25th-australian-total-diet-study.md` (the 25th ATDS). Neither is this paper.
+- Existing coffee pages in `wiki/sources/`: adler2019, albals2021, dasilva2017, kowalska2021, winiarska-mieczan2022, zandi2025, zergui2023. None is the FSANZ coffee survey.
+- Suggested handle grep (`MFK_survey-of-chemical-contaminants-and-residues-in-co`) — no hits.
+
+No existing page exists to merge-enhance. Writing a fresh page is impossible without source content — no abstract, no methods, no contaminant tables, no Key numbers, no metals/pesticide breakdown, no exposure assessment. Fabricating any of those would violate the Cochrane bar this skill exists to enforce. The filename plus "FSANZ Technical Report" alone is not enough — FSANZ coffee surveys are a real publication category, so even the publication-year would have to be guessed.
+
+**Why this is a hard stop**: the v2.0 skill requires reading the PDF in step 2 of Phase 1 ("Tables are mandatory — Key numbers needs exact figures"). The file cannot be opened. There is no path forward inside an ingest tick.
+
+**What I did NOT do**:
+
+- Did not create `wiki/sources/MFK_survey-of-chemical-contaminants-and-residues-in-co.md` (would have been a fraudulent source page).
+- Did not commit. Did not append to `data/evidence/audit-queue.csv`.
+- Did not spawn an audit subagent.
+
+**Recommended next steps** (Karen):
+
+1. Re-fetch the source from FSANZ directly. The FSANZ chemical-contaminants-and-residues-in-coffee survey is a published technical report on the FSANZ website (foodstandards.gov.au) and is freely available. A clean copy should be in the 1-3 MB range for a 45-page agency survey with tables; 300 KB with no XRef is the same truncation pattern as the Northwestern Nigeria tea PDF stopped earlier today.
+2. Both PDFs in this folder failed with the same XRef/trailer-missing pattern. Worth a quick byte-tail scan across the rest of `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/` for any other PDFs whose tails lack `%%EOF` — the same fetch run may have produced more partial files.
+3. Replace the corrupted file at the same path with a clean copy, or move the broken one to `raw/_quarantine/` and drop the clean copy into the folder slot.
+4. Optionally install `qpdf` (`brew install qpdf`) so future malformed-PDF cases can attempt `qpdf --linearize` repair before stopping.
+5. Re-run `/ingest-next-manual-fetch-pdf folder=07_Processed_Foods_Snacks_Beverages` once the file is restored.
+
+**No commits made this tick.** Audit-queue not updated. Wrapper should advance to the next PDF in the folder.

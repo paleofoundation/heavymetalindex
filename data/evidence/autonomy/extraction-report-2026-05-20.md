@@ -1,15 +1,15 @@
 # Source-value extraction report — 2026-05-20
 
-Generated: 2026-05-20T15:11:27.947Z
+Generated: 2026-05-20T16:06:23.270Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 1012
-- Pages with `## Key numbers` section: 898
+- Source pages processed: 1013
+- Pages with `## Key numbers` section: 899
 - Pages without Key numbers section (skipped): 113
-- Structured rows extracted: 5798
+- Structured rows extracted: 5821
 - Pages with Key numbers but no parseable values: 75
 
 ## Output
@@ -19,25 +19,25 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1134 rows
-- Cd: 1075 rows
-- Cr-total: 557 rows
+- Pb: 1135 rows
+- Cd: 1076 rows
+- Cr-total: 559 rows
 - Ni: 531 rows
-- tAs: 426 rows
-- Al: 368 rows
+- tAs: 428 rows
+- Al: 370 rows
 - tHg: 336 rows
-- Cu: 181 rows
+- Cu: 183 rows
 - iAs: 180 rows
 - Co: 153 rows
-- Sn: 106 rows
+- Sn: 107 rows
 - Fe: 102 rows
 - MeHg: 97 rows
 - Mn: 84 rows
 - U: 82 rows
-- Se: 73 rows
-- V: 67 rows
-- Sb: 48 rows
-- Ba: 42 rows
+- Se: 76 rows
+- V: 70 rows
+- Sb: 49 rows
+- Ba: 44 rows
 - Cr-VI: 27 rows
 - Mo: 23 rows
 - Be: 15 rows
@@ -46,11 +46,11 @@ Elapsed: 0s
 - Ca: 10 rows
 - K: 9 rows
 - Ti: 8 rows
+- Li: 7 rows
 - DMA: 7 rows
 - B: 7 rows
 - Sr: 6 rows
 - Ag: 5 rows
-- Li: 4 rows
 - W: 3 rows
 - MMA: 2 rows
 - F: 1 rows
@@ -61,7 +61,7 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2075 rows
+- (empty): 2077 rows
 - fresh-fish: 289 rows
 - seafood: 239 rows
 - fresh-fruit: 231 rows
@@ -80,4 +80,4 @@ Elapsed: 0s
 - fish-freshwater: 58 rows
 - root-tuber-vegetables: 55 rows
 - tea-infusions: 54 rows
-- poultry-product: 48 rows
+- tea: 51 rows

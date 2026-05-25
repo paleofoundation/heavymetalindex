@@ -199,3 +199,15 @@
 
 ### Failed
 - P1 `unknown2012-original` (FM_3775530): cite_key mismatch: freire2013-fish-mercury-italy
+
+## Batch 2026-05-20T16:08:01.339Z
+
+- Candidates this batch: 2
+- Succeeded: 1
+- Failed: 1
+
+### Succeeded
+- P1 `unknown2008-unknown-b` (FM_4421759)
+
+### Failed
+- P1 `unknown2012-original` (FM_3775530): exit 1: 

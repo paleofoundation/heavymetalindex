@@ -215,3 +215,16 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Potential Health Risk Assessment of Heavy Metals via Consumption of Green, Black and Herbal Tea Marketed in Northwestern Nigeria.pdf`: PDF file corrupted (invalid XRef table, missing EOF marker) — unreadable by pdftotext, pypdf, and Anthropic Read tool; no fallback source content exists in the repo.
+
+## Tick 2026-05-20T16:08:01.417Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `david2008-heavy-metals-canned-tomato-paste-romania` (raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste (Romanian study on sauces).pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Survey of chemical contaminants and residues in coffee (FSANZ).pdf`: PDF corrupted (truncated; no XRef/trailer/EOF) — cannot read source content; same fetch-truncation pattern as the Northwestern Nigeria tea PDF stopped earlier today.

@@ -66,6 +66,7 @@ const MANUAL_FETCH_ROOTS = [
   { root: "raw/Manual Fetch Kimi ", handlePrefix: "MFK" },
   { root: "raw/Papers Cube Manual Fetch", handlePrefix: "PCMF" },
   { root: "raw/Manual Resourcing", handlePrefix: "MR" },
+  { root: "raw/Manual Fetch Discovery", handlePrefix: "MFD" },
 ]
 
 const PRIORITY_KEYWORDS = [
@@ -81,6 +82,7 @@ const PRIORITY_KEYWORDS = [
   "08_Nuts_Seeds_Legumes_and_Misc",
   "condiment_papers",
   "Manual Resourcing",
+  "Manual Fetch Discovery",
   // catch-all bucket for top-level loose PDFs and any others
   "",
 ]

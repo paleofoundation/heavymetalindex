@@ -1,6 +1,6 @@
 ---
 name: ingest-next-manual-fetch-pdf
-description: Autonomously ingest the next un-ingested or possibly-defective manual-fetch PDF from raw/Manual Fetch Kimi /, raw/Manual Resourcing/, or raw/Papers Cube Manual Fetch/ into a properly-ingested wiki source page, then auto-audit via a fresh-context subagent and apply audit findings. Bounded, stops on conditions that require Karen's input. Use when Karen runs `/ingest-next-manual-fetch-pdf folder=<folder-name>` or via `/loop /ingest-next-manual-fetch-pdf folder=<folder-name>`. Karen is out of the loop — ingest, audit, and audit-application all happen autonomously in one skill execution per PDF.
+description: Autonomously ingest the next un-ingested or possibly-defective manual-fetch PDF from raw/Manual Fetch Kimi /, raw/Manual Resourcing/, raw/Papers Cube Manual Fetch/, or raw/Manual Fetch Discovery/ into a properly-ingested wiki source page, then auto-audit via a fresh-context subagent and apply audit findings. Bounded, stops on conditions that require Karen's input. Use when Karen runs `/ingest-next-manual-fetch-pdf folder=<folder-name>` or via `/loop /ingest-next-manual-fetch-pdf folder=<folder-name>`. Karen is out of the loop — ingest, audit, and audit-application all happen autonomously in one skill execution per PDF.
 version: 2.0.0
 ---
 
@@ -12,12 +12,13 @@ The fresh-context audit step uses the Agent tool with `subagent_type: general-pu
 
 ## Arguments
 
-- `folder=<name>` (required): folder name within the three manual-fetch parent folders. Examples:
+- `folder=<name>` (required): folder name within the four manual-fetch parent folders. Examples:
   - `06_Infant_Foods_Formula` (under `raw/Manual Fetch Kimi /`)
   - `Children Personal Care Papers` (under `raw/Manual Fetch Kimi /`)
   - `condiment_papers` (under `raw/Manual Fetch Kimi /`)
   - `Papers Cube Manual Fetch` (the parent folder itself; only valid for PCMF)
   - `Manual Resourcing` (the parent folder itself; only one PDF)
+  - `Manual Fetch Discovery` (the parent folder itself; PDFs auto-fetched by the `discover` skill)
 - `n=<integer>` (optional, default 3): maximum number of PDFs to process in this invocation.
 - `skip_audit=true` (optional, default false): skip the auto-audit step. Use only when bypassing audit for explicit reasons (Karen testing the ingest logic, batch-recovering from an audit-system failure, etc.).
 
