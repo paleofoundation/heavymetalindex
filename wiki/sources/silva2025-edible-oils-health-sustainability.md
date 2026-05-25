@@ -16,7 +16,7 @@ metals: [Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Mn, V, tHg]
 ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/rice-bran-oil]]", "[[ingredients/peanut-oil]]", "[[ingredients/sesame-oil]]", "[[ingredients/rapeseed-oil]]", "[[ingredients/corn-oil]]", "[[ingredients/vegetable-oils]]"]
 products: []
 matrices: [edible-oil, vegetable-oil]
-jurisdictions: [MA, IR, GR, CN, BR, TW, KR, IT, ES, US, MY]
+jurisdictions: [MA, IR, GR, CN, BR, TW, KR]
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic review of 35 studies meeting eligibility criteria (of 125 articles screened), including 7 studies on contaminants (PAHs and heavy metals) in edible vegetable oils; databases MEDLINE/PubMed, ScienceDirect, SCOPUS searched through 1 September 2025"
@@ -51,7 +51,7 @@ This systematic review (35 included studies from MEDLINE/PubMed, ScienceDirect, 
 - Traditional olive oil from Iran (Tayeb & Movassaghghazani, n=60): Pb and Cd below national limits; traditional olive oil showed MOE for Pb under 10,000; HI for both metals below 1
 
 **PAH concentrations (EU maximum cited by the review: 2 µg/kg for oils):**
-- Camellia oil: 7.15 µg/kg; flaxseed: 8.62; peanut: 6.44; sesame: 6.31; corn: 6.08–182.79; canola: 129.28; palm: 22.6; sunflower: 5.63; olive: 5.39; soybean: 5.34
+- Camellia oil: 7.15 µg/kg; flaxseed: 8.62; peanut: 6.44; sesame: 6.31; corn: 6.08–182.79; canola: 129.28; palm: 22.6; sunflower: 5.63; olive: 5.39; soybean: 5.34; rapeseed: 4.35
 
 ## Methods
 
@@ -93,5 +93,7 @@ Systematic review following adapted PRISMA principles. Databases: MEDLINE/PubMed
 ## Verification notes
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected the truncated raw PDF path, removed the invalid `palm-oil` ingredient link, expanded metal and oil-ingredient scope to match Table A1 where current slugs exist, and reframed HMT&C/workbench language as source-level context.
-- Re-verification pass (Claude Opus, 2026-05-25) cross-checked all Table A1 numbers against the source PDF. Three corrections applied: (a) removed fabricated "Co 0.21" from the Palm oil row — Table A1's Palm entry contains only As, Ni, V, Cr, Cu, Zn, Pb, Mn, no cobalt — and dropped `Co` from the metals frontmatter; (b) re-attributed the Rice bran oil row from "(Iran)" to Lin et al. 2024 Taiwan, since the Table A1 reference for rice bran is [48] = Lin et al. Taiwan, while the Iran rice-bran finding (Mohajer) in Table 3 is narrative-only with no specific Table A1 figures; (c) re-attributed Flaxseed oil to its mixed Table A1 references [6,50] = He et al. 2025 China + Lee et al. 2019 Korea processing study. Added `access_url` and refined license to "CC BY 4.0". Expanded jurisdictions to reflect the broader country coverage of cited studies (TW, KR, IT, ES, US, MY in addition to the originally listed MA, IR, GR, CN, BR).
+- Re-verification pass (Claude Opus, 2026-05-25) cross-checked all Table A1 numbers against the source PDF. Three corrections applied: (a) removed fabricated "Co 0.21" from the Palm oil row — Table A1's Palm entry contains only As, Ni, V, Cr, Cu, Zn, Pb, Mn, no cobalt — and dropped `Co` from the metals frontmatter; (b) re-attributed the Rice bran oil row from "(Iran)" to Lin et al. 2024 Taiwan, since the Table A1 reference for rice bran is [48] = Lin et al. Taiwan, while the Iran rice-bran finding (Mohajer) in Table 3 is narrative-only with no specific Table A1 figures; (c) re-attributed Flaxseed oil to its mixed Table A1 references [6,50] = He et al. 2025 China + Lee et al. 2019 Korea processing study. Added `access_url` and refined license to "CC BY 4.0". Initially over-broadened jurisdictions; auto-audit (2026-05-25) flagged that IT/ES/US/MY traced to Table 1 clinical-trial venues rather than Table A1 contamination-sample countries — reverted to the Table A1 / Table 3 contamination-source set (MA, IR, GR, CN, BR, TW, KR; SSA via ref [51] = Ingenbleek has no single ISO code so is omitted).
+- Auto-audit follow-ups (2026-05-25): added rapeseed PAH value (4.35 µg/kg, Table A1) to the PAH bullet list for completeness.
+- Missing-slug proposals (flagged but NOT created — new ingredient pages are out of scope for this skill): the source provides Table A1 numeric data for palm oil, flaxseed oil, canola oil, and camellia (seed) oil, but no ingredient pages currently exist for these four oils. These slugs (`palm-oil`, `flaxseed-oil`, `canola-oil`, `camellia-oil`) should be considered for future ingredient page creation once the freq-2 threshold is reached across the corpus.
 - The review does not distinguish inorganic from total arsenic or methylmercury from total mercury; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
