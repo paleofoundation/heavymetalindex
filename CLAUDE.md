@@ -333,6 +333,8 @@ Course-drafting, app-layer, WikiBiome federation prep, and images/figures workfl
 
 See [[docs/conventions]] (Proactive maintenance section): flag regulatory changes; suggest new sources; propose schema changes; call out weak spots; maintain `wiki/synthesis.md`; protect both directions of HMT&C drift.
 
+**Working on the Program Manual?** Read [[data/workbench/standards-book/README.md]] first. It is the structural index for the manual: directory layout, what each Part covers, where the canonical source documents live, where the audit trail documents are, the build pipeline commands, and a "what file should I edit for which task" lookup. The Program Manual itself is 383 pages and ~716 KB; reading it cold burns context. The README lets a session navigate to the specific Part(s) relevant to the task without ingesting the full volume. Companion files: [[docs/prompt-catalog.md]] (graded prompt index for build pipelines), [[tools/standards/README.md]] (build pipeline reuse across categories), [[data/workbench/standards-book/adversarial-audit.md]] (Pre-work 6 defensibility audit).
+
 ## Part 25 — Out of scope
 
 See [[docs/conventions]] (Out of scope section). No original lab procedures; no brand-specific regulatory advice; no medical claims.
