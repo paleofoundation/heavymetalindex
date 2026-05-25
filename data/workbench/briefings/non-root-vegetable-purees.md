@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: non-root-vegetable-purees
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-20T16:22:50.691Z
+generated_at: 2026-05-25T08:26:38.441Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -16,7 +16,7 @@ noindex: true
 **Subcategory role:** independent_serves_as_cross_row_cc
 **Native basis for published thresholds:** as_consumed
 **Methodology:** HMTc-10 analyte panel; per-analyte standards derived from pooled occurrence distribution at P97 (clean / independent rows) or P45 (dirty rows), capped at the lowest applicable regulatory ceiling. See "Methodology in one page" below.
-**Date generated:** 2026-05-20
+**Date generated:** 2026-05-25
 **Author:** Karen Pendergrass, Standards Architect, Paleo Foundation
 **Status:** Draft for stakeholder review. Not yet through the 9 pre-publication gates.
 
@@ -225,17 +225,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `fd913b5744b1c8014952409657e3975b71831a65` in the heavymetalindex.com repository.
+1. Checking out commit `77822fcea8ae7484b432dbd77a113ec5fff07243` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=non-root-vegetable-purees` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-20T16:22:50.704Z |
+| Generated at | 2026-05-25T08:26:38.452Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `fd913b5744b1c8014952409657e3975b71831a65` |
+| Git commit | `77822fcea8ae7484b432dbd77a113ec5fff07243` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

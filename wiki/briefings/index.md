@@ -2,7 +2,7 @@
 title: Weekly briefings
 description: Auto-generated weekly summaries of what the autonomy loop did.
 audience: [karen, internal]
-updated: 2026-05-20
+updated: 2026-05-25
 noindex: true
 ---
 
@@ -10,6 +10,7 @@ noindex: true
 
 Each entry is a 7-day summary of autonomy-loop output: new sources, synthesized cells, OA fetches, gaps closed, and the per-week Cochrane comparison.
 
+- [[briefings/weekly-2026-05-25|weekly-2026-05-25]]
 - [[briefings/weekly-2026-05-20|weekly-2026-05-20]]
 - [[briefings/weekly-2026-05-19|weekly-2026-05-19]]
 - [[briefings/weekly-2026-05-18|weekly-2026-05-18]]

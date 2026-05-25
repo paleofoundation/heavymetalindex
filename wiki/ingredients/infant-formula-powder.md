@@ -33,7 +33,7 @@ contamination_profile:
     p95_ppb: 1045
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-20
+    last_reviewed: 2026-05-25
   Ni:
     status: populated
     typical_ppb: [null, null]
