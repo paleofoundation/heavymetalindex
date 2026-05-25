@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: FM_11621596
-cite_key: unknown2021-current-research-toxicology
+cite_key: onyena2024-lactational-metals-africa-mediterranean
 title: "Lactational exposure of human infants to metal(loid)s in Sub-Saharan Africa and Mediterranean Europe: A systematic review and meta-analysis"
 authors: [Amarachi Paschaline Onyena, Onyinyechi Bede-Ojimadu, Taagbara Jolly Abaate, Dokuboba Amachree, Chiara Frazzoli, Opeyemi M. Folorunso, Beatrice Bocca, Orish E. Orisakwe]
 year: 2024

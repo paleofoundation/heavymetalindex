@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: FM_9739351
-cite_key: comparative2022-comparative-biomonitoring-arsenic-exposure
+cite_key: garciasalcedo2022-arsenic-biomonitoring-mexico
 title: "Comparative Biomonitoring of Arsenic Exposure in Mothers and Their Neonates in Comarca Lagunera, Mexico"
 authors: [García Salcedo JJ, Roh T, Nava Rivera LE, Betancourt Martínez ND, Carranza Rosales P, San Miguel Salazar MF, Rivera Guillén MA, Serrano Gallardo LB, Niño Castañeda MS, Guzmán Delgado NE, Millán Orozco J, Ortega Morales N, Morán Martínez J]
 year: 2022

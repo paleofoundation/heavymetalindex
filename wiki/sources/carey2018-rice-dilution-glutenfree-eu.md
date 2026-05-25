@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: FM_5856424
-cite_key: funding2018-unknown
+cite_key: carey2018-rice-dilution-glutenfree-eu
 title: "Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards"
 authors: [Carey M, Donaldson E, Signes-Pastor AJ, Meharg AA]
 year: 2018

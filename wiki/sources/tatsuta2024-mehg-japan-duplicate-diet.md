@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: FM_11111292_Dietary_intake_of_methylmercury_by_0-5_years_children_using
-cite_key: research2024-research-c
+cite_key: tatsuta2024-mehg-japan-duplicate-diet
 title: "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan"
 authors: [Nozomi Tatsuta, Kaname Asato, Miyuki Iwai-Shimada, Kenta Iwai, Shoji F. Nakayama, Shin Yamazaki, Kunihiko Nakai]
 year: 2024

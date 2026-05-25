@@ -37,9 +37,9 @@ All ranges below are reproduced from the review's Tables 1–4 and from the corr
 
 - Tap water (Table 1): ND to 260.0 µg/L. Highest reported in Iran (ND–260.0 µg/L, ICP-MS); Saudi Arabia 99.00 ± 6.00 µg/L.
 - Bottled/sachet water (Table 2): ND to 123.15 µg/L. Highest in South Africa (5.98–123.15 µg/L, ICP-MS).
-- Surface water (Table 3): ND to ~64.00 µg/L (range, all stated as µg/L). Highest 64.00 µg/L from Bangladesh.
+- Surface water (Table 3): ND to 0.259 mg/L. Highest 0.259 mg/L (259 µg/L) from Ghana (Cobbina et al., 2015; ref [5], AAS, `**` mg/L notation). The abstract confirms "ND to 0.259 mg/L (surface water)" as the Pb surface-water range. Bangladesh 8.000–64.00 µg/L is the next-highest by µg/L magnitude.
 - Groundwater (Table 4): ND to 0.791 mg/L. Highest 0.791 mg/L from Ghana (Cobbina et al., 2015; ref [5]).
-- Overall maximum: 0.791 mg/L (groundwater, Ghana). Review narrative and abstract both attribute this maximum to groundwater. The review's Table 5 summary row lists "Lead — 0.791 mg/L — Ghana — Tap water"; this is a paper-internal contradiction (see Verification notes).
+- Overall maximum: 0.791 mg/L (groundwater, Ghana). Review narrative and abstract both attribute this maximum to groundwater. The review's Table 5 summary row lists "Lead — 0.791 mg/L — Ghana — Tap water"; this is a paper-internal contradiction (see Verification notes). Note: the same 0.259 mg/L Ghana figure that appears in Table 3 as a Pb surface-water value also appears in Table 5 as the Hg surface-water overall maximum (Ghana), a second Pb/Hg cross-attribution in the review's summary table.
 
 **Cadmium (Cd).** WHO guideline 3 µg/L (0.003 mg/L).
 
@@ -62,8 +62,8 @@ All ranges below are reproduced from the review's Tables 1–4 and from the corr
 - Tap water (Table 1): ND to 10.50 µg/L; Uganda 10.50 µg/L (highest in Table 1); Saudi Arabia 1.00–6.00 µg/L.
 - Bottled/sachet water (Table 2): ND to 190.26 µg/L. Highest 190.26 µg/L from South Africa (ref [4]).
 - Surface water (Table 3): ND to 126.0 µg/L (per narrative summary). Highest 126.0 µg/L from Bangladesh (ref [29]).
-- Groundwater (Table 4): ND to 244.4 µg/L. Highest 244.4 µg/L from China (ref [43]) per Table 4 entry and per narrative.
-- Overall maximum per the review's narrative summary: 244.43 µg/L groundwater, China. Table 5 lists the overall Cr maximum as "244.4 mg/L — China — Surface water"; mg/L (not µg/L) and "Surface water" both disagree with Table 4 and with the narrative summary. Flagged as paper-internal contradiction; the µg/L groundwater attribution is the consistent reading.
+- Groundwater (Table 4): "0.090–244.4 **" for China (ref [43]; `**` is mg/L per the table key). Table 4 thus prints 244.4 mg/L for China groundwater Cr.
+- Overall maximum: Tables 4 and 5 agree on 244.4 mg/L for the China entry, but disagree on water-source attribution (Table 4 groundwater; Table 5 "Surface water"). The narrative summary on p6 reports "not detectable to 244.43 µg/L in groundwater" — disagreeing with both tables on unit (µg/L vs mg/L). A 244.4 mg/L groundwater Cr concentration would be five orders of magnitude above the WHO 50 µg/L guideline and is implausible without further documentation; a 244.43 µg/L groundwater value is consistent with the narrative summary on p6 and with the per-row Chinese surface-water range (0.09–106.82 µg/L, ref [43]) reported elsewhere in Table 3. Flagged as paper-internal contradiction.
 
 **Nickel (Ni).** WHO guideline 70 µg/L (0.07 mg/L); EU 20 µg/L for natural mineral water.
 
@@ -108,10 +108,10 @@ All ranges below are reproduced from the review's Tables 1–4 and from the corr
 
 **Manganese (Mn).** WHO guideline 400 µg/L (0.4 mg/L); USEPA health advisory 30 µg/L (secondary contaminant).
 
-- Tap water (Table 1): 0.234 to 122.0 µg/L; Ecuador 3.000–122.0 µg/L; Ethiopia 2.080–19.78 µg/L. Highest in Table 1 from Costa Rica 0.34–86.8 µg/L.
+- Tap water (Table 1): 0.234 to 122.0 µg/L. Highest 3.000–122.0 µg/L from Ecuador (ICP-OES, ref [92]); Costa Rica 0.34–86.8 µg/L; Ethiopia 2.080–19.78 µg/L; Lebanon 0.234 µg/L; Saudi Arabia ND.
 - Bottled/sachet water (Table 2): <LOD to 296 µg/L; Croatia 1.13–296 µg/L (ICP-AES, ref [86]); South Africa 16.95–268.91 µg/L.
 - Surface water (Table 3): 0.040 to 1,941 µg/L; China 0.040–1,941 µg/L (ICP-MS, ref [43]); Bolivia 0.040–780.5 µg/L.
-- Groundwater (Table 4): 0.0001 mg/L to 2,339.90 µg/L. Highest 2,339.90 µg/L from India (ref [107]); Sri Lanka 2,477–2,241 µg/L; Bangladesh 50.0–2020 µg/L.
+- Groundwater (Table 4): 0.0001 mg/L to 2,339.90 µg/L. Highest 2,339.90 µg/L from India (ref [107]); Sri Lanka 2.477–2,241 µg/L (`*` µg/L notation per Table 4); Bangladesh 50.0–2,020 µg/L.
 - Table 5 overall maximum: 2,339.9 µg/L groundwater, India.
 
 **Mercury (Hg — total; the review notes "though the studies used for this review did not indicate the Hg form").** WHO guideline 6 µg/L per Table 5; 1 µg/L per the narrative text (see Verification notes).

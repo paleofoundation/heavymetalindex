@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: FM_9947434
-cite_key: research2019-2019-2020-australian-landscape
+cite_key: beyene2023-australian-fires-breast-milk
 title: "The impact of the 2019/2020 Australian landscape fires on infant feeding and contaminants in breast milk in women with asthma"
 authors: ["Tesfalidet Beyene", "Graeme R. Zosky", "Peter G. Gibson", "Vanessa M. McDonald", "Elizabeth G. Holliday", "Jay C. Horvat", "Anne E. Vertigan", "Joe Van Buskirk", "Geoffrey G. Morgan", "Edward Jegasothy", "Ivan Hanigan", "Vanessa E. Murphy", "Megan E. Jensen"]
 year: 2023

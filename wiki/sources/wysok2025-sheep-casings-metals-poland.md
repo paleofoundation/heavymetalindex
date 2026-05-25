@@ -1,7 +1,7 @@
 ---
 type: source
 raw_handle: FM_12071571
-cite_key: assessment2025-microbial-heavy-metal-contamination
+cite_key: wysok2025-sheep-casings-metals-poland
 title: "Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions"
 authors: ["Beata Wysok", "Adam Dymkowski", "Marta Sołtysiuk", "Aleksandra Kobuszewska"]
 year: 2025
