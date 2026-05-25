@@ -12,7 +12,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/markdown/FM_9971144_Dietary_Exposure_to_Essential_and_Non-essential_Elements_Dur/FM_9971144_Dietary_Exposure_to_Essential_and_Non-essential_Elements_Dur.md
-auto_fetch_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-baby-cereals-dry-rice-based-ni_2022_10-1007-s12403-022-00489-x.pdf"
+auto_fetch_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-baby-cereals-dry-rice-based-ni_2022_10-1007-s12403-022-00489-x.pdf"
 raw_sha256: 4b3e872ffd4410f9f09193c9f0ae6e746e287f7307d306932c5acabc1bbc7999
 access_url: "https://doi.org/10.1007/s12403-022-00489-x"
 metals: [iAs, Pb, Cd, tHg, Al, Sb, Sn, U, V, Ni, Mo]
