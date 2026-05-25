@@ -45,13 +45,15 @@ const DOWNLOAD_DELAY_MS = 200
 // globally; per-publisher concurrency is implicitly limited by the
 // candidate diversity within a single OpenAlex result set.
 const CONCURRENT_FETCHES = 5
-// Threshold lowered 2026-05-19 from 3 → 1 after measuring that the prior
-// threshold rejected 63% of wishlist candidates (440 skip:no-keyword-overlap
-// + 102 review:weak-match out of 868 rows). The negative-keyword filter is
-// the real precision gate (biosensor/perovskite/case-report etc. score below
-// zero and stay out). Any positive hit after negative-penalty applies is
-// worth a fetch + content-check.
-const DOWNLOAD_THRESHOLD = 1
+// Threshold history:
+//   2026-05-19: 3 → 1 (was over-rejecting; negative-keyword filter was the
+//                       real precision gate, raw score 1+ worth checking).
+//   2026-05-25: 1 → 2 (sprint-mode Codex run showed 7% true-positive rate on
+//                       209 PDFs; combined with the title.search switch and
+//                       expanded negative keywords below, raising the floor
+//                       requires both a positive AND no negative hit before
+//                       fetching, target true-positive rate >40%).
+const DOWNLOAD_THRESHOLD = 2
 
 // Metal alias table — mirrors METAL_SPECS in tools/wishlist/parse-wishlist.mjs.
 // Used to score paper abstracts against ALL synonyms of a metal, not just the
@@ -97,19 +99,47 @@ const NEGATIVE_KEYWORDS = [
   // materials science contexts
   "perovskite", "photovoltaic", "solar cell", "battery", "catalyst",
   "MOF synthesis", "metal-organic framework", "nanocomposite synthesis",
+  "thin-film", "thin film transistor", "TFT", "coffee-ring", "coffee ring effect",
   // plant molecular biology / experiment contexts
   "transcriptomic", "QTL mapping", "gene expression analysis", "transgenic",
   "stress tolerance", "phytoextraction", "phytoremediation", "hydroponic",
   "CRISPR", "rhizosphere", "metallothionein gene", "transporter gene",
+  "salinity stress", "abiotic stress", "antioxidant defense",
   // AMR / microbiology contexts
   "antimicrobial resistance", "antibiotic resistance gene", "AMR",
   "metal resistance gene", "biofilm formation", "Salmonella isolates",
-  // clinical case reports / pathology
+  // clinical case reports / pathology / disease epidemiology
   "case report", "case series", "fatty liver", "acute kidney injury",
   "hepatology", "nephrology", "renal failure", "intoxication case",
-  // pure ecology / soil-only studies
+  "bladder cancer", "epidemiology of", "case-control study", "cohort study",
+  "covid-19", "stress fracture", "lifestyle intervention",
+  // toxicology mechanism / protective effect (not occurrence)
+  "protective effect", "hepatoprotective", "nephroprotective",
+  "antioxidant activity", "oxidative stress", "apoptosis",
+  "induced toxicity", "ameliorate", "ameliorative",
+  "DNA damage", "lipid peroxidation",
+  // adsorption / removal / remediation (using food as adsorbent, not measuring food)
+  "adsorbent", "adsorption", "biosorption", "biosorbent",
+  "biochar", "activated carbon", "chitosan composite",
+  "removal of heavy metals", "removal of lead", "removal of cadmium",
+  "wastewater treatment", "effluent treatment", "leachate",
+  "remediation of", "chelation therapy", "chelating agent",
+  // biomonitoring / human-sample studies (blood/urine/hair, not food matrix)
+  "biomonitoring", "blood lead level", "blood cadmium",
+  "maternal whole blood", "hair sample", "urine sample",
+  "human exposure assessment", "dietary exposure assessment",
+  // review / secondary literature (not primary occurrence data)
+  ": a review", ": a systematic review", "a meta-analysis",
+  "systematic review of", "scoping review", "narrative review",
+  // pure ecology / soil-only / non-food applications
   "sediment ecology", "bioindicator species", "mining tailings remediation",
-  "soil microbial community",
+  "soil microbial community", "soil contamination assessment",
+  // nutrition reviews not specific to contamination
+  "nutritional value of", "nutritional composition",
+  "tea drinking culture", "tea ceremony",
+  // animal-experiment-only (not retail food)
+  "rats fed", "mice fed", "rabbits exposed", "broiler trial",
+  "feeding trial", "experimental diet",
 ]
 
 function negativeScore(haystack) {
@@ -200,7 +230,15 @@ for (let i = startIndex; i < queries.length; i += 1) {
     continue
   }
 
-  const url = `${OPENALEX_BASE}?search=${encodeURIComponent(searchTerms)}&filter=is_oa:true,from_publication_date:${FROM_YEAR}-01-01&per-page=${PER_QUERY_LIMIT}`
+  // Sprint mode 2026-05-25: switched from `search=` (loose full-text matching
+  // against title+abstract+fulltext+references) to `title_and_abstract.search`
+  // which requires the terms to appear in title OR abstract — not just in
+  // references or fulltext body. This alone cut the prior 7% true-positive
+  // rate by excluding adsorbent papers ("removal of Pb using coffee waste"
+  // matched as "coffee Pb concentration" under the old search), thin-film
+  // transistor papers using metals as semiconductors, and clinical-mechanism
+  // papers ("hepatoprotective coffee against Cd toxicity in rats").
+  const url = `${OPENALEX_BASE}?filter=title_and_abstract.search:${encodeURIComponent(searchTerms)},is_oa:true,from_publication_date:${FROM_YEAR}-01-01&per-page=${PER_QUERY_LIMIT}`
   process.stderr.write(`[${q.id}] "${searchTerms}" ... `)
 
   let works = []
