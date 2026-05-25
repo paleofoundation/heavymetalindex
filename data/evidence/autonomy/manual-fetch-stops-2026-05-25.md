@@ -150,3 +150,49 @@ The PDF needs to be **re-fetched from source**. Likely DOI candidates (to be con
 **No commits made.** No wiki page created. No routing audit run. No audit-queue entry added.
 
 **Wrapper output line:** `STOP: off-topic-pdf P0306-misnamed (actual content: dietary-patterns/abdominal-obesity, not metals)`
+
+---
+
+## Stop entry — P0314 (misnamed PDF: COVID-19 / ASQ developmental outcomes, off-topic for HMI)
+
+**PDF:** `raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0314_Non-carcinogenic and carcinogenic health risk assessment of heavy metals in cooked beans and vegetables in Punjab, North India.pdf`
+
+**Suggested handle:** `MFK_p0314-non-carcinogenic-and-carcinogenic-health-ris`
+
+**Stop reason:** Filename mismatch — the PDF is not about heavy metals in cooked beans and vegetables from Punjab. The actual paper is an off-topic COVID-19 / child-developmental-outcomes epidemiology paper with **zero heavy metals analysis**. Outside HMI scope.
+
+**Actual paper (read pages 1–10 of 14, covering abstract, intro, methods, full Tables 1–3, and most of results):**
+
+- **Title:** "Effects of COVID-19 Financial and Social Hardships on Infants' and Toddlers' Development in the ECHO Program"
+- **Authors:** Sara S. Nozadi, Ximin Li, Xiangrong Kong, Brandon Rennie, Deborah Kanda, Debra MacKenzie, Li Luo, Jonathan Posner, Courtney K. Blackwell, Lisa A. Croen, Assiamira Ferrara, Thomas G. O'Connor, Emily Zimmerman, Akhgar Ghassabian, Leslie D. Leve, Amy J. Elliott, Rebecca J. Schmidt, Jenna L. N. Sprowles, Johnnye L. Lewis
+- **Journal:** International Journal of Environmental Research and Public Health 2023, 20, 1013
+- **DOI:** 10.3390/ijerph20021013
+- **License:** CC BY 4.0
+- **Design:** Longitudinal analysis within the NIH ECHO program; eight ECHO cohorts; N=684 children with paired pre- and during-pandemic ASQ assessments.
+- **Outcome:** Change in Ages and Stages Questionnaire (ASQ-3) scores across communication, gross motor, fine motor, problem-solving, and personal-social domains from pre- (Aug 2018–11 Mar 2020) to during-pandemic (Mar 2020–Aug 2021) visits.
+- **Exposures:** Three COVID-related hardship variables — parental job loss/change (financial), quarantining from household members (social), less contact with family/friends outside the home (social).
+- **Methods:** GEE logistic regression for loss-of-developmental-status; GEE linear regression for change in ASQ z-scores; multiple imputation (Chained Equation, 10 imputations × 10 iterations) for missing covariates; Bonferroni-corrected α=0.008 for multiple comparisons.
+- **Results:** No significant association between the three hardship exposures and ASQ change in any domain after multivariate adjustment; male children had >2× odds of developmental loss in communication (OR 2.4) and personal-social (OR 2.4) vs females; baseline ASQ z-scores strongly predicted change.
+
+**Why this is out-of-scope for HMI:**
+
+- The paper measures and reports **no heavy metals concentrations whatsoever**. No Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U values appear anywhere in abstract, methods, results, tables, or discussion through page 10. No analytical chemistry methods (no ICP-MS / AAS / digestion / reference materials). No exposure-assessment numbers for any metal (no EDI / MOE / THQ).
+- The Materials & Methods section covers only the ECHO COVID-19 survey instrument and ASQ-3 administration — no environmental sampling, no biomonitoring, no food-matrix analysis.
+- Tables 1–3 cover sociodemographic baseline, multivariate ORs for ASQ-status loss, and multivariate estimates for ASQ z-score change. No contamination data.
+- The paper appears in a journal that publishes both environmental-contamination and public-health-epidemiology work; the journal name overlap is what likely caused the misfiling, but this specific paper is a developmental-epidemiology study, not contamination work.
+
+**No identity-check work needed:**
+
+- DOI grep against `wiki/sources/` is moot — DOI `10.3390/ijerph20021013` does not belong to any HMI source page and should not.
+- The paper does **not** belong in the corpus at all, regardless of whether it has a wiki page.
+- The filename on disk is misleading; the file itself opens cleanly (14 pages, no truncation, full text extractable), just mis-labeled or mis-saved by whoever populated the manual-fetch queue.
+
+**Suggested next action for Karen / wrapper:**
+
+1. Move the PDF out of the manual-fetch queue (e.g., to a `raw/Manual Fetch Kimi /_misfiled/` holding area, or delete if Karen has another copy). Leaving it in `08_Nuts_Seeds_Legumes_and_Misc/` will cause every future ingest tick to re-evaluate and stop on it.
+2. **Recover the intended paper:** the filename suggests Karen wanted a paper actually titled "Non-carcinogenic and carcinogenic health risk assessment of heavy metals in cooked beans and vegetables in Punjab, North India." Use `paper-lookup` or `discover` on that exact title (or near variants — candidate authorship would likely be Indian researchers, ~2018–2024 publication) to re-fetch the correct PDF, then drop it into the same folder under a corrected filename. I am not generating a URL; Karen should confirm via the lookup skills.
+3. Wrapper should advance the queue past this PDF for this tick — misfiled file is not a transient issue, will not self-resolve.
+
+**No commits made.** No wiki page created. No routing audit run. No audit-queue entry added.
+
+**Wrapper output line:** `STOP: off-topic-pdf P0314-misnamed (actual content: COVID-19/ASQ child-development, not heavy metals)`

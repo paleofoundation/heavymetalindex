@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-25T09:04:55.386Z
+updated: 2026-05-25T14:10:33.214Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ✅ 8 min ago |
-| auto-fetched/ PDFs in queue | 209 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 5 ✅ |
-| Audit queue: pending-audit-spawn-failed | 0 (async lane) |
-| Wishlist: total downloaded historically | 156 |
-| Wishlist: total ingested historically | 0 |
+| Daemon heartbeat | ✅ 7 min ago |
+| auto-fetched/ PDFs in queue | 87 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 6 ⚠️ |
+| Audit queue: pending-audit-spawn-failed | 15 (async lane) |
+| Wishlist: total downloaded historically | 0 |
+| Wishlist: total ingested historically | 30 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 5 |
-| Commits last 24 hours | 54 |
+| Commits last 1 hour | 4 |
+| Commits last 24 hours | 75 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-ccc903a 11 minutes ago — standards-book: add reading guide for Claude Code sessions
+0c5ad80 4 seconds ago — state sync: daemon tick artifacts + extraction + healing + audit-queue + wishlist queries
 ```
 
 ## How to read this
