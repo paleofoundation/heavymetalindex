@@ -81,8 +81,9 @@ Fe (text, mg/kg oil; IOC/EU limit 3.0 mg/kg):
 - All samples below 3.0 mg/kg limit
 
 Zn (text, mg/kg oil; currently unregulated):
-- 2021/2022: 0.03–0.10; highest in EVPR¹ (ceramic)
-- 2022/2023: 0.12–0.25 (higher than 2021/2022); highest in EVPR² (ceramic)
+- 2021/2022: 0.03–0.10; highest in EVPR¹ (ceramic) per p.772
+- 2022/2023: 0.04–0.10 (similar to 2021/2022) per p.772
+- Conclusion (p.775): overall highest Zn levels detected in EVOO in porcelain packaging
 
 **Phthalates (Table 4 and accompanying text, mg/kg oil; EU Reg 10/2011 as amended 2023-08-31 — DEHP individual SML 0.6 mg/kg; SML 1 = 5×DBP + 4×DIBP + 0.1×BBP + 1×DEHP ≤ 0.6 mg/kg; SML 2 = DiNP+DiDP ≤ 1.8 mg/kg). DMP, DEP, DnBP, DMGP, DIHP, DEEP, DnHP, DBEP, BBP, DCHP, DnOP, DnPP, and DnDP were not detected in any sample. Only DEHP, DIBP, and DiNP were detected.**
 
@@ -131,6 +132,10 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
   - **License clarified** from "CC BY" to "CC BY 4.0" per the source page footer.
   - **access_url added**.
   - **"Wiki pages updated on ingest" heading renamed** to "Wiki pages this source may touch" to match current convention (the routing layer, not the ingest session, updates downstream pages).
+- Auto-audit pass (general-purpose subagent, 2026-05-25) — REVISE verdict. Findings applied:
+  - **Zn 2022/2023 range corrected from 0.12–0.25 to 0.04–0.10** — independent verification confirmed I had conflated Fe 2022/2023 (0.12–0.25 mg/kg, highest in olive pomace oils) with Zn 2022/2023 (0.04–0.10 mg/kg, similar to 2021/2022) per p.772 text. The subagent flagged this as a partial concern about the "highest in EVPR²" attribution but missed the more material range error; both have been addressed.
+  - **Broken wikilink fixed**: `[[supply-chain/packaging-materials]]` does not exist in `wiki/supply-chain/`; the relevant existing page is `[[supply-chain/aluminum-based-packaging]]`, which captures the most distinctive packaging-vs-metal finding from this paper (EVAL¹ aluminium container Al 0.67 mg/kg).
+  - **Internal source discrepancy flagged**: Table 3 reports EVOO-P¹ Ni = 0.20 ± 0.08, but p.773 text says "the highest [Ni] concentration was detected in the case of EVOO-P with a concentration of 0.21 ± 0.09 mg/kg oil." This is a paper-internal text/table inconsistency, not a wiki extraction error. The wiki retains the Table 3 value (more granular and aligned with the per-sample table) for routing consistency.
 
 ## Wiki pages this source may touch
 
@@ -147,4 +152,4 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/antimony]]
-- [[supply-chain/packaging-materials]]
+- [[supply-chain/aluminum-based-packaging]]
