@@ -10,7 +10,7 @@ doi: "10.5897/AJAR2016.11832"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2017_10-5897-ajar2016-11832.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-coffee-cd_2017_10-5897-ajar2016-11832.pdf"
 raw_sha256: 355e56cfc685bfb0d2018c9081661cecc49faa83483c3d0db534fef86c9c8687
 access_url: "https://doi.org/10.5897/AJAR2016.11832"
 metals: [Cd, Cr, Cu, Mn, Ni, Pb, Zn]
