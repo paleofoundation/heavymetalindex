@@ -7,19 +7,20 @@ authors: [Silva VdS, Arias LVA, Usberti FCS, Oliveira RAd, Fakhouri FM]
 year: 2025
 publication: "Lipidology"
 doi: 10.3390/lipidology2040021
+access_url: "https://doi.org/10.3390/lipidology2040021"
 source_type: peer-reviewed
 evidence_tier: B
-license: "CC BY"
+license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Edible Oils from Health to Sustainability_ Influence of the Production Processes in the Quality, Con.pdf"
-metals: [Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Mn, V, Co, tHg]
+metals: [Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Mn, V, tHg]
 ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/rice-bran-oil]]", "[[ingredients/peanut-oil]]", "[[ingredients/sesame-oil]]", "[[ingredients/rapeseed-oil]]", "[[ingredients/corn-oil]]", "[[ingredients/vegetable-oils]]"]
 products: []
 matrices: [edible-oil, vegetable-oil]
-jurisdictions: [MA, IR, GR, CN, BR]
+jurisdictions: [MA, IR, GR, CN, BR, TW, KR, IT, ES, US, MY]
 near_duplicates: []
 sample_n: null
-sample_population: "Systematic review of 35 studies meeting eligibility criteria, including 7 studies on contaminants (PAHs and heavy metals) in edible vegetable oils; databases searched through September 2025"
-updated: 2026-05-17
+sample_population: "Systematic review of 35 studies meeting eligibility criteria (of 125 articles screened), including 7 studies on contaminants (PAHs and heavy metals) in edible vegetable oils; databases MEDLINE/PubMed, ScienceDirect, SCOPUS searched through 1 September 2025"
+updated: 2026-05-25
 ---
 
 # Silva et al. 2025 — Edible oils: health benefits and contamination risks (systematic review)
@@ -32,10 +33,10 @@ This systematic review (35 included studies from MEDLINE/PubMed, ScienceDirect, 
 - Olive oil: tAs 7.65–9.06; Cr 7.12–9.43; Cd 3.14–5.06; Ni 6.14–8.38; Zn 18.15–28.55; Cu 16.52–21.90; Pb 3.14–17.48; Fe 56.12; Mn 6.12
 - Sunflower oil: tAs 0.55; Ni 1.20; Pb 0.67; Cu 3.23; Zn 69.60; Mn 2.29; V 0.15
 - Soybean oil: tAs 1.58; Pb 1.12; Ni 0.96; Zn 111.09; Cu 4.44; Mn 1.96
-- Rice bran oil (Iran): Pb 2.57; Cd 0.07; tAs 2.46; Ni 0.97; Zn 101.36; Cu 21.08; Mn 2.44
-- Palm oil: tAs 2.8; Ni 10.08; Pb 2.01; Cr 5.36; Co 0.21; Cu 17.94; Zn 191.04; Mn 26.31; V 0.55
+- Rice bran oil (Lin et al. 2024, Taiwan; Table A1): Pb 2.57; Cd 0.07; tAs 2.46; Ni 0.97; Zn 101.36; Cu 21.08; Mn 2.44
+- Palm oil: tAs 2.8; Ni 10.08; Pb 2.01; Cr 5.36; Cu 17.94; Zn 191.04; Mn 26.31; V 0.55
 - Canola oil: tAs 0.67; Ni 0.27; Pb 1.03; Cu 9.82; Zn 65.36; Mn 0.89
-- Flaxseed oil (Korea): Pb 25.65; Cd 70.03; tAs 3.10; Al 29,814 (µg/kg)
+- Flaxseed oil (He et al. 2025 China + Lee et al. 2019 processing study, Korea; Table A1): Pb 25.65; Cd 70.03; tAs 3.10; Al 29,814 (µg/kg)
 - Peanut oil: tAs 5–89*; Cd 6–9*; Pb 25–27*; Fe 5,655–11,323*; Zn 2,863–8,835*
 - Sesame oil: tAs 64–91*; Cd 9*; Pb 9–13*; Fe 15,091–23,664*; Zn 3,192–6,299*
 - Corn oil: Pb 19.27–32.40; Cd 4.48–5.77
@@ -87,10 +88,10 @@ Systematic review following adapted PRISMA principles. Databases: MEDLINE/PubMed
 - [[metals/iron]]
 - [[metals/manganese]]
 - [[metals/vanadium]]
-- [[metals/cobalt]]
 - [[metals/mercury-total]]
 
 ## Verification notes
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected the truncated raw PDF path, removed the invalid `palm-oil` ingredient link, expanded metal and oil-ingredient scope to match Table A1 where current slugs exist, and reframed HMT&C/workbench language as source-level context.
+- Re-verification pass (Claude Opus, 2026-05-25) cross-checked all Table A1 numbers against the source PDF. Three corrections applied: (a) removed fabricated "Co 0.21" from the Palm oil row — Table A1's Palm entry contains only As, Ni, V, Cr, Cu, Zn, Pb, Mn, no cobalt — and dropped `Co` from the metals frontmatter; (b) re-attributed the Rice bran oil row from "(Iran)" to Lin et al. 2024 Taiwan, since the Table A1 reference for rice bran is [48] = Lin et al. Taiwan, while the Iran rice-bran finding (Mohajer) in Table 3 is narrative-only with no specific Table A1 figures; (c) re-attributed Flaxseed oil to its mixed Table A1 references [6,50] = He et al. 2025 China + Lee et al. 2019 Korea processing study. Added `access_url` and refined license to "CC BY 4.0". Expanded jurisdictions to reflect the broader country coverage of cited studies (TW, KR, IT, ES, US, MY in addition to the originally listed MA, IR, GR, CN, BR).
 - The review does not distinguish inorganic from total arsenic or methylmercury from total mercury; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
