@@ -40,9 +40,9 @@ This study measured Pb, Cd, Ni, and As in 480 commercial olive oil samples purch
 - Ni: 9.786 ± 0.0102 to 14.444 ± 0.283
 - As: 0.0030 ± 0.0001 to 0.0050 ± 0.0002
 
-**Combined means (µg/g):**
-- Italian: Pb 8.546, Cd 0.396, Ni 12.253, As 0.00020
-- Iranian: Pb 14.944, Cd 3.362, Ni 9.579, As 0.0039
+**Combined means (mean ± SE, µg/g):**
+- Italian: Pb 8.546 ± 0.043, Cd 0.396 ± 0.031, Ni 12.253 ± 0.078, As 0.00020 ± 0.00001
+- Iranian: Pb 14.944 ± 0.045, Cd 3.362 ± 0.032, Ni 9.579 ± 0.065, As 0.0039 ± 0.0002
 - Cd in Iranian samples was approximately ten times higher than in Italian samples (p < 0.005)
 - Ni caveat: Table 3 reports Iranian Ni (9.579 µg/g) below Italian Ni (12.253 µg/g), but the surrounding narrative says Iranian Ni was higher than Italian Ni; preserve the tabulated values and do not use the country-level Ni direction without source review.
 
@@ -81,3 +81,4 @@ ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0
 - Arsenic methods include speciation standards and separation, but the result tables report a single `As` concentration; frontmatter therefore retains `tAs` pending cross-audit.
 - `edible-oil`, `olive-oil`, and `flavoured-olive-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
 - 2026-05-18 Cross-vendor audit (Codex) made the source-internal Ni contradiction explicit: Table 3 reports Iranian Ni lower than Italian Ni (9.579 vs 12.253 µg/g), while the narrative says Iranian Ni was higher. Also tightened the regulatory note so Codex/USDA 0.1 mg/kg is not over-attributed to Cd.
+- 2026-05-25 Claude cross-audit (fresh-context subagent): PROMOTE verdict. All Table 1/2/3/4 values verified against pp. 66-67; methods description verified against pp. 65-66; brand-firewall (Iranian series aggregation) and HMTc-firewall (no threshold proposals) verified clean. Applied finding: restored SE values on the Italian/Iranian combined-means line for completeness (was reporting only the mean from Table 3). Leave-as-noted findings: Iranian series-4 Ni SE rounding (±0.283 vs paper's ±0.2831, trivial), pre-bath 50 Hz × 60 s mixer detail not transcribed (methods minutiae), CRM vendor (Alpha-Line, Chem Tech Analytical) not named on page (incomplete but not erroneous), `flavoured-olive-oil` matrix descriptor remains non-canonical pending system-level routing-layer review.
