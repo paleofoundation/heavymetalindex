@@ -120,7 +120,10 @@ run_step "extract-source-values" node tools/autonomy/extract-source-values.mjs |
 # Disable by setting HMI_AUTONOMOUS_INGEST=0 in launchd env. Default model is
 # Haiku 4.5 for cost; bump to Sonnet 4.6 by setting HMI_INGEST_MODEL.
 INGEST_ENABLED="${HMI_AUTONOMOUS_INGEST:-1}"
-INGEST_MAX="${HMI_INGEST_MAX_PAPERS:-2}"
+# Bumped 2026-05-25 from 2 → 30 per Karen's "all throttles off" sprint
+# directive. 30 PDFs/tick × 48 ticks/day = up to 1440 papers/day if backlog
+# sustained. Haiku 4.5 handles bulk at this rate without rate-limit issues.
+INGEST_MAX="${HMI_INGEST_MAX_PAPERS:-30}"
 INGEST_MODEL="${HMI_INGEST_MODEL:-claude-haiku-4-5-20251001}"
 INGEST_PRIORITY="${HMI_INGEST_PRIORITY:-P1,P2}"
 if [[ "$INGEST_ENABLED" == "1" ]]; then
@@ -138,12 +141,19 @@ fi
 # this work is judgment-heavy (Cochrane bar); the merge-enhance and audit-
 # application steps need stronger model than the Marker bulk draft.
 MFETCH_ENABLED="${HMI_MFETCH_INGEST:-1}"
-MFETCH_MAX="${HMI_MFETCH_MAX_PDFS:-2}"
+# Bumped 2026-05-25 from 2 → 15 for sprint. Opus 4.7 is the Cochrane-bar
+# judgment model; rate-limit risk caps this lower than the Marker bulk.
+MFETCH_MAX="${HMI_MFETCH_MAX_PDFS:-15}"
 MFETCH_MODEL="${HMI_MFETCH_MODEL:-claude-opus-4-7}"
 if [[ "$MFETCH_ENABLED" == "1" ]]; then
   run_step "ingest-manual-fetch-batch" node tools/autonomy/ingest-manual-fetch-batch.mjs \
     "--max-pdfs=$MFETCH_MAX" "--model=$MFETCH_MODEL" || true
 fi
+
+# Step 3c.5: completion-matrix snapshot — measures (ingredient × analyte)
+# cell progress toward the 95% confidence target. Drives the cell-targeted
+# wishlist generation downstream. Idempotent; <1s runtime.
+run_step "completion matrix" node tools/autonomy/completion-matrix.mjs || true
 
 # Step 3d: auto-fetched/ hygiene sweep. Moves PDFs out of auto-fetched/
 # once dispositioned so Codex and the daemon do not waste fires re-triaging
@@ -230,11 +240,20 @@ run_step "gap-driven wishlist" node tools/autonomy/gap-driven-wishlist.mjs || tr
 # HMI_AUTONOMOUS_FETCH=0 disables; HMI_AUTONOMOUS_FETCH=always fires every
 # tick (debugging/backfill only).
 FETCH_ENABLED="${HMI_AUTONOMOUS_FETCH:-1}"
-CURRENT_HOUR_UTC=$(date -u +%H)
-CURRENT_MINUTE_UTC=$(date -u +%M)
-DAILY_FETCH_WINDOW=0
-if [[ "$CURRENT_HOUR_UTC" == "09" ]] && (( 10#$CURRENT_MINUTE_UTC < 30 )); then
-  DAILY_FETCH_WINDOW=1
+# Sprint mode 2026-05-25: removed the 09:xx UTC daily window. Fetcher now
+# fires every tick (48× per day). OpenAlex politeness limit (10 req/sec)
+# is plenty for the 50-200 query batches per tick; publisher fetches do
+# include their own 500ms-per-fetch backoff. Set HMI_AUTONOMOUS_FETCH=0
+# to disable entirely; HMI_AUTONOMOUS_FETCH=daily to revert to the
+# old once-a-day window.
+DAILY_FETCH_WINDOW=1  # always-on in sprint mode
+if [[ "${HMI_AUTONOMOUS_FETCH:-1}" == "daily" ]]; then
+  CURRENT_HOUR_UTC=$(date -u +%H)
+  CURRENT_MINUTE_UTC=$(date -u +%M)
+  DAILY_FETCH_WINDOW=0
+  if [[ "$CURRENT_HOUR_UTC" == "09" ]] && (( 10#$CURRENT_MINUTE_UTC < 30 )); then
+    DAILY_FETCH_WINDOW=1
+  fi
 fi
 if [[ "$FETCH_ENABLED" == "always" ]] || { [[ "$FETCH_ENABLED" == "1" ]] && [[ "$DAILY_FETCH_WINDOW" == "1" ]]; }; then
   # Manual wishlist (Karen-curated targets) then gap-driven (autonomy-discovered

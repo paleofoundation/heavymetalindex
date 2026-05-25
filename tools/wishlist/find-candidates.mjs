@@ -33,10 +33,18 @@ const sourcesIndexPath = path.join(repoRoot, "wiki/sources")
 
 const OPENALEX_BASE = "https://api.openalex.org/works"
 const USER_AGENT = "HeavyMetalIndex/0.1 (https://heavymetalindex.com; karen@paleofoundation.com)"
-const PER_QUERY_LIMIT = 8
+// Sprint mode: 8 → 25 candidates per OpenAlex query so each query produces
+// more material. Combined with concurrent fetches below, throughput target
+// is ~200-500 PDFs per fetch run.
+const PER_QUERY_LIMIT = 25
 const FROM_YEAR = 2015
-const API_DELAY_MS = 250
-const DOWNLOAD_DELAY_MS = 500
+const API_DELAY_MS = 150
+const DOWNLOAD_DELAY_MS = 200
+// Sprint mode 2026-05-25: 5 concurrent PDF fetches per query batch
+// (instead of strict sequential). OpenAlex polite-pool allows 10 req/sec
+// globally; per-publisher concurrency is implicitly limited by the
+// candidate diversity within a single OpenAlex result set.
+const CONCURRENT_FETCHES = 5
 // Threshold lowered 2026-05-19 from 3 → 1 after measuring that the prior
 // threshold rejected 63% of wishlist candidates (440 skip:no-keyword-overlap
 // + 102 review:weak-match out of 868 rows). The negative-keyword filter is
@@ -180,6 +188,10 @@ for (let i = 0; i < queries.length; i += 1) {
     continue
   }
 
+  // Build candidate rows first (cheap, no I/O). Defer all PDF fetches to a
+  // batched concurrent pass below — gets us ~5× wall-clock improvement per
+  // OpenAlex query in sprint mode.
+  const fetchCandidates = []
   for (const work of works) {
     const doi = work.doi ? normalizeDoi(work.doi) : ""
     const titleNorm = work.title ? normalizeTitle(work.title) : ""
@@ -222,53 +234,74 @@ for (let i = 0; i < queries.length; i += 1) {
     if (alreadyIndexed) {
       row.decision = "skip:already-indexed"
       totalSkippedIndexed += 1
+      audit.push(row)
     } else if (!oaUrl) {
       row.decision = "skip:no-oa-url"
       totalSkippedNoOa += 1
+      audit.push(row)
     } else if (score < DOWNLOAD_THRESHOLD) {
       row.decision = score === 0 ? "skip:no-keyword-overlap" : "review:weak-match"
       totalSkippedWeak += 1
+      audit.push(row)
     } else {
-      // Strong or likely match → download immediately.
+      // Strong or likely match → queue for concurrent download below.
       const filename = candidateFilename(row)
       const target = path.join(stagingDir, filename)
       if (fs.existsSync(target)) {
         row.decision = "skip:already-in-staging"
         row.downloaded_path = path.relative(repoRoot, target)
         totalSkippedIndexed += 1
+        audit.push(row)
       } else {
-        process.stdout.write(`  ↓ downloading ${row.title.slice(0, 70)} ... `)
-        try {
-          const response = await fetch(oaUrl, { headers: { "User-Agent": USER_AGENT }, redirect: "follow" })
-          if (!response.ok) {
-            process.stdout.write(`HTTP ${response.status}\n`)
-            row.decision = `fail:http-${response.status}`
-            totalFailed += 1
-          } else {
-            const contentType = response.headers.get("content-type") || ""
-            if (!contentType.includes("pdf") && !contentType.includes("octet-stream")) {
-              process.stdout.write(`not PDF\n`)
-              row.decision = `skip:not-pdf:${contentType}`
-              totalSkippedNoOa += 1
-            } else {
-              const buffer = Buffer.from(await response.arrayBuffer())
-              fs.writeFileSync(target, buffer)
-              process.stdout.write(`${formatBytes(buffer.length)}\n`)
-              row.decision = "downloaded"
-              row.downloaded_path = path.relative(repoRoot, target)
-              totalDownloaded += 1
-            }
-          }
-        } catch (err) {
-          process.stdout.write(`error: ${err.message}\n`)
-          row.decision = `fail:${err.message.slice(0, 40)}`
-          totalFailed += 1
-        }
-        await new Promise((r) => setTimeout(r, DOWNLOAD_DELAY_MS))
+        fetchCandidates.push({ row, target, oaUrl })
       }
     }
+  }
 
+  // Concurrent fetch pass: CONCURRENT_FETCHES (default 5) in flight at any time.
+  // Each candidate has a hard 25s deadline via Promise.race to prevent hung
+  // sockets from blocking the whole query batch.
+  async function fetchOne({ row, target, oaUrl }) {
+    process.stdout.write(`  ↓ ${row.title.slice(0, 65)} ... `)
+    try {
+      const response = await Promise.race([
+        fetch(oaUrl, { headers: { "User-Agent": USER_AGENT }, redirect: "follow" }),
+        new Promise((_, rej) => setTimeout(() => rej(new Error("hard-timeout")), 25000)),
+      ])
+      if (!response.ok) {
+        process.stdout.write(`HTTP ${response.status}\n`)
+        row.decision = `fail:http-${response.status}`
+        totalFailed += 1
+      } else {
+        const contentType = response.headers.get("content-type") || ""
+        if (!contentType.includes("pdf") && !contentType.includes("octet-stream")) {
+          process.stdout.write(`not PDF\n`)
+          row.decision = `skip:not-pdf:${contentType.slice(0, 40)}`
+          totalSkippedNoOa += 1
+        } else {
+          const buffer = Buffer.from(await Promise.race([
+            response.arrayBuffer(),
+            new Promise((_, rej) => setTimeout(() => rej(new Error("body-timeout")), 25000)),
+          ]))
+          fs.writeFileSync(target, buffer)
+          process.stdout.write(`${formatBytes(buffer.length)}\n`)
+          row.decision = "downloaded"
+          row.downloaded_path = path.relative(repoRoot, target)
+          totalDownloaded += 1
+        }
+      }
+    } catch (err) {
+      process.stdout.write(`error: ${err.message.slice(0, 50)}\n`)
+      row.decision = `fail:${err.message.slice(0, 40)}`
+      totalFailed += 1
+    }
     audit.push(row)
+  }
+
+  for (let i = 0; i < fetchCandidates.length; i += CONCURRENT_FETCHES) {
+    const batch = fetchCandidates.slice(i, i + CONCURRENT_FETCHES)
+    await Promise.all(batch.map(fetchOne))
+    await new Promise((r) => setTimeout(r, DOWNLOAD_DELAY_MS))
   }
 
   await new Promise((r) => setTimeout(r, API_DELAY_MS))

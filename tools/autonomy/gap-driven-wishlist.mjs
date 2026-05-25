@@ -61,8 +61,11 @@ fs.mkdirSync(path.dirname(outputPath), { recursive: true })
 // Query-history deprioritization thresholds
 const MAX_ATTEMPTS_BEFORE_DROP = 5 // a (query × cell) attempted >=5 times with <2 downloads is dropped
 const MIN_DOWNLOADS_TO_KEEP = 2 // if downloads <2, treat as low-yield
-// Coverage-rotation budget per day (set high enough to cover all empty pages over a few days)
-const MAX_QUERIES_PER_RUN = 600
+// Coverage-rotation budget per run. Sprint mode 2026-05-25 bumped 600 → 2500
+// to feed the every-tick fetcher with enough queries per cycle. Combined
+// with cell-targeted wishlist generation, this opens the pipeline to
+// ~20k OpenAlex candidates per day.
+const MAX_QUERIES_PER_RUN = 2500
 
 // Metal keyword vocabulary
 const METAL_KEYWORDS = {
