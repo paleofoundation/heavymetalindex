@@ -9,7 +9,7 @@ publication: "Journal of the Mexican Chemical Society"
 doi: "10.29356/jmcs.v66i2.1694"
 source_type: peer-reviewed
 evidence_tier: A
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-infant-formula-powder-non-soy-ca_2022_10-29356-jmcs-v66i2-1694.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-infant-formula-powder-non-soy-ca_2022_10-29356-jmcs-v66i2-1694.pdf"
 raw_sha256: c31730d2a213e15d0f0d66d4bf145e8fb16d58a3c1eb1a1e738074babebbe943
 access_url: "https://doi.org/10.29356/jmcs.v66i2.1694"
 metals: [Pb]
