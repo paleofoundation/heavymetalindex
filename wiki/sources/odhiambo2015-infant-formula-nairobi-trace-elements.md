@@ -9,7 +9,7 @@ publication: "African Journal of Food Science"
 doi: "10.5897/AJFS2015.1315"
 source_type: peer-reviewed
 evidence_tier: A
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-infant-formula-powder-non-soy-al_2015_10-5897-ajfs2015-1315.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-infant-formula-powder-non-soy-al_2015_10-5897-ajfs2015-1315.pdf"
 raw_sha256: 89f21bf29fe67a70b6aabcd5053f720e7dee082afcc130003af79895bc255bd5
 access_url: "https://doi.org/10.5897/AJFS2015.1315"
 metals: [Al, Cd, Pb, Ni]
