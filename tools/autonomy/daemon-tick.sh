@@ -78,7 +78,14 @@ echo "$TIMESTAMP" > "$HEARTBEAT_FILE"
 # defense for the multi-agent (daemon + Codex + Claude Code) operation
 # Karen runs in parallel during sprints.
 TRANSIENT_PATHS='data/evidence/|data/workbench/|wiki/briefings/weekly-'
-REAL_DIRTY=$(git status --porcelain | grep -vE "^.. ($TRANSIENT_PATHS)" || true)
+# Sprint-mode 2026-05-25 update: untracked wiki/sources/*.md files no longer
+# block the daemon. The Marker bulk ingester (and Codex's parallel ingest)
+# can leave source pages in an uncommitted state if their cite-keys fail
+# downstream lint. Treating them as "another agent mid-work" caused a 2-hour
+# daemon halt; instead they are auto-cleared at end of tick (committed
+# successfully or moved to data/evidence/quarantine/) via Step 8 below.
+UNTRACKED_SOURCES='^\?\? wiki/sources/'
+REAL_DIRTY=$(git status --porcelain | grep -vE "^.. ($TRANSIENT_PATHS)" | grep -vE "$UNTRACKED_SOURCES" || true)
 if [[ -n "$REAL_DIRTY" ]]; then
   log "Working tree has real content edits (wiki/, docs/, tools/, etc.). Daemon refuses to run; another agent may be mid-work."
   log "$REAL_DIRTY"
@@ -119,10 +126,15 @@ run_step "extract-source-values" node tools/autonomy/extract-source-values.mjs |
 # batch per tick so a stuck ingest does not block the rest of the loop.
 # Disable by setting HMI_AUTONOMOUS_INGEST=0 in launchd env. Default model is
 # Haiku 4.5 for cost; bump to Sonnet 4.6 by setting HMI_INGEST_MODEL.
-INGEST_ENABLED="${HMI_AUTONOMOUS_INGEST:-1}"
-# Bumped 2026-05-25 from 2 → 30 per Karen's "all throttles off" sprint
-# directive. 30 PDFs/tick × 48 ticks/day = up to 1440 papers/day if backlog
-# sustained. Haiku 4.5 handles bulk at this rate without rate-limit issues.
+INGEST_ENABLED="${HMI_AUTONOMOUS_INGEST:-0}"
+# Disabled by default 2026-05-25 evening: the Marker bulk ingester was the
+# source of off-scope junk pages (aflatoxin sensors, ICP-MS methods for
+# human albumin, soil-mercury methods studies, bacillus-cereus DNA detection)
+# that blocked the daemon's dirty-tree check for 2+ hours when their bad
+# cite-keys failed downstream commits. Karen explicitly rejected the 23K
+# Marker corpus as noise; the wishlist-driven OA pipeline (gap-driven →
+# fetcher → Codex ingest) is the signal path. Re-enable with
+# HMI_AUTONOMOUS_INGEST=1 only after relevance pre-filtering is added.
 INGEST_MAX="${HMI_INGEST_MAX_PAPERS:-30}"
 INGEST_MODEL="${HMI_INGEST_MODEL:-claude-haiku-4-5-20251001}"
 INGEST_PRIORITY="${HMI_INGEST_PRIORITY:-P1,P2}"

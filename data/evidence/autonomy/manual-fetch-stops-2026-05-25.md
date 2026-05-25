@@ -70,3 +70,83 @@ This matches the skill's "True duplicate conflict" stop condition in spirit: the
 The wrapper should advance the queue past this PDF; the dedup is a non-trivial coordinated cleanup task for a dedicated session, not a per-PDF cycle.
 
 **Wrapper output line:** `STOP: true-duplicate-conflict cwielag-drabek2025-nuts-cd-pb-cr-ni-poland`
+
+---
+
+## Stop entry — P0300 (pumpkin/sunflower/watermelon/jabooni seeds, Iran)
+
+**PDF:** `raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0300_Concentration and exposure assessments of cadmium and lead in pumpkin, sunflower, watermelon, and jabooni seeds collected in Iran.pdf`
+
+**Suggested handle:** `MFK_p0300-concentration-and-exposure-assessments-of-ca`
+
+**Stop reason:** Source-file data integrity failure — PDF is truncated and unrecoverable. Cannot read source; cannot meet Cochrane-quality ingest bar.
+
+**Evidence:**
+
+- `file` reports `PDF document, version 1.6 (zip deflate encoded)`, size 540608 bytes.
+- File **does not end with `%%EOF`**. The last 200 bytes of the file are raw deflate-stream payload bytes ending with `...31 51 8e 15` — no `endstream`, no `endobj`, no `xref`, no `trailer`, no `%%EOF` marker.
+- `pdftotext` (poppler) fails: `Syntax Error: Invalid XRef entry 0` / `Syntax Error: Missing 'endstream' or incorrect stream length` / `Internal Error: xref num 2593 not found but needed, try to reconstruct` / `Top-level pages object is wrong type (null)` / `the first page (1) can not be after the last page (0)`.
+- `pypdf` (strict=False) fails: `Cannot find "/Root" key in trailer` / `Error: Cannot find Root object in pdf`.
+- `pdfminer.six` (PDFParser/PDFDocument) fails: `PSEOF: Unexpected EOF`.
+- Read tool: `PDF file is corrupted or invalid.`
+- `strings` finds no DOI, no subject terms (pumpkin / sunflower / watermelon / jabooni / cadmium / Iran / seed), no journal name in the file — content streams are deflate-compressed and the file was truncated before any extractable metadata. The only readable strings are the partial XMP packet (empty `<dc:title></dc:title>`) and CMYK swatch noise.
+- No `raw/markdown/MFK_p0300*` Marker-converted markdown version exists.
+- No existing `wiki/sources/` page matches by handle prefix `MFK_p0300` or `p0300`, nor by the seed-keywords pumpkin / sunflower / watermelon / jabooni (the only sunflower hit is `fu2022-sunflower-cd-cultivar-transcriptomics.md`, an unrelated cultivar-transcriptomics paper).
+
+**Action this skill cannot take autonomously:**
+
+The PDF needs to be **re-fetched from source**. Likely DOI candidates (to be confirmed by Karen, not by this session — I do not generate URLs):
+- The title `"Concentration and exposure assessments of cadmium and lead in pumpkin, sunflower, watermelon, and jabooni seeds collected in Iran"` is distinctive enough to recover via paper-lookup (PubMed / Crossref / OpenAlex by title). The `discover` or `paper-lookup` skill should be able to re-fetch a clean PDF; the corrupted one in `raw/` should be replaced.
+
+**Suggested next action for Karen / wrapper:**
+
+1. Re-fetch the PDF (paper-lookup by exact title, OR drop it back into the manual-fetch queue with a verified source).
+2. Once a clean PDF exists at the same `raw_path`, re-invoke `/ingest-next-manual-fetch-pdf` on it.
+3. Wrapper should advance the queue past this PDF for this tick — corrupt file is not a transient issue.
+
+**Wrapper output line:** `STOP: corrupt-pdf P0300-pumpkin-sunflower-watermelon-jabooni-seeds-iran (truncated, no %%EOF, unrecoverable)`
+
+---
+
+## Stop entry — P0306 (misnamed PDF: dietary patterns / abdominal obesity, off-topic for HMI)
+
+**PDF:** `raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0306_Metals in Cow Milk and Soy Beverages.pdf`
+
+**Suggested handle:** `MFK_p0306-metals-in-cow-milk-and-soy-beverages`
+
+**Stop reason:** Filename mismatch — the PDF is not about metals in cow milk and soy beverages. The actual paper is an off-topic dietary-pattern / abdominal-obesity epidemiology paper with **zero heavy metals analysis**. Outside HMI scope.
+
+**Actual paper (read in full, all 14 pages):**
+
+- **Title:** "Prospective Associations between Dietary Patterns and Abdominal Obesity in Middle-Aged and Older Korean Adults"
+- **Authors:** Kyung Won Lee, Min-Sook Kang, Seung Jae Lee, Haeng-Ran Kim, Kyeong-A Jang, Dayeon Shin
+- **Journal:** Foods 2023, 12, 2148
+- **DOI:** 10.3390/foods12112148
+- **License:** CC BY 4.0
+- **Design:** Prospective cohort, KoGES-HEXA, n=48,037 Korean adults aged ≥40, mean follow-up 4.89 years.
+- **Outcome:** Incidence of abdominal obesity (waist circumference ≥90 cm men / ≥85 cm women per Korean Society for Study of Obesity).
+- **Methods:** Factor analysis on 106-item FFQ → three dietary patterns ("healthy", "coffee and sweets", "multi-grain"). Cox proportional-hazards models for HR (95% CI) of abdominal obesity by quartile of dietary pattern score.
+- **Results:** "Healthy" pattern inverse with abdominal obesity (HR Q4 vs Q1 0.86 men / 0.90 women); "coffee and sweets" positive (HR 1.23 men / 1.14 women); "multi-grain" null.
+
+**Why this is out-of-scope for HMI:**
+
+- The paper measures and reports **no heavy metals concentrations whatsoever**. No Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U values appear anywhere in body text, tables, or supplementary content I could see. No analytical chemistry methods (no ICP-MS / AAS / digestion / reference materials). No exposure-assessment numbers for metals (no EDI / MOE / THQ for any metal).
+- The only references to "metals" in the entire document are absent — the word "metal" does not appear in the abstract, methods, results, discussion, or conclusions.
+- The Materials & Methods section (§2) covers only dietary-pattern factor analysis and Cox modeling. The Tables (1–6) cover factor loadings, sociodemographics by quartile, nutrient intake by quartile (calcium and sodium as **nutrients**, not contaminants), and adjusted HRs for abdominal obesity. There are no heavy-metals tables.
+- Calcium and sodium appear in nutrient-intake columns (mg/day) as dietary intake, not as contamination loads in food matrices. This is nutrition-science data, not contamination data.
+
+**No identity-check work needed:**
+
+- DOI grep against `wiki/sources/` is moot — the DOI does not belong to any HMI source page and should not.
+- This paper does **not** belong in the corpus at all, regardless of whether it has a wiki page.
+- The filename on disk is misleading; the file is intact, just mis-labeled or mis-saved by whoever populated the manual-fetch queue.
+
+**Suggested next action for Karen / wrapper:**
+
+1. The PDF should be moved out of the manual-fetch queue (e.g., to a `raw/Manual Fetch Kimi /_misfiled/` holding area, or deleted if Karen has another copy elsewhere). Leaving it in `08_Nuts_Seeds_Legumes_and_Misc/` will cause every future ingest tick to re-evaluate and stop on it.
+2. **Recover the intended paper:** the filename suggests Karen wanted a paper actually titled something like "Metals in Cow Milk and Soy Beverages." Use `paper-lookup` or `discover` on that exact title (or near variants) to re-fetch the correct PDF, then drop it into the same folder under a corrected filename. Candidate matches would be on the order of Rebellato 2020 (Brazil, Pb/Cd/As in cow vs soy milks) or similar — but I am not generating that URL; Karen should confirm via the lookup skills.
+3. Wrapper should advance the queue past this PDF for this tick — misfiled file is not a transient issue, will not self-resolve.
+
+**No commits made.** No wiki page created. No routing audit run. No audit-queue entry added.
+
+**Wrapper output line:** `STOP: off-topic-pdf P0306-misnamed (actual content: dietary-patterns/abdominal-obesity, not metals)`
