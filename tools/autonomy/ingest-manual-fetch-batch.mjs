@@ -67,6 +67,14 @@ const MANUAL_FETCH_ROOTS = [
   { root: "raw/Papers Cube Manual Fetch", handlePrefix: "PCMF" },
   { root: "raw/Manual Resourcing", handlePrefix: "MR" },
   { root: "raw/Manual Fetch Discovery", handlePrefix: "MFD" },
+  // NOTE: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ is
+  // INTENTIONALLY OMITTED. That folder is the wishlist-fetcher's bulk output
+  // pipeline (~200 PDFs/hour during sprint mode). The Opus daemon path is
+  // too expensive for that volume. Codex/GPT-5.5-fast-mode owns auto-fetched/
+  // ingest via Karen's external scheduler — subscription-based pricing, no
+  // API-token burn. See docs/codex-collaboration/sprint-ingest-prompt.md
+  // for Codex's coordination protocol (checks manual-fetch-tracker.csv to
+  // avoid races with this daemon worker on the curated folders above).
 ]
 
 const PRIORITY_KEYWORDS = [
