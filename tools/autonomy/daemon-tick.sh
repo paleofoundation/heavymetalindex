@@ -155,6 +155,12 @@ fi
 # wishlist generation downstream. Idempotent; <1s runtime.
 run_step "completion matrix" node tools/autonomy/completion-matrix.mjs || true
 
+# Step 3c.6: sprint dashboard — single readable page Karen opens in Obsidian
+# to see live progress. Reads the completion matrix, audit queue, wishlist
+# state, daemon heartbeat, git state; writes wiki/sprint-status.md.
+# Also appends to data/evidence/sprint-history.jsonl for velocity tracking.
+run_step "sprint dashboard" node tools/autonomy/sprint-dashboard.mjs || true
+
 # Step 3d: auto-fetched/ hygiene sweep. Moves PDFs out of auto-fetched/
 # once dispositioned so Codex and the daemon do not waste fires re-triaging
 # stale skips and dedup rollups. Idempotent. Anything moved here got there
@@ -366,9 +372,21 @@ if ! git diff --quiet || ! git diff --cached --quiet; then
   git add -A 2>&1 | tee -a "$LOG_FILE"
   COMMIT_MSG="autonomy: daemon tick $TIMESTAMP — gap-healing + extraction + pooling + briefings"
   git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
+else
+  log "No daemon-side changes this tick."
+fi
+
+# Always check for unpushed commits at end of tick. Sprint mode 2026-05-25:
+# Codex and other agents commit between daemon ticks but were prohibited
+# from pushing. Daemon now pushes everything ahead of remote on every tick
+# so Codex's commits land at origin within ≤30 min of being made. This
+# closes the "Karen sees stale state" gap when she checks the dashboard.
+UNPUSHED=$(git log "@{u}.." --oneline 2>/dev/null | wc -l | tr -d ' ')
+if [[ "$UNPUSHED" -gt 0 ]]; then
+  log "$UNPUSHED commit(s) ahead of remote; pushing"
   run_step "git push" git push origin "$(git branch --show-current)" || true
 else
-  log "No changes this tick."
+  log "Repo synced with remote."
 fi
 
 log "Daemon tick end."

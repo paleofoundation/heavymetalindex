@@ -176,7 +176,7 @@ The full backlog (manual-fetch PDFs + strict-recheck rows + Marker corpus + auto
 - Regulation pages: directly create them on first encounter per CLAUDE.md Part 10 (rule retired 2026-05-18; previously surfacing-first was required). Regulations have hard identifiers (rule numbers, official names, agency-published source URLs) that can be looked up directly from eur-lex.europa.eu, FDA.gov, codexalimentarius.org, atsdr.cdc.gov, etc. Use the Part 6 regulation template format. Required frontmatter: `rule_id`, `jurisdiction`, `agency`, `metal` (list if omnibus), `matrix`, `limit_value`, `limit_unit`, `status`, `effective_date`, `source_url`. For superseded regulations, add `sunset_date` and `superseded_by` pointing at the successor page wikilink.
 - Do NOT edit inside `<!-- BEGIN: ... -->` / `<!-- END: ... -->` marker blocks (generator-owned).
 - Do NOT modify `data/evidence/product_source_routing_audit.csv` by hand.
-- Do NOT push to remote (the daemon tick pushes; Codex commits, daemon pushes on its next tick).
+- Push to remote after each batch commit (sprint mode 2026-05-25 update — was previously "do NOT push" with the daemon as the pusher, but with sprint cadence the daemon-push-only path left commits stale for up to 30 min and starved the dashboard). The daemon also pushes any unpushed commits on every tick as a safety net.
 - Do NOT edit CLAUDE.md, OPERATING.md, or AGENTS.md without Karen's explicit approval (policy documents per night-loop-spec.md).
 
 ## Coordination with Claude
@@ -214,7 +214,7 @@ How: TRIAGE FIRST. Open every PDF in the folder in parallel batches of 10. Class
 
 Audit each new source page per audit-prompt.md (best-effort: commit with status=pending-audit-spawn-failed if spawn errors, do not stop). Routing audit (`npm run evidence:source-routes`) runs ONCE at session end. Frontmatter discipline per CLAUDE.md Part 5 — products/ingredients/matrices/metals/jurisdictions at the level of specificity the source states.
 
-Prohibitions: do NOT ingest PDFs from Claude's assigned folders (06_Infant_Foods_Formula/, Children Personal Care Papers/, 04_Meat_Poultry_Seafood/, 03_Grains_and_Grain_Products/, 05_Dairy_Eggs_and_Alternatives/ — daemon owns these); do NOT update contamination_profile YAML; do NOT edit inside <!-- BEGIN --> / <!-- END --> markers; do NOT push to remote.
+Prohibitions: do NOT ingest PDFs from Claude's assigned folders (06_Infant_Foods_Formula/, Children Personal Care Papers/, 04_Meat_Poultry_Seafood/, 03_Grains_and_Grain_Products/, 05_Dairy_Eggs_and_Alternatives/ — daemon owns these); do NOT update contamination_profile YAML; do NOT edit inside <!-- BEGIN --> / <!-- END --> markers. (Push to remote after batch commits — sprint mode 2026-05-25 lifted the previous no-push prohibition.)
 
 Output: data/evidence/codex-runs/<YYYY-MM-DD>-<HHMM>.md with goal-met state (folder count before/after), breakdown by disposition, commit hashes (with batch ranges).
 
@@ -263,7 +263,7 @@ These apply to every template and do not need to be re-pasted:
 
 - **Goal-met or hard-blocker stops only.** No time budgets, no soft estimates, no "feels like enough." Invalid stop criteria are listed in docs/codex-collaboration/README.md "When to stop a session"; if any of them fires, prefix the run summary `STOPPED EARLY — REASON: <reason>`.
 - **Parallel reads, batch commits, end-of-session routing audit, triage-first for drain-folder.** Full spec in docs/codex-collaboration/README.md "Mechanical rules for hitting any goal faster".
-- **Do NOT run Part 9 synthesis. Do NOT edit CLAUDE.md / OPERATING.md / AGENTS.md without Karen. Do NOT push to remote.** Full prohibitions list in docs/codex-collaboration/README.md "What Codex does NOT do".
+- **Do NOT run Part 9 synthesis. Do NOT edit CLAUDE.md / OPERATING.md / AGENTS.md without Karen.** Push to remote after each batch commit (sprint mode 2026-05-25 lifted the previous no-push prohibition). Full prohibitions list in docs/codex-collaboration/README.md "What Codex does NOT do".
 - **Regulation pages**: directly create on first encounter per CLAUDE.md Part 10. Required frontmatter: rule_id, jurisdiction, agency, metal, matrix, limit_value, limit_unit, status, effective_date, source_url; superseded regs add sunset_date + superseded_by wikilink.
 - **Provisional scaffolds**: when an ingest declares an ingredient or product slug that does not yet exist, run `tools/autonomy/create-provisional-{ingredient,product}-scaffold.mjs`. Ingest continues.
 
