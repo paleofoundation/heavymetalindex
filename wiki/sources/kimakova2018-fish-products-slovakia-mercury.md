@@ -1,0 +1,57 @@
+---
+type: source
+raw_handle: auto-fetched
+cite_key: kimakova2018-fish-products-slovakia-mercury
+title: "Fish and fish products as risk factors of mercury exposure"
+authors: ["Kimakova T", "Kuzmova L", "Nevolna Z", "Bencko V"]
+year: 2018
+publication: "Annals of Agricultural and Environmental Medicine"
+doi: 10.26444/aaem/84934
+source_type: peer-reviewed
+evidence_tier: B
+license: "open-access PDF"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-thg_2018_10-26444-aaem-84934.pdf"
+metals: ["tHg"]
+ingredients: ["[[ingredients/fish]]", "[[ingredients/swordfish]]"]
+products: ["[[products/seafood]]"]
+matrices: ["fish", "fish-products", "swordfish", "shark", "king-mackerel"]
+jurisdictions: ["SK"]
+sample_population: "Fish and fish-product samples from food retail in Eastern Slovakia and fish from the Ruzin water reservoir"
+updated: 2026-05-25
+---
+
+# Kimakova et al. 2018 - Fish and fish products as mercury exposure risks
+
+This study monitored total mercury in fish and fish products from retail in Eastern Slovakia and fish from the Ruzin water reservoir.
+
+## Key numbers
+
+Source units are mg/kg.
+
+- Total fish and fish-product samples: 384.
+- Samples above the European Commission mercury maximum level: 194 samples, 50.52% of all samples.
+- Mercury concentrations ranged from 0.08942 to 6.552.
+- Mean mercury concentration: 1.2 +/- 1.2.
+- Median mercury concentration: 0.6.
+- The highest concentration was 6.552 in muscle from fish from the Ruzin water reservoir, more than 13 times the 0.5 mg/kg comparison level.
+- The authors call out shark, swordfish, and king mackerel as seafood categories not recommended for children, women of childbearing age, pregnant women, and nursing mothers.
+
+## Methods
+
+Total mercury was measured using an AMA 254 atomic absorption mercury analyzer. The paper reports LOQ 0.002 mg/kg and validation uncertainty bands across mercury concentration ranges.
+
+## Implications
+
+The source supports fish/seafood total-mercury surveillance context for Slovakia. The dataset combines retail fish/products and reservoir fish, so local reservoir findings should not be pooled blindly with retail seafood.
+
+## Wiki pages this source may touch
+
+- [[ingredients/fish]]
+- [[ingredients/swordfish]]
+- [[products/seafood]]
+- [[metals/mercury-total]]
+
+## Verification notes
+
+- Source identity checked against DOI 10.26444/aaem/84934 and the downloaded PDF.
+- The paper reports total mercury, not methylmercury.
