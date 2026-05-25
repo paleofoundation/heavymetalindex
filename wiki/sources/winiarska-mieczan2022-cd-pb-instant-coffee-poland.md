@@ -10,8 +10,8 @@ doi: "10.1007/s12011-022-03129-2"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2022_10-1007-s12011-022-03129-2.pdf"
-duplicate_auto_fetch_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-pb_2022_10-1007-s12011-022-03129-2.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-coffee-cd_2022_10-1007-s12011-022-03129-2.pdf"
+duplicate_auto_fetch_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-coffee-pb_2022_10-1007-s12011-022-03129-2.pdf"
 raw_sha256: 4dc4de78113dd5093266756693da17fd8f08a0ff4bb596d0f7997af7321b618a
 access_url: "https://doi.org/10.1007/s12011-022-03129-2"
 metals: [Cd, Pb]
