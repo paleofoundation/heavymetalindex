@@ -1,0 +1,57 @@
+---
+type: source
+raw_handle: auto-fetched
+cite_key: omirzakov2024-poultry-meat-kazakhstan-heavy-metals
+title: "Analysis of heavy metals content in domestic and imported poultry meat"
+authors: ["Omirzakov OM", "Krivets VV", "Berdikulov MA", "Kuanysh AE", "Omarova AS", "Dyussembayev KA"]
+year: 2024
+publication: "Herald of Science of S. Seifullin Kazakh Agrotechnical Research University: Veterinary Sciences"
+doi: 10.51452/kazatuvc.2024.3(007).1753
+source_type: peer-reviewed
+evidence_tier: B
+license: "open-access PDF"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-tas_2024_10-51452-kazatuvc-2024-3-007-1753.pdf"
+metals: ["tAs", "Cd", "tHg", "Pb"]
+ingredients: ["[[ingredients/chicken]]"]
+products: ["[[products/meat-poultry]]"]
+matrices: ["poultry-meat"]
+jurisdictions: ["KZ"]
+sample_population: "Domestic and imported poultry meat sampled in Kazakhstan"
+updated: 2026-05-25
+---
+
+# Omirzakov et al. 2024 - Analysis of heavy metals content in domestic and imported poultry meat
+
+This study measured arsenic, cadmium, mercury, and lead in domestic and imported poultry meat sampled in Kazakhstan using ICP-MS.
+
+## Key numbers
+
+Source units are ug/kg unless otherwise noted.
+
+- Regulatory comparison values cited by the authors: tAs 0.1 mg/kg, Cd 0.05 mg/kg, Hg 0.03 mg/kg, Pb 0.5 mg/kg.
+- Cadmium ranged from 0.06 ug/kg in poultry from LLP CAPITAL PROJECTS LTD to 2.45 ug/kg in poultry from LLP Izhevskiy; average Cd was 0.65 ug/kg in domestic poultry and 0.51 ug/kg in imported poultry.
+- Mercury was detected in Astana market samples at 3.48 ug/kg, LLP Izhevskiy at 20.0 ug/kg, and imported products at 1.88 ug/kg; average Hg was 2.62 ug/kg domestic and 1.88 ug/kg imported.
+- Lead ranged from 0.13 ug/kg in LLP Makinskaya Poultry Farm to 123.8 ug/kg in LLP Izhevskiy; average Pb was 21.51 ug/kg domestic and 12 ug/kg imported.
+- Average tAs was 5.28 ug/kg domestic and 5.59 ug/kg imported.
+
+## Methods
+
+The authors report ICP-MS analysis against a linear dynamic range with blanks and interlaboratory quality-control support.
+
+## Implications
+
+The source supports Kazakhstan poultry occurrence context. All averages are below the paper's stated Customs Union maximum permissible levels, but the LLP Izhevskiy sample is a notable high-lead/high-mercury point within the dataset.
+
+## Wiki pages this source may touch
+
+- [[ingredients/chicken]]
+- [[products/meat-poultry]]
+- [[metals/arsenic-total]]
+- [[metals/cadmium]]
+- [[metals/mercury-total]]
+- [[metals/lead]]
+
+## Verification notes
+
+- Source identity checked against DOI 10.51452/kazatuvc.2024.3(007).1753 and the downloaded PDF.
+- Values are in ug/kg in the source text excerpt; regulatory thresholds are also shown as mg/kg in the paper.
