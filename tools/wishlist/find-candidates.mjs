@@ -48,12 +48,13 @@ const CONCURRENT_FETCHES = 5
 // Threshold history:
 //   2026-05-19: 3 → 1 (was over-rejecting; negative-keyword filter was the
 //                       real precision gate, raw score 1+ worth checking).
-//   2026-05-25: 1 → 2 (sprint-mode Codex run showed 7% true-positive rate on
-//                       209 PDFs; combined with the title.search switch and
-//                       expanded negative keywords below, raising the floor
-//                       requires both a positive AND no negative hit before
-//                       fetching, target true-positive rate >40%).
-const DOWNLOAD_THRESHOLD = 2
+//   2026-05-25 morning: 1 → 2 (after 7% TP rate; combined with title.search
+//                       switch the threshold=2 was over-strict, 1 PDF in
+//                       10 min of fetching).
+//   2026-05-25 evening: 2 → 1 (back off; the title.search switch alone is
+//                       the bigger precision lever, threshold=2 stacked on
+//                       top swung too far. Iterate one knob at a time).
+const DOWNLOAD_THRESHOLD = 1
 
 // Metal alias table — mirrors METAL_SPECS in tools/wishlist/parse-wishlist.mjs.
 // Used to score paper abstracts against ALL synonyms of a metal, not just the
