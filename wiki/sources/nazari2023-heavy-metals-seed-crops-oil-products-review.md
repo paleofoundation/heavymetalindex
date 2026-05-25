@@ -1,69 +1,194 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_p0329-impacts-of-heavy-metals-in-seed-crops-and-oi
 cite_key: nazari2023-heavy-metals-seed-crops-oil-products-review
-title: "Impacts of Heavy Metals in Seed Crops and Oil Products on Human Health: A Threat to Food Safety — Review"
+title: "Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review"
 authors: [Nazari F, Mirza Alizadeh A, Alikord M, Dizaji R, Torki Z, Shoeibi S, Hosseini MJ, Ghane T, Khosrokhavar R]
 year: 2023
-publication: "Carpathian Journal of Food Science and Technology"
+publication: "Carpathian Journal of Food Science and Technology, 15(2), 106-124"
 doi: 10.34302/crpjfst/2023.15.2.10
 source_type: review
 evidence_tier: B
 license: "unknown"
-raw_path: "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0329.pdf"
-metals: [tAs, Pb, Cd, tHg, Ni, Cr]
-ingredients: ["[[ingredients/vegetable-oils]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/peanuts]]", "[[ingredients/oilseeds]]"]
-products: ["[[products/cooking-oils-other]]", "[[products/sunflower-seeds]]"]
+access_url: "https://doi.org/10.34302/crpjfst/2023.15.2.10"
+raw_path: "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0329_Impacts of heavy metals in seed crops and oil products.pdf"
+metals: [Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Cr, Cr-VI]
+ingredients: ["[[ingredients/vegetable-oils]]", "[[ingredients/vegetable-oil]]", "[[ingredients/olive-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/corn-oil]]", "[[ingredients/rapeseed-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/sesame-oil]]", "[[ingredients/peanut-oil]]", "[[ingredients/peanuts]]", "[[ingredients/hazelnuts]]", "[[ingredients/almond]]"]
+products: ["[[products/cooking-oils-other]]", "[[products/olive-oil]]", "[[products/sunflower-seeds]]", "[[products/nuts-seeds-other]]"]
 matrices: [oilseed, vegetable-oil, seed-oil]
-jurisdictions: [global, IR]
+jurisdictions: [global, EU, IR, TR, ES, BR, SE, FR, IT, KSA, PL, NG, CN, US]
 near_duplicates: []
 sample_n: null
-sample_population: "Review of published literature on heavy metals in oilseeds and vegetable/seed oils globally; no primary data collection"
-updated: 2026-05-14
+sample_population: "Narrative literature review of published studies on heavy metal occurrence in oilseeds (sunflower, pumpkin, sesame, rape, mustard, linseed, poppy, soybean, cotton, peanut, almond, hazelnut, apricot, watermelon, jabooni) and derived vegetable/seed oils. No primary data; values are extracted from cited primary studies and EFSA/agency reports."
+updated: 2026-05-25
 ---
 
 # Nazari et al. 2023 — Heavy metals in seed crops and oil products: impacts on human health (review)
 
-This Iranian-led review summarises the published literature on heavy metal contamination (As, Pb, Cd, Hg, Ni, and Cr) in oilseeds and their derived vegetable oils, covering sources, occurrence data, effects on nutritional quality, regulatory maximum residue levels, and human health impacts. The review compiles concentrations from a range of studies on oils including olive, sunflower, rapeseed/canola, hazelnut, and linseed, and identifies Pb and Cd as the most frequently documented concerns. A key synthesis point is that coexistence of multiple metals in oils can produce synergistic toxic interactions, and that the current regulatory landscape leaves many oil and seed categories without specific MLs.
+This Iranian-led narrative review (Carpathian Journal of Food Science and Technology) summarises the published literature on heavy metal contamination in oilseeds and their derived vegetable/seed oils, covering sources of contamination, occurrence concentrations across multiple countries, effects on oil nutritional quality, regulatory maximum permission levels (Codex, FDA, EU), and human health impacts of As, Pb, Cd, Hg, Ni, and Cr exposure. The review consolidates concentration ranges from primary studies conducted in Spain, Iran, Turkey, Brazil, Sweden, France, Italy, Saudi Arabia, Poland, Nigeria, China, Bulgaria, and Morocco, organised by metal in a single comparative table (Table 1). A second table (Table 2) compiles Codex Alimentarius, US FDA, and EU regulatory maximum levels. The review identifies Pb and Cd as the most consistently documented concerns in oilseeds and notes that current regulation leaves several oil categories without specific MLs.
 
 ## Key numbers
 
-No original data; values synthesised from cited literature:
+No original data; values are compiled from cited primary studies. The Table 1 compilation (review pp. 112-114) is reproduced below in oil-form groupings; units are as printed in the original table. Sunflower-seed-specific Pb and Cd data from Torki et al. 2018 (Iran, n=331 seed samples; reproduced p. 109) carry the most internal numerical detail in the review body.
 
-**Cd in oilseeds (from cited studies):**
-- Sunflower seeds: elevated Cd relative to other oil crops; linseed Cd noted
-- Olive oil: Cd typically low
-- Hazelnut oil: Cd noted as highest among surveyed oils in one cited study
+**Pb in seed oils and oilseeds (Table 1, p. 112):**
+- Olive oil — Spain (Bakkali 2012): mean 29.2 µg/kg, range 4.4-92.5
+- Olive oil — Turkey (Bakircioglu 2013): mean 0.071 mg/kg
+- Olive oil — Iran (Ziarati 2019): mean 10.111 µg/g
+- Corn oil — Spain (Bakkali 2012): mean 8.52 µg/kg, range 3.1-13
+- Corn oil — Turkey (Bakircioglu 2013): mean 0.048 mg/kg
+- Sunflower oil — Spain (Bakkali 2012): mean 18.42 µg/kg, range 6.4-39.4
+- Sunflower oil — Turkey (Bakircioglu 2013): mean 0.056 mg/kg
+- Hazelnut oil — Turkey (Bakircioglu 2013): mean 0.059 mg/kg
+- Canola oil — Turkey (Bakircioglu 2013): mean 0.073 mg/kg
+- Rapeseed oil — Poland (Szyczewski 2016): mean 0.09 mg/kg
+- Soybean oil — Poland (Szyczewski 2016): mean 0.08 mg/kg
+- Linseed oil — Poland (Szyczewski 2016): <0.06 mg/kg
+- Soybean — Brazil (Barbosa 2015): range <29-110 µg/kg
+- Cotton seed — Brazil (Chaves 2010): 0.022 µg/kg
+- Sunflower seed — Brazil (Chaves 2010): 0.011 µg/kg
+- Vegetable oils — Saudi Arabia (Ashraf 2014): range 11-17
 
-**Pb in oilseeds (from cited studies):**
-- Linseed oil and rapeseed oil: Pb concentrations investigated in cited studies
-- Sunflower: Pb and Cd both in seeds
-- One Nigerian study: concentrations of Fe, Mn, Zn, Cu, Pb, Co, Cd, Na, K, Ca, Mg in oils from Zaria; Pb, Co, Cd elevated in margarine; sunflower oil elevated for Ca
+**Pb in sunflower/pumpkin/watermelon/jabooni seeds — Iran (Torki et al. 2018; review p. 109):** n=331 seed samples. Pb detected in 33% of samples; median 66 µg/kg, mean 77 ± 28 µg/kg. 39% of positive samples exceeded 100 µg/kg. Highest detection frequency: pumpkin seeds 52%; sunflower seeds 30%; watermelon seeds 25%; jabooni (red watermelon) seeds 15%.
 
-**Cd in hazelnut oil:** cited as highest Cd among tested oils in one reference (Dhiman et al. 2017 cited in review)
+**Cd in seed oils and oilseeds (Table 1, p. 113):**
+- Olive oil — Spain (Bakkali 2012): mean 23.35 µg/kg, range 1.1-7.1
+- Olive oil — Turkey (Bakircioglu 2013): mean 0.036 mg/kg
+- Olive oil — Iran (Ziarati 2019): mean 0.096 µg/g
+- Corn oil — Spain (Bakkali 2012): mean 3.62 µg/kg, range 4.0-5.9
+- Corn — Turkey (Bakircioglu 2013): mean 0.036 mg/kg
+- Sunflower oil — Spain (Bakkali 2012): mean 5.5 µg/kg, range 4.1-7.2
+- Sunflower — Turkey (Bakircioglu 2013): mean 0.053 mg/kg
+- Hazelnut — Turkey (Bakircioglu 2013): mean 0.030 mg/kg
+- Canola — Turkey (Bakircioglu 2013): mean 0.040 mg/kg
+- Rapeseed oil — Poland (Szyczewski 2016): mean 0.03 mg/kg
+- Soybean oil — Poland (Szyczewski 2016): mean 0.01 mg/kg
+- Linseed oil — Poland (Szyczewski 2016): mean 0.03 mg/kg
+- Oilseeds — Europe (EFSA 2012a): mean 371 µg/kg
+- Cotton seed — Brazil (Chaves 2010): <0.006 µg/kg
+- Sunflower — Brazil (Chaves 2010): 0.038 µg/kg
+- Soybean — Brazil (Chaves 2010): <0.006 µg/kg
 
-**Typical metals detected in oils:** Fe, Mn, Zn, Cu, Pb, Co, Cd, Na, K, Ca, Mg per cited literature
+**Cd in sunflower/pumpkin/watermelon/jabooni seeds — Iran (Torki et al. 2018; review p. 109):** Cd detected in 17% of samples; mean 264 ± 177.3 µg/kg. Watermelon and jabooni seed samples were not contaminated with Cd. Highest concentration 731 µg/kg and highest incidence (35%) in sunflower seeds.
 
-**Regulatory context:** EU regulation establishes MLs for some contaminants in food; as of the review date, maximum levels for heavy metals in oilseeds and most vegetable oils were limited (only Cd in a few oil categories). Authors recommend revising permissible levels and increasing surveillance.
+**As in seed oils and oilseeds (Table 1, pp. 113-114):**
+- Olive oil — Spain (Bakkali 2012): mean 51.25 µg/kg, range 0.38-7.2
+- Corn oil — Spain (Bakkali 2012): mean 4.1 µg/kg, range 5.1-6.2
+- Sunflower oil — Spain (Bakkali 2012): mean 15.62 µg/kg, range 2.3-6.5
+- Types of vegetable oils — France (Arnich 2012): 0.014 mg/kg
+- Soybean — Brazil (Barbosa 2015): range <7-40 µg/kg
+- Olive oil — Italy (Cubadda 2016): 0.8 ng/g
+- Vegetable oils — Italy (Cubadda 2016): 0.8 ng/g
+- Vegetable oil — Saudi Arabia (Ashraf 2014): range 11-18
 
-Note: this review lists "chromium (Cd)" in its abstract metal list — this is an apparent typographical error; the review discusses Cr (chromium) and Cd (cadmium) separately in the body.
+**EFSA 17-country inorganic As survey (review p. 110):** mean iAs concentrations across oilseed types — linseed 20.8 µg/g (n=119); poppy seed 32.6 µg/g (n=90); sesame seed 20.1 µg/g (n=139); sunflower seed 25.1 µg/g (n=170); rape seed 33.2 µg/g (n=200); mustard seed 33.7 µg/g (n=15); pumpkin seed 10.5 µg/g (n=129).
+
+**Ni in seed oils and oilseeds (Table 1, p. 114):**
+- Olive oil — Spain (Bakkali 2012): mean 25.57 µg/kg, range 3.4-17.9
+- Corn oil — Spain (Bakkali 2012): mean 32.72 µg/kg, range 2.3-25.6
+- Sunflower oil — Spain (Bakkali 2012): mean 9.82 µg/kg, range 1.0-21.5
+- Sunflower oil — Turkey (Bakircioglu 2013): mean 1.490 mg/kg
+- Hazelnut — Turkey (Bakircioglu 2013): mean 1.420 mg/kg
+- Canola — Turkey (Bakircioglu 2013): mean 1.097 mg/kg
+- Corn — Turkey (Bakircioglu 2013): mean 0.772 mg/kg
+- Olive — Turkey (Bakircioglu 2013): mean 0.836 mg/kg
+- Soya oil — EFSA (Arcella 2019): 4.462 µg/kg
+- Sunflower oil — EFSA (Arcella 2019): 1.566 µg/kg
+- Rape seed — EFSA (Arcella 2019): 762 µg/kg
+- Linseed — EFSA (Arcella 2019): range 0-300 µg/kg
+- Soybean — Brazil (Barbosa 2015): range 740-4780 µg/kg
+
+**Hg in seed oils and oilseeds (Table 1, p. 114):**
+- Edible oils — France (Arnich 2012): 0.005 mg/kg
+- Sunflower seed — Sweden (Rodushkin 2008): 0.13 µg/g
+- Pumpkin seed — Sweden (Rodushkin 2008): 0.19 µg/g
+
+**Cr in seed oils and oilseeds (Table 1, p. 114):**
+- Sunflower — Turkey (Bakircioglu 2013): mean 2.780 mg/kg
+- Hazelnut — Turkey (Bakircioglu 2013): mean 0.428 mg/kg
+- Canola — Turkey (Bakircioglu 2013): mean 0.450 mg/kg
+- Corn — Turkey (Bakircioglu 2013): mean 0.224 mg/kg
+- Olive — Turkey (Bakircioglu 2013): mean 0.646 mg/kg
+- Soybean — Brazil (Barbosa 2015): range 1040-1120
+- Olive oil — Spain (Bakkali 2012): 2.85 µg/kg
+- Corn oil — Spain (Bakkali 2012): 5.05 µg/kg
+- Sunflower oil — Spain (Bakkali 2012): 5.32 µg/kg
+- Soybean — Europe (EFSA 2014b): Cr(III) concentration of 214-227.3 µg/g across 455 oilseed samples
+
+**Regulatory maximum permission levels (Table 2, p. 116):**
+- Pb: Codex 0.1 mg/kg; US FDA 10 mg/kg (rapeseed oil standard); EU 0.1 mg/kg wet weight
+- Cd: Codex 0.05 mg/kg; US FDA 10 mg/kg (rapeseed oil standard); EU not specified in table
+- As: Codex 0.1 mg/kg; US FDA 3 mg/kg (rapeseed oil standard); EU not specified in table
+- Hg: Codex not specified; US FDA 10 mg/kg (rapeseed oil standard); EU not specified
+- Ni: Codex 0.2-1 mg/kg (hydrogenated food oils); US FDA 0.5 mg/kg (menhaden oil standard); EU 20 mg/kg maximum in hydrogenated vegetable oils/fats (Arcella 2019)
+
+**Toxicological reference values cited (sections 5):**
+- JECFA 2010 provisional tolerable monthly intake for Cd: 25 µg/kg body weight
+- JECFA 2003 PTWI for CH3Hg: 1.6 µg/kg body weight (revised 2010 to 4 µg/kg body weight for inorganic Hg per Arnich 2012; EFSA 2012c)
+- EFSA TDI for Cr(III): 300 µg/kg body weight/day
+- WHO TDI for Ni: 11 µg/kg body weight/day
+- Threshold reported for Cd renal toxicity: ~200 µg in kidney (Zang & Bolger 2014, cited)
+- Cd dietary absorption: 3-5%; biological half-life 17-21 years (D Arcella 2012, cited)
+
+**Note on transcription:** Table 1's printed "Range" column for Cd in olive oil (Spain, Bakkali 2012) is `1.1-7.1` while the printed "Mean" is `23.35 µg/kg`. As reproduced in the review, the listed range is narrower than and inconsistent with the listed mean — this appears to be a printing artefact in the source. The values above are transcribed exactly as printed in the review's Table 1. Likewise, several Spain (Bakkali 2012) ranges in Table 1 are formatted ambiguously and should be cross-checked against Bakkali et al. 2012 before propagating to ingredient pages.
 
 ## Methods (brief)
 
-Narrative review. No systematic search methodology described. Iranian institutions; likely reflects Iranian and globally published literature with some selection bias toward available studies. No primary data; all values are from cited secondary sources.
+Narrative review without a documented systematic-search protocol. No PRISMA flow, no specified database queries, no inclusion/exclusion criteria, no quality appraisal of included primary studies. All values are extracted from cited primary literature and EFSA/agency scientific opinions; no primary data are collected. The review's two compilation tables (Table 1, concentrations; Table 2, regulatory MLs) provide cite-back to each source, allowing downstream verification against the primary records. Iranian institutional affiliations may bias toward Iranian-published literature, but the cited corpus spans 14+ countries.
 
 ## Implications
 
-Certification: Useful as a general orientating document for oilseed heavy metal coverage but should not be used as a primary quantitative source for any specific value. The synthesis reinforces that Cd and Pb are the priority concerns in oilseeds. For HMT&C products containing seed oils, the ingredient profiles on specific oil seeds (sunflower, flax, sesame, rapeseed) should draw primarily on primary occurrence studies.
+Certification: Useful as an orienting compilation for the heavy-metals-in-oilseeds-and-vegetable-oils literature, with cross-country occurrence ranges visible in one place (Table 1) and a Codex/FDA/EU regulatory snapshot (Table 2). It should not be relied on as a primary source for any single concentration value; the cited primary studies should be retrieved and ingested individually for any value used in HMTc threshold work. The review consistently identifies Pb, Cd, and Ni as the most documented occurrence concerns in oilseeds.
 
-Courses: Provides a usable overview of contamination routes and health effects for oilseeds and oils for educational modules. The point on synergistic metal interactions in co-contaminated oils is relevant to cumulative exposure discussions.
+Courses: Provides usable cross-country contamination overviews for educational modules on edible oils and oilseeds. The discussions of contamination entry points (Figure 1 — natural rock weathering, mining, smelting, vehicular pollution, fertilizer/pesticide use, sewage sludge; processing-stage contamination from corrosion of milling equipment at high temperature) and of metal-specific toxicology (Cd renal accumulation, Pb neurological effects, iAs carcinogenicity, Cr(VI) genotoxicity, Ni IARC Group 1 classification) are usable as orienting content with appropriate citation.
 
-App: Low utility for direct app-facing exposure modelling given lack of n, specific matrices, and methods. Use as background orientation only; populate ingredient pages from primary occurrence studies.
+App: Low utility for direct app-facing exposure modelling given that concentrations are aggregated from secondary sources with inconsistent units (µg/kg, µg/g, mg/kg, ng/g) and missing sample sizes. Populate ingredient/product pages from the underlying primary studies (Bakkali 2012, Bakircioglu 2013, Chaves 2010, Szyczewski 2016, Torki 2018, Rodushkin 2008, EFSA 2012a/2014a/2014b, Arcella 2019) rather than from this review.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[ingredients/sunflower-seeds]]
+Enhancement on 2026-05-25 from prior 2026-05-14 revision:
+- Replaced thin Key numbers narrative with a full per-metal compilation reproducing Table 1 (Pb, Cd, As, Ni, Hg, Cr across all reported seed/oil/country combinations) and Table 2 (Codex/FDA/EU MLs), plus the Torki 2018 (Iran, n=331) per-seed Pb/Cd values and the EFSA 17-country iAs survey reproduced on review p. 110.
+- Removed invented `[[ingredients/oilseeds]]` slug — not in current taxonomy snapshot. Replaced the umbrella with the specific oil/seed ingredient slugs that the paper actually reports values for.
+- Removed `[[ingredients/flaxseeds]]` from the (renamed) wiki-touch section — not in current taxonomy snapshot.
+- Renamed legacy `## Wiki pages updated on ingest` heading to current-schema `## Wiki pages this source may touch`.
+- Fixed `raw_handle` from the placeholder `manual-fetch-kimi` to the canonical handle `MFK_p0329-impacts-of-heavy-metals-in-seed-crops-and-oi`.
+- Fixed `raw_path` filename to include the actual file basename (the prior path truncated the title).
+- Expanded `metals:` from `[tAs, Pb, Cd, tHg, Ni, Cr]` to `[Pb, Cd, iAs, tAs, tHg, MeHg, Ni, Cr, Cr-VI]` because the review explicitly discusses iAs (EFSA 17-country survey, p. 110), MeHg (JECFA PTWI, p. 118), and Cr-VI (genotoxicity, p. 118) as distinct from the umbrella values, alongside tAs/tHg/Cr values that appear in Table 1.
+- Added `access_url`, expanded `jurisdictions:` to reflect the 14 countries whose primary studies are compiled (global, EU, IR, TR, ES, BR, SE, FR, IT, KSA, PL, NG, CN, US).
+- Added explicit transcription note on the Bakkali 2012 olive oil Cd mean/range inconsistency in the source table.
+- Retained `peanuts` and added `peanut-oil` ingredient slug because the review's body and Table 1 reference peanut/groundnut oil concentrations in multiple cited studies (Rodushkin 2008 Sweden Pb, Onianwa 2000 Nigeria Ni, EFSA cited 2002-2011 mercury).
+- Existing `evidence_tier: B` retained — review with explicit per-value citation chain to primary studies, but no systematic-search methodology.
+- No primary data; all the above are transcriptions from the review's own tables and prose, not synthesis claims against the broader literature.
+
+No brand names appear in this review's compilations (samples are referenced by oil type and country, not by manufacturer); no Part 12 redaction was required. No HMTc threshold proposals appear in the review and none were inserted (Part 2 firewall observed).
+
+## Wiki pages this source may touch
+
 - [[ingredients/vegetable-oils]]
-- [[ingredients/flaxseeds]]
-- [[metals/cadmium]]
+- [[ingredients/vegetable-oil]]
+- [[ingredients/olive-oil]]
+- [[ingredients/sunflower-oil]]
+- [[ingredients/sunflower-seeds]]
+- [[ingredients/corn-oil]]
+- [[ingredients/rapeseed-oil]]
+- [[ingredients/soybean-oil]]
+- [[ingredients/sesame-oil]]
+- [[ingredients/peanut-oil]]
+- [[ingredients/peanuts]]
+- [[ingredients/hazelnuts]]
+- [[ingredients/almond]]
+- [[products/cooking-oils-other]]
+- [[products/olive-oil]]
+- [[products/sunflower-seeds]]
+- [[products/nuts-seeds-other]]
 - [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic]]
+- [[metals/arsenic-inorganic]]
+- [[metals/arsenic-total]]
+- [[metals/mercury]]
+- [[metals/mercury-total]]
+- [[metals/mercury-methyl]]
+- [[metals/nickel]]
+- [[metals/chromium]]
+- [[metals/chromium-hexavalent]]
