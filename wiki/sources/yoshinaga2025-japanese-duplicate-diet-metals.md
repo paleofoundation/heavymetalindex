@@ -21,7 +21,7 @@ matrices: [total-diet-study, duplicate-diet]
 jurisdictions: [JP]
 near_duplicates: []
 sample_n: 150
-sample_population: "150 adult Japanese (65 males, 85 females, aged 19–83 years), 89 in northern Kanto District (around Toyo University), 49 in southern Kanto District, and 12 elsewhere (6 central Japan, 6 western Japan); 24-hr duplicate diet samples collected 2017–2019. Recruitment via local newspaper and university staff/student channels."
+sample_population: "150 adult Japanese (65 males, 85 females, aged 19–83 years); recruited via local newspaper and Toyo University staff/student channels 2017–2019. Geographic breakdown as reported on PDF p. 132: 89 in northern Kanto District (where Toyo University is located), 49 in southern Kanto District, and 13 from outside the Kanto District (6 central Japan, 7 western Japan) — the regional counts sum to 151, off-by-one against the stated N=150 (paper-internal discrepancy, not corrected here). 24-hr duplicate diet samples."
 updated: 2026-05-25
 ---
 
@@ -84,9 +84,9 @@ Moisture content of the 150 diets ranged 69.6–92.5 %; mean dry-matter fraction
 | Sb | ng/kg/day | 10.6 | (<9.7–204) | 16.2 (21.2)* | 400 |
 | Cs | µg/kg/day | 0.0831 | (0.0126–0.443) | 0.0955 (0.0608) | — |
 | Ba | µg/kg/day | 4.99 | (1.21–14.3) | 5.60 (2.62) | 200 |
-| Pb | µg/kg/day | 0.0334 | (0.039–0.705) | 0.0523 (0.0768)* | — |
+| Pb | µg/kg/day | 0.0334 | (<0.039–0.705) | 0.0523 (0.0768)* | — |
 
-Median intakes were below the EPA RfD for all metals for which an RfD is available; Co, Rb, Cs, and Pb lack EPA oral RfDs. The maximum Mo intake (8.03 µg/kg/day) exceeded the RfD of 5 µg/kg/day; the population median (2.53 µg/kg/day) is ~51 % of the RfD, leaving a narrow margin. Median Mo intake (30 µg/day, Table 4) also exceeded the Japanese MHLW daily requirement of 25 µg/day.
+Median intakes were below the EPA RfD for all metals for which an RfD is available; Co, Rb, Cs, and Pb lack EPA oral RfDs. The maximum Mo intake (8.03 µg/kg/day) exceeded the RfD of 5 µg/kg/day; the population median (2.53 µg/kg/day) is ~51 % of the RfD, leaving a narrow margin. The authors also note that the minimum Mo intake among the 150 participants (30 µg/day, from the Table 4 range minimum of 30.3 µg/day) exceeded the Japanese MHLW daily Mo requirement of 25 µg/day, so every participant met or exceeded the nutritional requirement.
 
 **Diet vs soil and house-dust contributions (Table 6):**
 
@@ -145,3 +145,8 @@ The recruitment was non-random (newspaper plus university convenience sampling, 
 - **2026-05-25 (Claude session):** Sample population string was generic; expanded with the actual recruitment breakdown (89/49/12 by region, age range 19–83, gender split) from page 132 of the PDF.
 - **DOI note:** The publisher (Japan Society for Environmental Chemistry) uses the form `10.5985/emcrr.YYYYNNNN` where NNNN is a 4-digit article-within-year identifier. Confirmed `10.5985/emcrr.20250008` resolves to this article via the DOI printed in the header of page 131.
 - **No-DOI cross-references:** the authors cite Yoshinaga and Narukawa 2020 and Yoshinaga and Ogawa 2024 (the latter is the source of the recapitulated Cd values); these are prior duplicate-diet papers by the same group and may already be in the wiki under separate cite-keys. Not searched in this session; flagged for the synthesis pass.
+- **2026-05-25 (audit subagent — applied):** Fresh-context audit (v2 skill, general-purpose subagent) flagged three ❌ findings against the original PDF. All three independently re-verified against the source and applied:
+  - Mo median misstatement on PDF p. 134 — wiki had written "Median Mo intake (30 µg/day, Table 4) also exceeded the Japanese MHLW daily requirement of 25 µg/day". The PDF actually says "Even the *minimum* intake of the duplicate diet sample analyzed in this study (30 µg/day, Table 4) exceeded the requirement". Corrected the wiki bullet to describe this as the population minimum, not the median; the Table 4 Mo median is 169 µg/day, which is correctly tabulated.
+  - Pb censoring in Table 5 — wiki Table 5 row had `(0.039–0.705)` but PDF Table 5 shows `(<0.039–0.705)` with the lower bound marked non-detect. Restored the `<` censoring indicator (the `*` non-detect-substitution footnote in the mean column already applied; the censoring on the min in the median(min–max) column was the missing detail).
+  - Sample population geography — wiki sample_population said "12 elsewhere (6 central Japan, 6 western Japan)". PDF p. 132 reads "A total of 13 participants were from outside the Kanto District, i.e., six from central Japan and seven from western Japan." Corrected to 13/6/7 to match the paper. Note that the three regional counts (89 + 49 + 13 = 151) sum to one more than the stated total N=150; this is a paper-internal off-by-one and is documented in the sample_population field rather than silently reconciled.
+- **2026-05-25 (audit subagent — matrices vocabulary, noted only):** Audit subagent flagged ⚠️ on `matrices: [total-diet-study, duplicate-diet]` because these bare-string matrix labels are not in the taxonomy snapshot provided to the audit subagent. The matrix vocabulary is documented in `docs/gpt-collaboration/system-prompt.md`, not in the taxonomy snapshot (which only enumerates ingredient/product/metal/regulation slugs). The label `total-diet-study` is in active use in the wiki (`wiki/sources/spungen2019-fda-tds-children-lead-cadmium-2014-2016.md`), and the routing layer reports this source as `severity: advisory` (missing optional `products`/`ingredients` fields), which is the correct treatment for a whole-diet study that does not measure individual products or ingredients. No change applied; the audit was flagging the absence of the matrix vocabulary in its reference file, not a defect in this page.
