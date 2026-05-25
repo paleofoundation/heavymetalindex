@@ -7,89 +7,144 @@ authors: [Charfi A, Moya López AJ, Sánchez Villasclaras S]
 year: 2026
 publication: "Journal of Food Science and Technology"
 doi: 10.1007/s13197-025-06246-7
+access_url: "https://doi.org/10.1007/s13197-025-06246-7"
 source_type: peer-reviewed
 evidence_tier: A
-license: "CC BY"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Food safety in the production of olive oils. Presence of heavy me.pdf"
-metals: [Pb, Cd, Ni, tAs, Al, Cr]
+license: "CC BY 4.0"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Food safety in the production of olive oils. Presence of heavy metals and phthalic acid esters using.pdf"
+metals: [Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Sb, Mn, Mg]
 ingredients: ["[[ingredients/olive-oil]]"]
-products: []
+products: [olive-oil]
 matrices: [edible-oil, olive-oil, olive-pomace-oil]
 jurisdictions: [ES]
 near_duplicates: []
 sample_n: 18
-sample_population: "Commercial Spanish olive oil samples (extra virgin, virgin, olive oil, olive pomace oil) purchased from the Spanish market in 2021/2022 and 2022/2023 campaigns, stored in six packaging types: glass, PET, tin, porcelain, aluminium, cardboard"
-updated: 2026-05-14
+sample_population: "Commercial Spanish olive oil samples (extra virgin, virgin, olive oil, olive pomace oil) purchased from the Spanish market in 2021/2022 and 2022/2023 campaigns, stored in six packaging types: glass, PET, tin, porcelain, aluminium, cardboard. Table 3 (heavy metals) reports 17 samples; Table 4 (phthalates) reports 18 samples per the paper's abstract."
+updated: 2026-05-25
 ---
 
 # Charfi et al. 2026 — Packaging effects on heavy metals and phthalates in Spanish commercial olive oils
 
-This study measured ten metals (Cu, Fe, Zn, Pb, Al, Cd, Cr, Sb, As, Ni) and phthalates (DEHP, DIBP, DiNP) in 18 commercial Spanish olive oil samples across four oil grades and six packaging types, collected across two harvest campaigns (2021/2022 and 2022/2023) by ICP-MS. Copper exceeded IOC/EU limits (0.1 mg Cu/kg oil) in several premium and pomace samples; Cd was not detected in any sample; As was absent across all samples; and Pb exceeded the 0.1 mg/kg regulatory limit in only one sample (EVOO in ceramic containers, 0.10 ± 0.03 mg/kg). Antimony was absent in all containers despite its use as catalyst in PET polymerization. Aluminium containers contributed elevated Al to the contained oil. Among phthalates, DEHP was detected in 6 of 18 samples, and DiNP exceeded the EU specific migration limit in one PET-packaged sample.
+This study measured twelve metals (Cu, Fe, Zn, Mg, Al, Cr, Mn, Ni, As, Cd, Sb, Pb) and three detected phthalates (DEHP, DIBP, DiNP) in commercial Spanish olive oil samples across four oil grades (extra virgin, virgin, olive oil, olive pomace oil) and six packaging types (glass, PET, tin, porcelain, aluminium, cardboard), collected across two harvest campaigns (2021/2022 and 2022/2023) by ICP-MS (heavy metals) and GC-MS (phthalates). Copper exceeded the IOC/EU limit of 0.1 mg/kg in several premium, pomace, ceramic-packed, tin-packed, and cardboard-packed samples. Cadmium, total arsenic, and antimony were not detected in any sample. Lead exceeded the 0.1 mg/kg regulatory limit in only one sample (EVOO in porcelain containers, 0.10 ± 0.03 mg/kg). Aluminium containers contributed markedly elevated Al to the contained oil (0.67 ± 0.05 mg/kg vs ≤0.12 mg/kg in other packaging). Among phthalates, DEHP was detected in 6/18 samples; one PET-packaged virgin olive oil sample exceeded the EU specific migration limit (SML) sums for both the DEHP group and DiNP+DiDP.
 
 ## Key numbers
 
-**Heavy metals (Table 3, mg/kg oil, 2021/2022 campaign unless noted):**
+**Heavy metals (Table 3 and accompanying text, mg/kg oil; 17 samples in Table 3 — 9 from 2021/2022 campaign and 8 from 2022/2023 campaign):**
 
-Pb:
-- EVOO-P1 (glass): 0.01 ± 0.00
-- EVOO-L1 (PET): 0.01 ± 0.00
-- VOO1 (PET): 0.01 ± 0.00
-- OO1 (PET): 0.02 ± 0.00
-- OPO1 (pomace, Al/PE-LD): 0.02 ± 0.00
-- EVPR1 (porcelain): 0.10 ± 0.03 [exceeds 0.1 mg/kg limit]
-- EVTI1 (tin): 0.02 ± 0.01
-- EVAL1 (aluminium): 0.03 ± 0.00
-- EVCA1 (cardboard): 0.04 ± 0.02
+Pb (IOC/EU limit 0.1 mg/kg oil):
+- EVOO-P¹ (glass): 0.01 ± 0.00
+- EVOO-L¹ (PET): 0.01 ± 0.00
+- VOO¹ (PET): 0.01 ± 0.00
+- OO¹ (PET): 0.02 ± 0.00
+- OPO¹ (pomace, PET): 0.02 ± 0.00
+- EVPR¹ (porcelain): 0.10 ± 0.03 [exceeds 0.1 mg/kg limit per authors]
+- EVTI¹ (tin): 0.02 ± 0.01
+- EVAL¹ (aluminium): 0.03 ± 0.00
+- EVCA¹ (cardboard): 0.04 ± 0.02
 - All 2022/2023 samples: 0.00 ± 0.00 (below detection)
 
-Cd: not detected in any sample (0.00 ± 0.00 across all 17 samples)
+Cd: not detected in any of the 17 Table 3 samples (0.00 ± 0.00 across all rows)
 
-As: not detected in any sample (0.00 ± 0.00 across all 17 samples)
+As (total): not detected in any of the 17 Table 3 samples (0.00 ± 0.00 across all rows). Speciation not performed; values are total As.
 
-Sb: not detected in any sample
+Sb: not detected in any container, including PET — notable because antimony oxide (Sb₂O₃) is used as a catalyst in PET polymerisation
 
 Al (mg/kg oil):
-- Most samples: 0.07–0.10
-- EVAL1 (aluminium container): 0.67 ± 0.05 [notably elevated]
+- Most samples: 0.07–0.12
+- EVAL¹ (aluminium container): 0.67 ± 0.05 [an order of magnitude above other packaging types]
+- EVAL² (aluminium container): 0.12 ± 0.03
 
 Ni (mg/kg oil):
-- EVOO-P1: 0.20 ± 0.08 [highest]
-- Most samples: 0.01–0.12
-- EVAL1 (aluminium): 0.00 ± 0.00
+- EVOO-P¹ (glass): 0.20 ± 0.08 [highest]
+- EVOO-P² (tin): 0.08 ± 0.04
+- VOO¹ (PET): 0.12 ± 0.06
+- EVPR¹ (porcelain): 0.12 ± 0.06
+- EVTI¹ (tin): 0.08 ± 0.04
+- Other samples: 0.00–0.04
+- EVAL¹ (aluminium): 0.00 ± 0.00
 
-Cr (mg/kg oil): 0.01–0.06 across all samples
+Cr (mg/kg oil): 0.01–0.06 across all samples; highest in OPO¹ (0.06 ± 0.02), EVCA² (cardboard, 0.04 ± 0.01)
 
-Cu (mg/kg oil; IOC limit 0.1 mg/kg):
-- Exceeded in: EVOO-P (0.11 ± 0.03), OPO (0.12 ± 0.01 to 0.18 ± 0.01), EVPR (0.18 ± 0.05), EVTI (tin, 0.12 ± 0.04), EVCA (cardboard, 0.12 ± 0.04)
-- Below limit: EVOO-L, VOO, OO, EVAL (aluminium)
-- Elevated Cu attributed to copper-based fungicide (copper oxychloride, hydroxide, sulfate) applied near harvest
+Mn (mg/kg oil): detected in only 3 samples — OPO¹ 0.01 ± 0.00; EVTI¹ (tin) 0.01 ± 0.00; OO² 0.02 ± 0.00
 
-Fe (mg/kg oil; IOC/EU limit 3.0 mg/kg): 0.09–0.30 (2021/2022) and 0.12–0.25 (2022/2023); all below limit
+Mg (mg/kg oil): 0.02–0.06 across all samples
 
-Zn (mg/kg oil; currently unregulated): 0.03–0.10 across both campaigns
+Cu (text, mg/kg oil; IOC/EU limit 0.1 mg/kg):
+- 2021/2022 exceedances: EVOO-P¹ (Premium) 0.11 ± 0.03; OPO¹ 0.12 ± 0.01; EVPR¹ (ceramic) 0.18 ± 0.05; EVTI¹ (tin) 0.12 ± 0.04; EVCA¹ (cardboard) 0.12 ± 0.04
+- 2022/2023 exceedances: EVOO-P² (Premium) 0.11 ± 0.03; OPO² 0.18 ± 0.01; EVPR² (ceramic) 0.13 ± 0.04
+- Below limit: EVOO-L (Limit), VOO, OO, EVAL (aluminium) in both campaigns
+- Elevated Cu attributed to copper-based fungicide (copper oxychloride, hydroxide, sulfate) applied to combat olive peacock spot, with non-compliance with the 14-day pre-harvest security deadline
 
-**Phthalates (Table 4, mg/kg oil; EU SML for DEHP = 0.6 mg/kg; SML sum for DEHP group = 0.6 mg/kg; SML for DiNP+DiDP = 1.8 mg/kg):**
-- DEHP detected in 6/18 samples: 0.1–0.23 mg/kg (all below individual 0.6 limit)
-- DiNP detected in 2/18 samples: EVOO-L2 PET = 2.85 mg/kg [exceeds SML sum of 1.8 mg/kg]; EVOO-L2 glass = 1.15 mg/kg
-- DIBP detected in 1 sample: EVOO-L2 PET = 0.51 mg/kg
-- EVOO-L2 PET: DEHP group SML sum = 2.17 mg/kg [exceeds 0.6 mg/kg limit]
-- Phthalates found in glass, porcelain, and cardboard containers as well as PET, suggesting production-process migration in addition to packaging migration
+Fe (text, mg/kg oil; IOC/EU limit 3.0 mg/kg):
+- 2021/2022: 0.09–0.30; highest in EVPR¹ (ceramic) 0.29 ± 0.06 and EVTI¹ (tin) 0.30 ± 0.06
+- 2022/2023: 0.12–0.25; highest in olive pomace oils
+- All samples below 3.0 mg/kg limit
+
+Zn (text, mg/kg oil; currently unregulated):
+- 2021/2022: 0.03–0.10; highest in EVPR¹ (ceramic)
+- 2022/2023: 0.12–0.25 (higher than 2021/2022); highest in EVPR² (ceramic)
+
+**Phthalates (Table 4 and accompanying text, mg/kg oil; EU Reg 10/2011 as amended 2023-08-31 — DEHP individual SML 0.6 mg/kg; SML 1 = 5×DBP + 4×DIBP + 0.1×BBP + 1×DEHP ≤ 0.6 mg/kg; SML 2 = DiNP+DiDP ≤ 1.8 mg/kg). DMP, DEP, DnBP, DMGP, DIHP, DEEP, DnHP, DBEP, BBP, DCHP, DnOP, DnPP, and DnDP were not detected in any sample. Only DEHP, DIBP, and DiNP were detected.**
+
+- **DEHP detected in 6/18 samples** (per source text, p.775; each value 0.1–0.23 mg/kg and individually below the 0.6 mg/kg SML):
+  - EVOO-L² in PET (PE-HD cap): 0.13
+  - EVOO-L² in glass (crock/plastic cap): 0.23
+  - OPO¹ in PET (PE-HD cap): 0.1
+  - OPO² in PET (PE-HD cap): 0.12
+  - EVOO in porcelain (Al/PE-HD cap): 0.19
+  - EVOO in cardboard (PE-HD cap): 0.18
+- **DIBP detected in 1/18 samples**: EVOO-L² in PET = 0.51 mg/kg
+- **DiNP detected in 2/18 samples**: EVOO-L² in PET = 2.85 mg/kg; EVOO-L² in glass (crock/PE-LD cap) = 1.15 mg/kg
+- **SML 1 (DEHP-group sum) exceedances**: only EVOO-L² PET at 2.17 mg/kg exceeded the 0.6 mg/kg limit (driven by the high DIBP contribution).
+- **SML 2 (DiNP + DiDP sum) exceedances**: only EVOO-L² PET at 2.85 mg/kg exceeded the 1.8 mg/kg limit.
+- Phthalates were found in glass, porcelain, and cardboard containers as well as PET, indicating production-process migration (tubing, machinery, cap materials such as PE-HD, crock/plastic, Al/PE-HD) in addition to direct packaging migration.
 
 ## Methods
 
-ICP-MS (Agilent 7900) with microwave digestion (ETHOS UP, 220 °C, 35 bar) of 0.80 g olive oil samples in HNO3/H2O2. Measured 32 elements: Be, B, Na, Mg, Al, P, K, Ca, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Ag, Cd, Sb, Ba, Ti, Pb, U. Phthalates by GC-MS (Bruker Scion) in MRM mode. Each heavy metal determination conducted five times. Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against IOC trade standard (COI/T.15/NC No 3/Rev. 19, November 2022) and EU regulations. Physicochemical characterization (acidity, peroxide value, UV parameters, pigments, oxidative stability) also performed; notable discrepancies found between commercial labelling and measured quality grade in several samples.
+ICP-MS (Agilent 7900, kinetic energy discrimination mode with He gas, Peltier-cooled quartz spray chamber) of 0.80 g olive oil digested in 2.14 cm³ of 65% HNO₃ + 0.85 cm³ of 33% H₂O₂ using an ETHOS UP microwave system (Milestone, 220 °C max, 35 bar). Diluted to 10 cm³ with 18.2 MΩ·cm ultrapure water. Plastic glassware avoided to prevent metal release; non-glass containers in contact with samples soaked in 15% v/v sub-boiling HNO₃ ≥24 h then rinsed with Milli-Q water. Thirty-two elements measured: Be, B, Na, Mg, Al, P, K, Ca, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, As, Se, Mo, Ag, Cd, Sb, Ba, Ti, Pb, U, Sc, Ge, Rh, Ir. Twelve metals are reported in tables/figures: Cu, Fe, Zn (Fig 2); Mg, Al, Cr, Mn, Ni, As, Cd, Sb, Pb (Table 3). Each heavy metal determination performed five times; results expressed as mean ± standard deviation.
+
+Phthalates by GC-MS (Bruker Scion, MRM mode, Rxi-5Sil capillary column 30 m × 0.25 mm × 0.25 µm, pulsed splitless 265 °C, oven 70 °C 3 min → 25 °C/min → 310 °C 4 min, MS interface 280 °C, electron ionisation 265 °C). Two minimum transitions per phthalate.
+
+Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against IOC trade standard COI/T.15/NC No 3/Rev. 19 (November 2022), European Commission Reg (EU) 10/2011 (amended August 2023), and European Commission Delegated Reg (EU) 2022/2104. Physicochemical characterisation (FFA acidity, peroxide value, K₂₃₂/K₂₇₀/ΔK, chlorophylls, carotenoids, oxidative stability via Rancimat 892, total phenolic compounds via Folin-Ciocalteu) also performed; notable discrepancies found between commercial labelling and measured quality grade in several samples (e.g., EVOO-L¹ PET reclassified as lampante; EVOO-L² PET as virgin; EVTI¹ as lampante; EVCA² as virgin).
 
 ## Implications
 
-**Certification:** This paper establishes that Cd, As, and Sb are absent or undetectable in well-controlled Spanish commercial olive oil, while Cu exceedances arise from agricultural fungicide application timing (a production practice issue, not an intrinsic commodity risk). The finding that one porcelain-packaged EVOO sample marginally exceeded the Pb limit (0.10 ± 0.03 mg/kg vs limit 0.1 mg/kg) is an edge-case worth noting for packaging-material guidance. Al contamination from aluminium containers is a supply-chain lever.
+**Certification:** This paper establishes that Cd, total As, and Sb are below detection limits in well-controlled Spanish commercial olive oil across multiple packaging types and two harvest campaigns. Cu exceedances are linked to agricultural fungicide application timing (a production-practice issue, not an intrinsic commodity risk), which can be addressed by extending the pre-harvest security deadline. The one porcelain-packaged EVOO sample that met the Pb limit at exactly 0.10 ± 0.03 mg/kg is an edge case worth flagging in ceramic-packaging guidance. The Al contamination from aluminium containers (0.67 mg/kg vs 0.07–0.12 mg/kg in other packaging) is a supply-chain lever specific to that packaging material. The Zn 2x increase between 2021/2022 and 2022/2023 campaigns suggests that foliar Zn fertilizer application practices warrant the same kind of standardisation as Cu fungicides.
 
-**Courses:** The packaging-type breakdown provides a concrete module case study on how container choice interacts with heavy metal and phthalate migration, including the counterintuitive finding that glass and cardboard containers can also carry phthalate contamination via cap materials and production equipment.
+**Courses:** The packaging-type breakdown provides a concrete module case study on how container choice interacts with heavy metal and phthalate migration, including the counterintuitive finding that glass, porcelain, and cardboard containers can also carry phthalate contamination via cap materials (PE-HD, crock/plastic, aluminum/PE-HD) and production equipment.
 
-**App:** For plain Spanish commercial olive oil, Cd and As can be treated as negligible; Pb and Cu are the primary regulated metals of concern, with Cu exceedances linked to agricultural practice rather than soil burden.
+**App:** For plain Spanish commercial olive oil, Cd and total As can be treated as negligible in this sample set; Pb and Cu are the primary regulated metals of concern, with Cu exceedances linked to agricultural practice and packaging-correlated patterns (ceramic, tin, cardboard) rather than soil burden. Al exposure is correlated specifically with aluminium-container packaging.
 
-## Wiki pages updated on ingest
+**Speciation caution:** The paper reports total arsenic (75 As mass channel); no inorganic/total split. All arsenic figures should be treated as total As. Mercury was not measured.
+
+## Verification notes
+
+- Initial ingest (2026-05-14): created from Manual Fetch Kimi /condiment_papers/01_Oils.
+- Merge-enhance pass (Claude Opus, 2026-05-25, v2 autonomous skill) addressed the following defects against the source PDF:
+  - **raw_path truncation fixed**: prior path "Food safety in the production of olive oils. Presence of heavy me.pdf" did not match any file on disk; corrected to the full filename "Food safety in the production of olive oils. Presence of heavy metals and phthalic acid esters using.pdf".
+  - **products field populated**: added `products: [olive-oil]` to resolve the `routing_malformed.csv` advisory entry; the page now routes to the locked HMTc Category 7 Row 1 (Olive oil) product page.
+  - **metals frontmatter expanded** from 6 (Pb, Cd, Ni, tAs, Al, Cr) to 12 (Pb, Cd, tAs, Ni, Cr, Al, Cu, Zn, Fe, Sb, Mn, Mg) to match the analytes actually reported in Table 3 and Figure 2 of the source.
+  - **Cu data attribution corrected**: prior version stated "OPO (0.12 ± 0.01 to 0.18 ± 0.01)" conflating across campaigns; the 0.18 ± 0.05 belongs to EVPR¹ (ceramic, 2021/2022), while 0.18 ± 0.01 is OPO² (2022/2023). Per-campaign breakdown added.
+  - **Mn and Mg data added**: prior version omitted these reported analytes.
+  - **Detailed Fe, Zn, Al, Ni per-sample breakdown added**.
+  - **Phthalate findings expanded**: explicit DEHP per-sample concentrations (six samples), DIBP and DiNP findings, and the two EVOO-L² SML sum exceedances (DEHP-group sum and DiNP+DiDP sum) now itemised.
+  - **License clarified** from "CC BY" to "CC BY 4.0" per the source page footer.
+  - **access_url added**.
+  - **"Wiki pages updated on ingest" heading renamed** to "Wiki pages this source may touch" to match current convention (the routing layer, not the ingest session, updates downstream pages).
+
+## Wiki pages this source may touch
+
 - [[ingredients/olive-oil]]
+- [[products/olive-oil]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+- [[metals/arsenic-total]]
 - [[metals/nickel]]
+- [[metals/chromium]]
+- [[metals/aluminum]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/iron]]
+- [[metals/manganese]]
+- [[metals/antimony]]
 - [[supply-chain/packaging-materials]]
