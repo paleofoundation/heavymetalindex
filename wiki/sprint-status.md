@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-25T14:10:33.214Z
+updated: 2026-05-25T14:58:35.586Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ✅ 7 min ago |
-| auto-fetched/ PDFs in queue | 87 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 55 min ago (stale) |
+| auto-fetched/ PDFs in queue | 10 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 6 ⚠️ |
-| Audit queue: pending-audit-spawn-failed | 15 (async lane) |
-| Wishlist: total downloaded historically | 0 |
-| Wishlist: total ingested historically | 30 |
+| Audit queue: pending-audit-spawn-failed | 33 (async lane) |
+| Wishlist: total downloaded historically | 10 |
+| Wishlist: total ingested historically | 43 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 4 |
-| Commits last 24 hours | 75 |
+| Commits last 1 hour | 21 |
+| Commits last 24 hours | 92 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-0c5ad80 4 seconds ago — state sync: daemon tick artifacts + extraction + healing + audit-queue + wishlist queries
+53f221f 32 seconds ago — ingest auto-fetched 2026-05-25 1748 batch 2: 8 source pages
 ```
 
 ## How to read this
