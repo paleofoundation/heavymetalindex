@@ -44,7 +44,7 @@ All values in ng/mL, which equals µg/kg (ppb) for oils at approximately unit de
 **Health risk assessment results (n=500 adults, average olive oil consumption 27.59 ± 15.93 g/day):**
 - Average body weight: men 86.9 ± 16.48 kg; women 67.7 ± 13.51 kg
 - DIM (mg/kg BW/day) and HRI for all metals were well below 1:
-  - Pb: DIM 1.07 × 10⁻⁴; HRI 3.07 × 10⁻² (highest HRI, against RfD of 0.025 mg/kg BW/day)
+  - Pb: DIM 1.07 × 10⁻⁴; HRI 3.07 × 10⁻² (highest HRI, against the JECFA "old value" RfD of 0.025 mg/kg BW/day; the JECFA Pb PTWI was subsequently withdrawn)
   - Cr: DIM 4.77 × 10⁻⁵; HRI 2.26 × 10⁻²
   - Ni: DIM 1.17 × 10⁻⁴; HRI 5.58 × 10⁻³
   - Cd: DIM 5.93 × 10⁻⁶; HRI 5.93 × 10⁻³
@@ -52,12 +52,12 @@ All values in ng/mL, which equals µg/kg (ppb) for oils at approximately unit de
 
 **Contextual comparisons cited by authors:**
 - Cd in Sicilian olive oils: <1.2 ng/g
-- Pb in various studies: considerably below the MRL stated in the paper as 0.01 µg/g (= 10 µg/kg, 10 ppb). The broader EU/Codex comparator for lead in fats and oils is 0.1 mg/kg (= 100 µg/kg, 100 ppb).
-- The elevated Fe (mean 875 ng/mL) is attributed to the iron, pyrite, and copper sulfide mineralization of the Troodos Mountain deposits; still within the 3.0 mg/kg regulatory limit
+- Pb in various studies: considerably below the MRL stated in the paper as 0.01 µg/g (= 10 µg/kg, 10 ppb), attributed to the International Oil Council (IOC) trade regulations.
+- The elevated Fe (mean 875 ng/mL) is attributed to the iron, pyrite, and copper sulfide mineralization of the Troodos Mountain deposits; still within the ≤3.0 mg/kg figure cited by the paper from the 2010 US Standards for Grades of Olive Oil.
 
 ## Methods
 
-ICP-MS (Thermo Scientific X Series II) with CEM Mars 5 closed microwave digestion (1200 W, 200°C, 800 psi, 15 min hold). CRM validated (109469 Multi-element Standard II Oil Dissolved). Calibration curves at six concentrations; each analysis performed in triplicate. Units reported as ng/mL (equivalent to µg/kg for near-unit-density oils). Dietary intake survey: food frequency questionnaire (FFQ), face-to-face, n=500 adults aged 30–49 in Morphou and Lefka districts. Body weight measured directly (TANITA BC420 MA). Ethics approved by Hacettepe University Ethics Committee (17.04.2014, decision no 431-1391). Health risk parameters: RfD values from US-EPA IRIS (Cd, Ni, Cr, As) and JECFA (Fe, Cu, Zn, Pb); DIM and HRI formulas from EPA non-cancer health assessment framework.
+ICP-MS (Thermo Scientific X Series II) with CEM Mars 5 closed microwave digestion (1200 W, 200°C, 800 psi, 15 min hold). CRM validated (109469 Multi-element Standard II Oil Dissolved). Calibration curves at six concentrations; each analysis performed in triplicate. Units reported as ng/mL (equivalent to µg/kg for near-unit-density oils). Dietary intake survey: food frequency questionnaire (FFQ), face-to-face, n=500 adults aged 30–49 in Morphou and Lefka districts. Body weight measured directly (TANITA BC420 MA). Ethics approved by Hacettepe University Ethics Committee (17.04.2014, decision no 431-1391). Health risk parameters: RfD values from US-EPA IRIS (Cd, Ni, Cr, As) and JECFA (Fe, Cu, Zn, Pb — the Pb value flagged "old value" in the source); for Co, no consensus RfD exists, so the authors used a TDI of 0.0014 mg/kg BW/day from the Netherlands RIVM. DIM and HRI formulas from EPA non-cancer health assessment framework.
 
 ## Implications
 
@@ -86,4 +86,5 @@ ICP-MS (Thermo Scientific X Series II) with CEM Mars 5 closed microwave digestio
 
 - Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, added Co/Fe/Cu/Zn to frontmatter because the source reports all nine metals, corrected unit conversions for 0.1 mg/kg and 0.01 µg/g comparator limits, removed the non-taxonomy health wikilink, modernized the source-touch section, and removed internal/Paleo-specific and "safe range" wording from implications.
 - 2026-05-26 enhancement (Claude, manual-fetch-kimi re-ingest): replaced placeholder `raw_handle: manual-fetch-kimi` with the canonical `MFK_is-there-any-potential-health-risk-of-heavy-metals` handle; populated `products: ["[[products/olive-oil]]"]` (the food-paper-with-empty-products defect flagged in `routing_malformed.csv`); aligned the `matrices` field to the sibling olive-oil source convention (`[edible-oil, olive-oil]`) — the prior `dietary-intake` matrix is not in the controlled vocabulary and the routing role is already carried by `[[ingredients/olive-oil]]` and `[[products/olive-oil]]`.
+- 2026-05-26 fresh-context audit (general-purpose subagent) — verdict REVISE. Two ⚠️ findings verified and applied: (1) removed editorial insertion "broader EU/Codex comparator for lead in fats and oils is 0.1 mg/kg" — not in this source (the paper cites only the IOC 0.01 µg/g MRL on p. 6); (2) restored the JECFA "old value" qualifier on the Pb RfD of 0.025 mg/kg BW/day (p. 3 of source flags it as such, and the JECFA Pb PTWI was later withdrawn). Also added Co/RIVM TDI provenance to Methods. The "Cd in Sicilian olive oils: <1.2 ng/g" stripped-citation concern was reviewed and left as-is — it is a faithful quotation of the source's own framing and does not affect numerical fidelity.
 - `olive-oil` is retained as a source-specific matrix term alongside `edible-oil`; the page also routes through `[[ingredients/olive-oil]]` and `[[products/olive-oil]]`.
