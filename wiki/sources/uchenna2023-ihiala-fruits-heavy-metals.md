@@ -11,7 +11,7 @@ source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-tas_2023_10-3126-josem-v2i1-53113.pdf"
-metals: ["Zn", "Ni", "Cu", "Pb", "Cr", "As", "Fe"]
+metals: ["Zn", "Ni", "Cu", "Pb", "Cr", "tAs", "Fe"]
 ingredients: ["[[ingredients/pineapple]]", "[[ingredients/fruit]]"]
 products: ["[[products/fresh-fruit]]"]
 matrices: ["banana", "watermelon", "apple", "pineapple"]
