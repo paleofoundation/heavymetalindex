@@ -1,0 +1,55 @@
+---
+type: source
+raw_handle: auto-fetched
+cite_key: gongora-gomez2018-pen-shell-seasonal-metals
+title: "Seasonal levels of heavy metals in soft tissue and muscle of the pen shell Atrina maura from a farm in the southeastern coast of the Gulf of California, Mexico"
+authors: ["Gongora-Gomez Andres Martin", "Dominguez-Orozco Ana Laura", "Villanueva-Fonseca Brenda Paulina", "Munoz-Sevilla Norma Patricia", "Garcia-Ulloa Manuel"]
+year: 2018
+publication: "Revista Internacional de Contaminacion Ambiental"
+doi: 10.20937/rica.2018.34.01.05
+source_type: peer-reviewed
+evidence_tier: B
+license: "open-access PDF"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0040_2018_10-20937-rica-2018-34-01-05.pdf"
+metals: ["Cd", "Pb", "Zn", "tHg"]
+ingredients: ["[[ingredients/shellfish]]", "[[ingredients/seafood]]"]
+products: ["[[products/shellfish]]", "[[products/seafood]]"]
+matrices: ["pen-shell", "Atrina-maura", "soft-tissue", "muscle"]
+jurisdictions: ["MX"]
+sample_population: "Farmed pen shell from the southeastern Gulf of California, sampled seasonally from summer 2011 to summer 2012"
+updated: 2026-05-26
+---
+
+# Gongora-Gomez et al. 2018 - Seasonal metals in pen shell tissue
+
+This study measured seasonal heavy-metal levels in soft tissue and muscle of the pen shell Atrina maura from the southeastern Gulf of California. It is routeable for shellfish because it separates soft tissue from muscle and reports seasonal tissue concentrations.
+
+## Key numbers
+
+- Soft-tissue dry-weight means ranged from total Hg 0.064 +/- 0.01 ug/g to Zn 485.66 +/- 71.12 ug/g.
+- Muscle dry-weight means ranged from total Hg 0.058 +/- 0.03 ug/g to Zn 64.83 +/- 4.90 ug/g.
+- The paper reports wet-weight Cd of 18.15 ug/g in soft tissue and 1.82 ug/g in muscle.
+- Wet-weight Pb in soft tissue was reported as 2.31 ug/g.
+- The authors state that soft-tissue Cd, muscle Cd, and soft-tissue Pb exceeded Mexican limits by 36.3, 3.64, and 2.31 times, respectively.
+
+## Methods
+
+The study sampled Atrina maura over multiple seasons and analyzed both soft tissue and muscle. The source includes both dry-weight and wet-weight reporting, so routing needs to keep basis explicit.
+
+## Implications
+
+The source supports shellfish seasonal-variance evidence for Mexico, especially for Cd and Pb. Muscle and whole soft-tissue values should remain separate because they imply different edible-tissue scopes.
+
+## Wiki pages this source may touch
+
+- [[ingredients/shellfish]]
+- [[products/shellfish]]
+- [[products/seafood]]
+- [[metals/cadmium]]
+- [[metals/lead]]
+- [[metals/mercury-total]]
+- [[metals/zinc]]
+
+## Verification notes
+
+Mercury is treated as total mercury because methylmercury speciation was not reported in the extracted source text.
