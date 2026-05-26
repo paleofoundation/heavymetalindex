@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_mercury-content-in-fish-oil-food-supplements-and-a
 cite_key: torovic2024-mercury-fish-oil-supplements-serbia
 title: "Mercury Content in Fish Oil Food Supplements and Associated Health Risk"
 authors: [Torović L, Banović Fuentes J, Stanojković N, Lukić D, Djermanović M]
@@ -9,8 +9,10 @@ publication: "Proceedings 2023, 91, 364 (MDPI Proceedings — 14th European Nutr
 doi: 10.3390/proceedings2023091364
 source_type: conference-abstract
 evidence_tier: B
-license: "CC BY"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Mercury Content in Fish Oil Food Supplements and Associated Healt.pdf"
+license: "CC BY 4.0"
+access_url: "https://doi.org/10.3390/proceedings2023091364"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Mercury Content in Fish Oil Food Supplements and Associated Health Risk.pdf"
+raw_sha256: "82ffbad6dd992a546cde92d83fa1a9d5bf8f3f9c823219b397933b3bb8014d8e"
 metals: [tHg, MeHg]
 ingredients: ["[[ingredients/fish-oil]]"]
 products: ["[[products/dietary-supplements]]"]
@@ -19,7 +21,7 @@ jurisdictions: [RS, BA]
 near_duplicates: []
 sample_n: 42
 sample_population: "42 fish oil food supplements available on the markets of the Republic of Serbia and the Republic of Srpska (Bosnia and Herzegovina)"
-updated: 2026-05-14
+updated: 2026-05-26
 ---
 
 # Torović et al. 2024 — Mercury in fish oil supplements: Serbia and Srpska market
@@ -56,3 +58,7 @@ App: Supports a low-risk classification for fish oil supplements with respect to
 - [[ingredients/fish-oil]]
 - [[products/dietary-supplements]]
 - [[metals/mercury]]
+
+## Verification notes
+
+- 2026-05-26 merge-enhance: corrected `raw_handle` from generic `manual-fetch-kimi` placeholder to per-paper `MFK_mercury-content-in-fish-oil-food-supplements-and-a`; corrected truncated `raw_path` filename to the actual on-disk file (was `...Associated Healt.pdf`, now `...Associated Health Risk.pdf`); added `access_url` (MDPI DOI) and `raw_sha256`; re-verified all Key numbers against the source PDF (range 0.001–0.0057 mg/kg, mean 0.0019 ± 0.0009 mg/kg, exposure 0.042% RfD / 0.023% TWI, maxima 0.24% / 0.13%) — all match the abstract verbatim. License is CC BY 4.0 per MDPI publisher notice on page 1.
