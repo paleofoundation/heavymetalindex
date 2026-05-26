@@ -6,7 +6,7 @@ name: Chromium
 species: [Cr3+, Cr6+]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
-sources: 166
+sources: 175
 updated: 2026-05-08
 status: stub
 n_sources: 2

@@ -15,7 +15,7 @@ variant_type: clean_benchmark
 pair_row: 5
 audience: [regulator, educator, consumer, brand-legal]
 updated: 2026-05-16
-sources: 3
+sources: 5
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 

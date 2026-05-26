@@ -80,7 +80,7 @@ lower_risk_variants: ["[[ingredients/cultivated-button-mushrooms]]", "[[ingredie
 higher_risk_variants: ["[[ingredients/wild-porcini]]", "[[ingredients/wild-chanterelle]]", "[[ingredients/boletus-species]]", "[[ingredients/dried-wild-mushroom]]", "[[ingredients/mushroom-extract-supplements]]"]
 used_in_products: ["[[products/dried-mushroom]]", "[[products/mushroom-powder]]", "[[products/mushroom-supplements]]", "[[products/mushroom-sauces]]", "[[products/pates]]", "[[products/foraged-mushroom-products]]"]
 audience: [regulator, educator, consumer, app]
-sources: 10
+sources: 11
 updated: 2026-05-16
 ---
 

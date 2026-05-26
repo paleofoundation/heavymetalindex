@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [baby-cereals-dry-rice-based, mixed-meals-rice-containing, teething-and-snacks-rice-based]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 8
+sources: 7
 ---
 
 # Rice Flour

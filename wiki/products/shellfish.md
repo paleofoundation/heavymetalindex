@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 13
+sources: 14
 updated: 2026-05-17
 ---
 # Shellfish (shrimp, crab, lobster, clams, oysters, mussels)

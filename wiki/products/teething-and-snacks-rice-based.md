@@ -29,7 +29,7 @@ cc_relationship:
       metals: [iAs, Cd, Pb]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-03
-sources: 18
+sources: 21
 ---
 
 # Teething & Snacks (Rice-Based)

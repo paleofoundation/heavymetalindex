@@ -6,7 +6,7 @@ name: Arsenic, inorganic
 species: [As3+, As5+]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: high
-sources: 38
+sources: 39
 updated: 2026-05-02
 status: scaffold
 n_sources: 2

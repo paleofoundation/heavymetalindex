@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: ["[[products/chocolate-confections]]"]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 3
+sources: 4
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3

@@ -31,7 +31,7 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 3. [[products/infant-formula-rtf-liquid-non-soy|Infant formula, RTF liquid (non-soy)]] (22 sources)
 4. [[products/infant-formula-rtf-liquid-soy-based|Infant formula, RTF liquid (soy-based)]] (12 sources)
 5. [[products/baby-cereals-dry-non-rice|Baby cereals and grain products, dry (non-rice)]] (31 sources)
-6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (63 sources)
+6. [[products/baby-cereals-dry-rice-based|Baby cereals and grain products, dry (rice-based)]] (65 sources)
 7. [[products/fruit-purees|Fruit purees]] (30 sources)
 8. [[products/non-root-vegetable-purees|Non-root vegetable purees]] (19 sources)
 9. [[products/root-vegetable-purees|Root-vegetable purees]] (21 sources)
@@ -39,9 +39,9 @@ Lead regulatory, exposure, and occurrence benchmarks are normalized into ppb in 
 11. [[products/fish-containing-baby-foods|Fish-containing baby foods]] (15 sources)
 12. [[products/mixed-meals-non-rice|Mixed meals, non-rice]] (18 sources)
 13. [[products/mixed-meals-rice-containing|Mixed meals, rice-containing]] (18 sources)
-14. [[products/fruit-juice-not-canned|Fruit juice (not canned)]] (30 sources)
+14. [[products/fruit-juice-not-canned|Fruit juice (not canned)]] (31 sources)
 15. [[products/teething-and-snacks-non-rice|Teething & snacks (non-rice)]] (13 sources)
-16. [[products/teething-and-snacks-rice-based|Teething & snacks (rice-based)]] (18 sources)
+16. [[products/teething-and-snacks-rice-based|Teething & snacks (rice-based)]] (21 sources)
 
 ## Base and Bridge Product Nodes
 
@@ -85,12 +85,12 @@ Contamination platform notes: Rice is a known contamination platform for iAs, Cd
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
 1. [[products/flour-non-rice|Flour (wheat, corn, other)]] (7 sources)
-2. [[products/bread-and-baked-goods|Bread and baked goods]] (8 sources)
+2. [[products/bread-and-baked-goods|Bread and baked goods]] (9 sources)
 3. [[products/pasta-wheat-based|Pasta (wheat-based)]] (3 sources)
 4. [[products/pasta-rice-based|Pasta (rice-based)]] (0 sources)
 5. [[products/breakfast-cereal-non-rice|Breakfast cereal (non-rice)]] (0 sources)
 6. [[products/breakfast-cereal-rice-based|Breakfast cereal (rice-based)]] (0 sources)
-7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (14 sources)
+7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (16 sources)
 8. [[products/rice-snacks-crackers|Rice snacks/crackers]] (6 sources)
 9. [[products/rice-noodles|Rice noodles]] (0 sources)
 10. [[products/rice-beverages-rice-milk|Rice beverages (rice milk)]] (2 sources)
@@ -100,17 +100,17 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/contaminated splits document categorical metal-load differences: spinach (Cd) split from leafy vegetables; soy and peanut (each carrying their own platform load) split from legumes/pulses; cashew (Ni) and sunflower seed (Cd) each split from nuts and seeds; peanut butter and sunflower seed butter inherit from their whole-kernel parents within the nut and seed butters family.
 
-- [[products/fresh-fruit|Fresh and Frozen Fruits]] (27 sources)
+- [[products/fresh-fruit|Fresh and Frozen Fruits]] (29 sources)
 - [[products/dried-fruit|Dried Fruit]] (4 sources)
 - [[products/fruit-snacks|Fruit Snacks]] (1 source)
-- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (3 sources)
+- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (5 sources)
 - [[products/spinach|Spinach]] (4 sources)
-- [[products/non-root-vegetables|Non-Root Vegetables]] (11 sources)
+- [[products/non-root-vegetables|Non-Root Vegetables]] (13 sources)
 - [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (14 sources)
-- [[products/legumes-pulses-other|Legumes and Pulses, Other]] (4 sources)
+- [[products/legumes-pulses-other|Legumes and Pulses, Other]] (5 sources)
 - [[products/soy-products|Soy Products]] (1 source)
 - [[products/peanuts|Peanuts]] (5 sources)
-- [[products/nuts-seeds-other|Nuts and Seeds, Other]] (2 sources)
+- [[products/nuts-seeds-other|Nuts and Seeds, Other]] (3 sources)
 - [[products/cashews|Cashews]] (4 sources)
 - [[products/sunflower-seeds|Sunflower Seeds]] (5 sources)
 - [[products/nut-seed-butters-other|Nut and Seed Butters, Other]] (1 source)
@@ -128,13 +128,13 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/vegetable-juices-root-vegetable-containing]] (0 sources)
 - [[products/plant-milks-non-soy-non-rice]] (1 source)
 - [[products/plant-milks-soy-based]] (2 sources)
-- [[products/plant-milks-rice-based]] (4 sources) — RETIRED, routes to Category 3 row 10 (Rice beverages) when built
+- [[products/plant-milks-rice-based]] (5 sources) — RETIRED, routes to Category 3 row 10 (Rice beverages) when built
 - [[products/flavored-waters]] (1 source)
 - [[products/sports-energy-drinks]] (0 sources)
 - [[products/herbal-botanical-infusions]] (2 sources)
 - [[products/true-tea-camellia-sinensis]] (4 sources)
 - [[products/matcha]] (1 source)
-- [[products/coffee]] (6 sources)
+- [[products/coffee]] (7 sources)
 - [[products/soft-drinks-carbonated-beverages]] (1 source)
 - [[products/fermented-beverages-non-tea-based]] (2 sources)
 - [[products/kombucha-tea-based]] (1 source)
@@ -148,10 +148,10 @@ Contamination platform notes: Predatory fish are a contamination platform for Me
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/fish-freshwater|Fish — freshwater (tilapia, catfish, trout)]] (7 sources)
-2. [[products/fish-marine-non-predatory|Fish — marine, non-predatory (sardines, anchovies, salmon, cod)]] (0 sources)
-3. [[products/fish-marine-predatory|Fish — marine, predatory (tuna, swordfish, shark, king mackerel)]] (2 sources)
-4. [[products/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]] (13 sources)
+1. [[products/fish-freshwater|Fish — freshwater (tilapia, catfish, trout)]] (8 sources)
+2. [[products/fish-marine-non-predatory|Fish — marine, non-predatory (sardines, anchovies, salmon, cod)]] (1 source)
+3. [[products/fish-marine-predatory|Fish — marine, predatory (tuna, swordfish, shark, king mackerel)]] (3 sources)
+4. [[products/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]] (14 sources)
 5. [[products/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] (0 sources)
 6. [[products/canned-seafood|Canned seafood (with tin flag)]] (1 source)
 
@@ -163,8 +163,8 @@ Contamination platform notes: Cacao → Cd, Pb (from soil); spices → Pb, Cr (f
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/olive-oil|Olive oil]] (3 sources)
-2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (6 sources)
+1. [[products/olive-oil|Olive oil]] (6 sources)
+2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (7 sources)
 3. [[products/butter-and-ghee|Butter and ghee]] (2 sources)
 4. [[products/honey-and-syrups|Honey and syrups (maple, agave, molasses)]] (0 sources)
 5. [[products/vinegar|Vinegar]] (9 sources)
@@ -229,12 +229,12 @@ Contamination platform notes: Organ meats (especially liver, kidney) accumulate 
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/beef-product|Beef]] (7 sources)
-2. [[products/pork-product|Pork]] (2 sources)
-3. [[products/lamb-mutton|Lamb/mutton]] (2 sources)
-4. [[products/poultry-product|Poultry (chicken, turkey, duck)]] (12 sources)
+1. [[products/beef-product|Beef]] (9 sources)
+2. [[products/pork-product|Pork]] (4 sources)
+3. [[products/lamb-mutton|Lamb/mutton]] (3 sources)
+4. [[products/poultry-product|Poultry (chicken, turkey, duck)]] (20 sources)
 5. [[products/game-meats|Game meats (venison, bison, rabbit)]] (1 source)
-6. [[products/eggs-product|Eggs]] (3 sources)
+6. [[products/eggs-product|Eggs]] (4 sources)
 7. [[products/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] (5 sources)
 8. [[products/canned-meats|Canned meats (with tin flag)]] (0 sources)
 
@@ -510,30 +510,20 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/biscuits|Biscuits]]
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/cereal-meals|Cereal Meals]]
-- [[products/cereal-products|Cereal Products]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/infant-food-fruits|Infant Food Fruits]]
-- [[products/infant-food-powder|Infant Food Powder]]
-- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]]
-- [[products/infant-food-vegetables|Infant Food Vegetables]]
-- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]]
-- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]]
-- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]]
-- [[products/infant-formula-stage1|Infant Formula Stage1]]
-- [[products/nutritional-beverage-child|Nutritional Beverage Child]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snack-bars-energy-bars|Snack Bars Energy Bars]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/infant-food-general|Infant Food General]]
+- [[products/infant-food-puree|Infant Food Puree]]
+- [[products/infant-food-puree-fish|Infant Food Puree Fish]]
+- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]]
+- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]]
+- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]]
+- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]]
+- [[products/infant-formula-dairy|Infant Formula Dairy]]
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
+- [[products/infant-juice|Infant Juice]]
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
+- [[products/infant-rice-cereal|Infant Rice Cereal]]
+- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->

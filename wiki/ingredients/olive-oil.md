@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/olive-pomace-oil]]", "[[ingredients/flavou
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-15
-sources: 11
+sources: 12
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 11

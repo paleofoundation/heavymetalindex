@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [coffee]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 9
+sources: 10
 ---
 
 # Coffee

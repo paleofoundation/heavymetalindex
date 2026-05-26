@@ -23,7 +23,7 @@ redirect_target: products/rice-beverages
 redirect_target_pending: true
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 4
+sources: 5
 ---
 
 # Plant Milks, Rice-Based — RETIRED

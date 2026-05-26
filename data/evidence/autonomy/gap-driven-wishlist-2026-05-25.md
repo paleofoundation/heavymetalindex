@@ -3,50 +3,50 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1448 candidate queries
-- Path B (empty product + thin ingredient pages): 8294 candidate queries
-- Total candidates (after dedup): 9742
+- Path B (empty product + thin ingredient pages): 8101 candidate queries
+- Total candidates (after dedup): 9549
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9742
-- Final wishlist (capped at 600): 600
+- Eligible after filtering: 9549
+- Final wishlist (capped at 2500): 2500
 
 ### By priority
 
-- P1: 600
+- P1: 2500
 
 ### By source path
 
-- product: 600
+- product: 2500
 
 ## Query-history-aware deprioritization
 
 Threshold: a (query × cell) attempted >=5 times with <2 successful downloads is dropped from this run.
 
-Audit-log scale: 0 (query × cell) histories tracked.
+Audit-log scale: 41 (query × cell) histories tracked.
 
 ## Top 20 priority queries this run
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | fabric-contact-combination-products × Cd | combination products serving multiple functions cadmium |
-| P1 | food-packaging-foils-wraps × tHg | foils/wraps total mercury |
-| P1 | play-yards-and-gates × tHg | play yards and gates/enclosures mercury |
-| P1 | makeup-body-paints-bases-fixatives × tAs | makeup body paints bases fixatives arsenic |
-| P1 | dietary-supplements × iAs | dietary supplements speciated arsenic occurrence |
-| P1 | infant-cereal × tAs | infant cereal arsenic occurrence |
-| P1 | baby-oil × Pb | baby oil heavy metals Pb occurrence |
-| P1 | pre-treaters-stain-removers × tHg | pre-treaters (spray/gel/stick) and stand-alone stain/spot removers mercury |
-| P1 | food-packaging-plastic-tubs × Cd | plastic tubs cadmium |
-| P1 | infant-formula-dairy-free × Pb | infant formula dairy free Pb occurrence |
-| P1 | baby-sunscreen-chemical × Pb | baby sunscreen chemical Pb occurrence |
-| P1 | infant-food-puree-fish × Pb | infant food puree fish heavy metals Pb |
-| P1 | food-packaging-cans-lids × tAs | food packaging cans lids heavy metals arsenic |
-| P1 | infant-rice-cereal × Pb | infant rice cereal heavy metals Pb occurrence |
-| P1 | fish-marine-non-predatory × tHg | fish marine non predatory heavy metals mercury |
-| P1 | rice-snacks-crackers × iAs | rice snacks crackers heavy metals speciated arsenic occurrence |
-| P1 | teething-and-snacks-non-rice × Cd | teething and snacks non rice Cd occurrence |
-| P1 | hair-removal-products × tAs | hair removal products arsenic |
-| P1 | toys-squeeze × tAs | toys squeeze heavy metals total arsenic |
-| P1 | tableware-metal-bottles-tumblers × Cd | metal bottles/tumblers cadmium |
+| P1 | supplements-oil-based × tAs | supplements oil based heavy metals arsenic |
+| P1 | supplements-vitamin-mineral × Cd | supplements vitamin mineral heavy metals Cd |
+| P1 | oral-irrigators-water-flossers × iAs | oral irrigators water flossers inorganic arsenic occurrence |
+| P1 | food-storage-silicone × Cd | food storage silicone heavy metals Cd |
+| P1 | infant-porridges-dairy-free × Cd | infant porridges dairy free heavy metals cadmium |
+| P1 | dish-soaps-manual × Cd | dish soaps manual Cd |
+| P1 | scented-wax-blocks-melts × Pb | scented wax blocks melts heavy metals Pb |
+| P1 | toys-projectile-guns × tAs | toys projectile guns heavy metals total arsenic |
+| P1 | supplements-enzymes × tAs | supplements enzymes heavy metals arsenic |
+| P1 | floor-cleaners-hard-surface × Cd | floor cleaners (hard surface) cadmium |
+| P1 | fish-freshwater × Pb | fish freshwater Pb occurrence |
+| P1 | plant-milks-rice-based × Cd | plant milks rice based Cd occurrence |
+| P1 | baby-powder-cornstarch × Cd | baby powder cornstarch Cd occurrence |
+| P1 | fruit-snacks × Pb | fruit snacks lead occurrence |
+| P1 | makeup-body-paints-bases-fixatives × Pb | makeup body paints bases fixatives heavy metals Pb |
+| P1 | infant-bottle-nipples × tAs | infant bottle nipples toy heavy metals arsenic |
+| P1 | sunflower-seeds × Ni | sunflower seeds nickel occurrence |
+| P1 | supplements-oral-solids-lozenges × tHg | supplements oral solids lozenges total mercury |
+| P1 | children-personal-care × Pb | children personal care Pb occurrence |
+| P1 | matcha × Pb | matcha heavy metals Pb occurrence |
 
 ## Coverage rotation
 
@@ -68,4 +68,4 @@ Downloaded PDFs are picked up by the autonomy daemon's ingest-marker-batch and i
 - **Smart keyword generation**: replaces 15-entry hardcoded keyword map. Now derives keywords from slug tokenization + page title + HMTc-category context modifier + generic safety modifier for any product/ingredient slug.
 - **Query-history-aware deprioritization**: reads wishlist-fetch-audit.csv, drops queries that have run >=5 times with <2 successful downloads. Substitutes alternative queries via the multi-keyword generation per page.
 - **Coverage rotation**: day-seeded deterministic shuffle ensures no cell is permanently starved by always-higher-priority cells.
-- **Per-run cap (600)**: bounded query volume so single days don't emit unbounded OpenAlex requests.
+- **Per-run cap (2500)**: bounded query volume so single days don't emit unbounded OpenAlex requests.
