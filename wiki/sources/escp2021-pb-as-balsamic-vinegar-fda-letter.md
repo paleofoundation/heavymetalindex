@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_alarming-lead-arsenic-levels-found-in-popular-vine
 cite_key: escp2021-pb-as-balsamic-vinegar-fda-letter
 title: "Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA"
 authors: [Corrigan ZB, Braiman J, Chittenden C]
@@ -11,16 +11,16 @@ no_doi_assigned: true
 source_type: ngo-report
 evidence_tier: B
 license: "Public record — FDA submission"
-raw_path: "raw/Manual Fetch Kimi/condiment_papers/02_Vinegars/Alarming Lead, Arsenic Levels Found in Popular Vinegar Brands - E.pdf"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Alarming Lead, Arsenic Levels Found in Popular Vinegar Brands - ESCP_Food & Water Watch Testing.pdf"
 metals: [Pb, tAs]
 ingredients: ["[[ingredients/vinegar]]", "[[ingredients/balsamic-vinegar]]"]
 products: ["[[products/vinegar]]"]
-matrices: [balsamic-vinegar, wine-vinegar, balsamic-reduction, balsamic-glaze]
+matrices: [vinegar, balsamic-vinegar, balsamic-reduction, balsamic-glaze]
 jurisdictions: [US]
 near_duplicates: []
 sample_n: 24
-sample_population: "24 commercial vinegar and vinegar-reduction products purchased in Rochester NY area and online, 2021; 21 were balsamic vinegars or balsamic reductions/glazes"
-updated: 2026-05-14
+sample_population: "24 commercial vinegar and vinegar-reduction products purchased in Rochester NY area and online, 2021; 21 were balsamic vinegars or balsamic reductions/glazes; 3 were non-balsamic vinegars (types not specified in the letter)"
+updated: 2026-05-26
 ---
 
 # ESCP / Food & Water Watch 2021 — FDA Letter: Pb and As in US Retail Balsamic Vinegars
@@ -33,18 +33,18 @@ The Empire State Consumer Project (ESCP) and Food & Water Watch submitted this l
 
 **Arsenic (total As — speciation not reported):**
 - 11 of 24 samples contaminated with As or Pb; 7 tested positive for both
-- As range in positive samples: 70 to 1,040 ppb (µg/kg)
-- Mean As across positive balsamic samples: 287.91 ppb
-- At 1 tablespoon (15 mL) serving, mean As intake = 4.32 µg; at maximum (1,040 ppb), one tablespoon delivers ~15.6 µg tAs
+- As range in detected/positive samples: 70 to 1,040 ppb (µg/kg)
+- Mean As across detected/positive samples: 287.91 ppb (the letter states "the mean levels detected"; does not state whether the mean is over the positive subset only or over all 24 samples — the surrounding language indicates the positive subset)
+- At a 1-tablespoon (15 mL) serving, mean As intake = ~4.3 µg; at the maximum (1,040 ppb), one tablespoon delivers ~15.6 µg tAs
 - FDA MCL for bottled water: 10 ppb. The maximum balsamic As found (1,040 ppb) is 104× higher per volume.
-- Note: This is total arsenic; speciation between iAs and organic As not performed. ESCP comparison to water MCL (iAs-specific) is analytically imprecise.
+- Note: This is total arsenic; speciation between iAs and organic As not performed. ESCP's comparison to water MCL (iAs-specific) is analytically imprecise.
 
 **Lead (Pb):**
-- Pb range in positive samples: 68.6 to 127 ppb
+- Pb range in detected/positive samples: 68.6 to 127 ppb
 - 10 of 21 balsamic products (47.6%) tested positive for As or Pb
-- All Pb-positive samples were balsamics imported from Italy, Greece, or Spain
-- California Prop 65 limit for Pb in balsamic vinegar: 34 ppb (corresponding to 0.5 µg/day at 15 mL serving). ESCP found all Pb-positive samples exceeded this threshold (range 68.6–127 ppb, i.e., 2× to 3.7× above Prop 65 threshold).
-- Context: two brands previously found clean in 2002 Environmental Law Foundation testing registered the highest As (1,040 ppb) and Pb (106 ppb) in this 2021 testing.
+- All but one of the positive samples (across either metal) were balsamics imported from Italy, Greece, or Spain; the letter does not identify the type or origin of the single non-balsamic positive
+- California Prop 65 limit for Pb in balsamic vinegar: 34 ppb (corresponding to ~0.5 µg/day at a 15 mL serving). ESCP's Pb-positive samples all exceeded this threshold (range 68.6–127 ppb, i.e., 2× to 3.7× above the Prop 65 threshold).
+- Context: two balsamic products previously identified as having no detectable lead or arsenic (per the 2002 Environmental Law Foundation testing referenced in the letter) registered the highest As (1,040 ppb) and Pb (106 ppb) in this 2021 testing.
 
 **Regulatory context cited:**
 - California AG database listed 24 Prop 65 warning notices for balsamic vinegar Pb as recently as 2020
@@ -63,9 +63,16 @@ Courses: Illustrates that US regulatory frameworks contain a significant gap: no
 
 App: This source does not provide sufficient methodological detail to anchor ppb values in the contamination_profile for vinegar; it should be used as corroboration for balsamic-reduction/glaze as a high-risk format rather than as a primary quantitative source.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[ingredients/vinegar]]
-- [[ingredients/balsamic-vinegar]]
-- [[products/condiments]]
-- [[metals/lead]]
+Page was originally drafted under the legacy `manual-fetch-kimi` handle (last `updated: 2026-05-14`). Merge-enhanced on 2026-05-26 against the source PDF to:
+
+- Replace legacy `raw_handle: manual-fetch-kimi` with the canonical MFK handle `MFK_alarming-lead-arsenic-levels-found-in-popular-vine`.
+- Correct `raw_path` to the actual filename and folder path (the prior path was truncated and missing the trailing space in `Manual Fetch Kimi `).
+- Remove `wine-vinegar` from `matrices`: the letter identifies 21 of 24 samples as balsamic vinegars or balsamic reductions/glazes and the remaining 3 samples only as "vinegars" of unspecified type; "wine vinegar" is not named in the letter and was an unsupported inference. Added the broader `vinegar` matrix slug to capture the overall scope.
+- Soften the Lead key-numbers bullet that previously stated "All Pb-positive samples were balsamics" — the letter only states that "all but one of the vinegar or reduction samples testing positive for either arsenic or lead were balsamics" and does not break the one non-balsamic positive out by metal.
+- Clarify in the Arsenic key-numbers bullet that the 287.91 ppb mean is described in the letter as "the mean levels detected"; the page interprets this as the mean of the positive subset (consistent with the surrounding language) and labels it as such rather than as a sample-wide mean.
+- Replace the legacy `## Wiki pages updated on ingest` heading (which listed downstream targets, including a stale `products/condiments` link to a page that does not exist) with this verification-notes block, matching the current source-page convention. Downstream routing is system-generated from frontmatter and is not maintained by hand inside source pages (CLAUDE.md Part 5b).
+- Update `sample_population` to record that 3 of 24 samples were non-balsamic vinegars of unspecified type.
+
+No content changes were made to the methods discussion or evidence-tier assignment. The B-tier classification is retained per `docs/conventions` evidence-grading rule (NGO reports without full method disclosure are B-tier; C-tier is reserved for news/blogs/press releases).
