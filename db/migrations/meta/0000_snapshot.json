@@ -1,0 +1,1310 @@
+{
+  "id": "c02bbae6-074f-49cb-83f5-a56a69d9f01b",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.certification": {
+      "name": "certification",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "manufacturer_id": {
+          "name": "manufacturer_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "product_id": {
+          "name": "product_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "testing_lab_id": {
+          "name": "testing_lab_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "status": {
+          "name": "status",
+          "type": "certification_status",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'pending'"
+        },
+        "standard_version": {
+          "name": "standard_version",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "certified_at": {
+          "name": "certified_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "expires_at": {
+          "name": "expires_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "revoked_at": {
+          "name": "revoked_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "revocation_reason": {
+          "name": "revocation_reason",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "notes": {
+          "name": "notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "certification_manufacturer_id_manufacturer_id_fk": {
+          "name": "certification_manufacturer_id_manufacturer_id_fk",
+          "tableFrom": "certification",
+          "tableTo": "manufacturer",
+          "columnsFrom": [
+            "manufacturer_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "certification_product_id_product_id_fk": {
+          "name": "certification_product_id_product_id_fk",
+          "tableFrom": "certification",
+          "tableTo": "product",
+          "columnsFrom": [
+            "product_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "certification_testing_lab_id_lab_id_fk": {
+          "name": "certification_testing_lab_id_lab_id_fk",
+          "tableFrom": "certification",
+          "tableTo": "lab",
+          "columnsFrom": [
+            "testing_lab_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.contamination_finding": {
+      "name": "contamination_finding",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "study_id": {
+          "name": "study_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "metal_id": {
+          "name": "metal_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "product_id": {
+          "name": "product_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ingredient_id": {
+          "name": "ingredient_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "matrix": {
+          "name": "matrix",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "value_ppb": {
+          "name": "value_ppb",
+          "type": "numeric(14, 6)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "value_low_ppb": {
+          "name": "value_low_ppb",
+          "type": "numeric(14, 6)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "value_high_ppb": {
+          "name": "value_high_ppb",
+          "type": "numeric(14, 6)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "basis": {
+          "name": "basis",
+          "type": "basis",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "statistic_type": {
+          "name": "statistic_type",
+          "type": "statistic_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sample_n": {
+          "name": "sample_n",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "detection_limit_ppb": {
+          "name": "detection_limit_ppb",
+          "type": "numeric(14, 6)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "below_lod_count": {
+          "name": "below_lod_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "analytical_method": {
+          "name": "analytical_method",
+          "type": "analytical_method",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "confidence": {
+          "name": "confidence",
+          "type": "finding_confidence",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "confidence_notes": {
+          "name": "confidence_notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "collected_on": {
+          "name": "collected_on",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "jurisdiction": {
+          "name": "jurisdiction",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "recall_or_enforcement": {
+          "name": "recall_or_enforcement",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "contamination_finding_study_id_study_id_fk": {
+          "name": "contamination_finding_study_id_study_id_fk",
+          "tableFrom": "contamination_finding",
+          "tableTo": "study",
+          "columnsFrom": [
+            "study_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "contamination_finding_metal_id_metal_id_fk": {
+          "name": "contamination_finding_metal_id_metal_id_fk",
+          "tableFrom": "contamination_finding",
+          "tableTo": "metal",
+          "columnsFrom": [
+            "metal_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "contamination_finding_product_id_product_id_fk": {
+          "name": "contamination_finding_product_id_product_id_fk",
+          "tableFrom": "contamination_finding",
+          "tableTo": "product",
+          "columnsFrom": [
+            "product_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "contamination_finding_ingredient_id_ingredient_id_fk": {
+          "name": "contamination_finding_ingredient_id_ingredient_id_fk",
+          "tableFrom": "contamination_finding",
+          "tableTo": "ingredient",
+          "columnsFrom": [
+            "ingredient_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "contamination_finding_product_or_ingredient_chk": {
+          "name": "contamination_finding_product_or_ingredient_chk",
+          "value": "(\"contamination_finding\".\"product_id\" IS NOT NULL) OR (\"contamination_finding\".\"ingredient_id\" IS NOT NULL)"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "public.ingredient": {
+      "name": "ingredient",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "common_names": {
+          "name": "common_names",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "wiki_ingredient_slug": {
+          "name": "wiki_ingredient_slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "ingredient_slug_idx": {
+          "name": "ingredient_slug_idx",
+          "columns": [
+            {
+              "expression": "slug",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.lab": {
+      "name": "lab",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "accreditation": {
+          "name": "accreditation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "country": {
+          "name": "country",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "methods": {
+          "name": "methods",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "contact_url": {
+          "name": "contact_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "notes": {
+          "name": "notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.manufacturer": {
+      "name": "manufacturer",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "legal_name": {
+          "name": "legal_name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "country": {
+          "name": "country",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "url": {
+          "name": "url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "notes": {
+          "name": "notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.metal": {
+      "name": "metal",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "code": {
+          "name": "code",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "symbol": {
+          "name": "symbol",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "parent_metal_id": {
+          "name": "parent_metal_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "is_hmtc_analyte": {
+          "name": "is_hmtc_analyte",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "toxicology_summary": {
+          "name": "toxicology_summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "metal_code_idx": {
+          "name": "metal_code_idx",
+          "columns": [
+            {
+              "expression": "code",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "metal_parent_metal_id_fk": {
+          "name": "metal_parent_metal_id_fk",
+          "tableFrom": "metal",
+          "tableTo": "metal",
+          "columnsFrom": [
+            "parent_metal_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "set null",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.product": {
+      "name": "product",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "form": {
+          "name": "form",
+          "type": "product_form",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_class": {
+          "name": "is_class",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": true
+        },
+        "manufacturer_id": {
+          "name": "manufacturer_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hmtc_category": {
+          "name": "hmtc_category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "hmtc_row": {
+          "name": "hmtc_row",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "wiki_product_slug": {
+          "name": "wiki_product_slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "product_slug_idx": {
+          "name": "product_slug_idx",
+          "columns": [
+            {
+              "expression": "slug",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "product_manufacturer_id_manufacturer_id_fk": {
+          "name": "product_manufacturer_id_manufacturer_id_fk",
+          "tableFrom": "product",
+          "tableTo": "manufacturer",
+          "columnsFrom": [
+            "manufacturer_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.product_ingredient": {
+      "name": "product_ingredient",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "product_id": {
+          "name": "product_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ingredient_id": {
+          "name": "ingredient_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "proportion_pct": {
+          "name": "proportion_pct",
+          "type": "numeric(6, 3)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "product_ingredient_product_id_product_id_fk": {
+          "name": "product_ingredient_product_id_product_id_fk",
+          "tableFrom": "product_ingredient",
+          "tableTo": "product",
+          "columnsFrom": [
+            "product_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "product_ingredient_ingredient_id_ingredient_id_fk": {
+          "name": "product_ingredient_ingredient_id_ingredient_id_fk",
+          "tableFrom": "product_ingredient",
+          "tableTo": "ingredient",
+          "columnsFrom": [
+            "ingredient_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.source_document": {
+      "name": "source_document",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "cite_key": {
+          "name": "cite_key",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "authors": {
+          "name": "authors",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'[]'::jsonb"
+        },
+        "year": {
+          "name": "year",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "publication": {
+          "name": "publication",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "doi": {
+          "name": "doi",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "url": {
+          "name": "url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "source_type": {
+          "name": "source_type",
+          "type": "source_type",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "evidence_tier": {
+          "name": "evidence_tier",
+          "type": "evidence_tier",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "access_status": {
+          "name": "access_status",
+          "type": "access_status",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'open'"
+        },
+        "license": {
+          "name": "license",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "raw_path": {
+          "name": "raw_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "wiki_source_slug": {
+          "name": "wiki_source_slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "retrieved_on": {
+          "name": "retrieved_on",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "source_document_cite_key_idx": {
+          "name": "source_document_cite_key_idx",
+          "columns": [
+            {
+              "expression": "cite_key",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "source_document_doi_idx": {
+          "name": "source_document_doi_idx",
+          "columns": [
+            {
+              "expression": "doi",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.study": {
+      "name": "study",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "source_document_id": {
+          "name": "source_document_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "label": {
+          "name": "label",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "design": {
+          "name": "design",
+          "type": "study_design",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sample_n": {
+          "name": "sample_n",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sample_population": {
+          "name": "sample_population",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sampling_frame": {
+          "name": "sampling_frame",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "geography_country": {
+          "name": "geography_country",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "geography_region": {
+          "name": "geography_region",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "collection_started_on": {
+          "name": "collection_started_on",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "collection_ended_on": {
+          "name": "collection_ended_on",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "methodology_grade": {
+          "name": "methodology_grade",
+          "type": "methodology_grade",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "methods_summary": {
+          "name": "methods_summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "notes": {
+          "name": "notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "study_source_document_id_source_document_id_fk": {
+          "name": "study_source_document_id_source_document_id_fk",
+          "tableFrom": "study",
+          "tableTo": "source_document",
+          "columnsFrom": [
+            "source_document_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {
+    "public.access_status": {
+      "name": "access_status",
+      "schema": "public",
+      "values": [
+        "open",
+        "gated",
+        "proprietary"
+      ]
+    },
+    "public.analytical_method": {
+      "name": "analytical_method",
+      "schema": "public",
+      "values": [
+        "icp-ms",
+        "icp-oes",
+        "gfaas",
+        "faas",
+        "hg-cv-afs",
+        "xrf",
+        "hplc-icp-ms",
+        "other"
+      ]
+    },
+    "public.basis": {
+      "name": "basis",
+      "schema": "public",
+      "values": [
+        "wet-weight",
+        "dry-weight",
+        "as-consumed",
+        "as-sold",
+        "as-placed-on-market",
+        "oil-fraction"
+      ]
+    },
+    "public.certification_status": {
+      "name": "certification_status",
+      "schema": "public",
+      "values": [
+        "pending",
+        "in-review",
+        "certified",
+        "revoked",
+        "suspended",
+        "expired"
+      ]
+    },
+    "public.evidence_tier": {
+      "name": "evidence_tier",
+      "schema": "public",
+      "values": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "public.finding_confidence": {
+      "name": "finding_confidence",
+      "schema": "public",
+      "values": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "public.methodology_grade": {
+      "name": "methodology_grade",
+      "schema": "public",
+      "values": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "public.product_form": {
+      "name": "product_form",
+      "schema": "public",
+      "values": [
+        "powder",
+        "ready-to-feed",
+        "dry",
+        "puree",
+        "oil",
+        "beverage",
+        "supplement",
+        "solid-food",
+        "personal-care",
+        "other"
+      ]
+    },
+    "public.source_type": {
+      "name": "source_type",
+      "schema": "public",
+      "values": [
+        "peer-reviewed",
+        "agency-report",
+        "regulatory-filing",
+        "dataset",
+        "recall-notice",
+        "third-party-testing",
+        "news",
+        "other"
+      ]
+    },
+    "public.statistic_type": {
+      "name": "statistic_type",
+      "schema": "public",
+      "values": [
+        "single-sample",
+        "mean",
+        "median",
+        "p50",
+        "p75",
+        "p90",
+        "p95",
+        "p97",
+        "p99",
+        "max",
+        "min",
+        "range-low",
+        "range-high",
+        "lod-censored-mean"
+      ]
+    },
+    "public.study_design": {
+      "name": "study_design",
+      "schema": "public",
+      "values": [
+        "market-survey",
+        "total-diet-study",
+        "controlled-experiment",
+        "longitudinal-cohort",
+        "regulatory-sampling",
+        "recall-investigation",
+        "method-validation",
+        "meta-analysis",
+        "other"
+      ]
+    }
+  },
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

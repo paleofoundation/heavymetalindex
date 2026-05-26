@@ -56,3 +56,7 @@ data/evidence/autonomy/daemon-runs/
 
 # Daemon heartbeat — written every tick; tracking it self-blocks the daemon
 data/evidence/autonomy/heartbeat.txt
+
+# Local PGlite dev database used by db/seed.ts. Throwaway state; recreate
+# with `npm run db:seed`. See docs/data-model.md.
+.pglite/
