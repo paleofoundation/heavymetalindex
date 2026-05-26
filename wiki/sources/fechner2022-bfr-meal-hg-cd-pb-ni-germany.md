@@ -1,17 +1,19 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_results-of-the-bfr-meal-study-in-germany-mercury-i
 cite_key: fechner2022-bfr-meal-hg-cd-pb-ni-germany
 title: "Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods"
 authors: [Fechner C, Hackethal C, Höpfner T, Dietrich J, Bloch D, Lindtner O, Sarvan I]
 year: 2022
 publication: "Food Chemistry: X"
 doi: 10.1016/j.fochx.2022.100326
+access_url: https://doi.org/10.1016/j.fochx.2022.100326
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Results of the BfR MEAL Study_ In Germany, mercury is mostly contained in fish and seafood while cad.pdf"
-metals: [tHg, MeHg, Cd, Pb, Ni]
+raw_sha256: 1d66e5584c5fa41c08e2ae0658255bcb383e48c99e7dd6507ddf3f7c07447640
+metals: [tHg, Cd, Pb, Ni]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/cashew-nuts]]", "[[ingredients/walnuts]]", "[[ingredients/hazelnuts]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/seaweed]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/spices]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]"]
 products: ["[[products/canned-fish]]", "[[products/cashews]]", "[[products/chocolate]]", "[[products/snacks-crackers-biscuits]]"]
 matrices: [dietary-intake]
@@ -19,7 +21,7 @@ jurisdictions: [DE, EU]
 near_duplicates: []
 sample_n: 869
 sample_population: "869 pooled samples from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II 2005–2006); children 0.5–<6 yr N=804 (VELS 2001–2002); foods purchased 2017–2019 and prepared as consumed"
-updated: 2026-05-14
+updated: 2026-05-26
 ---
 
 # Fechner et al. 2022 — BfR MEAL Study: Hg, Cd, Pb, and Ni in 356 German foods
@@ -43,15 +45,15 @@ All concentrations upper-bound (UB) mean unless noted; mg/kg = ppm; multiply by 
 - 57% of all 869 pooled samples were < LOQ under UB approach for Hg; 90% < LOQ in mLB
 
 **Cadmium (Cd) by main food group — UB mean [mg/kg]:**
+- Coffee, cocoa, tea, infusions: mean 0.034 mg/kg; max 0.270 mg/kg — the paper attributes group levels mostly to cocoa powder and cocoa beverage-preparation (Section 3.1.2)
+  - Cocoa powder (MEAL food): 0.270 mg/kg — joint highest Cd in study
 - Legumes, nuts, oilseeds, spices: mean 0.033 mg/kg; max 0.265 mg/kg (sunflower seeds)
   - Sunflower seeds: 0.265 mg/kg
   - Linseeds: 0.185 mg/kg
-  - Cocoa powder: 0.270 mg/kg (highest Cd in study)
-  - Dark chocolate: 0.110 mg/kg
 - Vegetables and vegetable products: mean 0.023 mg/kg; max 0.320 mg/kg (boletus/porcini mushroom prepared)
-- Coffee, cocoa, tea, infusions: mean 0.034 mg/kg; max 0.270 mg/kg
 - Animal and vegetable fats and oils: mean 0.002 mg/kg; 100% < LOD/LOQ
 - Grains and grain-based products: mean 0.018 mg/kg; max 0.066 mg/kg
+- Six MEAL foods with the highest joint Cd+Pb levels (per Section 3.1.2 / Fig 1B and C, main food group not always identical across foods): boletus/porcini mushroom (Cd 0.320, Pb 0.128), cocoa powder (Cd 0.270, Pb 0.113), dark chocolate (Cd 0.110, Pb 0.030), mussels (Cd 0.084, Pb 0.115), algae (Cd 0.120, Pb 0.055), vegetable crisps (Cd 0.075, Pb 0.032).
 
 **Lead (Pb) by main food group — UB mean [mg/kg]:**
 - Coffee, cocoa, tea, infusions: mean 0.016 mg/kg; max 0.113 mg/kg (cocoa powder: 0.113 mg/kg)
@@ -126,3 +128,4 @@ Microbiome: Not directly addressed.
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, fixed the Hg mg/kg-to-ppb conversion, removed instrument/software brand names from Methods, corrected closed-vocabulary ingredient/product/matrix links, and tightened HMT&C/app/microbiome implication language.
+- Merge-enhance 2026-05-26: canonicalised placeholder `raw_handle: manual-fetch-kimi` → `MFK_results-of-the-bfr-meal-study-in-germany-mercury-i`; added missing `access_url` and `raw_sha256`; removed `MeHg` from `metals:` (this paper measures total Hg via direct-Hg analyzer only — MeHg is referenced from the companion paper Sarvan et al. 2021, not measured here); restructured the Cd-by-main-food-group block so cocoa powder is placed under its actual main food group (Coffee, cocoa, tea, infusions), per the paper's Section 3.1.2 attribution, and added the six-MEAL-food joint Cd+Pb high-level cluster from Section 3.1.2/Fig 1B-C with explicit caveat that those foods do not all share one main food group.
