@@ -352,7 +352,7 @@ function escapePageHTML(value: string) {
     .replace(/'/g, "&#39;")
 }
 
-function renderInlineLinks(text: string, citations: AskPageCitation[]) {
+function renderInlineLinks(text: string, _citations: AskPageCitation[]) {
   // Escape HTML first so any user-injected angle brackets are inert.
   let html = escapePageHTML(text)
   // Wikilinks: [[slug]] or [[slug|label]] → <a href="/slug">label or slug</a>.
@@ -466,12 +466,17 @@ function appendAssistantMessage(conv: HTMLElement) {
 
 function setupAskPage(root: HTMLElement) {
   const endpoint = root.dataset.askEndpoint || "/api/ask"
-  const form = root.querySelector(".hmi-ask-form") as HTMLFormElement | null
-  const textarea = root.querySelector(".hmi-ask-form textarea") as HTMLTextAreaElement | null
-  const submit = root.querySelector(".hmi-ask-submit") as HTMLButtonElement | null
-  const conv = root.querySelector(".hmi-ask-conversation") as HTMLElement | null
+  const formMaybe = root.querySelector(".hmi-ask-form") as HTMLFormElement | null
+  const textareaMaybe = root.querySelector(".hmi-ask-form textarea") as HTMLTextAreaElement | null
+  const submitMaybe = root.querySelector(".hmi-ask-submit") as HTMLButtonElement | null
+  const convMaybe = root.querySelector(".hmi-ask-conversation") as HTMLElement | null
   const examples = root.querySelectorAll<HTMLButtonElement>("[data-hmi-ask-example]")
-  if (!form || !textarea || !submit || !conv) return
+  if (!formMaybe || !textareaMaybe || !submitMaybe || !convMaybe) return
+  // Re-bind so nested closures inherit the post-guard non-null types.
+  const form = formMaybe
+  const textarea = textareaMaybe
+  const submit = submitMaybe
+  const conv = convMaybe
 
   examples.forEach((btn) => {
     btn.addEventListener("click", () => {
