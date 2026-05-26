@@ -959,10 +959,10 @@ fruit-mixed,Al,pending,null,0,null,10,10,0
 fruit-mixed,Cr,missing,null,0,,10,10,0
 fruit-mixed,Sn,pending,null,0,null,10,10,0
 fruit-mixed,U,missing,null,0,,10,10,0
-fruit-purees,Pb,populated,low,3,2026-05-25,10,7,0
+fruit-purees,Pb,populated,low,3,2026-05-26,10,7,0
 fruit-purees,Cd,populated,null,0,2026-05-16,10,10,0
 fruit-purees,iAs,populated,null,0,2026-05-16,10,10,0
-fruit-purees,tAs,populated,medium,4,2026-05-25,10,6,0
+fruit-purees,tAs,populated,medium,4,2026-05-26,10,6,0
 fruit-purees,tHg,populated,null,0,2026-05-16,10,10,0
 fruit-purees,Ni,populated,null,0,2026-05-16,10,10,0
 fruit-purees,Al,populated,null,0,2026-05-16,10,10,0
@@ -1183,7 +1183,7 @@ infant-formula-powder,Pb,populated,medium,3,2026-05-16,10,7,0
 infant-formula-powder,Cd,populated,medium,3,2026-05-16,10,7,0
 infant-formula-powder,iAs,populated,medium,3,2026-05-16,10,7,0
 infant-formula-powder,tAs,populated,medium,4,2026-05-16,10,6,0
-infant-formula-powder,tHg,populated,low,2,2026-05-25,10,8,0
+infant-formula-powder,tHg,populated,low,2,2026-05-26,10,8,0
 infant-formula-powder,Ni,populated,null,0,2026-05-16,10,10,0
 infant-formula-powder,Al,populated,null,0,2026-05-16,10,10,0
 infant-formula-powder,Cr,populated,null,0,2026-05-16,10,10,0
@@ -1520,7 +1520,7 @@ non-rice-grains,Cr,populated,medium,4,2026-05-16,10,6,0
 non-rice-grains,Sn,populated,null,0,2026-05-16,10,10,0
 non-rice-grains,U,populated,null,0,2026-05-16,10,10,0
 non-root-vegetable-purees,Pb,populated,null,0,2026-05-16,10,10,0
-non-root-vegetable-purees,Cd,populated,low,2,2026-05-25,10,8,0
+non-root-vegetable-purees,Cd,populated,low,2,2026-05-26,10,8,0
 non-root-vegetable-purees,iAs,populated,null,0,2026-05-16,10,10,0
 non-root-vegetable-purees,tAs,populated,null,0,2026-05-16,10,10,0
 non-root-vegetable-purees,tHg,populated,null,0,2026-05-16,10,10,0
@@ -1530,7 +1530,7 @@ non-root-vegetable-purees,Cr,populated,null,0,2026-05-16,10,10,0
 non-root-vegetable-purees,Sn,populated,null,0,2026-05-16,10,10,0
 non-root-vegetable-purees,U,populated,null,0,2026-05-16,10,10,0
 non-root-vegetables,Pb,populated,medium,1,2026-05-13,10,9,0
-non-root-vegetables,Cd,populated,low,3,2026-05-25,10,7,0
+non-root-vegetables,Cd,populated,low,3,2026-05-26,10,7,0
 non-root-vegetables,iAs,populated,medium,1,2026-05-13,10,9,0
 non-root-vegetables,tAs,populated,null,0,2026-05-12,10,10,0
 non-root-vegetables,tHg,populated,medium,1,2026-05-13,10,9,0
@@ -2010,7 +2010,7 @@ rice,Cr,populated,high,30,2026-05-16,10,0,0
 rice,Sn,populated,high,11,2026-05-16,10,0,0
 rice,U,populated,medium,4,2026-05-16,10,6,0
 root-vegetable-purees,Pb,populated,null,0,2026-05-16,10,10,0
-root-vegetable-purees,Cd,populated,low,2,2026-05-25,10,8,0
+root-vegetable-purees,Cd,populated,low,2,2026-05-26,10,8,0
 root-vegetable-purees,iAs,populated,null,0,2026-05-16,10,10,0
 root-vegetable-purees,tAs,populated,null,0,2026-05-16,10,10,0
 root-vegetable-purees,tHg,populated,null,0,2026-05-16,10,10,0
@@ -2169,8 +2169,8 @@ soybean-oil,Al,populated,null,0,2026-05-16,10,10,0
 soybean-oil,Cr,populated,low,3,2026-05-16,10,7,0
 soybean-oil,Sn,populated,null,0,2026-05-16,10,10,0
 soybean-oil,U,populated,null,0,2026-05-16,10,10,0
-spices,Pb,populated,high,15,2026-05-25,10,0,0
-spices,Cd,populated,low,7,2026-05-25,10,3,0
+spices,Pb,populated,high,15,2026-05-26,10,0,0
+spices,Cd,populated,low,7,2026-05-26,10,3,0
 spices,iAs,populated,null,0,2026-05-16,10,10,0
 spices,tAs,populated,medium,5,2026-05-16,10,5,0
 spices,tHg,populated,medium,3,2026-05-16,10,7,0
