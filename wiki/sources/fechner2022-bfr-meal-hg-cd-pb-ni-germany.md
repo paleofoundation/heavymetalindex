@@ -87,15 +87,15 @@ All concentrations upper-bound (UB) mean unless noted; mg/kg = ppm; multiply by 
 
 **Left-censored data handling:** Upper bound (UB): values < LOD replaced by LOD; values < LOQ and > LOD replaced by LOQ. Modified lower bound (mLB): values < LOD set to zero; values < LOQ set to LOD. mLB and UB did not differ substantially; results presented as UB throughout. mLB results in supplementary tables.
 
-**Pooling and homogenisation:** Knife mill with polypropylene container and titanium knives (to avoid Ni leaching from stainless steel). Ultrapure water or liquid nitrogen added for homogenisation where required. Storage at −20°C in polypropylene vessels.
+**Pooling and homogenisation:** Knife mill (Grindomix GM300, Retsch GmbH, Haan, Germany) with polypropylene container and titanium knives (to avoid Ni leaching from stainless steel). Ultrapure water (Milli-Q Integral 5, Merck, Darmstadt, Germany) or liquid nitrogen added for homogenisation where required. Storage at −20°C in polypropylene vessels.
 
-**Statistical analysis:** statistical software; Kolmogorov-Smirnov normality test; Kruskal-Wallis test (four regions); Mann-Whitney U (production type). Significance level 0.05.
+**Statistical analysis:** Microsoft Excel 2016 for descriptive statistics; IBM SPSS Statistics v26 for Kolmogorov-Smirnov normality test, Kruskal-Wallis test (four regions), and Mann-Whitney U (production type). Significance level 0.05.
 
 **Speciation note:** This paper reports total Hg (tHg). MeHg was the predominant form in fish per the companion paper (Sarvan et al. 2021), consistent with MeHg bioaccumulation in marine food chains; terrestrial foods had predominantly inorganic Hg (iHg). Risk assessments for MeHg exposure from fish in Germany appear in the BfR Opinion 023/2024 (`bfr2024-methylmercury-fish-seafood-germany.md`).
 
 ## Implications
 
-Certification: The BfR MEAL Study provides German-market concentration data for tHg, Cd, Pb, and Ni across 356 foods as consumed, including food categories relevant to HMT&C-certified products. The finding that oils and fats are near-zero for Hg and Cd (100% below LOQ) contributes low-occurrence context for culinary oil products. The high Ni in cocoa powder (11.050 mg/kg = 11,050 ppb) and dark chocolate (2.800 mg/kg = 2,800 ppb) contributes occurrence context for chocolate-containing products without setting a certification threshold.
+Certification: The BfR MEAL Study provides German-market concentration data for tHg, Cd, Pb, and Ni across 356 foods as consumed, spanning the breadth of the HMI ingredient and product taxonomy. The finding that oils and fats are near-zero for Hg and Cd (100% below LOQ) contributes low-occurrence context for culinary oil products. The high Ni in cocoa powder (11.050 mg/kg = 11,050 ppb) and dark chocolate (2.800 mg/kg = 2,800 ppb) contributes occurrence context for chocolate-containing products without setting a certification threshold.
 
 Courses: Illustrates TDS methodology, pooling design, the UB/LB non-detect handling approach, and the contrast between tHg (measured here) and MeHg speciation (measured in the companion paper). Also illustrates that organic vs. conventional labelling does not systematically affect heavy metal concentrations — an important consumer-expectation calibration point.
 
@@ -106,7 +106,6 @@ Microbiome: Not directly addressed.
 ## Wiki pages this source may touch
 
 - [[metals/mercury-total]]
-- [[metals/mercury-methyl]]
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/nickel]]
@@ -129,3 +128,4 @@ Microbiome: Not directly addressed.
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, fixed the Hg mg/kg-to-ppb conversion, removed instrument/software brand names from Methods, corrected closed-vocabulary ingredient/product/matrix links, and tightened HMT&C/app/microbiome implication language.
 - Merge-enhance 2026-05-26: canonicalised placeholder `raw_handle: manual-fetch-kimi` → `MFK_results-of-the-bfr-meal-study-in-germany-mercury-i`; added missing `access_url` and `raw_sha256`; removed `MeHg` from `metals:` (this paper measures total Hg via direct-Hg analyzer only — MeHg is referenced from the companion paper Sarvan et al. 2021, not measured here); restructured the Cd-by-main-food-group block so cocoa powder is placed under its actual main food group (Coffee, cocoa, tea, infusions), per the paper's Section 3.1.2 attribution, and added the six-MEAL-food joint Cd+Pb high-level cluster from Section 3.1.2/Fig 1B-C with explicit caveat that those foods do not all share one main food group.
+- Audit subagent (2026-05-26) flagged: (1) `[[metals/mercury-methyl]]` in the wiki-pages-touched list inconsistent with the corrected frontmatter (paper does not measure MeHg) — verified against page Methods §"Speciation note" and source Section 2.5; removed the wikilink. (2) Implications opening framed relevance through "HMT&C-certified products" which tilts toward Part 2 HMT&C-convenience register — verified; reframed as "spanning the breadth of the HMI ingredient and product taxonomy" to keep audience-neutral. (3) Methods stripped instrument vendor names but Part 12 Exception 2 explicitly permits these for reproducibility — verified against source Section 2.4 (Grindomix GM300, Retsch GmbH; Milli-Q Integral 5, Merck) and Section 2.6 (Microsoft Excel 2016, IBM SPSS Statistics v26); restored. All three findings applied; 0 rejected.
