@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-25T16:06:50.019Z
+updated: 2026-05-26T07:00:40.203Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1240 / 2590 cells done (47.9%)** — 1350 remaining
 
-Velocity: **+0 cells in the last 68 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 68 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 123 min ago (stale) |
-| auto-fetched/ PDFs in queue | 10 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 5 ✅ |
+| Daemon heartbeat | ✅ 21 min ago |
+| auto-fetched/ PDFs in queue | 1 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 6 ⚠️ |
 | Audit queue: pending-audit-spawn-failed | 33 (async lane) |
-| Wishlist: total downloaded historically | 10 |
-| Wishlist: total ingested historically | 43 |
-| Repo sync | ⚠️ 18 commit(s) ahead of origin/main |
-| Commits last 1 hour | 17 |
-| Commits last 24 hours | 115 |
+| Wishlist: total downloaded historically | 0 |
+| Wishlist: total ingested historically | 39 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 14 |
+| Commits last 24 hours | 109 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 68 min**
 ## Last commit
 
 ```
-38489e0 3 seconds ago — audit-queue: scutarasu2023-heavy-metals-foods-beverages -> audited-revised
+21263d7 61 seconds ago — audit auto-fetched 2026-05-26 2240 batches 2-3 fixes
 ```
 
 ## How to read this
