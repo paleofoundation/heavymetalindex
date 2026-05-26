@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_a-practical-method-for-the-determination-of-al-b-c
 cite_key: ozbek2016-mip-oes-turkish-vinegars
 title: "A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry"
 authors: [Ozbek N, Koca M, Akman S]
@@ -10,60 +10,68 @@ doi: 10.1007/s12161-016-0421-x
 source_type: peer-reviewed
 evidence_tier: A
 license: "© Springer Science+Business Media New York 2016"
-raw_path: "raw/Manual Fetch Kimi/condiment_papers/02_Vinegars/A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe.pdf"
-metals: [Al, Pb, Cr, Cu, Zn]
-ingredients: ["[[ingredients/vinegar]]", "[[ingredients/apple-cider-vinegar]]", "[[ingredients/balsamic-vinegar]]"]
-products: ["[[products/vinegar]]", "[[products/fresh-fruit]]"]
-matrices: [grape-vinegar, apple-vinegar, balsamic-vinegar, pomegranate-vinegar, fig-vinegar, homemade-vinegar]
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different T.pdf"
+metals: [Al, Pb, Cr, Cu, Zn, Fe, Mn, Mg, Co, B]
+ingredients: ["[[ingredients/vinegar]]", "[[ingredients/wine-vinegar]]", "[[ingredients/apple-cider-vinegar]]", "[[ingredients/balsamic-vinegar]]"]
+products: ["[[products/vinegar]]"]
+matrices: [vinegar, grape-vinegar, apple-vinegar, balsamic-vinegar, pomegranate-vinegar, fig-vinegar, homemade-vinegar]
 jurisdictions: [TR]
 near_duplicates: []
-sample_n: 32
-sample_population: "Commercially produced Turkish vinegars: 17 grape, 12 apple, 3 balsamic, plus homemade, pomegranate, and fig vinegars"
-updated: 2026-05-14
+sample_n: 35
+sample_population: "Commercially produced Turkish vinegars (n=34): 17 grape, 12 apple, 3 balsamic, 1 pomegranate, 1 fig; plus 1 homemade vinegar"
+updated: 2026-05-26
 ---
 
 # Ozbek et al. 2016 — Trace metal determination in Turkish vinegars by MIP OES
 
-This study validated a microwave-induced plasma optical emission spectrometry (MIP OES) method for simultaneous determination of 10 elements (Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, Zn) in 32 Turkish vinegar samples, requiring only simple dilution into 2% acetic acid without acid digestion. All measured concentrations fell well below the Turkish Food Codex maximum allowable values (Pb ≤1 mg/L; Cu + Zn ≤10 mg/L; Fe ≤10 mg/L); Pb levels in particular were low, with the highest observed value approximately 0.15 mg/L in grape vinegars. The method is notable for its simplicity and suitability for routine quality-control analysis of acidic food matrices.
+This study validated a microwave-induced plasma optical emission spectrometry (MIP OES) method for simultaneous determination of ten elements (Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, Zn) in 35 vinegar samples produced in Turkey, requiring only simple dilution into 2% acetic acid without acid digestion. All measured concentrations fell well below the Turkish Food Codex maximum allowable values (Pb ≤1 mg/L; Cu + Zn ≤10 mg/L; Fe ≤10 mg/L); the highest observed Pb value across the sample set was 0.15 mg/L (one grape vinegar). The method is suitable for routine quality-control analysis of acidic food matrices.
 
 ## Key numbers
 
-Method LODs (µg/L): Al = 0.62, B = 7.67, Co = 4.55, Cr = 0.52, Cu = 1.22, Fe = 5.72, Mg = 1.32, Mn = 0.35, Pb = 2.42, Zn = 26.0. LOQs are approximately 3.3× LOD.
+Method LODs (µg/L, Table 1): Al = 0.62, B = 7.67, Co = 4.55, Cr = 0.52, Cu = 1.22, Fe = 5.72, Mg = 1.32, Mn = 0.35, Pb = 2.42, Zn = 26.0.
 
-Vinegar concentrations (mg/L, Table 4, n=32 samples):
+Recovery tests on grape, apple, and balsamic matrices (Table 2, n=3 per matrix, each analyte spiked at 0.01–1.00 mg/L): all analytes between 92.1% (Cr in apple vinegar) and 104.2% (Mn in grape vinegar). Certified reference material wastewater CWW-TM-E (High Purity Standards, Charleston, USA; certified value 0.025 µg/mL ± 0.5% for each analyte) returned found values 0.021–0.029 µg/mL across analytes; Zn <LOQ; Mg not certified. The t-test reported no significant difference from certified values at 95% confidence.
 
-- **Al**: 0.02 (homemade) to 5.19 (Apple 8); median grape vinegars approximately 1.2; balsamic 1 = 1.63, balsamic 3 = 2.29
-- **Pb**: ranged from 0.01 to 0.15 mg/L (i.e., 10–150 µg/L or ppb). Highest in grape and apple vinegars. Turkish Codex limit is 1 mg/L. All samples far below limit.
-- **Cr**: consistently 1.95–3.95 mg/L across all vinegar types (notably higher than other studies; authors attribute this to geographic origin)
-- **Cu**: 0.001–0.05 mg/L across most samples
-- **Fe**: 0.06–7.01 mg/L; highest in balsamic (6.59 and 7.01 mg/L); Turkish Codex limit 10 mg/L
-- **Mg**: 15.86–169.03 mg/L; highest in fig vinegar (169.03)
-- **Zn**: 0.16–2.42 mg/L; all below Codex 10 mg/L combined Cu+Zn limit
-- **Co**: below LOD in most samples; detected only in grape 1 (0.34), grape 2 (0.62), balsamic 1 (0.26), balsamic 2 (0.09)
-- **B**: not detected in many apple samples; highest in balsamic (8.76 and 7.80 mg/L)
-- **Mn**: 0.003–1.51 mg/L
+Vinegar concentrations (mg/L, Table 4, n=35 samples):
 
-Recovery tests (3 vinegar types, n=3): all analytes 91–104%. Certified reference material (wastewater CWW-TM-E) confirmed accuracy.
+- **Pb**: 0.01 to 0.15 mg/L (10 to 150 µg/L). Highest single value 0.15 mg/L (Grape 10). Most samples 0.01–0.05 mg/L. All samples far below the 1 mg/L Turkish Food Codex limit.
+- **Al**: 0.02 (homemade) to 5.19 (one apple vinegar); most grape and apple values 0.4–2.3; the three balsamic vinegars measured 1.63, 0.56, and 2.29 mg/L.
+- **Cr**: 1.95 to 3.95 mg/L across all vinegar types; most samples cluster at 1.95–2.10 mg/L. The authors note these Cr values are notably higher than prior literature on other regional vinegars and attribute the difference to the geographic origin of Turkish samples.
+- **Cu**: 0.001 to 0.13 mg/L; max 0.13 mg/L (Grape 10), 0.11 mg/L (Grape 11); the great majority of samples 0.01–0.05 mg/L.
+- **Fe**: 0.06 (homemade) to 7.01 (one balsamic) mg/L; balsamic and fig vinegars highest (6.59, 6.84, 7.01 mg/L). Turkish Codex limit 10 mg/L.
+- **Zn**: 0.16 to 2.42 mg/L; fig vinegar highest at 2.42 mg/L. All samples below the combined Cu+Zn Codex limit of 10 mg/L.
+- **Mn**: 0.003 (homemade) to 2.49 (Grape 10) mg/L; most samples 0.05–1.0 mg/L.
+- **Mg**: 15.86 (one apple) to 169.03 (fig) mg/L; balsamic and fig vinegars elevated (80–170 mg/L) versus grape and apple (typically 15–100 mg/L).
+- **Co**: below LOD in 31 of 35 samples; detected only in Grape 1 (0.34), Grape 2 (0.62), Balsamic 1 (0.26), and Balsamic 2 (0.09) mg/L.
+- **B**: not detected in several apple, grape, and one balsamic sample; highest in balsamic (8.76 and 7.80 mg/L) and fig (3.19 mg/L).
 
-Cr values were notably higher than prior literature; authors attribute this to the Turkish origin of samples rather than a methodological artifact.
+Cd, As, Hg, Ni, and Sn were not measured in this study.
 
 ## Methods
 
-Instrument: Agilent 4200 MIP OES with Inert One nebulizer and cyclonic spray chamber. Plasma sustained by nitrogen extracted from air. Samples diluted 1:1 with 2% acetic acid (total dissolved solids reduced to 2–4% to protect the torch). Aqueous standards calibration; no matrix-matched standards required. LOD = 3σ/slope (n=10 blank aspirations). Recoveries validated in balsamic, apple, and grape matrices. No acid digestion. Units reported as mg/L (= mg/kg wet weight for aqueous food matrices of density ≈1).
+Instrument: Agilent 4200 MIP OES (Agilent Technologies, Melbourne, Australia) equipped with an Inert One Neb nebulizer and a double-pass glass cyclonic spray chamber. Nitrogen plasma sustained at 2.45 GHz; N₂ extracted from air with a dual-flow nitrogen generator (F-DGSi Thyster 8/1 LV). Samples diluted (typically 1:1) with 2% acetic acid to bring total dissolved solids to 2–4% (manufacturer torch tolerance is 4%). Diluted samples directly aspirated; no acid digestion. Atomic emission lines used: Al 396.152, B 249.772, Co 340.512, Cr 425.433, Cu 324.754, Fe 371.993, Mg 285.213, Mn 403.076, Pb 405.781, Zn 481.053 nm. Read time 5 s, three replicates per measurement. Calibration: aqueous standards (1000 mg/L mixed standard from Carlo Erba, diluted daily); linear regression for nine analytes (r² ≥ 0.996), rational (non-linear) curve for Mg. LOD = 3σ/slope; LOQ = 10σ/slope (n=10 blank aspirations). Method validated by spike recovery on three vinegar matrices and by analysis of the CWW-TM-E certified wastewater reference material. Concentrations reported as mg/L of the as-purchased vinegar (the native basis of the product placed on market).
 
-Limitation: MIP OES cannot speciate arsenic (total As only); Cd was not measured in this study. The paper focuses on 10 analytes and does not cover As, Cd, Hg, or Ni, which are critical for HMT&C.
+Limitations relevant to HMT&C analyte coverage: the method covers ten analytes by atomic emission only. It does not speciate arsenic (the paper does not measure As at all), does not speciate chromium (reported Cr is total Cr, not Cr-VI), does not measure mercury (no cold-vapor or atomic fluorescence accessory described), and does not measure Cd, Ni, or Sn. The paper's contribution to HMT&C-relevant analytes is therefore Al, Pb, and total Cr in Turkish vinegars.
 
 ## Implications
 
-Certification: This paper establishes Pb concentrations in Turkish vinegars are low (all <150 ppb, mostly <50 ppb), well below the Turkish Food Codex 1 mg/L limit. Balsamic vinegars contain meaningfully higher Al and Fe than wine or apple vinegars due to concentration effects. Cr values here (2–4 mg/L) are anomalously high compared to other literature — certifiers should not use this paper in isolation for Cr limits in vinegar.
+Certification: Pb concentrations in Turkish vinegars sampled here are uniformly low (max 150 µg/L; 32 of 35 samples at or below 50 µg/L), well below the 1 mg/L Turkish Food Codex limit. Balsamic and fig vinegars carry meaningfully higher Al and Fe than grape or apple vinegars in this sample set, consistent with concentration effects during balsamic production. The Cr values reported here (1.95–3.95 mg/L total Cr, with the modal value near 2 mg/L) are notably higher than other published vinegar literature; the authors attribute this to sample origin rather than methodological artifact, and this source should not be used in isolation to set a Cr literature baseline for the vinegar row.
 
-Courses: Useful illustration of direct-aspiration MIP OES as a practical alternative to ICP-MS for routine vinegar monitoring. Demonstrates that matrix effects are manageable in diluted acetic acid matrices.
+Courses: Useful illustration of dilute-and-shoot MIP OES as a practical alternative to ICP-MS for routine vinegar monitoring. Demonstrates that matrix effects are manageable in diluted acetic acid matrices without the need for matrix-matched standards or acid digestion.
 
-App: Pb in Turkish grape and apple vinegars: typical 10–80 ppb, max observed 150 ppb. These figures are from Turkey and likely underestimate balsamic risk. Al in balsamic vinegars substantially higher than in wine or apple vinegars.
+App: Pb in Turkish grape and apple vinegars in this sample set: typical 10–80 µg/L, maximum observed 150 µg/L. These figures are from a single regional sample and likely do not generalize to other production regions, particularly for balsamic-style vinegars.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[ingredients/vinegar]]
-- [[ingredients/balsamic-vinegar]]
-- [[products/condiments]]
-- [[testing/mip-oes]]
+Page was originally drafted under the legacy manual-fetch-kimi handle and last updated 2026-05-14. Merge-enhanced on 2026-05-26 against the source PDF to:
+
+- Replace legacy `raw_handle: manual-fetch-kimi` with the canonical MFK handle.
+- Correct `raw_path` to the actual filename (the prior path was truncated).
+- Correct `sample_n` from 32 to 35 (Table 4 contains 17 grape + 12 apple + 3 balsamic + 1 pomegranate + 1 fig + 1 homemade = 35).
+- Expand `metals` from the five HMTc-adjacent analytes to all ten analytes the paper actually measures (routing layer only generates rows for HMTc-mapped abbreviations Al, Pb, Cr; the additional analytes are recorded for documentary fidelity).
+- Add `wine-vinegar` to `ingredients` (the 17 "grape" vinegars are wine vinegars in the wine-vinegar commodity).
+- Remove the prior `products/fresh-fruit` entry from the `products` array — this is a vinegar paper, not a fresh-fruit paper; the original routing assignment was a false-positive scope.
+- Replace the legacy `## Wiki pages updated on ingest` heading with the implications and verification-notes structure used by current source pages.
+- Correct Cu and Mn ranges in Key numbers: Cu max is 0.13 mg/L (Grape 10), not 0.05 mg/L as previously stated; Mn max is 2.49 mg/L (Grape 10), not 1.51 mg/L as previously stated.
+- Correct recovery range from 91–104% to the table-derived 92.1–104.2% (the abstract gives the rounded 93–104%; the table is authoritative).
+- Explicitly note which HMTc-panel analytes are NOT measured (Cd, As, Hg, Ni, Sn).
