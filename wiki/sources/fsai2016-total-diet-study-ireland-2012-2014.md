@@ -14,7 +14,7 @@ evidence_tier: A
 license: "© FSAI 2016, ISBN 978-1-910348-06-2"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Report on a Total Diet Study carried out by the Food Safety Authority of Ireland (FSAI TDS).pdf"
 metals: [Al, tAs, iAs, Cd, Cr, Pb, tHg, Sn]
-ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/white-bread]]", "[[ingredients/fish]]", "[[ingredients/canned-tuna]]", "[[ingredients/tinned-fish]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/potatoes]]", "[[ingredients/dairy]]", "[[ingredients/meat]]", "[[ingredients/olive-oil]]", "[[ingredients/vegetable-oil]]", "[[ingredients/chocolate]]", "[[ingredients/tea]]", "[[ingredients/coffee]]"]
+ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/white-bread]]", "[[ingredients/fish]]", "[[ingredients/canned-tuna]]", "[[ingredients/tinned-fish]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/potatoes]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/meat]]", "[[ingredients/olive-oil]]", "[[ingredients/vegetable-oil]]", "[[ingredients/chocolate]]", "[[ingredients/tea]]", "[[ingredients/coffee]]"]
 products: ["[[products/canned-fish]]"]
 matrices: [dietary-intake, total-diet-study, ready-to-eat-food]
 jurisdictions: [IE, EU]
@@ -36,7 +36,7 @@ All exposure values per the report's headline tables (Tables 3, 4, 5, 8, 9, 11, 
 
 **Total arsenic (Table 4):** Adult mean 0.7–0.9 µg/kg bw/day; 97.5th percentile 3.9–4.2 µg/kg bw/day. Child mean 0.6–0.9 µg/kg bw/day; 97.5th percentile 2.9–3.3 µg/kg bw/day. Total arsenic detected in 17% of samples. Fish and seafood contributed 95% (adults) and 89% (children) of total arsenic intake — predominantly as the low-toxicity organic forms (arsenobetaine, arsenosugars).
 
-**Inorganic arsenic (Table 5):** Adult mean 0.01–0.02 µg/kg bw/day; 97.5th percentile 0.06–0.08 µg/kg bw/day. Child mean 0.03–0.05 µg/kg bw/day; 97.5th percentile 0.13–0.14 µg/kg bw/day. Of the foodstuffs that contained detectable total As, 33% (eight samples) contained iAs above LOD. Exposures fall below the EFSA BMDL01 range of 0.3–8 µg/kg bw/day for cancers of the lung, skin, and bladder, but margins of exposure (Table 7) are low (2–62 across population subgroups vs. BMDL01 8 µg/kg bw/day; 2–30 vs. BMDL01 0.3 µg/kg bw/day). Major contributors to iAs: cereals 81% (adults) and 94% (children); fish and seafood contributed only 4% (adults) and 0.3% (children) of iAs despite dominating total As.
+**Inorganic arsenic (Table 5):** Adult mean 0.01–0.02 µg/kg bw/day; 97.5th percentile 0.06–0.08 µg/kg bw/day. Child mean 0.03–0.05 µg/kg bw/day; 97.5th percentile 0.13–0.14 µg/kg bw/day. Of the foodstuffs that contained detectable total As, 33% (eight samples) contained iAs above LOD. Exposures fall below the EFSA BMDL01 range of 0.3–8 µg/kg bw/day for cancers of the lung, skin, and bladder, but margins of exposure (Table 7) are low: vs. BMDL01 0.3 µg/kg bw/day MoEs range from 2 (children 97.5th percentile) to 30 (adult mean); vs. BMDL01 8 µg/kg bw/day MoEs range from 57 (children 97.5th percentile) to 800 (adult mean). Major contributors to iAs: cereals 81% (adults) and 94% (children); fish and seafood contributed only 4% (adults) and 0.3% (children) of iAs despite dominating total As.
 
 **Cadmium (Table 8):** Adult mean 0.16–0.22 µg/kg bw/day (1.1–1.5 µg/kg bw/week), 44–62% of EFSA TWI (2.5 µg/kg bw/week); 97.5th percentile 0.33–0.42 µg/kg bw/day (2.3–3.0 µg/kg bw/week), 92–118% of TWI. Child mean 0.24–0.32 µg/kg bw/day (1.7–2.3 µg/kg bw/week), 66–91% of TWI; 97.5th percentile 0.47–0.59 µg/kg bw/day (3.3–4.1 µg/kg bw/week), 132–164% of TWI. Cadmium detected in 43% of samples. Major contributors: cereals 39% and vegetables 36% (adults); cereals 48% and vegetables 30% (children). Authors note this is a considerable reduction vs. the previous Irish TDS (which estimated adult mean 95–123% TWI and 97.5th percentile 216–244% TWI), attributed to a roughly 50% drop in potato consumption between the IUNA (2001) and NANS (2008–2010) adult food consumption surveys. A urinary biomarker study from NANS participants found 95% of the population (including women aged >50, the most at-risk subgroup) below the EFSA critical value of 1 µg Cd/g creatinine, supporting the FSAI conclusion that long-term chronic Cd exposure does not present an unacceptable risk.
 
@@ -94,12 +94,23 @@ App: Irish dietary exposure data for adults and children across a broad food lis
 - Implications → Certification: removed the phrase "consistent with European TDS literature" (Part 2 cross-source synthesis comparison). Reframed the oils-specific limitation (iAs not analysed) so the page is honest about what this source does and does not support for the oils category.
 - `updated` set to 2026-05-26.
 
+2026-05-26 audit pass: Auto-audit subagent verdict REVISE. Findings applied:
+
+- Check 1 ❌ iAs MoE attribution corrected. The earlier wording ("2–62 across population subgroups vs. BMDL01 8 µg/kg bw/day; 2–30 vs. BMDL01 0.3 µg/kg bw/day") conflated two different denominator columns of Table 7 (p.28). Per Table 7 the cross-subgroup range vs. BMDL01 8 is 57–800 (children 97.5th percentile UB → adult mean LB), and the cross-subgroup range vs. BMDL01 0.3 is 2–30. Page now reports both ranges with endpoint attribution.
+- Check 2 ❌ Three dead-wikilink slugs corrected: `ingredients/dairy` → `ingredients/milk-and-dairy` (the canonical page; `dairy` is an alias the routing audit resolved via the alias index, but the rendered wikilink would not navigate); `metals/aluminium` → `metals/aluminum` (canonical filename uses US spelling); `regulations/eu-1881-2006-contaminants` → `regulations/eu-1881-2006-contaminants-superseded` (the page on disk).
+
+Findings rejected (false positives):
+
+- Check 3 ⚠️ FERA attribution flagged as "cannot verify from extracted pages." Verified against source p.12: "Planning and co-ordination of this project as well as sampling of the foods of interest was undertaken by FSAI staff; food preparation and analysis of the samples was undertaken under contract by the Food and Environment Research Agency (FERA) in the UK." FERA attribution kept.
+- Check 5 ⚠️ "Conflating the two would misallocate exposure attribution by roughly an order of magnitude" flagged as synthesis-adjacent. The contrast is between two figures inside this single source (tAs fish dominance 95% vs. iAs cereal dominance 81–94%) — i.e., the source's own data, not cross-source synthesis. Sentence kept.
+- Check 2 audit also flagged `ingredients/meat` and `ingredients/dairy` against a possibly-stale taxonomy snapshot; `ingredients/meat.md` exists on disk so `meat` is kept; the `dairy` correction is for the dead-link reason above, not snapshot mismatch.
+
 ## Wiki pages updated on ingest
 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
-- [[metals/aluminium]]
+- [[metals/aluminum]]
 - [[metals/arsenic]]
 - [[metals/chromium]]
 - [[metals/tin]]
@@ -111,4 +122,4 @@ App: Irish dietary exposure data for adults and children across a broad food lis
 - [[ingredients/olive-oil]]
 - [[ingredients/vegetable-oil]]
 - [[products/canned-fish]]
-- [[regulations/eu-1881-2006-contaminants]]
+- [[regulations/eu-1881-2006-contaminants-superseded]]
