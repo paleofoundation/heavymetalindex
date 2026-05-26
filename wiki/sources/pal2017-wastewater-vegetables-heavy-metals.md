@@ -10,11 +10,11 @@ doi: 10.29121/IJOEST.v2.i1.2017.03
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0017_2017_10-29121-ijoest-v2-i1-2017-03.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0017_2017_10-29121-ijoest-v2-i1-2017-03.pdf"
 metals: ["Cd", "Pb", "Cu", "Zn", "Cr", "Ni"]
-ingredients: ["[[ingredients/carrots]]", "[[ingredients/lettuce]]", "[[ingredients/vegetables]]"]
+ingredients: ["[[ingredients/carrots]]", "[[ingredients/cabbage]]", "[[ingredients/cauliflower]]", "[[ingredients/spinach]]", "[[ingredients/root-vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/vegetables]]"]
 products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]", "[[products/leafy-vegetables-other]]"]
-matrices: ["cauliflower", "cabbage", "carrot", "brinjal", "spinach", "radish"]
+matrices: ["root-vegetables", "non-root-vegetables", "leafy-vegetables"]
 jurisdictions: ["IN"]
 sample_population: "Vegetables grown on domestic-wastewater-irrigated farmland around Hisar district, Haryana, India"
 updated: 2026-05-26
@@ -26,12 +26,13 @@ This study measured Cd, Pb, Cu, Zn, Cr, and Ni in edible vegetable parts from do
 
 ## Key numbers
 
-- The abstract reports high matrix-specific values: spinach Cd 1.30 +/- 0.31 mg/kg, cabbage Pb 4.23 +/- 0.32 mg/kg, carrot Cu 1.42 +/- 0.25 mg/kg, Zn 3.4 +/- 0.28 mg/kg, Cr 1.16 +/- 0.11 mg/kg, and Ni 2.45 +/- 0.86 mg/kg.
+- The abstract reports high matrix-specific values: spinach Cd 1.30 +/- 0.31 mg/kg, cabbage Pb 4.23 +/- 0.32 mg/kg, carrot Cu 1.42 +/- 0.25 mg/kg, cauliflower Zn 3.4 +/- 0.28 mg/kg, carrot Cr 1.16 +/- 0.11 mg/kg, and spinach Ni 2.45 +/- 0.86 mg/kg.
 - The discussion states that spinach had the highest Cd concentration, 1.30 mg/kg, and Ni concentration, 2.45 mg/kg.
 - Cabbage had the highest Pb concentration, 4.23 mg/kg.
 - Carrot had the highest Cu concentration, 1.42 mg/kg.
 - Radish had the highest Cr concentration, 1.16 mg/kg, while cauliflower had the highest Zn concentration, 4.26 mg/kg.
-- Transfer-factor maxima reported in the abstract were Cd 0.0306 in spinach, Pb 0.4448 in cabbage, Cu 0.2642 in spinach, Zn 0.2494 in cauliflower, Cr 0.0764 in carrot, and Ni 0.7469 in spinach.
+- Transfer factors reported in the abstract were Cd 0.0306 in spinach, Pb 0.4448 in cabbage, Cu 0.2642 in spinach, Zn 0.2494 in cauliflower, Cr 0.0764 in carrot, and Ni 0.7469 in spinach.
+- The body text later reports Cu transfer factor highest in carrot at 0.2977; use body/table values over the abstract when extracting transfer-factor rows.
 
 ## Methods
 
@@ -44,7 +45,9 @@ The source supports vegetable gap filling for wastewater-irrigated produce in In
 ## Wiki pages this source may touch
 
 - [[ingredients/carrots]]
-- [[ingredients/lettuce]]
+- [[ingredients/cabbage]]
+- [[ingredients/cauliflower]]
+- [[ingredients/spinach]]
 - [[ingredients/vegetables]]
 - [[products/root-tuber-vegetables]]
 - [[products/non-root-vegetables]]
@@ -56,4 +59,4 @@ The source supports vegetable gap filling for wastewater-irrigated produce in In
 
 ## Verification notes
 
-The source reports values in mg/kg for vegetable tissues and separately reports transfer factors and risk-index calculations. The wiki page captures source-reported occurrence values and keeps the wastewater-irrigation context explicit.
+The source reports values in mg/kg for vegetable tissues and separately reports transfer factors and risk-index calculations. The wiki page captures source-reported occurrence values and keeps the wastewater-irrigation context explicit. The abstract and discussion differ on the highest-Cr crop assignment: the abstract gives carrot, while the discussion gives radish at the same 1.16 mg/kg value.

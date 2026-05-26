@@ -10,11 +10,11 @@ doi: 10.1016/j.talanta.2020.121418
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2020_10-1016-j-talanta-2020-121418.pdf"
-metals: ["tAs", "iAs", "AsIII", "AsV"]
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0007_2020_10-1016-j-talanta-2020-121418.pdf"
+metals: ["tAs", "iAs"]
 ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/rice-bulk-grain]]"]
-matrices: ["white-rice", "wild-rice", "rice-certified-reference-material"]
+matrices: ["rice"]
 jurisdictions: ["ES"]
 sample_population: "Commercial rice samples purchased in local supermarkets in Santiago de Compostela, Spain, plus ERM-BC211 rice reference material"
 updated: 2026-05-26
@@ -27,7 +27,8 @@ This Talanta method paper developed an ionic-imprinted-polymer extraction workfl
 ## Key numbers
 
 - The application set included two white rice samples, Basmati and Jasmin, and one wild-rice sample described as a mixture of white and brown rice.
-- In the commercial rice samples, inorganic arsenic ranged from 30 +/- 5 to 213 +/- 16 ug/kg.
+- Table 4 lists commercial-sample inorganic arsenic values of 30 +/- 11 ug/kg in Jasmin rice, 93 +/- 17 ug/kg in wild rice, and 127 +/- 13 ug/kg in Basmati rice.
+- The narrative also states a wider commercial iAs range of 30 +/- 5 to 213 +/- 16 ug/kg; use the table rows for exact extraction because they are the source's itemized values.
 - The authors state that As(III) concentrations were generally higher than As(V) in the three rice samples.
 - Basmati rice exceeded the 100 ug/kg inorganic arsenic level used for rice destined for infant and young-child foods in the authors' comparison.
 - Wild rice was described as close to the FDA proposed action level of 100 ug/kg inorganic arsenic.
@@ -50,4 +51,4 @@ The source supports rice-bulk-grain evidence for inorganic arsenic in commercial
 
 ## Verification notes
 
-The table text extraction preserves the commercial-sample iAs range and the CRM values more clearly than every individual commercial-sample row. The page therefore uses the source-stated range for commercial samples and the explicit ERM-BC211 check values. Brand names were not transcribed.
+The PDF has an internal mismatch between the narrative iAs range and the itemized Table 4 commercial-rice rows. The page records both, but treats Table 4 as the extraction authority for sample-level routing. Brand names were not transcribed.

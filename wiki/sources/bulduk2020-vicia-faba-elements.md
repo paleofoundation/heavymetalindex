@@ -10,11 +10,11 @@ doi: 10.33945/SAMI/PCBR.2020.3.4
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0033_2020_10-33945-sami-pcbr-2020-3-4.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0033_2020_10-33945-sami-pcbr-2020-3-4.pdf"
 metals: ["Cr", "Fe", "Zn", "Al", "Cu", "Pb", "Cd", "Mn", "Ni"]
-ingredients: ["[[ingredients/tea]]"]
+ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/beans]]"]
 products: ["[[products/herbal-botanical-infusions]]", "[[products/supplements-botanicals-herbs]]"]
-matrices: ["vicia-faba-flowers", "vicia-faba-leaves", "herbal-tea-material"]
+matrices: ["herbal-botanicals", "dried-herbs"]
 jurisdictions: ["TR"]
 sample_population: "Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey"
 updated: 2026-05-26
@@ -42,7 +42,8 @@ The source fills botanical infusion and herbal supplement evidence for a non-Cam
 
 ## Wiki pages this source may touch
 
-- [[ingredients/tea]]
+- [[ingredients/herbal-botanicals]]
+- [[ingredients/beans]]
 - [[products/herbal-botanical-infusions]]
 - [[products/supplements-botanicals-herbs]]
 - [[metals/cadmium]]
@@ -53,4 +54,4 @@ The source fills botanical infusion and herbal supplement evidence for a non-Cam
 
 ## Verification notes
 
-The paper uses the phrase "consumed as tea" for Vicia faba flowers and leaves; this page treats the matrix as herbal infusion/botanical material rather than Camellia sinensis tea. The table prints the zinc leaf uncertainty with a less-than symbol, so the page records the mean without treating that symbol as a standard deviation.
+The paper uses the phrase "consumed as tea" for Vicia faba flowers and leaves; this page treats the matrix as herbal infusion/botanical material rather than Camellia sinensis tea. The exact Vicia faba flower/leaf names are narrow sample descriptors; frontmatter uses broader herbal-botanical routing terms. The table prints the zinc leaf uncertainty with a less-than symbol, so the page records the mean without treating that symbol as a standard deviation.
