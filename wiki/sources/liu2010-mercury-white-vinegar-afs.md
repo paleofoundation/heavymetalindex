@@ -54,7 +54,7 @@ All concentrations are reported as µg/L of as-sold white vinegar; µg/L = ppb f
 
 **Matrix interference findings (Section 3.4):**
 
-- Sugar interference > ±10% on Hg signal at sugar concentration as low as 1% v/v; the method is therefore restricted to white vinegar (no added sugar) and is not appropriate for aromatic, mature, rice, or fruit vinegars.
+- Sugar interference exceeds ±10% on Hg signal at 1% v/v sugar (the paper's stated tolerance threshold for a foreign species is ±5% relative error per Section 3.4; sub-1% sugar concentrations were not tested). The method is therefore restricted to white vinegar (no added sugar) and is not appropriate for aromatic, mature, rice, or fruit vinegars, which all contain sugar per ref [1].
 - No significant interference from Fe up to 20 mg/L, Co up to 10 mg/L, Cu up to 10 mg/L, or Ni up to 1 mg/L — a stated advantage over conventional KBH₄ hydride generation, where these transition metals form metallic colloids and suppress signal.
 
 ## Methods (brief)
@@ -90,3 +90,5 @@ Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and 
 - **Remove HMTc-framework classification claim from Implications.** Prior version stated "White vinegar should be classified as a low tHg/MeHg risk matrix" — this is HMTc-classification language and violates the Part 2 wiki/HMTc firewall (the wiki reports what the literature says; HMTc classification is HMT&C's job). Revised to report the n = 3 finding honestly and explicitly flag that the dataset is too small for category-level extrapolation.
 - Remove the legacy `## Wiki pages updated on ingest` heading per current Part 6 practice; downstream-page fan-out lives in the routing audit, not on the source page.
 - License kept as "All rights reserved" — Spectrochimica Acta Part B (Elsevier) 2010 paywall paper; no open-access notice on the PDF.
+
+Auto-audit subagent (2026-05-26) verdict REVISE; Checks 2, 3, 4, 5 clean. Check 1 ⚠️ flagged that "Sugar interference > ±10% on Hg signal at sugar concentration as low as 1% v/v" overstated the source — paper Section 3.4 reports the >±10% effect at 1% v/v but does not test below 1% v/v, so "as low as" implied an untested lower bound. Verified against the PDF and applied: reworded to "exceeds ±10% on Hg signal at 1% v/v sugar," and added the paper's stated ±5% relative-error tolerance threshold for completeness as the audit suggested.
