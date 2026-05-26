@@ -210,6 +210,52 @@ this ticket.
   `statistic_type`? Possibly. Keeping it for now because the wiki uses a
   separate confidence field; reconcile in v1.
 
+## Addendum (CEO board brief, 2026-05-26): alignment with the live site
+
+heavymetalindex.com is already a working surface. The v0 schema is not a
+greenfield design — it is a relational projection of what `wiki/` and
+`data/` already encode. This addendum reconciles the two.
+
+### Where v0 aligns with the existing repo (no work to redo)
+
+| v0 entity | Existing canonical surface | Alignment |
+| --- | --- | --- |
+| `metal` | `wiki/metals/*.md` + CLAUDE.md Part 14 analyte vocabulary | Codes match (`Pb`, `Cd`, `iAs`, `tAs`, `MeHg`, `tHg`, `Ni`, `Al`, `Cr`, `Cr-VI`, `Sn`). Species self-ref mirrors the wiki's species rules. `is_hmtc_analyte` flag matches the HMTc-10 panel in `data/taxonomy/hmtc-v2.json`. |
+| `source_document` | `wiki/sources/<cite-key>.md` | `cite_key`, `evidence_tier` (A/B/C), `doi`, `raw_path`, `license`, `wiki_source_slug` are 1:1 with existing source-page frontmatter. The schema is a faithful relational shape of what source pages already declare. |
+| `study` | `sample_n`, `sample_population`, `jurisdictions`, methods narrative on source pages | New normalization layer. The wiki bundles study-level metadata into the source-page body; v0 splits it out so a meta-analysis or multi-cohort report can have several studies under one document. |
+| `ingredient` | `wiki/ingredients/<commodity>.md` | `slug`, `aliases` (→ `common_names`), `wiki_ingredient_slug` are 1:1. v0 does **not** duplicate `contamination_profile` from frontmatter; see "Divergences" below. |
+| `product` | `wiki/products/<category>.md` + `data/taxonomy/hmtc-v2.json` | `slug`, `hmtc_category`, `hmtc_row`, `wiki_product_slug` are 1:1. v0 treats `hmtc_*` as free-text references; the taxonomy JSON remains canonical. |
+| `contamination_finding` | `data/evidence/category*_*.csv` + sample-level CSVs | The CSVs in `data/evidence/` are already doing exactly what `contamination_finding` does, in spreadsheet form. v0 is a typed, FK-enforced replacement of that surface. |
+
+### Where v0 diverges from the wiki (intentional)
+
+1. **The wiki's `contamination_profile` YAML block is a *synthesis*, not a per-sample record.** Each ingredient page carries a per-metal cell with `status`, `typical_ppb`, `p95_ppb`, `confidence`, `n_studies`, `last_reviewed`, computed by the CLAUDE.md Part 9 synthesis pass. v0 does not model the synthesised cell as a table. The DB stores the per-finding granularity; aggregation (typical / p95 / n_studies) is a `GROUP BY ingredient_id, metal_id` query, not a stored row. **The wiki cell remains canonical** for human-readable synthesis output; the DB exists to feed it and to let machines re-derive it.
+
+2. **`geographic_breakdown` and `seasonal_variance` sub-fields on ingredient pages.** These are also synthesis outputs (Part 9, page-templates.md §"Geographic and seasonal variance sub-fields"). v0 can produce them via `GROUP BY study.geography_country` / `study.collection_*_on`. Wiki remains canonical for the curated, brand-legal-defensible regional and seasonal breakdowns until the wiki ↔ DB sync is mechanical.
+
+3. **`cc_relationship` (clean / contamination partner pairs on product pages) and `evidence_fitness` (EF-1..EF-5).** Both are HMTc governance constructs encoded in product-page frontmatter and in `data/evidence/category1_register.csv`. v0 deliberately leaves these to the wiki — they are policy concepts that belong in the certification surface, not in a queryable index. When HMTc Step 0 Lock workflow needs them in the DB, that is a v1+ ticket.
+
+4. **`source_type` enum needs a mapping.** Wiki uses `peer-reviewed`, `gov-guidance`, `gov-report`, `agency-report`. v0 uses `peer-reviewed`, `agency-report`, `regulatory-filing`, `dataset`, `recall-notice`, `third-party-testing`, `news`, `other`. The ingest tool (next ticket) will map:
+   - wiki `gov-guidance` → v0 `regulatory-filing`
+   - wiki `gov-report` → v0 `agency-report`
+   - everything else maps directly.
+
+5. **`matrices` vocabulary.** Wiki frontmatter uses a controlled list (`grain-tissue`, `soil`, `rice`, `exposure-modeling`, etc.). v0's `contamination_finding.matrix` is free text in v0 because matrix is sometimes a phrase ("dry infant cereal, as-sold") rather than a tag. v1+ can add a controlled vocabulary table; v0 keeps it loose so ingest can land without taxonomy fights.
+
+6. **No `regulation`, `testing_method`, or `microbiome` entities in v0.** All three exist as wiki page types with frontmatter. v0 deliberately deferred them; the wiki remains canonical. Regulation in particular is the next obvious candidate — `wiki/regulations/*.md` already carries `rule_id`, `jurisdiction`, `agency`, `metal`, `matrix`, `limit_value`, `limit_unit`, `effective_date`, `source_refs` — a one-to-one table is a small follow-up.
+
+### Canonical-surface assumptions (the rule of thumb)
+
+- **Authoring of new source/ingredient/product/regulation pages happens in `wiki/` first.** The DB is downstream. A future ingest tool reads wiki frontmatter and writes DB rows; the reverse path (DB → wiki) is not v0.
+- **Per-claim provenance is enforced in both surfaces.** Wiki source pages have `source_refs` in dependent pages; DB `contamination_finding.study_id` is `NOT NULL` and `study.source_document_id` is `NOT NULL`. The defensibility chain is identical: every claim traces to a citable source whether the reader is human (wiki) or a query (DB).
+- **Synthesis is wiki-owned.** The wiki carries the curated per-ingredient × per-metal cell with confidence and review date. The DB stores findings; aggregation lives in queries, not in stored synthesis rows. Until the synthesis pass is mechanically reproducible (Part 9 lists triggers), the wiki cell is the truth-of-record for "what does the literature say about Cd in rice."
+- **HMTc governance (rows, cc_relationships, evidence fitness, Step 0 Locks, percentile pooling) is wiki + `data/evidence/` + `data/workbench/`.** The DB stores enough to *join* (hmtc_row, hmtc_category as text on `product`) but is not the source of truth for HMTc category designations. The HMTc taxonomy in `data/taxonomy/hmtc-v2.json` and the locked workbench outputs in `data/workbench/standards/` remain canonical.
+- **Brand firewall is honoured by both surfaces.** Wiki has no `wiki/brands/` directory (CLAUDE.md Part 12). DB has `manufacturer` and `certification` tables but seed loads only placeholder rows; brand-identifying findings will live behind permissioned access (CLAUDE.md Part 26) when that build happens.
+
+### What this means for HMI-3 acceptance
+
+The v0 entities the issue asks for are present, FK-enforced, and seeded with values drawn from real wiki source pages (`fda-ctz-Pb-babyfood-2025`, `abt2018-cocoa-chocolate`, `hbbf2025-rice-arsenic-cadmium-145-samples`, `chiger2017-iAs-rice-cereal-neurodevelopment-hbbf`). Provenance traces end-to-end and is verified in `db/schema.test.ts`. The reconciliation above is the assumption set the next layer (a wiki → DB ingest tool, HMI-8 / HMI-9 scope-dependent) will operate on.
+
 ## How to use it locally
 
 ```bash
