@@ -6,6 +6,8 @@ Codex must read `CLAUDE.md` and `wiki/methodology/persistent-wiki-ingest-rule.md
 
 Codex must also read `docs/governance/hmtc-governing-principles.md` before any product-category, HMTc standards, limit-setting, crosswalk, or certification-threshold work.
 
+Codex must read `docs/continuous-ingest-architecture.md` before any work on the continuous gap-fill system (gap detector, source adapters, ranker, dual-model extractor, disagreement detector, wiki-edit audit barrier, or queue runtime). Adding a new source adapter is covered by `docs/add-a-source.md`.
+
 ## AI Adjudication Default
 
 Evidence routing is an AI adjudication workflow, not a manual clerical workflow.
