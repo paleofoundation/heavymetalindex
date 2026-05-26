@@ -62,7 +62,7 @@ All concentrations reported as ng/mL (= µg/L = ppb for liquid as-sold vinegar).
 - Red grape vinegar: 115.8–1,948.2 ng/mL; mean 619.2 ± 95.3 SEM; median 480.2
 - Four of six pairwise inter-type comparisons were significant (p < 0.05); date vinegar Zn substantially exceeded the other three types.
 
-**Regulatory comparison:** Iranian ISIRI standard 355 (5th revision, 2007) sets the vinegar MALs at 1,000 ng/mL for Pb and 10,000 ng/mL for Cu + Zn combined; no Cd MAL is established. Codex Alimentarius (2000) and Turkish Food Codex (2002) both set 1 mg/L (1,000 ng/mL) for Pb and 10 mg/L (10,000 ng/mL) for Cu + Zn. All 96 Iranian samples fell well below all three jurisdictions' limits on every reported metal.
+**Regulatory comparison:** Iranian ISIRI standard 355 (5th revision, 2007) sets the vinegar MALs at 1,000 ng/mL for Pb and 10,000 ng/mL for Cu + Zn combined; no Cd MAL is established. Turkish Food Codex (2002) sets 1 mg/L (1,000 ng/mL) for Pb. Codex Alimentarius (2000) and Turkish Food Codex (2002) both set 10 mg/L (10,000 ng/mL) for Cu + Zn. All 96 Iranian samples fell well below the cited Pb and Cu+Zn limits.
 
 **SCP vs. GFAAS confirmation (Table 7, n = 16, 4 per type):** paired t-test showed no significant differences between methods for any of the four metals. Sample-pair differences ranged −9.68% to +9.5% across all 64 metal-sample pairs.
 
@@ -114,3 +114,5 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle and last
 No brand names appear in this source — the paper aggregates by vinegar type only, with no manufacturer attribution — so no Part 12 firewall edits were needed.
 
 No HMTc threshold language, no consumer translation, no inter-source synthesis claims were introduced.
+
+Auto-audit subagent (2026-05-26) verdict PROMOTE; Checks 2-5 all clean. Check 1 raised a single ⚠️ framing concern: the prior Codex/Turkish-Codex sentence said "both set 1 mg/L (1,000 ng/mL) for Pb and 10 mg/L (10,000 ng/mL) for Cu + Zn." Verified against source p.7: the 1 mg/L Pb attribution belongs only to the Turkish Food Codex (2002); the Codex Alimentarius (2000) is cited only for the 10 mg/L Cu + Zn cap. Sentence rewritten to restrict the Pb attribution to the Turkish Food Codex and reserve the joint Codex/Turkish attribution for Cu + Zn.
