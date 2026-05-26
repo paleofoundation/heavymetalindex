@@ -39,7 +39,7 @@ All concentrations are wet weight, µg/g, except cadmium (ng/g). Per-oil-type me
 
 **Copper (Cu):** mean range 0.035–0.286 µg/g. Olive oil highest (0.286 ± 0.016); corn oil lowest (0.035 ± 0.001). LOD 0.011 µg/g.
 
-**Zinc (Zn):** mean range 0.955–3.10 µg/g. Corn oil highest (3.10 ± 0.290); sesame oil lowest (0.955 ± 0.071). LOD 0.010 µg/g.
+**Zinc (Zn):** mean range 0.955–3.10 µg/g per Table 1; the discussion text on page 2 incorrectly states that soybean oil had the lowest Zn — Table 1 shows soybean at 1.36 ± 0.02 µg/g and sesame at 0.955 ± 0.071 µg/g, so sesame is the actual minimum. Corn oil highest (3.10 ± 0.290). LOD 0.010 µg/g.
 
 **Iron (Fe):** mean range 17.3–57.8 µg/g. Olive oil highest (57.8 ± 3.8); corn oil lowest (17.3 ± 0.8). LOD 0.017 µg/g.
 
@@ -94,3 +94,4 @@ Speciation: total arsenic only. No iAs/tAs partition. No Hg measured.
 - 2026-05-26 modernized "Wiki pages updated on ingest" heading to "Wiki pages this source may touch" per current source-page convention; added [[metals/arsenic-total]], [[metals/copper]], [[metals/zinc]], [[metals/iron]], [[metals/manganese]] to the touch list to match the expanded frontmatter coverage.
 - `publication: "Asian Journal of Chemistry (Uncorrected Proof)"` retained from prior page. The PDF carries an "Uncorrected Proof" watermark but does not state the journal title or volume/issue on any of its five pages. The publication field is therefore unverified against the source itself; flagging for downstream cross-vendor audit confirmation rather than overwriting without evidence.
 - `doi: null` / `no_doi_assigned: true` retained — the source PDF contains no DOI string.
+- 2026-05-26 fresh-context audit (general-purpose subagent) — verdict PROMOTE. All five checks (numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall) returned ✅ on substantive findings. Two ⚠️ concerns reviewed: (1) `edible-oil` matrices term — confirmed in corpus use across 12 sibling source pages alongside `vegetable-oil`, accepted vocabulary, no change; (2) Zn page-2-text vs Table-1 minimum inconsistency — applied: Zn key-number line now flags the source-internal contradiction analogously to the existing Mn note. Rapeseed-Pb-BDL correction from the merge-enhance pass was independently re-verified against Table 1 by the subagent.
