@@ -10,11 +10,11 @@ doi: 10.20937/rica.2018.34.01.05
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0040_2018_10-20937-rica-2018-34-01-05.pdf"
-metals: ["Cd", "Pb", "Zn", "tHg"]
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0040_2018_10-20937-rica-2018-34-01-05.pdf"
+metals: ["Cu", "Cr", "Cd", "Ni", "Pb", "tAs", "Zn", "tHg"]
 ingredients: ["[[ingredients/shellfish]]", "[[ingredients/seafood]]"]
 products: ["[[products/shellfish]]", "[[products/seafood]]"]
-matrices: ["pen-shell", "Atrina-maura", "soft-tissue", "muscle"]
+matrices: ["shellfish", "mollusk", "soft-tissue", "muscle"]
 jurisdictions: ["MX"]
 sample_population: "Farmed pen shell from the southeastern Gulf of California, sampled seasonally from summer 2011 to summer 2012"
 updated: 2026-05-26
@@ -47,9 +47,14 @@ The source supports shellfish seasonal-variance evidence for Mexico, especially 
 - [[products/seafood]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+- [[metals/copper]]
+- [[metals/chromium]]
+- [[metals/nickel]]
+- [[metals/arsenic-total]]
 - [[metals/mercury-total]]
 - [[metals/zinc]]
 
 ## Verification notes
 
 Mercury is treated as total mercury because methylmercury speciation was not reported in the extracted source text.
+Arsenic is treated as total arsenic because inorganic arsenic speciation was not reported. The pen shell species is Atrina maura; the frontmatter keeps the matrix broad enough for routing while the title and sample population retain the species.

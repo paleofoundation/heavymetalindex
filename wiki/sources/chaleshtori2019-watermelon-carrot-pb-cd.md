@@ -10,7 +10,7 @@ doi: 10.32598/ijt.13.4.585.1
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0017_2019_10-32598-ijt-13-4-585-1.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0017_2019_10-32598-ijt-13-4-585-1.pdf"
 metals: ["Pb", "Cd"]
 ingredients: ["[[ingredients/carrots]]", "[[ingredients/fruit]]"]
 products: ["[[products/root-tuber-vegetables]]", "[[products/fresh-fruit]]"]

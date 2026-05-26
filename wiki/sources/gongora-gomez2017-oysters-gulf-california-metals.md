@@ -10,11 +10,11 @@ doi: 10.24275/uam/izt/dcbs/hidro/2017v27n2/garcia
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0040_2017_10-24275-uam-izt-dcbs-hidro-2017v27n2-garcia.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0040_2017_10-24275-uam-izt-dcbs-hidro-2017v27n2-garcia.pdf"
 metals: ["Cu", "Cr", "Cd", "Ni", "Pb", "tAs", "Zn", "tHg"]
 ingredients: ["[[ingredients/shellfish]]", "[[ingredients/seafood]]"]
 products: ["[[products/shellfish]]", "[[products/seafood]]"]
-matrices: ["oyster", "Crassostrea-gigas"]
+matrices: ["shellfish", "mollusk", "oyster"]
 jurisdictions: ["MX"]
 sample_population: "Cultivated Pacific oysters from the southeastern Gulf of California, Mexico"
 updated: 2026-05-26
@@ -44,9 +44,14 @@ The source supports Mexican shellfish occurrence context for Cd, Pb, Cr, Ni, tot
 - [[products/seafood]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+- [[metals/copper]]
+- [[metals/chromium]]
+- [[metals/nickel]]
+- [[metals/zinc]]
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
 
 ## Verification notes
 
 Arsenic and mercury are treated as total-element measurements because the source does not report inorganic arsenic or methylmercury speciation.
+The oyster species is Crassostrea gigas; the frontmatter keeps the matrix broad enough for routing while the title and sample population retain the species.

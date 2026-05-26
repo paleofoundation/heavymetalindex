@@ -10,7 +10,7 @@ doi: 10.4274/tjps.galenos.2026.86132
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0033_2026_10-4274-tjps-galenos-2026-86132.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0033_2026_10-4274-tjps-galenos-2026-86132.pdf"
 metals: ["Al", "Pb", "tAs", "Cd", "Mg", "Fe", "Cu", "Zn"]
 ingredients: ["[[ingredients/tea]]"]
 products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]]"]
@@ -26,7 +26,7 @@ This study measured essential and toxic elements in eight black tea products sol
 
 ## Key numbers
 
-- Dry leaves contained Al 12.6-25.3 mg/g and Pb 21.0-39.0 ug/g.
+- Dry leaves contained Al 12.6-27.0 mg/g and Pb 21.0-39.0 ug/g.
 - Dry leaves also contained Mg 523.0-1421.0 ug/g and Fe 263.1-445.5 ug/g; As and Cd were reported at lower levels than Al and Pb.
 - Infusions contained Al 0.5-1.0 mg/g, Mg 88.5-413.4 ug/g, Fe 32.1-70.0 ug/g, Cu 13.5-17.8 ug/g, and Zn 9.4-16.9 ug/g.
 - Infusion toxic-element ranges were As 0.1-0.3 ug/g and Pb 0.1-0.5 ug/g; Cd was below the limit of detection in all infusions.
@@ -53,3 +53,4 @@ The source supports tea occurrence context for Turkiye-market black tea and show
 ## Verification notes
 
 Brand identities from the paper are not transcribed. Arsenic is treated as total arsenic because the paper does not report inorganic arsenic speciation.
+The article's prose gives a dry-leaf Al range of 12.6-25.3 mg/g, while Table 1 includes a 27.0 +/- 1.3 mg/g value; the Key numbers section uses the table range.

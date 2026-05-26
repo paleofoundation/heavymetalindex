@@ -10,7 +10,7 @@ doi: 10.32526/ennrj/21/202200146
 source_type: peer-reviewed
 evidence_tier: A
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-cd_2022_10-32526-ennrj-21-202200146.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-pineapple-cd_2022_10-32526-ennrj-21-202200146.pdf"
 metals: ["tAs", "Cd", "Cu", "tHg", "Pb", "Zn"]
 ingredients: ["[[ingredients/pineapple]]", "[[ingredients/fruit]]"]
 products: ["[[products/fresh-fruit]]"]

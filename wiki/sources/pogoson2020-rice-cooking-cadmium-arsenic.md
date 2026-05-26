@@ -10,7 +10,7 @@ doi: 10.1016/j.foodchem.2020.127842
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC-ND 4.0 manuscript"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2020_10-1016-j-foodchem-2020-127842.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0007_2020_10-1016-j-foodchem-2020-127842.pdf"
 metals: ["Cd", "iAs", "DMA", "tAs"]
 ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/rice-bulk-grain]]"]

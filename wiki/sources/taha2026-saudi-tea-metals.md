@@ -10,7 +10,7 @@ doi: 10.1038/s41598-026-37785-4
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0033_2026_10-1038-s41598-026-37785-4.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0033_2026_10-1038-s41598-026-37785-4.pdf"
 metals: ["Al", "Mn", "Pb", "Cd", "tAs"]
 ingredients: ["[[ingredients/tea]]"]
 products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]]"]

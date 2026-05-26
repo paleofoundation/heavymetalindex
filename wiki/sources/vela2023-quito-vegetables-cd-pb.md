@@ -10,7 +10,7 @@ doi: 10.20937/rica.54656
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0017_2023_10-20937-rica-54656.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0017_2023_10-20937-rica-54656.pdf"
 metals: ["Cd", "Pb"]
 ingredients: ["[[ingredients/carrots]]", "[[ingredients/tomato]]", "[[ingredients/lettuce]]"]
 products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]", "[[products/leafy-vegetables-other]]"]

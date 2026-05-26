@@ -10,7 +10,7 @@ doi: 10.31142/ijtsrd20298
 source_type: peer-reviewed
 evidence_tier: C
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-cd_2019_10-31142-ijtsrd20298.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-pineapple-cd_2019_10-31142-ijtsrd20298.pdf"
 metals: ["Zn", "Cu", "Fe", "Cd", "Ni", "Pb"]
 ingredients: ["[[ingredients/pineapple]]", "[[ingredients/fruit]]", "[[ingredients/vegetables]]"]
 products: ["[[products/fresh-fruit]]", "[[products/non-root-vegetables]]"]

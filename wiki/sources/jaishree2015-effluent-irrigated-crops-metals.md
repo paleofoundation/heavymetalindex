@@ -10,7 +10,7 @@ doi: 10.15680/IJIRSET.2015.0407014
 source_type: peer-reviewed
 evidence_tier: C
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0017_2015_10-15680-ijirset-2015-0407014.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0017_2015_10-15680-ijirset-2015-0407014.pdf"
 metals: ["Cd", "Ni", "Pb", "Cu", "Cr", "Mn", "Zn"]
 ingredients: ["[[ingredients/carrots]]", "[[ingredients/tomato]]", "[[ingredients/wheat]]"]
 products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]", "[[products/flour-non-rice]]"]
@@ -26,9 +26,9 @@ This study reports heavy metal concentrations in tomato, carrot, and wheat from 
 
 ## Key numbers
 
-- Tomato concentrations were reported as Cd 7.32-7.618, Ni 7.704-8.23, Pb 4.024-4.3, Cu 4.048-4.342, Cr 6.154-6.348, Mn 4.654-4.97, and Zn 5.778-6.136.
-- Carrot concentrations were Cd 9.17-10.104, Ni 15.27-15.418, Pb 14.24-14.832, Cu 8.23-8.934, Cr 13.954-14.88, Mn 11.786-12.644, and Zn 12.804-13.528.
-- Wheat concentrations were Cd 8.592-8.778, Ni 14.174-14.372, Pb 13.422-13.604, Cu 8.532-8.664, Cr 11.39-11.548, Mn 10.396-10.578, and Zn 9.676-9.884.
+- Tomato concentrations were reported as Ni 7.32-7.618, Pb 7.704-8.23, Cu 4.024-4.3, Cd 4.048-4.342, Cr 6.154-6.348, Mn 4.654-4.97, and Zn 5.778-6.136.
+- Carrot concentrations were Ni 15.27-15.418, Pb 14.24-14.832, Cu 8.23-8.934, Cd 9.17-10.104, Cr 13.954-14.88, Mn 11.786-12.644, and Zn 12.804-13.528.
+- Wheat concentrations were Ni 14.174-14.372, Pb 13.422-13.604, Cu 8.532-8.664, Cd 8.592-8.778, Cr 11.39-11.548, Mn 10.396-10.578, and Zn 9.676-9.884.
 
 ## Methods
 
@@ -52,4 +52,4 @@ The source can support contamination-context entries for carrots, tomatoes, and 
 
 ## Verification notes
 
-The source table appears to present the crop values in mg/kg-type concentration units, but the PDF text extraction does not preserve every unit label cleanly. Treat this as C-tier high-exposure context unless the table image is independently checked before quantitative pooling.
+The crop-table values above follow the source discussion/order for the vegetable table (Ni, Pb, Cu, Cd, Cr, Mn, Zn). The source uses inconsistent unit labels across methods, abstract, and discussion, so treat this as C-tier high-exposure context unless the table image is independently checked before quantitative pooling.

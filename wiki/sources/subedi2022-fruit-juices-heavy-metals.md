@@ -10,7 +10,7 @@ doi: 10.3126/jbkc.v11i1.53024
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-pb_2022_10-3126-jbkc-v11i1-53024.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-pineapple-pb_2022_10-3126-jbkc-v11i1-53024.pdf"
 metals: ["Fe", "Mn", "Zn", "Pb"]
 ingredients: ["[[ingredients/fruit-juice]]", "[[ingredients/pineapple]]", "[[ingredients/fruit]]"]
 products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-non-apple]]"]

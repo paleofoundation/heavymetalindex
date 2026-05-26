@@ -10,7 +10,7 @@ doi: 10.29196/jubpas.v26i6.1352
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0017_2018_10-29196-jubpas-v26i6-1352.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0017_2018_10-29196-jubpas-v26i6-1352.pdf"
 metals: ["Pb", "Cd"]
 ingredients: ["[[ingredients/carrots]]", "[[ingredients/vegetables]]"]
 products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]"]

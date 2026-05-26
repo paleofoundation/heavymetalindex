@@ -10,7 +10,7 @@ doi: 10.1371/journal.pone.0197220
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-mehg_2018_10-1371-journal-pone-0197220.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-swordfish-mehg_2018_10-1371-journal-pone-0197220.pdf"
 metals: ["MeHg", "tHg"]
 ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]"]
 products: ["[[products/fish-marine-predatory]]", "[[products/seafood]]", "[[products/shellfish]]"]

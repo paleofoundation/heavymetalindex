@@ -10,7 +10,7 @@ doi: 10.15328/cb1247
 source_type: peer-reviewed
 evidence_tier: C
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0017_2022_10-15328-cb1247.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0017_2022_10-15328-cb1247.pdf"
 metals: ["Zn", "Pb", "Mn", "Cd", "Cu"]
 ingredients: ["[[ingredients/carrots]]", "[[ingredients/potatoes]]", "[[ingredients/onions]]"]
 products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]"]

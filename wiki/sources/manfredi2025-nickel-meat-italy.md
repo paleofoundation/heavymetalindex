@@ -10,7 +10,7 @@ doi: 10.4081/ijfs.2025.13840
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC 4.0"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-ni_2025_10-4081-ijfs-2025-13840.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-meat-poultry-ni_2025_10-4081-ijfs-2025-13840.pdf"
 metals: ["Ni"]
 ingredients: ["[[ingredients/chicken]]", "[[ingredients/beef]]", "[[ingredients/meat]]", "[[ingredients/poultry]]"]
 products: ["[[products/poultry-product]]", "[[products/processed-meats]]"]

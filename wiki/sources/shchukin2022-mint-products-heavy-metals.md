@@ -10,7 +10,7 @@ doi: 10.30895/1991-2919-2022-12-2-408
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0033_2022_10-30895-1991-2919-2022-12-2-408.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0033_2022_10-30895-1991-2919-2022-12-2-408.pdf"
 metals: ["Al", "V", "Cr", "Mn", "Fe", "Ni", "Cu", "Zn", "Sr", "Ba", "tAs"]
 ingredients: ["[[ingredients/tea]]"]
 products: ["[[products/herbal-botanical-infusions]]", "[[products/supplements-botanicals-herbs]]", "[[products/supplements-oral-liquids-tinctures]]"]

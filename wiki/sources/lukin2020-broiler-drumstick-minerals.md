@@ -10,7 +10,7 @@ doi: 10.31677/2072-6724-2020-30-4-35-40
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-ni_2021_10-31677-2072-6724-2020-30-4-35-40.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-meat-poultry-ni_2021_10-31677-2072-6724-2020-30-4-35-40.pdf"
 metals: ["tAs", "Cd", "Pb", "Cr", "Ni", "Sn", "Al", "Sb"]
 ingredients: ["[[ingredients/chicken]]"]
 products: ["[[products/poultry-product]]"]

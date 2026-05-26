@@ -10,7 +10,7 @@ doi: 10.3329/aajfss.v2i1.55893
 source_type: peer-reviewed
 evidence_tier: B
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-pb_2018_10-3329-aajfss-v2i1-55893.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-meat-poultry-pb_2018_10-3329-aajfss-v2i1-55893.pdf"
 metals: ["Cr", "Pb", "tAs"]
 ingredients: ["[[ingredients/chicken]]", "[[ingredients/eggs]]"]
 products: ["[[products/poultry-product]]", "[[products/eggs-product]]"]

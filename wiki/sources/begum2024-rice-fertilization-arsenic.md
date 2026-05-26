@@ -10,7 +10,7 @@ doi: 10.1007/s12403-023-00563-y
 source_type: peer-reviewed
 evidence_tier: A
 license: "open-access PDF"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2023_10-1007-s12403-023-00563-y.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0007_2023_10-1007-s12403-023-00563-y.pdf"
 metals: ["iAs", "DMA", "tAs"]
 ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/rice-bulk-grain]]"]
