@@ -48,24 +48,22 @@ By supplement type (Table 2):
 - Fish oils combined (cod + shark liver, n = 18): median 0.088 µg/kg
 - Vegetable > fish oils difference statistically significant (p < 0.001); the paper's prose uses median values when comparing groups
 
-Vegetable oil–specific individual preparations (Figure 5, Table 3):
+Vegetable oil–specific individual preparations (Figure 5, Table 3 — botanical class only, no brand identification):
 - Cedar nut oil: 0.427 µg/kg (highest in the study)
 - Evening primrose oil: 0.320 µg/kg
-- Camelina sativa oil (prep No. 10): 0.203 µg/kg
-- Wheat germ oil: ~0.280 µg/kg (Figure 5)
+- Camelina sativa oil (one of two preparations sampled): 0.203 µg/kg; the other: 0.173 µg/kg
 - Safflower oil: 0.173 µg/kg
 - Grape seed oil: 0.131 µg/kg (lowest vegetable oil)
 
-Cod liver oil–specific (Figure 4, Table 3):
-- Preparation No. 7 (Tran z Witaminami): 0.207 µg/kg (highest)
-- Preparation No. 3 (Tran Moller's): 0.205 µg/kg
-- Preparation No. 12 (Life Tran z Wątroby Dorsza): 0.030 µg/kg (lowest)
+Cod liver oil preparations (Figure 4; values by within-study preparation number, no brand identification):
+- Highest: preparation No. 7 at 0.207 µg/kg; preparation No. 3 at 0.205 µg/kg
+- Mid-range (preparations Nos. 1, 4, 5): approximately 0.180 µg/kg per paper text
+- Lowest: preparation No. 12 at 0.030 µg/kg
 
-Shark liver oil–specific (Figure 3, Table 3):
-- Preparation No. 1 (Iskial): 0.087 µg/kg (highest)
-- Preparation No. 6 (Iskial Plus): 0.077 µg/kg
-- Preparation No. 2 (Rekinol): 0.073 µg/kg
-- Preparation No. 4 (Life Shark Liver Oil): 0.023 µg/kg (lowest)
+Shark liver oil preparations (Figure 3; values by within-study preparation number, no brand identification):
+- Highest: preparation No. 1 at 0.087 µg/kg
+- preparation No. 6 at 0.077 µg/kg; No. 2 at 0.073 µg/kg
+- Lowest: preparation No. 4 at 0.023 µg/kg
 
 Dietary intake estimates at manufacturer-recommended doses (Table 3):
 - Highest daily Hg intake among all preparations: 0.0045 µg/day (Safflower oil, 20 mL/day, and Organic Soybean oil, 25 mL/day)
@@ -90,7 +88,7 @@ Speciation: This study measures total mercury (tHg) only. No speciation into met
 
 ## Implications
 
-Certification: The finding that vegetable oil supplements carry higher tHg than fish oil supplements is a counterintuitive but important result for the oil-based supplements category (HMTc Category 16, Row 21). Even so, all measured concentrations are more than 200-fold below the EU maximum level of 0.10 mg/kg. This supports a low-priority risk classification for oil-based dietary supplements with respect to mercury, with the caveat that this dataset reflects the Polish market in a single survey window; Augustsson 2021 and Foran 2003 found notably higher values in other markets and eras.
+Certification: Contributes a 36-sample tHg occurrence dataset for Polish oil-based dietary supplements (HMTc Category 16, Row 21) measured in a single survey window. Highest observed concentration 0.427 µg/kg (cedar nut vegetable oil) is more than 200-fold below the EU dietary-supplement maximum of 0.10 mg/kg (100 µg/kg). Vegetable-oil supplements measured significantly higher tHg than fish-oil supplements in this dataset, counter to the bioaccumulation narrative. Augustsson 2021 and Foran 2003 measured notably higher values in other markets and eras; any cross-market threshold-setting must triangulate across these datasets rather than relying on this study alone.
 
 Courses: Useful teaching case for the distinction between expected contamination narratives (fish = mercury bioaccumulation) and observed data (vegetable oil supplements measured higher tHg in this study), reinforcing the importance of direct measurement over assumption. Also a teaching case for honest mean-vs-median reporting under non-normal distributions.
 
@@ -108,6 +106,16 @@ Microbiome: Not applicable.
 - Added per-preparation values for the highest/lowest cod liver and shark liver oils (Figures 3–4, Table 3) and additional annual-intake figures from Table 3.
 - Added EFSA TWI numerical anchors (1.3 µg/kg bw/week for MeHg; 4 µg/kg bw/week for inorganic) from page 10, and the maximum 0.030% TWI contribution.
 - Added Rucklidge & Shaw 2020 New Zealand reference comparison (page 10).
+
+2026-05-26 audit pass: Auto-audit subagent verdict REVISE. Findings applied:
+- Stripped all commercial brand names from the Key numbers section (Part 12 brand firewall). The earlier draft listed Iskial, Iskial Plus, Rekinol, Life Shark Liver Oil, Tran Moller's, Life Tran z Wątroby Dorsza, and "Tran z Witaminami" attached to specific contamination values; these are now reported by within-study preparation number only. The same fix simultaneously resolved an audit-flagged transposition (prep No. 7 in the paper's Table 1 is "Tran Vitamex" / "Tran w Kapsułkach Vitamex", not "Tran z Witaminami" which is prep No. 11) — the brand label is no longer present in either spot.
+- Removed an eyeballed Figure-5 estimate ("wheat germ oil ~0.280 µg/kg") that was not a verbatim Table value; Table 3 lists wheat germ in-sample at 0.00023 µg/g (= 0.23 µg/kg), so the estimate was also numerically high.
+- Tightened Implications → Certification framing from "supports a low-priority risk classification" to occurrence-data reporting per Part 2.
+
+Slug-vocabulary gaps flagged but not corrected this session (hard constraint: do not create new ingredient pages):
+- `ingredients/cod-liver-oil` is referenced in this source's frontmatter and Wiki-pages-touched section but does not exist as a wiki ingredient page (freq-1 across the corpus as of 2026-05-26). Below the freq≥2 auto-stub threshold; should be re-evaluated when additional cod-liver-oil sources land.
+- `ingredients/shark-liver-oil` same as above (freq-1).
+- The current routing audit does not surface either as unresolved, so routing passes; the gap is taxonomy-completeness, not routing-blocking.
 
 ## Wiki pages updated on ingest
 
