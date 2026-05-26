@@ -35,7 +35,7 @@ The Empire State Consumer Project (ESCP) and Food & Water Watch submitted this l
 - 11 of 24 samples contaminated with As or Pb; 7 tested positive for both
 - As range in detected/positive samples: 70 to 1,040 ppb (µg/kg)
 - Mean As across detected/positive samples: 287.91 ppb (the letter states "the mean levels detected"; does not state whether the mean is over the positive subset only or over all 24 samples — the surrounding language indicates the positive subset)
-- At a 1-tablespoon (15 mL) serving, mean As intake = ~4.3 µg; at the maximum (1,040 ppb), one tablespoon delivers ~15.6 µg tAs
+- Wiki arithmetic on the letter's reported concentrations (not stated in the letter itself): at a 1-tablespoon (15 mL) serving with vinegar density ≈ 1 g/mL, the mean As level of 287.91 ppb corresponds to ~4.3 µg tAs/serving, and the maximum reported level of 1,040 ppb corresponds to ~15.6 µg tAs/serving. The letter's own framing of the same numbers uses a different normalization — "with simply one serving (1 tablespoon), consumers would far exceed FDA's 10-ppb maximum contaminant level for 1 liter of bottled water" and "at the mean levels detected (287.91 ppb), consumers would come close with two tablespoons (8.51 ppb)" — restating concentration in a per-liter water-equivalence basis rather than per-serving µg intake.
 - FDA MCL for bottled water: 10 ppb. The maximum balsamic As found (1,040 ppb) is 104× higher per volume.
 - Note: This is total arsenic; speciation between iAs and organic As not performed. ESCP's comparison to water MCL (iAs-specific) is analytically imprecise.
 
@@ -57,11 +57,11 @@ Commissioned third-party laboratory testing (specific lab not identified in the 
 
 ## Implications
 
-Certification: This source provides the most recent (2021) and most alarming US-market data on balsamic vinegar Pb and As. Even accepting methodological caveats, the magnitude of As values (up to 1,040 ppb tAs) in balsamic reductions is far higher than peer-reviewed data for balsamic vinegars from Greece or Turkey (where max As was 26 ppb in Karavoltsos 2020). The difference likely reflects the concentration effect in reductions and glazes versus standard balsamic vinegar. HMT&C should treat balsamic reductions/glazes as a distinct higher-risk subcategory from standard balsamic vinegar for As and Pb.
+Certification: This source contributes 2021 US-retail occurrence data for Pb and total As in balsamic vinegars, balsamic reductions, and balsamic glazes purchased in the Rochester NY area and online. The data points are at the high end of the reported magnitudes for the matrix (As to 1,040 ppb tAs; Pb to 127 ppb). Cross-source comparison with peer-reviewed regional studies (e.g., Karavoltsos 2020 on Greek vinegars) and any subcategory-level treatment for HMTc threshold work belong in the Part 9 synthesis pass on the relevant ingredient/product pages, not in this source page.
 
-Courses: Illustrates that US regulatory frameworks contain a significant gap: no FDA As or Pb limits for vinegar, no inclusion in Total Diet Survey. Prop 65 warning applies only in California. The ESCP filing is an example of NGO data driving regulatory attention.
+Courses: Illustrates that US regulatory frameworks contain a gap on this matrix: no FDA As or Pb limits for vinegar, no inclusion in the Total Diet Survey, and Prop 65 warnings applying only in California. The ESCP filing is an example of NGO data driving regulatory attention.
 
-App: This source does not provide sufficient methodological detail to anchor ppb values in the contamination_profile for vinegar; it should be used as corroboration for balsamic-reduction/glaze as a high-risk format rather than as a primary quantitative source.
+App: This source does not provide sufficient methodological detail (lab unnamed, no methods, no LOD/LOQ, no CRM validation) to anchor ppb values in the `contamination_profile` for vinegar. Its appropriate use is as corroboration that balsamic vinegars and balsamic reductions/glazes have been observed at elevated Pb and As levels in the US retail market.
 
 ## Verification notes
 
@@ -76,3 +76,13 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle (last `u
 - Update `sample_population` to record that 3 of 24 samples were non-balsamic vinegars of unspecified type.
 
 No content changes were made to the methods discussion or evidence-tier assignment. The B-tier classification is retained per `docs/conventions` evidence-grading rule (NGO reports without full method disclosure are B-tier; C-tier is reserved for news/blogs/press releases).
+
+Auto-audit subagent (2026-05-26) verdict REVISE; 4 findings total. Three applied:
+
+1. Audit flagged the µg/serving As intake numbers (~4.3 µg/serving at the mean, ~15.6 µg/serving at the maximum) as wiki-derived arithmetic not present in the letter — verified against pages 2–3 of the PDF, which give only a per-liter water-equivalence restatement ("two tablespoons (8.51 ppb)") rather than a µg/serving figure. Corrected by relabeling the bullet as "Wiki arithmetic on the letter's reported concentrations" and quoting the letter's own framing alongside, so a reader can see which numbers are source-reported and which are wiki computations.
+2. Audit flagged the Implications-section statement "HMT&C should treat balsamic reductions/glazes as a distinct higher-risk subcategory from standard balsamic vinegar" as crossing the wiki/HMTc firewall (Part 2) — verified as a directive recommendation rather than occurrence reporting. Reframed to "this source contributes occurrence data; any subcategory-level treatment for HMTc threshold work belongs in the Part 9 synthesis pass."
+3. Audit flagged the cross-literature comparison with Karavoltsos 2020 (max As 26 ppb in Greek balsamics) as synthesis-style work that belongs on the ingredient/product page rather than on the source page — agreed; the comparison was removed from this source page and is left for the synthesis pass to perform.
+
+One finding documented but not applied:
+
+- Audit noted that `balsamic-reduction` and `balsamic-glaze` are not in the snapshot of valid ingredient/product slugs. These are matrix descriptors, not ingredient or product slugs, and the matrices field is descriptive rather than routed against a controlled vocabulary; the routing audit accepts both slugs (the source is not in `routing_unresolved.csv` or `routing_malformed.csv`). The slugs are retained because they accurately describe the source's sampled population (the letter explicitly enumerates "vinegars or vinegar reductions or glazes" and identifies balsamic reductions/glazes as the highest-magnitude positives).
