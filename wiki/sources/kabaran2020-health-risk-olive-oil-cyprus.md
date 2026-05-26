@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_is-there-any-potential-health-risk-of-heavy-metals
 cite_key: kabaran2020-health-risk-olive-oil-cyprus
 title: "Is there any potential health risk of heavy metals through dietary intake of olive oil that produced in Morphou, Cyprus"
 authors: [Kabaran S, Güleç A, Besler HT]
@@ -13,13 +13,13 @@ license: "not confirmed"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Is there any potential health risk of heavy metals through dietary intake of olive oil produced in M.pdf"
 metals: [Pb, Cd, tAs, Ni, Cr, Co, Fe, Cu, Zn]
 ingredients: ["[[ingredients/olive-oil]]"]
-products: []
-matrices: [olive-oil, dietary-intake]
+products: ["[[products/olive-oil]]"]
+matrices: [edible-oil, olive-oil]
 jurisdictions: [CY]
 near_duplicates: []
 sample_n: 27
 sample_population: "27 natural olive oil samples from Morphou and Lefka districts, Northern Cyprus (single harvest); 500 adults aged 30–49 years surveyed for dietary olive oil intake and body weight (n=211 men, n=289 women)"
-updated: 2026-05-14
+updated: 2026-05-26
 ---
 
 # Kabaran et al. 2020 — Heavy metals in Northern Cyprus olive oil and health risk assessment
@@ -71,6 +71,7 @@ ICP-MS (Thermo Scientific X Series II) with CEM Mars 5 closed microwave digestio
 
 ## Wiki pages this source may touch
 - [[ingredients/olive-oil]]
+- [[products/olive-oil]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
@@ -83,5 +84,6 @@ ICP-MS (Thermo Scientific X Series II) with CEM Mars 5 closed microwave digestio
 
 ## Verification notes
 
-- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, added Co/Fe/Cu/Zn to frontmatter because the source reports all nine metals, replaced invented matrix `edible-oil` with `dietary-intake` while retaining the source-specific `olive-oil` matrix, corrected unit conversions for 0.1 mg/kg and 0.01 µg/g comparator limits, removed the non-taxonomy health wikilink, modernized the source-touch section, and removed internal/Paleo-specific and "safe range" wording from implications.
-- `olive-oil` is retained as a source-specific matrix term because the current common matrix list does not include an edible-oil term; the page also routes through `[[ingredients/olive-oil]]`.
+- Cross-vendor audit (Codex, 2026-05-17) corrected the truncated PDF `raw_path`, added Co/Fe/Cu/Zn to frontmatter because the source reports all nine metals, corrected unit conversions for 0.1 mg/kg and 0.01 µg/g comparator limits, removed the non-taxonomy health wikilink, modernized the source-touch section, and removed internal/Paleo-specific and "safe range" wording from implications.
+- 2026-05-26 enhancement (Claude, manual-fetch-kimi re-ingest): replaced placeholder `raw_handle: manual-fetch-kimi` with the canonical `MFK_is-there-any-potential-health-risk-of-heavy-metals` handle; populated `products: ["[[products/olive-oil]]"]` (the food-paper-with-empty-products defect flagged in `routing_malformed.csv`); aligned the `matrices` field to the sibling olive-oil source convention (`[edible-oil, olive-oil]`) — the prior `dietary-intake` matrix is not in the controlled vocabulary and the routing role is already carried by `[[ingredients/olive-oil]]` and `[[products/olive-oil]]`.
+- `olive-oil` is retained as a source-specific matrix term alongside `edible-oil`; the page also routes through `[[ingredients/olive-oil]]` and `[[products/olive-oil]]`.
