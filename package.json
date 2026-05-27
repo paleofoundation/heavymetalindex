@@ -66,6 +66,9 @@
     "wishlist:gap-queries": "node tools/wishlist/build-targeted-queries.mjs",
     "plan": "node tools/orchestrator/analyze-gaps.mjs",
     "night-loop": "node tools/orchestrator/night-loop.mjs",
+    "runtime:enqueue-discovery": "node tools/runtime/enqueue-discovery.mjs",
+    "runtime:run-loop": "node tools/runtime/run-loop.mjs",
+    "runtime:drain": "node tools/runtime/run-loop.mjs --drain --verbose",
     "prepare": "husky"
   },
   "engines": {
