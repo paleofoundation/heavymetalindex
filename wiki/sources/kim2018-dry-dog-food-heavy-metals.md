@@ -12,9 +12,9 @@ evidence_tier: A
 license: "CC BY"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-meat-poultry-pb_2018_10-3389-fvets-2018-00264.pdf"
 metals: [tAs, Cd, Pb, tHg]
-ingredients: ["[[ingredients/meat]]", "[[ingredients/poultry]]", "[[ingredients/fish]]"]
+ingredients: []
 products: ["[[products/pet-food-dry-kibble]]"]
-matrices: [dry-dog-food, pet-food]
+matrices: [pet-food]
 jurisdictions: [US]
 sample_n: 51
 sample_population: "Over-the-counter maintenance or all-life-stage dry dog foods grouped by primary animal ingredient"
@@ -42,13 +42,10 @@ Commercial dry dog foods were purchased from online and physical retailers and a
 
 ## Implications
 
-The source supports pet-food occurrence evidence and animal-ingredient comparison context. It should not be routed to human meat or poultry products even though those ingredient words appear in the source title.
+The source supports pet-food occurrence evidence and animal-ingredient comparison context. It should not be routed to human meat, poultry, or fish ingredient or product pages even though those words appear in the source title and formulation groups.
 
 ## Wiki pages this source may touch
 
-- [[ingredients/meat]]
-- [[ingredients/poultry]]
-- [[ingredients/fish]]
 - [[products/pet-food-dry-kibble]]
 - [[metals/arsenic-total]]
 - [[metals/cadmium]]
@@ -57,4 +54,4 @@ The source supports pet-food occurrence evidence and animal-ingredient compariso
 
 ## Verification notes
 
-The paper reports total arsenic and total mercury. Product brand names were not transcribed.
+The paper reports total arsenic and total mercury. Product brand names were not transcribed. `pet-food` is retained as the matrix because it is already used by the pet-food source subcorpus and is the least misleading controlled-vocabulary choice for dry kibble.

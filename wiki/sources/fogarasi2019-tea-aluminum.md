@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-herbal-bot
 metals: [Al]
 ingredients: ["[[ingredients/tea]]", "[[ingredients/herbal-botanicals]]"]
 products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]]", "[[products/herbal-botanical-infusions]]"]
-matrices: [tea-infusions, herbal-botanical-infusions]
+matrices: [tea]
 jurisdictions: [RO]
 sample_n: 48
 sample_population: "Green, black, fruit, and herbal tea infusions prepared from sampled tea materials"

@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-meat-poult
 metals: [tAs]
 ingredients: ["[[ingredients/poultry]]", "[[ingredients/chicken]]", "[[ingredients/beef]]", "[[ingredients/meat]]"]
 products: ["[[products/poultry-product]]", "[[products/beef-product]]"]
-matrices: [poultry-meat, calf-meat]
+matrices: [poultry, meat]
 jurisdictions: [TR]
 sample_n: 31
 sample_population: "Calf, chicken, and turkey meat samples obtained from local markets"

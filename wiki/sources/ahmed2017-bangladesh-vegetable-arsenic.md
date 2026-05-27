@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-fruit-mixe
 metals: [tAs]
 ingredients: ["[[ingredients/root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/vegetables]]"]
 products: ["[[products/root-tuber-vegetables]]", "[[products/leafy-vegetables-other]]", "[[products/non-root-vegetables]]"]
-matrices: [root-vegetables, leafy-vegetables, fruit-vegetables]
+matrices: [root-vegetable, leafy-vegetable, fruit-vegetable]
 jurisdictions: [BD]
 sample_n: 27
 sample_population: "Vegetables grown in a Gazipur industrial-area water-soil-crop system in Bangladesh"

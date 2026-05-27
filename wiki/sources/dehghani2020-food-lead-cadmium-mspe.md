@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-rice-milk-
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/tea]]", "[[ingredients/rice]]", "[[ingredients/infant-formula-powder]]", "[[ingredients/milk-and-dairy]]"]
 products: ["[[products/tea-infusions]]", "[[products/rice-bulk-grain]]", "[[products/infant-formula-powder]]"]
-matrices: [black-tea, rice, infant-formula, cow-milk]
+matrices: [tea, rice, infant-formula, milk]
 jurisdictions: [IR]
 sample_n: 5
 sample_population: "Black tea, rice, infant dry formula milk, and cow milk samples purchased in Yazd, Iran"
@@ -27,11 +27,11 @@ This analytical-method paper applied a magnetic solid-phase microextraction meth
 
 ## Key numbers
 
-- Table 4 reports black tea at Pb 5.62 +/- 0.89 ug/g and Cd 0.53 +/- 1.88 ug/g.
-- Rice was non-detect for Pb and had Cd 0.45 +/- 2.20 ug/g.
-- One infant dry formula milk sample had Pb 1.35 +/- 2.22 ug/g and Cd 0.03 +/- 3.30 ug/g.
-- A second infant dry formula milk sample had Pb 3.86 +/- 2.07 ug/g and Cd 0.02 +/- 3.57 ug/g.
-- Cow milk was reported on a liquid basis: Pb 60.68 +/- 2.47 ug/L and Cd 2.55 +/- 3.92 ug/L.
+- Table 4 reports black tea at Pb 5.62 ug/g (RSD 0.89%) and Cd 0.53 ug/g (RSD 1.88%).
+- Rice was non-detect for Pb and had Cd 0.45 ug/g (RSD 2.20%).
+- One infant dry formula milk sample had Pb 1.35 ug/g (RSD 2.22%) and Cd 0.03 ug/g (RSD 3.30%).
+- A second infant dry formula milk sample had Pb 3.86 ug/g (RSD 2.07%) and Cd 0.02 ug/g (RSD 3.57%).
+- Cow milk was reported on a liquid basis: Pb 60.68 ug/L (RSD 2.47%) and Cd 2.55 ug/L (RSD 3.92%).
 - Method LODs were 0.54 ug/L for Pb and 0.03 ug/L for Cd; LOQs were 1.82 ug/L for Pb and 0.11 ug/L for Cd.
 
 ## Methods
@@ -56,4 +56,4 @@ The source supports method-application occurrence context for Pb and Cd in tea, 
 
 ## Verification notes
 
-The source table identifies two infant formula samples by company footnotes; those identifiers were not transcribed. Food solid values are reported as ug/g, while cow milk is reported as ug/L.
+The source table identifies two infant formula samples by company footnotes; those identifiers were not transcribed. Food solid values are reported as ug/g, while cow milk is reported as ug/L. Table 4 footnote states the values are averages with relative standard deviation of three determinations, so the parenthetical percentages are RSD values rather than concentration standard deviations.

@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-pineapple-
 metals: [Fe, Zn, Cu, Cd, Pb]
 ingredients: ["[[ingredients/tomato-paste]]", "[[ingredients/pineapple]]", "[[ingredients/canned-tomatoes]]"]
 products: ["[[products/tomato-paste]]", "[[products/canned-tomatoes]]", "[[products/canned-vegetables]]"]
-matrices: [canned-food, tomato-paste, canned-pineapple]
+matrices: [fruit, vegetable]
 jurisdictions: [DZ]
 sample_n: 52
 sample_population: "Canned tomato paste and canned pineapple marketed in Algiers, Algeria"

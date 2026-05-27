@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-meat-poult
 metals: [Cd, Zn, Ag]
 ingredients: ["[[ingredients/chicken]]", "[[ingredients/poultry]]", "[[ingredients/meat-and-poultry]]"]
 products: ["[[products/poultry-product]]"]
-matrices: [chicken-meat, organ-meats]
+matrices: [poultry, meat]
 jurisdictions: [IR]
 sample_n: 100
 sample_population: "Chicken breast, thigh, heart, and liver samples from meat markets in Isfahan Province, Iran"
@@ -29,8 +29,8 @@ This study measured cadmium, zinc, and silver in chicken tissues sold in Isfahan
 
 - The study collected 100 chicken tissue samples from public meat markets.
 - Mean cadmium concentrations were 0.055 +/- 0.021 mg/kg in thigh, 0.048 +/- 0.023 mg/kg in breast, 0.074 +/- 0.031 mg/kg in liver, and 0.012 +/- 0.004 mg/kg in heart.
-- Mean zinc concentrations were 17.19 +/- 8.10 mg/kg in thigh, 15.70 +/- 5.75 mg/kg in breast, 22.10 +/- 10.87 mg/kg in liver, and 19.70 +/- 10.38 mg/kg in heart.
-- Mean silver concentrations were 0.0080 +/- 0.0044 mg/kg in thigh, 0.0048 +/- 0.0013 mg/kg in breast, 0.012 +/- 0.009 mg/kg in liver, and 0.0036 +/- 0.006 mg/kg in heart.
+- Mean zinc concentrations were 17.90 +/- 8.10 mg/kg in thigh, 15.70 +/- 5.75 mg/kg in breast, 22.10 +/- 10.87 mg/kg in liver, and 19.70 +/- 10.38 mg/kg in heart.
+- Mean silver concentrations were 0.0080 +/- 0.0044 mg/kg in thigh, 0.0048 +/- 0.0013 mg/kg in breast, 0.036 +/- 0.006 mg/kg in liver, and 0.012 +/- 0.009 mg/kg in heart.
 - The paper states that Cd and Zn were below international permissible limits in all samples.
 - Cd in analyzed samples ranged from zero to 0.27 mg/kg.
 
@@ -54,4 +54,4 @@ The source supports poultry and organ-meat occurrence evidence for Cd and Zn in 
 
 ## Verification notes
 
-The paper reports values by tissue type, so routing should distinguish muscle-meat context from liver/heart organ-meat context when downstream extraction supports that granularity.
+The paper reports values by tissue type, so routing should distinguish muscle-meat context from liver/heart organ-meat context when downstream extraction supports that granularity. The abstract and results/table disagree for several Zn and Ag cells; this page follows the results narrative and Table 1 rather than the abstract.

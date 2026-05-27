@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-herbal-bot
 metals: [Pb, Cd, tAs, tHg, Cr]
 ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/tea]]"]
 products: ["[[products/herbal-botanical-infusions]]", "[[products/tea-infusions]]"]
-matrices: [herbal-botanicals, tea-infusions]
+matrices: [tea]
 jurisdictions: [PL]
 sample_n: 48
 sample_population: "Commercial herbal tea samples purchased from Polish retail markets"

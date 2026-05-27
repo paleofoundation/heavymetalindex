@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-infant-for
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/baby-food]]", "[[ingredients/infant-formula-powder]]", "[[ingredients/cereal]]", "[[ingredients/rice-cereal]]"]
 products: ["[[products/infant-food-general]]", "[[products/infant-cereal]]", "[[products/infant-formula-powder]]"]
-matrices: [baby-food, infant-cereal, milk-powder]
+matrices: [infant-formula, cereal-grain]
 jurisdictions: []
 sample_n: 63
 sample_population: "Baby foods and cereal products, including milk powder and cereal-based products"

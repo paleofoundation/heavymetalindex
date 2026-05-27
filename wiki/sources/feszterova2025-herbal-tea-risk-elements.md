@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-herbal-bot
 metals: [Cu, Pb, Ni, tAs]
 ingredients: ["[[ingredients/herbal-botanicals]]"]
 products: ["[[products/herbal-botanical-infusions]]"]
-matrices: [herbal-botanicals, herbal-tea-extracts]
+matrices: [tea]
 jurisdictions: [SK]
 sample_n: 18
 sample_population: "Six herbal tea materials from Slovakia prepared under three acid-extraction methods"

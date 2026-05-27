@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-coffee-tas
 metals: [Cd, Pb, Ni, Zn, tAs, Cr]
 ingredients: ["[[ingredients/coffee]]"]
 products: ["[[products/coffee]]"]
-matrices: [instant-coffee, coffee-beverages]
+matrices: [coffee]
 jurisdictions: [PL]
 sample_n: 50
 sample_population: "Instant coffee beverages sold in Poland, including 3-in-1, 2-in-1, and cappuccino products"

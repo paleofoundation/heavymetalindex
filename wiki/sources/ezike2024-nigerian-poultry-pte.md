@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-meat-poult
 metals: [tAs, Pb, Cd]
 ingredients: ["[[ingredients/poultry]]", "[[ingredients/chicken]]", "[[ingredients/eggs]]"]
 products: ["[[products/poultry-product]]", "[[products/eggs-product]]"]
-matrices: [poultry-meat, eggs]
+matrices: [poultry, eggs]
 jurisdictions: [NG]
 sample_n: 36
 sample_population: "Broiler muscle, gizzard, yolk, and albumen samples from four poultry farms in Nigeria"
