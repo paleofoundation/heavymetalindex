@@ -373,6 +373,66 @@ describe("extractWithDualModels", () => {
     }
   })
 
+  test("wire body omits response_format (Vercel AI Gateway rejects it)", async () => {
+    // Regression for HMI-29: the gateway returns
+    //   400 {"error":{"param":"response_format","code":"invalid_request_error"}}
+    // for both `{type:"json_object"}` and `{type:"json_schema",...}` shapes.
+    // The extractor must not send the field at all. This test captures the
+    // wire body and asserts it. It also simulates what the gateway would do
+    // if the field reappeared (400 with that param) and asserts that the
+    // current default body does not trigger it.
+    const { promptFile, outputPath } = await makeTmpDir()
+    const seenBodies: Record<string, unknown>[] = []
+
+    const fetchImpl: typeof fetch = async (input, init) => {
+      void input
+      const body = init?.body ? (JSON.parse(String(init.body)) as Record<string, unknown>) : {}
+      seenBodies.push(body)
+      if (body.response_format !== undefined) {
+        return new Response(
+          JSON.stringify({
+            error: {
+              message: "Invalid input",
+              type: "invalid_request_error",
+              param: "response_format",
+              code: "invalid_request_error",
+            },
+          }),
+          { status: 400, headers: { "Content-Type": "application/json" } },
+        ) as unknown as Response
+      }
+      return new Response(
+        JSON.stringify(
+          providerResponse(body.model as string, { verdict: "no_finding", findings: [], notes: null }),
+        ),
+        { status: 200, headers: { "Content-Type": "application/json" } },
+      ) as unknown as Response
+    }
+
+    const result = await extractWithDualModels(
+      { candidate: SAMPLE_CANDIDATE, artifact: { type: "text", content: "DOC" } },
+      { promptFile, outputPath, gatewayApiKey: "test-key", fetchImpl },
+    )
+
+    // Both providers should have gotten past validation (no 400-on-response_format).
+    assert.strictEqual(seenBodies.length, 2)
+    for (const body of seenBodies) {
+      assert.strictEqual(
+        Object.prototype.hasOwnProperty.call(body, "response_format"),
+        false,
+        `wire body must not include response_format; got: ${JSON.stringify(body)}`,
+      )
+      // Sanity-check the fields we *do* send so a future refactor can't quietly
+      // drop them.
+      assert.ok(typeof body.model === "string")
+      assert.ok(Array.isArray(body.messages))
+      assert.strictEqual(body.temperature, 0)
+    }
+    for (const row of result.rows) {
+      assert.strictEqual(row.error, undefined)
+    }
+  })
+
   test("rejects when AI_GATEWAY_API_KEY is unset", async () => {
     const previous = process.env.AI_GATEWAY_API_KEY
     delete process.env.AI_GATEWAY_API_KEY

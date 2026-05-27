@@ -201,12 +201,16 @@ async function callProvider(input: ProviderCallInput): Promise<ModelExtractionRo
         "Content-Type": "application/json",
         Authorization: `Bearer ${input.apiKey}`,
       },
+      // No `response_format` field: the Vercel AI Gateway rejects both
+      // `{type:"json_object"}` and `{type:"json_schema",...}` with a 400
+      // `param: response_format` validation error (verified 2026-05-27 on
+      // `anthropic/claude-opus-4-7` and `openai/gpt-5.1`). The prompt
+      // already instructs strict JSON and `stripJsonFences()` tolerates
+      // wrapped output, so we rely on the prompt rather than the wire
+      // contract. See HMI-29.
       body: JSON.stringify({
         model: input.modelSlug,
         messages: [{ role: "user", content: input.prompt }],
-        // Strict JSON mode — providers that don't support response_format
-        // still tolerate the field. The prompt also instructs strict JSON.
-        response_format: { type: "json_object" },
         max_tokens: MAX_OUTPUT_TOKENS,
         temperature: 0,
       }),
