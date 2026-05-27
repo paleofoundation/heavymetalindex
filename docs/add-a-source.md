@@ -1,17 +1,25 @@
 ---
 title: How to add a new source to the continuous gap-fill system
 audience: [engineer, claude, codex]
-updated: 2026-05-26
+updated: 2026-05-27
 anchor_issue: HMI-9
 ---
 
 # How to add a new source
 
-This walkthrough adds a new external source (e.g. FDA, EFSA, JECFA, a national surveillance dataset) to the continuous gap-fill system **without changing the spine** — no edits to the ranker, the dual-model extractor, the disagreement detector, the audit barrier, the queue topology, or any wiki content.
+This walkthrough adds a new external source (e.g. FDA, EFSA, JECFA, a national surveillance dataset) to the continuous gap-fill system **without changing the spine** — no edits to the ranker, the `dual-model-extractor` role, the disagreement detector, the wiki-edit audit-row barrier, the queue topology, or any wiki content.
 
 If you are adding a fixture, mock, or one-off backfill, this guide is overkill — write a script and commit. This guide is for adding a source that will run continuously.
 
 Companion architecture: [continuous-ingest-architecture](./continuous-ingest-architecture.md).
+
+## What the spine guarantees (so you don't have to think about it)
+
+Three guarantees from the spine that affect adapter authors. They are restated from the architecture doc so you can ship a new adapter without re-reading it:
+
+- **Model wiring is a role, not a slug.** The extractor is wired as the **`dual-model-extractor`** Paperclip role. Anthropic = `anthropic/claude-opus-4-7`; OpenAI = the latest GPT-5.x on AI Gateway, resolved at wire-up. Your adapter does not pick models, hard-code slugs, or hint at provider behavior — write to the manifest contract and let the role decide.
+- **Edits hit the real wiki, gated by the audit-row barrier.** There is no `wiki-staging/` clone. Every edit derived from your adapter's candidates must clear the per-edit audit-row write barrier in [HMI-12](/HMI/issues/HMI-12). That barrier is the defensibility surface — your adapter contributes `source_document`, `retrieval_date`, and provenance fields to it, and that is the entire integration.
+- **Cost is capped at the role level.** The `dual-model-extractor` role has a weekly Paperclip budget cap. When the cap is hit, the extractor stops pulling from the queue and your adapter's candidates back up gracefully. Do not add per-adapter sleeps or rate-limiters in response to cost concerns; that is what the cap exists for.
 
 ## Worked example: adding the FDA Total Diet Study adapter
 
@@ -227,7 +235,7 @@ tail -n 1 data/discovery/candidates.jsonl | jq .
 ls data/.local-blob/hmi/raw/fda-tds/TDS-2024-Pb-rice/
 ```
 
-If steps 1–4 succeed, the adapter is correctly wired into the spine. Steps 5+ (ranking, dual-model extraction, audit) are the spine's job and do not require any new code from you.
+If steps 1–4 succeed, the adapter is correctly wired into the spine. Steps 5+ (ranking, `dual-model-extractor` role, audit-row barrier) are the spine's job and do not require any new code from you.
 
 ### Step 5 — Deploy
 
@@ -242,7 +250,7 @@ Before opening a PR for a new adapter, confirm:
 - [ ] `retrieval_date` is captured at fetch time, not derived later.
 - [ ] `methodology_grade` matches the source's strongest study type per [[docs/conventions]].
 - [ ] No edits outside `tools/discovery/sources/` except the one-line registration.
-- [ ] No edits to ranker, extractor, disagreement detector, audit barrier, or any wiki content.
+- [ ] No edits to ranker, `dual-model-extractor` role, disagreement detector, audit-row barrier, or any wiki content.
 - [ ] Adapter has a unit test for `search` and a unit test for `fetch`.
 - [ ] Local fixture run produces a manifest row + a raw artifact in `data/.local-blob/`.
 - [ ] If you added any new environment variable, it is documented in this guide and added to `.env.example`.
@@ -256,7 +264,8 @@ These come up often enough to call out:
 - **"My adapter needs to call the extractor for a quick sanity check."** No. The extractor consumes manifest rows. If your adapter cannot prove its output without round-tripping the extractor, the manifest schema is wrong; raise an issue on [HMI-11](/HMI/issues/HMI-11).
 - **"I want to dedupe across sources inside my adapter."** No. Dedup belongs in the ranker, not in the adapter. Sources can emit candidates the ranker rejects; that is fine.
 - **"My source rate-limits me; I'll add a sleep inside `search`."** Use the queue's backoff and the worker's concurrency settings, not in-process sleeps. The worker is what the system schedules.
-- **"I want to write directly to `data/evidence/values.jsonl` from my adapter."** No. The adapter writes manifest rows. The dual-model extractor produces structured findings. Crossing that wire defeats the dual-model cross-check.
+- **"I want to write directly to `data/evidence/values.jsonl` from my adapter."** No. The adapter writes manifest rows. The `dual-model-extractor` role produces structured findings. Crossing that wire defeats the dual-model cross-check.
+- **"My adapter should write to a staging copy of the wiki first."** No. There is no `wiki-staging/` tier. Every wiki edit goes through the audit-row write barrier in [HMI-12](/HMI/issues/HMI-12) and lands on the real wiki when (and only when) the barrier accepts it. If you think your source needs a staging layer, what you actually need is stricter `methodology_grade` and disagreement-queue gating.
 
 ## Related issues
 

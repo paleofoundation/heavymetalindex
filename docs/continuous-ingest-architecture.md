@@ -1,7 +1,7 @@
 ---
 title: Continuous gap-fill ingest architecture
 audience: [engineer, claude, codex, karen]
-updated: 2026-05-26
+updated: 2026-05-27
 anchor_issue: HMI-9
 ---
 
@@ -45,10 +45,11 @@ If any code path appears to relax one of these, escalate to the CEO before shipp
         ▲                  manifest + raw blob          weighted queue
         │                                                     │
         │                                                     ▼
-   coverage snapshot                                  dual-model extractor
+   coverage snapshot                                  dual-model-extractor (role)
    (dashboard)                                  ┌────────────┴────────────┐
         ▲                                       │                         │
-        │                                  openai/gpt-5.5        anthropic/claude-opus-4-7
+        │                              OpenAI: latest GPT-5.x   anthropic/claude-opus-4-7
+        │                              (resolved at wire-up)              │
         │                                       │                         │
         │                                       └────────────┬────────────┘
         │                                                    ▼
@@ -56,11 +57,11 @@ If any code path appears to relax one of these, escalate to the CEO before shipp
         │                                       (model_disagreements.jsonl)
         │                                                    │
         │                                                    ▼
-        │                                       routing & audit barrier
-        │◄──────────────────────────────────────  wiki_edit_audit.jsonl
+        │                                       routing & audit barrier  ◄── real wiki gate
+        │◄──────────────────────────────────────  wiki_edit_audit.jsonl    (no staging tier)
         │                                                    │
         │                                                    ▼
-        └────────────────────  defensibility-report  ──► wiki pages
+        └────────────────────  defensibility-report  ──► real wiki pages
                                   (per-page query)
 ```
 
@@ -71,7 +72,7 @@ If any code path appears to relax one of these, escalate to the CEO before shipp
 | **Gap detector** | `wiki/**`, `data/evidence/standards-gap-report.csv`, `routing_unresolved.csv`, `contamination_profile` blocks | `data/gaps/open_gaps.jsonl` | `tools/evidence/build-open-gaps.mjs` ([HMI-13](/HMI/issues/HMI-13)) |
 | **Source adapters** | `open_gaps.jsonl` | `data/discovery/candidates.jsonl` + Vercel Blob raw artifact | `tools/discovery/sources/<adapter>.ts` ([HMI-11](/HMI/issues/HMI-11)) |
 | **Ranker** | `candidates.jsonl` | ranked queue messages | `tools/discovery/rank.ts` |
-| **Dual-model extractor** | candidate + raw artifact | `data/evidence/model_extractions.jsonl` | `tools/extract/dual-model.ts` |
+| **`dual-model-extractor` role** | candidate + raw artifact | `data/evidence/model_extractions.jsonl` | `tools/extract/dual-model.ts` |
 | **Disagreement detector** | paired extractions | `data/evidence/model_disagreements.jsonl` | `tools/extract/diff.ts` |
 | **Routing & audit barrier** | extractions, existing routing audit | `wiki/**/*.md`, `data/evidence/wiki_edit_audit.jsonl` | `tools/evidence/wiki-edit.ts` ([HMI-12](/HMI/issues/HMI-12)) |
 | **Coverage snapshot** | all of the above | `data/coverage/snapshots/<date>.json`, `wiki/coverage.md`, `/coverage` route | `tools/coverage/snapshot.ts` |
@@ -124,9 +125,10 @@ Idempotency: `(source_adapter, external_id)` is unique. A re-discovery does not 
 
 | Field | Type | Notes |
 |---|---|---|
-| `extraction_id` | string | `sha256(candidate_id + model + prompt_version)` |
+| `extraction_id` | string | `sha256(candidate_id + model_slug + prompt_version)` |
 | `candidate_id` | string | |
-| `model` | string | AI Gateway slug (`openai/gpt-5.5`, `anthropic/claude-opus-4-7`) |
+| `model_slug` | string | AI Gateway provider string actually used at runtime (e.g., `anthropic/claude-opus-4-7`; OpenAI slug resolved at wire-up to the latest GPT-5.x on AI Gateway) |
+| `model_version` | string | concrete model version returned by the provider at call time, alongside `model_slug` |
 | `prompt_version` | string | semver of the extraction prompt template |
 | `response` | object | raw model response (preserved for audit) |
 | `structured_findings` | array | normalized rows that drop straight into `data/evidence/values.jsonl` |
@@ -158,7 +160,7 @@ This file is a **write target**, not a sidecar. Anything that reduces a disagree
 | `span_id` | string | heading anchor or marker-bounded section id |
 | `source_document` | object | `{cite_key, url}` |
 | `retrieval_date` | ISO-8601 | from the candidate |
-| `models_used` | array | e.g. `["openai/gpt-5.5", "anthropic/claude-opus-4-7"]` |
+| `model_versions_used` | array | ordered list of `{model_slug, model_version}` pairs that produced this edit. Records both the AI Gateway provider string and the concrete model version returned at call time, so the wire-up-time slug choice (e.g. which GPT-5.x was current) is itself auditable. |
 | `model_agreement_state` | enum | `agree` / `agree_with_minor_units_diff` / `disagree_on_value` / `disagree_on_inclusion` / `disagree_on_row_fit` |
 | `gap_id` | string \| null | closes the matching open gap when present |
 | `applied_at` | ISO-8601 | |
@@ -255,23 +257,27 @@ Nothing in the ranker, extractor, disagreement detector, or audit barrier knows 
 
 ## Dual-model contract
 
-The dual-model extractor runs both models against the same candidate. The contract is:
+The extractor is wired as a Paperclip role — **`dual-model-extractor`** — that runs two providers independently against the same candidate. The contract is:
 
-1. **Independent parallel runs.** Both models receive the same prompt template, the same raw artifact text (stripped from the Blob), and the same `prompt_version`. They are dispatched in parallel via the Vercel AI Gateway. Neither sees the other's output. There is no "GPT drafts, Opus reviews" — that would defeat the cross-check.
-2. **No averaging.** The extractor never reduces two outputs to a single value. Each output is appended to `data/evidence/model_extractions.jsonl` with the model slug intact.
+1. **Independent parallel runs.** Both providers receive the same prompt template, the same raw artifact text (stripped from the Blob), and the same `prompt_version`. They are dispatched in parallel via the Vercel AI Gateway. Neither sees the other's output. There is no "GPT drafts, Opus reviews" — that would defeat the cross-check.
+2. **No averaging.** The extractor never reduces two outputs to a single value. Each output is appended to `data/evidence/model_extractions.jsonl` with the resolved `model_slug` and `model_version` intact.
 3. **Disagreement is a first-class artifact.** A separate step (`tools/extract/diff.ts`) reads both extractions and emits zero or more rows to `data/evidence/model_disagreements.jsonl`, one per disagreed axis (`value`, `unit`, `basis`, `row_fit`, `included`).
-4. **Agreement state is the routing rule.** Only `agree` and `agree_with_minor_units_diff` extractions flow straight to wiki edit. `disagree_*` extractions are still recorded in the evidence register with both model outputs and `model_agreement_state` set — but the edit step refuses to publish them as authoritative until the disagreement is resolved.
+4. **Agreement state is the routing rule.** Only `agree` and `agree_with_minor_units_diff` extractions flow straight to wiki edit. `disagree_*` extractions are still recorded in the evidence register with both provider outputs and `model_agreement_state` set — but the edit step refuses to publish them as authoritative until the disagreement is resolved.
 
 For v1, "resolved" means surfaced on the coverage dashboard and held in the disagreement queue. Human reviewer triage of disagreements is explicitly out of scope for v1 ([HMI-9](/HMI/issues/HMI-9) "Out of scope" §) but the schema is designed so that step can drop in later.
 
-### Gateway slugs
+### Gateway slugs and wire-up resolution
 
-Use AI Gateway provider/model strings, not direct provider SDKs:
+Use AI Gateway provider/model strings, not direct provider SDKs. The architecture doc deliberately does **not** hard-code an OpenAI slug. Per the [HMI-9 plan](/HMI/issues/HMI-9#document-plan) board decision #4:
 
-- `openai/gpt-5.5`
-- `anthropic/claude-opus-4-7`
+- **Anthropic side:** `anthropic/claude-opus-4-7`.
+- **OpenAI side:** the latest GPT-5.x slug available on AI Gateway at the moment the `dual-model-extractor` role is wired up. Recording happens at runtime — the resolved `model_slug` is written to every `model_extractions.jsonl` row, and the full `model_versions_used` list is written to every `wiki_edit_audit.jsonl` row.
 
-If `openai/gpt-5.5` is not on the Gateway at wiring time, downshift to the latest available GPT-5.x slug and record the substitution in this doc and in the dispatched `prompt_version`.
+This is what makes wire-time slug choice auditable. If OpenAI ships `gpt-5.7` next quarter and the role is re-wired, the audit row records that fact per-edit; no doc update is required. If both providers must agree on a substitution (e.g. a new disagreement-detector axis that depends on a provider-specific feature), update the prompt template and bump `prompt_version`.
+
+### Cost backstop
+
+The `dual-model-extractor` role is configured with a **weekly Paperclip budget cap before it goes live** ([HMI-9.8](/HMI/issues/HMI-9)). When the cap is hit, the extractor stops pulling from the `extraction.requests` queue and the orchestrator surfaces the situation as a `blocked` issue with the unblock action ("raise cap" or "wait for window roll"). The extractor never silently overspends to drain the queue. Cost-tracking lives in the agent's Paperclip role config, not in this doc; this note exists so engineers don't add their own ad-hoc rate limiting on top.
 
 ## Per-edit audit row contract
 
@@ -285,7 +291,7 @@ This is the wiki-edit write barrier and is the most important defensibility surf
 
 1. **Application-level.** Every worker that mutates a wiki page calls `recordEditOrAbort(edit)` exported from `tools/evidence/wiki-edit.ts`. If the worker does not call it, no file under `wiki/` is written.
 2. **Pre-commit hook.** `.husky/pre-commit` checks every commit. If the diff touches `wiki/**/*.md` and there is no matching diff in `data/evidence/wiki_edit_audit.jsonl`, the commit fails. This catches any code path that bypasses the helper.
-3. **Per-edit content.** Every audit row carries `source_document`, `retrieval_date`, `models_used`, `model_agreement_state`, `gap_id` (where present), and `commit_sha`. Span attribution lives at `span_id` (heading anchor or marker-bounded section id).
+3. **Per-edit content.** Every audit row carries `source_document`, `retrieval_date`, `model_versions_used`, `model_agreement_state`, `gap_id` (where present), and `commit_sha`. Span attribution lives at `span_id` (heading anchor or marker-bounded section id). `model_versions_used` captures the AI Gateway provider strings plus the concrete model versions returned at call time — this is what makes the wire-up-time slug choice auditable per board decision #4.
 
 ### What this gives the defensibility report
 
@@ -325,7 +331,7 @@ This is the fallback path the issue description requires. It is not a long-term 
 |---|---|
 | Discovery | `candidate_id` = `sha256(source_adapter + external_id)` |
 | Ranking | `candidate_id` (re-rank overwrites) |
-| Extraction | `extraction_id` = `sha256(candidate_id + model + prompt_version)` |
+| Extraction | `extraction_id` = `sha256(candidate_id + model_slug + prompt_version)` |
 | Disagreement | `disagreement_id` = `sha256(candidate_id + axis)` |
 | Audit | `edit_id` = `sha256(page + span_id + applied_at)` |
 
@@ -365,22 +371,24 @@ The two systems share three things:
 
 ### Cutover sequence
 
-1. **Spine lands** ([HMI-11](/HMI/issues/HMI-11) + [HMI-12](/HMI/issues/HMI-12) + [HMI-13](/HMI/issues/HMI-13)). Continuous system can run, but is gated to a staging clone of the wiki.
-2. **Discovery wave** (HMI-9.5–9.9). PubMed + OpenAlex adapters live, dual-model extractor wired, disagreement detector on. Edits still land on staging clone only.
-3. **Runtime cutover** (HMI-9.10). Queue + workers go live on Vercel Queues. Backoff and dead-letter validated in staging for ≥7 days under real candidate volume.
-4. **Production cutover.** Promote staging audit rows + edits to the real wiki. Nightly orchestrator stays on as a safety net for one full week, then is moved to the cooldown action-set for legacy use only.
+Per the [HMI-9 plan](/HMI/issues/HMI-9#document-plan) board decision #3, **the wiki write target is the real wiki from day one**. There is no `wiki-staging/` tier and no staging-clone deploy. The [per-edit audit row barrier](#per-edit-audit-row-contract) and the disagreement queue are themselves the defensibility layer — a separate staging branch would only defer real validation and create a second source of truth to keep in sync. Pathological growth in the disagreement queue is the signal we act on, not a missed staging deploy.
+
+1. **Spine lands** ([HMI-11](/HMI/issues/HMI-11) + [HMI-12](/HMI/issues/HMI-12) + [HMI-13](/HMI/issues/HMI-13)). Continuous system can run end-to-end against the real wiki; every edit must clear the audit-row barrier.
+2. **Discovery wave** (HMI-9.5–9.9). PubMed + OpenAlex adapters live, `dual-model-extractor` role wired, disagreement detector on. Real wiki edits land as soon as the agreement-state routing rule allows.
+3. **Runtime cutover** (HMI-9.10). Queue + workers go live on Vercel Queues. Backoff and dead-letter validated for ≥7 days under real candidate volume, monitored against the disagreement-queue growth signal.
+4. **Nightly stays as safety net.** Nightly orchestrator continues to run for one full week after runtime cutover, then moves to the cooldown action-set for legacy use only.
 5. **Decommission decision.** After 30 days of healthy continuous operation, CTO + CEO decide whether the nightly loop stays on (as a backup) or is retired. Default = retire if dashboard shows ≥95% of new gaps closed by continuous in the prior 30 days.
 
-There is no all-at-once cutover. If continuous misbehaves at any stage, the nightly loop continues to fill gaps from the static corpus.
+There is no all-at-once cutover at the runtime layer. If continuous misbehaves at any stage, the audit-row barrier refuses to publish, the dashboard shows the failure, and the nightly loop continues to fill gaps from the static corpus while the issue is triaged.
 
-## Open questions
+## Board decisions (resolved 2026-05-27)
 
-These are the v1 open items from the [HMI-9 plan](/HMI/issues/HMI-9#document-plan). They do not block the spine and are restated here so engineers picking up runtime / extractor work do not re-discover them.
+The four open questions in the original [HMI-9 plan](/HMI/issues/HMI-9#document-plan) were resolved by the board. They are now binding for this architecture and restated here so engineers picking up runtime / extractor work do not re-litigate them:
 
-1. **Vercel Queues vs. pure-local for v1 runtime.** Default = Vercel Queues with the SQLite fallback for dev. Flag if business reasons require pure-local.
-2. **`OPENAI_API_KEY` provisioning.** Default = provision via Vercel env on the project. AI Gateway routes both models through the same key surface; the constraint is billing, not technical.
-3. **Staging clone vs. real wiki for v1 writes.** Default = staging clone until the audit row and disagreement queue are proven, then promote.
-4. **GPT-5.5 vs latest GPT-5.x.** If `openai/gpt-5.5` is not on Gateway at wiring time, downshift to the latest GPT-5.x available and document the substitution here.
+1. **Runtime — Vercel Queues + Fluid Compute, SQLite local fallback.** Accepted. HMI is already a Vercel deploy; this is reuse, not new lock-in.
+2. **OpenAI provisioning.** `OPENAI_API_KEY` is provisioned on the Vercel project when [HMI-9.8](/HMI/issues/HMI-9) starts. A weekly Paperclip budget cap on the `dual-model-extractor` role is configured **before** the agent goes live — see [Cost backstop](#cost-backstop).
+3. **Real wiki from day one, gated by the audit-row write barrier.** No `wiki-staging/` tier. Every wiki edit passes through the audit-row precondition defined in [HMI-12](/HMI/issues/HMI-12). The audit row + disagreement queue are themselves the defensibility layer.
+4. **No hard-coded `openai/gpt-5.5`.** The extractor is wired as the **`dual-model-extractor` role**; the OpenAI provider string resolves at wire-up time to the latest GPT-5.x on AI Gateway. Recorded per-edit in `model_versions_used`. See [Gateway slugs and wire-up resolution](#gateway-slugs-and-wire-up-resolution).
 
 ## Related issues
 
