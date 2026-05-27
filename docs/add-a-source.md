@@ -267,9 +267,90 @@ These come up often enough to call out:
 - **"I want to write directly to `data/evidence/values.jsonl` from my adapter."** No. The adapter writes manifest rows. The `dual-model-extractor` role produces structured findings. Crossing that wire defeats the dual-model cross-check.
 - **"My adapter should write to a staging copy of the wiki first."** No. There is no `wiki-staging/` tier. Every wiki edit goes through the audit-row write barrier in [HMI-12](/HMI/issues/HMI-12) and lands on the real wiki when (and only when) the barrier accepts it. If you think your source needs a staging layer, what you actually need is stricter `methodology_grade` and disagreement-queue gating.
 
+
+## PubMed adapter notes (first real adapter — HMI-19)
+
+`tools/discovery/sources/pubmed.ts` is the first real `SourceAdapter`
+implementation. These notes are specific to PubMed; the FDA TDS walkthrough
+above covers the general pattern.
+
+### Query construction
+
+The adapter builds a query from gap fields in priority order:
+`metal + matrix` → `page + population` → `why` → `gap_id`.
+
+MeSH terms (e.g. `lead[MeSH Terms]`) would improve recall precision for
+known metals, but are omitted in v1 because gap fields are free-text. Future
+work: map canonical metal names to MeSH headings.
+
+### Open-access filter
+
+Every ESearch query appends ` AND pubmed pmc open access[filter]`. This
+qualifier restricts results to PMC OA articles — records with full-text
+available under an open license. Paywalled records have no raw artifact to
+store; they must never enter the pipeline.
+
+Example query for lead in spices:
+```
+lead spices AND pubmed pmc open access[filter]
+```
+
+### Methodology grade
+
+Extracted from `<PublicationType>` tags in the EFetch XML. Cochrane-grade
+rule applied in order:
+
+| Publication types | Grade |
+|---|---|
+| Randomized Controlled Trial, Systematic Review, Meta-Analysis | A |
+| Observational Study, Cohort Study, Case-Control Study, Cross-Sectional Study | B |
+| Anything else | `unknown` |
+
+Do not infer grade from titles, keywords, or abstracts. If no
+`<PublicationType>` matches the table, emit `"unknown"`.
+
+### Sample size
+
+Parsed from `n=<int>` in `<AbstractText>`. Conservative pattern
+(`\bn\s*=\s*([0-9,]+)`) — matches only unambiguous point estimates. Falls
+back to `null` if absent or ambiguous.
+
+### Rate limits
+
+| Mode | Limit |
+|---|---|
+| No `NCBI_API_KEY` | ~3 req/s |
+| With `NCBI_API_KEY` | ~10 req/s |
+
+Set `NCBI_API_KEY` in `.env.local` (or Vercel project env). The adapter
+reads `process.env.NCBI_API_KEY` by default and emits a single warning if
+absent. 429 responses are retried once after 1 s; the calling queue owns
+overall throughput.
+
+### Live smoke run output
+
+PMID `30207593` (lead-in-spices systematic review), verified 2026-05-27:
+
+```json
+{
+  "gap_id": "smoke-test-lead-spices",
+  "source_adapter": "pubmed",
+  "external_id": "30207593",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/30207593/",
+  "candidate_id": "e5febd4bedd20a58",
+  "retrieval_date": "2026-05-27T12:05:48.184Z",
+  "blob_key": "hmi/raw/pubmed/30207593/source.xml",
+  "methodology_grade": "unknown",
+  "status": "discovered"
+}
+```
+
+Blob key layout confirmed: `hmi/raw/pubmed/<pmid>/source.xml`.
+
 ## Related issues
 
 - [HMI-9](/HMI/issues/HMI-9) — continuous data-gap-fill ingest system (orchestrator parent)
 - [HMI-10](/HMI/issues/HMI-10) — architecture doc + add-a-source guide (parent)
 - [HMI-11](/HMI/issues/HMI-11) — `SourceAdapter` interface + provenance contract
 - [HMI-13](/HMI/issues/HMI-13) — gap detector v1 → `open_gaps.jsonl` (feeds your adapter)
+- [HMI-19](/HMI/issues/HMI-19) — PubMed source adapter (first real implementation)
