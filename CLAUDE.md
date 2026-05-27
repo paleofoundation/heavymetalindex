@@ -8,6 +8,8 @@ Operational reference content has been split out to docs/:
 - Writing style for wiki prose: [[docs/writing-style]]
 - Schema migration history: [[docs/schema-history]]
 - Conventions (units, cite-keys, wikilinks, evidence grading, index/log formats, proactive-maintenance, directory layout): [[docs/conventions]]
+- Continuous gap-fill ingest architecture (HMI-9 system): [[docs/continuous-ingest-architecture]]
+- How to add a new source adapter: [[docs/add-a-source]]
 
 ## Part 1 — Strategic frame (read before making any decision)
 
