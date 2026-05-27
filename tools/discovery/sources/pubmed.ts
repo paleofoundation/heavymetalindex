@@ -84,7 +84,7 @@ function methodologyGrade(pubTypes: string[]): MethodologyGrade {
 
 // Extract text content from all occurrences of <tag>…</tag>, stripping inner
 // child tags. PubMed XML is machine-generated and structurally stable.
-function xmlAll(xml: string, tag: string): string[] {
+export function xmlAll(xml: string, tag: string): string[] {
   const out: string[] = []
   const re = new RegExp(`<${tag}(?:[^>]*)>([\\s\\S]*?)</${tag}>`, "g")
   let m: RegExpExecArray | null
@@ -102,7 +102,7 @@ function xmlFirst(xml: string, tag: string): string | null {
 // Extract n=<int> from abstract text for sample size. Falls back to null when
 // the pattern is absent or ambiguous. Only matches unambiguous "n = 123" /
 // "n=123" forms; compound expressions (n=40–60) are ignored.
-function parseSampleSize(abstract: string | null): number | null {
+export function parseSampleSize(abstract: string | null): number | null {
   if (!abstract) return null
   const m = abstract.match(/\bn\s*=\s*([0-9,]+)(?!\s*[-–])/i)
   if (!m) return null
@@ -139,11 +139,12 @@ async function ncbiGet(
 
 // Build a PubMed query from gap fields. Prefers explicit metal + matrix over
 // free-text gap_id so MeSH terms have a chance to resolve.
-function buildQuery(gap: Gap): string {
+// gap.page is a wiki coordinate (e.g. wiki/ingredients/rice.md), not a search
+// term — it is intentionally excluded to prevent path tokens contaminating NCBI.
+export function buildQuery(gap: Gap): string {
   const parts: string[] = []
   if (gap.metal) parts.push(gap.metal)
   if (gap.matrix) parts.push(gap.matrix)
-  if (gap.page) parts.push(gap.page)
   if (gap.population) parts.push(gap.population)
   if (parts.length === 0 && gap.why) parts.push(gap.why)
   return parts.join(" ") || gap.gap_id
@@ -226,11 +227,16 @@ export function createPubMedAdapter(opts: PubMedAdapterOptions = {}): SourceAdap
       if (!pmid) continue
 
       const title = xmlFirst(block, "ArticleTitle") ?? `PubMed article ${pmid}`
-      const abstractText = xmlFirst(block, "AbstractText")
+      // Structured abstracts emit multiple <AbstractText Label="..."> blocks.
+      // Join all sections for parseSampleSize so n= in METHODS/RESULTS is found;
+      // store only the first section in abstract (display stays clean).
+      const abstractSections = xmlAll(block, "AbstractText")
+      const abstractText = abstractSections[0] ?? null
+      const abstractJoined = abstractSections.length > 0 ? abstractSections.join(" ") : null
       const pubTypes = xmlAll(block, "PublicationType")
       const grade = methodologyGrade(pubTypes)
       const studyType = pubTypes[0] ?? null
-      const sampleSize = parseSampleSize(abstractText)
+      const sampleSize = parseSampleSize(abstractJoined)
 
       // DOI lives in <ArticleIdList> as <ArticleId IdType="doi">
       const doiMatch = block.match(/<ArticleId IdType="doi">([^<]+)<\/ArticleId>/)
