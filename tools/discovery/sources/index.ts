@@ -25,3 +25,5 @@ export {
 } from "./writer"
 export type { BlobUploader, BlobUploadResult, CandidateWriter } from "./writer"
 export { createExampleAdapter } from "./example"
+export { createPubMedAdapter } from "./pubmed"
+export type { PubMedAdapterOptions } from "./pubmed"

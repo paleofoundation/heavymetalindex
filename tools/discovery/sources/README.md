@@ -109,6 +109,29 @@ The example adapter in `example.ts` is the reference exemplar. PubMed and
 OpenAlex adapters are implemented purely against this contract — they don't
 modify the schema, the writer, or the Blob layout.
 
+## PubMed adapter notes
+
+See `pubmed.ts` and `docs/add-a-source.md` for the full walkthrough.
+
+**Query construction.** Builds from gap fields in priority order:
+`metal + matrix` → `page + population` → `why` → `gap_id`. MeSH mapping
+is future work; v1 uses free-text.
+
+**OA filter.** Every ESearch query appends ` AND pubmed pmc open access[filter]`
+(the `pmc open access[filter]` qualifier). Paywalled records are excluded at
+search time.
+
+**Methodology grade** from `<PublicationType>` tags:
+- RCT / Systematic Review / Meta-Analysis → A
+- Observational Study / Cohort / Case-Control / Cross-Sectional → B
+- Anything else → `"unknown"`
+
+**Sample size** from `n=<int>` in `<AbstractText>`. Conservative pattern;
+falls back to `null` if absent or ambiguous.
+
+**Rate limits:** ~3 req/s without `NCBI_API_KEY`, ~10 req/s with it. Set
+`NCBI_API_KEY` in `.env.local`. 429s are retried once after 1 s.
+
 ## JSON Schema export
 
 `discoveryCandidateJsonSchema()` emits the JSON Schema variant of the same
