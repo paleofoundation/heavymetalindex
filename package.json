@@ -68,6 +68,9 @@
     "night-loop": "node tools/orchestrator/night-loop.mjs",
     "discovery:rank": "tsx tools/discovery/apply-rank.ts",
     "defensibility": "node tools/build-defensibility-report.mjs",
+    "runtime:enqueue-discovery": "node tools/runtime/enqueue-discovery.mjs",
+    "runtime:run-loop": "node tools/runtime/run-loop.mjs",
+    "runtime:drain": "node tools/runtime/run-loop.mjs --drain --verbose",
     "prepare": "husky"
   },
   "engines": {

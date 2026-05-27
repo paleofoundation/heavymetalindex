@@ -8,8 +8,29 @@
   "functions": {
     "api/ask.js": {
       "maxDuration": 30
+    },
+    "api/queue/discovery.mjs": {
+      "maxDuration": 300
+    },
+    "api/queue/extraction.mjs": {
+      "maxDuration": 300
+    },
+    "api/queue/routing.mjs": {
+      "maxDuration": 300
+    },
+    "api/queue/dead-letter.mjs": {
+      "maxDuration": 30
+    },
+    "api/cron/enqueue-discovery.mjs": {
+      "maxDuration": 60
     }
   },
+  "crons": [
+    {
+      "path": "/api/cron/enqueue-discovery",
+      "schedule": "0 * * * *"
+    }
+  ],
   "headers": [
     {
       "source": "/sitemap.xml",
