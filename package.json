@@ -66,6 +66,7 @@
     "wishlist:gap-queries": "node tools/wishlist/build-targeted-queries.mjs",
     "plan": "node tools/orchestrator/analyze-gaps.mjs",
     "night-loop": "node tools/orchestrator/night-loop.mjs",
+    "discovery:rank": "tsx tools/discovery/apply-rank.ts",
     "prepare": "husky"
   },
   "engines": {
