@@ -390,6 +390,72 @@ The four open questions in the original [HMI-9 plan](/HMI/issues/HMI-9#document-
 3. **Real wiki from day one, gated by the audit-row write barrier.** No `wiki-staging/` tier. Every wiki edit passes through the audit-row precondition defined in [HMI-12](/HMI/issues/HMI-12). The audit row + disagreement queue are themselves the defensibility layer.
 4. **No hard-coded `openai/gpt-5.5`.** The extractor is wired as the **`dual-model-extractor` role**; the OpenAI provider string resolves at wire-up time to the latest GPT-5.x on AI Gateway. Recorded per-edit in `model_versions_used`. See [Gateway slugs and wire-up resolution](#gateway-slugs-and-wire-up-resolution).
 
+## How to generate a defensibility report (HMI-26)
+
+A defensibility report joins every numerical claim on a wiki page to its citation chain and the audit metadata in `wiki_edit_audit.jsonl`. It is the HMI-26 deliverable and the per-page query surface of the audit-row write barrier.
+
+### Run it
+
+```bash
+# Write to data/evidence/defensibility-reports/<page-relative-path>
+npm run defensibility -- wiki/products/<page>.md
+
+# Or directly:
+node tools/build-defensibility-report.mjs wiki/products/<page>.md
+
+# Print to stdout (no file written):
+node tools/build-defensibility-report.mjs wiki/products/<page>.md --stdout
+
+# Override audit log (useful for testing against a local fixture):
+node tools/build-defensibility-report.mjs wiki/products/<page>.md \
+  --audit-log path/to/audit.jsonl
+```
+
+### What the report contains
+
+The report is a markdown file with a YAML frontmatter block followed by:
+
+- **Summary table** — total claims, cited claims, uncited claims, distinct cited sources, audit row counts.
+- **Page-level audit rows** — audit rows that reference the wiki page itself. Expected to be empty for pages predating the audit-row write barrier; defensibility for those pages flows through the source pages they cite.
+- **Claims by section** — one subsection per H2. Each numerical claim shows its value, the H2 section it appeared in, the `[[sources/...]]` / `[[regulations/...]]` / `[[testing/...]]` wikilinks in that section, and — for each cited source that has audit rows — the `edit_id`, `retrieval_date`, `models_used`, `model_agreement_state`, `applied_at`, and `span_id` from each row.
+- **Uncited claims** — claims with no citation chain in their H2 section. These are Part 18 lint failures (provenance gaps).
+- **Defensibility chain table** — one row per distinct cited source, with audit row count, first retrieval date, and latest retrieval date.
+
+### Where reports are written
+
+```
+data/evidence/defensibility-reports/<wiki-relative-path>
+```
+
+Examples:
+
+```
+wiki/products/baby-cereals-dry-rice-based.md
+  → data/evidence/defensibility-reports/products/baby-cereals-dry-rice-based.md
+
+wiki/ingredients/rice.md
+  → data/evidence/defensibility-reports/ingredients/rice.md
+```
+
+Reports carry `noindex: true` in frontmatter and are not published to heavymetalindex.com. They are internal audit artifacts committed alongside the wiki.
+
+### How to read the audit rows
+
+Each audit row line in the report follows this format:
+
+```
+- `edit_id=<id>` · retrieval=<date> · models=[<model>, <model>] · agreement=<state> · applied=<timestamp> · span=<span_id>
+```
+
+- `retrieval` — the date the source document was fetched from its external origin.
+- `models` — the two model role identifiers resolved at wire-time (per board decision #4; no hard-coded slugs).
+- `agreement` — one of `agree`, `disagree_on_value`, `disagree_on_relevance`, `consensus`. The routing worker sets `consensus` to indicate the edit passed the agree gate.
+- `span` — the extraction span identifier, for tracing back to `extractions.jsonl`.
+
+### Reproducibility contract
+
+Given the same inputs, the report is byte-identical. The generator sorts all output (audit rows by `applied_at` then `edit_id`; source table by slug) and produces no randomness. Tests are in `tools/build-defensibility-report.test.mjs`.
+
 ## Related issues
 
 - [HMI-9](/HMI/issues/HMI-9) — continuous data-gap-fill ingest system (orchestrator parent)
