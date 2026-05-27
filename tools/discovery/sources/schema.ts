@@ -77,12 +77,18 @@ export type DiscoveryCandidateDraft = z.infer<typeof DiscoveryCandidateDraftSche
  * Schema for the final manifest row written to `data/discovery/candidates.jsonl`.
  * Adds the fields that are only known after `fetch()` runs: `candidate_id`,
  * `retrieval_date`, `blob_key`, `status`.
+ *
+ * `ranked_score` is set by the HMI-9.7 quality/relevance ranker after fetch.
+ * Null until the ranker runs; a number once it has. The field is optional in
+ * the schema (defaults to null) so rows written by adapters before ranking
+ * round-trip unchanged.
  */
 export const DiscoveryCandidateSchema = DiscoveryCandidateDraftSchema.extend({
   candidate_id: z.string().min(1),
   retrieval_date: isoDateSchema,
   blob_key: z.string().min(1),
   status: DiscoveryCandidateStatusSchema,
+  ranked_score: z.number().nullable().default(null),
 })
 
 export type DiscoveryCandidate = z.infer<typeof DiscoveryCandidateSchema>
