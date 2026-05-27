@@ -66,6 +66,32 @@ test("validateWikiEditAuditRow rejects empty models_used", () => {
   assert.throws(() => validateWikiEditAuditRow(makeRow({ models_used: "not-array" })), WikiEditAuditValidationError)
 })
 
+test("validateWikiEditAuditRow rejects non-string element in models_used", () => {
+  assert.throws(
+    () => validateWikiEditAuditRow(makeRow({ models_used: ["anthropic/claude-opus-4-7", 42] })),
+    WikiEditAuditValidationError,
+  )
+  assert.throws(
+    () => validateWikiEditAuditRow(makeRow({ models_used: ["anthropic/claude-opus-4-7", ""] })),
+    WikiEditAuditValidationError,
+  )
+})
+
+test("validateWikiEditAuditRow returns a structurally typed row with only schema fields", () => {
+  const result = validateWikiEditAuditRow(makeRow({ extraneous: "ignored", another_junk: 99 }))
+  assert.deepEqual(Object.keys(result).sort(), [
+    "applied_at",
+    "commit_sha",
+    "edit_id",
+    "model_agreement_state",
+    "models_used",
+    "page",
+    "retrieval_date",
+    "source_document",
+    "span_id",
+  ])
+})
+
 test("validateWikiEditAuditRow rejects invalid model_agreement_state", () => {
   assert.throws(
     () => validateWikiEditAuditRow(makeRow({ model_agreement_state: "unknown_state" })),

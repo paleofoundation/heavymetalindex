@@ -37,35 +37,71 @@ export interface WikiEditAuditRow {
 
 export class WikiEditAuditValidationError extends Error {}
 
+const REQUIRED_STRING_FIELDS = [
+  "edit_id",
+  "page",
+  "span_id",
+  "source_document",
+  "retrieval_date",
+  "applied_at",
+  "commit_sha",
+] as const satisfies readonly (keyof WikiEditAuditRow)[]
+
+function isModelAgreementState(value: unknown): value is ModelAgreementState {
+  return typeof value === "string" && (modelAgreementStates as readonly string[]).includes(value)
+}
+
 export function validateWikiEditAuditRow(row: unknown): WikiEditAuditRow {
   if (typeof row !== "object" || row === null) {
     throw new WikiEditAuditValidationError("Row must be an object")
   }
   const r = row as Record<string, unknown>
-  const requiredStrings: (keyof WikiEditAuditRow)[] = [
-    "edit_id",
-    "page",
-    "span_id",
-    "source_document",
-    "retrieval_date",
-    "applied_at",
-    "commit_sha",
-  ]
-  for (const field of requiredStrings) {
-    if (typeof r[field] !== "string" || (r[field] as string).trim() === "") {
+
+  const strings: Record<(typeof REQUIRED_STRING_FIELDS)[number], string> = {
+    edit_id: "",
+    page: "",
+    span_id: "",
+    source_document: "",
+    retrieval_date: "",
+    applied_at: "",
+    commit_sha: "",
+  }
+  for (const field of REQUIRED_STRING_FIELDS) {
+    const value = r[field]
+    if (typeof value !== "string" || value.trim() === "") {
       throw new WikiEditAuditValidationError(`Field '${field}' must be a non-empty string`)
     }
+    strings[field] = value
   }
-  if (!Array.isArray(r.models_used) || r.models_used.length === 0) {
-    throw new WikiEditAuditValidationError("Field 'models_used' must be a non-empty array")
+
+  const { models_used } = r
+  if (
+    !Array.isArray(models_used) ||
+    models_used.length === 0 ||
+    !models_used.every((m): m is string => typeof m === "string" && m.trim() !== "")
+  ) {
+    throw new WikiEditAuditValidationError("Field 'models_used' must be a non-empty array of strings")
   }
-  if (!(modelAgreementStates as readonly string[]).includes(r.model_agreement_state as string)) {
+
+  if (!isModelAgreementState(r.model_agreement_state)) {
     throw new WikiEditAuditValidationError(
       `Field 'model_agreement_state' must be one of: ${modelAgreementStates.join(", ")}`,
     )
   }
-  if (!/^wiki\//.test(r.page as string)) {
+
+  if (!/^wiki\//.test(strings.page)) {
     throw new WikiEditAuditValidationError("Field 'page' must start with 'wiki/'")
   }
-  return r as WikiEditAuditRow
+
+  return {
+    edit_id: strings.edit_id,
+    page: strings.page,
+    span_id: strings.span_id,
+    source_document: strings.source_document,
+    retrieval_date: strings.retrieval_date,
+    models_used,
+    model_agreement_state: r.model_agreement_state,
+    applied_at: strings.applied_at,
+    commit_sha: strings.commit_sha,
+  }
 }
