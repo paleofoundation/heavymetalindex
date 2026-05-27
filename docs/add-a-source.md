@@ -347,6 +347,111 @@ PMID `30207593` (lead-in-spices systematic review), verified 2026-05-27:
 
 Blob key layout confirmed: `hmi/raw/pubmed/<pmid>/source.xml`.
 
+## OpenAlex adapter notes (second real adapter — HMI-20)
+
+`tools/discovery/sources/openalex.ts` is the second real `SourceAdapter`
+implementation. These notes cover OpenAlex-specific behaviour; the general
+pattern and FDA TDS walkthrough above apply to all adapters.
+
+### Polite pool
+
+OpenAlex throttles anonymous requests aggressively. Set `OPENALEX_POLITE_EMAIL`
+to an operational email address to join the polite pool (~5× higher throughput):
+
+```
+OPENALEX_POLITE_EMAIL=hmi@yourorg.example
+```
+
+The adapter sends this via both the `User-Agent` header and the `mailto=`
+query parameter, which are the two forms the OpenAlex documentation accepts.
+If the variable is absent, the adapter emits a loud `console.warn` at startup
+so production misconfiguration surfaces immediately.
+
+### Gap → query mapping
+
+The adapter builds an OpenAlex `search=` query from gap fields in the same
+priority order as PubMed:
+`metal + matrix` → `page + population` → `why` → `gap_id`.
+
+The `search` parameter searches across title and abstract. OpenAlex also
+supports concept-level filtering (`concepts.id:<id>`), but that requires
+mapping gap field text to OpenAlex concept IDs — a future enhancement. The
+current approach uses free-text search matching the PubMed convention so
+both adapters cover the same gap space.
+
+### Open-access filter
+
+Every query appends `filter=is_oa:true`. This is applied at search time —
+closed-source records never enter the pipeline even transiently.
+
+Example query for lead in rice:
+```
+search=lead rice&filter=is_oa:true
+```
+
+### Methodology grade
+
+Extracted from the `type` field of each OpenAlex work. Cochrane-grade
+rule applied in order:
+
+| OpenAlex type | Grade |
+|---|---|
+| `review` (covers systematic reviews and meta-analyses) | A |
+| `journal-article`, `article` | B |
+| Anything else | `unknown` |
+
+`cited_by_count` is stored in `FetchedDoc.metadata` for future ranking
+([HMI-21](/HMI/issues/HMI-21)) but is **not** used for the `methodology_grade` field.
+Methodology grade is a provenance signal; citation count is a relevance signal.
+Do not conflate them.
+
+### Fetch path
+
+The adapter re-fetches the single work from `https://api.openalex.org/works/<id>`
+to resolve the OA URL at fetch time, then downloads the artifact:
+
+1. Prefer `best_oa_location.pdf_url` (direct PDF download).
+2. Fall back to `open_access.oa_url`.
+3. If neither is set, throw — the candidate is unusable, don't write a half-row.
+
+Note: some `oa_url` values are DOI redirects (`https://doi.org/…`) that return
+403 for automated requests even though the paper is technically OA. If
+`best_oa_location.pdf_url` is null and `open_access.oa_url` is a DOI URL, the
+fetch will fail. The correct response is to skip this candidate (the adapter
+throws, the caller catches and logs). Works with direct PMC/EuropePMC PDF URLs
+are the most reliably fetchable class.
+
+### Stable id
+
+The OpenAlex work ID stripped of the URL prefix (e.g. `W4402700521` from
+`https://openalex.org/W4402700521`). Blob key:
+`hmi/raw/openalex/<id>/source.<ext>`.
+
+### Live smoke run output
+
+Work `W4402700521` ("Mitigating toxic metals contamination in foods"), verified 2026-05-27:
+
+```json
+{
+  "gap_id": "smoke-test-lead-rice",
+  "source_adapter": "openalex",
+  "external_id": "W4402700521",
+  "url": "https://openalex.org/W4402700521",
+  "title": "smoke test placeholder",
+  "abstract": null,
+  "doi": null,
+  "study_type": null,
+  "sample_size": null,
+  "methodology_grade": "unknown",
+  "candidate_id": "76d36120b216bc88",
+  "retrieval_date": "2026-05-27T12:23:21.075Z",
+  "blob_key": "hmi/raw/openalex/w4402700521/source.pdf",
+  "status": "discovered"
+}
+```
+
+Blob key layout confirmed: `hmi/raw/openalex/<id>/source.pdf`.
+
 ## Related issues
 
 - [HMI-9](/HMI/issues/HMI-9) — continuous data-gap-fill ingest system (orchestrator parent)
@@ -354,3 +459,4 @@ Blob key layout confirmed: `hmi/raw/pubmed/<pmid>/source.xml`.
 - [HMI-11](/HMI/issues/HMI-11) — `SourceAdapter` interface + provenance contract
 - [HMI-13](/HMI/issues/HMI-13) — gap detector v1 → `open_gaps.jsonl` (feeds your adapter)
 - [HMI-19](/HMI/issues/HMI-19) — PubMed source adapter (first real implementation)
+- [HMI-20](/HMI/issues/HMI-20) — OpenAlex source adapter (second real implementation)
