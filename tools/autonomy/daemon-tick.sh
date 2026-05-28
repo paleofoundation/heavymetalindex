@@ -366,6 +366,18 @@ run_step "improvement scout" node tools/autonomy/improvement-scout.mjs || true
 # daily markdown report. Fast (<1s); always-on.
 run_step "detect-contradictions" node tools/autonomy/detect-contradictions.mjs || true
 
+# Step 5d.2: drain-pending-synthesis — autonomous narrative-synthesis
+# drainer (2026-05-28). Each tick picks up to N pages with `_Pending
+# synthesis._` placeholder paragraphs and spawns claude --print to draft
+# real prose drawn from the contributing sources. Closes the "awaiting
+# synthesis" autonomy gap Karen surfaced. Bounded per-tick cap = 2 by
+# default (each spawn is 5-15 min of Opus work). Disable with
+# HMI_SYNTHESIS_DRAIN_CAP=0.
+SYNTHESIS_DRAIN_CAP="${HMI_SYNTHESIS_DRAIN_CAP:-2}"
+if [[ "$SYNTHESIS_DRAIN_CAP" != "0" ]]; then
+  run_step "drain-pending-synthesis" node tools/autonomy/drain-pending-synthesis.mjs "--max=$SYNTHESIS_DRAIN_CAP" || true
+fi
+
 # Step 5e: drain-audit-queue — autonomous audit drainer (2026-05-28).
 # Picks up to AUDIT_DRAIN_CAP entries with status=pending or pending-audit-
 # spawn-failed and spawns claude --print per entry to run the full 5-check
