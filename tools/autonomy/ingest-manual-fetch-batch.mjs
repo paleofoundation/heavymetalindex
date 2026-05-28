@@ -67,17 +67,30 @@ const MANUAL_FETCH_ROOTS = [
   { root: "raw/Papers Cube Manual Fetch", handlePrefix: "PCMF" },
   { root: "raw/Manual Resourcing", handlePrefix: "MR" },
   { root: "raw/Manual Fetch Discovery", handlePrefix: "MFD" },
-  // NOTE: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ is
-  // INTENTIONALLY OMITTED. That folder is the wishlist-fetcher's bulk output
-  // pipeline (~200 PDFs/hour during sprint mode). The Opus daemon path is
-  // too expensive for that volume. Codex/GPT-5.5-fast-mode owns auto-fetched/
-  // ingest via Karen's external scheduler — subscription-based pricing, no
-  // API-token burn. See docs/codex-collaboration/sprint-ingest-prompt.md
-  // for Codex's coordination protocol (checks manual-fetch-tracker.csv to
-  // avoid races with this daemon worker on the curated folders above).
+  // raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ — wishlist
+  // fetcher's bulk output. Historically Codex/GPT-5.5-fast-mode drained this
+  // via an external scheduler (per docs/codex-collaboration/sprint-ingest-prompt.md).
+  // Failure mode observed 2026-05-28: when the residual queue drops to ≤10
+  // PDFs, Codex's drain-to-≤10 stop condition fires immediately and the
+  // remaining 5–10 PDFs sit indefinitely. This root is now included on the
+  // Claude/Opus daemon path with a hard per-tick cap (see auto_fetched_cap
+  // below) so the residuals get drained, but the path stays bounded so cost
+  // doesn't blow up during sprint mode when the queue is large.
+  { root: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched", handlePrefix: "AF" },
 ]
 
+// Hard cap on auto-fetched PDFs per single daemon tick. The Claude/Opus path
+// is more expensive than Codex; this keeps cost bounded if the wishlist
+// fetcher is producing volume. Codex remains the primary consumer when
+// running; Claude only picks up the residuals.
+const AUTO_FETCHED_PER_TICK_CAP = 3
+
 const PRIORITY_KEYWORDS = [
+  // Auto-fetched papers come from the wishlist fetcher which is already
+  // gap-driven (each filename encodes the gap it was fetched for). Drain
+  // these FIRST when present — they are the freshest evidence aligned to
+  // open gaps. The per-tick cap above bounds the cost.
+  "seasonal-geographic-variance/auto-fetched",
   "06_Infant_Foods_Formula",
   "Children Personal Care",
   "04_Meat_Poultry_Seafood",
@@ -248,10 +261,19 @@ for (const pdf of allPdfs) {
 }
 
 // Pick candidates: unprocessed first, then audited-revised that aren't recent (re-check stale)
+// Per-root cap: auto-fetched/ is capped at AUTO_FETCHED_PER_TICK_CAP so a large
+// wishlist-fetcher backlog can't burn the whole Opus budget on one tick.
+const AUTO_FETCHED_PATH_FRAGMENT = "seasonal-geographic-variance/auto-fetched"
 const candidates = []
+let autoFetchedPicked = 0
 for (const pdf of allPdfs) {
   const entry = tracker.get(pdf.pdfPath)
-  if (entry.status === "unprocessed") candidates.push({ ...pdf, entry })
+  if (entry.status !== "unprocessed") continue
+  if (pdf.pdfPath.includes(AUTO_FETCHED_PATH_FRAGMENT)) {
+    if (autoFetchedPicked >= AUTO_FETCHED_PER_TICK_CAP) continue
+    autoFetchedPicked++
+  }
+  candidates.push({ ...pdf, entry })
   if (candidates.length >= maxPdfs) break
 }
 

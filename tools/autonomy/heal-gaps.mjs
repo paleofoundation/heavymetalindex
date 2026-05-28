@@ -350,11 +350,40 @@ function triageRoutingUnresolved(report) {
   }
 }
 
+// Sanitize a target slug declared in source frontmatter so it passes the
+// scaffold validator (lowercase letters/digits/hyphens only). Catches the
+// three observed defect modes:
+//   - whitespace inside slug ("human milk" → "human-milk")
+//   - duplicated kind prefix ("products/infant-cereal" → "infant-cereal")
+//   - underscores instead of hyphens ("milk_based" → "milk-based")
+// Returns { sanitized, defect } — defect is null if input was already clean.
+function sanitizeScaffoldSlug(raw, targetKind) {
+  let s = String(raw || "").toLowerCase().trim()
+  const original = s
+  const dupPrefix = targetKind === "ingredient" ? "ingredients/" : "products/"
+  if (s.startsWith(dupPrefix)) s = s.slice(dupPrefix.length)
+  s = s.replace(/[\s_]+/g, "-")
+  s = s.replace(/[^a-z0-9-]/g, "")
+  s = s.replace(/-+/g, "-").replace(/^-|-$/g, "")
+  return { sanitized: s, defect: s === original ? null : `original="${original}" sanitized="${s}"` }
+}
+
 function invokeScaffold({ targetKind, slug, sourceId }) {
   const tool =
     targetKind === "ingredient"
       ? "tools/autonomy/create-provisional-ingredient-scaffold.mjs"
       : "tools/autonomy/create-provisional-product-scaffold.mjs"
+  // Sanitize before invoking the scaffold tool; it rejects anything with
+  // spaces, slashes, capital letters, or underscores.
+  const { sanitized, defect } = sanitizeScaffoldSlug(slug, targetKind)
+  if (!sanitized) {
+    console.error(`Skipping scaffold for ${targetKind}/${slug}: slug sanitizes to empty string`)
+    return false
+  }
+  if (defect) {
+    console.warn(`heal-gaps: source ${sourceId} declared malformed ${targetKind} slug — ${defect}`)
+  }
+  slug = sanitized
   const title = slug
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
