@@ -117,33 +117,6 @@ Promotion readiness: 2 of 4 criteria met. Criterion 1 (≥3 sources) is borderli
 
 Suggested synthesis page slug: `climate-fish-mehg-projections`.
 
-### Egypt regulatory baseline as a multi-jurisdiction interpretation hazard
-
-Anchor sources (meta-finding about corpus pattern, not a single-paper thesis):
-
-- [[../../wiki/sources/ibrahim2024-heavy-metals-egyptian-milk-cheese|Ibrahim 2024]], [[../../wiki/sources/ibrahim2025-metals-flavored-dairy-egypt|Ibrahim 2025]], [[../../wiki/sources/kamouh2024-heavy-metals-chicken-meat-egypt|Kamouh 2024]], [[../../wiki/sources/hussein2024-toxic-metals-canned-fish-egypt|Hussein 2024]], [[../../wiki/sources/erol2025-turkish-cheese-metals|Erol 2025 Turkish cheese]] (geographic neighbor, similar regulatory regime).
-- Additional Egyptian and Middle Eastern food-safety surveys throughout batches 6-9.
-
-Thesis: A cluster of Egyptian and neighboring-jurisdiction food-safety surveys document elevated Pb, Cd, and other metal concentrations relative to EU or Codex limits. The framing in most of these papers reports the exceedance against EU limits even though Egyptian and Turkish national limits are systematically lower or absent for the matrices studied. A reader of the wiki, encountering many Egyptian papers reporting "exceedance," may incorrectly infer that Egyptian food supply is uniquely contaminated when the operative finding is that Egyptian regulatory baselines do not yet match EU or Codex frameworks, and that papers are using EU as a comparative reference rather than enforcing it.
-
-Why this matters:
-
-- Brand-legal: avoids the wiki being read as making a jurisdiction-specific contamination claim that is actually a regulatory-floor artifact.
-- Regulator: case for harmonization between national food-safety reference values and Codex.
-- Educator: introduces the methodological care needed when reading multi-jurisdiction occurrence data.
-
-Status: **recommendation — do not promote as a synthesis findings page.** The Egypt-baseline observation is a methodological note about how to read multi-jurisdiction occurrence data, not a finding about contamination patterns or regulatory architecture. It fails the third promotion criterion ("the finding is not obvious from any single source page"): once a reader knows that Egyptian national reference values differ from EU and Codex limits, the observation that papers using EU as a comparative benchmark report "exceedances" follows directly without any synthesis pass adding value. The pattern repeats across many jurisdictions (Iran, Pakistan, Nigeria, multiple sub-Saharan African countries); singling out Egypt risks framing it as a country-specific issue when it is a generic methodological care item.
-
-Recommended placement instead:
-
-1. Add a one-paragraph methodology note to [[../../wiki/CLAUDE|CLAUDE.md]] Part 14 (conventions) covering how multi-jurisdiction occurrence data should be reported on wiki source pages: state the reference value the paper compared against; state the operative national reference value for the matrix in the originating jurisdiction (if known); flag where the two differ materially. This is a one-paragraph addition with no synthesis-page overhead.
-
-2. Add a sidebar to [[../../wiki/regulations]] or to a dedicated [[../../wiki/regulations/multi-jurisdiction-comparison]] page once enough national reference-value pages exist to support it. This is the right home long-term and is parallel work to the synthesis-page architecture, not a substitute for it.
-
-3. On each product-category and ingredient page where multiple non-EU non-Codex jurisdictions contribute evidence, the page's methodology section should briefly note that exceedance framings reflect the cited reference value, not necessarily the operative national reference value. This is per-page work that happens during the synthesis pass on each ingredient or product, not synthesis-page work.
-
-Resolution: this entry can be retired from the candidate queue. Implementing the three recommendations above is the right follow-up, but each is a small ingest-time or methodology-time intervention rather than a synthesis page in its own right.
-
 ## Promoted
 
 ### Climate adaptation creates new heavy-metal trade-offs
@@ -185,6 +158,39 @@ Promoted 2026-05-16. Anchor sources: Fuentes-López 2025 (Colombia San Jorge Riv
 ### Climate change is projected to increase methylmercury in marine fish
 
 Promoted 2026-05-16. Anchor sources: Sonke 2023 (Ambio CC BY global biogeochemical-cycle review, $117 billion annual economic-cost framing, 10–30% fish MeHg increase projection under climate warming), Wang 2023 (PNAS coupled climate-biogeochemistry model, RCP8.5 upper-trophic fish MeHg +5–20% by 2100, OMZ-expansion mechanism with methylation rate enhancement up to 2× in high-latitudes), Motta 2022 (PNAS Hg-isotope stable-isotope analysis on North Pacific marine organisms, methylation located in upper-400m marine particles less than 53 µm, mechanistic chain connecting climate forcing to pelagic-fish endpoint). Three independent PNAS-level sources (review + projection + mechanism). FDA action level (1.0 ppm tHg, 1979), EFSA TWI (1.3 µg/kg bw/week, 2012), EPA RfD (0.1 µg/kg/day, 2001), JECFA PTWI (1.6 µg/kg bw/week, 2003) all calibrated against pre-climate-projection baselines. Promotion was borderline on criterion 1 (three independent projections preferred over review+projection+mechanism); the synthesis is the most provisional of the 2026-05-16 batch and is explicitly flagged for resynthesis when a second independent quantitative projection enters the corpus or when IPCC AR7 incorporates ocean-mercury cycling. Synthesis page: [[../../wiki/synthesis/climate-fish-mehg-projections|climate-fish-mehg-projections]].
+
+## Retired (not synthesis-page-worthy)
+
+### Egypt regulatory baseline as a multi-jurisdiction interpretation hazard
+
+Anchor sources (meta-finding about corpus pattern, not a single-paper thesis):
+
+- [[../../wiki/sources/ibrahim2024-heavy-metals-egyptian-milk-cheese|Ibrahim 2024]], [[../../wiki/sources/ibrahim2025-metals-flavored-dairy-egypt|Ibrahim 2025]], [[../../wiki/sources/kamouh2024-heavy-metals-chicken-meat-egypt|Kamouh 2024]], [[../../wiki/sources/hussein2024-toxic-metals-canned-fish-egypt|Hussein 2024]], [[../../wiki/sources/erol2025-turkish-cheese-metals|Erol 2025 Turkish cheese]] (geographic neighbor, similar regulatory regime).
+- Additional Egyptian and Middle Eastern food-safety surveys throughout batches 6-9.
+
+Thesis: A cluster of Egyptian and neighboring-jurisdiction food-safety surveys document elevated Pb, Cd, and other metal concentrations relative to EU or Codex limits. The framing in most of these papers reports the exceedance against EU limits even though Egyptian and Turkish national limits are systematically lower or absent for the matrices studied. A reader of the wiki, encountering many Egyptian papers reporting "exceedance," may incorrectly infer that Egyptian food supply is uniquely contaminated when the operative finding is that Egyptian regulatory baselines do not yet match EU or Codex frameworks, and that papers are using EU as a comparative reference rather than enforcing it.
+
+Why this matters:
+
+- Brand-legal: avoids the wiki being read as making a jurisdiction-specific contamination claim that is actually a regulatory-floor artifact.
+- Regulator: case for harmonization between national food-safety reference values and Codex.
+- Educator: introduces the methodological care needed when reading multi-jurisdiction occurrence data.
+
+Status: **recommendation — do not promote as a synthesis findings page.** The Egypt-baseline observation is a methodological note about how to read multi-jurisdiction occurrence data, not a finding about contamination patterns or regulatory architecture. It fails the third promotion criterion ("the finding is not obvious from any single source page"): once a reader knows that Egyptian national reference values differ from EU and Codex limits, the observation that papers using EU as a comparative benchmark report "exceedances" follows directly without any synthesis pass adding value. The pattern repeats across many jurisdictions (Iran, Pakistan, Nigeria, multiple sub-Saharan African countries); singling out Egypt risks framing it as a country-specific issue when it is a generic methodological care item.
+
+Recommended placement instead:
+
+1. Add a one-paragraph methodology note to [[../../wiki/CLAUDE|CLAUDE.md]] Part 14 (conventions) covering how multi-jurisdiction occurrence data should be reported on wiki source pages: state the reference value the paper compared against; state the operative national reference value for the matrix in the originating jurisdiction (if known); flag where the two differ materially. This is a one-paragraph addition with no synthesis-page overhead.
+
+2. Add a sidebar to [[../../wiki/regulations]] or to a dedicated [[../../wiki/regulations/multi-jurisdiction-comparison]] page once enough national reference-value pages exist to support it. This is the right home long-term and is parallel work to the synthesis-page architecture, not a substitute for it.
+
+3. On each product-category and ingredient page where multiple non-EU non-Codex jurisdictions contribute evidence, the page's methodology section should briefly note that exceedance framings reflect the cited reference value, not necessarily the operative national reference value. This is per-page work that happens during the synthesis pass on each ingredient or product, not synthesis-page work.
+
+Resolution: this entry can be retired from the candidate queue. Implementing the three recommendations above is the right follow-up, but each is a small ingest-time or methodology-time intervention rather than a synthesis page in its own right.
+
+Retired 2026-05-28: classification confirmed as methodology-note rather than synthesis-page-worthy per the recommendation in the block body.
+
+Entries below were proposed as synthesis-findings-page candidates but explicitly recommend against promotion in their body text. They are kept here for transparency; the recommended follow-up action lives inside each block.
 
 ## Workflow notes
 
