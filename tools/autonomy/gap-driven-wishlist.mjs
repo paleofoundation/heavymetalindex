@@ -62,6 +62,34 @@ fs.mkdirSync(path.dirname(outputPath), { recursive: true })
 const MAX_ATTEMPTS_BEFORE_DROP = 5 // a (query × cell) attempted >=5 times with <2 downloads is dropped
 const MIN_DOWNLOADS_TO_KEEP = 2 // if downloads <2, treat as low-yield
 
+// Karen's category priority order (2026-05-28). Determines which HMTc
+// categories get the cap's slots first. Categories NOT in this list fall
+// to default rank (after the priority block but still subject to day-
+// shuffle). Priority order: most strategically valuable + most starved.
+const KAREN_CATEGORY_PRIORITY = [11, 9, 8, 7, 6, 5, 4, 3, 2]
+function categoryPriorityRank(hmtcCategory) {
+  const catNum = parseInt(hmtcCategory, 10)
+  if (isNaN(catNum)) return KAREN_CATEGORY_PRIORITY.length + 1
+  const idx = KAREN_CATEGORY_PRIORITY.indexOf(catNum)
+  return idx === -1 ? KAREN_CATEGORY_PRIORITY.length : idx
+}
+
+// Products-vs-ingredients rotation state. Each run flips the focus.
+// Per Karen 2026-05-28: "move through the product categories first,
+// then move through the ingredients, then move back through the product
+// categories again to see if it can fetch more information, then move
+// back through ingredients pages." State file at data/evidence/autonomy/
+// wishlist-rotation-state.json.
+const ROTATION_STATE_PATH = "data/evidence/autonomy/wishlist-rotation-state.json"
+function readRotationState() {
+  if (!fs.existsSync(ROTATION_STATE_PATH)) return { focus: "products", run_count: 0 }
+  try { return JSON.parse(fs.readFileSync(ROTATION_STATE_PATH, "utf8")) }
+  catch { return { focus: "products", run_count: 0 } }
+}
+function writeRotationState(state) {
+  fs.writeFileSync(ROTATION_STATE_PATH, JSON.stringify(state, null, 2) + "\n")
+}
+
 // Cell-level coverage threshold (Path C, added 2026-05-28).
 // CLAUDE.md Part 9 uses doubling-on-n_studies as the resynthesis trigger
 // (resynthesize at 4, 8, 16, 32...). A cell at n < 8 is still in
@@ -317,23 +345,80 @@ function main() {
   })
   console.log(`After history-aware filter: ${eligible.length} queries (dropped ${unique.length - eligible.length} low-yield)`)
 
+  // ─── Focus + category-priority tagging (added 2026-05-28 per Karen) ───
+  // 1. Build slug → hmtc_category lookup once.
+  // 2. Tag each row with page_type ("product" | "ingredient" | "regulatory")
+  //    and category_rank (Karen's priority rank; 0 = highest, K = default).
+  const productCategoryMap = new Map()
+  if (fs.existsSync(productsDir)) {
+    for (const file of fs.readdirSync(productsDir)) {
+      if (!file.endsWith(".md") || file === "index.md") continue
+      const fm = readFrontmatter(path.join(productsDir, file))
+      productCategoryMap.set(file.replace(/\.md$/, ""), fm.hmtc_category)
+    }
+  }
+  for (const row of eligible) {
+    const slug = row.product_slug || ""
+    if (slug.startsWith("ingredient:")) {
+      row.page_type = "ingredient"
+      // Ingredients don't have an hmtc_category; all equal priority.
+      row.category_rank = KAREN_CATEGORY_PRIORITY.length
+    } else if (slug.startsWith("product:")) {
+      row.page_type = "product"
+      row.category_rank = categoryPriorityRank(productCategoryMap.get(slug.slice("product:".length)))
+    } else if (slug.startsWith("regulatory:")) {
+      row.page_type = "regulatory"
+      // Regulatory anchors are top-tier evidence regardless of category.
+      row.category_rank = -1
+    } else {
+      // Path A bare slugs (no prefix) are product slugs.
+      row.page_type = "product"
+      row.category_rank = categoryPriorityRank(productCategoryMap.get(slug))
+    }
+  }
+
+  // Rotation state: which page_type gets focus this run.
+  const rotationState = readRotationState()
+  const currentFocus = rotationState.focus || "products"
+  const nextFocus = currentFocus === "products" ? "ingredients" : "products"
+  console.log(`Focus this run: ${currentFocus} (next: ${nextFocus}); rotation count: ${rotationState.run_count || 0}`)
+
   // Coverage rotation: shuffle with day-seeded deterministic order so different cells get priority on different days
   const daySeed = Math.floor(Date.now() / (24 * 60 * 60 * 1000))
   shuffleInPlace(eligible, daySeed)
 
-  // Sort: P1/P2 priorities always come first, but within a priority the day-shuffle determines order
+  // Final sort:
+  //   1. Focus-matching page type comes first (products vs ingredients
+  //      rotation per Karen 2026-05-28).
+  //   2. Regulatory anchors always promoted within their focus block
+  //      (category_rank = -1).
+  //   3. Karen's category priority (Cat 11 > 9 > 8 > 7 > 6 > 5 > 4 > 3 > 2 > rest).
+  //   4. Gap priority (P1 > P2 > P3).
+  //   5. Day-shuffle preserves variety within ties.
   eligible.sort((a, b) => {
+    const aFocus = a.page_type === currentFocus ? 0 : 1
+    const bFocus = b.page_type === currentFocus ? 0 : 1
+    if (aFocus !== bFocus) return aFocus - bFocus
+    if (a.category_rank !== b.category_rank) return a.category_rank - b.category_rank
     const pa = priorityRank(a.gap_priority)
     const pb = priorityRank(b.gap_priority)
-    if (pa !== pb) return pb - pa // higher priority first
-    return 0 // preserve shuffled order within priority
+    if (pa !== pb) return pb - pa
+    return 0
   })
 
   // Cap at MAX_QUERIES_PER_RUN so single days don't emit unbounded query volume
   const final = eligible.slice(0, MAX_QUERIES_PER_RUN)
   console.log(`Final wishlist: ${final.length} queries (capped at ${MAX_QUERIES_PER_RUN})`)
 
-  const headers = ["gap_priority", "product_slug", "metal_species", "search_query", "openalex_filter", "rationale", "source_target", "domain"]
+  // Flip rotation focus for the next run.
+  writeRotationState({
+    focus: nextFocus,
+    run_count: (rotationState.run_count || 0) + 1,
+    last_run: new Date().toISOString(),
+    last_focus: currentFocus,
+  })
+
+  const headers = ["gap_priority", "product_slug", "metal_species", "search_query", "openalex_filter", "rationale", "source_target", "domain", "page_type", "category_rank"]
   const lines = [headers.join(",")]
   for (const row of final) lines.push(headers.map((h) => csvCell(row[h])).join(","))
   fs.writeFileSync(outputPath, lines.join("\n") + "\n", "utf8")

@@ -35,9 +35,15 @@ const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
 const queriesPath = path.join(repoRoot, "data/evidence/wishlist-queries.json")
 
 const args = process.argv.slice(2)
+// Limit raised 2026-05-28 from 200 → 3000 to absorb the autonomy gap-
+// driven candidates (Paths A/B/C/D cover Cat 1-23, ~2500 candidates),
+// plus HMTc-blocked (~50) and ingredient-pending (~250). The fetcher's
+// own FETCH_BUDGET_MS in find-candidates.mjs (default 15 min) is the
+// real per-tick cap; this limit only ensures the queries are written
+// to wishlist-queries.json for the fetcher to choose from.
 const limit = (() => {
   const idx = args.indexOf("--limit")
-  return idx >= 0 ? parseInt(args[idx + 1], 10) : 200
+  return idx >= 0 ? parseInt(args[idx + 1], 10) : 3000
 })()
 
 // Metal-symbol → search-term expansions. We always include the chemical name
@@ -243,13 +249,86 @@ if (fs.existsSync(ingredientsDir)) {
 
 console.error(`Ingredient cells pending or under-sourced (n<3): ${ingredientCandidates.length}.`)
 
+// ---------- Step 2b: merge autonomy gap-driven-wishlist.csv ─────────────────
+// Per the 2026-05-28 multi-domain expansion, tools/autonomy/gap-driven-
+// wishlist.mjs emits queries spanning Paths A (pooling), B (empty pages),
+// C (cell-level n_studies), and D (regulatory anchors) — including
+// Cat 10/12-23 categories the HMTc-staff gap report doesn't cover. Those
+// queries also carry Karen's category priority + products-vs-ingredients
+// rotation. We merge them here so the fetcher pipeline actually runs them.
+const autonomyWishlistPath = path.join(repoRoot, "data/evidence/autonomy/gap-driven-wishlist.csv")
+const autonomyCandidates = []
+if (fs.existsSync(autonomyWishlistPath)) {
+  const rows = parseCsv(fs.readFileSync(autonomyWishlistPath, "utf8"))
+  for (const r of rows) {
+    if (!r.search_query) continue
+    // Build candidate row in the same shape as Steps 1 and 2
+    const metalKey = r.metal_species || ""
+    const metalTerms = METAL_SEARCH_TERMS[metalKey] || (metalKey ? [metalKey.toLowerCase()] : [])
+    autonomyCandidates.push({
+      id: `AUTO-${r.product_slug || "unknown"}-${metalKey}-${r.page_type || "unknown"}`,
+      section: `autonomy-${r.page_type || "unknown"}-${r.domain || "unknown"}`,
+      priority: r.gap_priority === "P1" ? "high" : r.gap_priority === "P2" ? "medium" : "low",
+      search_query_core: r.search_query,
+      search_query_full: r.search_query,
+      extracted: {
+        crops: r.product_slug ? [r.product_slug.replace(/^(ingredient|product|regulatory):/, "").replace(/-/g, " ")] : [],
+        regions: [],
+        metals: metalKey ? [metalKey] : [],
+        metal_search_terms: metalTerms,
+        periods: [],
+      },
+      target: {
+        kind: r.page_type || "unknown",
+        slug: r.product_slug || "",
+        metal: metalKey,
+        reason: r.rationale || "",
+        domain: r.domain || "food",
+      },
+      // Preserve Karen's category priority for the sort below
+      _karen_category_rank: parseInt(r.category_rank, 10),
+      _autonomy_row_index: autonomyCandidates.length,
+    })
+  }
+  console.error(`Autonomy gap-driven candidates (Paths A/B/C/D, Cat 1-23): ${autonomyCandidates.length}.`)
+} else {
+  console.error(`No autonomy gap-driven wishlist at ${autonomyWishlistPath} — skipping merge.`)
+}
+
 // ---------- Step 3: prioritize and cap ----------
 
-// Product-page gaps (HMTc-blocked) are higher priority than ingredient cells
-// because they block standards-readiness directly. Within each, sort by
-// alphabetical slug for reproducibility.
-const all = [...candidates, ...ingredientCandidates]
+// Combined ordering:
+//   1. HMTc-staff gap-report blocked candidates (Step 1) come first —
+//      those block standards-readiness directly.
+//   2. Autonomy candidates next — but their existing order already
+//      respects Karen's category priority + products/ingredients
+//      rotation (set by tools/autonomy/gap-driven-wishlist.mjs).
+//   3. Ingredient pending cells (Step 2) last as the fallback.
+//
+// Within each block, original ordering is preserved (autonomy CSV is
+// already sorted; HMTc-blocked uses priority/section/id).
+const all = [...candidates, ...autonomyCandidates, ...ingredientCandidates]
+
+// Stable sort: keep autonomy candidates' existing order (they're already
+// sorted by gap-driven-wishlist.mjs per Karen's priority). HMTc-blocked
+// candidates sort by their internal priority. Ingredient cells fall in
+// behind both.
 all.sort((a, b) => {
+  // Sources block ordering: HMTc-blocked (high) → autonomy (medium-by-default) → ingredient
+  const sectionRank = (x) => {
+    if (x.section === "hmtc-gap-blocked") return 0
+    if ((x.section || "").startsWith("autonomy-")) return 1
+    return 2
+  }
+  const sa = sectionRank(a), sb = sectionRank(b)
+  if (sa !== sb) return sa - sb
+  // Within autonomy block: preserve the rank-ordered position assigned
+  // by gap-driven-wishlist.mjs (which already applied focus + category
+  // priority + day-shuffle).
+  if (sa === 1) {
+    return (a._autonomy_row_index ?? 0) - (b._autonomy_row_index ?? 0)
+  }
+  // Within other blocks: by priority then alphabetical
   if (a.priority !== b.priority) {
     const p = { high: 0, medium: 1, low: 2 }
     return (p[a.priority] ?? 9) - (p[b.priority] ?? 9)
@@ -273,6 +352,7 @@ fs.writeFileSync(
       cap: limit,
       breakdown: {
         hmtc_blocked: candidates.length,
+        autonomy_gap_driven: autonomyCandidates.length,
         ingredient_pending: ingredientCandidates.length,
       },
       queries,
