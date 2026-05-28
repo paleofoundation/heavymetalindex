@@ -45,6 +45,7 @@
 //   node tools/autonomy/promote-synthesis-pages.mjs --slug=foo   # force one
 //   node tools/autonomy/promote-synthesis-pages.mjs --force=foo  # bypass gate
 //   node tools/autonomy/promote-synthesis-pages.mjs --no-retire  # skip retire pass
+//   node tools/autonomy/promote-synthesis-pages.mjs --no-archive # skip archive pass
 
 import fs from "node:fs"
 import path from "node:path"
@@ -54,6 +55,7 @@ const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
 const dryRun = args.has("dry-run")
 const noRetire = args.has("no-retire")
+const noArchive = args.has("no-archive")
 const maxPromotions = Number(args.get("max") ?? 1)
 const slugFilter = args.get("slug") ?? null
 const slugForce = args.get("force") ?? null
@@ -105,10 +107,12 @@ for (const c of candidates) {
 // ---------- Filter to actionables ----------
 
 let retireTargets = noRetire ? [] : candidates.filter((c) => c.classification === "RETIRE")
+let archiveTargets = noArchive ? [] : candidates.filter((c) => c.classification === "ALREADY")
 let readyTargets = candidates.filter((c) => c.classification === "READY")
 
 if (slugFilter) {
   retireTargets = retireTargets.filter((c) => c.slug === slugFilter)
+  archiveTargets = archiveTargets.filter((c) => c.slug === slugFilter)
   readyTargets = readyTargets.filter((c) => c.slug === slugFilter)
 }
 
@@ -131,6 +135,7 @@ readyTargets = readyTargets.slice(0, maxPromotions)
 
 console.log(`\nActionables this run:`)
 console.log(`  RETIRE: ${retireTargets.length}`)
+console.log(`  ARCHIVE: ${archiveTargets.length}`)
 console.log(`  PROMOTE: ${readyTargets.length} (cap ${maxPromotions})`)
 
 if (dryRun) {
@@ -145,6 +150,10 @@ if (dryRun) {
   if (retireTargets.length) {
     console.log("\nWould retire:")
     for (const c of retireTargets) console.log(`  - ${c.slug || "(no-slug)"}: ${c.title}`)
+  }
+  if (archiveTargets.length) {
+    console.log("\nWould archive (already-promoted strikethrough entries):")
+    for (const c of archiveTargets) console.log(`  - ${c.slug || c.title}`)
   }
   process.exit(0)
 }
@@ -169,6 +178,26 @@ for (const candidate of retireTargets) {
 }
 if (retiredApplied.length) {
   commitChanges(`autonomy: retire ${retiredApplied.length} synthesis proposal(s) — methodology-note class`,
+                ["data/evidence/synthesis-proposals.md"])
+}
+
+// ---------- Execute ARCHIVE pass (no Claude; entries already promoted) ----------
+
+const archivedApplied = []
+for (const candidate of archiveTargets) {
+  console.log(`\n[archive] ${candidate.title}`)
+  const currentContent = fs.readFileSync(proposalsPath, "utf8")
+  const updated = applyArchive(currentContent, candidate)
+  if (!updated) {
+    console.log(`  SKIP: could not locate block in file`)
+    continue
+  }
+  fs.writeFileSync(proposalsPath, updated, "utf8")
+  archivedApplied.push(candidate)
+  console.log(`  OK: moved to Archive section`)
+}
+if (archivedApplied.length) {
+  commitChanges(`autonomy: archive ${archivedApplied.length} already-promoted synthesis proposal(s) — growth trace preserved`,
                 ["data/evidence/synthesis-proposals.md"])
 }
 
@@ -242,9 +271,9 @@ for (const candidate of readyTargets) {
   console.log(`  OK: ${result.summary || candidate.slug + " promoted"}`)
 }
 
-writeReport({ retired: retiredApplied, succeeded, stopped, failed })
+writeReport({ retired: retiredApplied, archived: archivedApplied, succeeded, stopped, failed })
 
-console.log(`\nBatch complete: ${succeeded.length} promoted, ${retiredApplied.length} retired, ${stopped.length} stopped, ${failed.length} failed.`)
+console.log(`\nBatch complete: ${succeeded.length} promoted, ${retiredApplied.length} retired, ${archivedApplied.length} archived, ${stopped.length} stopped, ${failed.length} failed.`)
 process.exit(0)
 
 // ---------- Parsing ----------
@@ -371,6 +400,42 @@ function applyRetirement(currentRaw, candidate) {
   if (!bounds) return null
   const sectionContent = working.slice(bounds.start, bounds.end).trimEnd()
   const blockWithDate = block.trimEnd() + `\n\nRetired ${today}: classification confirmed as methodology-note rather than synthesis-page-worthy per the recommendation in the block body.`
+  const newSection = `${sectionContent}\n\n${blockWithDate}\n\n`
+  return working.slice(0, bounds.start) + newSection + working.slice(bounds.end)
+}
+
+function applyArchive(currentRaw, candidate) {
+  // Move an ALREADY-promoted block (heading marked ~~strikethrough~~ or
+  // "→ PROMOTED") out of Pending into `## Archive (promoted, growth
+  // trace preserved)`. The block contains batch-by-batch narrative that
+  // pre-dated promotion and is worth keeping for source-by-source history;
+  // moving it preserves the narrative while clearing the Pending queue.
+  const block = extractBlock(currentRaw, candidate.headingLine)
+  if (!block) return null
+  let working = removeBlock(currentRaw, candidate.headingLine)
+
+  const archiveHeading = "## Archive (promoted, growth trace preserved)"
+  const archiveBlurb = "Entries below were promoted to dedicated synthesis pages; their Pending-section narratives (batch-by-batch evidence accumulation) are kept here as a growth trace. The canonical short-form record lives in the `## Promoted` section; the full page lives in `wiki/synthesis/`."
+
+  if (!working.includes(archiveHeading)) {
+    // Place Archive between Promoted and Retired (or Workflow notes if no
+    // Retired section exists).
+    const insertionPoint = working.indexOf("\n## Retired ") >= 0
+      ? working.indexOf("\n## Retired ")
+      : working.indexOf("\n## Workflow notes")
+    const archiveHeader = `${archiveHeading}\n\n${archiveBlurb}\n\n`
+    if (insertionPoint >= 0) {
+      working = working.slice(0, insertionPoint + 1) + archiveHeader + working.slice(insertionPoint + 1)
+    } else {
+      working = working.trimEnd() + "\n\n" + archiveHeader
+    }
+  }
+
+  // Append the block at the end of the Archive section.
+  const bounds = findSectionBounds(working, archiveHeading)
+  if (!bounds) return null
+  const sectionContent = working.slice(bounds.start, bounds.end).trimEnd()
+  const blockWithDate = block.trimEnd() + `\n\nArchived ${today}: already in \`## Promoted\` with synthesis page at \`wiki/synthesis/${candidate.slug || slugifyTitle(candidate.title)}\`.`
   const newSection = `${sectionContent}\n\n${blockWithDate}\n\n`
   return working.slice(0, bounds.start) + newSection + working.slice(bounds.end)
 }
@@ -587,11 +652,12 @@ function commitChanges(message, files) {
 
 // ---------- Reporting ----------
 
-function writeReport({ retired, succeeded, stopped, failed }) {
+function writeReport({ retired, archived, succeeded, stopped, failed }) {
   const reportPath = path.join(autonomyDir, `synthesis-promotion-${today}.md`)
   const existing = fs.existsSync(reportPath) ? fs.readFileSync(reportPath, "utf8") : `# Synthesis-paper promotion report — ${today}\n\n`
   const lines = [existing.trimEnd(), "", `## Run ${tickTimestamp}`, ""]
   lines.push(`- Retired (no claude call): ${retired.length}`)
+  lines.push(`- Archived (already promoted, growth trace preserved): ${archived.length}`)
   lines.push(`- Promoted (drafted + committed): ${succeeded.length}`)
   lines.push(`- Stopped: ${stopped.length}`)
   lines.push(`- Failed: ${failed.length}`)
@@ -599,6 +665,11 @@ function writeReport({ retired, succeeded, stopped, failed }) {
   if (retired.length) {
     lines.push("### Retired")
     for (const c of retired) lines.push(`- ${c.slug || "(no-slug)"}: ${c.title}`)
+    lines.push("")
+  }
+  if (archived.length) {
+    lines.push("### Archived")
+    for (const c of archived) lines.push(`- ${c.slug || c.title}`)
     lines.push("")
   }
   if (succeeded.length) {
