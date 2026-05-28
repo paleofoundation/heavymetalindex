@@ -1,7 +1,7 @@
 {
   "schema": "hmi.wishlist-queries.v1",
   "generated_from": "raw/manual-fetch/seasonal-geographic-variance/wishlist.md",
-  "generated_at": "2026-05-25T16:06:52.622Z",
+  "generated_at": "2026-05-28T09:55:08.165Z",
   "query_count": 40,
   "queries": [
     {

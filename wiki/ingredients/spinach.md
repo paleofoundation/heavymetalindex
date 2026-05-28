@@ -80,7 +80,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/mature-leaf-spinach]]"]
 used_in_products: ["[[products/baby-food-vegetables]]", "[[products/salad-mixes]]", "[[products/smoothies]]", "[[products/frozen-vegetable-mixes]]", "[[products/baby-leafy-purees]]"]
 audience: [regulator, educator, consumer, app]
-sources: 21
+sources: 22
 updated: 2026-05-16
 ---
 

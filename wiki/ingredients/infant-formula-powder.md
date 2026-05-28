@@ -33,7 +33,7 @@ contamination_profile:
     p95_ppb: 1045
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-25
+    last_reviewed: 2026-05-28
   Ni:
     status: populated
     typical_ppb: [null, null]
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 14
+sources: 16
 ---
 
 # Infant Formula Powder

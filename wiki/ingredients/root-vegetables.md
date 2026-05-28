@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [vegetable-juices-root-vegetable-containing]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-16
-sources: 24
+sources: 26
 ---
 
 # Root vegetables

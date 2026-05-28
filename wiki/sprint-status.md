@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-27T08:21:27.544Z
+updated: 2026-05-28T09:55:05.539Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,7 +28,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ✅ 12 min ago |
+| Daemon heartbeat | ✅ 8 min ago |
 | auto-fetched/ PDFs in queue | 5 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 5 ✅ |
 | Audit queue: pending-audit-spawn-failed | 33 (async lane) |
@@ -36,7 +36,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total ingested historically | 18 |
 | Repo sync | ✅ synced |
 | Commits last 1 hour | 2 |
-| Commits last 24 hours | 18 |
+| Commits last 24 hours | 9 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-3fc1e8e 55 seconds ago — ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages
+7ef12f3 25 minutes ago — daemon: --ff-only → --rebase to survive Paperclip-induced divergence
 ```
 
 ## How to read this

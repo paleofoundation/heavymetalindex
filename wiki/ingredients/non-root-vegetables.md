@@ -19,7 +19,7 @@ contamination_profile:
     p95_ppb: 224.3
     confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-25
+    last_reviewed: 2026-05-28
   iAs:
     status: populated
     typical_ppb: [9.4, 125.3]
@@ -82,7 +82,7 @@ higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees, vegetable-juices-non-root]
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-13
-sources: 2
+sources: 4
 ---
 
 # Non-root vegetables

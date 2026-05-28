@@ -6,7 +6,7 @@ name: Iron
 species: [Fe2+, Fe3+, iron-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 46
+sources: 48
 updated: 2026-04-30
 status: stub
 n_sources: 1

@@ -8,7 +8,7 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-14
-sources: 9
+sources: 15
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2

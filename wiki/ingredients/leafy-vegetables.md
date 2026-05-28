@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/spinach]]", "[[ingredients/kale]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 updated: 2026-05-15
-sources: 43
+sources: 44
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 14
