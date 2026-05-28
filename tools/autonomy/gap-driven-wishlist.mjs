@@ -69,6 +69,22 @@ const MIN_DOWNLOADS_TO_KEEP = 2 // if downloads <2, treat as low-yield
 // the gap-fill threshold at 8 matches the high-confidence boundary; cells
 // below this trigger a wishlist query targeted at that exact (page, metal).
 const CELL_FULL_THRESHOLD = 8
+
+// Path D regulatory-body anchors (2026-05-28). Per the HMI deliverable's
+// "and other open-source corpora (government regulatory documents)"
+// requirement. Most FDA/EFSA/WHO/ATSDR/Codex documents have DOIs and are
+// indexed in OpenAlex/PubMed; the gap-driven queries are food-keyword-
+// shaped, not authority-shaped, so authority queries are emitted directly.
+const REGULATORY_BODIES = [
+  { name: "FDA total diet study",                  food_term: "food"    },
+  { name: "EFSA scientific opinion",               food_term: "food"    },
+  { name: "WHO JECFA",                             food_term: "food"    },
+  { name: "ATSDR toxicological profile dietary",   food_term: "dietary" },
+  { name: "EFSA CONTAM panel dietary exposure",    food_term: "dietary" },
+  { name: "Codex Alimentarius CCCF",               food_term: "food"    },
+  { name: "FDA Closer to Zero",                    food_term: "food"    },
+]
+const HMTC_ANALYTES = ["Pb", "Cd", "iAs", "tAs", "tHg", "MeHg", "Ni", "Al", "Cr-VI", "Sn"]
 // Coverage-rotation budget per run. Sprint mode 2026-05-25 bumped 600 → 2500
 // to feed the every-tick fetcher with enough queries per cycle. Combined
 // with cell-targeted wishlist generation, this opens the pipeline to
@@ -142,6 +158,16 @@ function main() {
   // any populated cell with n_studies below CELL_FULL_THRESHOLD.
   const pathCCount = runCellCoveragePath(wishlistRows, queryHistory)
   console.log(`Path C (cell-level n_studies < ${CELL_FULL_THRESHOLD} on populated cells): ${pathCCount} candidates`)
+
+  // Path D: regulatory-anchor queries (new 2026-05-28). The HMI deliverable
+  // requires "PubMed, OpenAlex, AND OTHER OPEN-SOURCE CORPORA (government
+  // regulatory documents)." Most FDA/EFSA/WHO/ATSDR documents have DOIs
+  // and ARE indexed in OpenAlex / PubMed — we just need to ask for them.
+  // This path emits one anchor query per (HMTc analyte × authoritative
+  // body) combination so the regulatory baseline is always actively re-
+  // discovered, not just incidentally caught by gap queries.
+  const pathDCount = runRegulatoryAnchorPath(wishlistRows)
+  console.log(`Path D (regulatory-anchor queries — FDA/EFSA/WHO/ATSDR per analyte): ${pathDCount} candidates`)
 
   // Dedupe identical (product × metal × query) tuples
   const seen = new Set()
@@ -393,6 +419,31 @@ function runCellCoveragePath(wishlistRows, queryHistory) {
   if (fs.existsSync(productsDir)) {
     for (const file of fs.readdirSync(productsDir).filter((f) => f.endsWith(".md"))) {
       emitForPage(path.join(productsDir, file), "product")
+    }
+  }
+  return count
+}
+
+// Path D: regulatory-anchor queries (2026-05-28) — emits one query per
+// (HMTc analyte × regulatory body) so FDA/EFSA/WHO/ATSDR/Codex documents
+// get continuously rediscovered alongside gap-driven queries. The
+// food-domain hard gate + DOWNLOAD_THRESHOLD at the fetcher still apply.
+function runRegulatoryAnchorPath(wishlistRows) {
+  let count = 0
+  for (const metal of HMTC_ANALYTES) {
+    const metalKeywords = METAL_KEYWORDS[metal] || [metal.toLowerCase()]
+    const metalTerm = metalKeywords[0]
+    for (const body of REGULATORY_BODIES) {
+      wishlistRows.push({
+        gap_priority: "P1", // regulatory documents are top-tier evidence
+        product_slug: `regulatory:${metal}`,
+        metal_species: metal,
+        search_query: `${body.name} ${metalTerm} ${body.food_term}`,
+        openalex_filter: "type:journal-article,is_oa:true,from_publication_date:2010-01-01",
+        rationale: `Regulatory anchor: ${body.name} × ${metal}. Path D (v2 2026-05-28).`,
+        source_target: "openalex",
+      })
+      count++
     }
   }
   return count
