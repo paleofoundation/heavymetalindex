@@ -9,7 +9,7 @@ publication: "Journal of Environmental Exposure Assessment"
 doi: 10.20517/jeea.2025.10
 source_type: peer-reviewed
 evidence_tier: A
-tier_rationale: "Peer-reviewed original research in an open-access journal with full ICP-MS method validation: certified reference materials (ERM CE-278K mussel tissue; NIST SRM 1547 peach leaves) with reported recoveries (89–106% except Al at 68.5%, attributed to matrix effect), explicit LOD and LOR values for all eight elements, microwave-digestion programme detailed, participation in the NMI Australia proficiency-testing programme. Per-commodity n is reported (basil n=2, chilli n=14, cinnamon n=10, paprika n=11, black pepper n=13, sesame n=9, turmeric n=10; conventional-vs-organic turmeric n=13/7). The Cochrane-bar weakness is the small basil sample (n=2) and the single-jurisdiction (Queensland retail market) sampling frame, but methods, QC, and per-row data are A-tier."
+tier_rationale: "Peer-reviewed original research in an open-access journal with full ICP-MS method validation: certified reference materials (ERM CE-278K mussel tissue; NIST SRM 1547 peach leaves) with reported recoveries 73.5–105.7% across the two SRMs (Cr 73.5% on ERM; Al 68.5% on NIST, attributed by the authors to matrix effect from high background Al in the SRM); paper states recoveries were within the certified-value ranges for all elements except Al. Explicit LOD and LOR values for all eight elements, microwave-digestion programme detailed, participation in the NMI Australia proficiency-testing programme. Per-commodity n is reported (basil n=2, chilli n=14, cinnamon n=10, paprika n=11, black pepper n=13, sesame n=9, turmeric n=10; conventional-vs-organic turmeric n=13/7). The Cochrane-bar weakness is the small basil sample (n=2) and the single-jurisdiction (Queensland retail market) sampling frame, but methods, QC, and per-row data are A-tier."
 license: "CC BY 4.0"
 access_url: "https://doi.org/10.20517/jeea.2025.10"
 raw_sha256: "d05e1c20e11e87e563000da6051d4165c72aab13e393ff7e6c462d832cc75c0c"
@@ -18,7 +18,7 @@ metals: [Pb, Cd, tAs, tHg, Ni, Al, Cr]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/turmeric]]", "[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]"]
 products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs]
-jurisdictions: [AU, IN, CN, LK, VN, BD, MY, EG, ID, FJ, ES]
+jurisdictions: [AU, IN, CN, LK, VN, BD, MY, EG, FJ, ES]
 near_duplicates: []
 sample_n: 69
 sample_population: "69 dried commercial spice and herb samples (basil n=2, chilli n=14, cinnamon n=10, paprika n=11, black pepper n=13, sesame seeds n=9, turmeric n=10) imported from multiple countries and purchased from Queensland, Australia markets; plus a separate analysis of 20 turmeric samples (13 conventional, 7 organic) from local markets."
@@ -108,6 +108,10 @@ Statistical analysis: descriptive statistics and Mann–Whitney non-parametric t
 
 ## Verification notes
 
+- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit subagent (Phase 2) returned REVISE with one ❌ and two ⚠️ items. All three verified independently against the PDF and taxonomy snapshot, and all three applied:
+  - ❌ "[[metals/aluminium]]" in the Wiki pages section used the British spelling, which is not in `docs/gpt-collaboration/taxonomy-snapshot.md` (snapshot lists `aluminum`, and the on-disk file is `wiki/metals/aluminum.md`). Corrected to `[[metals/aluminum]]`.
+  - ⚠️ "ID" (Indonesia) appeared in `jurisdictions:` but Table 1 (page 3) does not list Indonesia as a country of origin for any of the 69 commercial samples — Indonesia is mentioned only on page 9 as a passing prior-study comparator ("cinnamon from Indonesia contributes about 94% of TWI"). Removed ID. Remaining jurisdictions re-verified against Table 1: AU (retail), IN, CN, LK, VN, BD, MY, EG, FJ, ES.
+  - ⚠️ `tier_rationale` claimed recoveries "89–106% except Al at 68.5%" but Table 3 (page 5) shows Cr ERM-CE-278K recovery is 73.5%, below the stated lower bound. Rewrote to honestly report the actual recovery range (73.5–105.7%) with both sub-89% elements (Al 68.5%, Cr 73.5%) named, while preserving the paper's own statement (page 4) that recoveries were within the certified-value uncertainty ranges except for Al.
 - 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 1): page was originally created 2026-05-14 in the kimi-cond05 batch ingest. Phase 1 enhancements applied:
   - Set per-PDF `raw_handle: MFK_heavy-metal-analysis-in-commercial-spices-and-herb` (was the generic batch handle `manual-fetch-kimi`).
   - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch Kimi ") matching the on-disk filename "Heavy metal analysis in commercial spices and herbs by ICP-MS and estimated dietary exposure.pdf" (prior path truncated the filename mid-title at "ICP-MS and.pdf").
@@ -137,7 +141,7 @@ Statistical analysis: descriptive statistics and Mann–Whitney non-parametric t
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[metals/nickel]]
-- [[metals/aluminium]]
+- [[metals/aluminum]]
 - [[metals/chromium]]
 
 <!-- BEGIN: hmi-page-history -->
