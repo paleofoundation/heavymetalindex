@@ -7,9 +7,11 @@ authors: [Muniz LP, Santos LMG, Couto KLM, Jacob SC]
 year: 2018
 publication: "Food Science and Technology"
 doi: 10.1590/fst.27916
+no_doi_assigned: false
+access_url: "https://doi.org/10.1590/fst.27916"
 source_type: peer-reviewed
 evidence_tier: A
-license: "unknown"
+license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Evaluation of metals in tomato sauces stored in different types of packaging.pdf"
 metals: [tAs, Cd, Pb, Cr, Ni, Sb, Sn]
 ingredients: ["[[ingredients/tomato]]"]
@@ -19,7 +21,7 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 20
 sample_population: "20 retail tomato sauce samples in 4 packaging types (plastic, metallic/canned, cellulosic, glass), 2 brands, Rio de Janeiro supermarkets"
-updated: 2026-05-14
+updated: 2026-05-28
 ---
 
 # Muniz et al. 2018 — Metals in tomato sauces by packaging type, Brazil
@@ -41,8 +43,7 @@ Twenty commercial tomato sauce samples across four packaging types (plastic, met
 | Sn | 0.020–0.051 | **0.125–0.258** | 0.055–0.080 | 0.057–0.059 | 250 mg/kg |
 
 Key contrasts:
-- Sn was the only element with significantly different concentrations between packaging types (p<0.05), with metallic cans having 3–5x higher Sn than non-metallic packaging.
-- Ni was significantly higher in metallic packaging (0.100 ± 0.010 mg/kg) vs plastic (0.049 ± 0.007 mg/kg).
+- Sn and Ni were the two elements with significantly different concentrations between packaging types (p<0.05). Metallic cans had 3–5x higher Sn than non-metallic packaging, and Ni in metallic packaging (0.100 ± 0.010 mg/kg) was roughly double that in plastic (0.049 ± 0.007 mg/kg). As, Cd, Pb, Cr, and Sb showed no significant packaging-type effect.
 - Cr mean values were 2.7–3.9x above Brazil's 0.1 mg/kg limit in every packaging type tested. The authors attribute this to chromium in the raw material rather than packaging migration (Cr migration from packaging simulants was below LOQ).
 
 **Packaging composition by XRF:** Cr detected in plastic (155 ± 23 mg/kg), cellulosic (74 mg/kg), and metallic can inner surface (0.05% w/w); Sn detected only in metallic can (1.32% w/w). Pb detected only in glass at very low concentration (0.003% w/w). Cd, Sb, Ni not detected in any packaging.
@@ -72,3 +73,9 @@ Cross-sectional analytical study. Twenty tomato sauce samples in four packaging 
 - [[ingredients/tomato]]
 - [[products/tomato-sauce]]
 - [[supply-chain/food-packaging]]
+
+## Verification notes
+
+2026-05-28 enhance pass (Claude): re-read source PDF in full and reconciled frontmatter to current schema. License corrected from "unknown" to "CC BY" — the Food Sci. Technol. (Campinas) issue page bears a Creative Commons BY logo on page 1 of the article. Added `access_url` (DOI URL) and `no_doi_assigned: false`. Fixed an internal Key-numbers contradiction in the previous revision: bullet 1 claimed "Sn was the only element with significantly different concentrations" while bullet 2 stated Ni was also significantly higher in metallic packaging; the abstract is explicit that both Sn and Ni differed significantly (p<0.05), with all other elements showing no packaging-type effect. Bullet rewritten to match. All numerical values in the Key numbers table were verified against Table 5 of the source and left unchanged.
+
+Note on Cr: the source prose on p. 387 reports "the lowest mean value found was 0.27 mg kg⁻¹ in products stored in cellulosic packaging" while Table 5 reports cellulosic Cr = 0.322 ± 0.05 mg/kg (the actual lowest mean is metallic at 0.276). The wiki tracks Table 5 values, which are the authoritative measurements. The summary range "0.27–0.39 mg/kg" is retained because it spans both the prose figure and the table extremes and is internally defensible.
