@@ -1,0 +1,95 @@
+#!/usr/bin/env bash
+# Bidirectional commit mutex.
+#
+# Both the autonomy daemon and manual sessions ran into a race condition
+# in May 2026 where the daemon's `git add -A` + commit would sweep a manual
+# session's staged files into the daemon's commit (with a daemon-style
+# title), losing the manual commit's explanatory message. Documented at
+# commit 0740fec.
+#
+# This script provides acquire_lock / release_lock helpers that both sides
+# source. The lock is an atomic mkdir on .git/hmi-commit.lock.d. Stale
+# locks (older than HMI_LOCK_STALE_SECS) are reclaimed automatically.
+#
+# Usage:
+#   source "$REPO_ROOT/tools/autonomy/commit-lock.sh"
+#   acquire_lock "manual-commit:karen" 30  # wait up to 30s
+#   ...do commit work...
+#   release_lock
+#
+# Or in pre-commit hooks via the documented exit-trap pattern:
+#   source "$(git rev-parse --show-toplevel)/tools/autonomy/commit-lock.sh"
+#   acquire_lock "pre-commit" 30 || exit 1
+#   trap release_lock EXIT INT TERM
+#   ...commit-time logic...
+
+# Re-resolve REPO_ROOT in case this is sourced from a hook running in a
+# subdirectory. Use git rev-parse so we don't depend on caller setup.
+HMI_LOCK_REPO_ROOT="${HMI_LOCK_REPO_ROOT:-$(git rev-parse --show-toplevel 2>/dev/null)}"
+HMI_LOCK_DIR="${HMI_LOCK_REPO_ROOT}/.git/hmi-commit.lock.d"
+HMI_LOCK_STALE_SECS="${HMI_LOCK_STALE_SECS:-300}" # 5 minutes — any healthy commit finishes well within this
+HMI_LOCK_HELD_BY_THIS_SHELL=0
+
+acquire_lock() {
+  local owner="${1:-unknown}"
+  local timeout="${2:-30}"
+  local elapsed=0
+
+  while true; do
+    if mkdir "$HMI_LOCK_DIR" 2>/dev/null; then
+      echo "$$ $(date +%s) $owner" > "$HMI_LOCK_DIR/owner" 2>/dev/null || true
+      HMI_LOCK_HELD_BY_THIS_SHELL=1
+      return 0
+    fi
+
+    # Lock held by someone. Check for staleness.
+    if [[ -f "$HMI_LOCK_DIR/owner" ]]; then
+      local lock_data
+      lock_data=$(cat "$HMI_LOCK_DIR/owner" 2>/dev/null || echo "")
+      local lock_pid lock_time
+      lock_pid=$(echo "$lock_data" | awk '{print $1}')
+      lock_time=$(echo "$lock_data" | awk '{print $2}')
+      local now
+      now=$(date +%s)
+      local age=$((now - lock_time))
+      if [[ "$age" -gt "$HMI_LOCK_STALE_SECS" ]]; then
+        echo "hmi-commit-lock: reclaiming stale lock (held by pid=$lock_pid for ${age}s)" >&2
+        rm -rf "$HMI_LOCK_DIR" 2>/dev/null || true
+        continue
+      fi
+      # Also reclaim if the holding pid is no longer alive
+      if [[ -n "$lock_pid" ]] && ! kill -0 "$lock_pid" 2>/dev/null; then
+        echo "hmi-commit-lock: reclaiming abandoned lock (pid=$lock_pid is dead)" >&2
+        rm -rf "$HMI_LOCK_DIR" 2>/dev/null || true
+        continue
+      fi
+    fi
+
+    if [[ "$elapsed" -ge "$timeout" ]]; then
+      local holder
+      holder=$(cat "$HMI_LOCK_DIR/owner" 2>/dev/null || echo "unknown")
+      echo "hmi-commit-lock: could not acquire after ${timeout}s; held by: $holder" >&2
+      return 1
+    fi
+    sleep 1
+    elapsed=$((elapsed + 1))
+  done
+}
+
+release_lock() {
+  if [[ "$HMI_LOCK_HELD_BY_THIS_SHELL" = "1" ]]; then
+    rm -rf "$HMI_LOCK_DIR" 2>/dev/null || true
+    HMI_LOCK_HELD_BY_THIS_SHELL=0
+  fi
+}
+
+# Helper: peek at who holds the lock without blocking. Returns 0 + owner
+# string on stdout if held; returns 1 if free. Used by the daemon's
+# cleanup_on_exit to decide whether to skip recovery.
+peek_lock() {
+  if [[ -d "$HMI_LOCK_DIR" ]] && [[ -f "$HMI_LOCK_DIR/owner" ]]; then
+    cat "$HMI_LOCK_DIR/owner" 2>/dev/null
+    return 0
+  fi
+  return 1
+}

@@ -71,14 +71,35 @@ echo "$$" > "$LOCK_FILE"
 cleanup_on_exit() {
   local exit_code=$?
   if [[ -n "$(git status --porcelain 2>/dev/null)" ]]; then
-    echo "[$(date -u +"%H:%M:%SZ")] EXIT trap (code=$exit_code): dirty tree detected, attempting recovery commit" | tee -a "$LOG_FILE" >/dev/null 2>&1 || true
-    git add -A >/dev/null 2>&1 || true
-    WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: daemon tick $TIMESTAMP — exit-trap recovery (exit_code=$exit_code)" >/dev/null 2>&1 || true
-    git push origin "$(git branch --show-current 2>/dev/null || echo main)" >/dev/null 2>&1 || true
+    # Bidirectional commit mutex: if a concurrent manual commit (or another
+    # daemon process) holds the lock, skip the recovery sweep. Otherwise our
+    # `git add -A` would scoop up the other commit's staged files, which is
+    # the failure mode at commit 0740fec. The next daemon tick will commit
+    # any remaining dirty state once the lock clears.
+    if peek_lock >/dev/null 2>&1; then
+      local holder
+      holder=$(peek_lock 2>/dev/null || echo unknown)
+      echo "[$(date -u +"%H:%M:%SZ")] EXIT trap (code=$exit_code): dirty tree but commit lock held by [$holder]; skipping recovery to avoid sweeping concurrent commits" | tee -a "$LOG_FILE" >/dev/null 2>&1 || true
+    else
+      if acquire_lock "daemon-exit-trap" 10; then
+        echo "[$(date -u +"%H:%M:%SZ")] EXIT trap (code=$exit_code): dirty tree detected, attempting recovery commit" | tee -a "$LOG_FILE" >/dev/null 2>&1 || true
+        git add -A >/dev/null 2>&1 || true
+        WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: daemon tick $TIMESTAMP — exit-trap recovery (exit_code=$exit_code)" >/dev/null 2>&1 || true
+        git push origin "$(git branch --show-current 2>/dev/null || echo main)" >/dev/null 2>&1 || true
+        release_lock
+      else
+        echo "[$(date -u +"%H:%M:%SZ")] EXIT trap (code=$exit_code): could not acquire commit lock; skipping recovery" | tee -a "$LOG_FILE" >/dev/null 2>&1 || true
+      fi
+    fi
   fi
   rm -f "$LOCK_FILE"
 }
 trap cleanup_on_exit EXIT INT TERM
+
+# Source the commit-lock helper. acquire_lock / release_lock / peek_lock are
+# defined there. Used by the EXIT trap above and by Step 8's commit phase.
+# shellcheck source=./commit-lock.sh
+source "$REPO_ROOT/tools/autonomy/commit-lock.sh"
 
 cd "$REPO_ROOT"
 
@@ -563,10 +584,18 @@ done
 
 # Step 8: commit + push if anything changed (includes the morning-report append)
 if ! git diff --quiet || ! git diff --cached --quiet; then
-  log "Changes detected; committing"
-  git add -A 2>&1 | tee -a "$LOG_FILE"
-  COMMIT_MSG="autonomy: daemon tick $TIMESTAMP — gap-healing + extraction + pooling + briefings"
-  git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
+  # Acquire the bidirectional commit lock so we don't race a manual commit
+  # in progress. Wait up to 60s; if still held, defer to the next tick rather
+  # than scooping the other commit's files.
+  if acquire_lock "daemon-tick-step8" 60; then
+    log "Changes detected; committing"
+    git add -A 2>&1 | tee -a "$LOG_FILE"
+    COMMIT_MSG="autonomy: daemon tick $TIMESTAMP — gap-healing + extraction + pooling + briefings"
+    git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
+    release_lock
+  else
+    log "Commit lock held by another process; deferring commit to next tick"
+  fi
 else
   log "No daemon-side changes this tick."
 fi

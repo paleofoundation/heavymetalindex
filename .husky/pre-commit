@@ -9,6 +9,23 @@
 # Skips the audit when no wiki/sources/ files are staged so commits to
 # unrelated paths stay fast.
 
+# ── Bidirectional commit mutex ───────────────────────────────────────────────
+# Acquire the commit lock so we don't race the autonomy daemon's git-add-A.
+# The lock is released on hook exit. If the lock can't be acquired in 60s,
+# the daemon (or another manual commit) is doing real work — abort cleanly
+# and let the user retry. Bypass with HMI_SKIP_COMMIT_LOCK=1 if the hook
+# itself is the problem (last resort, surfaces in stderr).
+if [ "${HMI_SKIP_COMMIT_LOCK:-0}" != "1" ]; then
+  # shellcheck source=../tools/autonomy/commit-lock.sh
+  . "$(git rev-parse --show-toplevel)/tools/autonomy/commit-lock.sh"
+  if ! acquire_lock "pre-commit-${USER:-unknown}-$$" 60; then
+    echo "pre-commit: another commit is in progress. Wait a moment and retry."
+    echo "  (set HMI_SKIP_COMMIT_LOCK=1 to bypass; only do this if you know what you are doing)"
+    exit 1
+  fi
+  trap release_lock EXIT INT TERM
+fi
+
 if git diff --cached --name-only | grep -q '^wiki/sources/'; then
   echo "pre-commit: wiki/sources/ touched; running routing audit..."
   if ! npm run --silent evidence:source-routes; then
