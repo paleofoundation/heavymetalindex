@@ -38,7 +38,7 @@ Heavy-metal concentrations in cured vanilla beans, by quality grade and source (
 
 | Quality class | Source | Pb (mg/kg) | Cd (mg/kg) |
 |--------------|--------|-----------|-----------|
-| Whole Grade A (Gourmet) | Exporter | 0.09 ± 0.15 | 0.04 ± 0.110 |
+| Whole Grade A | Exporter | 0.09 ± 0.15 | 0.04 ± 0.110 |
 | Whole Grade B | Exporter | 0.13 ± 0.19 | 0.06 ± 0.130 |
 | Whole Grade B | Farmer | 0.10 ± 0.09 | 0.01 ± 0.001 |
 | Whole Grade C | Exporter | 0.03 ± 0.01 | 0.01 ± 0.004 |
@@ -77,10 +77,11 @@ Explicit limitations: (1) no analytical method stated for Pb/Cd; (2) only Pb and
 
 **Courses:** Useful as a case study in spice-export quality control, supply-chain variance (farmer-versus-exporter curing practices), and the Codex standards-development pipeline (the paper was funded by Indonesia's NFA explicitly to feed Codex CCSCH discussions on a vanilla standard).
 
-**App:** Pb and Cd values for cured vanilla beans (Indonesia, 2023). Vanilla is not currently a standalone ingredient page in the wiki (vanilla content folds into the herbs-and-spices umbrella); arsenic, mercury, nickel, aluminium, chromium, and tin remain data gaps for this matrix from this source.
+**App:** Pb and Cd values for cured vanilla beans (Indonesia, 2023); arsenic, mercury, nickel, aluminium, chromium, and tin remain data gaps for this matrix from this source.
 
 ## Verification notes
 
+- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit subagent (Phase 2) returned PROMOTE with two cosmetic ⚠️ items. Both verified against the PDF and applied: (1) the Table 6 reproduction's "Whole Grade A (Gourmet)" row label was simplified to "Whole Grade A" to match the source's Table 6 column verbatim (Tables 3 and 4 use the longer "Gourmet/Whole Grade A Class 1A" descriptor, but Table 6's own label is just "Whole Grade A"); (2) the "Vanilla is not currently a standalone ingredient page in the wiki" parenthetical was removed from the Implications > App paragraph (wiki-state observations belong in Verification notes, not in Implications, per Part 2 firewall hygiene). The remaining ⚠️ items (Duncan grouping superscripts dropped from Table 3 reproductions; ISO 5565-2:1999 citation form refined from Table 2's "Spectrophotometric methods / ISO (1999)" cell to the full references-list designator) were verified as faithful-to-source and left unchanged — the auditor itself classified them as cosmetic.
 - 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 1): page was originally created 2026-05-14 in the kimi-cond05 batch ingest. Phase 1 enhancements applied:
   - Set per-PDF `raw_handle: MFK_from-bean-to-market-exploring-the-chemical-and-pro` (was the generic batch handle `manual-fetch-kimi`).
   - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch Kimi ") matching the on-disk filename "From bean to market_ exploring the chemical and production dynamics of high-quality Indonesian vanil.pdf" (prior path truncated the filename mid-word at "dynami.pdf").
