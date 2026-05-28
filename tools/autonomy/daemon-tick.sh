@@ -82,6 +82,17 @@ trap cleanup_on_exit EXIT INT TERM
 
 cd "$REPO_ROOT"
 
+# Source local secrets (.env.development is gitignored; holds AI_GATEWAY_API_KEY
+# for the dual-model verifier + extractor CLIs). Silently no-ops if missing.
+# 2026-05-28: added so tools/autonomy/dual-model-verify-recent.mjs can call
+# the AI Gateway from the daemon path without per-invocation env injection.
+if [[ -f "$REPO_ROOT/.env.development" ]]; then
+  set -a
+  # shellcheck disable=SC1091
+  source "$REPO_ROOT/.env.development"
+  set +a
+fi
+
 # ---------- Function helpers ----------
 
 log() {
@@ -365,6 +376,15 @@ run_step "improvement scout" node tools/autonomy/improvement-scout.mjs || true
 # OR p100/p10 spread ratio >= 5x; writes contradiction-log.jsonl + a
 # daily markdown report. Fast (<1s); always-on.
 run_step "detect-contradictions" node tools/autonomy/detect-contradictions.mjs || true
+
+# Step 5d.1b: dual-model verify recent — run dual-model extractor on
+# recently-ingested markdown sources (FM_ handles) that don't yet have
+# a row in model_extractions.jsonl. PDF sources are deferred (need
+# pdftotext). HMI_DUAL_MODEL_VERIFY_CAP=0 disables; default 2.
+DUAL_MODEL_CAP="${HMI_DUAL_MODEL_VERIFY_CAP:-2}"
+if [[ "$DUAL_MODEL_CAP" != "0" ]] && [[ -n "${AI_GATEWAY_API_KEY:-}" ]]; then
+  run_step "dual-model-verify-recent" node tools/autonomy/dual-model-verify-recent.mjs "--max=$DUAL_MODEL_CAP" || true
+fi
 
 # Step 5d.2: drain-pending-synthesis — autonomous narrative-synthesis
 # drainer (2026-05-28). Each tick picks up to N pages with `_Pending
