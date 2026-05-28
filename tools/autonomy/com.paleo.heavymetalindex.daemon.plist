@@ -26,10 +26,19 @@
     <string>/Users/karenpendergrass/Desktop/heavy-metal-index/tools/autonomy/daemon-tick.sh</string>
   </array>
 
-  <!-- Every 30 minutes. Adjust to taste; the daemon is idempotent and exits
-       cheaply when there's nothing to do. -->
-  <key>StartInterval</key>
-  <integer>1800</integer>
+  <!-- 2026-05-28: switched from StartInterval=1800 to StartCalendarInterval
+       at minute 0 and minute 30. Observed launchd silently missing fires
+       under StartInterval when a previous tick ran longer than the interval
+       (the 10:46Z tick took 1h44m and three subsequent 30-min fires never
+       happened). StartCalendarInterval is wall-clock-anchored: launchd will
+       fire at exactly :00 and :30 of every hour regardless of what the
+       previous tick did. The PID lock in daemon-tick.sh prevents a
+       still-running tick from being doubled up. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Minute</key><integer>30</integer></dict>
+  </array>
 
   <key>RunAtLoad</key>
   <false/>

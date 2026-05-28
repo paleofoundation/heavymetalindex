@@ -56,8 +56,29 @@ if [[ -f "$LOCK_FILE" ]]; then
   echo "[$(date)] Stale lock file (PID $OTHER_PID no longer alive); claiming lock." | tee -a "$LOG_FILE"
 fi
 echo "$$" > "$LOCK_FILE"
-# Ensure lock is released on any exit path (success, error, or signal).
-trap 'rm -f "$LOCK_FILE"' EXIT INT TERM
+
+# EXIT trap: release lock + best-effort recovery commit (2026-05-28).
+#
+# If Step 8's commit-and-push fails for any reason (merge conflict, hook
+# abort, network blip), the working tree stays dirty and the next tick's
+# preflight halts on "Working tree has real content edits." That's a
+# silent-death mode: the daemon stops indefinitely until a human commits.
+# This trap fires on EVERY exit path (success, set -e, signal) and attempts
+# one final commit + push if anything is dirty. Idempotent — no-op when
+# the tree is clean. Uses WIKI_EDIT_AUDIT_SKIP=1 because daemon writes
+# are deterministic (sync-source-counts, briefing regens, etc.), not
+# LLM-driven edits requiring source provenance.
+cleanup_on_exit() {
+  local exit_code=$?
+  if [[ -n "$(git status --porcelain 2>/dev/null)" ]]; then
+    echo "[$(date -u +"%H:%M:%SZ")] EXIT trap (code=$exit_code): dirty tree detected, attempting recovery commit" | tee -a "$LOG_FILE" >/dev/null 2>&1 || true
+    git add -A >/dev/null 2>&1 || true
+    WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: daemon tick $TIMESTAMP — exit-trap recovery (exit_code=$exit_code)" >/dev/null 2>&1 || true
+    git push origin "$(git branch --show-current 2>/dev/null || echo main)" >/dev/null 2>&1 || true
+  fi
+  rm -f "$LOCK_FILE"
+}
+trap cleanup_on_exit EXIT INT TERM
 
 cd "$REPO_ROOT"
 
