@@ -95,9 +95,15 @@ if [[ -n "$(git status --porcelain)" ]]; then
   log "Transient autonomy artifacts dirty; daemon proceeding (these regenerate as part of the tick)."
 fi
 
-# Pull latest origin so we don't push stale work
-run_step "git pull --ff-only" git pull --ff-only origin "$(git branch --show-current)" || {
-  log "git pull failed (likely a divergent branch); skipping this tick."
+# Pull latest origin so we don't push stale work.
+# 2026-05-28: switched from --ff-only to --rebase. With Paperclip pushing
+# concurrently from a different working environment, --ff-only failed on
+# every divergence and skipped entire ticks — leaving Frank silent for
+# days. --rebase replays local autonomy commits on top of remote; conflicts
+# fall through to the catch block and skip cleanly (still rare since the
+# daemon's writes are mostly to transient files Paperclip doesn't touch).
+run_step "git pull --rebase" git pull --rebase origin "$(git branch --show-current)" || {
+  log "git pull failed (likely a real conflict, not just divergence); skipping this tick."
   exit 0
 }
 
