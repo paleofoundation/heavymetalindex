@@ -88,7 +88,7 @@ One cited study (Cantoral et al. 2024, Toxics 12:318, ref [50]) analyzed Pb in 1
 - Black pepper: 0.239 mg/kg
 - Turmeric: 0.176 mg/kg
 
-A second cited study (referenced in the Mercury section without a specific reference number) reports mercury concentrations of up to 25 µg/L in environmental samples collected between 1971 and 2021, with approximately 25% of measurements exceeding the WHO drinking-water guideline of 1 µg/L.
+In the review's Mercury subsection (page 19), studies conducted between 1971 and 2021 are summarized as having reported Hg concentrations of up to 25 µg/L, with approximately 25% of measurements exceeding the WHO drinking-water guideline of 1 µg/L. The review does not name the specific reference for this aggregate figure; the framing context throughout the paragraph is drinking-water exposure.
 
 ### Human-exposure benchmarks cited
 
@@ -168,6 +168,14 @@ Scoping review following the PRISMA-ScR (Preferred Reporting Items for Systemati
 `products: []` is retained as appropriate for a high-level scoping review with no product-category-specific measurements. The routing audit treats this as advisory.
 
 **Methylmercury speciation flag preserved.** The review explicitly distinguishes total Hg vs MeHg in fish (Codex 193-1995 Rev. 2024 sets 0.50 mg/kg total Hg for fish generally vs 1.0–1.7 mg/kg MeHg for large predatory species). Both `tHg` and `MeHg` are retained in `metals:`.
+
+**`matrices:` vocabulary.** The frontmatter retains the prior page's `[dietary-intake, food, food-general]` tokens. `dietary-intake` is used across 30+ sibling source pages; `food` and `food-general` are non-standard but functional placeholders that flag this page as topic-agnostic (no single commodity matrix is the focus). The 2026-05-28 fresh-context audit flagged these as advisory-only (not in the typical matrix vocabulary, no `## Verification notes` entry); this note documents the deliberate broad-scope choice for a scoping review with no commodity-specific measurements.
+
+**2026-05-28 audit application.** Subagent verdict REVISE with two ⚠️ concerns, zero ❌ definite errors. Findings applied:
+- Hg-25-µg/L sentence: prior wiki phrasing "environmental samples" was not supported by the source; PDF page 19 frames the figure within the WHO drinking-water 1 µg/L paragraph. Wording tightened to reflect the source framing.
+- `matrices:` vocabulary: documented above as deliberate broad-scope choice (no source change required; verification-notes entry added per audit recommendation).
+
+No findings rejected.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
