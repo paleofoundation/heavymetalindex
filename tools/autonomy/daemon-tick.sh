@@ -332,6 +332,13 @@ run_step "weekly briefing" node tools/autonomy/weekly-briefing.mjs || true
 # tick when novel candidates exist; idempotent on the backlog).
 run_step "improvement scout" node tools/autonomy/improvement-scout.mjs || true
 
+# Step 5d.1: detect-contradictions — surfaces cross-source disagreements
+# (HMI deliverable: "every contradiction is recorded"). Reads the pooling
+# engine's aggregate CSV; flags cells with explicit disagreement verdict
+# OR p100/p10 spread ratio >= 5x; writes contradiction-log.jsonl + a
+# daily markdown report. Fast (<1s); always-on.
+run_step "detect-contradictions" node tools/autonomy/detect-contradictions.mjs || true
+
 # Step 5e: drain-audit-queue — autonomous audit drainer (2026-05-28).
 # Picks up to AUDIT_DRAIN_CAP entries with status=pending or pending-audit-
 # spawn-failed and spawns claude --print per entry to run the full 5-check
