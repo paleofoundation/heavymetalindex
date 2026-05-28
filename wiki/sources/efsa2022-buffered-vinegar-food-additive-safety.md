@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_safety-evaluation-of-buffered-vinegar-as-a-food-ad
 cite_key: efsa2022-buffered-vinegar-food-additive-safety
 title: "Safety evaluation of buffered vinegar as a food additive"
 authors: [EFSA Panel on Food Additives and Flavourings (FAF), Younes M, Aquilina G, Degen G, Engel KH, Fowler PJ, Frutos Fernandez MJ, Furst P, Gundert-Remy U, Gurtler R, Husoy T, Manco M, Mennes W, Moldeus P, Passamonti S, Shah R, Waalkens-Berendsen I, Wright M, Barat Baviera JM, Gott D, Leblanc JC, Wolffle D, Ruggeri L, Smeraldi C, Tard A, Vianello G, Castle L]
@@ -9,8 +9,10 @@ publication: "EFSA Journal"
 doi: 10.2903/j.efsa.2022.7351
 source_type: government-report
 evidence_tier: A
-license: "CC BY-ND"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Safety Evaluation of Buffered Vinegar as a Food Additive - EFSA A.pdf"
+license: "CC BY-ND 4.0"
+access_url: "https://doi.org/10.2903/j.efsa.2022.7351"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Safety Evaluation of Buffered Vinegar as a Food Additive - EFSA Assessment.pdf"
+raw_sha256: "636194538e53818bea89faa7df3e0cca914b7bb5933ce31040666826bbc3c192"
 metals: [Pb, tAs, Cd, tHg]
 ingredients: ["[[ingredients/vinegar]]"]
 products: ["[[products/vinegar]]"]
@@ -18,63 +20,103 @@ matrices: [buffered-vinegar, vinegar]
 jurisdictions: [EU]
 near_duplicates: []
 sample_n: 10
-sample_population: "5 batches liquid buffered vinegar + 5 batches powder buffered vinegar; analysed for As, Pb, Cd, Hg by ICP-MS per USP 233 method"
-updated: 2026-05-14
+sample_population: "5 batches liquid buffered vinegar + 5 batches powder buffered vinegar; ICP-MS per USP 233 method. Cd analysed on only 1 of the 5 batches in each form."
+updated: 2026-05-28
 ---
 
 # EFSA FAF Panel 2022 — Safety evaluation of buffered vinegar as a food additive
 
-The EFSA Panel on Food Additives and Flavourings issued this scientific opinion following an application to authorise buffered vinegar as a preservative food additive in 24 food categories under EU Regulation (EC) No 1333/2008. Buffered vinegar is produced by adding sodium/potassium hydroxides and/or carbonates to food-grade vinegar; its primary constituents are acetic acid and its salts. The Panel concluded there is no safety concern at the proposed maximum/typical use levels; however, it could not conclude on safety at quantum satis because resulting exposure cannot be estimated. Critically for this wiki, the EFSA opinion includes a risk assessment of heavy metal impurities (As, Pb, Cd, Hg) in the proposed food additive, providing both specification limits and actual batch measurement data, as well as reference points and tolerable intakes against which estimated exposures were compared.
+The EFSA Panel on Food Additives and Flavourings (FAF) issued this scientific opinion (adopted 18 May 2022; question EFSA-Q-2021-00349; requestor European Commission) on an application to authorise buffered vinegar as a preservative food additive in 24 food categories under EU Regulation (EC) No 1333/2008. Buffered vinegar is a liquid or dried mixture prepared by adding sodium/potassium hydroxides (E 524–525) and/or carbonates (E 500–501) — and optionally citric acid (E 330) as a pH regulator before spray drying — to vinegar exclusively obtained from biological fermentation of agricultural source materials (except wood/cellulose), compliant with European Standard EN 13188:2000. The primary constituents are acetic acid and its salts. The Panel concluded there is no safety concern at the proposed maximum/typical use levels; it could not conclude on safety at *quantum satis* because the resulting exposure cannot be estimated. Critically for this wiki, the opinion includes a risk assessment of toxic-element impurities (As, Pb, Cd, Hg) in the proposed additive, with both applicant-proposed specification limits and actual batch analytical data, evaluated against EFSA reference points and tolerable weekly intakes.
 
 ## Key numbers
 
-Proposed specifications for toxic elements in buffered vinegar (Table 1 of opinion):
+Proposed specifications for toxic elements in buffered vinegar (Table 1, applicant proposal, ICP method):
 - Arsenic (As): NMT 1 mg/kg
 - Lead (Pb): NMT 0.5 mg/kg
 - Mercury (Hg): NMT 0.5 mg/kg
 - Cadmium (Cd): NMT 0.5 mg/kg
 
-Actual batch measurement data (ICP-MS, USP 233, 5 batches each of liquid and powder):
-- Liquid form: As, Pb, and Hg each <0.005 mg/kg for 4 of 5 batches; <0.01 mg/kg for the 5th batch. Cd: only 1 batch analysed, <0.01 mg/kg.
-- Powder form: As = 0.005, 0.006, 0.007, 0.007, <0.01 mg/kg across 5 batches. Pb and Hg: <0.005 mg/kg for 4 batches, <0.01 mg/kg for the 5th. Cd: only 1 batch, <0.01 mg/kg.
+Actual batch analytical data (ICP-MS, USP 233 method, 5 independent batches each of liquid and powder forms):
+- Liquid buffered vinegar — As, Pb, Hg: <0.005 mg/kg for 4 of 5 batches; <0.01 mg/kg for the 5th batch (each element). Cd: only 1 of 5 batches analysed, <0.01 mg/kg.
+- Powder buffered vinegar — As: 0.005, 0.006, 0.007, 0.007 and <0.01 mg/kg across the 5 batches. Pb, Hg: <0.005 mg/kg for 4 batches; <0.01 mg/kg for the 5th batch (each element). Cd: only 1 of 5 batches analysed, <0.01 mg/kg.
 
-Panel's recommended practical limits (based on data + modulation factor of 5 for headroom): 0.05 mg/kg for each of As, Pb, Cd, Hg — vs. applicant's proposed limits of 1.0/0.5/0.5/0.5 mg/kg. Panel noted the applicant's proposed limits are 50–100× higher than the actual analytical data.
+Panel's data-derived practical limits (applying a modulation factor of 5 to the reported analytical levels to provide headroom for representativeness, homogeneity and analytical measurement uncertainty): 0.05 mg/kg for each of As, Pb, Cd, Hg. The Panel observed that the applicant's proposed specification limits (1.0/0.5/0.5/0.5 mg/kg) are roughly 50–100× higher than the actual analytical data. The Panel emphasised that the choice of maximum limits for toxic elements in specifications is in the remit of risk management.
 
-EFSA health-based guidance values (reference points used in risk assessment):
-- As: BMDL01 range 0.3–8 µg/kg bw/day (lung, skin, bladder cancers; skin lesions from human data)
-- Pb: BMDL01 = 0.5 µg/kg bw/day (1-point IQ reduction in children)
-- Cd: TWI = 2.5 µg/kg bw/week (tubular damage biomarker)
-- Hg (inorganic): TWI = 4 µg/kg bw/week (kidney weight changes in rats, BMDL10 with UF 100)
+EFSA reference points / health-based guidance values used for the impurity risk assessment (Table 7):
+- As: BMDL01 range 0.3–8 µg/kg bw per day (cancers of the lung, skin and bladder; skin lesions; human data, no interspecies factor; EFSA CONTAM 2009a; EFSA SC 2012).
+- Pb: BMDL01 = 0.5 µg/kg bw per day (1-point IQ reduction in children; EFSA CONTAM 2010).
+- Cd: TWI = 2.5 µg/kg bw per week (urinary β2-microglobulin tubular-damage biomarker; group-based BMDL5 = 4 µg Cd/g creatinine with a chemical-specific adjustment factor of 3.9; EFSA CONTAM 2009b).
+- Hg (inorganic): TWI = 4 µg/kg bw per week (kidney weight changes in male rats; BMDL10 = 0.06 mg/kg bw per day with UF 100; EFSA CONTAM 2012).
 
-Dietary exposure to buffered vinegar (refined estimate, Table 5, mg/kg bw/day as acetic acid equivalents):
-- Mean: 8.9 (infants) to 280.3 (children) mg/kg bw/day
-- p95: 27.9 (infants) to 1,078.2 (toddlers) mg/kg bw/day
+Dietary exposure to buffered vinegar at proposed maximum/typical use levels, refined estimate, mg/kg bw per day expressed as acetic acid equivalents (Table 5, min–max across dietary surveys, six population groups):
+- Mean: Infants 8.9–145.9; Toddlers 31.8–263.4; Children 57.2–280.3; Adolescents 22.8–138.1; Adults 22.5–81.4; Elderly 18.8–59.9.
+- 95th percentile: Infants 27.9–450.5; Toddlers 86.9–1,078.2; Children 109.2–951.9; Adolescents 42.2–499.6; Adults 43.0–333.9; Elderly 36.0–253.1.
 
-Risk assessment for toxic elements at applicant's proposed specification limits (Table 8): At 1 mg/kg As in the additive and highest mean exposure (children, 280.3 mg/kg bw/day AAEs = 1,583.6 mg/kg additive in liquid form at 17.7% AAEs): MOE for As = 0.189–5.1 (insufficient, safety concern); MOE for Pb = 0.63 (insufficient); Cd exposure = 221.7% of TWI; Hg exposure = 138.6% of TWI. All four elements raise concern at proposed specification limits.
+Across age groups, mean exposure spans 8.9 mg/kg bw per day (infants, low end) to 280.3 mg/kg bw per day (children, high end); 95th-percentile exposure spans 27.9 mg/kg bw per day (infants, low end) to 1,078.2 mg/kg bw per day (toddlers, high end). The highest exposure estimates across all six age groups were driven by a single national dietary survey, threefold to fivefold higher than estimates from other surveys; the Panel chose mean estimates rather than p95 values for safety considerations because the mean — when the highest single survey is excluded — is very similar to the p95.
 
-Risk assessment at data-derived limits (0.05 mg/kg per element, Table 9): MOE for As = 3.789–101.0 (still insufficient at lower end of range); MOE for Pb = 6.31; Cd = 22.2% of TWI; Hg = 13.9% of TWI. Safety concern remains for As even at data-derived limits.
+Equivalent FAIM-tool estimates (Table 4; less refined, included for context): mean 32.1 mg/kg bw per day (infants, low end) to 336.2 mg/kg bw per day (children, high end); p95 60.5 (elderly, low end) to 1,143 mg/kg bw per day (toddlers, high end).
 
-Main food categories contributing to buffered vinegar exposure: soups and broth (FC 12.5, up to 63.5% of mean exposure) and bread and rolls (FC 07.1, up to 55.3%).
+Risk assessment for toxic elements at applicant's proposed specification limits (Table 8, using highest mean exposure 280.3 mg/kg bw per day AAEs in children = 1,583.6 mg/kg of additive in liquid form at 17.7% AAEs):
+- MOE for As at 1.0 mg/kg: 0.189–5.1 (insufficient; safety concern).
+- MOE for Pb at 0.5 mg/kg: 0.63 (insufficient; safety concern).
+- Cd at 0.5 mg/kg: 221.7% of TWI (exceeded).
+- Hg at 0.5 mg/kg: 138.6% of TWI (exceeded).
 
-Note: EFSA's risk management conclusion is that the choice of maximum limits for toxic elements in specifications is in the remit of risk management (not the Panel's role). The Panel's safety conclusion is for acetic acid/acetate exposure — not for heavy metal impurities at the proposed specification limits.
+Risk assessment at data-derived limits (Table 9, 0.05 mg/kg per element):
+- MOE for As at 0.05 mg/kg: 3.789–101.0 (insufficient at lower end of the BMDL01 range; safety concern remains).
+- MOE for Pb at 0.05 mg/kg: 6.31 (still below the indicative MOE of 10).
+- Cd at 0.05 mg/kg: 22.2% of TWI.
+- Hg at 0.05 mg/kg: 13.9% of TWI.
+
+Main food categories contributing to mean exposure (all population groups): FC 12.5 Soups and broths up to 63.5%; FC 07.1 Bread and rolls up to 55.3%. For infants specifically, FC 01.7.1 Unripened cheese (up to 67.6%) and FC 07.2 Fine bakery wares (up to 41.7%) were also important contributors. Highest-consumption foods are especially prominent in infants, toddlers and children.
+
+The Panel also noted that the proposed additive may contain up to 30% sodium, which could lead to additional sodium exposure from the proposed uses in food (outside the toxic-element scope but flagged in the opinion).
 
 ## Methods (brief)
 
-This is an EFSA scientific opinion (regulatory risk assessment), not a primary measurement study. Heavy metal data from applicant (Kemin Industries BV and Purac Biochem BV) analysed by ICP-MS per USP 233 method on 5 independent batches each of liquid and powder forms. Exposure assessment: EFSA Comprehensive European Food Consumption Database (July 2021 version), FAIM tool v2.1, SAS Enterprise Guide v8.2.5, 22 EU countries, 6 population groups (infants through elderly). Food category linkage via FoodEx2 classification. Proposed use levels cover 24 food categories, maximum/typical 3,000–30,000 mg/kg expressed as acetic acid equivalents.
+This is an EFSA scientific opinion (regulatory risk assessment), not a primary measurement study. The toxic-element analytical data were generated by the applicants (Kemin Industries BV and Purac Biochem BV, who submitted the dossier in March 2021 with additional information in November 2021 and April 2022) using inductively coupled plasma mass spectrometry (ICP-MS) per the United States Pharmacopeia (USP) Chapter 233 method, on five independent batches each of liquid and powder buffered vinegar. Reported per-batch results for As (powder) are five individual values; for Pb, Hg and Cd (both forms) and As (liquid) the results are reported as below-detection (<0.005 mg/kg) or below-quantification (<0.01 mg/kg). Compositional fingerprinting of buffered vinegar against household vinegar (4% acetic acid) and 22% acetic acid starting material used gas chromatography–mass spectrometry (GC-MS, headspace and liquid injection) and liquid chromatography–high-resolution mass spectrometry (LC-HRMS, ESI− and ESI+); acetic acid was the only peak identified across all four samples by LC-HRMS, with acetic acid, ethanol, ethyl acetate and acetaldehyde detected in all samples by GC-MS and methyl acetate only in the 22% starting material.
+
+Exposure assessment used the EFSA Comprehensive European Food Consumption Database (July 2021 version, 42 dietary surveys across 22 European countries), the FAIM (Food Additives Intake Model) tool version 2.1 (without UK surveys), and a refined estimate calculated by EFSA with SAS Enterprise Guide version 8.2.5. Six population groups were considered: infants (12 weeks to 11 months), toddlers (12–35 months), children (3–9 years), adolescents (10–17 years), adults (18–64 years) and the elderly (≥65 years). Food category linkage used the FoodEx2 classification system mapped to the FCS (food categorisation system) of Annex II Part D of Regulation (EC) No 1333/2008. Proposed use levels span 3,000–30,000 mg/kg expressed as acetic acid equivalents across the 24 food categories (Table 2), with FC 12.2 Herbs, spices, seasonings at the upper end (30,000 mg/kg).
+
+For the impurity risk assessment, the form of the additive (liquid vs powder) was incorporated because the analytical batch data were not normalised to acetic acid equivalents while the exposure estimates are in AAEs. Worst-case calculation assumed the liquid form (lower AAE content per kg of additive, so more additive needed per kg of food to achieve the same AAE use level): at a 7,500 mg/kg AAE use level, the liquid-form addition would be 42.37 mg/kg of food (17.7% AAE) versus 11.33 mg/kg of food for the powder form (66.2% AAE).
 
 ## Implications
 
-Certification: This opinion establishes that buffered vinegar used as a food additive in EU can carry As, Pb, Cd, and Hg impurities at levels that, if present at applicant's proposed limits, would create safety concerns particularly for As and Pb. The actual measured concentrations in production batches are all <0.01 mg/kg — far below both the proposed limits and the Panel's recommended limits. For HMT&C product certification, any product using buffered vinegar as an additive should verify toxic element content in the buffered vinegar ingredient itself.
+Certification: This EFSA opinion is the EU regulatory source establishing both proposed and data-derived toxic-element specification limits for buffered vinegar used as a food additive. At the applicant's proposed specification limits (1.0 mg/kg As; 0.5 mg/kg Pb; 0.5 mg/kg Cd; 0.5 mg/kg Hg), the impurity exposure is calculated to be unsafe for all four elements at the highest mean exposure scenario (children). At the Panel's data-derived limits (0.05 mg/kg each), only As still exceeds an acceptable MOE at the lower end of the BMDL01 range. Actual batch concentrations measured by the applicants were uniformly below 0.01 mg/kg for each element. For HMT&C, this opinion contributes occurrence data and EFSA-endorsed reference points for the four core analytes in buffered vinegar as an ingredient, and documents that the EU specification ceiling for the additive category is presently a risk-management decision, not yet codified at the data-derived level.
 
-Regulations: Cross-link to [[regulations/eu-1333-2008-food-additives]] and [[regulations/efsa-contam-lead]], [[regulations/efsa-contam-arsenic]], [[regulations/efsa-contam-cadmium]], [[regulations/efsa-contam-mercury]].
+Regulations: Cross-link to [[regulations/eu-1333-2008-food-additives]] for the food additives authorisation framework; to [[regulations/efsa-contam-lead]], [[regulations/efsa-contam-arsenic]], [[regulations/efsa-contam-cadmium]] and [[regulations/efsa-contam-mercury]] for the underlying CONTAM Panel opinions cited as reference points; and to [[regulations/efsa-methylmercury-twi]] / [[regulations/efsa-mercury-twi]] for the inorganic-mercury TWI used here. EN 13188:2000 (CEN definition of vinegar) is named as the upstream raw-material standard.
 
-Courses: Illustrates EFSA's systematic approach to heavy metal impurity risk assessment in food additives; demonstrates margin-of-exposure (MOE) and TWI frameworks in application.
+Courses: Illustrates EFSA's systematic approach to toxic-element impurity risk assessment in a food additive evaluation — applicant-proposed specification limits, applicant-supplied analytical batch data, Panel-applied modulation factor of 5 for headroom, and the MOE/TWI framework applied to the resulting impurity exposure. Demonstrates the gap between specification ceilings (risk-management) and analytical reality (10× to 100× lower) that is typical of food additive dossiers.
 
-App: Buffered vinegar as a food additive ingredient carries heavy metals at very low concentrations in practice (<0.01 mg/kg each for As, Pb, Hg, Cd), but regulatory headroom in specifications is much wider. This is a regulatory and QC consideration, not a typical-contamination finding.
+App: Buffered vinegar as a food additive carries As, Pb, Cd and Hg at very low concentrations in current EU production (all <0.01 mg/kg in 5 batches each of liquid and powder), but EU specification headroom is 50–100× higher. This is a QC and supplier-verification consideration for products using buffered vinegar as an ingredient, not a typical-occurrence finding.
+
+## Verification notes
+
+Page was first ingested under the legacy `raw_handle: manual-fetch-kimi` and last `updated: 2026-05-14`. Merge-enhanced on 2026-05-28 via the v2 autonomous manual-fetch ingest skill against the source PDF. Changes:
+
+- Replaced legacy `raw_handle: manual-fetch-kimi` with the canonical `MFK_safety-evaluation-of-buffered-vinegar-as-a-food-ad` handle.
+- Corrected truncated `raw_path` from `...EFSA A.pdf` to the actual on-disk filename `...EFSA Assessment.pdf`.
+- Added `raw_sha256: 636194538e53818bea89faa7df3e0cca914b7bb5933ce31040666826bbc3c192` (was missing).
+- Added `access_url: https://doi.org/10.2903/j.efsa.2022.7351` (was missing).
+- Normalised `license` to `CC BY-ND 4.0` per the explicit licence statement on page 2 of the opinion ("Creative Commons Attribution-NoDerivs License").
+- Tightened `sample_population` to flag that Cd was measured on only 1 of 5 batches in each form (the existing field omitted this; the asymmetric Cd coverage is material to anyone using the dataset).
+- Expanded Key numbers to include the full Table 5 refined exposure ranges per population group (mean and p95), not only the across-age min/max envelope. Added Table 4 FAIM estimates for context. Added per-infant contributing food categories (FC 01.7.1 unripened cheese 67.6%; FC 07.2 fine bakery wares 41.7%) from page 14. Added the worst-case form-correction calculation (liquid form requires 42.37 mg/kg vs powder 11.33 mg/kg at 7,500 mg/kg AAE) and the modulation-factor-5 rationale from page 14.
+- Expanded Methods (brief) with: the dossier-submission dates (March 2021, November 2021, April 2022); the GC-MS and LC-HRMS fingerprinting techniques and what each detected; the explicit AAE adjustments for the form-correction calculation; and the upper-bound use level (30,000 mg/kg in FC 12.2 herbs, spices, seasonings).
+- Reframed Certification implication to remove "any product using buffered vinegar as an additive should verify toxic element content" advisory language; replaced with a Part 2-compliant statement that the opinion contributes occurrence data and reference points, and that the specification ceiling remains a risk-management decision. The original sentence was operational-recommendation phrasing that crossed toward the HMT&C-policy register.
+- Added Regulations cross-link to the EFSA mercury TWI page that supplies the 4 µg/kg bw/week reference value (was previously only linked to a generic `efsa-contam-mercury` slug).
+- Set `updated:` to 2026-05-28.
+- Preserved `cite_key`, `doi`, `metals`, `ingredients`, `products`, `matrices`, `jurisdictions`, `near_duplicates`, `sample_n` from the prior revision.
+
+Brand firewall (Part 12): The applicant companies Kemin Industries BV and Purac Biochem BV are named in the Methods (brief) section because they are the public-record subjects of the EFSA authorisation action — this falls under Part 12 Exception 1 (regulatory-event subject). The opinion's "Documentation as provided to EFSA" section (§6) names them explicitly as the dossier submitters; the EFSA opinion is itself the regulatory event. No brand-by-brand contamination ranking is performed; the batch data are aggregated across "5 batches" without naming which manufacturer supplied which batch.
+
+Speciation (Part 14): The opinion's ICP-MS data are total elements without speciation. `metals:` uses `tAs` and `tHg` accordingly. The Hg HBGV invoked (TWI 4 µg/kg bw/week) is the inorganic-mercury TWI; the EFSA CONTAM 2012 derivation is documented on page 15 of the opinion. The page text retains the "inorganic" qualifier where it refers to the HBGV basis.
+
+Wiki/HMT&C firewall (Part 2): No threshold proposals, consumer advisories, or cross-source synthesis claims are made. The Implications section reports what this opinion contributes (occurrence data, EFSA reference points, EU specification framework) without proposing HMT&C threshold values.
 
 ## Wiki pages updated on ingest
 
 - [[ingredients/vinegar]]
+- [[products/vinegar]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic]]
