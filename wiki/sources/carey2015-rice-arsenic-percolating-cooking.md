@@ -35,8 +35,8 @@ Values are in mg/kg dry-weight unless noted; arsenic species are inorganic arsen
 **Cooking volume experiment (n=6 wholegrain + 6 polished; Fig 1)** — rice cooked at 3:1, 6:1 and 12:1 water:rice ratios in a sealed-flask reflux setup that returned evaporated steam to the cooking vessel (no water discarded; rice freeze-dried whole).
 
 - 12:1 ratio: 57±5% iAs removed across all rice; 53±5% for polished, 61±3% for wholegrain.
-- 6:1 ratio: 29±5% iAs removed across all rice.
-- 3:1 ratio: 29±4% iAs removed across all rice.
+- 3:1 ratio: 29±5% iAs removed across all rice.
+- 6:1 ratio: 29±4% iAs removed across all rice.
 - Uncooked wholegrain iAs roughly two-fold higher than uncooked polished on average; wholegrain showed a steeper removal slope at higher cooking volumes.
 - DMA was not significantly reduced by cooking; only the rice-type term was significant (P<0.001), with wholegrain having higher DMA than polished.
 
@@ -54,10 +54,10 @@ Values are in mg/kg dry-weight unless noted; arsenic species are inorganic arsen
 - iAs in the tap water was 0.050±0.02 µg/L (LOD 0.036 µg/L).
 - Mineral co-losses (paired t-test cooked vs uncooked): potassium 53% loss (P<0.001); phosphorus 7% loss (P=0.016); calcium, copper, iron, manganese, sulphur and zinc not significantly changed.
 
-**Uncooked rice iAs ranges (read from Figs 1 and 2):**
+**Uncooked rice iAs ranges (read across Figs 1, 2 and 3):**
 
-- Polished: approximately 0.01–0.13 mg/kg.
-- Wholegrain: approximately 0.085–0.35 mg/kg.
+- Polished: approximately 0.01 to 0.23 mg/kg (highest values in the coffee-percolator subset, Fig 3).
+- Wholegrain: approximately 0.085 to 0.46 mg/kg (highest values in the coffee-percolator subset, Fig 3).
 
 **Quality control:**
 
@@ -72,10 +72,10 @@ Rice was purchased from major UK retailers in Belfast and via UK online retail; 
 Three cooking systems were compared:
 
 1. **Standardised laboratory cooking at controlled water:rice ratios.** 20 g rice in a 250 mL round-bottomed Pyrex flask heated in an electrothermal mantle; the flask neck connected to a 25 cm dimpled Vigreux condensing tube (42 dimples) that returned steam-as-water to the flask. Double-distilled, deionized water added to give 3:1, 6:1, or 12:1 water:rice ratios. After cooking, samples were freeze-dried and powdered in a Retsch PM100 ball mill using a zirconium-oxide-lined vessel and zirconium-oxide grinding balls.
-2. **Soxhlet recycled-condensation cooking.** 2 g rice was held in an 8 cm × 3.5 cm VWR Soxhlet thimble inside a 25 cm Quickfit Soxhlet attached to a 250 mL receiving flask containing 200 mL of double-distilled, deionized water; cooking timed by Soxhlet reflux cycles, with three cycles sufficient for full cook.
+2. **Soxhlet recycled-condensation cooking.** 2 g rice was held in a VWR Soxhlet thimble inside a 25 cm × 3.5 cm Quickfit Soxhlet attached to a 250 mL receiving flask containing 200 mL of double-distilled, deionized water; cooking timed by Soxhlet reflux cycles, with three cycles sufficient for full cook.
 3. **Home coffee-percolator cooking.** Off-the-shelf Bravilor Bonamat catering coffee percolator (no hotplate; filter unit only); 500 g rice packet placed in the manufacturer-supplied paper filter; the 2 L reservoir took 10 min to discharge per cycle. Polished rice cooked with 2 × 2 L (4 L total, 20 min); wholegrain cooked with 3 × 2 L (6 L total, 30 min). Inlet water entered the filter at 98 °C. Cooking experiments were run in triplicate for each rice type.
 
-Analytical chemistry: cooked and uncooked rice was freeze-dried and milled, then 0.1 g powder digested overnight in 2 mL of 1% Aristar HNO3, microwave-digested in a CEM MARS 6 (30 min staged ramp to 95 °C), diluted to 10 mL, and treated with 10 µL H2O2 to convert arsenite to arsenate prior to ion-chromatography. Arsenic speciation by IC-ICP-MS used a Thermo Scientific IC5000 ion-chromatography system with a Thermo AS7 (2 × 250 mm) column and AG7 guard, a 20–200 mM ammonium-carbonate linear gradient over 15 min, interfaced to a Thermo iCAP Q ICP-MS monitoring m/z 75 with He collision-cell mode; calibration species DMA, iAs, MMA, tetramethyl arsonium and arsenobetaine. Total elements were measured by the same iCAP Q in direct-solution mode with Rh as internal standard; additional elements were measured by bench-top XRF (Rigaku CG). Multi-element digestion used a more aggressive program to 180 °C with 2 mL concentrated HNO3 plus 2 mL H2O2. Blanks and NIST SRM 1568b rice-flour CRM were included in each batch of 40 samples.
+Analytical chemistry: cooked and uncooked rice was freeze-dried and milled, then 0.1 g powder digested overnight in 2 mL of 1% Aristar HNO3, microwave-digested in a CEM MARS 6 (30 min staged ramp to 95 °C), diluted to 10 mL, and treated with 10 µL H2O2 to convert arsenite to arsenate prior to ion-chromatography. Arsenic speciation by IC-ICP-MS used a Thermo Scientific IC5000 ion-chromatography system with a Thermo AS7 (2 × 250 mm) column and AG7 (2 × 50 mm) guard, a 20–200 mM ammonium-carbonate linear gradient over 15 min, interfaced to a Thermo iCAP Q ICP-MS monitoring m/z 75 with He collision-cell mode; calibration species DMA, iAs, MMA, tetramethyl arsonium and arsenobetaine. Total elements were measured by the same iCAP Q in direct-solution mode with Rh as internal standard; additional elements were measured by bench-top XRF (Rigaku CG). Multi-element digestion used a more aggressive program to 180 °C with 2 mL concentrated HNO3 plus 2 mL H2O2. Blanks and NIST SRM 1568b rice-flour CRM were included in each batch of 40 samples.
 
 Statistics: General Linear Modeling (GLM) using Minitab v.16; residuals tested for normality with Anderson–Darling and found normal so no transformation was applied except for percentage data, which were rank-transformed before analysis.
 
@@ -106,3 +106,15 @@ Page rebuilt 2026-05-28 from the source PDF (raw_sha256 5529a95f… matches the 
 - **Frontmatter field rename** `sha256` → `raw_sha256` to match the current v2 schema (e.g., `dehghani2020-food-lead-cadmium-mspe`).
 - **Legacy section** `## Wiki pages updated on ingest` renamed to `## Wiki pages this source may touch` per v2 schema; the prior body of that section listed `[[mitigation/cooking-methods-arsenic]]`, which is not in the current taxonomy and was removed.
 - **Audience-segmented "Implications"** lines from the prior version that mapped findings into Certification / Courses / App / consumer-advice slots have been removed because they violate Part 2 of CLAUDE.md (source page reports what one paper found, not how it should drive HMTc thresholds, courses, or app translations). The retained `## Implications` section now describes the routing/mitigation-context role of this source only.
+
+Audit subagent (2026-05-28) flagged the following; verified against source and applied or rejected:
+
+- **3:1 / 6:1 ratio attributions** were transposed in the initial 2026-05-28 ingest. Source p. 6 ¶1: "This figure for all rice was 29±5% and 29±4% at ratios of 3:1 and 6:1 respectively." Verified — corrected so 3:1 = 29±5% and 6:1 = 29±4%.
+- **Soxhlet thimble dimensions ("8 cm × 3.5 cm")** were fabricated in the initial 2026-05-28 ingest. Source p. 3 (Cooking… recycled through condensation) states "accurately weighed (2g) into a VWR Soxhlet thimble and was then placed into an 25cm long and 3.5cm diameter Quickfit Soxhlet" — only the Quickfit Soxhlet has stated dimensions, not the thimble. Verified — invented thimble dimensions removed; the 25 cm × 3.5 cm dimensions now correctly attached to the Quickfit Soxhlet body.
+- **Uncooked rice iAs range under-stated.** Subagent observed that Fig 3 (coffee-percolator subset) shows higher uncooked iAs than the Fig 1/Fig 2 subsets cited in the original ingest — polished reaches ~0.23 mg/kg and wholegrain ~0.46 mg/kg in Fig 3. Verified — ranges extended and Fig 3 added to the citation.
+- **AG7 guard column dimensions omitted.** Source p. 4 specifies "AG7, 2x50mm guard column"; verified and added.
+- **Source-internal sample count inconsistency.** The PDF p. 2 country-of-origin enumeration sums to 37 (2 EU + 11 ES + 6 IT + 5 TH + 2 FR + 1 EG + 1 JP + 1 AU + 1 LB + 1 PK + 1 TR + 5 US = 37), yet the paper repeatedly states the total is 41 (with 13 wholegrain / 28 polished). The discrepancy is internal to the source — the inline enumeration omits 4 packets — and is presumably reconciled in the S1 Table sample description. Flagged here; the wiki transcribes the paper's stated total of 41 and the paper's inline country list, without attempting to silently reconcile.
+- **`DMA` metals-vocabulary extension.** The system-prompt metal abbreviation list (Pb, Cd, iAs, tAs, iHg, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U) does not include DMA. DMA is included here because the paper centrally speciates DMA and reports a finding-bearing result on it (cooking does not significantly remove DMA). Flagged for taxonomy-vocab review.
+- **`matrices` sub-variants (`polished-rice`, `wholegrain-rice`, `cooked-rice`)** flagged as possibly off-vocab by the audit subagent; verified against [[sources/pogoson2020-rice-cooking-cadmium-arsenic]] which uses the same lab's `polished-rice`, `cooked-rice` and `pre-soaked-rice` matrices entries — finding is a false positive in light of established same-lab precedent. No correction applied.
+- **`jurisdictions` mixed market/origin semantics** flagged by the audit subagent; the intent is already explained in the `sample_population` field and in the existing Verification-notes geographic-origins entry — finding is a false positive against existing documentation. No correction applied.
+- **`tAs` in metals frontmatter** flagged as borderline by the audit subagent; retained because total arsenic is implicitly available as the sum of iAs + DMA + minor species and is reportable to downstream routing as a derived total. No correction applied.
