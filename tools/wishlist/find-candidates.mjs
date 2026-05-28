@@ -370,6 +370,37 @@ function expandMetalAliases(metalSearchTerms) {
   return [...expanded]
 }
 
+// 2026-05-28 fix: long-form metal-name gate. Two-letter symbols (Cd, Pb, Hg,
+// Ni, As, Sn, Sb, Cr) match too many false positives — "Cd" in a Portuguese
+// abstract about Chagas disease (doença de Chagas), "Hg" as the SI prefix in
+// "Hg-Co" alloy materials science, "Pb" as Pubmed identifier in a citation
+// list, "Ni" as the chemical-symbol-shaped indefinite article in Tagalog,
+// etc. The previous filter scored these as positive metal hits and let
+// papers through to download. The Cat 11 "auto-game-meats-cd-product-2016-
+// 10-1590-1980-..." paper that the 2026-05-28T22Z parallel test rejected
+// at the ingest stage (Chagas disease systematic review) was a direct
+// consequence: the OpenAlex query matched "Cd" + "meat" in the abstract,
+// passed download, then claude --print spent 60+ seconds reading 2.3 MB
+// of off-topic PDF before STOPping. By requiring at least one chemistry-
+// name term (the long form, never the symbol) to appear in title-or-
+// abstract, we reject the false positive at the fetch stage instead of
+// burning ingest tokens.
+const LONG_FORM_METAL_NAMES = [
+  "cadmium", "lead", "mercury", "arsenic", "nickel", "aluminum", "aluminium",
+  "chromium", "tin", "antimony", "uranium",
+  "methylmercury", "hexavalent chromium", "inorganic arsenic", "total arsenic",
+  "total mercury", "heavy metal", "heavy metals", "toxic metal", "toxic metals",
+  "trace metal", "trace metals", "trace element", "trace elements",
+]
+function hasLongFormMetalName(haystack) {
+  for (const term of LONG_FORM_METAL_NAMES) {
+    // Word-boundary check so "chromium" doesn't match "polychromium"
+    const re = new RegExp(`\\b${term}\\b`, "i")
+    if (re.test(haystack)) return true
+  }
+  return false
+}
+
 // Negative-keyword prefilter. Papers with these phrases in title/abstract
 // are predominantly sensor methodology, materials science, plant molecular
 // biology, AMR studies, or clinical case reports — papers that mention
@@ -615,6 +646,7 @@ async function queryPubMed(q, searchTerms, fetchOne) {
     if (alreadyIndexed) { row.decision = "skip:already-indexed"; totalSkippedIndexed += 1; audit.push(row); continue }
     if (!oaUrl) { row.decision = "skip:no-pmc-oa"; totalSkippedNoOa += 1; audit.push(row); continue }
     if (inScopeHits === 0) { row.decision = "skip:no-domain-terms"; totalSkippedWeak += 1; audit.push(row); continue }
+    if (!hasLongFormMetalName(haystack)) { row.decision = "skip:symbol-only-metal-match"; totalSkippedWeak += 1; audit.push(row); continue }
     if (score < DOWNLOAD_THRESHOLD) { row.decision = score === 0 ? "skip:no-keyword-overlap" : "review:weak-match"; totalSkippedWeak += 1; audit.push(row); continue }
 
     const filename = candidateFilename(row)
@@ -756,6 +788,16 @@ for (let i = startIndex; i < queries.length; i += 1) {
       row.decision = "skip:no-domain-terms"
       totalSkippedWeak += 1
       audit.push(row)
+    } else if (!hasLongFormMetalName(haystack)) {
+      // 2026-05-28 fix: long-form metal-name gate. Reject papers whose
+      // title+abstract contains no chemistry-name metal term (cadmium,
+      // lead, mercury, arsenic, etc.) — only symbol-only matches (Cd,
+      // Pb, Hg) are too noisy to act on. The Cat 11 Chagas-disease
+      // false positive that broke the 2026-05-28T22Z parallel test
+      // would have been rejected here.
+      row.decision = "skip:symbol-only-metal-match"
+      totalSkippedWeak += 1
+      audit.push(row)
     } else if (score < DOWNLOAD_THRESHOLD) {
       row.decision = score === 0 ? "skip:no-keyword-overlap" : "review:weak-match"
       totalSkippedWeak += 1
@@ -805,6 +847,15 @@ for (let i = startIndex; i < queries.length; i += 1) {
           row.decision = "downloaded"
           row.downloaded_path = path.relative(repoRoot, target)
           totalDownloaded += 1
+          // 2026-05-28 fix: cross-query DOI dedup. The same paper is
+          // discovered by multiple queries (e.g., "rice cadmium" and
+          // "infant rice cereal cadmium" both surface Williams 2018).
+          // Without this, query #50 would re-download the same PDF
+          // that query #5 already saved. Adding the freshly-downloaded
+          // DOI + normalized title to the in-memory sets means the
+          // next query will see alreadyIndexed=true.
+          if (row.doi) existingDOIs.add(normalizeDoi(row.doi))
+          if (row.title) existingTitles.add(normalizeTitle(row.title))
         }
       }
     } catch (err) {

@@ -232,11 +232,15 @@ fi
 MFETCH_ENABLED="${HMI_MFETCH_INGEST:-1}"
 # Bumped 2026-05-25 from 2 → 15 for sprint. Opus 4.7 is the Cochrane-bar
 # judgment model; rate-limit risk caps this lower than the Marker bulk.
-MFETCH_MAX="${HMI_MFETCH_MAX_PDFS:-15}"
+MFETCH_MAX="${HMI_MFETCH_MAX_PDFS:-30}"
 MFETCH_MODEL="${HMI_MFETCH_MODEL:-claude-opus-4-7}"
+# Parallelism (added 2026-05-28). Workers run claude --print concurrently.
+# Default 3 — safe on a 16 GB Mac. Each spawn = ~500 MB RAM + moderate CPU.
+# Tracker file is the race-safe claim surface.
+MFETCH_CONCURRENCY="${HMI_MFETCH_CONCURRENCY:-3}"
 if [[ "$MFETCH_ENABLED" == "1" ]]; then
   run_step "ingest-manual-fetch-batch" node tools/autonomy/ingest-manual-fetch-batch.mjs \
-    "--max-pdfs=$MFETCH_MAX" "--model=$MFETCH_MODEL" || true
+    "--max-pdfs=$MFETCH_MAX" "--model=$MFETCH_MODEL" "--concurrency=$MFETCH_CONCURRENCY" || true
 fi
 
 # Step 3c.5: completion-matrix snapshot — measures (ingredient × analyte)
@@ -366,12 +370,32 @@ if [[ "${HMI_AUTONOMOUS_FETCH:-1}" == "daily" ]]; then
   fi
 fi
 if [[ "$FETCH_ENABLED" == "always" ]] || { [[ "$FETCH_ENABLED" == "1" ]] && [[ "$DAILY_FETCH_WINDOW" == "1" ]]; }; then
-  # Manual wishlist (Karen-curated targets) then gap-driven (autonomy-discovered
-  # thin cells). Both write to raw/manual-fetch/seasonal-geographic-variance/
-  # auto-fetched/*.pdf, where the next tick's ingest-manual-fetch-batch
-  # picks them up.
-  run_step "wishlist fetch (manual)"     npm run wishlist:fetch       || true
-  run_step "wishlist fetch (gap-driven)" npm run wishlist:gap-driven  || true
+  # Batch-mode fetcher gate (added 2026-05-28): only fetch when the auto-
+  # fetched queue is below FLOOR. This gives Karen observable batch cycles
+  # (queue grows after fetch → drains over a few ticks → refills) instead
+  # of opaque continuous accumulation. FLOOR default 30; raise via
+  # HMI_AUTO_FETCHED_FLOOR.
+  AUTO_FETCHED_FLOOR="${HMI_AUTO_FETCHED_FLOOR:-30}"
+  AUTO_FETCHED_NOW=$(ls "$REPO_ROOT/raw/manual-fetch/seasonal-geographic-variance/auto-fetched/"*.pdf 2>/dev/null | wc -l | tr -d ' ')
+  log "Auto-fetched queue: $AUTO_FETCHED_NOW PDFs (floor=$AUTO_FETCHED_FLOOR)"
+  if (( AUTO_FETCHED_NOW < AUTO_FETCHED_FLOOR )); then
+    log "Below floor — refilling batch via gap-driven wishlist."
+    # 2026-05-28 bug-fix: previously this ran BOTH wishlist:fetch (parse-
+    # wishlist.mjs's 40 rice/cocoa/wheat anchor queries) AND wishlist:gap-
+    # driven (build-targeted-queries.mjs's 2747 cross-category queries).
+    # parse-wishlist.mjs overwrites wishlist-queries.json with the 40-query
+    # subset; the daemon's wall-clock budget then often kills the tick
+    # before gap-driven runs, so find-candidates re-queries rice every
+    # tick and downloads 0 new PDFs (528 candidates → 125 already-indexed
+    # → 0 saved in the 2026-05-28T15-58Z tick, for example). The gap-
+    # driven path subsumes manual coverage (Path A includes the rice/
+    # cocoa anchors as cell-level n_studies queries) and rotates across
+    # Karen's priority categories 11→9→8→7→6→5→4→3→2. The manual path
+    # remains available via `npm run wishlist:fetch` for one-off use.
+    run_step "wishlist fetch (gap-driven)" npm run wishlist:gap-driven  || true
+  else
+    log "Queue above floor — skipping fetch, focusing on drain."
+  fi
 fi
 
 # Step 5c: weekly briefing — runs daily, self-cadenced (skips if last

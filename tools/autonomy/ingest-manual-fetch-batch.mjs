@@ -45,13 +45,18 @@
 import fs from "node:fs"
 import path from "node:path"
 import crypto from "node:crypto"
-import { spawnSync } from "node:child_process"
+import { spawnSync, spawn } from "node:child_process"
 
 const repoRoot = process.cwd()
 const args = parseArgs(process.argv.slice(2))
 const dryRun = args.has("dry-run")
 const rebuildTracker = args.has("rebuild-tracker")
 const maxPdfs = Number(args.get("max-pdfs") ?? 3)
+// Concurrency for parallel ingest workers (added 2026-05-28). Each worker
+// runs an independent claude --print spawn against a different PDF. They
+// share the tracker as the race-safe claim surface; git operations during
+// commit are protected by gitLock.
+const concurrency = Math.max(1, Number(args.get("concurrency") ?? 1))
 const folderRestrict = args.get("folder") ?? null
 const model = args.get("model") ?? "claude-opus-4-7"
 
@@ -216,6 +221,35 @@ If you hit any of the stop conditions defined in the skill (new-page proposal ne
 When done with this one PDF (whether successfully ingested+audited or stopped cleanly), exit. The wrapper script handles the next PDF and the next tick. Print a single final line to stdout: either "DONE: <cite-key>" on success, or "STOP: <reason>" on a stop condition, or "FAIL: <reason>" on an error.`
 }
 
+// Async claude --print invoker for parallel batches. Same wire protocol as
+// invokeClaude() — returns {ok|stop|error,...} — but uses spawn() not
+// spawnSync() so multiple can run concurrently in a Promise.all batch.
+async function invokeClaudeAsync(prompt, candidate) {
+  return new Promise((resolve) => {
+    const cliArgs = ["--print", "--model", model, "--add-dir", repoRoot]
+    const proc = spawn("claude", cliArgs, { cwd: repoRoot })
+    let stdout = "", stderr = ""
+    let timedOut = false
+    const timeoutMs = 25 * 60 * 1000
+    const killer = setTimeout(() => { timedOut = true; proc.kill("SIGKILL") }, timeoutMs)
+    proc.stdout.on("data", (d) => { stdout += d.toString() })
+    proc.stderr.on("data", (d) => { stderr += d.toString() })
+    proc.on("error", (err) => { clearTimeout(killer); resolve({ error: err.message }) })
+    proc.on("exit", (code) => {
+      clearTimeout(killer)
+      if (timedOut) return resolve({ error: "spawn timeout (25 min)" })
+      if (code !== 0) return resolve({ error: `exit ${code}: ${stderr.slice(0, 800)}` })
+      const lastLine = stdout.trim().split("\n").slice(-1)[0] || ""
+      if (lastLine.startsWith("DONE:")) return resolve({ ok: true, citeKey: lastLine.slice(5).trim() })
+      if (lastLine.startsWith("STOP:")) return resolve({ stop: true, reason: lastLine.slice(5).trim(), stdout })
+      if (lastLine.startsWith("FAIL:")) return resolve({ error: lastLine.slice(5).trim(), stdout })
+      return resolve({ error: `unrecognized final line: "${lastLine.slice(0, 200)}"`, stdout })
+    })
+    proc.stdin.write(prompt)
+    proc.stdin.end()
+  })
+}
+
 function invokeClaude(prompt, candidate) {
   const args = [
     "--print",
@@ -328,13 +362,12 @@ function computeFileSha256(filepath) {
 
 const sha256Index = buildSha256Index()
 console.log(`Pre-spawn dedup index: ${sha256Index.size} sources have raw_sha256 frontmatter`)
+console.log(`Concurrency: ${concurrency} parallel worker(s)`)
 
+// Pre-filter: pull pre-spawn dedup STOPs out of the spawning path so the
+// real claude invocations are only against PDFs that might be novel.
+const realCandidates = []
 for (const candidate of candidates) {
-  console.log(`\n[${candidates.indexOf(candidate) + 1}/${candidates.length}] ${candidate.pdfPath}`)
-  console.log(`  handle: ${candidate.handle}`)
-
-  // Cheap pre-spawn byte-identical dedup. ~50ms per PDF vs ~5-10min for a
-  // claude --print spawn that would inevitably STOP on the same finding.
   const sha = computeFileSha256(path.join(repoRoot, candidate.pdfPath))
   if (sha && sha256Index.has(sha)) {
     const existing = sha256Index.get(sha)
@@ -343,35 +376,53 @@ for (const candidate of candidates) {
     entry.status = "stopped"
     entry.notes = `Pre-spawn dedup: byte-identical to ${existing} (sha256:${sha.slice(0, 16)}…)`.slice(0, 200)
     stopped.push({ ...candidate, reason: `byte-identical to ${existing}` })
-    console.log(`  STOP (pre-spawn): byte-identical to ${existing}`)
-    saveTracker(tracker)
+    console.log(`  STOP (pre-spawn): ${candidate.handle} → ${existing}`)
     continue
   }
+  realCandidates.push(candidate)
+}
+saveTracker(tracker)
+console.log(`After pre-spawn dedup: ${realCandidates.length} candidates need claude --print`)
 
-  const prompt = buildPrompt(candidate)
-  const result = invokeClaude(prompt, candidate)
+// Process candidates in concurrency-sized batches. Within a batch all
+// spawns are concurrent (Promise.all). Between batches the tracker gets
+// saved so a crash mid-batch loses at most concurrency invocations.
+for (let batchStart = 0; batchStart < realCandidates.length; batchStart += concurrency) {
+  const batch = realCandidates.slice(batchStart, batchStart + concurrency)
+  console.log(`\n=== batch ${Math.floor(batchStart / concurrency) + 1}: ${batch.length} parallel worker(s) ===`)
+  for (const c of batch) console.log(`  spawning: ${c.handle}`)
 
-  const entry = tracker.get(candidate.pdfPath)
-  entry.lastTick = tickTimestamp
+  const batchResults = await Promise.all(batch.map(async (candidate) => {
+    const prompt = buildPrompt(candidate)
+    if (concurrency === 1) {
+      // Single-worker mode: keep using spawnSync for full backward compat
+      // with existing behavior and existing logs.
+      return { candidate, result: invokeClaude(prompt, candidate) }
+    }
+    return { candidate, result: await invokeClaudeAsync(prompt, candidate) }
+  }))
 
-  if (result.ok) {
-    entry.status = "ingested"
-    entry.citeKey = result.citeKey
-    entry.notes = `Ingested ${tickTimestamp}`
-    succeeded.push({ ...candidate, citeKey: result.citeKey })
-    console.log(`  OK: ${result.citeKey}`)
-  } else if (result.stop) {
-    entry.status = "stopped"
-    entry.notes = `Stop: ${result.reason}`.slice(0, 200)
-    stopped.push({ ...candidate, reason: result.reason })
-    console.log(`  STOP: ${result.reason}`)
-  } else {
-    entry.status = "failed"
-    entry.notes = `Fail: ${result.error}`.slice(0, 200)
-    failed.push({ ...candidate, error: result.error })
-    console.log(`  FAIL: ${result.error}`)
+  for (const { candidate, result } of batchResults) {
+    const entry = tracker.get(candidate.pdfPath)
+    entry.lastTick = tickTimestamp
+    if (result.ok) {
+      entry.status = "ingested"
+      entry.citeKey = result.citeKey
+      entry.notes = `Ingested ${tickTimestamp}`
+      succeeded.push({ ...candidate, citeKey: result.citeKey })
+      console.log(`  OK: ${candidate.handle} → ${result.citeKey}`)
+    } else if (result.stop) {
+      entry.status = "stopped"
+      entry.notes = `Stop: ${result.reason}`.slice(0, 200)
+      stopped.push({ ...candidate, reason: result.reason })
+      console.log(`  STOP: ${candidate.handle} → ${result.reason}`)
+    } else {
+      entry.status = "failed"
+      entry.notes = `Fail: ${result.error}`.slice(0, 200)
+      failed.push({ ...candidate, error: result.error })
+      console.log(`  FAIL: ${candidate.handle} → ${result.error}`)
+    }
   }
-
   saveTracker(tracker)
 }
 
