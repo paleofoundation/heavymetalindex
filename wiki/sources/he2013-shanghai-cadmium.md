@@ -122,7 +122,8 @@ Probability of total environmental Cd exposure below the PTDI: 93.4% overall, 88
 | Rice, soybean | 0.2 | 0.2 | 0.4 | Rice 0.09 |
 | Wheat, bran, germ | 0.1 | 0.2 | 0.2 | Wheat 0.023 |
 | Other cereals | 0.1 | 0.1 | 0.1 | Coarse 0.02 |
-| Stem/root vegetables, potatoes (excl. celeriac) | 0.1 | 0.1 | 0.1 | — |
+| Peanut | 0.5 | 0.1 | 0.1 | — |
+| Stem/root vegetables, potatoes (excl. celeriac) | 0.1 | — | 0.1 | — |
 | Leaf vegetables, fresh herbs, celeriac, common mushroom | 0.2 | 0.2 | 0.2 | Fresh veg 0.17 |
 | Meat (excl. offal) of bovine, sheep, pig, poultry | 0.1 | 0.05 | 0.05 | Pork 0.10 |
 | Liver of bovine | 0.5 | 0.5 | 0.5 | — |
@@ -132,7 +133,7 @@ Probability of total environmental Cd exposure below the PTDI: 93.4% overall, 88
 | Bivalve molluscs and cephalopods | — | 1 | 2 | — |
 | Egg | 0.05 | — | — | 0.012 |
 
-All measured food cadmium P90 values in this Shanghai 2008 cohort fell below their corresponding Chinese MLs. Rice P90 (0.09 mg/kg) was below the Chinese, EFSA, and WHO MLs; the discussion proposes that the WHO MR for rice could be reduced from 0.4 → tighter values based on Asian dietary patterns where rice intake is high and cadmium accumulation in rice paddies is regionally severe.
+All measured food cadmium P90 values in this Shanghai 2008 cohort fell below their corresponding Chinese MLs. Rice P90 (0.09 mg/kg) was below the Chinese, EFSA, and WHO MLs. The source's Discussion (p. 8) proposes that the Chinese rice ML should be reconsidered against the WHO ML of 0.4 mg/kg — i.e., that the Chinese ML could be raised to the WHO level — because rice is the dietary staple in China and many Chinese rice-growing regions exhibit cadmium contamination, making the tighter Chinese ML difficult for domestic supply to meet. This is the source's own feasibility-driven argument; the wiki reports it without endorsing the direction.
 
 ## Methods (brief)
 
@@ -160,6 +161,15 @@ Limitations: convenience sample (not population-representative); adults > 40 yea
 - All numerical values cross-checked against PDF pages 3–9 (Tables 1–6 and the Results/Discussion prose).
 
 `products: []` is retained as correct for this exposure-assessment paper: the source measures cadmium in food categories sampled from Shanghai dietary intake (not packaged consumer products), so it routes to ingredient and metal pages rather than to product-category pages. The routing audit flags this as `advisory` severity (missing optional routing-input fields, broad-scope fallback applied) — appropriate for an exposure-assessment design.
+
+2026-05-28 audit-application pass (Claude, fresh-context subagent verdict REVISE):
+
+- ⚠️→applied: **Regulatory comparison direction reversed.** Prior revision wording "the discussion proposes that the WHO MR for rice could be reduced from 0.4 → tighter values" inverted the source's actual policy framing. Verified against PDF p. 8: the source argues that the Chinese rice ML should be reevaluated *upward* toward the WHO ML of 0.4 mg/kg ("it is necessary to reevaluate whether the MLs of rice should be increased to 0.4 mg/kg because rice is the main food of Chinese, and many planting areas exhibit cadmium pollution in China"). Corrected in the Implications "Certification:" paragraph and the post-Table-6 prose. This was effectively an ❌ direction-reversal in a paper-faithfulness sense, even though the subagent labeled it ⚠️.
+- ⚠️→applied: **Peanut row added to Table 6.** Verified against PDF p. 9 Table 6: Peanut row reads China 0.5 / EFSA 0.1 / WHO 0.1. Row had been omitted from the prior revision.
+- ⚠️→applied: **Stem/root vegetables EFSA cell corrected.** Verified against PDF p. 9 Table 6: "Stem vegetables, root vegetables and potatoes, excluding celeriac" row shows China 0.1 / EFSA blank / WHO 0.1 (only two of three regulatory columns populated). Prior revision incorrectly populated EFSA = 0.1. Corrected to "—".
+- ⚠️→not changed: Two stylistic concerns the subagent flagged on Implications wording (vegetable P90 vs EFSA leaf-vegetable ML proximity; App-section "ingredient profile defaults" framing) were verified as paper-faithful interpretive context that stays on the wiki side of the Part 2 firewall (no HMTc threshold proposal, no consumer-audience advisory). Left as written.
+
+Audit checks 1–4 (numerical fidelity except Table 6 gaps now applied; slug vocabulary; speciation and methods; brand firewall) returned clean ✅. Check 5 (Part 2 wiki/HMTc firewall) had the Table 6 direction-reversal as its principal concern, now resolved.
 
 ## Wiki pages updated on ingest
 
