@@ -106,6 +106,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [3920bcd](https://github.com/paleofoundation/heavymetalindex/commit/3920bcd) | 2026-05-18 | audit: manouchehri2021-honey-heavy-metals-review revised |
 | [a05640b](https://github.com/paleofoundation/heavymetalindex/commit/a05640b) | 2026-05-18 | ingest: manouchehri2021-honey-heavy-metals-review enhanced from Papers Cube Manual Fetch |
 | [170bdb5](https://github.com/paleofoundation/heavymetalindex/commit/170bdb5) | 2026-05-17 | audit (codex): manouchehri2021-honey-heavy-metals-review revised |

@@ -166,11 +166,14 @@ European Union Regulation (EU) 2023/915 [[regulations/eu2023-contaminants-maximu
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | Ni in non-root vegetable categories (leafy and other vegetables) from Zhejiang Province within a population dietary exposure assessment |
+| 1 | [[sources/ye2026-tin-foods-dietary-exposure-zhejiang\|Ye et al. 2026]]. *Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China*, Foods | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | Ni in non-root vegetable categories (leafy and other vegetables) from Zhejiang Province within a population dietary exposure assessment |
+| 3 | [[sources/ahmed2017-bangladesh-vegetable-arsenic\|Ahmed et al. 2017]]. *Arsenic Contamination of Water-Soil-Crop System in an Industrial Area of Bangladesh*, International Journal of Environment | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/pal2017-wastewater-vegetables-heavy-metals\|Jitender et al. 2017]]. *Heavy Metals in Soil and Vegetables and their Effect on Health*, International Journal of Engineering Science Technologies | 2017 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -180,9 +183,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [8d43021](https://github.com/paleofoundation/heavymetalindex/commit/8d43021) | 2026-05-25 | autonomy: daemon tick 2026-05-25T08-16-54Z — gap-healing + extraction + pooling + briefings |
 | [894ba0a](https://github.com/paleofoundation/heavymetalindex/commit/894ba0a) | 2026-05-20 | autonomy: daemon tick 2026-05-20T00-33-21Z — gap-healing + extraction + pooling + briefings |
 | [d935060](https://github.com/paleofoundation/heavymetalindex/commit/d935060) | 2026-05-20 | autonomy: daemon tick 2026-05-19T23-46-10Z — gap-healing + extraction + pooling + briefings |
-| [5c6309b](https://github.com/paleofoundation/heavymetalindex/commit/5c6309b) | 2026-05-19 | autonomy: daemon tick 2026-05-19T00-27-42Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

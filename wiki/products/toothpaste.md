@@ -97,13 +97,20 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | EU/US/CA Pb, Cd, tHg, tAs, iAs, Cr, Cr-VI, Ni, Al, Fe, Cu, Zn, Co occurrence in Narrative review of heavy-metal contamination in cosmetics; literature 1990 - November 2025 retrieved via PubMed, Web of Science,... |
-| 2 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky et al. 2025]]. *Health risk implications of heavy metals in toothpaste*, Public Health and Toxicology 5(2):9 | 2025 | Peer-reviewed | Pb/Cd/Hg ADD and As LADD per-product exposure values for children 2-4yr and adults 20-35yr; HQ comparison against HGVs |
-| 3 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 1 | [[sources/chengappa2025-toothpaste-india-aas\|Chengappa et al. 2025]]. *Analysis of copper, zinc, arsenic, and lead content of over-the-counter toothpastes from india: an invitro study*, Scientific Reports 15:26535 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | EU/US/CA Pb, Cd, tHg, tAs, iAs, Cr, Cr-VI, Ni, Al, Fe, Cu, Zn, Co occurrence in Narrative review of heavy-metal contamination in cosmetics; literature 1990 - November 2025 retrieved via PubMed, Web of Science,... |
+| 3 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk\|Massarsky et al. 2025]]. *Health risk implications of heavy metals in toothpaste*, Public Health and Toxicology 5(2):9 | 2025 | Peer-reviewed | Pb/Cd/Hg ADD and As LADD per-product exposure values for children 2-4yr and adults 20-35yr; HQ comparison against HGVs |
+| 4 | [[sources/moriceau2025-cosmetics-icpms-iso21392\|Moriceau et al. 2025]]. *Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS*, Thermo Fisher Scientific Application Note 003602 | 2025 | Industry | *[awaiting synthesis]* |
+| 5 | [[sources/sccs2025-methyl-salicylate-children-exposure-1676-25\|Scientific Committee on Consumer 2025]]. *SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25)*, European Commission, Directorate-General for Health and Food Safety | 2025 | Government report | *[awaiting synthesis]* |
+| 6 | [[sources/opss2023-feasibility-action-limits-cosmetics-uk\|Axford et al. 2023]]. *A Feasibility Study Investigating Action Limits for Certain Heavy Metal Impurities in Cosmetic Products*, UK Office for Product Safety and Standards (OPSS), BEIS/OPSS Contract Ref FM21190; report prepared by LGC | 2023 | Government report | *[awaiting synthesis]* |
+| 7 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | *[awaiting synthesis]* |
+| 8 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | *[awaiting synthesis]* |
+| 10 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -113,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [0a783b0](https://github.com/paleofoundation/heavymetalindex/commit/0a783b0) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-17-21Z — gap-healing + extraction + pooling + briefings |
 | [b4ac734](https://github.com/paleofoundation/heavymetalindex/commit/b4ac734) | 2026-05-18 | autonomy: daemon tick 2026-05-17T22-36-15Z — gap-healing + extraction + pooling + briefings |
 | [8c39212](https://github.com/paleofoundation/heavymetalindex/commit/8c39212) | 2026-05-18 | autonomy: daemon tick 2026-05-17T21-55-08Z — gap-healing + extraction + pooling + briefings |
 | [c8eb9e8](https://github.com/paleofoundation/heavymetalindex/commit/c8eb9e8) | 2026-05-17 | autonomy: daemon tick 2026-05-17T20-32-37Z — gap-healing + extraction + pooling + briefings |
-| [52ab524](https://github.com/paleofoundation/heavymetalindex/commit/52ab524) | 2026-05-17 | autonomy: daemon tick 2026-05-17T19-54-43Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

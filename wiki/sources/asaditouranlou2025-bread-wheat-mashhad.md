@@ -133,6 +133,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [06ba494](https://github.com/paleofoundation/heavymetalindex/commit/06ba494) | 2026-05-18 | ingest kimi-cat03: asadi touranlou mashhad bread |
 | [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
 | [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |

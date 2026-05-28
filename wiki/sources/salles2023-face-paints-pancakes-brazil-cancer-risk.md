@@ -172,6 +172,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [9da5363](https://github.com/paleofoundation/heavymetalindex/commit/9da5363) | 2026-05-18 | audit: salles2023-face-paints-pancakes-brazil-cancer-risk revised |
 | [bce3afb](https://github.com/paleofoundation/heavymetalindex/commit/bce3afb) | 2026-05-18 | ingest: salles2023-face-paints-pancakes-brazil-cancer-risk enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
 | [5843bf4](https://github.com/paleofoundation/heavymetalindex/commit/5843bf4) | 2026-05-15 | sources: Cat 2 face paints — Salles 2023 PTEs in Brazilian costume cosmetics |

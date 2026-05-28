@@ -126,6 +126,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [95d82ac](https://github.com/paleofoundation/heavymetalindex/commit/95d82ac) | 2026-05-19 | audit (async drain): youssao2018 PROMOTE + desouza2022 REVISE applied |
 | [f2251d4](https://github.com/paleofoundation/heavymetalindex/commit/f2251d4) | 2026-05-19 | ingest auto-gap: benin fruit juice metals |
 <!-- END: hmi-page-history -->

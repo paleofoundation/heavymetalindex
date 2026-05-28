@@ -91,6 +91,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [9eca546](https://github.com/paleofoundation/heavymetalindex/commit/9eca546) | 2026-05-17 | audit (codex): atsdr2023 dermal guidance revised |
 | [e01f955](https://github.com/paleofoundation/heavymetalindex/commit/e01f955) | 2026-05-17 | audit: atsdr2023-soil-dermal-absorption-guidance revised |
 | [5c2c393](https://github.com/paleofoundation/heavymetalindex/commit/5c2c393) | 2026-05-17 | ingest: atsdr2023-soil-dermal-absorption-guidance enhanced from Manual Fetch Kimi/Children Personal Care Papers |

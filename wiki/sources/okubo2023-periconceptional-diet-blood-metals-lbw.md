@@ -114,6 +114,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [dbbc33f](https://github.com/paleofoundation/heavymetalindex/commit/dbbc33f) | 2026-05-18 | audit: okubo2023-periconceptional-diet-blood-metals-lbw audited-revised |
 | [de9d0b9](https://github.com/paleofoundation/heavymetalindex/commit/de9d0b9) | 2026-05-18 | ingest: okubo2023-periconceptional-diet-blood-metals-lbw enhanced from Papers Cube Manual Fetch |
 <!-- END: hmi-page-history -->

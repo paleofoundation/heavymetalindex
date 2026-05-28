@@ -91,6 +91,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [f0a6a36](https://github.com/paleofoundation/heavymetalindex/commit/f0a6a36) | 2026-05-17 | audit: medley2023-childrens-makeup-body-products-us-usage promoted |
 | [d0fb1c8](https://github.com/paleofoundation/heavymetalindex/commit/d0fb1c8) | 2026-05-17 | ingest: medley2023-childrens-makeup-body-products-us-usage fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
 <!-- END: hmi-page-history -->

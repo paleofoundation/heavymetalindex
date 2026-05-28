@@ -163,6 +163,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fc8e4e6](https://github.com/paleofoundation/heavymetalindex/commit/fc8e4e6) | 2026-05-18 | audit: rajeshkumar2018-taihu-lake-fish-oyster-metals revised |
 | [2b28e1f](https://github.com/paleofoundation/heavymetalindex/commit/2b28e1f) | 2026-05-18 | ingest: rajeshkumar2018-taihu-lake-fish-oyster-metals enhanced from Papers Cube Manual Fetch |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |

@@ -121,5 +121,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [57c2985](https://github.com/paleofoundation/heavymetalindex/commit/57c2985) | 2026-05-28 | audit: gasparik2017-wild-boar-slovakia-metals [revised] |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [49bebbc](https://github.com/paleofoundation/heavymetalindex/commit/49bebbc) | 2026-05-18 | synthesis: 5 new synthesis pages for HMTc seafood/cereal/regulatory work |
 <!-- END: hmi-page-history -->

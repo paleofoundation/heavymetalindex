@@ -161,11 +161,16 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 European Union Regulation 2023/915 sets maximum levels for root vegetables in the Pb and Cd analyte categories. Root vegetables, including tubers such as yam, fall under the root vegetable matrix scope with a Pb ML of 0.10 mg/kg (100 ppb) wet weight and a Cd ML of 0.10 mg/kg (100 ppb) wet weight. These limits apply to the commodity as placed on the market before peeling; they are distinct from the limits applicable to vegetable-based baby foods, which are governed by the Closer to Zero framework in the US and by the EU baby food directive in the EU. See [[regulations/eu2023-contaminants-maximum-levels]] and [[regulations/eu-2023-915-cadmium]] for the full scope of applicability. Codex STAN 193-1995 sets a Cd ML of 0.10 mg/kg for root and tuber vegetables, consistent with the EU value for this category; see [[regulations/codex-cadmium-mls]]. The UK retained EU maximum levels in domestic law following Brexit; UK root vegetable limits for Cd and Pb are equivalent to EU values as of 2026. The US FDA does not maintain specific federal action levels for Cd or Pb in yam as a fresh or processed commodity outside the baby-food context.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
-<!-- BEGIN: hmi-page-history -->
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Page history
 
 The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
@@ -177,4 +182,18 @@ The five most recent substantive edits to this page. The full version history li
 | [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
 | [1989151](https://github.com/paleofoundation/heavymetalindex/commit/1989151) | 2026-05-13 | profiles: populate contamination_profile values on 17 ingredient pages (batch 7/7) |
 | [e01e534](https://github.com/paleofoundation/heavymetalindex/commit/e01e534) | 2026-05-13 | pages: draft missing mandatory sections on 29 ingredient pages (potato-chips → yogurt) |
+<!-- END: hmi-page-history -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
+| [25004dc](https://github.com/paleofoundation/heavymetalindex/commit/25004dc) | 2026-05-18 | checkpoint: daemon + generator accumulated outputs (synthesis writer, marker regen, briefings) |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
+| [1989151](https://github.com/paleofoundation/heavymetalindex/commit/1989151) | 2026-05-13 | profiles: populate contamination_profile values on 17 ingredient pages (batch 7/7) |
 <!-- END: hmi-page-history -->

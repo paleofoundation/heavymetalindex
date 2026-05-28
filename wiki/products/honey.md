@@ -77,9 +77,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [ea92b51](https://github.com/paleofoundation/heavymetalindex/commit/ea92b51) | 2026-05-25 | fill honey synthesis prose |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [8a49534](https://github.com/paleofoundation/heavymetalindex/commit/8a49534) | 2026-05-17 | products index: numerical order, source counts on every row, drop clean/contaminated call-outs |
 | [0b917c5](https://github.com/paleofoundation/heavymetalindex/commit/0b917c5) | 2026-05-17 | stubs: strip 'autonomy-created stub' prose from 41 pages that now have structure |
-| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 <!-- END: hmi-page-history -->

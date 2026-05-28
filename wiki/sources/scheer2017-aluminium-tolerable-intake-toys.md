@@ -125,9 +125,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fd2079a](https://github.com/paleofoundation/heavymetalindex/commit/fd2079a) | 2026-05-28 | audit: scheer2017-aluminium-tolerable-intake-toys [revised] |
 | [afdfc16](https://github.com/paleofoundation/heavymetalindex/commit/afdfc16) | 2026-05-28 | ingest: scheer2017-aluminium-tolerable-intake-toys [enhanced] from Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
-| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
 <!-- END: hmi-page-history -->

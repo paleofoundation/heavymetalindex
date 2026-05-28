@@ -123,5 +123,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [8daf4f0](https://github.com/paleofoundation/heavymetalindex/commit/8daf4f0) | 2026-05-15 | sources: Cat 1 seafood — Garofalo 2025 10-year Italian Cd/Pb/Hg monitoring (5854 samples) |
 <!-- END: hmi-page-history -->

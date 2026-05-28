@@ -118,7 +118,7 @@ The machine-readable contamination profile is `pending`. Ingredient-level values
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -178,9 +178,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [8d43021](https://github.com/paleofoundation/heavymetalindex/commit/8d43021) | 2026-05-25 | autonomy: daemon tick 2026-05-25T08-16-54Z — gap-healing + extraction + pooling + briefings |
 | [d935060](https://github.com/paleofoundation/heavymetalindex/commit/d935060) | 2026-05-20 | autonomy: daemon tick 2026-05-19T23-46-10Z — gap-healing + extraction + pooling + briefings |
 | [5c6309b](https://github.com/paleofoundation/heavymetalindex/commit/5c6309b) | 2026-05-19 | autonomy: daemon tick 2026-05-19T00-27-42Z — gap-healing + extraction + pooling + briefings |
-| [afa3c3c](https://github.com/paleofoundation/heavymetalindex/commit/afa3c3c) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-55-15Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

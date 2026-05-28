@@ -88,9 +88,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [8f617da](https://github.com/paleofoundation/heavymetalindex/commit/8f617da) | 2026-05-17 | audit (codex): hussein2023-freshwater-marine-fish-egypt revised |
 | [7fd18ce](https://github.com/paleofoundation/heavymetalindex/commit/7fd18ce) | 2026-05-17 | sources(hussein2023): refine Verification notes per GPT-5.5 audit pass |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
-| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
 <!-- END: hmi-page-history -->

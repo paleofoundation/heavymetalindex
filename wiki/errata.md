@@ -14,14 +14,58 @@ This commitment is part of the [[methodology|editorial methodology]] and [[edito
 
 ## How to submit a correction
 
-Email **karen@paleofoundation.com** with the subject line **"Heavy Metal Index correction: [page slug]"**. Include:
+Use the form below. The Foundation acknowledges every submission within 5 business days. Email to **karen@paleofoundation.com** with the subject line **"Heavy Metal Index correction: [page slug]"** remains a supported backup if you prefer email or your submission needs attachments.
+
+Required fields:
 
 1. The page URL and the specific claim, number, or citation you are challenging.
 2. The correction you believe is warranted.
+
+Strongly preferred:
+
 3. The source that supports your correction. The Index is a literature-grounded reference; corrections that cite verifiable primary sources (peer-reviewed papers, agency documents, formal datasets) are actionable immediately. Corrections that argue from authority alone receive a slower review.
 4. Your relationship to the subject matter if it is relevant. The Foundation tracks but does not require this; it helps calibrate the review.
 
-A web form for correction submissions is on the roadmap. Until then, email is the supported channel.
+<form class="hmi-correction-form" data-hmi-correction-form="/api/corrections" novalidate>
+  <fieldset>
+    <legend>Submit a correction</legend>
+    <label>
+      <span class="hmi-correction-label">Page URL or slug <span class="hmi-correction-hint">(required — e.g. <code>ingredients/turmeric</code> or the full https URL)</span></span>
+      <input type="text" name="page" required maxlength="400" autocomplete="off" />
+    </label>
+    <label>
+      <span class="hmi-correction-label">The claim, number, or citation you are challenging <span class="hmi-correction-hint">(required — quote the specific text on the page)</span></span>
+      <textarea name="claim" required rows="3" maxlength="4000"></textarea>
+    </label>
+    <label>
+      <span class="hmi-correction-label">The correction you believe is warranted <span class="hmi-correction-hint">(required)</span></span>
+      <textarea name="correction" required rows="3" maxlength="4000"></textarea>
+    </label>
+    <label>
+      <span class="hmi-correction-label">Supporting source <span class="hmi-correction-hint">(strongly preferred — peer-reviewed paper, agency document, or formal dataset; include the DOI or URL)</span></span>
+      <textarea name="source" rows="2" maxlength="4000"></textarea>
+    </label>
+    <label>
+      <span class="hmi-correction-label">Your name <span class="hmi-correction-hint">(optional)</span></span>
+      <input type="text" name="submitter_name" maxlength="200" autocomplete="name" />
+    </label>
+    <label>
+      <span class="hmi-correction-label">Your email <span class="hmi-correction-hint">(optional — needed only if you want a written reply)</span></span>
+      <input type="email" name="submitter_email" maxlength="320" autocomplete="email" />
+    </label>
+    <label>
+      <span class="hmi-correction-label">Your relationship to the subject matter <span class="hmi-correction-hint">(optional — e.g. "academic researcher in food toxicology", "brand QA lead", "regulator at FDA")</span></span>
+      <input type="text" name="submitter_relationship" maxlength="400" autocomplete="off" />
+    </label>
+    <div class="hmi-correction-honeypot" aria-hidden="true">
+      <label>Leave this field empty<input type="text" name="hp" tabindex="-1" autocomplete="off" /></label>
+    </div>
+    <div class="hmi-correction-actions">
+      <span data-hmi-correction-status role="status" aria-live="polite"></span>
+      <button type="submit">Submit correction</button>
+    </div>
+  </fieldset>
+</form>
 
 ## What happens on receipt
 

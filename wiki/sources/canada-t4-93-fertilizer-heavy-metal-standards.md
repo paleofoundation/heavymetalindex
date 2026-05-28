@@ -79,6 +79,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
 | [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
 | [29a65ac](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac) | 2026-05-12 | ingest: batch-E seasonal-geographic-variance — 9 source pages |

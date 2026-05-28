@@ -15,6 +15,21 @@
 //   search_evidence({ query, limit? }) → ranked Heavy Metal Index pages
 //     matching a free-text query. Uses the same retrieval pipeline as
 //     /api/ask but returns structured records without LLM rendering.
+//   coverage_status({ scope? }) → corpus coverage at a glance: source count
+//     by tier and source-type, ingredient/product/metal/regulation page
+//     counts, contamination-profile completeness. Use when a user asks
+//     "how much of X has the Heavy Metal Index indexed".
+//   source_lookup({ cite_key }) → look up a source by its cite_key (the
+//     wiki/sources/<slug> stem). Returns DOI, access URL, authors, year,
+//     publication, evidence tier, review state, and the page URL.
+//   regulation_history({ metal?, matrix?, jurisdiction? }) → chronological
+//     timeline of regulatory thresholds matching the filters, ordered by
+//     effective_date ascending, with superseded markers preserved so
+//     downstream agents can see how a regulatory limit has moved over time.
+//   product_category_lookup({ slug? , hmtc_category? , hmtc_row? }) → look
+//     up an HMTc product-category page or all rows in a category. Returns
+//     the row's clean/dirty designation, platform_metals, paired sibling,
+//     contributing source count, and page URL.
 //
 // Every tool response carries the license envelope so downstream agents
 // preserve attribution. Database-rights protections (see /licensing) are
@@ -25,9 +40,8 @@
 // JSON-RPC reply. SSE streaming is supported for `notifications/progress` on
 // long-running tools (currently none).
 //
-// Future tools (named so the gap is visible): coverage_status, source_lookup
-// by cite_key, regulation_history (timeline view), product_category_lookup,
-// sub_national_geographic_query (when sampling_locations populates).
+// Reserved future tools: sub_national_geographic_query (when
+// sampling_locations populates), variance_query (seasonal/geographic).
 
 import fs from "node:fs/promises"
 import path from "node:path"
@@ -109,6 +123,59 @@ const TOOLS = [
       required: ["query"],
     },
   },
+  {
+    name: "coverage_status",
+    description:
+      "Corpus coverage at a glance — counts of source pages by tier and source type, ingredient/product/metal/regulation page totals, and contamination-profile completeness. Use when a user asks how much of a topic the Heavy Metal Index has indexed, or where the gaps are.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        scope: {
+          type: "string",
+          description: "Optional scope hint ('ingredient', 'product', 'metal', 'regulation', 'source'). Defaults to a summary across all scopes.",
+          enum: ["ingredient", "product", "metal", "regulation", "source", "summary"],
+        },
+      },
+    },
+  },
+  {
+    name: "source_lookup",
+    description:
+      "Look up a source page by its cite_key (the slug under wiki/sources/, e.g. 'angelon-gaetz2018-lead-spices-north-carolina'). Returns DOI, access URL, authors, year, publication, evidence tier, review state, and the page URL.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        cite_key: { type: "string", description: "Source page slug (cite key)" },
+      },
+      required: ["cite_key"],
+    },
+  },
+  {
+    name: "regulation_history",
+    description:
+      "Chronological timeline of regulatory thresholds matching the filters, ordered by effective_date ascending. Supersedeed entries are preserved so downstream readers see how a limit has moved over time. Use for 'how has the limit changed' or 'what is the latest' questions.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        metal: { type: "string", description: "HMTc analyte code", enum: [...ALLOWED_METALS] },
+        matrix: { type: "string", description: "Matrix substring (e.g. 'rice', 'infant')" },
+        jurisdiction: { type: "string", description: "ISO jurisdiction code" },
+      },
+    },
+  },
+  {
+    name: "product_category_lookup",
+    description:
+      "Look up an HMTc product-category page or all rows in a category. Returns slug, title, hmtc_category, hmtc_row, variant_type (clean_benchmark / contamination_platform / whole_row_platform), pair (sibling slug), platform_metals, contributing source count, and page URL.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        slug: { type: "string", description: "Product page slug, e.g. 'products/infant-formula-powder-non-soy'" },
+        hmtc_category: { type: ["integer", "string"], description: "HMTc category number (e.g. 1 for infant and child foods)" },
+        hmtc_row: { type: ["integer", "string"], description: "HMTc row within a category (used with hmtc_category)" },
+      },
+    },
+  },
 ]
 
 let cached
@@ -180,10 +247,14 @@ export default async function handler(req, res) {
 
 async function callTool(name, args, req) {
   switch (name) {
-    case "contamination_lookup": return await contaminationLookup(args, req)
-    case "regulation_lookup":    return await regulationLookup(args, req)
-    case "synthesis_lookup":     return await synthesisLookup(args, req)
-    case "search_evidence":      return await searchEvidence(args, req)
+    case "contamination_lookup":      return await contaminationLookup(args, req)
+    case "regulation_lookup":         return await regulationLookup(args, req)
+    case "synthesis_lookup":          return await synthesisLookup(args, req)
+    case "search_evidence":           return await searchEvidence(args, req)
+    case "coverage_status":           return await coverageStatus(args, req)
+    case "source_lookup":             return await sourceLookup(args, req)
+    case "regulation_history":        return await regulationHistory(args, req)
+    case "product_category_lookup":   return await productCategoryLookup(args, req)
     default: throw new Error(`Tool not implemented: ${name}`)
   }
 }
@@ -290,6 +361,187 @@ async function searchEvidence({ query, limit }, req) {
     query: { query, limit: cap },
     matched_pages: scored.length,
     records: scored.slice(0, cap),
+    license: LICENSE_ENVELOPE,
+  }
+}
+
+async function coverageStatus({ scope }, req) {
+  const contentIndex = await loadJson("/static/contentIndex.json", "../public/static/contentIndex.json", req)
+  const contamination = await loadJson("/static/contamination.json", "../public/static/contamination.json", req).catch(() => null)
+  const corpus = await loadCorpus(req)
+  const counts = { source: 0, ingredient: 0, product: 0, metal: 0, regulation: 0, synthesis: 0 }
+  for (const slug of Object.keys(contentIndex)) {
+    if (!isPublicSlug(slug)) continue
+    if (slug.startsWith("sources/") && slug !== "sources/index") counts.source++
+    else if (slug.startsWith("ingredients/") && slug !== "ingredients/index") counts.ingredient++
+    else if (slug.startsWith("products/") && slug !== "products/index") counts.product++
+    else if (slug.startsWith("metals/") && slug !== "metals/index") counts.metal++
+    else if (slug.startsWith("regulations/") && !["regulations/index", "regulations/by-jurisdiction", "regulations/timeline"].includes(slug)) counts.regulation++
+    else if (slug.startsWith("synthesis/") && slug !== "synthesis/index") counts.synthesis++
+  }
+  let contaminationProfileCoverage = null
+  if (contamination?.records) {
+    let totalCells = 0
+    const byStatus = { populated: 0, in_progress: 0, pending: 0 }
+    for (const r of contamination.records) {
+      for (const cell of Object.values(r.metals || {})) {
+        totalCells++
+        const status = (cell.status || "pending").toLowerCase()
+        if (byStatus[status] !== undefined) byStatus[status]++
+      }
+    }
+    contaminationProfileCoverage = {
+      total_cells: totalCells,
+      populated: byStatus.populated,
+      in_progress: byStatus.in_progress,
+      pending: byStatus.pending,
+      percent_populated: totalCells ? +(byStatus.populated / totalCells * 100).toFixed(1) : 0,
+    }
+  }
+  const result = {
+    query: { scope: scope || "summary" },
+    page_counts: counts,
+    regulation_jurisdictions: new Set(corpus.regulations.flatMap((r) => r.jurisdictions || [])).size,
+    contamination_profile_coverage: contaminationProfileCoverage,
+    coverage_page_url: "https://heavymetalindex.com/coverage",
+    methodology_page_url: "https://heavymetalindex.com/methodology",
+    license: LICENSE_ENVELOPE,
+  }
+  if (scope && scope !== "summary") {
+    const key = scope
+    result.detail = key in counts ? { [key]: counts[key] } : { note: `Unknown scope "${scope}". Use ingredient | product | metal | regulation | source | summary.` }
+  }
+  return result
+}
+
+async function sourceLookup({ cite_key }, req) {
+  if (!cite_key || typeof cite_key !== "string") {
+    return { error: "cite_key is required (the wiki/sources/<slug> stem).", license: LICENSE_ENVELOPE }
+  }
+  const slug = cite_key.startsWith("sources/") ? cite_key : `sources/${cite_key}`
+  const contentIndex = await loadJson("/static/contentIndex.json", "../public/static/contentIndex.json", req)
+  const page = contentIndex[slug]
+  if (!page) {
+    return {
+      query: { cite_key },
+      matched: false,
+      note: `No source page found for cite_key "${cite_key}". Source pages live under wiki/sources/. Try search_evidence with author/year terms.`,
+      license: LICENSE_ENVELOPE,
+    }
+  }
+  return {
+    query: { cite_key },
+    matched: true,
+    record: {
+      cite_key: slug.replace(/^sources\//, ""),
+      title: page.title || slug,
+      page_url: `https://heavymetalindex.com/${slug}`,
+      wiki_doi: page.wiki_doi || null,
+      doi: page.doi || null,
+      access_url: page.access_url || null,
+      publication: page.publication || null,
+      year: page.year || null,
+      authors: asArray(page.authors),
+      source_type: page.source_type || null,
+      evidence_tier: page.evidence_tier || null,
+      review_state: page.review_state || null,
+      license: page.license || null,
+      metals: asArray(page.metals),
+      matrices: asArray(page.matrices),
+      jurisdictions: asArray(page.jurisdictions),
+    },
+    license: LICENSE_ENVELOPE,
+  }
+}
+
+async function regulationHistory({ metal, matrix, jurisdiction }, req) {
+  if (metal && !ALLOWED_METALS.has(metal)) {
+    return { error: `Unknown metal: ${metal}`, allowed_metals: [...ALLOWED_METALS], license: LICENSE_ENVELOPE }
+  }
+  const corpus = await loadCorpus(req)
+  let regs = corpus.regulations
+  if (metal) regs = regs.filter((r) => (r.metals || []).includes(metal))
+  if (matrix) {
+    const m = matrix.toLowerCase()
+    regs = regs.filter((r) => (r.matrices || []).some((x) => String(x).toLowerCase().includes(m)))
+  }
+  if (jurisdiction) {
+    const j = jurisdiction.toLowerCase()
+    regs = regs.filter((r) => (r.jurisdictions || []).some((x) => String(x).toLowerCase() === j))
+  }
+  const FAR_FUTURE = "9999-12-31"
+  regs = [...regs].sort((a, b) => {
+    const ad = a.effective_date || FAR_FUTURE
+    const bd = b.effective_date || FAR_FUTURE
+    return ad.localeCompare(bd)
+  })
+  return {
+    query: { metal: metal || null, matrix: matrix || null, jurisdiction: jurisdiction || null },
+    matched_regulations: regs.length,
+    timeline: regs.map((r) => ({
+      slug: r.slug,
+      title: r.title,
+      jurisdictions: r.jurisdictions,
+      agency: r.agency,
+      metals: r.metals,
+      matrices: r.matrices,
+      limit_value: r.limit_value,
+      limit_unit: r.limit_unit,
+      status: r.status,
+      effective_date: r.effective_date,
+      page_url: r.page_url,
+      wiki_doi: r.wiki_doi,
+    })),
+    license: LICENSE_ENVELOPE,
+  }
+}
+
+async function productCategoryLookup({ slug, hmtc_category, hmtc_row }, req) {
+  const contentIndex = await loadJson("/static/contentIndex.json", "../public/static/contentIndex.json", req)
+  let matches = []
+  if (slug) {
+    const target = slug.startsWith("products/") ? slug : `products/${slug}`
+    const page = contentIndex[target]
+    if (page) matches.push({ slug: target, page })
+  } else if (hmtc_category !== undefined && hmtc_category !== null) {
+    const cat = String(hmtc_category)
+    const row = hmtc_row !== undefined && hmtc_row !== null ? String(hmtc_row) : null
+    for (const [s, p] of Object.entries(contentIndex)) {
+      if (!s.startsWith("products/") || s === "products/index") continue
+      if (String(p.hmtc_category ?? "") !== cat) continue
+      if (row && String(p.hmtc_row ?? "") !== row) continue
+      matches.push({ slug: s, page: p })
+    }
+  } else {
+    return {
+      error: "Provide either slug, or hmtc_category (optionally with hmtc_row).",
+      license: LICENSE_ENVELOPE,
+    }
+  }
+  if (matches.length === 0) {
+    return {
+      query: { slug: slug || null, hmtc_category: hmtc_category ?? null, hmtc_row: hmtc_row ?? null },
+      matched_rows: 0,
+      note: "No matching product-category page found.",
+      license: LICENSE_ENVELOPE,
+    }
+  }
+  return {
+    query: { slug: slug || null, hmtc_category: hmtc_category ?? null, hmtc_row: hmtc_row ?? null },
+    matched_rows: matches.length,
+    records: matches.map(({ slug: s, page }) => ({
+      slug: s,
+      title: page.title || s,
+      page_url: `https://heavymetalindex.com/${s}`,
+      wiki_doi: page.wiki_doi || null,
+      hmtc_category: page.hmtc_category ?? null,
+      hmtc_row: page.hmtc_row ?? null,
+      variant_type: page.variant_type || null,
+      pair: page.pair || null,
+      platform_metals: asArray(page.platform_metals),
+      provisional_scaffold: page.provisional_scaffold ?? page.pending_category_lock ?? null,
+      sources_count: page.sources ?? page.sources_count ?? null,
+    })),
     license: LICENSE_ENVELOPE,
   }
 }

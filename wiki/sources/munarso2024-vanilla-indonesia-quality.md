@@ -112,5 +112,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [9298715](https://github.com/paleofoundation/heavymetalindex/commit/9298715) | 2026-05-28 | audit: munarso2024-vanilla-indonesia-quality [promoted] |
+| [6a02117](https://github.com/paleofoundation/heavymetalindex/commit/6a02117) | 2026-05-28 | ingest: munarso2024-vanilla-indonesia-quality [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
 | [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
 <!-- END: hmi-page-history -->

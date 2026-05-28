@@ -122,6 +122,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [4f17c22](https://github.com/paleofoundation/heavymetalindex/commit/4f17c22) | 2026-05-26 | audit: ndungu2004-lead-vinegar-icpms-gfaas audited-revised |
 | [8c640e3](https://github.com/paleofoundation/heavymetalindex/commit/8c640e3) | 2026-05-26 | ingest: ndungu2004-lead-vinegar-icpms-gfaas enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |

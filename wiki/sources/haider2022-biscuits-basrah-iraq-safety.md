@@ -104,6 +104,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [77a9e11](https://github.com/paleofoundation/heavymetalindex/commit/77a9e11) | 2026-05-20 | audit: haider2022-biscuits-basrah-iraq-safety [revised] |
 | [338e4c4](https://github.com/paleofoundation/heavymetalindex/commit/338e4c4) | 2026-05-20 | ingest: haider2022-biscuits-basrah-iraq-safety [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |

@@ -98,6 +98,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [b05cfbe](https://github.com/paleofoundation/heavymetalindex/commit/b05cfbe) | 2026-05-19 | audit: pankiewicz2012-thg-dairy-products-poland revised |
 | [e56d772](https://github.com/paleofoundation/heavymetalindex/commit/e56d772) | 2026-05-19 | ingest: pankiewicz2012-thg-dairy-products-poland enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |

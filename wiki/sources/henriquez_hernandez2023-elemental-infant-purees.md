@@ -98,6 +98,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [299f9b2](https://github.com/paleofoundation/heavymetalindex/commit/299f9b2) | 2026-05-18 | fix: clear 2 routing_unresolved entries (henriquez + tatsuta duplicate) |
 | [f18fb1f](https://github.com/paleofoundation/heavymetalindex/commit/f18fb1f) | 2026-05-18 | ingest: henriquez_hernandez2023-elemental-infant-purees from raw/markdown/FM_10384816 |
 <!-- END: hmi-page-history -->

@@ -152,5 +152,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [6d80f24](https://github.com/paleofoundation/heavymetalindex/commit/6d80f24) | 2026-05-16 | ingest: eu-reg-2022-617-mercury-fish regulation page |
 <!-- END: hmi-page-history -->

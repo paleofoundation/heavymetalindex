@@ -3,51 +3,51 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1490 candidate queries
-- Path B (empty product + thin ingredient pages): 8169 candidate queries
-- Total candidates (after dedup): 13199
+- Path B (empty product + thin ingredient pages): 11097 candidate queries
+- Total candidates (after dedup): 16497
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 13199
+- Eligible after filtering: 16497
 - Final wishlist (capped at 2500): 2500
 
 ### By priority
 
-- P1: 2500
+- P1: 1384
+- P2: 1116
 
 ### By source path
 
-- ingredient: 365
-- product: 2135
+- ingredient: 2500
 
 ## Query-history-aware deprioritization
 
 Threshold: a (query × cell) attempted >=5 times with <2 successful downloads is dropped from this run.
 
-Audit-log scale: 156 (query × cell) histories tracked.
+Audit-log scale: 104 (query × cell) histories tracked.
 
 ## Top 20 priority queries this run
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | ingredient:plums × tHg | plums total mercury contamination occurrence |
-| P1 | conditioner-adult-rinse-out × Pb | conditioner (general adult, rinse-out) Pb |
-| P1 | dietary-supplements × tHg | dietary supplements mercury occurrence |
-| P1 | tableware-metal-bottles-tumblers × tHg | metal bottles/tumblers mercury |
-| P1 | ingredient:soybean-oil × Sn | soybean oil heavy metals tin contamination occurrence |
-| P1 | infant-formula-dairy × iAs | infant formula dairy speciated arsenic occurrence |
-| P1 | sports-energy-drinks × tAs | sports energy drinks heavy metals arsenic occurrence |
-| P1 | ingredient:canned-mushrooms × Sn | canned mushrooms heavy metals tin contamination occurrence |
-| P1 | clasps-fasteners-infant-products × tHg | clasps/fasteners (snaps, zippers, buttons) used in infant products mercury |
-| P1 | food-packaging-glass-jars × tHg | glass jars mercury |
-| P1 | utensils-metal × Cd | utensils metal Cd |
-| P1 | canned-tomatoes × Sn | canned tomatoes heavy metals tin occurrence |
-| P1 | baby-shampoo-body-wash × Cd | baby shampoo body wash Cd occurrence |
-| P1 | toys-balls × Cd | toys balls cadmium |
-| P1 | infant-formula-powder-dairy × Cr-VI | infant formula powder dairy heavy metals hexavalent chromium occurrence |
-| P1 | menstrual-tampons × Pb | menstrual tampons (scented/unscented; applicator tested as distinct component) Pb |
-| P1 | cookware-nonstick-coated × Cd | cookware nonstick coated heavy metals Cd |
-| P1 | all-purpose-cleaners × Cd | all purpose cleaners heavy metals Cd |
-| P1 | food-packaging-caps-closures × Pb | caps/closures Pb |
-| P1 | ingredient:melon × Sn | melon heavy metals tin contamination occurrence |
+| P1 | ingredient:semi-skimmed-milk × Ni | semi skimmed milk nickel contamination occurrence |
+| P1 | ingredient:honey × Sn | honey tin contamination occurrence |
+| P1 | ingredient:cinnamon × Sn | cinnamon tin contamination occurrence |
+| P1 | ingredient:non-soy-protein-source × iAs | non soy protein source heavy metals inorganic arsenic contamination occurrence |
+| P1 | ingredient:rice-flour × Ni | rice flour heavy metals nickel contamination occurrence |
+| P1 | ingredient:chapattis × Ni | chapattis heavy metals nickel contamination occurrence |
+| P1 | ingredient:fermented-beverage-bases × iAs | fermented beverage bases inorganic arsenic contamination occurrence |
+| P1 | ingredient:grapefruit × Sn | grapefruit heavy metals tin contamination occurrence |
+| P1 | ingredient:lettuce × Sn | lettuce heavy metals tin contamination occurrence |
+| P1 | ingredient:non-root-vegetables × Cr | non-root vegetables chromium contamination occurrence |
+| P1 | ingredient:organ-meats × iAs | organ meats inorganic arsenic contamination occurrence |
+| P1 | ingredient:cauliflower × iAs | cauliflower inorganic arsenic contamination occurrence |
+| P1 | ingredient:organ-meats × tAs | organ meats (kidney and liver) total arsenic contamination occurrence |
+| P1 | ingredient:non-root-vegetable-purees × Pb | non root vegetable purees lead contamination occurrence |
+| P1 | ingredient:turmeric × iAs | turmeric heavy metals inorganic arsenic contamination occurrence |
+| P1 | ingredient:peaches × Ni | peaches nickel contamination occurrence |
+| P1 | ingredient:butternut-squash × tAs | butternut squash total arsenic contamination occurrence |
+| P1 | ingredient:noodles × Cr | noodles heavy metals chromium contamination occurrence |
+| P1 | ingredient:chicken-noodle-soup × Sn | chicken noodle soup heavy metals tin contamination occurrence |
+| P1 | ingredient:custard × tAs | custard heavy metals total arsenic contamination occurrence |
 
 ## Coverage rotation
 

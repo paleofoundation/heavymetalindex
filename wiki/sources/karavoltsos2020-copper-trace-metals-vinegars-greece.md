@@ -146,6 +146,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [07a0c16](https://github.com/paleofoundation/heavymetalindex/commit/07a0c16) | 2026-05-26 | audit: karavoltsos2020-copper-trace-metals-vinegars-greece audited-revised |
 | [dc89bab](https://github.com/paleofoundation/heavymetalindex/commit/dc89bab) | 2026-05-26 | ingest: karavoltsos2020-copper-trace-metals-vinegars-greece enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
 | [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |

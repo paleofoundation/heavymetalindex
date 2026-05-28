@@ -87,6 +87,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2204e14](https://github.com/paleofoundation/heavymetalindex/commit/2204e14) | 2026-05-18 | audit: sarker2022-bangladesh-food-webs-review revised |
 | [a11dcb5](https://github.com/paleofoundation/heavymetalindex/commit/a11dcb5) | 2026-05-18 | ingest: sarker2022-bangladesh-food-webs-review enhanced from Papers Cube Manual Fetch |
 | [d0adb11](https://github.com/paleofoundation/heavymetalindex/commit/d0adb11) | 2026-05-17 | audit (codex): sarker2022 bangladesh food webs revised |

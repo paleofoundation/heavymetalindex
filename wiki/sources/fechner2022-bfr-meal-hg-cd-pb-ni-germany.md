@@ -140,9 +140,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [edad667](https://github.com/paleofoundation/heavymetalindex/commit/edad667) | 2026-05-26 | audit: fechner2022-bfr-meal-hg-cd-pb-ni-germany revised |
 | [304b492](https://github.com/paleofoundation/heavymetalindex/commit/304b492) | 2026-05-26 | ingest: fechner2022-bfr-meal-hg-cd-pb-ni-germany enhanced from Manual Fetch Kimi /condiment_papers/01_Oils |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 | [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
-| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
 <!-- END: hmi-page-history -->

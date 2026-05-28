@@ -114,9 +114,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [eb66ab0](https://github.com/paleofoundation/heavymetalindex/commit/eb66ab0) | 2026-05-18 | lint (codex): pehlivan duplicate route cleanup |
 | [dc36ffd](https://github.com/paleofoundation/heavymetalindex/commit/dc36ffd) | 2026-05-18 | audit (codex): pehlivan2008 vegetable oils revised |
 | [66f91dc](https://github.com/paleofoundation/heavymetalindex/commit/66f91dc) | 2026-05-17 | ingest: pehlivan2008 vegetable oils enhanced |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
-| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
 <!-- END: hmi-page-history -->

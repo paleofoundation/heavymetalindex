@@ -82,6 +82,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [12cdbab](https://github.com/paleofoundation/heavymetalindex/commit/12cdbab) | 2026-05-17 | audit (codex): wei2025 yunnan rice thresholds revised |
 | [1b0ab1a](https://github.com/paleofoundation/heavymetalindex/commit/1b0ab1a) | 2026-05-13 | sources: access_url backfill on 14 newly-ingested pages + balzani fix |
 | [98e0e7c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c) | 2026-05-13 | ingest p4-batch6-g3: 1 page, 49 FP |

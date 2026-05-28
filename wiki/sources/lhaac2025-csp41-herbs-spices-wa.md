@@ -131,9 +131,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [662f7a5](https://github.com/paleofoundation/heavymetalindex/commit/662f7a5) | 2026-05-28 | audit: lhaac2025-csp41-herbs-spices-wa [revised] |
 | [24ccdb0](https://github.com/paleofoundation/heavymetalindex/commit/24ccdb0) | 2026-05-28 | ingest: lhaac2025-csp41-herbs-spices-wa [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
-| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
 <!-- END: hmi-page-history -->

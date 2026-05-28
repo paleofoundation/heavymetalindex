@@ -67,5 +67,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [493fa39](https://github.com/paleofoundation/heavymetalindex/commit/493fa39) | 2026-05-19 | ingest marker batch 2026-05-19 1545 1: 5 source pages from P1-P2 |
 <!-- END: hmi-page-history -->

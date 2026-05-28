@@ -9,6 +9,21 @@
     "api/ask.js": {
       "maxDuration": 30
     },
+    "api/contamination.mjs": {
+      "maxDuration": 15
+    },
+    "api/regulations.mjs": {
+      "maxDuration": 15
+    },
+    "api/evidence-packet.mjs": {
+      "maxDuration": 15
+    },
+    "api/corrections.mjs": {
+      "maxDuration": 15
+    },
+    "api/mcp.mjs": {
+      "maxDuration": 30
+    },
     "api/queue/discovery.mjs": {
       "maxDuration": 300
     },

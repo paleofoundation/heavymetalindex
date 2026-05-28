@@ -160,9 +160,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
 | [4e3cf32](https://github.com/paleofoundation/heavymetalindex/commit/4e3cf32) | 2026-05-18 | fix: dedupe bfr2024 BfR MEAL methylmercury — unblock Codex true-duplicate stop |
 | [5c8d97a](https://github.com/paleofoundation/heavymetalindex/commit/5c8d97a) | 2026-05-18 | sections: products/canned-fish — full mandatory-sections pass (canned-fish standards manual evidence anchor) |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
-| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 <!-- END: hmi-page-history -->

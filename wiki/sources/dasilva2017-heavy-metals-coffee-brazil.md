@@ -132,6 +132,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [6a694be](https://github.com/paleofoundation/heavymetalindex/commit/6a694be) | 2026-05-25 | audit dasilva2017 coffee source |
 | [780788a](https://github.com/paleofoundation/heavymetalindex/commit/780788a) | 2026-05-20 | ingest: dasilva2017-heavy-metals-coffee-brazil [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
 | [66642fe](https://github.com/paleofoundation/heavymetalindex/commit/66642fe) | 2026-05-19 | ingest auto-gap: brazil coffee metals |

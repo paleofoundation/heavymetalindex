@@ -6,23 +6,67 @@ wiki_doi: null
 updated: 2026-05-28
 status: scaffold
 curators:
-  - name: "[PLACEHOLDER — name to be filled by operator]"
-    role: editor-in-chief
-    affiliation: "Paleo Foundation"
-    credentials: "[PLACEHOLDER — degrees / certifications]"
-    domain_expertise: "Heavy metals in food, certification programs, supply-chain quality assurance"
+  - name: "Karen Pendergrass"
+    slug: karen-pendergrass
+    role: founder-editor-in-chief
+    affiliation: "Paleo Foundation (Cyprus)"
+    credentials: "Founder and Chief Executive Officer, Paleo Foundation. Architect of the Heavy Metal Index and the Heavy Metal Tested & Certified (HMT&C) certification program. Curator of the corpus and editor of substantive synthesis claims."
+    domain_expertise: "Heavy metals in food, food certification program design, supply-chain quality assurance, regulatory comparative analysis, standards-setting methodology"
     conflicts_of_interest:
-      - "Operates the Heavy Metal Tested & Certified (HMT&C) program at heavymetaltested.com. The wiki/HMT&C editorial firewall is documented in [[editorial-standards]] and enforced architecturally."
+      - "Operates the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetaltested.com. The wiki/HMT&C editorial firewall is documented in [[editorial-standards]] § Editorial firewall and enforced architecturally (one-way linking, no brand-level data in the wiki, no HMT&C-certified brand mentions, evidence-state separation between public wiki claims and HMT&C internal records)."
+      - "Operates additional Paleo Foundation certification programs unrelated to heavy metals. None of those programs interact with Heavy Metal Index editorial decisions."
     contact: "karen@paleofoundation.com"
     recusal_pages: []
 external_reviewers:
-  - name: "[PLACEHOLDER — first external reviewer]"
+  - name: "[PENDING INVITATION — food-chemistry / ICP-MS methods]"
+    slug: pending-foodchem-1
     role: external-reviewer
-    domain_expertise: "[e.g. food chemistry, ICP-MS method development]"
-    affiliation: "[institution]"
-    review_log: "data/peer-review/<reviewer-slug>.jsonl"
+    domain_expertise: "Analytical food chemistry, ICP-MS sample preparation, speciation analysis (iAs vs tAs, MeHg vs tHg), inter-laboratory method validation"
+    affiliation: "[to be confirmed]"
+    invited_for: ["synthesis/organoarsenical-inertness-assumption", "synthesis/cooking-does-not-reduce-mehg", "synthesis/se-hg-molar-ratio-certification-debate"]
+    review_log: "data/peer-review/pending-foodchem-1.jsonl"
     conflicts_of_interest: []
-review_board_status: forming
+  - name: "[PENDING INVITATION — exposure toxicology / dietary epidemiology]"
+    slug: pending-toxicology-1
+    role: external-reviewer
+    domain_expertise: "Dietary exposure assessment, vulnerable-population toxicology (infants, pregnant women, subsistence-fishing communities), BMDL / TWI / PTMI derivation methodology"
+    affiliation: "[to be confirmed]"
+    invited_for: ["synthesis/combined-exposure-underprotection", "synthesis/subsistence-fishing-mehg-disparity", "synthesis/spice-adulteration-lead-infants"]
+    review_log: "data/peer-review/pending-toxicology-1.jsonl"
+    conflicts_of_interest: []
+  - name: "[PENDING INVITATION — regulatory affairs / standards-setting]"
+    slug: pending-regulatory-1
+    role: external-reviewer
+    domain_expertise: "EU contaminants regulation (1881/2006 → 2023/915 lineage), FDA Closer to Zero process, Codex Alimentarius CCCF deliberations, comparative regulatory analysis"
+    affiliation: "[to be confirmed]"
+    invited_for: ["synthesis/eu-regulatory-framework-timeline", "synthesis/organic-certification-not-protective"]
+    review_log: "data/peer-review/pending-regulatory-1.jsonl"
+    conflicts_of_interest: []
+  - name: "[PENDING INVITATION — aquaculture / fisheries science]"
+    slug: pending-fisheries-1
+    role: external-reviewer
+    domain_expertise: "Aquaculture vs wild fisheries contamination differentials, mercury bioaccumulation in marine food webs, climate impacts on fish methylmercury"
+    affiliation: "[to be confirmed]"
+    invited_for: ["synthesis/aquaculture-vs-wild-contamination-differential", "synthesis/climate-fish-mehg-projections", "synthesis/mining-impacted-freshwater-fish", "synthesis/bivalve-cadmium-amplification"]
+    review_log: "data/peer-review/pending-fisheries-1.jsonl"
+    conflicts_of_interest: []
+  - name: "[PENDING INVITATION — cocoa / chocolate / commodity supply-chain]"
+    slug: pending-cocoa-1
+    role: external-reviewer
+    domain_expertise: "Cocoa cadmium agronomy and mitigation (Codex CXC 81-2022), chocolate manufacturing chain-of-custody, US chocolate lead temporal trends"
+    affiliation: "[to be confirmed]"
+    invited_for: ["synthesis/us-chocolate-lead-temporal-decline", "synthesis/seaweed-cd-as-contamination"]
+    review_log: "data/peer-review/pending-cocoa-1.jsonl"
+    conflicts_of_interest: []
+  - name: "[PENDING INVITATION — climate-and-contamination]"
+    slug: pending-climate-1
+    role: external-reviewer
+    domain_expertise: "Climate change interactions with contaminant fate and transport, paddy-rice biogeochemistry under shifting hydrology, projection-modelling for food-system exposure"
+    affiliation: "[to be confirmed]"
+    invited_for: ["synthesis/climate-metals-tradeoffs", "synthesis/climate-fish-mehg-projections"]
+    review_log: "data/peer-review/pending-climate-1.jsonl"
+    conflicts_of_interest: []
+review_board_status: forming — founder editor seated; six external-reviewer slots open with domain-specific invitation drafts ready
 last_review_board_update: 2026-05-28
 ---
 

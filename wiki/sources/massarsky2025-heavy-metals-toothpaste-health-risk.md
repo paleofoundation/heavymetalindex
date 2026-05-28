@@ -146,6 +146,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [29d699f](https://github.com/paleofoundation/heavymetalindex/commit/29d699f) | 2026-05-18 | audit: massarsky2025-heavy-metals-toothpaste-health-risk revised |
 | [c1daddd](https://github.com/paleofoundation/heavymetalindex/commit/c1daddd) | 2026-05-18 | ingest: massarsky2025-heavy-metals-toothpaste-health-risk enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
 | [8011040](https://github.com/paleofoundation/heavymetalindex/commit/8011040) | 2026-05-15 | sources: Cat 2 toothpaste — Massarsky 2025 health risk + toothpaste product row |

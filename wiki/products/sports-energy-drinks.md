@@ -112,9 +112,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 | [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
 | [ed8e81c](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81c) | 2026-05-14 | autonomy: firewall lint+fix and mandatory-sections audit+autofill |
 | [5599709](https://github.com/paleofoundation/heavymetalindex/commit/5599709) | 2026-05-13 | phase 0: lock HMTc methodology, remove admission filter, evict standards arithmetic from wiki/ |
-| [70d169a](https://github.com/paleofoundation/heavymetalindex/commit/70d169a) | 2026-05-12 | TODO.md + stakeholder guides on the remaining product families |
 <!-- END: hmi-page-history -->

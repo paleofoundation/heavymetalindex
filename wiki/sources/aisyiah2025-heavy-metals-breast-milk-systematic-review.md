@@ -110,6 +110,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [05cd786](https://github.com/paleofoundation/heavymetalindex/commit/05cd786) | 2026-05-19 | ingest: aisyiah2025-heavy-metals-breast-milk-systematic-review enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
 | [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
 | [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |

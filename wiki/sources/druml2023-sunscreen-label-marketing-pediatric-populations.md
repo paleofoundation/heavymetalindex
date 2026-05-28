@@ -145,5 +145,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2ac9293](https://github.com/paleofoundation/heavymetalindex/commit/2ac9293) | 2026-05-18 | ingest: druml2023-sunscreen-label-marketing-pediatric-populations fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
 <!-- END: hmi-page-history -->

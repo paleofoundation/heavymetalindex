@@ -63,9 +63,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [947ee82](https://github.com/paleofoundation/heavymetalindex/commit/947ee82) | 2026-05-17 | reverse-route: backfill products from matrices for 3 sources (running total: 53) |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
 | [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
-| [cacc8f4](https://github.com/paleofoundation/heavymetalindex/commit/cacc8f4) | 2026-05-13 | ingest p4-batch11-g2: 9 pages, 41 FP |
 <!-- END: hmi-page-history -->

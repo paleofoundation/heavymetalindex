@@ -120,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [e32aae9](https://github.com/paleofoundation/heavymetalindex/commit/e32aae9) | 2026-05-18 | ingest kimi-cat03: slepecka cereal metals |
 | [25004dc](https://github.com/paleofoundation/heavymetalindex/commit/25004dc) | 2026-05-18 | checkpoint: daemon + generator accumulated outputs (synthesis writer, marker regen, briefings) |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
-| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
 <!-- END: hmi-page-history -->

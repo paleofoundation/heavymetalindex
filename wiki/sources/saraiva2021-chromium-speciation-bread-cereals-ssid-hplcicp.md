@@ -156,6 +156,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e5bb7a](https://github.com/paleofoundation/heavymetalindex/commit/2e5bb7a) | 2026-05-25 | audit: saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp revised |
 | [c0737d3](https://github.com/paleofoundation/heavymetalindex/commit/c0737d3) | 2026-05-25 | ingest: saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |

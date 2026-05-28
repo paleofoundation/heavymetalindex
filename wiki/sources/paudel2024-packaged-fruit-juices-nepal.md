@@ -141,6 +141,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [f81cbc3](https://github.com/paleofoundation/heavymetalindex/commit/f81cbc3) | 2026-05-19 | audit: paudel2024-packaged-fruit-juices-nepal revised |
 | [94e4ceb](https://github.com/paleofoundation/heavymetalindex/commit/94e4ceb) | 2026-05-19 | ingest: paudel2024-packaged-fruit-juices-nepal enhanced from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |

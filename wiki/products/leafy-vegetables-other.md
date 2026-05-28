@@ -83,11 +83,20 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/kim2024-metals-kale-urban-rural-maryland\|Kim et al. 2024]]. *Nutrients and non-essential metals in darkibor kale grown at urban and rural farms: a pilot study*, PLOS ONE | 2024 | Peer-reviewed | US tAs, Pb, Cd, Cr, Ni, U occurrence in Darkibor kale grown at three urban and four rural farms in and around Baltimore City, Maryland, USA; harvested... (n=42) |
+| 1 | [[sources/osuolale2025-leafy-vegetables-ondo-trace-elements\|Osuolale et al. 2025]]. *Assessing Public Health Risks from Trace Element Contamination in Common Leafy Vegetables from Ondo, Nigeria, Using PIXE and Multivariate Statistics*, International Journal of Research and Innovation in Applied Science | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|See et al. 2025]]. *Heavy Metals Assessment in Selected Leafy Vegetables from Selangor, Malaysia*, Pertanika Journal of Tropical Agricultural Science | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/kim2024-metals-kale-urban-rural-maryland\|Kim et al. 2024]]. *Nutrients and non-essential metals in darkibor kale grown at urban and rural farms: a pilot study*, PLOS ONE | 2024 | Peer-reviewed | US tAs, Pb, Cd, Cr, Ni, U occurrence in Darkibor kale grown at three urban and four rural farms in and around Baltimore City, Maryland, USA; harvested... (n=42) |
+| 4 | [[sources/bambara2023-loumbila-vegetables-heavy-metals\|Luc et al. 2023]]. *Evaluation of the Metallic Contamination of Market Garden Products around the Loumbila Dam*, Open Journal of Applied Sciences | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/vela2023-quito-vegetables-cd-pb\|Doris et al. 2023]]. *Determination of cadmium and lead in vegetables marketed in Quito, Ecuador*, Revista Internacional de Contaminacion Ambiental | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|Bora et al. 2022]]. *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*, Horticulturae | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/sultana2022-dhaka-root-leafy-vegetables\|Sultana et al. 2022]]. *Heavy Metals in Commonly Consumed Root and Leafy Vegetables in Dhaka City, Bangladesh, and Assessment of Associated Public Health Risks*, Environmental Systems Research | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/wang2021-houttuynia-mercury-china\|Wang et al. 2021]]. *Mercury accumulation in vegetable Houttuynia cordata Thunb. from two different geological areas in southwest China and implications for human consumption*, Scientific Reports 11:1470 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/ahmed2017-bangladesh-vegetable-arsenic\|Ahmed et al. 2017]]. *Arsenic Contamination of Water-Soil-Crop System in an Industrial Area of Bangladesh*, International Journal of Environment | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/pal2017-wastewater-vegetables-heavy-metals\|Jitender et al. 2017]]. *Heavy Metals in Soil and Vegetables and their Effect on Health*, International Journal of Engineering Science Technologies | 2017 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -97,9 +106,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c67513a](https://github.com/paleofoundation/heavymetalindex/commit/c67513a) | 2026-05-28 | autonomy: commit pending daemon writes from 10:46Z tick (sync-source-counts + heal-gaps scaffolds + sprint-status) |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [3a0d086](https://github.com/paleofoundation/heavymetalindex/commit/3a0d086) | 2026-05-20 | autonomy: daemon tick 2026-05-20T06-40-52Z — gap-healing + extraction + pooling + briefings |
-| [c2b716e](https://github.com/paleofoundation/heavymetalindex/commit/c2b716e) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-49-27Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

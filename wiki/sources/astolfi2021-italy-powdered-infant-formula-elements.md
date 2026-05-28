@@ -98,9 +98,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [ee06026](https://github.com/paleofoundation/heavymetalindex/commit/ee06026) | 2026-05-08 | clarify benchmark pool percentile rules |
 | [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
 | [c267ab1](https://github.com/paleofoundation/heavymetalindex/commit/c267ab1) | 2026-04-30 | Move unresolved formula sources to base powder page |
 | [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
-| [8674803](https://github.com/paleofoundation/heavymetalindex/commit/8674803) | 2026-04-29 | Map Astolfi powder formula elements |
 <!-- END: hmi-page-history -->

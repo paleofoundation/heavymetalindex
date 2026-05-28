@@ -101,8 +101,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\|Marriott et al. 2023]]. *Considerations for environmental biogeochemistry and food security for aquaculture around Lake Victoria, Kenya*, Environmental Geochemistry and Health | 2023 | Peer-reviewed | KE tAs, Cd, Cr, Pb, Al, Ni occurrence in Wild and aquaculture Nile tilapia from Winam Gulf, Lake Victoria, Kenya; water collected 2018-2019 |
-| 2 | [[sources/zahran2023-mercury-tilapia-nannochloropsis\|Zahran et al. 2023]]. *Toxicity Evaluation, Oxidative, and Immune Responses of Mercury on Nile Tilapia: Modulatory Role of Dietary Nannochloropsis oculata* | 2023 | Peer-reviewed | EG tHg occurrence in Nile tilapia (Oreochromis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) |
+| 1 | [[sources/naseem2026-seasonal-heavy-metals-water-fish\|Bhanu et al. 2026]]. *Seasonal Fluctuation of Heavy Metals in Water & Fish Tissues*, Transformative Education: A Multidisciplinary Journal (TEMJ) | 2026 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/jesse2025-unknown\|Lepak et al. 2025]]. *Correction: Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health*, PLoS ONE 20(2): e0319526 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/hoy2023-arsenic-speciation-freshwater-fish\|Hoy et al. 2023]]. *Arsenic speciation in freshwater fish: challenges and research needs*, Food Quality and Safety | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\|Marriott et al. 2023]]. *Considerations for environmental biogeochemistry and food security for aquaculture around Lake Victoria, Kenya*, Environmental Geochemistry and Health | 2023 | Peer-reviewed | KE tAs, Cd, Cr, Pb, Al, Ni occurrence in Wild and aquaculture Nile tilapia from Winam Gulf, Lake Victoria, Kenya; water collected 2018-2019 |
+| 5 | [[sources/zahran2023-mercury-tilapia-nannochloropsis\|Zahran et al. 2023]]. *Toxicity Evaluation, Oxidative, and Immune Responses of Mercury on Nile Tilapia: Modulatory Role of Dietary Nannochloropsis oculata* | 2023 | Peer-reviewed | EG tHg occurrence in Nile tilapia (Oreochromis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) |
+| 6 | [[sources/maikanov2020-fish-products-shuchinsk-burabay-metals\|Maikanov et al. 2020]]. *Quality and safety of fish products in the Shuchinsk-Burabay Resort Zone*, Medycyna Weterynaryjna 76(10):585-588 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\|Rajeshkumar et al. 2018]]. *Studies on seasonal pollution of heavy metals in water, sediment, fish and oyster from the Meiliang Bay of Taihu Lake in China*, Chemosphere | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -112,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [c5da3a8](https://github.com/paleofoundation/heavymetalindex/commit/c5da3a8) | 2026-05-19 | autonomy: daemon tick 2026-05-19T16-51-40Z — gap-healing + extraction + pooling + briefings |
 | [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
 | [868300c](https://github.com/paleofoundation/heavymetalindex/commit/868300c) | 2026-05-18 | autonomy: daemon tick 2026-05-18T04-29-11Z — gap-healing + extraction + pooling + briefings |
-| [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

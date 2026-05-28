@@ -134,6 +134,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [3a7d82c](https://github.com/paleofoundation/heavymetalindex/commit/3a7d82c) | 2026-05-26 | audit: fsai2016-total-diet-study-ireland-2012-2014 revised |
 | [a8004ac](https://github.com/paleofoundation/heavymetalindex/commit/a8004ac) | 2026-05-26 | ingest: fsai2016-total-diet-study-ireland-2012-2014 enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |

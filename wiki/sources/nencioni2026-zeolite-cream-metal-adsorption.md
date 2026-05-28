@@ -119,6 +119,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [ed2457b](https://github.com/paleofoundation/heavymetalindex/commit/ed2457b) | 2026-05-17 | audit: nencioni2026-zeolite-cream-metal-adsorption revised |
 | [5b948b3](https://github.com/paleofoundation/heavymetalindex/commit/5b948b3) | 2026-05-17 | ingest: nencioni2026-zeolite-cream-metal-adsorption fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
 <!-- END: hmi-page-history -->

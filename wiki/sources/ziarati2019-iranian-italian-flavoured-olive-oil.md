@@ -93,9 +93,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [32bf094](https://github.com/paleofoundation/heavymetalindex/commit/32bf094) | 2026-05-25 | audit: ziarati2019-iranian-italian-flavoured-olive-oil promoted |
 | [fc87139](https://github.com/paleofoundation/heavymetalindex/commit/fc87139) | 2026-05-18 | audit (codex): ziarati2019 olive oil revised |
 | [41c4646](https://github.com/paleofoundation/heavymetalindex/commit/41c4646) | 2026-05-17 | ingest: ziarati2019 flavoured olive oil enhanced |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
-| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
 <!-- END: hmi-page-history -->

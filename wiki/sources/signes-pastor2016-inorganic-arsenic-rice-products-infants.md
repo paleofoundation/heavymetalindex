@@ -219,9 +219,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [749e657](https://github.com/paleofoundation/heavymetalindex/commit/749e657) | 2026-05-17 | audit: signes-pastor2016-inorganic-arsenic-rice-products-infants revised |
 | [1811130](https://github.com/paleofoundation/heavymetalindex/commit/1811130) | 2026-05-17 | ingest: signes-pastor2016-inorganic-arsenic-rice-products-infants enhanced from Manual Fetch Kimi/06_Infant_Foods_Formula |
 | [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
 | [ee06026](https://github.com/paleofoundation/heavymetalindex/commit/ee06026) | 2026-05-08 | clarify benchmark pool percentile rules |
-| [0f3f4e7](https://github.com/paleofoundation/heavymetalindex/commit/0f3f4e7) | 2026-05-07 | Add product HMTc evidence summaries |
 <!-- END: hmi-page-history -->

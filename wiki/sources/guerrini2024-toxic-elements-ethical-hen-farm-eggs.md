@@ -83,6 +83,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
 | [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
 <!-- END: hmi-page-history -->

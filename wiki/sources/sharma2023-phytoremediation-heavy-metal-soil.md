@@ -132,6 +132,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [9aad740](https://github.com/paleofoundation/heavymetalindex/commit/9aad740) | 2026-05-18 | audit: sharma2023-phytoremediation-heavy-metal-soil revised |
 | [e4f243f](https://github.com/paleofoundation/heavymetalindex/commit/e4f243f) | 2026-05-18 | ingest: sharma2023-phytoremediation-heavy-metal-soil enhanced from Papers Cube Manual Fetch |
 | [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |

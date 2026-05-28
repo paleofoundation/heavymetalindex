@@ -143,6 +143,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
 | [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
 | [90dcd31](https://github.com/paleofoundation/heavymetalindex/commit/90dcd31) | 2026-05-09 | ingest: kirkpatrick1980 — Canadian baby foods 1980 historical-baseline (B-tier; AAS LOD 10 ppb) |

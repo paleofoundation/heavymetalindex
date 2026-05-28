@@ -92,11 +92,14 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi et al. 2020]]. *Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder*, IRIS — Journal for Young Scientists, Vol. X | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby talcum powder brands; AAS/CVAAS quantification; n=3 |
+| 1 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi 2020]]. *Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder*, IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby talcum powder brands; AAS/CVAAS quantification; n=3 |
+| 4 | [[sources/moon2011-baby-powder-inhalation-risk-assessment\|Moon et al. 2011]]. *Risk Assessment of Baby Powder Exposure through Inhalation*, Toxicological Research 27(3): 137-141 | 2011 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -106,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [0a783b0](https://github.com/paleofoundation/heavymetalindex/commit/0a783b0) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-17-21Z — gap-healing + extraction + pooling + briefings |
 | [fc68ee7](https://github.com/paleofoundation/heavymetalindex/commit/fc68ee7) | 2026-05-18 | autonomy: daemon tick 2026-05-17T21-12-57Z — gap-healing + extraction + pooling + briefings |
 | [52ab524](https://github.com/paleofoundation/heavymetalindex/commit/52ab524) | 2026-05-17 | autonomy: daemon tick 2026-05-17T19-54-43Z — gap-healing + extraction + pooling + briefings |
 | [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
-| [8530c3e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e) | 2026-05-17 | synthesis: 53 product pages — replace placeholder Levers + Historical-recalls intros |
 <!-- END: hmi-page-history -->

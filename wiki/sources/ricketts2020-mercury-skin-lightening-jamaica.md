@@ -174,9 +174,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [60bb18c](https://github.com/paleofoundation/heavymetalindex/commit/60bb18c) | 2026-05-18 | audit: ricketts2020-mercury-skin-lightening-jamaica revised |
 | [b155701](https://github.com/paleofoundation/heavymetalindex/commit/b155701) | 2026-05-18 | ingest: ricketts2020-mercury-skin-lightening-jamaica enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [baf6597](https://github.com/paleofoundation/heavymetalindex/commit/baf6597) | 2026-05-16 | cat2: master rewrite + advisory + retired-page redirects + source rerouting |
-| [e060e01](https://github.com/paleofoundation/heavymetalindex/commit/e060e01) | 2026-05-15 | sources: Cat 2 skin lightening — Ricketts 2020 mercury in Jamaican products |
 <!-- END: hmi-page-history -->

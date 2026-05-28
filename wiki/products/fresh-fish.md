@@ -160,9 +160,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
 | [4e3cf32](https://github.com/paleofoundation/heavymetalindex/commit/4e3cf32) | 2026-05-18 | fix: dedupe bfr2024 BfR MEAL methylmercury — unblock Codex true-duplicate stop |
 | [70fd060](https://github.com/paleofoundation/heavymetalindex/commit/70fd060) | 2026-05-18 | sections: products/fresh-fish — full mandatory-sections pass (third seafood standards manual evidence anchor) |
-| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 <!-- END: hmi-page-history -->

@@ -137,6 +137,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [d814de6](https://github.com/paleofoundation/heavymetalindex/commit/d814de6) | 2026-05-28 | audit: efsa2022-buffered-vinegar-food-additive-safety revised |
 | [df44512](https://github.com/paleofoundation/heavymetalindex/commit/df44512) | 2026-05-28 | ingest: efsa2022-buffered-vinegar-food-additive-safety enhanced from Manual Fetch Kimi/condiment_papers/02_Vinegars |
 | [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |

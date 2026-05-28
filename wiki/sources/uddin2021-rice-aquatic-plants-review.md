@@ -96,6 +96,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [9496620](https://github.com/paleofoundation/heavymetalindex/commit/9496620) | 2026-05-18 | audit: uddin2021-rice-aquatic-plants-review revised |
 | [44f2f5e](https://github.com/paleofoundation/heavymetalindex/commit/44f2f5e) | 2026-05-18 | ingest: uddin2021-rice-aquatic-plants-review enhanced from Papers Cube Manual Fetch |
 <!-- END: hmi-page-history -->

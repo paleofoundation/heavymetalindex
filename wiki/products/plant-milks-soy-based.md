@@ -135,7 +135,7 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -191,9 +191,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
 | [ed8e81c](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81c) | 2026-05-14 | autonomy: firewall lint+fix and mandatory-sections audit+autofill |
 | [5599709](https://github.com/paleofoundation/heavymetalindex/commit/5599709) | 2026-05-13 | phase 0: lock HMTc methodology, remove admission filter, evict standards arithmetic from wiki/ |
-| [e422f34](https://github.com/paleofoundation/heavymetalindex/commit/e422f34) | 2026-05-13 | products: draft missing mandatory sections on 5 plant-milk and infant-support pages (focus: Levers) |
 <!-- END: hmi-page-history -->

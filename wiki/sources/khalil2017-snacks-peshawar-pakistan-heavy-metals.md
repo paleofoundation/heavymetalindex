@@ -107,6 +107,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [427a7b7](https://github.com/paleofoundation/heavymetalindex/commit/427a7b7) | 2026-05-20 | ingest: khalil2017-snacks-peshawar-pakistan-heavy-metals [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
 | [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
 | [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |

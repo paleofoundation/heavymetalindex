@@ -135,6 +135,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [777b1ce](https://github.com/paleofoundation/heavymetalindex/commit/777b1ce) | 2026-05-19 | ingest: starska2011-noxious-elements-milk-products-poland enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 | [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |

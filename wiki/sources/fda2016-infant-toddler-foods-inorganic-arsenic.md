@@ -100,9 +100,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
 | [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
 | [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
 | [5cf068b](https://github.com/paleofoundation/heavymetalindex/commit/5cf068b) | 2026-05-17 | firewall: strip last per-page Part 19 leaks (children-personal-care + fda2016) |
-| [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
 <!-- END: hmi-page-history -->

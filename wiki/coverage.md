@@ -2,7 +2,7 @@
 title: Corpus coverage and methodology transparency
 description: The wiki's PRISMA-equivalent — papers identified, screened, ingested, and the taxonomy-row coverage report. Auto-regenerated from on-disk data.
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist]
-updated: 2026-05-17
+updated: 2026-05-28
 noindex: false
 ---
 
@@ -12,7 +12,9 @@ This page is the wiki's PRISMA-equivalent: a single, auto-regenerated transparen
 
 The wiki is built against the locked HMTc Comprehensive Testing Category Taxonomy v2.0 (2026-03-30). Every product page, every routing decision, and every coverage count is reconciled to that taxonomy. The taxonomy itself is published at [[data/taxonomy/hmtc-v2.json|data/taxonomy/hmtc-v2.json]] for reference.
 
-This page was regenerated on **2026-05-17** from the current state of the corpus.
+This page was regenerated on **2026-05-28** from the current state of the corpus.
+
+The Cochrane-equivalent search-protocol publication — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. Read it alongside this page for the complete defensibility picture.
 
 ## Literature search flow (PRISMA-equivalent)
 
@@ -30,21 +32,22 @@ This page was regenerated on **2026-05-17** from the current state of the corpus
          │
          │  Papers from year ≥ 2020: 14,343
          ▼
-  Eligibility:    921 source pages currently in wiki/sources/
+  Eligibility:    1083 source pages currently in wiki/sources/
          │
-         │    evidence_tier A: 804
-         │    evidence_tier B: 112
-         │    evidence_tier C: 4
-         │    evidence_tier unknown: 1
+         │    evidence_tier A: 875
+         │    evidence_tier A-tier: 1
+         │    evidence_tier B: 193
+         │    evidence_tier C: 12
+         │    evidence_tier unknown: 2
          ▼
   Included:       Source pages routed to destination pages
          │
-         │  Routing rows in product_source_routing_audit.csv: 661
+         │  Routing rows in product_source_routing_audit.csv: 1098
          ▼
   Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 921 have been promoted to source pages — 4.0% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
+**Of the 23,260 papers identified in the literature search, 1083 have been promoted to source pages — 4.7% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -52,12 +55,12 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 921 |
-| Ingredient profiles | 237 |
-| Product-category rows (total) | 320 |
-| Product-category rows (non-stub, has scaffold or content) | 94 |
+| Source pages | 1083 |
+| Ingredient profiles | 264 |
+| Product-category rows (total) | 352 |
+| Product-category rows (non-stub, has scaffold or content) | 126 |
 | Metal profiles | 36 |
-| Regulation pages | 38 |
+| Regulation pages | 57 |
 | Mitigation pages | 6 |
 | Microbiome pages | 1 |
 | Testing-method pages | 2 |

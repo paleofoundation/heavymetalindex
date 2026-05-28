@@ -105,7 +105,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/inada2023-herbal-medicine-heavy-metal-regulations\|Inada 2023]]. *Comparison of heavy metal regulations for herbal medicines across pharmacopoeias*, Journal of Natural Medicines | 2023 | Peer-reviewed | JP/EU/US Pb, Cd, Hg, As occurrence in Regulatory limit compilation across 9 pharmacopoeias (Japanese, European, USP, Chinese, Korean, Taiwanese, Indian, British, WHO) |
 | 4 | [[sources/jurowski2022-chromium-peppermint-tincture\|Jurowski et al. 2022]]. *Chromium impurities in peppermint tinctures from Polish pharmacies: speciation and health implications*, unknown | 2022 | Peer-reviewed | PL Cr occurrence in Peppermint tinctures from Polish pharmacies |
 | 5 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | NG Cd, Cr occurrence in Dried plant material of Adansonia digitata (baobab), Psidium guajava (guava), and Carica papaya (papaya) collected from Northern Nigeria... (n=3) |
-| 6 | [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|Zafeiraki et al. 2021]]. *Macro and Trace Elements in Hemp (Cannabis sativa L.) Cultivated in Greece: Risk Assessment of Toxic Elements*, Frontiers in Chemistry | 2021 | Peer-reviewed | GR/EU Pb, Cd, tAs, tHg, Cr, Ni, Al, Sn occurrence in 90 Cannabis sativa L. leaf/flower samples from 9 varieties cultivated across 13 regions in Greece, collected 2018-2019; 21... (n=90) |
+| 6 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|Zafeiraki et al. 2021]]. *Macro and Trace Elements in Hemp (Cannabis sativa L.) Cultivated in Greece: Risk Assessment of Toxic Elements*, Frontiers in Chemistry | 2021 | Peer-reviewed | GR/EU Pb, Cd, tAs, tHg, Cr, Ni, Al, Sn occurrence in 90 Cannabis sativa L. leaf/flower samples from 9 varieties cultivated across 13 regions in Greece, collected 2018-2019; 21... (n=90) |
+| 8 | [[sources/bulduk2020-vicia-faba-elements\|Ibrahim 2020]]. *Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS*, Progress in Chemical and Biochemical Research | 2020 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -115,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 | [8a49534](https://github.com/paleofoundation/heavymetalindex/commit/8a49534) | 2026-05-17 | products index: numerical order, source counts on every row, drop clean/contaminated call-outs |
-| [1e684a8](https://github.com/paleofoundation/heavymetalindex/commit/1e684a8) | 2026-05-17 | provenance: lead-benchmark generator + scaffold placeholder + ICP-MS citations — 87.3% → 91.7% |
 <!-- END: hmi-page-history -->

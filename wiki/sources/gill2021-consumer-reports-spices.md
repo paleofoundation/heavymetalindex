@@ -98,6 +98,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [79a1de9](https://github.com/paleofoundation/heavymetalindex/commit/79a1de9) | 2026-05-28 | audit: gill2021-consumer-reports-spices [revised] |
 | [cdec793](https://github.com/paleofoundation/heavymetalindex/commit/cdec793) | 2026-05-28 | ingest: gill2021-consumer-reports-spices [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
 | [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |

@@ -150,6 +150,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [f2de49d](https://github.com/paleofoundation/heavymetalindex/commit/f2de49d) | 2026-05-19 | audit: sarkis2025-heavy-metals-yogurt-lebanon promoted-with-revision |
 | [f5e5c1a](https://github.com/paleofoundation/heavymetalindex/commit/f5e5c1a) | 2026-05-19 | ingest: sarkis2025-heavy-metals-yogurt-lebanon enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
 | [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |

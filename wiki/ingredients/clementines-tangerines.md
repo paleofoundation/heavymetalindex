@@ -161,11 +161,16 @@ _No quantified data on this lever in the current corpus; section will be expande
 
 EU Regulation 2023/915 ([[regulations/eu-2023-915-cadmium]]) and the general contaminants framework ([[regulations/eu2023-contaminants-maximum-levels]]) set a cadmium maximum of 0.050 mg/kg and a lead maximum of 0.10 mg/kg for fresh citrus fruit, applicable to clementines and tangerines. These limits apply to the fruit as placed on the market (whole fruit including peel, on a fresh-weight basis); the edible flesh alone would carry concentrations well below these limits. Codex CXS 193-1995 ([[regulations/codex-cadmium-mls]]) provides cadmium limits for fresh fruit at 0.050 mg/kg. No specific US FDA action level applies to fresh citrus; the FDA Closer to Zero program ([[regulations/fda-closer-to-zero]]) covers infant and toddler food categories. Given the expected very low metal concentrations in the flesh of clementines and tangerines, these regulatory limits are not expected to be approached under normal commercial production conditions.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- [[sources/fsa2016-infant-food-formula-metals-survey]]
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
-<!-- BEGIN: hmi-page-history -->
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review\|Tsegay et al. 2025]]. *Toxicological qualities and detoxification trends of fruit by-products for valorization: A review*, Open Life Sciences 20:20251105 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Page history
 
 The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
@@ -177,4 +182,18 @@ The five most recent substantive edits to this page. The full version history li
 | [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
 | [aa5fd53](https://github.com/paleofoundation/heavymetalindex/commit/aa5fd53) | 2026-05-13 | profiles: populate contamination_profile values on 18 ingredient pages (batch 2/7) |
 | [be65f8d](https://github.com/paleofoundation/heavymetalindex/commit/be65f8d) | 2026-05-13 | pages: draft missing mandatory sections on 24 ingredient pages (cauliflower → eggs) |
+<!-- END: hmi-page-history -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
+| [23a9d75](https://github.com/paleofoundation/heavymetalindex/commit/23a9d75) | 2026-05-20 | autonomy: daemon tick 2026-05-20T02-27-45Z — gap-healing + extraction + pooling + briefings |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
+| [aa5fd53](https://github.com/paleofoundation/heavymetalindex/commit/aa5fd53) | 2026-05-13 | profiles: populate contamination_profile values on 18 ingredient pages (batch 2/7) |
 <!-- END: hmi-page-history -->

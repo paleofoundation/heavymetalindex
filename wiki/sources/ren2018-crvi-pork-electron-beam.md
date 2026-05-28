@@ -112,6 +112,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [cb8e552](https://github.com/paleofoundation/heavymetalindex/commit/cb8e552) | 2026-05-18 | audit: ren2018-crvi-pork-electron-beam revised |
 | [eabe4d1](https://github.com/paleofoundation/heavymetalindex/commit/eabe4d1) | 2026-05-18 | ingest: ren2018-crvi-pork-electron-beam enhanced from PCMF/Papers Cube Manual Fetch |
 <!-- END: hmi-page-history -->

@@ -128,6 +128,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [43f65eb](https://github.com/paleofoundation/heavymetalindex/commit/43f65eb) | 2026-05-18 | audit: mahaffey1975-fda-total-diet-study-heavy-metals revised |
 | [70af9dd](https://github.com/paleofoundation/heavymetalindex/commit/70af9dd) | 2026-05-18 | ingest: mahaffey1975-fda-total-diet-study-heavy-metals enhanced from Papers Cube Manual Fetch |
 <!-- END: hmi-page-history -->

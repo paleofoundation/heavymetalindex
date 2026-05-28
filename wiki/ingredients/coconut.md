@@ -115,9 +115,16 @@ This node is linked from [[products/plant-milks-non-soy-non-rice]].
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Coconut (Cocos nucifera) accumulates heavy metals at generally low concentrations relative to other tropical commodities. The palm grows on coastal sandy soils in tropical Asia, the Pacific, and increasingly Latin America; coastal-substrate soils typically have lower Cd and Pb than the volcanic-tropical soils that host cocoa and coffee. Coconut endosperm (the white meat) is the fruit tissue that humans consume, plus coconut water (the liquid endosperm) and coconut oil (extracted from copra-dried meat). Each of these consumption forms partitions metals differently between the source coconut and the finished form.
@@ -182,9 +189,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [c175961](https://github.com/paleofoundation/heavymetalindex/commit/c175961) | 2026-05-17 | synthesis: 3 ingredient pages — beef, poultry, coconut |
 | [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
-| [3268b89](https://github.com/paleofoundation/heavymetalindex/commit/3268b89) | 2026-05-08 | schema: migrate ingredient_profile to 10-metal standard |
 <!-- END: hmi-page-history -->

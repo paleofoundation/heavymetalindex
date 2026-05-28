@@ -1,12 +1,12 @@
 # Provenance audit — 2026-05-28
 
-Generated: 2026-05-28T15:21:31.928Z
+Generated: 2026-05-28T18:16:24.069Z
 
 ## Summary
 
-- Files scanned: 718
-- Files with unsourced claims: 228
-- Total unsourced claims: 398
+- Files scanned: 720
+- Files with unsourced claims: 229
+- Total unsourced claims: 399
 
 ## Methodology
 
@@ -295,4 +295,4 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 - line 148: claim `1 mg/kg`
   > The aluminum reference value is a single TWI of 1 mg/kg b.w./week (EFSA, JECFA-aligned). The app can present a "percent of TWI" benchmark as the primary aluminum signal. Default reference: 1 mg Al/kg …
 
-_198 more files — see CSV._
+_199 more files — see CSV._

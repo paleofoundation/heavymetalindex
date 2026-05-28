@@ -223,9 +223,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [68d3e8c](https://github.com/paleofoundation/heavymetalindex/commit/68d3e8c) | 2026-05-25 | audit: olowoyo2026-heavy-metals-drinking-water-global-review revised |
 | [475eaa6](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6) | 2026-05-25 | sources: clean up junk cite-keys — rename 6, delete 4 off-scope/dupes |
 | [315d031](https://github.com/paleofoundation/heavymetalindex/commit/315d031) | 2026-05-25 | ingest: olowoyo2026-heavy-metals-drinking-water-global-review enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
-| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
 <!-- END: hmi-page-history -->

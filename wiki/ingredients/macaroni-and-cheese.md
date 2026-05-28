@@ -191,7 +191,7 @@ No specific EU maximum level for Cd in pasta or macaroni and cheese as a product
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -205,9 +205,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [d3fe125](https://github.com/paleofoundation/heavymetalindex/commit/d3fe125) | 2026-05-13 | profiles: populate contamination_profile values on 18 ingredient pages (batch 4/7) |
 | [8a5eb86](https://github.com/paleofoundation/heavymetalindex/commit/8a5eb86) | 2026-05-13 | pages: draft missing mandatory sections on 24 ingredient pages (fish-fingers → mayonnaise) |
-| [a358a07](https://github.com/paleofoundation/heavymetalindex/commit/a358a07) | 2026-05-13 | source-legend: populated 109 awaiting-synthesis cells across 92 ingredient pages |
 <!-- END: hmi-page-history -->

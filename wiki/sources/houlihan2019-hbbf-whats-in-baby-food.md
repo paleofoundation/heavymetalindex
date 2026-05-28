@@ -126,9 +126,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [4c7d1af](https://github.com/paleofoundation/heavymetalindex/commit/4c7d1af) | 2026-05-17 | audit (codex): houlihan2019-hbbf-whats-in-baby-food revised |
 | [40908aa](https://github.com/paleofoundation/heavymetalindex/commit/40908aa) | 2026-05-17 | ingest: bair2022 + houlihan2019 enhanced from MFK manual-fetch PDFs |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
-| [2d4429e](https://github.com/paleofoundation/heavymetalindex/commit/2d4429e) | 2026-05-13 | ingest: P4 batch 17 close — 29 source pages, 200 handles (positions 5168-5367) + kimi-cat06 5 pages |
 <!-- END: hmi-page-history -->

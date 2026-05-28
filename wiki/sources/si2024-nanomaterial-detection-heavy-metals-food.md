@@ -141,6 +141,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c08e9b3](https://github.com/paleofoundation/heavymetalindex/commit/c08e9b3) | 2026-05-18 | audit: si2024-nanomaterial-detection-heavy-metals-food promoted |
 | [b963676](https://github.com/paleofoundation/heavymetalindex/commit/b963676) | 2026-05-18 | ingest: si2024-nanomaterial-detection-heavy-metals-food enhanced from Papers Cube Manual Fetch |
 | [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |

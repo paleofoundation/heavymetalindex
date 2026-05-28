@@ -148,14 +148,15 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|D'Amato et al. 2026]]. *Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment*, Foods | 2026 | Peer-reviewed | HPLC-ICP-MS speciation of iAs in 25 Italian-market rice-based beverages (mean iAs 15 µg/kg); primary direct iAs occurrence source for the rice-based plant-milk row with EU regulatory comparison |
 | 2 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | ICP-MS survey of Pb, tHg, Ni, and U in retail plant-based drinks from Spain including rice drink; tHg not detected; provides multi-metal occurrence context for the rice-based plant-milk row |
 | 3 | [[sources/gu2020-arsenic-rice-infant-food-australia\|Gu et al. 2020]]. *Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia*, International Journal of Environmental Research and Public Health 17(2):415 | 2020 | Peer-reviewed | ICP-MS tAs and iAs measurement in 3 Australian rice milk powder samples (mean tAs 428 ppb; mean iAs 160 ppb); triangulation source confirming elevated iAs in rice-based beverages in a non-EU market |
-| 4 | [[sources/brombach2017-methylmercury-european-commercial-rice\|C-C et al. 2016]]. *Methylmercury varies more than one order of magnitude in commercial European rice*, Food Chemistry | 2016 | Peer-reviewed | SPE-HPLC-CV-AFS MeHg speciation in 87 commercial European rice products (MeHg range 0.11–6.45 µg/kg; mean 1.91 µg/kg); provides MeHg ingredient cascade for the rice-based plant-milk row via rice-commodity linkage |
+| 4 | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic\|Shi et al. 2020]]. *Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants*, Exposure and Health 13:229-235 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/brombach2017-methylmercury-european-commercial-rice\|C-C et al. 2016]]. *Methylmercury varies more than one order of magnitude in commercial European rice*, Food Chemistry | 2016 | Peer-reviewed | SPE-HPLC-CV-AFS MeHg speciation in 87 commercial European rice products (MeHg range 0.11–6.45 µg/kg; mean 1.91 µg/kg); provides MeHg ingredient cascade for the rice-based plant-milk row via rice-commodity linkage |
 <!-- END: hmi-source-legend -->
 
 ## CC candidate evidence map
@@ -204,9 +205,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
 | [ed8e81c](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81c) | 2026-05-14 | autonomy: firewall lint+fix and mandatory-sections audit+autofill |
-| [165949d](https://github.com/paleofoundation/heavymetalindex/commit/165949d) | 2026-05-14 | products: retire Category 5 row 7 (plant-milks-rice-based) → re-route to Category 3 row 10 |
 <!-- END: hmi-page-history -->

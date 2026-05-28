@@ -143,9 +143,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
 | [35055e4](https://github.com/paleofoundation/heavymetalindex/commit/35055e4) | 2026-05-04 | lint 2026-05-04: file broad lint report; close items 1-4 (stale-pending fixes, fera2014 cite-key   migration across 65 files, raw/ wikilink anti-pattern conversions, testing/icp-ms page stand-up) |
 | [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
 | [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
-| [f58ff32](https://github.com/paleofoundation/heavymetalindex/commit/f58ff32) | 2026-04-24 | Ingest Patty's Ch 7 (Jakubowski 2012); close initial Cd batch |
 <!-- END: hmi-page-history -->

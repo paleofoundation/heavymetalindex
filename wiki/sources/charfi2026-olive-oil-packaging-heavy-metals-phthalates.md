@@ -164,6 +164,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [ddb6f63](https://github.com/paleofoundation/heavymetalindex/commit/ddb6f63) | 2026-05-25 | audit: charfi2026-olive-oil-packaging-heavy-metals-phthalates revised |
 | [e26696e](https://github.com/paleofoundation/heavymetalindex/commit/e26696e) | 2026-05-25 | ingest: charfi2026-olive-oil-packaging-heavy-metals-phthalates enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |

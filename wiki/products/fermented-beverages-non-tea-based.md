@@ -160,11 +160,12 @@ No formal product recalls for non-tea fermented beverages on heavy-metal grounds
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública | 2023 | Peer-reviewed | FCM pathway: Pb leaching from ceramic containers under acidic fermentation conditions; documented for tea-based substrate but mechanism applies equally to non-tea acidic fermented beverages; regulatory gap (no EU ML for Pb in fermented beverages) |
+| 2 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -174,9 +175,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [4fe0a95](https://github.com/paleofoundation/heavymetalindex/commit/4fe0a95) | 2026-05-19 | autonomy: daemon tick 2026-05-19T18-38-11Z — gap-healing + extraction + pooling + briefings |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
 | [6743cff](https://github.com/paleofoundation/heavymetalindex/commit/6743cff) | 2026-05-16 | prebuild: regenerate source legends for hour-1-7 filled pages |
-| [eb8c466](https://github.com/paleofoundation/heavymetalindex/commit/eb8c466) | 2026-05-15 | prebuild: regenerate source legends and routing audit across corpus |
 <!-- END: hmi-page-history -->

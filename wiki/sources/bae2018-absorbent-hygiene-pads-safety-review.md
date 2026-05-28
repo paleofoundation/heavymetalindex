@@ -93,6 +93,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [faed66d](https://github.com/paleofoundation/heavymetalindex/commit/faed66d) | 2026-05-18 | audit: bae2018-absorbent-hygiene-pads-safety-review promoted |
 | [8c2b480](https://github.com/paleofoundation/heavymetalindex/commit/8c2b480) | 2026-05-18 | ingest: bae2018-absorbent-hygiene-pads-safety-review fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
 <!-- END: hmi-page-history -->

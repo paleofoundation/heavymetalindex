@@ -118,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [059a413](https://github.com/paleofoundation/heavymetalindex/commit/059a413) | 2026-05-18 | audit (codex): grochowska tomatoes revised |
 | [20a6b08](https://github.com/paleofoundation/heavymetalindex/commit/20a6b08) | 2026-05-18 | ingest (codex): grochowska-niedworok2020 tomatoes merge-enhance |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
 | [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
-| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
 <!-- END: hmi-page-history -->

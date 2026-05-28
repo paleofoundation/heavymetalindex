@@ -84,6 +84,7 @@ for (const targetDir of TARGETS) {
   if (!fs.existsSync(absDir)) continue
   for (const file of fs.readdirSync(absDir)) {
     if (!file.endsWith(".md")) continue
+    if (file === "index.md") continue // folder index, not a citable atomic page
     if (file.startsWith("_")) continue
     const relPath = `${targetDir}/${file}`
     const absPath = path.join(repoRoot, relPath)

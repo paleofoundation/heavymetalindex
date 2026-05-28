@@ -52,13 +52,15 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | US Pb occurrence in 59 commercial vinegars purchased in California: 52 balsamic, 4 wine, 1 apple cider, 1 rice, 1 garlic (n=59) |
-| 2 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta et al. 1993]]. *Levels of Cd, Pb, and Ni in Different Types of Vinegars*, Bulletin of Environmental Contamination and Toxicology | 1993 | Peer-reviewed | ES/DE/GB Cd, Pb, Ni occurrence in 52 bottled vinegars from supermarkets in Tenerife and Gran Canaria (Canary Islands, Spain): 26 wine vinegar, 10 apple... (n=52) |
-| 3 | [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars\|Troncoso et al. 1988]]. *Metallic contaminants in Andalusian vinegars*, Die Nahrung | 1988 | Peer-reviewed | ES Pb, tAs, Zn, Cu, Fe occurrence in 16 white wine vinegar samples from Western Andalusia (mainly Sherry/Jerez influence area and El Condado, Huelva), Spain; 13... (n=16) |
+| 1 | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|Karavoltsos et al. 2020]]. *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*, Molecules | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek et al. 2016]]. *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | US Pb occurrence in 59 commercial vinegars purchased in California: 52 balsamic, 4 wine, 1 apple cider, 1 rice, 1 garlic (n=59) |
+| 4 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta et al. 1993]]. *Levels of Cd, Pb, and Ni in Different Types of Vinegars*, Bulletin of Environmental Contamination and Toxicology | 1993 | Peer-reviewed | ES/DE/GB Cd, Pb, Ni occurrence in 52 bottled vinegars from supermarkets in Tenerife and Gran Canaria (Canary Islands, Spain): 26 wine vinegar, 10 apple... (n=52) |
+| 5 | [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars\|Troncoso et al. 1988]]. *Metallic contaminants in Andalusian vinegars*, Die Nahrung | 1988 | Peer-reviewed | ES Pb, tAs, Zn, Cu, Fe occurrence in 16 white wine vinegar samples from Western Andalusia (mainly Sherry/Jerez influence area and El Condado, Huelva), Spain; 13... (n=16) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -110,9 +112,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
 | [9e37a44](https://github.com/paleofoundation/heavymetalindex/commit/9e37a44) | 2026-05-17 | synthesis: fermented + soft-drink + sports-drink bases + wine-vinegar — 6 narrative sections each |
-| [0b917c5](https://github.com/paleofoundation/heavymetalindex/commit/0b917c5) | 2026-05-17 | stubs: strip 'autonomy-created stub' prose from 41 pages that now have structure |
 <!-- END: hmi-page-history -->

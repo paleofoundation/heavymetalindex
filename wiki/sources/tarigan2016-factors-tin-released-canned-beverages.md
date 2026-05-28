@@ -72,9 +72,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
 | [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
 | [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
 | [31bae2b](https://github.com/paleofoundation/heavymetalindex/commit/31bae2b) | 2026-05-08 | lint: fix DOI audit failures on tin source pages |
-| [d04abbc](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc) | 2026-05-08 | ingest: digest-batch-1-tin — 4 sources, 2 species pages, parent expansion |
 <!-- END: hmi-page-history -->

@@ -164,14 +164,14 @@ European Union Regulation 2023/915 sets a Pb ML for milk of 0.020 mg/kg (20 ppb)
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fda-ctz-Pb-babyfood-2025\|FDA 2025]]. *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*, U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program | 2025 | Government guidance | FDA Closer to Zero final guidance setting 10 ppb Pb action level for yogurt intended for infants and young children; applicable Pb regulatory ceiling for yogurt-based baby foods |
 | 2 | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|Ibrahim et al. 2025]]. *Dietary Exposure and Health Risk Assessment of Selected Toxic and Essential Metals in Various Flavored Dairy Products*, Biological Trace Element Research | 2025 | Peer-reviewed | Pb, tAs, Cd, tHg, Al, Sb, Ni, and Cr in 180 flavored dairy products (yogurt, UHT milk, ice cream) from Egypt by ICP-MS; yogurt-specific metal concentrations with risk assessment |
 | 3 | [[sources/sarkis2025-heavy-metals-yogurt-lebanon\|Sarkis et al. 2025]]. *Heavy Metal Contamination in Yogurt from Lebanon: Evaluating Lead (Pb) and Cadmium (Cd) Concentrations Across Multiple Regions*, Toxics | 2025 | Peer-reviewed | Pb and Cd in 165 artisanal Lebanese yogurts across 11 regions with regional exceedance rates against EU dairy limits |
-| 4 | [[sources/pankiewicz2012-mercury-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A (Ecol. Chem. Eng. A) | 2012 | Peer-reviewed | Total Hg in Polish regional yogurt and other dairy products by AMA-254 mercury analyzer |
+| 4 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics 12(5): 325 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 | 5 | [[sources/pankiewicz2012-thg-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A | 2012 | Peer-reviewed | PL tHg occurrence in 48 dairy products (milk, kefir, natural and flavoured yogurt, cream, cream cheese, cottage cheese, butter, milk powder, buttermilk,... (n=48) |
 | 6 | [[sources/starska2011-noxious-elements-milk-products-poland\|Starska et al. 2011]]. *Noxious Elements in Milk and Milk Products in Poland*, Polish Journal of Environmental Studies | 2011 | Peer-reviewed | Polish national monitoring of Pb, Cd, tHg, and tAs in yogurt and other dairy products across all 16 voivodships |
 <!-- END: hmi-source-legend -->
@@ -183,9 +183,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [96dc130](https://github.com/paleofoundation/heavymetalindex/commit/96dc130) | 2026-05-20 | autonomy: daemon tick 2026-05-19T21-10-50Z — gap-healing + extraction + pooling + briefings |
 | [d1c3e60](https://github.com/paleofoundation/heavymetalindex/commit/d1c3e60) | 2026-05-19 | autonomy: daemon tick 2026-05-19T01-14-40Z — gap-healing + extraction + pooling + briefings |
 | [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
 | [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
-| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 <!-- END: hmi-page-history -->

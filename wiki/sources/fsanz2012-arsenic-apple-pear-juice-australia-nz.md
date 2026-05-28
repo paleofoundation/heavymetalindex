@@ -109,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [d3b0c4c](https://github.com/paleofoundation/heavymetalindex/commit/d3b0c4c) | 2026-05-20 | audit: fsanz2012-arsenic-apple-pear-juice-australia-nz [revised] |
 | [4f92dd2](https://github.com/paleofoundation/heavymetalindex/commit/4f92dd2) | 2026-05-20 | ingest: fsanz2012-arsenic-apple-pear-juice-australia-nz [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
 | [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
-| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
 <!-- END: hmi-page-history -->

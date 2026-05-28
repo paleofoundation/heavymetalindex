@@ -160,6 +160,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [f11e6c0](https://github.com/paleofoundation/heavymetalindex/commit/f11e6c0) | 2026-05-17 | audit: arshad2020-heavy-metals-cosmetic-products-pakistan revised |
 | [c59d195](https://github.com/paleofoundation/heavymetalindex/commit/c59d195) | 2026-05-17 | ingest: arshad2020-heavy-metals-cosmetic-products-pakistan enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
 | [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |

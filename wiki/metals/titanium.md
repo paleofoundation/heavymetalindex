@@ -32,9 +32,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [1205e69](https://github.com/paleofoundation/heavymetalindex/commit/1205e69) | 2026-05-19 | autonomy: daemon tick 2026-05-19T15-55-42Z — gap-healing + extraction + pooling + briefings |
 | [afa3c3c](https://github.com/paleofoundation/heavymetalindex/commit/afa3c3c) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-55-15Z — gap-healing + extraction + pooling + briefings |
 | [0a783b0](https://github.com/paleofoundation/heavymetalindex/commit/0a783b0) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-17-21Z — gap-healing + extraction + pooling + briefings |
 | [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
-| [3d34b33](https://github.com/paleofoundation/heavymetalindex/commit/3d34b33) | 2026-04-30 | Refresh homepage and reference assistant |
 <!-- END: hmi-page-history -->

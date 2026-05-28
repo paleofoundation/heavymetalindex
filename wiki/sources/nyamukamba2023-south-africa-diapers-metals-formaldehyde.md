@@ -135,6 +135,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [8e5d23c](https://github.com/paleofoundation/heavymetalindex/commit/8e5d23c) | 2026-05-18 | audit: nyamukamba2023-south-africa-diapers-metals-formaldehyde revised |
 | [37485b3](https://github.com/paleofoundation/heavymetalindex/commit/37485b3) | 2026-05-18 | ingest: nyamukamba2023-south-africa-diapers-metals-formaldehyde fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
 <!-- END: hmi-page-history -->

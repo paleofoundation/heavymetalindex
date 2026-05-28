@@ -115,9 +115,16 @@ This node is linked from [[products/infant-formula-rtf-liquid-non-soy]], [[produ
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/saraiva2021-cr-iii-cr-vi-ssid-method-validation-talanta\|Saraiva et al. 2021]]. *Development and validation of a single run method based on species specific isotope dilution and HPLC-ICP-MS for simultaneous species interconversion correction and speciation analysis of Cr(III)/Cr(VI) in meat and dairy products*, Talanta 222 (2021) 121538 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Ready-to-feed (RTF) liquid infant formula carries the same ingredient-inheritance pathway as powder formula (see [[ingredients/infant-formula-powder]]) but in as-consumed liquid form rather than spray-dried powder form. The per-volume metal concentration is approximately the powder formula divided by the reconstitution ratio (the 1:7 powder-to-water reconstitution is the canonical conservative factor; commercial RTF liquid product is at the manufacturer-specified ratio). RTF formula therefore typically carries 1/7 the per-mass metal of the same recipe in powder form, with the per-feed serving size also adjusted (a 4-ounce RTF bottle delivers approximately the same dose as 1 teaspoon of powder + 4 ounces water).
@@ -166,9 +173,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
 | [30f27cb](https://github.com/paleofoundation/heavymetalindex/commit/30f27cb) | 2026-05-17 | synthesis: 5 more Cat 1 ingredient pages — infant-formula-rtf-liquid, infant-formula-concentrated-liquid, infant-cereal-ingredients, infant-formula-ingredients, meat-and-poultry-purees |
 | [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
-| [3268b89](https://github.com/paleofoundation/heavymetalindex/commit/3268b89) | 2026-05-08 | schema: migrate ingredient_profile to 10-metal standard |
 <!-- END: hmi-page-history -->

@@ -521,3 +521,79 @@ Three false positives in one day from the same folder, all matching on coffee+me
 **What I did NOT do this tick:** no source page written, no merge-enhance, no routing audit run, no commit, no audit subagent spawn, no audit-queue entry. The PDF text was read in full (all 4 pages including Introduction, §2 Mycotoxins and neuropsychiatric symptoms, §3 Discussion, author contributions, references) to confirm scope; nothing else was written.
 
 Per SKILL.md Stop conditions ("Paper-internal contradiction or data-integrity issue that's not the obvious mirroring pattern" — applied here as an out-of-scope discovery-system false positive: the paper contains no measurements at all, making it categorically unable to contribute to any HMI synthesis cell), this is a stop. No ingest, no audit, no commit on this tick. Wrapper should advance to the next candidate PDF in `manual-fetch/seasonal-geographic-variance/auto-fetched/`.
+
+## STOP: cwielag-drabek2025-nuts-cd-pb-cr-ni-poland (true duplicate conflict — unresolved from 2026-05-25)
+
+- **PDF (this tick):** `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts_ Almonds, Cashews.pdf`
+- **Suggested handle (this tick):** `MFK_evaluation-of-cadmium-lead-chromium-and-nickel-con`
+- **DOI:** `10.1007/s12011-024-04438-4` (Biological Trace Element Research 203:3913–3930, 2025; Ćwieląg-Drabek M et al.)
+- **DOI grep hit two existing wiki source pages (both still present in the wiki):**
+  1. `wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md` (correctly-keyed)
+  2. `wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md` (malformed cite-key, invented methods, wrong reg values)
+
+**Why this re-fires today:** The 2026-05-25 stop entry (`data/evidence/autonomy/manual-fetch-stops-2026-05-25.md`, lines 23–72) already documented this exact dedup-required conflict in full, but from the **08_Nuts_Seeds_Legumes_and_Misc/P0297_…** copy of the PDF. The same paper has a **second physical PDF copy in `condiment_papers/05_PB_Vanilla_Spices/`** (Kimi's per-topic-folder fetcher dropped it under both "Nuts" and "Spices/PB" because the candidate-papers index referenced it from both topic queries). The wrapper has now offered the condiment_papers copy to this tick. The dedup never happened (`cwielagniec2025-nuts-cd-pb-cr-ni-poland.md` is still on disk; `cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md` still has the wrong `raw_path`, the `almond` slug typo, and a thin `products:` list).
+
+**Verification done this tick (against the condiment_papers/05_PB_Vanilla_Spices PDF):**
+
+- Confirmed via `Read` of all 18 pages that the condiment-folder PDF is byte-for-byte the same Ćwieląg-Drabek et al. 2025 paper as the 08_Nuts P0297 copy (DOI 10.1007/s12011-024-04438-4, same authors, same abstract, same Tables 1–5, same references list).
+- Re-confirmed the 2026-05-25 verification findings: methods on PDF p. 3917 are ETAAS Savant AA Sigma (GBC, Australia) with supra-pure HNO3 digestion in a Magnum II ERTEC microwave reactor — the "Perkin-Elmer AAnalyst 800 / HNO3 + HClO4" methods on page (2) `cwielagniec2025` are still invented and still wrong. EU ML on PDF p. 3918 is 0.20 mg/kg for Cd in tree nuts and peanuts — page (2)'s "0.1 mg/kg for peanuts, 0.05 mg/kg for other nuts" is still factually wrong.
+- License re-confirmed: CC BY 4.0 (PDF p. 3928).
+
+**Why this remains a stop, not a merge-enhance, on the second encounter:**
+
+The skill's EXISTING-path merge-enhance assumes one page per DOI. With two pages, autonomous resolution requires:
+
+1. Deleting `cwielagniec2025-nuts-cd-pb-cr-ni-poland.md` — but that page is referenced inside generator-owned `<!-- BEGIN -->` / `<!-- END -->` blocks across `wiki/metals/{nickel,cadmium,lead,chromium}.md`, six ingredient pages, three product pages, plus the rows in `data/evidence/product_source_routing_audit.csv`, `data/evidence/review_events.jsonl`, `data/evidence/hmtc_aggregate_distributions.csv`, and `data/evidence/cells-needing-synthesis.csv`. SKILL.md explicitly forbids editing inside BEGIN/END markers and forbids hand-modifying `product_source_routing_audit.csv`.
+2. Re-running every downstream generator that has `cwielagniec2025` baked into a BEGIN/END block (this is the work that would actually remove the stale references; it is out of scope for a per-PDF ingest cycle).
+3. Cleaning the audit-queue and synthesis-cells CSVs of page (2)'s cite-key.
+
+Steps 1–3 are a coordinated cross-cutting cleanup, not a per-PDF cycle. The autonomous skill cannot do them without violating its own marker-block / routing-audit constraints. This is exactly the "True duplicate conflict" stop condition.
+
+**Karen-side action still pending (carried forward from 2026-05-25):**
+
+1. Delete `wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md`.
+2. Merge-enhance `wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md`:
+   - Fix `raw_path` to the 08_Nuts P0297 PDF (or pick the condiment_papers copy — either works; pick one and stick to it).
+   - Fix ingredient slug `almond` → `almonds`.
+   - Expand `products:` to `["[[products/peanuts]]", "[[products/cashews]]", "[[products/nuts-seeds-other]]"]`.
+   - Drop unsupported "dry weight" annotations (paper does not specify basis).
+   - Bump `updated:` and add a `## Verification notes` paragraph documenting the dedup.
+3. Re-run the downstream generators that have `cwielagniec2025` baked in (metals, ingredients, products, routing audit, hmtc_aggregate_distributions, cells-needing-synthesis, review_events, discovery corpus-index).
+4. Clean `data/evidence/audit-queue.csv` of `cwielagniec2025` rows; add a single fresh `cwielag-drabek2025` `pending` row.
+5. **Optional housekeeping for the wrapper:** dedupe the *raw* PDF copies too. Decide whether to keep the 08_Nuts/P0297 copy or the condiment_papers/05_PB copy, and remove the other. Without this, every future tick that scans condiment_papers/05_PB will re-fire this same stop until the dup PDF is removed or a skip-list entry is added.
+
+**What I did NOT do this tick:** no source page written or modified, no merge-enhance attempted, no routing audit run, no commit, no audit subagent spawn, no audit-queue entry. Only the PDF was read (pp. 1–18).
+
+**Wrapper output line:** `STOP: true-duplicate-conflict cwielag-drabek2025-nuts-cd-pb-cr-ni-poland`
+
+## STOP: off-topic auto-fetch — Chagas disease systematic review (not a heavy-metals paper)
+
+- **PDF:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-cd-product_2016_10-1590-1980-5497201600040010.pdf`
+- **Suggested handle:** `AF_auto-game-meats-cd-product-2016-10-1590-1980-54972`
+- **DOI:** 10.1590/1980-5497201600040010
+- **Actual paper:** Sangenis LHC, Nielebock MAP, Santos CS, Silva MCC, Bento GMR. "Transmissão da doença de Chagas por consumo de carne de caça: revisão sistemática" / "Chagas disease transmission by consumption of game meat: systematic review." *Rev Bras Epidemiol* 2016; 19(4): 803–811.
+- **Topic:** Systematic review of *Trypanosoma cruzi* (Chagas-disease protozoan) oral transmission via consumption of raw/undercooked game-mammal meat (Dasypus / armadillo, Cuniculus paca, Didelphis / opossum, Cavia, etc.) in Brazil, Argentina, and other endemic countries. Six articles reviewed; five oral-transmission episodes identified. T. cruzi inactivated above 45 °C cooking.
+
+**Why this is a stop, not an ingest:**
+
+The discover/wishlist auto-fetcher matched on "game meats" + "cd" in the filename and fetched this as a candidate cadmium-in-game-meat paper. **"cd" here is "Chagas disease" (Portuguese: *doença de Chagas*, abbreviated DC/CD in the source), not cadmium.** The paper contains zero heavy-metals content:
+
+- No measurements of Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U, or any other metal anywhere in the body, tables, or references.
+- No occurrence data, no exposure estimates, no risk assessment relevant to HMI's scope.
+- The "Tabela 1" structure is six review-included articles cross-tabulated against epidemiological / clinical / laboratory evidence criteria for *T. cruzi* oral transmission — not a contamination table.
+- Infectious-disease epidemiology is out of scope for HMI per CLAUDE.md Part 25 (out of scope: medical claims) and Part 1 (mission is heavy metals in food).
+
+Ingesting this paper as a wiki source page would produce a page with `metals: []`, no Key numbers, no contamination_profile contribution, no routing destinations — i.e., a defect-by-construction page that the routing audit and the section-mandatory lints would all flag. The correct action is to not ingest and not write a page.
+
+**What I did this tick:** read the PDF (pp. 1–9, full body + references); confirmed by author/title/DOI/keywords/abstract that the paper is a Chagas-disease epidemiology systematic review, not a metals paper.
+
+**What I did NOT do:** no wiki source page written, no routing audit run, no audit-queue entry, no commit, no audit subagent spawn.
+
+**Recommended Karen-side follow-up:**
+
+1. Move (or delete) the PDF out of `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/` so the wrapper does not retry it on every tick. A `_off-topic/` sibling folder under `auto-fetched/` would let future audits inspect what the discover agent mis-fetched and tighten its filters.
+2. Tighten the discover/wishlist auto-fetch filter: "cd" in a slug should not be treated as cadmium when the surrounding context is "chagas", "doença", "trypanosoma", or "carne de caça". Suggest gating "cd" as cadmium on presence of at least one heavy-metals-vocabulary token in title or abstract (Pb, lead, cadmium, arsenic, mercury, nickel, chromium, aluminum, tin, antimony, uranium, ICP-MS, AAS, etc.) before counting the PDF as a candidate.
+3. No HMI-side data loss — the paper was never relevant to the corpus in the first place.
+
+**Wrapper output line:** `STOP: off-topic-paper (Chagas disease systematic review, not heavy-metals; "cd" in filename = "doença de Chagas", not cadmium)`
+

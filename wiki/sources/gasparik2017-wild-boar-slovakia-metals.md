@@ -157,3 +157,14 @@ Authors' summary: only muscle tissue at average (median) Cd concentration is saf
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/efsa-lead-contam-2010]]
 - [[regulations/efsa-cadmium-twi]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [57c2985](https://github.com/paleofoundation/heavymetalindex/commit/57c2985) | 2026-05-28 | audit: gasparik2017-wild-boar-slovakia-metals [revised] |
+| [0aa5766](https://github.com/paleofoundation/heavymetalindex/commit/0aa5766) | 2026-05-28 | ingest: gasparik2017-wild-boar-slovakia-metals [fresh] from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

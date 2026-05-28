@@ -54,5 +54,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [de278da](https://github.com/paleofoundation/heavymetalindex/commit/de278da) | 2026-05-18 | ingest (codex): mititelu2025 heavy metal food contamination review |
 <!-- END: hmi-page-history -->

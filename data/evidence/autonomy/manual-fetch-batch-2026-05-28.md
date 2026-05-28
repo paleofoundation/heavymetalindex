@@ -85,3 +85,42 @@
 - `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Heavy Metal Contamination of Hot Sauce and Chili Powder.pdf`: spex2023-hot-sauce-chili-powder-metals already ingested, post-2026-05-14 clean (updated 2026-05-17), not in routing_malformed or routing_unresolved, and audit-queue records a 2026-05-17 Codex audit (REVISE, 6/0). Skip per SKILL.md Phase 1 step 1.
 - `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf`: duplicate-page conflict — two source pages on disk for DOI 10.1038/s41598-025-06896-9 (`shavalig2025-canned-tomato-olives-pickles-iran` updated 2026-05-17, full 8-metal frontmatter; `shavali-gilani2025-canned-tomato-olive-pickle-iran` updated 2026-05-13, 4-metal subset, generic raw_handle). Same conflict was stopped on 2026-05-19 and 2026-05-20 for the other two raw/ copies of this paper. Dedup requires coordinated rewrite of 22 cross-references including `review_events.jsonl` and `hmtc_aggregate_distributions.csv` — curatorial decision for Karen.
 - `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`: cfs2013-hktds-metallic-contaminants already-ingested duplicate, post-2026-05-14 clean
+
+## Tick 2026-05-28T15:58:46.719Z
+
+- Candidates this tick: 15
+- Succeeded: 11
+- Stopped (need Karen): 4
+- Failed: 0
+
+### Succeeded
+- `carpena2024-chemical-hazards-herbs-europe` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Assessment of the Chemical Hazards in Herbs Consumed in Europe_ Toxins, Heavy Metals, and Pesticide Residues.pdf)
+- `schaefer2020-cadmium-mitigation-strategies` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Cadmium_ Mitigation strategies to reduce dietary exposure.pdf)
+- `gill2021-consumer-reports-spices` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Consumer Reports_ Heavy Metals in 15 Herbs and Spices.pdf)
+- `lhaac2025-csp41-herbs-spices-wa` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Coordinated Sampling Project 41_ Microbial and Heavy Metal Detections in Herbs and Spices.pdf)
+- `dghaim2015-heavy-metals-uae-herbs` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Determination of Heavy Metals Concentration in Traditional Herbs Commonly Consumed in the United Ara.pdf)
+- `chen2022-peanut-elements-china` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Determination of macro, micro and toxic element content in peanuts from six provinces in China.pdf)
+- `scheer2017-aluminium-tolerable-intake-toys` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/EFSA Opinion on tolerable intake of aluminium with regards to food additives.pdf)
+- `efsa2015-nickel-food-water` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/EFSA Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water.pdf)
+- `munarso2024-vanilla-indonesia-quality` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/From bean to market_ exploring the chemical and production dynamics of high-quality Indonesian vanil.pdf)
+- `hernandez-montoya2026-heavy-metals-foods-review` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Heavy Metal Contamination in Foods_ A Review.pdf)
+- `tinggi2025-spices-herbs-queensland` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Heavy metal analysis in commercial spices and herbs by ICP-MS and estimated dietary exposure.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2024_10-11591-ijaas-v13-i3-pp673-679.pdf`: gap-coffee-cd-2024-ijaas-out-of-scope-wastewater-adsorbent-paper
+- `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2025_10-18359-rfcb-7981.pdf`: ospina-yepes2025-bsfl-frass-rum-residues-colombia — out of HMI scope (insect-bioconversion fertilizer engineering; same `discover`-skill false-positive pattern as the earlier `gap-coffee-cd_2024_ijaas` stop today)
+- `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2025_10-3389-fphar-2025-1524152.pdf`: gap-coffee-tas-2025-10-3389-fphar-2025-1524152 — out-of-scope mycotoxin Opinion paper (third gap-coffee-* discover-skill false positive today; zero occurrence data, mentions coffee+arsenic only in unrelated single sentences across two paragraphs)
+- `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts_ Almonds, Cashews.pdf`: true-duplicate-conflict cwielag-drabek2025-nuts-cd-pb-cr-ni-poland
+
+## Tick 2026-05-28T19:12:53.723Z
+
+- Candidates this tick: 2
+- Succeeded: 1
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Succeeded
+- `gasparik2017-wild-boar-slovakia-metals` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-cd-product_2016_10-1007-s12011-016-0884-z.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-game-meats-cd-product_2016_10-1590-1980-5497201600040010.pdf`: off-topic-paper (Chagas disease systematic review, not heavy-metals; "cd" in filename = "doença de Chagas", not cadmium)

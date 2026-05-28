@@ -103,6 +103,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [a22ac5c](https://github.com/paleofoundation/heavymetalindex/commit/a22ac5c) | 2026-05-26 | audit: liu2010-mercury-white-vinegar-afs audited-revised |
 | [cf56300](https://github.com/paleofoundation/heavymetalindex/commit/cf56300) | 2026-05-26 | ingest: liu2010-mercury-white-vinegar-afs enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |

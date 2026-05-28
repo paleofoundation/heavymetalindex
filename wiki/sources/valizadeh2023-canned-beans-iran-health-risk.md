@@ -76,9 +76,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
 | [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
 | [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
 | [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
-| [3f107ba](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba) | 2026-05-12 | ingest: P2 remaining-group3 — 9 source pages, 46 false positives |
 <!-- END: hmi-page-history -->

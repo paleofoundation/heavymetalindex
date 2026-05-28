@@ -99,6 +99,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [1e0cd85](https://github.com/paleofoundation/heavymetalindex/commit/1e0cd85) | 2026-05-17 | audit: dokhtkkhatibi2024-infant-formula-baby-food-zahedan promoted |
 | [cfbc16c](https://github.com/paleofoundation/heavymetalindex/commit/cfbc16c) | 2026-05-17 | ingest: dokhtkkhatibi2024-infant-formula-baby-food-zahedan enhanced from Manual Fetch Kimi/06_Infant_Foods_Formula |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |

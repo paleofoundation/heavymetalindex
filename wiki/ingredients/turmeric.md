@@ -159,7 +159,7 @@ The Codex Alimentarius General Standard CXS 193-1995 does not set a turmeric-spe
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -170,9 +170,10 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 5 | [[sources/forsyth2024-turmeric-lead-chromate-south-asia\|Forsyth et al. 2024]]. *Evidence of turmeric adulteration with lead chromate across South Asia*, Science of the Total Environment | 2024 | Peer-reviewed | South Asian (India, Pakistan, Sri Lanka, Nepal) lead chromate adulteration follow-up (n=356) |
 | 6 | [[sources/oseisafo2024-ghana-spices-metals\|Osei-Safo et al. 2024]]. *Trace and Heavy Metals in Locally and Imported Spices Sold on Markets in Accra Metropolis, Ghana*, The Scientific World Journal | 2024 | Peer-reviewed | Ghana market spice trace-metal survey including imported-and-local turmeric (n=90) |
 | 7 | [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|Bair 2022]]. *A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy*, Frontiers in Nutrition | 2022 | Peer-reviewed | US/EU tAs, iAs, Pb, Cd, tHg occurrence in Narrative review; no original measurements. Synthesizes US Congressional Subcommittee on Economic and Consumer Policy findings (Feb 2021 and... |
-| 8 | [[sources/lech2020-turmeric-lead-united-states\|Lech et al. 2020]]. *Ground Turmeric as a Source of Lead Exposure in the United States*, Environmental Health Perspectives | 2020 | Peer-reviewed | US ground turmeric survey identifying Pb distribution worst-case tail (n=127) |
-| 9 | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh\|Forsyth et al. 2019]]. *Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh*, Environmental Research | 2019 | Peer-reviewed | Bangladesh mill-traced lead chromate adulteration documentation (n=524); foundational adulteration evidence |
-| 10 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | Population-scale US home-investigation cohort linking turmeric to elevated childhood blood-lead (n=386) |
+| 8 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | *[awaiting synthesis]* |
+| 9 | [[sources/lech2020-turmeric-lead-united-states\|Lech et al. 2020]]. *Ground Turmeric as a Source of Lead Exposure in the United States*, Environmental Health Perspectives | 2020 | Peer-reviewed | US ground turmeric survey identifying Pb distribution worst-case tail (n=127) |
+| 10 | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh\|Forsyth et al. 2019]]. *Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh*, Environmental Research | 2019 | Peer-reviewed | Bangladesh mill-traced lead chromate adulteration documentation (n=524); foundational adulteration evidence |
+| 11 | [[sources/angelon-gaetz2018-lead-spices-north-carolina\|Angelon-Gaetz et al. 2018]]. *Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels — North Carolina, 2011–2018*, MMWR Morbidity and Mortality Weekly Report | 2018 | Government report | Population-scale US home-investigation cohort linking turmeric to elevated childhood blood-lead (n=386) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -182,9 +183,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
 | [1942ed1](https://github.com/paleofoundation/heavymetalindex/commit/1942ed1) | 2026-05-17 | ask-ui: build assistant/user messages via createElement (Quartz strips template children) |
-| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 <!-- END: hmi-page-history -->

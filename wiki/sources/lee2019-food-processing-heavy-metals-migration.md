@@ -140,6 +140,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [8d3354c](https://github.com/paleofoundation/heavymetalindex/commit/8d3354c) | 2026-05-18 | audit: lee2019-food-processing-heavy-metals-migration revised |
 | [3f49d08](https://github.com/paleofoundation/heavymetalindex/commit/3f49d08) | 2026-05-18 | ingest: lee2019-food-processing-heavy-metals-migration enhanced from Papers Cube Manual Fetch |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |

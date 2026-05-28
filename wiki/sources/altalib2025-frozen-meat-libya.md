@@ -112,6 +112,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [222c028](https://github.com/paleofoundation/heavymetalindex/commit/222c028) | 2026-05-19 | audit queue fire batch 1: 10 source pages |
 | [c16c786](https://github.com/paleofoundation/heavymetalindex/commit/c16c786) | 2026-05-18 | ingest (codex): altalib2025 frozen meat libya merge-enhance |
 | [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |

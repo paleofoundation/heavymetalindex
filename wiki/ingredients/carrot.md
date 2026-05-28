@@ -166,15 +166,19 @@ The EU [[regulations/eu2023-contaminants-maximum-levels]] sets a maximum level f
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|El-Batal et al. 2023]]. *Effect of selenium nanoparticles on heavy metal accumulation in carrot (Daucus carota) irrigated with wastewater*, Biologia | 2023 | Peer-reviewed | Measured Ni, Cd, Pb, and Co in carrot roots irrigated with municipal wastewater in Egypt; Se nanoparticles reduced accumulation by 30–60%; wastewater-irrigation contamination context |
-| 2 | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|Bora et al. 2022]]. *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galati County, Romania*, Horticulturae | 2022 | Peer-reviewed | tAs, Cd, Pb, and Zn in Romanian market-and-amateur-farm carrots with vinegar-washing mitigation effect |
-| 3 | [[sources/kurniawati2021-jakarta-staple-foods-naa\|Kurniawati et al. 2021]]. *Determination of several heavy metals in staple foods from traditional markets in Jakarta using neutron activation analysis*, AIP Conference Proceedings | 2021 | Peer-reviewed | Cr and tHg in carrot from Jakarta traditional markets by neutron activation analysis |
-| 4 | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|Rusin et al. 2021]]. *Cadmium and lead contents in fresh and processed fruit and vegetable products and the resulting dietary risk assessment*, Scientific Reports | 2021 | Peer-reviewed | Measured Cd and Pb in 370 fresh, frozen, dried, and processed fruit and vegetable samples from Poland; carrot data across processing states with all samples below EU MRL for fresh |
-| 5 | [[sources/tonska2020-carrots-lead-cadmium-organic\|Tonska et al. 2020]]. *Lead and cadmium content in organic and conventional carrots and their dietary risk assessment*, Proceedings of the Nutrition Society | 2020 | Peer-reviewed | Compared Pb and Cd in 18 conventional vs 18 organic carrots from Poland (n=36); no significant organic vs conventional difference found; all below EU MLs |
+| 1 | [[sources/imongben2026-kaduna-vegetables-hra\|Imongben et al. 2026]]. *Determination of some heavy metals and their potential risk in selected vegetables on sale within Kaduna Metropolis, Kaduna State, Nigeria*, World Nutrition | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/ewubare2024-academic-review-heavy-metals-environment\|Ewubare et al. 2024]]. *An Academic Review on Heavy Metals in the Environment: Effects on Soil, Plants Human Health, and Possible Solutions*, American Journal of Environmental Economics 3(1) 70-81 | 2024 | Review | *[awaiting synthesis]* |
+| 3 | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|El-Batal et al. 2023]]. *Effect of selenium nanoparticles on heavy metal accumulation in carrot (Daucus carota) irrigated with wastewater*, Biologia | 2023 | Peer-reviewed | Measured Ni, Cd, Pb, and Co in carrot roots irrigated with municipal wastewater in Egypt; Se nanoparticles reduced accumulation by 30–60%; wastewater-irrigation contamination context |
+| 4 | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|Bora et al. 2022]]. *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*, Horticulturae | 2022 | Peer-reviewed | tAs, Cd, Pb, and Zn in Romanian market-and-amateur-farm carrots with vinegar-washing mitigation effect |
+| 5 | [[sources/munir2022-heavy-metals-natural-foods-review\|Munir et al. 2022]]. *Heavy Metal Contamination of Natural Foods Is a Serious Health Issue: A Review*, Sustainability | 2022 | Review | *[awaiting synthesis]* |
+| 6 | [[sources/kurniawati2021-jakarta-staple-foods-naa\|Kurniawati et al. 2021]]. *Determination of several heavy metals in staple foods from traditional markets in Jakarta using neutron activation analysis*, AIP Conference Proceedings (4th International Seminar on Chemistry) | 2021 | Peer-reviewed | Cr and tHg in carrot from Jakarta traditional markets by neutron activation analysis |
+| 7 | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|Rusin et al. 2021]]. *Concentration of cadmium and lead in vegetables and fruits*, Scientific Reports | 2021 | Peer-reviewed | Measured Cd and Pb in 370 fresh, frozen, dried, and processed fruit and vegetable samples from Poland; carrot data across processing states with all samples below EU MRL for fresh |
+| 8 | [[sources/tonska2020-carrots-lead-cadmium-organic\|Tonska et al. 2020]]. *Lead and cadmium content in organic and conventional carrots and their dietary risk assessment*, Proceedings of the Nutrition Society | 2020 | Peer-reviewed | Compared Pb and Cd in 18 conventional vs 18 organic carrots from Poland (n=36); no significant organic vs conventional difference found; all below EU MLs |
+| 9 | [[sources/kazimov2014-dietary-heavy-metals-azerbaijan\|Kazimov et al. 2014]]. *Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods*, Kazanskiy Meditsinskiy Zhurnal (Kazan Medical Journal), vol. 95, no. 5, pp. 706–709 | 2014 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -184,9 +188,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [0863cf8](https://github.com/paleofoundation/heavymetalindex/commit/0863cf8) | 2026-05-20 | autonomy: daemon tick 2026-05-20T04-14-40Z — gap-healing + extraction + pooling + briefings |
 | [f97c3e2](https://github.com/paleofoundation/heavymetalindex/commit/f97c3e2) | 2026-05-18 | autonomy: daemon tick 2026-05-18T03-29-36Z — gap-healing + extraction + pooling + briefings |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
-| [0e21ba6](https://github.com/paleofoundation/heavymetalindex/commit/0e21ba6) | 2026-05-16 | source-legend: populate awaiting-synthesis cells across 75 ingredient pages |
 <!-- END: hmi-page-history -->

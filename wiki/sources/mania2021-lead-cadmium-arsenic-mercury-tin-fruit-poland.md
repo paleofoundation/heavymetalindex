@@ -105,6 +105,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [12ae912](https://github.com/paleofoundation/heavymetalindex/commit/12ae912) | 2026-05-20 | ingest: mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
 | [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
 <!-- END: hmi-page-history -->

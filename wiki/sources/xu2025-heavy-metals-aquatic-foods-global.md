@@ -199,6 +199,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [16b07f6](https://github.com/paleofoundation/heavymetalindex/commit/16b07f6) | 2026-05-18 | audit: xu2025-heavy-metals-aquatic-foods-global revised |
 | [1e66add](https://github.com/paleofoundation/heavymetalindex/commit/1e66add) | 2026-05-18 | ingest: xu2025-heavy-metals-aquatic-foods-global enhanced from Papers Cube Manual Fetch |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |

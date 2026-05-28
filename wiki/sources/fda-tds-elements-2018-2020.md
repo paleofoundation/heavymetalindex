@@ -270,9 +270,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [0d16721](https://github.com/paleofoundation/heavymetalindex/commit/0d16721) | 2026-05-20 | audit: fda-tds-elements-2018-2020 [revised] |
 | [2541233](https://github.com/paleofoundation/heavymetalindex/commit/2541233) | 2026-05-20 | ingest: fda-tds-elements-2018-2020 [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
 | [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
 | [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
-| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
 <!-- END: hmi-page-history -->

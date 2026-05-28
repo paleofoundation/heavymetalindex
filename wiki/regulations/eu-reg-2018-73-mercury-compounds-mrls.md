@@ -58,5 +58,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [f5e5458](https://github.com/paleofoundation/heavymetalindex/commit/f5e5458) | 2026-05-18 | ingest kimi-cat03: colombia rice mercury |
 <!-- END: hmi-page-history -->

@@ -174,9 +174,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
 | [aa5fd53](https://github.com/paleofoundation/heavymetalindex/commit/aa5fd53) | 2026-05-13 | profiles: populate contamination_profile values on 18 ingredient pages (batch 2/7) |
 | [a1c003f](https://github.com/paleofoundation/heavymetalindex/commit/a1c003f) | 2026-05-13 | pages: draft missing mandatory sections on 24 ingredient pages (almond → carrot) |
-| [b32b2db](https://github.com/paleofoundation/heavymetalindex/commit/b32b2db) | 2026-05-12 | schema: enforce Part 6 ingredient coverage rule + body-table requirement |
 <!-- END: hmi-page-history -->

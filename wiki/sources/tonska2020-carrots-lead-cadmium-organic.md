@@ -57,6 +57,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
 | [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
 <!-- END: hmi-page-history -->

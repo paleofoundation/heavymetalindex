@@ -84,9 +84,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [823f0db](https://github.com/paleofoundation/heavymetalindex/commit/823f0db) | 2026-05-18 | ingest (codex): burrell2010 infant formula aluminium recheck |
 | [23e1355](https://github.com/paleofoundation/heavymetalindex/commit/23e1355) | 2026-05-17 | firewall: Exception 2 carve-out for scientific-method vendor names |
 | [018ad5c](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c) | 2026-05-17 | audit: strict brand firewall residual cleanup |
 | [dcc2e68](https://github.com/paleofoundation/heavymetalindex/commit/dcc2e68) | 2026-05-17 | firewall: lock strict Part 12 brand-firewall reading |
-| [bacf957](https://github.com/paleofoundation/heavymetalindex/commit/bacf957) | 2026-05-17 | audit (codex): burrell2010-aluminium-in-infant-formulas revised |
 <!-- END: hmi-page-history -->

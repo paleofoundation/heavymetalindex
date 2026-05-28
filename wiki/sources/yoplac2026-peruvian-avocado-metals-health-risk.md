@@ -147,6 +147,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [ce5c311](https://github.com/paleofoundation/heavymetalindex/commit/ce5c311) | 2026-05-25 | audit: yoplac2026-peruvian-avocado-metals-health-risk revised |
 | [6055edd](https://github.com/paleofoundation/heavymetalindex/commit/6055edd) | 2026-05-25 | ingest: yoplac2026-peruvian-avocado-metals-health-risk enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
 | [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |

@@ -74,7 +74,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic\|Shi et al. 2020]]. *Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants*, Exposure and Health 13:229-235 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/shi2020-rice-grain-cadmium-global-supply-chain\|Shi et al. 2020]]. *Rice Grain Cadmium Concentrations in the Global Supply-Chain*, Exposure and Health 12:869-876 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/open2017-open-infants-dietary-arsenic\|Signes-Pastor et al. 2018]]. *OPEN Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | — | *[awaiting synthesis]* |
+| 4 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | *[awaiting synthesis]* |
+| 5 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | *[awaiting synthesis]* |
+| 6 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -84,6 +89,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [f7173b5](https://github.com/paleofoundation/heavymetalindex/commit/f7173b5) | 2026-05-25 | fill infant-rice-cereal synthesis prose |
 | [c2b716e](https://github.com/paleofoundation/heavymetalindex/commit/c2b716e) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-49-27Z — gap-healing + extraction + pooling + briefings |

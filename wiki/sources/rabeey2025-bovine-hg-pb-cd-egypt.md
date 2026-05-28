@@ -109,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [bcbfbe8](https://github.com/paleofoundation/heavymetalindex/commit/bcbfbe8) | 2026-05-18 | audit (codex): rabeey2025 bovine revised |
 | [f65e873](https://github.com/paleofoundation/heavymetalindex/commit/f65e873) | 2026-05-18 | ingest (codex): rabeey2025 bovine duplicate cleanup |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
-| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
 <!-- END: hmi-page-history -->

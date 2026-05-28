@@ -127,5 +127,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fa7496e](https://github.com/paleofoundation/heavymetalindex/commit/fa7496e) | 2026-05-15 | sources: Cat 1 Pb biokinetics — Price 2023 IEUBK/ICRP/AALM comparison + baby food BLL |
 <!-- END: hmi-page-history -->

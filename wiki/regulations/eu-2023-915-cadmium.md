@@ -111,6 +111,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [66751b4](https://github.com/paleofoundation/heavymetalindex/commit/66751b4) | 2026-05-02 | Ingest EU 2023/915 contaminant limits |
 | [d17b351](https://github.com/paleofoundation/heavymetalindex/commit/d17b351) | 2026-04-25 | Resolve 8 broken wikilink paths and stub 5 missing target pages |
 <!-- END: hmi-page-history -->

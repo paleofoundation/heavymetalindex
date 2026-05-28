@@ -175,9 +175,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [385b8c0](https://github.com/paleofoundation/heavymetalindex/commit/385b8c0) | 2026-05-18 | ingest (codex): alharbi2023 baby foods recheck cleanup |
 | [f25d37b](https://github.com/paleofoundation/heavymetalindex/commit/f25d37b) | 2026-05-18 | audit-queue: mahaffey1975-fda-total-diet-study-heavy-metals status -> audited-revised |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
 | [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
-| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
 <!-- END: hmi-page-history -->

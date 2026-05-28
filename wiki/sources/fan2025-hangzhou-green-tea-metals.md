@@ -123,6 +123,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2d43140](https://github.com/paleofoundation/heavymetalindex/commit/2d43140) | 2026-05-20 | ingest: fan2025-hangzhou-green-tea-metals [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
 | [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
 | [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |

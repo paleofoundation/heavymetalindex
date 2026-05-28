@@ -129,9 +129,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [22a69e6](https://github.com/paleofoundation/heavymetalindex/commit/22a69e6) | 2026-05-19 | audit queue fire batch 3: 6 source pages |
 | [3341a07](https://github.com/paleofoundation/heavymetalindex/commit/3341a07) | 2026-05-18 | ingest (codex): mania2020 nickel cereal grains poland |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
-| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
 <!-- END: hmi-page-history -->

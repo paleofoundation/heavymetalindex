@@ -50,6 +50,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
 | [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
 | [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |

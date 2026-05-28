@@ -160,11 +160,17 @@ FDA has issued multiple import alerts covering herbal products with elevated met
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | Cd and Cr in dried botanical plants (baobab, guava, papaya) from Northern Nigeria; health risk assessment (HQ and ILCR); anchors the page as the first contributing source but represents a narrow and geographically specific slice of the global herbal infusion supply chain |
+| 1 | [[sources/feszterova2025-herbal-tea-risk-elements\|Melania et al. 2025]]. *Analysis of risk elements in herbal tea samples*, Journal of Microbiology, Biotechnology and Food Sciences | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/kowalski2024-herbal-tea-heavy-metals\|Maciej et al. 2024]]. *Assessment of heavy metal contamination and associated health risk indices in commercial herbal tea samples using inductively coupled plasma mass spectrometry*, International Journal of Advanced Chemistry Research | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | Cd and Cr in dried botanical plants (baobab, guava, papaya) from Northern Nigeria; health risk assessment (HQ and ILCR); anchors the page as the first contributing source but represents a narrow and geographically specific slice of the global herbal infusion supply chain |
+| 4 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/bulduk2020-vicia-faba-elements\|Ibrahim 2020]]. *Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS*, Progress in Chemical and Biochemical Research | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/fogarasi2019-tea-aluminum\|Erzsebet et al. 2019]]. *Aluminium contamination of several types of tea*, Orvostudomanyi Ertesito | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -174,9 +180,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [6dcb44d](https://github.com/paleofoundation/heavymetalindex/commit/6dcb44d) | 2026-05-19 | autonomy: daemon tick 2026-05-18T21-04-04Z — gap-healing + extraction + pooling + briefings |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
-| [6743cff](https://github.com/paleofoundation/heavymetalindex/commit/6743cff) | 2026-05-16 | prebuild: regenerate source legends for hour-1-7 filled pages |
 <!-- END: hmi-page-history -->

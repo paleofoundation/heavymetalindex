@@ -54,9 +54,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
 | [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
 | [1e18eb9](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9) | 2026-05-03 | Add Category 1 lead benchmark context |
 | [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
-| [36ff5c8](https://github.com/paleofoundation/heavymetalindex/commit/36ff5c8) | 2026-04-25 | Lead batch: 9 source pages, 4 regulation pages, populated metals/lead.md |
 <!-- END: hmi-page-history -->

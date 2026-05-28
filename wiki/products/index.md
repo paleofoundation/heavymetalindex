@@ -233,7 +233,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 2. [[products/pork-product|Pork]] (4 sources)
 3. [[products/lamb-mutton|Lamb/mutton]] (3 sources)
 4. [[products/poultry-product|Poultry (chicken, turkey, duck)]] (26 sources)
-5. [[products/game-meats|Game meats (venison, bison, rabbit)]] (1 source)
+5. [[products/game-meats|Game meats (venison, bison, rabbit)]] (2 sources)
 6. [[products/eggs-product|Eggs]] (6 sources)
 7. [[products/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] (6 sources)
 8. [[products/canned-meats|Canned meats (with tin flag)]] (0 sources)
@@ -510,22 +510,22 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/breakfast-cereals|Breakfast Cereals]]
-- [[products/canned-mushrooms|Canned Mushrooms]]
-- [[products/infant-food-general|Infant Food General]]
-- [[products/infant-food-puree|Infant Food Puree]]
-- [[products/infant-food-puree-fish|Infant Food Puree Fish]]
-- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]]
-- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]]
-- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]]
-- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]]
-- [[products/infant-formula-dairy|Infant Formula Dairy]]
-- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
-- [[products/infant-juice|Infant Juice]]
-- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
-- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
-- [[products/infant-rice-cereal|Infant Rice Cereal]]
-- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]]
-- [[products/pickled-mushrooms|Pickled Mushrooms]]
-- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
+- [[products/breakfast-cereals|Breakfast Cereals]] (8 sources)
+- [[products/canned-mushrooms|Canned Mushrooms]] (1 source)
+- [[products/infant-food-general|Infant Food General]] (2 sources)
+- [[products/infant-food-puree|Infant Food Puree]] (0 sources)
+- [[products/infant-food-puree-fish|Infant Food Puree Fish]] (0 sources)
+- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]] (0 sources)
+- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]] (0 sources)
+- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]] (0 sources)
+- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]] (0 sources)
+- [[products/infant-formula-dairy|Infant Formula Dairy]] (6 sources)
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]] (2 sources)
+- [[products/infant-juice|Infant Juice]] (0 sources)
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]] (0 sources)
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]] (0 sources)
+- [[products/infant-rice-cereal|Infant Rice Cereal]] (15 sources)
+- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]] (1 source)
+- [[products/pickled-mushrooms|Pickled Mushrooms]] (1 source)
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]] (5 sources)
 <!-- END: hmi-auto-linked-stubs -->

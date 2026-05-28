@@ -112,5 +112,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [80c3dcd](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcd) | 2026-05-02 | Ingest FDA 2025 lead baby food guidance |
 <!-- END: hmi-page-history -->

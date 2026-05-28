@@ -104,7 +104,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/wehmeier2023-ias-rice-cola-field-method\|Wehmeier et al. 2023]]. *Detection of Inorganic Arsenic in Rice Using a Field-Deployable Method with Cola Extraction*, Analytical and Bioanalytical Chemistry (published online 23 November 2023) | 2023 | Peer-reviewed | AT iAs, tAs occurrence in 30 rice and rice products (polished, parboiled, unpolished/husked rice, rice crackers, infant rice products) purchased from food shops... (n=30) |
 | 2 | [[sources/gu2020-arsenic-rice-infant-food-australia\|Gu et al. 2020]]. *Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia*, International Journal of Environmental Research and Public Health 17(2):415 | 2020 | Peer-reviewed | AU tAs, iAs occurrence in Thirty-nine rice-based infant food products purchased in Australia: rice milk powder (n=3), rice pasta (n=3), rice cereal (n=12),... (n=39) |
 | 3 | [[sources/carey2018-rice-dilution-infant-food-eu-arsenic\|Carey et al. 2018]]. *Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards*, PLoS ONE | 2018 | Peer-reviewed | GB/EU iAs, tAs concentrations (n=106) |
-| 4 | [[sources/signes-pastor2017-infant-arsenic-rice-weaning\|Signes-Pastor et al. 2017]]. *Inorganic arsenic in rice-based products for infants and young children*, PLOS ONE | 2017 | Peer-reviewed | ES/GB/IT iAs concentrations (n=73) |
+| 4 | [[sources/signes-pastor2017-infant-arsenic-rice-weaning\|Signes-Pastor et al. 2017]]. *Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard*, PLOS ONE | 2017 | Peer-reviewed | ES/GB/IT iAs concentrations (n=73) |
 | 5 | [[sources/brombach2017-methylmercury-european-commercial-rice\|C-C et al. 2016]]. *Methylmercury varies more than one order of magnitude in commercial European rice*, Food Chemistry | 2016 | Peer-reviewed | EU/UK tHg, MeHg occurrence in Eighty-seven commercial rice products purchased in supermarkets and Asian-food suppliers in the UK, Germany, and Switzerland: rice grains... (n=87) |
 | 6 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | US iAs, tAs concentrations (n=1300) |
 <!-- END: hmi-source-legend -->
@@ -116,9 +116,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
 | [ed05a8f](https://github.com/paleofoundation/heavymetalindex/commit/ed05a8f) | 2026-05-17 | chore(autonomy): retire Karen-review queues; consolidate provisional-scaffold flag |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 | [8a49534](https://github.com/paleofoundation/heavymetalindex/commit/8a49534) | 2026-05-17 | products index: numerical order, source counts on every row, drop clean/contaminated call-outs |
-| [1e684a8](https://github.com/paleofoundation/heavymetalindex/commit/1e684a8) | 2026-05-17 | provenance: lead-benchmark generator + scaffold placeholder + ICP-MS citations — 87.3% → 91.7% |
 <!-- END: hmi-page-history -->

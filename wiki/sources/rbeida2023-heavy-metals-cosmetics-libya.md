@@ -153,6 +153,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2371a99](https://github.com/paleofoundation/heavymetalindex/commit/2371a99) | 2026-05-18 | audit: rbeida2023-heavy-metals-cosmetics-libya revised |
 | [bba5455](https://github.com/paleofoundation/heavymetalindex/commit/bba5455) | 2026-05-18 | ingest: rbeida2023-heavy-metals-cosmetics-libya fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
 <!-- END: hmi-page-history -->

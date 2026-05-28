@@ -148,6 +148,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [6f1ac66](https://github.com/paleofoundation/heavymetalindex/commit/6f1ac66) | 2026-05-25 | audit: scutarasu2023-heavy-metals-foods-beverages revised |
 | [612b62b](https://github.com/paleofoundation/heavymetalindex/commit/612b62b) | 2026-05-25 | ingest: scutarasu2023-heavy-metals-foods-beverages enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
 | [539c1ba](https://github.com/paleofoundation/heavymetalindex/commit/539c1ba) | 2026-05-17 | audit (codex): scutarasu2023 edible oils review revised |

@@ -88,6 +88,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [06a2c1e](https://github.com/paleofoundation/heavymetalindex/commit/06a2c1e) | 2026-05-18 | audit: vanisree2022-heavy-metals-food-crops-chapter promoted |
 | [cbf8f33](https://github.com/paleofoundation/heavymetalindex/commit/cbf8f33) | 2026-05-18 | ingest: vanisree2022-heavy-metals-food-crops-chapter enhanced from Papers Cube Manual Fetch |
 <!-- END: hmi-page-history -->

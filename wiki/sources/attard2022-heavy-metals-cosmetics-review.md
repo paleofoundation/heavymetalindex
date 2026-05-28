@@ -145,9 +145,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [765a001](https://github.com/paleofoundation/heavymetalindex/commit/765a001) | 2026-05-18 | audit: attard2022-heavy-metals-cosmetics-review promoted (with concern note) |
 | [0a23668](https://github.com/paleofoundation/heavymetalindex/commit/0a23668) | 2026-05-18 | ingest: attard2022-heavy-metals-cosmetics-review enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [baf6597](https://github.com/paleofoundation/heavymetalindex/commit/baf6597) | 2026-05-16 | cat2: master rewrite + advisory + retired-page redirects + source rerouting |
-| [401c3c2](https://github.com/paleofoundation/heavymetalindex/commit/401c3c2) | 2026-05-14 | sources: Cat 2 review — Attard & Attard 2022 heavy metals in cosmetics |
 <!-- END: hmi-page-history -->

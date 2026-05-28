@@ -143,9 +143,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [d2cbeb0](https://github.com/paleofoundation/heavymetalindex/commit/d2cbeb0) | 2026-05-17 | audit-queue: mgbemena2026 status -> audited-revised; brand-firewall sweep on source page |
 | [882a81c](https://github.com/paleofoundation/heavymetalindex/commit/882a81c) | 2026-05-17 | audit: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals revised |
 | [c75d66e](https://github.com/paleofoundation/heavymetalindex/commit/c75d66e) | 2026-05-17 | ingest: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals enhanced from MFK/06_Infant_Foods_Formula |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
-| [2d4429e](https://github.com/paleofoundation/heavymetalindex/commit/2d4429e) | 2026-05-13 | ingest: P4 batch 17 close — 29 source pages, 200 handles (positions 5168-5367) + kimi-cat06 5 pages |
 <!-- END: hmi-page-history -->

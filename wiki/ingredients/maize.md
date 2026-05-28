@@ -52,14 +52,19 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|Abdullahi et al. 2024]]. *Seasonal Variation and Uptake Pattern of Heavy Metals in Maize*, Dutse Journal of Pure and Applied Sciences (DUJOPAS) | 2024 | Peer-reviewed | NG Pb, Cd, Cr, Ni occurrence in Maize grain and root samples from 10 locations in the Kano River Irrigation Project, Nigeria; wet season (Sept–Oct... (n=20) |
-| 2 | [[sources/vasilachi2023-heavy-metals-cereal-crops\|Vasilachi et al. 2023]]. *Analysis of Heavy Metal Impacts on Cereal Crop Growth and Development in Contaminated Soils*, Agriculture | 2023 | Review | Pb, Cd, tAs, Cr, Ni, Al, Sn, tHg occurrence in Review of global literature on cereal crops (wheat, rice, maize, barley) in contaminated soils |
-| 3 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | NG/CN/TZ Pb, Cd, tAs, tHg, Cr, Ni occurrence in Narrative review in Current Opinion in Toxicology covering plant food heavy metal contamination globally, with emphasis on Asia,... |
-| 4 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | ET Pb, Cr, Mn, Fe, Co, Cu, Zn occurrence in Popcorn from 5 shops in Addis Ababa, Ethiopia (~200g each, pooled to 1 kg) and cornflakes from 3... (n=8) |
+| 1 | [[sources/dragicevic2025-popcorn-essential-minerals\|Dragičević et al. 2025]]. *Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes*, Chilean Journal of Agricultural Research 85(2): 277-285 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|Abdullahi et al. 2024]]. *Seasonal Variation and Uptake Pattern of Heavy Metals in Maize*, Dutse Journal of Pure and Applied Sciences (DUJOPAS) | 2024 | Peer-reviewed | NG Pb, Cd, Cr, Ni occurrence in Maize grain and root samples from 10 locations in the Kano River Irrigation Project, Nigeria; wet season (Sept–Oct... (n=20) |
+| 3 | [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|Oduro et al. 2023]]. *Health risks of potentially toxic metals in cereal-based breakfast meals in the Kumasi Metropolis, Ghana*, Discover Food 3:25 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/vasilachi2023-heavy-metals-cereal-crops\|Vasilachi et al. 2023]]. *Analysis of Heavy Metal Impacts on Cereal Crop Growth and Development in Contaminated Soils*, Agriculture | 2023 | Review | Pb, Cd, tAs, Cr, Ni, Al, Sn, tHg occurrence in Review of global literature on cereal crops (wheat, rice, maize, barley) in contaminated soils |
+| 5 | [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|Clair-Caliot et al. 2021]]. *Uptake of Arsenic by Irrigated Vegetables and Cooked Food Products in Burkina Faso*, Frontiers in Water | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp\|Saraiva et al. 2021]]. *Speciation analysis of Cr(III) and Cr(VI) in bread and breakfast cereals using species-specific isotope dilution and HPLC-ICP-MS*, Journal of Food Composition and Analysis | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/afonne2020-heavy-metals-plant-foods\|Afonne et al. 2020]]. *Heavy metals risks in plant foods – need to step up precautionary measures*, Current Opinion in Toxicology | 2020 | Review | NG/CN/TZ Pb, Cd, tAs, tHg, Cr, Ni occurrence in Narrative review in Current Opinion in Toxicology covering plant food heavy metal contamination globally, with emphasis on Asia,... |
+| 8 | [[sources/abebe2017-popcorn-cornflake-metals-ethiopia\|Abebe et al. 2017]]. *Assessment of essential and non-essential metals in popcorn and cornflake commercially available in Ethiopia*, Chemistry International 3(3):268-276 | 2017 | Peer-reviewed | ET Pb, Cr, Mn, Fe, Co, Cu, Zn occurrence in Popcorn from 5 shops in Addis Ababa, Ethiopia (~200g each, pooled to 1 kg) and cornflakes from 3... (n=8) |
+| 9 | [[sources/li2017-mercury-vegetables-grains-coal-power-china\|Li et al. 2017]]. *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*, Scientific Reports | 2017 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -127,9 +132,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [1d40ff2](https://github.com/paleofoundation/heavymetalindex/commit/1d40ff2) | 2026-05-20 | autonomy: daemon tick 2026-05-20T10-12-12Z — gap-healing + extraction + pooling + briefings |
 | [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
-| [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
 <!-- END: hmi-page-history -->

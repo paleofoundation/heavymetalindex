@@ -155,6 +155,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [948e470](https://github.com/paleofoundation/heavymetalindex/commit/948e470) | 2026-05-28 | ingest: kangre2024-canned-tomato-pb-sn-ghana [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
 | [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
 <!-- END: hmi-page-history -->

@@ -45,7 +45,14 @@ const PRIORITY_DIRS = [
 ]
 
 const args = process.argv.slice(2)
-const dryRun = args.includes("--dry-run") || !process.env.DATACITE_USER
+const user = process.env.DATACITE_USER || ""
+const prefix = process.env.DATACITE_PREFIX || ""
+// Treat the PENDING_* placeholder sentinels as not-yet-configured, so the
+// Vercel-side env-var slots can sit populated with placeholders without
+// accidentally triggering a live API call. The script only goes live when
+// Karen overwrites the placeholders with real DataCite credentials.
+const credentialsReady = user && !user.startsWith("PENDING") && prefix && !prefix.startsWith("PENDING")
+const dryRun = args.includes("--dry-run") || !credentialsReady
 const limitArg = args.find((a) => a.startsWith("--limit="))
 const limit = limitArg ? Number(limitArg.split("=")[1]) : Infinity
 const priorityArg = args.find((a) => a.startsWith("--priority="))
@@ -92,9 +99,15 @@ console.log(`  candidates total:  ${candidates.length}`)
 console.log(`  this run will:     ${batch.length}`)
 
 if (dryRun) {
-  if (!DATACITE_USER) {
-    console.log(`\n  (no DataCite env vars set; this is a planning report)`)
-    console.log(`  To activate: set DATACITE_USER, DATACITE_PASSWORD, DATACITE_PREFIX, DATACITE_MODE`)
+  if (!credentialsReady) {
+    if (!user) {
+      console.log(`\n  (no DataCite env vars set; this is a planning report)`)
+    } else if (user.startsWith("PENDING") || prefix.startsWith("PENDING")) {
+      console.log(`\n  (DataCite env vars set to PENDING_* placeholders; this is a planning report)`)
+      console.log(`  Overwrite DATACITE_USER, DATACITE_PASSWORD, DATACITE_PREFIX on the Vercel dashboard`)
+      console.log(`  (project: karen-pendergrass-projects/heavymetalindex) with real DataCite credentials,`)
+      console.log(`  then run again to mint.`)
+    }
   }
   const breakdown = {}
   for (const c of batch) {

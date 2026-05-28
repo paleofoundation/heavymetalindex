@@ -41,6 +41,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
 | [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
 | [eb85df3](https://github.com/paleofoundation/heavymetalindex/commit/eb85df3) | 2026-04-25 | Mercury batch: 7 source pages, 5 regulation pages, new metals/mercury.md |

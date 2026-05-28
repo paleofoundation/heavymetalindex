@@ -9,7 +9,7 @@ microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 265
+sources: 266
 ---
 
 # Arsenic
@@ -212,9 +212,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [db754c1](https://github.com/paleofoundation/heavymetalindex/commit/db754c1) | 2026-05-28 | autonomy: daemon tick 2026-05-28T15-58-03Z — exit-trap recovery (exit_code=0) |
 | [c67513a](https://github.com/paleofoundation/heavymetalindex/commit/c67513a) | 2026-05-28 | autonomy: commit pending daemon writes from 10:46Z tick (sync-source-counts + heal-gaps scaffolds + sprint-status) |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [eda33c7](https://github.com/paleofoundation/heavymetalindex/commit/eda33c7) | 2026-05-20 | autonomy: daemon tick 2026-05-20T15-11-23Z — gap-healing + extraction + pooling + briefings |
-| [c2b716e](https://github.com/paleofoundation/heavymetalindex/commit/c2b716e) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-49-27Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

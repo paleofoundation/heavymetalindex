@@ -101,6 +101,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [330acd9](https://github.com/paleofoundation/heavymetalindex/commit/330acd9) | 2026-05-28 | audit: schaefer2020-cadmium-mitigation-strategies [revised] |
 | [5fd311c](https://github.com/paleofoundation/heavymetalindex/commit/5fd311c) | 2026-05-28 | ingest: schaefer2020-cadmium-mitigation-strategies [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |

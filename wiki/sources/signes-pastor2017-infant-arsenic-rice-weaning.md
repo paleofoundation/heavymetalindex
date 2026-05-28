@@ -111,9 +111,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fa57468](https://github.com/paleofoundation/heavymetalindex/commit/fa57468) | 2026-05-25 | audit signes-pastor2017 rice weaning source |
 | [c3629d4](https://github.com/paleofoundation/heavymetalindex/commit/c3629d4) | 2026-05-19 | ingest auto-gap: infant rice arsenic weaning |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
 | [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
-| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
 <!-- END: hmi-page-history -->

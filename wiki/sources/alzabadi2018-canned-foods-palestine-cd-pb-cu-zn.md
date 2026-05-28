@@ -121,6 +121,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [92557b1](https://github.com/paleofoundation/heavymetalindex/commit/92557b1) | 2026-05-25 | ingest: alzabadi2018-canned-foods-palestine-cd-pb-cu-zn enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
 | [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
 <!-- END: hmi-page-history -->

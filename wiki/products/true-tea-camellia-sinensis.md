@@ -98,14 +98,18 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hu2023-china-tea-heavy-metals\|Hu et al. 2023]]. *Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China*, Toxics | 2023 | Peer-reviewed | CN tAs, Cd, Cr, Cu, tHg, Pb concentrations (n=4803) |
-| 2 | [[sources/kazeminia2023-tea-heavy-metals-review\|Kazeminia et al. 2023]]. *Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review*, Carpathian Journal of Food Science and Technology | 2023 | Peer-reviewed | As, Cd, Cr, Pb, Hg, Al, Fe, Ba, Ni, Co concentrations from the cited dataset (n=157) |
-| 3 | [[sources/salmani2023-herbal-teas-metals-review\|Salmani et al. 2023]]. *Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review*, Biological Trace Element Research | 2023 | Review | IR/TR/CN Pb, Cd, tAs, Al, Cr, Ni concentrations (n=49) |
-| 4 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | CN/IN/TR Pb, Cd, tAs, Cr, Cu concentrations |
+| 1 | [[sources/hamitoglu2026-turkiye-tea-metals\|Muhammed et al. 2026]]. *Determination of essential and toxic elements in black teas sold in Turkiye*, Turkish Journal of Pharmaceutical Sciences | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/taha2026-saudi-tea-metals\|Elhassan et al. 2026]]. *Heavy metals in commercial tea brands in Saudi Arabia*, Scientific Reports | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/hu2023-china-tea-heavy-metals\|Hu et al. 2023]]. *Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China*, Toxics | 2023 | Peer-reviewed | CN tAs, Cd, Cr, Cu, tHg, Pb concentrations (n=4803) |
+| 4 | [[sources/kazeminia2023-tea-heavy-metals-review\|Kazeminia et al. 2023]]. *Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review*, Carpathian Journal of Food Science and Technology | 2023 | Peer-reviewed | As, Cd, Cr, Pb, Hg, Al, Fe, Ba, Ni, Co concentrations from the cited dataset (n=157) |
+| 5 | [[sources/salmani2023-herbal-teas-metals-review\|Salmani et al. 2023]]. *Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review*, Biological Trace Element Research | 2023 | Review | IR/TR/CN Pb, Cd, tAs, Al, Cr, Ni concentrations (n=49) |
+| 6 | [[sources/abraheem2022-tea-coffee-lead-cadmium\|Mohammad et al. 2022]]. *Determination of Lead and Cadmium Concentration in Different Samples of Tea and Coffee Circulating in the Libyan Market*, International Journal of Science and Research | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/fogarasi2019-tea-aluminum\|Erzsebet et al. 2019]]. *Aluminium contamination of several types of tea*, Orvostudomanyi Ertesito | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/li2013-tea-chemical-contaminants-review\|Li et al. 2013]]. *Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review*, Food Research International | 2013 | Review | CN/IN/TR Pb, Cd, tAs, Cr, Cu concentrations |
 <!-- END: hmi-source-legend -->
 ## Who this page is for
 
@@ -144,9 +148,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [8530c3e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e) | 2026-05-17 | synthesis: 53 product pages — replace placeholder Levers + Historical-recalls intros |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
-| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
 <!-- END: hmi-page-history -->

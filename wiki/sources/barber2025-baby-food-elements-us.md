@@ -191,6 +191,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [17e814d](https://github.com/paleofoundation/heavymetalindex/commit/17e814d) | 2026-05-19 | audit queue fire batch 2: 10 source pages |
 | [98bb5a8](https://github.com/paleofoundation/heavymetalindex/commit/98bb5a8) | 2026-05-18 | ingest (codex): barber2025 baby food elements us |
 <!-- END: hmi-page-history -->

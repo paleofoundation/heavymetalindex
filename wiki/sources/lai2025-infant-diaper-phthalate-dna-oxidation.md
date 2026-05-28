@@ -113,6 +113,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [834c5a5](https://github.com/paleofoundation/heavymetalindex/commit/834c5a5) | 2026-05-17 | audit: lai2025-infant-diaper-phthalate-dna-oxidation promoted |
 | [5ed8239](https://github.com/paleofoundation/heavymetalindex/commit/5ed8239) | 2026-05-17 | ingest: lai2025-infant-diaper-phthalate-dna-oxidation fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
 <!-- END: hmi-page-history -->

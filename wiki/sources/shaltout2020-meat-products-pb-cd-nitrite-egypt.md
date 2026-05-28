@@ -104,6 +104,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
 | [e689152](https://github.com/paleofoundation/heavymetalindex/commit/e689152) | 2026-05-15 | sources: Cat 1 processed meat — Shaltout 2020 Egyptian Pb/Cd/nitrite, B-tier corroborative |
 <!-- END: hmi-page-history -->

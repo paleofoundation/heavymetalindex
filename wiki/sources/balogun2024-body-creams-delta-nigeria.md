@@ -140,5 +140,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [250f268](https://github.com/paleofoundation/heavymetalindex/commit/250f268) | 2026-05-17 | ingest: balogun2024-body-creams-delta-nigeria fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
 <!-- END: hmi-page-history -->

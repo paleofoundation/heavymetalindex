@@ -205,9 +205,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [667d8fd](https://github.com/paleofoundation/heavymetalindex/commit/667d8fd) | 2026-05-25 | audit: nazari2023-heavy-metals-seed-crops-oil-products-review revised |
 | [5c35781](https://github.com/paleofoundation/heavymetalindex/commit/5c35781) | 2026-05-25 | ingest: nazari2023-heavy-metals-seed-crops-oil-products-review enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
-| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
 <!-- END: hmi-page-history -->

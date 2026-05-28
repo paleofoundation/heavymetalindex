@@ -159,7 +159,7 @@ The Codex Alimentarius Standard for Olive Oils and Olive Pomace Oils (CXS 33-198
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -168,12 +168,13 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 3 | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|Tayeb et al. 2025]]. *Assessment of lead and cadmium exposure through olive and corn oil consumption in Gonbad-Kavus, north of Iran: A public health risk analysis*, Toxicology Reports | 2025 | Peer-reviewed | Iranian commercial-vs-traditional olive oil Pb and Cd occurrence with intake risk analysis (n=30 olive oil) |
 | 4 | [[sources/mehri2024-vegetable-oils-iran-hamadan-ptes\|Mehri et al. 2024]]. *A probabilistic health risk assessment of potentially toxic elements in edible vegetable oils consumed in Hamadan, Iran*, BMC Public Health | 2024 | Peer-reviewed | Hamadan-province Iranian vegetable oil potentially toxic elements survey including olive oil cross-context |
 | 5 | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|González-Torres et al. 2023]]. *Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils*, Applied Sciences | 2023 | Peer-reviewed | Systematic review of 35 vegetable oil types from 24 countries (2015-2022 literature); global synthesis of the olive-oil metals profile |
-| 6 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | Broad-context heavy-metals-in-foods review; olive oil cited within food-system metals overview |
-| 7 | [[sources/kabaran2020-health-risk-olive-oil-cyprus\|Kabaran et al. 2020]]. *Is there any potential health risk of heavy metals through dietary intake of olive oil that produced in Morphou, Cyprus*, Progress in Nutrition | 2020 | Peer-reviewed | Cypriot Morphou-Lefka olive oil five-metal panel (Pb, Cd, tAs, Ni, Cr); dietary intake survey n=500 |
-| 8 | [[sources/ziarati2019-iranian-italian-flavoured-olive-oil\|Ziarati et al. 2019]]. *Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil*, Acta Technologica Agriculturae | 2019 | Peer-reviewed | Flavoured-vs-unflavoured olive oil Pb, Cd, Ni, tAs comparison across n=480 samples; demonstrates infusion-ingredient as added-load pathway |
-| 9 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish total-diet-study olive oil aluminium and broader-eight-metal occurrence in the consumed-food panel |
-| 10 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | Saudi market survey across 161 vegetable oil samples including 27 olive oil; positions olive oil in context of competing edible oils |
-| 11 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | Turkish vegetable oil ICP-AES heavy-metals data including olive oil; older protocol but representative Turkish market data |
+| 6 | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review\|Nazari et al. 2023]]. *Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review*, Carpathian Journal of Food Science and Technology, 15(2), 106-124 | 2023 | Review | *[awaiting synthesis]* |
+| 7 | [[sources/scutarasu2023-heavy-metals-foods-beverages\|Scutarasu et al. 2023]]. *Heavy Metals in Foods and Beverages: Global Situation, Health Risks and Reduction Methods*, Foods | 2023 | Peer-reviewed | Broad-context heavy-metals-in-foods review; olive oil cited within food-system metals overview |
+| 8 | [[sources/kabaran2020-health-risk-olive-oil-cyprus\|Kabaran et al. 2020]]. *Is there any potential health risk of heavy metals through dietary intake of olive oil that produced in Morphou, Cyprus*, Progress in Nutrition | 2020 | Peer-reviewed | Cypriot Morphou-Lefka olive oil five-metal panel (Pb, Cd, tAs, Ni, Cr); dietary intake survey n=500 |
+| 9 | [[sources/ziarati2019-iranian-italian-flavoured-olive-oil\|Ziarati et al. 2019]]. *Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil*, Acta Technologica Agriculturae | 2019 | Peer-reviewed | Flavoured-vs-unflavoured olive oil Pb, Cd, Ni, tAs comparison across n=480 samples; demonstrates infusion-ingredient as added-load pathway |
+| 10 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish total-diet-study olive oil aluminium and broader-eight-metal occurrence in the consumed-food panel |
+| 11 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | Saudi market survey across 161 vegetable oil samples including 27 olive oil; positions olive oil in context of competing edible oils |
+| 12 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | Turkish vegetable oil ICP-AES heavy-metals data including olive oil; older protocol but representative Turkish market data |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -183,9 +184,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [eb8c466](https://github.com/paleofoundation/heavymetalindex/commit/eb8c466) | 2026-05-15 | prebuild: regenerate source legends and routing audit across corpus |
-| [4fdd808](https://github.com/paleofoundation/heavymetalindex/commit/4fdd808) | 2026-05-15 | ingredients: fill out olives and olive-oil from routed sources |
 <!-- END: hmi-page-history -->

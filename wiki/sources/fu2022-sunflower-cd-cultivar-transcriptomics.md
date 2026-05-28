@@ -60,6 +60,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 | [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
 | [29a65ac](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac) | 2026-05-12 | ingest: batch-E seasonal-geographic-variance — 9 source pages |

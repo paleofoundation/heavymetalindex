@@ -151,6 +151,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [a2b0756](https://github.com/paleofoundation/heavymetalindex/commit/a2b0756) | 2026-05-18 | audit: cephed2013-heavy-metals-childrens-toys-nepal revised |
 | [a013adb](https://github.com/paleofoundation/heavymetalindex/commit/a013adb) | 2026-05-18 | ingest: cephed2013-heavy-metals-childrens-toys-nepal fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
 <!-- END: hmi-page-history -->

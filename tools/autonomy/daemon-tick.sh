@@ -437,6 +437,31 @@ if [[ "$SYNTHESIS_DRAIN_CAP" != "0" ]]; then
   run_step "drain-pending-synthesis" node tools/autonomy/drain-pending-synthesis.mjs "--max=$SYNTHESIS_DRAIN_CAP" || true
 fi
 
+# Step 5d.3: promote-synthesis-pages — autonomous synthesis-findings-page
+# promoter (2026-05-28). Scans data/evidence/synthesis-proposals.md and:
+#   - drafts wiki/synthesis/<slug>.md for any Pending candidate that has
+#     crossed the 4-criteria gate (CLAUDE.md Part 9 / wiki/synthesis.md
+#     "When to promote") — explicit "Promotion criteria met:" block with
+#     4 checkmarks OR "Promotion readiness: 4 of 4 criteria met"
+#   - moves Pending → Promoted in the proposals file
+#   - inserts an index bullet at the top of wiki/synthesis.md
+#   - retires (no-claude) entries whose body explicitly recommends against
+#     promotion (methodology-note class; the Egypt-regulatory-baseline
+#     entry was the founding example)
+#
+# Most ticks will pick 0 candidates: the 4-criteria gate is deliberately
+# strict (the synthesis pages are the wiki's load-bearing brand-legal
+# surface). When new anchor sources land via the wishlist/manual-fetch
+# pipelines and accumulate against an existing thread, the relevant block
+# moves from "1 of 4" or "2 of 4" to "4 of 4" and the next tick promotes.
+#
+# Bounded per-tick cap = 1 by default (each promotion is 30-60 min of
+# Opus work). Disable with HMI_SYNTHESIS_PROMOTE_CAP=0.
+SYNTHESIS_PROMOTE_CAP="${HMI_SYNTHESIS_PROMOTE_CAP:-1}"
+if [[ "$SYNTHESIS_PROMOTE_CAP" != "0" ]]; then
+  run_step "promote-synthesis-pages" node tools/autonomy/promote-synthesis-pages.mjs "--max=$SYNTHESIS_PROMOTE_CAP" || true
+fi
+
 # Step 5e: drain-audit-queue — autonomous audit drainer (2026-05-28).
 # Picks up to AUDIT_DRAIN_CAP entries with status=pending or pending-audit-
 # spawn-failed and spawns claude --print per entry to run the full 5-check

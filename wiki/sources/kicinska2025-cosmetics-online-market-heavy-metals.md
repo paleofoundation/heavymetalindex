@@ -93,6 +93,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [eb714c6](https://github.com/paleofoundation/heavymetalindex/commit/eb714c6) | 2026-05-17 | audit: kicinska2025-cosmetics-online-market-heavy-metals revised |
 | [08b2149](https://github.com/paleofoundation/heavymetalindex/commit/08b2149) | 2026-05-17 | ingest: kicinska2025-cosmetics-online-market-heavy-metals enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
 | [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |

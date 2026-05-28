@@ -117,5 +117,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [a7b2e94](https://github.com/paleofoundation/heavymetalindex/commit/a7b2e94) | 2026-05-15 | sources: Cat 1 WanaBana outbreak — Napier 2024 NC childhood Pb from apple cinnamon purees |
 <!-- END: hmi-page-history -->

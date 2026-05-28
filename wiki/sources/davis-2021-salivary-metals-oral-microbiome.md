@@ -43,6 +43,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
 | [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
 | [7c39871](https://github.com/paleofoundation/heavymetalindex/commit/7c39871) | 2026-04-25 | Close 5 deferred provenance gaps; add ingest-tracking convention |

@@ -96,9 +96,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [1e18eb9](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9) | 2026-05-03 | Add Category 1 lead benchmark context |
 | [80c3dcd](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcd) | 2026-05-02 | Ingest FDA 2025 lead baby food guidance |
 | [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
 | [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
-| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
 <!-- END: hmi-page-history -->

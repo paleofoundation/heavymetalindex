@@ -15,6 +15,8 @@ import TagList from "./TagList"
 import Graph from "./Graph"
 import Backlinks from "./Backlinks"
 import AskIndex from "./AskIndex"
+import Corrections from "./Corrections"
+import CiteThisPage from "./CiteThisPage"
 import Search from "./Search"
 import Footer from "./Footer"
 import ProductEvidenceSummary from "./ProductEvidenceSummary"
@@ -45,6 +47,8 @@ export {
   Graph,
   Backlinks,
   AskIndex,
+  Corrections,
+  CiteThisPage,
   Search,
   Footer,
   ProductEvidenceSummary,

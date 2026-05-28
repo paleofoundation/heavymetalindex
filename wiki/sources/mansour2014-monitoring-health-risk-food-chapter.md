@@ -241,6 +241,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [52a352a](https://github.com/paleofoundation/heavymetalindex/commit/52a352a) | 2026-05-18 | audit: mansour2014-monitoring-health-risk-food-chapter revised |
 | [eb5a53d](https://github.com/paleofoundation/heavymetalindex/commit/eb5a53d) | 2026-05-18 | ingest: mansour2014-monitoring-health-risk-food-chapter enhanced from Papers Cube Manual Fetch |
 <!-- END: hmi-page-history -->

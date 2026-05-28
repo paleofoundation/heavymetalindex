@@ -80,5 +80,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [3859dbf](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf) | 2026-05-12 | ingest: batch-D manual-fetch — 11 source pages (rice, cocoa, tea, apple juice) |
 <!-- END: hmi-page-history -->

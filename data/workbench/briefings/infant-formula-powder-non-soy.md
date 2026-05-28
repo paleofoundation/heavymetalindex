@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-powder-non-soy
 native_basis: powder_as_placed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-28T13:00:46.692Z
+generated_at: 2026-05-28T19:19:45.222Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -137,7 +137,7 @@ All ten HMTc analytes for this product class. Each row shows the published HMTc 
 **Rationale tag:** `literature-baseline`
 **Regulatory ceiling reference:** 20 ppb (eu2023_ias_formula_powder_20)
 **Pool composition:** 7 sources contributing · 52 pseudo-samples in pool · 0 sample-level contributors
-**Bootstrap 95% CI: [4.71, 21.98] ppb**
+**Bootstrap 95% CI: [4.26, 20.22] ppb**
 **Sensitivity: log-normal 11.45 · gamma 8.54 · nonparametric 14.11 ppb · spread 40% (provisional)**
 
 
@@ -618,17 +618,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `6c42d9f71455c363d85f22a3bda9d58ec633713b` in the heavymetalindex.com repository.
+1. Checking out commit `0aa5766c2753e969a961a4d8f2e1c1641da64533` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-powder-non-soy` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-28T13:00:46.702Z |
+| Generated at | 2026-05-28T19:19:45.232Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `6c42d9f71455c363d85f22a3bda9d58ec633713b` |
+| Git commit | `0aa5766c2753e969a961a4d8f2e1c1641da64533` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 

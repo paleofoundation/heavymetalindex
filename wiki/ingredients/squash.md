@@ -163,9 +163,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2d94f57](https://github.com/paleofoundation/heavymetalindex/commit/2d94f57) | 2026-05-17 | synthesis: beet, raspberries, guava, cucumbers, squash, parsley — 6 narrative sections each |
 | [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
-| [3268b89](https://github.com/paleofoundation/heavymetalindex/commit/3268b89) | 2026-05-08 | schema: migrate ingredient_profile to 10-metal standard |
 <!-- END: hmi-page-history -->

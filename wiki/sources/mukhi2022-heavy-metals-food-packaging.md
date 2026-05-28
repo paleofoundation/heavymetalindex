@@ -159,6 +159,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [99656ab](https://github.com/paleofoundation/heavymetalindex/commit/99656ab) | 2026-05-18 | audit: mukhi2022-heavy-metals-food-packaging revised |
 | [720bfcb](https://github.com/paleofoundation/heavymetalindex/commit/720bfcb) | 2026-05-18 | ingest: mukhi2022-heavy-metals-food-packaging enhanced from Papers Cube Manual Fetch (v3 PDF re-read) |
 | [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |

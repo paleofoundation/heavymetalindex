@@ -130,6 +130,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [d2f6fb7](https://github.com/paleofoundation/heavymetalindex/commit/d2f6fb7) | 2026-05-28 | audit: mishra2017-rice-arsenic-thiol-complexation revised |
 | [602563f](https://github.com/paleofoundation/heavymetalindex/commit/602563f) | 2026-05-28 | ingest: mishra2017-rice-arsenic-thiol-complexation fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
 <!-- END: hmi-page-history -->

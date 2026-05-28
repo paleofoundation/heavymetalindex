@@ -108,6 +108,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [9b26fb6](https://github.com/paleofoundation/heavymetalindex/commit/9b26fb6) | 2026-05-25 | audit: silva2025-edible-oils-health-sustainability revised |
 | [ca721ba](https://github.com/paleofoundation/heavymetalindex/commit/ca721ba) | 2026-05-25 | ingest: silva2025-edible-oils-health-sustainability enhanced from Manual Fetch Kimi/01_Oils |
 | [2d9a300](https://github.com/paleofoundation/heavymetalindex/commit/2d9a300) | 2026-05-17 | audit (codex): silva2025 edible oils review revised |

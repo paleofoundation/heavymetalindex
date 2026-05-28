@@ -40,9 +40,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
 | [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
 | [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
 | [3b129bf](https://github.com/paleofoundation/heavymetalindex/commit/3b129bf) | 2026-04-25 | Resolve all 141 UNCITED markers — cite or remove |
-| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
 <!-- END: hmi-page-history -->

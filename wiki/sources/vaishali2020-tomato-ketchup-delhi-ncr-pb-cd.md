@@ -78,9 +78,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [099c229](https://github.com/paleofoundation/heavymetalindex/commit/099c229) | 2026-05-28 | ingest: vaishali2020-tomato-ketchup-delhi-ncr-pb-cd enhanced from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
 | [01de84b](https://github.com/paleofoundation/heavymetalindex/commit/01de84b) | 2026-05-18 | audit (codex): vaishali ketchup revised |
 | [eb3c1ad](https://github.com/paleofoundation/heavymetalindex/commit/eb3c1ad) | 2026-05-18 | ingest (codex): vaishali2020 ketchup merge-enhance |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
-| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 <!-- END: hmi-page-history -->

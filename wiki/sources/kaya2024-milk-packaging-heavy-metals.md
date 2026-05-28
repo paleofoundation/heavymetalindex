@@ -154,6 +154,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [75266ca](https://github.com/paleofoundation/heavymetalindex/commit/75266ca) | 2026-05-18 | audit: kaya2024-milk-packaging-heavy-metals audited-revised |
 | [3bc6e9b](https://github.com/paleofoundation/heavymetalindex/commit/3bc6e9b) | 2026-05-18 | ingest: kaya2024-milk-packaging-heavy-metals enhanced from Papers Cube Manual Fetch |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |

@@ -9,7 +9,48 @@ The Heavy Metal Index is operated by the [Paleo Foundation](https://paleofoundat
 
 ## Corrections and editorial
 
-To report a factual error, a broken provenance link, an outdated regulatory value, or a missing source that should be considered for ingest, correspondence goes to the editorial address published on the Paleo Foundation contact page. A dedicated correction-submission form will be added to this page before general availability.
+To report a factual error, a broken provenance link, an outdated regulatory value, or a missing source that should be considered for ingest, use the correction form below. The form delivers your submission to the editorial queue at `data/evidence/corrections.jsonl`; the team acknowledges within 5 business days per [[errata]]. Email to the editorial address published on the Paleo Foundation contact page remains a supported backup channel.
+
+<form class="hmi-correction-form" data-hmi-correction-form="/api/corrections" novalidate>
+  <fieldset>
+    <legend>Submit a correction</legend>
+    <label>
+      <span class="hmi-correction-label">Page URL or slug <span class="hmi-correction-hint">(required — e.g. <code>ingredients/turmeric</code> or the full https URL)</span></span>
+      <input type="text" name="page" required maxlength="400" autocomplete="off" />
+    </label>
+    <label>
+      <span class="hmi-correction-label">The claim, number, or citation you are challenging <span class="hmi-correction-hint">(required — quote the specific text on the page)</span></span>
+      <textarea name="claim" required rows="3" maxlength="4000"></textarea>
+    </label>
+    <label>
+      <span class="hmi-correction-label">The correction you believe is warranted <span class="hmi-correction-hint">(required)</span></span>
+      <textarea name="correction" required rows="3" maxlength="4000"></textarea>
+    </label>
+    <label>
+      <span class="hmi-correction-label">Supporting source <span class="hmi-correction-hint">(optional but strongly preferred — peer-reviewed paper, agency document, or formal dataset; include the DOI or URL)</span></span>
+      <textarea name="source" rows="2" maxlength="4000"></textarea>
+    </label>
+    <label>
+      <span class="hmi-correction-label">Your name <span class="hmi-correction-hint">(optional)</span></span>
+      <input type="text" name="submitter_name" maxlength="200" autocomplete="name" />
+    </label>
+    <label>
+      <span class="hmi-correction-label">Your email <span class="hmi-correction-hint">(optional — needed only if you want a written reply)</span></span>
+      <input type="email" name="submitter_email" maxlength="320" autocomplete="email" />
+    </label>
+    <label>
+      <span class="hmi-correction-label">Your relationship to the subject matter <span class="hmi-correction-hint">(optional — e.g. "academic researcher in food toxicology", "brand QA lead", "regulator at FDA". Tracked but not required; helps calibrate review)</span></span>
+      <input type="text" name="submitter_relationship" maxlength="400" autocomplete="off" />
+    </label>
+    <div class="hmi-correction-honeypot" aria-hidden="true">
+      <label>Leave this field empty<input type="text" name="hp" tabindex="-1" autocomplete="off" /></label>
+    </div>
+    <div class="hmi-correction-actions">
+      <span data-hmi-correction-status role="status" aria-live="polite"></span>
+      <button type="submit">Submit correction</button>
+    </div>
+  </fieldset>
+</form>
 
 ## Commercial licensing
 

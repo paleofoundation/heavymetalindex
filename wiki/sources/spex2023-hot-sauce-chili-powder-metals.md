@@ -89,6 +89,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [255c805](https://github.com/paleofoundation/heavymetalindex/commit/255c805) | 2026-05-17 | audit (codex): spex2023 hot sauce chili metals revised |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
 | [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |

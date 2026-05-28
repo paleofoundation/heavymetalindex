@@ -104,7 +104,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/haydous2025-pet-food-metals-lebanon-uae\|Haydous et al. 2025]]. *Pet food safety at risk? Investigating toxic metal contamination in Lebanon and the UAE*, RSC Advances | 2025 | Peer-reviewed | LB/AE Pb, Cd, As, tHg, Cr occurrence in 196 commercial pet food SKUs: 75 from Lebanon, 121 from UAE; 81 dry, 115 wet; 147 cat food,... (n=196) |
 | 3 | [[sources/kalicharan2025-heavy-metals-pet-food-south-africa\|Kalicharan et al. 2025]]. *Determination of Heavy Metal Contamination in Premium and Supermarket Brands of Extruded Feline and Canine Food in the South African Market*, Veterinary Medicine and Science | 2025 | Peer-reviewed | ZA Pb, Cd, tAs, tHg, Ni, Zn, Cu occurrence in 14 premium and 17 supermarket brands of extruded cat and dog food (kibble) from the South African market;... (n=31) |
 | 4 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | GB/EU Pb occurrence in Commercial dogfood products (raw, dried, processed) and raw pheasant meat for human consumption purchased from UK retailers 2021–2022 (n=193) |
-| 5 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | US/WHO Cr, Ni, Al occurrence in 49 commercially available dry dog foods (maintenance/all life stage) from Ithaca, NY area retail and Cornell University Veterinary... (n=49) |
+| 5 | [[sources/kim2018-dry-dog-food-heavy-metals\|Hyun-Tae et al. 2018]]. *Evaluation of Arsenic, Cadmium, Lead and Mercury Contamination in Over-the-Counter Available Dry Dog Foods With Different Animal Ingredients (Red Meat, Poultry, and Fish)*, Frontiers in Veterinary Science | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | US/WHO Cr, Ni, Al occurrence in 49 commercially available dry dog foods (maintenance/all life stage) from Ithaca, NY area retail and Cornell University Veterinary... (n=49) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -114,9 +115,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 | [8a49534](https://github.com/paleofoundation/heavymetalindex/commit/8a49534) | 2026-05-17 | products index: numerical order, source counts on every row, drop clean/contaminated call-outs |
-| [1e684a8](https://github.com/paleofoundation/heavymetalindex/commit/1e684a8) | 2026-05-17 | provenance: lead-benchmark generator + scaffold placeholder + ICP-MS citations — 87.3% → 91.7% |
 <!-- END: hmi-page-history -->

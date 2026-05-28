@@ -138,7 +138,7 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -147,9 +147,11 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 3 | [[sources/zhao2024-toxic-metals-metalloids-food-review\|Zhao et al. 2024]]. *Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies*, Current Opinion in Environmental Science & Health | 2024 | Peer-reviewed | AU/BR/FR tAs, iAs, Cd, Pb occurrence in Global occurrence synthesis: Table 1 aggregates national mean occurrence data from Total Diet Studies across Australia, Brazil, France,... |
 | 4 | [[sources/zhou2023-inosperma-mushroom-elements\|Zhou et al. 2023]]. *Phylogenetic analysis, morphological studies, element profiling, and muscarine detection reveal a new toxic Inosperma (Inocybaceae, Agaricales) species from tropical China*, Frontiers in Microbiology | 2023 | Peer-reviewed | CN tAs occurrence in Inosperma wuzhishanense sp. nov., a new mushroom species from Wuzhishan City, Hainan Province, tropical China; dried basidiomata analyzed... |
 | 5 | [[sources/braeuer2022-mercury-selenium-mushrooms-la-icpms\|Braeuer et al. 2022]]. *Quantitative mapping of mercury and selenium in mushroom fruit bodies with laser ablation–inductively coupled plasma-mass spectrometry*, Analytical and Bioanalytical Chemistry | 2022 | Peer-reviewed | tHg occurrence in 6 mushroom individuals: 5 porcini (Boletus edulis, B. aereus, B. pinophilus) and 1 parasol (Macrolepiota procera); collected in... (n=6) |
-| 6 | [[sources/orywal2021-heavy-metals-dried-mushrooms\|Orywal et al. 2021]]. *Health risk assessment of exposure to toxic elements resulting from consumption of dried wild-grown mushrooms available for sale*, PLoS ONE | 2021 | Peer-reviewed | PL/EU tHg, Pb, Cd, tAs occurrence in 80 samples of dried wild-grown mushrooms (40 Boletus edulis, 40 Xerocomus badius) purchased from 5 European supermarket chains... (n=80) |
-| 7 | [[sources/mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland\|Mirończuk-Chodakowska et al. 2013]]. *Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'*, Polish Journal of Environmental Studies | 2013 | Peer-reviewed | PL/EU Pb, Cd occurrence in 21 mushroom species (18 wild, 3 cultivated), 3 specimens each; wild species sampled from 6 communal areas in... (n=63) |
-| 8 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA dietary Cd exposure assessment identifying wild mushrooms as highest-Cd food in European diets (up to 2 mg/kg FW); foundational regulatory-scientific basis for mushroom Cd concern |
+| 6 | [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany\|Fechner et al. 2022]]. *Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods*, Food Chemistry: X | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/orywal2021-heavy-metals-dried-mushrooms\|Orywal et al. 2021]]. *Health risk assessment of exposure to toxic elements resulting from consumption of dried wild-grown mushrooms available for sale*, PLoS ONE | 2021 | Peer-reviewed | PL/EU tHg, Pb, Cd, tAs occurrence in 80 samples of dried wild-grown mushrooms (40 Boletus edulis, 40 Xerocomus badius) purchased from 5 European supermarket chains... (n=80) |
+| 8 | [[sources/zhou2018-pleurotus-biogas-residue-metals\|Zhou et al. 2018]]. *Cultivation of Pleurotus ostreatus, a Potential Candidate for Biogas Residues Degradation*, BioResources 13(3):5432-5449 | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland\|Mirończuk-Chodakowska et al. 2013]]. *Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'*, Polish Journal of Environmental Studies | 2013 | Peer-reviewed | PL/EU Pb, Cd occurrence in 21 mushroom species (18 wild, 3 cultivated), 3 specimens each; wild species sampled from 6 communal areas in... (n=63) |
+| 10 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA dietary Cd exposure assessment identifying wild mushrooms as highest-Cd food in European diets (up to 2 mg/kg FW); foundational regulatory-scientific basis for mushroom Cd concern |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -159,9 +161,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
-| [f907793](https://github.com/paleofoundation/heavymetalindex/commit/f907793) | 2026-05-17 | sweep: regenerate body tables and trim stub-marker prose on touched pages |
 <!-- END: hmi-page-history -->

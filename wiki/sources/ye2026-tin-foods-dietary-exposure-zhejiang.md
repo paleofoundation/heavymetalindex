@@ -208,6 +208,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c231292](https://github.com/paleofoundation/heavymetalindex/commit/c231292) | 2026-05-20 | audit: ye2026-tin-foods-dietary-exposure-zhejiang [revised] |
 | [a6c57b8](https://github.com/paleofoundation/heavymetalindex/commit/a6c57b8) | 2026-05-20 | ingest: ye2026-tin-foods-dietary-exposure-zhejiang [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |

@@ -120,6 +120,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [5d9bf9e](https://github.com/paleofoundation/heavymetalindex/commit/5d9bf9e) | 2026-05-20 | ingest: magdas2012-romanian-apple-juice-isotopic-elemental [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
 | [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |

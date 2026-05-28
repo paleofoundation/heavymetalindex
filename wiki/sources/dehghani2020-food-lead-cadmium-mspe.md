@@ -80,6 +80,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [867e270](https://github.com/paleofoundation/heavymetalindex/commit/867e270) | 2026-05-28 | audit: dehghani2020-food-lead-cadmium-mspe revised |
 | [fa06726](https://github.com/paleofoundation/heavymetalindex/commit/fa06726) | 2026-05-28 | ingest: dehghani2020-food-lead-cadmium-mspe enhanced from manual-fetch/seasonal-geographic-variance/auto-fetched |
 | [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |

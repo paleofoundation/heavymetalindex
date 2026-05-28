@@ -118,6 +118,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2c6c3c1](https://github.com/paleofoundation/heavymetalindex/commit/2c6c3c1) | 2026-05-18 | audit (codex): gonzalez-torres2023 vegetable oils revised |
 | [0df08e5](https://github.com/paleofoundation/heavymetalindex/commit/0df08e5) | 2026-05-17 | ingest: gonzalez-torres2023 vegetable oils review enhanced |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |

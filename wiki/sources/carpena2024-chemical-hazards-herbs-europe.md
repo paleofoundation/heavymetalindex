@@ -95,6 +95,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [e445bfa](https://github.com/paleofoundation/heavymetalindex/commit/e445bfa) | 2026-05-28 | audit: carpena2024-chemical-hazards-herbs-europe [revised] |
 | [dfa2c0b](https://github.com/paleofoundation/heavymetalindex/commit/dfa2c0b) | 2026-05-28 | ingest: carpena2024-chemical-hazards-herbs-europe [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |

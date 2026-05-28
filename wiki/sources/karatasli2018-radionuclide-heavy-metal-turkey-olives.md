@@ -113,6 +113,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [d40664b](https://github.com/paleofoundation/heavymetalindex/commit/d40664b) | 2026-05-28 | audit: karatasli2018-radionuclide-heavy-metal-turkey-olives revised |
 | [4cde736](https://github.com/paleofoundation/heavymetalindex/commit/4cde736) | 2026-05-28 | ingest: karatasli2018-radionuclide-heavy-metal-turkey-olives enhanced from Manual Fetch Kimi/condiment_papers/03_Olives_and_Pickles |
 | [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |

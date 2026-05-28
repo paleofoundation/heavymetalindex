@@ -187,6 +187,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [0c629ae](https://github.com/paleofoundation/heavymetalindex/commit/0c629ae) | 2026-05-18 | audit: igweze2020-china-toys-nigeria-pb-cd-as promoted |
 | [c89b9e9](https://github.com/paleofoundation/heavymetalindex/commit/c89b9e9) | 2026-05-18 | ingest: igweze2020-china-toys-nigeria-pb-cd-as fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
 <!-- END: hmi-page-history -->

@@ -99,9 +99,16 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/lead\|Pb]] | Flavored waters (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/fda-21cfr165110-bottled-water-lead]]: 5 ppb (bottled water) | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-- Source promotion pending.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/zmudzinska2022-rte-baby-foods-poland\|Zmudzinska et al. 2022]]. *Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market*, Nutrients 14(11):2325 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Who this page is for
 
 This page is for readers evaluating flavored-water products against the locked beverage row and the bottled-water lead standard. Brand legal and regulatory readers should focus on whether a cited finding is actually a flavored-water or baby-drink product, and whether it is comparable to the 5 ppb bottled-water lead standard. Retailer and QA readers can use the page to separate water-source controls from added-flavor, fruit, mineral, or child-product formulation controls. HMTc staff should keep the current Polish baby-drink evidence visible as context while avoiding silent pooling with US bottled-water surveillance.
@@ -139,9 +146,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [d2e28f7](https://github.com/paleofoundation/heavymetalindex/commit/d2e28f7) | 2026-05-25 | fill flavored-waters synthesis prose |
 | [21f4b32](https://github.com/paleofoundation/heavymetalindex/commit/21f4b32) | 2026-05-17 | checkpoint: accumulated multi-agent work + daemon transient-list broaden |
 | [8a699bd](https://github.com/paleofoundation/heavymetalindex/commit/8a699bd) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-44-44Z — gap-healing + extraction + pooling + briefings |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
-| [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
 <!-- END: hmi-page-history -->

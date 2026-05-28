@@ -1,16 +1,16 @@
 # Source-value extraction report — 2026-05-28
 
-Generated: 2026-05-28T13:24:26.169Z
+Generated: 2026-05-28T15:58:46.645Z
 Mode: EXECUTED
 Elapsed: 0s
 
 ## Summary
 
-- Source pages processed: 1082
-- Pages with `## Key numbers` section: 970
+- Source pages processed: 1083
+- Pages with `## Key numbers` section: 971
 - Pages without Key numbers section (skipped): 111
-- Structured rows extracted: 6349
-- Pages with Key numbers but no parseable values: 75
+- Structured rows extracted: 6378
+- Pages with Key numbers but no parseable values: 76
 
 ## Output
 
@@ -19,25 +19,25 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1203 rows
-- Cd: 1138 rows
+- Pb: 1209 rows
+- Cd: 1141 rows
 - Cr-total: 591 rows
 - Ni: 581 rows
 - tAs: 461 rows
 - Al: 386 rows
-- tHg: 351 rows
+- tHg: 350 rows
 - Cu: 207 rows
-- iAs: 194 rows
+- iAs: 206 rows
 - Co: 185 rows
+- Sn: 119 rows
 - Fe: 118 rows
-- Sn: 111 rows
 - MeHg: 101 rows
 - U: 96 rows
 - Mn: 94 rows
 - V: 94 rows
 - Se: 87 rows
 - Ba: 67 rows
-- Sb: 56 rows
+- Sb: 57 rows
 - Mo: 32 rows
 - Cr-VI: 28 rows
 - Mg: 24 rows
@@ -63,7 +63,7 @@ Elapsed: 0s
 
 ## Coverage by row_slug (top 20)
 
-- (empty): 2079 rows
+- (empty): 2090 rows
 - fresh-fruit: 293 rows
 - fresh-fish: 293 rows
 - seafood: 252 rows
@@ -79,7 +79,7 @@ Elapsed: 0s
 - root-tuber-vegetables: 76 rows
 - bottled-drinking-water: 70 rows
 - honey: 68 rows
+- infant-formula-powder-non-soy: 67 rows
 - non-root-vegetables: 66 rows
-- infant-formula-powder-non-soy: 66 rows
 - tea-infusions: 61 rows
 - chocolate: 59 rows

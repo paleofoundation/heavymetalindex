@@ -93,6 +93,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [a66e94c](https://github.com/paleofoundation/heavymetalindex/commit/a66e94c) | 2026-05-17 | audit (codex): yohannes2024 vegetable oils revised |
 | [e2295e6](https://github.com/paleofoundation/heavymetalindex/commit/e2295e6) | 2026-05-17 | ingest (codex): merge-enhance yohannes2024 vegetable oils |
 | [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |

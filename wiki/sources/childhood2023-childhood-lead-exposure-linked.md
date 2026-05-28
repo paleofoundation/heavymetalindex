@@ -68,6 +68,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fca1cd5](https://github.com/paleofoundation/heavymetalindex/commit/fca1cd5) | 2026-05-18 | fix: childhood2023 products slug — fruit-puree → fruit-purees (Haiku autonomy_v0 typo) |
 | [720bfcb](https://github.com/paleofoundation/heavymetalindex/commit/720bfcb) | 2026-05-18 | ingest: mukhi2022-heavy-metals-food-packaging enhanced from Papers Cube Manual Fetch (v3 PDF re-read) |
 <!-- END: hmi-page-history -->

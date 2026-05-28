@@ -97,6 +97,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2de6e19](https://github.com/paleofoundation/heavymetalindex/commit/2de6e19) | 2026-05-19 | fix: close missing frontmatter delimiter in original2020-original-a |
 | [f25d37b](https://github.com/paleofoundation/heavymetalindex/commit/f25d37b) | 2026-05-18 | audit-queue: mahaffey1975-fda-total-diet-study-heavy-metals status -> audited-revised |
 | [6649067](https://github.com/paleofoundation/heavymetalindex/commit/6649067) | 2026-05-15 | sources: Cat 1 Saudi baby food — Alharbi 2023 (manifest-cite-key locked to 'original2020-original-a') |

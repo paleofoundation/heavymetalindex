@@ -87,6 +87,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fdcce06](https://github.com/paleofoundation/heavymetalindex/commit/fdcce06) | 2026-05-19 | audit: serreau2024-pollutants-breast-milk-scoping-review revised |
 | [c533300](https://github.com/paleofoundation/heavymetalindex/commit/c533300) | 2026-05-19 | ingest: serreau2024-pollutants-breast-milk-scoping-review enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
 | [07695c1](https://github.com/paleofoundation/heavymetalindex/commit/07695c1) | 2026-05-17 | audit (codex): serreau2024 breast milk pollutants revised |

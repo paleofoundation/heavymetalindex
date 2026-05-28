@@ -103,9 +103,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [ee97c15](https://github.com/paleofoundation/heavymetalindex/commit/ee97c15) | 2026-05-25 | ingest: MFK P0327 stopped (cross-folder duplicate of song2024-crvi-hplc-icpms-food-reduction) |
 | [ad6aea8](https://github.com/paleofoundation/heavymetalindex/commit/ad6aea8) | 2026-05-20 | audit: song2024-crvi-hplc-icpms-food-reduction [revised] |
 | [c124fb5](https://github.com/paleofoundation/heavymetalindex/commit/c124fb5) | 2026-05-20 | ingest: song2024-crvi-hplc-icpms-food-reduction [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
 | [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
-| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
 <!-- END: hmi-page-history -->

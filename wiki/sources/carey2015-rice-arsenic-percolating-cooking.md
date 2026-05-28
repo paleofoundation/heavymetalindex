@@ -129,6 +129,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [6238d1a](https://github.com/paleofoundation/heavymetalindex/commit/6238d1a) | 2026-05-28 | audit: carey2015-rice-arsenic-percolating-cooking revised |
 | [89eb6bb](https://github.com/paleofoundation/heavymetalindex/commit/89eb6bb) | 2026-05-28 | ingest: carey2015-rice-arsenic-percolating-cooking enhanced from manual-fetch/seasonal-geographic-variance/auto-fetched |
 | [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
