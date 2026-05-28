@@ -7,6 +7,8 @@ authors: [He P, Lu Y, Liang Y, Chen B, Wu M, Li S, He G, Jin T]
 year: 2013
 publication: "BMC Public Health"
 doi: 10.1186/1471-2458-13-590
+no_doi_assigned: false
+access_url: "https://doi.org/10.1186/1471-2458-13-590"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
@@ -18,81 +20,146 @@ matrices: [dietary-intake, urine, blood]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: 207
-sample_population: "Shanghai adults aged over 40, cross-sectional survey 2008, Baoshan District"
-updated: 2026-05-14
+sample_population: "Shanghai adults aged over 40, cross-sectional survey July 2008, Baoshan District; 267 selected, 207 retained after exclusion for missing blood/urine data"
+updated: 2026-05-28
 ---
 
 # He et al. 2013 — Dietary cadmium exposure in Shanghai adults over 40
 
-A cross-sectional survey of 207 Shanghai residents aged over 40 years combined food frequency questionnaire data with measured cadmium concentrations in food, water, and tobacco to estimate both external and internal (urinary and blood) cadmium exposure. Mean daily dietary cadmium exposure was 12.8 µg/day, accounting for 25.8% of the provisional tolerable daily intake (PTDI of 49.5 µg/day based on JECFA 2010 PTMI of 25 µg/kg body weight). Total environmental exposure including tobacco was 16.7 µg/day (33.8% of PTDI). The probabilistic model found 93.4% of the population below the PTDI, though the extreme P90 reached 110.6 µg/day (223.5% of PTDI). Vegetables, rice, and seafood together accounted for 86.3% of dietary cadmium exposure.
+A cross-sectional survey of 207 Shanghai residents aged over 40 years combined food frequency questionnaire data with measured cadmium concentrations in food, water, and tobacco to estimate both external and internal (urinary and blood) cadmium exposure. Mean daily dietary cadmium exposure was 12.8 µg/day, accounting for 25.8% of the provisional tolerable daily intake (PTDI of 49.5 µg/day based on JECFA 2010 PTMI of 25 µg/kg body weight). Total environmental exposure including tobacco and water was 16.7 µg/day (33.8% of PTDI). The probabilistic Monte Carlo model found 93.4% of the population below the PTDI; the point-estimation extreme P90 of total daily exposure (assuming concurrent upper-90th food intake and upper-90th food cadmium concentration) reached 110.6 µg/day (223.5% of PTDI). Vegetables, rice, and seafood together accounted for 86.3% of dietary cadmium exposure.
 
 ## Key numbers
 
-**Food cadmium concentrations (mg/kg, wet weight) from Shanghai 2008 survey (n=207):**
+**Food cadmium concentrations (mg/kg) from Shanghai 2008 survey (n=207):**
 
-| Food item | Mean Cd (mg/kg) | Median | P90 |
-|-----------|----------------|--------|-----|
-| Rice | 0.023 | 0.009 | 0.090 |
-| Wheat flour | 0.014 | 0.011 | 0.023 |
-| Coarse cereal | 0.006 | 0.006 | — |
-| Vegetables (fresh) | 0.025 | 0.005 | 0.170 |
-| Pork | 0.018 | 0.002 | 0.100 |
-| Innards (offal) | 0.278 | 0.001 | 0.572 |
-| Aquatic products | 0.043 | 0.007 | 0.091 |
-| Egg | 0.005 | 0.003 | 0.012 |
-| Milk | 0.001 | 0.001 | 0.003 |
-| Dry bean | 0.019 | 0.007 | 0.100 |
-| Fruit | 0.001 | 0.001 | 0.003 |
+| Food item | Mean Cd (mg/kg) | Std | Median | P90 |
+|-----------|----------------|------|--------|-----|
+| Rice | 0.023 | 0.031 | 0.009 | 0.090 |
+| Wheat flour | 0.014 | 0.015 | 0.011 | 0.023 |
+| Coarse cereal | 0.006 | 0.007 | 0.006 | 0.020 |
+| Tuber | 0.002 | 0.001 | 0.001 | — |
+| Pork | 0.018 | 0.035 | 0.002 | 0.100 |
+| Innards (offal) | 0.278 | 0.607 | 0.001 | 0.006 |
+| Fatstock except pork | 0.003 | 0.003 | 0.001 | 0.006 |
+| Poultry | 0.002 | 0.001 | 0.001 | 0.003 |
+| Aquatic product | 0.043 | 0.225 | 0.007 | 0.091 |
+| Egg | 0.005 | 0.006 | 0.003 | 0.012 |
+| Milk | 0.001 | 0.001 | 0.001 | 0.003 |
+| Dry bean | 0.019 | 0.030 | 0.007 | 0.100 |
+| Fresh vegetable | 0.025 | 0.050 | 0.005 | 0.170 |
+| Fruit | 0.001 | 0.002 | 0.001 | 0.003 |
 
-**Dietary cadmium exposure by source (mean, µg/day):**
+Concentration basis is as-consumed (edible portion) per the Chinese national standard WS/T 32–1996 used; wet vs dry weight is not stated explicitly in the paper. The 2000-Survey Mean column (separate Chinese national dietary survey) is reported in Table 2 for comparison and shows broadly similar magnitudes for the foods reported (e.g., 2000 Rice Mean 0.008 vs 2013 Rice Mean 0.023; 2000 Pork Mean 0.572 vs 2013 Pork Mean 0.018).
+
+**Dietary cadmium exposure by source (point-estimation Mean across n=207, Table 3):**
 
 | Source | Mean (µg/day) | Contribution (%) |
 |--------|---------------|-----------------|
-| Vegetables | 5.13 | 40.2% |
-| Rice | 4.80 | 37.6% |
-| Seafood | 1.09 | 8.5% |
-| Pork | 0.50 | 3.9% |
-| Total dietary | 12.77 | 100% |
+| Vegetable | 5.13 | 40.21 |
+| Rice | 4.80 | 37.56 |
+| Seafood (aquatic product) | 1.09 | 8.51 |
+| Pork | 0.50 | 3.89 |
+| Flour | 0.47 | 3.65 |
+| Dry bean | 0.24 | 1.87 |
+| Innard | 0.15 | 1.19 |
+| Egg | 0.14 | 1.11 |
+| Dairy product | 0.10 | 0.78 |
+| Fruit | 0.06 | 0.50 |
+| Coarse cereal | 0.04 | 0.32 |
+| Poultry | 0.02 | 0.18 |
+| Tuber | 0.01 | 0.12 |
+| Fatstock except pork | 0.01 | 0.11 |
+| **Total dietary** | **12.77** | **100** |
 
-**Total environmental exposure:**
-- Mean: 16.73 µg/day (33.8% of PTDI)
-- Median: 3.31 µg/day (6.7% of PTDI)
-- Dietary P90: 20.57 µg/day
-- Extreme P90 (dietary): 94.18 µg/day
-- Tobacco contribution: 3.93 µg/day (mean; for smokers: 13.8 µg/day)
+Top three (vegetables + rice + seafood) sum to 86.3%. For males, ranking was rice > vegetables > seafood (38.6% / 36.4% / 10.2% of total exposure); for women, vegetables > rice > seafood (44.1% / 36.5% / 6.7%).
 
-**Sensitivity analysis (probabilistic model) — top contributors to total exposure:**
-- Tobacco cadmium level: 27.5%
-- Tobacco consumption: 24.9%
-- Vegetables: 20.2%
-- Rice: 14.6%
+**Total daily environmental exposure (point-estimation, Table 3):**
 
-**Internal exposure (n=207):**
-- Mean urinary cadmium (UCd): 0.52 µg/L (range not stated; P95: 5.12 µg/L)
-- Mean blood cadmium (BCd): 1.88 µg/L (P95: 1.77 µg/L for total; males higher than females, p<0.001)
-- Smokers vs non-smokers: BCd significantly higher in smokers (mean 1.04 vs 0.30 µg/L; UCd no significant difference)
+| Statistic | Daily exposure (µg/day) | Dietary alone (µg/day) |
+|-----------|------------------------|------------------------|
+| Mean | 16.73 (33.8% PTDI) | 12.77 (25.8% PTDI) |
+| Median | 3.31 (6.7% PTDI) | 3.28 |
+| Point P90 (upper-90th intake × mean concentration) | 36.78 | 20.57 |
+| Extreme P90 (upper-90th intake × upper-90th concentration) | 110.63 (223.5% PTDI) | 94.18 |
 
-**Positive correlations:** BCd and environmental Cd exposure (R=0.52, P<0.01); tobacco Cd intake and BCd excluding non-smokers (R=0.26, P=0.049); UCd and age (R=0.15, P=0.037).
+Tobacco contribution: mean 3.93 µg/day across the whole sample; for the 61 smokers only, mean was approximately 13.8 µg/day (≈ equivalent to mean dietary intake of 14.0 µg/day). Water contribution: mean 0.03 µg/day; below LOD in all four sampled waterworks (half-LOD substituted at 0.025 µg/L × 1.2 L/day).
 
-**Probabilistic model (Monte Carlo, n=100,000 simulations):** Lognormal distribution. Total population: mean 23.05, median 18.24, SD 18.02, 5th–95th percentile 6.8–55.1 µg/day.
+**Internal exposure (Table 4, n=207):**
 
-**Regulatory comparisons (mg/kg):**
-- Rice: China ML = 0.2; EFSA = 0.2; WHO = 0.4. Study P90 = 0.09 (well below China ML).
-- Meat (excluding offal): China = 0.1; EFSA = 0.05; WHO = 0.05.
+| Biomarker | Group | n | Mean (µg/L) | Std | Median | P95 |
+|-----------|-------|---|------------|-----|--------|-----|
+| BCd | Total | 207 | 0.52 | 0.61 | 0.31 | 1.77 |
+| BCd | Male | 86 | 0.75 | 0.81 | 0.43 | 2.49 |
+| BCd | Female | 121 | 0.36 | 0.34 | 0.28 | 1.04 |
+| BCd | Smokers | 61 | 1.04 | 0.86 | 0.91 | 3.32 |
+| BCd | Non-smokers | 146 | 0.30 | 0.25 | 0.27 | 0.65 |
+| UCd | Total | 207 | 1.88 | 1.47 | 1.54 | 5.12 |
+| UCd | Male | 87 | 1.80 | 1.52 | 1.38 | 5.50 |
+| UCd | Female | 121 | 1.94 | 1.43 | 1.64 | 4.95 |
+| UCd | Smokers | 61 | 1.94 | 1.55 | 1.51 | 5.60 |
+| UCd | Non-smokers | 146 | 1.86 | 1.44 | 1.57 | 5.02 |
+
+Blood cadmium differed significantly by gender (Mann–Whitney U, p<0.001) and by smoking status (p<0.001 between smokers and non-smokers). Urine cadmium did not differ significantly between smokers and non-smokers, consistent with UCd reflecting long-term body burden rather than recent exposure. See verification notes on the abstract/prose UCd–BCd label transposition relative to Table 4.
+
+**Positive correlations:** BCd vs total environmental Cd exposure (R=0.52, P<0.01, R²=0.267); tobacco Cd intake vs BCd among smokers only (R=0.26, P=0.049, R²=0.067); UCd vs age (R=0.15, P=0.037, R²=0.026).
+
+**Probabilistic Monte Carlo model (Crystal Ball v11, 100,000 simulations; Table 5):**
+
+| Subgroup | Distribution | Mean (µg/day) | Median | Std | 5th–95th | Range |
+|----------|--------------|---------------|--------|-----|---------|-------|
+| Total | Lognormal | 23.05 | 18.24 | 18.02 | 6.8–55.1 | 1.7–376.0 |
+| Men | Lognormal | 28.49 | 22.20 | 23.05 | 7.7–69.0 | 1.5–457.8 |
+| Women | Lognormal | 14.05 | 10.62 | 12.66 | 4.2–34.5 | 1.3–314.0 |
+| Smokers | Lognormal | 32.74 | 25.78 | 25.83 | 9.6–78.3 | 2.8–556.1 |
+| Non-smokers | Lognormal | 13.23 | 9.63 | 12.72 | 3.6–34.0 | 1.0–356.44 |
+
+Probability of total environmental Cd exposure below the PTDI: 93.4% overall, 88.0% males, 98.1% females, 84.0% smokers, 98.1% non-smokers. Probabilistic sensitivity (whole-population): tobacco Cd level 27.5% > tobacco consumption 24.9% > vegetable Cd 20.2% > rice Cd 14.6%. For non-smoking men and women, sensitivity reordered to vegetable Cd > rice Cd > rice intake > seafood Cd (men) or vegetable Cd > rice Cd > vegetable intake > rice intake (women).
+
+**Regulatory comparisons in mg/kg (Table 6 in source):**
+
+| Foodstuff | China ML | EFSA ML | WHO ML | Study P90 |
+|-----------|----------|---------|--------|-----------|
+| Rice, soybean | 0.2 | 0.2 | 0.4 | Rice 0.09 |
+| Wheat, bran, germ | 0.1 | 0.2 | 0.2 | Wheat 0.023 |
+| Other cereals | 0.1 | 0.1 | 0.1 | Coarse 0.02 |
+| Stem/root vegetables, potatoes (excl. celeriac) | 0.1 | 0.1 | 0.1 | — |
+| Leaf vegetables, fresh herbs, celeriac, common mushroom | 0.2 | 0.2 | 0.2 | Fresh veg 0.17 |
+| Meat (excl. offal) of bovine, sheep, pig, poultry | 0.1 | 0.05 | 0.05 | Pork 0.10 |
+| Liver of bovine | 0.5 | 0.5 | 0.5 | — |
+| Kidney of bovine | 1 | 1 | 1 | — |
+| Muscle meat of fish (excl. bonito, bullet tuna) | 0.1 | 0.05 | 0.05–1 | Aquatic 0.091 |
+| Crustaceans | — | 0.5 | 0.5–1 | — |
+| Bivalve molluscs and cephalopods | — | 1 | 2 | — |
+| Egg | 0.05 | — | — | 0.012 |
+
+All measured food cadmium P90 values in this Shanghai 2008 cohort fell below their corresponding Chinese MLs. Rice P90 (0.09 mg/kg) was below the Chinese, EFSA, and WHO MLs; the discussion proposes that the WHO MR for rice could be reduced from 0.4 → tighter values based on Asian dietary patterns where rice intake is high and cadmium accumulation in rice paddies is regionally severe.
 
 ## Methods (brief)
 
-Cross-sectional design, convenience sampling from residents attending routine health checks at Songnan Town Community Health Center, Baoshan District, Shanghai, July 2008. Food frequency questionnaire (FFQ) with 39 food items from the National Nutrition Survey; cadmium concentrations in food from a 2010 Shanghai dietary cadmium exposure assessment (GFAAS method from Chinese national standard WS/T 32–1996). Blood and urine cadmium by GFAAS (Shimadzu AA-670). LOD: 0.05 µg/L for both matrices. Four water samples from local waterworks; water cadmium below LOD in all samples (assumed half-LOD = 0.025 µg/L). Tobacco cadmium assumed 1.5 mg Cd/kg based on Qian et al. Probabilistic estimation by Monte Carlo simulation (Crystal Ball software 11, 100,000 iterations). Statistical analysis by SPSS 12.0.
+Cross-sectional design, convenience sampling from residents attending routine health checks at Songnan Town Community Health Center, Baoshan District, Shanghai, July 2008. Of 267 study participants enrolled and selected, 207 retained after excluding those with incomplete blood/urine data (smokers were 61 retained, of whom 57 men and 4 women). Food frequency questionnaire (FFQ) with 39 food items derived from the National Nutrition Survey; FFQ developed by Shanghai Municipal Center for Disease Control and Prevention (SCDC) using clustering random sampling across various districts of Shanghai 2002 and 2007 (1,680 food items). Food cadmium concentrations sourced from a 2010 Shanghai dietary cadmium exposure assessment (Liu et al. 2010; GFAAS method per Chinese national standard WS/T 32–1996). Blood and urine cadmium measured by GFAAS (Shimadzu AA-670). LOD: 0.05 µg/L for both matrices. Four water samples from local waterworks measured by same GFAAS method; all four below LOD (half-LOD value of 0.025 µg/L substituted; 1.2 L/day intake assumed). Tobacco cadmium assumed at 1.5 mg Cd/kg based on Qian et al. 2006. Body weight assumed 60 kg; PTMI 25 µg/kg/month converted to PTDI of 49.5 µg/day. Probabilistic estimation by Monte Carlo simulation (Crystal Ball software v11, 100,000 iterations, lognormal best fit). Statistical analysis by SPSS v12.0; Mann–Whitney U test for non-normally distributed group comparisons; correlation analysis for internal vs external cadmium.
 
-Limitations: convenience sample (not population-representative); adults only (excludes children); food categories pooled (specific infrequently consumed items excluded); cadmium during food processing not considered; no biomarkers for early renal dysfunction; other trace metals not examined.
+Limitations: convenience sample (not population-representative); adults > 40 years only (excludes children and pregnant women, the populations identified by JECFA as most cadmium-sensitive); food categories pooled (specific infrequently consumed items excluded); cadmium changes during food processing not considered; no biomarkers for early renal dysfunction (β2-microglobulin, NAG); other trace metals (Pb, Hg) not examined; Monte Carlo may be inaccurate at extreme tails given a 207-person base.
 
 ## Implications
 
-**Certification:** Provides Cd concentration data for rice (P90 = 90 µg/kg) and vegetables (mean 25 µg/kg) in a non-polluted Chinese coastal city. Rice below China, EU, and Codex MLs at 90th percentile. Confirms vegetables as the highest contributor to dietary Cd in Shanghai, exceeding rice by volume. Useful as baseline for HMT&C ingredient page comparison with reported Asian dietary exposure benchmarks.
+**Certification:** Shanghai 2008 rice Cd P90 = 90 µg/kg (wet weight basis) is well below China, EFSA, and WHO MLs (200, 200, 400 µg/kg respectively). Fresh vegetable Cd P90 = 170 µg/kg sits at the EFSA leaf-vegetable ML (200 µg/kg) and 85% of the Chinese leaf-vegetable ML, indicating that even in a non-polluted Chinese coastal city, the upper percentile of vegetable cadmium is close to regulatory ceilings. Pork P90 (100 µg/kg) sits at the Chinese pork ML (100 µg/kg) but is double the EFSA/WHO MLs (50 µg/kg). Useful as Asian-baseline calibration for HMT&C ingredient pages comparing reported Asian dietary exposure benchmarks with US/EU equivalents.
 
-**Courses:** Demonstrates the relative contribution of different food groups to dietary cadmium exposure in a rice-dependent Asian population. Key teaching point: tobacco cadmium rivals dietary exposure in smokers (13.8 µg/day tobacco vs 14.0 µg/day dietary). Probabilistic vs point estimation comparison is an excellent methods teaching case.
+**Courses:** Demonstrates the relative contribution of different food groups to dietary cadmium exposure in a rice-dependent Asian population, with vegetables exceeding rice by mass contribution despite rice being the dietary staple (vegetables 40% vs rice 38% of dietary Cd). Key teaching point: tobacco cadmium rivals dietary cadmium in smokers (13.8 vs 14.0 µg/day), making smoking cessation the single largest leverage point for cadmium body burden in this population. The point-estimation-vs-probabilistic-estimation methods contrast is a textbook teaching case (point estimation produces a conservative extreme P90 of 110.6 µg/day under correlated worst-case assumptions; probabilistic estimation produces a more realistic mean of 23.05 µg/day with 93.4% of the simulated distribution below PTDI).
 
-**App:** Rice Cd mean 23 µg/kg, P90 90 µg/kg (wet weight) from Shanghai 2008. Vegetable Cd mean 25 µg/kg, P90 170 µg/kg. These are input-level contamination data for Chinese-origin produce, not product-level; relevant for ingredient profile calibration.
+**App:** Rice Cd mean 23 µg/kg, P90 90 µg/kg; vegetable Cd mean 25 µg/kg, P90 170 µg/kg; aquatic product (seafood) Cd mean 43 µg/kg, P90 91 µg/kg; pork Cd mean 18 µg/kg, P90 100 µg/kg; offal Cd mean 278 µg/kg, P90 6 µg/kg (highly skewed by a small number of extreme samples). These are ingredient-level Shanghai contamination baselines (China-origin produce, non-polluted coastal city, 2008), not product-level data; relevant for calibrating ingredient profile defaults for Chinese-origin foods.
+
+## Verification notes
+
+2026-05-28 enhance pass (Claude, full re-read of source PDF):
+
+- **Internal exposure UCd/BCd labels corrected.** The previous wiki revision (2026-05-14) reported `UCd Total mean = 0.52 µg/L, P95 = 5.12 µg/L` and `BCd Total mean = 1.88 µg/L, P95 = 1.77 µg/L`. The mean values were taken from the source Abstract and from Page 4 prose ("The mean urine cadmium (UCd) and blood cadmium (BCd) of the study participants were 0.52 µg/L and 1.88 µg/L, respectively"), but the P95 values were taken from Table 4. This created the impossible result that BCd Total mean (1.88) was greater than BCd Total P95 (1.77) — P95 must always be ≥ mean. Verified against Table 4 directly: BCd* Total mean = 0.52, Std = 0.61, Median = 0.31, P95 = 1.77; UCd Total mean = 1.88, Std = 1.47, Median = 1.54, P95 = 5.12. Table 4 is also internally consistent with the source's narrative on smoking effects: smokers vs non-smokers BCd differs strongly (1.04 vs 0.30, p<0.001 per Mann–Whitney U) which is biologically expected for blood cadmium (recent inhalation exposure); UCd shows no significant smoker/non-smoker difference (1.94 vs 1.86) which is biologically expected for urine cadmium (long-term body burden). The Abstract and Page 4 prose UCd/BCd labels are transposed; Table 4 is authoritative. Reporting Table 4 values throughout this revision.
+- **Innard P90 corrected.** Previous revision reported Innard P90 = 0.572 mg/kg. Verified against Table 2: Innard row is `Mean 0.278, Std 0.607, Median 0.001, P90 0.006`. The 0.572 value appears in Table 2's adjacent "2000 Survey Mean" column for the **Pork** row (i.e., the 2000 Chinese National Food Survey reported Pork mean Cd of 0.572 mg/kg, much higher than the 2013 Shanghai Pork mean of 0.018 mg/kg, indicating a substantial decrease over the prior decade). The 0.572 was misread from an adjacent column on a different food row. Corrected to 0.006 and a 2000-Survey column note added below Table 2 for context.
+- **Extreme P90 framing clarified.** Previous revision attributed the 110.6 µg/day extreme P90 directly to the probabilistic model. Verified against Table 3: 110.63 is the point-estimation Daily Exposure Extreme P90 (assuming concurrent upper-90th food intake × upper-90th food cadmium concentration, a conservative compounding scenario). The probabilistic Monte Carlo model (Table 5) reports a total population mean of 23.05 µg/day and 5th–95th percentile of 6.8–55.1 µg/day, which are more realistic central estimates. Both figures are useful; this revision separates them.
+- **Frontmatter completeness.** Added `no_doi_assigned: false` and `access_url` (DOI URL). License "CC BY" confirmed against the BioMed Central article header ("This is an Open Access article distributed under the terms of the Creative Commons Attribution License").
+- **Tables expanded.** Food cadmium concentration table extended from 11 rows to 14 rows (full Table 2). Dietary cadmium exposure by source table extended from 5 rows to 15 rows (full Table 3 with all food groups + total). Internal exposure section restructured as the full Table 4 (gender + smoking stratification). Probabilistic model section expanded to full Table 5. Regulatory comparison expanded to Table 6 with China/EFSA/WHO MLs side-by-side.
+- All numerical values cross-checked against PDF pages 3–9 (Tables 1–6 and the Results/Discussion prose).
+
+`products: []` is retained as correct for this exposure-assessment paper: the source measures cadmium in food categories sampled from Shanghai dietary intake (not packaged consumer products), so it routes to ingredient and metal pages rather than to product-category pages. The routing audit flags this as `advisory` severity (missing optional routing-input fields, broad-scope fallback applied) — appropriate for an exposure-assessment design.
 
 ## Wiki pages updated on ingest
 
