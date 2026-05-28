@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [fruit-juices-apple-containing, fruit-purees]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-13
 sources: 21
 ---
@@ -205,3 +206,16 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 11 | [[sources/signes-pastor2018-infants-dietary-arsenic-solid-food\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Peer-reviewed | Longitudinal biomarker study including apple-based infant foods among the iAs/tAs exposure sources during weaning; fruit-category exposure context |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [23a9d75](https://github.com/paleofoundation/heavymetalindex/commit/23a9d75) | 2026-05-20 | autonomy: daemon tick 2026-05-20T02-27-45Z — gap-healing + extraction + pooling + briefings |
+| [39d8806](https://github.com/paleofoundation/heavymetalindex/commit/39d8806) | 2026-05-20 | autonomy: daemon tick 2026-05-20T01-34-58Z — gap-healing + extraction + pooling + briefings |
+| [894ba0a](https://github.com/paleofoundation/heavymetalindex/commit/894ba0a) | 2026-05-20 | autonomy: daemon tick 2026-05-20T00-33-21Z — gap-healing + extraction + pooling + briefings |
+| [1ac7363](https://github.com/paleofoundation/heavymetalindex/commit/1ac7363) | 2026-05-20 | autonomy: daemon tick 2026-05-19T22-04-26Z — gap-healing + extraction + pooling + briefings |
+| [79c7366](https://github.com/paleofoundation/heavymetalindex/commit/79c7366) | 2026-05-19 | autonomy: daemon tick 2026-05-19T20-17-12Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

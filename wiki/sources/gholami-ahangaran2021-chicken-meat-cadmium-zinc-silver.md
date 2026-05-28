@@ -18,6 +18,9 @@ matrices: [poultry, meat]
 jurisdictions: [IR]
 sample_n: 100
 sample_population: "Chicken breast, thigh, heart, and liver samples from meat markets in Isfahan Province, Iran"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-27
 ---
 
@@ -55,3 +58,14 @@ The source supports poultry and organ-meat occurrence evidence for Cd and Zn in 
 ## Verification notes
 
 The paper reports values by tissue type, so routing should distinguish muscle-meat context from liver/heart organ-meat context when downstream extraction supports that granularity. The abstract and results/table disagree for several Zn and Ag cells; this page follows the results narrative and Table 1 rather than the abstract.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

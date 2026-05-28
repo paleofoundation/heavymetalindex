@@ -20,6 +20,9 @@ matrices: [broiler-meat, broiler-feed]
 jurisdictions: [BD]
 sample_n: "94 broiler feed samples and 60 broiler meat samples."
 sample_population: "Broiler feed and meat from two selected poultry production belts of Bangladesh."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -52,3 +55,13 @@ This source is useful for poultry-product gap filling in Bangladesh, but the mea
 
 - Batch 5 auto-fetched ingest, 2026-05-25.
 - Chromium is total/unspecified Cr, not Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [477ff83](https://github.com/paleofoundation/heavymetalindex/commit/477ff83) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 5: 6 source pages + 3 skips |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [IQ]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of low-cost adsorbent literature for Pb, Ni, and Zn removal from industrial wastewater. No primary sampling. Authors affiliated with the Environmental Engineering Department, College of Engineering, Mustansiriyah University, Baghdad, Iraq. Conference proceedings paper, light peer review."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -78,3 +81,13 @@ This source has minimal direct value for the Heavy Metal Index. The wiki's scope
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/zinc]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [19d5686](https://github.com/paleofoundation/heavymetalindex/commit/19d5686) | 2026-05-18 | ingest: shamkhi2021-wastewater-adsorbents-review fresh from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Review covering Cd concentrations across diverse plant species including medicinal herbs; cites survey data showing 14–16% of peppermint and chamomile samples exceeding WHO limit"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -44,3 +47,14 @@ App: Supports Cd risk flagging for herbal ingredient categories in supplement pr
 ## Wiki pages updated on ingest
 - [[metals/cadmium]]
 - [[ingredients/medicinal-herbs]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [9795863](https://github.com/paleofoundation/heavymetalindex/commit/9795863) | 2026-05-13 | ingest p4-batch16-g4: 10 pages, 38 FP |
+<!-- END: hmi-page-history -->

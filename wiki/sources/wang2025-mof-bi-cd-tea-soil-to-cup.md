@@ -19,6 +19,9 @@ matrices: [analytical-method, tea-leaves, brewed-tea, soil]
 jurisdictions: [EU, CN, BR]
 sample_n: null
 sample_population: "Contaminated garden soil, raw tea leaves, and brewed tea infusions used as sensor validation matrices; literature-derived concentration context for Cd in tea supply chain"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -52,3 +55,15 @@ Microbiome: Not applicable.
 - [[metals/cadmium]]
 - [[ingredients/tea]]
 - [[regulations/eu-1881-2006]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [1d941b6](https://github.com/paleofoundation/heavymetalindex/commit/1d941b6) | 2026-05-12 | ingest: P2 remaining-group1 — 5 source pages, 50 false positives |
+<!-- END: hmi-page-history -->

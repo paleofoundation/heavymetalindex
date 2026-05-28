@@ -17,6 +17,9 @@ products: ["[[products/fresh-fruit]]"]
 matrices: ["durian", "jackfruit", "pineapple", "rambutan", "long-kong", "mangosteen"]
 jurisdictions: ["TH"]
 sample_population: "Tropical fruits from three districts and markets in Rayong Province, Thailand"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -56,3 +59,15 @@ The source fills fresh-fruit seasonal/geographic variance context for Thailand. 
 
 - Source identity checked against DOI 10.32526/ennrj/21/202200146 and the downloaded PDF.
 - The OCR table is staggered; summary ranges and author-reported exceedance values are used where row alignment is reliable.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [554a72d](https://github.com/paleofoundation/heavymetalindex/commit/554a72d) | 2026-05-26 | audit auto-fetched 2026-05-26 2215 batch 1: speciation fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

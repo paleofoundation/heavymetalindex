@@ -81,6 +81,7 @@ lower_risk_variants: ["[[ingredients/extra-virgin-olive-oil-glass-bottled]]"]
 higher_risk_variants: ["[[ingredients/olive-pomace-oil]]", "[[ingredients/flavoured-olive-oil]]"]
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-15
 sources: 12
 created_by: autonomy_v0
@@ -174,3 +175,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 10 | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|Ashraf 2012]]. *Levels of Selected Heavy Metals in Varieties of Vegetable Oils Consumed in Kingdom of Saudi Arabia and Health Risk Assessment of Local Population*, Asian Journal of Chemistry (Uncorrected Proof) | 2012 | Peer-reviewed | Saudi market survey across 161 vegetable oil samples including 27 olive oil; positions olive oil in context of competing edible oils |
 | 11 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | Turkish vegetable oil ICP-AES heavy-metals data including olive oil; older protocol but representative Turkish market data |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [eb8c466](https://github.com/paleofoundation/heavymetalindex/commit/eb8c466) | 2026-05-15 | prebuild: regenerate source legends and routing audit across corpus |
+| [4fdd808](https://github.com/paleofoundation/heavymetalindex/commit/4fdd808) | 2026-05-15 | ingredients: fill out olives and olive-oil from routed sources |
+<!-- END: hmi-page-history -->

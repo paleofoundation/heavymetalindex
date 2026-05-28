@@ -20,6 +20,9 @@ jurisdictions: [MT]
 near_duplicates: []
 sample_n: 4
 sample_population: "Four olive cultivars (Carolea, Cipressina, Leccino, Bidni) from a single Maltese cultivator, with each cultivar sampled across four media fractions: skin, pit, solid mill waste, liquid mill waste"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -114,3 +117,15 @@ Page was first ingested under the legacy `raw_handle: manual-fetch-kimi` and las
 - Added comparison-with-prior-literature paragraph summarising Table 4.
 
 Preserved unchanged: `cite_key`, `doi: null` / `no_doi_assigned: true`, `license: unknown`, `near_duplicates: []`, evidence tier B, `sample_n: 4`, `jurisdictions: [MT]`, and the metals list (Sr was reported in the source but is not in the wiki metals taxonomy, so it is mentioned in Key numbers without being declared in frontmatter).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9f27b6b](https://github.com/paleofoundation/heavymetalindex/commit/9f27b6b) | 2026-05-28 | ingest: vella2024-malta-olive-cultivars-aas enhanced from Manual Fetch Kimi/condiment_papers/03_Olives_and_Pickles |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

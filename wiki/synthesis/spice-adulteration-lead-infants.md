@@ -15,6 +15,7 @@ metals: [Pb, Cr]
 ingredients: ["[[ingredients/turmeric]]", "[[ingredients/cinnamon]]"]
 products: ["[[products/baby-food-purees]]", "[[products/infant-cereal]]"]
 audience: [regulator, brand-legal, educator]
+wiki_doi: null
 updated: 2026-05-13
 ---
 
@@ -87,3 +88,14 @@ Lead-based paints as a contamination vector for food contact surfaces (distinct 
 - [[sources/rylander2025-georgia-children-blood-lead]]
 - [[sources/fda-import-alert-99-42-spice-lead]]
 - [[sources/gafner2026-turmeric-adulteration-six-continents]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ef98f0f](https://github.com/paleofoundation/heavymetalindex/commit/ef98f0f) | 2026-05-13 | ingest: Gafner 2026 turmeric adulteration scoping review — 7th anchor for spice-adulteration synthesis |
+| [65a88cd](https://github.com/paleofoundation/heavymetalindex/commit/65a88cd) | 2026-05-13 | synthesis: promote spice-adulteration-lead-infants — 6 anchor sources, 3 continents |
+<!-- END: hmi-page-history -->

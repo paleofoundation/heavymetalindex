@@ -19,6 +19,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of mechanism literature for five heavy metals; cites human occupational and drinking-water exposure studies plus animal and cell-culture work"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -85,3 +88,16 @@ App: not applicable. No food-form or contamination-likelihood data.
 - **2026-05-18 (audit subagent finding, applied):** Audit subagent flagged the Bangladesh/West Bengal "1 in 5 deaths" phrasing as a slight tightening of the source's ambiguous "death of about 1/5 people due to exposure to arsenic" claim. Verified against PDF p. 12; the more natural reading is "1/5 of the exposed population dies from arsenic exposure," not "1/5 of all deaths in the population are arsenic-attributable." Rephrased to track the source phrasing and flag the ambiguity inline.
 - **2026-05-18 (Claude session, merge-enhance):** Full 34-page PDF re-read. Prior page (updated 2026-05-15, `raw_handle: papers-cube`) was correct in outline but contained substantive synthesis claims that did not trace to fu2019. Removed: CDC blood-lead-no-threshold position (paper does not cite CDC); IARC Group 1 carcinogen designation for nickel (paper does not cite IARC); 10-30 year cadmium kidney half-life (not in paper); β2-microglobulin and retinol-binding protein as cadmium nephropathy biomarkers (not in paper); AS3MT enzyme name plus folate/B12 nutritional modifiers for arsenic methylation (paper figure shows pathway without naming AS3MT or invoking nutritional cofactors); reduced IQ / motor dysfunction / language delay specifics for MeHg neurodevelopment (paper states neurotoxic mechanisms only, not specific outcomes); Minamata anchor case (not in paper); nickel dermatitis as best-established human effect (paper focuses on oxidative-stress mechanisms, does not discuss allergic contact dermatitis); specific food list (whole grains, legumes, nuts, chocolate) for nickel exposure (paper says only "food" generically). Added Key numbers section with the quantitative claims fu2019 actually carries (140M / 35-77M / 75 ppb Warburg / 900 occupations / GSH:GSSG 90:10) per the source page template. Updated `raw_handle` from legacy `papers-cube` placeholder to `PCMF_fu2019` convention. Frontmatter `products`/`ingredients`/`jurisdictions` remain empty: this is a mechanism review with no measured foods, ingredients, or jurisdiction-specific regulatory analysis; the routing_malformed advisory for those fields is informational, not a defect.
 - **2026-05-17 (prior session):** Cross-vendor strict Part 12 recheck found no sampled-product brand naming. Added MeHg to the metal scope, removed a non-taxonomy health wikilink, converted generic arsenic/mercury wikilinks to speciated metal pages, and tightened the limitations/courses language to avoid cross-source synthesis.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc1b516](https://github.com/paleofoundation/heavymetalindex/commit/fc1b516) | 2026-05-18 | audit: fu2019-heavy-metals-human-metabolism promoted |
+| [d701e83](https://github.com/paleofoundation/heavymetalindex/commit/d701e83) | 2026-05-18 | ingest: fu2019-heavy-metals-human-metabolism enhanced from Papers Cube Manual Fetch |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

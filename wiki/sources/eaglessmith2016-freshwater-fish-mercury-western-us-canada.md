@@ -19,6 +19,9 @@ jurisdictions: [US, CA]
 near_duplicates: []
 sample_n: 96310
 sample_population: "96,310 individual fish records from 4,262 unique locations across 15 U.S. states + 3 Canadian provinces + 2 Canadian territories, comprising 206 species, sampled 1969-2014. Database aggregated from USGS Federal, State, and Provincial monitoring programs."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -110,3 +113,13 @@ Microbiome: Not addressed. Coe 2023 (gut microbiome MeHg demethylation) is a com
 - [[products/fish-containing-baby-foods]]
 - [[regulations/epa-fish-tissue-residue-criterion-mehg-03]] (to be created)
 - [[regulations/fda-seafood-mercury-action-level-1ppm]] (to be created)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b9702d7](https://github.com/paleofoundation/heavymetalindex/commit/b9702d7) | 2026-05-15 | sources: Cat 1 fish — Eagles-Smith 2016 freshwater fish Hg Western US/Canada (96K records) |
+<!-- END: hmi-page-history -->

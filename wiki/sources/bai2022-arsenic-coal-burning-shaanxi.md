@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 150
 sample_population: "100 arseniasis patients and 50 healthy controls in coal-burning area of Shaanxi Province, China"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,14 @@ Microbiome: Not addressed.
 - [[ingredients/corn]]
 - [[ingredients/peppers]]
 - [[supply-chain/coal-burning-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [364792f](https://github.com/paleofoundation/heavymetalindex/commit/364792f) | 2026-05-13 | ingest p4-batch14-g4: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

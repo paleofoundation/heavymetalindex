@@ -19,6 +19,9 @@ jurisdictions: [CN, IN, PK, AR]
 near_duplicates: []
 sample_n: null
 sample_population: "Hydroponic wheat experiment; references published occurrence data from India, Pakistan, Argentina"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,13 @@ App: Wheat grain can carry iAs from contaminated paddies; this paper documents t
 - [[ingredients/wheat]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3153dee](https://github.com/paleofoundation/heavymetalindex/commit/3153dee) | 2026-05-13 | ingest p4-batch15-g4: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

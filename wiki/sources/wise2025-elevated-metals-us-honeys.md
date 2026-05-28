@@ -18,6 +18,9 @@ matrices: [honey]
 jurisdictions: [US]
 sample_n: 28
 sample_population: "28 honey samples purchased from small-scale beekeepers across 15 U.S. states, collected 2022–2023. Table 1 floral-source labels: 19 wildflower (AR×2, IN×2, KY×4, ME, MD, MA×2, NM, OK, TN×3, VT, WV), 2 tupelo (FL×2), 1 each of sourwood (NC), star thistle (OR), blueberry/blackberry (OR), peach flower (TX), Russian olive (NM), turnip (NM), desert flower (NM). Abstract states 20 wildflower; the discrepancy is a paper-internal labeling inconsistency."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -103,3 +106,14 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 - **Tightened the Key numbers section** into a unified Table 2 view (toxic + essential metals together with EWI and PTWI ratios) plus a separate full mean ± SEM block for the 13 metals detected in all 28 honeys, replacing the prior less-structured narrative listing.
 - **Added Methods detail** on the EWI formula, body-mass assumption, ArcGIS mapping version, and Compton scattering normalization, all from the source.
 - Preserved cite_key, raw_handle, raw_path, license, evidence_tier, doi, sample_n, and ingredient/product/matrix/jurisdiction frontmatter. No new ingredient, product, or regulation pages proposed; all referenced slugs exist in the current taxonomy.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [403ab83](https://github.com/paleofoundation/heavymetalindex/commit/403ab83) | 2026-05-20 | ingest: wise2025-elevated-metals-us-honeys [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

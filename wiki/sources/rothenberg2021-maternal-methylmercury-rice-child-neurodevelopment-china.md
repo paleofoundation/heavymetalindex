@@ -18,6 +18,9 @@ matrices: [rice, maternal-hair, infant-cohort, neurodevelopment]
 jurisdictions: [CN]
 sample_n_total: 391
 sample_n_notes: "391 peripartum women enrolled in rural China cohort; 264 children Bayley-assessed at 12 months (68 percent), 190 at 36 months (48 percent); peripartum hair MeHg as exposure biomarker"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -44,3 +47,13 @@ Eligible peripartum women in rural China were enrolled (n=391) and provided peri
 - [[metals/mercury-methyl]]
 - [[ingredients/rice]]
 - [[products/baby-cereals-dry-rice-based]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8f2cd83](https://github.com/paleofoundation/heavymetalindex/commit/8f2cd83) | 2026-05-09 | ingest: phase-3b-raw-studies-priority-1-tier1 — 4 priority-1 manifest gap-fillers |
+<!-- END: hmi-page-history -->

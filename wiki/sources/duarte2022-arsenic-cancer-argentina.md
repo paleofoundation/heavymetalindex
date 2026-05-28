@@ -19,6 +19,9 @@ jurisdictions: [AR]
 near_duplicates: []
 sample_n: 62
 sample_population: "62 departments in central Argentina (Buenos Aires, Córdoba, La Pampa, Santa Fe, Santiago del Estero provinces); retrospective ecological study over 1997–2016"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,13 @@ App: Not directly applicable (drinking water, not food matrix).
 
 - [[metals/arsenic]]
 - [[regulations/who-arsenic-10ppb-drinking-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7c3dcee](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee) | 2026-05-13 | ingest p4-batch15-g2: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

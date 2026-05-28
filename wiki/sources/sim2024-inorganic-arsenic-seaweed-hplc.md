@@ -20,6 +20,9 @@ jurisdictions: [EU]
 near_duplicates: [FM_11045606_Inorganic_arsenic_in_seaweed_HPLC_ICP_MS_method]
 sample_n: null
 sample_population: "Seaweed species (Laminaria digitata, Fucus spp., Saccharina latissima, Asparagopsis taxiformis, Porphyra spp.), rice, grass silage, and insect proteins; certified reference material hijiki seaweed"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -60,3 +63,16 @@ Microbiome: Not applicable.
 - [[testing/arsenic-speciation]]
 - [[metals/arsenic]]
 - [[regulations/eu-2023-915]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [bae0d21](https://github.com/paleofoundation/heavymetalindex/commit/bae0d21) | 2026-05-13 | ingest p4-batch11-g4: 12 pages, 38 FP |
+<!-- END: hmi-page-history -->

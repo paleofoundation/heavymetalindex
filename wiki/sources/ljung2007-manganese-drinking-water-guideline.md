@@ -19,6 +19,9 @@ matrices: [drinking-water, infant-formula-reconstituted, breast-milk]
 jurisdictions: [SE, US, global]
 sample_n: null
 sample_population: "Literature review of multiple studies on Mn in drinking water, infant formula, and breast milk; focus on infant neurotoxicity at concentrations below the WHO guideline of 500 µg/L"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -54,3 +57,14 @@ Health: Demonstrates that formula-fed infants consistently have higher Mn exposu
 
 - [[products/infant-formula-powder-non-soy]]
 - [[health/manganese-infant-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

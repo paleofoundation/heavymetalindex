@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 1
 ---
@@ -158,3 +159,16 @@ RTF formula is itself a finished retail product. Concentrated liquid formula (di
 - Codex Alimentarius CXS 72-1981 and CXS 156-1987 — infant formula composition standards.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [30f27cb](https://github.com/paleofoundation/heavymetalindex/commit/30f27cb) | 2026-05-17 | synthesis: 5 more Cat 1 ingredient pages — infant-formula-rtf-liquid, infant-formula-concentrated-liquid, infant-cereal-ingredients, infant-formula-ingredients, meat-and-poultry-purees |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [3268b89](https://github.com/paleofoundation/heavymetalindex/commit/3268b89) | 2026-05-08 | schema: migrate ingredient_profile to 10-metal standard |
+<!-- END: hmi-page-history -->

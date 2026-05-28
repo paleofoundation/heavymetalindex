@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "US public water system records used as training data for machine learning models predicting As, NO3, and Cr-VI exceedances"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -44,3 +47,13 @@ App: Supports geographic risk flagging for drinking water arsenic exposure.
 - [[metals/arsenic]]
 - [[metals/chromium]]
 - [[regulations/epa-drinking-water-as-10ppb]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9795863](https://github.com/paleofoundation/heavymetalindex/commit/9795863) | 2026-05-13 | ingest p4-batch16-g4: 10 pages, 38 FP |
+<!-- END: hmi-page-history -->

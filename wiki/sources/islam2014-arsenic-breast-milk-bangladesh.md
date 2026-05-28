@@ -19,6 +19,9 @@ matrices: [breast-milk, infant-urine-biomarker, maternal-urine, drinking-water]
 jurisdictions: [BD]
 sample_n: 30
 sample_population: "30 mother-infant pairs from arsenic-contaminated area (Kashiani Upazila, Gopalgonj District, Bangladesh); 1–12 months postpartum; nested within 120 recruited pairs; HPLC-ICP-MS speciation"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -63,3 +66,14 @@ Health: Even with high maternal As exposure (urinary As median 134 µg/L at 1 mo
 - [[metals/arsenic]]
 - [[health/arsenic-infant-exposure]]
 - [[health/breastfeeding-metals-protection]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

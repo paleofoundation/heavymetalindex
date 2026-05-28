@@ -19,6 +19,9 @@ jurisdictions: [US, EU, AU, JP]
 near_duplicates: []
 sample_n: null
 sample_population: "Review of global literature and FDA Total Diet Study 2014–2016 data for cadmium in food and mitigation interventions"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -90,3 +93,16 @@ Concise review (not a systematic meta-analysis). Primary source synthesis from J
 - [[ingredients/wheat]]
 - [[ingredients/potatoes]]
 - [[mitigation/agronomic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [330acd9](https://github.com/paleofoundation/heavymetalindex/commit/330acd9) | 2026-05-28 | audit: schaefer2020-cadmium-mitigation-strategies [revised] |
+| [5fd311c](https://github.com/paleofoundation/heavymetalindex/commit/5fd311c) | 2026-05-28 | ingest: schaefer2020-cadmium-mitigation-strategies [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

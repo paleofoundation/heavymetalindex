@@ -21,6 +21,9 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic review of published literature on heavy metal contamination in foodstuffs, soil, and water in Bangladesh; first systematic review to explore multi-trophic transfer in Bangladesh food webs"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -76,3 +79,16 @@ Systematic and non-exhaustive review (no PRISMA protocol or verified methodology
 - The review reports arsenic and mercury without species separation; this page treats them as total arsenic (`tAs`) and total mercury (`tHg`).
 - Brand-firewall recheck under the stricter Part 12 reading locked 2026-05-17 (Claude Code, 2026-05-18): zero brand names present in page content. Species names (rahu, tilapia, pangas — `Labeo rohita`, `Oreochromis mossambicus`, `Pangasius pangasius`) are scientific binomials, not brand attributions. The review itself names no brands; it summarises prior studies by river, agroecological zone, and market. `access_url` and `raw_sha256` were added in the same pass.
 - Audit subagent (2026-05-18) flagged `[[regulations/codex-cxs-193-1995]]` as a non-existent regulation slug; verified against source — the review references WHO/FAO MTLs generically (and JECFA 2003 in Fig. 3) but never names Codex CXS 193-1995. Bullet removed from "Wiki pages this source may touch."
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2204e14](https://github.com/paleofoundation/heavymetalindex/commit/2204e14) | 2026-05-18 | audit: sarker2022-bangladesh-food-webs-review revised |
+| [a11dcb5](https://github.com/paleofoundation/heavymetalindex/commit/a11dcb5) | 2026-05-18 | ingest: sarker2022-bangladesh-food-webs-review enhanced from Papers Cube Manual Fetch |
+| [d0adb11](https://github.com/paleofoundation/heavymetalindex/commit/d0adb11) | 2026-05-17 | audit (codex): sarker2022 bangladesh food webs revised |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+<!-- END: hmi-page-history -->

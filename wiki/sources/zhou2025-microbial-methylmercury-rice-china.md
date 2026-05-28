@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
 sample_population: "Paddy soils and upland soils with high or low background Hg contamination, China; rice grain MeHg projections across main Chinese rice-producing areas"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -57,3 +60,14 @@ App: Supports elevated MeHg flag for rice (especially from high-Hg paddy regions
 - [[metals/mercury]]
 - [[ingredients/rice]]
 - [[microbiome/methylmercury-soil-microbiome]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [e2e70eb](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eb) | 2026-05-13 | ingest p4-batch9-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

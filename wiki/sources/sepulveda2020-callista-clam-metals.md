@@ -17,6 +17,9 @@ products: ["[[products/shellfish]]", "[[products/seafood]]"]
 matrices: ["shellfish", "mollusk", "clam"]
 jurisdictions: ["MX"]
 sample_population: "Wild Megapitaria squalida clams from Altata and Agiabampo Bays in the southeastern Gulf of California"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -57,3 +60,14 @@ The source supports seasonal/geographic shellfish gap filling for Cd and Pb in M
 
 The DOI and PDF match the clam paper in the wishlist row. Sediment data are not routed as food occurrence data.
 Arsenic and mercury are treated as total-element measurements because inorganic arsenic and methylmercury speciation were not reported. The clam species is Megapitaria squalida; the frontmatter keeps the matrix broad enough for routing while the title and sample population retain the species.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [455106a](https://github.com/paleofoundation/heavymetalindex/commit/455106a) | 2026-05-26 | ingest auto-fetched 2026-05-26 2228 batch 3: 3 source pages |
+<!-- END: hmi-page-history -->

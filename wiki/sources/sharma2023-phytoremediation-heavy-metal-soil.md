@@ -21,6 +21,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of the phytoremediation literature; emphasis on metal-binding proteins (MBPs) — metallothioneins, phytochelatins, heavy-metal ATPases, NRAMP and ZIP transporters — and biotechnological enhancement of phytoextraction capacity in Arabidopsis, rice, maize, wheat and barley."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -121,3 +124,15 @@ App: no per-product or per-ingredient occurrence data; this review does not cont
 - Audit subagent (2026-05-18) flagged the Key numbers wording on the Lu et al. 2017 biochar entry as conflating two adjacent paper sentences — verified against page 7: the 38–42% figure refers to the proportion of total Pb²⁺ adsorbed via biochar functional-group contact, NOT to the Lu et al. 2017 four-metal reduction (which has no per-metal percentage in the source). Corrected: Lu et al. 2017 entry now reports the 5% (w/w) amendment without a percentage, and the 38–42% Pb²⁺ figure is given separately as a mechanism statement.
 - Audit subagent (2026-05-18) flagged `plant-tissue` as a possibly non-vocabulary matrix slug — verified against `wiki/sources/`: the slug is in active use in multiple existing source pages, so it is a recognized matrix value not a vocabulary defect. False positive; no change.
 - Audit subagent (2026-05-18) flagged `[[mitigation/agronomic]]` as possibly a missing page — verified `wiki/mitigation/agronomic.md` exists in the repo. False positive; no change.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9aad740](https://github.com/paleofoundation/heavymetalindex/commit/9aad740) | 2026-05-18 | audit: sharma2023-phytoremediation-heavy-metal-soil revised |
+| [e4f243f](https://github.com/paleofoundation/heavymetalindex/commit/e4f243f) | 2026-05-18 | ingest: sharma2023-phytoremediation-heavy-metal-soil enhanced from Papers Cube Manual Fetch |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

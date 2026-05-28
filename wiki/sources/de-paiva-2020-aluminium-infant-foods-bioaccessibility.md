@@ -18,6 +18,9 @@ matrices: [infant-salty-purees, fruit-purees, infant-drinks, petit-suisse, soy-b
 jurisdictions: [BR]
 sample_n_total: 95
 sample_n_notes: "95 infant food samples (43 salty purees + 15 fruit purees + 28 infant drinks + 9 petit-suisse) from 9 commercial brands in Campinas, Brazil; total Al by ICP-OES after microwave digestion; bioaccessibility by optimized in vitro gastrointestinal digestion"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -86,3 +89,14 @@ Consumption of three portions per day of soy-based drink delivers Al at a substa
 - [[products/mixed-meals-non-rice]]
 - [[products/infant-formula-rtf-liquid-soy-based]]
 - [[products/infant-and-child-foods-master]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [1fa17ef](https://github.com/paleofoundation/heavymetalindex/commit/1fa17ef) | 2026-05-11 | ingest: de Paiva 2020 Brazilian infant food Al + bioaccessibility |
+<!-- END: hmi-page-history -->

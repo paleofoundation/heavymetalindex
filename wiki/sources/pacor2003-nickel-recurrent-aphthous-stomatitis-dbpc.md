@@ -18,6 +18,9 @@ matrices: [recurrent-aphthous-stomatitis, oral-nickel-challenge, low-nickel-diet
 jurisdictions: [IT]
 sample_n_total: 380
 sample_n_notes: "380 consecutive patients with recurrent aphthous stomatitis (RAS) (204 women, 176 men) at University of Verona and Palermo, 1990-1999; 28 with orthodontic-appliance-coincident symptoms, 352 with chocolate/cocoa-aggravated symptoms"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -50,3 +53,13 @@ Retrospective and prospective data analysis (1990-1999). All patients underwent 
 - [[metals/nickel]]
 - [[ingredients/cocoa]]
 - [[ingredients/chocolate]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

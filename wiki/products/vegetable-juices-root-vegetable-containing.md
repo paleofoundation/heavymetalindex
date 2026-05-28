@@ -15,6 +15,7 @@ evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-09
 literature_scope: thin
 sources: 0
@@ -102,3 +103,17 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 ## Sources
 
 - Source promotion pending.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
+| [ed8e81c](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81c) | 2026-05-14 | autonomy: firewall lint+fix and mandatory-sections audit+autofill |
+| [5599709](https://github.com/paleofoundation/heavymetalindex/commit/5599709) | 2026-05-13 | phase 0: lock HMTc methodology, remove admission filter, evict standards arithmetic from wiki/ |
+| [70d169a](https://github.com/paleofoundation/heavymetalindex/commit/70d169a) | 2026-05-12 | TODO.md + stakeholder guides on the remaining product families |
+<!-- END: hmi-page-history -->

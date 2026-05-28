@@ -18,6 +18,9 @@ matrices: [infant-formula, infant-formula-powder, infant-formula-rtf]
 jurisdictions: [GB]
 sample_n_total: 24
 sample_n_notes: "24 UK prescription infant formulas obtained from Russells Hall Hospital Paediatric Clinic, Dudley; n=5 measurements per product; TH GFAAS following microwave-assisted acid/peroxide digestion"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -97,3 +100,14 @@ Twenty-four prescription infant formulas obtained pristine and unopened from the
 
 - Cross-vendor audit (Codex, 2026-05-17) removed sampled-product brand names under the locked strict Part 12 reading, corrected the stale raw PDF path, replaced nonstandard matrix terms with controlled vocabulary, removed an unsupported soy-based product route, and corrected the methods citation summary.
 - Brand names are present in the source tables, but this source page intentionally uses product-form descriptors only because no public-record regulatory event exception applies.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [98ee7a5](https://github.com/paleofoundation/heavymetalindex/commit/98ee7a5) | 2026-05-17 | audit (codex): redgrove2019 prescription formula aluminium revised |
+| [9d8a88a](https://github.com/paleofoundation/heavymetalindex/commit/9d8a88a) | 2026-05-11 | ingest: Redgrove 2019 prescription infant formula Al occurrence |
+<!-- END: hmi-page-history -->

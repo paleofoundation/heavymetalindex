@@ -20,6 +20,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 14113
 sample_population: "143 fish species from the Tapajós River Basin, Brazil; 36 studies, 1992–2022; 735 mean Hg values from 14,113 individuals"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -69,3 +72,17 @@ App: The study does not provide product-level data for commercially packaged foo
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected matrix vocabulary, replaced non-taxonomy wiki links with valid ingredient/product/metal links, reframed MSCQ/THQ wording to report the authors' modeled risk rather than issue consumer guidance, and removed a named GIS software package from Methods while preserving the spatial-analysis method.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [23e1355](https://github.com/paleofoundation/heavymetalindex/commit/23e1355) | 2026-05-17 | firewall: Exception 2 carve-out for scientific-method vendor names |
+| [018ad5c](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c) | 2026-05-17 | audit: strict brand firewall residual cleanup |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+<!-- END: hmi-page-history -->

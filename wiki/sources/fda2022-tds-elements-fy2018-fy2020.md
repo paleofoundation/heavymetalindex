@@ -111,6 +111,9 @@ product_metal_scope:
   fruit-juices-apple-containing: [Pb, tAs]
   fruit-juices-non-apple: [Pb, tAs]
 jurisdictions: [US-FDA]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-03
 ---
 
@@ -268,3 +271,17 @@ The public CSV does not include brand names, lot identifiers, lab replicate meta
 - [[ingredients/whole-milk]]
 - [[ingredients/whole-wheat-bread]]
 - [[ingredients/winter-squash]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [20add89](https://github.com/paleofoundation/heavymetalindex/commit/20add89) | 2026-05-08 | schema: drop ## TL;DR heading from source pages and Part 6 template (6 pages cleaned) |
+| [0f3f4e7](https://github.com/paleofoundation/heavymetalindex/commit/0f3f4e7) | 2026-05-07 | Add product HMTc evidence summaries |
+| [681c888](https://github.com/paleofoundation/heavymetalindex/commit/681c888) | 2026-05-07 | Promote FDA TDS fruit juice route context |
+| [cf6583d](https://github.com/paleofoundation/heavymetalindex/commit/cf6583d) | 2026-05-02 | ingest FDA TDS elements dataset |
+<!-- END: hmi-page-history -->

@@ -27,6 +27,9 @@ product_metal_scope:
   fruit-juice-not-canned: [iAs]
 jurisdictions: [US-FDA]
 sample_n: 415
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -89,3 +92,17 @@ Microbiome: No direct microbiome endpoint.
 - [[products/baby-cereals-dry-non-rice]]
 - [[products/fruit-juices-non-apple]]
 - [[products/fruit-juice-not-canned]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [5cf068b](https://github.com/paleofoundation/heavymetalindex/commit/5cf068b) | 2026-05-17 | firewall: strip last per-page Part 19 leaks (children-personal-care + fda2016) |
+| [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
+<!-- END: hmi-page-history -->

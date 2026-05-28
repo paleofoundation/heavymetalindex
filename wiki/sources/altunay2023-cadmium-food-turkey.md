@@ -20,6 +20,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 13
 sample_population: "13 food types from Sivas, Turkey: apple, spinach, salad, tomatoes, onion, oat, corn, aubergine, wheat, mushroom, black rice, brown rice, white rice; n=3 per food type; purchased from local greengrocer"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -69,3 +72,15 @@ App: Do not use these values directly in contamination profiles pending resoluti
 - [[ingredients/rice]]
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/vegetables]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [3f107ba](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba) | 2026-05-12 | ingest: P2 remaining-group3 — 9 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

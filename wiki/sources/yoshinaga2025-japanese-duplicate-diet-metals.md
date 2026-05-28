@@ -22,6 +22,9 @@ jurisdictions: [JP]
 near_duplicates: []
 sample_n: 150
 sample_population: "150 adult Japanese (65 males, 85 females, aged 19–83 years); recruited via local newspaper and Toyo University staff/student channels 2017–2019. Geographic breakdown as reported on PDF p. 132: 89 in northern Kanto District (where Toyo University is located), 49 in southern Kanto District, and 13 from outside the Kanto District (6 central Japan, 7 western Japan) — the regional counts sum to 151, off-by-one against the stated N=150 (paper-internal discrepancy, not corrected here). 24-hr duplicate diet samples."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -150,3 +153,15 @@ The recruitment was non-random (newspaper plus university convenience sampling, 
   - Pb censoring in Table 5 — wiki Table 5 row had `(0.039–0.705)` but PDF Table 5 shows `(<0.039–0.705)` with the lower bound marked non-detect. Restored the `<` censoring indicator (the `*` non-detect-substitution footnote in the mean column already applied; the censoring on the min in the median(min–max) column was the missing detail).
   - Sample population geography — wiki sample_population said "12 elsewhere (6 central Japan, 6 western Japan)". PDF p. 132 reads "A total of 13 participants were from outside the Kanto District, i.e., six from central Japan and seven from western Japan." Corrected to 13/6/7 to match the paper. Note that the three regional counts (89 + 49 + 13 = 151) sum to one more than the stated total N=150; this is a paper-internal off-by-one and is documented in the sample_population field rather than silently reconciled.
 - **2026-05-25 (audit subagent — matrices vocabulary, noted only):** Audit subagent flagged ⚠️ on `matrices: [total-diet-study, duplicate-diet]` because these bare-string matrix labels are not in the taxonomy snapshot provided to the audit subagent. The matrix vocabulary is documented in `docs/gpt-collaboration/system-prompt.md`, not in the taxonomy snapshot (which only enumerates ingredient/product/metal/regulation slugs). The label `total-diet-study` is in active use in the wiki (`wiki/sources/spungen2019-fda-tds-children-lead-cadmium-2014-2016.md`), and the routing layer reports this source as `severity: advisory` (missing optional `products`/`ingredients` fields), which is the correct treatment for a whole-diet study that does not measure individual products or ingredients. No change applied; the audit was flagging the absence of the matrix vocabulary in its reference file, not a defect in this page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ece4d39](https://github.com/paleofoundation/heavymetalindex/commit/ece4d39) | 2026-05-25 | audit: yoshinaga2025-japanese-duplicate-diet-metals revised |
+| [78ceaf7](https://github.com/paleofoundation/heavymetalindex/commit/78ceaf7) | 2026-05-25 | ingest: yoshinaga2025-japanese-duplicate-diet-metals enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
+| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
+<!-- END: hmi-page-history -->

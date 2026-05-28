@@ -17,6 +17,9 @@ products: ["[[products/rice-bulk-grain]]"]
 matrices: ["polished-rice", "cooked-rice", "pre-soaked-rice"]
 jurisdictions: ["GB"]
 sample_population: "Ten polished rice samples purchased from retail stores in Belfast, Northern Ireland"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -56,3 +59,14 @@ The source supports rice mitigation and occurrence context. Treatment values sho
 
 - Source identity checked against DOI 10.1016/j.foodchem.2020.127842 and the downloaded PDF.
 - Values are kept in the preparation state reported by the authors: raw, cooked, citric-acid-treated, and neutralized cooked rice are not collapsed together.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

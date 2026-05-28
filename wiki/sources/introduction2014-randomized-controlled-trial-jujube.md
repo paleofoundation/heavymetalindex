@@ -37,6 +37,9 @@ jurisdictions:
 sample_n: 40
 sample_population: lactating mothers in Isfahan, Iran
 study_design: randomized controlled trial, 8-week intervention
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ingest_method: Marker OCR
 created_by: Claude
@@ -77,3 +80,13 @@ Quantile regression analysis was applied to evaluate differences between interve
 - Outcome: changes in metal concentrations in human milk
 
 ```
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d67d4c1](https://github.com/paleofoundation/heavymetalindex/commit/d67d4c1) | 2026-05-20 | autonomy: daemon tick 2026-05-20T09-20-59Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

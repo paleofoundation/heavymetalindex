@@ -7,6 +7,7 @@ species: [U, uranium-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
 sources: 17
+wiki_doi: null
 updated: 2026-04-30
 status: stub
 n_sources: 1
@@ -50,3 +51,16 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 21 | [[sources/magdas2012-romanian-apple-juice-isotopic-elemental\|Magdas et al. 2012]]. *Isotopic and Elemental Determination in Some Romanian Apple Fruit Juices*, The Scientific World Journal | 2012 | Peer-reviewed | RO Pb, Cd, tAs, Ni, Cr, U occurrence in 31 organic single-strength apple juices from four Transylvanian regions (Alba, Maramures, Salaj, Cluj), Romania; 2010 harvest (n=31) |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [d935060](https://github.com/paleofoundation/heavymetalindex/commit/d935060) | 2026-05-20 | autonomy: daemon tick 2026-05-19T23-46-10Z — gap-healing + extraction + pooling + briefings |
+| [1ac7363](https://github.com/paleofoundation/heavymetalindex/commit/1ac7363) | 2026-05-20 | autonomy: daemon tick 2026-05-19T22-04-26Z — gap-healing + extraction + pooling + briefings |
+| [1205e69](https://github.com/paleofoundation/heavymetalindex/commit/1205e69) | 2026-05-19 | autonomy: daemon tick 2026-05-19T15-55-42Z — gap-healing + extraction + pooling + briefings |
+| [6dcb44d](https://github.com/paleofoundation/heavymetalindex/commit/6dcb44d) | 2026-05-19 | autonomy: daemon tick 2026-05-18T21-04-04Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

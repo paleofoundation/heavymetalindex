@@ -22,6 +22,9 @@ products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-rtf-
 jurisdictions: [EU]
 claim_classes: [regulatory_limit, public_wiki_claim, hmtc_context]
 review_state: approved_for_public
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-02
 ---
 
@@ -88,3 +91,15 @@ The local raw PDF is the original Official Journal version supplied for ingest. 
 
 - European Commission. 2023. Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006.
 - European Commission contaminants legislation page, which identifies Regulation (EU) 2023/915 as the maximum-level framework for contaminants in food.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [66751b4](https://github.com/paleofoundation/heavymetalindex/commit/66751b4) | 2026-05-02 | Ingest EU 2023/915 contaminant limits |
+<!-- END: hmi-page-history -->

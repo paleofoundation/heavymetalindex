@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 3
 sample_population: "3 commercial white vinegar samples (acidity 3.5%, 3.95%, 4.0%) purchased from local markets; the author is based at the Beijing Center for Physical and Chemical Analysis but the paper does not state the specific market location."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -92,3 +95,16 @@ Page was originally drafted under the legacy `manual-fetch-kimi` raw_handle and 
 - License kept as "All rights reserved" — Spectrochimica Acta Part B (Elsevier) 2010 paywall paper; no open-access notice on the PDF.
 
 Auto-audit subagent (2026-05-26) verdict REVISE; Checks 2, 3, 4, 5 clean. Check 1 ⚠️ flagged that "Sugar interference > ±10% on Hg signal at sugar concentration as low as 1% v/v" overstated the source — paper Section 3.4 reports the >±10% effect at 1% v/v but does not test below 1% v/v, so "as low as" implied an untested lower bound. Verified against the PDF and applied: reworded to "exceeds ±10% on Hg signal at 1% v/v sugar," and added the paper's stated ±5% relative-error tolerance threshold for completeness as the audit suggested.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a22ac5c](https://github.com/paleofoundation/heavymetalindex/commit/a22ac5c) | 2026-05-26 | audit: liu2010-mercury-white-vinegar-afs audited-revised |
+| [cf56300](https://github.com/paleofoundation/heavymetalindex/commit/cf56300) | 2026-05-26 | ingest: liu2010-mercury-white-vinegar-afs enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

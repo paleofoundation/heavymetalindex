@@ -19,6 +19,9 @@ matrices: [breast-milk, infant-formula-reconstituted, tap-water-private-well, in
 jurisdictions: [US]
 sample_n: 72
 sample_population: "72 infants (6 weeks old) from New Hampshire Birth Cohort Study (NHBCS); 9 breastfeeding mothers; private well water region, mostly low-income non-Hispanic white"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -56,3 +59,14 @@ App: Formula preparation water quality is a critical determinant; municipal wate
 - [[products/infant-formula-powder-non-soy]]
 - [[metals/arsenic]]
 - [[health/arsenic-infant-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

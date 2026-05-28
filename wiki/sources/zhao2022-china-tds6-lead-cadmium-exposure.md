@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 288
 sample_population: "288 composite samples from the 24 provincial-level administrative divisions (PLADs) of the Sixth China Total Diet Study, covering ~86% of the Chinese population; 12 food categories per PLAD; analytical year 2016–2019"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -75,3 +78,13 @@ Pb and Cd were quantified in TDS composite food samples by ICP-MS (LOD 0.08 µg/
 - [[metals/cadmium]]
 - [[regulations/jecfa-cadmium-ptmi]]
 - [[regulations/jecfa-lead-ptwi-withdrawn]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [Global, IR, CN, CN, TR, EG, BR, PK, IN]
 near_duplicates: []
 sample_n: 981
 sample_population: "Pasteurized and sterilized cow's milk samples from 48 studies worldwide (2000–2023); PRISMA-compliant systematic review"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -68,3 +71,16 @@ Microbiome: Not applicable.
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected title/authors to the PLOS citation, removed an unsupported concentration-range summary, replaced it with source-reported exceedance/risk/method counts, corrected matrix and wiki-link vocabulary, and tightened HMT&C/app language.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [1b0ab1a](https://github.com/paleofoundation/heavymetalindex/commit/1b0ab1a) | 2026-05-13 | sources: access_url backfill on 14 newly-ingested pages + balzani fix |
+| [98e0e7c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c) | 2026-05-13 | ingest p4-batch6-g3: 1 page, 49 FP |
+<!-- END: hmi-page-history -->

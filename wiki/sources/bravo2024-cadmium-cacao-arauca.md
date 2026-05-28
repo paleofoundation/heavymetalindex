@@ -20,6 +20,9 @@ jurisdictions: [CO]
 near_duplicates: []
 sample_n: 20
 sample_population: "180 cacao farms surveyed across four municipalities in Arauca Department, Colombia (Arauquita, Fortul, Saravena, Tame); seed subsamples from 14 farms; 6 artisanal chocolate samples"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -53,3 +56,16 @@ App: Supports flagging Colombian cacao (especially Andean-proximal origins) as h
 - [[ingredients/cocoa]]
 - [[products/chocolate]]
 - [[regulations/eu-488-2014-cd-chocolate]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [1b0ab1a](https://github.com/paleofoundation/heavymetalindex/commit/1b0ab1a) | 2026-05-13 | sources: access_url backfill on 14 newly-ingested pages + balzani fix |
+| [98e0e7c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c) | 2026-05-13 | ingest p4-batch6-g3: 1 page, 49 FP |
+<!-- END: hmi-page-history -->

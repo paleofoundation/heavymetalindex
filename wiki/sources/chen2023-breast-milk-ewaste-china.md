@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 102
 sample_population: "Mothers from Luqiao District, Taizhou City, Zhejiang Province (e-waste recycling area), human milk collected 4 weeks post-delivery, 2021"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -61,3 +64,15 @@ Microbiome: Metal exposure in e-waste populations documented here may interact w
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[ingredients/human-milk]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [e307b95](https://github.com/paleofoundation/heavymetalindex/commit/e307b95) | 2026-05-13 | ingest p4-batch10-g4: 4 pages, 48 FP |
+<!-- END: hmi-page-history -->

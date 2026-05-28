@@ -20,6 +20,9 @@ jurisdictions: []
 sample_n: null
 sample_population: "Seawater (3 regions), lake water, river water, tap water (validation)"
 near_duplicates: []
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -46,3 +49,14 @@ App: Not applicable.
 
 ## Wiki pages updated on ingest
 - [[testing/mercury-detection-methods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [c4878be](https://github.com/paleofoundation/heavymetalindex/commit/c4878be) | 2026-05-12 | ingest: P2 sub-batch 4 — 7 analytical-method source pages, 4 false positives, 38 missing handles |
+<!-- END: hmi-page-history -->

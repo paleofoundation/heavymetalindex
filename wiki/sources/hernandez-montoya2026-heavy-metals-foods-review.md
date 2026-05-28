@@ -19,6 +19,9 @@ jurisdictions: [codex, EU, US]
 near_duplicates: []
 sample_n: null
 sample_population: "Scoping review of 121 peer-reviewed studies (Scopus, Web of Science, ScienceDirect, SpringerLink, Wiley Online Library, Google Scholar; published through 2026)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ---
 
@@ -85,3 +88,13 @@ Scoping review, PRISMA-ScR. Database search: Scopus, Web of Science, ScienceDire
 - [[regulations/codex-cxs-193-1995]]
 - [[regulations/eu-1881-2006]]
 - [[regulations/eu-2023-915]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

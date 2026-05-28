@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 16
 ---
@@ -184,4 +185,16 @@ Breastmilk does not have direct regulatory maximum levels comparable to infant f
 - EFSA and JECFA tolerable intake values (Pb BMDL for neurodevelopment, Cd PTMI, Hg PTWI, Al TWI) are the operative dose-response anchors for evaluating breastmilk exposure on a per-day or per-week basis.
 - Donor-breastmilk programs operate under Human Milk Banking Association of North America (HMBANA) or equivalent regional guidance, which includes donor screening for exposure but not a direct regulatory maximum level for metals.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c5da3a8](https://github.com/paleofoundation/heavymetalindex/commit/c5da3a8) | 2026-05-19 | autonomy: daemon tick 2026-05-19T16-51-40Z — gap-healing + extraction + pooling + briefings |
+| [1205e69](https://github.com/paleofoundation/heavymetalindex/commit/1205e69) | 2026-05-19 | autonomy: daemon tick 2026-05-19T15-55-42Z — gap-healing + extraction + pooling + briefings |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [fcd0203](https://github.com/paleofoundation/heavymetalindex/commit/fcd0203) | 2026-05-17 | synthesis: rice-cereal, vitamin-mineral-premix, tomato-paste, breastmilk — 6 narrative sections each |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+<!-- END: hmi-page-history -->

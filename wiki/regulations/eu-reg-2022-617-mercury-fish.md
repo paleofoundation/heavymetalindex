@@ -16,6 +16,7 @@ amends: EC-1881-2006
 source_refs: []
 access_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022R0617"
 audience: [regulator, educator, app]
+wiki_doi: null
 updated: 2026-05-16
 ---
 
@@ -143,3 +144,13 @@ The precise prior values for each species tier in the pre-2022 version of Regula
 - [[ingredients/fish]] — general fish contamination profile; this regulation is the primary EU ML reference for fish
 - [[ingredients/seafood]] — broader seafood context including cephalopods and crustaceans
 - [[ingredients/canned-tuna]] — tuna as the highest-volume commercial species under the 1.0 mg/kg tier
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6d80f24](https://github.com/paleofoundation/heavymetalindex/commit/6d80f24) | 2026-05-16 | ingest: eu-reg-2022-617-mercury-fish regulation page |
+<!-- END: hmi-page-history -->

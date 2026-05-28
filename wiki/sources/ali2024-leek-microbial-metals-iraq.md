@@ -21,6 +21,9 @@ jurisdictions: [IQ]
 near_duplicates: []
 sample_n: 100
 sample_population: "100 leek (Allium porrum) samples collected from farms, home gardens, markets, and vegetable vendors in the center and districts of Nasiriyah, Thi-Qar governorate, Iraq, January–May; soil samples from three agricultural stations (one outside city center near Al-Gharf, one near Sharif/thermal station, one in Sednawia area) with three replicates each."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -79,3 +82,15 @@ Direct evidence for Pb, Ni, and Cu occurrence in leek (an Allium leafy vegetable
 - Implications section: invalid wikilink `[[supply-chain/soil]]` (no such page) removed. Implications narrowed to what the paper supports (geographic-variance context for leafy vegetables) without inventing supply-chain claims.
 - Note on `products: []`: leek is not currently in either the ingredient or product taxonomy (only `[[ingredients/leafy-vegetables]]` covers it). Routing audit lists this source under `routing_malformed.csv` with severity `advisory` only ("Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible") — not a blocking defect. If a future `ingredients/leek` page is created (≥5 papers on leek-specific contamination), this source's frontmatter should be updated then.
 - Audit subagent 2026-05-18 flagged a Figure 2 / Table 1 inconsistency on the city-center farmer E. coli rate (4.92% in chart, 4.29% in table); verified against PDF p. 711 — this is a paper-internal printing inconsistency. The table value (4.29%, 3 of 8 positive) is the authoritative tabulation and is what the page reports; a one-line acknowledgment added to Limitations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [61258ae](https://github.com/paleofoundation/heavymetalindex/commit/61258ae) | 2026-05-18 | audit: ali2024-leek-microbial-metals-iraq promoted |
+| [5e65083](https://github.com/paleofoundation/heavymetalindex/commit/5e65083) | 2026-05-18 | ingest: ali2024-leek-microbial-metals-iraq enhanced from Papers Cube Manual Fetch |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

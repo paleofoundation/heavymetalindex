@@ -20,6 +20,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 30
 sample_population: "10 samples each of three traditional Turkish cheeses (Aho, Golot, Telli) collected from local markets in Trabzon, Turkey (Black Sea region); collected April–May 2025"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -87,3 +90,15 @@ App: Supports flagging artisanal cheeses as potentially elevated in Pb and tHg, 
 - [[metals/mercury]]
 - [[metals/nickel]]
 - [[metals/aluminium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [bb32b03](https://github.com/paleofoundation/heavymetalindex/commit/bb32b03) | 2026-05-12 | ingest: P4 batch 4 group 2 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

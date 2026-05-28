@@ -21,6 +21,9 @@ jurisdictions: [KR, US, EU, CN]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative methodology review; no primary samples. Reviews safety-assessment frameworks and test methods reported across ~112 cited studies on disposable absorbent hygiene products (baby diapers, feminine hygiene pads, adult incontinence diapers)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -82,3 +85,14 @@ Narrative literature review, no primary samples. Structured around the four-step
 ## Ingest log
 
 - 2026-05-18 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/su10114146` not present; raw_handle `MFK_safety-evaluation-of-absorbent-hygiene-pads-a-revi` not present; cite-key stem `bae2018` not present. PDF SHA-256 `1852664458af40802a0c576c35f407ee18f383bb25adc1f77a5aec9b0ad97aae`. Paper is a methodology review with no primary heavy-metal measurements — ingested as out-of-core-scope methodology / regulatory-context reference per the [[sources/lai2025-infant-diaper-phthalate-dna-oxidation]] precedent. Routed to `[[products/diapers-and-components]]` (HMTc Cat 9 Row 7 scaffold) and `[[products/menstrual-pads]]` (HMTc Cat 15 Row 2 scaffold) for discoverability as a multi-product methodology reference; `metals: []` correctly reflects no metal occurrence data.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [faed66d](https://github.com/paleofoundation/heavymetalindex/commit/faed66d) | 2026-05-18 | audit: bae2018-absorbent-hygiene-pads-safety-review promoted |
+| [8c2b480](https://github.com/paleofoundation/heavymetalindex/commit/8c2b480) | 2026-05-18 | ingest: bae2018-absorbent-hygiene-pads-safety-review fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [JM, US]
 near_duplicates: []
 sample_n: 60
 sample_population: "60 popular skin-lightening products purchased from 12 vendors across Jamaica, February–May 2017. Parallel user questionnaire administered to 384 self-identified users of skin-lightening products (196 female, 188 male; 280 <30 yr, 92 31–50 yr, 12 >50 yr)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -163,3 +166,17 @@ The authors note that some products originating from European nations and the Iv
 - 2026-05-14 prior ingest (claude_opus_47_session): manual-fetch Phase 1 ingest; raw_handle `kimi-children-personal-care-ricketts2020` set; products `["[[products/skin-lightening-cream]]"]` declared; metals incorrectly set to `[tHg, MeHg]`; body section labels included the legacy `## Wiki pages updated on ingest` heading with speculative non-existent slugs; Most-used-products and CVAAS-quartile sections named brands.
 - 2026-05-18 merge-enhance ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): EXISTING path per identity checks. Full PDF re-read (pp. 1–10, including Tables 1–5 and Figures 1–4). Defects in prior revision addressed: `metals` corrected to `[tHg]`; brand names stripped from Methods spike-matrix identifier, Most-used products section, and CVAAS-quartile listings; Tables 3, 4, 5, and 2 added with category-level transcriptions; speculative `[[products/skin-lightening-lotion]]`, `[[products/skin-lightening-soap]]`, and `[[regulations/fda-cosmetic-mercury-1ppm]]` slugs removed; legacy `## Wiki pages updated on ingest` heading replaced with current `## Wiki pages this source may touch`; Implications section rewritten to remove HMTc threshold-proposing language; license corrected from `CC BY-NC` to `CC BY 3.0` per the PDF's own copyright page. Routing audit refreshed; ingest committed at b155701; queued for audit.
 - 2026-05-18 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict REVISE. Two findings applied: (i) Table 5 Jamaica-row maximum corrected from 17,545.00 → 17,345.00 to match PDF Table 5 (Check 1 ❌; the prior 17,545 transcription matched neither Table 5 nor body text); (ii) Implications → Certification paragraph rewritten to remove in-body assertion of the HMTc Cat 2 Step 0 lock scope decision (Check 5 ⚠️), with the governance-routing context relocated to Verification notes and a parenthetical pointer to the products/skin-lightening-cream retirement page. One finding rejected as false positive: Check 2 ⚠️ on the `advisory/skin-lightening-products` slug (the page exists at `wiki/advisory/skin-lightening-products.md`; the taxonomy snapshot covers the four indexed namespaces, not the advisory namespace). Source's internal 17,547/17,345/17,000 inconsistency across body/Table 5/Conclusions documented in Verification notes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [60bb18c](https://github.com/paleofoundation/heavymetalindex/commit/60bb18c) | 2026-05-18 | audit: ricketts2020-mercury-skin-lightening-jamaica revised |
+| [b155701](https://github.com/paleofoundation/heavymetalindex/commit/b155701) | 2026-05-18 | ingest: ricketts2020-mercury-skin-lightening-jamaica enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [baf6597](https://github.com/paleofoundation/heavymetalindex/commit/baf6597) | 2026-05-16 | cat2: master rewrite + advisory + retired-page redirects + source rerouting |
+| [e060e01](https://github.com/paleofoundation/heavymetalindex/commit/e060e01) | 2026-05-15 | sources: Cat 2 skin lightening — Ricketts 2020 mercury in Jamaican products |
+<!-- END: hmi-page-history -->

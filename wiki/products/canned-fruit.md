@@ -8,6 +8,7 @@ primary_metals_of_concern: [Pb, Cd, Sn, tAs]
 vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-14
 sources: 5
 created_by: autonomy_v0
@@ -69,3 +70,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | --- | --- | ---: | --- | --- |
 
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [ba602c5](https://github.com/paleofoundation/heavymetalindex/commit/ba602c5) | 2026-05-25 | fill canned-fruit synthesis prose |
+| [4fe0a95](https://github.com/paleofoundation/heavymetalindex/commit/4fe0a95) | 2026-05-19 | autonomy: daemon tick 2026-05-19T18-38-11Z — gap-healing + extraction + pooling + briefings |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [0b917c5](https://github.com/paleofoundation/heavymetalindex/commit/0b917c5) | 2026-05-17 | stubs: strip 'autonomy-created stub' prose from 41 pages that now have structure |
+<!-- END: hmi-page-history -->

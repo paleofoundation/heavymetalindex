@@ -20,6 +20,9 @@ jurisdictions: [EU, US]
 near_duplicates: []
 sample_n: null
 sample_population: "Weight-of-evidence review; 110 articles, 105 high-throughput assays"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -46,3 +49,15 @@ App: not applicable.
 ## Wiki pages updated on ingest
 
 None. DINP is a phthalate plasticizer, not a heavy metal. This paper falls outside the heavy metals focus of this wiki and is classified as a misclassified P3 paper (not agency-affiliated; it is an industry-sponsored review). No wiki pages require updating.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [6b2cd85](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85) | 2026-05-12 | ingest: P3 agency tier — 18 source pages created |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [IR, US, EU]
 near_duplicates: []
 sample_n: 16
 sample_population: "16 observational studies (case-control, cross-sectional, cohort) on Cd exposure and prostate cancer risk; searches up to May 2022"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -56,3 +59,15 @@ Systematic review and dose-response meta-analysis. Stata 15 used for pooled anal
 
 - [[metals/cadmium]]
 - [[health/cadmium-toxicology]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [0b663ae](https://github.com/paleofoundation/heavymetalindex/commit/0b663ae) | 2026-05-13 | ingest p4-batch12-g1: 4 pages, 46 FP |
+<!-- END: hmi-page-history -->

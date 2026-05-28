@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 410
 sample_population: "410 distinct sunscreen products cataloged from four major retail outlets (CVS, Walgreens, Target, Wegmans) in the Philadelphia area between June 1 and June 10 2023, supplemented by review of each manufacturer's website to capture in-store and online product offerings. The subset marketed to pediatric demographics by label terms comprised 71 products labeled 'baby' or 'babies' (27 products), 'children' or 'kids' (44 products), or 'sports' or 'active' (71 products in a third overlapping category)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -134,3 +137,13 @@ Observational catalog of suncare/sun-protection displays at four major retail ou
 - Brand names on the labels surveyed are not reproduced in this page per Part 12 strict reading. The paper itself does not present brand-by-brand contamination rankings — it presents demographic-marketing-term aggregations across an anonymized catalog — so the strict reading is intrinsically satisfied without aggregation work.
 - `matrices: [cosmetic-personal-care]` follows the precedent set by other manual-fetch cosmetic ingest pages (e.g., barabash2025-sunscreen-tio2-zno-release-spicp-tofms, almukainzi2022-saudi-topical-cosmetics-icpms).
 - `products/sun-suntan-products` exists in `wiki/products/` but is not listed in the 2026-05-17 taxonomy snapshot — the snapshot is stale relative to the live `wiki/products/` directory. The routing for this paper deliberately uses the pediatric-specific slugs `baby-sunscreen-mineral`, `baby-sunscreen-chemical`, and `children-personal-care` because the paper's scope is specifically the pediatric subset; sun-suntan-products is the adult umbrella and the paper's adult-comparator data (the 410-overall baseline) would be a broad_product_context route at most.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2ac9293](https://github.com/paleofoundation/heavymetalindex/commit/2ac9293) | 2026-05-18 | ingest: druml2023-sunscreen-label-marketing-pediatric-populations fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+<!-- END: hmi-page-history -->

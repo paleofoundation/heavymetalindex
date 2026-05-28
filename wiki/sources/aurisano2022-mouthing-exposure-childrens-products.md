@@ -19,6 +19,9 @@ jurisdictions: [DK, US]
 near_duplicates: []
 sample_n: 437
 sample_population: "Harmonized literature dataset of n=437 experimental migration rates into saliva covering n=66 chemical-material combinations (n=60 chemicals, n=5 materials: PVC, PP, EVA, silicone, wood); two age groups (3-<6 months and 2-<3 years)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -56,3 +59,14 @@ Systematic literature review of chemical migration rates from children's product
 - Mouthing-duration values (3.4, 1.8 min/h pacifier average; 37.3, 46.3 min/h 99th percentile) are reusable for any metal-mouthing exposure calculation.
 - Audit subagent (2026-05-17) added "in PP" matrix attribution to the BDE-183 lower-bound migration rate per p. 96 col 2 of the source ("for the brominated flame retardant 2,2',3,4,4',5',6-heptabromodiphenyl ether (BDE-183...) in PP to 32.7 µg/10 cm²/min..."). Applied.
 - Audit subagent (2026-05-17) flagged the E_mouthing,pred lower bound "4 × 10⁻⁸" as wrong, claiming the source says "8 × 10⁻⁸"; verified against PDF p. 99 col 2 — the source clearly reads "E_mouthing,pred = 4 × 10⁻⁸ to 252 µg/kgBW/d." Finding was a false positive (OCR misread of "4" as "8"). Wiki value retained.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cabd798](https://github.com/paleofoundation/heavymetalindex/commit/cabd798) | 2026-05-17 | audit: aurisano2022-mouthing-exposure-childrens-products revised |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

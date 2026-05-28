@@ -18,6 +18,9 @@ matrices: [fresh-vegetable, leafy-vegetable, root-vegetable, brassica-vegetable,
 jurisdictions: [NZ]
 sample_n: 153
 sample_population: "153 composite representative samples (from 736 individual vegetables) collected from 14 market gardens at 10 growing sites within 50 km of Napier and Hastings, Hawke's Bay, New Zealand; collected February 2024, one year post Cyclone Gabrielle (February 2023); includes organic (4 market gardens) and non-organic operations; 17 vegetable genera across Allium, Apium, Beta, Brassica, Cucumis, Cucurbita, Foeniculum, Ipomoea, Lactuca, Lagenaria, Luffa, Momordica, Petroselinum, Phaseolus, Raphanus, Solanum, and Zea"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -85,3 +88,13 @@ App: Hawke's Bay composite values provide a regional reference for New Zealand v
 - [[ingredients/root-vegetables]]
 - [[ingredients/vegetables]]
 - [[regulations/codex-cxs-193-1995]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ matrices: [breast-milk, child-urine-biomarker, drinking-water, rice-grain, wheat
 jurisdictions: [IN]
 sample_n: 513
 sample_population: "513 women (378 with breast milk samples) and 184 infants from 11 arsenic-affected districts in Bihar, India (Gangetic plains); high-arsenic groundwater exposure area"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -62,3 +65,16 @@ App: Geographic origin of water supply is a critical modifier for any As exposur
 - [[health/arsenic-infant-exposure]]
 - [[health/breastfeeding-metals-protection]]
 - [[ingredients/rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

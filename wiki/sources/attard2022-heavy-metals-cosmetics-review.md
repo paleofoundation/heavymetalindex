@@ -19,6 +19,9 @@ jurisdictions: [US, EU, WHO, CA]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review with multivariate meta-analysis across 16 cosmetic formulation categories drawn from the published literature on Pb, Cd, Ni, Hg, and As in cosmetics."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -134,3 +137,17 @@ Microbiome: Not addressed.
 - Part 2 firewall: Implications restated the chapter's PCA finding (lipsticks/eye-shadows/face-paints/foundation/skin-lightening creams as high-load) and noted its relevance to Cat 2 threshold work without proposing a threshold value.
 - `ingest_method`/`created_by` v0 fields removed during the merge-enhance; git history preserves the v0 origin.
 - Audit subagent (2026-05-18) flagged an internal chapter inconsistency: Section 5 narrative on p. 11 states "Pearson correlation statistics (Table 4) reveal a relationship between all five metals (r > 0.466)," but Cd-Hg (0.334), Ni-Hg (0.446), and Hg-As (0.465) in Table 4 are all below 0.466 — verified by direct inspection of the table. The wiki preserves the chapter's narrative claim and matrix values as reported; the discrepancy is the authors', not the wiki's, but is recorded here so downstream synthesis does not rest the matrix-wide claim on this chapter alone. Also note Table 4 caption labels these as Spearman correlations while the narrative text calls them "Pearson correlation statistics" — same chapter-internal inconsistency.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [765a001](https://github.com/paleofoundation/heavymetalindex/commit/765a001) | 2026-05-18 | audit: attard2022-heavy-metals-cosmetics-review promoted (with concern note) |
+| [0a23668](https://github.com/paleofoundation/heavymetalindex/commit/0a23668) | 2026-05-18 | ingest: attard2022-heavy-metals-cosmetics-review enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [baf6597](https://github.com/paleofoundation/heavymetalindex/commit/baf6597) | 2026-05-16 | cat2: master rewrite + advisory + retired-page redirects + source rerouting |
+| [401c3c2](https://github.com/paleofoundation/heavymetalindex/commit/401c3c2) | 2026-05-14 | sources: Cat 2 review — Attard & Attard 2022 heavy metals in cosmetics |
+<!-- END: hmi-page-history -->

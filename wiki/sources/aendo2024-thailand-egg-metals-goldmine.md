@@ -20,6 +20,9 @@ jurisdictions: [TH]
 near_duplicates: []
 sample_n: 23
 sample_population: "23 poultry farms (6 laying hen, 2 laying duck, 3 free-grazing duck farms in contaminated area <25 km from gold mine; 6 laying hen, 3 laying duck, 3 free-grazing duck farms in uncontaminated area >25 km from gold mine) in Pichit Province, Thailand; 5 eggs collected per farm, 3 collection times (Jan, Apr, Aug 2019)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -57,3 +60,14 @@ App: Eggs from free-grazing duck operations in mining-adjacent regions warrant e
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[supply-chain/mining-watersheds]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [0562446](https://github.com/paleofoundation/heavymetalindex/commit/0562446) | 2026-05-13 | ingest p4-batch7-g4: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

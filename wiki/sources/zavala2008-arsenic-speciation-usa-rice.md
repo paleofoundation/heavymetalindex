@@ -19,6 +19,9 @@ products: []
 matrices: [rice-grain]
 jurisdictions: [US, AU, BD, CN, IN, IT, ES, TW, TH]
 sample_n: 105
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -75,3 +78,13 @@ U.S. samples were deliberately selected at the higher end of the total As distri
 - [[metals/arsenic]]
 - [[ingredients/rice]]
 - [[testing/arsenic-speciation]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3859dbf](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf) | 2026-05-12 | ingest: batch-D manual-fetch — 11 source pages (rice, cocoa, tea, apple juice) |
+<!-- END: hmi-page-history -->

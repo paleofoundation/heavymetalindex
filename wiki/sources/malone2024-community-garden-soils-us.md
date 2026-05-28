@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "Integrative literature review of 52 peer-reviewed articles on trace metal (Pb, As, Cd, Zn) contamination in US urban community garden soils, retrieved from Web of Science (40 articles) and PubMed (27 articles after deduplication) using the search terms 'community garden' and 'urban garden' filtered by 'contamination' or 'metals' and 'USA'; published through January 2024."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -113,3 +116,14 @@ For US urban garden soils, this review anchors the literature baseline that Pb i
 - **Audit subagent 2026-05-18** flagged two ⚠️ items in Check 1, both verified against the source and applied:
   - Subagent noted that the wiki page labeled the California background-arsenic value as "California 1991 background arsenic level 5 ppm" but the paper (p. 7) says only "California has elevated levels of arsenic in its soils … with a median background level of 5 ppm [25]" with no originating year. Verified: the "1991" attribution was a Claude error in the first ingest pass. Corrected to "California median-background arsenic level 5 ppm" with a note that the paper cites Clarke 2007 (ref [25]) without an originating year for the background measurement.
   - Subagent noted that the US EPA Technical Review Workgroups Lead Committee 100 ppm recommendation was dated "2013" in Key numbers and "2014" in Implications. Verified: the paper itself is internally inconsistent (p. 2 says "In 2014, they suggested…", p. 5 says "In 2013, the US EPA Technical Review Workgroups Lead Committee created a recommendation of 100 ppm"). Reconciled to a single mention noting the paper's own year inconsistency; removed the conflicting 2013/2014 phrasing from Implications.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dd96208](https://github.com/paleofoundation/heavymetalindex/commit/dd96208) | 2026-05-18 | audit: malone2024-community-garden-soils-us revised |
+| [8133d24](https://github.com/paleofoundation/heavymetalindex/commit/8133d24) | 2026-05-18 | ingest: malone2024-community-garden-soils-us enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

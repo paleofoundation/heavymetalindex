@@ -17,6 +17,9 @@ products: ["[[products/poultry-product]]"]
 matrices: ["broiler-drumsticks", "chilled-poultry-meat"]
 jurisdictions: ["RU"]
 sample_population: "Chilled broiler drumsticks from two producers sold in Chelyabinsk, Russia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -54,3 +57,15 @@ The paper supports poultry-meat occurrence context for Russian broiler drumstick
 
 - Source identity checked against DOI 10.31677/2072-6724-2020-30-4-35-40 and the downloaded Russian PDF.
 - Table values are preserved in mg/kg; Russian decimal commas were converted to decimal points.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [554a72d](https://github.com/paleofoundation/heavymetalindex/commit/554a72d) | 2026-05-26 | audit auto-fetched 2026-05-26 2215 batch 1: speciation fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

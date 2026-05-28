@@ -20,6 +20,9 @@ jurisdictions: [global]
 near_duplicates: []
 sample_n: 1482
 sample_population: "Global fisheries modeling dataset: catch-weighted MeHg concentrations estimated for 1,774 marine species across global exclusive economic zones using empirical MeHg measurements (n=1,482 for yellowfin tuna spatial validation), spatially resolved catch data from Sea Around Us database (2001–2010), and modeled seawater MeHg concentrations"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -58,3 +61,15 @@ Microbiome: MeHg from fish consumption is a primary human exposure pathway with 
 - [[ingredients/pelagic-fish]]
 - [[metals/mercury]]
 - [[health/methylmercury-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [0562446](https://github.com/paleofoundation/heavymetalindex/commit/0562446) | 2026-05-13 | ingest p4-batch7-g4: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

@@ -25,6 +25,9 @@ matrices: [powdered-milk-infant-formula, follow-up-milk, dietetic-milk, reconsti
 jurisdictions: [PT]
 sample_n: 20
 sample_population: "Twenty commercial powdered milk brands available in Portugal: 7 infant formulas, 5 follow-up milks, and 8 dietetic milks"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -81,3 +84,16 @@ The local PDF was supplied in `raw/Working Together with ChatGPT/`. DOI and bibl
 - [[metals/chromium-hexavalent]]
 - [[metals/chromium]]
 - [[products/infant-formula-powder-non-soy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bea746b](https://github.com/paleofoundation/heavymetalindex/commit/bea746b) | 2026-05-08 | ingest: chromium-hexavalent species page from existing Cr-VI corpus |
+| [ee06026](https://github.com/paleofoundation/heavymetalindex/commit/ee06026) | 2026-05-08 | clarify benchmark pool percentile rules |
+| [933f5a3](https://github.com/paleofoundation/heavymetalindex/commit/933f5a3) | 2026-05-08 | correct soares formula row fit |
+| [3114d3e](https://github.com/paleofoundation/heavymetalindex/commit/3114d3e) | 2026-05-08 | ingest soares 2000 chromium vi formula context |
+<!-- END: hmi-page-history -->

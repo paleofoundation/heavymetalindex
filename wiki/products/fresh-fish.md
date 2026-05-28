@@ -8,6 +8,7 @@ primary_metals_of_concern: [Pb, Cd, tAs, MeHg, tHg]
 vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-14
 sources: 67
 created_by: autonomy_v0
@@ -151,3 +152,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | --- | --- | ---: | --- | --- |
 
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [4e3cf32](https://github.com/paleofoundation/heavymetalindex/commit/4e3cf32) | 2026-05-18 | fix: dedupe bfr2024 BfR MEAL methylmercury — unblock Codex true-duplicate stop |
+| [70fd060](https://github.com/paleofoundation/heavymetalindex/commit/70fd060) | 2026-05-18 | sections: products/fresh-fish — full mandatory-sections pass (third seafood standards manual evidence anchor) |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+<!-- END: hmi-page-history -->

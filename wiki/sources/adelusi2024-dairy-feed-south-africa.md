@@ -20,6 +20,9 @@ jurisdictions: [ZA]
 near_duplicates: []
 sample_n: 70
 sample_population: "70 dairy cattle feed samples from Free State (n=40) and Limpopo (n=30) provinces, South Africa"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -64,3 +67,16 @@ Microbiome: Not applicable.
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/chromium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [313c29c](https://github.com/paleofoundation/heavymetalindex/commit/313c29c) | 2026-05-12 | ingest: P4 batch 1 group 1 — 6 source pages, 44 false positives |
+<!-- END: hmi-page-history -->

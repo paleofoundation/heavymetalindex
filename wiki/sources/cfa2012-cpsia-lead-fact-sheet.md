@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "Consumer-advocacy summary of the Consumer Product Safety Improvement Act of 2008 (CPSIA) and its lead-content provisions for children's products; no primary measurements"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -73,3 +76,13 @@ Two-page consumer-advocacy fact sheet authored by the Consumer Federation of Ame
 - **Funding and conflicts.** The fact sheet does not disclose funding sources or conflicts. CFA is a non-profit advocacy and research organisation funded by member dues, consumer protection awards, and foundation grants; its general institutional positioning favours stricter consumer-protection standards, which is consistent with the advocacy tone of the fact sheet.
 - **License.** `public-reference-only`: the CFA fact sheet is publicly distributed for consumer education without an explicit license grant; quotation for review and synthesis purposes is fair use, but re-hosting the full PDF is not authorised by an open licence. Same handling as `belgian-lead-factsheet-2024` in the corpus.
 - **Related corpus pages.** No CPSIA-specific sources are currently in the corpus. `washington-tfca-toothpaste-pb-1000ppb` and `oehha-lead-prop65` are the closest existing US state-level lead-in-product regulations in the wiki's regulation taxonomy; FDA Closer-to-Zero (`fda-closer-to-zero`, `fda-ctz-Pb-babyfood-10ppb`, etc.) is the food-side federal counterpart. The CPSIA-Section-101 regulation page proposed in the verification notes above would fill the corresponding non-food children's-products slot.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99ba482](https://github.com/paleofoundation/heavymetalindex/commit/99ba482) | 2026-05-17 | ingest: cfa2012-cpsia-lead-fact-sheet fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_02_Regulatory_Reports |
+<!-- END: hmi-page-history -->

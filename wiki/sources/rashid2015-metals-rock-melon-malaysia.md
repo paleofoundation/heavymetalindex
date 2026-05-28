@@ -20,6 +20,9 @@ jurisdictions: [MY]
 near_duplicates: []
 sample_n: 70
 sample_population: "Rock melon (Cucumis melo, cultivar Glamour) randomly sampled from 5 farm locations in Mantin (Negeri Sembilan; 3 farms) and Jalan Kebun (Klang, Selangor; 2 farms), Malaysia; 14 fruits per location for 70 fruits total; coco peat growth medium also sampled (70 used plus 14 fresh)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -88,3 +91,16 @@ Evidence tier B: regional journal (Jurnal Intelek, UiTM Perlis), no DOI, methods
 - 2026-05-20 merge-enhance pass against full PDF (pages 33–36): corrected ingredient slug `melons` → `melon` (the wiki ingredient page is singular `wiki/ingredients/melon.md`); corrected metal-page wikilink `aluminium` → `aluminum` to match the actual wiki page slug; expanded `metals:` frontmatter from `[Al, Cr, Pb, Ni]` to the full ten elements the paper measured; fixed truncated `raw_path` (missing closing parenthesis and `.pdf` segment); corrected the body note that previously stated "Al is not among the 10 HMT&C target analytes" (Al **is** on the HMT&C 10-analyte list per CLAUDE.md Part 14); added per-farm Pb means from Table 2; flagged basis ambiguity (paper does not state wet vs. dry weight); expanded Methods to note absent QA/QC, digestion, calibration, and LOD reporting; added EU comparator for Pb; renamed routing section from "Wiki pages updated on ingest" to "Wiki pages this source may touch" per Part 5b (model does not maintain routing by hand).
 - Part 12 (brand firewall) re-check: paper identifies sampling locations by geography (Mantin, Negeri Sembilan; Jalan Kebun, Klang) and by cultivar name ('Glamour'), not by commercial brand owner. The Star newspaper reference is a citation to a news article; no brand-by-brand contamination tables are reproduced. No firewall issue.
 - Fresh-context audit subagent (2026-05-20) verdict REVISE: one ⚠️ on Check 3 (Speciation/Methods) flagging that the body sentence "Pb, Al, Cr, and Ni are HMT&C target analytes (Cr-VI only on the list, but only total Cr was measured here)" was internally self-correcting but initially misstated Cr as an HMT&C analyte. Verified against CLAUDE.md Part 14: the HMT&C 10-analyte list contains Cr-VI, not total Cr. Applied the suggested clearer phrasing. Checks 1 (numerical fidelity, including per-farm Pb means against Table 2 and no transposition with Table 1 coco peat values), 2 (slug vocabulary), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMT&C firewall) all came back ✅ clean. 1 ⚠️ applied, 0 ❌ findings.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [96dacc3](https://github.com/paleofoundation/heavymetalindex/commit/96dacc3) | 2026-05-20 | audit: rashid2015-metals-rock-melon-malaysia [revised] |
+| [ecdd756](https://github.com/paleofoundation/heavymetalindex/commit/ecdd756) | 2026-05-20 | ingest: rashid2015-metals-rock-melon-malaysia [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

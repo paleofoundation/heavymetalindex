@@ -101,6 +101,7 @@ contamination_profile:
     notes: null
 literature_scope: thin
 sources: 4
+wiki_doi: null
 updated: 2026-05-17
 ---
 
@@ -122,3 +123,16 @@ Sources routing to this page appear in `data/evidence/product_source_routing_aud
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [1ac7363](https://github.com/paleofoundation/heavymetalindex/commit/1ac7363) | 2026-05-20 | autonomy: daemon tick 2026-05-19T22-04-26Z — gap-healing + extraction + pooling + briefings |
+| [6dcb44d](https://github.com/paleofoundation/heavymetalindex/commit/6dcb44d) | 2026-05-19 | autonomy: daemon tick 2026-05-18T21-04-04Z — gap-healing + extraction + pooling + briefings |
+| [b4ac734](https://github.com/paleofoundation/heavymetalindex/commit/b4ac734) | 2026-05-18 | autonomy: daemon tick 2026-05-17T22-36-15Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

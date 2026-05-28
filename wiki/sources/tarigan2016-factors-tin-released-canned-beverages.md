@@ -20,6 +20,9 @@ matrices: [canned-carbonated-beverages, canned-beer, canned-juice]
 jurisdictions: [ID]
 sample_n: 27
 sample_population: "9 brand variants from each of three canned beverage categories (carbonated, beer, juice), tested at two expiration cohorts (2014 and 2015)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -61,3 +64,17 @@ The "expiry-2014 versus expiry-2015" framing is a proxy for time-since-canning r
 - [[metals/tin-inorganic]]
 - [[ingredients/apple-juice]]
 - [[products/fruit-juices-non-apple]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
+| [31bae2b](https://github.com/paleofoundation/heavymetalindex/commit/31bae2b) | 2026-05-08 | lint: fix DOI audit failures on tin source pages |
+| [d04abbc](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc) | 2026-05-08 | ingest: digest-batch-1-tin — 4 sources, 2 species pages, parent expansion |
+<!-- END: hmi-page-history -->

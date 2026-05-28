@@ -21,6 +21,9 @@ matrices: [fruit-by-products, fruit-peels, fruit-pomace, fruit-seeds]
 jurisdictions: []
 sample_n: null
 sample_population: "Narrative review of secondary literature on by-products (peels, pomace, seeds, kernels, rinds) from the globally highest-produced fruits in 2022 per FAOSTAT (>1.2 million tonnes annual production). Coverage includes citrus (oranges, lemons, limes, mandarins, pomelos, grapefruit), tropical fruits (banana, pineapple, papaya, avocado, mango, watermelon, melon), berries (blueberries, raspberries, strawberries, cranberries), and stone/pome fruits (apple, pear, peach, apricot, plum, cherry). Synthesizes heavy metals (As, Cd, Co, Cr, Ni, Pb, Hg), mycotoxins, anti-nutritional factors (ANFs), toxicant organic compounds, and pesticide/fungicide residues from primary studies cited as refs [1-142]; not a meta-analysis — no pooled estimates, sample sizes for each cited finding are not consistently reported in the review."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -151,3 +154,15 @@ No primary-data values were silently altered. The review's pineapple peel Pb out
 1. Pineapple shell vs pomace mycotoxin attribution — the original "Pineapple shell/pomace" collapsed row was split per Table 2 p.7 into "Pineapple shell: Fusarium = 250" (refs [70–72]) and "Pineapple pomace: Aflatoxin B₂ and B₁ = 0.008 × 10⁻³, Aflatoxin G₁ = 0.013–0.033 × 10⁻³, OTA = 0.051 × 10⁻³" (refs [60,72,79]). The aflatoxin label was also corrected from "B₁" to the source's "B₂ and B₁".
 2. Watermelon meal tannin (32 × 10⁵ mg/kg) and orange pomace Prochloraz (8.11.7 mg/kg) added as bullet 7 in the limitations list, explicitly flagged as suspected source-printing errors preserved verbatim. The review is the authoritative record; we do not silently correct primary-source typesetting.
 3. Matrices vocabulary clarification: `matrices: [fruit-by-products, fruit-peels, fruit-pomace, fruit-seeds]` are descriptive of the review's actual subject (by-product fractions, not fresh fruit) and are treated as advisory-only by the routing audit. They are not enumerated in the taxonomy snapshot's controlled-vocabulary list, but they remain in frontmatter because removing them would mis-describe the source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c23bfb9](https://github.com/paleofoundation/heavymetalindex/commit/c23bfb9) | 2026-05-20 | audit: tsegay2025-fruit-byproduct-toxicology-detoxification-review [revised] |
+| [6e3fabb](https://github.com/paleofoundation/heavymetalindex/commit/6e3fabb) | 2026-05-20 | ingest: tsegay2025-fruit-byproduct-toxicology-detoxification-review [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

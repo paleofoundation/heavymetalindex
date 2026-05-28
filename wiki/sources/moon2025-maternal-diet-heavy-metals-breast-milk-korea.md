@@ -19,6 +19,9 @@ jurisdictions: [KR]
 near_duplicates: []
 sample_n: 209
 sample_population: "209 healthy lactating Korean mothers (mean age 34.8 years, infant age <12 months) sampled January–March 2023 as part of a prospective cohort on early-life environmental exposure"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -88,3 +91,14 @@ Microbiome: High tAs exposure to the infant gut during the 0–6 month colonizat
 ## Verification notes
 
 2026-05-19 (Claude Opus 4.7, manual-fetch enhancement): Repaired truncated `raw_path` filename (was cut at "Risk of H.pdf"; now reflects the actual on-disk filename). Expanded Key numbers to include the full Table 3 percentile distribution (P5 / P25 / P50 / P75 / P95) for Pb, Cd, Hg, tAs, the complete As EDI quartet (median, GM, SD, range), the four health-based guidance reference values reproduced from Table 1, and the regression β coefficients with 95% CIs from Table 4. Added instrument-model detail for both ICP-MS (PerkinElmer Nexion 2000 B, DRC mode) and DMA (Milestones, Sorisole, Italy). Documented LOD/√2 censoring rule applied to sub-LOD values. No content claims were softened or strengthened relative to the literature; this enhancement adds precision that was previously summarized.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0ce0f3a](https://github.com/paleofoundation/heavymetalindex/commit/0ce0f3a) | 2026-05-19 | ingest: moon2025-maternal-diet-heavy-metals-breast-milk-korea enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

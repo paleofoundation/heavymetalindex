@@ -18,6 +18,9 @@ ingredients: ["[[ingredients/rice]]"]
 products: []
 jurisdictions: [US, international]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-25
 ---
 
@@ -31,3 +34,16 @@ This 2023 mini-review by Su, Chiang, and O'Connor (UT Southwestern Medical Cente
 
 - [[metals/arsenic]]
 - [[ingredients/rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c39871](https://github.com/paleofoundation/heavymetalindex/commit/7c39871) | 2026-04-25 | Close 5 deferred provenance gaps; add ingest-tracking convention |
+<!-- END: hmi-page-history -->

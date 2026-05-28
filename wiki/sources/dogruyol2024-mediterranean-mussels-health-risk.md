@@ -20,6 +20,9 @@ jurisdictions: [TR, BG]
 near_duplicates: []
 sample_n: 48
 sample_population: "Mytilus galloprovincialis farmed at four locations (M1–M3 Türkiye, M4 Bulgaria); seasonal sampling (summer, fall, winter, spring); n=3 per season per farm"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -63,3 +66,17 @@ App: Farmed Mediterranean mussels (TR/BG): Cd 0.115–0.323 µg/g, tHg 0.019–0
 - [[metals/lead]]
 - [[ingredients/shellfish]]
 - [[products/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [7a889ae](https://github.com/paleofoundation/heavymetalindex/commit/7a889ae) | 2026-05-12 | triage: routing-unresolved pass 3 — 44 → 35 entries (9 resolved) |
+| [ef51983](https://github.com/paleofoundation/heavymetalindex/commit/ef51983) | 2026-05-12 | triage: routing-unresolved pass 3 — all 46 remaining entries are new-page proposals |
+| [3f107ba](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba) | 2026-05-12 | ingest: P2 remaining-group3 — 9 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

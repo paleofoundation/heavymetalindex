@@ -19,6 +19,9 @@ products: ["[[products/root-tuber-vegetables]]", "[[products/spinach]]", "[[prod
 matrices: [food-crop, agricultural-soil, potato, corn, spinach, avocado, tomato, carrot, olive]
 jurisdictions: [PE]
 sample_n: 341
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -61,3 +64,14 @@ This is a data descriptor paper; the primary value is the open-access dataset, n
 - [[metals/lead]]
 - [[ingredients/quinoa]]
 - [[supply-chain/soil-contamination-mining]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 66
 sample_population: "66 infants (53 male, 13 female; age 0.1-4.0 y, median 1.16; BMI 13.15-20.76, mean 16.46) enrolled May-October 2021 at a child healthcare department in Guangzhou, China (~30,000 patients/year). Age strata: ≤0.5 y n=21 (mean 0.24 y; daily diaper changes 10.3 ± 1.3), 0.5-1.0 y n=10 (mean 0.80 y; 5.2 ± 1.4), ≥1.0 y n=35 (mean 2.1 y; 2.4 ± 0.7). Paired disposable-diaper inner-layer samples and spot urine samples were collected from each participant."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -102,3 +105,14 @@ Cross-sectional paired-sample study, Guangzhou Women and Children's Medical Cent
 ## Ingest log
 
 - 2026-05-17 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/toxics13030218` not present; raw_handle `MFK_infants-dermal-exposure-to-phthalates-from-disposa` not present; cite-key stem `lai2025` not present. PDF SHA-256 `3a4b48c9a92214b7d1a3e0ba16da8937b157e226ca915de5de8ca49a3472f736`. Paper measures phthalates only — zero heavy metals — ingested as methodology / out-of-core-scope reference per the lea2018 and aurisano2022 precedents. Routed to `[[products/diapers-and-components]]` (HMTc Cat 9 Row 7 scaffold) for discoverability as a diaper-paper but `metals: []` correctly reflects no metal occurrence data.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [834c5a5](https://github.com/paleofoundation/heavymetalindex/commit/834c5a5) | 2026-05-17 | audit: lai2025-infant-diaper-phthalate-dna-oxidation promoted |
+| [5ed8239](https://github.com/paleofoundation/heavymetalindex/commit/5ed8239) | 2026-05-17 | ingest: lai2025-infant-diaper-phthalate-dna-oxidation fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

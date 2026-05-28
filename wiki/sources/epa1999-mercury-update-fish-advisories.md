@@ -22,6 +22,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 1931
 sample_population: "1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA NSCRF (n=374 sites) and US FWS NCBP (315 composite samples, 109 stations, 1984–85) and from NESCAUM 1998 Northeast study."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -91,3 +94,14 @@ For regulation pages, the source explicitly cites the EPA IRIS methylmercury RfD
 
 - The manual-fetch PDF is a scanned EPA copy with no embedded text; values were checked against the rendered PDF pages and the public EPA PDF landing file.
 - No DOI is assigned to this EPA fact sheet.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eb2b86d](https://github.com/paleofoundation/heavymetalindex/commit/eb2b86d) | 2026-05-18 | ingest (codex): epa1999 mercury fish advisories merge-enhance |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

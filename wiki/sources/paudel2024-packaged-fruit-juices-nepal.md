@@ -22,6 +22,9 @@ jurisdictions: [NP]
 near_duplicates: []
 sample_n: 16
 sample_population: "Sixteen commercially packaged fruit-juice samples — four flavours (orange, apple, mango, lychee) drawn from four popular brands sold in retail markets of Kathmandu, Nepal. Brand identities are not disclosed in the source; the paper anonymises the four brands as A, B, C, and D. Each sample was prepared in analytical triplicate (source p. 159: 'All the samples were prepared three times to minimize the possibility of error')."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -130,3 +133,16 @@ Sample collection: sixteen commercially packaged fruit juices (4 brands × 4 fla
 - Audit subagent (2026-05-19) flagged Check 1 ⚠️ that the Fe "Mean of four" column is wiki-computed because the source does not report flavour means. Verified: arithmetic checked, source Table 2 does not report means. Footnote added under the Fe table noting the means are wiki-computed.
 - Audit subagent (2026-05-19) flagged Check 2 ❌ that `ingredients/apple-juice` and `ingredients/mango-juice` are not present in the taxonomy snapshot. Verified against `docs/gpt-collaboration/taxonomy-snapshot.md`: both slugs ARE present in the snapshot's Ingredients line (alongside `orange-juice`, `fruit-juice`, `grapefruit-juice`, etc.); both have wiki pages at `wiki/ingredients/apple-juice.md` and `wiki/ingredients/mango-juice.md`. The audit finding is a false positive — the subagent missed these slugs while scanning the comma-separated list. No change applied.
 - No HMTc threshold proposals, consumer risk advisories, or remaining cross-literature synthesis claims appear in the body — Part 2 firewall clean after audit-application edits. Part 12 brand firewall clean after audit-application edits.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f81cbc3](https://github.com/paleofoundation/heavymetalindex/commit/f81cbc3) | 2026-05-19 | audit: paudel2024-packaged-fruit-juices-nepal revised |
+| [94e4ceb](https://github.com/paleofoundation/heavymetalindex/commit/94e4ceb) | 2026-05-19 | ingest: paudel2024-packaged-fruit-juices-nepal enhanced from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

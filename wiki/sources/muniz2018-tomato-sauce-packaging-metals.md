@@ -21,6 +21,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 20
 sample_population: "20 retail tomato sauce samples in 4 packaging types (plastic, metallic/canned, cellulosic, glass), 2 brands, Rio de Janeiro supermarkets"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -86,3 +89,15 @@ Note on Cr: the source prose on p. 387 reports "the lowest mean value found was 
 - ⚠️ Part 2 wiki/HMTc-firewall language tightened in the Implications block: "compliance gap in European/global markets" softened to a statement of fact about EU Regulation 1881/2006's scope, and "Cd, Pb, As pose no regulatory concerns" reworded to "below all applicable Brazilian and EU ML values" (literature-native phrasing, no risk-advisory framing).
 - ⚠️ Subagent flagged `matrices: [tomato-sauce, food-packaging-simulant]` and `[[supply-chain/food-packaging]]` as not in the taxonomy-snapshot vocabulary. Rejected as false positives: the `matrices` field and `supply-chain/*` references are not enumerated in the snapshot's controlled vocabulary (which covers ingredients, products, metals, regulations only) and function as descriptive metadata, not routing targets. No change.
 - ⚠️ Subagent noted Sn row uses range-only presentation while other metals use mean ± SD. Rejected as stylistic: the source emphasizes Sn ranges in its abstract and discussion, and the range-only format mirrors that emphasis.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [65a08de](https://github.com/paleofoundation/heavymetalindex/commit/65a08de) | 2026-05-28 | audit: muniz2018-tomato-sauce-packaging-metals [revised] |
+| [8af409a](https://github.com/paleofoundation/heavymetalindex/commit/8af409a) | 2026-05-28 | ingest: muniz2018-tomato-sauce-packaging-metals [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
+| [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
+<!-- END: hmi-page-history -->

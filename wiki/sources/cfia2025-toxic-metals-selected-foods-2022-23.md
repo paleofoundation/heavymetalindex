@@ -20,6 +20,9 @@ products: ["[[products/spices]]", "[[products/non-root-vegetables]]", "[[product
 matrices: [dried-mushroom, spices, juices-and-nectars, sugar-and-syrups, sweets, vinegar, duck-eggs]
 jurisdictions: [CA]
 sample_n: 470
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -71,3 +74,17 @@ Sample sizes are modest for individual product sub-types (e.g., n=16 duck eggs).
 - [[ingredients/mushrooms]]
 - [[ingredients/spices]]
 - [[regulations/canada-health-canada-metal-tolerances]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5022001](https://github.com/paleofoundation/heavymetalindex/commit/5022001) | 2026-05-17 | reverse-route: backfill products from matrices for 4 sources (running total: 4) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+<!-- END: hmi-page-history -->

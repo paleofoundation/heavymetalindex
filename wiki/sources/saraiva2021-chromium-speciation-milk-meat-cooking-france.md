@@ -19,6 +19,9 @@ jurisdictions: [FR, DK]
 sample_n: 30
 sample_population: "Three sample types × 10 samples each: infant formula milk (n=10), semi-skimmed milk (n=10), bovine meat including chorizo sausage (n=10). Acquired in France. Cr species (Cr(III) and Cr(VI)) determined by HPLC coupled to ICP-MS with double-spike species-specific isotope dilution (SS-ID) using ⁵⁰Cr(III) and ⁵³Cr(VI) isotopically enriched spikes. Cr(III) extracted via EDTA complexation; Cr(VI) via 1,5-diphenylcarbazide complexation. Anion-exchange separation on Dionex IonPac AG7 column. LOQ Cr(III) 0.013 µg/kg; LOQ Cr(VI) 0.049 µg/kg. Cooking impact tested: boiling 70°C/100°C (milk), frying ±oil 95°C/120°C (bovine meat)."
 acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/saraiva2021.pdf); on the wishlist as PMID 33428550 (Vacchina 2021 in earlier wishlist labeling — actual first author is Saraiva M)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -101,3 +104,14 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 - [[products/infant-and-child-foods-master]]
 - [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france]] (companion-citation note)
 - [[sources/soares2000-chromium-vi-powdered-milk-formulas]] (additional supersession evidence)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [7597641](https://github.com/paleofoundation/heavymetalindex/commit/7597641) | 2026-05-09 | ingest: saraiva2021-cr-speciation-milk-meat — confirms Cr(VI) <LOQ in n=10 infant formula milk + n=10 bovine meat by SS-ID-HPLC-ICP-MS |
+<!-- END: hmi-page-history -->

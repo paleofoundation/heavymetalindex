@@ -19,6 +19,9 @@ matrices: [infant-urine-biomarker, breast-milk, rice-cereal, wet-weight]
 jurisdictions: [US]
 sample_n: 15
 sample_population: "15 infants (8 female, 7 male) from the New Hampshire Birth Cohort Study (NHBCS), non-Hispanic white, assessed at 4 months (pre-weaning) and 6 months (post-weaning initiation); US northeast private well water region"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -58,3 +61,14 @@ App: Rice cereal introduction is the key dietary transition for As exposure in i
 - [[ingredients/rice]]
 - [[metals/arsenic]]
 - [[health/arsenic-infant-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

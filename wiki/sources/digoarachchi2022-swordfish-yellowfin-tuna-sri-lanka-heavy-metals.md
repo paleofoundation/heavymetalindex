@@ -17,6 +17,9 @@ products: ["[[products/seafood]]"]
 matrices: ["swordfish", "yellowfin-tuna"]
 jurisdictions: ["LK"]
 sample_population: "Secondary heavy-metal analysis data for swordfish and yellowfin tuna from Sri Lankan export companies, 2015-2017"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -56,3 +59,14 @@ The source is useful for geographic/seasonal swordfish mercury context and for n
 
 - Source identity checked against DOI 10.47191/ijcsrr/V5-i7-03 and the downloaded PDF.
 - The paper misspells lead as "Led" in several places; this page records the analyte as Pb.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

@@ -18,6 +18,9 @@ matrices: [serum, gut-microbiome]
 jurisdictions: [CN]
 sample_n: 109
 sample_population: "109 participants total: occupational Ni-exposed workers group + control group; matched cohort design with serum Ni and gut-microbiome 16S rRNA profiling"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -48,3 +51,13 @@ The mechanism proposed in the paper: excessive nickel disrupts gut microbiota co
 
 - [[metals/nickel]]
 - [[microbiome/nickel-uric-acid-axis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5b9ea5](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea5) | 2026-05-08 | ingest: digest-batch-5-nickel-microbiome — 10 source pages (Ni + metals-microbiome) |
+<!-- END: hmi-page-history -->

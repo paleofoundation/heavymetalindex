@@ -18,6 +18,9 @@ matrices: [foods-dietary-survey, danish-average-diet, ni-load-factor]
 jurisdictions: [DK]
 sample_n_total: 2221
 sample_n_notes: "2,221 food samples reviewed from literature (1969-1982) using AAS flame/flameless or PIXE; supplemented with own National Food Institute Denmark analyses. Danish average diet model (2,099 g/person/day exclusive of drinking water; 3,250 Kcal)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -116,3 +119,14 @@ Literature search across Food Science and Technology Abstracts, Biological Abstr
 - [[ingredients/rice]]
 - [[ingredients/potato]]
 - [[ingredients/leafy-vegetables]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [481a26b](https://github.com/paleofoundation/heavymetalindex/commit/481a26b) | 2026-05-11 | ingest: Flyvholm 1984 foundational Ni-in-food occurrence data |
+<!-- END: hmi-page-history -->

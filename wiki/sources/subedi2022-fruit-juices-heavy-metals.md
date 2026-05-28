@@ -17,6 +17,9 @@ products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-non-a
 matrices: ["packaged-fruit-juice", "fresh-fruit-juice", "powdered-fruit-drink-mix"]
 jurisdictions: ["NP"]
 sample_population: "Fresh juices, packaged juices, and powdered fruit drink mixes sold in Kathmandu Valley, Nepal"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -55,3 +58,14 @@ The source provides useful fruit-juice occurrence context for Nepal. It is espec
 
 - Source identity checked against DOI 10.3126/jbkc.v11i1.53024 and the downloaded PDF.
 - Brand names were not transcribed; the source reports fruit type and drink format, which are sufficient for routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

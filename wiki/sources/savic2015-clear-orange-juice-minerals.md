@@ -20,6 +20,9 @@ jurisdictions: [RS]
 near_duplicates: []
 sample_n: 7
 sample_population: "Seven clear orange-juice samples with 50% fruit content, produced by different manufacturers and purchased from the local market in Leskovac, Serbia in November 2014."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -94,3 +97,14 @@ Microbiome: Not addressed.
 - Strict brand firewall: the source page uses product/matrix descriptions only. The source states that samples came from different manufacturers, but no manufacturer or brand names are included here.
 - Methods vendor/equipment/reagent names are retained under Part 12 Exception 2.
 - Fresh-context audit (Claude subagent, 2026-05-19): REVISE → applied. Two findings corrected: (1) opening prose updated to state Pb was detected in all seven samples (was "at least one"), with sample VI as outlier maximum; (2) added explicit Sb-below-detection note (LOD 2.44 µg/L per Table 1) and acknowledged the Mn/Co/Cr/B/Sr/Si/Ag screen-but-not-extracted status. All other checks clean: slug vocabulary verified on disk (auditor cross-checked actual files), speciation discipline correct (tAs explicitly labeled, no Cr-VI substitution), brand firewall clean (samples I-VII anonymization preserved), HMTc firewall clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5e63b5d](https://github.com/paleofoundation/heavymetalindex/commit/5e63b5d) | 2026-05-19 | audit (async drain): savic2015 REVISE + balalimood2018 PROMOTE |
+| [e20cbe1](https://github.com/paleofoundation/heavymetalindex/commit/e20cbe1) | 2026-05-19 | ingest auto-gap: orange and mashhad fruit juice metals |
+<!-- END: hmi-page-history -->

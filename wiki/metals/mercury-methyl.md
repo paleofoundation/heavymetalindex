@@ -7,6 +7,7 @@ species: [CH3Hg+]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
 sources: 30
+wiki_doi: null
 updated: 2026-04-30
 
 n_sources: 1
@@ -217,3 +218,16 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 78 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex General Standard for Contaminants (CXS 193): MeHg maximum levels across food commodities |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [9a565f0](https://github.com/paleofoundation/heavymetalindex/commit/9a565f0) | 2026-05-20 | autonomy: daemon tick 2026-05-20T08-23-56Z — gap-healing + extraction + pooling + briefings |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [239d67d](https://github.com/paleofoundation/heavymetalindex/commit/239d67d) | 2026-05-18 | expand: metals/mercury-methyl — 6 new sections drawing on 78-source corpus |
+<!-- END: hmi-page-history -->

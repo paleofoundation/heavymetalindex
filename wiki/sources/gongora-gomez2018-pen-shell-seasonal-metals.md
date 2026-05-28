@@ -17,6 +17,9 @@ products: ["[[products/shellfish]]", "[[products/seafood]]"]
 matrices: ["shellfish", "mollusk", "soft-tissue", "muscle"]
 jurisdictions: ["MX"]
 sample_population: "Farmed pen shell from the southeastern Gulf of California, sampled seasonally from summer 2011 to summer 2012"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -58,3 +61,14 @@ The source supports shellfish seasonal-variance evidence for Mexico, especially 
 
 Mercury is treated as total mercury because methylmercury speciation was not reported in the extracted source text.
 Arsenic is treated as total arsenic because inorganic arsenic speciation was not reported. The pen shell species is Atrina maura; the frontmatter keeps the matrix broad enough for routing while the title and sample population retain the species.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [455106a](https://github.com/paleofoundation/heavymetalindex/commit/455106a) | 2026-05-26 | ingest auto-fetched 2026-05-26 2228 batch 3: 3 source pages |
+<!-- END: hmi-page-history -->

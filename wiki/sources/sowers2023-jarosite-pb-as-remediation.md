@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "Two contaminated soils: HPb-HAs (legacy Pb arsenate pesticide orchard soil; 2,393 mg Pb/kg, 369 mg As/kg) and MPb-LAs (zinc smelter residential soil; 746 mg Pb/kg, 6 mg As/kg); laboratory potted-soil experiments"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -61,3 +64,14 @@ App: Not directly applicable to ingredient-level contamination profiles, but inf
 - [[metals/arsenic]]
 - [[mitigation/soil-remediation-pb-as]]
 - [[supply-chain/soil-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [cc296bd](https://github.com/paleofoundation/heavymetalindex/commit/cc296bd) | 2026-05-13 | ingest p4-batch11-g1: 11 pages, 39 FP |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 2014
 sample_population: "2014 food samples from Zhejiang Province, China, collected 2018–2019 using multistage stratified random sampling: fresh vegetables (n=673), tea (n=378), fresh aquatic products (n=392), fresh fruits (n=133), canned foods (n=438). Dietary consumption data from the 2015–2017 Zhejiang Nutrition and Health Surveillance (~10,000 participants; 3-day, 24-hour recall) stratified into five age groups (≤6, 7–12, 13–17, 18–59, ≥60 y)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -197,3 +200,16 @@ Explicit limitations stated by the authors: temporal mismatch between consumptio
 - ⚠️ Possible `processed-meats` routing for the paper's canned-meat data (verified false positive): the paper's "Canned Meat and Meat Products" category covers canned meat specifically, not the broader processed-meats space (cured ham, bacon, sausages). The taxonomy snapshot's `processed-meats` slug covers the broader category; adding it would overstate the paper's scope. The canned-meat data is captured via the `matrices: canned-meat` entry and the Key numbers table; no product-page routing is currently appropriate. If/when a `canned-meat` product page is locked under HMTc Step 0, this page will fan out to it via the routing audit automatically. No change made.
 
 Routing audit re-run after the metals frontmatter edit: clean (0 unresolved, 0 malformed for this source). The audit subagent confirmed numerical fidelity, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all clean independently.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c231292](https://github.com/paleofoundation/heavymetalindex/commit/c231292) | 2026-05-20 | audit: ye2026-tin-foods-dietary-exposure-zhejiang [revised] |
+| [a6c57b8](https://github.com/paleofoundation/heavymetalindex/commit/a6c57b8) | 2026-05-20 | ingest: ye2026-tin-foods-dietary-exposure-zhejiang [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

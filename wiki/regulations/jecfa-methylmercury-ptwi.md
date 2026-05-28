@@ -13,6 +13,7 @@ effective_date: 2003-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-61st-methylmercury]]"]
 title: "JECFA — Methylmercury Provisional Tolerable Weekly Intake (1.6 µg/kg b.w./week)"
+wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
@@ -36,3 +37,17 @@ The EFSA 2012 re-evaluation lowered the EU TWI to 1.3 µg/kg b.w./week with adju
 ## Sources
 
 - [[sources/jecfa-61st-methylmercury|JECFA 61st]] — JECFA 61st meeting, 2003 (WHO TRS 922, 2004). Evaluation of Certain Food Additives and Contaminants.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [eb85df3](https://github.com/paleofoundation/heavymetalindex/commit/eb85df3) | 2026-04-25 | Mercury batch: 7 source pages, 5 regulation pages, new metals/mercury.md |
+<!-- END: hmi-page-history -->

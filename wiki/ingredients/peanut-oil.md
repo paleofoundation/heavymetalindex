@@ -21,6 +21,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 4
 created_by: autonomy_v0
@@ -97,4 +98,16 @@ Peanut oil is used as a frying oil (high smoke point makes it favored for deep-f
 - FDA does not set a quantitative action level specific to peanut oil; general FDA enforcement on toxic-element contamination applies.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to peanut-oil products sold in California.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
+| [ba5c991](https://github.com/paleofoundation/heavymetalindex/commit/ba5c991) | 2026-05-17 | synthesis: vegetable-oil, peanut-oil, sesame-oil — 6 narrative sections each |
+<!-- END: hmi-page-history -->

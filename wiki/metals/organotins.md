@@ -7,6 +7,7 @@ species: [monobutyltin, dibutyltin, tributyltin, triphenyltin, monomethyltin, di
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
 sources: 3
+wiki_doi: null
 updated: 2026-05-08
 status: scaffold
 n_sources: 2
@@ -86,3 +87,16 @@ What is the contribution of PVC-distribution drinking water to lifetime organoti
 
 - [[sources/atsdr2005-tin-toxicological-profile|ATSDR 2005]] — Comprehensive Toxicological Profile for Tin and Tin Compounds. Source for organotin MRLs (intermediate and chronic oral MRL 0.0003 mg/kg/day for tributyltin oxide; intermediate oral MRL 0.005 mg/kg/day for dibutyltin chloride), TBT food-occurrence summary, organotin tissue-survey data, and toxic-mechanism characterization.
 - [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer & Femfert 1984]] — Historical European synthesis review establishing the species-distinction principle that organotins must be assessed separately from inorganic tin in food-safety analysis.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [bfe49c4](https://github.com/paleofoundation/heavymetalindex/commit/bfe49c4) | 2026-05-18 | autonomy: daemon tick 2026-05-18T01-49-43Z — gap-healing + extraction + pooling + briefings |
+| [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
+| [d04abbc](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc) | 2026-05-08 | ingest: digest-batch-1-tin — 4 sources, 2 species pages, parent expansion |
+<!-- END: hmi-page-history -->

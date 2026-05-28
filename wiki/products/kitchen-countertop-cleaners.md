@@ -15,6 +15,7 @@ products_status: scaffold
 splits_locked: false
 literature_scope: thin
 sources: 0
+wiki_doi: null
 updated: 2026-05-17
 ---
 # Kitchen/countertop cleaners
@@ -100,3 +101,16 @@ HMT&C certification thresholds for this row are developed under the certificatio
 
 <!-- BEGIN: hmi-source-legend -->
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [1e684a8](https://github.com/paleofoundation/heavymetalindex/commit/1e684a8) | 2026-05-17 | provenance: lead-benchmark generator + scaffold placeholder + ICP-MS citations — 87.3% → 91.7% |
+| [815efe8](https://github.com/paleofoundation/heavymetalindex/commit/815efe8) | 2026-05-17 | audits: defensibility dashboard at /audits + noindex log/batch-reports/lint + product-page H2 fix |
+| [03afe1a](https://github.com/paleofoundation/heavymetalindex/commit/03afe1a) | 2026-05-17 | taxonomy: scaffold 226 missing HMTc v2.0 rows + wire mitigation section + 2 missing lever pages |
+<!-- END: hmi-page-history -->

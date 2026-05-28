@@ -18,6 +18,9 @@ ingredients: []
 products: []
 jurisdictions: [EU]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-25
 ---
 
@@ -56,3 +59,15 @@ The reaffirmation of the 2009 TWI without numeric change means the operative EU 
 - [[metals/cadmium]]
 - [[regulations/efsa-cadmium-twi]]
 - [[synthesis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [7c39871](https://github.com/paleofoundation/heavymetalindex/commit/7c39871) | 2026-04-25 | Close 5 deferred provenance gaps; add ingest-tracking convention |
+<!-- END: hmi-page-history -->

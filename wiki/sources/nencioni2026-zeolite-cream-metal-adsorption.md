@@ -21,6 +21,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: 12
 sample_population: "Twelve Franz diffusion cells using a single prototype zeolite-containing cream (3 g zeolite per 100 g cream; 17.3% lipophilic phase; herbal-derived ingredients including plant waxes and Rosmarinus officinalis leaf extract) versus its matched placebo cream. Two synthetic membranes evaluated (Strat-M® and medical-grade silicone, 15 cm × 20 cm × 0.025 cm) in a 2 × 2 × 2 full factorial: membrane type (Strat-M vs silicone), dosage (10 mg vs 20 mg), and dosage regimen (infinite vs finite, coded 0 vs 3). For Experiment 2 (membrane permeation under physiological conditions) six cells were treated with zeolite cream and six with placebo, all on Strat-M®. The receptor compartment held a mixed acidic aqueous metal solution containing Cd, Co, Cr, Pb, and Ni at 0.04 ppm each (spiked solution; not consumer-product contamination). Experiment 1 incubation 24 h; Experiment 2 permeation 12 h; both at 32 ± 1 °C with continuous magnetic stirring."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -108,3 +111,14 @@ A prototype zeolite-containing cream (3% zeolite w/w, 17.3% lipophilic phase, he
 - Audit subagent (2026-05-17, fresh-context general-purpose, autonomous v2.0 manual-fetch skill): REVISE verdict; 2 findings applied, 0 rejected as false positives. Checks 2-5 all clean (✅).
   - CHECK 1 ⚠️ Experiment-1 vs Experiment-2 incubation-time conflation: wiki initially stated "12 h duration" for both experiments in sample_population frontmatter and in Key numbers. Verified against PDF Section 3.3, p. 7 ("the residual metal content was measured after 24 h of incubation" for Experiment 1) and Section 2.2.2, p. 3 / Section 3.4, p. 9 ("12 h" for Experiment 2). Corrected: sample_population now reads "Experiment 1 incubation 24 h; Experiment 2 permeation 12 h"; Key numbers now distinguishes the two endpoints with section citations; Methods (brief) now explicitly states the 24 h endpoint for Experiment 1 and 12 h for Experiment 2.
   - CHECK 1 ⚠️ Cell 2A Cd typographic padding: wiki had "Cd 0.350"; PDF Table 4 prints "0.35" (no trailing zero). Verified — same value, only typographic fidelity. Corrected to "0.35" to match the printed cell exactly.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ed2457b](https://github.com/paleofoundation/heavymetalindex/commit/ed2457b) | 2026-05-17 | audit: nencioni2026-zeolite-cream-metal-adsorption revised |
+| [5b948b3](https://github.com/paleofoundation/heavymetalindex/commit/5b948b3) | 2026-05-17 | ingest: nencioni2026-zeolite-cream-metal-adsorption fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

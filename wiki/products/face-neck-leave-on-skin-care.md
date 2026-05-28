@@ -15,6 +15,7 @@ products_status: scaffold
 splits_locked: false
 literature_scope: thin
 sources: 3
+wiki_doi: null
 updated: 2026-05-17
 ---
 # Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)
@@ -100,3 +101,17 @@ HMT&C certification thresholds for this row are developed under the certificatio
 
 <!-- BEGIN: hmi-source-legend -->
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0b33e23](https://github.com/paleofoundation/heavymetalindex/commit/0b33e23) | 2026-05-18 | autonomy: daemon tick 2026-05-18T01-11-42Z — gap-healing + extraction + pooling + briefings |
+| [1cae260](https://github.com/paleofoundation/heavymetalindex/commit/1cae260) | 2026-05-17 | autonomy: daemon tick 2026-05-17T19-14-40Z — gap-healing + extraction + pooling + briefings |
+| [e5675da](https://github.com/paleofoundation/heavymetalindex/commit/e5675da) | 2026-05-17 | autonomy: daemon tick 2026-05-17T18-36-31Z — gap-healing + extraction + pooling + briefings |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [1e684a8](https://github.com/paleofoundation/heavymetalindex/commit/1e684a8) | 2026-05-17 | provenance: lead-benchmark generator + scaffold placeholder + ICP-MS citations — 87.3% → 91.7% |
+<!-- END: hmi-page-history -->

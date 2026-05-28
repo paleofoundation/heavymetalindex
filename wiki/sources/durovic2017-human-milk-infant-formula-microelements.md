@@ -21,6 +21,9 @@ jurisdictions: [ME, RS]
 near_duplicates: []
 sample_n: 43
 sample_population: "28 mature human milk samples from lactating mothers and 15 powdered infant formula units representing five formula products suitable for infants 1-6 months of age; commercial formula products are reported here only as anonymized product groups."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -87,3 +90,13 @@ Microbiome: Not addressed.
 - Unit discipline: the abstract describes formula ranges in mg/L, while Tables 6 and 7 label the formula measurements as mg/100 g powder. This page uses the table unit for formula values and the Table 8 unit for human milk.
 - The paper reports total Zn, Fe, and Cu only; no species-level issue applies.
 - Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d784e29](https://github.com/paleofoundation/heavymetalindex/commit/d784e29) | 2026-05-19 | stranded work: 7 Codex auto-gap source pages + 2 ingredient stubs + accumulated daemon artifacts |
+<!-- END: hmi-page-history -->

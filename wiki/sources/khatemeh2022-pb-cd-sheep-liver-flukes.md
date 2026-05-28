@@ -19,6 +19,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 50
 sample_population: "50 samples: F. hepatica (n=10), D. dendriticum (n=10), infected sheep livers (n=10 each parasite), and uninfected sheep livers (n=10); slaughtered in Tabriz, Iran"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -75,3 +78,14 @@ App: Sheep liver Pb and Cd baseline from this paper (uninfected liver: Pb 0.12, 
 - [[metals/chromium]]
 - [[ingredients/sheep-liver]]
 - [[ingredients/offal]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [5d7a39a](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a) | 2026-05-13 | ingest p4-batch16-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

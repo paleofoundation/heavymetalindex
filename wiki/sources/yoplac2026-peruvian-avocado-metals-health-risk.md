@@ -22,6 +22,9 @@ jurisdictions: [PE, EU]
 near_duplicates: []
 sample_n: 190
 sample_population: "Paired soil and avocado fruit samples from 8 major Peruvian producing regions (Amazonas, Áncash, Ayacucho, Cusco, Huancavelica, Ica, La Libertad, Lima), collected January–September 2025. Per-region n: Amazonas 5+5, Áncash 5+5, Ayacucho 5+5, Cusco 5+5, Huancavelica 5+5, Ica 20+20, La Libertad 30+30, Lima 20+20. Total 95 soil + 95 avocado = 190 samples."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -136,3 +139,15 @@ No arsenic speciation (total As only). No mercury speciation (total Hg only). No
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ce5c311](https://github.com/paleofoundation/heavymetalindex/commit/ce5c311) | 2026-05-25 | audit: yoplac2026-peruvian-avocado-metals-health-risk revised |
+| [6055edd](https://github.com/paleofoundation/heavymetalindex/commit/6055edd) | 2026-05-25 | ingest: yoplac2026-peruvian-avocado-metals-health-risk enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
+| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
+<!-- END: hmi-page-history -->

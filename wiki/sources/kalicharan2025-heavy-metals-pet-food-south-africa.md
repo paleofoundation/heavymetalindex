@@ -19,6 +19,9 @@ jurisdictions: [ZA]
 near_duplicates: []
 sample_n: 31
 sample_population: "14 premium and 17 supermarket brands of extruded cat (n=16) and dog (n=15) kibble from the South African market, sampled across red-meat, poultry, fish, meat-medley, and unspecified-protein formulations; ICP-OES for As/Cd/Co/Cu/Fe/Ni/Pb/Zn and HGAAS for Hg after microwave nitric-acid digestion"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -83,3 +86,17 @@ Cross-reference value for the wiki: methodological corroboration of multi-elemen
 - 2026-05-18 enhancement (Claude Opus 4.7): corrected truncated DOI (`10.1002/vms3.703` → `10.1002/vms3.70319` per p. 1 footer); added missing metals Co and Fe to the `metals:` array (the paper measures nine elements; the prior page listed seven); removed the `products/poultry-product` slug from the `products:` array because that slug routes to HMTc Cat 11 Row 4 (human poultry meat) and this paper measures pet kibble with poultry-derived protein, not human-grade poultry — mis-routing would falsely contribute pet-kibble values to the human poultry contamination evidence base; collapsed `matrices: [pet-food, meat-based, poultry-based, fish-based]` to `matrices: [pet-food]` because `pet-food` is the matrix and the others are formulation descriptors that belong in the prose, not the matrix vocabulary; renamed "Key concentration data" → "Key numbers" and "Methodological relevance" → "Methods (brief)" to align with Part 6 source-page template; expanded Key numbers to include exact MTLs, per-row exceedance counts, ranges, and the Tables 7/8 protein-source breakdowns; removed the prior "Supply-chain cross-relevance" paragraph because its assertion "consistent with the known biology: large muscle and organ tissue in ruminants concentrates Cd, Pb, and As through longer bioaccumulation pathways than poultry" was a Part 2 synthesis claim across sources; removed the legacy "Wiki pages updated on ingest" trailing list per Part 6 template guidance.
 - Matrix vocabulary note: `pet-food` is not in the standard matrices list documented at `docs/gpt-collaboration/system-prompt.md`. Used here because no listed matrix slug accurately describes commercially extruded companion-animal kibble; flagged for Karen's review.
 - 2026-05-18 audit-subagent application (Claude Opus 4.7): Subagent flagged Table 7 DF-SB Red meat SD as 44.27, claiming 44.55 in wiki was a transcription error — verified false positive: PDF p. 5 Table 7 prints "812.01 ± 44.55" for DF-SB Red meat (and a min-max range "846.94–762.23" that is itself impossibly inverted but is also faithfully reproduced from the published table). No change applied. Subagent flagged Table 6 DF Zn mean (25.25 ± 68.21) as inconsistent with the same row's range (79.86–353.55) and exceedance count (13 of 15 above 227 mg/kg MTL) — verified correct: the printed mean cannot coexist with the printed range, indicating a typo in the source paper itself; added an inline footnote and explanatory paragraph beneath the essential-metals table preserving the printed value while flagging the source-level anomaly so downstream synthesis does not naively rely on 25.25. Subagent also noted absence of a `## Wiki pages this source may touch` section — intentional given the pet-food scope classification (paper does not contribute to any human-food product, ingredient, or regulation page), no change applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [71e7f97](https://github.com/paleofoundation/heavymetalindex/commit/71e7f97) | 2026-05-18 | audit: kalicharan2025-heavy-metals-pet-food-south-africa revised |
+| [545906f](https://github.com/paleofoundation/heavymetalindex/commit/545906f) | 2026-05-18 | ingest: kalicharan2025-heavy-metals-pet-food-south-africa enhanced from Papers Cube Manual Fetch |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

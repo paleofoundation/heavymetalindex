@@ -17,6 +17,9 @@ products: ["[[products/vegetables-mixed]]"]
 matrices: ["kale", "soil"]
 jurisdictions: ["KE"]
 sample_population: "Kale and soil samples from farms around the KIWASCO sewage treatment plant in Obunga slum, Kisumu County, Kenya"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -55,3 +58,13 @@ The source supports vegetable/kale context for Pb, Cu, and Zn under sewage-sludg
 
 - Source identity checked against DOI 10.19080/IJESNR.2018.15.555907 and the downloaded PDF.
 - Values are source-reported in ppm; this page does not convert ppm to mg/kg.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [53f221f](https://github.com/paleofoundation/heavymetalindex/commit/53f221f) | 2026-05-25 | ingest auto-fetched 2026-05-25 1748 batch 2: 8 source pages |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ matrices: [honey, honeybee]
 jurisdictions: [SA]
 sample_n: 8
 sample_population: "Honeybee (Apis mellifera jemenatica) and honey samples from four agricultural regions in Saudi Arabia: Jazan (Sabya), Asir (Abha), Al-Baha (Al Mandaq), and Makkah (Taif); collected March 2017; n = 3 analytical replicates per region per matrix (8 region × matrix cells total)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -103,3 +106,14 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 - **Source ambiguity flagged, not perpetuated.** The paper's Sampling section (p. 2) reports "were collected 50 (mg/g) of bees and 20 (mg/L) of honey," which are units of concentration rather than collection amounts and almost certainly an editorial error in the source. The previous revision repeated this phrasing; the corrected page omits this sentence as nonsensical and uses only the 5 g analytical sample weight stated in the Method section (p. 3), which is unambiguous.
 - **Internal precision discrepancy noted.** Cr Al-Baha honey is reported as 0.1599 in the paper's prose (p. 4) and as 0.159 in Table 3 (p. 5); the higher-precision prose value is shown in Key numbers, consistent with the prior revision.
 - Preserved cite_key, raw_handle, license, access_url, sample_n, frontmatter slugs, and the overall page structure. No new ingredient, product, or regulation pages proposed; all metals referenced are in the current `wiki/metals/` taxonomy.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e065f5](https://github.com/paleofoundation/heavymetalindex/commit/2e065f5) | 2026-05-20 | ingest: aljedani2017-honeybee-honey-saudi-arabia [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

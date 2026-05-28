@@ -21,6 +21,9 @@ matrices: [rice-grain, polished-rice, wholegrain-rice, cooked-rice]
 jurisdictions: [GB, ES, IT, TH, FR, EG, JP, AU, LB, PK, TR, US, EU]
 sample_n: 41
 sample_population: "Forty-one rice samples purchased from UK retailers in Belfast or via UK online retail; 13 wholegrain (unpolished) and 28 polished. Country-of-origin labels (per inline text): Spain (n=11), Italy (n=6), Thailand (n=5), USA (n=5), generic EU (n=2), France (n=2), Egypt (n=1), Japan (n=1), Australia (n=1), Lebanon (n=1), Pakistan (n=1), Turkey (n=1). Full sample description in S1 Table."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -118,3 +121,16 @@ Audit subagent (2026-05-28) flagged the following; verified against source and a
 - **`matrices` sub-variants (`polished-rice`, `wholegrain-rice`, `cooked-rice`)** flagged as possibly off-vocab by the audit subagent; verified against [[sources/pogoson2020-rice-cooking-cadmium-arsenic]] which uses the same lab's `polished-rice`, `cooked-rice` and `pre-soaked-rice` matrices entries — finding is a false positive in light of established same-lab precedent. No correction applied.
 - **`jurisdictions` mixed market/origin semantics** flagged by the audit subagent; the intent is already explained in the `sample_population` field and in the existing Verification-notes geographic-origins entry — finding is a false positive against existing documentation. No correction applied.
 - **`tAs` in metals frontmatter** flagged as borderline by the audit subagent; retained because total arsenic is implicitly available as the sum of iAs + DMA + minor species and is reportable to downstream routing as a derived total. No correction applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6238d1a](https://github.com/paleofoundation/heavymetalindex/commit/6238d1a) | 2026-05-28 | audit: carey2015-rice-arsenic-percolating-cooking revised |
+| [89eb6bb](https://github.com/paleofoundation/heavymetalindex/commit/89eb6bb) | 2026-05-28 | ingest: carey2015-rice-arsenic-percolating-cooking enhanced from manual-fetch/seasonal-geographic-variance/auto-fetched |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

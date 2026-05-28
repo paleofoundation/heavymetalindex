@@ -18,6 +18,9 @@ matrices: [matcha-powder, tea-infusion]
 jurisdictions: [JP, PL]
 sample_n: 2
 sample_population: "Two Japanese organic matcha types from the Uji region of Kyoto, Japan, single producer (JONA- and AgroBioTest-certified organic): daily matcha (DM, second-to-third harvest, June–August) and traditional matcha (TM, first-to-second harvest, April–July). Each type analyzed in both powder form and as infusion brewed at 25, 70, 80, and 90 °C (1.75 g powder per 100 mL distilled water, 10 min at 180 rpm). All preparations in triplicate."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -133,3 +136,17 @@ Phase 2 audit application 2026-05-20 (fresh-context Agent subagent, verdict REVI
 - **Added figure-based numerical anchors to Key numbers and App block.** Now that the Cr-powder and Pb-powder figure-vs-text contradictions required reading Figures 1–4 directly, also added visually-estimated infusion Pb (DM ~1–25 µg/L; TM ~1–40 µg/L), infusion Cr (DM ~2–14 µg/L median ~8), powder Ni (at analytical floor), and infusion Ni (DM ~60–80 µg/L; TM ~60–160 µg/L median ~100) ranges with explicit "visually estimated from boxplot" caveat. These give downstream synthesis a baseline before Table S1/S4 numerical confirmation is available.
 - **Did not change frontmatter, slug vocabulary, methods detail, or firewall posture.** Auditor confirmed ✅ on Checks 2 (slugs), 3 (speciation/methods), 4 (brand firewall), and 5 (wiki/HMTc firewall) — no edits needed in those areas.
 - No findings rejected as false positives. All three ⚠️ findings were verified against the PDF and applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6cad13e](https://github.com/paleofoundation/heavymetalindex/commit/6cad13e) | 2026-05-20 | audit: szymczykowska2026-matcha-elemental-composition [revised] |
+| [a55faae](https://github.com/paleofoundation/heavymetalindex/commit/a55faae) | 2026-05-20 | ingest: szymczykowska2026-matcha-elemental-composition [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

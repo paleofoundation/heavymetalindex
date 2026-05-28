@@ -18,6 +18,9 @@ matrices: [cocoa-powder, dark-chocolate, milk-chocolate, cocoa-nibs]
 jurisdictions: [US]
 sample_n_total: 144
 sample_n_notes: "144 cocoa-product samples (cocoa powder, cocoa nibs, dark chocolate, milk chocolate) from 67 manufacturers, purchased Dec 2015 from Prince George's County MD retail and online; analyzed by ICP-MS"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -63,3 +66,14 @@ This is a convenience sample and not a market-representative sample of U.S. coco
 - [[ingredients/chocolate]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [745aeed](https://github.com/paleofoundation/heavymetalindex/commit/745aeed) | 2026-05-08 | ingest: digest-batch-3-cocoa-chocolate — Abt 2018 + Abt 2020, cocoa/chocolate Pb/Cd advanced |
+<!-- END: hmi-page-history -->

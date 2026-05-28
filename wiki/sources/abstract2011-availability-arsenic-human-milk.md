@@ -35,6 +35,9 @@ matrices: [breast-milk, urine]
 jurisdictions: [BD]
 sample_n: 30
 sample_population: Mother-baby pairs in arsenic-contaminated Kashiani subdistrict, Bangladesh (2011-2012)
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ingest_method: autonomy
 created_by: claude-code
@@ -71,3 +74,13 @@ Breast milk arsenic concentration is low despite high maternal exposure, indicat
 - `metals/arsenic.md` — evidence on human milk as low-transfer matrix; arsenic bioaccumulation pathway comparison
 - `ingredients/breast-milk.md` — contaminant profile update for arsenic in human milk; speciation data
 - `regulations/who-drinking-water-arsenic-guideline.md` — contextual reference for breast milk arsenic comparison to 10 μg/L permissible limit
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d65eba1](https://github.com/paleofoundation/heavymetalindex/commit/d65eba1) | 2026-05-20 | autonomy: daemon tick 2026-05-20T11-41-53Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

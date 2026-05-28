@@ -19,6 +19,9 @@ jurisdictions: [PE]
 near_duplicates: []
 sample_n: 307
 sample_population: "Residents of 26 indigenous and rural communities in Madre de Dios, Southern Peruvian Amazon; two cross-sectional studies pooled"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -61,3 +64,14 @@ Microbiome: Not addressed.
 - [[metals/lead]]
 - [[metals/mercury]]
 - [[health/vulnerable-populations]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [63a84a1](https://github.com/paleofoundation/heavymetalindex/commit/63a84a1) | 2026-05-13 | ingest p4-batch15-g3: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

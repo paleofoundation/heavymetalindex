@@ -21,6 +21,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 50
 sample_population: "50 Coffea arabica samples collected from farms and coffee marketing centers in the Alto Paranaiba region, Minas Gerais, Brazil: Carmo do Paranaiba n=21, Rio Paranaiba n=13, Serra do Salitre n=11, and Tiros n=5; roasted/ground coffee and matching infusions were analyzed."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -121,3 +124,15 @@ Microbiome: Not addressed.
 - Table 1 and Table 2 are preserved as printed. Table 1 Cd mean is below the printed detected minimum because the paper also states Cd was detected in only 10 of 50 samples (60% non-detect treated as zero in the descriptive statistics). Table 2 Zn median (0.1025 mg/50 mL) appears anomalously high relative to the printed mean (0.0131 mg/50 mL) but lies below the printed maximum (0.1292 mg/50 mL); the value is preserved as printed; the paper's body text does not separately discuss Zn infusion median, so the layout-vs-typo question cannot be resolved from the published text alone.
 - Strict brand firewall: the paper reports municipalities and anonymized sample handling only; no commercial coffee brands are named in this source page.
 - Methods vendor/equipment names (Varian, ROD-bel, Probat Leogap, Tecnal) are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6a694be](https://github.com/paleofoundation/heavymetalindex/commit/6a694be) | 2026-05-25 | audit dasilva2017 coffee source |
+| [780788a](https://github.com/paleofoundation/heavymetalindex/commit/780788a) | 2026-05-20 | ingest: dasilva2017-heavy-metals-coffee-brazil [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [66642fe](https://github.com/paleofoundation/heavymetalindex/commit/66642fe) | 2026-05-19 | ingest auto-gap: brazil coffee metals |
+<!-- END: hmi-page-history -->

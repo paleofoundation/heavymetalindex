@@ -19,6 +19,9 @@ products: ["[[products/infant-and-child-foods-master]]", "[[products/snacks-crac
 matrices: [mixed-foodstuffs, vegetables, cereals, baby-food, snacks]
 jurisdictions: [MX]
 sample_n: 143
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -63,3 +66,15 @@ Cocoa powder Cd value (0.289 mg/kg) is a single sample; not representative of th
 - [[ingredients/rice]]
 - [[ingredients/wheat]]
 - [[regulations/codex-general-standard-contaminants]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5022001](https://github.com/paleofoundation/heavymetalindex/commit/5022001) | 2026-05-17 | reverse-route: backfill products from matrices for 4 sources (running total: 4) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [6de0a7c](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7c) | 2026-05-12 | ingest: batch-C (10 PDFs) — seasonal-geographic-variance manual-fetch |
+<!-- END: hmi-page-history -->

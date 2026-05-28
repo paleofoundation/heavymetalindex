@@ -20,6 +20,9 @@ jurisdictions: [CO, MX, PE]
 near_duplicates: []
 sample_n: 46
 sample_population: "46 genebank accessions of Phaseolus vulgaris (n=35), P. lunatus (n=7), and P. acutifolius (n=4) from 19 countries, sourced from CIAT Future Seeds genebank, Palmira, Colombia; Periodic Table of Food Initiative (PTFI)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -57,3 +60,16 @@ App: Bean ingredients should carry a contamination_profile flag noting that the 
 - [[ingredients/beans]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [da722b6](https://github.com/paleofoundation/heavymetalindex/commit/da722b6) | 2026-05-12 | ingest: P4 batch 2 group 2 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ products: []
 matrices: [cacao-beans, cacao-germplasm]
 jurisdictions: [CO, EC, PE]
 sample_n: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -47,3 +50,13 @@ App: Low-Cd accessions from high-altitude Ecuador challenge the simple origin-fl
 - [[metals/cadmium]]
 - [[mitigation/soil-cadmium-amendments]]
 - [[supply-chain/cultivar-selection]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

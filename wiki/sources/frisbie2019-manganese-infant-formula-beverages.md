@@ -21,6 +21,9 @@ jurisdictions: [US, FR, EU]
 near_duplicates: []
 sample_n: 44
 sample_population: "44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected by maximum-variation sampling for protein source, supplementation, age label, and product form."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -92,3 +95,13 @@ Microbiome: Not addressed.
 - Strict brand firewall: the source tables use study IDs rather than commercial names; this page reports aggregate values and product-form/protein-source descriptors only.
 - The paper's sampling method is explicitly non-probabilistic maximum-variation sampling, so the table means and medians should not be generalized to market prevalence.
 - Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d784e29](https://github.com/paleofoundation/heavymetalindex/commit/d784e29) | 2026-05-19 | stranded work: 7 Codex auto-gap source pages + 2 ingredient stubs + accumulated daemon artifacts |
+<!-- END: hmi-page-history -->

@@ -22,6 +22,9 @@ matrices: [cereal-grain, dietary-intake]
 jurisdictions: [PL, EU]
 sample_n: 50
 sample_population: "50 bread samples purchased in Silesia Province, Poland: 10 gluten-free, 12 wheat-rye, 20 wheat, and 8 rye."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -117,3 +120,17 @@ App: The bread-type Cd means can support occurrence-context displays for Polish/
 - Replaced invalid/nonexistent regulation links with source-specific superseded EU 2021 amendment pages created during this ingest.
 - Replaced non-vocabulary matrix labels such as wheat-bread and gluten-free-bread with common matrix labels; bread subtype details remain in `sample_population` and the Key numbers table.
 - Strict brand-firewall check: no consumer brands are named. The source says gluten-free samples considered brand availability/dissemination, but this wiki page does not identify those brands.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [22a69e6](https://github.com/paleofoundation/heavymetalindex/commit/22a69e6) | 2026-05-19 | audit queue fire batch 3: 6 source pages |
+| [9a863c7](https://github.com/paleofoundation/heavymetalindex/commit/9a863c7) | 2026-05-18 | ingest (codex): gacal2023 cadmium lead bread poland |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

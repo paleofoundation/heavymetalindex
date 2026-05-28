@@ -17,6 +17,9 @@ products: ["[[products/seafood]]"]
 matrices: ["swordfish", "sardine"]
 jurisdictions: ["DZ"]
 sample_population: "Sardine and swordfish collected from Bejaia, Algiers, and Oran coasts in Algeria, April-September 2017"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -55,3 +58,14 @@ This source supports Algerian swordfish and sardine mercury occurrence with expl
 
 - Source identity checked against DOI 10.12681/jhvms.21792 and the downloaded PDF.
 - Total mercury and methylmercury values are separate species and should remain separate during routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

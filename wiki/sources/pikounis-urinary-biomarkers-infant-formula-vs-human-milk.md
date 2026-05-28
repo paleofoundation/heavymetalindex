@@ -17,6 +17,9 @@ products: ["[[products/infant-formula-powder-non-soy]]"]
 matrices: [infant-urine, breastmilk, infant-formula, prospective-cohort]
 jurisdictions: [US]
 sample_n_notes: "U.S. infant cohort (Dartmouth + Brigham/Harvard collaboration); urinary biomarkers paired with feeding-mode classification"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -38,3 +41,14 @@ Formula-fed infants have higher urinary biomarker levels for several toxic eleme
 - [[metals/arsenic-inorganic]]
 - [[metals/manganese]]
 - [[products/infant-formula-powder-non-soy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2923689](https://github.com/paleofoundation/heavymetalindex/commit/2923689) | 2026-05-11 | lint: fix DOI audit failures on pikounis and sipahi2014 source pages |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

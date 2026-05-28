@@ -19,6 +19,9 @@ jurisdictions: [HR, EU]
 near_duplicates: []
 sample_n: 6
 sample_population: "6 brands of disposable baby diapers purchased in Croatia 2012-2014. Top sheet and adhesive tape system analyzed separately for total tin by EDXRF."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -111,3 +114,14 @@ Microbiome: Not addressed in this paper. Organotin effects on the developing gut
   - **Removed speculative app statement.** Prior page said "the consumer app should flag high-Sn brands (any layer >10 mg/kg total Sn) as concerning." That is a threshold proposal and a brand-flag prescription. Reworded to describe what is and is not available as consumer-facing data; no numeric ceiling and no flagging-rule proposed.
   - **Preserved.** cite_key, raw_handle, raw_path, license, evidence_tier (A — peer-reviewed primary study in X-Ray Spectrometry), sample_n=6, jurisdictions [HR, EU].
   - **Verified accurate (no change needed).** All numerical values in the Key numbers table match Table 1 exactly. Methods detail (²⁴¹Am source, Canberra Ge(Li) detector model and FWHM, 2000 s acquisition, IAEA AXIL/QXAS, 2.5 cm pellet ~0.2 g, MDL 1.5 mg/kg, error 15.6%) matches paper. Exposure scenario (0.021 µg Sn/kg-bw/day, 8 kg infant, 5 diapers/day, 20-100% TDI) matches paper p. 3 exactly. Regulatory citations (REACH Annex XVII No. 20, voluntary <2 mg/kg TBT, <10 mg/kg per organotin, KEMI 2012) match.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f7d70d7](https://github.com/paleofoundation/heavymetalindex/commit/f7d70d7) | 2026-05-18 | ingest: smajgl2015-tin-baby-diapers-croatia enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+| [98c8a63](https://github.com/paleofoundation/heavymetalindex/commit/98c8a63) | 2026-05-15 | sources: Cat 2 diapers — Šmajgl & Obhođaš 2015 tin in disposable baby diapers |
+<!-- END: hmi-page-history -->

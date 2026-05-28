@@ -18,6 +18,9 @@ matrices: [coffee, tea]
 jurisdictions: [LY]
 sample_n: 28
 sample_population: "Seventeen tea samples and eleven coffee samples circulating in Tripoli, Libya during 2018-2019"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-27
 ---
 
@@ -54,3 +57,13 @@ The source supports occurrence evidence for Pb and Cd in coffee and true-tea pro
 ## Verification notes
 
 The source table identifies sampled products by retail names. This page omits those names under the brand firewall and reports category-level ranges and means only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

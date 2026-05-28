@@ -20,6 +20,9 @@ jurisdictions: [MA, IR, GR, CN, BR, TW, KR]
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic review of 35 studies meeting eligibility criteria (of 125 articles screened), including 7 studies on contaminants (PAHs and heavy metals) in edible vegetable oils; databases MEDLINE/PubMed, ScienceDirect, SCOPUS searched through 1 September 2025"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -97,3 +100,16 @@ Systematic review following adapted PRISMA principles. Databases: MEDLINE/PubMed
 - Auto-audit follow-ups (2026-05-25): added rapeseed PAH value (4.35 µg/kg, Table A1) to the PAH bullet list for completeness.
 - Missing-slug proposals (flagged but NOT created — new ingredient pages are out of scope for this skill): the source provides Table A1 numeric data for palm oil, flaxseed oil, canola oil, and camellia (seed) oil, but no ingredient pages currently exist for these four oils. These slugs (`palm-oil`, `flaxseed-oil`, `canola-oil`, `camellia-oil`) should be considered for future ingredient page creation once the freq-2 threshold is reached across the corpus.
 - The review does not distinguish inorganic from total arsenic or methylmercury from total mercury; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9b26fb6](https://github.com/paleofoundation/heavymetalindex/commit/9b26fb6) | 2026-05-25 | audit: silva2025-edible-oils-health-sustainability revised |
+| [ca721ba](https://github.com/paleofoundation/heavymetalindex/commit/ca721ba) | 2026-05-25 | ingest: silva2025-edible-oils-health-sustainability enhanced from Manual Fetch Kimi/01_Oils |
+| [2d9a300](https://github.com/paleofoundation/heavymetalindex/commit/2d9a300) | 2026-05-17 | audit (codex): silva2025 edible oils review revised |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [DE, EU]
 near_duplicates: []
 sample_n: 869
 sample_population: "869 pooled samples from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II 2005–2006); children 0.5–<6 yr N=804 (VELS 2001–2002); foods purchased 2017–2019 and prepared as consumed"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -129,3 +132,17 @@ Microbiome: Not directly addressed.
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, fixed the Hg mg/kg-to-ppb conversion, removed instrument/software brand names from Methods, corrected closed-vocabulary ingredient/product/matrix links, and tightened HMT&C/app/microbiome implication language.
 - Merge-enhance 2026-05-26: canonicalised placeholder `raw_handle: manual-fetch-kimi` → `MFK_results-of-the-bfr-meal-study-in-germany-mercury-i`; added missing `access_url` and `raw_sha256`; removed `MeHg` from `metals:` (this paper measures total Hg via direct-Hg analyzer only — MeHg is referenced from the companion paper Sarvan et al. 2021, not measured here); restructured the Cd-by-main-food-group block so cocoa powder is placed under its actual main food group (Coffee, cocoa, tea, infusions), per the paper's Section 3.1.2 attribution, and added the six-MEAL-food joint Cd+Pb high-level cluster from Section 3.1.2/Fig 1B-C with explicit caveat that those foods do not all share one main food group.
 - Audit subagent (2026-05-26) flagged: (1) `[[metals/mercury-methyl]]` in the wiki-pages-touched list inconsistent with the corrected frontmatter (paper does not measure MeHg) — verified against page Methods §"Speciation note" and source Section 2.5; removed the wikilink. (2) Implications opening framed relevance through "HMT&C-certified products" which tilts toward Part 2 HMT&C-convenience register — verified; reframed as "spanning the breadth of the HMI ingredient and product taxonomy" to keep audience-neutral. (3) Methods stripped instrument vendor names but Part 12 Exception 2 explicitly permits these for reproducibility — verified against source Section 2.4 (Grindomix GM300, Retsch GmbH; Milli-Q Integral 5, Merck) and Section 2.6 (Microsoft Excel 2016, IBM SPSS Statistics v26); restored. All three findings applied; 0 rejected.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [edad667](https://github.com/paleofoundation/heavymetalindex/commit/edad667) | 2026-05-26 | audit: fechner2022-bfr-meal-hg-cd-pb-ni-germany revised |
+| [304b492](https://github.com/paleofoundation/heavymetalindex/commit/304b492) | 2026-05-26 | ingest: fechner2022-bfr-meal-hg-cd-pb-ni-germany enhanced from Manual Fetch Kimi /condiment_papers/01_Oils |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

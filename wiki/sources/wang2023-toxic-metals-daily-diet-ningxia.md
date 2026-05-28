@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: [FM_10350440_Deterministic_and_Probabilistic_Health_Risk_Assessment_of_To]
 sample_n: 187
 sample_population: "187 samples (36 drinking water + 151 food) from villages and towns in industrial regions of northern Ningxia, China, September 2017; dietary intake data from 97 questionnaires"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -73,3 +76,17 @@ App: Pb in cereals (rice, flour, corn, millet) mean 0.0453 mg/kg with 5.1% excee
 - [[ingredients/spinach]]
 - [[ingredients/potatoes]]
 - [[regulations/china-gb-2762-food-limits]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [8c1225e](https://github.com/paleofoundation/heavymetalindex/commit/8c1225e) | 2026-05-13 | ingest p4-batch13-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

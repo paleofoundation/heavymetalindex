@@ -21,6 +21,9 @@ metals: [Al, tAs, Cd, tHg, Ni, Pb, Sn]
 ingredients: [milk-and-dairy, rice-cereal, fruit, fish, meat]
 products: [infant-formula-powder, fruit-purees, meat-and-poultry-purees, fish-containing-baby-foods, baby-cereals]
 jurisdictions: [EU, Italy]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-02
 ---
 
@@ -73,3 +76,17 @@ The raw PDF is held locally under `raw/studies/` and the machine-generated markd
 - [[products/fruit-purees]]
 - [[products/meat-and-poultry-purees]]
 - [[products/fish-containing-baby-foods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [5a4b804](https://github.com/paleofoundation/heavymetalindex/commit/5a4b804) | 2026-05-02 | Clarify Meli study provenance hash |
+| [a387672](https://github.com/paleofoundation/heavymetalindex/commit/a387672) | 2026-05-02 | Ingest Meli baby food study provenance |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+<!-- END: hmi-page-history -->

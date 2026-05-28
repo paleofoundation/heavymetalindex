@@ -17,6 +17,9 @@ sample_n_notes: "47 infant formula samples, 200 commercial infant food samples, 
 metals: [Al, Sb, tAs, iAs, Cd, Cr, Cu, I, Fe, Pb, Mn, tHg, Ni, Se, Sn, Zn]
 products: [infant-formula-powder, infant-formula-rtf-liquid, baby-cereals, fruit-purees, vegetable-purees, baby-drinks, snacks, meat-and-fish-baby-foods, mixed-meals]
 jurisdictions: [UK]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-07
 ---
 
@@ -78,3 +81,17 @@ The survey reports grouped averages rather than brand-level results. Some commer
 - [[products/fruit-juice-not-canned]]
 - [[products/teething-and-snacks-non-rice]]
 - [[products/teething-and-snacks-rice-based]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [eb84e98](https://github.com/paleofoundation/heavymetalindex/commit/eb84e98) | 2026-05-07 | Backfill FSA mixed meal iAs context rows |
+| [bb5ca47](https://github.com/paleofoundation/heavymetalindex/commit/bb5ca47) | 2026-05-07 | Backfill FSA baby drinks juice context rows |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [fb0ee9a](https://github.com/paleofoundation/heavymetalindex/commit/fb0ee9a) | 2026-04-30 | Simplify source DOI access display |
+<!-- END: hmi-page-history -->

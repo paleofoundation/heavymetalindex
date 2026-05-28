@@ -41,6 +41,9 @@ jurisdictions:
   - SA
 sample_n: 111
 sample_population: "Infants aged 0-12 months in Saudi Arabia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: marker-converted pdf + manual metadata
 created_by: Claude Code
@@ -86,3 +89,15 @@ Health risk estimated using THQ (target hazard quotient) and HI (hazard index) f
 - Study did not distinguish inorganic vs. organic arsenic; reported values treated as inorganic (iAs) pending source clarification.
 - EDI calculations assumed 500 mL/day infant consumption; consumption varies by age within 0-12 month window.
 - WHO guideline comparison suggests category-wide concern in Saudi Arabia market at time of study (2019–2020 samples).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2de6e19](https://github.com/paleofoundation/heavymetalindex/commit/2de6e19) | 2026-05-19 | fix: close missing frontmatter delimiter in original2020-original-a |
+| [f25d37b](https://github.com/paleofoundation/heavymetalindex/commit/f25d37b) | 2026-05-18 | audit-queue: mahaffey1975-fda-total-diet-study-heavy-metals status -> audited-revised |
+| [6649067](https://github.com/paleofoundation/heavymetalindex/commit/6649067) | 2026-05-15 | sources: Cat 1 Saudi baby food — Alharbi 2023 (manifest-cite-key locked to 'original2020-original-a') |
+<!-- END: hmi-page-history -->

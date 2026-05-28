@@ -18,6 +18,9 @@ matrices: [tea]
 jurisdictions: [SK]
 sample_n: 18
 sample_population: "Six herbal tea materials from Slovakia prepared under three acid-extraction methods"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-27
 ---
 
@@ -55,3 +58,14 @@ The source supports herbal-botanical risk-element screening and method-compariso
 ## Verification notes
 
 The source uses "plumb" for lead in one translated passage. This page records the element as Pb and keeps the extraction-solution basis explicit.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

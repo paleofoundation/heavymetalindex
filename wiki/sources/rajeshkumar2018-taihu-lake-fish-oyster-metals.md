@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 28
 sample_population: "Surface water (n=28: 7 sites × 4 seasons), sediment (n=28: 7 sites × 4 seasons), crucian carp Carassius carassius (size 17–21 cm; six tissues — muscle, gill, liver, kidney, intestine — dissected per fish; per-organ-per-season n=4 per ANOVA in Table 2) and Pacific oyster Crassostrea gigas (size 0.5–1.0 cm; whole-body; per-season n=4 per Table 2) from seven sampling sites in Meiliang Bay, Taihu Lake, Jiangsu Province, China (30°55′42″–31°33′50″N, 119°53′45″–126°36′15″E); sampled across winter, spring, summer, and autumn 2016. Table 3 reports the genus-species for fish as Carassius auratus (goldfish) where the abstract, methods, and discussion text consistently identify it as Carassius carassius; treated as a typographical error in Table 3."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -152,3 +155,16 @@ Open-access mode unconfirmed. Article published in *Chemosphere* (Elsevier, Volu
   **Rejected (false positive) — Check 2 ❌ on `products/shellfish`:** Subagent stated `products/shellfish` is not in the taxonomy snapshot Products list. Verified against `wiki/products/shellfish.md` (exists; modified 2026-05-17; title "Shellfish (shrimp, crab, lobster, clams, oysters, mussels)") and against the routing audit which produced a `locked_hmtc_row` route to `shellfish` for this source. Same false-positive root cause as above. No change applied; finding is a false positive. Pushback documented.
 
   **Net of audit:** 4 findings; 2 applied (regulation labels + FEPA year); 2 rejected (both product slugs do exist; subagent misread taxonomy snapshot). Verdict REVISE → applied → revised.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc8e4e6](https://github.com/paleofoundation/heavymetalindex/commit/fc8e4e6) | 2026-05-18 | audit: rajeshkumar2018-taihu-lake-fish-oyster-metals revised |
+| [2b28e1f](https://github.com/paleofoundation/heavymetalindex/commit/2b28e1f) | 2026-05-18 | ingest: rajeshkumar2018-taihu-lake-fish-oyster-metals enhanced from Papers Cube Manual Fetch |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+<!-- END: hmi-page-history -->

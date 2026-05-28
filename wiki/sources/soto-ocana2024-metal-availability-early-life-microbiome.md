@@ -17,6 +17,9 @@ products: ["[[products/infant-formula-powder-non-soy]]"]
 matrices: [infant-stool, breastmilk, formula, gastrointestinal]
 jurisdictions: [US]
 sample_n_notes: "human infant cohort with calprotectin profiling and gut microbiome sequencing; in vitro experimental metal-restriction assays in cultured taxa"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -52,3 +55,13 @@ Human infant cohort with stool sampling for calprotectin ELISA and 16S rRNA-base
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-powder-soy-based]]
 - [[microbiome/early-life-metals-microbiome-axis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5b9ea5](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea5) | 2026-05-08 | ingest: digest-batch-5-nickel-microbiome — 10 source pages (Ni + metals-microbiome) |
+<!-- END: hmi-page-history -->

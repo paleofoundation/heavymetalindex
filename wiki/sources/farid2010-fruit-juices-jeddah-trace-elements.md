@@ -20,6 +20,9 @@ jurisdictions: [SA]
 near_duplicates: []
 sample_n: 129
 sample_population: "129 commercial fruit juice samples (42 apple, 45 orange, 42 mango) of 15 brands purchased from supermarkets in Jeddah, Saudi Arabia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -92,3 +95,15 @@ Instrument: Varian Spectra AA 30P graphite-furnace AAS with deuterium background
 - Numerical fidelity check: Table 1 mean ± SD values for all seven elements × three juice types × mean column were re-verified against the PDF (page 2). All 28 cells match the prior page exactly. Sample-size attribution (42/45/42 = 129 across 15 brands) and method details (Varian Spectra AA 30P GFAAS, HNO3/V2O5 wet digestion, IAEA milk A-11 within 7%, Cr/Cu recoveries 94%/96%) all verified against the source.
 - Brand firewall (Part 12): the paper references "15 brands" only as an aggregate count; no brand names appear in either the prior page or the source. No firewall action needed.
 - Speciation: paper measures total Cr without hexavalent speciation and does not measure Hg or As at all, so `metals: [Cr, Ni]` is correct (no `Cr-VI`, no `iAs`/`tAs`, no `MeHg`/`tHg`).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cdd7c22](https://github.com/paleofoundation/heavymetalindex/commit/cdd7c22) | 2026-05-20 | ingest: farid2010-fruit-juices-jeddah-trace-elements [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

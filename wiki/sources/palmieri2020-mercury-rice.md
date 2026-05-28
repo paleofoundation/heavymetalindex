@@ -21,6 +21,9 @@ jurisdictions: [TH, IN, CN, US]
 near_duplicates: []
 sample_n: 29
 sample_population: "29 rice samples: 12 from Thailand, 6 from India, 6 from China, and 5 United States control samples; colors included white, brown, and other rice types."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -68,3 +71,13 @@ Microbiome: Not addressed directly, though the paper references rice methylmercu
 - Speciation discipline: the source repeatedly discusses methylmercury, but the visible method and table support total Hg only. This page uses `tHg` and notes the limitation.
 - The paper provides limited method-validation detail; evidence tier set to B.
 - Strict brand firewall: no commercial rice brands are reported in this source page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d784e29](https://github.com/paleofoundation/heavymetalindex/commit/d784e29) | 2026-05-19 | stranded work: 7 Codex auto-gap source pages + 2 ingredient stubs + accumulated daemon artifacts |
+<!-- END: hmi-page-history -->

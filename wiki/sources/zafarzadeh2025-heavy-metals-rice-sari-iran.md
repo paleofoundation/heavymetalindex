@@ -20,6 +20,9 @@ jurisdictions: [IR]
 near_duplicates: [FM_12583816_Risk_assessment_of_heavy_metals_in_north_of_Iran_Sari_rice_a]
 sample_n: 144
 sample_population: "144 rice samples from 3 dominant local brands (H, Sh, B), 48 samples per brand, collected from 16 rice mills in four cardinal directions of Sari, Mazandaran Province, Iran; June–September 2022"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -67,3 +70,15 @@ Microbiome: Not addressed.
 - [[ingredients/rice]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [509f5e7](https://github.com/paleofoundation/heavymetalindex/commit/509f5e7) | 2026-05-13 | ingest p4-batch13-g4: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

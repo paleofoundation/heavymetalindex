@@ -20,6 +20,9 @@ jurisdictions: [GH]
 near_duplicates: []
 sample_n: 90
 sample_population: "Lettuce and spring onion from 6 anthropogenic activity sites in Kumasi Metropolis, Ghana (BSGS = Buokrom Second Grade School site, AMSS = Asafo Market Stall site, KSTS = Kaase Station site, KSHS = Kumasi Sports High School site, ARTS = Adum Road Traffic site, KSTF = Kumasi Sewage Treatment Farm); sampled at three collection periods"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -57,3 +60,15 @@ App: Lettuce and spring onion from urban farming sites in West African cities wa
 - [[ingredients/leafy-vegetables]]
 - [[metals/nickel]]
 - [[metals/chromium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [0562446](https://github.com/paleofoundation/heavymetalindex/commit/0562446) | 2026-05-13 | ingest p4-batch7-g4: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

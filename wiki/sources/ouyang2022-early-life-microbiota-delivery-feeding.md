@@ -19,6 +19,9 @@ jurisdictions: []
 sample_n: 0
 sample_population: "Review chapter (no primary data) synthesizing ~75 cited studies on infant gut microbiome development from birth to 2 years. Authors are from Dalian Institute of Chemical Physics (Chinese Academy of Sciences), University of Helsinki, Wageningen University Laboratory of Microbiology, and University of Würzburg Institute of Molecular Infection Biology — including Willem M de Vos and Petia Kovatcheva-Datchary, established microbiome researchers. Chapter scope: (1) impact of delivery mode (vaginal vs C-section, intrapartum antibiotics, virome, breast-milk-mediated transfer); (2) impact of infant feeding (dietary patterns, diet-driven compositional and functional changes, breastfeeding duration, cessation of breastmilk, probiotics/prebiotics, undernutrition)."
 acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/Early-Life-Microbiota-Impact-of-Delivery-Mode-and-Infant-Feeding.pdf). Elsevier book chapter; institutional access. Not OA."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -102,3 +105,15 @@ Karen externally fetched this chapter on 2026-05-09 and dropped it at `raw/exter
 ## Wiki Pages Updated On Ingest
 
 - [[products/infant-and-child-foods-master]] (Source Legend entry #39, secondary-reference annotation)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
+| [c2cf81d](https://github.com/paleofoundation/heavymetalindex/commit/c2cf81d) | 2026-05-09 | ingest: ouyang2022 — Early life microbiota review chapter (B-tier background, no n_a_tier impact) |
+<!-- END: hmi-page-history -->

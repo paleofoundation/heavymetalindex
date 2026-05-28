@@ -19,6 +19,9 @@ products: []
 matrices: [white-rice, polished-rice]
 jurisdictions: [BD, CN, EG, FR, IN, IT, JP, ES, TH, US]
 sample_n: 901
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -80,3 +83,13 @@ iAs speciation available for only 5 of 10 countries (63 samples), limiting direc
 
 - [[metals/arsenic]]
 - [[ingredients/rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6de0a7c](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7c) | 2026-05-12 | ingest: batch-C (10 PDFs) — seasonal-geographic-variance manual-fetch |
+<!-- END: hmi-page-history -->

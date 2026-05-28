@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 126
 sample_population: "126 individual products covering 38 brands and 15 herb/spice types from the US retail market"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -87,3 +90,15 @@ Independent commercial laboratory testing commissioned by Consumer Reports. Two 
 - No quantitative ppb values are pulled because the article does not publish a full per-product concentration table; the concern-level designations are Consumer Reports' editorial classifications, not raw laboratory values.
 - 2026-05-28 merge-enhance: corrected the seven-no-concern-categories list to replace "basil" with "black pepper" per the article's "Season Safely" summary on p.45 (verified against the PDF); removed black pepper from the mixed-categories list for the same reason; reframed the 31-products-lead-alone finding from "children" to "anyone" per the article's exact phrasing on p.40 ("the maximum amount anyone should have in a day"); added FDA / NY State / California Prop 65 / FDA import-alert regulatory context from pp.42-44; added the no-brand-consistency and no-organic-protection findings from p.45; added co-author Tanya A. Christian per the article's joint byline on the DIY section (pp.46-47).
 - 2026-05-28 audit-application: removed "allspice" from the baking-spice exclusion (article p.42 names only cinnamon and nutmeg); removed the "La Flor Ground Turmeric" brand attribution per Part 12 strict reading (category-defining outlier is not among the locked Part 12 exceptions); replaced with a product-form descriptor. Routing audit ⚠️ on matrices vocabulary documented as false positive — matrices is an open routing-input vocabulary, not a closed taxonomy-snapshot list.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [79a1de9](https://github.com/paleofoundation/heavymetalindex/commit/79a1de9) | 2026-05-28 | audit: gill2021-consumer-reports-spices [revised] |
+| [cdec793](https://github.com/paleofoundation/heavymetalindex/commit/cdec793) | 2026-05-28 | ingest: gill2021-consumer-reports-spices [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

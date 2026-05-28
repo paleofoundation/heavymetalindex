@@ -21,6 +21,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 80
 sample_population: "Groundwater samples from drinking water sources, Shiraz, Iran"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -47,3 +50,13 @@ App: Not directly applicable (drinking water, not food ingredient matrix); As da
 - [[metals/arsenic]]
 - [[metals/lead]]
 - [[regulations/who-drinking-water-guidelines]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ea6d558](https://github.com/paleofoundation/heavymetalindex/commit/ea6d558) | 2026-05-13 | ingest p4-batch17-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

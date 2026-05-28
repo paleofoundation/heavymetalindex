@@ -21,6 +21,9 @@ jurisdictions: [EC, EU, US]
 near_duplicates: []
 sample_n: 60
 sample_population: "Sixty cans of tuna in water purchased from Quito supermarkets, March 2022-March 2023; three anonymized coded product groups with 20 cans each"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -96,3 +99,15 @@ This page contributes occurrence and exposure-assessment evidence for canned tun
 - 2026-05-18 Codex merge-enhance: DOI match to the pre-existing `aguilar-miranda2024-thg-canned-tuna-ecuador` source page. Corrected `raw_handle` from the generic `manual-fetch-kimi`, restored the full manual-fetch PDF path, added the PDF SHA-256, replaced narrow/non-common matrix terms with broad `fish`, added exact access URL, expanded seafood/canned-fish routing, replaced invalid `regulations/eu-2023-915` with existing EU mercury/current-framework slugs, and added the Ecuador NTE INEN 184:2013 regulation target.
 - 2026-05-18 Codex merge-enhance: tightened strict Part 12 brand-firewall language. The source anonymizes sampled products as coded groups A, B, and C; this page keeps only those non-identifying codes needed to preserve Table 1/Table 4 numerical fidelity and does not name sampled manufacturers or present public brand rankings.
 - 2026-05-18 Codex merge-enhance: corrected earlier page wording that said "one lot reached 1.98 +/- 0.42 mg/kg." The source reports 1.98 mg/kg as the maximum value in the range for coded group B; 0.42 is the combined-row SD for that group, not the uncertainty on the maximum sample.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [222c028](https://github.com/paleofoundation/heavymetalindex/commit/222c028) | 2026-05-19 | audit queue fire batch 1: 10 source pages |
+| [50058fb](https://github.com/paleofoundation/heavymetalindex/commit/50058fb) | 2026-05-18 | ingest (codex): aguilar-miranda2024 canned tuna ecuador merge-enhance |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

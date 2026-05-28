@@ -18,6 +18,9 @@ ingredients: []
 products: []
 jurisdictions: [international]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-25
 ---
 
@@ -34,3 +37,15 @@ Filename `Biochem_Lead_Yeh_2020.pdf` is misleading; lead author is Huang, not Ye
 ## Wiki pages updated on ingest
 
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [36ff5c8](https://github.com/paleofoundation/heavymetalindex/commit/36ff5c8) | 2026-04-25 | Lead batch: 9 source pages, 4 regulation pages, populated metals/lead.md |
+<!-- END: hmi-page-history -->

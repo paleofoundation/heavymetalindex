@@ -20,6 +20,9 @@ matrices: [poultry-white-meat, poultry-red-meat, poultry-liver, poultry-skin, po
 jurisdictions: [UA]
 sample_n: "Poultry edible parts and diet raw materials from the Right-bank Forest-steppe of Ukraine; per-cell animal counts not extracted."
 sample_population: "Poultry fed raw materials including corn, wheat, oats, barley, and sunflower meal, with a silicon-mineral water extract intervention."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -60,3 +63,13 @@ This source can support poultry-product and chicken ingredient context for cadmi
 
 - Batch 5 auto-fetched ingest, 2026-05-25.
 - The source reports total element concentrations, not species-specific arsenic, mercury, or chromium forms.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [477ff83](https://github.com/paleofoundation/heavymetalindex/commit/477ff83) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 5: 6 source pages + 3 skips |
+<!-- END: hmi-page-history -->

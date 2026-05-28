@@ -25,6 +25,9 @@ near_duplicates: ["[[sources/fda2022-tds-elements-fy2018-fy2020]]", "[[sources/f
 sample_n: 3276
 sample_population: "Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions (West, North Central, Mid-Atlantic, Northeast, Southeast, Southwest) and one national-collection point (KCL, Lenexa KS) over fiscal years 2018–2020 (winter Oct–Mar + summer Apr–Sep regional collections, plus a national collection); 384 of the food/beverage samples are baby foods (FY2019 expanded baby-food sampling); 54 samples were further analyzed for three arsenic species (iAs, DMA, MMA)."
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -259,3 +262,17 @@ License `us-government-work`. The TDS data is published on the FDA website at th
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
 - [[regulations/fda2022-draft-lead-juice]]
 - [[regulations/fda-cpg-540-600-methylmercury-fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d16721](https://github.com/paleofoundation/heavymetalindex/commit/0d16721) | 2026-05-20 | audit: fda-tds-elements-2018-2020 [revised] |
+| [2541233](https://github.com/paleofoundation/heavymetalindex/commit/2541233) | 2026-05-20 | ingest: fda-tds-elements-2018-2020 [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+<!-- END: hmi-page-history -->

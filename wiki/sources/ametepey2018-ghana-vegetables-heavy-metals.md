@@ -19,6 +19,9 @@ products: ["[[products/non-root-vegetables]]"]
 matrices: [leafy-vegetable, tomato, onion]
 jurisdictions: [GH]
 sample_n: 75
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -46,3 +49,15 @@ App: Geographic origin flag for leafy vegetables sourced from West Africa should
 - [[ingredients/leafy-vegetables]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

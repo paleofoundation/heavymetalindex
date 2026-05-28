@@ -19,6 +19,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: null
 sample_population: "Shrimp (Littopenaeus vannamei), fish (Eugerres brasilianus, Cathorops spixii), sediments, and water from Jaguaribe River Estuary, Ceará, NE Brazil"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -52,3 +55,14 @@ App: Contributes to tHg baseline for shrimp and estuarine fish from subtropical 
 - [[ingredients/shrimp]]
 - [[ingredients/fish]]
 - [[products/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [5d7a39a](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a) | 2026-05-13 | ingest p4-batch16-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

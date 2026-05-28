@@ -20,6 +20,9 @@ jurisdictions: [LB]
 near_duplicates: []
 sample_n: 42
 sample_population: "Commercial cornflake products sold in Lebanese retail markets"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -62,3 +65,16 @@ App: Corn-flour-based breakfast cereals confirmed as a multi-metal occurrence ma
 - [[metals/arsenic]]
 - [[metals/chromium]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [ffb63b3](https://github.com/paleofoundation/heavymetalindex/commit/ffb63b3) | 2026-05-12 | ingest: P4 batch 4 group 4 — 4 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 483
 sample_population: "483 milk and dairy product samples from all 16 Polish voivodships (2006–2007); 92% domestic production, 8% imported from other EU member states. 2006 cohort (n=227): 75 milk, 81 fermented liquid milk products (kefir, yogurt, buttermilk, curds), 71 non-fermented liquid milk products (cream, coffee cream, condensed milk, milk desserts). 2007 cohort (n=256): 66 maturing cheeses, 71 cottage cheeses, 61 butter, 58 ice cream. Approximately one-third of maturing cheese samples and ~10% of butter samples were imported from other EU member states (primarily Germany and the Netherlands)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -124,3 +127,16 @@ Sampling per Commission Directive 2001/22/EC (through May 2007) and Commission R
 **Wiki/HMTc firewall (Part 2).** No HMTc threshold proposals or certification-aligned framing in `## Implications`; the section limits itself to what the paper's findings contribute to the European dairy occurrence baseline. Direction of edit: toward the literature (correcting the wrong compliance statement, populating the missing exposure numbers, and removing invented slugs all make the wiki more accurately reflect the source); no movement toward HMTc convenience.
 
 **Routing.** `products: [[[products/butter-and-ghee]]]` is the only locked HMTc row this paper feeds, via the 61 butter samples (n=61 in 2007 cohort). Milk, yogurt, cheese, and ice-cream sub-formats do not yet have locked HMTc product pages and route through ingredient pages (`milk-and-dairy`, `whole-milk`, `yogurt`) and the `matrices:` field instead.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [777b1ce](https://github.com/paleofoundation/heavymetalindex/commit/777b1ce) | 2026-05-19 | ingest: starska2011-noxious-elements-milk-products-poland enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

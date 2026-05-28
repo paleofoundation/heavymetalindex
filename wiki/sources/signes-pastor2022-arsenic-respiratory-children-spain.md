@@ -19,6 +19,9 @@ jurisdictions: [ES]
 near_duplicates: []
 sample_n: 400
 sample_population: "400 children from the INMA (INfancia y Medio Ambiente) Spanish birth cohort; subsample with arsenic speciation data at 4 years (n=339 with complete data); cohort sites: Asturias, Guipuzkoa, Sabadell, Valencia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -55,3 +58,13 @@ Microbiome: not applicable directly, but respiratory outcomes from dietary arsen
 - [[ingredients/rice]]
 - [[health/arsenic-respiratory-effects]]
 - [[health/vulnerable-populations-infants-children]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7c3dcee](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee) | 2026-05-13 | ingest p4-batch15-g2: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: 36
 sample_population: "Four root vegetables (beet Beta vulgaris, radish Raphanus sativus, carrot Daucus carota, turnip Brassica rapa) and five leafy vegetables (mustard Brassica campestris, cabbage Brassica oleracea, spinach Spinacia oleracea, coriander Coriandrum sativum, mint Mentha arvensis) purchased from Kawran Bazar wholesale market, Dhaka, Bangladesh; collected in four phases at ≥14-day intervals over two months (early, mid, and late harvesting periods); 3 replicates per vegetable per phase pooled into a single composite for analysis (36 composite samples: 4 root + 5 leafy = 9 vegetables × 4 phases)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -162,3 +165,14 @@ Coriander, mint, mustard greens, radish, and turnip do not have dedicated ingred
 - Wiki/HMTc firewall (Part 2): Implications section describes the paper's contribution as occurrence data for South Asian leafy-green and root-vegetable supply and as a worked example of seasonal harvesting variability. No threshold value is proposed; no consumer risk advisory is issued. The prior version's "Leafy vegetable risk scoring for South Asian sourcing should weight Cr, Cd, and Pb higher than for other origins" was softened in this pass to remove the prescriptive framing while preserving the geographic-context observation.
 - Speciation discipline (Part 14): the paper measures total Cr (AAS, no Cr-VI separation) and does not measure As or Hg. `metals: [Cr, ...]` is correct (not `Cr-VI`); no speciation flags required.
 - Routing: `matrices: [root-vegetable, leafy-vegetable]` retained as the dominant matrix-slug convention for vegetable-occurrence sources in the corpus (25 / 21 instances vs. 9 / 3 for the plural variants per the 2026-05-20 sweep). `products: [spinach, leafy-vegetables-other, root-tuber-vegetables]` routes this source as direct occurrence evidence for the current product pages that cover the species measured.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21ad3c3](https://github.com/paleofoundation/heavymetalindex/commit/21ad3c3) | 2026-05-20 | ingest: sultana2022-dhaka-root-leafy-vegetables [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

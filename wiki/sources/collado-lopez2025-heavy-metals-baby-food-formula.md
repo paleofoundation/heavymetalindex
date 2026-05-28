@@ -23,6 +23,9 @@ reviewed_study_n: 75
 reviewed_baby_food_n: 580
 reviewed_formula_n: 251
 sample_population: "75 included studies covering 580 baby foods and 251 infant formulas"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -112,3 +115,17 @@ Microbiome: No direct microbiome endpoint.
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+| [e9ee7e6](https://github.com/paleofoundation/heavymetalindex/commit/e9ee7e6) | 2026-05-07 | Clear formula P0 route-fit blockers |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [3b4fb18](https://github.com/paleofoundation/heavymetalindex/commit/3b4fb18) | 2026-04-29 | Map Collado-Lopez review evidence layer |
+<!-- END: hmi-page-history -->

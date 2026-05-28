@@ -19,6 +19,9 @@ matrices: [powdered-formula, milk-based-formula, soy-based-formula]
 jurisdictions: [PK]
 sample_n: 17
 sample_population: "Imported infant milk-based and soy-based formulae purchased in Pakistan"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -81,3 +84,17 @@ Microbiome: No direct microbiome endpoint.
 - [[metals/aluminum]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ee06026](https://github.com/paleofoundation/heavymetalindex/commit/ee06026) | 2026-05-08 | clarify benchmark pool percentile rules |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [c889599](https://github.com/paleofoundation/heavymetalindex/commit/c889599) | 2026-04-29 | Split Kazi formula evidence by milk and soy |
+| [1951721](https://github.com/paleofoundation/heavymetalindex/commit/1951721) | 2026-04-29 | Correct p90 jurisdiction methodology |
+<!-- END: hmi-page-history -->

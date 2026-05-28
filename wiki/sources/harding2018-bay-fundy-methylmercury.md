@@ -17,6 +17,9 @@ products: ["[[products/fish-marine-predatory]]", "[[products/seafood]]", "[[prod
 matrices: ["marine-fish-muscle", "shellfish", "marine-food-web"]
 jurisdictions: ["CA", "US"]
 sample_population: "Marine food-web organisms from the outer Bay of Fundy and Gulf of Maine"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -57,3 +60,14 @@ The source strongly supports methylmercury context for predatory marine fish and
 
 - Source identity checked against DOI 10.1371/journal.pone.0197220 and the downloaded PDF.
 - Table 3 fish and shellfish values are transcribed on the wet-weight basis used by the source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

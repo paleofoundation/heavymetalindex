@@ -20,6 +20,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 10
 sample_population: "10 raw cow milk samples from different regions of Muş province, eastern Turkey"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -79,3 +82,15 @@ Microbiome: Not addressed in this study.
 - The cited 2011 Turkish Food Codex Contaminants Regulation was repealed by the 2023 regulation. The current Turkish raw-milk Pb anchor is [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk]].
 - Inline audit (Claude Opus 4.7, 2026-05-18): PROMOTE. Codex ingest stopped before its fresh-context audit sub-task could spawn (agent thread limit reached); Claude audited inline as carry-over clearance. Numerical fidelity matches body Key numbers, slug vocabulary all valid against current taxonomy, speciation discipline correct (Pb/Cd as bulk metals), Methods names instrument vendor per Exception 2 of strict brand-firewall, zero consumer-brand naming, no Part 2 firewall violations.
 - Fresh-context audit (v2 skill subagent, 2026-05-19): PROMOTE. All five checks ✅: numerical fidelity confirmed for Pb/Cd/Fe/Cu/Mn/Mg/Zn ranges and Ca/Na/K maxima against Table 2 p. 3; slug vocabulary all in taxonomy snapshot; speciation correct (no As/Hg measured, no false speciation); brand firewall clean (only instrument-vendor mention is Agilent 240FS AA, permitted per Exception 2); wiki/HMTc firewall clean. No corrections required.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ef380b8](https://github.com/paleofoundation/heavymetalindex/commit/ef380b8) | 2026-05-19 | audit: yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus promoted |
+| [4477417](https://github.com/paleofoundation/heavymetalindex/commit/4477417) | 2026-05-18 | audit (claude): clear Codex carry-over — yildiz-kucuk2024 + Turkish 2023 regulation + index |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

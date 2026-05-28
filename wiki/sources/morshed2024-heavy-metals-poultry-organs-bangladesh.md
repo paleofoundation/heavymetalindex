@@ -21,6 +21,9 @@ matrices: [poultry-feed, chicken-muscle, chicken-bone, chicken-liver, chicken-ki
 jurisdictions: [BD]
 sample_n: 24
 sample_population: "24 day-old broiler chickens divided into 8 experimental groups (C0-C7; 3 birds per group) in Bangladesh and fed graded Pb, Cd, and Cr additions via poultry feed for 28 days"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -89,3 +92,15 @@ Experimental feeding study; 24 day-old broiler chickens were divided into eight 
 - Source-internal table caution: the visible Table 3.5 Cd block is headed "Deposition of chromium" even though the first column says "Concentration of Cd in Feed"; the visible Cd values place liver above bone at C7 (43.36 vs 20.72 mg/kg dry basis), while the abstract says bone had the highest Cd concentration. This page reports the visible table values and flags the contradiction rather than resolving it silently.
 - The Cr organ-deposition block is visible only through C3 in this PDF; the continuation rows for C4-C7 are blank/unreadable. The page therefore does not report high-dose Cr organ-deposition values.
 - The `matrices:` terms use source-specific poultry tissue strings because the common matrix list has no exact poultry-organ terms; sibling meat-source pages already use `chicken-muscle` and related tissue matrices for edible tissue routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ecba1e0](https://github.com/paleofoundation/heavymetalindex/commit/ecba1e0) | 2026-05-18 | ingest (codex): morshed2024 poultry organs merge-enhance |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 1274
 sample_population: "1,274 community residents aged ≥40 in Dapeng community (Shenzhen) and Hengqin community (Zhuhai), Guangdong Province, southern China; cross-sectional study 2018; 15 water and soil sampling sites"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -57,3 +60,13 @@ Microbiome: Cd at high environmental concentrations is a known gut microbiome di
 - [[metals/cadmium]]
 - [[health/lead-metabolic-effects]]
 - [[health/cadmium-metabolic-effects]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7c3dcee](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee) | 2026-05-13 | ingest p4-batch15-g2: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

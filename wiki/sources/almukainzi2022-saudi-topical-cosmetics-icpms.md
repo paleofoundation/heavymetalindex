@@ -21,6 +21,9 @@ jurisdictions: [SA, US, EU]
 near_duplicates: []
 sample_n: 21
 sample_population: "Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was driven by a 447-respondent online survey (88.8% female, 68.9% aged 19-40 years, 70.2% with bachelor degrees) that identified the most frequently used product categories; one representative commercial sample was purchased per category, except toothpaste where two samples representing two different abrasive formulations (hydrated silica with sodium fluoride; calcium carbonate with sodium monofluorophosphate) were tested. The 21 categories sampled were: sunblock cream, BB cream, lip balm, hand cream, hair cream, shampoo, facial cleanser, baby oil, baby (talcum) powder, bar soap, permanent hair dye, makeup powder, makeup mousse cream, mascara, deodorant, paraffin/mineral oil, shaving cream, lipstick, two toothpastes, and body lotion. Sample collection dates and lot numbers are not reported."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -182,3 +185,14 @@ All samples passed visual inspection (no lumps, grit, discoloration, characteris
 - 2022-10-31 (publication): Scientific Reports 12:18299. Received 29 July 2022, accepted 30 September 2022, published 31 October 2022. CC BY 4.0.
 - 2026-05-18 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read in 11-page chunks via the `pages` parameter; all of abstract, methods, Tables 1-4, Figure 3 (microbial), Figure 4 (graphical summary), discussion, and references read in full. Source page written, routing audit refreshed (13 routing rows, 0 unresolved, advisory-only malformed for missing optional ingredients:), ingest committed, audit queued.
 - 2026-05-18 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict REVISE. Five Check-1 numerical-fidelity findings flagged; on independent verification against pdftotext extraction of page 8, all five Table 4 transcription errors confirmed and corrected (sample 12 Fe mean digit-drop, sample 12 Mn precision, sample 18 Co SD, sample 1 and 3 Ni SD rounding). Check-3 Methods H₂O₂ grouping error confirmed against Table 2 and corrected. Check-2 ❌ on product slugs rejected as false positive (taxonomy-snapshot.md is a curated subset; all slugs exist in wiki/products/ and resolve in the routing layer). Check-5 borderline phrasing softened. Bolding strategy reformed to remove unverifiable cell-level highlighting reproduction and replaced with text-derived exceedance summary. All paper-internal inconsistencies (Cd-discussion vs Cd-table, abstract microbial range vs Table 3, sample 16 paraffin vs silicone label, Mn three-decimal-place outlier) flagged in Verification notes for downstream synthesis.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [757d0f0](https://github.com/paleofoundation/heavymetalindex/commit/757d0f0) | 2026-05-18 | audit: almukainzi2022-saudi-topical-cosmetics-icpms revised |
+| [b4ac734](https://github.com/paleofoundation/heavymetalindex/commit/b4ac734) | 2026-05-18 | autonomy: daemon tick 2026-05-17T22-36-15Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

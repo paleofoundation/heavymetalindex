@@ -19,6 +19,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 182
 sample_population: "River water samples from 13 sites along the full 1,376 km Yamuna stretch in Uttar Pradesh, India; sampled during monsoon (July–October) and non-monsoon (November–June) seasons, 2011–2018; 7 samples/site/season"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -78,3 +81,13 @@ Water samples collected from 30–50 cm depth at center of river using grab meth
 - [[metals/nickel]]
 - [[supply-chain/irrigation-water]]
 - [[regulations/india-bis-drinking-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [531487a](https://github.com/paleofoundation/heavymetalindex/commit/531487a) | 2026-05-13 | ingest p4-batch15-g1: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

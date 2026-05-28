@@ -17,6 +17,9 @@ products: ["[[products/seafood]]"]
 matrices: ["fish", "fish-products", "swordfish", "shark", "king-mackerel"]
 jurisdictions: ["SK"]
 sample_population: "Fish and fish-product samples from food retail in Eastern Slovakia and fish from the Ruzin water reservoir"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -54,3 +57,14 @@ The source supports fish/seafood total-mercury surveillance context for Slovakia
 
 - Source identity checked against DOI 10.26444/aaem/84934 and the downloaded PDF.
 - The paper reports total mercury, not methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

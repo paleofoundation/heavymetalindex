@@ -20,6 +20,9 @@ jurisdictions: [KR]
 near_duplicates: []
 sample_n: 120
 sample_population: "120 disposable food containers (paper and plastic) from South Korean markets; migration into food simulants measured"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -44,3 +47,15 @@ App: Not directly applicable for ingredient-level contamination profiles; releva
 - [[supply-chain/food-packaging-migration]]
 - [[metals/lead]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [3030042](https://github.com/paleofoundation/heavymetalindex/commit/3030042) | 2026-05-12 | ingest: P2 remaining-group2 — 23 source pages, 32 false positives |
+<!-- END: hmi-page-history -->

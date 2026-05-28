@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
 sample_population: "Rice varieties grown in Cd-contaminated pot experiments with silicon foliar spray treatments"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -44,3 +47,13 @@ App: Supports flagging brown rice as higher-risk variant versus Si-treated or wh
 - [[metals/cadmium]]
 - [[ingredients/rice]]
 - [[ingredients/brown-rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9795863](https://github.com/paleofoundation/heavymetalindex/commit/9795863) | 2026-05-13 | ingest p4-batch16-g4: 10 pages, 38 FP |
+<!-- END: hmi-page-history -->

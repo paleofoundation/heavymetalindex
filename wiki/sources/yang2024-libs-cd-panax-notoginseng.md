@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
 sample_population: "Panax notoginseng (tienchi ginseng) botanical samples analysed for Cd by laser-induced breakdown spectroscopy (LIBS)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -38,3 +41,17 @@ Courses: Demonstrates LIBS as a rapid screening tool for botanical ingredients.
 
 ## Wiki pages updated on ingest
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [3030042](https://github.com/paleofoundation/heavymetalindex/commit/3030042) | 2026-05-12 | ingest: P2 remaining-group2 — 23 source pages, 32 false positives |
+<!-- END: hmi-page-history -->

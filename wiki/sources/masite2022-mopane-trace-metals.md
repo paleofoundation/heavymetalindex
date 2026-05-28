@@ -19,6 +19,9 @@ jurisdictions: [ZA]
 near_duplicates: []
 sample_n: 3
 sample_population: "Roasted mopane worms (Gonimbrasia belina), sweet corn, and peanuts purchased from South African markets"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -44,3 +47,15 @@ App: Supports contamination_profile entries for edible-insect and peanut ingredi
 - [[ingredients/edible-insects]]
 - [[metals/cadmium]]
 - [[metals/tAs]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [7da5b3c](https://github.com/paleofoundation/heavymetalindex/commit/7da5b3c) | 2026-05-13 | ingest p4-batch16-g1: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

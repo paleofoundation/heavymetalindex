@@ -18,6 +18,9 @@ ingredients: ["[[ingredients/canned-corn]]", "[[ingredients/canned-fruit-cocktai
 products: ["[[products/fruit-juice-not-canned]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]", "[[products/seafood]]", "[[products/canned-fish]]"]
 matrices: [canned-food, canned-juice, seafood, drinking-water, blood, urine, tissue]
 jurisdictions: [US]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -75,3 +78,15 @@ Profile authored by C. Harper, F. Llados, G. Diamond, and L. L. Chappell with pe
 - [[ingredients/apple-juice]]
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [d04abbc](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc) | 2026-05-08 | ingest: digest-batch-1-tin — 4 sources, 2 species pages, parent expansion |
+<!-- END: hmi-page-history -->

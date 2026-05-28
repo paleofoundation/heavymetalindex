@@ -20,6 +20,9 @@ jurisdictions: [CA]
 near_duplicates: []
 sample_n: null
 sample_population: "Nunavik (northern Quebec), Canada. Country-food ingredients sampled with Inuit partners from Inukjuak, Kangiqsualujjuaq, Puvirnituq, and Salluit: lake trout (Salvelinus namaycush, n=9 muscle for cooking experiment; additional n=43 large individuals >0.5 kg for THg distribution analysis; subset for cheek/tongue/brain), Arctic char (Salvelinus alpinus, n=4 muscle for cooking experiment plus head organs), brook trout (Salvelinus fontinalis) and lake whitefish (Coregonus clupeaformis) as comparison fish species, mussel (Mytilus edulis, n=5), clam (Mya truncata, n=5), seaweed (Alaria esculenta, n=10), plus tap water and broths prepared per traditional Inuit recipes. A separate experiment evaluated an iron-releasing nutritional device used to fortify broths."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -195,3 +198,13 @@ Findings rejected (false positives):
 - Audit flagged `drinking-water` as a non-snapshot matrices slug. Verified against `docs/gpt-collaboration/system-prompt.md` matrices vocabulary list: "drinking-water" is in the controlled vocab.
 - Audit deferred the Lucky Iron Fish naming as a borderline Part 12 call. Decision retained: the device is the explicit subject of one of the four experiments in the paper and is being evaluated against its own marketing claim (not ranked against competitors for contamination). Without naming it, the finding cannot be traced to the cited Armstrong 2016 and Charles 2012 references. The Part 12 spirit (no brand-ranking-by-contamination) is preserved because the value attached is *non-contamination* (sub-marketed iron release). Karen-level policy override welcome.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [90553a4](https://github.com/paleofoundation/heavymetalindex/commit/90553a4) | 2026-05-18 | audit: groleau2025-inuit-fish-broth-metals-pregnancy revised |
+| [35c74a8](https://github.com/paleofoundation/heavymetalindex/commit/35c74a8) | 2026-05-18 | ingest: groleau2025-inuit-fish-broth-metals-pregnancy enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

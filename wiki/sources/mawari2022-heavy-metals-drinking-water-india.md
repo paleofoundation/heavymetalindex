@@ -19,6 +19,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 7
 sample_population: "7 industrial area sampling locations in Maharashtra, India; urinary Hg and As biomarkers in workers/residents"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -55,3 +58,13 @@ App: Drinking-water Pb, Cd, As, and Hg data from this paper apply to water-expos
 - [[metals/mercury]]
 - [[metals/arsenic]]
 - [[regulations/india-bis-drinking-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5d7a39a](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a) | 2026-05-13 | ingest p4-batch16-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

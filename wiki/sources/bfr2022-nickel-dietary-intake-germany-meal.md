@@ -20,6 +20,9 @@ matrices: [ready-to-eat-food, dietary-intake, total-diet-study]
 jurisdictions: [DE, EU]
 sample_n: 840
 sample_population: "840 food pools from 356 foods representing 90%+ of German food consumption; adults and adolescents N=13,926 (NVS II, 2005-2006); children N=732 (VELS study, 2001-2002)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -137,3 +140,17 @@ Phase 2 audit application 2026-05-20 (fresh-context Agent subagent, verdict REVI
 - [[products/snacks-crackers-biscuits]]
 - [[products/chocolate]]
 - [[regulations/efsa-nickel-tdi]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99394c0](https://github.com/paleofoundation/heavymetalindex/commit/99394c0) | 2026-05-20 | audit: bfr2022-nickel-dietary-intake-germany-meal [revised] |
+| [e37bac4](https://github.com/paleofoundation/heavymetalindex/commit/e37bac4) | 2026-05-20 | ingest: bfr2022-nickel-dietary-intake-germany-meal [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

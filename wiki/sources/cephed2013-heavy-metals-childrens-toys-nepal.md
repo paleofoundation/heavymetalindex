@@ -24,6 +24,9 @@ jurisdictions: [NP]
 near_duplicates: []
 sample_n: 100
 sample_population: "100 children's toys/play-items purchased from markets across Kathmandu Valley (Banepa, Asan, Mahabauddha, Pulchowk, Baneshwor, Lagankhel, Balkumari) and Dhulikhel Municipality, Nepal. Composition: plastic 63%, metal 11%, wood 9%, rubber 7%, fabric 4%, clay 3%, foam 2%, paper 1%. Country of manufacture (per product labelling where available): China 66%, India 4%, Nepal 2%, other (Sri Lanka, Thailand, Taiwan, Hong Kong, USA, etc.) 5%, unlabelled 23%. Purchase channels: retailer shops 56, shopping malls 23, departmental stores 10, educational enterprises 6, street vendors 5. Item categories per Annex 1 included balls, dolls, toy guns, water bottles, kitchen toys/playsets, toy cars and vehicles, puzzles, masks, magnetic letters, wooden blocks, rattles, watches, cameras, costume goggles, musical/sound items, and clay/rubber craft items. Companion questionnaire surveys of parents, school administrators, and retailers were conducted in parallel and reported in Section 11.2."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -140,3 +143,14 @@ Statistical analysis: results are reported as detection counts, concentration ra
 
 - 2026-05-18 fresh-context audit subagent (Claude general-purpose) flagged the `products/toys-painted` and `products/toys-substrate-materials` slugs as not present in the 2026-05-17 taxonomy snapshot. Verified independently via direct filesystem read: both pages exist on disk as locked HMTc Category 21 (Children's Toys, Arts, and Crafts) scaffolds — Row 1 (toys-painted, updated 2026-05-18) and Row 2 (toys-substrate-materials, updated 2026-05-17). The taxonomy snapshot is dated 2026-05-17 at commit e442cbe and simply does not yet enumerate the Cat 21 scaffolds. Finding logged as false positive on slug existence; both slugs are valid routing destinations.
 - 2026-05-18 audit also confirmed all five checks clean on numerical fidelity (Pb/Hg/Cd/Cr/Br detection counts, ranges, percentages, composition + country + market-channel tables, questionnaire numbers, import trends, Table 3 ceilings), speciation discipline (XRF correctly mapped to tHg + Cr without speciation claims), brand firewall (Annex 1 brand-bearing item names — Nivia, Spider Man, Mickey, Angry Bird, Pizza Party Creatives — correctly aggregated to generic categories; Yuhan-Kimberly correctly framed as funder; FHAN/NBSM lab naming permitted under Exception 2), and Part 2 wiki/HMTc firewall (no threshold proposals, no consumer advisories, no cross-source synthesis). One internal-to-source numerical inconsistency surfaced: PDF Section 11.3 point 3 (p. 23) prints "9 ppm to 409.5 ppm" for the Cd range, while Table 5 (p. 22) and the Executive Summary (p. 4) both print "16.2 ppm to 409.5 ppm" — the Table-5 value is used here as the authoritative figure.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a2b0756](https://github.com/paleofoundation/heavymetalindex/commit/a2b0756) | 2026-05-18 | audit: cephed2013-heavy-metals-childrens-toys-nepal revised |
+| [a013adb](https://github.com/paleofoundation/heavymetalindex/commit/a013adb) | 2026-05-18 | ingest: cephed2013-heavy-metals-childrens-toys-nepal fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+<!-- END: hmi-page-history -->

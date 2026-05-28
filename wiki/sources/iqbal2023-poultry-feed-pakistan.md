@@ -19,6 +19,9 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: 39
 sample_population: "6 solid feeds, 6 liquid feeds (water), 33 livers (composite from 6 farms), 33 breast muscles (composite), 33 thigh muscles (composite), 5 egg-albumen and 5 egg-yolk samples (whole egg also analyzed) from 6 layer-breed poultry farms in Rawalpindi/Islamabad, Pakistan"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -69,3 +72,13 @@ Six layer-breed chicken samples from each of six farms in Rawalpindi/Islamabad. 
 - Cr reported is total Cr by ICP-OES; Cr-VI speciation was NOT performed. Per Part 14 the wiki must keep total Cr distinct from Cr-VI; this source contributes only to total Cr.
 - Hg "not detected" by ICP-OES; LOD not reported. Whether Hg was truly absent or below ICP-OES sensitivity cannot be inferred from the paper.
 - Composite sampling: although text states "33 liver, 33 breast, 33 thigh samples collected", the analysis was composited to one value per farm (n=6 per tissue type). The reported per-farm means in Table 1 reflect those composites, not individual-bird measurements.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

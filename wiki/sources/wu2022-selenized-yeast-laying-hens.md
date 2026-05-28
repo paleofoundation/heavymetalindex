@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 160
 sample_population: "Laying hens in controlled feeding experiment, China, 12-week study"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -48,3 +51,13 @@ App: Eggs can carry Pb, Cd, Hg, and Cr at detectable concentrations when hens ar
 - [[ingredients/eggs]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3153dee](https://github.com/paleofoundation/heavymetalindex/commit/3153dee) | 2026-05-13 | ingest p4-batch15-g4: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

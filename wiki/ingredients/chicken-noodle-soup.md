@@ -85,6 +85,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-13
 sources: 1
 ---
@@ -197,3 +198,16 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 multi-element occurrence distributions for Soup, chicken noodle, canned, condensed, prepared with water (n=3); detectable concentrations for Cd, Ni |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [aa5fd53](https://github.com/paleofoundation/heavymetalindex/commit/aa5fd53) | 2026-05-13 | profiles: populate contamination_profile values on 18 ingredient pages (batch 2/7) |
+| [be65f8d](https://github.com/paleofoundation/heavymetalindex/commit/be65f8d) | 2026-05-13 | pages: draft missing mandatory sections on 24 ingredient pages (cauliflower → eggs) |
+| [a358a07](https://github.com/paleofoundation/heavymetalindex/commit/a358a07) | 2026-05-13 | source-legend: populated 109 awaiting-synthesis cells across 92 ingredient pages |
+<!-- END: hmi-page-history -->

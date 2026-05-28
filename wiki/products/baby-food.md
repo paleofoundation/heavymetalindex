@@ -13,6 +13,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 3
+wiki_doi: null
 updated: 2026-05-17
 ---
 
@@ -75,3 +76,17 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 ## Historical recalls and enforcement
 
 No recall or enforcement synthesis has been promoted for this provisional broad page. The current regulatory context comes from source-reported comparisons: FDA TDS results were below the action levels or standards it evaluated for apple juice, infant rice cereal, chocolate/hard candy, bottled water, and fish mercury screening. Enforcement history should be summarized on locked product rows when the relevant product scope is clear, and should remain framed as regulatory event context rather than brand ranking.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6dc39cc](https://github.com/paleofoundation/heavymetalindex/commit/6dc39cc) | 2026-05-25 | fill baby-food synthesis prose |
+| [1ac7363](https://github.com/paleofoundation/heavymetalindex/commit/1ac7363) | 2026-05-20 | autonomy: daemon tick 2026-05-19T22-04-26Z — gap-healing + extraction + pooling + briefings |
+| [6dcb44d](https://github.com/paleofoundation/heavymetalindex/commit/6dcb44d) | 2026-05-19 | autonomy: daemon tick 2026-05-18T21-04-04Z — gap-healing + extraction + pooling + briefings |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [e5675da](https://github.com/paleofoundation/heavymetalindex/commit/e5675da) | 2026-05-17 | autonomy: daemon tick 2026-05-17T18-36-31Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

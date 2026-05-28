@@ -18,6 +18,9 @@ matrices: [food]
 jurisdictions: [GB]
 sample_n: null
 sample_population: "UK infant food products and their generic (non-infant-labeled) equivalents, purchased from 24 retailers in Northern Ireland, 2017"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -54,3 +57,13 @@ The data document rapid manufacturer response to infant food regulations, demons
 - [[metals/iAs]]
 - [[ingredients/rice]]
 - [[ingredients/cereal]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [475eaa6](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6) | 2026-05-25 | sources: clean up junk cite-keys — rename 6, delete 4 off-scope/dupes |
+<!-- END: hmi-page-history -->

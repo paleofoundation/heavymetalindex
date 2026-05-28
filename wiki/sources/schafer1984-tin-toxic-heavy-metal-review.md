@@ -16,6 +16,9 @@ ingredients: ["[[ingredients/apple-juice]]", "[[ingredients/canned-fruit-cocktai
 products: ["[[products/canned-fish]]"]
 matrices: [canned-food, drinking-water, occupational]
 jurisdictions: [DE]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -43,3 +46,15 @@ The 1984 review predates substantial subsequent tin literature including the mod
 - [[metals/tin]]
 - [[metals/tin-inorganic]]
 - [[metals/organotins]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [31bae2b](https://github.com/paleofoundation/heavymetalindex/commit/31bae2b) | 2026-05-08 | lint: fix DOI audit failures on tin source pages |
+| [d04abbc](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc) | 2026-05-08 | ingest: digest-batch-1-tin — 4 sources, 2 species pages, parent expansion |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: null
 sample_population: "Apple (Golden Delicious) irrigated with urban treated wastewater vs. clean water controls; field experiment 2021-2023, Iran"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -44,3 +47,13 @@ App: Apple risk profile should note irrigation water quality as a key driver, pa
 - [[metals/chromium]]
 - [[ingredients/apple]]
 - [[supply-chain/irrigation-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [05433b8](https://github.com/paleofoundation/heavymetalindex/commit/05433b8) | 2026-05-13 | ingest p4-batch17-g2: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

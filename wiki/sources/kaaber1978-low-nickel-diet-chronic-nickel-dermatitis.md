@@ -18,6 +18,9 @@ matrices: [chronic-nickel-dermatitis, low-nickel-diet, oral-nickel-challenge, ur
 jurisdictions: [DK]
 sample_n_total: 28
 sample_n_notes: "28 patients with chronic nickel dermatitis at The Finsen Institute (Copenhagen); 17 had aggravation after oral 2.5 mg nickel challenge with no placebo reaction; 14 of 17 had 24-hour urinary nickel quantified before, during, and after diet by AAS"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -49,3 +52,13 @@ Single-site prospective. Inclusion: chronic nickel dermatitis with positive oral
 
 - [[metals/nickel]]
 - [[health/nickel-allergy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

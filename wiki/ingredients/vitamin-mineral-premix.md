@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, infant-formula-concentrated-liquid-non-soy, infant-formula-concentrated-liquid-soy-based, infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 0
 ---
@@ -163,3 +164,16 @@ Vitamin-mineral premix is itself an ingredient in finished products; it does not
 - [[regulations/california-prop65]] California Prop 65 Pb MADL applies to fortified products sold in California; commercial settlements have established the practical compliance thresholds for premix-fortified products.
 - ISO 22000 and FSSC 22000 food-safety management standards apply to premix manufacturing facilities and constrain QC practice for impurity testing.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fcd0203](https://github.com/paleofoundation/heavymetalindex/commit/fcd0203) | 2026-05-17 | synthesis: rice-cereal, vitamin-mineral-premix, tomato-paste, breastmilk — 6 narrative sections each |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [3268b89](https://github.com/paleofoundation/heavymetalindex/commit/3268b89) | 2026-05-08 | schema: migrate ingredient_profile to 10-metal standard |
+| [a827c37](https://github.com/paleofoundation/heavymetalindex/commit/a827c37) | 2026-05-02 | add ingredient page titles |
+<!-- END: hmi-page-history -->

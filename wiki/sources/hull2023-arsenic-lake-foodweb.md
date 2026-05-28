@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 10
 sample_population: "Organisms from 10 urban lakes in Puget Sound lowlands, Washington State; includes periphyton, phytoplankton, zooplankton, snails, insect larvae, and two sunfish species (Lepomis gibbosus and L. macrochirus)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -56,3 +59,15 @@ Microbiome: Not applicable.
 
 - [[ingredients/freshwater-fish]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [e307b95](https://github.com/paleofoundation/heavymetalindex/commit/e307b95) | 2026-05-13 | ingest p4-batch10-g4: 4 pages, 48 FP |
+<!-- END: hmi-page-history -->

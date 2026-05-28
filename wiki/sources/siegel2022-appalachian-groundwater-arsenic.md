@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 216
 sample_population: "Domestic well and spring water samples from eastern Ohio and northwestern West Virginia, northwestern Appalachian Basin"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -60,3 +63,13 @@ App: Background exposure context; domestic well water quality in rural regions i
 
 - [[metals/arsenic]]
 - [[metals/manganese]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [63a84a1](https://github.com/paleofoundation/heavymetalindex/commit/63a84a1) | 2026-05-13 | ingest p4-batch15-g3: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

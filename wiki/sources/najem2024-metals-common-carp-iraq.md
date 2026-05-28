@@ -20,6 +20,9 @@ jurisdictions: [IQ]
 near_duplicates: []
 sample_n: 10
 sample_population: "10 common carp (Cyprinus carpio L.) from local Baqubah markets, Diyala province, Iraq; fish sourced from aquaculture in earthen ponds and cages in the Tigris River; sampled September 2022–January 2023"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -68,3 +71,15 @@ App: tAs/Pb/tHg occurrence data for farmed common carp from Tigris River aquacul
 - [[metals/mercury]]
 - [[metals/lead]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [ff4abae](https://github.com/paleofoundation/heavymetalindex/commit/ff4abae) | 2026-05-13 | ingest p4-batch8-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

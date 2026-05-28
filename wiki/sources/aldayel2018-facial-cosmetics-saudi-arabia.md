@@ -21,6 +21,9 @@ jurisdictions: [SA]
 near_duplicates: []
 sample_n: 30
 sample_population: "Thirty facial-cosmetic samples representing nine 'most expensive' facial-cosmetic brands purchased from the Saudi Arabian (Riyadh) market. Four product types were sampled across the nine brands: Base jelly (9 samples), Whitener (4 samples), Sheen (9 samples), and Face powder (8 samples). Sample codes in the source tables (C1, C6, C8, C9, C14, C16, C17, C22, C24, C25, C26, C33, C35, C36, C37, C42, C44, C45, C46, C51, C53, C55, C60, C62, C63, C68, C70, C71, C76, C78) are the source's anonymized per-sample identifiers; brand identities are not disclosed in the paper. Sample collection dates and lot numbers are not reported."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -316,3 +319,14 @@ The Saudi Standards, Metrology and Quality Organization standard for rouge sampl
 - 2018-01-12 (publication): Natural Products Chemistry & Research 6(1): 1000303. Received Nov 5 2017; accepted Dec 18 2017; published Jan 12 2018. CC BY (open access).
 - 2026-05-18 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read via the Read tool. All nine pages of the PDF read in full (abstract, introduction, materials and methods, Tables 1-4 method tables, Tables 5-8 results tables for Base jelly / Whitener / Sheen / Face powder, Results and Discussion narrative, conclusion, acknowledgement, 54 references). Source page written; routing audit refreshed (2 product-page rows; 0 unresolved; 0 blocking malformed; skin-lightening-cream slug declared but filtered from routing per retirement status); ingest committed at 6cf21f7; queued for audit.
 - 2026-05-18 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict PROMOTE. SRM Table 2 (27 elements), all four product-type tables (Tables 5-8; 28 element rows each across 30 samples), authors' ranking summary, HMTc-maxima cross-reference table, and unit conversions all verified against PDF. One Check 1 ⚠️ on the EU 76/768/EEC ban-list passage — verified against PDF p. 2 as a false positive (the PDF text explicitly names "Cd, Co, Cr, Ni, and Pb"; the wiki transcription is correct). Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall), 5 (Part 2 wiki/HMTc firewall) all ✅. No corrections applied; false-positive documented in Verification notes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f94261d](https://github.com/paleofoundation/heavymetalindex/commit/f94261d) | 2026-05-18 | audit: aldayel2018-facial-cosmetics-saudi-arabia promoted |
+| [6cf21f7](https://github.com/paleofoundation/heavymetalindex/commit/6cf21f7) | 2026-05-18 | ingest: aldayel2018-facial-cosmetics-saudi-arabia fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+<!-- END: hmi-page-history -->

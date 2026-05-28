@@ -19,6 +19,9 @@ products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-gra
 matrices: [white-rice, brown-rice, basmati-rice, jasmine-rice, sushi-rice, infant-cereal, alternative-grains]
 jurisdictions: [US]
 sample_n: 697
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -83,3 +86,16 @@ This is a B-tier NGO/advocacy report, not peer-reviewed. Data for alternative gr
 - [[ingredients/quinoa]]
 - [[products/infant-cereal]]
 - [[regulations/fda-ctz-iAs-cereal-100ppb]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

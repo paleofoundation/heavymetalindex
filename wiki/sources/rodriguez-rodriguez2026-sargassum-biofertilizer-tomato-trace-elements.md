@@ -19,6 +19,9 @@ matrices: [tomato-fruit, vegetable]
 jurisdictions: [ES]
 sample_n: null
 sample_population: "Tomato fruit (Solanum lycopersicum) from greenhouse trials, Spain; biofertilizer vs. control treatment groups"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -48,3 +51,15 @@ App: Reinforces near-zero contamination estimates for fresh tomato fruit for Pb,
 - [[metals/arsenic]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [ffb0c50](https://github.com/paleofoundation/heavymetalindex/commit/ffb0c50) | 2026-05-12 | ingest: P2 sub-batch 1 — 26 analytical-method source pages (2025-2026 sensor/biosensor papers) |
+<!-- END: hmi-page-history -->

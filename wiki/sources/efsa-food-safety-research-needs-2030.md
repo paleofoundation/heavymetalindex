@@ -20,6 +20,9 @@ ingredients: []
 products: []
 jurisdictions: [EU]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-25
 ---
 
@@ -32,3 +35,15 @@ This 2019 EFSA editorial collected views from outgoing members of EFSA's Scienti
 ## Wiki pages updated on ingest
 
 - [[overview]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [75db1fe](https://github.com/paleofoundation/heavymetalindex/commit/75db1fe) | 2026-04-25 | Misc reports batch + ATSDR Ni 2024: 4 source pages |
+<!-- END: hmi-page-history -->

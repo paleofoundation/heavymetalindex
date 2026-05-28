@@ -19,6 +19,9 @@ matrices: [breast-milk, infant-formula-reconstituted, private-well-water]
 jurisdictions: [US, BD]
 sample_n: null
 sample_population: "Commentary summarizing Carignan et al. 2015 (NHBCS, 72 infants) and Fångström et al. 2008 (Bangladesh cohort) research; no primary data"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -39,3 +42,15 @@ No new data. Wiki content should reference the primary studies directly.
 ## Wiki pages updated on ingest
 
 - (none; primary studies are the authoritative source)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [NG, US, ZA, EG]
 near_duplicates: []
 sample_n: 10
 sample_population: "Ten fruit samples representing apple, pineapple, orange, watermelon, and banana sold in Ogbete market, Enugu, Nigeria; source table records origin labels including USA, South Africa, Egypt, Nigeria, and one local institutional source."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -80,3 +83,13 @@ Microbiome: Not addressed.
 - Created provisional ingredient scaffold [[ingredients/pineapple]] because the measured fruit panel includes pineapple and no pineapple ingredient page existed.
 - Strict brand firewall: no sampled-product brands are named in this source page.
 - The source uses mg/L for fruit heavy-metal results; this page preserves that unit and does not convert to mg/kg.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d784e29](https://github.com/paleofoundation/heavymetalindex/commit/d784e29) | 2026-05-19 | stranded work: 7 Codex auto-gap source pages + 2 ingredient stubs + accumulated daemon artifacts |
+<!-- END: hmi-page-history -->

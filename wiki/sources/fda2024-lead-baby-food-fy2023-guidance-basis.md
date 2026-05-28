@@ -19,6 +19,9 @@ matrices: [baby-food, processed-baby-food, fruit-puree, root-vegetable-puree, in
 jurisdictions: [US]
 sample_n_total: 386
 sample_n_notes: "386 processed baby-food samples from FY2023, used in the development of the Guidance for Industry: Action Levels for Lead in Processed Food Intended for Babies and Young Children, finalized January 2025. Sample numbers in the published table are non-sequential because unrelated samples (samples not used in the guidance) were collected in the same survey and excluded from the published guidance-basis subset."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -56,3 +59,14 @@ The published table covers only the samples used in guidance development; the br
 - [[products/mixed-meals-non-rice]]
 - [[products/mixed-meals-rice-containing]]
 - [[products/meat-and-poultry-purees]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [9d0e44d](https://github.com/paleofoundation/heavymetalindex/commit/9d0e44d) | 2026-05-08 | ingest: digest-batch-2-fda-pb-regulatory — 4 FDA Pb data sources |
+<!-- END: hmi-page-history -->

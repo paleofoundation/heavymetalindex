@@ -19,6 +19,9 @@ jurisdictions: [GR]
 near_duplicates: []
 sample_n: 43
 sample_population: "43 vinegars retailed in Greece: 20 balsamic (12 red-grape BR, 5 red-grape with honey BRH, 3 white-grape BW) and 23 common (10 red wine WR, 8 white wine WW including one champagne and one herb-infused, 5 fruit F: 3 apple, 1 pomegranate, 1 sea buckthorn)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -135,3 +138,16 @@ Page was originally drafted under the legacy `manual-fetch-kimi` handle and last
 - License field corrected from "CC BY" to the source-document's stated "CC BY 4.0".
 
 Auto-audit subagent (2026-05-26) verdict REVISE; Checks 1, 3, 4, 5 all clean. The sole ⚠️ flagged `fruit-vinegar` in `matrices:` as not present in the taxonomy snapshot. Verified against the corpus: the matrices vocabulary is documented in `docs/gpt-collaboration/system-prompt.md` as "bare strings; broad scope" with the rule that the snapshot's "common matrices" list is illustrative and category-specific extensions are accepted (the routing layer treats matrices as a free-text controlled-by-convention field, not a closed enumeration). The corpus already contains ~18 distinct vinegar-prefixed matrices slugs across other source pages (e.g., `apple-vinegar`, `grape-vinegar`, `pomegranate-vinegar`, `fig-vinegar`, `homemade-vinegar`, `date-vinegar`, `sherry-vinegar`, `malt-vinegar`, `balsamic-reduction`, `balsamic-glaze`, etc.). `fruit-vinegar` is the source paper's own subgroup label (the "F" subset comprising 3 apple + 1 pomegranate + 1 sea buckthorn) and the routing audit accepts the source with no `routing_malformed` or `routing_unresolved` entry. Finding documented as a false positive; no page change applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [07a0c16](https://github.com/paleofoundation/heavymetalindex/commit/07a0c16) | 2026-05-26 | audit: karavoltsos2020-copper-trace-metals-vinegars-greece audited-revised |
+| [dc89bab](https://github.com/paleofoundation/heavymetalindex/commit/dc89bab) | 2026-05-26 | ingest: karavoltsos2020-copper-trace-metals-vinegars-greece enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

@@ -17,6 +17,9 @@ products: ["[[products/seafood]]"]
 matrices: ["yellowfin-tuna", "bigeye-tuna", "swordfish"]
 jurisdictions: ["ID"]
 sample_population: "895 official-control mercury records for yellowfin tuna, bigeye tuna, and swordfish from Indian and Pacific Ocean catch areas"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -54,3 +57,14 @@ The source is strong context for ocean-origin and fish-weight stratification in 
 
 - Source identity checked against DOI 10.15578/jpbkp.v14i1.572 and the downloaded PDF.
 - The study reports total mercury, not methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

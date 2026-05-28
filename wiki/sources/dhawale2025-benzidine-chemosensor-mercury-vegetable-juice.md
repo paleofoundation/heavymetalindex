@@ -19,6 +19,9 @@ matrices: [analytical-method, vegetable-juice]
 jurisdictions: []
 sample_n: null
 sample_population: "Vegetable juice samples used as food matrix validation"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -43,3 +46,16 @@ Testing: 3 ppb LOD for Hg in vegetable juice matrices demonstrates that simple o
 ## Wiki pages updated on ingest
 
 - [[testing/mercury-methods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [ffb0c50](https://github.com/paleofoundation/heavymetalindex/commit/ffb0c50) | 2026-05-12 | ingest: P2 sub-batch 1 — 26 analytical-method source pages (2025-2026 sensor/biosensor papers) |
+<!-- END: hmi-page-history -->

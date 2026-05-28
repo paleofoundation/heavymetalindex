@@ -13,6 +13,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 1
+wiki_doi: null
 updated: 2026-05-20
 ---
 
@@ -75,3 +76,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 ## Historical recalls and enforcement
 
 No recall or enforcement synthesis has been promoted for this provisional mixed-solid-food page. The current sources provide exposure and risk-assessment context for inorganic arsenic, especially rice cereal, but do not report a public enforcement event for a mixed solid-food product. Regulatory context should be handled on the relevant locked row, particularly infant rice cereal, when scope is clear.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bb69472](https://github.com/paleofoundation/heavymetalindex/commit/bb69472) | 2026-05-25 | fill infant-solid-foods-mixed synthesis prose |
+| [3a0d086](https://github.com/paleofoundation/heavymetalindex/commit/3a0d086) | 2026-05-20 | autonomy: daemon tick 2026-05-20T06-40-52Z — gap-healing + extraction + pooling + briefings |
+| [c2b716e](https://github.com/paleofoundation/heavymetalindex/commit/c2b716e) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-49-27Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

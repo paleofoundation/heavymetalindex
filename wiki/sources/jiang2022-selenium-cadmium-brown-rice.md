@@ -21,6 +21,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 108
 sample_population: "Three-year field experiment (2017-2019) in Taojiang County, Hunan, China: three rice cultivars grown in low-Cd and high-Cd paddy fields, with foliar sodium-selenite treatment or water control, three replicate plots per treatment."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -79,3 +82,13 @@ Microbiome: Not addressed.
 - Numerical ranges are extracted from Tables 2-4 using the brown-rice column only.
 - The paper reports Cd only for the HMT&C contamination endpoint; Se is an intervention/nutrient element in this source and has no metal page in the current taxonomy snapshot.
 - Methods vendor/equipment names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d784e29](https://github.com/paleofoundation/heavymetalindex/commit/d784e29) | 2026-05-19 | stranded work: 7 Codex auto-gap source pages + 2 ingredient stubs + accumulated daemon artifacts |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [JO]
 near_duplicates: []
 sample_n: 56
 sample_population: "Green and roasted coffee beans from five origins (Brazil, Colombia, Ethiopia, Guatemala, Yemen) sold on the Jordanian market"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -46,3 +49,14 @@ App: Pb, Cd, Ni, Al, Cr, and U values in coffee beans are directly useful for in
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [ea6d558](https://github.com/paleofoundation/heavymetalindex/commit/ea6d558) | 2026-05-13 | ingest p4-batch17-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

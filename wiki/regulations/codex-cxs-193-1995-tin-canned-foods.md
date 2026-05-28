@@ -14,6 +14,7 @@ source_url: "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&ur
 source_refs: ["[[sources/codex-cxs-193-1995]]"]
 title: "Codex CXS 193-1995 - Tin maximum levels for canned foods"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -45,3 +46,13 @@ This is an external Codex comparator, not an HMT&C certification threshold. It i
 
 - Created 2026-05-18 during the Mititelu et al. 2025 ingest after checking the current FAO-hosted Codex CXS 193 PDF.
 - The standard was adopted in 1995 and amended repeatedly. The effective_date field uses 1995-01-01 as a year-level placeholder for the adopted standard; legal users should check the current Codex PDF before relying on a live compliance value.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [de278da](https://github.com/paleofoundation/heavymetalindex/commit/de278da) | 2026-05-18 | ingest (codex): mititelu2025 heavy metal food contamination review |
+<!-- END: hmi-page-history -->

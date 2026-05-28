@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "Synthesis of literature on arsenic concentrations in US brown and white rice; dietary exposure estimates for US populations including children; no new primary measurements"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -48,3 +51,15 @@ App: The brown-rice-vs-white-rice distinction must be reflected in the app's con
 - [[ingredients/brown-rice]]
 - [[ingredients/rice-bran]]
 - [[products/infant-cereal]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [b23e81a](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a) | 2026-05-13 | ingest p4-batch12-g3: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

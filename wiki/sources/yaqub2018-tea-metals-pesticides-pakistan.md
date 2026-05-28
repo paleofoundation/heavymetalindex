@@ -19,6 +19,9 @@ products: ["[[products/tea]]"]
 matrices: [tea-leaves, tea-dry]
 jurisdictions: [PK]
 sample_n: 77
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -58,3 +61,15 @@ Pb, Cd, As, and Ni not measured — the four highest-priority HMT&C analytes are
 ## Wiki pages updated on ingest
 
 - [[ingredients/tea]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

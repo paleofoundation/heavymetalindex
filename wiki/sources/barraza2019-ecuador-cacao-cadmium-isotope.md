@@ -19,6 +19,9 @@ products: []
 matrices: [cacao-beans, cacao-leaves, cacao-pod-husk, cacao-soil]
 jurisdictions: [EC]
 sample_n: 3
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -45,3 +48,13 @@ App: Ecuador high-altitude provenance remains the highest Cd risk for cocoa-bean
 - [[ingredients/cocoa]]
 - [[metals/cadmium]]
 - [[supply-chain/soil-cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

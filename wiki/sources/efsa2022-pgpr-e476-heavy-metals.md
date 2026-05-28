@@ -19,6 +19,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: 13
 sample_population: "13 commercial samples of food additive PGPR (E 476) analyzed by IBO; reviewed by EFSA FAF Panel"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -61,3 +64,13 @@ App: PGPR is a food additive ingredient in chocolate and emulsified sauces; its 
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[regulations/eu-2023-food-additive-specifications]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [011a298](https://github.com/paleofoundation/heavymetalindex/commit/011a298) | 2026-05-13 | ingest p4-batch14-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

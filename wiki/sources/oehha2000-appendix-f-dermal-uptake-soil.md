@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "Regulatory guidance; per-chemical dermal absorption fraction (ABS) point estimates derived from review of in-vivo and in-vitro percutaneous-absorption studies (no primary measurement)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -87,3 +90,17 @@ OEHHA-issued regulatory technical support document; no primary measurement. Per-
 - 2026-05-17 cross-vendor audit (Codex): Corrected the lead primary-study attribution so the 29% disappearance-technique estimate is attributed to Stauber et al. 1994 only (F.1.3.5, p. F-15); Lilly et al. 1988 reported sweat/saliva biomonitoring increases without deriving a percent absorbed. Tightened Certification implications to remove cross-source ATSDR comparison and HMTc-specific threshold-modeling language not stated in Appendix F.
 - 2026-05-17 fresh-context audit subagent (Claude Opus 4.7): all Key-numbers values verified ✅ against the PDF (As 4%, Be 1%, Cd 0.1%, Cr-VI 1%, Pb 1%, Hg 10%, Ni 4%, PCBs 14%, TCDD 2%, BaP 13%, HCH 10%, DEHP 10%); cadmium page reference tightened from "p. F-11" to "pp. F-11 to F-12" since the OEHHA recommendation statement is on F-12 (Table 6.12 is on F-11); Certification implications further softened to drop the "relevant when dermal Hg contribution needs to be bounded" clause flagged as HMTc-direction framing. Audit verdict: REVISE (now applied).
 - 2026-05-17 audit false-positive note: the audit subagent flagged `Be` in the `metals:` frontmatter as ⚠️ not in the system-prompt metal-abbreviation list. Verified against corpus: `Be` is used consistently in 7+ existing source pages (atsdr2023-soil-dermal-absorption-guidance, stefaniak2014-ni-be-cr-artificial-sweat, krasnopyorova2024-almaty-surface-water, ravalli2022-uranium-metals-us-water-systems, ufelle2021-metals-chapter, yan2025-infant-serum-26-metals-gut-microbiota-china) as the standard chemistry abbreviation for beryllium, and the `metals/beryllium` wiki page exists in the taxonomy snapshot. Finding rejected as false positive; `Be` retained.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [08e6d78](https://github.com/paleofoundation/heavymetalindex/commit/08e6d78) | 2026-05-17 | audit: oehha2000-appendix-f-dermal-uptake-soil revised |
+| [d54ed1e](https://github.com/paleofoundation/heavymetalindex/commit/d54ed1e) | 2026-05-17 | audit (codex): oehha2000 dermal uptake revised |
+| [d788683](https://github.com/paleofoundation/heavymetalindex/commit/d788683) | 2026-05-17 | autonomy: daemon tick 2026-05-17T16-58-32Z — gap-healing + extraction + pooling + briefings |
+| [78c95c2](https://github.com/paleofoundation/heavymetalindex/commit/78c95c2) | 2026-05-17 | ingest: oehha2000-appendix-f-dermal-uptake-soil enhanced from MFK/Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

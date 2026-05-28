@@ -21,6 +21,9 @@ matrices: [fish]
 jurisdictions: [US]
 sample_n: 272
 sample_population: "240 canned tuna samples (5 brands × 4 types × 3 lots × 2 composites), 16 canned salmon samples (2 brands × 1 lot × 4 composites), 16 canned mackerel samples (2 brands × 1 lot × 4 composites); purchased in Lafayette, Indiana, USA in 2003"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -96,3 +99,14 @@ Total mercury measured using Thermal Decomposition Gold Amalgamation Atomic Abso
 - Strict Part 12 brand-firewall cleanup: source Table 1 names sampled brands, but this wiki page aggregates rows by product form/species and omits all sampled brand names.
 - Numerical correction: prior page gave light-tuna-in-water EPA+DHA as ~268 mg/100 g; Table 1 values sum to 213, 313, and 339 mg/100 g, mean ~289 mg/100 g.
 - The authors' 185 ppb recommendation and label proposal are reported only as source-side risk-management statements; they are not adopted here as HMT&C standards or consumer advice.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [14e2752](https://github.com/paleofoundation/heavymetalindex/commit/14e2752) | 2026-05-18 | ingest (codex): shim2004 mercury fatty acids canned fish |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

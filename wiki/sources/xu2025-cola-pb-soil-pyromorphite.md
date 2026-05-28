@@ -19,6 +19,9 @@ jurisdictions: [US, CN]
 near_duplicates: []
 sample_n: 22
 sample_population: "22 contaminated soils (US shooting ranges, Florida battery recycling sites, Chinese contaminated sites); animal models: Sprague-Dawley rats (n=4/group, 9-11 weeks) and swine (n=4/group, 8-10 weeks)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -52,3 +55,14 @@ Microbiome: Not applicable.
 - [[metals/lead]]
 - [[mitigation/lead-soil-bioaccessibility]]
 - [[supply-chain/soil-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [c932ae3](https://github.com/paleofoundation/heavymetalindex/commit/c932ae3) | 2026-05-13 | ingest p4-batch12-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

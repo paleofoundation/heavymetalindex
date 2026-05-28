@@ -18,6 +18,9 @@ matrices: [infant-formula, dried-milk, fresh-milk, processed-milk]
 jurisdictions: [PK]
 sample_n: 46
 sample_population: "Dried infant formula, powdered milk, fresh milk, and processed milk purchased in Peshawar, Pakistan"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -57,3 +60,17 @@ Microbiome: No direct microbiome endpoint.
 ## Wiki Pages Updated On Ingest
 
 - [[products/infant-formula-powder]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [c267ab1](https://github.com/paleofoundation/heavymetalindex/commit/c267ab1) | 2026-04-30 | Move unresolved formula sources to base powder page |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+<!-- END: hmi-page-history -->

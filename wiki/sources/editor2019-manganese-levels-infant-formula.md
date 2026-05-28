@@ -18,6 +18,9 @@ matrices: [infant-formula-powder, infant-formula-rtf, nutritional-beverage]
 jurisdictions: [US, FR]
 sample_n: Unknown
 sample_population: "Commercial infant formulas and nutritional beverages marketed in the United States and France"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ingest_method: autonomy_phase1_v0
 created_by: Claude
@@ -55,3 +58,13 @@ Manganese concentrations in infant formulas and beverages as measured by PIXE/RB
 - `products/infant-formula-rtf-dairy.md`
 - `products/infant-formula-rtf-soy.md`
 - `products/infant-beverages.md`
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [96dc130](https://github.com/paleofoundation/heavymetalindex/commit/96dc130) | 2026-05-20 | autonomy: daemon tick 2026-05-19T21-10-50Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

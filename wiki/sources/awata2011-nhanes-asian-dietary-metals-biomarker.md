@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "US Asians and other racial/ethnic groups from NHANES 2011-2012 nationally representative sample; first NHANES cycle to oversample Asians"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -51,3 +54,14 @@ App: the fish-tHg and rice-iAs linkages directly validate the app's prioritizati
 - [[metals/mercury]]
 - [[ingredients/rice]]
 - [[ingredients/fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [6b2cd85](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85) | 2026-05-12 | ingest: P3 agency tier — 18 source pages created |
+<!-- END: hmi-page-history -->

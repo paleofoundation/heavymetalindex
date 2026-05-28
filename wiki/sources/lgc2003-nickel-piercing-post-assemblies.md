@@ -20,6 +20,9 @@ matrices: [skin-contact-article, piercing-post-assembly, stainless-steel, artifi
 jurisdictions: [EU]
 sample_n: null
 review_state: machine_extracted
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -178,3 +181,17 @@ For the Category 1 build, this source strengthens the nickel page by preserving 
 - [[regulations/eu-nickel-directive-94-27-ec]]
 - [[testing/en-1811-nickel-release]]
 - `raw/Digest/INGESTED.md`
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
+| [35055e4](https://github.com/paleofoundation/heavymetalindex/commit/35055e4) | 2026-05-04 | lint 2026-05-04: file broad lint report; close items 1-4 (stale-pending fixes, fera2014 cite-key   migration across 65 files, raw/ wikilink anti-pattern conversions, testing/icp-ms page stand-up) |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+<!-- END: hmi-page-history -->

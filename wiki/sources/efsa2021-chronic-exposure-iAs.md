@@ -19,6 +19,9 @@ products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-gra
 matrices: [rice, rice-based-products, grain-based-products, drinking-water, dietary-intake]
 jurisdictions: [EU]
 sample_n: 13608
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -65,3 +68,15 @@ Large LB–UB gap (factor of 2–3) primarily driven by the high proportion of l
 - [[products/infant-rice-cereal]]
 - [[regulations/eu-2015-1006-iAs-rice]]
 - [[regulations/efsa-contam-bmdl01-arsenic-2009]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [6de0a7c](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7c) | 2026-05-12 | ingest: batch-C (10 PDFs) — seasonal-geographic-variance manual-fetch |
+<!-- END: hmi-page-history -->

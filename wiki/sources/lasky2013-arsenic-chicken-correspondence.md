@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: [FM_3764093]
 sample_n: null
 sample_population: "Commentary on Nachman et al. 2013 market basket study of chicken arsenic; no primary sample collection in this correspondence"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -51,3 +54,15 @@ App: chicken and poultry are relevant food matrices for arsenic contamination; t
 - [[ingredients/chicken]]
 - [[ingredients/poultry]]
 - [[regulations/usda-nrp-arsenic-poultry]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [6b2cd85](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85) | 2026-05-12 | ingest: P3 agency tier — 18 source pages created |
+<!-- END: hmi-page-history -->

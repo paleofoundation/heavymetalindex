@@ -11,6 +11,7 @@ limit_unit: ppb
 status: in-force
 source_refs: ["[[sources/eu2023-915-lead-infant-young-child-foods]]"]
 title: "EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods"
+wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator, app]
 ---
@@ -36,3 +37,12 @@ For fruit juice, the 20 ppb value applies when the product is placed on the mark
 
 - [[sources/eu2023-915-lead-infant-young-child-foods]]
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1e18eb9](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9) | 2026-05-03 | Add Category 1 lead benchmark context |
+<!-- END: hmi-page-history -->

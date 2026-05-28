@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees, vegetable-juices-non-root]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-13
 sources: 4
 ---
@@ -172,3 +173,16 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 1 | [[sources/han2024-nickel-zhejiang-china\|Han et al. 2024]]. *Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China*, Toxics | 2024 | Peer-reviewed | Ni in non-root vegetable categories (leafy and other vegetables) from Zhejiang Province within a population dietary exposure assessment |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [8d43021](https://github.com/paleofoundation/heavymetalindex/commit/8d43021) | 2026-05-25 | autonomy: daemon tick 2026-05-25T08-16-54Z — gap-healing + extraction + pooling + briefings |
+| [894ba0a](https://github.com/paleofoundation/heavymetalindex/commit/894ba0a) | 2026-05-20 | autonomy: daemon tick 2026-05-20T00-33-21Z — gap-healing + extraction + pooling + briefings |
+| [d935060](https://github.com/paleofoundation/heavymetalindex/commit/d935060) | 2026-05-20 | autonomy: daemon tick 2026-05-19T23-46-10Z — gap-healing + extraction + pooling + briefings |
+| [5c6309b](https://github.com/paleofoundation/heavymetalindex/commit/5c6309b) | 2026-05-19 | autonomy: daemon tick 2026-05-19T00-27-42Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

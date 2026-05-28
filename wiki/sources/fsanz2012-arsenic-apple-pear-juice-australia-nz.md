@@ -20,6 +20,9 @@ jurisdictions: [AU, NZ]
 near_duplicates: []
 sample_n: 100
 sample_population: "96 apple juice samples (48 Australian-purchased, 48 New Zealand-purchased) plus 4 pear juice samples (all Queensland-purchased, Australia); apple juice samples collected April/May 2012 for a parallel cyanogenic-glycoside (HCN) survey and re-analysed in 2012 for arsenic; pear juice samples purchased separately from Queensland stores"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -98,3 +101,17 @@ Sample-by-sample verification: the highest-iAs sample (11.3 µg/kg, paired with 
 - [[products/fruit-juices-apple-containing]]
 - [[products/fruit-juice-not-canned]]
 - [[products/fruit-juices-non-apple]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d3b0c4c](https://github.com/paleofoundation/heavymetalindex/commit/d3b0c4c) | 2026-05-20 | audit: fsanz2012-arsenic-apple-pear-juice-australia-nz [revised] |
+| [4f92dd2](https://github.com/paleofoundation/heavymetalindex/commit/4f92dd2) | 2026-05-20 | ingest: fsanz2012-arsenic-apple-pear-juice-australia-nz [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

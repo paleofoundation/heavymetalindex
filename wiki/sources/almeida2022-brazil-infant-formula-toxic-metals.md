@@ -15,6 +15,9 @@ products: [infant-formula-powder-non-soy]
 matrices: [cow-milk-based-infant-formula-powder, phase-1-formula, phase-2-formula]
 jurisdictions: [BR]
 sample_population: "Phase 1 and phase 2 cow milk-based infant formulas marketed in Brazil; soy, rice, and wheat protein formulas excluded by design"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -77,3 +80,17 @@ The study excludes soy, rice, and wheat formulas. Arsenic is total arsenic, merc
 ## Wiki pages updated on ingest
 
 - [[products/infant-formula-powder-non-soy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [76a8c79](https://github.com/paleofoundation/heavymetalindex/commit/76a8c79) | 2026-05-08 | lint: Phase 2 drift fix — broad-context tables + akhtar2017/almeida2022 source-page deeper fixes |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [19ddcdd](https://github.com/paleofoundation/heavymetalindex/commit/19ddcdd) | 2026-04-29 | sources: table Almeida formula metal findings |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+<!-- END: hmi-page-history -->

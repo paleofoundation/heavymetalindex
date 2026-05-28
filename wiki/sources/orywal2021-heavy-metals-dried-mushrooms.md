@@ -19,6 +19,9 @@ jurisdictions: [PL, EU]
 near_duplicates: [FM_8221490_Health_risk_assessment_of_exposure_to_toxic_elements_resulti]
 sample_n: 80
 sample_population: "80 samples of dried wild-grown mushrooms (40 Boletus edulis, 40 Xerocomus badius) purchased from 5 European supermarket chains in Białystok, Poland; harvested 2018–2019; purchased from Polish companies"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -68,3 +71,15 @@ App: Boletus edulis and Xerocomus badius values can seed a dried-mushroom contam
 - [[metals/mercury]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [05433b8](https://github.com/paleofoundation/heavymetalindex/commit/05433b8) | 2026-05-13 | ingest p4-batch17-g2: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

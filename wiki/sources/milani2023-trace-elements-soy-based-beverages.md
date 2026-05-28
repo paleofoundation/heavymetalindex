@@ -14,6 +14,9 @@ metals: [Al, tAs, Cd, Cr, Ni, Pb, Sb, Sn]
 ingredients: [plant-milk, soy]
 products: [plant-milks-soy-based]
 jurisdictions: [Brazil, MERCOSUR, EU]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-07
 ---
 
@@ -54,3 +57,15 @@ The samples were Brazilian retail soy-based beverages, not global soy milks. The
 - [[products/regulatory-crosswalk-field-findings]]
 - [[ingredients/plant-milk]]
 - [[ingredients/soy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [20add89](https://github.com/paleofoundation/heavymetalindex/commit/20add89) | 2026-05-08 | schema: drop ## TL;DR heading from source pages and Part 6 template (6 pages cleaned) |
+| [66c4920](https://github.com/paleofoundation/heavymetalindex/commit/66c4920) | 2026-05-07 | Structure Milani soy beverage Cr Sb context |
+| [48511e9](https://github.com/paleofoundation/heavymetalindex/commit/48511e9) | 2026-05-02 | Add Category 5 plant milk comparison layer |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 207
 sample_population: "n=207 parents/guardians of children ≤12 years residing in 32 US states (most commonly NY, CA, AK, MA, NJ), reporting on n=312 children; recruited Aug 2021-Apr 2022 via purposive sampling (email, social media, flyers, in-person events in NYC/Boston/Houston); 87% English / 13% Spanish survey; 67% non-Hispanic, 32% Hispanic/Latinx; 53% White parent/guardian respondents"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -80,3 +83,14 @@ Quantitative analysis: descriptive statistics and hypothesis tests in R 1.4.1725
 - Citation count [21] in the paper refers to Li et al. 2002 on hormone-containing hair products in African American children; cross-reference for any future page on hair-product racial-disparate exposure.
 - Citation count [22] (McDonald 2018) and [23] (Sprinkle 1995 on lead in imported eye makeup) are independent leads for the lead-in-imported-cosmetics literature and the early-puberty hair-product association literature respectively; not pursued here.
 - Audit subagent (2026-05-17) flagged the ingestion-denominator phrasing "(67/216), (134/216)"; verified against Table 3 column header "Total (n = 217)" and the missing-data footnote "Ingestion of CMBP, n = 16" on PDF p. 8 — the source's 31% / 62% are computed against n=217 with 16 missing reported separately. Corrected to "(67/217), (134/217), n=16 missing."
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f0a6a36](https://github.com/paleofoundation/heavymetalindex/commit/f0a6a36) | 2026-05-17 | audit: medley2023-childrens-makeup-body-products-us-usage promoted |
+| [d0fb1c8](https://github.com/paleofoundation/heavymetalindex/commit/d0fb1c8) | 2026-05-17 | ingest: medley2023-childrens-makeup-body-products-us-usage fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
+<!-- END: hmi-page-history -->

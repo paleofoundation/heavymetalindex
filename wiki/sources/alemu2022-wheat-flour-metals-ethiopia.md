@@ -19,6 +19,9 @@ jurisdictions: [ET]
 near_duplicates: []
 sample_n: 9
 sample_population: "9 commercially available wheat flour samples from Ethiopian markets; comparison with Indian flour samples from published literature"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -53,3 +56,14 @@ App: Wheat flour contamination profile — Cd and Ni both in detectable ranges; 
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[ingredients/wheat-flour]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [7c3dcee](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee) | 2026-05-13 | ingest p4-batch15-g2: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [SC]
 near_duplicates: []
 sample_n: 497
 sample_population: "Young adults (approximately age 19) from the Seychelles Child Development Study cohort; high fish-consuming island population (~7 fish meals/week)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -42,3 +45,13 @@ Microbiome: MeHg immunotoxicity pathways may intersect with gut immune regulatio
 - [[metals/mercury]]
 - [[ingredients/fish]]
 - [[health/methylmercury-immune]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [05433b8](https://github.com/paleofoundation/heavymetalindex/commit/05433b8) | 2026-05-13 | ingest p4-batch17-g2: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

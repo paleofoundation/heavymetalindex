@@ -19,6 +19,9 @@ jurisdictions: [CN, EU]
 near_duplicates: []
 sample_n: 969
 sample_population: "969 participants from China Health and Nutrition Survey 2018, Chongqing Municipality: 31 preschoolers (3-6 yr), 113 adolescents (7-17 yr), 399 adults (18-59 yr), 426 elderly (≥60 yr). Food consumption from 2018 dietary recall survey. Contamination data from 2017-2021 China National Food Contamination Monitoring Program."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -113,3 +116,13 @@ Microbiome: Not addressed.
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/eggs]]
 - [[health/cat-2-non-ingestion-exposure-pathways]] — Chen 2025's mRPI/RPQ framework is also applicable to Cat 2 cumulative dermal exposure modeling once the supplement extends to non-ingestion pathways.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2c3797a](https://github.com/paleofoundation/heavymetalindex/commit/2c3797a) | 2026-05-15 | sources: Cat 1 cumulative risk — Chen 2025 dietary Pb/Cd/iAs/MeHg Chongqing mRPI |
+<!-- END: hmi-page-history -->

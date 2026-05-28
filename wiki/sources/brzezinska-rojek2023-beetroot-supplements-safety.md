@@ -20,6 +20,9 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 37
 sample_population: "37 beetroot-based dietary supplements (10 tablets, 14 capsules, 13 powders) from Polish market (online and in-person shops); products originating from multiple countries"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -68,3 +71,17 @@ App: Beetroot dietary supplements (PL): Cd in 5/37 products at 4–134% of PTMI 
 - [[metals/aluminium]]
 - [[ingredients/beetroot]]
 - [[products/dietary-supplements]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [3f107ba](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba) | 2026-05-12 | ingest: P2 remaining-group3 — 9 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

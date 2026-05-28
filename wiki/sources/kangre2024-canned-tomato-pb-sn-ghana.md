@@ -20,6 +20,9 @@ jurisdictions: [GH]
 near_duplicates: []
 sample_n: 32
 sample_population: "32 cans of canned tomato mix (single brand) from the Effutu Municipality (Winneba), Ghana: 16 from sunlight-exposed shops, 16 from enclosed shops, plus 400 student consumers surveyed at the University of Education Winneba"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -144,3 +147,14 @@ The student survey used Yamane's formula on the UEW undergraduate population of 
 - MoE results added (entirely absent from the prior wiki). Every 5th-percentile MoE for both Pb and Sn falls below the protective threshold of 1, which the thesis flags with a footnote as a significant public-health concern.
 - "Certification" implications block reworked to literature-native phrasing per Part 2 firewall: the prior wiki claimed retail display "measurably affects" Pb migration; the source's own statistical test does not support a measurable shift between display models, so the certification implication is reframed around the percentile-vs-mean distinction (which the data actually support) instead of the display-model effect (which they do not).
 - `raw_path`, `cite_key`, `raw_handle`, `evidence_tier`, `license` ("unknown" — the IR.uew.edu.gh institutional repository serves the thesis without an explicit reuse licence), `near_duplicates`, and `sample_n` preserved from the prior revision.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [948e470](https://github.com/paleofoundation/heavymetalindex/commit/948e470) | 2026-05-28 | ingest: kangre2024-canned-tomato-pb-sn-ghana [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
+| [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
+<!-- END: hmi-page-history -->

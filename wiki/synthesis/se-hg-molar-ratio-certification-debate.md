@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/canned-tuna]]", "[[ingredie
 products: ["[[products/seafood]]", "[[products/canned-fish]]", "[[products/fresh-fish]]"]
 anchor_sources: ["[[sources/ralston2014-selenium-hbv-methylmercury-seafood]]", "[[sources/chamorro2024-bluefin-tuna-mercury-review]]", "[[sources/farina-rocha-aschner-2011-mehg-mechanism]]"]
 established: 2026-05-18
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -87,3 +88,13 @@ This position is conservative on the relaxation side (don't relax ceilings) and 
 ## How this page was promoted
 
 Established 2026-05-18 from the seafood-axis synthesis work. The Se:Hg framework is one of the contested points in MeHg toxicology that HMTc certification will face when setting per-species thresholds; the page exists so HMTc threshold decisions can cite a wiki-side consolidation rather than re-deriving the debate per certification cycle. The page is deliberately non-committal between the for-and-against positions; the recommended HMTc position (conservative on both sides) is the synthesis's contribution.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [49bebbc](https://github.com/paleofoundation/heavymetalindex/commit/49bebbc) | 2026-05-18 | synthesis: 5 new synthesis pages for HMTc seafood/cereal/regulatory work |
+<!-- END: hmi-page-history -->

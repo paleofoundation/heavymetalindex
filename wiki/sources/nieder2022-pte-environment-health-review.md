@@ -19,6 +19,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic narrative review; synthesizes global literature on As, Cd, Cr, Hg, and Pb in environment and food chain"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -54,3 +57,13 @@ App: Does not provide primary concentration data usable for contamination_profil
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[metals/chromium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5d7a39a](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a) | 2026-05-13 | ingest p4-batch16-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

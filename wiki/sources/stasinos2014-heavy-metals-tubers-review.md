@@ -21,6 +21,9 @@ jurisdictions: [GR, LV, US, ES, MA, GB, DE, FR, IT, NL, CZ, BR, IN, NP, PK, ET, 
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review compiling open-field and greenhouse studies of heavy-metal bioaccumulation in three root and tuber vegetables (Daucus carota, Allium cepa, Solanum tuberosum) and laboratory Allium-test toxicity studies on onion roots. Authors affiliated with Laboratory of Food Chemistry, Department of Chemistry, University of Athens, Greece. Submitted 2013-07-16, accepted 2014-02-23. Published in Journal of Food Science 79(5), R765–R780."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -163,3 +166,16 @@ Audit subagent ⚠️ findings on Implications-section app/certification framing
 - [[metals/zinc]]
 - [[metals/manganese]]
 - [[metals/cobalt]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4905fef](https://github.com/paleofoundation/heavymetalindex/commit/4905fef) | 2026-05-18 | audit: stasinos2014-heavy-metals-tubers-review revised |
+| [73a96a1](https://github.com/paleofoundation/heavymetalindex/commit/73a96a1) | 2026-05-18 | ingest: stasinos2014-heavy-metals-tubers-review enhanced from Papers Cube Manual Fetch |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+<!-- END: hmi-page-history -->

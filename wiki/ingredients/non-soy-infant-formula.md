@@ -78,6 +78,7 @@ contamination_profile:
     last_reviewed: 2026-05-16
 used_in_products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 14
 ---
@@ -164,4 +165,16 @@ Non-soy formula derivatives span the three format families: powder (most common)
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
 - FDA Closer to Zero broader infant-food framework also covers non-rice infant foods; ongoing rulemaking will set quantitative action levels.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1205e69](https://github.com/paleofoundation/heavymetalindex/commit/1205e69) | 2026-05-19 | autonomy: daemon tick 2026-05-19T15-55-42Z — gap-healing + extraction + pooling + briefings |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
+| [c069002](https://github.com/paleofoundation/heavymetalindex/commit/c069002) | 2026-05-17 | synthesis: shark, soy/non-soy infant formula, vegetables — 6 narrative sections each |
+| [e3eb669](https://github.com/paleofoundation/heavymetalindex/commit/e3eb669) | 2026-05-17 | routing: refresh audit + ingredient body tables after MFK ingest wave |
+<!-- END: hmi-page-history -->

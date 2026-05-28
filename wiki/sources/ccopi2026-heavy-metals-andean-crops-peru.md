@@ -19,6 +19,9 @@ products: ["[[products/root-tuber-vegetables]]", "[[products/legumes-pulses-othe
 matrices: [potato, broad-bean, maize, quinoa, barley, carrot, alfalfa, soil, irrigation-water]
 jurisdictions: [PE]
 sample_n: 218
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -77,3 +80,15 @@ The Mantaro Valley is a historically contaminated region (mining discharges, ind
 - [[ingredients/quinoa]]
 - [[ingredients/carrots]]
 - [[supply-chain/soil-irrigation-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [3859dbf](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf) | 2026-05-12 | ingest: batch-D manual-fetch — 11 source pages (rice, cocoa, tea, apple juice) |
+<!-- END: hmi-page-history -->

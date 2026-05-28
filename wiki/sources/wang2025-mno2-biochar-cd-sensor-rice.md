@@ -19,6 +19,9 @@ matrices: [analytical-method, rice, seawater]
 jurisdictions: [CN]
 sample_n: null
 sample_population: "Rice purchased from a local farmers' market in Haikou, China, and seawater from Xiu Ying Port; both used as spiked validation matrices for recovery testing — no unspiked Cd concentrations detected or reported"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -48,3 +51,14 @@ App: No contamination profile data extractable.
 
 - [[metals/cadmium]]
 - [[ingredients/rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1d941b6](https://github.com/paleofoundation/heavymetalindex/commit/1d941b6) | 2026-05-12 | ingest: P2 remaining-group1 — 5 source pages, 50 false positives |
+<!-- END: hmi-page-history -->

@@ -15,6 +15,7 @@ superseded_by: "[[regulations/eu2023-contaminants-maximum-levels]]"
 source_url: "https://eur-lex.europa.eu/eli/reg/2021/1317/oj/eng"
 title: "EU Regulation 2021/1317 - Lead maximum level for cereals and pulses"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -40,3 +41,13 @@ This page records the superseded EU lead comparator used by source pages that ci
 
 - Created 2026-05-18 during the Gacal et al. 2023 bread ingest.
 - EUR-Lex document metadata reports effect from 30 August 2021 and end of validity on 24 May 2023, implicitly repealed by Regulation (EU) 2023/915.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a863c7](https://github.com/paleofoundation/heavymetalindex/commit/9a863c7) | 2026-05-18 | ingest (codex): gacal2023 cadmium lead bread poland |
+<!-- END: hmi-page-history -->

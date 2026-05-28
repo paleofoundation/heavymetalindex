@@ -21,6 +21,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors, SCCS/1628/21 prior NoG), Cosmetics Europe consumer-use surveys (Hall et al. 2007, 2011; McNamara et al. 2007; Steiling et al. 2014), EFSA 2012a child body weights, and US/EU exposure-factor handbooks."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ingest_method: ingest-next-manual-fetch-pdf-v2
 created_by: claude-opus-4-7
@@ -95,3 +98,13 @@ EU regulatory-science guidance compiled by the Scientific Committee on Consumer 
 - Toothpaste pediatric retention factor of 40% is for ages 7 months - 8 years per SCCS/1643/22, and drops to 5% above 8 years. Below 7 months the SCCS does not specify a retention factor for toothpaste because routine toothpaste use begins with first erupted teeth (≈6 months); the 40% factor applies from the first relevant pediatric age.
 - The document explicitly identifies premature neonates as out of scope ("only intact skin of full-term babies is considered," Section 3-6.10.2.1, p. 114) and notes that premature-baby skin-barrier impairment, pH differences, and the use of nappy-area baby cosmetics with potentially-damaged skin would require additional substance-specific UFs beyond the default 10. The wiki treatment of cosmetic safety for premature neonates is therefore explicitly out of the scope of this regulatory framework as currently stated, and would need to reference dedicated premature-skin literature (Visscher et al. 2015, 2020a, 2020b; Fluhr & Darlenski 2018; Proksch 2018; Rodriguez 2020; Gustin et al. 2020 are cited as the relevant body of evidence).
 - The Cosmetics Europe / Crème Global child-exposure update (0-3 year age group) is referenced as "results not yet been published" at the time of NoG adoption (May 2023). When that dataset is published it will supersede the current adult-derived pediatric exposure estimates for the 0-3 year age stratum.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f0494b7](https://github.com/paleofoundation/heavymetalindex/commit/f0494b7) | 2026-05-17 | ingest: sccs2023-notes-of-guidance-cosmetic-ingredients-v12 fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: [hands2024-multiyear-dark-chocolate-cocoa-usa]
 sample_n: 72
 sample_population: "72 consumer cocoa-containing products (dark chocolate, cocoa powder, and related products) purchased in the US from retail and online sources across four cohorts: 2014 (n=17), 2016 (n=17), 2019 (n=21), 2022 (n=17)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -77,3 +80,17 @@ Microbiome: Not addressed in this study.
 - [[ingredients/cocoa]]
 - [[products/dark-chocolate]]
 - [[regulations/california-prop65-madl]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [06b2bef](https://github.com/paleofoundation/heavymetalindex/commit/06b2bef) | 2026-05-13 | housekeeping: near-duplicate links, SEO plan, orchestrator updates |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [591741c](https://github.com/paleofoundation/heavymetalindex/commit/591741c) | 2026-05-13 | ingest p4-batch7-g2: 4 pages, 46 FP |
+<!-- END: hmi-page-history -->

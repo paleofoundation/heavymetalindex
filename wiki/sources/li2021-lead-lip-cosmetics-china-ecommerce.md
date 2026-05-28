@@ -21,6 +21,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 34
 sample_population: "34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) sold on JingDong (one of the top-10 Chinese e-commerce platforms), selected via Python web crawler (BeautifulSoup + Pandas) ranking by market share and commodity reviews; purchased and analysed 2020-2021. Production-country mix per Table 1: France (6 lipsticks + 4 lip glosses), China (4 lipsticks + 4 lip glosses + 3 lip balms), USA (1 lipstick + 2 lip glosses + 3 lip balms), Italy (1 lipstick + 2 lip glosses), Japan (1 lipstick + 1 lip balm), Canada (1 lipstick + 1 lip gloss), Germany (1 lip balm)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -196,3 +199,16 @@ The source interprets these results as evidence that within the JingDong best-se
 - `evidence_tier` note on the IEUBK output: IEUBK output blood-Pb values are model outputs, not measured values. The wiki page reports them in the `## Key numbers` section because they are part of what the paper reports and are reproducible from the paper's inputs, but they should not be confused with measured childhood-blood-Pb data from this study (no blood was drawn from any child in this study).
 
 - Audit subagent (2026-05-18, fresh-context general-purpose, autonomous v2.0 manual-fetch skill): PROMOTE verdict; 0 findings applied; 2 minor ⚠️ items recorded as false positives. (a) Subagent flagged HQ range lower-bound 4.93×10⁻⁷ and LCR range lower-bound 1.68×10⁻¹² as "figure-derived rather than text-quoted," suggesting they should be re-cast as approximate or referenced to Figures 4/5 — verified against source: the Abstract on p. 1 states these values verbatim ("The probabilistic non-carcinogenic risks and carcinogenic risks were 4.93×10⁻⁷~2.82×10⁻³ and 1.68×10⁻¹²~9.59×10⁻⁹, respectively"), so the wiki page's range bounds are direct text-quoted values, not figure-derived inferences. Finding rejected. (b) Subagent flagged the Implications-section phrasing "95th percentile far below 1 mg/kg" as a marginal inference not explicitly reported by the source — the source does not report the per-sample Pb distribution's 95th percentile (only the Monte Carlo iterations' 95th-percentile HQ/LCR), but with N=34 and max 0.5237 mg/kg the per-sample 95th-percentile is mathematically constrained to ≤0.5237 mg/kg, which is trivially "far below 1 mg/kg." The phrasing is descriptive about the dataset's scale, not a synthesis claim. Finding noted; no change. (c) Subagent also flagged a source-internal n-label transposition (Discussion p. 7: "the average Pb content of all kinds of lip products decreased in the following order: lip balms (n = 12) > lipsticks (n = 13) > lip glosses (n = 9)" — the n's are transposed in the source narrative; Table 1 has lipsticks n=12 and lip balms n=9). The wiki reports the ordering correctly (balms > lipsticks > glosses) and the wiki's per-format n's match Table 1, so no wiki defect; the source-side transposition is the paper's typesetting issue. Noted in `## Key numbers` per the Cochrane "report as the source wrote it" convention for paper-internal inconsistencies. CHECK 1 ⚠️ on HQ/LCR text-source false-positive + ⚠️ on inference + ⚠️ on source-internal n-label; CHECK 2 ✅; CHECK 3 ✅; CHECK 4 ✅ clean; CHECK 5 ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a149814](https://github.com/paleofoundation/heavymetalindex/commit/a149814) | 2026-05-18 | audit: li2021-lead-lip-cosmetics-china-ecommerce promoted |
+| [11bc0dc](https://github.com/paleofoundation/heavymetalindex/commit/11bc0dc) | 2026-05-18 | ingest: li2021-lead-lip-cosmetics-china-ecommerce enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+| [baf6597](https://github.com/paleofoundation/heavymetalindex/commit/baf6597) | 2026-05-16 | cat2: master rewrite + advisory + retired-page redirects + source rerouting |
+| [a4a8132](https://github.com/paleofoundation/heavymetalindex/commit/a4a8132) | 2026-05-15 | sources: Cat 2 lip cosmetics — Li 2021 Chinese e-commerce Pb + child blood-Pb model |
+<!-- END: hmi-page-history -->

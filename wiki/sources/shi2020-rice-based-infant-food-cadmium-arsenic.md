@@ -20,6 +20,9 @@ matrices: [rice-based-infant-food, rice-cereal, rice-porridge, rice-cake, rice-g
 jurisdictions: [UK, EU]
 sample_n: "Rice-based baby foods, generic rice crackers/cakes/cereals, and UK-purchased polished rice by origin; exact per-category n is figure/table dependent."
 sample_population: "Rice-based products available on the UK market, including products labeled for infants and generic rice products that infants may eat; polished rice grain purchased in Northern Ireland from supermarkets, health-food shops, specialty shops, and Halal shops."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -69,3 +72,13 @@ For plant-milk pages, the source is context only. It discusses rice milk and UK 
 - Batch 1 auto-fetched ingest, 2026-05-25. The wishlist filename targeted rice-based plant milks, but the actual paper's direct measurements are rice-based infant foods, generic rice products, and polished rice. Rice milk is discussed as regulatory/advice context only.
 - Basis: values are primarily reported as dry-weight concentrations. The paper provides wet-weight regulatory standards and converts them to approximate dry-weight thresholds using a 1.12 factor for rice moisture. Do not pool dry-weight values with wet-weight infant food values without conversion.
 - Speciation: arsenic values are inorganic arsenic by IC-ICP-MS, not total arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d1c9a1e](https://github.com/paleofoundation/heavymetalindex/commit/d1c9a1e) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 1: 3 source pages + 3 rollups + 44 skips |
+<!-- END: hmi-page-history -->

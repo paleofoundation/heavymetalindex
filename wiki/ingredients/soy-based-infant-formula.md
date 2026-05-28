@@ -78,6 +78,7 @@ contamination_profile:
     last_reviewed: 2026-05-16
 used_in_products: [infant-formula-powder-soy-based, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 8
 ---
@@ -159,4 +160,16 @@ Soy-based formula derivatives are the same format set as other infant formulas: 
 - JECFA Al PTWI of 2 mg/kg b.w./week and EFSA TWI of 1 mg/kg b.w./week are the relevant dose-response references per [[sources/scheer2017-aluminium-tolerable-intake-toys|SCHEER 2017]]; soy-based formula at the upper end of the Al-concentration range documented by [[sources/burrell2010-aluminium-in-infant-formulas|Burrell 2010]] and subsequent literature can deliver Al intakes that approach or exceed these reference levels for exclusive-soy-formula-fed infants.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant formula yields stringent serving-based screen.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1205e69](https://github.com/paleofoundation/heavymetalindex/commit/1205e69) | 2026-05-19 | autonomy: daemon tick 2026-05-19T15-55-42Z — gap-healing + extraction + pooling + briefings |
+| [6dcb44d](https://github.com/paleofoundation/heavymetalindex/commit/6dcb44d) | 2026-05-19 | autonomy: daemon tick 2026-05-18T21-04-04Z — gap-healing + extraction + pooling + briefings |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
+| [c069002](https://github.com/paleofoundation/heavymetalindex/commit/c069002) | 2026-05-17 | synthesis: shark, soy/non-soy infant formula, vegetables — 6 narrative sections each |
+<!-- END: hmi-page-history -->

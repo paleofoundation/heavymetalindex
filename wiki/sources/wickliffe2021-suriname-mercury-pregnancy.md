@@ -19,6 +19,9 @@ jurisdictions: [SR]
 near_duplicates: []
 sample_n: 807
 sample_population: "Pregnant women in Suriname; three geographic cohorts: interior communities, Paramaribo (capital), and Nickerie (rice-growing region)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -41,3 +44,13 @@ App: Fish type (freshwater vs. marine) and frequency are key modifiers of MeHg e
 - [[metals/mercury]]
 - [[ingredients/fish]]
 - [[health/mercury-pregnancy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [05433b8](https://github.com/paleofoundation/heavymetalindex/commit/05433b8) | 2026-05-13 | ingest p4-batch17-g2: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

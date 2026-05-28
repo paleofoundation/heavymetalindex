@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 7
 ---
@@ -170,4 +171,16 @@ Quinoa derivatives include whole quinoa seeds (white, red, black, multicolored),
 - Codex Alimentarius CXS 193-1995 ([[sources/codex-cxs-193-1995|Codex 1995]]) sets cereal-grain category limits.
 - California Prop 65 ([[regulations/california-prop65]]) Pb and As MADLs apply to quinoa products sold in California.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d788683](https://github.com/paleofoundation/heavymetalindex/commit/d788683) | 2026-05-17 | autonomy: daemon tick 2026-05-17T16-58-32Z — gap-healing + extraction + pooling + briefings |
+| [21f4b32](https://github.com/paleofoundation/heavymetalindex/commit/21f4b32) | 2026-05-17 | checkpoint: accumulated multi-agent work + daemon transient-list broaden |
+| [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
+| [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+<!-- END: hmi-page-history -->

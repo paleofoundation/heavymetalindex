@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
 sample_population: "Pooled vegetable, grain, and soil samples from six open-field locations within 10 km of two coal-fired power plants (Power Plant A, Power Plant B) in China, sampled 2015; control samples from a grocery store and farmland >55 km from any power plant. Each pooled sample contained ~20 individual plants."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -74,3 +77,13 @@ Vegetables, grains, and soil (0–15 cm depth) were collected in 2015 from six o
 - [[ingredients/cereals]]
 - [[metals/mercury-total]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

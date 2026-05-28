@@ -20,6 +20,9 @@ jurisdictions: [MX]
 near_duplicates: []
 sample_n: 320
 sample_population: "Blue tilapia (Oreochromis aureus) from 11 mining-watershed dams in SE Gulf of California region, Sinaloa, Mexico; collected during rainy (Aug–Oct 2015) and dry (Feb–Mar 2016) seasons"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -54,3 +57,15 @@ App: Tilapia from known mining-watershed regions warrants elevated Pb/Cd flags i
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[supply-chain/mining-watersheds]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [0562446](https://github.com/paleofoundation/heavymetalindex/commit/0562446) | 2026-05-13 | ingest p4-batch7-g4: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

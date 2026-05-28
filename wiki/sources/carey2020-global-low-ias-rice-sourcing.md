@@ -20,6 +20,9 @@ matrices: [white-rice, polished-rice]
 jurisdictions: [global, AR, BO, BR, CL, PY, UY, GH, CI, ML, TZ, EG, FR, IT, ES, TR, CN, IN, KR, LK, VN, MX, AU, MY]
 near_duplicates: [carey2019-global-rice-arsenic-sourcing]
 sample_n: 1180
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -65,3 +68,14 @@ Sampling was market-based, not a randomised agricultural survey; geographic dens
 
 - [[metals/arsenic]]
 - [[ingredients/rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [97fe8d4](https://github.com/paleofoundation/heavymetalindex/commit/97fe8d4) | 2026-05-12 | ingest: seasonal-geographic-variance batch — 78 source pages from 95 staged PDFs |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

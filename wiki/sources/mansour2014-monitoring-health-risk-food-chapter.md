@@ -22,6 +22,9 @@ jurisdictions: [EG, CN, IN, GH, IR, NG, AR, RO, NZ, NO, RU]
 near_duplicates: []
 sample_n: null
 sample_population: "Book chapter authored by Sameeh A. Mansour (Environmental Toxicology Research Unit, Pesticide Chemistry Department, National Research Centre, Cairo) reviewing analytical methods and dietary health-risk-assessment frameworks for heavy metals in food. Integrates the author's own Egyptian primary work (Mansour et al. 2009a cucumber across conventional/greenhouse/organic farming; Mansour et al. 2009b conventional vs organic potato tubers; Soliman et al. 1997 Egyptian dietary intake of Pb and Cd from vegetables and fruits) with a wide-ranging narrative review of 1990s–2012 occurrence and HRI studies from China, India, Ghana, Iran, Nigeria, Argentina, Romania, Norway/Russia, and New Zealand."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -230,3 +233,14 @@ Three definite errors flagged by the fresh-context audit subagent and verified a
 - **Raghunath 2006 "mg" unit anomaly flagged in body.** The Raghunath bullet under §13.5 expanded to note the unit discrepancy (108 mg/day Ni is ~30× a typical adult Ni TDI; the chapter's own sentence "the intake of toxic metals such as Pb, Cd, and Ni is much lower than the tolerable daily intake" is incompatible with the printed "mg" attribution). Wiki preserves the chapter's printed unit per audit fidelity but warns downstream synthesis to consult the Raghunath 2006 primary paper. Audit subagent ⚠ concern **verified and addressed by adding the cross-check note** (no edit to the numeric value itself).
 
 No false positives in this round. All other audit checks returned ✅.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [52a352a](https://github.com/paleofoundation/heavymetalindex/commit/52a352a) | 2026-05-18 | audit: mansour2014-monitoring-health-risk-food-chapter revised |
+| [eb5a53d](https://github.com/paleofoundation/heavymetalindex/commit/eb5a53d) | 2026-05-18 | ingest: mansour2014-monitoring-health-risk-food-chapter enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

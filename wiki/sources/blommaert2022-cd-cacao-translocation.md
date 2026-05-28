@@ -19,6 +19,9 @@ jurisdictions: [BE]
 near_duplicates: []
 sample_n: null
 sample_population: "Greenhouse pot experiment using Theobroma cacao plants; isotope fractionation and XAS analysis of plant compartments"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,14 @@ App: Supports the model logic that cacao-derived ingredients (cocoa powder, coco
 - [[metals/cadmium]]
 - [[ingredients/cacao]]
 - [[supply-chain/cacao-cadmium-pathway]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [5d7a39a](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a) | 2026-05-13 | ingest p4-batch16-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

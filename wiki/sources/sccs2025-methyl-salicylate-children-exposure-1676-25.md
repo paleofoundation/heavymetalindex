@@ -21,6 +21,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Regulatory-science opinion; no original sampling. Re-assesses Methyl Salicylate (CAS 119-36-8; methyl 2-hydroxybenzoate; INCI 'methyl salicylate') in cosmetic products intended for children 0–3 years, using SCCS-derived European pediatric exposure parameters (Ficheux & Roudot 2017 French cosmetic-product use survey, n=395 parents; Gomez-Berrada et al. 2018 toothpaste-use study, N=96 French children 2–6 years; Garcia-Hidalgo et al. 2017 Swiss personal-care use survey; Adé et al. 2024 Swiss preschool toothbrushing study; EFSA 2012a default child body weights). The substance assessed is an organic flavour/fragrance ingredient, not a heavy metal."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ingest_method: ingest-next-manual-fetch-pdf-v2
 created_by: claude-opus-4-7
@@ -79,3 +82,14 @@ EU regulatory-science opinion compiled by the Scientific Committee on Consumer S
 - No DOI assigned to this document (page 5: "Doi ND"). ISSN/ISBN fields are also blank.
 - The Section 3.5 typo on p. 21 ("the SCCS has used the more conservative median (P50) values from EFSA, 2012, which are 8.7 kg and 11.6 kg") omits the 0–6 mo 4.8 kg stratum that is correctly listed in Section 3.2.4 (p. 15) and used in Table 4. The Table-4 calculations for infants up-to-0.5 yr use 4.8 kg; this is an inconsistency in the Discussion narrative, not in the calculations. Key numbers above quote the Table-4 / Section-3.2.4 values, which are the operative ones.
 - Audit subagent (2026-05-17) flagged the toothpaste-systemic-exposure bullet as misleadingly attributing the 768 mg/day figure only to the infants 0–0.5 yr row; verified against PDF Table 4 p. 15 — 768 mg/day is the identical systemic mass for all three 0–3 yr age strata (because amount and retention factor are age-invariant), with only the per-kg-bw number differing by body weight. Rewrote the bullet to make the cross-stratum invariance explicit.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [954b259](https://github.com/paleofoundation/heavymetalindex/commit/954b259) | 2026-05-17 | audit: sccs2025-methyl-salicylate-children-exposure-1676-25 revised |
+| [09e7e95](https://github.com/paleofoundation/heavymetalindex/commit/09e7e95) | 2026-05-17 | ingest: sccs2025-methyl-salicylate-children-exposure-1676-25 fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

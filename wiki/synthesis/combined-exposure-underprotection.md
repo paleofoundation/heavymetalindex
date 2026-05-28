@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/
 products: []
 anchor_sources: ["[[sources/suomi2023-finland-dietary-metals-cumulative]]", "[[sources/jecfa-91st-cadmium-2022]]", "[[sources/efsa2024-risk-assessment-iAs-update]]"]
 established: 2026-05-13
+wiki_doi: null
 updated: 2026-05-13
 ---
 
@@ -78,3 +79,13 @@ The Margin of Exposure framing in EFSA 2024 is specific to genotoxic carcinogens
 ## How this page was promoted
 
 Promoted 2026-05-13. Three independent A-tier anchors meeting all four promotion criteria: independent (different research groups, different jurisdictions, different methodologies), spans multiple metals and ingredients, not obvious from any single source, strategic relevance to brand-legal (HMTc combined-exposure standard scientific basis), regulator (cumulative-exposure framework gap), and educator (the architectural argument for tighter-than-regulatory certification) audiences. Re-synthesis is expected when the FDA TDS 2018-2020 multi-metal exposure-versus-reference analysis is fully integrated as a fourth anchor, when a non-Suomi cumulative analysis appears in the corpus, or when EFSA or JECFA reissues a single-metal reference value in response to the cumulative framing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9469b28](https://github.com/paleofoundation/heavymetalindex/commit/9469b28) | 2026-05-13 | synthesis: promote three more findings pages + retire Egypt candidate |
+<!-- END: hmi-page-history -->

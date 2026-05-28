@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: ["[[products/seafood]]"]
 anchor_sources: ["[[sources/sonke2023-mercury-global-change]]", "[[sources/wang2023-climate-marine-mercury]]", "[[sources/motta2022-marine-hg-isotopes]]"]
 established: 2026-05-16
+wiki_doi: null
 updated: 2026-05-16
 ---
 
@@ -82,3 +83,13 @@ The wiki's [[overview]] should pair this synthesis with [[synthesis/climate-meta
 ## Provisional status
 
 This synthesis was established 2026-05-16 on three anchor sources. The synthesis is the most provisional of the three established in this batch because criterion 1 (three independent A-tier sources) is met with a review plus a projection plus a mechanism rather than with three independent projections, and a second quantitative projection study would strengthen the claim materially. The projection ranges (5 to 30 percent fish-MeHg increase by 2100 under high-emission scenarios) are robust to the present anchors but should be updated against future model-intercomparison studies as they enter the corpus. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier projection studies, or on any IPCC-cycle update that incorporates ocean-mercury cycling into a formal assessment.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b85ab68](https://github.com/paleofoundation/heavymetalindex/commit/b85ab68) | 2026-05-16 | synthesis: promote 4 pending candidates + expose synthesis in sidebar |
+<!-- END: hmi-page-history -->

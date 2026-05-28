@@ -19,6 +19,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 49
 sample_population: "49 samples of canned tomato paste, canned olives, and pickled cucumbers from the 5 most popular brands, purchased from stores in Tehran, Iran"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -71,3 +74,14 @@ App: For risk scoring of canned tomato paste, olives, and pickled cucumbers: Pb 
 - [[ingredients/olives]]
 - [[ingredients/cucumbers]]
 - [[products/canned-vegetables]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [EG]
 near_duplicates: []
 sample_n: 60
 sample_population: "60 random meat product samples (15 each of minced meat, beef burger, sausage, luncheon) from supermarkets and shops in Benha City, Kalubia governorate, Egypt"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -93,3 +96,14 @@ Microbiome: Not addressed.
 - [[ingredients/frankfurter]]
 - [[ingredients/processed-meat]] (to be created)
 - [[products/processed-meat]] (to be created)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [e689152](https://github.com/paleofoundation/heavymetalindex/commit/e689152) | 2026-05-15 | sources: Cat 1 processed meat — Shaltout 2020 Egyptian Pb/Cd/nitrite, B-tier corroborative |
+<!-- END: hmi-page-history -->

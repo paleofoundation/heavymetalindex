@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 96
 sample_population: "Glynn County, Georgia adults (mean age 60.8 years, 66% female, 46% Black; long-term residents near 4 EPA NPL Superfund sites, recruited March 2023)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -74,3 +77,14 @@ Limitation: modest sample size (n = 96 for metals, n = 88 for organochlorines, n
 - [[ingredients/seafood]]
 - [[ingredients/fish]]
 - [[health/biomonitoring]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [a0f6a8e](https://github.com/paleofoundation/heavymetalindex/commit/a0f6a8e) | 2026-05-12 | ingest: P4 batch 1 group 3 — 1 source page, 49 false positives |
+<!-- END: hmi-page-history -->

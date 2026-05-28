@@ -20,6 +20,9 @@ jurisdictions: [ES, DE, GB]
 near_duplicates: []
 sample_n: 52
 sample_population: "52 bottled vinegars from supermarkets in Tenerife and Gran Canaria (Canary Islands, Spain): 26 wine vinegar, 10 apple vinegar, 10 alcohol vinegar, 6 malt vinegar; origins from Spain, Germany, England"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -93,3 +96,14 @@ Merge-enhance re-ingest 2026-05-26 (v2 skill autonomous):
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ea11d89](https://github.com/paleofoundation/heavymetalindex/commit/ea11d89) | 2026-05-26 | ingest: acosta1993-cd-pb-ni-vinegar-types enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

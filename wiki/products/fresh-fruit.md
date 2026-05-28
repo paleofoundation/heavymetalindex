@@ -8,6 +8,7 @@ primary_metals_of_concern: [Pb, Cd, tAs]
 vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-14
 sources: 31
 created_by: autonomy_v0
@@ -87,3 +88,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 13 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz et al. 2010]]. *Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits*, Polish Journal of Environmental Studies | 2010 | Peer-reviewed | PL Pb, Cd occurrence in Apples, plums, strawberries, raspberries, and white grapes from allotment gardens in Lublin city center and surrounding rural areas,... (n=108) |
 | 14 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, wheat grains collected in 2001 from three agricultural regions of Poland; plus commercially purchased juices,... (n=272) |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [84221f9](https://github.com/paleofoundation/heavymetalindex/commit/84221f9) | 2026-05-25 | fill fresh-fruit synthesis prose |
+| [39d8806](https://github.com/paleofoundation/heavymetalindex/commit/39d8806) | 2026-05-20 | autonomy: daemon tick 2026-05-20T01-34-58Z — gap-healing + extraction + pooling + briefings |
+| [c5da3a8](https://github.com/paleofoundation/heavymetalindex/commit/c5da3a8) | 2026-05-19 | autonomy: daemon tick 2026-05-19T16-51-40Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

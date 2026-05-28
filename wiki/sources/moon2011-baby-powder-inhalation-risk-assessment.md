@@ -21,6 +21,9 @@ jurisdictions: [KR]
 near_duplicates: []
 sample_n: 10
 sample_population: "Simulated-use exposure assessment using a 40-cm baby doll and one adult applicator. Ten airborne-particulate breathing-zone samples were collected at the applicator's breathing zone and ten at the baby doll's breathing zone (20 cm from the nose) during baby-powder application episodes (each ~5 min, simulating a 1-5 puff per use scenario). Ten 10 × 10 cm filter-paper deposition samples were collected at each of three application intensities (1, 3, 5 applications) to estimate per-application powder consumption. The baby powder tested was a single commercial product purchased from Agabang & Company (lot 77C088017, Seoul) and the assessment focused on talcum-based baby powder as the asbestos-in-talc-contamination context of the 2009 Korean Food and Drug Administration recall."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -94,3 +97,13 @@ Simulated-use exposure assessment, conducted in 2010-2011 at Hoseo University To
 ## Ingest log
 
 - 2026-05-17 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.5487/TR.2011.27.3.137` not present; raw_handle `MFK_risk-assessment-of-baby-powder-exposure-through-in` not present; cite-key stem `moon2011` not present. PDF SHA-256 `5ad8486b14a5bd1855912983c1f12b53c1e02158f43ca6267f9f48a7fdbc85a7`. Paper measures total-mass airborne baby powder dust and projects an asbestos lung-load — zero heavy metals — ingested as methodology / inhalation-pathway reference per the lai2025 precedent. Routed to `[[products/baby-talcum-powder]]` (HMTc Cat 2 Row 4, locked 2026-05-16) for discoverability as an inhalation-route exposure-methodology paper but `metals: []` correctly reflects no metal occurrence data.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64445ae](https://github.com/paleofoundation/heavymetalindex/commit/64445ae) | 2026-05-17 | ingest: moon2011-baby-powder-inhalation-risk-assessment fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

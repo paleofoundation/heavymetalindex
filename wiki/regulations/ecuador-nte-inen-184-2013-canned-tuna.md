@@ -13,6 +13,7 @@ effective_date: 2013-01-29
 source_url: "https://leap.unep.org/en/countries/ec/national-legislation/resolucion-no-302-nte-inen-184-sobre-requisitos-para-atun-y"
 near_duplicates: ["ec-nte-inen-184-2013-canned-tuna (deleted 2026-05-18)"]
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -53,3 +54,14 @@ This page records the national Ecuadorian maximum level cited by a source paper.
 ## Verification notes
 
 - Created 2026-05-18 by Codex during P0163 seafood manual-fetch ingest. The FAOLEX/UNEP public record verifies the standard's legal identity, mandatory officialization, text date, official-register publication, and non-repealed status. The exact 1.0 mg/kg Hg value is taken from Aguilar-Miranda et al. 2024's direct citation to NTE INEN 184:2013 and the paper's Table 1 note.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ed342c7](https://github.com/paleofoundation/heavymetalindex/commit/ed342c7) | 2026-05-18 | fix: dedupe ecuador-nte-inen-184-2013-canned-tuna |
+| [50058fb](https://github.com/paleofoundation/heavymetalindex/commit/50058fb) | 2026-05-18 | ingest (codex): aguilar-miranda2024 canned tuna ecuador merge-enhance |
+<!-- END: hmi-page-history -->

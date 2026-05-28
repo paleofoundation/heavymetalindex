@@ -20,6 +20,9 @@ jurisdictions: [IT]
 near_duplicates: []
 sample_n: 201
 sample_population: "141 eggs from 5 hen genotypes at a rural ethical farm in Puglia, Italy; 60 organic supermarket eggs from 5 Italian supermarkets"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -72,3 +75,14 @@ Microbiome: Not addressed in this study.
 - Replaced the older `manual-fetch-kimi` handle, truncated raw path, empty product route, and generic arsenic/mercury wikilinks with current provenance and controlled routes.
 - Corrected the supermarket albumen-Hg note: the 1.077 ± 3.70 mg/kg value is S2, not S1.
 - Left `matrices` blank because the source's measured compartments are egg yolk, albumen, and eggshell, and those matrix terms are not in the current controlled matrix list.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

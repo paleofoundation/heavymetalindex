@@ -13,6 +13,7 @@ effective_date: 2020-08-06
 sunset_date: null
 source_refs: ["[[sources/fda-iAs-rice-cereal-2020]]"]
 title: "FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal"
+wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
@@ -40,3 +41,17 @@ Under the Closer to Zero program, the US Food and Drug Administration has establ
 ## Sources
 
 - [[sources/fda-iAs-rice-cereal-2020|FDA iAs 2020]] — FDA, August 2020. Inorganic Arsenic in Rice Cereals for Infants Action Level.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [d17b351](https://github.com/paleofoundation/heavymetalindex/commit/d17b351) | 2026-04-25 | Resolve 8 broken wikilink paths and stub 5 missing target pages |
+<!-- END: hmi-page-history -->

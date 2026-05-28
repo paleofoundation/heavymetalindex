@@ -9,6 +9,7 @@ matrices: [food-for-babies-and-young-children]
 effective_date: 2021-04-01
 sunset_date: null
 title: "FDA Closer to Zero — Program Overview"
+wiki_doi: null
 updated: 2026-05-02
 audience: [regulator, educator]
 ---
@@ -51,3 +52,17 @@ Each per-rule page carries its own jurisdictional comparison for the specific th
 ## Sources
 
 - [[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]] — FDA, 2025. Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry (evidence tier A, US government work).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [80c3dcd](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcd) | 2026-05-02 | Ingest FDA 2025 lead baby food guidance |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [d17b351](https://github.com/paleofoundation/heavymetalindex/commit/d17b351) | 2026-04-25 | Resolve 8 broken wikilink paths and stub 5 missing target pages |
+<!-- END: hmi-page-history -->

@@ -17,6 +17,9 @@ products: []
 matrices: [ibs, low-nickel-diet, intestinal-permeability, 51cr-edta]
 jurisdictions: [IT]
 sample_n_notes: "Gemelli Hospital IBS patients with nickel sensitization; symptom response on low-nickel diet plus intestinal permeability quantification via 51Cr-EDTA excretion test"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -46,3 +49,13 @@ Single-site prospective study at Gemelli Hospital. Inclusion: IBS by Rome criter
 
 - [[metals/nickel]]
 - [[microbiome/nickel-microbial-pathogenesis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

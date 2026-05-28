@@ -20,6 +20,9 @@ matrices: [dark-chocolate, cocoa-powder, cocoa-products]
 jurisdictions: [US]
 sample_n: 72
 near_duplicates: [FM_11321977]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -74,3 +77,15 @@ Product selection was influenced by prior testing results (products with higher 
 - [[metals/arsenic]]
 - [[ingredients/cocoa]]
 - [[ingredients/chocolate]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [06b2bef](https://github.com/paleofoundation/heavymetalindex/commit/06b2bef) | 2026-05-13 | housekeeping: near-duplicate links, SEO plan, orchestrator updates |
+| [3859dbf](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf) | 2026-05-12 | ingest: batch-D manual-fetch — 11 source pages (rice, cocoa, tea, apple juice) |
+<!-- END: hmi-page-history -->

@@ -22,6 +22,9 @@ matrices: [cereal-grain, dietary-intake]
 jurisdictions: [PL, EU]
 sample_n: 56
 sample_population: "Polish market samples collected in 2019-2020: 5 cereal grains, 11 pasta samples, 13 flours, 12 groats, 10 flakes, and 5 bran samples."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -118,3 +121,17 @@ App: Category means and P95 values can support Polish/EU context screens for Ni 
 - Merge-enhanced 2026-05-18 from the full manual-fetch PDF path and SHA-256 recorded in frontmatter.
 - Replaced stale/nonexistent wikilinks such as `ingredients/oats`, individual missing grain slugs, and `regulations/efsa-nickel-tdi-2020` with current wiki slugs.
 - Strict brand-firewall check: no consumer brands are named. Instrument and reference-material vendor names appear only in the Methods section and fall under the Part 12 instrument/reference-material exception.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [22a69e6](https://github.com/paleofoundation/heavymetalindex/commit/22a69e6) | 2026-05-19 | audit queue fire batch 3: 6 source pages |
+| [3341a07](https://github.com/paleofoundation/heavymetalindex/commit/3341a07) | 2026-05-18 | ingest (codex): mania2020 nickel cereal grains poland |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

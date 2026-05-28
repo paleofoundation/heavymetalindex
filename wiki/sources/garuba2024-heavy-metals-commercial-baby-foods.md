@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 10
 sample_population: "10 commercial baby and toddler food products across 7 anonymized brands, purchased from a local retail store in Houston, Texas, USA; products spanned stages 1-3 (0-12 months) and toddler 2-6+ years categories; each product analyzed in triplicate"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -149,3 +152,15 @@ Wiki/HMTc firewall: No threshold proposals, no consensus claims, no certificatio
 12. **Zn exceedance scope annotated.** Audit subagent flagged that the wiki listed S6/S7/S8/S10 as exceeding the cited Zn MRL while the paper's Discussion enumerates only S6/S7/S8 explicitly. Verified — S10 Zn = 23.694 µg/g (Table 3) does exceed the cited 2-3 µg/g/day reference, but the paper's own Discussion narrative omits S10 from its Zn-exceedance list. The exceedance table now distinguishes the paper-enumerated S6/S7/S8 from the Table-3-derived S10 finding.
 
 Audit findings: 2 ⚠️ flagged, 2 applied, 0 false positives. Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (brand firewall), and 5 (wiki/HMTc firewall) returned clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5caa82](https://github.com/paleofoundation/heavymetalindex/commit/d5caa82) | 2026-05-18 | audit: garuba2024-heavy-metals-commercial-baby-foods revised |
+| [5414ac9](https://github.com/paleofoundation/heavymetalindex/commit/5414ac9) | 2026-05-18 | ingest: garuba2024-heavy-metals-commercial-baby-foods enhanced from Papers Cube Manual Fetch |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+<!-- END: hmi-page-history -->

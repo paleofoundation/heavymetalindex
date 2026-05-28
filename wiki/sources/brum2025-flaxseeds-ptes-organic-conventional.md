@@ -21,6 +21,9 @@ jurisdictions: [EU, PL, ES]
 near_duplicates: []
 sample_n: 52
 sample_population: "Commercial flaxseed samples (37 conventional, 15 organic) obtained in EU markets (Spain, Poland, and other European countries) from supermarkets, herbalists, and online stores"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -122,3 +125,15 @@ Audit subagent (2026-05-25) verdict REVISE; two ⚠️ findings reviewed:
 - Check 2: `matrices: [seed, oilseed]` flagged as unconfirmed against a controlled matrices vocabulary. Verified — matrices vocabulary in `docs/gpt-collaboration/system-prompt.md` is documented as bare strings with broad-scope guidance rather than a closed list; `oilseed` is already in use in `wiki/sources/lee2019-food-processing-heavy-metals-migration.md`. False positive; no change.
 
 All five audit checks otherwise clean (numerical fidelity verified across Tables 1/2/3 and the p. 5 HI narrative; speciation/methods accurate; brand firewall clean; wiki/HMTc firewall clean including Implications section).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [455da1b](https://github.com/paleofoundation/heavymetalindex/commit/455da1b) | 2026-05-25 | audit: brum2025-flaxseeds-ptes-organic-conventional revised |
+| [06e1a0b](https://github.com/paleofoundation/heavymetalindex/commit/06e1a0b) | 2026-05-25 | ingest: brum2025-flaxseeds-ptes-organic-conventional enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
+| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
+<!-- END: hmi-page-history -->

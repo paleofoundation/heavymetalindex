@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "US national probabilistic Monte Carlo (10,000 iterations) using AHHS 2005-2006 + AHHS II 2018-2019 + FDA TDS 2007-2013 + NHANES distributions for soil, dust, water, and food Pb intake."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -116,3 +119,13 @@ Microbiome: Not addressed.
 - [[regulations/fda-pb-baby-food-action-levels-2023]] (to be created — FDA 2023 draft guidance with 10/20 ppb action levels)
 - [[regulations/fda-iAs-rice-cereal-2020]] (related, prior FDA action level)
 - [[regulations/cdc-blrv-3.5-ugdl]] (to be created)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fa7496e](https://github.com/paleofoundation/heavymetalindex/commit/fa7496e) | 2026-05-15 | sources: Cat 1 Pb biokinetics — Price 2023 IEUBK/ICRP/AALM comparison + baby food BLL |
+<!-- END: hmi-page-history -->

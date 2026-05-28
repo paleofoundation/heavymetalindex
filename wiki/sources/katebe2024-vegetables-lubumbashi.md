@@ -20,6 +20,9 @@ jurisdictions: [CD]
 near_duplicates: []
 sample_n: 60
 sample_population: "Greenhouse pot experiment; four vegetable species (Brassica chinensis, Amaranthus vulgaris, Beta vulgaris, Brassica carinata) grown on soils from three market gardens with low, medium, and high Cu contamination in Lubumbashi, DRC; 60-day cultivation; harvested biomass analyzed for Cu, Co, Cd, Pb, Zn, As"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -56,3 +59,15 @@ Greenhouse pot experiment at University of Lubumbashi Faculty of Agronomic Scien
 - [[ingredients/leafy-greens]]
 - [[ingredients/brassica]]
 - [[supply-chain/mining-region-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [7067f94](https://github.com/paleofoundation/heavymetalindex/commit/7067f94) | 2026-05-13 | ingest p4-batch7-g3: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

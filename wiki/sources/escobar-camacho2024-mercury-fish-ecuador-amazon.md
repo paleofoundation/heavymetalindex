@@ -20,6 +20,9 @@ jurisdictions: [EC]
 near_duplicates: []
 sample_n: 120
 sample_population: "Freshwater fish from Cofán-Bermejo and Dureno indigenous territory rivers, Sucumbíos Province, Ecuador; also water and sediment samples from the same watersheds"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,16 @@ Microbiome: Mercury exposure in high-fish-consumption populations; potential lin
 - [[metals/mercury]]
 - [[ingredients/freshwater-fish]]
 - [[regulations/codex-mrl-methylmercury-fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [591741c](https://github.com/paleofoundation/heavymetalindex/commit/591741c) | 2026-05-13 | ingest p4-batch7-g2: 4 pages, 46 FP |
+<!-- END: hmi-page-history -->

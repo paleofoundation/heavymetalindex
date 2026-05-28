@@ -20,6 +20,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 63
 sample_population: "21 mushroom species (18 wild, 3 cultivated), 3 specimens each; wild species sampled from 6 communal areas in Podlaskie Province (eastern Green Lungs of Poland), 2007–2010; cultivated species (Agaricus bisporus, Pleurotus ostreatus, Lentinus edodes) purchased from local food markets; n=63 individual samples total"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -126,3 +129,15 @@ No speciation was performed; only total Pb and total Cd are reported. The study 
   - Corrected an FM-basis claim. The previous revision stated "all species except Rozites caperatus (0.68 µg/g FM) and Boletus chrysenteron (0.61 µg/g FM) fall below 0.2 µg/g FM" — verified against Table 1, this is wrong: Armillaria mellea (0.53), Boletus edulis (0.31), Lactarius deliciosus (0.24), and Macrolepiota procera (0.26) all also exceed 0.2 µg/g FM Cd. The 0.2 µg/g FM limit in EC 629/2008 applies specifically to the three named cultivated species (Agaricus bisporus, Pleurotus ostreatus, Lentinus edodes), not to wild mushrooms; the wild-mushroom EU limit is 1 µg/g FM. All wild values remained below the 1 µg/g FM limit applicable to them.
 - Brand-firewall compliance (Part 12 strict reading): no brand names in source-page content. "PerkinElmer NexION 300D" (ICP-MS instrument) and "Speedwave, Berghof" (microwave digester) are scientific-method vendor names per the Exception 2 carve-out and remain. "Agaricus bisporus (white)" is a species-and-form descriptor as reported by the paper, not a brand.
 - Speciation conventions (Part 14): paper measured total Pb and total Cd only by ICP-MS; no Hg, As, Cr, or Cr-VI speciation. Frontmatter `metals: [Pb, Cd]` matches.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a78ee30](https://github.com/paleofoundation/heavymetalindex/commit/a78ee30) | 2026-05-20 | ingest: mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

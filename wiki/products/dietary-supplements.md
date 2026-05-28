@@ -7,6 +7,7 @@ primary_metals_of_concern: [Pb, Cd, iAs, tAs, tHg, Ni, Cr-VI]
 vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-14
 sources: 10
 created_by: autonomy_v0
@@ -68,3 +69,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | --- | --- | ---: | --- | --- |
 
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [1c71659](https://github.com/paleofoundation/heavymetalindex/commit/1c71659) | 2026-05-25 | fill dietary-supplements synthesis prose |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [0b917c5](https://github.com/paleofoundation/heavymetalindex/commit/0b917c5) | 2026-05-17 | stubs: strip 'autonomy-created stub' prose from 41 pages that now have structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+<!-- END: hmi-page-history -->

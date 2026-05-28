@@ -19,6 +19,9 @@ products: ["[[products/chocolate]]"]
 matrices: [cocoa-powder, cocoa-mass]
 jurisdictions: [DE, EU]
 sample_n: 12482
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -63,3 +66,15 @@ Origin information on GFM cocoa powder samples was rare — origin grouping was 
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected the aluminum metal wikilink, removed a software brand name from Methods, and tightened implication language to avoid threshold-setting or downstream-page directives.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [6de0a7c](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7c) | 2026-05-12 | ingest: batch-C (10 PDFs) — seasonal-geographic-variance manual-fetch |
+<!-- END: hmi-page-history -->

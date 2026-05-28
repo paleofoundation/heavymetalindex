@@ -16,6 +16,9 @@ ingredients: []
 products: []
 matrices: [pediatric, environmental-exposure, developmental-toxicology]
 jurisdictions: [international]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -41,3 +44,13 @@ The chapter establishes the pediatric environmental toxicology framework: childr
 - [[metals/mercury]]
 - [[metals/aluminum]]
 - [[health/pediatric-environmental-toxicology]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8f2cd83](https://github.com/paleofoundation/heavymetalindex/commit/8f2cd83) | 2026-05-09 | ingest: phase-3b-raw-studies-priority-1-tier1 — 4 priority-1 manifest gap-fillers |
+<!-- END: hmi-page-history -->

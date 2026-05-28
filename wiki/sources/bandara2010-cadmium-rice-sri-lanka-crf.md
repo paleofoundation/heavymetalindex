@@ -19,6 +19,9 @@ matrices: [rice-grain, pulses, fish, breast-milk, drinking-water, wet-weight]
 jurisdictions: [LK]
 sample_n: 140
 sample_population: "Samples from Sri Lanka North Central Province (Anuradhapura, Polonnaruwa, Madawachchiya): rice (n≈40), pulses, fish (Tilapia, Channa), lotus rhizomes, breast milk from mothers in CRF households, reservoir and well water; WHO-sponsored investigation"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -69,3 +72,16 @@ Courses: Important case study for fertilizer-driven Cd contamination pathway and
 - [[ingredients/pulses]]
 - [[metals/cadmium]]
 - [[supply-chain/fertilizer-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

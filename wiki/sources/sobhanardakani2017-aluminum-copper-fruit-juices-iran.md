@@ -20,6 +20,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 48
 sample_population: "48 commercially packaged fruit juice samples of 4 types (cherry, mango, orange, pineapple) from 4 popular brands, purchased in Tetra Pak boxes from supermarkets in Hamedan city, Iran, 2015"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ---
 
@@ -63,3 +66,14 @@ Key limitation: Al in cherry juice (Brand 1, 3.30 mg/L) is ~16x the WHO MPL; aut
 - [[ingredients/cherry-juice]]
 - [[ingredients/orange-juice]]
 - [[ingredients/pineapple-juice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

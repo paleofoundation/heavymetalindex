@@ -19,6 +19,9 @@ products: ["[[products/tea]]"]
 matrices: [tea-leaves-young, tea-leaves-mature, soil]
 jurisdictions: [CN]
 sample_n: 26
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -75,3 +78,15 @@ Single county (Puan), 13 sampling sites — geographically narrow. Puan County h
 - [[metals/arsenic]]
 - [[metals/aluminium]]
 - [[ingredients/tea]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [3859dbf](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf) | 2026-05-12 | ingest: batch-D manual-fetch — 11 source pages (rice, cocoa, tea, apple juice) |
+<!-- END: hmi-page-history -->

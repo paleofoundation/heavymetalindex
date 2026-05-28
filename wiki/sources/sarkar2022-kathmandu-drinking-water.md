@@ -19,6 +19,9 @@ jurisdictions: [NP]
 near_duplicates: []
 sample_n: 35
 sample_population: "35 public drinking water sources (7 dug wells, 18 tube wells, 9 stone spouts, 1 municipal tap) in the Kathmandu Valley, Nepal; sampled January–February 2016"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -62,3 +65,13 @@ App: Not directly applicable to food ingredient contamination profiles. Relevant
 - [[metals/manganese]]
 - [[metals/aluminium]]
 - [[regulations/who-drinking-water-guidelines]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e4c0b23](https://github.com/paleofoundation/heavymetalindex/commit/e4c0b23) | 2026-05-13 | ingest p4-batch14-g1: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [AU, NZ, FR, EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Review article synthesizing arsenic speciation data across multiple studies"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -62,3 +65,15 @@ Microbiome: The review explicitly links gut microbial diversity to arsenolipid b
 - [[ingredients/seafood]]
 - [[ingredients/fish-oil]]
 - [[ingredients/rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e4c0b23](https://github.com/paleofoundation/heavymetalindex/commit/e4c0b23) | 2026-05-13 | ingest p4-batch14-g1: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

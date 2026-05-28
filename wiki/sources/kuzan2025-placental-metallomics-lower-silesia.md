@@ -19,6 +19,9 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 33
 sample_population: "Term and near-term placentas from 33 women delivering at the First Department of Gynecology and Obstetrics, Wroclaw Medical University (Lower Silesia, Poland), 2015–2016. Inclusion: live singleton birth, gestational age 22–42 weeks (mean 38.6 ± 1.63). Exclusion: multiple pregnancies. Comorbidities present in study group: diabetes 30.3%, hypothyroidism 21.2%, PROM 12.2%, nicotinism 9.1%. Delivery mode: 31 caesarean (93.9%), 2 spontaneous (6.1%)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -86,3 +89,13 @@ Instrument: Agilent 5110 SVDV ICP-OES (synchronous vertical dual view) with 1.8 
 - [[metals/chromium]]
 - [[testing/icp-oes]]
 - [[health/placental-transfer]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ea7afc6](https://github.com/paleofoundation/heavymetalindex/commit/ea7afc6) | 2026-05-18 | ingest: kuzan2025-placental-metallomics-lower-silesia enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

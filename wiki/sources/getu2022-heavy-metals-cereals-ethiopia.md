@@ -19,6 +19,9 @@ jurisdictions: [ET]
 near_duplicates: []
 sample_n: 4
 sample_population: "Four cereal types (barley, tef, wheat, maize) purchased from 40 merchants at Debre Markos local market, Amhara region, Ethiopia; ~1 kg composite bulk sample per cereal type analyzed in triplicate"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -74,3 +77,14 @@ App: barley, wheat, and maize from Ethiopia flag as elevated risk for Pb and Cd 
 - [[ingredients/barley]]
 - [[ingredients/wheat]]
 - [[ingredients/maize]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [6edd24b](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b) | 2026-05-13 | ingest p4-batch16-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

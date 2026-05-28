@@ -19,6 +19,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 35
 sample_population: "Commercially produced Turkish vinegars (n=34): 17 grape, 12 apple, 3 balsamic, 1 pomegranate, 1 fig; plus 1 homemade vinegar"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -77,3 +80,17 @@ Page was originally drafted under the legacy manual-fetch-kimi handle and last u
 - Explicitly note which HMTc-panel analytes are NOT measured (Cd, As, Hg, Ni, Sn).
 
 Auto-audit subagent (2026-05-26) verdict REVISE; 2 findings applied: (i) corrected spike-level wording in Key numbers to show analyte-specific spike concentrations rather than a continuous 0.01–1.00 mg/L range (Table 2 spike levels are Pb 0.01, Cu 0.05, Co 0.10, Mn 0.50, others 1.00 mg/L); (ii) removed the "consistent with concentration effects during balsamic production" mechanism claim from Implications — the paper reports balsamic/fig values are higher but does not attribute mechanism, so the claim was unsupported synthesis. 1 finding documented but not applied: the audit noted that mapping the paper's "grape vinegar" samples to the `wine-vinegar` ingredient slug is an inference (the paper does not explicitly state these are wine-fermentation-derived; Turkish üzüm sirkesi can be produced from grape must as well as from wine). The mapping is retained because (a) the paper itself states all vinegars are produced "by alcoholic and subsequent acetic fermentation" from wines, sugary, or starchy foods, and (b) other vinegar source pages in the corpus (acosta1993, ndungu2004) follow the same convention of routing "grape vinegar" to the `wine-vinegar` commodity slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [59da47f](https://github.com/paleofoundation/heavymetalindex/commit/59da47f) | 2026-05-26 | audit: ozbek2016-mip-oes-turkish-vinegars revised |
+| [af792ff](https://github.com/paleofoundation/heavymetalindex/commit/af792ff) | 2026-05-26 | ingest: ozbek2016-mip-oes-turkish-vinegars enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [RO, EU]
 near_duplicates: []
 sample_n: 80
 sample_population: "80 fruit and vegetable samples from Galați County, Romania (45 from vegetable/fruit market, 35 from amateur farmers), collected August 2020–December 2021. Comprises 21 commodities across fruiting vegetables (tomato, yellow cherry tomato, red cherry tomato, long cucumber, kirby cucumber, red beans, white beans, zucchini), fruits (raspberry, blueberry, strawberry, watermelon, bell pepper, chestnut, apples, plums, pear, quince, grapes), leafy vegetables (cabbage, tarragon, parsley, lovage, dill, lettuce, celery), bulbs (garlic, onion), and root vegetables (potato, parsley root, carrot). Harvest areas located in Tecuci, Matca, and Târgu Bujor (Galați County, southeastern Romania)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -186,3 +189,16 @@ Merge-enhanced 2026-05-28 from the 2026-05-14 source page against the original P
 - Speciation discipline: ⁷⁵As measured (total As, no iAs/MMA/DMA/AsB speciation), so `metals` uses `tAs`, not `iAs`. Zn included as the paper's microelement, treated here as an additional analyte without speciation.
 
 Auto-audit subagent (2026-05-28, fresh-context Agent) returned verdict REVISE with one ⚠️ finding under Check 2 — claim that `[[ingredients/garlic]]` and `[[ingredients/zucchini]]` would surface as `routing_unresolved.csv` entries. Verified false positive against source: `wiki/ingredients/onions.md` declares `aliases: [onion, garlic, allium-vegetables]` and `wiki/ingredients/squash.md` declares `aliases: [zucchini]`; the routing audit script (`tools/evidence/build-routing-audit.mjs` line ~190) explicitly accepts alias-resolved slugs (`if (ingredientAliases.has(ingredient)) continue`); the post-ingest routing audit ran clean (0 unresolved entries for this source). Per-commodity declaration preserves accurate provenance — the paper measures garlic and zucchini as distinct commodities with non-BLD As, Cd, Pb, and Zn values across both market and amateur arms — even though their routing target is shared via alias with their parent slugs. Whether garlic and zucchini eventually warrant their own ingredient pages is a Part 10 5-paper-threshold question for future synthesis, out of scope for this skill execution per the hard constraint against new-ingredient-page creation. Checks 1, 3, 4, and 5 returned clean. No content changes applied; finding rejected with rationale.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8f28a50](https://github.com/paleofoundation/heavymetalindex/commit/8f28a50) | 2026-05-28 | audit: bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing promoted |
+| [2c3d830](https://github.com/paleofoundation/heavymetalindex/commit/2c3d830) | 2026-05-28 | ingest: bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing enhanced from Manual Fetch Kimi/condiment_papers/02_Vinegars |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

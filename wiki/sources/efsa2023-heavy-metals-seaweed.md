@@ -19,6 +19,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: 2093
 sample_population: "European population dietary exposure assessment using occurrence data from EFSA's FoodEx2 taxonomy; n varies by analyte: Cd n=2,093, Pb n=1,988, tAs n=1,934, iAs n=920, tHg n=1,499"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -54,3 +57,14 @@ Microbiome: Not directly applicable.
 - [[ingredients/spirulina]]
 - [[ingredients/chlorella]]
 - [[regulations/eu-contaminants-framework]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [9795863](https://github.com/paleofoundation/heavymetalindex/commit/9795863) | 2026-05-13 | ingest p4-batch16-g4: 10 pages, 38 FP |
+<!-- END: hmi-page-history -->

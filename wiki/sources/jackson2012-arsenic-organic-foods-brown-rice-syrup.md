@@ -14,6 +14,9 @@ metals: [tAs, iAs]
 ingredients: [rice, infant-formula-powder]
 products: [infant-formula, toddler-formula, rice-containing-products]
 jurisdictions: [US]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-28
 ---
 
@@ -53,3 +56,15 @@ The two high-arsenic formula products were corrected by the authors to be toddle
 - [[products/infant-formula-powder-soy-based]]
 - [[products/teething-and-snacks-rice-based]]
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+<!-- END: hmi-page-history -->

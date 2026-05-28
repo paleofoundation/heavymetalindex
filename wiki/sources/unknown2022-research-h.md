@@ -31,6 +31,9 @@ metals: []
 ingredients:
   - milk
 jurisdictions: []
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 ## Key numbers
@@ -63,3 +66,13 @@ Establishes microbiome composition and baseline trace mineral profile in raw goa
 - `ingredients/milk.md`
 - `ingredients/goat-milk.md`
 ```
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5c6309b](https://github.com/paleofoundation/heavymetalindex/commit/5c6309b) | 2026-05-19 | autonomy: daemon tick 2026-05-19T00-27-42Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

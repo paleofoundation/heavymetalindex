@@ -13,6 +13,7 @@ effective_date: 2010-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-91st-cadmium-2022]]"]
 title: "JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month"
+wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]
 ---
@@ -82,3 +83,17 @@ The factor-of-approximately-2.3 gap between the JECFA PTMI (weekly-equivalent 5.
 - [[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]] — JECFA 91st meeting, 2020 (published 2022). Cadmium: dietary exposure assessment (WHO Food Additives Series No. 82).
 
 _Pending: WHO Technical Report Series No. 960 (2011) summary report companion to the 73rd meeting._
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [39d4918](https://github.com/paleofoundation/heavymetalindex/commit/39d4918) | 2026-04-24 | Ingest JECFA 91st meeting Cd dietary exposure assessment (WHO FAS 82) |
+<!-- END: hmi-page-history -->

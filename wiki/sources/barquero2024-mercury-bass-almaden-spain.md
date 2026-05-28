@@ -20,6 +20,9 @@ jurisdictions: [ES, EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Largemouth bass (Micropterus salmoides) from a 34 km transect of the Valdeazogues River, Almadén mercury mining district, Ciudad Real, Spain; seven sampling sites including the El Entredicho open pit lake"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -60,3 +63,15 @@ Microbiome: Extreme methylmercury concentrations in a top predator species in a 
 - [[ingredients/freshwater-fish]]
 - [[metals/mercury]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [ff4abae](https://github.com/paleofoundation/heavymetalindex/commit/ff4abae) | 2026-05-13 | ingest p4-batch8-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

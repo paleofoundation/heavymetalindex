@@ -53,6 +53,9 @@ sample_n:
   infants: 184
 study_duration: "2021–2023"
 study_design: Cross-sectional observational
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 ## Study Overview
@@ -119,3 +122,13 @@ This source contributes direct evidence on:
 - Exposure-pathway quantification across water, soil, food, and biological matrices
 - Infant health-risk assessment in endemic populations
 - Regional (South Asian) contamination patterns and epidemiology
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b4ac734](https://github.com/paleofoundation/heavymetalindex/commit/b4ac734) | 2026-05-18 | autonomy: daemon tick 2026-05-17T22-36-15Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [LB]
 near_duplicates: []
 sample_n: 96
 sample_population: "96 composite samples (from 480 individual samples) of 13 dried herbs and spices collected from Lebanese markets in June and September 2020"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -57,3 +60,16 @@ Analysis conducted at the Lebanese Agricultural Research Institute (LARI), ISO/I
 - [[ingredients/paprika]]
 - [[ingredients/cinnamon]]
 - [[regulations/codex-cxs-193-1995-contaminants]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [7067f94](https://github.com/paleofoundation/heavymetalindex/commit/7067f94) | 2026-05-13 | ingest p4-batch7-g3: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

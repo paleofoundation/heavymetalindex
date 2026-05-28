@@ -19,6 +19,9 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: 189
 sample_population: "189 cosmetic samples (63 unique brands × 3 triplicates) from local community markets in Abbottabad, Haripur, and Mansehra, Pakistan. Six product categories: lotions (30 brands), foundations (9), whitening creams (6), lipsticks (6), hair dyes (6), sunblock creams (6)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -149,3 +152,16 @@ Microbiome: Not addressed.
   - Removed cross-source synthesis claim "most comprehensive Cat 2 cosmetic-occurrence source ingested to date" — per Part 9, source pages do not compare this paper to other sources.
   - Corrected "45.42 mg/kg" foundation Fe Max to "45.4 mg/kg (±12.0 SD)" matching Table 1 F1 row precision exactly.
 - Added PerkinElmer AAnalyst 700 instrument vendor and NIST SRM 1515 reference material to Methods (Part 12 Exception 2 — scientific reproducibility).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f11e6c0](https://github.com/paleofoundation/heavymetalindex/commit/f11e6c0) | 2026-05-17 | audit: arshad2020-heavy-metals-cosmetic-products-pakistan revised |
+| [c59d195](https://github.com/paleofoundation/heavymetalindex/commit/c59d195) | 2026-05-17 | ingest: arshad2020-heavy-metals-cosmetic-products-pakistan enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [95b4966](https://github.com/paleofoundation/heavymetalindex/commit/95b4966) | 2026-05-15 | sources: Cat 2 multi-product — Arshad 2020 Pakistani cosmetic survey (Cd/Cr/Fe/Ni/Pb across 6 categories) |
+<!-- END: hmi-page-history -->

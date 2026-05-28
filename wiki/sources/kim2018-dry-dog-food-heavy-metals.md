@@ -18,6 +18,9 @@ matrices: [pet-food]
 jurisdictions: [US]
 sample_n: 51
 sample_population: "51 over-the-counter maintenance or all-life-stage dry dog foods (17 fish-based, 17 poultry-based, 17 red-meat-based) purchased in the United States; 47 from an online pet food retailer, 1 from a local grocery store, 1 from a local pet food retailer, 2 from the Cornell Veterinary Medical Center"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -103,3 +106,16 @@ Checks 1, 2, 3, 5 returned ✅. Check 4 raised one ⚠️ finding: the Brand-han
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/mercury-total]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5c63075](https://github.com/paleofoundation/heavymetalindex/commit/5c63075) | 2026-05-28 | audit: kim2018-dry-dog-food-heavy-metals revised |
+| [cc2432f](https://github.com/paleofoundation/heavymetalindex/commit/cc2432f) | 2026-05-28 | ingest: kim2018-dry-dog-food-heavy-metals enhanced from manual-fetch/seasonal-geographic-variance/auto-fetched |
+| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

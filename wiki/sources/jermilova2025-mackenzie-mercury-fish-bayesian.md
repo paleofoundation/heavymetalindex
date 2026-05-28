@@ -20,6 +20,9 @@ jurisdictions: [CA]
 near_duplicates: []
 sample_n: 1044
 sample_population: "Five freshwater fish species (lake whitefish, lake trout, northern pike, walleye, burbot) from Mackenzie River Basin and Great Slave Lake, Canada; 2005–2020 monitoring data"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -81,3 +84,15 @@ This is a risk modeling study, not a primary occurrence survey. Hg monitoring da
 - [[metals/mercury]]
 - [[ingredients/freshwater-fish]]
 - [[health/mercury-dietary-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [2961cee](https://github.com/paleofoundation/heavymetalindex/commit/2961cee) | 2026-05-12 | ingest: P4 batch 3 group 3 — 1 source page, 49 false positives |
+<!-- END: hmi-page-history -->

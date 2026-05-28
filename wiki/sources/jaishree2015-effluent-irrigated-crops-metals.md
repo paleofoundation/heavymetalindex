@@ -17,6 +17,9 @@ products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables
 matrices: ["carrot", "tomato", "wheat"]
 jurisdictions: ["IN"]
 sample_population: "Vegetables and wheat grown under industrial-effluent irrigation conditions in India"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -53,3 +56,14 @@ The source can support contamination-context entries for carrots, tomatoes, and 
 ## Verification notes
 
 The crop-table values above follow the source discussion/order for the vegetable table (Ni, Pb, Cu, Cd, Cr, Mn, Zn). The source uses inconsistent unit labels across methods, abstract, and discussion, so treat this as C-tier high-exposure context unless the table image is independently checked before quantitative pooling.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [0d9d380](https://github.com/paleofoundation/heavymetalindex/commit/0d9d380) | 2026-05-26 | ingest auto-fetched 2026-05-26 2220 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

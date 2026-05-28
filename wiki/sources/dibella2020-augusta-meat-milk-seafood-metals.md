@@ -20,6 +20,9 @@ matrices: [beef, pork, cow-milk, sheep-goat-milk, fish, molluscs, crustaceans, s
 jurisdictions: [IT, EU]
 sample_n: "Seafood from the Augusta Bay/Sicily study area plus terrestrial animal products from 26 farms: 5 bovine milk, 11 sheep/goat milk, 11 beef, and 3 pork samples."
 sample_population: "Meat, milk, and seafood from the Augusta-Melilli-Priolo industrial area in Southern Italy; seafood pooled across fish, mollusc, and crustacean categories for some exposure calculations."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -70,3 +73,13 @@ This source contributes polluted-area occurrence evidence for seafood and terres
 - Batch 2 auto-fetched ingest, 2026-05-25. The wishlist filename targeted cow-milk/infant-formula inorganic arsenic, but the actual paper reports meat, raw milk, and seafood occurrence data; it is not a formula source.
 - Speciation: As and Hg concentrations are total/unspecified measurements. Risk calculations estimate inorganic arsenic fractions and methylmercury relevance, but the measured concentration table is not speciated iAs or MeHg.
 - Market/geography: this is a local polluted-area dataset from Southern Italy and should not be pooled silently with general-market US or EU benchmark data.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db181df](https://github.com/paleofoundation/heavymetalindex/commit/db181df) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 2: 4 source pages + 2 rollups + 44 skips |
+<!-- END: hmi-page-history -->

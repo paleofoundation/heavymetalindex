@@ -20,6 +20,9 @@ jurisdictions: [CO]
 near_duplicates: []
 sample_n: 225
 sample_population: "225 rhizosphere soil samples from 16 plots across 5 cacao farms in Antioquia and Santander departments, Colombia; natural soil Cd gradient 0–4.3 mg kg-1; collected 2020 and 2022"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -73,3 +76,14 @@ Microbiome: Establishes Flavobacterium as a newly identified Cd-tolerant genus i
 - [[metals/cadmium]]
 - [[microbiome/soil-cd-bacteria]]
 - [[supply-chain/agricultural-mitigation]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [da722b6](https://github.com/paleofoundation/heavymetalindex/commit/da722b6) | 2026-05-12 | ingest: P4 batch 2 group 2 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

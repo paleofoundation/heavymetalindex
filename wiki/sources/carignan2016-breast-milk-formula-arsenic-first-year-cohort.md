@@ -17,6 +17,9 @@ products: ["[[products/infant-formula-powder-non-soy]]"]
 matrices: [breastmilk, infant-formula, urine, prospective-cohort]
 jurisdictions: [US]
 sample_n_notes: "U.S. New Hampshire Birth Cohort prospective study; first-year-of-life feeding-mode-stratified arsenic exposure"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -37,3 +40,13 @@ Cumulative arsenic exposure in the first year of life depends substantially on f
 
 - [[metals/arsenic-inorganic]]
 - [[products/infant-formula-powder-non-soy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

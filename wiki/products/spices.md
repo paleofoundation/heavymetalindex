@@ -7,6 +7,7 @@ primary_metals_of_concern: [Pb, Cd, tAs, Cr]
 vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-14
 sources: 31
 created_by: autonomy_v0
@@ -68,3 +69,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | --- | --- | ---: | --- | --- |
 
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7c74f91](https://github.com/paleofoundation/heavymetalindex/commit/7c74f91) | 2026-05-25 | fill spices synthesis prose |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [8a49534](https://github.com/paleofoundation/heavymetalindex/commit/8a49534) | 2026-05-17 | products index: numerical order, source counts on every row, drop clean/contaminated call-outs |
+| [0b917c5](https://github.com/paleofoundation/heavymetalindex/commit/0b917c5) | 2026-05-17 | stubs: strip 'autonomy-created stub' prose from 41 pages that now have structure |
+<!-- END: hmi-page-history -->

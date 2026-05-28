@@ -81,6 +81,9 @@ notes:
   - Rare earth elements also detected and quantified
   - Data reported in multiple bases; conversions to ppb µg/kg applied during synthesis
   - Single-country study; geographic variance beyond Spain not addressed in this source
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 # Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market
@@ -122,3 +125,13 @@ Fish category showed markedly higher arsenic and mercury than other product type
 
 A-tier source with adequate sample size, multi-element ICP-MS analysis, and retail-market origin reflective of actual infant exposure. Data support risk characterization for fish-based infant purees specifically. Geographic scope limited to Spain; extrapolation to other markets requires caution due to regional differences in ingredient sourcing and water quality.
 ```
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5c6309b](https://github.com/paleofoundation/heavymetalindex/commit/5c6309b) | 2026-05-19 | autonomy: daemon tick 2026-05-19T00-27-42Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

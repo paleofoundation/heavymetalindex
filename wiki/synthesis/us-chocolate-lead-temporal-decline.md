@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 products: []
 anchor_sources: ["[[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]]", "[[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]]", "[[sources/zhao2024-toxic-metals-metalloids-food-review]]"]
 established: 2026-05-13
+wiki_doi: null
 updated: 2026-05-13
 ---
 
@@ -76,3 +77,13 @@ The organic-segment cadmium finding from Hands 2024 deserves dedicated treatment
 ## How this page was promoted
 
 Promoted 2026-05-13 from the candidate queue. Three independent anchors meeting all four promotion criteria: independent (different research groups, different methodological frameworks, different time scopes), spans multiple metals (Pb, Cd), grounds the regulatory-intervention case study, strategic relevance to brand-legal (Prop 65 exposure expectations for US-market chocolate), regulator (state-level enforcement case study), and educator (mechanistic asymmetry between processing-side and soil-side contamination) audiences. Re-synthesis is expected when the Consumer Reports chocolate dataset enters the corpus, when the FDA TDS chocolate-exposure analysis is cross-referenced, or when a dedicated Prop 65 enforcement timeline page documents the causal attribution rigorously.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9469b28](https://github.com/paleofoundation/heavymetalindex/commit/9469b28) | 2026-05-13 | synthesis: promote three more findings pages + retire Egypt candidate |
+<!-- END: hmi-page-history -->

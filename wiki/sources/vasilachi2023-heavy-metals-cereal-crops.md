@@ -21,6 +21,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative literature review synthesising prior studies on cereal crops (wheat, rice, maize, barley, rye, oats, millet) grown in heavy-metal-contaminated agricultural soils; global scope; 321 cited references"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -68,3 +71,14 @@ All five invented claims have been removed. Replaced with the actual quantitativ
 - ⚠️→applied: `Cr-VI` added to the metals list. The audit correctly noted that the paper explicitly discusses chromate (CrO₄²⁻) uptake mechanisms and Cr(VI) carcinogenicity distinct from Cr(III) (Table 2 p. 8, mechanism discussion p. 11), justifying inclusion of the speciated slug alongside total `Cr`.
 - ⚠️→documented: Cu and Zn are extensively discussed in the source (Table 2 columns, the Cd–Zn competition mechanism on pp. 11–17) but are intentionally omitted from the metals frontmatter because they are essential micronutrients, not HMTc-scope toxic-metal analytes. Recording the design choice here so a future session does not re-add them mechanically.
 - ⚠️→rejected as false positive: the audit raised concern that `cereal-grain` and `agricultural-soil` may not be canonical matrices slugs because they do not appear in the taxonomy-snapshot doc. Verified against the actual matrices inventory: both slugs are in widespread use across `wiki/sources/` (the taxonomy snapshot enumerates ingredients/products/metals/regulations but not the matrices vocabulary, which is documented by usage). No change made; flagging here so the snapshot can be expanded if useful.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6e14b60](https://github.com/paleofoundation/heavymetalindex/commit/6e14b60) | 2026-05-18 | audit: vasilachi2023-heavy-metals-cereal-crops revised |
+| [99b9b66](https://github.com/paleofoundation/heavymetalindex/commit/99b9b66) | 2026-05-18 | ingest: vasilachi2023-heavy-metals-cereal-crops enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

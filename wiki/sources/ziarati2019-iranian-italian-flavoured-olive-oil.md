@@ -19,6 +19,9 @@ jurisdictions: [IR, IT]
 near_duplicates: []
 sample_n: 480
 sample_population: "Commercial olive oil samples (non-flavoured and flavoured: fungi, aroma vegetables, pepper) purchased from Lombardy, Italy and Tehran, Iran across three seasons (autumn 2016, winter and spring 2017)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -82,3 +85,17 @@ ICP-AES (Varian Vista) for Cd, Pb, and Ni after dilute HNO3/H2O2 extraction (3.0
 - `edible-oil`, `olive-oil`, and `flavoured-olive-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
 - 2026-05-18 Cross-vendor audit (Codex) made the source-internal Ni contradiction explicit: Table 3 reports Iranian Ni lower than Italian Ni (9.579 vs 12.253 µg/g), while the narrative says Iranian Ni was higher. Also tightened the regulatory note so Codex/USDA 0.1 mg/kg is not over-attributed to Cd.
 - 2026-05-25 Claude cross-audit (fresh-context subagent): PROMOTE verdict. All Table 1/2/3/4 values verified against pp. 66-67; methods description verified against pp. 65-66; brand-firewall (Iranian series aggregation) and HMTc-firewall (no threshold proposals) verified clean. Applied finding: restored SE values on the Italian/Iranian combined-means line for completeness (was reporting only the mean from Table 3). Leave-as-noted findings: Iranian series-4 Ni SE rounding (±0.283 vs paper's ±0.2831, trivial), pre-bath 50 Hz × 60 s mixer detail not transcribed (methods minutiae), CRM vendor (Alpha-Line, Chem Tech Analytical) not named on page (incomplete but not erroneous), `flavoured-olive-oil` matrix descriptor remains non-canonical pending system-level routing-layer review.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [32bf094](https://github.com/paleofoundation/heavymetalindex/commit/32bf094) | 2026-05-25 | audit: ziarati2019-iranian-italian-flavoured-olive-oil promoted |
+| [fc87139](https://github.com/paleofoundation/heavymetalindex/commit/fc87139) | 2026-05-18 | audit (codex): ziarati2019 olive oil revised |
+| [41c4646](https://github.com/paleofoundation/heavymetalindex/commit/41c4646) | 2026-05-17 | ingest: ziarati2019 flavoured olive oil enhanced |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

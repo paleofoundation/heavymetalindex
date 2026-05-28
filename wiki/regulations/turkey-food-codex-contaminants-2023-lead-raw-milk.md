@@ -12,6 +12,7 @@ status: in-force
 effective_date: 2023-11-05
 source_url: "https://www.resmigazete.gov.tr/eskiler/2023/11/20231105-1.htm"
 audience: [regulator, educator, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -42,3 +43,13 @@ This page records an external public-law comparator. It does not set an HMT&C ce
 
 - Created 2026-05-18 by Codex during dairy/eggs manual-fetch ingest.
 - The 2023 regulation's HTML text verifies the legal identity, issuing ministry, effective date, EU-alignment statement, and repeal of the 2011 Turkish Food Codex Contaminants Regulation. The annex PDF image verifies section 3.1.16: raw milk, heat-treated milk, and milk used to manufacture milk-based products, Pb maximum level 0.020 mg/kg.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4477417](https://github.com/paleofoundation/heavymetalindex/commit/4477417) | 2026-05-18 | audit (claude): clear Codex carry-over — yildiz-kucuk2024 + Turkish 2023 regulation + index |
+<!-- END: hmi-page-history -->

@@ -14,6 +14,7 @@ sunset_date: 2023-05-25
 superseded_by: "[[regulations/eu2023-contaminants-maximum-levels]]"
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015R1006"
 audience: [regulator, educator, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -48,3 +49,13 @@ For current-facing EU comparisons, use [[regulations/eu2023-contaminants-maximum
 
 - Created 2026-05-18 during Codex auto-fetch merge-enhancement of [[sources/signes-pastor2017-infant-arsenic-rice-weaning]].
 - EUR-Lex verifies Article 2 application from 1 January 2016 and the Annex rows 3.5.1 through 3.5.4 for inorganic arsenic in rice and rice products.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c3629d4](https://github.com/paleofoundation/heavymetalindex/commit/c3629d4) | 2026-05-19 | ingest auto-gap: infant rice arsenic weaning |
+<!-- END: hmi-page-history -->

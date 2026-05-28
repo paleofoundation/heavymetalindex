@@ -18,6 +18,9 @@ ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/
 products: ["[[products/infant-formula]]", "[[products/sunflower-seeds]]"]
 jurisdictions: [EU]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-24
 ---
 
@@ -118,3 +121,17 @@ A 2011 EFSA statement reaffirmed this TWI after JECFA published a divergent prov
 - [[metals/cadmium]]
 - [[regulations/efsa-cadmium-twi]]
 - [[synthesis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [f9c10ec](https://github.com/paleofoundation/heavymetalindex/commit/f9c10ec) | 2026-04-24 | Ingest EFSA 2009 CONTAM opinion on cadmium in food |
+<!-- END: hmi-page-history -->

@@ -17,6 +17,9 @@ products: []
 matrices: [microbiome, ars-operon, arsM-methyltransferase, aioAB-arxAB-oxidase, arrAB-respiration, thiolation, faecalibacterium-prausnitzii, germ-free-mouse]
 jurisdictions: [US]
 sample_n_notes: "Comprehensive review article from Montana State University Microbiology & Immunology; synthesizes ~150 primary papers on microbial arsenic biotransformation pathways in the human gut"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -81,3 +84,13 @@ Comprehensive narrative review. The paper draws on approximately 150 primary ref
 - [[metals/arsenic-inorganic]]
 - [[microbiome/arsenic-gut-axis]]
 - [[microbiome/arsenic-microbial-methylation]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [77c3e8b](https://github.com/paleofoundation/heavymetalindex/commit/77c3e8b) | 2026-05-11 | ingest: Coryell 2019 As-microbiome canonical synthesis |
+<!-- END: hmi-page-history -->

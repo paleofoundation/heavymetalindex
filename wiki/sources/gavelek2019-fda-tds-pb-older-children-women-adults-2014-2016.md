@@ -17,6 +17,9 @@ products: []
 matrices: [total-diet-study, dietary-exposure]
 jurisdictions: [US]
 sample_n_notes: "FDA Total Diet Study 2014-2016 lead exposure for older children (7-17), women of childbearing age (16-49), and adults (18+); companion to Spungen 2019 for the younger age groups"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -37,3 +40,13 @@ Per-age-group estimated daily Pb intake from the FDA TDS 2014-2016 is reported w
 
 - [[metals/lead]]
 - [[regulations/fda2025-lead-processed-baby-foods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

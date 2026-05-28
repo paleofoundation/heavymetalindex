@@ -19,6 +19,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 60
 sample_population: "12 vegetable types (carrots, sweet potatoes, celery, lettuce, spinach, cabbage, broccoli, cauliflower, eggplant, avocado, peas, beans) purchased from 5 markets in Kaduna Metropolis (Sabo, Central, Tudun Wada, Kawo, Mando), Kaduna State, Nigeria; 5 samples per vegetable type per market composited by coning and quartering to 1 market-level composite per vegetable type; 60 composite samples total (12 × 5); published March 2026"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -178,3 +181,15 @@ Method limitations: ED-XRF measures total elemental composition without speciati
 - Brand firewall: no brand names appear in the source page; no aggregation of brand-level data was required because the source does not report brand-level data — only market-aggregated composites from five general markets.
 - Routing: products: [] is intentional (paper measures raw fresh produce; no packaged-product slug applies). matrices: includes leafy-vegetable, root-vegetable, fruit-vegetable, and the generic fresh-vegetable to cover the 12 vegetable types that span those plant-part classes.
 - 2026-05-20 — Fresh-context audit subagent (verdict REVISE) flagged the Eggplant HQ_Co cell in Table 3 as `366 / nan` when PDF Table 3 reads `61.0 / 366` (Eggplant column, HQCo row Ad = 61.0, Ch = 366). Re-verified against the PDF Table 3 image; correction applied (adult HQ_Co now 61.0, children 366). Single-cell transcription defect in the merge-enhance pass, not a row-wide shift. No other audit findings required action: Check 1 was otherwise clean across 17 spot-checks; Checks 2–5 were ✅. The auditor's ⚠️ note about Broccoli HI adult (table 141 vs narrative 140) is preserved as a source-internal contradiction, not a wiki defect.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2a1e541](https://github.com/paleofoundation/heavymetalindex/commit/2a1e541) | 2026-05-20 | audit: imongben2026-kaduna-vegetables-hra [revised] |
+| [cdf45cc](https://github.com/paleofoundation/heavymetalindex/commit/cdf45cc) | 2026-05-20 | ingest: imongben2026-kaduna-vegetables-hra [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

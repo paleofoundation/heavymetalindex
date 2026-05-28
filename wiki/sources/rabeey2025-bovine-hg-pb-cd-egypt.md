@@ -20,6 +20,9 @@ jurisdictions: [EG, BR, IN, US]
 near_duplicates: []
 sample_n: 315
 sample_population: "315 imported frozen bovine samples (105 muscle, 105 liver, 105 kidney) collected from local markets in Sohag governorate, Egypt; source countries described by the authors as Brazil, India, and the USA."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -98,3 +101,17 @@ Speciation: The paper reports total mercury. It does not speciate methylmercury 
 - Numerical fidelity follows the article's Tables 1-4. The abstract reports different SE values for several means (for example tHg muscle 0.312 ± 0.058), while Table 1 reports 0.312 ± 0.034; this page follows Table 1 because it is the full tissue-by-metal results table and supports the range and exceedance columns.
 - The Methods prose states an Hg RfD of 1.0 µg/kg/day, but Table 3 uses 0.1 µg/kg/day to calculate the reported THQs. This page preserves the Table 3 THQ values rather than recalculating them.
 - The author-cited Hg MPL is from the USDA Foreign Agricultural Service report on China's contaminant standard; the Pb and Cd MPL references are EU amendment regulations 2015/1005 and 488/2014. This page reports those as author-cited benchmarks, not as current universal limits.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bcbfbe8](https://github.com/paleofoundation/heavymetalindex/commit/bcbfbe8) | 2026-05-18 | audit (codex): rabeey2025 bovine revised |
+| [f65e873](https://github.com/paleofoundation/heavymetalindex/commit/f65e873) | 2026-05-18 | ingest (codex): rabeey2025 bovine duplicate cleanup |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

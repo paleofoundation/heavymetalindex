@@ -17,6 +17,9 @@ products: ["[[products/seafood]]"]
 matrices: ["juaro-fish", "pineapple-extract-treatment"]
 jurisdictions: ["ID"]
 sample_population: "Juaro fish treated with citric acid from pineapple extract"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -53,3 +56,13 @@ The initial fish values support seafood occurrence context. The post-treatment v
 
 - Source identity checked against DOI 10.26554/sti.2017.2.4.89-91 and the downloaded PDF.
 - The paper reports total mercury by AAS; it does not speciate methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

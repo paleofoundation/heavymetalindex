@@ -20,6 +20,9 @@ jurisdictions: [RO, IT]
 near_duplicates: []
 sample_n: 5
 sample_population: "Five commercial canned tomato paste and tomato sauce products sampled from the Romanian retail market in 2008: three Romanian-origin tomato paste products (two in metal cans, one in plastic can as reference) and two Italian-origin tomatoes-in-sauce products (both in metal cans)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -78,3 +81,16 @@ App: Limited utility for ingredient-level contamination profiling given the smal
 - [[products/canned-tomatoes]]
 - [[products/tomato-paste]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4130c7e](https://github.com/paleofoundation/heavymetalindex/commit/4130c7e) | 2026-05-20 | audit: david2008-heavy-metals-canned-tomato-paste-romania [quarantined→revised] |
+| [11483b0](https://github.com/paleofoundation/heavymetalindex/commit/11483b0) | 2026-05-20 | ingest: david2008-heavy-metals-canned-tomato-paste-romania [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

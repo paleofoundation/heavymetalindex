@@ -19,6 +19,9 @@ jurisdictions: [CN, WHO]
 near_duplicates: []
 sample_n: null
 sample_population: "Critical review of the electrochemical-sensor literature (through ~2022) for heavy-metal detection in food matrices."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -120,3 +123,17 @@ B-tier industry-style methods review. CC BY 4.0 license. Coverage is restricted 
 - Part 2 firewall: Implications restates the methods-landscape position without proposing HMTc thresholds or harmonizing with HMTc certification criteria. The review's recommendation of Fe₃O₄/graphene/nucleic-acid composites is reported as the authors' synthesis, not endorsed.
 - Speciation discipline: As³⁺ → iAs (inorganic arsenic). Hg²⁺ → tHg (the cited sensors measure total Hg as Hg²⁺, not MeHg). Cr(VI) → Cr-VI distinct from total Cr.
 - Audit subagent (2026-05-18) flagged the Bi-CNT bullet under Check 1 as having a Cd/Pb LOD attribution transposition (proposed swap to Pb=0.2 / Cd=0.4). Verified against p. 5 of the source: the actual text reads "the detection of Cd²⁺ and Pb²⁺ with LOD of 0.2 and 0.4 µg L⁻¹" — positional matching gives Cd=0.2 / Pb=0.4, which is what the wiki already had. The subagent's specific value-swap finding is a false positive (the subagent appears to have inverted the source's species order in its quoted excerpt). However, the verification surfaced a real but different error: the LOD pair was misattributed to Hwang et al. 2008 when the source actually attributes it to Chamjangali et al. 2015 (the MWCNT/poly/bismuth-modified CNT well-water electrode); the Hwang 2008 reference in the same paragraph reports a separate stream-water Bi-CNT sensor without LOD values. The bullet has been rewritten to correct the citation attribution while leaving the (correct) Cd=0.2 / Pb=0.4 assignment unchanged.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7bab550](https://github.com/paleofoundation/heavymetalindex/commit/7bab550) | 2026-05-18 | audit: meng2023-electrochemical-sensors-food-heavy-metals revised |
+| [63b2fa5](https://github.com/paleofoundation/heavymetalindex/commit/63b2fa5) | 2026-05-18 | ingest: meng2023-electrochemical-sensors-food-heavy-metals enhanced from Papers Cube Manual Fetch |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

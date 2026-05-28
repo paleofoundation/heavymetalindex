@@ -22,6 +22,9 @@ jurisdictions: [FR, DK, EU]
 near_duplicates: []
 sample_n: 22
 sample_population: "22 retail samples — 11 breads (Danish rye/rugbrød, malt flour, wheat 'burger' buns, spelt, wheat 'pita', wheat baguette, wheat sandwich, wheat, toasted wheat, toasted complete wheat, French wheat) and 11 breakfast cereals (cocoa cereals brand I 20.1%, generic high-bran flake cereal, bio bran flakes, corn flakes, whole-grain wheat, whole-grain wheat with fruit and nuts, cocoa cereals brand II 16.5%, bio rolled-oat granola, gluten-free rolled-oat granola, fruity muesli, toasted muesli) — purchased from supermarkets in Birkerød (Denmark) and Maisons-Alfort (France); each sample analyzed in duplicate. NIST 8436 Durum wheat-flour CRM used as internal quality control."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -145,3 +148,16 @@ For contributing-source synthesis on grain-based product and ingredient pages, t
   - Audit ❌ on trueness range: prior text "0.31% to 0.49% across all tested levels" misrepresented Table 6. PDF Table 6 reports individual bias values of 0.30, −0.02, −0.31, 0.01 (Cr(III) across four matrix levels) and 0.03, 0.14, 0.49 (Cr(VI) across three spike levels); the range is −0.31% to +0.49% with the paper's own summary "<1% in all cases" (§3.2). Verified against PDF; corrected as flagged.
   - Audit ❌ on Cr(III) spike-recovery range: prior text "Cr(III) spike-recovery in two bread matrices at 5, 10, 15 µg/kg: 97–113%" mis-attributed the 97% lower bound. PDF Table 5 shows recoveries of 99/106/105 (Bread 1) and 101/113/107 (Bread 2) at the 5/10/15 µg/kg spike levels (range 99–113%); the 97% lower bound comes from the unspiked (0 µg/kg added) baseline cell where the genuine Cr(III) is compared against total Cr — these baseline values are 97 ± 1 (Bread 1) and 101 ± 2 (Bread 2). The PDF prose "97–113%" in §3.1 includes all eight cells (unspiked + spiked × 2 matrices); the wiki claim restricting the range to "5, 10, 15 µg/kg" was incorrect. Verified against PDF; corrected to report the full range with the spike-level-only sub-range broken out separately.
   - Audit ⚠️ on `matrices: [bread, breakfast-cereal, grain-product]`: the subagent noted that `grain-product` may not be in the controlled matrices vocabulary file. Reviewed: matrices is a free-form descriptor field across the source-page corpus (e.g., `cereal-grain`, `whole-food`, `grain-product` all appear across recent A-tier source pages), not a closed taxonomy like `ingredients`/`products`/`metals`. Left as-is.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e5bb7a](https://github.com/paleofoundation/heavymetalindex/commit/2e5bb7a) | 2026-05-25 | audit: saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp revised |
+| [c0737d3](https://github.com/paleofoundation/heavymetalindex/commit/c0737d3) | 2026-05-25 | ingest: saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
+<!-- END: hmi-page-history -->

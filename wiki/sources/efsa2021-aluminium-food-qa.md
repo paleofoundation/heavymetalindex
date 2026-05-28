@@ -23,6 +23,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
 sample_population: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -70,3 +73,14 @@ Merge-enhance pass 2026-05-28 (Claude Opus 4.7) of an earlier ingest that contai
 - **`access_url` added.** Pointing at the EUFIC article URL (assumed to be the live home of this Q&A page based on the document layout, branding, and the EUFIC publication pattern; the URL has not been verified as still live during this pass).
 - **`sample_population` cleared** (prior version invented "General population dietary aluminium exposure, EU context"; the Q&A has no sample population).
 - The substantive Q&A content — six questions, the TWI/PTWI values, the qualitative dietary-source list, the regulatory framework — is preserved and restructured into Key numbers / Dietary sources stated / Regulatory landscape stated / Methods sections that match current source-page conventions.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [070df20](https://github.com/paleofoundation/heavymetalindex/commit/070df20) | 2026-05-28 | ingest: efsa2021-aluminium-food-qa [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

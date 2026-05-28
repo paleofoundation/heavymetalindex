@@ -18,6 +18,9 @@ jurisdictions: [CA]
 sample_n: 3
 sample_population: "Three popular brands (samples A, B, C) of baby rice cereal purchased from a local supermarket; A and B are the two most popular brands, C is a discounted brand. Online continuous leaching with artificial saliva, gastric juice (pH 1.5), and intestinal fluid (pH 6.5) at 37°C, with HPLC-ICPMS speciation of As, Cr, and Se species using AG7/AS7 IonPac columns. Total elements measured by ICPMS. Bio-accessible fraction = portion dissolved in intestinal tract simulant. Sample size n=3 brands; below 10-sample defensibility floor for absolute distribution math but adds primary speciation + bio-accessibility evidence."
 acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/Multi-elemental_risk_assessment_of_various_baby_ri.pdf); CC BY 4.0 OA."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -98,3 +101,13 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/infant-and-child-foods-master]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f12c031](https://github.com/paleofoundation/heavymetalindex/commit/f12c031) | 2026-05-09 | ingest: sadiq-beauchemin-2021 + dedup confirmations — first bio-accessibility A-tier source for rice cereal |
+<!-- END: hmi-page-history -->

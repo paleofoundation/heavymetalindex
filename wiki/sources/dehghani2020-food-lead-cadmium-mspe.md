@@ -22,6 +22,9 @@ matrices: [tea, rice, infant-formula, milk]
 jurisdictions: [IR]
 sample_n: 5
 sample_population: "Black tea, rice, infant dry formula milk, and cow milk samples purchased in Yazd, Iran"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -69,3 +72,16 @@ Food solid values are reported as ug/g, while cow milk is reported as ug/L. Tabl
 Audit subagent (2026-05-28) also flagged `products/infant-formula-powder` as a missing slug; verified against `wiki/products/infant-formula-powder.md` and the products section of `docs/gpt-collaboration/taxonomy-snapshot.md` — the slug exists and is valid, so the finding is a false positive and no correction was applied.
 
 The discovery daemon auto-fetched this paper twice — once against the rice/milk Cd gap (filename suffix `-cd_`) and once against the rice/milk Pb gap (filename suffix `-pb_`). Both files are byte-identical (SHA256 above) and both filenames are recorded in `near_duplicates`. The `-cd_` filename is the primary `raw_path` since it was ingested first; the `-pb_` filename is its duplicate and routes to the same source page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [867e270](https://github.com/paleofoundation/heavymetalindex/commit/867e270) | 2026-05-28 | audit: dehghani2020-food-lead-cadmium-mspe revised |
+| [fa06726](https://github.com/paleofoundation/heavymetalindex/commit/fa06726) | 2026-05-28 | ingest: dehghani2020-food-lead-cadmium-mspe enhanced from manual-fetch/seasonal-geographic-variance/auto-fetched |
+| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

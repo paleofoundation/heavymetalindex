@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 601
 sample_population: "601 paired soil-rice grain samples from Xiangtan County, Hunan Province, China, collected in 2016, 2019, and 2020; major rice-producing region with known Cd contamination history"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -52,3 +55,14 @@ Microbiome: Not addressed.
 - [[supply-chain/soil]]
 - [[regulations/cn-gb-2762]]
 - [[mitigation/agronomic-cadmium-rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [5028098](https://github.com/paleofoundation/heavymetalindex/commit/5028098) | 2026-05-13 | ingest p4-batch13-g3: 11 pages, 39 FP |
+<!-- END: hmi-page-history -->

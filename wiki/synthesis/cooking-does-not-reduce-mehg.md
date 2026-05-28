@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingr
 products: ["[[products/seafood]]", "[[products/canned-fish]]", "[[products/fresh-fish]]", "[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/bfr2024-methylmercury-fish-seafood-germany]]", "[[sources/aguilar-miranda2024-thg-canned-tuna-ecuador]]", "[[sources/farina-rocha-aschner-2011-mehg-mechanism]]"]
 established: 2026-05-18
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -85,3 +86,13 @@ The narrow exception worth naming: certain Pb and Cd content in finfish, primari
 ## How this page was promoted
 
 Established 2026-05-18 from the seafood-axis ingest and synthesis work. The mechanism evidence (cysteine-binding, intestinal absorption) is decades-established in the toxicology literature; the comparative MeHg-vs-preparation-form measurements were consolidated in the wiki's evidence base during the 2026-05-18 manual-fetch corpus ingest. The page exists primarily for consumer-protection certification messaging and for HMTc Levers sections on seafood-related product pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [49bebbc](https://github.com/paleofoundation/heavymetalindex/commit/49bebbc) | 2026-05-18 | synthesis: 5 new synthesis pages for HMTc seafood/cereal/regulatory work |
+<!-- END: hmi-page-history -->

@@ -5,6 +5,7 @@ hmtc_category: 5
 label: "Category 5: Beverages"
 raw_path: raw/reports/category5-step-0-output-locked-20260428.md
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-01
 sources: 0
 ---
@@ -41,3 +42,15 @@ Apple-containing fruit juice routes through [[ingredients/apple]] and [[metals/l
 ## Boundary Rules
 
 Drinking water and mineral water route to the water category, not this beverage category. Tea or coffee with a Supplement Facts panel routes to dietary supplements. Plant-based infant formula routes to Category 1. Sparkling water without flavoring routes to water; sparkling water with flavoring routes to [[products/flavored-waters]].
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ed8e81c](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81c) | 2026-05-14 | autonomy: firewall lint+fix and mandatory-sections audit+autofill |
+| [165949d](https://github.com/paleofoundation/heavymetalindex/commit/165949d) | 2026-05-14 | products: retire Category 5 row 7 (plant-milks-rice-based) → re-route to Category 3 row 10 |
+| [48511e9](https://github.com/paleofoundation/heavymetalindex/commit/48511e9) | 2026-05-02 | Add Category 5 plant milk comparison layer |
+<!-- END: hmi-page-history -->

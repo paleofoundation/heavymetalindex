@@ -19,6 +19,9 @@ matrices: [SNAS, oral-hyposensitization, peripheral-blood-cytokines]
 jurisdictions: [IT]
 sample_n_total: 36
 sample_n_notes: "36 SNAS patients enrolled for nickel oral hyposensitization (NiOHT) protocol; cytokines measured at baseline and after treatment"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -49,3 +52,13 @@ Graduated oral nickel sulphate administration starting at very low doses (sub-na
 
 - [[metals/nickel]]
 - [[health/nickel-allergy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

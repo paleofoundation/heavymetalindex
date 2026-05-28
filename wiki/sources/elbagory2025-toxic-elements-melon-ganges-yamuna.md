@@ -20,6 +20,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 200
 sample_population: "200 composite melon fruit samples (50 per variety, each from 5 fruits pooled per site across 10 sampling sites L1–L10) of 4 varieties — watermelon (Arka Shyama and Crimson Sweet) and muskmelon (Cantaloupe and Kajri) — collected from the Yamuna River (L1–L4), Hindon/Solani tributaries (L5–L8), and Ganges River (L9–L10) banks in Saharanpur and Haridwar districts, Northern India, May–June 2024. Each sample analyzed in triplicate."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -142,3 +145,16 @@ Audit subagent (2026-05-19) findings — verified independently against the PDF 
 - ⚠️ Wet-weight conversion in Implications/Certification: subagent flagged as borderline Part 2 (wiki-side arithmetic on top of a source-internal regulatory claim). Rejected as a correction: the conversion is framed as a comparability caveat ("constrains direct comparison"), not as a threshold proposal, and is necessary to honestly report the paper's own DW-vs-WW MPL comparison. Leaving in place.
 - ⚠️ `matrices: melon-pulp` not flagged as a new-vocabulary proposal: noted here. Matrices vocabulary per `docs/gpt-collaboration/system-prompt.md` is open ("Add a new term only if none of these fits"); `melon-pulp` is unambiguous and consistent with naming conventions like `fish-muscle`, `cocoa-powder`, `egg-yolk` already in use across the corpus. No correction required.
 - Checks 2, 3, 4 returned ✅. Verdict was REVISE on the basis of the four findings above; after applying the three real corrections and rewriting the hotspot sentence, the page should clear a re-audit on Checks 1 and 5.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c42dbbc](https://github.com/paleofoundation/heavymetalindex/commit/c42dbbc) | 2026-05-19 | audit: elbagory2025-toxic-elements-melon-ganges-yamuna [revised] |
+| [27de52f](https://github.com/paleofoundation/heavymetalindex/commit/27de52f) | 2026-05-19 | ingest: elbagory2025-toxic-elements-melon-ganges-yamuna [enhanced] from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 48
 sample_population: "48 dairy products (milk, kefir, natural and flavoured yogurt, cream, cream cheese, cottage cheese, butter, milk powder, buttermilk, tzatziki) from six regional milk cooperatives (OSM A–F) in south and south-east Poland (Lublin, Podkarpackie, Silesia and adjacent regions). Producer identities anonymised by the paper as letter codes A–F."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -87,3 +90,16 @@ Forty-eight dairy products purchased from local markets in regions of varying in
 **Audit subagent (2026-05-19) ⚠️ on floor-value attribution.** Original opening paragraph attributed the 0.01 µg/kg floor to kefir only. Source page 3 explicitly names the floor as reached by "natural kefir (7D, 6C), cream (5D), buttermilk (5C) and strawberry flavoured yogurt (3D)" — four product formats from four cooperatives. Opening paragraph revised to enumerate all four; finding verified correct and applied.
 
 **Products field.** `[[products/butter-and-ghee]]` retained because the source measures butter extra (n=3 across OSMs A, C, F at 0.47–0.79 µg/kg) and `wiki/products/butter-and-ghee.md` is an HMTc-locked product page (Category 7, Row 3). No locked HMTc row exists yet for fluid milk, yogurt, kefir, cottage cheese, cream cheese, buttermilk, or milk powder; those formats route via the `matrices:` field rather than via `products:`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b05cfbe](https://github.com/paleofoundation/heavymetalindex/commit/b05cfbe) | 2026-05-19 | audit: pankiewicz2012-thg-dairy-products-poland revised |
+| [e56d772](https://github.com/paleofoundation/heavymetalindex/commit/e56d772) | 2026-05-19 | ingest: pankiewicz2012-thg-dairy-products-poland enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

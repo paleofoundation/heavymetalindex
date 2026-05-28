@@ -18,6 +18,9 @@ matrices: [tea-infusion]
 jurisdictions: [TR]
 sample_n: 45
 sample_population: "Commercially purchased Turkish black, green, and white tea brewed in 5 teapot materials (aluminium, copper, glass, steel, porcelain) at 3 infusion times (5, 10, 15 min); 45 condition combinations, each in triplicate"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -110,3 +113,14 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle; existin
 - **Method note added on what HPLC-FD measures and what "nd" means.** Clarified that the assay quantifies total dissolved Al, that no dry-leaf concentrations were measured, and that "nd" in Table 1 (black-tea aluminium-teapot at 5 and 10 min) means below the calibration range, not confirmed absence.
 - **Updated `sample_population`** to surface the experimental design (5 teapot materials × 3 infusion times × 3 tea types, triplicate) more explicitly.
 - Preserved cite_key, raw_handle, license, evidence_tier, sample_n, jurisdictions, matrices, products array, and the overall page structure. No new ingredient, product, regulation, or metal pages proposed. No brand names appear in the source; no Part 12 brand-firewall actions were needed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [23cdae1](https://github.com/paleofoundation/heavymetalindex/commit/23cdae1) | 2026-05-20 | ingest: ozturk2024-al-tea-infusion-teapot [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

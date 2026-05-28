@@ -18,6 +18,9 @@ ingredients: []
 products: []
 matrices: [serum, blood, hair, neurological-tissue]
 jurisdictions: [international]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -42,3 +45,14 @@ Metal dyshomeostasis in ASD is reviewed across both essential-metal deficiencies
 - [[metals/mercury]]
 - [[metals/aluminum]]
 - [[microbiome/metals-neurodevelopment-axis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
+| [d5b9ea5](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea5) | 2026-05-08 | ingest: digest-batch-5-nickel-microbiome — 10 source pages (Ni + metals-microbiome) |
+<!-- END: hmi-page-history -->

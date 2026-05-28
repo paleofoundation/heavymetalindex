@@ -19,6 +19,9 @@ jurisdictions: [EU, UK, US]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of infant skin physiology, barrier function, and percutaneous-absorption literature with primary focus on the diaper area, baby wipes, and risk factors for unintended systemic exposure to topically applied ingredients; no primary measurements"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -83,3 +86,13 @@ Narrative literature review. The authors state in the Introduction (p. 1) that t
 - Funding: Ministry of Finance, Republic of Indonesia studentship (Grant Ref S-1778/LPDP.4/2019) for Rahma. No declared conflicts of interest; no industry funding.
 - Open access (CC BY 4.0); re-publishable with attribution under MDPI license terms.
 - The paper-internal reference list assigns ref [78] to "Bernauer et al. 2021 - SCCS Notes of Guidance 11th Revision (SCCS/1628/21)" - this is the SCCS Notes of Guidance 11th Revision, not the 12th Revision that exists at `wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md`. The two are sequential SCCS guidance versions and should not be conflated.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [87977a6](https://github.com/paleofoundation/heavymetalindex/commit/87977a6) | 2026-05-17 | ingest: rahma2022-infant-skin-barrier-function-review fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

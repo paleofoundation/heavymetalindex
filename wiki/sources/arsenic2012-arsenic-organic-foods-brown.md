@@ -27,6 +27,9 @@ sample_n: 200
 country_study: US
 study_type: observational-market-survey
 analyte_species_specified: true
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 ## Key Numbers
@@ -83,3 +86,13 @@ This was among the first market-scale surveys linking brown rice syrup (OBRS) ad
 
 The study provided foundational evidence for later ingredient-level and product-level contamination syntheses and informed decisions to track OBRS as a distinct risk factor in contamination profiles for infant formula and grain-based products.
 ```
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d67d4c1](https://github.com/paleofoundation/heavymetalindex/commit/d67d4c1) | 2026-05-20 | autonomy: daemon tick 2026-05-20T09-20-59Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

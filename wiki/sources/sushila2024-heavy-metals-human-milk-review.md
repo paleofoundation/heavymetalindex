@@ -21,6 +21,9 @@ sample_n: null
 sample_population: "Systematic review of 22 studies on heavy metals in human breast milk, multiple countries (Iran, Cyprus, Pakistan, China, India, Turkey, Nigeria, Poland, Italy, Sweden, Spain)"
 quarantined: true
 quarantine_reason: "Source text has an unresolved Cd country-label contradiction: highest Cd concentration is reported for Iraq, but the matching EDI/HQ/CR values are assigned to Iran; do not use country-specific Cd outlier values until manually checked against figures/source data."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -71,3 +74,13 @@ Systematic review following PRISMA guidelines. Studies were collected from Scien
 - Quarantined the page because the Cd outlier is internally inconsistent in the source text (Iraq Ci vs Iran EDI/HQ/CR assignment).
 - Removed a missing health wikilink and routed only to existing ingredient/metal pages.
 - Strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0af1033](https://github.com/paleofoundation/heavymetalindex/commit/0af1033) | 2026-05-17 | audit (codex): quarantine sushila2024 human milk review |
+<!-- END: hmi-page-history -->

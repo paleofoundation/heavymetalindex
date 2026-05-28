@@ -17,6 +17,9 @@ products: ["[[products/fish-containing-baby-foods]]", "[[products/infant-formula
 matrices: [dietary-intake, hair, breast-milk, infant-formula]
 jurisdictions: [JP]
 near_duplicates: ["research2024-research-c (deleted 2026-05-18)"]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -55,3 +58,17 @@ The study is diet-stage-based rather than HMTc finished-product-row-based. It do
 ## Wiki pages updated on ingest
 
 - [[products/fish-containing-baby-foods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [299f9b2](https://github.com/paleofoundation/heavymetalindex/commit/299f9b2) | 2026-05-18 | fix: clear 2 routing_unresolved entries (henriquez + tatsuta duplicate) |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+<!-- END: hmi-page-history -->

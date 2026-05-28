@@ -19,6 +19,9 @@ matrices: [biscuit, cookie, cracker, digestive-biscuit]
 jurisdictions: [IQ, ES, IR, TR, AE, EU]
 sample_n: 36
 sample_population: "36 imported biscuit samples (9 brands per country of origin × 4 countries: Spain, Iran, Turkey, UAE) sold in Basrah markets, Iraq; 3 replicates per sample; sampling July–November 2021"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -93,3 +96,16 @@ Limitations relevant to downstream use:
 - Acrylamide and HMF results are retained on the page even though they are outside the HMTc analyte vocabulary, because they are integral to the paper's safety conclusions and a future course or risk-communication asset on the snacks/biscuits category will want them traceable to a peer-reviewed source.
 - Audit subagent (2026-05-20) flagged the 622% fat and 577% protein label-discrepancy extremes as misattributed to BSD1-U (UAE digestive); verified against Table 1 of the PDF — both extremes belong to BSCr1-U (UAE cracker; fat D=18.05, L=2.5, Δ%=622; protein D=13.54, L=2.1, Δ%=577). The source's page-7 body text contradicts its own Table 1 on the sample ID. The wiki page now follows Table 1 (authoritative) and adds an explicit footnote noting the source-internal inconsistency. Corrections applied in both the Key numbers paragraph and the Courses-Implications paragraph.
 - Audit subagent (2026-05-20) flagged the Certification-Implications cross-source synthesis sentence ("consistent with the working expectation that wheat-flour-derived baked goods carry lower Pb and Cd burdens than rice-based, cocoa-based, or root-vegetable-based products") as belonging at the synthesis-pass layer rather than on a source page (CLAUDE.md Part 9). Verified — the comparison imports knowledge the paper itself does not produce (the paper does not measure rice, cocoa, or root vegetables). Sentence trimmed; replaced with an explicit statement that cross-ingredient synthesis is the synthesis pass's responsibility.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [77a9e11](https://github.com/paleofoundation/heavymetalindex/commit/77a9e11) | 2026-05-20 | audit: haider2022-biscuits-basrah-iraq-safety [revised] |
+| [338e4c4](https://github.com/paleofoundation/heavymetalindex/commit/338e4c4) | 2026-05-20 | ingest: haider2022-biscuits-basrah-iraq-safety [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

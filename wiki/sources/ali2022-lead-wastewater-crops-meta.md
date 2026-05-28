@@ -19,6 +19,9 @@ jurisdictions: [IN, PK, CN, IR, EG, ET, KE, IQ, MA, NG, KP, KR, BW]
 near_duplicates: []
 sample_n: 24
 sample_population: "24 studies from 13 countries (India, Pakistan, Iran, China, Egypt, Ethiopia, Kenya, Iraq, Morocco, Nigeria, North Korea, South Korea, Botswana), meta-analysis of wastewater-irrigated croplands 2006–2021"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -59,3 +62,17 @@ Microbiome: Not directly applicable.
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Preserved the source text's reported soil unit in Key numbers, tightened HMT&C/app language away from wiki-side sourcing directives, corrected matrix vocabulary, removed a non-taxonomy supply-chain wikilink, and removed named analysis-software vendors from Methods while preserving the meta-analysis workflow.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [23e1355](https://github.com/paleofoundation/heavymetalindex/commit/23e1355) | 2026-05-17 | firewall: Exception 2 carve-out for scientific-method vendor names |
+| [018ad5c](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c) | 2026-05-17 | audit: strict brand firewall residual cleanup |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [3153dee](https://github.com/paleofoundation/heavymetalindex/commit/3153dee) | 2026-05-13 | ingest p4-batch15-g4: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

@@ -7,6 +7,7 @@ species: [Sn0, Sn2+, Sn4+, organotins]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: medium
 sources: 30
+wiki_doi: null
 updated: 2026-05-08
 status: scaffold
 n_sources: 4
@@ -111,3 +112,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 50 | [[sources/schafer1984-tin-toxic-heavy-metal-review\|Schafer et al. 1984]]. *Tin — A Toxic Heavy Metal? A Review of the Literature*, Regulatory Toxicology and Pharmacology, Vol. 4, pp. 57-69 | 1984 | Peer-reviewed | DE Sn concentrations |
 | 51 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | UK/KW Sn occurrence in 11 cats, dogs, rats, and 5 human volunteers; canned juices recovered from a 1967 Kuwait food poisoning outbreak... (n=11) |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db754c1](https://github.com/paleofoundation/heavymetalindex/commit/db754c1) | 2026-05-28 | autonomy: daemon tick 2026-05-28T15-58-03Z — exit-trap recovery (exit_code=0) |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [39d8806](https://github.com/paleofoundation/heavymetalindex/commit/39d8806) | 2026-05-20 | autonomy: daemon tick 2026-05-20T01-34-58Z — gap-healing + extraction + pooling + briefings |
+| [894ba0a](https://github.com/paleofoundation/heavymetalindex/commit/894ba0a) | 2026-05-20 | autonomy: daemon tick 2026-05-20T00-33-21Z — gap-healing + extraction + pooling + briefings |
+| [1205e69](https://github.com/paleofoundation/heavymetalindex/commit/1205e69) | 2026-05-19 | autonomy: daemon tick 2026-05-19T15-55-42Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

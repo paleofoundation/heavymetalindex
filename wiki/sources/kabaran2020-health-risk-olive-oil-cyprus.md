@@ -19,6 +19,9 @@ jurisdictions: [CY]
 near_duplicates: []
 sample_n: 27
 sample_population: "27 natural olive oil samples from Morphou and Lefka districts, Northern Cyprus (single harvest); 500 adults aged 30–49 years surveyed for dietary olive oil intake and body weight (n=211 men, n=289 women)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -88,3 +91,16 @@ ICP-MS (Thermo Scientific X Series II) with CEM Mars 5 closed microwave digestio
 - 2026-05-26 enhancement (Claude, manual-fetch-kimi re-ingest): replaced placeholder `raw_handle: manual-fetch-kimi` with the canonical `MFK_is-there-any-potential-health-risk-of-heavy-metals` handle; populated `products: ["[[products/olive-oil]]"]` (the food-paper-with-empty-products defect flagged in `routing_malformed.csv`); aligned the `matrices` field to the sibling olive-oil source convention (`[edible-oil, olive-oil]`) — the prior `dietary-intake` matrix is not in the controlled vocabulary and the routing role is already carried by `[[ingredients/olive-oil]]` and `[[products/olive-oil]]`.
 - 2026-05-26 fresh-context audit (general-purpose subagent) — verdict REVISE. Two ⚠️ findings verified and applied: (1) removed editorial insertion "broader EU/Codex comparator for lead in fats and oils is 0.1 mg/kg" — not in this source (the paper cites only the IOC 0.01 µg/g MRL on p. 6); (2) restored the JECFA "old value" qualifier on the Pb RfD of 0.025 mg/kg BW/day (p. 3 of source flags it as such, and the JECFA Pb PTWI was later withdrawn). Also added Co/RIVM TDI provenance to Methods. The "Cd in Sicilian olive oils: <1.2 ng/g" stripped-citation concern was reviewed and left as-is — it is a faithful quotation of the source's own framing and does not affect numerical fidelity.
 - `olive-oil` is retained as a source-specific matrix term alongside `edible-oil`; the page also routes through `[[ingredients/olive-oil]]` and `[[products/olive-oil]]`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ac7068f](https://github.com/paleofoundation/heavymetalindex/commit/ac7068f) | 2026-05-26 | audit: kabaran2020-health-risk-olive-oil-cyprus revised |
+| [636028f](https://github.com/paleofoundation/heavymetalindex/commit/636028f) | 2026-05-26 | ingest: kabaran2020-health-risk-olive-oil-cyprus enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
+| [95ea0e4](https://github.com/paleofoundation/heavymetalindex/commit/95ea0e4) | 2026-05-17 | audit (codex): kabaran2020-health-risk-olive-oil-cyprus revised |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

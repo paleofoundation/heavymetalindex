@@ -19,6 +19,9 @@ jurisdictions: [KR]
 near_duplicates: []
 sample_n: 207
 sample_population: "Fresh fruits collected from supermarkets in six South Korean regions (Seoul, Gyeonggi-do, Chungcheong-do, Jeolla-do, Kyungsang-do, Gangwon-do), 14 fruit species, April–October 2019"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -125,3 +128,15 @@ Wiki/HMTc firewall: no synthesis claims, no HMTc threshold proposals, no consume
 - ❌ Pineapple flag (verified false positive): the audit subagent flagged `pineapple` as a missing ingredient slug not present in the taxonomy snapshot. Verified against the live wiki — `wiki/ingredients/pineapple.md` exists. The taxonomy snapshot (`docs/gpt-collaboration/taxonomy-snapshot.md`, last touched 2026-05-19) is stale relative to the live taxonomy. No change made to the wiki page on this finding; the slug as written is valid. (Stale-snapshot drift is a tooling issue, not a source-page issue.)
 
 The audit subagent's positive findings: numerical fidelity in the Ba transposition fixes was independently re-verified clean; species means for grape, persimmon, strawberry, pear, group means, single-sample maxima, RfD/CSF values, LOD/LOQ ranges, PCA/HCA percentages, Spearman ρ, age-group consumption values, sample sizes per species, methods detail (ICP-MS parameters, isotopes monitored, recoveries, spike validation, software) — all clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a8e23ed](https://github.com/paleofoundation/heavymetalindex/commit/a8e23ed) | 2026-05-20 | audit: lee2023-south-korea-fresh-fruits-seven-metals [revised] |
+| [bfa2072](https://github.com/paleofoundation/heavymetalindex/commit/bfa2072) | 2026-05-20 | ingest: lee2023-south-korea-fresh-fruits-seven-metals [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

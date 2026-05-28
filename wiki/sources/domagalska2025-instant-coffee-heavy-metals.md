@@ -18,6 +18,9 @@ matrices: [coffee]
 jurisdictions: [PL]
 sample_n: 50
 sample_population: "Instant coffee beverages sold in Poland, including 3-in-1, 2-in-1, and cappuccino products"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-27
 ---
 
@@ -58,3 +61,14 @@ The source supports coffee occurrence evidence for instant coffee beverages in P
 ## Verification notes
 
 The source reports total arsenic, not inorganic arsenic. Manufacturer and product identities were not transcribed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: 10
 sample_population: "Systematic review of 10 cross-sectional studies on heavy metals in Bangladeshi fruits (2012–2022), covering banana, mango, jackfruit, papaya, guava, litchi, blackberry, apple, pineapple, coconut, dragon fruit, pomegranate, lemon, and 8 other tropical fruits"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -80,3 +83,17 @@ Systematic review following PRISMA guidelines. Databases: PubMed, Google Scholar
 - Audit subagent (2026-05-19) flagged Cd row as missing an internal-contradiction flag (claiming Table 2 stone-apple = 0.51 vs narrative 0.64). Verified against Table 2 p.6 — stone-apple Cd IS 0.64 in Table 2 (the subagent confused stone-apple with indian gooseberry/tamarind, both at 0.51). Table and narrative agree on stone-apple 0.64; no contradiction exists. Finding rejected as false positive.
 - Audit subagent (2026-05-19) flagged Mn/Cu/Zn missing from "Wiki pages this source may touch" despite being in `metals:` frontmatter. Verified; added [[metals/manganese]], [[metals/copper]], [[metals/zinc]] for symmetry.
 - Potential future ingredient slugs surfaced for Karen if the fruit corpus accumulates enough independent papers: `papaya`, `jackfruit`, `litchi`, `blackberry`, `pineapple`, `pomegranate`, and `tamarind`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [42f5d87](https://github.com/paleofoundation/heavymetalindex/commit/42f5d87) | 2026-05-19 | audit: islam2024-heavy-metals-bangladeshi-fruits-review revised |
+| [1b01023](https://github.com/paleofoundation/heavymetalindex/commit/1b01023) | 2026-05-19 | ingest: islam2024-heavy-metals-bangladeshi-fruits-review enhanced from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
+| [eb495ab](https://github.com/paleofoundation/heavymetalindex/commit/eb495ab) | 2026-05-17 | audit (codex): islam2024-heavy-metals-bangladeshi-fruits-review revised |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

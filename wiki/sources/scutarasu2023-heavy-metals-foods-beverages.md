@@ -19,6 +19,9 @@ jurisdictions: [IR, CN, GR, CY, TR, PK, UA, PL, BR, KR, GB, US, MC]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative literature review covering heavy metals in fruits and vegetables, milk and dairy, meat, edible oils, wine, and beer; oil data drawn from published studies spanning multiple countries (2008–2023)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -137,3 +140,16 @@ Narrative literature review (not systematic, no PRISMA or explicit inclusion cri
 - Fresh-context audit subagent (2026-05-25) flagged `[[regulations/codex-cxs-193-1995]]` as missing from the taxonomy snapshot. Verified: the slug is used by four other source pages in this corpus (hernandez-montoya2026, dearing2025, sarker2022, this page) as the established convention for the broader CXS 193-1995 contaminants standard. The existing `wiki/regulations/codex-cxs-193-1995-tin-canned-foods.md` is the same standard but narrowly titled to its tin rows. Link is retained pending Karen's resolution (either rename the existing regulation page or split a general CXS 193 page from it); this re-ingest does not silently rewrite established corpus convention.
 - The review reports arsenic and mercury without species separation; this page treats those entries as total arsenic (`tAs`) and total mercury (`tHg`).
 - Negative concentration entries are reproduced only because they appear in Table 4; primary-source verification is required before interpreting them quantitatively.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6f1ac66](https://github.com/paleofoundation/heavymetalindex/commit/6f1ac66) | 2026-05-25 | audit: scutarasu2023-heavy-metals-foods-beverages revised |
+| [612b62b](https://github.com/paleofoundation/heavymetalindex/commit/612b62b) | 2026-05-25 | ingest: scutarasu2023-heavy-metals-foods-beverages enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
+| [539c1ba](https://github.com/paleofoundation/heavymetalindex/commit/539c1ba) | 2026-05-17 | audit (codex): scutarasu2023 edible oils review revised |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

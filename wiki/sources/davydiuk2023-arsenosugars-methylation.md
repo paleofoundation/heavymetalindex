@@ -20,6 +20,9 @@ jurisdictions: [global]
 near_duplicates: []
 sample_n: null
 sample_population: "Critical review of published epidemiological and clinical studies using DMA in urine as arsenic methylation marker; no new primary participants"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -52,3 +55,14 @@ App: Organic arsenic from seafood is not captured by standard "iAs ppb" metrics;
 
 - [[metals/arsenic]]
 - [[ingredients/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [e307b95](https://github.com/paleofoundation/heavymetalindex/commit/e307b95) | 2026-05-13 | ingest p4-batch10-g4: 4 pages, 48 FP |
+<!-- END: hmi-page-history -->

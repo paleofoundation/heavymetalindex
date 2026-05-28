@@ -20,6 +20,9 @@ jurisdictions: [GL]
 near_duplicates: []
 sample_n: null
 sample_population: "Arctic char, shorthorn sculpin, ringed seal, glaucous gull, polar bear, and peat samples across Greenland (Central West, Northwest, Central East, Northeast); 1983–2024"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -59,3 +62,16 @@ App: Arctic fish (especially freshwater wild char) carry elevated tHg flags; reg
 - [[metals/mercury]]
 - [[ingredients/freshwater-fish]]
 - [[ingredients/marine-fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [e2e70eb](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eb) | 2026-05-13 | ingest p4-batch9-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [US, CODEX]
 near_duplicates: []
 sample_n: 6
 sample_population: "Six outdoor rice paddies at University of Delaware RICE facility, 2-year field study (2016–2017), Oryza sativa cv. Jefferson, Typic Hapludult sandy clay loam soil"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -80,3 +83,15 @@ Microbiome: the flooded-paddy sulfate-reducing bacteria that drive MeHg producti
 - [[regulations/codex-rice-ias-0.2-mgkg]]
 - [[regulations/codex-rice-cd-0.4-mgkg]]
 - [[regulations/fda-ctz-iAs-cereal-100ppb]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

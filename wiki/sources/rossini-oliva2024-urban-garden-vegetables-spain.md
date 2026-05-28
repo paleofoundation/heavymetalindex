@@ -20,6 +20,9 @@ jurisdictions: [ES]
 near_duplicates: []
 sample_n: 282
 sample_population: "Edible vegetables and topsoils from urban gardens in Seville, Cordoba, Huelva, and Riotinto mining area, Andalusia, Spain; 2021–2023"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -68,3 +71,15 @@ Field-collected 2021–2023 from organic-practice plots in six municipalities pl
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[supply-chain/soil-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [0b663ae](https://github.com/paleofoundation/heavymetalindex/commit/0b663ae) | 2026-05-13 | ingest p4-batch12-g1: 4 pages, 46 FP |
+<!-- END: hmi-page-history -->

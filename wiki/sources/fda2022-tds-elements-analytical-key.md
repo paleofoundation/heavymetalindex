@@ -15,6 +15,9 @@ ingredients: []
 products: []
 matrices: [total-diet-study-prepared-food]
 jurisdictions: [US]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -49,3 +52,14 @@ The "FDA TDS prepared food/composite; reported concentration values retained" ba
 ## Wiki pages updated on ingest
 
 - [[sources/fda2022-tds-elements-fy2018-fy2020]] — companion dataset; the key documents the field definitions for the analytical results that source page summarizes
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [9d0e44d](https://github.com/paleofoundation/heavymetalindex/commit/9d0e44d) | 2026-05-08 | ingest: digest-batch-2-fda-pb-regulatory — 4 FDA Pb data sources |
+<!-- END: hmi-page-history -->

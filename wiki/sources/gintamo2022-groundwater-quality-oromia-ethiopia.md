@@ -19,6 +19,9 @@ jurisdictions: [ET]
 near_duplicates: []
 sample_n: 102
 sample_population: "102 borehole groundwater samples (17 sites x 2 seasons x 3 replicates) from Sebeta zone, Oromia, Ethiopia, collected dry (July-August 2020) and wet (January-February 2020) seasons"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -54,3 +57,13 @@ App: Demonstrates that groundwater-sourced drinking water in industrializing Afr
 - [[metals/lead]]
 - [[supply-chain/drinking-water-lead-pipes]]
 - [[regulations/who-drinking-water-guidelines]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [67cbff7](https://github.com/paleofoundation/heavymetalindex/commit/67cbff7) | 2026-05-13 | ingest p4-batch14-g3: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

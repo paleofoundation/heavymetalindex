@@ -20,6 +20,9 @@ matrices: [houttuynia-cordata, leafy-vegetable, edible-plant-tissue]
 jurisdictions: [CN]
 sample_n: "Houttuynia cordata plants and rhizosphere soils from Danzhai mercury-mining and Zhijin non-mining areas in Guizhou, China; tissue-level n varies by site/tissue table."
 sample_population: "Edible Houttuynia cordata tissues collected from a mercury mining area and a non-mining comparison area in southwest China."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -61,3 +64,13 @@ This source supports mercury occurrence context for leafy/herbal vegetables grow
 - Batch 2 auto-fetched ingest, 2026-05-25. The wishlist row targeted cereal-bar methylmercury, but the actual paper is an edible Houttuynia vegetable mercury paper.
 - Speciation: total mercury and methylmercury are separately measured; do not substitute total mercury for methylmercury.
 - Market/geography: mining-area samples are contamination-hotspot evidence, not routine retail-market evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db181df](https://github.com/paleofoundation/heavymetalindex/commit/db181df) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 2: 4 source pages + 2 rollups + 44 skips |
+<!-- END: hmi-page-history -->

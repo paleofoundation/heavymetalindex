@@ -19,6 +19,9 @@ matrices: [dairy-free-infant-porridge, wet-weight]
 jurisdictions: [PL]
 sample_n: 105
 sample_population: "7 product types × 5 replicates × 3 batches = 105 samples of commercial dairy-free infant porridges from the Polish market; ICP-AES (Pb, Cd) + Hg-AAS (Hg); children 0.5–3 years"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -56,3 +59,15 @@ App: Grain-based dairy-free porridges: low Pb and Cd; Hg below detection.
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

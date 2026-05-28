@@ -18,6 +18,9 @@ products: []
 matrices: [urine, infant-cohort, pregnancy-cohort]
 jurisdictions: [ES]
 sample_n_notes: "Spanish INMA (Infancia y Medio Ambiente) cohort; urinary As speciation in children and pregnant women using ion chromatography ICP-MS"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -43,3 +46,13 @@ Spanish INMA cohort children and pregnant women provided urine samples that were
 
 - [[metals/arsenic-inorganic]]
 - [[metals/arsenic-total]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8f2cd83](https://github.com/paleofoundation/heavymetalindex/commit/8f2cd83) | 2026-05-09 | ingest: phase-3b-raw-studies-priority-1-tier1 — 4 priority-1 manifest gap-fillers |
+<!-- END: hmi-page-history -->

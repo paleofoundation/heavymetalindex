@@ -20,6 +20,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 89
 sample_population: "Corn grain and surface soil from 5 farmlands near Obajana cement plant, Kogi State, Nigeria"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -68,3 +71,14 @@ Microbiome: Not applicable.
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[supply-chain/industrial-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [fdf16f9](https://github.com/paleofoundation/heavymetalindex/commit/fdf16f9) | 2026-05-13 | ingest p4-batch10-g2: 5 pages, 43 FP |
+<!-- END: hmi-page-history -->

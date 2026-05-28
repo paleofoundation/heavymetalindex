@@ -20,6 +20,9 @@ jurisdictions: [NL]
 near_duplicates: []
 sample_n: 346
 sample_population: "Heck cattle (n=167), red deer (n=96), Konik horses (n=83) at Oostvaardersplassen nature reserve, Netherlands, 2003–2023"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -57,3 +60,15 @@ App: Liver from free-ranging cattle and deer is a relevant food matrix for heavy
 - [[metals/cadmium]]
 - [[ingredients/beef-liver]]
 - [[ingredients/venison-liver]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [1b0ab1a](https://github.com/paleofoundation/heavymetalindex/commit/1b0ab1a) | 2026-05-13 | sources: access_url backfill on 14 newly-ingested pages + balzani fix |
+| [98e0e7c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c) | 2026-05-13 | ingest p4-batch6-g3: 1 page, 49 FP |
+<!-- END: hmi-page-history -->

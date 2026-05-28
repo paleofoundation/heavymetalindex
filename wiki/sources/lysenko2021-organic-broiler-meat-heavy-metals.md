@@ -20,6 +20,9 @@ matrices: [broiler-pectoral-muscle, broiler-leg-muscle, broiler-feed]
 jurisdictions: [RU]
 sample_n: "Hubbard Redbro broiler groups with floor/cage housing and factory-feed vs eco-feed comparisons."
 sample_population: "Broiler chickens fed factory compound feed or farm-produced eco-feed with Bacell feed additive."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -53,3 +56,13 @@ This source supports poultry product context for low-level As, Cd, Hg, and Pb un
 
 - Batch 5 auto-fetched ingest, 2026-05-25.
 - Total arsenic and total mercury are not speciated iAs or MeHg.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [477ff83](https://github.com/paleofoundation/heavymetalindex/commit/477ff83) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 5: 6 source pages + 3 skips |
+<!-- END: hmi-page-history -->

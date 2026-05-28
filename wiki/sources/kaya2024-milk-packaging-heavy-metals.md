@@ -20,6 +20,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 10
 sample_population: "Ten commercial liquid milk brands (coded T1–T10) sold in Turkish markets, each analyzed alongside its corresponding aseptic carton packaging (T1P–T10P); procurement and analysis by the Department of Food Engineering and Central Research Laboratory, Kastamonu University, Turkey. TUBITAK 2209-A grant 1919B012215735."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -143,3 +146,15 @@ Fresh-context audit (2026-05-18, general-purpose subagent) verdict: REVISE.
 - [[metals/cadmium]]
 - [[metals/aluminum]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [75266ca](https://github.com/paleofoundation/heavymetalindex/commit/75266ca) | 2026-05-18 | audit: kaya2024-milk-packaging-heavy-metals audited-revised |
+| [3bc6e9b](https://github.com/paleofoundation/heavymetalindex/commit/3bc6e9b) | 2026-05-18 | ingest: kaya2024-milk-packaging-heavy-metals enhanced from Papers Cube Manual Fetch |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+<!-- END: hmi-page-history -->

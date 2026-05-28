@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [kombucha-tea-based, matcha, true-tea-camellia-sinensis]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 14
 ---
@@ -195,4 +196,16 @@ Iced tea, kombucha (fermented tea), and tea-based functional beverages inherit t
 - JECFA Provisional Tolerable Weekly Intake for aluminum (2 mg/kg b.w./week) and EFSA TWI (1 mg/kg b.w./week) anchor the dose-response framing. Daily tea consumption at 2-3 cups can deliver 2-5 mg Al per day, putting heavy daily tea drinkers at or near the JECFA/EFSA reference intake depending on tea type and brewing method.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to tea sold in California; the serving-based screen governs.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8a699bd](https://github.com/paleofoundation/heavymetalindex/commit/8a699bd) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-44-44Z — gap-healing + extraction + pooling + briefings |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [eddfdfb](https://github.com/paleofoundation/heavymetalindex/commit/eddfdfb) | 2026-05-17 | synthesis: 5 high-traffic ingredient pages — black-pepper, bread, coffee, camellia-sinensis, matcha-powder |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+<!-- END: hmi-page-history -->

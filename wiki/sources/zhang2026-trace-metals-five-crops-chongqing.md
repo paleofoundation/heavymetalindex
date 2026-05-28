@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 71
 sample_population: "Five crop species from Xiushan County, Chongqing, adjacent to typical manganese mining and smelting area; rice n=16, maize n=15, peanut n=10, soybean n=15, sweet potato n=15"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -72,3 +75,17 @@ App: Flag: values from mining-impacted source area; not appropriate for general 
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [1b0ab1a](https://github.com/paleofoundation/heavymetalindex/commit/1b0ab1a) | 2026-05-13 | sources: access_url backfill on 14 newly-ingested pages + balzani fix |
+| [98e0e7c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c) | 2026-05-13 | ingest p4-batch6-g3: 1 page, 49 FP |
+<!-- END: hmi-page-history -->

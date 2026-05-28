@@ -18,6 +18,9 @@ matrices: [gastric-mucosa, h-pylori, low-nickel-diet]
 jurisdictions: [IT]
 sample_n_total: 52
 sample_n_notes: "52 sex- and age-matched patients with first-diagnosis H. pylori infection; 1:1 randomized to standard LCA (lansoprazole 15 mg bid + clarithromycin 500 mg bid + amoxicillin 1000 mg bid) for 7 days with common diet vs nickel-free-diet (NFD-LCA) for 30 days plus same triple therapy starting day 15 of diet"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -48,3 +51,13 @@ Single-site pilot RCT, sex- and age-matched. The nickel-free diet was the standa
 
 - [[metals/nickel]]
 - [[microbiome/nickel-microbial-pathogenesis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

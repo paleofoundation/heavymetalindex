@@ -17,6 +17,9 @@ products: ["[[products/rice-bulk-grain]]"]
 matrices: ["brown-rice"]
 jurisdictions: ["PL"]
 sample_population: "Nine brown rice samples sold in Poland, coded B1-B9"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -52,3 +55,14 @@ The source supports rice-bulk-grain evidence for total arsenic and inorganic ars
 ## Verification notes
 
 The source reports concentrations in ng/g dry weight, equivalent to ug/kg. Arsenic species are separated as total As, inorganic As, and organic As by difference; no brand identities were transcribed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [00a2af1](https://github.com/paleofoundation/heavymetalindex/commit/00a2af1) | 2026-05-26 | audit auto-fetched 2026-05-26 1028 batch 1 fixes |
+| [b5ce026](https://github.com/paleofoundation/heavymetalindex/commit/b5ce026) | 2026-05-26 | ingest auto-fetched 2026-05-26 1030 batch 1: 4 source pages |
+<!-- END: hmi-page-history -->

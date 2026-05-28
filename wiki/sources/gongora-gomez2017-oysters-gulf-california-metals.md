@@ -17,6 +17,9 @@ products: ["[[products/shellfish]]", "[[products/seafood]]"]
 matrices: ["shellfish", "mollusk", "oyster"]
 jurisdictions: ["MX"]
 sample_population: "Cultivated Pacific oysters from the southeastern Gulf of California, Mexico"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -55,3 +58,14 @@ The source supports Mexican shellfish occurrence context for Cd, Pb, Cr, Ni, tot
 
 Arsenic and mercury are treated as total-element measurements because the source does not report inorganic arsenic or methylmercury speciation.
 The oyster species is Crassostrea gigas; the frontmatter keeps the matrix broad enough for routing while the title and sample population retain the species.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [455106a](https://github.com/paleofoundation/heavymetalindex/commit/455106a) | 2026-05-26 | ingest auto-fetched 2026-05-26 2228 batch 3: 3 source pages |
+<!-- END: hmi-page-history -->

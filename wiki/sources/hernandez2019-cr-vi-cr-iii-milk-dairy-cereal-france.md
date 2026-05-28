@@ -19,6 +19,9 @@ jurisdictions: [FR, EU]
 sample_n: 68
 sample_population: "Sixty-eight food samples representing the French population's national milk, dairy, and cereal product consumption: 38 dairy products (8 cheese — hard/soft, cow/goat/buffalo; 3 fluid milk — whole, semi-skimmed, skimmed; 24 ultra-fresh dairy — yogurts, fromage blanc 40%, fresh cream) + 30 cereal products (8 bread/white bread/toast/rusk; 9 breakfast cereals — corn, puffed rice with/without chocolate, chocolate cereals, muesli with fruit; 1 pasta; 5 rice/wheat/couscous products; 7 biscuits — dry, with fruit or chocolate, sweet/savoury bars). Purchased November-December 2015 from a Paris supermarket. Speciated Cr by LC-ICP-MS with anion+cation exchange CS5A column; Cr(VI) extraction by NH4OH solid-liquid ultrasonic bath; total Cr by closed-microwave HNO3 digestion + ICP-MS. Cr(VI) LOD/LOQ: 0.3/0.6 µg/kg (milk and dairy), 0.4/0.8 µg/kg (cereals). Total Cr LOD/LOQ: 5/10 µg/kg."
 acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/hernandez2019.pdf); originally on the wishlist as the highest-leverage Cr-VI gap-filler. The wishlist mislabeled this paper as 'Mathebula 2019' — the actual first author is Hernandez F."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -130,3 +133,15 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 - [[products/teething-and-snacks-non-rice]]
 - [[products/infant-and-child-foods-master]]
 - [[sources/soares2000-chromium-vi-powdered-milk-formulas]] (reinterpretation note)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [678c9ee](https://github.com/paleofoundation/heavymetalindex/commit/678c9ee) | 2026-05-09 | resynthesis: hernandez2019 closes Cr-VI gap across all 14 IandC subcategories (Cr-VI <LOD; supersedes Soares 2000) |
+<!-- END: hmi-page-history -->

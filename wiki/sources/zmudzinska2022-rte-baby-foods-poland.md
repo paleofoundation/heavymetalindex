@@ -19,6 +19,9 @@ matrices: [baby-food-puree, baby-snack, fruit-puree, vegetable-puree, infant-cer
 jurisdictions: [PL]
 sample_n: 397
 sample_population: "397 commercial ready-to-eat baby-food products purchased Dec 2020 – Sep 2021 on the Polish market for children aged 0.5–3 years; categories: baby dinners (n=102), porridges (n=50), fruit/vegetable mousses (n=58), baby drinks (n=64), snacks 'for the hand' (n=62), dairy (n=60); ICP-MS for As, Cd, Pb and AAS amalgamation for Hg; wet-weight basis"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -159,3 +162,15 @@ Enhanced 2026-05-17 from the prior 2026-05-12 revision under the v2.0 manual-fet
 11. **Wiki/HMTc firewall pass clean.** No threshold proposals, consumer-audience advisories, or cross-source synthesis claims in the page body. The Implications section names what the paper contributes to threshold work without proposing values.
 
 Preserved from prior revision: cite_key, raw_handle, raw_path, license, access_url, evidence_tier, doi.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [03effda](https://github.com/paleofoundation/heavymetalindex/commit/03effda) | 2026-05-17 | ingest: zmudzinska2022-rte-baby-foods-poland enhanced from Manual Fetch Kimi/06_Infant_Foods_Formula |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

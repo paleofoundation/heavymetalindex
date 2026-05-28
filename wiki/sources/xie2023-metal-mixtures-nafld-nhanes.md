@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 5548
 sample_population: "US adults, NHANES 2003–2018"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -62,3 +65,14 @@ Microbiome: Not directly applicable; however, liver-gut axis pathways could conn
 - [[metals/mercury-total]]
 - [[health/nafld-heavy-metals]]
 - [[health/liver-disease-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [8c1225e](https://github.com/paleofoundation/heavymetalindex/commit/8c1225e) | 2026-05-13 | ingest p4-batch13-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

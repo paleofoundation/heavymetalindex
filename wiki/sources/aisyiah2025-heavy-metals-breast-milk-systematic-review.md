@@ -20,6 +20,9 @@ jurisdictions: [TW, ES, CN, PS, NG, EG, SI]
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic review of 9 primary studies (2013–2023) on heavy metals in human breast milk; populations from Taiwan, Spain, China, Palestine, Nigeria, Egypt, and Slovenia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -99,3 +102,15 @@ Microbiome: Al, Pb, and Cd exposure via breast milk during infant gut colonizati
 - Brand firewall (Part 12): no sampled-product brand naming in this source; methods-section vendor naming not applicable to a narrative review.
 - Wiki/HMTc firewall (Part 2): no synthesis claims, threshold proposals, or consumer guidance in this page; biomonitoring detection numbers are reported as source-stated and not converted into wiki-side dietary or certification recommendations.
 - Prior verification note (2026-05-17 cross-vendor strict Part 12 recheck) is superseded by this 2026-05-19 pass.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [05cd786](https://github.com/paleofoundation/heavymetalindex/commit/05cd786) | 2026-05-19 | ingest: aisyiah2025-heavy-metals-breast-milk-systematic-review enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

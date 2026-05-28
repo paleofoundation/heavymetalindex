@@ -20,6 +20,9 @@ matrices: [brewed-coffee]
 jurisdictions: [TR]
 sample_n: 10
 sample_population: "Ten brewed commercial coffee samples from different product/brand types in Turkiye: classic, milicano, green, gold, decaffeinated, filter, and Turkish coffee; 300 mL/day consumption scenario used for risk calculations."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -70,3 +73,13 @@ For standards and app work, the source is summary-table evidence rather than sam
 - Batch 1 auto-fetched ingest, 2026-05-25. The filename and wishlist row targeted total arsenic, but the actual paper reports arsenic as not detected in all coffee samples. Ingest retained under the actual paper identity because it is a real coffee element-occurrence paper.
 - Brand firewall: product labels in the paper are generic product codes/types (P1-P4, classic/gold/decaffeinated/filter/Turkish coffee) rather than consumer-brand findings; no consumer brand names are reproduced.
 - Speciation: arsenic is total/unspecified As by ICP-OES; do not treat it as inorganic arsenic. Chromium is total/unspecified Cr; do not treat it as Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d1c9a1e](https://github.com/paleofoundation/heavymetalindex/commit/d1c9a1e) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 1: 3 source pages + 3 rollups + 44 skips |
+<!-- END: hmi-page-history -->

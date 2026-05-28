@@ -19,6 +19,9 @@ products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]
 matrices: [green-tea, black-tea, oolong-tea, tea-infusion, tea-leaves]
 jurisdictions: [CN, IN, TR]
 sample_n: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -54,3 +57,15 @@ This paper's primary focus is pesticide residues and mycotoxins; heavy metals ar
 
 - [[testing/icp-ms]]
 - [[ingredients/tea]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: 75
 sample_population: "Grape, apple, orange, banana, and pomegranate purchased from 5 retail shops/markets in Dhaka city, Bangladesh, 2018–2019; 25 treatment-shop combinations with 3 replications each"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -72,3 +75,17 @@ Atomic absorption spectrophotometer (Chemito Technologies AA-203, slit width 0.5
 - Cross-vendor strict Part 12 recheck 2026-05-17 found no sampled-product brand naming. Corrected stale PDF path, added measured Co, corrected fruit ingredient slugs, and fixed Key-number ranges/highest Pb/SPI against the thesis abstract and Chapter 4 result tables.
 - 2026-05-19 merge-enhance pass against full PDF (pages 33–59): disambiguated single-factor PI (≈0.87 for Pb T19 banana) from SPI (0.9001 for T19; 0.8726 for T24 banana at Meena Bazar), added the 0.028 minimum SPI (T8 orange at Agora), expanded Methods with the specific AAS instrument (Chemito AA-203), digestion protocol (HNO₃/H₂O₂, 95–125°C), drying schedule, ANOVA/DMRT statistical workflow, and the BARI/SAU lab split. Brand-firewall (Part 12) re-checked: the named "shops" (Shwapno, Agora, Prince Bazar, Kawran Bazar, Meena Bazar) are retail sampling locations in Dhaka, not brand owners of the loose-commodity fruit, so site naming remains in scope for synthesis routing.
 - Fresh-context audit subagent (2026-05-19) flagged a ⚠️ concern that the source itself is internally inconsistent on AAS model — §3.5.2 reports the Chemito AA-203 used for sample readings, while §3.6 mentions an "AA-7000" for validation. Verified against the PDF; AA-203 is the operative reading instrument. Added a one-line clarifying parenthetical to Methods so a reader cross-checking against the thesis does not stumble. Verdict: PROMOTE; 1 ⚠️ applied, 0 ❌ findings.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0845432](https://github.com/paleofoundation/heavymetalindex/commit/0845432) | 2026-05-19 | audit: afrin2020-heavy-metals-fruits-dhaka [promoted] |
+| [a53c1bc](https://github.com/paleofoundation/heavymetalindex/commit/a53c1bc) | 2026-05-19 | ingest: afrin2020-heavy-metals-fruits-dhaka [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

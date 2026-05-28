@@ -17,6 +17,9 @@ products: []
 matrices: [endometriosis, ibs-like-disorders, allergic-contact-mucositis, low-nickel-diet, nickel-oral-mucosa-patch-test]
 jurisdictions: [IT]
 sample_n_notes: "Endometriosis patients with IBS-like and gynecological symptoms at Sapienza University Rome Departments of Translational and Precision Medicine and of Gynecology, Obstetrics, and Urology; nickel-oral-mucosa patch test (Ni omPT) plus 3-month low-Ni diet"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -48,3 +51,13 @@ Open-label pilot study at Sapienza University Rome. Inclusion: endometriosis wit
 
 - [[metals/nickel]]
 - [[health/endometriosis-nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ matrices: [powdered-formula, ready-to-drink-formula]
 jurisdictions: [UK]
 sample_n: 30
 sample_population: "Widely available UK infant formulas"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -80,3 +83,16 @@ Microbiome: No direct microbiome endpoint.
 - [[ingredients/soy]]
 - [[supply-chain/aluminum-based-packaging]]
 - [[metals/aluminum]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [59896fd](https://github.com/paleofoundation/heavymetalindex/commit/59896fd) | 2026-04-29 | Map Chuchu formula aluminum tables |
+| [c48bdab](https://github.com/paleofoundation/heavymetalindex/commit/c48bdab) | 2026-04-29 | Ingest Digest source batch |
+<!-- END: hmi-page-history -->

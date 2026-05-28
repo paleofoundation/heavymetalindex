@@ -111,3 +111,9 @@ The following regulation pages exist in the index but do not yet carry an `effec
 A regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetaltested.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See [[CLAUDE|wiki/HMTc separation policy]] for the rationale.
 
 For the cross-jurisdiction matrix view, see [[regulations/by-jurisdiction]].
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+This page is auto-regenerated from upstream data on every build. Edits by hand are overwritten on the next prebuild. See the generator named in the page intro for the data source and update cadence; the full commit history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+<!-- END: hmi-page-history -->

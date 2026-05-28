@@ -22,6 +22,9 @@ near_duplicates: ["[[sources/cfs2012-hktds-inorganic-arsenic]]"]
 related_sources: ["[[sources/cfs2012-hktds-inorganic-arsenic]]"]
 sample_n: 1800
 sample_population: "Hong Kong general adult population aged 20-84; 150 TDS food items purchased on 4 occasions (March 2010 to February 2011) with 3 samples per item per occasion, combined into 600 composite samples; dietary exposure estimated using Hong Kong Population-based Food Consumption Survey 2005-2007 data. Methylmercury analysis covered 51 of the 150 food items (204 composites), predominantly food of animal origin and seafood."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -213,3 +216,17 @@ Merge-enhance pass 2026-05-20 from the original 2026-05-13 ingest:
 - [[ingredients/milk-and-dairy]]
 - [[ingredients/beverages]]
 - [[products/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5b9c401](https://github.com/paleofoundation/heavymetalindex/commit/5b9c401) | 2026-05-20 | audit: cfs2013-hktds-metallic-contaminants [promoted] |
+| [6ceeb15](https://github.com/paleofoundation/heavymetalindex/commit/6ceeb15) | 2026-05-20 | ingest: cfs2013-hktds-metallic-contaminants [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

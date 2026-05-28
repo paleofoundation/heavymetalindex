@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: [guo2024-duck-eggs-hg-mining-china]
 sample_n: 20
 sample_population: "20 free-range duck eggs total: 10 from Laohugou, Wuchuan County, Zunyi (28°60′ N, 108°01′ E), Guizhou Province (Wuchuan mercury mining area; sampled 18 July 2022) and 10 from Chuanshi Village, Yangchang Town, Anshun (26°35′ N, 106°32′ E), Guizhou Province (background area; sampled 25 July 2022). Eggs purchased randomly from local households raising ducks free-range with similar feeding methods."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -173,3 +176,15 @@ App: Contributes duck-egg yolk and white concentration data for Cr, Zn, Sr, Ba, 
 **Products field.** `products: ["[[products/poultry-product]]"]` is preserved from the prior revision and aligns with the routing-audit row. Duck eggs are not the locked HMTc Category 11 "Eggs" row (which the eggs-product page covers and which the companion li2026 chicken-egg page routes to); the broader `poultry-product` slug is the correct routing destination for duck-egg evidence until/unless a duck-specific Step 0 Lock is authored.
 
 **Duplicate-page note (escalation to Karen).** A second wiki source page exists for the same paper: `wiki/sources/guo2024-duck-eggs-hg-mining-china.md` (raw_handle `FM_10932963`, raw_path `raw/markdown/FM_10932963/FM_10932963.md`). Both pages share DOI 10.3389/fpubh.2024.1352043. The FM_ page has fabricated authors (`Guo Y, Li Y, Wang Q, Zhang H, Liu J, Feng X`) — the correct author list is in the present (MFK) page and matches the PDF byline. The FM_ page also has incorrect sample design (claims 5 sites × n=10 = 50; the actual study is 2 sites × n=10 = 20), incorrect title ("near mercury mining areas" vs the published "from a mercury mining area, southwestern China"), and thin Key numbers with no Table 2/3/4/5 reproduction. The two pages are linked via `near_duplicates: [guo2024-duck-eggs-hg-mining-china]` in this page's frontmatter so the relationship is discoverable. Recommend Karen retire the FM_ page (and its routing row) in favor of this MFK page, since this page is the verified-against-PDF version. This duplicate predates the current ingest cycle and is not introduced by this skill execution.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f2891e2](https://github.com/paleofoundation/heavymetalindex/commit/f2891e2) | 2026-05-19 | ingest: guo2024-heavy-metals-duck-eggs-mercury-mine-china enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

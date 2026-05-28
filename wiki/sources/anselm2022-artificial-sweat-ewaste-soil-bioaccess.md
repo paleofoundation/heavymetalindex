@@ -19,6 +19,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 1
 sample_population: "Bulk composite topsoil (0-5 cm, <45 µm fraction) from Alaba International Market e-waste recycling area, Lagos, Nigeria (composited from individual samples collected 2016-2017); five artificial-sweat formulations × five temperatures (17, 27, 32, 37, 47 °C), triplicate extractions."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -173,3 +176,15 @@ Limitations stated/implied: static 8 h batch extraction (no sequential or kineti
 - Audit subagent (2026-05-17) flagged bare `As` vs `tAs` and missing `[[metals/iron]]` wikilink; both verified against source — `As` corrected to `tAs` in frontmatter; `[[metals/iron]]` added to "Wiki pages this source may touch" (Fe is reported in Tables 3 and 4 alongside the other eight analytes).
 - Brand-firewall compliance: method-section vendor names (Agilent ICP-MS, CEM MARS Xpress digester, Sigma Aldrich Acrodisc filters, Stuart SI500 incubator, Qmx Laboratories calibrants, Minitab software) retained per Part 12 Exception 2 (scientific reproducibility). No sampled-product brand names present.
 - Provisional ingredient/product scaffolds not applicable (no product/ingredient declarations).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5356d25](https://github.com/paleofoundation/heavymetalindex/commit/5356d25) | 2026-05-17 | audit: anselm2022-artificial-sweat-ewaste-soil-bioaccess revised |
+| [4909e95](https://github.com/paleofoundation/heavymetalindex/commit/4909e95) | 2026-05-17 | ingest: anselm2022-artificial-sweat-ewaste-soil-bioaccess enhanced from MFK/Children Personal Care Papers |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

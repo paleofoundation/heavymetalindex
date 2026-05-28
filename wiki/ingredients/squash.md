@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [non-root-vegetable-purees]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 0
 ---
@@ -155,3 +156,16 @@ Squash derivatives include fresh squash, frozen squash, canned pumpkin (a primar
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to squash products sold in California.
 - EU Sn-in-canned-food regulation sets 200 mg/kg for canned vegetables, 50 mg/kg for canned infant food including canned pumpkin and squash.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2d94f57](https://github.com/paleofoundation/heavymetalindex/commit/2d94f57) | 2026-05-17 | synthesis: beet, raspberries, guava, cucumbers, squash, parsley — 6 narrative sections each |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
+| [3268b89](https://github.com/paleofoundation/heavymetalindex/commit/3268b89) | 2026-05-08 | schema: migrate ingredient_profile to 10-metal standard |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 50
 sample_population: "Screening-level health risk assessment by Stantec consultants of metal concentrations measured by Lead Safe Mama (a consumer-advocacy lead-poisoning-prevention business) in 50 toothpastes (and 3 tooth powders, excluded from this assessment) sold in the United States, as publicized in a 2025 Guardian news article by Tom Perkins. The 50 toothpaste concentrations are the input dataset; the present paper does not re-analyse the products. Per-product metal concentrations and brand attributions are listed in the source's Supplementary file Table S1; this page reproduces only product-number-keyed exposure doses and aggregate range statistics per CLAUDE.md Part 12."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1
 created_by: claude_opus_47_session
@@ -135,3 +138,15 @@ Microbiome: Not applicable.
   - Finding 1 (journal title): audit flagged the mid-pass "correction" of "Public Health and Toxicology" to "Public Health Toxicology" as itself wrong. Verified against PDF page 1 top-right banner — banner reads "Public Health and Toxicology"; the "Public Health Toxicol" string only appears in the NLM-abbreviation footer citation. Reverted frontmatter `publication:` to "Public Health and Toxicology 5(2):9" and updated the publication-name verification-note entry to document the round-trip.
   - Finding 2 (FDA IRL age qualifier): audit flagged that the wiki attributed "2.2 µg/day for children (1–3 years)" to the FDA IRL, but the source states the IRL without an age qualifier — the 1–3 year age band only applies in the source to the dietary Pb intake values (1.7 mean, 2.6 P90 µg/day) used downstream for contextualisation. Verified against PDF pages 4–5. Removed the "(1–3 years)" qualifier from the IRL line and added a clarifying sentence about where the age band actually applies.
   - Audit also raised two ⚠️ items without applying: (i) `matrices: [cosmetic-personal-care, exposure-modeling]` are non-standard slugs not in the snapshot — preserved per established convention across the sibling Cat 2 personal-care sources (jitareanu2025, rbeida2023, balogun2024, chengappa2025, etc.); (ii) "two brushings per day" comes from the source's Supplementary file (not accessed) — added a clarifying caveat in Key numbers rather than removing the parameter, because the per-product values in Table 1 are consistent with the parameter being two.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [29d699f](https://github.com/paleofoundation/heavymetalindex/commit/29d699f) | 2026-05-18 | audit: massarsky2025-heavy-metals-toothpaste-health-risk revised |
+| [c1daddd](https://github.com/paleofoundation/heavymetalindex/commit/c1daddd) | 2026-05-18 | ingest: massarsky2025-heavy-metals-toothpaste-health-risk enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+| [8011040](https://github.com/paleofoundation/heavymetalindex/commit/8011040) | 2026-05-15 | sources: Cat 2 toothpaste — Massarsky 2025 health risk + toothpaste product row |
+<!-- END: hmi-page-history -->

@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/shellfish]]", "[
 products: ["[[products/seafood]]"]
 anchor_sources: ["[[sources/davydiuk2023-arsenosugars-methylation]]", "[[sources/liu2023-arsenic-seafood-digestion]]", "[[sources/kagawa2023-fish-arsenic-hypertension-japan]]", "[[sources/raab2024-arsenolipids-chlamydomonas]]", "[[sources/walenta2024-arsenic-speciation-mushrooms]]", "[[sources/sim2024-inorganic-arsenic-seaweed-hplc]]", "[[sources/hull2023-arsenic-lake-foodweb]]", "[[sources/sadee2023-arsenic-speciation-vegetables]]"]
 established: 2026-05-13
+wiki_doi: null
 updated: 2026-05-13
 ---
 
@@ -95,3 +96,13 @@ For the app model, ingredients flagged as primarily organic arsenic sources (fis
 ## How this page was promoted
 
 This synthesis page was promoted on 2026-05-13 following P4 batch ingest sessions 10 and 11. The thread was first surfaced in the batch 10 close synthesis-proposals entry, where davydiuk2023, liu2023, and kagawa2023 were identified as a three-paper cluster challenging the organoarsenical inertness assumption from distinct methodological directions. Batch 11 added raab2024, walenta2024, and sim2024, extending the thread from marine fish into microalgae, mushrooms, and seaweed and resolving the borderline status of criterion 2 (spanning multiple matrices and products). The synthesis-proposals entry was upgraded to all-4-criteria-met after batch 11 closed, and Karen approved direct promotion. Eight A-tier anchor sources, three independent research traditions (biomonitoring, analytical chemistry, epidemiology), and three food matrix types (seafood, fungi, microalgae/seaweed) support the thesis at promotion. The synthesis is provisional; it does not assert arsenobetaine toxicity, only that the evidence base for the inertness assumption has weakened in specific and documented ways. Re-synthesis is expected when an in vivo human feeding study establishes or fails to establish iAs absorption from seafood, or when a non-Japanese cohort replicates or fails to replicate the Kagawa hypertension signal.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0265e90](https://github.com/paleofoundation/heavymetalindex/commit/0265e90) | 2026-05-13 | synthesis: promote organoarsenical-inertness-assumption — 8 anchor sources |
+<!-- END: hmi-page-history -->

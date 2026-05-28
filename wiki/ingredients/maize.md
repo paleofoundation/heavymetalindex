@@ -21,6 +21,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 13
 created_by: autonomy_v0
@@ -119,4 +120,16 @@ Tortillas, tortilla chips, polenta, grits, corn-based breakfast cereals all inhe
 - FDA does not maintain binding action levels for Cd or Pb in maize specifically. FDA Pb action levels for processed baby foods cover maize-containing infant cereals.
 - California Prop 65 ([[regulations/california-prop65]]) Cd MADL applies to maize-containing products.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [1d40ff2](https://github.com/paleofoundation/heavymetalindex/commit/1d40ff2) | 2026-05-20 | autonomy: daemon tick 2026-05-20T10-12-12Z — gap-healing + extraction + pooling + briefings |
+| [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
+<!-- END: hmi-page-history -->

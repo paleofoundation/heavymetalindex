@@ -13,6 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/oehha-arsenic-prop65-listing]]"]
 title: "California Proposition 65 — Inorganic Arsenic Compounds Listing"
+wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
@@ -31,3 +32,17 @@ Inorganic arsenic compounds are listed under California Proposition 65 as chemic
 ## Sources
 
 - [[sources/oehha-arsenic-prop65-listing|OEHHA Prop 65 As]] — OEHHA. Arsenic (Inorganic Arsenic Compounds), Proposition 65 chemical listing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [b6a5324](https://github.com/paleofoundation/heavymetalindex/commit/b6a5324) | 2026-04-25 | Arsenic batch: 8 source pages, 5 regulation pages, new metals/arsenic.md |
+<!-- END: hmi-page-history -->

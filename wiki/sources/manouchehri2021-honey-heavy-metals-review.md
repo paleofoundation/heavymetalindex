@@ -19,6 +19,9 @@ jurisdictions: [IR, TR, NG, AR, PK, HR, XK, BD, IQ, GH, IT, UA, PL, ET, RO, BR, 
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic review of published literature on heavy metals in honey, drawing from studies in Iran, Turkey, Nigeria, Argentina, Pakistan, Croatia, Kosovo, Bangladesh, Iraq, Ghana, Italy, Ukraine, Poland, Ethiopia, Romania, Brazil, India, Saudi Arabia, Morocco, Hungary, Chile, China, and other countries"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -95,3 +98,16 @@ Systematic review using keywords "heavy metals" and "honey" in databases: Google
 - Sn is included only for the storage-container leaching pathway discussed by the review, not as a pooled honey occurrence estimate.
 - Table 1 of the review contains internal anomalies (cross-unit inconsistencies, e.g., the "UT 2015" Turkey row reporting Pb 110 ± 1.277 mg/kg wet weight in the table, which is implausible and the review does not flag; and Magna et al. 2018 Ghana Pb 79.815 ± 16.796 mg/kg, a comparable-magnitude implausible value). The Key numbers section flags these magnitudes rather than treating them as usable occurrence points.
 - 2026-05-18 audit-subagent finding (verified against Table 1 column order on PDF p.240): the prior Magna et al. 2018 Ghana bullet transposed Pb and Ni — the 79.815 ± 16.796 value sits in the Lead column, not the Nickle column. Corrected, and the false WHO/FAO Ni-exceedance synthesis statement that accompanied it (the actual WHO/FAO-exceedance statement in the review is for Toma et al. Nigeria Fe/Cu/Mn/Zn, not Magna Ghana Ni) was removed. The audit subagent also flagged the Aljedani Saudi Arabia bullet for attribution ambiguity between Table 1 and the discussion text (the same "0.008 ± 0.008" value is attributed to Aljedani in Table 1 and to Saghaei in the p.242 discussion); the bullet was dropped because the review's internal inconsistency makes it unusable as a citation. Sajtos Hungary method label was reconciled by noting Table 1 (ICP-OES) and the cited paper title (MP-AES) disagree.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3920bcd](https://github.com/paleofoundation/heavymetalindex/commit/3920bcd) | 2026-05-18 | audit: manouchehri2021-honey-heavy-metals-review revised |
+| [a05640b](https://github.com/paleofoundation/heavymetalindex/commit/a05640b) | 2026-05-18 | ingest: manouchehri2021-honey-heavy-metals-review enhanced from Papers Cube Manual Fetch |
+| [170bdb5](https://github.com/paleofoundation/heavymetalindex/commit/170bdb5) | 2026-05-17 | audit (codex): manouchehri2021-honey-heavy-metals-review revised |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+<!-- END: hmi-page-history -->

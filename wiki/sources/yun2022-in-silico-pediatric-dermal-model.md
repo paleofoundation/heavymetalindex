@@ -19,6 +19,9 @@ jurisdictions: [CA]
 near_duplicates: []
 sample_n: null
 sample_population: "In silico model construction with maturation functions fit to literature data on infant/child skin anatomy; predictive performance evaluated against three drugs (buprenorphine, diamorphine, phenobarbital) using in vitro neonatal-skin permeation data from prior published studies"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -62,3 +65,15 @@ Model construction: extension of the Dancik et al. 2013 three-compartment (SC, v
 - 2026-05-17 enhancement: tightened the buprenorphine predictive-performance summary using Table 7 and the Discussion (the original "acceptable" wording was a faithful abstract restatement but elided the 30-fold sample-pair discrepancy that the authors themselves attribute to experimental error). All other fields preserved (cite_key, raw_handle, raw_path, license, jurisdictions, near_duplicates).
 - Audit subagent (2026-05-17) flagged that the prior "epidermis reaches adult values at ~100 days" wording conflated the Table 4 / Figure 2B plateau with the body-text claim of "four months of age" (p. 8); verified against source — corrected to "approximately 4 months (~120 days)" with the curve-plateau range stated separately.
 - Audit subagent (2026-05-17) flagged that the prior "8-20% thinner (Stamatas, Liu); 22% thinner inner arm" gloss obscured per-study attribution (p. 8 actually pairs Stamatas with 20% and Liu with 8% on thigh; Liu with 22% on inner arm); verified against source — corrected to per-study attribution.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [025b6b7](https://github.com/paleofoundation/heavymetalindex/commit/025b6b7) | 2026-05-17 | audit: yun2022-in-silico-pediatric-dermal-model revised |
+| [9f4142d](https://github.com/paleofoundation/heavymetalindex/commit/9f4142d) | 2026-05-17 | ingest: yun2022-in-silico-pediatric-dermal-model enhanced from MFK/Children Personal Care Papers |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

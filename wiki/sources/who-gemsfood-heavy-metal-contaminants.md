@@ -20,6 +20,9 @@ summary_path: data/evidence/who_gemsfood_heavy_metals_summary_by_food_contaminan
 export_manifest_path: data/evidence/who_gemsfood_heavy_metals_raw_exports.csv
 metals: [Al, Cd, Cr, DMA, Hg_unspecified, MMA, MeHg, Ni, Pb, Sn, iAs, iHg, oAs, tAs, tHg]
 jurisdictions: [WHO, Global]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -86,3 +89,14 @@ GEMS/Food source-scope p10, p50, p90, and p95 values are not final HMTc threshol
 - [[sources/who-gemsfood-heavy-metal-contaminants]]
 - [[sources/index]]
 - [[log]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [a1d190e](https://github.com/paleofoundation/heavymetalindex/commit/a1d190e) | 2026-05-08 | Recover GEMS Food heavy metal context |
+<!-- END: hmi-page-history -->

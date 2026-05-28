@@ -19,6 +19,9 @@ jurisdictions: [EC, PE, CO, CR, CIV, GH, ID, PG, VE, DO]
 near_duplicates: []
 sample_n: 2127
 sample_population: "489 site-years from 31 studies across 10 cacao-producing countries; 2,127 observations compiled from systematic literature search"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -59,3 +62,14 @@ App: For cocoa and cacao-derivative ingredients, the quantitative synthesis supp
 - [[ingredients/cocoa]]
 - [[products/chocolate]]
 - [[supply-chain/soil-cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e4c0b23](https://github.com/paleofoundation/heavymetalindex/commit/e4c0b23) | 2026-05-13 | ingest p4-batch14-g1: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

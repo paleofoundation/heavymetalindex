@@ -19,6 +19,9 @@ products: []
 matrices: [cacao-beans, cacao-growing-soil]
 jurisdictions: [PE]
 sample_n: 2194
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -50,3 +53,13 @@ Tree-level bean Cd measurements reflect individual genotype variation in additio
 - [[ingredients/cocoa]]
 - [[metals/cadmium]]
 - [[supply-chain/soil-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [29a65ac](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac) | 2026-05-12 | ingest: batch-E seasonal-geographic-variance — 9 source pages |
+<!-- END: hmi-page-history -->

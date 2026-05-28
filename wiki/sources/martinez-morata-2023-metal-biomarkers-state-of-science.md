@@ -16,6 +16,9 @@ ingredients: []
 products: []
 matrices: [blood, urine, hair, nails, biomarker]
 jurisdictions: [international]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -40,3 +43,13 @@ The review documents biomarker validity per metal: blood Pb is the gold-standard
 - [[metals/mercury]]
 - [[metals/nickel]]
 - [[metals/uranium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

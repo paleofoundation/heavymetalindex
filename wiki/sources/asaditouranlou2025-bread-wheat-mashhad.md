@@ -22,6 +22,9 @@ matrices: [cereal-grain, dietary-intake]
 jurisdictions: [IR]
 sample_n: 270
 sample_population: "Flour, dough, and bread from 90 bakeries across five city regions (North, South, East, West, Central) in Mashhad, Iran; sampled June-December 2020"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -122,3 +125,16 @@ App: The source can support dry-weight occurrence and risk-context displays for 
 - Replaced certification-threshold language with source-only standards/app/course implications.
 - Replaced invalid `ingredients/wheat-flour` and product-empty routing with existing vocabulary routes.
 - Strict brand-firewall check: no consumer brands are named; reagent, instrument, filter, software, and certified-reference-material names are retained only as Methods details under the Part 12 scientific-method exception.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [06ba494](https://github.com/paleofoundation/heavymetalindex/commit/06ba494) | 2026-05-18 | ingest kimi-cat03: asadi touranlou mashhad bread |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

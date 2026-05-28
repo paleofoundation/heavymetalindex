@@ -21,6 +21,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-20
 sources: 0
 created_by: autonomy_v0
@@ -56,3 +57,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a565f0](https://github.com/paleofoundation/heavymetalindex/commit/9a565f0) | 2026-05-20 | autonomy: daemon tick 2026-05-20T08-23-56Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

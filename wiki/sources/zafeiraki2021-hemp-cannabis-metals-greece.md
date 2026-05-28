@@ -19,6 +19,9 @@ jurisdictions: [GR, EU]
 near_duplicates: []
 sample_n: 90
 sample_population: "90 Cannabis sativa L. leaf/flower samples from 9 varieties cultivated across 13 regions in Greece, collected 2018-2019; 21 seed samples as a subset"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -60,3 +63,15 @@ App: Hemp and cannabis-derived supplements should be flagged for Cr and Cd scree
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[ingredients/hemp]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [947ee82](https://github.com/paleofoundation/heavymetalindex/commit/947ee82) | 2026-05-17 | reverse-route: backfill products from matrices for 3 sources (running total: 53) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [776a085](https://github.com/paleofoundation/heavymetalindex/commit/776a085) | 2026-05-13 | ingest p4-batch17-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

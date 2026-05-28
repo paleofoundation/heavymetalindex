@@ -19,6 +19,9 @@ matrices: [baby-food-puree, fruit-puree, vegetable-puree, baby-snack, fruit-juic
 jurisdictions: [US]
 sample_n: 168
 sample_population: "168 commercial baby food containers, 61 brands, 13 food types; purchased from 14 US metropolitan areas and 15 retail chains in 2019"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -115,3 +118,17 @@ Microbiome: Not addressed in this source.
 
 - This page was enhanced 2026-05-17 against the prior 2026-05-13 revision. Slug-vocabulary fixes only — the prior page's substantive content (Key numbers, Methods, Implications) was already strong and was preserved as-is. Defects corrected: (a) invalid product slugs `infant-formula` and `infant-rice-cereal` replaced with taxonomy-valid `infant-formula-powder`, `infant-formula-rtf-liquid-non-soy`, `baby-cereals-dry-rice-based`, `teething-and-snacks-rice-based`; (b) added missing valid slugs (`non-root-vegetable-purees`, `teething-and-snacks-non-rice`, `snacks-crackers-biscuits`, fruit ingredient `apple`); (c) matrices vocabulary replaced with system-prompt valid terms; (d) legacy `## Wiki pages updated on ingest` heading modernized; (e) metals page references expanded to include `arsenic-inorganic`, `arsenic-total`, `mercury-total` rather than the generic `arsenic` / `mercury` umbrella slugs (the report measures and reports speciated iAs separately for the 25 highest-arsenic foods).
 - Cross-vendor audit 2026-05-17 corrected the local `raw_path`, clarified that results are product-as-tested/as-sold rather than uniformly wet-weight, added Appendix C analytical-method detail, noted that the cereal safer-choice comparison is iAs-only, and reframed substitution/HMT&C/app implications to avoid wiki-side consumer guidance or threshold-setting claims.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4c7d1af](https://github.com/paleofoundation/heavymetalindex/commit/4c7d1af) | 2026-05-17 | audit (codex): houlihan2019-hbbf-whats-in-baby-food revised |
+| [40908aa](https://github.com/paleofoundation/heavymetalindex/commit/40908aa) | 2026-05-17 | ingest: bair2022 + houlihan2019 enhanced from MFK manual-fetch PDFs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [2d4429e](https://github.com/paleofoundation/heavymetalindex/commit/2d4429e) | 2026-05-13 | ingest: P4 batch 17 close — 29 source pages, 200 handles (positions 5168-5367) + kimi-cat06 5 pages |
+<!-- END: hmi-page-history -->

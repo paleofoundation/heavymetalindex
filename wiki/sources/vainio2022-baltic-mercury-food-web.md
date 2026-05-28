@@ -19,6 +19,9 @@ jurisdictions: [FI, SE, DK]
 near_duplicates: []
 sample_n: 136
 sample_population: "30 species from the Baltic Archipelago Sea (southwestern Finland), sampled 2017–2019 (white-tailed eagle 2013–2019); birds (3 spp.), fish (14 spp.), invertebrates (13 spp.); accredited DMA-80 direct mercury analyzer following US-EPA Method 7473"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -74,3 +77,14 @@ Freeze-dried homogenized tissue samples analyzed by direct mercury analyzer (DMA
 - [[ingredients/mussel]]
 - [[products/seafood]]
 - [[health/mercury-biomagnification]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [531487a](https://github.com/paleofoundation/heavymetalindex/commit/531487a) | 2026-05-13 | ingest p4-batch15-g1: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

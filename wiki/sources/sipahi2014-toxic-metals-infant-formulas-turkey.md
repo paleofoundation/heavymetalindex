@@ -19,6 +19,9 @@ jurisdictions: [TR]
 sample_n: 63
 sample_population: "Sixty-three different infant foods and formulas from 21 manufacturers acquired in pharmacies and supermarkets in Ankara, Turkey, in 2006. Three product groups: cereal-based (n=23, wheat/rice/corn/oats single or combination), milk-based (n=28, single or combination of milk/milk powder/milk fat/milk protein — not split by soy/non-soy), and mixed (n=12, cereals + milk + fruit + vegetables). Total Pb, Cd, Al, Mn, Cr, Co determined by GFAAS (Varian 30/40 with GTA96 graphite tube atomizer) at six wavelengths after microwave digestion in 6:1 HNO3:H2O2."
 acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/2014_Sipahi_TurkishJPediatric.pdf)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -100,3 +103,14 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 - [[products/mixed-meals-rice-containing]]
 - [[products/mixed-meals-non-rice]]
 - [[products/infant-and-child-foods-master]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2923689](https://github.com/paleofoundation/heavymetalindex/commit/2923689) | 2026-05-11 | lint: fix DOI audit failures on pikounis and sipahi2014 source pages |
+| [dd7c056](https://github.com/paleofoundation/heavymetalindex/commit/dd7c056) | 2026-05-09 | ingest: sipahi2014-toxic-metals-infant-formulas-turkey — n=63 Turkish infant foods (Pb/Cd/Al breadth across milk/cereal/mixed) |
+<!-- END: hmi-page-history -->

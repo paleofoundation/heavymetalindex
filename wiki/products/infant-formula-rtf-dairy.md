@@ -13,6 +13,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 1
+wiki_doi: null
 updated: 2026-05-19
 ---
 
@@ -75,3 +76,16 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 ## Historical recalls and enforcement
 
 No ready-to-feed dairy formula recall or enforcement source is currently routed to this provisional page. Future entries should stay with public-record regulatory facts and avoid using events as brand rankings.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1b49845](https://github.com/paleofoundation/heavymetalindex/commit/1b49845) | 2026-05-25 | fill rtf dairy formula synthesis prose |
+| [db5b2a8](https://github.com/paleofoundation/heavymetalindex/commit/db5b2a8) | 2026-05-20 | autonomy: daemon tick 2026-05-19T23-02-38Z — gap-healing + extraction + pooling + briefings |
+| [1ac7363](https://github.com/paleofoundation/heavymetalindex/commit/1ac7363) | 2026-05-20 | autonomy: daemon tick 2026-05-19T22-04-26Z — gap-healing + extraction + pooling + briefings |
+| [24c6554](https://github.com/paleofoundation/heavymetalindex/commit/24c6554) | 2026-05-20 | state: reprocessor + daemon side-effects from concurrent fires |
+<!-- END: hmi-page-history -->

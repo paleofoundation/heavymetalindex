@@ -19,6 +19,9 @@ jurisdictions: [IT, IN]
 near_duplicates: []
 sample_n: null
 sample_population: "Single case: 30-year-old Indian sailor treated in Italy; ICP-MS analysis of 4 Ayurvedic drug product samples (products 1, 2A, 2B, 2C)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -56,3 +59,15 @@ App: Ayurvedic and traditional Indian medicine supplements should be flagged as 
 - [[metals/mercury]]
 - [[metals/arsenic]]
 - [[ingredients/ayurvedic-supplements]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [776a085](https://github.com/paleofoundation/heavymetalindex/commit/776a085) | 2026-05-13 | ingest p4-batch17-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 4900
 sample_population: "Chongqing city residents; food samples from 39 districts collected 2018-2023 covering 10 food categories; dietary consumption data from 969 residents (2018 China Nutrition and Health Survey)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -91,3 +94,15 @@ Microbiome: Not applicable.
 - [[ingredients/meat]]
 - [[metals/arsenic]]
 - [[regulations/china-gb-5009]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [873fef7](https://github.com/paleofoundation/heavymetalindex/commit/873fef7) | 2026-05-13 | ingest p4-batch8-g3: 2 pages, 48 FP |
+<!-- END: hmi-page-history -->

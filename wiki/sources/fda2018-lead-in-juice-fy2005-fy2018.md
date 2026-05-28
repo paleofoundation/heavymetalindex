@@ -17,6 +17,9 @@ matrices: [juice, apple-juice, pomegranate-juice, mixed-juice]
 jurisdictions: [US]
 sample_n_total: 1643
 sample_n_notes: "1,643 juice samples from FY2005-FY2018, single-strength (ready-to-drink) basis. LOQs ranged from 0.1 to 50 ppb depending on method and matrix. Three pomegranate samples (IDs 580054, 680530, third unspecified in extraction) reported at 115, 91, and additional ppb at the 95th percentile."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -63,3 +66,14 @@ The dataset is a compliance program rather than a market-representative survey, 
 - [[products/fruit-juices-non-apple]]
 - [[ingredients/apple-juice]]
 - [[ingredients/grapefruit-juice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [20add89](https://github.com/paleofoundation/heavymetalindex/commit/20add89) | 2026-05-08 | schema: drop ## TL;DR heading from source pages and Part 6 template (6 pages cleaned) |
+<!-- END: hmi-page-history -->

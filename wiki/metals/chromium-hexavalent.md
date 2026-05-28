@@ -7,6 +7,7 @@ species: [Cr6+, CrO4^2-, Cr2O7^2-]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: low
 sources: 31
+wiki_doi: null
 updated: 2026-05-08
 status: scaffold
 n_sources: 2
@@ -94,3 +95,17 @@ These are useful as total-chromium occurrence context only and should not be cit
 - [[sources/chung2021-china-infant-formula-toxic-elements|Chung et al. 2021]]
 - [[sources/milani2023-trace-elements-soy-based-beverages|Milani et al. 2023]]
 - [[sources/meli2024-chemical-characterization-baby-food-italy|Meli et al. 2024]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [c725338](https://github.com/paleofoundation/heavymetalindex/commit/c725338) | 2026-05-19 | autonomy: daemon tick 2026-05-18T23-34-28Z — gap-healing + extraction + pooling + briefings |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [f97c3e2](https://github.com/paleofoundation/heavymetalindex/commit/f97c3e2) | 2026-05-18 | autonomy: daemon tick 2026-05-18T03-29-36Z — gap-healing + extraction + pooling + briefings |
+| [bfe49c4](https://github.com/paleofoundation/heavymetalindex/commit/bfe49c4) | 2026-05-18 | autonomy: daemon tick 2026-05-18T01-49-43Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

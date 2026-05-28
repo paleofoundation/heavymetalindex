@@ -19,6 +19,9 @@ jurisdictions: [IT, SA, IN, IR, ID, VN]
 near_duplicates: []
 sample_n: 13
 sample_population: "13 spice and aromatic herb samples purchased in an international market in Saudi Arabia, representing products from India, Iran, Indonesia, and Vietnam; including black cumin, chia seeds, clove buds, caraway, saffron, fenugreek, black pepper, cinnamon, cress sprouting seeds, thymol seeds, coriander, black sesame seeds"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ---
 
@@ -73,3 +76,14 @@ ICP-MS (Agilent 7500CX with Octapole Reaction System) following microwave acid d
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/cinnamon]]
 - [[ingredients/black-pepper]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

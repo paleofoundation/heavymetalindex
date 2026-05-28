@@ -20,6 +20,9 @@ jurisdictions: [EG]
 near_duplicates: []
 sample_n: null
 sample_population: "Gilthead seabream (Sparus aurata, 20–24 g) in 3×3 factorial design: three dietary yeast levels × three waterborne Cd concentrations (0, 1.0, 2.0 mg Cd/L), 60 days"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -50,3 +53,15 @@ Microbiome: Not applicable.
 - [[ingredients/marine-fish]]
 - [[ingredients/seabream]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [cacc8f4](https://github.com/paleofoundation/heavymetalindex/commit/cacc8f4) | 2026-05-13 | ingest p4-batch11-g2: 9 pages, 41 FP |
+<!-- END: hmi-page-history -->

@@ -13,6 +13,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 1
+wiki_doi: null
 updated: 2026-05-20
 ---
 
@@ -75,3 +76,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 ## Historical recalls and enforcement
 
 No vegetable-infant-food recall or enforcement synthesis has been promoted for this provisional page. The current source supports exposure relevance during weaning, not a regulatory event or product violation. Enforcement history should be added only when a source ties an event to a clear vegetable infant-food row.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [35aaf3c](https://github.com/paleofoundation/heavymetalindex/commit/35aaf3c) | 2026-05-25 | fill infant-food-vegetables synthesis prose |
+| [0863cf8](https://github.com/paleofoundation/heavymetalindex/commit/0863cf8) | 2026-05-20 | autonomy: daemon tick 2026-05-20T04-14-40Z — gap-healing + extraction + pooling + briefings |
+| [c4387dd](https://github.com/paleofoundation/heavymetalindex/commit/c4387dd) | 2026-05-20 | autonomy: daemon tick 2026-05-20T03-23-56Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

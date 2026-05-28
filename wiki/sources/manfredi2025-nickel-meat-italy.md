@@ -17,6 +17,9 @@ products: ["[[products/poultry-product]]", "[[products/processed-meats]]"]
 matrices: ["poultry-muscle", "beef-muscle", "pork-muscle"]
 jurisdictions: ["IT"]
 sample_population: "809 official-control muscle meat samples collected in Italy from 2011 to 2023"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -57,3 +60,14 @@ The source supports nickel occurrence context for Italian poultry, beef, and por
 
 - Source identity checked against DOI 10.4081/ijfs.2025.13840 and the downloaded PDF.
 - Table 1 is the concentration source; exposure estimates are kept as context and not substituted for occurrence values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

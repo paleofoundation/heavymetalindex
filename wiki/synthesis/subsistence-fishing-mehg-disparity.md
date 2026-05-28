@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]", "[[ingr
 products: ["[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/li2024-global-fisheries-mehg]]", "[[sources/wu2025-climate-meghan-freshwater-fish-china]]", "[[sources/auzier-guimaraes2025-mercury-tapajos-fish]]"]
 established: 2026-05-13
+wiki_doi: null
 updated: 2026-05-13
 ---
 
@@ -76,3 +77,13 @@ The mechanism in Wu 2025 (photochemical methylation enhanced under climate chang
 ## How this page was promoted
 
 Promoted 2026-05-13 from the candidate queue at [[../data/evidence/synthesis-proposals|data/evidence/synthesis-proposals.md]]. The three anchors meet all four promotion criteria: independent A-tier sources, finding spans multiple ingredient and product pages, finding is not derivable from any single source, strategic relevance to brand-legal (HMTc seafood standard calibration) and educator (vulnerable-population framing) audiences. Re-synthesis is expected when additional non-Amazonian, non-Chinese subsistence-fishing population studies enter the corpus, when individual-level biomonitoring data from the relevant communities is integrated, or when the climate-mediated methylmercury mechanism in Wu 2025 receives independent mechanistic confirmation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9469b28](https://github.com/paleofoundation/heavymetalindex/commit/9469b28) | 2026-05-13 | synthesis: promote three more findings pages + retire Egypt candidate |
+<!-- END: hmi-page-history -->

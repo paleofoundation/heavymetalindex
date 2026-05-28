@@ -19,6 +19,9 @@ products: ["[[products/canned-fish]]"]
 matrices: [canned-tuna]
 jurisdictions: [US, DE, FI, MT, RO, GB, NL, BG, BE, GR, HR, LV, DK, PT, SE, PL, CA, AU, JP, SA, IR, JO, HK, KH, AE, TN, DZ, EG, MA, AR, CL, PE, BR, TR, RU, GE]
 sample_n: 222
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -84,3 +87,14 @@ Inorganic arsenic is estimated as 3% of total As rather than directly speciated 
 - [[metals/mercury]]
 - [[ingredients/fish]]
 - [[products/canned-seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

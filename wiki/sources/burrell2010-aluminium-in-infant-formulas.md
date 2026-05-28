@@ -20,6 +20,9 @@ matrices: [infant-formula-powder, infant-formula-rtf]
 jurisdictions: [UK]
 sample_n: 15
 sample_population: "Fifteen commercial infant formula products on the UK market; ready-made liquid and powdered formats; cow-milk-based and soya-based; first-infant, follow-on, growing-up, preterm, and good-night formulations"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -73,3 +76,17 @@ The paper provides product-level occurrence and feeding-direction intake estimat
 - This page was enhanced 2026-05-17 from a Mode B (direct PDF) GPT-5.5 fast-mode draft via the verification pipeline. Prior version (2026-04-29) had a legacy `## Summary` heading and thin Key numbers (4 rounded bullets); enhanced revision adds replicate-sample structure, EDI estimates, breast-milk comparison anchor, and per-table source citation. GPT draft initially listed product-name-specific values in Key numbers (Part 12 violation); aggregated to format/category level using product-form descriptors (preterm, soya-based, ready-made, powder) without naming sampled products. Modernized `## Wiki pages updated on ingest` heading to `## Wiki pages this source may touch`.
 - Strict Part 12 recheck (Codex, 2026-05-17) removed sampled-product names from the page body. The method instrument vendor/model remains in Methods because the current Part 12 Exception 2 permits scientific-method vendor names for reproducibility.
 - Manual-fetch recheck (Codex, 2026-05-18) updated the provenance to the `MFK_` PDF path, which is byte-identical to the older `raw/studies/1471-2431-10-63.pdf` file (SHA-256 `3f79353a3f8c325ab6ae57a1b12ccaa3504176286228428bffbba261e3630279`), and rewrote the legacy Certification/Courses/App implications into source-evidence context only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [823f0db](https://github.com/paleofoundation/heavymetalindex/commit/823f0db) | 2026-05-18 | ingest (codex): burrell2010 infant formula aluminium recheck |
+| [23e1355](https://github.com/paleofoundation/heavymetalindex/commit/23e1355) | 2026-05-17 | firewall: Exception 2 carve-out for scientific-method vendor names |
+| [018ad5c](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c) | 2026-05-17 | audit: strict brand firewall residual cleanup |
+| [dcc2e68](https://github.com/paleofoundation/heavymetalindex/commit/dcc2e68) | 2026-05-17 | firewall: lock strict Part 12 brand-firewall reading |
+| [bacf957](https://github.com/paleofoundation/heavymetalindex/commit/bacf957) | 2026-05-17 | audit (codex): burrell2010-aluminium-in-infant-formulas revised |
+<!-- END: hmi-page-history -->

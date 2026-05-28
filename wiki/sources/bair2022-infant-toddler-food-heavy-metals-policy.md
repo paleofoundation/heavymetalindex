@@ -20,6 +20,9 @@ jurisdictions: [US, EU]
 near_duplicates: ["bair2022-toxic-heavy-metals-infant-toddler-foods"]
 sample_n: null
 sample_population: "Narrative review; no original measurements. Synthesizes US Congressional Subcommittee on Economic and Consumer Policy findings (Feb 2021 and Sept 2021 staff reports on seven baby food manufacturers), FDA Total Diet Study data, FITS 2016, Healthy Babies Bright Futures 2019 report, Consumer Reports 2018, and ~25 peer-reviewed primary studies through April 2022."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -116,3 +119,17 @@ Microbiome: Not addressed by the review.
 - The Clean Label Project private-standard limits (Bair Table 10) are not a regulatory framework but a market-based private standard. Worth adding `clean-label-project-purity-award-limits` as a regulation-or-standard page so HMTc certification-pages can cite the CLP comparison without re-citing Bair Table 10 each time. Flagged for Karen per Part 10.
 - This page was enhanced 2026-05-17 from the Mode B (direct PDF) ingest of `raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy.pdf` against the prior 2026-05-13 revision. Prior revision had: (a) Part 12 brand-firewall violation in Key numbers (listed product-name-specific values) — now aggregated to public-record-investigation event; (b) three invalid product slugs (`infant-formula`, `infant-rice-cereal`, `baby-food-purees`) — removed/replaced with taxonomy-valid slugs; (c) invalid matrices vocabulary (`infant-food`, `baby-food`, `toddler-food`, `infant-cereal`, `baby-puree`, `baby-snack`, `infant-juice`) — replaced with system-prompt matrices vocabulary; (d) legacy `## Wiki pages updated on ingest` heading — modernized; (e) Key numbers missing the FDA Closer-to-Zero phasing, the Baby Food Safety Act proposed levels, the Clean Label Project tolerance limits, the Parker 2022 hazard-quotient findings, and the conflict-of-interest disclosure — all added.
 - Strict Part 12 recheck (Codex, 2026-05-17) removed a named COI manufacturer from source-page prose and removed old sampled-product examples from verification notes. The Congressional Subcommittee investigation remains aggregated as a public-record regulatory event.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [23e1355](https://github.com/paleofoundation/heavymetalindex/commit/23e1355) | 2026-05-17 | firewall: Exception 2 carve-out for scientific-method vendor names |
+| [018ad5c](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c) | 2026-05-17 | audit: strict brand firewall residual cleanup |
+| [10c4cbe](https://github.com/paleofoundation/heavymetalindex/commit/10c4cbe) | 2026-05-17 | audit (codex): bair2022-infant-toddler-food-heavy-metals-policy revised |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [40908aa](https://github.com/paleofoundation/heavymetalindex/commit/40908aa) | 2026-05-17 | ingest: bair2022 + houlihan2019 enhanced from MFK manual-fetch PDFs |
+<!-- END: hmi-page-history -->

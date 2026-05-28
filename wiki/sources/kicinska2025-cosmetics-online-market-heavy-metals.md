@@ -19,6 +19,9 @@ jurisdictions: [PL, EU, US]
 near_duplicates: []
 sample_n: 23
 sample_population: "23 cosmetic products purchased from the online consumer market: 4 foundations, 4 blushes, 4 lipsticks, 4 face creams, 4 face masks, 3 eye shadows; manufacturers registered in Czech Republic, USA, France, Germany, Poland, Great Britain, Korea, Russia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -82,3 +85,15 @@ This Scientific Reports paper measured Cr (total), Fe, Mn, Ni, Zn by ICP-MS in 2
 - `ingredients: []` is intentional — paper measures finished cosmetics, not raw ingredients (mineral pigments etc.). The routing layer's malformed-advisory for missing `ingredients` is expected for cosmetic-finished-product papers.
 - Audit subagent (2026-05-17) flagged a source-internal inconsistency in the paper's QRA conclusions: Table 12 reports AEL/CEL ratios of 0.07 (lipsticks) and 0.12 (eyeshadows), which mean AEL < CEL (i.e., consumer exposure exceeds the allowable level under the paper's own definition on p. 6: "The concentration of a given substance in a product is acceptable when AEL is higher than CEL"). The paper's narrative on p. 10, however, asserts AEL was higher than CEL for "all samples of eye shadows and lipsticks" and concludes none of the analyzed cosmetics poses a skin-sensitization risk. This is an internal contradiction in the source. For HMTc synthesis purposes, the Table 12 values are the primary data and should be cited directly; the source's "no risk" conclusion for lipstick and eyeshadow under the QRA framework is not supported by its own Table 12.
 - Audit subagent (2026-05-17) flagged a textual defect in Implications ("n=12.7 mg/kg Cr"); corrected to attribute the Iwegbue et al. comparison explicitly with both values restated from Table 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eb714c6](https://github.com/paleofoundation/heavymetalindex/commit/eb714c6) | 2026-05-17 | audit: kicinska2025-cosmetics-online-market-heavy-metals revised |
+| [08b2149](https://github.com/paleofoundation/heavymetalindex/commit/08b2149) | 2026-05-17 | ingest: kicinska2025-cosmetics-online-market-heavy-metals enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

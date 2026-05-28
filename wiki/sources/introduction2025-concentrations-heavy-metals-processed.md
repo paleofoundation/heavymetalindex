@@ -18,6 +18,9 @@ matrices: [processed-food, powder, liquid-rtf]
 jurisdictions: [global]
 sample_n: "Scoping review; multiple studies synthesized"
 sample_population: "Processed infant foods and infant formula products"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ingest_method: source-page-generation
 created_by: claude
@@ -50,3 +53,13 @@ Identifies which food categories and geographic regions have strong evidence for
 - metals/mercury.md
 - products/infant-formula.md
 ```
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d788683](https://github.com/paleofoundation/heavymetalindex/commit/d788683) | 2026-05-17 | autonomy: daemon tick 2026-05-17T16-58-32Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

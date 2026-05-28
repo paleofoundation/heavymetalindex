@@ -22,6 +22,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Theoretical narrative review; no original measurements and no quantitative meta-analysis. The paper synthesizes the conceptual literature on seasonal hydrology, water chemistry, and fish physiology as drivers of metal bioavailability and tissue accumulation."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -70,3 +73,13 @@ Narrative theoretical review structured in four sections (Introduction; Heavy me
   - Sample-population description expanded to note that the paper additionally lacks any quantitative meta-analysis (not just original measurements), to forestall mis-classification as a systematic review.
   - Methods section expanded with publication-velocity and indexing notes that justify the C-tier assignment.
 - The brand-firewall (Part 12) is not implicated: the paper names no brands, no products by trade name, and no specific water bodies or fisheries. The wiki/HMT&C firewall (Part 2) is not implicated: the paper proposes no thresholds and the Implications section here explicitly disclaims HMT&C use.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d5eb71](https://github.com/paleofoundation/heavymetalindex/commit/0d5eb71) | 2026-05-18 | ingest: naseem2026-seasonal-heavy-metals-water-fish enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

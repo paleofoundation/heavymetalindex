@@ -21,6 +21,9 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 54
 sample_population: "Ten apple, ten plum, twelve strawberry, twelve raspberry, and ten white grape samples (54 fruit lots per harvest site × 2 sites = 108 sample-determinations total) collected July–September 2007 from allotment gardens in the centre of Lublin (within 100 m of roads) and from gardens 15–20 km outside Lublin (Niedrzwica Duża, Niedrzwica Kościelna, Krężnica Jara, Łuszczów, Biskupice). Each lot determined in duplicate."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -135,3 +138,16 @@ Page rewritten 2026-05-19 from a 2026-05-14 revision against the source PDF. Cor
 - [[ingredients/grapes]]
 - [[products/fresh-fruit]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [03615e2](https://github.com/paleofoundation/heavymetalindex/commit/03615e2) | 2026-05-19 | audit: sembratowicz2010-nitrates-pb-cd-lublin-fruits [promoted] |
+| [26ba995](https://github.com/paleofoundation/heavymetalindex/commit/26ba995) | 2026-05-19 | ingest: sembratowicz2010-nitrates-pb-cd-lublin-fruits [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

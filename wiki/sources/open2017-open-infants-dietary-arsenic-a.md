@@ -63,6 +63,9 @@ regulatory_context:
   - "WHO guideline value for iAs in drinking water: 10 µg/L"
   - "FDA limit for inorganic arsenic in rice cereals (infant formulas): 100 µg/kg"
   - "FDA action level for arsenic in apple juice: 10 µg/L"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 ## Key Numbers
@@ -113,3 +116,13 @@ Dose-response association:
 - **[[products/infant-rice-cereal]]**: Evidence for dose-response between rice-cereal consumption and urinary iAs elevation.
 - **[[metals/arsenic]]**: iAs speciation in infant urine; MMA/DMA as metabolic products during early weaning.
 - **[[metals/arsenobetaine]]**: Early detection in infant urine (all 15 at 6 months) — earlier than typically noted.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [23a9d75](https://github.com/paleofoundation/heavymetalindex/commit/23a9d75) | 2026-05-20 | autonomy: daemon tick 2026-05-20T02-27-45Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

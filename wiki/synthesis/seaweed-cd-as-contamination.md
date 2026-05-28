@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/seaweed]]", "[[ingredients/kelp]]", "[[ingredients/
 products: ["[[products/seaweed-snacks]]", "[[products/dietary-supplements]]"]
 anchor_sources: ["[[sources/nepper-davidsen2023-kelp-biomass-composition-nz]]", "[[sources/hahn2022-salish-seaweed-contaminants]]", "[[sources/efsa2023-heavy-metals-seaweed]]"]
 established: 2026-05-16
+wiki_doi: null
 updated: 2026-05-16
 ---
 
@@ -84,3 +85,13 @@ The wiki's [[overview]] should reference seaweed-as-a-Cd-pathway alongside the e
 ## Provisional status
 
 This synthesis was established 2026-05-16 on three anchor sources and is provisional pending integration of US-market commercial-product surveys and species-level breakouts. The EFSA regulatory anchor is durable; the magnitude numbers are robust across three independent geographic regions; the biological-mechanism claim is supported by the algal-physiology literature and does not depend on any single source. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources confirming or contradicting either the magnitude or the surveillance-blind-spot finding.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b85ab68](https://github.com/paleofoundation/heavymetalindex/commit/b85ab68) | 2026-05-16 | synthesis: promote 4 pending candidates + expose synthesis in sidebar |
+<!-- END: hmi-page-history -->

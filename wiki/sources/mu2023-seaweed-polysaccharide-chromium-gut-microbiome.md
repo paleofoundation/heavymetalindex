@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 60
 sample_population: "Kunming mice (n=60, 3 groups: control, Cr(VI)-exposed, seaweed polysaccharide treatment)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -52,3 +55,14 @@ Microbiome: Core reference for Cr(VI)-gut microbiome axis. Candidate for [[micro
 
 - [[metals/chromium-hexavalent]]
 - [[microbiome/chromium-gut-axis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [7df819d](https://github.com/paleofoundation/heavymetalindex/commit/7df819d) | 2026-05-13 | ingest p4-batch12-g4: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [MA, EU]
 near_duplicates: []
 sample_n: null
 sample_population: "7 honey types (6 monofloral, 1 multifloral) from eastern Morocco (Oujda-Angad and Driouch provinces)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -62,3 +65,15 @@ Microbiome: Not applicable.
 - [[ingredients/honey]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [313c29c](https://github.com/paleofoundation/heavymetalindex/commit/313c29c) | 2026-05-12 | ingest: P4 batch 1 group 1 — 6 source pages, 44 false positives |
+<!-- END: hmi-page-history -->

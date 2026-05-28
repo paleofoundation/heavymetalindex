@@ -22,6 +22,9 @@ jurisdictions: [GB, EU]
 near_duplicates: []
 sample_n: 79
 sample_population: "79 Belfast infants with pre-weaning urine samples (20 breastfed, 27 mixed fed, 32 formula fed), an 11-infant paired pre/post-weaning subset, and 73 rice-based products purchased in Belfast in February 2016 (13 baby-rice samples, 29 rice cracker/cake samples, 31 rice cereal samples)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -100,3 +103,17 @@ Microbiome: Not addressed in this study.
 - Removed the invalid `regulations/eu-regulation-2015-1006-iAs-infant-cereal` link and created the historical regulation page [[regulations/eu-2015-1006-iAs-rice]].
 - Strict brand firewall: the source's Table 3 uses brand-coded groupings, but this page reports only aggregate product-group results and does not reproduce brand-coded rows or brand rankings.
 - Formula feeding is represented as urinary biomarker context only. The paper did not measure formula-product arsenic concentrations, so formula products are not routed in frontmatter.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fa57468](https://github.com/paleofoundation/heavymetalindex/commit/fa57468) | 2026-05-25 | audit signes-pastor2017 rice weaning source |
+| [c3629d4](https://github.com/paleofoundation/heavymetalindex/commit/c3629d4) | 2026-05-19 | ingest auto-gap: infant rice arsenic weaning |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

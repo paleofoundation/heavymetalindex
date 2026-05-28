@@ -20,6 +20,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 64
 sample_population: "64 studies (screened from 10,212) reporting heavy metal contamination in fish, fruits, and vegetables in Southwest Nigeria (Lagos, Ondo, Ogun, Oyo, Ekiti, Osun states), 2014–2024"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -79,3 +82,17 @@ App: Contextual regional signal for Nigerian-sourced freshwater fish (Pb/Cd), ve
 - Cross-vendor audit (Codex, 2026-05-17) corrected the Ogun location typo to 7 studies, removed unsupported `iAs`, removed invalid `tilapia` and `catfish` slugs, and expanded the metal scope to match the review's results sections.
 - `tilapia` and `catfish` are source-level species descriptors in the review, but they are not current ingredient slugs; this page routes them through `[[ingredients/freshwater-fish]]`.
 - The review discusses arsenic and mercury without occurrence speciation; this page uses `tAs` and `tHg` rather than `iAs` or `MeHg`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [966c4bc](https://github.com/paleofoundation/heavymetalindex/commit/966c4bc) | 2026-05-17 | audit (codex): laoye2024-fish-fruits-veg-heavy-metals-nigeria-review revised |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [e2e70eb](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eb) | 2026-05-13 | ingest p4-batch9-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

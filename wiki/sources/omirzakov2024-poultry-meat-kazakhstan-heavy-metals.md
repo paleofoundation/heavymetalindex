@@ -17,6 +17,9 @@ products: ["[[products/poultry-product]]"]
 matrices: ["poultry-meat"]
 jurisdictions: ["KZ"]
 sample_population: "Domestic and imported poultry meat sampled in Kazakhstan"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -55,3 +58,14 @@ The source supports Kazakhstan poultry occurrence context. All averages are belo
 
 - Source identity checked against DOI 10.51452/kazatuvc.2024.3(007).1753 and the downloaded PDF.
 - Values are in ug/kg in the source text excerpt; regulatory thresholds are also shown as mg/kg in the paper.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [53f221f](https://github.com/paleofoundation/heavymetalindex/commit/53f221f) | 2026-05-25 | ingest auto-fetched 2026-05-25 1748 batch 2: 8 source pages |
+<!-- END: hmi-page-history -->

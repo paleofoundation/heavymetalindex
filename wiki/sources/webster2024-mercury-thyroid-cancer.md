@@ -20,6 +20,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Meta-analysis of studies examining mercury exposure and thyroid cancer risk"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -46,3 +49,15 @@ Microbiome: Not addressed.
 
 - [[metals/mercury]]
 - [[health/mercury-health-effects]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [3dc7cbb](https://github.com/paleofoundation/heavymetalindex/commit/3dc7cbb) | 2026-05-13 | ingest p4-batch11-g3: 9 pages, 41 FP |
+<!-- END: hmi-page-history -->

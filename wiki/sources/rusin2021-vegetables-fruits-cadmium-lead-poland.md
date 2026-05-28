@@ -23,6 +23,9 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 370
 sample_population: "370 samples drawn from the Polish retail market and analysed under Polish State Sanitary Inspection (n=292 by the Provincial Sanitary–Epidemiological Station in Katowice and the District Sanitary–Epidemiological Station in Częstochowa) plus the Medical University of Silesia Analytical Laboratory (n=78). Six fruit species (apple, cranberry, grape, pear, raspberry, strawberry) and four vegetable species (beetroot, celery, carrot, tomato) sampled in four processing forms (fresh, frozen, dried, processed: 100% juice, compote, jam, marmalade, syrup-stored or marinated). Frozen apples, cranberries, grapes, and pears were not commercially available in Poland and were therefore not sampled. All three participating laboratories were ISO/IEC 17025:2005 accredited by the Polish Centre for Accreditation."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -183,3 +186,16 @@ Freq-1 ingredient flag: `cranberries` / `cranberry` is not in the current taxono
 - [[products/root-tuber-vegetables]]
 - [[products/canned-vegetables]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [550d2ca](https://github.com/paleofoundation/heavymetalindex/commit/550d2ca) | 2026-05-19 | ingest: rusin2021-vegetables-fruits-cadmium-lead-poland [enhanced] from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

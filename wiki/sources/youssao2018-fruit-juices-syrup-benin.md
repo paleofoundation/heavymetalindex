@@ -21,6 +21,9 @@ jurisdictions: [BJ, FR]
 near_duplicates: []
 sample_n: 92
 sample_population: "92 fruit-juice and syrup samples: 85 Benin-produced bottled pineapple juices/cocktails from artisanal and semi-industrial units, 6 French pineapple juices used as reference, and 1 pineapple syrup sample."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -115,3 +118,14 @@ Microbiome: Not addressed.
 - Strict brand firewall: processing units are anonymized by code in the paper and no commercial juice brands are named in this source page.
 - Methods vendor/equipment/software names are retained under Part 12 Exception 2.
 - Fresh-context audit (Claude subagent, 2026-05-19): PROMOTE. All five checks clean: numerical fidelity verified against Tables 8/9/10/11 (percentiles, means, JUA6/OJA3/VIP3/FRU4/FRU5/FRE2/FRE4 high-end values all match); slug vocabulary valid (auditor flagged `products/fruit-juices-non-apple` as missing but the page exists on disk — auditor was working from stale taxonomy snapshot, no edit needed); speciation correct (tAs/tHg, no speciation performed); brand firewall clean (3-letter anonymized processor codes preserved as in source); HMTc firewall clean (no percentile arithmetic). 0 findings applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [95d82ac](https://github.com/paleofoundation/heavymetalindex/commit/95d82ac) | 2026-05-19 | audit (async drain): youssao2018 PROMOTE + desouza2022 REVISE applied |
+| [f2251d4](https://github.com/paleofoundation/heavymetalindex/commit/f2251d4) | 2026-05-19 | ingest auto-gap: benin fruit juice metals |
+<!-- END: hmi-page-history -->

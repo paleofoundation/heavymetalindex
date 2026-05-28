@@ -20,6 +20,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of global literature on heavy metal accumulation in food plants. The authors (Department of Environmental Sciences, University of Peshawar, Pakistan) summarize soil and plant occurrence ranges compiled from approximately 30 prior studies (Table 1, soil) and approximately 40 prior studies (Table 3, plants), tabulate published soil-to-plant transfer factors (Table 4), and present published daily-intake and health-risk-index values (Tables 5–6). No primary sampling, no PRISMA protocol, no quality assessment of cited studies, no quantitative synthesis."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -187,3 +190,14 @@ Enhanced 2026-05-18 from prior revision dated 2026-05-15. Defects corrected on t
 - `near_duplicates: []` preserved.
 - `cite_key` preserved (`khan2015-heavy-metals-food-plants-bioaccumulation`).
 - `raw_path` preserved (`raw/Papers Cube Manual Fetch/khan2015.pdf`).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e18adf4](https://github.com/paleofoundation/heavymetalindex/commit/e18adf4) | 2026-05-18 | ingest: khan2015-heavy-metals-food-plants-bioaccumulation enhanced from Papers Cube Manual Fetch |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

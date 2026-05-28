@@ -17,6 +17,9 @@ products: ["[[products/fresh-fruit]]", "[[products/non-root-vegetables]]"]
 matrices: ["orange-fruit", "pineapple-fruit", "waterleaf", "pumpkin-leaf"]
 jurisdictions: ["NG"]
 sample_population: "Orange, pineapple, waterleaf, and pumpkin leaf samples from a local market in Nigeria"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -53,3 +56,14 @@ The pineapple values are useful as occurrence context but should be treated care
 
 - Source identity checked against DOI 10.31142/ijtsrd20298 and the downloaded PDF.
 - The table's element order is taken from the paper's immediately preceding standards list: Zn, Cu, Fe, Cd, Ni, Pb.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 13
 sample_population: "7 chili powders (1 organic) and 6 hot sauces (1 organic) purchased at US dollar stores, farmer's markets, chain stores, and online"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -78,3 +81,15 @@ Industry application note by SPEX CertiPrep (a standards and certified reference
 - Cross-vendor audit (Codex, 2026-05-17) removed non-existent `chili-pepper` and `hot-sauce` route targets, broadened frontmatter to current `spices` and `condiments-general` slugs, added total mercury scope because the note explicitly discusses mercury as not significant, and generalized the fast-food packet descriptor under the strict Part 12 firewall.
 - Source and methods vendor names are retained only for citation and scientific reproducibility context under Part 12 Exception 2; no sampled-product brand names are listed.
 - The application note does not report inorganic arsenic, chromium(VI), or methylmercury speciation; this page treats arsenic as total arsenic (`tAs`), chromium as total chromium (`Cr`), and mercury as total mercury (`tHg`).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [255c805](https://github.com/paleofoundation/heavymetalindex/commit/255c805) | 2026-05-17 | audit (codex): spex2023 hot sauce chili metals revised |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
+<!-- END: hmi-page-history -->

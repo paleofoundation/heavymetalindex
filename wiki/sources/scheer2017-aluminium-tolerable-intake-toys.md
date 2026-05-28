@@ -22,6 +22,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Review of regulatory opinions and dietary exposure data for children and adults; no primary animal or human study"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -114,3 +117,17 @@ Literature review covering 01/01/2008–31/01/2017 against the European Commissi
 - Audit Check 2 ⚠️ `[[regulations/jecfa-aluminium-ptwi-2011]]` → flagged as missing-slug proposal; no regulation page yet covers the JECFA 2011 PTWI revision. Per Part 10, regulations get pages on first encounter; this proposal is surfaced for next regulation-page-creation pass rather than silently invented here.
 - Audit Check 2 ❌ `products: ["[[products/infant-formula]]"]` flagged as missing-slug: **verified false positive**. `wiki/products/infant-formula.md` exists in the current taxonomy and the routing audit fans this source to that page as `locked_hmtc_row direct_evidence` plus four broad-formula-context siblings. The subagent's taxonomy snapshot appears to omit the umbrella `infant-formula` slug; not changed.
 - Audit Check 2 ⚠️ matrix vocabulary novelty: noted; matrices field uses descriptive functional categories (`dietary-intake`, `infant-formula`, `drinking-water`, `food-contact-materials`) that match patterns used by other Al-context sources in the corpus and pass the routing audit cleanly; not changed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fd2079a](https://github.com/paleofoundation/heavymetalindex/commit/fd2079a) | 2026-05-28 | audit: scheer2017-aluminium-tolerable-intake-toys [revised] |
+| [afdfc16](https://github.com/paleofoundation/heavymetalindex/commit/afdfc16) | 2026-05-28 | ingest: scheer2017-aluminium-tolerable-intake-toys [enhanced] from Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

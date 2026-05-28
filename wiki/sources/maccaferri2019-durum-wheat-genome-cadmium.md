@@ -19,6 +19,9 @@ products: ["[[products/flour-non-rice]]"]
 matrices: [durum-wheat-grain]
 jurisdictions: []
 sample_n: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -45,3 +48,15 @@ App: Durum wheat-derived ingredients (semolina, pasta, couscous) should carry an
 - [[ingredients/durum-wheat]]
 - [[metals/cadmium]]
 - [[supply-chain/cultivar-selection]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [87efb16](https://github.com/paleofoundation/heavymetalindex/commit/87efb16) | 2026-05-12 | ingest: P4 batch 4 group 3 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

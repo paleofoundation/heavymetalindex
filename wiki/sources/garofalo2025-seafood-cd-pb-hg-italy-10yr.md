@@ -19,6 +19,9 @@ jurisdictions: [IT, EU]
 near_duplicates: []
 sample_n: 5854
 sample_population: "5,854 seafood samples (9,809 analyses: 4,300 THg + 3,338 Cd + 2,171 Pb) collected and analyzed by Istituto Zooprofilattico Sperimentale del Lazio e della Toscana (IZSLT) over 2014-2023. Seven taxonomic groups: marine fish (46.14%), cephalopods (26.24%), bivalves (17.41%), crustaceans (7.69%), freshwater fish (2.27%), echinoderms + marine gastropods (<1%)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -112,3 +115,13 @@ Microbiome: Not addressed.
 - [[products/fresh-fish]]
 - [[products/fish-containing-baby-foods]]
 - [[regulations/eu-2023-915-contaminants-maximum-levels]] (to be created, supersedes EC 1881/2006)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8daf4f0](https://github.com/paleofoundation/heavymetalindex/commit/8daf4f0) | 2026-05-15 | sources: Cat 1 seafood — Garofalo 2025 10-year Italian Cd/Pb/Hg monitoring (5854 samples) |
+<!-- END: hmi-page-history -->

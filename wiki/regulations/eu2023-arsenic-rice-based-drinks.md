@@ -10,6 +10,7 @@ basis: wet weight
 product_scope: non-alcoholic rice-based drinks
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
 source_page: sources/eu-2023-915-contaminants-maximum-levels
+wiki_doi: null
 updated: 2026-05-01
 ---
 
@@ -35,3 +36,14 @@ This is an external regulatory value for [[products/plant-milks-rice-based]]. It
 Commission Regulation (EU) 2023/465 introduced the 0.030 mg/kg value for non-alcoholic rice-based drinks by amending Regulation (EC) No. 1881/2006. Regulation (EU) 2023/465 was later implicitly repealed when Regulation (EU) 2023/915 replaced and consolidated the EU contaminants framework. For current-facing comparison tables, cite Regulation (EU) 2023/915; retain 2023/465 as the historical amendment trail.
 
 This row is now also represented in the broader EU 2023/915 source ingest at [[sources/eu-2023-915-contaminants-maximum-levels]] and the canonical hub [[regulations/eu2023-contaminants-maximum-levels]].
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66751b4](https://github.com/paleofoundation/heavymetalindex/commit/66751b4) | 2026-05-02 | Ingest EU 2023/915 contaminant limits |
+| [48511e9](https://github.com/paleofoundation/heavymetalindex/commit/48511e9) | 2026-05-02 | Add Category 5 plant milk comparison layer |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 167
 sample_population: "105 pathologically confirmed gastric cancer (GC) patients and 62 healthy controls recruited at Heping Hospital Affiliated to Changzhi Medical College, China, March–December 2020"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -53,3 +56,13 @@ Microbiome: Cd, Pb, Hg co-exposure discussed in context of endocrine disruption 
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[health/gastric-cancer-heavy-metals]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [67cbff7](https://github.com/paleofoundation/heavymetalindex/commit/67cbff7) | 2026-05-13 | ingest p4-batch14-g3: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

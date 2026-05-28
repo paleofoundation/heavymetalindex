@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [baby-cereals-dry-rice-based]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 13
 ---
@@ -174,4 +175,16 @@ Rice cereal derivatives span the format spectrum from dry instant cereal (most c
 - [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex international maximum levels for iAs in polished rice (200 ppb) and husked rice (350 ppb) provide the upstream regulatory context; the per-cereal limit operates one step downstream.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applied to infant food yields stringent serving-based screening.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [96dc130](https://github.com/paleofoundation/heavymetalindex/commit/96dc130) | 2026-05-20 | autonomy: daemon tick 2026-05-19T21-10-50Z — gap-healing + extraction + pooling + briefings |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [fcd0203](https://github.com/paleofoundation/heavymetalindex/commit/fcd0203) | 2026-05-17 | synthesis: rice-cereal, vitamin-mineral-premix, tomato-paste, breastmilk — 6 narrative sections each |
+<!-- END: hmi-page-history -->

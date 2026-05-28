@@ -19,6 +19,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 51
 sample_population: "51 loaves of rye-wheat bread (refined flour, category A005N per FoodEx2) collected from popular supermarkets in Warsaw, Poland; lyophilized and analyzed by ICP-MS per EN 15763:2009"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -65,3 +68,14 @@ App: rye and wheat bread ingredients carry measurable Pb, Ni, Al, and Cr. Geogra
 - [[metals/chromium]]
 - [[ingredients/rye]]
 - [[ingredients/wheat]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [6edd24b](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b) | 2026-05-13 | ingest p4-batch16-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

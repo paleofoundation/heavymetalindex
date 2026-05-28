@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [meat-and-poultry-purees]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 1
 ---
@@ -167,3 +168,16 @@ Meat-and-poultry purees are themselves finished retail products. Toddler meal pr
 - [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex MLs apply.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to meat-and-poultry purees sold in California.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
+| [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
+| [30f27cb](https://github.com/paleofoundation/heavymetalindex/commit/30f27cb) | 2026-05-17 | synthesis: 5 more Cat 1 ingredient pages — infant-formula-rtf-liquid, infant-formula-concentrated-liquid, infant-cereal-ingredients, infant-formula-ingredients, meat-and-poultry-purees |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+<!-- END: hmi-page-history -->

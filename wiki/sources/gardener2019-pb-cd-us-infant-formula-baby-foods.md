@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 564
 sample_population: "564 US baby food and infant formula products purchased from Denver CO area retail, online, and direct-to-consumer channels; top national sellers by Nielsen data; infant formula n=91; solid baby foods n=471 across 7 sub-categories"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-15
 ---
 
@@ -112,3 +115,14 @@ Statistical analysis: Wilcoxon rank-sum tests for ingredient associations (non-p
 - [[ingredients/sweet-potato]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ad03d65](https://github.com/paleofoundation/heavymetalindex/commit/ad03d65) | 2026-05-15 | ingest papers-cube-new-tier1: 3 pages (baby rice cereals sadiq2021, parker2022 baby food risk, gardener2019 infant formula) |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ matrices: [leafy-vegetables, vegetable-stems, soil, wastewater]
 jurisdictions: [MW]
 sample_n: 36
 sample_population: "Six vegetable species (three exotic: Chinese cabbage, mustard, rape; three indigenous: pumpkin leaves, sweet potato leaves, amaranth) irrigated with effluent from Soche WWTP, Blantyre, Malawi; leaves and stems sampled separately in triplicate (n=36 vegetable samples total)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -68,3 +71,15 @@ Note on speciation: Study reports total Cr and does not speciate Cr(VI). Total C
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/brassica]]
 - [[supply-chain/wastewater-irrigation]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [1d941b6](https://github.com/paleofoundation/heavymetalindex/commit/1d941b6) | 2026-05-12 | ingest: P2 remaining-group1 — 5 source pages, 50 false positives |
+<!-- END: hmi-page-history -->

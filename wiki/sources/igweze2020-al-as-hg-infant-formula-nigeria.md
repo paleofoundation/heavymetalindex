@@ -20,6 +20,9 @@ jurisdictions: [NG]
 sample_n: 26
 sample_population: "Twenty-six infant formula samples (locally manufactured and imported) purchased March 2017 from stores in Port Harcourt, Nigeria, across three formula types: milk-based (M, n=9), cereal-based (C, n=7), and corn-meal (CM, n=10). Analysis by atomic absorption spectrophotometry."
 acquired_via: "PubMed E-utilities EFetch JATS XML (db=pmc, id=PMC7065688) — 2026-05-09 autonomous run"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -73,3 +76,14 @@ This source was acquired during the 2026-05-09 autonomous run via NCBI EFetch JA
 
 - [[products/infant-formula-powder-non-soy]] (Al cell upgrade pending master-summary refresh)
 - [[products/infant-and-child-foods-master]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [592ac0f](https://github.com/paleofoundation/heavymetalindex/commit/592ac0f) | 2026-05-09 | ingest: igweze2020-nigeria-formula-al-as-hg — second OA fetch via PMC EFetch JATS (n=26) |
+<!-- END: hmi-page-history -->

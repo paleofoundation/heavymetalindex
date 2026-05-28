@@ -19,6 +19,9 @@ matrices: [dietary-intake, whole-food, urine, water, soil]
 jurisdictions: [LK]
 sample_n: 50
 sample_population: "CRF patients and asymptomatic persons from farming areas in the North Central Province of Sri Lanka (Anuradhapura, Madawachchiya, Polonnaruwa, Medirigiriya); food samples from randomly selected patients' homes and domestic environments"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -85,3 +88,13 @@ This is a landmark epidemiological study establishing elevated dietary cadmium a
 - [[metals/cadmium]]
 - [[ingredients/rice]]
 - [[ingredients/breast-milk]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c5da3a8](https://github.com/paleofoundation/heavymetalindex/commit/c5da3a8) | 2026-05-19 | autonomy: daemon tick 2026-05-19T16-51-40Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

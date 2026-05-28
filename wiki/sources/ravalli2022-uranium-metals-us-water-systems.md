@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 37915
 sample_population: "37,915 community water systems (CWSs) across the USA; EPA SYR2 and SYR3 compliance monitoring records 2000–2011"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -53,3 +56,13 @@ App: Uranium is an under-recognized dietary exposure route via drinking water; t
 - [[metals/arsenic]]
 - [[metals/uranium]]
 - [[regulations/us-epa-sdwa-mcl-metals]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [011a298](https://github.com/paleofoundation/heavymetalindex/commit/011a298) | 2026-05-13 | ingest p4-batch14-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

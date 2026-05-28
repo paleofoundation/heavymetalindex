@@ -16,6 +16,9 @@ ingredients: []
 products: []
 matrices: [dietary-pb-exposure, biomarker-blood-lead]
 jurisdictions: [US]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -37,3 +40,13 @@ Children's IRL: 2.2 µg/day (corresponding to a 5 µg/dL blood-lead-reference di
 - [[metals/lead]]
 - [[regulations/fda-closer-to-zero]]
 - [[regulations/fda2025-lead-processed-baby-foods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

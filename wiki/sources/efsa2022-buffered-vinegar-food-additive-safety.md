@@ -21,6 +21,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: 10
 sample_population: "5 batches liquid buffered vinegar + 5 batches powder buffered vinegar; ICP-MS per USP 233 method. Cd analysed on only 1 of the 5 batches in each form."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -126,3 +129,16 @@ Missing-slug proposal: `regulations/eu-1333-2008-food-additives` — the EU food
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[regulations/eu-1333-2008-food-additives]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d814de6](https://github.com/paleofoundation/heavymetalindex/commit/d814de6) | 2026-05-28 | audit: efsa2022-buffered-vinegar-food-additive-safety revised |
+| [df44512](https://github.com/paleofoundation/heavymetalindex/commit/df44512) | 2026-05-28 | ingest: efsa2022-buffered-vinegar-food-additive-safety enhanced from Manual Fetch Kimi/condiment_papers/02_Vinegars |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

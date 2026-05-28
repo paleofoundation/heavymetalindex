@@ -20,6 +20,9 @@ jurisdictions: [global, EU, IR, TR, ES, BR, SE, FR, IT, KSA, PL, NG, CN, US]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative literature review of published studies on heavy metal occurrence in oilseeds (sunflower, pumpkin, sesame, rape, mustard, linseed, poppy, soybean, cotton, peanut, almond, hazelnut, apricot, watermelon, jabooni) and derived vegetable/seed oils. No primary data; values are extracted from cited primary studies and EFSA/agency reports."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -194,3 +197,17 @@ Audit subagent (2026-05-25) flagged the EFSA 2014b Cr(III) entry as mis-attribut
 - [[metals/nickel]]
 - [[metals/chromium]]
 - [[metals/chromium-hexavalent]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [667d8fd](https://github.com/paleofoundation/heavymetalindex/commit/667d8fd) | 2026-05-25 | audit: nazari2023-heavy-metals-seed-crops-oil-products-review revised |
+| [5c35781](https://github.com/paleofoundation/heavymetalindex/commit/5c35781) | 2026-05-25 | ingest: nazari2023-heavy-metals-seed-crops-oil-products-review enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
+<!-- END: hmi-page-history -->

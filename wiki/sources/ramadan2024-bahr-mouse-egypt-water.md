@@ -20,6 +20,9 @@ jurisdictions: [EG]
 near_duplicates: []
 sample_n: 38
 sample_population: "Surface water samples from Bahr Mouse stream, Dakahlia Governorate, Egypt; winter and summer seasons"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -53,3 +56,15 @@ App: Not directly applicable to ingredient-level contamination profiles, but rel
 
 - [[supply-chain/irrigation-water]]
 - [[regulations/egypt-drinking-water-standards]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [bae0d21](https://github.com/paleofoundation/heavymetalindex/commit/bae0d21) | 2026-05-13 | ingest p4-batch11-g4: 12 pages, 38 FP |
+<!-- END: hmi-page-history -->

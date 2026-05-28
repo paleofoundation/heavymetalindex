@@ -20,6 +20,9 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: null
 sample_population: "Five major tributaries of Rawal Lake (Bari Imam, Chattar, Rumli, Shahdra, Shahpur), Islamabad, Pakistan; 12 samples per tributary per month over 3 months (March, May, July)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,14 @@ Microbiome: Not addressed.
 - [[metals/cadmium]]
 - [[supply-chain/irrigation-water]]
 - [[health/drinking-water-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [5028098](https://github.com/paleofoundation/heavymetalindex/commit/5028098) | 2026-05-13 | ingest p4-batch13-g3: 11 pages, 39 FP |
+<!-- END: hmi-page-history -->

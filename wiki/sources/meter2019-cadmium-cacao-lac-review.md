@@ -20,6 +20,9 @@ products: ["[[products/chocolate]]"]
 matrices: [cacao-bean, cacao-nibs, cacao-husk, cacao-leaf, cocoa-powder, chocolate]
 jurisdictions: [EC, CO, PE, TT, HN, BO, CR, DO, GH, NG, CM, ID, MY]
 sample_n: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -100,3 +103,16 @@ This is a review document, not a primary measurement study; individual study met
 - [[ingredients/chocolate]]
 - [[regulations/eu-488-2014-cadmium-chocolate]]
 - [[supply-chain/cacao-cadmium-mitigation]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

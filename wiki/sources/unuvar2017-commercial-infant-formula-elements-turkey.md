@@ -20,6 +20,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 20
 sample_population: "Twenty commercial infant formula samples from five manufacturers, purchased from pharmacies and supermarkets in Malatya, Turkey and grouped by age label as 0-6 months (n=10) and 7-12 months (n=10)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -82,3 +85,14 @@ Microbiome: Not addressed.
 - Strict brand firewall: this page reports manufacturer count and formula age groups, but does not name or rank commercial brands.
 - The paper reports total Pb and Al only; no arsenic, mercury, or chromium speciation issue applies.
 - Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ba22d30](https://github.com/paleofoundation/heavymetalindex/commit/ba22d30) | 2026-05-25 | audit unuvar2017 infant formula source |
+| [aecfcae](https://github.com/paleofoundation/heavymetalindex/commit/aecfcae) | 2026-05-19 | ingest auto-gap: infant formula element sources |
+<!-- END: hmi-page-history -->

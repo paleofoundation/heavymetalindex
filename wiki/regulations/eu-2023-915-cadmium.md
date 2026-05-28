@@ -9,6 +9,7 @@ short_title: "EU 2023/915 Cd matrix maximum levels"
 source_page: sources/eu-2023-915-contaminants-maximum-levels
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-02
 ---
 
@@ -102,3 +103,14 @@ EU Cd values are useful for HMTc because they show which matrices already have s
 
 - [[sources/eu-2023-915-contaminants-maximum-levels]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66751b4](https://github.com/paleofoundation/heavymetalindex/commit/66751b4) | 2026-05-02 | Ingest EU 2023/915 contaminant limits |
+| [d17b351](https://github.com/paleofoundation/heavymetalindex/commit/d17b351) | 2026-04-25 | Resolve 8 broken wikilink paths and stub 5 missing target pages |
+<!-- END: hmi-page-history -->

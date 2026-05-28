@@ -18,6 +18,9 @@ matrices: [poultry, eggs]
 jurisdictions: [NG]
 sample_n: 36
 sample_population: "Broiler muscle, gizzard, yolk, and albumen samples from four poultry farms in Nigeria"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-27
 ---
 
@@ -57,3 +60,14 @@ The source supports Nigerian-market poultry and egg occurrence evidence for tota
 ## Verification notes
 
 The title uses "potentially toxic ingredients" where the paper means potentially toxic elements. This page records the measured elements and avoids using the title phrase as a taxonomy term.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

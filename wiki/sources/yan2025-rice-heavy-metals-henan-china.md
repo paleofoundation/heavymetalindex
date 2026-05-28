@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 6632
 sample_population: "Rice samples from 18 prefecture-level cities in Henan Province, China, collected 2020–2022; supermarkets, wholesale markets, shopping centers, and farmers' markets"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -69,3 +72,14 @@ App: Rice from Henan Province (CN): iAs status populated; Cd low but detectable.
 - [[metals/mercury]]
 - [[ingredients/rice]]
 - [[regulations/china-gb-2762-2017]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [e2e70eb](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eb) | 2026-05-13 | ingest p4-batch9-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

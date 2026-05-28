@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 2631
 sample_population: "US county-level population-weighted mean estimates of community water system (CWS) arsenic concentrations from 2006–2011 (N=2585 counties) and uranium concentrations from 2000–2011 (N=1174 counties); derived from EPA routine compliance monitoring records"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -56,3 +59,13 @@ Regulations: US EPA arsenic MCL 10 µg/L (MCLG 0); uranium MCL 30 µg/L (MCLG 0)
 - [[metals/arsenic]]
 - [[metals/uranium]]
 - [[regulations/epa-drinking-water-arsenic-mcl]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6edd24b](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b) | 2026-05-13 | ingest p4-batch16-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

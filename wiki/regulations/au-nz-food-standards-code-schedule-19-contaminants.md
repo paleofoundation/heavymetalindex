@@ -13,6 +13,7 @@ status: in-force
 effective_date: 2016-03-01
 source_url: "https://www.legislation.gov.au/F2015L00454/latest"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -92,3 +93,13 @@ The Australia/New Zealand framework differs from the EU contaminants framework i
 
 - Created by Codex on 2026-05-18 after the FSANZ 25th Australian Total Diet Study source page cited Standard 1.4.1 / Schedule 19 but the wiki had no valid regulation slug for Australia/New Zealand contaminant maximum levels.
 - The exact limits above were checked against the latest Federal Register Schedule 19 PDF available on 2026-05-18 (F2024C00908, C06, 13 September 2024). Source pages using historical ATDS results should still preserve the source paper's own comparison year and wording.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5bb2a6](https://github.com/paleofoundation/heavymetalindex/commit/d5bb2a6) | 2026-05-18 | ingest (codex): fsanz2019 australian total diet study merge-enhance |
+<!-- END: hmi-page-history -->

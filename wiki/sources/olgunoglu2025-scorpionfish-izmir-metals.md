@@ -20,6 +20,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 52
 sample_population: "Black scorpionfish (Scorpaena porcus) collected seasonally from Izmir Bay, Aegean Sea, Türkiye, 2023–2024; 28 males and 24 females"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -49,3 +52,15 @@ App: Contributes to the seafood ingredient contamination profile for Pb, Hg, Cd,
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[ingredients/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [b23e81a](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a) | 2026-05-13 | ingest p4-batch12-g3: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

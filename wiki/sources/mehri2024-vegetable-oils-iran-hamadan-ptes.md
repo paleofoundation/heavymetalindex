@@ -19,6 +19,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 40
 sample_population: "Traditional and industrial edible vegetable oils (peanut, sunflower, olive, sesame) from Hamadan, western Iran, 2022; n=20 traditional + 20 industrial"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -86,3 +89,15 @@ App: Supports source-specific context for production type and origin when edible
 - The paper cites Codex/ISIRI limits for vegetable oils, but no dedicated `regulations/codex-cxs-210-named-vegetable-oils` page exists in the current taxonomy snapshot; this is a candidate future regulation page if Karen approves it.
 - Cross-vendor audit (Codex, 2026-05-17) removed unsupported microwave-assisted wording; the source methods describe HNO3/H2O2 digestion after 11 h room-temperature stirring and two heated stages, while "microwave-assisted acid digestion" appears only in a cited reference title.
 - `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2def67c](https://github.com/paleofoundation/heavymetalindex/commit/2def67c) | 2026-05-17 | audit (codex): mehri2024 vegetable oils revised |
+| [79b5c66](https://github.com/paleofoundation/heavymetalindex/commit/79b5c66) | 2026-05-17 | ingest (codex): merge-enhance mehri2024 vegetable oils |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

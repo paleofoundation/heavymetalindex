@@ -7,6 +7,7 @@ species: [iAs, MMA, DMA, arsenobetaine, arsenosugars]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
 sources: 126
+wiki_doi: null
 updated: 2026-04-30
 
 n_sources: 1
@@ -403,3 +404,16 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 350 | [[sources/mahaffey1975-fda-total-diet-study-heavy-metals\|Mahaffey et al. 1975]]. *Heavy Metal Exposure from Foods*, Environmental Health Perspectives | 1975 | Peer-reviewed | US Pb, Cd, tHg, tAs, Zn occurrence in FDA Total Diet Study (Market Basket Survey) 1965–1974; 30 market baskets per year collected from US retail stores... |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db754c1](https://github.com/paleofoundation/heavymetalindex/commit/db754c1) | 2026-05-28 | autonomy: daemon tick 2026-05-28T15-58-03Z — exit-trap recovery (exit_code=0) |
+| [c67513a](https://github.com/paleofoundation/heavymetalindex/commit/c67513a) | 2026-05-28 | autonomy: commit pending daemon writes from 10:46Z tick (sync-source-counts + heal-gaps scaffolds + sprint-status) |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [e38623e](https://github.com/paleofoundation/heavymetalindex/commit/e38623e) | 2026-05-20 | autonomy: daemon tick 2026-05-20T13-22-04Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 170
 sample_population: "110 pregnant women in Itaituba, Brazil; 120 fish samples (30 Cichla spp. and 30 Plagioscion squamosissimus per season)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -55,3 +58,13 @@ Microbiome: Not addressed.
 - [[metals/mercury]]
 - [[ingredients/fish]]
 - [[health/vulnerable-populations]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [364792f](https://github.com/paleofoundation/heavymetalindex/commit/364792f) | 2026-05-13 | ingest p4-batch14-g4: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

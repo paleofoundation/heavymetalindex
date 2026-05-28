@@ -19,6 +19,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Synthesis of mercury isotope fractionation data across multiple biota studies (review)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -48,3 +51,13 @@ Microbiome: Not directly addressed, but the gut microbiome's role in MeHg demeth
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
 - [[testing/mercury-speciation]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [364792f](https://github.com/paleofoundation/heavymetalindex/commit/364792f) | 2026-05-13 | ingest p4-batch14-g4: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

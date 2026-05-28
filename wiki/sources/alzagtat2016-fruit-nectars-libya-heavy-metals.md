@@ -17,6 +17,9 @@ products: ["[[products/fruit-juice-not-canned]]"]
 matrices: ["fruit-nectar", "pineapple-nectar"]
 jurisdictions: ["LY"]
 sample_population: "Local and imported fruit nectar samples from Libyan markets"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -53,3 +56,13 @@ This source can support fruit-nectar and pineapple-nectar context, especially fo
 
 - Source identity checked against DOI 10.24925/turjaf.v4i7.524-530.533 and the downloaded PDF.
 - The PDF extraction uses "Ar" in places for arsenic; this page records it as total arsenic because no speciation is reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

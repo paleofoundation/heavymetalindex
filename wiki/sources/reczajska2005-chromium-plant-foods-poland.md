@@ -20,6 +20,9 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 272
 sample_population: "Fresh fruits, vegetables, and wheat grains collected in 2001 from commercial plantations in three Polish provinces (Mazowieckie, Lubelskie, Kujawsko-Pomorskie); plus juices, beers, and wines purchased on the Polish domestic market"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -108,3 +111,16 @@ This paper reports total chromium only. Cr(VI) speciation was not performed.
 - [[ingredients/carrots]]
 - [[ingredients/potatoes]]
 - [[ingredients/wheat]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5724545](https://github.com/paleofoundation/heavymetalindex/commit/5724545) | 2026-05-19 | audit: reczajska2005-chromium-plant-foods-poland [revised] |
+| [8fca520](https://github.com/paleofoundation/heavymetalindex/commit/8fca520) | 2026-05-19 | ingest: reczajska2005-chromium-plant-foods-poland [enhanced] from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

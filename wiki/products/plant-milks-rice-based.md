@@ -22,6 +22,7 @@ retirement_authority: Step Zero Protocol v1.4 §0G operation 2
 redirect_target: products/rice-beverages
 redirect_target_pending: true
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-14
 sources: 5
 ---
@@ -195,3 +196,17 @@ When this page's source evidence changes — a new source is added to the Source
 No public recalls or enforcement actions specifically targeting heavy metals in rice-based plant milks are documented in the wiki's source corpus as of the last review. The EU Commission maximum level for iAs in non-alcoholic rice-based drinks (30 µg/kg, established under Regulation EU 2023/915) represents the operative regulatory framework for this product class in the EU market. This section will be populated when specific enforcement events or market-surveillance actions are ingested.
 
 _Frame: if FDA, EU, or national-agency enforcement actions involving heavy metals in this product category are identified in future ingest, they will appear here as regulatory events. This section does not rank brands._
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
+| [ed8e81c](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81c) | 2026-05-14 | autonomy: firewall lint+fix and mandatory-sections audit+autofill |
+| [165949d](https://github.com/paleofoundation/heavymetalindex/commit/165949d) | 2026-05-14 | products: retire Category 5 row 7 (plant-milks-rice-based) → re-route to Category 3 row 10 |
+<!-- END: hmi-page-history -->

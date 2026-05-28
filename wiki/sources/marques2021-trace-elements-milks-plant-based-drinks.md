@@ -15,6 +15,9 @@ ingredients: [plant-milk, soy, almond, rice, oat, whole-milk, milk-and-dairy]
 products: [plant-milks-soy-based, plant-milks-rice-based, plant-milks-non-soy-non-rice, infant-formula]
 context_only_products: [infant-formula-powder-non-soy]
 jurisdictions: [EU, Spain]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-01
 ---
 
@@ -59,3 +62,16 @@ The study is Spain-specific and based on composites. The marker table extraction
 - [[products/plant-milks-non-soy-non-rice]]
 - [[products/regulatory-crosswalk-field-findings]]
 - [[ingredients/plant-milk]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [20add89](https://github.com/paleofoundation/heavymetalindex/commit/20add89) | 2026-05-08 | schema: drop ## TL;DR heading from source pages and Part 6 template (6 pages cleaned) |
+| [e9ee7e6](https://github.com/paleofoundation/heavymetalindex/commit/e9ee7e6) | 2026-05-07 | Clear formula P0 route-fit blockers |
+| [48511e9](https://github.com/paleofoundation/heavymetalindex/commit/48511e9) | 2026-05-02 | Add Category 5 plant milk comparison layer |
+<!-- END: hmi-page-history -->

@@ -85,6 +85,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 25
 ---
@@ -208,3 +209,16 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 12 | [[sources/li2017-mercury-coal-power-plants-vegetables-grains\|Li et al. 2017]]. *Mercury pollution in vegetables, grains and soils from areas surrounding coal-fired power plants*, Scientific Reports | 2017 | Peer-reviewed | CN tHg occurrence in Vegetables (lettuce, amaranth, water spinach, tomato, eggplant, pepper, cucumber, cowpea), grains (rice, maize), and soils sampled from 6... (n=120) |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c67513a](https://github.com/paleofoundation/heavymetalindex/commit/c67513a) | 2026-05-28 | autonomy: commit pending daemon writes from 10:46Z tick (sync-source-counts + heal-gaps scaffolds + sprint-status) |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [77822fc](https://github.com/paleofoundation/heavymetalindex/commit/77822fc) | 2026-05-25 | state sync: SKILL.md folder expansion + daemon transients + remove null-DOI commentary |
+| [1d40ff2](https://github.com/paleofoundation/heavymetalindex/commit/1d40ff2) | 2026-05-20 | autonomy: daemon tick 2026-05-20T10-12-12Z — gap-healing + extraction + pooling + briefings |
+| [d67d4c1](https://github.com/paleofoundation/heavymetalindex/commit/d67d4c1) | 2026-05-20 | autonomy: daemon tick 2026-05-20T09-20-59Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

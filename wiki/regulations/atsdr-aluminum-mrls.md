@@ -13,6 +13,7 @@ effective_date: 2008-09-01
 sunset_date: null
 source_refs: ["[[sources/atsdr-aluminum-toxprofile-2008]]"]
 title: "ATSDR — Minimal Risk Levels for Aluminum"
+wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
@@ -60,3 +61,17 @@ Typical adult dietary aluminum intake of 5 to 15 mg/day is well below the chroni
 ## Sources
 
 - [[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]] — ATSDR, September 2008. Toxicological Profile for Aluminum.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [7c39871](https://github.com/paleofoundation/heavymetalindex/commit/7c39871) | 2026-04-25 | Close 5 deferred provenance gaps; add ingest-tracking convention |
+<!-- END: hmi-page-history -->

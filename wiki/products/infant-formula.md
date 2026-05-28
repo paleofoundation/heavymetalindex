@@ -13,6 +13,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 16
+wiki_doi: null
 updated: 2026-05-28
 ---
 
@@ -76,3 +77,14 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 
 _Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db754c1](https://github.com/paleofoundation/heavymetalindex/commit/db754c1) | 2026-05-28 | autonomy: daemon tick 2026-05-28T15-58-03Z — exit-trap recovery (exit_code=0) |
+| [c67513a](https://github.com/paleofoundation/heavymetalindex/commit/c67513a) | 2026-05-28 | autonomy: commit pending daemon writes from 10:46Z tick (sync-source-counts + heal-gaps scaffolds + sprint-status) |
+| [93b84bf](https://github.com/paleofoundation/heavymetalindex/commit/93b84bf) | 2026-05-28 | autonomy: rescue killed-tick work — dehghani2020 enhancement + 5 heal-gaps scaffolds |
+<!-- END: hmi-page-history -->

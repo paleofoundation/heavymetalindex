@@ -20,6 +20,9 @@ jurisdictions: [IN]
 near_duplicates: ["raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf"]
 sample_n: 24
 sample_population: "24 frequently consumed crop types — 11 vegetables and 13 fruits/legumes — collected from farms near Solapur, an industrialized city in Maharashtra state, India; 6 native soil sampling sites (SQ-1 through SQ-6) sampled in winter (January) and summer (April) 2017"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -111,3 +114,16 @@ The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metal
 - [[ingredients/vegetables]]
 - [[ingredients/fruit]]
 - [[ingredients/potatoes]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [760a653](https://github.com/paleofoundation/heavymetalindex/commit/760a653) | 2026-05-20 | audit: mawari2022-heavy-metals-fruits-vegetables-india [revised] |
+| [3b128b9](https://github.com/paleofoundation/heavymetalindex/commit/3b128b9) | 2026-05-20 | ingest: mawari2022-heavy-metals-fruits-vegetables-india [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [7c3dcee](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee) | 2026-05-13 | ingest p4-batch15-g2: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

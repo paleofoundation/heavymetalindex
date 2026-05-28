@@ -22,6 +22,9 @@ jurisdictions: [international]
 near_duplicates: []
 sample_n: 5054
 sample_population: "2,533 children with Autistic Disorder (ASD) and 2,521 healthy controls, all aged <18, pooled across 53 case-control studies from 12 North American, 19 Asian, 20 European, 1 Australian, and 1 African primary studies."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -96,3 +99,14 @@ PRISMA-aligned systematic review and meta-analysis. Search: PubMed, Embase, Web 
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/mercury-total]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [457546b](https://github.com/paleofoundation/heavymetalindex/commit/457546b) | 2026-05-18 | audit: ding2023-heavy-metals-asd-meta-analysis revised |
+| [e6827ac](https://github.com/paleofoundation/heavymetalindex/commit/e6827ac) | 2026-05-18 | ingest: ding2023-heavy-metals-asd-meta-analysis fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+<!-- END: hmi-page-history -->

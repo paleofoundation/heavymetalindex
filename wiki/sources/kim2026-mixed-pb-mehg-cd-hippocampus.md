@@ -20,6 +20,9 @@ jurisdictions: [KR]
 near_duplicates: []
 sample_n: 50
 sample_population: "Male ICR mice, 10 per group (control, Pb alone, MeHg alone, Cd alone, combined)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -54,3 +57,14 @@ App: Does not contribute concentration data; informs the exposure-risk framing f
 - [[metals/lead]]
 - [[metals/methylmercury]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [ca21145](https://github.com/paleofoundation/heavymetalindex/commit/ca21145) | 2026-05-12 | ingest: P4 batch 2 group 3 — 4 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

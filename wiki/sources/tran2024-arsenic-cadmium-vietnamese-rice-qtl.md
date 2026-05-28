@@ -20,6 +20,9 @@ jurisdictions: [VN]
 near_duplicates: []
 sample_n: 184
 sample_population: "184 Vietnamese rice landraces (Oryza sativa) grown in a field experiment in Vietnam; brown rice and white rice grains analyzed by ICP-MS for 23 elements"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -59,3 +62,14 @@ App: tAs and Cd occurrence data for Vietnamese rice landraces; documents the lan
 - [[ingredients/rice]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [ff4abae](https://github.com/paleofoundation/heavymetalindex/commit/ff4abae) | 2026-05-13 | ingest p4-batch8-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

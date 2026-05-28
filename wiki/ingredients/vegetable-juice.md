@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [vegetable-juices-non-root, vegetable-juices-root-vegetable-containing]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 0
 ---
@@ -155,3 +156,16 @@ Vegetable juice routes into the [[products/vegetable-juices-non-root|vegetable-j
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to vegetable-juice products sold in California.
 - EU Sn-in-canned-food regulation sets 100 mg/kg maximum level for canned beverages including canned vegetable juice.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7b9099a](https://github.com/paleofoundation/heavymetalindex/commit/7b9099a) | 2026-05-17 | synthesis: fruit-juice, grape-juice, mango-juice, vegetable-juice — 6 narrative sections each |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [3268b89](https://github.com/paleofoundation/heavymetalindex/commit/3268b89) | 2026-05-08 | schema: migrate ingredient_profile to 10-metal standard |
+| [a827c37](https://github.com/paleofoundation/heavymetalindex/commit/a827c37) | 2026-05-02 | add ingredient page titles |
+<!-- END: hmi-page-history -->

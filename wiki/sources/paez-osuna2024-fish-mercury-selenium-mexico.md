@@ -20,6 +20,9 @@ jurisdictions: [MX]
 near_duplicates: []
 sample_n: null
 sample_population: "Cyprinus carpio, Oreochromis aureus, and Micropterus salmoides from El Comedero dam, Sinaloa, Mexico, 20 months post mine-tailing spill"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -50,3 +53,16 @@ Microbiome: Not applicable.
 - [[ingredients/freshwater-fish]]
 - [[ingredients/tilapia]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [cacc8f4](https://github.com/paleofoundation/heavymetalindex/commit/cacc8f4) | 2026-05-13 | ingest p4-batch11-g2: 9 pages, 41 FP |
+<!-- END: hmi-page-history -->

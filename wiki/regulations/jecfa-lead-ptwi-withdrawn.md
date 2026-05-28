@@ -13,6 +13,7 @@ effective_date: 2010-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-72nd-lead-2010]]"]
 title: "JECFA — Lead Provisional Tolerable Weekly Intake (Withdrawn 2010)"
+wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
@@ -38,3 +39,17 @@ Withdrawal record from [[sources/jecfa-72nd-lead-2010|JECFA 72nd 2010]]:
 ## Sources
 
 - [[sources/jecfa-72nd-lead-2010|JECFA 72nd 2010]] — JECFA 72nd meeting, 2010 (WHO TRS 959, 2011). Evaluation of Certain Contaminants in Food.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [36ff5c8](https://github.com/paleofoundation/heavymetalindex/commit/36ff5c8) | 2026-04-25 | Lead batch: 9 source pages, 4 regulation pages, populated metals/lead.md |
+<!-- END: hmi-page-history -->

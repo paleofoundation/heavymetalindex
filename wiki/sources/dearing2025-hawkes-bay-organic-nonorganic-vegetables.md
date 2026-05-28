@@ -19,6 +19,9 @@ jurisdictions: [NZ]
 near_duplicates: []
 sample_n: 153
 sample_population: "153 composite representative samples (combined from 736 individual vegetables) sourced from 14 market gardens across 10 growing sites in Hawke's Bay, New Zealand, February 2024 (one year post Cyclone Gabrielle); includes organic and non-organic plus flooded and non-flooded growing sites"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -90,3 +93,14 @@ Dearing and colleagues sampled 736 commercially grown vegetables (combined into 
 - Added [[ingredients/root-vegetables]] to ingredients array and to wiki-pages list — root-vegetable was already in matrices but the parent ingredient slug was missing.
 - products: [] is intentional. This is raw fresh produce; no packaged-product slug applies. The routing-malformed advisory note ("Source is missing optional routing-input fields") is expected and does not indicate a defect.
 - Genera mentioned in PDF whose ingredient slugs do not yet exist (not added to ingredients array, not stubbed here): kale, bok-choi, red-cabbage (Brassica sub-types), garlic, leek, red-onion, spring-onion (Allium sub-types), chard, silver-beet (Beta sub-types), beetroot (Beta — beet slug used as parent), chinese-winter-melon, courgette (Cucumis), grey-pumpkin (Cucurbita — butternut-squash slug used as parent), fennel (Foeniculum), chinese-water-spinach (Ipomoea), bottle-gourd (Lagenaria), luffa-gourd (Luffa), bitter-melon (Momordica), daikon/diakon (Raphanus), cherry-tomatoes (Solanum — tomato slug used as parent), sweet-corn (Zea — corn slug used as parent). Auto-stub freq-counter will catch the freq≥2 cases across the corpus.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c83d53a](https://github.com/paleofoundation/heavymetalindex/commit/c83d53a) | 2026-05-20 | ingest: dearing2025-hawkes-bay-organic-nonorganic-vegetables [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

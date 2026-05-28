@@ -11,6 +11,7 @@ status: finalized
 effective_date: 2018-02-07
 source_url: "https://eur-lex.europa.eu/eli/reg/2018/73/oj/eng"
 audience: [regulator, educator, app]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -49,3 +50,13 @@ The regulation is directly applicable EU law and entered into force on the twent
 
 - Created 2026-05-18 during Codex manual-fetch ingest because a source page cited EU Regulation 2018/73 as the 10 ug/kg rice comparator and no regulation page existed.
 - The official EUR-Lex PDF table lists `0500000 CEREALS 0,01 (*)`; rice appears as commodity code `0500060` within that cereals group.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5e5458](https://github.com/paleofoundation/heavymetalindex/commit/f5e5458) | 2026-05-18 | ingest kimi-cat03: colombia rice mercury |
+<!-- END: hmi-page-history -->

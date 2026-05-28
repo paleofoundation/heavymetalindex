@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "Regulatory exposure-assessment guidance; no original sampling. Default ABSd and adherence-factor values from EPA RAGS Part E (2004); skin-surface values from EPA Exposure Factors Handbook (2011)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -80,3 +83,16 @@ ATSDR-issued guidance document; no primary measurement. ABSd values in Table 8 a
 - Audit subagent (2026-05-17) flagged that Barium (Table 1 ABS_GI 7%) was omitted from `metals:` and the wiki-touch list even though Be (0.7%), Tl (100%), V (2.6%), and Zn (100%) — also Table 1 elements — were included. Verified; Ba added to `metals:` and `[[metals/barium]]` added to wiki-touch list.
 - Cross-vendor audit (Codex, 2026-05-17) corrected the source-attribution summary: adherence factors come from EPA RAGS Part E (2004), while the skin-surface values come from EFH 2011.
 - Existing metal pages for Be, Cu, Mn, Ag, Tl, V, and Zn were added to the wiki-touch list because they appear in Table 1 and/or frontmatter. Selenium remains in `metals:` because Table 1 provides a selenium ABS_GI value, but no `metals/selenium` page exists in the current taxonomy snapshot; propose that page only if Karen wants full Table 1 routing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9eca546](https://github.com/paleofoundation/heavymetalindex/commit/9eca546) | 2026-05-17 | audit (codex): atsdr2023 dermal guidance revised |
+| [e01f955](https://github.com/paleofoundation/heavymetalindex/commit/e01f955) | 2026-05-17 | audit: atsdr2023-soil-dermal-absorption-guidance revised |
+| [5c2c393](https://github.com/paleofoundation/heavymetalindex/commit/5c2c393) | 2026-05-17 | ingest: atsdr2023-soil-dermal-absorption-guidance enhanced from Manual Fetch Kimi/Children Personal Care Papers |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

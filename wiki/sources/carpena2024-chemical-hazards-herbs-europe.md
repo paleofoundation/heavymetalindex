@@ -22,6 +22,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review and RASFF notification synthesis covering herbs and spices placed on the EU market, 2013–2023; no original measurements"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -84,3 +87,16 @@ Narrative literature review via PubMed, Scopus, ScienceDirect, Google Scholar, a
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e445bfa](https://github.com/paleofoundation/heavymetalindex/commit/e445bfa) | 2026-05-28 | audit: carpena2024-chemical-hazards-herbs-europe [revised] |
+| [dfa2c0b](https://github.com/paleofoundation/heavymetalindex/commit/dfa2c0b) | 2026-05-28 | ingest: carpena2024-chemical-hazards-herbs-europe [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

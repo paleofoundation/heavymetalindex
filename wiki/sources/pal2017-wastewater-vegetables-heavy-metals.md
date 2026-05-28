@@ -17,6 +17,9 @@ products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables
 matrices: ["root-vegetables", "non-root-vegetables", "leafy-vegetables"]
 jurisdictions: ["IN"]
 sample_population: "Vegetables grown on domestic-wastewater-irrigated farmland around Hisar district, Haryana, India"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -60,3 +63,14 @@ The source supports vegetable gap filling for wastewater-irrigated produce in In
 ## Verification notes
 
 The source reports values in mg/kg for vegetable tissues and separately reports transfer factors and risk-index calculations. The wiki page captures source-reported occurrence values and keeps the wastewater-irrigation context explicit. The abstract and discussion differ on the highest-Cr crop assignment: the abstract gives carrot, while the discussion gives radish at the same 1.16 mg/kg value.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [00a2af1](https://github.com/paleofoundation/heavymetalindex/commit/00a2af1) | 2026-05-26 | audit auto-fetched 2026-05-26 1028 batch 1 fixes |
+| [b5ce026](https://github.com/paleofoundation/heavymetalindex/commit/b5ce026) | 2026-05-26 | ingest auto-fetched 2026-05-26 1030 batch 1: 4 source pages |
+<!-- END: hmi-page-history -->

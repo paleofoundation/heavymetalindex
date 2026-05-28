@@ -30,6 +30,9 @@ sample_n: 252
 sample_population: Healthy Korean weaning-age infants (median age 11.1 months, range 6-24 months)
 status: complete
 confidence: high
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 ## Key numbers
@@ -53,3 +56,13 @@ Mercury exposure in Korean weaning-age infants substantially attributable to fis
 
 - ingredients/fish.md — Added citation to study documenting mercury in weaning-age infants from fish-based feeding
 - metals/mercury.md — Added population-specific exposure data for infants in Asia-Pacific region
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3a0d086](https://github.com/paleofoundation/heavymetalindex/commit/3a0d086) | 2026-05-20 | autonomy: daemon tick 2026-05-20T06-40-52Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

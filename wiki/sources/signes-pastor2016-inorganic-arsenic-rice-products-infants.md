@@ -27,6 +27,9 @@ matrices: [rice, infant-cereal, baby-snack]
 jurisdictions: [GB, EU]
 sample_n: 179
 sample_population: "179 commercial rice-based products purchased Feb 2014 – Mar 2016 use-by-date window from 36 UK food retailers (15 local shops + 21 supermarkets), spanning 21 manufacturers: baby rice (n=29, 5 brands), rice cereals (n=53, 6 brands), rice crackers (n=97, 15 brands). Compared against US FDA 2014 published survey data for the same three product categories (n=85, 105, 199 respectively) reanalysed in Table 3. Arsenic speciation by HPLC–ICP-MS with separate inorganic-As (Asi), dimethylarsinic acid (DMA), and monomethylarsonic acid (MMA) reporting; dry-weight basis."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -208,3 +211,17 @@ Audit findings reviewed and not applied (false positives — disproved by direct
 - **Baby rice "highest-Asi manufacturer (single brand) median 0.190 mg/kg" framing.** Audit flagged this as an attribution concern but then confirmed both the 0.190 value and the source attribution. The wiki framing correctly distinguishes Asi-concentration ranking (where M005 alone is highest) from Asi-percentage ranking (where M001/M003/M005 are jointly elevated). Not a correction; kept as written.
 
 Audit Checks 2, 3, 4, 5 returned ✅ or only minor ⚠️ already addressed above. Page is post-audit consistent with the source for all transcribed numerical values; the one remaining `[sic]` annotation surfaces a source-internal typo that Karen / downstream reviewers should be aware of.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [749e657](https://github.com/paleofoundation/heavymetalindex/commit/749e657) | 2026-05-17 | audit: signes-pastor2016-inorganic-arsenic-rice-products-infants revised |
+| [1811130](https://github.com/paleofoundation/heavymetalindex/commit/1811130) | 2026-05-17 | ingest: signes-pastor2016-inorganic-arsenic-rice-products-infants enhanced from Manual Fetch Kimi/06_Infant_Foods_Formula |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [ee06026](https://github.com/paleofoundation/heavymetalindex/commit/ee06026) | 2026-05-08 | clarify benchmark pool percentile rules |
+| [0f3f4e7](https://github.com/paleofoundation/heavymetalindex/commit/0f3f4e7) | 2026-05-07 | Add product HMTc evidence summaries |
+<!-- END: hmi-page-history -->

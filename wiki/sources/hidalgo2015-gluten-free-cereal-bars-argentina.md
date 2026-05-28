@@ -20,6 +20,9 @@ matrices: [gluten-free-cereal-bar, rice-based-cereal-bar, snack-bar]
 jurisdictions: [AR]
 sample_n: 72
 sample_population: "Seventy-two commercial gluten-free cereal bars marketed in Argentina, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey, peach, peanut, strawberry, and vanilla categories."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -67,3 +70,13 @@ This is direct occurrence evidence for cereal bars and snack bars, especially gl
 - Batch 2 auto-fetched ingest, 2026-05-25. The same DOI appeared under cadmium, lead, and total-arsenic wishlist rows; this page is the canonical ingest for all three.
 - Speciation: arsenic is total/unspecified arsenic by ICP-MS, not inorganic arsenic.
 - Brand firewall: the article states that samples came from popular brands, but this source page keeps only aggregate product-group values and does not reproduce brand names.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db181df](https://github.com/paleofoundation/heavymetalindex/commit/db181df) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 2: 4 source pages + 2 rollups + 44 skips |
+<!-- END: hmi-page-history -->

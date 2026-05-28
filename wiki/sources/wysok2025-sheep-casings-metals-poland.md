@@ -19,6 +19,9 @@ matrices: [meat]
 jurisdictions: [TR, IR, CN, MN, PK, NZ, UK, BE]
 sample_n: 35
 sample_population: "Salted natural sheep casings from Turkey, Iran, China, Mongolia, Pakistan, New Zealand, the United Kingdom, and Belgium."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: marker_manifest_batch
 ---
@@ -62,3 +65,13 @@ Use this as source-scoped processed-meat/casing occurrence evidence. Do not sile
 - Table 2 contains an apparent typo in the China arsenic range (`0.14-0.094`); use the narrative/table maxima of 0.13 mg/kg as the upper value unless a later audit resolves the table typo from the PDF.
 - Matrix scope is recorded conservatively as `meat`; the paper's actual matrix is salted natural sheep casing used in processed meat production.
 - Brand firewall: no sampled consumer brands are reproduced.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [475eaa6](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6) | 2026-05-25 | sources: clean up junk cite-keys — rename 6, delete 4 off-scope/dupes |
+<!-- END: hmi-page-history -->

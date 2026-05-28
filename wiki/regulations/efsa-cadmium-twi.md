@@ -13,6 +13,7 @@ effective_date: 2009-01-30
 sunset_date: null
 source_refs: ["[[sources/efsa-cadmium-contam-2009]]"]
 title: "EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week"
+wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]
 ---
@@ -70,3 +71,17 @@ Pending ingests. The tabular comparison of EFSA TWI, JECFA PTMI, EPA IRIS RfD, a
 - [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] — EFSA Panel on Contaminants in the Food Chain, 2009. Scientific Opinion on Cadmium in Food (evidence tier A, public-reference-only license).
 
 _Pending: EFSA 2011 statement reaffirming the TWI after the JECFA 2010 PTMI._
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [f9c10ec](https://github.com/paleofoundation/heavymetalindex/commit/f9c10ec) | 2026-04-24 | Ingest EFSA 2009 CONTAM opinion on cadmium in food |
+<!-- END: hmi-page-history -->

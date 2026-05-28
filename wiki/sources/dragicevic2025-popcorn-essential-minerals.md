@@ -19,6 +19,9 @@ jurisdictions: [RS]
 near_duplicates: []
 sample_n: 12
 sample_population: "12 popcorn hybrids grown 2021-2022 at Maize Research Institute Zemun Polje, Belgrade, Serbia; 4 replicates each"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -58,3 +61,13 @@ Field trial during 2021 and 2022 at Maize Research Institute Zemun Polje, Belgra
 - "maize" is not in the current ingredient slug vocabulary; [[ingredients/corn]] is the closest existing slug. Frontmatter uses both as a placeholder pending Karen's review per Part 10.
 - Cu, Mn, Zn are essential nutrients in this paper, not contaminants. Listed in `metals:` only because the system prompt's metal vocabulary allows bare element symbols for other metals measured. No contamination_profile sub-block is advanced by this source.
 - Heavy metals (Pb, Cd, As, Ni) were not measured in this study. Statements about Pb decreasing on popping etc. are from cited prior literature (Abebe 2017, Dada/Kutu 2022) and should be sourced to those papers, not this one.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

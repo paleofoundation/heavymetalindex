@@ -18,6 +18,9 @@ matrices: [turmeric-root, turmeric-powder, yellow-pigment, polishing-dust, soil]
 jurisdictions: [BD]
 sample_n: 524
 sample_population: "Turmeric, pigments, dust, and soil from 9 major turmeric-producing districts plus Dhaka and Munshiganj, Bangladesh"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -60,3 +63,14 @@ App: turmeric sourced from Bangladesh, particularly from Dhaka wholesale markets
 - [[metals/lead]]
 - [[ingredients/turmeric]]
 - [[supply-chain/spice-adulteration]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [65a88cd](https://github.com/paleofoundation/heavymetalindex/commit/65a88cd) | 2026-05-13 | synthesis: promote spice-adulteration-lead-infants — 6 anchor sources, 3 continents |
+<!-- END: hmi-page-history -->

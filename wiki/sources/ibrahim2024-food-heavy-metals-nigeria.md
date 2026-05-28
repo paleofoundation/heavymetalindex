@@ -20,6 +20,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 361
 sample_population: "361 raw food samples from 360 households in 4 local government areas of Jigawa State, northwest Nigeria (Dutse, Gumel, Jahun, Hadejia); staple cereals (maize, rice, millet, sorghum) and legumes (cowpea, soybean)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -71,3 +74,15 @@ App: The cereal matrix here (raw unprocessed grains) is upstream of final food p
 - [[ingredients/maize]]
 - [[ingredients/millet]]
 - [[ingredients/sorghum]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [519f81e](https://github.com/paleofoundation/heavymetalindex/commit/519f81e) | 2026-05-13 | ingest p4-batch8-g1: 5 pages, 42 FP |
+<!-- END: hmi-page-history -->

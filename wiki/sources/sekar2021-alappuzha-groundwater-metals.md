@@ -19,6 +19,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 50
 sample_population: "Coastal aquifer groundwater samples from Alappuzha district, Kerala, India (pre- and post-monsoon 2021/2022)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -44,3 +47,13 @@ App: Groundwater-to-crop contamination pathway; Kerala rice-growing region conte
 - [[metals/nickel]]
 - [[supply-chain/irrigation-water]]
 - [[regulations/india-bis-water-standards]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [05433b8](https://github.com/paleofoundation/heavymetalindex/commit/05433b8) | 2026-05-13 | ingest p4-batch17-g2: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

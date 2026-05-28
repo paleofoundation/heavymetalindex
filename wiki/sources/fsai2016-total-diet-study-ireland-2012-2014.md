@@ -21,6 +21,9 @@ jurisdictions: [IE, EU]
 near_duplicates: []
 sample_n: 141
 sample_population: "141 food samples (1,043 sub-samples) representing the Irish diet, purchased in Dublin in autumn 2012; exposure modelled against adult food consumption survey NANS (n=1,500, age 18+, 2008–2010) and child food consumption survey NCFS (n=594, age 5–12, 2003–2004)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -123,3 +126,15 @@ Findings rejected (false positives):
 - [[ingredients/vegetable-oil]]
 - [[products/canned-fish]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3a7d82c](https://github.com/paleofoundation/heavymetalindex/commit/3a7d82c) | 2026-05-26 | audit: fsai2016-total-diet-study-ireland-2012-2014 revised |
+| [a8004ac](https://github.com/paleofoundation/heavymetalindex/commit/a8004ac) | 2026-05-26 | ingest: fsai2016-total-diet-study-ireland-2012-2014 enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

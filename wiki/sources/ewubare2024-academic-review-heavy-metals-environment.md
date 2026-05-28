@@ -20,6 +20,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review article; no primary samples. Synthesizes literature retrieved from Google Scholar, Frontier in Microbiology, AJOL, Scopus, Web of Science, ScienceDirect, and DOAJ using the search terms 'heavy metals in the environment,' 'heavy metal and human health,' 'heavy metal and soil,' and 'heavy metal and plants.' Authors affiliated with University of Benin, Igbinedion University Okada, Imo State University, and Auchi Polytechnic (Edo and Imo States, Nigeria)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -158,3 +161,13 @@ Microbial-remediation processes the review names:
 - [[ingredients/carrot]]
 - [[ingredients/onions]]
 - [[ingredients/beans]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d11d4a2](https://github.com/paleofoundation/heavymetalindex/commit/d11d4a2) | 2026-05-18 | ingest: ewubare2024-academic-review-heavy-metals-environment fresh from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [MY]
 near_duplicates: []
 sample_n: 12
 sample_population: "Four leafy vegetable types (cabbage Brassica oleracea subsp. capitata; mustard B. juncea; spinach Spinacia oleracea; pak choi B. rapa var. chinensis) purchased from Pasar Borong Selangor wholesale wet market, Seri Kembangan, Selangor; n=3 per vegetable type sampled once weekly over three consecutive weeks (19 Oct, 26 Oct, 2 Nov 2022); 12 composite samples total"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -134,3 +137,15 @@ Mustard (*B. juncea*) routes via [[ingredients/leafy-greens]] (mustard-greens is
   - ⚠️ Check 5: "Al EDI from spinach alone contributing ~12% of the adult Al PTWI-derived MTDI" — verified against PDF p.227: this 12% (adult) / 4% (children) figure is explicitly attributed by See et al. to Martín-León et al. (2023), not to their own data. Reattributed in the Courses Implication so the cited authorship is preserved.
   - ⚠️ Check 5: "due to sourcing from cleaner growing regions (Cameron Highlands suppliers)" — verified against PDF p.217: the paper mentions Cameron Highlands as a supply region but does not conclude that the wet-market non-detections are caused by Cameron Highlands sourcing. Softened to factual mention without the causal "due to" framing.
   - The auditor's ⚠️ on the Al Total EDI typo handling (Check 1) was explicitly noted as acceptable disclosure; no further action required.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e88b587](https://github.com/paleofoundation/heavymetalindex/commit/e88b587) | 2026-05-20 | audit: see2025-malaysia-leafy-vegetables-icp-oes [revised] |
+| [1c479f9](https://github.com/paleofoundation/heavymetalindex/commit/1c479f9) | 2026-05-20 | ingest: see2025-malaysia-leafy-vegetables-icp-oes [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

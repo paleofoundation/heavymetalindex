@@ -20,6 +20,9 @@ jurisdictions: [SA]
 near_duplicates: [FM_11569018_Chemical_analysis_of_toxic_elements_total_cadmium_lead_mercu]
 sample_n: 33
 sample_population: "24 imported rice samples (India, USA, Australia, Pakistan, Thailand) and 9 locally grown Hassawi rice samples, collected from Riyadh markets and Al-Ahsa farms, Kingdom of Saudi Arabia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -78,3 +81,14 @@ App: Hassawi rice (locally grown in Al-Ahsa) carries lower iAs than imported Asi
 - [[metals/arsenic]]
 - [[ingredients/rice]]
 - [[regulations/eu-rice-iAs-200ppb]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [519f81e](https://github.com/paleofoundation/heavymetalindex/commit/519f81e) | 2026-05-13 | ingest p4-batch8-g1: 5 pages, 42 FP |
+<!-- END: hmi-page-history -->

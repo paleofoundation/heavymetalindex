@@ -33,6 +33,9 @@ sample_population: "6-week-old infants from the New Hampshire Birth Cohort Study
 measurement_method: "ICP-MS with arsenic speciation via HPLC-ICP-MS"
 status: populated
 confidence: high
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 ## Carignan et al. (2015)
@@ -88,3 +91,13 @@ Body: summary, key numbers table, methods (ICP-MS + HPLC-ICP-MS speciation), imp
 
 Routing: infant-formula-powder-non-soy (direct), infant-rtf-non-soy (broad context), breast-milk (direct), arsenic-inorganic (reference).
 ```
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6fce7c6](https://github.com/paleofoundation/heavymetalindex/commit/6fce7c6) | 2026-05-20 | autonomy: daemon tick 2026-05-20T07-41-59Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 1000
 sample_population: "Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring programme; products included infant and follow-on formulae, soya-based formulae, milk/rice products, rice gruel, wheat gruel, mixed cereals, biscuits, ready-to-eat vegetable meals, vegetable-meat meals, fish-based infant foods, fruit desserts, juices, herbal teas, and herbal-fruit teas. All products were analyzed as sold."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -124,3 +127,14 @@ Microbiome: Not addressed in this study.
 - DOI identity check found no existing wiki source page for `10.15244/pjoes/59306`; matches were only reference-list citations in other source markdown and wishlist-audit rows.
 - Speciation: frontmatter uses `tAs` and `tHg` because the paper measures total arsenic and total mercury. The exposure section discusses methylmercury and inorganic mercury as risk-assessment assumptions, not measured species.
 - Product routing follows the source's product groups. Rice gruel and milk/rice-based products route to rice-based baby cereal context; wheat gruel and mixed cereals route to non-rice baby cereal context; biscuits route to teething/snack context; ready-to-eat vegetable, vegetable-meat, fish, fruit, and juice categories route to the closest infant-food product pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8da4c22](https://github.com/paleofoundation/heavymetalindex/commit/8da4c22) | 2026-05-25 | audit mania2015 infant food source |
+| [c06d707](https://github.com/paleofoundation/heavymetalindex/commit/c06d707) | 2026-05-19 | ingest auto-gap: polish infant food toxic elements |
+<!-- END: hmi-page-history -->

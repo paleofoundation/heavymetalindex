@@ -17,6 +17,9 @@ products: []
 matrices: [total-diet-study, children-dietary-exposure]
 jurisdictions: [US]
 sample_n_notes: "FDA Total Diet Study 2014-2016 children's exposure assessment for Pb and Cd; covers infants 6-11 months, children 1 year, 2 years, 6 years, and adolescents"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -38,3 +41,13 @@ Spungen 2019 reports per-age-group estimated daily Pb and Cd intake from the FDA
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[regulations/fda2025-lead-processed-baby-foods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ matrices: [marlin, dorado, yellowfin-tuna, dogtooth-tuna, marine-fish-muscle]
 jurisdictions: [MU]
 sample_n: "Four commercially edible pelagic fish species sampled in summer and winter from the Exclusive Economic Zone of Mauritius; per-species replicate counts not extractable from the text layer."
 sample_population: "Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado caught in the Mauritian EEZ and sold/consumed as commercially important fish."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -73,3 +76,13 @@ For standards work, the data should remain wet-weight, jurisdiction-specific, an
 - Batch 4 auto-fetched ingest, 2026-05-25. The canonical PDF came from the marlin cadmium wishlist row; marlin nickel, lead, total-arsenic, and total-mercury files for the same DOI were rolled up to this source page.
 - Paper-internal reporting is not perfectly harmonized for mercury and arsenic ranges in the text layer. Routeable structured values below prefer the clearer table/text statements for lead, chromium, nickel, and cadmium; mercury and arsenic are retained as context until a deeper audit can inspect the rendered figures/tables.
 - Speciation: arsenic, mercury, and chromium are total/unspecified measurements; do not treat them as iAs, MeHg, or Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c9093a](https://github.com/paleofoundation/heavymetalindex/commit/6c9093a) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 4: 1 source page + 6 rollups + 43 skips |
+<!-- END: hmi-page-history -->

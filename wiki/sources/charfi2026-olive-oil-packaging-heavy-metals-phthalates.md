@@ -20,6 +20,9 @@ jurisdictions: [ES]
 near_duplicates: []
 sample_n: 18
 sample_population: "Commercial Spanish olive oil samples (extra virgin, virgin, olive oil, olive pomace oil) purchased from the Spanish market in 2021/2022 and 2022/2023 campaigns, stored in six packaging types: glass, PET, tin, porcelain, aluminium, cardboard. Table 3 (heavy metals) reports 17 samples; Table 4 (phthalates) reports 18 samples per the paper's abstract."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -153,3 +156,15 @@ Two harvest campaigns (2021/2022 and 2022/2023). Regulatory comparisons against 
 - [[metals/manganese]]
 - [[metals/antimony]]
 - [[supply-chain/aluminum-based-packaging]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ddb6f63](https://github.com/paleofoundation/heavymetalindex/commit/ddb6f63) | 2026-05-25 | audit: charfi2026-olive-oil-packaging-heavy-metals-phthalates revised |
+| [e26696e](https://github.com/paleofoundation/heavymetalindex/commit/e26696e) | 2026-05-25 | ingest: charfi2026-olive-oil-packaging-heavy-metals-phthalates enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

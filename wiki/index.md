@@ -195,7 +195,15 @@ updated: 2026-04-30
       <a href="regulations/timeline/">Regulatory tightening over time</a>
       <a href="coverage/">Corpus coverage (PRISMA)</a>
       <a href="synthesis/">Synthesis pages</a>
+      <a href="methodology/search-strategy/">Search strategy</a>
+    </div>
+    <div>
+      <h3>Reference governance</h3>
       <a href="methodology/">Editorial methodology</a>
+      <a href="editorial-standards/">Editorial standards</a>
+      <a href="licensing/">Licensing &amp; downstream use</a>
+      <a href="errata/">Errata &amp; corrections</a>
+      <a href="roadmap/">Roadmap</a>
     </div>
   </div>
 </section>

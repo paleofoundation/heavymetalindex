@@ -20,6 +20,9 @@ jurisdictions: [TH]
 near_duplicates: []
 sample_n: 45
 sample_population: "15 commonly consumed fish species (7 freshwater, 8 marine) from three Bangkok markets; n=3 markets per species"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -72,3 +75,17 @@ App: Total arsenic in marine fish (Bangkok markets) ranges from <LOQ to 8.51 mg/
 - [[ingredients/freshwater-fish]]
 - [[ingredients/marine-fish]]
 - [[products/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [7a889ae](https://github.com/paleofoundation/heavymetalindex/commit/7a889ae) | 2026-05-12 | triage: routing-unresolved pass 3 — 44 → 35 entries (9 resolved) |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [3f107ba](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba) | 2026-05-12 | ingest: P2 remaining-group3 — 9 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

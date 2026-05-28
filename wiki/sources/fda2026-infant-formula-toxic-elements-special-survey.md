@@ -23,6 +23,9 @@ sample_analyte_rows: 1248
 sample_population: "FDA special survey infant formula samples tested in FY2023-FY2025"
 derived_files: [data/evidence/category1_formula_special_survey_samples.csv, data/evidence/category1_formula_concentration_summary.csv, data/evidence/values.jsonl, data/evidence/sources.jsonl]
 review_state: machine_extracted
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -166,3 +169,17 @@ Microbiome: No direct microbiome endpoint.
 - [[products/infant-formula-concentrated-liquid-non-soy]]
 - [[products/infant-formula-concentrated-liquid-soy-based]]
 - `raw/Digest/INGESTED.md`
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [35055e4](https://github.com/paleofoundation/heavymetalindex/commit/35055e4) | 2026-05-04 | lint 2026-05-04: file broad lint report; close items 1-4 (stale-pending fixes, fera2014 cite-key   migration across 65 files, raw/ wikilink anti-pattern conversions, testing/icp-ms page stand-up) |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [fb0ee9a](https://github.com/paleofoundation/heavymetalindex/commit/fb0ee9a) | 2026-04-30 | Simplify source DOI access display |
+| [3ade06a](https://github.com/paleofoundation/heavymetalindex/commit/3ade06a) | 2026-04-29 | Surface FDA formula arsenic table heading |
+<!-- END: hmi-page-history -->

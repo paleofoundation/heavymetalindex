@@ -20,6 +20,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "OECD methodology compilation across 7 craft-and-toy product categories. Twelve worked case studies (A-L) submitted by 4 WPEA contributing countries (Netherlands, Germany, Canada, Denmark) per Executive Summary; broader WPEA Children's Health subgroup membership comprised Australia, Canada, Costa Rica, France, Germany, Italy, Japan, Korea, Netherlands, Sweden, US, EU, BIAC, WHO, and the European Environment Bureau (per Foreword)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -63,3 +66,15 @@ OECD WPEA-led methodology compilation. Sources reviewed: existing exposure-model
 - Brand-firewall clean: case studies cite agencies (Danish EPA, BfR, RIVM, ECCC/Health Canada, US EPA, SCHER, EFSA), regulatory test standards (EN 71-3, Toy Safety Directive 2009/48/EC), exposure tools (ConsExpo, ConsExpo Web 4.1, ExpoFIRST, SHEDS), and academic references (te Biesebeek 2014, Van Engelen 2008, Park 2018, Guak 2018, den Braver 2021, Affourtit 2023). The Case A "Crayon-Aqua (MSDS 2009, Horizon Group USA)" reference names a single MSDS document, not a brand-attributable contamination value — this is the scientific-methods exception per Part 12 (Exception 2). No brand-attributed contamination data anywhere in the document.
 - Emerging-product gap analysis (kinetic sand, water gel marbles, "make your own cosmetics" kits, science kits) flags categories where HMI may need new product slugs in the future. Surfaced for Karen's category-creation queue, not actioned in this ingest.
 - 2026-05-17 audit subagent (fresh-context Agent, general-purpose) verdict PROMOTE. One ⚠️ concern: prior Key-numbers bullet on Table 2.1 conflated the table's product-by-age pairings with generic age-bracket conventions (infant 0-1, toddler 1-3, etc.) that the table does not enumerate. Verified independently against p. 14 of the PDF; finding correct. Tightened the bullet to describe Table 2.1's actual content (product/age pairings with Bremmer/Danish EPA/CPSC footnotes) and moved the body-weight-defaults caveat to a separate sentence. 0 ❌ definite-error findings.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [172cdd0](https://github.com/paleofoundation/heavymetalindex/commit/172cdd0) | 2026-05-17 | audit: oecd2024-crafts-toys-children-exposure revised |
+| [0159864](https://github.com/paleofoundation/heavymetalindex/commit/0159864) | 2026-05-17 | ingest: oecd2024-crafts-toys-children-exposure enhanced from MFK/Children Personal Care Papers |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [PT]
 near_duplicates: []
 sample_n: 62
 sample_population: "62 packs of 100% fruit juices acquired randomly from major supermarkets in Portugal; samples covered multiple fruit species, origins, production methods, packaging types, conservation states, pasteurisation approaches, and direct-extraction versus concentrate-dilution processes."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -94,3 +97,14 @@ Microbiome: Not addressed.
 - Speciation discipline: Cr is total chromium; no Cr(VI), inorganic arsenic, total arsenic, total mercury, or methylmercury values are reported.
 - Brand firewall: the source groups samples by fruit type, process, origin, and packaging; no commercial product brands are named in this page.
 - Wiki/HMTc firewall: this page records occurrence evidence and routing utility only. It does not propose HMTc thresholds or treat a Portuguese-market source as a US benchmark-pool member.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ce54157](https://github.com/paleofoundation/heavymetalindex/commit/ce54157) | 2026-05-19 | wishlist review pass 2026-05-19 2020 hygiene path fix |
+| [3b7325f](https://github.com/paleofoundation/heavymetalindex/commit/3b7325f) | 2026-05-19 | wishlist review pass 2026-05-19 1958 batch 1: 2 ingests + 8 skips |
+<!-- END: hmi-page-history -->

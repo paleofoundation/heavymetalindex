@@ -19,6 +19,9 @@ matrices: [analytical-method, canned-food, tomato-sauce, canned-tuna]
 jurisdictions: []
 sample_n: null
 sample_population: "Canned tomato sauce and canned tuna used as food validation matrices; Co is not an HMT&C analyte"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -48,3 +51,16 @@ App: Al from canned food packaging is a contamination pathway worth modeling in 
 
 - [[testing/aluminum-methods]]
 - [[metals/aluminum]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [ffb0c50](https://github.com/paleofoundation/heavymetalindex/commit/ffb0c50) | 2026-05-12 | ingest: P2 sub-batch 1 — 26 analytical-method source pages (2025-2026 sensor/biosensor papers) |
+<!-- END: hmi-page-history -->

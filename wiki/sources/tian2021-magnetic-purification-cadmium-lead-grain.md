@@ -20,6 +20,9 @@ jurisdictions: [CN]
 sample_n: 12
 sample_population: "Naturally contaminated grain samples (rice, wheat, corn) from local markets in China"
 near_duplicates: []
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -46,3 +49,15 @@ App: Not applicable (no food concentration data, only method validation).
 ## Wiki pages updated on ingest
 - [[testing/electrochemical-detection-methods]]
 - [[ingredients/grain]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [c4878be](https://github.com/paleofoundation/heavymetalindex/commit/c4878be) | 2026-05-12 | ingest: P2 sub-batch 4 — 7 analytical-method source pages, 4 false positives, 38 missing handles |
+<!-- END: hmi-page-history -->

@@ -23,6 +23,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Regulatory instrument — establishes binding maximum levels (MLs) for total mercury in fishery products on the EU market"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-16
 ---
 
@@ -66,3 +69,15 @@ App: Country-of-origin EU triggers the 0.30 mg/kg, 0.50 mg/kg, or 1.0 mg/kg limi
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
 - [[ingredients/canned-tuna]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [c9c46d7](https://github.com/paleofoundation/heavymetalindex/commit/c9c46d7) | 2026-05-16 | sources + data: 2 regulation source pages + daily autonomy artifacts |
+<!-- END: hmi-page-history -->

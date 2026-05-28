@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 146
 sample_population: "Foliar tissue (N=146 leaf samples across five woody species sampled June/July/October 2005) and serpentine soils (8 sampling dates June 2005–May 2006, two horizons) collected along a 10-point transect at Buck Creek Serpentine Barren, NC (35°4'59\"N, 83°37'5\"W); supplementary Phytolacca americana survey (soil N=6; leaves N=14) from Mn-mine sites near Cherokee County, SC (35°7'7\"N, 81°26'47\"W) in 2010. Otherwise a narrative review citing prior literature."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -106,3 +109,14 @@ Open-access via BioOne's full-text URL (`bioone.org/doi/full/10.2179/16-084`); t
 - [[metals/manganese]]
 - [[metals/cobalt]]
 - [[metals/chromium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [08e20c5](https://github.com/paleofoundation/heavymetalindex/commit/08e20c5) | 2026-05-18 | audit: pollard2016-southeastern-usa-heavy-metals-plants promoted |
+| [a6c2ce9](https://github.com/paleofoundation/heavymetalindex/commit/a6c2ce9) | 2026-05-18 | ingest: pollard2016-southeastern-usa-heavy-metals-plants fresh from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

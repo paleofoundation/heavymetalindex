@@ -20,6 +20,9 @@ matrices: [leafy-vegetable, root-vegetable, legume]
 jurisdictions: [IR]
 sample_n: 32
 sample_population: "Eight vegetable types (parsley, spinach, basil, tomatoes, cucumbers, potatoes, onions, beans) from Babol, Mazandaran Province, northern Iran; 4 samples per vegetable type from harvest season 2021"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -94,3 +97,15 @@ Microbiome: Not applicable.
 - [[metals/cadmium]]
 - [[metals/copper]]
 - [[metals/zinc]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bc63415](https://github.com/paleofoundation/heavymetalindex/commit/bc63415) | 2026-05-20 | audit: abdolahpour2023-heavy-metals-babol-vegetables [revised] |
+| [b9aebca](https://github.com/paleofoundation/heavymetalindex/commit/b9aebca) | 2026-05-20 | ingest: abdolahpour2023-heavy-metals-babol-vegetables [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

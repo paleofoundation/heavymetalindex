@@ -20,6 +20,9 @@ matrices: [beef, horse-meat, pork, mutton, poultry-meat]
 jurisdictions: [KZ]
 sample_n: 298
 sample_population: "Meat from markets in the Shuchinsk-Burabay resort zone: beef 166, horse 42, pork 67, mutton 8, poultry 15."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -56,3 +59,13 @@ This source supports meat and poultry product context for Kazakhstan. Poultry va
 
 - Batch 5 auto-fetched ingest, 2026-05-25.
 - Total arsenic and total mercury are not speciated iAs or MeHg.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [477ff83](https://github.com/paleofoundation/heavymetalindex/commit/477ff83) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 5: 6 source pages + 3 skips |
+<!-- END: hmi-page-history -->

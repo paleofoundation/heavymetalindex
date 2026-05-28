@@ -20,6 +20,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 185
 sample_population: "185 mother-infant dyads from the Germina prospective cohort, metropolitan area of São Paulo, Brazil; human milk collected at 3 months postpartum (2021–2022)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -59,3 +62,15 @@ Germina cohort, São Paulo metropolitan area, 2021–2022. Analysis by ICP-MS (P
 - [[metals/lead]]
 - [[metals/arsenic]]
 - [[health/lead-neurodevelopment]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [7067f94](https://github.com/paleofoundation/heavymetalindex/commit/7067f94) | 2026-05-13 | ingest p4-batch7-g3: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

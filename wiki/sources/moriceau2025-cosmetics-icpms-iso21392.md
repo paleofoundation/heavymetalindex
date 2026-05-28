@@ -21,6 +21,9 @@ jurisdictions: [EU, FR]
 near_duplicates: []
 sample_n: 27
 sample_population: "17 finished cosmetic products sold on the French and European market (creams, gels, pastes, liquids, varnishes, solids) plus 10 raw materials used in cosmetic formulation (iron oxide mica, titanium dioxide anastase and rutile, iron oxide mica/aluminum oxide, hollow silica sphere, ophiopogon japonicus root extract, titanium dioxide/iron oxide/silica, mica pellets coated with iron and titanium, white powder A, white powder B). The paper's narrative on p. 2 states 'eight samples were raw materials' but Tables 2 and 6 enumerate ten — recorded here as 10 per the tables."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -109,3 +112,14 @@ Limitations: (1) Sample selection is convenience, not representative — 25 samp
 - Audit subagent (2026-05-18) flagged [[products/makeup-foundation-powders-blush]] as an "invented slug" not in the taxonomy snapshot — VERIFIED FALSE POSITIVE: the slug exists as a real wiki product page at `wiki/products/makeup-foundation-powders-blush.md`; the `docs/gpt-collaboration/taxonomy-snapshot.md` file is stale (generated 2026-05-17 from commit e442cbe and does not include the page). No change to wiki page; this is a taxonomy-snapshot-refresh hygiene issue, not a slug error.
 - Audit subagent (2026-05-18) flagged 50 mL (Methods narrative) vs 200 mL (Table 3) as a ⚠️ source-internal contradiction — VERIFIED FALSE POSITIVE: the two figures are arithmetically consistent (50 mL initial transfer × 4 further dilution = 200 mL final volume per Table 3). Key numbers and Methods sections reworded to make the relationship explicit ("digestate transferred to 50 mL with ultrapure water then 4× further dilution to 200 mL final volume").
 - Audit subagent (2026-05-18) flagged W and Pt missing from frontmatter metals despite being measured/reported — applied: added W and Pt to the metals array.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a68b5d4](https://github.com/paleofoundation/heavymetalindex/commit/a68b5d4) | 2026-05-18 | audit: moriceau2025-cosmetics-icpms-iso21392 revised |
+| [44593c0](https://github.com/paleofoundation/heavymetalindex/commit/44593c0) | 2026-05-18 | ingest: moriceau2025-cosmetics-icpms-iso21392 fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ matrices: [freshwater-fish-muscle, perch]
 jurisdictions: [KZ]
 sample_n: 44
 sample_population: "Fish muscle samples from lakes in the Shuchinsk-Burabay resort zone, Kazakhstan."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -53,3 +56,13 @@ This source supports freshwater fish and general seafood context for Kazakhstan 
 ## Verification notes
 
 - Batch 5 auto-fetched ingest, 2026-05-25. DOI mismatch was resolved by ingesting the actual fish product paper rather than forcing it into the meat/poultry row.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [477ff83](https://github.com/paleofoundation/heavymetalindex/commit/477ff83) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 5: 6 source pages + 3 skips |
+<!-- END: hmi-page-history -->

@@ -11,6 +11,7 @@ limit_unit: ppb
 status: current-guidance-context
 source_refs: ["[[sources/fda2004-juice-haccp-lead]]"]
 title: "FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice"
+wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator, app]
 ---
@@ -25,3 +26,12 @@ The FDA issued draft lead-in-juice action levels in 2022 that would set 10 ppb f
 
 - [[sources/fda2004-juice-haccp-lead]]
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1e18eb9](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9) | 2026-05-03 | Add Category 1 lead benchmark context |
+<!-- END: hmi-page-history -->

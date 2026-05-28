@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [infant-formula-powder-non-soy, infant-formula-powder-soy-based]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 16
 ---
@@ -185,4 +186,16 @@ Powdered formula sold loose in bulk (gray-market imports, repackaged formula) by
 - Codex Alimentarius CXS 72-1981 (infant formula) and CXS 156-1987 (follow-up formula) set composition standards and reference contaminant maximum levels.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL of 0.5 µg/day applies; converted to a serving-based screen on infant-formula consumption, this yields a very low per-serving threshold reflecting infant body weight and daily formula volume.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [8d43021](https://github.com/paleofoundation/heavymetalindex/commit/8d43021) | 2026-05-25 | autonomy: daemon tick 2026-05-25T08-16-54Z — gap-healing + extraction + pooling + briefings |
+| [d935060](https://github.com/paleofoundation/heavymetalindex/commit/d935060) | 2026-05-20 | autonomy: daemon tick 2026-05-19T23-46-10Z — gap-healing + extraction + pooling + briefings |
+| [1205e69](https://github.com/paleofoundation/heavymetalindex/commit/1205e69) | 2026-05-19 | autonomy: daemon tick 2026-05-19T15-55-42Z — gap-healing + extraction + pooling + briefings |
+| [5c6309b](https://github.com/paleofoundation/heavymetalindex/commit/5c6309b) | 2026-05-19 | autonomy: daemon tick 2026-05-19T00-27-42Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

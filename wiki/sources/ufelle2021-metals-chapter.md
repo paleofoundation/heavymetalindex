@@ -19,6 +19,9 @@ ingredients: ["[[ingredients/seafood]]", "[[ingredients/rice]]", "[[ingredients/
 products: []
 jurisdictions: [US, international]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-30
 ---
 
@@ -222,3 +225,17 @@ License class `copyright-licensed-private`. Casarett & Doull's Essentials of Tox
 - [[metals/titanium]]
 - [[metals/uranium]]
 - [[metals/vanadium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [bea746b](https://github.com/paleofoundation/heavymetalindex/commit/bea746b) | 2026-05-08 | ingest: chromium-hexavalent species page from existing Cr-VI corpus |
+| [b3a9bf8](https://github.com/paleofoundation/heavymetalindex/commit/b3a9bf8) | 2026-04-30 | Update metal index release notes |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [SA]
 near_duplicates: []
 sample_n: 111
 sample_population: "111 commercially available baby food products collected from pharmacies and main markets in Riyadh, Jeddah, and Dammam (Kingdom of Saudi Arabia) during the 2020 Saudi Food and Drug Authority (SFDA) National Food Monitoring Program: 39 stage 1 infant formula (0–6 mo), 22 stage 2 infant formula (7–12 mo), 33 cereal-based meals, 17 biscuits; 21 domestic and 90 imported. Body weights used in EDI: 5.45 kg (0–6 mo) and 8.90 kg (7–12 mo) per Saudi Ministry of Health 2021."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_fetch_pdf_enhanced
 created_by: claude_opus_47_session
@@ -164,3 +167,17 @@ The upper-bound MoE of 1.00 for the 0–6-month group means upper-bound Pb intak
 - **Body-weight and consumption assumptions.** Body weights (5.45 kg at 0–6 mo; 8.90 kg at 7–12 mo) cite Ministry of Health Saudi Arabia 2021. Label-recommended consumption was used; the paper notes that consumption data specific to Saudi infants under one year is sparse and that label portions may not reflect actual intake — a documented limitation of the EDI estimates.
 - **Enhancement scope (2026-05-18, manual-fetch PDF re-ingest).** Relative to the 2026-05-12 revision of this page: full LB/MB/UB EDI, THQ/HI, and MoE values added from Tables 2–4; analytical method detail expanded from Methods §2.2 (UltraCLAVE program, ICP-MS RF/gas settings, atomic masses, EN method references, recovery/RSD/LOD/LOQ); statistical-test results added; per-food-group exposure contributions added; reference-value context (JECFA, EFSA, IARC) added; legacy `## Wiki pages updated on ingest` heading replaced with `## Wiki pages this source may touch`; speciation note clarified per CLAUDE.md Part 14.
 - **Codex manual-fetch recheck (2026-05-18).** Fresh-context audit returned REVISE for three cleanup items: unsupported `n = 4 replicates per sample` wording, nonstandard matrix terms, and the internal-standard unit. The PDF page image confirms the source prints `100 mg/mL`; this page now preserves that unit, normalizes matrices to broad controlled terms, and softens the BMDL01/Pb wording to what the source states.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [385b8c0](https://github.com/paleofoundation/heavymetalindex/commit/385b8c0) | 2026-05-18 | ingest (codex): alharbi2023 baby foods recheck cleanup |
+| [f25d37b](https://github.com/paleofoundation/heavymetalindex/commit/f25d37b) | 2026-05-18 | audit-queue: mahaffey1975-fda-total-diet-study-heavy-metals status -> audited-revised |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

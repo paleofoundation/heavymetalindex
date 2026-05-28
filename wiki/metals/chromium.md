@@ -7,6 +7,7 @@ species: [Cr3+, Cr6+]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
 sources: 185
+wiki_doi: null
 updated: 2026-05-08
 status: stub
 n_sources: 2
@@ -292,3 +293,16 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 255 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | Cr concentrations in dry pet food (n=49) |
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [eda33c7](https://github.com/paleofoundation/heavymetalindex/commit/eda33c7) | 2026-05-20 | autonomy: daemon tick 2026-05-20T15-11-23Z — gap-healing + extraction + pooling + briefings |
+| [d65eba1](https://github.com/paleofoundation/heavymetalindex/commit/d65eba1) | 2026-05-20 | autonomy: daemon tick 2026-05-20T11-41-53Z — gap-healing + extraction + pooling + briefings |
+| [3a0d086](https://github.com/paleofoundation/heavymetalindex/commit/3a0d086) | 2026-05-20 | autonomy: daemon tick 2026-05-20T06-40-52Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

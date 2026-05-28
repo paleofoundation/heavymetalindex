@@ -21,6 +21,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 30
 sample_population: "Five fruit types (peach, apple, grape, nectarine, and golden plum) plus paired soil and irrigation-water samples collected from six industrial zones of Markazi province, Iran."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -97,3 +100,13 @@ Microbiome: Not addressed.
 - Speciation: chromium is total Cr by ICP-OES; the paper's risk equation references Cr+6 RfD, but the analytical method does not speciate Cr(VI), so this page routes total chromium only.
 - Strict brand firewall: no product brands are involved.
 - Methods vendor/equipment/software names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d784e29](https://github.com/paleofoundation/heavymetalindex/commit/d784e29) | 2026-05-19 | stranded work: 7 Codex auto-gap source pages + 2 ingredient stubs + accumulated daemon artifacts |
+<!-- END: hmi-page-history -->

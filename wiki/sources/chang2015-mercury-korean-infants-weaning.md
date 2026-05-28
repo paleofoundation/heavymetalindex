@@ -19,6 +19,9 @@ matrices: [hair-biomarker, blood-biomarker]
 jurisdictions: [KR]
 sample_n: 252
 sample_population: "252 healthy Korean infants (median age 11.1 months, range 6–22 months), 50% male; 2 cohorts: 2009/2010 (n=111) and 2013/2014 (n=141); Seoul, South Korea; 109 had blood mercury measured"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -49,3 +52,14 @@ App: Fish-containing weaning foods are the primary driver of MeHg/tHg exposure i
 - [[metals/mercury]]
 - [[ingredients/fish]]
 - [[health/mercury-infant-exposure]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

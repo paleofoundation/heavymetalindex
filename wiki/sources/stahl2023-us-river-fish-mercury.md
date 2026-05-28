@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 643
 sample_population: "Fish fillet composites from 353 U.S. river sites (2013–14) and 290 sites (2018–19), sampled under EPA National Rivers and Streams Assessment (NRSA) probability-based design; rivers ≥5th order in the conterminous U.S."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -58,3 +61,14 @@ App: tHg occurrence data for freshwater-fish ingredient: U.S. river fish. The ex
 
 - [[ingredients/freshwater-fish]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [872a866](https://github.com/paleofoundation/heavymetalindex/commit/872a866) | 2026-05-13 | ingest p4-batch9-g2: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

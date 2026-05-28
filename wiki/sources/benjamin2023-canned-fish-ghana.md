@@ -21,6 +21,9 @@ matrices: [fish]
 jurisdictions: [GH]
 sample_n: 10
 sample_population: "10 canned fish products from Cape Coast market, Ghana: 4 mackerel products, 4 sardine products, 2 tuna products"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -96,3 +99,15 @@ Ten canned fish samples; 2 ± 0.001 g representative homogenized subsamples per 
 - Source Table 1 lists a Zn recommended limit of 100 µg/g under the "EU Reg. No 1881/2006" row. That value is reported above as a source-cited comparator, but the attribution appears questionable because EC 1881/2006 sets maximum levels for contaminants such as Pb, Cd, Hg, iAs, and Sn, not a fish-specific Zn maximum level.
 - The paper's Conclusion says "three mackerel" and "three tuna" samples, but the Abstract, Methods, and Table 1 grouping indicate 4 mackerel, 4 sardine, and 2 tuna products; this page follows the internally consistent Abstract/Methods design.
 - The source reports Hg as mercury by cold-vapor AAS/direct mercury analyzer. It does not speciate methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [222c028](https://github.com/paleofoundation/heavymetalindex/commit/222c028) | 2026-05-19 | audit queue fire batch 1: 10 source pages |
+| [761e045](https://github.com/paleofoundation/heavymetalindex/commit/761e045) | 2026-05-18 | ingest (codex): benjamin2023 canned fish ghana merge-enhance |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

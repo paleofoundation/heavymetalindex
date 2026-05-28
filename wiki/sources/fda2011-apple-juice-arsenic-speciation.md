@@ -20,6 +20,9 @@ product_metal_scope:
   fruit-juice-not-canned: [iAs]
 jurisdictions: [US-FDA]
 sample_n: 94
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-07
 ---
 
@@ -56,3 +59,16 @@ This is EF-2 reconstructable evidence: the source table provides sample-level va
 
 - [[products/fruit-juices-apple-containing]]
 - [[products/fruit-juice-not-canned]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [20add89](https://github.com/paleofoundation/heavymetalindex/commit/20add89) | 2026-05-08 | schema: drop ## TL;DR heading from source pages and Part 6 template (6 pages cleaned) |
+| [0f3f4e7](https://github.com/paleofoundation/heavymetalindex/commit/0f3f4e7) | 2026-05-07 | Add product HMTc evidence summaries |
+| [a0b6746](https://github.com/paleofoundation/heavymetalindex/commit/a0b6746) | 2026-05-07 | Ingest FDA apple juice arsenic speciation rows |
+<!-- END: hmi-page-history -->

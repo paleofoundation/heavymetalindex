@@ -20,6 +20,9 @@ jurisdictions: [BD, IN]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review chapter. The only concrete tabulated values are heavy metal concentrations in effluent-contaminated irrigation water from Bangladesh's Dhaka Export Processing Zone (DEPZ), reported in Table 1 with attribution to a cited primary source. All other content is narrative review of soil-to-crop transfer pathways, plant physiological responses, human toxicity endpoints, and management strategies."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -77,3 +80,14 @@ The chapter is open-access under CC BY 3.0; DOI 10.5772/intechopen.101938.
 - [[ingredients/vegetables]] — review-level discussion of vegetable contamination in Bangladesh DEPZ context; not a primary value contributor (Bangladesh DEPZ vegetable values trace to chapter reference [21], which should be ingested separately).
 - [[supply-chain/irrigation-water]] — primary value contributor: DEPZ effluent table.
 - [[supply-chain/soil-contamination]] — mechanistic-background contributor.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [06a2c1e](https://github.com/paleofoundation/heavymetalindex/commit/06a2c1e) | 2026-05-18 | audit: vanisree2022-heavy-metals-food-crops-chapter promoted |
+| [cbf8f33](https://github.com/paleofoundation/heavymetalindex/commit/cbf8f33) | 2026-05-18 | ingest: vanisree2022-heavy-metals-food-crops-chapter enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

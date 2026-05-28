@@ -20,6 +20,9 @@ matrices: [traditional-chinese-medicine, herbal-remedy]
 jurisdictions: [AU]
 sample_n: 26
 sample_population: "Twenty-six traditional Chinese medicine products audited in Australia; 25 screened for heavy metals by SF-ICP-MS because one aqueous sample could not be analyzed by the method."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -64,3 +67,13 @@ For brand-firewall purposes, the source's TCM sample numbers are sufficient. The
 - Batch 1 auto-fetched ingest, 2026-05-25. The wishlist query targeted herbal/botanical infusions, but the actual PDF is a traditional Chinese medicine product audit. Ingested under the actual paper scope and routed to dietary supplements rather than tea/infusion product rows.
 - Evidence fitness: direct finished-product supplement evidence, but the article body reports exceedance bands for Table 3. Exact concentration values are pending supplementary-table extraction.
 - Brand firewall: TCM product identifiers are kept as numbered samples only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d1c9a1e](https://github.com/paleofoundation/heavymetalindex/commit/d1c9a1e) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 1: 3 source pages + 3 rollups + 44 skips |
+<!-- END: hmi-page-history -->

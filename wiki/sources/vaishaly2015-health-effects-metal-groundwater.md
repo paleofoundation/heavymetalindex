@@ -21,6 +21,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of human-health effects from heavy metals in contaminated groundwater. The three authors (Department of Biotechnology, Sapthagiri College of Engineering, Bangalore, India) summarize toxicology and exposure information for nine metals (Zn, Pb, Cu, Cd, Ni, As, Cr, Hg, Mn) at textbook-level depth, plus a short remediation section. No PRISMA protocol, no documented database searches, no inclusion or exclusion criteria, no quality assessment of cited works, no quantitative synthesis. Five pages including 21 references. Published in vol 1, issue 02, pp 60–64 of a low-impact Indian online journal (ISSN 2395-3616)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -90,3 +93,13 @@ Narrative review without PRISMA protocol, documented database queries, inclusion
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/manganese]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ec1d778](https://github.com/paleofoundation/heavymetalindex/commit/ec1d778) | 2026-05-18 | ingest: vaishaly2015-health-effects-metal-groundwater fresh from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

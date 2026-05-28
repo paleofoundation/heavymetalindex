@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "US FDA Total Diet Study (Market Basket Survey), FY 1968–1974. 30 market baskets per year purchased from retail stores in four US geographic regions (Southeast, Northeast, Central, Western). 117 individual foods representing the 14-day diet of 15–20-year-old US males (highest-calorie consumer group), composited into 12 food classes and prepared as normally consumed. Pb, Zn, and Se determined from FY 1972 forward only; Cd, tHg, tAs determined from FY 1965 forward."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -117,3 +120,14 @@ FDA Total Diet Study (Market Basket Survey) protocol. 117 individual foods, base
 - [[metals/mercury-total]]
 - [[metals/arsenic-total]]
 - [[metals/zinc]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [43f65eb](https://github.com/paleofoundation/heavymetalindex/commit/43f65eb) | 2026-05-18 | audit: mahaffey1975-fda-total-diet-study-heavy-metals revised |
+| [70af9dd](https://github.com/paleofoundation/heavymetalindex/commit/70af9dd) | 2026-05-18 | ingest: mahaffey1975-fda-total-diet-study-heavy-metals enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [MY]
 near_duplicates: []
 sample_n: 395
 sample_population: "Household drinking water samples (n=395) and adult hair samples (n=639) from two villages in Gerik district, Perak, Malaysia; Village AG (exposed, water from WTP with reported arsenic violations) vs Village P (non-exposed comparison)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -47,3 +50,13 @@ App: Southeast Asia drinking water arsenic exposure data point.
 - [[metals/arsenic]]
 - [[regulations/who-drinking-water-guidelines]]
 - [[health/arsenicosis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9795863](https://github.com/paleofoundation/heavymetalindex/commit/9795863) | 2026-05-13 | ingest p4-batch16-g4: 10 pages, 38 FP |
+<!-- END: hmi-page-history -->

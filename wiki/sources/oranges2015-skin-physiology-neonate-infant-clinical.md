@@ -19,6 +19,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Critical narrative review of neonate and infant skin physiology — barrier development, hydration, pH, perspiration, skin immune system, microbiome, transepidermal water loss, and the clinical implications for topical agent absorption, thermoregulation, infection risk, and bathing/emollient/cleanser selection; no primary measurements"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -83,3 +86,13 @@ Narrative critical review. No systematic-review methodology is described — no 
 - Funding and conflicts: the paper states "The authors do not declare any conflicts of interest. The authors do not declare any ghostwriter contributions." No funding source is disclosed in the published article.
 - License: subscription-access ("Critical Reviews" section of Advances in Wound Care, Mary Ann Liebert, Inc. journal; Copyright © 2015 Mary Ann Liebert, Inc.); not CC-licensed. Quotation in the HMI corpus is fair-use for review and synthesis purposes; full re-hosting of the PDF is restricted by copyright.
 - Related HMI corpus pages: [[sources/rahma2022-infant-skin-barrier-function-review]] (2022 Pharmaceutics narrative review, similar scope with more quantitative depth); the underlying primary references (Nikolovski 2008, Visscher 2000/2005, Fluhr 2010/2012, Yosipovitch 2000, Hammarlund & Sedin 1979) are not yet ingested and should be located if HMI ever needs the primary numbers for an exposure-model build.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [807699c](https://github.com/paleofoundation/heavymetalindex/commit/807699c) | 2026-05-17 | ingest: oranges2015-skin-physiology-neonate-infant-clinical fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

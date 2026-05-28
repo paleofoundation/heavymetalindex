@@ -19,6 +19,9 @@ matrices: [breast-milk, wet-weight]
 jurisdictions: [IR]
 sample_n: 40
 sample_population: "40 postpartum lactating mothers (mean age 27.9 ± 4.42 years) from Isfahan, Iran (industrialized city); n=20 intervention (jujube fruit 15 g/day), n=20 control; 8-week RCT; exclusive breastfeeding required"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -54,3 +57,14 @@ Health: Isfahan maternal Pb in breast milk (~30 µg/L) is notably higher than Eu
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[health/breastfeeding-metals-protection]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

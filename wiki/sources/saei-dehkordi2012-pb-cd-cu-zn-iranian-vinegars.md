@@ -19,6 +19,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 96
 sample_population: "96 commercial Iranian vinegars: 24 each of date, apple, white grape, and red grape; purchased August 2010 to January 2011 from the Iranian retail market"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -116,3 +119,17 @@ No brand names appear in this source — the paper aggregates by vinegar type on
 No HMTc threshold language, no consumer translation, no inter-source synthesis claims were introduced.
 
 Auto-audit subagent (2026-05-26) verdict PROMOTE; Checks 2-5 all clean. Check 1 raised a single ⚠️ framing concern: the prior Codex/Turkish-Codex sentence said "both set 1 mg/L (1,000 ng/mL) for Pb and 10 mg/L (10,000 ng/mL) for Cu + Zn." Verified against source p.7: the 1 mg/L Pb attribution belongs only to the Turkish Food Codex (2002); the Codex Alimentarius (2000) is cited only for the 10 mg/L Cu + Zn cap. Sentence rewritten to restrict the Pb attribution to the Turkish Food Codex and reserve the joint Codex/Turkish attribution for Cu + Zn.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5ee08c5](https://github.com/paleofoundation/heavymetalindex/commit/5ee08c5) | 2026-05-26 | audit: saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars audited-revised |
+| [d62aa37](https://github.com/paleofoundation/heavymetalindex/commit/d62aa37) | 2026-05-26 | ingest: saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

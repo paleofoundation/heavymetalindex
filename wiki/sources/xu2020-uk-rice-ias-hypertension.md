@@ -21,6 +21,9 @@ jurisdictions: [GB]
 near_duplicates: []
 sample_n: 598
 sample_population: "598 UK residents aged ≥16 years drawn from the National Diet and Nutrition Survey Rolling Programme Years 7-8 (NDNS RP 7-8; fieldwork April 2014 to August 2016), a multistage random nationally representative sample across England, Wales, Northern Ireland, and Scotland; excluded from the 2723-person parent sample were pregnant or breastfeeding women (N=0), participants under 16 (N=1074), and participants with missing dietary, blood-pressure, or covariate data (N=1051); secondary analysis of publicly available anonymized NDNS data"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -130,3 +133,14 @@ Open access under Creative Commons Attribution 4.0 International (CC BY 4.0). PD
 
 - [[ingredients/rice]] (UK exposure-assessment context; no new occurrence values)
 - [[metals/arsenic-inorganic]] (UK dietary-iAs intake distribution and health-outcome context)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b66d1a1](https://github.com/paleofoundation/heavymetalindex/commit/b66d1a1) | 2026-05-28 | audit: xu2020-uk-rice-ias-hypertension revised |
+| [3efdd1d](https://github.com/paleofoundation/heavymetalindex/commit/3efdd1d) | 2026-05-28 | ingest: xu2020-uk-rice-ias-hypertension [fresh] from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

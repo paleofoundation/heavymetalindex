@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 6
 sample_population: "Six commercially available peanut butter spread samples (creamy, super-chunk, low-fat spread, single-serve, crunchy salted) purchased at US retail (grocery and gourmet stores in California), plus one whole-peanuts-in-shell sample and NIST SRM 2387 peanut butter reference material"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -106,3 +109,16 @@ Audit subagent (2026-05-28) flagged the Certification/Implications phrase "low r
 - [[ingredients/peanuts]]
 - [[products/peanut-butter]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b493227](https://github.com/paleofoundation/heavymetalindex/commit/b493227) | 2026-05-28 | audit: hovanec2004-peanut-butter-arsenic-speciation [revised] |
+| [9e837d9](https://github.com/paleofoundation/heavymetalindex/commit/9e837d9) | 2026-05-28 | ingest: hovanec2004-peanut-butter-arsenic-speciation [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

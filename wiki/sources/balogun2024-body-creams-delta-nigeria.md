@@ -22,6 +22,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 20
 sample_population: "20 body cream/lotion products purchased anonymously from college business centres at two Delta State tertiary institutions in Nigeria — College of Education Warri (COEW; coded CWBCA–CWBCJ, n=10) and College of Education Mosogar (COEM; coded CMBCA–CMBCJ, n=10). Product types span toning creams, petroleum jellies, coloured jelly creams, and bleaching/skin-lightening creams; brand identities were intentionally concealed by the authors. End-users are tertiary-institution populace (students, lecturers, staff, visitors), not children; the paper is filed under the children-personal-care manual-fetch folder by mis-categorisation."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ingest_method: manual_phase1
 created_by: claude_opus_47_session
@@ -129,3 +132,13 @@ Microbiome: Not addressed.
 - The COEW Ag/tHg floor value `<0.001` and the abstract phrasing "Ag and Hg were less than 0.001 ppm" are consistent with one another; the page records these analytes as below the reporting limit in all 20 samples and does not impute a numeric mid-point.
 - No brand names appear in the source (the authors deliberately coded samples CWBCA–CWBCJ and CMBCA–CMBCJ). Part 12 brand firewall is intrinsically satisfied; no Part 12 redactions needed.
 - Product slug `body-hand-leave-on-skin-care` is the HMTc Taxonomy v2.0 Cat 13 Row 4 destination and is the only product routing target. `skin-lightening-cream` is not used because (a) it is retired and out of HMTc scope per the Cat 2 Step 0 lock and (b) the paper does not separate concentrations by cream type, so even the bleaching-cream subset cannot be isolated. The matrix `cosmetic-personal-care` matches the existing convention from prior cosmetics ingest pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [250f268](https://github.com/paleofoundation/heavymetalindex/commit/250f268) | 2026-05-17 | ingest: balogun2024-body-creams-delta-nigeria fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
+<!-- END: hmi-page-history -->

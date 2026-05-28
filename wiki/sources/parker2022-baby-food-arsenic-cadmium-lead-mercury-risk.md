@@ -13,6 +13,9 @@ access_url: https://doi.org/10.1016/j.toxrep.2022.02.001
 metals: [tAs, Cd, tHg, Pb]
 products: [fruit-purees, root-vegetable-purees, non-root-vegetable-purees, baby-cereals, mixed-meals]
 jurisdictions: [US]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -94,3 +97,15 @@ This study measured total arsenic and total mercury, not inorganic arsenic or me
 - [[products/fruit-purees]]
 - [[products/mixed-meals-rice-containing]]
 - [[products/mixed-meals-non-rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [c2968e4](https://github.com/paleofoundation/heavymetalindex/commit/c2968e4) | 2026-04-29 | sources: ingest Parker 2022 baby food concentration distributions |
+<!-- END: hmi-page-history -->

@@ -42,6 +42,9 @@ sample_size: 1000000
 sample_description: "Monte Carlo exposure simulations (1 million iterations) for infants and toddlers 4-24 months old in the U.S., modeled on FDA retail rice cereal survey data (n=116 samples) and dietary intake patterns"
 evidence_tier: A
 status: published
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -113,3 +116,13 @@ Toddlers 13–24 months:
 - `products/infant-formula-soy.md` — iAs as background exposure source
 - `products/infant-solid-foods.md` — category-level iAs profile; rice cereal dominance
 - `regulations/us-fda-closer-to-zero.md` — iAs baseline for infant foods; gap between current survey mean and precautionary levels
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [27d26bb](https://github.com/paleofoundation/heavymetalindex/commit/27d26bb) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-04-41Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

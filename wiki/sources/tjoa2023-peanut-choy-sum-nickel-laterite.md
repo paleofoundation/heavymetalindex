@@ -17,6 +17,9 @@ products: ["[[products/non-root-vegetables]]"]
 matrices: ["peanut-shoots", "choy-sum-shoots", "laterite-soil"]
 jurisdictions: ["ID"]
 sample_population: "Peanut and choy sum grown in limonitic laterite soil from nickel-mining context in mono- and mixed-cropping pots"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -54,3 +57,14 @@ This is experimental plant-uptake context rather than market-basket occurrence. 
 - Source identity checked against DOI 10.24259/jpkwallacea.v12i1.26615 and the downloaded PDF.
 - The PDF states the limonitic laterite soil contained 7.884 mg kg-1 Ni; this value is preserved as printed in the source.
 - The source reports shoot concentrations, not finished edible retail samples; route with experimental context preserved.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [53f221f](https://github.com/paleofoundation/heavymetalindex/commit/53f221f) | 2026-05-25 | ingest auto-fetched 2026-05-25 1748 batch 2: 8 source pages |
+<!-- END: hmi-page-history -->

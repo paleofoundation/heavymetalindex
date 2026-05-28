@@ -17,6 +17,9 @@ products: ["[[products/rice-bulk-grain]]"]
 matrices: ["rice-bran", "paddy-straw", "cow-milk", "soil"]
 jurisdictions: ["IN"]
 sample_population: "Soil-plant-animal samples near brick kilns in Kashmir Himalayas"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -55,3 +58,14 @@ Milk values are directly routeable for dairy context. Rice bran and paddy straw 
 
 - Source identity checked against DOI 10.30954/2277-940X.03.2022.11 and the downloaded PDF.
 - The PDF extraction makes some table rows difficult to reconstruct; this page records only visible values from the abstract/results text.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

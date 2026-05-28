@@ -18,6 +18,9 @@ matrices: [dietary-intake, composite-food-samples]
 jurisdictions: [CN]
 sample_n: 288
 sample_population: "Adult Chinese males (18–45 years, 63 kg reference body weight), 24 provincial-level administrative divisions (PLADs), 2016–2019; 288 composite food samples across 12 food categories"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -99,3 +102,13 @@ ICP-MS for Pb and Cd determination (LOD: 0.08 and 0.05 µg/kg respectively). Six
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/legumes]]
 - [[regulations/china-gb-2762-2017]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

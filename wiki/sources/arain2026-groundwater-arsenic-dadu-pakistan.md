@@ -20,6 +20,9 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: 159
 sample_population: "Groundwater samples from flood-prone District Dadu, Sindh, Pakistan; a geologically arsenic-enriched alluvial floodplain region"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -55,3 +58,14 @@ Microbiome: Not directly addressed.
 
 - [[metals/arsenic]]
 - [[supply-chain/irrigation-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [15eca2e](https://github.com/paleofoundation/heavymetalindex/commit/15eca2e) | 2026-05-12 | orchestrator: subprocess dispatcher + trial diagnostic action |
+<!-- END: hmi-page-history -->

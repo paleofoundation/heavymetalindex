@@ -16,6 +16,7 @@ sunset_date: 2011-05-10
 superseded_by: "[[regulations/mx-nom-242-ssa1-2009-fishery-products]]"
 source_url: "https://www.salud.gob.mx/unidades/cdi/nom/027ssa13.html"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -54,3 +55,13 @@ This page records a historical Mexican regulatory benchmark used by source liter
 - Created 2026-05-18 by Codex during P0149 seafood manual-fetch ingest after Rodriguez-Mendivil et al. 2019 cited NOM-027-SSA1-1993 as the Mexican benchmark for fresh-fish Hg, Pb, and Cd comparisons.
 - The official Secretaria de Salud HTML page gives the publication heading "03-03-95" and the vigencia clause states that the standard became mandatory 30 days after publication; this page therefore uses 1995-04-02 as the effective date.
 - NOM-242-SSA1-2009's transitory provision states that, upon its entry into force, NOM-027-SSA1-1993 is cancelled. A later 2012 modification notice states that NOM-242 entered into force on 10 May 2011.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3009905](https://github.com/paleofoundation/heavymetalindex/commit/3009905) | 2026-05-18 | ingest (codex): rodriguez-mendivil2019 canned tuna tijuana |
+<!-- END: hmi-page-history -->

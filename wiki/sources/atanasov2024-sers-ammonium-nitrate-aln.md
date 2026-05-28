@@ -20,6 +20,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Laboratory fabrication and characterization study; no food or biological matrix tested"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -51,3 +54,14 @@ App: Not applicable.
 ## Wiki pages updated on ingest
 
 - [[testing/sers-methods]] (background reference for Al-plasmonics SERS platform development)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [38d88bd](https://github.com/paleofoundation/heavymetalindex/commit/38d88bd) | 2026-05-12 | ingest: p2-sub3 batch — 3 source pages from 50-handle list; 47 handles missing from filesystem |
+<!-- END: hmi-page-history -->

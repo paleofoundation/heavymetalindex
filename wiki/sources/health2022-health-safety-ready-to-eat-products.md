@@ -42,6 +42,9 @@ created_by: autonomy_v0
 created: 2026-05-19
 status: indexed
 confidence: pending-data-extraction
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 ## Overview
@@ -112,3 +115,13 @@ Numerical findings will establish whether risk from these products is driven by 
 
 **Next step:** Extract numerical values from Results tables (pages 7, 9, 10, 15) and populate Key numbers section with means, medians, percentiles, LOD/LOQ, and risk assessment findings.
 ```
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c725338](https://github.com/paleofoundation/heavymetalindex/commit/c725338) | 2026-05-19 | autonomy: daemon tick 2026-05-18T23-34-28Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 2628
 sample_population: "Zhejiang Province residents, 11 cities, 2018–2019; n=19,000 in consumption survey"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -110,3 +113,13 @@ Microbiome: Not applicable — paper does not address gut microbiome effects of 
 - [[ingredients/molluscs]]
 - [[products/canned-fish]]
 - [[regulations/china-gb-2762-2022]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0126111](https://github.com/paleofoundation/heavymetalindex/commit/0126111) | 2026-05-14 | autonomy: Marker-corpus ingester + Zhejiang nickel source page |
+<!-- END: hmi-page-history -->

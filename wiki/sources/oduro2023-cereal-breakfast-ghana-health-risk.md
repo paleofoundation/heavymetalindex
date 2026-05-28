@@ -22,6 +22,9 @@ matrices: [cereal-grain, dietary-intake]
 jurisdictions: [GH]
 sample_n: 54
 sample_population: "54 locally produced cereal-based breakfast meals obtained from Kumasi Metropolis markets in December 2021: 31 breakfast cereals, 20 biscuits, and 3 bread types, grouped by wheat, rice, maize, oats, and millet/sorghum cereal classes."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -124,3 +127,17 @@ App: The sample set can support Ghana/Kumasi jurisdiction-labeled occurrence con
 - Corrected older HQ ranges for Cd and Ni; Table 3 reports Cd and Ni HQ values above 1 in all age groups and cereal classes, not below 1.
 - Corrected the comparator framing: Table 1 shows comparator values for As, Cd, Cr, and Pb, but no maximum-limit comparator for Mn or Ni.
 - Strict brand-firewall check: no consumer brands are named; instrument, reference-material, and software vendor names are retained only as Methods details under the Part 12 scientific-method exception.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3db121a](https://github.com/paleofoundation/heavymetalindex/commit/3db121a) | 2026-05-18 | ingest (codex): oduro2023 cereal breakfast ghana |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

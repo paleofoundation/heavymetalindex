@@ -20,6 +20,9 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: 308
 sample_population: "Eleven fruit varieties (apple, apricot, banana, cherry, grapes, guava, lemon, mango, orange, peach, pomegranate) purchased at 1 kg per market across 28 fruit markets in Khyber Pakhtunkhwa province, Pakistan (11 × 28 = 308 market-fruit samples; each analysed in triplicate with duplicate runs per digest)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -111,3 +114,16 @@ Post-ingest audit (fresh-context subagent, 2026-05-19): verdict REVISE.
 - Check 1 ⚠️ on `sample_n: 308` as a wiki-side derivation — verified: §2.1 (p. 63) states each fruit was purchased from 28 markets at 1 kg, and §1 / Table 2 enumerate the 11 fruit varieties. The total 11 × 28 = 308 is an explicit consequence of the stated design and is preserved in `sample_population`. No change applied.
 - Check 1 ⚠️ on closest-approach ratios (cherry Cd ~92%, lemon Cd ~78%, grapes Cd ~66%, grapes Pb ~36%) — verified: each ratio is arithmetic on the source's Table 2 means and the source's own cited WHO limits (Cr 2.3, Co 50, Ni 70, Cd 0.1, Pb 0.3 mg kg⁻¹ DW). The paper's own §3 framing is qualitative ("much lower"); the wiki adds the quantitative ratios from the same source values. No change applied; ratios retained as useful for downstream pooling.
 - Checks 2, 3, 4 returned clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7c16826](https://github.com/paleofoundation/heavymetalindex/commit/7c16826) | 2026-05-19 | audit: rahim2020-toxic-heavy-metals-fruits-pakistan [revised] |
+| [c65e501](https://github.com/paleofoundation/heavymetalindex/commit/c65e501) | 2026-05-19 | ingest: rahim2020-toxic-heavy-metals-fruits-pakistan [enhanced] from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

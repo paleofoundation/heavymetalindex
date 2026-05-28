@@ -17,6 +17,9 @@ products: ["[[products/poultry-product]]", "[[products/eggs-product]]"]
 matrices: ["chicken-thigh", "chicken-breast", "quail-meat", "quail-eggs"]
 jurisdictions: ["IQ"]
 sample_population: "Imported and local poultry products consumed in Erbil city, including chicken thigh, chicken breast, quail meat, and quail eggs"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -54,3 +57,14 @@ The source supports poultry product occurrence routing for Erbil market/import c
 
 - Source identity checked against DOI 10.25130/tjas.23.2.17 and the downloaded PDF.
 - The title contains a source typo ("resides" for residues); the page title preserves the source wording in frontmatter.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

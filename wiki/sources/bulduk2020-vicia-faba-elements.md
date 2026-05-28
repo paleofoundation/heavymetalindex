@@ -17,6 +17,9 @@ products: ["[[products/herbal-botanical-infusions]]", "[[products/supplements-bo
 matrices: ["herbal-botanicals", "dried-herbs"]
 jurisdictions: ["TR"]
 sample_population: "Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -55,3 +58,14 @@ The source fills botanical infusion and herbal supplement evidence for a non-Cam
 ## Verification notes
 
 The paper uses the phrase "consumed as tea" for Vicia faba flowers and leaves; this page treats the matrix as herbal infusion/botanical material rather than Camellia sinensis tea. The exact Vicia faba flower/leaf names are narrow sample descriptors; frontmatter uses broader herbal-botanical routing terms. The table prints the zinc leaf uncertainty with a less-than symbol, so the page records the mean without treating that symbol as a standard deviation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [00a2af1](https://github.com/paleofoundation/heavymetalindex/commit/00a2af1) | 2026-05-26 | audit auto-fetched 2026-05-26 1028 batch 1 fixes |
+| [b5ce026](https://github.com/paleofoundation/heavymetalindex/commit/b5ce026) | 2026-05-26 | ingest auto-fetched 2026-05-26 1030 batch 1: 4 source pages |
+<!-- END: hmi-page-history -->

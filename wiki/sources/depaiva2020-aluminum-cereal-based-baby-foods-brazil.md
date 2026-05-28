@@ -18,6 +18,9 @@ jurisdictions: [BR]
 sample_n: 35
 sample_population: "Thirty-five cereal-based infant cereal samples acquired in Campinas, Brazil from three brands (A, B, C) across distinct batches. Six product compositions per Table 1: multicereals (n=9; wheat/rice/corn/oatmeal/barley flours), fruit-based banana+apple (n=6; rice flour + corn starch + dehydrated banana/apple), rice flour and oat (n=6), fruit-based plum (n=3; rice flour + oatmeal + malt + dehydrated plum), corn flour (n=6), and rice flour (n=5). Total Al by ICP-OES after microwave-assisted nitric+peroxide digestion; bioaccessible fraction by INFOGEST-style in vitro digestion. LOD 53 µg/kg; LOQ 89 µg/kg."
 acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/depaiva2020.pdf); Filippini-2020-equivalent candidate substituted from the wishlist's Al-baby-cereal slot."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -108,3 +111,14 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/baby-cereals-dry-non-rice]]
 - [[products/infant-and-child-foods-master]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [50f001d](https://github.com/paleofoundation/heavymetalindex/commit/50f001d) | 2026-05-09 | ingest: depaiva2020-al-cereal-baby-foods-brazil — closes Al-baby-cereal gap (n=35 across 6 compositions; n_a_tier 1→2 both rice and non-rice cereal) |
+<!-- END: hmi-page-history -->

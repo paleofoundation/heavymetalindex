@@ -18,6 +18,9 @@ matrices: [root-vegetable, leafy-vegetable, fruit-vegetable]
 jurisdictions: [BD]
 sample_n: 27
 sample_population: "Vegetables grown in a Gazipur industrial-area water-soil-crop system in Bangladesh"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-27
 ---
 
@@ -58,3 +61,14 @@ The source supports arsenic occurrence context for vegetables grown with contami
 ## Verification notes
 
 The source reports arsenic as As without speciation, so this page routes it as total arsenic rather than inorganic arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

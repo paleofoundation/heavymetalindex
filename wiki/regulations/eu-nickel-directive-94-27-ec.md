@@ -8,6 +8,7 @@ metal: Ni
 matrix: skin-contact-products
 status: historical-as-described-in-source
 source_refs: [lgc2003-nickel-piercing-post-assemblies]
+wiki_doi: null
 updated: 2026-04-29
 ---
 
@@ -42,3 +43,13 @@ This regulation page is relevant to nickel hazard, dermal sensitisation, and con
 - [[sources/lgc2003-nickel-piercing-post-assemblies]]
 - [[metals/nickel]]
 - [[testing/en-1811-nickel-release]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dafe852](https://github.com/paleofoundation/heavymetalindex/commit/dafe852) | 2026-04-29 | Ingest nickel piercing post report |
+<!-- END: hmi-page-history -->

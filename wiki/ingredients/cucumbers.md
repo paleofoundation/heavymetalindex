@@ -21,6 +21,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 4
 created_by: autonomy_v0
@@ -99,4 +100,16 @@ Cucumber derivatives include fresh cucumber, pickled cucumber (gherkins, dill pi
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to cucumber products sold in California.
 - EU Sn-in-canned-food regulation sets 200 mg/kg for canned vegetables including canned pickled cucumber.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
+| [2d94f57](https://github.com/paleofoundation/heavymetalindex/commit/2d94f57) | 2026-05-17 | synthesis: beet, raspberries, guava, cucumbers, squash, parsley — 6 narrative sections each |
+| [0b917c5](https://github.com/paleofoundation/heavymetalindex/commit/0b917c5) | 2026-05-17 | stubs: strip 'autonomy-created stub' prose from 41 pages that now have structure |
+<!-- END: hmi-page-history -->

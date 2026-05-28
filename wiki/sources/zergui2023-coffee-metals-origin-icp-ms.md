@@ -19,6 +19,9 @@ products: ["[[products/coffee]]"]
 matrices: [instant-coffee, ground-coffee, coffee-beans, coffee-capsules]
 jurisdictions: [DZ]
 sample_n: 44
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -61,3 +64,14 @@ Evidence tier B: small n (44), single-marketplace sampling in Algeria. Country-o
 - [[metals/aluminium]]
 - [[metals/lead]]
 - [[ingredients/coffee]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [6de0a7c](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7c) | 2026-05-12 | ingest: batch-C (10 PDFs) — seasonal-geographic-variance manual-fetch |
+<!-- END: hmi-page-history -->

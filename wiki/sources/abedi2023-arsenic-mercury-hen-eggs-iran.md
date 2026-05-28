@@ -20,6 +20,9 @@ jurisdictions: [IR]
 near_duplicates: [FM_10334572_Consumer_health_risk_assessment_of_Arsenic_and_Mercury_in_he]
 sample_n: 84
 sample_population: "84 hen eggs from 21 major commercial brands purchased from 30 supermarkets in five districts of Tehran, Iran, in winter (January) and summer (August) 2022"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -60,3 +63,16 @@ App: tAs 0.79 µg/kg and tHg 0.18 µg/kg WW for commercial eggs, Tehran market 2
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[ingredients/eggs]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [8c1225e](https://github.com/paleofoundation/heavymetalindex/commit/8c1225e) | 2026-05-13 | ingest p4-batch13-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

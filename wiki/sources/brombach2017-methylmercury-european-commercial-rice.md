@@ -20,6 +20,9 @@ jurisdictions: [EU, UK]
 sample_n: 87
 sample_population: "Eighty-seven commercial rice products purchased in supermarkets and Asian-food suppliers in the UK, Germany, and Switzerland: rice grains across cultivars (Indian Basmati n=8, Long Grain n=14, Jasmin n=6, Sweet n=5, wild n=3, Japonic n=24, Risotto n=2, Indica n=1, Paella n=1, white n=1, unclassified white n=10), rice noodles (n=2 samples 8-9), rice flour (n=1 sample 10), pre-cooked milled baby-food rice for rice porridge (n=7, samples 11-17), and rice cakes for toddlers (n=2, samples 18-19). Methylmercury determined by SPE-HPLC-CV-AFS validated against species-specific isotope-dilution GC-ICP-MS (SS-ID-GC-ICPMS) on a 19-sample subset; MeHg LOD 0.12 µg/kg, LOQ 0.36 µg/kg. Total Hg by CV-AFS, LOD 0.02 µg/kg, LOQ 0.06 µg/kg."
 acquired_via: "Karen externally fetched 2026-05-09 via direct author email; PDF preserved at raw/external-fetch/brombach2017.pdf for internal use only."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -103,3 +106,15 @@ Karen externally fetched this paper on 2026-05-09 by direct email correspondence
 - [[products/mixed-meals-rice-containing]]
 - [[ingredients/rice]] (MeHg/tHg ingredient-level cascade)
 - [[products/infant-and-child-foods-master]] (MeHg rice-cereal cell upgrade)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [717bcd1](https://github.com/paleofoundation/heavymetalindex/commit/717bcd1) | 2026-05-09 | resynthesis: cycle 22 — Brombach 2017 baby-rice-specific n=9 refinement; Weldegebriel 2025 method-quality review |
+| [24a3453](https://github.com/paleofoundation/heavymetalindex/commit/24a3453) | 2026-05-09 | ingest: brombach2017-mehg-european-rice — closes rice MeHg gap (n=87 incl. 7 baby-rice + 2 toddler rice cakes; Path A n_a_tier=2) |
+<!-- END: hmi-page-history -->

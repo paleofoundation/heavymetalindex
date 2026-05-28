@@ -15,6 +15,7 @@ products_status: scaffold
 splits_locked: false
 literature_scope: thin
 sources: 5
+wiki_doi: null
 updated: 2026-05-17
 ---
 # Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)
@@ -100,3 +101,17 @@ HMT&C certification thresholds for this row are developed under the certificatio
 
 <!-- BEGIN: hmi-source-legend -->
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [afa3c3c](https://github.com/paleofoundation/heavymetalindex/commit/afa3c3c) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-55-15Z — gap-healing + extraction + pooling + briefings |
+| [0a783b0](https://github.com/paleofoundation/heavymetalindex/commit/0a783b0) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-17-21Z — gap-healing + extraction + pooling + briefings |
+| [fc68ee7](https://github.com/paleofoundation/heavymetalindex/commit/fc68ee7) | 2026-05-18 | autonomy: daemon tick 2026-05-17T21-12-57Z — gap-healing + extraction + pooling + briefings |
+| [c8eb9e8](https://github.com/paleofoundation/heavymetalindex/commit/c8eb9e8) | 2026-05-17 | autonomy: daemon tick 2026-05-17T20-32-37Z — gap-healing + extraction + pooling + briefings |
+| [e5675da](https://github.com/paleofoundation/heavymetalindex/commit/e5675da) | 2026-05-17 | autonomy: daemon tick 2026-05-17T18-36-31Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

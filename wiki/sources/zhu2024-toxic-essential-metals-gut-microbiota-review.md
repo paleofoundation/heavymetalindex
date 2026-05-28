@@ -16,6 +16,9 @@ ingredients: []
 products: []
 matrices: [gut-microbiome, metabolic-pathway]
 jurisdictions: [CN]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -41,3 +44,13 @@ Toxic-metal-microbiota interactions are bidirectional: metals shape microbiota a
 - [[metals/mercury]]
 - [[metals/nickel]]
 - [[microbiome/metals-microbiota-bidirectional-axis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5b9ea5](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea5) | 2026-05-08 | ingest: digest-batch-5-nickel-microbiome — 10 source pages (Ni + metals-microbiome) |
+<!-- END: hmi-page-history -->

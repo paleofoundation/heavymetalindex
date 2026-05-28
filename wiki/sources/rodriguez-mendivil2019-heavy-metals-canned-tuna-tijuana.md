@@ -20,6 +20,9 @@ matrices: [fish]
 jurisdictions: [MX]
 sample_n: 68
 sample_population: "48 samples of canned tuna (6 samples × 8 brands) and 20 samples of fresh fish (5 samples × 4 species: mako shark, yellowfin tuna, soupfin shark, swordfish) purchased in Tijuana, Mexico in 2016"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -100,3 +103,15 @@ Total mercury measured by cold vapor atomic absorption spectrometry (CVAAS), USE
 - The source reports eight canned-tuna groups using anonymized codes only; this page aggregates the canned-tuna table to avoid turning anonymized group rows into a wiki-side product ranking.
 - The paper cites NOM-027-SSA1-1993 and NOM-028-SSA1-1993 for Mexican MPL comparisons. Those rules had already been cancelled by the 2011 successor NOM-242-SSA1-2009, so this page preserves the author-cited benchmark while linking the current successor regulation separately.
 - 2026-05-18 fresh-context audit: REVISE verdict; two minor findings applied (matrix vocabulary narrowed to `fish`; unsupported "acid" qualifier removed from microwave-assisted digestion wording); brand firewall and HMT&C firewall clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3009905](https://github.com/paleofoundation/heavymetalindex/commit/3009905) | 2026-05-18 | ingest (codex): rodriguez-mendivil2019 canned tuna tijuana |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

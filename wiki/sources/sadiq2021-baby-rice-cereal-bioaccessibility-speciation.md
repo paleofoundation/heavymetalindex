@@ -20,6 +20,9 @@ jurisdictions: [CA]
 near_duplicates: []
 sample_n: 3
 sample_population: "Three commercial baby rice cereal brands purchased in Kingston, Ontario, Canada; ages 6 months and up; n=6 replicates per sample"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-15
 ---
 
@@ -105,3 +108,13 @@ Sample size: n=3 brands, n=6 replicates per sample per method. Study conducted a
 - [[metals/arsenic]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ad03d65](https://github.com/paleofoundation/heavymetalindex/commit/ad03d65) | 2026-05-15 | ingest papers-cube-new-tier1: 3 pages (baby rice cereals sadiq2021, parker2022 baby food risk, gardener2019 infant formula) |
+<!-- END: hmi-page-history -->

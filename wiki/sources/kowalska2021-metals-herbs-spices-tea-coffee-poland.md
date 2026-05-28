@@ -19,6 +19,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 240
 sample_population: "240 plant material samples from eastern Poland: herbs (n=163), spices (n=61), China tea/green tea (n=8), Arabica roasted coffee beans (n=8); collected 2015–2018 from farms in eastern Poland and imported products from Lublin supermarkets"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ---
 
@@ -103,3 +106,14 @@ ICP-MS (Varian 820-MS) for Pb, Cd, As; mercury analyzer AMA 254 for Hg. Microwav
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[regulations/eu-reg-1881-2006]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

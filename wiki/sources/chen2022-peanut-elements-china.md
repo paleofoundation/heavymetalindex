@@ -22,6 +22,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 66
 sample_population: "66 peanut samples from six Chinese provinces, purchased at acquisition stations near peanut-harvest land in lots of at least 3 kg, then homogenized: Jilin (n=10, northeast), Liaoning (n=10, northeast), Hebei (n=15, north), Henan (n=19, north-central), Guangxi (n=5, south), Guangdong (n=7, south). Each sample measured in triplicate by ICP-MS; values reported on fresh-weight basis."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -97,3 +100,15 @@ Source-internal note: the paper's CRM is GBW10011 (soybean, per Section 2.2 reag
 - **Numerical fidelity re-verified** against the PDF tables: Cd by province (Table 3), Pb by province (Table 3), As by province (Table 3), Cr by province (Table 3), Ni by province (Table 3), Al by province (Table 3), LODs and LOQs (Table 2), CRM recoveries (Table 2), LDA correct-classification 97.0% original / 78.8% cross-validated (Table 5), ANOVA p-values for non-significant elements (Pb p=0.516, Cr p=0.263, As p=0.077, Al p=0.222) — all verified verbatim from the paper.
 - **Part 12 brand firewall:** no brand names appear in source-page body. Method-section vendor and instrument names (Thermo Fisher Scientific HNO3, Sinopharm H2O2, Milli-Q ultrapure water, Midea MJ-BL80Y21 homogenizer, MARS5 CEM microwave, iCAP Q Thermo ICP-MS, Inorganic Ventures stock standards, SPSS 23.0 IBM) are scientific-method vendors permitted under the 2026-05-17 strict-reading Exception 2 (instruments, reagents, and statistical software named for reproducibility, not as brand attribution to contamination values).
 - **Part 2 wiki/HMTc firewall:** the Implications section reports what the paper found (occurrence dataset, geographic differentiation, geocarpic biology) and the regulatory comparisons the paper itself draws. It does not propose HMTc thresholds, does not synthesize across other literature, and does not issue consumer risk advisories.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7cc2e37](https://github.com/paleofoundation/heavymetalindex/commit/7cc2e37) | 2026-05-28 | ingest: chen2022-peanut-elements-china [enhanced] from Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

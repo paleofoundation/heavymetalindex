@@ -22,6 +22,9 @@ jurisdictions: [EU]
 near_duplicates: [efsa-nickel-contam-2020]
 sample_n: 18885
 sample_population: "18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European Member States 2003–2012; ~80% of the total from one Member State (Germany). EFSA Comprehensive European Food Consumption Database used for the exposure assessment: 26 chronic surveys in 17 countries (5,200+ individuals across seven age classes) plus 32 acute surveys in 22 countries. Toxicity reference points derived from confidential SLI (2000a, b) 1-generation dose-range (DRF) and 2-generation rat studies in Wistar rats (post-implantation loss, F0/F1) and three clinical SCD-elicitation studies in Ni-sensitised human volunteers (~30 total subjects across Gawkrodger 1986, Hindsén 2001, Jensen 2003)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -169,3 +172,14 @@ This EFSA CONTAM Panel opinion is the European Union's primary risk assessment f
 - No primary brand-attributed contamination data in the opinion (the underlying occurrence dataset is anonymous food samples submitted to EFSA by Member-State authorities); no Part 12 brand-firewall edits required. The 13 outlier beer samples (5.2–14.3 mg Ni/L) the Panel excluded are identified by sampling country only, not by brand.
 - No synthesis claims; no HMTc threshold proposals (Part 2 firewall intact). The Implications/Certification block records the TDI and acute RP as EFSA's derivations and notes the subsequent revision of the chronic TDI in the 2020 update without proposing or comparing HMTc thresholds.
 - Part 12 method-vendor exception preserved: the methods narrative records standardised method codes (ISO 8288:1986, EN ISO 15586:2004, EN ISO 11885:2009, EN ISO 17294-1:2004, EN ISO 17294-2:2003, ISO 8294:1994), the PROAST software identity, the proficiency-test scheme names (FAPAS, Bipea), and Tukey's outlier method — all method/instrument identifiers, not contamination-value attributions, and therefore exempt from Part 12 stripping.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e2716e1](https://github.com/paleofoundation/heavymetalindex/commit/e2716e1) | 2026-05-28 | ingest: efsa2015-nickel-food-water [enhanced] from Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

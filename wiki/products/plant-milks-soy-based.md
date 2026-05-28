@@ -16,6 +16,7 @@ evidence_fitness: EF-3
 public_evidence_label: Modeled or limited evidence
 review_state: phase3
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-09
 sources: 2
 ---
@@ -182,3 +183,17 @@ When this page's source evidence changes — a new source is added to the Source
 No public recalls or enforcement actions specifically targeting heavy metals in soy-based plant milks are documented in the wiki's source corpus as of the last review. This section will be populated when regulatory enforcement events are ingested.
 
 _Frame: if FDA, EU, or national-agency enforcement actions involving heavy metals in this product category are identified in future ingest, they will appear here as regulatory events. This section does not rank brands._
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
+| [ed8e81c](https://github.com/paleofoundation/heavymetalindex/commit/ed8e81c) | 2026-05-14 | autonomy: firewall lint+fix and mandatory-sections audit+autofill |
+| [5599709](https://github.com/paleofoundation/heavymetalindex/commit/5599709) | 2026-05-13 | phase 0: lock HMTc methodology, remove admission filter, evict standards arithmetic from wiki/ |
+| [e422f34](https://github.com/paleofoundation/heavymetalindex/commit/e422f34) | 2026-05-13 | products: draft missing mandatory sections on 5 plant-milk and infant-support pages (focus: Levers) |
+<!-- END: hmi-page-history -->

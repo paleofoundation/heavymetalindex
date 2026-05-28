@@ -21,6 +21,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 26
 sample_population: "Twenty-six product-code rows from Campo Grande, Mato Grosso do Sul, Brazil: 16 canned-tuna rows (four coded companies across natural grated, oil grated, solid natural, and solid-in-oil formats) and 10 canned-sardine rows (five coded companies across oil and tomato-sauce formats). The article reports triplicate analytical readings and gives ambiguous wording about individual can counts."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -100,3 +103,15 @@ For risk-calculation context, the HRI and PI tables are source-side calculations
 - Fresh-context audit (Codex subagent, 2026-05-18) returned REVISE for narrow HRI wording and matrix-vocabulary cleanup; revised the Al/As HRI sentence and changed `matrices` to broad `fish`.
 - The source tables use coded company identifiers. This page intentionally reports ranges by product form rather than company-code rows to satisfy the strict Part 12 brand firewall.
 - Paper-internal inconsistency: Table 2 reports Ni below LOD in all canned-sardine concentration rows, but Table 6 reports one canned-sardine Ni HRI value of 4.08. This page preserves the Table 2 concentration result and flags the HRI inconsistency rather than treating Ni as a measured above-LOD sardine contaminant.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [17e814d](https://github.com/paleofoundation/heavymetalindex/commit/17e814d) | 2026-05-19 | audit queue fire batch 2: 10 source pages |
+| [2c972be](https://github.com/paleofoundation/heavymetalindex/commit/2c972be) | 2026-05-18 | ingest (codex): delima2021 canned tuna sardines merge-enhance |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

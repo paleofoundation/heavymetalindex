@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 10
 sample_population: "Ten commercially available Rhodiola rosea supplement products (7 capsular, 3 tinctures) purchased on the U.S. market in 2024"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -64,3 +67,17 @@ ICP-MS (Agilent 7900) following AOAC methods 2015.01, 2011.19, and 993.14 with m
 
 - [[products/dietary-supplements]]
 - [[ingredients/rhodiola-rosea]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [a0d9a61](https://github.com/paleofoundation/heavymetalindex/commit/a0d9a61) | 2026-05-12 | ingest: P4 batch 1 group 2 — 1 source page, 49 false positives |
+<!-- END: hmi-page-history -->

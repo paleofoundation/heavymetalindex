@@ -20,6 +20,9 @@ products: ["[[products/infant-formula-powder-non-soy]]"]
 matrices: [infant-formula]
 jurisdictions: [ET]
 sample_n_notes: "Mekelle, Ethiopia retail infant formula sampling; AAS quantification"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -46,3 +49,14 @@ B-tier evidence rating reflects the small Ethiopian-market sample, the AAS rathe
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[products/infant-formula-powder-non-soy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ products: ["[[products/root-tuber-vegetables]]"]
 matrices: [carrot, wastewater-irrigated-carrot]
 jurisdictions: [EG]
 sample_n: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -47,3 +50,14 @@ App: Egyptian and broadly MENA-origin carrots warrant an elevated metal risk fla
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[supply-chain/irrigation-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

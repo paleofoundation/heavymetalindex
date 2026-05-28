@@ -21,6 +21,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 100
 sample_population: "100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted per Part 12) sold in Gdańsk, Poland; 10 product batches total (80 packages in glass jars, 20 in cans); sampled 2016"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -125,3 +128,15 @@ Microbiome: Not addressed.
 - [[metals/cesium]]
 - [[metals/barium]]
 - [[regulations/eu-1881-2006-contaminants-superseded]] (parent framework as amended by EC 629/2008; this was the regulation in force during the paper's 2016 sampling and is now superseded by EU 2023/915)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e9e3413](https://github.com/paleofoundation/heavymetalindex/commit/e9e3413) | 2026-05-28 | audit: pankavec2019-pickled-mushrooms-poland-minerals revised |
+| [7f00de5](https://github.com/paleofoundation/heavymetalindex/commit/7f00de5) | 2026-05-28 | ingest: pankavec2019-pickled-mushrooms-poland-minerals enhanced from Manual Fetch Kimi/condiment_papers/03_Olives_and_Pickles |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

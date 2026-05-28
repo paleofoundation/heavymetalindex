@@ -19,6 +19,9 @@ products: ["[[products/tea-infusions]]", "[[products/true-tea-camellia-sinensis]
 matrices: [tea-herb, tea-infusion, black-tea, green-tea]
 jurisdictions: []
 sample_n: 157
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -47,3 +50,16 @@ App: Tea herb matrix carries Pb, Cd, Al, Ni, Cr signals; brewing parameters affe
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/aluminum]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [87efb16](https://github.com/paleofoundation/heavymetalindex/commit/87efb16) | 2026-05-12 | ingest: P4 batch 4 group 3 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

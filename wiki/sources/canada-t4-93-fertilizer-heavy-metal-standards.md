@@ -20,6 +20,9 @@ products: []
 matrices: [fertilizer, soil-amendment, compost, sewage-sludge]
 jurisdictions: [CA]
 sample_n: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -68,3 +71,15 @@ Standards reflect maximum acceptable cumulative loading, not current product con
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[supply-chain/fertilizer]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [29a65ac](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac) | 2026-05-12 | ingest: batch-E seasonal-geographic-variance — 9 source pages |
+<!-- END: hmi-page-history -->

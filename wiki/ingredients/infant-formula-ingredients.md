@@ -21,6 +21,7 @@ higher_risk_variants: ["[[ingredients/soy]]"]
 used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]"]
 audience: [regulator, educator, consumer, app]
 sources: 12
+wiki_doi: null
 updated: 2026-05-16
 ---
 
@@ -109,4 +110,16 @@ The downstream derivatives are the various finished formula formats (powder, RTF
 
 The applicable regulatory framework is the finished-formula framework at [[ingredients/infant-formula-powder]] and [[ingredients/infant-formula-rtf-liquid]]: [[regulations/eu-2023-915|EU Reg. 2023/915]] binding MLs for Pb, Cd, iAs, Hg in infant formula; FDA Closer to Zero action levels; [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] international Codex framework; California Prop 65 MADL serving-based screen for California-sold formulas. Ingredient-level supplier specifications align with finished-formula MLs through per-input testing programs.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [30f27cb](https://github.com/paleofoundation/heavymetalindex/commit/30f27cb) | 2026-05-17 | synthesis: 5 more Cat 1 ingredient pages — infant-formula-rtf-liquid, infant-formula-concentrated-liquid, infant-cereal-ingredients, infant-formula-ingredients, meat-and-poultry-purees |
+| [f907793](https://github.com/paleofoundation/heavymetalindex/commit/f907793) | 2026-05-17 | sweep: regenerate body tables and trim stub-marker prose on touched pages |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+<!-- END: hmi-page-history -->

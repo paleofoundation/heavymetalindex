@@ -20,6 +20,9 @@ jurisdictions: [MX]
 near_duplicates: []
 sample_n: 20
 sample_population: "Twenty commercial infant formula samples analyzed for Pb after reconstitution according to manufacturer instructions; positive samples are reported only as anonymized sample numbers."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -75,3 +78,14 @@ Microbiome: Not addressed.
 - Strict brand firewall: the paper reports only anonymized positive sample numbers in the result table. This page does not name or rank commercial brands.
 - The "10 to 43 ug/kg" range in the abstract is reconciled with Table 5 values of 10.26-42.59 ug/kg by preserving the exact Table 5 values and noting the abstract's rounded range.
 - Methods vendor/equipment names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1b3bf6f](https://github.com/paleofoundation/heavymetalindex/commit/1b3bf6f) | 2026-05-25 | audit floresaguilar2022 infant formula source |
+| [aecfcae](https://github.com/paleofoundation/heavymetalindex/commit/aecfcae) | 2026-05-19 | ingest auto-gap: infant formula element sources |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [CH]
 near_duplicates: []
 sample_n: 29
 sample_population: "27 commercial plant-based drinks (8 species: oat, soy, almond, rice, coconut, hemp, spelt, cashew) plus 2 reference cow's milk samples, purchased in Switzerland"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -44,3 +47,14 @@ App: Supports contamination_profile entries for plant-based milk/rice milk ingre
 - [[ingredients/plant-based-milk]]
 - [[products/plant-based-beverages]]
 - [[metals/tAs]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [7da5b3c](https://github.com/paleofoundation/heavymetalindex/commit/7da5b3c) | 2026-05-13 | ingest p4-batch16-g1: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

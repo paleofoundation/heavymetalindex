@@ -20,6 +20,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 20
 sample_population: "Seasonal water samples from 5 drinking fountains (stations) in Şarkışla district, Sivas Province, Turkey; 2022; 4 seasons × 5 stations = 20 observations per analyte"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -74,3 +77,15 @@ Microbiome: Not addressed.
 - [[metals/cadmium]]
 - [[metals/manganese]]
 - [[regulations/who-drinking-water-guidelines]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [509f5e7](https://github.com/paleofoundation/heavymetalindex/commit/509f5e7) | 2026-05-13 | ingest p4-batch13-g4: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

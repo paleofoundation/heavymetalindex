@@ -17,6 +17,9 @@ products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables
 matrices: ["carrot", "potato", "onion"]
 jurisdictions: ["KZ"]
 sample_population: "Carrot, potato, and onion samples subjected to different food-processing treatments"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -53,3 +56,14 @@ The source can support processing-context discussion for carrots, potatoes, and 
 ## Verification notes
 
 The lead and cadmium concentrations reported for some processed vegetables are high enough to warrant C-tier handling. This is not escalated because the source itself provides extractable values and the appropriate repository action is cautious routing, not a human-only decision.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [0d9d380](https://github.com/paleofoundation/heavymetalindex/commit/0d9d380) | 2026-05-26 | ingest auto-fetched 2026-05-26 2220 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

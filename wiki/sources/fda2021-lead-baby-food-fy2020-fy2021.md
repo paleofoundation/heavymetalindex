@@ -19,6 +19,9 @@ matrices: [baby-food, fruit-puree, root-vegetable-puree, non-root-vegetable-pure
 jurisdictions: [US]
 sample_n_total: 416
 sample_n_notes: "416 baby-food samples from FY2021 in the published table; the FY2020-FY2021 supporting dataset combines into the wider FDA baby-food Pb evidence base later expanded by the FY2009-FY2024 TEP-AsPbCdHg compliance dataset and the FY2023 guidance-development survey."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -53,3 +56,14 @@ The 416-sample table is FY2021-only and is one slice of a longer FDA baby-food s
 - [[products/non-root-vegetable-purees]]
 - [[products/mixed-meals-non-rice]]
 - [[products/baby-cereals-dry-non-rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [9d0e44d](https://github.com/paleofoundation/heavymetalindex/commit/9d0e44d) | 2026-05-08 | ingest: digest-batch-2-fda-pb-regulatory — 4 FDA Pb data sources |
+<!-- END: hmi-page-history -->

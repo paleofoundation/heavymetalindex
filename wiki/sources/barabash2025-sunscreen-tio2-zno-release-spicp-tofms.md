@@ -21,6 +21,9 @@ jurisdictions: [CA]
 near_duplicates: []
 sample_n: 2
 sample_population: "Two unbranded commercial mineral sunscreens designated SS1 and SS2. SS1 contained 24.08% (w/w) ZnO per the manufacturer's specification; SS2 contained 9% (w/w) ZnO and 7% (w/w) TiO2 per the manufacturer's specification. Acid-digestion confirmed total contents of 28 ± 2% ZnO for SS1 and 9.8 ± 0.4% ZnO with 6.3 ± 0.2% TiO2 for SS2. Each sunscreen was leached into three aqueous matrices in triplicate at two exposure times: ultrapure water (Milli-Q, 18.2 MΩ·cm at 25 °C), a slightly acidic dissolved-organic-carbon-rich soft water from Lac-Croche (Québec, Canada; pH ~6.0, DOC ~3.4 mg C/L), and a slightly basic hard water from the St-Lawrence River (Montréal, Québec; pH ~7.5, DOC ~2.0 mg C/L). Sampling May to July 2024."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -158,3 +161,14 @@ Page citations refer to the published PDF (Environ. Sci.: Nano, 2025, 12, 4994-5
 - 2025-09-23 (publication): Environ. Sci.: Nano, 2025, 12, 4994-5007. Received 4 May 2025, accepted 22 September 2025. CC BY-NC 3.0.
 - 2026-05-18 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read in two chunks (pages 1-7, pages 8-14) via the `pages` parameter; all of abstract, introduction, experimental, results/discussion (composition of soft/hard waters, dissolution of ZnO NP, NP release, elemental ratios, isotopic ratios, Spearman correlation), conclusion, acknowledgements, and references read in full. Source page written, routing audit refresh queued, audit-queue append queued.
 - 2026-05-18 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict REVISE. One Check-1 numerical-fidelity finding flagged on the SS2 single-element-Zn fraction phrasing; on independent verification against the source PDF (p. 4998), the audit was correct and the wording was corrected to match the source exactly ("~2-9% of detected particles in the natural waters and ~50% in the ultrapure water"). Two Check-2 ⚠️ findings were accepted as already-flagged or known-false-positive of the taxonomy snapshot (sun-suntan-products exists in wiki/products/; surface-water matrices flag already in Verification notes). Check 3 (speciation/methods), Check 4 (Part 12 brand firewall), and Check 5 (Part 2 wiki/HMTc firewall) all clean. All 30+ numerical values across sunscreen composition, dissolved Zn, Ti/Zn release, particle masses, Si/Zn and Fe/Zn ratios, and Spearman correlations independently verified.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9e11321](https://github.com/paleofoundation/heavymetalindex/commit/9e11321) | 2026-05-18 | audit: barabash2025-sunscreen-tio2-zno-release-spicp-tofms revised |
+| [a58b433](https://github.com/paleofoundation/heavymetalindex/commit/a58b433) | 2026-05-18 | ingest: barabash2025-sunscreen-tio2-zno-release-spicp-tofms fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+<!-- END: hmi-page-history -->

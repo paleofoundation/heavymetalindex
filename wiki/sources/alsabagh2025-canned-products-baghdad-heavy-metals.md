@@ -17,6 +17,9 @@ products: ["[[products/canned-fruit]]"]
 matrices: ["canned-pineapple", "canned-fruit-cocktail", "canned-vegetables"]
 jurisdictions: ["IQ"]
 sample_population: "Canned products from local markets in Baghdad, Iraq"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -53,3 +56,13 @@ The source supports canned-pineapple and canned-fruit context. Units are mg/100 
 
 - Source identity checked against DOI 10.63799/AJOS/14.2.7 and the downloaded PDF.
 - The PDF labels cobalt as "Cobalt" and "Co"; no arsenic values are reported for the pineapple rows in the extracted table text.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4123c63](https://github.com/paleofoundation/heavymetalindex/commit/4123c63) | 2026-05-25 | ingest auto-fetched 2026-05-25 1746 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

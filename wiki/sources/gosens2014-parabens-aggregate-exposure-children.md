@@ -19,6 +19,9 @@ jurisdictions: [NL, EU]
 near_duplicates: []
 sample_n: 28
 sample_population: "Modeled population from a pilot survey of Dutch parents of 28 children (13 girls, 15 boys) aged 0-3 years; aggregate-exposure methodology applied to 12 personal-care product types"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -63,3 +66,15 @@ The paper applies two tiered exposure-assessment frameworks. Tier 1 (determinist
 - "baby-salve" is not in the current product taxonomy; closest existing slug is [[products/baby-lotion-cream]] or [[products/diaper-cream-zno]] / [[products/diaper-cream-non-zno]] depending on intended use. Flagging for Part 10 review.
 - 2026-05-17 merge-enhance: corrected license to CC BY-NC-ND 3.0 (paper is open-access per the back-cover Creative Commons notice, not "All rights reserved"); fixed transposed body-surface-area attribution in the scaling-factor bullet (4800 cm² is the child application area, 17,500 cm² is the adult — the prior wording reversed them); replaced "plus a generic leave-on" placeholder with "two-in-one shampoo" (the actual 12th product type per the Methods description on p. 209).
 - 2026-05-17 audit pass (fresh-context subagent, PROMOTE verdict with 2 ⚠️ minor concerns): narrowed butylparaben body-lotion contribution from "~15-25%" to "~10-20%" to match Figure 3d more accurately; corrected agency name in Methods from "NWWA" (a typo printed in the paper text on p. 209) to "NVWA" (Netherlands Food and Consumer Product Safety Authority, as credited in reference 8 of the paper), with an inline annotation preserving the source-text discrepancy.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e87a1fd](https://github.com/paleofoundation/heavymetalindex/commit/e87a1fd) | 2026-05-17 | audit: gosens2014-parabens-aggregate-exposure-children promoted-with-refinements |
+| [7b1f967](https://github.com/paleofoundation/heavymetalindex/commit/7b1f967) | 2026-05-17 | ingest: gosens2014-parabens-aggregate-exposure-children enhanced from MFK/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

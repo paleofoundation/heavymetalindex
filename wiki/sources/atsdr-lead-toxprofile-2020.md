@@ -20,6 +20,9 @@ jurisdictions: [US]
 superseded_by: null
 raw_handle_marker: FM_4509523_Korean_research_project_on_the_integrated_exposure_assessmen
 near_duplicates: ["[[sources/atsdr2020-lead-toxicological-profile]]"]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-25
 ---
 
@@ -41,3 +44,16 @@ ATSDR has not derived Minimal Risk Levels (MRLs) for lead in any route or durati
 ## Wiki pages updated on ingest
 
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [6b2cd85](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85) | 2026-05-12 | ingest: P3 agency tier — 18 source pages created |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [36ff5c8](https://github.com/paleofoundation/heavymetalindex/commit/36ff5c8) | 2026-04-25 | Lead batch: 9 source pages, 4 regulation pages, populated metals/lead.md |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [DJ]
 near_duplicates: []
 sample_n: 6
 sample_population: "Six seaweed species collected from the Djiboutian coastline (Red Sea and Gulf of Aden)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -68,3 +71,15 @@ Microbiome: Not applicable.
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [ffb63b3](https://github.com/paleofoundation/heavymetalindex/commit/ffb63b3) | 2026-05-12 | ingest: P4 batch 4 group 4 — 4 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

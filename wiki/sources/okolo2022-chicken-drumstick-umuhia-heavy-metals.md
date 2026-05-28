@@ -17,6 +17,9 @@ products: ["[[products/poultry-product]]"]
 matrices: ["chicken-drumstick", "fresh-chicken", "frozen-chicken"]
 jurisdictions: ["NG"]
 sample_population: "Fresh and frozen commercial chicken drumsticks from Umuahia metropolis, Abia State, Nigeria"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -53,3 +56,14 @@ The source supports poultry-meat occurrence context for Nigerian market chicken,
 
 - Source identity checked against DOI 10.46676/ij-fanres.v3i3.113 and the downloaded PDF.
 - Table II provides the routeable concentration values; values are preserved in mg/kg as reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [53f221f](https://github.com/paleofoundation/heavymetalindex/commit/53f221f) | 2026-05-25 | ingest auto-fetched 2026-05-25 1748 batch 2: 8 source pages |
+<!-- END: hmi-page-history -->

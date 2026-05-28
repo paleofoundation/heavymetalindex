@@ -21,6 +21,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: 138281
 sample_population: "138,281 test records for aquatic-food products extracted from the WHO Food Safety Collaborative Platform (FOSCOLLAB), which integrates JECFA, JMPR, GEMS/Food, FAO/WHO CIFOCOss, and other UN/WHO Collaborating Centre databases. Records cover four aquatic-food aggregate categories (cephalopods, molluscs excluding cephalopods, crustaceans, fish) with the fish category further split into demersal marine fish, pelagic marine fish, other marine fish, and freshwater fish. Records from 39 reporting countries/regions, mapped to apparent-consumption data for 224 countries and regions (60.2 % of global aquatic-food consumption represented in measured data; remaining countries assigned global-average concentrations). Wet-weight basis; dried-fish records (n = 106, 0.076 % of dataset) excluded."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -188,3 +191,16 @@ Microbiome: Not addressed.
 - [[products/fresh-fish]]
 - [[products/shellfish]]
 - [[products/fish-marine-predatory]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [16b07f6](https://github.com/paleofoundation/heavymetalindex/commit/16b07f6) | 2026-05-18 | audit: xu2025-heavy-metals-aquatic-foods-global revised |
+| [1e66add](https://github.com/paleofoundation/heavymetalindex/commit/1e66add) | 2026-05-18 | ingest: xu2025-heavy-metals-aquatic-foods-global enhanced from Papers Cube Manual Fetch |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+<!-- END: hmi-page-history -->

@@ -22,6 +22,9 @@ matrices: [rice-cereal]
 jurisdictions: [US]
 sample_n: 306
 sample_population: "Three infant-rice-cereal datasets: 81 samples from 2011-2013, 76 samples from 2014, and 149 samples from 2018."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -107,3 +110,15 @@ App: The 2018 dataset provides a recent FDA surveillance context for US-market i
 - Replaced the older invalid regulation link `fda-ctz-iAs-cereal-100ppb` with the live regulation page `fda-iAs-rice-cereal-100ppb`.
 - Replaced older certification-limit language with source-only implications for standards work, courses, and app context.
 - Strict brand-firewall check: the source references 12 Consumer Reports samples as part of the 2011-2013 dataset, but this page does not report any brand-specific values or rankings.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [22a69e6](https://github.com/paleofoundation/heavymetalindex/commit/22a69e6) | 2026-05-19 | audit queue fire batch 3: 6 source pages |
+| [5f69125](https://github.com/paleofoundation/heavymetalindex/commit/5f69125) | 2026-05-18 | ingest (codex): fda2020 ias rice cereal supporting doc |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

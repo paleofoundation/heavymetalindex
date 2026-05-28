@@ -15,6 +15,7 @@ evidence_fitness: EF-5
 public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-09
 literature_scope: thin
 sources: 1
@@ -130,3 +131,17 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 ## Historical recalls and enforcement
 
 No flavored-water recall or enforcement event has been promoted into this page yet. The current enforceable context is the FDA bottled-water lead standard already shown in the crosswalk. Any future enforcement synthesis should distinguish plain bottled water, flavored water, fruit drinks, and infant or toddler drinks before drawing comparisons.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d2e28f7](https://github.com/paleofoundation/heavymetalindex/commit/d2e28f7) | 2026-05-25 | fill flavored-waters synthesis prose |
+| [21f4b32](https://github.com/paleofoundation/heavymetalindex/commit/21f4b32) | 2026-05-17 | checkpoint: accumulated multi-agent work + daemon transient-list broaden |
+| [8a699bd](https://github.com/paleofoundation/heavymetalindex/commit/8a699bd) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-44-44Z — gap-healing + extraction + pooling + briefings |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
+<!-- END: hmi-page-history -->

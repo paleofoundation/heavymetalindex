@@ -19,6 +19,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Systematic database compilation of published bioaccessibility and bioavailability data for Cd, Pb, Hg, and As across different food matrices; EFSA EU-FORA fellowship programme, University of Maribor and Jozef Stefan Institute, Slovenia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -54,3 +57,13 @@ App: bioaccessibility corrections are not currently implemented in the app model
 - [[metals/lead]]
 - [[metals/mercury]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6edd24b](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b) | 2026-05-13 | ingest p4-batch16-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "Multiple fruit juice types (apple, pear, grape, pomegranate, prune, cherry) from commercial sources"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,15 @@ Microbiome: Not addressed.
 - [[ingredients/apple-juice]]
 - [[ingredients/grape-juice]]
 - [[regulations/fda-iAs-apple-juice-10ppb]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [364792f](https://github.com/paleofoundation/heavymetalindex/commit/364792f) | 2026-05-13 | ingest p4-batch14-g4: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

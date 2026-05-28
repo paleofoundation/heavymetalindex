@@ -22,6 +22,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 17
 sample_population: "17 edible vegetable oil samples from Turkish food markets: soybean, hazelnut, almond, natural olive, riviera olive (3 types), virgin olive, olive frying, sunflower (5 types), corn (3 types)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -103,3 +106,17 @@ Limitation: This is a 2008 study with no speciation. The method is dilute-acid e
 - 2026-05-18 Codex regulation cleanup: created [[regulations/eu-466-2001-contaminants-superseded]] as the historical regulation node for the EC 466/2001 citation; the paper's Pb 0.10 mg/kg vegetable-oil benchmark is preserved as an author-cited comparison.
 - 2026-05-18 Cross-vendor audit (Codex) tightened regulatory framing: the paper supports the EC 466/2001 Pb comparison and explicitly says no legislation existed for Cd, Cu, and Zn, but it does not support a broad all-metals "within regulatory limits" statement or a Ni no-limit claim.
 - Source-internal note: the Discussion prose says the lowest Pb value was 0.012 mg/kg for sunflower oil (c), but Table 3 reports 0.0012 mg/kg for sunflower oil (c) and several 0.0000 entries; this page follows Table 3. The prose also says the lowest Cd value was 0.0003 mg/kg in almond oil, while Table 4 reports 0.0002 mg/kg in corn oil (a); this page follows Table 4.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eb66ab0](https://github.com/paleofoundation/heavymetalindex/commit/eb66ab0) | 2026-05-18 | lint (codex): pehlivan duplicate route cleanup |
+| [dc36ffd](https://github.com/paleofoundation/heavymetalindex/commit/dc36ffd) | 2026-05-18 | audit (codex): pehlivan2008 vegetable oils revised |
+| [66f91dc](https://github.com/paleofoundation/heavymetalindex/commit/66f91dc) | 2026-05-17 | ingest: pehlivan2008 vegetable oils enhanced |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

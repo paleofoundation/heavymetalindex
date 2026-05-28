@@ -20,6 +20,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 20
 sample_population: "8 Baby Milk (milk-based powder) and 12 Infant Formulae (cereal-based) products purchased from supermarket and grocery retailers within Umuahia metropolis, Abia State, Nigeria; all locally produced; sampled at monthly intervals over 3 months, two years before shelf-life expiration"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -132,3 +135,17 @@ Audit-pass 2026-05-17 by fresh-context subagent (REVISE verdict): 1 ❌ + 4 ⚠�
 - **Cross-vendor audit (Codex, 2026-05-17).** Corrected the baby-milk Cr limit statement from "at WHO limit" to below the 0.3 mg/kg limit; tightened the opening summary around the missing Table 3 Cr THQ column and Table 2/abstract Ni inconsistency; updated the nickel wiki-touch note to 5 of 8 baby milk samples; retained the existing matrix correction to `[infant-formula-powder, infant-cereal]`.
 
 - **Wiki/HMTc-firewall compliance (Part 2).** The Implications section reports what this single paper found and the limits of its data; no synthesis claim about the broader literature is made, and no HMTc-threshold comparison is included.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d2cbeb0](https://github.com/paleofoundation/heavymetalindex/commit/d2cbeb0) | 2026-05-17 | audit-queue: mgbemena2026 status -> audited-revised; brand-firewall sweep on source page |
+| [882a81c](https://github.com/paleofoundation/heavymetalindex/commit/882a81c) | 2026-05-17 | audit: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals revised |
+| [c75d66e](https://github.com/paleofoundation/heavymetalindex/commit/c75d66e) | 2026-05-17 | ingest: mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals enhanced from MFK/06_Infant_Foods_Formula |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [2d4429e](https://github.com/paleofoundation/heavymetalindex/commit/2d4429e) | 2026-05-13 | ingest: P4 batch 17 close — 29 source pages, 200 handles (positions 5168-5367) + kimi-cat06 5 pages |
+<!-- END: hmi-page-history -->

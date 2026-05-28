@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 877
 sample_population: "877 agricultural soil samples from four cities in coastal eastern Zhejiang Province, China (Ningbo, Taizhou, Shaoxing, Jinhua); paddy fields (48.35%), upland fields (27.94%), tea gardens, orchards"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -70,3 +73,15 @@ Microbiome: Not directly addressed.
 - [[metals/chromium]]
 - [[ingredients/rice]]
 - [[supply-chain/soil]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [15eca2e](https://github.com/paleofoundation/heavymetalindex/commit/15eca2e) | 2026-05-12 | orchestrator: subprocess dispatcher + trial diagnostic action |
+<!-- END: hmi-page-history -->

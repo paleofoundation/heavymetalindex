@@ -21,6 +21,9 @@ jurisdictions: [CA, CN, FR, TH, TR, DE]
 near_duplicates: []
 sample_n: null
 sample_population: "Peer-reviewed review of published arsenic-speciation literature for freshwater fish; primary data tables summarize studies from Canada, China, France, Thailand, Turkiye, Germany, and other jurisdictions."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -76,3 +79,14 @@ For methods documentation, the source is useful for explaining why arsenic speci
 ## Verification notes
 
 - Manual-fetch merge-enhance (Codex, 2026-05-18): corrected raw metadata for P0174, replaced over-specific matrix terms with broad `fish`, corrected the Changsha crucian-carp rows to dry weight, removed old HMTc/course/app language, and retained only taxonomy-backed source links.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fdb011c](https://github.com/paleofoundation/heavymetalindex/commit/fdb011c) | 2026-05-18 | ingest (codex): hoy2023 arsenic freshwater fish merge-enhance |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

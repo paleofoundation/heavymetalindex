@@ -20,6 +20,9 @@ jurisdictions: [AT]
 near_duplicates: []
 sample_n: 30
 sample_population: "30 rice and rice products (polished, parboiled, unpolished/husked rice, rice crackers, infant rice products) purchased from food shops around Graz, Austria"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -68,3 +71,16 @@ App: Austrian market rice (n=30): iAs 60–249 µg/kg; mean iAs 74% of tAs. Infa
 - [[ingredients/rice]]
 - [[products/infant-rice-cereal]]
 - [[regulations/eu-iAs-rice-2023]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [3f107ba](https://github.com/paleofoundation/heavymetalindex/commit/3f107ba) | 2026-05-12 | ingest: P2 remaining-group3 — 9 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

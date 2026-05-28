@@ -20,6 +20,9 @@ matrices: [shellfish, mollusk]
 jurisdictions: [PH]
 sample_n: null
 sample_population: "Two bivalve species from Cagayan Valley, Philippines: freshwater clam (Corbicula fluminea) and marine mussel (Mytilus edulis); collected with BFAR Region 02 permit; number of individual specimens not reported beyond species-level results"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -65,3 +68,16 @@ The study is useful for source inventory and methods-context purposes, especiall
 
 - The source does not report the number of individual bivalves analyzed; `sample_n` is therefore left null rather than treating the two species as two analytical samples.
 - The paper reports Cd and Pb only; no mercury, arsenic, chromium, aluminum, nickel, tin, or speciation data are present.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a26f2f2](https://github.com/paleofoundation/heavymetalindex/commit/a26f2f2) | 2026-05-18 | ingest (codex): raju2021 bivalves cagayan merge-enhance |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

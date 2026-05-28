@@ -20,6 +20,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 107
 sample_population: "80 powdered infant formula samples from 8 commercial brands (age strata 0–6 months, 6–12 months, above 1 year) and 27 baby food samples from 6 commercial brands (age strata 6–8, 8–12, 12–18, 18–24 months); domestic and imported products purchased from supermarkets and pharmacies across Mashhad, Iran; three seasonal collection rounds at four-month intervals between June 2020 and June 2021"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -193,3 +196,17 @@ Monte Carlo simulation via Crystal Ball v11.1.34190 (10,000 iterations) at 95% c
 - Paper-internal note: the authors substitute the inhalation-route Cancer Slope Factor for Cr in place of the (non-established) oral-route CSF (limitation 2, p. 14). This is explicitly named in the source; downstream Cr threshold work should treat the CR values as a methodological-uncertainty signal, not as direct evidence for an oral Cr-VI carcinogenicity endpoint.
 - 2026-05-17 audit subagent (general-purpose, Phase 2 of `/ingest-next-manual-fetch-pdf` v2.0) returned PROMOTE on all five checks against the source PDF. Optional enhancement applied: the p. 5 / Table 2 Cd inconsistency note above. No corrections required; no false positives recorded.
 - 2026-05-17 second-pass merge-enhance (Claude Code, `/ingest-next-manual-fetch-pdf` skill v2.0, re-process of the originally-named PDF): identified a Co/Hg LOD transposition that both the prior subagent PROMOTE pass and the Codex REVISE pass missed. Source PDF p. 3 body text states verbatim "0.0014mg/kg for cobalt, 0.012mg/kg for mercury"; the predecessor revision (and both subsequent audits) recorded "Co 0.012 mg/kg, Hg 0.0014 mg/kg" — i.e., the Co and Hg LOD values were swapped. The downstream consequence is that the Hg below-LOD censoring threshold reported on this page was off by an order of magnitude (0.0014 vs the correct 0.012 mg/kg). Corrected both the LOD list and the Hg below-LOD statement. No other Table 2 / Table 3 / Table 4 values touched on this pass; the Codex SD audit is preserved as-is.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [82a0b6c](https://github.com/paleofoundation/heavymetalindex/commit/82a0b6c) | 2026-05-18 | ingest: rahati2026-infant-formula-baby-food-iran-health-risk enhanced from Manual Fetch Kimi/06_Infant_Foods_Formula |
+| [2c5dcf6](https://github.com/paleofoundation/heavymetalindex/commit/2c5dcf6) | 2026-05-17 | audit (codex): rahati2026 infant formula revised |
+| [b237644](https://github.com/paleofoundation/heavymetalindex/commit/b237644) | 2026-05-17 | audit: rahati2026-infant-formula-baby-food-iran-health-risk promoted |
+| [bddf6cf](https://github.com/paleofoundation/heavymetalindex/commit/bddf6cf) | 2026-05-17 | ingest: rahati2026-infant-formula-baby-food-iran-health-risk enhanced from Manual Fetch Kimi /06_Infant_Foods_Formula |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

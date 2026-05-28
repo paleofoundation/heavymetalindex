@@ -21,6 +21,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review chapter; no primary samples. Surveys analytical and remediation literature for heavy metals across foods and beverages broadly (cereals, beans, fish, meat, fruits, herbal drinks, alcoholic and non-alcoholic beverages, soft drinks, wines)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -130,3 +133,15 @@ Audit subagent (2026-05-18) flagged three ⚠️ advisory items — all applied:
 - [[metals/cobalt]]
 - [[metals/barium]]
 - [[metals/beryllium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [91c1d10](https://github.com/paleofoundation/heavymetalindex/commit/91c1d10) | 2026-05-18 | audit: deka2023-monitoring-strategies-heavy-metals-chapter promoted |
+| [78a658b](https://github.com/paleofoundation/heavymetalindex/commit/78a658b) | 2026-05-18 | ingest: deka2023-monitoring-strategies-heavy-metals-chapter enhanced from Papers Cube Manual Fetch |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+<!-- END: hmi-page-history -->

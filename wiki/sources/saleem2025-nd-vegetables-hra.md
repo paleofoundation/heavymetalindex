@@ -18,6 +18,9 @@ matrices: [fresh-vegetable, leafy-vegetable, root-vegetable, fruit-vegetable]
 jurisdictions: [US]
 sample_n: 82
 sample_population: "82 samples across 13 locally grown vegetable species (potato n=8, onion n=7, tomato n=7, sugar beet n=7, green chili n=7, dill n=5, corn n=7, spinach n=5, white eggplant n=5, kale n=5, green bean n=7, capsicum n=6, cucumber n=6) purchased from Town Square Farmer's Market, Grand Forks, North Dakota, USA; mid-June through September (seasonal); 2–3 sub-samples per species from different vendors combined into single bag per species"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -101,3 +104,13 @@ App: Spinach should carry elevated-Cd and elevated-Pb flags. Cucumber should car
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

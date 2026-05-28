@@ -21,6 +21,7 @@ higher_risk_variants: []
 used_in_products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-rtf-liquid-non-soy]]"]
 audience: [regulator, educator, consumer, app]
 sources: 53
+wiki_doi: null
 updated: 2026-05-16
 ---
 
@@ -141,4 +142,16 @@ Dairy-based dietary supplements (whey protein powders, collagen-from-bovine-sour
 - US Pasteurized Milk Ordinance (PMO) covers milk safety but does not maintain binding heavy-metal action levels for cow milk; FDA defers to general food contamination policy.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to milk and dairy sold in California; the serving-based screen governs.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [9a565f0](https://github.com/paleofoundation/heavymetalindex/commit/9a565f0) | 2026-05-20 | autonomy: daemon tick 2026-05-20T08-23-56Z — gap-healing + extraction + pooling + briefings |
+| [1ac7363](https://github.com/paleofoundation/heavymetalindex/commit/1ac7363) | 2026-05-20 | autonomy: daemon tick 2026-05-19T22-04-26Z — gap-healing + extraction + pooling + briefings |
+| [96dc130](https://github.com/paleofoundation/heavymetalindex/commit/96dc130) | 2026-05-20 | autonomy: daemon tick 2026-05-19T21-10-50Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

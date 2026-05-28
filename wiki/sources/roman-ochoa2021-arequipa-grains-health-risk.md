@@ -19,6 +19,9 @@ products: ["[[products/legumes-pulses-other]]"]
 matrices: [polished-rice, paddy-rice, quinoa, maize, bean, extruded-snack, grain-flour]
 jurisdictions: [PE]
 sample_n: 53
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -68,3 +71,14 @@ As values for rice are reported as total arsenic, not speciated; iAs fraction un
 - [[metals/cadmium]]
 - [[ingredients/rice]]
 - [[ingredients/quinoa]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

@@ -1,0 +1,72 @@
+---
+title: Errata and corrections
+description: How to submit a correction to a Heavy Metal Index page, what the Index does on receipt, and the public log of substantiated corrections.
+audience: [regulator, brand-legal, brand-qa, researcher, journalist, consumer]
+wiki_doi: null
+updated: 2026-05-28
+---
+
+# Errata and corrections
+
+The Heavy Metal Index is a curated reference. The corpus is large (over a thousand source pages and growing) and the underlying literature is fast-moving; substantive errors are inevitable. This page documents how corrections are submitted, what the Index does on receipt, and the public log of substantiated changes. It is the public-facing complement to the version history stored in [git](https://github.com/paleofoundation/heavymetalindex) and rendered on every page in the "Page history" footer.
+
+This commitment is part of the [[methodology|editorial methodology]] and [[editorial-standards|editorial standards]]. It is also one of the structural requirements for the defensibility argument the Index rests on: a curated reference whose errors are visibly tracked and corrected is more credible than one whose errors are silently fixed or never acknowledged.
+
+## How to submit a correction
+
+Email **karen@paleofoundation.com** with the subject line **"Heavy Metal Index correction: [page slug]"**. Include:
+
+1. The page URL and the specific claim, number, or citation you are challenging.
+2. The correction you believe is warranted.
+3. The source that supports your correction. The Index is a literature-grounded reference; corrections that cite verifiable primary sources (peer-reviewed papers, agency documents, formal datasets) are actionable immediately. Corrections that argue from authority alone receive a slower review.
+4. Your relationship to the subject matter if it is relevant. The Foundation tracks but does not require this; it helps calibrate the review.
+
+A web form for correction submissions is on the roadmap. Until then, email is the supported channel.
+
+## What happens on receipt
+
+The Index's correction workflow operates in three states.
+
+**Acknowledged** (within 5 business days of receipt). The Foundation confirms receipt and, where the correction is obvious (a transposed digit, a misattributed source, a broken link), applies the fix and replies with the commit hash. Acknowledged corrections that are not obvious are routed to substantive review.
+
+**Substantive review.** The Foundation re-reads the underlying source page or pages, verifies the disputed claim against the originating literature, and decides on one of three actions: (a) apply the correction; (b) reject the correction with a written rationale to the submitter; (c) note the dispute on the page and proceed to external review if the issue is significant.
+
+**External review.** For corrections that touch synthesis claims, regulatory interpretation, or anything load-bearing for the Heavy Metal Tested & Certified (HMT&C) program, the Foundation engages an external domain expert before applying or rejecting. The external review takes longer (typically 2–6 weeks) and the outcome is logged whether the correction is upheld or rejected.
+
+In every case the submitter receives a written reply with the decision and the rationale.
+
+## Disagreements
+
+If the Foundation rejects a correction and the submitter believes the rejection is itself an error, the dispute escalates to the [[editorial-standards|editorial-standards governance process]]. The disposition of escalated disputes is logged below alongside applied corrections.
+
+The Foundation does not promise to apply every correction submitted. It does promise to (a) reply, (b) state the rationale, and (c) record both upheld and rejected corrections in the public log below.
+
+## Public log of substantiated corrections
+
+This section is the auditable record of corrections that were applied or formally addressed. It is maintained chronologically with most-recent at the top. Each entry names the page, the change, the date, and the originating commit. The full version history of every page also renders at the bottom of the page itself (see "Page history" footer).
+
+_The errata log starts here. As corrections accumulate, they will be appended in reverse-chronological order. The empty state is honest: the public Index is being built openly, with the bulk of the corpus published in the first half of 2026; the correction stream begins as readers start to engage substantively with the published content._
+
+| Date | Page | Change | Originating commit | Status |
+| --- | --- | --- | --- | --- |
+| _no entries yet_ | | | | |
+
+## What is in scope for an erratum
+
+- A factual error in a published claim (wrong number, wrong unit, wrong species).
+- A misattributed source (a claim citing a paper that does not support it).
+- A broken link to a primary source, or a stale `access_url:` that no longer resolves.
+- A retraction of a source paper that the Index has not yet propagated to dependent pages.
+- A regulatory value that has changed and the Index has not yet updated.
+- A unit-conversion error.
+
+## What is not an erratum
+
+- A disagreement with the [[methodology]] or [[editorial-standards]] of the Index. These are open to discussion via the same channel but are not "corrections" in the per-page sense.
+- A request that the Index reach a different synthesis conclusion in the absence of new evidence. The Index will revisit a synthesis when the contributing evidence base changes substantially (see [[CLAUDE|CLAUDE.md § Part 9]]); a request to revisit absent new evidence is logged but does not trigger a re-synthesis.
+- A request to soften or strengthen a claim to align with a particular policy position. The Index reports what the literature supports; alignment with policy is not its job.
+- A request to remove or alter brand-identifying information. There is none in the Index by design (see [[editorial-standards]] § Brand-level data: hard firewall); requests in this category are out of scope and are forwarded to the relevant Foundation contact.
+
+## Why this page exists
+
+Cochrane, the canonical curated medical reference, treats erratum management as load-bearing infrastructure. Its corrections process is documented, its outcomes are logged, and its credibility is partly the cumulative result of decades of visibly handled disputes. The Heavy Metal Index inherits that model — both because it is the right epistemic stance and because the [[methodology|defensibility argument]] the Index rests on requires it.

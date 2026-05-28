@@ -19,6 +19,9 @@ matrices: [breast-milk, meta-analysis]
 jurisdictions: [global, sub-saharan-africa, mediterranean-europe]
 sample_n: 42
 sample_population: "Meta-analysis of 42 studies: 25 from Sub-Saharan Africa (SSA), 17 from Mediterranean Europe; lactating women and nursing infants; investigates regional disparities in breast milk metal(loid) concentrations"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -57,3 +60,14 @@ Certification: Breast milk metal burdens in SSA indicate that lactational exposu
 - [[metals/lead]]
 - [[metals/mercury]]
 - [[health/breastfeeding-metals-protection]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

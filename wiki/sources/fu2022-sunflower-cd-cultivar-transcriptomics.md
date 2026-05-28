@@ -19,6 +19,9 @@ products: ["[[products/sunflower-seeds]]"]
 matrices: [sunflower-shoot, sunflower-root]
 jurisdictions: [CN, UA]
 sample_n: 2
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -49,3 +52,15 @@ Hydroponic conditions at supraphysiological Cd concentrations (25–100 µM); fi
 
 - [[ingredients/sunflower-seed]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [29a65ac](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac) | 2026-05-12 | ingest: batch-E seasonal-geographic-variance — 9 source pages |
+<!-- END: hmi-page-history -->

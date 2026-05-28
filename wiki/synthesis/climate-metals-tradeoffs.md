@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/rice]]", "[[ingredients/freshwater-fish]]"]
 products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/seyfferth2025-rice-water-management-as-hg-cd]]", "[[sources/limmer2024-arsenic-cadmium-rice-irrigation]]", "[[sources/wu2025-climate-meghan-freshwater-fish-china]]"]
 established: 2026-05-13
+wiki_doi: null
 updated: 2026-05-13
 ---
 
@@ -79,3 +80,14 @@ The findings on this page have been propagated to the following downstream wiki 
 This synthesis page was promoted from the routing layer on 2026-05-13. The three anchor sources were ingested across two parallel sessions (Claude in Obsidian doing P4 bulk ingest; Claude Code Tier 2 source-legend filling) over the prior 24 hours. The thematic cluster was first surfaced in the P4 batch 9 status read on 2026-05-13: Obsidian Claude noted that Wu 2025 (batch 9), Seyfferth 2025, and Limmer 2024 (both ingested earlier in the seasonal-geographic-variance batch) independently document climate-mediated heavy-metal trade-offs in HMTc-priority matrices, and that the convergence warranted a dedicated synthesis page.
 
 The promotion criterion, refined here so it can be applied to future candidate threads, is documented at [[synthesis|the synthesis index]] under "When to promote a synthesis findings page".
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [abd3a7c](https://github.com/paleofoundation/heavymetalindex/commit/abd3a7c) | 2026-05-13 | propagate climate-metals-tradeoffs synthesis to 6 downstream pages |
+| [22990ad](https://github.com/paleofoundation/heavymetalindex/commit/22990ad) | 2026-05-13 | synthesis: climate × metals trade-offs page + promotion framework |
+<!-- END: hmi-page-history -->

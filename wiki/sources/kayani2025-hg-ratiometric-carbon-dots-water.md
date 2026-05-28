@@ -19,6 +19,9 @@ matrices: [water, analytical-method]
 jurisdictions: []
 sample_n: null
 sample_population: "Tap water and bottled water spiked with Hg2+ (n=3 per sample type)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -46,3 +49,14 @@ App: Not applicable; no food concentration data reported.
 
 ## Wiki pages updated on ingest
 - [[testing/mercury-detection-methods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [7dd9201](https://github.com/paleofoundation/heavymetalindex/commit/7dd9201) | 2026-05-12 | ingest: p2-sub2 batch — Kayani 2025 Hg ratiometric fluorescence sensor (water) |
+<!-- END: hmi-page-history -->

@@ -24,6 +24,9 @@ near_duplicates: []
 sample_n: null
 sample_population: "FDA TEP and TDS surveillance: FY2011 retail survey n=94 (speciated); FY2013-2022 TEP n=160 (total As, 14 speciated); FY2013-2020 TDS n=47 composite samples"
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -108,3 +111,17 @@ Audit subagent (2026-05-19, fresh-context general-purpose) flagged two ⚠️ co
 - Check 5 ⚠️: Implications → Certification bullet proposed a "market-ratcheting target near 5 ppb iAs" derived from achievability data, which crosses the Part 2 boundary between describing occurrence data and proposing HMTc threshold values. Rewrote the bullet to surface the FY2011 and FY2013-2022 achievability percentages as occurrence inputs to the Standards Workbench, and to state explicitly that threshold selection is a workbench decision per Part 2 / Part 19.
 
 Checks 1, 2, 4 returned clean. No false-positive rejections this pass.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [026baa5](https://github.com/paleofoundation/heavymetalindex/commit/026baa5) | 2026-05-19 | audit: fda2023-ias-apple-juice-guidance [revised] |
+| [21a6c76](https://github.com/paleofoundation/heavymetalindex/commit/21a6c76) | 2026-05-19 | ingest: fda2023-ias-apple-juice-guidance [enhanced] from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+<!-- END: hmi-page-history -->

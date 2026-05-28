@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/bivalve-molluscs]]", "[[ingredients/shellfish]]", "
 products: ["[[products/seafood]]", "[[products/canned-fish]]"]
 anchor_sources: ["[[sources/bao2024-sp-icp-ms-nps-mussels]]", "[[sources/bruno2024-metals-mussels-clams-faro-lake-sicily]]", "[[sources/dogruyol2024-mediterranean-mussels-health-risk]]", "[[sources/rohonczy2024-arctic-foodweb-cd-hg]]", "[[sources/cardoso2023-mercury-portuguese-coast-seafood]]"]
 established: 2026-05-18
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -79,3 +80,13 @@ The two-tier framework (option 1) is the recommended starting point. Option 2 or
 ## How this page was promoted
 
 Established 2026-05-18 from the seafood-axis evidence consolidation. The bivalve-finfish Cd differential has been documented in the literature for decades (the EU's per-category Cd cap differential dates to the original EC 466/2001 framework) but had not been treated as a standalone synthesis on the wiki. The page exists to ensure HMTc Cd certification thresholds on the seafood category are designed with the bivalve-finfish differential built in from the start.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [49bebbc](https://github.com/paleofoundation/heavymetalindex/commit/49bebbc) | 2026-05-18 | synthesis: 5 new synthesis pages for HMTc seafood/cereal/regulatory work |
+<!-- END: hmi-page-history -->

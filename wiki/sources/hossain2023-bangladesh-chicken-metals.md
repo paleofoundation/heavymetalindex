@@ -20,6 +20,9 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: 108
 sample_population: "108 samples from 18 broiler chickens (6 body parts × 3 chickens × 6 Dhaka North City Corporation markets): breast muscle, liver, gizzard, heart, kidney, brain"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -65,3 +68,16 @@ App: Pb and Cd data for poultry liver and muscle in a developing-country context
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [872a866](https://github.com/paleofoundation/heavymetalindex/commit/872a866) | 2026-05-13 | ingest p4-batch9-g2: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

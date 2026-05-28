@@ -21,6 +21,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 3
 created_by: autonomy_v0
@@ -99,4 +100,16 @@ Pepper essential oil and pepper oleoresin are derivatives used in flavor and die
 - FDA does not maintain a binding action level for Pb in pepper specifically; FDA's guidance on heavy metals in spices ([[regulations/fda-guidance-heavy-metals-spices]] when added) anchors the US framing.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to pepper-containing consumer products sold in California; the serving-based screen drives most enforcement attention.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
+| [eddfdfb](https://github.com/paleofoundation/heavymetalindex/commit/eddfdfb) | 2026-05-17 | synthesis: 5 high-traffic ingredient pages — black-pepper, bread, coffee, camellia-sinensis, matcha-powder |
+| [0b917c5](https://github.com/paleofoundation/heavymetalindex/commit/0b917c5) | 2026-05-17 | stubs: strip 'autonomy-created stub' prose from 41 pages that now have structure |
+<!-- END: hmi-page-history -->

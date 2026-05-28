@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 125
 sample_population: "Paired soil-rice samples from Gejiu-Mengzi, Yunnan Province, China (karst high-geochemical-background region)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -71,3 +74,15 @@ App: Treat the rice-grain Cd and tAs values as region-specific occurrence contex
 - Cross-vendor audit (Codex, 2026-05-17) corrected matrix terms to broad current vocabulary (`rice`, `soil`), removed a non-existent China GB 2762 regulation wikilink, replaced the umbrella arsenic link with `arsenic-total`, and removed wet-weight labeling that the source methods do not support.
 - Strict Part 12 recheck found no sampled-product brand names. Instrument and software vendor names in the methods are retained under Part 12 Exception 2 for scientific reproducibility.
 - The reported rice values are not whole-study means; 0.381 mg/kg Cd and 1.12 mg/kg tAs are means for the quadrant-I soil-unsafe/rice-unsafe subset.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [12cdbab](https://github.com/paleofoundation/heavymetalindex/commit/12cdbab) | 2026-05-17 | audit (codex): wei2025 yunnan rice thresholds revised |
+| [1b0ab1a](https://github.com/paleofoundation/heavymetalindex/commit/1b0ab1a) | 2026-05-13 | sources: access_url backfill on 14 newly-ingested pages + balzani fix |
+| [98e0e7c](https://github.com/paleofoundation/heavymetalindex/commit/98e0e7c) | 2026-05-13 | ingest p4-batch6-g3: 1 page, 49 FP |
+<!-- END: hmi-page-history -->

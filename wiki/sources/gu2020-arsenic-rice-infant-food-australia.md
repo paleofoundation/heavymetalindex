@@ -20,6 +20,9 @@ jurisdictions: [AU]
 sample_n: 39
 sample_population: "Thirty-nine rice-based infant food products purchased in Australia: rice milk powder (n=3), rice pasta (n=3), rice cereal (n=12), rice crackers (n=21). Non-rice comparator pasta (n=3) and non-rice milk powder (n=3) also analyzed. Total arsenic by nitric-acid-digestion ICP-MS; inorganic arsenic by acid-extraction ICP-MS with hydride-generation interface."
 acquired_via: "PubMed E-utilities EFetch JATS XML (db=pmc, id=PMC7014030) — 2026-05-09 autonomous run"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -88,3 +91,14 @@ Initial PubMed E-utilities query for OA candidates returned this PMID via the `(
 - [[products/teething-and-snacks-rice-based]]
 - [[products/plant-milks-rice-based]]
 - [[products/infant-and-child-foods-master]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [1b628b2](https://github.com/paleofoundation/heavymetalindex/commit/1b628b2) | 2026-05-09 | ingest: gu2020-australia-rice-infant-food-arsenic — loop cycle 1, third OA acquisition (n=39) |
+<!-- END: hmi-page-history -->

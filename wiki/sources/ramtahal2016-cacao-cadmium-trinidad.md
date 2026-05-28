@@ -19,6 +19,9 @@ products: ["[[products/chocolate]]"]
 matrices: [cacao-beans, cacao-nibs, cacao-leaves, cacao-pod-husk, cacao-soil]
 jurisdictions: [TT]
 sample_n: 45
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -47,3 +50,14 @@ App: Trinidad and Tobago is a secondary high-Cd cacao origin (lower volume than 
 - [[ingredients/cocoa]]
 - [[metals/cadmium]]
 - [[supply-chain/soil-cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [87efb16](https://github.com/paleofoundation/heavymetalindex/commit/87efb16) | 2026-05-12 | ingest: P4 batch 4 group 3 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

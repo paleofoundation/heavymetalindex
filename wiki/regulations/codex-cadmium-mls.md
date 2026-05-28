@@ -13,6 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/codex-cccf17-2024]]"]
 title: "Codex Alimentarius — Maximum Levels for Cadmium in Food"
+wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]
 ---
@@ -68,3 +69,17 @@ Pending ingest. EU cadmium MLs are established in Regulation (EU) 2023/915 (the 
 - [[sources/codex-cccf17-2024|Codex CCCF17 2024]] — Codex CCCF, April 2024. Report of the 17th Session (REP24/CF17).
 - [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — General Standard for Contaminants and Toxins in Food and Feed; matrix-level Codex Cd MLs.
 - [[sources/codex-cxc-81-2022|Codex CXC 81-2022]] — Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans, the precedent for the newly-initiated broader CoP work.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2154779](https://github.com/paleofoundation/heavymetalindex/commit/2154779) | 2026-05-03 | sources: ingest Codex CXC 81-2022 cocoa cadmium CoP from FAO; rewire mitigation, cadmium, cocoa   pages to wikilink the new source |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+<!-- END: hmi-page-history -->

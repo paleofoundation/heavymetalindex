@@ -22,6 +22,9 @@ jurisdictions: [SA]
 sample_n: 57
 sample_population: "Fifty-seven samples covering 19 different brands purchased in Turabah province, Saudi Arabia: 3 brands of infant formula (including baby powder milk) + 16 brands of children's foods (potato chips, popcorn, biscuits, cocoa sweets, cream cheese, baby powder milk, indomie noodles, cerelac). Triplicate analysis per brand. Toxic elements (Al, Ba, Pb, Cd, As) and essential trace elements (Mn, Ni, V, Si) by ICP-OES (Plasma Quant PQ 9000, Analytik Jena) after microwave digestion in HNO3+H2O2. LOD/LOQ in ppm: Al 0.0055/0.064; Pb 0.0062/0.086; Cd 0.0051/0.013; As 0.0054/0.046. Recovery 92.3-101.6%."
 acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/elsheikh2020.pdf). CC BY 4.0 OA."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -108,3 +111,16 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 - [[products/baby-cereals-dry-rice-based]] (pending Cerelac brand-specific verification)
 - [[products/baby-cereals-dry-non-rice]] (pending)
 - [[products/infant-and-child-foods-master]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
+| [a1874a9](https://github.com/paleofoundation/heavymetalindex/commit/a1874a9) | 2026-05-09 | ingest: elsheikh2020 — Saudi infant formula + children's foods (n=57; high-Al outliers flagged for follow-up) |
+<!-- END: hmi-page-history -->

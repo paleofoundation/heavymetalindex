@@ -16,6 +16,9 @@ ingredients: []
 products: []
 matrices: [gut-barrier, intestinal-epithelium, gut-microbiome]
 jurisdictions: [US]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -41,3 +44,13 @@ Heavy-metal exposure produces a triple insult: barrier dysfunction (claudin and 
 - [[metals/mercury]]
 - [[metals/chromium-hexavalent]]
 - [[microbiome/heavy-metals-gut-barrier-axis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5b9ea5](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea5) | 2026-05-08 | ingest: digest-batch-5-nickel-microbiome — 10 source pages (Ni + metals-microbiome) |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [US, WHO]
 near_duplicates: []
 sample_n: null
 sample_population: "Theoretical/comparative analysis using reported Se and CH3Hg concentrations in ocean fish and other seafoods"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -49,3 +52,16 @@ App: for fish/seafood ingredient risk scoring, a species-specific HBVSe calculat
 - [[ingredients/fish]]
 - [[ingredients/seafood]]
 - [[health/methylmercury-selenium-antagonism]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [6b2cd85](https://github.com/paleofoundation/heavymetalindex/commit/6b2cd85) | 2026-05-12 | ingest: P3 agency tier — 18 source pages created |
+<!-- END: hmi-page-history -->

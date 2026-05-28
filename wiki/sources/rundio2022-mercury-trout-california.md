@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 61
 sample_population: "Steelhead/rainbow trout (n=20), coastrange sculpin (n=10), and terrestrial and aquatic invertebrates (n=31 pooled samples) from Big Creek watershed, Big Sur coast, California"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -59,3 +62,15 @@ App: trout from coastal California should carry a MeHg risk flag; geographic pro
 - [[metals/mercury]]
 - [[ingredients/trout]]
 - [[ingredients/freshwater-fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [6edd24b](https://github.com/paleofoundation/heavymetalindex/commit/6edd24b) | 2026-05-13 | ingest p4-batch16-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

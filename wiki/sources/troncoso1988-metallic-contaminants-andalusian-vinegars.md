@@ -21,6 +21,9 @@ jurisdictions: [ES]
 near_duplicates: []
 sample_n: 16
 sample_population: "16 white wine vinegar samples from Western Andalusia (mainly Sherry/Jerez influence area and El Condado, Huelva), Spain; 13 bottled, 3 bulk/non-bottled; 2 aged Sherry vinegars (samples 15 and 16)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -94,3 +97,15 @@ Speciation (Part 14): arsenic is reported as total arsenic (hydride generation f
 - [[metals/copper]]
 - [[metals/zinc]]
 - [[metals/iron]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bd2432e](https://github.com/paleofoundation/heavymetalindex/commit/bd2432e) | 2026-05-28 | ingest: troncoso1988-metallic-contaminants-andalusian-vinegars enhanced from Manual Fetch Kimi/condiment_papers/02_Vinegars |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

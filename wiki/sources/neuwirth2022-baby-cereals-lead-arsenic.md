@@ -19,6 +19,9 @@ matrices: [infant-rice-cereal, baby-juice]
 jurisdictions: [US]
 sample_n: null
 sample_population: "Commentary/opinion reviewing FDA standards and third-party survey data on baby food metals; cites Clean Label Project and other sources; no independent primary data"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -39,3 +42,14 @@ No independent primary concentration data. The 85 ppb iAs figure for infant rice
 ## Wiki pages updated on ingest
 
 - (none; cite FDA primary data for rice cereal iAs claims)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

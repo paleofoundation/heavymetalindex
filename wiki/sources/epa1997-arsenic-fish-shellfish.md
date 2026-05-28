@@ -22,6 +22,9 @@ matrices: [fish, shellfish, dietary-intake, drinking-water]
 jurisdictions: [US]
 sample_n: null
 sample_population: "Literature review of fish and shellfish arsenic data; exposure scenarios derived from USDA Continuing Survey of Food Intake 1989–1991"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -99,3 +102,14 @@ Literature review of published arsenic speciation data for fish and shellfish (B
 - 2026-05-18 Codex merge-enhance: matched existing EPA-822-R-97-003 page to P0154, corrected `raw_handle` and raw path spacing, added SHA-256 provenance, added the broad `products/seafood` route, and replaced narrow matrix strings with broad `fish`, `shellfish`, `dietary-intake`, and `drinking-water` terms.
 - The source report's 50 ppb arsenic MCL references the pre-2001 US drinking-water standard; the current EPA arsenic MCL is 10 ppb.
 - Fresh-context audit (Codex, 2026-05-18) flagged QUARANTINE-level Part 2 wording in the prior implications section; corrected by removing HMT&C/app directives, fixing the freshwater 22-of-23 attribution to the combined Ballin/Lawrence dataset, and softening the Ballin catfish iAs inference to source-supported speciation context.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [086a251](https://github.com/paleofoundation/heavymetalindex/commit/086a251) | 2026-05-18 | ingest (codex): epa1997 arsenic fish shellfish merge-enhance |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

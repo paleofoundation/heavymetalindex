@@ -20,6 +20,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: null
 sample_population: "Four live seagrass species (Syringodium isoetifolium, Halodule pinifolia, Cymodocea serrulata, Halophila ovalis) and dead/decayed offshore seagrass deposition sampled at low tide from the intertidal zone of Thondi coast, Palk Bay (9°4′N, 79°4′E), Tamil Nadu, southeast coast of India, across four seasons (summer, pre-monsoon, monsoon, post-monsoon) from April 2019 to March 2020. Total individual sample count not stated in the paper; each species-season cell reports a mean ± SD."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -126,3 +129,14 @@ Fresh ingest 2026-05-18 from `raw/Papers Cube Manual Fetch/pasumpon2021.pdf`. No
 - Audit subagent (2026-05-18, verdict REVISE) flagged the Mn (line 42) and Zn (line 58) orderings as silent corrections of paper text that contradicts Table 2. Verified against source: FALSE POSITIVE. The subagent read the paper's "decreased: A < B < C < D" as A is mathematically less than D (and therefore A is lowest), which would contradict Table 2. The paper's actual convention (consistent across all four metal orderings in §3.2) is that "decreased" reverses the `<` direction: A is highest. Under the paper's convention, the body text is consistent with Table 2, and the wiki orderings reproduce the paper's intent. No change applied. Pushback documented above.
 - Audit subagent also flagged `matrices: [seagrass]` as ⚠️ for being outside the controlled vocabulary. Verified: this is already disclosed in the Verification notes above (line documenting the new matrix term and routing implications). No additional change applied; the existing Verification note is the intended interim documentation pending Karen's taxonomy-review pass.
 - Audit subagent verdict pushback: REVISE issued primarily on the ordering finding, which is a false positive (paper-notation convention misread). The matrices flag is an acceptance of the existing Verification note. No content changes to the wiki page on either finding. Final disposition: audited-revised with one false-positive rejection documented and one matrices-vocabulary item left as already-disclosed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2dba7e1](https://github.com/paleofoundation/heavymetalindex/commit/2dba7e1) | 2026-05-18 | audit: pasumpon2021-seagrass-heavy-metals-palk-bay revised |
+| [19c72bc](https://github.com/paleofoundation/heavymetalindex/commit/19c72bc) | 2026-05-18 | ingest: pasumpon2021-seagrass-heavy-metals-palk-bay fresh from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

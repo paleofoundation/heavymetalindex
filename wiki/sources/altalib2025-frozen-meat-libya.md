@@ -21,6 +21,9 @@ matrices: [beef-muscle, chicken-muscle, lamb-muscle, processed-meat]
 jurisdictions: [LY]
 sample_n: 30
 sample_population: "Imported frozen meat (chicken, beef, lamb, processed products) from Tripoli commercial markets; origins: Brazil, USA, Jordan, Spain, Australia; Feb–May 2025"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -101,3 +104,16 @@ Cross-sectional study; 30 samples collected Feb–May 2025 from Tripoli retail m
 - The paper contains repeated typographical uses of "Pd" where context and tables identify Pb (lead).
 - The Results prose states that one Pb sample exceeded a "0.05 mg/kg" Libyan limit, but Table 1 and Table 2 give the Pb limit as 0.10 mg/kg; this page uses the tabulated 0.10 mg/kg value and flags the source-internal inconsistency.
 - Product slugs `beef-product`, `poultry-product`, `lamb-mutton`, and `processed-meats` exist as Category 11 routing destinations, although the GPT taxonomy snapshot had lagged this category during the initial manual-fetch pass.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [222c028](https://github.com/paleofoundation/heavymetalindex/commit/222c028) | 2026-05-19 | audit queue fire batch 1: 10 source pages |
+| [c16c786](https://github.com/paleofoundation/heavymetalindex/commit/c16c786) | 2026-05-18 | ingest (codex): altalib2025 frozen meat libya merge-enhance |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

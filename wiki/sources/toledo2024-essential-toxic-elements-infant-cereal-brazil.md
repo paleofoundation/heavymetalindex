@@ -27,6 +27,9 @@ matrices: [rice-cereal, cereal-grain, dietary-intake]
 jurisdictions: [BR]
 sample_n: 18
 sample_population: "Eighteen Brazilian infant-cereal samples acquired in 2014-2015: 9 rice cereals, 5 multi-grain cereals containing rice, and 4 non-rice-based cereals."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -149,3 +152,14 @@ App: The Table 3 sample extraction can support jurisdiction-labeled Brazilian oc
 - Removed the unsupported `Sn` frontmatter metal from the older page; tin appears in the Brazilian infant-food regulation background but was not one of the paper's reported infant-cereal concentration analytes.
 - Replaced older cross-study HMTc comparison prose with source-only risk-assessment results to preserve the wiki/HMTc firewall.
 - Strict brand-firewall check: the source says the 18 samples came from eight brands, but this page does not name or rank any sampled brand.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9bd8d48](https://github.com/paleofoundation/heavymetalindex/commit/9bd8d48) | 2026-05-18 | ingest (codex): toledo2024 infant cereal brazil |
+| [c2f8cfd](https://github.com/paleofoundation/heavymetalindex/commit/c2f8cfd) | 2026-05-09 | ingest: toledo2024-brazil-infant-cereal — Brazilian infant cereal toxic elements via PMC OA fetch (n=18 sample-level) |
+<!-- END: hmi-page-history -->

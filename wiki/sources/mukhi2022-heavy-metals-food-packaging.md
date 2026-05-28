@@ -25,6 +25,9 @@ jurisdictions: [IN, EU]
 near_duplicates: []
 sample_n: 13
 sample_population: "13 food and drug packaging materials procured from a local market in Mangalore, Karnataka, India: aluminium can, aluminium bag, aluminium box, leak-proof bag, cardboard, aseptic carton (the paper uses the brand-name term 'tetrapak'), cellophane, tissue, sachet, plastic bag, plastic container, medicinal blister packet, medicinal closure. Eleven food-packaging items and two drug-packaging items. Each sample 10 g; triplicate ICP-OES runs."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -148,3 +151,16 @@ Microbiome: Not addressed.
 - [[metals/mercury-total]]
 - [[metals/vanadium]]
 - [[mitigation/packaging-and-storage]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99656ab](https://github.com/paleofoundation/heavymetalindex/commit/99656ab) | 2026-05-18 | audit: mukhi2022-heavy-metals-food-packaging revised |
+| [720bfcb](https://github.com/paleofoundation/heavymetalindex/commit/720bfcb) | 2026-05-18 | ingest: mukhi2022-heavy-metals-food-packaging enhanced from Papers Cube Manual Fetch (v3 PDF re-read) |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [5028098](https://github.com/paleofoundation/heavymetalindex/commit/5028098) | 2026-05-13 | ingest p4-batch13-g3: 11 pages, 39 FP |
+<!-- END: hmi-page-history -->

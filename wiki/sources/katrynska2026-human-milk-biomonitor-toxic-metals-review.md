@@ -19,6 +19,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Structured narrative review with systematic search elements. PubMed, Scopus, Web of Science (2010–2025), English only. Initial yield ~520 records; 148 screened at full-text; 112 included in final qualitative synthesis. Studies globally distributed (Europe, Asia, Africa, Americas, Middle East)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -153,3 +156,15 @@ Microbiome: Exposure of the infant gut to Pb, Cd, and Al during the early coloni
 **Speciation summary (frontmatter):** Pb, Cd (no speciation), tHg (total — paper aggregates Hg-form across included studies), tAs (total — paper aggregates As-form across included studies; iAs vs organic discussed narratively but not reported as a uniform metric), Cr (total — paper does not separate Cr-VI), Al.
 
 **Sample size:** `sample_n: null` is correct because this is a review of 112 included primary studies, not a single primary study with a defined biological sample size; per-paper sample sizes are heterogeneous and the review does not aggregate them quantitatively.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b7b00f8](https://github.com/paleofoundation/heavymetalindex/commit/b7b00f8) | 2026-05-19 | ingest: katrynska2026-human-milk-biomonitor-toxic-metals-review enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [81766d4](https://github.com/paleofoundation/heavymetalindex/commit/81766d4) | 2026-05-17 | audit (codex): katrynska2026-human-milk-biomonitor-toxic-metals-review revised |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

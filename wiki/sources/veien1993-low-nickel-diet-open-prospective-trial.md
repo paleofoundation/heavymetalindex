@@ -18,6 +18,9 @@ matrices: [chronic-dermatitis, low-nickel-diet, oral-nickel-challenge]
 jurisdictions: [DK]
 sample_n_total: 90
 sample_n_notes: "90 nickel-sensitive patients (Aalborg, Denmark) with flare of dermatitis after oral 2.5 mg nickel challenge but no placebo reaction; followed low-nickel diet"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -50,3 +53,13 @@ Open prospective design. Inclusion: positive oral nickel challenge (2.5 mg) with
 
 - [[metals/nickel]]
 - [[health/nickel-allergy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

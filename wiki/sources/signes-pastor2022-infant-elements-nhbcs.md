@@ -23,6 +23,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 187
 sample_population: "New Hampshire Birth Cohort Study infants: subgroup 1 had paired urine samples at approximately 6 weeks and 1 year among 187 exclusively breastfed infants; subgroup 2 had 147 one-year-old infants with rice-consumption data and urine multi-element analysis."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -106,3 +109,16 @@ Microbiome: Not addressed.
 - The auto-fetched PDF is the same article as the existing FM_9971144 Marker source; this is a merge-enhancement, not a duplicate source page.
 - Corrected scope: this source measured urinary biomarkers and rice-consumption associations, not infant-formula powder or product metal concentrations. Formula-product routing was removed.
 - Strict brand firewall: the paper does not report commercial baby-food brand names. Instrument and reference-material vendor names are retained only in Methods, where Part 12 Exception 2 permits them.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8d0306d](https://github.com/paleofoundation/heavymetalindex/commit/8d0306d) | 2026-05-25 | audit signes-pastor2022 infant elements source |
+| [3ea52a8](https://github.com/paleofoundation/heavymetalindex/commit/3ea52a8) | 2026-05-19 | ingest auto-gap: nhbcs infant rice biomarkers |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [9795863](https://github.com/paleofoundation/heavymetalindex/commit/9795863) | 2026-05-13 | ingest p4-batch16-g4: 10 pages, 38 FP |
+<!-- END: hmi-page-history -->

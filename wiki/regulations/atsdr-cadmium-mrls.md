@@ -13,6 +13,7 @@ effective_date: 2012-09-01
 sunset_date: null
 source_refs: ["[[sources/atsdr-cadmium-toxprofile-2012]]"]
 title: "ATSDR — Minimal Risk Levels for Cadmium"
+wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]
 ---
@@ -92,3 +93,17 @@ ATSDR itself states in the 2012 profile that the chronic oral MRL of 0.1 µg Cd/
 ## Sources
 
 - [[sources/atsdr-cadmium-toxprofile-2012|ATSDR 2012]] — ATSDR, September 2012. Toxicological Profile for Cadmium.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [9d85fbf](https://github.com/paleofoundation/heavymetalindex/commit/9d85fbf) | 2026-04-24 | Ingest ATSDR 2012 Cd Toxicological Profile |
+<!-- END: hmi-page-history -->

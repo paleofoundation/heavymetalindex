@@ -20,6 +20,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 36
 sample_population: "36 dietary supplement preparations purchased in Poland (pharmacies, drugstores, herbal shops): 18 vegetable oils (cold-pressed and unrefined), 12 cod liver oils, 6 shark liver oils"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -125,3 +128,15 @@ Slug-vocabulary gaps flagged but not corrected this session (hard constraint: do
 - [[products/supplements-oil-based]]
 - [[products/dietary-supplements]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8605270](https://github.com/paleofoundation/heavymetalindex/commit/8605270) | 2026-05-26 | audit: brodziak-dopierala2023-mercury-oil-supplements-poland revised |
+| [0bf88ec](https://github.com/paleofoundation/heavymetalindex/commit/0bf88ec) | 2026-05-26 | ingest: brodziak-dopierala2023-mercury-oil-supplements-poland enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

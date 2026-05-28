@@ -19,6 +19,9 @@ jurisdictions: [NO]
 near_duplicates: []
 sample_n: 51238
 sample_population: "51,238 mother-child pairs from the Norwegian Mother, Father and Child Cohort Study (MoBa)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -53,3 +56,13 @@ App: Dietary MeHg estimate (median 0.15 µg/kg bw/week from Norwegian fish consu
 - [[metals/mercury]]
 - [[ingredients/fish]]
 - [[health/methylmercury-pregnancy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5d7a39a](https://github.com/paleofoundation/heavymetalindex/commit/5d7a39a) | 2026-05-13 | ingest p4-batch16-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

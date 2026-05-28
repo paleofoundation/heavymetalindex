@@ -18,6 +18,9 @@ matrices: [turmeric-root, turmeric-powder, spice]
 jurisdictions: [IN, PK, LK, NP]
 sample_n: 356
 sample_population: "Turmeric from wholesale and retail bazaars in 23 major cities across India, Pakistan, Sri Lanka, and Nepal"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -65,3 +68,14 @@ App: turmeric as an ingredient carries a sourcing-dependent Pb risk that cannot 
 - [[ingredients/turmeric]]
 - [[regulations/india-fssai-turmeric-pb]]
 - [[supply-chain/spice-adulteration]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [65a88cd](https://github.com/paleofoundation/heavymetalindex/commit/65a88cd) | 2026-05-13 | synthesis: promote spice-adulteration-lead-infants — 6 anchor sources, 3 continents |
+<!-- END: hmi-page-history -->

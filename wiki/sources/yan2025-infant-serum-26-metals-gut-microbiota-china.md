@@ -17,6 +17,9 @@ products: []
 matrices: [infant-serum, infant-gut-microbiome]
 jurisdictions: [CN]
 sample_n_notes: "hospital-based infant cohort; serum quantification of 26 metals plus 16S rRNA gut microbiome sequencing; cross-sectional design"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -49,3 +52,13 @@ Cross-sectional design cannot establish temporal or causal relationships. Single
 - [[metals/nickel]]
 - [[metals/aluminum]]
 - [[microbiome/early-life-metals-microbiome-axis]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5b9ea5](https://github.com/paleofoundation/heavymetalindex/commit/d5b9ea5) | 2026-05-08 | ingest: digest-batch-5-nickel-microbiome — 10 source pages (Ni + metals-microbiome) |
+<!-- END: hmi-page-history -->

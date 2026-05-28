@@ -23,6 +23,9 @@ matrices: [blood, dietary-intake]
 jurisdictions: [US]
 sample_n: 10000
 sample_population: "Infants and young children aged 0.5 to 7 years, probabilistic Monte Carlo assessment with 10,000 iterations"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: raw/marker-converted-md
 created_by: Claude Code
@@ -84,3 +87,13 @@ Price et al. (2023) evaluate the contribution of lead contamination in commercia
 - [[metals/lead]] — blood lead level biokinetics, age-specific absorption
 - [[ingredients/baby-food]] — lead contamination profile, regulatory context
 - [[regulations/fda-action-levels]] — food lead limits, biokinetic basis for standard-setting
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [868300c](https://github.com/paleofoundation/heavymetalindex/commit/868300c) | 2026-05-18 | autonomy: daemon tick 2026-05-18T04-29-11Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

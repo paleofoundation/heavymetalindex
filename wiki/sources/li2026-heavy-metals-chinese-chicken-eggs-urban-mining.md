@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 90
 sample_population: "90 chicken eggs collected July–August 2024 from nine areas in China: 70 free-range eggs from four non-mining cities (Shijiazhuang SJZ-F n=10, Dongguan DG n=10, Xianyang XY n=10, Guiyang GY n=10) and three mining areas (Wuchuan mercury mine WC n=10, Danzhai mercury mine DZ n=10, Emin coal mine EM n=10); 20 commercial supermarket eggs from two cities (Shijiazhuang SJZ-C n=10, Guangzhou GZ n=10)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -142,3 +145,15 @@ App: Contributes whole-egg-homogenate occurrence data (range, by area) for Cr, t
 **Wiki/HMTc firewall.** No HMTc threshold proposals, consumer risk advisories, or cross-source synthesis claims are made. The `## Implications` section limits itself to what this single paper contributes to threshold work and explicitly does not propose certification values.
 
 **Products field.** `products: ["[[products/eggs-product]]"]` is retained because the `eggs-product` page is the Step 0–locked routing destination for HMTc Category 11 Row 6 ("Eggs"); the source's whole-egg-homogenate matrix routes there directly.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [33065a4](https://github.com/paleofoundation/heavymetalindex/commit/33065a4) | 2026-05-19 | ingest: li2026-heavy-metals-chinese-chicken-eggs-urban-mining enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

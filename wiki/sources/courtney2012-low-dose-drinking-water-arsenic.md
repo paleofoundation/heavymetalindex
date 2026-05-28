@@ -19,6 +19,9 @@ matrices: [drinking-water, breast-milk]
 jurisdictions: [US]
 sample_n: null
 sample_population: "C57BL/6 mouse developmental arsenic-exposure model; not a human food occurrence study."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: marker_manifest_batch
 ---
@@ -56,3 +59,14 @@ Use this source only for source-scoped arsenic exposure/toxicology context. Do n
 - The paper is P1 in the Marker manifest but is not product-occurrence evidence.
 - Matrix scope is narrowed to established broad terms; the paper also measures mouse placenta, pup stomach contents, and urine as animal-model exposure matrices.
 - Brand firewall: no sampled consumer brand names are reproduced.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [56a8b2b](https://github.com/paleofoundation/heavymetalindex/commit/56a8b2b) | 2026-05-19 | apply marker audit fixes 2026-05-19 |
+| [493fa39](https://github.com/paleofoundation/heavymetalindex/commit/493fa39) | 2026-05-19 | ingest marker batch 2026-05-19 1545 1: 5 source pages from P1-P2 |
+<!-- END: hmi-page-history -->

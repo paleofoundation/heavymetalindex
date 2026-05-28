@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 566
 sample_population: "Non-targeted 2023 FDA convenience survey of 566 foods intended for babies, young children, pregnant women, and nursing mothers: 165 dry foods/supplements, 394 puree/mixtures, and 7 liquids/drinks purchased online or from retail locations in the Gainesville, Florida area between January and December 2023; predictor-screening analysis additionally combined the 2023 puree/mixture data with FDA's 2021 puree dataset (794 puree/mixture products total)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_fetch_pdf_rgsa
 created_by: codex_gpt_55_session
@@ -180,3 +183,14 @@ Arsenic speciation was targeted rather than universal. Rice-containing dry foods
 - Thallium arithmetic caveat: the Results text reports "12 of 394 (24%)" puree/mixture products above LOQ. Since 12/394 is not 24%, this page preserves the numerator/denominator and flags the parenthetical percentage as a source-side arithmetic inconsistency.
 - Matrix vocabulary note: `fruit-juice` is used here for the source's liquids/drinks subset because the standard matrix list does not yet contain a better baby/young-child juice term.
 - Fresh-context audit (Codex/Meitner, 2026-05-18) returned REVISE only for the unflagged `fruit-juice` matrix term; this verification note resolves the vocabulary concern. Numerical fidelity, methods/speciation, brand firewall, and wiki/HMTc firewall were clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [17e814d](https://github.com/paleofoundation/heavymetalindex/commit/17e814d) | 2026-05-19 | audit queue fire batch 2: 10 source pages |
+| [98bb5a8](https://github.com/paleofoundation/heavymetalindex/commit/98bb5a8) | 2026-05-18 | ingest (codex): barber2025 baby food elements us |
+<!-- END: hmi-page-history -->

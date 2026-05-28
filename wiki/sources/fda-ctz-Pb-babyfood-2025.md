@@ -25,6 +25,9 @@ ingredients: ["[[ingredients/rice-flour]]", "[[ingredients/rice-cereal]]", "[[in
 products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/root-vegetable-purees]]", "[[products/fruit-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/meat-and-poultry-purees]]"]
 jurisdictions: [US]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-02
 ---
 
@@ -131,3 +134,17 @@ Document classified `us-government-work` under 17 U.S.C. § 105 and freely redis
 - [[regulations/fda-ctz-Pb-babyfood-10ppb]]
 - [[regulations/fda-ctz-Pb-rootveg-20ppb]]
 - [[regulations/fda-ctz-Pb-cereal-20ppb]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [80c3dcd](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcd) | 2026-05-02 | Ingest FDA 2025 lead baby food guidance |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+<!-- END: hmi-page-history -->

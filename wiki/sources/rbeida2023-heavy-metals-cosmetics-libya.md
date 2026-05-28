@@ -21,6 +21,9 @@ jurisdictions: [LY]
 near_duplicates: []
 sample_n: 12
 sample_population: "12 cosmetic samples from public markets in Tripoli, Libya (winter 2022): 3 brands of Henna leaves (LEAV1-3), 3 brands of Henna paste (PAS1-3; one homemade locally, two imported), 3 brands of baby Talcum powder (BWD1-3), and 3 brands of Khol stones (Koh1-3). Henna and Khol are predominantly imported from Sudan, India, and Pakistan; sample weight 1.0 g per replicate; duplicate determinations per sample."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -142,3 +145,14 @@ Speciation: total arsenic and total cadmium/lead/nickel only — no inorganic/or
   - CHECK 5 ⚠️ Cross-source synthesis sentence "The lead-in-kohl signal is consistent with the broader literature on traditional kohl/surma being a major Pb-exposure vehicle" in Implications: this is a "consistent with the broader literature" cross-source claim that Part 2 / audit-prompt Check 5 explicitly identifies as a slip. The kohl/surma cross-literature claim is real (multiple published reviews establish kohl as a major Pb-exposure source globally), but stating it in a single-source page mixes synthesis into ingest. Sentence removed from Implications; the cross-source pattern, if relevant, should surface in the metals/lead page or in a synthesis pass per Part 9, not on this single-source page.
   - CHECK 2 ⚠️ FALSE POSITIVE — `matrices: [cosmetic-personal-care]` flagged as not in any controlled vocabulary visible to the auditor. Verified against `wiki/sources/`: `cosmetic-personal-care` is the established bare-string matrix vocabulary in use across multiple cosmetic-occurrence sources (arshad2020 Pakistan, attard2022 review, bashir2025 Kashmir, opss2023 UK, sccs2023 EU SCCS, jitareanu2025, li2021). The matrices vocabulary is not enumerated in `docs/gpt-collaboration/taxonomy-snapshot.md` because that snapshot covers ingredients/products/metals/regulations only; matrices is a separate controlled vocabulary tracked by use-count across `wiki/sources/`. Finding rejected; no change.
   - CHECK 1 (Table 3 per-sample values, per-category ranges, Table 1 BVL Germany values, Table 2 multi-jurisdiction limits), CHECK 3 (speciation tAs/Pb/Cd/Ni correct, methods accurately reflect PDF Methods section), and CHECK 4 (brand firewall — paper-side anonymisation preserved, method-vendor names retained per Exception 2): ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2371a99](https://github.com/paleofoundation/heavymetalindex/commit/2371a99) | 2026-05-18 | audit: rbeida2023-heavy-metals-cosmetics-libya revised |
+| [bba5455](https://github.com/paleofoundation/heavymetalindex/commit/bba5455) | 2026-05-18 | ingest: rbeida2023-heavy-metals-cosmetics-libya fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
+<!-- END: hmi-page-history -->

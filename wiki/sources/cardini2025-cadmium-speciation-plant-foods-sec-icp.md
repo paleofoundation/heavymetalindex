@@ -20,6 +20,9 @@ jurisdictions: []
 near_duplicates: [FM_12276129_A_novel_approach_for_the_identification_of_cadmium-chelating]
 sample_n: 7
 sample_population: "Seven plant-based food matrices: black-eyed beans, beluga lentils, tigernuts, basmati rice, sweet potato (cooked, dried, ground), beetroot leaves; unspecified commercial provenance"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -66,3 +69,15 @@ App: Basmati rice: Cd at low end (9 µg/kg DW). Beetroot leaves and leafy greens
 - [[ingredients/rice]]
 - [[ingredients/spinach]]
 - [[ingredients/legumes]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [e2e70eb](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eb) | 2026-05-13 | ingest p4-batch9-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

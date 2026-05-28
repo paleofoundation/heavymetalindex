@@ -18,6 +18,9 @@ matrices: [turmeric-spice, turmeric-dietary-supplement, turmeric-herbal-medicine
 jurisdictions: [global]
 sample_n: 2235
 sample_population: "Commercial turmeric products (spice, dietary supplements, herbal medicines) from 48 publications across 22 countries on 6 continents, 2000-2025"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -92,3 +95,15 @@ Microbiome: not directly applicable.
 - [[synthesis/spice-adulteration-lead-infants]]
 - [[ingredients/turmeric]]
 - [[supply-chain/spice-adulteration]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [ef98f0f](https://github.com/paleofoundation/heavymetalindex/commit/ef98f0f) | 2026-05-13 | ingest: Gafner 2026 turmeric adulteration scoping review — 7th anchor for spice-adulteration synthesis |
+<!-- END: hmi-page-history -->

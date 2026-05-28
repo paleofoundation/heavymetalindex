@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 24
 sample_population: "24 commercial vinegar and vinegar-reduction products purchased in Rochester NY area and online, 2021; 21 were balsamic vinegars or balsamic reductions/glazes; 3 were non-balsamic vinegars (types not specified in the letter)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -86,3 +89,16 @@ Auto-audit subagent (2026-05-26) verdict REVISE; 4 findings total. Three applied
 One finding documented but not applied:
 
 - Audit noted that `balsamic-reduction` and `balsamic-glaze` are not in the snapshot of valid ingredient/product slugs. These are matrix descriptors, not ingredient or product slugs, and the matrices field is descriptive rather than routed against a controlled vocabulary; the routing audit accepts both slugs (the source is not in `routing_unresolved.csv` or `routing_malformed.csv`). The slugs are retained because they accurately describe the source's sampled population (the letter explicitly enumerates "vinegars or vinegar reductions or glazes" and identifies balsamic reductions/glazes as the highest-magnitude positives).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a9ae334](https://github.com/paleofoundation/heavymetalindex/commit/a9ae334) | 2026-05-26 | audit: escp2021-pb-as-balsamic-vinegar-fda-letter revised |
+| [169857f](https://github.com/paleofoundation/heavymetalindex/commit/169857f) | 2026-05-26 | ingest: escp2021-pb-as-balsamic-vinegar-fda-letter enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

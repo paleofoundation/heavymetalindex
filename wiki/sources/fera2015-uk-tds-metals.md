@@ -22,6 +22,9 @@ matrices: [dietary-intake, cereal-grain, rice, fish, shellfish]
 jurisdictions: [GB]
 sample_n: 3312
 sample_population: "3312 retail food samples from 24 UK locations, combined into 138 prepared-as-consumed food-category composites and 28 food-group composites"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -156,3 +159,16 @@ Microbiome: Not addressed in this study.
 - Replaced invalid wiki links such as `ingredients/wheat-flour`, `ingredients/breakfast-cereals`, `ingredients/milk`, `metals/mercury`, and `regulations/uk-fsa-tds`.
 - Strict brand-firewall check: no sampled consumer brands are named; contractor, instrument, utensil/material, reagent, and reference-material names are retained only as Methods details under the Part 12 scientific-method exception.
 - Fresh-context audit subagent (2026-05-18) verdict PROMOTE. Spot-checked ~80 numerical values across Tables 5/6/7/12 against the PDF — all correct. Two false-positive concerns recorded: (a) `matrices: [dietary-intake, cereal-grain]` flagged as possibly off-vocabulary — verified against `docs/gpt-collaboration/system-prompt.md` matrices list; both terms are explicitly listed, finding rejected. (b) "HallMark Meat Hygiene Ltd" spelling flagged as drift from PDF's "Hall Mark" — verified against PDF; the report itself uses both spellings (Summary page 2 "HallMark", Methods page 7 "Hall Mark"), so wiki's one-word form is faithful to one of the source's own uses, finding rejected.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [da34793](https://github.com/paleofoundation/heavymetalindex/commit/da34793) | 2026-05-18 | audit: fera2015-uk-tds-metals promoted |
+| [b6e901d](https://github.com/paleofoundation/heavymetalindex/commit/b6e901d) | 2026-05-18 | ingest kimi-cat03: uk total diet metals |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

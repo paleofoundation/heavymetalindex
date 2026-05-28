@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: ["[[sources/meng2023-electrochemical-sensors-food-heavy-metals]]"]
 sample_n: null
 sample_population: "Mini-review of nanomaterial-based analytical methods for trace heavy-metal detection in food samples; covers electrochemical, colorimetric, and fluorescence sensing literature roughly 2021–2024."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -130,3 +133,15 @@ B-tier mini-review (Frontiers in Chemistry, CC BY 4.0). Coverage is restricted t
 - Part 2 firewall: Implications restates the methods-landscape position without proposing HMTc thresholds or harmonizing with HMTc certification criteria. Edit direction: toward the literature (correcting away from invented detail), not toward HMTc convenience.
 - Speciation discipline (CLAUDE.md Part 14): Hg(II) → tHg; Cr(VI) → Cr-VI; tAs removed because not a detection target in this paper.
 - Audit subagent (2026-05-18) verdict PROMOTE on numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall. One ⚠️ minor consistency finding: `[[metals/iron]]` was missing from the "Wiki pages this source may touch" list despite `Fe` being in frontmatter metals — verified against `wiki/metals/iron.md` and added.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c08e9b3](https://github.com/paleofoundation/heavymetalindex/commit/c08e9b3) | 2026-05-18 | audit: si2024-nanomaterial-detection-heavy-metals-food promoted |
+| [b963676](https://github.com/paleofoundation/heavymetalindex/commit/b963676) | 2026-05-18 | ingest: si2024-nanomaterial-detection-heavy-metals-food enhanced from Papers Cube Manual Fetch |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

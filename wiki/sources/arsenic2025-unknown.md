@@ -19,6 +19,9 @@ jurisdictions: [MY, EU]
 near_duplicates: [FM_12378713_Arsenic_speciation_using_HPLC-ICP-MS_in_white_and_brown_rice]
 sample_n: 30
 sample_population: "30 rice samples (15 white, 15 brown) randomly purchased from local supermarkets in Klang Valley, Selangor, Malaysia, March-April 2022"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -99,3 +102,13 @@ Microbiome: Not addressed.
 - [[products/mixed-meals-rice-containing]]
 - [[regulations/eu2023-contaminants-maximum-levels]] (EU 2023/465 amendment to 2023/915)
 - [[regulations/fda-iAs-rice-cereal-2020]] (related)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1d50bf6](https://github.com/paleofoundation/heavymetalindex/commit/1d50bf6) | 2026-05-15 | sources: P1 manual ingest — Navaretnam 2025 arsenic speciation in Malaysian rice |
+<!-- END: hmi-page-history -->

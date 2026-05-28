@@ -18,6 +18,9 @@ matrices: [canned-fruit-juice, canned-orange-juice, canned-apple-juice, canned-s
 jurisdictions: [UK, KW]
 sample_n: 11
 sample_population: "11 cats, dogs, rats, and 5 human volunteers; canned juices recovered from a 1967 Kuwait food poisoning outbreak plus laboratory tin-spiked juices"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -63,3 +66,15 @@ The paper compiles prior outbreak reports from 1888-1967 and is the first contro
 - [[ingredients/apple-juice]]
 - [[ingredients/canned-fruit-cocktail]]
 - [[products/fruit-juice-not-canned]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [31bae2b](https://github.com/paleofoundation/heavymetalindex/commit/31bae2b) | 2026-05-08 | lint: fix DOI audit failures on tin source pages |
+| [d04abbc](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc) | 2026-05-08 | ingest: digest-batch-1-tin — 4 sources, 2 species pages, parent expansion |
+<!-- END: hmi-page-history -->

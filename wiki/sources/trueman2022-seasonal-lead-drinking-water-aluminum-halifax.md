@@ -19,6 +19,9 @@ jurisdictions: [CA]
 near_duplicates: []
 sample_n: 849
 sample_population: "Point-of-use and distribution system samples from Halifax, Canada drinking water system (total Al n=849; residential first-draw Pb n=193; non-residential first-draw Pb n=303; coupon study n=128 per parameter)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -50,3 +53,13 @@ App: Drinking water is a direct exposure route for Pb; this study provides mecha
 - [[metals/lead]]
 - [[supply-chain/drinking-water-lead-pipes]]
 - [[testing/icp-ms]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [67cbff7](https://github.com/paleofoundation/heavymetalindex/commit/67cbff7) | 2026-05-13 | ingest p4-batch14-g3: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

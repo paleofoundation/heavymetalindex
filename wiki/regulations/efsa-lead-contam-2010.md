@@ -13,6 +13,7 @@ effective_date: 2010-03-18
 sunset_date: null
 source_refs: ["[[sources/efsa-lead-contam-2010]]"]
 title: "EFSA — Lead in Food (2010), No-Threshold Position"
+wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
@@ -48,3 +49,17 @@ Cereal products are the dominant dietary contributor; dust and soil are importan
 ## Sources
 
 - [[sources/efsa-lead-contam-2010|EFSA Pb 2010]] — EFSA Panel on Contaminants in the Food Chain, 2010. Scientific Opinion on Lead in Food.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [36ff5c8](https://github.com/paleofoundation/heavymetalindex/commit/36ff5c8) | 2026-04-25 | Lead batch: 9 source pages, 4 regulation pages, populated metals/lead.md |
+<!-- END: hmi-page-history -->

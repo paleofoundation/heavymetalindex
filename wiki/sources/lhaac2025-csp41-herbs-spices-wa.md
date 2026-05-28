@@ -23,6 +23,9 @@ jurisdictions: [AU]
 near_duplicates: []
 sample_n: 380
 sample_population: "Commercially available herbs and spices from retail food businesses across Western Australia; 23 local government areas; fresh herbs, dried herbs, fresh spices, and spice powders/mixes; sampled 18 November 2024 – 31 January 2025"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -120,3 +123,17 @@ ICP-MS following acidic digestion with an automated hot block; both NATA-accredi
 - [[regulations/jecfa-arsenic-bmdl]]
 - [[regulations/jecfa-cadmium-ptmi]]
 - [[regulations/jecfa-methylmercury-ptwi]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [662f7a5](https://github.com/paleofoundation/heavymetalindex/commit/662f7a5) | 2026-05-28 | audit: lhaac2025-csp41-herbs-spices-wa [revised] |
+| [24ccdb0](https://github.com/paleofoundation/heavymetalindex/commit/24ccdb0) | 2026-05-28 | ingest: lhaac2025-csp41-herbs-spices-wa [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

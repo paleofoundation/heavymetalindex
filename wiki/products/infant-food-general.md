@@ -12,6 +12,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 1
+wiki_doi: null
 updated: 2026-05-17
 ---
 
@@ -71,3 +72,17 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 ## Historical recalls and enforcement
 
 No enforcement or recall synthesis has been promoted for this broad infant-food page. The current source compares intake to reference-dose and tolerable-weekly-intake benchmarks, but it is not a recall dataset and does not identify a finished-product violation. Future enforcement summaries should be assigned to locked rows once product form and jurisdiction are clear.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
+| [475eaa6](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6) | 2026-05-25 | sources: clean up junk cite-keys — rename 6, delete 4 off-scope/dupes |
+| [6bdb30f](https://github.com/paleofoundation/heavymetalindex/commit/6bdb30f) | 2026-05-25 | fill infant-food-general synthesis prose |
+| [0a783b0](https://github.com/paleofoundation/heavymetalindex/commit/0a783b0) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-17-21Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

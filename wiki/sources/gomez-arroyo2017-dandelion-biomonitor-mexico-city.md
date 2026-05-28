@@ -19,6 +19,9 @@ jurisdictions: [MX]
 near_duplicates: []
 sample_n: 20
 sample_population: "Taraxacum officinale (dandelion) plants propagated from seed and exposed in groups of 20 for 6 weeks at two monitoring stations in the Metropolitan Area of Mexico City (MAMC): Centro de Ciencias de la Atmósfera (CCA-UNAM, urban, 2260 m) and Altzomoni (peri-urban high-altitude station in Iztaccíhuatl-Popocatépetl National Park, 4000 m), in dry and rainy seasons of 2014"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -88,3 +91,14 @@ This page was originally drafted 2026-05-15 from a thinner pass over the source.
 ## Wiki pages updated on ingest
 
 - [[supply-chain/soil]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a4b1ec1](https://github.com/paleofoundation/heavymetalindex/commit/a4b1ec1) | 2026-05-18 | ingest: gomez-arroyo2017-dandelion-biomonitor-mexico-city enhanced from Papers Cube Manual Fetch |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

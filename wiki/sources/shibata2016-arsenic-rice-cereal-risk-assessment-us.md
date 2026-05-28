@@ -19,6 +19,9 @@ matrices: [risk-assessment-model, intake-estimate]
 jurisdictions: [US]
 sample_n: null
 sample_population: "Theoretical US infant cohort ages 4–24 months; modeled from EPA Child-Specific Exposure Factors; iAs concentrations sourced from FDA market survey data and published literature"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -49,3 +52,14 @@ Certification: CDI estimate of 0.73 µg/kg bw/day from all sources at median is 
 
 - [[products/baby-cereals-dry-rice-based]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

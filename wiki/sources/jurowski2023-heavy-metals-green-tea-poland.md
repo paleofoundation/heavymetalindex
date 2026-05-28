@@ -21,6 +21,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 12
 sample_population: "12 green tea (Camellia sinensis) samples randomly collected from general stores in 5 Polish cities (Gdańsk, Kraków, Rzeszów, Poznań, Warsaw), various forms (tea bags, loose leaf), analyzed as infusions (200 mL brewed per manufacturer instructions)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -62,3 +65,17 @@ App: Green tea ingredient flag: detectable Pb, As, and Cd in infusions; concentr
 - [[metals/lead]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [cc296bd](https://github.com/paleofoundation/heavymetalindex/commit/cc296bd) | 2026-05-13 | ingest p4-batch11-g1: 11 pages, 39 FP |
+<!-- END: hmi-page-history -->

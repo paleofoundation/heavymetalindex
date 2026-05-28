@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 82
 sample_population: "82 samples of 13 locally grown vegetable types from the Town Square Farmer's Market in Grand Forks, North Dakota, USA (2024 sampling season; 5–8 samples per vegetable)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -78,3 +81,13 @@ Vegetables were collected June–September from the Town Square Farmer's Market 
 - [[metals/mercury-total]]
 - [[metals/chromium]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

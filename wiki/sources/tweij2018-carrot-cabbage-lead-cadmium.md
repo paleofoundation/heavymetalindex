@@ -17,6 +17,9 @@ products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables
 matrices: ["carrot", "cabbage"]
 jurisdictions: ["IQ"]
 sample_population: "Carrot and cabbage samples from local markets, including Iraqi and Iranian-origin products"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -50,3 +53,14 @@ The source supports root-vegetable and non-root-vegetable occurrence context for
 ## Verification notes
 
 The source provides ppm values and distinguishes carrot color/origin categories. No consumer brand names were transcribed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [0d9d380](https://github.com/paleofoundation/heavymetalindex/commit/0d9d380) | 2026-05-26 | ingest auto-fetched 2026-05-26 2220 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

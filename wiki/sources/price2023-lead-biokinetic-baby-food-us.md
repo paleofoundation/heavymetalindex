@@ -19,6 +19,9 @@ matrices: [baby-food-intake-model, biokinetic-modeling]
 jurisdictions: [US]
 sample_n: null
 sample_population: "Theoretical infant cohort, US; age groups 0–6 months, 7–12 months, 1–3 years, 4–7 years; biokinetic IEUBK model incorporating diet, dust, soil, and drinking water exposure pathways"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -47,3 +50,14 @@ Certification: Biokinetic modeling approach used by FDA; relevant for understand
 - [[metals/lead]]
 - [[health/lead-infant-exposure]]
 - [[regulations/fda-ctz-lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

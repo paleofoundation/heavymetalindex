@@ -32,6 +32,9 @@ sample_n: multiple
 sample_population:
   - infants
   - children
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ingest_method: autonomy
 created_by: claude-ingest
@@ -63,3 +66,13 @@ Lead and arsenic in infant cereals and juices represent significant pediatric ex
 - ingredients/rice
 - ingredients/fruit-juice
 - jurisdictions/regulatory-us
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [02ab023](https://github.com/paleofoundation/heavymetalindex/commit/02ab023) | 2026-05-20 | ingest: armand2026-lettuce-cabbage-behbahan [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+<!-- END: hmi-page-history -->

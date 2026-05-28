@@ -22,6 +22,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 12
 sample_population: "Tomato ketchup from street vendors in Delhi, Noida, Gurugram, and Faridabad (3 samples per locale)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -67,3 +70,17 @@ Samples were collected in sterilised sealed glass containers from street vendors
 - Numerical table checked against Table 1 and Table 2: Pb means/ranges for Delhi, Gurugram, Faridabad, and Noida match the source; Cd is BDL in all four locales; ANOVA p = 0.42 matches Table 1.
 - Cross-vendor audit (Codex, 2026-05-18) retained `matrices: [ketchup]` as a source-specific matrix label because the common matrices vocabulary does not include a clean tomato-ketchup or condiment matrix; routing is carried by live `[[ingredients/ketchup]]` and `[[products/condiments-general]]` links.
 - 2026-05-28 Claude Opus 4.7 merge-enhance against the source PDF: (1) replaced placeholder `raw_handle: manual-fetch-kimi` with the MFK_-prefixed slug `MFK_a-comparative-study-on-presence-of-heavy-metals-le` per the manual-fetch handle convention; (2) added `raw_sha256` computed from the local PDF; (3) added `access_url` from the DOI; (4) restored `license: "CC BY-NC"` after re-reading the source — the Creative Commons BY-NC mark is rendered as an icon in the page-1 footer below the "Copyright (c) 2020: Advanced Research Publications" line, which the 2026-05-18 text-only pass missed. Body content was unchanged because the 2026-05-18 numerical table check still holds against Tables 1 and 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [099c229](https://github.com/paleofoundation/heavymetalindex/commit/099c229) | 2026-05-28 | ingest: vaishali2020-tomato-ketchup-delhi-ncr-pb-cd enhanced from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
+| [01de84b](https://github.com/paleofoundation/heavymetalindex/commit/01de84b) | 2026-05-18 | audit (codex): vaishali ketchup revised |
+| [eb3c1ad](https://github.com/paleofoundation/heavymetalindex/commit/eb3c1ad) | 2026-05-18 | ingest (codex): vaishali2020 ketchup merge-enhance |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+<!-- END: hmi-page-history -->

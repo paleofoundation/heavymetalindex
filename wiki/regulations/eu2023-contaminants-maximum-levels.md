@@ -9,6 +9,7 @@ source_page: sources/eu-2023-915-contaminants-maximum-levels
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
 metals: [Pb, Cd, tHg, iAs, tAs, Sn]
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-02
 ---
 
@@ -90,3 +91,13 @@ That is why this regulation is wired into `data/evidence/regulatory_limits.csv` 
 
 - [[sources/eu-2023-915-contaminants-maximum-levels]]
 - European Commission contaminants legislation page, which identifies Regulation (EU) 2023/915 as the EU maximum-level framework for contaminants in food.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66751b4](https://github.com/paleofoundation/heavymetalindex/commit/66751b4) | 2026-05-02 | Ingest EU 2023/915 contaminant limits |
+<!-- END: hmi-page-history -->

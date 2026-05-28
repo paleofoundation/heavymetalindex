@@ -19,6 +19,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: 14
 sample_population: "14 commercial samples of food additive E 475 (polyglycerol esters of fatty acids) submitted by one interested business operator"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,13 @@ App: Food additive E 475 is an indirect source of toxic metals in finished produ
 
 - [[ingredients/food-additives]]
 - [[regulations/eu-food-additive-specifications-231-2012]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [67cbff7](https://github.com/paleofoundation/heavymetalindex/commit/67cbff7) | 2026-05-13 | ingest p4-batch14-g3: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

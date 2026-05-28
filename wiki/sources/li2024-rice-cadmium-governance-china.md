@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 1764660
 sample_population: "Soil and rice paired samples from 26 county-level administrative regions in Xiangjiang River Basin, Hunan Province, China; 1,617,366 monitoring points in Phase 1 (2014–2017) and 147,294 points in Phase 2 (2018–2020)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -68,3 +71,14 @@ App: The geographic baseline for Xiangjiang Basin (historically one of the highe
 - [[ingredients/rice]]
 - [[supply-chain/soil-cadmium-remediation]]
 - [[regulations/eu-rice-cadmium-200ppb]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [519f81e](https://github.com/paleofoundation/heavymetalindex/commit/519f81e) | 2026-05-13 | ingest p4-batch8-g1: 5 pages, 42 FP |
+<!-- END: hmi-page-history -->

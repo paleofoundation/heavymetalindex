@@ -21,6 +21,9 @@ jurisdictions: [IT, TR, IL, DE, LB, GR]
 near_duplicates: []
 sample_n: 7
 sample_population: "Seven commercial tahini brands purchased online for the Italian market in 2025, with reported origins Turkey (T-1), Israel (T-2), Germany (T-3), non-EU (T-4), Lebanon (T-5), non-EU (T-6), Greece (T-7); three analytical replicates per sample"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -86,3 +89,16 @@ Merge-enhanced 2026-05-28 from prior 2026-05-14 revision. Changes: (1) corrected
 Audit subagent (2026-05-28) flagged `[[ingredients/tahini]]` (and by extension `[[ingredients/sesame]]`) as out of the 2026-05-18 taxonomy snapshot. Verified: neither page exists yet in `wiki/ingredients/`, both are freq-1 references (only this source declares them), and the routing audit accepts them without unresolved entries. Auto-stub handles ingredients at freq ≥ 2, so these slugs remain in frontmatter as the correct routing destinations even though no stub yet exists. Removing `[[ingredients/tahini]]` per the audit's recommendation would lose the most specific routing target for the paper (a tahini-specific characterisation, not a generic sesame study), so the slug is retained.
 
 Audit subagent (2026-05-28) also noted that the paper's Section 2.9 (p. 6) reports the cadmium reference value as "2.5 µg kg-b.w./day". Verified against the PDF: the paper does print "Cd (2.5 µg kgb.w./day)" verbatim. EFSA's actual cadmium TWI is 2.5 µg/kg-bw/**week** (per EFSA Scientific Opinion 2009/2011, ratified by the JECFA PTMI of 25 µg/kg-bw/month). The "/day" in the paper is a likely paper-side transcription error; if read as written, the Cd reference would be ~7× more permissive than EFSA's actual TWI. The wiki page reproduces the paper's number verbatim in the exposure-estimate paragraph but flags this caveat here for any downstream synthesis that pulls the Cd exposure-percentage figure.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2088cee](https://github.com/paleofoundation/heavymetalindex/commit/2088cee) | 2026-05-28 | audit: potorti2026-tahini-quality-safety-inorganic-elements [revised] |
+| [79636a1](https://github.com/paleofoundation/heavymetalindex/commit/79636a1) | 2026-05-28 | ingest: potorti2026-tahini-quality-safety-inorganic-elements [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
+<!-- END: hmi-page-history -->

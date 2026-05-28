@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 16232
 sample_population: "NHANES cross-sectional cohort (n=16,232); secondary intervention study in American Indian college students (n=10) at Fort Peck Community College, Montana"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -51,3 +54,14 @@ App: Processed foods with HFCS from mercury-cell manufacturing should be noted a
 
 - [[metals/mercury]]
 - [[ingredients/high-fructose-corn-syrup]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [776a085](https://github.com/paleofoundation/heavymetalindex/commit/776a085) | 2026-05-13 | ingest p4-batch17-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

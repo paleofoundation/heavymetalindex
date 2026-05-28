@@ -21,6 +21,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 207
 sample_population: "Shanghai adults aged over 40, cross-sectional survey July 2008, Baoshan District; 267 selected, 207 retained after exclusion for missing blood/urine data"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -177,3 +180,15 @@ Audit checks 1–4 (numerical fidelity except Table 6 gaps now applied; slug voc
 - [[ingredients/rice]]
 - [[ingredients/vegetables]]
 - [[ingredients/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cab349d](https://github.com/paleofoundation/heavymetalindex/commit/cab349d) | 2026-05-28 | audit: he2013-shanghai-cadmium [revised] |
+| [46444fb](https://github.com/paleofoundation/heavymetalindex/commit/46444fb) | 2026-05-28 | ingest: he2013-shanghai-cadmium [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
+| [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
+<!-- END: hmi-page-history -->

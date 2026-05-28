@@ -19,6 +19,9 @@ jurisdictions: [LMICs]
 near_duplicates: []
 sample_n: 26
 sample_population: "26 studies from 21 LMICs covering interventions in pregnant women, infants, and children"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -55,3 +58,14 @@ Mitigation: Directly relevant to [[mitigation/agronomic]], [[mitigation/processi
 - Reframed selected effect examples so the El-Soud dietary study is not described as highest-quality evidence.
 - Strict Part 12 brand-firewall recheck found no sampled-product brand names in the source-page content.
 - Removed missing/future wikilinks and routed mitigation relevance to existing mitigation pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a16fc52](https://github.com/paleofoundation/heavymetalindex/commit/a16fc52) | 2026-05-17 | audit (codex): sripada2022 cadmium interventions revised |
+| [7da5b3c](https://github.com/paleofoundation/heavymetalindex/commit/7da5b3c) | 2026-05-13 | ingest p4-batch16-g1: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

@@ -22,6 +22,9 @@ jurisdictions: [global]
 near_duplicates: []
 sample_n: 66
 sample_population: "Systematic narrative review; 66 peer-reviewed articles published 2015–2024 (sourced from ScienceDirect, Google Scholar, PubMed) reporting heavy-metal concentrations in municipal tap water, bottled/sachet water, surface water, and groundwater across countries on six continents. The review compiled per-study ranges in µg/L or mg/L into four matrix-type tables; no individual-sample-level data extracted, no formal meta-analysis, no risk-of-bias appraisal."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -212,3 +215,17 @@ PDF retrieved via the Manual Fetch Kimi pipeline (P0316). MDPI open-access publi
 - [[metals/manganese]]
 - [[metals/mercury]]
 - [[metals/antimony]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [68d3e8c](https://github.com/paleofoundation/heavymetalindex/commit/68d3e8c) | 2026-05-25 | audit: olowoyo2026-heavy-metals-drinking-water-global-review revised |
+| [475eaa6](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6) | 2026-05-25 | sources: clean up junk cite-keys — rename 6, delete 4 off-scope/dupes |
+| [315d031](https://github.com/paleofoundation/heavymetalindex/commit/315d031) | 2026-05-25 | ingest: olowoyo2026-heavy-metals-drinking-water-global-review enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
+<!-- END: hmi-page-history -->

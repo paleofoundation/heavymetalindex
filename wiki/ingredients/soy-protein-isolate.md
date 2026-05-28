@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: [infant-formula-concentrated-liquid-soy-based, infant-formula-powder-soy-based, infant-formula-rtf-liquid-soy-based]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 0
 ---
@@ -161,3 +162,16 @@ Soy protein isolate as an ingredient does not have direct regulatory maximum lev
 - JECFA Al PTWI of 2 mg/kg b.w./week and EFSA TWI of 1 mg/kg b.w./week are the relevant dose-response references for the Al-elevated route specific to soy-based infant feeding.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to soy-isolate-based products sold in California.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ff65dc9](https://github.com/paleofoundation/heavymetalindex/commit/ff65dc9) | 2026-05-17 | synthesis: rice-flour, rice-puffs, rice-bran-oil, soy-protein-isolate — 6 narrative sections each |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [3268b89](https://github.com/paleofoundation/heavymetalindex/commit/3268b89) | 2026-05-08 | schema: migrate ingredient_profile to 10-metal standard |
+| [a827c37](https://github.com/paleofoundation/heavymetalindex/commit/a827c37) | 2026-05-02 | add ingredient page titles |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [US, global]
 near_duplicates: []
 sample_n: null
 sample_population: "Broad review; no primary sampling; synthesizes published literature on seafood contaminants globally"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -65,3 +68,17 @@ Microbiome: Not applicable.
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [7a889ae](https://github.com/paleofoundation/heavymetalindex/commit/7a889ae) | 2026-05-12 | triage: routing-unresolved pass 3 — 44 → 35 entries (9 resolved) |
+| [313c29c](https://github.com/paleofoundation/heavymetalindex/commit/313c29c) | 2026-05-12 | ingest: P4 batch 1 group 1 — 6 source pages, 44 false positives |
+<!-- END: hmi-page-history -->

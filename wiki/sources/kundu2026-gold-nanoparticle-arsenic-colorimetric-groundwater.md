@@ -19,6 +19,9 @@ matrices: [analytical-method, groundwater, drinking-water]
 jurisdictions: []
 sample_n: null
 sample_population: "Groundwater samples used as validation matrices"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -41,3 +44,15 @@ Testing: The sub-0.2 µg/L LOD is analytically relevant for drinking water monit
 ## Wiki pages updated on ingest
 
 - [[testing/arsenic-methods]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [ffb0c50](https://github.com/paleofoundation/heavymetalindex/commit/ffb0c50) | 2026-05-12 | ingest: P2 sub-batch 1 — 26 analytical-method source pages (2025-2026 sensor/biosensor papers) |
+<!-- END: hmi-page-history -->

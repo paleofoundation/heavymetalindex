@@ -20,6 +20,9 @@ jurisdictions: [EG]
 near_duplicates: []
 sample_n: 360
 sample_population: "Broiler chicken chest muscle, thigh muscle, and liver from 6 commercial brands in Assiut, Egypt (n=20 per brand per tissue type)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -85,3 +88,16 @@ App: Al and Pb values in Egyptian commercial broiler are outlier-high relative t
 - [[ingredients/chicken-meat]]
 - [[ingredients/poultry-liver]]
 - [[products/meat-and-poultry]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [98dd9c8](https://github.com/paleofoundation/heavymetalindex/commit/98dd9c8) | 2026-05-13 | ingest p4-batch9-g3: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

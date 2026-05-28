@@ -19,6 +19,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 95
 sample_population: "95 samples of face paints (n=90) and pancakes (n=5) purchased at the largest high-street commercial center in São Paulo, Brazil. All manufacturers Brazilian. Four brands of face paints in three textures (liquid, cream, fluorescent) and 10 colors (red, yellow, black, white, green, orange, purple, blue, brown, pink, lilac); one brand of pancakes in 5 colors (blue, orange, red, yellow, white). When available, two batches per type+color were purchased."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -161,3 +164,15 @@ Microbiome: Not addressed.
   - **Applied (Table 4 attribution)**: prior "Cancer risk: 6.51 × 10⁻³ to 6.82 × 10⁻³ (female total) and 2.67 × 10⁻⁴ to 3.65 × 10⁻³ (male)" was a loose attribution — 6.51 × 10⁻³ is female *dermal*, not female total. Restated as: female 3.09 × 10⁻⁴ (ingestion) to 6.82 × 10⁻³ (total), with female dermal 6.51 × 10⁻³; male 2.67 × 10⁻⁴ (ingestion) to 3.65 × 10⁻³ (total), with male dermal 3.39 × 10⁻³. Verified against PDF Table 4 p. 9.
   - **Applied (BVL non-compliance range)**: prior prose said "1.1%–12.7% non-compliance rate" but the BVL exceedances are Pb 2.2%, Sb 2.7%, As 10.9%, Cd 12.7% (range floor is 2.2%, not 1.1%). The 1.1% is Health Canada Pb. Restated as "2.2%–12.7%" with per-element percentages spelled out. Verified against PDF p. 11.
   - **Rejected (Ni face paints min — false positive)**: subagent flagged Ni face paints min as "<0.01" (claimed wiki's "0.45" was a misread). Independent re-verification against PDF Table 3 p. 8: PDF prints "0.45–1.24" for Ni face paints. Wiki value is correct; subagent finding was a transcription error on the subagent's part, not the wiki's. No change.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9da5363](https://github.com/paleofoundation/heavymetalindex/commit/9da5363) | 2026-05-18 | audit: salles2023-face-paints-pancakes-brazil-cancer-risk revised |
+| [bce3afb](https://github.com/paleofoundation/heavymetalindex/commit/bce3afb) | 2026-05-18 | ingest: salles2023-face-paints-pancakes-brazil-cancer-risk enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+| [5843bf4](https://github.com/paleofoundation/heavymetalindex/commit/5843bf4) | 2026-05-15 | sources: Cat 2 face paints — Salles 2023 PTEs in Brazilian costume cosmetics |
+<!-- END: hmi-page-history -->

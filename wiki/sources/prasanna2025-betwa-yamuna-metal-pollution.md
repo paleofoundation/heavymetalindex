@@ -20,6 +20,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: null
 sample_population: "River water and groundwater samples from the Betwa-Yamuna confluence area, India, collected monthly June 2023–May 2024; Monte Carlo probabilistic health risk modeling for children and adults"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -47,3 +50,15 @@ App: Drinking water and irrigation water metal data support the supply-chain ris
 - [[metals/lead]]
 - [[supply-chain/drinking-water]]
 - [[supply-chain/irrigation-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [b23e81a](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a) | 2026-05-13 | ingest p4-batch12-g3: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

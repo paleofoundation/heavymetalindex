@@ -20,6 +20,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Review study; synthesizes literature on heavy metals and other contaminants in honey, pollen, beeswax, and other bee products; also covers pesticide and acaricide residues"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -47,3 +50,16 @@ App: Contributes background context for honey ingredient contamination profile; 
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[ingredients/honey]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [b23e81a](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a) | 2026-05-13 | ingest p4-batch12-g3: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

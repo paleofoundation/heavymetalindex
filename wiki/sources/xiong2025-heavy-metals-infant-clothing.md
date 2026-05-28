@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 33
 sample_population: "33 cost-effective unwashed clothing samples randomly purchased from online market platforms in China (Yunnan / Kunming research base); mix of cotton (Cot, Ct), polyamide (PA), polyester (PET), viscose (Vs), elastane (E) and blends; colors ranging from white/pale yellow through pink, red, blue, dark gray, black, brown, navy, charcoal, denim blue, indigo and maroon; Class I (baby wear) comparison group plus adult male T-shirt / underwear and adult woman blouse / underwear scenarios"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -114,3 +117,14 @@ This Toxics paper measured total and artificial-sweat-bioaccessible concentratio
 - Audit subagent (2026-05-17) flagged that the wiki body had "Ti and Sb appear in synthetic and flame-retardant treatments respectively (not quantified in this study)"; verified against PDF pp. 1-2 (paper distinguishes three additive roles: Sb as flame-retardant catalyst in polyester; Cr/Cu as mordants and metal-complex dyes especially in black polyamide and colored cotton; Ti/Zn as moisture-wicking treatments) — rewritten to preserve all three role attributions and to correctly assign Ti to moisture-wicking rather than to generic "synthetic treatments."
 - Audit subagent (2026-05-17) ⚠️-flagged `products/infant-clothing` as not in the taxonomy snapshot; verified against `wiki/products/infant-clothing.md` which exists with `hmtc_category: 10`, `hmtc_row: 9`, `hmtc_subcategory_name: "Clothing (onesies, pajamas, outerwear)"`, `products_status: scaffold`, `literature_scope: thin`. Routing audit confirms `infant-clothing,locked_hmtc_row,xiong2025-heavy-metals-infant-clothing,...,direct_evidence` in `product_source_routing_audit.csv` with no entry in `routing_unresolved.csv`. Finding is a snapshot-staleness false positive; routing destination resolves cleanly.
 - Audit subagent (2026-05-17) ⚠️-flagged `matrices: [textile]` as a new vocabulary entry; finding accepted as documented above — this Verification notes already declares `textile` as a proposed bare-string vocabulary addition awaiting formal review, parallel to the `cosmetics` precedent. No correction needed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [429c3fd](https://github.com/paleofoundation/heavymetalindex/commit/429c3fd) | 2026-05-17 | audit: xiong2025-heavy-metals-infant-clothing revised |
+| [b4ad505](https://github.com/paleofoundation/heavymetalindex/commit/b4ad505) | 2026-05-17 | ingest: xiong2025-heavy-metals-infant-clothing fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

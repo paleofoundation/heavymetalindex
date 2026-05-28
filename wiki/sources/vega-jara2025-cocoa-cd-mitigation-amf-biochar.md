@@ -19,6 +19,9 @@ products: []
 matrices: [cacao-beans, soil]
 jurisdictions: [PE]
 sample_n: 90
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -62,3 +65,13 @@ Single site, single growing season (6 months), single genotype (CCN51). No basel
 - [[metals/cadmium]]
 - [[ingredients/cocoa]]
 - [[mitigation/cocoa-cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

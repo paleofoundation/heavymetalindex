@@ -20,6 +20,9 @@ jurisdictions: [MM]
 near_duplicates: []
 sample_n: 120
 sample_population: "White polished rice grains from rainfed paddy farms, five townships in Yangon Division, Ayeyarwady Delta, Myanmar (2017 or earlier crop)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -64,3 +67,14 @@ App: Contributes Myanmar rainfed rice data point to tAs and Ni contamination pro
 - [[metals/nickel]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [872a866](https://github.com/paleofoundation/heavymetalindex/commit/872a866) | 2026-05-13 | ingest p4-batch9-g2: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

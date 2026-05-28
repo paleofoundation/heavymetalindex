@@ -19,6 +19,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 12
 sample_population: "Twelve freshwater macrophyte species cultured in outdoor cemented tanks with organic manures, New Delhi/Uttar Pradesh/West Bengal, India"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -50,3 +53,13 @@ App: Data support the contamination profile for aquatic-plant-derived feed ingre
 
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [011a298](https://github.com/paleofoundation/heavymetalindex/commit/011a298) | 2026-05-13 | ingest p4-batch14-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

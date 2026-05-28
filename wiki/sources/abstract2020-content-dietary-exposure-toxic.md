@@ -42,6 +42,9 @@ jurisdictions:
   - CAC
 sample_n: 93
 sample_population: infant formula products purchased from Beijing China market; stratified by infant-feeding stage (stage 1–4)
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: marker_conversion
 created_by: claude-haiku-4-5-20251001
@@ -98,3 +101,13 @@ Cr speciation (total Cr vs. Cr-VI) not determined; measured Cr should be stored 
 - `metals/arsenic.md`
 - `metals/chromium.md`
 - `testing/icp-ms.md`
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8fca520](https://github.com/paleofoundation/heavymetalindex/commit/8fca520) | 2026-05-19 | ingest: reczajska2005-chromium-plant-foods-poland [enhanced] from Manual Fetch Kimi/01_Fruits_and_Fruit_Products |
+<!-- END: hmi-page-history -->

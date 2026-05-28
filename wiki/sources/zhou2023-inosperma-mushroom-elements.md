@@ -21,6 +21,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
 sample_population: "Inosperma wuzhishanense sp. nov., a new mushroom species from Wuzhishan City, Hainan Province, tropical China; dried basidiomata analyzed for element profile by ICP-MS"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -52,3 +55,15 @@ App: Wild mushroom ingredient flag: elevated total As is documented in Inosperma
 
 - [[ingredients/mushrooms]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [cc296bd](https://github.com/paleofoundation/heavymetalindex/commit/cc296bd) | 2026-05-13 | ingest p4-batch11-g1: 11 pages, 39 FP |
+<!-- END: hmi-page-history -->

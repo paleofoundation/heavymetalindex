@@ -26,6 +26,9 @@ near_duplicates:
     note: "Same Danish EPA Survey No. 88 (Poulsen & Schmidt 2007) PDF filed under babycare_04 in Kimi's folder structure as well as babycare_03. SHA-256 match confirmed 2026-05-18."
 sample_n: 10
 sample_population: "10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June 2006 (Copenhagen area and northern Zealand retail plus Internet). Packaging-material samples cover 2 bobble bath, 2 body shampoo/bath gel, 1 hairstyling product, 2 shampoo, 3 body lotion/cream. Selection emphasised strongly coloured packaging and figure-designed packaging (potentially in scope of Toys Directive). Companion non-packaging analyses on the same survey: 17 products for 26 fragrances and 11 products for Kathon preservative; these do not measure heavy metals."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -141,3 +144,15 @@ Risk-assessment scope of the report: the report's quantitative risk assessments 
   - CHECK 1 ⚠️ Chlorine-negative packaging count: prior wiki text said "The two negative-for-chlorine packaging materials (IDs 40, 193 in certain parts)" but Table 5.12 (p. 61) shows IDs 40, 193, AND 206 all return `-` across all sampled parts (with trace XRF Cl values of 0.01%, 0.05%, 0.2% respectively, well below percent-level PVC content). Verified independently against Table 5.12. Corrected to three pure-negative samples, and adjusted the positive count to "11 of 14 returned positive" (one of which, ID 82, is mixed +/-) to match the per-row tally.
   - CHECK 1 ⚠️ FALSE POSITIVE (auditor's `⚠️ Unverified` note on Lilial 3400 mg/kg): the value is in Table 5.7 (p. 57) under product ID 209 eau de toilette, column "A" 3400 and column "B" 3400 in the Butylphenyl methylpropional (Lillial) row. The audit subagent did not re-read pp. 52-57 so flagged as unverified; verified during audit application against Table 5.7. No change.
   - CHECK 2, CHECK 3, CHECK 4, CHECK 5: ✅ clean per audit.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0723a51](https://github.com/paleofoundation/heavymetalindex/commit/0723a51) | 2026-05-18 | manual-fetch: poulsen2007 duplicate-PDF registration from babycare_04 |
+| [7a18e74](https://github.com/paleofoundation/heavymetalindex/commit/7a18e74) | 2026-05-18 | audit: poulsen2007-cosmetic-products-children-denmark revised |
+| [4553766](https://github.com/paleofoundation/heavymetalindex/commit/4553766) | 2026-05-18 | ingest: poulsen2007-cosmetic-products-children-denmark fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
+<!-- END: hmi-page-history -->

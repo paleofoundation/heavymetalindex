@@ -21,6 +21,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 20
 sample_population: "Golden grey mullet (Chelon auratus) from southern Caspian Sea, Bandar Anzali coast, Iran; average weight 385±156 g, length 33.8±7.24 cm, aged 3-5 years"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -67,3 +70,14 @@ App: Supports per-species, per-region risk differentiation for marine/brackish f
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e6a6159](https://github.com/paleofoundation/heavymetalindex/commit/e6a6159) | 2026-05-13 | ingest p4-batch9-g4: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

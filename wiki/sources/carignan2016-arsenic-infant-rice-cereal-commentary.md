@@ -16,6 +16,9 @@ ingredients: ["[[ingredients/rice]]"]
 products: ["[[products/baby-cereals-dry-rice-based]]"]
 matrices: [infant-rice-cereal]
 jurisdictions: [US]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -37,3 +40,13 @@ The commentary documents that infant rice cereal, when consumed at typical pedia
 - [[metals/arsenic-inorganic]]
 - [[products/baby-cereals-dry-rice-based]]
 - [[regulations/fda-iAs-rice-cereal-100ppb]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

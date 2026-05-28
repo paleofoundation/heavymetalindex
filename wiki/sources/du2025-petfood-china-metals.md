@@ -22,6 +22,9 @@ jurisdictions: [CN]
 near_duplicates: [PCMF_individual-and-combined-contamination-of-the-heavy]
 sample_n: 93
 sample_population: "93 imported cat and dog food products from the Chinese market (produced 2021-2022); 45 cat food, 48 dog food; 79 dry, 14 canned (12 canned cat food + 2 canned dog food per the Sci Reports published Tables 4-5); origins: USA (n=32), Spain (n=29), Thailand (n=17), Germany (n=10), New Zealand (n=5); sampled in supermarket/store chains across Beijing, Shenzhen, Wuhan"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -156,3 +159,17 @@ All other findings ✅: full Table 1-6 numerical fidelity verified, Methods/spec
 - [[metals/arsenic-total]]
 - [[products/pet-food-dry-kibble]]
 - [[products/pet-food-canned-wet]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [826e4b8](https://github.com/paleofoundation/heavymetalindex/commit/826e4b8) | 2026-05-18 | audit: du2025-petfood-china-metals audited-revised (1 finding rejected as stale-snapshot false positive) |
+| [c7a78cc](https://github.com/paleofoundation/heavymetalindex/commit/c7a78cc) | 2026-05-18 | ingest: du2025-petfood-china-metals enhanced from raw/Papers Cube Manual Fetch |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [ea6d558](https://github.com/paleofoundation/heavymetalindex/commit/ea6d558) | 2026-05-13 | ingest p4-batch17-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

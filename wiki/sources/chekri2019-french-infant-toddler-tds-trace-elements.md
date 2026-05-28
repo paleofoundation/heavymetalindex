@@ -19,6 +19,9 @@ matrices: [infant-food, toddler-food, formula, total-diet-study]
 jurisdictions: [FR]
 sample_n: 291
 sample_population: "French infant and toddler foods"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -115,3 +118,17 @@ Microbiome: No direct microbiome endpoint.
 - [[metals/cadmium]]
 - [[metals/nickel]]
 - [[metals/tin]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [7e5bb3a](https://github.com/paleofoundation/heavymetalindex/commit/7e5bb3a) | 2026-05-07 | Correct Chekri formula route fit metadata |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [69065c5](https://github.com/paleofoundation/heavymetalindex/commit/69065c5) | 2026-04-29 | Add Chekri ingredient graph stubs |
+<!-- END: hmi-page-history -->

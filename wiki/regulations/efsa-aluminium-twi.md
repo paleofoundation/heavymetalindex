@@ -13,6 +13,7 @@ effective_date: 2008-05-22
 sunset_date: null
 source_refs: ["[[sources/efsa-aluminium-afc-2008]]"]
 title: "EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)"
+wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
@@ -33,3 +34,17 @@ JECFA subsequently aligned its PTWI to 1 mg/kg b.w./week ([[sources/efsa-alumini
 ## Sources
 
 - [[sources/efsa-aluminium-afc-2008|EFSA 2008]] — EFSA AFC Panel, 2008. Safety of Aluminium from Dietary Intake.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+| [9873dd1](https://github.com/paleofoundation/heavymetalindex/commit/9873dd1) | 2026-04-25 | Nickel + Aluminum batch: 4 source pages, 2 regulation pages, 2 metal pages |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 4
 sample_population: "Four brands of commercially sold dry seasoning powder (coded SP1–SP4) purchased from retail shops in markets across Port Harcourt metropolis, Rivers State, Nigeria, in February 2021. The four products were bouillon-style flavor-enhancer powders containing salt, monosodium glutamate, starch, vegetable extracts, and spices."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -103,3 +106,16 @@ App: Commercial seasoning / bouillon powders in West African markets are a flag 
 - ⚠️ Subagent flagged the original "dominant per-metal CR contributor was Cd" claim as over-broad. Verified against Table 6 (PDF p. 5): Cd-dominant holds for SP1 (95.8×10⁻⁴ Cd vs 4.27×10⁻⁴ Ni) and SP2 (29.2×10⁻⁴ Cd vs 2.78×10⁻⁴ Ni); Ni-dominant for SP3 (3.70×10⁻⁴ Ni vs 2.43×10⁻⁴ Cd) and SP4 (11.5×10⁻⁴ Ni vs 5.05×10⁻⁴ Cd). The subagent caught SP4 but missed SP3; the wiki was wrong in both. Corrected the Key-numbers sentence to enumerate by brand.
 - ⚠️ Subagent flagged `products/condiments-general` as not present in `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified independently — `wiki/products/condiments-general.md` exists in the live wiki (the routing audit also produces a row for it for this source). The taxonomy snapshot is stale; the slug is valid. False positive against the source page, real flag against the snapshot. Leaving slug in place.
 - Subagent verdict: REVISE. All other findings (numerical fidelity, speciation/methods, brand firewall, Part 2 firewall) were clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2a25593](https://github.com/paleofoundation/heavymetalindex/commit/2a25593) | 2026-05-18 | audit: dokubo2023-nigeria-seasoning-powder revised |
+| [ee936a1](https://github.com/paleofoundation/heavymetalindex/commit/ee936a1) | 2026-05-18 | ingest: dokubo2023-nigeria-seasoning-powder enhanced from Papers Cube Manual Fetch |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+<!-- END: hmi-page-history -->

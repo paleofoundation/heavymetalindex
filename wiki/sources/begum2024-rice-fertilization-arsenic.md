@@ -17,6 +17,9 @@ products: ["[[products/rice-bulk-grain]]"]
 matrices: ["rice-grain", "paddy-rice", "porewater"]
 jurisdictions: ["CN"]
 sample_population: "Rice grown to maturity in controlled chambers using soil sourced from a Chinese paddy field"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -53,3 +56,14 @@ The source supports rice-grain arsenic speciation context and helps explain trea
 
 - Source identity checked against DOI 10.1007/s12403-023-00563-y and the downloaded PDF.
 - The paper reports arsenic species; inorganic arsenic and DMA are kept separate.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

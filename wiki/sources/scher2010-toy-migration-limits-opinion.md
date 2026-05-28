@@ -19,6 +19,9 @@ jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
 sample_population: "Regulatory opinion evaluating EU Toys Safety Directive 2009/48/EC migration limits for 19 chemical elements"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -71,3 +74,15 @@ SCHER opinion compiled by Working Group (H. Autrup chair/rapporteur; W. Dekant, 
 - Audit subagent 2026-05-17 flagged Implications "should be used as the regulatory baseline" phrasing as a borderline Part 2 wiki/HMTc-firewall concern (reads as an HMTc directive); verified against CLAUDE.md Part 2 — softened to "Provides regulatory-baseline reference values ... SCHER's recommended TDIs in the TSD context" to keep the wiki reporting what SCHER recommended for the TSD without implying HMTc must use these specific values.
 - Audit subagent 2026-05-17 also flagged the 30%/15% per-source decomposition arithmetic as wiki-side expansion of source totals; verified against PDF p.5 — finding rejected as false positive. The source explicitly states "10% allocations per source × 3 sources" for the 13 less-toxic elements and "These elements are to be used at levels that are half of those considered safe" (= 5% per source × 3) for the 6 particularly toxic elements, and gives the 30%/15% totals; the wiki's arithmetic decomposition is faithful and explicit decomposition aids reader comprehension.
 - 2026-05-17 enhancement (merge-enhance pass): corrected metals frontmatter `As` → `tAs` per Part 14 speciation discipline (the toy directive migration limits are not speciated; SCHER's discussion of EFSA 2009b iAs-based BMDL01 is captured in Key numbers narrative). Removed the products-frontmatter pointer to the children's-makeup product slug — the prior ingest mis-attributed the source to children's cosmetics because the PDF lives in the `Children Personal Care Papers/babycare_01_Exposure_Pathways/` folder, but the SCHER opinion is about the EU TOYS Safety Directive 2009/48/EC, not cosmetics. No `toys` umbrella product slug exists in the current taxonomy; the opinion is a category-spanning regulatory anchor for all toy product rows in HMTc Category 21. Removed the matrices entries for the three physiologically-based extraction fluids (saliva, gastric, sweat) — those are extraction MEDIA used in migration testing, not product matrices; the matrix vocabulary is for what was measured (e.g., infant-formula, rice), not how it was extracted. Extraction-media information moved into Key numbers and Methods narrative. Clarified Cd TWI units (per week) and expanded Key-numbers narrative on Pb (JECFA PTWI withdrawal rationale) and As (SCHER's pragmatic-TDI derivation from the Italian drinking-water derogation opinion). Added the metals/tin wiki page to the touched list (organic Sn is one of the 6 particularly toxic elements in TSD scope).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ef3388e](https://github.com/paleofoundation/heavymetalindex/commit/ef3388e) | 2026-05-17 | audit: scher2010-toy-migration-limits-opinion revised |
+| [731e105](https://github.com/paleofoundation/heavymetalindex/commit/731e105) | 2026-05-17 | ingest: scher2010-toy-migration-limits-opinion enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

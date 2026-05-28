@@ -21,6 +21,9 @@ matrices: [pork-bacon, pork-ham, pork-sausage, pork-salami, processed-pork]
 jurisdictions: [RO]
 sample_n: 36
 sample_population: "Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced by six slaughterhouses; sampled Novemberâ€“December 2012"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -91,3 +94,16 @@ Samples purchased fresh from four commercial centers in Iasi, Romania, Novemberâ
 - 2026-05-18 Codex seafood-priority merge check corrected the raw handle/path/hash and aligned ingredients/products to existing taxonomy slugs.
 - Numerical values were checked against Tables 1-4 in the PDF. The page reports the paper's product-type means; Table 2 ranges show some individual Cd values below 0.1 mg/kg despite the paper's conclusion language that all samples contained Cd above the maximum level.
 - Legal-limit statements are retained only as paper-cited comparators. Do not use this page as a current EU limit source without checking the regulation page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b98e88b](https://github.com/paleofoundation/heavymetalindex/commit/b98e88b) | 2026-05-18 | ingest (codex): hoha2014 processed pork merge-enhance |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

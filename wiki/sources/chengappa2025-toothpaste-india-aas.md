@@ -21,6 +21,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 20
 sample_population: "20 over-the-counter toothpastes selected as the most-popular listings on Amazon, Flipkart, and Myntra Indian e-commerce platforms by customer reviews, ratings, and visibility. Type composition: 2 whitening, 8 herbal/ayurvedic/mint or lemon-mint, 2 anti-bacterial/germ-fighting, 1 kids, 1 anti-cavity, 2 salt-based, 1 everyday-protection, 1 calcium, 1 cooling, 1 charcoal. Samples were anonymised and numbered for analysis; per-sample brand identifiers exist in the source's Table 1 and Table 2 but are not reproduced here per CLAUDE.md Part 12."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1
 created_by: claude_opus_47_session
@@ -147,3 +150,14 @@ App: Not directly applicable. The paper measures finished toothpaste products, w
 - Audit subagent (2026-05-18) flagged the strict-reading As exceedance count as "approximately eleven" — verified against Table 2: exactly ten samples are strictly above 0.1 mg/L, with an eleventh sample at exactly 0.10 mg/L. Tightened to "ten of twenty strictly above 0.1 mg/L (eleven if at-or-above)" in Key numbers and in the contradiction-notes entry above.
 - Audit subagent (2026-05-18) flagged the parenthetical attribution of the ND-As sample as confused ("anti-cavity/calcium type — actually the herbal-mint type") — verified against Table 2: Toothpaste 16 (herbal/ayurvedic/mint/lemon-mint group) is the ND-As sample. Removed the self-correcting parenthetical; cleaned to "a herbal/ayurvedic/mint/lemon-mint type" in Key numbers.
 - Audit subagent (2026-05-18) flagged the herbal-group Pb range "ND–0.054" as misleading because the non-ND floor is 0.004 mg/L (Toothpaste 9), not approaching ND — verified against Table 2: three of eight herbal samples are below the Pb LOD (Toothpastes 5, 13, 15) and five report concrete Pb values 0.004, 0.054, 0.024, 0.040, 0.009 mg/L. Corrected the per-type table cell to "ND in 3 of 8; non-ND 0.004–0.054".
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bda4991](https://github.com/paleofoundation/heavymetalindex/commit/bda4991) | 2026-05-18 | audit: chengappa2025-toothpaste-india-aas revised |
+| [0d27df9](https://github.com/paleofoundation/heavymetalindex/commit/0d27df9) | 2026-05-18 | ingest: chengappa2025-toothpaste-india-aas fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+<!-- END: hmi-page-history -->

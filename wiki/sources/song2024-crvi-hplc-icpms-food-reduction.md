@@ -21,6 +21,9 @@ near_duplicates:
   - "raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0327_Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry.pdf"
 sample_n: 7
 sample_population: "Seven commercially purchased food samples from a local supermarket in Nanjing, China — milk powder, rice flour, whole wheat bread, yoghurt, white vinegar, orange juice, and green tea — analyzed for Cr(VI) by speciation HPLC-ICP-MS; six food components (vitamin C, tea polyphenols, whey proteins, gelatin, fructose, cellulose) sourced from Aladdin (Shanghai) were also used in spiking stability experiments. Each food was measured in triplicate (n = 3 per sample per condition)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -92,3 +95,17 @@ The paper does not report a certified reference material for Cr(VI) accuracy ver
 - Part 12 (brand firewall): the paper reports food samples generically by category ("milk powder", "rice flour", etc.) purchased from "a local supermarket (Nanjing, China)" without naming brands. No brand attribution attached to contamination values. Methods name instrument and reagent vendors (Agilent, Sepax, Milli-Q, Macklin, Aladdin, KQ-400DE / Kunshan Ultrasonic Instrument, H1850 / Xiangyi, Jinteng filter membranes, IBM SPSS, OriginLab) — all permitted under Exception 2 (scientific-method vendor names support reproducibility). No firewall issue.
 - Part 2 (wiki/HMT&C firewall): the Implications "Certification" subsection describes the paper's methodological contribution to Cr-VI threshold work without proposing a numerical threshold; no HMT&C threshold values are stated. The wiki page reports what this single paper found and does not synthesize with prior literature beyond the paper's own framing.
 - 2026-05-20 fresh-context audit subagent verdict: REVISE. Three ⚠️ findings, no ❌ findings. Numerical fidelity confirmed clean (Check 1) — 80 °C and pH-3 acceleration factor pairings independently verified against page 10 of the source. Findings applied: (Check 2 matrices) the canonical `system-prompt.md` matrices vocabulary contains `rice-flour`, `cereal-grain`, `cow-milk`, and `tea`; the three extensions in this page are `yoghurt`, `fruit-juice`, and `vinegar`, explicitly noted here as proposed additions to that vocabulary because the paper's tested matrices include yoghurt, an orange-juice product, and a vinegar product that do not have closer canonical equivalents. (Check 5b Certification) the "consistent with prior literature" sentence was tightened to attribute the framing to the paper's own introduction (citing Novotnik [9] and Vacchina [10]) and conclusion (§4), so the wiki is paraphrasing the paper rather than performing cross-source synthesis. (Check 5c App) the App subsection generalization ("most processed foods… typical storage conditions") was hedged to a single-paper finding referencing the seven foods, the LOD, the 3 h orange-juice / green-tea loss, and the paper's own conclusion language. Checks 3 and 4 were ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ee97c15](https://github.com/paleofoundation/heavymetalindex/commit/ee97c15) | 2026-05-25 | ingest: MFK P0327 stopped (cross-folder duplicate of song2024-crvi-hplc-icpms-food-reduction) |
+| [ad6aea8](https://github.com/paleofoundation/heavymetalindex/commit/ad6aea8) | 2026-05-20 | audit: song2024-crvi-hplc-icpms-food-reduction [revised] |
+| [c124fb5](https://github.com/paleofoundation/heavymetalindex/commit/c124fb5) | 2026-05-20 | ingest: song2024-crvi-hplc-icpms-food-reduction [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+<!-- END: hmi-page-history -->

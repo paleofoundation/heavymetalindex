@@ -14,6 +14,7 @@ sunset_date: 2023-06-30
 superseded_by: "[[regulations/china-gb-2762-2022-contaminants]]"
 source_url: "https://www.nhc.gov.cn/sps/c100088/201704/e8b91e9057a84df7a30875a69bf7de12.shtml"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -42,3 +43,13 @@ This page records a historical Chinese regulatory comparator. It does not set HM
 ## Verification notes
 
 - Created 2026-05-18 as the successor link for the superseded GB 2762-2012 page created during the Liang et al. 2019 ingest.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0468e60](https://github.com/paleofoundation/heavymetalindex/commit/0468e60) | 2026-05-18 | ingest (codex): liang2019 beijing foodstuffs health risk |
+<!-- END: hmi-page-history -->

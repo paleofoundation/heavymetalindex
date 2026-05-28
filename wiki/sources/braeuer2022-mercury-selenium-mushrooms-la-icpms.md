@@ -19,6 +19,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: 6
 sample_population: "6 mushroom individuals: 5 porcini (Boletus edulis, B. aereus, B. pinophilus) and 1 parasol (Macrolepiota procera); collected in Belgium and Czech Republic"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -54,3 +57,14 @@ App: Mushroom/fungi contamination profile — Hg as primary metal of concern; po
 
 - [[metals/mercury]]
 - [[ingredients/mushrooms]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [7c3dcee](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee) | 2026-05-13 | ingest p4-batch15-g2: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

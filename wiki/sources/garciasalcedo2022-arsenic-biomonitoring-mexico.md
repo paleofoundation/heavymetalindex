@@ -18,6 +18,9 @@ matrices: [breast-milk, blood, urine, tissue]
 jurisdictions: [MX]
 sample_n: 97
 sample_population: "Pregnant women and their neonates: 83 pairs from rural municipalities in Comarca Lagunera region (Durango and Coahuila states) exposed to drinking water arsenic, and 14 pairs from Saltillo municipality (non-exposed comparison)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -62,3 +65,13 @@ This study provides biomonitoring evidence for placental transfer and breast-mil
 
 - [[metals/arsenic]]
 - [[ingredients/breast-milk]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [475eaa6](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6) | 2026-05-25 | sources: clean up junk cite-keys — rename 6, delete 4 off-scope/dupes |
+<!-- END: hmi-page-history -->

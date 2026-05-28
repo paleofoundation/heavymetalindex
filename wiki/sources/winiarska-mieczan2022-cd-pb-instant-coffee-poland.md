@@ -22,6 +22,9 @@ jurisdictions: [PL]
 near_duplicates: ["AUTO_gap-coffee-pb-s12011-022-03129-2 (same DOI and identical PDF hash; wishlist duplicate for Pb target)"]
 sample_n: 49
 sample_population: "49 instant coffee, instant coffee drink, and coffee-substitute products bought in grocery stores in Chelm, Zamosc, and Lublin, eastern Poland, in August 2019; categories were instant coffee (n=11), green/roasted instant coffee blends (n=6), cappuccino instant coffee (n=6), chicory instant drink (n=6), chicory/coffee instant drink (n=5), instant cereal coffee drink (n=7), and 2-in-1/3-in-1 instant coffee (n=8)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -89,3 +92,14 @@ Microbiome: Not addressed.
 - Product-scope gap: the paper measures chicory and cereal coffee substitutes in addition to instant coffee. No dedicated `coffee-substitutes` product slug exists, so this page routes only to [[products/coffee]] and surfaces a new-product proposal for Karen review.
 - Strict brand firewall: the paper's Table 2 uses anonymized product codes and product-form descriptors. This page reports category-level aggregates only and does not reproduce sample-code rows or any commercial brand names.
 - Methods vendor/reference-material names are retained under Part 12 Exception 2 for instrument, reagent, and certified-reference-material documentation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8abf69b](https://github.com/paleofoundation/heavymetalindex/commit/8abf69b) | 2026-05-25 | audit winiarska-mieczan2022 coffee source |
+| [96d82aa](https://github.com/paleofoundation/heavymetalindex/commit/96d82aa) | 2026-05-19 | ingest auto-gap: polish instant coffee cd pb |
+<!-- END: hmi-page-history -->

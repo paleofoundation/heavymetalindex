@@ -19,6 +19,9 @@ jurisdictions: [LB]
 near_duplicates: []
 sample_n: 165
 sample_population: "165 artisanal yogurt samples from 11 Lebanese regions (15 samples per region); all made from regional cow's milk by traditional on-farm methods without preservatives, stabilizers, or flavoring agents"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -139,3 +142,15 @@ App: Contributes Lebanon-anchored cow's milk yogurt occurrence data for the [[in
 **Products field.** `products: []` is retained because no yogurt product slug exists in the current taxonomy. The matrices field captures the product form (`yogurt`, `dairy`); creation of a yogurt product page is a Step 0 Lock decision and is not made here.
 
 **Audit subagent (2026-05-19) flagged** that `[[regulations/eu-2023-915-lead-infant-young-child-foods]]` was the wrong EU 2023/915 sub-slug for this paper because the source measures Pb in raw-milk-derived dairy (EU 2023/915 dairy table, 0.020 mg/kg limit), not the infant/young-child foods Pb sub-table. Verified against the source (paper benchmarks against "Commission Regulation (EU) 2023/915 ... 0.020 mg/kg and 0.005 mg/kg of lead and Cd" for "raw milk and dairy products", p.3) and against the regulation page (`wiki/regulations/eu2023-contaminants-maximum-levels.md` is the umbrella slug covering all metals/all matrices in EU 2023/915, including the dairy Pb limit). Finding correct — replaced `[[regulations/eu-2023-915-lead-infant-young-child-foods]]` with `[[regulations/eu2023-contaminants-maximum-levels]]`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f2de49d](https://github.com/paleofoundation/heavymetalindex/commit/f2de49d) | 2026-05-19 | audit: sarkis2025-heavy-metals-yogurt-lebanon promoted-with-revision |
+| [f5e5c1a](https://github.com/paleofoundation/heavymetalindex/commit/f5e5c1a) | 2026-05-19 | ingest: sarkis2025-heavy-metals-yogurt-lebanon enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

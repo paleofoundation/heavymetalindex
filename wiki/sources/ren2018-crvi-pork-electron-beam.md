@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: null
 sample_population: "Laboratory experiment using lean, fat, and marbled pork purchased from a market in Hefei, China; pork tissues (2 g portions) spiked with K2Cr2O7 to total Cr(VI) concentrations of 150, 200, or 250 ppm and irradiated with high-energy electron beam at doses of 5–25 kGy; no in vivo or naturally chromium-contaminated cohort"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -101,3 +104,14 @@ Microbiome: Not applicable.
 - **Removed `[[mitigation/electron-beam-irradiation]]`** from the Wiki-pages-updated-on-ingest section; no such page exists. The mitigation framing belongs in `wiki/processing.md` or a future dedicated electron-beam page; this source page does not create that page.
 - **2026-05-18 audit-application (fresh-context subagent, verdict REVISE).** Subagent flagged the prior wording "approximately 96–98% RE in CCLP at 20 kGy/150 ppm (Figure 2A)" as a misreading of Figure 2A. Verified against PDF: page 1 Introduction explicitly states "a reductive efficiency of approximately 80% for the free Cr(VI)" as the paper's general headline result, with the 98.03% in the abstract being the single highest-condition maximum across the study (not specifically CCLP at 20 kGy/150 ppm baseline). Visual reading of Figure 2A bars at 20 kGy/150 ppm sits in the ~80–85% band; the abstract's 98.03% peak is more consistent with stress-condition panels (Figure 3) or CCMP/CCFP at specific conditions. Corrected the Key numbers framing to: paper's "approximately 80%" headline + 98.03% as study-wide maximum (panel unspecified) + tissue-specific visual readings (CCLP ~80–85%, CCMP ~95% at 20 kGy/150 ppm).
 - Subagent also downgraded its Check 2 concern about `pork-chop`/`pork-bacon` as analog ingredient slugs from ❌ to ⚠️ on closer read (the slugs are valid taxonomy entries; the mapping is a routing-discipline judgment). Left as-is; the routing rationale is already documented in this Verification notes block and the page benefits from fanning out to the lean (pork-chop) and fatty (pork-bacon) ingredient anchors that this study's findings differentially apply to. Acknowledged without change.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cb8e552](https://github.com/paleofoundation/heavymetalindex/commit/cb8e552) | 2026-05-18 | audit: ren2018-crvi-pork-electron-beam revised |
+| [eabe4d1](https://github.com/paleofoundation/heavymetalindex/commit/eabe4d1) | 2026-05-18 | ingest: ren2018-crvi-pork-electron-beam enhanced from PCMF/Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

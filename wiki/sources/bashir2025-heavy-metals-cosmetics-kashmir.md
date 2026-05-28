@@ -21,6 +21,9 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: 30
 sample_population: "30 cosmetic products purchased from local markets in Trarkhel, District Sudhnoti, Azad Jammu and Kashmir (AJ&K), Pakistan, 2023: 10 lipsticks (5 branded + 5 local), 10 beauty creams (5 branded — including 3 facial sunblocks — + 5 local face/acne creams), and 10 nail polishes (5 branded + 5 local). All sampled products are adult-use cosmetics; the 'future generation' framing of the paper refers to maternal-to-fetal transgenerational risk via dermal absorption of metals from cosmetics applied by women of reproductive age (BW assumed 70 kg in risk model)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -141,3 +144,14 @@ Thirty cosmetic samples (10 lipsticks, 10 beauty creams including 3 facial sunbl
   - CHECK 5 ⚠️ Implications policy stance: "is direct evidence for tightening" dropped. The wiki reports the paper's findings; the paper's own advocacy stance is summarised but not adopted as the wiki's voice — accepted.
   - CHECK 5 ⚠️ Implications anchor-pool phrasing: "should not be used as a sole anchor for any Cat 13 row but is a high-relevance entry in a multi-source pool" softened to "contributes one entry in a multi-source pool rather than a sole anchor for any Cat 13 row" — accepted; same boundary reasoning.
   - CHECK 1, 2, 3 otherwise ✅ clean (≥ 20 numeric spot-checks against Tables 1, 2, Figs 2-11, and Results narrative; speciation discipline tAs / tHg correct per Part 14; methods accurately reflect PDF Methods section; slug vocabulary verified against live `wiki/products/` and `wiki/metals/` trees).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d0c7ae5](https://github.com/paleofoundation/heavymetalindex/commit/d0c7ae5) | 2026-05-17 | audit: bashir2025-heavy-metals-cosmetics-kashmir revised |
+| [1caf312](https://github.com/paleofoundation/heavymetalindex/commit/1caf312) | 2026-05-17 | ingest: bashir2025-heavy-metals-cosmetics-kashmir fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

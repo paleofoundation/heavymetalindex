@@ -20,6 +20,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 7
 sample_population: "Six coded commercial spice samples purchased from New Heaven market, Enugu, Nigeria, plus one scent leaf sample collected from a nearby garden at Ugwuaji"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -68,3 +71,16 @@ Samples were labelled A–F (product identities not disclosed) plus one scent le
 - Numerical fidelity correction: the prior page repeated the source abstract/discussion phrasing that three samples exceeded a 0.5 µg/g As limit, but Table 1 shows only Sample C (1.68 µg/g) and Sample E (1.26 µg/g) exceed 0.5 µg/g; Sample D is 0.315 µg/g and only exceeds the lower end of the source's 0.1–0.5 µg/g permissible range. Lead exceedances remain Samples A and B; Cd exceedance remains all seven samples.
 - Part 2 firewall: softened the HMT&C monitoring/testing sentence to source-level occurrence context and explicitly kept the values out of threshold math.
 - Cross-vendor audit (Codex, 2026-05-18) corrected the sample-population description: the six coded spice samples were purchased from New Heaven market, while the scent leaf was collected from a nearby garden at Ugwuaji. Pathway language is treated as author-discussed possibilities, not confirmed source attribution for each sample.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e3b2bee](https://github.com/paleofoundation/heavymetalindex/commit/e3b2bee) | 2026-05-18 | audit (codex): chime spices revised |
+| [200715b](https://github.com/paleofoundation/heavymetalindex/commit/200715b) | 2026-05-18 | ingest (codex): chime2025 spices merge-enhance |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
+<!-- END: hmi-page-history -->

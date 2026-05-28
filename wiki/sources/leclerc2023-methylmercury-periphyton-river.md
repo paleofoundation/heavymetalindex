@@ -21,6 +21,9 @@ jurisdictions: [CA]
 near_duplicates: []
 sample_n: null
 sample_population: "Periphyton, benthic macroinvertebrates, and juvenile fish from St. Maurice River (Québec, Canada) affected by two run-of-river hydroelectric power plants; field sampling 2017, 2018, 2019"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -56,3 +59,16 @@ App: Freshwater fish from boreal rivers with hydroelectric development warrant a
 - [[metals/mercury]]
 - [[ingredients/fish]]
 - [[supply-chain/freshwater-mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [cc296bd](https://github.com/paleofoundation/heavymetalindex/commit/cc296bd) | 2026-05-13 | ingest p4-batch11-g1: 11 pages, 39 FP |
+<!-- END: hmi-page-history -->

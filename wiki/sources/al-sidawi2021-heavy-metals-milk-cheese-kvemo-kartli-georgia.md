@@ -19,6 +19,9 @@ jurisdictions: [GE]
 near_duplicates: []
 sample_n: 220
 sample_population: "195 raw cow's-milk samples (12–24 per village) and 25 traditional homemade cheese samples (16 Imeruli, 9 Sulguni) collected in summer 2019 from 9 villages (Chapala, Vanati, Bolnisi, Mtskneti, Sabereti, Ratawani, Khidiskuri, Daba Kazreti, Kvemo Bolnisi) in the Kvemo Kartli region of Georgia, adjacent to the Mashavera River and the Madneuli and RMG copper/gold mining operations"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -155,3 +158,15 @@ App: Contributes per-village raw cow's milk and traditional Georgian cheese occu
 **Speciation.** Paper reports total chromium without hexavalent speciation; `metals:` uses `Cr` not `Cr-VI`. No As or Hg analyses are reported in the paper.
 
 **Products field.** `products: []` is retained because no raw-cow-milk or traditional-cheese product slug exists in the current taxonomy; the Category 5 (Dairy/Eggs/Alternatives) Step 0 Lock has not yet been authored. The matrices field carries the product-form specificity (`raw-cow-milk`, `cheese`, `imeruli-cheese`, `sulguni-cheese`).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [44c601f](https://github.com/paleofoundation/heavymetalindex/commit/44c601f) | 2026-05-19 | audit: al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia promoted |
+| [1f697d0](https://github.com/paleofoundation/heavymetalindex/commit/1f697d0) | 2026-05-19 | ingest: al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia enhanced from Manual Fetch Kimi/05_Dairy_Eggs_and_Alternatives |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

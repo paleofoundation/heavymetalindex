@@ -17,6 +17,9 @@ products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]
 matrices: ["black-tea-leaves", "black-tea-infusion"]
 jurisdictions: ["TR"]
 sample_population: "Eight black tea brands sold in Turkiye, analyzed as dry leaves and infusions"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -54,3 +57,14 @@ The source supports tea occurrence context for Turkiye-market black tea and show
 
 Brand identities from the paper are not transcribed. Arsenic is treated as total arsenic because the paper does not report inorganic arsenic speciation.
 The article's prose gives a dry-leaf Al range of 12.6-25.3 mg/g, while Table 1 includes a 27.0 +/- 1.3 mg/g value; the Key numbers section uses the table range.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [0d9d380](https://github.com/paleofoundation/heavymetalindex/commit/0d9d380) | 2026-05-26 | ingest auto-fetched 2026-05-26 2220 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

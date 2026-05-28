@@ -19,6 +19,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 60
 sample_population: "Commercial and traditional olive oil (n=30: 12 commercial, 18 traditional) and corn oil (n=30: 18 commercial, 12 traditional) from Gonbad-Kavus City, Golestan province, northern Iran; March–June 2021"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -82,3 +85,15 @@ App: Usable as regional data points for [[ingredients/olive-oil]] and [[ingredie
 - Cross-vendor audit (Codex, 2026-05-17) preserved the source methods' daily-consumption inputs (0.147 g corn oil and 0.328 g olive oil) but flagged the conflicting Table 2 caption ("40.2 g/day").
 - The source introduction contains an internal geography error ("Gilan province"); the title, methods, sample collection, figures, and conclusion identify the study location as Gonbad-Kavus City, Golestan province/northern Iran.
 - `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50d719b](https://github.com/paleofoundation/heavymetalindex/commit/50d719b) | 2026-05-17 | audit (codex): tayeb2025 oils revised |
+| [a1aeac1](https://github.com/paleofoundation/heavymetalindex/commit/a1aeac1) | 2026-05-17 | ingest (codex): merge-enhance tayeb2025 oil exposure |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

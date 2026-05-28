@@ -22,6 +22,9 @@ near_duplicates: ["[[sources/cfs2013-hktds-metallic-contaminants]]"]
 related_sources: ["[[sources/cfs2013-hktds-metallic-contaminants]]"]
 sample_n: 600
 sample_population: "Hong Kong adult population aged 20-84; composite samples from 150 TDS food items collected on four occasions March 2010 to February 2011 (3 purchases per item per occasion, 1,800 individual samples combined into 600 composites)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -205,3 +208,17 @@ Merge-enhanced 2026-05-28 from prior 2026-05-14 revision (cite_key, raw_handle, 
 - **Cooking-water removal "additional" framing (⚠️ → applied).** Auditor noted that PDF para 34 reports cooking-removal as 35%/45% "as compared with the uncooked rice" — i.e. cooking vs uncooked, not cumulative with the rinse-washing reduction. The Courses paragraph dropped the word "additional" and now explicitly clarifies that both reductions are referenced to the same uncooked baseline (not cumulative).
 
 No false positives; no findings rejected. Subagent verdict: REVISE (now resolved). Updated audit-queue.csv status to audited-revised.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [953e104](https://github.com/paleofoundation/heavymetalindex/commit/953e104) | 2026-05-28 | audit: cfs2012-hktds-inorganic-arsenic [revised] |
+| [9b9852c](https://github.com/paleofoundation/heavymetalindex/commit/9b9852c) | 2026-05-28 | ingest: cfs2012-hktds-inorganic-arsenic [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+<!-- END: hmi-page-history -->

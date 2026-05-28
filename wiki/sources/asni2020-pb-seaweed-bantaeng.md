@@ -20,6 +20,9 @@ jurisdictions: [ID]
 near_duplicates: []
 sample_n: null
 sample_population: "Cultivated Kappaphycus alvarezii seaweed and surrounding seawater from three sampling stations along the Bantaeng Regency coastline, South Sulawesi, Indonesia: Bissappu (Station A), Bantaeng (Station B), and Paju'kukang (Station C). Each station had three transect substations at 0–500 m (near), 500–1000 m (medium), and 1000–1500 m (far) from the coast, with three replicate points per substation. Water and seaweed sampling was carried out twice a month across rainy and dry seasons. Total sample count not stated in the paper."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -91,3 +94,14 @@ Audit subagent (2026-05-18, verdict REVISE) flagged one main concern (⚠️) pl
 - ⚠️ Figure 3 and Figure 6 bar-chart visual reads (~0.45 ppm low end, ~4.5–5.5 ppm rainy seaweed bars, ~8.5–12.5 ppm dry seaweed bars) — audit confirmed visual reads as consistent with the figures. No change.
 
 Verdict pushback: subagent issued REVISE primarily on the comparison-citation finding, which is a false positive (the references exist on the page the subagent did not read). The remaining concerns are acceptances or stylistic. No content changes applied. Final disposition: audited-revised with one false-positive rejection documented.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4e43679](https://github.com/paleofoundation/heavymetalindex/commit/4e43679) | 2026-05-18 | audit: asni2020-pb-seaweed-bantaeng revised |
+| [4f7cdae](https://github.com/paleofoundation/heavymetalindex/commit/4f7cdae) | 2026-05-18 | ingest: asni2020-pb-seaweed-bantaeng enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

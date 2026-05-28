@@ -22,6 +22,9 @@ jurisdictions: [AE]
 near_duplicates: []
 sample_n: 81
 sample_population: "Seven traditional herbs (parsley n=13, basil n=11, sage n=11, oregano n=11, mint n=13, thyme n=13, chamomile n=9) purchased from 13 authenticated shops/supermarkets approved by Dubai municipality; local and imported, fresh and dried, all reported on dry-weight basis after room-temperature air-drying; three subsamples averaged per source"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -109,3 +112,15 @@ The source paper carries a minor internal inconsistency: Table 1 lists 81 total 
   - ⚠️ Check 1: minor source-internal discrepancy on mint Fe max (Table 2 "821.02 ± 17.83" vs Section 3.5 narrative "821.01"). Wiki cites the narrative value (821.01). Defensible per audit. No change; the source-internal denominator/value discrepancies are already flagged in Provenance notes generally; documenting this specific Fe instance here.
   - ⚠️ Check 2: per-species ingredient slugs (`basil`, `sage`, `oregano`, `thyme`, `mint`, `chamomile`) not in current taxonomy snapshot. Already explicitly flagged in Verification notes above per the audit-prompt Check 2 carve-out for snapshot-missing-but-disclosed slugs; auto-stub freq-2 mechanism handles promotion. No change.
   - ⚠️ Check 5: "illustrative case for geographic sourcing effects" under Courses bullet flagged as borderline-synthesis. Re-reviewed — the bullet describes one paper's teaching utility, not a cross-paper consensus claim; acceptable per audit's own note. No change.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5170225](https://github.com/paleofoundation/heavymetalindex/commit/5170225) | 2026-05-28 | audit: dghaim2015-heavy-metals-uae-herbs [promoted] |
+| [30637ca](https://github.com/paleofoundation/heavymetalindex/commit/30637ca) | 2026-05-28 | ingest: dghaim2015-heavy-metals-uae-herbs [enhanced] from Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

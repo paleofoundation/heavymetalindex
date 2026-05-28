@@ -17,6 +17,9 @@ products: ["[[products/fresh-fruit]]"]
 matrices: ["pineapple-fruit", "pineapple-leaves", "pineapple-roots", "pineapple-cultivated-soil"]
 jurisdictions: ["IN"]
 sample_population: "Pineapple cultivated tracts in Ernakulam district, Kerala, India"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -55,3 +58,14 @@ The fruit values are routeable for pineapple ingredient context, while root, lea
 
 - Source identity checked against DOI 10.47191/ijcsrr/V4-i5-14 and the downloaded PDF.
 - The PDF text reports high soil Cd; fruit Cd is separately reported as 4 mg/kg and should not be pooled with soil values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [53f221f](https://github.com/paleofoundation/heavymetalindex/commit/53f221f) | 2026-05-25 | ingest auto-fetched 2026-05-25 1748 batch 2: 8 source pages |
+<!-- END: hmi-page-history -->

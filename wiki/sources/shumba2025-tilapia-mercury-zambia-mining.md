@@ -20,6 +20,9 @@ jurisdictions: [ZM]
 near_duplicates: []
 sample_n: 79
 sample_population: "Tilapia (Oreochromis niloticus), 12–15 cm, from Kafue River tributaries near Kitwe copper mining area (n=32 mining, n=47 non-mining), Zambia, October 2023"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -66,3 +69,15 @@ App: Tilapia from Zambia/copper-belt region: elevated tHg flag relative to non-m
 - [[metals/mercury]]
 - [[ingredients/freshwater-fish]]
 - [[ingredients/tilapia]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [e2e70eb](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eb) | 2026-05-13 | ingest p4-batch9-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

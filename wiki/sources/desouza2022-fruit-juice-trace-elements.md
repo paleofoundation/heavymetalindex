@@ -20,6 +20,9 @@ jurisdictions: [ES, PT]
 near_duplicates: []
 sample_n: 21
 sample_population: "21 fruit juice and nectar samples: 16 commercial fruit juices, 2 commercial nectars, 2 laboratory-squeezed orange juices, and 1 laboratory-squeezed lemon juice from Spain/Portugal retail and laboratory preparation."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -107,3 +110,14 @@ Microbiome: Not addressed.
 - Strict brand firewall: the paper refers to fruit types and sample labels only; no commercial juice brands are named in this source page.
 - Methods vendor/equipment/reagent names are retained under Part 12 Exception 2.
 - Fresh-context audit (Claude subagent, 2026-05-19): REVISE → applied. Three findings corrected: (1) Pb row leads with the precise 61.7 ± 7.2 µg/L text value with Table V rounding noted, plus explicit citation of the EU 2021/1317 and ANVISA IN 88/2021 comparators the paper invokes; (2) Co row notes the text-vs-Table-V discrepancy (37.8 vs 38 ± 2); (3) recovery range corrected from 89-103% to 89-108% to capture the Mg 108 ± 5 maximum. Slug vocabulary clean, speciation discipline correct (tAs/Cr-total/Sb explicitly labeled), brand firewall clean (sample labels anonymized as in source), HMTc firewall clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [95d82ac](https://github.com/paleofoundation/heavymetalindex/commit/95d82ac) | 2026-05-19 | audit (async drain): youssao2018 PROMOTE + desouza2022 REVISE applied |
+| [cb5fca5](https://github.com/paleofoundation/heavymetalindex/commit/cb5fca5) | 2026-05-19 | ingest auto-gap: fruit juice trace elements |
+<!-- END: hmi-page-history -->

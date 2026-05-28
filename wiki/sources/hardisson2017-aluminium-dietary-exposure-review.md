@@ -20,6 +20,9 @@ matrices: [dietary-intake, fish, shellfish, mollusk, seaweed, tea, drinking-wate
 jurisdictions: [ES, DE, AU, US, TR, KR, JO]
 sample_n: null
 sample_population: "Compiled literature review of Al concentrations across food groups and drinks; intake estimated against Spanish population consumption data (AESAN)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -116,3 +119,17 @@ Literature review of studies published from 1985 to 2017 retrieved via Web of Sc
 - 2026-05-18 Codex merge-enhance: matched DOI/raw path to the manual-fetch PDF, replaced the generic manual-fetch handle, added DOI access URL and PDF SHA-256, corrected invalid taxonomy slugs, and corrected the EFSA baseline exposure range to 28.6-214 µg/kg body weight per day per the review text.
 - The source is a narrative review compiling values from cited studies; Table 6 intake estimates combine review-wide mean Al concentrations with Spanish AESAN consumption data.
 - 2026-05-18 fresh-context audit (Codex subagent) returned REVISE-level concerns; applied clarification for the 312 ± 18 µg/g tea value, normalized matrices to common broad terms, and tightened the App implication. The Certification/Courses/App labels are retained because they are required by the source-page template.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [91326cd](https://github.com/paleofoundation/heavymetalindex/commit/91326cd) | 2026-05-18 | ingest (codex): hardisson2017 aluminium dietary exposure merge-enhance |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

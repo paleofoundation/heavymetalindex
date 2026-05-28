@@ -13,6 +13,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 2
+wiki_doi: null
 updated: 2026-05-19
 ---
 
@@ -77,3 +78,16 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 ## Historical recalls and enforcement
 
 No soy powdered formula recall or enforcement source is currently routed to this provisional page. Future entries should summarize public regulatory records without turning the section into a brand-comparison surface.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8cd9d4d](https://github.com/paleofoundation/heavymetalindex/commit/8cd9d4d) | 2026-05-25 | fill powdered soy formula synthesis prose |
+| [96dc130](https://github.com/paleofoundation/heavymetalindex/commit/96dc130) | 2026-05-20 | autonomy: daemon tick 2026-05-19T21-10-50Z — gap-healing + extraction + pooling + briefings |
+| [79c7366](https://github.com/paleofoundation/heavymetalindex/commit/79c7366) | 2026-05-19 | autonomy: daemon tick 2026-05-19T20-17-12Z — gap-healing + extraction + pooling + briefings |
+| [3484bf1](https://github.com/paleofoundation/heavymetalindex/commit/3484bf1) | 2026-05-19 | autonomy: daemon tick 2026-05-19T19-35-00Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

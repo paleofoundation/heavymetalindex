@@ -20,6 +20,9 @@ jurisdictions: []
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review synthesizing previously published occurrence values and toxicology mechanisms for heavy metals in plant-based foods, with worked examples drawn from secondary citations to Bangladeshi rice studies, wheat studies, Ghanaian and Egyptian vegetable surveys, and a Rivers State (Nigeria) fruit survey"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -105,3 +108,14 @@ Non-systematic narrative literature review. No PRISMA flow, no documented inclus
 - [[ingredients/wheat]]
 - [[ingredients/vegetables]]
 - [[ingredients/fruits]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [65d79cc](https://github.com/paleofoundation/heavymetalindex/commit/65d79cc) | 2026-05-18 | audit: munir2022-heavy-metals-natural-foods-review revised |
+| [f62b56a](https://github.com/paleofoundation/heavymetalindex/commit/f62b56a) | 2026-05-18 | ingest: munir2022-heavy-metals-natural-foods-review enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [ET]
 near_duplicates: []
 sample_n: 17
 sample_population: "Edible vegetable oils (Niger seed, mixed oil, soybean, sunflower) from Gondar City markets, Northwest Ethiopia; May–July 2021; locally produced and non-locally produced/commercially available samples"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -82,3 +85,16 @@ App: Limited utility for ingredient-level contamination profiling due to unit re
 - Cross-vendor audit (Codex, 2026-05-17) corrected one unit statement from mg/kg to mg/L because the source reports Table 6/7 and exceedance thresholds in mg/L; no mg/kg conversion is provided.
 - Method validation caveat: the source's LOD/LOQ table conflicts with several reported unspiked concentration ranges, especially Cd, so this page should not feed standards calculations without independent re-analysis.
 - `products/cooking-oils-other` exists as a local product page used for oil/condiment routing even though it is absent from the GPT taxonomy snapshot.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a66e94c](https://github.com/paleofoundation/heavymetalindex/commit/a66e94c) | 2026-05-17 | audit (codex): yohannes2024 vegetable oils revised |
+| [e2295e6](https://github.com/paleofoundation/heavymetalindex/commit/e2295e6) | 2026-05-17 | ingest (codex): merge-enhance yohannes2024 vegetable oils |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

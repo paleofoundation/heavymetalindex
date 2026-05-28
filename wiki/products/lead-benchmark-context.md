@@ -6,6 +6,7 @@ metal: Pb
 audience: [regulator, educator, consumer, app]
 evidence_register: data/evidence/category1_lead_benchmark_context.csv
 sources: 4
+wiki_doi: null
 updated: 2026-05-03
 ---
 
@@ -122,3 +123,16 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 
 Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heavy-metal contamination (the focus of this row) and microbial contamination (FDA recall notices for E. coli/Salmonella/Listeria in fresh produce, a separate concern). FDA Total Diet Study and Pesticide Data Program surveillance reports establish the heavy-metal occurrence baseline ([[sources/fda-tds-elements-2018-2020|FDA 2022]]). State-level Cd-in-leafy-greens enforcement has been active in California under Prop 65; the related Mateel Environmental settlement framework has shaped compliance practice. Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8530c3e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e) | 2026-05-17 | synthesis: 53 product pages — replace placeholder Levers + Historical-recalls intros |
+| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
+| [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
+| [ffcffea](https://github.com/paleofoundation/heavymetalindex/commit/ffcffea) | 2026-05-12 | master pages: firewall posture per OPERATING.md Part 2 |
+| [1e18eb9](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9) | 2026-05-03 | Add Category 1 lead benchmark context |
+<!-- END: hmi-page-history -->

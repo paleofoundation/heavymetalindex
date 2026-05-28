@@ -14,6 +14,7 @@ rule_id: fda-cpg-540-600
 effective_date: 1984-11-06
 source_url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-540600-fish-shellfish-crustaceans-and-other-aquatic-animals-fresh-frozen-or-processed-methyl"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -42,3 +43,13 @@ This page records FDA's enforcement-relevant methylmercury action level for fish
 
 - Created 2026-05-18 by Codex during P0151 seafood manual-fetch ingest after Shim et al. 2004 cited FDA's 1000 ppb action level for commercial fish.
 - The CPG page gives the regulatory-action criterion as methylmercury expressed as mercury in excess of 1 ppm in the edible portion only. The broader FDA action-level list independently restates the same fish/shellfish/crustaceans/other aquatic animals entry as "1 ppm methyl mercury in edible portion" with reference to CPG 540.600.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [14e2752](https://github.com/paleofoundation/heavymetalindex/commit/14e2752) | 2026-05-18 | ingest (codex): shim2004 mercury fatty acids canned fish |
+<!-- END: hmi-page-history -->

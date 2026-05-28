@@ -19,6 +19,9 @@ jurisdictions: [JP]
 near_duplicates: []
 sample_n: 276
 sample_population: "260 children aged 0–5 years from the Pacific side of Tohoku, Japan, providing 276 24-hour dietary duplicate samples across 8 dietary stages (formula milk 0–4 m; baby foods stages 1–4 covering 5–17 m; toddler meals stages 1–3 covering 18–71 m); samples collected Oct 2020 – Jun 2022."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -76,3 +79,13 @@ QA: CRMs ERM BD-150 (skimmed milk powder, n=9) recovery 88–92% for THg; SRM156
 - [[regulations/efsa-methylmercury-twi]]
 - [[regulations/epa-iris-methylmercury-rfd]]
 - [[regulations/jecfa-methylmercury-ptwi]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

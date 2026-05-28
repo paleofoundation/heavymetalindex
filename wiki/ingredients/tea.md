@@ -81,6 +81,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/pu-erh-tea]]"]
 used_in_products: ["[[products/tea]]", "[[products/kombucha-tea-based]]"]
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 31
 created_by: autonomy_v0
@@ -173,3 +174,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 9 | [[sources/scheer2017-aluminium-tolerable-intake-toys\|SCHEER 2017]]. *Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys*, SCHEER Opinion, European Commission | 2017 | Government report | EU Al occurrence in Review of regulatory opinions and dietary exposure data for children and adults |
 | 10 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish total-diet-study tea iAs, tAs, Al, Cd, Cr, Pb, tHg, Sn in the as-consumed pathway |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [eda33c7](https://github.com/paleofoundation/heavymetalindex/commit/eda33c7) | 2026-05-20 | autonomy: daemon tick 2026-05-20T15-11-23Z — gap-healing + extraction + pooling + briefings |
+| [cd7ce49](https://github.com/paleofoundation/heavymetalindex/commit/cd7ce49) | 2026-05-20 | autonomy: daemon tick 2026-05-20T12-30-23Z — gap-healing + extraction + pooling + briefings |
+| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
+| [8a699bd](https://github.com/paleofoundation/heavymetalindex/commit/8a699bd) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-44-44Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

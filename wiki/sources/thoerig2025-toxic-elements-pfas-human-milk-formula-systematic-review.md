@@ -17,6 +17,9 @@ products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-form
 matrices: [human-milk, infant-formula]
 jurisdictions: [US]
 sample_n_notes: "systematic review of U.S. studies on As/Cd/Pb/Hg and PFAS in human milk and infant formula; uses peer-reviewed and government-data inclusion criteria"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -43,3 +46,13 @@ The systematic review documents that infant formula concentrations of As, Cd, Pb
 - [[metals/mercury]]
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-powder-soy-based]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

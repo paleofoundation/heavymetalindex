@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: null
 sample_population: "U.S. population modelling: ~24M children aged 0-6 years. Multiple exposure scenarios using NHANES, FITS (Nestlé Feeding Infants and Toddlers Study), Karagas et al. 2016, Carignan et al. 2016 consumption + concentration distributions."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -108,3 +111,13 @@ Microbiome: Not addressed (this is an exposure + dose-response report, not mecha
 - [[regulations/usepa-iris-1991-iAs-rfd]] (cited; to be created)
 - [[regulations/tsuji-2015-iAs-neurodevelopmental-rfd]] (cited; to be created)
 - [[regulations/atsdr-2007-iAs-mrl]] (cited; to be created)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3f311e5](https://github.com/paleofoundation/heavymetalindex/commit/3f311e5) | 2026-05-15 | sources: Cat 1 iAs IQ-loss — Chiger/Abt 2017 HBBF infant rice cereal neurodevelopment |
+<!-- END: hmi-page-history -->

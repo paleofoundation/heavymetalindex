@@ -17,6 +17,9 @@ products: []
 matrices: [mechanistic-toxicology, ROS, oxidative-stress, dna-damage, dna-repair, enzyme-inactivation, carcinogenesis]
 jurisdictions: [IR]
 sample_n_notes: "Comprehensive narrative review from Birjand University of Medical Sciences Medical Toxicology and Drug Abuse Research Center; synthesizes ~250 primary references covering Hg, Pb, Cr, Cd, As mechanistic toxicology"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -71,3 +74,13 @@ Comprehensive narrative review. Draws on approximately 250 primary references sp
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/arsenic-inorganic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3902221](https://github.com/paleofoundation/heavymetalindex/commit/3902221) | 2026-05-11 | ingest: Balali-Mood 2021 keystone five-heavy-metals mechanism review |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [CN, UK, US]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review compiling pot, greenhouse, and nutrient-solution experiments on Chinese cabbage (Brassica chinensis cv. Zao-Shu 5), winter greens (B. rosularis var. Tsen et Lee cv. Shang-Hai-Qing), pakchoi (B. chinensis), and celery (Apium graveolens var. dulce DC) conducted at Zhejiang University (Long et al. 2003; Ni et al. 2002; Yang et al. 2002; Xiong & Wang 2005; Zhang & Zhou 2005), supplemented by literature comparators from China, the UK, the US, the Netherlands, Romania, and Tanzania"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -155,3 +158,13 @@ Merge-enhanced 2026-05-18 from the prior 2026-05-14 page, which appeared in `rou
 - Body — Implications section softened from concrete "useful reference values for agricultural soil certification criteria" framing to a more accurate description of how the Cd regression equations could feed soil-screening workflows after jurisdictional ceiling substitution; explicit caveat added that any single-number leafy-vegetable Cd threshold will under-protect celery (slope ~2× Chinese cabbage). This keeps the wiki on the literature side of the Part 2 firewall (the equations themselves are not a recommendation that HMTc adopt these thresholds).
 - Wiki pages updated on ingest — removed broken wikilinks to `[[ingredients/chinese-cabbage]]`, `[[ingredients/pakchoi]]`, `[[supply-chain/soil-contamination]]`, and `[[mitigation/agronomic-levers]]` (none of these pages exist in the wiki). Frontmatter `ingredients` array retains the chinese-cabbage and pakchoi slugs since they are valid routing-layer inputs handled by the auto-stub system (pakchoi is freq-2 across the corpus; chinese-cabbage is freq-1 here). The body link list now reflects only pages that actually exist.
 - `## Methods (brief)` expanded to identify each primary study the review cites and to state limitations relevant to wiki use (narrative-review status, Chinese-soil-only context, GB-only food-side limits, no Cr/Hg quantification, no speciation work, Al-only-qualitative).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [604e85c](https://github.com/paleofoundation/heavymetalindex/commit/604e85c) | 2026-05-18 | ingest: islam2007-dietary-toxicity-vegetables-food-crops enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

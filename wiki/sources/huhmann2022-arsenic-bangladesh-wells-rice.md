@@ -19,6 +19,9 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: 11197
 sample_population: "Health Effects of Arsenic Longitudinal Study (HEALS) participants, Araihazar upazila, Bangladesh; also 814 rice samples from 410 HEALS households"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -46,3 +49,13 @@ App: Bangladesh rice samples provide distributional data for a high-tAs rice sce
 
 - [[metals/arsenic]]
 - [[ingredients/rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [011a298](https://github.com/paleofoundation/heavymetalindex/commit/011a298) | 2026-05-13 | ingest p4-batch14-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

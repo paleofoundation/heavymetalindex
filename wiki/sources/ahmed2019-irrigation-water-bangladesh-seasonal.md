@@ -20,6 +20,9 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: 243
 sample_population: "Irrigation water, soil, and mixed vegetables from 3 industrial zone areas (Banglabazar, Kashimpur, Chandra) in Gazipur District, Bangladesh. Total samples across media and seasons: 243 (water 72 + soil 72 + vegetables 99). Dry season sampled Nov–Dec 2017: water n=12 per area, soil n=12 per area (each a composite of 5 topsoil subsamples), vegetables n=24 per area. Wet season sampled Jun–Jul 2015 (drawn from authors' prior study): water n=12 per area, soil n=12 per area, vegetables n=9 per area."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -133,3 +136,14 @@ Audit subagent (2026-05-18, verdict PROMOTE) flagged three minor concerns; all t
 - `sample_n: 99` was ambiguous in a 3-medium 2-season design (99 happened to equal total vegetable samples 72 dry + 27 wet, but the field semantic was unclear). Updated to 243 (water 72 + soil 72 + vegetables 99) with a per-medium breakdown in sample_population.
 - "Helencha (wet season): Zn 102.97 — highest wet-season Zn" reworded to "Zn was the highest of the six metals within helencha, and helencha had the highest overall metal load among wet-season species (Figure 4b)" to mirror the paper's p.7 framing.
 - Water-storage bottle material corrected from "polyethylene" (invented detail) to "plastic" per paper §2.2 wording.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a8cffbc](https://github.com/paleofoundation/heavymetalindex/commit/a8cffbc) | 2026-05-18 | audit: ahmed2019-irrigation-water-bangladesh-seasonal revised |
+| [549f39d](https://github.com/paleofoundation/heavymetalindex/commit/549f39d) | 2026-05-18 | ingest: ahmed2019-irrigation-water-bangladesh-seasonal enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

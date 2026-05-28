@@ -22,6 +22,9 @@ matrices: [cereal-grain, rice, fish, shellfish, cow-milk, drinking-water, dietar
 jurisdictions: [EU, US, RO, international]
 sample_n: null
 sample_population: "Narrative review; no primary sample collection. Synthesizes published literature and regulatory data across multiple countries."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -161,3 +164,17 @@ Microbiome: Not addressed in this review.
 - Replaced invalid regulation wikilinks with existing or newly created regulation anchors.
 - The Codex tin regulation slug was created during this ingest under the current Part 10 regulation-page rule, so it may not yet appear in the static taxonomy snapshot used by audit agents.
 - Strict brand-firewall check: no consumer brand or manufacturer names are named. Method database and agency names are retained.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [de278da](https://github.com/paleofoundation/heavymetalindex/commit/de278da) | 2026-05-18 | ingest (codex): mititelu2025 heavy metal food contamination review |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

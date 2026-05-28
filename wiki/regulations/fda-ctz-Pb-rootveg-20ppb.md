@@ -13,6 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)"
+wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator]
 ---
@@ -86,3 +87,17 @@ For the Category 1 lead comparison layer, see [[products/lead-benchmark-context]
 ## Sources
 
 - [[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]] (evidence tier A, US government work)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1e18eb9](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9) | 2026-05-03 | Add Category 1 lead benchmark context |
+| [80c3dcd](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcd) | 2026-05-02 | Ingest FDA 2025 lead baby food guidance |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+<!-- END: hmi-page-history -->

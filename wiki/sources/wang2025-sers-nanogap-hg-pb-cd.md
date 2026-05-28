@@ -19,6 +19,9 @@ matrices: [analytical-method, water, herbal-plants]
 jurisdictions: []
 sample_n: null
 sample_population: "Spiked water, herbal plant extracts, and zebrafish samples for SERS sensor validation"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -48,3 +51,15 @@ App: No contamination profile data extractable from this source.
 - [[metals/mercury]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1d941b6](https://github.com/paleofoundation/heavymetalindex/commit/1d941b6) | 2026-05-12 | ingest: P2 remaining-group1 — 5 source pages, 50 false positives |
+<!-- END: hmi-page-history -->

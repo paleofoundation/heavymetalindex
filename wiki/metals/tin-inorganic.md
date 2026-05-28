@@ -7,6 +7,7 @@ species: [Sn2+, Sn4+, SnCl2, SnCl4]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: low
 sources: 7
+wiki_doi: null
 updated: 2026-05-08
 status: scaffold
 n_sources: 4
@@ -77,3 +78,16 @@ What is the dietary tin intake for infants on heavy reliance on canned commercia
 - [[sources/tarigan2016-factors-tin-released-canned-beverages|Tarigan, Silalahi, Muchlisyam 2016]] — Indonesian canned-beverage tin occurrence with pH-and-storage-time dependence; supporting evidence on the release mechanism.
 - [[sources/schafer1984-tin-toxic-heavy-metal-review|Schafer & Femfert 1984]] — Historical European synthesis review establishing the species-distinction principle the wiki and HMTc both maintain.
 - [[regulations/eu2023-contaminants-maximum-levels|EU 2023/915]] — Binding maximum levels for inorganic tin in canned food, canned beverages, and canned infant/young-child foods.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [27d26bb](https://github.com/paleofoundation/heavymetalindex/commit/27d26bb) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-04-41Z — gap-healing + extraction + pooling + briefings |
+| [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
+| [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
+| [d04abbc](https://github.com/paleofoundation/heavymetalindex/commit/d04abbc) | 2026-05-08 | ingest: digest-batch-1-tin — 4 sources, 2 species pages, parent expansion |
+<!-- END: hmi-page-history -->

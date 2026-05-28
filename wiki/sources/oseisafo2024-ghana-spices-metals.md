@@ -20,6 +20,9 @@ jurisdictions: [GH, IN, CN, MA, ML, FR, MY]
 near_duplicates: []
 sample_n: 90
 sample_population: "90 spice samples (10 spice types × 3 markets × 3 sellers per market) purchased from Madina, Kaneshie, and Makola markets in Accra Metropolis, Ghana; spices include ginger (Ghana origin), garlic (India, Morocco), rosemary (China), aniseed (Mali), negro pepper (Ghana), nutmeg (France, Morocco), green pepper (Ghana), white pepper (Ghana), turmeric powder (India), black pepper (Malaysia)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -66,3 +69,16 @@ App: Turmeric, rosemary, garlic, and ginger warrant elevated tAs and Pb flags; i
 - [[metals/arsenic]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [0562446](https://github.com/paleofoundation/heavymetalindex/commit/0562446) | 2026-05-13 | ingest p4-batch7-g4: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

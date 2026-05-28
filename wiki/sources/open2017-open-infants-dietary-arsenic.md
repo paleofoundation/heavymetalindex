@@ -39,6 +39,9 @@ jurisdictions:
 sample_n: 15
 sample_population: Healthy infants (8 female, 7 male) from the New Hampshire Birth Cohort Study enrolled in 2009–2010, transitioning from milk feeding to solid foods at 4–6 months of age.
 study_design: Prospective cohort study with paired urine samples collected at 4 and 6 months of age matched to 3-day food diaries. Urinary arsenic speciation measured by ion chromatography inductively coupled plasma mass spectrometry (IC-ICP-MS).
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 # Signes-Pastor 2018 — Infants' dietary arsenic exposure during transition to solid food
@@ -92,3 +95,13 @@ This study provides the first quantitative characterization of arsenic speciatio
 - [[jurisdictions/united-states]]
 - [[testing/ic-icp-ms]]
 - [[regulations/fda-action-level-infant-rice-cereals]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c2b716e](https://github.com/paleofoundation/heavymetalindex/commit/c2b716e) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-49-27Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

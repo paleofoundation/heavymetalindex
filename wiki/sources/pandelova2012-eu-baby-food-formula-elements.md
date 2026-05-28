@@ -13,6 +13,9 @@ access_url: https://doi.org/10.1016/j.jfca.2012.04.011
 metals: [Cd, tHg, Ni, Pb, Ca, Cu, Fe, Mn, Se, Zn]
 products: [infant-formula-powder, infant-formula-powder-soy-based, infant-formula-powder-non-soy]
 jurisdictions: [EU, FR, DE, IT, PT, SE, UK, ES, SK]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -96,3 +99,17 @@ The extracted text has unit-symbol OCR ambiguity, with microgram symbols often r
 - [[products/non-root-vegetable-purees]]
 - [[products/mixed-meals-non-rice]]
 - [[products/mixed-meals-rice-containing]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [f9b4d9a](https://github.com/paleofoundation/heavymetalindex/commit/f9b4d9a) | 2026-05-07 | Normalize Pandelova formula basket rows |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [aabcca3](https://github.com/paleofoundation/heavymetalindex/commit/aabcca3) | 2026-04-29 | sources: ingest Pandelova 2012 EU baby food element baskets |
+<!-- END: hmi-page-history -->

@@ -18,6 +18,9 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-25
 ---
 
@@ -41,3 +44,16 @@ The Joint FAO/WHO Expert Committee on Food Additives 61st meeting (Rome, June 20
 
 - [[metals/mercury]]
 - [[regulations/jecfa-methylmercury-ptwi]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [eb85df3](https://github.com/paleofoundation/heavymetalindex/commit/eb85df3) | 2026-04-25 | Mercury batch: 7 source pages, 5 regulation pages, new metals/mercury.md |
+<!-- END: hmi-page-history -->

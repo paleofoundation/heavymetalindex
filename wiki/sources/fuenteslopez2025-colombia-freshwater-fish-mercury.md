@@ -20,6 +20,9 @@ jurisdictions: [CO]
 near_duplicates: []
 sample_n: 326
 sample_population: "326 carnivorous freshwater fish specimens, 9 species, San Jorge River basin, La Mojana (Sucre), Colombia; sampled September 2022 to April 2023 across rainy and dry seasons"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -76,3 +79,15 @@ Microbiome: Not applicable from this study.
 - [[ingredients/freshwater-fish]]
 - [[metals/mercury]]
 - [[health/methylmercury-vulnerable-populations]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [873fef7](https://github.com/paleofoundation/heavymetalindex/commit/873fef7) | 2026-05-13 | ingest p4-batch8-g3: 2 pages, 48 FP |
+<!-- END: hmi-page-history -->

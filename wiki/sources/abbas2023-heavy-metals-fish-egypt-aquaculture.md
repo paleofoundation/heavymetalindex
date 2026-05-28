@@ -20,6 +20,9 @@ jurisdictions: [EG]
 near_duplicates: []
 sample_n: 45
 sample_population: "Bolti (Oreochromis niloticus / Nile tilapia) and Topara (Chelon ramada / thinlip mullet) from 7 El-Sharkia (ES) and 8 Kafr El-Sheikh (KES) polyculture fishponds, Egypt; n=3 fish/pond"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -77,3 +80,14 @@ ICP-OES (Perkin-Elmer 4300 DV). Sample preparation per AOAC. Tissues: spleen, mu
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[products/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [0b663ae](https://github.com/paleofoundation/heavymetalindex/commit/0b663ae) | 2026-05-13 | ingest p4-batch12-g1: 4 pages, 46 FP |
+<!-- END: hmi-page-history -->

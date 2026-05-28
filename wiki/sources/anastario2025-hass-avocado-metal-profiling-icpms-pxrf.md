@@ -19,6 +19,9 @@ jurisdictions: [US, MX]
 near_duplicates: []
 sample_n: 24
 sample_population: "Commercial Hass avocados stratified by country of origin (California USA, Michoacán Mexico) and agricultural practice (organic, conventional); purchased from US grocery stores and wholesale suppliers"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -111,3 +114,16 @@ App: n=24 with 6 per origin×practice stratum is below the threshold for app-fac
 - 2026-05-25 (audit-application): Fresh-context audit subagent (REVISE verdict) flagged the `n>LOD (of 48)` column header as potentially misleading because Table 1's n>LOD column is a single combined-tissue count, not per-tissue. Verified against Table 1 — the column shows e.g. Pb=12 with no tissue split. Relabeled column to `n>LOD (combined tissues, of 48)` in both mesocarp and exocarp tables.
 - 2026-05-25 (audit-application): Subagent flagged three phrases in Implications/Certification as drifting toward HMTc programmatic recommendation rather than literature reporting ("supporting inclusion of tHg in risk monitoring," "actionable for supply-chain screening guidance," "Flag as provisional"). Verified against CLAUDE.md Part 2 — these phrases do cross from "what the literature reports" into "what HMTc should do." Rewrote the Certification paragraph to factual occurrence-data framing and softened App-section advisory language. Preserved the substantive findings (Hg fresh-weight reconstruction, EFSA/Codex comparison, Pb single-detect outlier, origin-linked Co/Ni signature) without programmatic verbs.
 - 2026-05-25 (audit-application note): Subagent flagged `avocado-mesocarp` and `avocado-exocarp` matrix slugs as outside the documented snapshot. These were preserved from the prior version of the page; the current routing audit accepts them and the source is not in `routing_malformed.csv` or `routing_unresolved.csv`. Tissue-level matrix slugs are the correct granularity for this paper because the mesocarp/exocarp distinction is foundational to its findings (different metal-mixture signatures by tissue, only mesocarp is consumed). Slug-vocabulary governance for tissue-level matrices is a routing-layer concern, not a per-source fix; leaving slugs as-is.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ce7dbb7](https://github.com/paleofoundation/heavymetalindex/commit/ce7dbb7) | 2026-05-25 | audit: anastario2025-hass-avocado-metal-profiling-icpms-pxrf revised |
+| [7e2d6cd](https://github.com/paleofoundation/heavymetalindex/commit/7e2d6cd) | 2026-05-25 | ingest: anastario2025-hass-avocado-metal-profiling-icpms-pxrf enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
+<!-- END: hmi-page-history -->

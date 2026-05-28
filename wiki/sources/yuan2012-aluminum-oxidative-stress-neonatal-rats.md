@@ -19,6 +19,9 @@ matrices: [rat-brain-tissue, animal-study]
 jurisdictions: [TW]
 sample_n: 46
 sample_population: "46 Sprague-Dawley neonatal rats (PND3–17): control (n=16), low Al 7 mg/kg/day (n=16), high Al 35 mg/kg/day (n=14); intraperitoneal AlCl3 injection; Fu-Jen Catholic University, Taiwan"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -53,3 +56,14 @@ Certification: Cannot be used directly for HMT&C Al thresholds (animal, intraper
 
 - [[metals/aluminum]]
 - [[health/aluminum-toxicology]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

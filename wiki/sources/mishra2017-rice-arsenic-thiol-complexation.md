@@ -21,6 +21,9 @@ matrices: [rice]
 jurisdictions: [DE, IN]
 sample_n: 12
 sample_population: "Hydroponically grown rice (Oryza sativa L., subsp. indica, cv. Triguna, a West Bengal cultivar from authenticated seed). Seedlings were transferred to Araponics hydroponic trays at 18 plants/tray. After 10 days of growth in controlled environment, plants were exposed for 7 days to AsV (10 µM), MAV (50 µM) or DMAV (50 µM), plus an untreated control. n=30 plants per treatment for growth measurements; n=12 per treatment for As accumulation and speciation."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -119,3 +122,14 @@ Audit subagent (2026-05-28) flagged the following; verified against source and a
 - **78% denominator clarified.** Initial ingest wrote "~78% of As in MAV-exposed plants bound to GSH and homologues of GSH." Source p. 4: "Approximately 78% of total bound As in MAV exposed plant was bound to GSH and homologues of GSH…" Verified — the 78% is a fraction of the thiol-bound pool (which itself is ~83% of root As), not of total As. Corrected phrasing to "of the total thiol-bound pool."
 - **"Of root As" precision clarified.** Initial ingest opening said "up to 48% of AsV-exposed As and 83% of MAV-exposed As." Source abstract: "up to 48 and 83% of root As in AsV and MAV exposed plants…" Verified — corrected to "up to 48% of root As in AsV-exposed plants and 83% of root As in MAV-exposed plants."
 - **Extraction-efficiency sample size n=48** flagged by audit subagent as a transcription error. Source p. 2 ¶3 actually states "The extraction efficiency of As was 91 ± 5.3% (n = 32)"; Fig 3 caption does not mention n=48. Audit finding was a false positive — wiki value n=32 matches the source. No correction applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d2f6fb7](https://github.com/paleofoundation/heavymetalindex/commit/d2f6fb7) | 2026-05-28 | audit: mishra2017-rice-arsenic-thiol-complexation revised |
+| [602563f](https://github.com/paleofoundation/heavymetalindex/commit/602563f) | 2026-05-28 | ingest: mishra2017-rice-arsenic-thiol-complexation fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

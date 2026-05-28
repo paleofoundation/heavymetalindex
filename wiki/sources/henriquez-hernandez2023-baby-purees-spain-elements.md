@@ -19,6 +19,9 @@ matrices: [baby-purees-ready-to-eat, wet-weight]
 jurisdictions: [ES]
 sample_n: 159
 sample_population: "159 commercial ready-to-eat baby purees sold in Gran Canaria, Spain: 40 fruit, 39 chicken, 40 fish, 40 beef; sampling October–December 2022; 102 name brands, 57 store brands; ages 6–12 months"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -104,3 +107,14 @@ App: Fish purees flagged for Hg and unspeciated tAs; fruit purees lowest risk pr
 - [[metals/lead]]
 - [[metals/nickel]]
 - [[metals/aluminum]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

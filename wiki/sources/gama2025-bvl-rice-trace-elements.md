@@ -20,6 +20,9 @@ jurisdictions: [PT]
 near_duplicates: []
 sample_n: 5
 sample_population: "Rice grain samples (white Carolino 2020, 2021, 2022, wild, brown) from Baixo Vouga Lagunar paddy fields, northern Portugal"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -60,3 +63,14 @@ Microbiome: not applicable.
 - [[ingredients/rice]]
 - [[metals/lead]]
 - [[metals/uranium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [6626ee3](https://github.com/paleofoundation/heavymetalindex/commit/6626ee3) | 2026-05-13 | ingest p4-batch8-g4: 2 pages, 48 FP |
+<!-- END: hmi-page-history -->

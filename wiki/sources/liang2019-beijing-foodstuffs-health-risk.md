@@ -21,6 +21,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 300
 sample_population: "Beijing general population; 25 foodstuff types collected from four sites, three replicates per foodstuff at each site"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -153,3 +156,15 @@ App: The source is best treated as regional dietary-exposure context for China r
 - Paper-internal caveat: the Results text says Pb in chicken, fish, white gourd, and pork exceeded China's 0.2 mg/kg Pb limit. Table 1 supports chicken, multiple fish/shellfish entries, and white gourd; it reports pork Pb as 0.029 +/- 0.049 mg/kg and beef Pb as 0.201 +/- 0.111 mg/kg. This page preserves the mismatch rather than silently substituting beef for pork.
 - Paper-internal rounding/text caveat: the abstract says vegetables contributed 38.8% of the total TTHQ, while the Results section says 38.2%; Table 4 supports approximately 38.3% from 0.88 / 2.30.
 - Speciation discipline: arsenic and mercury are recorded as tAs and tHg because the paper measured total elements only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0468e60](https://github.com/paleofoundation/heavymetalindex/commit/0468e60) | 2026-05-18 | ingest (codex): liang2019 beijing foodstuffs health risk |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

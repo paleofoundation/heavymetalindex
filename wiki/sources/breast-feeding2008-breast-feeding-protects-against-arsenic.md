@@ -18,6 +18,9 @@ matrices: [breast-milk, urine, blood, saliva]
 jurisdictions: [BD]
 sample_n: 98
 sample_population: "3-month-old infants in Matlab, Bangladesh; predominantly rural population with high arsenic exposure via tube-well drinking water (10–1,100 µg/L in maternal urine)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -55,3 +58,13 @@ This is the first quantitative evidence that inorganic arsenic is poorly transfe
 
 - [[metals/arsenic]]
 - [[ingredients/breast-milk]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eda33c7](https://github.com/paleofoundation/heavymetalindex/commit/eda33c7) | 2026-05-20 | autonomy: daemon tick 2026-05-20T15-11-23Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

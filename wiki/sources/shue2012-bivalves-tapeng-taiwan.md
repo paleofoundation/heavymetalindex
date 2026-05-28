@@ -19,6 +19,9 @@ jurisdictions: [TW]
 near_duplicates: []
 sample_n: 72
 sample_population: "Six bivalve mollusc species (Katelysia hiantina, Anomalocardia squamosa, Perna viridis, Anadara antiquata, Paphia undulata, Sanguinolaria diphos) collected from Ta-Peng Bay lagoon, southwestern Taiwan. K. hiantina, A. squamosa, P. viridis, and A. antiquata were harvested directly from the lagoon; S. diphos came from the marine-culture zone at the estuary of Lin-Bian River; P. undulata was obtained from importers. Four sampling periods December 2005 to September 2006 (winter 12/2005, spring 03/2006, summer 06/2006, autumn 09/2006); n = 72 total (3 replicates × 6 species × 4 seasons)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -134,3 +137,16 @@ Page was rebuilt from the PDF on 2026-05-18 to correct method-detail invented by
 - [[metals/zinc]]
 - [[products/shellfish]]
 - [[products/seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c6f78d0](https://github.com/paleofoundation/heavymetalindex/commit/c6f78d0) | 2026-05-18 | audit: shue2012-bivalves-tapeng-taiwan revised |
+| [20bb8bb](https://github.com/paleofoundation/heavymetalindex/commit/20bb8bb) | 2026-05-18 | ingest: shue2012-bivalves-tapeng-taiwan enhanced from Papers Cube Manual Fetch |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+<!-- END: hmi-page-history -->

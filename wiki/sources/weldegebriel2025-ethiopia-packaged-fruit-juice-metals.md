@@ -20,6 +20,9 @@ matrices: [packaged-fruit-juice, mango-juice, pineapple-juice, strawberry-juice,
 jurisdictions: [ET]
 sample_n: 80
 sample_population: "Eighty packaged fruit juice samples drawn from eight Ethiopian-manufactured brands (10 samples per brand) and analyzed for Cd, Cr, Pb, Ni. Juice variants: mango (n=50; tetra pack, glass, and canned formats; manufactured in Neqemte), pineapple (n=10; carton; manufactured in Addis Abeba), strawberry (n=10; canned; manufactured in Addis Abeba), cocktail (n=10; glass). Per-brand samples were pooled and homogenized into composites for analysis. A separate consumption survey of n=422 children's parents in Gondar (72.9% age 3-6 years, 27.1% age 7-14 years; 60.6% female, 39.4% male) provided the intake distribution used in the health risk assessment."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -135,3 +138,17 @@ Statistics: data tabulated and managed in Microsoft Excel; transferred to SPSS f
 - Audit subagent (2026-05-20) flagged Check 5 ⚠️ that the Limitations bullet 1 explicitly named "the locked HMTc Category 1 row is fruit-juice-not-canned" and stated "packaging-format filtering is needed before any percentile math for the not-canned row" — a Part 2 boundary slip in the form of HMTc-row operational guidance on a wiki source page. Verified against Part 2 firewall (CLAUDE.md): wiki source pages report what the literature found at the source level; routing/aggregation discipline for HMTc workflow belongs in the workbench layer (`data/workbench/standards/`), not on the source page. Finding correct; Limitations bullet 1 reframed as a neutral observation about the source's packaging-format mixing and what it does to the published pooled estimator, without naming HMTc or referencing percentile-math intent.
 
 - Audit subagent (2026-05-20) flagged Check 1 ⚠️ (optional) that the calibration-r² narrative range in PDF p. 3 (0.9983-0.9992) disagrees with Table 2 (which prints values up to 0.9998). Verified; the wiki page Key numbers uses the Table 2 values (0.9998 for Pb). Added to the Limitations contradiction list as paper-internal inconsistency (6) and added a parenthetical note in the opening paragraph that flags both ranges. The page values themselves remain unchanged because Table 2 is the more granular and primary record.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [52f7af7](https://github.com/paleofoundation/heavymetalindex/commit/52f7af7) | 2026-05-20 | audit: weldegebriel2025-ethiopia-packaged-fruit-juice-metals [revised] |
+| [fd55de3](https://github.com/paleofoundation/heavymetalindex/commit/fd55de3) | 2026-05-20 | ingest: weldegebriel2025-ethiopia-packaged-fruit-juice-metals [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+<!-- END: hmi-page-history -->

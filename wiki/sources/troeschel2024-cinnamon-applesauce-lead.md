@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 566
 sample_population: "Cases of lead poisoning (BLL ≥3.5 µg/dL) reported to CDC following consumption of recalled WanaBana/Schnucks/Weis cinnamon-containing applesauce pouches, United States, November 2023–April 2024; 55% children aged <2 years"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -48,3 +51,17 @@ App: The ingredient-level signal (cinnamon as a Pb/Cr contamination risk from ad
 - [[ingredients/cinnamon]]
 - [[products/baby-food]]
 - [[regulations/fda-ctz-lead-fruit-purees]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [b23e81a](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a) | 2026-05-13 | ingest p4-batch12-g3: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

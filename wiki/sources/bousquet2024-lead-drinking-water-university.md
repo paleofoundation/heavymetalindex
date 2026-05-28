@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 5954
 sample_population: "5,954 drinking water tests across 3,825 fixtures in 265 buildings at University of North Carolina at Chapel Hill (UNC-CH), August 2022 to April 2023"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -71,3 +74,14 @@ App: Not directly applicable to food product contamination estimates. Drinking w
 
 - [[metals/lead]]
 - [[health/lead-exposure-routes]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [38d88bd](https://github.com/paleofoundation/heavymetalindex/commit/38d88bd) | 2026-05-12 | ingest: p2-sub3 batch — 3 source pages from 50-handle list; 47 handles missing from filesystem |
+<!-- END: hmi-page-history -->

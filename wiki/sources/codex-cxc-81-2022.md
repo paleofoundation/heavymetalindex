@@ -19,6 +19,9 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 products: []
 jurisdictions: [international]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-03
 ---
 
@@ -128,3 +131,13 @@ The CoP specifies eight transport-stage practices: cover loading and unloading a
 - [[mitigation/processing]]
 - [[mitigation/formulation]]
 - [[mitigation/index]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2154779](https://github.com/paleofoundation/heavymetalindex/commit/2154779) | 2026-05-03 | sources: ingest Codex CXC 81-2022 cocoa cadmium CoP from FAO; rewire mitigation, cadmium, cocoa   pages to wikilink the new source |
+<!-- END: hmi-page-history -->

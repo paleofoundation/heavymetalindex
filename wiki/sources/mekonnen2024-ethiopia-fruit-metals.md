@@ -20,6 +20,9 @@ jurisdictions: [ET]
 near_duplicates: []
 sample_n: 120
 sample_population: "Commonly consumed fruits (mango, banana, orange) from open markets in Bahir Dar, Northwest Ethiopia"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -64,3 +67,16 @@ App: Mango from Ethiopia flagged; broadly suggests mango as a commodity with reg
 - [[ingredients/orange]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [591741c](https://github.com/paleofoundation/heavymetalindex/commit/591741c) | 2026-05-13 | ingest p4-batch7-g2: 4 pages, 46 FP |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 1194
 sample_population: "1,194 mother–child dyads enrolled in the Boston Birth Cohort at the Boston Medical Center between November 2002 and October 2013, followed up until May 2018. 60.5% of mothers were non-Hispanic Black, 19.9% Hispanic, 4.8% non-Hispanic White, and 14.8% other (predominantly urban, low-income population). Children were measured at the most recent annual well-child visit between ages 3 and 15 years (median age 8.4, IQR 6.2–10.6 y)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -133,3 +136,14 @@ Subgroup heterogeneity (Table S8): the inverse Mn–SBP association was stronges
 - Subagent confirmed the Se/Cd-smokers Table 4 duplicate (+2.98 [−3.05, 9.00] appearing in both rows) is what the published paper actually prints; the wiki page correctly flags this as a probable published-paper typo rather than a wiki transcription error. Preserved as-is with the parenthetical caveat.
 - Subagent's other Check 1 findings (all 25 Table 1 distributional values, all 10 Table 3 effect sizes + 5 quartile-range cells, all 10 Table 4 cells, the Mn × Cd interaction values, the smoking-modified Mn-SBP BKMR + linear-regression numbers, all subgroup heterogeneity values, BKMR group PIPs, sample-composition and age-range values) were verified clean against the PDF.
 - Subagent verdict: REVISE. 1 ❌ applied (BKMR package/function names), 1 ⚠️ applied (race/ethnicity precision), 1 ⚠️ rejected (matrices vocab — false positive, slugs are in use elsewhere). All other findings (slug vocabulary in `metals:`/`jurisdictions:`/wikilinks, speciation tHg, Methods fidelity, Check 4 brand firewall, Check 5 Part 2 firewall) clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [57c1265](https://github.com/paleofoundation/heavymetalindex/commit/57c1265) | 2026-05-18 | audit: zhang2021-in-utero-metals-childhood-blood-pressure revised |
+| [9f8287b](https://github.com/paleofoundation/heavymetalindex/commit/9f8287b) | 2026-05-18 | ingest: zhang2021-in-utero-metals-childhood-blood-pressure enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

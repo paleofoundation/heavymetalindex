@@ -13,6 +13,7 @@ effective_date: 2025-01-01
 sunset_date: null
 source_refs: []
 audience: [regulator, educator, consumer, brand-legal]
+wiki_doi: null
 updated: 2026-05-14
 created_by: autonomy_v0
 ---
@@ -57,3 +58,13 @@ The WA TFCA sits between the strict EU regulation and the more permissive Canadi
 - TFCA statutory text (Washington State HB 1047, 2023): TBD — direct citation pending ingest
 - Massarsky 2025 (this wiki): [[sources/massarsky2025-heavy-metals-toothpaste-health-risk]] cites the WA TFCA as the binding US cap for toothpaste Pb
 - Perkins 2025 news article (Lead Safe Mama): consumer-advocacy testing supporting TFCA enforcement
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d11f8c4](https://github.com/paleofoundation/heavymetalindex/commit/d11f8c4) | 2026-05-15 | regulations: Washington TFCA toothpaste Pb 1000 ppb statutory limit |
+<!-- END: hmi-page-history -->

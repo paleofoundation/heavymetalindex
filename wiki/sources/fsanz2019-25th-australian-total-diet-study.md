@@ -23,6 +23,9 @@ matrices: [dietary-intake, fish, shellfish, rice]
 jurisdictions: [AU, NZ]
 sample_n: 508
 sample_population: "Australian total-diet survey: 88 food types, 508 prepared-food composite samples from all Australian states and territories, sampled May 2013 and February 2014"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -130,3 +133,16 @@ Several risk-characterisation statements are FSANZ's own source-side conclusions
 - The source's "acceptably low," "not of concern," and fish-consumption-benefit statements are source-side FSANZ risk characterisation. This source page frames them as FSANZ findings and avoids consumer advice or HMT&C threshold recommendations.
 - No sampled product brands are named in this page. Scientific-method laboratory/vendor names are retained only where needed for reproducibility and fall under the Part 12 methods exception.
 - Fresh-context audit (Codex, 2026-05-18) found the page numerically clean and firewall-clean, but flagged `iHg` as missing from the GPT metal vocabulary. The source page keeps `iHg` because FSANZ measured inorganic mercury separately (pp. 56-57); the vocabulary was updated to permit `iHg`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d5bb2a6](https://github.com/paleofoundation/heavymetalindex/commit/d5bb2a6) | 2026-05-18 | ingest (codex): fsanz2019 australian total diet study merge-enhance |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [3859dbf](https://github.com/paleofoundation/heavymetalindex/commit/3859dbf) | 2026-05-12 | ingest: batch-D manual-fetch — 11 source pages (rice, cocoa, tea, apple juice) |
+<!-- END: hmi-page-history -->

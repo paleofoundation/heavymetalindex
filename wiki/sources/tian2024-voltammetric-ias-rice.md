@@ -20,6 +20,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 36
 sample_population: "Commercial rice samples from five Chinese provinces (Heilongjiang, Anhui, Jiangsu, Hunan, Guangdong), purchased from local markets, Beijing"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -57,3 +60,14 @@ Microbiome: Not applicable.
 - [[metals/arsenic]]
 - [[ingredients/rice]]
 - [[regulations/china-gb2762-rice-ias]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [3030042](https://github.com/paleofoundation/heavymetalindex/commit/3030042) | 2026-05-12 | ingest: P2 remaining-group2 — 23 source pages, 32 false positives |
+<!-- END: hmi-page-history -->

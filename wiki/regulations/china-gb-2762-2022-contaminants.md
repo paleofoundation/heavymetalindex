@@ -12,6 +12,7 @@ status: active
 effective_date: 2023-06-30
 source_url: "https://www.nhc.gov.cn/sps/c100087/202207/9c59b98621c0474d9431dac289080e4c.shtml"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -40,3 +41,13 @@ This page records the active Chinese regulatory framework for food-contaminant m
 
 - Created 2026-05-18 as the active successor link for the GB 2762 historical-chain pages created during the Liang et al. 2019 ingest.
 - GB 2762-2025 has been published and is scheduled to take effect on 2026-09-02, after the current session date. This page remains marked active as of 2026-05-18.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0468e60](https://github.com/paleofoundation/heavymetalindex/commit/0468e60) | 2026-05-18 | ingest (codex): liang2019 beijing foodstuffs health risk |
+<!-- END: hmi-page-history -->

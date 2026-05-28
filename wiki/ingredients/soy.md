@@ -21,6 +21,7 @@ higher_risk_variants: ["[[products/infant-formula-powder-soy-based]]"]
 used_in_products: ["[[products/infant-formula-powder-soy-based]]", "[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/plant-milks-soy-based]]"]
 audience: [regulator, educator, consumer, app]
 sources: 15
+wiki_doi: null
 updated: 2026-05-16
 ---
 
@@ -129,4 +130,16 @@ Soy-based infant formula ([[products/infant-formula-powder-soy-based]] and [[pro
 - FDA does not maintain binding action levels for soy specifically; FDA Closer to Zero framework covers soy-based infant formula via the broader processed-baby-food pathway.
 - California Prop 65 ([[regulations/california-prop65]]) Pb, Cd, and Ni MADLs apply to soy products sold in California.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f97c3e2](https://github.com/paleofoundation/heavymetalindex/commit/f97c3e2) | 2026-05-18 | autonomy: daemon tick 2026-05-18T03-29-36Z — gap-healing + extraction + pooling + briefings |
+| [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [127aa8d](https://github.com/paleofoundation/heavymetalindex/commit/127aa8d) | 2026-05-17 | synthesis: oat, maize, soy, shellfish |
+| [f907793](https://github.com/paleofoundation/heavymetalindex/commit/f907793) | 2026-05-17 | sweep: regenerate body tables and trim stub-marker prose on touched pages |
+<!-- END: hmi-page-history -->

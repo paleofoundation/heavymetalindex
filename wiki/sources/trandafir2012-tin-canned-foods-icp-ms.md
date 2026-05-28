@@ -21,6 +21,9 @@ jurisdictions: [RO, EU]
 near_duplicates: []
 sample_n: 14
 sample_population: "14 canned food products (4 pineapple brands, mandarin oranges, fruit cocktail, small whole carrots, mushrooms, 2 peeled-tomato-in-juice brands, peas, cut green beans, whole kernel corn, tuna flakes in water) purchased at local markets in Romania; 3 cans per product batch, each can analysed 6 times by ICP-MS"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -131,3 +134,17 @@ What this method measures and does not measure: total dissolved tin (Sn) includi
 - Brand firewall: the source labels its four pineapple cans and two peeled-tomato cans as A/B/C/D and A/B with no brand names; no brand-by-brand attribution is required or possible from the source. Methods names instrument vendors (Perkin-Elmer ELAN 9000, Milestone Labstation), reagent vendors (Fluka, Riedel-de-Haën), and the water-system vendor (Basic TWF) — these are scientific-method vendor names and are explicitly permitted under the 2026-05-17 Part 12 carve-out.
 - Routing: `matrices: [canned-food]` covers the analytical matrix; product slugs cover the four canned-product categories the source touches (canned-vegetables, canned-fruit, canned-tomatoes, canned-fish). `jurisdictions: [RO, EU]` because the survey is Romanian-market and the regulatory frame cited is EU plus Codex.
 - 2026-05-20 — Audit subagent verdict REVISE; one ❌ on Check 2 (slug vocabulary): `[[ingredients/canned-vegetables]]` was not a valid ingredient slug (the slug exists only as a product slug under `wiki/products/`, not as an ingredient page under `wiki/ingredients/`). Verified against `ls wiki/ingredients/canned-*.md` — confirmed no `canned-vegetables.md` ingredient page exists. Finding applied: removed the invalid `[[ingredients/canned-vegetables]]` entry from the `ingredients:` frontmatter array and from the "Wiki pages this source may touch" section. The specific canned-ingredient slugs already in the page (`canned-corn`, `canned-green-beans`, `canned-mushrooms`, `canned-tomatoes`, `canned-fruit-cocktail`, `canned-tuna`) cover the canned vegetables actually measured. Checks 1, 3, 4, and 5 were ✅; no other findings to apply.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4431c68](https://github.com/paleofoundation/heavymetalindex/commit/4431c68) | 2026-05-20 | audit: trandafir2012-tin-canned-foods-icp-ms [revised] |
+| [9d908a6](https://github.com/paleofoundation/heavymetalindex/commit/9d908a6) | 2026-05-20 | ingest: trandafir2012-tin-canned-foods-icp-ms [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [global, US, EU, IN, BD, CN, AR, MX, VN]
 near_duplicates: []
 sample_n: 176
 sample_population: "National drinking water regulations for arsenic, 176 countries"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -50,3 +53,13 @@ App: Drinking water is a significant As exposure route (especially in Bangladesh
 
 - [[metals/arsenic]]
 - [[regulations/who-arsenic-10ppb-provisional]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [011a298](https://github.com/paleofoundation/heavymetalindex/commit/011a298) | 2026-05-13 | ingest p4-batch14-g2: 5 pages, 45 FP |
+<!-- END: hmi-page-history -->

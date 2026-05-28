@@ -19,6 +19,9 @@ matrices: [fish]
 jurisdictions: [US]
 sample_n: null
 sample_population: "Correction table for reservoir sport-fish mercury data; species include northern pike, smallmouth bass, and walleye."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: marker_manifest_batch
 ---
@@ -56,3 +59,13 @@ Use this page to preserve the corrected table provenance. When routing occurrenc
 
 - Manifest cite-key retained, despite generic first-author placeholder in the key.
 - This page is intentionally marked as correction context to avoid double counting with the parent 2023 article.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [493fa39](https://github.com/paleofoundation/heavymetalindex/commit/493fa39) | 2026-05-19 | ingest marker batch 2026-05-19 1545 1: 5 source pages from P1-P2 |
+<!-- END: hmi-page-history -->

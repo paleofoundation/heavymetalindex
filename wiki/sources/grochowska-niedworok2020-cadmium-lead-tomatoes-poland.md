@@ -19,6 +19,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 25
 sample_population: "Fresh and processed tomato products purchased in Polish retail and local markets; variety includes conventional, organic, multiple varieties, and multiple packaging types (glass jar, metal can, carton, plastic)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -107,3 +110,17 @@ App: Fresh tomato Cd values cluster at 0.006–0.028 mg/kg fw (6–28 ppb); Pb v
 - Corrected stale routing links: `[[ingredients/tomatoes]]`, `[[ingredients/tomato-products]]`, `[[products/tomato-juice]]`, and `[[regulations/eu-1881-2006]]` do not exist as live wiki pages. Routed fresh tomato to `[[ingredients/tomato]]`, tomato juice to `[[products/vegetable-juices-non-root]]`, and linked Commission Regulation (EC) No 1881/2006 to its superseded-regulation page.
 - Part 2 firewall: softened the HMT&C sentence from a standards recommendation to source-level occurrence and packaging-pathway evidence.
 - Cross-vendor audit (Codex, 2026-05-18) retained the source-specific matrix labels `[fresh-tomato, dry-mass-tomato, canned-tomato-concentrate, tomato-puree, tomato-juice, tomato-sauce, ketchup, dried-tomato]` as custom matrix descriptors because the current common matrices vocabulary does not have a clean fresh-tomato / tomato-product equivalent; downstream routing is carried by the live ingredient and product wikilinks above.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [059a413](https://github.com/paleofoundation/heavymetalindex/commit/059a413) | 2026-05-18 | audit (codex): grochowska tomatoes revised |
+| [20a6b08](https://github.com/paleofoundation/heavymetalindex/commit/20a6b08) | 2026-05-18 | ingest (codex): grochowska-niedworok2020 tomatoes merge-enhance |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+<!-- END: hmi-page-history -->

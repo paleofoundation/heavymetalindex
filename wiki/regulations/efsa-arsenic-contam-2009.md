@@ -13,6 +13,7 @@ effective_date: 2009-10-01
 sunset_date: null
 source_refs: ["[[sources/efsa-arsenic-contam-2009]]"]
 title: "EFSA — Arsenic in Food (2009), No-PTWI Position"
+wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
 ---
@@ -26,3 +27,17 @@ European inorganic arsenic exposure ranges 0.13 to 0.56 µg/kg b.w./day for aver
 ## Sources
 
 - [[sources/efsa-arsenic-contam-2009|EFSA As 2009]] — EFSA CONTAM Panel, 2009. Scientific Opinion on Arsenic in Food.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2bf254d](https://github.com/paleofoundation/heavymetalindex/commit/2bf254d) | 2026-04-30 | Add public HMI interface and standards workbench |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
+| [3b129bf](https://github.com/paleofoundation/heavymetalindex/commit/3b129bf) | 2026-04-25 | Resolve all 141 UNCITED markers — cite or remove |
+| [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
+<!-- END: hmi-page-history -->

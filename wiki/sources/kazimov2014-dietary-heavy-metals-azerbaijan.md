@@ -21,6 +21,9 @@ jurisdictions: [AZ]
 near_duplicates: []
 sample_n: 57
 sample_population: "57 adults (28 men, 29 women, age 19–49) sampled by random selection from Baku, Azerbaijan; 18 food items chemically analyzed from the daily diet inventory; blood and hair from 17 of the 57 subjects"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -175,3 +178,15 @@ Preserved fields per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_
 - [[ingredients/carrot]]
 - [[ingredients/fresh-herbs]]
 - [[products/fresh-fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [06433d0](https://github.com/paleofoundation/heavymetalindex/commit/06433d0) | 2026-05-18 | audit: kazimov2014-dietary-heavy-metals-azerbaijan promoted |
+| [5b4f2a0](https://github.com/paleofoundation/heavymetalindex/commit/5b4f2a0) | 2026-05-18 | ingest: kazimov2014-dietary-heavy-metals-azerbaijan enhanced from Papers Cube Manual Fetch |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+<!-- END: hmi-page-history -->

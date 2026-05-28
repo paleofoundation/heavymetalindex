@@ -37,6 +37,9 @@ status: populated
 confidence: medium
 n_studies: 1
 summary: "Measurement of chromium, iron, zinc, manganese, and cobalt concentrations in 26 commercially available infant formula products in Nigeria, with estimated daily intake calculations across age groups 0–2 weeks through 6–12 months, showing chromium EDI exceeded recommended dietary allowance across most age bands."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 ---
 
 ## Opening
@@ -91,3 +94,13 @@ The finding that chromium exceeded the RDA across all age groups raises question
 - `ingredients/cereal-based-infant-formula.md` — routed as direct evidence on Cr concentrations
 - `products/infant-formula.md` — routed as broad evidence on trace metal profile in Nigerian market
 ```
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [894ba0a](https://github.com/paleofoundation/heavymetalindex/commit/894ba0a) | 2026-05-20 | autonomy: daemon tick 2026-05-20T00-33-21Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

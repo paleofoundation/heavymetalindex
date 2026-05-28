@@ -23,6 +23,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 3
 sample_population: "Three commercially-available baby talcum powder products sourced from the Indian retail market (one sample per product, n=3). The three products represent distinct manufacturer types but no product-form differences (all are finely-ground talc-based loose powder for infant skin application); the source treats them as the universe of 'commonly used' Indian baby talcum powders. Sample collection dates and lot numbers are not reported; expiry dates were checked."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -95,3 +98,16 @@ Microbiome: Not applicable — paper does not address microbiome.
 - 2020-XX-XX (publication): IRIS – Journal for Young Scientists Vol. X, pp. 25–29 (Patna Women's College, India).
 - 2026-05-14 fresh ingest (autonomy_phase1_v0): NEW path. Original page produced by the early autonomy script with brand-by-brand reporting that pre-dated the Part 12 strict-reading lock (2026-05-17).
 - 2026-05-18 merge-enhance (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, daemon tick): EXISTING path. Three identity checks against `wiki/sources/` returned a single hit at `rashmi2020-baby-talcum-powder-heavy-metals-india.md` (the prior revision, raw_handle `kimi-children-personal-care-rashmi2020`). Same paper, same DOI status (no DOI), same `raw_path`. Promoted to v2 schema: raw_handle migrated to the MFK-prefix convention (`MFK_heavy-metal-contamination-in-commonly-used-baby-ta`); `raw_sha256` populated; matrices reduced to `[cosmetic-personal-care]`; authors corrected against the PDF byline; brand names stripped throughout (Part 12 strict, 2026-05-17 lock); synthesis-claim sentence removed (Part 2 firewall); legacy heading renamed; `## Verification notes` and `## Ingest log` added.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [12120a9](https://github.com/paleofoundation/heavymetalindex/commit/12120a9) | 2026-05-18 | audit: rashmi2020-baby-talcum-powder-heavy-metals-india revised |
+| [1b242f5](https://github.com/paleofoundation/heavymetalindex/commit/1b242f5) | 2026-05-18 | ingest: rashmi2020-baby-talcum-powder-heavy-metals-india enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [6b92f2b](https://github.com/paleofoundation/heavymetalindex/commit/6b92f2b) | 2026-05-14 | sources: Cat 2 seed — baby talcum powder + Cat 2 master + baby-talcum-powder row |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [IQ, IR]
 near_duplicates: []
 sample_n: 15
 sample_population: "15 dried fruit samples (Iranian-origin) purchased from Iraqi markets, February 2025; 15 commodity types including peach, fig, coconut, raisins, orange, pear, watermelon, prune, berry, apple, kiwi, banana, pomegranate, and quince"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -78,3 +81,15 @@ App: Dried fruits as an ingredient category carry non-negligible Cd risk. The ap
 - [[metals/lead]]
 - [[metals/chromium]]
 - [[regulations/fao-who-codex]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eef91eb](https://github.com/paleofoundation/heavymetalindex/commit/eef91eb) | 2026-05-13 | ingredients: 5 new pages above Part 10 threshold + 3 frontmatter fixes |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [f5c6a76](https://github.com/paleofoundation/heavymetalindex/commit/f5c6a76) | 2026-05-13 | ingest: P4 batch 5 group 4 — 2 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

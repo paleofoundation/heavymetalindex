@@ -23,6 +23,9 @@ jurisdictions: [international]
 near_duplicates: []
 sample_n: 215195
 sample_population: "Pooled across 68 included primary studies (48 longitudinal + 20 cross-sectional), comprising 215,195 individuals from 23 countries. Japan (5 studies; 181,145 participants, dominated by Inoue et al. 2022 n=80,759 and Masumoto et al. 2022 n=96,165) provided the largest national contribution. Other contributors with >1,000 participants: China (12 studies; 8,485), Spain (5 studies; 4,479), Norway (2 studies; 4,375), South Korea (6 studies; 2,863), Saudi Arabia (3 studies; 1,970), United Kingdom (1 study; 1,558), Mexico (4 studies; 1,481), Brazil (4 studies; 1,167), USA (4 studies; 1,057). Most samples were concentrated in early childhood (0-2 years; 24 studies); 17 studies covered preschool (2-6 years), 10 middle childhood (6-9 years), and 7 pre-adolescents (9-12 years). 47 studies (69.12%) had male-majority samples."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
@@ -194,3 +197,13 @@ Speciation as reported across the underlying primary studies: most Hg measuremen
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/manganese]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ba410d2](https://github.com/paleofoundation/heavymetalindex/commit/ba410d2) | 2026-05-18 | ingest: dasilva2025-neurodevelopmental-outcomes-early-life-systematic-review fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+<!-- END: hmi-page-history -->

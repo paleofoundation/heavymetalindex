@@ -18,6 +18,9 @@ matrices: [fruit, vegetable]
 jurisdictions: [DZ]
 sample_n: 52
 sample_population: "Canned tomato paste and canned pineapple marketed in Algiers, Algeria"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-27
 ---
 
@@ -59,3 +62,14 @@ The source supports canned tomato paste and canned pineapple occurrence context 
 ## Verification notes
 
 The current product taxonomy has tomato-paste and canned-tomatoes pages but no precise canned-pineapple product page. The pineapple finding is therefore carried through the ingredient field and broad canned-food context.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
+| [3fc1e8e](https://github.com/paleofoundation/heavymetalindex/commit/3fc1e8e) | 2026-05-27 | ingest auto-fetched 2026-05-27 1115 batch 1: 13 source pages |
+<!-- END: hmi-page-history -->

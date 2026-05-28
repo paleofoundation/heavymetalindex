@@ -19,6 +19,9 @@ products: ["[[products/rice-bulk-grain]]"]
 matrices: [polished-rice, brown-rice, parboiled-rice, paddy-field-soil, rice-shoots]
 jurisdictions: [ES, PT, EU]
 sample_n: 164
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -71,3 +74,14 @@ Commercial rice samples (n=113 polished) do not uniformly represent all Spanish 
 - [[metals/arsenic]]
 - [[ingredients/rice]]
 - [[regulations/eu-2015-1006-iAs-rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [6de0a7c](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7c) | 2026-05-12 | ingest: batch-C (10 PDFs) — seasonal-geographic-variance manual-fetch |
+<!-- END: hmi-page-history -->

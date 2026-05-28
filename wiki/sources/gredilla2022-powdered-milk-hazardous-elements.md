@@ -20,6 +20,9 @@ jurisdictions: [BR, CO]
 near_duplicates: []
 sample_n: 12
 sample_population: "Twelve commercial powdered milk formulas purchased in representative cities of Brazil and Colombia: nine child/infant milks and three adult powdered milks, each represented by three boxes combined before analysis."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -115,3 +118,14 @@ Microbiome: Not addressed.
 - The paper reports total As, total Hg, and total Cr only; no arsenic, mercury, or chromium speciation was performed.
 - Table 2 ranges/SD values are whole-set statistics across infant, child, and adult powdered milks; the page does not reinterpret them as infant-only distributions.
 - Methods vendor/equipment/software names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dc42c9c](https://github.com/paleofoundation/heavymetalindex/commit/dc42c9c) | 2026-05-25 | audit gredilla2022 powdered milk source |
+| [aecfcae](https://github.com/paleofoundation/heavymetalindex/commit/aecfcae) | 2026-05-19 | ingest auto-gap: infant formula element sources |
+<!-- END: hmi-page-history -->

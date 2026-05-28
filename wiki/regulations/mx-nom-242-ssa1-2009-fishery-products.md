@@ -14,6 +14,7 @@ rule_id: nom-242-ssa1-2009
 effective_date: 2011-05-10
 source_url: "https://sidofqa.segob.gob.mx/notas/5177531"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -75,3 +76,13 @@ This page records Mexican legal maximum levels for fishery products. It does not
 - Created 2026-05-18 by Codex during P0149 seafood manual-fetch ingest after Rodriguez-Mendivil et al. 2019 cited superseded NOM-027 and NOM-028 benchmarks.
 - DOF identifies the publication date as 10 February 2011. The standard's vigencia clause states it enters into force 90 natural days after publication, and the 2012 modification notice explicitly gives 10 May 2011 as the entry-into-force date.
 - The 2012 modification changed other sections and eliminated Appendix A; it does not change the heavy-metal/metalloid limits in section 7.1.8 summarized here.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3009905](https://github.com/paleofoundation/heavymetalindex/commit/3009905) | 2026-05-18 | ingest (codex): rodriguez-mendivil2019 canned tuna tijuana |
+<!-- END: hmi-page-history -->

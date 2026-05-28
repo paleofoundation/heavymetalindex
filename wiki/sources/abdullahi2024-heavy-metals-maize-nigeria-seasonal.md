@@ -21,6 +21,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 40
 sample_population: "Maize grain and root composites from 10 locations within the Kano River Irrigation Project, Kano State, Nigeria; wet season harvest Sept–Oct 2022 and dry season harvest May–Jun 2023; each location-season-tissue composite measured in triplicate (10 sites × 2 seasons × 2 tissue types = 40 composites; 120 analytical replicates)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -138,3 +141,13 @@ Merge-enhanced 2026-05-18 from the prior 2026-05-14 page, which was in `routing_
 - Methods — added explicit limitations note for Hg (dry-ashing volatilization), absent LODs, sampling-site discontinuity between seasons, and the absence of As measurement. These constrain how downstream synthesis can use the source.
 - Implications — softened "supports a jurisdiction flag … in certification sourcing criteria" to "can inform geographic and seasonal stratification … in HMTc workbench evidence pools at B-tier; does not, on its own, support threshold-setting work" per Part 2 firewall.
 - Wiki pages updated on ingest — expanded to include `[[metals/zinc]]`, `[[metals/copper]]`, `[[metals/cobalt]]`, and `[[metals/mercury]]` (previously omitted despite being measured).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2e44dd7](https://github.com/paleofoundation/heavymetalindex/commit/2e44dd7) | 2026-05-18 | ingest: abdullahi2024-heavy-metals-maize-nigeria-seasonal enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

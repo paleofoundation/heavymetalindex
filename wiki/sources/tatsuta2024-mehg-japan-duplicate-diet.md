@@ -19,6 +19,9 @@ matrices: [dietary-intake, hair]
 jurisdictions: [JP]
 sample_n: 260
 sample_population: "Japanese children aged 0-5 years residing in the Tohoku region"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -101,3 +104,13 @@ This study presents the first comprehensive assessment of postnatal MeHg exposur
 - [[ingredients/baby-food]]
 - [[regulations/epa-reference-dose-methylmercury]]
 - [[regulations/who-ptwi-methylmercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [475eaa6](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6) | 2026-05-25 | sources: clean up junk cite-keys — rename 6, delete 4 off-scope/dupes |
+<!-- END: hmi-page-history -->

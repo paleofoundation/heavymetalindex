@@ -18,6 +18,9 @@ matrices: [baby-foods-and-formulas]
 jurisdictions: [GH]
 sample_n: 22
 sample_population: "Locally and internationally produced infant formula and baby-food samples sold in Wa, Ghana"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -57,3 +60,14 @@ Microbiome: No direct microbiome endpoint.
 
 - [[sources/index]]
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [53132f7](https://github.com/paleofoundation/heavymetalindex/commit/53132f7) | 2026-04-29 | Add Category 1 nickel markdown evidence |
+<!-- END: hmi-page-history -->

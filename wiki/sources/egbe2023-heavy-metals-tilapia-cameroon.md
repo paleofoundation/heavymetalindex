@@ -20,6 +20,9 @@ jurisdictions: [CM]
 near_duplicates: []
 sample_n: 20
 sample_population: "10 Oreochromis niloticus and 10 Coptodon kottae (endemic cichlid) sampled from Lake Barombi Kotto, Cameroon, with water and sediment samples from 6 sites"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -52,3 +55,14 @@ App: Freshwater tilapia contamination data point for sub-Saharan Africa.
 - [[ingredients/tilapia]]
 - [[ingredients/freshwater-fish]]
 - [[products/fish-seafood]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [9795863](https://github.com/paleofoundation/heavymetalindex/commit/9795863) | 2026-05-13 | ingest p4-batch16-g4: 10 pages, 38 FP |
+<!-- END: hmi-page-history -->

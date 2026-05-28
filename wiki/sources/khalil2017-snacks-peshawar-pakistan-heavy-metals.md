@@ -19,6 +19,9 @@ matrices: [snacks, potato-chips, corn-chips, processed-foods]
 jurisdictions: [PK]
 sample_n: 96
 sample_population: "96 snack samples (29 branded across 9 potato brands and 3 corn brands; 67 non-branded local snacks) collected from four administrative towns of district Peshawar, Khyber Pakhtunkhwa, Pakistan; sampling December 2016 to April 2017; convenient sampling"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -96,3 +99,15 @@ Significant methodological limitations relevant to downstream use:
 - Strict Part 12 brand firewall: the paper names 9 potato brands and 3 corn brands by trade name in Tables I and II. None of those brand names appear on this page; per-brand values are aggregated as ranges of brand means and pooled SDs only. Brand-by-brand attribution belongs in the private brand-intelligence build (Part 26), not here.
 - Chromium speciation: paper measures total Cr only; metals frontmatter uses `Cr` (not `Cr-VI`) per Part 14, and the chromium-speciation caveat is surfaced in the lede, Key numbers, Methods, and Implications.
 - Cu added to `metals:` because the paper measures Pb/Cd/Cr/Cu, but Cu is reported as low across both branded and non-branded samples and does not bind any HMTc analyte (Cu is not in the HMTc 10-analyte vocabulary); it is included for fidelity to the source and routes to [[metals/copper]] only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [427a7b7](https://github.com/paleofoundation/heavymetalindex/commit/427a7b7) | 2026-05-20 | ingest: khalil2017-snacks-peshawar-pakistan-heavy-metals [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

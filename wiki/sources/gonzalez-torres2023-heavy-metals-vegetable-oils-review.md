@@ -19,6 +19,9 @@ jurisdictions: [ES, EU, CN, US, TR, BR, IR, IN]
 near_duplicates: []
 sample_n: 64
 sample_population: "Systematic literature review: 35 vegetable oil types from 24 countries; studies published 2015–2022; n=64 studies synthesized"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -107,3 +110,15 @@ Systematic literature review of edible vegetable oils for consumption, 2015–20
 - `edible-oil`, `olive-oil`, `sunflower-oil`, `corn-oil`, and `rapeseed-oil` are source-specific matrix descriptors used for routing/context; ingredient and product declarations use existing wiki slugs.
 - The source discusses Codex named-vegetable-oil limits, Commission Regulation (EU) 2021/1317 for lead, Commission Regulation (EU) 2021/1323 for cadmium, GB/T23347-2021, and Spain RD 308/1983, but no exact regulation pages exist for several of those identifiers in the current wiki taxonomy. Surface these as regulation-page candidates rather than inventing slugs.
 - 2026-05-18 Cross-vendor audit (Codex) corrected Methods wording: detection-limit reporting is the Table 1 sensitivity-comparison filter, not a whole-review inclusion criterion, per pp. 2 and 5–6 of the PDF. Added the missing `[[metals/nickel]]` touch-link to match the frontmatter and source discussion of Ni among the reviewed metals.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2c6c3c1](https://github.com/paleofoundation/heavymetalindex/commit/2c6c3c1) | 2026-05-18 | audit (codex): gonzalez-torres2023 vegetable oils revised |
+| [0df08e5](https://github.com/paleofoundation/heavymetalindex/commit/0df08e5) | 2026-05-17 | ingest: gonzalez-torres2023 vegetable oils review enhanced |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

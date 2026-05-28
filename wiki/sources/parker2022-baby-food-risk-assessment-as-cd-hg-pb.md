@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 36
 sample_population: "36 baby and toddler food samples (n=9 per ingredient category: fruit, grain, leguminous vegetable, root vegetable) purchased from Pittsburgh PA area stores Dec 2018 – Mar 2019; infants 4 months to 3 years (Stages 1–4)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-15
 ---
 
@@ -97,3 +100,14 @@ Toxicity criteria: iAs cancer — EPA IRIS OSF 1.5 (mg/kg/day)⁻¹; As non-canc
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [ad03d65](https://github.com/paleofoundation/heavymetalindex/commit/ad03d65) | 2026-05-15 | ingest papers-cube-new-tier1: 3 pages (baby rice cereals sadiq2021, parker2022 baby food risk, gardener2019 infant formula) |
+<!-- END: hmi-page-history -->

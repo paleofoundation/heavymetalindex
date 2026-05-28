@@ -19,6 +19,9 @@ products: ["[[products/flour-non-rice]]"]
 matrices: [quinoa-plant, quinoa-grain, greenhouse-soil]
 jurisdictions: [TR]
 sample_n: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -45,3 +48,14 @@ App: This study alone is insufficient to set quinoa Cd estimates; should be used
 ## Wiki pages updated on ingest
 - [[ingredients/quinoa]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [87efb16](https://github.com/paleofoundation/heavymetalindex/commit/87efb16) | 2026-05-12 | ingest: P4 batch 4 group 3 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

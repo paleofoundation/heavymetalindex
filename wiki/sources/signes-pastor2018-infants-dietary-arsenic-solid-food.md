@@ -15,6 +15,9 @@ metals: [iAs, tAs]
 ingredients: [infant-formula-powder, rice-cereal, fruit, vegetables, apple, non-rice-grains]
 products: [infant-formula-powder, rice-cereal, fruit-purees, vegetable-purees, mixed-cereals, rice-based-snacks]
 jurisdictions: [US]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-28
 ---
 
@@ -57,3 +60,16 @@ The cohort was small and the product categories are dietary-diary categories rat
 - [[products/non-root-vegetable-purees]]
 - [[products/root-vegetable-purees]]
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [6318a9b](https://github.com/paleofoundation/heavymetalindex/commit/6318a9b) | 2026-04-28 | Revert "ingest: category-1 raw studies batch" |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ metals: [iAs, tAs]
 ingredients: [plant-milk, rice]
 products: [plant-milks-rice-based]
 jurisdictions: [EU, Italy]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-01
 ---
 
@@ -69,3 +72,14 @@ The source is Italian-market evidence. It is very strong for iAs in rice-based d
 - [[ingredients/plant-milk]]
 - [[ingredients/rice]]
 - [[regulations/eu2023-arsenic-rice-based-drinks]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [20add89](https://github.com/paleofoundation/heavymetalindex/commit/20add89) | 2026-05-08 | schema: drop ## TL;DR heading from source pages and Part 6 template (6 pages cleaned) |
+| [48511e9](https://github.com/paleofoundation/heavymetalindex/commit/48511e9) | 2026-05-02 | Add Category 5 plant milk comparison layer |
+<!-- END: hmi-page-history -->

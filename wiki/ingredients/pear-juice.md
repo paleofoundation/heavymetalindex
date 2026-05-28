@@ -101,6 +101,7 @@ contamination_profile:
     notes: null
 literature_scope: thin
 sources: 1
+wiki_doi: null
 updated: 2026-05-20
 ---
 
@@ -122,3 +123,14 @@ Sources routing to this page appear in `data/evidence/product_source_routing_aud
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [39d8806](https://github.com/paleofoundation/heavymetalindex/commit/39d8806) | 2026-05-20 | autonomy: daemon tick 2026-05-20T01-34-58Z — gap-healing + extraction + pooling + briefings |
+| [4f92dd2](https://github.com/paleofoundation/heavymetalindex/commit/4f92dd2) | 2026-05-20 | ingest: fsanz2012-arsenic-apple-pear-juice-australia-nz [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+<!-- END: hmi-page-history -->

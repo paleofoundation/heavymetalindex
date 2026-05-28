@@ -18,6 +18,9 @@ ingredients: []
 products: []
 jurisdictions: [international, US, EU]
 superseded_by: null
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-24
 ---
 
@@ -132,3 +135,17 @@ Minor numeric variance from other sources noted for transparency: Jakubowski rep
 ## Wiki pages updated on ingest
 
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [35055e4](https://github.com/paleofoundation/heavymetalindex/commit/35055e4) | 2026-05-04 | lint 2026-05-04: file broad lint report; close items 1-4 (stale-pending fixes, fera2014 cite-key   migration across 65 files, raw/ wikilink anti-pattern conversions, testing/icp-ms page stand-up) |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [22991a6](https://github.com/paleofoundation/heavymetalindex/commit/22991a6) | 2026-04-29 | publish: promote recovery build with Category 1 measured values |
+| [f58ff32](https://github.com/paleofoundation/heavymetalindex/commit/f58ff32) | 2026-04-24 | Ingest Patty's Ch 7 (Jakubowski 2012); close initial Cd batch |
+<!-- END: hmi-page-history -->

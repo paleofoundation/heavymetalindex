@@ -19,6 +19,9 @@ matrices: [breast-milk, infant-urine-biomarker, maternal-urine, maternal-blood, 
 jurisdictions: [BD]
 sample_n: 98
 sample_population: "98 mother-infant pairs from Matlab, Bangladesh; 3-month-old infants; 79 mothers provided breast milk; comparison of exclusively breastfed (EBF) vs non-exclusively breastfed (NEBF) infants; high-arsenic groundwater area"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -62,3 +65,14 @@ Health: Provides strong epidemiological support for extended exclusive breastfee
 - [[metals/arsenic]]
 - [[health/arsenic-infant-exposure]]
 - [[health/breastfeeding-metals-protection]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

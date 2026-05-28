@@ -21,6 +21,9 @@ jurisdictions: [ET]
 near_duplicates: []
 sample_n: 8
 sample_population: "Popcorn from 5 shops in Addis Ababa, Ethiopia (~200g each, pooled to 1 kg) and cornflakes from 3 imported packs purchased at Addis Ababa supermarkets. Popcorn prepared per Ethiopian traditional method (oil-popped)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -102,3 +105,13 @@ Microbiome: Not addressed.
 - [[products/cornflakes]] (to be created if absent)
 - [[products/popcorn]] (to be created)
 - [[products/breakfast-cereals]] (to be created)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2588430](https://github.com/paleofoundation/heavymetalindex/commit/2588430) | 2026-05-15 | sources: Cat 1/3 grain — Abebe 2017 Ethiopian popcorn + cornflake metals |
+<!-- END: hmi-page-history -->

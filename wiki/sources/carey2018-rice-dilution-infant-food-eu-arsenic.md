@@ -19,6 +19,9 @@ products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-
 matrices: [infant-rice-porridge, infant-rice-cake, infant-multigrain-cereal, infant-muesli, puffed-rice, rice-cake-general]
 jurisdictions: [GB, EU]
 sample_n: 106
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -61,3 +64,16 @@ UK-only survey; 24 stores concentrated in Northern Ireland. Small n for pure bab
 - [[ingredients/rice]]
 - [[products/infant-rice-cereal]]
 - [[regulations/eu-2015-1006-iAs-rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [6de0a7c](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7c) | 2026-05-12 | ingest: batch-C (10 PDFs) — seasonal-geographic-variance manual-fetch |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ matrices: [polished-white-rice, rice-grain, rice-based-infant-food-context]
 jurisdictions: [GLOBAL]
 sample_n: 2270
 sample_population: "Global polished white market-rice supply-chain samples purchased from retailers across 32 countries on six continents; country-level n and distribution statistics reported in Table 1."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -65,3 +68,13 @@ This source supports rice bulk-grain and rice-based infant-food context for cadm
 - Batch 2 auto-fetched ingest, 2026-05-25. The wishlist row targeted cereal-bars inorganic arsenic, but the actual paper measures cadmium in global polished rice grain. It is retained because it is a real food-occurrence dataset for rice and rice-based infant-food context.
 - Speciation: the measured analyte in this paper is cadmium. Inorganic arsenic appears as contextual comparison only and is not a measured value in this source.
 - Basis: concentrations are reported in ug/kg rice grain; do not pool with prepared or wet-basis infant-food values without conversion.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db181df](https://github.com/paleofoundation/heavymetalindex/commit/db181df) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 2: 4 source pages + 2 rollups + 44 skips |
+<!-- END: hmi-page-history -->

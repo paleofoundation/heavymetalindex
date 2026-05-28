@@ -9,6 +9,7 @@ primary_metals_of_concern: [tAs, Pb, Cd, tHg, Al]
 vulnerable_population: infants-0-12mo
 audience: [regulator, educator, consumer, app]
 review_state: draft
+wiki_doi: null
 updated: 2026-04-29
 sources: 2
 ---
@@ -135,3 +136,17 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 | 1 | [[sources/fda2026-infant-formula-toxic-elements-special-survey\|FDA 2026]]. *Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey*, FDA analytical results table | 2026 | Government dataset | FDA special survey reporting tAs, Pb, Cd, and tHg in 312 infant formula samples (FY2023–FY2025); concentrated-liquid soy formula included as context (not in the locked row set), prepared-for-feeding basis |
 | 2 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | Canadian survey reporting Pb, Cd, and Al in soy-based concentrated liquid formula (n=12; Al mean 706 ng/g, Pb mean 1.19 ng/g, Cd mean 1.12 ng/g); direct as-consumed occurrence data for this format |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [f907793](https://github.com/paleofoundation/heavymetalindex/commit/f907793) | 2026-05-17 | sweep: regenerate body tables and trim stub-marker prose on touched pages |
+| [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
+| [a32d2cf](https://github.com/paleofoundation/heavymetalindex/commit/a32d2cf) | 2026-05-13 | products: draft missing mandatory sections on 3 infant formula variant pages (focus: Levers) |
+| [0722d9c](https://github.com/paleofoundation/heavymetalindex/commit/0722d9c) | 2026-05-13 | sources: source-legend descriptions filled on 15 product pages (Tier 2 pass) |
+<!-- END: hmi-page-history -->

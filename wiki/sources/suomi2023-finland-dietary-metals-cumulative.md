@@ -20,6 +20,9 @@ jurisdictions: [FI, EU]
 near_duplicates: []
 sample_n: 1295
 sample_population: "Finnish adults aged 25–74 years from FinDiet 2012 national dietary survey (48-h recall; 5 geographic areas)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -74,3 +77,16 @@ Microbiome (if applicable): Chronic low-level dietary Pb, Cd, and iAs exposure i
 - [[ingredients/cereals]]
 - [[ingredients/vegetables]]
 - [[regulations/efsa-mehg-twi]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [98dd9c8](https://github.com/paleofoundation/heavymetalindex/commit/98dd9c8) | 2026-05-13 | ingest p4-batch9-g3: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

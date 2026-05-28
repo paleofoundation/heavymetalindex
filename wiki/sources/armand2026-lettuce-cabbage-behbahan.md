@@ -22,6 +22,9 @@ matrices: [vegetable, leafy-vegetable]
 jurisdictions: [IR]
 sample_n: 40
 sample_population: "Retail lettuce and cabbage from 10 stores in Behbahan, Khuzestan Province, southern Iran; 20 samples per vegetable type (10 stores × 2 sampling rounds 4 weeks apart); 40 samples total"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -82,3 +85,14 @@ Ten vegetable retail stores in Behbahan (uniform geographic distribution across 
   - Cabbage Ni 95th-percentile ELCR: subagent flagged a paper-internal inconsistency between Fig. 3 caption (6.49×10⁻⁴) and the prose paragraph on p. 5 (6.94×10⁻⁴). Verified against the PDF directly — confirmed both values appear in the paper. Reported both in Key numbers with the discrepancy made explicit. Wiki had previously taken the Fig. 3 value silently.
   - Per-site ranges from Fig. 2 (S1–S10): subagent noted that radar-chart label readings to four decimal places are not defensible because the curves overlap and the panel layout makes vegetable/site attribution ambiguous. Verified — Fig. 2 is the only per-site source in the PDF; supplementary figures SF1–SF8 are cited for ELCR distributions but not for per-site concentrations. Replaced specific per-site ranges with a qualitative summary of the visible label spread across the radar; left publication precision to the mean values that are tabulated.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [37c6a7b](https://github.com/paleofoundation/heavymetalindex/commit/37c6a7b) | 2026-05-20 | audit: armand2026-lettuce-cabbage-behbahan [revised] |
+| [02ab023](https://github.com/paleofoundation/heavymetalindex/commit/02ab023) | 2026-05-20 | ingest: armand2026-lettuce-cabbage-behbahan [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
+| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

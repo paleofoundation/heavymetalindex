@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]", "[[ingr
 products: ["[[products/fresh-fish]]", "[[products/seafood]]", "[[products/canned-fish]]", "[[products/fish-containing-baby-foods]]"]
 anchor_sources: ["[[sources/wu2025-climate-meghan-freshwater-fish-china]]", "[[sources/li2024-global-fisheries-mehg]]", "[[sources/rusko2026-mercury-fish-latvia-risk-benefit]]"]
 established: 2026-05-18
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -100,3 +101,13 @@ The "farmed-with-documented-feed-regime" qualifier matters: not all farmed fish 
 ## How this page was promoted
 
 Established 2026-05-18 from the seafood-axis evidence consolidation. The aquaculture-vs-wild MeHg differential is one of the most powerful sourcing levers available to HMTc seafood certification but had not been treated as a standalone synthesis. The page exists to ensure HMTc standards consider farmed-vs-wild distinction in their threshold architecture rather than defaulting to a single seafood-category MeHg cap.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [49bebbc](https://github.com/paleofoundation/heavymetalindex/commit/49bebbc) | 2026-05-18 | synthesis: 5 new synthesis pages for HMTc seafood/cereal/regulatory work |
+<!-- END: hmi-page-history -->

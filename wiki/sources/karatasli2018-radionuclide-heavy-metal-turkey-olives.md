@@ -21,6 +21,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 26
 sample_population: "26 table olive samples collected from 26 distinct districts across Adana, Osmaniye, and Hatay provinces in the Mediterranean region of Turkey; edible parts and kernels analysed separately"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -102,3 +105,16 @@ App: The Pb range (3.88–5.22 mg/kg dw ≈ 0.78–1.04 mg/kg fw) and Ni range (
 - [[metals/zinc]]
 - [[metals/cobalt]]
 - [[metals/manganese]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d40664b](https://github.com/paleofoundation/heavymetalindex/commit/d40664b) | 2026-05-28 | audit: karatasli2018-radionuclide-heavy-metal-turkey-olives revised |
+| [4cde736](https://github.com/paleofoundation/heavymetalindex/commit/4cde736) | 2026-05-28 | ingest: karatasli2018-radionuclide-heavy-metal-turkey-olives enhanced from Manual Fetch Kimi/condiment_papers/03_Olives_and_Pickles |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

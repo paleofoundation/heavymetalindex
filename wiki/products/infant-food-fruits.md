@@ -13,6 +13,7 @@ typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
 sources: 1
+wiki_doi: null
 updated: 2026-05-20
 ---
 
@@ -75,3 +76,15 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 ## Historical recalls and enforcement
 
 No fruit-infant-food recall or enforcement synthesis has been promoted for this provisional page. Regulatory discussion should remain limited to applicable child-food or juice standards once a locked product row is chosen. The current source supports exposure relevance, not an enforcement history.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e88ec49](https://github.com/paleofoundation/heavymetalindex/commit/e88ec49) | 2026-05-25 | fill infant-food-fruits synthesis prose |
+| [0863cf8](https://github.com/paleofoundation/heavymetalindex/commit/0863cf8) | 2026-05-20 | autonomy: daemon tick 2026-05-20T04-14-40Z — gap-healing + extraction + pooling + briefings |
+| [c4387dd](https://github.com/paleofoundation/heavymetalindex/commit/c4387dd) | 2026-05-20 | autonomy: daemon tick 2026-05-20T03-23-56Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

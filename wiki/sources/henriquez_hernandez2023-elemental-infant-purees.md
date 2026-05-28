@@ -21,6 +21,9 @@ matrices: [whole-food]
 jurisdictions: [ES]
 sample_n: 159
 sample_population: "Infants aged 6-12 months in Spain consuming ready-to-eat purees (102 name brand, 57 store brand samples)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -87,3 +90,14 @@ This source contributes evidence to:
 - [[products/fish-containing-baby-foods|Fish-containing baby foods]]
 - [[products/meat-and-poultry-purees|Meat and poultry purees (chicken/beef varieties)]]
 - [[products/fruit-purees|Fruit purees]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [299f9b2](https://github.com/paleofoundation/heavymetalindex/commit/299f9b2) | 2026-05-18 | fix: clear 2 routing_unresolved entries (henriquez + tatsuta duplicate) |
+| [f18fb1f](https://github.com/paleofoundation/heavymetalindex/commit/f18fb1f) | 2026-05-18 | ingest: henriquez_hernandez2023-elemental-infant-purees from raw/markdown/FM_10384816 |
+<!-- END: hmi-page-history -->

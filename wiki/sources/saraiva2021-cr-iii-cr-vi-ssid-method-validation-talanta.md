@@ -21,6 +21,9 @@ jurisdictions: [FR, DK]
 near_duplicates: ["[[sources/saraiva2021-chromium-speciation-milk-meat-cooking-france]]", "[[sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp]]"]
 sample_n: 3
 sample_population: "Three composite food matrices acquired from retail shops in Maisons-Alfort, France for method validation: baby milk (500 mL composite, homogenised 4 h on rotary shaker), semi-skimmed milk (500 mL composite, same homogenisation), and steak beef (≈1 kg composite, homogenised in stainless-steel mixer with titanium blades). Each composite was analysed in n=2 replicates for total Cr (by accredited ICP-MS) and n=5 replicates for Cr(III)/Cr(VI) speciation (by SS-ID-HPLC-ICP-MS), plus spiked replicates at 0.25 µg/kg (baby milk), 1.0 µg/kg (semi-skimmed milk), and 0.5 µg/kg (steak beef) Cr(VI) for recovery assessment."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -129,3 +132,14 @@ Detection: ICP-MS iCAP Q (ThermoFisher Scientific, Courtaboeuf, France) with PFA
 - Speciation labels: `metals: [Cr, Cr-VI]` per Part 14 abbreviation rules (Cr-III and Cr-total are not separate slugs; Cr covers both Cr(III) and total).
 - Steak beef and semi-skimmed milk: these are not infant-and-child-foods product categories and therefore have no HMTc product slug. Routing for these matrices is by ingredient (`semi-skimmed-milk`, `beef`) and matrix only. The Cr(VI) <LOQ findings in these matrices still support the wiki's chromium page, but they do not populate any HMTc product page.
 - Audit 2026-05-18 (fresh-context subagent): three ⚠️ findings applied. (1) Table 3 standard-solution row had unit-column header conflict (paper's footnote c flags µg/L for the standard solution row vs µg/kg for food-matrix rows); table now uses a unit-per-row format with explanatory note. (2) `matrices:` updated from `[baby-milk, semi-skimmed-milk, beef]` to `[infant-formula, semi-skimmed-milk, beef-muscle]` to align with established matrix-vocabulary precedent in the corpus. (3) Implications/Certification paragraph reworded to attribute the "prior detections are artefact" framing to the paper's introduction citing Milačič and Ščančar 2020, rather than asserting a synthesis claim about prior-literature re-evaluation. No QUARANTINE findings; no numerical or brand-firewall issues.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [614190a](https://github.com/paleofoundation/heavymetalindex/commit/614190a) | 2026-05-18 | audit: saraiva2021-cr-iii-cr-vi-ssid-method-validation-talanta revised |
+| [16169cf](https://github.com/paleofoundation/heavymetalindex/commit/16169cf) | 2026-05-18 | ingest: saraiva2021-cr-iii-cr-vi-ssid-method-validation-talanta fresh from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [CN, JP]
 near_duplicates: []
 sample_n: null
 sample_population: "No original data; three-page narrative review of soil heavy metal pollution sources, characteristics, and food safety implications, framed primarily around Chinese conditions"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -84,3 +87,15 @@ App: not applicable. No food-form or contamination-likelihood data.
 
 - **2026-05-18 (audit subagent finding, applied):** Subagent flagged the Key numbers entry "Minamata Bay congenital methylmercury poisoning" as introducing a speciation the source itself does not make (the paper says only "heavy metal mercury (Hg)"). Verified against PDF p. 613; subagent is correct. Softened to "congenital mercury poisoning … from consumption of fish polluted by 'heavy metal mercury (Hg)'", with an inline note that the Minamata episode is historically a MeHg event but the paper does not speciate. This brings the Key numbers gloss into line with the deliberate `tHg` (not `MeHg`) choice in the frontmatter `metals:` array. The subagent's ⚠️ on `[[supply-chain/soil]]` not appearing in `docs/gpt-collaboration/taxonomy-snapshot.md` was reviewed and not actioned: the snapshot covers only the four GPT-drafting lists (ingredients/products/metals/regulations); the `supply-chain/` namespace is outside its scope, and the slug points to a real wiki page.
 - **2026-05-18 (Claude session, merge-enhance):** Full 3-page PDF re-read end-to-end. Prior page (updated 2026-05-15, `raw_handle: papers-cube` legacy placeholder, `source_type: peer-reviewed`) was substantively accurate but missing the mandatory `## Key numbers` section, missing `## Methods` section, used the legacy `## Wiki pages updated on ingest` heading instead of the current `## Wiki pages this source may touch` form, and did not surface the quantitative claims the paper does carry (3,000 mg/kg factory soil Zn+Pb; 10-20× cancer mortality in sewage irrigation areas; Minamata Bay 1956-1960; Songhua River fish Hg). Updated `raw_handle` from `papers-cube` to `PCMF_guan2014` per current convention. Updated `source_type` from `peer-reviewed` to `review` since this is a narrative overview with no original data. Added `Cu` to `metals:` since the paper explicitly names copper alongside Pb, Cd, and Zn in the vehicle-exhaust list. Added `fish` to `matrices:` (Songhua/Minamata fish-mercury context) and added `JP` to `jurisdictions:` (Minamata Bay and itai-itai are Japanese contexts; the paper is China-framed but cites these as the canonical food-chain heavy-metal poisoning episodes). Kept `iAs`/`tAs` out of `metals:` because the paper does not discuss arsenic. Kept `MeHg` out of `metals:` because the paper does not speciate mercury despite invoking Minamata; `tHg` is the correct unambiguous tag. Frontmatter `products`/`ingredients` remain empty: this is a soil-and-food-safety overview, not a measured-food study; the routing_malformed advisory for those fields is informational, not a defect. Strict Part 12 brand-firewall check: no brand names present.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b7163f9](https://github.com/paleofoundation/heavymetalindex/commit/b7163f9) | 2026-05-18 | audit: guan2014-soil-heavy-metal-food-safety-china promoted |
+| [d930508](https://github.com/paleofoundation/heavymetalindex/commit/d930508) | 2026-05-18 | ingest: guan2014-soil-heavy-metal-food-safety-china enhanced from Papers Cube Manual Fetch |
+| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
+<!-- END: hmi-page-history -->

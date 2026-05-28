@@ -22,6 +22,9 @@ matrices: [rice, soil]
 jurisdictions: [CO]
 sample_n: 27
 sample_population: "Greenhouse pot experiment; three commercial rice cultivar codes (FA473, FA2000, FAM) grown in La Mojana region soil at three total-Hg levels (130, 800, 1500 ug/kg)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -91,3 +94,14 @@ Microbiome: Not directly addressed in this paper.
 - Replaced certification-threshold language with source-only implications.
 - Created [[regulations/eu-reg-2018-73-mercury-compounds-mrls]] because the source uses EU Regulation 2018/73 as the 10 ug/kg rice comparator.
 - Strict brand-firewall check: sampled commercial cultivar names are reduced to source codes (FA473, FA2000, FAM); instrument/software/vendor names are retained only as Methods details under the Part 12 scientific-method exception.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5e5458](https://github.com/paleofoundation/heavymetalindex/commit/f5e5458) | 2026-05-18 | ingest kimi-cat03: colombia rice mercury |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

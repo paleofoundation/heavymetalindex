@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 146
 sample_population: "WHEALS (Wayne County Health, Environment, Allergy and Asthma Longitudinal Study) birth cohort, Wayne and Oakland counties, Michigan (Detroit metropolitan area); 1,258 maternal-child pairs enrolled 2003-2007, of whom 180 had tooth metals quantified and 146 also had early-life microbiome data available."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -114,3 +117,14 @@ Preserved per v2 skill rule: `cite_key`, `raw_handle: papers-cube`, `raw_path`, 
 - Audit flagged the Prenatal-indoor-pets p-values reported as "0.058, 0.038, 0.213 — 3rd trimester reaching p = 0.019" as both internally inconsistent and not matching Table 1. Verified against PDF p. 5 Table 1 row "Prenatal indoor pets": the across-time-point p-values are 0.058 (2nd trim), 0.019 (3rd trim, bolded as significant), and 0.19 (postnatal). The "0.038" and "0.213" values are not in the source. The wiki now reads "p = 0.019" for the 3rd-trimester significant association, "p = 0.058" trend for 2nd trimester, and "p = 0.19" non-significant for postnatal — matching the source exactly.
 - Audit Check 2 raised an advisory observation that `tooth-dentin`, `stool`, and `infant-gut-microbiome` are biological/biomarker matrices outside the food-matrices vocabulary. Not applied as a change: these matrix slugs are consistent with the established convention across sibling biomarker source pages (per a `grep matrices: wiki/sources/*.md` survey at the time of ingest) and are not a defect.
 - All other audit checks: PROMOTE (numerical fidelity on tables, speciation/methods, brand firewall, wiki/HMTc firewall). No false-positive findings to record.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [afd19bd](https://github.com/paleofoundation/heavymetalindex/commit/afd19bd) | 2026-05-18 | audit: sitarik2020-fetal-postnatal-lead-gut-microbiota revised |
+| [7b0b9ae](https://github.com/paleofoundation/heavymetalindex/commit/7b0b9ae) | 2026-05-18 | ingest: sitarik2020-fetal-postnatal-lead-gut-microbiota enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

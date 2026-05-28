@@ -21,6 +21,9 @@ matrices: [chicken-muscle, chicken-bone, chicken-liver, chicken-offal]
 jurisdictions: [PK]
 sample_n: null
 sample_population: "Local chicken parts (meat: sternum, leg, arm, gizzard, neck, heart, liver; bones: chest cage, neck, leg, head, arm) purchased from Barkat Market, Garden Town, Lahore, Pakistan"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -78,3 +81,16 @@ Samples from Barkat Market, Garden Town, Lahore. Meat parts and bones separately
 - 2026-05-18 Codex seafood-priority merge check corrected the raw handle and added the PDF hash while preserving the existing cite key and raw path.
 - Numerical values in Tables 1-3 were checked against the PDF text. The page follows table values; the source has internal variability inconsistencies in the coefficient-of-variation reporting, so CVs should be treated as source-reported descriptive statistics rather than recomputed values.
 - The paper calls the analyte Cr(VI), but the reported AAS workflow is not a modern validated speciation method. Retain `metals: [Cr-VI]` because it is the source's declared analyte, with the author-reported speciation caveat above.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e9644ae](https://github.com/paleofoundation/heavymetalindex/commit/e9644ae) | 2026-05-18 | ingest (codex): mahmud2011 chicken crvi merge-enhance |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

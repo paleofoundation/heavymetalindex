@@ -14,6 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 sources: 3
+wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 ---
@@ -103,3 +104,17 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|Olowoyo et al. 2026]]. *Heavy Metals Burden in Drinking Water: Global Patterns, Sources, and Public Health Implications*, Water | 2026 | Review | global Pb, Cd, tAs, tHg, Ni, Cr, Al occurrence in Systematic review of peer-reviewed studies published 2015–2024 on heavy metals in four water source types globally |
 | 2 | [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|Decharat et al. 2023]]. *Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand* | 2023 | Peer-reviewed | TH Pb, Cd occurrence in Drinking water samples (bottled, tap, filtered, raw) from child development centres, Phatthalung province, southern Thailand (n=210) |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1ac7363](https://github.com/paleofoundation/heavymetalindex/commit/1ac7363) | 2026-05-20 | autonomy: daemon tick 2026-05-19T22-04-26Z — gap-healing + extraction + pooling + briefings |
+| [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
+| [ed05a8f](https://github.com/paleofoundation/heavymetalindex/commit/ed05a8f) | 2026-05-17 | chore(autonomy): retire Karen-review queues; consolidate provisional-scaffold flag |
+| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
+| [8a49534](https://github.com/paleofoundation/heavymetalindex/commit/8a49534) | 2026-05-17 | products index: numerical order, source counts on every row, drop clean/contaminated call-outs |
+<!-- END: hmi-page-history -->

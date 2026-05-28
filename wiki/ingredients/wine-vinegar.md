@@ -21,6 +21,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
+wiki_doi: null
 updated: 2026-05-16
 sources: 5
 created_by: autonomy_v0
@@ -102,4 +103,16 @@ Wine vinegar derivatives include red wine vinegar, white wine vinegar, sherry vi
 - FDA does not currently set a quantitative action level specific to vinegar; general FDA enforcement applies.
 - California Prop 65 ([[regulations/california-prop65]]) Pb MADL applies to wine vinegar products sold in California; historical Prop 65 enforcement actions on balsamic vinegar and aged wine vinegars are documented.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
 
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
+| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
+| [c027e29](https://github.com/paleofoundation/heavymetalindex/commit/c027e29) | 2026-05-17 | source-legend: programmatic baseline fill (2026-05-17) |
+| [9e37a44](https://github.com/paleofoundation/heavymetalindex/commit/9e37a44) | 2026-05-17 | synthesis: fermented + soft-drink + sports-drink bases + wine-vinegar — 6 narrative sections each |
+| [0b917c5](https://github.com/paleofoundation/heavymetalindex/commit/0b917c5) | 2026-05-17 | stubs: strip 'autonomy-created stub' prose from 41 pages that now have structure |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ matrices: [oyster-mushroom, pleurotus-ostreatus, edible-mushroom, dried-fruiting
 jurisdictions: [CN]
 sample_n: "Seven substrate treatments, with first-flush Pleurotus ostreatus fruiting bodies analyzed in triplicate for chemical composition and heavy metals."
 sample_population: "Cultivated oyster mushroom fruiting bodies grown on cottonseed hull, wheat bran, lime, water, and 0-60% chicken-manure biogas-residue substrate treatments."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -64,3 +67,13 @@ This source contributes cultivated edible-mushroom occurrence context for Pb, Cd
 - Batch 3 auto-fetched ingest, 2026-05-25. The wishlist row targeted mixed fruit, but the actual paper measures oyster mushroom fruiting bodies.
 - Speciation: arsenic and mercury are total/unspecified measurements; do not treat them as inorganic arsenic or methylmercury.
 - Basis: mushroom concentrations are dry-weight values. The authors discuss fresh-mushroom regulatory limits but note the reported mushroom data are dried fruiting-body measurements.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b08c162](https://github.com/paleofoundation/heavymetalindex/commit/b08c162) | 2026-05-25 | ingest auto-fetched 2026-05-25 batch 3: 1 source page + 4 rollups + 45 skips |
+<!-- END: hmi-page-history -->

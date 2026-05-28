@@ -20,6 +20,9 @@ jurisdictions: [LK]
 near_duplicates: []
 sample_n: 57
 sample_population: "57 studies (of 1,067 identified) reporting food and water quality in Sri Lanka CKDu-endemic areas, primarily North Central Province (Anuradhapura, Polonnaruwa, Badulla, Ampara, Monaragala, Matale, Hambantota districts); systematic review search to 21 August 2024"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -87,3 +90,17 @@ App: Treat Sri Lanka-origin rice, vegetables, freshwater fish, and drinking-wate
 - Cross-vendor audit (Codex, 2026-05-17) corrected the publication to *Journal of Nephrology*, set the open-access license to CC BY 4.0 from the PDF license statement, removed unsupported inorganic-arsenic routing, corrected the arsenic study-count wording, and removed unsupported tea-cadmium claims.
 - Strict Part 12 recheck found no sampled-product brand names. The source phrase "branded/packed tea" was generalized to packaged tea; TRI and MMU are institutional/grade descriptors in the source table rather than sampled-product brands.
 - The review is a qualitative synthesis with no pooled concentration estimates. Do not promote its review-level findings to structured contamination profiles without extracting the cited primary studies.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cca5fa7](https://github.com/paleofoundation/heavymetalindex/commit/cca5fa7) | 2026-05-17 | audit (codex): uthayarajan2025 ckdu review revised |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [e2e70eb](https://github.com/paleofoundation/heavymetalindex/commit/e2e70eb) | 2026-05-13 | ingest p4-batch9-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

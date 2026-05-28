@@ -19,6 +19,9 @@ jurisdictions: [CN]
 near_duplicates: []
 sample_n: 149
 sample_population: "149 wheat grain samples collected at maturity in 2021 using systematic composite grid sampling from Bijie City, Guizhou Province, southwestern China; each composite from 5 sub-samples"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -81,3 +84,14 @@ Converting to ppb (µg/kg): Cr mean 3,250 µg/kg; Ni mean 684 µg/kg; As mean 55
 - [[ingredients/wheat]]
 - [[regulations/fao-codex-grain-limits]]
 - [[supply-chain/soil-geogenic-contamination]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [531487a](https://github.com/paleofoundation/heavymetalindex/commit/531487a) | 2026-05-13 | ingest p4-batch15-g1: 3 pages, 47 FP |
+<!-- END: hmi-page-history -->

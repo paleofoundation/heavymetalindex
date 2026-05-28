@@ -20,6 +20,9 @@ jurisdictions: [BD]
 near_duplicates: []
 sample_n: null
 sample_population: "Large-scale field trials in two geographic regions of Bangladesh (Barind and Madhupur Tracts), 18 subsistence farming communities, 2 seasons (dry/Boro 2017, wet/Amon 2018), 3 fertiliser treatments (NPKS, ash, NPKS+ash), 3 replicates per treatment"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -52,3 +55,15 @@ Microbiome: Contains 16S rRNA microbial community data from rice rhizosphere; do
 - [[ingredients/rice]]
 - [[supply-chain/soil]]
 - [[mitigation/agronomic-arsenic-rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [5028098](https://github.com/paleofoundation/heavymetalindex/commit/5028098) | 2026-05-13 | ingest p4-batch13-g3: 11 pages, 39 FP |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 50
 sample_population: "50 commercial packaged fruit juice samples from Mashhad, Iran local markets in spring and winter 2016; grape, apple, orange, pomegranate, and multi-fruit juices from five anonymized major brands."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -94,3 +97,14 @@ Microbiome: Not addressed.
 - Strict brand firewall: the paper anonymizes commercial brands as A-E. This source page preserves only anonymized sample codes where needed for source fidelity and does not name any commercial brand.
 - Methods vendor/equipment/reagent names are retained under Part 12 Exception 2.
 - Fresh-context audit (Claude subagent, 2026-05-19): PROMOTE. All five checks clean: numerical fidelity verified against abstract/results/Table 3 (overall Pb mean 39.4 ng/mL range 18.5-54.6, As mean 1.9 ng/mL range 1.52-2.35, 83% Pb exceedance vs Codex 30 ng/mL, all per-fruit ranges, all seasonal SEMs); slug vocabulary verified on disk; speciation discipline correct (tAs explicitly labeled, WHO drinking-water iAs comparator transcribed faithfully without substitution); brand firewall clean (anonymized A-E codes preserved); HMTc firewall clean (no percentile arithmetic, source's own Codex comparator transcribed faithfully). 0 findings applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5e63b5d](https://github.com/paleofoundation/heavymetalindex/commit/5e63b5d) | 2026-05-19 | audit (async drain): savic2015 REVISE + balalimood2018 PROMOTE |
+| [e20cbe1](https://github.com/paleofoundation/heavymetalindex/commit/e20cbe1) | 2026-05-19 | ingest auto-gap: orange and mashhad fruit juice metals |
+<!-- END: hmi-page-history -->

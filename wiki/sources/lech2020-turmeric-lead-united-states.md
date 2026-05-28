@@ -18,6 +18,9 @@ matrices: [turmeric-powder, spice]
 jurisdictions: [US]
 sample_n: 127
 sample_population: "Ground turmeric products purchased from retail outlets across the United States"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -49,3 +52,14 @@ App: turmeric as an ingredient carries a Pb risk flag regardless of sourcing reg
 
 - [[metals/lead]]
 - [[ingredients/turmeric]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [65a88cd](https://github.com/paleofoundation/heavymetalindex/commit/65a88cd) | 2026-05-13 | synthesis: promote spice-adulteration-lead-infants — 6 anchor sources, 3 continents |
+<!-- END: hmi-page-history -->

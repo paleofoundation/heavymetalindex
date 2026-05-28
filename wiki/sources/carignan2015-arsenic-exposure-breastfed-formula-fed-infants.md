@@ -17,6 +17,9 @@ products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-form
 matrices: [breastmilk, infant-formula, urine, infant-cohort]
 jurisdictions: [US]
 sample_n_notes: "U.S. prospective cohort of breastfed and formula-fed infants; urinary As biomarkers and dietary intake assessment"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -40,3 +43,13 @@ Formula-fed infants had higher urinary arsenic biomarker levels than breastfed i
 - [[metals/arsenic-total]]
 - [[products/infant-formula-powder-non-soy]]
 - [[products/infant-formula-powder-soy-based]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

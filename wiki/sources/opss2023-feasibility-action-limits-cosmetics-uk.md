@@ -22,6 +22,9 @@ jurisdictions: [UK, EU, US, CN, JP, CA, DE, TH]
 near_duplicates: []
 sample_n: 91
 sample_population: "91 cosmetic products purchased from UK high-street stores and online retailers (~70/30 split) across low, mid and high price ranges, covering 10 product groups: lipstick (9), lip gloss (9), lip liner (10), toothpaste (9), mouthwash (6), sun protection (9), foundation liquid/cream (9), mascara (9), eye liner (9), eye shadow (9). Makeup powders (face powders, eye powders) were within the project scope and the analytical method was verified on the matrix, but time and budget constraints prevented sample analysis (Section 3.4 and Section 4, p. 27 and p. 32). Samples coded 22Bxxxx and 22Cxxxx; full sample list with price, retailer (high-street/online) and colour in Appendix 1."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -139,3 +142,14 @@ Limitations OPSS acknowledges: small sample size (9-10 per product group), no an
 - **Jurisdictions.** The report reviews regulations from UK, EU, US (federal FDA), China, Thailand, Japan, Canada, Germany (BVL non-regulatory), ASEAN block, South Korea (ICCR member), and Brazil (ICCR member). The `jurisdictions:` array captures the principal-discussed eight (UK, EU, US, CN, JP, CA, DE, TH); KR and BR appear in the ICCR-member listing but the report does not present KR- or BR-specific limits.
 - **DOI / access URL.** No DOI; this is a UK government report not assigned a DOI. The `access_url` is the gov.uk publication page for the report; the actual PDF URL on the asset CDN rotates and is not stable enough to record.
 - **Audit subagent application (2026-05-17).** Fresh-context audit subagent reviewed against the PDF; verdict REVISE. Findings applied: (a) corrected Table 16e Hg LOQ range in Key numbers from "<0.005-<0.073" to "<0.002-<0.073" (mouthwash LOQ <0.002 was the true minimum, not <0.005); (b) added a flag that the Foundation Hg row in Table 16e (LOQ 0.015, 1 >BVL, max 0.585) is identical to the Sb-Foundation row in Table 16a and contradicts the Section 4.5 chart on p. 37 — the row appears to be a source-side copy-paste error in the OPSS report; (c) completed the semi-quantitative-scan element enumeration to match Appendix 3 (Ba, Co, Cr, Cu, Li, Mo, Ni, Sn, Tl, V, Zr) rather than the truncated list previously written; (d) softened "policy-actionable" to "strongest direct-evidence signal" in Implications to keep the wording in the literature-reporting register rather than the policy register; (e) removed unsupported method-vendor name examples (NRCC, JMP/SAS) from this brand-firewall note since neither is mentioned in the OPSS paper itself. Findings rejected as false positives: the audit flagged four `products:` slugs (eye-makeup, makeup-foundation-powders-blush, sun-suntan-products, mouthwash-oral-rinse) as absent from the 2026-05-17 taxonomy snapshot; verified that all four exist as live pages under `wiki/products/` and the routing audit run on this source resolved all five product targets cleanly (0 unresolved). The taxonomy snapshot is stale relative to the Cat 13 / Cat 20 scaffolding committed earlier on 2026-05-17; the snapshot needs refreshing, not the source page. Net verdict: revised, retained.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c05da7f](https://github.com/paleofoundation/heavymetalindex/commit/c05da7f) | 2026-05-17 | audit: opss2023-feasibility-action-limits-cosmetics-uk revised |
+| [9b86815](https://github.com/paleofoundation/heavymetalindex/commit/9b86815) | 2026-05-17 | ingest: opss2023-feasibility-action-limits-cosmetics-uk fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 16
 sample_population: "16 adult Tilapia fish (Oreochromis mossambicus) collected from 4 sites along the Cauvery River near Erode, Tamil Nadu, India; muscle, liver, and gills analyzed separately; pre-monsoon sampling period"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -83,3 +86,14 @@ App: Freshwater fish matrix from industrial-river catchments in India flags as h
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[ingredients/freshwater-fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [519f81e](https://github.com/paleofoundation/heavymetalindex/commit/519f81e) | 2026-05-13 | ingest p4-batch8-g1: 5 pages, 42 FP |
+<!-- END: hmi-page-history -->

@@ -18,6 +18,9 @@ matrices: [honey]
 jurisdictions: [ET]
 sample_n: 3
 sample_population: "Composite honey samples from three districts of Kellem Wollega Zone, western Ethiopia (Dambi Dollo, Gawo Kebe, Anafilo); each composite formed from five apiary subsamples"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -79,3 +82,14 @@ Merge-enhance pass 2026-05-20 (Claude Opus 4.7, autonomous ingest cycle):
 - **Expanded Methods (brief)** with instrument vendor/model (PerkinElmer Optima 8000), digestion parameters, calibration standard (Buck Scientific PuroGraphic), and filter (Whatman No. 41) per the verification-checklist Exception 2 for scientific-method vendor naming. Speciation status (none performed; all values are total metal) made explicit.
 - **Expanded Key numbers** with Ni and Cd TCR ranges, Pb THQ range, and source-citation page numbers for the audit trail.
 - Preserved cite_key, raw_handle, license, frontmatter slugs (all in taxonomy snapshot), and the overall page structure.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4bf4b45](https://github.com/paleofoundation/heavymetalindex/commit/4bf4b45) | 2026-05-20 | ingest: teferi2026-honey-ethiopia-kellem-wollega [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [3b7bf28](https://github.com/paleofoundation/heavymetalindex/commit/3b7bf28) | 2026-05-13 | ingest kimi-cat07: 10 pages from 07_Processed_Foods_Snacks_Beverages, 3 skips, 3 bad PDFs flagged |
+<!-- END: hmi-page-history -->

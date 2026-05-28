@@ -20,6 +20,9 @@ jurisdictions: [SA]
 near_duplicates: []
 sample_n: 161
 sample_population: "161 edible vegetable oil samples (32 corn, 28 sunflower, 21 soybean, 19 sesame, 17 rapeseed, 17 peanut, 27 olive) purchased from Saudi hypermarkets 2011–2012"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -95,3 +98,15 @@ Speciation: total arsenic only. No iAs/tAs partition. No Hg measured.
 - `publication: "Asian Journal of Chemistry (Uncorrected Proof)"` retained from prior page. The PDF carries an "Uncorrected Proof" watermark but does not state the journal title or volume/issue on any of its five pages. The publication field is therefore unverified against the source itself; flagging for downstream cross-vendor audit confirmation rather than overwriting without evidence.
 - `doi: null` / `no_doi_assigned: true` retained — the source PDF contains no DOI string.
 - 2026-05-26 fresh-context audit (general-purpose subagent) — verdict PROMOTE. All five checks (numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall) returned ✅ on substantive findings. Two ⚠️ concerns reviewed: (1) `edible-oil` matrices term — confirmed in corpus use across 12 sibling source pages alongside `vegetable-oil`, accepted vocabulary, no change; (2) Zn page-2-text vs Table-1 minimum inconsistency — applied: Zn key-number line now flags the source-internal contradiction analogously to the existing Mn note. Rapeseed-Pb-BDL correction from the merge-enhance pass was independently re-verified against Table 1 by the subagent.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ee0407f](https://github.com/paleofoundation/heavymetalindex/commit/ee0407f) | 2026-05-26 | audit: ashraf2012-heavy-metals-vegetable-oils-saudi-arabia promoted |
+| [14cd93f](https://github.com/paleofoundation/heavymetalindex/commit/14cd93f) | 2026-05-26 | ingest: ashraf2012-heavy-metals-vegetable-oils-saudi-arabia enhanced from Manual Fetch Kimi/condiment_papers/01_Oils |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

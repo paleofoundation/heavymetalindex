@@ -22,6 +22,9 @@ matrices: [cereal-grain]
 jurisdictions: [PL]
 sample_n: 20
 sample_population: "10 ecological and 10 non-ecological cereal products (flour, flakes, bran) from different producers and regions of Poland; product types: oatmeal, barley flakes, rye flakes, wheat bran, rye bran, oat bran, wheat flour type 2000, spelt flour type 2000, rye flour type 2000, buckwheat flour"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -109,3 +112,17 @@ App: The source can support ingredient-derivative context for bran-containing ce
 - Replaced older HMTc-threshold and cross-source-consensus phrasing with source-only implications.
 - Replaced invalid ingredient links to non-existent `oats`, `rye`, and `barley` pages with existing vocabulary routes.
 - Strict brand-firewall check: no consumer brands are named; instrument, reagent, and software vendor names are retained only as Methods details under the Part 12 scientific-method exception.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e32aae9](https://github.com/paleofoundation/heavymetalindex/commit/e32aae9) | 2026-05-18 | ingest kimi-cat03: slepecka cereal metals |
+| [25004dc](https://github.com/paleofoundation/heavymetalindex/commit/25004dc) | 2026-05-18 | checkpoint: daemon + generator accumulated outputs (synthesis writer, marker regen, briefings) |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

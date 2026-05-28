@@ -21,6 +21,9 @@ jurisdictions: [ZA, CN, PL, MY]
 near_duplicates: []
 sample_n: 20
 sample_population: "20 disposable baby diapers procured in Cape Town, South Africa, across three retail tiers: high-end (H1-H5, n=5), medium-end (M1-M10, n=10), and low-end (L1-L5, n=5). Countries of manufacture: South Africa (n=15 with stated origin), China (H2), Poland (H1, H4), Malaysia (L1), and 3 with origin not on packaging (L3, L5, plus M1/M8/L1/L3/L4/L5 lacking sample descriptions). Two ingredients listed for two of the high-end Polish diapers (H1, H4): petroleum, stearyl alcohol, paraffinum liquidium, aloe barbadensis leaf extract."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -124,3 +127,14 @@ Microbiome: Not addressed.
 - **Speciation.** As is reported as total (tAs) — no inorganic-vs-total speciation. Cr is reported as total (Cr) — no hexavalent-vs-trivalent speciation. Hg is not in the analyte list. Metals frontmatter uses tAs, Cr, etc., reflecting the paper's actual analytical scope.
 - **Extraction shake-time gap.** The paper specifies a 24-h shake for the artificial-sweat extraction (Section 2.3.2) but does not state a shake time for the artificial-urine extraction (Section 2.3.1). The urine extraction time is therefore unknown and not back-fillable.
 - **Audit correction 2026-05-18 (fresh-context subagent).** The first commit of this page reported "n.d. in 6 samples" for both urine-extract As and urine-extract Co. Re-counting Table 5 (PDF p. 10): As n.d. = 5 (H2, H3, M1, M10, L4); Co n.d. = 5 (H1, H4, H5, M5, L3). Corrected to "n.d. in 5 samples" with the sample codes named explicitly. The audit subagent flagged the As count as 4 (missed L4) and the Co count as 5; an independent re-read confirmed 5 for both, so the larger of the two flagged counts was adopted with explicit sample-code attribution.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8e5d23c](https://github.com/paleofoundation/heavymetalindex/commit/8e5d23c) | 2026-05-18 | audit: nyamukamba2023-south-africa-diapers-metals-formaldehyde revised |
+| [37485b3](https://github.com/paleofoundation/heavymetalindex/commit/37485b3) | 2026-05-18 | ingest: nyamukamba2023-south-africa-diapers-metals-formaldehyde fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+<!-- END: hmi-page-history -->

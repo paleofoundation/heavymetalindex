@@ -17,6 +17,9 @@ products: ["[[products/poultry-product]]", "[[products/eggs-product]]"]
 matrices: ["poultry-meat", "eggs", "poultry-feed"]
 jurisdictions: ["BD"]
 sample_population: "Poultry feed, meat, and egg samples from major poultry-producing areas of Bangladesh"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -55,3 +58,15 @@ The source supports poultry-meat and egg occurrence context for Bangladesh. Feed
 
 - Source identity checked against DOI 10.3329/aajfss.v2i1.55893 and the downloaded PDF.
 - Feed values are not pooled with edible product values; the OCR preserved the arsenic meat maxima more clearly than the lead meat table.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [554a72d](https://github.com/paleofoundation/heavymetalindex/commit/554a72d) | 2026-05-26 | audit auto-fetched 2026-05-26 2215 batch 1: speciation fixes |
+| [5146d67](https://github.com/paleofoundation/heavymetalindex/commit/5146d67) | 2026-05-26 | ingest auto-fetched 2026-05-26 2208 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

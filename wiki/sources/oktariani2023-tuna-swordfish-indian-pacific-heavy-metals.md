@@ -17,6 +17,9 @@ products: ["[[products/seafood]]"]
 matrices: ["swordfish", "yellowfin-tuna"]
 jurisdictions: ["ID"]
 sample_population: "Fresh yellowfin tuna and swordfish from FAO zones 57 and 71 collected at Indonesian ports"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -51,3 +54,14 @@ This source supports seafood context for Indonesian tuna and swordfish export/co
 
 - Source identity checked against DOI 10.14202/vetworld.2023.858-868 and the downloaded PDF.
 - The title uses "Hindian" in the source; this appears to mean Indian Ocean, but the source title is preserved as published.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [64af122](https://github.com/paleofoundation/heavymetalindex/commit/64af122) | 2026-05-25 | audit fixes auto-fetched 2026-05-25: strip brands and repair slugs |
+| [53f221f](https://github.com/paleofoundation/heavymetalindex/commit/53f221f) | 2026-05-25 | ingest auto-fetched 2026-05-25 1748 batch 2: 8 source pages |
+<!-- END: hmi-page-history -->

@@ -22,6 +22,9 @@ jurisdictions: [PS]
 near_duplicates: []
 sample_n: 16
 sample_population: "16 canned food samples (4 brand-product combinations each of beans, chickpeas, corn, mushroom) purchased from a single supermarket in Nablus, Palestine. Origin countries spanned Thailand, China, United Arab Emirates, Jordan, and Palestine. Each sample analyzed in triplicate."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-25
 ---
 
@@ -110,3 +113,14 @@ Direct evidence on contamination of canned legumes, canned corn, and canned mush
 - **Speciation.** No speciation performed; total Cd, Pb, Cu, Zn only. Frontmatter uses unspeciated metal symbols accordingly.
 - **LOD/LOQ.** Not reported in the paper. Two mushroom Cd values and two bean Pb values are listed as "ND" in Table 1; the practical detection floor is not stated.
 - **Sample-size limitation.** n=16 (4 per product type) from a single supermarket on a single occasion. The authors acknowledge this as a baseline study limitation; treat reported ranges as indicative rather than representative of the Palestinian canned-food supply chain.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [92557b1](https://github.com/paleofoundation/heavymetalindex/commit/92557b1) | 2026-05-25 | ingest: alzabadi2018-canned-foods-palestine-cd-pb-cu-zn enhanced from Manual Fetch Kimi/08_Nuts_Seeds_Legumes_and_Misc |
+| [bc8551e](https://github.com/paleofoundation/heavymetalindex/commit/bc8551e) | 2026-05-14 | ingest kimi-cat08: 10 source pages from nuts/seeds/legumes/misc batch |
+<!-- END: hmi-page-history -->

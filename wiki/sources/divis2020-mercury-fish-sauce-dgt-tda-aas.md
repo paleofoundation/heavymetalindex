@@ -21,6 +21,9 @@ jurisdictions: [VN, TH, CZ, BE]
 near_duplicates: []
 sample_n: 10
 sample_population: "Ten commercial fish sauces purchased at Asian markets in Brno (Czech Republic) and Brussels (Belgium); three coded as Vietnam-origin (FS1–FS3) and seven as Thailand-origin (FS4–FS10). Anchovy content stated on the label ranged from 55% to 97% for nine of the ten samples; one Thailand sample (FS8) did not report anchovy fraction."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-28
 ---
 
@@ -96,3 +99,16 @@ Merge-enhanced 2026-05-28 from prior 2026-05-14 revision (cite-key, raw_handle, 
 No brand names appear in either the existing page or the source paper itself — fish sauces are coded FS1…FS10 throughout the paper with only origin country and label-stated anchovy fraction, so no Part 12 redaction was required.
 
 Audit subagent (2026-05-28, fresh-context general-purpose) returned PROMOTE: numerical fidelity ✅ (full Table 1 / Table 2 / Section 3.4 cross-check passed), speciation and methods ✅, Part 12 brand firewall ✅, Part 2 wiki/HMTc firewall ✅. The one ⚠️ concern was that `ingredients/fish-sauce`, `ingredients/anchovy`, and `products/fish-sauce` are not yet entries in `docs/gpt-collaboration/taxonomy-snapshot.md`. Verified: the routing audit (`npm run evidence:source-routes`) resolves all three under the provisional-scaffold mechanism per CLAUDE.md Part 10, with zero unresolved and zero malformed entries for this source. Slugs are descriptively accurate to the paper (fish sauce as the analyte matrix; anchovy as the dominant fish source in 9 of 10 samples; fish-sauce as the product form distinct from the umbrella `condiments-general` row). Retained without change.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4f6294d](https://github.com/paleofoundation/heavymetalindex/commit/4f6294d) | 2026-05-28 | audit: divis2020-mercury-fish-sauce-dgt-tda-aas [promoted] |
+| [5e2c1ae](https://github.com/paleofoundation/heavymetalindex/commit/5e2c1ae) | 2026-05-28 | ingest: divis2020-mercury-fish-sauce-dgt-tda-aas [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
+<!-- END: hmi-page-history -->

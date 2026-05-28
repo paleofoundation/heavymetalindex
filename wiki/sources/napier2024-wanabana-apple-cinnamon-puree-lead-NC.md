@@ -21,6 +21,9 @@ jurisdictions: [US, EC]
 near_duplicates: []
 sample_n: null
 sample_population: "Routine pediatric blood lead surveillance in North Carolina + nationwide; ~500 cases identified nationally, 22 in NC. Lead source: WanaBana brand apple cinnamon fruit puree pouches with 1.9-3.0 ppm Pb; cinnamon traced to Ecuador supplier with intentional lead chromate adulteration."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -106,3 +109,13 @@ Microbiome: Not addressed.
 - [[products/fruit-purees]]
 - [[regulations/fda-pb-baby-food-action-levels-2023]] (10 ppb fruit purees, 20 ppb root vegetables; this outbreak was the political catalyst for finalization)
 - [[regulations/nc-clppp-pb-reportable-1ppm]] (NC state-level reporting threshold)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a7b2e94](https://github.com/paleofoundation/heavymetalindex/commit/a7b2e94) | 2026-05-15 | sources: Cat 1 WanaBana outbreak — Napier 2024 NC childhood Pb from apple cinnamon purees |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [LK]
 near_duplicates: []
 sample_n: 80
 sample_population: "Alternanthera sessilis (mukunuwenna) plants and root-zone soils from 4 cultivation sites (2 organic, 2 non-organic) in Padaviya area, North Central Province, Sri Lanka; dry season (April 2019) and rainy season (October 2019), N=80 plants per season per site group"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -62,3 +65,14 @@ App: South Asian leafy vegetables and herbs, particularly Alternanthera sessilis
 - [[metals/chromium]]
 - [[metals/lead]]
 - [[ingredients/leafy-vegetables]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [776a085](https://github.com/paleofoundation/heavymetalindex/commit/776a085) | 2026-05-13 | ingest p4-batch17-g3: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

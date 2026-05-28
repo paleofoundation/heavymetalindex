@@ -22,6 +22,9 @@ jurisdictions: [CA]
 sample_n: 330
 sample_population: "Canadian national survey, 1975 sample collection. 306 unique products requested from all manufacturers of baby foods, formulae, and condensed/evaporated milks across 11 categories; 288 obtained, 42 duplicates included for SE estimation, total 330 combined samples (4 replicate units homogenized per analytical sample). Two manufacturers of baby foods + 3 manufacturers of infant formulae + 1 manufacturer of baby cereals/infant cereals; 6 plants for evap/condensed milks. Categories: (1) prepared formula, (2) powdered formula, (3) strained meats, (4) junior meats, (5) strained vegetables, (6) junior vegetables, (7) strained desserts/fruits, (8) junior desserts/fruits, (9) juices and drinks, (10) cereals, (11) evaporated/condensed milks. AAS (Varian Techtron AA-120 for Cu/Fe/Mn/Zn; Perkin Elmer Model 403 with deuterium correction for other elements). HPB acceptable methods FA-61 (general; ash-and-acid-dissolve; LOD 0.01 ppm) and FA-67 (Pb; nitric+sulfuric+perchloric digest with strontium-sulfate co-precipitation; LOD 0.01 ppm). Recovery: Pb 93.5±4.6%, Cd 80.4±13.3% (low; sugar interference), Co 92.2±13.6%, Cr 89.7±12.5%, Cu 92.3±7.1%, Fe 97.4±13.3%, Mn 88.4±19.5%, Ni 95.9±16.6%, Zn 101.9±11.1%. Sample values <LOD set to LOD for averages (= overestimates of true means)."
 acquired_via: "Karen externally fetched 2026-05-09 (raw/external-fetch/kirkpatrick1980 (1).pdf). Pergamon Press 1980; pre-Elsevier acquisition. Wiki cites the article record (DOI placeholder; verify on next OAI sweep)."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-09
 ---
 
@@ -132,3 +135,15 @@ Karen externally fetched this paper on 2026-05-09 and dropped it at `raw/externa
 - [[products/baby-cereals-dry-rice-based]]
 - [[products/baby-cereals-dry-non-rice]]
 - [[products/infant-and-child-foods-master]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
+| [90dcd31](https://github.com/paleofoundation/heavymetalindex/commit/90dcd31) | 2026-05-09 | ingest: kirkpatrick1980 — Canadian baby foods 1980 historical-baseline (B-tier; AAS LOD 10 ppb) |
+<!-- END: hmi-page-history -->

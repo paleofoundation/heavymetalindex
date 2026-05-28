@@ -20,6 +20,9 @@ jurisdictions: [BR]
 near_duplicates: []
 sample_n: 398
 sample_population: "398 fish specimens from 6 species across 5 municipalities in western Pará state, Brazilian Amazon; subsistence fishing communities with gold mining and bauxite mining context"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -59,3 +62,15 @@ Microbiome: Not directly addressed.
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[ingredients/fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [15eca2e](https://github.com/paleofoundation/heavymetalindex/commit/15eca2e) | 2026-05-12 | orchestrator: subprocess dispatcher + trial diagnostic action |
+<!-- END: hmi-page-history -->

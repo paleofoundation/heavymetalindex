@@ -18,6 +18,9 @@ matrices: [infant-formula-milk-powder, milk-based-infant-formula-powder]
 jurisdictions: [PK]
 sample_n: 13
 sample_population: "Thirteen infant formula milk (IFM) brands purchased in Pakistani markets; ten samples per brand collected; milk-based throughout (no soy-based or hydrolyzed products in panel)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -56,3 +59,17 @@ Microbiome: No direct microbiome endpoint.
 ## Wiki Pages Updated On Ingest
 
 - [[products/infant-formula-powder]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [76a8c79](https://github.com/paleofoundation/heavymetalindex/commit/76a8c79) | 2026-05-08 | lint: Phase 2 drift fix — broad-context tables + akhtar2017/almeida2022 source-page deeper fixes |
+| [0f3f4e7](https://github.com/paleofoundation/heavymetalindex/commit/0f3f4e7) | 2026-05-07 | Add product HMTc evidence summaries |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [c267ab1](https://github.com/paleofoundation/heavymetalindex/commit/c267ab1) | 2026-04-30 | Move unresolved formula sources to base powder page |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+<!-- END: hmi-page-history -->

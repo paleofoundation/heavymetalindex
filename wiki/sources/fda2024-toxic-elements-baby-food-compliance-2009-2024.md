@@ -22,6 +22,9 @@ matrices: [baby-food, young-child-food, compliance-sampling]
 jurisdictions: [US]
 sample_population: "FDA compliance-program foods intended for babies and young children, FY2009-FY2024"
 derived_files: [data/evidence/category1_fda_baby_food_compliance_summary.csv, data/evidence/category1_fda_baby_food_compliance_samples.csv, data/evidence/values.jsonl, data/evidence/sources.jsonl]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -124,3 +127,17 @@ Microbiome: no direct microbiome endpoint.
 - [[products/mixed-meals-non-rice]]
 - [[products/teething-and-snacks-rice-based]]
 - [[products/teething-and-snacks-non-rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [fb0ee9a](https://github.com/paleofoundation/heavymetalindex/commit/fb0ee9a) | 2026-04-30 | Simplify source DOI access display |
+| [a36b7b5](https://github.com/paleofoundation/heavymetalindex/commit/a36b7b5) | 2026-04-29 | Ingest FDA infant formula and baby food evidence |
+| [c48bdab](https://github.com/paleofoundation/heavymetalindex/commit/c48bdab) | 2026-04-29 | Ingest Digest source batch |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [JP]
 near_duplicates: []
 sample_n: 123
 sample_population: "Japanese confectionery, baked goods, and flour-processed foods from Tokyo-area markets, 2015–2016"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ---
 
@@ -58,3 +61,14 @@ Microwave acid digestion of approximately 0.5 g sample in HNO3/water, filtered t
 - [[metals/aluminium]]
 - [[products/confectionery]]
 - [[regulations/jecfa-al-ptwi-2011]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5022001](https://github.com/paleofoundation/heavymetalindex/commit/5022001) | 2026-05-17 | reverse-route: backfill products from matrices for 4 sources (running total: 4) |
+| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
+<!-- END: hmi-page-history -->

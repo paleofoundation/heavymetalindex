@@ -19,6 +19,9 @@ matrices: [fish, seafood, ready-to-eat-fish, canned-fish]
 jurisdictions: [DE, EU]
 sample_n: null
 sample_population: "German population across age groups (infants 0.5–<1 yr through elderly 65–<80 yr); consumption data from KiESEL (n=1,008 children 0.5–<5 yr), EsKiMo II (n=1,190 children 6–<12 yr), NVS II (n=13,926 adolescents and adults ≥14 yr); BfR MEAL study pool samples of ready-to-eat fish (15–20 individual samples per pool)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -119,3 +122,16 @@ The BfR MEAL study (Germany's first Total Diet Study) purchased ready-to-eat fis
 - [[products/canned-fish]]
 - [[metals/mercury]]
 - [[regulations/eu-853-2004-fishery-products]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4e3cf32](https://github.com/paleofoundation/heavymetalindex/commit/4e3cf32) | 2026-05-18 | fix: dedupe bfr2024 BfR MEAL methylmercury — unblock Codex true-duplicate stop |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

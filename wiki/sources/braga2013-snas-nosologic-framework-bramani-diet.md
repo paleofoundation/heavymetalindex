@@ -18,6 +18,9 @@ matrices: [snas, low-nickel-diet, oral-nickel-challenge, diagnostic-criteria]
 jurisdictions: [IT]
 sample_n_total: 145
 sample_n_notes: "145 patients with suspected SNAS (history and benefit from Ni dietary restrictions) at Spedali Civili Brescia + G. d'Annunzio University Chieti; oral nickel challenge for definite diagnosis; BraMa-Ni diet vs forbidden-food list compared"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -48,3 +51,13 @@ The BraMa-Ni diet is approximately 50 µg Ni/day (vs typical Western intake 150-
 
 - [[metals/nickel]]
 - [[health/nickel-allergy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

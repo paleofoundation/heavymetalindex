@@ -20,6 +20,9 @@ jurisdictions: [KR]
 near_duplicates: []
 sample_n: 6609
 sample_population: "Korean adults aged ≥19, Korea National Health and Nutrition Examination Survey (KNHANES) 2008–2012, n=6,609 after exclusions"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -63,3 +66,14 @@ App: The urinary As data are difficult to interpret for food safety (LOD too hig
 - [[metals/mercury]]
 - [[metals/cadmium]]
 - [[health/biomonitoring-reference-values]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [467af7d](https://github.com/paleofoundation/heavymetalindex/commit/467af7d) | 2026-05-12 | ingest: P4 batch 3 group 2 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [CA]
 sample_n: 243
 analytical_results_n: 437
 sample_population: "Canadian infant formulae, oral electrolytes, and glucose solutions sampled from retail stores, medical centres, and hospitals in 1999"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-04-29
 ---
 
@@ -117,3 +120,17 @@ Microbiome: No direct microbiome endpoint.
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/aluminum]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ee06026](https://github.com/paleofoundation/heavymetalindex/commit/ee06026) | 2026-05-08 | clarify benchmark pool percentile rules |
+| [9a3fa9d](https://github.com/paleofoundation/heavymetalindex/commit/9a3fa9d) | 2026-04-30 | Rename source summaries |
+| [8abfdda](https://github.com/paleofoundation/heavymetalindex/commit/8abfdda) | 2026-04-30 | Add DOI access to source pages |
+| [2b85e7c](https://github.com/paleofoundation/heavymetalindex/commit/2b85e7c) | 2026-04-29 | Expand Dabeka formula format evidence |
+| [c48bdab](https://github.com/paleofoundation/heavymetalindex/commit/c48bdab) | 2026-04-29 | Ingest Digest source batch |
+<!-- END: hmi-page-history -->

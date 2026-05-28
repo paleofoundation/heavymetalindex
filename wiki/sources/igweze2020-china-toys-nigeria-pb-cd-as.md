@@ -21,6 +21,9 @@ jurisdictions: [NG, CN, EU]
 near_duplicates: []
 sample_n: 30
 sample_population: "Thirty low-cost 'made in China' children's toys purchased January–February 2018 via market-basket sampling from supermarkets and street vendors in Port Harcourt, Nigeria. Sample types per Table 3: figurine/animal/character toys (e.g., toy ant, duck, aircraft, jelly-fish, dolphin, bird, batman, donkey, teddy bear, baby doll [×2], frog, power-ranger, sheep, rabbit, mask [×2], cat, spider, bee, robot, '4-hand reptile', policeman, pig head); balls (×2); baby rattle and Fischerprice rattle; toy feeding bottle; pacifier. The Materials section additionally references plastic teethers, balloon, toy cars/planes, playdough, crayon, watercolour pen, and building blocks as part of the purchased set; the Table 3 named-sample list (A1–A30) does not enumerate the playdough/crayon/watercolour-pen items separately, and the source does not reconcile the two descriptions."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -176,3 +179,14 @@ The authors interpret their lower values, relative to the two earlier Nigerian d
 - Source-internal inconsistency flagged (not silently corrected): (a) the Materials section lists playdough, crayon, and watercolour pen among the purchased samples, but Table 3 (the per-sample dataset) does not enumerate these items separately — the named A1–A30 are all plastic/painted toys. The source does not reconcile this; recorded in sample_population as the source wrote it. (b) Discussion-body TCR-range bounds (1.4 × 10⁻⁴ – 1.4 × 10⁻⁶) do not exactly match the per-sample TCR min (4.5 × 10⁻⁵, sample A12) and max (1.5 × 10⁻⁴, sample A19) from Table 5; the body wording also appears to invert min/max ordering. Recorded as the source wrote it; the acceptability conclusion (TCR within 10⁻⁶–10⁻⁴ range) still holds. (c) The Materials section says "thirty cheap 'made in China' toys" but the methods describe paint scraping "from plastic toy car and building blocks" specifically — implying the named A1–A30 in Table 3 may be a subset of a larger purchased pool. Source does not clarify; the wiki reports the 30 named samples as the analytical dataset.
 - Paper-internal methods gap (not silently corrected): the source measures total As by flame-AAS (PerkinElmer AAS-700) but applies the inorganic-As CSF (1.5) to the total-As result in the cancer-risk arithmetic without acknowledging the iAs-vs-tAs distinction. Flame-AAS at the 1.5–6.3 mg/kg range used here is plausible (the conventional method for As at these levels is hydride-generation AAS or ICP-MS; AAS-700 supports HG-AAS but the paper does not specify), and AAS does not speciate. The wiki records this in the Methods section as a methods-detail gap and reports the CSF assumption descriptively without endorsing the equivalence.
 - `## Wiki pages this source may touch` does not list the EU Toy Safety Directive 2009/48/EC regulation page — no such regulation slug exists in the current `wiki/regulations/` directory (closest neighbours are `eu-nickel-directive-94-27-ec` and `eu-2023-915-*`). The directive is the most-cited regulatory benchmark in this source and would be a high-value future regulation page; surfaced for Karen's regulation-creation queue but not actioned in this ingest per the skill's hard constraint against new regulation pages.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0c629ae](https://github.com/paleofoundation/heavymetalindex/commit/0c629ae) | 2026-05-18 | audit: igweze2020-china-toys-nigeria-pb-cd-as promoted |
+| [c89b9e9](https://github.com/paleofoundation/heavymetalindex/commit/c89b9e9) | 2026-05-18 | ingest: igweze2020-china-toys-nigeria-pb-cd-as fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+<!-- END: hmi-page-history -->

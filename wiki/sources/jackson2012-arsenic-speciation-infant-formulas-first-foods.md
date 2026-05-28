@@ -19,6 +19,9 @@ products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-form
 matrices: [infant-formula-powder, infant-rice-cereal, infant-first-foods]
 jurisdictions: [US]
 near_duplicates: ["raw/Digest/nihms374391.pdf"]
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-08
 ---
 
@@ -89,3 +92,14 @@ Speciation in foods with As > 5 ng/g was predominantly inorganic As (>70 percent
 - [[products/infant-formula-powder-soy-based]]
 - [[products/baby-cereals-dry-rice-based]]
 - [[ingredients/rice]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5312528](https://github.com/paleofoundation/heavymetalindex/commit/5312528) | 2026-05-11 | ingest: Jackson 2012 As speciation enrichment + integration into metals/arsenic |
+| [66af802](https://github.com/paleofoundation/heavymetalindex/commit/66af802) | 2026-05-08 | ingest: digest-batch-4-fda-pediatric-and-microbiome-extension — 18 source pages |
+<!-- END: hmi-page-history -->

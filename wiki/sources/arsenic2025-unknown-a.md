@@ -18,6 +18,9 @@ matrices: []
 jurisdictions: []
 near_duplicates: [FM_12378713]
 canonical_cite_key: arsenic2025-unknown
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-14
 ingest_method: manual_dedup_pointer
 created_by: claude_opus_47_session
@@ -32,3 +35,13 @@ This page exists so the autonomous Marker ingester doesn't re-process the same p
 ## Canonical reference
 
 - [[sources/arsenic2025-unknown]] — full source page
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ed7edab](https://github.com/paleofoundation/heavymetalindex/commit/ed7edab) | 2026-05-15 | sources: dedup pointer for Navaretnam 2025 near-duplicate |
+<!-- END: hmi-page-history -->

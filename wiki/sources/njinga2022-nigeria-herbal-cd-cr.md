@@ -19,6 +19,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 3
 sample_population: "Dried plant material of Adansonia digitata (baobab), Psidium guajava (guava), and Carica papaya (papaya) collected from Northern Nigeria (Borno, Jigawa, Kano states)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -43,3 +46,16 @@ App: Supports contamination_profile entries for herbal-plant ingredients; geogra
 - [[ingredients/herbal-plants]]
 - [[metals/cadmium]]
 - [[metals/chromium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [7da5b3c](https://github.com/paleofoundation/heavymetalindex/commit/7da5b3c) | 2026-05-13 | ingest p4-batch16-g1: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

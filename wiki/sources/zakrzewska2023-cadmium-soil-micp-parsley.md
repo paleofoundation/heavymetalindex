@@ -20,6 +20,9 @@ jurisdictions: [PL, EU]
 near_duplicates: [FM_10321601_Reduction_of_bioavailability_and_phytotoxicity_effect_of_cad]
 sample_n: null
 sample_population: "Pot experiments with Petroselinum crispum (root parsley) grown in Cd-contaminated agricultural soil supplemented with metabolites containing carbonates (MCC) from Ochrobactrum sp. POC9"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -57,3 +60,16 @@ Supply-chain: Supports the case for soil-level interventions as a supply-chain C
 - [[ingredients/parsley]]
 - [[mitigation/soil-cadmium-immobilisation]]
 - [[supply-chain/soil-amendments]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [8c1225e](https://github.com/paleofoundation/heavymetalindex/commit/8c1225e) | 2026-05-13 | ingest p4-batch13-g2: 7 pages, 43 FP |
+<!-- END: hmi-page-history -->

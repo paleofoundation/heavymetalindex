@@ -19,6 +19,9 @@ jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 600
 sample_population: "Approximately 600 samples of fresh, frozen, dried fruits, fruit preserves and canned fruits collected throughout Poland in 2015 by State Sanitary and Epidemiological Stations"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -94,3 +97,14 @@ Limitations stated by the authors and implied by the methods: total arsenic was 
 - Paper-internal anomaly preserved verbatim: Figure 1 / text reports "frozen berries and small fruits Pb P90: 0.037–0.003 mg/kg" — UB below LB is a typographical error in the published paper. Flagged but not silently corrected; the underlying figure values cannot be recovered from the PDF.
 - Matrices `frozen-fruit` and `fruit-preserves` are not in the common-matrices list from the GPT system prompt; preserved because they accurately describe the form measured and the matrices vocabulary is open per the system prompt's guidance. New-term flag for taxonomy review.
 - Mercury treated as inorganic for exposure calculation is the authors' explicit modeling choice (paper page 359), consistent with EFSA's position that organic mercury contributes negligibly to non-fish dietary exposure. The `metals:` field uses `tHg` because measurement was total-Hg by CVAAS, not speciated.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [12ae912](https://github.com/paleofoundation/heavymetalindex/commit/12ae912) | 2026-05-20 | ingest: mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
+| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
+<!-- END: hmi-page-history -->

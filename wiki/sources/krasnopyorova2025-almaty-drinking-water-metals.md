@@ -20,6 +20,9 @@ jurisdictions: [KZ]
 near_duplicates: []
 sample_n: 78
 sample_population: "Drinking water samples from municipal tap water and bottled water sources in Almaty, Kazakhstan, collected across seasons in 2023; 24 trace elements measured by ICP-MS"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -47,3 +50,14 @@ App: Drinking water As and Pb data are inputs to cumulative exposure models, par
 - [[metals/lead]]
 - [[metals/uranium]]
 - [[supply-chain/drinking-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [b23e81a](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a) | 2026-05-13 | ingest p4-batch12-g3: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

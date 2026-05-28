@@ -11,6 +11,7 @@ limit_unit: ppb
 status: draft-not-for-implementation
 source_refs: ["[[sources/fda2022-draft-lead-juice]]"]
 title: "FDA 2022 Draft — Lead Action Levels for Juice"
+wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator, app]
 ---
@@ -30,3 +31,12 @@ For current FDA juice lead context, see [[regulations/fda-juice-haccp-lead-50ppb
 
 - [[sources/fda2022-draft-lead-juice]]
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1e18eb9](https://github.com/paleofoundation/heavymetalindex/commit/1e18eb9) | 2026-05-03 | Add Category 1 lead benchmark context |
+<!-- END: hmi-page-history -->

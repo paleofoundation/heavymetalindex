@@ -20,6 +20,9 @@ jurisdictions: [MX]
 near_duplicates: []
 sample_n: 103
 sample_population: "103 food, beverage, and spice samples purchased in Mexico City retail stores and markets, April 2022 to January 2023"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -91,3 +94,16 @@ App: Provides Mexico-jurisdiction Pb concentration data for infant rice cereal a
 - [[ingredients/spices]]
 - [[metals/lead]]
 - [[regulations/codex-ml-pb-infant-formula]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [38d88bd](https://github.com/paleofoundation/heavymetalindex/commit/38d88bd) | 2026-05-12 | ingest: p2-sub3 batch — 3 source pages from 50-handle list; 47 handles missing from filesystem |
+<!-- END: hmi-page-history -->

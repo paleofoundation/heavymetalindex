@@ -18,6 +18,9 @@ matrices: [breast-milk]
 jurisdictions: [NG]
 sample_n: 144
 sample_population: Postpartum mothers (5–6 weeks postpartum) in Yenagoa, Nigeria; 72 with diabetes and 72 without diabetes, recruited from three public hospitals between November 2020 and April 2021.
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -55,3 +58,13 @@ This study establishes that breast milk contamination with all four primary heav
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[ingredients/breast-milk]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0b33e23](https://github.com/paleofoundation/heavymetalindex/commit/0b33e23) | 2026-05-18 | autonomy: daemon tick 2026-05-18T01-11-42Z — gap-healing + extraction + pooling + briefings |
+<!-- END: hmi-page-history -->

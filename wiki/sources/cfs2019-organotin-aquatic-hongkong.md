@@ -21,6 +21,9 @@ matrices: [fish, crustaceans, molluscs, seafood]
 jurisdictions: [HK]
 sample_n: 341
 sample_population: "Fish, crustaceans, and molluscs collected from local markets in Hong Kong, October 2017 to June 2018; 201 fish, 31 crustaceans, 109 molluscs"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -94,3 +97,15 @@ Samples collected October 2017 to June 2018 from local Hong Kong retail markets.
 - 2026-05-18 Codex seafood-priority merge check corrected the raw handle/path/hash from the original manual-fetch placeholder and verified the sample count (341 total; 201 fish, 31 crustaceans, 109 molluscs), detection rates, Table 2 maxima, Table 3 means, and exposure ranges against the report text.
 - The source separates crustaceans from molluscs analytically, but there is no `ingredients/crustaceans` page in the current taxonomy. Routing uses `ingredients/shellfish` plus `ingredients/molluscs`, while retaining `crustaceans` as a source-specific matrix descriptor.
 - Frontmatter keeps `metals: [Sn]` for element-level routing; the toxicological and methods discussion should be treated as organotin-specific and linked to [[metals/organotins]], not pooled with inorganic tin.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ff1dca2](https://github.com/paleofoundation/heavymetalindex/commit/ff1dca2) | 2026-05-18 | ingest (codex): cfs2019 organotin seafood merge-enhance |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

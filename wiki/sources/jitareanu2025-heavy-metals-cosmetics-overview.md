@@ -21,6 +21,9 @@ near_duplicates:
   - "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen/04_Shampoo_Wipes_Sunscreen/An_Overview_of_Heavy_Metals_in_Cosmetic_Products_and_Their_Toxicological_Impact.pdf"
 sample_n: null
 sample_population: "Narrative review of heavy-metal contamination in cosmetics; literature 1990 - November 2025 retrieved via PubMed, Web of Science, Scopus, Google Scholar"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -97,3 +100,17 @@ Narrative literature review (not systematic). Database searches across PubMed, W
 - Empty `ingredients:` and `matrices:` are intentional: the review covers metals as contaminants/intentional additives in finished cosmetic products; it does not focus on specific ingredients (the products themselves are the unit of analysis) and `matrices:` is a food-vocabulary field that does not apply to cosmetics. Routing audit flags this as an "advisory" (optional fields empty), not a malformed error.
 - Audit subagent (2026-05-17) flagged Iwegbue product list dropped "pencils" from Section 3 p. 3 — verified against source; corrected to "lip products, eye shadows and pencils, mascaras, blushes, and face powders" to match exact source wording.
 - Audit subagent (2026-05-17) flagged Implications Certification line restated EU/Germany/US/CA/CN regulatory values already in Key numbers — verified the duplication was stylistically redundant; tightened to a single sentence referencing Key numbers (Part 2 firewall not violated either way, but cleaner without the duplicate).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2763e1f](https://github.com/paleofoundation/heavymetalindex/commit/2763e1f) | 2026-05-18 | dedup: jitareanu2025-heavy-metals-cosmetics-overview babycare_04 near_duplicate |
+| [ec0d841](https://github.com/paleofoundation/heavymetalindex/commit/ec0d841) | 2026-05-18 | ingest: jitareanu2025-heavy-metals-cosmetics-overview duplicate-skip from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
+| [65a3f9f](https://github.com/paleofoundation/heavymetalindex/commit/65a3f9f) | 2026-05-17 | audit (codex): jitareanu2025 cosmetics revised |
+| [5c1735b](https://github.com/paleofoundation/heavymetalindex/commit/5c1735b) | 2026-05-17 | audit: jitareanu2025-heavy-metals-cosmetics-overview promoted-with-refinements |
+| [c1e5de9](https://github.com/paleofoundation/heavymetalindex/commit/c1e5de9) | 2026-05-17 | ingest: jitareanu2025-heavy-metals-cosmetics-overview enhanced from MFK/Children Personal Care Papers/babycare_01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

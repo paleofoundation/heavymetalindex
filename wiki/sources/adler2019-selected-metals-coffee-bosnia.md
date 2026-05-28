@@ -21,6 +21,9 @@ jurisdictions: [BA]
 near_duplicates: []
 sample_n: 8
 sample_population: "Two green coffee bean samples and six roasted coffee bean samples purchased in small local stores in Sarajevo, Bosnia and Herzegovina; two before/after roasting pairs; six Turkish-style coffee infusions prepared from roasted coffee."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -112,3 +115,14 @@ Microbiome: Not addressed.
 - Fresh auto-fetch ingest 2026-05-19 from the gap-driven coffee-Cd wishlist PDF.
 - Strict brand firewall: the paper reports anonymized sample codes only. This page reports aggregate matrix-level values and does not reproduce sample-code rows as product identifiers.
 - Methods vendor/reference-material names are retained under Part 12 Exception 2 for instrument, calibration, and certified-reference-material documentation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [67e3abb](https://github.com/paleofoundation/heavymetalindex/commit/67e3abb) | 2026-05-25 | audit adler2019 coffee source |
+| [e75f283](https://github.com/paleofoundation/heavymetalindex/commit/e75f283) | 2026-05-19 | ingest auto-gap: bosnia coffee metals |
+<!-- END: hmi-page-history -->

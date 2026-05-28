@@ -12,6 +12,7 @@ sunset_date: 2023-05-25
 superseded_by: "[[regulations/eu2023-contaminants-maximum-levels]]"
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32006R1881"
 audience: [regulator, educator, commercial, app, legal]
+wiki_doi: null
 updated: 2026-05-18
 ---
 
@@ -138,3 +139,13 @@ Pre-2023 source pages in the wiki citing EC 1881/2006 maximum levels — includi
 - This regulation page was created 2026-05-18 as a routing target for pre-2023 EU literature in the wiki. Codex correctly surfaced the gap in its 2026-05-18 session. Per CLAUDE.md Part 10, regulations are created on first encounter; the surfacing-first restriction in Codex's prior operating manual is being relaxed 2026-05-18 (see Codex collaboration README) since regulations have hard identifiers and can be looked up from official EU sources without ambiguity.
 - The values shown are the FINAL amended levels under EC 1881/2006 prior to the May 2023 recast. Earlier versions of the regulation (2007-2014) had different cadmium and lead limits for several matrices; cite the specific amendment regulation if working with a source published before the relevant amendment took effect.
 - Tin maximum levels (50-200 mg/kg) carried forward into EU 2023/915 substantively unchanged. Lead infant/young-child-food limit was tightened by 2021/1317 (the 0.020 mg/kg value shown). Cadmium infant formula was tightened by 2014/488 (the 0.010 mg/kg powder / 0.005 mg/kg liquid values shown). iAs rice limits added by 2015/1006.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [029687b](https://github.com/paleofoundation/heavymetalindex/commit/029687b) | 2026-05-18 | regulation: create EC 1881/2006 (superseded) as routing target for pre-recast EU literature |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [TR]
 near_duplicates: []
 sample_n: 72
 sample_population: "Greenhouse-grown durum wheat (Triticum durum cv. Diyarbakir 81) in calcareous soils spiked with Cd at four dose levels (0, 0.2, 1.0, 5.0 mg Cd kg-1 soil) and three soil Zn levels with and without foliar ZnSO4 spray; Turkey"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -57,3 +60,14 @@ App: Mitigation credit for zinc-biofortified wheat products should be applied co
 - [[ingredients/wheat]]
 - [[metals/cadmium]]
 - [[supply-chain/agricultural-mitigation]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [da722b6](https://github.com/paleofoundation/heavymetalindex/commit/da722b6) | 2026-05-12 | ingest: P4 batch 2 group 2 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

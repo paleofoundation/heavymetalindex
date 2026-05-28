@@ -19,6 +19,9 @@ jurisdictions: [BD, LK, TH, CN, AU, NG]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review synthesizing global literature on rice and edible aquatic plants; no primary sampling"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -85,3 +88,14 @@ Narrative review; no primary measurements. The authors aggregate values from app
 - [[ingredients/lotus-root]]
 - [[ingredients/watercress]]
 - [[ingredients/taro]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9496620](https://github.com/paleofoundation/heavymetalindex/commit/9496620) | 2026-05-18 | audit: uddin2021-rice-aquatic-plants-review revised |
+| [44f2f5e](https://github.com/paleofoundation/heavymetalindex/commit/44f2f5e) | 2026-05-18 | ingest: uddin2021-rice-aquatic-plants-review enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

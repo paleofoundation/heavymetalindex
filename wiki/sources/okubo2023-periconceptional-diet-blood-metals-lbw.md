@@ -21,6 +21,9 @@ jurisdictions: [JP]
 near_duplicates: []
 sample_n: 72317
 sample_population: "Japan Environment and Children's Study (JECS) nationwide prospective birth cohort; 72,317 mother-child pairs from singleton live births, derived from 103,057 pregnancies registered January 2011-March 2014 at 15 regional centres across Japan; complete-case dataset after exclusions for multiples, miscarriages/stillbirths, missing data, implausible energy intake (<500 or >4,000 kcal/day), dietary change within 1 year, and missing covariates"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -103,3 +106,14 @@ Preserved per v2 skill rule: `cite_key`, `doi`, `evidence_tier: A`, `license: CC
 - [[metals/mercury]]
 - [[health/vulnerable-populations]]
 - [[health/reproductive-outcomes]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [dbbc33f](https://github.com/paleofoundation/heavymetalindex/commit/dbbc33f) | 2026-05-18 | audit: okubo2023-periconceptional-diet-blood-metals-lbw audited-revised |
+| [de9d0b9](https://github.com/paleofoundation/heavymetalindex/commit/de9d0b9) | 2026-05-18 | ingest: okubo2023-periconceptional-diet-blood-metals-lbw enhanced from Papers Cube Manual Fetch |
+<!-- END: hmi-page-history -->

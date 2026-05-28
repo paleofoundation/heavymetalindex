@@ -20,6 +20,9 @@ jurisdictions: [BD, US, CL]
 near_duplicates: []
 sample_n: 12473
 sample_population: "Three populations: rural Bangladesh HEALS cohort n=11,224 (with rice and well-water As); Navajo Nation NBCS n=619; northern Chile case-control n=630"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -47,3 +50,14 @@ App: The multi-source approach is the correct conceptual frame for the app's cum
 - [[ingredients/rice]]
 - [[health/arsenic-exposure]]
 - [[supply-chain/drinking-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [b23e81a](https://github.com/paleofoundation/heavymetalindex/commit/b23e81a) | 2026-05-13 | ingest p4-batch12-g3: 10 pages, 40 FP |
+<!-- END: hmi-page-history -->

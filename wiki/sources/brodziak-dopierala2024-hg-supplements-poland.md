@@ -20,6 +20,9 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 139
 sample_population: "139 pharmaceutical preparations (75 prescription and OTC drugs, 64 dietary supplements) purchased from pharmacies, drugstores, hypermarkets, and online shops in Poland, 2022–2023"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -72,3 +75,16 @@ Microbiome: not applicable.
 
 - [[metals/mercury]]
 - [[products/dietary-supplements]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [6626ee3](https://github.com/paleofoundation/heavymetalindex/commit/6626ee3) | 2026-05-13 | ingest p4-batch8-g4: 2 pages, 48 FP |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [TR, EU]
 near_duplicates: []
 sample_n: 72
 sample_population: "72 powdered cow-milk-based infant formula products from 16 anonymized brands in Turkiye, covering 0-6 month infant formula, follow-on milk, growing-up milk, premature formula, low-birth-weight formula, and additional specialty formula groups."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -105,3 +108,13 @@ Microbiome: Not addressed.
 - Speciation: arsenic and mercury are reported as total As and total Hg because the method was ICP-MS after digestion with no HPLC/IC separation.
 - The source text uses both ug/g and mg/kg for some results; these are equivalent for powdered product concentration and are preserved where the source uses them.
 - Methods vendor/equipment/reference-material names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d784e29](https://github.com/paleofoundation/heavymetalindex/commit/d784e29) | 2026-05-19 | stranded work: 7 Codex auto-gap source pages + 2 ingredient stubs + accumulated daemon artifacts |
+<!-- END: hmi-page-history -->

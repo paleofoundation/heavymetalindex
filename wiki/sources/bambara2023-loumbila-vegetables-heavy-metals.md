@@ -17,6 +17,9 @@ products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables
 matrices: ["carrot", "onion-leaves", "onion", "lettuce", "green-bean", "bell-pepper"]
 jurisdictions: ["BF"]
 sample_population: "Market-garden vegetables around Loumbila Dam, Burkina Faso"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -58,3 +61,14 @@ The source fills vegetable occurrence context for Burkina Faso, especially for c
 ## Verification notes
 
 The source reports total chromium, not hexavalent chromium. No brand or vendor contamination identities were transcribed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21263d7](https://github.com/paleofoundation/heavymetalindex/commit/21263d7) | 2026-05-26 | audit auto-fetched 2026-05-26 2240 batches 2-3 fixes |
+| [0d9d380](https://github.com/paleofoundation/heavymetalindex/commit/0d9d380) | 2026-05-26 | ingest auto-fetched 2026-05-26 2220 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

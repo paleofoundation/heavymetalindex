@@ -19,6 +19,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 49
 sample_population: "49 canned samples (tomato paste, olives, pickled cucumbers) from five popular brands in Tehran, Iran"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -64,3 +67,13 @@ Shavali-gilani and colleagues measured eight metals (Cd, Cu, tAs, Fe, Pb, Sn, Zn
 - [[metals/mercury-total]]
 - [[regulations/codex-cadmium-mls]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ jurisdictions: [TW]
 near_duplicates: []
 sample_n: 1047
 sample_population: "478 urothelial carcinoma cases (266 bladder, 204 upper tract) and 569 hospital controls; central Taiwan; recruited 2011–2019; mean age ~68 years"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -62,3 +65,14 @@ App: No direct ingredient concentration data. Not applicable to contamination-pr
 - [[metals/arsenic]]
 - [[metals/cadmium]]
 - [[health/urothelial-carcinoma-arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [a05bf3e](https://github.com/paleofoundation/heavymetalindex/commit/a05bf3e) | 2026-05-12 | ingest: batch-D/F background agents — 18 source pages from seasonal-geographic-variance |
+<!-- END: hmi-page-history -->

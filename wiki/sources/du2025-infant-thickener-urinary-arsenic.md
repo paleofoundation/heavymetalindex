@@ -21,6 +21,9 @@ jurisdictions: [US]
 near_duplicates: [FM_12019543_Heavy_metal_exposures_in_aerodigestive_clinic_cohort_of_infa]
 sample_n: 56
 sample_population: "Infants under 1 year of age with reflux or oropharyngeal dysphagia seen at Boston Children's Hospital aerodigestive clinic, December 2021-2023; n=56 urine samples"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -62,3 +65,15 @@ Microbiome: Infant exposure data relevant to early life metal exposure and micro
 ## Verification notes
 
 - Cross-vendor strict Part 12 recheck 2026-05-17 removed product brand names used as thickener-group identifiers, corrected invalid formula/product and matrix vocabulary, removed non-taxonomy health wikilink, removed instrument/reference-material brand names from Methods, and tightened HMT&C/app language away from safety determinations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [ea6d558](https://github.com/paleofoundation/heavymetalindex/commit/ea6d558) | 2026-05-13 | ingest p4-batch17-g1: 8 pages, 42 FP |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 59
 sample_population: "59 commercial vinegars purchased from retail stores in California: 52 balsamic, 4 wine, 1 apple cider, 1 rice, 1 garlic"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-26
 ---
 
@@ -111,3 +114,16 @@ Auto-audit subagent (2026-05-26) verdict REVISE; Checks 1, 3, 4, 5 clean. Check 
 This is the same broad-scope-matrices, narrow-ingredients pattern documented on the sibling vinegar source [[karavoltsos2020-copper-trace-metals-vinegars-greece]] for its `fruit-vinegar` matrix.
 
 Self-caught during audit-application (not flagged by the subagent): the Methods section initially misattributed the GFAAS recommended program. Corrected to attribute 600 / 1300 °C to the paper's Conclusions section (p. 6) rather than Table 2 (Table 2 shows 700 / 1400, an intermediate working program). Also corrected the manufacturer's recommended maximum from "800 / 1400" to "400 / 1400" per §4.3 (p. 4); the 800 / 1400 figure was the authors' first-pass optimization against the NIST 1640 SRM, not the manufacturer default.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4f17c22](https://github.com/paleofoundation/heavymetalindex/commit/4f17c22) | 2026-05-26 | audit: ndungu2004-lead-vinegar-icpms-gfaas audited-revised |
+| [8c640e3](https://github.com/paleofoundation/heavymetalindex/commit/8c640e3) | 2026-05-26 | ingest: ndungu2004-lead-vinegar-icpms-gfaas enhanced from Manual Fetch Kimi /condiment_papers/02_Vinegars |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+<!-- END: hmi-page-history -->

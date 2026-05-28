@@ -20,6 +20,9 @@ jurisdictions: [JP]
 near_duplicates: []
 sample_n: 2709
 sample_population: "2709 Japanese adults aged 39–75 years from Nagoya City; second cross-sectional survey of Japan Multi-Institutional Collaborative Cohort (J-MICC); Daiko Study; fasting serum collected in the morning after overnight fast (mean 14.1 ± 2.5 h)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -66,3 +69,14 @@ Microbiome: Not addressed in this paper.
 - [[ingredients/fish]]
 - [[metals/lead]] (not applicable here)
 - [[health/arsenic-cardiovascular]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+| [16697db](https://github.com/paleofoundation/heavymetalindex/commit/16697db) | 2026-05-13 | ingest p4-batch10-g1: 4 pages, 46 FP |
+<!-- END: hmi-page-history -->

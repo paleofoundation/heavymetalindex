@@ -20,6 +20,9 @@ jurisdictions: [GH]
 near_duplicates: []
 sample_n: null
 sample_population: "Mini-review; pregnant women practicing geophagy in Ghana; no primary sample collection"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -57,3 +60,15 @@ Microbiome: Combined microbial + chemical exposure via clay ingestion is a poten
 - [[metals/lead]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [ca21145](https://github.com/paleofoundation/heavymetalindex/commit/ca21145) | 2026-05-12 | ingest: P4 batch 2 group 3 — 4 source pages, 46 false positives |
+<!-- END: hmi-page-history -->

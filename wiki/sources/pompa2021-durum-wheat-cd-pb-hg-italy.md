@@ -19,6 +19,9 @@ products: ["[[products/flour-non-rice]]"]
 matrices: [durum-wheat-grain]
 jurisdictions: [IT, AU, CA, KZ, RU, TR, US, EU]
 sample_n: 346
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -60,3 +63,14 @@ Samples are imported durum wheat; results may not represent domestic Italian dur
 - [[metals/lead]]
 - [[ingredients/wheat]]
 - [[regulations/eu-1881-2006-contaminants]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [6de0a7c](https://github.com/paleofoundation/heavymetalindex/commit/6de0a7c) | 2026-05-12 | ingest: batch-C (10 PDFs) — seasonal-geographic-variance manual-fetch |
+<!-- END: hmi-page-history -->

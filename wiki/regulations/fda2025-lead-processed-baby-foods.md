@@ -10,6 +10,7 @@ binding_status: nonbinding-recommendations
 legal_authority: "21 CFR 109.6(d); FD&C Act section 402(a)(1)"
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children"
+wiki_doi: null
 updated: 2026-05-02
 audience: [standards-development, regulator, retailer, brand, legal, educator]
 ---
@@ -103,3 +104,13 @@ HMTc can therefore serve a distinct role: converting a fragmented regulatory lan
 - 20 ppb dry infant cereal rule detail: [[regulations/fda-ctz-Pb-cereal-20ppb]]
 - Lead metal page: [[metals/lead]]
 - Product comparison layer: [[products/regulatory-crosswalk-field-findings]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [80c3dcd](https://github.com/paleofoundation/heavymetalindex/commit/80c3dcd) | 2026-05-02 | Ingest FDA 2025 lead baby food guidance |
+<!-- END: hmi-page-history -->

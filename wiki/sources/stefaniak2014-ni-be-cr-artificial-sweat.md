@@ -19,6 +19,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 9
 sample_population: "Triplicate samples of three metal-sensitizer powders (beryllium metal, nickel metal, chromium carbide Cr3C2) extracted in artificial sweat (pH 5.3) at 33, 36, 45 °C; reactant-assisted digestion compared as reference"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -63,3 +66,15 @@ Three high-purity metal sensitizer powders characterized by Auger spectroscopy (
 - Cr-VI half-life in artificial sweat ("hours, decayed over 420 min" per Results) is a non-trivial finding for the Cr-VI vs total-Cr discipline in dermal exposure assessment.
 - 2026-05-17 merge-enhance pass: corrected sweat-volume calculation unit description (1.08 L/h whole-body output × 5% body-area fraction for hands, not L/h/m²); renamed "Wiki pages this source may touch" to template-standard "Wiki pages updated on ingest"; added replicate-sample structure note (triplicate samples at each temperature).
 - 2026-05-17 audit-application pass (fresh-context subagent REVISE verdict, 2 concerns applied, 0 rejected): restored potassium (K+ 6.1 mM) to the artificial-sweat highest-concentration components list (verified PDF p. 344); split conflated initial-rapid-phase half-times so Be is 4-6 h and Cr is 3-5 h separately (verified PDF p. 345). Soft-flags on Implications framing and limitations gloss reviewed and left as-is: both stay within Part 2 bounds (no HMTc threshold proposal, no consumer risk advisory) and within faithful source rendering.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f084ce4](https://github.com/paleofoundation/heavymetalindex/commit/f084ce4) | 2026-05-17 | audit: stefaniak2014-ni-be-cr-artificial-sweat revised |
+| [4e2308e](https://github.com/paleofoundation/heavymetalindex/commit/4e2308e) | 2026-05-17 | ingest: stefaniak2014-ni-be-cr-artificial-sweat enhanced from MFK/Children Personal Care Papers |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

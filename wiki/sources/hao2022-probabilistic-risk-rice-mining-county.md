@@ -19,6 +19,9 @@ products: []
 matrices: [rice-grain, brown-rice]
 jurisdictions: [CN]
 sample_n: 220
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -50,3 +53,13 @@ Brown rice matrix only; polished white rice iAs values would be lower. Bioaccess
 - [[ingredients/rice]]
 - [[metals/cadmium]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [29a65ac](https://github.com/paleofoundation/heavymetalindex/commit/29a65ac) | 2026-05-12 | ingest: batch-E seasonal-geographic-variance — 9 source pages |
+<!-- END: hmi-page-history -->

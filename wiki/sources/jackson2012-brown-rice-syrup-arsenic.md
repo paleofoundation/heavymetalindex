@@ -19,6 +19,9 @@ matrices: [organic-brown-rice-syrup, infant-formula-toddler-with-rice-syrup, cer
 jurisdictions: [US]
 sample_n: 29
 sample_population: "Commercial products containing organic brown rice syrup (OBRS): 3 OBRS lots, 2 toddler formulas with OBRS, 13 toddler/infant formulas without OBRS, 29 cereal bars, 3 energy products; purchased in New Hampshire area"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -70,3 +73,16 @@ App: Flag "brown rice syrup," "organic brown rice syrup," "rice syrup" in ingred
 - [[ingredients/rice]]
 - [[products/infant-formula-toddler]]
 - [[metals/arsenic]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5022001](https://github.com/paleofoundation/heavymetalindex/commit/5022001) | 2026-05-17 | reverse-route: backfill products from matrices for 4 sources (running total: 4) |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

@@ -19,6 +19,9 @@ matrices: [breast-milk]
 jurisdictions: [AU]
 sample_n: 92
 sample_population: "Breast milk samples from 77 women with asthma in eastern Australia, collected during and outside the 2019/2020 landscape fire period."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ingest_method: marker_manifest_batch
 ---
@@ -71,3 +74,13 @@ Use this source as source-scoped breast-milk contaminant evidence. Keep the matr
 - Manifest year was `2019`, reflecting the fire event rather than publication; frontmatter year was corrected to 2023 from the DOI/source text.
 - The paper reports element names without species-specific inorganic arsenic, methylmercury, or Cr(VI) claims; route total/generic element evidence accordingly.
 - Brand firewall: no sampled consumer brand names are reproduced.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [475eaa6](https://github.com/paleofoundation/heavymetalindex/commit/475eaa6) | 2026-05-25 | sources: clean up junk cite-keys — rename 6, delete 4 off-scope/dupes |
+<!-- END: hmi-page-history -->

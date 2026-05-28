@@ -18,6 +18,9 @@ matrices: [refractory-gerd, low-nickel-diet, epicutaneous-patch-test]
 jurisdictions: [US]
 sample_n_total: 20
 sample_n_notes: "20 refractory GERD patients (GERD-HRQL-stratified) at West Virginia University Department of Dermatology and Gastroenterology; all underwent epicutaneous patch testing to nickel and an 8-week low-nickel diet"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-11
 ---
 
@@ -49,3 +52,13 @@ Single-site prospective pilot study. Inclusion: refractory GERD by GERD-HRQL. In
 
 - [[metals/nickel]]
 - [[health/nickel-allergy]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [796f795](https://github.com/paleofoundation/heavymetalindex/commit/796f795) | 2026-05-11 | ingest: SNAS clinical-trial cluster — 9 nickel sources integrated into metals/nickel.md |
+<!-- END: hmi-page-history -->

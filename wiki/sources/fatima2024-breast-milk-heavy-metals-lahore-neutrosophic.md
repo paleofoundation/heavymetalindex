@@ -20,6 +20,9 @@ jurisdictions: [PK]
 near_duplicates: []
 sample_n: 70
 sample_population: "Lactating mothers aged 25–40 years in industrial zones of Lahore, Pakistan; samples collected at end of third lactation month"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -62,3 +65,14 @@ Microbiome: Not addressed in this study.
 - DOI identity check matched the existing source page; no duplicate source page was found.
 - Replaced the older `manual-fetch-kimi` handle, truncated raw path, and generic mercury wikilink with current provenance and total-mercury routing.
 - Removed unsupported microbiome language and kept implications source-only.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5d29fea](https://github.com/paleofoundation/heavymetalindex/commit/5d29fea) | 2026-05-18 | ingest kimi-cat05: lahore breast milk metals |
+| [19f640f](https://github.com/paleofoundation/heavymetalindex/commit/19f640f) | 2026-05-14 | ingest kimi-cat05: 13 source pages from dairy/eggs/breast-milk + cat08 cleanup |
+<!-- END: hmi-page-history -->

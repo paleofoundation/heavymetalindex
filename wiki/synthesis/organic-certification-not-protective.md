@@ -8,6 +8,7 @@ ingredients: ["[[ingredients/cocoa]]", "[[ingredients/flaxseed]]", "[[ingredient
 products: ["[[products/dark-chocolate]]", "[[products/infant-formula]]", "[[products/tahini]]", "[[products/baby-food-pouches]]"]
 anchor_sources: ["[[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]]", "[[sources/brum2025-flaxseeds-ptes-organic-conventional]]", "[[sources/potorti2026-tahini-quality-safety-inorganic-elements]]", "[[sources/slepecka2017-ecological-cereal-heavy-metals-poland]]", "[[sources/gardener2019-pb-cd-us-infant-formula-baby-foods]]", "[[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland]]", "[[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone]]"]
 established: 2026-05-16
+wiki_doi: null
 updated: 2026-05-16
 ---
 
@@ -108,3 +109,13 @@ The HMTc certification methodology pages should reference this synthesis as the 
 ## Provisional status
 
 This synthesis was established 2026-05-16 on seven anchor sources and is provisional pending integration of the Consumer Reports 2023 chocolate dataset, the HBBF and Clean Label Project follow-up datasets, and the EU Fertilising Products Regulation Cd-limit derivation literature. The seven-source preponderance is sufficient to support the strategic conclusions; the quantitative pooled-effect characterization should follow corpus expansion. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources confirming or contradicting the directional pattern.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b85ab68](https://github.com/paleofoundation/heavymetalindex/commit/b85ab68) | 2026-05-16 | synthesis: promote 4 pending candidates + expose synthesis in sidebar |
+<!-- END: hmi-page-history -->

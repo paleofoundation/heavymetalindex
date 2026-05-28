@@ -21,6 +21,9 @@ matrices: [cosmetic-personal-care]
 jurisdictions: [US]
 sample_n: 150
 sample_population: "150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011 by Frontier Global Sciences (Bothell, WA) on FDA contract: 30 eye shadows, 30 blushes, 30 lipsticks, 15 lotions (5 medium-and-low priced, 5 premium/high priced, 5 with sunscreen), 10 mascaras, 10 foundations, 5 body powders, 5 compact powders, 5 shaving creams, 10 face paints. Selection used a primary emphasis on market share, with powder products and face paints selected from individual web sites to represent high-, medium-, and low-priced and niche items across the broadest range of available products."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
@@ -155,3 +158,14 @@ The Discussion notes (p. 143) that "FDA limits the level of mercury to less than
   - CHECK 2 ❌ FALSE POSITIVE on six product slugs (eye-makeup, makeup-foundation-powders-blush, body-hand-leave-on-skin-care, sun-suntan-products, dusting-talc-powders-adult, shaving-cream-gel-foam) flagged as "NOT in snapshot": all six pages confirmed to exist at `wiki/products/<slug>.md` with HMTc Cat 13 / Cat 14 row bindings populated. The taxonomy snapshot at `docs/gpt-collaboration/taxonomy-snapshot.md` was last generated 2026-05-17 from a commit predating the Cat 13/14 product-page buildout and is therefore stale on the cosmetic-leave-on/rinse-off rows. This is the same snapshot-staleness false-positive pattern logged in 2026-05-18 audits of bae2018-absorbent-hygiene-pads-safety-review, lai2025, and barabash2025. Snapshot regeneration is a separate maintenance task and does not require source-page changes. Findings rejected; no slug changes applied.
   - CHECK 2 ⚠️ `matrices: [cosmetic-personal-care]` flagged as bare-string-not-in-snapshot: same bare-string matrix vocabulary precedent across 10+ cosmetic-occurrence sources documented in Verification notes; finding rejected for the same precedent reason; no change.
   - CHECK 3, CHECK 4: ✅ clean per audit.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5ebcfa2](https://github.com/paleofoundation/heavymetalindex/commit/5ebcfa2) | 2026-05-18 | audit: hepp2014-fda-cosmetics-seven-elements revised |
+| [afb315e](https://github.com/paleofoundation/heavymetalindex/commit/afb315e) | 2026-05-18 | ingest: hepp2014-fda-cosmetics-seven-elements fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
+<!-- END: hmi-page-history -->

@@ -20,6 +20,9 @@ matrices: [infant-formula, infant-formula-powder, dietary-intake]
 jurisdictions: [DE, EU]
 sample_n: 114
 sample_population: "German infants (0.5 to <1 year, n=51) and toddlers (1 to <3 years, n=63) consuming infant formula, from the KiESEL cross-sectional nutrition survey 2014-2017; occurrence data from the BfR MEAL Study (first German total diet study, 2017-2019)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -107,3 +110,17 @@ The study does not provide per-product concentration distributions usable as a P
 - Audit subagent (Claude general-purpose, 2026-05-18) flagged toddler Mn P95 as 2.68 mg/day when Table 5 reports 2,348 µg/day = 2.35 mg/day; verified against source — corrected to 2.35 (the 2.68 figure was the European-average upper-bound from the paper's Discussion, not the present study's own P95). Same audit flagged the "Wiki pages this source may touch" bulleted list as inconsistent with the post-2026-05-18 `metals:` frontmatter (missing `chromium`, `manganese`, `zinc`, `mercury`); propagated the four routing bullets to match. iAs attribution-slip and `dietary-intake` matrix concerns noted but left as-is (cosmetic pattern consistent across other analyte bullets; matrix string benign).
 - Manual-fetch recheck (Codex, 2026-05-18) updated the legacy `raw_handle`, added DOI access URL and SHA-256 provenance, added `Se`/`iHg` to the analyte list because the paper reports selenium exposure and converts total Hg to inorganic-Hg exposure, and rewrote the legacy Certification/Courses/App implications into source-evidence context only. No `metals/selenium` link was added because the current wiki has no selenium metal page.
 - Fresh-context audit (Codex subagent Hume, 2026-05-18) returned REVISE. Applied the verified findings: corrected the intro sentence that wrongly grouped Mn with the ~20% formula-contribution analytes (source Table 5: iAs 18%, Cr 19%, Ni 20%, Mn 7%, Zn 64% for infants), clarified that the Key numbers parenthetical contribution percentages are source-reported Table 5 proportions, and softened the Methods description so only the special-medical-needs subsample is described as cow-milk-based per source p. 3. Also changed routing from the non-soy powder row to generic `infant-formula-powder` because the source does not clearly resolve the soy/non-soy split.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [17e814d](https://github.com/paleofoundation/heavymetalindex/commit/17e814d) | 2026-05-19 | audit queue fire batch 2: 10 source pages |
+| [d99ae20](https://github.com/paleofoundation/heavymetalindex/commit/d99ae20) | 2026-05-18 | ingest (codex): hopfner2025 infant formula exposure recheck |
+| [f39b063](https://github.com/paleofoundation/heavymetalindex/commit/f39b063) | 2026-05-18 | audit: hopfner2025-infant-formula-dietary-exposure-germany revised |
+| [d4620a9](https://github.com/paleofoundation/heavymetalindex/commit/d4620a9) | 2026-05-18 | ingest: hopfner2025-infant-formula-dietary-exposure-germany enhanced from Manual Fetch Kimi /06_Infant_Foods_Formula |
+| [f92e126](https://github.com/paleofoundation/heavymetalindex/commit/f92e126) | 2026-05-17 | audit (codex): hopfner2025-infant-formula-dietary-exposure-germany revised |
+<!-- END: hmi-page-history -->

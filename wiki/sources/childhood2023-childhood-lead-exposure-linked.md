@@ -19,6 +19,9 @@ matrices: [whole-food, blood]
 jurisdictions: [US]
 sample_n: 22
 sample_population: "Children aged 1–3 years in North Carolina with confirmed blood lead levels ≥5 µg/dL linked to apple cinnamon fruit puree consumption"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
@@ -57,3 +60,14 @@ This outbreak demonstrates both the effectiveness of routine childhood lead scre
 - [[ingredients/apple]]
 - [[ingredients/cinnamon]]
 - [[products/fruit-puree]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fca1cd5](https://github.com/paleofoundation/heavymetalindex/commit/fca1cd5) | 2026-05-18 | fix: childhood2023 products slug — fruit-puree → fruit-purees (Haiku autonomy_v0 typo) |
+| [720bfcb](https://github.com/paleofoundation/heavymetalindex/commit/720bfcb) | 2026-05-18 | ingest: mukhi2022-heavy-metals-food-packaging enhanced from Papers Cube Manual Fetch (v3 PDF re-read) |
+<!-- END: hmi-page-history -->

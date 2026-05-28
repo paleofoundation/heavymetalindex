@@ -19,6 +19,9 @@ matrices: [fruit-puree-pouch, wet-weight]
 jurisdictions: [US]
 sample_n: 22
 sample_population: "22 confirmed pediatric lead exposure cases identified in North Carolina; approximately 500 cases nationwide linked to recalled WanaBana brand apple cinnamon fruit puree pouches; product sourced from Ecuador; cinnamon ingredient from Ecuador adulterated with lead chromate"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -53,3 +56,15 @@ App: Flag cinnamon as a high-risk spice ingredient for Pb adulteration from cert
 - [[ingredients/cinnamon]]
 - [[metals/lead]]
 - [[supply-chain/spice-adulteration]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

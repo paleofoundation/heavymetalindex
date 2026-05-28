@@ -21,6 +21,9 @@ jurisdictions: [NG]
 near_duplicates: []
 sample_n: 48
 sample_population: "Five unreclaimed tin-mining pit sites (BKKS I–V) in Bukuru, Jos South LGA, Plateau State, Nigeria, with a control site at Riyom (a low-mining LGA). 32 surface-water samples (15 per sampling point across both seasons plus controls), 8 cabbage samples (Brassica oleracea var. capitata; 3 per season plus 2 controls), and 8 tilapia samples (Oreochromis niloticus; 3 per season plus 2 controls). Collection: rainy season July–September 2019, dry season January–March 2019."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -160,3 +163,14 @@ Limitations: small n per matrix (n = 8 cabbage and 8 fish across two seasons, on
 - [[ingredients/cabbage]]
 - [[ingredients/freshwater-fish]]
 - [[products/fresh-fish]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ab0f87e](https://github.com/paleofoundation/heavymetalindex/commit/ab0f87e) | 2026-05-18 | ingest: okonofua2024-mining-pits-cabbage-fish-nigeria enhanced from Papers Cube Manual Fetch |
+| [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
+<!-- END: hmi-page-history -->

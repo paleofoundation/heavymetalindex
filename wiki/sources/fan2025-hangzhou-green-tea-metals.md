@@ -22,6 +22,9 @@ matrices: [tea-leaves, tea-dry]
 jurisdictions: [CN]
 sample_n: 120
 sample_population: "120 green tea samples from Hangzhou area, Zhejiang Province, China; sourced from supermarkets (67), local markets (43), and planting sites (10) across seven districts (Xihu 33, Yuhang 26, Fuyang 18, Linan 13, Chunan 12, Jiande 9, Tonglu 9)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-20
 ---
 
@@ -112,3 +115,16 @@ Geographic scope limited to Hangzhou area — cannot be generalised to all Chine
 - Section heading "Wiki pages updated on ingest" replaced with current convention "Wiki pages this source may touch" (the ingest does not edit downstream pages directly per Part 9 synthesis-workflow separation).
 - No brand-firewall (Part 12) issues found in the source: paper reports aggregate distributions across 120 samples with no brand attribution; values were not converted into a brand ranking on the wiki page.
 - No wiki/HMT&C firewall (Part 2) issues: Implications section names the literature contribution and does not propose HMT&C thresholds.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2d43140](https://github.com/paleofoundation/heavymetalindex/commit/2d43140) | 2026-05-20 | ingest: fan2025-hangzhou-green-tea-metals [enhanced] from Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages |
+| [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
+| [82e9c80](https://github.com/paleofoundation/heavymetalindex/commit/82e9c80) | 2026-05-12 | triage: routing-unresolved pass 2 — 93 → 46 entries (47 resolved) |
+| [9696665](https://github.com/paleofoundation/heavymetalindex/commit/9696665) | 2026-05-12 | ingest: batch B — 10 seasonal-geographic-variance sources |
+<!-- END: hmi-page-history -->

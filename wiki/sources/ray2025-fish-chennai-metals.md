@@ -20,6 +20,9 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 18
 sample_population: "Three commercially available fish species from Chennai marketplace (sourced from Ennore industrial coast): Nemipterus japonicus (threadfin bream), Oreochromis mossambicus (Mozambique tilapia), Lates calcarifer (barramundi); n=6 per species; muscle, liver, and gills analyzed separately"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -99,3 +102,14 @@ App: Supports tagging commercially-sourced Indian freshwater and coastal fish (t
 - [[metals/cadmium]]
 - [[metals/chromium]]
 - [[metals/mercury]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [bb32b03](https://github.com/paleofoundation/heavymetalindex/commit/bb32b03) | 2026-05-12 | ingest: P4 batch 4 group 2 — 3 source pages, 47 false positives |
+<!-- END: hmi-page-history -->

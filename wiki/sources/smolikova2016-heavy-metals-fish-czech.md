@@ -21,6 +21,9 @@ matrices: [fish]
 jurisdictions: [CZ, EU]
 sample_n: 159
 sample_population: "33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016; minimum 3 samples per batch"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -76,3 +79,14 @@ For regulation pages, the source explicitly applies the then-operative EC 1881/2
 - The manual-fetch filename says "sold in Spain," but the source article describes fish purchased in Brno, Czech Republic markets.
 - No DOI was found in the paper, the MendelNet article page, or bibliographic index records checked during ingest; `no_doi_assigned: true` is therefore retained.
 - Instrument/reference-material vendor names appear only in methods context and are allowed under the strict brand-firewall exception for analytical vendors.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [17cfe9d](https://github.com/paleofoundation/heavymetalindex/commit/17cfe9d) | 2026-05-18 | ingest (codex): smolikova2016 fish products merge-enhance |
+| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
+<!-- END: hmi-page-history -->

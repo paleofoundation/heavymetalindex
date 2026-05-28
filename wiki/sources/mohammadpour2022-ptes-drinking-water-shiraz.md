@@ -20,6 +20,9 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 90
 sample_population: "Tap water samples from homes in Shiraz, Iran; 45 winter samples and 45 summer samples collected in 2021"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -49,3 +52,13 @@ App: Geographic data point for drinking water Pb/Hg exposure in Iran.
 - [[metals/lead]]
 - [[metals/mercury]]
 - [[regulations/who-drinking-water-guidelines]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9795863](https://github.com/paleofoundation/heavymetalindex/commit/9795863) | 2026-05-13 | ingest p4-batch16-g4: 10 pages, 38 FP |
+<!-- END: hmi-page-history -->

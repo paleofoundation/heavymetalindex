@@ -20,6 +20,9 @@ jurisdictions: [KE]
 near_duplicates: []
 sample_n: 7
 sample_population: "Seven imported cow-milk infant formula powder products for infants aged 0-6 months, purchased from stores in Nairobi County, Kenya and anonymized by the source as codes T-Z."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-19
 ---
 
@@ -96,3 +99,14 @@ Microbiome: Not addressed.
 - Strict brand firewall: the source title uses "brands" generically, and the paper anonymizes the products as T-Z. This page preserves only anonymized source codes where needed for numeric fidelity and does not name any commercial brand.
 - The source reports Cd as not detected; no Cd numeric range is inferred.
 - Methods vendor/equipment names are retained under Part 12 Exception 2.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bb3cf86](https://github.com/paleofoundation/heavymetalindex/commit/bb3cf86) | 2026-05-25 | audit odhiambo2015 infant formula source |
+| [aecfcae](https://github.com/paleofoundation/heavymetalindex/commit/aecfcae) | 2026-05-19 | ingest auto-gap: infant formula element sources |
+<!-- END: hmi-page-history -->

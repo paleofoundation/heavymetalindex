@@ -20,6 +20,9 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 211
 sample_population: "211 retail grain containers (145 rice samples across 105 brands and 66 alternative-grain samples) purchased in 20 US metro areas, 2024-2025"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -78,3 +81,13 @@ Testing performed by Brooks Applied Labs (Seattle, WA) during 2024-2025 on retai
 
 - This is a B-tier NGO report (HBBF + GreenLatinos + Virginia Women's Residency), not peer-reviewed. Methodology summary (Appendix B) is high-level; per-sample LOD/LOQ values are not in the public PDF but are referenced as available in the lab's detailed reports. Treated as B-tier per Part 13.
 - Brand firewall (Part 12): Appendix A names 105 brands across 211 samples. This source page aggregates findings at rice-subtype and grain-category level. Brand names appear in the Key numbers only where they identify special-purpose product forms that drive an outlier (saffron-seasoned rice; instant/ready-to-heat parboiled). Routine brand-by-brand rankings are not reproduced; the appendix tables remain in `raw/` for reference.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
+<!-- END: hmi-page-history -->

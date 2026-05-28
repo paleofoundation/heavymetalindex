@@ -20,6 +20,9 @@ jurisdictions: [EG]
 near_duplicates: []
 sample_n: 120
 sample_population: "Freshwater and marine water fish from El-Obour city fish market, Egypt; six species (three freshwater, three marine), 20 fish per species, collected February-August 2022"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-17
 ---
 
@@ -77,3 +80,17 @@ App: May contribute to the `contamination_profile` for `fish` and `freshwater-fi
 - The paper's Methods §"Analytical procedures" specifies only that Pb, Cd, and Al were measured on a PerkinElmer PinAAcle 900T graphite-furnace AAS; it does not name the instrument or method used for As or Hg, even though the QA/QC paragraph reports detection limits for both (As 0.02, Hg 0.01 µg/g) and the Results sections report mean values. The wiki page reproduces the source's instrument attribution as-given rather than inferring a method for As/Hg.
 - The paper writes the post-hoc test as "Turkey–Kramer HSD" in the Statistical analysis paragraph; the intended test is "Tukey–Kramer HSD". The wiki page faithfully reproduces the source's spelling.
 - This page was enhanced 2026-05-17 from a GPT-5.5 fast-mode draft via the verification pipeline. Prior version (2026-05-13) had invented ingredient slugs (`tilapia`, `mullet`, `marine-fish`), invented method detail ("Cold vapor AAS for Hg" — not in source), and a transposition of the L. niloticus Pb/Cd exceedance percentages. All three corrected in this revision.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8f617da](https://github.com/paleofoundation/heavymetalindex/commit/8f617da) | 2026-05-17 | audit (codex): hussein2023-freshwater-marine-fish-egypt revised |
+| [7fd18ce](https://github.com/paleofoundation/heavymetalindex/commit/7fd18ce) | 2026-05-17 | sources(hussein2023): refine Verification notes per GPT-5.5 audit pass |
+| [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+<!-- END: hmi-page-history -->

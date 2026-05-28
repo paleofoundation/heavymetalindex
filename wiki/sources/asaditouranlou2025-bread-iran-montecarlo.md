@@ -22,6 +22,9 @@ matrices: [cereal-grain, dietary-intake]
 jurisdictions: [IR]
 sample_n: 248
 sample_population: "248 bread samples collected from 11 Iranian provinces during winter 2020; four traditional bread types: lavash (n=69), taftoon (n=45), barbari (n=70), sangak (n=64)"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -106,3 +109,15 @@ App: The page can support occurrence-context displays for Iranian bread products
 - Identity-check note: this page is the Scientific Reports 2025 national Iranian-bread study (n=248, no arsenic analyte); it is distinct from the local page `asaditouranlou2025-bread-wheat-mashhad`, which covers a different Asadi Touranlou et al. 2025 bread/flour study.
 - Fresh-context audit (Codex, 2026-05-18) returned REVISE with two prose concerns; generalized the software name in the opening paragraph and moved the companion-study disambiguation from the main summary to verification notes.
 - Strict brand-firewall check: no consumer brands are named; instrument, reagent, and software vendor names are retained only as Methods details under the Part 12 scientific-method exception.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5801e3d](https://github.com/paleofoundation/heavymetalindex/commit/5801e3d) | 2026-05-18 | ingest (codex): asaditouranlou2025 bread iran monte carlo |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [c3a27e2](https://github.com/paleofoundation/heavymetalindex/commit/c3a27e2) | 2026-05-13 | ingest kimi-cat03: 10 pages from 03_Grains_and_Grain_Products, 3 dups skipped, 2 bad PDFs flagged |
+<!-- END: hmi-page-history -->

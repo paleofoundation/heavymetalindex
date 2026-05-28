@@ -19,6 +19,9 @@ matrices: [infant-formula-cow-milk-based, wet-weight]
 jurisdictions: [CN]
 sample_n: 93
 sample_population: "93 cow milk-based infant formula samples from Beijing market: 28 stage 1, 27 stage 2, 24 stage 3, 14 stage 4; 27 domestic brands, 66 imported; 9 country origins"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-12
 ---
 
@@ -67,3 +70,14 @@ App: Cow milk-based formula from Chinese market: low-normal range for tAs and Pb
 - [[metals/arsenic]]
 - [[metals/cadmium]]
 - [[metals/lead]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
+| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
+<!-- END: hmi-page-history -->

@@ -21,6 +21,9 @@ jurisdictions: [NG, CN, TZ, SK, KS, BD, LA]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review with no primary measurements; six-page invited contribution to a Current Opinion in Toxicology themed issue on Risk Assessment in Toxicology. Concentration findings are secondary citations of 43 cited primary studies covering rice, wheat, maize, potato, yam, cassava, fruits, and leafy/fruity vegetables from Nigeria, China, Tanzania, Slovakia, Kosovo, Bangladesh, and a municipal-solid-waste landfill site that the review's text describes as 'Dutch village' but whose underlying reference is a Vientiane (Laos) study."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -103,3 +106,15 @@ Non-systematic invited narrative review for the Current Opinion in Toxicology th
 - [[ingredients/fruits]]
 - [[ingredients/leafy-vegetables]]
 - [[products/root-tuber-vegetables]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb39922](https://github.com/paleofoundation/heavymetalindex/commit/fb39922) | 2026-05-18 | audit: afonne2020-heavy-metals-plant-foods revised |
+| [e306734](https://github.com/paleofoundation/heavymetalindex/commit/e306734) | 2026-05-18 | ingest: afonne2020-heavy-metals-plant-foods enhanced from Papers Cube Manual Fetch |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+<!-- END: hmi-page-history -->

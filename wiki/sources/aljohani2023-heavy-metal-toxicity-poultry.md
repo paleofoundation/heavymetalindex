@@ -20,6 +20,9 @@ jurisdictions: [TR, MY, IQ, NG, PK, SA, CN, IN, BD, TN, TH, IR]
 near_duplicates: []
 sample_n: null
 sample_population: "Compiled worldwide reports on heavy metal concentrations in poultry tissues"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -56,3 +59,16 @@ App: Corroborates that poultry meat carries lower metal burdens than offal; supp
 - [[products/poultry-meat]]
 - [[metals/lead]]
 - [[metals/cadmium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [e706a47](https://github.com/paleofoundation/heavymetalindex/commit/e706a47) | 2026-05-13 | provenance: access_url backfill on newly-ingested source pages |
+| [e6a6159](https://github.com/paleofoundation/heavymetalindex/commit/e6a6159) | 2026-05-13 | ingest p4-batch9-g4: 6 pages, 44 FP |
+<!-- END: hmi-page-history -->

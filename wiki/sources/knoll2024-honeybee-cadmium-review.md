@@ -19,6 +19,9 @@ jurisdictions: [EU, global]
 near_duplicates: []
 sample_n: null
 sample_population: "Narrative review; no primary samples. Synthesizes studies on Apis mellifera foraging and Cd exposure pathways."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-13
 ---
 
@@ -56,3 +59,17 @@ Microbiome: Not directly applicable.
 
 - Cross-vendor audit (Codex, 2026-05-17) removed unsupported numeric/regulatory claims about EU honey limits, 5-10x body burdens, and pollen concentrations approaching food maximum levels; replaced them with source-supported LD50/LC50, environmental baseline, larval-effect, and seasonal/spatial pattern values from the review. Removed the unrelated `herbal-botanicals` ingredient route and invalid `supply-chain/soil-contamination` wikilink, modernized the source-touch heading, and tightened HMTc/app language.
 - `bee-pollen` and `bee-body-tissue` are retained as source-specific matrix terms because the common matrix list does not yet include bee-product or bee-tissue matrices. Potential future slugs for Karen if this evidence cluster grows: bee pollen/propolis/beeswax product or ingredient routes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b2f988b](https://github.com/paleofoundation/heavymetalindex/commit/b2f988b) | 2026-05-17 | audit (codex): knoll2024-honeybee-cadmium-review revised |
+| [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
+| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
+| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
+| [b052f56](https://github.com/paleofoundation/heavymetalindex/commit/b052f56) | 2026-05-13 | fix: add access_url to 119 source pages to unblock Vercel build |
+<!-- END: hmi-page-history -->

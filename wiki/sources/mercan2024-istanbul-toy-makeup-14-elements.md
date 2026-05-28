@@ -21,6 +21,9 @@ jurisdictions: [TR, CN, EU]
 near_duplicates: []
 sample_n: 63
 sample_population: "Sixty-three toy makeup products purchased from toy stores in Istanbul, Turkey, representing ten different brands coded BRAND A–J. Of the ten brands, eight originated in Turkey and two in China; 12 of the 63 products were Chinese-import. Per-brand sample counts: A n=11, B n=6, C n=7, D n=5, E n=6, F n=6, G n=6, H n=6, I n=6, J n=4. The set comprises eye-shadow, nail-polish, and lipstick-type toy cosmetics marketed and sold through toy retail channels for play use by children."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
 updated: 2026-05-18
 ---
 
@@ -142,3 +145,14 @@ The sample set is geographically restricted to Istanbul toy retailers between an
 - Audit subagent (2026-05-18) flagged five across-brand-mean-range transpositions in the Key-numbers Table 1 summary where the first-pass row had picked up a brand's SD or a non-highest brand's mean instead of the across-brand min/max of the means; corrected against re-read of Table 1 (PDF pp. 33980–33981) to: Al `1121 – 25,117` (BRAND J lowest, E highest); Cr `0.30 – 7.44` (D, C); Mn `0.45 – 151.24` (D, A); Cu `<LOQ – 67.30` (D, A); Ba `0.89 – 294` (D, I); As `<LOQ – 13.03` (D, A); Cd `<LOQ – 0.33` (most brands <LOQ, A 0.33); Pb `<LOQ – 81.71` (D, A); Hg `<LOQ – 1.32` (most brands <LOQ, I 1.32). The audit subagent's proposed Ba highest of 91.48 was itself a misread (91.48 is BRAND A's Ba median, not a mean); independent re-read of Table 1 confirms BRAND I's Ba mean of 294 µg/g as the actual across-brand maximum.
 - Audit subagent (2026-05-18) flagged the Ni body-table row label as conflating skin-sensitization with permissible-cosmetic-limit exceedance; corrected. The 49/77.78% figure is Ni's permissible-cosmetic-limit exceedance per p. 33981 ("Cr, Co, and Ni at ratios of 73.02% (n=46), 55.56% (n=35), and 77.78% (n=49)"), making Ni the most prevalent limit-exceeder of the eight regulated toxic elements. The skin-sensitization-limit (>5 mg/kg, Basketter et al.) exceedance for Ni is the separate n=6 / 9.52% figure from p. 33981 and Conclusion. Both are now reported under the correct labels.
 - Audit subagent (2026-05-18) flagged the "7 of 10 brands exceeded Al TDI" attribution to Table 3 worst-case 95th-percentile section as misattributed to Table 3 instead of Table 2 mean SED. Independent re-verification against p. 33985 (paragraph 1) shows the source explicitly attributes this to the worst-case exposure scenario: "According to the worst-case exposure scenario results, 7 out of 10 brands (BRAND A, C, E, F, G, H, and I) exceeded the TDI levels for Al. Also, the worst-case exposure scenario results exceeded the TDI levels in BRAND A for both Pb and As as the prominent toxic elements." Finding rejected as a false positive — the wiki's attribution to Table 3 worst-case 95th-percentile is correct per the source text.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [951cd48](https://github.com/paleofoundation/heavymetalindex/commit/951cd48) | 2026-05-18 | audit: mercan2024-istanbul-toy-makeup-14-elements revised |
+| [4761231](https://github.com/paleofoundation/heavymetalindex/commit/4761231) | 2026-05-18 | ingest: mercan2024-istanbul-toy-makeup-14-elements fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_05_Other_Categories |
+<!-- END: hmi-page-history -->
