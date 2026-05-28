@@ -32,6 +32,21 @@ const stagingDir = path.join(repoRoot, "raw/manual-fetch/seasonal-geographic-var
 const sourcesIndexPath = path.join(repoRoot, "wiki/sources")
 
 const OPENALEX_BASE = "https://api.openalex.org/works"
+// NCBI E-utilities — PubMed source (added 2026-05-28 per HMI deliverable
+// loop #2: "queries PubMed, OpenAlex, and other open-source corpora").
+// The HMI-19 adapter at tools/discovery/sources/pubmed.ts has the same
+// upstream call shape; we don't import it here because find-candidates.mjs
+// is plain Node ESM and pubmed.ts is TypeScript with a different output
+// shape (HMI-9 manifest rows, not wishlist staging PDFs). Each adapter is
+// the right tool for its caller — the fetcher needs PMC OA fulltext PDFs
+// in the existing staging dir; HMI-19 needs typed candidate rows for the
+// dual-model extractor. Both run with no API key required; if NCBI_API_KEY
+// is set in the env, the rate cap rises from ~3 to ~10 req/sec.
+const ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+const EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+const PMC_FULLTEXT_URL = "https://www.ncbi.nlm.nih.gov/pmc/articles" // /<PMCID>/pdf/
+const NCBI_API_KEY = process.env.NCBI_API_KEY || ""
+const PUBMED_ENABLED = (process.env.HMI_PUBMED_ENABLED ?? "1") !== "0"
 const USER_AGENT = "HeavyMetalIndex/0.1 (https://heavymetalindex.com; karen@paleofoundation.com)"
 // Sprint mode: 8 → 25 candidates per OpenAlex query so each query produces
 // more material. Combined with concurrent fetches below, throughput target
@@ -290,6 +305,118 @@ if (fs.existsSync(CHECKPOINT_PATH)) {
   } catch {}
 }
 
+// ─── PubMed adapter (added 2026-05-28) ────────────────────────────────────
+// Compact ESearch + EFetch pass; same scoring/staging as the OpenAlex path.
+// Restricted to PMC OA via the "pubmed pmc open access[filter]" term so
+// paywalled records never enter the pipeline.
+function xmlAll(xml, tag) {
+  const out = []
+  const re = new RegExp(`<${tag}(?:[^>]*)>([\\s\\S]*?)</${tag}>`, "g")
+  let m
+  while ((m = re.exec(xml)) !== null) out.push(m[1].replace(/<[^>]+>/g, "").trim())
+  return out
+}
+function xmlFirst(xml, tag) { const a = xmlAll(xml, tag); return a.length ? a[0] : null }
+
+async function queryPubMed(q, searchTerms, fetchOne) {
+  const keyParam = NCBI_API_KEY ? `&api_key=${encodeURIComponent(NCBI_API_KEY)}` : ""
+  const term = encodeURIComponent(`${searchTerms} AND pubmed pmc open access[filter] AND ${FROM_YEAR}:3000[dp]`)
+  const searchUrl = `${ESEARCH_URL}?db=pubmed&term=${term}&retmax=${PER_QUERY_LIMIT}&retmode=json${keyParam}`
+  process.stderr.write(`[${q.id}] pubmed "${searchTerms}" ... `)
+
+  let pmids = []
+  try {
+    const res = await fetch(searchUrl, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } })
+    if (!res.ok) { process.stderr.write(`esearch HTTP ${res.status}\n`); return }
+    const data = await res.json()
+    pmids = data.esearchresult?.idlist ?? []
+    process.stderr.write(`${pmids.length} hits\n`)
+    totalFound += pmids.length
+  } catch (err) { process.stderr.write(`esearch error: ${err.message}\n`); return }
+
+  if (pmids.length === 0) return
+
+  // Batch EFetch all PMIDs in one call (XML payload is the cheap one; the
+  // expensive call is the per-article PDF fetch from PMC).
+  const fetchUrl = `${EFETCH_URL}?db=pubmed&id=${pmids.join(",")}&rettype=xml&retmode=xml${keyParam}`
+  let xmlText
+  try {
+    const res = await fetch(fetchUrl, { headers: { "User-Agent": USER_AGENT } })
+    if (!res.ok) { process.stderr.write(`[${q.id}] pubmed efetch HTTP ${res.status}\n`); return }
+    xmlText = await res.text()
+  } catch (err) { process.stderr.write(`[${q.id}] pubmed efetch error: ${err.message}\n`); return }
+
+  const articleBlocks = xmlText.match(/<PubmedArticle>[\s\S]*?<\/PubmedArticle>/g) ?? []
+  const fetchCandidates = []
+
+  for (const block of articleBlocks) {
+    const pmid = xmlFirst(block, "PMID")
+    if (!pmid) continue
+    const title = xmlFirst(block, "ArticleTitle") || `PubMed ${pmid}`
+    // AbstractText may have multiple blocks (BACKGROUND/METHODS/RESULTS/...);
+    // join all per HMI-27 fix so n=… in METHODS isn't lost.
+    const abstract = xmlAll(block, "AbstractText").join(" ")
+    const journal = xmlFirst(block, "Title") || ""
+    const yearStr = xmlFirst(block, "Year") || ""
+    const year = yearStr ? parseInt(yearStr, 10) : ""
+    // DOI lives in ArticleId with IdType="doi"
+    const doiMatch = block.match(/<ArticleId\s+IdType="doi">([^<]+)<\/ArticleId>/)
+    const doi = doiMatch ? normalizeDoi(doiMatch[1]) : ""
+    // PMC ID for fulltext URL
+    const pmcMatch = block.match(/<ArticleId\s+IdType="pmc">PMC([0-9]+)<\/ArticleId>/)
+    const pmcId = pmcMatch ? pmcMatch[1] : ""
+
+    const titleNorm = normalizeTitle(title)
+    const alreadyIndexed = (doi && existingDOIs.has(doi)) || (titleNorm && existingTitles.has(titleNorm))
+
+    const haystack = `${title} ${abstract}`.toLowerCase()
+    const positiveScore = scoreHits(haystack, [
+      ...q.extracted.crops, ...q.extracted.regions, ...q.extracted.metals,
+      ...expandMetalAliases(q.extracted.metal_search_terms), ...q.extracted.periods,
+    ])
+    const penalty = negativeScore(haystack)
+    const score = positiveScore + penalty
+    const foodHits = foodDomainScore(haystack)
+    const negativeHits = matchedNegatives(haystack)
+
+    const oaUrl = pmcId ? `${PMC_FULLTEXT_URL}/PMC${pmcId}/pdf/` : ""
+    const row = {
+      wishlist_id: q.id, wishlist_section: q.section,
+      query_terms: `pubmed:${searchTerms}`,
+      relevance_score: score, positive_score: positiveScore,
+      negative_penalty: penalty, negative_hits: negativeHits.join("; "),
+      food_hits: foodHits,
+      title, doi, year, journal, oa_url: oaUrl,
+      cited_by_count: 0,  // PubMed's EFetch doesn't return cite counts
+      already_indexed: alreadyIndexed ? "true" : "false",
+      decision: "", downloaded_path: "",
+    }
+
+    if (alreadyIndexed) { row.decision = "skip:already-indexed"; totalSkippedIndexed += 1; audit.push(row); continue }
+    if (!oaUrl) { row.decision = "skip:no-pmc-oa"; totalSkippedNoOa += 1; audit.push(row); continue }
+    if (foodHits === 0) { row.decision = "skip:no-food-domain-terms"; totalSkippedWeak += 1; audit.push(row); continue }
+    if (score < DOWNLOAD_THRESHOLD) { row.decision = score === 0 ? "skip:no-keyword-overlap" : "review:weak-match"; totalSkippedWeak += 1; audit.push(row); continue }
+
+    const filename = candidateFilename(row)
+    const target = path.join(stagingDir, filename)
+    if (fs.existsSync(target)) {
+      row.decision = "skip:already-in-staging"
+      row.downloaded_path = path.relative(repoRoot, target)
+      totalSkippedIndexed += 1
+      audit.push(row)
+    } else {
+      fetchCandidates.push({ row, target, oaUrl })
+    }
+  }
+
+  // Reuse the OpenAlex fetchOne closure for concurrent PDF download.
+  for (let bi = 0; bi < fetchCandidates.length; bi += CONCURRENT_FETCHES) {
+    const batch = fetchCandidates.slice(bi, bi + CONCURRENT_FETCHES)
+    await Promise.all(batch.map(fetchOne))
+    await new Promise((r) => setTimeout(r, DOWNLOAD_DELAY_MS))
+  }
+}
+
 for (let i = startIndex; i < queries.length; i += 1) {
   if (Date.now() - FETCH_START > FETCH_BUDGET_MS) {
     if (!budgetExhausted) {
@@ -462,6 +589,21 @@ for (let i = startIndex; i < queries.length; i += 1) {
     await new Promise((r) => setTimeout(r, DOWNLOAD_DELAY_MS))
   }
 
+  // ─── PubMed pass for the same query (added 2026-05-28) ─────────────────
+  // Runs alongside OpenAlex, not instead of. Different coverage: PubMed
+  // catches NIH-indexed biomedical literature including some PMC-OA papers
+  // OpenAlex misses, and is the canonical source for FDA/CDC-cross-linked
+  // clinical literature. We restrict to PMC OA so paywalled records never
+  // enter the pipeline. Same scoring (food_hits gate, positive/negative,
+  // DOWNLOAD_THRESHOLD); same staging dir.
+  if (PUBMED_ENABLED) {
+    try {
+      await queryPubMed(q, searchTerms, fetchOne)
+    } catch (err) {
+      process.stderr.write(`[${q.id}] pubmed pass failed: ${err.message}\n`)
+    }
+  }
+
   await new Promise((r) => setTimeout(r, API_DELAY_MS))
 }
 
@@ -493,7 +635,7 @@ writeCsv(auditPath, audit, [
 ])
 
 console.log(`\nWishlist fetch complete.`)
-console.log(`  candidates returned by OpenAlex: ${totalFound}`)
+console.log(`  candidates returned by OpenAlex + PubMed combined: ${totalFound}`)
 console.log(`  downloaded (relevance >= ${DOWNLOAD_THRESHOLD}, OA, not indexed): ${totalDownloaded}`)
 console.log(`  skipped (already in wiki/sources/ or staging): ${totalSkippedIndexed}`)
 console.log(`  skipped (weak match, logged for review): ${totalSkippedWeak}`)
