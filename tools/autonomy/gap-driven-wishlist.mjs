@@ -64,14 +64,42 @@ const MIN_DOWNLOADS_TO_KEEP = 2 // if downloads <2, treat as low-yield
 
 // Karen's category priority order (2026-05-28). Determines which HMTc
 // categories get the cap's slots first. Categories NOT in this list fall
-// to default rank (after the priority block but still subject to day-
-// shuffle). Priority order: most strategically valuable + most starved.
+// to default rank. Priority order is Cat 2-11 since Cat 1 is mostly
+// populated already.
 const KAREN_CATEGORY_PRIORITY = [11, 9, 8, 7, 6, 5, 4, 3, 2]
-function categoryPriorityRank(hmtcCategory) {
+
+// Saturation thresholds. A category's priority decays once its total
+// source count crosses the target floor, so the thinnest categories
+// always lead. Per Karen 2026-05-28: "this should run until each of the
+// categories have 100-200 sources total."
+const SATURATION_TARGET = 200
+
+// Build a per-category source-count snapshot by summing `sources:`
+// frontmatter across every product page in that category. Called once at
+// run start. Cheap (one pass over ~150 product pages).
+function buildCategorySaturation() {
+  const map = new Map()
+  if (!fs.existsSync(productsDir)) return map
+  for (const file of fs.readdirSync(productsDir)) {
+    if (!file.endsWith(".md") || file === "index.md") continue
+    const fm = readFrontmatter(path.join(productsDir, file))
+    const cat = parseInt(fm.hmtc_category, 10)
+    if (isNaN(cat)) continue
+    const src = parseInt(fm.sources, 10) || 0
+    map.set(cat, (map.get(cat) || 0) + src)
+  }
+  return map
+}
+
+function categoryPriorityRank(hmtcCategory, saturationMap) {
   const catNum = parseInt(hmtcCategory, 10)
   if (isNaN(catNum)) return KAREN_CATEGORY_PRIORITY.length + 1
+  // Saturated categories drop to default rank so thinner ones lead.
+  const total = (saturationMap && saturationMap.get(catNum)) || 0
+  if (total >= SATURATION_TARGET) return KAREN_CATEGORY_PRIORITY.length + 1
   const idx = KAREN_CATEGORY_PRIORITY.indexOf(catNum)
-  return idx === -1 ? KAREN_CATEGORY_PRIORITY.length : idx
+  if (idx === -1) return KAREN_CATEGORY_PRIORITY.length
+  return idx
 }
 
 // Products-vs-ingredients rotation state. Each run flips the focus.
@@ -357,6 +385,16 @@ function main() {
       productCategoryMap.set(file.replace(/\.md$/, ""), fm.hmtc_category)
     }
   }
+  // Snapshot per-category saturation so categories that hit the 200-source
+  // target step back to default rank.
+  const saturationMap = buildCategorySaturation()
+  console.log("Category saturation snapshot (cat → total sources across products):")
+  for (const cat of KAREN_CATEGORY_PRIORITY) {
+    const total = saturationMap.get(cat) || 0
+    const status = total >= SATURATION_TARGET ? "SATURATED" : total >= 100 ? "approaching" : "below floor"
+    console.log(`  Cat ${cat}: ${total} sources (${status})`)
+  }
+
   for (const row of eligible) {
     const slug = row.product_slug || ""
     if (slug.startsWith("ingredient:")) {
@@ -365,7 +403,7 @@ function main() {
       row.category_rank = KAREN_CATEGORY_PRIORITY.length
     } else if (slug.startsWith("product:")) {
       row.page_type = "product"
-      row.category_rank = categoryPriorityRank(productCategoryMap.get(slug.slice("product:".length)))
+      row.category_rank = categoryPriorityRank(productCategoryMap.get(slug.slice("product:".length)), saturationMap)
     } else if (slug.startsWith("regulatory:")) {
       row.page_type = "regulatory"
       // Regulatory anchors are top-tier evidence regardless of category.
@@ -373,7 +411,7 @@ function main() {
     } else {
       // Path A bare slugs (no prefix) are product slugs.
       row.page_type = "product"
-      row.category_rank = categoryPriorityRank(productCategoryMap.get(slug))
+      row.category_rank = categoryPriorityRank(productCategoryMap.get(slug), saturationMap)
     }
   }
 
