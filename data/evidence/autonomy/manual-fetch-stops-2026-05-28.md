@@ -429,3 +429,95 @@ This folder is full of `gap-coffee-cd_*` and `gap-coffee-pb_*` and `gap-coffee-t
 **What I did NOT do this tick:** no source page written, no merge-enhance, no routing audit run, no commit, no audit subagent spawn, no audit-queue entry. The PDF text was read in full (all 7 pages, including all 3 tables and all 3 figures) to confirm scope and data-integrity status; nothing else was written.
 
 Per SKILL.md Stop conditions ("Paper-internal contradiction or data-integrity issue that's not the obvious mirroring pattern" — applied here both for the Table 1 / text / Figure 3 carbonized/uncarbonized swap *and* for the out-of-scope discovery-system false positive), this is a stop. No ingest, no audit, no commit on this tick. Wrapper should advance to the next candidate PDF in `manual-fetch/seasonal-geographic-variance/auto-fetched/`.
+
+## STOP: ospina-yepes2025-bsfl-frass-rum-residues-colombia — out of HMI scope (insect-bioconversion fertilizer engineering, not food contamination)
+
+- **PDF:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2025_10-18359-rfcb-7981.pdf`
+- **Suggested handle:** `AF_gap-coffee-tas-2025-10-18359-rfcb-7981`
+- **Existing source page:** none (DOI `10.18359/rfcb.7981` grep → 0 hits; handle grep → 0 hits; no `2025 + rfcb` or `ospina` cite-key match in `wiki/sources/`)
+- **Paper identification:** Ospina-Yepes JP, García Trejo JF, Ceballos Aguirre N, Hurtado Salazar A (2025), "Potential Applications of *Hermetia illucens* (Black Soldier Fly Larvae) for Producing Fertilizer (Frass) from Organic Waste Derived from Rum Production (Alcoholic Beverage)," *Revista Facultad de Ciencias Básicas* (Universidad Militar Nueva Granada, Colombia) 19(2): 75–90. DOI 10.18359/rfcb.7981. Open access CC BY-NC-ND. Universidad de Caldas (Colombia) + Universidad Autónoma de Querétaro (México).
+
+**Why this is a stop, not an ingest — out of HMI scope:**
+
+The paper studies *Black Soldier Fly Larvae (BSFL, Hermetia illucens) as a bioconversion agent* that processes rum-distillery solid residues (carob and raisins from the Caldas Liquor Industry / Industria Licorera de Caldas) into frass (insect excrement) for use as an agricultural fertilizer. It is an entomology / agricultural-engineering / waste-bioconversion study, not a food-contamination study.
+
+- The "subjects" measured are larval growth performance (Phase I: 50/75/100/125/150/175 g substrate dose response, 17-day bioassay, 30 larvae per replicate × 5 replicates), frass physicochemical characterization (Phase II: pH, EC, organic matter, total organic carbon by Walkley-Black, total N by Kjeldahl, granulometry), and seed-germination phytotoxicity (Phase III: tomato/onion/cucumber radicle emergence under 20/40/60/80/100 % frass-solution dilutions in Petri-dish bioassay).
+- Phase II reports "low concentrations of arsenic, nickel, and mercury" in the frass and absence of *Salmonella* spp. / *E. coli*. This is a fertilizer-quality compliance screen, not an occurrence value for any food, ingredient, or personal-care product HMI tracks. No exact tAs / Ni / tHg values for the frass are visible in the read pages; even if reported in Phase II results pages, they describe the *fertilizer byproduct of insect digestion*, not a consumed commodity.
+- "Coffee" appears in the paper only as a Phase III *comparator phytotoxicity substrate* — coffee-pulp-derived frass and a mixed coffee-pulp/rum-residue frass are tested alongside the pure rum-residue frass as germination inhibitors against tomato/onion/cucumber seeds. There is zero data on heavy-metal occurrence in coffee-as-beverage, coffee beans, ground coffee, brewed coffee, instant coffee, or any coffee product humans consume.
+- Per CLAUDE.md Part 4 and Part 25 (out of scope): the wiki's evidence base is "heavy metals food-and-supply-chain literature" — insect-bioconversion fertilizer engineering and seed-radicle phytotoxicity assays fall outside that mission. There is no `frass` matrix, no `bsfl-bioconversion-substrate` matrix, no `rum-distillery-residue` matrix in the HMI taxonomy, and adding any of them would expand scope well past stated mission.
+
+**Discovery-system false positive (same pattern as `gap-coffee-cd_2024_ijaas`):**
+
+The "gap-coffee-tas_2025" filename prefix indicates the `discover` skill auto-fetched this paper while filling a gap-driven query for "coffee + tAs" (total arsenic) occurrence data. The query matched on "coffee" appearing in the Phase III phytotoxicity setup and "arsenic" appearing in the Phase II frass-quality compliance screen; it did not detect that the paper is about insect bioconversion of distillery waste into agricultural fertilizer, with coffee appearing only as a Phase III phytotoxicity comparator and arsenic appearing only as a frass-byproduct compliance check. This is the same known false-positive mode as the `suaebu2024-coffee-grounds-cd-adsorbent-leachate` stop earlier today (engineering-journal abstracts matching food-occurrence gap queries on shared keywords). The source journal — *Revista Facultad de Ciencias Básicas* of UMNG — is a multidisciplinary basic-sciences journal whose 2025 issue covers entomology, agricultural sciences, and biotechnology alongside chemistry; it is not a food-science journal.
+
+**Even setting scope aside, ingesting this would harm corpus quality:**
+
+- The paper has no usable tAs-in-coffee occurrence data (n=0 coffee samples; n=0 food samples in any form).
+- The paper has no usable tAs-in-any-food-product occurrence data.
+- The paper's frass tAs/Ni/tHg values describe a fertilizer byproduct, not a food matrix; routing would land nowhere meaningful.
+- The Phase III phytotoxicity germination percentages and root-length measurements are plant-physiology endpoints, not contamination endpoints; HMI does not track radicle emergence as an outcome.
+- Routing-target slug check: `metals: [tAs, Ni, tHg]` would be the only frontmatter that could attach, with `ingredients: []`, `products: []`, `matrices: []` — yielding an orphan source page that contributes no evidence to any synthesis cell.
+
+**Recommended Karen action:**
+
+- Delete `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2025_10-18359-rfcb-7981.pdf` from the auto-fetched queue so the daemon stops re-proposing it.
+- Optionally: extend the discovery-skill domain filter proposed in the `suaebu2024` stop (block IJAAS / IJESD / similar applied-engineering journals from coffee/tea/cocoa-as-beverage gap queries) to also exclude multidisciplinary basic-sciences and entomology / agronomy journals — `revistas.unimilitar.edu.co` (host of *Revista Facultad de Ciencias Básicas*) carries entomology-bioconversion work that uses food-residue keywords without containing food-occurrence data. Two false positives in one tick across two unrelated engineering/agronomy journals suggests the gap-coffee-* keyword query is over-matching and would benefit from a corpus-scope filter (require at least one of: food/ingredient/product matrix term, occurrence/concentration/exposure/dietary-intake outcome term, certified-reference-material method term).
+- No follow-up needed if Karen simply prefers to discard. The paper has no HMI-relevant content under any framing.
+
+**What I did NOT do this tick:** no source page written, no merge-enhance, no routing audit run, no commit, no audit subagent spawn, no audit-queue entry. The PDF text was read for pages 1–10 (covering title page, Spanish/Portuguese abstracts, Introduction, all of Materials and methods Phases I/II/III with all method tables, and Results page 1) to confirm scope and that no food-occurrence data exists; reading further would not change the scope determination (Phase II frass metal values, even if exact, describe fertilizer byproduct, not food).
+
+Per SKILL.md Stop conditions ("New regulation/ingredient slug needed" maps loosely to "no HMI-taxonomy matrix exists for this paper's subject" — combined with the discover-skill false-positive pattern matching `suaebu2024-coffee-grounds-cd-adsorbent-leachate` from earlier today), this is a stop. No ingest, no audit, no commit on this tick. Wrapper should advance to the next candidate PDF in `manual-fetch/seasonal-geographic-variance/auto-fetched/`.
+
+## STOP: hoxha2025-mycotoxins-neuropsychiatric-refugees — out of HMI scope (mycotoxins/refugee mental health opinion paper, not heavy metals in coffee)
+
+- **PDF:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2025_10-3389-fphar-2025-1524152.pdf`
+- **Suggested handle:** `AF_gap-coffee-tas-2025-10-3389-fphar-2025-1524152`
+- **Existing source page:** none (DOI `10.3389/fphar.2025.1524152` grep → 0 hits; handle grep → 0 hits; no `hoxha2025` cite-key match in `wiki/sources/`)
+- **Paper identification:** Hoxha M, Abbasciano M, Avantaggiato G, Zappacosta B, Tricarico D (2025), "Mycotoxins and neuropsychiatric symptoms: possible role in special refugee populations," *Frontiers in Pharmacology* 16: 1524152. DOI 10.3389/fphar.2025.1524152. Open access CC BY. Type: **Opinion** (not original research).
+
+**Why this is a stop, not an ingest — out of HMI scope:**
+
+The paper is an Opinion piece (Frontiers article type "Opinion") proposing that mycotoxin exposure may contribute to neuropsychiatric symptoms (depression, anxiety, cognitive impairment, PTSD-related disorders) in refugee populations, and arguing for monitoring campaigns to assess mycotoxin levels in refugee settlements in South Eastern Africa, sub-Saharan Africa, the Middle East, and Southeast Asia. It is a public-health-policy / pharmacology-opinion paper about mold-derived toxins, not heavy metals.
+
+- The paper reports **zero new occurrence data** of any kind. It is an Opinion-type narrative review of prior literature on mycotoxin neurotoxicity (OTA, FB1, ZEA, CIT, AFB1, PAT, T-2 trichothecenes), with no measured values, no sample populations, no methods, no tables, no figures. There are no Key numbers to extract.
+- The paper is about **mycotoxins**, a class of secondary metabolites produced by molds and fungi (Ochratoxin A, Aflatoxin B1, Zearalenone, Citrinin, Fumonisin B1, Patulin, T-2 toxin, Deoxynivalenol). Mycotoxins are organic compounds produced by *Aspergillus*, *Penicillium*, *Fusarium*, *Alternaria*, etc. They are **not heavy metals**. The HMI corpus tracks Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U occurrence in food — nothing in this paper addresses any of those analytes.
+- Coffee is mentioned in **one sentence only** (page 1, Introduction): "[Mycotoxins] can be found especially in cereals, wheat, coffee beans, maize, dried fruits (nuts, almonds, peanuts), dry-cured meat products, spices, rice, and crude vegetable oils." Coffee is listed as one of nine food categories where mycotoxins have been reported in the prior literature. There is no coffee-specific data, no coffee sampling, no coffee values.
+- Heavy metals are mentioned in **one sentence** (page 3, Discussion): "Moreover, environmental pollutants like heavy metals (mercury, arsenic, lead) and pesticides may worsen neuropsychiatric symptoms in refugee populations, as they often live in areas with improper waste handling, and exposure to industrial pollutants that contaminate water, air, and food sources." This is a single passing reference framing heavy metals as a co-exposure / confounding variable in the refugee mental-health context; it contains no occurrence data and is itself sourced from a single cited prior paper (Daher et al. 2025 on Syrian refugees in Lebanon, which is a separate paper that would be the actual heavy-metal-occurrence source if Karen wanted that data).
+- Per CLAUDE.md Part 4 and Part 25: the wiki's evidence base is "heavy metals food-and-supply-chain literature." A pharmacology Opinion piece on mycotoxin-driven neuropsychiatric symptoms in refugee populations falls entirely outside that mission.
+
+**Discovery-system false positive (same pattern as `suaebu2024` and `ospina-yepes2025` earlier today — fourth same-day gap-coffee-* false positive):**
+
+The "gap-coffee-tas_2025" filename prefix indicates the `discover` skill auto-fetched this paper while filling a gap-driven query for "coffee + tAs" (total arsenic) occurrence data. The query matched on:
+- The word "coffee" appearing once in the food-list sentence ("cereals, wheat, coffee beans, maize…")
+- The word "arsenic" appearing once in the heavy-metals-as-confounder sentence
+
+The discovery skill did not detect that the paper is an Opinion-type narrative — not original research — about mycotoxins (organic compounds) rather than heavy metals (elemental contaminants), and that the only mention of "coffee" and "arsenic" together is across two unrelated paragraphs (mycotoxin food sources in Introduction; heavy-metal co-exposures in Discussion). This is the same keyword-co-occurrence false-positive mode that produced the `suaebu2024-coffee-grounds-cd-adsorbent-leachate` and `ospina-yepes2025-bsfl-frass-rum-residues-colombia` stops earlier today. *Frontiers in Pharmacology* is a legitimate pharmacology journal, but article type "Opinion" should be filterable out of food-occurrence gap queries — opinion pieces by definition contain no new measurements.
+
+**Even setting scope aside, ingesting this would harm corpus quality:**
+
+- The paper has no usable tAs-in-coffee occurrence data (n=0 coffee samples; n=0 food samples in any form; n=0 measurements of any kind).
+- The paper has no usable tAs-in-any-food-product occurrence data.
+- The paper's content (mycotoxin neurotoxicity in refugees) is not heavy-metal-occurrence content; routing would land nowhere meaningful.
+- Routing-target slug check: there are no metals to attach to frontmatter (the heavy-metals mention is a single sentence framing them as a co-exposure, not a measurement); `metals: []`, `ingredients: []`, `products: []`, `matrices: []` would yield a fully orphan source page contributing zero evidence to any synthesis cell.
+- If Karen wants the actual heavy-metals-in-Lebanese-refugee-food data this Opinion piece cites, the upstream source is `Daher S, Ziade F, Baroudi M (2025), "Dietary exposure to Arsenic, Cadmium, and lead amongst under-five Syrian refugee and Lebanese children in rural Lebanon," Food Chemistry Advances 6, 100909. DOI 10.1016/j.focha.2025.100909` — that paper would be the in-scope ingest, not this Opinion paper that cites it.
+
+**Pattern across today's discover-skill auto-fetches in this folder:**
+
+| Stop | Journal | Year | Why false positive |
+|------|---------|------|---------------------|
+| `suaebu2024-coffee-grounds-cd-adsorbent-leachate` | IJAAS (Indonesian engineering) | 2024 | Coffee = sorbent material for wastewater treatment; not coffee-as-consumed |
+| `ospina-yepes2025-bsfl-frass-rum-residues-colombia` | RFCB (UMNG basic sciences) | 2025 | Coffee = phytotoxicity comparator in insect-bioconversion fertilizer study |
+| `hoxha2025-mycotoxins-neuropsychiatric-refugees` | Frontiers in Pharmacology | 2025 | Coffee = one food in mycotoxin food-source list; Opinion piece, no data |
+
+Three false positives in one day from the same folder, all matching on coffee+metal-name keyword co-occurrence without containing coffee-occurrence data. The discover skill's coffee-gap query is over-matching on Introduction-section food-list mentions.
+
+**Recommended Karen action:**
+
+- Delete `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-tas_2025_10-3389-fphar-2025-1524152.pdf` from the auto-fetched queue so the daemon stops re-proposing it.
+- Strongly consider adding **article-type filtering** to the `discover` skill: exclude Frontiers article types "Opinion," "Perspective," "Mini Review," "Editorial," "Commentary," "Hypothesis & Theory" from food-occurrence gap queries. These article types by definition contain no new measurements and cannot contribute to synthesis cells. The CrossRef and OpenAlex APIs expose Frontiers article types in `type-subtype` and `crossref-subtype` fields; filtering on these would have caught this paper before fetch.
+- Stronger filter (combining today's three false positives): require either (a) a food-occurrence outcome term ("concentration," "occurrence," "level," "content," "exposure," "dietary intake") AND a food/ingredient/product matrix term in the title or abstract, or (b) a method term ("ICP-MS," "AAS," "ICP-OES," "speciation") in the abstract. Opinion pieces and engineering/agronomy studies typically fail both filters.
+- If Karen wants the heavy-metals-in-refugee-food signal that's actually upstream of this Opinion piece's heavy-metals sentence, fetch `Daher et al. 2025, Food Chemistry Advances 6:100909, DOI 10.1016/j.focha.2025.100909` instead. That Lebanon Syrian-refugee dietary As/Cd/Pb paper would be in-scope.
+
+**What I did NOT do this tick:** no source page written, no merge-enhance, no routing audit run, no commit, no audit subagent spawn, no audit-queue entry. The PDF text was read in full (all 4 pages including Introduction, §2 Mycotoxins and neuropsychiatric symptoms, §3 Discussion, author contributions, references) to confirm scope; nothing else was written.
+
+Per SKILL.md Stop conditions ("Paper-internal contradiction or data-integrity issue that's not the obvious mirroring pattern" — applied here as an out-of-scope discovery-system false positive: the paper contains no measurements at all, making it categorically unable to contribute to any HMI synthesis cell), this is a stop. No ingest, no audit, no commit on this tick. Wrapper should advance to the next candidate PDF in `manual-fetch/seasonal-geographic-variance/auto-fetched/`.
