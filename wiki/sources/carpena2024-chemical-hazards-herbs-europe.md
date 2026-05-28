@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_assessment-of-the-chemical-hazards-in-herbs-consum
 cite_key: carpena2024-chemical-hazards-herbs-europe
 title: "Assessment of the Chemical Hazards in Herbs Consumed in Europe: Toxins, Heavy Metals, and Pesticide Residues"
 authors: [Carpena M, Barciela P, Perez-Vazquez A, Noras K, Trafialek J, Prieto MA, Trzaskowska M]
@@ -9,8 +9,11 @@ publication: "Proceedings (MDPI) — 1st International Electronic Conference on 
 doi: 10.3390/proceedings2024102054
 source_type: review
 evidence_tier: B
+tier_rationale: "Conference proceedings (IECTO2024, 8 pages); narrative review with RASFF data synthesis; no primary measurements; lightly peer-reviewed proceedings format places this between peer-reviewed review (A) and a workshop abstract (C)."
 license: "CC BY"
-raw_path: "raw/Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices/Assessment of the Chemical Hazards in Herbs Consumed in Europe_ T.pdf"
+access_url: "https://doi.org/10.3390/proceedings2024102054"
+raw_sha256: "babe6656a9f67af125e386cff7e4ceedd481745b8a6ef2bad4b89e3f3e0c3591"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Assessment of the Chemical Hazards in Herbs Consumed in Europe_ Toxins, Heavy Metals, and Pesticide Residues.pdf"
 metals: [Pb, Cd, tHg]
 ingredients: ["[[ingredients/herbs-and-spices]]"]
 products: ["[[products/spices]]"]
@@ -18,35 +21,65 @@ matrices: [herbs, spices]
 jurisdictions: [EU]
 near_duplicates: []
 sample_n: null
-sample_population: "Review and RASFF data synthesis covering herbs and spices in Europe, 2013–2023; no original measurements"
-updated: 2026-05-14
+sample_population: "Narrative review and RASFF notification synthesis covering herbs and spices placed on the EU market, 2013–2023; no original measurements"
+updated: 2026-05-28
 ---
 
 # Carpena et al. 2024 — Chemical hazards in herbs consumed in Europe (conference proceedings)
 
-This 8-page conference proceedings paper from IECTO2024 (MDPI Proceedings) reviews chemical hazards in herbs and spices consumed in Europe, drawing on a literature search and RASFF notification data from 2013 to 2023. The paper is primarily concerned with mycotoxins (aflatoxins, ochratoxin A), pyrrolizidine alkaloids, and pesticide residues (chlorpyrifos, ethylene oxide); heavy metals (Cd, Pb, Hg) are mentioned as bioaccumulating environmental contaminants but receive no quantitative treatment and no primary concentration data. The RASFF analysis identifies 1,133 notifications for herbs and spices over ten years, predominantly for mycotoxins and illegal dyes, with pepper and oregano as the most-notified products. The paper is funded through the EU-FORA EFSA Fellowship Programme.
+This 8-page conference proceedings paper from IECTO2024 (MDPI Proceedings) reviews chemical hazards in herbs and spices ("wild edible plants" in the authors' framing) consumed in Europe, drawing on a non-systematic literature search and on RASFF notification data from 2013 to 2023. The paper is primarily concerned with mycotoxins (aflatoxins, ochratoxin A), pyrrolizidine alkaloids (PAs), unauthorised dyes (Sudan I–IV), and pesticide residues (chlorpyrifos, ethylene oxide); heavy metals (Cd, Pb, Hg) appear in the RASFF chemical-hazard bar chart and in the abstract framing but receive no quantitative treatment and no primary concentration data. The RASFF analysis reports 1,133 notifications for herbs and spices over the ten-year window. The paper is funded through the EU-FORA EFSA Fellowship Programme.
 
 ## Key numbers
 
-- RASFF total notifications for herbs and spices (2013–2023): 1,133
-- Leading RASFF-notified hazards: mycotoxins (aflatoxins, ochratoxin A), pyrrolizidine alkaloids, illegal dyes (Sudan I–IV), pesticide residues
-- Chlorpyrifos RASFF notifications (2013–2023): 135; ethylene oxide: 104
-- Most notified spice/herb families: Lamiaceae (82), Piperaceae (50), Apiaceae (60), Solanaceae (17)
-- Most notified products: pepper (50 notifications), oregano (39 notifications)
-- Heavy metals (Cd, Pb, Hg): mentioned as bioaccumulators with no numerical data provided
+- RASFF total notifications for herbs and spices, 2013–2023: 1,133
+- Split: 89 RASFF notifications for spices, 120 for herbs (note: the totals partition only a subset of the 1,133 because the breakdown counts a single notification-type slice; see "Limitations" below)
+- Notification share by hazard class (Figure 2A): chemical hazards 58.0%, microbiological 32.0%, other 9.0% (read from pie chart; not tabulated)
+- Leading RASFF-notified chemical hazards (Figure 2A bar chart, ordered): cadmium, anthraquinone, lead, acetamiprid, benzo[a]pyrene, carbendazim, 2-chloroethanol, colourants, ochratoxin A, aflatoxin B1, pyrrolizidine alkaloids, ethylene oxide, chlorpyrifos (counts not tabulated; lengths read off bars)
+- Chlorpyrifos RASFF notifications, 2013–2023: 135
+- Ethylene oxide RASFF notifications, 2013–2023: 104
+- Plant-family alert counts (Figure 2B context, in-text): Lamiaceae 82, Apiaceae 60, Piperaceae 50, Solanaceae 17
+- Most-notified products: pepper, 50 notifications (Piperaceae); oregano, 39 notifications (Lamiaceae)
+- EFSA pyrrolizidine-alkaloid exposure benchmark cited: Margin of Exposure (MOE) of 1:10,000 calculated for 7 ng/kg bw/day, corresponding to ~500 ng PA/day for a 70 kg adult
+- Chlorpyrifos EU MRL since January 2020: 0.01 mg/kg for all food and feed (per Commission Regulation (EU) 2020/1085)
+- Cited analytical performance for pesticide multiresidue UHPLC-MS/MS in dried herbs: LOQ 0.005–0.100 mg/kg, recovery 70–120%
+- Cited analytical performance for PA detection by ultrasound-assisted dispersive-SPE + LC-MS/MS: LOQ 1 µg/kg, recovery 61–128%
+- Heavy metals (Cd, Pb, Hg): named in the abstract and visible in the Figure 2A chart but **no numerical concentration data, sampling, or analytical methods are reported for any metal**
 
 ## Methods (brief)
 
-Literature review via PubMed, Scopus, ScienceDirect, Google Scholar, and Web of Science, supplemented by EFSA data and RASFF notification analysis. Q1/Q2 journal articles prioritised. No original measurements. No LOD/LOQ reported. Conference proceedings format (8 pages); not a full systematic review.
+Narrative literature review via PubMed, Scopus, ScienceDirect, Google Scholar, and Web of Science, plus EFSA-published data and Rapid Alert System for Food and Feed (RASFF) notification analysis for 2013–2023. Authors state that Q1 and Q2 journal articles were prioritised. No systematic-review protocol (no PRISMA registration, no inclusion/exclusion criteria documented, no search strings disclosed). No primary measurements, no LOD/LOQ contributed, no sample digestion or instrument detail. Eight-page conference-proceedings format.
+
+## Limitations
+
+- The two main RASFF figure panels (Figure 2A pie/bar; Figure 2B by-product distribution) are presented graphically without an underlying tabulation, so individual hazard-by-hazard counts must be read off the bars. Counts cited above for individual hazards are imprecise to the bar resolution.
+- The 89-spices / 120-herbs total (209) does not equal 1,133, indicating the breakdown is over a sub-slice not defined in the text (likely a specific hazard category, but the figure caption does not clarify). Do not aggregate these numbers as if they partition the full notification corpus.
+- Heavy metals are listed as one of the hazard classes in the chart and named in the title, but the body of the paper contains no heavy-metals-specific section, no occurrence values, no concentration ranges, no exceedance counts, and no analytical details. This source contributes only the regulatory-landscape framing for herbs/spices contamination work; it does not contribute occurrence data for any metal.
+- Conference proceedings (IECTO2024); review is editorially selected but not full peer-reviewed in the journal-article sense.
 
 ## Implications
 
-**Certification:** Confirms that mycotoxins and pesticide residues are the dominant regulatory concerns for herbs and spices in Europe, with heavy metals a secondary concern in the RASFF notification record. Does not provide quantitative Pb/Cd/Hg data for HMT&C threshold-setting.
+**Certification:** Useful contextual evidence that mycotoxins, pyrrolizidine alkaloids, unauthorised dyes, and pesticide residues dominate the recent RASFF record for herbs and spices in the EU. Heavy metals appear in the chemical-hazard distribution but are a secondary signal in the regulator's recent enforcement attention. No quantitative concentration data are contributed for Pb, Cd, or Hg; this source should not be used as an occurrence reference for any metal.
 
-**Courses:** Useful context for the herbs and spices module framing the full spectrum of chemical hazards; heavy-metals angle is weak.
+**Courses:** Useful as a single-paper map of the European regulatory hazard landscape for herbs and spices — RASFF mechanics, dominant alert categories, and the EFSA MOE framing for PAs. Pair with a primary-data source (e.g., a heavy-metals occurrence study in spices) when teaching the heavy-metals angle.
 
-**App:** No concentration values usable for contamination profile updates.
+**App:** No concentration values usable for ingredient `contamination_profile` updates.
+
+## Verification notes
+
+- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance): page was originally created 2026-05-14 in the kimi-cond05 batch ingest with generic `raw_handle: manual-fetch-kimi`, a truncated `raw_path`, and a Certification implications line that referenced "HMT&C threshold-setting" by name. Phase 1 fixes:
+  - Set per-PDF `raw_handle: MFK_assessment-of-the-chemical-hazards-in-herbs-consum`.
+  - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch Kimi ") matching the on-disk path.
+  - Added `raw_sha256` and `access_url`.
+  - Added `tier_rationale` documenting why this is B, not A, given the conference-proceedings format and absence of primary data.
+  - Cleaned the Certification implications line to remove the explicit "HMT&C threshold-setting" phrasing (Part 2 wiki/HMTc-firewall hygiene); the underlying point — that this source contributes no quantitative heavy-metals data — is preserved.
+  - Expanded Key numbers to cite the 89-spice / 120-herb partition, the pie-chart hazard split, the RASFF hazard ordering, the EFSA PA MOE benchmark, the chlorpyrifos EU MRL, and the cited analytical performance figures for the two main methods this paper highlights. Added an explicit "Limitations" section documenting the figure-read imprecision and the unexplained 209-vs-1,133 partition.
+- The original RASFF totals (1,133; 135 chlorpyrifos; 104 EtO), the plant-family counts (Lamiaceae 82, Apiaceae 60, Piperaceae 50, Solanaceae 17), and the pepper-50/oregano-39 product counts were verified against the page text and Figure 2 caption on a re-read; numbers are unchanged.
+- DOI, title, authors, year, publication, license, and source_type were unchanged.
 
 ## Wiki pages updated on ingest
 
 - [[ingredients/herbs-and-spices]]
+- [[products/spices]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/mercury]]
