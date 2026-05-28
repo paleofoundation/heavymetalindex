@@ -1,87 +1,125 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_mineral-constituents-of-conserved-white-button-mus
 cite_key: pankavec2019-pickled-mushrooms-poland-minerals
 title: "Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences"
 authors: [Pankavec S, Hanć A, Barałkiewicz D, Dryżałowska A, Zhang J, Falandysz J]
 year: 2019
 publication: "Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene)"
 doi: 10.32394/rpzh.2019.0051
+access_url: "https://doi.org/10.32394/rpzh.2019.0051"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY-NC 3.0 PL"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Mineral constituents of conserved white button mushrooms (Agaricu.pdf"
-metals: [Pb, Cd, tHg, tAs, Ni, Al, Cr, U, Sb]
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Mineral constituents of conserved white button mushrooms (Agaricus bisporus) - pickled_canned.pdf"
+raw_sha256: "dc384816afece3c55aa2830567b4e653bbadcb3f86dcd680d1905981b1a233b0"
+metals: [Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V]
 ingredients: ["[[ingredients/mushrooms]]"]
 products: ["[[products/canned-mushrooms]]", "[[products/pickled-mushrooms]]"]
 matrices: [pickled-mushrooms, canned-mushrooms, conserved-mushrooms]
 jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 100
-sample_population: "100 unit packages of commercially available pickled white button mushrooms (Agaricus bisporus) from 6 manufacturers sold in Gdańsk, Poland; 10 batches total; sampled 2016"
-updated: 2026-05-14
+sample_population: "100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers sold in Gdańsk, Poland; 10 product batches total (80 packages in glass jars from Notre Jardin, Ole, Rolnik, Urbanek, Smak; 20 in cans from Bonduelle); sampled 2016"
+updated: 2026-05-28
 ---
 
 # Pankavec et al. 2019 — Mineral constituents of commercially pickled white button mushrooms (Poland)
 
-This study characterised the multi-element composition of commercially conserved white button mushrooms (Agaricus bisporus) available on the Polish market, measuring 23 elements including the toxicologically critical analytes Hg, As, Cd, Pb, Ni, Al, Cr, Sb, Tl, and U across 100 packages from 10 product batches from six manufacturers. The central finding is that industrial pickling substantially reduces concentrations of toxic metals relative to fresh mushrooms: pickled A. bisporus contained median Pb of 0.072 mg/kg dry mass (dm), Cd 0.040 mg/kg dm, Hg 0.043 mg/kg dm, and As 0.030 mg/kg dm — all well below the EU limits of 0.30 mg/kg dm for Pb and 0.20 mg/kg dm for Cd. Significant inter-producer variability was observed for several elements, particularly Li, As, Rb, Sr, Ag, Ba, and Cs, which the authors attribute to differences in marinade quality rather than mushroom substrate, consistent with principal component analysis findings.
+This study characterised the multi-element composition of commercially conserved (pickled and canned) white button mushrooms (Agaricus bisporus) available on the Polish market in 2016, measuring 23 elements — Hg, Li, Mg, Al, Co, Ni, Cu, As, Se, Rb, Sr, Ag, Cd, Cs, Sb, Tl, Pb, U, Ba, Cr, Zn, Mn, V — across 100 unit packages drawn from 10 product batches and six manufacturers. The toxicologically critical analytes Pb, Cd, tHg, and tAs were present at overall medians of 0.072, 0.040, 0.043, and 0.030 mg/kg dry mass (dm) respectively, all well below the EU maximum levels of 0.30 mg/kg fresh weight (fw) for Pb and 0.20 mg/kg fw for Cd in cultivated Agaricus bisporus under Commission Regulation (EC) No 629/2008 (which, assuming the paper's ~90% moisture conversion, correspond to roughly 3.0 and 2.0 mg/kg dm). Significant inter-producer variability was observed for Li, As, Rb, Sr, Ag, Ba, and Cs (PC1 of the PCA, 42% of total variance), which the authors attribute to differences in marinade quality (water, salt, vinegar) rather than mushroom substrate. Industrial conserving substantially reduces toxic-element content relative to fresh A. bisporus, particularly for tAs (roughly 10-fold reduction attributed to water-soluble arsenical species leaching during blanching and pickling) and Cd/Pb (roughly an order of magnitude lower medians than fresh).
 
 ## Key numbers
 
-All values reported as mg/kg dry mass (dm), assuming approximately 90% moisture content in fresh mushrooms; EU limits apply to fresh weight (fw): 0.30 mg/kg fw for Pb = 3.0 mg/kg dm; 0.20 mg/kg fw for Cd = 2.0 mg/kg dm.
+All values reported as mg/kg dry mass (dm). The paper assumes approximately 90% moisture content in fresh mushrooms when comparing to fresh-weight regulatory limits; the conversions below use that assumption.
 
-Overall median values across all 10 batches (Table 2):
+Overall median values across all 10 batches (Table 2, with paper text confirming As, Hg, Cd, Ag, Pb, Co, Mn, Cu medians):
 
-| Element | Overall median (mg/kg dm) | Range of per-batch medians |
-|---------|--------------------------|---------------------------|
+| Element | Overall median (mg/kg dm) | Range of per-batch medians (mg/kg dm) |
+|---------|--------------------------|---------------------------------------|
 | As (total) | 0.030 | 0.006–0.19 |
 | Hg (total) | 0.043 | 0.028–0.065 |
 | Cd | 0.040 | 0.020–0.080 |
 | Pb | 0.072 | 0.006–0.18 |
 | Ag | 0.020 | 0.002–0.090 |
-| Sb | 0.015 (approx.) | variable per batch |
-| Tl | 0.001–0.002 (approx.) | below detection in some batches |
 | U | 0.001 | 0.0004–0.003 |
 | Ni | 1.0 | 0.10–1.1 |
+| Co | 0.015 | 0.004–0.02 |
 | Al | 2.8 | 1.4–24 |
 | Cr | 0.20 | 0.071–0.88 |
+| V | 0.020 | 0.007–0.059 |
 | Se | 0.60 | 0.19–1.6 |
-| Co | 0.015 | 0.004–0.02 |
+| Mg | 330 | 220–560 |
+| Mn | 3.0 | 2.4–4.8 |
+| Cu | 10 | 8.3–19 |
+| Zn | 26 | 13–71 |
+| Li | 0.045 | 0.01–0.40 |
+| Cs | 0.15 (see verification note) | 0.004–0.02 |
+| Rb | 1.8 | 1.1–4.1 |
+| Ba | 0.65 | 0.40–2.9 |
+| Sr | 2.7 | 1.6–11 |
 
-Batch 1 (Notre Jardin sliced) showed statistically elevated Li, As, Rb, Sr, Ag, Cs, Ba (PC1, 42% of variance) — interpreted as marinade-quality contribution, not substrate contamination. Batch 9 (Ole natural marinade, whole) showed elevated Se, Cr, Zn. Batches 5 and 7 had relatively elevated Cd and Hg (PC5).
+Sb and Tl were measured but the paper does not report overall medians. Sb was detectable in roughly half the batches at per-batch medians of about 0.001–0.009 mg/kg dm; Tl was at or near detection (≈0.001–0.002 mg/kg dm) with "WD" (without data) in several batches. See Table 2 for per-batch detail.
 
-Comparison with fresh A. bisporus: fresh mushrooms in Poland showed Cd 0.36 ± 0.47 mg/kg dm, Pb 0.54 ± 0.54 mg/kg dm, Hg 0.069–0.11 mg/kg dm — roughly an order of magnitude higher than in pickled product for Cd and Pb, and approximately 1.5–2x higher for Hg. As in fresh A. bisporus (Poland): 0.63 ± 0.37 mg/kg dm, vs < 0.05 mg/kg dm detected in pickled (sliced and whole) — roughly a 10-fold reduction, attributed to water-soluble arsenical species (arsenobetaine, monomethylarsonic acid, etc.) leaching during blanching and pickling.
+Batch ID 1 (Notre Jardin Pieds et Morceaux — "Pieczarki marynowane krojone", pickled champignon sliced) showed statistically elevated Li, As, Rb, Sr, Ag, Cs, and Ba (PC1, 42% of total variance) — the authors interpret these as a marinade-quality contribution (water, vinegar, salt mineral content), not substrate contamination. Batch ID 9 (Ole — "Pieczarki w zalewie naturalnej cale", a whole champignons in a natural marinate) showed elevated Se, Cr, Zn (PC2, 19%). Batch ID 2 (Notre Jardin 1er Choix Entiers — "Pieczarki marynowane cale", pickled a whole champignons) showed elevated Al, U, V (PC3, 18%). Batch ID 4 (Bonduelle — "Pieczarki marynowane", pickled champignons; canned) showed elevated Mn (PC4, 8.9%). Batches ID 5 and 7 had relatively elevated Cd and Hg (PC5, 5.6%).
 
-Aluminum showed the widest inter-batch variability (1.4 to 24 mg/kg dm), with the highest Al batch attributed to marinade quality (Al is not efficiently leached from mushrooms during marinating).
+Comparison with fresh A. bisporus (from the paper's literature comparison): fresh Polish A. bisporus showed Cd 0.36 ± 0.47 mg/kg dm (range 0.08–1.2), Pb 0.54 ± 0.54 mg/kg dm (range 0.15–27), Ag 0.19 ± 0.05 mg/kg dm — roughly an order of magnitude higher than the conserved medians in this study. Fresh A. bisporus (Poland) tAs was 0.63 ± 0.37 mg/kg dm versus < 0.05 mg/kg dm in sliced and whole pickled product in this study (roughly a 10-fold reduction). Fresh Hg in Polish A. bisporus has been reported at 0.069, 0.080, 0.11 mg/kg dm (n = 3); this study's conserved-mushroom median (0.043 mg/kg dm) is roughly half that level.
 
-EU regulatory reference: Commission Regulation (EC) No 629/2008 amending 1881/2006 sets Cd ≤ 0.20 mg/kg fw and Pb ≤ 0.30 mg/kg fw for cultivated Agaricus bisporus. All batches in this study were well below these limits.
+Aluminum showed the widest inter-batch variability (overall median 2.8 mg/kg dm, batch medians 1.4–24 mg/kg dm). The authors attribute the high-Al batch to marinade quality, noting that Al is not efficiently leached from mushrooms during industrial marinating.
+
+EU regulatory reference: Commission Regulation (EC) No 629/2008 amending 1881/2006 sets cultivated Agaricus bisporus maximum levels at 0.20 mg/kg fw for Cd and 0.30 mg/kg fw for Pb (paper §"As, Hg, Cd, Ag, Pb and Se", referencing the 2.0 and 3.0 mg/kg dm equivalents assuming 90% moisture). All 10 batches in this study were well below these limits on both bases.
 
 ## Methods
 
-ICP-MS DRC (PE Sciex ELAN 6100 DRC II) for 20 elements including As, Cd, Pb, Ni, Al, Cr, U, Sb, Tl; CV-AAS (MA-2000, Nippon Instruments) for Hg. Samples from 10 product batches representing 6 manufacturers; 80 packages in glass jars, 20 (Bonduelle) in cans. Lyophilised and ground to fine powder before microwave acid digestion (65% HNO3, PTFE vessels, CEM MARSXpress). QA/QC using Polish reference materials CS-M-2 (Agaricus campestris) and CS-M-3 (Boletus edulis). PCA (Statistica v8.0, Varimax rotation) on 18 elements and 10 batches. Methods validated per earlier publications by the same group. Published in Roczniki PZH (Annals of National Institute of Hygiene), a peer-reviewed public health journal indexed in major databases.
+ICP-MS DRC (PerkinElmer SCIEX ELAN 6100 DRC II, dynamic reaction chamber with NH3 and O2 reaction gases) for 22 elements; CV-AAS thermal-decomposition direct mercury analyser (MA-2000, Nippon Instruments Corporation, Takatsuki, Japan) for Hg. Sample preparation: drained mushrooms were rinsed in 10% HNO3-soaked / DI-water-rinsed glassware, frozen at −30 °C, lyophilised (Steris LYOVAC GT2), and ground to fine powder in porcelain mortars. Subsamples of 300–400 mg were digested in 5 ml concentrated HNO3 (65%, Suprapur, Merck) in closed PTFE vessels under microwave (CEM MARSXpress: 1.2 kW, ramp 1–10 min to 100 °C, hold 1–10 min, ramp 2–10 min to −800 psi, hold 2–10 min at 100 °C, 5 min cooling); digests diluted to 10 ml with double-deionised water. Internal standards: 45Sc, 74Ge, 103Rh, 159Tb. QA/QC verified using Polish certified reference materials CS-M-2 (dried Agaricus campestris powder) and CS-M-3 (dried Boletus edulis powder), Institute of Nuclear Chemistry and Technology, Warsaw.
 
-Basis: dry mass. Moisture content assumed approximately 90% for conversion to fresh-weight regulatory comparisons.
+Sampling design: 10 product batches representing 6 manufacturers (Notre Jardin × 2, Bonduelle × 2, Rolnik, Urbanek, Smak × 2, Ole × 2). 80 unit packages were in glass jars and 20 (Bonduelle) in cans; samples were drawn randomly from retail shops in the city of Gdańsk in 2016.
+
+Statistical analysis: Statistica v8.0 (StatSoft). Principal Component Analysis with Varimax rotation on 18 elements × 10 batches; factor-loading thresholds 0.75 (strong), 0.75–0.5 (moderate), 0.5–0.3 (weak). Five statistically significant PCs accounted for 93% of variability.
+
+Basis: dry mass throughout. The paper performs fresh-weight conversions where comparing to EU limits or external studies, using an assumed ≈ 90% moisture content for fresh A. bisporus.
 
 ## Implications
 
-Certification: Conserved/pickled mushrooms are a low-risk product for Pb, Cd, Hg, and As relative to EU limits. The pickling process itself functions as a decontamination step (10-fold reduction in As, substantial reductions in Pb and Cd versus fresh). The source of inter-batch variability lies in marinade quality (water, vinegar, salt mineral content), not primarily in mushroom substrate. Brands sourcing from sub-optimal marinade ingredients may show elevated Li, Rb, Cs, As, and Al.
+Certification: Conserved/pickled mushrooms appear to be a low-risk product for the four primary regulated analytes (Pb, Cd, tHg, tAs) on the Polish market under this 2016 sampling. The pickling process itself functions as a partial decontamination step: water-soluble arsenical species and ionic Cd/Pb leach into the marinade during blanching and brining, yielding roughly 10-fold lower tAs and order-of-magnitude lower Cd/Pb medians relative to fresh A. bisporus. The dominant within-product variability source is marinade quality (water, vinegar, salt mineral composition), not mushroom substrate. Al is the highest-concentration non-essential element (per-batch medians up to 24 mg/kg dm) and is not efficiently removed by pickling.
 
-Courses: Strong illustration of how food processing (industrial pickling) materially changes heavy metal risk profiles. Also illustrates the substrate vs. marinade sourcing question as a quality-control lever for conserved mushroom products.
+Courses: Strong worked example for "processing changes the heavy-metal risk profile" — useful for teaching the distinction between substrate-driven contamination (mushroom growing medium) and processing-driven contamination (marinade ingredients). The PC1 vs PC2 vs PC3 vs PC4 vs PC5 decomposition illustrates how analytical chemistry plus PCA can attribute contamination to ingredient inputs vs raw material.
 
-App: Pickled/conserved mushrooms can be assigned low-risk contamination profiles for Pb, Cd, Hg, and As based on this study. Inter-producer variability (up to ~10x for some elements within-batch) means lot-level variation is real and relevant. Al is the highest-concentration contaminant and is driven by marinade quality.
+App: Pickled and canned white button mushrooms can be assigned low-risk contamination profiles for Pb, Cd, tHg, and tAs on the basis of this study, with the caveat that inter-batch variability of up to roughly 10× was observed for several elements (Li, As, Rb, Sr, Ag, Ba, Cs). Al is the highest-concentration trace contaminant and is driven by marinade quality. Lot-to-lot variation is real and relevant for any per-serving estimator.
 
-Microbiome: Not addressed in this source.
+Microbiome: Not addressed.
+
+## Verification notes
+
+- 2026-05-28: Merge-enhanced from 2026-05-14 ingest. Corrected legacy `raw_handle` (`manual-fetch-kimi` → `MFK_mineral-constituents-of-conserved-white-button-mus`); restored truncated `raw_path` (was `(Agaricu.pdf`; now full filename); added `raw_sha256` (`dc384816afece3c55aa2830567b4e653bbadcb3f86dcd680d1905981b1a233b0`) and `access_url`; broadened `metals:` from `[Pb, Cd, tHg, tAs, Ni, Al, Cr, U, Sb]` to the full set of 21 measured metals with HMI metal pages (added Ag, Tl, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V).
+- 2026-05-28: Removed fabricated Sb overall-median value (prior page stated "Sb 0.015 (approx.)" but the paper does not report an overall Sb median in either the abstract, results text, or Conclusions; Table 2 shows Sb measured in only ~4 batches with per-batch medians of about 0.001–0.009 mg/kg dm and "WD" in others). Reworded as a per-batch range with explicit "WD" caveat. Same treatment applied to Tl. Added per-batch median ranges for the remaining elements that were previously absent from the Key numbers table (V, Mg, Mn, Cu, Zn, Li, Cs, Rb, Ba, Sr) directly from Table 2.
+- 2026-05-28: Corrected unit error in opening paragraph — prior version said "EU limits of 0.30 mg/kg dm for Pb and 0.20 mg/kg dm for Cd"; the EU limits are 0.30 and 0.20 mg/kg **fresh weight** (fw), which the paper converts to ≈ 3.0 and ≈ 2.0 mg/kg dm under a 90%-moisture assumption.
+- 2026-05-28: Added PC2/PC3/PC4 batch attributions that were absent in the prior version (Batch ID 2 → Al/U/V, Batch ID 4 → Mn, etc.) per Table 3 and the PCA discussion.
+- 2026-05-28: Confirmed CC BY-NC 3.0 PL licence from the article's published declaration on the final page.
+- 2026-05-28: Apparent paper-internal contradiction on Cs overall median. The §"Li, Cs and Rb" paragraph (p. 18) states "the Li and Cs with medians respectively in the range 0.01 to 0.40 and 0.004 to 0.02 mg kg⁻¹ dm (the overall medians 0.045 and 0.15 mg kg⁻¹ dm)." For Li the per-batch median range (0.01–0.40) and the overall median (0.045) are consistent; for Cs an overall median of 0.15 sits roughly an order of magnitude above the stated per-batch median range of 0.004–0.02 and cannot be reconciled with Table 2. The Cs overall median is most likely "0.015" (consistent with the per-batch range) and the printed "0.15" is a missing-zero typo, but rather than silently correct the published number this page reports the value as the paper printed it and flags the inconsistency. Downstream users should treat the Cs overall median as approximately 0.005–0.015 mg/kg dm and not propagate the printed 0.15.
 
 ## Wiki pages updated on ingest
 
-- [[ingredients/mushrooms]]
-- [[products/canned-mushrooms]]
+- [[ingredients/mushrooms]] — provisional scaffold (created during this ingest; freq-8 across corpus)
+- [[products/canned-mushrooms]] — provisional scaffold (created during this ingest)
+- [[products/pickled-mushrooms]] — provisional scaffold (created during this ingest)
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/mercury]]
-- [[metals/arsenic]]
-- [[metals/nickel]]
-- [[metals/aluminium]]
-- [[metals/chromium]]
+- [[metals/mercury-total]]
+- [[metals/arsenic-total]]
+- [[metals/silver]]
+- [[metals/antimony]]
+- [[metals/thallium]]
 - [[metals/uranium]]
+- [[metals/nickel]]
+- [[metals/aluminum]]
+- [[metals/chromium]]
+- [[metals/cobalt]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/manganese]]
+- [[metals/magnesium]]
+- [[metals/vanadium]]
+- [[metals/lithium]]
+- [[metals/cesium]]
+- [[metals/barium]]
 - [[regulations/eu-ec-629-2008]]
