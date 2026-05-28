@@ -379,3 +379,53 @@ No ingest, no re-audit, no commit on this tick.
   - All identity checks resolve to the same already-ingested page.
 
 Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all three skip conditions hold. No ingest, no re-audit, no commit on this tick. The wrapper script should advance to the next candidate PDF in `condiment_papers/04_Condiments_and_Sauces` and is free to dispose of the duplicate `04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf` (collapsing to the canonical vegetables-folder copy) if a cleanup pass is desired.
+
+## STOP: suaebu2024-coffee-grounds-cd-adsorbent-leachate — out of HMI scope (wastewater-treatment engineering, not food contamination)
+
+- **PDF:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2024_10-11591-ijaas-v13-i3-pp673-679.pdf`
+- **Suggested handle:** `AF_gap-coffee-cd-2024-10-11591-ijaas-v13-i3-pp673-679`
+- **Existing source page:** none (DOI `10.11591/ijaas.v13.i3.pp673-679` grep → 0 hits; handle grep → 0 hits; no `2024 + ijaas` cite-key match in `wiki/sources/`)
+- **Paper identification:** Suaebu S, Rasjid A, Suryadi I (2024), "Adsorbent from coffee grounds to reduce cadmium concentration in leachate water," *International Journal of Advances in Applied Sciences (IJAAS)* 13(3): 673–679. DOI 10.11591/ijaas.v13.i3.pp673-679. Open access CC BY-SA. Poltekkes Kemenkes Makassar, Indonesia.
+
+**Why this is a stop, not an ingest — out of HMI scope:**
+
+The paper studies *spent coffee grounds (SCG) as an adsorbent material* for removing cadmium from landfill leachate water at the Tamangapa Landfill in Makassar City, Indonesia. It is a wastewater-treatment / environmental-remediation engineering study, not a food-contamination study.
+
+- The "subject" being measured is leachate water from a municipal landfill, not coffee-as-consumed and not any food product, ingredient, or personal-care product HMI tracks.
+- Coffee grounds appear here as a *treatment material* (a low-cost biosorbent), not as a contaminated commodity. The experimental setup carbonizes coffee grounds at 120 °C, then dopes them into Cd-spiked landfill leachate to measure Cd removal. The wiki cares about Cd *in* coffee that consumers drink; this paper cares about Cd *removed by* coffee waste in a wastewater pipe.
+- Per CLAUDE.md Part 4 and Part 25 (out of scope): "no original lab procedures" and wiki's evidence base is "heavy metals food-and-supply-chain literature" — adsorbent-engineering kinetics from waste-management research falls outside both.
+
+**Discovery-system false positive:**
+
+The "gap-coffee-cd_2024" filename prefix indicates the `discover` skill auto-fetched this paper while filling a gap-driven query for "coffee + Cd" occurrence data. The query matched on the words "coffee" and "cadmium" appearing together in the abstract; it did not detect that the coffee in question is *waste material being repurposed as a remediation sorbent*, not coffee as a beverage. This is a known false-positive mode for keyword-driven gap-fill discovery against engineering-journal databases (IJAAS is an applied-sciences engineering journal, not a food-science journal).
+
+**Paper-internal data-integrity issues (compounding, not the primary reason for stop):**
+
+Even if HMI scope were arguable, the paper's own data presentation is internally inconsistent:
+
+- **Table 1 ↔ Figure 3 swap.** Table 1 lists "Uncarbonized" treatment replicate values as 0.082 / 0.08 / 0.069 µg/L (max-removal column) with 18% / 2% / 11% removal, and "Carbonized" replicates as 0.057 / 0.051 / 0.048 µg/L with 43% / 6% / 3% removal. But §3 paragraph 1 of the text says "Cd level in each portion of *uncarbonized* coffee grounds experienced the greatest decrease… replication 1 of 0.057 µg/L" and "Cd level in each *carbonized* coffee grounds experienced the greatest decrease… replication 1 of 0.082 µg/L" — i.e., the *opposite* assignment from Table 1. Figure 3 (labeled "Coffe Ground Carbonized" with the typo) further shows Carbonized results = 0.018 / 0.02 / 0.031 with decreases 0.082 / 0.08 / 0.069, which matches Table 1's "Uncarbonized" row, not its "Carbonized" row. The carbonized-vs-uncarbonized labelling is irrecoverable from internal evidence alone.
+- **Unit error throughout.** Reported initial Cd in leachate = 0.100 µg/L = 0.0001 mg/L. Indonesian drinking-water Cd MAC is 0.005 mg/L = 5 µg/L; landfill-leachate regulated limits are typically higher (1–10 µg/L range). The paper's claim that 0.100 µg/L "exceeds the quality standard" is two-to-three orders of magnitude wrong if units are µg/L; the values make physical sense only if the actual units are mg/L mislabeled throughout. The Kruskal-Wallis p-value reported (0.017) is also described as ">0.05" in the same sentence ("p-value is 0.017>0.05") — internally contradictory.
+- **Typos in conclusion.** Conclusion §4 contains "Tarangapa Landfill, Makasar City" and "Tamangaka Landfill, Macassar City" referring to the same Tamangapa/Makassar location named consistently throughout §2-3.
+- **Conflated removal-percentage column.** Table 1's "Maximum removal" column for Uncarbonized rows shows 18% / 2% / 11% — these are not cumulative removal percentages relative to the 0.1 µg/L initial; if the residual is 0.082 µg/L, the removal is 18%, but if the residual is 0.080 µg/L the removal is 20% (not 2%), and 0.069 → 31% removal (not 11%). The percentages appear to be inter-replicate deltas or some other artifact, not the absorption-removal rate the column header claims.
+
+**Even setting scope aside, ingesting this would harm corpus quality:**
+
+- The paper has no usable Cd-in-food occurrence data (n=0 food samples).
+- The paper has no usable Cd-in-personal-care occurrence data (n=0 cosmetic samples).
+- The paper's coffee-grounds Cd-uptake data are not food-relevant: SCG is not consumed as a food (composting / sorbent / pet-food filler use cases exist, but the paper studies SCG in a wastewater context).
+- The paper's only food-adjacent claim is the boilerplate Cd-toxicity-via-food-chain sentence in §3 paragraph 11, which is uncited general toxicology and contributes no occurrence data.
+- Routing would land nowhere meaningful: there is no `wastewater-treatment` matrix, no `landfill-leachate` matrix, no `spent-coffee-grounds-sorbent` matrix in the HMI taxonomy — and adding those would expand the wiki's scope well past its stated mission.
+
+**Why a `discover`-skill false positive at this position in the auto-fetched/ folder:**
+
+This folder is full of `gap-coffee-cd_*` and `gap-coffee-pb_*` and `gap-coffee-tas_*` PDFs — the discover skill was filling Cd / Pb / tAs occurrence gaps for the coffee ingredient cell. Most of the other `gap-coffee-*` PDFs in this folder are likely the right scope (Cd / Pb / tAs *in coffee*); this one is the false positive where "coffee" refers to coffee grounds as a sorbent material, not coffee as a beverage. The other 2024-Cd paper in the folder (`gap-coffee-cd_2016_10-1038-jes-2015-86.pdf`) is the Jes-Hubbell paper which is in scope.
+
+**Recommended Karen action:**
+
+- Delete `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2024_10-11591-ijaas-v13-i3-pp673-679.pdf` from the auto-fetched queue so the daemon stops re-proposing it.
+- Optionally: add a discovery-skill filter to exclude IJAAS, IJESD, and similar applied-engineering journals from coffee/tea/cocoa-as-beverage gap queries (these journals carry biosorbent and water-treatment work that uses food-residue keywords without containing food-occurrence data). Could be a domain-block on `iaescore.com` for food-category gap queries specifically.
+- No follow-up needed if Karen simply prefers to discard. The paper has no HMI-relevant content under any framing.
+
+**What I did NOT do this tick:** no source page written, no merge-enhance, no routing audit run, no commit, no audit subagent spawn, no audit-queue entry. The PDF text was read in full (all 7 pages, including all 3 tables and all 3 figures) to confirm scope and data-integrity status; nothing else was written.
+
+Per SKILL.md Stop conditions ("Paper-internal contradiction or data-integrity issue that's not the obvious mirroring pattern" — applied here both for the Table 1 / text / Figure 3 carbonized/uncarbonized swap *and* for the out-of-scope discovery-system false positive), this is a stop. No ingest, no audit, no commit on this tick. Wrapper should advance to the next candidate PDF in `manual-fetch/seasonal-geographic-variance/auto-fetched/`.
