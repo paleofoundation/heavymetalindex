@@ -117,6 +117,24 @@ const FOOD_DOMAIN_TERMS = [
   "food matrix", "food sample", "food samples", "foodstuff", "foodstuffs",
   "agricultural product", "agricultural products",
   "human consumption", "for consumption",
+  // Dietary supplements (Cat 16)
+  "dietary supplement", "dietary supplements", "multivitamin", "multivitamins",
+  "vitamin supplement", "mineral supplement", "fish oil", "omega-3", "omega-6",
+  "probiotic", "probiotics", "prebiotic", "amino acid supplement",
+  "protein powder", "collagen", "herbal supplement", "botanical supplement",
+  "softgel", "capsule", "gummy supplement", "supplement bar",
+  "nutraceutical", "USP supplement", "NSF supplement", "DSHEA",
+  // Pet food + supplements (Cat 17, 18)
+  "pet food", "dog food", "cat food", "puppy food", "kitten food",
+  "kibble", "dry pet food", "wet pet food", "raw pet food", "freeze-dried pet",
+  "pet treat", "pet treats", "dental chew", "pet topper", "pet supplement",
+  "veterinary nutraceutical", "aafco", "fediaf",
+  // Food-contact + kitchenware (Cat 7, 23) — these touch food, so food-domain
+  "cookware", "bakeware", "kitchenware", "tableware", "food packaging",
+  "food contact material", "food contact substance", "21 cfr 174",
+  "ceramicware", "glassware", "stoneware", "earthenware",
+  "lead glaze", "glazed ceramic", "food storage container",
+  "migration into food", "leaching into food", "kitchen utensil",
 ]
 
 function foodDomainScore(haystack) {
@@ -177,26 +195,54 @@ function durableGoodsDomainScore(haystack) {
   return hits
 }
 
-// Personal-care domain terms (Category 2 — cosmetics, lotions, sunscreens,
-// shampoos, deodorants). Distinct from food because consumption is dermal
-// + inhalation, not ingestion; distinct from durable goods because the
-// matrix is a chemical formulation, not a manufactured object.
+// Personal-care domain terms (Categories 2, 13, 14, 15, 20 — cosmetics
+// leave-on, cosmetics rinse-off, oral care, feminine hygiene, children's
+// personal care). Distinct from food because primary exposure is dermal /
+// oral-mucosal / inhalation, not ingestion; distinct from durable goods
+// because the matrix is a chemical formulation, not a manufactured object.
 const PERSONAL_CARE_DOMAIN_TERMS = [
+  // Cosmetics (Cat 2, 13, 14)
   "cosmetic", "cosmetics", "makeup", "make-up", "make up",
-  "lipstick", "lip balm", "lip gloss", "mascara", "eyeshadow", "eye shadow",
-  "foundation", "concealer", "blush", "bronzer", "powder",
-  "lotion", "moisturizer", "moisturiser", "cream", "balm", "salve",
+  "lipstick", "lip balm", "lip gloss", "lip stain", "mascara",
+  "eyeshadow", "eye shadow", "eyeliner", "eye liner",
+  "foundation", "concealer", "blush", "bronzer", "highlighter",
+  "lotion", "moisturizer", "moisturiser", "cream", "balm", "salve", "serum",
   "shampoo", "conditioner", "hair dye", "hair color", "hair colour",
-  "deodorant", "antiperspirant", "perfume", "fragrance",
+  "hair gel", "hair spray", "leave-in conditioner",
+  "deodorant", "antiperspirant", "perfume", "fragrance", "cologne",
   "sunscreen", "sunblock", "spf", "uv filter",
-  "toothpaste", "mouthwash",
-  "soap", "body wash", "facial wash", "cleanser",
-  "henna", "kohl", "surma", "sindoor",
+  "soap", "body wash", "facial wash", "face wash", "cleanser",
+  "henna", "kohl", "surma", "sindoor", "kajal",
   "talc", "talcum",
   "skin care", "skincare", "skin-care", "skin lightening", "skin whitening",
-  "personal care", "personal-care", "personal hygiene",
+  "leave-on cosmetic", "rinse-off cosmetic",
+  "personal care", "personal-care", "personal hygiene", "personal-hygiene",
+  "nail polish", "nail varnish", "nail lacquer",
+  // Oral care (Cat 20)
+  "toothpaste", "tooth paste", "mouthwash", "mouth rinse", "oral rinse",
+  "dental floss", "interdental cleaner", "toothbrush", "tooth brush",
+  "tongue cleaner", "tongue scraper", "denture cleaner", "denture adhesive",
+  "whitening strip", "whitening product", "oral irrigator", "water flosser",
+  "breath freshener", "breath mint", "oral care",
+  // Feminine care (Cat 15)
+  "tampon", "tampons", "menstrual pad", "menstrual pads", "sanitary pad",
+  "sanitary napkin", "menstrual cup", "menstrual disc", "panty liner",
+  "period underwear", "period panty", "intimate wash", "intimate cleanser",
+  "feminine wipe", "feminine wash", "feminine deodorant", "vaginal douche",
+  "feminine hygiene", "menstrual hygiene",
+  // Children's personal care (Cat 2 specifics)
+  "baby lotion", "baby oil", "baby powder", "baby shampoo", "baby wash",
+  "baby wipe", "baby wipes", "diaper cream", "diaper rash",
+  "baby sunscreen", "children's sunscreen", "kids sunscreen",
+  "children cosmetic", "children's cosmetic", "children makeup",
+  "children nail polish", "face paint", "children lip balm",
+  // Exposure pathways
   "dermal absorption", "skin absorption", "skin penetration",
+  "oral mucosal absorption", "transmucosal", "lip ingestion",
+  // Regulatory framing
   "FDA cosmetic", "EU cosmetic", "1223/2009",
+  "Health Canada cosmetic", "cosmetic ingredient hotlist",
+  "ADA accepted", "ISO 11609", "ISO 18193",
 ]
 
 function personalCareDomainScore(haystack) {
@@ -207,17 +253,64 @@ function personalCareDomainScore(haystack) {
   return hits
 }
 
-// Cleaning products domain (Cat 6) — small but real corpus.
+// Cleaning products domain (Categories 6, 12, 19 — household cleaners,
+// dishwashing, laundry detergents + fabric-contact products).
 const CLEANING_DOMAIN_TERMS = [
-  "cleaning product", "household cleaner", "detergent", "laundry detergent",
-  "dishwashing", "dish soap", "all-purpose cleaner", "disinfectant",
-  "bleach", "stain remover", "drain cleaner", "oven cleaner",
+  // Household cleaners (Cat 6, 12)
+  "cleaning product", "cleaning products", "household cleaner", "household cleaners",
+  "detergent", "all-purpose cleaner", "multi-surface cleaner",
+  "disinfectant", "sanitizer", "bleach", "chlorine bleach",
+  "stain remover", "drain cleaner", "oven cleaner", "toilet cleaner",
+  "glass cleaner", "tile cleaner", "floor cleaner", "wood cleaner",
   "household chemical", "consumer chemical",
+  // Dishwashing (Cat 12)
+  "dishwashing", "dish soap", "dish detergent", "dishwasher detergent",
+  "dishwasher pod", "rinse aid",
+  // Laundry + fabric-contact (Cat 19)
+  "laundry detergent", "laundry pod", "fabric softener", "dryer sheet",
+  "stain remover", "pre-treater", "pre-wash", "color-safe bleach",
+  "anti-static", "anti-wrinkle", "wrinkle release", "fabric protectant",
+  "fabric refresher", "fabric finish", "starch", "sizing",
+  "laundry booster", "laundry additive",
+  // Regulatory framing
+  "EPA Safer Choice", "EU Detergents Regulation", "Green Seal cleaning",
 ]
 
 function cleaningDomainScore(haystack) {
   let hits = 0
   for (const term of CLEANING_DOMAIN_TERMS) {
+    if (haystack.includes(term)) hits++
+  }
+  return hits
+}
+
+// Inhalation-adjacent products domain (Category 22 — scented candles,
+// incense, air fresheners, fragrance diffusers, wax melts, room sprays).
+// Exposure pathway is inhalation of emissions / particulates / volatiles
+// from combustion or evaporation. Distinct from personal-care (no direct
+// dermal application) and from cleaning (not applied to surfaces for
+// removal of soil) and from durable-goods (the active product is the
+// fragrance compound, not the container).
+const INHALATION_DOMAIN_TERMS = [
+  "scented candle", "candle emission", "candle smoke", "candle particulate",
+  "incense", "incense stick", "incense cone", "incense smoke", "incense emission",
+  "air freshener", "air-freshener", "air fragrance",
+  "fragrance diffuser", "reed diffuser", "essential oil diffuser",
+  "nebula diffuser", "plug-in air freshener", "wall plug-in",
+  "wax melt", "wax warmer", "wax cube", "wax tart",
+  "potpourri", "sachet",
+  "room spray", "room fragrance", "fabric spray",
+  "indoor air quality", "indoor air emission", "indoor air pollution",
+  "VOC emission", "volatile organic compound", "particulate matter emission",
+  "combustion particulate", "burning emission",
+  "inhalation exposure", "respiratory exposure", "inhaled particulate",
+  "fragrance emission", "scented product emission",
+  "ASTM E2952", "candle safety",
+]
+
+function inhalationDomainScore(haystack) {
+  let hits = 0
+  for (const term of INHALATION_DOMAIN_TERMS) {
     if (haystack.includes(term)) hits++
   }
   return hits
@@ -501,7 +594,8 @@ async function queryPubMed(q, searchTerms, fetchOne) {
     const durableHits = durableGoodsDomainScore(haystack)
     const personalCareHits = personalCareDomainScore(haystack)
     const cleaningHits = cleaningDomainScore(haystack)
-    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits)
+    const inhalationHits = inhalationDomainScore(haystack)
+    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits, inhalationHits)
     const negativeHits = matchedNegatives(haystack)
 
     const oaUrl = pmcId ? `${PMC_FULLTEXT_URL}/PMC${pmcId}/pdf/` : ""
@@ -511,7 +605,7 @@ async function queryPubMed(q, searchTerms, fetchOne) {
       relevance_score: score, positive_score: positiveScore,
       negative_penalty: penalty, negative_hits: negativeHits.join("; "),
       food_hits: foodHits,
-      domain_match: durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : foodHits > 0 ? "food" : "none",
+      domain_match: durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : inhalationHits > 0 ? "inhalation" : foodHits > 0 ? "food" : "none",
       title, doi, year, journal, oa_url: oaUrl,
       cited_by_count: 0,  // PubMed's EFetch doesn't return cite counts
       already_indexed: alreadyIndexed ? "true" : "false",
@@ -613,8 +707,9 @@ for (let i = startIndex; i < queries.length; i += 1) {
     const durableHits = durableGoodsDomainScore(haystack)
     const personalCareHits = personalCareDomainScore(haystack)
     const cleaningHits = cleaningDomainScore(haystack)
-    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits)
-    const domainMatch = durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : foodHits > 0 ? "food" : "none"
+    const inhalationHits = inhalationDomainScore(haystack)
+    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits, inhalationHits)
+    const domainMatch = durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : inhalationHits > 0 ? "inhalation" : foodHits > 0 ? "food" : "none"
 
     const oaUrl = work.open_access?.oa_url ?? ""
     const row = {

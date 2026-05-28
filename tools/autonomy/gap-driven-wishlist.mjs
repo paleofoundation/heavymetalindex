@@ -83,7 +83,7 @@ const CELL_FULL_THRESHOLD = 8
 // — that silently rejected every Cat 10 (durable goods + textiles)
 // candidate before download.
 const REGULATORY_BODIES = [
-  // Food authorities
+  // ─── Food authorities (Cat 1, 3, 4, 5, 7, 16, 17, 18, 23) ───
   { name: "FDA total diet study",                  context_term: "food",     domain: "food"          },
   { name: "EFSA scientific opinion",               context_term: "food",     domain: "food"          },
   { name: "WHO JECFA",                             context_term: "food",     domain: "food"          },
@@ -91,7 +91,21 @@ const REGULATORY_BODIES = [
   { name: "EFSA CONTAM panel dietary exposure",    context_term: "dietary",  domain: "food"          },
   { name: "Codex Alimentarius CCCF",               context_term: "food",     domain: "food"          },
   { name: "FDA Closer to Zero",                    context_term: "food",     domain: "food"          },
-  // Durable goods + textiles authorities (Cat 8, 9, 10)
+  // Dietary supplements (Cat 16)
+  { name: "FDA DSHEA dietary supplement",          context_term: "supplement",        domain: "food"          },
+  { name: "USP 2232 dietary supplement",           context_term: "supplement",        domain: "food"          },
+  { name: "NSF dietary supplement certification",  context_term: "supplement",        domain: "food"          },
+  { name: "AHPA herbal supplement",                context_term: "herbal supplement", domain: "food"          },
+  // Pet food/supplements (Cat 17, 18)
+  { name: "AAFCO pet food",                        context_term: "pet food",          domain: "food"          },
+  { name: "FDA Center for Veterinary Medicine",    context_term: "pet food",          domain: "food"          },
+  { name: "FEDIAF pet food",                       context_term: "pet food",          domain: "food"          },
+  // Food-contact materials (Cat 7, 23)
+  { name: "FDA 21 CFR 174 food contact substance", context_term: "food contact",      domain: "food"          },
+  { name: "EU Regulation 1935/2004 food contact",  context_term: "food contact",      domain: "food"          },
+  { name: "EU 10/2011 plastics food contact",      context_term: "food packaging",    domain: "food"          },
+  { name: "BfR recommendation food contact",       context_term: "food contact",      domain: "food"          },
+  // ─── Durable goods + textiles authorities (Cat 8, 9, 10, 21) ───
   { name: "CPSC Consumer Product Safety",          context_term: "consumer product",  domain: "durable-goods" },
   { name: "16 CFR 1303 lead-in-paint",             context_term: "paint",             domain: "durable-goods" },
   { name: "ASTM F963 toy safety",                  context_term: "toy",               domain: "durable-goods" },
@@ -99,12 +113,32 @@ const REGULATORY_BODIES = [
   { name: "CPSIA Consumer Product Safety Improvement Act", context_term: "children product", domain: "durable-goods" },
   { name: "ECHA REACH SVHC",                       context_term: "consumer product",  domain: "durable-goods" },
   { name: "ATSDR toxicological profile exposure",  context_term: "exposure",          domain: "durable-goods" },
-  // Personal care + cosmetics authorities (Cat 2)
+  // Arts and crafts (Cat 21)
+  { name: "ASTM D-4236 art material",              context_term: "art material",      domain: "durable-goods" },
+  { name: "LHAMA art material labeling",           context_term: "art material",      domain: "durable-goods" },
+  // Textiles (Cat 8, 19)
+  { name: "OEKO-TEX Standard 100 textile",         context_term: "textile",           domain: "durable-goods" },
+  // ─── Personal care + cosmetics authorities (Cat 2, 13, 14) ───
   { name: "FDA cosmetics heavy metals",            context_term: "cosmetic",          domain: "personal-care" },
   { name: "EU Cosmetics Regulation 1223/2009",     context_term: "cosmetic",          domain: "personal-care" },
   { name: "Health Canada cosmetic ingredient hotlist", context_term: "cosmetic",      domain: "personal-care" },
-  // Cleaning products (Cat 6) — small but real authority set
-  { name: "EPA cleaning product",                  context_term: "household",         domain: "cleaning"      },
+  { name: "ASEAN cosmetic directive",              context_term: "cosmetic",          domain: "personal-care" },
+  // Oral care (Cat 20)
+  { name: "ADA accepted toothpaste",               context_term: "toothpaste",        domain: "personal-care" },
+  { name: "ISO 11609 toothpaste",                  context_term: "toothpaste",        domain: "personal-care" },
+  { name: "FDA OTC monograph oral",                context_term: "oral care",         domain: "personal-care" },
+  // Feminine care (Cat 15)
+  { name: "FDA 510k tampon medical device",        context_term: "tampon",            domain: "personal-care" },
+  { name: "ISO 18193 tampon",                      context_term: "feminine hygiene",  domain: "personal-care" },
+  // ─── Cleaning products (Cat 6, 12, 19) ───
+  { name: "EPA Safer Choice cleaning product",     context_term: "cleaning product",  domain: "cleaning"      },
+  { name: "EU Detergents Regulation 648/2004",     context_term: "detergent",         domain: "cleaning"      },
+  { name: "Green Seal cleaning product",           context_term: "cleaning product",  domain: "cleaning"      },
+  // ─── Home air + inhalation (Cat 22) ───
+  { name: "EPA indoor air quality",                context_term: "indoor air",        domain: "inhalation"    },
+  { name: "ASTM E2952 incense",                    context_term: "incense",           domain: "inhalation"    },
+  { name: "WHO indoor air quality",                context_term: "indoor air",        domain: "inhalation"    },
+  { name: "CARB consumer product air quality",     context_term: "consumer product air", domain: "inhalation" },
 ]
 const HMTC_ANALYTES = ["Pb", "Cd", "iAs", "tAs", "tHg", "MeHg", "Ni", "Al", "Cr-VI", "Sn"]
 // Coverage-rotation budget per run. Sprint mode 2026-05-25 bumped 600 → 2500
@@ -144,16 +178,28 @@ const METAL_KEYWORDS = {
 
 // HMTc category → context modifiers (used as additional search-term suffixes)
 const HMTC_CATEGORY_CONTEXT = {
-  1: ["infant food", "baby food", "young child food"], // Infant and Child Foods
-  2: ["cosmetic safety", "personal care product", "children product safety"], // Children Personal Care
-  3: ["food contaminant", "dietary exposure"], // generic food category
-  4: ["produce contamination", "fruit vegetable heavy metal"], // Fruits/Vegetables/Produce
-  5: ["beverage contaminants", "drink heavy metal"], // Beverages
-  6: ["cleaning product safety", "household chemical"], // Cleaning products (when scaffolded)
-  7: ["cookware leaching", "food contact material"], // Cookware
-  8: ["textile heavy metals", "infant textile safety", "children textile lead", "fabric dye metals"], // Bedding/clothing
-  9: ["toy heavy metals", "children product safety", "painted toy lead", "plastic toy migration"], // Toys/art/craft
+  1:  ["infant food", "baby food", "young child food"], // Infant and Child Foods
+  2:  ["children personal care", "cosmetic safety", "infant skincare", "baby cosmetic", "children product safety"], // Children Personal Care
+  3:  ["food contaminant", "dietary exposure"], // generic food category
+  4:  ["produce contamination", "fruit vegetable heavy metal"], // Fruits/Vegetables/Produce
+  5:  ["beverage contaminants", "drink heavy metal"], // Beverages
+  6:  ["cleaning product safety", "household chemical"], // Cleaning products
+  7:  ["cookware leaching", "food contact material"], // Cookware
+  8:  ["textile heavy metals", "infant textile safety", "children textile lead", "fabric dye metals"], // Bedding/clothing
+  9:  ["toy heavy metals", "children product safety", "painted toy lead", "plastic toy migration"], // Toys/art/craft
   10: ["durable good heavy metals", "infant product lead paint", "children furniture cadmium", "stroller car seat heavy metals", "mouthing exposure infant product"], // Infant and Child Durable Goods and Textiles
+  12: ["dishwashing detergent heavy metals", "household cleaner contamination", "all-purpose cleaner metals", "EPA Safer Choice cleaning"], // Household Cleaning and Dishwashing
+  13: ["cosmetic leave-on heavy metals", "face cream foundation metals", "makeup heavy metals", "color cosmetic contamination"], // Cosmetics — Leave-on
+  14: ["rinse-off cosmetic heavy metals", "shampoo conditioner metals", "body wash heavy metals", "shower gel contamination"], // Cosmetics — Rinse-off
+  15: ["feminine hygiene heavy metals", "tampon menstrual pad metals", "menstrual product contamination", "intimate care metals"], // Feminine Care
+  16: ["dietary supplement heavy metals", "vitamin mineral supplement contamination", "herbal supplement metals", "USP NSF supplement"], // Dietary Supplements (Human)
+  17: ["pet food heavy metals", "dog food cat food contamination", "AAFCO pet food", "kibble heavy metals"], // Pet Foods
+  18: ["pet supplement heavy metals", "veterinary nutraceutical metals", "pet vitamin contamination"], // Pet Supplements
+  19: ["laundry detergent heavy metals", "fabric softener metals", "laundry chemical contamination", "stain remover metals"], // Laundry and Fabric-Contact Home Products
+  20: ["toothpaste heavy metals", "mouthwash fluoride metals", "oral care product contamination", "dental product lead"], // Oral Care
+  21: ["toy paint heavy metals", "art craft material lead", "modeling clay heavy metals", "crayon paint set contamination", "ASTM D-4236 art material", "LHAMA art material"], // Children's Toys, Arts and Crafts
+  22: ["scented candle heavy metals", "incense burning emissions", "air freshener contamination", "fragrance diffuser metals", "indoor air emission product"], // Home Air and Inhalation-Adjacent Products
+  23: ["cookware leaching heavy metals", "food contact material migration", "kitchenware lead cadmium", "ceramicware glaze metals", "food packaging migration", "21 CFR 174 food contact"], // Food-Contact Consumer Goods and Kitchenware
 }
 
 // HMTc category → discovery DOMAIN. Determines which domain-term list the
@@ -164,9 +210,28 @@ const HMTC_CATEGORY_CONTEXT = {
 // (infant durable goods + textiles) at 0 sources across the entire
 // category despite the fetcher running thousands of queries.
 const HMTC_CATEGORY_DOMAIN = {
-  1: "food", 2: "personal-care", 3: "food", 4: "food", 5: "food",
-  6: "cleaning", 7: "food", 8: "durable-goods", 9: "durable-goods",
-  10: "durable-goods",
+  1:  "food",
+  2:  "personal-care",
+  3:  "food",
+  4:  "food",
+  5:  "food",
+  6:  "cleaning",
+  7:  "food",          // cookware studies measure metal in food
+  8:  "durable-goods", // bedding/clothing
+  9:  "durable-goods", // toys/art/craft
+  10: "durable-goods", // infant durable goods + textiles
+  12: "cleaning",      // household cleaning + dishwashing
+  13: "personal-care", // cosmetics leave-on
+  14: "personal-care", // cosmetics rinse-off
+  15: "personal-care", // feminine care
+  16: "food",          // dietary supplements (human, ingested)
+  17: "food",          // pet foods (ingested, food terms apply)
+  18: "food",          // pet supplements
+  19: "cleaning",      // laundry + fabric-contact
+  20: "personal-care", // oral care (toothpaste, mouthwash, floss)
+  21: "durable-goods", // toys + arts + crafts
+  22: "inhalation",    // home air + inhalation-adjacent (NEW DOMAIN)
+  23: "food",          // food-contact consumer goods (measure migration into food)
 }
 
 // Infer the discovery domain from a product slug + hmtc_category frontmatter
@@ -177,9 +242,20 @@ function inferDomain(productSlug, hmtcCategory) {
   if (!isNaN(catNum) && HMTC_CATEGORY_DOMAIN[catNum]) return HMTC_CATEGORY_DOMAIN[catNum]
   // Slug-name heuristics for pages without an hmtc_category frontmatter
   const s = (productSlug || "").toLowerCase()
-  if (/^(cosmetic|lotion|shampoo|cream|lipstick|mascara|sunscreen|deodorant|personal-care)/.test(s)) return "personal-care"
-  if (/^(toy|crib|stroller|car-seat|bib|infant-clothing|blanket|sleep-sack|high-chair|play-yard|swing|bouncer|walker|mattress|textile|fabric)/.test(s)) return "durable-goods"
-  if (/^(detergent|cleaner|bleach|disinfectant|cleaning)/.test(s)) return "cleaning"
+  // Inhalation-adjacent (Cat 22)
+  if (/^(scented-|incense|air-product|air-freshen|diffuser|reed-|capillary-|candle|potpourri|sachet|wax-melt|wax-block|puff-releas|nebula-|electric-plug|heated-oil|home-air|vacuum-cleaner-fragrance)/.test(s)) return "inhalation"
+  // Personal-care (Cat 2, 13, 14, 15, 20)
+  if (/^(cosmetic|lotion|shampoo|conditioner|cream|lipstick|lip-balm|mascara|eyeliner|eyeshadow|foundation|concealer|blush|bronzer|sunscreen|sunblock|deodorant|antiperspirant|perfume|fragrance|body-wash|face-wash|cleanser|soap|toothpaste|mouthwash|mouth-rinse|floss|toothbrush|tongue-cleaner|whitening|denture|oral-irrig|breath-freshen|baby-lotion|baby-oil|baby-powder|baby-shampoo|baby-talcum|baby-wipe|baby-sunscreen|diaper-cream|face-paint|childrens-makeup|childrens-nail|childrens-lip|menstrual|tampon|feminine|intimate-wash|douche|period-underwear|personal-care)/.test(s)) return "personal-care"
+  // Durable goods / toys / textiles (Cat 8, 9, 10, 21)
+  if (/^(toy|toys|crib|bassinet|stroller|car-seat|carseat|bib|infant-clothing|blanket|sleep-sack|swaddle|high-chair|play-yard|swing|bouncer|walker|rocker|mattress|pillow|textile|fabric|onesie|pajama|pacifier|art-craft|art-material|craft-material|crayon|modeling-clay|clasps-fasteners|piercing-post)/.test(s)) return "durable-goods"
+  // Cleaning (Cat 6, 12, 19)
+  if (/^(laundry|fabric-softener|fabric-protect|fabric-refresh|fabric-contact|pre-treat|stain-remov|bleach|whitening-additive|anti-static|anti-wrinkle|detergent|cleaner|disinfect|dishwash|all-purpose)/.test(s)) return "cleaning"
+  // Pet foods + supplements (Cat 17, 18) — domain food (ingested by animal)
+  if (/^pet-/.test(s)) return "food"
+  // Dietary supplements (Cat 16) — domain food (ingested)
+  if (/^supplements?-/.test(s)) return "food"
+  // Food-contact consumer goods / kitchenware (Cat 23) — domain food (measure migration into food)
+  if (/^(cookware|bakeware|cutting-board|food-packaging|food-prep|food-storage|tableware|utensils|water-filter|filter-media)/.test(s)) return "food"
   return "food"
 }
 
