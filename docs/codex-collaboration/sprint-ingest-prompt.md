@@ -9,7 +9,7 @@ The prompt below is the canonical version. Karen pastes it verbatim. The 25–30
 ## The prompt (paste this)
 
 ```
-GOAL: drain raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ to ≤10 PDFs. The wishlist fetcher in the daemon is producing 100–250 PDFs/hour into this folder. You are the primary consumer; the daemon does not ingest this folder. Stop only when the folder is ≤10 OR a named hard blocker fires (see ESCALATION below). No time budget. No "feels enough." No self-invented stop criteria.
+GOAL: drain raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ to 0 PDFs. The wishlist fetcher in the daemon is producing 100–250 PDFs/hour into this folder. You are the primary consumer alongside the Claude/Opus daemon, which picks up residuals at a hard per-tick cap of 3 PDFs as of 2026-05-28 (see tools/autonomy/ingest-manual-fetch-batch.mjs). Stop only when the folder is empty OR a named hard blocker fires (see ESCALATION below). No time budget. No "feels enough." No self-invented stop criteria. The earlier "drain to ≤10" threshold (pre-2026-05-28) left residuals stuck indefinitely: Codex would no-op on every fire whenever the queue dropped below 10, while the daemon also skipped this folder. Both ends now drain to zero.
 
 STEP 1 — SNAPSHOT. First tool call:
   ls raw/manual-fetch/seasonal-geographic-variance/auto-fetched/*.pdf > /tmp/codex-snapshot-$(date +%s).txt

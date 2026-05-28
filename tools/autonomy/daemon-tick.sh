@@ -33,6 +33,32 @@ if [[ -f "$STOP_FILE" ]]; then
   exit 0
 fi
 
+# ---------- PID lock (added 2026-05-28 after observing 3 concurrent ticks
+#                       in one day: 09:30, 10:04, 10:46. Concurrent ticks
+#                       race on the tracker CSV, the routing audit CSV,
+#                       and `git pull --rebase`. Each tick may also spawn
+#                       up to 15 claude --print subprocesses, so two
+#                       concurrent ticks = up to 30 simultaneous nested
+#                       Opus sessions = real cost waste plus race on the
+#                       same auto-fetched/Kimi PDFs.)
+#
+# The lock file holds the PID of the current tick. If the file exists AND
+# the PID is still alive, exit immediately. If the file is stale (PID dead),
+# overwrite and proceed.
+LOCK_FILE="$REPO_ROOT/data/evidence/autonomy/daemon.lock"
+if [[ -f "$LOCK_FILE" ]]; then
+  OTHER_PID=$(cat "$LOCK_FILE" 2>/dev/null || echo "")
+  if [[ -n "$OTHER_PID" ]] && kill -0 "$OTHER_PID" 2>/dev/null; then
+    echo "[$(date)] Another daemon tick is running (PID $OTHER_PID); exiting without work." | tee -a "$LOG_FILE"
+    exit 0
+  fi
+  # Stale lock — log and continue.
+  echo "[$(date)] Stale lock file (PID $OTHER_PID no longer alive); claiming lock." | tee -a "$LOG_FILE"
+fi
+echo "$$" > "$LOCK_FILE"
+# Ensure lock is released on any exit path (success, error, or signal).
+trap 'rm -f "$LOCK_FILE"' EXIT INT TERM
+
 cd "$REPO_ROOT"
 
 # ---------- Function helpers ----------
