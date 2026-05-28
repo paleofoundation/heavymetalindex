@@ -44,6 +44,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import crypto from "node:crypto"
 import { spawnSync } from "node:child_process"
 
 const repoRoot = process.cwd()
@@ -296,9 +297,56 @@ const succeeded = []
 const stopped = []
 const failed = []
 
+// Pre-spawn dedup index built once per batch. Reads raw_sha256: from every
+// wiki/sources/*.md so we can short-circuit byte-identical duplicates before
+// paying for a ~75k-token claude --print spawn. Catches the dehghani2020 /
+// kim2018 / Kimi-double-grab cases (multiple wishlist sweeps pulling the
+// same PDF under different filenames). The full DOI/raw_handle/cite-key
+// identity check inside the skill still runs for non-byte-identical dupes.
+function buildSha256Index() {
+  const sourcesDir = path.join(repoRoot, "wiki/sources")
+  const index = new Map()
+  if (!fs.existsSync(sourcesDir)) return index
+  for (const file of fs.readdirSync(sourcesDir)) {
+    if (!file.endsWith(".md")) continue
+    const text = fs.readFileSync(path.join(sourcesDir, file), "utf8")
+    // Read frontmatter only; raw_sha256: appears in the YAML head.
+    const head = text.slice(0, 4000)
+    const m = head.match(/^raw_sha256:\s*([a-f0-9]{64})/m)
+    if (m) index.set(m[1], file.replace(/\.md$/, ""))
+  }
+  return index
+}
+
+function computeFileSha256(filepath) {
+  try {
+    return crypto.createHash("sha256").update(fs.readFileSync(filepath)).digest("hex")
+  } catch {
+    return null
+  }
+}
+
+const sha256Index = buildSha256Index()
+console.log(`Pre-spawn dedup index: ${sha256Index.size} sources have raw_sha256 frontmatter`)
+
 for (const candidate of candidates) {
   console.log(`\n[${candidates.indexOf(candidate) + 1}/${candidates.length}] ${candidate.pdfPath}`)
   console.log(`  handle: ${candidate.handle}`)
+
+  // Cheap pre-spawn byte-identical dedup. ~50ms per PDF vs ~5-10min for a
+  // claude --print spawn that would inevitably STOP on the same finding.
+  const sha = computeFileSha256(path.join(repoRoot, candidate.pdfPath))
+  if (sha && sha256Index.has(sha)) {
+    const existing = sha256Index.get(sha)
+    const entry = tracker.get(candidate.pdfPath)
+    entry.lastTick = tickTimestamp
+    entry.status = "stopped"
+    entry.notes = `Pre-spawn dedup: byte-identical to ${existing} (sha256:${sha.slice(0, 16)}…)`.slice(0, 200)
+    stopped.push({ ...candidate, reason: `byte-identical to ${existing}` })
+    console.log(`  STOP (pre-spawn): byte-identical to ${existing}`)
+    saveTracker(tracker)
+    continue
+  }
 
   const prompt = buildPrompt(candidate)
   const result = invokeClaude(prompt, candidate)

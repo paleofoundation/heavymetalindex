@@ -54,7 +54,63 @@ const CONCURRENT_FETCHES = 5
 //   2026-05-25 evening: 2 → 1 (back off; the title.search switch alone is
 //                       the bigger precision lever, threshold=2 stacked on
 //                       top swung too far. Iterate one knob at a time).
-const DOWNLOAD_THRESHOLD = 1
+//   2026-05-28: 1 → 2 (auto-fetched-hygiene-2026-05-27 showed 148/167 =
+//                       88.6% waste rate. Added FOOD_DOMAIN_HARD_GATE
+//                       below — a paper must contain at least one food-
+//                       domain term to pass, regardless of metal hits.
+//                       Threshold raised back to 2 to stack with the gate.)
+const DOWNLOAD_THRESHOLD = 2
+
+// Food-domain hard gate (2026-05-28). The wishlist queries are food-oriented
+// but OpenAlex returns plenty of papers that match metal + region without
+// being about food (sediment chemistry, drinking-water contamination, blood
+// biomonitoring, occupational exposure, soil-metal bioavailability, etc.).
+// We require AT LEAST ONE explicit food-domain term match before fetching.
+// If a candidate's title+abstract has zero food-domain hits, it's rejected
+// regardless of how well it matches the metal/region terms. This catches the
+// "no-heavy-metal-data" (63 PDFs) + "not-food-occurrence" (49 PDFs) skip
+// buckets at the source instead of paying the download + ingest classify
+// cost downstream.
+const FOOD_DOMAIN_TERMS = [
+  // generic food/diet
+  "food", "diet", "dietary", "consumption", "consumed", "consumer", "consumers",
+  "ingest", "ingested", "intake", "meal", "meals", "menu", "edible",
+  "ready-to-eat", "ready to eat", "rte ",
+  // commodity classes
+  "cereal", "grain", "grains", "rice", "wheat", "oat", "oats", "barley", "corn",
+  "maize", "sorghum", "millet", "quinoa", "buckwheat",
+  "vegetable", "vegetables", "fruit", "fruits", "leafy", "tuber", "root crop",
+  "potato", "carrot", "tomato", "lettuce", "spinach", "cabbage", "broccoli",
+  "apple", "banana", "berry", "berries", "pear", "grape", "citrus",
+  "meat", "poultry", "beef", "pork", "chicken", "lamb", "veal",
+  "fish", "seafood", "shellfish", "tuna", "salmon", "shrimp", "mollusc",
+  "dairy", "milk", "cheese", "yogurt", "yoghurt", "butter", "cream",
+  "egg ", "eggs ",
+  "infant formula", "baby food", "baby foods", "infant cereal",
+  "supplement", "supplements", "vitamin", "vitamins",
+  "spice", "spices", "herb", "herbs", "tea", "coffee", "cocoa", "chocolate",
+  "wine", "beer", "juice", "beverage", "beverages", "drinking water",
+  "oil ", "oils ", "olive oil", "vegetable oil",
+  "vinegar", "ketchup", "sauce", "condiment",
+  "honey", "syrup", "sugar",
+  "nut ", "nuts ", "almond", "walnut", "peanut", "legume", "bean ", "beans ",
+  // food-system contexts
+  "market", "supermarket", "retail", "consumer market", "store-bought",
+  "total diet study", "tds", "market basket",
+  "fao", "codex alimentarius", "efsa", "fda food", "usda",
+  "food safety", "food contamination", "food quality", "food chain",
+  "food matrix", "food sample", "food samples", "foodstuff", "foodstuffs",
+  "agricultural product", "agricultural products",
+  "human consumption", "for consumption",
+]
+
+function foodDomainScore(haystack) {
+  let hits = 0
+  for (const term of FOOD_DOMAIN_TERMS) {
+    if (haystack.includes(term)) hits++
+  }
+  return hits
+}
 
 // Metal alias table — mirrors METAL_SPECS in tools/wishlist/parse-wishlist.mjs.
 // Used to score paper abstracts against ALL synonyms of a metal, not just the
@@ -135,6 +191,25 @@ const NEGATIVE_KEYWORDS = [
   // pure ecology / soil-only / non-food applications
   "sediment ecology", "bioindicator species", "mining tailings remediation",
   "soil microbial community", "soil contamination assessment",
+  // water / drinking-water / occupational / air — major skip categories per
+  // auto-fetched-hygiene-2026-05-27 (49 not-food-occurrence skips).
+  // Drinking water bottled-for-consumption studies are sometimes legitimate
+  // (see FOOD_DOMAIN_TERMS) but environmental water-quality assessments are not.
+  "groundwater contamination", "drinking water quality",
+  "surface water", "river water", "river sediment", "lake sediment",
+  "estuarine sediment", "marine sediment", "coastal sediment",
+  "occupational exposure", "workplace exposure", "smelter workers",
+  "battery workers", "lead-acid", "battery recycling",
+  "air pollution", "particulate matter", "pm2.5 exposure", "atmospheric deposition",
+  "fly ash", "incinerator", "indoor dust", "household dust", "settled dust",
+  "e-waste", "electronic waste", "wastewater", "sewage sludge",
+  // soil-bioavailability papers using crops as accumulators (study about soil
+  // mobility / uptake mechanism, not retail food occurrence)
+  "soil-to-plant transfer", "soil-plant transfer", "transfer factor",
+  "bioaccumulation factor", "translocation factor",
+  // veterinary / wildlife / aquaculture-environment (not retail food)
+  "wild bird", "wild mammal", "marine mammal", "wildlife exposure",
+  "veterinary drug", "veterinary residue", "aquaculture environment",
   // nutrition reviews not specific to contamination
   "nutritional value of", "nutritional composition",
   "tea drinking culture", "tea ceremony",
@@ -281,6 +356,7 @@ for (let i = startIndex; i < queries.length; i += 1) {
     const penalty = negativeScore(haystack)
     const score = positiveScore + penalty
     const negativeHits = matchedNegatives(haystack)
+    const foodHits = foodDomainScore(haystack)
 
     const oaUrl = work.open_access?.oa_url ?? ""
     const row = {
@@ -291,6 +367,7 @@ for (let i = startIndex; i < queries.length; i += 1) {
       positive_score: positiveScore,
       negative_penalty: penalty,
       negative_hits: negativeHits.join("; "),
+      food_hits: foodHits,
       title: work.title ?? "",
       doi: doi || "",
       year: work.publication_year ?? "",
@@ -310,6 +387,15 @@ for (let i = startIndex; i < queries.length; i += 1) {
     } else if (!oaUrl) {
       row.decision = "skip:no-oa-url"
       totalSkippedNoOa += 1
+      audit.push(row)
+    } else if (foodHits === 0) {
+      // Food-domain hard gate (2026-05-28): a candidate with zero food-domain
+      // term hits is not a food-occurrence paper, no matter how well it
+      // matches metals/regions. Rejecting before download saves bandwidth,
+      // disk, and the downstream classify-and-skip ingest spawn (~75k tokens
+      // per spawn). See FOOD_DOMAIN_TERMS and the 2026-05-27 hygiene report.
+      row.decision = "skip:no-food-domain-terms"
+      totalSkippedWeak += 1
       audit.push(row)
     } else if (score < DOWNLOAD_THRESHOLD) {
       row.decision = score === 0 ? "skip:no-keyword-overlap" : "review:weak-match"
@@ -395,6 +481,7 @@ writeCsv(auditPath, audit, [
   "positive_score",
   "negative_penalty",
   "negative_hits",
+  "food_hits",
   "already_indexed",
   "title",
   "doi",
