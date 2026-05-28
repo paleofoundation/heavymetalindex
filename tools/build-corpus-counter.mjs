@@ -29,6 +29,8 @@ const homepagePath = path.join(repoRoot, "wiki/index.md")
 
 const beginMarker = "<!-- BEGIN: hmi-corpus-counter -->"
 const endMarker = "<!-- END: hmi-corpus-counter -->"
+const featureBeginMarker = "<!-- BEGIN: hmi-feature-grid -->"
+const featureEndMarker = "<!-- END: hmi-feature-grid -->"
 
 // Source-type normalization map. The on-disk vocabulary has accumulated
 // spelling drift over time; the counter normalizes to a canonical set so
@@ -163,8 +165,10 @@ if (fs.existsSync(routingAuditPath)) {
 
 const today = new Date().toISOString().slice(0, 10)
 const block = renderBlock(counts, today)
+const featureBlock = renderFeatureGrid(counts)
 
 upsertHomepageBlock(homepagePath, block)
+upsertFeatureGridBlock(homepagePath, featureBlock)
 console.log(
   `Wrote corpus counter: ${counts.source_pages_total} source pages (${counts.source_peer_reviewed} peer-reviewed, ${counts.source_government} government, ${counts.source_databases_indexed} databases, ${counts.source_evidence_tier_a} A-tier), ${counts.ingredient_pages} ingredients, ${counts.product_pages} products, ${counts.metal_pages} metals, ${counts.regulation_pages} regulations, ${counts.structured_value_records} structured records, ${counts.routing_rows} routing rows, ${counts.jurisdictions_indexed} jurisdictions.`,
 )
@@ -224,6 +228,49 @@ function fmt(value) {
   return new Intl.NumberFormat("en-US").format(value)
 }
 
+function renderFeatureGrid(c) {
+  return `${featureBeginMarker}
+<section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
+  <div class="hmi-home-feature-card">
+    <span>${fmt(c.product_pages)} pages</span>
+    <h2><a href="products/">Products</a></h2>
+    <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
+    <div class="hmi-home-card-meta">Consumer-facing categories</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>${fmt(c.ingredient_pages)} pages</span>
+    <h2><a href="ingredients/">Ingredients</a></h2>
+    <p>Ingredient-level profiles for rice, cocoa, fish, vegetables, grains, and formula inputs.</p>
+    <div class="hmi-home-card-meta">Commodity drivers</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>${fmt(c.metal_pages)} pages</span>
+    <h2><a href="metals/">Metals</a></h2>
+    <p>Per-metal summaries for lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, tin, and more.</p>
+    <div class="hmi-home-card-meta">Metal profiles</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>${fmt(c.regulation_pages)} pages</span>
+    <h2><a href="regulations/">Regulations</a></h2>
+    <p>Agency values, action levels, tolerable intakes, and jurisdiction-specific regulatory references.</p>
+    <div class="hmi-home-card-meta">Thresholds and agencies</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>${fmt(c.source_pages_total)} pages</span>
+    <h2><a href="sources/">Sources</a></h2>
+    <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
+    <div class="hmi-home-card-meta">Traceable evidence</div>
+  </div>
+  <div class="hmi-home-feature-card">
+    <span>Transparency</span>
+    <h2><a href="coverage/">Coverage</a></h2>
+    <p>PRISMA-equivalent literature flow, taxonomy coverage, and what's still pending. The defensibility surface.</p>
+    <div class="hmi-home-card-meta">Editorial standards · methodology</div>
+  </div>
+</section>
+${featureEndMarker}`
+}
+
 function countMarkdownPages(dir, skipFiles) {
   if (!fs.existsSync(dir)) return 0
   const skip = new Set(skipFiles)
@@ -231,6 +278,13 @@ function countMarkdownPages(dir, skipFiles) {
     .readdirSync(dir)
     .filter((file) => file.endsWith(".md") && !skip.has(file))
     .filter((file) => !file.startsWith("_"))
+    .filter((file) => {
+      // Exclude auto-generated cross-cut pages so the "Regulation pages" /
+      // "Product pages" / etc. counts reflect atomic items, not derived views.
+      const raw = fs.readFileSync(path.join(dir, file), "utf8")
+      const fm = matter(raw).data
+      return fm.auto_generated !== true
+    })
     .length
 }
 
@@ -263,6 +317,16 @@ function upsertHomepageBlock(filePath, block) {
     }
   }
 
+  if (next === text) return
+  fs.writeFileSync(filePath, next, "utf8")
+}
+
+function upsertFeatureGridBlock(filePath, block) {
+  if (!fs.existsSync(filePath)) return
+  const text = fs.readFileSync(filePath, "utf8")
+  const pattern = new RegExp(`${escapeRegExp(featureBeginMarker)}[\\s\\S]*?${escapeRegExp(featureEndMarker)}`)
+  if (!pattern.test(text)) return
+  const next = text.replace(pattern, block)
   if (next === text) return
   fs.writeFileSync(filePath, next, "utf8")
 }

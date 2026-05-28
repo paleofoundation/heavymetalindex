@@ -379,7 +379,7 @@ function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 }
 
-function buildRetrievalOnlyAnswer(context) {
+function buildRetrievalOnlyAnswer(context, reason = "no_gateway_key") {
   // Dedupe slugs while preserving rank order.
   const seen = new Set()
   const slugs = []
@@ -389,7 +389,20 @@ function buildRetrievalOnlyAnswer(context) {
     if (slugs.length >= 6) break
   }
   const cited = slugs.map((slug) => `[[${slug}]]`).join(", ")
-  return `Heavy Metal Index found relevant pages. Model generation is not configured on this deployment; start with: ${cited}.`
+  const lead = reason === "gateway_unavailable"
+    ? "Ask the Index found cited Heavy Metal Index pages for your question, but the model generation service is temporarily unavailable. The most relevant pages, in rank order:"
+    : "Heavy Metal Index found relevant pages. Model generation is not configured on this deployment. Start with:"
+  return `${lead} ${cited}.`
+}
+
+function gatewayFailureLimit(status, body) {
+  if (status === 402 || /insufficient_funds/i.test(body)) {
+    return "Model generation is temporarily unavailable (AI Gateway billing). Showing retrieved Heavy Metal Index pages without a synthesized answer; click any source below to read the cited evidence directly."
+  }
+  if (status === 429) {
+    return "Model generation is rate-limited right now. Showing retrieved Heavy Metal Index pages without a synthesized answer; please try the question again in a moment."
+  }
+  return "Model generation is temporarily unavailable. Showing retrieved Heavy Metal Index pages without a synthesized answer."
 }
 
 function toClientCitation(item) {
@@ -457,6 +470,24 @@ async function streamGatewayResponse(res, question, retrieval, pageSlug) {
     }),
   })
 
+  // If the gateway request failed before we committed to SSE, degrade to a
+  // retrieval-only JSON response so the user still sees the cited pages.
+  // This catches the common 402 (insufficient_funds), 429 (rate-limited),
+  // and 5xx (provider outage) cases. Leaking the raw provider error string
+  // to a public reader is the failure mode we are avoiding here.
+  if (!upstream.ok || !upstream.body) {
+    const errText = upstream.body ? await safeReadText(upstream) : ""
+    console.warn(`AI Gateway upstream failed: status=${upstream.status} body=${errText.slice(0, 500)}`)
+    res.status(200).json({
+      mode: "retrieval_only",
+      answer: buildRetrievalOnlyAnswer(retrieval.context, "gateway_unavailable"),
+      confidence: "insufficient",
+      limits: gatewayFailureLimit(upstream.status, errText),
+      citations: retrieval.context.map(toClientCitation),
+    })
+    return
+  }
+
   // Set up SSE response headers and emit meta event.
   res.statusCode = 200
   res.setHeader("Content-Type", "text/event-stream; charset=utf-8")
@@ -470,14 +501,6 @@ async function streamGatewayResponse(res, question, retrieval, pageSlug) {
     citations: retrieval.context.map(toClientCitation),
   }
   res.write(`event: meta\ndata: ${JSON.stringify(meta)}\n\n`)
-
-  if (!upstream.ok || !upstream.body) {
-    const errText = upstream.body ? await safeReadText(upstream) : ""
-    res.write(`event: error\ndata: ${JSON.stringify({ status: upstream.status, body: errText.slice(0, 500) })}\n\n`)
-    res.write(`data: [DONE]\n\n`)
-    res.end()
-    return
-  }
 
   // Pipe upstream SSE chunks to the client unchanged. The Vercel AI Gateway
   // emits OpenAI-compatible SSE; clients consume delta chunks under

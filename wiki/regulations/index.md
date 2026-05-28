@@ -7,6 +7,13 @@ updated: 2026-05-03
 
 Regulation pages describe specific thresholds, action levels, and guidance from specific jurisdictions. Principal jurisdictions covered include the United States (Food and Drug Administration, Environmental Protection Agency, California Proposition 65, and state attorneys general), the European Union (European Food Safety Authority and the Commission Regulations on contaminants), the World Health Organization and Codex Alimentarius, and others where material appears in the literature. Every page preserves the exact value from the agency source; unit conversions are shown rather than concealed.
 
+## Cross-cut views
+
+Two auto-generated cross-cuts compose every regulation tracked below into a single comparison surface — start here if you are scanning across jurisdictions or across time rather than reading a specific regulation top-to-bottom.
+
+- [[regulations/by-jurisdiction]] — country/region × metal matrix. Brand-legal and regulatory-affairs readers comparing how different jurisdictions regulate the same metal land here.
+- [[regulations/timeline]] — chronological view of every dated regulation, grouped by decade. Shows the trajectory of the regulatory floor: when limits tightened, which superseded what, where international and US framings diverge.
+
 For the Category 1 lead comparison layer, start with [[products/lead-benchmark-context]]. It normalizes FDA, EU, Prop 65, and occurrence-context lead values into ppb while preserving each value's legal or evidentiary role.
 
 ## Australia/New Zealand Contaminants Maximum Levels

@@ -200,57 +200,57 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[ingredients/apple-cider-vinegar|Apple Cider Vinegar]]
-- [[ingredients/balsamic-vinegar|Balsamic Vinegar]]
-- [[ingredients/beverages|Beverages]]
-- [[ingredients/black-pepper|Black Pepper]]
+- [[ingredients/apple-cider-vinegar|Apple Cider Vinegar]] (5 sources)
+- [[ingredients/balsamic-vinegar|Balsamic Vinegar]] (4 sources)
+- [[ingredients/beverages|Beverages]] (6 sources)
+- [[ingredients/black-pepper|Black Pepper]] (3 sources)
 - [[ingredients/breast milk|Breast milk]]
-- [[ingredients/breastmilk|Breastmilk]]
-- [[ingredients/cabbage|Cabbage]]
-- [[ingredients/canned-tuna|Canned Tuna]]
-- [[ingredients/casein|Casein]]
-- [[ingredients/cashew-nuts|Cashew Nuts]]
-- [[ingredients/cashews|Cashews]]
-- [[ingredients/cereal-bars|Cereal Bars]]
-- [[ingredients/cinnamon|Cinnamon]]
-- [[ingredients/corn-oil|Corn Oil]]
-- [[ingredients/cucumbers|Cucumbers]]
-- [[ingredients/dried-herbs|Dried Herbs]]
-- [[ingredients/fresh-herbs|Fresh Herbs]]
-- [[ingredients/freshwater-fish|Freshwater Fish]]
-- [[ingredients/fruits|Fruits]]
-- [[ingredients/guava|Guava]]
-- [[ingredients/hazelnuts|Hazelnuts]]
-- [[ingredients/herbs-and-spices|Herbs And Spices]]
-- [[ingredients/leafy-vegetables|Leafy Vegetables]]
-- [[ingredients/legumes|Legumes]]
-- [[ingredients/maize|Maize]]
-- [[ingredients/mango|Mango]]
-- [[ingredients/mango-juice|Mango Juice]]
-- [[ingredients/meat-poultry|Meat Poultry]]
-- [[ingredients/olive-oil|Olive Oil]]
-- [[ingredients/olives|Olives]]
-- [[ingredients/parsley|Parsley]]
-- [[ingredients/peanut-oil|Peanut Oil]]
-- [[ingredients/pear-juice|Pear juice]]
-- [[ingredients/plums|Plums]]
-- [[ingredients/quinoa|Quinoa]]
-- [[ingredients/rapeseed-oil|Rapeseed Oil]]
-- [[ingredients/raspberries|Raspberries]]
-- [[ingredients/rice-bran-oil|Rice Bran Oil]]
-- [[ingredients/seaweed|Seaweed]]
-- [[ingredients/sesame-oil|Sesame Oil]]
-- [[ingredients/shark|Shark]]
-- [[ingredients/shellfish|Shellfish]]
-- [[ingredients/soybean-oil|Soybean Oil]]
-- [[ingredients/spices|Spices]]
-- [[ingredients/sunflower-oil|Sunflower Oil]]
-- [[ingredients/tea|Tea]]
-- [[ingredients/tomato-paste|Tomato Paste]]
-- [[ingredients/turmeric|Turmeric]]
-- [[ingredients/vegetable-oil|Vegetable Oil]]
-- [[ingredients/vegetable-oils|Vegetable Oils]]
-- [[ingredients/vinegar|Vinegar]]
-- [[ingredients/walnuts|Walnuts]]
-- [[ingredients/wine-vinegar|Wine Vinegar]]
+- [[ingredients/breastmilk|Breastmilk]] (16 sources)
+- [[ingredients/cabbage|Cabbage]] (11 sources)
+- [[ingredients/canned-tuna|Canned Tuna]] (12 sources)
+- [[ingredients/casein|Casein]] (1 source)
+- [[ingredients/cashew-nuts|Cashew Nuts]] (2 sources)
+- [[ingredients/cashews|Cashews]] (2 sources)
+- [[ingredients/cereal-bars|Cereal Bars]] (1 source)
+- [[ingredients/cinnamon|Cinnamon]] (11 sources)
+- [[ingredients/corn-oil|Corn Oil]] (7 sources)
+- [[ingredients/cucumbers|Cucumbers]] (4 sources)
+- [[ingredients/dried-herbs|Dried Herbs]] (5 sources)
+- [[ingredients/fresh-herbs|Fresh Herbs]] (4 sources)
+- [[ingredients/freshwater-fish|Freshwater Fish]] (52 sources)
+- [[ingredients/fruits|Fruits]] (12 sources)
+- [[ingredients/guava|Guava]] (2 sources)
+- [[ingredients/hazelnuts|Hazelnuts]] (4 sources)
+- [[ingredients/herbs-and-spices|Herbs And Spices]] (14 sources)
+- [[ingredients/leafy-vegetables|Leafy Vegetables]] (44 sources)
+- [[ingredients/legumes|Legumes]] (14 sources)
+- [[ingredients/maize|Maize]] (13 sources)
+- [[ingredients/mango|Mango]] (5 sources)
+- [[ingredients/mango-juice|Mango Juice]] (5 sources)
+- [[ingredients/meat-poultry|Meat Poultry]] (0 sources)
+- [[ingredients/olive-oil|Olive Oil]] (12 sources)
+- [[ingredients/olives|Olives]] (4 sources)
+- [[ingredients/parsley|Parsley]] (5 sources)
+- [[ingredients/peanut-oil|Peanut Oil]] (4 sources)
+- [[ingredients/pear-juice|Pear juice]] (1 source)
+- [[ingredients/plums|Plums]] (5 sources)
+- [[ingredients/quinoa|Quinoa]] (7 sources)
+- [[ingredients/rapeseed-oil|Rapeseed Oil]] (5 sources)
+- [[ingredients/raspberries|Raspberries]] (5 sources)
+- [[ingredients/rice-bran-oil|Rice Bran Oil]] (2 sources)
+- [[ingredients/seaweed|Seaweed]] (14 sources)
+- [[ingredients/sesame-oil|Sesame Oil]] (6 sources)
+- [[ingredients/shark|Shark]] (4 sources)
+- [[ingredients/shellfish|Shellfish]] (39 sources)
+- [[ingredients/soybean-oil|Soybean Oil]] (6 sources)
+- [[ingredients/spices|Spices]] (12 sources)
+- [[ingredients/sunflower-oil|Sunflower Oil]] (9 sources)
+- [[ingredients/tea|Tea]] (31 sources)
+- [[ingredients/tomato-paste|Tomato Paste]] (5 sources)
+- [[ingredients/turmeric|Turmeric]] (11 sources)
+- [[ingredients/vegetable-oil|Vegetable Oil]] (3 sources)
+- [[ingredients/vegetable-oils|Vegetable Oils]] (8 sources)
+- [[ingredients/vinegar|Vinegar]] (11 sources)
+- [[ingredients/walnuts|Walnuts]] (5 sources)
+- [[ingredients/wine-vinegar|Wine Vinegar]] (5 sources)
 <!-- END: hmi-auto-linked-stubs -->

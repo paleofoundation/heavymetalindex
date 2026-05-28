@@ -22,7 +22,7 @@ Coverage is scoped to lead, cadmium, inorganic and total arsenic, methylmercury 
 
 The corpus draws primarily from peer-reviewed journal literature (Tier A), supplemented by government and intergovernmental regulatory and scientific documents from the United States Food and Drug Administration, the European Food Safety Authority, the World Health Organization, the United States Environmental Protection Agency, and Codex Alimentarius (also Tier A). Industry white papers, non-governmental organization reports such as those from the Environmental Working Group and Healthy Babies Bright Futures, and reputable trade publications are admitted as Tier B with explicit attribution. News coverage and blog material are treated as Tier C; such material is used as a lead to verify against primary sources, not as evidence in its own right.
 
-A detailed inclusion-and-exclusion protocol with the full search strategy, database coverage, and handling of preprints, retractions, and duplicates is forthcoming and will be published before general availability.
+The full search strategy — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. That page is the Cochrane-equivalent search-protocol publication and is the page an external auditor should consult when verifying that a specific paper either did or did not make it into the corpus.
 
 ## Evidence Fitness
 

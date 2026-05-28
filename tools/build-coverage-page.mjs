@@ -191,6 +191,8 @@ function main() {
   out.push("")
   out.push(`This page was regenerated on **${today}** from the current state of the corpus.`)
   out.push("")
+  out.push("The Cochrane-equivalent search-protocol publication — the 10 academic databases queried, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria — is published at [[methodology/search-strategy]]. Read it alongside this page for the complete defensibility picture.")
+  out.push("")
   out.push("## Literature search flow (PRISMA-equivalent)")
   out.push("")
   out.push("```")
