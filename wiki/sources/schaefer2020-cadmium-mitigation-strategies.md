@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Cadmium_
 metals: [Cd]
 ingredients: ["[[ingredients/sunflower-seeds]]", "[[ingredients/spinach]]", "[[ingredients/peanut-butter]]", "[[ingredients/peanuts]]", "[[ingredients/lettuce]]", "[[ingredients/rice]]", "[[ingredients/cocoa]]", "[[ingredients/wheat]]", "[[ingredients/potatoes]]"]
 products: ["[[products/breakfast-cereals]]", "[[products/peanut-butter]]", "[[products/sunflower-seeds]]"]
-matrices: [dietary-intake, soil, crops, plant-tissue]
+matrices: [cereals, vegetables, nuts-oilseeds, organ-meats, seafood, soil]
 jurisdictions: [US, EU, AU, JP]
 near_duplicates: []
 sample_n: null
@@ -48,7 +48,7 @@ Dietary exposure estimates:
 - Children aged 1–6 years (US TDS 2014–2016): mean Cd exposure 0.38–0.44 µg/kg bw/day; grains (e.g., bread), mixed dishes (e.g., brownies, chocolate cake, lasagna with meat sauce, pizza), and vegetables (e.g., lettuce, spinach, collards, potatoes) account for most exposure (p. 262)
 - Children aged 0.5–12 years (JECFA 2011, AU/EU/US data): mean Cd 2.7–12.9 µg/kg bw/month (food-category contributions not reported in source review; p. 262)
 - Vegetarians estimated to have threefold higher relative Cd intake than nonvegetarians (Clemens et al., 2013, as cited; p. 262)
-- Children estimated to have twofold higher relative Cd intake than adults (EFSA, as cited; p. 262)
+- Children, especially infants and toddlers, estimated to have twofold higher relative Cd intake than adults (Clemens et al., 2013; EFSA, 2009, as cited; p. 262)
 
 Cd absorption after dietary exposure: estimated 3–5% in adults; some studies report intestinal absorption up to 44%; further research needed especially for children (p. 261)
 
@@ -64,17 +64,18 @@ Concise review (not a systematic meta-analysis). Primary source synthesis from J
 
 ## Implications
 
-**Certification:** The FDA TDS data provide rigorous US-market Cd concentrations across common ingredients. Peanut butter at 53 µg/kg, sunflower seeds at 375 µg/kg, shredded wheat cereal at 51 µg/kg, and dry roasted peanuts at 45 µg/kg are directly usable as anchor values in contamination-profile updates for those ingredient pages. The review's mitigation framing (agronomic uptake prevention, processing-stage discontinuation of cadmium-plated utensils/galvanized equipment/Cd-bearing plastic stabilizers/Cd-based pottery glazes, and consumer-side micronutrient adequacy) maps directly to the Levers section ordering on product-category pages.
+**Certification:** This review contributes US-market FDA TDS 2014–2016 occurrence data (lower-bound means, non-detects=0) to the Cd evidence base for the cited ingredient pages, including peanut butter, sunflower seeds, shredded wheat cereal, and dry roasted peanuts. The synthesis pass weighs these alongside other contributing sources before any contamination_profile update. The review's mitigation framing (agronomic uptake prevention, processing-stage discontinuation of cadmium-plated utensils/galvanized equipment/Cd-bearing plastic stabilizers/Cd-based pottery glazes, and consumer-side micronutrient adequacy) is informational input to the Levers section ordering on product-category pages.
 
-**Courses:** The exposure hierarchy (soil → plant → human), the factors modulating bioavailability (iron/zinc/calcium deficiency amplifying absorption up to 10-fold per Reeves & Chaney animal studies cited), and the population-specific risk (children, women of childbearing age, diabetics, vegetarians) are core cadmium course content. The EFSA and JECFA TWI/PTWI benchmark comparisons provide regulatory context.
+**Courses:** The exposure hierarchy (soil → plant → human), the factors modulating bioavailability (iron/zinc/calcium deficiency reported to amplify absorption up to 10-fold per the Reeves & Chaney 2008 review cited), and the population-specific risk (children, women of childbearing age, diabetics, vegetarians) are core cadmium course content. The EFSA and JECFA TWI/PTWI benchmark comparisons provide regulatory context.
 
-**App:** Concentration anchors from TDS 2014–2016 for Cd in sunflower seeds (375 ppb), spinach (117 ppb as boiled), peanut butter (53 ppb), lettuce (54–62 ppb), shredded wheat cereal (51 ppb), potatoes and fries (44–93 ppb), and peanuts (45 ppb). All values are lower-bound estimates (non-detects set to zero), so actual means may be higher.
+**App:** This source contributes TDS 2014–2016 lower-bound Cd occurrence values (non-detects set to zero) for sunflower seeds, spinach (boiled), peanut butter, leaf and iceberg lettuce, shredded wheat cereal, potatoes/fries/chips, and peanuts to the app's Cd evidence base. The synthesis pass weighs these alongside other contributing sources before any user-facing concentration estimate is updated. Actual means may exceed the lower-bound values because non-detects were imputed as zero.
 
 ## Verification notes
 
 - 2026-05-28 (Claude Opus 4.7): Merge-enhance pass against `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Cadmium_ Mitigation strategies to reduce dietary exposure.pdf` (8 pages). Changes: (a) `raw_handle` updated from legacy `manual-fetch-kimi` to current `MFK_cadmium-mitigation-strategies-to-reduce-dietary-ex` convention; (b) `raw_path` corrected to include the trailing space in `Manual Fetch Kimi /` that matches the on-disk path; (c) `products` list corrected — `products/cereal` does not exist as a wiki product page; replaced with `breakfast-cereals` (anchored on the 51 µg/kg shredded wheat cereal TDS value), `peanut-butter` (anchored on the 53 µg/kg TDS value), and preserved `sunflower-seeds`; (d) JECFA 0.1–4.8 mg/kg range reframed — the source states this range collectively for the named food-category group, not per-category; prior wording implied each category individually spanned 0.1–4.8 mg/kg, which the source does not support; (e) added p. citations to Key numbers entries to make per-claim provenance auditable; (f) added Cd body-distribution (60% liver+kidney) and 75–128 day blood half-life from p. 261 that were previously elided; (g) softened the mitigation-hierarchy framing in the opening prose — the paper does not explicitly rank soil pH > cultivar > fertiliser > processing > diet, only emphasises that initial uptake prevention is a key step; (h) added "Verification notes" section per current source-page template.
 - Brand-firewall check: paper names no brands; no scrubbing required.
 - Wiki/HMTc firewall check: synthesis claims softened to what the source explicitly states; no comparison to HMTc thresholds introduced.
+- 2026-05-28 (audit subagent application, Claude Opus 4.7): Fresh-context audit (general-purpose subagent) returned verdict REVISE with 7 ⚠️ findings, 0 ❌. All 7 verified against the source PDF and applied: (1) "children twofold higher Cd intake" attribution expanded from "EFSA, as cited" to "Clemens et al. 2013; EFSA 2009, as cited" — source p. 262 cites both; (2) Reeves & Chaney 10-fold absorption attribution sharpened from "Reeves & Chaney animal studies" to "Reeves & Chaney 2008 review" — source p. 261 specifically cites the 2008 review; (3) `matrices` ad-hoc terms `[dietary-intake, soil, crops, plant-tissue]` replaced with food-category controlled vocab `[cereals, vegetables, nuts-oilseeds, organ-meats, seafood, soil]` matching the food groups the paper actually discusses; (4) broken wikilink `[[mitigation/cadmium-agronomic-levers]]` replaced with `[[mitigation/agronomic]]` (the existing page covering this content); (5) added `wheat` and `potatoes` to "Wiki pages updated on ingest" list to match `ingredients:` frontmatter; (6) Implications/Certification softened — removed pre-deciding of specific ppb anchor values, reframed as data contribution to the synthesis pass per CLAUDE.md Part 9 separation; (7) Implications/App softened similarly. No findings rejected — all were correct.
 
 ## Wiki pages updated on ingest
 
@@ -86,4 +87,6 @@ Concise review (not a systematic meta-analysis). Primary source synthesis from J
 - [[ingredients/lettuce]]
 - [[ingredients/rice]]
 - [[ingredients/cocoa]]
-- [[mitigation/cadmium-agronomic-levers]]
+- [[ingredients/wheat]]
+- [[ingredients/potatoes]]
+- [[mitigation/agronomic]]
