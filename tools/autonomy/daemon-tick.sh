@@ -332,6 +332,20 @@ run_step "weekly briefing" node tools/autonomy/weekly-briefing.mjs || true
 # tick when novel candidates exist; idempotent on the backlog).
 run_step "improvement scout" node tools/autonomy/improvement-scout.mjs || true
 
+# Step 5e: drain-audit-queue — autonomous audit drainer (2026-05-28).
+# Picks up to AUDIT_DRAIN_CAP entries with status=pending or pending-audit-
+# spawn-failed and spawns claude --print per entry to run the full 5-check
+# audit (spawn subagent → verify findings → apply or push back → commit →
+# update queue row). Closes the loop that previously required Karen to
+# manually invoke /apply-gpt-audit. Bounded per-tick cap keeps cost in line
+# with the manual-fetch ingest cap.
+#
+# Disable by setting HMI_AUDIT_DRAIN_CAP=0; default 2 PDFs per tick.
+AUDIT_DRAIN_CAP="${HMI_AUDIT_DRAIN_CAP:-2}"
+if [[ "$AUDIT_DRAIN_CAP" != "0" ]]; then
+  run_step "drain-audit-queue" node tools/autonomy/drain-audit-queue.mjs "--max=$AUDIT_DRAIN_CAP" || true
+fi
+
 # Step 6: regenerate briefings for Category 1
 log "=== regenerating Cat 1 briefings ==="
 for slug in infant-formula-powder-non-soy infant-formula-powder-soy-based \
