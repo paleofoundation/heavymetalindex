@@ -26,7 +26,11 @@ import yaml from "js-yaml"
 
 const repoRoot = process.cwd()
 const wikiDir = path.join(repoRoot, "wiki")
-const outPath = path.join(repoRoot, "public/static/evidence-packet-index.json")
+// Written into wiki/static/ so Quartz's Assets emitter copies it to
+// public/static/ at build time. /api/evidence-packet reads from the
+// deployed /static/ URL with a bundled local fallback at
+// ../wiki/static/evidence-packet-index.json.
+const outPath = path.join(repoRoot, "wiki/static/evidence-packet-index.json")
 const CANONICAL_BASE = "https://heavymetalindex.com"
 
 // Mirror the public-surface filter the existing public artifacts use.

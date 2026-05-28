@@ -19,7 +19,11 @@ import matter from "gray-matter"
 
 const repoRoot = process.cwd()
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
-const outputPath = path.join(repoRoot, "public/static/contamination.json")
+// Written into wiki/static/ so Quartz's Assets emitter copies it to
+// public/static/ at build time — public/ is cleaned by Quartz at the start
+// of the build, so prebuild outputs need to live under wiki/static/ to
+// survive into the deploy artifact.
+const outputPath = path.join(repoRoot, "wiki/static/contamination.json")
 const generatedAt = new Date().toISOString()
 
 fs.mkdirSync(path.dirname(outputPath), { recursive: true })

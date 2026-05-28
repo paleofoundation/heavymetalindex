@@ -147,7 +147,7 @@ async function loadDataset(req) {
   }
 
   const text = await fs.readFile(
-    new URL("../public/static/evidence-packet-index.json", import.meta.url),
+    new URL("../wiki/static/evidence-packet-index.json", import.meta.url),
     "utf8",
   )
   cached = JSON.parse(text)

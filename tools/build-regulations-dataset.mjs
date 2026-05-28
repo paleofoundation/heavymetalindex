@@ -15,7 +15,11 @@ import yaml from "js-yaml"
 
 const repoRoot = process.cwd()
 const regsDir = path.join(repoRoot, "wiki/regulations")
-const outPath = path.join(repoRoot, "public/static/regulations.json")
+// Written into wiki/static/ so Quartz's Assets emitter copies it to
+// public/static/ at build time (matching hmi-percentile-context.json). The
+// /api/regulations endpoint reads from the deployed /static/ URL with a
+// bundled local fallback at ../wiki/static/regulations.json.
+const outPath = path.join(repoRoot, "wiki/static/regulations.json")
 const CANONICAL_BASE = "https://heavymetalindex.com"
 
 const SKIP_SLUGS = new Set([

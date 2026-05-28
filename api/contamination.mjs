@@ -163,7 +163,7 @@ async function loadDataset(req) {
     // fall through to local file
   }
 
-  const text = await fs.readFile(new URL("../public/static/contamination.json", import.meta.url), "utf8")
+  const text = await fs.readFile(new URL("../wiki/static/contamination.json", import.meta.url), "utf8")
   cached = JSON.parse(text)
   cachedAt = now
   return cached

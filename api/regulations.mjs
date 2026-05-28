@@ -173,7 +173,7 @@ async function loadDataset(req) {
   }
 
   const text = await fs.readFile(
-    new URL("../public/static/regulations.json", import.meta.url),
+    new URL("../wiki/static/regulations.json", import.meta.url),
     "utf8",
   )
   cached = JSON.parse(text)
