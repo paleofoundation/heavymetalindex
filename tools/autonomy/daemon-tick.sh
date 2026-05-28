@@ -103,7 +103,13 @@ echo "$TIMESTAMP" > "$HEARTBEAT_FILE"
 # dirty. Heartbeat is now gitignored; this check is the second layer of
 # defense for the multi-agent (daemon + Codex + Claude Code) operation
 # Karen runs in parallel during sprints.
-TRANSIENT_PATHS='data/evidence/|data/workbench/|wiki/briefings/weekly-'
+# Transient paths the daemon's own steps write between ticks. These are
+# deterministic daemon outputs (sync-source-counts, briefing regens,
+# evidence-extractor outputs, sprint-status) — not LLM content edits.
+# The pull step's --autostash handles them; if a previous tick's commit
+# step failed, they sit dirty but the next tick's autostash + Step 8
+# commit recovers without blocking.
+TRANSIENT_PATHS='data/evidence/|data/workbench/|wiki/briefings/weekly-|wiki/sprint-status\.md|wiki/(ingredients|products|metals|regulations)/index\.md'
 # Sprint-mode 2026-05-25 update: untracked wiki/sources/*.md files no longer
 # block the daemon. The Marker bulk ingester (and Codex's parallel ingest)
 # can leave source pages in an uncommitted state if their cite-keys fail
