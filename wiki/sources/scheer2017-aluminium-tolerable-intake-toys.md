@@ -38,7 +38,7 @@ The Scientific Committee on Health, Environmental and Emerging Risks (SCHEER) wa
 - SCHEER (2017) TDI: 0.3 mg Al/kg bw/day (equivalent to ~2.1 mg/kg bw/week), derived from the same NOAEL and assessment factor as JECFA 2011 and used as the basis for the toy migration limits below.
 
 **Dietary exposure in children (the food-relevant inputs to this opinion):**
-- EU children aged 3–15 years: 97.5th-percentile dietary Al intake 0.7–2.3 mg/kg bw/week (France, 1.5–4.5 years); 2.3 mg/kg bw/week (UK, 1.5–4.5 years); 1.7 mg/kg bw/week (UK, 4–18 years) (EFSA 2008 data, cited in opinion).
+- 97.5th-percentile dietary Al intake in EU children (EFSA 2008 data, cited in opinion): 0.7–2.3 mg/kg bw/week for children aged 3–15 years in France; 2.3 mg/kg bw/week for 1.5–4.5-year-olds in the UK; 1.7 mg/kg bw/week for 4–18-year-olds in the UK.
 - Breast-fed infants: < 0.07 mg/kg bw/week.
 - Infants on formula, 0–12 months: 0.10–0.78 mg/kg bw/week, highest in soy-based formula.
 - Ready-made (liquid) infant formula: 176–700 µg Al/L.
@@ -70,7 +70,7 @@ The Scientific Committee on Health, Environmental and Emerging Risks (SCHEER) wa
 
 ## Methods (brief)
 
-Literature review covering 01/01/2008–31/01/2017 against the European Commission Library and PubMed, using fourteen "aluminium OR aluminum AND <topic>" search strings. Forty-seven publications identified; thirty selected for inclusion (bioavailability, immune-system effects, neurotoxicity, exposure). No additional chronic-toxicity study yielding a new NOAEL was identified post-2011. SCHEER evaluated EFSA 2008, JECFA 2007 and 2011, ATSDR 2008, WHO 2010, SCCS 2014, CSTEE 2004, RIVM 2008, SCHER 2010, COT 2013, and the Norwegian VKM 2013 dossier. The Poirier et al. (2011) GLP twelve-month rat neurodevelopmental study (aluminium citrate in drinking water, doses 30/100/300 mg Al/kg bw/day, gestational day 6 through postnatal day 364, 20 litters per dose, neuro-histopathology + functional observational battery + Morris water maze) is the reference study supporting the NOAEL of 30 mg/kg bw/day. No primary analytical measurements were performed; LOD/LOQ not applicable (opinion-level document). Public consultation 7 July – 10 September 2017 received ten comments from nine contributors; SCHEER concluded none warranted changes to the final opinion.
+Literature review covering 01/01/2008–31/01/2017 against the European Commission Library and PubMed, using thirteen "aluminium OR aluminum AND <topic>" search strings. Forty-seven publications identified; thirty selected for inclusion (bioavailability, immune-system effects, neurotoxicity, exposure). No additional chronic-toxicity study yielding a new NOAEL was identified post-2011. SCHEER evaluated EFSA 2008, JECFA 2007 and 2011, ATSDR 2008, WHO 2010, SCCS 2014, CSTEE 2004, RIVM 2008, SCHER 2010, COT 2013, and the Norwegian VKM 2013 dossier. The Poirier et al. (2011) GLP twelve-month rat neurodevelopmental study (aluminium citrate in drinking water, doses 30/100/300 mg Al/kg bw/day, gestational day 6 through postnatal day 364, 20 litters per dose, neuro-histopathology + functional observational battery + Morris water maze) is the reference study supporting the NOAEL of 30 mg/kg bw/day. No primary analytical measurements were performed; LOD/LOQ not applicable (opinion-level document). Public consultation 7 July – 10 September 2017 received ten comments from nine contributors; SCHEER concluded none warranted changes to the final opinion.
 
 ## Implications
 
@@ -82,14 +82,14 @@ Literature review covering 01/01/2008–31/01/2017 against the European Commissi
 
 ## Wiki pages updated on ingest
 
-- [[metals/aluminium]]
+- [[metals/aluminum]]
 - [[ingredients/herbs-and-spices]]
 - [[ingredients/cocoa]]
 - [[ingredients/tea]]
 - [[ingredients/soy-based-infant-formula]]
 - [[products/infant-formula]]
-- [[regulations/efsa-aluminium-twi-2008]]
-- [[regulations/jecfa-aluminium-ptwi-2011]]
+- [[regulations/efsa-aluminium-twi]]
+- [[regulations/jecfa-aluminium-ptwi-2011]] (missing-slug proposal — no regulation page yet exists for the JECFA 2011 PTWI revision)
 
 ## Verification notes
 
@@ -104,3 +104,13 @@ Literature review covering 01/01/2008–31/01/2017 against the European Commissi
 - No primary brand-attributed contamination data in the source; no Part 12 brand-firewall edits required.
 - No synthesis claims; no HMTc threshold proposals (Part 2 firewall intact).
 - This is fundamentally a toys-and-dietary-exposure regulatory opinion, not a primary food-contamination measurement study. It enters the HMI corpus because (a) it is the operative EU summary of Al dietary-exposure data through 2017, including infant formula and the high-Al condiments (herbs/spices/cocoa/tea) that the containing folder targets, and (b) it documents the EU regulatory inconsistency between the EFSA TWI and the JECFA PTWI relevant to any Al threshold-setting work.
+
+### Subagent audit findings (2026-05-28) verified against source
+
+- Audit Check 1 ⚠️ "France 1.5–4.5 years" age-band attribution: verified against PDF p.19 — corrected. The 0.7–2.3 mg/kg bw/w range belongs to France 3–15 years; the 1.5–4.5 y attribution belongs only to the UK 2.3 value.
+- Audit Check 3 ⚠️ "fourteen" search strings: verified against PDF p.10 — corrected to thirteen. PDF lists exactly thirteen bulleted "aluminium OR aluminum AND <topic>" strings.
+- Audit Check 2 ⚠️ `[[metals/aluminium]]` → corrected to `[[metals/aluminum]]` (canonical page slug uses US spelling).
+- Audit Check 2 ⚠️ `[[regulations/efsa-aluminium-twi-2008]]` → corrected to `[[regulations/efsa-aluminium-twi]]` (the actual page slug carries no year suffix).
+- Audit Check 2 ⚠️ `[[regulations/jecfa-aluminium-ptwi-2011]]` → flagged as missing-slug proposal; no regulation page yet covers the JECFA 2011 PTWI revision. Per Part 10, regulations get pages on first encounter; this proposal is surfaced for next regulation-page-creation pass rather than silently invented here.
+- Audit Check 2 ❌ `products: ["[[products/infant-formula]]"]` flagged as missing-slug: **verified false positive**. `wiki/products/infant-formula.md` exists in the current taxonomy and the routing audit fans this source to that page as `locked_hmtc_row direct_evidence` plus four broad-formula-context siblings. The subagent's taxonomy snapshot appears to omit the umbrella `infant-formula` slug; not changed.
+- Audit Check 2 ⚠️ matrix vocabulary novelty: noted; matrices field uses descriptive functional categories (`dietary-intake`, `infant-formula`, `drinking-water`, `food-contact-materials`) that match patterns used by other Al-context sources in the corpus and pass the routing audit cleanly; not changed.
