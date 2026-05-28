@@ -76,6 +76,8 @@ ICP-MS following acidic digestion with an automated hot block; both NATA-accredi
 - Single point-in-time sampling; results do not capture seasonal, supplier, or lot-to-lot variation.
 - ICP-MS gives total elemental concentrations; no speciation for As (iAs vs total) or Cr (Cr-VI vs Cr-III). The Discussion notes that the extreme Cr values in dried bay leaves and curry leaves "may reflect total chromium including Cr-III; Cr-VI speciation would be needed for a full toxicological assessment."
 - Paper-internal inconsistency on the Cr exceedance count: Table 6 and the Figure 9 summary chart give 22 samples (5.8%) above 2 mg/kg; the Figure 12A descriptive text gives 27 (and the per-category breakdown sums to 27). Both are reported here as authored.
+- A second paper-internal inconsistency on Cr in spice powders: Table 6 (Discussion §5.2 Cr row) states "chiefly in spice powders (14 detections; Figure 13)" — but Figure 12B (the Cr-in-spice-powders breakdown) shows 17 samples in the >2.0 mg/kg band, and Table 6 also mis-cites the figure as 13 (the Pb figure) rather than 12B. The 17 figure from Figure 12B is used in this page's Key numbers section.
+- A paper-internal inconsistency on the Pb exceedance count above the 2 mg/kg nominal threshold: the Figure 9 summary chart on page 16 shows 6 samples above; the Figure 13 by-category chart and the page 18 narrative text both give 13 (10 spice powder + 2 dry herb + 1 fresh spice). This page's Key numbers section uses 13, matching Figure 13 and the page 18 narrative.
 - The Aluminium 278-sample subset (single-analyst) is not a random sub-sample of the 380 — it is the EARL-tested cohort. Population-level Al inferences therefore carry an analyst-selection caveat the source does not quantify.
 - The mercury exposure comparison uses total Hg measurements against a methylmercury PTWI; this is a conservative upper bound on methylmercury exposure, not a direct measurement.
 - Results were not assessed for consumption-frequency or portion-weighted cumulative dietary intake; the report explicitly states it does not model cumulative dietary intake.
@@ -90,6 +92,7 @@ ICP-MS following acidic digestion with an automated hot block; both NATA-accredi
 
 ## Verification notes
 
+- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit subagent (Phase 2) returned REVISE with three actionable items: (1) ❌ Check 2 flagged `[[metals/aluminium]]` as outside the taxonomy snapshot — verified against `wiki/metals/` and the snapshot's metals list, the correct slug is `aluminum` (US spelling); fixed. (2) ⚠️ Check 2 flagged `[[regulations/eu2023-contaminants-maximum-levels]]` as misattributing the source's regulatory anchor — verified: source Table 6 Pb row explicitly cites "EU 1881/2006; 2021/1317", which is the superseded predecessor; added `[[regulations/eu-1881-2006-contaminants-superseded]]` (the predecessor reg the paper actually names) while keeping the current `[[regulations/eu2023-contaminants-maximum-levels]]` reference since the data was collected after 2023/915 took effect (May 2023) and both are relevant. (3) ⚠️ Check 1 flagged two additional paper-internal inconsistencies not previously surfaced: the Pb Figure 9 (6 above 2 mg/kg) vs Figure 13 (13 above) contradiction, and the Cr Table 6 "14 detections in spice powders" vs Figure 12B (17 in the >2.0 mg/kg band) contradiction — verified both against the PDF and added to the Limitations section. Subagent flagged Check 1 ⚠️ on the Cu/Zn framing as borderline but the wiki language is correctly category-attributed to spice powder or mix, not all-category totals — false positive, not changed. Subagent flagged Check 2 ⚠️ on matrices vocabulary as outside the snapshot's authoritative list — false positive, matrices vocabulary is an open routing-input vocabulary and the strings used (`herbs`, `spices`, `spice-powder`, `fresh-herbs`, `dried-herbs`) are conventional. Subagent flagged Check 5 ⚠️ on the Certification line as "skirting close" but not crossing — borderline, kept as written (no specific HMTc threshold proposed; "should inform standards work" stays on the allowed side per Part 2).
 - 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 1 prior to audit): page was originally created 2026-05-14 in the kimi-cond05 batch ingest with the generic `raw_handle: manual-fetch-kimi`, a truncated `raw_path`, a duplicated `products` entry, and no Limitations section. Phase 1 fixes against re-read of the source PDF (28 pages):
   - Set per-PDF `raw_handle: MFK_coordinated-sampling-project-41-microbial-and-heav`.
   - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch Kimi ") and the un-truncated filename matching the on-disk file.
@@ -108,10 +111,11 @@ ICP-MS following acidic digestion with an automated hot block; both NATA-accredi
 - [[ingredients/cinnamon]]
 - [[metals/lead]]
 - [[metals/chromium]]
-- [[metals/aluminium]]
+- [[metals/aluminum]]
 - [[metals/mercury]]
 - [[products/spices]]
 - [[regulations/au-nz-food-standards-code-schedule-19-contaminants]]
+- [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/eu2023-contaminants-maximum-levels]]
 - [[regulations/jecfa-arsenic-bmdl]]
 - [[regulations/jecfa-cadmium-ptmi]]
