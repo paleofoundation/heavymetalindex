@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_cadmium-mitigation-strategies-to-reduce-dietary-ex
 cite_key: schaefer2020-cadmium-mitigation-strategies
 title: "Cadmium: Mitigation strategies to reduce dietary exposure"
 authors: [Schaefer HR, Dennis S, Fitzpatrick S]
@@ -10,25 +10,25 @@ doi: 10.1111/1750-3841.14997
 source_type: review
 evidence_tier: A
 license: "CC BY-NC-ND"
-raw_path: "raw/Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices/Cadmium_ Mitigation strategies to reduce dietary exposure.pdf"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Cadmium_ Mitigation strategies to reduce dietary exposure.pdf"
 metals: [Cd]
 ingredients: ["[[ingredients/sunflower-seeds]]", "[[ingredients/spinach]]", "[[ingredients/peanut-butter]]", "[[ingredients/peanuts]]", "[[ingredients/lettuce]]", "[[ingredients/rice]]", "[[ingredients/cocoa]]", "[[ingredients/wheat]]", "[[ingredients/potatoes]]"]
-products: ["[[products/cereal]]", "[[products/sunflower-seeds]]"]
+products: ["[[products/breakfast-cereals]]", "[[products/peanut-butter]]", "[[products/sunflower-seeds]]"]
 matrices: [dietary-intake, soil, crops, plant-tissue]
 jurisdictions: [US, EU, AU, JP]
 near_duplicates: []
 sample_n: null
 sample_population: "Review of global literature and FDA Total Diet Study 2014–2016 data for cadmium in food and mitigation interventions"
-updated: 2026-05-14
+updated: 2026-05-28
 ---
 
 # Schaefer et al. 2020 — Cadmium: Mitigation strategies to reduce dietary exposure
 
-This peer-reviewed concise review, authored by FDA/CFSAN scientists, synthesises the scientific basis for cadmium in the food supply and evaluates mitigation strategies across the full supply chain from agronomic production through processing to consumer preparation. Published in the Journal of Food Science (Vol. 85, Iss. 2, 2020), the paper draws on the 2011 JECFA review, the 2009 and 2011 EFSA scientific opinions, and the FDA Total Diet Study 2014–2016 to provide US-centric concentration data. Key findings: diet is the dominant cadmium exposure pathway (approximately 90% of non-occupational, non-smoking exposure); leafy vegetables, root crops, cereals, and grains are the primary dietary contributors; and the most impactful mitigation lever is reducing initial plant uptake through soil pH management, cultivar selection, and fertiliser choice, rather than downstream processing interventions. The paper explicitly identifies data gaps and recommends commodity-specific codes of practice.
+This peer-reviewed concise review, authored by FDA/CFSAN scientists, synthesises the scientific basis for cadmium in the food supply and evaluates mitigation strategies across the full supply chain from agronomic production through processing to consumer preparation. Published in the Journal of Food Science (Vol. 85, Iss. 2, 2020), the paper draws on the 2011 JECFA review, the 2009 and 2011 EFSA scientific opinions, and the FDA Total Diet Study 2014–2016 to provide US-centric concentration data. Key findings: diet is the dominant cadmium exposure pathway (approximately 90% of non-occupational, non-smoking exposure); leafy vegetables, root crops, cereals, and grains are the primary dietary contributors; and the paper identifies reducing initial plant uptake (soil pH management, cultivar selection, fertiliser choice) as a key step to reducing dietary cadmium, alongside complementary measures further down the supply chain. The paper explicitly identifies data gaps and recommends commodity-specific codes of practice.
 
 ## Key numbers
 
-FDA Total Diet Study 2014–2016 — top 10 foods by mean lower-bound Cd concentration (µg/kg wet weight):
+FDA Total Diet Study 2014–2016 — top 10 foods by mean lower-bound Cd concentration (µg/kg, as-consumed; values from Spungen, 2019 as cited by the review, p. 262):
 1. Sunflower seeds: 375 µg/kg
 2. Boiled spinach: 117 µg/kg
 3. Potato chips: 93 µg/kg
@@ -40,35 +40,41 @@ FDA Total Diet Study 2014–2016 — top 10 foods by mean lower-bound Cd concent
 9. French fries: 44 µg/kg
 10. Cooked liver: 38 µg/kg
 
-JECFA 2011 — mean Cd concentrations in food categories (higher-Cd groups, mg/kg):
-- Crustaceans, mollusks: 0.1–4.8 mg/kg
-- Organ meats (liver, kidney): 0.1–4.8 mg/kg
-- Vegetables, nuts and oilseeds, spices, coffee, tea, cocoa: 0.1–4.8 mg/kg (range covers all these categories together)
+JECFA 2011 — high-Cd food categories (single range covering the grouped categories, p. 261):
+- Crustaceans/mollusks, organ meats (liver, kidney), vegetables, nuts and oilseeds, spices, coffee, tea, and cocoa: mean Cd concentrations 0.1–4.8 mg/kg (range applies collectively to these categories, not per category)
 
 Dietary exposure estimates:
-- Adults: diet accounts for approximately 90% of cadmium exposure (non-smokers)
-- Children aged 1–6 years (US TDS 2014–2016): mean Cd exposure 0.38–0.44 µg/kg bw/day; grains, mixed dishes, and vegetables account for most exposure
-- Children aged 0.5–12 years (JECFA 2011 global): mean Cd 2.7–12.9 µg/kg bw/month (AU, EU, US data)
-- Vegetarians estimated to have threefold higher relative Cd intake than nonvegetarians
-- Children estimated to have twofold higher relative Cd intake than adults (EFSA)
+- Adults: diet accounts for approximately 90% of cadmium exposure (non-smokers; p. 261)
+- Children aged 1–6 years (US TDS 2014–2016): mean Cd exposure 0.38–0.44 µg/kg bw/day; grains (e.g., bread), mixed dishes (e.g., brownies, chocolate cake, lasagna with meat sauce, pizza), and vegetables (e.g., lettuce, spinach, collards, potatoes) account for most exposure (p. 262)
+- Children aged 0.5–12 years (JECFA 2011, AU/EU/US data): mean Cd 2.7–12.9 µg/kg bw/month (food-category contributions not reported in source review; p. 262)
+- Vegetarians estimated to have threefold higher relative Cd intake than nonvegetarians (Clemens et al., 2013, as cited; p. 262)
+- Children estimated to have twofold higher relative Cd intake than adults (EFSA, as cited; p. 262)
 
-Cd absorption after dietary exposure: estimated 3–5% in adults; some studies report intestinal absorption up to 44%; further research needed especially for children
+Cd absorption after dietary exposure: estimated 3–5% in adults; some studies report intestinal absorption up to 44%; further research needed especially for children (p. 261)
 
-Cd biological half-life: estimated 10–33 years in humans
+Cd biological half-life: 75–128 days in blood; estimated 10–33 years overall biological half-life in humans (p. 261)
 
-Non-polluted agricultural soils: Cd typically < 1 µg/g (range 0.06–1.1 mg/kg), average 0.27 mg/kg; polluted areas up to 800 µg/g
+Cd body distribution after absorption: approximately 60% of absorbed Cd deposited in liver (30%) and kidney (30%); excretion via urine and faeces at 0.007–0.009% of body burden per day (p. 261)
+
+Non-polluted agricultural soils: Cd typically < 1 µg/g (range 0.06–1.1 mg/kg), average 0.27 mg/kg; topsoil concentrations often twice subsoil levels; polluted areas up to 800 µg/g (p. 263)
 
 ## Methods (brief)
 
-Concise review (not a systematic meta-analysis). Primary source synthesis from JECFA 2011, EFSA 2009/2011/2014, ATSDR 2012, and the FDA TDS 2014–2016 dataset (Spungen, 2019). No original measurements. Authors are FDA CFSAN staff; work supported through Oak Ridge/DOE-FDA interagency agreement. Published in a peer-reviewed journal (Wiley/IFT). Evidence tier elevated to A because (a) FDA-affiliated authorship with institutional review, (b) published peer-reviewed synthesis of primary government data, and (c) direct relevance to FDA Toxic Element Working Group efforts.
+Concise review (not a systematic meta-analysis). Primary source synthesis from JECFA 2011, EFSA 2009/2011/2014, ATSDR 1999/2012, and the FDA TDS 2014–2016 dataset (Spungen, 2019). No original measurements. Authors are FDA CFSAN staff; work supported through Oak Ridge Institute for Science and Education / DOE–FDA interagency agreement. Published in a peer-reviewed journal (Wiley/Institute of Food Technologists). Evidence tier elevated to A because (a) FDA-affiliated authorship with institutional review, (b) published peer-reviewed synthesis of primary government data, and (c) direct relevance to FDA Toxic Element Working Group efforts.
 
 ## Implications
 
-**Certification:** The FDA TDS data provide the most rigorous US-market Cd concentrations across common ingredients. Peanut butter at 53 µg/kg (53 ppb) and sunflower seeds at 375 µg/kg (375 ppb) are directly usable in contamination-profile updates for those ingredient pages. The review's mitigation hierarchy (soil pH > cultivar selection > fertiliser management > processing > consumer diet) aligns directly with the wiki's Mitigation options section ordering for ingredient pages.
+**Certification:** The FDA TDS data provide rigorous US-market Cd concentrations across common ingredients. Peanut butter at 53 µg/kg, sunflower seeds at 375 µg/kg, shredded wheat cereal at 51 µg/kg, and dry roasted peanuts at 45 µg/kg are directly usable as anchor values in contamination-profile updates for those ingredient pages. The review's mitigation framing (agronomic uptake prevention, processing-stage discontinuation of cadmium-plated utensils/galvanized equipment/Cd-bearing plastic stabilizers/Cd-based pottery glazes, and consumer-side micronutrient adequacy) maps directly to the Levers section ordering on product-category pages.
 
-**Courses:** The exposure hierarchy (soil → plant → human), the factors modulating bioavailability (iron/zinc/calcium deficiency amplifying absorption), and the population-specific risk (children, women of childbearing age, vegetarians) are core cadmium course content. The EFSA and JECFA TWI/PTWI benchmark comparisons provide regulatory context.
+**Courses:** The exposure hierarchy (soil → plant → human), the factors modulating bioavailability (iron/zinc/calcium deficiency amplifying absorption up to 10-fold per Reeves & Chaney animal studies cited), and the population-specific risk (children, women of childbearing age, diabetics, vegetarians) are core cadmium course content. The EFSA and JECFA TWI/PTWI benchmark comparisons provide regulatory context.
 
-**App:** Concentration anchors from TDS 2014–2016 for Cd in sunflower seeds (375 ppb), spinach (117 ppb), peanut butter (53 ppb), lettuce (62 ppb dry-weight caveats may apply), shredded wheat (51 ppb), potatoes/fries (44–93 ppb), and peanuts (45 ppb). These are lower-bound estimates (non-detects set to zero), so actual means may be higher.
+**App:** Concentration anchors from TDS 2014–2016 for Cd in sunflower seeds (375 ppb), spinach (117 ppb as boiled), peanut butter (53 ppb), lettuce (54–62 ppb), shredded wheat cereal (51 ppb), potatoes and fries (44–93 ppb), and peanuts (45 ppb). All values are lower-bound estimates (non-detects set to zero), so actual means may be higher.
+
+## Verification notes
+
+- 2026-05-28 (Claude Opus 4.7): Merge-enhance pass against `raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Cadmium_ Mitigation strategies to reduce dietary exposure.pdf` (8 pages). Changes: (a) `raw_handle` updated from legacy `manual-fetch-kimi` to current `MFK_cadmium-mitigation-strategies-to-reduce-dietary-ex` convention; (b) `raw_path` corrected to include the trailing space in `Manual Fetch Kimi /` that matches the on-disk path; (c) `products` list corrected — `products/cereal` does not exist as a wiki product page; replaced with `breakfast-cereals` (anchored on the 51 µg/kg shredded wheat cereal TDS value), `peanut-butter` (anchored on the 53 µg/kg TDS value), and preserved `sunflower-seeds`; (d) JECFA 0.1–4.8 mg/kg range reframed — the source states this range collectively for the named food-category group, not per-category; prior wording implied each category individually spanned 0.1–4.8 mg/kg, which the source does not support; (e) added p. citations to Key numbers entries to make per-claim provenance auditable; (f) added Cd body-distribution (60% liver+kidney) and 75–128 day blood half-life from p. 261 that were previously elided; (g) softened the mitigation-hierarchy framing in the opening prose — the paper does not explicitly rank soil pH > cultivar > fertiliser > processing > diet, only emphasises that initial uptake prevention is a key step; (h) added "Verification notes" section per current source-page template.
+- Brand-firewall check: paper names no brands; no scrubbing required.
+- Wiki/HMTc firewall check: synthesis claims softened to what the source explicitly states; no comparison to HMTc thresholds introduced.
 
 ## Wiki pages updated on ingest
 
