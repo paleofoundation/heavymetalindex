@@ -20,33 +20,6 @@ Candidates can be added by any session that reads the corpus. Ingest sessions su
 
 ## Pending candidates
 
-### ~~Mining-impacted freshwater fish as a global Hg contamination driver~~ → PROMOTED 2026-05-16 (see Promoted section)
-
-Anchor sources (7+ A-tier studies, growing):
-
-Batch 9 adds: [[wiki/sources/shumba2025-tilapia-mercury-zambia-mining|Shumba 2025]] (Zambia artisanal gold mining, tilapia tHg 0.12–1.94 µg/g); [[wiki/sources/stahl2023-us-river-fish-mercury|Stahl 2023]] (US NRSA rivers, n=1,250+, 8% exceed FDA 1.0 µg/g); [[wiki/sources/lepak2023-sport-fish-mercury-colorado|Lepak 2023]] (Colorado sport fish, 26% exceed FDA advisory for vulnerable groups); [[wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry|Marriott 2023]] (Lake Victoria, industrial + agricultural runoff signatures); [[wiki/sources/hussein2023-freshwater-marine-fish-egypt|Hussein 2023]] (Egyptian freshwater fish, Pb exceedances vs EU ML).
-
-Pre-existing anchors: [[wiki/sources/fuenteslopez2025-colombia-freshwater-fish-mercury|Fuentes-López 2025]] (Colombia artisanal gold mining, La Mojana); [[wiki/sources/barquero2024-almaden-freshwater-bass-mercury|Barquero 2024]] (Almadén mine district Spain, 7.61 mg/kg tHg in bass); plus Li 2024 (PNAS global model) and Wu 2025 (PNAS China projection) already anchoring the [[wiki/synthesis/subsistence-fishing-mehg-disparity]] page.
-
-Thesis: Industrial mining (hard rock and coal), artisanal and small-scale gold mining (ASGM), and legacy contamination from decommissioned mine sites each produce elevated dissolved Hg in freshwater systems, where microbial methylation (now mechanistically documented by [[wiki/sources/zhou2025-microbial-methylmercury-rice-china|Zhou 2025]] for paddy systems) converts inorganic Hg to MeHg that biomagnifies up the food chain. The pattern is global (Africa, Asia, Europe, North and South America documented) and affects both subsistence and recreational fisheries. Regulatory thresholds for fish consumption are set against aggregate population means, not against populations with elevated consumption of fish from contaminated systems.
-
-Why this matters:
-- Brand-legal: the subsistence-fishing synthesis page identifies the vulnerable population; this candidate identifies the contamination source mechanism and its global distribution, enabling the defense argument that HMTc seafood standards calibrated to commercial market supply chains cannot rely on existing FDA/EFSA limits to protect populations reliant on artisanal or recreational catch.
-- Regulator: the geographic scope (global, confirmed across six continents) is the non-obvious finding. Regulatory frameworks are mostly national; the cross-national scope of the same driver is a synthesis-page contribution.
-- Educator: explains why "follow FDA fish advisory" does not apply uniformly to all fish consumption contexts.
-
-This candidate is distinct from the promoted subsistence-fishing-mehg-disparity page, which focuses on population vulnerability. This candidate focuses on the contamination driver and geographic scope.
-
-Batch 11 adds: [[wiki/sources/willacker2023-mercury-fish-snake-river|Willacker 2023]] (Snake River reservoirs; thermal stratification drives tHg 76% higher in fish; 52–80% exceed consumption benchmarks vs 6–17% in free-flowing reaches); [[wiki/sources/leclerc2023-methylmercury-periphyton-river|Leclerc 2023]] (Quebec run-of-river dam, periphyton methylation hotspots, MeHg/tHg ratio 2.9× in impounded reaches); [[wiki/sources/paez-osuna2024-fish-mercury-selenium-mexico|Paez-Osuna 2024]] (El Comedero dam Mexico post-mine-tailing spill, elevated MeHg/tHg ratio). These add dam-related impoundment as a Hg methylation driver that is mechanistically parallel to ASGM. The synthesis page should present both drivers (mining and impoundment) as co-mechanisms for the same anoxic-bottom-sediment methylation pathway.
-
-Batch 12 adds: [[wiki/sources/lucchini2025-amazon-mercury-co-exposures|Lucchini 2025]] (Amazon basin scoping review; fish tHg 0.10–4.73 µg/g; hair Hg 3.07–24.6 µg/g in exposed populations; ASGM as primary anthropogenic Hg source; framing includes co-exposures with agrochemicals and microplastics). This adds further South American ASGM documentation but is mercury-only and does not resolve the multi-metal criterion.
-
-Batch 13 adds: [[wiki/sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Shaalan 2024]] (Nile tilapia from Egyptian industrial-effluent canal, ICP-OES, n=120; El-Rayah site values Pb 33.4 mg/kg, Cd 2.3 mg/kg, Hg 10.4 mg/kg — extreme multi-metal co-elevation, HI>1 across multiple metals). This is industrial pollution rather than ASGM but directly supports criterion 2 (spans multiple metals): Pb, Cd, and Hg are co-elevated by a factor of 10–1000× beyond food safety limits in a freshwater fish from a contaminated system. The multi-metal pattern in industrial-impacted freshwater fish is now documented for Africa (Zambia ASGM, Egypt industrial), South America (Colombia ASGM, Amazon), and Europe (Almadén Spain). Also adds [[wiki/sources/melnyk2021-mercury-anadromous-fish-penobscot|Melnyk 2021]] (US EPA/ATSDR tHg in 6 anadromous species, Penobscot River ME, 75 composites; sea lamprey mean 628 µg/kg).
-
-Batch 14 adds: [[wiki/sources/oliveira2022-mercury-fish-pregnant-women-tapajos|Oliveira 2022]] (Tapajos River basin, Brazil; piscivorous fish tHg exceeds FDA/EPA 0.5 mg/kg in at least one season; 48% of 110 pregnant women exceed US EPA hair Hg reference dose). This adds further Amazon human-exposure documentation (subsistence fishing endpoint) that strengthens the subsistence-fishing-mehg-disparity page. It is mercury-only and does not advance the multi-metal criterion.
-
-Promotion readiness: 3 of 4 criteria met. Criterion 2 (spans multiple metals) is now adequately supported via the shaalan2024 multi-metal industrial-impacted finding. The remaining gap is that the multi-metal co-elevation is documented for industrial-effluent contexts rather than ASGM specifically; a single ASGM paper reporting co-elevated Pb or Cd alongside Hg would complete this criterion cleanly. Promote when: (a) one ASGM paper reports multi-metal co-elevation (Pb or Cd alongside Hg), or (b) a third ASGM continent (Asia or Oceania) enters the corpus. South America (Colombia, Amazon), Africa (Zambia), and Europe (Almadén) are confirmed for the mining driver.
-
 ### Simultaneous Pb+As co-mitigation via single soil amendment intervention
 
 Anchor sources (1 A-tier study; seeding):
@@ -64,10 +37,6 @@ Promotion readiness: 1 of 4 criteria met (criterion 3, non-obvious from any sing
 
 Suggested synthesis page slug: `dual-metal-soil-co-mitigation` (broader framing that can absorb corroborating papers on any co-mitigation approach, not just jarosite).
 
-### ~~Spice and cinnamon adulteration as a Pb exposure pathway for infants and toddlers~~ → PROMOTED 2026-05-13
-
-Karen provided 4 papers (Forsyth 2024, Forsyth 2019, Lech 2020, FDA Import Alert 99-42) that, combined with existing troeschel2024 and rylander2025, satisfy all 4 promotion criteria. See Promoted section below.
-
 ### Dietary and herbal supplement Pb contamination (seeding)
 
 Anchor sources (1 B-tier study; seeding only):
@@ -79,43 +48,6 @@ Batch 13 adds: [[wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations|
 Thesis (nascent): Dietary supplements and traditional herbal preparations are a distinct Pb exposure pathway that is systematically undercaptured by food-matrix surveillance focused on conventional food categories. The thomas2024 result is extreme (40,657 ppm is several orders of magnitude above the worst findings in any food-matrix category in the current corpus), suggesting that the supplement and herbal medicine supply chain may be operating with testing and regulatory standards that are materially weaker than conventional food supply chains. If two or more independent studies document high Pb in supplements or traditional medicines across different product categories or jurisdictions, the thread warrants a synthesis page targeting brand-legal (supplement brands seeking HMT&C certification) and regulator (harmonization of supplement testing requirements) audiences.
 
 Promotion readiness: 1 of 4 criteria met. Criterion 3 (non-obvious) is met — a 40,657 ppm finding in a consumer product is not derivable from conventional food-chain surveillance. Promote when two or more independent A/B-tier studies document high Pb in supplements or herbal preparations, or when a regulatory body takes an enforcement action against supplement Pb that enters the corpus as a regulation page.
-
-### ~~Seaweed and kelp as systematic Cd and As exposure pathways~~ → PROMOTED 2026-05-16 (see Promoted section)
-
-Anchor sources (3 A-tier studies):
-
-- [[wiki/sources/nepper-davidsen2023-kelp-biomass-composition-nz|Nepper-Davidsen 2023]] (batch 13: Ecklonia radiata kelp, 12 NZ sites, ICP-MS, mean tAs 49 ppm DW, Cd 1.2 ppm DW; significant temporal autocorrelation for As and Hg; iAs speciation absent)
-- [[wiki/sources/hahn2022-salish-seaweed-contaminants|Hahn 2022]] (batch 15: bull kelp Nereocystis luetkeana, 43 Salish Sea sites; Cd exceeded international limits at every site, mean 5.69 mg/kg DW; tAs up to 72.5 mg/kg DW; iAs typically 1–5% of tAs; Pb spike to 13.2 mg/kg at industrial-adjacent site)
-- [[wiki/sources/efsa2023-heavy-metals-seaweed|EFSA 2023]] (batch 16: EFSA CONTAM Panel scientific opinion on heavy metals in seaweeds and halophytes as food and feed; n=2,093 Cd occurrence data points; laver mean Cd 1,675–1,676 µg/kg DW; full dietary exposure assessment across Cd, Pb, tAs, iAs, tHg for laver, kombu/wakame, spirulina, chlorella; iAs fraction characterised; EU regulatory risk characterisation)
-
-Thesis: Commercial seaweed and kelp products — sold as health foods, dietary supplements, and food ingredients — carry systematically elevated Cd and As that is poorly characterised by the food-safety surveillance frameworks applied to conventional food categories. The Cd finding is confirmed across three independent geographic regions (Pacific Northwest, New Zealand, European regulatory dataset) and spans multiple commercial species. The arsenosugar/iAs speciation issue in seaweed is already covered in the promoted organoarsenical-inertness-assumption synthesis page; the Cd contamination angle is distinct and not currently captured in any wiki synthesis page. EFSA 2023 is the definitive regulatory anchor: its n=2,093 Cd occurrence dataset and full EU dietary exposure assessment document the risk at a population-regulatory level.
-
-Promotion criteria met:
-1. Three independent A-tier sources ✓
-2. Spans multiple metals (Cd and As across multiple species and regions) ✓
-3. Non-obvious: consumer seaweed products frequently marketed without heavy metal characterisation; Cd levels not derivable from terrestrial food-chain surveillance; iAs/tAs speciation non-substitutability (iAs typically 1–5% of tAs) compounds risk underestimation ✓
-4. Actionable: EFSA CONTAM opinion indicates active EU regulatory attention; HMT&C ingredient pages for seaweed-containing products lack populated Cd profiles; ingredient Cd exceedances are material for brand-legal and certification audiences ✓
-
-Suggested synthesis page slug: `seaweed-cd-as-contamination`.
-
-### ~~Climate change will increase MeHg in marine fish~~ → PROMOTED 2026-05-16 (see Promoted section)
-
-Anchor sources (2 A-tier projection studies + 1 mechanistic anchor):
-
-- [[wiki/sources/sonke2023-mercury-global-change|Sonke 2023]] (batch 13: Ambio CC BY; global Hg biogeochemical cycling review; climate warming projected to raise fish MeHg 10–30%; US$117B annual economic cost attributed to Hg; background rate of global MeHg accumulation established)
-- [[wiki/sources/wang2023-climate-marine-mercury|Wang 2023]] (batch 16: PNAS biogeochemical model; ocean warming and deoxygenation under RCP8.5 scenario projected to increase MeHg in upper-trophic fish 5–20% by 2100; ocean minimum zone (OMZ) expansion drives anaerobic methylation rate increase as primary mechanism)
-- [[wiki/sources/motta2022-marine-hg-isotopes|Motta 2022]] (batch 16: PNAS stable-isotope study; MeHg in North Pacific pelagic food web traced to marine particles <53 µm rather than dissolved Hg; revises mechanistic understanding of pelagic fish MeHg bioaccumulation; relevant to why climate-driven OMZ changes affect particulate-phase methylation rates)
-
-Thesis (nascent): Current regulatory fish advisory frameworks and certification program seafood standards are calibrated against historical MeHg distributions in commercially harvested fish. Two independent PNAS-level modelling studies now project that ocean warming and deoxygenation will increase MeHg in upper-trophic fish by 5–30% by 2100, with the mechanism confirmed as expanded anaerobic methylation in oxygen minimum zones rather than increased total Hg loading. The Motta 2022 mechanistic study provides the particle-phase pathway that connects OMZ expansion to pelagic food-web MeHg. If this projection is correct, present-day HMT&C seafood standards, FDA/EPA fish advisories, and EFSA tolerances are all calibrated against a baseline that is shifting upward — a forward-looking regulatory blind spot.
-
-Why this matters:
-- Brand-legal: seafood brands using current FDA/EPA consumption advisories as the ceiling for safety arguments may face a moving target; documenting the projection literature now establishes the wiki as the reference for this forward-looking risk.
-- Regulator: existing regulatory frameworks are based on historical data; climate-MeHg projections are not yet incorporated into US or EU risk characterisations.
-- Educator: illustrates why heavy metal thresholds are not permanent and why ongoing surveillance matters.
-
-Promotion readiness: 2 of 4 criteria met. Criterion 1 (≥3 sources) is borderline — sonke2023 and wang2023 are independent projection studies; motta2022 is mechanistic rather than a projection; a third independent forward-looking study would complete criterion 1. Criterion 3 (non-obvious) is met. Promote when: a third independent peer-reviewed projection confirms the direction and magnitude of climate-driven fish MeHg increase.
-
-Suggested synthesis page slug: `climate-fish-mehg-projections`.
 
 ## Promoted
 
@@ -158,6 +90,87 @@ Promoted 2026-05-16. Anchor sources: Fuentes-López 2025 (Colombia San Jorge Riv
 ### Climate change is projected to increase methylmercury in marine fish
 
 Promoted 2026-05-16. Anchor sources: Sonke 2023 (Ambio CC BY global biogeochemical-cycle review, $117 billion annual economic-cost framing, 10–30% fish MeHg increase projection under climate warming), Wang 2023 (PNAS coupled climate-biogeochemistry model, RCP8.5 upper-trophic fish MeHg +5–20% by 2100, OMZ-expansion mechanism with methylation rate enhancement up to 2× in high-latitudes), Motta 2022 (PNAS Hg-isotope stable-isotope analysis on North Pacific marine organisms, methylation located in upper-400m marine particles less than 53 µm, mechanistic chain connecting climate forcing to pelagic-fish endpoint). Three independent PNAS-level sources (review + projection + mechanism). FDA action level (1.0 ppm tHg, 1979), EFSA TWI (1.3 µg/kg bw/week, 2012), EPA RfD (0.1 µg/kg/day, 2001), JECFA PTWI (1.6 µg/kg bw/week, 2003) all calibrated against pre-climate-projection baselines. Promotion was borderline on criterion 1 (three independent projections preferred over review+projection+mechanism); the synthesis is the most provisional of the 2026-05-16 batch and is explicitly flagged for resynthesis when a second independent quantitative projection enters the corpus or when IPCC AR7 incorporates ocean-mercury cycling. Synthesis page: [[../../wiki/synthesis/climate-fish-mehg-projections|climate-fish-mehg-projections]].
+
+## Archive (promoted, growth trace preserved)
+
+Entries below were promoted to dedicated synthesis pages; their Pending-section narratives (batch-by-batch evidence accumulation) are kept here as a growth trace. The canonical short-form record lives in the `## Promoted` section; the full page lives in `wiki/synthesis/`.
+
+### ~~Mining-impacted freshwater fish as a global Hg contamination driver~~ → PROMOTED 2026-05-16 (see Promoted section)
+
+Anchor sources (7+ A-tier studies, growing):
+
+Batch 9 adds: [[wiki/sources/shumba2025-tilapia-mercury-zambia-mining|Shumba 2025]] (Zambia artisanal gold mining, tilapia tHg 0.12–1.94 µg/g); [[wiki/sources/stahl2023-us-river-fish-mercury|Stahl 2023]] (US NRSA rivers, n=1,250+, 8% exceed FDA 1.0 µg/g); [[wiki/sources/lepak2023-sport-fish-mercury-colorado|Lepak 2023]] (Colorado sport fish, 26% exceed FDA advisory for vulnerable groups); [[wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry|Marriott 2023]] (Lake Victoria, industrial + agricultural runoff signatures); [[wiki/sources/hussein2023-freshwater-marine-fish-egypt|Hussein 2023]] (Egyptian freshwater fish, Pb exceedances vs EU ML).
+
+Pre-existing anchors: [[wiki/sources/fuenteslopez2025-colombia-freshwater-fish-mercury|Fuentes-López 2025]] (Colombia artisanal gold mining, La Mojana); [[wiki/sources/barquero2024-almaden-freshwater-bass-mercury|Barquero 2024]] (Almadén mine district Spain, 7.61 mg/kg tHg in bass); plus Li 2024 (PNAS global model) and Wu 2025 (PNAS China projection) already anchoring the [[wiki/synthesis/subsistence-fishing-mehg-disparity]] page.
+
+Thesis: Industrial mining (hard rock and coal), artisanal and small-scale gold mining (ASGM), and legacy contamination from decommissioned mine sites each produce elevated dissolved Hg in freshwater systems, where microbial methylation (now mechanistically documented by [[wiki/sources/zhou2025-microbial-methylmercury-rice-china|Zhou 2025]] for paddy systems) converts inorganic Hg to MeHg that biomagnifies up the food chain. The pattern is global (Africa, Asia, Europe, North and South America documented) and affects both subsistence and recreational fisheries. Regulatory thresholds for fish consumption are set against aggregate population means, not against populations with elevated consumption of fish from contaminated systems.
+
+Why this matters:
+- Brand-legal: the subsistence-fishing synthesis page identifies the vulnerable population; this candidate identifies the contamination source mechanism and its global distribution, enabling the defense argument that HMTc seafood standards calibrated to commercial market supply chains cannot rely on existing FDA/EFSA limits to protect populations reliant on artisanal or recreational catch.
+- Regulator: the geographic scope (global, confirmed across six continents) is the non-obvious finding. Regulatory frameworks are mostly national; the cross-national scope of the same driver is a synthesis-page contribution.
+- Educator: explains why "follow FDA fish advisory" does not apply uniformly to all fish consumption contexts.
+
+This candidate is distinct from the promoted subsistence-fishing-mehg-disparity page, which focuses on population vulnerability. This candidate focuses on the contamination driver and geographic scope.
+
+Batch 11 adds: [[wiki/sources/willacker2023-mercury-fish-snake-river|Willacker 2023]] (Snake River reservoirs; thermal stratification drives tHg 76% higher in fish; 52–80% exceed consumption benchmarks vs 6–17% in free-flowing reaches); [[wiki/sources/leclerc2023-methylmercury-periphyton-river|Leclerc 2023]] (Quebec run-of-river dam, periphyton methylation hotspots, MeHg/tHg ratio 2.9× in impounded reaches); [[wiki/sources/paez-osuna2024-fish-mercury-selenium-mexico|Paez-Osuna 2024]] (El Comedero dam Mexico post-mine-tailing spill, elevated MeHg/tHg ratio). These add dam-related impoundment as a Hg methylation driver that is mechanistically parallel to ASGM. The synthesis page should present both drivers (mining and impoundment) as co-mechanisms for the same anoxic-bottom-sediment methylation pathway.
+
+Batch 12 adds: [[wiki/sources/lucchini2025-amazon-mercury-co-exposures|Lucchini 2025]] (Amazon basin scoping review; fish tHg 0.10–4.73 µg/g; hair Hg 3.07–24.6 µg/g in exposed populations; ASGM as primary anthropogenic Hg source; framing includes co-exposures with agrochemicals and microplastics). This adds further South American ASGM documentation but is mercury-only and does not resolve the multi-metal criterion.
+
+Batch 13 adds: [[wiki/sources/shaalan2024-nile-tilapia-heavy-metals-egypt|Shaalan 2024]] (Nile tilapia from Egyptian industrial-effluent canal, ICP-OES, n=120; El-Rayah site values Pb 33.4 mg/kg, Cd 2.3 mg/kg, Hg 10.4 mg/kg — extreme multi-metal co-elevation, HI>1 across multiple metals). This is industrial pollution rather than ASGM but directly supports criterion 2 (spans multiple metals): Pb, Cd, and Hg are co-elevated by a factor of 10–1000× beyond food safety limits in a freshwater fish from a contaminated system. The multi-metal pattern in industrial-impacted freshwater fish is now documented for Africa (Zambia ASGM, Egypt industrial), South America (Colombia ASGM, Amazon), and Europe (Almadén Spain). Also adds [[wiki/sources/melnyk2021-mercury-anadromous-fish-penobscot|Melnyk 2021]] (US EPA/ATSDR tHg in 6 anadromous species, Penobscot River ME, 75 composites; sea lamprey mean 628 µg/kg).
+
+Batch 14 adds: [[wiki/sources/oliveira2022-mercury-fish-pregnant-women-tapajos|Oliveira 2022]] (Tapajos River basin, Brazil; piscivorous fish tHg exceeds FDA/EPA 0.5 mg/kg in at least one season; 48% of 110 pregnant women exceed US EPA hair Hg reference dose). This adds further Amazon human-exposure documentation (subsistence fishing endpoint) that strengthens the subsistence-fishing-mehg-disparity page. It is mercury-only and does not advance the multi-metal criterion.
+
+Promotion readiness: 3 of 4 criteria met. Criterion 2 (spans multiple metals) is now adequately supported via the shaalan2024 multi-metal industrial-impacted finding. The remaining gap is that the multi-metal co-elevation is documented for industrial-effluent contexts rather than ASGM specifically; a single ASGM paper reporting co-elevated Pb or Cd alongside Hg would complete this criterion cleanly. Promote when: (a) one ASGM paper reports multi-metal co-elevation (Pb or Cd alongside Hg), or (b) a third ASGM continent (Asia or Oceania) enters the corpus. South America (Colombia, Amazon), Africa (Zambia), and Europe (Almadén) are confirmed for the mining driver.
+
+Archived 2026-05-28: already in `## Promoted` with synthesis page at `wiki/synthesis/mining-impacted-freshwater-fish-as-a-global-hg-contamination-driver`.
+
+### ~~Spice and cinnamon adulteration as a Pb exposure pathway for infants and toddlers~~ → PROMOTED 2026-05-13
+
+Karen provided 4 papers (Forsyth 2024, Forsyth 2019, Lech 2020, FDA Import Alert 99-42) that, combined with existing troeschel2024 and rylander2025, satisfy all 4 promotion criteria. See Promoted section below.
+
+Archived 2026-05-28: already in `## Promoted` with synthesis page at `wiki/synthesis/spice-and-cinnamon-adulteration-as-a-pb-exposure-pathway-for-infants-and-toddler`.
+
+### ~~Seaweed and kelp as systematic Cd and As exposure pathways~~ → PROMOTED 2026-05-16 (see Promoted section)
+
+Anchor sources (3 A-tier studies):
+
+- [[wiki/sources/nepper-davidsen2023-kelp-biomass-composition-nz|Nepper-Davidsen 2023]] (batch 13: Ecklonia radiata kelp, 12 NZ sites, ICP-MS, mean tAs 49 ppm DW, Cd 1.2 ppm DW; significant temporal autocorrelation for As and Hg; iAs speciation absent)
+- [[wiki/sources/hahn2022-salish-seaweed-contaminants|Hahn 2022]] (batch 15: bull kelp Nereocystis luetkeana, 43 Salish Sea sites; Cd exceeded international limits at every site, mean 5.69 mg/kg DW; tAs up to 72.5 mg/kg DW; iAs typically 1–5% of tAs; Pb spike to 13.2 mg/kg at industrial-adjacent site)
+- [[wiki/sources/efsa2023-heavy-metals-seaweed|EFSA 2023]] (batch 16: EFSA CONTAM Panel scientific opinion on heavy metals in seaweeds and halophytes as food and feed; n=2,093 Cd occurrence data points; laver mean Cd 1,675–1,676 µg/kg DW; full dietary exposure assessment across Cd, Pb, tAs, iAs, tHg for laver, kombu/wakame, spirulina, chlorella; iAs fraction characterised; EU regulatory risk characterisation)
+
+Thesis: Commercial seaweed and kelp products — sold as health foods, dietary supplements, and food ingredients — carry systematically elevated Cd and As that is poorly characterised by the food-safety surveillance frameworks applied to conventional food categories. The Cd finding is confirmed across three independent geographic regions (Pacific Northwest, New Zealand, European regulatory dataset) and spans multiple commercial species. The arsenosugar/iAs speciation issue in seaweed is already covered in the promoted organoarsenical-inertness-assumption synthesis page; the Cd contamination angle is distinct and not currently captured in any wiki synthesis page. EFSA 2023 is the definitive regulatory anchor: its n=2,093 Cd occurrence dataset and full EU dietary exposure assessment document the risk at a population-regulatory level.
+
+Promotion criteria met:
+1. Three independent A-tier sources ✓
+2. Spans multiple metals (Cd and As across multiple species and regions) ✓
+3. Non-obvious: consumer seaweed products frequently marketed without heavy metal characterisation; Cd levels not derivable from terrestrial food-chain surveillance; iAs/tAs speciation non-substitutability (iAs typically 1–5% of tAs) compounds risk underestimation ✓
+4. Actionable: EFSA CONTAM opinion indicates active EU regulatory attention; HMT&C ingredient pages for seaweed-containing products lack populated Cd profiles; ingredient Cd exceedances are material for brand-legal and certification audiences ✓
+
+Suggested synthesis page slug: `seaweed-cd-as-contamination`.
+
+Archived 2026-05-28: already in `## Promoted` with synthesis page at `wiki/synthesis/seaweed-cd-as-contamination`.
+
+### ~~Climate change will increase MeHg in marine fish~~ → PROMOTED 2026-05-16 (see Promoted section)
+
+Anchor sources (2 A-tier projection studies + 1 mechanistic anchor):
+
+- [[wiki/sources/sonke2023-mercury-global-change|Sonke 2023]] (batch 13: Ambio CC BY; global Hg biogeochemical cycling review; climate warming projected to raise fish MeHg 10–30%; US$117B annual economic cost attributed to Hg; background rate of global MeHg accumulation established)
+- [[wiki/sources/wang2023-climate-marine-mercury|Wang 2023]] (batch 16: PNAS biogeochemical model; ocean warming and deoxygenation under RCP8.5 scenario projected to increase MeHg in upper-trophic fish 5–20% by 2100; ocean minimum zone (OMZ) expansion drives anaerobic methylation rate increase as primary mechanism)
+- [[wiki/sources/motta2022-marine-hg-isotopes|Motta 2022]] (batch 16: PNAS stable-isotope study; MeHg in North Pacific pelagic food web traced to marine particles <53 µm rather than dissolved Hg; revises mechanistic understanding of pelagic fish MeHg bioaccumulation; relevant to why climate-driven OMZ changes affect particulate-phase methylation rates)
+
+Thesis (nascent): Current regulatory fish advisory frameworks and certification program seafood standards are calibrated against historical MeHg distributions in commercially harvested fish. Two independent PNAS-level modelling studies now project that ocean warming and deoxygenation will increase MeHg in upper-trophic fish by 5–30% by 2100, with the mechanism confirmed as expanded anaerobic methylation in oxygen minimum zones rather than increased total Hg loading. The Motta 2022 mechanistic study provides the particle-phase pathway that connects OMZ expansion to pelagic food-web MeHg. If this projection is correct, present-day HMT&C seafood standards, FDA/EPA fish advisories, and EFSA tolerances are all calibrated against a baseline that is shifting upward — a forward-looking regulatory blind spot.
+
+Why this matters:
+- Brand-legal: seafood brands using current FDA/EPA consumption advisories as the ceiling for safety arguments may face a moving target; documenting the projection literature now establishes the wiki as the reference for this forward-looking risk.
+- Regulator: existing regulatory frameworks are based on historical data; climate-MeHg projections are not yet incorporated into US or EU risk characterisations.
+- Educator: illustrates why heavy metal thresholds are not permanent and why ongoing surveillance matters.
+
+Promotion readiness: 2 of 4 criteria met. Criterion 1 (≥3 sources) is borderline — sonke2023 and wang2023 are independent projection studies; motta2022 is mechanistic rather than a projection; a third independent forward-looking study would complete criterion 1. Criterion 3 (non-obvious) is met. Promote when: a third independent peer-reviewed projection confirms the direction and magnitude of climate-driven fish MeHg increase.
+
+Suggested synthesis page slug: `climate-fish-mehg-projections`.
+
+Archived 2026-05-28: already in `## Promoted` with synthesis page at `wiki/synthesis/climate-fish-mehg-projections`.
+
 
 ## Retired (not synthesis-page-worthy)
 
