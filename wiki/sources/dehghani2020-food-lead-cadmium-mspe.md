@@ -31,16 +31,18 @@ This analytical-method paper applied a magnetic solid-phase microextraction meth
 
 ## Key numbers
 
-- Table 4 reports black tea at Pb 5.62 ug/g (RSD 0.89%) and Cd 0.53 ug/g (RSD 1.88%).
-- Rice was non-detect for Pb and had Cd 0.45 ug/g (RSD 2.20%).
-- One infant dry formula milk sample had Pb 1.35 ug/g (RSD 2.22%) and Cd 0.03 ug/g (RSD 3.30%).
-- A second infant dry formula milk sample had Pb 3.86 ug/g (RSD 2.07%) and Cd 0.02 ug/g (RSD 3.57%).
-- Cow milk was reported on a liquid basis: Pb 60.68 ug/L (RSD 2.47%) and Cd 2.55 ug/L (RSD 3.92%).
-- Method LODs were 0.54 ug/L for Pb and 0.03 ug/L for Cd; LOQs were 1.82 ug/L for Pb and 0.11 ug/L for Cd.
+Solid food values below are reported on a dry-weight basis (samples were dried at 110 °C before digestion per the methods section); cow milk values are on a fresh-liquid basis. Units are µg/g for solids (equivalent to mg/kg, or ppb × 1,000) and µg/L for liquid milk.
+
+- Table 4 reports black tea at Pb 5.62 ug/g dry weight (RSD 0.89%; equivalent to 5,620 ppb) and Cd 0.53 ug/g dry weight (RSD 1.88%; 530 ppb).
+- Rice was non-detect for Pb and had Cd 0.45 ug/g dry weight (RSD 2.20%; 450 ppb).
+- Two infant dry formula milk samples (n=2, different Iranian manufacturers) ranged Pb 1.35 to 3.86 ug/g dry weight (RSDs 2.07 to 2.22 percent) and Cd 0.02 to 0.03 ug/g dry weight (RSDs 3.30 to 3.57 percent); equivalent ranges 1,350 to 3,860 ppb Pb and 20 to 30 ppb Cd.
+- Cow milk: Pb 60.68 ug/L (RSD 2.47%) and Cd 2.55 ug/L (RSD 3.92%).
+- Method LODs were 0.54 ug/L for Pb and 0.03 ug/L for Cd; LOQs were 1.82 ug/L for Pb and 0.11 ug/L for Cd. Method RSDs at 50.0 ug/L Pb and 5.0 ug/L Cd (n=6) were 1.5 percent and 2.1 percent.
+- Enhancement factors were 197.6 for Pb and 195.5 for Cd; preconcentration factor 200; extraction recovery 98.8 percent for Pb and 97.7 percent for Cd.
 
 ## Methods
 
-The paper developed polythiophene-coated magnetic multi-walled carbon nanotubes for magnetic solid-phase microextraction, followed by flame atomic absorption spectrometry. Food samples were prepared by acid digestion before extraction and measurement.
+The paper developed polythiophene-coated magnetic multi-walled carbon nanotubes (MMWCNT@PT) for magnetic solid-phase microextraction, followed by flame atomic absorption spectrometry on an Analytik Jena novAA 300 with hollow cathode lamps and an air-acetylene flame (Pb at 283.3 nm, Cd at 228.8 nm). Food samples were dried at 110 °C, ground, then digested with concentrated HNO3 plus 30% H2O2 with heating to dryness before redissolution and pH adjustment to 6.0 for extraction. Cross-validation was performed by graphite-furnace AAS (ETAAS) on the same samples; results agreed at the 95 percent confidence level.
 
 ## Implications
 
@@ -60,6 +62,10 @@ The source supports method-application occurrence context for Pb and Cd in tea, 
 
 ## Verification notes
 
-The source table identifies two infant formula samples by company footnotes; those identifiers were not transcribed. Food solid values are reported as ug/g, while cow milk is reported as ug/L. Table 4 footnote states the values are averages with relative standard deviation of three determinations, so the parenthetical percentages are RSD values rather than concentration standard deviations.
+The source table identifies two infant formula samples by company footnotes; those identifiers were not transcribed. The previous version of this page split the two infant-formula samples into "first sample / second sample" rows in Key numbers with distinct Pb and Cd values; under the strict 2026-05-17 reading of Part 12 the per-sample structure preserves a one-to-one back-mapping to the two named brands in the source table footnotes. Audit subagent (2026-05-28) flagged this; verified against source — Key numbers now collapses both samples into a range with n=2 disclosure.
+
+Food solid values are reported as ug/g, while cow milk is reported as ug/L. Table 4 footnote states the values are averages with relative standard deviation of three determinations, so the parenthetical percentages are RSD values rather than concentration standard deviations. Methods section "Black Tea and Rice Samples" (page 511) describes drying at 110 °C before digestion, so the food solid values are on a dry-weight basis; this is now annotated in Key numbers.
+
+Audit subagent (2026-05-28) also flagged `products/infant-formula-powder` as a missing slug; verified against `wiki/products/infant-formula-powder.md` and the products section of `docs/gpt-collaboration/taxonomy-snapshot.md` — the slug exists and is valid, so the finding is a false positive and no correction was applied.
 
 The discovery daemon auto-fetched this paper twice — once against the rice/milk Cd gap (filename suffix `-cd_`) and once against the rice/milk Pb gap (filename suffix `-pb_`). Both files are byte-identical (SHA256 above) and both filenames are recorded in `near_duplicates`. The `-cd_` filename is the primary `raw_path` since it was ingested first; the `-pb_` filename is its duplicate and routes to the same source page.
