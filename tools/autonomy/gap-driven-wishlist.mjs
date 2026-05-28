@@ -61,6 +61,14 @@ fs.mkdirSync(path.dirname(outputPath), { recursive: true })
 // Query-history deprioritization thresholds
 const MAX_ATTEMPTS_BEFORE_DROP = 5 // a (query × cell) attempted >=5 times with <2 downloads is dropped
 const MIN_DOWNLOADS_TO_KEEP = 2 // if downloads <2, treat as low-yield
+
+// Cell-level coverage threshold (Path C, added 2026-05-28).
+// CLAUDE.md Part 9 uses doubling-on-n_studies as the resynthesis trigger
+// (resynthesize at 4, 8, 16, 32...). A cell at n < 8 is still in
+// low/medium-confidence territory and benefits from more evidence. Setting
+// the gap-fill threshold at 8 matches the high-confidence boundary; cells
+// below this trigger a wishlist query targeted at that exact (page, metal).
+const CELL_FULL_THRESHOLD = 8
 // Coverage-rotation budget per run. Sprint mode 2026-05-25 bumped 600 → 2500
 // to feed the every-tick fetcher with enough queries per cycle. Combined
 // with cell-targeted wishlist generation, this opens the pipeline to
@@ -124,6 +132,16 @@ function main() {
   // Path B: empty-page-driven (new)
   const pathBCount = runEmptyPagePath(wishlistRows, queryHistory)
   console.log(`Path B (empty-product + thin-ingredient pages): ${pathBCount} candidates`)
+
+  // Path C: cell-level n_studies-driven (new 2026-05-28). Path B fires on
+  // page-level `sources < 3` which misses thin individual cells on otherwise-
+  // populated pages. Per CLAUDE.md Part 9, a cell needs n_studies >= 8 to
+  // claim high confidence; cells at 3 <= n < 8 are medium/low confidence
+  // and benefit from more evidence. This path walks every contamination_
+  // profile sub-block on ingredient + product pages and emits a query for
+  // any populated cell with n_studies below CELL_FULL_THRESHOLD.
+  const pathCCount = runCellCoveragePath(wishlistRows, queryHistory)
+  console.log(`Path C (cell-level n_studies < ${CELL_FULL_THRESHOLD} on populated cells): ${pathCCount} candidates`)
 
   // Dedupe identical (product × metal × query) tuples
   const seen = new Set()
@@ -294,6 +312,92 @@ function runEmptyPagePath(wishlistRows, queryHistory) {
   return count
 }
 
+// ---------- Path C: cell-level n_studies-driven (2026-05-28) ----------
+//
+// Walks contamination_profile blocks on ingredient + product pages. For each
+// populated cell whose n_studies is below CELL_FULL_THRESHOLD, emits a
+// wishlist query targeted at that exact (page, metal). Per CLAUDE.md Part 9,
+// the resynthesis triggers double on n_studies (4, 8, 16…) — this path
+// drives ingestion toward closing cells, not just toward populating empty
+// pages (Path B). Distinct from Path A (pooling-engine BLOCKED/PROVISIONAL
+// flags, HMTc-staff-facing data) by operating directly on the public-wiki
+// contamination_profile state.
+function runCellCoveragePath(wishlistRows, queryHistory) {
+  let count = 0
+  // Match a populated cell sub-block:
+  //   <indent>Pb:
+  //   <indent+2>status: populated
+  //   <indent+2>n_studies: <number>
+  // Captures both metal and n_studies.
+  const cellRe = /^  ([A-Za-z][A-Za-z0-9-]+):\s*\n((?:    [^\n]*\n)+)/gm
+
+  function emitForPage(fullPath, dirLabel) {
+    const fm = readFrontmatter(fullPath)
+    if (!fm.raw) return
+    if (!/^contamination_profile:/m.test(fm.raw)) return
+    const slug = path.basename(fullPath, ".md")
+    if (slug === "index") return
+    const title = fm.title || slug
+
+    // Slice frontmatter to the contamination_profile section.
+    const cpStart = fm.raw.search(/^contamination_profile:/m)
+    if (cpStart < 0) return
+    // contamination_profile ends at the next top-level key or end of frontmatter
+    const after = fm.raw.slice(cpStart)
+    const cpEnd = after.search(/^[a-z_]+:/m) > 0
+      ? after.slice(1).search(/^[a-z_]+:/m) + 1
+      : after.length
+    const cpBlock = after.slice(0, cpEnd)
+
+    cellRe.lastIndex = 0
+    let m
+    while ((m = cellRe.exec(cpBlock)) !== null) {
+      const metalRaw = m[1]
+      const sub = m[2]
+      const statusMatch = sub.match(/^\s+status:\s*(\S+)/m)
+      const nMatch = sub.match(/^\s+n_studies:\s*([0-9]+)/m)
+      if (!statusMatch) continue
+      const status = statusMatch[1]
+      if (status !== "populated" && status !== "in_progress") continue
+      const n = nMatch ? parseInt(nMatch[1], 10) : 0
+      if (n >= CELL_FULL_THRESHOLD) continue
+      // Normalize metal name to METAL_KEYWORDS key shape.
+      const metalKey = metalRaw === "MeHg" ? "MeHg"
+        : metalRaw === "Cr-VI" ? "Cr-VI"
+        : metalRaw
+      const metalKeywords = METAL_KEYWORDS[metalKey] || [metalRaw.toLowerCase()]
+      const pageKeywords = generateProductKeywords(slug, title)
+      const priority = n === 0 ? "P1" : n < 4 ? "P2" : "P3"
+      for (const pk of pageKeywords.slice(0, 2)) {
+        for (const mk of metalKeywords.slice(0, 1)) {
+          wishlistRows.push({
+            gap_priority: priority,
+            product_slug: `${dirLabel}:${slug}`,
+            metal_species: metalKey,
+            search_query: `${pk} ${mk} contamination occurrence`,
+            openalex_filter: "type:journal-article,is_oa:true,from_publication_date:2018-01-01",
+            rationale: `Cell-level coverage: ${dirLabel}/${slug} × ${metalKey} has n_studies=${n} (<${CELL_FULL_THRESHOLD}); Path C (v2 2026-05-28).`,
+            source_target: "openalex",
+          })
+          count++
+        }
+      }
+    }
+  }
+
+  if (fs.existsSync(ingredientsDir)) {
+    for (const file of fs.readdirSync(ingredientsDir).filter((f) => f.endsWith(".md"))) {
+      emitForPage(path.join(ingredientsDir, file), "ingredient")
+    }
+  }
+  if (fs.existsSync(productsDir)) {
+    for (const file of fs.readdirSync(productsDir).filter((f) => f.endsWith(".md"))) {
+      emitForPage(path.join(productsDir, file), "product")
+    }
+  }
+  return count
+}
+
 // ---------- Smart keyword generation ----------
 
 function generateProductKeywords(slug, title, categoryLabel, hmtcCategory) {
@@ -448,8 +552,8 @@ function priorityRank(p) {
 function readFrontmatter(filePath) {
   const text = fs.readFileSync(filePath, "utf8")
   const match = text.match(/^---\n([\s\S]*?)\n---/)
-  if (!match) return {}
-  const fm = {}
+  if (!match) return { raw: "" }
+  const fm = { raw: match[1] }
   const fmText = match[1]
   for (const line of fmText.split("\n")) {
     const m = line.match(/^([a-z_][a-z0-9_]*):\s*(.*)$/i)
