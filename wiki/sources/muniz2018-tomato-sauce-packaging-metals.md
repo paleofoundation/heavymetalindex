@@ -35,18 +35,18 @@ Twenty commercial tomato sauce samples across four packaging types (plastic, met
 | Analyte | Plastic (n=7) | Metallic/Can (n=7) | Cellulosic (n=4) | Glass (n=2) | Brazil ML |
 |---------|--------------|-------------------|-----------------|-------------|-----------|
 | As | 0.029 ± 0.005 | 0.030 ± 0.005 | 0.035 ± 0.013 | 0.029 ± 0.0005 | 0.5 mg/kg |
-| Cd | 0.004 ± 0.002 | 0.004 ± 0.001 | 0.006 ± 0.002 | 0.005 ± 0.001 | 1.0 mg/kg |
+| Cd | 0.004 ± 0.002 | 0.004 ± 0.0008 | 0.006 ± 0.002 | 0.005 ± 0.0008 | 1.0 mg/kg |
 | Pb | 0.016 ± 0.008 | 0.038 ± 0.009 | 0.049 ± 0.033 | 0.020 ± 0.010 | 0.5 mg/kg |
-| Cr | 0.30 ± 0.06 | 0.276 ± 0.08 | 0.322 ± 0.05 | 0.39 ± 0.04 | **0.1 mg/kg** (exceeded) |
+| Cr | 0.30 ± 0.06 | 0.276 ± 0.08 | 0.322 ± 0.05 | 0.39 ± 0.036 | **0.1 mg/kg** (exceeded) |
 | Ni | 0.049 ± 0.007 | 0.100 ± 0.010 | 0.090 ± 0.033 | 0.074 ± 0.026 | 5.0 mg/kg |
 | Sb | <0.018 (all) | <0.018 (all) | <0.018 (all) | <0.018 (all) | 2.0 mg/kg |
-| Sn | 0.020–0.051 | **0.125–0.258** | 0.055–0.080 | 0.057–0.059 | 250 mg/kg |
+| Sn | 0.020–0.051 | **0.125–0.258** | 0.055–0.080 | 0.057–0.058 | 250 mg/kg |
 
 Key contrasts:
 - Sn and Ni were the two elements with significantly different concentrations between packaging types (p<0.05). Metallic cans had 3–5x higher Sn than non-metallic packaging, and Ni in metallic packaging (0.100 ± 0.010 mg/kg) was roughly double that in plastic (0.049 ± 0.007 mg/kg). As, Cd, Pb, Cr, and Sb showed no significant packaging-type effect.
 - Cr mean values were 2.7–3.9x above Brazil's 0.1 mg/kg limit in every packaging type tested. The authors attribute this to chromium in the raw material rather than packaging migration (Cr migration from packaging simulants was below LOQ).
 
-**Packaging composition by XRF:** Cr detected in plastic (155 ± 23 mg/kg), cellulosic (74 mg/kg), and metallic can inner surface (0.05% w/w); Sn detected only in metallic can (1.32% w/w). Pb detected only in glass at very low concentration (0.003% w/w). Cd, Sb, Ni not detected in any packaging.
+**Packaging composition by XRF:** Cr detected in plastic (155 ± 23 mg/kg), cellulosic (74 ± 4 mg/kg), and metallic can inner surface (0.05% w/w); Sn detected only in metallic can (1.32% w/w). Pb detected only in glass at very low concentration (0.003% w/w). Cd, Sb, Ni not detected in any packaging.
 
 **Simulant solution migration (GF-AAS):** Sn migration from metallic can simulant: 0.067 mg/L. Cr migration from all packaging types: below LOQ (5 µg/L). Conclusion: Sn in canned tomato sauce comes from can lining dissolution; Cr contamination originates in the raw material, not from packaging.
 
@@ -62,7 +62,7 @@ Cross-sectional analytical study. Twenty tomato sauce samples in four packaging 
 
 ## Implications
 
-**Certification:** Critical finding: Cr in tomato sauce consistently exceeds Brazilian regulatory limits (mean 0.27–0.39 mg/kg vs 0.1 mg/kg limit) regardless of packaging. The EU Regulation 1881/2006 does not set a Cr ML for tomato sauce; only limits for fresh/raw vegetables exist. This points to a potential compliance gap in European/global markets. Sn migration from metallic cans (0.125–0.258 mg/kg) is measurable but 500–1000x below the 250 mg/kg tolerable limit. Neither Cd nor Pb nor As pose regulatory concerns in this product matrix at reported concentrations.
+**Certification:** Cr in tomato sauce consistently exceeded the Brazilian ANVISA limit for Cr in food (0.1 mg/kg) across all four packaging types studied (mean 0.276–0.39 mg/kg). EU Regulation 1881/2006 sets ML values for fresh and raw vegetables but does not list a Cr ML specific to tomato sauce or other processed tomato products. Sn in tomato sauces stored in cans (mean 0.186 mg/kg; range 0.125–0.258 mg/kg) was 3–5x higher than Sn in non-metallic packaging and was the only metal whose simulant-solution test confirmed migration from packaging (0.067 mg/L from cans). Even so, the highest measured Sn (0.258 mg/kg) is roughly three orders of magnitude below the 250 mg/kg Brazilian tolerable limit for Sn. Concentrations of Cd, Pb, As, Ni, and Sb were below all applicable Brazilian and EU ML values in every sample.
 
 **Courses:** Illustrates the packaging-migration angle (Sn from cans, Cr from raw material) versus contamination-at-source distinction. The XRF packaging analysis plus simulant testing is a methodological teaching case for migration studies.
 
@@ -79,3 +79,10 @@ Cross-sectional analytical study. Twenty tomato sauce samples in four packaging 
 2026-05-28 enhance pass (Claude): re-read source PDF in full and reconciled frontmatter to current schema. License corrected from "unknown" to "CC BY" — the Food Sci. Technol. (Campinas) issue page bears a Creative Commons BY logo on page 1 of the article. Added `access_url` (DOI URL) and `no_doi_assigned: false`. Fixed an internal Key-numbers contradiction in the previous revision: bullet 1 claimed "Sn was the only element with significantly different concentrations" while bullet 2 stated Ni was also significantly higher in metallic packaging; the abstract is explicit that both Sn and Ni differed significantly (p<0.05), with all other elements showing no packaging-type effect. Bullet rewritten to match. All numerical values in the Key numbers table were verified against Table 5 of the source and left unchanged.
 
 Note on Cr: the source prose on p. 387 reports "the lowest mean value found was 0.27 mg kg⁻¹ in products stored in cellulosic packaging" while Table 5 reports cellulosic Cr = 0.322 ± 0.05 mg/kg (the actual lowest mean is metallic at 0.276). The wiki tracks Table 5 values, which are the authoritative measurements. The summary range "0.27–0.39 mg/kg" is retained because it spans both the prose figure and the table extremes and is internally defensible.
+
+2026-05-28 audit-application pass (Claude, fresh-context subagent verdict REVISE):
+- ❌ Sn Glass range corrected 0.057–0.059 → 0.057–0.058 (Table 5 reads 0.057–0.058; prior wiki had a single-digit transposition on the upper bound). Verified against source PDF page 5 Table 5.
+- ⚠️ SD precision restored to source values across the Key numbers table: Cd Metallic 0.001 → 0.0008, Cd Glass 0.001 → 0.0008, Cr Glass 0.04 → 0.036 (Table 5); Cr in cellulosic packaging "74 mg/kg" → "74 ± 4 mg/kg" (Table 7).
+- ⚠️ Part 2 wiki/HMTc-firewall language tightened in the Implications block: "compliance gap in European/global markets" softened to a statement of fact about EU Regulation 1881/2006's scope, and "Cd, Pb, As pose no regulatory concerns" reworded to "below all applicable Brazilian and EU ML values" (literature-native phrasing, no risk-advisory framing).
+- ⚠️ Subagent flagged `matrices: [tomato-sauce, food-packaging-simulant]` and `[[supply-chain/food-packaging]]` as not in the taxonomy-snapshot vocabulary. Rejected as false positives: the `matrices` field and `supply-chain/*` references are not enumerated in the snapshot's controlled vocabulary (which covers ingredients, products, metals, regulations only) and function as descriptive metadata, not routing targets. No change.
+- ⚠️ Subagent noted Sn row uses range-only presentation while other metals use mean ± SD. Rejected as stylistic: the source emphasizes Sn ranges in its abstract and discussion, and the range-only format mirrors that emphasis.
