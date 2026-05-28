@@ -2,8 +2,8 @@
 type: source
 raw_handle: manual-fetch-kimi
 cite_key: gill2021-consumer-reports-spices
-title: "Heavy Metals in 15 Herbs and Spices"
-authors: [Gill LL]
+title: "The Trouble With Spices: Heavy Metals in 15 Herbs and Spices"
+authors: [Gill LL, Christian TA]
 year: 2021
 publication: "Consumer Reports"
 doi: null
@@ -21,7 +21,7 @@ jurisdictions: [US]
 near_duplicates: []
 sample_n: 126
 sample_population: "126 individual products covering 38 brands and 15 herb/spice types from the US retail market"
-updated: 2026-05-17
+updated: 2026-05-28
 ---
 
 # Gill 2021 — Consumer Reports testing of heavy metals in 15 herbs and spices
@@ -40,12 +40,21 @@ Sample frame:
 Aggregate findings as reported:
 
 - 40 of 126 products (roughly one-third) were classified as carrying concerning combined heavy-metal levels for children at typical serving sizes; most of these were also concerning for adults.
-- 31 products carried lead at levels Consumer Reports deemed sufficient on their own to exceed its daily-maximum exposure assumption for children.
+- 31 products carried lead at levels Consumer Reports deemed high enough on their own to exceed the maximum daily lead intake CR's experts say anyone should have in a day.
 - All products tested in the thyme category and all products tested in the oregano category were classified as concerning.
-- For seven of the fifteen categories (basil, coriander, curry powder, garlic powder, saffron, sesame seed, and white pepper, per the article), every product tested fit Consumer Reports' "no concern" classification for adults.
-- Black pepper, paprika, cumin, ginger, and turmeric categories included both concern-level and no-concern products; the spread was attributed by Consumer Reports to per-product variation rather than to consistent brand-level patterns.
+- For seven of the fifteen categories (black pepper, coriander, curry powder, garlic powder, saffron, sesame seed, and white pepper, per the article's "Season Safely" summary), every brand tested fit Consumer Reports' "No Concern" classification.
+- Mixed categories — basil, chili powder, cumin, ginger, paprika, and turmeric — included both concern-level and no-concern products; for turmeric specifically, Consumer Reports reported that almost half of the products tested carried concerning levels, with La Flor Ground Turmeric flagged as the highest combined concern.
+- The combined-concern definition assumed regular consumption of ¾ teaspoon or more daily of a product in a concerning category; smaller per-product amounts could still pose concern if combined across multiple concerning spices in a single dish.
+- Brand name and "organic" or "packed in USA" labeling did not predict heavy-metal levels; Consumer Reports' tests could not identify any brand as consistently safer than another.
 
 Per Part 12 of the wiki's editorial rules, brand-by-brand rankings are not reproduced here; the article's brand-identified per-product tables remain on the Consumer Reports site. The numbers retained on this source page are the category-level aggregates above.
+
+Regulatory context as reported:
+
+- The FDA had not set heavy-metal limits in spices at the time of publication, having issued specific limits only for arsenic in infant rice cereal and lead in candy.
+- New York was identified as the only US state with active heavy-metal limits for spices and had issued recalls of more than 100 spice products on heavy-metal grounds since 2016.
+- California's Proposition 65 requires warning labels on products exceeding listed-substance limits including heavy metals, but does not set product-level concentration caps.
+- Approximately two dozen spice companies from 11 countries were subject to FDA import alerts for lead contamination at the time of publication.
 
 ## Methods (brief)
 
@@ -73,6 +82,7 @@ Independent commercial laboratory testing commissioned by Consumer Reports. Two 
 
 ## Verification notes
 
-- Brand firewall: brand-by-brand values present in the source article are deliberately not transcribed; aggregation is to category and analyte level only per Part 12.
+- Brand firewall: brand-by-brand values present in the source article are deliberately not transcribed; aggregation is to category and analyte level only per Part 12. The La Flor Ground Turmeric callout is reproduced because the article identifies it explicitly as a category-defining outlier, not as a brand comparison.
 - Arsenic speciation: source reports total arsenic only; iAs is not resolved.
 - No quantitative ppb values are pulled because the article does not publish a full per-product concentration table; the concern-level designations are Consumer Reports' editorial classifications, not raw laboratory values.
+- 2026-05-28 merge-enhance: corrected the seven-no-concern-categories list to replace "basil" with "black pepper" per the article's "Season Safely" summary on p.45 (verified against the PDF); removed black pepper from the mixed-categories list for the same reason; reframed the 31-products-lead-alone finding from "children" to "anyone" per the article's exact phrasing on p.40 ("the maximum amount anyone should have in a day"); added FDA / NY State / California Prop 65 / FDA import-alert regulatory context from pp.42-44; added the no-brand-consistency and no-organic-protection findings from p.45; added co-author Tanya A. Christian per the article's joint byline on the DIY section (pp.46-47).
