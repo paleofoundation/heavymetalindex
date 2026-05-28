@@ -161,6 +161,8 @@ Promoted 2026-05-16. Anchor sources: Sonke 2023 (Ambio CC BY global biogeochemic
 
 ## Retired (not synthesis-page-worthy)
 
+Entries below were proposed as synthesis-findings-page candidates but explicitly recommend against promotion in their body text. They are kept here for transparency; the recommended follow-up action lives inside each block.
+
 ### Egypt regulatory baseline as a multi-jurisdiction interpretation hazard
 
 Anchor sources (meta-finding about corpus pattern, not a single-paper thesis):
@@ -190,7 +192,6 @@ Resolution: this entry can be retired from the candidate queue. Implementing the
 
 Retired 2026-05-28: classification confirmed as methodology-note rather than synthesis-page-worthy per the recommendation in the block body.
 
-Entries below were proposed as synthesis-findings-page candidates but explicitly recommend against promotion in their body text. They are kept here for transparency; the recommended follow-up action lives inside each block.
 
 ## Workflow notes
 
