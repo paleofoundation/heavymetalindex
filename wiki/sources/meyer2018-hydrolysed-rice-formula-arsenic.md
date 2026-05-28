@@ -1,8 +1,8 @@
 ---
 type: source
 cite_key: meyer2018-hydrolysed-rice-formula-arsenic
-title: "Inorganic arsenic in hydrolysed rice formulas for infants"
-authors: [Meyer S, Raber G, Eise MK, Taleshi MS, Francesconi KA]
+title: "Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy"
+authors: [Meyer R, Carey MP, Turner P, Meharg AA]
 year: 2018
 publication: "Pediatric Allergy and Immunology"
 doi: "10.1111/pai.12913"
@@ -10,40 +10,60 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "unknown"
 raw_path: raw/studies/meyer2018-hydrolysed-rice-formula-arsenic.pdf
-sha256: 931a35b3e47348792bffc4fd9a9767e03146fa6525a7dd01f8e22f65387bbff4
+raw_sha256: 931a35b3e47348792bffc4fd9a9767e03146fa6525a7dd01f8e22f65387bbff4
 access_date: 2026-05-12
 access_url: "https://doi.org/10.1111/pai.12913"
+near_duplicates:
+  - raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2018_10-1111-pai-12913.pdf
+  - raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0009_2018_10-1111-pai-12913.pdf
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/infant-formula]]"]
-matrices: [infant-formula, hydrolysed-rice-formula]
+products: ["[[products/infant-formula-dairy-free]]", "[[products/infant-formula-powder-non-soy]]"]
+matrices: [infant-formula-powder, hydrolysed-rice-formula]
 jurisdictions: [IT, FR, BE, EU]
-sample_n: 5
-updated: 2026-05-12
+sample_n: 10
+sample_population: "Commercially available hydrolysed-rice infant formula powders sourced from Italy, France, and Belgium; six distinct product variants, two batches per variant (one variant had only one batch presented in Table 1), two samples per batch from separate tins, analysed in triplicate"
+updated: 2026-05-28
 ---
 
-# Meyer et al. 2018 — iAs in hydrolysed rice formula for cow-milk-allergic infants
+# Meyer et al. 2018 — Low inorganic arsenic in hydrolysed-rice infant formula for cow's milk protein allergy
 
-Meyer et al. measured iAs in five commercially available hydrolysed rice formulas (HRF) sourced from Italy, France, and Belgium — products intended for infants with cow-milk allergy who cannot tolerate conventional dairy-based or soy-based formulas. All five products showed iAs concentrations substantially above those found in conventional dairy-based infant formulas, with some samples approaching or exceeding concentrations found in rice-based cereal products subject to EU maximum limits. The concern is acute because HRF-fed infants are formula-dependent (HRF is their sole protein and energy source), consume high volumes relative to body weight, and are in the period of greatest developmental arsenic sensitivity; there is no dairy alternative available to them that does not carry the same rice-derived arsenic exposure.
+Meyer and colleagues measured inorganic arsenic (As(V)) and dimethylarsinic acid (DMA) in commercially available hydrolysed-rice infant formula (HRF) powders sourced from Italy, France, and Belgium and analysed at the Institute for Global Food Security, Queen's University Belfast. HRF is used in the management of cow's milk protein allergy (CMPA) when breastmilk is not available and conventional extensively hydrolysed casein/whey or amino-acid formulas are not used. Across six distinct product variants (ten batch-level measurements presented), As(V) ranged from 9 to 20 µg/kg in dry powder, with calculated daily As(V) exposure for a typical 0–6 month, 8 kg infant of 0.16–0.23 µg/kg body weight/day — roughly an order of magnitude below the WHO 2 µg/kg b.w./day exposure benchmark and below the EFSA-reported childhood dietary iAs exposure range (0.24–0.43 µg/kg b.w./day for infants). The authors concluded that As(V) levels in HRF powder were within the safe range as stipulated by EFSA and WHO, while noting that actual exposure can be modified by arsenic in the tap water used to reconstitute the formula.
 
 ## Key numbers
-- 5 hydrolysed rice formulas tested (sourced from Italy, France, Belgium)
-- iAs range across 5 products: approximately 10–34 µg/L as-prepared (reconstituted per label instructions)
-- Converted to dry weight basis: approximately 60–200 µg/kg depending on product dilution ratio
-- For comparison: conventional dairy-based infant formula iAs typically <5 µg/L as-prepared
-- EU Regulation 2015/1006 applies a 100 µg/kg as-consumed limit to infant rice cereals; no equivalent limit applied to HRF at time of publication
-- iAs measured by HPLC-ICP-MS with certified reference materials
-- Total As also reported; iAs/tAs ratio approximately 0.6–0.8 in HRF
+
+- Sampling design: 6 distinct HRF product variants from 3 European countries (1 Italian, 1 Belgium/France, 4 French); each brand analysed in 2 batches (separate batch numbers) with 2 samples per batch from separate tins; samples, blanks, and CRM run in triplicate.
+- Table 1 presents 10 batch-level rows (one variant has only batch 2 reported; one variant has only batch 1 reported).
+- As(V) range across the 10 batch-level measurements: 9–20 µg/kg (dry powder, as-sampled).
+- DMA range across the 10 batch-level measurements: 2–19 µg/kg (dry powder).
+- Sum of species [As(V) + DMA] range: 11–35 µg/kg (dry powder).
+- By format subcategory (dry powder, µg/kg As(V), batch range):
+  - Hydrolysed rice suitable from 0–6 months: 9–20 µg/kg (n=2 batches of one variant).
+  - Hydrolysed rice suitable from 6–12 months: 12–13 µg/kg (n=2 batches of one variant).
+  - Hydrolysed rice suitable from 0–6 months thickened with carob and corn starch: 14 µg/kg (n=1 batch of one variant).
+  - Hydrolysed rice suitable from 6–12 months thickened with carob and corn starch: 12 µg/kg (n=1 batch of one variant).
+  - Extensively hydrolysed rice from 0–12 months: 11 µg/kg (n=2 batches of one variant, both 11).
+  - Hydrolysed rice suitable from 0–12 months: 9–10 µg/kg (n=2 batches of one variant).
+- LOD for all arsenic species by IC-ICP-MS (calculated from DMA calibration): 0.0003 mg/kg (= 0.3 µg/kg).
+- CRM variance: 2.1% for As(V) on NIST1568b rice flour reference material.
+- Calculated daily As(V) intake: 1.3–1.8 µg As(V)/day for a 0–6 month infant consuming 600–800 mL/day reconstituted HRF (90–120 g powder, based on 4.5 g average scoop size).
+- Calculated daily As(V) exposure: 0.16–0.23 µg/kg b.w./day for an 8 kg infant (50th centile weight, z-score 0).
+- WHO exposure benchmark cited: 2 µg/kg b.w./day (calculated exposure is ~10-fold below).
+- EFSA-reported background dietary iAs exposure cited: infants 0.24–0.43 µg/kg b.w./day; toddlers 0.32–0.45 µg/kg b.w./day.
+- EU drinking-water limit cited: 10 µg/L (Council Directive 98/83/EC).
+- EFSA tap-water-derived iAs intake cited: 1.1–2.0 µg/kg b.w./day (note: this is the EFSA-reported reconstitution-water contribution at the time of publication).
+- No EU maximum level set for infant formulas at the time of publication.
 
 ## Methods (brief)
-HPLC-ICP-MS for iAs speciation; 5 products; 3 European countries; samples reconstituted per label and analyzed as-prepared; certified reference material (SRM 1568b rice flour) used for method validation.
+
+Approximately 100 mg of each dry formula powder sample was microwave-digested in 10 mL of 1% nitric acid at 95 °C using the method of Meharg et al. (2008). Arsenic speciation and quantification were performed by Ion Chromatography–Inductively Coupled Plasma Mass Spectrometry (ThermoScientific iCap Q ICP-MS coupled to a Thermo IC5000 Ion Chromatograph) with a gradient mobile phase separating all arsenic species. Quality control used NIST1568b rice flour certified reference material in each analytical batch (variance 2.1% for As(V)). Samples, blanks, and CRMs were tested in triplicate. LOD calculated from the DMA calibration was 0.0003 mg/kg for all species. Dry powder was analysed (rather than reconstituted formula) to remove the confounding effect of arsenic in household reconstitution water. Authors note as a limitation that HRF samples were not compared in this study to extensively hydrolysed casein/whey or amino-acid formulas, which are the conventional CMPA management alternatives.
 
 ## Implications
-Certification: HRF is a clinically mandated product for a vulnerable population (cow-milk-allergic infants) — there is no easy substitution. iAs in HRF deserves its own regulatory limit separate from cereal-based limits. This study is the evidence basis for that argument.
-Courses: Illustrates that rice-based alternatives to dairy infant formula carry significant iAs burden even when the rice protein is hydrolysed; processing does not remove arsenic.
-App: HRF should be flagged as a distinct high-risk matrix for iAs in the infant formula product category, separate from the soy-based and dairy-based infant formula categories.
 
-## Wiki pages updated on ingest
-- [[ingredients/rice]]
-- [[metals/arsenic]]
-- [[products/infant-formula]]
+- Certification (HMTc): Contributes dry-powder As(V) and DMA occurrence data for the hydrolysed-rice subset of dairy-free, non-soy infant formula powder for the European market. Sample size is small (6 product variants, 10 batch-level measurements) but speciation is rigorous and the matrix is dry powder native basis, which is directly comparable to other infant formula powder occurrence data. Useful as one of multiple inputs to dry-powder occurrence pooling for the infant formula powder rows.
+- Courses: Illustrates that not all rice-derived infant formula products carry the iAs burden seen in some rice-based cereals; speciation by IC-ICP-MS is the discriminating measurement. Useful case study for brand QA and supply-chain audiences on the importance of speciated arsenic testing rather than relying on total arsenic alone.
+- App: Adds a low-end As(V) occurrence anchor for the hydrolysed-rice-formula subtype of dairy-free, non-soy infant formula powder in the European market.
+
+## Verification notes
+
+- Full rewrite on 2026-05-28 (Claude Code, autonomous manual-fetch ingest from raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2018_10-1111-pai-12913.pdf). The prior page (2026-05-12) attributed authorship to Meyer S, Raber G, Eise MK, Taleshi MS, Francesconi KA; the actual authors per the PDF are Meyer R, Carey MP, Turner P, Meharg AA (Imperial College London and Queen's University Belfast). The prior title was "Inorganic arsenic in hydrolysed rice formulas for infants"; the actual title is "Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy". The prior numerical claims (iAs 10–34 µg/L as-prepared; 60–200 µg/kg dry weight) did not match the source. The actual Table 1 reports As(V) 9–20 µg/kg in dry powder across 10 batch-level measurements. The prior page also inverted the paper's conclusion, claiming HRF showed levels "substantially above" conventional infant formula iAs and "approaching or exceeding" infant rice cereal limits; the paper's stated conclusion was the opposite — that As(V) levels in HRF powder were within the EFSA/WHO safe range. Methods description was corrected from "HPLC-ICP-MS" to "IC-ICP-MS (ThermoScientific iCap Q + Thermo IC5000)". Brand names from Table 1 (Modilac Expert Riz, Novalac Novarice, Plasmon Risolac) are not reproduced in the source page per Part 12 strict reading; format-subcategory aggregation is used instead. Prior `## Implications` section contained an HMTc threshold proposal ("HRF deserves its own regulatory limit separate from cereal-based limits"); per Part 2 wiki/HMTc firewall this was removed and the Implications section now states contribution-to-pooling only. The prior `[[products/infant-formula]]` slug is not in the current product taxonomy and was replaced with `[[products/infant-formula-dairy-free]]` and `[[products/infant-formula-powder-non-soy]]`. raw_path and raw_sha256 are preserved (sha256 of raw/studies/ copy matches existing metadata); two auto-fetched copies (wl-0007 and wl-0009 worklist identifiers) of the same paper sit in raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ and are recorded as near_duplicates. Legacy `## Wiki pages updated on ingest` heading removed; no equivalent section is required by the current Part 6 template.
