@@ -33,3 +33,29 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-meat-poultry-tas_2018_10-3389-fvets-2018-00264.pdf`: kim2018-dry-dog-food-heavy-metals (already-ingested post-2026-05-14 clean; auto-fetched PDF is byte-identical duplicate of existing page's source under a misleading filename)
+
+## Tick 2026-05-28T10:46:05.313Z
+
+- Candidates this tick: 15
+- Succeeded: 9
+- Stopped (need Karen): 6
+- Failed: 0
+
+### Succeeded
+- `carey2015-rice-arsenic-percolating-cooking` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2015_10-1371-journal-pone-0131608.pdf)
+- `mishra2017-rice-arsenic-thiol-complexation` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2017_10-1038-srep40522.pdf)
+- `troncoso1988-metallic-contaminants-andalusian-vinegars` (raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Metallic Contaminants in Andalusian Vinegars.pdf)
+- `bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing` (raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables_ A Case Study Gal.pdf)
+- `efsa2022-buffered-vinegar-food-additive-safety` (raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Safety Evaluation of Buffered Vinegar as a Food Additive - EFSA Assessment.pdf)
+- `vella2024-malta-olive-cultivars-aas` (raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Investigation on the Concentration of Heavy Metals found in Olives and Olive Mill Waste.pdf)
+- `pankavec2019-pickled-mushrooms-poland-minerals` (raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Mineral constituents of conserved white button mushrooms (Agaricus bisporus) - pickled_canned.pdf)
+- `karatasli2018-radionuclide-heavy-metal-turkey-olives` (raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Radionuclide and heavy metal content in the table olive (Olea europaea L.) from the Mediterranean region of Turkey.pdf)
+- `vaishali2020-tomato-ketchup-delhi-ncr-pb-cd` (raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/A Comparative Study on Presence of Heavy Metals Lead and Cadmium in Tomato Ketchups used by Street V.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2017_10-1371-journal-pone-0176923.pdf`: already-ingested duplicate; existing page post-2026-05-14 clean, audited 2026-05-25, byte-identical PDF (sha256 match).
+- `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/FDA Total Diet Study Report - Fiscal Years 2018-2020.pdf`: fda-tds-elements-2018-2020 already-ingested, post-2026-05-14 clean (PDF SHA matches existing page's raw_path; processed 2026-05-20 from 01_Fruits_and_Fruit_Products folder; Kimi misfiled the same PDF in 03_Olives_and_Pickles too).
+- `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf`: duplicate-existing-pages-same-DOI shavali-gilani2025
+- `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf`: PDF mislabeled — filename claims "Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China" but the bytes are Messia et al. 2023 "Assessment of Nutritional Value and Maillard Reaction in Different Gluten-Free Pasta" (Foods 12, 1221; DOI 10.3390/foods12061221), zero heavy-metals content. Real Han 2024 Zhejiang nickel paper already ingested at `wiki/sources/han2024-nickel-zhejiang-china.md`. Stop note appended to `data/evidence/autonomy/manual-fetch-stops-2026-05-28.md`.
+- `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Assessment of toxic trace metal contamination in food spices sold in Nigerian markets.pdf`: chime2025-nigerian-spices-as-cd-pb already-ingested post-2026-05-14 clean
+- `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Cadmium and lead in tomatoes and tomato products from Polish market.pdf`: grochowska-niedworok2020-cadmium-lead-tomatoes-poland (already-ingested, post-2026-05-14 clean; not in routing_unresolved or routing_malformed)

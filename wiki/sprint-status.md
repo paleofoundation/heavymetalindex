@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-28T09:55:05.539Z
+updated: 2026-05-28T12:29:45.198Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -9,7 +9,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 ## Headline
 
-**1240 / 2590 cells done (47.9%)** — 1350 remaining
+**1240 / 2640 cells done (47.0%)** — 1400 remaining
 
 Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
@@ -21,22 +21,22 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | populated n=0 (declared gap) | 807 | ✅ done |
 | confidence: medium | 327 | ⏳ needs more sources |
 | confidence: low | 484 | ⏳ needs more sources |
-| pending / missing | 520 | 🔴 needs first research |
+| pending / missing | 570 | 🔴 needs first research |
 | other / unknown | 19 | 🟡 audit |
 
 ## Pipeline health
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ✅ 8 min ago |
-| auto-fetched/ PDFs in queue | 5 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 104 min ago (stale) |
+| auto-fetched/ PDFs in queue | 36 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 5 ✅ |
 | Audit queue: pending-audit-spawn-failed | 33 (async lane) |
-| Wishlist: total downloaded historically | 0 |
-| Wishlist: total ingested historically | 18 |
+| Wishlist: total downloaded historically | 31 |
+| Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 2 |
-| Commits last 24 hours | 9 |
+| Commits last 1 hour | 16 |
+| Commits last 24 hours | 41 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-7ef12f3 25 minutes ago — daemon: --ff-only → --rebase to survive Paperclip-induced divergence
+4f1718f 2 minutes ago — autonomy: wire PubMed adapter into the wishlist fetcher (HMI deliverable loop #2)
 ```
 
 ## How to read this

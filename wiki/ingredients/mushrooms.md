@@ -100,6 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
+sources: 8
 updated: 2026-05-28
 ---
 

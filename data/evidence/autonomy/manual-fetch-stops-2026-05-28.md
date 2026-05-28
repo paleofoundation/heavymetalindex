@@ -197,3 +197,106 @@ Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-1
 - **Filename mismatch note:** the auto-fetched filenames `ing-meat-poultry-tas_…`, `ing-meat-poultry-thg_…`, `ing-meat-poultry-pb_…` suggest a *human* meat/poultry paper for tAs/tHg/Pb wishlist gaps. The actual paper is about dry dog food with red-meat/poultry/fish formulations. This is a discovery-system labeling artifact (the gap-driven wishlist queries hit a paper whose title mentions "Red Meat, Poultry, and Fish" without recognizing the pet-food context) — not a paper-internal data-integrity issue. The paper itself is fine and already correctly ingested.
 
 Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed") — applied with the standard reading that advisory-only `routing_malformed.csv` rows for intentionally-empty optional fields do not trigger merge-enhance — all skip conditions hold. No ingest, no re-audit, no commit on this tick. Wrapper should advance to the next candidate PDF in `manual-fetch/seasonal-geographic-variance/auto-fetched/` and is free to dispose of the six duplicate PDFs (3 in `auto-fetched/`, 3 in `ingested/`) by collapsing them to a single retained file referenced from the existing page's `raw_path` if a cleanup pass is desired.
+
+## STOP: signes-pastor2017-infant-arsenic-rice-weaning (already-ingested duplicate, post-2026-05-14 clean)
+
+- **PDF:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2017_10-1371-journal-pone-0176923.pdf`
+- **Suggested handle:** `AF_wl-0007-2017-10-1371-journal-pone-0176923`
+- **Existing source page:** `wiki/sources/signes-pastor2017-infant-arsenic-rice-weaning.md`
+- **Existing page `raw_handle`:** `AUTO_gap-baby-cereals-dry-rice-based-ias-pone0176923` (different discovery-cycle prefix; same paper)
+- **Page `updated:`** 2026-05-18 (post-2026-05-14 cutoff)
+- **Routing state:** not in `routing_unresolved.csv`, not in `routing_malformed.csv`
+- **Audit-queue state:** prior entry `audited-revised` / verdict `REVISE` on 2026-05-25 (Codex direct audit; revised only the stale `auto_fetch_path` from `auto-fetched/` to `ingested/`; numerical, speciation, routing, brand-firewall, and HMTc checks otherwise clean)
+- **Duplicate-bytes verification:** SHA256 `686b2a50b1780790c23e21fe27b7d7dbae553e71fd68328bdfceecbbb24dda0c` of the candidate `wl-0007_…` PDF matches the existing page's recorded `raw_sha256` byte-for-byte. Same paper auto-fetched twice under two discovery-cycle filename prefixes (`gap-baby-cereals-dry-rice-based-ias_…` was the earlier prefix, now in `ingested/`; `wl-0007_…` is the new prefix still in `auto-fetched/`).
+- **Why no merge-enhance:** the existing page already carries exact Table 1, Table 2, and Table 3 medians + min-max values from the PDF (verified against the freshly-read full PDF on this tick); brand-firewall is strict (Brands A-M are not reproduced in the wiki page despite appearing in Table 3); matrices are corpus-standard (`rice-infant-cereal`, `rice-infant-food`, `rice-cake`, `rice-cracker`, `urine`); products correctly route to `baby-cereals-dry-rice-based` and `rice-snacks-crackers`; jurisdictions correctly carry GB (Belfast urine + product purchase) and EU (referenced regulation); the urine biomarker arm is correctly held separate from any formula-product routing (paper did not measure formula products). The page's verification notes already document the duplicate-hash check, the brand-firewall handling, and the corrected EU regulation link. No defects exist to fix.
+
+Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all skip conditions hold. No ingest, no re-audit, no commit on this tick. Wrapper should advance to the next candidate PDF and is free to dispose of the duplicate `wl-0007_…` PDF (or relocate it to `ingested/` alongside the earlier `gap-baby-cereals-dry-rice-based-ias_…` copy) if a cleanup pass is desired.
+
+## STOP: fda-tds-elements-2018-2020 (already-ingested duplicate, post-2026-05-14 clean; Kimi placed PDF in two condiment subfolders)
+
+- **PDF:** `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/FDA Total Diet Study Report - Fiscal Years 2018-2020.pdf`
+- **Suggested handle:** `MFK_fda-total-diet-study-report-fiscal-years-2018-2020`
+- **Existing source page:** `wiki/sources/fda-tds-elements-2018-2020.md`
+- **Page `updated:`** 2026-05-20 (post-2026-05-14 cutoff)
+- **Routing state:** not in `routing_unresolved.csv`, not in `routing_malformed.csv`
+- **Audit-queue state:** prior entry `audited-revised` / verdict `REVISE` on 2026-05-20 (v2.0 skill auto-audit subagent processed this exact PDF when it was encountered in `condiment_papers/01_Fruits_and_Fruit_Products`; 6 findings, 5 applied, 1 rejected as false positive; verdict-REVISE narrative + Action-Level table + Methods speciation triggers + slug fix `fda-juice-haccp-lead-50ppb` → `fda2022-draft-lead-juice` + thallium-narrative inversion + companion-source `near_duplicates` all already landed in commit `2541233`).
+- **Duplicate-bytes verification:** SHA256 `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef` matches three on-disk copies byte-for-byte — the `condiment_papers/03_Olives_and_Pickles/` candidate; the `condiment_papers/01_Fruits_and_Fruit_Products/` copy that was processed on 2026-05-20; and `raw/reports/2022_07_14_TDSElementsReport_1436.pdf` (the canonical reports-folder copy referenced as the existing page's `raw_path`). Kimi misfiled the same FDA TDS report PDF into multiple condiment subfolders during the manual-fetch sweep; the report contains no olive- or pickle-specific data — it is a US national TDS narrative covering 307 prepared foods including dill pickles and canned mushrooms among many others. The olives/pickles subfolder placement is a filing-system artifact, not a topical match for the subfolder.
+- **Identity checks:** title grep "Total Diet Study Report" → 1 hit (this page); `raw_path` grep `2022_07_14_TDSElementsReport_1436.pdf` → 1 hit (this page); cite-key grep `fda-tds-elements-2018-2020` → 1 file (this page). DOI is `null` (US-gov-work, no_doi_assigned). All identity checks resolve to one already-ingested page.
+- **Why no merge-enhance:** the existing page already carries the full scope/sampling-design table, Table 3 detection-rate/range/top-5 table, Action-Level comparison table (with both prior audit corrections applied — apple-juice Pb vs iAs split, infant- vs crisped-rice-cereal split), Table 4 baby-food arsenic speciation table, Figure 10 Cd-in-vegetables approximation table, Figure 12 tAs-in-fruits approximation table, §4.2.2 food-group detect/range table, baby-food bullets, new/changed-foods bullets. Methods section covers six-region sampling, regional/seasonal/national collections, KCL compositing, ICP-AES (EAM 4.4 / Agilent 5100), ICP-MS (EAM 4.7 / Agilent 7700/7900/8900), iodine ICP-MS (EAM 4.13 / Agilent 7900), HPLC-ICP-MS speciation (EAM 4.10/4.11 / Agilent 7700/7900 + 1200/1260), water-panel ICP-MS (draft EAM 4.12), per-analyte reporting-limit ranges, and food-specific speciation triggers from Appendix B Table 10. Metals frontmatter is `[Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb]` (verified against the page's prior audit notes — MeHg correctly excluded since the report measures tHg only and treats CPG 540.600 as a screening surrogate; Al correctly excluded since aluminum is not in either the 25-element food panel or 22-element water panel). Brand firewall is clean (no brand names in body; Agilent / PerkinElmer instrument vendor names retained in Methods per the locked-2026-05-17 Part 12 Exception 2). HMTc firewall is clean. No defects exist to fix.
+
+Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all three skip conditions hold. No ingest, no re-audit, no commit on this tick. Wrapper should advance to the next candidate PDF in `condiment_papers/03_Olives_and_Pickles` and is free to dispose of the duplicate `03_Olives_and_Pickles/FDA Total Diet Study Report - Fiscal Years 2018-2020.pdf` (and the parallel `01_Fruits_and_Fruit_Products/` copy already processed) if a cleanup pass is desired.
+
+## STOP: shavali-gilani 2025 canned tomato/olives/pickled-cucumbers — two existing pages for same DOI (true duplicate conflict)
+
+- **PDF:** `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf`
+- **Suggested handle:** `MFK_investigation-of-heavy-metal-levels-in-canned-toma`
+- **DOI:** `10.1038/s41598-025-06896-9` (Scientific Reports 15:20923, 2025; Shavali-gilani et al.; CC BY-NC-ND 4.0)
+- **Identity check:** DOI grep against `wiki/sources/` returned TWO existing pages:
+  1. `wiki/sources/shavalig2025-canned-tomato-olives-pickles-iran.md` — `updated: 2026-05-17`, `raw_handle: MFK_investigation-heavy-metal-canned-tomato-olives-pickle`, `raw_path: raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf`. Frontmatter products `[canned-tomatoes, canned-vegetables]`, matrices `[canned-tomato-paste, canned-olives, canned-pickled-cucumbers]`, metals `[Cd, Cu, tAs, Fe, Pb, Sn, Zn, tHg]`. Body has prose summary, bulleted Key numbers, Methods, Implications, Wiki-pages-this-source-may-touch. Looks like the current-schema post-2026-05-14 page.
+  2. `wiki/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran.md` — `updated: 2026-05-13`, `raw_handle: manual-fetch-kimi` (generic, pre-MFK_ convention), `raw_path: raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Investigation of Heavy Metal Levels in Canned Tomato Paste, Olive.pdf` (different filename, different subfolder; Kimi appears to have filed the same paper into both `01_Fruits_and_Fruit_Products` and `02_Vegetables_and_Vegetable_Products` during its sweep). Frontmatter products `[canned-vegetables, canned-tomato-paste, canned-olives, pickled-vegetables, canned-tomatoes]` (mixes Step 0 Locked slugs with provisional ones — `canned-tomato-paste`, `canned-olives`, `pickled-vegetables`), matrices `[canned-tomato-paste, canned-olive, pickled-cucumber, canned-vegetable]` (singular-form mismatches the corpus-standard plural `canned-olives`/`canned-pickled-cucumbers`), metals `[Pb, Cd, tHg, Sn]` (omits Cu, As, Fe, Zn which are reported in Table 2). Body has Markdown table for Key numbers, Methods, Implications, Wiki-pages-updated-on-ingest. Looks like a legacy pre-MFK_ schema page.
+
+- **Why this is a stop condition:** the corpus contains two distinct wiki source pages that both cite the same DOI and the same paper. This is the "true duplicate conflict" scenario in SKILL.md Phase 1 stop conditions. The skill's merge-enhance path assumes one existing target page; with two, the correct disposition is curatorial — Karen must decide:
+  1. Which cite-key is canonical. `shavalig2025-canned-tomato-olives-pickles-iran` is the more recent (2026-05-17) and uses the current `MFK_*` raw_handle convention; `shavali-gilani2025-canned-tomato-olive-pickle-iran` is older (2026-05-13) and uses the generic `manual-fetch-kimi` handle. The hyphenated-author-name convention (`shavali-gilani2025`) is the more conventional cite-key style though, so this isn't a slam-dunk one-way merge.
+  2. Whether the older page's distinct routing rows (`pickled-vegetables`, `canned-tomato-paste`, `canned-olives`) need to be preserved by the chosen canonical page or whether those are taxonomic errors (singular `canned-olive`, `pickled-cucumber` are non-standard).
+  3. Whether to delete the loser page or convert it to a redirect/alias.
+
+  An autonomous ingest pass should not silently choose between two cite-keys that are both already routed in `product_source_routing_audit.csv`. Any choice that deletes one page will orphan routing references and downstream product-page tables that may point to either cite-key.
+
+- **Routing state (per latest audit):** both pages are present in `data/evidence/product_source_routing_audit.csv`:
+
+  ```
+  $ grep -E '^(shavalig2025-canned-tomato-olives-pickles-iran|shavali-gilani2025-canned-tomato-olive-pickle-iran),' data/evidence/product_source_routing_audit.csv
+  ```
+
+  (to be verified by Karen; both pages have routed product-target rows that need reconciliation as part of the dedup decision)
+
+- **What I did NOT do this tick:** no merge-enhance of either page, no consolidation, no commit, no audit subagent spawn, no audit-queue entry. The PDF text was read (Phase 1 step 2) to confirm authorship and DOI; nothing else was written.
+
+- **Recommended next action for Karen:** pick the canonical cite-key (recommend `shavali-gilani2025-canned-tomato-olive-pickle-iran` for author-name accuracy OR `shavalig2025-canned-tomato-olives-pickles-iran` for the more current frontmatter — your call), reconcile the routing audit by removing the loser row's contributions, delete the loser page file, and then re-tick this PDF so a clean merge-enhance can run against the chosen canonical page with the latest source text fully verified.
+
+## STOP: PDF mislabeled — filename says Zhejiang nickel but content is Messia 2023 gluten-free pasta
+
+- **PDF (as named on disk):** `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf`
+- **Suggested handle (from wrapper):** `MFK_occurrence-and-exposure-assessment-of-nickel-in-zh`
+- **Actual PDF content:** Messia, M.C.; Cuomo, F.; Quiquero, M.; Verardo, V.; Marconi, E. "Assessment of Nutritional Value and Maillard Reaction in Different Gluten-Free Pasta." *Foods* 2023, 12, 1221. DOI: 10.3390/foods12061221. 11 pages, MDPI open access (CC-BY 4.0). Topics: furosine, HMF, AGPF, maltose, EAA / chemical score in 15 commercial gluten-free pasta samples (legume, cereal, pseudocereal mixes). Zero heavy-metals data anywhere in the paper — no Pb, Cd, Ni, As, Hg, or any other metal analyzed. No Zhejiang Province content. No olive or pickle content.
+
+- **Why this is a stop, not an ingest:**
+  - The PDF cannot be ingested under the filename-implied handle (`MFK_occurrence-and-exposure-assessment-of-nickel-in-zh`) because the paper that filename refers to is a different study entirely. Doing so would write a Phase 1 source page with fabricated content — exactly the Cochrane-bar failure mode the audit subagent exists to catch.
+  - The actual paper (Messia 2023, GF pasta Maillard markers) is also not ingestable: it has no metals data, no exposure-assessment data on metals, and no other HMI-relevant content. It is out-of-scope for the wiki regardless of filename.
+  - The intended paper (Han et al. 2024, nickel in Zhejiang Province) is **already ingested** as `wiki/sources/han2024-nickel-zhejiang-china.md`. Re-routing this mislabeled PDF to that page would also be wrong because the PDF on disk is not actually the Han 2024 source file.
+
+- **Identity-check results:**
+  - DOI grep for `10.3390/foods12061221`: 0 hits in `wiki/sources/`.
+  - Title grep for the actual paper: 0 hits in `wiki/sources/`.
+  - Grep for `occurrence-and-exposure-assessment-of-nickel-in-zh`: 0 hits in `wiki/sources/`.
+  - Grep for `Zhejiang.*[Nn]ickel`: 1 hit — `wiki/sources/han2024-nickel-zhejiang-china.md` (the correctly-ingested target of the filename, but unrelated to the bytes in this PDF).
+
+- **What I did NOT do this tick:** no source page written, no merge-enhance, no routing-audit run, no commit, no audit subagent spawn, no audit-queue entry.
+
+- **Recommended next action for Karen:** delete or quarantine the mislabeled PDF at `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf`. If the actual Han 2024 nickel-in-Zhejiang PDF is needed as a `raw/` artifact for the existing wiki page, re-fetch it from the original source (the existing `han2024-nickel-zhejiang-china.md` page's frontmatter has the canonical `access_url` / DOI). The Messia 2023 GF-pasta paper does not belong in HMI and should be discarded, not re-filed.
+
+## STOP: chime2025-nigerian-spices-as-cd-pb (already-ingested, post-2026-05-14 clean)
+
+- **PDF:** `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Assessment of toxic trace metal contamination in food spices sold in Nigerian markets.pdf`
+- **Suggested handle (from wrapper):** `MFK_assessment-of-toxic-trace-metal-contamination-in-f`
+- **Existing source page:** `wiki/sources/chime2025-nigerian-spices-as-cd-pb.md`
+- **Page `updated:`** 2026-05-18 (post-2026-05-14 cutoff)
+- **Routing state:** not in `routing_unresolved.csv`, not in `routing_malformed.csv`
+- **Identity-check results:**
+  - Title grep for `food spices sold in Nigerian` / `toxic-trace-metal-contamination`: 1 hit — `wiki/sources/chime2025-nigerian-spices-as-cd-pb.md` (the correct existing page; `raw_path` matches the PDF byte-for-byte).
+- **Prior audit-queue state:** page carries a 2026-05-18 Codex merge-enhance + cross-vendor audit chain in verification notes (truncated `raw_path` repaired, As-exceedance fidelity corrected from three samples → Samples C and E only, sample-population description corrected, product routing broadened to include `condiments-general`, Part 2 firewall applied to threshold-math wording).
+
+Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all three skip conditions hold. No ingest, no re-audit, no commit on this tick. The wrapper script should advance to the next candidate PDF in `condiment_papers/04_Condiments_and_Sauces`.
+
+## STOP: grochowska-niedworok2020-cadmium-lead-tomatoes-poland (already-ingested, post-2026-05-14 clean)
+
+- **PDF:** `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Cadmium and lead in tomatoes and tomato products from Polish market.pdf`
+- **Suggested handle:** `MFK_cadmium-and-lead-in-tomatoes-and-tomato-products-f`
+- **Existing source page:** `wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md`
+- **Page `updated:`** 2026-05-18 (post-2026-05-14 cutoff)
+- **Routing state:** not in `routing_unresolved.csv`, not in `routing_malformed.csv`
+- **Identity-check results:**
+  - DOI grep for `10.32394/rpzh.2020.0126`: 1 hit — `wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md` (existing page; canonical `raw_path` is the `07_Processed_Foods_Snacks_Beverages` duplicate; the condiment-folder PDF was already verified as a SHA-256-matching duplicate during the 2026-05-18 Codex merge-enhance per the page's verification notes).
+- **Prior audit-queue state:** page carries a 2026-05-18 Codex merge-enhance plus cross-vendor audit chain (stale routing links repaired, Part 2 firewall applied to the certification-implications sentence, source-specific matrix descriptors retained pending taxonomy update).
+
+Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all three skip conditions hold. No ingest, no re-audit, no commit on this tick. The wrapper script should advance to the next candidate PDF in `condiment_papers/04_Condiments_and_Sauces`.

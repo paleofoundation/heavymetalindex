@@ -1,28 +1,28 @@
 # Heal-gaps report — 2026-05-28
 
-Generated: 2026-05-28T10:04:09.929Z
+Generated: 2026-05-28T10:46:04.766Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 0
-- Queued for synthesis: 1
-- Routing typo proposals: 5
-- Provisional scaffolds created: 9
+- Fixes applied: 1
+- Queued for synthesis: 2
+- Routing typo proposals: 9
+- Provisional scaffolds created: 5
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 236
+
+## Fixes applied
+
+- wiki/products/infant-formula.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 
-- pending_contamination_profile_with_sources: 1 item(s)
+- pending_contamination_profile_with_sources: 2 item(s)
 
 ## Provisional scaffolds created
 
 - product/`products/infant-cereal` (triggered by source signes-pastor2018-open-infants-dietary-arsenic)
 - product/`products/infant-formula-powder-dairy` (triggered by source infant2018-research)
-- ingredient/`human milk` (triggered by source introduction2014-randomized-controlled-trial-jujube)
-- ingredient/`jujube fruit` (triggered by source introduction2014-randomized-controlled-trial-jujube)
-- ingredient/`milk-based infant formula` (triggered by source keywords2019-appropriateness-essentials-trace-metals)
-- ingredient/`cereal-based infant formula` (triggered by source keywords2019-appropriateness-essentials-trace-metals)
 - product/`products/infant-rice-cereal` (triggered by source open2017-open-infants-dietary-arsenic)
 - product/`products/infant-formula` (triggered by source open2017-open-infants-dietary-arsenic)
 - product/`products/infant-solid-foods-mixed` (triggered by source open2017-open-infants-dietary-arsenic)

@@ -8,10 +8,11 @@ provisional_scaffold: true
 provisional_created: 2026-05-28
 provisional_reason: "heal-gaps: routing_unresolved entry from source open2017-open-infants-dietary-arsenic declared product/infant-formula, no close-slug match"
 provisional_source: "[[sources/open2017-open-infants-dietary-arsenic]]"
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
+sources: 17
 updated: 2026-05-28
 ---
 

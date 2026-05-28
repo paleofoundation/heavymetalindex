@@ -1,6 +1,6 @@
 # Source-value extraction report — 2026-05-28
 
-Generated: 2026-05-28T10:04:10.608Z
+Generated: 2026-05-28T10:46:05.252Z
 Mode: EXECUTED
 Elapsed: 0s
 
@@ -9,7 +9,7 @@ Elapsed: 0s
 - Source pages processed: 1081
 - Pages with `## Key numbers` section: 969
 - Pages without Key numbers section (skipped): 111
-- Structured rows extracted: 6304
+- Structured rows extracted: 6309
 - Pages with Key numbers but no parseable values: 75
 
 ## Output
@@ -19,8 +19,8 @@ Elapsed: 0s
 
 ## Coverage by metal_species
 
-- Pb: 1200 rows
-- Cd: 1137 rows
+- Pb: 1203 rows
+- Cd: 1139 rows
 - Cr-total: 592 rows
 - Ni: 581 rows
 - tAs: 458 rows
@@ -80,5 +80,5 @@ Elapsed: 0s
 - bottled-drinking-water: 70 rows
 - honey: 68 rows
 - infant-formula-powder-non-soy: 66 rows
-- tea-infusions: 60 rows
+- tea-infusions: 61 rows
 - chocolate: 59 rows

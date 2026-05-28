@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Path A (pooling-engine-driven thin cells): 1452 candidate queries
-- Path B (empty product + thin ingredient pages): 8057 candidate queries
-- Total candidates (after dedup): 9509
+- Path A (pooling-engine-driven thin cells): 1490 candidate queries
+- Path B (empty product + thin ingredient pages): 8169 candidate queries
+- Total candidates (after dedup): 13199
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 9509
+- Eligible after filtering: 13199
 - Final wishlist (capped at 2500): 2500
 
 ### By priority
@@ -15,38 +15,39 @@
 
 ### By source path
 
-- product: 2500
+- ingredient: 365
+- product: 2135
 
 ## Query-history-aware deprioritization
 
 Threshold: a (query × cell) attempted >=5 times with <2 successful downloads is dropped from this run.
 
-Audit-log scale: 118 (query × cell) histories tracked.
+Audit-log scale: 0 (query × cell) histories tracked.
 
 ## Top 20 priority queries this run
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | snack-bars-energy-bars × Cd | snack bars energy bars cadmium occurrence |
-| P1 | pet-food-freeze-dried × tHg | freeze-dried/dehydrated pet foods (including freeze-dried raw) total mercury |
-| P1 | bleaching-whitening-additives × tHg | bleaching whitening additives total mercury |
-| P1 | supplements-amino-acids-isolates × Pb | supplements amino acids isolates heavy metals Pb |
-| P1 | infant-formula-powder-dairy × tAs | infant formula powder dairy heavy metals arsenic occurrence |
-| P1 | baby-oil × Pb | baby oil Pb occurrence |
-| P1 | makeup-body-paints-bases-fixatives × Cd | makeup — body/leg paints, bases, fixatives (including airbrush) Cd |
-| P1 | infant-formula-stage1 × MeHg | infant formula stage1 heavy metals methyl mercury occurrence |
-| P1 | pet-food-raw × Cd | pet food raw cadmium |
-| P1 | toys-stroller-carriage × tAs | stroller/carriage toys total arsenic |
-| P1 | baby-lotion-cream × Cd | baby lotion cream heavy metals Cd occurrence |
-| P1 | infant-food-puree × Cd | infant food puree heavy metals Cd occurrence |
-| P1 | infant-formula-rtf-liquid-soy-based × Ni | infant formula rtf liquid soy based heavy metals nickel occurrence |
-| P1 | infant-rice-cereal × Pb | infant rice cereal heavy metals Pb occurrence |
-| P1 | toy-chests × Pb | toy chests Pb |
-| P1 | pet-supplements-probiotics-digestive × Cd | probiotics/digestive aids cadmium |
-| P1 | floor-cleaners-hard-surface × tAs | floor cleaners hard surface total arsenic |
-| P1 | tableware-metal-bottles-tumblers × Cd | metal bottles/tumblers Cd |
-| P1 | pet-chews-dental × Cd | pet chews (including dental chews) cadmium |
-| P1 | supplements-enzymes × tAs | supplements enzymes arsenic |
+| P1 | ingredient:plums × tHg | plums total mercury contamination occurrence |
+| P1 | conditioner-adult-rinse-out × Pb | conditioner (general adult, rinse-out) Pb |
+| P1 | dietary-supplements × tHg | dietary supplements mercury occurrence |
+| P1 | tableware-metal-bottles-tumblers × tHg | metal bottles/tumblers mercury |
+| P1 | ingredient:soybean-oil × Sn | soybean oil heavy metals tin contamination occurrence |
+| P1 | infant-formula-dairy × iAs | infant formula dairy speciated arsenic occurrence |
+| P1 | sports-energy-drinks × tAs | sports energy drinks heavy metals arsenic occurrence |
+| P1 | ingredient:canned-mushrooms × Sn | canned mushrooms heavy metals tin contamination occurrence |
+| P1 | clasps-fasteners-infant-products × tHg | clasps/fasteners (snaps, zippers, buttons) used in infant products mercury |
+| P1 | food-packaging-glass-jars × tHg | glass jars mercury |
+| P1 | utensils-metal × Cd | utensils metal Cd |
+| P1 | canned-tomatoes × Sn | canned tomatoes heavy metals tin occurrence |
+| P1 | baby-shampoo-body-wash × Cd | baby shampoo body wash Cd occurrence |
+| P1 | toys-balls × Cd | toys balls cadmium |
+| P1 | infant-formula-powder-dairy × Cr-VI | infant formula powder dairy heavy metals hexavalent chromium occurrence |
+| P1 | menstrual-tampons × Pb | menstrual tampons (scented/unscented; applicator tested as distinct component) Pb |
+| P1 | cookware-nonstick-coated × Cd | cookware nonstick coated heavy metals Cd |
+| P1 | all-purpose-cleaners × Cd | all purpose cleaners heavy metals Cd |
+| P1 | food-packaging-caps-closures × Pb | caps/closures Pb |
+| P1 | ingredient:melon × Sn | melon heavy metals tin contamination occurrence |
 
 ## Coverage rotation
 

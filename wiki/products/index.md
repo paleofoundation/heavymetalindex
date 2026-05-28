@@ -90,7 +90,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 4. [[products/pasta-rice-based|Pasta (rice-based)]] (0 sources)
 5. [[products/breakfast-cereal-non-rice|Breakfast cereal (non-rice)]] (0 sources)
 6. [[products/breakfast-cereal-rice-based|Breakfast cereal (rice-based)]] (0 sources)
-7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (22 sources)
+7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (23 sources)
 8. [[products/rice-snacks-crackers|Rice snacks/crackers]] (6 sources)
 9. [[products/rice-noodles|Rice noodles]] (0 sources)
 10. [[products/rice-beverages-rice-milk|Rice beverages (rice milk)]] (2 sources)
@@ -103,10 +103,10 @@ These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/co
 - [[products/fresh-fruit|Fresh and Frozen Fruits]] (31 sources)
 - [[products/dried-fruit|Dried Fruit]] (3 sources)
 - [[products/fruit-snacks|Fruit Snacks]] (1 source)
-- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (9 sources)
+- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (10 sources)
 - [[products/spinach|Spinach]] (4 sources)
 - [[products/non-root-vegetables|Non-Root Vegetables]] (21 sources)
-- [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (22 sources)
+- [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (23 sources)
 - [[products/legumes-pulses-other|Legumes and Pulses, Other]] (5 sources)
 - [[products/soy-products|Soy Products]] (1 source)
 - [[products/peanuts|Peanuts]] (5 sources)
@@ -163,7 +163,7 @@ Contamination platform notes: Cacao → Cd, Pb (from soil); spices → Pb, Cr (f
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/olive-oil|Olive oil]] (8 sources)
+1. [[products/olive-oil|Olive oil]] (9 sources)
 2. [[products/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] (8 sources)
 3. [[products/butter-and-ghee|Butter and ghee]] (2 sources)
 4. [[products/honey-and-syrups|Honey and syrups (maple, agave, molasses)]] (0 sources)
@@ -510,30 +510,22 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/biscuits|Biscuits]]
-- [[products/canned-fish|Canned Fish]]
-- [[products/canned-fruit|Canned Fruit]]
-- [[products/canned-tomatoes|Canned Tomatoes]]
-- [[products/canned-vegetables|Canned Vegetables]]
-- [[products/cereal-meals|Cereal Meals]]
-- [[products/cereal-products|Cereal Products]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/fresh-fish|Fresh Fish]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/infant-food-fruits|Infant Food Fruits]]
-- [[products/infant-food-powder|Infant Food Powder]]
-- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]]
-- [[products/infant-food-vegetables|Infant Food Vegetables]]
-- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]]
-- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]]
-- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]]
-- [[products/infant-formula-stage1|Infant Formula Stage1]]
-- [[products/nutritional-beverage-child|Nutritional Beverage Child]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/snack-bars-energy-bars|Snack Bars Energy Bars]]
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]]
-- [[products/tea-infusions|Tea Infusions]]
-- [[products/tomato-paste|Tomato Paste]]
-- [[products/tomato-sauce|Tomato Sauce]]
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/canned-mushrooms|Canned Mushrooms]]
+- [[products/infant-food-general|Infant Food General]]
+- [[products/infant-food-puree|Infant Food Puree]]
+- [[products/infant-food-puree-fish|Infant Food Puree Fish]]
+- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]]
+- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]]
+- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]]
+- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]]
+- [[products/infant-formula-dairy|Infant Formula Dairy]]
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
+- [[products/infant-juice|Infant Juice]]
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
+- [[products/infant-rice-cereal|Infant Rice Cereal]]
+- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]]
+- [[products/pickled-mushrooms|Pickled Mushrooms]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->
