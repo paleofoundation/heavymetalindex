@@ -102,7 +102,14 @@ fi
 # days. --rebase replays local autonomy commits on top of remote; conflicts
 # fall through to the catch block and skip cleanly (still rare since the
 # daemon's writes are mostly to transient files Paperclip doesn't touch).
-run_step "git pull --rebase" git pull --rebase origin "$(git branch --show-current)" || {
+# Second 2026-05-28 update: added --autostash. Without it, the daemon was
+# bailing on every tick whose preflight detected transient-only dirty files
+# (which the preflight explicitly tolerates) because git pull --rebase
+# refuses to run with unstaged changes. --autostash stashes the transient
+# dirties, rebases, then pops them. If pop conflicts (rare; transient files
+# regenerate anyway), the rebase still landed and the tick proceeds with
+# whatever state pop left behind.
+run_step "git pull --rebase" git pull --rebase --autostash origin "$(git branch --show-current)" || {
   log "git pull failed (likely a real conflict, not just divergence); skipping this tick."
   exit 0
 }
