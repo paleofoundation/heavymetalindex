@@ -62,27 +62,32 @@ Best-fitted GLM model comparisons with vs without E-iAs_ing,rice as a confounder
 - meanPulse: AIC 4493.6 with vs 4491.6 without
 - General hypertension odds-ratio model: AIC 565.5 with vs 564.1 without
 
-Best-fitted (Model 4) continuous-measure adjusted odds ratios for an increase of 1 µg/person/day in E-iAs_ing,rice (Tables 7-11):
-- DBP add 10: 0.99 (95% CI 0.99, 1.00); p value for trend across quartiles 0.041
-- SBP add 10: 0.99 (95% CI 0.99, 1.00); p value for trend 0.019
-- AP: 0.99 (95% CI 0.99, 1.00); p value for trend 0.019
-- meanPulse: 1.00 (95% CI 0.99, 1.00); p value for trend 0.661
-- General hypertension odds ratio: 0.98 (95% CI 0.92, 1.03); p value for trend 0.023
+Best-fitted (Model 4) continuous-measure adjusted odds ratios for an increase of 1 µg/person/day in E-iAs_ing,rice and ANOVA p-for-trend across the four intake quartiles (Tables 7-11, Model 4 row):
+- DBP add 10: OR 0.99 (95% CI 0.99, 1.00); p value for trend 0.132
+- SBP add 10: OR 0.99 (95% CI 0.99, 1.00); p value for trend 0.080
+- AP: OR 0.99 (95% CI 0.99, 1.00); p value for trend 0.060
+- meanPulse: OR 1.00 (95% CI 0.99, 1.00); p value for trend 0.913
+- General hypertension odds ratio: OR 0.98 (95% CI 0.92, 1.03); p value for trend 0.413
 
-Best-fitted (Model 4) categorical-measure odds ratios for general hypertension by E-iAs_ing,rice quartile, referent Q1 (Table 11):
-- Q2: OR 0.50 (95% CI 0.22, 1.11); p = 0.088
-- Q3: OR 0.55 (95% CI 0.27, 1.09); p = 0.090
-- Q4: OR 0.30 (95% CI 0.14, 0.62); p = 0.002
+For context, the crude (Model 1, univariate) trend p values for the same endpoints were 0.041, 0.019, 0.019, 0.661, and 0.023 respectively; trend significance attenuates substantially after full adjustment, consistent with the authors' overall negative-but-not-significant finding after adjustment for established confounders.
 
-Individual-factor contribution to variability in hypertension (Table 4, GLM contribution = 100 × null deviance minus residual deviance over null deviance):
+Best-fitted (Model 4) categorical-measure odds ratios for general hypertension by E-iAs_ing,rice quartile, referent Q1 (Table 11, Model 4 row, adjusted by age, BMI category, whgval, qual7, E-iAs_ing,grain, HessCon, region):
+- Q2: OR 0.76 (95% CI 0.41, 1.28); p = 0.270
+- Q3: OR 0.75 (95% CI 0.42, 1.34); p = 0.333
+- Q4: OR 0.54 (95% CI 0.30, 0.98); p = 0.043
+
+The Q4 OR of 0.54 (0.30, 0.98) is quoted in the Discussion (page 2531) verbatim as the Model 4 best-fitted value.
+
+Individual-factor contribution to variability in hypertension (Table 4 General hypertension column, GLM contribution = 100 × null deviance minus residual deviance over null deviance):
 - E-iAs_ing,rice contribution to general-hypertension odds-ratio model: 0.71%
 - E-iAs_ing,water contribution: 1.60%
 - E-iAs_ing,grain contribution: 0.35%
 - Age contribution: 20.25% (the largest single contributor among the 28 modeled factors)
-- bmival (BMI category) contribution: 5.85%
 - whgval (waist-hip ratio) contribution: 10.26%
-- Diabetes.combined contribution: 5.19%
-- HessCon (chronic illness) contribution: 4.92%
+- bmival (BMI category) contribution: 5.85%
+- HessCon (chronic physical or mental health condition for 12 months or more) contribution: 5.19%
+- NumChild (number of children aged 0-15) contribution: 4.92%
+- Diabetes.combined contribution: 3.08%
 
 Two-way interactive effects (Table 5, RERI; positive RERI indicates synergy):
 - Among all 28 confounders × E-iAs_ing,rice tested across five blood-pressure outcomes, the only significant interaction was SodiummgD × E-iAs_ing,rice on meanPulse (p = 0.025; RERI = -0.02; contribution 1.86%)
@@ -115,6 +120,11 @@ Authors name limitations: cross-sectional design precludes causal inference; iAs
 ## Provenance notes
 
 Open access under Creative Commons Attribution 4.0 International (CC BY 4.0). PDF auto-fetched by the discover/wishlist pipeline (wl-0007 lineage) and held at `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2020_10-1007-s10653-020-00573-8.pdf`. Online publication date 28 April 2020; volume-paginated 2021 in Environmental Geochemistry and Health 43:2505-2538. Author affiliation: Department of Earth and Environmental Sciences and Williamson Research Centre for Molecular Environmental Science, University of Manchester, UK.
+
+## Verification notes
+
+- Audit subagent (2026-05-28) flagged Table 4 misattribution of HessCon and Diabetes.combined contributions and Tables 7-11 mislabeling of Model 1 (crude) trend-p values as Model 4 (best-fitted). Independent verification against Tables 4 and 7-11 in the source PDF confirmed the misattribution; the audit's specific corrected values for the Model 4 trend-p (0.035, 0.006, 0.006, 0.207, 0.429) were also wrong — re-reading the Model 4 rows directly gave 0.132 (DBP add 10), 0.080 (SBP add 10), 0.060 (AP), 0.913 (meanPulse), and 0.413 (general hypertension). Applied the actual Model 4 values, not the audit's incorrect proposals. Categorical Model 4 ORs for general hypertension corrected from the Model 2 row values to the actual Model 4 row values (Q2 0.76, Q3 0.75, Q4 0.54), cross-checked against the Discussion paragraph on page 2531 which quotes the Model 4 categorical ORs verbatim.
+- Audit subagent (2026-05-28) flagged matrices vocabulary (`cereal-grain`, `drinking-water`, `dietary-intake`) as not in the four-list taxonomy snapshot but unverifiable from the snapshot alone. Matrices vocabulary is controlled separately in the system-prompt list and includes all four (rice, cereal-grain, drinking-water, dietary-intake). No change required.
 
 ## Wiki pages this source may touch
 
