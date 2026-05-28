@@ -50,7 +50,7 @@ console.log(`drain-pending-synthesis: max=${maxPages}, model=${model}, dry-run=$
 
 // ---------- Find pages with Pending synthesis placeholders ----------
 
-const placeholderRe = /_Pending synthesis\./
+const placeholderRe = /_Pending synthesis\./g
 const candidates = []
 const scanDirs = [
   { dir: "wiki/ingredients", kind: "ingredient" },
