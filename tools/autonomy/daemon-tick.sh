@@ -262,6 +262,21 @@ run_step "auto-fetched hygiene" node tools/autonomy/auto-fetched-hygiene.mjs --r
 # Step 4: pooling engine refresh
 run_step "pooling engine" node tools/evidence/build-hmtc-aggregate-distributions.mjs || true
 
+# Step 3d: Codex/ChatGPT-5.x parallel ingest — runs the canonical sprint-
+# ingest-prompt against the auto-fetched/ residual queue using Karen's
+# ChatGPT Plus subscription (no API tokens). Replaces the manual external-
+# scheduler paste. Claude/Opus owns the curated folders + auto-fetched
+# residual cap (3/tick); Codex owns auto-fetched as primary consumer
+# with the race-safe claim system in the prompt. Disable with
+# HMI_CODEX_INGEST=0. Default timeout 18 min.
+#
+# Cost: zero API tokens — runs via Karen's ChatGPT login at
+# ~/.codex/auth.json. Cadence is every tick; if cost becomes a concern
+# bump HMI_CODEX_INGEST_EVERY_N to limit firings.
+if [[ -x "/Applications/Codex.app/Contents/Resources/codex" ]] && [[ "${HMI_CODEX_INGEST:-1}" != "0" ]]; then
+  run_step "ingest-with-codex" node tools/autonomy/ingest-with-codex.mjs --timeout-mins=18 || true
+fi
+
 # Step 4a: synthesis writer — copy pooled literature percentiles
 # (pooled_p10/p90/p95) from the aggregate CSV back into ingredient-page
 # contamination_profile blocks. Per CLAUDE.md Part 9 + the firewall in
