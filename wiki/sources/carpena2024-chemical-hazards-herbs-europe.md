@@ -33,8 +33,8 @@ This 8-page conference proceedings paper from IECTO2024 (MDPI Proceedings) revie
 
 - RASFF total notifications for herbs and spices, 2013–2023: 1,133
 - Split: 89 RASFF notifications for spices, 120 for herbs (note: the totals partition only a subset of the 1,133 because the breakdown counts a single notification-type slice; see "Limitations" below)
-- Notification share by hazard class (Figure 2A): chemical hazards 58.0%, microbiological 32.0%, other 9.0% (read from pie chart; not tabulated)
-- Leading RASFF-notified chemical hazards (Figure 2A bar chart, ordered): cadmium, anthraquinone, lead, acetamiprid, benzo[a]pyrene, carbendazim, 2-chloroethanol, colourants, ochratoxin A, aflatoxin B1, pyrrolizidine alkaloids, ethylene oxide, chlorpyrifos (counts not tabulated; lengths read off bars)
+- Notification share by hazard class (Figure 2A): chemical hazards 58.0%, microbiological 32.1%, other 9.0% (read from pie chart; not tabulated; sums to 99.1% — figure labels appear rounded)
+- Leading RASFF-notified chemical hazards (Figure 2A bar chart, top-down): cadmium, anthraquinone, lead, acetamiprid, bifenthrin, carbendazim, 2-chloroethanol, colourants, ochratoxin A, aflatoxin B1, pyrrolizidine alkaloids, ethylene oxide, chlorpyrifos (counts not tabulated; lengths read off bars). Note that cadmium and lead are at the TOP of the bar chart — by RASFF-notification count over 2013–2023, the two HMI-tracked heavy metals are among the most-notified chemical hazards in herbs and spices, not a secondary class.
 - Chlorpyrifos RASFF notifications, 2013–2023: 135
 - Ethylene oxide RASFF notifications, 2013–2023: 104
 - Plant-family alert counts (Figure 2B context, in-text): Lamiaceae 82, Apiaceae 60, Piperaceae 50, Solanaceae 17
@@ -58,7 +58,7 @@ Narrative literature review via PubMed, Scopus, ScienceDirect, Google Scholar, a
 
 ## Implications
 
-**Certification:** Useful contextual evidence that mycotoxins, pyrrolizidine alkaloids, unauthorised dyes, and pesticide residues dominate the recent RASFF record for herbs and spices in the EU. Heavy metals appear in the chemical-hazard distribution but are a secondary signal in the regulator's recent enforcement attention. No quantitative concentration data are contributed for Pb, Cd, or Hg; this source should not be used as an occurrence reference for any metal.
+**Certification:** Useful contextual evidence that mycotoxins, pyrrolizidine alkaloids, unauthorised dyes, and pesticide residues are well-represented in the recent RASFF record for herbs and spices in the EU. Cadmium and lead appear at the top of the Figure 2A bar chart, but the paper itself contributes no quantitative concentration data for Pb, Cd, or Hg; this source should not be used as an occurrence reference for any metal.
 
 **Courses:** Useful as a single-paper map of the European regulatory hazard landscape for herbs and spices — RASFF mechanics, dominant alert categories, and the EFSA MOE framing for PAs. Pair with a primary-data source (e.g., a heavy-metals occurrence study in spices) when teaching the heavy-metals angle.
 
@@ -66,7 +66,8 @@ Narrative literature review via PubMed, Scopus, ScienceDirect, Google Scholar, a
 
 ## Verification notes
 
-- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance): page was originally created 2026-05-14 in the kimi-cond05 batch ingest with generic `raw_handle: manual-fetch-kimi`, a truncated `raw_path`, and a Certification implications line that referenced "HMT&C threshold-setting" by name. Phase 1 fixes:
+- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 3 audit application): fresh-context audit subagent (Phase 2) flagged a Figure 2A bar-label misread ("benzo[a]pyrene" → should be "bifenthrin"; the abstract names "chlorpyrifos, carbendazim, and bifenthrin" as the three pesticide examples and the bar-chart label is bifenthrin), a Figure 2A pie-slice misread (microbiological 32.0% → should be 32.1%), and an editorial-framing concern that the Certification implications line called heavy metals "a secondary signal in the regulator's recent enforcement attention." Verified all three against the page-3 figure: cadmium and lead are AT THE TOP of the Figure 2A chemical-hazard bar chart, so the "secondary signal" framing was wrong on its own terms (the paper does not rank them, and the chart contradicts the framing). All three findings applied: bifenthrin substituted for benzo[a]pyrene, pie-slice corrected to 32.1% with a sum-to-99.1% rounding note, Certification line rewritten to point at the bar-chart top-listing rather than a secondary-signal framing.
+- 2026-05-28 (Claude Opus 4.7, v2.0 manual-fetch merge-enhance — Phase 1 prior to audit): page was originally created 2026-05-14 in the kimi-cond05 batch ingest with generic `raw_handle: manual-fetch-kimi`, a truncated `raw_path`, and a Certification implications line that referenced "HMT&C threshold-setting" by name. Phase 1 fixes:
   - Set per-PDF `raw_handle: MFK_assessment-of-the-chemical-hazards-in-herbs-consum`.
   - Restored full `raw_path` with the trailing-space folder name ("Manual Fetch Kimi ") matching the on-disk path.
   - Added `raw_sha256` and `access_url`.
