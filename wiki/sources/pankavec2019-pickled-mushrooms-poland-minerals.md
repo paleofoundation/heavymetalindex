@@ -20,7 +20,7 @@ matrices: [pickled-mushrooms, canned-mushrooms, conserved-mushrooms]
 jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 100
-sample_population: "100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers sold in Gdańsk, Poland; 10 product batches total (80 packages in glass jars from Notre Jardin, Ole, Rolnik, Urbanek, Smak; 20 in cans from Bonduelle); sampled 2016"
+sample_population: "100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted per Part 12) sold in Gdańsk, Poland; 10 product batches total (80 packages in glass jars, 20 in cans); sampled 2016"
 updated: 2026-05-28
 ---
 
@@ -60,7 +60,7 @@ Overall median values across all 10 batches (Table 2, with paper text confirming
 
 Sb and Tl were measured but the paper does not report overall medians. Sb was detectable in roughly half the batches at per-batch medians of about 0.001–0.009 mg/kg dm; Tl was at or near detection (≈0.001–0.002 mg/kg dm) with "WD" (without data) in several batches. See Table 2 for per-batch detail.
 
-Batch ID 1 (Notre Jardin Pieds et Morceaux — "Pieczarki marynowane krojone", pickled champignon sliced) showed statistically elevated Li, As, Rb, Sr, Ag, Cs, and Ba (PC1, 42% of total variance) — the authors interpret these as a marinade-quality contribution (water, vinegar, salt mineral content), not substrate contamination. Batch ID 9 (Ole — "Pieczarki w zalewie naturalnej cale", a whole champignons in a natural marinate) showed elevated Se, Cr, Zn (PC2, 19%). Batch ID 2 (Notre Jardin 1er Choix Entiers — "Pieczarki marynowane cale", pickled a whole champignons) showed elevated Al, U, V (PC3, 18%). Batch ID 4 (Bonduelle — "Pieczarki marynowane", pickled champignons; canned) showed elevated Mn (PC4, 8.9%). Batches ID 5 and 7 had relatively elevated Cd and Hg (PC5, 5.6%).
+One sliced-pickled batch in glass jars (PC1, 42% of total variance; corresponds to paper's Batch ID 1) showed statistically elevated Li, As, Rb, Sr, Ag, Cs, and Ba — the authors interpret these as a marinade-quality contribution (water, vinegar, salt mineral content), not substrate contamination. One whole-pickled-in-natural-marinade batch in glass jars (PC2, 19%; Batch ID 9) showed elevated Se, Cr, Zn. Another whole-pickled batch in glass jars (PC3, 18%; Batch ID 2) showed elevated Al, U, V. One canned whole-pickled batch (PC4, 8.9%; Batch ID 4) showed elevated Mn. Two batches (PC5, 5.6%; Batch IDs 5 and 7) had relatively elevated Cd and Hg. Manufacturer identifiers from the paper's Materials and Methods are omitted per Part 12; the paper's Polish product-form descriptors (sliced vs whole; in marinade vs in natural marinade) carry the analytically informative content.
 
 Comparison with fresh A. bisporus (from the paper's literature comparison): fresh Polish A. bisporus showed Cd 0.36 ± 0.47 mg/kg dm (range 0.08–1.2), Pb 0.54 ± 0.54 mg/kg dm (range 0.15–27), Ag 0.19 ± 0.05 mg/kg dm — roughly an order of magnitude higher than the conserved medians in this study. Fresh A. bisporus (Poland) tAs was 0.63 ± 0.37 mg/kg dm versus < 0.05 mg/kg dm in sliced and whole pickled product in this study (roughly a 10-fold reduction). Fresh Hg in Polish A. bisporus has been reported at 0.069, 0.080, 0.11 mg/kg dm (n = 3); this study's conserved-mushroom median (0.043 mg/kg dm) is roughly half that level.
 
@@ -72,7 +72,7 @@ EU regulatory reference: Commission Regulation (EC) No 629/2008 amending 1881/20
 
 ICP-MS DRC (PerkinElmer SCIEX ELAN 6100 DRC II, dynamic reaction chamber with NH3 and O2 reaction gases) for 22 elements; CV-AAS thermal-decomposition direct mercury analyser (MA-2000, Nippon Instruments Corporation, Takatsuki, Japan) for Hg. Sample preparation: drained mushrooms were rinsed in 10% HNO3-soaked / DI-water-rinsed glassware, frozen at −30 °C, lyophilised (Steris LYOVAC GT2), and ground to fine powder in porcelain mortars. Subsamples of 300–400 mg were digested in 5 ml concentrated HNO3 (65%, Suprapur, Merck) in closed PTFE vessels under microwave (CEM MARSXpress: 1.2 kW, ramp 1–10 min to 100 °C, hold 1–10 min, ramp 2–10 min to −800 psi, hold 2–10 min at 100 °C, 5 min cooling); digests diluted to 10 ml with double-deionised water. Internal standards: 45Sc, 74Ge, 103Rh, 159Tb. QA/QC verified using Polish certified reference materials CS-M-2 (dried Agaricus campestris powder) and CS-M-3 (dried Boletus edulis powder), Institute of Nuclear Chemistry and Technology, Warsaw.
 
-Sampling design: 10 product batches representing 6 manufacturers (Notre Jardin × 2, Bonduelle × 2, Rolnik, Urbanek, Smak × 2, Ole × 2). 80 unit packages were in glass jars and 20 (Bonduelle) in cans; samples were drawn randomly from retail shops in the city of Gdańsk in 2016.
+Sampling design: 10 product batches representing 6 manufacturers (brand identifiers omitted per Part 12; the paper's Materials and Methods names each producer). 80 unit packages were in glass jars and 20 were in cans (canned packages all from one of the six manufacturers); samples were drawn randomly from retail shops in the city of Gdańsk in 2016.
 
 Statistical analysis: Statistica v8.0 (StatSoft). Principal Component Analysis with Varimax rotation on 18 elements × 10 batches; factor-loading thresholds 0.75 (strong), 0.75–0.5 (moderate), 0.5–0.3 (weak). Five statistically significant PCs accounted for 93% of variability.
 
@@ -96,6 +96,8 @@ Microbiome: Not addressed.
 - 2026-05-28: Added PC2/PC3/PC4 batch attributions that were absent in the prior version (Batch ID 2 → Al/U/V, Batch ID 4 → Mn, etc.) per Table 3 and the PCA discussion.
 - 2026-05-28: Confirmed CC BY-NC 3.0 PL licence from the article's published declaration on the final page.
 - 2026-05-28: Apparent paper-internal contradiction on Cs overall median. The §"Li, Cs and Rb" paragraph (p. 18) states "the Li and Cs with medians respectively in the range 0.01 to 0.40 and 0.004 to 0.02 mg kg⁻¹ dm (the overall medians 0.045 and 0.15 mg kg⁻¹ dm)." For Li the per-batch median range (0.01–0.40) and the overall median (0.045) are consistent; for Cs an overall median of 0.15 sits roughly an order of magnitude above the stated per-batch median range of 0.004–0.02 and cannot be reconciled with Table 2. The Cs overall median is most likely "0.015" (consistent with the per-batch range) and the printed "0.15" is a missing-zero typo, but rather than silently correct the published number this page reports the value as the paper printed it and flags the inconsistency. Downstream users should treat the Cs overall median as approximately 0.005–0.015 mg/kg dm and not propagate the printed 0.15.
+- 2026-05-28: Audit subagent (fresh-context) flagged Part 12 brand-firewall concern on PCA batch attributions (Notre Jardin, Ole, Bonduelle, Rolnik, Urbanek, Smak named with elevated-element attributions). Verified against the paper's Materials and Methods (p. 16, lines naming each producer per batch) — finding confirmed. Stripped manufacturer names from `sample_population` frontmatter, the PCA batch-attribution paragraph, and the Methods sampling-design paragraph; replaced with paper-given Batch IDs and product-form descriptors (sliced vs whole; glass-jar vs canned; in marinade vs in natural marinade). Polish product-form descriptors ("Pieczarki marynowane krojone" etc.) also removed because they tie one-to-one to specific manufacturer product lines.
+- 2026-05-28: Audit subagent flagged `regulations/eu-ec-629-2008` as outside the current taxonomy snapshot. Verified against `wiki/regulations/` directory — page does not exist; the parent `eu-1881-2006-contaminants-superseded` (which EC 629/2008 amends) is the correct routing target and is in the snapshot. Re-routed the regulation wikilink at the bottom of this page.
 
 ## Wiki pages updated on ingest
 
@@ -122,4 +124,4 @@ Microbiome: Not addressed.
 - [[metals/lithium]]
 - [[metals/cesium]]
 - [[metals/barium]]
-- [[regulations/eu-ec-629-2008]]
+- [[regulations/eu-1881-2006-contaminants-superseded]] (parent framework as amended by EC 629/2008; this was the regulation in force during the paper's 2016 sampling and is now superseded by EU 2023/915)
