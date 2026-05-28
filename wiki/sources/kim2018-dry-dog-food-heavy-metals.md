@@ -67,7 +67,7 @@ Routing scope: this source is for pet-food product-category pages only. It does 
 
 ## Verification notes
 
-Brand handling: the paper lists 34 manufacturer company names with product counts in the Analyzed Foods section (e.g., Nestle-Purina n=4, Zignature n=4). Per Part 12 brand firewall, this list is not reproduced. Contamination values are reported only at the ingredient-group level (fish/poultry/red-meat), which is the appropriate aggregate.
+Brand handling: the paper lists 34 manufacturer company names with product counts in the Analyzed Foods section (largest contributors 4 products each). Per Part 12 brand firewall (strict reading locked 2026-05-17), the manufacturer list is not reproduced and brand names are not named here either. Contamination values are reported only at the ingredient-group level (fish/poultry/red-meat), which is the appropriate aggregate.
 
 Speciation: total As and total Hg only; iAs and MeHg fractions not reported. The metals frontmatter uses tAs and tHg accordingly.
 
@@ -91,6 +91,10 @@ Defects corrected from the prior wiki revision (updated 2026-05-27):
 Preserved unchanged per the v2 skill rules: `cite_key`, `raw_handle: auto-fetched`, `raw_path`, `license`, `doi`, `source_type`, `evidence_tier`, `metals`, `ingredients: []`, `products`, `matrices`, `jurisdictions`, `sample_n`.
 
 No brand-firewall violations introduced or remaining. No HMT&C drift. Total As / total Hg consistent with metals frontmatter (tAs, tHg).
+
+2026-05-28 (fresh-context audit subagent, verdict REVISE):
+
+Checks 1, 2, 3, 5 returned ✅. Check 4 raised one ⚠️ finding: the Brand-handling paragraph above named two manufacturers as examples ("e.g., Nestle-Purina n=4, Zignature n=4"). Verified against source — the paper does list these on page 2, but per the strict Part 12 reading (locked 2026-05-17), ANY brand name in source-page content must be removed unless it falls under Exception 1 (regulatory-event subject) or Exception 2 (scientific-method vendor/material). These are commercial product manufacturers, not method vendors, so neither exception applies. Corrected — illustrative brand names removed; rephrased to "largest contributors 4 products each". All other content (numerical fidelity for Table 1, fold-difference arithmetic, methods, speciation, taxonomy slugs, HMT&C firewall) audited clean.
 
 ## Wiki pages this source may touch
 
