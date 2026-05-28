@@ -110,9 +110,16 @@ function categoryPriorityRank(hmtcCategory, saturationMap) {
 // wishlist-rotation-state.json.
 const ROTATION_STATE_PATH = "data/evidence/autonomy/wishlist-rotation-state.json"
 function readRotationState() {
-  if (!fs.existsSync(ROTATION_STATE_PATH)) return { focus: "products", run_count: 0 }
-  try { return JSON.parse(fs.readFileSync(ROTATION_STATE_PATH, "utf8")) }
-  catch { return { focus: "products", run_count: 0 } }
+  if (!fs.existsSync(ROTATION_STATE_PATH)) return { focus: "product", run_count: 0 }
+  try {
+    const s = JSON.parse(fs.readFileSync(ROTATION_STATE_PATH, "utf8"))
+    // Normalize legacy plural values to singular so they match page_type.
+    if (s.focus === "products") s.focus = "product"
+    if (s.focus === "ingredients") s.focus = "ingredient"
+    if (s.last_focus === "products") s.last_focus = "product"
+    if (s.last_focus === "ingredients") s.last_focus = "ingredient"
+    return s
+  } catch { return { focus: "product", run_count: 0 } }
 }
 function writeRotationState(state) {
   fs.writeFileSync(ROTATION_STATE_PATH, JSON.stringify(state, null, 2) + "\n")
@@ -415,10 +422,12 @@ function main() {
     }
   }
 
-  // Rotation state: which page_type gets focus this run.
+  // Rotation state: which page_type gets focus this run. Values match the
+  // page_type tag (singular: "product" / "ingredient") so the string
+  // compare in the sort actually fires.
   const rotationState = readRotationState()
-  const currentFocus = rotationState.focus || "products"
-  const nextFocus = currentFocus === "products" ? "ingredients" : "products"
+  const currentFocus = rotationState.focus || "product"
+  const nextFocus = currentFocus === "product" ? "ingredient" : "product"
   console.log(`Focus this run: ${currentFocus} (next: ${nextFocus}); rotation count: ${rotationState.run_count || 0}`)
 
   // Coverage rotation: shuffle with day-seeded deterministic order so different cells get priority on different days
