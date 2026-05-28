@@ -1,19 +1,33 @@
 # Heal-gaps report — 2026-05-28
 
-Generated: 2026-05-28T09:57:17.700Z
-Mode: DRY-RUN
+Generated: 2026-05-28T10:04:09.929Z
+Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
 - Queued for synthesis: 1
 - Routing typo proposals: 5
-- Provisional scaffolds created: 0
+- Provisional scaffolds created: 9
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 236
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 
 - pending_contamination_profile_with_sources: 1 item(s)
+
+## Provisional scaffolds created
+
+- product/`products/infant-cereal` (triggered by source signes-pastor2018-open-infants-dietary-arsenic)
+- product/`products/infant-formula-powder-dairy` (triggered by source infant2018-research)
+- ingredient/`human milk` (triggered by source introduction2014-randomized-controlled-trial-jujube)
+- ingredient/`jujube fruit` (triggered by source introduction2014-randomized-controlled-trial-jujube)
+- ingredient/`milk-based infant formula` (triggered by source keywords2019-appropriateness-essentials-trace-metals)
+- ingredient/`cereal-based infant formula` (triggered by source keywords2019-appropriateness-essentials-trace-metals)
+- product/`products/infant-rice-cereal` (triggered by source open2017-open-infants-dietary-arsenic)
+- product/`products/infant-formula` (triggered by source open2017-open-infants-dietary-arsenic)
+- product/`products/infant-solid-foods-mixed` (triggered by source open2017-open-infants-dietary-arsenic)
+
+See `data/evidence/provisional-{ingredient,product}-scaffolds.jsonl` for the durable audit log.
 
 ## Items needing surfacing
 
