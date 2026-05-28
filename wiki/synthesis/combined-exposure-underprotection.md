@@ -80,6 +80,18 @@ The Margin of Exposure framing in EFSA 2024 is specific to genotoxic carcinogens
 
 Promoted 2026-05-13. Three independent A-tier anchors meeting all four promotion criteria: independent (different research groups, different jurisdictions, different methodologies), spans multiple metals and ingredients, not obvious from any single source, strategic relevance to brand-legal (HMTc combined-exposure standard scientific basis), regulator (cumulative-exposure framework gap), and educator (the architectural argument for tighter-than-regulatory certification) audiences. Re-synthesis is expected when the FDA TDS 2018-2020 multi-metal exposure-versus-reference analysis is fully integrated as a fourth anchor, when a non-Suomi cumulative analysis appears in the corpus, or when EFSA or JECFA reissues a single-metal reference value in response to the cumulative framing.
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

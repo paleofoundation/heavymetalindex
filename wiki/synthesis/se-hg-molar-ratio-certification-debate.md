@@ -89,6 +89,18 @@ This position is conservative on the relaxation side (don't relax ceilings) and 
 
 Established 2026-05-18 from the seafood-axis synthesis work. The Se:Hg framework is one of the contested points in MeHg toxicology that HMTc certification will face when setting per-species thresholds; the page exists so HMTc threshold decisions can cite a wiki-side consolidation rather than re-deriving the debate per certification cycle. The page is deliberately non-committal between the for-and-against positions; the recommended HMTc position (conservative on both sides) is the synthesis's contribution.
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

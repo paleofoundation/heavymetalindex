@@ -86,6 +86,18 @@ The wiki's [[overview]] should reference seaweed-as-a-Cd-pathway alongside the e
 
 This synthesis was established 2026-05-16 on three anchor sources and is provisional pending integration of US-market commercial-product surveys and species-level breakouts. The EFSA regulatory anchor is durable; the magnitude numbers are robust across three independent geographic regions; the biological-mechanism claim is supported by the algal-physiology literature and does not depend on any single source. Resynthesis triggers per CLAUDE.md Part 9 fire on the next two independent A-tier sources confirming or contradicting either the magnitude or the surveillance-blind-spot finding.
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

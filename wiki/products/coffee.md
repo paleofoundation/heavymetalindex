@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-15
-sources: 9
+sources: 10
 ---
 
 # Coffee

@@ -327,6 +327,24 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 
 FDA Closer to Zero infant-and-young-child food enforcement actions are the dominant Cat 1 regulatory-event context: the 2023 WanaBana cinnamon-applesauce Pb-chromate adulteration outbreak (detailed in [[ingredients/herbal-botanicals]] and the [[sources/napier2024-wanabana-lead-apple-cinnamon|Napier 2024 MMWR]] / [[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] reports) prompted FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]). Other Cat 1 regulatory events of note: the longstanding HBBF "Baby Food Heavy Metals" reports ([[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019]]) and 2021 US House Subcommittee report drove FDA's Closer to Zero action-level rulemaking ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]], [[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that established the action-level framework currently in effect.
 
+<!-- BEGIN: hmi-contradiction-watch -->
+## Contradiction watch
+
+The living-review detector has flagged **7** contributing source value(s) that disagree with the current synthesis by more than 2× the tolerance band. A re-synthesis pass for the affected (ingredient, metal) cell(s) is warranted; the synthesis claim is not retracted by this flag.
+
+| Metal | Source | Reported value | Synthesis band | Spread | Direction |
+| --- | --- | --- | --- | --- | --- |
+| Pb | [[sources/chronchol2026-dairy-free-infant-porridges-poland]] | 3 ppb | 53.8 (typical) / 255 (P95) | 17.93× | below-cohort-median |
+| Cd | [[sources/chronchol2026-dairy-free-infant-porridges-poland]] | 1.75 ppb | 21.9 (typical) / 28 (P95) | 12.51× | below-cohort-median |
+| Pb | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | 8 ppb | 53.8 (typical) / 255 (P95) | 6.72× | below-cohort-median |
+| Cd | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]] | 5.18 ppb | 21.9 (typical) / 28 (P95) | 4.23× | below-cohort-median |
+| tAs | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]] | 11.1 ppb | 37.8 (typical) / 179 (P95) | 3.41× | below-cohort-median |
+| Cd | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]] | 8.76 ppb | 21.9 (typical) / 28 (P95) | 2.5× | below-cohort-median |
+| tAs | [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals]] | 15.5 ppb | 37.8 (typical) / 179 (P95) | 2.44× | below-cohort-median |
+
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in [[../CLAUDE|CLAUDE.md § Part 9]].
+<!-- END: hmi-contradiction-watch -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

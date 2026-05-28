@@ -1,0 +1,72 @@
+---
+title: Curators and conflict-of-interest disclosure
+description: Named curators of the Heavy Metal Index, their credentials, and their conflict-of-interest disclosures. The defensibility surface that distinguishes a curated reference from an anonymous compilation.
+audience: [regulator, brand-legal, brand-qa, researcher, journalist]
+wiki_doi: null
+updated: 2026-05-28
+status: scaffold
+curators:
+  - name: "[PLACEHOLDER — name to be filled by operator]"
+    role: editor-in-chief
+    affiliation: "Paleo Foundation"
+    credentials: "[PLACEHOLDER — degrees / certifications]"
+    domain_expertise: "Heavy metals in food, certification programs, supply-chain quality assurance"
+    conflicts_of_interest:
+      - "Operates the Heavy Metal Tested & Certified (HMT&C) program at heavymetaltested.com. The wiki/HMT&C editorial firewall is documented in [[editorial-standards]] and enforced architecturally."
+    contact: "karen@paleofoundation.com"
+    recusal_pages: []
+external_reviewers:
+  - name: "[PLACEHOLDER — first external reviewer]"
+    role: external-reviewer
+    domain_expertise: "[e.g. food chemistry, ICP-MS method development]"
+    affiliation: "[institution]"
+    review_log: "data/peer-review/<reviewer-slug>.jsonl"
+    conflicts_of_interest: []
+review_board_status: forming
+last_review_board_update: 2026-05-28
+---
+
+# Curators and conflict-of-interest disclosure
+
+This page names the curators of the Heavy Metal Index, lists their relevant credentials and domain expertise, and discloses conflicts of interest. It is the defensibility surface that distinguishes a curated reference from an anonymous compilation — Cochrane has it, EFSA scientific opinions have it, every credible standards body has it. The Heavy Metal Index has one because the [[methodology|methodology]] and [[editorial-standards|editorial-standards]] arguments depend on it.
+
+The page is a **scaffold**. The structural slots are in place; the named individuals will be filled in as the curatorial board is finalised. The placeholders are explicit so a reader can see what is and is not yet named. The placeholders will be replaced (not removed) as the board comes together.
+
+## Editorial board
+
+The editorial board sets the scope, approves substantive methodology changes, and signs off on the synthesis pages before they are graduated to public release. Members are named publicly with their conflicts of interest disclosed.
+
+The current composition is in the page frontmatter under `curators:`. The page is regenerated whenever a curator is added, removed, or their disclosure changes; see [[errata|errata process]] for how to flag a needed update.
+
+## External reviewers
+
+External reviewers are named domain experts who mark synthesis-page claims as endorsed, contested, or recused. Their review log is part of the public corpus (see [[methodology/search-strategy|search strategy]] and [[errata]]). External reviewers do not sit on the editorial board; their role is the visible audit signal Cochrane and EFSA both rely on.
+
+The current composition is in the page frontmatter under `external_reviewers:`. As reviewers are added, their per-reviewer log file (under `data/peer-review/`) becomes the source of truth for which synthesis claims they have evaluated.
+
+## Conflicts of interest, principal disclosure
+
+The Paleo Foundation operates **both** the Heavy Metal Index (this site, heavymetalindex.com) and the Heavy Metal Tested & Certified (HMT&C) program (heavymetaltested.com). This is the central conflict the Index exists with, and the wiki/HMT&C editorial firewall is the architectural answer to it.
+
+The firewall, as documented in [[editorial-standards|editorial-standards.md]] and [[CLAUDE|CLAUDE.md § Part 2]]:
+
+1. **The Index reports what the literature supports.** It does not soften claims to make HMT&C thresholds look more aligned with the literature than they are, and it does not strengthen claims to make those thresholds look more evidence-based than they are.
+2. **HMT&C threshold deviations from the literature baseline are labeled, not hidden.** Where HMT&C certifies to a value tighter than the literature mandates, the rationale is named — precautionary, market-ratcheting, feasibility-driven, or regulatory-alignment.
+3. **No brand-level data appears in the Index.** Brand-identifying contamination data lives in a separate private build, never in the public Index. This is enforced architecturally; there is no `wiki/brands/` directory and no path that crosses the firewall.
+4. **One-way linking only.** HMT&C documentation may cite the Index as the literature baseline; the Index does not mention HMT&C-certified brands, certification status, or marketing claims.
+
+The wiki/HMT&C firewall is the only conflict-of-interest disclosure that applies to the entire wiki. Per-curator and per-reviewer conflicts (employment, consulting relationships, expert-witness work, advisory positions, equity in regulated entities, etc.) are listed in the frontmatter `conflicts_of_interest:` array for each named individual.
+
+## Recusal practice
+
+When a curator or external reviewer has a conflict that is specific to a particular page, ingredient, or regulation, they recuse from substantive review of that page. Recusals are listed in the frontmatter `recusal_pages:` array per curator. The recusal log is itself public.
+
+The Foundation's bar for recusal is low: when in doubt, the curator recuses and another curator or reviewer takes the page. The defensibility argument requires that a hostile reader can verify the absence of undisclosed conflicts; the recusal log is one of the surfaces that verification happens against.
+
+## Updates to this page
+
+Updates flow through the [[errata|errata process]]. A reader who notices an undisclosed conflict or wants to verify a credential should email karen@paleofoundation.com with the subject line "HMI curator update".
+
+## Schema
+
+The frontmatter shape on this page is the contract; downstream consumers (the future Trust Centre page, the editorial-standards page rendering, any external accreditation submission) read these structured slots. See [[../docs/schemas/index.md|schema docs]] for the cross-cutting fields. A per-page-type schema doc for `wiki/curators.md` will be added when the page graduates from scaffold to production.

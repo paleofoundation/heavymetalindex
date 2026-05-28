@@ -13,8 +13,8 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs && node tools/build-corpus-counter.mjs && node tools/build-regulation-cross-cuts.mjs && node tools/evidence/build-source-legend.mjs && node tools/sync-source-counts.mjs && node tools/audit-routing-discipline.mjs --warn-only && node tools/taxonomy/audit-coverage.mjs && node tools/build-coverage-page.mjs && node tools/audit-claim-provenance.mjs && node tools/build-audit-dashboard.mjs && node tools/build-contamination-dataset.mjs && node tools/build-page-changelogs.mjs",
-    "postbuild": "node tools/postbuild-inject-jsonld.mjs",
+    "prebuild": "node tools/evidence/build-routing-audit.mjs && tsx tools/evidence/build-percentile-context.ts && node tools/audit-source-dois.mjs && node tools/build-corpus-counter.mjs && node tools/build-regulation-cross-cuts.mjs && node tools/evidence/build-source-legend.mjs && node tools/sync-source-counts.mjs && node tools/audit-routing-discipline.mjs --warn-only && node tools/taxonomy/audit-coverage.mjs && node tools/build-coverage-page.mjs && node tools/audit-claim-provenance.mjs && node tools/build-audit-dashboard.mjs && node tools/build-contamination-dataset.mjs && node tools/build-synthesis-contradictions.mjs && node tools/build-peer-review-footers.mjs && node tools/build-page-changelogs.mjs",
+    "postbuild": "node tools/postbuild-inject-jsonld.mjs && node tools/postbuild-scholarly-sitemap.mjs",
     "sync:source-counts": "node tools/sync-source-counts.mjs",
     "lint:routing-discipline": "node tools/audit-routing-discipline.mjs",
     "reverse-route:dry-run": "node tools/autonomy/reverse-route-products.mjs",

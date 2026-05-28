@@ -89,6 +89,18 @@ Lead-based paints as a contamination vector for food contact surfaces (distinct 
 - [[sources/fda-import-alert-99-42-spice-lead]]
 - [[sources/gafner2026-turmeric-adulteration-six-continents]]
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

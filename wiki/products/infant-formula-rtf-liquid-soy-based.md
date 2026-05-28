@@ -303,6 +303,18 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 
 FDA Closer to Zero infant-and-young-child food enforcement actions are the dominant Cat 1 regulatory-event context: the 2023 WanaBana cinnamon-applesauce Pb-chromate adulteration outbreak (detailed in [[ingredients/herbal-botanicals]] and the [[sources/napier2024-wanabana-lead-apple-cinnamon|Napier 2024 MMWR]] / [[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] reports) prompted FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]). Other Cat 1 regulatory events of note: the longstanding HBBF "Baby Food Heavy Metals" reports ([[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019]]) and 2021 US House Subcommittee report drove FDA's Closer to Zero action-level rulemaking ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]], [[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that established the action-level framework currently in effect.
 
+<!-- BEGIN: hmi-contradiction-watch -->
+## Contradiction watch
+
+The living-review detector has flagged **1** contributing source value(s) that disagree with the current synthesis by more than 2× the tolerance band. A re-synthesis pass for the affected (ingredient, metal) cell(s) is warranted; the synthesis claim is not retracted by this flag.
+
+| Metal | Source | Reported value | Synthesis band | Spread | Direction |
+| --- | --- | --- | --- | --- | --- |
+| Cd | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 1.1 ppb | 2.95 (typical) / 7.55 (P95) | 2.68× | below-cohort-median |
+
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in [[../CLAUDE|CLAUDE.md § Part 9]].
+<!-- END: hmi-contradiction-watch -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

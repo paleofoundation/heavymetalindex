@@ -97,6 +97,18 @@ For the app model, ingredients flagged as primarily organic arsenic sources (fis
 
 This synthesis page was promoted on 2026-05-13 following P4 batch ingest sessions 10 and 11. The thread was first surfaced in the batch 10 close synthesis-proposals entry, where davydiuk2023, liu2023, and kagawa2023 were identified as a three-paper cluster challenging the organoarsenical inertness assumption from distinct methodological directions. Batch 11 added raab2024, walenta2024, and sim2024, extending the thread from marine fish into microalgae, mushrooms, and seaweed and resolving the borderline status of criterion 2 (spanning multiple matrices and products). The synthesis-proposals entry was upgraded to all-4-criteria-met after batch 11 closed, and Karen approved direct promotion. Eight A-tier anchor sources, three independent research traditions (biomonitoring, analytical chemistry, epidemiology), and three food matrix types (seafood, fungi, microalgae/seaweed) support the thesis at promotion. The synthesis is provisional; it does not assert arsenobetaine toxicity, only that the evidence base for the inertness assumption has weakened in specific and documented ways. Re-synthesis is expected when an in vivo human feeding study establishes or fails to establish iAs absorption from seafood, or when a non-Japanese cohort replicates or fails to replicate the Kagawa hypertension signal.
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

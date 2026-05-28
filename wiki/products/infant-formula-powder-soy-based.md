@@ -353,6 +353,25 @@ _Auto-generated from source-page frontmatter, with the "Used on this page for" c
 
 FDA Closer to Zero infant-and-young-child food enforcement actions are the dominant Cat 1 regulatory-event context: the 2023 WanaBana cinnamon-applesauce Pb-chromate adulteration outbreak (detailed in [[ingredients/herbal-botanicals]] and the [[sources/napier2024-wanabana-lead-apple-cinnamon|Napier 2024 MMWR]] / [[sources/troeschel2024-cinnamon-applesauce-lead|Troeschel 2024]] reports) prompted FDA Import Alert 99-42 ([[sources/fda-import-alert-99-42-spice-lead|FDA 2024]]). Other Cat 1 regulatory events of note: the longstanding HBBF "Baby Food Heavy Metals" reports ([[sources/houlihan2019-hbbf-whats-in-baby-food|Houlihan 2019]]) and 2021 US House Subcommittee report drove FDA's Closer to Zero action-level rulemaking ([[sources/fda-ctz-Pb-babyfood-2025|FDA 2025]], [[sources/fda-iAs-rice-cereal-2020|FDA 2020]]). Per CLAUDE.md Part 12, individual brand recall actions are not enumerated here; the recalls are framed as regulatory events that established the action-level framework currently in effect.
 
+<!-- BEGIN: hmi-contradiction-watch -->
+## Contradiction watch
+
+The living-review detector has flagged **8** contributing source value(s) that disagree with the current synthesis by more than 2× the tolerance band. A re-synthesis pass for the affected (ingredient, metal) cell(s) is warranted; the synthesis claim is not retracted by this flag.
+
+| Metal | Source | Reported value | Synthesis band | Spread | Direction |
+| --- | --- | --- | --- | --- | --- |
+| Pb | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 0.5 ppb | 20.1 (typical) / 119 (P95) | 40.2× | below-cohort-median |
+| tHg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 0.08 ppb | 1 (typical) / 29.3 (P95) | 12.5× | below-cohort-median |
+| Cd | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 1.2 ppb | 14.5 (typical) / 35 (P95) | 12.08× | below-cohort-median |
+| Pb | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | 1.9 ppb | 20.1 (typical) / 119 (P95) | 10.58× | below-cohort-median |
+| Cd | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | 3.47 ppb | 14.5 (typical) / 35 (P95) | 4.18× | below-cohort-median |
+| Pb | [[sources/fsa2016-infant-food-formula-metals-survey]] | 5 ppb | 20.1 (typical) / 119 (P95) | 4.02× | below-cohort-median |
+| Ni | [[sources/fsa2016-infant-food-formula-metals-survey]] | 200 ppb | 500 (typical) / 1300 (P95) | 2.5× | below-cohort-median |
+| Al | [[sources/burrell2010-aluminium-in-infant-formulas]] | 629 ppb | 1461 (typical) / 2720 (P95) | 2.32× | below-cohort-median |
+
+Full per-flag audit at `data/evidence/synthesis-contradictions.csv`. Trigger is documented in [[../CLAUDE|CLAUDE.md § Part 9]].
+<!-- END: hmi-contradiction-watch -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

@@ -81,6 +81,18 @@ The two-tier framework (option 1) is the recommended starting point. Option 2 or
 
 Established 2026-05-18 from the seafood-axis evidence consolidation. The bivalve-finfish Cd differential has been documented in the literature for decades (the EU's per-category Cd cap differential dates to the original EC 466/2001 framework) but had not been treated as a standalone synthesis on the wiki. The page exists to ensure HMTc Cd certification thresholds on the seafood category are designed with the bivalve-finfish differential built in from the start.
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

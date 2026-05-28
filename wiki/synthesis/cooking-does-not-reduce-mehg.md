@@ -87,6 +87,18 @@ The narrow exception worth naming: certain Pb and Cd content in finfish, primari
 
 Established 2026-05-18 from the seafood-axis ingest and synthesis work. The mechanism evidence (cysteine-binding, intestinal absorption) is decades-established in the toxicology literature; the comparative MeHg-vs-preparation-form measurements were consolidated in the wiki's evidence base during the 2026-05-18 manual-fetch corpus ingest. The page exists primarily for consumer-protection certification messaging and for HMTc Levers sections on seafood-related product pages.
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

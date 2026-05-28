@@ -78,6 +78,18 @@ The organic-segment cadmium finding from Hands 2024 deserves dedicated treatment
 
 Promoted 2026-05-13 from the candidate queue. Three independent anchors meeting all four promotion criteria: independent (different research groups, different methodological frameworks, different time scopes), spans multiple metals (Pb, Cd), grounds the regulatory-intervention case study, strategic relevance to brand-legal (Prop 65 exposure expectations for US-market chocolate), regulator (state-level enforcement case study), and educator (mechanistic asymmetry between processing-side and soil-side contamination) audiences. Re-synthesis is expected when the Consumer Reports chocolate dataset enters the corpus, when the FDA TDS chocolate-exposure analysis is cross-referenced, or when a dedicated Prop 65 enforcement timeline page documents the causal attribution rigorously.
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

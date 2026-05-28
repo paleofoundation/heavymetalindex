@@ -81,6 +81,18 @@ Future expansion candidates:
 
 Established 2026-05-18 after Codex created the EC 466/2001 page (and Karen + Claude created the EC 1881/2006 page, the EU 2022/617 page, the EU 2021/1317 + 1323 pages, and the EU 2023/915 page). With six EU regulation pages now in the wiki, the timeline connecting them needed dedicated synthesis-page treatment to prevent citation work from picking the wrong framework version.
 
+<!-- BEGIN: hmi-peer-review -->
+## Peer review state
+
+This synthesis claim has not yet been evaluated by external reviewers. Verdicts will be added here as named domain experts (listed at [[curators]]) complete their review. The verdict log is `data/peer-review/<reviewer-slug>.jsonl` and is part of the public corpus.
+
+| Reviewer | Verdict | Review date | Notes |
+| --- | --- | --- | --- |
+| _no reviews yet_ | | | |
+
+The Heavy Metal Index publishes synthesis claims before external review completes, with the review state visibly tracked. This is the same model Cochrane uses for its protocols: the claim is published, the review accumulates over time, and the credibility of the claim is partly the cumulative result of visible review.
+<!-- END: hmi-peer-review -->
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 

@@ -37,19 +37,21 @@ Sixth, data gaps stay visible. When the Index has no approved evidence for a met
 
 ## Curators
 
-[Stub. To be expanded with named curators, qualifications, editorial roles, and the sign-off process for substantive entries.]
+The named editorial board and external reviewers are listed at [[curators|wiki/curators.md]] with their credentials, domain expertise, and conflict-of-interest disclosures. The page is currently in scaffold state — structural slots are in place, named individuals are being filled in as the curatorial board is finalised. See [[curators]] for the current composition and the recusal log.
 
 ## Conflict of interest posture
 
-[Stub. To be expanded with the Foundation's policy on disclosing financial relationships, the procedure for handling entries where a curator has a potential conflict, and the recusal practice for HMT&C-related decisions.]
+The principal conflict of interest the Index operates with is the Paleo Foundation's parallel operation of the Heavy Metal Tested & Certified (HMT&C) certification program at heavymetaltested.com. The architectural firewall between the wiki and HMT&C is described above (Editorial firewall) and enforced in code; the per-curator and per-reviewer disclosures are at [[curators]].
+
+The Foundation's bar for recusal is low: when in doubt, a curator recuses from substantive review of the page in question and another curator or external reviewer takes it. Recusals are logged per curator in the [[curators]] frontmatter and are themselves public.
 
 ## Errors and corrections
 
-[Stub. To be expanded with: how to flag a suspected error (contact channel, submission format), how corrections are tracked (changelog convention, public record of changes), the version-history mechanism, and the timeline within which substantiated errors are corrected.]
+The public errata process is documented at [[errata|wiki/errata.md]]: submission channel, three-state workflow (acknowledged, substantive review, external review), public log of substantiated corrections. The version history of every page is rendered at the bottom of the page itself (see "Page history" footer) and stored in [git](https://github.com/paleofoundation/heavymetalindex) as the authoritative record.
 
 ## Disputes
 
-[Stub. To be expanded with the procedure for handling substantive disagreements with index claims, including who reviews disputes, how the review is documented, and whether contested entries carry visible flags during review.]
+Substantive disagreements with Index claims flow through the same channel as errata ([[errata]]). When a correction is contested, the page can be flagged with a `dispute:` frontmatter field that renders a visible "Under review" banner; the disposition and resolution are logged at [[errata]] alongside applied corrections. The procedure for handling synthesis-claim disputes — where multiple A-tier sources conflict — is documented in [[methodology]] § Synthesis and re-synthesis; the contradiction-detection machinery is at `tools/build-synthesis-contradictions.mjs` and surfaces flagged claims for editorial review.
 
 ## Governing reference
 

@@ -17,7 +17,7 @@ pair_row: 8
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 5
+sources: 6
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 
