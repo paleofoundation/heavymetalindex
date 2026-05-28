@@ -80,7 +80,7 @@ Key limitations: small n = 6 commercial peanut butter spread samples (plus one w
 
 ## Implications
 
-**Certification:** Total As in peanut butter ranges 6.5–21.4 ng/g (ppb) on a wet-weight basis, which is low relative to rice-based ingredients. Inorganic arsenic appears to be a minority species, and was undetectable in two of the three peanut butter spreads tested in full speciation (SCPB1, plus NIST SRM 2387). However, the iAs fraction varies substantially between products (0% to ~41% of total As in this dataset), so total-As measurement alone is insufficient for speciation-based risk assessment. HMT&C peanut-butter or nut-butter product pages should note both the low absolute concentrations and the variable iAs fraction. Sample size is small (n = 6 spreads, n = 3 speciated) and dates to 2004; pair with more recent peanut and tree-nut speciation studies before setting thresholds.
+**Certification:** Total As in peanut butter ranges 6.5–21.4 ng/g (ppb) on a wet-weight basis. Inorganic arsenic appears to be a minority species, and was undetectable in two of the three peanut butter spreads tested in full speciation (SCPB1, plus NIST SRM 2387). However, the iAs fraction varies substantially between products (0% to ~41% of total As in this dataset), so total-As measurement alone is insufficient for speciation-based risk assessment. HMT&C peanut-butter or nut-butter product pages should note both the absolute concentration range and the variable iAs fraction. Sample size is small (n = 6 spreads, n = 3 speciated) and dates to 2004; pair with more recent peanut and tree-nut speciation studies before setting thresholds.
 
 **Courses:** Demonstrates why arsenic speciation matters for risk characterisation: a product with 20 ng/g total As but predominantly DMA/MMA has very different toxicological implications than the same total As dominated by iAs. Also demonstrates a methodological lesson — high-fat food matrices (peanut butter, edible oils) are not amenable to standard methanol-water arsenic extraction; 2-butoxyethanol with acetone pre-extraction was required to recover the spike. Good teaching case for both the speciation module and the extraction-method module.
 
@@ -97,6 +97,8 @@ Merge-enhanced 2026-05-28 from the v2.0 ingest-next-manual-fetch-pdf workflow. D
 - Tightened the opening prose to reflect that inorganic-As species were detected in only one of the three speciated spreads, and added Table-reference citations to Key-numbers blocks for auditability.
 
 `license` was previously `unknown`; updated to `subscription` (RSC J. Anal. At. Spectrom. is a paywalled journal; the manuscript copy in `raw/` is for internal evidence-grading use only). No structural taxonomy slugs changed; routing target set (`products/peanut-butter`, `ingredients/peanut-butter`, `ingredients/peanuts`, `metals/arsenic`) was already correct.
+
+Audit subagent (2026-05-28) flagged the Certification/Implications phrase "low relative to rice-based ingredients" as a cross-source comparative claim the paper itself does not make. Verified against the source — the Hovanec 2004 manuscript reports peanut-butter values in isolation and does not benchmark them against rice. The rice comparison was synthesis-pass content authored into the source page; removed per Part 5 source-page discipline (cross-source synthesis belongs in the Part 9 workflow, not on individual source pages). All other audit checks (1 numerical fidelity, 2 slug vocabulary, 3 speciation/methods, 4 Part 12 brand firewall) returned clean.
 
 ## Wiki pages updated on ingest
 
