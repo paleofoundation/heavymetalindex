@@ -99,7 +99,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/infant-formula-ingredients|Infant Formula Ingredients]] (12 sources)
 - [[ingredients/infant-formula-powder|Infant Formula Powder]] (16 sources)
 - [[ingredients/infant-formula-rtf-liquid|Infant Formula Rtf Liquid]] (1 source)
-- [[ingredients/ketchup|Ketchup]] (3 sources)
+- [[ingredients/ketchup|Ketchup]] (4 sources)
 - [[ingredients/lamb-chop|Lamb chop]] (1 source)
 - [[ingredients/leafy-greens|Leafy Greens]] (33 sources)
 - [[ingredients/lentils|Lentils]] (15 sources)
@@ -148,7 +148,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/processed-american-cheese|Processed American cheese]] (3 sources)
 - [[ingredients/raisins|Raisins]] (3 sources)
 - [[ingredients/reduced-fat-milk|Reduced-fat milk]] (1 source)
-- [[ingredients/rice|Rice]] (185 sources)
+- [[ingredients/rice|Rice]] (186 sources)
 - [[ingredients/rice-cakes|Rice cakes]] (2 sources)
 - [[ingredients/rice-cereal|Rice Cereal]] (13 sources)
 - [[ingredients/rice-flour|Rice Flour]] (7 sources)
@@ -200,20 +200,57 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[ingredients/cereal-based-infant-formula|Cereal Based Infant Formula]]
-- [[ingredients/cow-milk-infant-formula|Cow Milk Infant Formula]]
-- [[ingredients/fruit-mixed|Fruit Mixed]]
-- [[ingredients/human-milk|Human Milk]]
-- [[ingredients/infant-mixed-grain-cereal|Infant Mixed Grain Cereal]]
-- [[ingredients/infant-oat-cereal|Infant Oat Cereal]]
-- [[ingredients/infant-rice-cereal|Infant Rice Cereal]]
-- [[ingredients/jujube-fruit|Jujube Fruit]]
-- [[ingredients/marlin|Marlin]]
-- [[ingredients/milk-based-infant-formula|Milk Based Infant Formula]]
-- [[ingredients/nectarine|Nectarine]]
-- [[ingredients/pineapple|Pineapple]]
-- [[ingredients/rice-milk|Rice Milk]]
-- [[ingredients/soy-milk|Soy Milk]]
-- [[ingredients/swordfish|Swordfish]]
-- [[ingredients/vegetables-mixed|Vegetables Mixed]]
+- [[ingredients/apple-cider-vinegar|Apple Cider Vinegar]]
+- [[ingredients/balsamic-vinegar|Balsamic Vinegar]]
+- [[ingredients/beverages|Beverages]]
+- [[ingredients/black-pepper|Black Pepper]]
+- [[ingredients/breast milk|Breast milk]]
+- [[ingredients/breastmilk|Breastmilk]]
+- [[ingredients/cabbage|Cabbage]]
+- [[ingredients/canned-tuna|Canned Tuna]]
+- [[ingredients/casein|Casein]]
+- [[ingredients/cashew-nuts|Cashew Nuts]]
+- [[ingredients/cashews|Cashews]]
+- [[ingredients/cereal-bars|Cereal Bars]]
+- [[ingredients/cinnamon|Cinnamon]]
+- [[ingredients/corn-oil|Corn Oil]]
+- [[ingredients/cucumbers|Cucumbers]]
+- [[ingredients/dried-herbs|Dried Herbs]]
+- [[ingredients/fresh-herbs|Fresh Herbs]]
+- [[ingredients/freshwater-fish|Freshwater Fish]]
+- [[ingredients/fruits|Fruits]]
+- [[ingredients/guava|Guava]]
+- [[ingredients/hazelnuts|Hazelnuts]]
+- [[ingredients/herbs-and-spices|Herbs And Spices]]
+- [[ingredients/leafy-vegetables|Leafy Vegetables]]
+- [[ingredients/legumes|Legumes]]
+- [[ingredients/maize|Maize]]
+- [[ingredients/mango|Mango]]
+- [[ingredients/mango-juice|Mango Juice]]
+- [[ingredients/meat-poultry|Meat Poultry]]
+- [[ingredients/olive-oil|Olive Oil]]
+- [[ingredients/olives|Olives]]
+- [[ingredients/parsley|Parsley]]
+- [[ingredients/peanut-oil|Peanut Oil]]
+- [[ingredients/pear-juice|Pear juice]]
+- [[ingredients/plums|Plums]]
+- [[ingredients/quinoa|Quinoa]]
+- [[ingredients/rapeseed-oil|Rapeseed Oil]]
+- [[ingredients/raspberries|Raspberries]]
+- [[ingredients/rice-bran-oil|Rice Bran Oil]]
+- [[ingredients/seaweed|Seaweed]]
+- [[ingredients/sesame-oil|Sesame Oil]]
+- [[ingredients/shark|Shark]]
+- [[ingredients/shellfish|Shellfish]]
+- [[ingredients/soybean-oil|Soybean Oil]]
+- [[ingredients/spices|Spices]]
+- [[ingredients/sunflower-oil|Sunflower Oil]]
+- [[ingredients/tea|Tea]]
+- [[ingredients/tomato-paste|Tomato Paste]]
+- [[ingredients/turmeric|Turmeric]]
+- [[ingredients/vegetable-oil|Vegetable Oil]]
+- [[ingredients/vegetable-oils|Vegetable Oils]]
+- [[ingredients/vinegar|Vinegar]]
+- [[ingredients/walnuts|Walnuts]]
+- [[ingredients/wine-vinegar|Wine Vinegar]]
 <!-- END: hmi-auto-linked-stubs -->

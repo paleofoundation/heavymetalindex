@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-28T12:29:45.198Z
+updated: 2026-05-28T15:21:29.833Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 104 min ago (stale) |
-| auto-fetched/ PDFs in queue | 36 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 117 min ago (stale) |
+| auto-fetched/ PDFs in queue | 143 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 5 ✅ |
 | Audit queue: pending-audit-spawn-failed | 33 (async lane) |
-| Wishlist: total downloaded historically | 31 |
+| Wishlist: total downloaded historically | 108 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 16 |
-| Commits last 24 hours | 41 |
+| Repo sync | ⚠️ 28 commit(s) ahead of origin/main |
+| Commits last 1 hour | 14 |
+| Commits last 24 hours | 78 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-4f1718f 2 minutes ago — autonomy: wire PubMed adapter into the wishlist fetcher (HMI deliverable loop #2)
+e0c8036 5 seconds ago — audit-queue: mark hovanec2004-peanut-butter-arsenic-speciation audited-revised
 ```
 
 ## How to read this

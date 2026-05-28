@@ -8,7 +8,7 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/arsenic-gut-axis]]", "[[microbiome/arsenic-microbial-methylation]]"]
 updated: 2026-04-30
-sources: 267
+sources: 265
 ---
 
 # Arsenic

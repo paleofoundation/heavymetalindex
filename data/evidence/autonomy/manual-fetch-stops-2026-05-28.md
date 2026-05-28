@@ -300,3 +300,82 @@ Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-1
 - **Prior audit-queue state:** page carries a 2026-05-18 Codex merge-enhance plus cross-vendor audit chain (stale routing links repaired, Part 2 firewall applied to the certification-implications sentence, source-specific matrix descriptors retained pending taxonomy update).
 
 Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all three skip conditions hold. No ingest, no re-audit, no commit on this tick. The wrapper script should advance to the next candidate PDF in `condiment_papers/04_Condiments_and_Sauces`.
+
+## STOP: meyer2018-hydrolysed-rice-formula-arsenic (already-ingested near-duplicate, post-2026-05-14 clean)
+
+- **PDF:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0009_2018_10-1111-pai-12913.pdf`
+- **Suggested handle:** `AF_wl-0009-2018-10-1111-pai-12913`
+- **Existing source page:** `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic.md`
+- **Page `updated:`** 2026-05-28 (post-2026-05-14 cutoff; rewritten today)
+- **Routing state:** not in `routing_unresolved.csv`, not in `routing_malformed.csv`
+- **Audit-queue state:** `audited-revised` / verdict `REVISE` on 2026-05-28 (subagent audit on the wl-0007 sibling PDF earlier today; 2 findings applied, 0 rejected)
+- **Identity-check results:**
+  - DOI grep for `10.1111/pai.12913`: 1 hit — the existing canonical page.
+  - Raw-handle grep for `wl-0009`: 1 hit — recorded as `near_duplicates[1]` in the existing page's frontmatter (the wl-0007 sibling is `near_duplicates[0]`; both auto-fetched copies of the same paper).
+  - Cite-key grep `meyer2018`: 1 hit — same canonical page.
+
+Wl-0009 and wl-0007 are two copies of the identical paper (Meyer et al. 2018, "Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy", *Pediatric Allergy and Immunology*, DOI 10.1111/pai.12913) auto-fetched from different sources via the wishlist worklist. The wl-0007 copy drove today's full rewrite + subagent audit; the wl-0009 copy adds no new evidence.
+
+Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all three skip conditions hold. No ingest, no re-audit, no commit on this tick. The wrapper script should advance to the next candidate PDF in `manual-fetch/seasonal-geographic-variance/auto-fetched/`.
+
+## STOP: spex2023-hot-sauce-chili-powder-metals (already-ingested, post-2026-05-14 clean)
+
+- **PDF:** `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Heavy Metal Contamination of Hot Sauce and Chili Powder.pdf`
+- **Suggested handle:** `MFK_heavy-metal-contamination-of-hot-sauce-and-chili-p`
+- **Existing source page:** `wiki/sources/spex2023-hot-sauce-chili-powder-metals.md`
+- **Page `updated:`** 2026-05-17 (post-2026-05-14 cutoff)
+- **Routing state:** not in `routing_unresolved.csv`, not in `routing_malformed.csv`
+- **Audit-queue state:** `audited-codex-revised` / verdict `REVISE` on 2026-05-17 (Codex cross-vendor audit; 6 findings applied, 0 rejected — locked stricter Part 12 reading)
+- **Identity-check results:**
+  - Title/handle grep (`heavy-metal-contamination-of-hot-sauce-and-chili`): no hits on the suggested MFK handle, but content grep for SPEX + hot sauce/chili matched the existing canonical page.
+  - Cite-key grep `spex2023`: 1 hit — the existing canonical page.
+  - PDF content (SPEX application note, ZeptoMetrix; 13 samples = 7 chili powders + 6 hot sauces; Pb up to 1.6 µg/g, Cr up to 7.0 µg/g, Cd up to 1.2 µg/g, tAs up to 0.4 µg/g; serving-size exposure framing) matches the existing page's Key numbers verbatim.
+
+Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all three skip conditions hold. No ingest, no re-audit, no commit on this tick. The wrapper script should advance to the next candidate PDF in `condiment_papers/04_Condiments_and_Sauces`.
+
+## STOP: shavali-gilani2025 — duplicate-page conflict (third PDF location, third repeat of same stop)
+
+- **PDF:** `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf`
+- **Suggested handle:** `MFK_investigation-of-heavy-metal-levels-in-canned-toma`
+- **DOI:** 10.1038/s41598-025-06896-9 (Scientific Reports 15:20923, 2025)
+
+**Duplicate-page conflict — same paper, two source pages on disk:**
+
+| Cite-key | `updated:` | `metals:` field | `raw_handle:` | `raw_path:` folder |
+|----------|------------|-----------------|---------------|---------------------|
+| `shavalig2025-canned-tomato-olives-pickles-iran` | 2026-05-17 | `[Cd, Cu, tAs, Fe, Pb, Sn, Zn, tHg]` (full 8) | `MFK_investigation-heavy-metal-canned-tomato-olives-pickle` | `01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/` |
+| `shavali-gilani2025-canned-tomato-olive-pickle-iran` | 2026-05-13 | `[Pb, Cd, tHg, Sn]` (subset of 4) | `manual-fetch-kimi` (generic) | `02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/` |
+
+Both pages share the same DOI, same authors, same year, same n=49, same key numbers. The newer `shavalig2025-…` page is the more complete entry (full 8-metal frontmatter, specific raw_handle, post-2026-05-14 schema). The PDF in `condiment_papers/04_Condiments_and_Sauces/` is a **third raw/ location** of the same paper — Karen's folder structure or earlier batch downloads placed the same Scientific Reports paper into three category folders.
+
+**Cross-corpus references (22 files):** both cite-keys appear in `wiki/metals/{lead,cadmium,tin,mercury-total}.md`, `wiki/ingredients/{tomato,olives,cucumbers,dill-pickles}.md`, `data/evidence/review_events.jsonl`, `data/evidence/hmtc_aggregate_distributions.csv`, `data/evidence/discovery/corpus-index.json`, `data/evidence/category1_autonomy_extracted_summary.csv`, `data/evidence/data-gap-with-sources.csv`, two prior `manual-fetch-batch-*` logs, and two prior `manual-fetch-stops-*` logs. Neither cite-key appears in `product_source_routing_audit.csv` or `audit-queue.csv` currently — but both are cited across multiple synthesis/evidence artifacts.
+
+**Prior stops on this exact conflict:**
+- 2026-05-19T23:03:34 (manual-fetch-tracker.csv row 200) — `01_Fruits_and_Fruit_Products` PDF stop
+- 2026-05-20T06:41:55 (manual-fetch-tracker.csv row 218) — `02_Vegetables_and_Vegetable_Products` PDF stop
+- 2026-05-28 (this stop) — `condiment_papers/04_Condiments_and_Sauces` PDF stop
+
+This is the third consecutive stop on the same duplicate-page conflict. Pattern: every time the daemon walks a new raw/ folder that holds another copy of this paper, the identity check finds both pages and stops.
+
+**Why Claude should not autonomously resolve this:** picking a canonical cite-key requires coordinated rewrites of `[[wiki-source-link]]` references across 22 files (metal pages, ingredient pages, evidence registers, synthesis logs, the review-events ledger, and the corpus index). The 2026-05-13 page (`shavali-gilani2025-…`) carries a generic `raw_handle: manual-fetch-kimi` that is itself non-canonical and should not survive; the 2026-05-17 page (`shavalig2025-…`) has the more specific handle and the full 8-metal frontmatter. The mechanical fix is to (a) delete `shavali-gilani2025-canned-tomato-olive-pickle-iran.md`, (b) rewrite the 22 cross-references from the deleted cite-key to `shavalig2025-canned-tomato-olives-pickles-iran`, (c) rebuild routing audit. But this is a curatorial dedup — Karen should confirm the canonical key choice before 22 files are rewritten, especially because the deleted cite-key is referenced from `review_events.jsonl` (synthesis-trigger history) and `hmtc_aggregate_distributions.csv` (occurrence-pool input). Silently picking a winner risks invalidating audit-trail provenance the wiki is explicitly designed to preserve.
+
+**Recommended Karen action:** confirm `shavalig2025-canned-tomato-olives-pickles-iran` as canonical, then run a coordinated rewrite of the 22 cross-references and delete the duplicate page. Or, if there is a curatorial reason to prefer the older cite-key, name it and the same rewrite happens in the opposite direction. After dedup, also consolidate the three raw/ PDF copies down to one canonical location (likely `02_Vegetables_and_Vegetable_Products/` since pickled cucumbers and olives are not condiments-and-sauces in the corpus taxonomy).
+
+No ingest, no re-audit, no commit on this tick.
+
+## STOP: cfs2013-hktds-metallic-contaminants (already-ingested duplicate, post-2026-05-14 clean; Kimi placed PDF in condiments subfolder)
+
+- **PDF:** `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`
+- **Suggested handle:** `MFK_the-first-hong-kong-total-diet-study-metallic-cont`
+- **Existing source page:** `wiki/sources/cfs2013-hktds-metallic-contaminants.md`
+- **Page `updated:`** 2026-05-20 (post-2026-05-14 cutoff)
+- **Routing state:** not in `routing_unresolved.csv`, not in `routing_malformed.csv`
+- **Audit-queue state:** prior entry `audited-promote` / verdict `PROMOTE` on 2026-05-20 (v2.0 manual-fetch merge-enhance of pre-2026-05-14 page; Phase 1 defects fixed — added vanadium to metals, removed invented `products/mixed-dishes` slug, removed inappropriate `products/fruit-juices-non-apple`, corrected `ingredients/dairy` → `milk-and-dairy`, added `ingredients/eggs`, expanded Key numbers from bulleted prose to per-analyte body tables, added `near_duplicates` + `related_sources` cross-link to cfs2012-hktds-inorganic-arsenic; Phase 2 audit subagent verdict PROMOTE, 3 findings applied — Chinese spinach / deep-fried-dough / item-level Al ranges now explicitly sourced to Appendix I Table A; 0 rejected; Checks 2–5 all clean).
+- **Duplicate-bytes verification:** SHA-256 `f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c` matches byte-for-byte between this condiments-folder PDF and the `02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/` PDF that was processed on 2026-05-20. The existing page's recorded `raw_path` points to the vegetables-folder location. The 1st HKTDS report covers metallic contaminants across all 14 TDS food groups including condiments/sauces/herbs (Tables 3.1, 5.1, 6.1 etc. include condiments rows); Kimi filing the same report into both the vegetables and the condiments subfolders during its sweep is a folder-organization artifact, not a topical match for the condiments subfolder specifically.
+- **Identity-check results:**
+  - DOI grep: no DOI (CFS government report, `no_doi_assigned: true`); skipped.
+  - Title grep `First Hong Kong Total Diet Study` → 2 hits in `wiki/sources/`: `cfs2012-hktds-inorganic-arsenic.md` (Report No. 2; separate paper) and `cfs2013-hktds-metallic-contaminants.md` (Report No. 5; this paper).
+  - Cite-key grep `cfs2013-hktds-metallic-contaminants` → 1 hit (this canonical page).
+  - All identity checks resolve to the same already-ingested page.
+
+Per SKILL.md Phase 1, step 1 ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"), all three skip conditions hold. No ingest, no re-audit, no commit on this tick. The wrapper script should advance to the next candidate PDF in `condiment_papers/04_Condiments_and_Sauces` and is free to dispose of the duplicate `04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf` (collapsing to the canonical vegetables-folder copy) if a cleanup pass is desired.

@@ -1,19 +1,15 @@
 # Heal-gaps report — 2026-05-28
 
-Generated: 2026-05-28T10:46:04.766Z
+Generated: 2026-05-28T13:24:25.695Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 1
+- Fixes applied: 0
 - Queued for synthesis: 2
 - Routing typo proposals: 9
 - Provisional scaffolds created: 5
-- Items needing surfacing (regulation rule IDs, unknown target_kind): 236
-
-## Fixes applied
-
-- wiki/products/infant-formula.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn] (inferred from class `infant-formula`)
+- Items needing surfacing (regulation rule IDs, unknown target_kind): 238
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 
@@ -53,4 +49,4 @@ These are not "pending Karen approval" — they are routing failures the autosca
 - missing_primary_metals_of_concern: `wiki/products/body-wash-shower-gel.md` — no canonical analyte default for slug body-wash-shower-gel
 - missing_primary_metals_of_concern: `wiki/products/bread-and-baked-goods.md` — no canonical analyte default for slug bread-and-baked-goods
 - missing_primary_metals_of_concern: `wiki/products/breath-fresheners.md` — no canonical analyte default for slug breath-fresheners
-- ... and 216 more (see queue file)
+- ... and 218 more (see queue file)

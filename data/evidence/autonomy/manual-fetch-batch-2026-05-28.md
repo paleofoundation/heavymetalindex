@@ -59,3 +59,29 @@
 - `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf`: PDF mislabeled — filename claims "Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China" but the bytes are Messia et al. 2023 "Assessment of Nutritional Value and Maillard Reaction in Different Gluten-Free Pasta" (Foods 12, 1221; DOI 10.3390/foods12061221), zero heavy-metals content. Real Han 2024 Zhejiang nickel paper already ingested at `wiki/sources/han2024-nickel-zhejiang-china.md`. Stop note appended to `data/evidence/autonomy/manual-fetch-stops-2026-05-28.md`.
 - `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Assessment of toxic trace metal contamination in food spices sold in Nigerian markets.pdf`: chime2025-nigerian-spices-as-cd-pb already-ingested post-2026-05-14 clean
 - `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Cadmium and lead in tomatoes and tomato products from Polish market.pdf`: grochowska-niedworok2020-cadmium-lead-tomatoes-poland (already-ingested, post-2026-05-14 clean; not in routing_unresolved or routing_malformed)
+
+## Tick 2026-05-28T13:24:26.239Z
+
+- Candidates this tick: 15
+- Succeeded: 10
+- Stopped (need Karen): 5
+- Failed: 0
+
+### Succeeded
+- `meyer2018-hydrolysed-rice-formula-arsenic` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2018_10-1111-pai-12913.pdf)
+- `xu2020-uk-rice-ias-hypertension` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0007_2020_10-1007-s10653-020-00573-8.pdf)
+- `potorti2026-tahini-quality-safety-inorganic-elements` (raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Chemical Composition and Nutritional Quality of Commercial Tahini (Sesamum indicum L.)_ Analytical,.pdf)
+- `divis2020-mercury-fish-sauce-dgt-tda-aas` (raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Determination of Mercury in Fish Sauces by Thermal Decomposition Amalgamation Atomic Absorption Spec.pdf)
+- `muniz2018-tomato-sauce-packaging-metals` (raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Evaluation of metals in tomato sauces stored in different types of packaging.pdf)
+- `he2013-shanghai-cadmium` (raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Exposure assessment of dietary cadmium_ findings from Shanghainese over 40 years, China.pdf)
+- `kangre2024-canned-tomato-pb-sn-ghana` (raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Heavy metal migration, exposure, and health risk through canned tomato mix under different marketing.pdf)
+- `cfs2012-hktds-inorganic-arsenic` (raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Inorganic Arsenic.pdf)
+- `efsa2021-aluminium-food-qa` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Aluminum in Food (Q&A)_ Sources, Safety and Regulations.pdf)
+- `hovanec2004-peanut-butter-arsenic-speciation` (raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Arsenic speciation in commercially available peanut butter spread by IC-ICP-MS.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/wl-0009_2018_10-1111-pai-12913.pdf`: existing meyer2018-hydrolysed-rice-formula-arsenic page is post-2026-05-14 clean (wl-0009 already recorded as near_duplicate)
+- `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Dietary exposure to metals and other elements in the 2006 UK Total Diet Study.pdf`: byte-identical to fera2015-uk-tds-metals
+- `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Heavy Metal Contamination of Hot Sauce and Chili Powder.pdf`: spex2023-hot-sauce-chili-powder-metals already ingested, post-2026-05-14 clean (updated 2026-05-17), not in routing_malformed or routing_unresolved, and audit-queue records a 2026-05-17 Codex audit (REVISE, 6/0). Skip per SKILL.md Phase 1 step 1.
+- `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers.pdf`: duplicate-page conflict — two source pages on disk for DOI 10.1038/s41598-025-06896-9 (`shavalig2025-canned-tomato-olives-pickles-iran` updated 2026-05-17, full 8-metal frontmatter; `shavali-gilani2025-canned-tomato-olive-pickle-iran` updated 2026-05-13, 4-metal subset, generic raw_handle). Same conflict was stopped on 2026-05-19 and 2026-05-20 for the other two raw/ copies of this paper. Dedup requires coordinated rewrite of 22 cross-references including `review_events.jsonl` and `hmtc_aggregate_distributions.csv` — curatorial decision for Karen.
+- `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`: cfs2013-hktds-metallic-contaminants already-ingested duplicate, post-2026-05-14 clean
