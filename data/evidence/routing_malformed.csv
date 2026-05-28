@@ -164,6 +164,7 @@ efsa-lead-contam-2010,wiki/sources/efsa-lead-contam-2010.md,advisory,,,products;
 efsa-mercury-methylmercury-2012,wiki/sources/efsa-mercury-methylmercury-2012.md,advisory,,,products;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa-nickel-contam-2020,wiki/sources/efsa-nickel-contam-2020.md,advisory,,,products;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa2015-nickel-food-water,wiki/sources/efsa2015-nickel-food-water.md,advisory,,,products,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
+efsa2021-aluminium-food-qa,wiki/sources/efsa2021-aluminium-food-qa.md,advisory,,,products;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa2022-glycerol-e422-heavy-metals,wiki/sources/efsa2022-glycerol-e422-heavy-metals.md,advisory,,,products;ingredients,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa2022-lemna-novel-food,wiki/sources/efsa2022-lemna-novel-food.md,advisory,,,products,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa2022-pgpr-e476-heavy-metals,wiki/sources/efsa2022-pgpr-e476-heavy-metals.md,advisory,,,products;ingredients,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
