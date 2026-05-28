@@ -127,6 +127,127 @@ function foodDomainScore(haystack) {
   return hits
 }
 
+// Durable goods + textiles domain terms (Category 8/9/10 — children's
+// products, toys, clothing, cribs, mattresses, car seats, etc.). The
+// food-domain gate added 2026-05-28 silently rejected every paper in
+// these categories because the abstracts don't mention "food" or "diet"
+// terms. Cat 10 was at 0 sources across the entire category as a
+// direct result. This separate gate accepts papers in the durable-goods
+// scope.
+const DURABLE_GOODS_DOMAIN_TERMS = [
+  // children's products + textiles
+  "toy", "toys", "children's product", "children product", "infant product",
+  "baby product", "child safety", "infant safety", "juvenile product",
+  "crib", "bassinet", "stroller", "car seat", "carseat", "high chair",
+  "play yard", "playpen", "swing", "bouncer", "walker", "rocker",
+  "mattress", "pillow", "blanket", "sleep sack", "swaddle", "bedding",
+  "bib", "burp cloth",
+  "clothing", "garment", "textile", "textiles", "fabric", "apparel",
+  "onesie", "pajama", "pajamas", "sleepwear",
+  "shoe", "shoes", "footwear",
+  "diaper", "diapers", "wipes",
+  "carrier", "sling", "wrap",
+  // toy/durable-goods materials
+  "paint", "painted", "coating", "varnish", "lacquer", "pigment", "dye",
+  "plastic", "pvc", "polymer", "vinyl", "rubber", "silicone", "latex",
+  "metal component", "metal part", "metal clasp", "snap", "zipper",
+  "fastener", "buckle", "rivet",
+  "leather", "tanning", "tanned",
+  // exposure pathways relevant to durable goods
+  "mouthing", "hand-to-mouth", "ingestion exposure", "dermal exposure",
+  "skin contact", "skin absorption", "migration", "leaching", "extractable",
+  "bioaccessible", "bioaccessibility",
+  // regulatory + safety framing
+  "consumer product", "consumer products", "product safety",
+  "CPSC", "CPSIA", "ASTM F963", "EN 71", "EN-71", "EN71",
+  "16 CFR 1303", "lead in paint", "lead paint",
+  "REACH", "SVHC", "restricted substance",
+  "toy safety", "product recall", "recall",
+  // common Cat 10 paper phrasing
+  "infant clothing", "children clothing", "childcare article", "childcare articles",
+  "nursery product", "nursery products",
+  "flame retardant", "flame-retardant", "antimony oxide",
+]
+
+function durableGoodsDomainScore(haystack) {
+  let hits = 0
+  for (const term of DURABLE_GOODS_DOMAIN_TERMS) {
+    if (haystack.includes(term)) hits++
+  }
+  return hits
+}
+
+// Personal-care domain terms (Category 2 — cosmetics, lotions, sunscreens,
+// shampoos, deodorants). Distinct from food because consumption is dermal
+// + inhalation, not ingestion; distinct from durable goods because the
+// matrix is a chemical formulation, not a manufactured object.
+const PERSONAL_CARE_DOMAIN_TERMS = [
+  "cosmetic", "cosmetics", "makeup", "make-up", "make up",
+  "lipstick", "lip balm", "lip gloss", "mascara", "eyeshadow", "eye shadow",
+  "foundation", "concealer", "blush", "bronzer", "powder",
+  "lotion", "moisturizer", "moisturiser", "cream", "balm", "salve",
+  "shampoo", "conditioner", "hair dye", "hair color", "hair colour",
+  "deodorant", "antiperspirant", "perfume", "fragrance",
+  "sunscreen", "sunblock", "spf", "uv filter",
+  "toothpaste", "mouthwash",
+  "soap", "body wash", "facial wash", "cleanser",
+  "henna", "kohl", "surma", "sindoor",
+  "talc", "talcum",
+  "skin care", "skincare", "skin-care", "skin lightening", "skin whitening",
+  "personal care", "personal-care", "personal hygiene",
+  "dermal absorption", "skin absorption", "skin penetration",
+  "FDA cosmetic", "EU cosmetic", "1223/2009",
+]
+
+function personalCareDomainScore(haystack) {
+  let hits = 0
+  for (const term of PERSONAL_CARE_DOMAIN_TERMS) {
+    if (haystack.includes(term)) hits++
+  }
+  return hits
+}
+
+// Cleaning products domain (Cat 6) — small but real corpus.
+const CLEANING_DOMAIN_TERMS = [
+  "cleaning product", "household cleaner", "detergent", "laundry detergent",
+  "dishwashing", "dish soap", "all-purpose cleaner", "disinfectant",
+  "bleach", "stain remover", "drain cleaner", "oven cleaner",
+  "household chemical", "consumer chemical",
+]
+
+function cleaningDomainScore(haystack) {
+  let hits = 0
+  for (const term of CLEANING_DOMAIN_TERMS) {
+    if (haystack.includes(term)) hits++
+  }
+  return hits
+}
+
+// Domain-aware gate. Returns the appropriate `<domain>Hits` count given
+// the query's tagged domain. Wishlist rows tagged `domain: "food"` (or
+// untagged, defaulting to food) use FOOD_DOMAIN_TERMS; `durable-goods`
+// uses DURABLE_GOODS_DOMAIN_TERMS; etc. Untagged queries default to food
+// for backwards-compat with the dominant query shape.
+function domainScore(haystack, domain) {
+  switch ((domain || "food").toLowerCase()) {
+    case "durable-goods": return durableGoodsDomainScore(haystack)
+    case "personal-care": return personalCareDomainScore(haystack)
+    case "cleaning": return cleaningDomainScore(haystack)
+    case "regulatory":
+      // Regulatory anchor queries can match ANY of the four domains —
+      // an FDA Closer to Zero paper is food, a CPSC paper is durable-
+      // goods, etc. Accept if ANY domain matches.
+      return Math.max(
+        foodDomainScore(haystack),
+        durableGoodsDomainScore(haystack),
+        personalCareDomainScore(haystack),
+        cleaningDomainScore(haystack),
+      )
+    case "food":
+    default: return foodDomainScore(haystack)
+  }
+}
+
 // Metal alias table — mirrors METAL_SPECS in tools/wishlist/parse-wishlist.mjs.
 // Used to score paper abstracts against ALL synonyms of a metal, not just the
 // canonical search term. Without this, a paper saying "Pb levels" wouldn't
@@ -377,6 +498,10 @@ async function queryPubMed(q, searchTerms, fetchOne) {
     const penalty = negativeScore(haystack)
     const score = positiveScore + penalty
     const foodHits = foodDomainScore(haystack)
+    const durableHits = durableGoodsDomainScore(haystack)
+    const personalCareHits = personalCareDomainScore(haystack)
+    const cleaningHits = cleaningDomainScore(haystack)
+    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits)
     const negativeHits = matchedNegatives(haystack)
 
     const oaUrl = pmcId ? `${PMC_FULLTEXT_URL}/PMC${pmcId}/pdf/` : ""
@@ -386,6 +511,7 @@ async function queryPubMed(q, searchTerms, fetchOne) {
       relevance_score: score, positive_score: positiveScore,
       negative_penalty: penalty, negative_hits: negativeHits.join("; "),
       food_hits: foodHits,
+      domain_match: durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : foodHits > 0 ? "food" : "none",
       title, doi, year, journal, oa_url: oaUrl,
       cited_by_count: 0,  // PubMed's EFetch doesn't return cite counts
       already_indexed: alreadyIndexed ? "true" : "false",
@@ -394,7 +520,7 @@ async function queryPubMed(q, searchTerms, fetchOne) {
 
     if (alreadyIndexed) { row.decision = "skip:already-indexed"; totalSkippedIndexed += 1; audit.push(row); continue }
     if (!oaUrl) { row.decision = "skip:no-pmc-oa"; totalSkippedNoOa += 1; audit.push(row); continue }
-    if (foodHits === 0) { row.decision = "skip:no-food-domain-terms"; totalSkippedWeak += 1; audit.push(row); continue }
+    if (inScopeHits === 0) { row.decision = "skip:no-domain-terms"; totalSkippedWeak += 1; audit.push(row); continue }
     if (score < DOWNLOAD_THRESHOLD) { row.decision = score === 0 ? "skip:no-keyword-overlap" : "review:weak-match"; totalSkippedWeak += 1; audit.push(row); continue }
 
     const filename = candidateFilename(row)
@@ -484,6 +610,11 @@ for (let i = startIndex; i < queries.length; i += 1) {
     const score = positiveScore + penalty
     const negativeHits = matchedNegatives(haystack)
     const foodHits = foodDomainScore(haystack)
+    const durableHits = durableGoodsDomainScore(haystack)
+    const personalCareHits = personalCareDomainScore(haystack)
+    const cleaningHits = cleaningDomainScore(haystack)
+    const inScopeHits = Math.max(foodHits, durableHits, personalCareHits, cleaningHits)
+    const domainMatch = durableHits > 0 ? "durable-goods" : personalCareHits > 0 ? "personal-care" : cleaningHits > 0 ? "cleaning" : foodHits > 0 ? "food" : "none"
 
     const oaUrl = work.open_access?.oa_url ?? ""
     const row = {
@@ -495,6 +626,7 @@ for (let i = startIndex; i < queries.length; i += 1) {
       negative_penalty: penalty,
       negative_hits: negativeHits.join("; "),
       food_hits: foodHits,
+      domain_match: domainMatch,
       title: work.title ?? "",
       doi: doi || "",
       year: work.publication_year ?? "",
@@ -515,13 +647,18 @@ for (let i = startIndex; i < queries.length; i += 1) {
       row.decision = "skip:no-oa-url"
       totalSkippedNoOa += 1
       audit.push(row)
-    } else if (foodHits === 0) {
-      // Food-domain hard gate (2026-05-28): a candidate with zero food-domain
-      // term hits is not a food-occurrence paper, no matter how well it
-      // matches metals/regions. Rejecting before download saves bandwidth,
-      // disk, and the downstream classify-and-skip ingest spawn (~75k tokens
-      // per spawn). See FOOD_DOMAIN_TERMS and the 2026-05-27 hygiene report.
-      row.decision = "skip:no-food-domain-terms"
+    } else if (inScopeHits === 0) {
+      // Domain hard gate (2026-05-28, expanded to multi-domain 2026-05-28
+      // evening). A candidate with zero hits across ALL FOUR domain term
+      // lists (food, durable-goods, personal-care, cleaning) is out of
+      // scope no matter how well it matches metals/regions. Rejecting
+      // before download saves bandwidth + a downstream classify-and-skip
+      // ingest spawn (~75k tokens per spawn). Multi-domain check is what
+      // unblocks Category 10 (infant durable goods + textiles), which was
+      // stuck at 0 sources because the food-only gate rejected every toy/
+      // textile/crib paper. domainMatch records which domain actually hit
+      // so the downstream ingest skill knows which schema to apply.
+      row.decision = "skip:no-domain-terms"
       totalSkippedWeak += 1
       audit.push(row)
     } else if (score < DOWNLOAD_THRESHOLD) {
@@ -624,6 +761,7 @@ writeCsv(auditPath, audit, [
   "negative_penalty",
   "negative_hits",
   "food_hits",
+  "domain_match",
   "already_indexed",
   "title",
   "doi",

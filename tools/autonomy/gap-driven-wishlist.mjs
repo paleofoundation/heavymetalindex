@@ -72,17 +72,39 @@ const CELL_FULL_THRESHOLD = 8
 
 // Path D regulatory-body anchors (2026-05-28). Per the HMI deliverable's
 // "and other open-source corpora (government regulatory documents)"
-// requirement. Most FDA/EFSA/WHO/ATSDR/Codex documents have DOIs and are
-// indexed in OpenAlex/PubMed; the gap-driven queries are food-keyword-
-// shaped, not authority-shaped, so authority queries are emitted directly.
+// requirement. Most FDA/EFSA/WHO/ATSDR/CPSC/EN-71 documents have DOIs
+// and are indexed in OpenAlex/PubMed; the gap-driven queries are food-
+// keyword-shaped, not authority-shaped, so authority queries are emitted
+// directly.
+//
+// Each entry carries `domain` so the fetcher applies the appropriate
+// food/personal-care/durable-goods/cleaning gate to the candidates this
+// query returns. Pre-2026-05-28 (food only) every authority assumed food
+// — that silently rejected every Cat 10 (durable goods + textiles)
+// candidate before download.
 const REGULATORY_BODIES = [
-  { name: "FDA total diet study",                  food_term: "food"    },
-  { name: "EFSA scientific opinion",               food_term: "food"    },
-  { name: "WHO JECFA",                             food_term: "food"    },
-  { name: "ATSDR toxicological profile dietary",   food_term: "dietary" },
-  { name: "EFSA CONTAM panel dietary exposure",    food_term: "dietary" },
-  { name: "Codex Alimentarius CCCF",               food_term: "food"    },
-  { name: "FDA Closer to Zero",                    food_term: "food"    },
+  // Food authorities
+  { name: "FDA total diet study",                  context_term: "food",     domain: "food"          },
+  { name: "EFSA scientific opinion",               context_term: "food",     domain: "food"          },
+  { name: "WHO JECFA",                             context_term: "food",     domain: "food"          },
+  { name: "ATSDR toxicological profile dietary",   context_term: "dietary",  domain: "food"          },
+  { name: "EFSA CONTAM panel dietary exposure",    context_term: "dietary",  domain: "food"          },
+  { name: "Codex Alimentarius CCCF",               context_term: "food",     domain: "food"          },
+  { name: "FDA Closer to Zero",                    context_term: "food",     domain: "food"          },
+  // Durable goods + textiles authorities (Cat 8, 9, 10)
+  { name: "CPSC Consumer Product Safety",          context_term: "consumer product",  domain: "durable-goods" },
+  { name: "16 CFR 1303 lead-in-paint",             context_term: "paint",             domain: "durable-goods" },
+  { name: "ASTM F963 toy safety",                  context_term: "toy",               domain: "durable-goods" },
+  { name: "EN 71-3 migration toy",                 context_term: "toy",               domain: "durable-goods" },
+  { name: "CPSIA Consumer Product Safety Improvement Act", context_term: "children product", domain: "durable-goods" },
+  { name: "ECHA REACH SVHC",                       context_term: "consumer product",  domain: "durable-goods" },
+  { name: "ATSDR toxicological profile exposure",  context_term: "exposure",          domain: "durable-goods" },
+  // Personal care + cosmetics authorities (Cat 2)
+  { name: "FDA cosmetics heavy metals",            context_term: "cosmetic",          domain: "personal-care" },
+  { name: "EU Cosmetics Regulation 1223/2009",     context_term: "cosmetic",          domain: "personal-care" },
+  { name: "Health Canada cosmetic ingredient hotlist", context_term: "cosmetic",      domain: "personal-care" },
+  // Cleaning products (Cat 6) — small but real authority set
+  { name: "EPA cleaning product",                  context_term: "household",         domain: "cleaning"      },
 ]
 const HMTC_ANALYTES = ["Pb", "Cd", "iAs", "tAs", "tHg", "MeHg", "Ni", "Al", "Cr-VI", "Sn"]
 // Coverage-rotation budget per run. Sprint mode 2026-05-25 bumped 600 → 2500
@@ -129,8 +151,36 @@ const HMTC_CATEGORY_CONTEXT = {
   5: ["beverage contaminants", "drink heavy metal"], // Beverages
   6: ["cleaning product safety", "household chemical"], // Cleaning products (when scaffolded)
   7: ["cookware leaching", "food contact material"], // Cookware
-  8: ["textile heavy metals", "infant textile safety"], // Bedding/clothing
-  9: ["toy heavy metals", "children product safety"], // Toys/art/craft
+  8: ["textile heavy metals", "infant textile safety", "children textile lead", "fabric dye metals"], // Bedding/clothing
+  9: ["toy heavy metals", "children product safety", "painted toy lead", "plastic toy migration"], // Toys/art/craft
+  10: ["durable good heavy metals", "infant product lead paint", "children furniture cadmium", "stroller car seat heavy metals", "mouthing exposure infant product"], // Infant and Child Durable Goods and Textiles
+}
+
+// HMTc category → discovery DOMAIN. Determines which domain-term list the
+// fetcher's hard gate applies. Food-shaped categories (1, 3, 4, 5, 7) use
+// the food-domain gate; personal-care (2) and durable-goods/textiles (6, 8,
+// 9, 10) use their own gates. Without this mapping, the food-domain gate
+// added 2026-05-28 silently rejected every non-food paper — leaving Cat 10
+// (infant durable goods + textiles) at 0 sources across the entire
+// category despite the fetcher running thousands of queries.
+const HMTC_CATEGORY_DOMAIN = {
+  1: "food", 2: "personal-care", 3: "food", 4: "food", 5: "food",
+  6: "cleaning", 7: "food", 8: "durable-goods", 9: "durable-goods",
+  10: "durable-goods",
+}
+
+// Infer the discovery domain from a product slug + hmtc_category frontmatter
+// value. Falls back to "food" because the corpus is food-dominant; that
+// preserves backwards-compat for the 80% of queries from Cat 1/3/4/5/7.
+function inferDomain(productSlug, hmtcCategory) {
+  const catNum = parseInt(hmtcCategory, 10)
+  if (!isNaN(catNum) && HMTC_CATEGORY_DOMAIN[catNum]) return HMTC_CATEGORY_DOMAIN[catNum]
+  // Slug-name heuristics for pages without an hmtc_category frontmatter
+  const s = (productSlug || "").toLowerCase()
+  if (/^(cosmetic|lotion|shampoo|cream|lipstick|mascara|sunscreen|deodorant|personal-care)/.test(s)) return "personal-care"
+  if (/^(toy|crib|stroller|car-seat|bib|infant-clothing|blanket|sleep-sack|high-chair|play-yard|swing|bouncer|walker|mattress|textile|fabric)/.test(s)) return "durable-goods"
+  if (/^(detergent|cleaner|bleach|disinfectant|cleaning)/.test(s)) return "cleaning"
+  return "food"
 }
 
 main()
@@ -207,7 +257,7 @@ function main() {
   const final = eligible.slice(0, MAX_QUERIES_PER_RUN)
   console.log(`Final wishlist: ${final.length} queries (capped at ${MAX_QUERIES_PER_RUN})`)
 
-  const headers = ["gap_priority", "product_slug", "metal_species", "search_query", "openalex_filter", "rationale", "source_target"]
+  const headers = ["gap_priority", "product_slug", "metal_species", "search_query", "openalex_filter", "rationale", "source_target", "domain"]
   const lines = [headers.join(",")]
   for (const row of final) lines.push(headers.map((h) => csvCell(row[h])).join(","))
   fs.writeFileSync(outputPath, lines.join("\n") + "\n", "utf8")
@@ -253,6 +303,7 @@ function runPoolingEnginePath(wishlistRows, queryHistory) {
           openalex_filter: "type:journal-article,is_oa:true,from_publication_date:2018-01-01",
           rationale: `${verdict}; pool n=${row.sources_contributing || 0}, sensitivity ${row.sens_band || "unknown"}`,
           source_target: "openalex",
+          domain: inferDomain(productSlug, null),
         })
         count++
       }
@@ -292,6 +343,7 @@ function runEmptyPagePath(wishlistRows, queryHistory) {
               openalex_filter: "type:journal-article,is_oa:true,from_publication_date:2018-01-01",
               rationale: `Product page empty (sources=${sources}); wishlist generated from empty-page path (v2 2026-05-18).`,
               source_target: "openalex",
+              domain: inferDomain(slug, fm.hmtc_category),
             })
             count++
           }
@@ -327,6 +379,7 @@ function runEmptyPagePath(wishlistRows, queryHistory) {
               openalex_filter: "type:journal-article,is_oa:true,from_publication_date:2018-01-01",
               rationale: `Ingredient page thin (sources=${sources}); wishlist generated from empty-page path (v2).`,
               source_target: "openalex",
+              domain: inferDomain(slug, null),
             })
             count++
           }
@@ -404,6 +457,7 @@ function runCellCoveragePath(wishlistRows, queryHistory) {
             openalex_filter: "type:journal-article,is_oa:true,from_publication_date:2018-01-01",
             rationale: `Cell-level coverage: ${dirLabel}/${slug} × ${metalKey} has n_studies=${n} (<${CELL_FULL_THRESHOLD}); Path C (v2 2026-05-28).`,
             source_target: "openalex",
+            domain: inferDomain(slug, fm.hmtc_category),
           })
           count++
         }
@@ -438,10 +492,11 @@ function runRegulatoryAnchorPath(wishlistRows) {
         gap_priority: "P1", // regulatory documents are top-tier evidence
         product_slug: `regulatory:${metal}`,
         metal_species: metal,
-        search_query: `${body.name} ${metalTerm} ${body.food_term}`,
+        search_query: `${body.name} ${metalTerm} ${body.context_term}`,
         openalex_filter: "type:journal-article,is_oa:true,from_publication_date:2010-01-01",
-        rationale: `Regulatory anchor: ${body.name} × ${metal}. Path D (v2 2026-05-28).`,
+        rationale: `Regulatory anchor: ${body.name} × ${metal} (domain=${body.domain}). Path D (v2 2026-05-28).`,
         source_target: "openalex",
+        domain: body.domain,
       })
       count++
     }
