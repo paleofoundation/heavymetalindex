@@ -631,6 +631,20 @@ for slug in infant-formula-powder-non-soy infant-formula-powder-soy-based \
   npm run briefing -- --product="$slug" 2>&1 | grep -E "Wrote|Analytes|Rationales" >> "$LOG_FILE" || true
 done
 
+# Disable errexit for the reporting + commit tail (2026-05-30 fix). The
+# morning-report block below is built from ~20 `var=$(grep -oE ... | head -1)`
+# command substitutions. Under `set -euo pipefail`, ANY grep that finds no
+# match (e.g. "Created N stub page" on a tick that created none) makes the
+# pipeline return non-zero, the assignment inherits that status, and `set -e`
+# aborts the WHOLE tick — before Step 8 ever runs. This is why every tick in
+# the logs showed `end=0` and never did a clean Step-8 commit; the work only
+# survived via the checkpoint commits + exit-trap recovery added earlier
+# today. The tail (report + Step 8 commit/push) is all explicitly guarded
+# (run_step, `|| log`, `if`) with the EXIT trap as the final backstop, so it
+# does not need errexit. Turning it off here lets the tick reach its natural
+# end and perform the clean Step-8 commit + push.
+set +e
+
 # Step 7: morning report — appended BEFORE commit so the append lands in the
 # same tick's commit and the next tick doesn't see a dirty tree.
 {
