@@ -14,7 +14,7 @@ license: "All rights reserved (HBBF); cite-and-link only"
 raw_path: "raw/Manual Fetch Kimi /Arsenic-in-Rice-Report_May2025_R5_SECURED.pdf"
 metals: [tAs, iAs, Cd, Pb, tHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/quinoa]]", "[[ingredients/non-rice-grains]]"]
-products: []
+products: ["[[products/rice-bulk-grain]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/other-grain-products]]"]
 matrices: [rice, cereal-grain]
 jurisdictions: [US]
 near_duplicates: []
@@ -22,8 +22,8 @@ sample_n: 211
 sample_population: "211 retail grain containers (145 rice samples across 105 brands and 66 alternative-grain samples) purchased in 20 US metro areas, 2024-2025"
 wiki_doi: null
 sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-17
+sampling_year_range: "2024-2025"
+updated: 2026-05-29
 ---
 
 # HBBF 2025 — Total and inorganic arsenic, cadmium, lead, and mercury in 145 US retail rice samples and 66 alternative grain samples
@@ -37,7 +37,7 @@ Healthy Babies Bright Futures commissioned Brooks Applied Labs to test 211 conta
 - Average total heavy metal levels by rice category (sum of iAs + Cd + Pb + tHg, ppb): California rice (sushi, Calrose) 65 ppb; Thai jasmine 86 ppb; Indian basmati 100 ppb; Southeast US and "USA" white rice 118 ppb; Italian arborio (risotto) 142 ppb; Southeast US and "USA" brown rice 151 ppb (Figure 1, p. 7).
 - All-rice vs alternative grains: rice average 108 ppb total heavy metals; non-rice grains 33 ppb (69% lower) (Figure 2, p. 8). Rice contained 28 times more arsenic and 1.5 times more cadmium than alternative grains; average iAs was 84.8 ppb in rice vs 3.1 ppb in alternative grains (footnote 9, p. 8).
 - Average cadmium: 18.8 ppb in rice vs 27.5 ppb in alternative grains (alternatives higher for Cd specifically) (footnote 9, p. 8).
-- Lead: one saffron-seasoned rice sample contained Pb up to 32 times the average lead content in other samples; replicate-sample lead concentrations on saffron yellow rice products of 29.4, 36 µg/kg (e.g., HBR-104 Dixie Lily 29.4 µg/kg; HBR-174 Dixie Lily Saffron Yellow Rice 36 µg/kg; Appendix A pp. 34-35).
+- Lead: parboiled saffron-seasoned yellow rice was the highest-Pb rice subtype tested; the single highest sample reached 36 µg/kg Pb — 32 times the all-rice average lead and 5 times the next-highest non-saffron sample. Two lots from one producer (purchased 3 months apart) measured 29.4 and 36 µg/kg Pb respectively, indicating a persistent rather than isolated finding (Appendix A pp. 34-35; Insight #5, p. 16).
 - Cooking effect: "cooking rice like pasta" - boiling in 6-10 cups water per 1 cup rice and draining - reduces arsenic by up to 60% (cited body of prior literature; HBBF presents as no-cost mitigation; p. 3).
 - Alternative-grain cost: alternative grains averaged ~$0.53/serving vs ~$0.10/serving for rice (~5x cost premium) (p. 8, citing Statista 2024).
 - Sample-level Appendix A inorganic-arsenic ranges by rice subtype (selected, ug/kg dry-weight unless noted RTH):
@@ -45,10 +45,10 @@ Healthy Babies Bright Futures commissioned Brooks Applied Labs to test 211 conta
   - Basmati rice (n=19): iAs 16.2-123 ug/kg; tAs 24.6-522 ug/kg; Cd 6.8-108 ug/kg
   - Brown rice (n=16): iAs 63.4-201 ug/kg; tAs 76.7-317 ug/kg; Cd 2.9-31 ug/kg
   - Calrose rice (n=6): iAs 39.9-79.6 ug/kg; tAs 65.5-136 ug/kg; Cd 2.7-5.1 ug/kg
-  - Jasmine rice (n=22): iAs 15.2-119 ug/kg (one Lundberg California RTH at 15.2); tAs 30-167 ug/kg; Cd 1.5*-23.1 ug/kg
+  - Jasmine rice (n=22): iAs 15.2-119 ug/kg (the low end is a ready-to-heat brown jasmine sample); tAs 30-167 ug/kg; Cd 1.5*-23.1 ug/kg
   - Sushi rice (n=6): iAs 37.5-80.9 ug/kg; tAs 41.3-169 ug/kg; Cd 2.6*-10.3 ug/kg
   - White rice long-grain (n=~50): iAs 20.6-130 ug/kg; tAs 29.3-342 ug/kg; Cd 2.5*-66.8 ug/kg; many Cd >20 ug/kg
-  - Saffron-seasoned rice products: Pb up to 36 ug/kg (Dixie Lily HBR-174), 29.4 ug/kg (HBR-104); also notably high in some Vigo yellow rice samples (Pb 4.9-6.5 ug/kg)
+  - Parboiled saffron-seasoned yellow rice (n=5 across the white-rice and Dixie Lily yellow-rice listings): Pb 4.9-36 ug/kg, consistently higher than non-saffron rice; the two highest samples (29.4, 36 ug/kg Pb) came from the same producer, lots 3 months apart.
 - Alternative-grain summaries (Appendix A): amaranth/barley/buckwheat/bulgur/couscous/farro/millet/quinoa/spelt; iAs not measured for most (NA in column); tAs typically <12 ug/kg (mostly estimated values flagged "*"); Cd often higher than rice (e.g., quinoa Cd 15.9-59.9 ug/kg; spelt 32.4-67.3 ug/kg; couscous Cd 9.4-43.7 ug/kg; farro 8.8-44.8 ug/kg).
 
 ## Methods (brief)
@@ -80,7 +80,8 @@ Testing performed by Brooks Applied Labs (Seattle, WA) during 2024-2025 on retai
 ## Verification notes
 
 - This is a B-tier NGO report (HBBF + GreenLatinos + Virginia Women's Residency), not peer-reviewed. Methodology summary (Appendix B) is high-level; per-sample LOD/LOQ values are not in the public PDF but are referenced as available in the lab's detailed reports. Treated as B-tier per Part 13.
-- Brand firewall (Part 12): Appendix A names 105 brands across 211 samples. This source page aggregates findings at rice-subtype and grain-category level. Brand names appear in the Key numbers only where they identify special-purpose product forms that drive an outlier (saffron-seasoned rice; instant/ready-to-heat parboiled). Routine brand-by-brand rankings are not reproduced; the appendix tables remain in `raw/` for reference.
+- Brand firewall (Part 12, strict 2026-05-17 reading): Appendix A names 105 brands across 211 samples. This source page aggregates findings at rice-subtype and grain-category level only. Brand names are stripped from Key numbers; outlier findings that previously named producers (parboiled saffron-seasoned yellow rice Pb cluster; ready-to-heat brown jasmine low-iAs sample) are now described by product-form descriptor alone. Routine brand-by-brand rankings are not reproduced; the appendix tables remain in `raw/` for reference.
+- 2026-05-29 merge-enhance: populated `products:` with `rice-bulk-grain` (direct evidence, 145 rice samples), `baby-cereals-dry-rice-based` (regulatory context: report frames findings against FDA's 100 ppb iAs action level for infant rice cereal and discusses homemade rice cereal made from these grains), and `other-grain-products` (direct evidence, 66 alternative-grain samples). Cleared the routing-malformed advisory. Stripped two brand attributions ("Dixie Lily", "Vigo") and corrected a "Lundberg California RTH" reference (the 15.2 ug/kg iAs jasmine sample is the ready-to-heat brown jasmine, not California-grown). Numerical fidelity spot-checks against Figures 1-2, footnote 9, Insight #5, and Appendix A pp. 29-37 all matched.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
