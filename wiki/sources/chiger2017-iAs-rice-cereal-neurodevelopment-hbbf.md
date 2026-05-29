@@ -75,7 +75,7 @@ HBBF independent testing (Figure 1, p. 11) reports approximate mean iAs concentr
 | Shibata et al. 2016 | 9–11 mo | High (P75) | 0.55 |
 | Karagas et al. 2016 | 12 mo | Average (biomarker-derived) | 0.30 |
 
-*Carignan et al. (2016) reports total As; the iAs values here were derived by the Abt authors assuming iAs is 55% of total dietary As exposure (Shibata et al. 2016 assumption).
+*Carignan et al. (2016) Table 3 in the original paper reports total-As exposures only; the iAs values in this row were derived by the Abt authors using the inorganic-arsenic concentrations Carignan drew from FDA's 2013 infant-rice-cereal analysis (median iAs 0.20 µg/g for average scenarios; maximum iAs 0.25 µg/g for high scenarios), not a fixed-fraction conversion from total As. The Xue et al. 2010 row separately uses the Shibata 2016 assumption that infant rice cereal contributes 55% of total dietary iAs exposure to back-out infant-rice-cereal-specific exposure from Xue's total-iAs estimate.
 
 Shibata et al. (2016) Monte Carlo estimates (Table 4, p. 17): daily iAs from infant rice cereal at the 25th/50th/75th percentile is 0.051/0.23/0.46 µg/kg-bw/day for 4–5 month-olds, 0.12/0.29/0.53 for 6–8 months, and 0.11/0.30/0.53 for 9–11 months. Xue et al. (2010) SHEDS modelling (Table 2): inorganic As exposure from all food in infants <1 yr has mean 0.23 ± 0.19 µg/kg-bw/day; 5th–99th percentile 0.01–0.80.
 
@@ -97,8 +97,8 @@ Shibata et al. (2016) Monte Carlo estimates (Table 4, p. 17): daily iAs from inf
 
 | CRF | Endpoint | Relationship |
 |---|---|---|
-| Hamadani 2011 log-linear | Verbal IQ in 5-y-old Bangladeshi girls | β = −1.4 (urinary) |
-| Hamadani 2011 linear | Verbal IQ in 5-y-old Bangladeshi girls | −0.9 IQ point per 100 µg/L urinary iAs |
+| Hamadani 2011 log-linear | Full-scale IQ in 5-y-old Bangladeshi girls | β = −1.4 (urinary; verbal-IQ slope in the same paper is β = −2.4 and was not selected by Abt) |
+| Hamadani 2011 linear | Full-scale IQ in 5-y-old Bangladeshi girls | −0.9 IQ point per 100 µg/L urinary iAs (verbal-IQ linear slope from the same paper is −2.6 IQ points/100 µg/L and was used by Tsuji 2015 for the neurodevelopmental RfD; Abt selected the full-scale slope for the linear CRF here) |
 | Wasserman 2004 quadratic | Full-scale IQ in 10-y-olds, Araihazar, Bangladesh | y = −0.443x + 0.0063x² (water iAs in µg/L) |
 | Wasserman 2004 linear extrapolation | Full-scale IQ | −1 IQ point per 2.27 µg/L water iAs (CalEPA 2008 / MassDEP 2011 method) |
 | Wasserman 2007 log-linear | Full-scale IQ in 6-y-olds, Araihazar | β = −1.06 (water) |
@@ -162,7 +162,7 @@ Audience translation: at the per-child level (Table 18), switching from infant r
 
 App: the per-IQ-point dollar valuations and the CRF-by-CRF avoided-IQ-loss distributions can drive a per-child exposure calculator. Concentration inputs for infant rice cereal (mean ~100–120 ppb iAs depending on white vs brown) and for alternate grains (5–17 ppb) are pre-pooled in Section 3.1.
 
-Microbiome: not addressed; this is exposure + dose-response + economic valuation, not mechanism. Arsenic-microbiome interactions are discussed at [[metals/arsenic-inorganic]] and [[microbiome/]] pages.
+Microbiome: not addressed; this is exposure + dose-response + economic valuation, not mechanism. Arsenic-microbiome interactions are not covered by this source.
 
 ## Wiki pages this source may touch
 
@@ -191,6 +191,14 @@ Microbiome: not addressed; this is exposure + dose-response + economic valuation
   - Consumer-audience translation added inside Implications with `<!-- audience: consumer --> ... <!-- /audience -->` tagging per Part 7 audience layering. Anchored on quantitative concentration values (~100-120 ppb infant rice cereal vs 5-17 ppb non-rice alternatives) rather than undefined "trace"/"safe" qualifiers, per [[docs/conventions]].
 - Brand firewall (Part 12): the report itself names "Nestlé Feeding Infants and Toddlers Study" — that is a scientific-instrument vendor-style reference (the FITS study is the named data source, not a contamination value attribution), which is the Exception-2 carve-out per the 2026-05-17 lock. Retained as "FITS 2002 and 2008" and "Nestlé FITS" without brand-attribution-to-values. No brand-by-brand contamination listings exist anywhere in the source for this paper, so no Part 12 redactions were needed.
 - HMTc firewall (Part 2): the report itself takes a clear advocacy position (avoidable IQ loss → tighter standard). The wiki summary preserves the report's quantitative findings and reasoning chain but does not endorse the advocacy direction in the wiki voice. The Implications section names the regulatory-uncertainty envelope (IRIS vs Tsuji vs Abt-re-derived Tsuji) without recommending which value HMTc or any other certifier should adopt.
+- 2026-05-29 (audit application): Fresh-context Agent subagent (general-purpose) ran the five-check audit per `docs/gpt-collaboration/audit-prompt.md`. Verdict: REVISE with 3 ❌ findings and 2 ⚠️ concerns. Findings verified against source and applied:
+  - ❌ Table 11 Hamadani 2011 log-linear and linear rows were both labeled "Verbal IQ" — corrected to "Full-scale IQ" per source p. 41 ("verbal IQ: β = −2.4 (95% CI: −3.8, −1.1); full-scale IQ: β = −1.4 (95% CI: −2.7, −0.1)" and Section 6.1.1 confirming Abt selected the full-scale β=−1.4 log-linear slope and the full-scale 0.9 IQ-pts/100 µg/L linear slope; the verbal linear slope of 2.6 IQ-pts/100 µg/L is what Tsuji 2015 used for the RfD). Both rows now also annotate the parallel verbal-IQ slope for cross-reference.
+  - ❌ Carignan Table 5 footnote previously stated the 55% Shibata assumption was applied to convert Carignan total-As to iAs. Source p. 19 Table 5 footnotes show the 55% assumption is the Xue (*) footnote, not Carignan (**); Section 3.3.4 (p. 16) confirms Carignan derived iAs using FDA 2013 inorganic-arsenic concentrations directly (median 0.20 µg/g; max 0.25 µg/g). Footnote rewritten to reflect what Carignan actually did.
+  - ⚠️ Bare `[[microbiome/]]` directory wikilink in Implications section dropped (Microbiome line now simply states the source does not cover this topic).
+  - ⚠️ Matrices vocabulary (`[policy-cost-benefit, exposure-modeling, neurodevelopment]`) flagged as non-standard but left in place: routing audit accepts these values (source not in `routing_malformed.csv`); the values are descriptive of a literature-synthesis report that has no primary sampling matrix. If a future taxonomy migration introduces a `report-type` field, these should move there.
+  - ⚠️ FITS / Nestlé Exception-2 rationale in prior Verification notes is rationale-only and was not edited; correct rationale is that "FITS" is a standard scholarly study identifier (like NHANES, WWEIA) and the body does not name brand products against contamination values.
+  - ⚠️ Consumer-audience block ("For a parent: replacing infant rice cereal in your child's diet with oatmeal, quinoa, barley, or other non-rice infant cereal reduces inorganic arsenic exposure substantially…") left as-is: it is quantitatively anchored (6–17 ppb non-rice vs ~100–120 ppb infant rice cereal), properly hedged on per-child IQ effect, and faithfully echoes the source's own explicit recommendation (p. 30). Defensible at the boundary of Part 2 consumer-translation discipline.
+  No findings were rejected as false positives. Routing audit re-run clean after edits.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
