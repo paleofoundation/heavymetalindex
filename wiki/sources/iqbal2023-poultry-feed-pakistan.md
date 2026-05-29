@@ -13,7 +13,7 @@ license: "CC BY-NC 4.0"
 raw_path: "raw/Manual Fetch Kimi /EvaluationofHeavyMetalsConcentrationinPoultryFeedandPoultry.pdf"
 metals: [Pb, Cd, Cr, tHg, Fe]
 ingredients: ["[[ingredients/poultry]]", "[[ingredients/chicken]]", "[[ingredients/eggs]]", "[[ingredients/organ-meats]]", "[[ingredients/meat-and-poultry]]"]
-products: []
+products: ["[[products/poultry-product]]", "[[products/eggs-product]]"]
 matrices: [poultry-feed, chicken, liver, breast-muscle, thigh-muscle, eggs]
 jurisdictions: [PK]
 near_duplicates: []
@@ -22,7 +22,7 @@ sample_population: "6 solid feeds, 6 liquid feeds (water), 33 livers (composite 
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-17
+updated: 2026-05-29
 ---
 
 # Iqbal et al. 2023 — Heavy metals in poultry feed and poultry products from Rawalpindi/Islamabad farms
@@ -37,9 +37,9 @@ This Saudi Journal of Medical and Pharmaceutical Sciences article reports concen
 - Liver (Table 1, ppm; Hg ND): Cd 0.09-0.39 (mean 0.1666); Cr 0.30-1.10 (mean 0.6083); Fe 181.51-676.84 (mean 451.9783); Pb 0.54-8.42 (mean 2.9083). WHO MPL listed: Cd 0.05; Cr 0.5; Pb 0.1 (p. 491).
 - Breast muscle (ppm; Cd ND, Hg ND): Cr 0.32-1.28 (mean 0.6683); Fe 22.16-33.96 (mean 26.895); Pb 0.41-6.95 (mean 2.655). WHO MPL: Cr 1.0; Pb 0.1 (p. 491).
 - Thigh muscle (ppm; Cd ND, Hg ND): Cr 0.20-0.66 (mean 0.32); Fe 37.80-55.46 (mean 44.4116); Pb 0-5.98 (mean 1.655) (p. 491).
-- Egg albumen (ppm; Cd ND, Hg ND): Cr ND-0.94 (mean 0.4775); Fe 3.73-15.52 (mean 7.04); Pb 0.46-7.40 (mean 2.322). WHO MPL: Cd 0.06-0.07; Cr 0.05; Fe 44.0; Pb 0.43 (p. 491-492).
-- Egg yolk (ppm; Cd ND, Hg ND): Cr 0.21-4.63 (mean 1.57); Fe 41.22-75.18 (mean 62.416); Pb 0.49-8.21 (mean 6.634) (p. 491).
-- Whole egg (ppm; Cd ND, Hg ND): Cr 0.82-5.09 (mean 1.952); Fe 59.64-83.43 (mean 69.456); Pb 6.34-15.01 (mean 8.956) (p. 492).
+- Egg albumen (ppm; Cd ND, Hg ND): Cr ND-0.94 (mean 0.4775, computed excluding ND row); Fe 3.73-15.52 (mean 7.04); Pb 0.46-7.40 (mean 2.322) (p. 491). Note: Farm D albumen was not analyzed (n=5).
+- Egg yolk (ppm; Cd ND, Hg ND): Cr 0.57-4.63 (mean 1.57); Fe 53.12-75.18 (mean 62.416); Pb 4.64-8.21 (mean 6.634) (p. 491). Note: Farm D yolk was not analyzed (n=5).
+- Whole egg (ppm; Cd ND, Hg ND): Cr 0.82-5.09 (mean 1.952); Fe 59.64-83.43 (mean 69.456); Pb 6.34-15.01 (mean 8.956). WHO permissible limits cited in Table 1 (Ref 14) for whole egg: Cd 0.06-0.07; Cr 0.05; Fe 44.0; Pb 0.43 — all study means exceed Cr, Fe, and Pb limits (p. 492).
 - Farm E showed outlier feed values driving exceedances (Cr 10.20 ppm, Pb 8.87 ppm); Farm F whole-egg Pb reached 15.01 ppm (Table 2, p. 492).
 - Comparison with prior Pakistan poultry studies (Table 5, p. 495, ppm): the present study's feed Pb (2.605 ppm), liver Pb (2.9083 ppm), and whole-egg/yolk Pb (6.63 ppm) are within ranges (7.9-32.6 feed; 0.26-2.32 albumen) but Cr in feed (2.36 ppm) is higher than the cited 1.93 ppm reference.
 
@@ -72,6 +72,7 @@ Six layer-breed chicken samples from each of six farms in Rawalpindi/Islamabad. 
 - Cr reported is total Cr by ICP-OES; Cr-VI speciation was NOT performed. Per Part 14 the wiki must keep total Cr distinct from Cr-VI; this source contributes only to total Cr.
 - Hg "not detected" by ICP-OES; LOD not reported. Whether Hg was truly absent or below ICP-OES sensitivity cannot be inferred from the paper.
 - Composite sampling: although text states "33 liver, 33 breast, 33 thigh samples collected", the analysis was composited to one value per farm (n=6 per tissue type). The reported per-farm means in Table 1 reflect those composites, not individual-bird measurements.
+- 2026-05-29 merge-enhance: prior revision misattributed the WHO whole-egg permissible limits (Cd 0.06-0.07, Cr 0.05, Fe 44.0, Pb 0.43 ppm) to egg albumen; Table 1 of the source places the "Ref: (14)" attribution row between yolk and whole-egg rows, indicating these MPLs apply to whole egg only — corrected. Prior revision also reported egg-yolk minimum values (Cr 0.21, Fe 41.22, Pb 0.49) that match the thigh-muscle minima rather than the yolk column in Table 1; corrected to the actual yolk minima (Cr 0.57 from BY, Fe 53.12 from CY, Pb 4.64 from CY). Means and maxima were unchanged and remain verified. `products:` populated with `poultry-product` and `eggs-product` to clear the routing-malformed advisory; the prior empty `products: []` predated the 2026-05-17 Phase 1 frontmatter-discipline rule.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
