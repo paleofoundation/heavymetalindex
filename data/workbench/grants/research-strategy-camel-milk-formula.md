@@ -3,9 +3,10 @@ type: grant-artifact
 artifact: research-strategy
 status: sample-demo
 applicant: "GENERIC / UNNAMED small business (no brand data — demonstration only)"
-mechanism: "NIH STTR (Phase I → Phase II); institute assignment NIEHS or NICHD"
-partner: "The Paleo Foundation (nonprofit research partner; heavy-metals characterization + HMTc methodology)"
-prepared_by: "Heavy Metal Index corpus + Pendergrass 2026 NEC preprint + discovery pass 2026-05-29/30"
+mechanism: "NIH SBIR (Phase I → Phase II); institute assignment NIEHS or NICHD. STTR only if the applicant brings its OWN academic research-institution partner — the Paleo Foundation is NOT that partner."
+authored_by: "The applicant (generic brand). A scaffold for the brand to adopt, edit, and own."
+foundation_role: "Independent public evidence resource (heavymetalindex.com) ONLY — not applicant, partner, sub-awardee, co-investigator, or preparer; no stake in the product. Any future HMTc certification runs the standard's normal independent process."
+scaffold_source: "Drafted from the HMI public corpus + Pendergrass 2026 NEC preprint + discovery passes 2026-05-29/30."
 date: 2026-05-30
 brand_firewall: "Generic applicant. No brand-level data. Not a submission."
 ---
@@ -14,7 +15,7 @@ brand_firewall: "Generic applicant. No brand-level data. Not a submission."
 
 ## Making a Camel-Milk Infant Formula NEC-Safe: Bioavailable Nickel, Sourcing, and Surveillance
 
-> **Demonstration artifact** for a generic, unnamed camel-milk-formula small business applying for NIH STTR support, with the Paleo Foundation as the required nonprofit research partner. Citations are real; the applicant is a placeholder; no brand data. Companion to [sample-specific-aims-camel-milk-formula.md](sample-specific-aims-camel-milk-formula.md). Written to NIH Research Strategy conventions (Significance · Innovation · Approach).
+> **Demonstration scaffold** showing what the HMI public corpus + the Pendergrass NEC preprint can generate for a generic, unnamed camel-milk-formula small business. **The applicant (the brand) is the author and owner of any real submission.** The Paleo Foundation is not a partner, sub-awardee, or preparer — only an independent public evidence resource the applicant may cite. Mechanism: NIH **SBIR** (the brand subcontracts analytical/animal work to labs it engages); STTR only if the brand brings its own academic partner. Citations are real; applicant is a placeholder; no brand data. Bracketed **〔APPLICANT SUPPLIES …〕** tags mark content only the brand can provide. Companion to [sample-specific-aims-camel-milk-formula.md](sample-specific-aims-camel-milk-formula.md). Written to NIH Research Strategy conventions (Significance · Innovation · Approach).
 
 ---
 
@@ -38,9 +39,9 @@ This project is innovative on four counts. **Conceptually**, it operationalizes 
 
 ### Overarching design and phasing
 
-The work is structured for STTR. **Phase I** (feasibility, ~12 months) executes Aim 1 in full, the in-vitro component of Aim 2, and the biomarker proof-of-concept in Aim 3 — establishing whether the applicant's camel-milk formula has favorable bioavailable nickel and whether nickel availability measurably modulates pathogen virulence in the relevant matrix. **Phase II** (~24 months) executes the in-vivo NEC-model component of Aim 2 and the surveillance-protocol validation in Aim 3, scaling to a defensible product specification. All concentrations are handled on an **as-consumed basis** (powder reconstituted at the label dilution; the 1:7 reconstitution factor and basis conversion follow established HMI methodology), so that comparisons across human milk, camel formula, and bovine/soy formula are like-for-like and cannot be gamed by serving-size definition.
+The work is structured for SBIR; the applicant subcontracts the analytical, bioavailability, and animal-model work to qualified laboratories of its choosing. **Phase I** (feasibility, ~12 months) executes Aim 1 in full, the in-vitro component of Aim 2, and the biomarker proof-of-concept in Aim 3 — establishing whether the applicant's camel-milk formula has favorable bioavailable nickel and whether nickel availability measurably modulates pathogen virulence in the relevant matrix. **Phase II** (~24 months) executes the in-vivo NEC-model component of Aim 2 and the surveillance-protocol validation in Aim 3, scaling to a defensible product specification. All concentrations are handled on an **as-consumed basis** (powder reconstituted at the label dilution; the 1:7 reconstitution factor and basis conversion follow established HMI methodology), so that comparisons across human milk, camel formula, and bovine/soy formula are like-for-like and cannot be gamed by serving-size definition.
 
-**Test article and matrices.** The applicant supplies the camel-milk formula (and, for Aim 1, candidate raw-milk source lots from defined regions/herds). Comparators are pooled human milk (donor-bank), and representative commercial bovine and soy formulas. The Foundation conducts the analytical and bioavailability work and contributes the surveillance methodology.
+**Test article and matrices.** The applicant supplies the camel-milk formula and, for Aim 1, candidate raw-milk source lots from defined regions/herds 〔APPLICANT SUPPLIES: formula spec, source-lot provenance〕, and engages ISO/IEC 17025 laboratories and an animal-model facility 〔APPLICANT SUPPLIES: subcontractor labs/CRO〕 for the analytical, bioavailability, and in-vivo work. Comparators are pooled human milk (donor-bank) and representative commercial bovine and soy formulas. heavymetalindex.com is cited as an independent literature/methodology reference; the surveillance design in Aim 3 draws on its public HMTc methodology.
 
 ### Specific Aim 1 — Total and bioavailable nickel, and the heavy-metal panel, across feeding matrices and source lots
 
@@ -74,9 +75,9 @@ The work is structured for STTR. **Phase I** (feasibility, ~12 months) executes 
 
 ### Rigor, reproducibility, and the wiki/HMTc firewall
 
-All analytical methods are accredited and traceable; certified reference materials and measurement-uncertainty budgets accompany every value. Provenance is preserved per-claim. The literature baseline this proposal rests on is reported honestly: camel milk's metal liability is stated, not hidden, and the project is explicitly designed to deliver value whether or not the bioavailability hypothesis holds. The Foundation's role is research and methodology; it is not the product's owner, and any future certification proceeds through the standard's normal independent process.
+All analytical methods are accredited and traceable; certified reference materials and measurement-uncertainty budgets accompany every value. Provenance is preserved per-claim. The literature baseline this proposal rests on is reported honestly: camel milk's metal liability is stated, not hidden, and the project is explicitly designed to deliver value whether or not the bioavailability hypothesis holds. The Paleo Foundation is not an applicant, partner, or preparer of this application and holds no stake in the product; heavymetalindex.com is cited only as an independent public evidence base. Any future HMTc certification proceeds through the standard's normal independent process.
 
-## 4. Commercialization bridge (STTR)
+## 4. Commercialization bridge (SBIR)
 
 The commercial product is a low-bioavailable-nickel, heavy-metal-controlled camel-milk infant formula positioned for the cow-milk-protein-allergy and NEC-risk step-down segments — markets currently served by costly extensively-hydrolyzed and amino-acid formulas. The defensible contaminant record and control protocol from Aim 3 are the durable differentiator in a market under intensifying regulatory and litigation pressure (FDA Closer to Zero; AB899; *Palmquist*). Phase I de-risks the core scientific claim; Phase II yields the product specification and the surveillance protocol that support market entry and, optionally, independent certification.
 
