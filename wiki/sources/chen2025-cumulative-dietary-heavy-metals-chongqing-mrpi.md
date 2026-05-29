@@ -11,25 +11,25 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /Probabilistic assessment of the cumulative risk from dietary heavy metal exposure in Chongqing, China using a hazard-driven approach.pdf"
-metals: [Pb, Cd, iAs, MeHg]
+metals: [Pb, Cd, iAs, MeHg, iHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/cereals]]", "[[ingredients/meat]]", "[[ingredients/fish]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/vegetables]]", "[[ingredients/fruits]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/eggs]]"]
 products: []
 matrices: [dietary-intake, exposure-modeling, cumulative-risk]
 jurisdictions: [CN, EU]
 near_duplicates: []
 sample_n: 969
-sample_population: "969 participants from China Health and Nutrition Survey 2018, Chongqing Municipality: 31 preschoolers (3-6 yr), 113 adolescents (7-17 yr), 399 adults (18-59 yr), 426 elderly (≥60 yr). Food consumption from 2018 dietary recall survey. Contamination data from 2017-2021 China National Food Contamination Monitoring Program."
+sample_population: "969 participants from 2018 China Health and Nutrition Survey, Chongqing Municipality: 31 preschoolers (3-6 yr, 3.2%), 113 adolescents (7-17 yr, 11.7%), 399 adults (18-59 yr, 41.2%), 426 elderly (≥60 yr, 43.9%); 432 male (44.6%), 537 female (55.4%). Food consumption from 3-day 24-h dietary recall at 6 survey sites (Shapingba, Fengjie, Dazu, Jiangjin, Qijiang, Nanan). Contamination data from 2017-2021 China National Food Contamination Monitoring Program (5199 Pb, 5206 Cd, 4345 As, 4378 Hg food samples) across 38 districts and counties of Chongqing."
 wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-14
+sampling_locations: ["Chongqing"]
+sampling_year_range: "2017-2021"
+updated: 2026-05-29
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
 ---
 
 # Chen et al. 2025 — Cumulative dietary Pb/Cd/iAs/MeHg risk in Chongqing, China (hazard-driven mRPI + Monte Carlo)
 
-This study applies the EFSA-recommended hazard-driven cumulative risk assessment framework to dietary Pb, Cd, iAs, and MeHg exposure in Chongqing residents (n=969 across four age groups), using the modified Reference Point Index (mRPI) method combined with @RISK Monte Carlo simulation (100,000 iterations, Latin hypercube). The four metals are grouped by mode-of-action/AOP for two toxicity endpoints: **neurotoxicity** (mRPI 0.922 to 4.835 across scenarios) and **nephrotoxicity** (mRPI 1.306 to 7.031). Both endpoint mRPIs exceed the 1.0 acceptable-risk threshold across scenarios, indicating unacceptable cumulative risk for the Chongqing population's typical and high-exposure diets. **Pb is the dominant contributor to neurotoxicity; Cd and Pb together dominate nephrotoxicity.** The paper provides established conversion factors for total-to-speciated metal interpretation (iAs/tAs = 2% in fish, 70% in non-fish; MeHg/tHg = 100% in fish, 0% in non-fish), which are useful for the wiki's speciation methodology.
+This study applies the EFSA-recommended hazard-driven cumulative risk assessment framework to dietary Pb, Cd, iAs, and MeHg (neurotoxicity) and Pb, Cd, iAs, iHg (nephrotoxicity) exposure in Chongqing residents (n=969 across four age groups), using the modified Reference Point Index (mRPI) method with @RISK Monte Carlo simulation (100,000 iterations, Latin hypercube). Heavy-metal contamination is drawn from the 2017-2021 China National Food Contamination Monitoring Program (≈4,300-5,200 samples per metal); food consumption is drawn from the 2018 China Health and Nutrition Survey of Chongqing. Two toxicity endpoints are assessed: neurotoxicity (combined mRPI 0.922 to 4.835 across left-censoring scenarios at mean and 95th-percentile high exposure) and nephrotoxicity (combined mRPI 1.306 to 7.031). Both endpoint mRPIs exceed the acceptable-risk threshold of 1 at high exposure across all scenarios, indicating unacceptable cumulative risk at the upper tail of the Chongqing diet. **Pb dominates the neurotoxicity mRPI (69.74-72.22% at mean exposure); Cd dominates the nephrotoxicity mRPI (60.05-60.09%), with Pb second (39.08-39.01%).** Rice, leafy vegetables, and wheat products are the top three food contributors to both endpoints. The paper also documents established total-to-speciated conversion factors (iAs/tAs = 2% in fish, 70% in non-fish; MeHg/tHg = 100% in fish, 0% in non-fish; iHg/tHg = 20% in fish, 100% in non-fish) per EFSA and Suomi et al.
 
 ## Key numbers
 
@@ -44,78 +44,140 @@ This study applies the EFSA-recommended hazard-driven cumulative risk assessment
 | Male | 432 | 44.6% |
 | Female | 537 | 55.4% |
 
-**Cumulative risk results (modified Reference Point Index mRPI; >1 = unacceptable)**:
+**Overall mean food-sample concentrations (Table 2; LB-UB bounds from EFSA left-censoring treatment)**:
 
-| Endpoint | mRPI range (mean to 95th percentile high-exposure) | Primary contributors |
+| Metal | n samples | Detection rate (% >LOD) | Overall mean LB-UB (mg/kg) |
+|---|---:|---:|---|
+| Pb | 5199 | 29.7% | 0.0194 - 0.0295 |
+| Cd | 5206 | 53.7% | 0.0219 - 0.0228 |
+| As (total) | 4345 | 36.5% | 0.0206 - 0.0403 |
+| Hg (total) | 4378 | 22.1% | 0.0024 - 0.0039 |
+
+**Selected per-category mean concentrations (Table 2; LB-UB mg/kg)** — the food categories that dominate Chongqing dietary intake:
+
+| Food category | Pb (mg/kg) | Cd (mg/kg) | As (mg/kg) | Hg (mg/kg) |
+|---|---|---|---|---|
+| Cereals + cereal products | 0.0211 - 0.0354 | 0.0114 - 0.0249 | 0.0386 - 0.0521 | 0.002 - 0.0035 |
+| - Rice | 0.0182 - 0.0292 | 0.0238 - 0.0336 | 0.0497 - 0.0502 | 0.0018 - 0.0027 |
+| - Rice products | 0.0471 - 0.0543 | 0.0434 - 0.0527 | 0.0741 - 0.0742 | 0.0045 - 0.0059 |
+| - Wheat grains and flour | 0.0215 - 0.0261 | 0.0142 - 0.0144 | 0.0144 - 0.0146 | 0.0016 - 0.0023 |
+| Vegetables + vegetable products | 0.0238 - 0.0336 | 0.023 - 0.0293 | 0.0143 - 0.0236 | 0.0011 - 0.0019 |
+| - Leafy vegetables | 0.0476 - 0.0597 | 0.052 - 0.0597 | 0.0434 - 0.0435 | 0.0013 - 0.0024 |
+| - Root and tuber vegetables | 0.0471 - 0.0543 | 0.0267 - 0.0303 | 0.0216 - 0.0257 | 0.0014 - 0.0016 |
+| Nuts | 0.0584 - 0.0601 | n.d. - 0.0245 | 0.2282 - 0.2283 | 0.004 - 0.005 |
+| Fruits | n.d. - 0.0245 | n.d. - 0.0245 | 0.002 - 0.019 | 0.0014 - 0.0017 |
+| Beans | 0.0668 - 0.0975 | 0.0668 - 0.0932 | 0.0177 - 0.0185 | 0.0064 - 0.0073 |
+| Meat and meat products (overall) | 0.0140 - 0.0237 | 0.0083 - 0.0209 | 0.0007 - 0.0025 | 0.0008 - 0.0025 |
+| - Edible livestock and poultry offal | 0.023 - 0.0333 | 0.0919 - 0.1462 | 0.0919 - 0.1462 | 0.0036 - 0.0046 |
+| Fish and their products | 0.0134 - 0.0235 | 0.0199 - 0.0235 | 0.0838 - 0.0848 | 0.0184 - 0.0285 |
+| Milk and dairy based products | 0.0064 - 0.0159 | 0.0148 - 0.0251 | 0.0086 - 0.0132 | 0.0011 - 0.0019 |
+| Foods for special dietary uses | 0.0159 - 0.0314 | 0.0126 - 0.0245 | 0.0014 - 0.0031 | 0.0011 - 0.0026 |
+
+Highest single-metal means observed: Pb in dried legumes (0.0668-0.0975 mg/kg); Cd in nuts (0.2383 mg/kg upper-bound mean per text, vs Song et al. 0.029 mg/kg comparator); total As in fish and fish products (0.0811-0.1180 mg/kg per text); total Hg in fish and fish products (0.0184-0.0285 mg/kg).
+
+**Toxicological reference points used in mRPI (Table 1)**:
+
+| Endpoint | Metal | Type | Value (µg/kg bw/d) | UF | Critical effect / Source |
+|---|---|---|---:|---:|---|
+| Nephrotoxicity | Pb | BMDL10 (human) | 0.63 | 1 | Filtration rate of nephrons (EFSA 2010b) |
+| Nephrotoxicity | Cd | BMDL10 (human) | 0.41 | 1 | β2-microglobulin in urine (EFSA 2010b) |
+| Nephrotoxicity | iAs | BMDL10 (human) | 50 | 1 | β2-microglobulin in urine (Suomi et al. 2017) |
+| Nephrotoxicity | iHg | BMDL10 (rat) | 60 | 10 | Rat kidney weight (EFSA 2012) |
+| Neurotoxicity | Pb | BMDL01 (human) | 0.5 | 1 | IQ decrease (EFSA 2010b) |
+| Neurotoxicity | Cd | NOAEL (mouse) | 200.0 | 100 | Mouse neurological damage (Suomi et al. 2017) |
+| Neurotoxicity | iAs | NOAEL (human) | 3 | 1 | Neuropathy (EFSA 2012) |
+| Neurotoxicity | MeHg | BMDL05 (human) | 1.2 | 1 | IQ decrease (EFSA 2012) |
+
+**Combined cumulative risk (mRPI; >1 = unacceptable; range spans LB/MB/UB left-censoring and mean to P95 high exposure)**:
+
+| Endpoint | Combined mRPI range | Primary contributors |
 |---|---|---|
-| Neurotoxicity | 0.922 to 4.835 | **Pb (dominant)** |
-| Nephrotoxicity | 1.306 to 7.031 | **Cd + Pb (combined dominant)** |
+| Neurotoxicity | 0.922 - 4.835 | Pb dominant (69.74-72.22% of mRPI at mean) |
+| Nephrotoxicity | 1.306 - 7.031 | Cd dominant (60.05-60.09%); Pb second (39.08-39.01%) |
 
-**Speciation conversion factors used** (cited from prior literature):
-- For Hg in food: MeHg/total Hg = 100% in fish; 0% in non-fish food (per EFSA 2013 default)
-- For As in food: iAs/total As = 2% in fish; 70% in non-fish food (per Suomi et al.)
-- For Hg in food, inorganic Hg / total Hg: 20% in fish; 100% in non-fish food
+**Per-metal RPQ ranges (range across LB/MB/UB scenarios at mean and P95 exposure)**:
+
+| Endpoint | Pb RPQ | Cd RPQ | iAs RPQ | MeHg RPQ | iHg RPQ |
+|---|---|---|---|---|---|
+| Neurotoxicity | 0.643 - 3.462 | 0.116 - 0.866 | 0.112 - 0.480 | 0.001 - 0.035 | — |
+| Nephrotoxicity | 0.510 - 2.748 | 0.784 - 4.223 | 0.007 - 0.029 | — | 0.005 - 0.032 |
+
+At P95 high-exposure, Pb RPQ alone exceeds 1 for neurotoxicity in LB/MB/UB; for nephrotoxicity at P95, both Cd and Pb RPQ exceed 1 in LB/MB/UB. At mean exposure, no single-metal RPQ exceeds 1, but the combined mRPI exceeds 1 for nephrotoxicity in MB and UB scenarios.
+
+**Top food contributors to mRPI at mean exposure** (Fig. 7 narrative):
+
+- Neurotoxicity (rice + leafy vegetables + wheat products): rice 26.18-29.71% across LB/MB/UB; leafy vegetables and wheat products each >10%; all other categories <8.74%.
+- Nephrotoxicity: similar ranking — rice, leafy vegetables, wheat products dominate; combined rice + vegetable consumption contributes 61.29-67.29% of risk.
+
+**Mean and 95th-percentile daily food consumption (Table 3; converted from g/3-day to g/d)**:
+
+| Food category | Mean (g/d) | P95 (g/d) |
+|---|---:|---:|
+| Cereals and cereal products | 324.1 | 540.0 |
+| - Rice | 199.7 | 598.2 |
+| - Wheat products | 89.8 | 269.1 |
+| Vegetables and vegetable products | 279.1 | 836.2 |
+| - Leafy vegetables | 92.9 | 278.3 |
+| - Root and tuber vegetables | 75.2 | 225.4 |
+| Meat and meat products | 121.2 | 363.0 |
+| - Livestock meat | 98.8 | 296.1 |
+| Fruits | 25.3 | 75.7 |
+| Fish and their products | 21.6 | 64.8 |
+| Milk and dairy based products | 29.0 | 87.0 |
+| Eggs and their products | 20.5 | 61.3 |
+| Beans and bean products | 16.3 | 48.9 |
+
+Comparator references in text: Yangtze River Delta cereal consumption 331 g/d, Beijing 422 g/d, 2020 China national average 270 g/d, 2016 Chinese Dietary Guidelines recommendation 400 g/d.
+
+**Speciation conversion factors applied (from prior literature)**:
+
+- MeHg/total Hg = 100% in fish; 0% in non-fish food (per EFSA 2013 default).
+- Inorganic Hg / total Hg = 20% in fish; 100% in non-fish food.
+- iAs/total As = 2% in fish; 70% in non-fish food (per Suomi et al. 2017).
 
 These are useful generic conversion factors for the wiki's speciation methodology when source studies report only total Hg or total As.
-
-**Food categories covered (10)**:
-1. Cereals + cereal products (rice, rice products, wheat grains, wheat flour, wheat products, other cereal products)
-2. Vegetables + vegetable products (leafy, root/tuber, stem, brassica, legumes, other fresh, vegetable products)
-3. Nuts, fruits, beans, bean products
-4. Meat + meat products (livestock meat, poultry meat, meat products, edible livestock + poultry offal)
-5. Fish + fish products
-6. Eggs + egg products
-7. Milk + dairy + dairy products
-8. Foods for special dietary uses
-9. Beverages
-10. (additional minor categories)
 
 ## Methods
 
 Data sources:
-- **Contamination data**: 2017-2021 China National Food Contamination Monitoring Program (5-year average), Chongqing Municipality, multi-stage stratified random sampling from retail stores, supermarkets, grocery stores, farmers' markets, convenience stores in 38 districts and counties.
-- **Consumption data**: 2018 China Health and Nutrition Survey of Chongqing, 969 participants from 6 survey sites (Shapingba, Fengjie, Dazu, Jiangjin, Qijiang, Nanan), three-day 24-h dietary recall.
+- **Contamination data**: 2017-2021 China National Food Contamination Monitoring Program (5-year average), Chongqing Municipality, multi-stage stratified random sampling from retail stores, supermarkets, grocery stores, farmers' markets, and convenience stores in 38 districts and counties.
+- **Consumption data**: 2018 China Health and Nutrition Survey of Chongqing, 969 participants from 6 survey sites (Shapingba, Fengjie, Dazu, Jiangjin, Qijiang, Nanan), three-day 24-h dietary recall (parents/guardians reported for under-7 and over-75 participants).
+- **Hazard data**: prior JECFA assessments and EFSA scientific opinions, with reference points listed in Table 1.
 
-Sample analysis: AAS or AFS (atomic fluorescence spectrometry) or ICP-MS. Standard sample prep per Chinese national standards GB 5009.11-2014 (Pb), GB 5009.12-2017 (lead), GB 5009.15-2014 (Cd), GB 5009.17-2014 (Hg), GB 5009.123-2014, GB 5009.268-2016 (multi-element). Microwave digestion with HNO3 (5-10 mL) on 0.2-0.5 g solid or 1.0-3.0 mL liquid samples. Left-censored data treated per EFSA: LB (set to 0), MB (½ LOD), UB (LOD). High-exposure scenario substitutes 95th percentile for individual exposure estimates.
+Sample analysis: AAS (atomic absorption spectrometry), AFS (atomic fluorescence spectrometry), or ICP-MS per Chinese national standards GB 5009.11-2014, GB 5009.12-2017, GB 5009.15-2014, GB 5009.17-2014, GB 5009.123-2014, GB 5009.268-2016. Microwave digestion with HNO3 (5-10 mL) on 0.2-0.5 g solid or 1.0-3.0 mL liquid samples; volume adjusted to mark with 1% nitric acid solution or water. Quality control via certified reference materials per the National Monitoring Program of China (NMPC). Left-censored data treated per EFSA recommendation as LB (set to 0), MB (½ LOD), UB (LOD).
 
-Risk modeling: modified Reference Point Index (mRPI) — for each element, RPQ_i = (EDI_i × UF_i) / RP_i where RP is the toxicological reference point for the specific endpoint and UF is the uncertainty factor. mRPI = sum of RPQ across the four metals for a given endpoint. Monte Carlo with @RISK v8.2 (Palisade), 100,000 iterations, Latin hypercube sampling. AIC selected optimal distribution fit for contamination data.
+Speciation: total Hg and total As measured directly; iAs and MeHg estimated via the EFSA/Suomi conversion factors documented in Key numbers.
 
-Speciation: Total Hg and total As measured. iAs and MeHg estimated via conversion factors (above). This is the standard approach when sample-level speciation is not feasible.
+Exposure model: EDI_i = Σ (F_j × C_j) / BW_i for individual i, food category j (F_j = daily consumption g/d, C_j = concentration mg/kg, BW_i = body weight). High-exposure scenario substitutes the 95th percentile of individual exposure for the mean.
+
+Risk model: modified Reference Point Index (mRPI) — RPQ_i = (EDI_i × UF_i) / RP_i for element i, summed across metals for the endpoint:
+mRPI = RPQ_1 + RPQ_2 + ... + RPQ_n. Acceptable risk threshold = 1.
+
+Monte Carlo: @RISK v8.2 (Palisade), 100,000 iterations, Latin hypercube sampling. AIC selected optimal distribution fit for contamination data; mean and 95th-percentile mRPI reported. Statistical software: Excel 2016 + @RISK v8.2.
 
 ## Implications
 
 Certification: For HMTc Cat 1 cumulative-risk framework + Chinese-market food sourcing:
 
-1. **The mRPI framework is the EFSA-recommended approach** for cumulative risk assessment from multiple heavy metals with shared/compatible MOA/AOP. HMTc Cat 1 standards-setting can use mRPI alongside per-analyte HQ to evaluate combined Pb+Cd+iAs+MeHg exposure in product formulations.
+1. **The mRPI framework is the EFSA-recommended approach** for cumulative risk assessment from multiple heavy metals with shared/compatible MOA/AOP. HMTc Cat 1 standards-setting can use mRPI alongside per-analyte HQ to evaluate combined Pb+Cd+iAs+MeHg exposure in product formulations. The toxicological reference points (Table 1) provide the EFSA-vetted RP values for each metal-endpoint pair.
 
-2. **The Chongqing finding (mRPI >1 for both neurotoxicity and nephrotoxicity)** establishes that even in a Chinese provincial population with relatively typical exposure, combined heavy-metal exposure exceeds acceptable cumulative risk thresholds. HMTc certification of Chinese-sourced food ingredients (rice, vegetables, meat, fish) needs both per-analyte certification AND cumulative-risk consideration.
+2. **The Chongqing finding (mRPI >1 for both neurotoxicity and nephrotoxicity at P95)** establishes that even in a Chinese provincial population with monitored typical exposure, combined heavy-metal exposure exceeds acceptable cumulative risk thresholds at the upper-tail diet. HMTc certification of Chinese-sourced food ingredients (rice, vegetables, meat, fish) should consider both per-analyte certification and cumulative-risk implications.
 
 3. **Speciation conversion factors documented in this paper** (iAs/tAs and MeHg/tHg ratios for fish vs non-fish) are useful for the wiki's CLAUDE.md Part 14 speciation methodology when source studies report only total metals. The 2% iAs/tAs in fish vs 70% in non-fish is particularly important for converting total-As surveys into iAs estimates.
 
-4. **Pb dominates neurotoxicity; Cd+Pb dominate nephrotoxicity**. HMTc Cat 1 standards-prioritization should reflect this — Pb thresholds for child-targeted products are the highest leverage; Cd thresholds matter most for kidney-burden control in adult products.
+4. **Pb dominates neurotoxicity (≈70% of mRPI); Cd dominates nephrotoxicity (≈60%), Pb second (≈39%)**. HMTc Cat 1 standards-prioritization should reflect this — Pb thresholds for child-targeted products are the highest leverage; Cd thresholds matter most for kidney-burden control in adult products.
 
-Courses: Excellent reference for an HMTc course module on cumulative risk assessment methodology. The EFSA mRPI + Monte Carlo framework is the current standard practice for combined-chemical-mixture risk.
+5. **Rice, leafy vegetables, and wheat products are the top three food contributors** to both neurotoxic and nephrotoxic mRPI in this population (combined rice + vegetables = 61-67% of nephrotoxic risk). For HMTc rice and leafy-vegetable category work, Pb and Cd are the highest-leverage analytes by these contribution percentages.
 
-App: For the consumer app's cumulative-risk-per-meal estimation, the mRPI structure (RPQ sum across metals for a given endpoint) is directly implementable. The app should support neurotoxicity-endpoint and nephrotoxicity-endpoint mRPI as separate scoring outputs.
+Courses: Excellent reference for an HMTc course module on cumulative risk assessment methodology. The EFSA mRPI + Monte Carlo framework is the current standard practice for combined-chemical-mixture risk; the worked example (RP table, RPQ summation, Latin hypercube simulation) is course-ready.
+
+App: For the consumer app's cumulative-risk-per-meal estimation, the mRPI structure (RPQ sum across metals for a given endpoint) is directly implementable. The app should support neurotoxicity-endpoint and nephrotoxicity-endpoint mRPI as separate scoring outputs, with the Table 1 RPs as defaults.
 
 Microbiome: Not addressed.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[metals/arsenic-inorganic]]
-- [[metals/mercury-methyl]]
-- [[ingredients/rice]]
-- [[ingredients/cereals]]
-- [[ingredients/meat]]
-- [[ingredients/fish]]
-- [[ingredients/leafy-vegetables]]
-- [[ingredients/vegetables]]
-- [[ingredients/fruits]]
-- [[ingredients/milk-and-dairy]]
-- [[ingredients/eggs]]
-- [[health/cat-2-non-ingestion-exposure-pathways]] — Chen 2025's mRPI/RPQ framework is also applicable to Cat 2 cumulative dermal exposure modeling once the supplement extends to non-ingestion pathways.
+Enhanced 2026-05-29 from prior 2026-05-14 ingest (kimi-loose-pdf-chen2025 raw_handle preserved). The prior version had the core mRPI numbers, the demographics breakdown, and the speciation conversion factors correct, but was missing: (a) the Table 1 toxicological reference points, (b) per-category Pb/Cd/As/Hg concentration data from Table 2, (c) per-metal RPQ ranges that decompose the combined mRPI, (d) the relative contribution percentages of each metal to the combined mRPI (Pb 69.74-72.22% to neuro; Cd 60.05-60.09% to nephro), and (e) the daily food consumption volumes from Table 3 with the conversion from g/3-day to g/d. The legacy "## Wiki pages updated on ingest" section was removed because the routing layer (Part 5b) now owns the source-to-target-page mapping; the model no longer maintains routing by hand. `metals:` was extended from `[Pb, Cd, iAs, MeHg]` to `[Pb, Cd, iAs, MeHg, iHg]` because iHg appears as a separate analyte for the nephrotoxic-endpoint mRPI (Table 1 row; RPQ 0.005-0.032). `sampling_locations` and `sampling_year_range` populated. No brand names appear in the source or in this page. No HMTc-threshold synthesis claims are made; the implications section reports the paper's own findings on metal-endpoint dominance.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
