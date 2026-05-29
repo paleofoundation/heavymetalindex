@@ -15,14 +15,14 @@ metals: [Pb, Cd, tAs, tHg, Ni, Al, Cr, Sn]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/cinnamon]]", "[[ingredients/black-pepper]]"]
 products: ["[[products/spices]]"]
 matrices: [spices, dried-herbs]
-jurisdictions: [IT, SA, IN, IR, ID, VN]
+jurisdictions: [SA, IN, IR, ID, VN]
 near_duplicates: []
 sample_n: 13
 sample_population: "13 spice and aromatic herb samples purchased in an international market in Saudi Arabia, representing products from India, Iran, Indonesia, and Vietnam; including black cumin, chia seeds, clove buds, caraway, saffron, fenugreek, black pepper, cinnamon, cress sprouting seeds, thymol seeds, coriander, black sesame seeds"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-14
+updated: 2026-05-29
 ---
 
 # Cicero et al. 2022 — Mineral and microbiological analysis of spices and aromatic herbs
@@ -47,8 +47,9 @@ This Italian study simultaneously assessed microbiological contamination and tra
 - Thymol seeds (India, sample L): 930.198 ± 5.269 mg/kg — extremely high
 - Saffron (Iran): 145.216 ± 6.281 mg/kg
 - Caraway (India): 87.507 ± 0.269 mg/kg
-- Chia seeds (Iran, Tokhme Sharbati): 46.889 ± 1.678 mg/kg
-- Other spices: 7–44 mg/kg
+- Chia seeds (Sabja, India, sample O): 46.889 ± 1.678 mg/kg
+- Chia seeds (Iranian Tokhme Sharbati, Iran, sample B): 32.355 ± 0.008 mg/kg
+- Other spices: 7–43 mg/kg (fenugreek 7.112, black cumin 19.963, coriander 19.914, clove buds 20.532, cinnamon 27.168, black sesame 32.508, black pepper 43.064; cress sprouting seeds 8.863)
 
 **Selected additional minerals:**
 - Cr: range 0.021–2.357 mg/kg; cinnamon (Indonesia) 2.357, thymol seeds 1.113
@@ -70,6 +71,12 @@ ICP-MS (Agilent 7500CX with Octapole Reaction System) following microwave acid d
 **Courses:** Illustrates that regulatory compliance on Cd, As, and Hg does not guarantee clean supply: lead exceedances can occur in smaller, specialty spice categories (ajwan, caraway) that are not commonly flagged. Also demonstrates the value of broad multi-element screening: several non-toxic but accumulation-relevant elements (Sr, Co, Sn) showed notable variation across spice types.
 
 **App:** Provides ICP-MS data for 13 spice commodities across multiple metals. Thymol seeds and coriander are data points not well covered in other studies in this batch. Ajwan seeds Pb (0.544 mg/kg) and tAs (0.339 mg/kg) are notable for this commodity. Cinnamon from Indonesia shows Pb 0.023 mg/kg, Cd 0.071 mg/kg, Cr 2.357 mg/kg, Ni 2.766 mg/kg — less severe than Vietnamese/Indian cinnamon in other studies but adds geographic contrast.
+
+## Verification notes
+
+2026-05-29 merge-enhance pass: re-read PDF Table 4(c) against page. Corrected aluminium attribution for chia seeds — the 46.889 ± 1.678 mg/kg value belongs to Sabja Seeds (sample O, India), not Iranian Tokhme Sharbati (sample B, Iran), which actually measured 32.355 ± 0.008 mg/kg. Both samples are *Salvia hispanica* (chia seeds) under different regional names; the paper text refers to "chia seeds" generically and the prior page version paired the wrong cultural label with the wrong country. Removed IT from jurisdictions: the lab is in Italy (University of Messina) but no samples represent Italian supply — samples were purchased in Saudi Arabia and originated in India, Iran, Indonesia, and Vietnam.
+
+Paper-internal inconsistencies kept as paper-text values (lower than Table 4 minima): As range "0.003–0.339 mg/kg" matches paper §3.2.5 text although Table 4(c) shows G (black pepper) at 0.002; Hg range "0.001–0.010 mg/kg" matches paper text although Table 4(c) minimum is 0.002. These are paper-internal discrepancies between text and tables, not extraction errors.
 
 ## Wiki pages updated on ingest
 
