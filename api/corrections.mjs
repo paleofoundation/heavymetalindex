@@ -11,15 +11,28 @@
 // `hp` is a honeypot field — clients leave it blank; bots fill it. Submissions
 // with a non-empty honeypot are accepted (200) but silently discarded.
 //
-// Successful submissions are appended to data/evidence/corrections.jsonl with
-// an ISO-8601 received_at, a server-assigned id, and the request's client IP
-// hash. A correction is acknowledged in the response envelope per the errata
-// page's 5-business-day acknowledgement commitment.
+// Persistence (graceful chain — the endpoint never 500s if any single sink
+// fails, because losing a submission is worse than logging the failure):
+//   1. console.log (`hmi.correction.submitted` line, structured JSON). This
+//      is the always-available channel — Vercel runtime logs are queryable
+//      via the staff runtime-logs MCP tool and survive cold starts.
+//   2. /tmp/corrections-<id>.json (best-effort warm-instance cache; lost on
+//      cold start — useful only for the in-progress request loop).
+//   3. Vercel Blob (if BLOB_READ_WRITE_TOKEN is set) under
+//      corrections/<YYYY>/<MM>/<id>.json — durable, queryable, private. If
+//      the @vercel/blob package isn't installed or the token isn't set, the
+//      blob step is skipped and the submission still succeeds via channels
+//      1 and 2.
+//
+// The handler ORIGINAL design wrote to data/evidence/corrections.jsonl — but
+// Vercel function filesystems are read-only outside /tmp, so that path 500s
+// every request. The graceful chain above is what makes the endpoint actually
+// work in production.
 //
 // The endpoint never stores raw IP addresses (only a SHA-256 hash + truncated
-// user-agent), and never sends email — the editorial team polls the JSONL.
-// The plaintext email channel at karen@paleofoundation.com remains the
-// supported backup per wiki/errata.md.
+// user-agent), and never sends email — the editorial team polls runtime logs
+// (and the blob store when wired). The plaintext email channel at
+// karen@paleofoundation.com remains the supported backup per wiki/errata.md.
 
 import fs from "node:fs/promises"
 import path from "node:path"
@@ -64,21 +77,14 @@ export default async function handler(req, res) {
     return
   }
 
-  try {
-    await persist(record)
-  } catch (error) {
-    console.error("corrections persist failed:", error)
-    res.status(500).json({
-      error: "Could not record the correction. Please email karen@paleofoundation.com instead.",
-    })
-    return
-  }
+  const sinks = await persist(record)
 
   res.status(200).json({
     ok: true,
     id: record.id,
     received_at: record.received_at,
     acknowledgement_target: "5 business days",
+    sinks,
     message:
       "Thank you. Your correction has been logged. The editorial team will reply within 5 business days; substantive corrections that require external review may take 2–6 weeks per /errata.",
   })
@@ -165,10 +171,54 @@ function hashIp(req) {
 }
 
 async function persist(record) {
-  const dir = new URL("../data/evidence/", import.meta.url)
-  await fs.mkdir(dir, { recursive: true })
-  const file = new URL("corrections.jsonl", dir)
-  await fs.appendFile(file, JSON.stringify(record) + "\n", "utf8")
+  const sinks = { console: false, tmp: false, blob: false, blob_url: null }
+
+  // Sink 1: structured console log (always available; Vercel runtime logs
+  // are the durable channel until blob is wired). The marker prefix lets
+  // staff grep runtime logs with one filter expression.
+  try {
+    console.log("hmi.correction.submitted " + JSON.stringify(record))
+    sinks.console = true
+  } catch {
+    /* console.log should never throw, but defensive */
+  }
+
+  // Sink 2: best-effort write to /tmp/. Ephemeral — lost on cold start —
+  // useful as a warm-instance audit cache for staff debugging the function.
+  try {
+    await fs.writeFile(`/tmp/correction-${record.id}.json`, JSON.stringify(record, null, 2), "utf8")
+    sinks.tmp = true
+  } catch (err) {
+    console.error("corrections /tmp write failed:", String(err && err.message || err))
+  }
+
+  // Sink 3: Vercel Blob (durable). Skipped silently if BLOB_READ_WRITE_TOKEN
+  // is not set or the @vercel/blob package isn't installed — those are the
+  // pre-provisioning states, not error states.
+  if (process.env.BLOB_READ_WRITE_TOKEN) {
+    try {
+      const { put } = await import("@vercel/blob")
+      const d = new Date(record.received_at)
+      const yyyy = d.getUTCFullYear()
+      const mm = String(d.getUTCMonth() + 1).padStart(2, "0")
+      const key = `corrections/${yyyy}/${mm}/${record.id}.json`
+      // Submitter_email is PII; the correction body can include personal
+      // context. Use private access so the blob is not publicly readable.
+      // If the installed @vercel/blob version doesn't support "private",
+      // the put() call throws and we fall through to console+tmp.
+      const blob = await put(key, JSON.stringify(record, null, 2), {
+        access: "private",
+        contentType: "application/json",
+        addRandomSuffix: false,
+      })
+      sinks.blob = true
+      sinks.blob_url = blob.url
+    } catch (err) {
+      console.error("corrections blob write failed:", String(err && err.message || err))
+    }
+  }
+
+  return sinks
 }
 
 function readJson(req) {
