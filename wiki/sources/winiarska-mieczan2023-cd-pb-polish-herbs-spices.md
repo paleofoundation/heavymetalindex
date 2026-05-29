@@ -1,6 +1,6 @@
 ---
 type: source
-raw_handle: manual-fetch-kimi
+raw_handle: MFK_the-content-of-cd-and-pb-in-herbs-and-single-compo
 cite_key: winiarska-mieczan2023-cd-pb-polish-herbs-spices
 title: "The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine"
 authors: [Winiarska-Mieczan A, Jachimowicz K, Kwiecień M, Krusiński R, Kislova S, Sowińska L, Zasadna Z, Yanovych D]
@@ -9,8 +9,11 @@ publication: "Biological Trace Element Research"
 doi: 10.1007/s12011-022-03437-7
 source_type: peer-reviewed
 evidence_tier: A
+tier_rationale: "Peer-reviewed cross-sectional retail survey (Biological Trace Element Research, 2023). Large sample (n=432) across 38 species in three product forms (dried herbs, fresh herbs, single-component spices). GF-AAS quantification (Varian Spectr AA 880) validated against two certified reference materials (INCT-TL-1 tea leaves, recovery 103% Cd / 99% Pb; INCT-MPH-2 mixed Polish herbs, recovery 94% Cd / 102% Pb). LOD/LOQ stated (0.001/0.0002 mg/kg Cd; 0.011/0.003 mg/kg Pb). Triplicate analyses, replication deviation ≤5%. Reproducibility 10.1% Cd, 13.9% Pb. Exposure modelling explicitly grounded in EFSA-derived health-based guidance values (Cd TWI 2.5 µg/kg bw/week per EFSA 2012; Pb BMDL01 0.5 µg/kg bw/day in children and BMDL10 0.63 µg/kg bw/day in adults per EFSA 2012). Cochrane-bar weaknesses: (1) single-region sampling frame (Lublin grocery retail) limits generalisation beyond eastern Poland; (2) per-species n is modest (7–18 per species), constraining the precision of species-level exceedance estimates; (3) sampling year not stated (manuscript received June 2022); (4) minor paper-internal inconsistencies — methods text lists 15 fresh-herb species summing to 187 samples while Table 3 and the abstract report n=184, and the same single-component spice appears as 'pink peppercorn n=8' in the methods narrative but as 'Rose pepper (Schinus terebinthifolius) n=10' in Table 1 (botanically the same species); these do not propagate to the per-category mean/percentile statistics, which are derived from the Table 3 frame."
 license: "CC BY 4.0"
-raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/The Content of Cd and Pb in Herbs and Single-Component Spices Use.pdf"
+access_url: "https://doi.org/10.1007/s12011-022-03437-7"
+raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/The Content of Cd and Pb in Herbs and Single-Component Spices Used in Polish Cuisine.pdf"
+raw_sha256: 2394a730a77b65132f1ceffaa31da2e37babbc69f42a2e57fad12cca6b351863
 metals: [Cd, Pb]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]", "[[ingredients/fresh-herbs]]", "[[ingredients/spices]]"]
 products: ["[[products/spices]]"]
@@ -18,11 +21,11 @@ matrices: [dried-herbs, fresh-herbs, spices]
 jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 432
-sample_population: "Retail herbs and spices from Lublin, eastern Poland; 9 dried herb species (n=100), 15 fresh herb species (n=184), 14 single-component spice species (n=148)"
+sample_population: "Retail herbs and spices purchased within shelf-life from groceries in Lublin, eastern Poland; 9 dried herb species (n=100), 15 fresh herb species (n=184), 14 single-component spice species (n=148). All fresh herbs were annuals bought in pots. Manuscript received June 2022; sampling year not stated."
 wiki_doi: null
-sampling_locations: []
+sampling_locations: ["Lublin, eastern Poland — grocery retail"]
 sampling_year_range: null
-updated: 2026-05-14
+updated: 2026-05-29
 ---
 
 # Winiarska-Mieczan et al. 2023 — Cd and Pb in Polish culinary herbs and spices
@@ -79,6 +82,18 @@ GF-AAS (graphite furnace atomic absorption spectroscopy, Varian Spectr AA 880). 
 - [[metals/cadmium]]
 - [[metals/lead]]
 - [[regulations/eu-reg-1881-2006]]
+
+## Verification notes
+
+Merge-enhance pass 2026-05-29 (manual-fetch ingest, MFK condiment_papers/05_PB_Vanilla_Spices):
+
+- Re-verified all Table 3 per-category statistics (mean, max, median, p25, %<LOQ) against the source for dried herbs (n=100), fresh herbs (n=184), and spices (n=148) on Cd and Pb in mg/kg fresh weight; key numbers in this page match the source.
+- Re-verified per-species exceedances against Figs. 2–4: Cd > 0.3 mg/kg dry-matter MPL in dried coriander (mean 0.419) and dried estragon (mean 0.427); Pb > 0.3 mg/kg fresh-herb MPL in watercress, jiaogulan, celery, basil, and dill (Fig. 3b); no spice sample exceeded its applicable Pb MPL. Matches source.
+- Re-verified exposure metrics against Table 4: EWI Cd 6.57×10⁻⁴ µg/kg bw for dried herbs corresponding to 3.75×10⁻⁴ % TWI; EWI Pb 2.69×10⁻³ µg/kg bw corresponding to 3.65×10⁻⁴ % BMDL01 and 8.72×10⁻⁴ % BMDL10; all THQ and HI(Cd+Pb) < 1. Matches source.
+- Re-verified analytical figures of merit and CRM recoveries against Table 2; all values match.
+- Frontmatter defects corrected: `raw_handle` changed from generic `manual-fetch-kimi` to per-paper `MFK_the-content-of-cd-and-pb-in-herbs-and-single-compo`; `raw_path` corrected from truncated `...Use.pdf` (file did not resolve) to the full filename `...Used in Polish Cuisine.pdf`; `raw_sha256`, `access_url`, and `tier_rationale` added; `sampling_locations` populated with Lublin grocery retail per the Material and Methods section.
+- Paper-internal inconsistencies noted (also captured in `tier_rationale`) and do not affect downstream synthesis: the methods narrative lists 15 fresh-herb species summing to 187 samples while the abstract and Table 3 report n=184; and the methods narrative names "pink peppercorn (n=8)" for the same single-component spice that Table 1 lists as "Rose pepper / Schinus terebinthifolius (n=10)" (botanically the same species).
+- Brand-firewall check: source reports only species-level and category-level means; no brand-by-brand attribution is present in the paper, so no firewall-violating content to remove.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
