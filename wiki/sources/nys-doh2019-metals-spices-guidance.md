@@ -39,13 +39,15 @@ Recommended noncancer and cancer health-based guidance values for metals in spic
 | Inorganic arsenic (iAs) | 0.53 mg/kg | 2.4 mg/kg | 0.0030 mg/kg |
 | Cadmium | 0.019 mg/kg | 0.61 mg/kg | 0.45 mg/kg |
 | Chromium (Cr-VI only) | 1.6 mg/kg | 5.5 mg/kg | 0.058 mg/kg |
-| Lead | 0.21 mg/kg | — | not derived (no threshold; comparison value only) |
+| Lead | 0.21 mg/kg | — | 2.64 mg/kg (comparison value; see footnote) |
+
+Footnote on Pb cancer value: Table B.1 footnote b states "there is no threshold for the health effects of lead. This comparison value is presented for screening purposes to assist in the identification of lead contaminated spices, and thus, to minimize potential exposure to lead." NYS DOH treats the 2.64 mg/kg figure as a screening comparison value calculated by the cancer equation, not a recommended cancer-based HBGV.
 
 Recommended guidance value for each metal = the lower (more protective) of the cancer and noncancer values across scenarios:
 - iAs: 0.0030 mg/kg (3 ppb) — cancer-based value governs
 - Cd: 0.019 mg/kg (19 ppb) — noncancer child scenario governs
 - Cr-VI: 0.058 mg/kg (58 ppb) — cancer-based value governs
-- Pb: 0.21 mg/kg (210 ppb) — noncancer child scenario, but with explicit recommendation that screening levels be set as low as achievable relative to background because no threshold exists
+- Pb: 0.21 mg/kg (210 ppb) — child noncancer governs (lower than the 2.64 mg/kg cancer comparison value), with explicit recommendation that screening levels be set as low as achievable relative to background because no threshold exists
 
 Selected oral toxicity values used in the derivations (Appendix Table B.1):
 
@@ -90,11 +92,11 @@ Key limitations: guidance values express concentration in any single spice, not 
 
 ## Implications
 
-**Certification:** This is the most explicit US-jurisdiction health-based reference set for metals in spices stratified by population subgroup. The cancer-based iAs value (0.0030 mg/kg = 3 ppb) and the child-protective Cd value (0.019 mg/kg = 19 ppb) are far below typical international regulatory maxima for spices (e.g., EU Regulation 2023/915 sets 1.0 mg/kg Cd for dried herbs/spices). The document also states explicitly that some health-based values are below typical background concentrations and recommends that screening levels be reconciled against measured background. Contributes baseline reference values and stratified consumption data for threshold work on the spice category; the speciation discipline (iAs not tAs; Cr-VI not total Cr) is consistent with CLAUDE.md Part 14 and constrains how analytical results from upstream sources must be reported to be comparable.
+**Certification:** This is an explicit US-jurisdiction health-based reference set for metals in spices stratified by population subgroup. Recommended guidance values: iAs 0.0030 mg/kg, Cd 0.019 mg/kg, Cr-VI 0.058 mg/kg, Pb 0.21 mg/kg. The document also states explicitly that some health-based values may be below typical background concentrations and recommends that screening levels be reconciled against measured background. Contributes baseline reference values and stratified consumption data for threshold work on the spice category; the speciation discipline (iAs not tAs; Cr-VI not total Cr) is consistent with CLAUDE.md Part 14 and constrains how analytical results from upstream sources must be reported to be comparable.
 
 **Courses:** Worked example of how a single oral reference dose translates into very different food-matrix action levels depending on the consumption rate used. Demonstrates the structural reason spice action levels end up far below regulatory maxima for staple foods using the same toxicological endpoints. Also illustrates EPA-paradigm uncertainty-factor stacking (CA EPA chRfD for cadmium uses UF of 90: 10 intrahuman × 3 for LOEL extrapolation × 3 for child-adult GI absorption difference).
 
-**App:** Provides race/ethnic-stratified consumption rates for spices, including sesame seed, by age. Body-weight-normalized total spice consumption for "Mexican-American" and "Other Hispanic" categories is roughly 2-4× the Non-Hispanic White rate for children when sesame is included. These are the FCID-derived occurrence values; downstream consumer-app risk surfacing is a separate workflow that combines them with measured ingredient occurrence data.
+**App:** Provides race/ethnic-stratified consumption rates for spices, including sesame seed, by age. Body-weight-normalized total spice consumption rates with sesame included are reported by the source as 56.1 mg/kg-BW/day (Non-Hispanic White children) up to 224.2 mg/kg-BW/day (Other Hispanic children); adult rates range from 21.3 (Non-Hispanic Black) to 59 (Mexican-American) mg/kg-BW/day. These are the FCID-derived consumption values from this single source; downstream consumer-app risk surfacing is a separate workflow that combines them with measured ingredient occurrence data.
 
 ## Verification notes
 
@@ -102,8 +104,9 @@ Key limitations: guidance values express concentration in any single spice, not 
 - Fixed methods-section misattribution: prior page said "Cd RfD from ATSDR/EPA"; Table B.1 shows the selected Cd noncancer toxicity value is 1.1 × 10⁻⁵ mg/kg/day, which is the CA EPA (2005) child-specific RfD (chRfD), not the ATSDR RfD of 1 × 10⁻⁴. Prior page said "Pb BMDL from EFSA/EPA"; the selected Pb noncancer value of 1.2 × 10⁻⁴ mg/kg/day is NYS DOH's own IEUBK-derived value built on the CA EPA (2009) framework, not directly from EFSA or US EPA.
 - Pared Part 2 firewall risk in Implications. Prior page said "HMT&C standards for spice and herb categories should reference these values as the health-protective floor when the certification is being positioned as a more protective alternative to EU or FDA status-quo limits" — reworded to contribute reference values without prescribing HMTc certification strategy. App-section consumer advisory ("users who report high spice consumption may have exposures near or above the child-scenario-based guidance values") reworded to state the consumption-rate finding without the advisory framing.
 - Added Table B.1 selected toxicity values, the 8-spice list, race/ethnic-stratified consumption rate ranges (Supplementary Tables 10, 11), and EPA-EFH body-weight bands.
-- The body wikilinks `[[regulations/nys-metals-spices-guidance-2019]]` and `[[health/vulnerable-populations]]` reference pages that do not yet exist as of this update; preserved as aspirational links (not declared in routing frontmatter).
+- The body wikilink `[[regulations/nys-metals-spices-guidance-2019]]` references a page that does not yet exist as of this update; preserved as an aspirational link (not declared in routing frontmatter). The prior `[[health/vulnerable-populations]]` link was removed in this pass — `health/` is not an existing wiki namespace per the taxonomy snapshot.
 - No brand names appear in the source; Part 12 firewall not engaged.
+- 2026-05-29 audit-application pass (fresh-context subagent audit, verdict REVISE; this pass): added Pb cancer comparison value of 2.64 mg/kg from Table 1 to the Key numbers table (the prior page text noted "no threshold" but had omitted the published Table 1 cancer-equation value); preserved Table B.1 footnote framing that this is a screening comparison value, not a threshold. Reworded Implications/Certification to remove "far below typical international regulatory maxima" cross-source comparative (Part 2 firewall ⚠️ flag); kept the EU 2023/915 context out of the Certification paragraph and let the bare guidance-value enumeration stand. Reworded Implications/App to drop the "2-4×" derived multiplier framing and report the consumption rate ranges directly as the source presents them. Removed dead body wikilink `[[health/vulnerable-populations]]`.
 
 ## Wiki pages updated on ingest
 
@@ -114,7 +117,6 @@ Key limitations: guidance values express concentration in any single spice, not 
 - [[metals/arsenic]]
 - [[metals/chromium-hexavalent]]
 - [[regulations/nys-metals-spices-guidance-2019]]
-- [[health/vulnerable-populations]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
