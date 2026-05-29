@@ -213,6 +213,8 @@ Microbiome: Not addressed.
 
 Preserved from prior version: `cite_key`, `raw_handle`, `raw_path`, `license`, `near_duplicates`, `ingest_method`, `created_by`, page filename, and the `<!-- BEGIN: hmi-page-history -->` block.
 
+2026-05-29 fresh-context audit subagent (general-purpose) ran the five-check audit defined in `docs/gpt-collaboration/audit-prompt.md`. Checks 1, 3, 4, 5 returned ✅; Check 2 returned one ❌ flagging the `molluscs` ingredient slug as missing from the taxonomy snapshot. Verified against `wiki/ingredients/molluscs.md` (the page exists) and against `docs/gpt-collaboration/taxonomy-snapshot.md` (the ingredients dump on line 7 does contain `,molluscs,` between `mixed-meals` and `non-apple-fruit`). The finding is a false positive — the subagent missed the slug in the long comma-separated list. The remaining ⚠️ items (Donax-trunculus PCDD/PCDF-TEQ source-side text ambiguity reproduced faithfully on the wiki; EWI multiplier 3.9-6.1× derived correctly from source values; matrices vocabulary not directly verifiable against the snapshot because the snapshot does not enumerate matrices) require no page change.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
