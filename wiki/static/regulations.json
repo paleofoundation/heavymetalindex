@@ -1,0 +1,2059 @@
+{
+  "generated_at": "2026-05-28T19:38:10.816Z",
+  "schema_version": "1.0.0",
+  "license": {
+    "prose": "CC BY 4.0",
+    "structured_data": "EU database rights reserved — see https://heavymetalindex.com/licensing",
+    "attribution": "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite page_url or wiki_doi."
+  },
+  "attribution": "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite page_url or wiki_doi.",
+  "canonical_base": "https://heavymetalindex.com",
+  "record_count": 54,
+  "records": [
+    {
+      "slug": "regulations/atsdr-aluminum-mrls",
+      "rule_id": "atsdr-aluminum-mrls",
+      "title": "ATSDR — Minimal Risk Levels for Aluminum",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "ATSDR",
+      "program": "Toxicological Profile series",
+      "metal": "Al",
+      "metals": [
+        "Al"
+      ],
+      "matrix": "oral",
+      "matrices": [
+        "oral"
+      ],
+      "limit_value": 1,
+      "limit_unit": "mg/kg-bw/day",
+      "status": "in-force",
+      "effective_date": "2008-09-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/atsdr-aluminum-toxprofile-2008"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/atsdr-aluminum-mrls",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/atsdr-cadmium-mrls",
+      "rule_id": "atsdr-cadmium-mrls",
+      "title": "ATSDR — Minimal Risk Levels for Cadmium",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "ATSDR",
+      "program": "Toxicological Profile series",
+      "metal": "Cd",
+      "metals": [
+        "Cd"
+      ],
+      "matrix": "inhalation-and-oral",
+      "matrices": [
+        "inhalation-and-oral"
+      ],
+      "limit_value": 0.1,
+      "limit_unit": "µg/kg-bw/day",
+      "status": "in-force",
+      "effective_date": "2012-09-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/atsdr-cadmium-toxprofile-2012"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/atsdr-cadmium-mrls",
+      "updated": "2026-04-24T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "rule_id": "Australia New Zealand Food Standards Code Schedule 19",
+      "title": "Australia New Zealand Food Standards Code - Schedule 19 - Maximum levels of contaminants and natural toxicants",
+      "jurisdiction": [
+        "AU",
+        "NZ"
+      ],
+      "jurisdictions": [
+        "AU",
+        "NZ"
+      ],
+      "agency": "Food Standards Australia New Zealand",
+      "program": null,
+      "metal": [
+        "Al",
+        "tAs",
+        "iAs",
+        "Cd",
+        "Pb",
+        "tHg",
+        "Sn"
+      ],
+      "metals": [
+        "Al",
+        "tAs",
+        "iAs",
+        "Cd",
+        "Pb",
+        "tHg",
+        "Sn"
+      ],
+      "matrix": [
+        "food",
+        "infant-formula",
+        "cereal-grains",
+        "rice",
+        "fish",
+        "crustacea",
+        "molluscs",
+        "meat",
+        "offal",
+        "vegetables",
+        "fruit",
+        "salt",
+        "canned-foods"
+      ],
+      "matrices": [
+        "food",
+        "infant-formula",
+        "cereal-grains",
+        "rice",
+        "fish",
+        "crustacea",
+        "molluscs",
+        "meat",
+        "offal",
+        "vegetables",
+        "fruit",
+        "salt",
+        "canned-foods"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "in-force",
+      "effective_date": "2016-03-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/au-nz-food-standards-code-schedule-19-contaminants",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/china-gb-2762-2012-contaminants-superseded",
+      "rule_id": "china-gb-2762-2012",
+      "title": "china-gb-2762-2012-contaminants-superseded",
+      "jurisdiction": "CN",
+      "jurisdictions": [
+        "CN"
+      ],
+      "agency": "Ministry of Health",
+      "program": null,
+      "metal": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg",
+        "tAs",
+        "iAs",
+        "Sn",
+        "Ni",
+        "Cr"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg",
+        "tAs",
+        "iAs",
+        "Sn",
+        "Ni",
+        "Cr"
+      ],
+      "matrix": "foodstuffs",
+      "matrices": [
+        "foodstuffs"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; food-specific maximum levels",
+      "status": "superseded",
+      "effective_date": "2013-06-01T00:00:00.000Z",
+      "sunset_date": "2017-09-17T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/china-gb-2762-2012-contaminants-superseded",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/china-gb-2762-2017-contaminants-superseded",
+      "rule_id": "china-gb-2762-2017",
+      "title": "china-gb-2762-2017-contaminants-superseded",
+      "jurisdiction": "CN",
+      "jurisdictions": [
+        "CN"
+      ],
+      "agency": "National Health and Family Planning Commission; China Food and Drug Administration",
+      "program": null,
+      "metal": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg",
+        "tAs",
+        "iAs",
+        "Sn",
+        "Ni",
+        "Cr"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg",
+        "tAs",
+        "iAs",
+        "Sn",
+        "Ni",
+        "Cr"
+      ],
+      "matrix": "foodstuffs",
+      "matrices": [
+        "foodstuffs"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; food-specific maximum levels",
+      "status": "superseded",
+      "effective_date": "2017-09-17T00:00:00.000Z",
+      "sunset_date": "2023-06-30T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/china-gb-2762-2017-contaminants-superseded",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/china-gb-2762-2022-contaminants",
+      "rule_id": "china-gb-2762-2022",
+      "title": "china-gb-2762-2022-contaminants",
+      "jurisdiction": "CN",
+      "jurisdictions": [
+        "CN"
+      ],
+      "agency": "National Health Commission; State Administration for Market Regulation",
+      "program": null,
+      "metal": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg",
+        "tAs",
+        "iAs",
+        "Sn",
+        "Ni",
+        "Cr"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg",
+        "tAs",
+        "iAs",
+        "Sn",
+        "Ni",
+        "Cr"
+      ],
+      "matrix": "foodstuffs",
+      "matrices": [
+        "foodstuffs"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; food-specific maximum levels",
+      "status": "active",
+      "effective_date": "2023-06-30T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/china-gb-2762-2022-contaminants",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/codex-cadmium-mls",
+      "rule_id": "codex-cadmium-mls",
+      "title": "Codex Alimentarius — Maximum Levels for Cadmium in Food",
+      "jurisdiction": "international",
+      "jurisdictions": [
+        "international"
+      ],
+      "agency": "Codex Alimentarius Commission",
+      "program": "CCCF (Codex Committee on Contaminants in Foods)",
+      "metal": "Cd",
+      "metals": [
+        "Cd"
+      ],
+      "matrix": "multiple",
+      "matrices": [
+        "multiple"
+      ],
+      "limit_value": null,
+      "limit_unit": "mg/kg",
+      "status": "partial-ingest",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/codex-cccf17-2024"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/codex-cadmium-mls",
+      "updated": "2026-04-24T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/codex-cxs-193-1995-tin-canned-foods",
+      "rule_id": "CXS 193-1995",
+      "title": "Codex CXS 193-1995 - Tin maximum levels for canned foods",
+      "jurisdiction": "international",
+      "jurisdictions": [
+        "international"
+      ],
+      "agency": "Codex Alimentarius Commission",
+      "program": null,
+      "metal": "Sn",
+      "metals": [
+        "Sn"
+      ],
+      "matrix": "canned-foods",
+      "matrices": [
+        "canned-foods"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "1995-01-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/codex-cxs-193-1995"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/codex-cxs-193-1995-tin-canned-foods",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/ecuador-nte-inen-184-2013-canned-tuna",
+      "rule_id": "nte-inen-184-2013",
+      "title": "ecuador-nte-inen-184-2013-canned-tuna",
+      "jurisdiction": "EC",
+      "jurisdictions": [
+        "EC"
+      ],
+      "agency": "Instituto Ecuatoriano de Normalización",
+      "program": null,
+      "metal": "tHg",
+      "metals": [
+        "tHg"
+      ],
+      "matrix": "canned-tuna",
+      "matrices": [
+        "canned-tuna"
+      ],
+      "limit_value": 1,
+      "limit_unit": "mg/kg total mercury as Hg",
+      "status": "active",
+      "effective_date": "2013-01-29T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/ecuador-nte-inen-184-2013-canned-tuna",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/efsa-aluminium-twi",
+      "rule_id": "efsa-aluminium-twi",
+      "title": "EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "EFSA",
+      "program": "AFC Panel",
+      "metal": "Al",
+      "metals": [
+        "Al"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": 1,
+      "limit_unit": "mg/kg-bw/week",
+      "status": "in-force",
+      "effective_date": "2008-05-22T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/efsa-aluminium-afc-2008"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/efsa-aluminium-twi",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/efsa-arsenic-contam-2009",
+      "rule_id": "efsa-arsenic-contam-2009",
+      "title": "EFSA — Arsenic in Food (2009), No-PTWI Position",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "EFSA",
+      "program": "CONTAM Panel",
+      "metal": "iAs",
+      "metals": [
+        "iAs"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": null,
+      "limit_unit": "BMDL01",
+      "status": "in-force-no-threshold",
+      "effective_date": "2009-10-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/efsa-arsenic-contam-2009"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/efsa-arsenic-contam-2009",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/efsa-cadmium-twi",
+      "rule_id": "efsa-cadmium-twi",
+      "title": "EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "EFSA",
+      "program": "CONTAM Panel",
+      "metal": "Cd",
+      "metals": [
+        "Cd"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": 2.5,
+      "limit_unit": "µg/kg-bw/week",
+      "status": "in-force",
+      "effective_date": "2009-01-30T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/efsa-cadmium-contam-2009"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/efsa-cadmium-twi",
+      "updated": "2026-04-24T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/efsa-lead-contam-2010",
+      "rule_id": "efsa-lead-contam-2010",
+      "title": "EFSA — Lead in Food (2010), No-Threshold Position",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "EFSA",
+      "program": "CONTAM Panel",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": null,
+      "limit_unit": "µg/kg-bw/day-BMDL",
+      "status": "in-force-no-threshold",
+      "effective_date": "2010-03-18T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/efsa-lead-contam-2010"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/efsa-lead-contam-2010",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/efsa-mercury-twi",
+      "rule_id": "efsa-mercury-twi",
+      "title": "EFSA — Inorganic Mercury Tolerable Weekly Intake (4 µg/kg b.w./week)",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "EFSA",
+      "program": "CONTAM Panel",
+      "metal": "iHg",
+      "metals": [
+        "iHg"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": 4,
+      "limit_unit": "µg/kg-bw/week",
+      "status": "in-force",
+      "effective_date": "2012-12-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/efsa-mercury-methylmercury-2012"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/efsa-mercury-twi",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/efsa-methylmercury-twi",
+      "rule_id": "efsa-methylmercury-twi",
+      "title": "EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "EFSA",
+      "program": "CONTAM Panel",
+      "metal": "MeHg",
+      "metals": [
+        "MeHg"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": 1.3,
+      "limit_unit": "µg/kg-bw/week",
+      "status": "in-force",
+      "effective_date": "2012-12-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/efsa-mercury-methylmercury-2012"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/efsa-methylmercury-twi",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/efsa-nickel-tdi",
+      "rule_id": "efsa-nickel-tdi",
+      "title": "EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "EFSA",
+      "program": "CONTAM Panel",
+      "metal": "Ni",
+      "metals": [
+        "Ni"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": 13,
+      "limit_unit": "µg/kg-bw/day",
+      "status": "in-force",
+      "effective_date": "2020-09-24T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/efsa-nickel-contam-2020"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/efsa-nickel-tdi",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/epa-arsenic-mcl",
+      "rule_id": "epa-arsenic-mcl",
+      "title": "EPA — Maximum Contaminant Level for Arsenic in Drinking Water",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "EPA",
+      "program": "Safe Drinking Water Act",
+      "metal": "iAs",
+      "metals": [
+        "iAs"
+      ],
+      "matrix": "drinking-water",
+      "matrices": [
+        "drinking-water"
+      ],
+      "limit_value": 10,
+      "limit_unit": "ppb",
+      "status": "in-force",
+      "effective_date": "2006-01-23T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/epa-arsenic-drinking-water-mcl"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/epa-arsenic-mcl",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/epa-iris-cadmium-rfd",
+      "rule_id": "epa-iris-cadmium-rfd",
+      "title": "EPA IRIS — Cadmium Oral Reference Doses",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "EPA",
+      "program": "IRIS",
+      "metal": "Cd",
+      "metals": [
+        "Cd"
+      ],
+      "matrix": "oral",
+      "matrices": [
+        "oral"
+      ],
+      "limit_value": 1,
+      "limit_unit": "µg/kg-bw/day-food",
+      "status": "in-force",
+      "effective_date": "1989-10-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/epa-iris-cadmium-1989"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/epa-iris-cadmium-rfd",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/epa-iris-inorganic-arsenic-rfd",
+      "rule_id": "epa-iris-inorganic-arsenic-rfd",
+      "title": "EPA IRIS — Inorganic Arsenic Toxicological Review (January 2025)",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "EPA",
+      "program": "IRIS",
+      "metal": "iAs",
+      "metals": [
+        "iAs"
+      ],
+      "matrix": "oral",
+      "matrices": [
+        "oral"
+      ],
+      "limit_value": null,
+      "limit_unit": "pending-extraction",
+      "status": "finalized-2025",
+      "effective_date": "2025-01-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/epa-iris-inorganic-arsenic-2025"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/epa-iris-inorganic-arsenic-rfd",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/epa-iris-lead-rfd",
+      "rule_id": "epa-iris-lead-rfd",
+      "title": "EPA IRIS — Lead, Oral RfD and Carcinogenicity Assessment",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "EPA",
+      "program": "IRIS",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "oral-and-inhalation",
+      "matrices": [
+        "oral-and-inhalation"
+      ],
+      "limit_value": null,
+      "limit_unit": "not-derived",
+      "status": "qualitative-only",
+      "effective_date": "2004-07-08T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/epa-iris-lead-2004"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/epa-iris-lead-rfd",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/epa-iris-mercury-rfd",
+      "rule_id": "epa-iris-mercury-rfd",
+      "title": "EPA IRIS — Mercuric Chloride Oral Reference Dose",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "EPA",
+      "program": "IRIS",
+      "metal": "iHg",
+      "metals": [
+        "iHg"
+      ],
+      "matrix": "oral",
+      "matrices": [
+        "oral"
+      ],
+      "limit_value": 0.3,
+      "limit_unit": "µg/kg-bw/day",
+      "status": "in-force",
+      "effective_date": "1995-05-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/epa-iris-mercuric-chloride"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/epa-iris-mercury-rfd",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/epa-iris-methylmercury-rfd",
+      "rule_id": "epa-iris-methylmercury-rfd",
+      "title": "EPA IRIS — Methylmercury Oral Reference Dose",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "EPA",
+      "program": "IRIS",
+      "metal": "MeHg",
+      "metals": [
+        "MeHg"
+      ],
+      "matrix": "oral",
+      "matrices": [
+        "oral"
+      ],
+      "limit_value": 0.1,
+      "limit_unit": "µg/kg-bw/day",
+      "status": "in-force",
+      "effective_date": "2001-07-27T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/epa-iris-methylmercury"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/epa-iris-methylmercury-rfd",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-1881-2006-contaminants-superseded",
+      "rule_id": "ec-1881-2006",
+      "title": "Commission Regulation (EC) No 1881/2006 setting maximum levels for certain contaminants in foodstuffs",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": null,
+      "program": null,
+      "metal": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg",
+        "iAs",
+        "Sn"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "MeHg",
+        "iAs",
+        "Sn"
+      ],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "superseded",
+      "effective_date": "2007-03-01T00:00:00.000Z",
+      "sunset_date": "2023-05-25T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-1881-2006-contaminants-superseded",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-2015-1006-iAs-rice",
+      "rule_id": "eu-2015-1006-iAs-rice",
+      "title": "eu-2015-1006-iAs-rice",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": "Commission Regulation (EU) 2015/1006",
+      "metal": "iAs",
+      "metals": [
+        "iAs"
+      ],
+      "matrix": [
+        "non-parboiled-milled-rice",
+        "parboiled-and-husked-rice",
+        "rice-crackers-cakes",
+        "rice-for-infant-food"
+      ],
+      "matrices": [
+        "non-parboiled-milled-rice",
+        "parboiled-and-husked-rice",
+        "rice-crackers-cakes",
+        "rice-for-infant-food"
+      ],
+      "limit_value": [
+        0.2,
+        0.25,
+        0.3,
+        0.1
+      ],
+      "limit_unit": "mg/kg wet weight",
+      "status": "superseded",
+      "effective_date": "2016-01-01T00:00:00.000Z",
+      "sunset_date": "2023-05-25T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-2015-1006-iAs-rice",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-2021-1317-lead-cereals-superseded",
+      "rule_id": "Commission Regulation (EU) 2021/1317",
+      "title": "EU Regulation 2021/1317 - Lead maximum level for cereals and pulses",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": null,
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "cereals-and-pulses",
+      "matrices": [
+        "cereals-and-pulses"
+      ],
+      "limit_value": 0.2,
+      "limit_unit": "mg/kg wet weight",
+      "status": "superseded",
+      "effective_date": "2021-08-30T00:00:00.000Z",
+      "sunset_date": "2023-05-24T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-2021-1317-lead-cereals-superseded",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-2021-1323-cadmium-cereals-superseded",
+      "rule_id": "Commission Regulation (EU) 2021/1323",
+      "title": "EU Regulation 2021/1323 - Cadmium maximum levels for cereals",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": null,
+      "metal": "Cd",
+      "metals": [
+        "Cd"
+      ],
+      "matrix": "cereals",
+      "matrices": [
+        "cereals"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg wet weight",
+      "status": "superseded",
+      "effective_date": "2021-08-31T00:00:00.000Z",
+      "sunset_date": "2023-05-24T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-2021-1323-cadmium-cereals-superseded",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-2023-915-cadmium",
+      "rule_id": "eu-2023-915-cadmium",
+      "title": "Commission Regulation (EU) 2023/915 cadmium maximum levels",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": null,
+      "program": null,
+      "metal": "Cd",
+      "metals": [
+        "Cd"
+      ],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "maximum levels",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-2023-915-cadmium",
+      "updated": "2026-05-02T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-2023-915-lead-infant-young-child-foods",
+      "rule_id": "eu-2023-915-lead-infant-young-child-foods",
+      "title": "EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": "Contaminants in Food",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "infant-young-child-foods",
+      "matrices": [
+        "infant-young-child-foods"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "ppb",
+      "status": "in-force",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/eu2023-915-lead-infant-young-child-foods"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "app"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-2023-915-lead-infant-young-child-foods",
+      "updated": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-466-2001-contaminants-superseded",
+      "rule_id": "ec-466-2001",
+      "title": "Commission Regulation (EC) No 466/2001 setting maximum levels for certain contaminants in foodstuffs",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": null,
+      "metal": [
+        "Pb",
+        "Cd",
+        "tHg"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tHg"
+      ],
+      "matrix": [
+        "foodstuffs",
+        "vegetable-oils",
+        "fats-and-oils",
+        "infant-foods",
+        "cereals",
+        "fruits",
+        "vegetables",
+        "fishery-products"
+      ],
+      "matrices": [
+        "foodstuffs",
+        "vegetable-oils",
+        "fats-and-oils",
+        "infant-foods",
+        "cereals",
+        "fruits",
+        "vegetables",
+        "fishery-products"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "superseded",
+      "effective_date": "2002-04-05T00:00:00.000Z",
+      "sunset_date": "2007-03-01T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-466-2001-contaminants-superseded",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-nickel-directive-94-27-ec",
+      "rule_id": "eu-nickel-directive-94-27-ec",
+      "title": "EU Nickel Directive 94/27/EC",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": "Nickel Directive",
+      "metal": "Ni",
+      "metals": [
+        "Ni"
+      ],
+      "matrix": "skin-contact-products",
+      "matrices": [
+        "skin-contact-products"
+      ],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "historical-as-described-in-source",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "lgc2003-nickel-piercing-post-assemblies"
+      ],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-nickel-directive-94-27-ec",
+      "updated": "2026-04-29T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-reg-2018-73-mercury-compounds-mrls",
+      "rule_id": "eu-reg-2018-73-mercury-compounds-mrls",
+      "title": "eu-reg-2018-73-mercury-compounds-mrls",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": null,
+      "metal": "tHg",
+      "metals": [
+        "tHg"
+      ],
+      "matrix": "cereals",
+      "matrices": [
+        "cereals"
+      ],
+      "limit_value": 0.01,
+      "limit_unit": "mg/kg as mercury",
+      "status": "finalized",
+      "effective_date": "2018-02-07T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "app"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-reg-2018-73-mercury-compounds-mrls",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-reg-2022-617-mercury-fish",
+      "rule_id": "eu-reg-2022-617-mercury-fish",
+      "title": "eu-reg-2022-617-mercury-fish",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": "European Commission",
+      "program": "Food contaminants maximum levels",
+      "metal": "tHg",
+      "metals": [
+        "tHg"
+      ],
+      "matrix": "fishery-products",
+      "matrices": [
+        "fishery-products"
+      ],
+      "limit_value": [
+        0.3,
+        0.5,
+        1,
+        0.1
+      ],
+      "limit_unit": "mg/kg ww",
+      "status": "finalized",
+      "effective_date": "2022-05-03T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "app"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-reg-2022-617-mercury-fish",
+      "updated": "2026-05-16T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu2023-arsenic-rice-based-drinks",
+      "rule_id": "eu2023-arsenic-rice-based-drinks",
+      "title": "EU inorganic arsenic maximum level for non-alcoholic rice-based drinks",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "maximum level",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu2023-arsenic-rice-based-drinks",
+      "updated": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu2023-contaminants-maximum-levels",
+      "rule_id": "eu2023-contaminants-maximum-levels",
+      "title": "EU Regulation 2023/915 maximum levels for contaminants in food",
+      "jurisdiction": "EU",
+      "jurisdictions": [
+        "EU"
+      ],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [
+        "Pb",
+        "Cd",
+        "tHg",
+        "iAs",
+        "tAs",
+        "Sn"
+      ],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "maximum levels",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu2023-contaminants-maximum-levels",
+      "updated": "2026-05-02T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda-cpg-540-600-methylmercury-fish",
+      "rule_id": "fda-cpg-540-600",
+      "title": "FDA CPG Sec. 540.600 Fish, Shellfish, Crustaceans and other Aquatic Animals — Methyl Mercury",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "FDA",
+      "program": null,
+      "metal": "MeHg",
+      "metals": [
+        "MeHg"
+      ],
+      "matrix": "fish-shellfish-crustaceans-other-aquatic-animals",
+      "matrices": [
+        "fish-shellfish-crustaceans-other-aquatic-animals"
+      ],
+      "limit_value": 1,
+      "limit_unit": "ppm methyl mercury expressed as mercury",
+      "status": "active",
+      "effective_date": "1984-11-06T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda-cpg-540-600-methylmercury-fish",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda-ctz-Pb-babyfood-10ppb",
+      "rule_id": "fda-ctz-Pb-babyfood-10ppb",
+      "title": "FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats)",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "FDA",
+      "program": "Closer to Zero",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "processed-babyfood-fruits-vegetables-mixtures-yogurts-meats",
+      "matrices": [
+        "processed-babyfood-fruits-vegetables-mixtures-yogurts-meats"
+      ],
+      "limit_value": 10,
+      "limit_unit": "ppb",
+      "status": "finalized",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/fda-ctz-Pb-babyfood-2025"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda-ctz-Pb-babyfood-10ppb",
+      "updated": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda-ctz-Pb-cereal-20ppb",
+      "rule_id": "fda-ctz-Pb-cereal-20ppb",
+      "title": "FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "FDA",
+      "program": "Closer to Zero",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "dry-infant-cereals",
+      "matrices": [
+        "dry-infant-cereals"
+      ],
+      "limit_value": 20,
+      "limit_unit": "ppb",
+      "status": "finalized",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/fda-ctz-Pb-babyfood-2025"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda-ctz-Pb-cereal-20ppb",
+      "updated": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda-ctz-Pb-rootveg-20ppb",
+      "rule_id": "fda-ctz-Pb-rootveg-20ppb",
+      "title": "FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "FDA",
+      "program": "Closer to Zero",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "single-ingredient-root-vegetables-babyfood",
+      "matrices": [
+        "single-ingredient-root-vegetables-babyfood"
+      ],
+      "limit_value": 20,
+      "limit_unit": "ppb",
+      "status": "finalized",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/fda-ctz-Pb-babyfood-2025"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda-ctz-Pb-rootveg-20ppb",
+      "updated": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda-iAs-rice-cereal-100ppb",
+      "rule_id": "fda-iAs-rice-cereal-100ppb",
+      "title": "FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "FDA",
+      "program": "Closer to Zero",
+      "metal": "iAs",
+      "metals": [
+        "iAs"
+      ],
+      "matrix": "infant-rice-cereal",
+      "matrices": [
+        "infant-rice-cereal"
+      ],
+      "limit_value": 100,
+      "limit_unit": "ppb",
+      "status": "finalized",
+      "effective_date": "2020-08-06T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/fda-iAs-rice-cereal-2020"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda-iAs-rice-cereal-100ppb",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda-juice-haccp-lead-50ppb",
+      "rule_id": "fda-juice-haccp-lead-50ppb",
+      "title": "FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "FDA",
+      "program": "Juice HACCP",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "ready-to-drink-fruit-juice",
+      "matrices": [
+        "ready-to-drink-fruit-juice"
+      ],
+      "limit_value": 50,
+      "limit_unit": "ppb",
+      "status": "current-guidance-context",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/fda2004-juice-haccp-lead"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "app"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda-juice-haccp-lead-50ppb",
+      "updated": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda2022-draft-lead-juice",
+      "rule_id": "fda2022-draft-lead-juice",
+      "title": "FDA 2022 Draft — Lead Action Levels for Juice",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "FDA",
+      "program": "Closer to Zero",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "juice",
+      "matrices": [
+        "juice"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "ppb",
+      "status": "draft-not-for-implementation",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/fda2022-draft-lead-juice"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "app"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda2022-draft-lead-juice",
+      "updated": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/fda2025-lead-processed-baby-foods",
+      "rule_id": "fda2025-lead-processed-baby-foods",
+      "title": "FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children",
+      "jurisdiction": "US",
+      "jurisdictions": [
+        "US"
+      ],
+      "agency": "FDA",
+      "program": "Closer to Zero",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "final guidance action level",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/fda-ctz-Pb-babyfood-2025"
+      ],
+      "audience": [
+        "standards-development",
+        "regulator",
+        "retailer",
+        "brand",
+        "legal",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda2025-lead-processed-baby-foods",
+      "updated": "2026-05-02T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/jecfa-arsenic-bmdl",
+      "rule_id": "jecfa-arsenic-bmdl",
+      "title": "JECFA inorganic arsenic BMDL₀.₅ (lower-limit benchmark dose)",
+      "jurisdiction": "international",
+      "jurisdictions": [
+        "international"
+      ],
+      "agency": null,
+      "program": null,
+      "metal": "iAs",
+      "metals": [
+        "iAs"
+      ],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": "stub",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "app"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/jecfa-arsenic-bmdl",
+      "updated": "2026-04-26T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/jecfa-cadmium-ptmi",
+      "rule_id": "jecfa-cadmium-ptmi",
+      "title": "JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month",
+      "jurisdiction": "international",
+      "jurisdictions": [
+        "international"
+      ],
+      "agency": "JECFA",
+      "program": "FAO/WHO Joint Expert Committee on Food Additives",
+      "metal": "Cd",
+      "metals": [
+        "Cd"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": 25,
+      "limit_unit": "µg/kg-bw/month",
+      "status": "in-force",
+      "effective_date": "2010-06-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/jecfa-91st-cadmium-2022"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/jecfa-cadmium-ptmi",
+      "updated": "2026-04-24T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/jecfa-lead-ptwi-withdrawn",
+      "rule_id": "jecfa-lead-ptwi-withdrawn",
+      "title": "JECFA — Lead Provisional Tolerable Weekly Intake (Withdrawn 2010)",
+      "jurisdiction": "international",
+      "jurisdictions": [
+        "international"
+      ],
+      "agency": "JECFA",
+      "program": "FAO/WHO Joint Expert Committee on Food Additives",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": null,
+      "limit_unit": "µg/kg-bw/week",
+      "status": "withdrawn",
+      "effective_date": "2010-06-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/jecfa-72nd-lead-2010"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/jecfa-lead-ptwi-withdrawn",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/jecfa-methylmercury-ptwi",
+      "rule_id": "jecfa-methylmercury-ptwi",
+      "title": "JECFA — Methylmercury Provisional Tolerable Weekly Intake (1.6 µg/kg b.w./week)",
+      "jurisdiction": "international",
+      "jurisdictions": [
+        "international"
+      ],
+      "agency": "JECFA",
+      "program": "FAO/WHO Joint Expert Committee on Food Additives",
+      "metal": "MeHg",
+      "metals": [
+        "MeHg"
+      ],
+      "matrix": "dietary",
+      "matrices": [
+        "dietary"
+      ],
+      "limit_value": 1.6,
+      "limit_unit": "µg/kg-bw/week",
+      "status": "in-force",
+      "effective_date": "2003-06-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/jecfa-61st-methylmercury"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/jecfa-methylmercury-ptwi",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded",
+      "rule_id": "nom-027-ssa1-1993",
+      "title": "Norma Oficial Mexicana NOM-027-SSA1-1993, Productos de la pesca: pescados frescos-refrigerados y congelados",
+      "jurisdiction": "MX",
+      "jurisdictions": [
+        "MX"
+      ],
+      "agency": "Secretaria de Salud",
+      "program": null,
+      "metal": [
+        "Cd",
+        "tHg",
+        "MeHg",
+        "Pb"
+      ],
+      "metals": [
+        "Cd",
+        "tHg",
+        "MeHg",
+        "Pb"
+      ],
+      "matrix": [
+        "fresh-fish",
+        "refrigerated-fish",
+        "frozen-fish"
+      ],
+      "matrices": [
+        "fresh-fish",
+        "refrigerated-fish",
+        "frozen-fish"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "superseded",
+      "effective_date": "1995-04-02T00:00:00.000Z",
+      "sunset_date": "2011-05-10T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/mx-nom-028-ssa1-1993-canned-fish-superseded",
+      "rule_id": "nom-028-ssa1-1993",
+      "title": "Norma Oficial Mexicana NOM-028-SSA1-1993, Productos de la pesca: pescados en conserva",
+      "jurisdiction": "MX",
+      "jurisdictions": [
+        "MX"
+      ],
+      "agency": "Secretaria de Salud",
+      "program": null,
+      "metal": [
+        "Cd",
+        "tHg",
+        "MeHg",
+        "Pb",
+        "Sn"
+      ],
+      "metals": [
+        "Cd",
+        "tHg",
+        "MeHg",
+        "Pb",
+        "Sn"
+      ],
+      "matrix": [
+        "canned-fish"
+      ],
+      "matrices": [
+        "canned-fish"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "superseded",
+      "effective_date": "1995-04-02T00:00:00.000Z",
+      "sunset_date": "2011-05-10T00:00:00.000Z",
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/mx-nom-028-ssa1-1993-canned-fish-superseded",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/mx-nom-242-ssa1-2009-fishery-products",
+      "rule_id": "nom-242-ssa1-2009",
+      "title": "Norma Oficial Mexicana NOM-242-SSA1-2009, Productos de la pesca frescos, refrigerados, congelados y procesados",
+      "jurisdiction": "MX",
+      "jurisdictions": [
+        "MX"
+      ],
+      "agency": "Secretaria de Salud",
+      "program": null,
+      "metal": [
+        "tAs",
+        "Cd",
+        "MeHg",
+        "Pb",
+        "Sn"
+      ],
+      "metals": [
+        "tAs",
+        "Cd",
+        "MeHg",
+        "Pb",
+        "Sn"
+      ],
+      "matrix": [
+        "fishery-products",
+        "fresh-fish",
+        "refrigerated-fish",
+        "frozen-fish",
+        "processed-fish",
+        "canned-fish",
+        "crustaceans",
+        "molluscs"
+      ],
+      "matrices": [
+        "fishery-products",
+        "fresh-fish",
+        "refrigerated-fish",
+        "frozen-fish",
+        "processed-fish",
+        "canned-fish",
+        "crustaceans",
+        "molluscs"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "2011-05-10T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/mx-nom-242-ssa1-2009-fishery-products",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/oehha-arsenic-prop65",
+      "rule_id": "oehha-arsenic-prop65",
+      "title": "California Proposition 65 — Inorganic Arsenic Compounds Listing",
+      "jurisdiction": "US-CA",
+      "jurisdictions": [
+        "US-CA"
+      ],
+      "agency": "OEHHA",
+      "program": "Proposition 65",
+      "metal": "iAs",
+      "metals": [
+        "iAs"
+      ],
+      "matrix": "all-consumer-products",
+      "matrices": [
+        "all-consumer-products"
+      ],
+      "limit_value": null,
+      "limit_unit": "NSRL-pending",
+      "status": "in-force",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/oehha-arsenic-prop65-listing"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/oehha-arsenic-prop65",
+      "updated": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/oehha-cadmium-prop65",
+      "rule_id": "oehha-cadmium-prop65",
+      "title": "California Proposition 65 — Cadmium Listing and Maximum Allowable Daily Level",
+      "jurisdiction": "US-CA",
+      "jurisdictions": [
+        "US-CA"
+      ],
+      "agency": "OEHHA",
+      "program": "Proposition 65",
+      "metal": "Cd",
+      "metals": [
+        "Cd"
+      ],
+      "matrix": "all-consumer-products",
+      "matrices": [
+        "all-consumer-products"
+      ],
+      "limit_value": 4.1,
+      "limit_unit": "µg/day-oral",
+      "status": "in-force",
+      "effective_date": "1997-05-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/oehha-cadmium-prop65-evidence-1996",
+        "sources/oehha-cadmium-prop65-madl-2001"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/oehha-cadmium-prop65",
+      "updated": "2026-04-24T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/oehha-lead-prop65",
+      "rule_id": "oehha-lead-prop65",
+      "title": "California Proposition 65 — Lead and Lead Compounds Listing",
+      "jurisdiction": "US-CA",
+      "jurisdictions": [
+        "US-CA"
+      ],
+      "agency": "OEHHA",
+      "program": "Proposition 65",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "all-consumer-products",
+      "matrices": [
+        "all-consumer-products"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "ug/day",
+      "status": "in-force",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/oehha-lead-prop65-listing"
+      ],
+      "audience": [
+        "regulator",
+        "educator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/oehha-lead-prop65",
+      "updated": "2026-05-03T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/turkey-food-codex-contaminants-2023-lead-raw-milk",
+      "rule_id": "turkey-food-codex-contaminants-2023-lead-raw-milk",
+      "title": "turkey-food-codex-contaminants-2023-lead-raw-milk",
+      "jurisdiction": "TR",
+      "jurisdictions": [
+        "TR"
+      ],
+      "agency": "Ministry of Agriculture and Forestry",
+      "program": "Turkish Food Codex Contaminants Regulation",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "raw-milk",
+      "matrices": [
+        "raw-milk"
+      ],
+      "limit_value": 0.02,
+      "limit_unit": "mg/kg wet weight",
+      "status": "in-force",
+      "effective_date": "2023-11-05T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/turkey-food-codex-contaminants-2023-lead-raw-milk",
+      "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/washington-tfca-toothpaste-pb-1000ppb",
+      "rule_id": "washington-tfca-toothpaste-pb-1000ppb",
+      "title": "washington-tfca-toothpaste-pb-1000ppb",
+      "jurisdiction": "US-WA",
+      "jurisdictions": [
+        "US-WA"
+      ],
+      "agency": "Washington State Department of Ecology",
+      "program": "Toxic-Free Cosmetics Act (TFCA)",
+      "metal": "Pb",
+      "metals": [
+        "Pb"
+      ],
+      "matrix": "toothpaste",
+      "matrices": [
+        "toothpaste"
+      ],
+      "limit_value": 1000,
+      "limit_unit": "ppb",
+      "status": "enforced",
+      "effective_date": "2025-01-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "consumer",
+        "brand-legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/washington-tfca-toothpaste-pb-1000ppb",
+      "updated": "2026-05-14T00:00:00.000Z"
+    }
+  ]
+}

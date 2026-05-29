@@ -297,8 +297,19 @@ async function regulationLookup({ jurisdiction, metal, matrix }, req) {
   if (metal && !ALLOWED_METALS.has(metal)) {
     return { error: `Unknown metal: ${metal}`, allowed_metals: [...ALLOWED_METALS], license: LICENSE_ENVELOPE }
   }
-  const corpus = await loadCorpus(req)
-  let regs = corpus.regulations
+  const regs = await filterRegulations({ jurisdiction, metal, matrix }, req)
+  return {
+    query: { jurisdiction: jurisdiction || null, metal: metal || null, matrix: matrix || null },
+    matched_regulations: regs.length,
+    records: regs.slice(0, 50),
+    license: LICENSE_ENVELOPE,
+  }
+}
+
+async function filterRegulations({ jurisdiction, metal, matrix }, req) {
+  const dataset = await loadJson("/static/regulations.json", "../wiki/static/regulations.json", req).catch(() => null)
+  if (!dataset?.records) return []
+  let regs = dataset.records
   if (jurisdiction) {
     const j = jurisdiction.toLowerCase()
     regs = regs.filter((r) => (r.jurisdictions || []).some((x) => String(x).toLowerCase() === j))
@@ -308,14 +319,12 @@ async function regulationLookup({ jurisdiction, metal, matrix }, req) {
   }
   if (matrix) {
     const m = matrix.toLowerCase()
-    regs = regs.filter((r) => (r.matrices || []).some((x) => String(x).toLowerCase().includes(m)))
+    regs = regs.filter((r) =>
+      (r.matrices || []).some((x) => String(x).toLowerCase().includes(m)) ||
+      (r.matrix && String(r.matrix).toLowerCase().includes(m)),
+    )
   }
-  return {
-    query: { jurisdiction: jurisdiction || null, metal: metal || null, matrix: matrix || null },
-    matched_regulations: regs.length,
-    records: regs.slice(0, 50),
-    license: LICENSE_ENVELOPE,
-  }
+  return regs
 }
 
 async function synthesisLookup({ topic }, req) {
@@ -367,8 +376,8 @@ async function searchEvidence({ query, limit }, req) {
 
 async function coverageStatus({ scope }, req) {
   const contentIndex = await loadJson("/static/contentIndex.json", "../public/static/contentIndex.json", req)
-  const contamination = await loadJson("/static/contamination.json", "../public/static/contamination.json", req).catch(() => null)
-  const corpus = await loadCorpus(req)
+  const contamination = await loadJson("/static/contamination.json", "../wiki/static/contamination.json", req).catch(() => null)
+  const regulations = await loadJson("/static/regulations.json", "../wiki/static/regulations.json", req).catch(() => null)
   const counts = { source: 0, ingredient: 0, product: 0, metal: 0, regulation: 0, synthesis: 0 }
   for (const slug of Object.keys(contentIndex)) {
     if (!isPublicSlug(slug)) continue
@@ -381,27 +390,36 @@ async function coverageStatus({ scope }, req) {
   }
   let contaminationProfileCoverage = null
   if (contamination?.records) {
+    // The dataset emits every metal sub-block per ingredient with status:populated,
+    // including cells that have not yet been synthesized (n_studies: 0, confidence: null).
+    // The meaningful coverage metric is "actually-synthesized" cells: confidence is
+    // set and n_studies > 0. Everything else is data-thin.
     let totalCells = 0
-    const byStatus = { populated: 0, in_progress: 0, pending: 0 }
+    let synthesized = 0
+    let dataThin = 0
     for (const r of contamination.records) {
       for (const cell of Object.values(r.metals || {})) {
         totalCells++
-        const status = (cell.status || "pending").toLowerCase()
-        if (byStatus[status] !== undefined) byStatus[status]++
+        const hasConfidence = cell.confidence != null && cell.confidence !== ""
+        const hasStudies = (cell.n_studies || 0) > 0
+        if (hasConfidence && hasStudies) synthesized++
+        else dataThin++
       }
     }
     contaminationProfileCoverage = {
       total_cells: totalCells,
-      populated: byStatus.populated,
-      in_progress: byStatus.in_progress,
-      pending: byStatus.pending,
-      percent_populated: totalCells ? +(byStatus.populated / totalCells * 100).toFixed(1) : 0,
+      synthesized,
+      data_thin: dataThin,
+      percent_synthesized: totalCells ? +(synthesized / totalCells * 100).toFixed(1) : 0,
     }
   }
+  const jurisdictions = regulations?.records
+    ? new Set(regulations.records.flatMap((r) => r.jurisdictions || [])).size
+    : 0
   const result = {
     query: { scope: scope || "summary" },
     page_counts: counts,
-    regulation_jurisdictions: new Set(corpus.regulations.flatMap((r) => r.jurisdictions || [])).size,
+    regulation_jurisdictions: jurisdictions,
     contamination_profile_coverage: contaminationProfileCoverage,
     coverage_page_url: "https://heavymetalindex.com/coverage",
     methodology_page_url: "https://heavymetalindex.com/methodology",
@@ -458,28 +476,19 @@ async function regulationHistory({ metal, matrix, jurisdiction }, req) {
   if (metal && !ALLOWED_METALS.has(metal)) {
     return { error: `Unknown metal: ${metal}`, allowed_metals: [...ALLOWED_METALS], license: LICENSE_ENVELOPE }
   }
-  const corpus = await loadCorpus(req)
-  let regs = corpus.regulations
-  if (metal) regs = regs.filter((r) => (r.metals || []).includes(metal))
-  if (matrix) {
-    const m = matrix.toLowerCase()
-    regs = regs.filter((r) => (r.matrices || []).some((x) => String(x).toLowerCase().includes(m)))
-  }
-  if (jurisdiction) {
-    const j = jurisdiction.toLowerCase()
-    regs = regs.filter((r) => (r.jurisdictions || []).some((x) => String(x).toLowerCase() === j))
-  }
+  const regs = [...await filterRegulations({ jurisdiction, metal, matrix }, req)]
   const FAR_FUTURE = "9999-12-31"
-  regs = [...regs].sort((a, b) => {
+  regs.sort((a, b) => {
     const ad = a.effective_date || FAR_FUTURE
     const bd = b.effective_date || FAR_FUTURE
-    return ad.localeCompare(bd)
+    return String(ad).localeCompare(String(bd))
   })
   return {
     query: { metal: metal || null, matrix: matrix || null, jurisdiction: jurisdiction || null },
     matched_regulations: regs.length,
     timeline: regs.map((r) => ({
       slug: r.slug,
+      rule_id: r.rule_id,
       title: r.title,
       jurisdictions: r.jurisdictions,
       agency: r.agency,
