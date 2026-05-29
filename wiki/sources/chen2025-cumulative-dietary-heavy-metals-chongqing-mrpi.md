@@ -53,27 +53,14 @@ This study applies the EFSA-recommended hazard-driven cumulative risk assessment
 | As (total) | 4345 | 36.5% | 0.0206 - 0.0403 |
 | Hg (total) | 4378 | 22.1% | 0.0024 - 0.0039 |
 
-**Selected per-category mean concentrations (Table 2; LB-UB mg/kg)** — the food categories that dominate Chongqing dietary intake:
+**Highest and lowest mean food-category concentrations (LB-UB mg/kg, from discussion narrative pages 6-7)**:
 
-| Food category | Pb (mg/kg) | Cd (mg/kg) | As (mg/kg) | Hg (mg/kg) |
-|---|---|---|---|---|
-| Cereals + cereal products | 0.0211 - 0.0354 | 0.0114 - 0.0249 | 0.0386 - 0.0521 | 0.002 - 0.0035 |
-| - Rice | 0.0182 - 0.0292 | 0.0238 - 0.0336 | 0.0497 - 0.0502 | 0.0018 - 0.0027 |
-| - Rice products | 0.0471 - 0.0543 | 0.0434 - 0.0527 | 0.0741 - 0.0742 | 0.0045 - 0.0059 |
-| - Wheat grains and flour | 0.0215 - 0.0261 | 0.0142 - 0.0144 | 0.0144 - 0.0146 | 0.0016 - 0.0023 |
-| Vegetables + vegetable products | 0.0238 - 0.0336 | 0.023 - 0.0293 | 0.0143 - 0.0236 | 0.0011 - 0.0019 |
-| - Leafy vegetables | 0.0476 - 0.0597 | 0.052 - 0.0597 | 0.0434 - 0.0435 | 0.0013 - 0.0024 |
-| - Root and tuber vegetables | 0.0471 - 0.0543 | 0.0267 - 0.0303 | 0.0216 - 0.0257 | 0.0014 - 0.0016 |
-| Nuts | 0.0584 - 0.0601 | n.d. - 0.0245 | 0.2282 - 0.2283 | 0.004 - 0.005 |
-| Fruits | n.d. - 0.0245 | n.d. - 0.0245 | 0.002 - 0.019 | 0.0014 - 0.0017 |
-| Beans | 0.0668 - 0.0975 | 0.0668 - 0.0932 | 0.0177 - 0.0185 | 0.0064 - 0.0073 |
-| Meat and meat products (overall) | 0.0140 - 0.0237 | 0.0083 - 0.0209 | 0.0007 - 0.0025 | 0.0008 - 0.0025 |
-| - Edible livestock and poultry offal | 0.023 - 0.0333 | 0.0919 - 0.1462 | 0.0919 - 0.1462 | 0.0036 - 0.0046 |
-| Fish and their products | 0.0134 - 0.0235 | 0.0199 - 0.0235 | 0.0838 - 0.0848 | 0.0184 - 0.0285 |
-| Milk and dairy based products | 0.0064 - 0.0159 | 0.0148 - 0.0251 | 0.0086 - 0.0132 | 0.0011 - 0.0019 |
-| Foods for special dietary uses | 0.0159 - 0.0314 | 0.0126 - 0.0245 | 0.0014 - 0.0031 | 0.0011 - 0.0026 |
+- **Pb**: dried legumes 0.0668-0.0975 > nuts 0.0584-0.0601 > leafy vegetables 0.0476-0.0597 > rice products 0.0471-0.0543. Cereals + cereal products overall 0.0211-0.0354; vegetables + vegetable products overall 0.0238-0.0336; meat + meat products overall 0.0140-0.0237. Lowest: milk and dairy based products 0.0064-0.0159. Overall mean 0.0194-0.0295.
+- **Cd**: nuts up to 0.2383 (mean UB; vs Song et al. comparator 0.029) > edible livestock and poultry offal 0.0919-0.1462 > rice products 0.0740-0.0742 > rice 0.0497-0.0502. Lowest: livestock meat 0.0007-0.0025. Overall mean 0.0219-0.0228.
+- **As (total)**: fish + fish products 0.0811-0.1180 > rice 0.0838-0.0848 > rice products 0.0447-0.0459. Lowest: brassica vegetables 0.0001-0.0077. Overall mean 0.0206-0.0403.
+- **Hg (total)**: fish + fish products 0.0184-0.0285 (highest by an order of magnitude). Meat + meat products 0.0024-0.0057; cereals 0.002-0.0036; vegetables 0.0011-0.0027; milk and dairy 0.0011-0.0026; eggs 0.0012-0.0031; fruits 0.001-0.0028. Lowest: legumes vegetables 0.0006-0.0025. Overall mean 0.0024-0.0039.
 
-Highest single-metal means observed: Pb in dried legumes (0.0668-0.0975 mg/kg); Cd in nuts (0.2383 mg/kg upper-bound mean per text, vs Song et al. 0.029 mg/kg comparator); total As in fish and fish products (0.0811-0.1180 mg/kg per text); total Hg in fish and fish products (0.0184-0.0285 mg/kg).
+Rice and rice products in Chongqing for Pb (0.0211-0.0354) and meat + meat products for Pb (0.0140-0.0237) are higher than levels reported in similar foods in Jiangsu Province 2007-2010 (Malavolti et al. 0.0114-0.0249) and the Pan et al. 2011-2015 comparator. The mean Pb across all food categories is below China National Health Commission MAL and Codex CAC limits in this dataset. The mean Cd in rice (0.0497-0.0502) is lower than the China MAL (0.2 mg/kg) and Codex CAC limit (0.4 mg/kg) but higher than reported values in Bangladesh (0.044), Cambodia (0.006), Italy (0.038), and France (0.01). As level in fish under the UB scenario exceeds the China MAL of 0.1 mg/kg.
 
 **Toxicological reference points used in mRPI (Table 1)**:
 
@@ -161,11 +148,11 @@ Certification: For HMTc Cat 1 cumulative-risk framework + Chinese-market food so
 
 1. **The mRPI framework is the EFSA-recommended approach** for cumulative risk assessment from multiple heavy metals with shared/compatible MOA/AOP. HMTc Cat 1 standards-setting can use mRPI alongside per-analyte HQ to evaluate combined Pb+Cd+iAs+MeHg exposure in product formulations. The toxicological reference points (Table 1) provide the EFSA-vetted RP values for each metal-endpoint pair.
 
-2. **The Chongqing finding (mRPI >1 for both neurotoxicity and nephrotoxicity at P95)** establishes that even in a Chinese provincial population with monitored typical exposure, combined heavy-metal exposure exceeds acceptable cumulative risk thresholds at the upper-tail diet. HMTc certification of Chinese-sourced food ingredients (rice, vegetables, meat, fish) should consider both per-analyte certification and cumulative-risk implications.
+2. **The Chongqing finding (mRPI >1 for both neurotoxicity and nephrotoxicity at P95)** establishes that even in a Chinese provincial population with monitored typical exposure, combined heavy-metal exposure exceeds acceptable cumulative risk thresholds at the upper-tail diet. This is occurrence data relevant to HMTc Cat 1 sourcing decisions involving Chinese-sourced food ingredients (rice, vegetables, meat, fish); whether HMTc threshold-setting incorporates a cumulative-risk component is a methodology question for the standards workbench, not addressed by this paper.
 
 3. **Speciation conversion factors documented in this paper** (iAs/tAs and MeHg/tHg ratios for fish vs non-fish) are useful for the wiki's CLAUDE.md Part 14 speciation methodology when source studies report only total metals. The 2% iAs/tAs in fish vs 70% in non-fish is particularly important for converting total-As surveys into iAs estimates.
 
-4. **Pb dominates neurotoxicity (≈70% of mRPI); Cd dominates nephrotoxicity (≈60%), Pb second (≈39%)**. HMTc Cat 1 standards-prioritization should reflect this — Pb thresholds for child-targeted products are the highest leverage; Cd thresholds matter most for kidney-burden control in adult products.
+4. **Pb dominates neurotoxicity (≈70% of mRPI); Cd dominates nephrotoxicity (≈60%), Pb second (≈39%)**. The paper's metal-contribution decomposition is the kind of occurrence/contribution data downstream HMTc Cat 1 prioritization work would draw on when weighting analytes — Pb-weighting matters most for neurodevelopmental endpoints; Cd-weighting matters most for renal endpoints — though the paper itself proposes no thresholds.
 
 5. **Rice, leafy vegetables, and wheat products are the top three food contributors** to both neurotoxic and nephrotoxic mRPI in this population (combined rice + vegetables = 61-67% of nephrotoxic risk). For HMTc rice and leafy-vegetable category work, Pb and Cd are the highest-leverage analytes by these contribution percentages.
 
@@ -177,7 +164,9 @@ Microbiome: Not addressed.
 
 ## Verification notes
 
-Enhanced 2026-05-29 from prior 2026-05-14 ingest (kimi-loose-pdf-chen2025 raw_handle preserved). The prior version had the core mRPI numbers, the demographics breakdown, and the speciation conversion factors correct, but was missing: (a) the Table 1 toxicological reference points, (b) per-category Pb/Cd/As/Hg concentration data from Table 2, (c) per-metal RPQ ranges that decompose the combined mRPI, (d) the relative contribution percentages of each metal to the combined mRPI (Pb 69.74-72.22% to neuro; Cd 60.05-60.09% to nephro), and (e) the daily food consumption volumes from Table 3 with the conversion from g/3-day to g/d. The legacy "## Wiki pages updated on ingest" section was removed because the routing layer (Part 5b) now owns the source-to-target-page mapping; the model no longer maintains routing by hand. `metals:` was extended from `[Pb, Cd, iAs, MeHg]` to `[Pb, Cd, iAs, MeHg, iHg]` because iHg appears as a separate analyte for the nephrotoxic-endpoint mRPI (Table 1 row; RPQ 0.005-0.032). `sampling_locations` and `sampling_year_range` populated. No brand names appear in the source or in this page. No HMTc-threshold synthesis claims are made; the implications section reports the paper's own findings on metal-endpoint dominance.
+Enhanced 2026-05-29 from prior 2026-05-14 ingest (kimi-loose-pdf-chen2025 raw_handle preserved). The prior version had the core mRPI numbers, the demographics breakdown, and the speciation conversion factors correct, but was missing: (a) the Table 1 toxicological reference points, (b) per-category Pb/Cd/As/Hg concentration data, (c) per-metal RPQ ranges that decompose the combined mRPI, (d) the relative contribution percentages of each metal to the combined mRPI (Pb 69.74-72.22% to neuro; Cd 60.05-60.09% to nephro), and (e) the daily food consumption volumes from Table 3 with the conversion from g/3-day to g/d. The legacy "## Wiki pages updated on ingest" section was removed because the routing layer (Part 5b) now owns the source-to-target-page mapping; the model no longer maintains routing by hand. `metals:` was extended from `[Pb, Cd, iAs, MeHg]` to `[Pb, Cd, iAs, MeHg, iHg]` because iHg appears as a separate analyte for the nephrotoxic-endpoint mRPI (Table 1 row; RPQ 0.005-0.032). `sampling_locations` and `sampling_year_range` populated. No brand names appear in the source or in this page.
+
+Audit-subagent (2026-05-29) flagged one ❌ in Check 1 (per-category table: As column for "Edible livestock and poultry offal" showed the Cd value 0.0919-0.1462 transposed) and three ⚠️ (rice products Cd UB precision; two Implications phrasings that used "should" in an HMTc-direction). Independent verification against the page 6-7 narrative confirmed the ❌ AND revealed several additional per-category cell errors from misreading the dense Table 2 image (e.g., I had Cd rice = 0.0238-0.0336 vs the narrative's 0.0497-0.0502; As rice = 0.0497-0.0502 vs narrative 0.0838-0.0848 — the same Cd narrative value appears to have been duplicated into the As column). To eliminate the OCR uncertainty, the per-category table was rebuilt as a narrative-style summary citing only values explicitly stated on pages 6-7 of the source (the "highest/lowest by metal" prose). The two Implications phrasings were softened to describe the paper's contribution as occurrence data downstream HMTc work would draw on, rather than prescribing what HMTc should do — preserving the Part 2 wiki/HMTc firewall.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
