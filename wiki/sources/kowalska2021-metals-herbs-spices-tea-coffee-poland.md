@@ -27,7 +27,7 @@ updated: 2026-05-29
 
 # Kowalska 2021 — Heavy metals in Polish herbs, spices, tea, and coffee
 
-This Polish study measured Cd, Pb, total As, and total Hg in 240 plant material samples — 163 herb samples across 37 species, 61 spice samples across 12 species, 8 green China tea samples, and 8 roasted Arabica coffee bean samples — collected 2015–2018 from farms in eastern Poland and from Lublin supermarkets. Analysis was by ICP-MS (Cd, Pb, As) and direct mercury analyzer AMA 254 (Hg). Among the four analytes, lead showed the widest concentration range across the dataset (0.010–5.680 mg/kg DM); mercury was uniformly low (range <LOQ to 0.030 mg/kg DM). Results were referenced against two limit frameworks: the World Health Organisation guideline values for herbal raw materials (Cd 0.3, Pb 10.0, As 5.0, Hg 0.2 mg/kg) and Commission Regulation (EU) No. 420/2011, which sets maximum levels for certain contaminants in fresh herbs converted to dry matter at 90% water content. No herb sample exceeded the WHO Pb 10 mg/kg limit; the abstract reports 24 herb samples (18%) exceeded "the limits," which from the section 3.2 detail aligns with the EU 420/2011 converted dry-matter equivalent. For Cd, 24 herb samples (15%) exceeded the WHO 0.3 mg/kg guideline. No spice, tea, or coffee sample exceeded any limit for any metal. Probabilistic risk assessment showed total target hazard quotient (TTHQmax) below 1 for all four product categories at Polish per-capita consumption rates, and carcinogenic risk from arsenic below the USEPA 1×10⁻⁴ maximum-acceptable threshold.
+This Polish study measured Cd, Pb, total As, and total Hg in 240 plant material samples — 163 herb samples across 40 species, 61 spice samples across 11 species, 8 green China tea samples, and 8 roasted Arabica coffee bean samples — collected 2015–2018 from farms in eastern Poland and from Lublin supermarkets. Analysis was by ICP-MS (Cd, Pb, As) and direct mercury analyzer AMA 254 (Hg). Among the four analytes, lead showed the widest concentration range across the dataset (0.010–5.680 mg/kg DM); mercury was uniformly low (range <LOQ to 0.030 mg/kg DM). Results were referenced against two limit frameworks: the World Health Organisation guideline values for herbal raw materials (Cd 0.3, Pb 10.0, As 5.0, Hg 0.2 mg/kg) and Commission Regulation (EU) No. 420/2011, which sets maximum levels for certain contaminants in fresh herbs converted to dry matter at 90% water content. No herb sample exceeded the WHO Pb 10 mg/kg limit; the abstract reports 24 herb samples (18%) exceeded "the limits," which from the section 3.2 detail aligns with the EU 420/2011 converted dry-matter equivalent. For Cd, 24 herb samples (15%) exceeded the WHO 0.3 mg/kg guideline. No spice, tea, or coffee sample exceeded any limit for any metal. Probabilistic risk assessment showed total target hazard quotient (TTHQmax) below 1 for all four product categories at Polish per-capita consumption rates, and carcinogenic risk from arsenic below the USEPA 1×10⁻⁴ maximum-acceptable threshold.
 
 ## Key numbers
 
@@ -46,7 +46,7 @@ All concentrations in mg/kg dry matter (DM) unless noted.
 - No samples exceeded the WHO Pb limit of 10 mg/kg for herbal raw materials (section 3.2)
 - 24 samples (18%, per abstract) exceeded the limit value(s) the paper references; section 3 introduces both WHO and EU Reg 420/2011 (the latter converts the 0.3 mg/kg fresh-herb limit to DM equivalent at 90% water content), and section 3.2 makes clear that the WHO 10 mg/kg threshold was not crossed, so the 18% statistic corresponds to the EU 420/2011 converted limit
 - Lead was below LOD in 12 herb samples (7%): green matter of common thyme and field horsetail, leaf of globe artichoke, and fruit of chasteberry
-- Highest Pb species (mean / max, mg/kg DM): valerian root 1.730 / 5.680; lemon balm leaves 1.91 / 3.47; common sage leaves 2.21 / 2.55; southernwood 1.57 / 1.85; camomile flowers 1.572 / 2.99; blackthorn flowers 1.341 / 1.421; European blueberry leaves 0.60 / 1.99
+- Highest Pb species (mean / max, mg/kg DM): valerian root 1.730 / 5.680; lemon balm leaves 1.91 / 3.47; common sage leaves 2.21 / 2.55; southernwood 1.57 / 1.85; camomile flowers 1.572 / 2.99; blackthorn flowers 1.341 / 1.421; European blueberry leaves 0.60 / 1.99 (Table 2 prints the European blueberry mean of 0.60 below the printed range minimum of 1.23 — a paper-internal inconsistency directly analogous to the China-tea Cd issue below; reported here as printed)
 
 **Lead — spices (n=61):**
 
@@ -61,7 +61,7 @@ All concentrations in mg/kg dry matter (DM) unless noted.
 **Cadmium — herbs (n=163):**
 
 - Range: <LOQ (0.020) to 2.170 mg/kg DM
-- 24 samples (15%) exceeded the WHO 0.3 mg/kg limit; per section 3.1 the paper states "excessive values were noted for nine herbal species" and then lists eight species (green matter of hoary rockrose, heath speedwell, southernwood; root of marshmallow; leaves of globe artichoke and red raspberry; flower of hollyhock; fruit of midland hawthorn); the 9-vs-8 mismatch is an in-text discrepancy in the paper, captured here as written
+- 24 samples (15%) exceeded the WHO 0.3 mg/kg limit. Per section 3.1, the nine herbal species with exceedances were: green matter of hoary rockrose, heath speedwell, yellow bedstraw, southernwood; root of marshmallow; leaves of globe artichoke and red raspberry; flower of hollyhock; and fruit of midland hawthorn
 - One hoary rockrose sample (2.17 mg/kg) exceeded the EU Reg 420/2011 fresh-herb-converted limit
 - 41 samples (25%) from 12 herb species had Cd below LOD (green matter of field horsetail, root of liquorice and dandelion, leaves of white mulberry and goutweed, flower of red clover, common heather, common sunflower and white nettle, fruit of dog rose and chasteberry, and seeds of narrowleaf plantain)
 - Highest Cd (mean, mg/kg DM): hoary rockrose 0.935 (max 2.17); common mugwort 1.53 (max 1.67); globe artichoke leaves 0.603; hollyhock flowers 0.465; heath speedwell 0.453
@@ -131,7 +131,8 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 2026-05-29 merge-enhance pass (v2.0 skill): re-read PDF cover-to-cover including all four tables and full sections 3.1–3.5.
 
 - Cleaned overview-paragraph Pb statistic: prior wording said "24 samples (18% of 131 herb samples that had data) exceeded the WHO limit for Pb (10 mg/kg) only when interpreted against some measures." Per section 3.2 of the paper, zero herb samples exceeded the WHO 10 mg/kg limit; the 24 (18%) figure from the abstract maps to the EU 420/2011 converted limit per section 3 framing. The "131 samples" denominator is not in the paper and has been removed.
-- Fixed Cd exceedance species list: prior page listed nine species including "yellow bedstraw," but the paper's section 3.1 text lists only eight species and labels them "nine herbal species." Page now reports the eight species the source names verbatim, with the paper's own 9-vs-8 discrepancy noted.
+- Cd exceedance species list (correction-of-correction after Phase 2 audit): the initial merge-enhance dropped "yellow bedstraw" from the 9-species exceedance list and introduced a spurious "9-vs-8 mismatch" framing. The Phase 2 fresh-context audit subagent caught this; re-reading section 3.1 page 5 confirmed the paper names nine species including yellow bedstraw. List restored to the source's nine species.
+- Overview species counts (correction after Phase 2 audit): prior wording carried over the earlier page's "37 herb species" and "12 spice species" counts. Direct count of Table 2 entries yields 40 herb species and 11 spice species; the overview now uses those counts.
 - Added arsenic detail for herbs: prior page omitted the herb As findings (12 samples / 7% detection: nine valerian-root samples at 0.111–0.535 mg/kg and three blackcurrant-leaf samples at 0.166–0.202 mg/kg). Restored from section 3.3.
 - Added mercury detail for herbs: prior page said "Only field horsetail had notable Hg at mean 0.015 mg/kg." Per section 3.4, the dataset maximum for Hg was European blueberry leaves at 0.030 mg/kg, not field horsetail; both are now reported, along with the 45/163 (28%) herb detection rate.
 - Added detection counts for spice arsenic (5 of 26 black pepper, 4 of 8 peppers per section 3.3).
@@ -140,7 +141,8 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 - Removed cross-source synthesis from `## Implications`: prior page text "This is the reference study cited by both Fischer 2022 and Winiarska-Mieczan 2023 for Polish herb/spice background context" was a citation-network claim about other wiki sources, which belongs at the synthesis layer, not on a single-source page. Also removed an iAs-vs-tAs threshold comparison against an external regulatory value, replaced with neutral speciation-caveat wording.
 - Methods: added Altec, Czech Republic for AMA 254; added Mulgrave, Australia for Varian 820-MS; added MARS Express microwave mineraliser model and supplier; added WPS 50 SX moisture analyser; added analyte-specific reference doses, As cancer slope factor, and noncarcinogen-vs-carcinogen treatment per section 2.6.
 - Frontmatter: populated `sampling_year_range: "2015–2018"` (was null).
-- Wikilink correction in the "Wiki pages updated on ingest" list: `[[regulations/eu-reg-1881-2006]]` → `[[regulations/eu-1881-2006-contaminants-superseded]]` (the actual page slug).
+- Wikilink correction in the "Wiki pages updated on ingest" list: `[[regulations/eu-reg-1881-2006]]` initially fixed to `[[regulations/eu-1881-2006-contaminants-superseded]]`, then removed entirely after Phase 2 audit. The paper does not directly discuss EU 1881/2006; the regulation it actually cites for fresh-herb Pb limits is Commission Regulation (EU) No. 420/2011 (which amends 1881/2006 for herbs), and no slug for 420/2011 exists in the current regulations taxonomy. Per CLAUDE.md Part 10 (do not create new regulation pages mid-ingest), the regulation entry is dropped from the page-touch list.
+- Flagged European blueberry leaves Pb mean-below-range-minimum inconsistency in Table 2 (parallel to the China-tea Cd issue), added during Phase 2 audit application.
 - Paper-internal data-integrity issue preserved as-printed (not corrected on the wiki page): Table 2 reports China-tea Cd range 0.069–0.098 with mean 0.034 — mathematically impossible since mean lies below range minimum; section 3.1 text gives the tea+coffee Cd range as "<LOQ (0.020 mg/kg) to 0.098 mg/kg," so the printed lower bound 0.069 in Table 2 appears to be a typo. Wiki page reports as printed and flags the inconsistency.
 
 ## Wiki pages updated on ingest
@@ -154,7 +156,6 @@ ICP-MS (Varian 820-MS; Varian, Mulgrave, Australia; quadrupole, argon plasma, 18
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
-- [[regulations/eu-1881-2006-contaminants-superseded]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
