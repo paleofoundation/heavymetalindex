@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-29T20:09:06.765Z
+updated: 2026-05-29T21:01:21.244Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1240 / 2640 cells done (47.0%)** — 1400 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 52 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ✅ 1 min ago |
-| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 5 ✅ |
+| Daemon heartbeat | ✅ 0 min ago |
+| auto-fetched/ PDFs in queue | 20 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 3 ✅ |
 | Audit queue: pending-audit-spawn-failed | 52 (async lane) |
-| Wishlist: total downloaded historically | 3 |
-| Wishlist: total ingested historically | 52 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 1 |
-| Commits last 24 hours | 70 |
+| Wishlist: total downloaded historically | 20 |
+| Wishlist: total ingested historically | 0 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 15 |
+| Commits last 24 hours | 84 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-676a09c 2 minutes ago — daemon: empty-queue glob no longer aborts whole tick (12-hour silent death)
+b9b8ae1 9 seconds ago — ui/ux: accessibility, hero, and IA pass on the public site
 ```
 
 ## How to read this
