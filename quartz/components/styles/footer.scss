@@ -118,6 +118,16 @@ footer.site-footer {
   line-height: 1.35;
 }
 
+.site-footer-external-icon {
+  margin-left: 0.3em;
+  opacity: 0.7;
+  vertical-align: -0.05em;
+}
+
+.site-footer-external:hover .site-footer-external-icon {
+  opacity: 1;
+}
+
 .site-footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.18);
   box-sizing: border-box;

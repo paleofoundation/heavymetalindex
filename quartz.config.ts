@@ -44,7 +44,11 @@ const config: QuartzConfig = {
         lightMode: {
           light: "#fdfdfc",
           lightgray: "#e8e6e1",
-          gray: "#9c9890",
+          // Darkened from #9c9890 (2.82:1 on --light, failed WCAG AA) to
+          // #767067 (4.82:1). --gray drives all secondary text — content
+          // meta, TOC, breadcrumbs, table headers, captions — so this one
+          // token lifts every muted-text surface to AA.
+          gray: "#767067",
           darkgray: "#2a2d34",
           dark: "#1a1d24",
           secondary: "#8B2A4A",
@@ -55,7 +59,9 @@ const config: QuartzConfig = {
         darkMode: {
           light: "#141414",
           lightgray: "#2d2d2d",
-          gray: "#6a6a6a",
+          // Lightened from #6a6a6a (3.41:1 on dark --light, failed WCAG AA)
+          // to #848484 (4.93:1). Mirrors the light-mode --gray lift.
+          gray: "#848484",
           darkgray: "#cfcfcf",
           dark: "#e8e6e1",
           secondary: "#C76B8E",
