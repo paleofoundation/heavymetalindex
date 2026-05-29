@@ -66,7 +66,7 @@ Arsenic drove 69.0%-69.3% of HI variance; As HQ alone ranged from 3.96 to 5.36 (
 
 Arsenic contributed 84.5%-84.6% of CR variance. Cadmium contributed a second, much smaller carcinogenic component (OSF 0.38 per mg/kg/day), with Cd CR values in the range of approximately 4.6-8.0 x 10^-5.
 
-**Monte Carlo 95th-percentile estimates (10,000 iterations):** HI ranged 1.50-8.94 (children) and 1.20-7.14 (adults); CR ranged 1.21 x 10^-3 to 3.10 x 10^-3 (children) and 9.67 x 10^-4 to 2.48 x 10^-3 (adults).
+**Monte Carlo 5th-to-95th percentile bounds (10,000 iterations):** HI 1.50-8.94 (children) and 1.20-7.14 (adults); CR 1.21 x 10^-3 to 3.10 x 10^-3 (children) and 9.67 x 10^-4 to 2.48 x 10^-3 (adults). Fig 3 of the source labels each distribution with the 5th- and 95th-percentile pair; the source text on p.9 paraphrases this as "95th percentile values ... ranged from 1.50 to 8.94," which this page corrects to the underlying figure's framing.
 
 **Exposure parameters used:** Ingestion rate adult 420 g/day, child 210 g/day; body weight adult 70 kg, child 20 kg; exposure duration adult 70 years, child 6 years.
 
