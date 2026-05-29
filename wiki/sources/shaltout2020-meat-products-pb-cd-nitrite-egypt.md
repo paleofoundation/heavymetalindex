@@ -13,7 +13,7 @@ license: "open access"
 raw_path: "raw/Manual Fetch Kimi /Prevalence of Some Chemical Hazards in Some Meat Product.pdf"
 raw_sha256: "9de566657b8cca0b25774d530598f0588b87271fa7b4544ad2f59e825fd4029c"
 metals: [Pb, Cd]
-ingredients: ["[[ingredients/meat]]", "[[ingredients/ground-beef]]", "[[ingredients/bologna-luncheon-meat]]", "[[ingredients/frankfurter]]"]
+ingredients: ["[[ingredients/meat]]", "[[ingredients/ground-beef]]", "[[ingredients/bologna-luncheon-meat]]"]
 products: ["[[products/processed-meats]]", "[[products/beef-product]]"]
 matrices: [minced-meat, beef-burger, sausage, luncheon-meat, processed-meat]
 jurisdictions: [EG]
@@ -110,7 +110,6 @@ Microbiome: not addressed.
 - [[ingredients/meat]]
 - [[ingredients/ground-beef]]
 - [[ingredients/bologna-luncheon-meat]]
-- [[ingredients/frankfurter]]
 - [[products/processed-meats]]
 - [[products/beef-product]]
 
@@ -122,6 +121,11 @@ Microbiome: not addressed.
 - Part 12 brand firewall: no brand names appear in the source — the paper aggregates by product type rather than by brand, so no redaction was needed.
 - Numerical fidelity: all values in the Key numbers tables verified directly against Tables 1–6 in the PDF (pages 2–3 of the published article).
 - Paper-internal observation (not a defect to fix here, just flagged): the reported standard errors on Pb (SE = 0.01 mg/kg across all four product types) are tight relative to the min–max ranges (e.g., 0.02–0.25 for sausage, 0.07–0.38 for luncheon). With n = 15, that implies an SD ≈ 0.04 — plausible but on the low side given the spread. If this paper is later considered for pooled percentile work, the underlying per-sample data should be requested rather than relied on from the summary table.
+- 2026-05-29 audit (Phase 2 fresh-context Agent subagent): verdict REVISE; one ❌ on matrices vocabulary, one ⚠️ on the `frankfurter` routing fit, two minor ⚠️ on phrasing/method-naming. Disposition:
+  - Frankfurter ⚠️ (applied): the paper studies generic Egyptian retail "sausage," not specifically frankfurters. Removed `[[ingredients/frankfurter]]` from frontmatter and from `## Wiki pages updated on ingest`. The sausage findings still reach the wiki via `[[ingredients/meat]]` and `[[products/processed-meats]]`.
+  - Matrices ❌ (rejected as false positive): the subagent flagged `minced-meat, beef-burger, sausage, luncheon-meat, processed-meat` as not in the taxonomy snapshot. Verified against `docs/gpt-collaboration/system-prompt.md` (matrices vocabulary section) which is explicitly bare-string and open-ended ("Add a new term only if none of these fits; flag the addition in verification notes"). All five tokens are already established in the corpus via existing source pages (grep confirms `minced-meat`, `beef-burger`, `sausage`, `luncheon-meat`, `processed-meat` all appear in other `wiki/sources/*.md` matrices arrays). The auditor's snapshot does not enumerate matrices, which is by design per its own notes — the snapshot covers ingredients/products/metals/regulations only.
+  - Pb-limit phrasing ⚠️ (rejected as false positive / no-op): the audit flagged "above the Egyptian Standards lead limit of < 0.1 mg/kg" as awkward. Phrasing mirrors the source's own PL column notation; no change.
+  - AAS vs spectrophotometer ⚠️ (rejected as false positive): the audit flagged that the abstract says "spectrophotometer" while Methods references "the digital scale of AAS." The paper's calculation equation explicitly names AAS, so the wiki's "atomic absorption spectrometry" identification is correct. The abstract's "spectrophotometer" is generic shorthand for absorption spectrometry.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
