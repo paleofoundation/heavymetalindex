@@ -54,9 +54,10 @@ Concentrations expressed in mg/kg fresh weight:
 
 Dried vs. fresh comparison (per dry weight basis): Cd and Pb were both significantly higher (P<0.05) in dried than fresh herbs, attributed to perennial vs. annual plant age, phosphate fertilizer use in commercial growing, and concentration during drying.
 
-**Regulatory limits applied:**
-- Fresh herbs: EU max 0.05 mg/kg Cd (Commission Reg. EC 1881/2006, amended), 0.3 mg/kg Pb (Polish regulation)
-- Dried herbs/spices (>50% herbs): 0.3 mg/kg Cd, 2.0 mg/kg Pb (Polish regulation)
+**Regulatory limits applied** (from PDF p. 3572 col 1 and p. 3573 col 2; the paper compares against both national and EU limits):
+- Fresh herbs (Polish national MPL, Journal of Laws 13 Jan 2003, ref [38]): 0.05 mg/kg Cd, 0.3 mg/kg Pb
+- Fresh herbs (EU, Commission Regulation EC 1881/2006, ref [56]): 0.2 mg/kg Cd
+- Dried herbs and spices containing more than 50% herbs (Polish national MPL, Journal of Laws 27 Dec 2000, ref [40]): 0.3 mg/kg Cd, 2.0 mg/kg Pb
 
 **Exposure/risk:**
 - At 0.7 g/day dried herbs: EWI Cd = 6.57×10⁻⁴ µg/kg bw, corresponding to 3.75×10⁻⁴ % of TWI (2.5 µg/kg bw/week); EWI Pb = 2.69×10⁻³ µg/kg bw, corresponding to 3.65×10⁻⁴ % of BMDL01
@@ -64,11 +65,11 @@ Dried vs. fresh comparison (per dry weight basis): Cd and Pb were both significa
 
 ## Methods (brief)
 
-GF-AAS (graphite furnace atomic absorption spectroscopy, Varian Spectr AA 880). Sample digestion: dry ashing at 450°C for 12 hours with H₂O₂ as oxidant, then dissolved in 1M HNO3. LOD 0.001 mg/kg Cd, 0.011 mg/kg Pb; LOQ 0.0002 mg/kg Cd, 0.003 mg/kg Pb. Reference materials: INCT-TL-1 (tea leaves) recovery 103% Cd, 99% Pb; INCT-MPH-2 (mixed Polish herbs) recovery 94% Cd, 102% Pb. Reproducibility ≤5%. Statistical analysis: ANOVA with Duncan's test, P<0.05. Fresh herbs were dried at 65°C for 24 h before analysis; reported both as fresh-weight and dry-weight equivalents.
+GF-AAS (graphite furnace atomic absorption spectroscopy, Varian Spectr AA 880). Sample digestion: dry ashing at 450°C for 12 hours with H₂O₂ as oxidant, then dissolved in 1M HNO₃. LOD 0.001 mg/kg Cd, 0.011 mg/kg Pb; LOQ 0.0002 mg/kg Cd, 0.003 mg/kg Pb. Reference materials: INCT-TL-1 (tea leaves) recovery 103% Cd, 99% Pb; INCT-MPH-2 (mixed Polish herbs) recovery 94% Cd, 102% Pb. Replication deviation ≤5% (each analysis run in triplicate); duplicate-measurement deviation 5.8% Cd / 4.5% Pb; reproducibility 10.1% Cd / 13.9% Pb (Table 2). Statistical analysis: ANOVA with Duncan's test, P<0.05. Fresh herbs were dried at 65°C for 24 h before analysis; reported both as fresh-weight and dry-weight equivalents.
 
 ## Implications
 
-**Certification:** Dried coriander and dried estragon exceeded the EU Cd limit in Polish retail. These are commonly used culinary herbs; HMT&C standards for dried herbs should specify Cd as an analyte of concern, not just Pb, and the threshold decision must account for the dried vs. fresh concentration differential. A batch sourced from commercial growing in phosphate-fertilizer-intensive regions may have elevated Cd even if fresh-herb Cd appears low. Supplier specification for country of origin and soil Cd status is the primary lever.
+**Certification:** Contributes occurrence data for Cd in dried herbs (n=100 across 9 species) and Pb in fresh herbs (n=184 across 15 species) sampled from Polish grocery retail. Two single-species dried herbs — coriander (mean Cd 0.419 mg/kg, 20% of samples above limit) and estragon (mean Cd 0.427 mg/kg, 30% above limit) — exceeded the applicable Polish national MPL of 0.3 mg/kg Cd for dried herbs. Five fresh herbs — watercress, jiaogulan, celery, basil, dill — exceeded the Polish national Pb MPL of 0.3 mg/kg in fresh herbs. The paper attributes elevated Cd in commercial dried herbs to soil phosphate-fertiliser use and to the older mean age of perennial commercial herb plants relative to the annual fresh herbs sampled here.
 
 **Courses:** Clean illustration of the dried vs. fresh concentration effect: the same herb species shows ~30-fold higher Cd per fresh weight when dried, because moisture is removed but metal content is retained. This is critical for label-comparison literacy — a consumer seeing a mg/kg limit on dried herbs cannot directly compare it to a fresh-herb limit without a water-content conversion.
 
@@ -81,7 +82,7 @@ GF-AAS (graphite furnace atomic absorption spectroscopy, Varian Spectr AA 880). 
 - [[ingredients/fresh-herbs]]
 - [[metals/cadmium]]
 - [[metals/lead]]
-- [[regulations/eu-reg-1881-2006]]
+- [[regulations/eu-1881-2006-contaminants-superseded]]
 
 ## Verification notes
 
@@ -94,6 +95,19 @@ Merge-enhance pass 2026-05-29 (manual-fetch ingest, MFK condiment_papers/05_PB_V
 - Frontmatter defects corrected: `raw_handle` changed from generic `manual-fetch-kimi` to per-paper `MFK_the-content-of-cd-and-pb-in-herbs-and-single-compo`; `raw_path` corrected from truncated `...Use.pdf` (file did not resolve) to the full filename `...Used in Polish Cuisine.pdf`; `raw_sha256`, `access_url`, and `tier_rationale` added; `sampling_locations` populated with Lublin grocery retail per the Material and Methods section.
 - Paper-internal inconsistencies noted (also captured in `tier_rationale`) and do not affect downstream synthesis: the methods narrative lists 15 fresh-herb species summing to 187 samples while the abstract and Table 3 report n=184; and the methods narrative names "pink peppercorn (n=8)" for the same single-component spice that Table 1 lists as "Rose pepper / Schinus terebinthifolius (n=10)" (botanically the same species).
 - Brand-firewall check: source reports only species-level and category-level means; no brand-by-brand attribution is present in the paper, so no firewall-violating content to remove.
+
+Audit subagent pass 2026-05-29 (v2.0 fresh-context general-purpose Agent, verdict REVISE): four findings applied, three rejected as not actionable.
+
+Applied:
+- ❌ Broken slug `[[regulations/eu-reg-1881-2006]]` corrected to `[[regulations/eu-1881-2006-contaminants-superseded]]` — verified via `ls wiki/regulations/`; the eu-reg-* form does not exist for 1881/2006.
+- ⚠️ Regulatory attribution corrected: 0.05 mg/kg Cd in fresh herbs and 0.3 mg/kg Pb in fresh herbs are Polish national MPLs (PDF p. 3572 col 1, ref [38]: Polish Journal of Laws 13 Jan 2003); the EU 1881/2006 value for Cd in fresh herbs is 0.2 mg/kg (ref [56]). Prior wiki text incorrectly attributed 0.05 Cd to EU 1881/2006.
+- ⚠️ Methods (brief) "Reproducibility ≤5%" was a conflation. PDF Table 2 reports two distinct metrics — duplicate-measurement deviation 5.8% Cd / 4.5% Pb and reproducibility 10.1% Cd / 13.9% Pb — plus PDF p. 3570 text saying replication deviations did not exceed 5%. Methods rewritten to list all three.
+- ⚠️ Implications/Certification rewritten to contribute occurrence data and report the paper's own causal hypothesis (phosphate-fertiliser and plant-age) rather than prescribe HMTc analyte-flagging or supplier-spec levers. Part 2 firewall: literature side, not program-design side.
+
+Rejected (verified false-positive or not actionable):
+- ⚠️ "p25 = median" presentational note for dried herbs Cd (0.047) and Pb (0.555). Both percentile values match Table 3 verbatim; the duplication is an artefact of the source distribution, not a wiki error. No edit.
+- ⚠️ Matrices vocabulary check (`dried-herbs`, `fresh-herbs`, `spices`). `taxonomy-snapshot.md` does not define a matrices controlled list; the three slugs are in active corpus use across many sources. Not actionable from this PDF alone.
+- ⚠️ No product-page route for fresh/dried herbs (~284/432 samples). This is a routing-coverage gap that would require Karen-approved Part 10 new-page proposals (no dried-herbs or fresh-herbs product page exists); not a per-source defect.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
