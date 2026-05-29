@@ -83,16 +83,17 @@ cleanup_on_exit() {
     else
       if acquire_lock "daemon-exit-trap" 10; then
         echo "[$(date -u +"%H:%M:%SZ")] EXIT trap (code=$exit_code): dirty tree detected, attempting recovery commit" | tee -a "$LOG_FILE" >/dev/null 2>&1 || true
-        # Scope to the daemon's output allowlist (data/ + wiki/) — NEVER
-        # `git add -A`. A bare add-all here swept a parallel agent's in-flight
-        # quartz/ theme edits into a daemon recovery commit (observed
-        # 2026-05-29, commit b40cb21, once the deadlock fix made the
-        # previously-aborting sweep actually land). The daemon only ever
-        # produces data/ and wiki/; everything else is foreign work to leave
-        # untouched. add of a directory still stages new untracked files
-        # within it (e.g. new wiki/sources pages), so nothing daemon-made
-        # is missed.
-        git add -- data wiki >/dev/null 2>&1 || true
+        # Scope to the daemon's EXACT output allowlist — NEVER `git add -A`,
+        # and not even a blanket `data/`. A bare add-all swept a parallel
+        # agent's in-flight quartz/ edits into a recovery commit (2026-05-29,
+        # b40cb21, once the deadlock fix made the previously-aborting sweep
+        # land); a blanket `data/` would likewise stomp the grants agent's
+        # data/workbench/grants/ and the manually-authored standards-book.
+        # The daemon only ever writes data/evidence/, data/workbench/briefings/
+        # and wiki/ (verified against its own commits). add of a directory
+        # still stages new untracked files within it (e.g. new wiki/sources
+        # pages), so nothing daemon-made is missed.
+        git add -- data/evidence data/workbench/briefings wiki >/dev/null 2>&1 || true
         # HMI_SKIP_COMMIT_LOCK=1: this trap ALREADY holds the commit lock
         # (acquire_lock above). Without telling the pre-commit hook to skip
         # its own acquire, the hook (a child process) would block on the
@@ -178,7 +179,7 @@ checkpoint_commit() {
     return 0
   fi
   if acquire_lock "daemon-checkpoint:${label}" 30; then
-    git add -- data wiki >/dev/null 2>&1 || true   # allowlist only — never sweep foreign edits (see exit-trap note)
+    git add -- data/evidence data/workbench/briefings wiki >/dev/null 2>&1 || true   # exact daemon-output allowlist — never sweep foreign edits (see exit-trap note)
     # HMI_SKIP_COMMIT_LOCK=1: we hold the lock; stop the pre-commit hook from
     # self-deadlocking on it (see exit-trap note above).
     if HMI_SKIP_COMMIT_LOCK=1 WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: checkpoint [$label] $TIMESTAMP" >/dev/null 2>&1; then
@@ -260,7 +261,7 @@ if [[ -n "$REAL_DIRTY" ]]; then
   log "Self-heal: previous tick left uncommitted wiki/data regeneration work (no foreign code/config edits, no lock holder). Recovering before proceeding."
   log "$REAL_DIRTY"
   if acquire_lock "daemon-selfheal" 30; then
-    git add -- data wiki >/dev/null 2>&1 || true   # allowlist only — never sweep foreign edits (see exit-trap note)
+    git add -- data/evidence data/workbench/briefings wiki >/dev/null 2>&1 || true   # exact daemon-output allowlist — never sweep foreign edits (see exit-trap note)
     # HMI_SKIP_COMMIT_LOCK=1: we hold the lock; stop the pre-commit hook from
     # self-deadlocking on it (see exit-trap note above).
     HMI_SKIP_COMMIT_LOCK=1 WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: self-heal recovery of prior tick's uncommitted work — $TIMESTAMP" 2>&1 | tee -a "$LOG_FILE" || log "self-heal: nothing to commit"
@@ -725,7 +726,7 @@ if ! git diff --quiet || ! git diff --cached --quiet; then
   # than scooping the other commit's files.
   if acquire_lock "daemon-tick-step8" 60; then
     log "Changes detected; committing"
-    git add -- data wiki 2>&1 | tee -a "$LOG_FILE"   # allowlist only — never sweep foreign edits (see exit-trap note)
+    git add -- data/evidence data/workbench/briefings wiki 2>&1 | tee -a "$LOG_FILE"   # exact daemon-output allowlist — never sweep foreign edits (see exit-trap note)
     COMMIT_MSG="autonomy: daemon tick $TIMESTAMP — gap-healing + extraction + pooling + briefings"
     # WIKI_EDIT_AUDIT_SKIP=1 (2026-05-29 fix): the daemon's deterministic
     # tools edit wiki/**/*.md (page-history tables, source-legend baselines,
