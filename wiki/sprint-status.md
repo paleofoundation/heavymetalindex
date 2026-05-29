@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-29T07:19:06.376Z
+updated: 2026-05-29T20:09:06.765Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 121 min ago (stale) |
+| Daemon heartbeat | ✅ 1 min ago |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 5 ✅ |
 | Audit queue: pending-audit-spawn-failed | 52 (async lane) |
 | Wishlist: total downloaded historically | 3 |
 | Wishlist: total ingested historically | 52 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 31 |
-| Commits last 24 hours | 202 |
+| Commits last 1 hour | 1 |
+| Commits last 24 hours | 70 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-844d89b 83 seconds ago — codex sprint 2026-05-29 0000: tracker and audit queue updates
+676a09c 2 minutes ago — daemon: empty-queue glob no longer aborts whole tick (12-hour silent death)
 ```
 
 ## How to read this

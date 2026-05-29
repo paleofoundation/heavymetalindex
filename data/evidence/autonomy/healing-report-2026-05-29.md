@@ -1,18 +1,19 @@
 # Heal-gaps report — 2026-05-29
 
-Generated: 2026-05-29T05:17:44.260Z
+Generated: 2026-05-29T20:08:34.031Z
 Mode: EXECUTED
 
 ## Summary
 
 - Fixes applied: 0
-- Queued for synthesis: 2
+- Queued for synthesis: 3
 - Routing typo proposals: 10
 - Provisional scaffolds created: 5
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 238
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 
+- missing_sources_section: 1 item(s)
 - pending_contamination_profile_with_sources: 2 item(s)
 
 ## Provisional scaffolds created
