@@ -52,7 +52,7 @@ This study quantifies nickel concentrations across six food categories in Zhejia
 | Aquatic food total | 1405 | 0.001–48.9 | 0.261 | 0.071 | 0.852 | 82.28% | 3.56% |
 | Aquatic: Sea fish | 30 | 0.001–1.34 | 0.057 | 0.007 | 0.076 | 43.33% | 3.33% |
 | Aquatic: Gastropods | 3 | 0.05–0.35 | 0.194 | 0.183 | 0.333 | 100% | 0% |
-| Aquatic: Other processed | 399 | 0.002–4.2 | 0.209 | 0.082 | 0.891 | 89.72% | 4.26% |
+| Aquatic: Other processed aquatic products | 399 | 0.002–4.2 | 0.209 | 0.082 | 0.891 | 89.72% | 4.26% |
 | Aquatic: Sea crustacea | 150 | 0.006–0.84 | 0.195 | 0.19 | 0.419 | 99.33% | 0% |
 | Aquatic: Freshwater crustacea | 546 | 0.002–48.9 | 0.281 | 0.047 | 0.582 | 78.75% | 2.38% |
 | Aquatic: Freshwater fish | 145 | 0.002–10.5 | 0.149 | 0.01 | 0.422 | 53.1% | 1.38% |
@@ -61,7 +61,7 @@ This study quantifies nickel concentrations across six food categories in Zhejia
 | Cereal products | 27 | 0.025–0.696 | 0.136 | 0.102 | 0.302 | 100% | 0% |
 | Fruits | 136 | 0.004–0.75 | 0.097 | 0.059 | 0.293 | 100% | 0% |
 
-Sampling: 11 cities in Zhejiang Province, 2018–2019, multistage random sampling at the breeding/acquisition (field) and intermediate (market, store, online commercial) stages. Sample counts by category: beans n=5, aquatic food and products n=1404 (paper text; Table 1 totals 1405), meat and products n=691 (paper text; Table 1 totals 690), vegetables and vegetable products n=392 (paper text; Table 1 totals 365), cereal products n=27, fruits n=145 (paper text; Table 1 lists 136). Body weights by age group from the consumption survey:
+Sampling: 11 cities in Zhejiang Province, 2018–2019, multistage random sampling at the breeding/acquisition (field) and intermediate (market, store, online commercial) stages. Sample counts by category — Section 2.1 (Sampling) totals vs Section 3.1 (Sample Characteristics) / Table 1 totals: beans n=5 (both); aquatic food and products n=1404 (§2.1) vs n=1405 (§3.1 + Table 1); meat and products n=691 (§2.1) vs n=690 (§3.1 + Table 1); vegetables and vegetable products n=392 (§2.1) vs n=365 (§3.1 + Table 1); cereal products n=27 (both); fruits n=145 (§2.1) vs n=136 (§3.1 + Table 1). The Key numbers table above uses §3.1 / Table 1 values throughout (the granular per-subcategory source). Body weights by age group from the consumption survey:
 
 | Age group | Body weight (kg) |
 |---|---:|
@@ -84,7 +84,7 @@ Daily Ni intake (µg/kg-bw/d), Mode D (P95 concentration × P95 consumption), by
 | 18–59 years | 9.923 | 0.496 |
 | ≥60 years | 11.4 | 0.57 |
 
-Beans and vegetables/vegetable-products were the main sources of dietary Ni exposure (>50% of total for low-consumption modes A and C); vegetables dominate in high-consumption modes B and D. USEPA reference dose used: 20 µg/kg-bw/d. The paper also references the EFSA Tolerable Daily Intake of 13 µg/kg-bw (later revised from the 2015 value of 2.8 µg/kg) as a comparator; the 0–6 Mode D total intake of 21.57 µg/kg-bw/d exceeds both reference values.
+Beans and vegetables/vegetable-products were the main sources of dietary Ni exposure (>50% of total for low-consumption modes A and C); vegetables dominate in high-consumption modes B and D. USEPA reference dose used: 20 µg/kg-bw/d. The paper also references the EFSA Tolerable Daily Intake — initially 2.8 µg/kg-bw in 2015 and later modified to 13 µg/kg-bw — as a comparator; the 0–6 Mode D total intake of 21.57 µg/kg-bw/d exceeds both EFSA TDI revisions and the USEPA RfD.
 
 ## Methods (brief)
 
@@ -132,6 +132,7 @@ Microbiome: Not applicable — paper does not address gut microbiome effects of 
   - `products: ["[[products/processed-meats]]"]` added — sausages (n=316), Chinese bacon (n=296), and "other meat product" (n=7) all map to the existing `wiki/products/processed-meats.md` page; the paper's "Meat and products" category is processed meat. Canned-fish product already declared.
   - Frontmatter `sampling_locations` populated and `sampling_year_range` filled in. `raw_handle`, `cite_key`, `raw_path`, `license`, `doi`, `near_duplicates` preserved.
 - Source-internal inconsistency on age-bucket labelling: p. 5 of the paper says respondents were classified into five groups "0–6, 6–13, 11–17, 18–59, and ≥60 years" (overlapping at 6 and 11), but Tables 2, 3, and 4 use non-overlapping groups 0–6, 7–10, 11–17, 18–59, ≥60. The wiki follows the table groupings since all numerical attributions are tied to the tables.
+- 2026-05-29 (audit application): Fresh-context Agent subagent (general-purpose) ran the five-check audit per `docs/gpt-collaboration/audit-prompt.md`. Verdict: PROMOTE with 0 ❌ findings and 3 ⚠️ framing concerns. Concerns applied to this commit: (a) §2.1-text vs §3.1/Table 1 sample-size discrepancy framing made explicit (prior wording "paper text; Table 1 totals" was imprecise since both totals are paper-text); (b) "Aquatic: Other processed" row label expanded to "Other processed aquatic products" to match Table 1; (c) EFSA TDI chronology phrasing rewritten to match the paper's "initially set 2.8 in 2015 → later modified to 13" order. No false-positive findings to record. Routing audit re-run clean.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
