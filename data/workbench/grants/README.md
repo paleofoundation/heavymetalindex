@@ -21,4 +21,5 @@
 ## Contents
 
 - `sample-specific-aims-camel-milk-formula.md` — demonstration Specific Aims page + Significance outline (generic applicant), proving what the corpus + the Pendergrass NEC preprint can generate.
+- `research-strategy-camel-milk-formula.md` — full demonstration Research Strategy (Significance · Innovation · Approach), framed as **NIH STTR** (company applicant + Foundation as nonprofit research partner). Reframed by the 2026-05-29/30 discovery pass: camel milk is a heavy-metal accumulation matrix, so the project is "make a camel-milk formula NEC-safe via bioavailable-nickel measurement + sourcing + surveillance," not "camel milk is clean."
 - `prompt-catalog.md` — funder-agnostic grant-writing prompts, adapted from [eseckel/ai-for-grant-writing](https://github.com/eseckel/ai-for-grant-writing) (CC-BY-4.0), tuned to the HMI domain. Mirrors the role of [docs/prompt-catalog.md](../../../docs/prompt-catalog.md) for the standards build.
