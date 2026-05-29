@@ -1218,7 +1218,7 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
 }
 
 .hmi-home-visual {
-  min-height: 360px;
+  min-height: 470px;
   position: relative;
 }
 
@@ -1255,11 +1255,16 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
   margin-top: 0.55rem;
 }
 
+/* The three preview cards cascade down-and-right. Vertical offsets are in
+   px (not %) so the only overlaps are a card's TOP padding landing on the
+   prior card's BOTTOM padding — never over text. Earlier the main card sat
+   on top of the metal card's title (clipping it to "Ca…") and the source
+   card covered the main card's "Cadmium / regulated" rows. */
 .hmi-preview-card-main {
-  left: 7%;
+  left: 11%;
   padding: 1rem;
-  top: 9%;
-  width: min(86%, 420px);
+  top: 117px;
+  width: min(78%, 350px);
   z-index: 2;
 }
 
@@ -1305,16 +1310,16 @@ article .hmi-home-hero-actions a.hmi-home-action-primary:hover,
 .hmi-preview-card-metal {
   left: 0;
   padding: 0.95rem;
-  top: 2%;
-  width: 220px;
+  top: 0;
+  width: min(44%, 205px);
   z-index: 1;
 }
 
 .hmi-preview-card-source {
-  bottom: 11%;
+  left: 22%;
   padding: 0.95rem;
-  right: 0;
-  width: 250px;
+  top: 356px;
+  width: min(52%, 235px);
   z-index: 3;
 }
 
@@ -1857,5 +1862,131 @@ a.hmi-staff-card:hover {
     bottom: 0;
     right: 0;
     width: 72%;
+  }
+}
+
+/* -----------------------------------------------------------
+   Skip-to-content link (keyboard / screen-reader users)
+
+   Visually offscreen until focused, then pinned top-left so the
+   first Tab on any page jumps past the sidebar and Explorer
+   straight to the article instead of forcing a long tab-through.
+   ----------------------------------------------------------- */
+
+.skip-to-content {
+  background: var(--secondary);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  color: var(--light);
+  font-family: var(--bodyFont);
+  font-size: 0.9rem;
+  font-weight: 700;
+  left: 0;
+  margin: 0.5rem;
+  padding: 0.6rem 1rem;
+  position: fixed;
+  text-decoration: none;
+  top: 0;
+  transform: translateY(-160%);
+  transition: transform var(--duration-base) var(--ease-out);
+  z-index: 10000;
+}
+
+.skip-to-content:focus,
+.skip-to-content:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--secondary) 30%, transparent);
+  outline-offset: 2px;
+  transform: translateY(0);
+}
+
+#main-content:focus {
+  outline: none;
+}
+
+/* Visually-hidden utility for screen-reader-only copy (e.g. the
+   "opens in a new tab" hint on external footer links). */
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* -----------------------------------------------------------
+   Readable line length
+
+   On wide monitors the center column exceeds 840px, pushing body
+   text past ~100 characters per line where it gets hard to track
+   from one line to the next. Cap the measure of running prose
+   (~72ch) while leaving tables, figures, and the homepage landing
+   blocks free to use the full column width.
+   ----------------------------------------------------------- */
+
+article > p,
+article > ul,
+article > ol,
+article > blockquote,
+article > h2,
+article > h3,
+article > h4 {
+  max-width: 72ch;
+}
+
+body[data-slug="index"] article > *,
+article > figure,
+article > .table-container,
+article > table {
+  max-width: none;
+}
+
+/* -----------------------------------------------------------
+   Theme-stable burgundy panels
+
+   The footer and corpus counter paint white text on
+   var(--secondary). In light mode that is a dark burgundy (white
+   text ~7:1). In dark mode --secondary flips to a light pink
+   (#C76B8E) where white text drops to 3.55:1 and the low-alpha
+   sub-labels fall well below AA. Pin these panels to a dark
+   burgundy in dark mode so the white text stays legible.
+   ----------------------------------------------------------- */
+
+:root[saved-theme="dark"] footer.site-footer,
+:root[saved-theme="dark"] .hmi-home-corpus-counter {
+  background: #6e213a;
+}
+
+/* -----------------------------------------------------------
+   Respect prefers-reduced-motion
+
+   Neutralizes the card-hover lifts, link/box transitions, smooth
+   scrolling, and the SPA navigation-progress animation for users
+   who have asked the OS to reduce motion.
+   ----------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hmi-home-feature-card:hover,
+  article a.hmi-cat-card:hover,
+  a.hmi-cat-card:hover,
+  article a.hmi-meth-card:hover,
+  a.hmi-meth-card:hover {
+    transform: none;
   }
 }
