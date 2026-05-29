@@ -216,9 +216,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [953e104](https://github.com/paleofoundation/heavymetalindex/commit/953e104) | 2026-05-28 | audit: cfs2012-hktds-inorganic-arsenic [revised] |
 | [9b9852c](https://github.com/paleofoundation/heavymetalindex/commit/9b9852c) | 2026-05-28 | ingest: cfs2012-hktds-inorganic-arsenic [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
 | [cc8e73b](https://github.com/paleofoundation/heavymetalindex/commit/cc8e73b) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
-| [203d471](https://github.com/paleofoundation/heavymetalindex/commit/203d471) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
 <!-- END: hmi-page-history -->

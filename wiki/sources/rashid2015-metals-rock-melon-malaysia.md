@@ -99,9 +99,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [96dacc3](https://github.com/paleofoundation/heavymetalindex/commit/96dacc3) | 2026-05-20 | audit: rashid2015-metals-rock-melon-malaysia [revised] |
 | [ecdd756](https://github.com/paleofoundation/heavymetalindex/commit/ecdd756) | 2026-05-20 | ingest: rashid2015-metals-rock-melon-malaysia [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
-| [ba9b254](https://github.com/paleofoundation/heavymetalindex/commit/ba9b254) | 2026-05-14 | ingest kimi-cat01: 17 pages from 01_Fruits_and_Fruit_Products, 7 dedup skips |
 <!-- END: hmi-page-history -->

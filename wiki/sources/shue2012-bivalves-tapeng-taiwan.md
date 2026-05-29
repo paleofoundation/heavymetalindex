@@ -145,9 +145,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c6f78d0](https://github.com/paleofoundation/heavymetalindex/commit/c6f78d0) | 2026-05-18 | audit: shue2012-bivalves-tapeng-taiwan revised |
 | [20bb8bb](https://github.com/paleofoundation/heavymetalindex/commit/20bb8bb) | 2026-05-18 | ingest: shue2012-bivalves-tapeng-taiwan enhanced from Papers Cube Manual Fetch |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
-| [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
 <!-- END: hmi-page-history -->

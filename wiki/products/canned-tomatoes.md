@@ -78,9 +78,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [db754c1](https://github.com/paleofoundation/heavymetalindex/commit/db754c1) | 2026-05-28 | autonomy: daemon tick 2026-05-28T15-58-03Z — exit-trap recovery (exit_code=0) |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 | [ae2aec8](https://github.com/paleofoundation/heavymetalindex/commit/ae2aec8) | 2026-05-25 | fill canned-tomatoes synthesis prose |
-| [27d26bb](https://github.com/paleofoundation/heavymetalindex/commit/27d26bb) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-04-41Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

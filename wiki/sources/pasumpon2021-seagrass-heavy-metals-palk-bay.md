@@ -137,6 +137,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2dba7e1](https://github.com/paleofoundation/heavymetalindex/commit/2dba7e1) | 2026-05-18 | audit: pasumpon2021-seagrass-heavy-metals-palk-bay revised |
 | [19c72bc](https://github.com/paleofoundation/heavymetalindex/commit/19c72bc) | 2026-05-18 | ingest: pasumpon2021-seagrass-heavy-metals-palk-bay fresh from Papers Cube Manual Fetch |

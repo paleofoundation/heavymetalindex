@@ -95,9 +95,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [e445bfa](https://github.com/paleofoundation/heavymetalindex/commit/e445bfa) | 2026-05-28 | audit: carpena2024-chemical-hazards-herbs-europe [revised] |
 | [dfa2c0b](https://github.com/paleofoundation/heavymetalindex/commit/dfa2c0b) | 2026-05-28 | ingest: carpena2024-chemical-hazards-herbs-europe [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
-| [99e9ccb](https://github.com/paleofoundation/heavymetalindex/commit/99e9ccb) | 2026-05-14 | ingest kimi-cond05: 21 pages from condiment_papers/05_PB_Vanilla_Spices, 1 image-only FP, 3 skips |
 <!-- END: hmi-page-history -->

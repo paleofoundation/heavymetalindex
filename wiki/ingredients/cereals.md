@@ -223,9 +223,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [c2b716e](https://github.com/paleofoundation/heavymetalindex/commit/c2b716e) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-49-27Z — gap-healing + extraction + pooling + briefings |
 | [f97c3e2](https://github.com/paleofoundation/heavymetalindex/commit/f97c3e2) | 2026-05-18 | autonomy: daemon tick 2026-05-18T03-29-36Z — gap-healing + extraction + pooling + briefings |
-| [d788683](https://github.com/paleofoundation/heavymetalindex/commit/d788683) | 2026-05-17 | autonomy: daemon tick 2026-05-17T16-58-32Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

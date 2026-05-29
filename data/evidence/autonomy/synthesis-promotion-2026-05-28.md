@@ -26,3 +26,17 @@
 - Promoted (drafted + committed): 0
 - Stopped: 0
 - Failed: 0
+
+## Run 2026-05-28T19:34:45.148Z
+
+- Retired (no claude call): 0
+- Archived (already promoted, growth trace preserved): 4
+- Promoted (drafted + committed): 0
+- Stopped: 0
+- Failed: 0
+
+### Archived
+- Mining-impacted freshwater fish as a global Hg contamination driver
+- Spice and cinnamon adulteration as a Pb exposure pathway for infants and toddlers
+- seaweed-cd-as-contamination
+- climate-fish-mehg-projections

@@ -96,9 +96,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fc1b516](https://github.com/paleofoundation/heavymetalindex/commit/fc1b516) | 2026-05-18 | audit: fu2019-heavy-metals-human-metabolism promoted |
 | [d701e83](https://github.com/paleofoundation/heavymetalindex/commit/d701e83) | 2026-05-18 | ingest: fu2019-heavy-metals-human-metabolism enhanced from Papers Cube Manual Fetch |
 | [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
-| [4ff3b02](https://github.com/paleofoundation/heavymetalindex/commit/4ff3b02) | 2026-05-15 | ingest papers-cube-new-tier2: 9 pages (reviews, methods, supply-chain) |
 <!-- END: hmi-page-history -->

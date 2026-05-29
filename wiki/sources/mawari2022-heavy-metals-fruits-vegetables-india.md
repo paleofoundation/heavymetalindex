@@ -122,9 +122,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [760a653](https://github.com/paleofoundation/heavymetalindex/commit/760a653) | 2026-05-20 | audit: mawari2022-heavy-metals-fruits-vegetables-india [revised] |
 | [3b128b9](https://github.com/paleofoundation/heavymetalindex/commit/3b128b9) | 2026-05-20 | ingest: mawari2022-heavy-metals-fruits-vegetables-india [enhanced] from Manual Fetch Kimi /01_Fruits_and_Fruit_Products |
 | [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
-| [7c3dcee](https://github.com/paleofoundation/heavymetalindex/commit/7c3dcee) | 2026-05-13 | ingest p4-batch15-g2: 8 pages, 42 FP |
 <!-- END: hmi-page-history -->

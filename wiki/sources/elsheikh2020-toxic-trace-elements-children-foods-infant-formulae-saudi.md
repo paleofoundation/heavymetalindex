@@ -119,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
 | [74a1533](https://github.com/paleofoundation/heavymetalindex/commit/74a1533) | 2026-05-16 | reverse-route: backfill products from matrices for 154 sources |
 | [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
-| [a1874a9](https://github.com/paleofoundation/heavymetalindex/commit/a1874a9) | 2026-05-09 | ingest: elsheikh2020 — Saudi infant formula + children's foods (n=57; high-Al outliers flagged for follow-up) |
 <!-- END: hmi-page-history -->

@@ -70,9 +70,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [23e1355](https://github.com/paleofoundation/heavymetalindex/commit/23e1355) | 2026-05-17 | firewall: Exception 2 carve-out for scientific-method vendor names |
 | [018ad5c](https://github.com/paleofoundation/heavymetalindex/commit/018ad5c) | 2026-05-17 | audit: strict brand firewall residual cleanup |
 | [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
-| [472d023](https://github.com/paleofoundation/heavymetalindex/commit/472d023) | 2026-05-14 | overnight catch-up: kimi-cond02/02b/03 ingest + ingredient profile synthesis + routing triage tooling |
 <!-- END: hmi-page-history -->

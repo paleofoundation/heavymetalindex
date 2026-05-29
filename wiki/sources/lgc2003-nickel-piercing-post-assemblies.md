@@ -189,9 +189,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fb438d1](https://github.com/paleofoundation/heavymetalindex/commit/fb438d1) | 2026-05-17 | audit-cleanup: mark 10 gov sources no_doi_assigned (top of frontmatter) + 33 reverse-routes + audit refresh |
 | [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
 | [a31e398](https://github.com/paleofoundation/heavymetalindex/commit/a31e398) | 2026-05-11 | schema: tier-classification audit per CLAUDE.md Part 13 strict reading; IandC at-bar count 13 -> 16 |
-| [35055e4](https://github.com/paleofoundation/heavymetalindex/commit/35055e4) | 2026-05-04 | lint 2026-05-04: file broad lint report; close items 1-4 (stale-pending fixes, fera2014 cite-key   migration across 65 files, raw/ wikilink anti-pattern conversions, testing/icp-ms page stand-up) |
 <!-- END: hmi-page-history -->

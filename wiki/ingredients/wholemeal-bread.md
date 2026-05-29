@@ -172,9 +172,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [fe6ad96](https://github.com/paleofoundation/heavymetalindex/commit/fe6ad96) | 2026-05-17 | synthesis: overnight wiki refresh + routing_unresolved cleared to 0 + detector extension |
 | [ce0ecb2](https://github.com/paleofoundation/heavymetalindex/commit/ce0ecb2) | 2026-05-16 | sync source counts from live source-page references |
 | [1989151](https://github.com/paleofoundation/heavymetalindex/commit/1989151) | 2026-05-13 | profiles: populate contamination_profile values on 17 ingredient pages (batch 7/7) |
-| [e01e534](https://github.com/paleofoundation/heavymetalindex/commit/e01e534) | 2026-05-13 | pages: draft missing mandatory sections on 29 ingredient pages (potato-chips → yogurt) |
 <!-- END: hmi-page-history -->

@@ -106,9 +106,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [12120a9](https://github.com/paleofoundation/heavymetalindex/commit/12120a9) | 2026-05-18 | audit: rashmi2020-baby-talcum-powder-heavy-metals-india revised |
 | [1b242f5](https://github.com/paleofoundation/heavymetalindex/commit/1b242f5) | 2026-05-18 | ingest: rashmi2020-baby-talcum-powder-heavy-metals-india enhanced from Manual Fetch Kimi/Children Personal Care Papers/babycare_04_Shampoo_Wipes_Sunscreen |
 | [4a84eb1](https://github.com/paleofoundation/heavymetalindex/commit/4a84eb1) | 2026-05-17 | doi-recovery: replace 141 Scholar fallback URLs with real DOIs and venue URLs |
-| [6b92f2b](https://github.com/paleofoundation/heavymetalindex/commit/6b92f2b) | 2026-05-14 | sources: Cat 2 seed — baby talcum powder + Cat 2 master + baby-talcum-powder row |
 <!-- END: hmi-page-history -->

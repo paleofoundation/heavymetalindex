@@ -73,9 +73,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [45851a9](https://github.com/paleofoundation/heavymetalindex/commit/45851a9) | 2026-05-17 | reverse-route: backfill products from matrices for 19 sources (running total: 19) |
 | [8365d7c](https://github.com/paleofoundation/heavymetalindex/commit/8365d7c) | 2026-05-13 | provenance: DOI audit cleanup + corpus counter refresh |
 | [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
-| [1e477bf](https://github.com/paleofoundation/heavymetalindex/commit/1e477bf) | 2026-05-12 | operating: add seasonal/geographic variance initiative + drop folder |
 <!-- END: hmi-page-history -->

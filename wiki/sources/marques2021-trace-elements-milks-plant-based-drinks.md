@@ -70,9 +70,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [b581b4b](https://github.com/paleofoundation/heavymetalindex/commit/b581b4b) | 2026-05-12 | triage: real-action subprocess trial — routing-unresolved 256 → 37 |
 | [20add89](https://github.com/paleofoundation/heavymetalindex/commit/20add89) | 2026-05-08 | schema: drop ## TL;DR heading from source pages and Part 6 template (6 pages cleaned) |
 | [e9ee7e6](https://github.com/paleofoundation/heavymetalindex/commit/e9ee7e6) | 2026-05-07 | Clear formula P0 route-fit blockers |
-| [48511e9](https://github.com/paleofoundation/heavymetalindex/commit/48511e9) | 2026-05-02 | Add Category 5 plant milk comparison layer |
 <!-- END: hmi-page-history -->

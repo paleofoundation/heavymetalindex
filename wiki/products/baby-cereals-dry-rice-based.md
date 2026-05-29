@@ -371,9 +371,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 | [6dcb44d](https://github.com/paleofoundation/heavymetalindex/commit/6dcb44d) | 2026-05-19 | autonomy: daemon tick 2026-05-18T21-04-04Z — gap-healing + extraction + pooling + briefings |
 | [25004dc](https://github.com/paleofoundation/heavymetalindex/commit/25004dc) | 2026-05-18 | checkpoint: daemon + generator accumulated outputs (synthesis writer, marker regen, briefings) |
-| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
 <!-- END: hmi-page-history -->

@@ -108,9 +108,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2763e1f](https://github.com/paleofoundation/heavymetalindex/commit/2763e1f) | 2026-05-18 | dedup: jitareanu2025-heavy-metals-cosmetics-overview babycare_04 near_duplicate |
 | [ec0d841](https://github.com/paleofoundation/heavymetalindex/commit/ec0d841) | 2026-05-18 | ingest: jitareanu2025-heavy-metals-cosmetics-overview duplicate-skip from Manual Fetch Kimi/Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper |
 | [65a3f9f](https://github.com/paleofoundation/heavymetalindex/commit/65a3f9f) | 2026-05-17 | audit (codex): jitareanu2025 cosmetics revised |
-| [5c1735b](https://github.com/paleofoundation/heavymetalindex/commit/5c1735b) | 2026-05-17 | audit: jitareanu2025-heavy-metals-cosmetics-overview promoted-with-refinements |
 <!-- END: hmi-page-history -->

@@ -112,9 +112,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [222c028](https://github.com/paleofoundation/heavymetalindex/commit/222c028) | 2026-05-19 | audit queue fire batch 1: 10 source pages |
 | [c16c786](https://github.com/paleofoundation/heavymetalindex/commit/c16c786) | 2026-05-18 | ingest (codex): altalib2025 frozen meat libya merge-enhance |
 | [c68f79d](https://github.com/paleofoundation/heavymetalindex/commit/c68f79d) | 2026-05-17 | reverse-route: backfill products from matrices for 50 sources (running total: 50) |
-| [fd884aa](https://github.com/paleofoundation/heavymetalindex/commit/fd884aa) | 2026-05-13 | ingest kimi-cat04: 17 pages from 04_Meat_Poultry_Seafood, 1 dup skipped, 1 bad PDF flagged |
 <!-- END: hmi-page-history -->

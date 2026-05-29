@@ -98,9 +98,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [08e6d78](https://github.com/paleofoundation/heavymetalindex/commit/08e6d78) | 2026-05-17 | audit: oehha2000-appendix-f-dermal-uptake-soil revised |
 | [d54ed1e](https://github.com/paleofoundation/heavymetalindex/commit/d54ed1e) | 2026-05-17 | audit (codex): oehha2000 dermal uptake revised |
 | [d788683](https://github.com/paleofoundation/heavymetalindex/commit/d788683) | 2026-05-17 | autonomy: daemon tick 2026-05-17T16-58-32Z — gap-healing + extraction + pooling + briefings |
-| [78c95c2](https://github.com/paleofoundation/heavymetalindex/commit/78c95c2) | 2026-05-17 | ingest: oehha2000-appendix-f-dermal-uptake-soil enhanced from MFK/Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways |
 <!-- END: hmi-page-history -->

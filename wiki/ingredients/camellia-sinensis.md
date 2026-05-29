@@ -202,9 +202,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [8a699bd](https://github.com/paleofoundation/heavymetalindex/commit/8a699bd) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-44-44Z — gap-healing + extraction + pooling + briefings |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [eddfdfb](https://github.com/paleofoundation/heavymetalindex/commit/eddfdfb) | 2026-05-17 | synthesis: 5 high-traffic ingredient pages — black-pepper, bread, coffee, camellia-sinensis, matcha-powder |
-| [e3c860e](https://github.com/paleofoundation/heavymetalindex/commit/e3c860e) | 2026-05-17 | sections: autofill 76 ingredient + 6 product pages missing mandatory H2 structure |
 <!-- END: hmi-page-history -->
