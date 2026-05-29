@@ -14,8 +14,8 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Survey of Aluminium Content of Processed Food Using Baking Powder (2015-2016).pdf"
 raw_sha256: "6f74f4a2ab52ffe079fd5d4c25dc2da8442276a30347d3166040734848004a1f"
 metals: [Al]
-ingredients: ["[[ingredients/baking-powder]]", "[[ingredients/wheat-flour]]"]
-products: ["[[products/confectionery]]", "[[products/bakery]]", "[[products/snacks-crackers-biscuits]]"]
+ingredients: []
+products: ["[[products/bread-and-baked-goods]]", "[[products/snacks-crackers-biscuits]]"]
 matrices: [confectionery, bakery-products, flour-processed-foods, powder-mix]
 jurisdictions: [JP]
 near_duplicates: []
@@ -63,11 +63,8 @@ For app work the presence of baking powder, alum, potassium alum, or aluminium-p
 
 ## Wiki pages this source may touch
 
-- [[ingredients/baking-powder]]
-- [[ingredients/wheat-flour]]
 - [[metals/aluminum]]
-- [[products/confectionery]]
-- [[products/bakery]]
+- [[products/bread-and-baked-goods]]
 - [[products/snacks-crackers-biscuits]]
 
 ## Verification notes
@@ -87,6 +84,17 @@ For app work the presence of baking powder, alum, potassium alum, or aluminium-p
   - Methods section expanded to name the digester (Milestone General ETHOS One), the HNO3 vendor (Wako Pure Chemical Industries), the standard vendor (Kanto Chemical), and the specific MHLW guideline citation (Shokuan-Hatsu 0926001 of 2008). These are scientific-method vendor names (Part 12 Exception 2), not contamination-value brand attributions.
   - Key numbers expanded with the within-confectionery sub-class breakdown (Japanese 56% vs non-Japanese 14%), the full 2009 → 2011–2014 → 2015–2016 trend percentages, the 4 PTWI-exceeding-at-1-serving samples with per-piece weights, the 5 PTWI-approaching samples, the China per-class limits the authors cite, and the source-author's worked example of a 0.1 mg/g Al use cap.
 - 2026-05-29 retained: `cite_key`, `doi`, all measured Al values, `metals: [Al]`, `matrices`, `jurisdictions: [JP]`, `sample_n: 123`, `evidence_tier: A`. The `<!-- BEGIN: hmi-page-history -->` block at the bottom is generator-owned and not edited.
+- 2026-05-29 audit-application (subagent verdict REVISE; 5 ✅, 2 ⚠️ on Check 1/2, 0 ❌ on Checks 3-5; verified against PDF and applied):
+  - Applied: `products: ["[[products/confectionery]]", "[[products/bakery]]", "[[products/snacks-crackers-biscuits]]"]` → `products: ["[[products/bread-and-baked-goods]]", "[[products/snacks-crackers-biscuits]]"]`. Verified taxonomy snapshot (`docs/gpt-collaboration/taxonomy-snapshot.md` Products list): `bread-and-baked-goods` and `snacks-crackers-biscuits` exist; `confectionery` and `bakery` do not. `bread-and-baked-goods` is the umbrella that covers the source's bakery group (corn dog, meat bun, nan, paratha, steamed bread, tortilla), Japanese/Western/Chinese confectionery (cakes, cookies, manju, imagawayaki, dorayaki, brownies, crepes, waffles), and flour-processed foods (chijimi, okonomiyaki, takoyaki). `snacks-crackers-biscuits` retained for the biscuits/crackers/snack-food subset.
+  - Applied: `ingredients: ["[[ingredients/baking-powder]]", "[[ingredients/wheat-flour]]"]` → `ingredients: []`. Verified taxonomy snapshot Ingredients list: neither `baking-powder` nor `wheat-flour` exists. Closest in-vocab alternatives (`flavoring`, `wheat`) would misrepresent the contamination story — the paper's Al source is the alum food-additive in baking powder, not wheat. Per verification-checklist Section 3: "Invented slugs → either correct to the right existing slug or set the field to `[]` and add to the verification notes for Karen."
+  - Missing-slug proposals for Karen (Part 10 page-creation decisions, not auto-created during ingest):
+    - `ingredients/baking-powder` — recurring contamination-vector ingredient (the alum/aluminium-potassium-sulfate food-additive class). Only freq-1 in the corpus currently (this source); below the 5-paper Part-10 threshold. Could be added as alias on a future `ingredients/food-additives` parent or as its own page once additional alum/baking-powder studies enter the corpus.
+    - `ingredients/wheat-flour` — substrate for several products in this study but not the contamination vector. Defer; `ingredients/wheat` already exists if a substrate link is needed later.
+    - `products/confectionery` — would have grouped Japanese/Western/Chinese confectionery cleanly; the current `bread-and-baked-goods` umbrella works but is broad. Surface for Karen Step 0 Lock decision on whether confectionery warrants its own HMTc category row.
+    - `products/bakery` — duplicates `bread-and-baked-goods`; no separate page needed.
+    - `regulations/jecfa-al-ptwi-2011` — JECFA-74 (2011) PTWI revision from 1 to 2 mg/kg bw/week is one of the load-bearing regulatory references in the Al literature; warrants its own page. The closest existing page (`regulations/efsa-aluminium-twi`) is the EFSA TWI, a different jurisdiction's value.
+  - Noted, not changed: Check 1 ⚠️ on "deep-fried bread" categorization. Auditor noted that "deep-fried bread" is grouped under Chinese confectionery in the source Table 1, not bakery or flour-processed-foods. The wiki page does not miscategorize the product anywhere — the Highest-values bullet attributes deep-fried-bread-1 by name, country-of-origin, and labelling status without group-level classification, and the PTWI-exceedance arithmetic is correct. No edit needed.
+  - Noted, not changed: Check 2 ⚠️ on `matrices: [confectionery, bakery-products, flour-processed-foods, powder-mix]`. Only `confectionery` is in `data/evidence/matrix-to-product-map.json` (maps to `snacks-crackers-biscuits`, medium confidence). The other three are source-derived group labels not in the matrices controlled vocabulary. Retained as-is: they preserve the source's own four-group structure faithfully and surface in `matrix-mapping-unmapped.csv` for Karen's vocabulary-expansion decision, rather than being silently dropped. Karen-review item for whether to (a) expand the matrices vocabulary, (b) leave matrices empty when no controlled term fits, or (c) coerce to the nearest controlled term (which would lose the source's group structure).
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
