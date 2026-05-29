@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-28T18:16:21.985Z
+updated: 2026-05-29T07:19:06.376Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 138 min ago (stale) |
-| auto-fetched/ PDFs in queue | 221 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 121 min ago (stale) |
+| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 5 ✅ |
-| Audit queue: pending-audit-spawn-failed | 33 (async lane) |
-| Wishlist: total downloaded historically | 99 |
-| Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 17 commit(s) ahead of origin/main |
-| Commits last 1 hour | 14 |
-| Commits last 24 hours | 122 |
+| Audit queue: pending-audit-spawn-failed | 52 (async lane) |
+| Wishlist: total downloaded historically | 3 |
+| Wishlist: total ingested historically | 52 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 31 |
+| Commits last 24 hours | 202 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-8a9715c 5 seconds ago — audit-queue: tinggi2025-spices-herbs-queensland audited-revised
+844d89b 83 seconds ago — codex sprint 2026-05-29 0000: tracker and audit queue updates
 ```
 
 ## How to read this
