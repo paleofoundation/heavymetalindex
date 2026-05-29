@@ -13,16 +13,16 @@ license: "CC BY"
 raw_path: "raw/Manual Resourcing/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf"
 metals: [Ni]
 ingredients: ["[[ingredients/beans]]", "[[ingredients/legumes]]", "[[ingredients/meat]]", "[[ingredients/meat-and-poultry]]", "[[ingredients/vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/fruits]]", "[[ingredients/cereals]]", "[[ingredients/seafood]]", "[[ingredients/freshwater-fish]]", "[[ingredients/shellfish]]", "[[ingredients/molluscs]]"]
-products: ["[[products/canned-fish]]"]
+products: ["[[products/canned-fish]]", "[[products/processed-meats]]"]
 matrices: [whole-food, dietary-intake]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: 2628
-sample_population: "Zhejiang Province residents, 11 cities, 2018–2019; n=19,000 in consumption survey"
+sample_population: "Zhejiang Province residents; 2628 food samples collected 2018–2019 across 11 cities; food consumption data from a survey of ~19,000 individuals conducted 2014–2017."
 wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-14
+sampling_locations: ["Zhejiang Province, China (11 cities)"]
+sampling_year_range: "2018–2019 (food sampling); 2014–2017 (consumption survey)"
+updated: 2026-05-29
 ingest_method: autonomy_phase1_v0
 created_by: autonomy_v0
 ---
@@ -61,15 +61,18 @@ This study quantifies nickel concentrations across six food categories in Zhejia
 | Cereal products | 27 | 0.025–0.696 | 0.136 | 0.102 | 0.302 | 100% | 0% |
 | Fruits | 136 | 0.004–0.75 | 0.097 | 0.059 | 0.293 | 100% | 0% |
 
-Sampling: 11 cities, 2018–2019, multistage random; 5 categories sampled at field/market/online stages. Body weights and daily intakes by age group for consumption modelling are tabulated below.
+Sampling: 11 cities in Zhejiang Province, 2018–2019, multistage random sampling at the breeding/acquisition (field) and intermediate (market, store, online commercial) stages. Sample counts by category: beans n=5, aquatic food and products n=1404 (paper text; Table 1 totals 1405), meat and products n=691 (paper text; Table 1 totals 690), vegetables and vegetable products n=392 (paper text; Table 1 totals 365), cereal products n=27, fruits n=145 (paper text; Table 1 lists 136). Body weights by age group from the consumption survey:
 
-| Age group | Body weight (kg) | Notes |
-|---|---:|---|
-| 0–6 years | 18.988 | n=4173 of 19,000 (16.60%) population subset |
-| 7–10 years | 35.233 | |
-| 11–17 years | 61.639 | |
-| 18–59 years | 60.170 | 70.14% of survey |
-| ≥60 years | 52.652 | 13.26% of survey |
+| Age group | Body weight (kg) |
+|---|---:|
+| 0–6 years | 18.988 |
+| 7–10 years | 35.233 |
+| 11–17 years | 61.639 |
+| 18–59 years | 60.170 |
+| ≥60 years | 52.652 |
+| All ages | 56.911 |
+
+Population census shares reported for the consumption survey (three-bucket grouping): 16.60% aged 0–14, 70.14% aged 15–59, and 13.26% aged ≥60.
 
 Daily Ni intake (µg/kg-bw/d), Mode D (P95 concentration × P95 consumption), by age group:
 
@@ -81,38 +84,54 @@ Daily Ni intake (µg/kg-bw/d), Mode D (P95 concentration × P95 consumption), by
 | 18–59 years | 9.923 | 0.496 |
 | ≥60 years | 11.4 | 0.57 |
 
-Beans and vegetables/vegetable-products were the main sources of dietary Ni exposure (>50% of total for low-consumption modes A and C; vegetables dominate in high-consumption modes B and D). USEPA reference dose used: 20 µg/kg-bw/d.
+Beans and vegetables/vegetable-products were the main sources of dietary Ni exposure (>50% of total for low-consumption modes A and C); vegetables dominate in high-consumption modes B and D. USEPA reference dose used: 20 µg/kg-bw/d. The paper also references the EFSA Tolerable Daily Intake of 13 µg/kg-bw (later revised from the 2015 value of 2.8 µg/kg) as a comparator; the 0–6 Mode D total intake of 21.57 µg/kg-bw/d exceeds both reference values.
 
-## Methods
+## Methods (brief)
 
-Inductively Coupled Plasma Mass Spectrometry (NexION 300D, PerkinElmer) on samples microwave-digested with nitric acid (6–8 mL) and hydrogen peroxide (1 mL) per the Mars-6 microwave program (120°C/150°C/190°C three-step). Sample mass 0.5 g, final volume 25 mL. LOD: 3.5 µg/kg for vegetables and fruits, 3.0 µg/kg for other matrices. Samples below LOD set to ½ LOD. Quality control: one QC sample per ten samples, certified reference materials, standard addition recovery. Total nickel only — no speciation between Ni(II) and Ni(0) or Ni carbonyls.
+Inductively Coupled Plasma Mass Spectrometry on a NexION 300D ICP-MS (PerkinElmer, Waltham, MA, USA) equipped with a concentric nebulizer and collision reaction cell. Samples (0.5 g) were microwave-digested in nitric acid (6–8 mL; chromatographic purity, Merck, Darmstadt, Germany) with hydrogen peroxide (1 mL) added for hard-to-digest matrices in a Mars-6 microwave digestion system (CEM, Charlotte, NC, USA), following a three-step program (Step 1: 120 °C, 5 min ramp + 5 min isothermal; Step 2: 150 °C, 5 min ramp + 10 min isothermal; Step 3: 190 °C, 5 min ramp + 25 min isothermal). Digested solution was diluted to 25 mL with ultrapure water. A Ni standard stock and tuning solution (Li, Y, Ce, Tl, Co; 10 ng/mL) were sourced from CNW Technologies GmbH (Düsseldorf, Germany). LOD: 3.5 µg/kg for vegetables and fruits, 3.0 µg/kg for other matrices. Samples below LOD set to ½ LOD. Quality control: one QC sample per ten samples; certified reference materials; standard-addition recovery. Total nickel only — no speciation between Ni(II), Ni(0), or Ni carbonyls (metals tag: Ni).
 
-Risk assessment used USEPA target hazard quotient method (THQ = EDI / RfD; RfD = 20 µg/kg-bw/d). Four consumption modes A–D corresponding to median/P95 combinations of concentration × consumption. Statistical analyses: chi-squared test for detection/overstandard rates; Anderson-Darling normality test; Wilcoxon rank-sum test for skewed distributions.
+Risk assessment used the USEPA target hazard quotient method (EDI = C × D × T / BW; HQ = EDI / RfD; RfD = 20 µg/kg-bw/d). Cumulative risk across food categories was expressed as THQ = ΣHQ. Four consumption modes A–D corresponded to median/P95 combinations of concentration × consumption (A: P50×P50; B: P50×P95; C: P95×P50; D: P95×P95). Statistical analyses: chi-squared test for detection/overstandard rates; Anderson–Darling normality test; Wilcoxon rank-sum test for skewed distributions. Analyses performed in Excel and R 4.2.2.
 
 ## Implications
 
-Certification: Beans are a high-Ni outlier among Chinese food categories — all five sampled bean species exceeded the GB 2762-2022 1 mg/kg national standard. Canned fish (13.41% overstandard rate, P95 1.539 mg/kg) and shellfish (12% overstandard, P95 1.279 mg/kg) are the other concentrated Ni vectors. HMTc Ni thresholds for legumes, canned fish, and shellfish should anchor on these distributions; for fresh leafy vegetables and fruits the same dataset supports tight thresholds well below the 1 mg/kg national standard. The Cat 1 infant/child food pages should incorporate the 0–6 year THQ finding (1.078) as evidence that Ni cumulative exposure crosses the safety threshold for the youngest population segment under realistic consumption modes.
+Certification: Beans are a high-Ni outlier among the food categories sampled in this study — all five sampled bean samples (one soybean, two mung bean, two ormosia) exceeded the GB 2762-2022 1 mg/kg national standard, though the very small n (5) limits the strength of inference for the bean category as a whole. Within the larger aquatic food sample (n=1405), canned fish (n=82; 13.41% overstandard rate, P95 1.539 mg/kg) and shellfish (n=50; 12% overstandard, P95 1.279 mg/kg) were the highest-Ni sub-categories. This dataset contributes occurrence and exposure data for legumes, canned fish, shellfish, and processed meats relevant to Cat 1 (infant/child foods) Ni exposure modelling, including the finding that the 0–6 year THQ under high-concentration / high-consumption assumptions (Mode D) was 1.078, the only age group exceeding the HQ=1 threshold in any consumption mode.
 
-Courses: This paper is a clean teaching example of how ICP-MS dietary-intake studies combine concentration data with consumption surveys to produce age-stratified exposure estimates, and how the THQ method aggregates risk across food categories.
+Courses: This paper illustrates how ICP-MS occurrence data combine with consumption surveys to produce age-stratified dietary exposure estimates, and how the THQ method aggregates risk across multiple food categories. It is also a useful teaching example of internal-discrepancy hygiene — Section 3.1 text totals (n=1404 aquatic, n=691 meat, n=392 vegetables, n=145 fruits) differ from Table 1 totals (1405, 690, 365, 136); the wiki preserves both with the discrepancy noted.
 
-App: Beans, canned fish, and shellfish contribute disproportionately to per-serving Ni risk relative to their consumption frequency. The app's per-ingredient Ni risk scoring for Chinese-market or East-Asian-dietary contexts should weight these three categories higher than the average.
+App: Beans, canned fish, and shellfish contribute disproportionately to per-serving Ni in this Zhejiang Province sample. Per-ingredient Ni occurrence inputs for East-Asian dietary contexts can draw on the P50/P95 values reported here, subject to the small bean n.
 
 Microbiome: Not applicable — paper does not address gut microbiome effects of Ni exposure.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/nickel]]
 - [[ingredients/beans]]
 - [[ingredients/legumes]]
+- [[ingredients/vegetables]]
+- [[ingredients/non-root-vegetables]]
 - [[ingredients/leafy-vegetables]]
 - [[ingredients/cereals]]
 - [[ingredients/fruits]]
 - [[ingredients/meat]]
+- [[ingredients/meat-and-poultry]]
+- [[ingredients/seafood]]
 - [[ingredients/freshwater-fish]]
 - [[ingredients/shellfish]]
 - [[ingredients/molluscs]]
 - [[products/canned-fish]]
-- [[regulations/china-gb-2762-2022]]
+- [[products/processed-meats]]
+- [[regulations/china-gb-2762-2022-contaminants]]
+
+## Verification notes
+
+- 2026-05-29: Manual-fetch re-ingest pass against the source PDF (`raw/Manual Resourcing/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf`). Page was originally created 2026-05-14 by autonomy_phase1_v0; this pass enhances per the v2 manual-fetch skill. Changes:
+  - Body-weight table previously carried a misattributed annotation ("n=4173 of 19,000 (16.60%) population subset" against 0–6 years; "70.14% of survey" against 18–59; "13.26% of survey" against ≥60). Per p. 4 of the source, the 16.60% / 70.14% / 13.26% shares describe the three-bucket population census grouping (0–14, 15–59, ≥60), not the five-bucket consumption-survey grouping used in Tables 2–4. The misattributed annotations were removed and a correctly attributed sentence about the three-bucket grouping added below the body-weight table.
+  - Methods section rewritten to "## Methods (brief)" per current Part 6 template, with instrument vendor/model, digestion vendor/model, reagent vendor, tuning solution vendor, USEPA EDI/HQ/THQ equation forms, and Mode A–D definitions made explicit. Vendor/material names retained per Part 12 Exception 2 (scientific-method vendor names are not brand-firewall violations).
+  - Implications section softened: removed prescriptive language ("HMTc Ni thresholds … should anchor on these distributions") in favour of contribution-framed wording ("contributes occurrence and exposure data … relevant to Cat 1 modelling") per Part 2 wiki/HMTc firewall.
+  - Sample-size discrepancy between paper text (Section 3.1) and Table 1 was preserved with both totals shown, since the source itself is internally inconsistent (n=1404 vs 1405 aquatic; n=691 vs 690 meat; n=392 vs 365 vegetables; n=145 vs 136 fruits). Key numbers table uses Table 1 values throughout (the more granular source).
+  - `products: ["[[products/processed-meats]]"]` added — sausages (n=316), Chinese bacon (n=296), and "other meat product" (n=7) all map to the existing `wiki/products/processed-meats.md` page; the paper's "Meat and products" category is processed meat. Canned-fish product already declared.
+  - Frontmatter `sampling_locations` populated and `sampling_year_range` filled in. `raw_handle`, `cite_key`, `raw_path`, `license`, `doi`, `near_duplicates` preserved.
+- Source-internal inconsistency on age-bucket labelling: p. 5 of the paper says respondents were classified into five groups "0–6, 6–13, 11–17, 18–59, and ≥60 years" (overlapping at 6 and 11), but Tables 2, 3, and 4 use non-overlapping groups 0–6, 7–10, 11–17, 18–59, ≥60. The wiki follows the table groupings since all numerical attributions are tied to the tables.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
