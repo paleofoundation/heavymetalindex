@@ -51,7 +51,7 @@ The paper develops a relativized THg-estimation framework that accounts for fish
 - Foraging guilds (5): piscivore, generalist, generalist invertivore, benthivore, planktivore
 
 **THg distribution**:
-- Range: 0.001 to 28.54 µg/g ww (5 orders of magnitude)
+- Range: 0.001 to 28.54 µg/g ww (~4.5 orders of magnitude)
 - Geometric mean (all fish, all sites): 0.170 ± 0.001 µg/g ww (very narrow SE on n=96K)
 - Site-specific geometric mean range: 0.006 to 2.98 µg/g ww (average across sites 0.124 ± 0.002)
 - HUC-8 watershed least-squares mean range (relativized for species, length, site, year): 0.011 to 1.45 µg/g ww
@@ -86,25 +86,25 @@ Speciation: THg in fish muscle is ≥95% MeHg per established literature (Bloom 
 
 ## Implications
 
-Certification: For HMTc Cat 1 fish-containing baby foods row + the broader fish-and-seafood row family:
+What the literature documents (this paper specifically):
 
-1. **The Western US/Canada freshwater-fish dataset is the largest single Hg-in-fish-tissue evidence base ingested into the wiki to date**. The 30% / 17% / 3.9% exceedance fractions are key reference points for HMTc threshold-setting on the fish row, with the explicit caveat that the FDA 1.0 µg/g action level is for COMMERCIAL seafood and the EPA 0.30 µg/g criterion is the relevant standard for individual-consumption health protection.
+1. **The Western US/Canada freshwater-fish dataset is the largest single Hg-in-fish-tissue evidence base ingested into the wiki to date.** The 30% / 17% / 3.9% exceedance fractions against the EPA Fish Tissue Residue Criterion (0.30 µg/g ww MeHg, set by Borum et al. 2001 to protect noncommercial-fish-consuming humans) and the FDA action level (1.0 µg/g ww commercial seafood) are documented in PDF §3.1. The two thresholds serve different purposes per the source: the EPA criterion targets individual-consumption health protection; the FDA action level governs commercial-seafood marketability.
 
-2. **MeHg ≈ THg in fish muscle** is the working assumption for HMTc threshold-derivation, consistent with EPA practice. Sources that report whole-body or visceral THg cannot be used as MeHg proxies at the same conversion factor; the methodology supplement (per CLAUDE.md Part 14 speciation rule) should flag this.
+2. **MeHg ≈ THg in fish muscle** is the paper's working assumption (PDF "Methods"/Speciation, citing Bloom 1992), where THg in muscle is ≥95% MeHg. The paper explicitly notes the proxy does not hold for whole-body, liver, or visceral tissues where MeHg/THg ratios are lower.
 
-3. **The lack of correlation between sediment Hg and fish Hg** at the watershed scale is methodologically important: HMTc certification cannot use sediment-Hg measurements as a supplier-screening proxy for fish-product Hg. Supplier audits must measure fish-tissue directly.
+3. **Sediment THg is a poor predictor of fish THg at the HUC-8 watershed scale** (uncorrelated, p=0.07, N=418 paired HUCs), while sediment MeHg is weakly correlated (p=0.0005, N=216) — per PDF §3.4. The paper interprets this to mean factors governing microbial Hg methylation (sulfate, dissolved organic carbon, redox conditions, microbial community structure) drive fish-Hg more than inorganic-Hg loading does.
 
-4. **Ecoregion effect dominates**: HMTc Cat 1 fish thresholds for products sourced from semi-arid/arid Western regions (Great Basin, Desert SW) should anticipate higher tail-of-distribution Hg than products from temperate Pacific Northwest sources. The synthesis paper explicitly demonstrates this ecoregion-level heterogeneity.
+4. **Ecoregion is the largest single regional source of variation in fish THg.** Semi-arid and arid ecoregions (Great Basin, Desert Southwest) show consistently higher fish THg than temperate forests, per PDF §3.4 and the relativized HUC-8 quintile map (Fig. 4).
 
-5. **Piscivore species (e.g., largemouth bass, walleye, lake trout) carry the highest fish-Hg burdens via biomagnification**; the lower trophic-level species (e.g., bottom feeders, planktivores) carry lower burdens. HMTc Cat 1 fish-containing baby food should preferentially source from lower-trophic-level fish to control MeHg exposure.
+5. **Piscivores carry the highest fish-Hg burdens via biomagnification** (e.g., Sauger, Northern Pikeminnow, Walleye, White Bass, Striped Bass, Northern Pike, Lake Trout, Smallmouth Bass, Largemouth Bass, Whiterock Bass — top 10 LS-mean species per PDF §3.2 Fig. 2). Lowest LS-mean concentrations are in Broad Whitefish, Pumpkinseed, Dolly Varden, Mountain Whitefish, Tui Chub, Brook Trout, Coho Salmon, Redside Shiner, Rainbow Trout, and Slimy Sculpin — generally planktivores, invertivores, and generalists.
 
-6. **Children's exposure context**: while the dataset is freshwater (sport-caught, subsistence), commercial fish baby food often uses marine species. The Western US ecoregion findings extrapolate cautiously: marine fish food chains have higher overall MeHg loads because of methylation in deep-ocean waters and species-specific bioaccumulation. The Cat 2 master page (children-personal-care isn't the right place — fish-containing baby foods Cat 1 row is) should cross-reference this dataset.
+6. **The dataset is explicitly freshwater-only.** Per PDF §1 final paragraph: "This assessment did not address marine environments or risk to human and wildlife health" — those assessments are in companion papers in the same Sci Tot Env special issue (Ackerman et al. 2016, Davis et al. 2016, Jackson et al. 2016, Lepak et al. 2016). The Eagles-Smith 2016 findings do not directly support claims about marine fish food chains or commercial baby-food fish, which use predominantly marine species; the synthesis page should treat this as freshwater evidence and route marine-fish-Hg synthesis to the companion-paper sources.
 
-Courses: Excellent case study for spatial epidemiology + mixed-effects modeling. The 96,310-record database + 10-ecoregion stratification is the canonical worked example.
+Courses: Excellent case study for spatial epidemiology + mixed-effects modeling. The 96,310-record database + 10-ecoregion Level-1 stratification is a canonical worked example of relativizing biomonitoring data across heterogeneous species/habitat/site/year structure.
 
-App: For the consumer app's per-meal MeHg risk scoring, this dataset establishes that 30% of randomly-sampled Western US freshwater fish meals exceed the EPA criterion. The app's per-species + per-region risk weighting should reflect that ratio.
+App: For the consumer app's per-meal MeHg risk scoring against freshwater wild-caught fish (sport-caught and subsistence), this dataset establishes that 30% of individual fish sampled across the Western US/Canada exceeded the EPA 0.30 µg/g ww criterion. The app should not extrapolate these proportions to commercial marine-fish products without additional evidence.
 
-Microbiome: Not addressed. Coe 2023 (gut microbiome MeHg demethylation) is a complementary reference.
+Microbiome: Not addressed by the paper. The microbial Hg-methylation drivers cited in PDF §1 (Gilmour et al. 1992, 2013; Hall et al. 2008) are upstream of the dataset's scope — a microbiome cross-reference belongs on a synthesis page, not here.
 
 ## Wiki pages updated on ingest
 
@@ -131,6 +131,22 @@ Microbiome: Not addressed. Coe 2023 (gut microbiome MeHg demethylation) is a com
 - **Variance attribution** added: species accounted for 40% and site for 32% of total variance (PDF §3.4 paragraph beginning "Site effects commonly account for...").
 
 No content corrections were applied to claims I could not independently verify against the PDF text I read; the values in the exceedance table (30% / 17% / 3.9% / 34% / 20%) reproduce the PDF §3.1 numbers exactly, as do the species-effect descriptions and the habitat-difference percentages.
+
+2026-05-29 fresh-context audit application (Agent subagent verdict REVISE). Findings independently verified and applied where correct:
+
+- **Audit subagent flagged Implications §3:** the prior version stated "HMTc certification cannot use sediment-Hg measurements as a supplier-screening proxy for fish-product Hg. Supplier audits must measure fish-tissue directly." Verified against PDF §3.4 — the paper documents the sediment-THg-vs-fish-THg decoupling (p=0.07, N=418) and the weak sediment-MeHg correlation (p=0.0005, N=216) but makes no claim about supplier-audit practice. The "supplier audits must measure fish-tissue directly" claim was a Part 2 firewall slip into HMTc-program design. Corrected: §3 now reports the watershed-scale decoupling as the paper documents it, without prescribing HMTc auditor practice.
+
+- **Audit subagent flagged Implications §5:** the prior version stated "HMTc Cat 1 fish-containing baby food should preferentially source from lower-trophic-level fish to control MeHg exposure." Verified against PDF §3.2 — the paper documents species-level biomagnification gradients (top-10 and bottom-10 LS-mean species lists) but makes no sourcing or procurement recommendation. The "should preferentially source from" prescription was a Part 2 firewall slip into HMTc procurement guidance. Corrected: §5 now reports the species LS-mean rankings as the paper documents them, with the actual top-10 and bottom-10 species lists from Fig. 2, without prescribing sourcing strategy.
+
+- **Audit subagent flagged Implications §6:** the prior version stated "marine fish food chains have higher overall MeHg loads because of methylation in deep-ocean waters and species-specific bioaccumulation." Verified against PDF §1 — the paper is explicitly freshwater-only and points to four companion papers in the same special issue for the marine-fish, human-health, and wildlife-health assessments. The "methylation in deep-ocean waters" claim was a cross-source synthesis assertion the source does not make. Corrected: §6 now states the paper's explicit freshwater scope and points to the companion papers as the appropriate evidence base for marine-fish-Hg, rather than asserting marine-fish-MeHg claims this source does not support.
+
+- **Audit subagent flagged Implications §1 framing:** "FDA 1.0 µg/g action level is for COMMERCIAL seafood and the EPA 0.30 µg/g criterion is the relevant standard for individual-consumption health protection." Verified against PDF §3.1 — the paper explicitly attributes the EPA criterion's purpose to protect "the health of humans who eat noncommercial fish" (Borum et al. 2001). The wiki's framing is faithful to the paper's own characterization, but the rewrite tightens the language to describe the two thresholds' distinct purposes per the source, rather than implying one regime is more "relevant" in an absolute sense.
+
+- **Audit subagent flagged the "5 orders of magnitude" framing:** 28.54/0.001 = 28,540, which is ~4.46 orders of magnitude, not strictly 5. Corrected to "~4.5 orders of magnitude" in the THg-distribution Key numbers entry.
+
+- **Audit subagent flagged `matrices: [freshwater-fish, fish-muscle]`** for the controlled-vocabulary check, noting the taxonomy snapshot does not enumerate matrices. Independently checked: `fish-muscle` is the de facto matrix slug used across 8+ existing fish-tissue source pages in the wiki corpus (grep `^matrices:` over `wiki/sources/*.md`). The snapshot's omission of a matrices section is a separate gap in the snapshot, not a defect in this page. Recorded as false positive; no change applied. Refresh of `docs/gpt-collaboration/taxonomy-snapshot.md` to include a Matrices section is a separate task outside the audit scope.
+
+- **Audit subagent gave Check 1 (Numerical fidelity)** ✅ clean on all 18 transcribed values, **Check 3 (Speciation/methods)** ✅ clean, **Check 4 (Part 12 brand firewall)** ✅ clean. The page enters the audited-revised state with all numerical claims verified, all firewall slips corrected, and one documented false positive on the matrices-vocabulary check.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
