@@ -84,7 +84,13 @@ cleanup_on_exit() {
       if acquire_lock "daemon-exit-trap" 10; then
         echo "[$(date -u +"%H:%M:%SZ")] EXIT trap (code=$exit_code): dirty tree detected, attempting recovery commit" | tee -a "$LOG_FILE" >/dev/null 2>&1 || true
         git add -A >/dev/null 2>&1 || true
-        WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: daemon tick $TIMESTAMP — exit-trap recovery (exit_code=$exit_code)" >/dev/null 2>&1 || true
+        # HMI_SKIP_COMMIT_LOCK=1: this trap ALREADY holds the commit lock
+        # (acquire_lock above). Without telling the pre-commit hook to skip
+        # its own acquire, the hook (a child process) would block on the
+        # lock we hold, time out after 60s, and abort this recovery commit.
+        # This self-deadlock was introduced with the commit mutex (a536009)
+        # and silently broke every daemon commit path.
+        HMI_SKIP_COMMIT_LOCK=1 WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: daemon tick $TIMESTAMP — exit-trap recovery (exit_code=$exit_code)" >/dev/null 2>&1 || true
         git push origin "$(git branch --show-current 2>/dev/null || echo main)" >/dev/null 2>&1 || true
         release_lock
       else
@@ -164,7 +170,9 @@ checkpoint_commit() {
   fi
   if acquire_lock "daemon-checkpoint:${label}" 30; then
     git add -A >/dev/null 2>&1 || true
-    if WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: checkpoint [$label] $TIMESTAMP" >/dev/null 2>&1; then
+    # HMI_SKIP_COMMIT_LOCK=1: we hold the lock; stop the pre-commit hook from
+    # self-deadlocking on it (see exit-trap note above).
+    if HMI_SKIP_COMMIT_LOCK=1 WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: checkpoint [$label] $TIMESTAMP" >/dev/null 2>&1; then
       log "checkpoint [$label]: committed"
     else
       log "checkpoint [$label]: nothing to commit"
@@ -244,7 +252,9 @@ if [[ -n "$REAL_DIRTY" ]]; then
   log "$REAL_DIRTY"
   if acquire_lock "daemon-selfheal" 30; then
     git add -A >/dev/null 2>&1 || true
-    WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: self-heal recovery of prior tick's uncommitted work — $TIMESTAMP" 2>&1 | tee -a "$LOG_FILE" || log "self-heal: nothing to commit"
+    # HMI_SKIP_COMMIT_LOCK=1: we hold the lock; stop the pre-commit hook from
+    # self-deadlocking on it (see exit-trap note above).
+    HMI_SKIP_COMMIT_LOCK=1 WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: self-heal recovery of prior tick's uncommitted work — $TIMESTAMP" 2>&1 | tee -a "$LOG_FILE" || log "self-heal: nothing to commit"
     release_lock
   else
     log "Self-heal: could not acquire commit lock; deferring this tick."
@@ -703,7 +713,11 @@ if ! git diff --quiet || ! git diff --cached --quiet; then
     # preflight refuses to run -> the silent stall that produced ZERO clean
     # Step-8 commits in the 2 days before this fix. Same sanctioned rationale
     # as the EXIT-trap recovery commit, which already sets this flag.
-    WIKI_EDIT_AUDIT_SKIP=1 git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
+    # HMI_SKIP_COMMIT_LOCK=1: we hold the lock (acquire_lock above); stop the
+    # pre-commit hook from self-deadlocking on it (see exit-trap note). This
+    # is the second half of the 2026-05-29 fix — without it the hook blocks
+    # 60s and aborts even after the WIKI_EDIT_AUDIT_SKIP barrier is cleared.
+    HMI_SKIP_COMMIT_LOCK=1 WIKI_EDIT_AUDIT_SKIP=1 git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
     release_lock
   else
     log "Commit lock held by another process; deferring commit to next tick"
