@@ -12,81 +12,114 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/The Mercury Concentration in Spice Plants.pdf"
 metals: [tHg]
-ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]", "[[ingredients/fresh-herbs]]"]
+ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]", "[[ingredients/fresh-herbs]]", "[[ingredients/parsley]]"]
 products: ["[[products/spices]]"]
-matrices: [dried-herbs, fresh-herbs, spices]
+matrices: [dried-herbs, spices]
 jurisdictions: [PL, EU]
 near_duplicates: []
 sample_n: 48
-sample_population: "Four leafy spice species (peppermint, basil, lovage, parsley); 28 commercial products from Polish stores; 20 self-grown plants from 5 locations in southern Poland (Śląskie, Małopolskie, Opolskie voivodeships)"
+sample_population: "Four leafy spice species (peppermint Mentha piperita, basil Ocimum basilicum, lovage Levisticum officinale, parsley Petroselinum crispum). Commercial products purchased from Polish stores (n=28; 24 non-organic and 4 organic) and plants grown by consumers in home gardens at five locations in southern Poland (n=20). All samples air-dried and ground before analysis."
 wiki_doi: null
-sampling_locations: []
+sampling_locations: ["Katowice (Śląskie, PL)", "Mysłowice (Śląskie, PL)", "Jastrząb (Śląskie, PL)", "Płoki (Małopolskie, PL)", "Jemielnica (Opolskie, PL)"]
 sampling_year_range: null
-updated: 2026-05-14
+updated: 2026-05-29
 ---
 
 # Fischer and Brodziak-Dopierała 2022 — Mercury in Polish spice plants: commercial vs. home-grown
 
-This study from the Medical University of Silesia measured total mercury (tHg) in 48 samples of four leafy spice species — peppermint (Mentha piperita), common basil (Ocimum basilicum), lovage (Levisticum officinale), and parsley (Petroselinum crispum) — comparing commercially purchased products (n=28, including organic and non-organic) with plants grown independently by consumers in home gardens at five locations in southern Poland (n=20). All values were below the EU maximum level of 0.03 mg/kg (30 µg/kg) for deciduous spice plants. Self-cultivated plants had statistically significantly higher Hg concentrations than commercial products, while organic vs. non-organic commercial products showed no significant difference. Growing location influenced Hg level, with plants from Płoki (Małopolskie voivodeship, near a coal-fired power plant) showing the highest concentrations.
+This Medical University of Silesia study measured total mercury (tHg) in 48 dried leafy-spice samples comprising four species — peppermint (Mentha piperita), common basil (Ocimum basilicum), lovage (Levisticum officinale), and parsley (Petroselinum crispum) — comparing commercially purchased Polish products (n=28; 24 non-organic and 4 producer-certified organic) with plants grown by consumers in home gardens at five locations in southern Poland (n=20). Detection was by cold-vapour AAS on an AMA 254 direct mercury analyzer. All samples were below the EU maximum level of 0.03 mg/kg (30 µg/kg) for mercury in deciduous spice plants. Self-cultivated plants had statistically significantly higher Hg concentrations than commercial products (p < 0.001), while producer-labelled organic vs. non-organic commercial products showed no significant difference. Among home-grown samples, location influenced Hg level, with plants from Płoki (Małopolskie voivodeship, near a coal-fired power plant and closed hard-coal mine) showing the highest concentrations across species.
 
 ## Key numbers
 
-All concentrations in µg/kg (ppb), total Hg:
+All concentrations in µg/kg dry weight, total mercury.
 
 **All samples combined (n=48):**
+
 - Range: 1.20–17.35 µg/kg
-- Mean: 6.95 µg/kg; median: 6.17 µg/kg; IQR: 4.58–8.83 µg/kg
+- Mean ± SD: 6.95 ± 3.70 µg/kg
+- Median (Q1–Q3): 6.17 (4.58–8.83) µg/kg
 
-**By species:**
-- Peppermint (n=10): mean 9.39 ± 5.83 µg/kg; median 9.58 µg/kg; range highest standard deviation, indicating high variability
-- Parsley (n=12): mean 6.72 ± 2.39 µg/kg; median 6.40 µg/kg
-- Basil (n=15): mean 6.19 ± 2.08 µg/kg; median 5.52 µg/kg
-- Lovage (n=11): mean 6.02 ± 3.67 µg/kg; median 5.27 µg/kg
-- Species differences were not statistically significant (p=0.2968)
+**By species (Table 2):**
 
-**By product type:**
-- Commercial products (n=28): mean 5.15 ± 2.58 µg/kg; median 4.99 µg/kg
-- Home-grown (n=20): mean 9.47 ± 3.58 µg/kg; median 8.70 µg/kg
-- Difference statistically significant (p=0.00003)
+- Peppermint (n=10): mean 9.39 ± 5.83 µg/kg; median 9.58 (Q1–Q3 2.40–14.18) µg/kg
+- Parsley (n=12): mean 6.72 ± 2.39 µg/kg; median 6.40 (Q1–Q3 5.83–7.64) µg/kg
+- Basil (n=15): mean 6.19 ± 2.08 µg/kg; median 5.52 (Q1–Q3 4.72–7.24) µg/kg
+- Lovage (n=11): mean 6.02 ± 3.67 µg/kg; median 5.27 (Q1–Q3 3.08–8.27) µg/kg
+- Species differences not statistically significant (Kruskal–Wallis p = 0.2968)
 
-**Commercial sub-comparison:**
-- Non-organic (n=24): mean 5.20 µg/kg
-- Organic (n=4): mean 4.88 µg/kg; not significantly different (p=0.97381)
+**By product type (Table 2):**
 
-**By growing location (home-grown only):**
-- Płoki (Małopolskie, near coal power plant): highest across all species, e.g., peppermint up to 12.90 µg/kg
-- Jemielnica (Opolskie, rural): lowest home-grown values
-- Urban areas (Katowice, Mysłowice) similar to or lower than rural Płoki
+- Commercial products (n=28): mean 5.15 ± 2.58 µg/kg; median 4.99 (Q1–Q3 3.23–6.54) µg/kg
+- Home-grown (n=20): mean 9.47 ± 3.58 µg/kg; median 8.70 (Q1–Q3 6.38–11.55) µg/kg
+- Difference statistically significant (Mann–Whitney U p < 0.001; reported p = 0.00003)
+
+**Commercial sub-comparison (Table 2):**
+
+- Non-organic (n=24): mean 5.20 ± 2.64 µg/kg; median 4.99 (Q1–Q3 3.65–6.19) µg/kg
+- Producer-certified organic (n=4): mean 4.88 ± 2.56 µg/kg; median 4.91 (Q1–Q3 2.69–7.07) µg/kg
+- Difference not statistically significant (p = 0.97381)
+
+**Per-species means within each product type (text §3):**
+
+- Commercial: parsley 6.03, basil 5.43, lovage 3.23, peppermint 2.40 µg/kg
+- Home-grown: peppermint 14.18, lovage 8.27, parsley 7.62, basil 6.00 µg/kg
+- Within-species commercial-vs-home-grown differences were statistically significant only for lovage and peppermint
+
+**By growing location, home-grown only (text §3 + Figure 3):**
+
+- Highest median across species: Płoki (Małopolskie, near coal-fired power plant and closed hard-coal mine), median ≈ 12.90 µg/kg across all four species
+- Lowest median across species: Jemielnica (Opolskie, rural, no major industrial sources)
+- Rural Jastrząb (Śląskie) was comparable to urban Katowice/Mysłowice and lower than rural Płoki, indicating that rural-vs-urban location does not predict Hg burden on its own
+- Highest individual location-species values at Płoki: parsley 12.19 µg/kg (the maximum parsley value in the home-grown set, range 5.76–12.19 µg/kg)
+- Home-grown sample range overall: 4.98–17.35 µg/kg (text §4)
 
 **EU regulatory context:**
-- Commission Regulation (EU) 2018/73: maximum level for mercury in deciduous spice plants (herbs) = 0.03 mg/kg (30 µg/kg)
-- All tested samples were below this limit (maximum observed 17.35 µg/kg vs. limit 30 µg/kg)
 
-**Estimated daily intake (EDI) at 0.7 g/day consumption, 70 kg adult:**
-- Home-grown: EDI = 9.47 µg/kg × 0.7 g/day / 70 kg = 0.0000947 mg Hg/kg bw/day (vs. reference value)
-- Commercial: EDI = 5.15 µg/kg × 0.7 g/day / 70 kg = 0.0000515 mg Hg/kg bw/day
-- Both below the WHO PTWI; per Kowalska (2021) the level is not considered dangerous at Polish consumption rates
+- Commission Regulation (EU) 2018/73 (amending Annexes II and III of Reg. (EC) 396/2005): maximum mercury residue level in leafy spice plants (deciduous herbs) = 0.03 mg/kg = 30 µg/kg
+- All 48 samples were below the limit (observed maximum 17.35 µg/kg in a home-grown peppermint sample)
+
+**Estimated daily intake (EDI), authors' calculation (text §4):**
+
+- Assumed consumption 0.7 g/day spices and herbs (Polish average; Kowalska 2021); adult body weight 70 kg
+- Home-grown: EDI = 9.47 µg/kg × 0.7 g/day ÷ 70 kg ≈ 9.47 × 10⁻⁵ mg Hg/kg bw/day
+- Commercial: EDI = 5.15 µg/kg × 0.7 g/day ÷ 70 kg ≈ 5.15 × 10⁻⁵ mg Hg/kg bw/day
+- Both values are below the JECFA PTWI for inorganic mercury (4 µg/kg bw/week, equivalent to ≈ 5.7 × 10⁻⁴ mg/kg bw/day); authors conclude Polish dietary spice consumption does not constitute a mercury risk
 
 ## Methods (brief)
 
-Mercury analyzer AMA 254 (Altec, Czech Republic), AAS-based cold vapor technique, wavelength 253.65 nm, O₂ carrier gas. LOD 0.01 ngHg/g (0.01 µg/kg). Validated against INCT-MPH-2 reference material: found 0.0166 ± 0.0001 mg/kg, recovery 92.22%. Detection method covers total Hg regardless of speciation. Each sample measured three times; final result is arithmetic mean. Statistical analysis: Shapiro-Wilk normality test, Mann-Whitney U (two groups), Kruskal-Wallis (multiple groups), p<0.05 two-tailed.
+Direct mercury analyzer AMA 254 (Altec, Praha, Czech Republic): catalytic combustion thermal-decomposition cold-vapour atomic absorption at 253.65 nm with O₂ carrier gas (purity ≥ 99.5%, inlet 200–250 kPa; stage times 120, 140, 60 s). LOD 0.01 ngHg/g (i.e. 0.01 µg/kg). Method covers total Hg regardless of speciation. Each spice sample was prepared as three ~50 mg replicate weighings on a RADWAG analytical balance (Radom, Poland); final reported value is the arithmetic mean of three measurements. Home-grown plant material was air-dried at room temperature in a shaded room, then ground in a porcelain mortar; commercial products were ground identically. Method validation used the INCT-MPH-2 Mixed Polish Herbs reference material (Institute of Nuclear Chemistry and Technology, Warsaw): six replicate determinations gave 0.0166 ± 0.0001 mg/kg with 92.22% recovery against the certified value. Statistical analysis used Statistica 13.3 (StatSoft, Kraków): Shapiro–Wilk normality testing, Mann–Whitney U (two groups), Kruskal–Wallis (more than two groups), p < 0.05 two-tailed.
 
-Limitation: Small sample sizes (n=4 organic, n=20 home-grown total), limited to four species and five growing locations in southern Poland; not representative of all commercial spice origins.
+Study limitations: small group sizes (notably n=4 organic commercial samples; n=20 home-grown samples spread across five locations and four species, leaving only one replicate per species per location); restricted to four species and southern-Poland growing locations; commercial-product origin not characterised beyond "popular Polish-market producers"; no speciation (total Hg only); single-season harvest (June, mid-growing-season) so seasonal accumulation effects reported in cited prior work were not captured.
 
 ## Implications
 
-**Certification:** Total Hg in leafy herbs and spices is well below EU regulatory limits even at the highest values observed. However, the source of cultivation matters: home-grown herbs near industrial point sources (coal-fired power plants, steel mills) can have Hg levels approximately twice those of commercial products. HMT&C does not certify home-grown product, but this finding informs supplier verification requirements: brands sourcing fresh herbs from contract growers in industrially contaminated regions should include Hg testing in their QC protocols even though field values are below EU limits, because the gap between observed maximums and the limit is smaller than it appears when expressed as a single-point mean.
+**Certification:** Contributes occurrence data for leafy culinary herbs (peppermint, basil, lovage, parsley) and for the commercial-vs-home-grown comparison, in a Polish/EU regulatory context. Across this dataset, total Hg in dried leafy herbs sat well below the EU 30 µg/kg residue limit, with the observed maximum (17.35 µg/kg, home-grown peppermint) at approximately 58% of the limit. The commercial-vs-home-grown gap (mean 5.15 vs 9.47 µg/kg) is the principal occurrence finding for supplier-context purposes; the producer-labelled "organic" vs. non-organic commercial subset showed no statistically significant Hg difference within this study's small organic subsample (n=4).
 
-**Courses:** The organic vs. non-organic finding (no significant difference) is a recurring theme in heavy-metals literature and is worth featuring as a case study: the "organic" label does not guarantee lower heavy-metal content because contamination is driven by soil and atmospheric deposition conditions, not by fertilizer and pesticide choices.
+**Courses:** Adds an example for course material on the relationship between certification labelling and contamination outcome: within this study's commercial subset, the producer-labelled "organic" subsample (n=4) did not differ statistically significantly in Hg content from non-organic commercial products (n=24). Adds a worked EDI calculation (authors' method) for spice intake at Polish per-capita consumption (0.7 g/day).
 
-**App:** tHg in herbs and spices is not a meaningfully elevated risk at typical dietary consumption rates. App risk scoring for herb/spice categories should treat tHg as low priority relative to Pb and Cd, consistent with the EDI values in this study.
+**App:** Provides total-Hg occurrence values for four leafy herb species in Polish/EU supply context. Cultivation-origin metadata (commercial vs. home-grown, near vs. far from coal-fired industrial point sources) is informative for app-side scoring of provenance categories where reported.
+
+## Verification notes
+
+2026-05-29 merge-enhance pass (v2.0 skill): re-read PDF cover-to-cover including all tables.
+
+- Corrected broken regulation wikilink: `[[regulations/eu-reg-2018-73-mercury-herbs]]` → `[[regulations/eu-reg-2018-73-mercury-compounds-mrls]]` (the existing regulation page slug).
+- Corrected misattribution of the 12.90 µg/kg figure: prior page text "Płoki ... e.g., peppermint up to 12.90 µg/kg" implied 12.90 was a peppermint-specific value. Per paper page 5, "Hg concentration was the highest for all plants (12.90 µg/kg)" — this is the location median across all four species at Płoki (visible in Figure 3), not a peppermint-specific value. The peppermint maximum at any location is captured by the home-grown peppermint mean of 14.18 µg/kg (text §3) and the overall range maximum of 17.35 µg/kg.
+- Removed `fresh-herbs` from `matrices:`: all 48 samples (both commercial and home-grown) were measured as dried plant material (home-grown samples were air-dried at room temperature before grinding and analysis, paper page 3). `dried-herbs` and `spices` better describe what was measured; `fresh-herbs` is retained as an `ingredients:` wikilink because the home-grown subset documents fresh-grown supply that was then dried for the analysis.
+- Added `[[ingredients/parsley]]` to `ingredients:`: parsley has a dedicated wiki ingredient page and this paper provides species-specific parsley data (n=12, mean 6.72 µg/kg overall and 12.19 µg/kg maximum at Płoki).
+- Populated `sampling_locations:` from Table 1 (Katowice, Mysłowice, Jastrząb in Śląskie voivodeship; Płoki in Małopolskie; Jemielnica in Opolskie).
+- Trimmed Part 2 wiki/HMTc-firewall slips in `## Implications`: removed an HMTc operational directive ("brands sourcing fresh herbs from contract growers in industrially contaminated regions should include Hg testing in their QC protocols"); removed a synthesis claim ("a recurring theme in heavy-metals literature"); reframed consumer-risk wording as neutral occurrence-data contribution per Part 2.
+- Paper-internal labelling discrepancy noted, not flagged as a wiki error: paper page 8 reports "For the tested cultivated plants, the EDI value was 0.0000515 mg/kg/day, and in the group of commercial products it was 0.0000947 mg/kg/day" — but the underlying means (Table 2: cultivated 9.47 µg/kg, commercial 5.15 µg/kg) imply the reverse assignment, and EDI = concentration × intake / bw confirms cultivated → 0.0000947 and commercial → 0.0000515. The wiki page assigns EDI values to the group that matches each group's reported mean; the paper text has the two labels switched.
+- Paper-internal location-naming discrepancy noted: Table 1 lists five collection points (Katowice, Mysłowice, Jastrząb, Płoki, Jemielnica), but Figure 3 plots a slightly different five-name set (Dąbrówka Mała, Mysłowice, Płoki, Poraj, Jemielnica). Treated as the paper's own inconsistency; not amended on the wiki page.
 
 ## Wiki pages updated on ingest
 
 - [[ingredients/herbs-and-spices]]
+- [[ingredients/dried-herbs]]
 - [[ingredients/fresh-herbs]]
+- [[ingredients/parsley]]
 - [[metals/mercury]]
-- [[regulations/eu-reg-2018-73-mercury-herbs]]
+- [[regulations/eu-reg-2018-73-mercury-compounds-mrls]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
