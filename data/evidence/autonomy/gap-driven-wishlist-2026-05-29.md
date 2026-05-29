@@ -11,43 +11,44 @@
 
 ### By priority
 
-- P1: 1384
-- P2: 1116
+- P1: 2015
+- P2: 461
+- P3: 24
 
 ### By source path
 
-- ingredient: 2500
+- product: 2500
 
 ## Query-history-aware deprioritization
 
 Threshold: a (query × cell) attempted >=5 times with <2 successful downloads is dropped from this run.
 
-Audit-log scale: 170 (query × cell) histories tracked.
+Audit-log scale: 48 (query × cell) histories tracked.
 
 ## Top 20 priority queries this run
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | ingredient:flavoring × Cr | flavoring chromium contamination occurrence |
-| P1 | ingredient:hazelnuts × Sn | hazelnuts tin contamination occurrence |
-| P1 | ingredient:non-soy-protein-source × Pb | non soy protein source lead contamination occurrence |
-| P1 | ingredient:cheddar-cheese × Sn | cheddar cheese tin contamination occurrence |
-| P1 | ingredient:onions × Sn | onions heavy metals tin contamination occurrence |
-| P1 | ingredient:chicken-potpie × iAs | chicken potpie heavy metals inorganic arsenic contamination occurrence |
-| P1 | ingredient:ground-beef × Al | ground beef heavy metals aluminum contamination occurrence |
-| P1 | ingredient:fruit-purees × Ni | fruit purees heavy metals nickel contamination occurrence |
-| P1 | ingredient:fresh-herbs × Sn | fresh herbs heavy metals tin contamination occurrence |
-| P1 | ingredient:sunflower-oil × Sn | sunflower oil heavy metals tin contamination occurrence |
-| P1 | ingredient:baby-cereals-dry × Cr | baby cereals dry heavy metals chromium contamination occurrence |
-| P1 | ingredient:skim-milk × iAs | skim milk heavy metals inorganic arsenic contamination occurrence |
-| P1 | ingredient:infant-formula-rtf-liquid × tHg | infant formula rtf liquid total mercury contamination occurrence |
-| P1 | ingredient:chicken-noodle-soup × Sn | chicken noodle soup heavy metals tin contamination occurrence |
-| P1 | ingredient:fish-containing-baby-foods × iAs | fish containing baby foods heavy metals inorganic arsenic contamination occurrence |
-| P1 | ingredient:watermelon × iAs | watermelon inorganic arsenic contamination occurrence |
-| P1 | ingredient:melon × Cr | melon heavy metals chromium contamination occurrence |
-| P1 | ingredient:fruit-purees × Ni | fruit purees nickel contamination occurrence |
-| P1 | ingredient:fish-containing-baby-foods × Al | fish containing baby foods heavy metals aluminum contamination occurrence |
-| P1 | ingredient:breastmilk × iAs | breastmilk heavy metals inorganic arsenic contamination occurrence |
+| P1 | infant-bottle-nipples × tHg | bottle nipples and spouts total mercury |
+| P1 | sippy-cups-toddler-drinkware × tAs | sippy cups toddler drinkware heavy metals total arsenic |
+| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking teething aids Pb occurrence |
+| P1 | infant-bottles × tHg | infant bottles mercury |
+| P1 | sippy-cups-toddler-drinkware × tAs | sippy cups toddler drinkware children product safety arsenic |
+| P1 | infant-bottle-nipples × tAs | infant bottle nipples children product safety arsenic |
+| P1 | infant-bottle-nipples × Pb | bottle nipples and spouts Pb |
+| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking teething aids lead |
+| P1 | sippy-cups-toddler-drinkware × tHg | sippy cups and toddler drinkware components mercury |
+| P1 | sippy-cups-toddler-drinkware × Cd | sippy cups and toddler drinkware components cadmium |
+| P1 | pacifiers-and-sucking-teething-aids × Cd | pacifiers and sucking teething aids Cd occurrence |
+| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking teething aids heavy metals Pb occurrence |
+| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking teething aids toy heavy metals Pb |
+| P1 | pacifiers-and-sucking-teething-aids × iAs | pacifiers and sucking teething aids speciated arsenic occurrence |
+| P1 | infant-bottles × tAs | infant bottles total arsenic |
+| P1 | sippy-cups-toddler-drinkware × Pb | sippy cups and toddler drinkware components lead |
+| P1 | infant-bottle-nipples × tAs | infant bottle nipples children product safety total arsenic |
+| P1 | feeding-accessories-child-sized × Cd | feeding accessories child sized cadmium |
+| P1 | infant-bottle-nipples × Cd | infant bottle nipples Cd |
+| P1 | feeding-accessories-child-sized × Cd | feeding accessories (spoons, plates, bowls — child-sized) Cd |
 
 ## Coverage rotation
 
