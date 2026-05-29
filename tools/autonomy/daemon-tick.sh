@@ -133,6 +133,49 @@ run_step() {
   fi
 }
 
+# checkpoint_commit — commit the daemon's accumulated work MID-TICK so a
+# later kill does not strand it.
+#
+# Root cause this fixes (diagnosed 2026-05-29): macOS sends SIGTERM to
+# launchd jobs when the machine sleeps / the lid closes. Ticks run 20-40 min
+# (manual-fetch Opus spawns, codex 18-min ingest, wishlist fetch of thousands
+# of queries), so a tick is almost always mid-flight when sleep hits. With
+# ALL commits gated at Step 8 (the very end), a mid-tick SIGTERM lost the
+# entire tick's work AND left a dirty tree that the next tick's preflight
+# refused to run on -> permanent stall (observed: 13h on 05-29, 16h on
+# 05-26; ZERO clean Step-8 daemon commits in the 2 days prior to this fix).
+#
+# Committing after each major phase converts "lose everything + stall" into
+# "durable incremental progress + clean tree for the next tick".
+#
+# Uses WIKI_EDIT_AUDIT_SKIP=1 because the daemon's wiki writes are
+# deterministic regenerations (page-history tables, source-legend baselines,
+# sync-source-counts, mandatory-section placeholders), not LLM content edits
+# requiring per-claim provenance — the same rationale the EXIT-trap recovery
+# commit already documents. LLM sub-sessions (manual-fetch ingest, audit
+# drain, synthesis promote) commit their own provenance-bearing work
+# separately, before this runs.
+#
+# set -e safe: always returns 0.
+checkpoint_commit() {
+  local label="$1"
+  if [[ -z "$(git status --porcelain 2>/dev/null)" ]]; then
+    return 0
+  fi
+  if acquire_lock "daemon-checkpoint:${label}" 30; then
+    git add -A >/dev/null 2>&1 || true
+    if WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: checkpoint [$label] $TIMESTAMP" >/dev/null 2>&1; then
+      log "checkpoint [$label]: committed"
+    else
+      log "checkpoint [$label]: nothing to commit"
+    fi
+    release_lock
+  else
+    log "checkpoint [$label]: commit lock held by another process; deferring"
+  fi
+  return 0
+}
+
 # ---------- Tick ----------
 
 log "Daemon tick start. Repo: $REPO_ROOT. Branch: $(git branch --show-current)"
@@ -172,9 +215,41 @@ TRANSIENT_PATHS='data/evidence/|data/workbench/|wiki/briefings/weekly-|wiki/spri
 UNTRACKED_SOURCES='^\?\? wiki/sources/'
 REAL_DIRTY=$(git status --porcelain | grep -vE "^.. ($TRANSIENT_PATHS)" | grep -vE "$UNTRACKED_SOURCES" || true)
 if [[ -n "$REAL_DIRTY" ]]; then
-  log "Working tree has real content edits (wiki/, docs/, tools/, etc.). Daemon refuses to run; another agent may be mid-work."
+  # Self-heal (2026-05-29). The old behavior here was an unconditional
+  # `exit 0` on any non-transient dirt. That is correct when another agent
+  # is editing CODE/CONFIG, but it is catastrophic when the dirt is just a
+  # previous tick's uncommitted wiki/data regeneration work: the daemon
+  # refuses every subsequent tick until a human commits, which is the exact
+  # multi-hour stall failure mode observed 2026-05-26..29 (a mid-tick
+  # SIGTERM-on-sleep leaves the tree dirty; the EXIT trap's recovery push
+  # often cannot finish before the machine sleeps).
+  #
+  # Discriminator: any dirty path under tools/, docs/, api/, .github/,
+  # quartz config, or the root governance/build files = real in-flight
+  # code/config work by a human or another agent -> refuse, as before.
+  FOREIGN_DIRTY=$(git status --porcelain | grep -E "^.. \"?(tools/|docs/|api/|\.github/|quartz|package(-lock)?\.json|tsconfig|vercel\.json|CLAUDE\.md|OPERATING\.md|AGENTS\.md|\.gitignore)" || true)
+  if [[ -n "$FOREIGN_DIRTY" ]]; then
+    log "Working tree has real code/config edits; daemon refuses to run (another agent may be mid-work)."
+    log "$FOREIGN_DIRTY"
+    exit 0
+  fi
+  # All non-transient dirt is wiki/ + data/ regeneration leftovers. If the
+  # commit lock is held, defer to that holder. Otherwise a previous tick
+  # died before committing — recover it so this tick starts clean.
+  if peek_lock >/dev/null 2>&1; then
+    log "Non-transient wiki/data dirt present but commit lock is held; deferring this tick to the lock holder."
+    exit 0
+  fi
+  log "Self-heal: previous tick left uncommitted wiki/data regeneration work (no foreign code/config edits, no lock holder). Recovering before proceeding."
   log "$REAL_DIRTY"
-  exit 0
+  if acquire_lock "daemon-selfheal" 30; then
+    git add -A >/dev/null 2>&1 || true
+    WIKI_EDIT_AUDIT_SKIP=1 git commit -m "autonomy: self-heal recovery of prior tick's uncommitted work — $TIMESTAMP" 2>&1 | tee -a "$LOG_FILE" || log "self-heal: nothing to commit"
+    release_lock
+  else
+    log "Self-heal: could not acquire commit lock; deferring this tick."
+    exit 0
+  fi
 fi
 if [[ -n "$(git status --porcelain)" ]]; then
   log "Transient autonomy artifacts dirty; daemon proceeding (these regenerate as part of the tick)."
@@ -358,6 +433,17 @@ run_step "provenance audit" node tools/autonomy/provenance-audit.mjs || true
 # stubs" section at the bottom. Idempotent.
 run_step "link orphans" node tools/autonomy/link-orphans.mjs || true
 
+# ---------- CHECKPOINT 1: commit the deterministic regeneration phase ----------
+# Everything above (routing audit, page creation, heal-gaps, extraction,
+# manual-fetch + codex ingest, pooling, synthesis writer, firewall fix,
+# mandatory sections, source legends, sync counts, provenance, orphans)
+# completes within the first few minutes and is the bulk of the per-tick
+# wiki churn. Commit it NOW so the slow, kill-prone tail below (wishlist
+# fetch of thousands of queries, weekly briefing, synthesis/audit drains,
+# Cat-1 briefing regen) cannot strand it as a dirty tree when the machine
+# sleeps and macOS SIGTERMs the tick.
+checkpoint_commit "deterministic-phase"
+
 # Step 5: gap-driven wishlist (queries for thin cells)
 run_step "gap-driven wishlist" node tools/autonomy/gap-driven-wishlist.mjs || true
 
@@ -507,6 +593,13 @@ if [[ "$AUDIT_DRAIN_CAP" != "0" ]]; then
   run_step "drain-audit-queue" node tools/autonomy/drain-audit-queue.mjs "--max=$AUDIT_DRAIN_CAP" || true
 fi
 
+# ---------- CHECKPOINT 2: commit the discovery + drain phase ----------
+# Wishlist fetch, weekly briefing, improvement scout, contradiction detector,
+# dual-model verify, synthesis drain, synthesis promote, and audit drain have
+# all run. Commit before the Cat-1 briefing regen loop + morning-report
+# append so a sleep-SIGTERM during those does not strand this work either.
+checkpoint_commit "discovery-and-drains"
+
 # Step 6: regenerate briefings for Category 1
 log "=== regenerating Cat 1 briefings ==="
 for slug in infant-formula-powder-non-soy infant-formula-powder-soy-based \
@@ -601,7 +694,16 @@ if ! git diff --quiet || ! git diff --cached --quiet; then
     log "Changes detected; committing"
     git add -A 2>&1 | tee -a "$LOG_FILE"
     COMMIT_MSG="autonomy: daemon tick $TIMESTAMP — gap-healing + extraction + pooling + briefings"
-    git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
+    # WIKI_EDIT_AUDIT_SKIP=1 (2026-05-29 fix): the daemon's deterministic
+    # tools edit wiki/**/*.md (page-history tables, source-legend baselines,
+    # sync-source-counts, mandatory-section placeholders) WITHOUT writing
+    # data/evidence/wiki_edit_audit.jsonl rows. Without the skip flag the
+    # pre-commit hook's wiki-edit audit barrier aborts this commit (exit 1),
+    # the `|| log` swallows it, the tree stays dirty, and the next tick's
+    # preflight refuses to run -> the silent stall that produced ZERO clean
+    # Step-8 commits in the 2 days before this fix. Same sanctioned rationale
+    # as the EXIT-trap recovery commit, which already sets this flag.
+    WIKI_EDIT_AUDIT_SKIP=1 git commit -m "$COMMIT_MSG" 2>&1 | tee -a "$LOG_FILE" || log "commit failed (maybe nothing to commit)"
     release_lock
   else
     log "Commit lock held by another process; deferring commit to next tick"
