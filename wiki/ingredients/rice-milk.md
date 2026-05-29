@@ -124,7 +124,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | US/FR/EU Mn occurrence in 44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected... (n=44) |
 <!-- END: hmi-source-legend -->
 
 ## Page history

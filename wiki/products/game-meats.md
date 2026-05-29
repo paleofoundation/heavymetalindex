@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 2
+sources: 11
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -101,7 +101,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | GB/EU Pb occurrence in Commercial dogfood products (raw, dried, processed) and raw pheasant meat for human consumption purchased from UK retailers 2021–2022 (n=193) |
-| 2 | [[sources/gasparik2017-wild-boar-slovakia-metals\|Gašparík et al. 2017]]. *Levels of Metals in Kidney, Liver, and Muscle Tissue and their Influence on the Fitness for the Consumption of Wild Boar from Western Slovakia*, Biological Trace Element Research | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/gasparik2017-wild-boar-slovakia-metals\|Gašparík et al. 2017]]. *Levels of Metals in Kidney, Liver, and Muscle Tissue and their Influence on the Fitness for the Consumption of Wild Boar from Western Slovakia*, Biological Trace Element Research | 2017 | Peer-reviewed | SK/EU Cd, Pb, tHg, Cu, Zn, Co occurrence in 40 wild boars (Sus scrofa; 20 females, 20 males) hunter-collected in November–December 2009 and 2010 from the Nitra... (n=40) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

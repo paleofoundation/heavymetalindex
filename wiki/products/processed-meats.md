@@ -14,7 +14,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 6
+sources: 8
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -102,11 +102,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/altalib2025-frozen-meat-libya\|Altalib et al. 2025]]. *Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market*, Mediterranean Journal of Medical Research | 2025 | Peer-reviewed | LY Pb, Cd, Cr occurrence in Imported frozen meat (chicken, beef, lamb, processed products) from Tripoli commercial markets; origins: Brazil, USA, Jordan, Spain, Australia;... (n=30) |
-| 2 | [[sources/manfredi2025-nickel-meat-italy\|Manfredi et al. 2025]]. *Dietary exposure assessment to nickel through the consumption of poultry, beef, and pork meat for different age groups in the Italian population*, Italian Journal of Food Safety | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/manfredi2025-nickel-meat-italy\|Manfredi et al. 2025]]. *Dietary exposure assessment to nickel through the consumption of poultry, beef, and pork meat for different age groups in the Italian population*, Italian Journal of Food Safety | 2025 | Peer-reviewed | IT Ni occurrence in 809 official-control muscle meat samples collected in Italy from 2011 to 2023 |
 | 3 | [[sources/wysok2025-heavy-metals-sheep-casings\|Wysok et al. 2025]]. *Heavy Metal Contamination in Natural Sheep Casings*, Foods | 2025 | Peer-reviewed | PL/EU Pb, tAs, Cd, tHg occurrence in Natural sheep casings from Polish production facilities and commercial sources; salted and dried casings (n=35) |
-| 4 | [[sources/wysok2025-sheep-casings-metals-poland\|Wysok et al. 2025]]. *Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions*, Foods 14(9):1520 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/wysok2025-sheep-casings-metals-poland\|Wysok et al. 2025]]. *Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions*, Foods 14(9):1520 | 2025 | Peer-reviewed | TR/IR/CN Pb, Cd, tAs, tHg occurrence in Salted natural sheep casings from Turkey, Iran, China, Mongolia, Pakistan, New Zealand, the United Kingdom, and Belgium. (n=35) |
 | 5 | [[sources/saraiva2021-chromium-speciation-milk-meat-cooking-france\|Saraiva et al. 2021]]. *Chromium speciation analysis in raw and cooked milk and meat samples by species-specific isotope dilution and HPLC-ICP-MS*, Food Additives & Contaminants Part A 38(2):304-314 | 2021 | Peer-reviewed | FR/DK Cr-VI, Cr-III, Cr-total occurrence in Three sample types × 10 samples each: infant formula milk (n=10), semi-skimmed milk (n=10), bovine meat including chorizo... (n=30) |
-| 6 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/hoha2014-pork-pb-cd-cu-zn-romania\|Hoha et al. 2014]]. *Heavy metals contamination levels in processed meat marketed in Romania*, Environmental Engineering and Management Journal | 2014 | Peer-reviewed | RO Pb, Cd, Cu, Zn occurrence in Bacon (n=6), ham (n=6), sausage (n=12), and salami (n=12) purchased from four commercial centers in Iasi, Romania; produced... (n=36) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

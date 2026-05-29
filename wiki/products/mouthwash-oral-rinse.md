@@ -106,7 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/opss2023-feasibility-action-limits-cosmetics-uk\|Axford et al. 2023]]. *A Feasibility Study Investigating Action Limits for Certain Heavy Metal Impurities in Cosmetic Products*, UK Office for Product Safety and Standards (OPSS), BEIS/OPSS Contract Ref FM21190; report prepared by LGC | 2023 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/opss2023-feasibility-action-limits-cosmetics-uk\|Axford et al. 2023]]. *A Feasibility Study Investigating Action Limits for Certain Heavy Metal Impurities in Cosmetic Products*, UK Office for Product Safety and Standards (OPSS), BEIS/OPSS Contract Ref FM21190; report prepared by LGC | 2023 | Government report | UK/EU/US Sb, tAs, Cd, Pb, tHg occurrence in 91 cosmetic products purchased from UK high-street stores and online retailers (~70/30 split) across low, mid and high... (n=91) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

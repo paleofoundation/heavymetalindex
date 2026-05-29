@@ -36,7 +36,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cereal2013-cereal-juice-lead-arsenic\|Neuwirth 2022]]. *Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/cereal2013-cereal-juice-lead-arsenic\|Neuwirth 2022]]. *Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest*, International Journal of Environmental Research and Public Health | 2022 | Peer-reviewed | Cited reference from International Journal of Environmental Research and Public Health |
 <!-- END: hmi-source-legend -->
 
 ## Page history

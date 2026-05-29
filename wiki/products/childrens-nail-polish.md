@@ -92,8 +92,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/moriceau2025-cosmetics-icpms-iso21392\|Moriceau et al. 2025]]. *Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS*, Thermo Fisher Scientific Application Note 003602 | 2025 | Industry | *[awaiting synthesis]* |
-| 2 | [[sources/medley2023-childrens-makeup-body-products-us-usage\|Medley et al. 2023]]. *Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures*, International Journal of Environmental Research and Public Health 20(3): 2114 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/moriceau2025-cosmetics-icpms-iso21392\|Moriceau et al. 2025]]. *Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS*, Thermo Fisher Scientific Application Note 003602 | 2025 | Industry | EU/FR Pb, Cd, tAs, tHg, Cr, Ni, Sb, Al, Sn, Co, Mn, Fe, Zn, Be, Se, Tl, Ti, W, Pt occurrence in 17 finished cosmetic products sold on the French and European market (creams, gels, pastes, liquids, varnishes, solids) plus... (n=27) |
+| 2 | [[sources/medley2023-childrens-makeup-body-products-us-usage\|Medley et al. 2023]]. *Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures*, International Journal of Environmental Research and Public Health 20(3): 2114 | 2023 | Peer-reviewed | This Columbia/Earthjustice mixed-methods survey of 207 US parents/guardians (reporting on 312 children ≤12 years) characterizes the use, frequency, duration, and... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

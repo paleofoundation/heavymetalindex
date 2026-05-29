@@ -96,10 +96,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | LY Pb, tAs, Cd, Ni occurrence in 12 cosmetic samples from public markets in Tripoli, Libya (winter 2022): 3 brands of Henna leaves (LEAV1-3), 3... (n=12) |
+| 2 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
 | 3 | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi 2020]]. *Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder*, IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby talcum powder brands; AAS/CVAAS quantification; n=3 |
-| 4 | [[sources/moon2011-baby-powder-inhalation-risk-assessment\|Moon et al. 2011]]. *Risk Assessment of Baby Powder Exposure through Inhalation*, Toxicological Research 27(3): 137-141 | 2011 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/moon2011-baby-powder-inhalation-risk-assessment\|Moon et al. 2011]]. *Risk Assessment of Baby Powder Exposure through Inhalation*, Toxicological Research 27(3): 137-141 | 2011 | Peer-reviewed | This Toxicological Research mini-review and exposure-assessment study simulates a routine baby-powder application episode in a residential setting to estimate airborne... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

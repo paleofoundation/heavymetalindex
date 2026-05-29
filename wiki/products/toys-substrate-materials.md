@@ -106,7 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cephed2013-heavy-metals-childrens-toys-nepal\|Sah et al. 2013]]. *Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal*, Centre for Public Health and Environmental Development (CEPHED), Lalitpur, Nepal — July 2013 report | 2013 | NGO report | *[awaiting synthesis]* |
+| 1 | [[sources/cephed2013-heavy-metals-childrens-toys-nepal\|Sah et al. 2013]]. *Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal*, Centre for Public Health and Environmental Development (CEPHED), Lalitpur, Nepal — July 2013 report | 2013 | NGO report | NP Pb, tHg, Cd, Cr occurrence in 100 children's toys/play-items purchased from markets across Kathmandu Valley (Banepa, Asan, Mahabauddha, Pulchowk, Baneshwor, Lagankhel, Balkumari) and Dhulikhel... (n=100) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

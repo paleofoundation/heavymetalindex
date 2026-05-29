@@ -55,8 +55,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/original2020-original-a\|Alharbi et al. 2020]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2020 | Peer reviewed journal article | *[awaiting synthesis]* |
-| 2 | [[sources/estimated2015-estimated-exposure-arsenic-breastfed\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/original2020-original-a\|Alharbi et al. 2020]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2020 | Peer reviewed journal article | Cited reference from Food Science & Nutrition |
+| 2 | [[sources/estimated2015-estimated-exposure-arsenic-breastfed\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives | 2015 | Peer-reviewed | Cited reference from Environmental Health Perspectives |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

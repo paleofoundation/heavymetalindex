@@ -36,8 +36,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | *[awaiting synthesis]* |
-| 2 | [[sources/infant2018-research\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, Hindawi International Journal of Analytical Chemistry | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
+| 2 | [[sources/infant2018-research\|Eticha et al. 2018]]. *Infant Exposure to Metals through Consumption of Formula Feeding in Mekelle, Ethiopia*, Hindawi International Journal of Analytical Chemistry | 2018 | Peer-reviewed | ET Pb, Cd occurrence in Five milk-based infant formula brands from Mekelle, Ethiopia for infants 6–12 months old (n=5) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

@@ -55,10 +55,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/introduction2025-concentrations-heavy-metals-processed\|Introduction 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Unknown journal | 2025 | Peer reviewed review | *[awaiting synthesis]* |
-| 2 | [[sources/extending2023-extending-regulatory-biokinetic-lead\|Price et al. 2023]]. *Extending Regulatory Biokinetic Lead Models towards Food Safety—Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability*, Foods | 2023 | Peer reviewed journal article | *[awaiting synthesis]* |
-| 3 | [[sources/henriquez_hernandez2023-elemental-infant-purees\|Henríquez-Hernández et al. 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/introduction2025-concentrations-heavy-metals-processed\|Introduction 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Unknown journal | 2025 | Peer reviewed review | global As, Cd, Pb, tHg occurrence in Processed infant foods and infant formula products (n=Scoping review; multiple studies synthesized) |
+| 2 | [[sources/extending2023-extending-regulatory-biokinetic-lead\|Price et al. 2023]]. *Extending Regulatory Biokinetic Lead Models towards Food Safety—Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability*, Foods | 2023 | Peer reviewed journal article | US Pb occurrence in Infants and young children aged 0.5 to 7 years, probabilistic Monte Carlo assessment with 10,000 iterations (n=10000) |
+| 3 | [[sources/henriquez_hernandez2023-elemental-infant-purees\|Henríquez-Hernández et al. 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients | 2023 | Peer-reviewed | ES tHg, As, Cr, Ni, Mn, Mo, Tl occurrence in Infants aged 6-12 months in Spain consuming ready-to-eat purees (102 name brand, 57 store brand samples) (n=159) |
+| 4 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

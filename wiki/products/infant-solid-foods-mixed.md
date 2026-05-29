@@ -36,8 +36,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/open2017-open-infants-dietary-arsenic\|Signes-Pastor et al. 2018]]. *OPEN Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | — | *[awaiting synthesis]* |
-| 2 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | *[awaiting synthesis]* |
+| 1 | [[sources/open2017-open-infants-dietary-arsenic\|Signes-Pastor et al. 2018]]. *OPEN Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | — | During the transition to solid foods, infants' urinary arsenic concentrations increase substantially, with rice cereal emerging as the dominant dietary... |
+| 2 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

@@ -88,7 +88,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | *[awaiting synthesis]* |
+| 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | EU/US/CA Pb, Cd, tHg, tAs, iAs, Cr, Cr-VI, Ni, Al, Fe, Cu, Zn, Co occurrence in Narrative review of heavy-metal contamination in cosmetics; literature 1990 - November 2025 retrieved via PubMed, Web of Science,... |
 | 2 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
 | 3 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | CN Pb occurrence in 34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) from JingDong (Chinese top-10 e-commerce market),... (n=34) |
 <!-- END: hmi-source-legend -->

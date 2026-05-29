@@ -106,7 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland\|Brodziak-Dopierała et al. 2023]]. *Mercury Exposure from the Consumption of Dietary Supplements Containing Vegetable, Cod Liver, and Shark Liver Oils*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland\|Brodziak-Dopierała et al. 2023]]. *Mercury Exposure from the Consumption of Dietary Supplements Containing Vegetable, Cod Liver, and Shark Liver Oils*, International Journal of Environmental Research and Public Health | 2023 | Peer-reviewed | PL/EU tHg occurrence in 36 dietary supplement preparations purchased in Poland (pharmacies, drugstores, herbal shops): 18 vegetable oils (cold-pressed and unrefined), 12... (n=36) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

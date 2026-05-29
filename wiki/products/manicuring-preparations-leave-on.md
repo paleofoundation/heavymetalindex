@@ -106,7 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/bashir2025-heavy-metals-cosmetics-kashmir\|Bashir et al. 2025]]. *Heavy metal in cosmetics and its risk to future generation in remote area of Azad Jammu and Kashmir Trarkhel District Sudhnoti*, Scientific Reports 15: 43847 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/bashir2025-heavy-metals-cosmetics-kashmir\|Bashir et al. 2025]]. *Heavy metal in cosmetics and its risk to future generation in remote area of Azad Jammu and Kashmir Trarkhel District Sudhnoti*, Scientific Reports 15: 43847 | 2025 | Peer-reviewed | PK Pb, Cd, Cu, Co, Ag, Ni, Zn, tAs, Mn, tHg occurrence in 30 cosmetic products purchased from local markets in Trarkhel, District Sudhnoti, Azad Jammu and Kashmir (AJ&K), Pakistan, 2023:... (n=30) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

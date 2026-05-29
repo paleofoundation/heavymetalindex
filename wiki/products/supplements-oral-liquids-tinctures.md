@@ -106,7 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | RU Al, V, Cr, Mn, Fe, Ni, Cu, Zn, Sr, Ba, tAs occurrence in Peppermint leaves and peppermint-based herbal products evaluated in Russia |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

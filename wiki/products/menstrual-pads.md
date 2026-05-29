@@ -106,7 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers,... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -168,8 +168,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|Elbagory et al. 2025]]. *Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin*, Horticulturae | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/rashid2015-metals-rock-melon-malaysia\|Rashid et al. 2015]]. *Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat*, Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/elbagory2025-toxic-elements-melon-ganges-yamuna\|Elbagory et al. 2025]]. *Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin*, Horticulturae | 2025 | Peer-reviewed | IN Cd, Cr, Cu, Pb, tAs, Fe, Mn, Zn occurrence in 200 composite melon fruit samples (50 per variety, each from 5 fruits pooled per site across 10 sampling... (n=200) |
+| 2 | [[sources/rashid2015-metals-rock-melon-malaysia\|Rashid et al. 2015]]. *Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat*, Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) | 2015 | Peer-reviewed | MY Al, Cr, Cu, Fe, Mn, Ni, Pb, Zn, B, Co occurrence in Rock melon (Cucumis melo, cultivar Glamour) randomly sampled from 5 farm locations in Mantin (Negeri Sembilan; 3 farms)... (n=70) |
 <!-- END: hmi-source-legend -->
 
 ## Page history

@@ -36,9 +36,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/research2024-research-open-access-y\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/meyer2018-hydrolysed-rice-formula-arsenic\|Meyer et al. 2018]]. *Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy*, Pediatric Allergy and Immunology | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/research2024-research-open-access-y\|Kumar et al. 2024]]. *High arsenic contamination in the breast milk of mothers inhabiting the Gangetic plains of Bihar – a major health risk to infants*, Environmental Health | 2024 | Peer-reviewed | Cited reference from Environmental Health |
+| 2 | [[sources/frisbie2019-manganese-infant-formula-beverages\|Frisbie et al. 2019]]. *Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations*, PLOS ONE | 2019 | Peer-reviewed | US/FR/EU Mn occurrence in 44 infant formulas and young-child nutritional beverage products purchased in the United States (n=25) and France (n=19), selected... (n=44) |
+| 3 | [[sources/meyer2018-hydrolysed-rice-formula-arsenic\|Meyer et al. 2018]]. *Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy*, Pediatric Allergy and Immunology | 2018 | Peer-reviewed | IT/FR/BE iAs occurrence in Commercially available hydrolysed-rice infant formula powders sourced from Italy, France, and Belgium; six distinct product variants, two batches... (n=10) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

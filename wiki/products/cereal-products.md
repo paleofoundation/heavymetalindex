@@ -36,8 +36,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hidalgo2015-gluten-free-cereal-bars-argentina\|Hidalgo et al. 2015]]. *Toxic Trace Element Contents in Gluten-free Cereal Bars Marketed in Argentina*, International Journal of Celiac Disease 3(1):12-16 | 2015 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/hidalgo2015-gluten-free-cereal-bars-argentina\|Hidalgo et al. 2015]]. *Toxic Trace Element Contents in Gluten-free Cereal Bars Marketed in Argentina*, International Journal of Celiac Disease 3(1):12-16 | 2015 | Peer-reviewed | AR tAs, Cd, Pb occurrence in Seventy-two commercial gluten-free cereal bars marketed in Argentina, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey,... (n=72) |
+| 2 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

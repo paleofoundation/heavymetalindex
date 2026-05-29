@@ -106,10 +106,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/lai2025-infant-diaper-phthalate-dna-oxidation\|Lai et al. 2025]]. *Infants' Dermal Exposure to Phthalates from Disposable Baby Diapers and Its Association with DNA Oxidative Damage*, Toxics 13(3): 218 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde\|Nyamukamba et al. 2023]]. *Determination of Selected Harmful Substances in Baby Diapers Available on the South African Market*, International Journal of Environmental Research and Public Health 20(2): 1023 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/smajgl2015-tin-baby-diapers-croatia\|Šmajgl et al. 2015]]. *Occurrence of tin in disposable baby diapers*, X-Ray Spectrometry | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/lai2025-infant-diaper-phthalate-dna-oxidation\|Lai et al. 2025]]. *Infants' Dermal Exposure to Phthalates from Disposable Baby Diapers and Its Association with DNA Oxidative Damage*, Toxics 13(3): 218 | 2025 | Peer-reviewed | This Toxics paper quantifies six phthalates (DEP, DiBP, DnBP, DEHP, and two non-detectable isomers) in inner-layer disposable-diaper samples from 66... |
+| 2 | [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde\|Nyamukamba et al. 2023]]. *Determination of Selected Harmful Substances in Baby Diapers Available on the South African Market*, International Journal of Environmental Research and Public Health 20(2): 1023 | 2023 | Peer-reviewed | ZA/CN/PL Pb, Cu, tAs, Zn, Co, Ni, Cr, Cd, Mn, Se occurrence in 20 disposable baby diapers procured in Cape Town, South Africa, across three retail tiers: high-end (H1-H5, n=5), medium-end... (n=20) |
+| 3 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers,... |
+| 4 | [[sources/smajgl2015-tin-baby-diapers-croatia\|Šmajgl et al. 2015]]. *Occurrence of tin in disposable baby diapers*, X-Ray Spectrometry | 2015 | Peer-reviewed | HR/EU Sn occurrence in 6 brands of disposable baby diapers purchased in Croatia 2012-2014. Top sheet and adhesive tape system analyzed separately... (n=6) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

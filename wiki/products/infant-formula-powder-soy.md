@@ -36,8 +36,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | *[awaiting synthesis]* |
-| 2 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | *[awaiting synthesis]* |
+| 1 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
+| 2 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

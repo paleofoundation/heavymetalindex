@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 10
+sources: 11
 wiki_doi: null
 updated: 2026-05-18
 ---
@@ -124,15 +124,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals\|Oktariani et al. 2023]]. *Heavy metals content in fresh tuna and swordfish caught from Hindian and Pacific Oceans: Health risk assessment of dietary exposure*, Veterinary World | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals\|DASU et al. 2022]]. *Determination of Geographical and Seasonal Variations of Heavy Metals in Swordfish (Xiphias gladius) and Yellowfin Tuna (Thunnus albacares)*, International Journal of Current Science Research and Review | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/handayani2019-tuna-swordfish-indonesia-mercury\|Handayani et al. 2019]]. *Kandungan Logam Berat Merkuri Pada Ikan Tuna (Yellowfin dan Bigeye) dan Tuna-like (Swordfish) Hasil Tangkapan dari Samudera Hindia dan Samudera Pasifik*, Jurnal Pascapanen dan Bioteknologi Kelautan dan Perikanan | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/mehouel2019-sardine-swordfish-algeria-mercury\|Mehouel et al. 2019]]. *Risk assessment of mercury and methyl mercury intake via sardine and swordfish consumption in Algeria*, Journal of the Hellenic Veterinary Medical Society | 2019 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/harding2018-bay-fundy-methylmercury\|Harding et al. 2018]]. *Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine*, PLoS ONE | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/kimakova2018-fish-products-slovakia-mercury\|Kimakova et al. 2018]]. *Fish and fish products as risk factors of mercury exposure*, Annals of Agricultural and Environmental Medicine | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 7 | [[sources/watanabe2017-retail-fish-mercury-methylmercury-japan\|Watanabe et al. 2017]]. *Surveillance of Total Mercury and Methylmercury Concentrations in Retail Fish*, Food Hygiene and Safety Science | 2017 | Peer-reviewed | *[awaiting synthesis]* |
-| 8 | [[sources/hsi2016-fish-methylmercury-taiwan\|Hsi et al. 2016]]. *Methylmercury Concentration in Fish and Risk-Benefit Assessment of Fish Intake among Pregnant versus Infertile Women in Taiwan*, PLOS ONE | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 9 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | *[awaiting synthesis]* |
+| 1 | [[sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals\|Oktariani et al. 2023]]. *Heavy metals content in fresh tuna and swordfish caught from Hindian and Pacific Oceans: Health risk assessment of dietary exposure*, Veterinary World | 2023 | Peer-reviewed | ID Cd, Pb, tHg occurrence in Fresh yellowfin tuna and swordfish from FAO zones 57 and 71 collected at Indonesian ports |
+| 2 | [[sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals\|DASU et al. 2022]]. *Determination of Geographical and Seasonal Variations of Heavy Metals in Swordfish (Xiphias gladius) and Yellowfin Tuna (Thunnus albacares)*, International Journal of Current Science Research and Review | 2022 | Peer-reviewed | LK tHg, Pb, tAs, Cd occurrence in Secondary heavy-metal analysis data for swordfish and yellowfin tuna from Sri Lankan export companies, 2015-2017 |
+| 3 | [[sources/handayani2019-tuna-swordfish-indonesia-mercury\|Handayani et al. 2019]]. *Kandungan Logam Berat Merkuri Pada Ikan Tuna (Yellowfin dan Bigeye) dan Tuna-like (Swordfish) Hasil Tangkapan dari Samudera Hindia dan Samudera Pasifik*, Jurnal Pascapanen dan Bioteknologi Kelautan dan Perikanan | 2019 | Peer-reviewed | ID tHg occurrence in 895 official-control mercury records for yellowfin tuna, bigeye tuna, and swordfish from Indian and Pacific Ocean catch areas |
+| 4 | [[sources/mehouel2019-sardine-swordfish-algeria-mercury\|Mehouel et al. 2019]]. *Risk assessment of mercury and methyl mercury intake via sardine and swordfish consumption in Algeria*, Journal of the Hellenic Veterinary Medical Society | 2019 | Peer-reviewed | DZ tHg, MeHg occurrence in Sardine and swordfish collected from Bejaia, Algiers, and Oran coasts in Algeria, April-September 2017 |
+| 5 | [[sources/harding2018-bay-fundy-methylmercury\|Harding et al. 2018]]. *Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine*, PLoS ONE | 2018 | Peer-reviewed | CA/US MeHg, tHg occurrence in Marine food-web organisms from the outer Bay of Fundy and Gulf of Maine |
+| 6 | [[sources/kimakova2018-fish-products-slovakia-mercury\|Kimakova et al. 2018]]. *Fish and fish products as risk factors of mercury exposure*, Annals of Agricultural and Environmental Medicine | 2018 | Peer-reviewed | SK tHg occurrence in Fish and fish-product samples from food retail in Eastern Slovakia and fish from the Ruzin water reservoir |
+| 7 | [[sources/watanabe2017-retail-fish-mercury-methylmercury-japan\|Watanabe et al. 2017]]. *Surveillance of Total Mercury and Methylmercury Concentrations in Retail Fish*, Food Hygiene and Safety Science | 2017 | Peer-reviewed | JP tHg, MeHg occurrence in 210 retail fish samples across 19 fish species in Japan |
+| 8 | [[sources/hsi2016-fish-methylmercury-taiwan\|Hsi et al. 2016]]. *Methylmercury Concentration in Fish and Risk-Benefit Assessment of Fish Intake among Pregnant versus Infertile Women in Taiwan*, PLOS ONE | 2016 | Peer-reviewed | TW MeHg occurrence in Fish consumed in Taiwan and hair samples from pregnant and infertile women |
+| 9 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
 <!-- END: hmi-source-legend -->
 
 ## Page history

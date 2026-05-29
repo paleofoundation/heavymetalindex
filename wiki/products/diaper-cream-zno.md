@@ -88,8 +88,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | *[awaiting synthesis]* |
-| 2 | [[sources/rahma2022-infant-skin-barrier-function-review\|Rahma et al. 2022]]. *Skin Barrier Function in Infants: Update and Outlook*, Pharmaceutics 14: 433 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
+| 2 | [[sources/rahma2022-infant-skin-barrier-function-review\|Rahma et al. 2022]]. *Skin Barrier Function in Infants: Update and Outlook*, Pharmaceutics 14: 433 | 2022 | Peer-reviewed | This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharmacy; Lane at UCL School of Pharmacy) surveys... |
 | 3 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
 <!-- END: hmi-source-legend -->
 

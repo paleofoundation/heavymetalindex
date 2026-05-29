@@ -168,7 +168,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/fischer2022-mercury-spice-plants-poland\|Fischer et al. 2022]]. *The Mercury Concentration in Spice Plants*, Processes | 2022 | Peer-reviewed | Polish mercury in 48 spice-and-herb plant samples; strongest tHg data |
 | 4 | [[sources/gill2021-consumer-reports-spices\|Gill et al. 2021]]. *The Trouble With Spices: Heavy Metals in 15 Herbs and Spices*, Consumer Reports | 2021 | NGO report | US Pb, Cd, tAs occurrence in 126 individual products covering 38 brands and 15 herb/spice types from the US retail market (n=126) |
 | 5 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Polish 37-herb-12-spice (n=240) 4-metal panel; species-variance evidence |
-| 6 | [[sources/dghaim2015-heavy-metals-uae-herbs\|Dghaim et al. 2015]]. *Determination of Heavy Metals Concentration in Traditional Herbs Commonly Consumed in the United Arab Emirates*, Journal of Environmental and Public Health | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/dghaim2015-heavy-metals-uae-herbs\|Dghaim et al. 2015]]. *Determination of Heavy Metals Concentration in Traditional Herbs Commonly Consumed in the United Arab Emirates*, Journal of Environmental and Public Health | 2015 | Peer-reviewed | AE Pb, Cd, Cu, Fe, Zn occurrence in Seven traditional herbs (parsley n=13, basil n=11, sage n=11, oregano n=11, mint n=13, thyme n=13, chamomile n=9) purchased... (n=81) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

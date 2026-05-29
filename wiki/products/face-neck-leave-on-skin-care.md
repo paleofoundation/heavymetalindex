@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 3
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,9 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/bashir2025-heavy-metals-cosmetics-kashmir\|Bashir et al. 2025]]. *Heavy metal in cosmetics and its risk to future generation in remote area of Azad Jammu and Kashmir Trarkhel District Sudhnoti*, Scientific Reports 15: 43847 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/kicinska2025-cosmetics-online-market-heavy-metals\|Kicińska et al. 2025]]. *Health risks from heavy metals in cosmetic products available in the online consumer market*, Scientific Reports 15: 316 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/aldayel2018-facial-cosmetics-saudi-arabia\|Aldayel et al. 2018]]. *Heavy Metals Concentration in Facial Cosmetics*, Natural Products Chemistry & Research 6(1): 1000303 | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/bashir2025-heavy-metals-cosmetics-kashmir\|Bashir et al. 2025]]. *Heavy metal in cosmetics and its risk to future generation in remote area of Azad Jammu and Kashmir Trarkhel District Sudhnoti*, Scientific Reports 15: 43847 | 2025 | Peer-reviewed | PK Pb, Cd, Cu, Co, Ag, Ni, Zn, tAs, Mn, tHg occurrence in 30 cosmetic products purchased from local markets in Trarkhel, District Sudhnoti, Azad Jammu and Kashmir (AJ&K), Pakistan, 2023:... (n=30) |
+| 2 | [[sources/kicinska2025-cosmetics-online-market-heavy-metals\|Kicińska et al. 2025]]. *Health risks from heavy metals in cosmetic products available in the online consumer market*, Scientific Reports 15: 316 | 2025 | Peer-reviewed | PL/EU/US Cr, Fe, Mn, Ni, Zn occurrence in 23 cosmetic products purchased from the online consumer market: 4 foundations, 4 blushes, 4 lipsticks, 4 face creams,... (n=23) |
+| 3 | [[sources/aldayel2018-facial-cosmetics-saudi-arabia\|Aldayel et al. 2018]]. *Heavy Metals Concentration in Facial Cosmetics*, Natural Products Chemistry & Research 6(1): 1000303 | 2018 | Peer-reviewed | SA Pb, Cd, tAs, tHg, Al, Cr, Ni, Sn, Sb, U, Cu, Zn, Fe, Mn, Co, Ag, Ba, V, Mo, Li occurrence in Thirty facial-cosmetic samples representing nine 'most expensive' facial-cosmetic brands purchased from the Saudi Arabian (Riyadh) market. Four product... (n=30) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

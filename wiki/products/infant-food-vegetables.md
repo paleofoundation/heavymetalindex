@@ -36,7 +36,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | *[awaiting synthesis]* |
+| 1 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

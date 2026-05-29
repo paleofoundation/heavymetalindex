@@ -106,8 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/igweze2020-china-toys-nigeria-pb-cd-as\|Igweze et al. 2020]]. *A pediatric health risk assessment of children's toys imported from China into Nigeria*, Heliyon 6 (2020) e03732 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/cephed2013-heavy-metals-childrens-toys-nepal\|Sah et al. 2013]]. *Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal*, Centre for Public Health and Environmental Development (CEPHED), Lalitpur, Nepal — July 2013 report | 2013 | NGO report | *[awaiting synthesis]* |
+| 1 | [[sources/igweze2020-china-toys-nigeria-pb-cd-as\|Igweze et al. 2020]]. *A pediatric health risk assessment of children's toys imported from China into Nigeria*, Heliyon 6 (2020) e03732 | 2020 | Peer-reviewed | NG/CN/EU Pb, Cd, As occurrence in Thirty low-cost 'made in China' children's toys purchased January–February 2018 via market-basket sampling from supermarkets and street vendors... (n=30) |
+| 2 | [[sources/cephed2013-heavy-metals-childrens-toys-nepal\|Sah et al. 2013]]. *Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal*, Centre for Public Health and Environmental Development (CEPHED), Lalitpur, Nepal — July 2013 report | 2013 | NGO report | NP Pb, tHg, Cd, Cr occurrence in 100 children's toys/play-items purchased from markets across Kathmandu Valley (Banepa, Asan, Mahabauddha, Pulchowk, Baneshwor, Lagankhel, Balkumari) and Dhulikhel... (n=100) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

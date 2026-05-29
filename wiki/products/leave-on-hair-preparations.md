@@ -106,8 +106,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | LY Pb, tAs, Cd, Ni occurrence in 12 cosmetic samples from public markets in Tripoli, Libya (winter 2022): 3 brands of Henna leaves (LEAV1-3), 3... (n=12) |
+| 2 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

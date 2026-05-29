@@ -11,7 +11,7 @@ redirect_target_pending: false
 audience: [regulator, educator, consumer]
 wiki_doi: null
 updated: 2026-05-16
-sources: 10
+sources: 11
 ---
 
 # Lipstick — RETIRED (no Cat 2 placement)

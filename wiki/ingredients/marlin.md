@@ -124,8 +124,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | *[awaiting synthesis]* |
-| 2 | [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius\|Bhoyroo et al. 2015]]. *Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard*, African Journal of Food Science and Technology 6(4):098-107 | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
+| 2 | [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius\|Bhoyroo et al. 2015]]. *Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard*, African Journal of Food Science and Technology 6(4):098-107 | 2015 | Peer-reviewed | MU Zn, Cu, Ni, Cr, Cd, Pb, tHg, tAs occurrence in Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado caught in the Mauritian EEZ and sold/consumed as... (n=Four commercially edible pelagic fish species sampled in summer and winter from the Exclusive Economic Zone of Mauritius; per-species replicate counts not extractable from the text layer.) |
 <!-- END: hmi-source-legend -->
 
 ## Page history

@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 3
+sources: 6
 wiki_doi: null
 updated: 2026-05-20
 ---
@@ -124,7 +124,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | *[awaiting synthesis]* |
+| 1 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
 <!-- END: hmi-source-legend -->
 
 ## Page history

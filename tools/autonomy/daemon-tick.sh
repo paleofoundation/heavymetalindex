@@ -397,7 +397,17 @@ if [[ "$FETCH_ENABLED" == "always" ]] || { [[ "$FETCH_ENABLED" == "1" ]] && [[ "
   # of opaque continuous accumulation. FLOOR default 30; raise via
   # HMI_AUTO_FETCHED_FLOOR.
   AUTO_FETCHED_FLOOR="${HMI_AUTO_FETCHED_FLOOR:-30}"
-  AUTO_FETCHED_NOW=$(ls "$REPO_ROOT/raw/manual-fetch/seasonal-geographic-variance/auto-fetched/"*.pdf 2>/dev/null | wc -l | tr -d ' ')
+  # 2026-05-29 bug-fix: previously `ls *.pdf 2>/dev/null | wc -l`. When the
+  # directory has zero PDFs (which happens any time ingest fully drains the
+  # batch — e.g. the 05:17 UTC tick that drained from 25→0), the glob fails
+  # to expand, ls exits 2, `set -o pipefail` propagates non-zero, and the
+  # script's `set -e` aborts the whole tick. The EXIT trap then records
+  # LastExitStatus=1 with launchd, which STOPS firing the StartCalendar-
+  # Interval triggers altogether. That's why the daemon died silently for
+  # 13 hours on 2026-05-29 between 07:20 and 20:04 UTC despite being
+  # "alive" in launchctl list. `find` returns 0 on empty matches, which
+  # makes the pipeline pipefail-safe.
+  AUTO_FETCHED_NOW=$(find "$REPO_ROOT/raw/manual-fetch/seasonal-geographic-variance/auto-fetched" -maxdepth 1 -name "*.pdf" -type f 2>/dev/null | wc -l | tr -d ' ')
   log "Auto-fetched queue: $AUTO_FETCHED_NOW PDFs (floor=$AUTO_FETCHED_FLOOR)"
   if (( AUTO_FETCHED_NOW < AUTO_FETCHED_FLOOR )); then
     log "Below floor — refilling batch via gap-driven wishlist."

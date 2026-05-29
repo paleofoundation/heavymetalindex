@@ -124,7 +124,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|Zealand 2012]]. *Survey of total arsenic and inorganic arsenic in apple and pear juice*, Food Standards Australia New Zealand (FSANZ) targeted analytical survey, published February 2013 | 2012 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\|Zealand 2012]]. *Survey of total arsenic and inorganic arsenic in apple and pear juice*, Food Standards Australia New Zealand (FSANZ) targeted analytical survey, published February 2013 | 2012 | Government report | AU/NZ tAs, iAs occurrence in 96 apple juice samples (48 Australian-purchased, 48 New Zealand-purchased) plus 4 pear juice samples (all Queensland-purchased, Australia); apple... (n=100) |
 <!-- END: hmi-source-legend -->
 
 ## Page history

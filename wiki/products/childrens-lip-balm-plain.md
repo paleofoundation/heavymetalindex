@@ -85,7 +85,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/sccs2025-methyl-salicylate-children-exposure-1676-25\|Scientific Committee on Consumer 2025]]. *SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25)*, European Commission, Directorate-General for Health and Food Safety | 2025 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/sccs2025-methyl-salicylate-children-exposure-1676-25\|Scientific Committee on Consumer 2025]]. *SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25)*, European Commission, Directorate-General for Health and Food Safety | 2025 | Government report | This is the EU regulatory-science re-assessment of children's aggregate exposure to Methyl Salicylate (CAS 119-36-8; methyl 2-hydroxybenzoate) in cosmetic products... |
 | 2 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | CN Pb occurrence in 34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) from JingDong (Chinese top-10 e-commerce market),... (n=34) |
 <!-- END: hmi-source-legend -->
 

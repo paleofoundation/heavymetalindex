@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 8
+sources: 9
 wiki_doi: null
 updated: 2026-05-28
 ---
@@ -124,8 +124,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/efsa2021-aluminium-food-qa\|EUFIC 2021]]. *Aluminium in Food (Q&A): Sources, Safety and Regulations*, European Food Information Council (EUFIC) | 2021 | NGO report | *[awaiting synthesis]* |
-| 2 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/efsa2021-aluminium-food-qa\|EUFIC 2021]]. *Aluminium in Food (Q&A): Sources, Safety and Regulations*, European Food Information Council (EUFIC) | 2021 | NGO report | EU Al occurrence in null |
+| 2 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V occurrence in 100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted... (n=100) |
 <!-- END: hmi-source-legend -->
 
 ## Page history

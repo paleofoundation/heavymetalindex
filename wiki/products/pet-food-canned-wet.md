@@ -106,7 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/du2025-petfood-china-metals\|Du et al. 2025]]. *Individual and combined contamination of the toxic metals in commercial cat and dog food*, Scientific Reports | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/du2025-petfood-china-metals\|Du et al. 2025]]. *Individual and combined contamination of the toxic metals in commercial cat and dog food*, Scientific Reports | 2025 | Peer-reviewed | CN Pb, Cd, Cr, tHg, tAs occurrence in 93 imported cat and dog food products from the Chinese market (produced 2021-2022); 45 cat food, 48 dog... (n=93) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -168,7 +168,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/signes-pastor2017-infant-arsenic-rice-weaning\|Signes-Pastor et al. 2017]]. *Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard*, PLOS ONE | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/signes-pastor2017-infant-arsenic-rice-weaning\|Signes-Pastor et al. 2017]]. *Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard*, PLOS ONE | 2017 | Peer-reviewed | GB/EU iAs occurrence in 79 Belfast infants with pre-weaning urine samples (20 breastfed, 27 mixed fed, 32 formula fed), an 11-infant paired... (n=79) |
 | 2 | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants\|Signes-Pastor et al. 2016]]. *Inorganic arsenic in rice-based products for infants and young children*, Food Chemistry 191:128-134 | 2016 | Peer-reviewed | iAs in rice cakes sold in UK and Spain by HPLC-ICP-MS; rice cakes are a high-iAs infant snack category (EU limit 0.1 mg/kg applies); key primary data for rice-cake iAs profile |
 <!-- END: hmi-source-legend -->
 

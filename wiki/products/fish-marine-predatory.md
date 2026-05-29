@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 4
+sources: 5
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,10 +106,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/harding2018-bay-fundy-methylmercury\|Harding et al. 2018]]. *Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine*, PLoS ONE | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | *[awaiting synthesis]* |
-| 4 | [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius\|Bhoyroo et al. 2015]]. *Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard*, African Journal of Food Science and Technology 6(4):098-107 | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | tHg, Cd, Pb, tAs occurrence in 138,281 test records for aquatic-food products extracted from the WHO Food Safety Collaborative Platform (FOSCOLLAB), which integrates JECFA,... (n=138281) |
+| 2 | [[sources/harding2018-bay-fundy-methylmercury\|Harding et al. 2018]]. *Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine*, PLoS ONE | 2018 | Peer-reviewed | CA/US MeHg, tHg occurrence in Marine food-web organisms from the outer Bay of Fundy and Gulf of Maine |
+| 3 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
+| 4 | [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius\|Bhoyroo et al. 2015]]. *Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard*, African Journal of Food Science and Technology 6(4):098-107 | 2015 | Peer-reviewed | MU Zn, Cu, Ni, Cr, Cd, Pb, tHg, tAs occurrence in Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado caught in the Mauritian EEZ and sold/consumed as... (n=Four commercially edible pelagic fish species sampled in summer and winter from the Exclusive Economic Zone of Mauritius; per-species replicate counts not extractable from the text layer.) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -165,7 +165,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/munilla-garcia2023-lead-kombucha-ceramics\|Munilla et al. 2023]]. *Family outbreak of lead poisoning associated with the consumption of kombucha manufactured and marketed in ceramic containers*, Revista Española de Salud Pública | 2023 | Peer-reviewed | FCM pathway: Pb leaching from ceramic containers under acidic fermentation conditions; documented for tea-based substrate but mechanism applies equally to non-tea acidic fermented beverages; regulatory gap (no EU ML for Pb in fermented beverages) |
-| 2 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, and wheat grains collected in 2001 from commercial plantations in three Polish provinces (Mazowieckie, Lubelskie,... (n=272) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

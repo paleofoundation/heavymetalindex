@@ -106,7 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/xiong2025-heavy-metals-infant-clothing\|Xiong et al. 2025]]. *Heavy Metals in Infant Clothing: Assessing Dermal Exposure Risks and Pathways for Sustainable Textile Policies*, Toxics 13: 622 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/xiong2025-heavy-metals-infant-clothing\|Xiong et al. 2025]]. *Heavy Metals in Infant Clothing: Assessing Dermal Exposure Risks and Pathways for Sustainable Textile Policies*, Toxics 13: 622 | 2025 | Peer-reviewed | CN tAs, Cd, Cr, Cu, Mn, Ni, Pb, Zn, Fe occurrence in 33 cost-effective unwashed clothing samples randomly purchased from online market platforms in China (Yunnan / Kunming research base);... (n=33) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

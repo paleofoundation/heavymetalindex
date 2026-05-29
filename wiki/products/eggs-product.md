@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 6
+sources: 7
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -101,11 +101,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|Li et al. 2026]]. *Heavy metal concentrations in Chinese chicken eggs: insights from comparative study of urban and mining areas*, PeerJ | 2026 | Peer-reviewed | CN Cr, tAs, Cd, Pb, Ni occurrence in 70 free-range eggs from 4 non-mining cities and 3 mining areas (Wuchuan mercury mine, Danzhai mercury mine, Emin... (n=90) |
-| 2 | [[sources/ezike2024-nigerian-poultry-pte\|Cosmas et al. 2024]]. *An evaluation of the health risks, antibiotic residue levels and potentially toxic ingredients in Nigerian poultry products*, International Journal of Agricultural Invention | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|Guerrini et al. 2024]]. *Content of Toxic Elements (Arsenic, Cadmium, Mercury, Lead) in Eggs from an Ethically Managed Laying Hen Farm*, Animals | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/bazzaz2023-poultry-products-erbil-heavy-metals\|Bazzaz et al. 2023]]. *Determination of some heavy metals resides in different types of poultry production*, Tikrit Journal for Agricultural Sciences | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|Mahbub et al. 2018]]. *Detection of heavy metals in poultry feed, meat and eggs*, Asian-Australasian Journal of Food Safety and Security | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 6 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/ezike2024-nigerian-poultry-pte\|Cosmas et al. 2024]]. *An evaluation of the health risks, antibiotic residue levels and potentially toxic ingredients in Nigerian poultry products*, International Journal of Agricultural Invention | 2024 | Peer-reviewed | NG tAs, Pb, Cd occurrence in Broiler muscle, gizzard, yolk, and albumen samples from four poultry farms in Nigeria (n=36) |
+| 3 | [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|Guerrini et al. 2024]]. *Content of Toxic Elements (Arsenic, Cadmium, Mercury, Lead) in Eggs from an Ethically Managed Laying Hen Farm*, Animals | 2024 | Peer-reviewed | IT tAs, Cd, tHg, Pb occurrence in 141 eggs from 5 hen genotypes at a rural ethical farm in Puglia, Italy; 60 organic supermarket eggs... (n=201) |
+| 4 | [[sources/bazzaz2023-poultry-products-erbil-heavy-metals\|Bazzaz et al. 2023]]. *Determination of some heavy metals resides in different types of poultry production*, Tikrit Journal for Agricultural Sciences | 2023 | Peer-reviewed | IQ Cu, tAs, Pb occurrence in Imported and local poultry products consumed in Erbil city, including chicken thigh, chicken breast, quail meat, and quail... |
+| 5 | [[sources/mahbub2018-poultry-feed-meat-eggs-metals\|Mahbub et al. 2018]]. *Detection of heavy metals in poultry feed, meat and eggs*, Asian-Australasian Journal of Food Safety and Security | 2018 | Peer-reviewed | BD Cr, Pb, tAs occurrence in Poultry feed, meat, and egg samples from major poultry-producing areas of Bangladesh |
+| 6 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | GB Al, Sb, tAs, iAs, Ba, Cd, Cr, Cu, Pb, Mn, tHg, Mo, Ni, Pd, Pt, Sn, Tl, Zn occurrence in 3312 retail food samples from 24 UK locations, combined into 138 prepared-as-consumed food-category composites and 28 food-group composites (n=3312) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

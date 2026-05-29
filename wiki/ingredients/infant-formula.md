@@ -73,12 +73,12 @@ contamination_profile:
     basis: null
     notes: null
   Al:
-    status: pending
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
+    status: populated
+    typical_ppb: [9, 715.7]
+    p95_ppb: 802.9
+    confidence: low
+    n_studies: 3
+    last_reviewed: 2026-05-29
     basis: null
     notes: null
   Cr-VI:
@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 1
+sources: 4
 wiki_doi: null
 updated: 2026-05-19
 ---
@@ -124,7 +124,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | *[awaiting synthesis]* |
+| 1 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -149,3 +149,44 @@ The five most recent substantive edits to this page. The full version history li
 | [6fce7c6](https://github.com/paleofoundation/heavymetalindex/commit/6fce7c6) | 2026-05-20 | autonomy: daemon tick 2026-05-20T07-41-59Z — gap-healing + extraction + pooling + briefings |
 | [3484bf1](https://github.com/paleofoundation/heavymetalindex/commit/3484bf1) | 2026-05-19 | autonomy: daemon tick 2026-05-19T19-35-00Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
+## Heavy metal contamination profile
+
+_Pending synthesis. The per-analyte concentration table for this commodity will be populated as contributing sources accumulate per CLAUDE.md Part 9. Stub state until then._
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb  | pending | — | — | — | — |
+| Cd  | pending | — | — | — | — |
+| iAs | pending | — | — | — | — |
+| tAs | pending | — | — | — | — |
+| tHg | pending | — | — | — | — |
+| Ni  | pending | — | — | — | — |
+| Al  | pending | — | — | — | — |
+| Cr  | pending | — | — | — | — |
+| Sn  | pending | — | — | — | — |
+| U   | pending | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+
+## Processing effects
+
+_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+
+## Ingredient-derivative risk
+
+_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+
+## Mitigation options
+
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+
+## Regulatory limits that apply
+
+_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+

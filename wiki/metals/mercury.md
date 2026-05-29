@@ -9,7 +9,7 @@ microbiome_relevance: medium
 wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
 wiki_doi: null
 updated: 2026-04-30
-sources: 192
+sources: 193
 ---
 
 # Mercury
