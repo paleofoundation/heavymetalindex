@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/flavored-waters",
+    "title": "flavored-waters",
+    "hmtc_category": 5,
+    "hmtc_row": 8,
+    "category_label": null,
+    "age_range": null,
+    "label": "Flavored waters",
+    "primary_metals_of_concern": [
+      "Pb"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Data gap with documented rationale",
+    "canonical_url": "https://heavymetalindex.com/products/flavored-waters",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "162f9f79b69dd645f825be69b75c169d943fe8876d08e7281f0e4ea199a1f985",
+      "content_bytes": 11713,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/flavored-waters.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 1,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/zmudzinska2022-rte-baby-foods-poland",
+        "title": "Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zmudzinska2022-rte-baby-foods-poland",
+        "content_pin": {
+          "content_sha256": "c85146de7133bcf3f29ac846b075b5e10b1f9efb935c4cbfc702b693f84df74e",
+          "content_bytes": 15524,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 1,
+    "resolved_count": 0,
+    "caps": [
+      {
+        "slug": "regulations/fda_21cfr165110_pb_bottled_water_5",
+        "resolved": false
+      }
+    ],
+    "note": null
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/flavored-waters.md",
+    "total_claims": 4,
+    "cited_claims": 2,
+    "uncited_claims": 2,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": false
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/plant-milks-rice-based",
+    "title": "plant-milks-rice-based",
+    "hmtc_category": 5,
+    "hmtc_row": 7,
+    "category_label": null,
+    "age_range": null,
+    "label": "Plant milks, rice-based",
+    "primary_metals_of_concern": [
+      "iAs",
+      "Cd",
+      "Pb"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-3",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/plant-milks-rice-based",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "1ecb0f61d2f500d64ae7468fb48a0ee29a62a81cc3d2415e6ef2793ff7e1a0e5",
+      "content_bytes": 19314,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/plant-milks-rice-based.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 5,
+    "sources_with_structured_values": 1,
+    "contributing_sources": [
+      {
+        "slug": "sources/brombach2017-methylmercury-european-commercial-rice",
+        "title": "Methylmercury varies more than one order of magnitude in commercial European rice",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/brombach2017-methylmercury-european-commercial-rice",
+        "content_pin": {
+          "content_sha256": "b4f0b6d459849718a9f0b391b2aec016d47dde1f8064d989da29a155ea3442f1",
+          "content_bytes": 12951,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/brombach2017-methylmercury-european-commercial-rice.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/damato2026-inorganic-arsenic-rice-based-beverages",
+        "title": "Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 2,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/damato2026-inorganic-arsenic-rice-based-beverages",
+        "content_pin": {
+          "content_sha256": "87c3c01d5c2aefa1441f3276071b0a0450a0359c2c1fcf4eb6d98ebfe05f88a4",
+          "content_bytes": 5164,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gu2020-arsenic-rice-infant-food-australia",
+        "title": "Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
+        "content_pin": {
+          "content_sha256": "bc9176020972a81911a445601af13198c4ee4142b250919facc841f75e3d4d4f",
+          "content_bytes": 7706,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marques2021-trace-elements-milks-plant-based-drinks",
+        "title": "Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg",
+          "Ni",
+          "U"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/marques2021-trace-elements-milks-plant-based-drinks",
+        "content_pin": {
+          "content_sha256": "28fb6653968f855d5eb453b0e6880b173287ffcbd8d90bc97449401c95dc9f86",
+          "content_bytes": 5404,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shi2020-rice-based-infant-food-cadmium-arsenic",
+        "title": "Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shi2020-rice-based-infant-food-cadmium-arsenic",
+        "content_pin": {
+          "content_sha256": "33e613551e6a4f4a5d53d3e6cb50a4f46a731204d64165048fd725ccfed8b5cb",
+          "content_bytes": 5662,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 1,
+    "resolved_count": 0,
+    "caps": [
+      {
+        "slug": "regulations/eu2023_ias_rice_drinks_30",
+        "resolved": false
+      }
+    ],
+    "note": null
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/plant-milks-rice-based.md",
+    "total_claims": 20,
+    "cited_claims": 17,
+    "uncited_claims": 3,
+    "distinct_cited_sources": 6,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": false
+  }
+}

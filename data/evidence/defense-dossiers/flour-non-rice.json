@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/flour-non-rice",
+    "title": "Flour (wheat, corn, other)",
+    "hmtc_category": 3,
+    "hmtc_row": 1,
+    "category_label": null,
+    "age_range": null,
+    "label": "Flour (wheat, corn, other)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/flour-non-rice",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "f787d0758d2b0179660d7f1d7720b34c9b0cf23509a3cbba3217de6c1712bbd7",
+      "content_bytes": 9797,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/flour-non-rice.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 8,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/asaditouranlou2025-bread-wheat-mashhad",
+        "title": "Human health risk assessment of arsenic and potentially toxic elements exposure in bread and wheat flour in Northeast Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Al",
+          "Cr",
+          "Cd",
+          "Ni",
+          "Pb",
+          "tHg",
+          "Fe",
+          "Zn",
+          "Cu",
+          "Co",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/asaditouranlou2025-bread-wheat-mashhad",
+        "content_pin": {
+          "content_sha256": "b2697cc2fb6e36047944a8954bf0e238b4cdb56748d7c98c21beeec45ff3a4e4",
+          "content_bytes": 8823,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/asaditouranlou2025-bread-wheat-mashhad.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fera2015-uk-tds-metals",
+        "title": "Total Diet Study of metals and other elements in food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "iAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Mo",
+          "Ni",
+          "Pd",
+          "Pt",
+          "Sn",
+          "Tl",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
+        "content_pin": {
+          "content_sha256": "9991ede4988d86b8302ca6c36214bfd53b4b6ac82500a0eb07e9e77c35c08db0",
+          "content_bytes": 10998,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gul2024-quinoa-cadmium-lead-stress",
+        "title": "Effects of cadmium and lead stress on quinoa (Chenopodium quinoa Willd.) plant growth and antioxidant enzyme activities",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gul2024-quinoa-cadmium-lead-stress",
+        "content_pin": {
+          "content_sha256": "9023b18ce4709a0d712f5f4a067942d9d58863dc99ed323efefd127068f18ad1",
+          "content_bytes": 3648,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/gul2024-quinoa-cadmium-lead-stress.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jaishree2015-effluent-irrigated-crops-metals",
+        "title": "Heavy metal accumulation in vegetables irrigated with industrial effluent",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Pb",
+          "Cu",
+          "Cr",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jaishree2015-effluent-irrigated-crops-metals",
+        "content_pin": {
+          "content_sha256": "1e63e1080bd547d35c985bb941fec0cd60c86adca4ff28807849ecb885cd15cc",
+          "content_bytes": 3149,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/jaishree2015-effluent-irrigated-crops-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/maccaferri2019-durum-wheat-genome-cadmium",
+        "title": "A high-density, SNP-based consensus map of tetraploid wheat as a bridge to integrate durum and bread wheat genomics and breeding",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/maccaferri2019-durum-wheat-genome-cadmium",
+        "content_pin": {
+          "content_sha256": "b93b861b7ba2bfac38d3f2de1f09141bf42dc5132616f893eb5ad386cc2f17a9",
+          "content_bytes": 4222,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/maccaferri2019-durum-wheat-genome-cadmium.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mania2020-nickel-cereal-grains-poland",
+        "title": "Assessment of exposure to nickel intake with selected cereal grains and cereal-based products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mania2020-nickel-cereal-grains-poland",
+        "content_pin": {
+          "content_sha256": "54583f087f2295873a4e86d671ea8cb134c8266c4ba48b73181f01c1af96c192",
+          "content_bytes": 7385,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pompa2021-durum-wheat-cd-pb-hg-italy",
+        "title": "Evaluation and Dietary Exposure Assessment of Selected Toxic Trace Elements in Durum Wheat (Triticum durum) Imported into the Italian Market: Six Years of Official Controls",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pompa2021-durum-wheat-cd-pb-hg-italy",
+        "content_pin": {
+          "content_sha256": "b29e66060c98cba259eb83a152ae845df2a61530310e238e90a330e2dafa7989",
+          "content_bytes": 5941,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/pompa2021-durum-wheat-cd-pb-hg-italy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/slepecka2017-ecological-cereal-heavy-metals-poland",
+        "title": "Evaluation of cadmium, lead, zinc and copper levels in selected ecological cereal food products and their non-ecological counterparts",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Zn",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/slepecka2017-ecological-cereal-heavy-metals-poland",
+        "content_pin": {
+          "content_sha256": "b7f44639818ec5d43a4b1a00246355e2a17b0df4d7b7e9f36a59d4fe30263d63",
+          "content_bytes": 8727,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/slepecka2017-ecological-cereal-heavy-metals-poland.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/flour-non-rice.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

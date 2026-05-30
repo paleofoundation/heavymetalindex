@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/leafy-vegetables-other",
+    "title": "Leafy / Green Vegetables, Other",
+    "hmtc_category": 4,
+    "hmtc_row": 4,
+    "category_label": "Fruits, Vegetables, and Produce",
+    "age_range": null,
+    "label": "Leafy / Green Vegetables, Other",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/leafy-vegetables-other",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "48b733a7db73739f26ec0d6cc649d4a79d11a37af737944eb07c03a0d73e3e4b",
+      "content_bytes": 11618,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/leafy-vegetables-other.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 11,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/ahmed2017-bangladesh-vegetable-arsenic",
+        "title": "Arsenic Contamination of Water-Soil-Crop System in an Industrial Area of Bangladesh",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ahmed2017-bangladesh-vegetable-arsenic",
+        "content_pin": {
+          "content_sha256": "872219124434e23a7a507c5b3998aa0c6c53c2f6f9bbc90ca917e7023e97e365",
+          "content_bytes": 3205,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ahmed2017-bangladesh-vegetable-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bambara2023-loumbila-vegetables-heavy-metals",
+        "title": "Evaluation of the Metallic Contamination of Market Garden Products around the Loumbila Dam",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Ni",
+          "Zn",
+          "Cr",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bambara2023-loumbila-vegetables-heavy-metals",
+        "content_pin": {
+          "content_sha256": "0a2891e8ce2d1a55a582041155856589c0bcb931d8d9586b62e2e3158b6a2425",
+          "content_bytes": 3053,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bambara2023-loumbila-vegetables-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
+        "title": "Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
+        "content_pin": {
+          "content_sha256": "533406305ed5aa773ba5e7eed27c93ae1365431d03a870f52e3e0e3dddb35cef",
+          "content_bytes": 22033,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kim2024-metals-kale-urban-rural-maryland",
+        "title": "Nutrients and non-essential metals in darkibor kale grown at urban and rural farms: a pilot study",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "U"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kim2024-metals-kale-urban-rural-maryland",
+        "content_pin": {
+          "content_sha256": "7b13bcfd023fc03249e5337060e4b9775a42cdbef4538bd483b9362a04241460",
+          "content_bytes": 5382,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/kim2024-metals-kale-urban-rural-maryland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/osuolale2025-leafy-vegetables-ondo-trace-elements",
+        "title": "Assessing Public Health Risks from Trace Element Contamination in Common Leafy Vegetables from Ondo, Nigeria, Using PIXE and Multivariate Statistics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Co",
+          "Cd",
+          "Pb",
+          "Fe",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/osuolale2025-leafy-vegetables-ondo-trace-elements",
+        "content_pin": {
+          "content_sha256": "e0fe563ace309b0194da1e51e52e35ac11b8aa4be020554726dcc283cd3a70dc",
+          "content_bytes": 3025,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/osuolale2025-leafy-vegetables-ondo-trace-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pal2017-wastewater-vegetables-heavy-metals",
+        "title": "Heavy Metals in Soil and Vegetables and their Effect on Health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cu",
+          "Zn",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pal2017-wastewater-vegetables-heavy-metals",
+        "content_pin": {
+          "content_sha256": "da6af0e8c7665fab43a8b967fb5f3722b9033889557701335926a207feef0615",
+          "content_bytes": 3875,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/pal2017-wastewater-vegetables-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sadee2022-erbil-vegetables",
+        "title": "Determination of trace metals in vegetables using ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Pb",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sadee2022-erbil-vegetables",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/see2025-malaysia-leafy-vegetables-icp-oes",
+        "title": "Heavy Metals Assessment in Selected Leafy Vegetables from Selangor, Malaysia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/see2025-malaysia-leafy-vegetables-icp-oes",
+        "content_pin": {
+          "content_sha256": "1c3564389b2861751f58ef70838ddc64efdd7575ce9a63d825c927ebc1cb6045",
+          "content_bytes": 18245,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/see2025-malaysia-leafy-vegetables-icp-oes.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sultana2022-dhaka-root-leafy-vegetables",
+        "title": "Heavy Metals in Commonly Consumed Root and Leafy Vegetables in Dhaka City, Bangladesh, and Assessment of Associated Public Health Risks",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Cu",
+          "Zn",
+          "Fe",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sultana2022-dhaka-root-leafy-vegetables",
+        "content_pin": {
+          "content_sha256": "090c9253c707d7937da2eb376551447c5245a1be42c5e01a824b6659967842ec",
+          "content_bytes": 22215,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/sultana2022-dhaka-root-leafy-vegetables.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/vela2023-quito-vegetables-cd-pb",
+        "title": "Determination of cadmium and lead in vegetables marketed in Quito, Ecuador",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/vela2023-quito-vegetables-cd-pb",
+        "content_pin": {
+          "content_sha256": "b2ee196a4cc5c86b3d608ee98ecbca60aa56e25f24e618de112362ea5dc47d13",
+          "content_bytes": 3129,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/vela2023-quito-vegetables-cd-pb.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wang2021-houttuynia-mercury-china",
+        "title": "Mercury accumulation in vegetable Houttuynia cordata Thunb. from two different geological areas in southwest China and implications for human consumption",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wang2021-houttuynia-mercury-china",
+        "content_pin": {
+          "content_sha256": "3f1deb871c584fd1fc473f91af2f27ef5053d60f6ed12db7d6a8252005413e1d",
+          "content_bytes": 3642,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/wang2021-houttuynia-mercury-china.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/leafy-vegetables-other.md",
+    "total_claims": 1,
+    "cited_claims": 1,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

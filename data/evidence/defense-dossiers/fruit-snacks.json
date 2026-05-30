@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/fruit-snacks",
+    "title": "Fruit Snacks",
+    "hmtc_category": 4,
+    "hmtc_row": 3,
+    "category_label": "Fruits, Vegetables, and Produce",
+    "age_range": null,
+    "label": "Fruit Snacks",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "tAs"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/fruit-snacks",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "21908b8d39359af781b6c28f877dc0fee368a2b977de90a1522f366614230f22",
+      "content_bytes": 8364,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/fruit-snacks.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 1,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/fda2016-arsenic-rice-cereal-analytic-results",
+        "title": "Analytical Results: Inorganic Arsenic in Infant/Toddler Foods (2016)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2016-arsenic-rice-cereal-analytic-results",
+        "content_pin": {
+          "content_sha256": "f28e0d3110eeec8c7407b410e78578168f649d6a22eaaf868f35f37e9ce8b2d5",
+          "content_bytes": 5411,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2016-arsenic-rice-cereal-analytic-results.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/fruit-snacks.md",
+    "total_claims": 1,
+    "cited_claims": 1,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/fruit-juice-not-canned",
+    "title": "Fruit Juice (Not Canned)",
+    "hmtc_category": 1,
+    "hmtc_row": 14,
+    "category_label": "Infant and Child Foods",
+    "age_range": "0-5",
+    "label": "Fruit juice (not canned)",
+    "primary_metals_of_concern": [
+      "iAs",
+      "Ni",
+      "Cd",
+      "Pb"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "children-0-60mo",
+    "evidence_fitness": "EF-3",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/fruit-juice-not-canned",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "9129aeaadbaa25191511780c550811416e5b6bcf3096e921430f4c1c8e3b8977",
+      "content_bytes": 41510,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/fruit-juice-not-canned.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 29,
+    "sources_with_structured_values": 5,
+    "contributing_sources": [
+      {
+        "slug": "sources/alzagtat2016-fruit-nectars-libya-heavy-metals",
+        "title": "Conformity of Fruit Nectar Samples to Libyan Specification Standards",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Zn",
+          "Fe",
+          "tAs",
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alzagtat2016-fruit-nectars-libya-heavy-metals",
+        "content_pin": {
+          "content_sha256": "ed5aded495ffcfe52ed0aad572fdd361fcbf0a1a436d42bb34eb0dc10ddf2a6e",
+          "content_bytes": 2690,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/atsdr2005-tin-toxicological-profile",
+        "title": "Toxicological Profile for Tin and Tin Compounds",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/atsdr2005-tin-toxicological-profile",
+        "content_pin": {
+          "content_sha256": "2f19cd31fe51b5a3f6f062976e18ac51b4d6a06c02fa57ca07d64bf11bee047a",
+          "content_bytes": 7828,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/atsdr2005-tin-toxicological-profile.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bair2022-infant-toddler-food-heavy-metals-policy",
+        "title": "A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bair2022-infant-toddler-food-heavy-metals-policy",
+        "content_pin": {
+          "content_sha256": "5fbc767d67b502e2f58ee89e1a6118cb59dee190ecb829d7170b796896627dc9",
+          "content_bytes": 14171,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/balalimood2018-fruit-juice-mashhad-pb-as",
+        "title": "Arsenic and Lead Contaminations in Commercial Fruit Juices of Markets in Mashhad, Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/balalimood2018-fruit-juice-mashhad-pb-as",
+        "content_pin": {
+          "content_sha256": "4e716f9781710e4b5672337ae74a14035c36f94d0598008565e490b519bea465",
+          "content_bytes": 6677,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/balalimood2018-fruit-juice-mashhad-pb-as.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/benoy1971-tin-toxicity-canned-fruit-juices",
+        "title": "The Toxicity of Tin in Canned Fruit Juices and Solid Foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/benoy1971-tin-toxicity-canned-fruit-juices",
+        "content_pin": {
+          "content_sha256": "6a9701d42a91034da410d6777f416bdb879893c1b77483a6609df50f4d168189",
+          "content_bytes": 5756,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chekri2019-french-infant-toddler-tds-trace-elements",
+        "title": "Trace element contents in foods from the first French Total Diet Study on infants and toddlers",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 18,
+        "metal_species": [
+          "Al",
+          "Cd",
+          "Co",
+          "Cr-total",
+          "Ni",
+          "Sb",
+          "Sn",
+          "V",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chekri2019-french-infant-toddler-tds-trace-elements",
+        "content_pin": {
+          "content_sha256": "25bd12220a126d1c8189ec24e16a1ffdc134f81faee26ef9ba44cedfb4758e35",
+          "content_bytes": 7948,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/desouza2022-fruit-juice-trace-elements",
+        "title": "Determination of the Trace Element Contents of Fruit Juice Samples by ICP OES and ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mg",
+          "Mn",
+          "Mo",
+          "Ni",
+          "Pb",
+          "Sb",
+          "V",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/desouza2022-fruit-juice-trace-elements",
+        "content_pin": {
+          "content_sha256": "de50c572ed763449b13e54d0cd3098b4c61b6cd4eb0e695533c164af733b0386",
+          "content_bytes": 7725,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/desouza2022-fruit-juice-trace-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/farid2010-fruit-juices-jeddah-trace-elements",
+        "title": "Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/farid2010-fruit-juices-jeddah-trace-elements",
+        "content_pin": {
+          "content_sha256": "f13ee7f9e0256149f4c16c52ac8fc335ea355addfe65137005db6a7db6fc4466",
+          "content_bytes": 8699,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/farid2010-fruit-juices-jeddah-trace-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2004-juice-haccp-lead",
+        "title": "Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2004-juice-haccp-lead",
+        "content_pin": {
+          "content_sha256": "23e957245cd6bafdd9bedb5be2310d61b89bd5ff8696673db781878a89b0fc76",
+          "content_bytes": 2531,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2004-juice-haccp-lead.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2011-apple-juice-arsenic-speciation",
+        "title": "Results of Arsenic Analysis in Single-Strength Apple Juice 2011 (ORA Sampling Assignment 2011102701)",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 2,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2011-apple-juice-arsenic-speciation",
+        "content_pin": {
+          "content_sha256": "c8bdf7caef609f7fb5974bd76210d8d73785af41d8422c18c00583576b1ab362",
+          "content_bytes": 3810,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2011-apple-juice-arsenic-speciation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2016-infant-toddler-foods-inorganic-arsenic",
+        "title": "Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 2,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
+        "content_pin": {
+          "content_sha256": "7a972ebe0f0690fafe7b5882f79e9e22e51edc0f683e0abeffc05baf740d8820",
+          "content_bytes": 7506,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2018-lead-in-juice-fy2005-fy2018",
+        "title": "Analytical Results for Lead in Juice Sampled Under the FDA's Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic Compliance Program (FY2005-FY2018)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2018-lead-in-juice-fy2005-fy2018",
+        "content_pin": {
+          "content_sha256": "27ff99724cadf1c478b511b2532ac121034cc4a6e351d1aab4763508b8b8b581",
+          "content_bytes": 5742,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2018-lead-in-juice-fy2005-fy2018.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2022-draft-lead-juice",
+        "title": "Draft Guidance for Industry: Action Levels for Lead in Juice",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2022-draft-lead-juice",
+        "content_pin": {
+          "content_sha256": "d007c60e7f8aa9b53db25bf3fb4683a10b92756307df107ed5319520e07398f4",
+          "content_bytes": 2427,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2022-draft-lead-juice.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2022-tds-elements-fy2018-fy2020",
+        "title": "FY2018-FY2020 TDS Elements Analytical Results",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 4,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2022-tds-elements-fy2018-fy2020",
+        "content_pin": {
+          "content_sha256": "fe7d628e9043298e6a90e9c4a7d83d8f19cd4dbebb57c7fcfdc0f1a089f54deb",
+          "content_bytes": 10649,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2022-tds-elements-fy2018-fy2020.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fsanz2012-arsenic-apple-pear-juice-australia-nz",
+        "title": "Survey of total arsenic and inorganic arsenic in apple and pear juice",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz",
+        "content_pin": {
+          "content_sha256": "1cf35c0aa72c543e7f877857d8f3b68e176984a9171f31c1775ee2e2bdde587f",
+          "content_bytes": 16798,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/houlihan2019-hbbf-whats-in-baby-food",
+        "title": "What's in My Baby's Food? A National Investigation Finds 95 Percent of Baby Foods Tested Contain Toxic Chemicals That Lower Babies' IQ, Including Arsenic and Lead",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/houlihan2019-hbbf-whats-in-baby-food",
+        "content_pin": {
+          "content_sha256": "28f9fb04d64fa020fb065502d5b9022c0467ffe1eff611d566251145496fdddd",
+          "content_bytes": 12150,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/houlihan2019-hbbf-whats-in-baby-food.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kubachka2019-arsenic-speciation-fruit-juice-fda",
+        "title": "Quantitative Determination of Arsenic Species from Fruit Juices Using Acidic Extraction with HPLC-ICPMS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kubachka2019-arsenic-speciation-fruit-juice-fda",
+        "content_pin": {
+          "content_sha256": "b4d83493e9477b23995fd18b8b4ca14762ae7686097b67439d84aba1110239e5",
+          "content_bytes": 4638,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/magdas2012-romanian-apple-juice-isotopic-elemental",
+        "title": "Isotopic and Elemental Determination in Some Romanian Apple Fruit Juices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Ni",
+          "Cr",
+          "U",
+          "Co",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/magdas2012-romanian-apple-juice-isotopic-elemental",
+        "content_pin": {
+          "content_sha256": "7d4b71eb965abe35fd744f1c1249dba5d64f496559f89f7de0311f3796d2f7a4",
+          "content_bytes": 12186,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mania2015-toxic-elements-infant-food-poland",
+        "title": "Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
+        "content_pin": {
+          "content_sha256": "d9fb0f46fec48df7f4e2f5d800c86744623b2c6e09732cf0fe11b6d4634aa5d7",
+          "content_bytes": 10309,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/paudel2024-packaged-fruit-juices-nepal",
+        "title": "Analysis and Detection of Heavy Metals Content in Some Selected Packaged Fruit Juices of Kathmandu City by Flame Atomic Absorption Spectroscopy",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Fe",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/paudel2024-packaged-fruit-juices-nepal",
+        "content_pin": {
+          "content_sha256": "a0a3248be3ac61994ec344cd97e47a416573e2072b1bd458f901155fbf7f91c4",
+          "content_bytes": 14873,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/paudel2024-packaged-fruit-juices-nepal.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/paula2015-fruit-juices-elements-portugal",
+        "title": "Effects of Pre- and Post-Harvest Factors on the Selected Elements Contents in Fruit Juices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr",
+          "Pb",
+          "Ni",
+          "Zn",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/paula2015-fruit-juices-elements-portugal",
+        "content_pin": {
+          "content_sha256": "b296e9f1a896d8adf82ae333fa876aefc227f316844a582b24ec05bba99dc15c",
+          "content_bytes": 6433,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/paula2015-fruit-juices-elements-portugal.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/reczajska2005-chromium-plant-foods-poland",
+        "title": "Determination of Chromium Content of Food and Beverages of Plant Origin",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
+        "content_pin": {
+          "content_sha256": "dbb2fcaeebe483b9d7e8936796a33929476fe606df0702e2bd2a836fbc5cbff9",
+          "content_bytes": 10398,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
+        "title": "Concentration of cadmium and lead in vegetables and fruits",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
+        "content_pin": {
+          "content_sha256": "e6569a775e25323659c381ba88bb343a023ad173accf1e32bdcbb2844a882ed2",
+          "content_bytes": 18833,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/savic2015-clear-orange-juice-minerals",
+        "title": "The Presence of Minerals in Clear Orange Juices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ag",
+          "Al",
+          "tAs",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Li",
+          "Mg",
+          "Mn",
+          "Mo",
+          "Ni",
+          "Pb",
+          "Sb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/savic2015-clear-orange-juice-minerals",
+        "content_pin": {
+          "content_sha256": "e6e4ab4d434924f3e5f53ca3fd51f4a4b97bbf6a27a8619569a8ca6b92373870",
+          "content_bytes": 6530,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/savic2015-clear-orange-juice-minerals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran",
+        "title": "Assessment of Contents and Health Risk of Aluminum and Copper through Consumption of Commercial Fruit Juices",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran",
+        "content_pin": {
+          "content_sha256": "07efdedbdf7a441e19929e9783bd5238265a17809c40f39425623df1966a711e",
+          "content_bytes": 4958,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/subedi2022-fruit-juices-heavy-metals",
+        "title": "Determination of heavy metals in varieties of fresh and packaged fruit juices along with powdered fruit drink mixes in Kathmandu Valley",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Fe",
+          "Mn",
+          "Zn",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/subedi2022-fruit-juices-heavy-metals",
+        "content_pin": {
+          "content_sha256": "b2b7b545096a9a490e7241c7782e82cc84653ec22c490b785b4b9af4d3f51766",
+          "content_bytes": 2833,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/subedi2022-fruit-juices-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tarigan2016-factors-tin-released-canned-beverages",
+        "title": "Factors are Affecting Tin Released in Canned Beverages",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tarigan2016-factors-tin-released-canned-beverages",
+        "content_pin": {
+          "content_sha256": "3bb8a56060d6bff9a7eaee39ef782a3fd2510891490f87a031fe08ca781710fa",
+          "content_bytes": 4909,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
+        "title": "Toxic metal contamination and health risk assessment of packaged fruit juices for children in Gondar city, Ethiopia",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 8,
+        "metal_species": [
+          "Cd",
+          "Cr-total",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
+        "content_pin": {
+          "content_sha256": "4a3715220e7143541a86630b6702c920882e62fd8864a7436406cf183a63a56d",
+          "content_bytes": 21883,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/youssao2018-fruit-juices-syrup-benin",
+        "title": "Levels of Minor and Trace Elements of Some Commercial Fruit Juices and Syrup Produced in Artisanal and Semi-Industrial Units in Benin Republic",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Ba",
+          "Be",
+          "Cd",
+          "Hg",
+          "Pb",
+          "Sn",
+          "Tl",
+          "U"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/youssao2018-fruit-juices-syrup-benin",
+        "content_pin": {
+          "content_sha256": "749cd2446d160ebab0dd323bf8e4da1c729c3111199e134488d7165b776b2162",
+          "content_bytes": 8270,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/youssao2018-fruit-juices-syrup-benin.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/fruit-juice-not-canned.md",
+    "total_claims": 125,
+    "cited_claims": 125,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 38,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

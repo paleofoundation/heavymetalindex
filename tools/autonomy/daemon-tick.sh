@@ -453,6 +453,19 @@ run_step "provenance audit" node tools/autonomy/provenance-audit.mjs || true
 # stubs" section at the bottom. Idempotent.
 run_step "link orphans" node tools/autonomy/link-orphans.mjs || true
 
+# Step 4g: brand-facing evidence artifacts — regenerate the per-page evidence
+# packet index, the regulations dataset, and the Certification Defense Dossiers
+# so the COMMITTED brand deliverables stay faithful to the corpus this tick.
+# The served copies are also rebuilt at deploy (npm prebuild), but the daemon
+# is the continuous-ingest engine, so without this the git-committed dossiers
+# would lag the corpus between deploys — a stale litigation artifact. Order
+# matters: build-defense-dossier.mjs JOINS the evidence-packet index (content
+# pins) and the regulations dataset (caps), so both must rebuild first. All
+# three outputs land under the daemon's commit allowlist (data/evidence, wiki).
+run_step "evidence-packet index" node tools/build-evidence-packet-index.mjs || true
+run_step "regulations dataset" node tools/build-regulations-dataset.mjs || true
+run_step "defense dossiers" node tools/build-defense-dossier.mjs || true
+
 # ---------- CHECKPOINT 1: commit the deterministic regeneration phase ----------
 # Everything above (routing audit, page creation, heal-gaps, extraction,
 # manual-fetch + codex ingest, pooling, synthesis writer, firewall fix,

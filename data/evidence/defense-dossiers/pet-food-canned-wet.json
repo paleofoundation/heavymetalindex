@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/pet-food-canned-wet",
+    "title": "Complete & balanced canned/wet",
+    "hmtc_category": 17,
+    "hmtc_row": 2,
+    "category_label": null,
+    "age_range": null,
+    "label": "Complete & balanced canned/wet",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/pet-food-canned-wet",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "fbca11ea4c66b2ed961b7e4cfc89112dee03ae67169845b8e993f251b7f96ae9",
+      "content_bytes": 8133,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/pet-food-canned-wet.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 1,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/du2025-petfood-china-metals",
+        "title": "Individual and combined contamination of the toxic metals in commercial cat and dog food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/du2025-petfood-china-metals",
+        "content_pin": {
+          "content_sha256": "69158aa7c8931a39d1936527862b733fb2f21f530025390495c12df3f4d429d3",
+          "content_bytes": 15267,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/du2025-petfood-china-metals.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/pet-food-canned-wet.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

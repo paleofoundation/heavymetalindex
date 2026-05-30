@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/soy-products",
+    "title": "Soy Products",
+    "hmtc_category": 4,
+    "hmtc_row": 9,
+    "category_label": "Fruits, Vegetables, and Produce",
+    "age_range": null,
+    "label": "Soy Products",
+    "primary_metals_of_concern": [
+      "Cd",
+      "Ni",
+      "Al",
+      "tHg"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/soy-products",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "85a9f95ba78be861e447ed95aaa76151e39d98e7971f7145f14ad6d6f8a71e30",
+      "content_bytes": 9862,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/soy-products.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 1,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/zhang2026-trace-metals-five-crops-chongqing",
+        "title": "Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhang2026-trace-metals-five-crops-chongqing",
+        "content_pin": {
+          "content_sha256": "3fe3ff05bd2026f7bc9d23a8590d859ea5eb24f6ad22545201edb7d60cfbf24a",
+          "content_bytes": 5497,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/soy-products.md",
+    "total_claims": 1,
+    "cited_claims": 1,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

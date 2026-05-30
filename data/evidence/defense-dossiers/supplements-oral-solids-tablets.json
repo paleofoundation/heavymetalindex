@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/supplements-oral-solids-tablets",
+    "title": "Oral solids: tablets/caplets",
+    "hmtc_category": 16,
+    "hmtc_row": 1,
+    "category_label": null,
+    "age_range": null,
+    "label": "Oral solids: tablets/caplets",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-tablets",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "a56858515f6c0d34836130b0fac5a3e70bb2e15411670e82b648ed532ad86ce0",
+      "content_bytes": 7824,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/supplements-oral-solids-tablets.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 1,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/brzezinska-rojek2023-beetroot-supplements-safety",
+        "title": "Evaluation of the Safety and Potential Benefits of Beetroot-Based Dietary Supplements According to Their Elemental Composition",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/brzezinska-rojek2023-beetroot-supplements-safety",
+        "content_pin": {
+          "content_sha256": "38f17ce9d2ae4ecd7030eaa037461f6e35b0bffcc77a362ace1c7ec38b909175",
+          "content_bytes": 4787,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/supplements-oral-solids-tablets.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

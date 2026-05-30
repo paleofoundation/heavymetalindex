@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/processed-meats",
+    "title": "Processed meats (sausage, deli meat, bacon, hot dogs)",
+    "hmtc_category": 11,
+    "hmtc_row": 7,
+    "category_label": null,
+    "age_range": null,
+    "label": "Processed meats (sausage, deli meat, bacon, hot dogs)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/processed-meats",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "e80d28c0db20f22b2cfb9a01fdd595a522ad09f4fa52c3cc365b6e3cc1294785",
+      "content_bytes": 9394,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/processed-meats.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 8,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/altalib2025-frozen-meat-libya",
+        "title": "Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/altalib2025-frozen-meat-libya",
+        "content_pin": {
+          "content_sha256": "4d508c70437d002be5e5642f1b9693751be3798d0e5761eaa12c6241a277bd05",
+          "content_bytes": 7347,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/han2024-nickel-zhejiang-china",
+        "title": "Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/han2024-nickel-zhejiang-china",
+        "content_pin": {
+          "content_sha256": "82ef1aeaeb70d898129dc3e4ff6037d56136502b3ed95b48a00bddcc5b455c82",
+          "content_bytes": 7661,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/han2024-nickel-zhejiang-china.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hoha2014-pork-pb-cd-cu-zn-romania",
+        "title": "Heavy metals contamination levels in processed meat marketed in Romania",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hoha2014-pork-pb-cd-cu-zn-romania",
+        "content_pin": {
+          "content_sha256": "ebf21cceeb4b15d9636e77a5106062308c7be6f54a7749230589286ea1605d41",
+          "content_bytes": 6950,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hoha2014-pork-pb-cd-cu-zn-romania.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/manfredi2025-nickel-meat-italy",
+        "title": "Dietary exposure assessment to nickel through the consumption of poultry, beef, and pork meat for different age groups in the Italian population",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/manfredi2025-nickel-meat-italy",
+        "content_pin": {
+          "content_sha256": "dce5c33ea40197bb8a0a29e983967d0ecb0d3aa80ec2ed31ca14441f930c0804",
+          "content_bytes": 3097,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/manfredi2025-nickel-meat-italy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/saraiva2021-chromium-speciation-milk-meat-cooking-france",
+        "title": "Chromium speciation analysis in raw and cooked milk and meat samples by species-specific isotope dilution and HPLC-ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr-VI",
+          "Cr-III",
+          "Cr-total"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france",
+        "content_pin": {
+          "content_sha256": "6746bde248cc7efa75fad91ad3bb13c92406838028956c9ef0dd456d68ed2bca",
+          "content_bytes": 11769,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shaltout2020-meat-products-pb-cd-nitrite-egypt",
+        "title": "Prevalence of Some Chemical Hazards in Some Meat Products",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt",
+        "content_pin": {
+          "content_sha256": "f840257981d67964f89254a554353075a8d51c5771a61da5d595a5e5e321753d",
+          "content_bytes": 5988,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wysok2025-heavy-metals-sheep-casings",
+        "title": "Heavy Metal Contamination in Natural Sheep Casings",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wysok2025-heavy-metals-sheep-casings",
+        "content_pin": {
+          "content_sha256": "20972b72ed5f8e702e21a238febaafeca465ea4358e9a38de32c244127e48725",
+          "content_bytes": 3796,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/wysok2025-heavy-metals-sheep-casings.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wysok2025-sheep-casings-metals-poland",
+        "title": "Assessment of Microbial and Heavy Metal Contamination of Natural Sheep Casings from Different Geographic Regions",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wysok2025-sheep-casings-metals-poland",
+        "content_pin": {
+          "content_sha256": "40961db7e593cc45f1d30bc7f2f570f1d14a0e5a527f3ff994a04b1120fe5dbb",
+          "content_bytes": 3275,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/wysok2025-sheep-casings-metals-poland.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/processed-meats.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

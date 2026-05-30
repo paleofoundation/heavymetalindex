@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/childrens-makeup",
+    "title": "Children's Makeup (ages 0-5)",
+    "hmtc_category": 2,
+    "hmtc_row": 13,
+    "category_label": "Infant and Child Personal Care",
+    "age_range": "0-5",
+    "label": "Children's Makeup (ages 0-5)",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Ni",
+      "Cr"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "infants-and-children-0-5",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/childrens-makeup",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "84aea9850dafa99f547e2fb5e7c98b6b79eebeef1c1d364a0acfaddbabb6dfad",
+      "content_bytes": 10613,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/childrens-makeup.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 7,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/arshad2020-heavy-metals-cosmetic-products-pakistan",
+        "title": "Evaluation of heavy metals in cosmetic products and their health risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr",
+          "Fe",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/arshad2020-heavy-metals-cosmetic-products-pakistan",
+        "content_pin": {
+          "content_sha256": "58c8d06ef513edfe2b90d1d6938780d51c0e261a37d31a33b0d540a87e9cb3bf",
+          "content_bytes": 11314,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/arshad2020-heavy-metals-cosmetic-products-pakistan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/attard2022-heavy-metals-cosmetics-review",
+        "title": "Heavy Metals in Cosmetics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
+        "content_pin": {
+          "content_sha256": "fe9595130b1d72fab1b9d1400f3b1a1ddda637d461d378eac29506203aec931d",
+          "content_bytes": 12028,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jitareanu2025-heavy-metals-cosmetics-overview",
+        "title": "An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "iAs",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "Al",
+          "Fe",
+          "Cu",
+          "Zn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
+        "content_pin": {
+          "content_sha256": "c54f5045d3398f53a522353834903d452ce415cf7e3726c0cdb422858fdfae94",
+          "content_bytes": 12114,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/medley2023-childrens-makeup-body-products-us-usage",
+        "title": "Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/medley2023-childrens-makeup-body-products-us-usage",
+        "content_pin": {
+          "content_sha256": "54348d7438f2493994460ebc9586417f20f676a1a8049c30f7989f1cd467b519",
+          "content_bytes": 12053,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mercan2024-istanbul-toy-makeup-14-elements",
+        "title": "Experimental study for inorganic and organic profiling of toy makeup products: Estimating the potential threat to child health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "As",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Hg",
+          "Mn",
+          "Ni",
+          "Se",
+          "Sb",
+          "Pb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mercan2024-istanbul-toy-makeup-14-elements",
+        "content_pin": {
+          "content_sha256": "686d37e0568fc7d4ab8dd9e2f361e559ae623407e41465d2b78e1041744d8482",
+          "content_bytes": 18945,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mercan2024-istanbul-toy-makeup-14-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/moriceau2025-cosmetics-icpms-iso21392",
+        "title": "Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr",
+          "Ni",
+          "Sb",
+          "Al",
+          "Sn",
+          "Co",
+          "Mn",
+          "Fe",
+          "Zn",
+          "Be",
+          "Se",
+          "Tl",
+          "Ti",
+          "W",
+          "Pt"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
+        "content_pin": {
+          "content_sha256": "70dda34042668bc586dcd1a7ffb7a9afe6464574eed6804723b112f2b2b8d59b",
+          "content_bytes": 19858,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/salles2023-face-paints-pancakes-brazil-cancer-risk",
+        "title": "Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Ni",
+          "Pb",
+          "Sb",
+          "Sn",
+          "Sr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/salles2023-face-paints-pancakes-brazil-cancer-risk",
+        "content_pin": {
+          "content_sha256": "f442a3936df387dc2d7cfba14415db944d195575c9592c577af4c29ac0e6cc0c",
+          "content_bytes": 18654,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/salles2023-face-paints-pancakes-brazil-cancer-risk.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/childrens-makeup.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

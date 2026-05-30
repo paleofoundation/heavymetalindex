@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/peanuts",
+    "title": "Peanuts",
+    "hmtc_category": 4,
+    "hmtc_row": 10,
+    "category_label": "Fruits, Vegetables, and Produce",
+    "age_range": null,
+    "label": "Peanuts",
+    "primary_metals_of_concern": [
+      "Al",
+      "Ni",
+      "Pb",
+      "Cd"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/peanuts",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "2609c33417ad04a223158e6e2c0e32746083a2d4aa260e82669cea5372aa1bd0",
+      "content_bytes": 11784,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/peanuts.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 6,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/chen2022-peanut-elements-china",
+        "title": "Determination of macro, micro and toxic element concentrations in peanuts from main peanut producing areas of China by ICP-MS: a pilot study on the geographical characterization",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chen2022-peanut-elements-china",
+        "content_pin": {
+          "content_sha256": "00464ecb309de5622ebb2aadfed7a70cf5e8e88257e406283121396a0b7bf4e5",
+          "content_bytes": 15673,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chen2022-peanut-elements-china.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+        "title": "Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
+        "content_pin": {
+          "content_sha256": "ebcb87301603811267e5f553d2e639b9321f3dbe811119092846a8d273c139f8",
+          "content_bytes": 5615,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2015-nickel-food-water",
+        "title": "Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
+        "content_pin": {
+          "content_sha256": "e73e15527c9be2ef6b9145effeb6c8f8188cde7657736c965f5aec50ed875fe2",
+          "content_bytes": 30304,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/masite2022-mopane-trace-metals",
+        "title": "Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/masite2022-mopane-trace-metals",
+        "content_pin": {
+          "content_sha256": "19c6dd29d327165cad82e77f822714fe24a748f6651c53e8b09368376ead796a",
+          "content_bytes": 3346,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/masite2022-mopane-trace-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/meng2023-electrochemical-sensors-food-heavy-metals",
+        "title": "The innovative and accurate detection of heavy metals in foods: A critical review on electrochemical sensors",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "iAs",
+          "tHg",
+          "Cr",
+          "Cr-VI",
+          "Cu",
+          "Zn",
+          "Ag"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/meng2023-electrochemical-sensors-food-heavy-metals",
+        "content_pin": {
+          "content_sha256": "177c8127528bee5755c7b8d09c770050e1e4e236d5da643a89fb820aa97353c7",
+          "content_bytes": 15885,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/meng2023-electrochemical-sensors-food-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zhang2026-trace-metals-five-crops-chongqing",
+        "title": "Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zhang2026-trace-metals-five-crops-chongqing",
+        "content_pin": {
+          "content_sha256": "3fe3ff05bd2026f7bc9d23a8590d859ea5eb24f6ad22545201edb7d60cfbf24a",
+          "content_bytes": 5497,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/peanuts.md",
+    "total_claims": 2,
+    "cited_claims": 1,
+    "uncited_claims": 1,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": false
+  }
+}

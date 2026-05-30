@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/fish-containing-baby-foods",
+    "title": "Fish-Containing Baby Foods",
+    "hmtc_category": 1,
+    "hmtc_row": 11,
+    "category_label": "Infant and Child Foods",
+    "age_range": "0-5",
+    "label": "Fish-containing baby foods",
+    "primary_metals_of_concern": [
+      "MeHg"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "infants-0-24mo",
+    "evidence_fitness": "EF-3",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/fish-containing-baby-foods",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "a8f7dc669c9d40b0082968af551c459c77ec85d659381eec3739457a7bb7af4f",
+      "content_bytes": 33092,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/fish-containing-baby-foods.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 12,
+    "sources_with_structured_values": 3,
+    "contributing_sources": [
+      {
+        "slug": "sources/barber2025-baby-food-elements-us",
+        "title": "Toxic elements in baby and young children's foods in the US and correlation to ingredients",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "Pb",
+          "Tl"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/barber2025-baby-food-elements-us",
+        "content_pin": {
+          "content_sha256": "fc697427b548ed0ac5bcfc1d408dfe80e56660d2e7afe5886b93c8342490ffd1",
+          "content_bytes": 13669,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chekri2019-french-infant-toddler-tds-trace-elements",
+        "title": "Trace element contents in foods from the first French Total Diet Study on infants and toddlers",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Ni",
+          "Sn",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chekri2019-french-infant-toddler-tds-trace-elements",
+        "content_pin": {
+          "content_sha256": "25bd12220a126d1c8189ec24e16a1ffdc134f81faee26ef9ba44cedfb4758e35",
+          "content_bytes": 7948,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/collado-lopez2025-heavy-metals-baby-food-formula",
+        "title": "Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review",
+        "route_kind": "direct_evidence",
+        "route_status": "partial_structured_values_present",
+        "evidence_use": "partial_structured_value_candidate",
+        "value_record_count": 3,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/collado-lopez2025-heavy-metals-baby-food-formula",
+        "content_pin": {
+          "content_sha256": "5b811cfebd60862cad853bc54334d5f219a373b14dd59cf1d036273b51b439df",
+          "content_bytes": 9046,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada",
+        "title": "Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada",
+        "content_pin": {
+          "content_sha256": "cf62555610bc030aa67411e1f98840a3676d89de238a706241000f79f7b18045",
+          "content_bytes": 9584,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fsa2016-infant-food-formula-metals-survey",
+        "title": "Survey of metals in commercial infant foods, infant formula and non-infant specific foods",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "iAs",
+          "Cd",
+          "Cr",
+          "Cu",
+          "I",
+          "Fe",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Ni",
+          "Se",
+          "Sn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fsa2016-infant-food-formula-metals-survey",
+        "content_pin": {
+          "content_sha256": "e0a8f025e3daeaa8dd8e5eb13934a7333566a6b66b1a7eec05e089d27a5cf48a",
+          "content_bytes": 6179,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fsa2016-infant-food-formula-metals-survey.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/henriquez_hernandez2023-elemental-infant-purees",
+        "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "As",
+          "Cr",
+          "Ni",
+          "Mn",
+          "Mo",
+          "Tl"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/henriquez_hernandez2023-elemental-infant-purees",
+        "content_pin": {
+          "content_sha256": "6aa7b05e97312e36bf9a0066e40ee5f9237e1f0a39aa11f169fea73045c13fdb",
+          "content_bytes": 6646,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/henriquez_hernandez2023-elemental-infant-purees.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/henriquez-hernandez2023-baby-purees-spain-elements",
+        "title": "Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market",
+        "route_kind": "direct_evidence",
+        "route_status": "partial_structured_values_present",
+        "evidence_use": "partial_structured_value_candidate",
+        "value_record_count": 3,
+        "metal_species": [
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/henriquez-hernandez2023-baby-purees-spain-elements",
+        "content_pin": {
+          "content_sha256": "3b59ab8aefdc09a5f2485acd9747f941b5010ea32aa3126cccf2735e2342232b",
+          "content_bytes": 5664,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mania2015-toxic-elements-infant-food-poland",
+        "title": "Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
+        "content_pin": {
+          "content_sha256": "d9fb0f46fec48df7f4e2f5d800c86744623b2c6e09732cf0fe11b6d4634aa5d7",
+          "content_bytes": 10309,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/meli2024-chemical-characterization-baby-food-italy",
+        "title": "Chemical characterization of baby food consumed in Italy",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 14,
+        "metal_species": [
+          "Al",
+          "Cd",
+          "Ni",
+          "Pb",
+          "Sn",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/meli2024-chemical-characterization-baby-food-italy",
+        "content_pin": {
+          "content_sha256": "b42d942e3aae0ccad23ca00b0d28f79cae65c666eaca49c47b7fb74573f96edd",
+          "content_bytes": 5546,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/meli2024-chemical-characterization-baby-food-italy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tatsuta2024-mehg-duplicate-diet-children-japan",
+        "title": "Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-mehg-duplicate-diet-children-japan",
+        "content_pin": {
+          "content_sha256": "3cfe7dccfed30b5f5615263340b22b58f9f7198600681f4058e909f9a9fe9a7c",
+          "content_bytes": 8178,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+        "title": "Dietary intake of methylmercury by 0-5 years children using the duplicate diet method in Japan",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet",
+        "content_pin": {
+          "content_sha256": "74def733d1a48dbff5419272a6d13251295712d57642722f001f56f92cc2dd03",
+          "content_bytes": 4373,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/tatsuta2024-methylmercury-intake-children-duplicate-diet.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zmudzinska2022-rte-baby-foods-poland",
+        "title": "Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zmudzinska2022-rte-baby-foods-poland",
+        "content_pin": {
+          "content_sha256": "c85146de7133bcf3f29ac846b075b5e10b1f9efb935c4cbfc702b693f84df74e",
+          "content_bytes": 15524,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/fish-containing-baby-foods.md",
+    "total_claims": 53,
+    "cited_claims": 53,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 18,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

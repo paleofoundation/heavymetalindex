@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/leave-on-hair-preparations",
+    "title": "Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)",
+    "hmtc_category": 13,
+    "hmtc_row": 11,
+    "category_label": null,
+    "age_range": null,
+    "label": "Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/leave-on-hair-preparations",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "ce933387830cfa8503257406e2a3e3a78e036bbfabf7d59eb96c44c3a496c358",
+      "content_bytes": 8996,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/leave-on-hair-preparations.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 2,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "title": "Quality and safety investigation of commonly used topical cosmetic preparations",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al",
+          "Cr",
+          "Cu",
+          "Ni",
+          "Fe",
+          "Zn",
+          "Mn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "content_pin": {
+          "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
+          "content_bytes": 35313,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rbeida2023-heavy-metals-cosmetics-libya",
+        "title": "Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "Cd",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rbeida2023-heavy-metals-cosmetics-libya",
+        "content_pin": {
+          "content_sha256": "253927651adadeba650034c1558f8754eef7f1a4ad34e2991af26b84009fe884",
+          "content_bytes": 25046,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/leave-on-hair-preparations.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

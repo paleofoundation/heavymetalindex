@@ -1,0 +1,577 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/rice-bulk-grain",
+    "title": "Rice (white, brown, wild — bulk grain)",
+    "hmtc_category": 3,
+    "hmtc_row": 7,
+    "category_label": null,
+    "age_range": null,
+    "label": "Rice (white, brown, wild — bulk grain)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/rice-bulk-grain",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "891eb4bcd2910a3e243af8e865c60aef81eba3de56b56978a9d34568cbaf2a1a",
+      "content_bytes": 13735,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/rice-bulk-grain.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 24,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/begum2024-rice-fertilization-arsenic",
+        "title": "Fertilization Enhances Grain Inorganic Arsenic Assimilation in Rice",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "DMA",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/begum2024-rice-fertilization-arsenic",
+        "content_pin": {
+          "content_sha256": "cf27b2485110a2ef50f8037fa8356ed049e7f2cf37c2b30ec4b5cb371f1753be",
+          "content_bytes": 3120,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/begum2024-rice-fertilization-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bhat2022-brick-kilns-milk-rice-heavy-metals",
+        "title": "Long-Term Operation of Brick-Kilns Led Heavy Metal Contamination of Soil-Plant-Animal Continuum in Kashmir Himalayas",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bhat2022-brick-kilns-milk-rice-heavy-metals",
+        "content_pin": {
+          "content_sha256": "fc27ff0f307de43e3eb6316aeda275f23df57231a7eb7f1a9277a1c6d7e61a4b",
+          "content_bytes": 3000,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bhat2022-brick-kilns-milk-rice-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/carey2015-rice-arsenic-percolating-cooking",
+        "title": "Rethinking Rice Preparation for Highly Efficient Removal of Inorganic Arsenic Using Percolating Cooking Water",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs",
+          "DMA"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/carey2015-rice-arsenic-percolating-cooking",
+        "content_pin": {
+          "content_sha256": "91c8f0a384067d11b41618f71779c0fcce325a1c6e4077b538a86883bd1f0fee",
+          "content_bytes": 17020,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/carey2015-rice-arsenic-percolating-cooking.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cr-fsasc2014-arsenic-rice-grains",
+        "title": "Analysis of Arsenic in Rice and Other Grains",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cr-fsasc2014-arsenic-rice-grains",
+        "content_pin": {
+          "content_sha256": "04a4bafedcd514fb6505e9856b0b19d6657ea8e51bebf785b2703a43d98e3b59",
+          "content_bytes": 6174,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/cr-fsasc2014-arsenic-rice-grains.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dehghani2020-food-lead-cadmium-mspe",
+        "title": "Magnetic Multi-Walled Carbon Nanotubes Modified with Polythiophene as a Sorbent for Simultaneous Solid Phase Microextraction of Lead and Cadmium from Water and Food Samples",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dehghani2020-food-lead-cadmium-mspe",
+        "content_pin": {
+          "content_sha256": "fd46ca0c754f400c6dc834b0bddf27fb843dd9e89a0b0b275dd514742e6e736f",
+          "content_bytes": 6018,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2021-chronic-exposure-iAs",
+        "title": "Chronic dietary exposure to inorganic arsenic",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2021-chronic-exposure-iAs",
+        "content_pin": {
+          "content_sha256": "dcddf1a0e778c0a2fc8c0d847074aec7f5cfc25da3229f9d2f04d4fc42b0c7cd",
+          "content_bytes": 6911,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2024-risk-assessment-iAs-update",
+        "title": "Update of the risk assessment of inorganic arsenic in food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2024-risk-assessment-iAs-update",
+        "content_pin": {
+          "content_sha256": "2d9f95ca5b0ca36da1b89a8d5c9462d079200618777ea62db74dc8b77747556e",
+          "content_bytes": 7744,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/enamorado-montes2021-mercury-rice-colombia-mojana",
+        "title": "Mercury Accumulation in Commercial Varieties of Oryza sativa L. Cultivated in Soils of La Mojana Region, Colombia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/enamorado-montes2021-mercury-rice-colombia-mojana",
+        "content_pin": {
+          "content_sha256": "43390bb9691422bc8f3994798a880c9c432a10e10abfbbace03f66358b8c7dfc",
+          "content_bytes": 7654,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/enamorado-montes2021-mercury-rice-colombia-mojana.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2013-ias-rice-products-sampling",
+        "title": "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
+        "content_pin": {
+          "content_sha256": "c839c3179bde9a3184350b48c0cd9004612af1868477a2e84fe8226cec12c983",
+          "content_bytes": 6624,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2016-arsenic-rice-risk-assessment",
+        "title": "Arsenic in Rice and Rice Products Risk Assessment Report",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2016-arsenic-rice-risk-assessment",
+        "content_pin": {
+          "content_sha256": "265e2bc22cb511b6dcde212026ccf9ec317d58e6896a8416e5c8ec7b1a0a5c74",
+          "content_bytes": 6563,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2016-arsenic-rice-risk-assessment.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fera2015-uk-tds-metals",
+        "title": "Total Diet Study of metals and other elements in food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "iAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Mo",
+          "Ni",
+          "Pd",
+          "Pt",
+          "Sn",
+          "Tl",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
+        "content_pin": {
+          "content_sha256": "9991ede4988d86b8302ca6c36214bfd53b4b6ac82500a0eb07e9e77c35c08db0",
+          "content_bytes": 10998,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hbbf2025-rice-arsenic-cadmium-145-samples",
+        "title": "What's in your family's rice? Arsenic, Cadmium, and Lead in Popular Rice Brands - Plus 9 Safer Grains to Try",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hbbf2025-rice-arsenic-cadmium-145-samples",
+        "content_pin": {
+          "content_sha256": "215f2f803dfe2bc9cd4c785485ee23431e61330c25cab6bcc07de3c4a59dd6d9",
+          "content_bytes": 8539,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jiang2022-selenium-cadmium-brown-rice",
+        "title": "Selenium Decreases the Cadmium Content in Brown Rice: Foliar Se Application to Plants Grown in Cd-contaminated Soil",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jiang2022-selenium-cadmium-brown-rice",
+        "content_pin": {
+          "content_sha256": "8afe17ea80a8e3a7cb264e9cd53ee27990771c4ae4f8084c9d3f3f947d067001",
+          "content_bytes": 5200,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/jiang2022-selenium-cadmium-brown-rice.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/liu2022-south-china-rice-cd-as",
+        "title": "Co-accumulation of cadmium and arsenic in rice cultivars under field conditions in South China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "tAs",
+          "iAs",
+          "DMA",
+          "MMA"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/liu2022-south-china-rice-cd-as",
+        "content_pin": {
+          "content_sha256": "270b4de91a7cc721408605a3bbdc1e30c12504de6bedf3ec8d400f34b8bc8013",
+          "content_bytes": 3236,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/liu2022-south-china-rice-cd-as.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/llorente-mirandes2016-ias-food-analytical-review",
+        "title": "Inorganic Arsenic Determination in Food: A Review of Analytical Proposals and Quality Assessment Over the Last Six Years",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/llorente-mirandes2016-ias-food-analytical-review",
+        "content_pin": {
+          "content_sha256": "ac3fc476518be68f95f8f93389307807550776990b7c1b6ab257a0c7c2a6dfa1",
+          "content_bytes": 6071,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/llorente-mirandes2016-ias-food-analytical-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/moreda-pineiro2020-rice-arsenic-speciation",
+        "title": "Ionic imprinted polymer - vortex-assisted dispersive micro-solid phase extraction for inorganic arsenic speciation in rice by HPLC-ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/moreda-pineiro2020-rice-arsenic-speciation",
+        "content_pin": {
+          "content_sha256": "bf82118407a770ddec4d32c7050532a3ba586b08f9f552059c835a71db2223e5",
+          "content_bytes": 3600,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/moreda-pineiro2020-rice-arsenic-speciation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/palmieri2020-mercury-rice",
+        "title": "Implications and Significance of Mercury in Rice",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/palmieri2020-mercury-rice",
+        "content_pin": {
+          "content_sha256": "785e9a8ebb3129c204cbe6be4fb225034a0d67b6869aaa727c012a21a55b5811",
+          "content_bytes": 4290,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/palmieri2020-mercury-rice.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pogoson2020-rice-cooking-cadmium-arsenic",
+        "title": "Reducing the cadmium, inorganic arsenic and dimethylarsinic acid content of rice through food-safe chemical cooking pre-treatment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "iAs",
+          "DMA",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pogoson2020-rice-cooking-cadmium-arsenic",
+        "content_pin": {
+          "content_sha256": "c930b54b7fe91228226db8ae91717f666ce296f87cb9337b17c678c27e756a86",
+          "content_bytes": 3428,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/pogoson2020-rice-cooking-cadmium-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shi2020-rice-grain-cadmium-global-supply-chain",
+        "title": "Rice Grain Cadmium Concentrations in the Global Supply-Chain",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shi2020-rice-grain-cadmium-global-supply-chain",
+        "content_pin": {
+          "content_sha256": "7ce323e6bcf4c76c5bf43d2a9b966fb7b0a1949dff7ad6f98f7e00c0be03b3a8",
+          "content_bytes": 3990,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/shi2020-rice-grain-cadmium-global-supply-chain.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/signes-pastor2016-iAs-rice-iberian-peninsula",
+        "title": "Geographical variation in inorganic arsenic in paddy field samples and commercial rice from the Iberian Peninsula",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2016-iAs-rice-iberian-peninsula",
+        "content_pin": {
+          "content_sha256": "cea693a1239c0339e9bd47dcc05563f13ff29f0d62214240d683296b7a9787ee",
+          "content_bytes": 6490,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/signes-pastor2016-iAs-rice-iberian-peninsula.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/silva2023-rice-mycotoxins-ias-portugal",
+        "title": "Mycotoxins in Rice Correlate with Other Contaminants? A Pilot Study of the Portuguese Scenario and Human Risk Assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/silva2023-rice-mycotoxins-ias-portugal",
+        "content_pin": {
+          "content_sha256": "8e6b3061436efb9856dd4b68e8e84140aff11645e06586b10e7d3819fdf756e4",
+          "content_bytes": 5202,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/silva2023-rice-mycotoxins-ias-portugal.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wehmeier2023-ias-rice-cola-field-method",
+        "title": "Detection of Inorganic Arsenic in Rice Using a Field-Deployable Method with Cola Extraction",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wehmeier2023-ias-rice-cola-field-method",
+        "content_pin": {
+          "content_sha256": "2e4f14c752a5d9381fb9161ae314e2ffb8b7c22c3f9ebff6921372e0d5151538",
+          "content_bytes": 5316,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/wehmeier2023-ias-rice-cola-field-method.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/welna2018-brown-rice-inorganic-arsenic",
+        "title": "Non-chromatographic Speciation of Inorganic Arsenic in Rice by Hydride Generation Inductively Coupled Plasma Optical Emission Spectrometry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/welna2018-brown-rice-inorganic-arsenic",
+        "content_pin": {
+          "content_sha256": "8590f1b1fded95ccc2bfb299acf42299e1bb72d529d340e3ba78761ac7ddcf7e",
+          "content_bytes": 3439,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/welna2018-brown-rice-inorganic-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/williams2007-rice-arsenic-us-market-basket",
+        "title": "Market Basket Survey Shows Elevated Levels of As in South Central U.S. Processed Rice Compared to California: Consequences for Human Dietary Exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/williams2007-rice-arsenic-us-market-basket",
+        "content_pin": {
+          "content_sha256": "12c81422e17ec2ed48ee88b966ccb2bcdec1e092792e803d5f831e6dbde25281",
+          "content_bytes": 4835,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/williams2007-rice-arsenic-us-market-basket.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/rice-bulk-grain.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

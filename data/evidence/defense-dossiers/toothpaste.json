@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/toothpaste",
+    "title": "Toothpaste (Cat 2)",
+    "hmtc_category": 2,
+    "hmtc_row": 11,
+    "category_label": "Infant and Child Personal Care",
+    "age_range": "0-5",
+    "label": "Toothpaste (Cat 2)",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "tHg",
+      "tAs"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "children-2-12yr-and-adults",
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/toothpaste",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "0597156e515bedb9cafa6299266b3241fe2e641ebd9e3583b39e7092b237d2d7",
+      "content_bytes": 15209,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/toothpaste.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 10,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "title": "Quality and safety investigation of commonly used topical cosmetic preparations",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al",
+          "Cr",
+          "Cu",
+          "Ni",
+          "Fe",
+          "Zn",
+          "Mn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "content_pin": {
+          "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
+          "content_bytes": 35313,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/attard2022-heavy-metals-cosmetics-review",
+        "title": "Heavy Metals in Cosmetics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
+        "content_pin": {
+          "content_sha256": "fe9595130b1d72fab1b9d1400f3b1a1ddda637d461d378eac29506203aec931d",
+          "content_bytes": 12028,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chengappa2025-toothpaste-india-aas",
+        "title": "Analysis of copper, zinc, arsenic, and lead content of over-the-counter toothpastes from india: an invitro study",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chengappa2025-toothpaste-india-aas",
+        "content_pin": {
+          "content_sha256": "12a4db54ddf7a252742872abf8d972db5a94613bc9b04ecf6fd758b776528ca0",
+          "content_bytes": 18958,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chengappa2025-toothpaste-india-aas.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gosens2014-parabens-aggregate-exposure-children",
+        "title": "Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
+        "content_pin": {
+          "content_sha256": "5a6a7fe0204e56b2b0eced61766ca267b1216ec8f6b6383dc491aff0d6266d3f",
+          "content_bytes": 8855,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jitareanu2025-heavy-metals-cosmetics-overview",
+        "title": "An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs",
+          "iAs",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "Al",
+          "Fe",
+          "Cu",
+          "Zn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
+        "content_pin": {
+          "content_sha256": "c54f5045d3398f53a522353834903d452ce415cf7e3726c0cdb422858fdfae94",
+          "content_bytes": 12114,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/massarsky2025-heavy-metals-toothpaste-health-risk",
+        "title": "Health risk implications of heavy metals in toothpaste",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/massarsky2025-heavy-metals-toothpaste-health-risk",
+        "content_pin": {
+          "content_sha256": "ff87b4678638e32aaac9c8f5782f028b2c69467f6f3b55289138a413c57875f0",
+          "content_bytes": 25266,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/moriceau2025-cosmetics-icpms-iso21392",
+        "title": "Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr",
+          "Ni",
+          "Sb",
+          "Al",
+          "Sn",
+          "Co",
+          "Mn",
+          "Fe",
+          "Zn",
+          "Be",
+          "Se",
+          "Tl",
+          "Ti",
+          "W",
+          "Pt"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
+        "content_pin": {
+          "content_sha256": "70dda34042668bc586dcd1a7ffb7a9afe6464574eed6804723b112f2b2b8d59b",
+          "content_bytes": 19858,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/opss2023-feasibility-action-limits-cosmetics-uk",
+        "title": "A Feasibility Study Investigating Action Limits for Certain Heavy Metal Impurities in Cosmetic Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "tAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
+        "content_pin": {
+          "content_sha256": "7426e61c4a91557fa9a3869b1b23cbecbf793848e2b1cb93d483d393fa585e36",
+          "content_bytes": 28401,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
+        "title": "The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "As",
+          "tHg",
+          "Ni",
+          "Cr",
+          "Sb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
+        "content_pin": {
+          "content_sha256": "5ccf7e282b240d1c458e3bc0cf38c4b4500db56befba12e39439a562f208594c",
+          "content_bytes": 24317,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sccs2025-methyl-salicylate-children-exposure-1676-25",
+        "title": "SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/sccs2025-methyl-salicylate-children-exposure-1676-25",
+        "content_pin": {
+          "content_sha256": "c93f218ffa25fb0678f477038bc200fea168ae15c0afab63d5163ae47c8a6627",
+          "content_bytes": 22305,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 1,
+    "resolved_count": 1,
+    "caps": [
+      {
+        "slug": "regulations/washington-tfca-toothpaste-pb-1000ppb",
+        "title": "washington-tfca-toothpaste-pb-1000ppb",
+        "agency": "Washington State Department of Ecology",
+        "program": "Toxic-Free Cosmetics Act (TFCA)",
+        "metals": [
+          "Pb"
+        ],
+        "limit_value": 1000,
+        "limit_unit": "ppb",
+        "status": "enforced",
+        "effective_date": "2025-01-01T00:00:00.000Z",
+        "matrices": [
+          "toothpaste"
+        ],
+        "page_url": "https://heavymetalindex.com/regulations/washington-tfca-toothpaste-pb-1000ppb",
+        "resolved": true
+      }
+    ],
+    "note": null
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/toothpaste.md",
+    "total_claims": 7,
+    "cited_claims": 1,
+    "uncited_claims": 6,
+    "distinct_cited_sources": 1,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": false
+  }
+}

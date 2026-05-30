@@ -1,0 +1,775 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/fresh-fruit",
+    "title": "Fresh Fruit",
+    "hmtc_category": 4,
+    "hmtc_row": 1,
+    "category_label": "Fruits, Vegetables, and Produce",
+    "age_range": null,
+    "label": "Fresh Fruit",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "tAs"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/fresh-fruit",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "670a0dc5dcef11ca0c5eb0a12bcaa8dccff81fcfca47054bc075d5f118f76f2e",
+      "content_bytes": 16578,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/fresh-fruit.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 31,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/abdullahi2019-fruits-vegetables-heavy-metals",
+        "title": "Analysis and Evaluation of the Effect of Heavy Metals in Fruits and Vegetables",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Zn",
+          "Cu",
+          "Fe",
+          "Cd",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abdullahi2019-fruits-vegetables-heavy-metals",
+        "content_pin": {
+          "content_sha256": "7e51e6a78b90633303c057d9d3cf8873d4f67ea62b1ba27c63f88e5948fec1cd",
+          "content_bytes": 2753,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/abdullahi2019-fruits-vegetables-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/afrin2020-heavy-metals-fruits-dhaka",
+        "title": "Determination and Risk Analysis of Heavy Metals in Different Fruits Collected from Different Shops of Dhaka City",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/afrin2020-heavy-metals-fruits-dhaka",
+        "content_pin": {
+          "content_sha256": "79e46219e4aa93d60a336802256ae2250ff82f2e3f93127475076fa63ec9311e",
+          "content_bytes": 6965,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/afrin2020-heavy-metals-fruits-dhaka.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/amer2019-egyptian-fruits-heavy-metals",
+        "title": "Exposure assessment of heavy metal residues in some Egyptian fruits",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/amer2019-egyptian-fruits-heavy-metals",
+        "content_pin": {
+          "content_sha256": "ed4e310e74c844350ccf8070bdf096e354734951124945020588be8e19d404af",
+          "content_bytes": 9586,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/amer2019-egyptian-fruits-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf",
+        "title": "Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Ni",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf",
+        "content_pin": {
+          "content_sha256": "53b3116ad5baabdf26b20d59e8ceafacc8202e7156876e0436ad94483e4cbd15",
+          "content_bytes": 14828,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/apilux2023-rayong-tropical-fruits-metals",
+        "title": "Determination of Heavy Metal Residues in Tropical Fruits near Industrial Estates in Rayong Province, Thailand: A Risk Assessment Study",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cu",
+          "tHg",
+          "Pb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/apilux2023-rayong-tropical-fruits-metals",
+        "content_pin": {
+          "content_sha256": "6e75f1b54aed7cd7d9440cef91eb0684d5fefbbc8cc93774324ee227055aeb32",
+          "content_bytes": 3445,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/apilux2023-rayong-tropical-fruits-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bedoya-perales2023-moquegua-peru-mining-dataset",
+        "title": "Dataset of metals and metalloids in food crops and soils sampled across the mining region of Moquegua in Peru",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bedoya-perales2023-moquegua-peru-mining-dataset",
+        "content_pin": {
+          "content_sha256": "dfd2aacd864e4e1012b494a0eb1df42e140a12a7771ad3a6118955674c38e9f5",
+          "content_bytes": 5310,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bedoya-perales2023-moquegua-peru-mining-dataset.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/benoy1971-tin-toxicity-canned-fruit-juices",
+        "title": "The Toxicity of Tin in Canned Fruit Juices and Solid Foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/benoy1971-tin-toxicity-canned-fruit-juices",
+        "content_pin": {
+          "content_sha256": "6a9701d42a91034da410d6777f416bdb879893c1b77483a6609df50f4d168189",
+          "content_bytes": 5756,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
+        "title": "Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
+        "content_pin": {
+          "content_sha256": "533406305ed5aa773ba5e7eed27c93ae1365431d03a870f52e3e0e3dddb35cef",
+          "content_bytes": 22033,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chaleshtori2019-watermelon-carrot-pb-cd",
+        "title": "Assessment of Lead and Cadmium Levels in Watermelon and Carrot",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chaleshtori2019-watermelon-carrot-pb-cd",
+        "content_pin": {
+          "content_sha256": "2966a4f140a4fa3b6903750c3ab9b7efd44b9f8272114cc1a70b03e931a39831",
+          "content_bytes": 2884,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chaleshtori2019-watermelon-carrot-pb-cd.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil",
+        "title": "Aluminum content and effect of in vitro digestion on bioaccessible fraction in cereal-based baby foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil",
+        "content_pin": {
+          "content_sha256": "c05afdcb4f867dd4bf0f9158abf56600b7fa3045161401a16e2d19ea40e0f5f7",
+          "content_bytes": 10463,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/elbagory2025-toxic-elements-melon-ganges-yamuna",
+        "title": "Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "tAs",
+          "Fe",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/elbagory2025-toxic-elements-melon-ganges-yamuna",
+        "content_pin": {
+          "content_sha256": "e2ddf4c4781630849feca4155ffd8054338a1d1f0025c593904c96d8cc34e14a",
+          "content_bytes": 13838,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/elbagory2025-toxic-elements-melon-ganges-yamuna.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2011-arsenic-apple-juice-2005-2011",
+        "title": "Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2011-arsenic-apple-juice-2005-2011",
+        "content_pin": {
+          "content_sha256": "7f669bfa6e0246723de9dae8c199c9444f7acad23eaa501d57e131b4548a03bf",
+          "content_bytes": 5531,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2011-arsenic-apple-juice-2005-2011.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2016-infant-toddler-foods-inorganic-arsenic",
+        "title": "Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
+        "content_pin": {
+          "content_sha256": "7a972ebe0f0690fafe7b5882f79e9e22e51edc0f683e0abeffc05baf740d8820",
+          "content_bytes": 7506,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2018-iAs-infant-rice-cereals-fy2018",
+        "title": "Fiscal Year 2018 Arsenic in Infant Rice Cereals Assignment Data",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2018-iAs-infant-rice-cereals-fy2018",
+        "content_pin": {
+          "content_sha256": "cc00456a3b80f1ccc39a9aa88de44121ab4721803e217adc0571836ce3816d95",
+          "content_bytes": 6035,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2018-iAs-infant-rice-cereals-fy2018.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/islam2024-heavy-metals-bangladeshi-fruits-review",
+        "title": "A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni",
+          "tHg",
+          "Mn",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/islam2024-heavy-metals-bangladeshi-fruits-review",
+        "content_pin": {
+          "content_sha256": "e6c16a0ff4b55dfb8413ac3e2c2516d9e5a399aee3cbc70af36dcc9d7de6bed5",
+          "content_bytes": 7786,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/islam2024-heavy-metals-bangladeshi-fruits-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lee2023-south-korea-fresh-fruits-seven-metals",
+        "title": "Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Sb",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lee2023-south-korea-fresh-fruits-seven-metals",
+        "content_pin": {
+          "content_sha256": "d8a558a885f37008885617b5a8f48bd483fe8f959644e158a5bad7df2c5d945d",
+          "content_bytes": 18306,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/lee2023-south-korea-fresh-fruits-seven-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/liang2019-beijing-foodstuffs-health-risk",
+        "title": "Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
+        "content_pin": {
+          "content_sha256": "08b2cf7fc524a9b71315f18cc3da4fd6d382b55e9f337fc0b8f2879f92348e9a",
+          "content_bytes": 10337,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland",
+        "title": "The content of lead, cadmium, arsenic, mercury and tin in fruit and their products based on monitoring studies – exposure assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland",
+        "content_pin": {
+          "content_sha256": "549a1158fa44a3433e20ba0b151ae5fda80fc64de9f247068ef1a0435bb8fa27",
+          "content_bytes": 12632,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mekonnen2024-ethiopia-fruit-metals",
+        "title": "Health Risk Assessment of Potentially Toxic Elements Contamination of Commonly Consumed Fruits in Bahir Dar Town, Northwest Ethiopia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mekonnen2024-ethiopia-fruit-metals",
+        "content_pin": {
+          "content_sha256": "de18e24cf0b6cd918dcd9cf45e0bf9e4c431e90b2fbc46804d3a883e4d0d3d31",
+          "content_bytes": 4568,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mekonnen2024-ethiopia-fruit-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rahim2020-toxic-heavy-metals-fruits-pakistan",
+        "title": "Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Co",
+          "Ni",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rahim2020-toxic-heavy-metals-fruits-pakistan",
+        "content_pin": {
+          "content_sha256": "ae4e7cbbe826a76a76f789fd77c764bea18bb84c68c7ec2076ce9ac7b85d96ba",
+          "content_bytes": 10896,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rahim2020-toxic-heavy-metals-fruits-pakistan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rashid2015-metals-rock-melon-malaysia",
+        "title": "Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Zn",
+          "B",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rashid2015-metals-rock-melon-malaysia",
+        "content_pin": {
+          "content_sha256": "7121c75b339699e88a87900ba6ca3849824e9ae757aca3770e14a3fe253e8ad0",
+          "content_bytes": 9092,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rashid2015-metals-rock-melon-malaysia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/reczajska2005-chromium-plant-foods-poland",
+        "title": "Determination of Chromium Content of Food and Beverages of Plant Origin",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
+        "content_pin": {
+          "content_sha256": "dbb2fcaeebe483b9d7e8936796a33929476fe606df0702e2bd2a836fbc5cbff9",
+          "content_bytes": 10398,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rezaei2020-fruits-markazi-essential-elements",
+        "title": "Essential elements in the different type of fruits, soil and water samples collected from Markazi province, Iran: a health risk assessment study",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Fe",
+          "Cu",
+          "Zn",
+          "Mn",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rezaei2020-fruits-markazi-essential-elements",
+        "content_pin": {
+          "content_sha256": "389166242c8ea89ce783cfb7aa7833d43686244e40750e92b36fb4d015277820",
+          "content_bytes": 5622,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rezaei2020-fruits-markazi-essential-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
+        "title": "Concentration of cadmium and lead in vegetables and fruits",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
+        "content_pin": {
+          "content_sha256": "e6569a775e25323659c381ba88bb343a023ad173accf1e32bdcbb2844a882ed2",
+          "content_bytes": 18833,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/samitha2021-pineapple-kerala-heavy-metals",
+        "title": "Monitoring Heavy Metal Contamination in the Pineapple (Ananas comosus) Cultivated tracts of Kerala, India",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Ni",
+          "Cd",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/samitha2021-pineapple-kerala-heavy-metals",
+        "content_pin": {
+          "content_sha256": "a2096fe6aa3866bef786676a32967090015021d94e12ac073620400120feb194",
+          "content_bytes": 2679,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/samitha2021-pineapple-kerala-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits",
+        "title": "Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits",
+        "content_pin": {
+          "content_sha256": "463fff849679a51055211f5f75bdfbf81587f7893dc33a649b86f98f0566a75e",
+          "content_bytes": 16029,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/uchenna2023-ihiala-fruits-heavy-metals",
+        "title": "Assessment of Heavy Metals in Edible Fruits Sold in Selected Markets in Ihiala Local Government Area, Anambra State",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Zn",
+          "Ni",
+          "Cu",
+          "Pb",
+          "Cr",
+          "tAs",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/uchenna2023-ihiala-fruits-heavy-metals",
+        "content_pin": {
+          "content_sha256": "330e21c38ce8dfd460eefd65e73722153dcc79bde959f47cd82042ec82b28157",
+          "content_bytes": 3094,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/uchenna2023-ihiala-fruits-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/unaegbu2016-fruit-heavy-metals-enugu",
+        "title": "Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/unaegbu2016-fruit-heavy-metals-enugu",
+        "content_pin": {
+          "content_sha256": "b6a8e77be20ded4ae095eeaf29169a7fff70ab6252011123027e6725eaa66276",
+          "content_bytes": 4678,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/unaegbu2016-fruit-heavy-metals-enugu.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
+        "title": "Toxic metal contamination and health risk assessment of packaged fruit juices for children in Gondar city, Ethiopia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
+        "content_pin": {
+          "content_sha256": "4a3715220e7143541a86630b6702c920882e62fd8864a7436406cf183a63a56d",
+          "content_bytes": 21883,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ye2026-tin-foods-dietary-exposure-zhejiang",
+        "title": "Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ye2026-tin-foods-dietary-exposure-zhejiang",
+        "content_pin": {
+          "content_sha256": "3bb09255583bb6d508074027c7d6c5e71d14351720b8ccff4fcbcf9ad6a93742",
+          "content_bytes": 25284,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ye2026-tin-foods-dietary-exposure-zhejiang.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/yoplac2026-peruvian-avocado-metals-health-risk",
+        "title": "Ecological and Human Health Risk Assessment of Metals in Peruvian Avocados Using a Probabilistic Approach",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "tHg",
+          "Ni",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yoplac2026-peruvian-avocado-metals-health-risk",
+        "content_pin": {
+          "content_sha256": "234fb1326f88c29481f581bef24d1d68e67bce242d12fb3c453d0a5b5984302d",
+          "content_bytes": 13899,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/yoplac2026-peruvian-avocado-metals-health-risk.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/fresh-fruit.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

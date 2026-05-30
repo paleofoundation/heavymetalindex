@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/sunflower-seeds",
+    "title": "Sunflower Seeds",
+    "hmtc_category": 4,
+    "hmtc_row": 13,
+    "category_label": "Fruits, Vegetables, and Produce",
+    "age_range": null,
+    "label": "Sunflower Seeds",
+    "primary_metals_of_concern": [
+      "Cd",
+      "Pb",
+      "Ni"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/sunflower-seeds",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "2731dee668ac147ba11962b01d6694939078ee32d22f4ced130b9c5faff10733",
+      "content_bytes": 10964,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/sunflower-seeds.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 5,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/efsa-cadmium-contam-2009",
+        "title": "Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa-cadmium-contam-2009",
+        "content_pin": {
+          "content_sha256": "c7c8cf0c515df3b3944130c985f7f88cc17c3d23d07f53a298948d3f09ab573b",
+          "content_bytes": 11265,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa-cadmium-contam-2009.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fu2022-sunflower-cd-cultivar-transcriptomics",
+        "title": "Physiological and Transcriptomic Comparison of Two Sunflower (Helianthus annuus L.) Cultivars With High/Low Cadmium Accumulation",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fu2022-sunflower-cd-cultivar-transcriptomics",
+        "content_pin": {
+          "content_sha256": "9a9043429518d2e39d8d906dfc0d01a88efd8bbc2c7a1224723aef5ccfac1dcb",
+          "content_bytes": 4874,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fu2022-sunflower-cd-cultivar-transcriptomics.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nazari2023-heavy-metals-seed-crops-oil-products-review",
+        "title": "Impacts of Heavy Metals in Seed Crops and Oil Seed on Human Health: A Threat to Food Safety — Review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "iAs",
+          "tAs",
+          "tHg",
+          "MeHg",
+          "Ni",
+          "Cr",
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nazari2023-heavy-metals-seed-crops-oil-products-review",
+        "content_pin": {
+          "content_sha256": "9863765db83c1d7db018a774d6e6eff5ae057e061df3b39ca62c34204cfe8e78",
+          "content_bytes": 16741,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nordberg2015-cadmium-chapter",
+        "title": "Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nordberg2015-cadmium-chapter",
+        "content_pin": {
+          "content_sha256": "8e9826b75576aec2530c93bf51a593c9a671e9996e96198c4b14fa3ff2e57c01",
+          "content_bytes": 11933,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/nordberg2015-cadmium-chapter.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/schaefer2020-cadmium-mitigation-strategies",
+        "title": "Cadmium: Mitigation strategies to reduce dietary exposure",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/schaefer2020-cadmium-mitigation-strategies",
+        "content_pin": {
+          "content_sha256": "c58227bd6e756c772eb1e276df5a701d52a6eb88b8f1e9ab82515d0916a93f10",
+          "content_bytes": 10646,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/sunflower-seeds.md",
+    "total_claims": 2,
+    "cited_claims": 1,
+    "uncited_claims": 1,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": false
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/game-meats",
+    "title": "Game meats (venison, bison, rabbit)",
+    "hmtc_category": 11,
+    "hmtc_row": 5,
+    "category_label": null,
+    "age_range": null,
+    "label": "Game meats (venison, bison, rabbit)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/game-meats",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "ca3d2ed45162a9665a5eaeda048fb0e508bb893a7978f51c6d3b1494c177cea6",
+      "content_bytes": 7944,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/game-meats.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 11,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/boisteanu2024-wild-boar-romania-metals",
+        "title": "Essential and toxic elements analysis of wild boar tissues from north-eastern Romania and health risk implications",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cu",
+          "Zn",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/boisteanu2024-wild-boar-romania-metals",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/gasparik2017-wild-boar-slovakia-metals",
+        "title": "Levels of Metals in Kidney, Liver, and Muscle Tissue and their Influence on the Fitness for the Consumption of Wild Boar from Western Slovakia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg",
+          "Cu",
+          "Zn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gasparik2017-wild-boar-slovakia-metals",
+        "content_pin": {
+          "content_sha256": "55d700193db16fbc97d1a6e39a5748e9488340876d8d917b4bf361a370f72c55",
+          "content_bytes": 16364,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/gasparik2017-wild-boar-slovakia-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gerofke2018-wild-game-lead",
+        "title": "Lead content in wild game shot with lead or non-lead ammunition - Does state of the art consumer health protection require non-lead ammunition?",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gerofke2018-wild-game-lead",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/joyce2016-bush-meat-cooking-ghana",
+        "title": "Effects of Different Cooking Methods on Heavy Metals Level in Fresh and Smoked Game Meat",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Fe",
+          "Zn",
+          "Cu",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/joyce2016-bush-meat-cooking-ghana",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/lenart2023-wild-boar-metals",
+        "title": "Monitoring of metal content in the tissues of wild boar (Sus scrofa) and its food safety aspect",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lenart2023-wild-boar-metals",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/mesinger2021-red-deer-heavy-metals",
+        "title": "Risk Assessment of Wild Game Meat Intake in the Context of the Prospective Development of the Venison Market in Poland",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mesinger2021-red-deer-heavy-metals",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/pain2023-lead-pheasant-dogfood-uk",
+        "title": "Lead concentrations in commercial dogfood containing pheasant in the UK",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pain2023-lead-pheasant-dogfood-uk",
+        "content_pin": {
+          "content_sha256": "7438ca20fed58c92236a3bbcd7946bf185dc755cf66fca18883b3328fc515861",
+          "content_bytes": 5110,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/paulsen2015-game-meat-metal-bioaccessibility",
+        "title": "Metal contents in the digested and undigested fraction of meat portions from game and pork",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/paulsen2015-game-meat-metal-bioaccessibility",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/prevendar-crnic2022-rasa-coal-birds-htes",
+        "title": "Enhanced levels of hazardous trace elements (Cd, Cu, Pb, Se, Zn) in bird tissues in the context of environmental pollution by Raša coal",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cu",
+          "Zn",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/prevendar-crnic2022-rasa-coal-birds-htes",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/rudy2019-hunted-animals-toxic-elements-review",
+        "title": "Content of toxic elements in tissues of hunted animals on the basis of research results of 2003–2017",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rudy2019-hunted-animals-toxic-elements-review",
+        "content_pin": null
+      },
+      {
+        "slug": "sources/zarski2017-mallard-mercury",
+        "title": "The Presence of Mercury in the Tissues of Mallards (Anas platyrhynchos L.) from Włocławek Reservoir in Poland",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zarski2017-mallard-mercury",
+        "content_pin": null
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/game-meats.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

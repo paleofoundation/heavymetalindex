@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/fish-freshwater",
+    "title": "Fish — freshwater (tilapia, catfish, trout)",
+    "hmtc_category": 6,
+    "hmtc_row": 1,
+    "category_label": null,
+    "age_range": null,
+    "label": "Fish — freshwater (tilapia, catfish, trout)",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "iAs",
+      "tAs"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/fish-freshwater",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "41a2d72ea9d95cd8c0acbfecc350273b29da653422c2073d15427ced1d534e55",
+      "content_bytes": 9626,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/fish-freshwater.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 10,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada",
+        "title": "Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada",
+        "content_pin": {
+          "content_sha256": "cf62555610bc030aa67411e1f98840a3676d89de238a706241000f79f7b18045",
+          "content_bytes": 9584,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/epa1999-mercury-update-fish-advisories",
+        "title": "Mercury Update: Impact on Fish Advisories",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/epa1999-mercury-update-fish-advisories",
+        "content_pin": {
+          "content_sha256": "2381fd2ea93d90e59fe24ef133b898af15d2b3a7d02a68bf73a52cc79e218352",
+          "content_bytes": 7151,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/epa1999-mercury-update-fish-advisories.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
+        "title": "Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
+        "content_pin": {
+          "content_sha256": "a817cb44969d21673e1b9e3aeed62070e87ee01544b00ffceeeb8ab174e50c8c",
+          "content_bytes": 7653,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hoy2023-arsenic-speciation-freshwater-fish",
+        "title": "Arsenic speciation in freshwater fish: challenges and research needs",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hoy2023-arsenic-speciation-freshwater-fish",
+        "content_pin": {
+          "content_sha256": "3bdd91ce6b5b539ad1fc3e0d986ba9e875d2754d6977b9bf1ff3736d872ec4ce",
+          "content_bytes": 6966,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hoy2023-arsenic-speciation-freshwater-fish.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jesse2025-unknown",
+        "title": "Correction: Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jesse2025-unknown",
+        "content_pin": {
+          "content_sha256": "f682a319c83c39e3e2ac3c622f22b6b643dd0ff2f243ab9f35d98762b5c52b79",
+          "content_bytes": 2911,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/jesse2025-unknown.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/maikanov2020-fish-products-shuchinsk-burabay-metals",
+        "title": "Quality and safety of fish products in the Shuchinsk-Burabay Resort Zone",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/maikanov2020-fish-products-shuchinsk-burabay-metals",
+        "content_pin": {
+          "content_sha256": "7b4e22de68b03bbb45e86741006ccf23776f7b799ce031a572f1fa83a42ef184",
+          "content_bytes": 2702,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/marriott2023-lake-victoria-aquaculture-biogeochemistry",
+        "title": "Considerations for environmental biogeochemistry and food security for aquaculture around Lake Victoria, Kenya",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Pb",
+          "Al",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry",
+        "content_pin": {
+          "content_sha256": "47ffca4b2c7ca7c9bce271c35e0e154cfa5a936531409b1298bd359dba784f68",
+          "content_bytes": 3540,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/naseem2026-seasonal-heavy-metals-water-fish",
+        "title": "Seasonal Fluctuation of Heavy Metals in Water & Fish Tissues",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "Ni",
+          "Cr",
+          "tAs",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/naseem2026-seasonal-heavy-metals-water-fish",
+        "content_pin": {
+          "content_sha256": "100c518dad5606ee8e3789969976b886a3e6d3b26ec9e50902fe0ffcf67da934",
+          "content_bytes": 7221,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/naseem2026-seasonal-heavy-metals-water-fish.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rajeshkumar2018-taihu-lake-fish-oyster-metals",
+        "title": "Studies on seasonal pollution of heavy metals in water, sediment, fish and oyster from the Meiliang Bay of Taihu Lake in China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals",
+        "content_pin": {
+          "content_sha256": "577df316de755c3091b5995f6f22c18f1bfa3871847171d73e7309fcbf89619c",
+          "content_bytes": 24758,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zahran2023-mercury-tilapia-nannochloropsis",
+        "title": "Toxicity Evaluation, Oxidative, and Immune Responses of Mercury on Nile Tilapia: Modulatory Role of Dietary Nannochloropsis oculata",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zahran2023-mercury-tilapia-nannochloropsis",
+        "content_pin": {
+          "content_sha256": "1059d8620f6ed528cfba76552bde50e774e05086c029a9d6e7d4de5893b44621",
+          "content_bytes": 4398,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/zahran2023-mercury-tilapia-nannochloropsis.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/fish-freshwater.md",
+    "total_claims": 1,
+    "cited_claims": 1,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 8,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/shaving-cream-gel-foam",
+    "title": "Shaving cream/gel/foam",
+    "hmtc_category": 14,
+    "hmtc_row": 7,
+    "category_label": null,
+    "age_range": null,
+    "label": "Shaving cream/gel/foam",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/shaving-cream-gel-foam",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "41e8b83679b77746ee345cd96c2e375227e3a2755df4d9c3a46c5a6e054ead09",
+      "content_bytes": 8479,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/shaving-cream-gel-foam.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 2,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "title": "Quality and safety investigation of commonly used topical cosmetic preparations",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al",
+          "Cr",
+          "Cu",
+          "Ni",
+          "Fe",
+          "Zn",
+          "Mn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "content_pin": {
+          "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
+          "content_bytes": 35313,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hepp2014-fda-cosmetics-seven-elements",
+        "title": "Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Pb",
+          "tHg",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
+        "content_pin": {
+          "content_sha256": "d02b3931cd463f6495ff0837741da35472c26d3b2cfb7e6aff54cff59ae8f0b5",
+          "content_bytes": 29122,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/shaving-cream-gel-foam.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

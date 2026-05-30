@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/rice-snacks-crackers",
+    "title": "Rice snacks/crackers",
+    "hmtc_category": 3,
+    "hmtc_row": 8,
+    "category_label": null,
+    "age_range": null,
+    "label": "Rice snacks/crackers",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "iAs",
+      "tAs"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/rice-snacks-crackers",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "60d5680f281ded6bfa805590e59c99320d8ca3e5a8650056368cff969e373f2a",
+      "content_bytes": 9413,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/rice-snacks-crackers.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 6,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/brombach2017-methylmercury-european-commercial-rice",
+        "title": "Methylmercury varies more than one order of magnitude in commercial European rice",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/brombach2017-methylmercury-european-commercial-rice",
+        "content_pin": {
+          "content_sha256": "b4f0b6d459849718a9f0b391b2aec016d47dde1f8064d989da29a155ea3442f1",
+          "content_bytes": 12951,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/brombach2017-methylmercury-european-commercial-rice.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/carey2018-rice-dilution-infant-food-eu-arsenic",
+        "title": "Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/carey2018-rice-dilution-infant-food-eu-arsenic",
+        "content_pin": {
+          "content_sha256": "6e9a526dbbe72a811b53c4a29a981af25e2573fc714d8d0b8f14c61bed71681b",
+          "content_bytes": 5864,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2013-ias-rice-products-sampling",
+        "title": "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
+        "content_pin": {
+          "content_sha256": "c839c3179bde9a3184350b48c0cd9004612af1868477a2e84fe8226cec12c983",
+          "content_bytes": 6624,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gu2020-arsenic-rice-infant-food-australia",
+        "title": "Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
+        "content_pin": {
+          "content_sha256": "bc9176020972a81911a445601af13198c4ee4142b250919facc841f75e3d4d4f",
+          "content_bytes": 7706,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/signes-pastor2017-infant-arsenic-rice-weaning",
+        "title": "Levels of infants' urinary arsenic metabolites related to formula feeding and weaning with rice products exceeding the EU inorganic arsenic standard",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2017-infant-arsenic-rice-weaning",
+        "content_pin": {
+          "content_sha256": "b5628a83c0f5e28ab9a5ac787ce78466dcf7afcfd41397a4529f7ed8ccf83572",
+          "content_bytes": 9471,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/signes-pastor2017-infant-arsenic-rice-weaning.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/wehmeier2023-ias-rice-cola-field-method",
+        "title": "Detection of Inorganic Arsenic in Rice Using a Field-Deployable Method with Cola Extraction",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/wehmeier2023-ias-rice-cola-field-method",
+        "content_pin": {
+          "content_sha256": "2e4f14c752a5d9381fb9161ae314e2ffb8b7c22c3f9ebff6921372e0d5151538",
+          "content_bytes": 5316,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/wehmeier2023-ias-rice-cola-field-method.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/rice-snacks-crackers.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

@@ -1,0 +1,791 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/baby-cereals-dry-non-rice",
+    "title": "Baby Cereals / Grain Products, Dry (Non-Rice)",
+    "hmtc_category": 1,
+    "hmtc_row": 5,
+    "category_label": "Infant and Child Foods",
+    "age_range": "0-5",
+    "label": "Baby cereals / grain products, dry (non-rice)",
+    "primary_metals_of_concern": [
+      "iAs",
+      "Cd",
+      "Pb"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "infants-0-24mo",
+    "evidence_fitness": "EF-3",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/baby-cereals-dry-non-rice",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "571e9198e9b499f51ea733e29214271ef2aaad274188bc8c54abcc02d3e333dc",
+      "content_bytes": 47615,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/baby-cereals-dry-non-rice.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 31,
+    "sources_with_structured_values": 5,
+    "contributing_sources": [
+      {
+        "slug": "sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals",
+        "title": "Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 12,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals",
+        "content_pin": {
+          "content_sha256": "74e39fe4ed1c353cc5d1bd3a42e06b88319247517552d480318f850eb8eb6632",
+          "content_bytes": 15855,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bair2022-infant-toddler-food-heavy-metals-policy",
+        "title": "A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bair2022-infant-toddler-food-heavy-metals-policy",
+        "content_pin": {
+          "content_sha256": "5fbc767d67b502e2f58ee89e1a6118cb59dee190ecb829d7170b796896627dc9",
+          "content_bytes": 14171,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/barber2025-baby-food-elements-us",
+        "title": "Toxic elements in baby and young children's foods in the US and correlation to ingredients",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "Pb",
+          "Tl"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/barber2025-baby-food-elements-us",
+        "content_pin": {
+          "content_sha256": "fc697427b548ed0ac5bcfc1d408dfe80e56660d2e7afe5886b93c8342490ffd1",
+          "content_bytes": 13669,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/carey2018-rice-dilution-infant-food-eu-arsenic",
+        "title": "Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/carey2018-rice-dilution-infant-food-eu-arsenic",
+        "content_pin": {
+          "content_sha256": "6e9a526dbbe72a811b53c4a29a981af25e2573fc714d8d0b8f14c61bed71681b",
+          "content_bytes": 5864,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chekri2019-french-infant-toddler-tds-trace-elements",
+        "title": "Trace element contents in foods from the first French Total Diet Study on infants and toddlers",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Ni",
+          "Sn",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chekri2019-french-infant-toddler-tds-trace-elements",
+        "content_pin": {
+          "content_sha256": "25bd12220a126d1c8189ec24e16a1ffdc134f81faee26ef9ba44cedfb4758e35",
+          "content_bytes": 7948,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chronchol2026-dairy-free-infant-porridges-poland",
+        "title": "Trace Element Intake from Dairy-Free Infant Porridges",
+        "route_kind": "direct_evidence",
+        "route_status": "partial_structured_values_present",
+        "evidence_use": "partial_structured_value_candidate",
+        "value_record_count": 2,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chronchol2026-dairy-free-infant-porridges-poland",
+        "content_pin": {
+          "content_sha256": "c6e3dcf10fc245d0f3ce9a9bc9dea4f660c67abb011d2f57fe3bfa01ab4aff73",
+          "content_bytes": 2990,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chronchol2026-dairy-free-infant-porridges-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/collado-lopez2025-heavy-metals-baby-food-formula",
+        "title": "Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review",
+        "route_kind": "direct_evidence",
+        "route_status": "partial_structured_values_present",
+        "evidence_use": "partial_structured_value_candidate",
+        "value_record_count": 3,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/collado-lopez2025-heavy-metals-baby-food-formula",
+        "content_pin": {
+          "content_sha256": "5b811cfebd60862cad853bc54334d5f219a373b14dd59cf1d036273b51b439df",
+          "content_bytes": 9046,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil",
+        "title": "Aluminum content and effect of in vitro digestion on bioaccessible fraction in cereal-based baby foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil",
+        "content_pin": {
+          "content_sha256": "c05afdcb4f867dd4bf0f9158abf56600b7fa3045161401a16e2d19ea40e0f5f7",
+          "content_bytes": 10463,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi",
+        "title": "Evaluation of Some Toxic and Essential Trace Elements in Children Foods and Infant Formulae by Using ICP-OES",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Pb",
+          "Cd",
+          "tAs",
+          "Mn",
+          "Ni",
+          "V",
+          "Si",
+          "Ba"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi",
+        "content_pin": {
+          "content_sha256": "3c6ad2cd0453d7fa3dd3e05f6916d1cf6fe1bddcb262c9846df305a1d72eb6b3",
+          "content_bytes": 9751,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda-ctz-Pb-babyfood-2025",
+        "title": "Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda-ctz-Pb-babyfood-2025",
+        "content_pin": {
+          "content_sha256": "442f5c36849aa6bf6c776c8a8556ea08310d867e7d64fb5250478ee2ae6e9773",
+          "content_bytes": 10943,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda-ctz-Pb-babyfood-2025.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2016-arsenic-rice-cereal-analytic-results",
+        "title": "Analytical Results: Inorganic Arsenic in Infant/Toddler Foods (2016)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2016-arsenic-rice-cereal-analytic-results",
+        "content_pin": {
+          "content_sha256": "f28e0d3110eeec8c7407b410e78578168f649d6a22eaaf868f35f37e9ce8b2d5",
+          "content_bytes": 5411,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2016-arsenic-rice-cereal-analytic-results.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2016-infant-toddler-foods-inorganic-arsenic",
+        "title": "Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
+        "content_pin": {
+          "content_sha256": "7a972ebe0f0690fafe7b5882f79e9e22e51edc0f683e0abeffc05baf740d8820",
+          "content_bytes": 7506,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2021-lead-baby-food-fy2020-fy2021",
+        "title": "Analytical Results for Lead in Food Intended for Babies and Young Children (FY2020-FY2021)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2021-lead-baby-food-fy2020-fy2021",
+        "content_pin": {
+          "content_sha256": "3b3b8a7c3e657f44d10148d6dbb95788e6542c2513e5e4552cc5267e3941880a",
+          "content_bytes": 4853,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2021-lead-baby-food-fy2020-fy2021.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2024-lead-baby-food-fy2023-guidance-basis",
+        "title": "Analytical Results for Lead in Processed Food Intended for Babies and Young Children (FY2023)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2024-lead-baby-food-fy2023-guidance-basis",
+        "content_pin": {
+          "content_sha256": "a1021f8e2f7535d2922e62408f70cd20df58971e865687b37bf03cdcbd213063",
+          "content_bytes": 5107,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda2024-toxic-elements-baby-food-compliance-2009-2024",
+        "title": "Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024)",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 8,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024",
+        "content_pin": {
+          "content_sha256": "86a57ae26602b58372f016695049c7014c7a5f024471d21846ebeb2417a14f89",
+          "content_bytes": 8342,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fsa2016-infant-food-formula-metals-survey",
+        "title": "Survey of metals in commercial infant foods, infant formula and non-infant specific foods",
+        "route_kind": "broad_product_context",
+        "route_status": "partial_structured_values_present",
+        "evidence_use": "partial_structured_value_candidate",
+        "value_record_count": 10,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Pb",
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fsa2016-infant-food-formula-metals-survey",
+        "content_pin": {
+          "content_sha256": "e0a8f025e3daeaa8dd8e5eb13934a7333566a6b66b1a7eec05e089d27a5cf48a",
+          "content_bytes": 6179,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fsa2016-infant-food-formula-metals-survey.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france",
+        "title": "Cr(VI) and Cr(III) in milk, dairy and cereal products and dietary exposure assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr-VI",
+          "Cr-III",
+          "Cr-total"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france",
+        "content_pin": {
+          "content_sha256": "ef4e1c226d0826638d815f45dc74038ec1fd7e00c164ccf0862fcf4839e8bb1e",
+          "content_bytes": 13906,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/houlihan2019-hbbf-whats-in-baby-food",
+        "title": "What's in My Baby's Food? A National Investigation Finds 95 Percent of Baby Foods Tested Contain Toxic Chemicals That Lower Babies' IQ, Including Arsenic and Lead",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/houlihan2019-hbbf-whats-in-baby-food",
+        "content_pin": {
+          "content_sha256": "28f9fb04d64fa020fb065502d5b9022c0467ffe1eff611d566251145496fdddd",
+          "content_bytes": 12150,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/houlihan2019-hbbf-whats-in-baby-food.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/igweze2020-al-as-hg-infant-formula-nigeria",
+        "title": "Public Health and Paediatric Risk Assessment of Aluminium, Arsenic and Mercury in Infant Formulas Marketed in Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/igweze2020-al-as-hg-infant-formula-nigeria",
+        "content_pin": {
+          "content_sha256": "7137e01a2f0657db0052748e403ae57f8dc65d8222244ce8fe3ad904ee6fbbbc",
+          "content_bytes": 6261,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/igweze2020-al-as-hg-infant-formula-nigeria.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jackson2012-arsenic-speciation-infant-formulas-first-foods",
+        "title": "Arsenic concentration and speciation in infant formulas and first foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs",
+          "MMA",
+          "DMA"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods",
+        "content_pin": {
+          "content_sha256": "08a6b7e414addf7cccca8bd413b5c5868681a7ef9a7e4455e560652cb32dee55",
+          "content_bytes": 6442,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kirkpatrick1980-trace-elements-canadian-baby-foods",
+        "title": "The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr-total",
+          "Co",
+          "Cu",
+          "Fe",
+          "Pb",
+          "Mn",
+          "Ni",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kirkpatrick1980-trace-elements-canadian-baby-foods",
+        "content_pin": {
+          "content_sha256": "268fcc9bfa98a9453c13511471303f02e1a7d1f2a277fc8dfcf1971eb063e0d5",
+          "content_bytes": 13233,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mania2015-toxic-elements-infant-food-poland",
+        "title": "Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
+        "content_pin": {
+          "content_sha256": "d9fb0f46fec48df7f4e2f5d800c86744623b2c6e09732cf0fe11b6d4634aa5d7",
+          "content_bytes": 10309,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/meli2024-chemical-characterization-baby-food-italy",
+        "title": "Chemical characterization of baby food consumed in Italy",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Cd",
+          "tHg",
+          "Ni",
+          "Pb",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/meli2024-chemical-characterization-baby-food-italy",
+        "content_pin": {
+          "content_sha256": "b42d942e3aae0ccad23ca00b0d28f79cae65c666eaca49c47b7fb74573f96edd",
+          "content_bytes": 5546,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/meli2024-chemical-characterization-baby-food-italy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+        "title": "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk",
+        "content_pin": {
+          "content_sha256": "3596817c1f33b29c1145773ada213f78f4cfd5a51045bdc4b0795fb4fc233800",
+          "content_bytes": 7196,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+        "title": "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+        "content_pin": {
+          "content_sha256": "2551d0b23ca7676229128cd372faae1930005a5b86bb5e6ed900381c00227abd",
+          "content_bytes": 10082,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/price2023-biokinetic-lead-baby-food-blls",
+        "title": "Extending Regulatory Biokinetic Lead Models towards Food Safety: Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/price2023-biokinetic-lead-baby-food-blls",
+        "content_pin": {
+          "content_sha256": "8a251bc7ac880491b5321f8e4f98683621e60cdc081fc46d10e1114ffd9f9076",
+          "content_bytes": 8893,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/price2023-biokinetic-lead-baby-food-blls.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/price2023-lead-biokinetic-baby-food-us",
+        "title": "Biokinetic Modeling of Lead Exposures in Baby Food Consuming U.S. Infants (0–7 Years)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/price2023-lead-biokinetic-baby-food-us",
+        "content_pin": {
+          "content_sha256": "d8621427a8f70f8017f1a01a722f44d6c45541ed221ea3eada2ab7e4529ab367",
+          "content_bytes": 2788,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/price2023-lead-biokinetic-baby-food-us.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation",
+        "title": "Multi-elemental risk assessment of various baby rice cereals: some cause for concern?",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cr",
+          "Pb",
+          "Cd",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation",
+        "content_pin": {
+          "content_sha256": "e4bb12acd8054f88e54a708a8d39b917b6b63e5de924f8f0225b93b3467b3749",
+          "content_bytes": 8571,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/signes-pastor2018-infants-dietary-arsenic-solid-food",
+        "title": "Infants' dietary arsenic exposure during transition to solid food",
+        "route_kind": "broad_product_context",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/signes-pastor2018-infants-dietary-arsenic-solid-food",
+        "content_pin": {
+          "content_sha256": "ef20a0f8832e62fae212a56615cbee91da42b5cec74343692c4e493a2d130746",
+          "content_bytes": 4261,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sipahi2014-toxic-metals-infant-formulas-turkey",
+        "title": "Safety assessment of essential and toxic metals in infant formulas",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Al",
+          "Mn",
+          "Cr",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sipahi2014-toxic-metals-infant-formulas-turkey",
+        "content_pin": {
+          "content_sha256": "484886dc93ab39819ffd5ac472f7b82f7b86502463c8b0be615021a8c542d559",
+          "content_bytes": 10816,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/toledo2024-essential-toxic-elements-infant-cereal-brazil",
+        "title": "Essential and Toxic Elements in Infant Cereal in Brazil: Exposure Risk Assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ag",
+          "Al",
+          "tAs",
+          "iAs",
+          "B",
+          "Ba",
+          "Cd",
+          "Co",
+          "Cr",
+          "Cu",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Se",
+          "Sr",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil",
+        "content_pin": {
+          "content_sha256": "6f5ad4b36652a6aa82e49d868a03f1de440b0b4b37fe82f4b4a74f9db75bef2d",
+          "content_bytes": 9850,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 1,
+    "resolved_count": 1,
+    "caps": [
+      {
+        "slug": "regulations/fda-ctz-Pb-cereal-20ppb",
+        "title": "FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals",
+        "agency": "FDA",
+        "program": "Closer to Zero",
+        "metals": [
+          "Pb"
+        ],
+        "limit_value": 20,
+        "limit_unit": "ppb",
+        "status": "finalized",
+        "effective_date": null,
+        "matrices": [
+          "dry-infant-cereals"
+        ],
+        "page_url": "https://heavymetalindex.com/regulations/fda-ctz-Pb-cereal-20ppb",
+        "resolved": true
+      }
+    ],
+    "note": null
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/baby-cereals-dry-non-rice.md",
+    "total_claims": 125,
+    "cited_claims": 125,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 41,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

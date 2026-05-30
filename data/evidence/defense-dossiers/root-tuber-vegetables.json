@@ -1,0 +1,594 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/root-tuber-vegetables",
+    "title": "Root and Tuber Vegetables",
+    "hmtc_category": 4,
+    "hmtc_row": 7,
+    "category_label": "Fruits, Vegetables, and Produce",
+    "age_range": null,
+    "label": "Root and Tuber Vegetables",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "tAs"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/root-tuber-vegetables",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "0e047794b83a62170da55da2ea9ff702ddd1fc5df8329ccc39a561127ae06270",
+      "content_bytes": 15631,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/root-tuber-vegetables.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 23,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/afonne2020-heavy-metals-plant-foods",
+        "title": "Heavy metals risks in plant foods – need to step up precautionary measures",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "iAs",
+          "tAs",
+          "tHg",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/afonne2020-heavy-metals-plant-foods",
+        "content_pin": {
+          "content_sha256": "59250ade2b20871c414254181413e9896c163a56129301ffbe7019b734dc7d19",
+          "content_bytes": 14959,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/afonne2020-heavy-metals-plant-foods.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ahmed2017-bangladesh-vegetable-arsenic",
+        "title": "Arsenic Contamination of Water-Soil-Crop System in an Industrial Area of Bangladesh",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ahmed2017-bangladesh-vegetable-arsenic",
+        "content_pin": {
+          "content_sha256": "872219124434e23a7a507c5b3998aa0c6c53c2f6f9bbc90ca917e7023e97e365",
+          "content_bytes": 3205,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ahmed2017-bangladesh-vegetable-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/albishi2026-cassava-flour-biofortification",
+        "title": "In vitro evaluation of bio-fortification effects on the nutritional quality, toxicological safety, and antioxidant of cassava (Manihot esculenta) flour, and environmental safety of processing water, using natural additives",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/albishi2026-cassava-flour-biofortification",
+        "content_pin": {
+          "content_sha256": "33eafa3445d6248561bcbb1d798dc2f23a65e8523fbdfe7038aa9796be9c7cd7",
+          "content_bytes": 4931,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/albishi2026-cassava-flour-biofortification.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bambara2023-loumbila-vegetables-heavy-metals",
+        "title": "Evaluation of the Metallic Contamination of Market Garden Products around the Loumbila Dam",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Ni",
+          "Zn",
+          "Cr",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bambara2023-loumbila-vegetables-heavy-metals",
+        "content_pin": {
+          "content_sha256": "0a2891e8ce2d1a55a582041155856589c0bcb931d8d9586b62e2e3158b6a2425",
+          "content_bytes": 3053,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bambara2023-loumbila-vegetables-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bedoya-perales2023-moquegua-peru-mining-dataset",
+        "title": "Dataset of metals and metalloids in food crops and soils sampled across the mining region of Moquegua in Peru",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bedoya-perales2023-moquegua-peru-mining-dataset",
+        "content_pin": {
+          "content_sha256": "dfd2aacd864e4e1012b494a0eb1df42e140a12a7771ad3a6118955674c38e9f5",
+          "content_bytes": 5310,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bedoya-perales2023-moquegua-peru-mining-dataset.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
+        "title": "Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
+        "content_pin": {
+          "content_sha256": "533406305ed5aa773ba5e7eed27c93ae1365431d03a870f52e3e0e3dddb35cef",
+          "content_bytes": 22033,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ccopi2026-heavy-metals-andean-crops-peru",
+        "title": "Bioaccumulation of heavy metals in high Andean crops of the Peruvian Andes: comparative evaluation between irrigated and dry systems",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ccopi2026-heavy-metals-andean-crops-peru",
+        "content_pin": {
+          "content_sha256": "86882063bf00d560c8086f008f0797fe06f7b87542c9f14280a74f10a222be05",
+          "content_bytes": 6250,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ccopi2026-heavy-metals-andean-crops-peru.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chaleshtori2019-watermelon-carrot-pb-cd",
+        "title": "Assessment of Lead and Cadmium Levels in Watermelon and Carrot",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chaleshtori2019-watermelon-carrot-pb-cd",
+        "content_pin": {
+          "content_sha256": "2966a4f140a4fa3b6903750c3ab9b7efd44b9f8272114cc1a70b03e931a39831",
+          "content_bytes": 2884,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chaleshtori2019-watermelon-carrot-pb-cd.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/diyarov2022-food-processing-heavy-metals",
+        "title": "The effect of food processing on the content of heavy metals in vegetables",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Zn",
+          "Pb",
+          "Mn",
+          "Cd",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/diyarov2022-food-processing-heavy-metals",
+        "content_pin": {
+          "content_sha256": "0d0d12eb66597d871636a82485d4ffbe2caa369182cbe3495263bdd538d6b64d",
+          "content_bytes": 3179,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/diyarov2022-food-processing-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/el-batal2023-carrot-wastewater-selenium-nanoparticles",
+        "title": "Effect of selenium nanoparticles on heavy metal accumulation in carrot (Daucus carota) irrigated with wastewater",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Cd",
+          "Pb",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/el-batal2023-carrot-wastewater-selenium-nanoparticles",
+        "content_pin": {
+          "content_sha256": "30ac5de370dc82677df64039f8e1312e0ee526eff3cb8d8a9b19722dc900a6b3",
+          "content_bytes": 3650,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/el-batal2023-carrot-wastewater-selenium-nanoparticles.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi",
+        "title": "Evaluation of Some Toxic and Essential Trace Elements in Children Foods and Infant Formulae by Using ICP-OES",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Pb",
+          "Cd",
+          "tAs",
+          "Mn",
+          "Ni",
+          "V",
+          "Si",
+          "Ba"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi",
+        "content_pin": {
+          "content_sha256": "3c6ad2cd0453d7fa3dd3e05f6916d1cf6fe1bddcb262c9846df305a1d72eb6b3",
+          "content_bytes": 9751,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/jaishree2015-effluent-irrigated-crops-metals",
+        "title": "Heavy metal accumulation in vegetables irrigated with industrial effluent",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Ni",
+          "Pb",
+          "Cu",
+          "Cr",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/jaishree2015-effluent-irrigated-crops-metals",
+        "content_pin": {
+          "content_sha256": "1e63e1080bd547d35c985bb941fec0cd60c86adca4ff28807849ecb885cd15cc",
+          "content_bytes": 3149,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/jaishree2015-effluent-irrigated-crops-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/khalil2017-snacks-peshawar-pakistan-heavy-metals",
+        "title": "Heavy Metals Toxicity: Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/khalil2017-snacks-peshawar-pakistan-heavy-metals",
+        "content_pin": {
+          "content_sha256": "2c1af2c43745514196f0f14dfe1b8f4d2d67238f9dab249c0124e9c86fdd20d6",
+          "content_bytes": 12675,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/khalil2017-snacks-peshawar-pakistan-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kumar2024-arsenic-breast-milk-bihar-gangetic",
+        "title": "High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kumar2024-arsenic-breast-milk-bihar-gangetic",
+        "content_pin": {
+          "content_sha256": "8754050021ffe8aa9b90de8db2a311ad8b02cd61bbde026bc0aad5c9cc1c7c39",
+          "content_bytes": 3454,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/kumar2024-arsenic-breast-milk-bihar-gangetic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pal2017-wastewater-vegetables-heavy-metals",
+        "title": "Heavy Metals in Soil and Vegetables and their Effect on Health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cu",
+          "Zn",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pal2017-wastewater-vegetables-heavy-metals",
+        "content_pin": {
+          "content_sha256": "da6af0e8c7665fab43a8b967fb5f3722b9033889557701335926a207feef0615",
+          "content_bytes": 3875,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/pal2017-wastewater-vegetables-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+        "title": "Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb",
+        "content_pin": {
+          "content_sha256": "2551d0b23ca7676229128cd372faae1930005a5b86bb5e6ed900381c00227abd",
+          "content_bytes": 10082,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/reczajska2005-chromium-plant-foods-poland",
+        "title": "Determination of Chromium Content of Food and Beverages of Plant Origin",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
+        "content_pin": {
+          "content_sha256": "dbb2fcaeebe483b9d7e8936796a33929476fe606df0702e2bd2a836fbc5cbff9",
+          "content_bytes": 10398,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
+        "title": "Concentration of cadmium and lead in vegetables and fruits",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
+        "content_pin": {
+          "content_sha256": "e6569a775e25323659c381ba88bb343a023ad173accf1e32bdcbb2844a882ed2",
+          "content_bytes": 18833,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stasinos2014-heavy-metals-tubers-review",
+        "title": "The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "Al",
+          "tHg",
+          "MeHg",
+          "Cu",
+          "Zn",
+          "Mn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stasinos2014-heavy-metals-tubers-review",
+        "content_pin": {
+          "content_sha256": "1049e3a8dce4f93f7f31688149356352d15ad9bbd1aa6f8c3b50a48c8e409c0e",
+          "content_bytes": 25023,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/stasinos2014-heavy-metals-tubers-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sultana2022-dhaka-root-leafy-vegetables",
+        "title": "Heavy Metals in Commonly Consumed Root and Leafy Vegetables in Dhaka City, Bangladesh, and Assessment of Associated Public Health Risks",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Cu",
+          "Zn",
+          "Fe",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sultana2022-dhaka-root-leafy-vegetables",
+        "content_pin": {
+          "content_sha256": "090c9253c707d7937da2eb376551447c5245a1be42c5e01a824b6659967842ec",
+          "content_bytes": 22215,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/sultana2022-dhaka-root-leafy-vegetables.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tonska2020-carrots-lead-cadmium-organic",
+        "title": "Lead and cadmium content in organic and conventional carrots and their dietary risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tonska2020-carrots-lead-cadmium-organic",
+        "content_pin": {
+          "content_sha256": "90cdd408c05d320645b06b1b351ac43808c895c34502677d544fd915b86db671",
+          "content_bytes": 3387,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/tonska2020-carrots-lead-cadmium-organic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tweij2018-carrot-cabbage-lead-cadmium",
+        "title": "Determination of lead and cadmium in carrots and cabbage available in local markets",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tweij2018-carrot-cabbage-lead-cadmium",
+        "content_pin": {
+          "content_sha256": "1c5ac7228161edc151e00f5c4e3a3245a2ef0f670dbfe772f6597a71a5e17204",
+          "content_bytes": 2837,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/tweij2018-carrot-cabbage-lead-cadmium.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/vela2023-quito-vegetables-cd-pb",
+        "title": "Determination of cadmium and lead in vegetables marketed in Quito, Ecuador",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/vela2023-quito-vegetables-cd-pb",
+        "content_pin": {
+          "content_sha256": "b2ee196a4cc5c86b3d608ee98ecbca60aa56e25f24e618de112362ea5dc47d13",
+          "content_bytes": 3129,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/vela2023-quito-vegetables-cd-pb.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/root-tuber-vegetables.md",
+    "total_claims": 1,
+    "cited_claims": 1,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

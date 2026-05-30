@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/legumes-pulses-other",
+    "title": "Legumes and Pulses, Other",
+    "hmtc_category": 4,
+    "hmtc_row": 8,
+    "category_label": "Fruits, Vegetables, and Produce",
+    "age_range": null,
+    "label": "Legumes and Pulses, Other",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "Al",
+      "Ni"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/legumes-pulses-other",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "c553239a67f2aad58f9fbab37492d3b483641af71af9d14e139302f077df5b2c",
+      "content_bytes": 10839,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/legumes-pulses-other.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 6,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn",
+        "title": "Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn",
+        "content_pin": {
+          "content_sha256": "1b956243df7f25273b85a4d159fd337ccdd0c645a8c09848f71814765fb4afc9",
+          "content_bytes": 11464,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ccopi2026-heavy-metals-andean-crops-peru",
+        "title": "Bioaccumulation of heavy metals in high Andean crops of the Peruvian Andes: comparative evaluation between irrigated and dry systems",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tAs",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ccopi2026-heavy-metals-andean-crops-peru",
+        "content_pin": {
+          "content_sha256": "86882063bf00d560c8086f008f0797fe06f7b87542c9f14280a74f10a222be05",
+          "content_bytes": 6250,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ccopi2026-heavy-metals-andean-crops-peru.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chaura2026-phaseolus-multiomics-ionomics",
+        "title": "Nutritional and Biochemical Diversity in Beans Accessions from Three Phaseolus Species Using Multiomics Characterization",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chaura2026-phaseolus-multiomics-ionomics",
+        "content_pin": {
+          "content_sha256": "8c765bb83271bf2a1d74ae34116cb314c9ed7cc0a7d24ea894dce6cf618bd5ee",
+          "content_bytes": 5135,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chaura2026-phaseolus-multiomics-ionomics.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2015-nickel-food-water",
+        "title": "Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
+        "content_pin": {
+          "content_sha256": "e73e15527c9be2ef6b9145effeb6c8f8188cde7657736c965f5aec50ed875fe2",
+          "content_bytes": 30304,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/galal2021-heavy-metals-pisum-sativum",
+        "title": "Heavy metals uptake by the global economic crop (Pisum sativum L.) grown in contaminated soils and its associated health risks",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "As",
+          "Cr",
+          "Ni",
+          "Fe",
+          "Mn",
+          "Zn",
+          "Cu",
+          "Ag",
+          "Co",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/galal2021-heavy-metals-pisum-sativum",
+        "content_pin": {
+          "content_sha256": "83ba0dadaa0cf8b3168562e883fcc3a997f8f25e792388f2bda45a6704fe1097",
+          "content_bytes": 5322,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/galal2021-heavy-metals-pisum-sativum.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/roman-ochoa2021-arequipa-grains-health-risk",
+        "title": "Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Sn",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/roman-ochoa2021-arequipa-grains-health-risk",
+        "content_pin": {
+          "content_sha256": "2ac89d992234f95208e22ec68bdfc2fbf46a045abe7f6a154c5175df38c05916",
+          "content_bytes": 4771,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/roman-ochoa2021-arequipa-grains-health-risk.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/legumes-pulses-other.md",
+    "total_claims": 1,
+    "cited_claims": 1,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/childrens-nail-polish",
+    "title": "Children's Nail Polish (ages 0-5)",
+    "hmtc_category": 2,
+    "hmtc_row": 14,
+    "category_label": "Infant and Child Personal Care",
+    "age_range": "0-5",
+    "label": "Children's Nail Polish (ages 0-5)",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Ni",
+      "Cr"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "infants-and-children-0-5",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Modeled or limited evidence",
+    "canonical_url": "https://heavymetalindex.com/products/childrens-nail-polish",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "6ef54b413f605187451ef58e8e21575d05858f822429e45b0f9643ac59fc2688",
+      "content_bytes": 9684,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/childrens-nail-polish.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 2,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/medley2023-childrens-makeup-body-products-us-usage",
+        "title": "Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/medley2023-childrens-makeup-body-products-us-usage",
+        "content_pin": {
+          "content_sha256": "54348d7438f2493994460ebc9586417f20f676a1a8049c30f7989f1cd467b519",
+          "content_bytes": 12053,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/moriceau2025-cosmetics-icpms-iso21392",
+        "title": "Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg",
+          "Cr",
+          "Ni",
+          "Sb",
+          "Al",
+          "Sn",
+          "Co",
+          "Mn",
+          "Fe",
+          "Zn",
+          "Be",
+          "Se",
+          "Tl",
+          "Ti",
+          "W",
+          "Pt"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
+        "content_pin": {
+          "content_sha256": "70dda34042668bc586dcd1a7ffb7a9afe6464574eed6804723b112f2b2b8d59b",
+          "content_bytes": 19858,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/childrens-nail-polish.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

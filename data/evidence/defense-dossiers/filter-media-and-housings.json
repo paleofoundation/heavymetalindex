@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/filter-media-and-housings",
+    "title": "Filter media and housings",
+    "hmtc_category": 23,
+    "hmtc_row": 30,
+    "category_label": null,
+    "age_range": null,
+    "label": "Filter media and housings",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/filter-media-and-housings",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "2bacac9f1827400f3b803a530ada0ddd17e1b5e1f0aabdec6f730707f9940d74",
+      "content_bytes": 7733,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/filter-media-and-housings.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 0,
+    "sources_with_structured_values": 0,
+    "contributing_sources": []
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/filter-media-and-housings.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

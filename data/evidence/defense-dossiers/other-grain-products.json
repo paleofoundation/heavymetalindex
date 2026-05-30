@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/other-grain-products",
+    "title": "Other grain products (oat, millet, quinoa, barley)",
+    "hmtc_category": 3,
+    "hmtc_row": 11,
+    "category_label": null,
+    "age_range": null,
+    "label": "Other grain products (oat, millet, quinoa, barley)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/other-grain-products",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "e57b3ce8cb050e20e2449f072d651cf99f6a29abc179d90d9950f02d8faf69a7",
+      "content_bytes": 8698,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/other-grain-products.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 5,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/efsa2021-chronic-exposure-iAs",
+        "title": "Chronic dietary exposure to inorganic arsenic",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2021-chronic-exposure-iAs",
+        "content_pin": {
+          "content_sha256": "dcddf1a0e778c0a2fc8c0d847074aec7f5cfc25da3229f9d2f04d4fc42b0c7cd",
+          "content_bytes": 6911,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2024-risk-assessment-iAs-update",
+        "title": "Update of the risk assessment of inorganic arsenic in food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2024-risk-assessment-iAs-update",
+        "content_pin": {
+          "content_sha256": "2d9f95ca5b0ca36da1b89a8d5c9462d079200618777ea62db74dc8b77747556e",
+          "content_bytes": 7744,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hbbf2025-rice-arsenic-cadmium-145-samples",
+        "title": "What's in your family's rice? Arsenic, Cadmium, and Lead in Popular Rice Brands - Plus 9 Safer Grains to Try",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hbbf2025-rice-arsenic-cadmium-145-samples",
+        "content_pin": {
+          "content_sha256": "215f2f803dfe2bc9cd4c785485ee23431e61330c25cab6bcc07de3c4a59dd6d9",
+          "content_bytes": 8539,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mania2020-nickel-cereal-grains-poland",
+        "title": "Assessment of exposure to nickel intake with selected cereal grains and cereal-based products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mania2020-nickel-cereal-grains-poland",
+        "content_pin": {
+          "content_sha256": "54583f087f2295873a4e86d671ea8cb134c8266c4ba48b73181f01c1af96c192",
+          "content_bytes": 7385,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/slepecka2017-ecological-cereal-heavy-metals-poland",
+        "title": "Evaluation of cadmium, lead, zinc and copper levels in selected ecological cereal food products and their non-ecological counterparts",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Zn",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/slepecka2017-ecological-cereal-heavy-metals-poland",
+        "content_pin": {
+          "content_sha256": "b7f44639818ec5d43a4b1a00246355e2a17b0df4d7b7e9f36a59d4fe30263d63",
+          "content_bytes": 8727,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/slepecka2017-ecological-cereal-heavy-metals-poland.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/other-grain-products.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

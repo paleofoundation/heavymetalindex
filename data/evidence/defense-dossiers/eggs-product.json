@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/eggs-product",
+    "title": "Eggs",
+    "hmtc_category": 11,
+    "hmtc_row": 6,
+    "category_label": null,
+    "age_range": null,
+    "label": "Eggs",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/eggs-product",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "85dcab08f9f35dc21031e87c00a075b6f47eafa7bf9bd7be825a27800b59f581",
+      "content_bytes": 8893,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/eggs-product.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 7,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/bazzaz2023-poultry-products-erbil-heavy-metals",
+        "title": "Determination of some heavy metals resides in different types of poultry production",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "tAs",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bazzaz2023-poultry-products-erbil-heavy-metals",
+        "content_pin": {
+          "content_sha256": "152c300a7cc8ab865e411344c8dfa95e2ca88c9f42c799cc969920728107870c",
+          "content_bytes": 3173,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bazzaz2023-poultry-products-erbil-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ezike2024-nigerian-poultry-pte",
+        "title": "An evaluation of the health risks, antibiotic residue levels and potentially toxic ingredients in Nigerian poultry products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ezike2024-nigerian-poultry-pte",
+        "content_pin": {
+          "content_sha256": "5b106ecb716fdbde073eb81f7ebae1642cfa74ac679b969274cfff08d6587842",
+          "content_bytes": 3034,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ezike2024-nigerian-poultry-pte.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fera2015-uk-tds-metals",
+        "title": "Total Diet Study of metals and other elements in food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "iAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Mo",
+          "Ni",
+          "Pd",
+          "Pt",
+          "Sn",
+          "Tl",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
+        "content_pin": {
+          "content_sha256": "9991ede4988d86b8302ca6c36214bfd53b4b6ac82500a0eb07e9e77c35c08db0",
+          "content_bytes": 10998,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs",
+        "title": "Content of Toxic Elements (Arsenic, Cadmium, Mercury, Lead) in Eggs from an Ethically Managed Laying Hen Farm",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs",
+        "content_pin": {
+          "content_sha256": "bbe325b630093c5a7e8db5cde3d91df8ce0f636f9fe30cfb25260555244b5386",
+          "content_bytes": 5215,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/iqbal2023-poultry-feed-pakistan",
+        "title": "Evaluation of Heavy Metals Concentration in Poultry Feed and Poultry Products",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tHg",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/iqbal2023-poultry-feed-pakistan",
+        "content_pin": {
+          "content_sha256": "3c2b0885ef7717d4fd8bcd6ab41772b639452378802794d690ba1dba763fb825",
+          "content_bytes": 7067,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/iqbal2023-poultry-feed-pakistan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining",
+        "title": "Heavy metal concentrations in Chinese chicken eggs: insights from comparative study of urban and mining areas",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "tAs",
+          "Cd",
+          "Pb",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining",
+        "content_pin": {
+          "content_sha256": "9b0149f2422eaed43fc99b328934bc01217b4c93896a2e3e6c8ed2ff671735f0",
+          "content_bytes": 14775,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mahbub2018-poultry-feed-meat-eggs-metals",
+        "title": "Detection of heavy metals in poultry feed, meat and eggs",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mahbub2018-poultry-feed-meat-eggs-metals",
+        "content_pin": {
+          "content_sha256": "d14956df3e807a28fad4d5fcbfe9ddff410e0cffd93bd2fedca5d78bb55f4ff9",
+          "content_bytes": 3553,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mahbub2018-poultry-feed-meat-eggs-metals.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/eggs-product.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

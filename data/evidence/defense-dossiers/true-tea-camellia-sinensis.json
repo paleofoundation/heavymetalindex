@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/true-tea-camellia-sinensis",
+    "title": "true-tea-camellia-sinensis",
+    "hmtc_category": 5,
+    "hmtc_row": 11,
+    "category_label": null,
+    "age_range": null,
+    "label": "True tea (Camellia sinensis)",
+    "primary_metals_of_concern": [
+      "Al",
+      "Pb",
+      "Cd"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": "general_population",
+    "evidence_fitness": "EF-5",
+    "public_evidence_label": "Data gap with documented rationale",
+    "canonical_url": "https://heavymetalindex.com/products/true-tea-camellia-sinensis",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "3a130e111bb5c8a7a4287bc57bb33ed0e49406b0b268c18bec4a06c8b09355e8",
+      "content_bytes": 12425,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/true-tea-camellia-sinensis.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 8,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/abraheem2022-tea-coffee-lead-cadmium",
+        "title": "Determination of Lead and Cadmium Concentration in Different Samples of Tea and Coffee Circulating in the Libyan Market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abraheem2022-tea-coffee-lead-cadmium",
+        "content_pin": {
+          "content_sha256": "4c3cbb9997b6abf9eebfd0c2fb3dbe49c7d8a54e4c669135e90e3dd27080da80",
+          "content_bytes": 2825,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fogarasi2019-tea-aluminum",
+        "title": "Aluminium contamination of several types of tea",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fogarasi2019-tea-aluminum",
+        "content_pin": {
+          "content_sha256": "3d048c3bbf49b9325a8cdc597d6dbb656ca6bbabdf25134d3ed5d36fcffeb595",
+          "content_bytes": 2981,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hamitoglu2026-turkiye-tea-metals",
+        "title": "Determination of essential and toxic elements in black teas sold in Turkiye",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Pb",
+          "tAs",
+          "Cd",
+          "Mg",
+          "Fe",
+          "Cu",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hamitoglu2026-turkiye-tea-metals",
+        "content_pin": {
+          "content_sha256": "78aa33087f18764148117aa339b64df7dc594043d112fce2e6871ff5b79889bf",
+          "content_bytes": 3166,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hamitoglu2026-turkiye-tea-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hu2023-china-tea-heavy-metals",
+        "title": "Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Cu",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hu2023-china-tea-heavy-metals",
+        "content_pin": {
+          "content_sha256": "0b123dbf6cf5657cac6fe18320724f66d9e2c6d7d058dff7fae27209a273eb8a",
+          "content_bytes": 6071,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hu2023-china-tea-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kazeminia2023-tea-heavy-metals-review",
+        "title": "Heavy metals and their adverse effects: sources, risks, and strategies to reduce accumulation in tea herb — a systematic review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "As",
+          "Cd",
+          "Cr",
+          "Pb",
+          "Hg",
+          "Al",
+          "Fe",
+          "Ba",
+          "Ni",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kazeminia2023-tea-heavy-metals-review",
+        "content_pin": {
+          "content_sha256": "c4101766bdbea13508b3f08cddc63d75c41ac23bded41066305cc92b0bb83785",
+          "content_bytes": 3935,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/kazeminia2023-tea-heavy-metals-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/li2013-tea-chemical-contaminants-review",
+        "title": "Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/li2013-tea-chemical-contaminants-review",
+        "content_pin": {
+          "content_sha256": "f4c0f3f889f98b81ba3d6b3c1875ab723b77d86800cb1dc13adae3b2950573ab",
+          "content_bytes": 4001,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/li2013-tea-chemical-contaminants-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/salmani2023-herbal-teas-metals-review",
+        "title": "Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/salmani2023-herbal-teas-metals-review",
+        "content_pin": {
+          "content_sha256": "692a45f4498bc037b7939a2f747716d42d2eedc69b95ef0824effc59cf11b718",
+          "content_bytes": 5800,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/salmani2023-herbal-teas-metals-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/taha2026-saudi-tea-metals",
+        "title": "Heavy metals in commercial tea brands in Saudi Arabia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Mn",
+          "Pb",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/taha2026-saudi-tea-metals",
+        "content_pin": {
+          "content_sha256": "6ea5ad335cba9a462c112ea545df08872bb96ea23be90ca45c2acab47776df7b",
+          "content_bytes": 2757,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/taha2026-saudi-tea-metals.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/true-tea-camellia-sinensis.md",
+    "total_claims": 2,
+    "cited_claims": 2,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 2,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

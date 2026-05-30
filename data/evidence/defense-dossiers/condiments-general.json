@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/condiments-general",
+    "title": "Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)",
+    "hmtc_category": 7,
+    "hmtc_row": 6,
+    "category_label": null,
+    "age_range": null,
+    "label": "Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/condiments-general",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "76dc4882a84f725a9565f6c7e77614097f11f2cb87019aa9a7e90ddc32d5d1f7",
+      "content_bytes": 10839,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/condiments-general.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 9,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/cfs2012-hktds-inorganic-arsenic",
+        "title": "The First Hong Kong Total Diet Study: Inorganic Arsenic",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2012-hktds-inorganic-arsenic",
+        "content_pin": {
+          "content_sha256": "e07b8d2e79618a2d3fdffbcf0d57502632bb93456964b4ed712391627937f8f7",
+          "content_bytes": 20797,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/chime2025-nigerian-spices-as-cd-pb",
+        "title": "Assessment of toxic trace metal contamination in food spices sold in Nigerian markets",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/chime2025-nigerian-spices-as-cd-pb",
+        "content_pin": {
+          "content_sha256": "4c46fef03434e1aa974e5797e47e1db8da4eed7f8f7e76e1861dbca9ab35391e",
+          "content_bytes": 6054,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/chime2025-nigerian-spices-as-cd-pb.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/divis2020-mercury-fish-sauce-dgt-tda-aas",
+        "title": "Determination of Mercury in Fish Sauces by Thermal Decomposition Gold Amalgamation Atomic Absorption Spectroscopy after Preconcentration by Diffusive Gradients in Thin Films Technique",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/divis2020-mercury-fish-sauce-dgt-tda-aas",
+        "content_pin": {
+          "content_sha256": "b112a7865211542f6c3902b7964e0c3f34c8152573b44d583dadee67e2a98c8d",
+          "content_bytes": 13844,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dokubo2023-nigeria-seasoning-powder",
+        "title": "Heavy Metal Concentration and Human Health Risk Assessment of Selected Brands of Seasoning Powder Sold in Port Harcourt, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Cr",
+          "tAs",
+          "Fe",
+          "Co",
+          "Cu",
+          "Mn",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dokubo2023-nigeria-seasoning-powder",
+        "content_pin": {
+          "content_sha256": "0e3c8b596bcda55dd1dc61ecaa965e00b84409aeb80a48c8c226d672e49ba1c3",
+          "content_bytes": 10362,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/dokubo2023-nigeria-seasoning-powder.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2015-nickel-food-water",
+        "title": "Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
+        "content_pin": {
+          "content_sha256": "e73e15527c9be2ef6b9145effeb6c8f8188cde7657736c965f5aec50ed875fe2",
+          "content_bytes": 30304,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fera2015-uk-tds-metals",
+        "title": "Total Diet Study of metals and other elements in food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Sb",
+          "tAs",
+          "iAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Cu",
+          "Pb",
+          "Mn",
+          "tHg",
+          "Mo",
+          "Ni",
+          "Pd",
+          "Pt",
+          "Sn",
+          "Tl",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
+        "content_pin": {
+          "content_sha256": "9991ede4988d86b8302ca6c36214bfd53b4b6ac82500a0eb07e9e77c35c08db0",
+          "content_bytes": 10998,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland",
+        "title": "Assessment of cadmium and lead content in tomatoes and tomato products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland",
+        "content_pin": {
+          "content_sha256": "2dbb998fbb76b41f0838ad25554b864720ffc2f0937b0da152a487f4a4395b4b",
+          "content_bytes": 8353,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/spex2023-hot-sauce-chili-powder-metals",
+        "title": "Heavy Metal Contamination of Hot Sauce and Chili Powder",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/spex2023-hot-sauce-chili-powder-metals",
+        "content_pin": {
+          "content_sha256": "6e79867c3ee8fb6b9449657e261843ba0ce89968d9e9c3661dd19dee550b0809",
+          "content_bytes": 6845,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/spex2023-hot-sauce-chili-powder-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd",
+        "title": "A Comparative Study on Presence of Heavy Metals Lead and Cadmium in Tomato Ketchups used by Street Vendors of Delhi NCR",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd",
+        "content_pin": {
+          "content_sha256": "323c7f85446149dc85df327ec7fe078853d51fe0f52eddf4954a5627f4aee12d",
+          "content_bytes": 5508,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/condiments-general.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

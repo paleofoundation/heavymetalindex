@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/bottled-drinking-water",
+    "title": "Bottled drinking water (purified, spring, artesian)",
+    "hmtc_category": 8,
+    "hmtc_row": 1,
+    "category_label": null,
+    "age_range": null,
+    "label": "Bottled drinking water (purified, spring, artesian)",
+    "primary_metals_of_concern": [
+      "Pb",
+      "Cd",
+      "iAs",
+      "tAs"
+    ],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/bottled-drinking-water",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "c0bffdb632e6c572f716b31618eda3c59bea0b862b4ded6ca0668b989a0ad5ab",
+      "content_bytes": 8706,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/bottled-drinking-water.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 4,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/decharat2023-lead-cadmium-drinking-water-thailand",
+        "title": "Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/decharat2023-lead-cadmium-drinking-water-thailand",
+        "content_pin": {
+          "content_sha256": "5f828036d1d24cad8c114f1cbbcc45d4b8596ba87f009e7e21455014fa138d92",
+          "content_bytes": 3621,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/decharat2023-lead-cadmium-drinking-water-thailand.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2015-nickel-food-water",
+        "title": "Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
+        "content_pin": {
+          "content_sha256": "e73e15527c9be2ef6b9145effeb6c8f8188cde7657736c965f5aec50ed875fe2",
+          "content_bytes": 30304,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fda-tds-elements-2018-2020",
+        "title": "Total Diet Study Report: Fiscal Years 2018-2020 Elements Data",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "iAs",
+          "tHg",
+          "Ni",
+          "Cr",
+          "U",
+          "Sb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fda-tds-elements-2018-2020",
+        "content_pin": {
+          "content_sha256": "501b3229a3e26549c53b6fd686d10ed69bb734c8468e01f307943aff17e75d2c",
+          "content_bytes": 26671,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/fda-tds-elements-2018-2020.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/olowoyo2026-heavy-metals-drinking-water-global-review",
+        "title": "Heavy Metals Burden in Drinking Water: Global Patterns, Sources, and Public Health Implications",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Ni",
+          "Fe",
+          "Cu",
+          "Zn",
+          "U",
+          "Mn",
+          "tHg",
+          "Sb",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/olowoyo2026-heavy-metals-drinking-water-global-review",
+        "content_pin": {
+          "content_sha256": "a97b19afed55664759564b1f8e23aa3341c57729302901647d71a2e9f6d3ee2b",
+          "content_bytes": 28459,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/olowoyo2026-heavy-metals-drinking-water-global-review.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/bottled-drinking-water.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

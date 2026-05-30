@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/body-hand-leave-on-skin-care",
+    "title": "Body/hand leave-on skin care",
+    "hmtc_category": 13,
+    "hmtc_row": 4,
+    "category_label": null,
+    "age_range": null,
+    "label": "Body/hand leave-on skin care",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/body-hand-leave-on-skin-care",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "e011ea2acd87650d8e4be27f0ef83266b81f95b844688f7c2a30a111c8c5f24f",
+      "content_bytes": 9223,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/body-hand-leave-on-skin-care.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 4,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "title": "Quality and safety investigation of commonly used topical cosmetic preparations",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al",
+          "Cr",
+          "Cu",
+          "Ni",
+          "Fe",
+          "Zn",
+          "Mn",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
+        "content_pin": {
+          "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
+          "content_bytes": 35313,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/balogun2024-body-creams-delta-nigeria",
+        "title": "Heavy Metals Concentration In Body Creams Commonly Used In Delta State Tertiary Institutions And Their Implications For Human Health",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Co",
+          "tAs",
+          "Mn",
+          "Ag",
+          "Zn",
+          "Ni",
+          "Cr",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/balogun2024-body-creams-delta-nigeria",
+        "content_pin": {
+          "content_sha256": "f886d69259936d9625c0ba0563c65671aa909f59ef2ffbe035b8789d6e0e005b",
+          "content_bytes": 13936,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/balogun2024-body-creams-delta-nigeria.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hepp2014-fda-cosmetics-seven-elements",
+        "title": "Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Pb",
+          "tHg",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
+        "content_pin": {
+          "content_sha256": "d02b3931cd463f6495ff0837741da35472c26d3b2cfb7e6aff54cff59ae8f0b5",
+          "content_bytes": 29122,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rbeida2023-heavy-metals-cosmetics-libya",
+        "title": "Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "Cd",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rbeida2023-heavy-metals-cosmetics-libya",
+        "content_pin": {
+          "content_sha256": "253927651adadeba650034c1558f8754eef7f1a4ad34e2991af26b84009fe884",
+          "content_bytes": 25046,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/body-hand-leave-on-skin-care.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}

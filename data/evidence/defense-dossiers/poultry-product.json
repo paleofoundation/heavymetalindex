@@ -1,0 +1,670 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_kind": "heavy_metal_index_certification_defense_dossier",
+  "product": {
+    "slug": "products/poultry-product",
+    "title": "Poultry (chicken, turkey, duck)",
+    "hmtc_category": 11,
+    "hmtc_row": 4,
+    "category_label": null,
+    "age_range": null,
+    "label": "Poultry (chicken, turkey, duck)",
+    "primary_metals_of_concern": [],
+    "hmtc_tested_metals": [],
+    "vulnerable_population": null,
+    "evidence_fitness": null,
+    "public_evidence_label": null,
+    "canonical_url": "https://heavymetalindex.com/products/poultry-product",
+    "wiki_doi": null,
+    "content_pin": {
+      "content_sha256": "f9d7539b206d9724b69defc35133bbb58299abcfc81ee3d6dcc76b168de27f96",
+      "content_bytes": 15550,
+      "last_commit_sha": "ce3e07c",
+      "last_commit_date": "2026-05-28",
+      "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+      "verify_command": "git show ce3e07c:wiki/products/poultry-product.md | sha256sum"
+    }
+  },
+  "evidence_base": {
+    "contributing_source_count": 27,
+    "sources_with_structured_values": 0,
+    "contributing_sources": [
+      {
+        "slug": "sources/alam2021-bangladesh-poultry-feed-meat-metals",
+        "title": "Heavy metal contamination and antibiotic residues in poultry feed and meat in Bangladesh",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alam2021-bangladesh-poultry-feed-meat-metals",
+        "content_pin": {
+          "content_sha256": "72201726bde432bcb045687c490f3c81c4f15a9069fda07b67a3615dcf894975",
+          "content_bytes": 2534,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/alam2021-bangladesh-poultry-feed-meat-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ali2020-chicken-liver-heavy-metals-erbil",
+        "title": "Determination of heavy metals and selenium content in chicken liver at Erbil city, Iraq",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "tHg",
+          "Cr",
+          "Cu",
+          "Mn",
+          "Ni",
+          "Zn",
+          "Se",
+          "Co"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ali2020-chicken-liver-heavy-metals-erbil",
+        "content_pin": {
+          "content_sha256": "d49a42f28dfb7e69687e472200a15d43246f4100fb11a47ba27d4c40a8993ab6",
+          "content_bytes": 2460,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ali2020-chicken-liver-heavy-metals-erbil.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/aljohani2023-heavy-metal-toxicity-poultry",
+        "title": "Heavy metal toxicity in poultry: a comprehensive review",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/aljohani2023-heavy-metal-toxicity-poultry",
+        "content_pin": {
+          "content_sha256": "b2b92ef811df554ca6cffe7959e3f4099edf4b9da41713fd0ef49581e0a7c778",
+          "content_bytes": 4134,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/aljohani2023-heavy-metal-toxicity-poultry.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/altalib2025-frozen-meat-libya",
+        "title": "Estimation of heavy metal concentrations in imported frozen meat sold in the Libyan market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/altalib2025-frozen-meat-libya",
+        "content_pin": {
+          "content_sha256": "4d508c70437d002be5e5642f1b9693751be3798d0e5761eaa12c6241a277bd05",
+          "content_bytes": 7347,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bazzaz2023-poultry-products-erbil-heavy-metals",
+        "title": "Determination of some heavy metals resides in different types of poultry production",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "tAs",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bazzaz2023-poultry-products-erbil-heavy-metals",
+        "content_pin": {
+          "content_sha256": "152c300a7cc8ab865e411344c8dfa95e2ca88c9f42c799cc969920728107870c",
+          "content_bytes": 3173,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/bazzaz2023-poultry-products-erbil-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ertas2021-poultry-calf-meat-arsenic",
+        "title": "Evaluation of Arsenic Concentration in Poultry and Calf Meat Samples by Hydride Generation Atomic Fluorescence Spectrometry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ertas2021-poultry-calf-meat-arsenic",
+        "content_pin": {
+          "content_sha256": "52dcf26fa9e0c2a47a79bacd13f618261d69881119e67d37c940066dbf7b4cb2",
+          "content_bytes": 2759,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ertas2021-poultry-calf-meat-arsenic.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ezike2024-nigerian-poultry-pte",
+        "title": "An evaluation of the health risks, antibiotic residue levels and potentially toxic ingredients in Nigerian poultry products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ezike2024-nigerian-poultry-pte",
+        "content_pin": {
+          "content_sha256": "5b106ecb716fdbde073eb81f7ebae1642cfa74ac679b969274cfff08d6587842",
+          "content_bytes": 3034,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/ezike2024-nigerian-poultry-pte.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/gholami-ahangaran2021-chicken-meat-cadmium-zinc-silver",
+        "title": "The Measurement of Cadmium, Zinc and Silver in Chicken Meat in Isfahan Province, Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Zn",
+          "Ag"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gholami-ahangaran2021-chicken-meat-cadmium-zinc-silver",
+        "content_pin": {
+          "content_sha256": "71b7ccf456eee0ced9e334e96b905db0ce7982ab65995058990cf26a45c8f92f",
+          "content_bytes": 3133,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/gholami-ahangaran2021-chicken-meat-cadmium-zinc-silver.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/guo2024-duck-eggs-hg-mining-china",
+        "title": "Heavy metal contamination in duck eggs near mercury mining areas in southwest China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Pb",
+          "Zn",
+          "Sr",
+          "Ba"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/guo2024-duck-eggs-hg-mining-china",
+        "content_pin": {
+          "content_sha256": "83b5f9bacb83d610e8494c5cd79825a30c22e7444be3c4831de39afe3ff5f766",
+          "content_bytes": 3389,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/guo2024-duck-eggs-hg-mining-china.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china",
+        "title": "Heavy metal contamination in duck eggs from a mercury mining area, southwestern China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Zn",
+          "Sr",
+          "Ba",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china",
+        "content_pin": {
+          "content_sha256": "558585107c038f9bf77fbb092a36ce76216956258bf50bb756330c3fa8a5e168",
+          "content_bytes": 20567,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hossain2023-bangladesh-chicken-metals",
+        "title": "Human health risk assessment of edible body parts of chicken through heavy metals and trace elements quantitative analysis",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hossain2023-bangladesh-chicken-metals",
+        "content_pin": {
+          "content_sha256": "19c4c9e0f40bfce8cac375efc51eac3a7adc7ff8bfb8404c66972b0bad5d12b0",
+          "content_bytes": 5122,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/hossain2023-bangladesh-chicken-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/iqbal2023-poultry-feed-pakistan",
+        "title": "Evaluation of Heavy Metals Concentration in Poultry Feed and Poultry Products",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tHg",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/iqbal2023-poultry-feed-pakistan",
+        "content_pin": {
+          "content_sha256": "3c2b0885ef7717d4fd8bcd6ab41772b639452378802794d690ba1dba763fb825",
+          "content_bytes": 7067,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/iqbal2023-poultry-feed-pakistan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kamaly2023-egypt-poultry-metals",
+        "title": "Health risk assessment of metals in chicken meat and liver in Egypt",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "Cd",
+          "Pb",
+          "Ni",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kamaly2023-egypt-poultry-metals",
+        "content_pin": {
+          "content_sha256": "4e8209ce73507ba6ea6aef223390a7f54c2bd93b3c1a236635d6075f68c398d0",
+          "content_bytes": 5968,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/kamaly2023-egypt-poultry-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kamouh2024-heavy-metals-chicken-meat-egypt",
+        "title": "Heavy metals load in chicken meat and its reduction by probiotic strains",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kamouh2024-heavy-metals-chicken-meat-egypt",
+        "content_pin": {
+          "content_sha256": "ac6f17d13a6812b086c508977ac397ae608fbf57450fa821525cb250f6caf78c",
+          "content_bytes": 5105,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/kamouh2024-heavy-metals-chicken-meat-egypt.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/kim2022-bsf-larvae-oil-eggs-heavy-metals",
+        "title": "Dietary effects of black soldier fly larvae oil on laying hen performance, egg quality, and egg safety",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al",
+          "tAs",
+          "Pb",
+          "tHg",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kim2022-bsf-larvae-oil-eggs-heavy-metals",
+        "content_pin": {
+          "content_sha256": "ae4680bb82760b29344f7b98f499d4fb815eb28d1710079da7165f53db1fdfd7",
+          "content_bytes": 4016,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/kim2022-bsf-larvae-oil-eggs-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lasky2013-arsenic-chicken-correspondence",
+        "title": "Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lasky2013-arsenic-chicken-correspondence",
+        "content_pin": {
+          "content_sha256": "59b351ff21d4c11248fd3792949d371d699cb1ff2962a1a7462a6f7ffba9134d",
+          "content_bytes": 4434,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/lasky2013-arsenic-chicken-correspondence.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/liang2019-beijing-foodstuffs-health-risk",
+        "title": "Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
+        "content_pin": {
+          "content_sha256": "08b2cf7fc524a9b71315f18cc3da4fd6d382b55e9f337fc0b8f2879f92348e9a",
+          "content_bytes": 10337,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lukin2020-broiler-drumstick-minerals",
+        "title": "Mineral composition of chicken meat semi-finished products from different producers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni",
+          "Sn",
+          "Al",
+          "Sb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lukin2020-broiler-drumstick-minerals",
+        "content_pin": {
+          "content_sha256": "50209710ec2e6c583d39f9b2077a0fb6e23c10983fe19bfe2e45ab68a99f8f9e",
+          "content_bytes": 3353,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/lukin2020-broiler-drumstick-minerals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lysenko2021-organic-broiler-meat-heavy-metals",
+        "title": "Organic Meat Production of Broiler Chickens Hubbard Redbro Cross",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lysenko2021-organic-broiler-meat-heavy-metals",
+        "content_pin": {
+          "content_sha256": "b6591e625e53c9fd400fc644d03239ebc9dbe35e1d3186f246c4da2b95171f95",
+          "content_bytes": 2698,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/lysenko2021-organic-broiler-meat-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mahbub2018-poultry-feed-meat-eggs-metals",
+        "title": "Detection of heavy metals in poultry feed, meat and eggs",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr",
+          "Pb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mahbub2018-poultry-feed-meat-eggs-metals",
+        "content_pin": {
+          "content_sha256": "d14956df3e807a28fad4d5fcbfe9ddff410e0cffd93bd2fedca5d78bb55f4ff9",
+          "content_bytes": 3553,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mahbub2018-poultry-feed-meat-eggs-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mahmud2011-crvi-chicken-pakistan",
+        "title": "Estimation of Chromium (VI) in various body parts of Local Chicken",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mahmud2011-crvi-chicken-pakistan",
+        "content_pin": {
+          "content_sha256": "80716d9eae726f6e1ecf6d6fa0973c2c1d4c905fb490c8419cdf85c46d881517",
+          "content_bytes": 7289,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/mahmud2011-crvi-chicken-pakistan.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/maikanov2021-meats-shuchinsk-burabay-metals",
+        "title": "Assessment of quality and safety of meats from various animal species in the Shuchinsk-Burabay resort zone, Kazakhstan",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/maikanov2021-meats-shuchinsk-burabay-metals",
+        "content_pin": {
+          "content_sha256": "91b50e60519ca66bf917056cbafce26ddf8b8ab3572008b7f48174ab7b0bd80b",
+          "content_bytes": 2595,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/manfredi2025-nickel-meat-italy",
+        "title": "Dietary exposure assessment to nickel through the consumption of poultry, beef, and pork meat for different age groups in the Italian population",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/manfredi2025-nickel-meat-italy",
+        "content_pin": {
+          "content_sha256": "dce5c33ea40197bb8a0a29e983967d0ecb0d3aa80ec2ed31ca14441f930c0804",
+          "content_bytes": 3097,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/manfredi2025-nickel-meat-italy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/morshed2024-heavy-metals-poultry-organs-bangladesh",
+        "title": "Heavy Metals Accumulation in Different Organs of Poultry and Hypothetical Risk Analysis: Evidence from Experimental Feeding with Assorted Metal Feed",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/morshed2024-heavy-metals-poultry-organs-bangladesh",
+        "content_pin": {
+          "content_sha256": "02076b233d54544e479a47b03a0955505d7ae90241c0cf6cccfad8a83bf40b2d",
+          "content_bytes": 8856,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/morshed2024-heavy-metals-poultry-organs-bangladesh.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/okolo2022-chicken-drumstick-umuhia-heavy-metals",
+        "title": "Chemical and microbiological quality of commercial fresh and frozen chicken drumstick in Umuhia, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cr",
+          "Cu",
+          "Mn",
+          "Ni",
+          "Zn",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/okolo2022-chicken-drumstick-umuhia-heavy-metals",
+        "content_pin": {
+          "content_sha256": "c284cacf894f8ee6726943d4ea82fe2b485e7cee4bf8a263ddd1fc2eb417f146",
+          "content_bytes": 3192,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/okolo2022-chicken-drumstick-umuhia-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals",
+        "title": "Analysis of heavy metals content in domestic and imported poultry meat",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals",
+        "content_pin": {
+          "content_sha256": "0847550b9a0b6e90822cc3caabc8e46150fd5324443d3dc826cc202b6694ea33",
+          "content_bytes": 3164,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/razanov2019-poultry-silicon-mineral-heavy-metals",
+        "title": "Effect of silicon and mineral extract on heavy metals balance and accumulation rate in the muscle tissue of poultry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Zn",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/razanov2019-poultry-silicon-mineral-heavy-metals",
+        "content_pin": {
+          "content_sha256": "f4034a3e194a722aa0e7bae3c9e92e46316dda8622ce89e1266587310a303df8",
+          "content_bytes": 3390,
+          "last_commit_sha": "ce3e07c",
+          "last_commit_date": "2026-05-28",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ce3e07c:wiki/sources/razanov2019-poultry-silicon-mineral-heavy-metals.md | sha256sum"
+        }
+      }
+    ]
+  },
+  "regulatory_caps": {
+    "declared_count": 0,
+    "resolved_count": 0,
+    "caps": [],
+    "note": "This page declares no category-specific regulatory cap. Absence of a numeric federal ceiling for this exact matrix is itself defense-relevant context, not an omission."
+  },
+  "defensibility": {
+    "report_path": "data/evidence/defensibility-reports/products/poultry-product.md",
+    "total_claims": 0,
+    "cited_claims": 0,
+    "uncited_claims": 0,
+    "distinct_cited_sources": 0,
+    "audit_rows_on_cited_targets": 0,
+    "provenance_complete": true
+  }
+}
