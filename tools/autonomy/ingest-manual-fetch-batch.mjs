@@ -73,6 +73,13 @@ const MANUAL_FETCH_ROOTS = [
   { root: "raw/Papers Cube Manual Fetch", handlePrefix: "PCMF" },
   { root: "raw/Manual Resourcing", handlePrefix: "MR" },
   { root: "raw/Manual Fetch Discovery", handlePrefix: "MFD" },
+  // Kimi agent download-corruption folder (added 2026-05-30). 430 PDFs across
+  // six sets (papers/, babycare_papers/, seafood_papers/, household_papers/,
+  // condiments2_papers/, condiment_papers/). 23 are failed downloads (HTML
+  // challenge pages + truncated partials) — the isLikelyValidPdf guard in the
+  // walker skips those automatically; see data/evidence/kimi-corruption-refetch-2026-05-30.csv
+  // for the re-fetch queue.
+  { root: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue", handlePrefix: "KADC" },
   // raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ — wishlist
   // fetcher's bulk output. Historically Codex/GPT-5.5-fast-mode drained this
   // via an external scheduler (per docs/codex-collaboration/sprint-ingest-prompt.md).
@@ -144,6 +151,33 @@ function saveTracker(tracker) {
 
 // ---------- PDF discovery ----------
 
+// Corruption guard (added 2026-05-30). Manual-fetch folders sometimes contain
+// failed downloads saved with a .pdf extension: HTML challenge/error pages
+// (Cloudflare, PMC proof-of-work, government 404s) and truncated partial
+// downloads. Feeding these to a per-PDF `claude --print` spawn wastes a 25-min
+// slot and can produce a defective source page (missing data tables). A
+// structurally complete PDF starts with "%PDF-" and ends with "%%EOF"; require
+// both. Conservative by design — the corpus's existing clean PDFs all pass.
+function isLikelyValidPdf(fullPath) {
+  let fd
+  try {
+    const stat = fs.statSync(fullPath)
+    if (stat.size < 1024) return false
+    fd = fs.openSync(fullPath, "r")
+    const head = Buffer.alloc(5)
+    fs.readSync(fd, head, 0, 5, 0)
+    if (!head.equals(Buffer.from("%PDF-"))) return false
+    const tailLen = Math.min(2048, stat.size)
+    const tail = Buffer.alloc(tailLen)
+    fs.readSync(fd, tail, 0, tailLen, stat.size - tailLen)
+    return tail.includes(Buffer.from("%%EOF"))
+  } catch {
+    return false
+  } finally {
+    if (fd !== undefined) fs.closeSync(fd)
+  }
+}
+
 function walkPdfsRecursive(dir, handlePrefix, out) {
   if (!fs.existsSync(dir)) return
   const entries = fs.readdirSync(dir, { withFileTypes: true })
@@ -152,6 +186,7 @@ function walkPdfsRecursive(dir, handlePrefix, out) {
     if (entry.isDirectory()) {
       walkPdfsRecursive(full, handlePrefix, out)
     } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".pdf")) {
+      if (!isLikelyValidPdf(full)) continue
       const relPath = path.relative(repoRoot, full)
       const handle = `${handlePrefix}_${slugify(path.basename(entry.name, ".pdf"))}`
       out.push({ pdfPath: relPath, handle, folderName: path.relative(path.join(repoRoot, "raw"), dir) })
