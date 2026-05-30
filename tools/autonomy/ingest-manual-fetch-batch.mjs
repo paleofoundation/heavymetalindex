@@ -339,6 +339,15 @@ let autoFetchedPicked = 0
 for (const pdf of allPdfs) {
   const entry = tracker.get(pdf.pdfPath)
   if (entry.status !== "unprocessed") continue
+  // Skip-list short-circuit (manual-fetch-skip.csv): pre-computed known
+  // duplicates (e.g. DOI-matched against the full corpus before spawning) so
+  // the loop never pays a ~25-min claude --print slot to rediscover a dupe.
+  if (skipReason.has(pdf.pdfPath)) {
+    entry.status = "stopped"
+    entry.lastTick = tickTimestamp
+    entry.notes = `Skip-list: ${skipReason.get(pdf.pdfPath)}`.slice(0, 200)
+    continue
+  }
   if (pdf.pdfPath.includes(AUTO_FETCHED_PATH_FRAGMENT)) {
     if (autoFetchedPicked >= AUTO_FETCHED_PER_TICK_CAP) continue
     autoFetchedPicked++
