@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "c86f805d8932532d04939547279750ce45ca441125d35f926497d6164cf54a66",
       "content_bytes": 7926,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "cae015c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/home-air-emission-products-other.md | sha256sum"
+      "verify_command": "git show cae015c:wiki/products/home-air-emission-products-other.md | sha256sum"
     }
   },
   "evidence_base": {

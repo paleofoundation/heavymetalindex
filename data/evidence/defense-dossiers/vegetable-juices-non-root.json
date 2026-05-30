@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/vegetable-juices-non-root",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b2aa7ef78e3bd5b00bf536bac2907c42928c8b59c2477f740036d5df2b8923e4",
-      "content_bytes": 10940,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "content_sha256": "76ca4a909e23eadd39bb0f652e37b27e4585ebffd5f91c10df19fa4c70ae1af7",
+      "content_bytes": 10990,
+      "last_commit_sha": "676a09c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/vegetable-juices-non-root.md | sha256sum"
+      "verify_command": "git show 676a09c:wiki/products/vegetable-juices-non-root.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,10 +46,10 @@
         "content_pin": {
           "content_sha256": "abe09832bd781ca0f3c82d1c302ad9ad721a136eccfe276b4280b02820c80bbc",
           "content_bytes": 2989,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/dhawale2025-benzidine-chemosensor-mercury-vegetable-juice.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/dhawale2025-benzidine-chemosensor-mercury-vegetable-juice.md | sha256sum"
         }
       },
       {
@@ -67,10 +67,10 @@
         "content_pin": {
           "content_sha256": "2dbb998fbb76b41f0838ad25554b864720ffc2f0937b0da152a487f4a4395b4b",
           "content_bytes": 8353,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
         }
       }
     ]

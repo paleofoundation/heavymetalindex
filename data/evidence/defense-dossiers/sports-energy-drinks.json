@@ -23,10 +23,10 @@
     "content_pin": {
       "content_sha256": "0a3651a328455d175ae68cc6624edb172e7328e8b8192137306d3ce2b319d42c",
       "content_bytes": 7757,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "cae015c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/sports-energy-drinks.md | sha256sum"
+      "verify_command": "git show cae015c:wiki/products/sports-energy-drinks.md | sha256sum"
     }
   },
   "evidence_base": {

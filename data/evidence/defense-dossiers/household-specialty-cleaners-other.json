@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "99591104cebdbcf5cc3b4ed107d9c0f04ed4b5cc3aef931eae7ea8f49fc6c353",
       "content_bytes": 7885,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "cae015c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/household-specialty-cleaners-other.md | sha256sum"
+      "verify_command": "git show cae015c:wiki/products/household-specialty-cleaners-other.md | sha256sum"
     }
   },
   "evidence_base": {

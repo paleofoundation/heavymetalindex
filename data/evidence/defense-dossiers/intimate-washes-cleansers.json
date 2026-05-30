@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "1a1aad8209346b5b6cbd6e2e529fbeb60adb8609128729aa11420d519761c5aa",
       "content_bytes": 7649,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "cae015c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/intimate-washes-cleansers.md | sha256sum"
+      "verify_command": "git show cae015c:wiki/products/intimate-washes-cleansers.md | sha256sum"
     }
   },
   "evidence_base": {

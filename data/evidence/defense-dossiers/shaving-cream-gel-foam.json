@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/shaving-cream-gel-foam",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "41e8b83679b77746ee345cd96c2e375227e3a2755df4d9c3a46c5a6e054ead09",
-      "content_bytes": 8479,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "content_sha256": "0e3390ca03ebc74610ef1c4d9f0f109342a916fbb7e18b8c07e4bfa227b9b79f",
+      "content_bytes": 8792,
+      "last_commit_sha": "676a09c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/shaving-cream-gel-foam.md | sha256sum"
+      "verify_command": "git show 676a09c:wiki/products/shaving-cream-gel-foam.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -53,10 +53,10 @@
         "content_pin": {
           "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
           "content_bytes": 35313,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -79,10 +79,10 @@
         "content_pin": {
           "content_sha256": "d02b3931cd463f6495ff0837741da35472c26d3b2cfb7e6aff54cff59ae8f0b5",
           "content_bytes": 29122,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       }
     ]

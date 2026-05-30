@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "9bc94d24ed2d14738ed72bccb7910df8e1023886695d1361c8ecbb5b6d6063ba",
       "content_bytes": 7690,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "cae015c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/tattoo-inks.md | sha256sum"
+      "verify_command": "git show cae015c:wiki/products/tattoo-inks.md | sha256sum"
     }
   },
   "evidence_base": {

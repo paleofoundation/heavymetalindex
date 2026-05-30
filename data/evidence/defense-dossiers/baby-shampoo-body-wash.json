@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-shampoo-body-wash",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fd99405a71cec025533d940797356b832a9043528923be40dec5f979604b3501",
-      "content_bytes": 9625,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "content_sha256": "c84c9d8d0f21c24b94956ddc7058d1af9ef254cb4af70388576b2d8ec70ca99b",
+      "content_bytes": 10271,
+      "last_commit_sha": "676a09c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/baby-shampoo-body-wash.md | sha256sum"
+      "verify_command": "git show 676a09c:wiki/products/baby-shampoo-body-wash.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,10 +44,10 @@
         "content_pin": {
           "content_sha256": "5a6a7fe0204e56b2b0eced61766ca267b1216ec8f6b6383dc491aff0d6266d3f",
           "content_bytes": 8855,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
         }
       },
       {
@@ -62,10 +62,10 @@
         "content_pin": {
           "content_sha256": "ed1a3bbd4b4a47ce274e3dda7d588779bb13a4abaebaaa5d0fc8b05f5e8ca6f4",
           "content_bytes": 18207,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
         }
       },
       {
@@ -91,10 +91,10 @@
         "content_pin": {
           "content_sha256": "7fae1f6513e879951be1cdbc20e80ef92a5e9e732a9cec5e13dd0f6dcde20ea8",
           "content_bytes": 22344,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/poulsen2007-cosmetic-products-children-denmark.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/poulsen2007-cosmetic-products-children-denmark.md | sha256sum"
         }
       },
       {
@@ -117,10 +117,10 @@
         "content_pin": {
           "content_sha256": "5ccf7e282b240d1c458e3bc0cf38c4b4500db56befba12e39439a562f208594c",
           "content_bytes": 24317,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
         }
       },
       {
@@ -135,10 +135,10 @@
         "content_pin": {
           "content_sha256": "c93f218ffa25fb0678f477038bc200fea168ae15c0afab63d5163ae47c8a6627",
           "content_bytes": 22305,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
         }
       }
     ]

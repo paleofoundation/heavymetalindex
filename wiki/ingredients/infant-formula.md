@@ -78,7 +78,7 @@ contamination_profile:
     p95_ppb: 802.9
     confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-29
+    last_reviewed: 2026-05-30
     basis: null
     notes: null
   Cr-VI:

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/permanent-hair-dyes-tints",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "15b90b1914fd1d47850c47060072bc4a522236b37c225b437a319e07dbc7ff44",
-      "content_bytes": 8407,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "content_sha256": "fee509320ac77909f7676f3828f5e288cab33f8beca65b097705149804c5c451",
+      "content_bytes": 8590,
+      "last_commit_sha": "676a09c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/permanent-hair-dyes-tints.md | sha256sum"
+      "verify_command": "git show 676a09c:wiki/products/permanent-hair-dyes-tints.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -53,10 +53,10 @@
         "content_pin": {
           "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
           "content_bytes": 35313,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -71,7 +71,14 @@
           "Cd"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benabbes2021-morocco-hair-dyes-pb-cd",
-        "content_pin": null
+        "content_pin": {
+          "content_sha256": "45141752534ea7d196544e881d052d8d6cd682a47cd83510aff165166757a8b8",
+          "content_bytes": 20155,
+          "last_commit_sha": "ab8a763",
+          "last_commit_date": "2026-05-29",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ab8a763:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
+        }
       }
     ]
   },

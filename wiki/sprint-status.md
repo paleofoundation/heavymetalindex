@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-29T21:10:34.105Z
+updated: 2026-05-30T03:42:00.088Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1240 / 2640 cells done (47.0%)** — 1400 remaining
 
-Velocity: **+0 cells in the last 61 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -34,9 +34,9 @@ Velocity: **+0 cells in the last 61 min**
 | Audit queue: pending-audit-spawn-failed | 52 (async lane) |
 | Wishlist: total downloaded historically | 20 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 19 |
-| Commits last 24 hours | 90 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 3 |
+| Commits last 24 hours | 99 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 61 min**
 ## Last commit
 
 ```
-59b8f6f 59 seconds ago — daemon: tighten commit allowlist to exact daemon outputs (protect grants/etc.)
+ea750ea 18 seconds ago — grants: adversarial QC pass + consolidated send-ready PACKET
 ```
 
 ## How to read this

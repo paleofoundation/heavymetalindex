@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "e57b3ce8cb050e20e2449f072d651cf99f6a29abc179d90d9950f02d8faf69a7",
       "content_bytes": 8698,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "676a09c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/other-grain-products.md | sha256sum"
+      "verify_command": "git show 676a09c:wiki/products/other-grain-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,10 +44,10 @@
         "content_pin": {
           "content_sha256": "dcddf1a0e778c0a2fc8c0d847074aec7f5cfc25da3229f9d2f04d4fc42b0c7cd",
           "content_bytes": 6911,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
         }
       },
       {
@@ -65,10 +65,10 @@
         "content_pin": {
           "content_sha256": "2d9f95ca5b0ca36da1b89a8d5c9462d079200618777ea62db74dc8b77747556e",
           "content_bytes": 7744,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
         }
       },
       {
@@ -87,12 +87,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hbbf2025-rice-arsenic-cadmium-145-samples",
         "content_pin": {
-          "content_sha256": "215f2f803dfe2bc9cd4c785485ee23431e61330c25cab6bcc07de3c4a59dd6d9",
-          "content_bytes": 8539,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "content_sha256": "9c8af1cc15550bb6b121425b27310cf2959718448a8093af27cce63cf26238ad",
+          "content_bytes": 11824,
+          "last_commit_sha": "aa829f5",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
+          "verify_command": "git show aa829f5:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
         }
       },
       {
@@ -109,10 +109,10 @@
         "content_pin": {
           "content_sha256": "54583f087f2295873a4e86d671ea8cb134c8266c4ba48b73181f01c1af96c192",
           "content_bytes": 7385,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
         }
       },
       {
@@ -132,10 +132,10 @@
         "content_pin": {
           "content_sha256": "b7f44639818ec5d43a4b1a00246355e2a17b0df4d7b7e9f36a59d4fe30263d63",
           "content_bytes": 8727,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/slepecka2017-ecological-cereal-heavy-metals-poland.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/slepecka2017-ecological-cereal-heavy-metals-poland.md | sha256sum"
         }
       }
     ]

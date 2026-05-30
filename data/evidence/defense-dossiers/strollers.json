@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "6f6887b44d6742701f649fe9aa70b5bf0d06c384b0ac304b77f033e2409791ac",
       "content_bytes": 7557,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "cae015c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/strollers.md | sha256sum"
+      "verify_command": "git show cae015c:wiki/products/strollers.md | sha256sum"
     }
   },
   "evidence_base": {

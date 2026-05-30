@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-nail-polish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6ef54b413f605187451ef58e8e21575d05858f822429e45b0f9643ac59fc2688",
-      "content_bytes": 9684,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "content_sha256": "14bc3a894026ac0c5cff16c7f950029a2cfce51766e8e3bc5b2505b1663b2362",
+      "content_bytes": 10036,
+      "last_commit_sha": "676a09c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/childrens-nail-polish.md | sha256sum"
+      "verify_command": "git show 676a09c:wiki/products/childrens-nail-polish.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,10 +45,10 @@
         "content_pin": {
           "content_sha256": "54348d7438f2493994460ebc9586417f20f676a1a8049c30f7989f1cd467b519",
           "content_bytes": 12053,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
         }
       },
       {
@@ -83,10 +83,10 @@
         "content_pin": {
           "content_sha256": "70dda34042668bc586dcd1a7ffb7a9afe6464574eed6804723b112f2b2b8d59b",
           "content_bytes": 19858,
-          "last_commit_sha": "ce3e07c",
-          "last_commit_date": "2026-05-28",
+          "last_commit_sha": "cae015c",
+          "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ce3e07c:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+          "verify_command": "git show cae015c:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
         }
       }
     ]

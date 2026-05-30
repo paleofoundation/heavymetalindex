@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "e5ac0db19925a0301d3014fe36ce9826148a11f3149eddb715a6196caf4b62ab",
       "content_bytes": 7769,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "cae015c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/supplements-bars-labeled.md | sha256sum"
+      "verify_command": "git show cae015c:wiki/products/supplements-bars-labeled.md | sha256sum"
     }
   },
   "evidence_base": {

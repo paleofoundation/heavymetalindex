@@ -12,7 +12,7 @@ contamination_profile:
     p95_ppb: 5.24
     confidence: low
     n_studies: 3
-    last_reviewed: 2026-05-29
+    last_reviewed: 2026-05-30
   Cd:
     status: populated
     typical_ppb: [null, null]
@@ -68,7 +68,7 @@ contamination_profile:
     p95_ppb: 5
     confidence: medium
     n_studies: 4
-    last_reviewed: 2026-05-29
+    last_reviewed: 2026-05-30
   U:
     status: populated
     typical_ppb: [null, null]

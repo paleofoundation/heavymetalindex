@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "7c09232446ab5ae7d467ec25b5696246a2ebb6802fefeabb5d58a41cc0249e0e",
       "content_bytes": 7655,
-      "last_commit_sha": "ce3e07c",
-      "last_commit_date": "2026-05-28",
+      "last_commit_sha": "cae015c",
+      "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ce3e07c:wiki/products/supplements-oral-solids-lozenges.md | sha256sum"
+      "verify_command": "git show cae015c:wiki/products/supplements-oral-solids-lozenges.md | sha256sum"
     }
   },
   "evidence_base": {
