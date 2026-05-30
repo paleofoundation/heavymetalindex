@@ -78,7 +78,7 @@ All fish-tissue values are means in mg/kg (= µg/g) on a dry-weight basis (sampl
 
 Exposure parameters used: fish ingestion rate 25.2 g/day (Iran), average adult body weight 65 kg, exposure frequency 365 days/year, exposure duration 60 years, fresh-to-dry conversion factor 0.208.
 
-Note: the per-group sample size is reported inconsistently across the paper (text states five fish per farm / 10 per site; Fig. 2 caption states five fish per group; Table 6 caption states eight fish per group). The total fish sample is ~30. This is a reporting inconsistency in group sizes only; it does not affect the reported metal concentrations.
+Note: the per-group sample size is reported inconsistently across the paper (text states five fish per farm / 10 per site; Fig. 2 caption states five fish per group; Fig. 3 caption states six fish per group; Table 6 caption states eight fish per group). The total fish sample is ~30. This is a reporting inconsistency in group sizes only; it does not affect the reported metal concentrations.
 
 ## Methods (brief)
 
@@ -99,3 +99,11 @@ App: total-Hg, Cd, and Pb data for farmed freshwater rainbow trout contribute to
 - [[metals/lead]]
 - [[ingredients/freshwater-fish]]
 - [[ingredients/fish]]
+
+## Verification notes
+
+Fresh-context audit subagent (2026-05-30) verdict REVISE; all five checks were clean except minor Check 2 concerns, resolved as follows:
+- Audit flagged the per-group sample-size note as incomplete for omitting Fig. 3's "six fish per group"; verified against PDF p. 5 (Fig. 3 caption) — correct, added Fig. 3's six-fish count to the reconciliation note.
+- Audit flagged matrices `fish-tissue` as not enumerated in the four-list taxonomy snapshot; verified — `fish-tissue` is an established bare-string matrices value used on 21 existing source pages (e.g. zolfaghari2018, melnyk2021). False positive; no change.
+- Audit flagged `WHO` in `jurisdictions:` as loose; verified — `WHO` is an established jurisdictions value across the corpus (e.g. zolfaghari2018, meng2023). False positive; no change.
+- Numerical fidelity (Tables 1–7), speciation (tHg, no MeHg), Methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all confirmed clean against the source PDF.
