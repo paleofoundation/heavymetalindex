@@ -20,6 +20,7 @@
 
 ## Contents
 
+- **`PACKET-camel-milk-formula-grant-scaffold.md`** — **the consolidated, external-facing, send-ready document** for a generic camel-milk brand. Combines a cover note, Project Summary/Narrative, Specific Aims, full Research Strategy, References, and the "what your company must add" map into one self-contained file, cleaned of internal language and framed for the recipient (brand authors/owns; Foundation arms-length). Rendered to `.docx` for sending. The files below are the working sources it was assembled from.
 - `sample-specific-aims-camel-milk-formula.md` — demonstration Specific Aims page + Significance outline (generic applicant), proving what the corpus + the Pendergrass NEC preprint can generate.
 - `research-strategy-camel-milk-formula.md` — full demonstration Research Strategy (Significance · Innovation · Approach), framed as **NIH SBIR** (the brand is applicant and author; the Foundation is an independent evidence resource, not a partner or preparer). Reframed by the 2026-05-29/30 discovery pass: camel milk is a heavy-metal accumulation matrix, so the project is "make a camel-milk formula NEC-safe via bioavailable-nickel measurement + sourcing + surveillance," not "camel milk is clean."
 - `project-summary-and-aims-camel-milk-formula.md` — **brand-voice** Project Summary/Abstract, Project Narrative, and polished Specific Aims, with **〔APPLICANT SUPPLIES …〕** tags and a consolidated applicant-supplies map (the brand-missing-data gaps).
