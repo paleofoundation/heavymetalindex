@@ -60,7 +60,7 @@ Converted to consistent ppb (µg/kg) for the seven HMTc-relevant analytes measur
 - **Al**: 277–493 ppb (0.277–0.493 µg/g). Cow highest, goat lowest.
 - **Se**: 14.0–37.2 ppb. Cow highest, yak lowest.
 
-Major elements (µg/g, = ppm wet weight): K 698 (buffalo) to 1377 (goat); Ca 516 (cow) to 888 (camel); Na 253 (goat) to 428 (camel); Mg 58.5 (buffalo) to 96.7 (yak). Zn 3.11 (goat) to 5.81 (camel) µg/g. Cu 0.165 (cow) to 0.522 (yak) µg/g. Fe 1.08 (goat) to 2.54 (yak) µg/g. Sr 0.695 (buffalo) to 3.05 (camel) µg/g. Mn 0.156 (yak) to 0.256 µg/g (yak; cow 0.187, goat 0.156, buffalo 0.169, camel 0.188).
+Major elements (µg/g, = ppm wet weight): K 698 (buffalo) to 1377 (goat); Ca 516 (cow) to 888 (camel); Na 253 (goat) to 428 (camel); Mg 58.5 (buffalo) to 96.7 (yak). Zn 3.11 (goat) to 5.81 (camel) µg/g. Cu 0.165 (cow) to 0.522 (yak) µg/g. Fe 1.08 (goat) to 2.54 (yak) µg/g. Sr 0.695 (buffalo) to 3.05 (camel) µg/g. Mn 0.156 (goat) to 0.256 µg/g (yak; cow 0.187, buffalo 0.169, camel 0.188).
 
 Mercury (Hg, tHg, MeHg) was NOT measured. Inorganic As (iAs) and hexavalent Cr (Cr-VI) speciation was NOT performed. Antimony (Sb), uranium (U), and methylmercury (MeHg) were NOT measured.
 
@@ -117,3 +117,5 @@ Sample-year range is not stated in the paper; the manuscript was received 14 Jan
 Speciation absence: tAs and Cr values are total-element only. Any future use of these values in iAs or Cr-VI synthesis would require an explicit assumption about speciation fractions (e.g., iAs ≈ 70–90% of tAs in dairy is a commonly cited heuristic but should be flagged as inferred, not measured).
 
 The Codex Stan 193-1995 raw-milk Pb maximum residue level cited by the authors (20 ng/g) is the General Standard for Contaminants and Toxins in Food and Feed limit, not the canned-foods Sn standard. The HMI regulation slug `codex-cxs-193-1995-tin-canned-foods` is the canned-tin standard and is not the appropriate wikilink target for the Pb finding here; the prose summary states the limit numerically without wikilinking.
+
+Audit subagent (general-purpose, fresh context, 2026-05-30) flagged the Mn parenthetical in Key numbers as garbled — "Mn 0.156 (yak) to 0.256 µg/g (yak; cow 0.187, goat 0.156, ...)" was internally inconsistent. Verified against Table 4: lowest Mn is goat (0.156 µg/g), highest is yak (0.256 µg/g). Corrected to "Mn 0.156 (goat) to 0.256 µg/g (yak; cow 0.187, buffalo 0.169, camel 0.188)." Audit also raised a concern that the milk-species matrices (cow-milk, goat-milk, buffalo-milk, yak-milk, camel-milk, raw-milk) might need to be flagged as proposed additions to the closed matrices vocabulary — verified against current usage: cow-milk is established in akhmetsadykova2013, camel-milk and raw-milk in yazdanian2025; these are existing matrix slugs in active use, not proposed additions. Finding rejected as false positive.
