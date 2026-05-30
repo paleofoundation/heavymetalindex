@@ -69,14 +69,14 @@ This study measured 20 elements (Mg, Al, Si, P, S, Cl, K, Ca, Ti, V, Cr, Mn, Co,
 - Mg is the only element with significant enrichment (EF 5–20) at any site — site S25 (Sedan), attributed by the authors to heavy magnesium-sulfate fertilizer use.
 - Pb shows EF < 2 (depletion to minimal enrichment) at most sites; no Pb contamination signal at the basin scale.
 - Most other elements (Al, Mn, Co, Cu) classified as EF < 2 (no/minimal pollution) across all 34 samples.
-- Mg Cf > 6 (very high contamination) at Mam Rash (S22) and Belgrad (S10); Cf 3–6 (considerable) at Gurgay Shammar (S11) and Obarick (S32).
-- P Cf in the moderate range (1 < Cf < 3) at most sites; the authors attribute the elevated P at Heon (S7) and Ali Makaeel (S20) to phosphate-fertilizer use combined with proximity to poultry farms.
+- Mg Cf > 6 (very high contamination) at Mam Rash (S22) and Sedan (S25) per Table 5; Cf 3–6 (considerable) at Belgrad (S10), Gurgay Shammar (S11), and Obarick (S32). The paper's prose section 5.3 reassigns Belgrad (S10) to the Cf > 6 group, which contradicts Table 5; the table reading is retained here as more internally consistent with the EF discussion (Sedan S25 is independently flagged for Mg fertilizer overuse). See `## Verification notes`.
+- P Cf in the considerable range (3 < Cf < 6) at Heon (S7) and Ali Makaeel (S20) per Table 5; the authors attribute these to phosphate-fertilizer use combined with proximity to poultry farms. Most other sites fall in the moderate Cf range (1 < Cf < 3) for P.
 - All four metals on the HMTc 10-analyte list that the study measured (Pb, tAs, Cr, Ni; plus tHg) are reported with Cf in the low-to-moderate range across all sample sites in the published Cf table (Table 5).
 
 **Per-sample values for the HMI-tracked metals (Table 2):**
 
-- Pb range across S1–S34: 2.3 (S1, S33) to 5.6 (S17). Mean 3.8 mg/kg.
-- tAs range across S1–S34: 63 (S3, S8, S24, S33) to 90 (S22). Mean 76 mg/kg.
+- Pb range across S1–S34: 2.3 (S26, S34) to 5.6 (S17). Mean 3.8 mg/kg.
+- tAs range across S1–S34: 63 (S8, S24, S34) to 90 (S22). Mean 76 mg/kg.
 - tHg range across S1–S34: 1.9 (S34) to 5.0 (S21, S22). Mean 3.3 mg/kg.
 - Cr range across S1–S34: 32 (S5) to 140 (S18). Mean 73.8 mg/kg.
 - Ni range across S1–S34: 162 (S33) to 278 (S29). Mean 204.9 mg/kg.
@@ -110,6 +110,9 @@ EF-4 (Modeled or limited evidence — context only). This source supplies geogra
 - Speciation is not reported for As or Hg, so values are read as total arsenic (tAs) and total mercury (tHg). The frontmatter `metals:` list uses `tAs` and `tHg` accordingly per CLAUDE.md Part 14.
 - Sampling-year range is inferred (2020–2021) from the analytical-batch reference (ALS Environmental Lab procedures approved January 2021) and the submission date (October 2022). The paper does not explicitly state the sampling year.
 - No brand names appear in the paper; Part 12 brand firewall is not at risk on this page. Method/instrument vendor names (ALS Environmental Lab, ICP-MS) are scientific reporting and are retained per the 2026-05-17 vendor-name carve-out.
+- Paper-internal contradiction in Mg Cf classification: Table 5 places Sedan (S25) in the Cf > 6 column with Mam Rash (S22), and places Belgrad (S10) in the 3 < Cf < 6 column with S11 and S32. Section 5.3 prose instead names Belgrad (S10) alongside Mam Rash in the Cf > 6 group and silently drops S25. The Table 5 reading is retained on this page because (i) it is internally consistent with the EF (5–20) finding for Sedan S25 attributable to magnesium-fertilizer use, and (ii) the prose would otherwise place S10 in two mutually exclusive Cf bands simultaneously. Audit subagent (2026-05-30) flagged the prose disagreement; verified against PDF Table 5 and EF discussion — Table 5 retained, prose disagreement documented here.
+- Audit subagent (2026-05-30) flagged the per-sample Pb-min and tAs-min site annotations as incorrect. Verified independently against PDF Table 2 column scans: Pb = 2.3 mg/kg occurs at S26 and S34 (not S1 or S33; both of those are 2.4); tAs = 63 mg/kg occurs at S8, S24, and S34 (not S3 which is 64, not S33 which is 68). Corrected.
+- Audit subagent (2026-05-30) flagged the P Cf characterization at Heon (S7) and Ali Makaeel (S20) as understated relative to PDF Table 5 and section 5.3, both of which classify these as "considerable" (3 < Cf < 6) rather than "elevated/moderate". Corrected.
 
 ## Wiki pages updated on ingest
 
