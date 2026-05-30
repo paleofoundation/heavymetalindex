@@ -4,7 +4,7 @@ type: hmtc-standards-briefing
 product_slug: infant-formula-rtf-liquid-non-soy
 native_basis: as_consumed
 methodology_version: HMTc-10 / P97-P45 (per CLAUDE.md Part 19, Governing Principles v2.0)
-generated_at: 2026-05-30T03:43:00.696Z
+generated_at: 2026-05-30T12:59:58.803Z
 authors: ["Karen Pendergrass, Standards Architect, Paleo Foundation"]
 audience: [internal, brand-legal, retailer-compliance, regulator, adversarial]
 noindex: true
@@ -273,17 +273,17 @@ In addition to occurrence sources, this briefing cites:
 
 This briefing is reproducible by:
 
-1. Checking out commit `145d5c12b90e06cb83b92cb404bb0827877ae685` in the heavymetalindex.com repository.
+1. Checking out commit `09beef6d1306254d7f150ca199ab456bb3a4877c` in the heavymetalindex.com repository.
 2. Running `npm run evidence:pooling` to regenerate `data/evidence/hmtc_aggregate_distributions.csv`.
 3. Running `npm run briefing -- --product=infant-formula-rtf-liquid-non-soy` to regenerate this document.
 
 | Field | Value |
 |---|---|
-| Generated at | 2026-05-30T03:43:00.707Z |
+| Generated at | 2026-05-30T12:59:58.813Z |
 | Generator | `tools/standards/build-standards-briefing.mjs` |
 | Pooling engine | `tools/evidence/build-hmtc-aggregate-distributions.mjs` |
 | Methodology version | HMTc-10 / P97-P45 per CLAUDE.md Part 19 / Governing Principles v2.0 |
-| Git commit | `145d5c12b90e06cb83b92cb404bb0827877ae685` |
+| Git commit | `09beef6d1306254d7f150ca199ab456bb3a4877c` |
 | Author | Karen Pendergrass, Standards Architect, Paleo Foundation |
 | Status | Draft for stakeholder review |
 
