@@ -54,3 +54,13 @@ App: It can provide context for wild duck or game-bird entries where relevant.
 ## Verification notes
 
 The source reports total Hg by tissue. Do not route it to methylmercury without a separate speciation source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6eea0b9](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b9) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 1: 9 source pages |
+<!-- END: hmi-page-history -->

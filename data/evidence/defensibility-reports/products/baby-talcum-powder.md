@@ -2,7 +2,7 @@
 source_page: wiki/products/baby-talcum-powder.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0a126d42c453975fecba652fe171e9becf17c7d6f47f44be76ec23aa6e8ac829
+source_page_sha256: 9c7d8c8643c95ad2a6ee0d42b6b38ce15eb49e0e69d18baffe3bbb2a59eb8829
 total_claims: 7
 cited_claims: 6
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 5
 distinct_cited_sources: 5
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 5 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 

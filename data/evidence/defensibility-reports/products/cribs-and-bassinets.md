@@ -2,7 +2,7 @@
 source_page: wiki/products/cribs-and-bassinets.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3a90ea788d88e416652cab9830490f97f31038c3f864c7111a07e34f23a3bf92
+source_page_sha256: fb42005098a03c21420d289961275d311ca272f9417999e247d47b52783f5bf5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 

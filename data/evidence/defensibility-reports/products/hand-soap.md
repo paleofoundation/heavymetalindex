@@ -2,7 +2,7 @@
 source_page: wiki/products/hand-soap.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6ef1de1cb623f5243a676fda99713482ab5c219920a341edf385d106c0ce12bf
+source_page_sha256: bb96919ee01e1051381a1284f62fbbf61a85b0649c3a188d88631cb1ef4c2ada
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 

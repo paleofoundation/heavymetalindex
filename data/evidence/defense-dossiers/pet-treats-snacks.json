@@ -22,8 +22,8 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-treats-snacks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7b023d159bdde6c0d0a570fb4dee62866299f35a6559e9ecd48205ecb9383779",
-      "content_bytes": 7524,
+      "content_sha256": "6575d18d5cddf59c7d610f25cd68f6ffa3180ef8911e6c9492114c4709d945bd",
+      "content_bytes": 9083,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

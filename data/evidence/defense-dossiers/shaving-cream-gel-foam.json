@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/shaving-cream-gel-foam",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0e3390ca03ebc74610ef1c4d9f0f109342a916fbb7e18b8c07e4bfa227b9b79f",
-      "content_bytes": 8792,
+      "content_sha256": "d8371a775a51d919f221cf0c10bf9ffc9e60b165f76e0966a60b5e82e5c7116f",
+      "content_bytes": 8762,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -51,8 +51,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
-          "content_bytes": 35313,
+          "content_sha256": "30686da7646c79c2d9c8f21c2b4673bbc84284cf3e74437c537406adf26b3af8",
+          "content_bytes": 35487,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -77,8 +77,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "d02b3931cd463f6495ff0837741da35472c26d3b2cfb7e6aff54cff59ae8f0b5",
-          "content_bytes": 29122,
+          "content_sha256": "bbd15aeeda718d2a00bde2e84fd9c5aebd2796e3dede3660978ae0ac9b2b305d",
+          "content_bytes": 29296,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

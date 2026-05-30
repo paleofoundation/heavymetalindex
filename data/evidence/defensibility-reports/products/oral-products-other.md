@@ -2,7 +2,7 @@
 source_page: wiki/products/oral-products-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 554fc7d7bf7015100d8b80ec0ca46e75db760dba40163f458cfbee30dc6b66cb
+source_page_sha256: 616deaa71f7caf128d5ec93b541f2ad5e999df5d8442d062fdbe777404fb1c7b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 

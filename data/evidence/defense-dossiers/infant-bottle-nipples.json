@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-bottle-nipples",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "417b33db15ff2a499e71a8449c2d9b98884548050b78fc42e0d9e307321c5049",
-      "content_bytes": 7683,
+      "content_sha256": "9c4bd1b26f118c81b57b4427d8af4eb5ffa57826fddb381a5238b50b5285e11a",
+      "content_bytes": 7663,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

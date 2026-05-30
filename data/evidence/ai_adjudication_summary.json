@@ -1,124 +1,115 @@
 {
-  "generated_at": "2026-05-08T17:31:56.018Z",
+  "generated_at": "2026-05-30T04:59:29.453Z",
   "product_filter": "all",
-  "total_adjudication_rows": 56,
+  "total_adjudication_rows": 83,
   "by_priority": {
-    "P1": 3,
-    "P2": 49,
-    "P3": 4
+    "P0": 4,
+    "P1": 15,
+    "P2": 64
   },
   "by_machine_task": {
+    "extract_local_source_to_structured_rows": 4,
     "discover_or_route_species_specific_source": 3,
-    "find_or_route_fit_product_evidence": 15,
-    "find_replacement_fit_source_after_context_disposition": 3,
-    "find_second_fit_distribution_source": 15,
-    "locate_benchmark_pool_sample_data": 16,
-    "adjudicate_evidence_fitness": 3,
-    "run_aggregate_math_readiness_check": 1
+    "verify_pdf_provenance_before_extraction": 12,
+    "find_or_route_fit_product_evidence": 64
   },
   "by_aggregate_status": {
+    "BLOCKED: local extraction pending": 4,
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: no structured evidence loaded": 15,
-    "BLOCKED: documented local sources are context-only": 3,
-    "DO NOT PUBLISH CLEAN P90: single distribution-capable source": 5,
-    "DO NOT PUBLISH DIRTY P10: single distribution-capable source": 7,
-    "DO NOT PUBLISH INDEPENDENT P90: single distribution-capable source": 3,
-    "BLOCKED: summary evidence only": 16,
-    "BLOCKED: evidence fitness review needed": 3,
-    "READY FOR AGGREGATE MATH REVIEW": 1
+    "BLOCKED: PDF match review pending": 12,
+    "BLOCKED: no structured evidence loaded": 64
   },
   "by_standard_percentile_target": {
-    "dirty_p10": 24,
-    "clean_p90": 20,
-    "independent_p90": 12
+    "independent_p97_pooled": 68,
+    "clean_p97_pooled": 15
   },
-  "public_claim_blockers": 56,
-  "hmtc_threshold_blockers": 56,
+  "public_claim_blockers": 83,
+  "hmtc_threshold_blockers": 83,
   "human_role": "source retrieval, low-confidence exception review, policy-conflict resolution, and final governance approval",
   "top_adjudications": [
     {
       "adjudication_order": 1,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "fish-freshwater",
+      "metal_species": "Pb; Cd"
+    },
+    {
+      "adjudication_order": 2,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "infant-formula",
+      "metal_species": "Pb; Cd; tAs; Ni; Sn"
+    },
+    {
+      "adjudication_order": 3,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "leafy-vegetables-other",
+      "metal_species": "Pb; Cd"
+    },
+    {
+      "adjudication_order": 4,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "non-root-vegetables",
+      "metal_species": "Pb; Cd; tAs"
+    },
+    {
+      "adjudication_order": 5,
       "priority": "P1",
       "machine_task": "discover_or_route_species_specific_source",
       "product_slug": "fish-containing-baby-foods",
       "metal_species": "MeHg"
     },
     {
-      "adjudication_order": 2,
+      "adjudication_order": 6,
       "priority": "P1",
       "machine_task": "discover_or_route_species_specific_source",
       "product_slug": "infant-formula-powder-non-soy",
       "metal_species": "MeHg"
     },
     {
-      "adjudication_order": 3,
+      "adjudication_order": 7,
       "priority": "P1",
       "machine_task": "discover_or_route_species_specific_source",
       "product_slug": "infant-formula-rtf-liquid-soy-based",
       "metal_species": "iAs"
     },
     {
-      "adjudication_order": 4,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "coffee",
-      "metal_species": "Pb; Cd; tAs"
-    },
-    {
-      "adjudication_order": 5,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "fermented-beverages-non-tea-based",
-      "metal_species": "Pb; Cd"
-    },
-    {
-      "adjudication_order": 6,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "flavored-waters",
-      "metal_species": "Pb"
-    },
-    {
-      "adjudication_order": 7,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "herbal-botanical-infusions",
-      "metal_species": "Pb; Cd; Al"
-    },
-    {
       "adjudication_order": 8,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "infant-formula-rtf-liquid-soy-based",
-      "metal_species": "Ni"
+      "priority": "P1",
+      "machine_task": "verify_pdf_provenance_before_extraction",
+      "product_slug": "cashews",
+      "metal_species": "Pb; Cd; Ni"
     },
     {
       "adjudication_order": 9,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "kombucha-tea-based",
-      "metal_species": "Pb; Cd; Al"
+      "priority": "P1",
+      "machine_task": "verify_pdf_provenance_before_extraction",
+      "product_slug": "dried-fruit",
+      "metal_species": "tAs"
     },
     {
       "adjudication_order": 10,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "matcha",
-      "metal_species": "Pb; Cd; Al"
+      "priority": "P1",
+      "machine_task": "verify_pdf_provenance_before_extraction",
+      "product_slug": "fresh-fruit",
+      "metal_species": "tAs"
     },
     {
       "adjudication_order": 11,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "plant-milks-non-soy-non-rice",
-      "metal_species": "Cd; iAs; Al"
+      "priority": "P1",
+      "machine_task": "verify_pdf_provenance_before_extraction",
+      "product_slug": "infant-food-puree",
+      "metal_species": "Pb; Cd; iAs; tAs"
     },
     {
       "adjudication_order": 12,
-      "priority": "P2",
-      "machine_task": "find_or_route_fit_product_evidence",
-      "product_slug": "plant-milks-rice-based",
-      "metal_species": "Cd"
+      "priority": "P1",
+      "machine_task": "verify_pdf_provenance_before_extraction",
+      "product_slug": "infant-formula",
+      "metal_species": "iAs"
     }
   ]
 }

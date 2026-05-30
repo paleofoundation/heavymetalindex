@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T19:38:10.716Z",
+  "generated_at": "2026-05-30T04:59:56.640Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -7,7 +7,7 @@
     "contact": "karen@paleofoundation.com"
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), Paleo Foundation. Cite the page URL or wiki_doi.",
-  "record_count": 237,
+  "record_count": 238,
   "records": [
     {
       "ingredient": "almond",
@@ -2155,7 +2155,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/black-pepper",
-      "sources_count": 3,
+      "sources_count": 4,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -2910,7 +2910,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/breastmilk",
-      "sources_count": 16,
+      "sources_count": 20,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -3161,7 +3161,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/butter",
-      "sources_count": 4,
+      "sources_count": 5,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -5305,7 +5305,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/celery",
-      "sources_count": 8,
+      "sources_count": 9,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -7337,7 +7337,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/coffee",
-      "sources_count": 13,
+      "sources_count": 14,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -9493,7 +9493,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fish",
-      "sources_count": 134,
+      "sources_count": 135,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -11293,7 +11293,7 @@
           "p95_ppb": 5.24,
           "confidence": "low",
           "n_studies": 3,
-          "last_reviewed": "2026-05-28"
+          "last_reviewed": "2026-05-30"
         },
         "Cd": {
           "status": "populated",
@@ -11381,7 +11381,7 @@
           "p95_ppb": 5,
           "confidence": "medium",
           "n_studies": 4,
-          "last_reviewed": "2026-05-28"
+          "last_reviewed": "2026-05-30"
         },
         "U": {
           "status": "populated",
@@ -12914,7 +12914,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/herbal-botanicals",
-      "sources_count": 33,
+      "sources_count": 34,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -13040,7 +13040,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/herbs-and-spices",
-      "sources_count": 16,
+      "sources_count": 17,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -13537,6 +13537,129 @@
       }
     },
     {
+      "ingredient": "infant-formula",
+      "title": "Infant Formula",
+      "commodity": "infant-formula",
+      "category": "unclassified",
+      "aliases": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/ingredients/infant-formula",
+      "sources_count": 4,
+      "last_updated": "2026-05-19",
+      "metals": {
+        "Pb": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        },
+        "tAs": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        },
+        "Cd": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        },
+        "MeHg": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        },
+        "tHg": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        },
+        "iAs": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        },
+        "Ni": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        },
+        "Al": {
+          "status": "populated",
+          "typical_ppb": [
+            9,
+            715.7
+          ],
+          "p95_ppb": 802.9,
+          "confidence": "low",
+          "n_studies": 3,
+          "last_reviewed": "2026-05-30"
+        },
+        "Cr-VI": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        },
+        "Sn": {
+          "status": "pending",
+          "typical_ppb": [
+            null,
+            null
+          ],
+          "p95_ppb": null,
+          "confidence": null,
+          "n_studies": 0,
+          "last_reviewed": null
+        }
+      }
+    },
+    {
       "ingredient": "infant-formula-concentrated-liquid",
       "title": "Infant Formula Concentrated Liquid",
       "commodity": "infant-formula-concentrated-liquid",
@@ -13841,7 +13964,7 @@
           "p95_ppb": 1045,
           "confidence": "low",
           "n_studies": 2,
-          "last_reviewed": "2026-05-28"
+          "last_reviewed": "2026-05-30"
         },
         "Ni": {
           "status": "populated",
@@ -14424,7 +14547,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/leafy-vegetables",
-      "sources_count": 45,
+      "sources_count": 46,
       "last_updated": "2026-05-15",
       "metals": {
         "Pb": {
@@ -15935,7 +16058,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/meat",
-      "sources_count": 39,
+      "sources_count": 45,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -16066,7 +16189,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/meat-and-poultry",
-      "sources_count": 21,
+      "sources_count": 24,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -16445,7 +16568,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/milk-and-dairy",
-      "sources_count": 53,
+      "sources_count": 61,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -17222,7 +17345,7 @@
           "p95_ppb": 1.51,
           "confidence": "low",
           "n_studies": 2,
-          "last_reviewed": "2026-05-28"
+          "last_reviewed": "2026-05-30"
         },
         "iAs": {
           "status": "populated",
@@ -17351,7 +17474,7 @@
           "p95_ppb": 224.3,
           "confidence": "low",
           "n_studies": 3,
-          "last_reviewed": "2026-05-28"
+          "last_reviewed": "2026-05-30"
         },
         "iAs": {
           "status": "populated",
@@ -18849,7 +18972,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/organ-meats",
-      "sources_count": 19,
+      "sources_count": 24,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -19098,7 +19221,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/parsley",
-      "sources_count": 5,
+      "sources_count": 6,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23012,7 +23135,7 @@
           "p95_ppb": 5,
           "confidence": "low",
           "n_studies": 2,
-          "last_reviewed": "2026-05-28"
+          "last_reviewed": "2026-05-30"
         },
         "iAs": {
           "status": "populated",
@@ -23374,7 +23497,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/seafood",
-      "sources_count": 98,
+      "sources_count": 99,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23878,7 +24001,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/shark",
-      "sources_count": 4,
+      "sources_count": 5,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -25020,7 +25143,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/spinach",
-      "sources_count": 22,
+      "sources_count": 23,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -27541,7 +27664,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/vegetables",
-      "sources_count": 74,
+      "sources_count": 75,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -28046,7 +28169,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/water",
-      "sources_count": 22,
+      "sources_count": 23,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -29818,7 +29941,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/yogurt",
-      "sources_count": 6,
+      "sources_count": 7,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {

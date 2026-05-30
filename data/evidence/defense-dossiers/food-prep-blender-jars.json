@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/food-prep-blender-jars",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4f00a0e828075ef8454defeeae6d6c0ff347945aa5ff9fcd901187a21f434661",
-      "content_bytes": 7656,
+      "content_sha256": "372d205a28b65ff1eb3446ba2821e7e166f6a2d103602f66503c20978a1f4980",
+      "content_bytes": 7636,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

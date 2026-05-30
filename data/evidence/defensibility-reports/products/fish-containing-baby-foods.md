@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-containing-baby-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9331ade952752f13b92eec20cb240796841bb2ddfcaca6e58a457e3072339423
+source_page_sha256: 8e31c8d70a63ba83979c05b4a7360f31f5bc179e95a602b2c5f73e94b0ef4aa8
 total_claims: 53
 cited_claims: 53
 uncited_claims: 0
-distinct_cited_targets: 24
-distinct_cited_sources: 18
+distinct_cited_targets: 23
+distinct_cited_sources: 17
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 53 |
 | cited claims | 53 |
 | uncited claims | 0 |
-| distinct cited targets | 24 |
-| distinct cited `sources/` pages | 18 |
+| distinct cited targets | 23 |
+| distinct cited `sources/` pages | 17 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 
@@ -594,7 +594,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.008 mg/kg`
 - Context: `Hg detection rates and medians; fish mixes had the highest reported Pb median (0.008 mg/kg) among all baby-food categor`
-- Cited targets (13):
+- Cited targets (12):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
@@ -604,8 +604,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
     - audit rows: none
@@ -624,7 +622,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20.15 µg/kg`
 - Context: `h ready-to-eat baby foods; fish dinner subcategory had highest reported Cd (max 20.15 µg/kg) among product groups tested`
-- Cited targets (13):
+- Cited targets (12):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
@@ -634,8 +632,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
     - audit rows: none
@@ -654,7 +650,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.0 µg/g`
 - Context: `a (1969–2014); 30% exceed EPA Fish Tissue Residue Criterion and 3.9% exceed FDA 1.0 µg/g action level, anchoring upstrea`
-- Cited targets (13):
+- Cited targets (12):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
@@ -664,8 +660,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` (page missing)
     - audit rows: none
   - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
     - audit rows: none
@@ -704,7 +698,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
-| `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` | sources | 0 | — | — |
 | `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/henriquez_hernandez2023-elemental-infant-purees\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |

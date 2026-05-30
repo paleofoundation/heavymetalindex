@@ -98,7 +98,7 @@ Finished-product findings belong on this product page. Ingredient-only findings 
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Kombucha (tea-based). Values are pulled directly from cited sources without re-aggregation. Aggregation, comparability review, and HMT&C certification threshold decisions are handled separately under the certification program; see the [methodology](/methodology) for the wiki/HMT&C separation.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Kombucha (tea-based). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -176,9 +176,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 | [4e2cdd0](https://github.com/paleofoundation/heavymetalindex/commit/4e2cdd0) | 2026-05-17 | ui: Ask the Index page + auto-regenerated product body tables |
-| [6743cff](https://github.com/paleofoundation/heavymetalindex/commit/6743cff) | 2026-05-16 | prebuild: regenerate source legends for hour-1-7 filled pages |
 <!-- END: hmi-page-history -->

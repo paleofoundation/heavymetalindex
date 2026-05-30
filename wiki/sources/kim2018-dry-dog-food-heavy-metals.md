@@ -114,9 +114,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [5c63075](https://github.com/paleofoundation/heavymetalindex/commit/5c63075) | 2026-05-28 | audit: kim2018-dry-dog-food-heavy-metals revised |
 | [cc2432f](https://github.com/paleofoundation/heavymetalindex/commit/cc2432f) | 2026-05-28 | ingest: kim2018-dry-dog-food-heavy-metals enhanced from manual-fetch/seasonal-geographic-variance/auto-fetched |
-| [fc6cafc](https://github.com/paleofoundation/heavymetalindex/commit/fc6cafc) | 2026-05-27 | audit-fix auto-fetched 2026-05-27 batch 1 |
 <!-- END: hmi-page-history -->

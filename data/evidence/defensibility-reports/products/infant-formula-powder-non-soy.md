@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 695a834f691b0f15f05b474c0dcd53199d51b831f8d4b7f2c903ae1769e788c0
+source_page_sha256: 44c88e2929d2368132e3e0473efad7cf04b474317709897654c03dbca971d822
 total_claims: 107
 cited_claims: 107
 uncited_claims: 0
-distinct_cited_targets: 104
-distinct_cited_sources: 99
+distinct_cited_targets: 107
+distinct_cited_sources: 102
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 107 |
 | cited claims | 107 |
 | uncited claims | 0 |
-| distinct cited targets | 104 |
-| distinct cited `sources/` pages | 99 |
+| distinct cited targets | 107 |
+| distinct cited `sources/` pages | 102 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 
@@ -1268,7 +1268,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `and powdered infant formula (n=330 total; historical baseline; AAS method with 10 ppb LOD floor) | <!-- END: hmi-source`
-- Cited targets (82):
+- Cited targets (85):
   - `wiki/sources/abstract2020-content-dietary-exposure-toxic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin\.md` (page missing)
@@ -1276,6 +1276,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
@@ -1369,6 +1371,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ljung2007-manganese-drinking-water-guideline\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/lodico2015-infant-formula-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/lutfullah2014-peshawar-dried-fluid-milk-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
@@ -1380,6 +1384,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1551,6 +1557,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md` | sources | 0 | — | — |
 | `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/arsenic2012-arsenic-organic-foods-brown\.md` | sources | 0 | — | — |
 | `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` | sources | 0 | — | — |
@@ -1608,6 +1615,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/ljung2007-manganese-drinking-water-guideline\.md` | sources | 0 | — | — |
+| `wiki/sources/lodico2015-infant-formula-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/lutfullah2014-peshawar-dried-fluid-milk-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` | sources | 0 | — | — |
@@ -1615,6 +1623,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` | sources | 0 | — | — |
 | `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/odhiambo2015-infant-formula-nairobi-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/open2017-open-infants-dietary-arsenic-a\.md` | sources | 0 | — | — |
 | `wiki/sources/open2017-open-infants-dietary-arsenic\.md` | sources | 0 | — | — |

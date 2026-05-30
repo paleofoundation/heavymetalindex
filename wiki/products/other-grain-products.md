@@ -100,10 +100,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/efsa2024-risk-assessment-iAs-update\|EFSA 2024]]. *Update of the risk assessment of inorganic arsenic in food*, EFSA Journal | 2024 | Government report | EU iAs, tAs concentrations (n=20) |
-| 2 | [[sources/efsa2021-chronic-exposure-iAs\|EFSA 2021]]. *Chronic dietary exposure to inorganic arsenic*, EFSA Journal | 2021 | Government report | EU iAs, tAs concentrations (n=13608) |
-| 3 | [[sources/mania2020-nickel-cereal-grains-poland\|Mania et al. 2020]]. *Assessment of exposure to nickel intake with selected cereal grains and cereal-based products*, Roczniki Panstwowego Zakladu Higieny (Annals of the National Institute of Hygiene) | 2020 | Peer-reviewed | PL/EU Ni occurrence in Polish market samples 2019–2020: 5 cereal grains (millet, rye, wheat, barley), 11 pasta, 13 flours, 12 groats, 10... (n=56) |
-| 4 | [[sources/slepecka2017-ecological-cereal-heavy-metals-poland\|Slepecka et al. 2017]]. *Evaluation of cadmium, lead, zinc and copper levels in selected ecological cereal food products and their non-ecological counterparts*, Current Issues in Pharmacy and Medical Sciences 30(3):147-150 | 2017 | Peer-reviewed | PL Cd, Pb, Zn, Cu occurrence in 10 ecological and 10 non-ecological cereal products (flour, flakes, bran) from different producers and regions of Poland; product... (n=20) |
+| 1 | [[sources/hbbf2025-rice-arsenic-cadmium-145-samples\|Houlihan et al. 2025]]. *What's in your family's rice? Arsenic, Cadmium, and Lead in Popular Rice Brands - Plus 9 Safer Grains to Try*, Healthy Babies Bright Futures (HBBF) report | 2025 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/efsa2024-risk-assessment-iAs-update\|EFSA 2024]]. *Update of the risk assessment of inorganic arsenic in food*, EFSA Journal | 2024 | Government report | EU iAs, tAs concentrations (n=20) |
+| 3 | [[sources/efsa2021-chronic-exposure-iAs\|EFSA 2021]]. *Chronic dietary exposure to inorganic arsenic*, EFSA Journal | 2021 | Government report | EU iAs, tAs concentrations (n=13608) |
+| 4 | [[sources/mania2020-nickel-cereal-grains-poland\|Mania et al. 2020]]. *Assessment of exposure to nickel intake with selected cereal grains and cereal-based products*, Roczniki Panstwowego Zakladu Higieny (Annals of the National Institute of Hygiene) | 2020 | Peer-reviewed | PL/EU Ni occurrence in Polish market samples 2019–2020: 5 cereal grains (millet, rye, wheat, barley), 11 pasta, 13 flours, 12 groats, 10... (n=56) |
+| 5 | [[sources/slepecka2017-ecological-cereal-heavy-metals-poland\|Slepecka et al. 2017]]. *Evaluation of cadmium, lead, zinc and copper levels in selected ecological cereal food products and their non-ecological counterparts*, Current Issues in Pharmacy and Medical Sciences 30(3):147-150 | 2017 | Peer-reviewed | PL Cd, Pb, Zn, Cu occurrence in 10 ecological and 10 non-ecological cereal products (flour, flakes, bran) from different producers and regions of Poland; product... (n=20) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -113,9 +114,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
-| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
-| [8a49534](https://github.com/paleofoundation/heavymetalindex/commit/8a49534) | 2026-05-17 | products index: numerical order, source counts on every row, drop clean/contaminated call-outs |
 <!-- END: hmi-page-history -->

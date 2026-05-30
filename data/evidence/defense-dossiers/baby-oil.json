@@ -20,8 +20,8 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-oil",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "301cc0f8a2e1c481f5d495e2be82e191e625abb1fa53de2298e64c68bf0d8540",
-      "content_bytes": 9208,
+      "content_sha256": "51540ede6541a8494bdd4b7040b0e274b6bc866720d0371e81779083c611f9ac",
+      "content_bytes": 10082,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -54,8 +54,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
-          "content_bytes": 35313,
+          "content_sha256": "30686da7646c79c2d9c8f21c2b4673bbc84284cf3e74437c537406adf26b3af8",
+          "content_bytes": 35487,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -72,8 +72,8 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/oranges2015-skin-physiology-neonate-infant-clinical",
         "content_pin": {
-          "content_sha256": "ed1a3bbd4b4a47ce274e3dda7d588779bb13a4abaebaaa5d0fc8b05f5e8ca6f4",
-          "content_bytes": 18207,
+          "content_sha256": "78fb8d321a4e603c9c1e50ec5c74603d390253e05c9058ee69a771b054476330",
+          "content_bytes": 18381,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:608381d94414e44b1fa563b5131aa1f9…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:acf4cd53c52c17697cf0a8a90f16e779…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=infant-formula-powder-soy-based&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/infant-formula-powder-soy-based&download=1`.
 

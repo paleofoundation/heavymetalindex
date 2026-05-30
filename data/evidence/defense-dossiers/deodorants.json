@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/deodorants",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c788498c486b1a44e718805477c06aef37b534aaaa22870dc52982ce58950ff4",
-      "content_bytes": 8519,
+      "content_sha256": "e7758f766af21cae8d1a6c6502ae74ae00624e9678349956423d32a0872df935",
+      "content_bytes": 8484,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -51,8 +51,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "8f61bc1178af4c2b5d915ac5c736f05c2c18782ae183becf560ac8f23601e8f1",
-          "content_bytes": 35313,
+          "content_sha256": "30686da7646c79c2d9c8f21c2b4673bbc84284cf3e74437c537406adf26b3af8",
+          "content_bytes": 35487,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

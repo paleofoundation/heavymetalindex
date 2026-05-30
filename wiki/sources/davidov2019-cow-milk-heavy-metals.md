@@ -56,3 +56,13 @@ App: Can inform dairy ingredient priors with non-US market caveats.
 ## Verification notes
 
 The paper reports total As and total Cr. Do not route it to iAs or Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0edf3ce](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

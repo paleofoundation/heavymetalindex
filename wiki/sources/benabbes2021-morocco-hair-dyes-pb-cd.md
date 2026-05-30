@@ -139,3 +139,13 @@ Per the source's discussion: "ten products have rates outside the acceptance lim
 
 - 2021 (publication): Portugaliae Electrochimica Acta 39(1):37-44. Received 2018-06-05, accepted 2020-08-05.
 - 2026-05-29 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read in full (8 pages: abstract, introduction, materials & methods, results including Tables 1-3, discussion, conclusion, references). Source page written, routing audit queued.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ab8a763](https://github.com/paleofoundation/heavymetalindex/commit/ab8a763) | 2026-05-29 | ingest: huff2025-spices-lancaster-pa [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
+<!-- END: hmi-page-history -->

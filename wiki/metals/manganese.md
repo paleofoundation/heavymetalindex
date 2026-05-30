@@ -6,7 +6,7 @@ name: Manganese
 species: [Mn2+, Mn3+, total-manganese]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 57
+sources: 58
 wiki_doi: null
 updated: 2026-05-17
 n_sources: 2
@@ -38,9 +38,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c67513a](https://github.com/paleofoundation/heavymetalindex/commit/c67513a) | 2026-05-28 | autonomy: commit pending daemon writes from 10:46Z tick (sync-source-counts + heal-gaps scaffolds + sprint-status) |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
-| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 <!-- END: hmi-page-history -->

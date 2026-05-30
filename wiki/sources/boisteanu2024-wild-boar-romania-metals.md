@@ -56,3 +56,13 @@ App: The app can treat this as regional context for Romanian wild boar, not as a
 ## Verification notes
 
 The PDF's table heading says mg/g wet weight while the values and regulatory comparisons read like mg/kg wet weight. This is recorded as a source-internal unit issue; do not convert these values into ppb until the unit basis is verified from the publisher table or author correction.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6eea0b9](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b9) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 1: 9 source pages |
+<!-- END: hmi-page-history -->

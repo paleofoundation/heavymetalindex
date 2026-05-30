@@ -2,15 +2,15 @@
 source_page: wiki/products/meat-and-poultry-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 724341b4936220cfac59f8b872ef43c2ced3e9a3675e5c454b82817c783c05bf
-total_claims: 76
-cited_claims: 76
+source_page_sha256: 81c81a7fec82ca4d17c4ac4255839097bc70466adcd0529b97c2c86e31433ac2
+total_claims: 70
+cited_claims: 70
 uncited_claims: 0
 distinct_cited_targets: 24
 distinct_cited_sources: 18
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 76 |
-| cited claims | 76 |
+| total claims | 70 |
+| cited claims | 70 |
 | uncited claims | 0 |
 | distinct cited targets | 24 |
 | distinct cited `sources/` pages | 18 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 
@@ -232,54 +232,6 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4 ppb`
 - Context: `t and poultry purees (direct row-fit) | mean 4 ppb (1 source); highest reported 4 ppb | Sample-level detection rate not`
-- Cited targets (2):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `753 ppb`
-- Context: `t | | [[metals/aluminum\|Al]] | Meat and poultry purees (direct row-fit) | mean 753 ppb (1 source); highest reported 753`
-- Cited targets (2):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `753 ppb`
-- Context: `and poultry purees (direct row-fit) | mean 753 ppb (1 source); highest reported 753 ppb | Sample-level detection rate no`
-- Cited targets (2):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `86 ppb`
-- Context: `ght | | [[metals/nickel\|Ni]] | Meat and poultry purees (direct row-fit) | mean 86 ppb (1 source); highest reported 86 p`
-- Cited targets (2):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `86 ppb`
-- Context: `and poultry purees (direct row-fit) | mean 86 ppb (1 source); highest reported 86 ppb | Sample-level detection rate not`
-- Cited targets (2):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `267 ppb`
-- Context: `weight | | [[metals/tin\|Sn]] | Meat and poultry purees (direct row-fit) | mean 267 ppb (1 source); highest reported 267`
-- Cited targets (2):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `267 ppb`
-- Context: `and poultry purees (direct row-fit) | mean 267 ppb (1 source); highest reported 267 ppb | Sample-level detection rate no`
 - Cited targets (2):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none

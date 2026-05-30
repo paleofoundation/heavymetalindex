@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:1b4506beb1d652eced36fc6179e9d504…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:c840e1c86d5184759ecba776bba1c113…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=mineral-water&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/mineral-water&download=1`.
 

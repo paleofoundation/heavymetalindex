@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: plant-milks-rice-based
 public_page: products/plant-milks-rice-based
-updated: 2026-05-13
+updated: 2026-05-30
 ---
 
 # Workbench standards snapshot — Plant milks, rice-based
@@ -38,9 +38,9 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for dirty-subcategory pooled P45 (heuristic uplift from P30 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 30 ug/kg (eu2023_ias_rice_drinks_30). |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc dirty-subcategory pooled P45 (heuristic uplift from P30 per CLAUDE.md Part 19) decision. |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Find or route fit-source product evidence; local source routes for this row were read and documented as context-only or not routeable. |
+| [[metals/arsenic-inorganic\|iAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 30 ug/kg (eu2023_ias_rice_drinks_30). |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 
 ## Operational reminders
 

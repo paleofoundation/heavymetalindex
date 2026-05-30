@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-freshwater.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1f40f1ab4d0d27c39f7dfef0f29fbbca69319d666139771e3c13b90354ceb90a
+source_page_sha256: 33a9196140a92aee7d3402f059aabb9b28c500ca6b8c13e9d1d2d4677ac50fcf
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 8
-distinct_cited_sources: 8
+distinct_cited_targets: 10
+distinct_cited_sources: 10
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 1 |
 | cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 8 |
-| distinct cited `sources/` pages | 8 |
+| distinct cited targets | 10 |
+| distinct cited `sources/` pages | 10 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 
@@ -50,8 +50,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (8):
+- Cited targets (10):
+  - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/epa1999-mercury-update-fish-advisories\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` (page missing)
     - audit rows: none
   - `wiki/sources/hoy2023-arsenic-speciation-freshwater-fish\.md` (page missing)
     - audit rows: none
@@ -76,7 +80,9 @@ _All claims trace to at least one cited source._
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` | sources | 0 | — | — |
 | `wiki/sources/epa1999-mercury-update-fish-advisories\.md` | sources | 0 | — | — |
+| `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` | sources | 0 | — | — |
 | `wiki/sources/hoy2023-arsenic-speciation-freshwater-fish\.md` | sources | 0 | — | — |
 | `wiki/sources/jesse2025-unknown\.md` | sources | 0 | — | — |
 | `wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals\.md` | sources | 0 | — | — |

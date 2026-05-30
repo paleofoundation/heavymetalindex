@@ -120,3 +120,14 @@ PDF auto-fetched into `raw/Manual Fetch Discovery/` by the `discover` skill on 2
 - [[metals/chromium]]
 - [[metals/nickel]]
 - [[metals/zinc]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c85019e](https://github.com/paleofoundation/heavymetalindex/commit/c85019e) | 2026-05-30 | audit: afzal2024-livestock-heavy-metals-review revised |
+| [fc6e707](https://github.com/paleofoundation/heavymetalindex/commit/fc6e707) | 2026-05-30 | ingest: akhmetsadykova2013-camel-milk-lab-lead fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

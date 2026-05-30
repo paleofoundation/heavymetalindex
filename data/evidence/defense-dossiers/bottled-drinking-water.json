@@ -22,8 +22,8 @@
     "canonical_url": "https://heavymetalindex.com/products/bottled-drinking-water",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d0bb9a6de3e45545057ef65ff66c0ae25e3efb07a11471e29576b4f8c02c49a5",
-      "content_bytes": 9009,
+      "content_sha256": "ed917d2d24d8830f36fbb9e471cb297cdb01cff1fd9f45f1f81dba3c89109b92",
+      "content_bytes": 10720,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -47,8 +47,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/decharat2023-lead-cadmium-drinking-water-thailand",
         "content_pin": {
-          "content_sha256": "5f828036d1d24cad8c114f1cbbcc45d4b8596ba87f009e7e21455014fa138d92",
-          "content_bytes": 3621,
+          "content_sha256": "a3d23f4b6783a2969a5246d1769f33f5c1437968c883e1743af19250141b3687",
+          "content_bytes": 3597,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -67,8 +67,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "e73e15527c9be2ef6b9145effeb6c8f8188cde7657736c965f5aec50ed875fe2",
-          "content_bytes": 30304,
+          "content_sha256": "3738aa0d85f46e6c37cf140d065153c90c00dd0ef3b78264843f090e544d7ad1",
+          "content_bytes": 30478,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -95,7 +95,7 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda-tds-elements-2018-2020",
         "content_pin": {
-          "content_sha256": "501b3229a3e26549c53b6fd686d10ed69bb734c8468e01f307943aff17e75d2c",
+          "content_sha256": "9bd1e0a3af4b75f8a1dcea44e98a087f9b990eb3b3002a035f682772470e8234",
           "content_bytes": 26671,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
@@ -127,8 +127,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/olowoyo2026-heavy-metals-drinking-water-global-review",
         "content_pin": {
-          "content_sha256": "a97b19afed55664759564b1f8e23aa3341c57729302901647d71a2e9f6d3ee2b",
-          "content_bytes": 28459,
+          "content_sha256": "a28041f0090b651181831a6494448c7fdd3f42c7c82a5b9fc760f3b7ea48b907",
+          "content_bytes": 28412,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

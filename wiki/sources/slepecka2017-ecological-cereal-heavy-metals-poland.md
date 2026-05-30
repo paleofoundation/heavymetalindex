@@ -120,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [e32aae9](https://github.com/paleofoundation/heavymetalindex/commit/e32aae9) | 2026-05-18 | ingest kimi-cat03: slepecka cereal metals |
 | [25004dc](https://github.com/paleofoundation/heavymetalindex/commit/25004dc) | 2026-05-18 | checkpoint: daemon + generator accumulated outputs (synthesis writer, marker regen, briefings) |
-| [318f4e4](https://github.com/paleofoundation/heavymetalindex/commit/318f4e4) | 2026-05-17 | reverse-route: backfill products from matrices for 33 sources (running total: 83) |
 <!-- END: hmi-page-history -->

@@ -146,3 +146,14 @@ App: Supports flagging ghee as a higher-cumulative-exposure dairy matrix for Pb,
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/chromium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1af8025](https://github.com/paleofoundation/heavymetalindex/commit/1af8025) | 2026-05-30 | audit: hasan2021-bangladesh-dairy-trace-elements revised |
+| [085cd06](https://github.com/paleofoundation/heavymetalindex/commit/085cd06) | 2026-05-30 | ingest: hasan2021-bangladesh-dairy-trace-elements fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

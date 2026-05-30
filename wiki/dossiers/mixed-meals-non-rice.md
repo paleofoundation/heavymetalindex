@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:0243de78c9618f6542967fa9235ca65c…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:3d3278b4609ba6931af87c9d57529987…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=mixed-meals-non-rice&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/mixed-meals-non-rice&download=1`.
 

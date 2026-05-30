@@ -108,7 +108,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/bashir2025-heavy-metals-cosmetics-kashmir\|Bashir et al. 2025]]. *Heavy metal in cosmetics and its risk to future generation in remote area of Azad Jammu and Kashmir Trarkhel District Sudhnoti*, Scientific Reports 15: 43847 | 2025 | Peer-reviewed | PK Pb, Cd, Cu, Co, Ag, Ni, Zn, tAs, Mn, tHg occurrence in 30 cosmetic products purchased from local markets in Trarkhel, District Sudhnoti, Azad Jammu and Kashmir (AJ&K), Pakistan, 2023:... (n=30) |
 | 2 | [[sources/kicinska2025-cosmetics-online-market-heavy-metals\|Kicińska et al. 2025]]. *Health risks from heavy metals in cosmetic products available in the online consumer market*, Scientific Reports 15: 316 | 2025 | Peer-reviewed | PL/EU/US Cr, Fe, Mn, Ni, Zn occurrence in 23 cosmetic products purchased from the online consumer market: 4 foundations, 4 blushes, 4 lipsticks, 4 face creams,... (n=23) |
-| 3 | [[sources/aldayel2018-facial-cosmetics-saudi-arabia\|Aldayel et al. 2018]]. *Heavy Metals Concentration in Facial Cosmetics*, Natural Products Chemistry & Research 6(1): 1000303 | 2018 | Peer-reviewed | SA Pb, Cd, tAs, tHg, Al, Cr, Ni, Sn, Sb, U, Cu, Zn, Fe, Mn, Co, Ag, Ba, V, Mo, Li occurrence in Thirty facial-cosmetic samples representing nine 'most expensive' facial-cosmetic brands purchased from the Saudi Arabian (Riyadh) market. Four product... (n=30) |
+| 3 | [[sources/birsan2023-cosmetics-mercury\|Bîrsan et al. 2023]]. *Mercury exposure in cosmetics and human health risk*, Farmacia | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/aldayel2018-facial-cosmetics-saudi-arabia\|Aldayel et al. 2018]]. *Heavy Metals Concentration in Facial Cosmetics*, Natural Products Chemistry & Research 6(1): 1000303 | 2018 | Peer-reviewed | SA Pb, Cd, tAs, tHg, Al, Cr, Ni, Sn, Sb, U, Cu, Zn, Fe, Mn, Co, Ag, Ba, V, Mo, Li occurrence in Thirty facial-cosmetic samples representing nine 'most expensive' facial-cosmetic brands purchased from the Saudi Arabian (Riyadh) market. Four product... (n=30) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [0b33e23](https://github.com/paleofoundation/heavymetalindex/commit/0b33e23) | 2026-05-18 | autonomy: daemon tick 2026-05-18T01-11-42Z — gap-healing + extraction + pooling + briefings |
-| [1cae260](https://github.com/paleofoundation/heavymetalindex/commit/1cae260) | 2026-05-17 | autonomy: daemon tick 2026-05-17T19-14-40Z — gap-healing + extraction + pooling + briefings |
-| [e5675da](https://github.com/paleofoundation/heavymetalindex/commit/e5675da) | 2026-05-17 | autonomy: daemon tick 2026-05-17T18-36-31Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

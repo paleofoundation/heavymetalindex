@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:4f5720b5c945f46dbc28d4956d720101…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:7cc1e69211f68d9e35337941c23a59cf…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=sippy-cups-toddler-drinkware&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/sippy-cups-toddler-drinkware&download=1`.
 

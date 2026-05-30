@@ -112,7 +112,7 @@ This page does not publish or justify HMT&C certification limits. Public Index p
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Fruit purees (general). Values are pulled directly from cited sources without re-aggregation. Aggregation, comparability review, and HMT&C certification threshold decisions are handled separately under the certification program; see the [methodology](/methodology) for the wiki/HMT&C separation.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Fruit purees (general). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -120,22 +120,8 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | Fruit purees (general) (direct row-fit) | mean/median 1 to 2.7 ppb (2 sources); highest reported 8 ppb | 59% detected (26/44, Fda 2024, as-sold) | [[regulations/fda2025-lead-processed-baby-foods]]: 10 ppb (as sold or ready-to-eat as applicable) | 4 cited | medium (4 sources) | as-sold; as-consumed; wet-weight |
 | [[metals/cadmium\|Cd]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 4.4 ppb (3 sources); highest reported 16 ppb | 44% detected (17/39, Fda 2024, as-sold) | [[regulations/eu-2023-915-cadmium]]: 40 ppb (product as placed on market) | 5 cited | medium (5 sources) | as-sold; as-consumed; wet-weight |
-| [[metals/arsenic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, as-sold) | No applicable cap loaded | 5 cited | medium (5 sources) | as-sold; as-consumed; wet-weight |
 | [[metals/arsenic-inorganic\|iAs]] | Fruit purees (general) (summary-only / supporting context) | highest reported 4 ppb | Sample-level detection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (product as placed on market) | 1 cited | low (1-2 sources) | as-consumed |
-| [[metals/mercury-total\|tHg]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 7.2 ppb (3 sources); highest reported 7.2 ppb | 29% detected (4/14, Fda 2024, as-sold) | No applicable cap loaded | 4 cited | medium (4 sources) | as-sold; as-consumed; wet-weight |
-| [[metals/aluminum\|Al]] | Fruit purees (general) (direct row-fit) | mean 556 to 1125 ppb (3 sources); highest reported 1420 ppb | Sample-level detection rate not reported | No applicable cap loaded | 3 cited | medium (3 sources) | as-consumed; wet-weight |
-| [[metals/nickel\|Ni]] | Fruit purees (general) (direct row-fit) | mean 54.7 to 137 ppb (2 sources); highest reported 137 ppb | Sample-level detection rate not reported | No applicable cap loaded | 3 cited | medium (3 sources) | as-consumed; wet-weight |
-| [[metals/tin\|Sn]] | Fruit purees (general) (direct row-fit) | mean 98 to 424 ppb (2 sources); highest reported 3330 ppb | Sample-level detection rate not reported | No applicable cap loaded | 3 cited | medium (3 sources) | as-consumed; wet-weight |
-| [[metals/chromium\|Cr]] | Fruit purees (general) (direct row-fit) | mean 42.7 ppb (1 source); highest reported 84 ppb | Sample-level detection rate not reported | No applicable cap loaded | 2 cited | low (1-2 sources) | as-consumed |
-| Co | Fruit purees (general) (direct row-fit) | mean 2.87 ppb (1 source); highest reported 5 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
-| Cu | Fruit purees (general) (summary-only / supporting context) | mean 862 ppb (1 source); highest reported 862 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
-| Fe | Fruit purees (general) (summary-only / supporting context) | mean 7543 ppb (1 source); highest reported 7543 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
-| I | Fruit purees (general) (summary-only / supporting context) | highest reported 27 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
-| Mn | Fruit purees (general) (summary-only / supporting context) | mean 2436 ppb (1 source); highest reported 2436 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
-| Sb | Fruit purees (general) (direct row-fit) | mean 0.65 ppb (1 source); highest reported 3 ppb | Sample-level detection rate not reported | No applicable cap loaded | 2 cited | low (1-2 sources) | as-consumed |
-| Se | Fruit purees (general) (summary-only / supporting context) | highest reported 7 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
-| V | Fruit purees (general) (direct row-fit) | mean 1.4 ppb (1 source); highest reported 4 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
-| Zn | Fruit purees (general) (summary-only / supporting context) | highest reported 5002 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | as-consumed |
+| [[metals/arsenic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, as-sold) | No applicable cap loaded | 5 cited | medium (5 sources) | as-sold; as-consumed; wet-weight |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Lead Benchmark Context
@@ -331,9 +317,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [6dcb44d](https://github.com/paleofoundation/heavymetalindex/commit/6dcb44d) | 2026-05-19 | autonomy: daemon tick 2026-05-18T21-04-04Z — gap-healing + extraction + pooling + briefings |
-| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
-| [25004dc](https://github.com/paleofoundation/heavymetalindex/commit/25004dc) | 2026-05-18 | checkpoint: daemon + generator accumulated outputs (synthesis writer, marker regen, briefings) |
 <!-- END: hmi-page-history -->

@@ -20,8 +20,8 @@
     "canonical_url": "https://heavymetalindex.com/products/fermented-beverages-non-tea-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "27fc8dca9843166d9c64ea19253f03f94bd64064f31c522339c9228fd667bcd4",
-      "content_bytes": 17503,
+      "content_sha256": "a6a88ab9539c298ce30e2ffe238551aaf8ceb30d6a8f3564956989a1aa60f7c6",
+      "content_bytes": 17444,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -44,8 +44,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/munilla-garcia2023-lead-kombucha-ceramics",
         "content_pin": {
-          "content_sha256": "3c6708c703b0a40767883ae1c60b2e0849e4ccf0a5d16d9cb5347b87dffc23ab",
-          "content_bytes": 5830,
+          "content_sha256": "4b0b53e2cc70b6464f6a0418ea3daafe48b02de1fa19dd996660b7fc75b9016a",
+          "content_bytes": 6004,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -64,8 +64,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
         "content_pin": {
-          "content_sha256": "dbb2fcaeebe483b9d7e8936796a33929476fe606df0702e2bd2a836fbc5cbff9",
-          "content_bytes": 10398,
+          "content_sha256": "126e0d4a21f191d998bb125d0fe0526bc725de1ab47cc19304c74c77dac31968",
+          "content_bytes": 10413,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

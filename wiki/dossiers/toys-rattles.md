@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:8a85ff86af5c9ca185cbb251f3c787e4…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:211786f9caf74e7b27f3f811b5e86a29…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=toys-rattles&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/toys-rattles&download=1`.
 

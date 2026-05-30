@@ -106,10 +106,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | tHg, Cd, Pb, tAs occurrence in 138,281 test records for aquatic-food products extracted from the WHO Food Safety Collaborative Platform (FOSCOLLAB), which integrates JECFA,... (n=138281) |
-| 2 | [[sources/harding2018-bay-fundy-methylmercury\|Harding et al. 2018]]. *Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine*, PLoS ONE | 2018 | Peer-reviewed | CA/US MeHg, tHg occurrence in Marine food-web organisms from the outer Bay of Fundy and Gulf of Maine |
-| 3 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
-| 4 | [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius\|Bhoyroo et al. 2015]]. *Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard*, African Journal of Food Science and Technology 6(4):098-107 | 2015 | Peer-reviewed | MU Zn, Cu, Ni, Cr, Cd, Pb, tHg, tAs occurrence in Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado caught in the Mauritian EEZ and sold/consumed as... (n=Four commercially edible pelagic fish species sampled in summer and winter from the Exclusive Economic Zone of Mauritius; per-species replicate counts not extractable from the text layer.) |
+| 1 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/xu2025-heavy-metals-aquatic-foods-global\|Xu et al. 2025]]. *Heavy metal risks in aquatic foods*, Environment International | 2025 | Peer-reviewed | tHg, Cd, Pb, tAs occurrence in 138,281 test records for aquatic-food products extracted from the WHO Food Safety Collaborative Platform (FOSCOLLAB), which integrates JECFA,... (n=138281) |
+| 3 | [[sources/harding2018-bay-fundy-methylmercury\|Harding et al. 2018]]. *Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine*, PLoS ONE | 2018 | Peer-reviewed | CA/US MeHg, tHg occurrence in Marine food-web organisms from the outer Bay of Fundy and Gulf of Maine |
+| 4 | [[sources/smolikova2016-heavy-metals-fish-czech\|Smolikova et al. 2016]]. *Determination of heavy metals in fish products*, MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 | 2016 | Conference proceedings | CZ/EU tHg, Cd, Pb occurrence in 33 species of fish purchased in Brno City (Czech Republic) markets from 17 FAO localities, September 2015–June 2016;... (n=159) |
+| 5 | [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius\|Bhoyroo et al. 2015]]. *Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard*, African Journal of Food Science and Technology 6(4):098-107 | 2015 | Peer-reviewed | MU Zn, Cu, Ni, Cr, Cd, Pb, tHg, tAs occurrence in Muscle tissue from yellowfin tuna, dogtooth tuna, marlin, and dorado caught in the Mauritian EEZ and sold/consumed as... (n=Four commercially edible pelagic fish species sampled in summer and winter from the Exclusive Economic Zone of Mauritius; per-species replicate counts not extractable from the text layer.) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
-| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
-| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:f1aadcdabb54c8d7a1613af35ad53781…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:c1e997b4d3d79c7ea68a68d6ece7ec40…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=rice-noodles&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/rice-noodles&download=1`.
 

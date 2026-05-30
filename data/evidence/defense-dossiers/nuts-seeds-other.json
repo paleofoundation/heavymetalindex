@@ -21,8 +21,8 @@
     "canonical_url": "https://heavymetalindex.com/products/nuts-seeds-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e1255cbbe172251b8e2e27eac516d4cec3e17a40fd17d5ecddd804a983ea618b",
-      "content_bytes": 10311,
+      "content_sha256": "632fdaf76701a2da92d2e0fe2c61685e74ee34fd5a45170767c0c1aa2014633d",
+      "content_bytes": 11385,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -48,8 +48,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
         "content_pin": {
-          "content_sha256": "ebcb87301603811267e5f553d2e639b9321f3dbe811119092846a8d273c139f8",
-          "content_bytes": 5615,
+          "content_sha256": "474e076a9cc6a3b8125066bc58e41cf7f840edf00dbb85fd44817ea3378bba32",
+          "content_bytes": 5611,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -85,8 +85,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "9991ede4988d86b8302ca6c36214bfd53b4b6ac82500a0eb07e9e77c35c08db0",
-          "content_bytes": 10998,
+          "content_sha256": "a78eaf82498fa0b05dacb2f6a942e2cdb7132ac3e6100c0ed692c2e335683def",
+          "content_bytes": 10974,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -113,8 +113,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nazari2023-heavy-metals-seed-crops-oil-products-review",
         "content_pin": {
-          "content_sha256": "9863765db83c1d7db018a774d6e6eff5ae057e061df3b39ca62c34204cfe8e78",
-          "content_bytes": 16741,
+          "content_sha256": "a5340ce5f8283c4b07736a0c08c00d07342bf2e41d5d1c17123327368c584a02",
+          "content_bytes": 16729,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -1,7 +1,7 @@
 ---
 title: Change-watch digest
 noindex: true
-generated: 2026-05-30T03:45:00.165Z
+generated: 2026-05-30T04:59:58.027Z
 ---
 
 # Regulatory and literature change-watch
@@ -10,6 +10,7 @@ What moved in the regulation or the cited literature that touches a certified pr
 
 ## Most recent changes
 
+- **2026-05-30** · `synthesis_new` — Literature evidence first populated for Al in infant-formula (n=3, low confidence).
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for Al in cocoa (n=2, low confidence).
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for tAs in cocoa (n=1, low confidence).
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for tHg in cocoa (n=1, low confidence).
@@ -39,7 +40,6 @@ What moved in the regulation or the cited literature that touches a certified pr
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for Cd in shellfish (n=5, medium confidence).
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for iAs in shellfish (n=4, low confidence).
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for tHg in shellfish (n=5, medium confidence).
-- **2026-05-16** · `synthesis_new` — Literature evidence first populated for Ni in shellfish (n=4, low confidence).
 
 ## Categories by change volume
 

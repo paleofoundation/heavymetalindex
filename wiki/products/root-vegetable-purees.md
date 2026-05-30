@@ -117,7 +117,7 @@ This page does not publish or justify HMT&C certification limits. Public Index p
 
 <!-- audience: regulator, educator, consumer, app -->
 
-The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Root-vegetable purees. Values are pulled directly from cited sources without re-aggregation. Aggregation, comparability review, and HMT&C certification threshold decisions are handled separately under the certification program; see the [methodology](/methodology) for the wiki/HMT&C separation.
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Root-vegetable purees. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
 
 Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
 
@@ -313,9 +313,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [6dcb44d](https://github.com/paleofoundation/heavymetalindex/commit/6dcb44d) | 2026-05-19 | autonomy: daemon tick 2026-05-18T21-04-04Z — gap-healing + extraction + pooling + briefings |
-| [25004dc](https://github.com/paleofoundation/heavymetalindex/commit/25004dc) | 2026-05-18 | checkpoint: daemon + generator accumulated outputs (synthesis writer, marker regen, briefings) |
-| [8530c3e](https://github.com/paleofoundation/heavymetalindex/commit/8530c3e) | 2026-05-17 | synthesis: 53 product pages — replace placeholder Levers + Historical-recalls intros |
 <!-- END: hmi-page-history -->

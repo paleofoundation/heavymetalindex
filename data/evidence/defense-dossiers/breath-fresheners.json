@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/breath-fresheners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ac66624613508d2aaa9442013613941d0fee259275c385f902cc2e10283aabbc",
-      "content_bytes": 7703,
+      "content_sha256": "36cf48ed30bab9b789c5401fdb4ee23407078541291210b6b1763fe54e7344c9",
+      "content_bytes": 7683,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

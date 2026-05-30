@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-prewash-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6f90ef5b15fe999909fbc46d4020077a8a9be7833e66bb2d8f18bb9b4bb66752",
-      "content_bytes": 7662,
+      "content_sha256": "b9d8d9a7c95eeb09dc7273181d6d5fccbfabb11e5f4a95df38cfa7be1dddf883",
+      "content_bytes": 7642,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -91,7 +91,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [aa829f5](https://github.com/paleofoundation/heavymetalindex/commit/aa829f5) | 2026-05-29 | audit: hbbf2025-rice-arsenic-cadmium-145-samples [revised] |
+| [9f787bd](https://github.com/paleofoundation/heavymetalindex/commit/9f787bd) | 2026-05-29 | ingest: hbbf2025-rice-arsenic-cadmium-145-samples [enhanced] from Manual Fetch Kimi |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
-| [0d0d0b0](https://github.com/paleofoundation/heavymetalindex/commit/0d0d0b0) | 2026-05-17 | ingest: 24 new MFK source pages + 10 merge-enhance fixes across four parallel batches |
 <!-- END: hmi-page-history -->

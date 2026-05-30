@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/whitening-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "91faa1f0bbf4f8785a91beb609d1a165533d7f37aac732d098d7eaa6096c07eb",
-      "content_bytes": 7722,
+      "content_sha256": "b1e5dde4f515e0c53c4a212890232239c46e2c97ea8bcc58d4946ea5a8ae5fe7",
+      "content_bytes": 7702,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

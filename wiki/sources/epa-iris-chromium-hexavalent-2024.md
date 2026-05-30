@@ -119,3 +119,13 @@ This source warrants a dedicated regulation page (suggested `regulations/epa-iri
 ## Wiki pages updated on ingest
 
 - [[metals/chromium-hexavalent]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [092df30](https://github.com/paleofoundation/heavymetalindex/commit/092df30) | 2026-05-29 | ingest: epa-iris-chromium-hexavalent-2024 [fresh] from Manual Fetch Kimi / |
+<!-- END: hmi-page-history -->

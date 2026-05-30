@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:234d66ae548721cc0a61653be5954be9…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:4f54f9b3bd2e7e5ff0ce00f2fafb1beb…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=food-packaging-glass-jars&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/food-packaging-glass-jars&download=1`.
 

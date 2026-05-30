@@ -52,7 +52,20 @@ The applicable regulatory jurisdictions for this row are: **FDA, EU, Codex**.
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-*Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [fish-freshwater]` in source-page frontmatter.*
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in fresh product. Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
+
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-inorganic\|iAs]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -102,13 +115,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/naseem2026-seasonal-heavy-metals-water-fish\|Bhanu et al. 2026]]. *Seasonal Fluctuation of Heavy Metals in Water & Fish Tissues*, Transformative Education: A Multidisciplinary Journal (TEMJ) | 2026 | Review | Pb, Cd, tHg, Ni, Cr, tAs, Cu, Zn occurrence in Theoretical narrative review; no original measurements and no quantitative meta-analysis. The paper synthesizes the conceptual literature on seasonal... |
-| 2 | [[sources/jesse2025-unknown\|Lepak et al. 2025]]. *Correction: Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health*, PLoS ONE 20(2): e0319526 | 2025 | Peer-reviewed | US tHg occurrence in Correction table for reservoir sport-fish mercury data; species include northern pike, smallmouth bass, and walleye. |
-| 3 | [[sources/hoy2023-arsenic-speciation-freshwater-fish\|Hoy et al. 2023]]. *Arsenic speciation in freshwater fish: challenges and research needs*, Food Quality and Safety | 2023 | Peer-reviewed | CA/CN/FR iAs, tAs occurrence in Peer-reviewed review of published arsenic-speciation literature for freshwater fish; primary data tables summarize studies from Canada, China, France,... |
-| 4 | [[sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\|Marriott et al. 2023]]. *Considerations for environmental biogeochemistry and food security for aquaculture around Lake Victoria, Kenya*, Environmental Geochemistry and Health | 2023 | Peer-reviewed | KE tAs, Cd, Cr, Pb, Al, Ni occurrence in Wild and aquaculture Nile tilapia from Winam Gulf, Lake Victoria, Kenya; water collected 2018-2019 |
-| 5 | [[sources/zahran2023-mercury-tilapia-nannochloropsis\|Zahran et al. 2023]]. *Toxicity Evaluation, Oxidative, and Immune Responses of Mercury on Nile Tilapia: Modulatory Role of Dietary Nannochloropsis oculata* | 2023 | Peer-reviewed | EG tHg occurrence in Nile tilapia (Oreochromis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) |
-| 6 | [[sources/maikanov2020-fish-products-shuchinsk-burabay-metals\|Maikanov et al. 2020]]. *Quality and safety of fish products in the Shuchinsk-Burabay Resort Zone*, Medycyna Weterynaryjna 76(10):585-588 | 2020 | Peer-reviewed | KZ tAs, Cd, tHg, Pb occurrence in Fish muscle samples from lakes in the Shuchinsk-Burabay resort zone, Kazakhstan. (n=44) |
-| 7 | [[sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\|Rajeshkumar et al. 2018]]. *Studies on seasonal pollution of heavy metals in water, sediment, fish and oyster from the Meiliang Bay of Taihu Lake in China*, Chemosphere | 2018 | Peer-reviewed | CN Pb, Cd, Cr, Cu occurrence in Surface water (n=28: 7 sites × 4 seasons), sediment (n=28: 7 sites × 4 seasons), crucian carp Carassius... (n=28) |
-| 8 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
+| 2 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|Garofalo et al. 2025]]. *Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis*, Foods 14(3):451 | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/jesse2025-unknown\|Lepak et al. 2025]]. *Correction: Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health*, PLoS ONE 20(2): e0319526 | 2025 | Peer-reviewed | US tHg occurrence in Correction table for reservoir sport-fish mercury data; species include northern pike, smallmouth bass, and walleye. |
+| 4 | [[sources/hoy2023-arsenic-speciation-freshwater-fish\|Hoy et al. 2023]]. *Arsenic speciation in freshwater fish: challenges and research needs*, Food Quality and Safety | 2023 | Peer-reviewed | CA/CN/FR iAs, tAs occurrence in Peer-reviewed review of published arsenic-speciation literature for freshwater fish; primary data tables summarize studies from Canada, China, France,... |
+| 5 | [[sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\|Marriott et al. 2023]]. *Considerations for environmental biogeochemistry and food security for aquaculture around Lake Victoria, Kenya*, Environmental Geochemistry and Health | 2023 | Peer-reviewed | KE tAs, Cd, Cr, Pb, Al, Ni occurrence in Wild and aquaculture Nile tilapia from Winam Gulf, Lake Victoria, Kenya; water collected 2018-2019 |
+| 6 | [[sources/zahran2023-mercury-tilapia-nannochloropsis\|Zahran et al. 2023]]. *Toxicity Evaluation, Oxidative, and Immune Responses of Mercury on Nile Tilapia: Modulatory Role of Dietary Nannochloropsis oculata* | 2023 | Peer-reviewed | EG tHg occurrence in Nile tilapia (Oreochromis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) |
+| 7 | [[sources/maikanov2020-fish-products-shuchinsk-burabay-metals\|Maikanov et al. 2020]]. *Quality and safety of fish products in the Shuchinsk-Burabay Resort Zone*, Medycyna Weterynaryjna 76(10):585-588 | 2020 | Peer-reviewed | KZ tAs, Cd, tHg, Pb occurrence in Fish muscle samples from lakes in the Shuchinsk-Burabay resort zone, Kazakhstan. (n=44) |
+| 8 | [[sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\|Rajeshkumar et al. 2018]]. *Studies on seasonal pollution of heavy metals in water, sediment, fish and oyster from the Meiliang Bay of Taihu Lake in China*, Chemosphere | 2018 | Peer-reviewed | CN Pb, Cd, Cr, Cu occurrence in Surface water (n=28: 7 sites × 4 seasons), sediment (n=28: 7 sites × 4 seasons), crucian carp Carassius... (n=28) |
+| 9 | [[sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\|Eagles-Smith et al. 2016]]. *Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada*, Science of The Total Environment (2016, in press 2015) | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +133,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
-| [c5da3a8](https://github.com/paleofoundation/heavymetalindex/commit/c5da3a8) | 2026-05-19 | autonomy: daemon tick 2026-05-19T16-51-40Z — gap-healing + extraction + pooling + briefings |
-| [83afba8](https://github.com/paleofoundation/heavymetalindex/commit/83afba8) | 2026-05-18 | autonomy: daemon tick 2026-05-18T20-18-55Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:1cbc2e41dc081e531b175123c3bd05b9…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:e36e689c0e3e6ac7b792430e2e3f3782…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fish-marine-predatory&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fish-marine-predatory&download=1`.
 

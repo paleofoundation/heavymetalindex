@@ -96,3 +96,13 @@ App: limited direct app utility. The source documents that wild-harvested medici
 - Taxonomy: routed to the existing `ingredients/herbal-botanicals` umbrella because *Verbascum speciosum* / Common Mullein is a botanical entering the herbal-medicinal / dietary-supplement supply chain in Iran and elsewhere. No species-level ingredient slug exists, and the 5-paper threshold for a stand-alone `mullein` or `verbascum-speciosum` ingredient page is not met.
 - Matrices set to `medicinal-plants` and `bulk-soil`; no product-shaped slug is appropriate because the source measures wild-harvested plant tissue and soil at mining-impacted localities, not a finished consumer product.
 - Paper-internal abstract/Table 2 swap on area-a aerial Zn (519 vs 638) documented in Speciation and methods caveats; Table 2 used as authoritative.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cdf9cd0](https://github.com/paleofoundation/heavymetalindex/commit/cdf9cd0) | 2026-05-30 | ingest: hajmoradi2024-verbascum-mining-iran fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

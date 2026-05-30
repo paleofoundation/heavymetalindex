@@ -56,3 +56,13 @@ App: Can support human-milk context where the app includes infant feeding exposu
 ## Verification notes
 
 The same DOI was fetched under Cd and Pb/human-milk gaps. This page is the canonical source for that duplicate pair. The source is human-milk exposure evidence, not brand or product evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0edf3ce](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

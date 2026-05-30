@@ -831,7 +831,7 @@ ingredient,fish,Regulatory limits that apply,0.30 mg/kg,true,"/kg (50 ug/kg) Cd,
 ingredient,fish,Regulatory limits that apply,300 ug/kg,true,"g) Cd, and 0.50 mg/kg (500 ug/kg) Hg; listed lower-mercury fish are 0.30 mg/kg (300 ug/kg) Hg, and listed higher-mercury"
 ingredient,fish,Regulatory limits that apply,1.0 mg/kg,true," fish including tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.  <!-- BEGIN: "
 ingredient,fish,Regulatory limits that apply,1000 ug/kg,true,"ding tuna, shark, swordfish, marlin, halibut, pike, and sturgeon are 1.0 mg/kg (1000 ug/kg) Hg.  <!-- BEGIN: hmi-source-"
-ingredient,fish,Sources,4.73 µg/g,true,species and indigenous/riverside human populations; fish Hg concentrations 0.10–4.73 µg/g; hair mercury... | | 16 | [[so
+ingredient,fish,Sources,4.73 µg/g,true,species and indigenous/riverside human populations; fish Hg concentrations 0.10–4.73 µg/g; hair mercury... | | 17 | [[so
 ingredient,flavored-carbonated-bottled-waters,"Ranges by source, region, and variety",10 µg/L,true,"s can carry arsenic concentrations near or above the EU drinking water limit of 10 µg/L, while products from shallow all"
 ingredient,flavored-carbonated-bottled-waters,Mitigation options,10 µg/L,true,he treated water specification against the EU Drinking Water Directive limit of 10 µg/L for arsenic (and any stricter in
 ingredient,flavored-carbonated-bottled-waters,Mitigation options,1 µg/L,true,"pical metal concentrations in these products, sensitive methods with LODs below 1 µg/L are needed to detect compliance w"
@@ -998,7 +998,7 @@ ingredient,hazelnuts,Mitigation options,5 ppb,true,"and QC levers  Lot-level ICP
 ingredient,hazelnuts,Mitigation options,50 ppb,true,"-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 5 ppb), and Ni (≤ 50 ppb) is appropriate for hazelnut buye"
 ingredient,hazelnuts,Regulatory limits that apply,0.20 mg/kg,true,# Regulatory limits that apply  The EU Regulation 2023/915 sets a Pb maximum of 0.20 mg/kg for tree nuts including hazel
 ingredient,hazelnuts,Regulatory limits that apply,0.10 mg/kg,true,915 sets a Pb maximum of 0.20 mg/kg for tree nuts including hazelnuts and Cd at 0.10 mg/kg fresh weight for tree nuts. T
-ingredient,herbal-botanicals,Sources,23 µg/g,true,", thyme, rosemary, black tea, green tea); chamomile Cd notably elevated at mean 23 µg/g across included studies | | 21 |"
+ingredient,herbal-botanicals,Sources,23 µg/g,true,", thyme, rosemary, black tea, green tea); chamomile Cd notably elevated at mean 23 µg/g across included studies | | 22 |"
 ingredient,herbal-botanicals,Why this commodity accumulates heavy metals,23 µg/g,true,"almani2023-herbal-teas-metals-review|Salmani 2023]] documenting chamomile Cd at 23 µg/g mean), Cr (per [[sources/jurowsk"
 ingredient,herbal-botanicals,Regulatory limits that apply,1000 ppb,true,"]] — EU Reg. 2023/915 sets maximum levels for Pb and Cd in herbs and spices: Pb 1000 ppb general spices, with stricter l"
 ingredient,herbal-botanicals,Regulatory limits that apply,1500 ppb,true," ppb general spices, with stricter limits for specific commodity categories; Cd 1500 ppb general spices. - FDA Import Al"
@@ -1080,6 +1080,72 @@ ingredient,infant-formula-rtf-liquid,Regulatory limits that apply,0.020 mg/kg,tr
 ingredient,infant-formula-rtf-liquid,Regulatory limits that apply,20 ppb,true,0.010 mg/kg (10 ppb) RTF liquid; Cd at 0.005 mg/kg (5 ppb); iAs at 0.020 mg/kg (20 ppb); Hg at 0.020 mg/kg (20 ppb) for 
 ingredient,infant-formula-rtf-liquid,Regulatory limits that apply,0.020 mg/kg,true, ppb) RTF liquid; Cd at 0.005 mg/kg (5 ppb); iAs at 0.020 mg/kg (20 ppb); Hg at 0.020 mg/kg (20 ppb) for infant formula.
 ingredient,infant-formula-rtf-liquid,Regulatory limits that apply,20 ppb,true,uid; Cd at 0.005 mg/kg (5 ppb); iAs at 0.020 mg/kg (20 ppb); Hg at 0.020 mg/kg (20 ppb) for infant formula. - [[regulati
+ingredient,infant-formula,Why this commodity accumulates heavy metals,2.03 ppb,true,"hung2021-china-infant-formula-toxic-elements]] (n=93 cow-milk formulas, Pb mean 2.03 ppb) and [[sources/dabeka2011-canad"
+ingredient,infant-formula,"Ranges by source, region, and variety",2.03 ppb,true,hies. [[sources/chung2021-china-infant-formula-toxic-elements]] reports Pb mean 2.03 ppb (range 0.36 to 5.75) across 93 
+ingredient,infant-formula,"Ranges by source, region, and variety",1.61 ppb,true,"las from the Chinese market, with stage-1 starter formulas slightly lower (mean 1.61 ppb, n=28) than stage-4 (mean 2.55 "
+ingredient,infant-formula,"Ranges by source, region, and variety",2.55 ppb,true,"tage-1 starter formulas slightly lower (mean 1.61 ppb, n=28) than stage-4 (mean 2.55 ppb, n=14). [[sources/dabeka2011-ca"
+ingredient,infant-formula,"Ranges by source, region, and variety",0.65 ppb,true,"es/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] reports Pb means of 0.65 ppb (n=57 powdered cow-milk, max 3."
+ingredient,infant-formula,"Ranges by source, region, and variety",0.90 ppb,true,"ium-aluminum]] reports Pb means of 0.65 ppb (n=57 powdered cow-milk, max 3.46), 0.90 ppb (n=67 ready-to-use cow-milk, ma"
+ingredient,infant-formula,"Ranges by source, region, and variety",1.45 ppb,true,"dered cow-milk, max 3.46), 0.90 ppb (n=67 ready-to-use cow-milk, max 2.46), and 1.45 ppb (n=14 ready-to-use soy, max 2.1"
+ingredient,infant-formula,"Ranges by source, region, and variety",0.98 ppb,true,"mium, [[sources/chung2021-china-infant-formula-toxic-elements]] reports Cd mean 0.98 ppb (range 0.13 to 3.58, n=93). [[s"
+ingredient,infant-formula,"Ranges by source, region, and variety",0.17 ppb,true,la-lead-cadmium-aluminum]] shows a clear soy elevation: cow-milk powder Cd mean 0.17 ppb compared with soy powder Cd mea
+ingredient,infant-formula,"Ranges by source, region, and variety",1.56 ppb,true,"oy elevation: cow-milk powder Cd mean 0.17 ppb compared with soy powder Cd mean 1.56 ppb (n=15), and concentrated-liquid"
+ingredient,infant-formula,"Ranges by source, region, and variety",1.12 ppb,true,"ed with soy powder Cd mean 1.56 ppb (n=15), and concentrated-liquid soy Cd mean 1.12 ppb compared with concentrated-liqu"
+ingredient,infant-formula,"Ranges by source, region, and variety",0.13 ppb,true,-liquid soy Cd mean 1.12 ppb compared with concentrated-liquid cow-milk Cd mean 0.13 ppb. [[sources/collado-lopez2025-he
+ingredient,infant-formula,"Ranges by source, region, and variety",3.32 ppb,true,"nge: [[sources/chung2021-china-infant-formula-toxic-elements]] reports tAs mean 3.32 ppb (range 0.89 to 7.87, n=93) and "
+ingredient,infant-formula,"Ranges by source, region, and variety",1.61 ppb,true,"2019-french-infant-toddler-tds-trace-elements]] reports infant-formula tAs mean 1.61 ppb (n=28, French TDS). Hydrolysed-"
+ingredient,infant-formula,"Ranges by source, region, and variety",20 µg/kg,true, [[sources/meyer2018-hydrolysed-rice-formula-arsenic]] reports As(V) range 9 to 20 µg/kg dry powder across six European 
+ingredient,infant-formula,"Ranges by source, region, and variety",52 ppb,true," As median across reviewed formula stages occurred in without-stage formulas at 52 ppb, driven by rice-protein products."
+ingredient,infant-formula,"Ranges by source, region, and variety",700.4 µg/L,true,"l2010-aluminium-in-infant-formulas]] reports ready-made UK formulas at 175.5 to 700.4 µg/L (n=8, preterm highest) and po"
+ingredient,infant-formula,"Ranges by source, region, and variety",629.0 µg/L,true,"8, preterm highest) and powders reconstituted to feed concentration at 333.3 to 629.0 µg/L (n=8, soy-based highest). [[s"
+ingredient,infant-formula,"Ranges by source, region, and variety",177 ppb,true,"1-canada-infant-formula-lead-cadmium-aluminum]] reports as-consumed Al means of 177 ppb for cow-milk powder, 733 ppb for"
+ingredient,infant-formula,"Ranges by source, region, and variety",733 ppb,true,"cadmium-aluminum]] reports as-consumed Al means of 177 ppb for cow-milk powder, 733 ppb for soy powder, 437 ppb for cow-"
+ingredient,infant-formula,"Ranges by source, region, and variety",437 ppb,true,"ts as-consumed Al means of 177 ppb for cow-milk powder, 733 ppb for soy powder, 437 ppb for cow-milk ready-to-use, and 7"
+ingredient,infant-formula,"Ranges by source, region, and variety",730 ppb,true,"cow-milk powder, 733 ppb for soy powder, 437 ppb for cow-milk ready-to-use, and 730 ppb for soy ready-to-use. [[sources/"
+ingredient,infant-formula,"Ranges by source, region, and variety",196 ppb,true,"ddler-tds-trace-elements]] places the French infant-formula category at Al mean 196 ppb (max 585, n=28) and follow-on fo"
+ingredient,infant-formula,"Ranges by source, region, and variety",276 ppb,true,"ula category at Al mean 196 ppb (max 585, n=28) and follow-on formula higher at 276 ppb (max 1140, n=34).  For mercury, "
+ingredient,infant-formula,"Ranges by source, region, and variety",27.38 ppb,true,"ckel, [[sources/chung2021-china-infant-formula-toxic-elements]] reports Cr mean 27.38 ppb (range 2.51 to 83.80, total Cr"
+ingredient,infant-formula,"Ranges by source, region, and variety",20.8 ppb,true,"s/chekri2019-french-infant-toddler-tds-trace-elements]] reports formula Cr mean 20.8 ppb and Ni mean 25.9 ppb, and [[sou"
+ingredient,infant-formula,"Ranges by source, region, and variety",25.9 ppb,true,"nfant-toddler-tds-trace-elements]] reports formula Cr mean 20.8 ppb and Ni mean 25.9 ppb, and [[sources/keywords2019-app"
+ingredient,infant-formula,Processing effects,177 ppb,true," on an as-consumed basis and found that cow-milk powder ran lowest for Al (mean 177 ppb) and Pb (mean 0.65 ppb), concent"
+ingredient,infant-formula,Processing effects,0.65 ppb,true,"is and found that cow-milk powder ran lowest for Al (mean 177 ppb) and Pb (mean 0.65 ppb), concentrated-liquid lowest ov"
+ingredient,infant-formula,Processing effects,131 ppb,true,"an 177 ppb) and Pb (mean 0.65 ppb), concentrated-liquid lowest overall (Al mean 131 ppb, Pb mean 0.32 ppb for cow-milk),"
+ingredient,infant-formula,Processing effects,0.32 ppb,true,"b (mean 0.65 ppb), concentrated-liquid lowest overall (Al mean 131 ppb, Pb mean 0.32 ppb for cow-milk), while ready-to-u"
+ingredient,infant-formula,Processing effects,437 ppb,true,"an 0.32 ppb for cow-milk), while ready-to-use cow-milk ran highest for Al (mean 437 ppb, max 3442 ppb). For soy formulat"
+ingredient,infant-formula,Processing effects,3442 ppb,true,"or cow-milk), while ready-to-use cow-milk ran highest for Al (mean 437 ppb, max 3442 ppb). For soy formulations, the for"
+ingredient,infant-formula,Processing effects,706 ppb,true,e format penalty inverts in part: concentrated-liquid soy still carries Al mean 706 ppb because the soy ingredient contr
+ingredient,infant-formula,Processing effects,20 µg/kg,true,"mulas: [[sources/meyer2018-hydrolysed-rice-formula-arsenic]] reports As(V) 9 to 20 µg/kg in dry hydrolysed-rice powder, "
+ingredient,infant-formula,Processing effects,629 µg/L,true,"infant-formulas]] computes prepared-milk-equivalent Al for UK powders at 333 to 629 µg/L, overlapping the ready-made liq"
+ingredient,infant-formula,Processing effects,700 µg/L,true,"K powders at 333 to 629 µg/L, overlapping the ready-made liquid range of 175 to 700 µg/L. The implication is that powder"
+ingredient,infant-formula,Ingredient-derivative risk,733 ppb,true,ka2011-canada-infant-formula-lead-cadmium-aluminum]] reports soy-powder Al mean 733 ppb against cow-milk-powder mean 177
+ingredient,infant-formula,Ingredient-derivative risk,177 ppb,true,"mium-aluminum]] reports soy-powder Al mean 733 ppb against cow-milk-powder mean 177 ppb, soy ready-to-use 730 ppb agains"
+ingredient,infant-formula,Ingredient-derivative risk,730 ppb,true,"y-powder Al mean 733 ppb against cow-milk-powder mean 177 ppb, soy ready-to-use 730 ppb against cow-milk 437 ppb, and so"
+ingredient,infant-formula,Ingredient-derivative risk,437 ppb,true,"against cow-milk-powder mean 177 ppb, soy ready-to-use 730 ppb against cow-milk 437 ppb, and soy concentrated-liquid 706"
+ingredient,infant-formula,Ingredient-derivative risk,706 ppb,true," soy ready-to-use 730 ppb against cow-milk 437 ppb, and soy concentrated-liquid 706 ppb against cow-milk 131 ppb. [[sour"
+ingredient,infant-formula,Ingredient-derivative risk,131 ppb,true," against cow-milk 437 ppb, and soy concentrated-liquid 706 ppb against cow-milk 131 ppb. [[sources/burrell2010-aluminium"
+ingredient,infant-formula,Ingredient-derivative risk,629 µg/L,true,"-formulas]] identifies the soya-based powder as the highest prepared-milk Al at 629 µg/L, with the highest 24-hour Al in"
+ingredient,infant-formula,Ingredient-derivative risk,0.78 mg/kg,true,"tolerable-intake-toys]] notes that ""infants on formula, 0 to 12 months: 0.10 to 0.78 mg/kg bw/week, highest in soy-based"
+ingredient,infant-formula,Ingredient-derivative risk,20 µg/kg,true, As(V) load: [[sources/meyer2018-hydrolysed-rice-formula-arsenic]] reports 9 to 20 µg/kg dry powder across six European 
+ingredient,infant-formula,Ingredient-derivative risk,0.23 µg/kg,true,cross six European products. The authors estimate daily As(V) intake at 0.16 to 0.23 µg/kg body weight per day for a typ
+ingredient,infant-formula,Ingredient-derivative risk,0.43 µg/kg,true,", which they place below the EFSA-cited childhood iAs exposure range of 0.24 to 0.43 µg/kg body weight per day. Hydrolys"
+ingredient,infant-formula,Ingredient-derivative risk,276 ppb,true,"19-french-infant-toddler-tds-trace-elements]] reports follow-on formula Al mean 276 ppb (max 1140, n=34) and growing-up "
+ingredient,infant-formula,Ingredient-derivative risk,189 ppb,true," follow-on formula Al mean 276 ppb (max 1140, n=34) and growing-up milk Al mean 189 ppb (max 724, n=9) against infant fo"
+ingredient,infant-formula,Ingredient-derivative risk,196 ppb,true," and growing-up milk Al mean 189 ppb (max 724, n=9) against infant formula mean 196 ppb (n=28), and follow-on formula tA"
+ingredient,infant-formula,Mitigation options,20 µg/kg,true,enic]] documenting that controlled European hydrolysed-rice products stay below 20 µg/kg dry powder.  ### Agronomic  Agr
+ingredient,infant-formula,Mitigation options,0.3 µg/kg,true,es/meyer2018-hydrolysed-rice-formula-arsenic]] uses IC-ICP-MS speciation with a 0.3 µg/kg LOD. Limits of detection at or
+ingredient,infant-formula,Mitigation options,0.5 µg/kg,true,uses IC-ICP-MS speciation with a 0.3 µg/kg LOD. Limits of detection at or below 0.5 µg/kg for Pb and 0.1 µg/kg for Cd ar
+ingredient,infant-formula,Mitigation options,0.1 µg/kg,true,tion with a 0.3 µg/kg LOD. Limits of detection at or below 0.5 µg/kg for Pb and 0.1 µg/kg for Cd are demonstrated in the
+ingredient,infant-formula,Regulatory limits that apply,20 ppb,true,"n Regulation (EU) 2023/915, which sets maximum lead levels in infant formula at 20 ppb for powder and 10 ppb for liquid "
+ingredient,infant-formula,Regulatory limits that apply,10 ppb,true,"/915, which sets maximum lead levels in infant formula at 20 ppb for powder and 10 ppb for liquid on an as-placed-on-mar"
+ingredient,infant-formula,Regulatory limits that apply,20 ppb,true,"t 20 ppb for powder and 10 ppb for liquid on an as-placed-on-market basis, with 20 ppb applying to drinks and to baby fo"
+ingredient,infant-formula,Regulatory limits that apply,10 ppb,true,nd young children per [[sources/eu2023-915-lead-infant-young-child-foods]]. The 10 ppb liquid ceiling is the tightest fo
+ingredient,infant-formula,Regulatory limits that apply,0.36 µg/kg,true,"erable weekly intake of 2.5 µg per kilogram body weight per week, equivalent to 0.36 µg/kg body weight per day, establis"
+ingredient,infant-formula,Regulatory limits that apply,0.3 mg/kg,true,s/scheer2017-aluminium-tolerable-intake-toys]] uses a tolerable daily intake of 0.3 mg/kg body weight per day (about 2.1
+ingredient,infant-formula,Regulatory limits that apply,2.1 mg/kg,true,"ke-toys]] uses a tolerable daily intake of 0.3 mg/kg body weight per day (about 2.1 mg/kg body weight per week), aligned"
+ingredient,infant-formula,Regulatory limits that apply,2 mg/kg,true,"day (about 2.1 mg/kg body weight per week), aligned with the JECFA 2011 PTWI of 2 mg/kg body weight per week. SCHEER exp"
+ingredient,infant-formula,Regulatory limits that apply,1 mg/kg,true,exposure in young children already frequently exceeds both the EFSA 2008 TWI of 1 mg/kg body weight per week and the JEC
+ingredient,infant-formula,Regulatory limits that apply,100 ppb,true,016-infant-toddler-foods-inorganic-arsenic]] establishes the US action level of 100 ppb iAs in infant rice cereal but do
+ingredient,infant-formula,Regulatory limits that apply,2 µg/kg,true,yer2018-hydrolysed-rice-formula-arsenic]] frames its compliance against the WHO 2 µg/kg body weight per day exposure ben
 ingredient,ketchup,Why this commodity accumulates heavy metals,200 mg/kg,true,"plate can interiors into the product. The EU limits Sn in canned solid foods at 200 mg/kg, reflecting decades of evidenc"
 ingredient,ketchup,Why this commodity accumulates heavy metals,22 ppb,true,"to on a volume basis. Cadmium in the FDA TDS data for ketchup ranged from 20 to 22 ppb, and Ni from 98 to 130 ppb, refle"
 ingredient,ketchup,Why this commodity accumulates heavy metals,130 ppb,true,"ium in the FDA TDS data for ketchup ranged from 20 to 22 ppb, and Ni from 98 to 130 ppb, reflecting the tomato and soil "
@@ -1322,8 +1388,8 @@ ingredient,organ-meats,Regulatory limits that apply,1000 ug/kg,true,ls]] — EU 
 ingredient,organ-meats,Regulatory limits that apply,0.20 mg/kg,true," bovine animals, sheep, pig, poultry, and horse. EU Pb offal maximum levels are 0.20 mg/kg for bovine animals and sheep,"
 ingredient,organ-meats,Regulatory limits that apply,0.15 mg/kg,true," horse. EU Pb offal maximum levels are 0.20 mg/kg for bovine animals and sheep, 0.15 mg/kg for pig, and 0.10 mg/kg for p"
 ingredient,organ-meats,Regulatory limits that apply,0.10 mg/kg,true,"mum levels are 0.20 mg/kg for bovine animals and sheep, 0.15 mg/kg for pig, and 0.10 mg/kg for poultry.  <!-- BEGIN: hmi"
-ingredient,organ-meats,Sources,0.201 mg/kg,true,"d as the highest-mean-Cd organ meats in the European occurrence dataset (kidney 0.201 mg/kg, liver 0.116 mg/kg) | | 18 |"
-ingredient,organ-meats,Sources,0.116 mg/kg,true,"an-Cd organ meats in the European occurrence dataset (kidney 0.201 mg/kg, liver 0.116 mg/kg) | | 18 | [[sources/codex-cx"
+ingredient,organ-meats,Sources,0.201 mg/kg,true,"d as the highest-mean-Cd organ meats in the European occurrence dataset (kidney 0.201 mg/kg, liver 0.116 mg/kg) | | 23 |"
+ingredient,organ-meats,Sources,0.116 mg/kg,true,"an-Cd organ meats in the European occurrence dataset (kidney 0.201 mg/kg, liver 0.116 mg/kg) | | 23 | [[sources/codex-cx"
 ingredient,pancake-syrup,Why this commodity accumulates heavy metals,1.4 ppb,true,"on limits with the sole exception of U, which was detected at trace levels (max 1.4 ppb).  ## Heavy metal contamination "
 ingredient,parsley,Regulatory limits that apply,100 ppb,true,2023-915]] — EU Reg. 2023/915 sets maximum levels for Pb in leafy vegetables at 100 ppb (general leafy vegetables); Cd a
 ingredient,parsley,Regulatory limits that apply,200 ppb,true, levels for Pb in leafy vegetables at 100 ppb (general leafy vegetables); Cd at 200 ppb (general leafy vegetables); thes
@@ -1644,6 +1710,50 @@ ingredient,rice,Sources,20 µg/kg,true,"ed | Beijing cereal-group means includin
 ingredient,rice,Sources,0.102 µg/g,true,reviewed | US commercial rice-cereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb i
 ingredient,rice,Sources,100 ppb,true,"ereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb iAs action level, no speciation "
 ingredient,rice,Sources,90 µg/kg,true,"rsenic-cadmium irrigation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polis"
+ingredient,rice,Sources,150 µg/kg,true,"gation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polished grain | | 44 | "
+ingredient,rice,Sources,0.10 mg/kg,true,"iew and meta-analysis*, PLoS ONE | 2022 | Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (poole"
+ingredient,rice,Sources,0.16 mg/kg,true,"Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (pooled 0.16 mg/kg DW, 29 studies) meta-analysis"
+ingredient,rice,Sources,463 µg/kg,true,n Nutrition | 2022 | Peer-reviewed | Guizhou karst rice (n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of Chi
+ingredient,rice,Sources,0.2 mg/kg,true,(n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of China GB 2762-2017 0.2 mg/kg standard | | 91 | [[sources/li
+ingredient,rice,Sources,0.2 mg/kg,true,ty | 2022 | Review | Narrative review citing Codex CXS 193-1995 cereal grain Pb 0.2 mg/kg and rice Cd 0.4 mg/kg MLs; cov
+ingredient,rice,Sources,0.4 mg/kg,true,arrative review citing Codex CXS 193-1995 cereal grain Pb 0.2 mg/kg and rice Cd 0.4 mg/kg MLs; covers Cr/Cd/Pb/Hg/As tox
+ingredient,rice,Sources,120 µg/kg,true,"(Cardno ChemRisk, FDA EAM 4.7 ICP-MS, n=36): rice-based grain products mean As ~120 µg/kg drive all elevated non-cancer "
+ingredient,rice,Sources,11.9 µg/kg,true, CDC Weekly | 2022 | Government report | China 6th TDS cereal-category Pb (mean 11.9 µg/kg) and Cd (mean 14.5 µg/kg) det
+ingredient,rice,Sources,14.5 µg/kg,true,rnment report | China 6th TDS cereal-category Pb (mean 11.9 µg/kg) and Cd (mean 14.5 µg/kg) detection rates 100%; Hunan 
+ingredient,rice,Sources,1500 µg/kg,true,Colombia La Mojana (gold-mining-impacted) tHg in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and 
+ingredient,rice,Sources,10 µg/kg,true,ning-impacted) tHg in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits
+ingredient,rice,Sources,20 µg/kg,true,in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits | | 109 | [[source
+ingredient,rice,Sources,0.15 mg/kg,true,national Seminar on Chemistry) | 2021 | Peer-reviewed | Jakarta market rice tHg 0.15 mg/kg (Cr also measured) by NAA; ri
+ingredient,rice,Sources,100 ppb,true,mmercial baby rice cereals: HPLC-ICP-MS bio-accessible iAs fractions exceed FDA 100 ppb infant rice-cereal action level 
+ingredient,rice,Sources,0.2 mg/kg,true,in Toxicology | 2020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; cen
+ingredient,rice,Sources,0.4 mg/kg,true,020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; central-China mining
+ingredient,rice,Sources,100 ppb,true,Government report | FDA Closer to Zero iAs action level for infant rice cereal (100 ppb) | | 123 | [[sources/fda2020-iAs
+ingredient,rice,Sources,20 µg/kg,true,"ed | Beijing cereal-group means including rice: Cr 128, Pb 62, As 28, Cd 20, Hg 20 µg/kg DW; cereals and vegetables driv"
+ingredient,rice,Sources,0.102 µg/g,true,reviewed | US commercial rice-cereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb i
+ingredient,rice,Sources,100 ppb,true,"ereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb iAs action level, no speciation "
+ingredient,rice,Sources,90 µg/kg,true,"rsenic-cadmium irrigation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polis"
+ingredient,rice,Sources,150 µg/kg,true,"gation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polished grain | | 44 | "
+ingredient,rice,Sources,0.10 mg/kg,true,"iew and meta-analysis*, PLoS ONE | 2022 | Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (poole"
+ingredient,rice,Sources,0.16 mg/kg,true,"Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (pooled 0.16 mg/kg DW, 29 studies) meta-analysis"
+ingredient,rice,Sources,463 µg/kg,true,n Nutrition | 2022 | Peer-reviewed | Guizhou karst rice (n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of Chi
+ingredient,rice,Sources,0.2 mg/kg,true,(n=113) Cd by ICP-MS: 0–463 µg/kg range; 11.6% exceedance of China GB 2762-2017 0.2 mg/kg standard | | 91 | [[sources/li
+ingredient,rice,Sources,0.2 mg/kg,true,ty | 2022 | Review | Narrative review citing Codex CXS 193-1995 cereal grain Pb 0.2 mg/kg and rice Cd 0.4 mg/kg MLs; cov
+ingredient,rice,Sources,0.4 mg/kg,true,arrative review citing Codex CXS 193-1995 cereal grain Pb 0.2 mg/kg and rice Cd 0.4 mg/kg MLs; covers Cr/Cd/Pb/Hg/As tox
+ingredient,rice,Sources,120 µg/kg,true,"(Cardno ChemRisk, FDA EAM 4.7 ICP-MS, n=36): rice-based grain products mean As ~120 µg/kg drive all elevated non-cancer "
+ingredient,rice,Sources,11.9 µg/kg,true, CDC Weekly | 2022 | Government report | China 6th TDS cereal-category Pb (mean 11.9 µg/kg) and Cd (mean 14.5 µg/kg) det
+ingredient,rice,Sources,14.5 µg/kg,true,rnment report | China 6th TDS cereal-category Pb (mean 11.9 µg/kg) and Cd (mean 14.5 µg/kg) detection rates 100%; Hunan 
+ingredient,rice,Sources,1500 µg/kg,true,Colombia La Mojana (gold-mining-impacted) tHg in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and 
+ingredient,rice,Sources,10 µg/kg,true,ning-impacted) tHg in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits
+ingredient,rice,Sources,20 µg/kg,true,in three rice varieties; FA473 at 1500 µg/kg soil exceeds EU 10 µg/kg and China 20 µg/kg grain limits | | 109 | [[source
+ingredient,rice,Sources,0.15 mg/kg,true,national Seminar on Chemistry) | 2021 | Peer-reviewed | Jakarta market rice tHg 0.15 mg/kg (Cr also measured) by NAA; ri
+ingredient,rice,Sources,100 ppb,true,mmercial baby rice cereals: HPLC-ICP-MS bio-accessible iAs fractions exceed FDA 100 ppb infant rice-cereal action level 
+ingredient,rice,Sources,0.2 mg/kg,true,in Toxicology | 2020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; cen
+ingredient,rice,Sources,0.4 mg/kg,true,020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; central-China mining
+ingredient,rice,Sources,100 ppb,true,Government report | FDA Closer to Zero iAs action level for infant rice cereal (100 ppb) | | 123 | [[sources/fda2020-iAs
+ingredient,rice,Sources,20 µg/kg,true,"ed | Beijing cereal-group means including rice: Cr 128, Pb 62, As 28, Cd 20, Hg 20 µg/kg DW; cereals and vegetables driv"
+ingredient,rice,Sources,0.102 µg/g,true,reviewed | US commercial rice-cereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb i
+ingredient,rice,Sources,100 ppb,true,"ereal infant product QQQ-ICP-MS measurement: tAs 0.102 µg/g (essentially at FDA 100 ppb iAs action level, no speciation "
+ingredient,rice,Sources,90 µg/kg,true,"rsenic-cadmium irrigation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polis"
 ingredient,rice,Sources,150 µg/kg,true,"gation trade-off across six water-management regimes; iAs 20-90 µg/kg dw, Cd 10-150 µg/kg dw in polished grain | | 42 | "
 ingredient,rice,Sources,0.10 mg/kg,true,"iew and meta-analysis*, PLoS ONE | 2022 | Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (poole"
 ingredient,rice,Sources,0.16 mg/kg,true,"Peer-reviewed | China rice Pb (pooled 0.10 mg/kg DW, 24 studies) and Cd (pooled 0.16 mg/kg DW, 29 studies) meta-analysis"
@@ -1685,6 +1795,12 @@ ingredient,rice,Sources,0.2 mg/kg,true,in Toxicology | 2020 | Review | Plant-foo
 ingredient,rice,Sources,0.4 mg/kg,true,020 | Review | Plant-food contamination review citing Codex Pb 0.2 mg/kg and Cd 0.4 mg/kg rice MLs; central-China mining
 ingredient,rice,Sources,100 ppb,true,Government report | FDA Closer to Zero iAs action level for infant rice cereal (100 ppb) | | 109 | [[sources/liu2020-ric
 ingredient,rice,Sources,20 µg/kg,true,"ed | Beijing cereal-group means including rice: Cr 128, Pb 62, As 28, Cd 20, Hg 20 µg/kg DW; cereals and vegetables driv"
+ingredient,rice,Sources,20 µg/kg,true,ant proximity gradient: 67% of grain samples (rice + maize) exceed GB 2762-2012 20 µg/kg Hg limit via atmospheric partic
+ingredient,rice,Sources,0.090 mg/kg,true,"r-reviewed | Shanghai adults >40 (n=207): rice Cd mean 0.023, median 0.009, P90 0.090 mg/kg wet weight; rice + vegetable"
+ingredient,rice,Sources,0.21 µg/g,true,"9(6):427-431 | 1984 | Peer-reviewed | Foundational Ni-in-food review; rice mean 0.21 µg/g (range 0.08-0.45, n=16); load "
+ingredient,rice,Sources,20 µg/kg,true,ant proximity gradient: 67% of grain samples (rice + maize) exceed GB 2762-2012 20 µg/kg Hg limit via atmospheric partic
+ingredient,rice,Sources,0.090 mg/kg,true,"r-reviewed | Shanghai adults >40 (n=207): rice Cd mean 0.023, median 0.009, P90 0.090 mg/kg wet weight; rice + vegetable"
+ingredient,rice,Sources,0.21 µg/g,true,"9(6):427-431 | 1984 | Peer-reviewed | Foundational Ni-in-food review; rice mean 0.21 µg/g (range 0.08-0.45, n=16); load "
 ingredient,rice,Sources,20 µg/kg,true,ant proximity gradient: 67% of grain samples (rice + maize) exceed GB 2762-2012 20 µg/kg Hg limit via atmospheric partic
 ingredient,rice,Sources,0.090 mg/kg,true,"r-reviewed | Shanghai adults >40 (n=207): rice Cd mean 0.023, median 0.009, P90 0.090 mg/kg wet weight; rice + vegetable"
 ingredient,rice,Sources,0.21 µg/g,true,"9(6):427-431 | 1984 | Peer-reviewed | Foundational Ni-in-food review; rice mean 0.21 µg/g (range 0.08-0.45, n=16); load "
@@ -2518,6 +2634,17 @@ product,canned-fish,Historical recalls and enforcement,0.5 mg/kg,true,affecting 
 product,canned-fish,Historical recalls and enforcement,200 mg/kg,true,". See [[regulations/eu-reg-2022-617-mercury-fishery]]. - **EC 1881/2006 Sn cap (200 mg/kg adult, 50 mg/kg infant)** has "
 product,canned-fish,Historical recalls and enforcement,50 mg/kg,true,"ns/eu-reg-2022-617-mercury-fishery]]. - **EC 1881/2006 Sn cap (200 mg/kg adult, 50 mg/kg infant)** has been in force sin"
 product,canned-fish,Historical recalls and enforcement,200 mg/kg,true, have identical migration behavior to the legacy BPA-epoxy linings the original 200 mg/kg Sn cap was calibrated against.
+product,canned-mushrooms,Levers to reduce contamination,0.072 mg/kg,true," mushrooms (Agaricus bisporus) on the Polish market reported overall medians of 0.072 mg/kg dry mass for Pb, 0.040 mg/kg"
+product,canned-mushrooms,Levers to reduce contamination,0.040 mg/kg,true,") on the Polish market reported overall medians of 0.072 mg/kg dry mass for Pb, 0.040 mg/kg dm for Cd, 0.043 mg/kg dm fo"
+product,canned-mushrooms,Levers to reduce contamination,0.043 mg/kg,true,"reported overall medians of 0.072 mg/kg dry mass for Pb, 0.040 mg/kg dm for Cd, 0.043 mg/kg dm for tHg, and 0.030 mg/kg "
+product,canned-mushrooms,Levers to reduce contamination,0.030 mg/kg,true,"0.072 mg/kg dry mass for Pb, 0.040 mg/kg dm for Cd, 0.043 mg/kg dm for tHg, and 0.030 mg/kg dm for tAs across 10 batches"
+product,canned-mushrooms,Levers to reduce contamination,0.63 mg/kg,true,"inst fresh Agaricus bisporus literature values of approximately 0.54, 0.36, and 0.63 mg/kg dm for Pb, Cd, and tAs respec"
+product,canned-mushrooms,Levers to reduce contamination,2.8 mg/kg,true,"s the largest non-essential element present in finished product (overall median 2.8 mg/kg dm, per-batch medians 1.4 to 2"
+product,canned-mushrooms,Levers to reduce contamination,24 mg/kg,true,"sent in finished product (overall median 2.8 mg/kg dm, per-batch medians 1.4 to 24 mg/kg dm) and is not efficiently leac"
+product,canned-mushrooms,Historical recalls and enforcement,0.30 mg/kg,true,"9/2008 amending [[regulations/eu-1881-2006-contaminants-superseded]], which set 0.30 mg/kg fresh weight for Pb and 0.20 "
+product,canned-mushrooms,Historical recalls and enforcement,0.20 mg/kg,true,"81-2006-contaminants-superseded]], which set 0.30 mg/kg fresh weight for Pb and 0.20 mg/kg fresh weight for Cd (roughly "
+product,canned-mushrooms,Historical recalls and enforcement,2.0 mg/kg,true,0 mg/kg fresh weight for Pb and 0.20 mg/kg fresh weight for Cd (roughly 3.0 and 2.0 mg/kg dry mass under a 90% moisture 
+product,canned-mushrooms,Historical recalls and enforcement,0.040 mg/kg,true,% moisture assumption); overall medians in the conserved product were 0.072 and 0.040 mg/kg dm respectively per [[source
 product,cashews,(opening),434 µg/kg,true,"production geography (West Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  Thi"
 product,cashews,(opening),350 µg/kg,true,"t Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  This page is a Step 0 lock s"
 product,cashews,Federal/Regulatory Limits vs Field Findings,0.20 mg/kg,true,"fruits and vegetables (Pb, Cd) and on specific commodities (e.g., spinach Cd at 0.20 mg/kg per [[regulations/eu-2023-915"
@@ -2811,35 +2938,10 @@ product,fruit-purees,Literature Evidence Summary,10 ppb,true,"(26/44, Fda 2024, 
 product,fruit-purees,Literature Evidence Summary,4.4 ppb,true,tals/cadmium\|Cd]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 4.4 ppb (3 sources); highest reported 16
 product,fruit-purees,Literature Evidence Summary,16 ppb,true,"eral) (direct row-fit) | mean/median 0 to 4.4 ppb (3 sources); highest reported 16 ppb | 44% detected (17/39, Fda 2024, "
 product,fruit-purees,Literature Evidence Summary,40 ppb,true," 44% detected (17/39, Fda 2024, as-sold) | [[regulations/eu-2023-915-cadmium]]: 40 ppb (product as placed on market) | 5"
-product,fruit-purees,Literature Evidence Summary,9 ppb,true,nic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 pp
-product,fruit-purees,Literature Evidence Summary,9 ppb,true,"eral) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, a"
 product,fruit-purees,Literature Evidence Summary,4 ppb,true,| Fruit purees (general) (summary-only / supporting context) | highest reported 4 ppb | Sample-level detection rate not 
 product,fruit-purees,Literature Evidence Summary,20 ppb,true,tection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 20 ppb (product as placed on market) | 1
-product,fruit-purees,Literature Evidence Summary,7.2 ppb,true,rcury-total\|tHg]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 7.2 ppb (3 sources); highest reported 7.
-product,fruit-purees,Literature Evidence Summary,7.2 ppb,true,"eral) (direct row-fit) | mean/median 0 to 7.2 ppb (3 sources); highest reported 7.2 ppb | 29% detected (4/14, Fda 2024, "
-product,fruit-purees,Literature Evidence Summary,1125 ppb,true,[[metals/aluminum\|Al]] | Fruit purees (general) (direct row-fit) | mean 556 to 1125 ppb (3 sources); highest reported 1
-product,fruit-purees,Literature Evidence Summary,1420 ppb,true,(general) (direct row-fit) | mean 556 to 1125 ppb (3 sources); highest reported 1420 ppb | Sample-level detection rate n
-product,fruit-purees,Literature Evidence Summary,137 ppb,true, [[metals/nickel\|Ni]] | Fruit purees (general) (direct row-fit) | mean 54.7 to 137 ppb (2 sources); highest reported 13
-product,fruit-purees,Literature Evidence Summary,137 ppb,true,(general) (direct row-fit) | mean 54.7 to 137 ppb (2 sources); highest reported 137 ppb | Sample-level detection rate no
-product,fruit-purees,Literature Evidence Summary,424 ppb,true,t | | [[metals/tin\|Sn]] | Fruit purees (general) (direct row-fit) | mean 98 to 424 ppb (2 sources); highest reported 33
-product,fruit-purees,Literature Evidence Summary,3330 ppb,true,s (general) (direct row-fit) | mean 98 to 424 ppb (2 sources); highest reported 3330 ppb | Sample-level detection rate n
-product,fruit-purees,Literature Evidence Summary,42.7 ppb,true,ht | | [[metals/chromium\|Cr]] | Fruit purees (general) (direct row-fit) | mean 42.7 ppb (1 source); highest reported 84
-product,fruit-purees,Literature Evidence Summary,84 ppb,true, purees (general) (direct row-fit) | mean 42.7 ppb (1 source); highest reported 84 ppb | Sample-level detection rate not
-product,fruit-purees,Literature Evidence Summary,2.87 ppb,true, sources) | as-consumed | | Co | Fruit purees (general) (direct row-fit) | mean 2.87 ppb (1 source); highest reported 5 
-product,fruit-purees,Literature Evidence Summary,5 ppb,true, purees (general) (direct row-fit) | mean 2.87 ppb (1 source); highest reported 5 ppb | Sample-level detection rate not 
-product,fruit-purees,Literature Evidence Summary,862 ppb,true,umed | | Cu | Fruit purees (general) (summary-only / supporting context) | mean 862 ppb (1 source); highest reported 862
-product,fruit-purees,Literature Evidence Summary,862 ppb,true,(summary-only / supporting context) | mean 862 ppb (1 source); highest reported 862 ppb | Sample-level detection rate no
-product,fruit-purees,Literature Evidence Summary,7543 ppb,true,umed | | Fe | Fruit purees (general) (summary-only / supporting context) | mean 7543 ppb (1 source); highest reported 75
-product,fruit-purees,Literature Evidence Summary,7543 ppb,true,summary-only / supporting context) | mean 7543 ppb (1 source); highest reported 7543 ppb | Sample-level detection rate n
-product,fruit-purees,Literature Evidence Summary,27 ppb,true,| Fruit purees (general) (summary-only / supporting context) | highest reported 27 ppb | Sample-level detection rate not
-product,fruit-purees,Literature Evidence Summary,2436 ppb,true,umed | | Mn | Fruit purees (general) (summary-only / supporting context) | mean 2436 ppb (1 source); highest reported 24
-product,fruit-purees,Literature Evidence Summary,2436 ppb,true,summary-only / supporting context) | mean 2436 ppb (1 source); highest reported 2436 ppb | Sample-level detection rate n
-product,fruit-purees,Literature Evidence Summary,0.65 ppb,true, sources) | as-consumed | | Sb | Fruit purees (general) (direct row-fit) | mean 0.65 ppb (1 source); highest reported 3 
-product,fruit-purees,Literature Evidence Summary,3 ppb,true, purees (general) (direct row-fit) | mean 0.65 ppb (1 source); highest reported 3 ppb | Sample-level detection rate not 
-product,fruit-purees,Literature Evidence Summary,7 ppb,true,| Fruit purees (general) (summary-only / supporting context) | highest reported 7 ppb | Sample-level detection rate not 
-product,fruit-purees,Literature Evidence Summary,1.4 ppb,true,2 sources) | as-consumed | | V | Fruit purees (general) (direct row-fit) | mean 1.4 ppb (1 source); highest reported 4 p
-product,fruit-purees,Literature Evidence Summary,4 ppb,true,t purees (general) (direct row-fit) | mean 1.4 ppb (1 source); highest reported 4 ppb | Sample-level detection rate not 
-product,fruit-purees,Literature Evidence Summary,5002 ppb,true,| Fruit purees (general) (summary-only / supporting context) | highest reported 5002 ppb | Sample-level detection rate n
+product,fruit-purees,Literature Evidence Summary,9 ppb,true,nic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 pp
+product,fruit-purees,Literature Evidence Summary,9 ppb,true,"eral) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, a"
 product,fruit-purees,Lead Benchmark Context,10 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level)
 product,fruit-purees,Lead Benchmark Context,20 ppb,true,babies and young children under 2 | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |
 product,fruit-purees,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
@@ -3142,16 +3244,16 @@ product,infant-formula-powder-soy-based,Levers to reduce contamination,18.3 ppb,
 product,infant-formula-powder-soy-based,Sources,2550 ppb,true,"8 | 2016 | Government report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), t"
 product,infant-formula-powder-soy-based,Sources,11 ppb,true,"rnment report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni "
 product,infant-formula-powder-soy-based,Sources,4.6 ppb,true,"| UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and"
-product,infant-formula-powder-soy-based,Sources,7 ppb,true,"sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 42 | [["
-product,infant-formula-powder-soy-based,Sources,200 ppb,true,"category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 42 | [[sources/pacq"
+product,infant-formula-powder-soy-based,Sources,7 ppb,true,"sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 44 | [["
+product,infant-formula-powder-soy-based,Sources,200 ppb,true,"category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 44 | [[sources/pacq"
 product,infant-formula-powder-soy-based,Sources,756 ppb,true,viewed | Al in UK powdered infant formulas including 2 soy-powder products; 656–756 ppb prepared estimate from powder fo
 product,infant-formula-powder-soy-based,Sources,10 µg/L,true,viewed | tAs in soy toddler formula with organic brown rice syrup (1.5–2.5× the 10 µg/L drinking-water standard); highli
 product,infant-formula-powder-soy-based,Sources,18.3 ppb,true,on and Analysis | 2012 | Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy ba
 product,infant-formula-powder-soy-based,Sources,30.5 ppb,true,| Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy basket higher than milk-f
-product,infant-formula-powder-soy-based,Sources,1461 ppb,true," formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 54 | [[sources"
+product,infant-formula-powder-soy-based,Sources,1461 ppb,true," formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 57 | [[sources"
 product,infant-formula-powder-soy-based,Sources,629 ppb,true,trics | 2010 | Peer-reviewed | Al in UK infant formulas including 1 soy powder; 629 ppb prepared estimate for the soy po
-product,infant-formula-powder-soy-based,Sources,2270 ppb,true,"nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 57 | [[sourc"
-product,infant-formula-powder-soy-based,Sources,2720 ppb,true,"dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 57 | [[sources/dabeka1987-"
+product,infant-formula-powder-soy-based,Sources,2270 ppb,true,"nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 60 | [[sourc"
+product,infant-formula-powder-soy-based,Sources,2720 ppb,true,"dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 60 | [[sources/dabeka1987-"
 product,infant-formula-powder-soy-based,Sources,35 ppb,true,"oy-base infant formula Cd distribution (n=15: mean 13.3, median 12.0, range 1.1–35 ppb) | <!-- END: hmi-source-legend --"
 product,infant-formula-powder-soy-based,Contradiction watch,0.5 ppb,true,--- | | Pb | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 0.5 ppb | 20.1 (typical) / 119 (P95) | 4
 product,infant-formula-powder-soy-based,Contradiction watch,0.08 ppb,true,an | | tHg | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 0.08 ppb | 1 (typical) / 29.3 (P95) | 12
@@ -3166,7 +3268,7 @@ product,infant-formula-powder,Sources,488 µg/kg,true,"tegory-level mean concent
 product,infant-formula-powder,Sources,4 µg/kg,true,"n concentrations for 16 metals in dry first milk powder (Al 388–488 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) a"
 product,infant-formula-powder,Sources,4 µg/kg,true,"ns for 16 metals in dry first milk powder (Al 388–488 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) and dry soy for"
 product,infant-formula-powder,Sources,54 µg/kg,true,"s in dry first milk powder (Al 388–488 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) and dry soy formula (Al 2,550 "
-product,infant-formula-powder,Sources,550 µg/kg,true,"88 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) and dry soy formula (Al 2,550 µg/kg) from 2013–2014 | | 23 | [[sou"
+product,infant-formula-powder,Sources,550 µg/kg,true,"88 µg/kg, Cd 3–4 µg/kg, Pb 1–4 µg/kg, Ni 18–54 µg/kg) and dry soy formula (Al 2,550 µg/kg) from 2013–2014 | | 24 | [[sou"
 product,infant-formula-rtf-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,10 ug/kg,true,"ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 10 ug/kg Pb. Scope: infant formulae, fol"
 product,infant-formula-rtf-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,0.5 ug/kg,true,aced on market. | FDA 2026 ready-to-feed cow-milk subset: N=20; Pb detected 0.2-0.5 ug/kg; ready-to-feed values are the 
 product,infant-formula-rtf-liquid-non-soy,Federal / Regulatory Limits vs Field Findings,5 ug/kg,true,"d) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 5 ug/kg Cd. Scope: infant formulae, foll"
@@ -3264,7 +3366,7 @@ product,infant-formula-rtf-liquid-soy-based,Sources,200 µg/kg,true,"ormula cate
 product,infant-formula-rtf-liquid-soy-based,Sources,10 µg/L,true,"ce syrup; reconstituted soy-based formula showed iAs approximately 1.5–2.5× the 10 µg/L drinking-water standard, establi"
 product,infant-formula-rtf-liquid-soy-based,Sources,730 µg/kg,true,"asis by format and protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1"
 product,infant-formula-rtf-liquid-soy-based,Sources,1.18 µg/kg,true,"protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with mea"
-product,infant-formula-rtf-liquid-soy-based,Sources,1.45 µg/kg,true," ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 24"
+product,infant-formula-rtf-liquid-soy-based,Sources,1.45 µg/kg,true," ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 27"
 product,infant-formula-rtf-liquid-soy-based,Sources,2.5 µg/kg,true,9 | Government report | EFSA CONTAM Panel opinion establishing the EU Cd TWI of 2.5 µg/kg body weight per week; foundati
 product,infant-formula-rtf-liquid-soy-based,Contradiction watch,1.1 ppb,true,--- | | Cd | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 1.1 ppb | 2.95 (typical) / 7.55 (P95) | 
 product,kombucha-tea-based,Source Evidence Inventory,47 mg/kg,true,"dence note:** The dramatic increase in Pb concentration with time (0.95 → 7.1 → 47 mg/kg across 14-day, 19-day, and pack"
@@ -3350,12 +3452,6 @@ product,meat-and-poultry-purees,Literature Evidence Summary,40 ppb,true,"0% dete
 product,meat-and-poultry-purees,Literature Evidence Summary,0 ppb,true,"enic-total\|tAs]] | Meat and poultry purees (direct row-fit) | highest reported 0 ppb | 0% detected (0/4, Meli 2024, wet"
 product,meat-and-poultry-purees,Literature Evidence Summary,4 ppb,true,[[metals/mercury-total\|tHg]] | Meat and poultry purees (direct row-fit) | mean 4 ppb (1 source); highest reported 4 ppb
 product,meat-and-poultry-purees,Literature Evidence Summary,4 ppb,true,t and poultry purees (direct row-fit) | mean 4 ppb (1 source); highest reported 4 ppb | Sample-level detection rate not 
-product,meat-and-poultry-purees,Literature Evidence Summary,753 ppb,true,t | | [[metals/aluminum\|Al]] | Meat and poultry purees (direct row-fit) | mean 753 ppb (1 source); highest reported 753
-product,meat-and-poultry-purees,Literature Evidence Summary,753 ppb,true,and poultry purees (direct row-fit) | mean 753 ppb (1 source); highest reported 753 ppb | Sample-level detection rate no
-product,meat-and-poultry-purees,Literature Evidence Summary,86 ppb,true,ght | | [[metals/nickel\|Ni]] | Meat and poultry purees (direct row-fit) | mean 86 ppb (1 source); highest reported 86 p
-product,meat-and-poultry-purees,Literature Evidence Summary,86 ppb,true, and poultry purees (direct row-fit) | mean 86 ppb (1 source); highest reported 86 ppb | Sample-level detection rate not
-product,meat-and-poultry-purees,Literature Evidence Summary,267 ppb,true,weight | | [[metals/tin\|Sn]] | Meat and poultry purees (direct row-fit) | mean 267 ppb (1 source); highest reported 267
-product,meat-and-poultry-purees,Literature Evidence Summary,267 ppb,true,and poultry purees (direct row-fit) | mean 267 ppb (1 source); highest reported 267 ppb | Sample-level detection rate no
 product,meat-and-poultry-purees,Lead Benchmark Context,10 ppb,true,| --- | --- | | Current [[regulations/fda-closer-to-zero|FDA Closer to Zero]] | 10 ppb (FDA final guidance action level)
 product,meat-and-poultry-purees,Lead Benchmark Context,20 ppb,true,babies and young children under 2 | | [[regulations/eu-2023-915|EU 2023/915]] | 20 ppb | baby food as placed on market |
 product,meat-and-poultry-purees,Lead Benchmark Context,4.5 ppb,true,| EU maximum level. | | [[regulations/california-prop65|Prop 65]] MADL screen | 4.5 ppb | 21 CFR 101.12 strained/junior 
@@ -4127,6 +4223,16 @@ product,teething-and-snacks-rice-based,Sources,48 ppb,true,"reporting that rice/
 product,teething-and-snacks-rice-based,Sources,18 ppb,true,"iet Study exposure analysis identifying teething biscuits as a named Pb signal (18 ppb hybrid mean), providing teething-"
 product,teething-and-snacks-rice-based,Sources,100 ppb,true,"crackers by ICP-MS, with nearly 75% of rice-based infant foods exceeding the EU 100 ppb iAs maximum; the rice-cracker su"
 product,teething-and-snacks-rice-based,Sources,323 ppb,true,"iomarker study citing baby rice, rice cereals, and rice crackers with iAs up to 323 ppb; used as secondary citation for "
+product,teething-and-snacks-rice-based,Sources,8 ppb,true," Global scoping review reporting that rice/rice-mix baby foods had median Pb of 8 ppb and median As of 48 ppb, with 31% "
+product,teething-and-snacks-rice-based,Sources,48 ppb,true,"reporting that rice/rice-mix baby foods had median Pb of 8 ppb and median As of 48 ppb, with 31% exceeding the Pb maximu"
+product,teething-and-snacks-rice-based,Sources,18 ppb,true,"iet Study exposure analysis identifying teething biscuits as a named Pb signal (18 ppb hybrid mean), providing teething-"
+product,teething-and-snacks-rice-based,Sources,100 ppb,true,"crackers by ICP-MS, with nearly 75% of rice-based infant foods exceeding the EU 100 ppb iAs maximum; the rice-cracker su"
+product,teething-and-snacks-rice-based,Sources,323 ppb,true,"iomarker study citing baby rice, rice cereals, and rice crackers with iAs up to 323 ppb; used as secondary citation for "
+product,teething-and-snacks-rice-based,Sources,8 ppb,true," Global scoping review reporting that rice/rice-mix baby foods had median Pb of 8 ppb and median As of 48 ppb, with 31% "
+product,teething-and-snacks-rice-based,Sources,48 ppb,true,"reporting that rice/rice-mix baby foods had median Pb of 8 ppb and median As of 48 ppb, with 31% exceeding the Pb maximu"
+product,teething-and-snacks-rice-based,Sources,18 ppb,true,"iet Study exposure analysis identifying teething biscuits as a named Pb signal (18 ppb hybrid mean), providing teething-"
+product,teething-and-snacks-rice-based,Sources,100 ppb,true,"crackers by ICP-MS, with nearly 75% of rice-based infant foods exceeding the EU 100 ppb iAs maximum; the rice-cracker su"
+product,teething-and-snacks-rice-based,Sources,323 ppb,true,"iomarker study citing baby rice, rice cereals, and rice crackers with iAs up to 323 ppb; used as secondary citation for "
 product,teething-and-snacks-rice-based,Sources,62 ppb,true,"02048 | 2016 | Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and N"
 product,teething-and-snacks-rice-based,Sources,24 ppb,true,"| Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) f"
 product,teething-and-snacks-rice-based,Sources,10 ppb,true,"report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) for sweet and "
@@ -4143,6 +4249,22 @@ product,teething-and-snacks-rice-based,Sources,79 ppb,true,"ackers marketed to i
 product,teething-and-snacks-rice-based,Sources,273 ppb,true,"to infants and young children, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18"
 product,teething-and-snacks-rice-based,Sources,111 ppb,true,"ildren, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18-211 ppb) on a dry-weig"
 product,teething-and-snacks-rice-based,Sources,211 ppb,true,US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18-211 ppb) on a dry-weight basis | 2–18 bi
+product,teething-and-snacks-rice-based,Sources,62 ppb,true,"02048 | 2016 | Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and N"
+product,teething-and-snacks-rice-based,Sources,24 ppb,true,"| Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) f"
+product,teething-and-snacks-rice-based,Sources,10 ppb,true,"report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) for sweet and "
+product,teething-and-snacks-rice-based,Sources,292 ppb,true,"y providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) for sweet and savoury snacks; r"
+product,teething-and-snacks-rice-based,Sources,79 ppb,true,"ackers marketed to infants and young children, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 1"
+product,teething-and-snacks-rice-based,Sources,273 ppb,true,"to infants and young children, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18"
+product,teething-and-snacks-rice-based,Sources,111 ppb,true,"ildren, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18-211 ppb) on a dry-weig"
+product,teething-and-snacks-rice-based,Sources,211 ppb,true,US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18-211 ppb) on a dry-weight basis | | 18 | 
+product,teething-and-snacks-rice-based,Sources,62 ppb,true,"02048 | 2016 | Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and N"
+product,teething-and-snacks-rice-based,Sources,24 ppb,true,"| Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) f"
+product,teething-and-snacks-rice-based,Sources,10 ppb,true,"report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) for sweet and "
+product,teething-and-snacks-rice-based,Sources,292 ppb,true,"y providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) for sweet and savoury snacks; r"
+product,teething-and-snacks-rice-based,Sources,79 ppb,true,"ackers marketed to infants and young children, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 1"
+product,teething-and-snacks-rice-based,Sources,273 ppb,true,"to infants and young children, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18"
+product,teething-and-snacks-rice-based,Sources,111 ppb,true,"ildren, reporting US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18-211 ppb) on a dry-weig"
+product,teething-and-snacks-rice-based,Sources,211 ppb,true,US rice-cracker median 79 ppb (range 8-273 ppb) and EU median 111 ppb (range 18-211 ppb) on a dry-weight basis | | 18 | 
 product,teething-and-snacks-rice-based,Sources,62 ppb,true,"02048 | 2016 | Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and N"
 product,teething-and-snacks-rice-based,Sources,24 ppb,true,"| Government report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) f"
 product,teething-and-snacks-rice-based,Sources,10 ppb,true,"report | UK survey providing category-average iAs (58-62 ppb), Cd (24 ppb), Pb (10 ppb), and Ni (292 ppb) for sweet and "

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: teething-and-snacks-non-rice
 public_page: products/teething-and-snacks-non-rice
-updated: 2026-05-13
+updated: 2026-05-30
 ---
 
 # Workbench standards snapshot — Teething & snacks (non-rice)
@@ -38,9 +38,9 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Find or route fit-source product evidence; local source routes for this row were read and documented as context-only or not routeable. |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Find or route fit-source product evidence; local source routes for this row were read and documented as context-only or not routeable. |
+| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
 
 ## Operational reminders
 

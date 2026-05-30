@@ -60,3 +60,13 @@ App: The values can support a personal-care context flag for coffee-derived bota
 ## Verification notes
 
 The DOI and bibliographic metadata were taken from the PDF first page and the downloaded wishlist row. The wishlist row requested coffee total arsenic occurrence, but the actual source is a personal-care formulation study, not a beverage coffee or roasted-coffee food-occurrence study. The source reports total arsenic and total mercury only; it does not provide inorganic arsenic, methylmercury, LOD/LOQ values, or brand-level consumer-product data.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d0d3a6f](https://github.com/paleofoundation/heavymetalindex/commit/d0d3a6f) | 2026-05-30 | ingest auto-fetched 2026-05-30 22:18 batch 1: 1 source pages |
+<!-- END: hmi-page-history -->

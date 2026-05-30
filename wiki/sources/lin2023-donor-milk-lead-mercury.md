@@ -55,3 +55,13 @@ App: Can support human-milk exposure context with Taiwan-specific caveats.
 ## Verification notes
 
 The source discusses cosmetic use as a predictor of donor milk lead; this is not brand-level cosmetics evidence and should not be routed as a cosmetic product occurrence source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0edf3ce](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

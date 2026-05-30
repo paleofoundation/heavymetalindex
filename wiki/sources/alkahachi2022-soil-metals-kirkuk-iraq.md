@@ -121,3 +121,14 @@ EF-4 (Modeled or limited evidence — context only). This source supplies geogra
 - [[metals/mercury]]
 - [[metals/chromium]]
 - [[metals/nickel]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c523d01](https://github.com/paleofoundation/heavymetalindex/commit/c523d01) | 2026-05-30 | audit: alkahachi2022-soil-metals-kirkuk-iraq revised |
+| [25900e0](https://github.com/paleofoundation/heavymetalindex/commit/25900e0) | 2026-05-30 | ingest: alkahachi2022-soil-metals-kirkuk-iraq fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/food-storage-plastic-containers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5c32b5ff5da455124473379da2df2536aafb2caed2a155dc131cac4ca3d104d6",
-      "content_bytes": 7786,
+      "content_sha256": "400df9fa436d71f369c544fced5f369fc1d2b47b4d11cc72dc1acb565ace5af6",
+      "content_bytes": 7766,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

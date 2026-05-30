@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: meat-and-poultry-purees
 public_page: products/meat-and-poultry-purees
-updated: 2026-05-13
+updated: 2026-05-30
 ---
 
 # Workbench standards snapshot — Meat and poultry purees
@@ -24,9 +24,6 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | [[metals/cadmium\|Cd]] | - | - | - | - | - | 4 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | wet-weight |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 4 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | wet-weight |
 | [[metals/mercury-total\|tHg]] | - | - | - | - | - | 4 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | wet-weight |
-| [[metals/aluminum\|Al]] | - | - | - | - | - | 4 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | wet-weight |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | 4 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | wet-weight |
-| [[metals/tin\|Sn]] | - | - | - | - | - | 4 | [[sources/meli2024-chemical-characterization-baby-food-italy]] | wet-weight |
 
 ## Clean and dirty designation
 
@@ -38,9 +35,6 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Meli 2024 (wet-weight, n=4) |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | Meli 2024 (wet-weight, n=4) |
 | [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | Meli 2024 (wet-weight, n=4) |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | Meli 2024 (wet-weight, n=4) |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | Meli 2024 (wet-weight, n=4) |
-| [[metals/tin\|Sn]] | summary-only (designation deferred) | Meli 2024 (wet-weight, n=4) |
 
 ## CC eligibility and Path status
 
@@ -50,9 +44,6 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | [[metals/cadmium\|Cd]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 40 ug/kg (eu2023_cd_babyfood_cereal_40). |
 | [[metals/arsenic-total\|tAs]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 | [[metals/mercury-total\|tHg]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/aluminum\|Al]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/nickel\|Ni]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/tin\|Sn]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 
 ## Operational reminders
 

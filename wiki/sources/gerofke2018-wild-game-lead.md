@@ -53,3 +53,13 @@ App: Game-meat risk scoring can treat ammunition type as a meaningful exposure m
 ## Verification notes
 
 The source is a primary occurrence study with distribution statistics. It should not be collapsed with policy papers about lead ammunition that do not measure meat concentrations directly.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6eea0b9](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b9) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 1: 9 source pages |
+<!-- END: hmi-page-history -->

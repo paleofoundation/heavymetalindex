@@ -1,10 +1,19 @@
 {
-  "generated_at": "2026-05-30T03:45:00.162Z",
+  "generated_at": "2026-05-30T04:59:58.026Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
-  "total_events": 707,
+  "total_events": 708,
   "categories_touched": 23,
   "recent_global": [
+    {
+      "id": "cf3203b10ccf9797",
+      "date": "2026-05-30",
+      "scope": "synthesis",
+      "kind": "synthesis_new",
+      "detail": "Literature evidence first populated for Al in infant-formula (n=3, low confidence).",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/infant-formula"
+    },
     {
       "id": "f8e04033404d592b",
       "date": "2026-05-16",
@@ -462,15 +471,6 @@
       "detail": "Literature evidence first populated for U in coffee (n=1, low confidence).",
       "affected_categories": [],
       "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "4437cfb07878cdfe",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cd in spinach (n=6, high confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/spinach"
     }
   ],
   "by_category": {

@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f4763a1d159c1aa00b1aa124e0eeff7c497aed0d4899c2137508cc5487241a1a
-total_claims: 147
-cited_claims: 147
+source_page_sha256: f25feb0de25cdf80c3704014ac6e6c558357519c13320c3afb48440c2d0604dd
+total_claims: 122
+cited_claims: 122
 uncited_claims: 0
 distinct_cited_targets: 43
 distinct_cited_sources: 37
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 147 |
-| cited claims | 147 |
+| total claims | 122 |
+| cited claims | 122 |
 | uncited claims | 0 |
 | distinct cited targets | 43 |
 | distinct cited `sources/` pages | 37 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 
@@ -158,26 +158,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
-#### Claim `9 ppb`
-- Context: `nic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 pp`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `9 ppb`
-- Context: `eral) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, a`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
 #### Claim `4 ppb`
 - Context: `| Fruit purees (general) (summary-only / supporting context) | highest reported 4 ppb | Sample-level detection rate not`
 - Cited targets (3):
@@ -198,8 +178,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
-#### Claim `7.2 ppb`
-- Context: `rcury-total\|tHg]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 7.2 ppb (3 sources); highest reported 7.`
+#### Claim `9 ppb`
+- Context: `nic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 pp`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
@@ -208,238 +188,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
-#### Claim `7.2 ppb`
-- Context: `eral) (direct row-fit) | mean/median 0 to 7.2 ppb (3 sources); highest reported 7.2 ppb | 29% detected (4/14, Fda 2024,`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `1125 ppb`
-- Context: `[[metals/aluminum\|Al]] | Fruit purees (general) (direct row-fit) | mean 556 to 1125 ppb (3 sources); highest reported 1`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `1420 ppb`
-- Context: `(general) (direct row-fit) | mean 556 to 1125 ppb (3 sources); highest reported 1420 ppb | Sample-level detection rate n`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `137 ppb`
-- Context: `[[metals/nickel\|Ni]] | Fruit purees (general) (direct row-fit) | mean 54.7 to 137 ppb (2 sources); highest reported 13`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `137 ppb`
-- Context: `(general) (direct row-fit) | mean 54.7 to 137 ppb (2 sources); highest reported 137 ppb | Sample-level detection rate no`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `424 ppb`
-- Context: `t | | [[metals/tin\|Sn]] | Fruit purees (general) (direct row-fit) | mean 98 to 424 ppb (2 sources); highest reported 33`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `3330 ppb`
-- Context: `s (general) (direct row-fit) | mean 98 to 424 ppb (2 sources); highest reported 3330 ppb | Sample-level detection rate n`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `42.7 ppb`
-- Context: `ht | | [[metals/chromium\|Cr]] | Fruit purees (general) (direct row-fit) | mean 42.7 ppb (1 source); highest reported 84`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `84 ppb`
-- Context: `purees (general) (direct row-fit) | mean 42.7 ppb (1 source); highest reported 84 ppb | Sample-level detection rate not`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `2.87 ppb`
-- Context: `sources) | as-consumed | | Co | Fruit purees (general) (direct row-fit) | mean 2.87 ppb (1 source); highest reported 5`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `5 ppb`
-- Context: `purees (general) (direct row-fit) | mean 2.87 ppb (1 source); highest reported 5 ppb | Sample-level detection rate not`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `862 ppb`
-- Context: `umed | | Cu | Fruit purees (general) (summary-only / supporting context) | mean 862 ppb (1 source); highest reported 862`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `862 ppb`
-- Context: `(summary-only / supporting context) | mean 862 ppb (1 source); highest reported 862 ppb | Sample-level detection rate no`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `7543 ppb`
-- Context: `umed | | Fe | Fruit purees (general) (summary-only / supporting context) | mean 7543 ppb (1 source); highest reported 75`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `7543 ppb`
-- Context: `summary-only / supporting context) | mean 7543 ppb (1 source); highest reported 7543 ppb | Sample-level detection rate n`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `27 ppb`
-- Context: `| Fruit purees (general) (summary-only / supporting context) | highest reported 27 ppb | Sample-level detection rate not`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `2436 ppb`
-- Context: `umed | | Mn | Fruit purees (general) (summary-only / supporting context) | mean 2436 ppb (1 source); highest reported 24`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `2436 ppb`
-- Context: `summary-only / supporting context) | mean 2436 ppb (1 source); highest reported 2436 ppb | Sample-level detection rate n`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `0.65 ppb`
-- Context: `sources) | as-consumed | | Sb | Fruit purees (general) (direct row-fit) | mean 0.65 ppb (1 source); highest reported 3`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `3 ppb`
-- Context: `purees (general) (direct row-fit) | mean 0.65 ppb (1 source); highest reported 3 ppb | Sample-level detection rate not`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `7 ppb`
-- Context: `| Fruit purees (general) (summary-only / supporting context) | highest reported 7 ppb | Sample-level detection rate not`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `1.4 ppb`
-- Context: `2 sources) | as-consumed | | V | Fruit purees (general) (direct row-fit) | mean 1.4 ppb (1 source); highest reported 4 p`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `4 ppb`
-- Context: `t purees (general) (direct row-fit) | mean 1.4 ppb (1 source); highest reported 4 ppb | Sample-level detection rate not`
-- Cited targets (3):
-  - `wiki/regulations/eu-2023-915-cadmium.md`
-    - audit rows: none
-  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
-    - audit rows: none
-  - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
-    - audit rows: none
-
-#### Claim `5002 ppb`
-- Context: `| Fruit purees (general) (summary-only / supporting context) | highest reported 5002 ppb | Sample-level detection rate n`
+#### Claim `9 ppb`
+- Context: `eral) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, a`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none

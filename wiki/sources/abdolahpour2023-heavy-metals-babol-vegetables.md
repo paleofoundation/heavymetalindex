@@ -105,9 +105,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [bc63415](https://github.com/paleofoundation/heavymetalindex/commit/bc63415) | 2026-05-20 | audit: abdolahpour2023-heavy-metals-babol-vegetables [revised] |
 | [b9aebca](https://github.com/paleofoundation/heavymetalindex/commit/b9aebca) | 2026-05-20 | ingest: abdolahpour2023-heavy-metals-babol-vegetables [enhanced] from Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products |
-| [686c2be](https://github.com/paleofoundation/heavymetalindex/commit/686c2be) | 2026-05-14 | ingest kimi-cat02: 15 pages from 02_Vegetables_and_Vegetable_Products, 2 bad PDFs flagged |
 <!-- END: hmi-page-history -->

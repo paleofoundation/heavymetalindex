@@ -119,3 +119,14 @@ Speciation absence: tAs and Cr values are total-element only. Any future use of 
 The Codex Stan 193-1995 raw-milk Pb maximum residue level cited by the authors (20 ng/g) is the General Standard for Contaminants and Toxins in Food and Feed limit, not the canned-foods Sn standard. The HMI regulation slug `codex-cxs-193-1995-tin-canned-foods` is the canned-tin standard and is not the appropriate wikilink target for the Pb finding here; the prose summary states the limit numerically without wikilinking.
 
 Audit subagent (general-purpose, fresh context, 2026-05-30) flagged the Mn parenthetical in Key numbers as garbled — "Mn 0.156 (yak) to 0.256 µg/g (yak; cow 0.187, goat 0.156, ...)" was internally inconsistent. Verified against Table 4: lowest Mn is goat (0.156 µg/g), highest is yak (0.256 µg/g). Corrected to "Mn 0.156 (goat) to 0.256 µg/g (yak; cow 0.187, buffalo 0.169, camel 0.188)." Audit also raised a concern that the milk-species matrices (cow-milk, goat-milk, buffalo-milk, yak-milk, camel-milk, raw-milk) might need to be flagged as proposed additions to the closed matrices vocabulary — verified against current usage: cow-milk is established in akhmetsadykova2013, camel-milk and raw-milk in yazdanian2025; these are existing matrix slugs in active use, not proposed additions. Finding rejected as false positive.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5a4f6bd](https://github.com/paleofoundation/heavymetalindex/commit/5a4f6bd) | 2026-05-30 | audit: chen2020-milk-types-elements-china revised |
+| [f1502f2](https://github.com/paleofoundation/heavymetalindex/commit/f1502f2) | 2026-05-30 | ingest: chen2020-milk-types-elements-china fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

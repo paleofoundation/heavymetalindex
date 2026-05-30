@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-balloons",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3bb5a6a8e339eca3ebc7ca603bb193e2906779ab54df4364cb449f99e5e82e82",
-      "content_bytes": 7546,
+      "content_sha256": "61ee0fded7d55a2a1fb7bdfcbb2f4c773120c637ba4eeb3a10b923b3a06f89ab",
+      "content_bytes": 7526,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

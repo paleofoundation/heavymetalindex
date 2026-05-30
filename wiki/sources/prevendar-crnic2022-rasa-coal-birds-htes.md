@@ -170,3 +170,14 @@ This study measured 13 elements (Al, V, Cr, Mn, Fe, Co, Cu, Zn, As, Se, Mo, Cd, 
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/zinc]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc08c94](https://github.com/paleofoundation/heavymetalindex/commit/fc08c94) | 2026-05-29 | audit: prevendar-crnic2022-rasa-coal-birds-htes [promoted] |
+| [5ea2d15](https://github.com/paleofoundation/heavymetalindex/commit/5ea2d15) | 2026-05-29 | ingest: rudy2019-hunted-animals-toxic-elements-review [fresh] from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

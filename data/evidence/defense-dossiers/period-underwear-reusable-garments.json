@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/period-underwear-reusable-garments",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "bc3eb1f3d4b116a97815e57a0646df42f4f1a2994e2965b98752cc051553f549",
-      "content_bytes": 7800,
+      "content_sha256": "d280f8fea1ac3c113b719849c39fe13195010a6b82c201d1acd2b0c3e458b9e6",
+      "content_bytes": 7780,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

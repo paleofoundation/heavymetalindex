@@ -83,7 +83,7 @@ used_in_products: [coffee]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 13
+sources: 14
 ---
 
 # Coffee
@@ -132,9 +132,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 8 | [[sources/albals2021-coffee-jordan-icpms\|Albals et al. 2021]]. *Multi-element determination of essential and toxic metals in green and roasted coffee beans: A comparative study among different origins using ICP-MS*, Science Progress | 2021 | Peer-reviewed | Pb, Cd, Al, Cr, Ni, and U in green and roasted coffee beans across five origins by ICP-MS, including roasting effects on concentrations |
 | 9 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|Kowalska 2021]]. *The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland*, International Journal of Environmental Research and Public Health | 2021 | Peer-reviewed | Cd, Pb, tAs, and tHg in Arabica roasted coffee beans from the Polish market |
 | 10 | [[sources/adler2019-selected-metals-coffee-bosnia\|Adler et al. 2019]]. *Concentrations of selected metals (Na, K, Ca, Mg, Fe, Cu, Zn, Al, Ni, Pb, Cd) in coffee*, Zdravstveno Varstvo / Slovenian Journal of Public Health | 2019 | Peer-reviewed | BA Al, Ni, Pb, Cd, Cu, Zn, Fe, Mg occurrence in Two green coffee bean samples and six roasted coffee bean samples purchased in small local stores in Sarajevo,... (n=8) |
-| 11 | [[sources/dasilva2017-heavy-metals-coffee-brazil\|Silva et al. 2017]]. *Determination of heavy metals in the roasted and ground coffee beans and brew*, African Journal of Agricultural Research | 2017 | Peer-reviewed | BR Cd, Cr, Cu, Mn, Ni, Pb, Zn occurrence in 50 Coffea arabica samples collected from farms and coffee marketing centers in the Alto Paranaiba region, Minas Gerais,... (n=50) |
-| 12 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish TDS coffee concentrations and exposure contribution for Al, tAs, iAs, Cd, Cr, Pb, tHg, and Sn |
-| 13 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 11 | [[sources/chaiyasut2018-coffee-cosmetic-heavy-metals\|Chaiyasut et al. 2018]]. *Formulation and stability assessment of Arabica and Civet coffee extracts based cosmetic preparations*, Asian Journal of Pharmaceutical and Clinical Research | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 12 | [[sources/dasilva2017-heavy-metals-coffee-brazil\|Silva et al. 2017]]. *Determination of heavy metals in the roasted and ground coffee beans and brew*, African Journal of Agricultural Research | 2017 | Peer-reviewed | BR Cd, Cr, Cu, Mn, Ni, Pb, Zn occurrence in 50 Coffea arabica samples collected from farms and coffee marketing centers in the Alto Paranaiba region, Minas Gerais,... (n=50) |
+| 13 | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|Food Safety Authority of 2016]]. *Report on a Total Diet Study Carried out by the Food Safety Authority of Ireland in the Period 2012–2014*, FSAI Chemical Monitoring and Surveillance Series | 2016 | Government report | Irish TDS coffee concentrations and exposure contribution for Al, tAs, iAs, Cd, Cr, Pb, tHg, and Sn |
+| 14 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -201,9 +202,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [57c2985](https://github.com/paleofoundation/heavymetalindex/commit/57c2985) | 2026-05-28 | audit: gasparik2017-wild-boar-slovakia-metals [revised] |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
-| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
-| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 <!-- END: hmi-page-history -->

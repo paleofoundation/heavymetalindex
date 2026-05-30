@@ -211,9 +211,7 @@ Microbiome: Not addressed.
 - `sampling_year_range` populated (`2014-2023`); `sampling_locations` populated.
 - Brand-firewall (Part 12): no food brands appear in this paper. Instrument/reference-material vendor names (Thermo Fisher iCap Q, PerkinElmer FIMS-100, MILESTONE ETHOS ONE, CETAC ASX-520, NRC Canada DORM-5, StataCorp Stata/SE 16.1) are scientific-method names and are retained per the 2026-05-17 strict-reading Exception 2.
 
-Preserved from prior version: `cite_key`, `raw_handle`, `raw_path`, `license`, `near_duplicates`, `ingest_method`, `created_by`, page filename, and the `<!-- BEGIN: hmi-page-history -->` block.
-
-2026-05-29 fresh-context audit subagent (general-purpose) ran the five-check audit defined in `docs/gpt-collaboration/audit-prompt.md`. Checks 1, 3, 4, 5 returned ✅; Check 2 returned one ❌ flagging the `molluscs` ingredient slug as missing from the taxonomy snapshot. Verified against `wiki/ingredients/molluscs.md` (the page exists) and against `docs/gpt-collaboration/taxonomy-snapshot.md` (the ingredients dump on line 7 does contain `,molluscs,` between `mixed-meals` and `non-apple-fruit`). The finding is a false positive — the subagent missed the slug in the long comma-separated list. The remaining ⚠️ items (Donax-trunculus PCDD/PCDF-TEQ source-side text ambiguity reproduced faithfully on the wiki; EWI multiplier 3.9-6.1× derived correctly from source values; matrices vocabulary not directly verifiable against the snapshot because the snapshot does not enumerate matrices) require no page change.
+Preserved from prior version: `cite_key`, `raw_handle`, `raw_path`, `license`, `near_duplicates`, `ingest_method`, `created_by`, page filename, and the `
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
@@ -222,7 +220,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [e302816](https://github.com/paleofoundation/heavymetalindex/commit/e302816) | 2026-05-29 | audit: garofalo2025-seafood-cd-pb-hg-italy-10yr [revised] |
+| [a7cb311](https://github.com/paleofoundation/heavymetalindex/commit/a7cb311) | 2026-05-29 | ingest: garofalo2025-seafood-cd-pb-hg-italy-10yr [enhanced] from Manual Fetch Kimi /loose |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
-| [8daf4f0](https://github.com/paleofoundation/heavymetalindex/commit/8daf4f0) | 2026-05-15 | sources: Cat 1 seafood — Garofalo 2025 10-year Italian Cd/Pb/Hg monitoring (5854 samples) |
 <!-- END: hmi-page-history -->

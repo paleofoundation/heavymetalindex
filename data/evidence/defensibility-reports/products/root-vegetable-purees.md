@@ -2,7 +2,7 @@
 source_page: wiki/products/root-vegetable-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7984603a4aab0119095e2444182d0eabdb42b1de7607fcc5e0c2892182621f11
+source_page_sha256: 29232a63a315bc0eabb2f6084af01a4548b05671c5588b015ed18b982bde3678
 total_claims: 135
 cited_claims: 133
 uncited_claims: 2
@@ -10,7 +10,7 @@ distinct_cited_targets: 34
 distinct_cited_sources: 28
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 88
+audit_log_total_rows: 97
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 28 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 88 |
+| audit log rows read | 97 |
 
 ## Page-level audit rows
 

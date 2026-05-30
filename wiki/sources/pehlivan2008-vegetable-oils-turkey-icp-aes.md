@@ -114,9 +114,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [eb66ab0](https://github.com/paleofoundation/heavymetalindex/commit/eb66ab0) | 2026-05-18 | lint (codex): pehlivan duplicate route cleanup |
 | [dc36ffd](https://github.com/paleofoundation/heavymetalindex/commit/dc36ffd) | 2026-05-18 | audit (codex): pehlivan2008 vegetable oils revised |
-| [66f91dc](https://github.com/paleofoundation/heavymetalindex/commit/66f91dc) | 2026-05-17 | ingest: pehlivan2008 vegetable oils enhanced |
 <!-- END: hmi-page-history -->

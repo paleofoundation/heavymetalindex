@@ -218,3 +218,14 @@ The authors' overall framing (page 208): "results indicate that meat and interna
 - [[metals/mercury-total]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/eu-reg-2018-73-mercury-compounds-mrls]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [db78520](https://github.com/paleofoundation/heavymetalindex/commit/db78520) | 2026-05-29 | audit: rudy2019-hunted-animals-toxic-elements-review [promoted] |
+| [5ea2d15](https://github.com/paleofoundation/heavymetalindex/commit/5ea2d15) | 2026-05-29 | ingest: rudy2019-hunted-animals-toxic-elements-review [fresh] from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

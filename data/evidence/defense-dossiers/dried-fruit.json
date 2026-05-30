@@ -21,8 +21,8 @@
     "canonical_url": "https://heavymetalindex.com/products/dried-fruit",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c83827a899f51b53b01c9debb703bea5a195e3b20bd92fd0aec955d8715e6970",
-      "content_bytes": 9300,
+      "content_sha256": "5ae4a0e995fbe1ba5dc78224d756fa4f428f2e7b44340f5e643f2d8e84ae51f4",
+      "content_bytes": 10343,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -46,8 +46,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "7a972ebe0f0690fafe7b5882f79e9e22e51edc0f683e0abeffc05baf740d8820",
-          "content_bytes": 7506,
+          "content_sha256": "33f05a0bc469b3f4ad9161d9cb191e02007b23a4a4058540a85ed1e9413221da",
+          "content_bytes": 7502,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -70,8 +70,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland",
         "content_pin": {
-          "content_sha256": "549a1158fa44a3433e20ba0b151ae5fda80fc64de9f247068ef1a0435bb8fa27",
-          "content_bytes": 12632,
+          "content_sha256": "fcba8d1d2b872883fdacd66667f512d77ea211b89c20725683820396c513f3c8",
+          "content_bytes": 12806,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -91,8 +91,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
         "content_pin": {
-          "content_sha256": "e6569a775e25323659c381ba88bb343a023ad173accf1e32bdcbb2844a882ed2",
-          "content_bytes": 18833,
+          "content_sha256": "13aab9b33b57003a35e60f06f05ea4f00a81ee2b4faa215b4be534e45e2be21e",
+          "content_bytes": 18841,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

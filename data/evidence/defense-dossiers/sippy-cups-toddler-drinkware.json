@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/sippy-cups-toddler-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4f5720b5c945f46dbc28d4956d720101ccaa5bb2d75cdb044aaee97d614009cf",
-      "content_bytes": 7801,
+      "content_sha256": "7cc1e69211f68d9e35337941c23a59cf8bb440fccc07b2a2e6c263f790740678",
+      "content_bytes": 7781,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

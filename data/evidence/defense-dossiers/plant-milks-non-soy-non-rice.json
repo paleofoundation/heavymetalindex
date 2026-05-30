@@ -23,8 +23,8 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-non-soy-non-rice",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "38147851d984c35b65bf39b555e2def618ab781c9415e83ffe0f1b8202a6bf94",
-      "content_bytes": 16275,
+      "content_sha256": "1b10642cde9d1851f0e952995d56332d9bb42eda10393a97b1a006840f53b039",
+      "content_bytes": 16178,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -49,8 +49,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marques2021-trace-elements-milks-plant-based-drinks",
         "content_pin": {
-          "content_sha256": "28fb6653968f855d5eb453b0e6880b173287ffcbd8d90bc97449401c95dc9f86",
-          "content_bytes": 5404,
+          "content_sha256": "b4032b6e68f524486e700accc1d9d2166317b6aafed572e78ad6488343a67aa7",
+          "content_bytes": 5446,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

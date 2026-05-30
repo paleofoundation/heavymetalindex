@@ -126,3 +126,13 @@ Narrative review (declared "review article" by the journal; received 17 April 20
 - **Wiki/HMT&C firewall (Part 2).** This page reports what the review reports; no synthesis across other wiki sources, no HMT&C threshold proposals.
 - **Products array intentionally empty.** The review covers milk and several fermented dairy products at the supply-chain level but does not present primary contamination data tied to a specific HMTc-locked product row. Routing to ingredient pages and metal pages is the appropriate scope.
 - **Mycotoxin content not extracted in detail.** Table 2 (AFM1 / AFB1 / OA / ZEA / α-ZEA across 21 countries) and Table 4 (aflatoxin decontamination by LAB / yeast / kefir) are summarised in the body text but not transcribed in full; HMI's metals-and-supply-chain remit deprioritises mycotoxin primary numbers. The Table 2 country set is referenced (CN, HR, RS, IR, MK, PK, AR, BA, IT, TZ, MY, XK, SV, TR, ET, KE, BR, EC, ES, IN, MA, MW) but kept off the `jurisdictions:` frontmatter to avoid implying heavy-metal coverage for those countries.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cf3483d](https://github.com/paleofoundation/heavymetalindex/commit/cf3483d) | 2026-05-30 | ingest: mirmahdi2021-dairy-decontamination-probiotics-review fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

@@ -56,7 +56,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/dragicevic2025-popcorn-essential-minerals\|Dragičević et al. 2025]]. *Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes*, Chilean Journal of Agricultural Research 85(2): 277-285 | 2025 | Peer-reviewed | RS Ca, Mg, Fe, Cu, Mn, Zn occurrence in 12 popcorn (Zea mays L. subsp. everta) hybrids (H1-H12: ZP 611k, ZP 614k, ZP 501k, 541/1k, ZP 542/1k,... (n=12) |
+| 1 | [[sources/dragicevic2025-popcorn-essential-minerals\|Dragičević et al. 2025]]. *Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes*, Chilean Journal of Agricultural Research 85(2): 277-286 | 2025 | Peer-reviewed | RS Ca, Mg, Fe, Cu, Mn, Zn occurrence in 12 popcorn (Zea mays L. subsp. everta) hybrids (H1-H12: ZP 611k, ZP 614k, ZP 501k, 541/1k, ZP 542/1k,... (n=12) |
 | 2 | [[sources/abdullahi2024-heavy-metals-maize-nigeria-seasonal\|Abdullahi et al. 2024]]. *Seasonal Variation and Uptake Pattern of Heavy Metals in Maize*, Dutse Journal of Pure and Applied Sciences (DUJOPAS) | 2024 | Peer-reviewed | NG Pb, Cd, Cr, Ni occurrence in Maize grain and root samples from 10 locations in the Kano River Irrigation Project, Nigeria; wet season (Sept–Oct... (n=20) |
 | 3 | [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|Oduro et al. 2023]]. *Health risks of potentially toxic metals in cereal-based breakfast meals in the Kumasi Metropolis, Ghana*, Discover Food 3:25 | 2023 | Peer-reviewed | GH tAs, Cd, Cr, Mn, Ni, Pb occurrence in 54 locally produced cereal-based breakfast meals obtained from Kumasi Metropolis markets in December 2021: 31 breakfast cereals, 20... (n=54) |
 | 4 | [[sources/vasilachi2023-heavy-metals-cereal-crops\|Vasilachi et al. 2023]]. *Analysis of Heavy Metal Impacts on Cereal Crop Growth and Development in Contaminated Soils*, Agriculture | 2023 | Review | Pb, Cd, tAs, Cr, Ni, Al, Sn, tHg occurrence in Review of global literature on cereal crops (wheat, rice, maize, barley) in contaminated soils |
@@ -132,9 +132,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
-| [1d40ff2](https://github.com/paleofoundation/heavymetalindex/commit/1d40ff2) | 2026-05-20 | autonomy: daemon tick 2026-05-20T10-12-12Z — gap-healing + extraction + pooling + briefings |
-| [ca4d875](https://github.com/paleofoundation/heavymetalindex/commit/ca4d875) | 2026-05-17 | build: regenerate audits + routing artifacts after locked-product fix |
 <!-- END: hmi-page-history -->

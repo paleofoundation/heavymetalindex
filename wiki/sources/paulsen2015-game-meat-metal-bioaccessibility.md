@@ -54,3 +54,13 @@ App: Supports a warning that game-meat contamination can be highly localized wit
 ## Verification notes
 
 The extracted PDF text preserves table labels but not all table cells cleanly. The page therefore records table scope and source fitness without transcribing a full numeric table. Any future value extraction should re-read the PDF tables directly.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6eea0b9](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b9) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 1: 9 source pages |
+<!-- END: hmi-page-history -->

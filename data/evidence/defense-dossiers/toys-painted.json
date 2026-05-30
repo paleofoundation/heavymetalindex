@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-painted",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c300f861e97206c3ab38f23a33670eb9eba2e398f7671a149c9daea001102186",
-      "content_bytes": 8896,
+      "content_sha256": "048e1dbb59ae8c651292fa6e5e4c543d8a63a0d0abb02bd979c09e94a08f006e",
+      "content_bytes": 8866,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -44,8 +44,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cephed2013-heavy-metals-childrens-toys-nepal",
         "content_pin": {
-          "content_sha256": "f45aa2af2f7e56f6b6a84d5e20cc965c4c7accdc903c5d90ef75e254f075bf93",
-          "content_bytes": 14974,
+          "content_sha256": "747add9fe3a34ad9afb630ef7fa090fce1ec1ef0c2366e1503a8e4eb4da8e5c5",
+          "content_bytes": 15148,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -66,8 +66,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/igweze2020-china-toys-nigeria-pb-cd-as",
         "content_pin": {
-          "content_sha256": "a42198e8bca8bf6eaee2f9d2078f084fed46c2e3c71bf18807120686a13f6ff5",
-          "content_bytes": 25483,
+          "content_sha256": "ab7f8d70312cab8774afdc1f44cfd78cadfe52ae07ce2d8580b93fa90da0c339",
+          "content_bytes": 25657,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

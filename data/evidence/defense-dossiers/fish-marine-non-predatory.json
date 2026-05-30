@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-marine-non-predatory",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "07b5d5778b3f819a0defa42223e49d3b5f322479c2319cdb3e2782f0bcaa522b",
-      "content_bytes": 8740,
+      "content_sha256": "3df3d1912c52182e4afbc016b76ef0b130bceba6bb15e2845ad769cfee86e858",
+      "content_bytes": 9247,
       "last_commit_sha": "676a09c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -47,8 +47,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dibella2020-augusta-meat-milk-seafood-metals",
         "content_pin": {
-          "content_sha256": "5d5e4a7a68c49c79475e6e0f816cc823593106ae21fab49778533c7ed8fa0b2a",
-          "content_bytes": 4445,
+          "content_sha256": "3816ad5060bec2504250cdbfb39e42645d450fcac8024652ad50ddb2cd4b0eb7",
+          "content_bytes": 4619,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -59,7 +59,7 @@
         "slug": "sources/dineshkumar2025-fish-heavy-metals",
         "title": "Comparative evaluation of heavy metal concentration in three commercially important fish: insights from organ-specific and interspecies variability",
         "route_kind": "direct_evidence",
-        "route_status": "missing_direct_product_route",
+        "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
@@ -71,8 +71,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dineshkumar2025-fish-heavy-metals",
         "content_pin": {
-          "content_sha256": "73d6dadc76a753388bd4f9eb3ec7082596dbf155bfbf5f687e89fcb1a9a8b7d4",
-          "content_bytes": 2086,
+          "content_sha256": "48eae122aa1938e7be7499731c602cd0fed76786456ac1198045e0bea0fe278f",
+          "content_bytes": 2667,
           "last_commit_sha": "6eea0b9",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -83,7 +83,7 @@
         "slug": "sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
         "title": "Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis",
         "route_kind": "direct_evidence",
-        "route_status": "missing_direct_product_route",
+        "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
@@ -93,8 +93,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
         "content_pin": {
-          "content_sha256": "a3760081e63212dfcb7c9bfe9de6335a11ac9663f57d98f57e6887f4e8e94922",
-          "content_bytes": 18038,
+          "content_sha256": "800229cc7671ed03e5eb9d6c9dc5ebdf574a0278be8de87e7528b377791e13e7",
+          "content_bytes": 17402,
           "last_commit_sha": "e302816",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

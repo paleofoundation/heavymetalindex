@@ -60,3 +60,13 @@ App: Can inform seafood context if species and edible portion are retained.
 ## Verification notes
 
 The paper reports ppm total-element values. Because organ-specific tables are central, downstream extraction should preserve tissue type and should not treat organ means as fillet means.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6eea0b9](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b9) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 1: 9 source pages |
+<!-- END: hmi-page-history -->

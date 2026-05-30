@@ -34,8 +34,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
-| 2 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 1 | [[sources/lin2023-donor-milk-lead-mercury\|Y-C et al. 2023]]. *Health Risk of Infants Exposed to Lead and Mercury Through Donor Human Milk*, Exposure and Health | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/freire2022-donor-breast-milk-metals\|Freire et al. 2022]]. *Concentrations and determinants of lead, mercury, cadmium, and arsenic in pooled donor breast milk in Spain*, International Journal of Hygiene and Environmental Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/depa2019-baby-food-lead-cadmium\|Depa 2019]]. *Heavy Metals in Baby Foods and Cereal Products*, Turkish Journal of Computer and Mathematics Education | 2019 | Peer-reviewed | Pb, Cd occurrence in Baby foods and cereal products, including milk powder and cereal-based products (n=63) |
+| 4 | [[sources/abaas2018-breast-milk-nickel\|Abaas et al. 2018]]. *Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City*, Journal of University of Babylon for Pure and Applied Sciences | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/klein2017-human-milk-trace-elements\|Klein et al. 2017]]. *Concentrations of trace elements in human milk: Comparisons among women in Argentina, Namibia, Poland, and the United States*, PLOS ONE | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -85,9 +89,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [57c2985](https://github.com/paleofoundation/heavymetalindex/commit/57c2985) | 2026-05-28 | audit: gasparik2017-wild-boar-slovakia-metals [revised] |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
-| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
-| [2e76484](https://github.com/paleofoundation/heavymetalindex/commit/2e76484) | 2026-05-26 | state sync: 16h of daemon-stalled work — ingredient/routing/audit updates from yesterday's interrupted tick |
 <!-- END: hmi-page-history -->

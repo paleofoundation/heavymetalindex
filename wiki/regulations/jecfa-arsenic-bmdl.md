@@ -30,9 +30,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [7c4c20f](https://github.com/paleofoundation/heavymetalindex/commit/7c4c20f) | 2026-04-25 | Display-alias every source citation for readable inline rendering |
 | [fe46127](https://github.com/paleofoundation/heavymetalindex/commit/fe46127) | 2026-04-25 | Inline citation discipline pass across 46 pages |
-| [d17b351](https://github.com/paleofoundation/heavymetalindex/commit/d17b351) | 2026-04-25 | Resolve 8 broken wikilink paths and stub 5 missing target pages |
 <!-- END: hmi-page-history -->

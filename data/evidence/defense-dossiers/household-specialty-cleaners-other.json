@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/household-specialty-cleaners-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "99591104cebdbcf5cc3b4ed107d9c0f04ed4b5cc3aef931eae7ea8f49fc6c353",
-      "content_bytes": 7885,
+      "content_sha256": "0c5367fc0d3beb38d423b06d29da48003a7a029cccf12936ca25da6c4e20e194",
+      "content_bytes": 7865,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

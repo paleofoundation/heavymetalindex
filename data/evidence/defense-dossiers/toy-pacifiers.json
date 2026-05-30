@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toy-pacifiers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "74e3a366c56a8a5db0f95bfc71f529df3c6ae7f0ed23f94dffa26a8ffc7dddfa",
-      "content_bytes": 7655,
+      "content_sha256": "82b661a0d1c46bcc9470c38a80f27c9e62c45bece9c62c162d9ad7c7f0cf613d",
+      "content_bytes": 7635,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

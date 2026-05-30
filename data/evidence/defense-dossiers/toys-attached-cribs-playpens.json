@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-attached-cribs-playpens",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "02d9499c6d01ce0db82263f5feee69a58819459396f36f73b0de31f050568f5e",
-      "content_bytes": 7721,
+      "content_sha256": "144ef7adaac10ccdd7bf09e45f96473d81714c9d0470e71bfd37fcf4e7feefa5",
+      "content_bytes": 7701,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

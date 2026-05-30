@@ -112,6 +112,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [9298715](https://github.com/paleofoundation/heavymetalindex/commit/9298715) | 2026-05-28 | audit: munarso2024-vanilla-indonesia-quality [promoted] |
 | [6a02117](https://github.com/paleofoundation/heavymetalindex/commit/6a02117) | 2026-05-28 | ingest: munarso2024-vanilla-indonesia-quality [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |

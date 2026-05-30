@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: plant-milks-non-soy-non-rice
 public_page: products/plant-milks-non-soy-non-rice
-updated: 2026-05-13
+updated: 2026-05-30
 ---
 
 # Workbench standards snapshot — Plant milks (almond, oat, coconut, other non-soy/non-rice)
@@ -43,7 +43,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
 | [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
-| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Find or route fit-source product evidence; local source routes for this row were read and documented as context-only or not routeable. |
+| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
 | [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
 | [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
 | [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |

@@ -125,7 +125,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/efsa2021-aluminium-food-qa\|EUFIC 2021]]. *Aluminium in Food (Q&A): Sources, Safety and Regulations*, European Food Information Council (EUFIC) | 2021 | NGO report | EU Al occurrence in null |
-| 2 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V occurrence in 100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted... (n=100) |
+| 2 | [[sources/jasinska2019-mushroom-cadmium\|Jasińska et al. 2019]]. *Relationship between zinc and cadmium contents and cultivating conditions of gourmet and medicinal mushroom Agaricus subrufescens*, International Journal of Horticultural Science | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V occurrence in 100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted... (n=100) |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -145,8 +146,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c67513a](https://github.com/paleofoundation/heavymetalindex/commit/c67513a) | 2026-05-28 | autonomy: commit pending daemon writes from 10:46Z tick (sync-source-counts + heal-gaps scaffolds + sprint-status) |
-| [7f00de5](https://github.com/paleofoundation/heavymetalindex/commit/7f00de5) | 2026-05-28 | ingest: pankavec2019-pickled-mushrooms-poland-minerals enhanced from Manual Fetch Kimi/condiment_papers/03_Olives_and_Pickles |
 <!-- END: hmi-page-history -->

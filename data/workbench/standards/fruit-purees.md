@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-purees
 public_page: products/fruit-purees
-updated: 2026-05-13
+updated: 2026-05-30
 ---
 
 # Workbench standards snapshot — Fruit purees (general)
@@ -22,22 +22,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | 0 | 1 | 2.4 | 4.5 | 8 | 44 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
 | [[metals/cadmium\|Cd]] | 0 | 0 | 2.2 | 2.4 | 4 | 39 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
-| [[metals/arsenic-total\|tAs]] | 0 | 1.4 | 5.2 | 7 | 8.7 | 39 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
 | [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-consumed |
-| [[metals/mercury-total\|tHg]] | 0 | 0 | 0.5 | 0.6 | 0.6 | 14 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
-| [[metals/aluminum\|Al]] | - | - | - | - | 1420 | 30 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
-| [[metals/nickel\|Ni]] | - | - | - | - | 121 | 30 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
-| [[metals/tin\|Sn]] | - | - | - | - | 3330 | 30 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
-| [[metals/chromium\|Cr]] | - | - | - | - | 84 | 30 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
-| Co | - | - | - | - | 5 | 30 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
-| Cu | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-consumed |
-| Fe | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-consumed |
-| I | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-consumed |
-| Mn | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-consumed |
-| Sb | - | - | - | - | 3 | 30 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
-| Se | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-consumed |
-| V | - | - | - | - | 4 | 30 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
-| Zn | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-consumed |
+| [[metals/arsenic-total\|tAs]] | 0 | 1.4 | 5.2 | 7 | 8.7 | 39 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
 
 ## Clean and dirty designation
 
@@ -47,22 +33,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | --- | --- | --- |
 | [[metals/lead\|Pb]] | see workbench for comparator pair | Fda 2024 (as-sold, n=44) |
 | [[metals/cadmium\|Cd]] | see workbench for comparator pair | Fda 2024 (as-sold, n=39) |
-| [[metals/arsenic-total\|tAs]] | see workbench for comparator pair | Fda 2024 (as-sold, n=39) |
 | [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | FSA 2016 (as-consumed, n not reported) |
-| [[metals/mercury-total\|tHg]] | see workbench for comparator pair | Fda 2024 (as-sold, n=14) |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | Chekri 2019 (as-consumed, n=30) |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | Chekri 2019 (as-consumed, n=30) |
-| [[metals/tin\|Sn]] | summary-only (designation deferred) | Chekri 2019 (as-consumed, n=30) |
-| [[metals/chromium\|Cr]] | summary-only (designation deferred) | Chekri 2019 (as-consumed, n=30) |
-| Co | summary-only (designation deferred) | Chekri 2019 (as-consumed, n=30) |
-| Cu | summary-only (designation deferred) | FSA 2016 (as-consumed, n not reported) |
-| Fe | summary-only (designation deferred) | FSA 2016 (as-consumed, n not reported) |
-| I | summary-only (designation deferred) | FSA 2016 (as-consumed, n not reported) |
-| Mn | summary-only (designation deferred) | FSA 2016 (as-consumed, n not reported) |
-| Sb | summary-only (designation deferred) | Chekri 2019 (as-consumed, n=30) |
-| Se | summary-only (designation deferred) | FSA 2016 (as-consumed, n not reported) |
-| V | summary-only (designation deferred) | Chekri 2019 (as-consumed, n=30) |
-| Zn | summary-only (designation deferred) | FSA 2016 (as-consumed, n not reported) |
+| [[metals/arsenic-total\|tAs]] | see workbench for comparator pair | Fda 2024 (as-sold, n=39) |
 
 ## CC eligibility and Path status
 
@@ -70,22 +42,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | 4 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (fda2025_pb_baby_food_10). |
 | [[metals/cadmium\|Cd]] | 5 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 5 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 40 ug/kg (eu2023_cd_babyfood_cereal_40). |
-| [[metals/arsenic-total\|tAs]] | 5 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 5 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
 | [[metals/arsenic-inorganic\|iAs]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_ias_babyfood_20). |
-| [[metals/mercury-total\|tHg]] | 4 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/aluminum\|Al]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/nickel\|Ni]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/tin\|Sn]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/chromium\|Cr]] | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| Co | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| Cu | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| Fe | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| I | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| Mn | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| Sb | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| Se | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| V | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| Zn | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/arsenic-total\|tAs]] | 5 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 5 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
 
 ## Operational reminders
 

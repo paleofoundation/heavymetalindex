@@ -60,3 +60,13 @@ App: Game-meat entries can use this as a European wild-boar signal, with the cav
 ## Verification notes
 
 The DOI appears in multiple auto-fetched files because the wishlist fetched the same paper under Cd, Pb, tAs, and tHg gaps. This page is the canonical page for those duplicate paths. The paper reports total As, total Hg, and total Cr; it does not support iAs, MeHg, or Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6eea0b9](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b9) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 1: 9 source pages |
+<!-- END: hmi-page-history -->

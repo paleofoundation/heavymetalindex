@@ -86,14 +86,14 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/bleaching-whitening-additives|Bleaching/whitening additives]] — 0 contributing sources
 - [[dossiers/food-prep-blender-jars|Blender jars]] — 0 contributing sources
 - [[dossiers/body-wash-shower-gel|Body wash/shower gel]] — 0 contributing sources
-- [[dossiers/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] — 4 contributing sources
+- [[dossiers/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] — 5 contributing sources
 - [[dossiers/pet-supplements-botanical-herbal|Botanical/herbal blends]] — 0 contributing sources
 - [[dossiers/infant-bottle-nipples|Bottle nipples and spouts]] — 0 contributing sources
 - [[dossiers/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] — 4 contributing sources
 - [[dossiers/infant-bottles|Bottles (plastic, glass, stainless steel)]] — 0 contributing sources
 - [[dossiers/bread-and-baked-goods|Bread and baked goods]] — 11 contributing sources
 - [[dossiers/breath-fresheners|Breath fresheners (sprays/strips/lozenges)]] — 0 contributing sources
-- [[dossiers/butter-and-ghee|Butter and ghee]] — 2 contributing sources
+- [[dossiers/butter-and-ghee|Butter and ghee]] — 3 contributing sources
 - [[dossiers/pet-supplements-calming-behavioral|Calming/behavioral supplements]] — 0 contributing sources
 - [[dossiers/food-packaging-cans-lids|Cans/lids]] — 0 contributing sources
 - [[dossiers/capillary-reed-wood-diffusers|Capillary reed/wood diffusers]] — 0 contributing sources

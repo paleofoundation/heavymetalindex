@@ -134,3 +134,13 @@ The matrices field uses `raw-milk`, which is established in the existing matrice
 No brand names appear in the source as contamination-attribution targets. Method-vendor names (Merck, Liofilchem, HyClone, Prolabo, Labclinic, Tak Gen Zist, Stat-Ease/Design-Expert, Minitab) are reproduced under the methods-vendor exception per the strict reading of Part 12 locked 2026-05-17.
 
 Sample-year range is not stated; manuscript received 22 August 2020 and accepted 1 October 2020. Sampling is not applicable in the survey sense — this is a controlled-spike laboratory experiment, not a field measurement of milk contamination.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9eab3a0](https://github.com/paleofoundation/heavymetalindex/commit/9eab3a0) | 2026-05-30 | ingest: massoud2020-mercury-biosorption-milk-lacidophilus fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

@@ -53,3 +53,13 @@ App: Can inform mushroom ingredient risk only with the experimental-cultivation 
 ## Verification notes
 
 The source is relevant to mushroom occurrence but not to fruit-mixed products despite the auto-fetched filename.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0edf3ce](https://github.com/paleofoundation/heavymetalindex/commit/0edf3ce) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 2: 10 source pages |
+<!-- END: hmi-page-history -->

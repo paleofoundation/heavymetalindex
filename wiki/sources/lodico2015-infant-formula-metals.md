@@ -58,3 +58,13 @@ App: Can provide infant-formula metals context after structured extraction.
 ## Verification notes
 
 The same DOI was fetched under formula and infant-formula Cd, Pb, Sn, and tAs gaps. This page is the canonical page for those duplicate paths. Arsenic and chromium are total element measurements, not iAs or Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6eea0b9](https://github.com/paleofoundation/heavymetalindex/commit/6eea0b9) | 2026-05-29 | ingest auto-fetched 2026-05-29 0000 batch 1: 9 source pages |
+<!-- END: hmi-page-history -->

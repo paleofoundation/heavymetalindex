@@ -143,3 +143,14 @@ The cite-key uses `konuspayeva2010-camel-milk-kazakhstan` to match the publicati
 **Open Access licensing.** The paper is explicitly Creative Commons Attribution Non-Commercial (CC BY-NC 3.0) per the footer of the published PDF. Bentham Open journal.
 
 **Audit subagent (general-purpose, fresh context, 2026-05-30) findings applied.** Verdict PROMOTE with two ⚠️ concerns: (1) the Implications section originally cited "Codex Stan 193-1995 raw-milk Pb limit of 20 ppb" alongside the national tolerable values — the audit correctly noted that Konuspayeva et al. do not cite Codex, only Turkey/Germany/Netherlands/Kazakhstan national values. Verified against the source (pp.116–117): no Codex reference appears in the paper. Editorial Codex reference removed; statement now ties the comparison only to the national tolerable values the authors themselves cite. (2) Abstract-vs-Table 1 minor precision differences for Sample (i) shubat Cu (abstract 0.163 ± 0.164 vs Table 1 0.16 ± 0.16) and Zn (abstract 7.217 ± 2.55 vs Table 1 7.212 ± 2.55). Verified against the PDF: both differences are real paper-internal rounding/transcription variations. The wiki page uses Table 1 values per HMI policy of preferring source tables over abstract restatements; the differences are too small (≤0.005 absolute) to be load-bearing for any downstream synthesis.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2b9a5c2](https://github.com/paleofoundation/heavymetalindex/commit/2b9a5c2) | 2026-05-30 | audit-queue: massoud2020-mercury-biosorption-milk-lacidophilus PROMOTE |
+| [cf3483d](https://github.com/paleofoundation/heavymetalindex/commit/cf3483d) | 2026-05-30 | ingest: mirmahdi2021-dairy-decontamination-probiotics-review fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

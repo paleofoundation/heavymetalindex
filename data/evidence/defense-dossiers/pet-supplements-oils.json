@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-oils",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "19f8fd8773f37341b85ec80aa9f2afbe766bd00e55cb911fe448cd27272dbc26",
-      "content_bytes": 7682,
+      "content_sha256": "7da3b2b6e774ed952caf5893da531010158d07ac00f43047d8359b7fdafd389f",
+      "content_bytes": 7662,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

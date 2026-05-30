@@ -100,8 +100,17 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | GB/EU Pb occurrence in Commercial dogfood products (raw, dried, processed) and raw pheasant meat for human consumption purchased from UK retailers 2021–2022 (n=193) |
-| 2 | [[sources/gasparik2017-wild-boar-slovakia-metals\|Gašparík et al. 2017]]. *Levels of Metals in Kidney, Liver, and Muscle Tissue and their Influence on the Fitness for the Consumption of Wild Boar from Western Slovakia*, Biological Trace Element Research | 2017 | Peer-reviewed | SK/EU Cd, Pb, tHg, Cu, Zn, Co occurrence in 40 wild boars (Sus scrofa; 20 females, 20 males) hunter-collected in November–December 2009 and 2010 from the Nitra... (n=40) |
+| 1 | [[sources/boisteanu2024-wild-boar-romania-metals\|P-C et al. 2024]]. *Essential and toxic elements analysis of wild boar tissues from north-eastern Romania and health risk implications*, Frontiers in Sustainable Food Systems | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/lenart2023-wild-boar-metals\|Lénárt et al. 2023]]. *Monitoring of metal content in the tissues of wild boar (Sus scrofa) and its food safety aspect*, Environmental Science and Pollution Research | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/pain2023-lead-pheasant-dogfood-uk\|Pain et al. 2023]]. *Lead concentrations in commercial dogfood containing pheasant in the UK*, Ambio | 2023 | Peer-reviewed | GB/EU Pb occurrence in Commercial dogfood products (raw, dried, processed) and raw pheasant meat for human consumption purchased from UK retailers 2021–2022 (n=193) |
+| 4 | [[sources/prevendar-crnic2022-rasa-coal-birds-htes\|Prevendar et al. 2022]]. *Enhanced levels of hazardous trace elements (Cd, Cu, Pb, Se, Zn) in bird tissues in the context of environmental pollution by Raša coal*, Rudarsko-geološko-naftni zbornik (The Mining-Geology-Petroleum Engineering Bulletin) | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/mesinger2021-red-deer-heavy-metals\|Mesinger et al. 2021]]. *Risk Assessment of Wild Game Meat Intake in the Context of the Prospective Development of the Venison Market in Poland*, Polish Journal of Environmental Studies | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/rudy2019-hunted-animals-toxic-elements-review\|Rudy et al. 2019]]. *Content of toxic elements in tissues of hunted animals on the basis of research results of 2003–2017*, Medycyna Weterynaryjna | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/gerofke2018-wild-game-lead\|Gerofke et al. 2018]]. *Lead content in wild game shot with lead or non-lead ammunition - Does state of the art consumer health protection require non-lead ammunition?*, PLOS ONE | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/gasparik2017-wild-boar-slovakia-metals\|Gašparík et al. 2017]]. *Levels of Metals in Kidney, Liver, and Muscle Tissue and their Influence on the Fitness for the Consumption of Wild Boar from Western Slovakia*, Biological Trace Element Research | 2017 | Peer-reviewed | SK/EU Cd, Pb, tHg, Cu, Zn, Co occurrence in 40 wild boars (Sus scrofa; 20 females, 20 males) hunter-collected in November–December 2009 and 2010 from the Nitra... (n=40) |
+| 9 | [[sources/zarski2017-mallard-mercury\|Żarski et al. 2017]]. *The Presence of Mercury in the Tissues of Mallards (Anas platyrhynchos L.) from Włocławek Reservoir in Poland*, Biological Trace Element Research | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/joyce2016-bush-meat-cooking-ghana\|Joyce et al. 2016]]. *Effects of Different Cooking Methods on Heavy Metals Level in Fresh and Smoked Game Meat*, Journal of Food Processing & Technology | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 11 | [[sources/paulsen2015-game-meat-metal-bioaccessibility\|Paulsen et al. 2015]]. *Metal contents in the digested and undigested fraction of meat portions from game and pork*, Journal of Food Safety and Food Quality | 2015 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -111,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [378d999](https://github.com/paleofoundation/heavymetalindex/commit/378d999) | 2026-05-17 | autonomy: daemon tick 2026-05-17T13-07-28Z — gap-healing + extraction + pooling + briefings |
-| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
-| [8a49534](https://github.com/paleofoundation/heavymetalindex/commit/8a49534) | 2026-05-17 | products index: numerical order, source counts on every row, drop clean/contaminated call-outs |
 <!-- END: hmi-page-history -->

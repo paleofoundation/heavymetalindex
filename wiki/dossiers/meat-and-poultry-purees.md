@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:3f98c6cfaffbef36ac12bba61efe1f44…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:abcebe1926aed4187c3ba1670c650dbf…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=meat-and-poultry-purees&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/meat-and-poultry-purees&download=1`.
 
 ## Evidence base
 
-This category is supported by 14 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 76 numerical claims; 76 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 14 contributing literature sources mapped by the routing layer, of which 2 carry structured concentration values. The page makes 70 numerical claims; 70 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/meat-and-poultry-purees.md`.
 

@@ -124,7 +124,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
+| 1 | [[sources/mumtaz2025-infant-nutrition-trace-metals\|Mumtaz et al. 2025]]. *Occurrence and Risk Evaluation of Trace Metals in Infant Nutrition Sources in Rural and Urban Multan, Pakistan*, Food and Nutrition Insights | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/alyasiri2024-infant-formula-heavy-metals\|Alyasiri 2024]]. *Detection of Aflatoxin M1 and Several Heavy Metals in Medical Infant Milk Formula Sold in Iraqi Markets*, International Journal of Pharmaceutical and Bio-Medical Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/open2017-open-infants-dietary-arsenic-a\|Signes-Pastor et al. 2018]]. *Infants' dietary arsenic exposure during transition to solid food*, Scientific Reports | 2018 | Journal article | Cited reference from Scientific Reports |
+| 4 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -145,9 +148,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [c2b716e](https://github.com/paleofoundation/heavymetalindex/commit/c2b716e) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-49-27Z — gap-healing + extraction + pooling + briefings |
-| [27d26bb](https://github.com/paleofoundation/heavymetalindex/commit/27d26bb) | 2026-05-20 | autonomy: daemon tick 2026-05-20T05-04-41Z — gap-healing + extraction + pooling + briefings |
-| [c4387dd](https://github.com/paleofoundation/heavymetalindex/commit/c4387dd) | 2026-05-20 | autonomy: daemon tick 2026-05-20T03-23-56Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

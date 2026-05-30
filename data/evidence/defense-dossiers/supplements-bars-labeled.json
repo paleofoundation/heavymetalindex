@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-bars-labeled",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e5ac0db19925a0301d3014fe36ce9826148a11f3149eddb715a6196caf4b62ab",
-      "content_bytes": 7769,
+      "content_sha256": "e8231373a3d559ff2f2995f639c48e427c1e67e98abce8dc13bef7f040b80522",
+      "content_bytes": 7749,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

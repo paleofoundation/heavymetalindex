@@ -91,3 +91,13 @@ The paper does not report: instrument make or model, digestion conditions (tempe
 - No brand names appear in the source; no brand-firewall edits required.
 - Sampling year range left null: paper was received July 2016 but does not state the calendar year of sample collection.
 - License: paper carries an explicit CC BY notice on page 1.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [deff8c2](https://github.com/paleofoundation/heavymetalindex/commit/deff8c2) | 2026-05-29 | ingest: joyce2016-bush-meat-cooking-ghana fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

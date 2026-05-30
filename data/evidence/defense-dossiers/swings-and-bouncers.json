@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/swings-and-bouncers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "10d0912bc7d97ecd3246b4445bfbf76d667695b9d1e67a95656e2cd482d5278d",
-      "content_bytes": 7647,
+      "content_sha256": "f57cc3471d8b52fe67b1940ec82fcf4e7eabd5118e80dbd06e81879b626589e2",
+      "content_bytes": 7627,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: vegetable-juices-root-vegetable-containing
 public_page: products/vegetable-juices-root-vegetable-containing
-updated: 2026-05-13
+updated: 2026-05-30
 ---
 
 # Workbench standards snapshot — Vegetable juices, root-vegetable-containing
@@ -36,8 +36,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc dirty-subcategory pooled P45 (heuristic uplift from P30 per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (fda2022_draft_pb_other_juice_20). |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc dirty-subcategory pooled P45 (heuristic uplift from P30 per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (fda2022_draft_pb_other_juice_20). |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 
 ## Operational reminders
 

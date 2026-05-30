@@ -83,3 +83,14 @@ Organ Pb values for control and water-Pb groups were taken from the abstract nar
 Lipid- vs water-soluble Pb species, valence state, and any speciation were not assessed; all Pb values are total Pb after acid digestion.
 
 No brand names appear in the source (Part 12 compliant). Method-vendor names (Carl Zeiss, Carlo Erba, VELP, Antigen Ltd, XLSTAT) are reproduced under the methods-vendor exception.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3ae2d3b](https://github.com/paleofoundation/heavymetalindex/commit/3ae2d3b) | 2026-05-30 | audit: akhmetsadykova2013-camel-milk-lab-lead promoted |
+| [fc6e707](https://github.com/paleofoundation/heavymetalindex/commit/fc6e707) | 2026-05-30 | ingest: akhmetsadykova2013-camel-milk-lab-lead fresh from Manual Fetch Discovery |
+<!-- END: hmi-page-history -->

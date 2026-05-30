@@ -58,7 +58,20 @@ The applicable regulatory jurisdictions for this row are: **FDA (OTC drug monogr
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-*Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [oral-irrigators-water-flossers]` in source-page frontmatter.*
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Oral irrigators/water flossers and tips (if included). Values are pulled directly from cited sources without re-aggregation; pooling, percentile selection, and threshold math sit in the staff Standards Workbench rather than this public page.
+
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
+
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Oral irrigators/water flossers and tips (if included) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Oral irrigators/water flossers and tips (if included) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-inorganic\|iAs]] | Oral irrigators/water flossers and tips (if included) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | Oral irrigators/water flossers and tips (if included) (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -110,9 +123,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [ed05a8f](https://github.com/paleofoundation/heavymetalindex/commit/ed05a8f) | 2026-05-17 | chore(autonomy): retire Karen-review queues; consolidate provisional-scaffold flag |
 | [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
-| [1e684a8](https://github.com/paleofoundation/heavymetalindex/commit/1e684a8) | 2026-05-17 | provenance: lead-benchmark generator + scaffold placeholder + ICP-MS citations — 87.3% → 91.7% |
 <!-- END: hmi-page-history -->

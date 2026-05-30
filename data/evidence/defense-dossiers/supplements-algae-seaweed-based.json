@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-algae-seaweed-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "366b4d0685fa4f689984c095cfdcfdb667cb6e6d7605f139ca73a1ce6c3101ad",
-      "content_bytes": 7747,
+      "content_sha256": "2ae5039425f692580865249d5260a2c0de392c44098c3fc8ef69c416c56d301e",
+      "content_bytes": 7727,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -188,9 +188,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [cab349d](https://github.com/paleofoundation/heavymetalindex/commit/cab349d) | 2026-05-28 | audit: he2013-shanghai-cadmium [revised] |
 | [46444fb](https://github.com/paleofoundation/heavymetalindex/commit/46444fb) | 2026-05-28 | ingest: he2013-shanghai-cadmium [enhanced] from Manual Fetch Kimi/condiment_papers/04_Condiments_and_Sauces |
-| [f3c079b](https://github.com/paleofoundation/heavymetalindex/commit/f3c079b) | 2026-05-14 | ingest kimi-cond04: 9 pages from condiment_papers/04_Condiments_and_Sauces, 4 dedup skips |
 <!-- END: hmi-page-history -->

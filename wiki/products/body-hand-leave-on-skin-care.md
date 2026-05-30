@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 4
+sources: 5
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -109,7 +109,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/balogun2024-body-creams-delta-nigeria\|Balogun et al. 2024]]. *Heavy Metals Concentration In Body Creams Commonly Used In Delta State Tertiary Institutions And Their Implications For Human Health*, International Journal of Innovative Environmental Studies Research 12(2):24-32 | 2024 | Peer-reviewed | NG Pb, Cd, Co, tAs, Mn, Ag, Zn, Ni, Cr, tHg occurrence in 20 body cream/lotion products purchased anonymously from college business centres at two Delta State tertiary institutions in Nigeria... (n=20) |
 | 2 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | LY Pb, tAs, Cd, Ni occurrence in 12 cosmetic samples from public markets in Tripoli, Libya (winter 2022): 3 brands of Henna leaves (LEAV1-3), 3... (n=12) |
 | 3 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
-| 4 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 4 | [[sources/chaiyasut2018-coffee-cosmetic-heavy-metals\|Chaiyasut et al. 2018]]. *Formulation and stability assessment of Arabica and Civet coffee extracts based cosmetic preparations*, Asian Journal of Pharmaceutical and Clinical Research | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [afa3c3c](https://github.com/paleofoundation/heavymetalindex/commit/afa3c3c) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-55-15Z — gap-healing + extraction + pooling + briefings |
-| [0a783b0](https://github.com/paleofoundation/heavymetalindex/commit/0a783b0) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-17-21Z — gap-healing + extraction + pooling + briefings |
-| [fc68ee7](https://github.com/paleofoundation/heavymetalindex/commit/fc68ee7) | 2026-05-18 | autonomy: daemon tick 2026-05-17T21-12-57Z — gap-healing + extraction + pooling + briefings |
 <!-- END: hmi-page-history -->

@@ -107,6 +107,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
+| 2 | [[sources/benabbes2021-morocco-hair-dyes-pb-cd\|Benabbes et al. 2021]]. *Determination of Lead and Cadmium in Synthetic and Natural Hair Dyes in Morocco Using Differential Pulse Polarography*, Portugaliae Electrochimica Acta 39(1):37-44 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
+| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [0a783b0](https://github.com/paleofoundation/heavymetalindex/commit/0a783b0) | 2026-05-18 | autonomy: daemon tick 2026-05-17T23-17-21Z — gap-healing + extraction + pooling + briefings |
-| [88594da](https://github.com/paleofoundation/heavymetalindex/commit/88594da) | 2026-05-17 | hmtc: drive 214 locked-product failures to 0 via literature-scope flag + 13 routing fixes |
-| [1e684a8](https://github.com/paleofoundation/heavymetalindex/commit/1e684a8) | 2026-05-17 | provenance: lead-benchmark generator + scaffold placeholder + ICP-MS citations — 87.3% → 91.7% |
 <!-- END: hmi-page-history -->

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/butter-and-ghee",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6b7deb5772769a8e375a82847ea2bca354d84cd8a9a8b3ef87840f9f06f21425",
-      "content_bytes": 7970,
+      "content_sha256": "c27cebfc96083bf8f00b0a0b10cac9561c239a41db21beade92f3f3e80c8da8d",
+      "content_bytes": 8226,
       "last_commit_sha": "cae015c",
       "last_commit_date": "2026-05-29",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -26,9 +26,36 @@
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/hasan2021-bangladesh-dairy-trace-elements",
+        "title": "Detection of Trace Elements in Selective Dairy Products to assess Human Health Risk of Bangladeshi People",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Fe",
+          "Cu",
+          "Mn",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hasan2021-bangladesh-dairy-trace-elements",
+        "content_pin": {
+          "content_sha256": "796dfd18d0d3e6b68c174ff742c2c88026a6d22ffe8841f38c2e48a0f4a9bc41",
+          "content_bytes": 13781,
+          "last_commit_sha": "1af8025",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1af8025:wiki/sources/hasan2021-bangladesh-dairy-trace-elements.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/pankiewicz2012-thg-dairy-products-poland",
         "title": "Monitoring of total mercury level in selected dairy products from the south-east regions of Poland",
@@ -41,8 +68,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pankiewicz2012-thg-dairy-products-poland",
         "content_pin": {
-          "content_sha256": "cc8d56fc8d7038d4d10ae5ed0dffc86176407997a4ece5098bb3acd4add92011",
-          "content_bytes": 15168,
+          "content_sha256": "89363f5e323b66cac0516ee5badc100dac0dc3007324d7486d494f0b32644c4d",
+          "content_bytes": 15156,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -64,8 +91,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/starska2011-noxious-elements-milk-products-poland",
         "content_pin": {
-          "content_sha256": "1ae3df9409ebfafadf6ee520cd20dee587d04435df39a6ecc1ee1dcd44f44862",
-          "content_bytes": 15754,
+          "content_sha256": "da74f87db91dac8ccb92e2953279e9ab0e5f20faebd32c1252accdecb264449c",
+          "content_bytes": 15750,
           "last_commit_sha": "cae015c",
           "last_commit_date": "2026-05-29",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
