@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `cae015c` (2026-05-29). The body hashes to `sha256:1ae7265bfea562b9eb7571d5271369fa…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `70ae1cc` (2026-05-30). The body hashes to `sha256:b157126580ecc6819e22b1892944aee7…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=cashews&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/cashews&download=1`.
 
 ## Evidence base
 
-This category is supported by 4 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 3 numerical claims; 1 of them trace to an in-section cited source, leaving 2 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 6 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 3 numerical claims; 1 of them trace to an in-section cited source, leaving 2 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/cashews.md`.
 

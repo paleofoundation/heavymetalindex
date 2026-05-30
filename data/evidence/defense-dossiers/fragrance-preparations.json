@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/fragrance-preparations",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1a3232f6da1f5f14c45a3c2a82c157c396afc0d0329975ac7b88bad6b7c12231",
-      "content_bytes": 7808,
+      "content_sha256": "d501b43c120a394a811a35b42549fd4fe9d3423b8559771e7f008df5eef8a649",
+      "content_bytes": 7760,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

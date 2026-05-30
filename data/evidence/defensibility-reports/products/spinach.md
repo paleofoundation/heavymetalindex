@@ -2,7 +2,7 @@
 source_page: wiki/products/spinach.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 529716096ee4ac7f2218de797cd757e3c1941b1946bb93686f4c9012ccebf380
+source_page_sha256: f073fe8ef89f8dbcf766aa75156f1ac3fc864bc665479a5ac7a7abd3f80de27d
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 98
+audit_log_total_rows: 120
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 98 |
+| audit log rows read | 120 |
 
 ## Page-level audit rows
 

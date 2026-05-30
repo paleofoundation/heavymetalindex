@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-teas-labeled.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7b49e77a53c1b02c4d177a73987e8e11a7c10466f791262151b97f0625705668
+source_page_sha256: b98f73f6871efb3a026733ab85b3b5f9e56f7c5c0030a41cc58cb44df47cf372
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 98
+audit_log_total_rows: 120
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 98 |
+| audit log rows read | 120 |
 
 ## Page-level audit rows
 

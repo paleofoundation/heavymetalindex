@@ -130,9 +130,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 | [d2f6fb7](https://github.com/paleofoundation/heavymetalindex/commit/d2f6fb7) | 2026-05-28 | audit: mishra2017-rice-arsenic-thiol-complexation revised |
-| [602563f](https://github.com/paleofoundation/heavymetalindex/commit/602563f) | 2026-05-28 | ingest: mishra2017-rice-arsenic-thiol-complexation fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
 <!-- END: hmi-page-history -->

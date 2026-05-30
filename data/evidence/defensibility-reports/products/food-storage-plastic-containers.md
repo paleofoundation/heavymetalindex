@@ -2,7 +2,7 @@
 source_page: wiki/products/food-storage-plastic-containers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4b140f176f71b0c51e8c27f9dcaef109700ef01bbb0079e197d845980a91de45
+source_page_sha256: e5dce7c02954fe2298aa025f3ddbb9e28c86b59331cb8fc38b14d04d76f0889c
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 98
+audit_log_total_rows: 120
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 98 |
+| audit log rows read | 120 |
 
 ## Page-level audit rows
 

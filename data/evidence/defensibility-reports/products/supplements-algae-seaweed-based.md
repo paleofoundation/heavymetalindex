@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-algae-seaweed-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a03cbfde5f4427f74a854583553a95a77189a2ad4f43b9bea09e9e3b2ccb971c
+source_page_sha256: c9a293270f250257326f8e542a546cf99999c8316274e7407ec6dec68e753219
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 98
+audit_log_total_rows: 120
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 98 |
+| audit log rows read | 120 |
 
 ## Page-level audit rows
 

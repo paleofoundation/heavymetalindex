@@ -21,8 +21,8 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-nail-polish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0fb539f0a038543cbcbd5d337cc56ba7b993f8710ecf2d3743b3aa86d5cfef65",
-      "content_bytes": 11235,
+      "content_sha256": "d43dac848afff6c5895a6c4153275153efb98df3db37812cb9888d6e2c65ee6f",
+      "content_bytes": 11192,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -43,8 +43,8 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/medley2023-childrens-makeup-body-products-us-usage",
         "content_pin": {
-          "content_sha256": "9f53b88cd4049409a3e9808895b3d0731746a80a64b99ac563b0cd50b9367fbb",
-          "content_bytes": 12227,
+          "content_sha256": "3bb68de2ef4b7dc9e9b8ac6b5c31d6d1c5d511b71d93ede57eed0c7d3d290eb6",
+          "content_bytes": 12123,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -81,8 +81,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
         "content_pin": {
-          "content_sha256": "97e404f1774aa00c38f3bfe39c4c216ebdb1673072e7ebc2a647053060418059",
-          "content_bytes": 20032,
+          "content_sha256": "c152fd30675290aea14476d3080970f0365512d1cca85f277e9a43316d0ae9d2",
+          "content_bytes": 19941,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

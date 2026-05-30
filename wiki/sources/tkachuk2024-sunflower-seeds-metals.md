@@ -54,3 +54,13 @@ Certification: Ukraine production-system context for sunflower seeds. Courses: e
 ## Verification notes
 
 The DOI and citation year are from the PDF citation line. Numeric seed values require table extraction; the abstract provides exceedance and accumulation-direction findings.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5efca8](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8) | 2026-05-30 | ingest auto-fetched 2026-05-30 1010 batch 2: 7 source pages |
+<!-- END: hmi-page-history -->

@@ -20,8 +20,8 @@
     "canonical_url": "https://heavymetalindex.com/products/soft-drinks-carbonated-beverages",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e51d95cf0825dbc383cd2468619dfc23291e09a55cf22bf0be63050127f792fd",
-      "content_bytes": 10814,
+      "content_sha256": "7a4cffb2d3666959cb4f93a27aeef1126901d42cf077c30869b48c311a3cba99",
+      "content_bytes": 10775,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -44,8 +44,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tarigan2016-factors-tin-released-canned-beverages",
         "content_pin": {
-          "content_sha256": "b0eb63bb7a6f1b7ddd0716f4020b2fe074b62fb071d1dfff6e4b6b70e8cea506",
-          "content_bytes": 4887,
+          "content_sha256": "09d8bf5a4f180b9277d1db82053bf2e3153e3feafdf328abb40dcd08749d170a",
+          "content_bytes": 4830,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

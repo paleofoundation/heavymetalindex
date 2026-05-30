@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T04:59:29.331Z",
+  "generated_at": "2026-05-30T13:51:59.191Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "dirty_standard_percentile": "p45",
@@ -18,11 +18,11 @@
   "by_aggregate_status": {
     "POOLING ENGINE PENDING: ready for pooling math": 72,
     "POOLING ENGINE PENDING: single poolable source": 83,
-    "BLOCKED: no structured evidence loaded": 240,
+    "BLOCKED: no structured evidence loaded": 236,
+    "BLOCKED: local extraction pending": 23,
     "OUT OF SCOPE: not a locked HMTc standards row": 102,
-    "BLOCKED: PDF match review pending": 21,
+    "BLOCKED: PDF match review pending": 14,
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: local extraction pending": 12,
     "CONTEXT ONLY: not a locked HMTc standards row": 26
   },
   "by_standard_percentile_target": {
@@ -30,7 +30,7 @@
     "independent_p97_pooled": 340,
     "not_applicable": 128
   },
-  "rows_with_pending_local_extracts": 12,
+  "rows_with_pending_local_extracts": 23,
   "rows_with_missing_pdfs": 1,
   "rows_with_local_candidate_values": 0,
   "rows_with_context_dispositions": 0,

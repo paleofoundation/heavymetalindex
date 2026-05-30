@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/face-neck-leave-on-skin-care",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "76953b1f364abf9ece847a64894bdf94156cbd64daf3c6cdc398bb702485ac20",
-      "content_bytes": 9849,
-      "last_commit_sha": "70ae1cc",
+      "content_sha256": "d474cab7f7eba4e5b8a3695f94e5af53835c8eb9e95e8532ec5a9f93b9d63748",
+      "content_bytes": 9693,
+      "last_commit_sha": "d26f8f1",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/face-neck-leave-on-skin-care.md | sha256sum"
+      "verify_command": "git show d26f8f1:wiki/products/face-neck-leave-on-skin-care.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -60,8 +60,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aldayel2018-facial-cosmetics-saudi-arabia",
         "content_pin": {
-          "content_sha256": "91d9a7b2ec1c565cf6d9755e9e91b441d2477579516c09e831825e472cda4d1e",
-          "content_bytes": 35140,
+          "content_sha256": "1242fcdece583e33225dc4387c74fd8327a3ecb1fb1d23085dafa1f2260fc179",
+          "content_bytes": 35053,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -89,8 +89,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bashir2025-heavy-metals-cosmetics-kashmir",
         "content_pin": {
-          "content_sha256": "55e9c35a4d0d5cf69473316cf0df2eea35c22c21b19618506022b5caa7772443",
-          "content_bytes": 28571,
+          "content_sha256": "3a353567c4828aa28eefede9e6d9311f569d3fbdff8189492f04173717d40b35",
+          "content_bytes": 28483,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -109,8 +109,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/birsan2023-cosmetics-mercury",
         "content_pin": {
-          "content_sha256": "471c222c1b12b69b2562f9c2a83fed8e04fd113ecd93d6d7d8269b08595ba0be",
-          "content_bytes": 2370,
+          "content_sha256": "5c34d4ab4b940fa9d1019ab6abafadacd93df504037984d8752843bc3007a1bb",
+          "content_bytes": 2517,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -133,8 +133,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kicinska2025-cosmetics-online-market-heavy-metals",
         "content_pin": {
-          "content_sha256": "971dd79e00b7069a8711c08503cbb1aaa9f4328ddbc57b96d18de08a74f0ea59",
-          "content_bytes": 13769,
+          "content_sha256": "afa6163e0468d3e5b803184f89e43960ced912bf01d16b33b96291593e4d88c3",
+          "content_bytes": 13670,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

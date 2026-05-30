@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/eye-makeup",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7af91b51d900edcdbe95c147c379a566ffcab778f43c62c5cb395b72fa9e3bcb",
-      "content_bytes": 10734,
-      "last_commit_sha": "70ae1cc",
+      "content_sha256": "415a4a49bca29e9f9df9015729bb8c55bf7560011ca63b8a74a78c99ef0f58b9",
+      "content_bytes": 10578,
+      "last_commit_sha": "d26f8f1",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/eye-makeup.md | sha256sum"
+      "verify_command": "git show d26f8f1:wiki/products/eye-makeup.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,8 +51,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "30686da7646c79c2d9c8f21c2b4673bbc84284cf3e74437c537406adf26b3af8",
-          "content_bytes": 35487,
+          "content_sha256": "095869a5e9409ac96587884b5bd2713dc5cd7d44c5828379c878e90c1ad7c7c4",
+          "content_bytes": 35444,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -71,8 +71,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/birsan2023-cosmetics-mercury",
         "content_pin": {
-          "content_sha256": "471c222c1b12b69b2562f9c2a83fed8e04fd113ecd93d6d7d8269b08595ba0be",
-          "content_bytes": 2370,
+          "content_sha256": "5c34d4ab4b940fa9d1019ab6abafadacd93df504037984d8752843bc3007a1bb",
+          "content_bytes": 2517,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -97,8 +97,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "bbd15aeeda718d2a00bde2e84fd9c5aebd2796e3dede3660978ae0ac9b2b305d",
-          "content_bytes": 29296,
+          "content_sha256": "207a17fd5641b93b2b0018870c25551da335a947b52567fdf477df6d78bfa265",
+          "content_bytes": 29206,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -121,8 +121,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kicinska2025-cosmetics-online-market-heavy-metals",
         "content_pin": {
-          "content_sha256": "971dd79e00b7069a8711c08503cbb1aaa9f4328ddbc57b96d18de08a74f0ea59",
-          "content_bytes": 13769,
+          "content_sha256": "afa6163e0468d3e5b803184f89e43960ced912bf01d16b33b96291593e4d88c3",
+          "content_bytes": 13670,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -145,8 +145,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "c6fdb6f66c5a550644827d7584de9c6e23f509ad8a9650cd3272cb503c1e06c8",
-          "content_bytes": 28575,
+          "content_sha256": "4ece5199b6a043eb525c699fd2bca8b326e293f9321efc0c8ba1238b3fdbacc8",
+          "content_bytes": 28474,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -168,8 +168,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rbeida2023-heavy-metals-cosmetics-libya",
         "content_pin": {
-          "content_sha256": "f6995694a4511cf3607820743b75a73016c0ffb0949e426454a62b656e66714e",
-          "content_bytes": 25220,
+          "content_sha256": "6620d597d613d5d891be43920f6f010433c1ebb2f1864b7a0f92e89c3a803a91",
+          "content_bytes": 25127,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

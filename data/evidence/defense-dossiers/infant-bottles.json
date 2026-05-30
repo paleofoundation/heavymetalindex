@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-bottles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "542d253b2733b11aa2aeedd40e70e796a84df69618807c6769cc0d170ec3499a",
-      "content_bytes": 7715,
+      "content_sha256": "6f6f6941eafa0acaee7abfd5062ec40c6a9a898a841b43a433f25e66620c1094",
+      "content_bytes": 7667,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

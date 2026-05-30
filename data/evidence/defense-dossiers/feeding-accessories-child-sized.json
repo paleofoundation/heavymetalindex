@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/feeding-accessories-child-sized",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "411379c407030c8178a07e3c675f38ee2c1602239f3125216ffd0905bcd7d38c",
-      "content_bytes": 7873,
+      "content_sha256": "4dfad8c78f72e5e07c03d62fbdcb963308cba146d7d0cc96fe2e4919fae7460e",
+      "content_bytes": 7825,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

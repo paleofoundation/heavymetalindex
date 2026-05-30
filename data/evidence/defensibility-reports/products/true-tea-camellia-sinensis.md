@@ -2,7 +2,7 @@
 source_page: wiki/products/true-tea-camellia-sinensis.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9d160c4b5f02c94adcd8ea7510be0490fd06a734ab1c65a76c49090b1b1adfda
+source_page_sha256: d57019642237ea6eaaa8b0507fb792a9b02c76911e90f3ef31fda61d4bfcd427
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 2
 distinct_cited_sources: 2
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 98
+audit_log_total_rows: 120
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 98 |
+| audit log rows read | 120 |
 
 ## Page-level audit rows
 

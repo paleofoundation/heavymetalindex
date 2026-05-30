@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-squeeze",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "231cdb29199e17a7b3fdac3970cf3a9d48738190816cce41df7f9e35d43352c1",
-      "content_bytes": 7541,
+      "content_sha256": "5ee7f63661077c98621f0afac233b367be5a6567c22229f38d7f743e20d3dcd4",
+      "content_bytes": 7493,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

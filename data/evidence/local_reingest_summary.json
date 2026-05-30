@@ -1,31 +1,28 @@
 {
-  "generated_at": "2026-05-30T04:59:28.830Z",
+  "generated_at": "2026-05-30T13:51:58.594Z",
   "product_filter": "all",
   "include_structured": false,
   "include_visible_broad_context": false,
   "include_visible_context_nodes": false,
   "excluded_context_disposition_rows": 0,
-  "excluded_visible_broad_context_rows": 144,
-  "excluded_visible_context_node_rows": 30,
-  "total_queue_rows": 913,
+  "excluded_visible_broad_context_rows": 156,
+  "excluded_visible_context_node_rows": 31,
+  "total_queue_rows": 924,
   "by_priority": {
-    "P0-promote-direct-product-source": 39,
-    "P1-extract-or-document-context-only": 802,
-    "P1-resolve-row-fit-before-extraction": 12,
+    "P0-promote-direct-product-source": 24,
+    "P1-extract-or-document-context-only": 841,
     "P2-review": 16,
     "P2-confirm-local-pdf-match": 42,
-    "P2-review-context-only-route": 1,
     "P3-find-local-pdf-or-web-copy": 1
   },
   "by_local_pdf_status": {
-    "local_pdf_found": 870,
+    "local_pdf_found": 881,
     "candidate_local_pdf_needs_review": 42,
     "missing_local_pdf": 1
   },
   "by_route_status": {
-    "missing_direct_product_route": 40,
-    "source_on_page_no_structured_value": 845,
-    "missing_broad_product_context": 12,
+    "missing_direct_product_route": 24,
+    "source_on_page_no_structured_value": 884,
     "partial_structured_values_present": 16
   }
 }

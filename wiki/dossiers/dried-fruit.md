@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:5ae4a0e995fbe1ba5dc78224d756fa4f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `70ae1cc` (2026-05-30). The body hashes to `sha256:cf99cd1978f000fe0ac86b64e552a7e5…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=dried-fruit&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/dried-fruit&download=1`.
 
 ## Evidence base
 
-This category is supported by 3 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 4 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/dried-fruit.md`.
 

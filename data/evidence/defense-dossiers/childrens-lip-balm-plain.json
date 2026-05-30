@@ -21,8 +21,8 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-lip-balm-plain",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2e8543d92ffe452435e8315c89e646434c955217ec721da8a749224b866c8c7d",
-      "content_bytes": 10754,
+      "content_sha256": "fef40851a84647ae6ffd4737b79aa467eddb63948d49596c26b1d6f3e47116ff",
+      "content_bytes": 10711,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -45,8 +45,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2021-lead-lip-cosmetics-china-ecommerce",
         "content_pin": {
-          "content_sha256": "d2c5211f7d466c3c1c4c7048628cdd026321abbf6bbc5a5f4833aea50481347f",
-          "content_bytes": 31332,
+          "content_sha256": "c6a3c36fd2651ff0eef8f0c1787792c5ebc14abaebe24264b46cd3a344a919ea",
+          "content_bytes": 31235,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -63,8 +63,8 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2025-methyl-salicylate-children-exposure-1676-25",
         "content_pin": {
-          "content_sha256": "6299950ca1a5e9eaa7e7264dbb28db9d2a1a1a8209564f7e000faf0ddd86427a",
-          "content_bytes": 22479,
+          "content_sha256": "57ae18ba4c2ce33ceefcb655655c135ee321e1814ca5ae29c44f31ad5f8bda3e",
+          "content_bytes": 22380,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

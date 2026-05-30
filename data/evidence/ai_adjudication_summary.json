@@ -1,115 +1,115 @@
 {
-  "generated_at": "2026-05-30T04:59:29.453Z",
+  "generated_at": "2026-05-30T13:51:59.326Z",
   "product_filter": "all",
-  "total_adjudication_rows": 83,
+  "total_adjudication_rows": 85,
   "by_priority": {
-    "P0": 4,
-    "P1": 15,
-    "P2": 64
+    "P0": 10,
+    "P1": 12,
+    "P2": 63
   },
   "by_machine_task": {
-    "extract_local_source_to_structured_rows": 4,
+    "extract_local_source_to_structured_rows": 10,
     "discover_or_route_species_specific_source": 3,
-    "verify_pdf_provenance_before_extraction": 12,
-    "find_or_route_fit_product_evidence": 64
+    "verify_pdf_provenance_before_extraction": 9,
+    "find_or_route_fit_product_evidence": 63
   },
   "by_aggregate_status": {
-    "BLOCKED: local extraction pending": 4,
+    "BLOCKED: local extraction pending": 10,
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: PDF match review pending": 12,
-    "BLOCKED: no structured evidence loaded": 64
+    "BLOCKED: PDF match review pending": 9,
+    "BLOCKED: no structured evidence loaded": 63
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 68,
+    "independent_p97_pooled": 70,
     "clean_p97_pooled": 15
   },
-  "public_claim_blockers": 83,
-  "hmtc_threshold_blockers": 83,
+  "public_claim_blockers": 85,
+  "hmtc_threshold_blockers": 85,
   "human_role": "source retrieval, low-confidence exception review, policy-conflict resolution, and final governance approval",
   "top_adjudications": [
     {
       "adjudication_order": 1,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "fish-freshwater",
-      "metal_species": "Pb; Cd"
+      "product_slug": "bottled-drinking-water",
+      "metal_species": "Pb; Cd; tAs"
     },
     {
       "adjudication_order": 2,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "infant-formula",
-      "metal_species": "Pb; Cd; tAs; Ni; Sn"
+      "product_slug": "cashews",
+      "metal_species": "Pb; Cd; Ni"
     },
     {
       "adjudication_order": 3,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "leafy-vegetables-other",
-      "metal_species": "Pb; Cd"
+      "product_slug": "dried-fruit",
+      "metal_species": "Pb"
     },
     {
       "adjudication_order": 4,
       "priority": "P0",
       "machine_task": "extract_local_source_to_structured_rows",
-      "product_slug": "non-root-vegetables",
-      "metal_species": "Pb; Cd; tAs"
+      "product_slug": "fresh-fruit",
+      "metal_species": "Pb; Cd"
     },
     {
       "adjudication_order": 5,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "mineral-water",
+      "metal_species": "Pb"
+    },
+    {
+      "adjudication_order": 6,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "nuts-seeds-other",
+      "metal_species": "Pb; Cd; Ni"
+    },
+    {
+      "adjudication_order": 7,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "peanuts",
+      "metal_species": "Pb; Cd; Ni"
+    },
+    {
+      "adjudication_order": 8,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "spinach",
+      "metal_species": "Pb; Cd"
+    },
+    {
+      "adjudication_order": 9,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "sunflower-seeds",
+      "metal_species": "Pb; Cd; Ni"
+    },
+    {
+      "adjudication_order": 10,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "water-filters",
+      "metal_species": "Pb; Cd"
+    },
+    {
+      "adjudication_order": 11,
       "priority": "P1",
       "machine_task": "discover_or_route_species_specific_source",
       "product_slug": "fish-containing-baby-foods",
       "metal_species": "MeHg"
     },
     {
-      "adjudication_order": 6,
+      "adjudication_order": 12,
       "priority": "P1",
       "machine_task": "discover_or_route_species_specific_source",
       "product_slug": "infant-formula-powder-non-soy",
       "metal_species": "MeHg"
-    },
-    {
-      "adjudication_order": 7,
-      "priority": "P1",
-      "machine_task": "discover_or_route_species_specific_source",
-      "product_slug": "infant-formula-rtf-liquid-soy-based",
-      "metal_species": "iAs"
-    },
-    {
-      "adjudication_order": 8,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "cashews",
-      "metal_species": "Pb; Cd; Ni"
-    },
-    {
-      "adjudication_order": 9,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "dried-fruit",
-      "metal_species": "tAs"
-    },
-    {
-      "adjudication_order": 10,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "fresh-fruit",
-      "metal_species": "tAs"
-    },
-    {
-      "adjudication_order": 11,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "infant-food-puree",
-      "metal_species": "Pb; Cd; iAs; tAs"
-    },
-    {
-      "adjudication_order": 12,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "infant-formula",
-      "metal_species": "iAs"
     }
   ]
 }

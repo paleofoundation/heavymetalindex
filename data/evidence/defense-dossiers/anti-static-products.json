@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/anti-static-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a5a1ee210488d6933f6c94d5f5b5882c0dfe86d36153eed63b98706f5d0b23d3",
-      "content_bytes": 7706,
+      "content_sha256": "04eb2e78d017c8e5162dab8158581918eb447818173c17aadbd2974d3045a24a",
+      "content_bytes": 7658,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

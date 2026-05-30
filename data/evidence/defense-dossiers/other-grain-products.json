@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/other-grain-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8c6b83463a05bb29f0fa70f5c6924eb3fa7bd9e835e00c6fb1ff6af1d4be23ca",
-      "content_bytes": 9104,
-      "last_commit_sha": "70ae1cc",
+      "content_sha256": "a13d265a1f3b11df511c5da4be9b126d334e8ddedf7f9d1592bec5790faca09d",
+      "content_bytes": 8948,
+      "last_commit_sha": "d26f8f1",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/other-grain-products.md | sha256sum"
+      "verify_command": "git show d26f8f1:wiki/products/other-grain-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,8 +42,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2021-chronic-exposure-iAs",
         "content_pin": {
-          "content_sha256": "6ff6b882de24a07f7901fe0ea63eaa46ef2c9d2fd485136c990475400d3e26fa",
-          "content_bytes": 6917,
+          "content_sha256": "0a1736e6e003afc64e7a53ea1141cf5ec8a53535926c16d8adfec77fcc70fcbc",
+          "content_bytes": 6898,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -63,8 +63,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2024-risk-assessment-iAs-update",
         "content_pin": {
-          "content_sha256": "35f5c816b24bab731629f16cfe98f7eaf57ff168c5623b0f3152ba6b807d8ad8",
-          "content_bytes": 7750,
+          "content_sha256": "e6db46f0911a256878e9cc2b6c45a1c0c09588bfe2d07305077341a9e4f3098c",
+          "content_bytes": 7731,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -87,8 +87,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hbbf2025-rice-arsenic-cadmium-145-samples",
         "content_pin": {
-          "content_sha256": "b6ba02dd3f184c851abffb580f7c2343db552f9a275e262bcd2e0c2f22114262",
-          "content_bytes": 12151,
+          "content_sha256": "2ddc60125d3b6ed844a7769b5ec112792447b741c931c46d2c7886f828c9cba2",
+          "content_bytes": 12025,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -107,8 +107,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2020-nickel-cereal-grains-poland",
         "content_pin": {
-          "content_sha256": "f8de0298ebbb13aa4586785eca93361e393d425fe2f35e7fc5329e1f1657e3d2",
-          "content_bytes": 7381,
+          "content_sha256": "dfcd6f994bd48e21250d10f151562c1c9887364e077afc23f3bd729bc0a580d1",
+          "content_bytes": 7378,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -130,8 +130,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/slepecka2017-ecological-cereal-heavy-metals-poland",
         "content_pin": {
-          "content_sha256": "ee7d15aa87c0bf94295f34a996831087082470433de178a11680e048559327aa",
-          "content_bytes": 8723,
+          "content_sha256": "db9f600645d3703b8c46f225defeb4a8c19fcba559171c20e61c1d0f00622c11",
+          "content_bytes": 8679,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -53,3 +53,13 @@ Certification: candidate dried-fruit occurrence evidence for Pb, Ni, and Cr once
 ## Verification notes
 
 Metadata and DOI are visible in the PDF. The abstract is numeric-light, so this page records routeability but flags full table extraction as required before quantitative synthesis.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7a4c45a](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a) | 2026-05-30 | ingest auto-fetched 2026-05-30 0950 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

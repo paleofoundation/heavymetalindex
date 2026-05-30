@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-contact-combination-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ab6e1d790c0246cd9f1bf99988eb08bced7473ab50449c3e3f41f5abc8bf5df4",
-      "content_bytes": 7802,
+      "content_sha256": "ea52bf0a10ba48a3db460a3e766ac54cbd3e98d19f09f60f7cbde09bd95f09a8",
+      "content_bytes": 7754,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -53,3 +53,13 @@ Certification: small India market-context source for spinach Pb and Cd. Courses:
 ## Verification notes
 
 Table 1 values were transcribed from PDF text extraction. The DOI appears in the PDF as 10.9790/5736-100502110113.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5efca8](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8) | 2026-05-30 | ingest auto-fetched 2026-05-30 1010 batch 2: 7 source pages |
+<!-- END: hmi-page-history -->

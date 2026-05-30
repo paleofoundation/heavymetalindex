@@ -22,8 +22,8 @@
     "canonical_url": "https://heavymetalindex.com/products/pacifiers-and-sucking-teething-aids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9b9952b264846809b38721cf3a77e98ca515d185afc87f1486ec27aad3bfb82b",
-      "content_bytes": 9405,
+      "content_sha256": "d4f65d6b6b6159e0f1d160821879f7290c36d4cb0ae07ffc1255175c5cba0ed3",
+      "content_bytes": 9366,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

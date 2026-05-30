@@ -2,7 +2,7 @@
 source_page: wiki/products/kombucha-tea-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1f04e6021131b7f3dcac60eb9b472b5f208a2948acf27e7b2e96a07b2383b4bd
+source_page_sha256: 631b6fb9acf33d430c2b282dedf2083c061e078b03cbbe336217fc9ce8bd968f
 total_claims: 9
 cited_claims: 9
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 1
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 98
+audit_log_total_rows: 120
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 1 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 98 |
+| audit log rows read | 120 |
 
 ## Page-level audit rows
 

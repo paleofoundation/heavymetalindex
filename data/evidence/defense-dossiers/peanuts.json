@@ -22,8 +22,8 @@
     "canonical_url": "https://heavymetalindex.com/products/peanuts",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0b9a8ac1b5801680cda56bafbba79c1462a7cc64485aac490e3fe081b5aaf143",
-      "content_bytes": 13164,
+      "content_sha256": "b9c578dc618e24f9fc0f054d22109188710cb7251f0ca3a574d82ee503d9394c",
+      "content_bytes": 14127,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -31,9 +31,79 @@
     }
   },
   "evidence_base": {
-    "contributing_source_count": 6,
+    "contributing_source_count": 10,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/alatise2025-fruit-nuts-metals",
+        "title": "Assessment of natural radioactivity and heavy metal accumulation in selected edible fruit nuts from Lagos and Ogun State markets, Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "tAs",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/alatise2025-fruit-nuts-metals",
+        "content_pin": {
+          "content_sha256": "505cc93dfa02b12de68d0417cee8f60951d245dc29f81db826daadc7e4235857",
+          "content_bytes": 2542,
+          "last_commit_sha": "7a4c45a",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 7a4c45a:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bazie2022-burkina-faso-foodstuffs-metals",
+        "title": "Evaluation of metallic trace elements contents in some major raw foodstuffs in Burkina Faso and health risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bazie2022-burkina-faso-foodstuffs-metals",
+        "content_pin": {
+          "content_sha256": "a60dc8f6bd42e7ceb4e24be20b63b860f71751b96e84cce619070214a9f9630c",
+          "content_bytes": 2229,
+          "last_commit_sha": "7a4c45a",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 7a4c45a:wiki/sources/bazie2022-burkina-faso-foodstuffs-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/belew2024-peanuts-date-palm-metals",
+        "title": "Heavy metals concentration and health risk assessment in peanut and date palm from Jigjiga City Markets, Ethiopia",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Pb",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/belew2024-peanuts-date-palm-metals",
+        "content_pin": {
+          "content_sha256": "a6b73471cda12176bfab0552ed0b9cb9a1d1ca5c50e62176bd198871a24e2538",
+          "content_bytes": 2263,
+          "last_commit_sha": "7a4c45a",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 7a4c45a:wiki/sources/belew2024-peanuts-date-palm-metals.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/chen2022-peanut-elements-china",
         "title": "Determination of macro, micro and toxic element concentrations in peanuts from main peanut producing areas of China by ICP-MS: a pilot study on the geographical characterization",
@@ -51,8 +121,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chen2022-peanut-elements-china",
         "content_pin": {
-          "content_sha256": "c6e871e9b627082c193975a9bc4ba04acd869c40133292c5a0b8debdb64a0da2",
-          "content_bytes": 15653,
+          "content_sha256": "8ed70acd9d77878a79355e31609fa76bc89f08591bfd96cb9d1d84db88402089",
+          "content_bytes": 15622,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -74,8 +144,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
         "content_pin": {
-          "content_sha256": "474e076a9cc6a3b8125066bc58e41cf7f840edf00dbb85fd44817ea3378bba32",
-          "content_bytes": 5611,
+          "content_sha256": "243eb8bb95ee3d89de929cc7b1f20a956f0fb2ddce92004df67059199a665455",
+          "content_bytes": 5554,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -94,12 +164,36 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "3738aa0d85f46e6c37cf140d065153c90c00dd0ef3b78264843f090e544d7ad1",
-          "content_bytes": 30478,
+          "content_sha256": "6d0754726ea4711f15ec33ed19b33e23fe50524def4283494dbcc987fb1c36fa",
+          "content_bytes": 30431,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 70ae1cc:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/liu2025-nanyang-crops-heavy-metals",
+        "title": "Heavy metal synergistic pollution risk assessment in the soil-crop system of the Nanyang Basin",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Cr",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/liu2025-nanyang-crops-heavy-metals",
+        "content_pin": {
+          "content_sha256": "ed54da2d779649d7be6adf7895a93c043952643399081a0432f22b8263377df2",
+          "content_bytes": 2286,
+          "last_commit_sha": "7a4c45a",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 7a4c45a:wiki/sources/liu2025-nanyang-crops-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -118,8 +212,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masite2022-mopane-trace-metals",
         "content_pin": {
-          "content_sha256": "74065aa1d7cadbfe07a488691fed3f9ccd8217e2d575e6d31ef2a0a2b92989e4",
-          "content_bytes": 3387,
+          "content_sha256": "f5f3ab29e84af2d0f2b21158ce5465fbda1ccb50b82b4b3f6812841d0d348654",
+          "content_bytes": 3336,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -146,8 +240,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/meng2023-electrochemical-sensors-food-heavy-metals",
         "content_pin": {
-          "content_sha256": "9d4a7ebb0abaf57872ddde24717c0acb4d222def269936e20064f40308b80f37",
-          "content_bytes": 15881,
+          "content_sha256": "e8d5740514130d64cb3410dc422967d2071dbfc4cdc3b56354170b1657c709de",
+          "content_bytes": 15834,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -170,8 +264,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhang2026-trace-metals-five-crops-chongqing",
         "content_pin": {
-          "content_sha256": "80602b29ff439beee7d5d526509c58bdd9bc09b8cd8a09e3582fa917ae771449",
-          "content_bytes": 5473,
+          "content_sha256": "61a06c7ef0d02a826ce7acc5cb78dcbbf34072bc875b5a1f60ff65fa5515b4b0",
+          "content_bytes": 5442,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

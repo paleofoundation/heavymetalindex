@@ -123,3 +123,14 @@ The wiki reports the source's findings as published while documenting these conc
 - [[metals/manganese]]
 - [[metals/zinc]]
 - [[products/bottled-drinking-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7e144cd](https://github.com/paleofoundation/heavymetalindex/commit/7e144cd) | 2026-05-30 | ingest: burgon2023-cocoa-bean-to-bar-brazil-metals-ota [fresh] from manual-fetch/seasonal-geographic-variance/auto-fetched |
+| [4bcc466](https://github.com/paleofoundation/heavymetalindex/commit/4bcc466) | 2026-05-30 | ingest: kithure2021-bottled-water-nairobi fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

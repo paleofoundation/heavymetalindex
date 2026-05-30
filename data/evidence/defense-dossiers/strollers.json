@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/strollers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "29f7b4b07c629a426d4770cdd2d195ef291ab5ec81e2cd70c454b4a365051d17",
-      "content_bytes": 7537,
+      "content_sha256": "6df0ed652bc57223af4693c3064150ddf934761d0223e1b52fe15194f976b13a",
+      "content_bytes": 7489,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

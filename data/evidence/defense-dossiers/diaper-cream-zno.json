@@ -20,8 +20,8 @@
     "canonical_url": "https://heavymetalindex.com/products/diaper-cream-zno",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e3692a5d3817450670a6e0d85c96f08013763575a6f1b2c16399e293c6120e23",
-      "content_bytes": 11591,
+      "content_sha256": "e001bbee8f0f8798bea53a8d743510fd01d86e00d3b19c00cef1c9041c3e131d",
+      "content_bytes": 11548,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -42,8 +42,8 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
         "content_pin": {
-          "content_sha256": "850786a5b64fe0821624c7ef6e1765694433467e1416de4c7f9d5d87a8493538",
-          "content_bytes": 8847,
+          "content_sha256": "69bbf033f7d362ed520297b3b0f836585a46d07ce2d559e1dad792eecf5f0858",
+          "content_bytes": 8764,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -60,8 +60,8 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/rahma2022-infant-skin-barrier-function-review",
         "content_pin": {
-          "content_sha256": "dab93ed8025ff28538aa74428b0ff33c6522cd092f76378ee9c1658e556de4cb",
-          "content_bytes": 16098,
+          "content_sha256": "904063189a76de180c6a32a993b697c6c07121d4e78e90708a7c5d597d55c21d",
+          "content_bytes": 16245,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -86,8 +86,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
         "content_pin": {
-          "content_sha256": "c13ba20a1060937409b2dcf312c7be51683b86ab27d733bf5b5afe6ef59270b4",
-          "content_bytes": 24491,
+          "content_sha256": "dc1b9b64e30bbcf6b2948d13e9b41efb8996833e94b70999990c37670d1a9074",
+          "content_bytes": 24638,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

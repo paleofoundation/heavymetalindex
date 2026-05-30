@@ -2,7 +2,7 @@
 source_page: wiki/products/mixed-meals-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6c36a7647ded4ec323ef59427f92194cfb5ac0c0f084f118341a40ad26910eee
+source_page_sha256: b162a2fe164aa7db552be29a482ba8342aee0ab89b43f7fa67c3f3a41b755b80
 total_claims: 96
 cited_claims: 96
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 28
 distinct_cited_sources: 22
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 98
+audit_log_total_rows: 120
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 22 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 98 |
+| audit log rows read | 120 |
 
 ## Page-level audit rows
 

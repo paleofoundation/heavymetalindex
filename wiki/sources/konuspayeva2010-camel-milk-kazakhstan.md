@@ -151,6 +151,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [2b9a5c2](https://github.com/paleofoundation/heavymetalindex/commit/2b9a5c2) | 2026-05-30 | audit-queue: massoud2020-mercury-biosorption-milk-lacidophilus PROMOTE |
 | [cf3483d](https://github.com/paleofoundation/heavymetalindex/commit/cf3483d) | 2026-05-30 | ingest: mirmahdi2021-dairy-decontamination-probiotics-review fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

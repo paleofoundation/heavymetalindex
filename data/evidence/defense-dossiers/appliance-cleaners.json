@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/appliance-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "58975e02e98fca1fb515491e0fa826e79af8361da3074d92b0859ecaa0d47c18",
-      "content_bytes": 7781,
+      "content_sha256": "bbf5cf1a1cd7a78883aa72166996dc7f3d9eb6bc424f2a19ed05bbb3d525adea",
+      "content_bytes": 7733,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

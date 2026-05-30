@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-protectants",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "81a8987899020f11201cb3f7cc26e4552f51cdc7b75a332e05c66fa5cf31fa89",
-      "content_bytes": 7904,
+      "content_sha256": "f786035e9426803604a63d063c635f73bc38c1deecf77fff8ef2771e0b738c6f",
+      "content_bytes": 7856,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

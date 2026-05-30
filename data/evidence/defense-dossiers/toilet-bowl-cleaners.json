@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toilet-bowl-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3ecaa0f4c4a3c2c842b0a13d76a95999c6b39a10bc838586ec1a760a270891b6",
-      "content_bytes": 7613,
+      "content_sha256": "c090367996e1f373dfcd9188c2237abf27a3b666b739744f9144516d76b57bd2",
+      "content_bytes": 7565,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `676a09c` (2026-05-29). The body hashes to `sha256:0a264246b43ce5c25d618cbb75ffc5ae…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `70ae1cc` (2026-05-30). The body hashes to `sha256:082996a32638e093e140634af169256a…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=spinach&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/spinach&download=1`.
 
 ## Evidence base
 
-This category is supported by 4 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 9 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 1 numerical claim; 1 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/spinach.md`.
 

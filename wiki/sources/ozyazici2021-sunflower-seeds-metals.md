@@ -55,3 +55,13 @@ Certification: Turkey sunflower-seed occurrence evidence with regional sampling.
 ## Verification notes
 
 Values are from the abstract. The ug/kg unit is unusually low for seed mineral measurements and should be checked against the original tables before aggregate use.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5efca8](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8) | 2026-05-30 | ingest auto-fetched 2026-05-30 1010 batch 2: 7 source pages |
+<!-- END: hmi-page-history -->

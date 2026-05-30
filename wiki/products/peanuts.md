@@ -17,7 +17,7 @@ pair_row: 8
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 6
+sources: 10
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 
@@ -104,11 +104,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/zhang2026-trace-metals-five-crops-chongqing\|Zhang et al. 2026]]. *Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China*, Scientific Reports | 2026 | Peer-reviewed | CN tAs, Pb, Cd, Cr, Ni occurrence in Five crop species from Xiushan County, Chongqing, adjacent to typical manganese mining and smelting area; rice n=16, maize... (n=71) |
-| 2 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU Cd, Pb, Cr, Ni occurrence in Commercial nuts (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market (n=69) |
-| 3 | [[sources/meng2023-electrochemical-sensors-food-heavy-metals\|Meng et al. 2023]]. *The innovative and accurate detection of heavy metals in foods: A critical review on electrochemical sensors*, Food Control | 2023 | Review | Pb, Cd, tAs, tHg, Ni, Cr occurrence in Review of electrochemical sensor literature for heavy metal detection in food matrices |
-| 4 | [[sources/chen2022-peanut-elements-china\|Chen et al. 2022]]. *Determination of macro, micro and toxic element concentrations in peanuts from main peanut producing areas of China by ICP-MS: a pilot study on the geographical characterization*, RSC Advances | 2022 | Peer-reviewed | CN Pb, Cd, tAs, Cr, Ni, Al occurrence in Peanuts from 6 Chinese provinces (Jilin, Liaoning, Henan, Hebei, Guangxi, Guangdong) (n=66) |
-| 5 | [[sources/masite2022-mopane-trace-metals\|Masite et al. 2022]]. *Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts*, International Journal of Food Science | 2022 | Peer-reviewed | ZA tAs, Cd, Cr, Ni, Pb occurrence in Roasted mopane worms (Gonimbrasia belina), sweet corn, and peanuts purchased from South African markets (n=3) |
-| 6 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 2 | [[sources/alatise2025-fruit-nuts-metals\|Alatise et al. 2025]]. *Assessment of natural radioactivity and heavy metal accumulation in selected edible fruit nuts from Lagos and Ogun State markets, Nigeria*, Nigerian Journal of Theoretical and Environmental Physics | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland\|Ćwieląg-Drabek et al. 2025]]. *Evaluation of Cadmium, Lead, Chromium, and Nickel Content in Various Types of Nuts: Almonds, Cashews, Hazelnuts, Peanuts, and Walnuts – Health Risk of Polish Consumers*, Biological Trace Element Research | 2025 | Peer-reviewed | PL/EU Cd, Pb, Cr, Ni occurrence in Commercial nuts (almonds, cashews, hazelnuts, peanuts, walnuts) available on the Polish market (n=69) |
+| 4 | [[sources/liu2025-nanyang-crops-heavy-metals\|Liu et al. 2025]]. *Heavy metal synergistic pollution risk assessment in the soil-crop system of the Nanyang Basin*, Scientific Reports | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/belew2024-peanuts-date-palm-metals\|Belew et al. 2024]]. *Heavy metals concentration and health risk assessment in peanut and date palm from Jigjiga City Markets, Ethiopia*, Discover Environment | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/meng2023-electrochemical-sensors-food-heavy-metals\|Meng et al. 2023]]. *The innovative and accurate detection of heavy metals in foods: A critical review on electrochemical sensors*, Food Control | 2023 | Review | Pb, Cd, tAs, tHg, Ni, Cr occurrence in Review of electrochemical sensor literature for heavy metal detection in food matrices |
+| 7 | [[sources/bazie2022-burkina-faso-foodstuffs-metals\|Bazie et al. 2022]]. *Evaluation of metallic trace elements contents in some major raw foodstuffs in Burkina Faso and health risk assessment*, Scientific Reports | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/chen2022-peanut-elements-china\|Chen et al. 2022]]. *Determination of macro, micro and toxic element concentrations in peanuts from main peanut producing areas of China by ICP-MS: a pilot study on the geographical characterization*, RSC Advances | 2022 | Peer-reviewed | CN Pb, Cd, tAs, Cr, Ni, Al occurrence in Peanuts from 6 Chinese provinces (Jilin, Liaoning, Henan, Hebei, Guangxi, Guangdong) (n=66) |
+| 9 | [[sources/masite2022-mopane-trace-metals\|Masite et al. 2022]]. *Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts*, International Journal of Food Science | 2022 | Peer-reviewed | ZA tAs, Cd, Cr, Ni, Pb occurrence in Roasted mopane worms (Gonimbrasia belina), sweet corn, and peanuts purchased from South African markets (n=3) |
+| 10 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +122,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [57c2985](https://github.com/paleofoundation/heavymetalindex/commit/57c2985) | 2026-05-28 | audit: gasparik2017-wild-boar-slovakia-metals [revised] |
-| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 <!-- END: hmi-page-history -->

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/all-purpose-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "28cf75bcb59607bf0c57c3972e7331fbbf5b3d7c5c9f232bf0295a703b039199",
-      "content_bytes": 7613,
+      "content_sha256": "467f915a9835aea1202f236b887911d0a5b44c15dc24f17abd532f29afe3af01",
+      "content_bytes": 7565,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

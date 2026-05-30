@@ -54,3 +54,13 @@ Certification: Pakistan/Sindh sunflower-seed occurrence evidence for Cd, Pb, and
 ## Verification notes
 
 Values and methods were transcribed from the PDF abstract. The title is taken from the content of the abstract and DOI-bearing PDF page; confirm final article title if the journal metadata differs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5efca8](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8) | 2026-05-30 | ingest auto-fetched 2026-05-30 1010 batch 2: 7 source pages |
+<!-- END: hmi-page-history -->

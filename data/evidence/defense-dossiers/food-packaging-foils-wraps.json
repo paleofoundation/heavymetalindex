@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-foils-wraps",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "da4d9a463142979c0928e2f8b2d31327c0e14f67546c2ae69bbeccc01cd1aa4c",
-      "content_bytes": 7646,
+      "content_sha256": "599a90aae5c53bec291b118d7405e61a610a33f394ca0e332d87b182b2f8c751",
+      "content_bytes": 7598,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

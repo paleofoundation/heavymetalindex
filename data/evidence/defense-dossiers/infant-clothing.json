@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-clothing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "427dd15656196b409561f316f5357c4cba942f9386419cf767d199045c951f49",
-      "content_bytes": 8419,
+      "content_sha256": "47a7f7d0ceb47f855cce34c27edc7bd26d11037b151d82965c95181290b897b1",
+      "content_bytes": 8376,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -49,8 +49,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/xiong2025-heavy-metals-infant-clothing",
         "content_pin": {
-          "content_sha256": "40af3285aebcb1eee4873707e69011138801dc419ae81fe22ff2a18c9d265b04",
-          "content_bytes": 20466,
+          "content_sha256": "ffcbee0449693b425fb495ed5e7b47ea396e570ddb9a241793322560a94cd6db",
+          "content_bytes": 20381,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

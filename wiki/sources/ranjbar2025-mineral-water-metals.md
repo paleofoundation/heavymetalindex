@@ -53,3 +53,13 @@ Certification: mineral-water non-detect context for Pb and Cr in Iran. Courses: 
 ## Verification notes
 
 The abstract explicitly states Pb and Cr absence. Because numerical metal concentrations are not present in the abstract, treat as routeable non-detect/source documentation pending method-table extraction.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7a4c45a](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a) | 2026-05-30 | ingest auto-fetched 2026-05-30 0950 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

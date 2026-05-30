@@ -53,3 +53,13 @@ Certification: India/Amravati spinach occurrence context for Pb and Cd. Courses:
 ## Verification notes
 
 The DOI is visible in the PDF footer. The source has weak wording and limited methods detail; values are captured because they are explicit, but route fitness is lower than better A-tier studies.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7a4c45a](https://github.com/paleofoundation/heavymetalindex/commit/7a4c45a) | 2026-05-30 | ingest auto-fetched 2026-05-30 0950 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

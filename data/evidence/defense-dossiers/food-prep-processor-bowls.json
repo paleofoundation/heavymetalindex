@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/food-prep-processor-bowls",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "356ea92ae28cd7a69d92da43335a4b43d883b5a169a0199ab412eb4392e5b419",
-      "content_bytes": 7688,
+      "content_sha256": "e79e5e4a4bda7bd86103943e6f9174b18c269652d8fbae42c8a36f853bf7aa9e",
+      "content_bytes": 7640,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

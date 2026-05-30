@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/floor-cleaners-hard-surface",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f7e12667c59abf15e9620ff951181426c342b807921069f52520c04d1fc5f2b5",
-      "content_bytes": 7686,
+      "content_sha256": "14dda68bc9fcd2de97c85cebe37385a3c3f25ae2b3dd1dc941ec8069dd3f2409",
+      "content_bytes": 7638,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

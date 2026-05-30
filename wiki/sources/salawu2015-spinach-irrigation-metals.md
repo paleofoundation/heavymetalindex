@@ -52,3 +52,13 @@ Certification: Nigeria/Zamfara spinach occurrence context with paired irrigation
 ## Verification notes
 
 Numbers were taken from the PDF abstract. The source must not be mixed with dry-weight studies unless unit/basis conversion is resolved.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5efca8](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8) | 2026-05-30 | ingest auto-fetched 2026-05-30 1010 batch 2: 7 source pages |
+<!-- END: hmi-page-history -->

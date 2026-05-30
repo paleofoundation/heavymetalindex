@@ -148,3 +148,14 @@ This is a defended master's thesis from ITAL/Campinas; Chapter 3 (ochratoxin A) 
 - Cocoa-bean ICP-OES LOD for Pb is 0.057 mg/kg and for Cd is 0.171 mg/kg; several bean values are left-censored at "<0,17" or "<0,06" in source tables and the per-region "mean" lines include these censored values. The single Bahia bean Pb maximum of 0.313 mg/kg is the only quantified value driving the all-region Pb mean. Treat bean Pb/Cd quantification as left-censored-dominant.
 - Audit subagent (2026-05-30) flagged matrices field as overspecified (used `cocoa-beans, dark-chocolate, milk-chocolate, white-chocolate, bean-to-bar-chocolate`); corrected to the broad-scope canonical vocabulary `[cocoa, chocolate]` per docs/gpt-collaboration/system-prompt.md matrices guidance.
 - Audit subagent (2026-05-30) flagged Implications/Certification "flag for cobalt to enter HMTc cocoa-derivative analyte review" as crossing toward HMTc governance proposal; softened to a factual note that Co is not currently in the HMTc ten-analyte panel.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [95f6bf7](https://github.com/paleofoundation/heavymetalindex/commit/95f6bf7) | 2026-05-30 | audit: burgon2023-cocoa-bean-to-bar-brazil-metals-ota [revised] |
+| [7e144cd](https://github.com/paleofoundation/heavymetalindex/commit/7e144cd) | 2026-05-30 | ingest: burgon2023-cocoa-bean-to-bar-brazil-metals-ota [fresh] from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

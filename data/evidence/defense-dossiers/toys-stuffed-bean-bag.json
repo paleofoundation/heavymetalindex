@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-stuffed-bean-bag",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "56bcd888e1c7ee6011c3faa3c5cf67be5bc84ea36c995ee2411472c281a58450",
-      "content_bytes": 7692,
+      "content_sha256": "ad5b725fe81436a262ad6cc9034134b48923ddd5084528016054d5ade6332f44",
+      "content_bytes": 7644,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

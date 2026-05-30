@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 4
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
@@ -114,10 +114,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|Olowoyo et al. 2026]]. *Heavy Metals Burden in Drinking Water: Global Patterns, Sources, and Public Health Implications*, Water 18(8): 886 | 2026 | Review | global Pb, Cd, tAs, tHg, Ni, Cr, Al occurrence in Systematic review of peer-reviewed studies published 2015–2024 on heavy metals in four water source types globally |
-| 2 | [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|Decharat et al. 2023]]. *Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand* | 2023 | Peer-reviewed | TH Pb, Cd occurrence in Drinking water samples (bottled, tap, filtered, raw) from child development centres, Phatthalung province, southern Thailand (n=210) |
-| 3 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
-| 4 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 1 | [[sources/brima2026-drinking-water-elements\|Brima et al. 2026]]. *Analysis of essential and toxic elements in tap and bottled water from the UK and its comparison with literature data for drinking water from African countries: implications for human health*, African Journal of Agriculture and Food Science | 2026 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|Olowoyo et al. 2026]]. *Heavy Metals Burden in Drinking Water: Global Patterns, Sources, and Public Health Implications*, Water 18(8): 886 | 2026 | Review | global Pb, Cd, tAs, tHg, Ni, Cr, Al occurrence in Systematic review of peer-reviewed studies published 2015–2024 on heavy metals in four water source types globally |
+| 3 | [[sources/ranjbar2025-mineral-water-metals\|Ranjbar et al. 2025]]. *Machine learning models for water safety enhancement*, Scientific Reports | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|Decharat et al. 2023]]. *Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand* | 2023 | Peer-reviewed | TH Pb, Cd occurrence in Drinking water samples (bottled, tap, filtered, raw) from child development centres, Phatthalung province, southern Thailand (n=210) |
+| 5 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
+| 6 | [[sources/kithure2021-bottled-water-nairobi\|Kithure et al. 2021]]. *How Safe is the Water Consumed in Different Parts of Nairobi, Kenya?*, International Journal of Research and Innovation in Applied Science (IJRIAS) | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/jabar2019-heavy-elements-water-diyala-iraq\|Abdul et al. 2019]]. *Determination of Heavy Elements (Pb, Cd, Cu and Cr) Concentration in Some Water Sources*, Chemistry & Chemical Technology | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -127,9 +132,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [57c2985](https://github.com/paleofoundation/heavymetalindex/commit/57c2985) | 2026-05-28 | audit: gasparik2017-wild-boar-slovakia-metals [revised] |
-| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 <!-- END: hmi-page-history -->

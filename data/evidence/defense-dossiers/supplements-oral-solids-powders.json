@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a0c4e89eb9beaa561eed268b4e49658f53a72f73098ddf768c2d4c60a609152c",
-      "content_bytes": 7796,
+      "content_sha256": "c2b280e0598936386bfd346047d79e6247aa14f18cb51f0e7c0891d122327722",
+      "content_bytes": 7748,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "24fb64881683306d946f71d1ee9f23cfe346bf11416646853303ef581f92a37f",
-      "content_bytes": 7661,
+      "content_sha256": "3db2f2c84f7e7890c636ffb54cb83535ba9dd517e65c55196f2c863f014e525e",
+      "content_bytes": 7613,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

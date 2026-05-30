@@ -11,22 +11,22 @@ One version-pinned evidence dossier per certified product category, assembling t
 
 ## Fruits, Vegetables, and Produce
 
-- [[dossiers/cashews|Cashews]] — 4 contributing sources
-- [[dossiers/dried-fruit|Dried Fruit]] — 3 contributing sources
-- [[dossiers/fresh-fruit|Fresh Fruit]] — 31 contributing sources
+- [[dossiers/cashews|Cashews]] — 6 contributing sources
+- [[dossiers/dried-fruit|Dried Fruit]] — 4 contributing sources
+- [[dossiers/fresh-fruit|Fresh Fruit]] — 32 contributing sources
 - [[dossiers/fruit-snacks|Fruit Snacks]] — 1 contributing source
 - [[dossiers/leafy-vegetables-other|Leafy / Green Vegetables, Other]] — 11 contributing sources
 - [[dossiers/legumes-pulses-other|Legumes and Pulses, Other]] — 6 contributing sources
 - [[dossiers/non-root-vegetables|Non-Root Vegetables]] — 23 contributing sources
 - [[dossiers/nut-seed-butters-other|Nut and Seed Butters, Other]] — 1 contributing source
-- [[dossiers/nuts-seeds-other|Nuts and Seeds, Other]] — 3 contributing sources
+- [[dossiers/nuts-seeds-other|Nuts and Seeds, Other]] — 4 contributing sources
 - [[dossiers/peanut-butter|Peanut Butter]] — 5 contributing sources
-- [[dossiers/peanuts|Peanuts]] — 6 contributing sources
+- [[dossiers/peanuts|Peanuts]] — 10 contributing sources
 - [[dossiers/root-tuber-vegetables|Root and Tuber Vegetables]] — 23 contributing sources
 - [[dossiers/soy-products|Soy Products]] — 1 contributing source
-- [[dossiers/spinach|Spinach]] — 4 contributing sources
+- [[dossiers/spinach|Spinach]] — 9 contributing sources
 - [[dossiers/sunflower-seed-butter|Sunflower Seed Butter]] — 0 contributing sources
-- [[dossiers/sunflower-seeds|Sunflower Seeds]] — 5 contributing sources
+- [[dossiers/sunflower-seeds|Sunflower Seeds]] — 8 contributing sources
 
 ## Infant and Child Foods
 
@@ -89,7 +89,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] — 5 contributing sources
 - [[dossiers/pet-supplements-botanical-herbal|Botanical/herbal blends]] — 0 contributing sources
 - [[dossiers/infant-bottle-nipples|Bottle nipples and spouts]] — 0 contributing sources
-- [[dossiers/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] — 4 contributing sources
+- [[dossiers/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] — 9 contributing sources
 - [[dossiers/infant-bottles|Bottles (plastic, glass, stainless steel)]] — 0 contributing sources
 - [[dossiers/bread-and-baked-goods|Bread and baked goods]] — 11 contributing sources
 - [[dossiers/breath-fresheners|Breath fresheners (sprays/strips/lozenges)]] — 0 contributing sources
@@ -203,7 +203,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/tableware-metal-bottles-tumblers|Metal bottles/tumblers]] — 0 contributing sources
 - [[dossiers/utensils-metal|Metal utensils]] — 0 contributing sources
 - [[dossiers/pet-milk-replacers-specialty-liquids|Milk replacers and specialty pet liquids]] — 0 contributing sources
-- [[dossiers/mineral-water|Mineral water]] — 1 contributing source
+- [[dossiers/mineral-water|Mineral water]] — 2 contributing sources
 - [[dossiers/mouthwash-oral-rinse|Mouthwash/oral rinse]] — 1 contributing source
 - [[dossiers/nebula-diffusers|Nebula diffusers]] — 0 contributing sources
 - [[dossiers/cookware-nonstick-coated|Nonstick-coated cookware]] — 0 contributing sources
@@ -306,7 +306,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/vinegar|Vinegar]] — 10 contributing sources
 - [[dossiers/pet-supplements-vitamin-mineral|Vitamin/mineral supplements]] — 0 contributing sources
 - [[dossiers/walkers|Walkers]] — 0 contributing sources
-- [[dossiers/water-filters|Water filters]] — 0 contributing sources
+- [[dossiers/water-filters|Water filters]] — 1 contributing source
 - [[dossiers/whitening-products|Whitening products (strips/gels/powders/pens)]] — 0 contributing sources
 - [[dossiers/window-glass-mirror-cleaners|Window/glass/mirror cleaners]] — 0 contributing sources
 - [[dossiers/toys-yo-yo-elastic-tether|Yo-yo elastic tether toys]] — 0 contributing sources

@@ -138,3 +138,14 @@ No reference materials, LOD/LOQ values, recovery percentages, blank corrections,
 - [[metals/chromium]]
 - [[ingredients/water]]
 - [[products/bottled-drinking-water]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [994d30e](https://github.com/paleofoundation/heavymetalindex/commit/994d30e) | 2026-05-30 | audit: jabar2019-heavy-elements-water-diyala-iraq revised |
+| [cbc0f85](https://github.com/paleofoundation/heavymetalindex/commit/cbc0f85) | 2026-05-30 | ingest: jabar2019-heavy-elements-water-diyala-iraq fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

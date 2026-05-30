@@ -10,7 +10,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-14
-sources: 31
+sources: 32
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -109,13 +109,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 22 | [[sources/chaleshtori2019-watermelon-carrot-pb-cd\|Reza et al. 2019]]. *Assessment of Lead and Cadmium Levels in Watermelon and Carrot*, Iranian Journal of Toxicology | 2019 | Peer-reviewed | IR Pb, Cd occurrence in Watermelon and carrot samples analyzed for lead and cadmium in Iran |
 | 23 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg occurrence in Beijing general population; 25 foodstuff types collected from four sites, three replicates per foodstuff at each site (n=300) |
 | 24 | [[sources/fda2018-iAs-infant-rice-cereals-fy2018\|FDA 2018]]. *Fiscal Year 2018 Arsenic in Infant Rice Cereals Assignment Data*, U.S. Food and Drug Administration | 2018 | Government report | US iAs, tAs concentrations (n=149) |
-| 25 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\|FDA 2016]]. *Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers*, U.S. Food and Drug Administration | 2016 | Government dataset | US-FDA iAs, tAs concentrations (n=415) |
-| 26 | [[sources/unaegbu2016-fruit-heavy-metals-enugu\|Unaegbu et al. 2016]]. *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*, International Journal of Food Contamination | 2016 | Peer-reviewed | NG/US/ZA Ni, Cd, Pb occurrence in Ten fruit samples representing apple, pineapple, orange, watermelon, and banana sold in Ogbete market, Enugu, Nigeria; source table... (n=10) |
-| 27 | [[sources/rashid2015-metals-rock-melon-malaysia\|Rashid et al. 2015]]. *Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat*, Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) | 2015 | Peer-reviewed | MY Al, Cr, Pb, Ni occurrence in Rock melon (Cucumis melo, cultivar Glamour) randomly sampled from 5 farm locations in Mantin (Negeri Sembilan) and Jalan... (n=70) |
-| 28 | [[sources/fda2011-arsenic-apple-juice-2005-2011\|FDA 2011]]. *Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program*, US Food and Drug Administration | 2011 | Government dataset | US tAs concentrations (n=160) |
-| 29 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz et al. 2010]]. *Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits*, Polish Journal of Environmental Studies | 2010 | Peer-reviewed | PL Pb, Cd occurrence in Apples, plums, strawberries, raspberries, and white grapes from allotment gardens in Lublin city center and surrounding rural areas,... (n=108) |
-| 30 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, wheat grains collected in 2001 from three agricultural regions of Poland; plus commercially purchased juices,... (n=272) |
-| 31 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | UK/KW Sn occurrence in 11 cats, dogs, rats, and 5 human volunteers; canned juices recovered from a 1967 Kuwait food poisoning outbreak... (n=11) |
+| 25 | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra et al. 2017]]. *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*, IOSR Journal of Applied Chemistry | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 26 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\|FDA 2016]]. *Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers*, U.S. Food and Drug Administration | 2016 | Government dataset | US-FDA iAs, tAs concentrations (n=415) |
+| 27 | [[sources/unaegbu2016-fruit-heavy-metals-enugu\|Unaegbu et al. 2016]]. *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*, International Journal of Food Contamination | 2016 | Peer-reviewed | NG/US/ZA Ni, Cd, Pb occurrence in Ten fruit samples representing apple, pineapple, orange, watermelon, and banana sold in Ogbete market, Enugu, Nigeria; source table... (n=10) |
+| 28 | [[sources/rashid2015-metals-rock-melon-malaysia\|Rashid et al. 2015]]. *Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat*, Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) | 2015 | Peer-reviewed | MY Al, Cr, Pb, Ni occurrence in Rock melon (Cucumis melo, cultivar Glamour) randomly sampled from 5 farm locations in Mantin (Negeri Sembilan) and Jalan... (n=70) |
+| 29 | [[sources/fda2011-arsenic-apple-juice-2005-2011\|FDA 2011]]. *Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program*, US Food and Drug Administration | 2011 | Government dataset | US tAs concentrations (n=160) |
+| 30 | [[sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits\|Sembratowicz et al. 2010]]. *Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits*, Polish Journal of Environmental Studies | 2010 | Peer-reviewed | PL Pb, Cd occurrence in Apples, plums, strawberries, raspberries, and white grapes from allotment gardens in Lublin city center and surrounding rural areas,... (n=108) |
+| 31 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, wheat grains collected in 2001 from three agricultural regions of Poland; plus commercially purchased juices,... (n=272) |
+| 32 | [[sources/benoy1971-tin-toxicity-canned-fruit-juices\|Benoy et al. 1971]]. *The Toxicity of Tin in Canned Fruit Juices and Solid Foods*, Food and Cosmetics Toxicology, Vol. 9, Issue 5, pp. 645-656 | 1971 | Peer-reviewed | UK/KW Sn occurrence in 11 cats, dogs, rats, and 5 human volunteers; canned juices recovered from a 1967 Kuwait food poisoning outbreak... (n=11) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -125,9 +126,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 | [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
-| [69e1bd7](https://github.com/paleofoundation/heavymetalindex/commit/69e1bd7) | 2026-05-28 | autonomy: commit pending sync-source-counts + tracker updates from stalled ticks |
 <!-- END: hmi-page-history -->

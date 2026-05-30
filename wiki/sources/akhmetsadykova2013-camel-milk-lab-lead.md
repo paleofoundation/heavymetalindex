@@ -91,6 +91,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [3ae2d3b](https://github.com/paleofoundation/heavymetalindex/commit/3ae2d3b) | 2026-05-30 | audit: akhmetsadykova2013-camel-milk-lab-lead promoted |
 | [fc6e707](https://github.com/paleofoundation/heavymetalindex/commit/fc6e707) | 2026-05-30 | ingest: akhmetsadykova2013-camel-milk-lab-lead fresh from Manual Fetch Discovery |
 <!-- END: hmi-page-history -->

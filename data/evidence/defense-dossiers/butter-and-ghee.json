@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/butter-and-ghee",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9deab95fa9fedf634a023e1e635c5837340996eae36e4d2c7cb02081332f43e6",
-      "content_bytes": 8385,
-      "last_commit_sha": "70ae1cc",
+      "content_sha256": "0758da8a53bcb3496b2be68e73605bfd2ca4cebb32aef632e5ff23053d8a8e92",
+      "content_bytes": 8312,
+      "last_commit_sha": "d26f8f1",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/butter-and-ghee.md | sha256sum"
+      "verify_command": "git show d26f8f1:wiki/products/butter-and-ghee.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,8 +48,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hasan2021-bangladesh-dairy-trace-elements",
         "content_pin": {
-          "content_sha256": "796dfd18d0d3e6b68c174ff742c2c88026a6d22ffe8841f38c2e48a0f4a9bc41",
-          "content_bytes": 13781,
+          "content_sha256": "eb3a85be7aa1925b5a7faeb7f4f2fe1d568aea3361448a919019615993e1212a",
+          "content_bytes": 13928,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -68,8 +68,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pankiewicz2012-thg-dairy-products-poland",
         "content_pin": {
-          "content_sha256": "89363f5e323b66cac0516ee5badc100dac0dc3007324d7486d494f0b32644c4d",
-          "content_bytes": 15156,
+          "content_sha256": "02a666c69920ca9f54b1464193bbb2c0cf27a2d402e3c94429db2be189bd3839",
+          "content_bytes": 15095,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -91,8 +91,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/starska2011-noxious-elements-milk-products-poland",
         "content_pin": {
-          "content_sha256": "da74f87db91dac8ccb92e2953279e9ab0e5f20faebd32c1252accdecb264449c",
-          "content_bytes": 15750,
+          "content_sha256": "7a2135473d4cd1775174b60cbe444967f3c64bce1bce5df7a3c733074de2b240",
+          "content_bytes": 15711,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

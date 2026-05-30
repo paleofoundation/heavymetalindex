@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/art-craft-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2518c5e2925bca5c76d703aec2f9821a666bad5a626a19bc897848b372b4f595",
-      "content_bytes": 8320,
+      "content_sha256": "44e1bb53858e89dadfd3b5987ec14c774a2106851e71f8f7f14c6fc1339a1888",
+      "content_bytes": 8272,
       "last_commit_sha": "70ae1cc",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

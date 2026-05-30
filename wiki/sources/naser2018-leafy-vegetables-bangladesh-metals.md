@@ -55,3 +55,13 @@ Certification: site-specific Bangladesh spinach evidence for Pb, Cd, Ni, Co, and
 ## Verification notes
 
 Values were transcribed from Tables 3 and 4 in the PDF text extraction. Units are ug/g dry weight; conversion to ppb dry weight requires multiplying by 1000 and must be logged if used downstream.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5efca8](https://github.com/paleofoundation/heavymetalindex/commit/f5efca8) | 2026-05-30 | ingest auto-fetched 2026-05-30 1010 batch 2: 7 source pages |
+<!-- END: hmi-page-history -->

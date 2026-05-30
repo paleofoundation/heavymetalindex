@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-dye-rinse-off",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "926399d4fb5725a78f3f29d40ddbc8198ee3d384e5b3cb3d7f0d1744b8d26303",
-      "content_bytes": 8476,
-      "last_commit_sha": "70ae1cc",
+      "content_sha256": "eabdef3cdcc867efb1942bc2193498558dcea08222e0908a4b6a38fd215753f8",
+      "content_bytes": 8324,
+      "last_commit_sha": "d26f8f1",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/hair-dye-rinse-off.md | sha256sum"
+      "verify_command": "git show d26f8f1:wiki/products/hair-dye-rinse-off.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,8 +42,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benabbes2021-morocco-hair-dyes-pb-cd",
         "content_pin": {
-          "content_sha256": "bef797ccacf8a33c9b4fa2ffa1291febe8e982ea457987e0c2ff490704e3b667",
-          "content_bytes": 20785,
+          "content_sha256": "9f2e0fa3e87179f0715f2b96a046bf48a84ae1188d26d7dee9abc31ee8a6ce09",
+          "content_bytes": 20932,
           "last_commit_sha": "70ae1cc",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

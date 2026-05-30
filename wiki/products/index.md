@@ -100,19 +100,19 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/contaminated splits document categorical metal-load differences: spinach (Cd) split from leafy vegetables; soy and peanut (each carrying their own platform load) split from legumes/pulses; cashew (Ni) and sunflower seed (Cd) each split from nuts and seeds; peanut butter and sunflower seed butter inherit from their whole-kernel parents within the nut and seed butters family.
 
-- [[products/fresh-fruit|Fresh and Frozen Fruits]] (31 sources)
-- [[products/dried-fruit|Dried Fruit]] (3 sources)
+- [[products/fresh-fruit|Fresh and Frozen Fruits]] (32 sources)
+- [[products/dried-fruit|Dried Fruit]] (4 sources)
 - [[products/fruit-snacks|Fruit Snacks]] (1 source)
 - [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (11 sources)
-- [[products/spinach|Spinach]] (4 sources)
+- [[products/spinach|Spinach]] (9 sources)
 - [[products/non-root-vegetables|Non-Root Vegetables]] (23 sources)
 - [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (23 sources)
 - [[products/legumes-pulses-other|Legumes and Pulses, Other]] (6 sources)
 - [[products/soy-products|Soy Products]] (1 source)
-- [[products/peanuts|Peanuts]] (6 sources)
-- [[products/nuts-seeds-other|Nuts and Seeds, Other]] (3 sources)
-- [[products/cashews|Cashews]] (4 sources)
-- [[products/sunflower-seeds|Sunflower Seeds]] (5 sources)
+- [[products/peanuts|Peanuts]] (10 sources)
+- [[products/nuts-seeds-other|Nuts and Seeds, Other]] (4 sources)
+- [[products/cashews|Cashews]] (6 sources)
+- [[products/sunflower-seeds|Sunflower Seeds]] (8 sources)
 - [[products/nut-seed-butters-other|Nut and Seed Butters, Other]] (1 source)
 - [[products/peanut-butter|Peanut Butter]] (5 sources)
 - [[products/sunflower-seed-butter|Sunflower Seed Butter]] (0 sources)
@@ -182,8 +182,8 @@ Exposure pathway: **Ingestion (oral, high-volume daily consumption)**.  Regulato
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] (4 sources)
-2. [[products/mineral-water|Mineral water]] (1 source)
+1. [[products/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] (9 sources)
+2. [[products/mineral-water|Mineral water]] (2 sources)
 3. [[products/sparkling-carbonated-water|Sparkling/carbonated water (unflavored)]] (0 sources)
 4. [[products/infant-nursery-water|Infant water / nursery water (if not routed to Category 1 by age-marketing)]] (0 sources)
 
@@ -501,7 +501,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 26. [[products/food-prep-processor-bowls|Food processor bowls]] (0 sources)
 27. [[products/food-prep-coffee-maker-pathways|Coffee-maker pathways]] (0 sources)
 28. [[products/food-prep-kettle-interiors|Kettle interiors]] (0 sources)
-29. [[products/water-filters|Water filters]] (0 sources)
+29. [[products/water-filters|Water filters]] (1 source)
 30. [[products/filter-media-and-housings|Filter media and housings]] (0 sources)
 
 <!-- BEGIN: hmi-auto-linked-stubs -->
@@ -510,22 +510,22 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/breakfast-cereals|Breakfast Cereals]]
-- [[products/canned-mushrooms|Canned Mushrooms]]
-- [[products/infant-food-general|Infant Food General]]
-- [[products/infant-food-puree|Infant Food Puree]]
-- [[products/infant-food-puree-fish|Infant Food Puree Fish]]
-- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]]
-- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]]
-- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]]
-- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]]
-- [[products/infant-formula-dairy|Infant Formula Dairy]]
-- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
-- [[products/infant-juice|Infant Juice]]
-- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
-- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
-- [[products/infant-rice-cereal|Infant Rice Cereal]]
-- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]]
-- [[products/pickled-mushrooms|Pickled Mushrooms]]
-- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
+- [[products/breakfast-cereals|Breakfast Cereals]] (8 sources)
+- [[products/canned-mushrooms|Canned Mushrooms]] (1 source)
+- [[products/infant-food-general|Infant Food General]] (6 sources)
+- [[products/infant-food-puree|Infant Food Puree]] (0 sources)
+- [[products/infant-food-puree-fish|Infant Food Puree Fish]] (0 sources)
+- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]] (0 sources)
+- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]] (0 sources)
+- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]] (0 sources)
+- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]] (0 sources)
+- [[products/infant-formula-dairy|Infant Formula Dairy]] (6 sources)
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]] (2 sources)
+- [[products/infant-juice|Infant Juice]] (0 sources)
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]] (0 sources)
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]] (0 sources)
+- [[products/infant-rice-cereal|Infant Rice Cereal]] (15 sources)
+- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]] (1 source)
+- [[products/pickled-mushrooms|Pickled Mushrooms]] (1 source)
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]] (6 sources)
 <!-- END: hmi-auto-linked-stubs -->
