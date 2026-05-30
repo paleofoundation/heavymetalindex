@@ -391,3 +391,50 @@ Per the v2.0 skill's Phase 1 selection rule ("Skip PDFs whose existing pages are
 3. No wiki source page changes. No new commit. No routing audit re-run. No audit-queue change.
 
 **Pattern note for daemon:** The Kimi corruption-drain folder (`raw/manual-fetch/Kimi_Agent_Download Corruption Issue/`) is in part a re-stash of files that were already ingested via the original `raw/Manual Fetch Kimi /` folder. Before queueing a corruption-drain PDF, the daemon should run a filename-based and a content-hash-based check against `wiki/sources/` for existing pages whose `raw_path` references the same basename or whose raw_sha256 matches — pages with `updated: >= 2026-05-14` AND `audit-queue.status = audited-*` should be auto-skipped without surfacing as a candidate, distinct from a wrong-bytes content mismatch (Tei 2016, Chokwe 2022) which requires reading the PDF to detect.
+
+## STOP — Chromium content of selected food and beverages of plant origin.pdf
+
+**Folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`
+**Suggested handle:** `KADC_chromium-content-of-selected-food-and-beverages-of`
+**Existing wiki page:** `wiki/sources/reczajska2005-chromium-plant-foods-poland.md`
+**Page state:** `updated: 2026-05-19`, audit-queue verdict `audited-revised` (commit 5724545, 2026-05-19), NOT in `routing_malformed.csv`, NOT in `routing_unresolved.csv`.
+
+**Reason:** Per v2.0 SKILL Phase 1 step 1, a PDF is skipped if its existing wiki source page is post-2026-05-14 clean AND not in malformed. All three conditions are satisfied here: the page was already merge-enhanced AND audit-subagent-reviewed on 2026-05-19 (the prior cycle corrected Wines/Beers 90th-percentile transpositions, expanded `products`, normalized `matrices`, and documented paper-internal contradictions). Identity checks (filename grep + cite-key grep) confirm a 1:1 match — same Reczajska/Jedrzejczak/Szteke 2005 paper, Pol. J. Food Nutr. Sci. 14/55(2):183-188, ZETAAS chromium survey of 272 Polish samples (224 fresh plants + 30 beverages + the 18 abstract-vs-Materials discrepancy already documented in the page's `## Verification notes`).
+
+**No wiki source page written. No routing audit run. No audit-queue entry.**
+
+**Daemon pattern note:** This is the duplicate-skip pattern already flagged at the end of this file — the KADC folder contains PDFs that are bit-for-bit identical to (or content-identical to) previously ingested papers from other folders (here, the original Manual Fetch Kimi 01_Fruits_and_Fruit_Products). The candidate-selection layer should match KADC PDFs against existing `raw_path` basenames (case-insensitive, ignoring the `Kimi_Agent_Download Corruption Issue/papers/` prefix) and auto-skip when the existing page's `updated` is >= 2026-05-14 with an `audited-*` queue status, rather than handing the same PDF to a fresh ingest cycle on every tick.
+
+## STOP — Determination and risk analysis of heavy metals in different fruits collected from different shops of Dhaka city.pdf (already ingested)
+
+**Folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`
+**Suggested handle:** `KADC_determination-and-risk-analysis-of-heavy-metals-in`
+**Citation:** Afrin S (2020). *Determination and Risk Analysis of Heavy Metals in Different Fruits Collected from Different Shops of Dhaka City.* M.S. Thesis, Department of Agricultural Chemistry, Sher-e-Bangla Agricultural University, Dhaka. Registration No. 13-05539. Supervisor Dr. Md. Sirajul Islam Khan; Co-supervisor Dr. Md. Khairul Alam (BARI Soil Science Division).
+
+**Reason:** Already-ingested-and-audited paper. PDF pages 1–5 read and verified as the genuine Sadia Afrin 2020 SAU thesis (title page, supervisor approval page, certificate, dedication, acknowledgements all consistent with the M.S. thesis described on the existing wiki page). NOT a Kimi content/filename mismatch. Existing wiki page `wiki/sources/afrin2020-heavy-metals-fruits-dhaka.md` is the merge-enhanced version dated `updated: 2026-05-19`, post-2026-05-14 schema cutoff. Verification notes record the 2026-05-19 fresh-context audit subagent verdict PROMOTE (1 ⚠️ AAS-model inconsistency applied, 0 ❌ findings). Not in `routing_malformed.csv` or `routing_unresolved.csv`. Per the v2.0 skill workflow rule "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed," there is no work to do on this PDF.
+
+**Why the daemon kept surfacing it:** Same pattern as the Starska 2011 entry above. The PDF was originally manual-fetched via `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/` (the original Kimi folder, ingested and merge-enhanced 2026-05-19) and the same paper later landed in `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/` (the corruption-drain re-stash folder). Daemon enumerates by PDF filename and treats the corruption-drain copy as a fresh candidate.
+
+**Action taken:**
+1. Skip-list entry added to `data/evidence/manual-fetch-skip.csv` with reason `already_ingested:afrin2020-heavy-metals-fruits-dhaka`.
+2. Stop note recorded here.
+3. No wiki source page changes. No new commit. No routing audit re-run. No audit-queue change.
+
+**Pattern note:** This is the second confirmed already-ingested KADC `papers/` duplicate after Starska 2011 (Polish dairy). Both extend the corruption-drain folder's behavior into a third category — the four wrong-content mismatches (Tei 2016, Chokwe 2022, Ren 2024, Rakhmatulina 2024) are one mode; the two duplicate-of-already-ingested copies (Starska 2011, Afrin 2020) are a second mode; and the babycare exposure-pathway DOI-duplicates (Moon 2011, Oranges 2015) recorded earlier in `manual-fetch-skip.csv` are a third mode. The reinforced filter recommendation: before queueing a KADC candidate, the daemon should (a) read the PDF's title-page bytes (or compute raw_sha256) and check against existing `wiki/sources/*.md` `raw_path`/`raw_sha256` for filename-basename matches with `updated: >= 2026-05-14`, and (b) extract the DOI and check it's in the corpus before promoting. Either gate alone would have caught this Afrin 2020 duplicate.
+
+## STOP — A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks.pdf (already ingested)
+
+**Folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`
+**Suggested handle:** `KADC_a-systematic-review-on-heavy-metals-contamination-`
+**Citation:** Islam MH, Nowar A, Islam S, Nayan MM, Jubayer A (2024). *A Systematic Review on Heavy Metals Contamination in Bangladeshi Fruits and Their Associated Health Risks.* Environmental Health Insights 18: 1–12. DOI 10.1177/11786302241309280.
+
+**Reason:** Already-ingested-and-audited paper. PDF pages 1–12 read in full and verified as the genuine Islam et al. 2024 systematic review (PRISMA flow N=10 included studies, Tables 1–5 covering 22 Bangladeshi fruit varieties for As/Cd/Pb/Cr/Mn/Ni/Cu/Zn/Hg, full reference list, CC BY-NC SAGE Open Access — all consistent with the existing wiki page). NOT a Kimi content/filename mismatch. Existing wiki page `wiki/sources/islam2024-heavy-metals-bangladeshi-fruits-review.md` is the merge-enhanced version dated `updated: 2026-05-19`, post-2026-05-14 schema cutoff. Audit-queue records `status=audited-revised`, `audit_verdict=REVISE`, `audit_applied_at=2026-05-19` (subagent flagged 3 findings; 2 applied — Zn narrative attribution corrected to banana per p.7, Mn/Cu/Zn added to wiki-touch links; 1 rejected as false positive — Cd stone-apple value 0.64 confirmed in Table 2). Not in `routing_malformed.csv` or `routing_unresolved.csv`. Per the v2.0 skill workflow rule "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed," there is no work to do on this PDF.
+
+**Why the daemon kept surfacing it:** Same already-ingested-duplicate pattern as Starska 2011 and Afrin 2020 above. The paper was originally manual-fetched via `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/` (the original Kimi folder, ingested and merge-enhanced 2026-05-19) and the same PDF later landed in `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/` (the corruption-drain re-stash folder). Daemon enumerates by PDF filename and treats the corruption-drain copy as a fresh candidate.
+
+**Action taken:**
+1. Skip-list entry added to `data/evidence/manual-fetch-skip.csv` with reason `already_ingested:islam2024-heavy-metals-bangladeshi-fruits-review`.
+2. Stop note recorded here.
+3. No wiki source page changes. No new commit. No routing audit re-run. No audit-queue change.
+
+**Pattern note:** Third confirmed already-ingested KADC `papers/` duplicate (after Starska 2011 dairy and Afrin 2020 fruits-Dhaka), and the second within `01_Fruits_and_Fruit_Products/` specifically. The pattern is now well-attested across at least two top-level corruption-drain subfolders — the filter-before-queue recommendation in the Afrin 2020 entry stands and is increasingly urgent.
