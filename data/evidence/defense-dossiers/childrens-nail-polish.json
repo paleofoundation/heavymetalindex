@@ -23,10 +23,10 @@
     "content_pin": {
       "content_sha256": "0fb539f0a038543cbcbd5d337cc56ba7b993f8710ecf2d3743b3aa86d5cfef65",
       "content_bytes": 11235,
-      "last_commit_sha": "676a09c",
-      "last_commit_date": "2026-05-29",
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 676a09c:wiki/products/childrens-nail-polish.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/childrens-nail-polish.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,10 +45,10 @@
         "content_pin": {
           "content_sha256": "9f53b88cd4049409a3e9808895b3d0731746a80a64b99ac563b0cd50b9367fbb",
           "content_bytes": 12227,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
         }
       },
       {
@@ -83,10 +83,10 @@
         "content_pin": {
           "content_sha256": "97e404f1774aa00c38f3bfe39c4c216ebdb1673072e7ebc2a647053060418059",
           "content_bytes": 20032,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
         }
       }
     ]

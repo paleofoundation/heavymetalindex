@@ -124,10 +124,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/mumtaz2025-infant-nutrition-trace-metals\|Mumtaz et al. 2025]]. *Occurrence and Risk Evaluation of Trace Metals in Infant Nutrition Sources in Rural and Urban Multan, Pakistan*, Food and Nutrition Insights | 2025 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/alyasiri2024-infant-formula-heavy-metals\|Alyasiri 2024]]. *Detection of Aflatoxin M1 and Several Heavy Metals in Medical Infant Milk Formula Sold in Iraqi Markets*, International Journal of Pharmaceutical and Bio-Medical Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/mumtaz2025-infant-nutrition-trace-metals\|Mumtaz et al. 2025]]. *Occurrence and Risk Evaluation of Trace Metals in Infant Nutrition Sources in Rural and Urban Multan, Pakistan*, Food and Nutrition Insights | 2025 | Peer-reviewed | PK Pb, Cd, Ni, Zn, Fe occurrence in infant nutrition sources from rural and urban Multan, Pakistan |
+| 2 | [[sources/alyasiri2024-infant-formula-heavy-metals\|Alyasiri 2024]]. *Detection of Aflatoxin M1 and Several Heavy Metals in Medical Infant Milk Formula Sold in Iraqi Markets*, International Journal of Pharmaceutical and Bio-Medical Science | 2024 | Peer-reviewed | IQ Pb, Cd occurrence in medical infant milk formula sold in Iraqi markets |
 | 3 | [[sources/abstract2020-content-dietary-exposure-toxic\|Su et al. 2020]]. *Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market*, Foods | 2020 | Peer reviewed journal | Cited reference from Foods |
-| 4 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/lodico2015-infant-formula-metals\|Lo et al. 2015]]. *Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation*, Journal of Environmental & Analytical Toxicology | 2015 | Peer-reviewed | IT tAs, Cr, Sn, Cd, Pb, Sb occurrence in infant formula samples analyzed during ICP-MS method validation |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -153,3 +153,44 @@ The five most recent substantive edits to this page. The full version history li
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 <!-- END: hmi-page-history -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
+## Heavy metal contamination profile
+
+_Pending synthesis. The per-analyte concentration table for this commodity will be populated as contributing sources accumulate per CLAUDE.md Part 9. Stub state until then._
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb  | pending | — | — | — | — |
+| Cd  | pending | — | — | — | — |
+| iAs | pending | — | — | — | — |
+| tAs | pending | — | — | — | — |
+| tHg | pending | — | — | — | — |
+| Ni  | pending | — | — | — | — |
+| Al  | pending | — | — | — | — |
+| Cr  | pending | — | — | — | — |
+| Sn  | pending | — | — | — | — |
+| U   | pending | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+
+## Processing effects
+
+_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+
+## Ingredient-derivative risk
+
+_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+
+## Mitigation options
+
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+
+## Regulatory limits that apply
+
+_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+

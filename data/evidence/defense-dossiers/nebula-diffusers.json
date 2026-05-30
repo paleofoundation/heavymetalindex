@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "8e44dbfd76edd2a9676fe5d2244f5e84d192e45944c9deb6dafe8c869a597ee0",
       "content_bytes": 7566,
-      "last_commit_sha": "cae015c",
-      "last_commit_date": "2026-05-29",
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cae015c:wiki/products/nebula-diffusers.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/nebula-diffusers.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -100,7 +100,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hasan2021-bangladesh-dairy-trace-elements\|GMMA et al. 2021]]. *Detection of Trace Elements in Selective Dairy Products to assess Human Health Risk of Bangladeshi People*, Oriental Journal of Chemistry | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/hasan2021-bangladesh-dairy-trace-elements\|GMMA et al. 2021]]. *Detection of Trace Elements in Selective Dairy Products to assess Human Health Risk of Bangladeshi People*, Oriental Journal of Chemistry | 2021 | Peer-reviewed | BD Pb, Cd, tAs, Cr, Fe, Cu, Mn, Zn occurrence in 128 cheese, 128 ghee, and 128 butter samples purchased from local shops across 64 administrative districts of Bangladesh;... (n=384) |
 | 2 | [[sources/pankiewicz2012-thg-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A | 2012 | Peer-reviewed | PL tHg occurrence in 48 dairy products (milk, kefir, natural and flavoured yogurt, cream, cream cheese, cottage cheese, butter, milk powder, buttermilk,... (n=48) |
 | 3 | [[sources/starska2011-noxious-elements-milk-products-poland\|Starska et al. 2011]]. *Noxious Elements in Milk and Milk Products in Poland*, Polish Journal of Environmental Studies | 2011 | Peer-reviewed | PL Pb, Cd, tHg, tAs occurrence in 483 milk and dairy product samples from all 16 Polish voivodships (2006–2007); 92% domestic production, 8% other EU... (n=483) |
 <!-- END: hmi-source-legend -->

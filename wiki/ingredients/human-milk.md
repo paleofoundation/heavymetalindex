@@ -124,10 +124,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/lin2023-donor-milk-lead-mercury\|Y-C et al. 2023]]. *Health Risk of Infants Exposed to Lead and Mercury Through Donor Human Milk*, Exposure and Health | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/freire2022-donor-breast-milk-metals\|Freire et al. 2022]]. *Concentrations and determinants of lead, mercury, cadmium, and arsenic in pooled donor breast milk in Spain*, International Journal of Hygiene and Environmental Health | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/abaas2018-breast-milk-nickel\|Abaas et al. 2018]]. *Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City*, Journal of University of Babylon for Pure and Applied Sciences | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/klein2017-human-milk-trace-elements\|Klein et al. 2017]]. *Concentrations of trace elements in human milk: Comparisons among women in Argentina, Namibia, Poland, and the United States*, PLOS ONE | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/lin2023-donor-milk-lead-mercury\|Y-C et al. 2023]]. *Health Risk of Infants Exposed to Lead and Mercury Through Donor Human Milk*, Exposure and Health | 2023 | Peer-reviewed | TW Pb, tHg occurrence in donor milk from a Taiwanese human milk bank |
+| 2 | [[sources/freire2022-donor-breast-milk-metals\|Freire et al. 2022]]. *Concentrations and determinants of lead, mercury, cadmium, and arsenic in pooled donor breast milk in Spain*, International Journal of Hygiene and Environmental Health | 2022 | Peer-reviewed | ES Pb, tHg, Cd, tAs occurrence in 242 pooled breast milk samples from 83 human-milk-bank donors in Spain, 2015-2018 (n=242) |
+| 3 | [[sources/abaas2018-breast-milk-nickel\|Abaas et al. 2018]]. *Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City*, Journal of University of Babylon for Pure and Applied Sciences | 2018 | Peer-reviewed | IQ Ni occurrence in lactating mothers living in Hilla City, Iraq |
+| 4 | [[sources/klein2017-human-milk-trace-elements\|Klein et al. 2017]]. *Concentrations of trace elements in human milk: Comparisons among women in Argentina, Namibia, Poland, and the United States*, PLOS ONE | 2017 | Peer-reviewed | AR/NA/PL Pb, tAs occurrence in lactating mothers from Argentina, Namibia, Poland, and the United States (n=70) |
 <!-- END: hmi-source-legend -->
 
 ## Page history

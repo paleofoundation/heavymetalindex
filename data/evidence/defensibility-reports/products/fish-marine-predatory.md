@@ -2,7 +2,7 @@
 source_page: wiki/products/fish-marine-predatory.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3f3d98222cebd2f3f67b958fef30aef8962339fb364c048ea467dc19d9d80bef
+source_page_sha256: 1f85419810775caf78be9f34f0a0542c0054b545fd66903f51116642a578ef4d
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 97
+audit_log_total_rows: 98
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 97 |
+| audit log rows read | 98 |
 
 ## Page-level audit rows
 

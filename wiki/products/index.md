@@ -510,30 +510,22 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/biscuits|Biscuits]] (0 sources)
-- [[products/canned-fish|Canned Fish]] (24 sources)
-- [[products/canned-fruit|Canned Fruit]] (5 sources)
-- [[products/canned-tomatoes|Canned Tomatoes]] (7 sources)
-- [[products/canned-vegetables|Canned Vegetables]] (8 sources)
-- [[products/cereal-meals|Cereal Meals]] (0 sources)
-- [[products/cereal-products|Cereal Products]] (1 source)
-- [[products/dietary-supplements|Dietary Supplements]] (10 sources)
-- [[products/fresh-fish|Fresh Fish]] (68 sources)
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]] (32 sources)
-- [[products/infant-cereal|Infant Cereal]] (11 sources)
-- [[products/infant-food-fruits|Infant Food Fruits]] (1 source)
-- [[products/infant-food-powder|Infant Food Powder]] (0 sources)
-- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]] (0 sources)
-- [[products/infant-food-vegetables|Infant Food Vegetables]] (1 source)
-- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]] (2 sources)
-- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]] (1 source)
-- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]] (1 source)
-- [[products/infant-formula-stage1|Infant Formula Stage1]] (0 sources)
-- [[products/nutritional-beverage-child|Nutritional Beverage Child]] (1 source)
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]] (1 source)
-- [[products/snack-bars-energy-bars|Snack Bars Energy Bars]] (1 source)
-- [[products/snacks-crackers-biscuits|Snacks Crackers Biscuits]] (14 sources)
-- [[products/tea-infusions|Tea Infusions]] (16 sources)
-- [[products/tomato-paste|Tomato Paste]] (6 sources)
-- [[products/tomato-sauce|Tomato Sauce]] (4 sources)
+- [[products/breakfast-cereals|Breakfast Cereals]]
+- [[products/canned-mushrooms|Canned Mushrooms]]
+- [[products/infant-food-general|Infant Food General]]
+- [[products/infant-food-puree|Infant Food Puree]]
+- [[products/infant-food-puree-fish|Infant Food Puree Fish]]
+- [[products/infant-food-puree-fruit|Infant Food Puree Fruit]]
+- [[products/infant-food-puree-mixed-meat|Infant Food Puree Mixed Meat]]
+- [[products/infant-food-puree-poultry|Infant Food Puree Poultry]]
+- [[products/infant-food-puree-vegetable|Infant Food Puree Vegetable]]
+- [[products/infant-formula-dairy|Infant Formula Dairy]]
+- [[products/infant-formula-dairy-free|Infant Formula Dairy Free]]
+- [[products/infant-juice|Infant Juice]]
+- [[products/infant-porridges-dairy|Infant Porridges Dairy]]
+- [[products/infant-porridges-dairy-free|Infant Porridges Dairy Free]]
+- [[products/infant-rice-cereal|Infant Rice Cereal]]
+- [[products/infant-solid-foods-mixed|Infant Solid Foods Mixed]]
+- [[products/pickled-mushrooms|Pickled Mushrooms]]
+- [[products/skin-lightening-cream|Skin Lightening Cream — RETIRED (out of HMTc scope)]]
 <!-- END: hmi-auto-linked-stubs -->

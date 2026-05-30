@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "1600ebe92bec75ef388c184cf1d4e1cd0d5378c1523081a994a4cfcf0cd167b6",
       "content_bytes": 10872,
-      "last_commit_sha": "676a09c",
-      "last_commit_date": "2026-05-29",
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 676a09c:wiki/products/cooking-oils-other.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/cooking-oils-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,10 +49,10 @@
         "content_pin": {
           "content_sha256": "4ea71a36a45eab904da514ae1e0c83a3404226bad214691857b6cbadeb90c749",
           "content_bytes": 11886,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md | sha256sum"
         }
       },
       {
@@ -74,10 +74,10 @@
         "content_pin": {
           "content_sha256": "a02ad18d7be7e3e75661b57fdc23bcd22a34e1474d337f7f23578cfbb35f3be4",
           "content_bytes": 7843,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md | sha256sum"
         }
       },
       {
@@ -98,10 +98,10 @@
         "content_pin": {
           "content_sha256": "bae971554e6238b7af00c5a07c77cdf8ab72807e3bdfd3c1ec843ed3a0baae57",
           "content_bytes": 7664,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/mehri2024-vegetable-oils-iran-hamadan-ptes.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/mehri2024-vegetable-oils-iran-hamadan-ptes.md | sha256sum"
         }
       },
       {
@@ -126,10 +126,10 @@
         "content_pin": {
           "content_sha256": "a5340ce5f8283c4b07736a0c08c00d07342bf2e41d5d1c17123327368c584a02",
           "content_bytes": 16729,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
         }
       },
       {
@@ -154,10 +154,10 @@
         "content_pin": {
           "content_sha256": "15d9631eff8a57b8099076760cee43ea4e8a51c5ca02225af5fdf9ac108b3c22",
           "content_bytes": 8872,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
         }
       },
       {
@@ -182,10 +182,10 @@
         "content_pin": {
           "content_sha256": "5717b479a13e0dcb33377a922c9a2ce92c2911b392b18eb153661ec0b02df1c4",
           "content_bytes": 9260,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/scutarasu2023-heavy-metals-foods-beverages.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/scutarasu2023-heavy-metals-foods-beverages.md | sha256sum"
         }
       },
       {
@@ -203,10 +203,10 @@
         "content_pin": {
           "content_sha256": "3be16eee827606c364bd576d0e68f5c87604d1dc7c6ee86a2f37f0920fca1725",
           "content_bytes": 6806,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/tayeb2025-olive-corn-oil-iran-pb-cd.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/tayeb2025-olive-corn-oil-iran-pb-cd.md | sha256sum"
         }
       },
       {
@@ -227,10 +227,10 @@
         "content_pin": {
           "content_sha256": "d20261197e455c6d5759f4dba31b1f9736800bcab390548ca441be89255573fe",
           "content_bytes": 6936,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/yohannes2024-vegetable-oils-ethiopia-gondar.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/yohannes2024-vegetable-oils-ethiopia-gondar.md | sha256sum"
         }
       }
     ]

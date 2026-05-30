@@ -2,7 +2,7 @@
 source_page: wiki/products/teething-and-snacks-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8eac8e31e916b77942825b5ca68abdeab2a2e50be27b79806ef7399c2f75a803
+source_page_sha256: 14edea3d6350de50e58bb18d513a14c69332ebc51402b2ceb5a5c400727d7e2c
 total_claims: 212
 cited_claims: 212
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 34
 distinct_cited_sources: 30
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 97
+audit_log_total_rows: 98
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 30 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 97 |
+| audit log rows read | 98 |
 
 ## Page-level audit rows
 

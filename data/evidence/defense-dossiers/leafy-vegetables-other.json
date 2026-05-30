@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/leafy-vegetables-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "669661ebc1bcac83df4df2ab0cff010bc9e7cafae747a4163a9a7547482925f3",
-      "content_bytes": 13898,
-      "last_commit_sha": "676a09c",
-      "last_commit_date": "2026-05-29",
+      "content_sha256": "12f392cf437d1347ee34330208f08d50e4ca7698276a0e99c834c6531cc2923a",
+      "content_bytes": 13993,
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 676a09c:wiki/products/leafy-vegetables-other.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/leafy-vegetables-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,10 +46,10 @@
         "content_pin": {
           "content_sha256": "01d2987512d556082c6d004492c267a570f68379b64c64a901b045f97fd64d66",
           "content_bytes": 3379,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/ahmed2017-bangladesh-vegetable-arsenic.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/ahmed2017-bangladesh-vegetable-arsenic.md | sha256sum"
         }
       },
       {
@@ -70,10 +70,10 @@
         "content_pin": {
           "content_sha256": "82c7acd9693445aff3715950363f65681c130529f262c17b3546185e701a9563",
           "content_bytes": 3227,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/bambara2023-loumbila-vegetables-heavy-metals.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/bambara2023-loumbila-vegetables-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -93,10 +93,10 @@
         "content_pin": {
           "content_sha256": "402e3c1a95131609ca047faa3611a125a1385eb6ab48c664d69ec560a41d22d5",
           "content_bytes": 22048,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
         }
       },
       {
@@ -118,10 +118,10 @@
         "content_pin": {
           "content_sha256": "f598271792a621266d87d6aadc201979971de1949e3eb2e8d8df2c5037fbc259",
           "content_bytes": 5390,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/kim2024-metals-kale-urban-rural-maryland.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/kim2024-metals-kale-urban-rural-maryland.md | sha256sum"
         }
       },
       {
@@ -143,10 +143,10 @@
         "content_pin": {
           "content_sha256": "2c766383deefeaf6fa4700c2aa7fc9c55a3cdad5a435300d6cd417bfe08beaa2",
           "content_bytes": 3199,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/osuolale2025-leafy-vegetables-ondo-trace-elements.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/osuolale2025-leafy-vegetables-ondo-trace-elements.md | sha256sum"
         }
       },
       {
@@ -168,10 +168,10 @@
         "content_pin": {
           "content_sha256": "c6fdb530b64ad8a2acf9e4a9894a43e708936710992f283a637371aaeddde099",
           "content_bytes": 4049,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/pal2017-wastewater-vegetables-heavy-metals.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/pal2017-wastewater-vegetables-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -192,10 +192,10 @@
         "content_pin": {
           "content_sha256": "278abc340bd9d15b8bca99df0843d46934d421405704977ecfc1a56f60e49c14",
           "content_bytes": 2655,
-          "last_commit_sha": "6eea0b9",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6eea0b9:wiki/sources/sadee2022-erbil-vegetables.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/sadee2022-erbil-vegetables.md | sha256sum"
         }
       },
       {
@@ -217,10 +217,10 @@
         "content_pin": {
           "content_sha256": "1abbd7614bf837664aa410aa37ee6808869a84d860178bf072c00f9a4dfcf7a0",
           "content_bytes": 18233,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/see2025-malaysia-leafy-vegetables-icp-oes.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/see2025-malaysia-leafy-vegetables-icp-oes.md | sha256sum"
         }
       },
       {
@@ -244,10 +244,10 @@
         "content_pin": {
           "content_sha256": "12a9bc458392bc493d82e21094c6f21da4c517f82a6fb3416e7915d95cc810da",
           "content_bytes": 22389,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/sultana2022-dhaka-root-leafy-vegetables.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/sultana2022-dhaka-root-leafy-vegetables.md | sha256sum"
         }
       },
       {
@@ -265,10 +265,10 @@
         "content_pin": {
           "content_sha256": "949ac5316c3d847a54af623f72f13770d56924d4b023bec3de2b74c66499b486",
           "content_bytes": 3303,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/vela2023-quito-vegetables-cd-pb.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/vela2023-quito-vegetables-cd-pb.md | sha256sum"
         }
       },
       {
@@ -286,10 +286,10 @@
         "content_pin": {
           "content_sha256": "178e16d0cc8db0e7ce389ff3bf4d0adac81713ef9a06c226497ed79da24028a7",
           "content_bytes": 3816,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/wang2021-houttuynia-mercury-china.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/wang2021-houttuynia-mercury-china.md | sha256sum"
         }
       }
     ]

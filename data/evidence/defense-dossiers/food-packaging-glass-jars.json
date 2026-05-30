@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "4f54f9b3bd2e7e5ff0ce00f2fafb1bebb5e60a9bcc5bf2cb28128e9a99ef9156",
       "content_bytes": 7637,
-      "last_commit_sha": "cae015c",
-      "last_commit_date": "2026-05-29",
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cae015c:wiki/products/food-packaging-glass-jars.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/food-packaging-glass-jars.md | sha256sum"
     }
   },
   "evidence_base": {

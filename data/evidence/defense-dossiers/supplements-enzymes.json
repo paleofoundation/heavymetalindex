@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "ba1b1f53576ef27b66ad6d1592f97bbc092849924b8a9b9c231e515ec781f85d",
       "content_bytes": 7619,
-      "last_commit_sha": "cae015c",
-      "last_commit_date": "2026-05-29",
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cae015c:wiki/products/supplements-enzymes.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/supplements-enzymes.md | sha256sum"
     }
   },
   "evidence_base": {

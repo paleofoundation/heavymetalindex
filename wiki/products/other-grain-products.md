@@ -100,7 +100,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hbbf2025-rice-arsenic-cadmium-145-samples\|Houlihan et al. 2025]]. *What's in your family's rice? Arsenic, Cadmium, and Lead in Popular Rice Brands - Plus 9 Safer Grains to Try*, Healthy Babies Bright Futures (HBBF) report | 2025 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/hbbf2025-rice-arsenic-cadmium-145-samples\|Houlihan et al. 2025]]. *What's in your family's rice? Arsenic, Cadmium, and Lead in Popular Rice Brands - Plus 9 Safer Grains to Try*, Healthy Babies Bright Futures (HBBF) report | 2025 | Government report | US tAs, iAs, Cd, Pb, tHg occurrence in 211 retail grain containers (145 rice samples across 105 brands and 66 alternative-grain samples) purchased in 20 US... (n=211) |
 | 2 | [[sources/efsa2024-risk-assessment-iAs-update\|EFSA 2024]]. *Update of the risk assessment of inorganic arsenic in food*, EFSA Journal | 2024 | Government report | EU iAs, tAs concentrations (n=20) |
 | 3 | [[sources/efsa2021-chronic-exposure-iAs\|EFSA 2021]]. *Chronic dietary exposure to inorganic arsenic*, EFSA Journal | 2021 | Government report | EU iAs, tAs concentrations (n=13608) |
 | 4 | [[sources/mania2020-nickel-cereal-grains-poland\|Mania et al. 2020]]. *Assessment of exposure to nickel intake with selected cereal grains and cereal-based products*, Roczniki Panstwowego Zakladu Higieny (Annals of the National Institute of Hygiene) | 2020 | Peer-reviewed | PL/EU Ni occurrence in Polish market samples 2019–2020: 5 cereal grains (millet, rye, wheat, barley), 11 pasta, 13 flours, 12 groats, 10... (n=56) |

@@ -1,6 +1,6 @@
 # Provenance audit — 2026-05-30
 
-Generated: 2026-05-30T03:42:02.168Z
+Generated: 2026-05-30T05:01:41.781Z
 
 ## Summary
 
@@ -162,9 +162,9 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 ### wiki/products/toothpaste.md (3)
 - line 9: claim `1000 ppb`
   > Brand legal teams evaluating Cat 2 certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and…
-- line 60: claim `100 ppb`
+- line 73: claim `100 ppb`
   > 1. **Sourcing levers** (highest impact): mineral abrasive (silica, calcium carbonate, baking soda) supplier selection. Cosmetic-grade silica from pre-screened sources runs Pb in single-digit ppb; indu…
-- line 71: claim `1000 ppb`
+- line 84: claim `1000 ppb`
   > Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics fall under FDA FD&C Act adulteration provisions without binding finished-product heavy-metal action levels; sunscreens …
 
 ### wiki/ingredients/baked-potato-with-peel.md (3)

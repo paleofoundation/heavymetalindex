@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "411379c407030c8178a07e3c675f38ee2c1602239f3125216ffd0905bcd7d38c",
       "content_bytes": 7873,
-      "last_commit_sha": "cae015c",
-      "last_commit_date": "2026-05-29",
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cae015c:wiki/products/feeding-accessories-child-sized.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/feeding-accessories-child-sized.md | sha256sum"
     }
   },
   "evidence_base": {

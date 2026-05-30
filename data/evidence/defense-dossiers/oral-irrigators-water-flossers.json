@@ -24,10 +24,10 @@
     "content_pin": {
       "content_sha256": "855bb09f133aa853958dc293cd064a2bffa8b06293e1e05a9b97b829980292a7",
       "content_bytes": 9521,
-      "last_commit_sha": "cae015c",
-      "last_commit_date": "2026-05-29",
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show cae015c:wiki/products/oral-irrigators-water-flossers.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/oral-irrigators-water-flossers.md | sha256sum"
     }
   },
   "evidence_base": {

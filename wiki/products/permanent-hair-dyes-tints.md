@@ -107,7 +107,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
-| 2 | [[sources/benabbes2021-morocco-hair-dyes-pb-cd\|Benabbes et al. 2021]]. *Determination of Lead and Cadmium in Synthetic and Natural Hair Dyes in Morocco Using Differential Pulse Polarography*, Portugaliae Electrochimica Acta 39(1):37-44 | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/benabbes2021-morocco-hair-dyes-pb-cd\|Benabbes et al. 2021]]. *Determination of Lead and Cadmium in Synthetic and Natural Hair Dyes in Morocco Using Differential Pulse Polarography*, Portugaliae Electrochimica Acta 39(1):37-44 | 2021 | Peer-reviewed | MA Pb, Cd occurrence in Sixteen commercial hair dye products purchased from Moroccan markets, comprising 13 synthetic hair dyes classified by the authors... (n=16) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -2,7 +2,7 @@
 source_page: wiki/products/fish-freshwater.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 33a9196140a92aee7d3402f059aabb9b28c500ca6b8c13e9d1d2d4677ac50fcf
+source_page_sha256: 9e2bcb0706f0056f992e063a12d11ca25a5b380069f900dc5a9653295d1c33c3
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 10
 distinct_cited_sources: 10
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 97
+audit_log_total_rows: 98
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 10 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 97 |
+| audit log rows read | 98 |
 
 ## Page-level audit rows
 

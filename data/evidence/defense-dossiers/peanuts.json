@@ -24,10 +24,10 @@
     "content_pin": {
       "content_sha256": "0b9a8ac1b5801680cda56bafbba79c1462a7cc64485aac490e3fe081b5aaf143",
       "content_bytes": 13164,
-      "last_commit_sha": "676a09c",
-      "last_commit_date": "2026-05-29",
+      "last_commit_sha": "70ae1cc",
+      "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 676a09c:wiki/products/peanuts.md | sha256sum"
+      "verify_command": "git show 70ae1cc:wiki/products/peanuts.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -53,10 +53,10 @@
         "content_pin": {
           "content_sha256": "c6e871e9b627082c193975a9bc4ba04acd869c40133292c5a0b8debdb64a0da2",
           "content_bytes": 15653,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/chen2022-peanut-elements-china.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/chen2022-peanut-elements-china.md | sha256sum"
         }
       },
       {
@@ -76,10 +76,10 @@
         "content_pin": {
           "content_sha256": "474e076a9cc6a3b8125066bc58e41cf7f840edf00dbb85fd44817ea3378bba32",
           "content_bytes": 5611,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
         }
       },
       {
@@ -96,10 +96,10 @@
         "content_pin": {
           "content_sha256": "3738aa0d85f46e6c37cf140d065153c90c00dd0ef3b78264843f090e544d7ad1",
           "content_bytes": 30478,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -120,10 +120,10 @@
         "content_pin": {
           "content_sha256": "74065aa1d7cadbfe07a488691fed3f9ccd8217e2d575e6d31ef2a0a2b92989e4",
           "content_bytes": 3387,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/masite2022-mopane-trace-metals.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/masite2022-mopane-trace-metals.md | sha256sum"
         }
       },
       {
@@ -148,10 +148,10 @@
         "content_pin": {
           "content_sha256": "9d4a7ebb0abaf57872ddde24717c0acb4d222def269936e20064f40308b80f37",
           "content_bytes": 15881,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/meng2023-electrochemical-sensors-food-heavy-metals.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/meng2023-electrochemical-sensors-food-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -172,10 +172,10 @@
         "content_pin": {
           "content_sha256": "80602b29ff439beee7d5d526509c58bdd9bc09b8cd8a09e3582fa917ae771449",
           "content_bytes": 5473,
-          "last_commit_sha": "cae015c",
-          "last_commit_date": "2026-05-29",
+          "last_commit_sha": "70ae1cc",
+          "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show cae015c:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
+          "verify_command": "git show 70ae1cc:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
         }
       }
     ]
