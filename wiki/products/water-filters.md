@@ -120,7 +120,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | TH Pb, Cd occurrence in drinking water used by 44 primary schools in Nakhon Si Thammarat Province, Thailand (n=146) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

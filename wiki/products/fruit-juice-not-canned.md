@@ -26,7 +26,7 @@ cc_relationship:
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-03
-sources: 32
+sources: 35
 ---
 
 # Fruit Juice (Not Canned)

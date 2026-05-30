@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "c05c7f3ce3e66935024264d41585690711d5c8527631511ec9309d296de79a1d",
       "content_bytes": 7471,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/walkers.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/walkers.md | sha256sum"
     }
   },
   "evidence_base": {

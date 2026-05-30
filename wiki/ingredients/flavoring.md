@@ -83,7 +83,7 @@ used_in_products: [flavored-waters]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 0
+sources: 4
 ---
 
 # Flavoring

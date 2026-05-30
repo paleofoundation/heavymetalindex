@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "06550b56a7a7d6b7a05c61ceafef5951e1e81b19a119ab7234be45f2f986e418",
       "content_bytes": 7590,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/toothbrushes.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/toothbrushes.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cashews",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b157126580ecc6819e22b1892944aee7b1f55d992cfb4f01012abb6d550786ae",
-      "content_bytes": 12745,
-      "last_commit_sha": "70ae1cc",
+      "content_sha256": "b5da8f259cb7657b7b7e798a13a27670651205144577a52458219640fb1388d0",
+      "content_bytes": 12980,
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/cashews.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/cashews.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -52,10 +52,10 @@
         "content_pin": {
           "content_sha256": "505cc93dfa02b12de68d0417cee8f60951d245dc29f81db826daadc7e4235857",
           "content_bytes": 2542,
-          "last_commit_sha": "7a4c45a",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 7a4c45a:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
         }
       },
       {
@@ -72,10 +72,10 @@
         "content_pin": {
           "content_sha256": "7c5e140179a9c7d321ce210d891f97c5df7fb8119dac3a41ff720e6c788d06c6",
           "content_bytes": 23269,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/bfr2022-nickel-dietary-intake-germany-meal.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/bfr2022-nickel-dietary-intake-germany-meal.md | sha256sum"
         }
       },
       {
@@ -95,10 +95,10 @@
         "content_pin": {
           "content_sha256": "430f9c8bb04ebd5d204126dbab1c61d964b3a5029f63088fd2919aa5f5a5589f",
           "content_bytes": 5656,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
         }
       },
       {
@@ -118,10 +118,10 @@
         "content_pin": {
           "content_sha256": "243eb8bb95ee3d89de929cc7b1f20a956f0fb2ddce92004df67059199a665455",
           "content_bytes": 5554,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
         }
       },
       {
@@ -141,10 +141,10 @@
         "content_pin": {
           "content_sha256": "e0a6c0d2a8349de288247f9059c213bcc51c2023ada56e272cd1f1097b006d9b",
           "content_bytes": 11923,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany.md | sha256sum"
         }
       },
       {
@@ -163,10 +163,10 @@
         "content_pin": {
           "content_sha256": "cf65e0409db67e1f36b561037ffe4fd5ae4287b3501130fdfcec8d2c236cfecb",
           "content_bytes": 2193,
-          "last_commit_sha": "7a4c45a",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 7a4c45a:wiki/sources/nkwocha2021-cashew-nuts-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/nkwocha2021-cashew-nuts-metals.md | sha256sum"
         }
       }
     ]

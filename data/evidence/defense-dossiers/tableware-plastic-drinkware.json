@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "82ebfb5d436b82cb17bff1fc65957919707536277a484c01c933ca90da09af69",
       "content_bytes": 7633,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/tableware-plastic-drinkware.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/tableware-plastic-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "d8a62b0419477c3615204ec5a8c4df34b23a2e29e1443a6b28d51a55fcac8227",
       "content_bytes": 7700,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/food-storage-glass-containers.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/food-storage-glass-containers.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-09
-sources: 22
+sources: 23
 ---
 
 # Fruit Juices, Non-Apple

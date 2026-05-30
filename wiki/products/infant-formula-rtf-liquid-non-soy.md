@@ -29,7 +29,7 @@ cc_relationship:
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-03
-sources: 22
+sources: 23
 ---
 
 # Infant Formula, RTF Liquid (Non-Soy)

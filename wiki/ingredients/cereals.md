@@ -83,7 +83,7 @@ used_in_products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 40
+sources: 44
 ---
 
 # Cereals

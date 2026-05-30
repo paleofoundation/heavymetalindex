@@ -23,7 +23,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-20
-sources: 0
+sources: 2
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2

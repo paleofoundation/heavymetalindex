@@ -2,7 +2,7 @@
 source_page: wiki/products/dried-fruit.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2cf3efcc5435352ebb09a9f4996e5e71628f2eaced9a3646a4ef25ca876c80d1
+source_page_sha256: 21ccdab7ece5a52606bd024deda1030bfeaa7734c7be3b90d15ff13361592cff
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 120
+audit_log_total_rows: 121
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 120 |
+| audit log rows read | 121 |
 
 ## Page-level audit rows
 

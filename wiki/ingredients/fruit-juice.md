@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
-sources: 15
+sources: 19
 wiki_doi: null
 updated: 2026-05-16
 ---

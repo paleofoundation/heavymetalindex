@@ -83,7 +83,7 @@ used_in_products: [kombucha-tea-based, matcha, true-tea-camellia-sinensis]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 14
+sources: 16
 ---
 
 # Camellia sinensis

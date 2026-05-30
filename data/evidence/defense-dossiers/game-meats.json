@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "a814eba3b79a25d5e1dd9b5fbd4b8bb7c0647e71a31a05315e51aabcedd4351f",
       "content_bytes": 11293,
-      "last_commit_sha": "d26f8f1",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show d26f8f1:wiki/products/game-meats.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/game-meats.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,10 +47,10 @@
         "content_pin": {
           "content_sha256": "4c413b45392bfd544abb97693c5fec28151f7f74fc294815f13c86f6affbe654",
           "content_bytes": 3168,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/boisteanu2024-wild-boar-romania-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/boisteanu2024-wild-boar-romania-metals.md | sha256sum"
         }
       },
       {
@@ -72,10 +72,10 @@
         "content_pin": {
           "content_sha256": "dd904559259ceed852f99a373f7de6e96b3f7126a55909dd2156836481843a3c",
           "content_bytes": 16685,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/gasparik2017-wild-boar-slovakia-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/gasparik2017-wild-boar-slovakia-metals.md | sha256sum"
         }
       },
       {
@@ -92,10 +92,10 @@
         "content_pin": {
           "content_sha256": "f5d5d19540413f846f50309f72f52e5cee645eb062a615c55c853078be317739",
           "content_bytes": 2642,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/gerofke2018-wild-game-lead.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/gerofke2018-wild-game-lead.md | sha256sum"
         }
       },
       {
@@ -117,10 +117,10 @@
         "content_pin": {
           "content_sha256": "48406721ab009adc2f18947888f962adfdd4fb6af56fa49f99d397e55b1408c9",
           "content_bytes": 6936,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/joyce2016-bush-meat-cooking-ghana.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/joyce2016-bush-meat-cooking-ghana.md | sha256sum"
         }
       },
       {
@@ -141,10 +141,10 @@
         "content_pin": {
           "content_sha256": "2aa817dfab60def506e067a34d21b0a1d2c24477362e0c129ec4019d8c42f7cc",
           "content_bytes": 2968,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/lenart2023-wild-boar-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/lenart2023-wild-boar-metals.md | sha256sum"
         }
       },
       {
@@ -164,10 +164,10 @@
         "content_pin": {
           "content_sha256": "7f7f5d1b539d77d1509dea0c268d2a4529c39dcbe020c086fe8fcae8e415bfa3",
           "content_bytes": 2877,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/mesinger2021-red-deer-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/mesinger2021-red-deer-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -184,10 +184,10 @@
         "content_pin": {
           "content_sha256": "2b848ed1e08ae7ba33b7b459c3adb621684a95c3051e4452e6fee12b4db45265",
           "content_bytes": 5055,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
         }
       },
       {
@@ -206,10 +206,10 @@
         "content_pin": {
           "content_sha256": "829faee65b644787295b3fccc8e56f247c0c9ce847d5ac682e55f10ad6636aab",
           "content_bytes": 2753,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/paulsen2015-game-meat-metal-bioaccessibility.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/paulsen2015-game-meat-metal-bioaccessibility.md | sha256sum"
         }
       },
       {
@@ -230,10 +230,10 @@
         "content_pin": {
           "content_sha256": "4b3a66dfbb0aaefbd59f2f8a3ada7030ff165ff17a63105a1da8530f0dbb290f",
           "content_bytes": 18858,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/prevendar-crnic2022-rasa-coal-birds-htes.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/prevendar-crnic2022-rasa-coal-birds-htes.md | sha256sum"
         }
       },
       {
@@ -253,10 +253,10 @@
         "content_pin": {
           "content_sha256": "1bdf4d06e7aff49907c54ac25a562d86daceb74faa3caebb97f7c560fa1d5455",
           "content_bytes": 28289,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/rudy2019-hunted-animals-toxic-elements-review.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/rudy2019-hunted-animals-toxic-elements-review.md | sha256sum"
         }
       },
       {
@@ -273,10 +273,10 @@
         "content_pin": {
           "content_sha256": "4ac7b01f4f8a837706600b160af9035d0d3d8002316f613f9e03977549894ccf",
           "content_bytes": 2341,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/zarski2017-mallard-mercury.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/zarski2017-mallard-mercury.md | sha256sum"
         }
       }
     ]

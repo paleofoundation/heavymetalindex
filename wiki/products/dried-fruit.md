@@ -14,7 +14,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 4
+sources: 5
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 
@@ -94,7 +94,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/mahmood2025-dried-fruit-metals\|Mahmood et al. 2025]]. *Estimation of some heavy metal concentrations in selected dried fruit samples available in local markets and assessment of their health risks*, International Journal of Environmental Impacts | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/mahmood2025-dried-fruit-metals\|Mahmood et al. 2025]]. *Estimation of some heavy metal concentrations in selected dried fruit samples available in local markets and assessment of their health risks*, International Journal of Environmental Impacts | 2025 | Peer-reviewed | IQ Pb, Cr, Ni occurrence in selected dried fruit samples available in local markets (n=not reported in abstract) |
 | 2 | [[sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland\|Mania et al. 2021]]. *The content of lead, cadmium, arsenic, mercury and tin in fruit and their products based on monitoring studies – exposure assessment*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2021 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg, Sn occurrence in Approximately 600 samples of fresh, frozen, dried fruits, fruit preserves and canned fruits collected throughout Poland in 2015... (n=600) |
 | 3 | [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|Rusin et al. 2021]]. *Concentration of cadmium and lead in vegetables and fruits*, Scientific Reports | 2021 | Peer-reviewed | PL Cd, Pb occurrence in 370 samples drawn from the Polish retail market and analysed under Polish State Sanitary Inspection (n=292 by the... (n=370) |
 | 4 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\|FDA 2016]]. *Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers*, U.S. Food and Drug Administration | 2016 | Government dataset | US-FDA iAs, tAs concentrations (n=415) |

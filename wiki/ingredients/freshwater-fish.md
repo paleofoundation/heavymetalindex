@@ -83,7 +83,7 @@ used_in_products: ["[[products/fish-containing-baby-foods]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 52
+sources: 55
 ---
 
 # Freshwater Fish

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "972fc4a7422795cbc091e7ce8da342a1f9d60c2d485d7abcced1613d25690847",
       "content_bytes": 7765,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/drain-maintainers-cleaners.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/drain-maintainers-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

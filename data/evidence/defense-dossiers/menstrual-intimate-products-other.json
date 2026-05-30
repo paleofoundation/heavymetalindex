@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "7aed1b75de8ab7b354d5b543f599305dcfa83978f6182ead72fb369a9df9045b",
       "content_bytes": 7729,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/menstrual-intimate-products-other.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/menstrual-intimate-products-other.md | sha256sum"
     }
   },
   "evidence_base": {

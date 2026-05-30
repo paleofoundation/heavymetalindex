@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "f40850bff0820ca5b7f0320d633069419237e16f6515266c7d6eed6a58e6be26",
       "content_bytes": 7802,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/deep-conditioning-treatments-rinse-off.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/deep-conditioning-treatments-rinse-off.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "3116881247a53a898badae3023c8c9e7806621c88f03f5ea728d9b029ec1f931",
       "content_bytes": 7520,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/carpet-cleaners.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/carpet-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

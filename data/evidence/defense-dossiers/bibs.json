@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "1ee3ed42bae3b07f6e6fe6d3bc1d6c7c2d815572f8d2b44d9a7c46216a98e7d5",
       "content_bytes": 7445,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/bibs.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/bibs.md | sha256sum"
     }
   },
   "evidence_base": {

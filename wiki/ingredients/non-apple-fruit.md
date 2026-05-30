@@ -83,7 +83,7 @@ used_in_products: [fruit-juices-non-apple]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 0
+sources: 2
 ---
 
 # Non-apple fruit

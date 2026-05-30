@@ -14,7 +14,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 23
+sources: 24
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 

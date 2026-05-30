@@ -10,7 +10,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-14
-sources: 32
+sources: 37
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -109,7 +109,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 22 | [[sources/chaleshtori2019-watermelon-carrot-pb-cd\|Reza et al. 2019]]. *Assessment of Lead and Cadmium Levels in Watermelon and Carrot*, Iranian Journal of Toxicology | 2019 | Peer-reviewed | IR Pb, Cd occurrence in Watermelon and carrot samples analyzed for lead and cadmium in Iran |
 | 23 | [[sources/liang2019-beijing-foodstuffs-health-risk\|Liang et al. 2019]]. *Analysis of Heavy Metals in Foodstuffs and an Assessment of the Health Risks to the General Public via Consumption in Beijing, China*, International Journal of Environmental Research and Public Health | 2019 | Peer-reviewed | CN Pb, Cd, Cr, tAs, tHg occurrence in Beijing general population; 25 foodstuff types collected from four sites, three replicates per foodstuff at each site (n=300) |
 | 24 | [[sources/fda2018-iAs-infant-rice-cereals-fy2018\|FDA 2018]]. *Fiscal Year 2018 Arsenic in Infant Rice Cereals Assignment Data*, U.S. Food and Drug Administration | 2018 | Government report | US iAs, tAs concentrations (n=149) |
-| 25 | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra et al. 2017]]. *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*, IOSR Journal of Applied Chemistry | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 25 | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra et al. 2017]]. *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*, IOSR Journal of Applied Chemistry | 2017 | Peer-reviewed | IN Pb, Cd, Cu, Fe, Co occurrence in vegetable and fruit samples from Jagdalpur market, Chhattisgarh State, India (n=ten vegetables and fruits) |
 | 26 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\|FDA 2016]]. *Analytical Results from Inorganic Arsenic in Rice Cereals for Infants, Non-Rice Infant Cereal and Other Foods Commonly Eaten by Infants and Toddlers*, U.S. Food and Drug Administration | 2016 | Government dataset | US-FDA iAs, tAs concentrations (n=415) |
 | 27 | [[sources/unaegbu2016-fruit-heavy-metals-enugu\|Unaegbu et al. 2016]]. *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*, International Journal of Food Contamination | 2016 | Peer-reviewed | NG/US/ZA Ni, Cd, Pb occurrence in Ten fruit samples representing apple, pineapple, orange, watermelon, and banana sold in Ogbete market, Enugu, Nigeria; source table... (n=10) |
 | 28 | [[sources/rashid2015-metals-rock-melon-malaysia\|Rashid et al. 2015]]. *Determination of Metals Contamination in Rock Melon (Cucumis melo) and Coco Peat*, Jurnal Intelek 10(1): 33–36 (ISSN 2231-7716; UiTM Perlis) | 2015 | Peer-reviewed | MY Al, Cr, Pb, Ni occurrence in Rock melon (Cucumis melo, cultivar Glamour) randomly sampled from 5 farm locations in Mantin (Negeri Sembilan) and Jalan... (n=70) |

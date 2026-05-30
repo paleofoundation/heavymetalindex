@@ -20,7 +20,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: ["[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]"]
 audience: [regulator, educator, consumer, app]
-sources: 43
+sources: 66
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -59,7 +59,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|Collado-Lopez et al. 2025]]. *Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review*, Nutrition Reviews | 2025 | Peer-reviewed | Global scoping review of Pb, Cd, tAs, and tHg in processed baby foods (75 studies, 580 products) including fruit purees; provides category-level evidence map for processed fruit |
 | 2 | [[sources/fda-ctz-Pb-babyfood-2025\|FDA 2025]]. *Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry*, U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program | 2025 | Government guidance | FDA Closer to Zero lead action levels for processed baby foods; sets 10 ppb Pb for fruit-based products (purees, mixtures) intended for infants and young children |
 | 3 | [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|Hadi et al. 2025]]. *Health Impact of Heavy Metals in Samples of Dried Fruits in Iraq*, International Journal of Analytical Chemistry | 2025 | Peer-reviewed | Pb, Cd, and Cr in 15 dried-fruit commodity types (Iranian-origin) sold in Iraqi markets; multiple samples exceed FAO/WHO MLs for Cd and Cr |
-| 4 | [[sources/mahmood2025-dried-fruit-metals\|Mahmood et al. 2025]]. *Estimation of some heavy metal concentrations in selected dried fruit samples available in local markets and assessment of their health risks*, International Journal of Environmental Impacts | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/mahmood2025-dried-fruit-metals\|Mahmood et al. 2025]]. *Estimation of some heavy metal concentrations in selected dried fruit samples available in local markets and assessment of their health risks*, International Journal of Environmental Impacts | 2025 | Peer-reviewed | IQ Pb, Cr, Ni occurrence in selected dried fruit samples available in local markets (n=not reported in abstract) |
 | 5 | [[sources/mititelu2025-heavy-metal-food-contamination-review\|Mititelu et al. 2025]]. *Assessing Heavy Metal Contamination in Food: Implications for Human Health and Environmental Safety*, Toxics | 2025 | Review | EU/US/RO Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Cr, Sn occurrence in Narrative review; no primary sample collection. Synthesizes published literature and regulatory data across multiple countries. |
 | 6 | [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|Pulze et al. 2025]]. *Impact of volcanic eruptions on heavy metal contamination in the food chain*, Italian Journal of Food Safety | 2025 | Peer-reviewed | Review of Ni, Cd, V, Pb, As, and Cr enrichment in volcanic agricultural soils (Mount Etna) and transfer into fruit crops, with EU 2023/915 compliance implications for Etna-area producers |
 | 7 | [[sources/tsegay2025-fruit-byproduct-toxicology-detoxification-review\|Tsegay et al. 2025]]. *Toxicological qualities and detoxification trends of fruit by-products for valorization: A review*, Open Life Sciences 20:20251105 | 2025 | Peer-reviewed | tAs, Pb, Cd, Cr, Ni, Co, tHg occurrence in Narrative review of secondary literature on by-products (peels, pomace, seeds, kernels, rinds) from the globally highest-produced fruits in... |

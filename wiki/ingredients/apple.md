@@ -83,7 +83,7 @@ used_in_products: [fruit-juices-apple-containing, fruit-purees]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 21
+sources: 22
 ---
 
 # Apple

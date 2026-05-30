@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "555fdc3e8a033e3df7fbff295f3e279c84fc084631f00a14c8f25f8be5dcd3ed",
       "content_bytes": 7652,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/feminine-deodorants.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/feminine-deodorants.md | sha256sum"
     }
   },
   "evidence_base": {

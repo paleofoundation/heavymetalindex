@@ -2,7 +2,7 @@
 source_page: wiki/products/water-filters.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 509798b2fbf46198250d4ad34fd60fd51a5f79757c182bd88de9d4c0c900fa3a
+source_page_sha256: be7f409c245bb7c2aa39f0a5d1871375c788831d8a1cb073fd78b25c129047e7
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 120
+audit_log_total_rows: 121
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 120 |
+| audit log rows read | 121 |
 
 ## Page-level audit rows
 

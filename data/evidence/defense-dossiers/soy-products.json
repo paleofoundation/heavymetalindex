@@ -24,10 +24,10 @@
     "content_pin": {
       "content_sha256": "d3b86ebf22cf3a5a0e4b86af52e775ada12596faab8ed9839b3d5556d3bed405",
       "content_bytes": 11128,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/soy-products.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/soy-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -52,10 +52,10 @@
         "content_pin": {
           "content_sha256": "61a06c7ef0d02a826ce7acc5cb78dcbbf34072bc875b5a1f60ff65fa5515b4b0",
           "content_bytes": 5442,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
         }
       }
     ]

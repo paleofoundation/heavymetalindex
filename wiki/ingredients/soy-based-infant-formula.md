@@ -80,7 +80,7 @@ used_in_products: [infant-formula-powder-soy-based, infant-formula-rtf-liquid-so
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 8
+sources: 9
 ---
 
 # Soy-Based Infant Formula

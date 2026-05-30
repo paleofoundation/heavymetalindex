@@ -30,7 +30,7 @@ cc_relationship:
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-03
-sources: 18
+sources: 20
 ---
 
 # Mixed Meals, Non-Rice

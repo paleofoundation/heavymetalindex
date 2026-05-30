@@ -22,10 +22,10 @@
     "content_pin": {
       "content_sha256": "cf3b6a8f6c070de483bd320392cf81cc99dd6a970cd579d03649e5c5464100e0",
       "content_bytes": 10039,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/baby-oil.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/baby-oil.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -56,10 +56,10 @@
         "content_pin": {
           "content_sha256": "095869a5e9409ac96587884b5bd2713dc5cd7d44c5828379c878e90c1ad7c7c4",
           "content_bytes": 35444,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -74,10 +74,10 @@
         "content_pin": {
           "content_sha256": "9062b907427785af61ea39416ec72a9d6e046ed2e7e4464b2c4af5f61240f7ed",
           "content_bytes": 18528,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
         }
       }
     ]

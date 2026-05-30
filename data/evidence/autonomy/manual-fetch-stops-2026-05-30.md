@@ -100,3 +100,27 @@ Pattern note for daemon: when a paper is adjudicated as a skip, the source PDF i
 **Recommendation reinforced (sixth and final confirmation):** The discover-skill scoring-rule patch is now reproducibly validated by six stops in one day with the same root cause and zero counterexamples. Strategic patch unchanged: discover-skill topic-fit gate must require ≥1 of {Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U, "heavy metals", "trace metals", "toxic metals", "metal contamination"} in title OR abstract OR keywords before auto-fetching. "Composition" / "review" / "functional food" / "health benefits" / "therapeutic" / "fermentation" / "nanoparticles" / "ultrasound" / "diabetes" / "rheumatic" / "peptidomic" alone are all too noisy as topic-fit signals — six false-positive auto-fetches in a single discover sweep, all from a single-token ("composition") topic-fit match against the parent topic "camel milk composition," confirms the gate is under-constrained. Tactical follow-up: the six `*-composition-*` PDFs may be batch-moved to `raw/Manual Fetch Discovery/_off-topic/` so the daemon does not re-encounter them on future ticks; alternatively, a `.skip` sentinel file co-located with each PDF would let the daemon skip without filesystem moves.
 
 **No wiki source page written. No routing audit run. No audit-queue entry. PDF left in place.**
+
+---
+
+## STOP 2026-05-30 — `bair2022-infant-toddler-food-heavy-metals-policy` (already clean, post-cutoff, already audited)
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/06_Infant_Foods_Formula/A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy.pdf`
+**Suggested handle:** `KADC_a-narrative-review-of-toxic-heavy-metal-content-of`
+**Resolved cite-key:** `bair2022-infant-toddler-food-heavy-metals-policy` (Bair EC 2022, Frontiers in Nutrition, DOI 10.3389/fnut.2022.919913)
+
+**Stop reason:** Skill candidate-selection rule — "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." The named PDF is the same paper as an already-ingested, already-audited source page. The three identity checks all hit the existing page:
+- DOI grep `10.3389/fnut.2022.919913` → `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md`
+- cite-key grep `bair` → same page
+- (raw_handle differs: existing page is FM_9271943 Marker handle; this PDF is the Kimi corruption-folder copy of the same paper — DOI confirms identity)
+
+**Existing page status:**
+- `updated: 2026-05-17` (post the 2026-05-14 cutoff)
+- NOT in `routing_malformed.csv`; NOT in `routing_unresolved.csv`; 8 clean routing rows in `product_source_routing_audit.csv`
+- Already in `audit-queue.csv` as `status=audited-codex-revised`, `verdict=REVISE`, all findings applied (Codex 2026-05-17: 7 findings applied + strict Part 12 recheck 2 findings applied, 0 rejected)
+
+**Independent spot-check against the handed PDF (read in full this tick):** existing Key numbers verified accurate — Parker et al. 2022 detection percentages (As 100% grain/root-veg, 78% leguminous, 67% fruit; Pb 100% grain, 88% root-veg, 33% fruit, 22% leguminous; Cd 100% grain, 67% root-veg, 33% fruit; Hg undetected), Gardener et al. 2018 (564 foods, Pb 37%, Cd 57%, <7% over FDA/WHO), H.R. 2229 Table 9 action levels, Clean Label Project Table 10 tolerance limits, and the FDA Closer-to-Zero phase tables all match the source. Table 1's seven manufacturer columns are correctly aggregated to a public-record investigation event with no brand columns reproduced (Part 12 brand firewall intact). The CC BY license and Else Nutrition COI disclosure are both captured.
+
+**Action taken:** none. No new source page, no merge-enhance (page has no defect to fix), no routing-audit run, no audit-queue mutation (re-appending `status=pending` would regress a completed `audited-codex-revised` row). PDF left in place. Nothing committed.
+
+**Note for daemon:** this is the expected outcome for the Kimi corruption-folder copies whose papers were already ingested via the Marker (FM_) firehose and audited. The corruption-folder re-download does not create new ingest work when the DOI already resolves to a clean post-cutoff audited page.

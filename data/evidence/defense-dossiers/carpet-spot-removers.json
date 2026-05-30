@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "54a3e8f0cf4ed5ff5010fac64a67981a1d70981fed12854167789429f4a1b5a9",
       "content_bytes": 7565,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/carpet-spot-removers.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/carpet-spot-removers.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "4ca3571fa954ad980ac640ce23344f1fc3151b4b31910bf1c064bf4df659a6c7",
       "content_bytes": 7609,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/dish-soaps-manual.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/dish-soaps-manual.md | sha256sum"
     }
   },
   "evidence_base": {

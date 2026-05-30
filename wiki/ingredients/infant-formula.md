@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 4
+sources: 5
 wiki_doi: null
 updated: 2026-05-19
 ---
@@ -153,3 +153,44 @@ The five most recent substantive edits to this page. The full version history li
 | [88d0a47](https://github.com/paleofoundation/heavymetalindex/commit/88d0a47) | 2026-05-30 | autonomy: checkpoint [deterministic-phase] 2026-05-30T03-41-54Z |
 | [13eaa01](https://github.com/paleofoundation/heavymetalindex/commit/13eaa01) | 2026-05-29 | synth: infant-formula replace 7 placeholder paragraph(s) |
 <!-- END: hmi-page-history -->
+## Why this commodity accumulates heavy metals
+
+_Pending synthesis. The soil, plant biology, processing, or sourcing reasons this commodity carries heavy-metal load will be populated as contributing sources accumulate per CLAUDE.md Part 9._
+
+## Heavy metal contamination profile
+
+_Pending synthesis. The per-analyte concentration table for this commodity will be populated as contributing sources accumulate per CLAUDE.md Part 9. Stub state until then._
+
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb  | pending | — | — | — | — |
+| Cd  | pending | — | — | — | — |
+| iAs | pending | — | — | — | — |
+| tAs | pending | — | — | — | — |
+| tHg | pending | — | — | — | — |
+| Ni  | pending | — | — | — | — |
+| Al  | pending | — | — | — | — |
+| Cr  | pending | — | — | — | — |
+| Sn  | pending | — | — | — | — |
+| U   | pending | — | — | — | — |
+
+## Ranges by source, region, and variety
+
+_Pending synthesis. Geographic and varietal variance will be populated from contributing source pages per CLAUDE.md Part 9._
+
+## Processing effects
+
+_Pending synthesis. Polishing, rinsing, fermentation, drying, milling, and refining effects on per-analyte concentration will be populated from contributing sources._
+
+## Ingredient-derivative risk
+
+_Pending synthesis. When this commodity is processed into syrups, concentrates, flours, brans, or other derivatives, the per-derivative concentration shifts will be populated here._
+
+## Mitigation options
+
+_Pending synthesis. Practical interventions to reduce heavy-metal load — ordered by impact magnitude across sourcing, agronomic, processing, formulation, testing-QC, and packaging-storage levers — will be populated from contributing source pages and cross-linked `mitigation/` pages._
+
+## Regulatory limits that apply
+
+_Pending synthesis. Operative Codex, EU, FDA, and other regulatory limits for this commodity or its derived products will be populated from `regulations/` pages and source evidence._
+

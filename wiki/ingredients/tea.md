@@ -83,7 +83,7 @@ used_in_products: ["[[products/tea]]", "[[products/kombucha-tea-based]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 32
+sources: 35
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10

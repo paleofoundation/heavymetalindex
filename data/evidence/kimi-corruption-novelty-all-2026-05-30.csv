@@ -360,12 +360,15 @@ papers/07_Processed_Foods_Snacks_Beverages/Elemental Composition of Japanese Mat
 papers/02_Vegetables_and_Vegetable_Products/Distribution of Cadmium in Fresh Vegetables Marketed in the Yangtze River Delta Region and Health Risk Assessment.pdf,papers,novel,10.3390/foods11131912,,1956318
 papers/03_Grains_and_Grain_Products/Gluten-Free Cereals and Pseudocereals as a Potential Source of Cadmium.pdf,papers,novel,10.3390/molecules27092836,,2306155
 papers/03_Grains_and_Grain_Products/Health risk assessment of potentially toxic elements in bread from Iranian markets using Monte Carlo simulation.pdf,papers,novel,10.1038/s41598-025-22207-8,,2374108
+seafood_papers/01_Freshwater_Fish/Heavy metals in the common carp (_Cyprinus carpio_ L.) from three reservoirs in the Czech Republic.pdf,seafood_papers,duplicate_doi,10.17221/100/2016-cjfs,vicarova2016-common-carp-czech-reservoirs,282076
 seafood_papers/01_Freshwater_Fish/Toxic Heavy Metals and Their Risk Assessment of Exposure in Selected Freshwater Fish from the Southern Caspian Sea.pdf,seafood_papers,duplicate_doi,10.3390/foods12213967,sirisangarunroj2023-thai-fish-toxic-elements,292689
+seafood_papers/01_Freshwater_Fish/Possible Metal Burden of Potentially Toxic Elements in Rainbow Trout (_Oncorhynchus mykiss_) on Aquaculture Farm.pdf,seafood_papers,duplicate_doi,10.3390/fishes9070252,lehel2024-rainbow-trout-aquaculture-italy,342272
 "seafood_papers/05_Kelp_Seaweed_Canned/Tin in foods and dietary exposure assessment in Zhejiang Province, China.pdf",seafood_papers,duplicate_doi,10.3390/foods15060982,ye2026-tin-foods-dietary-exposure-zhejiang,684754
 "seafood_papers/02_Marine_Nonpredatory/Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products_ A Ten-Year Analysis.pdf",seafood_papers,duplicate_doi,10.3390/foods14030451,garofalo2025-seafood-cd-pb-hg-italy-10yr,858753
 "seafood_papers/01_Freshwater_Fish/Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products_ A Ten-Year Overview from Portugal.pdf",seafood_papers,duplicate_doi,10.3390/foods14030451,garofalo2025-seafood-cd-pb-hg-italy-10yr,858753
 seafood_papers/01_Freshwater_Fish/Risk assessment of toxic residues among some freshwater and marine water fish species.pdf,seafood_papers,duplicate_doi,10.3389/fvets.2023.1185395,hussein2023-freshwater-marine-fish-egypt,871054
 seafood_papers/03_Marine_Predatory/Heavy Metals Content in Fresh Tuna and Swordfish Caught from Indian and Pacific Oceans_ Health Risk.pdf,seafood_papers,duplicate_doi,10.14202/vetworld.2023.858-868,oktariani2023-tuna-swordfish-indian-pacific-heavy-metals,1243913
+seafood_papers/01_Freshwater_Fish/Heavy metal content in farmed rainbow trout in relation to aquaculture area and feed pellets.pdf,seafood_papers,duplicate_doi,10.21603/2308-4057-2019-2-329-338,majlesi2019-farmed-rainbow-trout-yasuj-iran,1308415
 seafood_papers/01_Freshwater_Fish/Assessment of human health risks posed by toxic heavy metals in Tilapia fish (_Oreochromis mossambic.pdf,seafood_papers,duplicate_doi,10.3389/fpubh.2024.1402421,gupta2024-tilapia-heavy-metals-cauvery-india,1652944
 seafood_papers/02_Marine_Nonpredatory/Comparative Evaluation of Heavy Metal Concentration in Three Commercially Important Fish_ Organ-Spec.pdf,seafood_papers,duplicate_doi,10.3389/fmars.2025.1634855,dineshkumar2025-fish-heavy-metals,2130746
 "seafood_papers/03_Marine_Predatory/Bioaccumulation of Methylmercury Within the Marine Food Web of the Outer Bay of Fundy, Gulf of Maine.pdf",seafood_papers,duplicate_doi,10.1371/journal.pone.0197220,harding2018-bay-fundy-methylmercury,6538307
@@ -384,8 +387,6 @@ seafood_papers/02_Marine_Nonpredatory/Food Standards Scotland_ Chemical Contamin
 "seafood_papers/04_Shellfish/Trophic Magnification of Triphenyltin in a Marine Food Web of Bohai Bay, North China_ Comparison to.pdf",seafood_papers,novel,10.1021/es0514747,,163336
 "seafood_papers/05_Kelp_Seaweed_Canned/Cadmium, lead, tin, total mercury, and methylmercury in canned tuna commercialised in Sao Paulo, Bra.pdf",seafood_papers,novel,10.1080/19393210.2017.1311379,,169538
 seafood_papers/04_Shellfish/Comprehensive Risk Assessment of Metals and Minerals in Seafood Using Bioaccessibility Correction.pdf,seafood_papers,novel,10.3390/foods14213725,,279365
-seafood_papers/01_Freshwater_Fish/Heavy metals in the common carp (_Cyprinus carpio_ L.) from three reservoirs in the Czech Republic.pdf,seafood_papers,novel,10.17221/100/2016-cjfs,,282076
-seafood_papers/01_Freshwater_Fish/Possible Metal Burden of Potentially Toxic Elements in Rainbow Trout (_Oncorhynchus mykiss_) on Aquaculture Farm.pdf,seafood_papers,novel,10.3390/fishes9070252,,342272
 seafood_papers/03_Marine_Predatory/Metal Load of Potentially Toxic Elements in Tuna (Thunnus albacares) -- Food Safety Aspects.pdf,seafood_papers,novel,10.3390/foods12163038,,453847
 seafood_papers/04_Shellfish/Heavy metal accumulation and risk assessment of lead and cadmium in cultured oysters (Crassostrea ir.pdf,seafood_papers,novel,10.22515/sustinere.jes.v5i2.159,,511378
 seafood_papers/02_Marine_Nonpredatory/Comparative Study of Potentially Toxic Nickel and Their Potential Human Health Risks in Seafood from.pdf,seafood_papers,novel,10.3390/biol,,542850
@@ -397,7 +398,6 @@ seafood_papers/04_Shellfish/Heavy metal levels in New Zealand molluscs.pdf,seafo
 "seafood_papers/03_Marine_Predatory/Low Mercury, Cadmium and Lead Concentrations in Tuna Products from the Eastern Pacific.pdf",seafood_papers,novel,10.1016/j.heliyon.2020.e04576,,1069767
 "seafood_papers/05_Kelp_Seaweed_Canned/Human Exposure to Toxic Metals (Cd, Pb, Hg) and Nitrates from Seaweed Consumption.pdf",seafood_papers,novel,10.3390/app11156934,,1247628
 seafood_papers/05_Kelp_Seaweed_Canned/Mineral and heavy metal content in canned tuna.pdf,seafood_papers,novel,10.1007/s11259-026-11228-x,,1287933
-seafood_papers/01_Freshwater_Fish/Heavy metal content in farmed rainbow trout in relation to aquaculture area and feed pellets.pdf,seafood_papers,novel,10.21603/2308-4057-2019-2-329-338,,1308415
 seafood_papers/03_Marine_Predatory/Risk Assessment and Characterization in Tuna Species of the Canary Islands According to Their Metal.pdf,seafood_papers,novel,10.3390/foods12071438,,1310907
 seafood_papers/04_Shellfish/Cadmium_ A Focus on the Brown Crab (Cancer pagurus) Industry and Potential Human Health Risks.pdf,seafood_papers,novel,10.3390/toxics10100591,,1655583
 seafood_papers/02_Marine_Nonpredatory/Risk of Mercury Ingestion from Canned Fish in Poland - Predatory vs Non-Predatory.pdf,seafood_papers,novel,10.3390/molecules25245884,,1985631

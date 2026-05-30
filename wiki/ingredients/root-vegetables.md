@@ -83,7 +83,7 @@ used_in_products: [vegetable-juices-root-vegetable-containing]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 26
+sources: 44
 ---
 
 # Root vegetables

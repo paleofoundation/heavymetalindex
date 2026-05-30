@@ -23,10 +23,10 @@
     "content_pin": {
       "content_sha256": "47d5b6461896707e0e60a4701ab48524051c154566d848957fcaf0e10c97dfb3",
       "content_bytes": 12674,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/true-tea-camellia-sinensis.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/true-tea-camellia-sinensis.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,10 +48,10 @@
         "content_pin": {
           "content_sha256": "3d0145dc08bb9beeb35aeac00c51512087a43a391208ef3038b30af940a88d75",
           "content_bytes": 3146,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
         }
       },
       {
@@ -68,10 +68,10 @@
         "content_pin": {
           "content_sha256": "8ece2c9dfe3ccf8e001ca36cfbd5c2200b9bf31ee2b5ec54212262bb18be2074",
           "content_bytes": 3145,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
         }
       },
       {
@@ -95,10 +95,10 @@
         "content_pin": {
           "content_sha256": "93913962a996451fe18afcfe35d2d5839c1407eb13859372550506d105f582e6",
           "content_bytes": 3330,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/hamitoglu2026-turkiye-tea-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/hamitoglu2026-turkiye-tea-metals.md | sha256sum"
         }
       },
       {
@@ -120,10 +120,10 @@
         "content_pin": {
           "content_sha256": "b7de2766067292d8cd834735b5e9cc412d898990296743b42caeaf9655d3f71a",
           "content_bytes": 6067,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/hu2023-china-tea-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/hu2023-china-tea-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -149,10 +149,10 @@
         "content_pin": {
           "content_sha256": "9b719598cfb1844dec71565c473fc1ca2a89d6b17cbb7f436642639362611438",
           "content_bytes": 3931,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/kazeminia2023-tea-heavy-metals-review.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/kazeminia2023-tea-heavy-metals-review.md | sha256sum"
         }
       },
       {
@@ -173,10 +173,10 @@
         "content_pin": {
           "content_sha256": "0163d7bea60eb469f4e0d9ebc9f6e862ec76934138da56d4183fc6f47220a649",
           "content_bytes": 4000,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/li2013-tea-chemical-contaminants-review.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/li2013-tea-chemical-contaminants-review.md | sha256sum"
         }
       },
       {
@@ -198,10 +198,10 @@
         "content_pin": {
           "content_sha256": "24d794abedcc816461e20ef09372ccc5063ad2537d3ff51b356781416629cb88",
           "content_bytes": 5796,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/salmani2023-herbal-teas-metals-review.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/salmani2023-herbal-teas-metals-review.md | sha256sum"
         }
       },
       {
@@ -222,10 +222,10 @@
         "content_pin": {
           "content_sha256": "ea19c6296340fd9fd77083b8cd1d0824585c485f842285a6b41e71ff8b0eff7a",
           "content_bytes": 2921,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/taha2026-saudi-tea-metals.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/taha2026-saudi-tea-metals.md | sha256sum"
         }
       }
     ]

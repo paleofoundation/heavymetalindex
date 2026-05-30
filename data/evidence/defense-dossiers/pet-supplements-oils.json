@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "364382aaf95763d32b367e27047949efd9132911e4cc946002e7a72d3ca8030d",
       "content_bytes": 7614,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/pet-supplements-oils.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/pet-supplements-oils.md | sha256sum"
     }
   },
   "evidence_base": {

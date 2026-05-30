@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-09
-sources: 1
+sources: 2
 ---
 
 # Plant Milks (Almond, Oat, Coconut, Other Non-Soy/Non-Rice)

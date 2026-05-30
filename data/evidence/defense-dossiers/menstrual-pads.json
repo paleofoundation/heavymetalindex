@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "5231c60e662a61454add736d304575b1389d39972639aee379b9a3e90d60d05f",
       "content_bytes": 8528,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/menstrual-pads.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/menstrual-pads.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,10 +41,10 @@
         "content_pin": {
           "content_sha256": "439ea7ec9777d18a7a4e8c5746f1e9ffe52b6f9ac80d077e0535849ad15dac5b",
           "content_bytes": 18293,
-          "last_commit_sha": "70ae1cc",
+          "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 70ae1cc:wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md | sha256sum"
+          "verify_command": "git show 9658f6b:wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md | sha256sum"
         }
       }
     ]

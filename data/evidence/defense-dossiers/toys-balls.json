@@ -19,10 +19,10 @@
     "content_pin": {
       "content_sha256": "b0ae7acab47da1b5ef9547d25411058565981147abaf012dbadb2581faf56a1f",
       "content_bytes": 7451,
-      "last_commit_sha": "70ae1cc",
+      "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 70ae1cc:wiki/products/toys-balls.md | sha256sum"
+      "verify_command": "git show 9658f6b:wiki/products/toys-balls.md | sha256sum"
     }
   },
   "evidence_base": {

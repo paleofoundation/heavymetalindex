@@ -40,3 +40,36 @@
 - `burgon2023-cocoa-bean-to-bar-brazil-metals-ota` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-ingredient:chocolate-ias-ingredient_2023_cocoa-beans-and-bean-to-bar-chocolates-inorganic-contaminants-and-ochratoxin-a.pdf)
 - `jabar2019-heavy-elements-water-diyala-iraq` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-bottled-drinking-water-cd_2019_10-23939-chcht13-04-471.pdf)
 - `kithure2021-bottled-water-nairobi` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-bottled-drinking-water-cd_2021_10-51584-ijrias-2021-6707.pdf)
+
+## Tick 2026-05-30T13:53:45.627Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/06_Infant_Foods_Formula/A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy.pdf`: already-clean post-2026-05-14 page (bair2022-infant-toddler-food-heavy-metals-policy), already audited (audited-codex-revised); no ingest work needed
+
+## Tick 2026-05-30T13:58:13.976Z
+
+- Candidates this tick: 2
+- Succeeded: 0
+- Stopped (need Karen): 2
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/05_Dairy_Eggs_and_Alternatives/Analysis of heavy metal concentrations in breast milk by neutrosophic method in Lahore, Pakistan.pdf`: byte-identical to fatima2024-breast-milk-heavy-metals-lahore-neutrosophic
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/05_Dairy_Eggs_and_Alternatives/Content of Toxic Elements (Arsenic, Cadmium, Mercury, Lead) in Eggs from an Ethically Managed Laying Hen Farm.pdf`: byte-identical to guerrini2024-toxic-elements-ethical-hen-farm-eggs
+
+## Tick 2026-05-30T14:42:39.781Z
+
+- Candidates this tick: 3
+- Succeeded: 3
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `majlesi2019-farmed-rainbow-trout-yasuj-iran` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish/Heavy metal content in farmed rainbow trout in relation to aquaculture area and feed pellets.pdf)
+- `vicarova2016-common-carp-czech-reservoirs` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish/Heavy metals in the common carp (_Cyprinus carpio_ L.) from three reservoirs in the Czech Republic.pdf)
+- `lehel2024-rainbow-trout-aquaculture-italy` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish/Possible Metal Burden of Potentially Toxic Elements in Rainbow Trout (_Oncorhynchus mykiss_) on Aquaculture Farm.pdf)
