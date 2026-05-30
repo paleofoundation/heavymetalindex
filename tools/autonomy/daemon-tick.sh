@@ -264,9 +264,28 @@ if [[ -n "$REAL_DIRTY" ]]; then
   # code/config work by a human or another agent -> refuse, as before.
   FOREIGN_DIRTY=$(git status --porcelain | grep -E "^.. \"?(tools/|docs/|api/|\.github/|quartz|package(-lock)?\.json|tsconfig|vercel\.json|CLAUDE\.md|OPERATING\.md|AGENTS\.md|\.gitignore)" || true)
   if [[ -n "$FOREIGN_DIRTY" ]]; then
-    log "Working tree has real code/config edits; daemon refuses to run (another agent may be mid-work)."
+    # 2026-05-30 (Opus 4.8) — DO NOT refuse the whole tick on foreign edits.
+    # This `exit 0` is the second reason the daemon barely ran for weeks: with
+    # 3-4 Claude Code sessions constantly editing tools/, api/, quartz/, the
+    # tree is almost never clean during the day, so refusing here meant the
+    # INGESTER — the entire point of the tick — almost never ran while anyone
+    # was working. The original fear (the daemon sweeping a sibling's in-flight
+    # code edit into its own commit) is already structurally impossible: every
+    # daemon commit is scoped to `git add -- data/evidence data/workbench/
+    # briefings wiki` and serialized behind the commit lock, so a foreign
+    # tools/ edit can never be staged or committed by this process. The one
+    # genuinely unsafe operation is `git pull --rebase --autostash`, whose
+    # autostash momentarily reverts ALL tracked working-tree files (including
+    # the foreign edit) for the duration of the rebase. So: PROCEED with the
+    # tick (ingest + deterministic regen) but set a flag that SKIPS the
+    # autostash-pull, leaving the sibling's working tree untouched. The
+    # daemon's local commits persist and push on a later clean tick (rebased
+    # then), so nothing is lost — only visibility is deferred until the
+    # sibling commits. This restores daytime/concurrent liveness; the KeepAlive
+    # plist (committed a062dc8) restores overnight liveness.
+    log "Foreign code/config edits present; proceeding WITHOUT git-pull (autostash would disturb them). Ingest + regen still run; commits stay scoped + lock-serialized."
     log "$FOREIGN_DIRTY"
-    exit 0
+    SKIP_PULL_FOREIGN_DIRT=1
   fi
   # All non-transient dirt is wiki/ + data/ regeneration leftovers. If the
   # commit lock is held, defer to that holder. Otherwise a previous tick
@@ -306,10 +325,19 @@ fi
 # dirties, rebases, then pops them. If pop conflicts (rare; transient files
 # regenerate anyway), the rebase still landed and the tick proceeds with
 # whatever state pop left behind.
-run_step "git pull --rebase" git pull --rebase --autostash origin "$(git branch --show-current)" || {
-  log "git pull failed (likely a real conflict, not just divergence); skipping this tick."
-  exit 0
-}
+if [[ "${SKIP_PULL_FOREIGN_DIRT:-0}" == "1" ]]; then
+  # Foreign code/config edits are present in the working tree (set above).
+  # Skip the autostash-pull so we never disturb a sibling session's in-flight
+  # edit. The tick still ingests + regenerates; commits stay scoped + lock-
+  # serialized; the end-of-tick push reconciles when it can (or a later clean
+  # tick's pull --rebase replays our local commits onto origin).
+  log "Skipping git pull this tick (foreign code/config edits present; autostash would disturb them)."
+else
+  run_step "git pull --rebase" git pull --rebase --autostash origin "$(git branch --show-current)" || {
+    log "git pull failed (likely a real conflict, not just divergence); skipping this tick."
+    exit 0
+  }
+fi
 
 # Step 1: refresh routing audit (catches new sources, refreshes fan-out)
 run_step "routing audit" node tools/evidence/build-routing-audit.mjs || true
