@@ -123,7 +123,25 @@ const PRIORITY_KEYWORDS = [
 
 fs.mkdirSync(autonomyDir, { recursive: true })
 
-console.log(`ingest-manual-fetch-batch: max-pdfs=${maxPdfs}, model=${model}, dry-run=${dryRun}, folder=${folderRestrict || "all"}`)
+// Skip-list: pre-computed known-duplicate PDFs (repo-relative path -> reason).
+// Populated out-of-band (e.g. DOI-matched against the full corpus) so the
+// candidate loop can short-circuit a dupe without paying for a claude --print
+// spawn. Tolerant of a missing file (returns empty map) and CRLF line endings.
+function loadSkipList() {
+  const skipPath = path.join(repoRoot, "data/evidence/manual-fetch-skip.csv")
+  const map = new Map()
+  if (!fs.existsSync(skipPath)) return map
+  const lines = fs.readFileSync(skipPath, "utf8").split(/\r?\n/).filter(Boolean)
+  for (let i = 1; i < lines.length; i++) {
+    const cells = parseCsvLine(lines[i])
+    const relPath = (cells[0] || "").trim()
+    if (relPath) map.set(relPath, (cells[1] || "").trim())
+  }
+  return map
+}
+const skipReason = loadSkipList()
+
+console.log(`ingest-manual-fetch-batch: max-pdfs=${maxPdfs}, model=${model}, dry-run=${dryRun}, folder=${folderRestrict || "all"}, skip-list=${skipReason.size}`)
 
 // ---------- Tracker management ----------
 
