@@ -26,14 +26,14 @@ sampling_year_range: null
 updated: 2026-05-18
 ---
 
-This study applied neutrosophic statistics to analyze Pb and tHg concentrations in 70 breast milk samples from lactating mothers living near industrial zones in Lahore, Pakistan. The authors collected interval-form data (minimum–maximum pairs per age group) and used neutrosophic methods to represent indeterminacy that classical mean-±-SD statistics cannot capture. The headline finding is elevated Pb and Hg in women from industrial areas, with Pb ranging approximately 0.85–2.87 ppb (µg/L) and tHg ranging approximately 2.87–16.85 µg/L across age groups, with both metrics showing wider uncertainty ranges than classical statistics would express.
+This study applied neutrosophic statistics to analyze Pb and tHg concentrations in 70 breast milk samples from lactating mothers living near industrial zones in Lahore, Pakistan. The authors collected interval-form data (minimum–maximum pairs per age group) and used neutrosophic methods to represent indeterminacy that classical mean-±-SD statistics cannot capture. The headline finding is elevated Pb and Hg in women from industrial areas, with Pb ranging approximately 0.85–2.89 ppb and tHg ranging approximately 2.87–16.85 ppb across age groups, with both metrics showing wider uncertainty ranges than classical statistics would express.
 
 ## Key numbers
 
-Concentrations are reported as intervals [minimum, maximum] across age groups 25–40 years (n = 70 total). The paper reports units as ppb; the µg/L equivalence below assumes dilute aqueous milk density and should not be reused for dry-weight or lipid-normalized comparison.
+Concentrations are reported as intervals [minimum, maximum] across age groups 25–40 years (n = 70 total). The paper reports values in ppb without specifying mass-volume basis; breast milk is a biological fluid, so ppb is conventionally µg/L rather than µg/kg. Values below are reproduced in the paper's native units.
 
-- Pb: range across all age-group intervals = [0.845, 2.890] µg/L; classical means by age group = 1.583–2.620 µg/L (±0.08–0.94 SD)
-- tHg: range across all age-group intervals = [2.873, 16.853] µg/L; classical means by age group = 9.0975–13.2495 µg/L (±1.11–6.50 SD)
+- Pb: range across all age-group intervals = [0.845, 2.890] ppb; classical means by age group = 1.583–2.620 ppb (±0.08–0.94 SD)
+- tHg: range across all age-group intervals = [2.873, 16.853] ppb; classical means by age group = 9.0975–13.2495 ppb (±1.11–6.50 SD)
 
 The paper describes raised Pb and Hg in lactating women from industrial-zone localities in Lahore. The small per-age-group intervals, absence of mercury speciation, and lack of LOD/LOQ reporting limit comparison to other breast-milk datasets.
 
