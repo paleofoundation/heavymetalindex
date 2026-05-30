@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-30T04:56:40.602Z
+updated: 2026-05-30T13:49:15.717Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 54 min ago (stale) |
+| Daemon heartbeat | ✅ 28 min ago |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 3 ✅ |
-| Audit queue: pending-audit-spawn-failed | 53 (async lane) |
-| Wishlist: total downloaded historically | 20 |
-| Wishlist: total ingested historically | 1 |
+| Audit queue: pending | 1 ✅ |
+| Audit queue: pending-audit-spawn-failed | 70 (async lane) |
+| Wishlist: total downloaded historically | 86 |
+| Wishlist: total ingested historically | 17 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 31 |
-| Commits last 24 hours | 136 |
+| Commits last 1 hour | 17 |
+| Commits last 24 hours | 87 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-d0d3a6f 40 seconds ago — ingest auto-fetched 2026-05-30 22:18 batch 1: 1 source pages
+11ca6b0 11 seconds ago — track auto-fetched ingests 2026-05-30 1020: 17 source pages
 ```
 
 ## How to read this

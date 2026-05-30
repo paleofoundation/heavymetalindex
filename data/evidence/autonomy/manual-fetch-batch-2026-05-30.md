@@ -28,3 +28,15 @@
 
 ### Failed
 - `raw/Manual Fetch Discovery/akhmetsadykova2012-camel-milk-heavy-metals.pdf`: unrecognized final line: "End-of-cycle summary: Fresh ingest of the Akhmetsadykova et al. 2013 in vivo cavy lead-protection study from `raw/Manual Fetch Discovery/` (DOI 10.9755/ejfa.v25i4.15494). Routing audit clean (0 blocki"
+
+## Tick 2026-05-30T13:21:32.066Z
+
+- Candidates this tick: 3
+- Succeeded: 3
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `burgon2023-cocoa-bean-to-bar-brazil-metals-ota` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-ingredient:chocolate-ias-ingredient_2023_cocoa-beans-and-bean-to-bar-chocolates-inorganic-contaminants-and-ochratoxin-a.pdf)
+- `jabar2019-heavy-elements-water-diyala-iraq` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-bottled-drinking-water-cd_2019_10-23939-chcht13-04-471.pdf)
+- `kithure2021-bottled-water-nairobi` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-bottled-drinking-water-cd_2021_10-51584-ijrias-2021-6707.pdf)
