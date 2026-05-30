@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juice-not-canned.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f9c5f257e6c6b4b247075bed8058c8de12e83970dc6bfd2436243a4b7ca7c821
+source_page_sha256: 9fb6fb2d239f94011332f5200c5fa22914aaf16ea271f56aff3d2a4e90fb26bb
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0
 distinct_cited_targets: 45
 distinct_cited_sources: 38
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 121
+audit_rows_for_cited_targets: 51
+audit_log_total_rows: 194
 noindex: true
 ---
 
@@ -35,8 +35,8 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited targets | 45 |
 | distinct cited `sources/` pages | 38 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 121 |
+| audit rows on cited target pages | 51 |
+| audit log rows read | 194 |
 
 ## Page-level audit rows
 
@@ -904,7 +904,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `7.7 ppb`
 - Context: `c]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | reta`
@@ -918,7 +919,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `8.2 ppb`
 - Context: `1 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | retained ppb summ`
@@ -932,7 +934,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `9.8 ppb`
 - Context: `ngth apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | retained ppb summary | [[sourc`
@@ -946,7 +949,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `11.2 ppb`
 - Context: `ice category | 58 quantified iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; ma`
@@ -960,7 +964,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `22.6 ppb`
 - Context: `58 quantified iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | r`
@@ -974,7 +979,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `25.6 ppb`
 - Context: `iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | retained ppb su`
@@ -988,7 +994,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `49.6 ppb`
 - Context: `m 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | retained ppb summary | [[sour`
@@ -1002,7 +1009,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `1.5 ppb`
 - Context: `ggregate. | | [[metals/lead|Lead]] | FDA TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max`
@@ -1016,7 +1024,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `2.46 ppb`
 - Context: `[[metals/lead|Lead]] | FDA TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | re`
@@ -1030,7 +1039,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `2.58 ppb`
 - Context: `|Lead]] | FDA TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | retained ppb sum`
@@ -1044,7 +1054,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `2.7 ppb`
 - Context: `TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | retained ppb summary | [[sourc`
@@ -1058,7 +1069,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0 ppb`
 - Context: `|Cadmium]] | FDA TDS 99 apple juice, bottled | N=3; all reported concentrations 0 ppb | 0 ppb reported concentration sum`
@@ -1072,7 +1084,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0 ppb`
 - Context: `]] | FDA TDS 99 apple juice, bottled | N=3; all reported concentrations 0 ppb | 0 ppb reported concentration summary; re`
@@ -1086,7 +1099,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `1 ppb`
 - Context: `ed concentrations 0 ppb | 0 ppb reported concentration summary; reporting limit 1 ppb | [[sources/fda2022-tds-elements-f`
@@ -1100,7 +1114,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `2.4 ppb`
 - Context: `tals/arsenic-total|Total arsenic]] | FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4`
@@ -1114,7 +1129,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `4 ppb`
 - Context: `total|Total arsenic]] | FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | retain`
@@ -1128,7 +1144,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `4.2 ppb`
 - Context: `arsenic]] | FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | retained ppb summ`
@@ -1142,7 +1159,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `4.4 ppb`
 - Context: `FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | retained ppb summary | [[sourc`
@@ -1156,7 +1174,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0 ppb`
 - Context: `enic. | | [[metals/nickel|Nickel]] | FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 pp`
@@ -1170,7 +1189,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `16 ppb`
 - Context: `[metals/nickel|Nickel]] | FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retaine`
@@ -1184,7 +1204,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `18 ppb`
 - Context: `el|Nickel]] | FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retained ppb summar`
@@ -1198,7 +1219,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `20 ppb`
 - Context: `| FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retained ppb summary; reporting`
@@ -1212,7 +1234,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `20 ppb`
 - Context: `ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retained ppb summary; reporting limit 20 ppb | [[sources/fda2022-tds-elements-`
@@ -1226,7 +1249,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `2 ug/kg`
 - Context: `nce context only. | | [[metals/arsenic-total|Total arsenic]] | UK baby drinks | 2 ug/kg | 2 ppb | [[sources/fsa2016-infa`
@@ -1240,7 +1264,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `2 ppb`
 - Context: `t only. | | [[metals/arsenic-total|Total arsenic]] | UK baby drinks | 2 ug/kg | 2 ppb | [[sources/fsa2016-infant-food-fo`
@@ -1254,7 +1279,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `1 ug/kg`
 - Context: `it juice. | | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK baby drinks | 1 ug/kg | 1 ppb | [[sources/fsa2016-infa`
@@ -1268,7 +1294,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `1 ppb`
 - Context: `| | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK baby drinks | 1 ug/kg | 1 ppb | [[sources/fsa2016-infant-food-fo`
@@ -1282,7 +1309,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0 ug/kg`
 - Context: `cally not-canned fruit juice. | | [[metals/cadmium|Cadmium]] | UK baby drinks | 0 ug/kg | 0 ppb lower-bound category val`
@@ -1296,7 +1324,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0 ppb`
 - Context: `canned fruit juice. | | [[metals/cadmium|Cadmium]] | UK baby drinks | 0 ug/kg | 0 ppb lower-bound category value | [[sou`
@@ -1310,7 +1339,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `3 ug/kg`
 - Context: `ound treatment; not juice-specific. | | [[metals/lead|Lead]] | UK baby drinks | 3 ug/kg | 3 ppb | [[sources/fsa2016-infa`
@@ -1324,7 +1354,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `3 ppb`
 - Context: `ment; not juice-specific. | | [[metals/lead|Lead]] | UK baby drinks | 3 ug/kg | 3 ppb | [[sources/fsa2016-infant-food-fo`
@@ -1338,7 +1369,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `9 ug/kg`
 - Context: `ly not-canned fruit juice. | | [[metals/nickel|Nickel]] | UK baby drinks | 0 to 9 ug/kg | 0 to 9 ppb | [[sources/fsa2016`
@@ -1352,7 +1384,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `9 ppb`
 - Context: `ruit juice. | | [[metals/nickel|Nickel]] | UK baby drinks | 0 to 9 ug/kg | 0 to 9 ppb | [[sources/fsa2016-infant-food-fo`
@@ -1366,7 +1399,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0.08 mg/L`
 - Context: `ickel]] | Ethiopia packaged fruit juices consumed by children | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5`
@@ -1380,7 +1414,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0.078 mg/L`
 - Context: `packaged fruit juices consumed by children | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5 to 80 ppb; median`
@@ -1394,7 +1429,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `80 ppb`
 - Context: `sumed by children | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5 to 80 ppb; median 78 ppb | [[sources/weldeg`
@@ -1408,7 +1444,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `78 ppb`
 - Context: `en | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5 to 80 ppb; median 78 ppb | [[sources/weldegebriel2025-ethi`
@@ -1422,7 +1459,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `34 ppb`
 - Context: `l]] | Ethiopia mango, pineapple, strawberry, and cocktail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62`
@@ -1436,7 +1474,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `70 ppb`
 - Context: `go, pineapple, strawberry, and cocktail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5`
@@ -1450,7 +1489,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `62 ppb`
 - Context: `wberry, and cocktail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5 ppb | 34 to 70 ppb`
@@ -1464,7 +1504,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `56.5 ppb`
 - Context: `ail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5 ppb | 34 to 70 ppb fruit-type media`
@@ -1478,7 +1519,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `70 ppb`
 - Context: `| mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5 ppb | 34 to 70 ppb fruit-type medians | [[sources/we`
@@ -1492,7 +1534,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0.1 mg/L`
 - Context: `Cadmium]] | Ethiopia packaged fruit juices consumed by children | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to`
@@ -1506,7 +1549,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0.08 mg/L`
 - Context: `pia packaged fruit juices consumed by children | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to 100 ppb; median`
@@ -1520,7 +1564,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `100 ppb`
 - Context: `s consumed by children | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to 100 ppb; median 80 ppb | [[sources/welde`
@@ -1534,7 +1579,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `80 ppb`
 - Context: `ildren | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to 100 ppb; median 80 ppb | [[sources/weldegebriel2025-ethi`
@@ -1548,7 +1594,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0.04 mg/L`
 - Context: `ad|Lead]] | Ethiopia packaged fruit juices consumed by children | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10`
@@ -1562,7 +1609,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `0.035 mg/L`
 - Context: `ia packaged fruit juices consumed by children | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10 to 40 ppb; median`
@@ -1576,7 +1624,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `40 ppb`
 - Context: `consumed by children | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10 to 40 ppb; median 35 ppb | [[sources/weldeg`
@@ -1590,7 +1639,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 #### Claim `35 ppb`
 - Context: `ldren | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10 to 40 ppb; median 35 ppb | [[sources/weldegebriel2025-ethi`
@@ -1604,7 +1654,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
 
 ### French TDS Category Rows
 
@@ -2626,7 +2677,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran\.md` | sources | 0 | — | — |
 | `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` | sources | 0 | — | — |
-| `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md` | sources | 0 | — | — |
+| `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md` | sources | 1 | 2026-05-30 | 2026-05-30 |
 | `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/youssao2018-fruit-juices-syrup-benin\.md` | sources | 0 | — | — |
 

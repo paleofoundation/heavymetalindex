@@ -23,10 +23,10 @@
     "content_pin": {
       "content_sha256": "bc14ef59bb35f73e841479373c5d3ab19eda381fddd937e8d79efa14af8d1cf8",
       "content_bytes": 13084,
-      "last_commit_sha": "9658f6b",
+      "last_commit_sha": "49ecdb7",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/sunflower-seeds.md | sha256sum"
+      "verify_command": "git show 49ecdb7:wiki/products/sunflower-seeds.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -161,10 +161,10 @@
         "content_pin": {
           "content_sha256": "5b69c4e1cb169bfe7ceab2cc919486e6359f2e9fa796b7ab987d8bbb9d4b6d77",
           "content_bytes": 10562,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
         }
       },
       {

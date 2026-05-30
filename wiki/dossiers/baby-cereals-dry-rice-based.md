@@ -21,7 +21,7 @@ Machine-verifiable downloads: the full per-category packet is at `/api/defense-d
 
 ## Evidence base
 
-This category is supported by 63 contributing literature sources mapped by the routing layer, of which 5 carry structured concentration values. The page makes 172 numerical claims; 171 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 65 contributing literature sources mapped by the routing layer, of which 5 carry structured concentration values. The page makes 172 numerical claims; 171 of them trace to an in-section cited source, leaving 1 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/baby-cereals-dry-rice-based.md`.
 

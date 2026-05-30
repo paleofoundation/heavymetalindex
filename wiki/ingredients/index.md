@@ -148,7 +148,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/processed-american-cheese|Processed American cheese]] (3 sources)
 - [[ingredients/raisins|Raisins]] (3 sources)
 - [[ingredients/reduced-fat-milk|Reduced-fat milk]] (1 source)
-- [[ingredients/rice|Rice]] (195 sources)
+- [[ingredients/rice|Rice]] (197 sources)
 - [[ingredients/rice-cakes|Rice cakes]] (2 sources)
 - [[ingredients/rice-cereal|Rice Cereal]] (15 sources)
 - [[ingredients/rice-flour|Rice Flour]] (7 sources)
@@ -200,57 +200,20 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[ingredients/apple-cider-vinegar|Apple Cider Vinegar]] (5 sources)
-- [[ingredients/balsamic-vinegar|Balsamic Vinegar]] (4 sources)
-- [[ingredients/beverages|Beverages]] (6 sources)
-- [[ingredients/black-pepper|Black Pepper]] (4 sources)
-- [[ingredients/breast milk|Breast milk]]
-- [[ingredients/breastmilk|Breastmilk]] (31 sources)
-- [[ingredients/cabbage|Cabbage]] (15 sources)
-- [[ingredients/canned-tuna|Canned Tuna]] (12 sources)
-- [[ingredients/casein|Casein]] (1 source)
-- [[ingredients/cashew-nuts|Cashew Nuts]] (4 sources)
-- [[ingredients/cashews|Cashews]] (3 sources)
-- [[ingredients/cereal-bars|Cereal Bars]] (2 sources)
-- [[ingredients/cinnamon|Cinnamon]] (11 sources)
-- [[ingredients/corn-oil|Corn Oil]] (7 sources)
-- [[ingredients/cucumbers|Cucumbers]] (4 sources)
-- [[ingredients/dried-herbs|Dried Herbs]] (6 sources)
-- [[ingredients/fresh-herbs|Fresh Herbs]] (6 sources)
-- [[ingredients/freshwater-fish|Freshwater Fish]] (55 sources)
-- [[ingredients/fruits|Fruits]] (15 sources)
-- [[ingredients/guava|Guava]] (2 sources)
-- [[ingredients/hazelnuts|Hazelnuts]] (4 sources)
-- [[ingredients/herbs-and-spices|Herbs And Spices]] (17 sources)
-- [[ingredients/leafy-vegetables|Leafy Vegetables]] (63 sources)
-- [[ingredients/legumes|Legumes]] (15 sources)
-- [[ingredients/maize|Maize]] (13 sources)
-- [[ingredients/mango|Mango]] (5 sources)
-- [[ingredients/mango-juice|Mango Juice]] (5 sources)
-- [[ingredients/meat-poultry|Meat Poultry]] (1 source)
-- [[ingredients/olive-oil|Olive Oil]] (12 sources)
-- [[ingredients/olives|Olives]] (4 sources)
-- [[ingredients/parsley|Parsley]] (6 sources)
-- [[ingredients/peanut-oil|Peanut Oil]] (4 sources)
-- [[ingredients/pear-juice|Pear juice]] (1 source)
-- [[ingredients/plums|Plums]] (5 sources)
-- [[ingredients/quinoa|Quinoa]] (7 sources)
-- [[ingredients/rapeseed-oil|Rapeseed Oil]] (5 sources)
-- [[ingredients/raspberries|Raspberries]] (5 sources)
-- [[ingredients/rice-bran-oil|Rice Bran Oil]] (2 sources)
-- [[ingredients/seaweed|Seaweed]] (14 sources)
-- [[ingredients/sesame-oil|Sesame Oil]] (8 sources)
-- [[ingredients/shark|Shark]] (5 sources)
-- [[ingredients/shellfish|Shellfish]] (39 sources)
-- [[ingredients/soybean-oil|Soybean Oil]] (6 sources)
-- [[ingredients/spices|Spices]] (14 sources)
-- [[ingredients/sunflower-oil|Sunflower Oil]] (9 sources)
-- [[ingredients/tea|Tea]] (35 sources)
-- [[ingredients/tomato-paste|Tomato Paste]] (5 sources)
-- [[ingredients/turmeric|Turmeric]] (11 sources)
-- [[ingredients/vegetable-oil|Vegetable Oil]] (3 sources)
-- [[ingredients/vegetable-oils|Vegetable Oils]] (8 sources)
-- [[ingredients/vinegar|Vinegar]] (11 sources)
-- [[ingredients/walnuts|Walnuts]] (6 sources)
-- [[ingredients/wine-vinegar|Wine Vinegar]] (5 sources)
+- [[ingredients/cereal-based-infant-formula|Cereal Based Infant Formula]]
+- [[ingredients/cow-milk-infant-formula|Cow Milk Infant Formula]]
+- [[ingredients/fruit-mixed|Fruit Mixed]]
+- [[ingredients/human-milk|Human Milk]]
+- [[ingredients/infant-mixed-grain-cereal|Infant Mixed Grain Cereal]]
+- [[ingredients/infant-oat-cereal|Infant Oat Cereal]]
+- [[ingredients/infant-rice-cereal|Infant Rice Cereal]]
+- [[ingredients/jujube-fruit|Jujube Fruit]]
+- [[ingredients/marlin|Marlin]]
+- [[ingredients/milk-based-infant-formula|Milk Based Infant Formula]]
+- [[ingredients/nectarine|Nectarine]]
+- [[ingredients/pineapple|Pineapple]]
+- [[ingredients/rice-milk|Rice Milk]]
+- [[ingredients/soy-milk|Soy Milk]]
+- [[ingredients/swordfish|Swordfish]]
+- [[ingredients/vegetables-mixed|Vegetables Mixed]]
 <!-- END: hmi-auto-linked-stubs -->

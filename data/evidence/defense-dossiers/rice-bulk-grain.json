@@ -131,10 +131,10 @@
         "content_pin": {
           "content_sha256": "01816507494574743e6c3f9f59cc9ca696ec7690a1fb2e41b6ec07e6ec45848d",
           "content_bytes": 5992,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
         }
       },
       {
@@ -272,10 +272,10 @@
         "content_pin": {
           "content_sha256": "463288d1a43a52c9a23084b5a44faff5262d0fd2396ac4dbedfebd916c132b54",
           "content_bytes": 10985,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {

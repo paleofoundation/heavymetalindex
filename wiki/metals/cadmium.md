@@ -9,7 +9,7 @@ microbiome_relevance: high
 wikibiome_crosswalk: ["[[microbiome/cadmium-gut-axis]]", "[[microbiome/cadmium-dysbiosis]]"]
 wiki_doi: null
 updated: 2026-05-02
-sources: 541
+sources: 543
 ---
 
 # Cadmium

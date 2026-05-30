@@ -21,7 +21,7 @@ Machine-verifiable downloads: the full per-category packet is at `/api/defense-d
 
 ## Evidence base
 
-This category is supported by 60 contributing literature sources mapped by the routing layer, of which 9 carry structured concentration values. The page makes 88 numerical claims; 88 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 62 contributing literature sources mapped by the routing layer, of which 9 carry structured concentration values. The page makes 88 numerical claims; 88 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/infant-formula-powder-soy-based.md`.
 

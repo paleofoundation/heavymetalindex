@@ -24,14 +24,14 @@
     "content_pin": {
       "content_sha256": "2aaa65b10d1a80b52aadace7c129982ae17a1a6b68c7cc8253957bdb016294fb",
       "content_bytes": 42851,
-      "last_commit_sha": "9658f6b",
+      "last_commit_sha": "49ecdb7",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/fruit-juice-not-canned.md | sha256sum"
+      "verify_command": "git show 49ecdb7:wiki/products/fruit-juice-not-canned.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 29,
+    "contributing_source_count": 32,
     "sources_with_structured_values": 5,
     "contributing_sources": [
       {
@@ -97,10 +97,10 @@
         "content_pin": {
           "content_sha256": "6c0405caa75cd9ad38e1d5613260c7fa13f4c95a36e411dff7c09938e044f862",
           "content_bytes": 14182,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
         }
       },
       {
@@ -122,6 +122,32 @@
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 9658f6b:wiki/sources/balalimood2018-fruit-juice-mashhad-pb-as.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/barber2025-baby-food-elements-us",
+        "title": "Toxic elements in baby and young children's foods in the US and correlation to ingredients",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "Pb",
+          "Tl"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/barber2025-baby-food-elements-us",
+        "content_pin": {
+          "content_sha256": "bda64bdd2b2297ab465406b3ef596469f64b81b0e5188cff9bf9836f93dbacc2",
+          "content_bytes": 13845,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
         }
       },
       {
@@ -365,10 +391,10 @@
         "content_pin": {
           "content_sha256": "ff46bbc3bceeb1ceefb7ec61eec93d8f1d533c71bfd570525f583d732459bd83",
           "content_bytes": 16725,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz.md | sha256sum"
         }
       },
       {
@@ -612,6 +638,27 @@
         }
       },
       {
+        "slug": "sources/song2024-crvi-hplc-icpms-food-reduction",
+        "title": "Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr-VI",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/song2024-crvi-hplc-icpms-food-reduction",
+        "content_pin": {
+          "content_sha256": "8cf77f75c6820da7f1834ad3887f417e96df2c1f333100380350cdfddc5a0fdb",
+          "content_bytes": 14057,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
+        }
+      },
+      {
         "slug": "sources/subedi2022-fruit-juices-heavy-metals",
         "title": "Determination of heavy metals in varieties of fresh and packaged fruit juices along with powdered fruit drink mixes in Kathmandu Valley",
         "route_kind": "direct_evidence",
@@ -671,10 +718,10 @@
         "content_pin": {
           "content_sha256": "c2d376659ef61931e280471447b3fbba46769db79dbbd32f2af41b777f0645b4",
           "content_bytes": 21804,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md | sha256sum"
         }
       },
       {
@@ -705,6 +752,29 @@
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 9658f6b:wiki/sources/youssao2018-fruit-juices-syrup-benin.md | sha256sum"
         }
+      },
+      {
+        "slug": "sources/zmudzinska2022-rte-baby-foods-poland",
+        "title": "Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zmudzinska2022-rte-baby-foods-poland",
+        "content_pin": {
+          "content_sha256": "d0b0688c2cfd9ea1bbb8301befc4080fb402e5882426518bd912ed424bb83b0f",
+          "content_bytes": 15529,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
+        }
       }
     ]
   },
@@ -720,7 +790,7 @@
     "cited_claims": 125,
     "uncited_claims": 0,
     "distinct_cited_sources": 38,
-    "audit_rows_on_cited_targets": 0,
+    "audit_rows_on_cited_targets": 51,
     "provenance_complete": true
   }
 }

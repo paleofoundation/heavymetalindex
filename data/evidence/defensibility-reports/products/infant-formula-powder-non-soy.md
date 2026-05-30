@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: af3b86e092020621994ea2b070b0ee37643728628969274721756c9951485746
-total_claims: 107
-cited_claims: 107
+source_page_sha256: 6497535d23938369aa7c197d65c3916cc599cd9ec6191d8deb8b1c627ca29ac0
+total_claims: 116
+cited_claims: 116
 uncited_claims: 0
-distinct_cited_targets: 107
-distinct_cited_sources: 102
-audit_rows_for_page: 0
+distinct_cited_targets: 109
+distinct_cited_sources: 104
+audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 121
+audit_log_total_rows: 194
 noindex: true
 ---
 
@@ -29,20 +29,18 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 107 |
-| cited claims | 107 |
+| total claims | 116 |
+| cited claims | 116 |
 | uncited claims | 0 |
-| distinct cited targets | 107 |
-| distinct cited `sources/` pages | 102 |
-| audit rows on this page | 0 |
+| distinct cited targets | 109 |
+| distinct cited `sources/` pages | 104 |
+| audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 121 |
+| audit log rows read | 194 |
 
 ## Page-level audit rows
 
-_No audit rows reference this page directly._
-
-This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
+- `edit_id=f86d8595-2ab0-4ed7-a35b-f8645720a808` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-30T17:56:01.000Z · span=levers-to-reduce-contamination
 
 ## Claims by section
 
@@ -1264,6 +1262,116 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
     - audit rows: none
 
+### Levers to reduce contamination
+
+#### Claim `41.4 µg/L`
+- Context: `UK prescription infant formulas prepared per manufacturer instructions (low end 41.4 µg/L; high end >1900 µg/L); two ami`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
+#### Claim `1900 µg/L`
+- Context: `t formulas prepared per manufacturer instructions (low end 41.4 µg/L; high end >1900 µg/L); two amino-acid powders at 41`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
+#### Claim `44.4 µg/L`
+- Context: `ns (low end 41.4 µg/L; high end >1900 µg/L); two amino-acid powders at 41.4 and 44.4 µg/L bound the achievable floor, in`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
+#### Claim `0.22 µg/kg`
+- Context: `New Hampshire private-well-water region (n=72) had a median iAs daily intake of 0.22 µg/kg bw/day versus 0.04 µg/kg bw/d`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
+#### Claim `0.04 µg/kg`
+- Context: `l-water region (n=72) had a median iAs daily intake of 0.22 µg/kg bw/day versus 0.04 µg/kg bw/day for breastfed infants,`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
+#### Claim `189 µg/L`
+- Context: `xposure in early infancy, not the formula powder itself." Sampled wells reached 189 µg/L versus the EPA MCL of 10 µg/L.`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
+#### Claim `10 µg/L`
+- Context: `he formula powder itself." Sampled wells reached 189 µg/L versus the EPA MCL of 10 µg/L. | [[sources/carignan2015-arseni`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
+#### Claim `411 µg/L`
+- Context: `| Chuchu 2013 reported prepared-milk Al concentrations of approximately 106 to 411 µg/L across 18 non-soy powdered form`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
+#### Claim `756 µg/L`
+- Context: `pproximately 106 to 411 µg/L across 18 non-soy powdered formulas versus 656 and 756 µg/L for two soy-based powders, with`
+- Cited targets (4):
+  - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md`
+    - audit rows: none
+  - `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md`
+    - audit rows: none
+  - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
+    - audit rows: none
+  - `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md`
+    - audit rows: none
+
 ### Sources
 
 #### Claim `10 ppb`
@@ -1567,6 +1675,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/burrell2010-aluminium-in-infant-formulas\.md` | sources | 0 | — | — |
 | `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` | sources | 0 | — | — |
+| `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md` | sources | 0 | — | — |
 | `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk\.md` | sources | 0 | — | — |
 | `wiki/sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
@@ -1634,6 +1743,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk\.md` | sources | 0 | — | — |
 | `wiki/sources/price2023-lead-biokinetic-baby-food-us\.md` | sources | 0 | — | — |
 | `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk\.md` | sources | 0 | — | — |
+| `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md` | sources | 0 | — | — |
 | `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium\.md` | sources | 0 | — | — |
 | `wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france\.md` | sources | 0 | — | — |
 | `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` | sources | 0 | — | — |

@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-30T13:49:15.717Z
+updated: 2026-05-30T18:31:46.050Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ✅ 28 min ago |
-| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ✅ 20 min ago |
+| auto-fetched/ PDFs in queue | 135 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 70 (async lane) |
-| Wishlist: total downloaded historically | 86 |
-| Wishlist: total ingested historically | 17 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 17 |
-| Commits last 24 hours | 87 |
+| Wishlist: total downloaded historically | 23 |
+| Wishlist: total ingested historically | 0 |
+| Repo sync | ⚠️ 8 commit(s) ahead of origin/main |
+| Commits last 1 hour | 10 |
+| Commits last 24 hours | 116 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-11ca6b0 11 seconds ago — track auto-fetched ingests 2026-05-30 1020: 17 source pages
+f77e3a7 4 minutes ago — audit-queue: fasahat2015-rice-cd-tolerance -> audited-promote (PROMOTE)
 ```
 
 ## How to read this

@@ -30,7 +30,7 @@
     }
   },
   "evidence_base": {
-    "contributing_source_count": 28,
+    "contributing_source_count": 37,
     "sources_with_structured_values": 3,
     "contributing_sources": [
       {
@@ -79,6 +79,56 @@
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 9658f6b:wiki/sources/amarh2023-ghana-infant-food-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bair2022-infant-toddler-food-heavy-metals-policy",
+        "title": "A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Pb",
+          "Cd",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bair2022-infant-toddler-food-heavy-metals-policy",
+        "content_pin": {
+          "content_sha256": "6c0405caa75cd9ad38e1d5613260c7fa13f4c95a36e411dff7c09938e044f862",
+          "content_bytes": 14182,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/barber2025-baby-food-elements-us",
+        "title": "Toxic elements in baby and young children's foods in the US and correlation to ingredients",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "tHg",
+          "MeHg",
+          "Pb",
+          "Tl"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/barber2025-baby-food-elements-us",
+        "content_pin": {
+          "content_sha256": "bda64bdd2b2297ab465406b3ef596469f64b81b0e5188cff9bf9836f93dbacc2",
+          "content_bytes": 13845,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
         }
       },
       {
@@ -238,6 +288,68 @@
         }
       },
       {
+        "slug": "sources/dehghani2020-food-lead-cadmium-mspe",
+        "title": "Magnetic Multi-Walled Carbon Nanotubes Modified with Polythiophene as a Sorbent for Simultaneous Solid Phase Microextraction of Lead and Cadmium from Water and Food Samples",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dehghani2020-food-lead-cadmium-mspe",
+        "content_pin": {
+          "content_sha256": "01816507494574743e6c3f9f59cc9ca696ec7690a1fb2e41b6ec07e6ec45848d",
+          "content_bytes": 5992,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/dehghani2020-food-lead-cadmium-mspe.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/depa2019-baby-food-lead-cadmium",
+        "title": "Heavy Metals in Baby Foods and Cereal Products",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/depa2019-baby-food-lead-cadmium",
+        "content_pin": {
+          "content_sha256": "305d621acae62cddfaf5df526ebdee912f47893d718e8bb67fc2915575269c91",
+          "content_bytes": 3725,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/depa2019-baby-food-lead-cadmium.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/editor2019-manganese-levels-infant-formula",
+        "title": "Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/editor2019-manganese-levels-infant-formula",
+        "content_pin": {
+          "content_sha256": "e5042421119ae74b5432f67cecb7009fee66a152bb15ea91af27d464c0cf3019",
+          "content_bytes": 3798,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/editor2019-manganese-levels-infant-formula.md | sha256sum"
+        }
+      },
+      {
         "slug": "sources/efsa-cadmium-contam-2009",
         "title": "Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food",
         "route_kind": "broad_formula_context",
@@ -255,6 +367,26 @@
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 9658f6b:wiki/sources/efsa-cadmium-contam-2009.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/efsa2015-nickel-food-water",
+        "title": "Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
+        "content_pin": {
+          "content_sha256": "6d0754726ea4711f15ec33ed19b33e23fe50524def4283494dbcc987fb1c36fa",
+          "content_bytes": 30431,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -316,6 +448,32 @@
         }
       },
       {
+        "slug": "sources/garuba2024-heavy-metals-commercial-baby-foods",
+        "title": "Evaluation of Heavy Metals in Commercial Baby Foods",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Al",
+          "Zn",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/garuba2024-heavy-metals-commercial-baby-foods",
+        "content_pin": {
+          "content_sha256": "e2405ccc7cd80fbb6154fdb3959b5b01b7e6c790441815bf76c7bf301acd2a3a",
+          "content_bytes": 16803,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/garuba2024-heavy-metals-commercial-baby-foods.md | sha256sum"
+        }
+      },
+      {
         "slug": "sources/health2022-health-safety-ready-to-eat-products",
         "title": "Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market",
         "route_kind": "broad_formula_context",
@@ -339,6 +497,35 @@
         }
       },
       {
+        "slug": "sources/hopfner2025-infant-formula-dietary-exposure-germany",
+        "title": "The contribution of infant formula to the food survey-based dietary exposure of nine selected elements",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "iAs",
+          "Cd",
+          "Pb",
+          "Cr",
+          "Ni",
+          "tHg",
+          "iHg",
+          "Mn",
+          "Se",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hopfner2025-infant-formula-dietary-exposure-germany",
+        "content_pin": {
+          "content_sha256": "77a21b212957bc58e2d91f9aca0b1a3cdec9ef133a74874824f6a7d4154fe339",
+          "content_bytes": 12710,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany.md | sha256sum"
+        }
+      },
+      {
         "slug": "sources/introduction2025-concentrations-heavy-metals-processed",
         "title": "Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review",
         "route_kind": "broad_formula_context",
@@ -355,10 +542,10 @@
         "content_pin": {
           "content_sha256": "e711aecabd907cc5e70ecc44e10426924bdcb4a7afa6c983d9fc7c4ada8836fa",
           "content_bytes": 3461,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/introduction2025-concentrations-heavy-metals-processed.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/introduction2025-concentrations-heavy-metals-processed.md | sha256sum"
         }
       },
       {
@@ -623,6 +810,27 @@
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 9658f6b:wiki/sources/spungen2024-fda-tds-infant-lead-cadmium.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/tatsuta2024-mehg-duplicate-diet-children-japan",
+        "title": "Dietary intake of methylmercury by 0–5 years children using the duplicate diet method in Japan",
+        "route_kind": "broad_formula_context",
+        "route_status": "missing_broad_product_context",
+        "evidence_use": "broad_context_pending_row_fit",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "MeHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/tatsuta2024-mehg-duplicate-diet-children-japan",
+        "content_pin": {
+          "content_sha256": "f9afeced17749f9334a2cf00e228a2cd6128a4d38819a06e20be4568068576a9",
+          "content_bytes": 8499,
+          "last_commit_sha": "743ed7c",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 743ed7c:wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan.md | sha256sum"
         }
       },
       {

@@ -22,10 +22,10 @@
     "content_pin": {
       "content_sha256": "4236dde5459b2750c6832010858ac6f84a7914dbdd4694f752f9c06a12bf3f14",
       "content_bytes": 13817,
-      "last_commit_sha": "9658f6b",
+      "last_commit_sha": "49ecdb7",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/spinach.md | sha256sum"
+      "verify_command": "git show 49ecdb7:wiki/products/spinach.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -73,10 +73,10 @@
         "content_pin": {
           "content_sha256": "733ab87dcc0dc1f10f00502b3bcf386e5250a1bf223ff4728302dc44dd649c49",
           "content_bytes": 2068,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/mohod2015-spinach-tomato-metals.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/mohod2015-spinach-tomato-metals.md | sha256sum"
         }
       },
       {

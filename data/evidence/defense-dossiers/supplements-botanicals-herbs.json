@@ -51,10 +51,10 @@
         "content_pin": {
           "content_sha256": "46c572d5e9aad47852358c943f46b143ca8c27fe7fa3371a5062ff47568fe628",
           "content_bytes": 3664,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/bulduk2020-vicia-faba-elements.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/bulduk2020-vicia-faba-elements.md | sha256sum"
         }
       },
       {

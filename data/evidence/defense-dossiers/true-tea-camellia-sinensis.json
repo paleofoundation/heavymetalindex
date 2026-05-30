@@ -48,10 +48,10 @@
         "content_pin": {
           "content_sha256": "3d0145dc08bb9beeb35aeac00c51512087a43a391208ef3038b30af940a88d75",
           "content_bytes": 3146,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
         }
       },
       {
@@ -68,10 +68,10 @@
         "content_pin": {
           "content_sha256": "8ece2c9dfe3ccf8e001ca36cfbd5c2200b9bf31ee2b5ec54212262bb18be2074",
           "content_bytes": 3145,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/fogarasi2019-tea-aluminum.md | sha256sum"
         }
       },
       {

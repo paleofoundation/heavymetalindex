@@ -16,7 +16,7 @@ Core toxic-metal pages describe toxicology, typical exposure routes through food
 - [[metals/arsenic-total]] (141 sources)
 - [[metals/barium]] (15 sources)
 - [[metals/beryllium]] (6 sources)
-- [[metals/cadmium]] (541 sources)
+- [[metals/cadmium]] (543 sources)
 - [[metals/cesium]] (3 sources)
 - [[metals/chromium]] (205 sources)
 - [[metals/chromium-hexavalent]] (32 sources)

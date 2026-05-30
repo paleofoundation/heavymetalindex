@@ -134,10 +134,10 @@
         "content_pin": {
           "content_sha256": "658785c92ae80410ce008db709c59df7bba2028c1f154fdd813329dc96b219ad",
           "content_bytes": 5983,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
         }
       }
     ]

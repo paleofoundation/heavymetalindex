@@ -24,14 +24,14 @@
     "content_pin": {
       "content_sha256": "9852cf77b2749b34df6dcf95afac5ef4ec61275b930cd260d1f09911ef716f5e",
       "content_bytes": 12599,
-      "last_commit_sha": "9658f6b",
+      "last_commit_sha": "49ecdb7",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/fish-freshwater.md | sha256sum"
+      "verify_command": "git show 49ecdb7:wiki/products/fish-freshwater.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 10,
+    "contributing_source_count": 12,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -49,10 +49,10 @@
         "content_pin": {
           "content_sha256": "cd41aea591952e3004cdf7f92a90c331d904af09413fa1e645f8808ce36a6cec",
           "content_bytes": 18378,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada.md | sha256sum"
         }
       },
       {
@@ -92,10 +92,10 @@
         "content_pin": {
           "content_sha256": "88b1d73aa256f56ef109f756191c57f398c196361c10a0868f3f1e36b7d77b9d",
           "content_bytes": 17276,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
         }
       },
       {
@@ -133,10 +133,33 @@
         "content_pin": {
           "content_sha256": "1cd787ff4a2a3c331f97f6d6d7255c3c1a7f663bd5c276b76e1df80d777d3096",
           "content_bytes": 3232,
-          "last_commit_sha": "9658f6b",
+          "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/jesse2025-unknown.md | sha256sum"
+          "verify_command": "git show 743ed7c:wiki/sources/jesse2025-unknown.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/lehel2024-rainbow-trout-aquaculture-italy",
+        "title": "Possible Metal Burden of Potentially Toxic Elements in Rainbow Trout (Oncorhynchus mykiss) on Aquaculture Farm",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "tHg",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/lehel2024-rainbow-trout-aquaculture-italy",
+        "content_pin": {
+          "content_sha256": "b8195d217d71665c2d18facf22312f0834cd876d2f7c3a79ecd7e6d58f2e337b",
+          "content_bytes": 7666,
+          "last_commit_sha": "3ba41eb",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ba41eb:wiki/sources/lehel2024-rainbow-trout-aquaculture-italy.md | sha256sum"
         }
       },
       {
@@ -160,6 +183,28 @@
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 9658f6b:wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/majlesi2019-farmed-rainbow-trout-yasuj-iran",
+        "title": "Heavy metal content in farmed rainbow trout in relation to aquaculture area and feed pellets",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/majlesi2019-farmed-rainbow-trout-yasuj-iran",
+        "content_pin": {
+          "content_sha256": "3514c3ccdea35f0f92de4c0fd840c9892e31a1bb9c8d3bf06b96041dd15e79c2",
+          "content_bytes": 7375,
+          "last_commit_sha": "f332706",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show f332706:wiki/sources/majlesi2019-farmed-rainbow-trout-yasuj-iran.md | sha256sum"
         }
       },
       {

@@ -73,3 +73,19 @@
 - `majlesi2019-farmed-rainbow-trout-yasuj-iran` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish/Heavy metal content in farmed rainbow trout in relation to aquaculture area and feed pellets.pdf)
 - `vicarova2016-common-carp-czech-reservoirs` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish/Heavy metals in the common carp (_Cyprinus carpio_ L.) from three reservoirs in the Czech Republic.pdf)
 - `lehel2024-rainbow-trout-aquaculture-italy` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish/Possible Metal Burden of Potentially Toxic Elements in Rainbow Trout (_Oncorhynchus mykiss_) on Aquaculture Farm.pdf)
+
+## Tick 2026-05-30T18:11:31.538Z
+
+- Candidates this tick: 5
+- Succeeded: 2
+- Stopped (need Karen): 3
+- Failed: 0
+
+### Succeeded
+- `mostofa2015-rice-h2s-cd-tolerance` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-cd-product_2015_10-1038-srep14078.pdf)
+- `fasahat2015-rice-cd-tolerance` (raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-cd-product_2015_10-9755-ejfa-v27i1-17870.pdf)
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-fish-freshwater-tas-product_2023_10-3389-fvets-2023-1297462.pdf`: out-of-scope-editorial (Frontiers research-topic editorial; no primary contamination data; PDF moved to `skipped/skip_no-primary-data/`; stop note appended documenting the editorial-type discover-skill scoring patch)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/04_Meat_Poultry_Seafood/P0135_Organotin compounds in aquatic products available at local markets (Hong Kong).pdf`: cfs2019-organotin-aquatic-hongkong already post-2026-05-14 clean (updated 2026-05-30) with PROMOTE verdict from prior v2-skill run today (commit 669db40); routing clean; KADC folder is a duplicate-folder drop of the same paper already ingested via the MFK_ handle.
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/04_Meat_Poultry_Seafood/P0137_Chromium (VI) Levels in Chicken Parts.pdf`: P0137 already fully ingested (cite-key `mahmud2011-crvi-chicken-pakistan`, page updated 2026-05-18, Codex audit REVISE applied, routing clean, SHA-identical KADC copy is a duplicate drop). Logged to `data/evidence/autonomy/manual-fetch-stops-2026-05-30.md`.

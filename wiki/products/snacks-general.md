@@ -8,7 +8,7 @@ hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
 provisional_created: 2026-05-30
 provisional_reason: "HMTc Cat 7 row 10 taxonomy destination existed in products/index.md but had no page; rollup of snacks-crackers-biscuits/snack-bars-energy-bars/biscuits. Created during fan-out repair 2026-05-30."
-primary_metals_of_concern: []
+primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
