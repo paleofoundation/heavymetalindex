@@ -16,7 +16,21 @@
 # (data/evidence/autonomy/morning-report-<date>.md), not blocked on
 # approval queues.
 
-set -euo pipefail
+# errexit (-e) is deliberately OFF (2026-05-30). The tick is a sequence of
+# independently-guarded steps: every `run_step` is followed by `|| true` or
+# `|| log`, the preflight halts via explicit `if ... exit`, and durability comes
+# from the mid-tick checkpoint commits + the EXIT-trap recovery. With -e ON, a
+# SINGLE unguarded non-zero return — an empty-match `grep` in the morning-report
+# block, a `find | wc` on an empty queue dir, a transient git race — aborted the
+# ENTIRE tick before Step 8's commit/push ran, and the resulting non-zero exit
+# made launchd stop firing the StartCalendarInterval triggers. That exact
+# mechanism caused documented multi-hour silent deaths (05-26 ~16h, 05-29 ~13h);
+# a tail-only `set +e` patch (commit 5c5269b) covered just the reporting block.
+# Disarming -e for the whole body closes the class permanently. `-u` (unbound-
+# var guard) and `-o pipefail` stay on; the one command that genuinely must
+# succeed (cd into the repo) is guarded explicitly below now that -e no longer
+# backstops it.
+set -uo pipefail
 
 REPO_ROOT="${HMI_REPO_ROOT:-$HOME/Desktop/heavy-metal-index}"
 STOP_FILE="$HOME/.heavymetalindex.STOP"
@@ -117,7 +131,10 @@ trap cleanup_on_exit EXIT INT TERM
 # shellcheck source=./commit-lock.sh
 source "$REPO_ROOT/tools/autonomy/commit-lock.sh"
 
-cd "$REPO_ROOT"
+# Guarded explicitly because errexit is off (see top-of-file note): if we cannot
+# enter the repo, every git/node command below would run against the wrong tree,
+# so this is the one place a hard failure must stop the tick.
+cd "$REPO_ROOT" || { echo "[$(date -u +"%H:%M:%SZ")] FATAL: cannot cd into repo root $REPO_ROOT; aborting tick." | tee -a "$LOG_FILE"; exit 1; }
 
 # Source local secrets (.env.development is gitignored; holds AI_GATEWAY_API_KEY
 # for the dual-model verifier + extractor CLIs). Silently no-ops if missing.
