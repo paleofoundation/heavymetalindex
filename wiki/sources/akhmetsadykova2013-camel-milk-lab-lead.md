@@ -48,8 +48,8 @@ Pb in organs and blood at day 28, Water Pb group vs Control group (ppm):
 - Heart: 0.65 vs 0.20.
 - Kidneys: 0.58 vs 0.58.
 - Blood: 0.46 vs 0.31.
-- Lungs: ~0.60 vs ~0.60 (read from Figure 3).
-- Liver: ~0.55 vs ~0.63 (read from Figure 3).
+- Lungs: ~0.60 (Water Pb, read from Figure 3) vs 0.62 (Control, p.277 text).
+- Liver: ~0.55 (Water Pb, read from Figure 3) vs 0.63 (Control, p.277 text).
 
 Groups receiving fermented milk product showed reduced Pb in target organs (spleen, kidneys, liver, lungs) compared to the Water Pb group; the SFPb group had the lowest blood Pb. Pb concentration in heart was significantly correlated with Pb in spleen by Kruskal-Wallis test and PCA.
 
@@ -78,7 +78,7 @@ The fermentation substrate in this study was cow milk, not camel milk; the camel
 
 The 320 ppb Pb in the cow milk diet baseline is unusually high (16× the Codex limit). The paper does not state whether this is one composite sample, replicated, or a literature-imported value. It is presented in a single sentence: "Diet was slightly contaminated: in milk 0.32, water 0.12, and fodder 0.32, HNO3 0.1 ppm of lead was found." The Key numbers section quotes the value verbatim and flags the missing methods context rather than treating it as a survey-grade measurement.
 
-Organ Pb values for control and water-Pb groups were read from the abstract narrative (Pages 274 and 277) and Figure 3; lungs and liver values are approximate (graph read).
+Organ Pb values for control and water-Pb groups were taken from the abstract narrative (pages 274 and 277). Control-group lungs (0.62) and liver (0.63) values are quoted in the p.277 prose discussing fermented-milk treatment effects; Water-Pb lungs and liver values are approximate (read from Figure 3) since the prose does not quote them.
 
 Lipid- vs water-soluble Pb species, valence state, and any speciation were not assessed; all Pb values are total Pb after acid digestion.
 
