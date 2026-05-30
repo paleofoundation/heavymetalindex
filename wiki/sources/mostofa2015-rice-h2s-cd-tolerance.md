@@ -35,8 +35,8 @@ A controlled hydroponic experiment on rice seedlings (Oryza sativa L. cv. BRRI d
 
 - Plant material: Oryza sativa L. cv. BRRI dhan52, 13-day-old seedlings, exposed for 3 days in hyponex hydroponic solution (diluted 5,000-fold).
 - Treatments (eight groups, n = 3 each): control (nutrient only); 100 µM NaHS (H2S); 100 µM NaHS + 200 µM hypotaurine (H2S + HT); 250 µM CdCl2 (Cd1); 100 µM NaHS + 250 µM CdCl2 (H2S + Cd1); 500 µM CdCl2 (Cd2); 100 µM NaHS + 500 µM CdCl2 (H2S + Cd2); 100 µM NaHS + 200 µM hypotaurine + 500 µM CdCl2 (H2S + HT + Cd2). A 1000 µM CdCl2 group (Cd3) was discontinued because NaHS-mediated recovery was insufficient at that dose.
-- Cd accumulation (µg seedling⁻¹, Fig. 1a,b): NaHS reduced Cd accumulation in roots by 20% (Cd1) and 19% (Cd2); in leaves by 26% (Cd1) and 41% (Cd2), relative to the corresponding Cd-only groups.
-- Cd concentration (mg g⁻¹ DW, Fig. 1c,d): NaHS reduced root Cd by 30% (Cd1) and 30% (Cd2); reduced leaf Cd by 26% (Cd1) and 65% (Cd2). Roots accumulated the bulk of Cd.
+- Cd accumulation (µg seedling⁻¹, Fig. 1a,b): NaHS reduced Cd accumulation in roots by 20% (Cd1) and 19% (Cd2); in leaves by 23% (Cd1) and 41% (Cd2), relative to the corresponding Cd-only groups.
+- Cd concentration (mg g⁻¹ DW, Fig. 1c,d): NaHS reduced root Cd by 26% (Cd1) and 30% (Cd2); reduced leaf Cd by 30% (Cd1) and 65% (Cd2). Roots accumulated the bulk of Cd.
 - Endogenous H2S (Fig. 2c): NaHS application raised leaf H2S by 55% (H2S vs. control), 27% (H2S + Cd1 vs. Cd1), and 35% (H2S + Cd2 vs. Cd2); co-application of HT cut H2S by 22% in H2S + HT + Cd2 vs. H2S + Cd2.
 - Plant height (Fig. 2d): Cd1 and Cd2 reduced height by 23% and 39%; NaHS restored 21% (H2S + Cd1) and 24% (H2S + Cd2) relative to the Cd-only groups; HT co-application cut the recovery by 11%.
 - Plant fresh weight (FW): Cd1 reduced FW by 10%, Cd2 by 24%; NaHS increased FW by 15% (H2S + Cd1) and 21% (H2S + Cd2) vs. the Cd-only groups.
@@ -63,7 +63,7 @@ Note: the experimental CdCl2 concentrations (250, 500, 1000 µM ≈ 28, 56, 112 
 
 ## Implications
 
-Certification: Sulfur metabolism is a confirmed lever for restricting Cd entry into rice tissues at the seedling stage; the paper supports agronomic sulfur-amendment and cultivar-selection guidance as part of supplier specifications for low-Cd rice. The effect was reversed by an H2S scavenger, strengthening causal attribution to H2S signaling rather than confounded sulfur nutrition.
+Certification: Sulfur metabolism modulates Cd uptake and translocation in rice seedlings under pharmacological Cd exposure; the paper contributes mechanistic evidence for agronomic sulfur-amendment as a Cd-mitigation lever. The effect was reversed by an H2S scavenger, strengthening causal attribution to H2S signaling rather than confounded sulfur nutrition.
 
 Courses: Illustrates the antioxidant-defense and glyoxalase systems engaged by rice under Cd stress and how exogenous H2S coordinates ROS detoxification, methylglyoxal detoxification, and redox homeostasis. Useful as a mechanism narrative paired with field-occurrence papers.
 
@@ -81,3 +81,7 @@ Source PDF: `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-min
 Evidence tier B reflects the mechanistic / pharmacological-dose nature of the experiment; the work is well-controlled and peer-reviewed but the Cd concentrations are not field-relevant and the values are seedling-tissue, not rice-grain-as-consumed.
 
 No brand-attributed contamination data. Methods name instrument category (flame AAS) and reagents (HNO3:HClO4, hypotaurine, NaHS) without vendor brand attribution; nothing to redact under Part 12.
+
+Audit subagent (2026-05-30) flagged two transposed values in `## Key numbers` (Cd accumulation leaf-Cd1 26% should be 23%; Cd concentration root values 30%/30% should be 26%/30% and leaf-Cd1 26% should be 30%); verified against PDF p.2 ("decreased by 20 and 19% in roots and 23 and 41% in leaves... Cd content was reduced by 26 and 30% in roots, and 30 and 65% in leaves") — both corrections applied.
+
+Audit subagent also flagged the Certification implication's "supplier specifications for low-Cd rice" framing as policy-flavored (Part 2 concern); softened to describe the paper's mechanistic contribution without prescribing a supplier-spec posture.
