@@ -41,7 +41,7 @@ All values mg/kg wet weight, mean ± SD; LOQ = 0.005 mg/kg for all matrices.
 - Supermarket: As = 0.043 ± 0.06 mg/kg; Cd = <LOQ; tHg = 0.266 ± 1.65 mg/kg (highly variable; S2 = 1.077 ± 3.70, S3 = <LOQ); Pb = 0.688 ± 0.69 mg/kg
 
 **Eggshell:**
-- Rural: As = 0.202 ± 0.21 mg/kg; Cd = <LOQ; tHg = 0.006 ± 0.00 mg/kg (only 19/141 detectable); Pb = 0.022 ± 0.071 mg/kg
+- Rural: As = 0.202 ± 0.21 mg/kg; Cd = <LOQ; tHg = 0.006 ± 0.00 mg/kg (only 19/141 detectable); Pb = 0.022 ± 0.07 mg/kg
 - Supermarket: As = 0.010 ± 0.00 mg/kg; Cd = <LOQ; tHg = 0.009 ± 0.00 mg/kg; Pb = 0.052 ± 0.20 mg/kg
 
 Literature comparison table (Table 6) collects As, Cd, tHg, and Pb data from 20+ prior studies across Italy, Belgium, Bangladesh, Iran, Australia, Spain, USA, India, Pakistan, Greece, Taiwan, Brazil.
