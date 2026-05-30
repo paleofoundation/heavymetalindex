@@ -24,6 +24,9 @@
     "api/change-watch.mjs": {
       "maxDuration": 15
     },
+    "api/risk-map.mjs": {
+      "maxDuration": 15
+    },
     "api/corrections.mjs": {
       "maxDuration": 15
     },
