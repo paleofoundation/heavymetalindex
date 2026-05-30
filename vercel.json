@@ -21,6 +21,9 @@
     "api/defense-dossier.mjs": {
       "maxDuration": 15
     },
+    "api/change-watch.mjs": {
+      "maxDuration": 15
+    },
     "api/corrections.mjs": {
       "maxDuration": 15
     },

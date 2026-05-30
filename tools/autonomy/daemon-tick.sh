@@ -482,6 +482,7 @@ run_step "link orphans" node tools/autonomy/link-orphans.mjs || true
 run_step "evidence-packet index" node tools/build-evidence-packet-index.mjs || true
 run_step "regulations dataset" node tools/build-regulations-dataset.mjs || true
 run_step "defense dossiers" node tools/build-defense-dossier.mjs || true
+run_step "change-watch feed" node tools/build-change-watch.mjs || true
 
 # ---------- CHECKPOINT 1: commit the deterministic regeneration phase ----------
 # Everything above (routing audit, page creation, heal-gaps, extraction,
