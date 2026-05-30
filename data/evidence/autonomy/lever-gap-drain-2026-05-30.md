@@ -9,3 +9,13 @@
 
 ### Succeeded
 - `infant-formula-powder-non-soy` — infant-formula-powder-non-soy 3filled 3no-data
+
+## Run 2026-05-30T18:44:18.899Z
+
+- Candidates this run: 1
+- Succeeded: 1
+- Stopped: 0
+- Failed: 0
+
+### Succeeded
+- `baby-cereals-dry-non-rice` — baby-cereals-dry-non-rice 0filled 5no-data
