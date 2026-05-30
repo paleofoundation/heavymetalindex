@@ -3,21 +3,20 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1474 candidate queries
-- Path B (empty product + thin ingredient pages): 10977 candidate queries
-- Total candidates (after dedup): 16363
+- Path B (empty product + thin ingredient pages): 10913 candidate queries
+- Total candidates (after dedup): 16299
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 16363
+- Eligible after filtering: 16299
 - Final wishlist (capped at 2500): 2500
 
 ### By priority
 
-- P1: 2015
-- P2: 461
-- P3: 24
+- P1: 1384
+- P2: 1116
 
 ### By source path
 
-- product: 2500
+- ingredient: 2500
 
 ## Query-history-aware deprioritization
 
@@ -29,26 +28,26 @@ Audit-log scale: 48 (query × cell) histories tracked.
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking teething aids heavy metals Pb |
-| P1 | infant-bottles × tAs | infant bottles toy heavy metals total arsenic |
-| P1 | feeding-accessories-child-sized × tHg | feeding accessories child sized heavy metals total mercury |
-| P1 | feeding-accessories-child-sized × tHg | feeding accessories child sized toy heavy metals mercury |
-| P1 | infant-bottle-nipples × tAs | infant bottle nipples heavy metals total arsenic |
-| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking/teething aids total arsenic |
-| P1 | sippy-cups-toddler-drinkware × Cd | sippy cups toddler drinkware children product safety cadmium |
-| P1 | infant-bottle-nipples × Pb | infant bottle nipples heavy metals lead |
-| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking/teething aids lead |
-| P1 | feeding-accessories-child-sized × Pb | feeding accessories (spoons, plates, bowls — child-sized) Pb |
-| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking teething aids heavy metals total arsenic |
-| P1 | infant-bottles × Pb | bottles (plastic, glass, stainless steel) Pb |
-| P1 | pacifiers-and-sucking-teething-aids × Cd | pacifiers and sucking teething aids Cd occurrence |
-| P1 | infant-bottle-nipples × Cd | bottle nipples and spouts Cd |
-| P1 | pacifiers-and-sucking-teething-aids × iAs | pacifiers and sucking teething aids heavy metals speciated arsenic occurrence |
-| P1 | infant-bottle-nipples × Pb | infant bottle nipples toy heavy metals Pb |
-| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking teething aids arsenic occurrence |
-| P1 | feeding-accessories-child-sized × tHg | feeding accessories child sized total mercury |
-| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking/teething aids arsenic |
-| P1 | pacifiers-and-sucking-teething-aids × Cd | pacifiers and sucking teething aids heavy metals Cd occurrence |
+| P1 | ingredient:plums × iAs | plums heavy metals inorganic arsenic contamination occurrence |
+| P1 | ingredient:coconut × Ni | coconut nickel contamination occurrence |
+| P1 | ingredient:canned-tomatoes × tAs | canned tomatoes total arsenic contamination occurrence |
+| P1 | ingredient:applesauce × Sn | applesauce heavy metals tin contamination occurrence |
+| P1 | ingredient:vegetable-juice × Cr | vegetable juice heavy metals chromium contamination occurrence |
+| P1 | ingredient:coconut × Sn | coconut tin contamination occurrence |
+| P1 | ingredient:vegetable-purees × Pb | vegetable purees lead contamination occurrence |
+| P1 | ingredient:melon × Sn | melon heavy metals tin contamination occurrence |
+| P1 | ingredient:root-vegetable-purees × tHg | root vegetable purees heavy metals total mercury contamination occurrence |
+| P1 | ingredient:fresh-herbs × Sn | fresh herbs heavy metals tin contamination occurrence |
+| P1 | ingredient:grape-juice × Cr | grape juice heavy metals chromium contamination occurrence |
+| P1 | ingredient:blueberries × iAs | blueberries heavy metals inorganic arsenic contamination occurrence |
+| P1 | ingredient:rice-cakes × tAs | rice cakes heavy metals total arsenic contamination occurrence |
+| P1 | ingredient:olives × Al | olives aluminum contamination occurrence |
+| P1 | ingredient:pork-chop × Sn | pork chop tin contamination occurrence |
+| P1 | ingredient:custard × Ni | custard nickel contamination occurrence |
+| P1 | ingredient:vegetable-juice × Sn | vegetable juice heavy metals tin contamination occurrence |
+| P1 | ingredient:coffee × Sn | coffee heavy metals tin contamination occurrence |
+| P1 | ingredient:plums × tHg | plums total mercury contamination occurrence |
+| P1 | ingredient:rice-puffs × tAs | rice puffs total arsenic contamination occurrence |
 
 ## Coverage rotation
 
