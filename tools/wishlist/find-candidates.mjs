@@ -26,7 +26,17 @@ import fs from "node:fs"
 import path from "node:path"
 
 const repoRoot = process.cwd()
-const queriesPath = path.join(repoRoot, "data/evidence/wishlist-queries.json")
+// Query source: defaults to the wishlist generator's output, but accepts an
+// override so other gap pipelines (e.g. tools/autonomy/lever-gaps.mjs) can feed
+// their own queries through the same fetch/dedupe/score/stage machinery without
+// racing the wishlist generator that overwrites the default file each tick.
+//   --queries=<path>   or   HMI_QUERIES_PATH=<path>
+const _queriesArg = process.argv.slice(2).find((a) => a.startsWith("--queries="))
+const queriesPath = _queriesArg
+  ? path.resolve(repoRoot, _queriesArg.slice("--queries=".length))
+  : process.env.HMI_QUERIES_PATH
+    ? path.resolve(repoRoot, process.env.HMI_QUERIES_PATH)
+    : path.join(repoRoot, "data/evidence/wishlist-queries.json")
 const auditPath = path.join(repoRoot, "data/evidence/wishlist-fetch-audit.csv")
 const stagingDir = path.join(repoRoot, "raw/manual-fetch/seasonal-geographic-variance/auto-fetched")
 const sourcesIndexPath = path.join(repoRoot, "wiki/sources")
@@ -537,7 +547,12 @@ let budgetExhausted = false
 // 2500-query list across multiple daemon ticks instead of always restarting
 // from query 0). The checkpoint resets when the generator emits a fresh
 // query list (different hash) or the fetcher completes the whole list.
-const CHECKPOINT_PATH = path.join(repoRoot, "data/evidence/wishlist-fetch-checkpoint.json")
+// Checkpoint is per-query-set: an alternate query source (e.g. the lever-gap
+// fetch) must use its own checkpoint or it would ping-pong the resume cursor
+// with the 2982-query wishlist (each run resetting the other to query 0).
+const CHECKPOINT_PATH = process.env.HMI_FETCH_CHECKPOINT
+  ? path.resolve(repoRoot, process.env.HMI_FETCH_CHECKPOINT)
+  : path.join(repoRoot, "data/evidence/wishlist-fetch-checkpoint.json")
 let startIndex = 0
 const queriesHash = JSON.stringify(queries.slice(0, 5).map(q => q.id))  // cheap signature
 if (fs.existsSync(CHECKPOINT_PATH)) {

@@ -487,6 +487,14 @@ run_step "source-legend baseline" node tools/autonomy/populate-source-legends.mj
 # stale counts mislead brand-legal and HMTc staff scanning for thin areas.
 run_step "sync source counts" node tools/sync-source-counts.mjs || true
 
+# Step 4d.3: lever-gap detector — scans every product page's "Levers to reduce
+# contamination" / "## Mitigation options" section for un-evidenced lever
+# magnitudes, and emits (a) data/evidence/autonomy/lever-gaps.csv and (b)
+# data/evidence/autonomy/lever-mitigation-queries.json (targeted intervention-
+# efficacy / source-apportionment queries consumed by the lever-mitigation fetch
+# in Step 5b.2). Read-only vs wiki/; idempotent; <1s.
+run_step "lever-gaps detector" node tools/autonomy/lever-gaps.mjs || true
+
 # Step 4e: provenance audit — informational. Flags numerical claims on public
 # pages that don't trace to a [[sources/...]] link in the same paragraph.
 # Per CLAUDE.md Part 18, claims without provenance are a lint failure; this
@@ -598,6 +606,22 @@ if [[ "$FETCH_ENABLED" == "always" ]] || { [[ "$FETCH_ENABLED" == "1" ]] && [[ "
   fi
 fi
 
+# Step 5b.2: lever-mitigation fetch — pull intervention-efficacy / source-
+# apportionment literature for product pages whose mitigation levers lack a
+# cited magnitude (queries emitted by the Step 4d.3 detector). Reuses the
+# wishlist fetcher via the --queries override with its OWN checkpoint
+# (HMI_FETCH_CHECKPOINT) so it never disturbs the main wishlist's resume cursor.
+# Bounded to a short budget so it never starves the main fetch. Gated by the
+# same FETCH_ENABLED switch; disable independently with HMI_LEVER_FETCH=0. The
+# daemon's existing ingest steps pick up the staged PDFs on a later tick.
+if [[ "${HMI_LEVER_FETCH:-1}" == "1" ]] && [[ "${FETCH_ENABLED:-1}" != "0" ]] && [[ -f data/evidence/autonomy/lever-mitigation-queries.json ]]; then
+  run_step "lever-mitigation fetch" env \
+    HMI_FETCH_CHECKPOINT=data/evidence/autonomy/lever-fetch-checkpoint.json \
+    HMI_FETCH_BUDGET_MS="${HMI_LEVER_FETCH_BUDGET_MS:-180000}" \
+    node tools/wishlist/find-candidates.mjs \
+    --queries=data/evidence/autonomy/lever-mitigation-queries.json || true
+fi
+
 # Step 5c: weekly briefing — runs daily, self-cadenced (skips if last
 # briefing was <6 days ago). Writes wiki/briefings/weekly-<date>.md with
 # 7-day metrics + a Cochrane comparison dispatched to claude --print.
@@ -635,6 +659,20 @@ fi
 SYNTHESIS_DRAIN_CAP="${HMI_SYNTHESIS_DRAIN_CAP:-2}"
 if [[ "$SYNTHESIS_DRAIN_CAP" != "0" ]]; then
   run_step "drain-pending-synthesis" node tools/autonomy/drain-pending-synthesis.mjs "--max=$SYNTHESIS_DRAIN_CAP" || true
+fi
+
+# Step 5d.2b: drain-lever-gaps — autonomous mitigation-lever synthesis drainer
+# (companion to the Step 4d.3 detector). Each tick picks up to N product pages
+# whose lever table still has un-evidenced magnitudes and spawns claude --print
+# to fill each lever's Magnitude + Source from the page's routed sources, or
+# write the honest no-data marker where the corpus has nothing (never fabricates
+# — CLAUDE.md verify-don't-fabricate + Part 18 provenance lint). As the Step
+# 5b.2 fetch + ingest steps add mitigation literature, later ticks fill levers
+# that were previously no-data. Bounded cap (default 2); disable with
+# HMI_LEVER_DRAIN_CAP=0.
+LEVER_DRAIN_CAP="${HMI_LEVER_DRAIN_CAP:-2}"
+if [[ "$LEVER_DRAIN_CAP" != "0" ]]; then
+  run_step "drain-lever-gaps" node tools/autonomy/drain-lever-gaps.mjs "--max=$LEVER_DRAIN_CAP" || true
 fi
 
 # Step 5d.3: promote-synthesis-pages — autonomous synthesis-findings-page
