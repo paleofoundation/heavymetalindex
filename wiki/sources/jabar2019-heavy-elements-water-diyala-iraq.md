@@ -30,7 +30,7 @@ updated: 2026-05-30
 
 # Jabar & Al-Kamal 2019 — Heavy elements in Diyala Governorate water sources, Iraq
 
-This study measured lead, cadmium, copper, and chromium by flame atomic absorption spectroscopy in water samples drawn from six source types in Diyala Governorate, Iraq: the Diyala River, the Khirisan River, municipal tap water, bottled drinking water (two unnamed companies, ozone-sterilized), filtered tap water, and three groundwater wells. The authors report copper concentrations within WHO and Iraqi drinking-water limits across all source types, while lead, cadmium, and chromium concentrations substantially exceeded WHO and Iraqi standards in multiple source types — most prominently 109× the WHO Pb limit in Diyala River water, 273× the WHO Cd limit in well water, and roughly 20× the WHO Cr limit in well water and filtered tap water. The reported concentrations are extraordinarily high for drinking-water FAAS measurements and are reported without LOD/LOQ, reference-material recoveries, or QA/QC documentation, so the page is treated as B-tier regional contextual evidence rather than as defensible per-sample occurrence data.
+This study measured lead, cadmium, copper, and chromium by flame atomic absorption spectroscopy in water samples drawn from six source types in Diyala Governorate, Iraq: the Diyala River, the Khirisan River, municipal tap water, bottled drinking water (two unnamed companies, ozone-sterilized), filtered tap water, and three groundwater wells. The authors report copper concentrations within WHO and Iraqi drinking-water limits across all source types, while lead, cadmium, and chromium concentrations substantially exceeded WHO and Iraqi standards in multiple source types — most prominently 109× the WHO Pb limit in Diyala River water, 274× the WHO Cd limit in well water (the source's stated multiplier; strict arithmetic 0.820/0.003 = 273.3×), and roughly 20× the WHO Cr limit in well water and filtered tap water. The reported concentrations are extraordinarily high for drinking-water FAAS measurements and are reported without LOD/LOQ, reference-material recoveries, or QA/QC documentation, so the page is treated as B-tier regional contextual evidence rather than as defensible per-sample occurrence data.
 
 ## Key numbers
 
@@ -56,7 +56,7 @@ Lead concentration ordering reported by the authors: Diyala River > bottled drin
 | Tap water | 0.130 ± 0.001 | 43× |
 | Filtered tap water | 0.630 ± 0.013 | 210× |
 | Bottled drinking water | 0.205 ± 0.009 | 68× |
-| Well water | 0.820 ± 0.010 | 273× |
+| Well water | 0.820 ± 0.010 | 274× (per source; strict arithmetic = 273.3×) |
 
 Cadmium concentration ordering reported by the authors: well water > filtered tap water > bottled drinking water > Khirisan River > Diyala River > tap water.
 
@@ -126,6 +126,9 @@ No reference materials, LOD/LOQ values, recovery percentages, blank corrections,
 - Page numbers cited are from the published version (pp. 471–476).
 - Brand names: the bottled drinking water is sourced from "two companies" in Baquba but the companies are not named in the paper; no brand-firewall concern.
 - Iraqi Standard IQS 417 (Drinking-Water Standard, Central Organization for Quality Control and Standardization, Council of Ministers, Republic of Iraq, 2001) is cited in the limits table but is not an existing wiki regulation slug; not added to frontmatter.
+- Cd well-water multiplier reported as "274×" per the source text on p. 473 ("Cd concentrations found in well water are by 274 times more than limit value"); the strict arithmetic 0.820 ÷ 0.003 = 273.3× is noted in the Key numbers table parenthetically. The wiki defaults to the source's stated figure to preserve source fidelity.
+- The `matrices:` field uses six terms — `drinking-water` (in the common matrices vocabulary list in `docs/gpt-collaboration/system-prompt.md`), plus `bottled-drinking-water`, `tap-water`, `filtered-water`, `well-water`, and `river-water` as established extensions already in active use across the source corpus. These extensions preserve the geographic/source-type distinctions the synthesis pass and downstream product-routing need. The system-prompt explicitly allows extensions when the common list does not fit and asks that they be flagged in verification notes; this entry is that flag.
+- Audit subagent (2026-05-30) flagged Cd well-water multiplier as 273× vs source's 274× (Check 1) — verified against p. 473 of the source; the source text indeed says "274 times" while the strict arithmetic gives 273.3×; corrected the page to mirror the source's stated figure with a parenthetical noting the arithmetic. Audit also flagged the matrices vocabulary as undocumented (Check 2) — verified as in-active-use extensions of the open-ended matrices vocabulary, added this verification-notes entry to flag them per system-prompt convention; matrices field unchanged.
 
 ## Wiki pages this source may touch
 
