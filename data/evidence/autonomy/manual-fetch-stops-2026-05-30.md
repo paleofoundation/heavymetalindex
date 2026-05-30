@@ -124,3 +124,27 @@ Pattern note for daemon: when a paper is adjudicated as a skip, the source PDF i
 **Action taken:** none. No new source page, no merge-enhance (page has no defect to fix), no routing-audit run, no audit-queue mutation (re-appending `status=pending` would regress a completed `audited-codex-revised` row). PDF left in place. Nothing committed.
 
 **Note for daemon:** this is the expected outcome for the Kimi corruption-folder copies whose papers were already ingested via the Marker (FM_) firehose and audited. The corruption-folder re-download does not create new ingest work when the DOI already resolves to a clean post-cutoff audited page.
+
+---
+
+## STOP — auto-fish-freshwater-tas-product_2023_10-3389-fvets-2023-1297462.pdf
+
+**Folder:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/`
+**Suggested handle:** `AF_auto-fish-freshwater-tas-product-2023-10-3389-fvet`
+**DOI:** 10.3389/fvets.2023.1297462
+**Citation:** Chen, Ji, Mehmood, Rahman, Ozaydin, Zhang, Li (2023). Editorial: Rising stars in comparative and clinical medicine: 2022. *Frontiers in Veterinary Science* 10:1297462.
+
+**Reason:** Out-of-scope editorial — no primary contamination data. The article is a Frontiers Research Topic editorial introducing a special e-collection of 28 papers across four domains (animal diseases / management, drug resistance / alternative strategy, microbiota in health and disease, poultry diseases / toxicological studies). The body is entirely secondhand single-paragraph summaries of the constituent articles' findings. No tables of measurements, no methods, no sample sizes, no analytical procedures, no occurrence values for any heavy metal in any food matrix. The two paragraphs that brush against HMI scope are both summaries-of-summaries, not data:
+- Naz et al. on copper sulfate in freshwater rohu (*Labeo rohita*): the editorial states only that the source paper reported "significant modification in serum biochemical and hematological parameters, along with alterations in histopathological conditions" and recommends "further research" to determine the optimal CuSO₄ dose. CuSO₄ in this context is an experimental dosing agent (decontamination treatment for fish ponds), not a contamination measurement of freshwater fish, and the editorial reports no numbers.
+- Mashkoor et al. on arsenic + chromium in broiler chicks: editorial reports only that exposure "resulted in oxidative stress and toxicity" and that "vitamin E and bentonite can mitigate" effects; no dosing levels, no tissue concentrations, no exposure quantification. Also out of scope — broiler chick experimental dosing, not a poultry-as-food contamination measurement.
+- Abdel Ghfar et al. on aluminum toxicity in albino rats: experimental dosing in rats, mitigation by Allium sativum / Nigella sativa, no contamination measurements of food.
+
+**Discover-skill mis-score pattern (auto-fetched/ folder, distinct from the camel-milk Discovery sweep):** The filename `auto-fish-freshwater-tas-product_2023_*` was auto-fetched against a `freshwater fish × tAs × product` gap-fill query. The PDF's title ("Rising stars in comparative and clinical medicine") and abstract (which keywords as "livestock, poultry, microbiota, drug resistance, probiotics, toxicity") contain none of the gap-fill query terms; the auto-fetcher matched on body-text mentions of "freshwater fish rohu," "arsenic and chromium," and "fish ponds" inside three secondhand-summary paragraphs. This is the same root cause pattern as the camel-milk-composition stops earlier today: the topic-fit gate accepts body-text proximity matches when it should require the heavy-metals analyte token AND the matrix token to co-occur in title / abstract / keywords, AND should down-weight document type = `Editorial` / `Research Topic Introduction` / `Commentary` regardless. An editorial's body will mention any number of the constituent papers' topics secondhand without itself being primary research.
+
+**Two layered scoring patches now reproducibly validated:**
+1. (carried from camel-milk stops) Require ≥1 of {Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, U, "heavy metals", "trace metals", "toxic metals", "metal contamination"} in title OR abstract OR keywords.
+2. (new from this stop) Reject Crossref `type: journal-article` records whose Frontiers `TYPE` line or Crossref `subtype` is `Editorial`, `Commentary`, `Introduction`, `Research Topic`, `Correction`, `Erratum`, or `Letter to the Editor`. These are non-primary document types with body-text-only topical overlap to the gap-fill query.
+
+**Action taken:** PDF moved to `raw/manual-fetch/seasonal-geographic-variance/skipped/skip_no-primary-data/` (the established sibling-folder convention; preserved bytes for audit-trail). No wiki source page written, no routing audit run, no audit-queue entry, no merge-enhance.
+
+**Per the kombucha-stop pattern note:** moving the PDF out of `auto-fetched/` in the same tick that adjudicates the skip prevents the daemon from re-encountering it on every subsequent tick.
