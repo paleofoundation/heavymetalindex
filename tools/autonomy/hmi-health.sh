@@ -56,7 +56,8 @@ fi
 echo ""
 echo "3) live activity"
 TICKPROC=$(pgrep -fl "daemon-tick.sh" | grep -v pgrep | head -1 || true)
-CLAUDE_WORKERS=$(pgrep -fc "claude --print" 2>/dev/null | tr -d ' ' || echo 0)
+# macOS pgrep has no -c (count) flag — count PID lines instead.
+CLAUDE_WORKERS=$(pgrep -f "claude --print" 2>/dev/null | wc -l | tr -d ' ')
 if [[ -n "$TICKPROC" ]]; then
   echo "   $GREEN tick running now; $CLAUDE_WORKERS Opus ingest worker(s) active"
   ok=$((ok+1))
