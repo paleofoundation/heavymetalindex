@@ -16,13 +16,13 @@ Correct — and we never claim it does. Certification doesn't make a product saf
 This is the real fear, and it's why the **Confidential Remediation Track** exists: you enroll privately, results and corrective actions are confidential business information, and you don't use the mark until at least one SKU is compliant. The trail you build is one of *documented improvement before any inquiry* — which is the opposite of "knew and did nothing." We'll walk your litigation counsel through the confidentiality mechanics.
 
 **"Isn't a certifier's report just self-serving — same problem as testing ourselves?"**
-The distinction that matters to a jury is *independence*. Sampling is done outside your production team and analyzed by ISO/IEC 17025-accredited labs under chain of custody. We also publish our full methodology (Program Manual, with DOI) and grant licensees an audit right to the standard-setting inputs. It is designed to survive cross-examination, not avoid it.
+Fair, and worth answering head-on: yes, HMTc is paid by the brands it certifies, as every certifier is — so "independent" can't mean "no commercial relationship." It means *structural* independence a court can check: sampling outside your production team, ISO/IEC 17025 labs under chain of custody, a **published** methodology (Program Manual, with DOI) you and a regulator can audit, a licensee audit right to the standard-setting inputs, and a hard rule against "testing into compliance." That is a materially different posture from a brand testing itself and reporting selectively — and it's designed to survive cross-examination, not avoid it.
 
 **"Your thresholds are tighter than the regulatory limit."**
 By design, and we say so openly. The program ratchets toward cleaner product over time; where a limit is tighter than the regulatory floor, it's labeled as precautionary or market-driven, not presented as the legal minimum. The gap is stated, not hidden — which is exactly what makes the program defensible.
 
 **"We can't afford it / it's not in budget."**
-Fair to ask against the right number. A single contamination-triggered event is modeled at $1.6M–$6.6M for a $5M brand; the fee is a fraction of that. And it isn't only risk spend — it's increasingly a precondition for retailer shelf and a basis for insurance-premium relief. We'll model your specific number before you decide.
+Fair to ask against the right number. A single contamination-triggered event is modeled at $1.6M–$6.6M for a $5M brand (the program's published model) — and independent litigation-cost surveys put a single major case near $2M in legal fees alone. The fee is a fraction of either. And it isn't only risk spend — it's increasingly a precondition for retailer shelf and a basis for insurance-premium relief. We'll model your specific number before you decide.
 
 **"Why now? We've operated fine for years."**
 Because the forum changed in February. *Palmquist* makes state court the venue and locks the retailer in as co-defendant, so the brands building a record *before* they're named are the ones in the strong position. The 2027 retailer buying cycles are already being set.

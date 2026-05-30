@@ -16,7 +16,7 @@ Short, honest, action-anchored. Every email ends in one concrete, low-friction s
 **Email 1 — the event (loss + action)**
 *Subject: After Palmquist, your baby-food testing record is now an evidentiary question*
 
-[Name] — In February the Supreme Court vacated a manufacturer's *trial win* in a baby-food heavy-metal case and sent it to state court, with the retailer locked in as co-defendant (*Hain v. Palmquist*). These cases now get decided where the defendant is weakest. The deciding question a jury hears is simple: *was there a contemporaneous, independent, continuous testing record before the complaint?*
+[Name] — In February the Supreme Court vacated a manufacturer's *trial win* in a baby-food heavy-metal case and sent it to state court, with the retailer locked in as co-defendant (*Hain v. Palmquist*). These cases are now more likely to be decided in state court — where the defendant holds the least structural advantage. The deciding question a jury hears is simple: *was there a contemporaneous, independent, continuous testing record before the complaint?*
 
 We run a 30-day confidential review that answers exactly that, in writing, for you. No mark, no commitment, no public footprint.
 
@@ -37,7 +37,7 @@ If you suspect your results aren't clean, that's the case *for* moving, not agai
 
 ## B. Defense counsel — referral channel *(new)*
 
-*Premise: a certified client is a defensible client, and recommending a concrete risk step makes counsel look proactive. We never imply we practice law; we equip them.*
+*Premise: a certified client is a more defensible client. We equip counsel with a documented, third-party record — we never imply we practice law or advise on litigation strategy.*
 
 **Email 1 — peer-to-peer, authority + "make you look good"**
 *Subject: a concrete heavy-metal risk step you can put in front of food clients post-Palmquist*
@@ -49,7 +49,7 @@ HMTc is an independent, ISO/IEC 17025-based certification that builds exactly th
 Could share a one-page brief written for litigators — want it? — [signature]
 
 **Email 2 (+7 days) — reciprocity**
-Sending the litigator brief regardless — no ask. If a specific client would benefit from a confidential 30-day posture review, we run those independently and report to the client (and, at their direction, to you). — [signature]
+Sending the litigator brief regardless — no ask. If a specific client would benefit from a confidential 30-day posture review, we run those independently and report **to the client only**; the client decides what, if anything, to share with you. To be clear about our lane: we provide a documented testing/certification record — we don't advise on litigation strategy, don't direct anyone's quality program, and the decision to use HMTc is the client's and yours alone. — [signature]
 
 ---
 
@@ -60,7 +60,7 @@ Sending the litigator brief regardless — no ask. If a specific client would be
 **Email 1 — loss aversion, their risk**
 *Subject: Palmquist put your private-label and your shelf in the suit — here's the supplier-side fix*
 
-[Name] — *Palmquist* means the retailer can no longer drop out of these baby-food cases early; you're an anchor defendant, and private-label carries it twice. The cleanest way to reduce that exposure is upstream: require or prefer an independent heavy-metal certification of suppliers in the category, so the testing record exists before anyone is named.
+[Name] — *Palmquist* means the retailer can no longer drop out of these baby-food cases early; you're an anchor defendant, and private-label carries it twice. The cleanest way to reduce that exposure is upstream: add an independent heavy-metal certification to your approved-certification list for the category (among recognized equivalents), or prefer it in sourcing — so the testing record exists before anyone is named.
 
 Other categories already use approved-certification lists this way. Worth a short call on how a category requirement would lower your risk profile? — [signature]
 *Informational only; not legal advice.*

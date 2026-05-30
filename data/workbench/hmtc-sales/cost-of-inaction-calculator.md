@@ -21,6 +21,8 @@ A live tool for the sales conversation. Its job is **anchoring**: surface the br
 
 ## Output 1 — Modeled one-year exposure (the anchor)
 
+Open with an *independent* benchmark, so the anchor isn't the seller citing the seller: the Federal Judicial Center pegs mean outside legal fees near **$2.0M per major case**, with discovery alone often exceeding **$600,000.**² Then the program's own published model (assumptions auditable, not asserted):
+
 | Brand revenue | Modeled expected loss from one contamination-triggered event¹ |
 |---|---|
 | ~$5M | **$1.6M – $6.6M** |
@@ -31,7 +33,7 @@ Read it back plainly: *"A single recall, delisting, or serious suit cluster is m
 
 ## Output 2 — The three-property gap
 
-Each "No" above is a sentence a plaintiff gets to say to a state jury ("they didn't test"; "they tested themselves"; "one lucky snapshot"). Count the No's; that's the size of the evidentiary gap certification closes.
+Each "No" above is a sentence a plaintiff gets to say to a state jury ("they didn't test"; "they tested themselves"; "one lucky snapshot"). Count the No's; that's the size of the evidentiary gap certification is designed to narrow.
 
 ## Output 3 — Break-even and the fee-in-context
 
@@ -51,4 +53,5 @@ Each "No" above is a sentence a plaintiff gets to say to a state jury ("they did
 - Keep it modeled and honest: "expected/modeled," never "you will lose." Overstatement forfeits the credibility the whole pitch runs on.
 
 ---
-¹ Modeled figures from Pendergrass, *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification*, J. Food Metallomics, 2026. Illustrative, not a prediction or guarantee.
+¹ The program's published model: Pendergrass, *The Cost of Operating Without Credible Third-Party Heavy-Metal Certification*, J. Food Metallomics, 2026. Modeled estimates with disclosed assumptions — illustrative, not a prediction or guarantee.
+² Federal Judicial Center, *Litigation Cost Survey of Major Companies*, 2008 (independent benchmark).

@@ -1,5 +1,7 @@
 # HMTc Commercial Sales Kit
 
+> **Internal — do not distribute.** This README and `persuasion-playbook.md` are internal strategy. **Client-facing** assets are only: the brand one-pager, the calculator used as a *script* (not the file), and the *After Palmquist* briefing. Never share internal targets, fee math, or persuasion mechanics with a prospect.
+
 **Purpose.** Assets that drive **certification revenue** — the program's revenue engine. This is the brand-direct + channel sales motion built on the *After Palmquist* wedge and grounded in persuasion science (*Yes! 50 Scientifically Proven Ways to Be Persuasive*, Goldstein/Martin/Cialdini, 2008).
 
 ## Firewall (binding)
@@ -19,9 +21,9 @@ Revenue-tiered **flat License Fees** (small <$5M, mid $5–50M, large $50–500M
 | Brand **founder / marketing** | Channel access, shelf | Trend / social proof |
 | **Retailers** | Reduced *their own* post-Palmquist anchor-defendant liability | Loss aversion (flywheel) |
 | **Product-liability insurers** | Lower loss ratios on certified suppliers | Risk reduction (pull) |
-| **Defense counsel** *(new)* | A defensible client + a concrete risk step to advise | Authority + "make you look good" |
+| **Defense counsel** *(new)* | A defensible client + a concrete risk step to advise | Authority + a factual tool to advise with |
 
-The **retailer** lane is the flywheel (one mandate cascades to all suppliers); the **brand-direct** lane is the fastest cash; **defense counsel** and **insurers** are referral/pull channels.
+The **retailer** lane is the flywheel (one approved-certification listing lifts every supplier in the category); the **brand-direct** lane is the fastest cash; **defense counsel** and **insurers** are referral/pull channels.
 
 ## Copy-discipline guardrails (non-negotiable — also the audit criteria)
 
