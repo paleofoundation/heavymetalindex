@@ -75,13 +75,13 @@ Note: these limits are presented in the review without an attached primary sourc
 **Other quantitative claims (secondary citations):**
 - Cattle Pb toxicity associated with blood Pb levels >0.60 µg/mL (Patra et al. 2006).
 - Acute Cu poisoning in sheep at oral intakes of 20–100 mg/kg BW; adult cattle require 200–800 mg/kg BW; chronic Cu poisoning in sheep at daily intake 3.5 mg/kg BW from 15–20 ppm pastures (National Research Council 2005; Constable et al. 2017; Gupta 2018).
-- Liver Cu toxic threshold: >250 ppm in cattle, >250 ppm and 10 ppm in cattle/sheep, >18 ppm in goats (Lopez-Alonso et al. 2006; Dalefield 2017).
+- Cu toxic thresholds in cattle: liver >250 ppm, kidney 10 ppm; in goats: liver >250 ppm, kidney >18 ppm (Lopez-Alonso et al. 2006; Dalefield 2017).
 - As tissue toxicity: >3 ppm in liver and kidneys indicates toxicity (Constable et al. 2017).
 - Hg tissue toxicity: kidney concentration >5 ppm regarded as clinically toxic (Gupta 2018).
 - Pig muscle Pb 0.05–0.58 mg/kg d.m. and Cd 0.02–0.04 mg/kg in fattening pigs near industrial emissions (Medardus et al. 2014; Chałabis-Mazurek et al. 2021).
 - Jersey cow Pb pattern: "Pb concentrations exhibit an increasing pattern in the initial stages, followed by a stable level over time, contrasting with Cd that double after 10 days and remain constant thereafter" (Somasundaram et al. 2005).
 - Cow milk As predominantly inorganic due to inability of methylated As to cross udder epithelium; As accumulates primarily in casein (83%); fat, whey, and skimmed milk contain 10%, 4%, 3% respectively (Das et al. 2021).
-- WHO acceptable intake for As: 3.0 µg/kg BW (review states; not separately cited).
+- The review states (p.10) "WHO has set an acceptable intake level of 3.0 g/kg BW" for As (Islam et al. 2014). The "g/kg BW" is a typo in the source — the WHO/JECFA inorganic-As provisional tolerable intake is on the order of µg/kg BW (e.g., the now-withdrawn PTWI was 15 µg/kg/week ≈ 2.1 µg/kg/day). Reproducing the value as the source prints it; do not propagate as a quantitative reference.
 
 ## Evidence Fitness
 
@@ -101,6 +101,12 @@ Narrative literature review. No PRISMA protocol stated; no search strategy, data
 ## Provenance notes
 
 PDF auto-fetched into `raw/Manual Fetch Discovery/` by the `discover` skill on 2026-05-30 under the handle `afzal2024-camel-milk-heavy-metals.pdf`. The handle is misleading: the paper is a general livestock veterinary review and does not discuss camels. The cite-key (`afzal2024-livestock-heavy-metals-review`) reflects actual content; the raw_handle and raw_path preserve the filesystem state so future sessions can locate the PDF. Open access under Creative Commons Attribution (CC BY) per the journal's policy statement on the title page. SHA256 recorded in frontmatter. No conflict of interest declared by the authors; no funding disclosed.
+
+## Verification notes
+
+- Audit subagent (2026-05-30, general-purpose) flagged the Cu liver/kidney toxic-threshold sentence as garbled species-and-organ attribution; verified against PDF p.7 — corrected from "Liver Cu toxic threshold: >250 ppm in cattle, >250 ppm and 10 ppm in cattle/sheep, >18 ppm in goats" to "Cu toxic thresholds in cattle: liver >250 ppm, kidney 10 ppm; in goats: liver >250 ppm, kidney >18 ppm." Source states: *"Toxic levels in liver and kidneys are >250 ppm and 10 ppm in cattle, >250 ppm and >18 ppm in goats."*
+- Audit subagent flagged a silent units-correction of the WHO As acceptable-intake value (wiki had "3.0 µg/kg BW"; PDF p.10 prints "3.0 g/kg BW"); verified against source — the source has a unit typo, but the wiki silently fixing it without flagging was wrong. Reverted to reproduce the source verbatim with an explicit note that the typo almost certainly intends µg/kg BW (matching the WHO/JECFA inorganic-As provisional intake ballpark) and that the figure should not be propagated as a quantitative reference.
+- All other audit checks (Table 1 row-by-row numerical fidelity for 16 feed/forage/complete-feed rows; Table 2 row-by-row for 5 metal dose-limit rows; speciation discipline; slug vocabulary; brand firewall; Part 2 wiki/HMTc firewall) passed clean.
 
 ## Wiki pages this source may touch
 
