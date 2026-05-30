@@ -15,7 +15,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-plant-
 sha256: aca16bad52a4ba7ca9f4be067fee9df82c8579b313cd7557aacaf7bf3f598c7c
 metals: [Cd, iAs]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/infant-rice-cereal]]"]
-products: ["[[products/infant-rice-cereal]]", "[[products/plant-milks-rice-based]]", "[[products/teething-and-snacks-rice-based]]", "[[products/baby-cereals-dry-rice-based]]"]
+products: ["[[products/infant-rice-cereal]]", "[[products/plant-milks-rice-based]]", "[[products/teething-and-snacks-rice-based]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/rice-snacks-crackers]]"]
 matrices: [rice-based-infant-food, rice-cereal, rice-porridge, rice-cake, rice-grain, rice-milk-context]
 jurisdictions: [UK, EU]
 sample_n: "Rice-based baby foods, generic rice crackers/cakes/cereals, and UK-purchased polished rice by origin; exact per-category n is figure/table dependent."

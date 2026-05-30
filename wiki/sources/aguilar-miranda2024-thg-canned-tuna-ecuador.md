@@ -15,7 +15,7 @@ raw_path: "raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafoo
 raw_sha256: "3404846dfe53a1a37c22262870abee4eac23d012c1937e47e7fd62de51e3e73f"
 metals: [tHg]
 ingredients: ["[[ingredients/canned-tuna]]", "[[ingredients/fish]]", "[[ingredients/seafood]]"]
-products: ["[[products/canned-fish]]", "[[products/seafood]]"]
+products: ["[[products/canned-fish]]", "[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: [fish]
 jurisdictions: [EC, EU, US]
 near_duplicates: []

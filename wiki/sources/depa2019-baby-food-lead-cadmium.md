@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-infant-formula-cd_2019_10-61841-turcomat-v10i1-14953.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/baby-food]]", "[[ingredients/infant-formula-powder]]", "[[ingredients/cereal]]", "[[ingredients/rice-cereal]]"]
-products: ["[[products/infant-food-general]]", "[[products/infant-cereal]]", "[[products/infant-formula-powder]]"]
+products: ["[[products/infant-food-general]]", "[[products/infant-cereal]]", "[[products/infant-formula-powder]]", "infant-formula"]
 matrices: [infant-formula, cereal-grain]
 jurisdictions: []
 sample_n: 63

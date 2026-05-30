@@ -1130,6 +1130,12 @@
       ],
       "confidence": "high"
     },
+    "cocoa": {
+      "products": [
+        "chocolate"
+      ],
+      "confidence": "high"
+    },
     "cocoa-powder": {
       "products": [
         "chocolate"
@@ -1159,6 +1165,24 @@
         "honey"
       ],
       "confidence": "high"
+    },
+    "maple-syrup": {
+      "products": [
+        "honey"
+      ],
+      "confidence": "high"
+    },
+    "agave": {
+      "products": [
+        "honey"
+      ],
+      "confidence": "medium"
+    },
+    "molasses": {
+      "products": [
+        "honey"
+      ],
+      "confidence": "medium"
     },
     "natural-honey": {
       "products": [
@@ -2649,9 +2673,27 @@
     },
     "salt": {
       "products": [
-        "spices"
+        "salt"
       ],
       "confidence": "medium"
+    },
+    "table-salt": {
+      "products": [
+        "salt"
+      ],
+      "confidence": "high"
+    },
+    "sea-salt": {
+      "products": [
+        "salt"
+      ],
+      "confidence": "high"
+    },
+    "himalayan-salt": {
+      "products": [
+        "salt"
+      ],
+      "confidence": "high"
     },
     "buffered-vinegar": {
       "products": [

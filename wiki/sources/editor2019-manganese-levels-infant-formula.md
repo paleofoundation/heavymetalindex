@@ -13,7 +13,7 @@ license: Unknown
 raw_path: markdown/FM_6830775/FM_6830775.md
 metals: [Mn]
 ingredients: [rice-flour, rice-cereal, wheat-flour, soy-milk, cow-milk, whey, casein]
-products: [infant-formula-powder-dairy, infant-formula-powder-soy, infant-formula-rtf-dairy, infant-formula-rtf-soy, nutritional-beverage-child]
+products: [infant-formula-powder-dairy, infant-formula-powder-soy, infant-formula-rtf-dairy, infant-formula-rtf-soy, nutritional-beverage-child, "infant-formula-powder", "infant-formula-rtf-liquid"]
 matrices: [infant-formula-powder, infant-formula-rtf, nutritional-beverage]
 jurisdictions: [US, FR]
 sample_n: Unknown

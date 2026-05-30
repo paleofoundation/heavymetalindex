@@ -15,7 +15,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-cow-mi
 sha256: a2737f202b6180b06c15b0f55ffdeaf5dc617cae8a262864c93b924c8426787a
 metals: [tAs, Cd, Cr, tHg, Ni, Pb, Zn]
 ingredients: ["[[ingredients/milk-and-dairy]]", "[[ingredients/beef]]", "[[ingredients/meat]]", "[[ingredients/pork-chop]]", "[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]"]
-products: ["[[products/beef-product]]", "[[products/pork-product]]", "[[products/seafood]]", "[[products/fish-marine-non-predatory]]", "[[products/shellfish]]"]
+products: ["[[products/beef-product]]", "[[products/pork-product]]", "[[products/seafood]]", "[[products/fish-marine-non-predatory]]", "[[products/shellfish]]", "[[products/fresh-fish]]"]
 matrices: [beef, pork, cow-milk, sheep-goat-milk, fish, molluscs, crustaceans, seafood]
 jurisdictions: [IT, EU]
 sample_n: "Seafood from the Augusta Bay/Sicily study area plus terrestrial animal products from 26 farms: 5 bovine milk, 11 sheep/goat milk, 11 beef, and 3 pork samples."

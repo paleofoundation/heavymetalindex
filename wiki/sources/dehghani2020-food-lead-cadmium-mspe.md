@@ -17,7 +17,7 @@ near_duplicates:
   - "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-pb_2020_10-22036-abcr-2020-221731-1465.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/tea]]", "[[ingredients/rice]]", "[[ingredients/infant-formula-powder]]", "[[ingredients/milk-and-dairy]]"]
-products: ["[[products/tea-infusions]]", "[[products/rice-bulk-grain]]", "[[products/infant-formula-powder]]"]
+products: ["[[products/tea-infusions]]", "[[products/rice-bulk-grain]]", "[[products/infant-formula-powder]]", "[[products/tea]]", "infant-formula"]
 matrices: [tea, rice, infant-formula, milk]
 jurisdictions: [IR]
 sample_n: 5

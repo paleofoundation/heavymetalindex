@@ -13,7 +13,7 @@ license: unknown
 raw_path: "raw/Papers Cube Manual Fetch/guan2014.pdf"
 metals: [Pb, Cd, tHg, Cu, Zn]
 ingredients: []
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [soil, grain, vegetable, fish]
 jurisdictions: [CN, JP]
 near_duplicates: []

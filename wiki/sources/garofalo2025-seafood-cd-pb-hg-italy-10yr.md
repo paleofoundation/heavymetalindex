@@ -13,7 +13,7 @@ license: "CC BY"
 raw_path: "raw/Manual Fetch Kimi /Monitoring of Cadmium, Lead, and Mercury Levels in Seafood Products: A Ten-Year Analysis.pdf"
 metals: [Cd, Pb, tHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/molluscs]]", "[[ingredients/freshwater-fish]]", "[[ingredients/swordfish]]", "[[ingredients/shark]]"]
-products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]", "[[products/fish-freshwater]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]", "[[products/fish-marine-predatory]]", "[[products/fish-marine-non-predatory]]", "[[products/fish-freshwater]]", "[[products/shellfish]]"]
 matrices: ["marine-fish", "swordfish", "shark", "tuna", "cephalopods", "squid", "bivalve-molluscs", "crustaceans", "freshwater-fish", "marine-gastropods", "echinoderms"]
 jurisdictions: [IT, EU]
 near_duplicates: []

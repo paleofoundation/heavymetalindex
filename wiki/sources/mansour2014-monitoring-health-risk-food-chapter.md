@@ -16,7 +16,7 @@ raw_path: "raw/Papers Cube Manual Fetch/mansour2014.pdf"
 raw_sha256: 553247af22939503338593b8c3eb49973cf5587bce04f225a66f23f4c6fa6b55
 metals: [Pb, Cd, tHg, tAs, Cr, Ni, Sn, Al]
 ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/cucumber]]", "[[ingredients/potatoes]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/herbal-botanicals]]", "[[ingredients/fish]]", "[[ingredients/bivalve-molluscs]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [food, vegetables, fruit, cereals, fish, medicinal-plants, dietary-intake, analytical-method]
 jurisdictions: [EG, CN, IN, GH, IR, NG, AR, RO, NZ, NO, RU]
 near_duplicates: []

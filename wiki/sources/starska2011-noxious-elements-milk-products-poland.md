@@ -15,7 +15,7 @@ license: "unknown"
 raw_path: "raw/Manual Fetch Kimi /05_Dairy_Eggs_and_Alternatives/05_Dairy_Eggs_and_Alternatives/Noxious Elements in Milk and Milk Products in Poland.pdf"
 metals: [Pb, Cd, tHg, tAs]
 ingredients: ["[[ingredients/milk-and-dairy]]", "[[ingredients/whole-milk]]", "[[ingredients/yogurt]]", "[[ingredients/butter]]"]
-products: ["[[products/butter-and-ghee]]"]
+products: ["[[products/butter-and-ghee]]", "[[products/mixed-meals-non-rice]]"]
 matrices: [milk, cream, condensed-milk, kefir, yogurt, buttermilk, cottage-cheese, maturing-cheese, butter, ice-cream]
 jurisdictions: [PL]
 near_duplicates: []

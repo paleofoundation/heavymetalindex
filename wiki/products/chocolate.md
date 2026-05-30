@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: chocolate
+aliases: [cocoa-chocolate-products, cocoa, cocoa-products, cocoa-powder]
 title: "Chocolate"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd]

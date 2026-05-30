@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-cd_2025_10-63799-ajos-14-2-7.pdf"
 metals: ["Pb", "Cd", "Co", "Mn", "Fe", "Zn", "Cu"]
 ingredients: ["[[ingredients/pineapple]]"]
-products: ["[[products/canned-fruit]]"]
+products: ["[[products/canned-fruit]]", "[[products/canned-vegetables]]"]
 matrices: ["canned-pineapple", "canned-fruit-cocktail", "canned-vegetables"]
 jurisdictions: ["IQ"]
 sample_population: "Canned products from local markets in Baghdad, Iraq"

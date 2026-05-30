@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-coffee-cd_2022_10-21275-sr211222165040.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/coffee]]", "[[ingredients/tea]]"]
-products: ["[[products/coffee]]", "[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]]"]
+products: ["[[products/coffee]]", "[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]]", "[[products/tea]]"]
 matrices: [coffee, tea]
 jurisdictions: [LY]
 sample_n: 28

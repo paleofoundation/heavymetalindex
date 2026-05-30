@@ -17,7 +17,7 @@ raw_sha256: 7ae39dac066091d015180a6eff29564b2f05eb91ea0e3727cdc9a59d242f874f
 near_duplicates: []
 metals: [Pb, Cd, tAs, iAs, tHg, MeHg, Ni, Cr, Sn]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/cereals]]", "[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/meat]]", "[[ingredients/milk-and-dairy]]"]
-products: ["[[products/infant-and-child-foods-master]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/canned-vegetables]]"]
+products: ["[[products/infant-and-child-foods-master]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/canned-vegetables]]", "[[products/seafood]]"]
 matrices: [cereal-grain, rice, fish, shellfish, cow-milk, drinking-water, dietary-intake]
 jurisdictions: [EU, US, RO, international]
 sample_n: null

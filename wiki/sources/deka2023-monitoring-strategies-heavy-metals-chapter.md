@@ -15,7 +15,7 @@ license: "CC BY 3.0"
 raw_path: "raw/Papers Cube Manual Fetch/86538.pdf"
 metals: [Pb, Cd, tHg, Cr, Cr-VI, tAs, Ni, Al, Sb, Mn, Fe, Co, Ba, Be]
 ingredients: []
-products: []
+products: ["[[products/spices]]", "[[products/soft-drinks-carbonated-beverages]]"]
 matrices: [food, beverages, alcoholic-beverages, non-alcoholic-beverages, herbal-drinks, soft-drinks, wine, drinking-water]
 jurisdictions: [IN]
 near_duplicates: []

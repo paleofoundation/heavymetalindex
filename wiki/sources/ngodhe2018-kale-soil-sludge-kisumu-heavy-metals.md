@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-vegetables-mixed-pb_2018_10-19080-ijesnr-2018-15-555907.pdf"
 metals: ["Pb", "Cu", "Zn"]
 ingredients: ["[[ingredients/leafy-greens]]"]
-products: ["[[products/vegetables-mixed]]"]
+products: ["[[products/vegetables-mixed]]", "[[products/leafy-vegetables-other]]"]
 matrices: ["kale", "soil"]
 jurisdictions: ["KE"]
 sample_population: "Kale and soil samples from farms around the KIWASCO sewage treatment plant in Obunga slum, Kisumu County, Kenya"

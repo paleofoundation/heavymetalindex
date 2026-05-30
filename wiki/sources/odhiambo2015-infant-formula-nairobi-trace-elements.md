@@ -14,7 +14,7 @@ raw_sha256: 89f21bf29fe67a70b6aabcd5053f720e7dee082afcc130003af79895bc255bd5
 access_url: "https://doi.org/10.5897/AJFS2015.1315"
 metals: [Al, Cd, Pb, Ni]
 ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/non-soy-infant-formula]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-dairy]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-powder-non-soy]]", "[[products/infant-formula-dairy]]", "[[products/infant-formula-rtf-liquid-non-soy]]"]
 matrices: [infant-formula-powder, milk-based-infant-formula]
 jurisdictions: [KE]
 near_duplicates: []

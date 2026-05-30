@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-mehg_2019_10-12681-jhvms-21792.pdf"
 metals: ["tHg", "MeHg"]
 ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: ["swordfish", "sardine"]
 jurisdictions: ["DZ"]
 sample_population: "Sardine and swordfish collected from Bejaia, Algiers, and Oran coasts in Algeria, April-September 2017"

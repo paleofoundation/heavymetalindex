@@ -14,7 +14,7 @@ raw_path: "raw/Papers Cube Manual Fetch/article (2) copy 8.pdf"
 access_url: "https://doi.org/10.1016/j.scitotenv.2025.178558"
 metals: [tHg, MeHg, tAs, iAs, Cd, Pb, Fe, K, Ca, Mg, Zn, Se]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/seaweed]]", "[[ingredients/bivalve-molluscs]]"]
-products: []
+products: ["[[products/fresh-fish]]"]
 matrices: [fish, mollusk, seaweed, broth, drinking-water]
 jurisdictions: [CA]
 near_duplicates: []

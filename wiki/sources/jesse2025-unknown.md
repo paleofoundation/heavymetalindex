@@ -14,7 +14,7 @@ license: "Creative Commons Attribution License"
 raw_path: raw/markdown/FM_11825042/FM_11825042.md
 metals: [tHg]
 ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
-products: ["[[products/fish-freshwater]]"]
+products: ["[[products/fish-freshwater]]", "[[products/fresh-fish]]"]
 matrices: [fish]
 jurisdictions: [US]
 sample_n: null

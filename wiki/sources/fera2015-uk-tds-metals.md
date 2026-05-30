@@ -17,7 +17,7 @@ raw_sha256: 42f26f4a8f861576f5f992217ff2d56ac03c13d4c37d9561595a104350d6e5f1
 near_duplicates: []
 metals: [Al, Sb, tAs, iAs, Ba, Cd, Cr, Cu, Pb, Mn, tHg, Mo, Ni, Pd, Pt, Sn, Tl, Zn]
 ingredients: ["[[ingredients/wheat]]", "[[ingredients/rice]]", "[[ingredients/cereals]]", "[[ingredients/pasta]]", "[[ingredients/bread]]", "[[ingredients/fish]]", "[[ingredients/shellfish]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/eggs]]", "[[ingredients/potatoes]]", "[[ingredients/leafy-greens]]", "[[ingredients/peanuts]]"]
-products: ["[[products/bread-and-baked-goods]]", "[[products/flour-non-rice]]", "[[products/breakfast-cereals]]", "[[products/rice-bulk-grain]]", "[[products/pasta-wheat-based]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/shellfish]]", "[[products/eggs-product]]", "[[products/peanut-butter]]", "[[products/nuts-seeds-other]]", "[[products/snacks-crackers-biscuits]]", "[[products/condiments-general]]"]
+products: ["[[products/bread-and-baked-goods]]", "[[products/flour-non-rice]]", "[[products/breakfast-cereals]]", "[[products/rice-bulk-grain]]", "[[products/pasta-wheat-based]]", "[[products/fresh-fish]]", "[[products/canned-fish]]", "[[products/shellfish]]", "[[products/eggs-product]]", "[[products/peanut-butter]]", "[[products/nuts-seeds-other]]", "[[products/snacks-crackers-biscuits]]", "[[products/condiments-general]]", "[[products/seafood]]"]
 matrices: [dietary-intake, cereal-grain, rice, fish, shellfish]
 jurisdictions: [GB]
 sample_n: 3312

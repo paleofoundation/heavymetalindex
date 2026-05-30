@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-herbal-botanical-infusions-cd_2024_10-33545-26646781-2024-v6-i1c-666.pdf"
 metals: [Pb, Cd, tAs, tHg, Cr]
 ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/tea]]"]
-products: ["[[products/herbal-botanical-infusions]]", "[[products/tea-infusions]]"]
+products: ["[[products/herbal-botanical-infusions]]", "[[products/tea-infusions]]", "[[products/tea]]"]
 matrices: [tea]
 jurisdictions: [PL]
 sample_n: 48

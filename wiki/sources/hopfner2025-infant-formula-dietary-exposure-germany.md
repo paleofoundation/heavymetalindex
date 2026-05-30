@@ -15,7 +15,7 @@ raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formul
 raw_sha256: "39aff7285544811eda9040c98991a62e3ec711e4224b5580ae4ae42b6572f3f3"
 metals: [iAs, Cd, Pb, Cr, Ni, tHg, iHg, Mn, Se, Zn]
 ingredients: ["[[ingredients/infant-formula-ingredients]]", "[[ingredients/milk-and-dairy]]"]
-products: ["[[products/infant-formula-powder]]"]
+products: ["[[products/infant-formula-powder]]", "infant-formula"]
 matrices: [infant-formula, infant-formula-powder, dietary-intake]
 jurisdictions: [DE, EU]
 sample_n: 114

@@ -14,7 +14,7 @@ access_url: "https://doi.org/10.1038/s41598-026-44198-w"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria.pdf"
 metals: [Pb, Cd, Ni, Cr, Cu]
 ingredients: ["[[ingredients/milk-and-dairy]]", "[[ingredients/cereals]]"]
-products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-cereal]]", "[[products/infant-and-child-foods-master]]"]
+products: ["[[products/infant-formula-powder-non-soy]]", "[[products/infant-cereal]]", "[[products/infant-and-child-foods-master]]", "baby-cereals"]
 matrices: [infant-formula-powder, infant-cereal]
 jurisdictions: [NG]
 near_duplicates: []

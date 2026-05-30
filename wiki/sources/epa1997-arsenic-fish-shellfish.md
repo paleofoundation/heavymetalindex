@@ -17,7 +17,7 @@ raw_sha256: "f5d4fb4314a7a93a8d19e5ab3f159cd269b8d346a33575a77d0db25d3695e3a7"
 report_number: EPA-822-R-97-003
 metals: [iAs, tAs]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/seafood]]", "[[ingredients/shellfish]]", "[[ingredients/freshwater-fish]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: [fish, shellfish, dietary-intake, drinking-water]
 jurisdictions: [US]
 sample_n: null

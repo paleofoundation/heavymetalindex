@@ -13,7 +13,7 @@ license: "Creative Commons Attribution-NonCommercial-NoDerivs"
 raw_path: "raw/markdown/FM_12793581/"
 metals: [As, Cd, Pb, tHg]
 ingredients: [baby-food, fish, rice]
-products: [infant-formula, baby-food]
+products: [infant-formula, baby-food, "[[products/mixed-meals-non-rice]]"]
 matrices: [processed-food, powder, liquid-rtf]
 jurisdictions: [global]
 sample_n: "Scoping review; multiple studies synthesized"

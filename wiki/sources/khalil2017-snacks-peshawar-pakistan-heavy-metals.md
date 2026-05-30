@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Process
 near_duplicates: []
 metals: [Pb, Cd, Cr, Cu]
 ingredients: ["[[ingredients/potato-chips]]", "[[ingredients/corn]]"]
-products: ["[[products/snacks-crackers-biscuits]]"]
+products: ["[[products/snacks-crackers-biscuits]]", "[[products/root-tuber-vegetables]]"]
 matrices: [snacks, potato-chips, corn-chips, processed-foods]
 jurisdictions: [PK]
 sample_n: 96

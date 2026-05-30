@@ -18,7 +18,7 @@ access_date: 2026-04-25
 metals: [Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb]
 other_elements_in_file: [Calcium, Magnesium, Phosphorus, Potassium, Sodium, Copper, Iron, Strontium, Zinc, Manganese, Molybdenum, Selenium, Vanadium, Iodine, Barium, Beryllium, Thallium]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/crisped-rice-cereal]]", "[[ingredients/infant-rice-cereal]]", "[[ingredients/spinach]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/potato-chips]]", "[[ingredients/sweet-potato]]", "[[ingredients/iceberg-lettuce]]", "[[ingredients/celery]]", "[[ingredients/apple-juice]]", "[[ingredients/grape-juice]]", "[[ingredients/cantaloupe]]", "[[ingredients/raisins]]", "[[ingredients/blueberries]]", "[[ingredients/grapes]]", "[[ingredients/peach]]", "[[ingredients/pear]]", "[[ingredients/mango]]", "[[ingredients/strawberries]]", "[[ingredients/canned-tuna]]", "[[ingredients/processed-american-cheese]]", "[[ingredients/oat-ring-cereal]]", "[[ingredients/oatmeal]]", "[[ingredients/peanuts]]", "[[ingredients/peanut-butter]]", "[[ingredients/walnuts]]", "[[ingredients/eggs]]"]
-products: ["[[products/chocolate]]", "[[products/bottled-drinking-water]]", "[[products/fruit-juices-apple-containing]]", "[[products/infant-cereal]]", "[[products/baby-food]]"]
+products: ["[[products/chocolate]]", "[[products/bottled-drinking-water]]", "[[products/fruit-juices-apple-containing]]", "[[products/infant-cereal]]", "[[products/baby-food]]", "[[products/infant-and-child-foods-master]]"]
 matrices: [total-diet-study-prepared-food, baby-food, bottled-drinking-water]
 jurisdictions: [US]
 near_duplicates: ["[[sources/fda2022-tds-elements-fy2018-fy2020]]", "[[sources/fda2022-tds-elements-analytical-key]]"]

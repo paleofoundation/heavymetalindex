@@ -13,7 +13,7 @@ license: "Elsevier copyright; preprint in author manuscript form"
 raw_path: "raw/Manual Fetch Kimi /Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada.pdf"
 metals: [tHg, MeHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/freshwater-fish]]"]
-products: ["[[products/fish-freshwater]]", "[[products/fish-containing-baby-foods]]"]
+products: ["[[products/fish-freshwater]]", "[[products/fish-containing-baby-foods]]", "[[products/fresh-fish]]"]
 matrices: [freshwater-fish, fish-muscle]
 jurisdictions: [US, CA]
 near_duplicates: []

@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: honey
+aliases: [honey-and-syrups, syrups, syrup, maple-syrup, agave, agave-nectar, molasses]
 title: "Honey"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]

@@ -13,7 +13,7 @@ license: "not confirmed"
 raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Determination of toxic metals content in Iranian and Italian olive oils.pdf"
 metals: [Pb, Cd, Ni, tAs]
 ingredients: ["[[ingredients/olive-oil]]"]
-products: ["[[products/olive-oil]]"]
+products: ["[[products/olive-oil]]", "[[products/cooking-oils-other]]"]
 matrices: [edible-oil, olive-oil, flavoured-olive-oil]
 jurisdictions: [IR, IT]
 near_duplicates: []

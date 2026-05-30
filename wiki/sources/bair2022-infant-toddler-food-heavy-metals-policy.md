@@ -14,7 +14,7 @@ license: "CC BY"
 raw_path: raw/markdown/FM_9271943/FM_9271943.md
 metals: [tAs, iAs, Pb, Cd, tHg]
 ingredients: ["[[ingredients/rice]]", "[[ingredients/sweet-potato]]", "[[ingredients/carrots]]", "[[ingredients/apple]]", "[[ingredients/pear]]", "[[ingredients/fruit]]", "[[ingredients/vegetables]]", "[[ingredients/legumes]]", "[[ingredients/cinnamon]]", "[[ingredients/turmeric]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/infant-and-child-foods-master]]", "[[products/fruit-purees]]", "[[products/root-vegetable-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/teething-and-snacks-rice-based]]", "[[products/fruit-juice-not-canned]]", "[[products/mixed-meals-rice-containing]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/infant-and-child-foods-master]]", "[[products/fruit-purees]]", "[[products/root-vegetable-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/teething-and-snacks-rice-based]]", "[[products/fruit-juice-not-canned]]", "[[products/mixed-meals-rice-containing]]", "infant-formula"]
 matrices: [baby-food-puree, fruit-puree, vegetable-puree, baby-snack, fruit-juice, infant-formula]
 jurisdictions: [US, EU]
 near_duplicates: ["bair2022-toxic-heavy-metals-infant-toddler-foods"]

@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Dietary intake of methylmercury by 0–5 years childrenusing the duplicate diet method in Japan.pdf"
 metals: [tHg, MeHg]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/infant-formula-powder]]", "[[ingredients/meat-and-poultry-purees]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/fish-containing-baby-foods]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/fish-containing-baby-foods]]", "infant-formula", "[[products/fruit-purees]]"]
 matrices: [dietary-intake, infant-formula, baby-food-puree, hair]
 jurisdictions: [JP]
 near_duplicates: []

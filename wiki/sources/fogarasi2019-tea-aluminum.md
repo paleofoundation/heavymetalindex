@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/gap-herbal-botanical-infusions-al_2019_10-2478-orvtudert-2019-0003.pdf"
 metals: [Al]
 ingredients: ["[[ingredients/tea]]", "[[ingredients/herbal-botanicals]]"]
-products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]]", "[[products/herbal-botanical-infusions]]"]
+products: ["[[products/true-tea-camellia-sinensis]]", "[[products/tea-infusions]]", "[[products/herbal-botanical-infusions]]", "[[products/tea]]"]
 matrices: [tea]
 jurisdictions: [RO]
 sample_n: 48

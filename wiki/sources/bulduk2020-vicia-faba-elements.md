@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/wl-0033_2020_10-33945-sami-pcbr-2020-3-4.pdf"
 metals: ["Cr", "Fe", "Zn", "Al", "Cu", "Pb", "Cd", "Mn", "Ni"]
 ingredients: ["[[ingredients/herbal-botanicals]]", "[[ingredients/beans]]"]
-products: ["[[products/herbal-botanical-infusions]]", "[[products/supplements-botanicals-herbs]]"]
+products: ["[[products/herbal-botanical-infusions]]", "[[products/supplements-botanicals-herbs]]", "[[products/spices]]"]
 matrices: ["herbal-botanicals", "dried-herbs"]
 jurisdictions: ["TR"]
 sample_population: "Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey"

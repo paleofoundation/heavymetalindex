@@ -16,7 +16,7 @@ raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Determin
 raw_sha256: 62cc1c5e953dadcfa4340f54b1658e0c2aed19350b1ab8ce069977f3ea209c4e
 metals: [Pb, Cd, Cu, Fe, Zn]
 ingredients: ["[[ingredients/herbs-and-spices]]", "[[ingredients/dried-herbs]]", "[[ingredients/parsley]]", "[[ingredients/basil]]", "[[ingredients/sage]]", "[[ingredients/oregano]]", "[[ingredients/thyme]]", "[[ingredients/mint]]", "[[ingredients/chamomile]]"]
-products: []
+products: ["[[products/spices]]"]
 matrices: [herbs, dried-herbs]
 jurisdictions: [AE]
 near_duplicates: []

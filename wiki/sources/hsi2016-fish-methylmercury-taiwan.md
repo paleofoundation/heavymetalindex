@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-mehg_2016_10-1371-journal-pone-0155704.pdf"
 metals: ["MeHg"]
 ingredients: ["[[ingredients/swordfish]]", "[[ingredients/fish]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: ["fish", "swordfish", "tuna"]
 jurisdictions: ["TW"]
 sample_population: "Fish consumed in Taiwan and hair samples from pregnant and infertile women"

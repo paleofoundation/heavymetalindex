@@ -16,7 +16,7 @@ raw_path: "raw/Manual Fetch Kimi /condiment_papers/01_Oils/Determination of some
 raw_sha256: "ea8699fd59ab0a937947fd079231f3b7d023d1359f40bce959a261a31d535924"
 metals: [Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn]
 ingredients: ["[[ingredients/olive-oil]]", "[[ingredients/sunflower-oil]]", "[[ingredients/corn-oil]]", "[[ingredients/soybean-oil]]", "[[ingredients/vegetable-oils]]"]
-products: ["[[products/olive-oil]]", "[[products/cooking-oils-other]]"]
+products: ["[[products/olive-oil]]", "[[products/cooking-oils-other]]", "[[products/nuts-seeds-other]]"]
 matrices: [olive-oil, sunflower-oil, corn-oil, soybean-oil, hazelnut-oil, almond-oil, edible-oil]
 jurisdictions: [TR]
 near_duplicates: []

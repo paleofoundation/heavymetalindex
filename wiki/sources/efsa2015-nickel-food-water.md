@@ -16,7 +16,7 @@ raw_path: "raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/EFSA Sci
 raw_sha256: a9709fa1b3d2068f309877943eed6754311c19b4d34243a45ee6b073ae92a35d
 metals: [Ni]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/legumes]]", "[[ingredients/peanuts]]", "[[ingredients/cereals]]", "[[ingredients/water]]", "[[ingredients/vegetables]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/tea]]", "[[ingredients/coffee]]"]
-products: ["[[products/chocolate]]", "[[products/coffee]]", "[[products/tea]]", "[[products/tea-infusions]]", "[[products/condiments-general]]", "[[products/spices]]", "[[products/bottled-drinking-water]]", "[[products/mineral-water]]", "[[products/legumes-pulses-other]]", "[[products/peanuts]]", "[[products/peanut-butter]]", "[[products/infant-food-general]]", "[[products/infant-formula-powder]]", "[[products/breakfast-cereals]]", "[[products/bread-and-baked-goods]]"]
+products: ["[[products/chocolate]]", "[[products/coffee]]", "[[products/tea]]", "[[products/tea-infusions]]", "[[products/condiments-general]]", "[[products/spices]]", "[[products/bottled-drinking-water]]", "[[products/mineral-water]]", "[[products/legumes-pulses-other]]", "[[products/peanuts]]", "[[products/peanut-butter]]", "[[products/infant-food-general]]", "[[products/infant-formula-powder]]", "[[products/breakfast-cereals]]", "[[products/bread-and-baked-goods]]", "infant-formula"]
 matrices: [dietary-intake, drinking-water, food, food-contact-materials, infant-formula]
 jurisdictions: [EU]
 near_duplicates: [efsa-nickel-contam-2020]

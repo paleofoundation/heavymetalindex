@@ -15,7 +15,7 @@ license: "Government publication; reproduction requires written permission from 
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf"
 metals: [Al, Sb, Cd, Pb, MeHg, Ni, Sn, V]
 ingredients: ["[[ingredients/cereals]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/vegetables]]", "[[ingredients/legumes]]", "[[ingredients/fruits]]", "[[ingredients/meat]]", "[[ingredients/seafood]]", "[[ingredients/eggs]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/beverages]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fruit-juices-non-apple]]"]
 matrices: [dietary-intake, vegetable, seafood, cereal, beverage, egg, fruit, legume, meat, dairy]
 jurisdictions: [HK]
 near_duplicates: ["[[sources/cfs2012-hktds-inorganic-arsenic]]"]

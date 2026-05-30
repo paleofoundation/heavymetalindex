@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Development of a Fast Method Using HPLC-ICP-MS and Exploration of the Reduction Mechanism of Cr(VI) in Foods.pdf"
 metals: [Cr-VI, Cr]
 ingredients: ["[[ingredients/rice-flour]]", "[[ingredients/whole-wheat-bread]]", "[[ingredients/tea]]", "[[ingredients/yogurt]]", "[[ingredients/orange-juice]]", "[[ingredients/vinegar]]", "[[ingredients/milk-and-dairy]]"]
-products: ["[[products/vinegar]]", "[[products/fruit-juices-non-apple]]", "[[products/tea]]", "[[products/bread-and-baked-goods]]"]
+products: ["[[products/vinegar]]", "[[products/fruit-juices-non-apple]]", "[[products/tea]]", "[[products/bread-and-baked-goods]]", "[[products/plant-milks-non-soy-non-rice]]", "[[products/fruit-juice-not-canned]]"]
 matrices: [rice-flour, cereal-grain, cow-milk, yoghurt, tea, fruit-juice, vinegar]
 jurisdictions: [CN]
 near_duplicates:

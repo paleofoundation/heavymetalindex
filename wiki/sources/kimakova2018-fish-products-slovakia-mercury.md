@@ -13,7 +13,7 @@ license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-swordfish-thg_2018_10-26444-aaem-84934.pdf"
 metals: ["tHg"]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/swordfish]]"]
-products: ["[[products/seafood]]"]
+products: ["[[products/seafood]]", "[[products/fresh-fish]]"]
 matrices: ["fish", "fish-products", "swordfish", "shark", "king-mackerel"]
 jurisdictions: ["SK"]
 sample_population: "Fish and fish-product samples from food retail in Eastern Slovakia and fish from the Ruzin water reservoir"

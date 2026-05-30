@@ -13,7 +13,7 @@ license: "CC BY-NC 4.0"
 raw_path: "raw/Manual Fetch Kimi /06_Infant_Foods_Formula/06_Infant_Foods_Formula/Investigation of heavy metal concentrations and health risk assessment in infant formula and infant cereals in Zahedan, Iran.pdf"
 metals: [Pb, Cd]
 ingredients: ["[[ingredients/infant-formula-powder]]", "[[ingredients/infant-cereal-ingredients]]"]
-products: ["[[products/infant-formula-powder]]", "[[products/infant-cereal]]"]
+products: ["[[products/infant-formula-powder]]", "[[products/infant-cereal]]", "baby-cereals"]
 matrices: [infant-formula-powder, infant-cereal]
 jurisdictions: [IR]
 near_duplicates: []

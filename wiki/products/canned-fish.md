@@ -1,6 +1,7 @@
 ---
 type: product-category
 category: canned-fish
+aliases: [canned-seafood, canned-tuna, canned-sardines, canned-salmon]
 title: "Canned Fish"
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs, MeHg, tHg]

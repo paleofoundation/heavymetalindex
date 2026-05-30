@@ -13,7 +13,7 @@ license: "not stated"
 raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-spinach-cd_2015_10-15680-ijirset-2015-0405019.pdf
 metals: [Pb, Cd, Cu, Zn]
 ingredients: ["[[ingredients/spinach]]", "[[ingredients/tomato]]"]
-products: ["[[products/spinach]]"]
+products: ["[[products/spinach]]", "[[products/non-root-vegetables]]"]
 matrices: [spinach-leaf, tomato]
 jurisdictions: [IN]
 near_duplicates: []

@@ -14,7 +14,7 @@ license: "CC BY 4.0"
 raw_path: raw/markdown/FM_9183086/FM_9183086.md
 metals: [tAs, Cd, tHg, Pb]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/fruit]]", "[[ingredients/vegetables]]", "[[ingredients/rice]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/meat-and-poultry]]"]
-products: ["[[products/fish-containing-baby-foods]]", "[[products/fruit-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/meat-and-poultry-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]", "[[products/infant-cereal]]", "[[products/teething-and-snacks-non-rice]]", "[[products/teething-and-snacks-rice-based]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]", "[[products/flavored-waters]]"]
+products: ["[[products/fish-containing-baby-foods]]", "[[products/fruit-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/meat-and-poultry-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]", "[[products/infant-cereal]]", "[[products/teething-and-snacks-non-rice]]", "[[products/teething-and-snacks-rice-based]]", "[[products/fruit-juices-apple-containing]]", "[[products/fruit-juices-non-apple]]", "[[products/flavored-waters]]", "baby-cereals", "[[products/fruit-juice-not-canned]]"]
 matrices: [baby-food-puree, baby-snack, fruit-puree, vegetable-puree, infant-cereal, fruit-juice]
 jurisdictions: [PL]
 sample_n: 397
