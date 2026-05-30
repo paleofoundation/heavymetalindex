@@ -18,7 +18,7 @@ access_url: "https://scholar.google.com/scholar?q=Burgon+2023+Cacau+Chocolates+B
 metals: [Pb, Cd, tAs, tHg, Cu, Co, Se]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 products: ["[[products/chocolate]]"]
-matrices: [cocoa-beans, dark-chocolate, milk-chocolate, white-chocolate, bean-to-bar-chocolate]
+matrices: [cocoa, chocolate]
 jurisdictions: [BR]
 sample_n_total: 130
 sample_n_notes: "Inorganics: 23 cocoa-bean samples (Bahia n=11, Amazonas n=8, Pará n=2, Espírito Santo n=2), 65 bean-to-bar chocolate samples from Brazilian e-commerce, plus 6 conventional chocolates from Campinas-SP retail. Ochratoxin A: 43 cocoa-bean samples (22 collected during post-harvest pre-processing on two farms in Arataca-BA n=14 and Mocajuba-PA n=8; 21 commercially sourced) and 62 bean-to-bar chocolates. Sampling 2020–2022."
@@ -127,7 +127,7 @@ This is a defended master's thesis from ITAL/Campinas; Chapter 3 (ochratoxin A) 
 
 ## Implications
 
-- **Certification:** Provides matched bean-and-finished-chocolate Cd, Cu, Pb data across the major Brazilian production regions (Amazonas, Bahia, Pará, Espírito Santo) using ICP-MS/ICP-OES with NIST/ERM/NRCC certified reference material validation. The Amazonas cocoa-bean Cd mean of 0.68 mg/kg with an 0.89 mg/kg maximum sits above both the Brazilian (0.30 mg/kg cocoa paste) and EU (0.60 mg/kg cocoa powder) limits; this is the kind of producer-region finding that the certifier's bean-sourcing levers can act on. Linear association between cocoa-solids percentage and finished-chocolate Cd and Pb (semi-sweet/dark > milk > white) is confirmed in a Brazilian e-commerce-sampled bean-to-bar market in 2020–2022. The cobalt finding (1.88 mg/kg in a Pará-origin 70-100%-cocoa dark chocolate) modelling to 123% of the EFSA UL for children at 15.75 g/day is a flag for cobalt to enter HMTc cocoa-derivative analyte review even though Co is not in the current ten-analyte HMTc panel.
+- **Certification:** Provides matched bean-and-finished-chocolate Cd, Cu, Pb data across the major Brazilian production regions (Amazonas, Bahia, Pará, Espírito Santo) using ICP-MS/ICP-OES with NIST/ERM/NRCC certified reference material validation. The Amazonas cocoa-bean Cd mean of 0.68 mg/kg with an 0.89 mg/kg maximum sits above both the Brazilian (0.30 mg/kg cocoa paste) and EU (0.60 mg/kg cocoa powder) limits. Linear association between cocoa-solids percentage and finished-chocolate Cd and Pb (semi-sweet/dark > milk > white) is reported in a Brazilian e-commerce-sampled bean-to-bar market in 2020–2022. The cobalt maximum (1.88 mg/kg in a Pará-origin 70–100%-cocoa dark chocolate) modelled to 123% of the EFSA upper level for children at 15.75 g/day; Co is not currently tracked under the HMTc ten-analyte panel.
 - **Courses:** Useful worked example of the bean-to-finished-product Cd attenuation pathway (Amazonas beans 0.68 → Amazonas dark chocolate 0.145 mean, max 0.74). Also useful for the post-harvest ochratoxin A risk pathway, with the drying stage identified as the critical control point as water activity drops.
 - **App:** Brazilian regional Cd-in-cocoa-bean and Cd-in-chocolate geographic-breakdown data for the `[[ingredients/cocoa]]` and `[[ingredients/chocolate]]` `contamination_profile` synthesis pass. Per-region maxima and means supplied; not a market basket.
 
@@ -140,3 +140,11 @@ This is a defended master's thesis from ITAL/Campinas; Chapter 3 (ochratoxin A) 
 - [[metals/cobalt]]
 - [[metals/copper]]
 - [[products/chocolate]]
+
+## Verification notes
+
+- Source-internal inconsistencies in Tabela 9 (p.97): the Amazonas bean-to-bar chocolate row reports "0,50 (<0,04–0,16)" — mean 0.50 µg/kg above the stated maximum 0.16 µg/kg, which is mathematically impossible; the Bahia bean-to-bar chocolate row reports "0,01 (<0,04–1,11)" — mean 0.01 µg/kg appears inconsistent with 6 of 34 positive samples reaching 1.11 µg/kg. Values are reproduced verbatim from the thesis table; downstream synthesis should treat Tabela 9's mean column as unreliable and use the range column plus positive-sample counts instead.
+- The thesis Resumo (p.viii) reports ochratoxin A "em 20% e 30% das amostras" while the Chapter 3 results (Tabela 9, §3.3) document 13/43 = 30% bean detection and 12/62 ≈ 19% chocolate detection. The wiki page uses the table-derived figures (30% beans, ~19% chocolates) rather than the abstract figures.
+- Cocoa-bean ICP-OES LOD for Pb is 0.057 mg/kg and for Cd is 0.171 mg/kg; several bean values are left-censored at "<0,17" or "<0,06" in source tables and the per-region "mean" lines include these censored values. The single Bahia bean Pb maximum of 0.313 mg/kg is the only quantified value driving the all-region Pb mean. Treat bean Pb/Cd quantification as left-censored-dominant.
+- Audit subagent (2026-05-30) flagged matrices field as overspecified (used `cocoa-beans, dark-chocolate, milk-chocolate, white-chocolate, bean-to-bar-chocolate`); corrected to the broad-scope canonical vocabulary `[cocoa, chocolate]` per docs/gpt-collaboration/system-prompt.md matrices guidance.
+- Audit subagent (2026-05-30) flagged Implications/Certification "flag for cobalt to enter HMTc cocoa-derivative analyte review" as crossing toward HMTc governance proposal; softened to a factual note that Co is not currently in the HMTc ten-analyte panel.
