@@ -15,6 +15,8 @@ const footerSections = [
   {
     title: "Evidence",
     links: [
+      ["Coverage (PRISMA)", "/coverage"],
+      ["Audit dashboard", "/audits"],
       ["Methodology", "/methodology"],
       ["Editorial Standards", "/editorial-standards"],
       ["Testing", "/testing"],

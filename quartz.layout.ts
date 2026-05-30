@@ -10,6 +10,11 @@ import * as Component from "./quartz/components";
 //      reads as unfinished and undercuts the "independent reference" posture
 //      (CLAUDE.md Part 2).
 //
+// Do NOT add `audits` or `coverage` here: the Audit dashboard and Coverage
+// page are the curated, public defensibility surfaces (audience includes
+// brand-legal, regulator, journalist) that Part 1 wants reviewers to find.
+// They are intentionally discoverable in nav and footer.
+//
 // IMPORTANT: Quartz serializes this filter with filterFn.toString() and
 // re-evaluates it client-side, so it must be SELF-CONTAINED — the Set has to
 // be built inside the function body. A hoisted closure variable would be
@@ -19,8 +24,8 @@ const primaryNavFilter = (node: { slugSegment: string }) => {
   const hiddenPrimaryNav = new Set([
     "app",
     "about",
-    "audits",
     "batch-reports",
+    "briefings",
     "certification",
     "contact",
     "corpus",

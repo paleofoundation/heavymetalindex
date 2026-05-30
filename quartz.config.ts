@@ -22,6 +22,23 @@ const config: QuartzConfig = {
       "_TEMPLATE.md",
       "raw",
       "**/raw/**",
+      // Genuinely internal, unlinked content kept out of the public build,
+      // sitemap, and search index:
+      //   - briefings/  weekly internal briefings, frontmatter
+      //     audience: [karen, internal]; zero inbound links.
+      //   - queries/    researcher-only query scratchpad; zero inbound links.
+      // Bare name + /** because globby's `ignore` needs the glob form to drop
+      // directory contents (cf. the "raw" / "**/raw/**" pair above).
+      //
+      // NOT excluded, deliberately: batch-reports/ and lint/ are linked from
+      // 170+ source pages and the Update-History log as ingest provenance /
+      // QA records. CLAUDE.md Part 4 treats descriptive batch reports as a
+      // reconstructibility artifact, so they stay published (nav-hidden, not
+      // primary navigation). Excluding them would 404 those provenance links.
+      "briefings",
+      "briefings/**",
+      "queries",
+      "queries/**",
     ],
     defaultDateType: "modified",
     theme: {
