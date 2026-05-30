@@ -42,7 +42,7 @@ All figures below are cited by Fasahat from the named primary sources; this revi
 - Suggested standard for Cd in polished rice: 0.2–0.4 mg kg⁻¹ (Ishikawa, 2005, p.95). Basis stated as "the weight of polished rice"; wet/dry not specified by Fasahat.
 - Soil pH effect: highest grain Cd at soil pH ~6 (Das et al., 1997, p.96); reduced uptake with rising pH (Hinesly et al., 1984, p.96). Optimal-grain-Cd pH is reported per the cited soil-chemistry literature; Fasahat does not derive a new value.
 - Grain-filling timing: Cd in paddy rice grain accumulates predominantly during grain filling (Simmons et al., 2003, 2008, p.96), which coincides with the pre-harvest 2-week drainage of paddy.
-- Tissue partitioning: roots > leaves > grains/seeds (Wagner, 1993; He et al., 2008; Pereira et al., 2011, p.96). Root Cd may represent >80% of total plant Cd (Cui et al., 2008; Liu et al., 2007, p.96).
+- Tissue partitioning: roots > leaves > grains/seeds (Wagner, 1993; He et al., 2008; Pereira et al., 2011, p.96). Root Cd may represent >80% of total plant Cd (Cui et al., 2004; Liu et al., 2007, p.96).
 - Root-to-grain translocation: ~0.73% of total Cd taken up by six rice cultivars was translocated to the grain in one Chinese study; embryo Cd ~5× that of chaff or polished rice (Liu et al., 2007, p.96).
 - Peroxidase activity in Oryza sativa exposed to Cd: 10–20-fold higher in roots and leaves than controls (Reddy and Prasad, 1992, p.98).
 - Seed-germination effects: stimulation at 0.01–1.5 µM CdCl₂; sharp decrease at 2.0 µM CdCl₂ (Wu et al., 2006, p.98). Photosynthesis unaffected at 50, 100 and 250 µM Cd(NO₃)₂ for one cultivar (Rascio et al., 2008, p.98).
@@ -80,3 +80,5 @@ No brand-attributed contamination data. No HMT&C-program brands named. Discussio
 Cadmium is reported throughout as total Cd; no inorganic vs. organo-Cd speciation is performed. This is not a defect — Cd is non-redox and predominantly Cd²⁺ in plant tissue and soil solution under the conditions discussed. Mercury and arsenic speciation flags do not apply (those metals are not the topic).
 
 Tables and figures: Table 1 (QTL analysis of cadmium concentration in rice, p.97) was read in full; the QTL rows are summarised above and were cross-checked against the cited population, marker interval, and reference fields. Figure 1 (p.96, Cd transport schematic) is reproduced from Uraguchi and Fujiwara (2012) and contributes no original data.
+
+Audit subagent (2026-05-30) flagged the >80%-root-Cd attribution as ambiguous between Cui 2004 and Cui 2008; verified against PDF p.96 — Fasahat cites "(Cui et al., 2004; Liu et al., 2007;...)" for the >80% claim, while Cui 2008 is cited only for the adjacent "higher Cd remains in roots" statement. Wiki Key numbers corrected from "Cui et al., 2008" to "Cui et al., 2004" for the >80% figure.
