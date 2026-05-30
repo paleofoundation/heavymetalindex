@@ -514,6 +514,7 @@ run_step "defense dossiers" node tools/build-defense-dossier.mjs || true
 run_step "change-watch feed" node tools/build-change-watch.mjs || true
 run_step "lab-comparator context" node tools/evidence/build-lab-comparator-context.mjs || true
 run_step "category risk maps" node tools/build-category-risk-maps.mjs || true
+run_step "brand dossier pages" node tools/build-brand-dossier-pages.mjs || true
 
 # ---------- CHECKPOINT 1: commit the deterministic regeneration phase ----------
 # Everything above (routing audit, page creation, heal-gaps, extraction,
