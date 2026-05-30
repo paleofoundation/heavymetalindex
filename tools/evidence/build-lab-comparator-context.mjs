@@ -6,9 +6,12 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import yaml from "js-yaml"
 
 const repoRoot = process.cwd()
 const percentileContextPath = path.join(repoRoot, "wiki/static/hmi-percentile-context.json")
+const contaminationPath = path.join(repoRoot, "wiki/static/contamination.json")
+const productsDir = path.join(repoRoot, "wiki/products")
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
 const limitsPath = path.join(repoRoot, "data/evidence/regulatory_limits.csv")
 const occurrenceSummaryFiles = [
@@ -108,11 +111,40 @@ const BASIS_VOCAB = [
   { code: "as_consumed", label: "As consumed" },
   { code: "dry_weight", label: "Dry weight" },
   { code: "as_sold_or_source_reported", label: "As sold (source-reported)" },
+  { code: "ingredient_synthesis", label: "Ingredient-level literature (indicative)" },
 ]
+
+// Generic form/descriptor tokens that must not, alone, drive an ingredient
+// match (mirrors the change-watch mapper). Keeps "cocoa powder" from binding to
+// "infant-formula-powder" on the shared "powder". Declared before the top-level
+// build call below because it is a const (no hoisting, unlike the functions).
+const FORM_STOPLIST = new Set([
+  "powder", "powdered", "liquid", "based", "ready", "rtf", "dried", "dry", "fresh", "frozen",
+  "whole", "ground", "raw", "puree", "purees", "pureed", "juice", "milk", "drink", "beverage",
+  "formula", "cereal", "cereals", "snack", "snacks", "teething", "food", "foods", "meal", "meals",
+  "mixed", "mix", "vitamin", "mineral", "premix", "protein", "source", "concentrate", "concentrated",
+  "infant", "baby", "child", "children", "toddler", "non", "free", "added", "single", "ingredient",
+  "plant", "product", "products", "finished", "low", "reduced", "fat", "skim", "semi",
+])
 
 const rows = percentileContext.rows ?? []
 const litContext = buildLitContext(occurrenceRows)
 const regCaps = buildRegCaps(crosswalkRows, limitsById)
+
+// Second tier: fill the (row x analyte) cells that the finished-product
+// occurrence CSVs leave empty with what the ingredient-level literature
+// synthesis reports, so the comparator shows a real evidence view instead of a
+// bare "data gap" for the six analytes those CSVs do not measure. Clearly
+// labelled (basis: ingredient_synthesis; coverage_note names the provenance)
+// so it is never mistaken for finished-product sampling.
+const fallbackLitContext = buildFallbackLitContext(rows, litContext, regCaps)
+litContext.push(...fallbackLitContext)
+litContext.sort(
+  (a, b) =>
+    a.row_slug.localeCompare(b.row_slug) ||
+    a.metal.localeCompare(b.metal) ||
+    a.basis.localeCompare(b.basis),
+)
 
 const output = {
   schema: "hmi.lab-comparator.v1",
@@ -130,7 +162,19 @@ const output = {
 }
 
 fs.writeFileSync(outputPath, JSON.stringify(output, null, 2) + "\n", "utf8")
-console.log(`Wrote ${outputPath} with ${litContext.length} literature-context rows and ${regCaps.length} regulatory-cap rows.`)
+const tierCounts = litContext.reduce(
+  (acc, e) => {
+    if (e.basis === "ingredient_synthesis") acc.fallback += 1
+    else acc.product += 1
+    return acc
+  },
+  { product: 0, fallback: 0 },
+)
+console.log(
+  `Wrote ${outputPath} with ${litContext.length} literature-context rows ` +
+    `(${tierCounts.product} finished-product, ${tierCounts.fallback} ingredient-synthesis fallback) ` +
+    `and ${regCaps.length} regulatory-cap rows.`,
+)
 
 // ---------- Functions ----------
 
@@ -312,6 +356,167 @@ function canonicalMetal(value) {
     ["chromium", "Cr-total"],
   ])
   return aliases.get(compact) || metal
+}
+
+// ---------- Ingredient-synthesis fallback tier ----------
+
+function distinctiveTokens(slug) {
+  const out = new Set()
+  for (const t of String(slug || "").toLowerCase().split(/[^a-z0-9]+/)) {
+    if (t.length < 3 || FORM_STOPLIST.has(t)) continue
+    out.add(t)
+  }
+  return out
+}
+
+function loadContamination() {
+  const map = new Map()
+  try {
+    const j = JSON.parse(fs.readFileSync(contaminationPath, "utf8"))
+    const arr = j.records || j
+    for (const ing of arr) map.set(ing.ingredient, ing)
+  } catch {
+    // contamination dataset absent — fallback tier simply contributes nothing.
+  }
+  return map
+}
+
+function readProductFrontmatter(rowSlug) {
+  const file = path.join(productsDir, `${rowSlug}.md`)
+  if (!fs.existsSync(file)) return {}
+  const raw = fs.readFileSync(file, "utf8")
+  const m = raw.match(/^---\n([\s\S]*?)\n---\n?/)
+  if (!m) return {}
+  try {
+    return yaml.load(m[1]) || {}
+  } catch {
+    return {}
+  }
+}
+
+// The contamination ingredients that inform a product row: exact slug matches
+// of the row's base taxonomy / ingredient targets first, then a conservative
+// distinctive-commodity-token match. Bounded to keep aggregation honest.
+function rowIngredients(rowSlug, contamination) {
+  const fm = readProductFrontmatter(rowSlug)
+  const candidates = [rowSlug, fm.base_taxonomy, ...(fm.ingredient_targets || [])].filter(Boolean)
+  const matched = new Map()
+  for (const cand of candidates) {
+    if (contamination.has(cand)) matched.set(cand, contamination.get(cand))
+  }
+  if (matched.size === 0) {
+    const candTokens = new Set()
+    for (const cand of candidates) for (const t of distinctiveTokens(cand)) candTokens.add(t)
+    if (candTokens.size) {
+      for (const [slug, ing] of contamination) {
+        const it = distinctiveTokens(slug)
+        for (const t of it) {
+          if (candTokens.has(t)) {
+            matched.set(slug, ing)
+            break
+          }
+        }
+        if (matched.size >= 8) break
+      }
+    }
+  }
+  return [...matched.values()]
+}
+
+function repLow(v) {
+  if (Array.isArray(v)) return v.length ? Number(v[0]) : null
+  if (typeof v === "number") return v
+  return null
+}
+function repHigh(v) {
+  if (Array.isArray(v)) return v.length ? Number(v[v.length - 1]) : null
+  if (typeof v === "number") return v
+  return null
+}
+function capConfidence(label) {
+  return label === "high" ? "medium" : label
+}
+
+function buildFallbackLitContext(percentileRows, occurrenceLit, regCaps) {
+  const contamination = loadContamination()
+  const covered = new Set(occurrenceLit.map((e) => `${e.row_slug}|${e.metal}`))
+  const servedRows = new Set(
+    [
+      ...percentileRows.map((r) => r.row_slug),
+      ...occurrenceLit.map((e) => e.row_slug),
+      ...regCaps.map((e) => e.row_slug),
+    ].filter(Boolean),
+  )
+  const out = []
+  for (const rowSlug of [...servedRows].sort()) {
+    const ingredients = rowIngredients(rowSlug, contamination)
+    for (const analyte of ANALYTES) {
+      const metal = analyte.code
+      if (covered.has(`${rowSlug}|${metal}`)) continue
+      const subs = []
+      for (const ing of ingredients) {
+        const sub = (ing.metals || {})[metal]
+        if (sub && sub.status && sub.status !== "pending" && (sub.typical_ppb != null || sub.p95_ppb != null)) {
+          subs.push({ slug: ing.ingredient, sub })
+        }
+      }
+      if (subs.length) {
+        let lo = Infinity
+        let hi = -Infinity
+        let nStudies = 0
+        const names = []
+        for (const { slug, sub } of subs) {
+          const tl = repLow(sub.typical_ppb)
+          const th = repHigh(sub.typical_ppb)
+          if (tl != null && Number.isFinite(tl) && tl < lo) lo = tl
+          if (th != null && Number.isFinite(th) && th > hi) hi = th
+          const p95 = Number(sub.p95_ppb)
+          if (Number.isFinite(p95) && p95 > hi) hi = p95
+          nStudies += Number(sub.n_studies || 0) || 0
+          names.push(slug)
+        }
+        // Guard the degenerate case: a 0/0 (or non-finite) upper bound means the
+        // ingredient literature reported at or below detection. Emit no numeric
+        // range rather than a misleading "0 to 0 ppb".
+        const usableRange = Number.isFinite(hi) && hi > 0
+        const rangeLow = usableRange && Number.isFinite(lo) ? Math.max(0, lo) : null
+        out.push({
+          row_slug: rowSlug,
+          metal,
+          basis: "ingredient_synthesis",
+          unit: "ppb",
+          range_low: rangeLow,
+          range_high: usableRange ? hi : null,
+          central_low: rangeLow,
+          central_high: usableRange ? hi : null,
+          n_sources: nStudies,
+          confidence: capConfidence(confidenceLabel(nStudies)),
+          tier: "ingredient_synthesis",
+          coverage_note: usableRange
+            ? `No finished-product sampling for ${analyte.label} in this matrix in the corpus yet. The range shown is aggregated from ingredient-level literature synthesis (${names.join(", ")}); treat it as indicative context, not finished-product evidence.`
+            : `Ingredient-level literature for ${analyte.label} in this matrix (${names.join(", ")}) reports values at or below detection; no usable numeric range, but the analyte has been characterized.`,
+          source_summaries: [],
+        })
+      } else {
+        out.push({
+          row_slug: rowSlug,
+          metal,
+          basis: "ingredient_synthesis",
+          unit: "ppb",
+          range_low: null,
+          range_high: null,
+          central_low: null,
+          central_high: null,
+          n_sources: 0,
+          confidence: "data gap",
+          tier: "data_gap",
+          coverage_note: `The corpus carries no finished-product or ingredient-level literature for ${analyte.label} in this matrix yet. ${analyte.remediation_note}`,
+          source_summaries: [],
+        })
+      }
+    }
+  }
+  return out
 }
 
 function parseCsv(text) {

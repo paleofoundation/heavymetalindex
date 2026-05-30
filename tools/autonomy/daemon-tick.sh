@@ -479,10 +479,12 @@ run_step "link orphans" node tools/autonomy/link-orphans.mjs || true
 # matters: build-defense-dossier.mjs JOINS the evidence-packet index (content
 # pins) and the regulations dataset (caps), so both must rebuild first. All
 # three outputs land under the daemon's commit allowlist (data/evidence, wiki).
+run_step "contamination dataset" node tools/build-contamination-dataset.mjs || true
 run_step "evidence-packet index" node tools/build-evidence-packet-index.mjs || true
 run_step "regulations dataset" node tools/build-regulations-dataset.mjs || true
 run_step "defense dossiers" node tools/build-defense-dossier.mjs || true
 run_step "change-watch feed" node tools/build-change-watch.mjs || true
+run_step "lab-comparator context" node tools/evidence/build-lab-comparator-context.mjs || true
 
 # ---------- CHECKPOINT 1: commit the deterministic regeneration phase ----------
 # Everything above (routing audit, page creation, heal-gaps, extraction,
