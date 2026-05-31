@@ -315,14 +315,21 @@ async function main() {
 
     // INGEST first (every cycle) — the core deliverable. With a 274-paper
     // backlog we drain aggressively; fetch only needs to refill periodically.
-    let ingestSummary = ""
+    let ingestSummary = "",
+      ingestDurMs = 0
     try {
       const r = await runIngest()
       ingestSummary = r.summary
+      ingestDurMs = r.durMs
     } catch (e) {
       log(`ingest stage threw (continuing): ${e.message}`)
     }
     const queueEmpty = /queue empty/i.test(ingestSummary)
+    const produced = /ingested\b/.test(ingestSummary) && !/0 ingested/.test(ingestSummary)
+    // A real ingest runs for minutes; a dedup/off-topic skip returns in seconds.
+    // Don't burn 60s sleeping after a skip — churn straight to the next paper so
+    // we reach the novel backlog fast instead of crawling one dupe per minute.
+    const fastSkip = !produced && !queueEmpty && ingestDurMs < 120000
 
     // FETCH on schedule, OR immediately when the queue just ran dry — so the
     // loop refills itself from open gaps and never starves.
@@ -336,7 +343,7 @@ async function main() {
 
     heartbeat(`idle between cycles (last ingest: ${ingestSummary || "—"})`)
     if (stopRequested()) break
-    await sleep(queueEmpty ? CFG.idleSleepMs : CFG.sleepBetweenCyclesMs)
+    await sleep(queueEmpty ? CFG.idleSleepMs : fastSkip ? 5000 : CFG.sleepBetweenCyclesMs)
   }
 
   log("STOP file present — FRANK halting cleanly")
