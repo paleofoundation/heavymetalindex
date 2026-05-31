@@ -83,4 +83,43 @@
     font-size: 0.82rem;
     line-height: 1.45;
   }
+
+  .hmi-cite-share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.85rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--lightgray);
+  }
+
+  .hmi-cite-share-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--gray);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-right: 0.1rem;
+  }
+
+  .hmi-cite-share a,
+  .hmi-cite-share button {
+    font: inherit;
+    font-size: 0.82rem;
+    background: var(--light);
+    color: var(--dark);
+    border: 1px solid var(--lightgray);
+    border-radius: 999px;
+    padding: 0.25rem 0.7rem;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.4;
+
+    &:hover {
+      background: var(--highlight);
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+  }
 }

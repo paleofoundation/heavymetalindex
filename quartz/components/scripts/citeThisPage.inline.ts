@@ -64,6 +64,85 @@ function bind(root: HTMLElement) {
       }
     })
   }
+
+  const flash = (msg: string, ok = true) => {
+    if (!copyStatus) return
+    copyStatus.textContent = msg
+    copyStatus.dataset.state = ok ? "ok" : "error"
+    setTimeout(() => {
+      copyStatus.textContent = ""
+      delete copyStatus.dataset.state
+    }, 3000)
+  }
+
+  const d = root.dataset
+  const title = d.citeTitle ?? ""
+  const url = d.citeUrl ?? ""
+  const year = d.citeYear ?? ""
+  const doi = d.citeDoi ?? ""
+  const today = d.citeToday ?? ""
+  const slug = d.citeSlug ?? "page"
+  const key = `heavymetalindex-${slug.replace(/[^a-z0-9]+/gi, "-").replace(/(^-|-$)/g, "")}`
+
+  const download = (filename: string, text: string, mime: string) => {
+    const blob = new Blob([text], { type: mime })
+    const href = URL.createObjectURL(blob)
+    const a = document.createElement("a")
+    a.href = href
+    a.download = filename
+    document.body.appendChild(a)
+    a.click()
+    a.remove()
+    setTimeout(() => URL.revokeObjectURL(href), 1000)
+  }
+
+  const bibtexButton = root.querySelector("[data-hmi-cite-bibtex]")
+  if (bibtexButton) {
+    bibtexButton.addEventListener("click", () => {
+      const lines = [
+        `@misc{${key},`,
+        `  title        = {${title}},`,
+        `  author       = {{Heavy Metal Index}},`,
+        `  organization = {Paleo Foundation},`,
+        `  year         = {${year}},`,
+        ...(doi ? [`  doi          = {${doi}},`] : []),
+        `  howpublished = {\\url{${url}}},`,
+        `  note         = {Retrieved ${today}. CC BY 4.0.},`,
+        `  url          = {${url}}`,
+        `}`,
+      ]
+      download(`${key}.bib`, lines.join("\n") + "\n", "application/x-bibtex")
+      flash("BibTeX downloaded.")
+    })
+  }
+
+  const risButton = root.querySelector("[data-hmi-cite-ris]")
+  if (risButton) {
+    risButton.addEventListener("click", () => {
+      const lines = [
+        "TY  - ELEC",
+        `TI  - ${title}`,
+        "AU  - Heavy Metal Index",
+        "PB  - Paleo Foundation",
+        `PY  - ${year}`,
+        ...(doi ? [`DO  - ${doi}`] : []),
+        `UR  - ${url}`,
+        `Y2  - ${today}`,
+        "N1  - CC BY 4.0",
+        "ER  - ",
+      ]
+      download(`${key}.ris`, lines.join("\n") + "\n", "application/x-research-info-systems")
+      flash("RIS downloaded.")
+    })
+  }
+
+  const copyLink = root.querySelector("[data-hmi-cite-copylink]")
+  if (copyLink) {
+    copyLink.addEventListener("click", async () => {
+      const ok = await copyText(url)
+      flash(ok ? "Link copied." : "Copy failed.", ok)
+    })
+  }
 }
 
 function setupAll() {

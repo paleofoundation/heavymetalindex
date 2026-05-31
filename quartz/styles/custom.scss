@@ -199,9 +199,22 @@ article h3 {
   margin: 1.5rem 0 0.5rem;
 }
 
+/* The page title is rendered once in the page header (ArticleTitle). Pages
+   whose markdown also opens with an `# H1` of the same title would show it
+   twice, so the duplicate leading H1 is hidden across the reference page
+   types. */
 body[data-slug^="products/"] article > h1:first-child,
 body[data-slug^="ingredients/"] article > h1:first-child,
-body[data-slug^="metals/"] article > h1:first-child {
+body[data-slug^="metals/"] article > h1:first-child,
+body[data-slug^="synthesis/"] article > h1:first-child,
+body[data-slug^="regulations/"] article > h1:first-child,
+body[data-slug^="mitigation/"] article > h1:first-child,
+body[data-slug^="supply-chain/"] article > h1:first-child,
+body[data-slug^="testing/"] article > h1:first-child,
+body[data-slug^="microbiome/"] article > h1:first-child,
+body[data-slug^="health/"] article > h1:first-child,
+body[data-slug^="sources/"] article > h1:first-child,
+body[data-slug^="advisory/"] article > h1:first-child {
   display: none;
 }
 
@@ -2067,5 +2080,78 @@ article tbody td > code:only-child {
 
   .ask-index-button {
     white-space: nowrap;
+  }
+}
+
+/* -----------------------------------------------------------
+   Print
+
+   Brand-legal and regulatory readers print pages as exhibits.
+   Strip the navigation chrome, print the article + its citation
+   card full-width in black on white, and reveal external link
+   URLs so a paper copy stays traceable to its sources.
+   ----------------------------------------------------------- */
+
+@media print {
+  .left.sidebar,
+  .right.sidebar,
+  .ask-index,
+  .search,
+  footer.site-footer,
+  .skip-to-content,
+  .navigation-progress,
+  .hmi-home-nav,
+  .hmi-related,
+  .hmi-cite-actions,
+  .hmi-cite-share,
+  [data-hmi-cite-copy],
+  [data-hmi-cite-bibtex],
+  [data-hmi-cite-ris] {
+    display: none !important;
+  }
+
+  #quartz-root > #quartz-body {
+    display: block !important;
+  }
+
+  .center,
+  main.center {
+    max-width: 100% !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  article,
+  article p,
+  article li,
+  article td,
+  article th {
+    color: #000 !important;
+  }
+
+  article a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+
+  /* Reveal external (http) link targets on paper; internal source-page
+     citations stay clean because they are relative links. */
+  article a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #333;
+    word-break: break-all;
+  }
+
+  .hmi-cite-page {
+    border: 1px solid #000 !important;
+    background: #fff !important;
+  }
+
+  table,
+  figure,
+  .hmi-evidence-header,
+  tr {
+    break-inside: avoid;
   }
 }

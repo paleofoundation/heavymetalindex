@@ -22,6 +22,8 @@ import Footer from "./Footer"
 import ProductEvidenceSummary from "./ProductEvidenceSummary"
 import BrandPreScreenTool from "./BrandPreScreenTool"
 import SourceCitationPanel from "./SourceCitationPanel"
+import EvidenceHeader from "./EvidenceHeader"
+import RelatedPages from "./RelatedPages"
 import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
@@ -54,6 +56,8 @@ export {
   ProductEvidenceSummary,
   BrandPreScreenTool,
   SourceCitationPanel,
+  EvidenceHeader,
+  RelatedPages,
   DesktopOnly,
   MobileOnly,
   RecentNotes,

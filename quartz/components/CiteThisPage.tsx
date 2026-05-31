@@ -97,8 +97,25 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
     ? `Heavy Metal Index. "${title}". ${canonicalUrl} (DOI: ${wikiDoi}). Retrieved ${today}. CC BY 4.0.`
     : `Heavy Metal Index. "${title}". ${canonicalUrl}. Retrieved ${today}. CC BY 4.0.`
 
+  // Year for reference-manager records: prefer the page's updated/established
+  // year, fall back to the retrieval year.
+  const updated = frontmatter
+    ? frontmatterString(frontmatter.updated) ?? frontmatterString(frontmatter.established)
+    : undefined
+  const year = (updated ?? today).slice(0, 4)
+  const shareText = `${title} — Heavy Metal Index`
+
   return (
-    <aside class="hmi-cite-page" aria-label="Cite this page">
+    <aside
+      class="hmi-cite-page"
+      aria-label="Cite this page"
+      data-cite-title={title}
+      data-cite-url={canonicalUrl}
+      data-cite-year={year}
+      data-cite-doi={wikiDoi ?? ""}
+      data-cite-today={today}
+      data-cite-slug={slug as string}
+    >
       <div class="hmi-cite-summary">
         <div>
           <span class="hmi-cite-label">Cite this page.</span>{" "}
@@ -125,7 +142,38 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
         <p data-hmi-cite-text>{citationLine}</p>
         <div class="hmi-cite-detail-copy">
           <button type="button" data-hmi-cite-copy>Copy citation</button>
+          <button type="button" data-hmi-cite-bibtex title="Download a BibTeX record for Zotero, Mendeley, EndNote, or LaTeX.">
+            Download .bib
+          </button>
+          <button type="button" data-hmi-cite-ris title="Download an RIS record for reference managers.">
+            Download .ris
+          </button>
           <span data-hmi-cite-copy-status role="status" aria-live="polite"></span>
+        </div>
+        <div class="hmi-cite-share">
+          <span class="hmi-cite-share-label">Share</span>
+          <button type="button" data-hmi-cite-copylink>Copy link</button>
+          <a
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(canonicalUrl)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            X
+          </a>
+          <a
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonicalUrl)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            href={`mailto:?subject=${encodeURIComponent(shareText)}&body=${encodeURIComponent(
+              canonicalUrl,
+            )}`}
+          >
+            Email
+          </a>
         </div>
         <p class="hmi-cite-note">
           The evidence packet is a JSON manifest pinning this page to its current

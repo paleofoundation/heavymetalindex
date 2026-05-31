@@ -55,7 +55,7 @@ const primaryNavFilter = (node: { slugSegment: string }) => {
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.Corrections(), Component.CiteThisPage()],
+  afterBody: [Component.Corrections(), Component.RelatedPages(), Component.CiteThisPage()],
   footer: Component.Footer(),
 };
 
@@ -75,6 +75,7 @@ export const defaultContentPageLayout: PageLayout = {
     // page is misleading and discouraging rather than informative. The
     // last-updated date is the meta that matters here.
     Component.ContentMeta({ showReadingTime: false }),
+    Component.EvidenceHeader(),
     Component.ProductEvidenceSummary(),
     Component.BrandPreScreenTool(),
     Component.SourceCitationPanel(),
