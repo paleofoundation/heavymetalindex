@@ -69,3 +69,4 @@ hmtc-commercial/
 # FRANK supervisor heartbeat + log (local liveness, not corpus state)
 data/evidence/autonomy/FRANK-status.md
 data/evidence/autonomy/frank.log
+data/evidence/autonomy/frank-sync.log
