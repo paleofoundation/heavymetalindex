@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T22:05:14.156Z
+updated: 2026-05-31T22:27:00.412Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 65 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 403 min ago (stale) |
+| Daemon heartbeat | ⚠️ 425 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 1 ✅ |
+| Audit queue: pending | 2 ✅ |
 | Audit queue: pending-audit-spawn-failed | 82 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 13 |
-| Commits last 24 hours | 114 |
+| Commits last 1 hour | 11 |
+| Commits last 24 hours | 119 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 65 min**
 ## Last commit
 
 ```
-ffe21e6 4 minutes ago — audit-queue: nelson2023-wa-childrens-jewelry-followup → audited-promote/PROMOTE
+a6c7ba0 4 minutes ago — ingest: johnson2012-cpsc-astm-f963-status [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers
 ```
 
 ## How to read this
