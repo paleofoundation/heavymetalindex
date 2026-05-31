@@ -136,3 +136,51 @@ destination folder it was moved to.
   slug was also misled: the paper studies *commercial milk-tea preparations
   flavored as matcha*, not matcha powder itself, so even if Al data existed
   it would not route cleanly to `ingredients/matcha`.
+
+## auto-matcha-pb-product_2022_10-5650-jos-ess22135.pdf
+
+- **Source folder:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/`
+- **Auto-fetch slug intent:** matcha × Pb × product-level occurrence
+- **DOI:** 10.5650/jos.ess22135
+- **Actual paper:** Shirai N (2022). "Organic Acid Analysis in Green Tea
+  Leaves Using High-performance Liquid Chromatography." *Journal of Oleo
+  Science* (J-STAGE Advance Publication 2022-08-15). Single-author study,
+  National Food Research Institute (NARO), Tsukuba, Japan. CC BY 4.0.
+- **Why rejected:** Off-topic. The paper measures the content of five
+  *organic acids* — quinic, oxalic, malic, succinic, and citric — in
+  Japanese green tea varieties (Sencha, Gyokuro, Matcha, Kukicha, Asatsuyu,
+  Okumidori, Okuyutaka, Kanayamidori, Saeakari, Saemidori, Sofu,
+  Harumidori, Yabukita) using reverse-phase HPLC with phenacyl-bromide
+  derivatization and UV detection at 254 nm. There are zero heavy-metal
+  measurements in the paper. No Pb, Cd, As, Hg, Ni, Al, Cr, Sn, or Sb is
+  quantified, mentioned in methods, or referenced in the abstract or
+  keywords. The instrument (Wakopack 5C8 HG C8 column, UV-880 detector)
+  has no metal-analysis capability; there is no acid digestion, no ICP-MS,
+  no AAS, no AFS, no XRF, no anodic stripping voltammetry. The reagents
+  list (oxalic acid, malic acid, succinic acid, citric acid, metaphosphoric
+  acid, acetone, methanol, acetonitrile, triethylamine, phenacyl bromide,
+  quinic acid, butyric acid) is purely organic chemistry. Author keywords:
+  green tea, oxalic acid, organic acid, quinic acid, citric acid. The
+  paper measures plant secondary metabolites for tea-quality grading and
+  potential bioactivity; the closest it gets to a metal-related substance
+  is "metaphosphoric acid" used as a sample-extraction solvent.
+- **Action:** Moved PDF to
+  `raw/manual-fetch/seasonal-geographic-variance/skipped/skip_no-heavy-metal-data/`.
+  Not ingested, not committed, no wiki source page created.
+- **Upstream signal:** This is the second consecutive `auto-matcha-*` false
+  positive from the same auto-fetched batch (after `ajlsi.v4i2.5050`
+  above). Neither paper contains heavy-metal occurrence data; both were
+  pulled under matcha-metal slugs by the discover scorer. The pattern
+  suggests the matcha-Pb (and matcha-Al) queries hit on metadata-level
+  keyword associations — perhaps a co-occurrence of "matcha" with broader
+  food-chemistry / green-tea-composition language in the OpenAlex tags or
+  abstract index — rather than on actual heavy-metal-occurrence content.
+  Recommendation: when the discover scorer ranks candidates under a
+  matcha × metal slug, prefer papers whose abstracts contain at least one
+  of {Pb, lead, Cd, cadmium, As, arsenic, Hg, mercury, heavy metal,
+  trace element, ICP, AAS, AFS} as an early filter. Papers whose
+  abstracts contain only organic-chemistry language (HPLC + organic acids,
+  catechins, flavonoids, amino acids, antioxidant assay) almost certainly
+  do not carry heavy-metal occurrence data and should be deprioritized
+  before download. Two consecutive false positives from the same
+  auto-fetched batch is enough signal to act on.
