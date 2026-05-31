@@ -28,6 +28,7 @@
 HMI_LOCK_REPO_ROOT="${HMI_LOCK_REPO_ROOT:-$(git rev-parse --show-toplevel 2>/dev/null)}"
 HMI_LOCK_DIR="${HMI_LOCK_REPO_ROOT}/.git/hmi-commit.lock.d"
 HMI_LOCK_STALE_SECS="${HMI_LOCK_STALE_SECS:-300}" # 5 minutes — any healthy commit finishes well within this
+HMI_LOCK_OWNERLESS_GRACE="${HMI_LOCK_OWNERLESS_GRACE:-15}" # secs an ownerless lock dir may exist before it is treated as a dead holder (see acquire_lock)
 HMI_LOCK_HELD_BY_THIS_SHELL=0
 
 acquire_lock() {
@@ -60,6 +61,25 @@ acquire_lock() {
       # Also reclaim if the holding pid is no longer alive
       if [[ -n "$lock_pid" ]] && ! kill -0 "$lock_pid" 2>/dev/null; then
         echo "hmi-commit-lock: reclaiming abandoned lock (pid=$lock_pid is dead)" >&2
+        rm -rf "$HMI_LOCK_DIR" 2>/dev/null || true
+        continue
+      fi
+    else
+      # Lock dir exists but has NO owner file. This is the deadlock observed
+      # 2026-05-31: a holder was SIGTERM'd ("Terminated: 15" in the daemon err
+      # log) in the window between mkdir (above) and writing the owner file,
+      # leaving an ownerless lock. Both reclaim paths above are gated on
+      # `-f owner`, so without this branch the lock could NEVER be reclaimed —
+      # every daemon tick deferred forever with "held by: unknown" until a
+      # human deleted .git/hmi-commit.lock.d by hand. A healthy holder writes
+      # the owner file microseconds after mkdir, so an ownerless dir older than
+      # the grace window means the creator died: reclaim it.
+      local dir_mtime now_o dir_age
+      dir_mtime=$(stat -f %m "$HMI_LOCK_DIR" 2>/dev/null || echo 0)
+      now_o=$(date +%s)
+      dir_age=$((now_o - dir_mtime))
+      if [[ "$dir_mtime" -gt 0 && "$dir_age" -gt "$HMI_LOCK_OWNERLESS_GRACE" ]]; then
+        echo "hmi-commit-lock: reclaiming ownerless lock (no owner file after ${dir_age}s — holder died before claiming)" >&2
         rm -rf "$HMI_LOCK_DIR" 2>/dev/null || true
         continue
       fi
