@@ -22,7 +22,7 @@ matrices: []
 jurisdictions: [MY]
 near_duplicates: []
 sample_n: 8
-sample_population: "Eight infant-contact products purchased from Malaysian retail in 2016 for comparative consumer testing: six pacifiers/soothers (Symmetrical Soother, Silicone Baby Pacifiers, Baby Soother, Silicone Soother, Silicone Soother with Cover, BPA-Free Silicone Pacifier-Orthodontic Nipple), one sippy cup, and one 3-in-1 nursing cup. All brand names, manufacturer/distributor identities, places of purchase, and analytical laboratory identities are redacted (blanked out) in the published PDF. Unit prices ranged RM 2.70 to RM 7.60. Tested for: bisphenol A (one laboratory), phthalates (seven compounds, USEPA 3570/8270 C), and nitrosamines (eleven compounds including N-nitrosomethylethylamine, N-nitrosodiethylamine, N-nitrosopyrrolidine, N-nitrosomorpholine, N-nitrosodi-n-propylamine, N-nitrosopiperidine, N-nitrosodibutylamine, diphenylamine, diallate, methapyrilene)."
+sample_population: "Eight infant-contact products purchased from Malaysian retail in 2016 for comparative consumer testing: six pacifiers/soothers (Symmetrical Soother, Silicone Baby Pacifiers, Baby Soother, Silicone Soother, Silicone Soother with Cover, BPA-Free Silicone Pacifier-Orthodontic Nipple), one sippy cup, and one 3-in-1 nursing cup. All brand names, manufacturer/distributor identities, places of purchase, and analytical laboratory identities are redacted (blanked out) in the published PDF. Unit prices ranged RM 2.70 to RM 7.60. Tested for: bisphenol A (one laboratory), phthalates (six compounds, USEPA 3570/8270 C), and nitrosamines (ten compounds including N-nitrosomethylethylamine, N-nitrosodiethylamine, N-nitrosopyrrolidine, N-nitrosomorpholine, N-nitrosodi-n-propylamine, N-nitrosopiperidine, N-nitrosodibutylamine, diphenylamine, diallate, methapyrilene)."
 updated: 2026-06-01
 ingest_method: manual_fetch_v2
 created_by: claude-opus-4-7
@@ -30,7 +30,7 @@ created_by: claude-opus-4-7
 
 # Malaysian Association of Standards Users 2016 — Comparative testing of pacifiers and sippy cups for bisphenol A, phthalates, and nitrosamines (Malaysia)
 
-This Malaysian Association of Standards Users (Standards Users) comparative consumer-testing report documents the survey of eight infant-contact products (six pacifiers/soothers, one sippy cup, one 3-in-1 nursing cup) purchased from Malaysian retail in 2016 and submitted to two accredited laboratories for bisphenol A (BPA), seven phthalate esters, and eleven N-nitrosamine compounds. All three analyte classes were reported as Not Detected across all eight samples at the laboratories' stated limits of reference (BPA limit of detection 0.5 ng/mL; phthalates limit of reference 0.5 and 5 mg/kg; nitrosamines limit of reference 0.5 and 1 mg/kg). The report does **not** test heavy metals in the eight samples. Heavy metals enter the report only as regulatory context: Tables 1 and 2 transcribe the soluble-element migration limits from Denmark (based on EN 71-3, applied to soothers) and from Malaysian standard MS 1156:1989 (Specification for Babies' Pacifiers), and the body discusses the absence of Malaysian regulatory coverage for pacifiers, sippy cups, replacement nipples, teethers, and infant-food receptacles for nitrosamine/phthalate/BPA content. The HMI value of this source is therefore (i) a B-tier confirmation of zero BPA/phthalate/nitrosamine detections in an eight-product Malaysian retail sample of pacifiers and sippy cups (relevant to infant-contact product context, though outside the HMI analyte panel), and (ii) a regulatory-context transcription of the Danish EN 71-3 and Malaysian MS 1156:1989 element-migration limits relevant to pacifier and soother heavy-metals regulation.
+This Malaysian Association of Standards Users (Standards Users) comparative consumer-testing report documents the survey of eight infant-contact products (six pacifiers/soothers, one sippy cup, one 3-in-1 nursing cup) purchased from Malaysian retail in 2016 and submitted to two accredited laboratories for bisphenol A (BPA), six phthalate esters, and ten N-nitrosamine compounds. All three analyte classes were reported as Not Detected across all eight samples at the laboratories' stated limits of reference (BPA limit of detection 0.5 ng/mL; phthalates limit of reference 0.5 and 5 mg/kg; nitrosamines limit of reference 0.5 and 1 mg/kg). The report does **not** test heavy metals in the eight samples. Heavy metals enter the report only as regulatory context: Tables 1 and 2 transcribe the soluble-element migration limits from Denmark (based on EN 71-3, applied to soothers) and from Malaysian standard MS 1156:1989 (Specification for Babies' Pacifiers), and the body discusses the absence of Malaysian regulatory coverage for pacifiers, sippy cups, replacement nipples, teethers, and infant-food receptacles for nitrosamine/phthalate/BPA content. The HMI value of this source is therefore (i) a B-tier confirmation of zero BPA/phthalate/nitrosamine detections in an eight-product Malaysian retail sample of pacifiers and sippy cups (relevant to infant-contact product context, though outside the HMI analyte panel), and (ii) a regulatory-context transcription of the Danish EN 71-3 and Malaysian MS 1156:1989 element-migration limits relevant to pacifier and soother heavy-metals regulation.
 
 ## Key numbers
 
@@ -61,7 +61,7 @@ All eight samples returned **Not Detected (ND)** for all three analyte classes:
 
 ### Phthalate analyte panel (Figure 1, p. 12)
 
-USEPA Method 3570 (extraction) and USEPA Method 8270 C (GC-MS determination) applied to seven phthalate esters:
+USEPA Method 3570 (extraction) and USEPA Method 8270 C (GC-MS determination) applied to six phthalate esters:
 
 | Phthalate | LOR (mg/kg) | Result (all samples) |
 | --- | ---: | --- |
@@ -72,11 +72,11 @@ USEPA Method 3570 (extraction) and USEPA Method 8270 C (GC-MS determination) app
 | Bis(2-ethylhexyl) phthalate | 5 | ND (<5) |
 | Di-n-octyl phthalate | 0.5 | ND (<0.5) |
 
-(Six phthalates reported in the Figure 1 panel; the seventh — diethyl phthalate — appears alongside the others in the body, total = 6 phthalate esters in the analytical panel; the report frames this as "phthalates" without specifying full DEHP/DBP/BBP/DMP/DEP/DnOP nomenclature outside the figure.)
+(The report frames this as "phthalates" without using the DEHP/DBP/BBP/DMP/DEP/DnOP shorthand nomenclature in the body text outside Figure 1.)
 
 ### Nitrosamine analyte panel (Figure 1, p. 12)
 
-USEPA Method 3570 (extraction) and USEPA Method 8270 C (GC-MS determination) applied to eleven compounds reported in the nitrosamine block:
+USEPA Method 3570 (extraction) and USEPA Method 8270 C (GC-MS determination) applied to ten compounds reported in the nitrosamine block:
 
 | Compound | LOR (mg/kg) | Result (all samples) |
 | --- | ---: | --- |
@@ -203,3 +203,4 @@ No heavy metal analysis was performed on the eight samples. The element migratio
 - **Authorship redaction.** The named laboratories (Laboratory 1 for phthalates/nitrosamines; Laboratory 2 = "Centre for Xenobiotics Studies" for BPA) are redacted in the PDF. The parent institution of the Centre for Xenobiotics Studies appears blanked out in the same line and is not transcribed.
 - **Near-duplicates.** None identified in the corpus at this writing. The Sen et al. PubMed citation in footnote 3 (non-volatile N-nitrosamines in baby bottle nipples) and the *Food and Chemical Toxicology* 1985 citation in footnote 2 are background literature references, not corpus entries; they are not ingested in this commit.
 - **Raw integrity.** raw_sha256 = 237ff89f151013e986450ee11f9d57ca8cbb8a1ef7f2e0f77edcae96186110f6 verified by `shasum -a 256` against the file at `raw_path`.
+- **Audit subagent (2026-06-01) flagged the analyte-panel counts; verified against Figure 1 (p. 12) — corrected to six phthalate esters (Dimethyl, Diethyl, Di-n-butyl, Butyl benzyl, Bis(2-ethylhexyl), Di-n-octyl) and ten nitrosamine compounds (N-Nitrosomethylethylamine, N-Nitrosodiethylamine, N-Nitrosopyrrolidine, N-Nitrosomorpholine, N-Nitrosodi-n-propylamine, N-Nitrosopiperidine, N-Nitrosodibutylamine, Diphenylamine, Diallate, Methapyrilene). The earlier draft asserted "seven phthalates" and "eleven nitrosamines" in prose, which conflicted with the body tables that already listed 6 and 10 respectively, and with the Figure 1 ANALYSIS RESULTS panel on p. 12.**
