@@ -1038,3 +1038,50 @@ Two independent reasons to skip:
 This is the third tracker hit for the same mislabeled Kimi copy of the "nickel-in-Zhejiang" filename (after the MFK_ root stop on 2026-05-28T10:46Z and the May 21 KADC tree de-dup row 1484 stop on 2026-05-31T17:59Z, both also SHA `834ecab6…fbd8`). The 03_Olives_and_Pickles KADC sub-tree now has three confirmed-skip PDFs in this single sweep (FDA TDS Elements SHA-collision, Vella olives SHA-collision, Han-named/Messia-content Kimi-corruption mislabel) and one Kimi-corruption wrong-PDF case; the recovery yield from this specific sub-tree continues to trend toward zero net novel pages — consistent with the broader signal that condiment_papers/03_Olives_and_Pickles is fully covered by canonical MFK_/MR_ ingests and the KADC copies are noise.
 
 **Final line:** `STOP: kimi-corruption-wrong-pdf KADC_occurrence-and-exposure-assessment-of-nickel-in-zh (bytes are Messia 2023 gluten-free pasta; intended Han 2024 nickel paper already ingested at han2024-nickel-zhejiang-china.md from the genuine Manual Resourcing PDF)`
+
+---
+
+## 2026-05-31T22:18Z — KADC_exposure-assessment-of-dietary-cadmium-findings-fr (page already current)
+
+Tracker row 948, `condiment_papers/04_Condiments_and_Sauces/Exposure assessment of dietary cadmium_ findings from Shanghainese over 40 years, China.pdf`. Manual-fetch wrapper fed this PDF to skill v2.0; identity checks resolved to an existing post-2026-05-14-clean wiki page; no merge-enhance work needed; skill's skip rule applied.
+
+### Identity evidence
+
+- SHA-256 of KADC PDF: `956c9541f33baa3285a733b5626e744a2b340a8db210ca0d823d151310f4855a`.
+- PDF page-1 + page-9 content verified: He et al. 2013, *BMC Public Health* 13:590, DOI `10.1186/1471-2458-13-590`, CC BY. Not a Kimi-corruption mislabel — bytes match filename.
+- DOI grep (`10.1186/1471-2458-13-590`) returns single hit: `wiki/sources/he2013-shanghai-cadmium.md`.
+- Cite-key grep (`he2013` / `shanghai`) returns single hit: same page.
+- Raw_handle grep (`KADC_exposure-assessment-of-dietary-cadmium`) returns 0 hits — the existing page was ingested under `raw_handle: manual-fetch-kimi` from the canonical MFK_ sibling, not from a KADC re-fetch.
+
+### Existing page state
+
+- `wiki/sources/he2013-shanghai-cadmium.md`, `updated: 2026-05-28`, post-2026-05-14 cutoff.
+- Routing audit status: in `routing_malformed.csv` at `advisory` severity (`missing_advisory: products`, note: "Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible"). Not in `routing_unresolved.csv`.
+- The advisory entry is **explicitly documented as intentional** in the page's verification notes (line 166): `products: []` is the correct frontmatter for this exposure-assessment paper because the source measures cadmium in food categories sampled from Shanghai dietary intake, not packaged consumer products; the routing layer routes to ingredient and metal pages, which is the appropriate destination set.
+- Prior Phase 2 audit (2026-05-28, fresh-context subagent, verdict REVISE) applied three ⚠️→fix findings (Table 6 regulatory-comparison direction reversal, Peanut row added, Stem/root vegetables EFSA cell corrected to "—"); audit checks 1–4 returned clean ✅; Check 5 (Part 2 wiki/HMTc firewall) had the Table 6 direction-reversal as its principal concern, now resolved.
+
+### Spot-verification against PDF (re-read in this session, 2026-05-31)
+
+To confirm the 2026-05-28 audit pass remains accurate (not stale):
+
+- **Sensitivity analysis ordering** (page line 119, PDF p. 7 body prose): page reports `tobacco Cd level 27.5% > tobacco consumption 24.9% > vegetable Cd 20.2% > rice Cd 14.6%`. PDF p. 7 body: "The food items with the highest sensitivity were tobacco cadmium level (27.5%), tobacco consumption (24.9%), vegetables (20.2%) and rice (14.6%)." ✓ Matches. (The PDF abstract lists the labels in the opposite order — "tobacco consumption, tobacco cadmium level…" — but the body prose is the authoritative source and the page correctly follows the body.)
+- **Table 5 probabilistic distributions** (page lines 113–117 vs PDF p. 8 Table 5): Total 23.05/18.24/18.02/6.8–55.1/1.7–376.0 ✓; Men 28.49/22.20/23.05/7.7–69.0/1.5–457.8 ✓; Women 14.05/10.62/12.66/4.2–34.5/1.3–314.0 ✓; Smokers 32.74/25.78/25.83/9.6–78.3/2.8–556.1 ✓; Non-smokers 13.23/9.63/12.72/3.6–34.0/1.0–356.44 ✓. All five rows match exactly.
+- **Table 6 regulatory MLs** (page lines 125–137 vs PDF p. 9 Table 6): Rice/soybean 0.2/0.2/0.4 ✓; Wheat 0.1/0.2/0.2 ✓; Other cereals 0.1/0.1/0.1 ✓; Peanut 0.5/0.1/0.1 ✓ (the 2026-05-28 audit-applied row); Stem/root vegetables 0.1/—/0.1 ✓ (the 2026-05-28 audit-applied EFSA "—"); Leaf vegetables 0.2/0.2/0.2 ✓; Meat 0.1/0.05/0.05 ✓; Liver 0.5/0.5/0.5 ✓; Kidney 1/1/1 ✓; Muscle fish 0.1/0.05/0.05–1 ✓; Crustaceans —/0.5/0.5–1 ✓; Bivalves —/1/2 ✓; Egg 0.05/—/— ✓. All present rows match exactly.
+- **Abstract-level headline numbers** (page line 32 vs PDF p. 1 abstract): mean total environmental Cd exposure 16.7 µg/day (33.8% PTDI) ✓; dietary 25.8% PTDI ✓; tobacco 7.9% PTDI ✓; probabilistic-model 93.4% below PTDI ✓; positive correlations BCd–environmental R=0.52 P<0.01, tobacco-Cd–BCd R=0.26 P=0.049, UCd–age R=0.15 P=0.037 ✓.
+- **Table 6 row omissions**: The page omits three vegetable-related rows from PDF Table 6 — "Vegetables and fruit, excluding leaf" (China 0.05 / EFSA 0.05 / WHO 0.05), "Vegetables, fresh herbs, fungi, stem" (no values), and "Vegetables, root vegetables, and potatoes" (no values). The two no-value rows are non-informative subheaders; the "Vegetables and fruit, excluding leaf" row IS substantive but does not appear to bear on any of the study's reported food categories (the study's "Fresh vegetable" sampling pool corresponds to the leaf-vegetable / stem-vegetable rows that ARE included). Not flagged as a material defect by the 2026-05-28 audit. Left as-is.
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+The existing page is **post-2026-05-14 and substantively clean**. The advisory-only routing-malformed entry is intentional and documented. The skill's skip rule ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed") applies in spirit: the page is current per the most recent fresh-context audit, the advisory entry is the correct frontmatter for the paper's study design, and a merge-enhance pass would have no material changes to apply.
+
+### Action taken
+
+- Tracker row 948 (`KADC_exposure-assessment-of-dietary-cadmium-findings-fr`) flipped from `unprocessed` to `stopped`, with `cite_key=he2013-shanghai-cadmium` recorded so future ticks can resolve the identity back to the canonical page.
+- No new ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit + this stop note.
+- The canonical `he2013-shanghai-cadmium.md` page is unchanged; the 2026-05-28 merge-enhance + audit-application pass remains the canonical version.
+
+### Upstream signal
+
+This is the same "KADC sibling resolves to an already-canonical MFK_ ingest" pattern seen across 03_Olives_and_Pickles. 04_Condiments_and_Sauces now has its first confirmed-clean KADC skip (this row). If subsequent 04 sub-tree PDFs continue to resolve to clean MFK_ canonical pages, the recovery yield from KADC condiment_papers/04 will also trend toward zero, consistent with the corpus-level signal that the KADC tree is largely a duplicate of canonical MFK_/MR_ coverage.
+
+**Final line:** `STOP: page-already-current KADC_exposure-assessment-of-dietary-cadmium-findings-fr (resolves to he2013-shanghai-cadmium.md, updated 2026-05-28, audited REVISE, advisory-only routing entry intentional for exposure-assessment design)`
