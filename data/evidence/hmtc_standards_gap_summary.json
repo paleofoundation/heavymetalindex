@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T13:51:59.191Z",
+  "generated_at": "2026-05-30T19:49:54.095Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "dirty_standard_percentile": "p45",
@@ -12,25 +12,26 @@
     "data/evidence/category5_apple_juice_arsenic_speciation_summary.csv",
     "data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv"
   ],
-  "total_gap_rows": 559,
-  "rows_in_locked_hmtc_scope": 431,
+  "total_gap_rows": 567,
+  "rows_in_locked_hmtc_scope": 439,
   "rows_outside_locked_hmtc_scope": 128,
   "by_aggregate_status": {
-    "POOLING ENGINE PENDING: ready for pooling math": 72,
+    "POOLING ENGINE PENDING: ready for pooling math": 61,
     "POOLING ENGINE PENDING: single poolable source": 83,
-    "BLOCKED: no structured evidence loaded": 236,
-    "BLOCKED: local extraction pending": 23,
+    "BLOCKED: no structured evidence loaded": 233,
     "OUT OF SCOPE: not a locked HMTc standards row": 102,
-    "BLOCKED: PDF match review pending": 14,
+    "BLOCKED: PDF match review pending": 16,
+    "BLOCKED: local extraction pending": 32,
     "BLOCKED: species-specific evidence missing": 3,
+    "POOLING ENGINE PENDING: process local extraction backlog first": 11,
     "CONTEXT ONLY: not a locked HMTc standards row": 26
   },
   "by_standard_percentile_target": {
     "clean_p97_pooled": 91,
-    "independent_p97_pooled": 340,
+    "independent_p97_pooled": 348,
     "not_applicable": 128
   },
-  "rows_with_pending_local_extracts": 23,
+  "rows_with_pending_local_extracts": 46,
   "rows_with_missing_pdfs": 1,
   "rows_with_local_candidate_values": 0,
   "rows_with_context_dispositions": 0,
