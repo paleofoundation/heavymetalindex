@@ -166,6 +166,26 @@ run_step() {
   fi
 }
 
+# run_bounded SECS CMD... — run CMD under a wall-clock bound, SIGKILLing its
+# WHOLE process group on overrun (not just the parent, so npm->node children
+# die too). macOS ships no `timeout`/`gtimeout`/`setsid`, so this uses perl:
+# fork, put the child in its own process group (setpgrp), alarm(SECS), and on
+# timeout kill("-KILL", pid) the negative pid = the group. Returns the child's
+# real exit code on a clean finish, or 124 on timeout. Added 2026-05-31 after
+# the unbounded gap-driven wishlist step hung on exit and wedged a tick ~18h.
+run_bounded() {
+  local secs="$1"; shift
+  perl -e '
+    my $t = shift @ARGV;
+    my $pid = fork();
+    if ($pid == 0) { setpgrp(0,0); exec @ARGV; exit 127; }
+    $SIG{ALRM} = sub { kill("-KILL", $pid); exit 124; };
+    alarm $t;
+    waitpid($pid, 0);
+    exit($? >> 8);
+  ' "$secs" "$@"
+}
+
 # checkpoint_commit — commit the daemon's accumulated work MID-TICK so a
 # later kill does not strand it.
 #
@@ -600,7 +620,14 @@ if [[ "$FETCH_ENABLED" == "always" ]] || { [[ "$FETCH_ENABLED" == "1" ]] && [[ "
     # cocoa anchors as cell-level n_studies queries) and rotates across
     # Karen's priority categories 11→9→8→7→6→5→4→3→2. The manual path
     # remains available via `npm run wishlist:fetch` for one-off use.
-    run_step "wishlist fetch (gap-driven)" npm run wishlist:gap-driven  || true
+    # BOUNDED (2026-05-31): the gap-driven fetcher prints "complete" then hangs
+    # on process exit (open handle keeps node alive). With no `timeout` binary
+    # on macOS, an unbounded run wedged the entire tick ~18h (PID 11318,
+    # 2026-05-30 -> 31), freezing the manual-fetch drain. run_bounded SIGKILLs
+    # the step (and its child tree) at 20m so the tick finishes and KeepAlive
+    # starts a fresh one. The fetcher's own FETCH_BUDGET_MS (15m) still governs
+    # useful work; the 20m wall-clock only catches the post-fetch exit hang.
+    run_step "wishlist fetch (gap-driven, bounded 20m)" run_bounded 1200 npm run wishlist:gap-driven || true
   else
     log "Queue above floor — skipping fetch, focusing on drain."
   fi
