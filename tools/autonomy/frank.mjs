@@ -205,7 +205,19 @@ function scoreboard() {
 
 // ------------------------------------------------------------- heartbeat
 
+// Last "doing now" message + when it started, so the periodic heartbeat (and
+// the mid-stage refresh timer) can show live elapsed time during a long stage
+// instead of a frozen timestamp. Call heartbeat() with no arg to just refresh.
+let _doing = "starting up"
+let _doingSince = Date.now()
+
 function heartbeat(doingNow) {
+  if (doingNow !== undefined) {
+    _doing = doingNow
+    _doingSince = Date.now()
+  }
+  const elapsedMin = Math.round((Date.now() - _doingSince) / 60000)
+  const doingLine = elapsedMin >= 2 ? `${_doing} — ${elapsedMin}m elapsed` : _doing
   let sb
   try {
     sb = scoreboard()
@@ -219,7 +231,7 @@ function heartbeat(doingNow) {
   const md = `# FRANK — autonomous ingest status
 
 **Alive.** Last beat: ${new Date().toLocaleString()} (cycle ${cycle})
-**Doing now:** ${doingNow}
+**Doing now:** ${doingLine}
 
 > If this timestamp is more than ~45 minutes old, FRANK is stuck. Tell Claude: "FRANK is stuck."
 > To pause FRANK: \`touch ~/.frank.STOP\`. To resume: \`rm ~/.frank.STOP\`.
@@ -287,6 +299,15 @@ async function main() {
       process.exit(0)
     })
   }
+
+  // Liveness timer: refresh the heartbeat every ~2.5 min even mid-stage, so a
+  // long ingest shows "…— 14m elapsed" instead of a frozen 25-min-old beat.
+  // unref()'d so it never keeps the process alive on its own.
+  setInterval(() => {
+    try {
+      heartbeat()
+    } catch {}
+  }, 150 * 1000).unref()
 
   while (!stopRequested()) {
     cycle++
