@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dish-soaps-manual",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3fade93f3e22d92a361d2703ce2a6a65b52d0dc8bf2ca970d43fad86de34f6d0",
-      "content_bytes": 7578,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "3d974bdec34e2ef3d29a85830d32d82c22a91159866db990a74af684a778a881",
+      "content_bytes": 7488,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/dish-soaps-manual.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/dish-soaps-manual.md | sha256sum"
     }
   },
   "evidence_base": {

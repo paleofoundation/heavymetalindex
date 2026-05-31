@@ -2,7 +2,7 @@
 source_page: wiki/products/root-tuber-vegetables.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0c438653193496224547d1cca7c7413e1cd3f0282b225a3dcd621e6f6b696347
+source_page_sha256: dbb0293a6acba534919ecec007ecd7df2702f1591eeb1564b5045d2c3e985280
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 209
+audit_log_total_rows: 479
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 209 |
+| audit log rows read | 479 |
 
 ## Page-level audit rows
 

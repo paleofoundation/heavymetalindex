@@ -146,6 +146,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [994d30e](https://github.com/paleofoundation/heavymetalindex/commit/994d30e) | 2026-05-30 | audit: jabar2019-heavy-elements-water-diyala-iraq revised |
 | [cbc0f85](https://github.com/paleofoundation/heavymetalindex/commit/cbc0f85) | 2026-05-30 | ingest: jabar2019-heavy-elements-water-diyala-iraq fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |

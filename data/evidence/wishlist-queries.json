@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-30T19:50:50.885Z",
+  "generated_at": "2026-05-31T16:24:04.719Z",
   "source": "gap-driven (build-targeted-queries.mjs)",
-  "total_candidates": 2999,
-  "emitted": 2999,
+  "total_candidates": 3003,
+  "emitted": 3000,
   "cap": 3000,
   "breakdown": {
     "hmtc_blocked": 284,
     "autonomy_gap_driven": 2500,
-    "ingredient_pending": 215
+    "ingredient_pending": 219
   },
   "queries": [
     {
@@ -86357,6 +86357,37 @@
       }
     },
     {
+      "id": "ING-infant-formula-Al",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "infant formula aluminum concentration",
+      "search_query_full": "infant formula aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "infant formula"
+        ],
+        "regions": [],
+        "metals": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "metal_search_terms": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "infant-formula",
+        "metal": "Al",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
       "id": "ING-infant-formula-Cd",
       "section": "ingredient-cell-pending",
       "priority": "medium",
@@ -86499,6 +86530,37 @@
         "kind": "ingredient",
         "slug": "infant-formula",
         "metal": "Pb",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-infant-formula-powder-tHg",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "infant formula powder mercury concentration",
+      "search_query_full": "infant formula powder mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "infant formula powder"
+        ],
+        "regions": [],
+        "metals": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "metal_search_terms": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "infant-formula-powder",
+        "metal": "tHg",
         "status": "pending",
         "n_studies": 0
       }
@@ -89016,6 +89078,64 @@
       }
     },
     {
+      "id": "ING-non-root-vegetables-Cd",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "non root vegetables cadmium concentration",
+      "search_query_full": "non root vegetables cadmium OR Cd (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "non root vegetables"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "non-root-vegetables",
+        "metal": "Cd",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-non-root-vegetables-Pb",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "non root vegetables lead concentration",
+      "search_query_full": "non root vegetables lead OR Pb (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "non root vegetables"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "non-root-vegetables",
+        "metal": "Pb",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
       "id": "ING-pear-juice-Al",
       "section": "ingredient-cell-pending",
       "priority": "medium",
@@ -90803,97 +90923,6 @@
         "kind": "ingredient",
         "slug": "vegetables-mixed",
         "metal": "Pb",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-Sn",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed tin concentration",
-      "search_query_full": "vegetables mixed tin OR Sn (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "tin",
-          "Sn"
-        ],
-        "metal_search_terms": [
-          "tin",
-          "Sn"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
-        "metal": "Sn",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-tAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed arsenic concentration",
-      "search_query_full": "vegetables mixed arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
-        "metal": "tAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-tHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed mercury concentration",
-      "search_query_full": "vegetables mixed mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "metal_search_terms": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
-        "metal": "tHg",
         "status": "pending",
         "n_studies": 0
       }

@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-bottles.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e7491d62d0edb5b6a0f3b67373017f9edd3a15f92f9460b787f36ab5abe540f8
+source_page_sha256: 26d9f7611e3f7cf0d8c1bc066bd5f53b18e9cadaf8e9efb0baa29b77911e0209
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 209
+audit_log_total_rows: 479
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 209 |
+| audit log rows read | 479 |
 
 ## Page-level audit rows
 

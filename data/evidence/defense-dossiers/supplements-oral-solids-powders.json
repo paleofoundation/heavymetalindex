@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e54d7c463b8b417375a362caa389703711ff155688fd7ca11b50d0db7d072cc8",
-      "content_bytes": 7717,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "62f5ee2f1bbed0787d0e3970ffa557cadcd6e4a8bf79419ae3756cb90d227b97",
+      "content_bytes": 7627,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/supplements-oral-solids-powders.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/supplements-oral-solids-powders.md | sha256sum"
     }
   },
   "evidence_base": {

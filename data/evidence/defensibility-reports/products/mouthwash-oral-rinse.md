@@ -2,7 +2,7 @@
 source_page: wiki/products/mouthwash-oral-rinse.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 360b4dfd2a9bbb50319f6e3da061f399137ada889a27b48d9e954cb1ae6b99be
+source_page_sha256: 3d49dc2726954141b6c0184c3e0d2c7cb04a98d6d8e7fe89a06fbf330b4ef788
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 209
+audit_log_total_rows: 479
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 209 |
+| audit log rows read | 479 |
 
 ## Page-level audit rows
 

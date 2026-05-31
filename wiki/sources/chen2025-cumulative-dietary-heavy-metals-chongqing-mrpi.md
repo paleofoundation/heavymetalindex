@@ -175,9 +175,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [0d1769e](https://github.com/paleofoundation/heavymetalindex/commit/0d1769e) | 2026-05-29 | audit: chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi [revised] |
 | [7e61bb8](https://github.com/paleofoundation/heavymetalindex/commit/7e61bb8) | 2026-05-29 | ingest: chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi [enhanced] from Manual Fetch Kimi |
-| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 <!-- END: hmi-page-history -->

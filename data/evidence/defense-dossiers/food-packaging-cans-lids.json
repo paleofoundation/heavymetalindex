@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-cans-lids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9d5dc24bc7e27f74212f77dc7819ddad7b54b628bef125b2ad8a903915ac48be",
-      "content_bytes": 7549,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "6d3c7edf36c0ab121089516f9b874d93c3f084cd33f7b2a13835db79277aaf60",
+      "content_bytes": 7459,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/food-packaging-cans-lids.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/food-packaging-cans-lids.md | sha256sum"
     }
   },
   "evidence_base": {

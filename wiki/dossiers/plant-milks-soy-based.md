@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:ddbe57d6caac3840668e52ad71abbd98…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:55e366966d2b74f0eb645d1279f834ff…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=plant-milks-soy-based&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/plant-milks-soy-based&download=1`.
 
 ## Evidence base
 
-This category is supported by 2 contributing literature sources mapped by the routing layer, of which 1 carry structured concentration values. The page makes 27 numerical claims; 19 of them trace to an in-section cited source, leaving 8 that do not yet trace to an in-section source and are flagged for synthesis.
+This category is supported by 3 contributing literature sources mapped by the routing layer, of which 1 carry structured concentration values. The page makes 27 numerical claims; 19 of them trace to an in-section cited source, leaving 8 that do not yet trace to an in-section source and are flagged for synthesis.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/plant-milks-soy-based.md`.
 

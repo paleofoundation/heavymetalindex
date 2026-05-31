@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:7fa78139fc31a75d880cae75f835548a…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:343a5e3a402da6bb838b6a5d53065a9d…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juices-apple-containing&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juices-apple-containing&download=1`.
 
@@ -39,6 +39,7 @@ Ranked by the literature-reported concentration of this category's declared ingr
 | Metal | Dominant ingredient driver | Share of ranked risk |
 |---|---|---|
 | Lead | fruit-purees | 51% |
+| Cadmium | fruit-purees | 100% |
 | Arsenic (total) | fruit-juice | 44% |
 | Aluminum | apple | 100% |
 | Tin | apple | 100% |

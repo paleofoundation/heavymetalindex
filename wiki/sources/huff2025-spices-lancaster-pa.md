@@ -132,9 +132,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [e563fce](https://github.com/paleofoundation/heavymetalindex/commit/e563fce) | 2026-05-29 | audit: huff2025-spices-lancaster-pa [revised] |
 | [ab8a763](https://github.com/paleofoundation/heavymetalindex/commit/ab8a763) | 2026-05-29 | ingest: huff2025-spices-lancaster-pa [enhanced] from Manual Fetch Kimi/condiment_papers/05_PB_Vanilla_Spices |
-| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 <!-- END: hmi-page-history -->

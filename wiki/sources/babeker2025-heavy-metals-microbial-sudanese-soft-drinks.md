@@ -108,3 +108,13 @@ Wiki/HMTc firewall (Part 2) not engaged — no synthesis claims authored; the `#
 Speciation: paper measured total Cr without hexavalent-vs-total separation, so `metals:` uses `Cr` not `Cr-VI`; Hg and As were not measured, so they do not appear in `metals:`. Cd reported only as elemental total Cd (no speciation question for Cd). Fe and Cu reported as elemental totals.
 
 Matrices `carbonated-soft-drink`, `fruit-flavoured-soft-drink`, and `sudanese-soft-drink` are descriptive provisional matrix slugs; the canonical product route is `products/soft-drinks-carbonated-beverages` (which exists). The paper does not separate carbonated from still beverages within the "beverages" column of Table 2; the fruit-flavoured beverages are treated by the Sudanese soft-drink industry under the same product category framing and route to the same wiki product page. `ingredients:` is empty because the paper analyses finished-beverage matrix only and does not decompose into water, sweetener, flavouring, or fruit-juice ingredients; an empty array is consistent with this being a finished-product occurrence study at the product-form level.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1a5a1ec](https://github.com/paleofoundation/heavymetalindex/commit/1a5a1ec) | 2026-05-31 | ingest: babeker2025-heavy-metals-microbial-sudanese-soft-drinks fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

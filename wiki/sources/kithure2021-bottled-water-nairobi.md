@@ -131,6 +131,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [7e144cd](https://github.com/paleofoundation/heavymetalindex/commit/7e144cd) | 2026-05-30 | ingest: burgon2023-cocoa-bean-to-bar-brazil-metals-ota [fresh] from manual-fetch/seasonal-geographic-variance/auto-fetched |
 | [4bcc466](https://github.com/paleofoundation/heavymetalindex/commit/4bcc466) | 2026-05-30 | ingest: kithure2021-bottled-water-nairobi fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `49ecdb7` (2026-05-30). The body hashes to `sha256:627ad6596c20007b4770c5670bd6ff62…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:ff47f8a78ca702baa34c3410e88d480e…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-purees&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-purees&download=1`.
 
@@ -38,7 +38,7 @@ Ranked by the literature-reported concentration of this category's declared ingr
 | Metal | Dominant ingredient driver | Share of ranked risk |
 |---|---|---|
 | Lead | fruit-purees | 100% |
-| Cadmium | peach | 52% |
+| Cadmium | fruit-purees | 41% |
 | Arsenic (inorganic) | pear | 100% |
 | Arsenic (total) | peach | 30% |
 | Nickel | pear | 35% |
@@ -52,6 +52,7 @@ The full driver ranking is available at `/api/risk-map?category=fruit-purees`.
 
 What has moved in the regulation or the cited literature that touches this category, newest first.
 
+- **2026-05-31** — Cd in fruit-purees confidence null → low.
 - **2026-05-16** — Literature evidence first populated for Pb in fruit (n=8, medium confidence).
 - **2026-05-16** — Literature evidence first populated for Cd in fruit (n=8, medium confidence).
 - **2026-05-16** — Literature evidence first populated for iAs in fruit (n=4, low confidence).
@@ -59,7 +60,6 @@ What has moved in the regulation or the cited literature that touches this categ
 - **2026-05-16** — Literature evidence first populated for Pb in fruit-juice (n=2, low confidence).
 - **2026-05-16** — Literature evidence first populated for tAs in fruit-juice (n=2, low confidence).
 - **2026-05-16** — Literature evidence first populated for iAs in pear (n=2, low confidence).
-- **2026-05-16** — Literature evidence first populated for Pb in fruit-purees (n=0, ? confidence).
 
 The live feed for this category is at `/api/change-watch?category=fruit-purees`.
 

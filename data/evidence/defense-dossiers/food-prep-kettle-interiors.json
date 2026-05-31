@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-prep-kettle-interiors",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3b73b3338860d8fdf5e450e11c3cf97aa12b383c072455fb3ca8c0fd26be00e1",
-      "content_bytes": 7593,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "881b26665cdf03b3ccfd366f07dd2c5bee5d2f3e3dcea8c8aa778128e0859b13",
+      "content_bytes": 7503,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/food-prep-kettle-interiors.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/food-prep-kettle-interiors.md | sha256sum"
     }
   },
   "evidence_base": {

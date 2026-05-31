@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T19:50:16.238Z",
+  "updated_at": "2026-05-31T16:38:28.776Z",
   "regulations": {
     "regulations/atsdr-aluminum-mrls": {
       "limit_value": 1,
@@ -9249,12 +9249,12 @@
     },
     "fruit-purees|Cd": {
       "typical_ppb": [
-        null,
-        null
+        0,
+        2.81
       ],
-      "p95_ppb": null,
-      "confidence": null,
-      "n_studies": 0,
+      "p95_ppb": 3.95,
+      "confidence": "low",
+      "n_studies": 5,
       "status": "populated"
     },
     "fruit-purees|iAs": {
@@ -9319,12 +9319,12 @@
     },
     "fruit-purees|tAs": {
       "typical_ppb": [
-        0.056,
+        0.057,
         5
       ],
       "p95_ppb": 5,
       "confidence": "medium",
-      "n_studies": 4,
+      "n_studies": 5,
       "status": "populated"
     },
     "fruit-purees|U": {
@@ -11037,16 +11037,6 @@
       "n_studies": 0,
       "status": "populated"
     },
-    "infant-formula|Al": {
-      "typical_ppb": [
-        9,
-        715.7
-      ],
-      "p95_ppb": 802.9,
-      "confidence": "low",
-      "n_studies": 3,
-      "status": "populated"
-    },
     "infant-formula-concentrated-liquid|Pb": {
       "typical_ppb": [
         null,
@@ -11275,16 +11265,6 @@
       "p95_ppb": null,
       "confidence": "medium",
       "n_studies": 3,
-      "status": "populated"
-    },
-    "infant-formula-powder|tHg": {
-      "typical_ppb": [
-        112,
-        990.2
-      ],
-      "p95_ppb": 1045,
-      "confidence": "low",
-      "n_studies": 2,
       "status": "populated"
     },
     "infant-formula-powder|Ni": {
@@ -13979,22 +13959,22 @@
     },
     "non-root-vegetable-purees|tAs": {
       "typical_ppb": [
-        null,
-        null
+        0,
+        5
       ],
-      "p95_ppb": null,
-      "confidence": null,
-      "n_studies": 0,
+      "p95_ppb": 5,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "non-root-vegetable-purees|tHg": {
       "typical_ppb": [
-        null,
-        null
+        0,
+        1.5
       ],
-      "p95_ppb": null,
-      "confidence": null,
-      "n_studies": 0,
+      "p95_ppb": 1.5,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "non-root-vegetable-purees|Ni": {
@@ -14045,26 +14025,6 @@
       "p95_ppb": null,
       "confidence": null,
       "n_studies": 0,
-      "status": "populated"
-    },
-    "non-root-vegetables|Pb": {
-      "typical_ppb": [
-        9.4,
-        18.4
-      ],
-      "p95_ppb": 23.8,
-      "confidence": "medium",
-      "n_studies": 1,
-      "status": "populated"
-    },
-    "non-root-vegetables|Cd": {
-      "typical_ppb": [
-        0.007,
-        62
-      ],
-      "p95_ppb": 224.3,
-      "confidence": "low",
-      "n_studies": 3,
       "status": "populated"
     },
     "non-root-vegetables|iAs": {
@@ -18579,12 +18539,12 @@
     },
     "root-vegetable-purees|tHg": {
       "typical_ppb": [
-        null,
-        null
+        0,
+        1.5
       ],
-      "p95_ppb": null,
-      "confidence": null,
-      "n_studies": 0,
+      "p95_ppb": 1.5,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "root-vegetable-purees|Ni": {
@@ -18629,12 +18589,12 @@
     },
     "root-vegetable-purees|tAs": {
       "typical_ppb": [
-        null,
-        null
+        0.053,
+        12
       ],
-      "p95_ppb": null,
-      "confidence": null,
-      "n_studies": 0,
+      "p95_ppb": 12,
+      "confidence": "low",
+      "n_studies": 2,
       "status": "populated"
     },
     "root-vegetable-purees|U": {
@@ -20049,22 +20009,22 @@
     },
     "spices|Pb": {
       "typical_ppb": [
-        0.003,
-        23.7
+        100,
+        3000
       ],
-      "p95_ppb": 2411,
+      "p95_ppb": null,
       "confidence": "high",
-      "n_studies": 15,
+      "n_studies": 8,
       "status": "populated"
     },
     "spices|Cd": {
       "typical_ppb": [
-        0.001,
-        80.8
+        30,
+        500
       ],
-      "p95_ppb": 1023,
-      "confidence": "low",
-      "n_studies": 7,
+      "p95_ppb": null,
+      "confidence": "high",
+      "n_studies": 6,
       "status": "populated"
     },
     "spices|iAs": {

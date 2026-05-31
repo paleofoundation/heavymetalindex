@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:c473fe0043e69348b8abc5570aef07c0…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:0d645569e899fc129e3370b733adedaa…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=root-vegetable-purees&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/root-vegetable-purees&download=1`.
 
@@ -40,8 +40,8 @@ Ranked by the literature-reported concentration of this category's declared ingr
 | Lead | sweet-potato | 47% |
 | Cadmium | carrot | 48% |
 | Arsenic (inorganic) | carrot | 100% |
-| Arsenic (total) | sweet-potato | 100% |
-| Mercury (total) | carrot | 56% |
+| Arsenic (total) | sweet-potato | 65% |
+| Mercury (total) | root-vegetable-purees | 40% |
 | Aluminum | carrot | 100% |
 | Tin | carrot | 100% |
 

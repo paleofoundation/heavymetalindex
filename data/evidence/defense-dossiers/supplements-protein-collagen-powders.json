@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-protein-collagen-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "38b1b5fa4cdd32cfa56aada43e8c62a7e823c36335650ac37f0b7758e3cebc66",
-      "content_bytes": 7693,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "181a16771bd1cbafb10d5da9ee9beb6d239b94318128723d117172c576d811c5",
+      "content_bytes": 7603,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/supplements-protein-collagen-powders.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/supplements-protein-collagen-powders.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-freshwater",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6e30639153c153482638a46fac88a637fef1c095d084e87d7266de553473e692",
-      "content_bytes": 13302,
-      "last_commit_sha": "49ecdb7",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "40ef077d6410364137094aebd041a05215928398fe157384982c8be5d043ba33",
+      "content_bytes": 13313,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 49ecdb7:wiki/products/fish-freshwater.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/fish-freshwater.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada",
         "content_pin": {
-          "content_sha256": "33bd0dd1fd2703a91f4ac19565706bcd4216f46e66fe5c99909f44212f19e5ae",
-          "content_bytes": 18272,
-          "last_commit_sha": "743ed7c",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "44215dd09cc66484f73d4c9325f566ecdd80a6965d125f13b10d013a6043d325",
+          "content_bytes": 18268,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 743ed7c:wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/epa1999-mercury-update-fish-advisories",
         "content_pin": {
-          "content_sha256": "146d3c96cffd8d4efca288f0eaf063008dfee058c5e6c205821f2ad9d1553eeb",
-          "content_bytes": 7287,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "2ea7138d1dc7e0c918355d9af6f48110aa8dcf220b0093c119f660ec63e92aeb",
+          "content_bytes": 7197,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/epa1999-mercury-update-fish-advisories.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/epa1999-mercury-update-fish-advisories.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
         "content_pin": {
-          "content_sha256": "78b1e5cd0b382a64000f2a5440948764ff2c0d2118e70d041786da1c8bf845e5",
-          "content_bytes": 17170,
-          "last_commit_sha": "743ed7c",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "5e2d9b2299523cf1f809d38bbfef39396b7976be206b914713316376e0b88c4c",
+          "content_bytes": 17167,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 743ed7c:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
         }
       },
       {
@@ -111,12 +111,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hoy2023-arsenic-speciation-freshwater-fish",
         "content_pin": {
-          "content_sha256": "73008cf0bfffca923d1c46adb82a23f21ba0dea80bda939d5c39499bcef57154",
-          "content_bytes": 7097,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "11759422d2209f05cfaf9846518ff67e3fa43f43e9013ac97fd91a2e824b3da5",
+          "content_bytes": 7007,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/hoy2023-arsenic-speciation-freshwater-fish.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/hoy2023-arsenic-speciation-freshwater-fish.md | sha256sum"
         }
       },
       {
@@ -131,19 +131,19 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jesse2025-unknown",
         "content_pin": {
-          "content_sha256": "e2ba03c54c759dcaf0a484ea8a42e9f8a8ff7332ba15238e884909a89f2702ca",
-          "content_bytes": 3120,
-          "last_commit_sha": "743ed7c",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "0e172fa69b1b92fc9dbce607424313cb4efe91e0495534e3dbdf31780f380bc1",
+          "content_bytes": 3049,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 743ed7c:wiki/sources/jesse2025-unknown.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/jesse2025-unknown.md | sha256sum"
         }
       },
       {
         "slug": "sources/lehel2024-rainbow-trout-aquaculture-italy",
         "title": "Possible Metal Burden of Potentially Toxic Elements in Rainbow Trout (Oncorhynchus mykiss) on Aquaculture Farm",
         "route_kind": "direct_evidence",
-        "route_status": "missing_direct_product_route",
+        "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
@@ -154,12 +154,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lehel2024-rainbow-trout-aquaculture-italy",
         "content_pin": {
-          "content_sha256": "6b2f9abbf2fc1723c0c76e84c5f6677306e5273bd51a625d58f5e522299aef0b",
-          "content_bytes": 8486,
-          "last_commit_sha": "3ba41eb",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "431a175bed16442bf4fc1233192ba780a8eac8094523dabe5314b0964ab5c80d",
+          "content_bytes": 8669,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3ba41eb:wiki/sources/lehel2024-rainbow-trout-aquaculture-italy.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/lehel2024-rainbow-trout-aquaculture-italy.md | sha256sum"
         }
       },
       {
@@ -177,19 +177,19 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maikanov2020-fish-products-shuchinsk-burabay-metals",
         "content_pin": {
-          "content_sha256": "c2308bfe926df05a71e15fd9002fc821b0455d0534abbaf636ff24872c6f8d14",
-          "content_bytes": 3017,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "1f0186f4b0c0dc29ebe63bc9de231a93ab0b7427a5b375994fba25c1a795e1f9",
+          "content_bytes": 2927,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals.md | sha256sum"
         }
       },
       {
         "slug": "sources/majlesi2019-farmed-rainbow-trout-yasuj-iran",
         "title": "Heavy metal content in farmed rainbow trout in relation to aquaculture area and feed pellets",
         "route_kind": "direct_evidence",
-        "route_status": "missing_direct_product_route",
+        "route_status": "source_on_page_no_structured_value",
         "evidence_use": "direct_context_pending_extraction",
         "value_record_count": 0,
         "metal_species": [
@@ -199,12 +199,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/majlesi2019-farmed-rainbow-trout-yasuj-iran",
         "content_pin": {
-          "content_sha256": "ddf3c0b1ddfa0e87338f80a2ff828644ad5873a508aa6eb7f4e064800bfff0d0",
-          "content_bytes": 8198,
-          "last_commit_sha": "f332706",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "e30e9741ee32f6f74c3f557a2dde03b5bfd21318928162f0c61d1bcb667e94a8",
+          "content_bytes": 8381,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show f332706:wiki/sources/majlesi2019-farmed-rainbow-trout-yasuj-iran.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/majlesi2019-farmed-rainbow-trout-yasuj-iran.md | sha256sum"
         }
       },
       {
@@ -224,12 +224,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry",
         "content_pin": {
-          "content_sha256": "df951e26709fa8b0dd4b6f82189def07d7be7e55f23f69650507084783deeac8",
-          "content_bytes": 3481,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "ddaaa7ef7852793dca6dc957e32b50c99e45590d10ed7197cf506e6d6bd267e3",
+          "content_bytes": 3391,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry.md | sha256sum"
         }
       },
       {
@@ -251,12 +251,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/naseem2026-seasonal-heavy-metals-water-fish",
         "content_pin": {
-          "content_sha256": "f27a4670f9883597ba97e7dfd2806aeac493138517e1d90f8e92de6f56dd0a91",
-          "content_bytes": 7510,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "0c40b6ec9f3df24bb8fc1e0c3a1f7254953f3e92d746d8c1805469b1d704c8c0",
+          "content_bytes": 7420,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/naseem2026-seasonal-heavy-metals-water-fish.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/naseem2026-seasonal-heavy-metals-water-fish.md | sha256sum"
         }
       },
       {
@@ -274,12 +274,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals",
         "content_pin": {
-          "content_sha256": "efd100c7206a9198064d1b2ce2a7e3dc4c28df52842db9bb2dffc8b1d436ee67",
-          "content_bytes": 24710,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "7f0fa9e17bef42480cec2d7b80baa62823efba082f2e950515b518dc587c5f9e",
+          "content_bytes": 24620,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals.md | sha256sum"
         }
       },
       {
@@ -294,12 +294,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zahran2023-mercury-tilapia-nannochloropsis",
         "content_pin": {
-          "content_sha256": "e3d9d40f3bfa764e07611afe29ec6103b2a65cd2364cb991256aeb192c662d1c",
-          "content_bytes": 4340,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "6574e98f2bca17310d2d4ed2704ddc75e78e9c72e7ce526c2f79b6f6452825a8",
+          "content_bytes": 4250,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/zahran2023-mercury-tilapia-nannochloropsis.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/zahran2023-mercury-tilapia-nannochloropsis.md | sha256sum"
         }
       }
     ]

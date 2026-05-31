@@ -121,7 +121,7 @@ infant-formula-concentrated-liquid,wiki/ingredients/infant-formula-concentrated-
 infant-formula-ingredients,wiki/ingredients/infant-formula-ingredients.md,false,pass,0,
 infant-formula-powder,wiki/ingredients/infant-formula-powder.md,false,pass,0,
 infant-formula-rtf-liquid,wiki/ingredients/infant-formula-rtf-liquid.md,false,pass,0,
-infant-formula,wiki/ingredients/infant-formula.md,false,pass,0,
+infant-formula,wiki/ingredients/infant-formula.md,true,exempt:stub,0,
 infant-mixed-grain-cereal,wiki/ingredients/infant-mixed-grain-cereal.md,true,exempt:stub,0,
 infant-oat-cereal,wiki/ingredients/infant-oat-cereal.md,true,exempt:stub,0,
 infant-rice-cereal,wiki/ingredients/infant-rice-cereal.md,true,exempt:stub,0,

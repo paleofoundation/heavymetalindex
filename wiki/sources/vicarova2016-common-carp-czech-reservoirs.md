@@ -121,6 +121,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [627698b](https://github.com/paleofoundation/heavymetalindex/commit/627698b) | 2026-05-30 | audit: vicarova2016-common-carp-czech-reservoirs promoted |
 | [4a3b167](https://github.com/paleofoundation/heavymetalindex/commit/4a3b167) | 2026-05-30 | ingest: vicarova2016-common-carp-czech-reservoirs fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish |
 <!-- END: hmi-page-history -->

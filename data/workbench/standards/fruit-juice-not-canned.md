@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-juice-not-canned
 public_page: products/fruit-juice-not-canned
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Fruit juice (not canned)

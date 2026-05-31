@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/blankets-and-sleep-sacks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8f8504902f33b97967ff26dfb3cc092a122e984474c46ded7998383899ee99c2",
-      "content_bytes": 7594,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "6aa101ec7f75e875e67cc9a0eba85ee3c581b0f38094cc6fb21494e20c219102",
+      "content_bytes": 7504,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/blankets-and-sleep-sacks.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/blankets-and-sleep-sacks.md | sha256sum"
     }
   },
   "evidence_base": {

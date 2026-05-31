@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-bottles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "abdecdb8c1bf21fccb73f3d733b562ded5b1f217d8dc72dac579d181e205d615",
-      "content_bytes": 7636,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "c8f4c10eedc336a8bf5ff2b07ef911c936a8f2848b9e24b1951ebcba1eb4e484",
+      "content_bytes": 7546,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/infant-bottles.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/infant-bottles.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sunflower-seeds",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "23042f021901c89544493f4ea831a8a52edaa55b14560667817c235d3e22335b",
-      "content_bytes": 12959,
-      "last_commit_sha": "49ecdb7",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "84152af2225863a2c6323ebad1cbd186a59d456998a1652aa7f59d685a4880f9",
+      "content_bytes": 12888,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 49ecdb7:wiki/products/sunflower-seeds.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/sunflower-seeds.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa-cadmium-contam-2009",
         "content_pin": {
-          "content_sha256": "f22a1c632b7210e4c3525ef66f27780cb00db4a6077210d31919b7985ba96057",
-          "content_bytes": 11268,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "246059db59dded73cd82eb2c4423b8c9271448b2146def4bf55f59fdac76d014",
+          "content_bytes": 11178,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/efsa-cadmium-contam-2009.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/efsa-cadmium-contam-2009.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fu2022-sunflower-cd-cultivar-transcriptomics",
         "content_pin": {
-          "content_sha256": "8aed73d565d84aeabf4b5af8578512594ea20efbecec1a08b80cfcee5adab396",
-          "content_bytes": 4838,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "6fc9c4e8ff38c5c95a2bc959648a1368b5c057a785c6953550f2d80067ce3c22",
+          "content_bytes": 4748,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/fu2022-sunflower-cd-cultivar-transcriptomics.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/fu2022-sunflower-cd-cultivar-transcriptomics.md | sha256sum"
         }
       },
       {
@@ -93,12 +93,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nazari2023-heavy-metals-seed-crops-oil-products-review",
         "content_pin": {
-          "content_sha256": "727bdc202caf3c8dd2cef6f334db14ec0c791db7a49e11e4805ce1e9b738326d",
-          "content_bytes": 16643,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "d31fbfb3d1dcf9a0ccfdc21be5524257056dbf4d9f1fe16881a89509a42f1e37",
+          "content_bytes": 16553,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
         }
       },
       {
@@ -113,12 +113,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nordberg2015-cadmium-chapter",
         "content_pin": {
-          "content_sha256": "24c8ebbcb459ac3ce7b17c3b98a4e0b4851e83d142d686ecf8ed5288eb90fd14",
-          "content_bytes": 11764,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "4ed28cd27e58e2f06ad464684083e35e37ae64e710bbea26b191005e45508208",
+          "content_bytes": 11674,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/nordberg2015-cadmium-chapter.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/nordberg2015-cadmium-chapter.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ozyazici2021-sunflower-seeds-metals",
         "content_pin": {
-          "content_sha256": "7ed5e38dca9a0727ba26d173bc418d53f1e77b849798a8890530ba1050e635bb",
-          "content_bytes": 2187,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "a39e7aa7e249b7991816de549d461b7701aeb511c23ba1f2bb9b9133f9df0b49",
+          "content_bytes": 2370,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/ozyazici2021-sunflower-seeds-metals.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/ozyazici2021-sunflower-seeds-metals.md | sha256sum"
         }
       },
       {
@@ -159,12 +159,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schaefer2020-cadmium-mitigation-strategies",
         "content_pin": {
-          "content_sha256": "736ee00f1a212c2c2d3d9b6625c74caebc6e9cbf9b299775c3f4000273ef0090",
-          "content_bytes": 10455,
-          "last_commit_sha": "743ed7c",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "01d72688842cf7d73666ce12bdfa3fec25187ba02456b81d4bf036d9355bdaa0",
+          "content_bytes": 10384,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 743ed7c:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
         }
       },
       {
@@ -183,12 +183,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shaikh2026-sunflower-seeds-heavy-metals",
         "content_pin": {
-          "content_sha256": "6f57e859d6da1e84c311acec411f54809413d571b1eca1217c0d9c8bc9ee6d5d",
-          "content_bytes": 2380,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "a3285f6e1d0421d706cb2c98d27695463615e5b2ed512a89ae91943c271fe527",
+          "content_bytes": 2563,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/shaikh2026-sunflower-seeds-heavy-metals.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/shaikh2026-sunflower-seeds-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -207,12 +207,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tkachuk2024-sunflower-seeds-metals",
         "content_pin": {
-          "content_sha256": "3418cfb0ff098c82511e8f70cc1c9b89db1ae9af5ce75faff3a321b98f717757",
-          "content_bytes": 2446,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "4fea78f67ecbc4b9533d4119b4398b746ca5675b325431a50f148ded67df8f5c",
+          "content_bytes": 2629,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/tkachuk2024-sunflower-seeds-metals.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/tkachuk2024-sunflower-seeds-metals.md | sha256sum"
         }
       }
     ]

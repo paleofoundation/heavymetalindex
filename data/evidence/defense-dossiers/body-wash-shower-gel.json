@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/body-wash-shower-gel",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "79f1733f27c74ec68d0ecf2f09fba4dd86918a90df65dc5ce60c6119d4b9dc36",
-      "content_bytes": 7543,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "18bff5df50d2100bf2511693844d6892fcadbcecaad9b3722fc42c827c8736d8",
+      "content_bytes": 7453,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/body-wash-shower-gel.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/body-wash-shower-gel.md | sha256sum"
     }
   },
   "evidence_base": {

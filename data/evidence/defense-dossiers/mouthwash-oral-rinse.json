@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/mouthwash-oral-rinse",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e419d36d6b1f0b483851e950c90b1e3f8c7d3f92469da993e10f5a03eb0afcd0",
-      "content_bytes": 8210,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "41eb773e1f66c2e2bb7f3db6a0f6a76dc5d20f5305084a9af61b3987865fda00",
+      "content_bytes": 8139,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/mouthwash-oral-rinse.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/mouthwash-oral-rinse.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "4a094419276f054904748fc44228d7f3f23c317e90fc9cb6bd30b846ae024dc9",
-          "content_bytes": 28470,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "f7405418df06e0836dc28d105e50d5360864cc42b1357913fb6e675a747c4863",
+          "content_bytes": 28380,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
         }
       }
     ]

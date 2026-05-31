@@ -211,3 +211,14 @@ Frontmatter scope kept broad per CLAUDE.md Part 5b: products include the broad p
 Audit subagent 2026-05-31 returned REVISE with multiple Check 1 numerical-fidelity findings and one Check 2 slug finding. Applied corrections: (1) rewrote the rice Hg back-calculation — the correct THQ-implied rice Hg is ≈0.345 mg/kg, not the 0.124 mg/kg originally written (0.124 is the cereals overall Pb mean, conflated in the original draft); (2) corrected vegetable Pb maximum from 0.380 to 0.430 mg/kg per body page 186; (3) clarified that Table 7 prints the legume Hg cell as "0.15–24.22 × 10⁻³" mg/kg and that the 0.500–20.100 range appears only in body page 186 and is the misprint, not Table 7; replaced the invented "Hg mean 0.086 ± 0.0113" string with body-page-188 mean 0.012 mg/kg; (4) added paper-internal flag #3 — body-vs-Table Cu disagreement (9.297 vs 7.297 mg/kg); (5) added paper-internal flag #4 — vegetable Pb max 0.430 mg/kg exceeds the leafy/Brassica limit yet the conclusion calls vegetable Pb "below the corresponding standard limits"; (6) added paper-internal flag #6 — rice Hg back-calculation derivation. Rewrote audit's mistargeted TCR flag: the actual source typo is leafy-greens 6.80×10⁻⁶ → 6.80×10⁻⁷; mushrooms 1.98×10⁻⁶ is correct (verified by averaging Table 11 row values). Sharpened the legume Nemerow paragraph to drop the conflated "legumes 1.114" (1.114 is mung-bean per Figure 2(a)).
 
 Pushed back on audit's Check 2 finding that `mushrooms` ingredient slug is invalid: the taxonomy-snapshot.md `generated: 2026-05-18` is stale; `wiki/ingredients/mushrooms.md` exists on disk (verified `ls wiki/ingredients/ | grep mushroom`). The slug is valid; the snapshot needs regeneration. No frontmatter change.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [de5ba1c](https://github.com/paleofoundation/heavymetalindex/commit/de5ba1c) | 2026-05-31 | audit: wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals revised |
+| [a12d7a2](https://github.com/paleofoundation/heavymetalindex/commit/a12d7a2) | 2026-05-31 | ingest: wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `49ecdb7` (2026-05-30). The body hashes to `sha256:143afd8d24870379901960f985ea1dbb…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:5ec81f4954045be6d4e5a58c66065dde…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juice-not-canned&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juice-not-canned&download=1`.
 
@@ -48,6 +48,7 @@ The full driver ranking is available at `/api/risk-map?category=fruit-juice-not-
 
 What has moved in the regulation or the cited literature that touches this category, newest first.
 
+- **2026-05-31** — Cd in fruit-purees confidence null → low.
 - **2026-05-16** — Literature evidence first populated for Pb in fruit (n=8, medium confidence).
 - **2026-05-16** — Literature evidence first populated for Cd in fruit (n=8, medium confidence).
 - **2026-05-16** — Literature evidence first populated for iAs in fruit (n=4, low confidence).
@@ -55,7 +56,6 @@ What has moved in the regulation or the cited literature that touches this categ
 - **2026-05-16** — Literature evidence first populated for Pb in fruit-juice (n=2, low confidence).
 - **2026-05-16** — Literature evidence first populated for Pb in fruit-purees (n=0, ? confidence).
 - **2026-05-16** — Literature evidence first populated for Cd in fruit-purees (n=0, ? confidence).
-- **2026-05-16** — Literature evidence first populated for iAs in fruit-purees (n=0, ? confidence).
 
 The live feed for this category is at `/api/change-watch?category=fruit-juice-not-canned`.
 

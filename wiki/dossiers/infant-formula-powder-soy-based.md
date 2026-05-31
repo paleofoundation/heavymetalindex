@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:f05a65aa1d48f464a25e615290596fd9…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:5e525802a36b9327efc0372bebb54d34…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=infant-formula-powder-soy-based&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/infant-formula-powder-soy-based&download=1`.
 
@@ -39,7 +39,6 @@ Ranked by the literature-reported concentration of this category's declared ingr
 | Cadmium | infant-formula-powder | 100% |
 | Arsenic (inorganic) | infant-formula-powder | 100% |
 | Arsenic (total) | infant-formula-powder | 100% |
-| Mercury (total) | infant-formula-powder | 100% |
 
 The full driver ranking is available at `/api/risk-map?category=infant-formula-powder-soy-based`.
 

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-contact-combination-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "37ee0e5178fac9f87ae91a445d2368a990f089ef6c0596dc7be198e74f10c635",
-      "content_bytes": 7723,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "7d2040b601fc94b6a23786d9bfe74e21227be5b56477f1dbaddda3795dbae700",
+      "content_bytes": 7633,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/fabric-contact-combination-products.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/fabric-contact-combination-products.md | sha256sum"
     }
   },
   "evidence_base": {

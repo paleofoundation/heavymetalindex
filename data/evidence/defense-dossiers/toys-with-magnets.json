@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-with-magnets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c941447f83bb051d1412833c239f54777cd9ad665b368f21d22fde0797f1abee",
-      "content_bytes": 7508,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "c54b31f9d40a75bc2fe18defe6d929eda3fb273f71c6f001ac572da07e45fe6e",
+      "content_bytes": 7418,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/toys-with-magnets.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/toys-with-magnets.md | sha256sum"
     }
   },
   "evidence_base": {

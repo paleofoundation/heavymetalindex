@@ -21,18 +21,42 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-soy-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ddbe57d6caac3840668e52ad71abbd984730fa959bb80014dc35257f4716bec9",
-      "content_bytes": 17306,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "55e366966d2b74f0eb645d1279f834ff19e549364d6e1d4d070730a5e9a84d03",
+      "content_bytes": 17499,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/plant-milks-soy-based.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/plant-milks-soy-based.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 1,
     "contributing_sources": [
+      {
+        "slug": "sources/hariono2023-soy-milk-cookware-metals",
+        "title": "Quality nutrition, metal content, and health risks in soy milk products using aluminum and stainless steel cookers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cu",
+          "Zn",
+          "tHg",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hariono2023-soy-milk-cookware-metals",
+        "content_pin": {
+          "content_sha256": "7681fcca348e0f2a059cb02c38e3ccadbc1c222df105e4932301add84248613b",
+          "content_bytes": 5681,
+          "last_commit_sha": "f3839d2",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show f3839d2:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/marques2021-trace-elements-milks-plant-based-drinks",
         "title": "Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks",
@@ -48,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marques2021-trace-elements-milks-plant-based-drinks",
         "content_pin": {
-          "content_sha256": "d6220cec7afacd88c24cf2d9f14c1a40b7dadcb42ffd06caa63d66bdc1f06e9b",
-          "content_bytes": 5399,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "7cbbaf55ad36f4a12a41453dcf510c2d164b661ea8fcf4a221cb04f5fb166c15",
+          "content_bytes": 5309,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
         }
       },
       {
@@ -75,12 +99,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/milani2023-trace-elements-soy-based-beverages",
         "content_pin": {
-          "content_sha256": "bcf05fcba3cc0c6af95a4cdd8943ef290d07f1edaf23d5ded06ea169d0728616",
-          "content_bytes": 6172,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "c1e797058b8a9974814a43fca7b6342f3229ae36ebb84f166629adc0039d4df2",
+          "content_bytes": 6082,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/milani2023-trace-elements-soy-based-beverages.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/milani2023-trace-elements-soy-based-beverages.md | sha256sum"
         }
       }
     ]
@@ -96,7 +120,7 @@
     "total_claims": 27,
     "cited_claims": 19,
     "uncited_claims": 8,
-    "distinct_cited_sources": 3,
+    "distinct_cited_sources": 4,
     "audit_rows_on_cited_targets": 0,
     "provenance_complete": false
   }

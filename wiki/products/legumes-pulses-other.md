@@ -17,7 +17,7 @@ pair_rows: [9, 10]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 6
+sources: 9
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 
@@ -103,10 +103,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|Ccopi et al. 2026]]. *Bioaccumulation of heavy metals in high Andean crops of the Peruvian Andes: comparative evaluation between irrigated and dry systems*, Journal of Agriculture and Food Research | 2026 | Peer-reviewed | PE Cd, Pb, tAs, Cr, Ni concentrations (n=218) |
 | 2 | [[sources/chaura2026-phaseolus-multiomics-ionomics\|Chaura et al. 2026]]. *Nutritional and Biochemical Diversity in Beans Accessions from Three Phaseolus Species Using Multiomics Characterization*, ACS Nutrition Science | 2026 | Peer-reviewed | CO/MX/PE Pb, Cd, tAs, tHg, Cr occurrence in 46 genebank accessions of Phaseolus vulgaris (n=35), P. lunatus (n=7), and P. acutifolius (n=4) from 19 countries, sourced... (n=46) |
-| 3 | [[sources/galal2021-heavy-metals-pisum-sativum\|Galal et al. 2021]]. *Heavy metals uptake by the global economic crop (Pisum sativum L.) grown in contaminated soils and its associated health risks*, PLoS ONE | 2021 | Peer-reviewed | EG Pb, Cd, As, Cr, Ni, Fe, Mn, Zn, Cu, Ag, Co, V occurrence in Pisum sativum (garden pea) plants from 2 non-polluted farms and 2 polluted farms (5 quadrats per farm, 1... (n=20) |
-| 4 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | PE tAs, Cd, Sn, Pb, tHg concentrations (n=53) |
-| 5 | [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|Al et al. 2018]]. *Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods*, Agriculture & Food Security 7:50 | 2018 | Peer-reviewed | PS Cd, Pb, Cu, Zn occurrence in 16 canned food samples (4 brand-product combinations each of beans, chickpeas, corn, mushroom) purchased from a single supermarket... (n=16) |
-| 6 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 3 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180–202 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/mawari2022-heavy-metals-fruits-vegetables-india\|Mawari et al. 2022]]. *Heavy Metal Accumulation in Fruits and Vegetables and Human Health Risk Assessment: Findings From Maharashtra, India*, Environmental Health Insights | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/galal2021-heavy-metals-pisum-sativum\|Galal et al. 2021]]. *Heavy metals uptake by the global economic crop (Pisum sativum L.) grown in contaminated soils and its associated health risks*, PLoS ONE | 2021 | Peer-reviewed | EG Pb, Cd, As, Cr, Ni, Fe, Mn, Zn, Cu, Ag, Co, V occurrence in Pisum sativum (garden pea) plants from 2 non-polluted farms and 2 polluted farms (5 quadrats per farm, 1... (n=20) |
+| 7 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | PE tAs, Cd, Sn, Pb, tHg concentrations (n=53) |
+| 8 | [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|Al et al. 2018]]. *Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods*, Agriculture & Food Security 7:50 | 2018 | Peer-reviewed | PS Cd, Pb, Cu, Zn occurrence in 16 canned food samples (4 brand-product combinations each of beans, chickpeas, corn, mushroom) purchased from a single supermarket... (n=16) |
+| 9 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
-| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 <!-- END: hmi-page-history -->

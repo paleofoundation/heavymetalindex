@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fermented-beverages-non-tea-based
 public_page: products/fermented-beverages-non-tea-based
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Fermented beverages, non-tea-based

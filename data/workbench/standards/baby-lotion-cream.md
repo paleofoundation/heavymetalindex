@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-lotion-cream
 public_page: products/baby-lotion-cream
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Baby Lotion / Baby Cream

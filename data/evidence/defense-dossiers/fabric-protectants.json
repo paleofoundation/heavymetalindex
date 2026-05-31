@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-protectants",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6d1d023f354a2e68d71588e17fbb884b5312ab53ef486fb2b639e41a6e94dbd4",
-      "content_bytes": 7825,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "0ff13f5af1ee820f6f67263b45d0d532445de4b3e8f985144eb04d201ee438a8",
+      "content_bytes": 7735,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/fabric-protectants.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/fabric-protectants.md | sha256sum"
     }
   },
   "evidence_base": {

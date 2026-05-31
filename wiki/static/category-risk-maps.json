@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T19:50:16.428Z",
+  "generated_at": "2026-05-31T16:38:27.419Z",
   "schema_version": "hmi.risk-map.v1",
   "canonical_base": "https://heavymetalindex.com",
   "disclaimer": "Ranks where heavy-metal exposure originates within each category's declared ingredient targets, by literature-reported concentration. Ingredient-level evidence, not finished-product measurement, and not a certification threshold.",
@@ -1305,6 +1305,7 @@
       "unresolved": [],
       "metals_ranked": [
         "Pb",
+        "Cd",
         "tAs",
         "Al",
         "Sn"
@@ -1343,6 +1344,28 @@
               "confidence": "low",
               "n_studies": 2,
               "share": 0.488
+            }
+          ]
+        },
+        "Cd": {
+          "label": "Cadmium",
+          "top_driver": "fruit-purees",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "fruit-purees",
+              "title": "Fruit Purees",
+              "page_url": "https://heavymetalindex.com/ingredients/fruit-purees",
+              "risk_ppb": 3.95,
+              "typical_ppb": [
+                0,
+                2.81
+              ],
+              "p95_ppb": 3.95,
+              "confidence": "low",
+              "n_studies": 5,
+              "share": 1
             }
           ]
         },
@@ -1386,12 +1409,12 @@
               "page_url": "https://heavymetalindex.com/ingredients/fruit-purees",
               "risk_ppb": 5,
               "typical_ppb": [
-                0.056,
+                0.057,
                 5
               ],
               "p95_ppb": 5,
               "confidence": "medium",
-              "n_studies": 4,
+              "n_studies": 5,
               "share": 0.217
             }
           ]
@@ -1468,6 +1491,7 @@
       "unresolved": [],
       "metals_ranked": [
         "Pb",
+        "Cd",
         "tAs"
       ],
       "metals": {
@@ -1507,6 +1531,28 @@
             }
           ]
         },
+        "Cd": {
+          "label": "Cadmium",
+          "top_driver": "fruit-purees",
+          "top_driver_share": 1,
+          "driver_count": 1,
+          "drivers": [
+            {
+              "ingredient": "fruit-purees",
+              "title": "Fruit Purees",
+              "page_url": "https://heavymetalindex.com/ingredients/fruit-purees",
+              "risk_ppb": 3.95,
+              "typical_ppb": [
+                0,
+                2.81
+              ],
+              "p95_ppb": 3.95,
+              "confidence": "low",
+              "n_studies": 5,
+              "share": 1
+            }
+          ]
+        },
         "tAs": {
           "label": "Arsenic (total)",
           "top_driver": "fruit-juice",
@@ -1533,12 +1579,12 @@
               "page_url": "https://heavymetalindex.com/ingredients/fruit-purees",
               "risk_ppb": 5,
               "typical_ppb": [
-                0.056,
+                0.057,
                 5
               ],
               "p95_ppb": 5,
               "confidence": "medium",
-              "n_studies": 4,
+              "n_studies": 5,
               "share": 0.333
             }
           ]
@@ -1622,10 +1668,24 @@
         },
         "Cd": {
           "label": "Cadmium",
-          "top_driver": "peach",
-          "top_driver_share": 0.518,
-          "driver_count": 2,
+          "top_driver": "fruit-purees",
+          "top_driver_share": 0.414,
+          "driver_count": 3,
           "drivers": [
+            {
+              "ingredient": "fruit-purees",
+              "title": "Fruit Purees",
+              "page_url": "https://heavymetalindex.com/ingredients/fruit-purees",
+              "risk_ppb": 3.95,
+              "typical_ppb": [
+                0,
+                2.81
+              ],
+              "p95_ppb": 3.95,
+              "confidence": "low",
+              "n_studies": 5,
+              "share": 0.414
+            },
             {
               "ingredient": "peach",
               "title": "Peach",
@@ -1638,7 +1698,7 @@
               "p95_ppb": 2.9,
               "confidence": "high",
               "n_studies": 2,
-              "share": 0.518
+              "share": 0.304
             },
             {
               "ingredient": "pear",
@@ -1652,7 +1712,7 @@
               "p95_ppb": 2.7,
               "confidence": "high",
               "n_studies": 2,
-              "share": 0.482
+              "share": 0.283
             }
           ]
         },
@@ -1732,12 +1792,12 @@
               "page_url": "https://heavymetalindex.com/ingredients/fruit-purees",
               "risk_ppb": 5,
               "typical_ppb": [
-                0.056,
+                0.057,
                 5
               ],
               "p95_ppb": 5,
               "confidence": "medium",
-              "n_studies": 4,
+              "n_studies": 5,
               "share": 0.162
             }
           ]
@@ -2115,8 +2175,7 @@
         "Pb",
         "Cd",
         "iAs",
-        "tAs",
-        "tHg"
+        "tAs"
       ],
       "metals": {
         "Pb": {
@@ -2220,28 +2279,6 @@
               "share": 0.001
             }
           ]
-        },
-        "tHg": {
-          "label": "Mercury (total)",
-          "top_driver": "infant-formula-powder",
-          "top_driver_share": 1,
-          "driver_count": 1,
-          "drivers": [
-            {
-              "ingredient": "infant-formula-powder",
-              "title": "Infant Formula Powder",
-              "page_url": "https://heavymetalindex.com/ingredients/infant-formula-powder",
-              "risk_ppb": 1045,
-              "typical_ppb": [
-                112,
-                990.2
-              ],
-              "p95_ppb": 1045,
-              "confidence": "low",
-              "n_studies": 2,
-              "share": 1
-            }
-          ]
         }
       }
     },
@@ -2279,8 +2316,7 @@
         "Pb",
         "Cd",
         "iAs",
-        "tAs",
-        "tHg"
+        "tAs"
       ],
       "metals": {
         "Pb": {
@@ -2367,28 +2403,6 @@
               "p95_ppb": 13,
               "confidence": "medium",
               "n_studies": 4,
-              "share": 1
-            }
-          ]
-        },
-        "tHg": {
-          "label": "Mercury (total)",
-          "top_driver": "infant-formula-powder",
-          "top_driver_share": 1,
-          "driver_count": 1,
-          "drivers": [
-            {
-              "ingredient": "infant-formula-powder",
-              "title": "Infant Formula Powder",
-              "page_url": "https://heavymetalindex.com/ingredients/infant-formula-powder",
-              "risk_ppb": 1045,
-              "typical_ppb": [
-                112,
-                990.2
-              ],
-              "p95_ppb": 1045,
-              "confidence": "low",
-              "n_studies": 2,
               "share": 1
             }
           ]
@@ -4002,8 +4016,8 @@
         "Pb": {
           "label": "Lead",
           "top_driver": "leafy-greens",
-          "top_driver_share": 0.732,
-          "driver_count": 3,
+          "top_driver_share": 0.753,
+          "driver_count": 2,
           "drivers": [
             {
               "ingredient": "leafy-greens",
@@ -4017,7 +4031,7 @@
               "p95_ppb": 610,
               "confidence": "high",
               "n_studies": 19,
-              "share": 0.732
+              "share": 0.753
             },
             {
               "ingredient": "vegetables",
@@ -4031,29 +4045,15 @@
               "p95_ppb": 200,
               "confidence": "high",
               "n_studies": 38,
-              "share": 0.24
-            },
-            {
-              "ingredient": "non-root-vegetables",
-              "title": "Non-root vegetables",
-              "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetables",
-              "risk_ppb": 23.8,
-              "typical_ppb": [
-                9.4,
-                18.4
-              ],
-              "p95_ppb": 23.8,
-              "confidence": "medium",
-              "n_studies": 1,
-              "share": 0.029
+              "share": 0.247
             }
           ]
         },
         "Cd": {
           "label": "Cadmium",
           "top_driver": "leafy-greens",
-          "top_driver_share": 0.433,
-          "driver_count": 3,
+          "top_driver_share": 0.571,
+          "driver_count": 2,
           "drivers": [
             {
               "ingredient": "leafy-greens",
@@ -4067,7 +4067,7 @@
               "p95_ppb": 400,
               "confidence": "high",
               "n_studies": 22,
-              "share": 0.433
+              "share": 0.571
             },
             {
               "ingredient": "vegetables",
@@ -4081,21 +4081,7 @@
               "p95_ppb": 300,
               "confidence": "high",
               "n_studies": 41,
-              "share": 0.325
-            },
-            {
-              "ingredient": "non-root-vegetables",
-              "title": "Non-root vegetables",
-              "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetables",
-              "risk_ppb": 224.3,
-              "typical_ppb": [
-                0.007,
-                62
-              ],
-              "p95_ppb": 224.3,
-              "confidence": "low",
-              "n_studies": 3,
-              "share": 0.243
+              "share": 0.429
             }
           ]
         },
@@ -5431,8 +5417,8 @@
         "tAs": {
           "label": "Arsenic (total)",
           "top_driver": "sweet-potato",
-          "top_driver_share": 1,
-          "driver_count": 1,
+          "top_driver_share": 0.647,
+          "driver_count": 2,
           "drivers": [
             {
               "ingredient": "sweet-potato",
@@ -5446,16 +5432,44 @@
               "p95_ppb": 22,
               "confidence": "medium",
               "n_studies": 5,
-              "share": 1
+              "share": 0.647
+            },
+            {
+              "ingredient": "root-vegetable-purees",
+              "title": "Root Vegetable Purees",
+              "page_url": "https://heavymetalindex.com/ingredients/root-vegetable-purees",
+              "risk_ppb": 12,
+              "typical_ppb": [
+                0.053,
+                12
+              ],
+              "p95_ppb": 12,
+              "confidence": "low",
+              "n_studies": 2,
+              "share": 0.353
             }
           ]
         },
         "tHg": {
           "label": "Mercury (total)",
-          "top_driver": "carrot",
-          "top_driver_share": 0.565,
-          "driver_count": 2,
+          "top_driver": "root-vegetable-purees",
+          "top_driver_share": 0.395,
+          "driver_count": 3,
           "drivers": [
+            {
+              "ingredient": "root-vegetable-purees",
+              "title": "Root Vegetable Purees",
+              "page_url": "https://heavymetalindex.com/ingredients/root-vegetable-purees",
+              "risk_ppb": 1.5,
+              "typical_ppb": [
+                0,
+                1.5
+              ],
+              "p95_ppb": 1.5,
+              "confidence": "low",
+              "n_studies": 2,
+              "share": 0.395
+            },
             {
               "ingredient": "carrot",
               "title": "Carrot",
@@ -5468,7 +5482,7 @@
               "p95_ppb": 1.3,
               "confidence": "high",
               "n_studies": 1,
-              "share": 0.565
+              "share": 0.342
             },
             {
               "ingredient": "sweet-potato",
@@ -5482,7 +5496,7 @@
               "p95_ppb": 1,
               "confidence": "medium",
               "n_studies": 3,
-              "share": 0.435
+              "share": 0.263
             }
           ]
         },

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-snacks
 public_page: products/fruit-snacks
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Fruit Snacks

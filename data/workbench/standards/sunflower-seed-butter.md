@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: sunflower-seed-butter
 public_page: products/sunflower-seed-butter
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Sunflower Seed Butter

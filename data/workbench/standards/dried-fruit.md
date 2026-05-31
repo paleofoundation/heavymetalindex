@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: dried-fruit
 public_page: products/dried-fruit
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Dried Fruit

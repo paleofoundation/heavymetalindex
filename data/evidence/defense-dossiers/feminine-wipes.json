@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/feminine-wipes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "741abf3afbbde7266de79c366045151e9abcc878af5076644b9226efa5eb0cb6",
-      "content_bytes": 7506,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "19843a289d029fc8a2f3381e16a0af7951c0b32e05f10336d08f5a2eb77c7e48",
+      "content_bytes": 7416,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/feminine-wipes.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/feminine-wipes.md | sha256sum"
     }
   },
   "evidence_base": {

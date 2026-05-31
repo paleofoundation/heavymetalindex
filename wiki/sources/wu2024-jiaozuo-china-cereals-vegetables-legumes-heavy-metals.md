@@ -195,3 +195,14 @@ Regulation routing: the paper applies GB 2762-2022 Chinese national food-safety 
 Audit subagent 2026-05-31 returned QUARANTINE. Verified findings applied: (a) the cereal narrative ranges block had a column-shift error — Cr/Hg/Ni/Cu had been mis-mapped (page 186 narrative gives the eight ranges in order Cr ND–1.500, As 0.01–0.170, Cd 0.010–0.040, Pb 0.010–1.15, Hg 0.002–0.444, Ni ND–0.700, Cu 0.180–6.990, Zn 0.460–15.500; the page originally had "Cr 0.003–0.278 / Hg ND–0.700 / Ni 0.180–6.990 / Cu not listed" which mapped vegetable Cr / Ni / Cu range values onto the wrong metals); corrected to the page-186 mapping. (b) Cereal Table 7 means were the SD columns (Ni 0.126, Cu 1.087, Zn 3.789 are SDs); corrected to Table 7 means Ni 0.164, Cu 1.608, Zn 7.577 mg/kg. (c) Single-factor pollution moderate bracket was "Cr in peanuts" — page 191 actually attributes the moderate bracket to "Ni in peanuts"; corrected (Cr in peanuts is in the precautionary bracket and noted there). (d) The page's prior Hg-mean-vs-range "mass-balance" flag was driven by the column-shift error not source inconsistency; the real cereal Hg range 0.002–0.444 mg/kg is consistent with the Table 7 mean 0.044 ± 0.088 mg/kg, so that flag was removed. Additional source-internal narrative-vs-Table-7 inconsistencies that the audit independently surfaced (legume Cu 9.297 vs 7.297, legume Hg 0.012 vs 0.086, vegetable Pb 0.013 vs 0.0013) were not previously flagged on the page; all three added.
 
 Findings rejected (false positives): audit's Check 2 flagged `ingredients/mushrooms` as an invented slug because it is not in the 2026-05-18 taxonomy snapshot. Verified independently: `wiki/ingredients/mushrooms.md` exists (created 2026-05-31, mtime 17:49) and the routing audit resolved the wikilink cleanly with zero `routing_unresolved` entries for this source. The 2026-05-18 taxonomy snapshot is stale; the live wiki state is authoritative. Slug retained.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [de5ba1c](https://github.com/paleofoundation/heavymetalindex/commit/de5ba1c) | 2026-05-31 | audit: wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals revised |
+| [f86d57f](https://github.com/paleofoundation/heavymetalindex/commit/f86d57f) | 2026-05-31 | ingest: wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

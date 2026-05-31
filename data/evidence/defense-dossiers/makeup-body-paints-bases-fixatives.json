@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/makeup-body-paints-bases-fixatives",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2620e59114a6edac3e67eb96e9e939f4ea329f7f3dbc678f6fad3c8b085d9332",
-      "content_bytes": 7822,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "e6a24cd4a7e005d38bdfc66f9d8947e94546e7f4edf5e54552be5f1a28bb1c86",
+      "content_bytes": 7732,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/makeup-body-paints-bases-fixatives.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/makeup-body-paints-bases-fixatives.md | sha256sum"
     }
   },
   "evidence_base": {

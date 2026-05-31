@@ -73,3 +73,12 @@ For standards and app work, the paper is source-scope evidence rather than an HM
 - Speciation: the source reports arsenic as As and does not state inorganic arsenic; route as total/unspecified arsenic only.
 - Numerical fidelity: Pb and Cd ranges are taken from the Discussion text. Figure-only values were not manually digitized.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d47f995](https://github.com/paleofoundation/heavymetalindex/commit/d47f995) | 2026-05-31 | ingest auto-fetched 2026-05-31 1634 batch 1: 2 source pages |
+<!-- END: hmi-page-history -->

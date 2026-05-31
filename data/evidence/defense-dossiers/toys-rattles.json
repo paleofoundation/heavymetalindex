@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-rattles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d39849ed367e7012ebf93a5298b4d36a86f7dd5d7081e60a4994e081cfa7f4d8",
-      "content_bytes": 7437,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "b832d889728b90c221da242f0945e42d7a8cd1321258642c5153bcd021874a66",
+      "content_bytes": 7347,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/toys-rattles.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/toys-rattles.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bathroom-tub-tile-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e689f8008d591113622c9bfd950843e3334cd918a858cba0c9bcf0bf910ab11a",
-      "content_bytes": 7588,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "4221ee852a0a773833a20e11bf8b67769a160e021a4cceb30dc07a240f5c9450",
+      "content_bytes": 7498,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/bathroom-tub-tile-cleaners.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/bathroom-tub-tile-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

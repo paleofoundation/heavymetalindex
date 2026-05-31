@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/vacuum-cleaner-fragrance-additives",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "070b2873bf60dd4b653f1cfc575c5a129bbebc8555ec3c5fed16d30417123ab0",
-      "content_bytes": 7650,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "e42d1842cfa26aa18e3010c4af4ab8a85b425065f1e857e7739180ec7390fdad",
+      "content_bytes": 7560,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/vacuum-cleaner-fragrance-additives.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/vacuum-cleaner-fragrance-additives.md | sha256sum"
     }
   },
   "evidence_base": {

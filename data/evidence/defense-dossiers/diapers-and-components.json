@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/diapers-and-components",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6e15019dba6ebaaec2a95f005e01484b6183b1bdca6b8a390c906d515a28a233",
-      "content_bytes": 9442,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "0700d1bffc3542dc268330611145d1c027682a05370995eeec90bae4e2512ab9",
+      "content_bytes": 9371,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/diapers-and-components.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/diapers-and-components.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -39,12 +39,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/bae2018-absorbent-hygiene-pads-safety-review",
         "content_pin": {
-          "content_sha256": "508118bee209b47f8be9bf388c07db07daec10ae350d501b7b882a7a5b6fd6d0",
-          "content_bytes": 18291,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "61d3c7ad0ab2befb128bc3ffc43af978a90fb3a20cc2c57fc55c7c77fb63efdc",
+          "content_bytes": 18201,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md | sha256sum"
         }
       },
       {
@@ -57,12 +57,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/lai2025-infant-diaper-phthalate-dna-oxidation",
         "content_pin": {
-          "content_sha256": "349952c7c76116b3d23cc58d4873d907ec8a049d85d967488c52f319d8f19658",
-          "content_bytes": 17230,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "b42bb9fa09bd8281fed6fbcb31f5c32b071e6b99840aa33ed94a7ff0befd7660",
+          "content_bytes": 17140,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/lai2025-infant-diaper-phthalate-dna-oxidation.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/lai2025-infant-diaper-phthalate-dna-oxidation.md | sha256sum"
         }
       },
       {
@@ -86,12 +86,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde",
         "content_pin": {
-          "content_sha256": "9e8e1799c2659c5cdbdbfcdf15880048a1faaef0904c02d60e52e999c5cacb95",
-          "content_bytes": 12581,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "2a5d2412b360f104c73c4fabe80251a5de59231726a642b72ce57fae646e89a6",
+          "content_bytes": 12491,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde.md | sha256sum"
         }
       },
       {
@@ -106,12 +106,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/smajgl2015-tin-baby-diapers-croatia",
         "content_pin": {
-          "content_sha256": "79ece185fb0a60c0a53c099a9176fc797659829bfda5e768806bc9348f75cad2",
-          "content_bytes": 12138,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "262c2e5764bd69d46130ca2e08e46fcbfecff818a1e6de28806e032678b196d5",
+          "content_bytes": 12048,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/smajgl2015-tin-baby-diapers-croatia.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/smajgl2015-tin-baby-diapers-croatia.md | sha256sum"
         }
       }
     ]

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-glassware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9760bdcf6712a3ced8a58647c96b521c891eccf25240536bfe58fb977f3fd8de",
-      "content_bytes": 7530,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "556a30450a57a9b6d258ebfc5210a840a31fe32c66be6587a930692c51111aef",
+      "content_bytes": 7440,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/tableware-glassware.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/tableware-glassware.md | sha256sum"
     }
   },
   "evidence_base": {

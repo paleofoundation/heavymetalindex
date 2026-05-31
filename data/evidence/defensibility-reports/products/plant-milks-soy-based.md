@@ -2,15 +2,15 @@
 source_page: wiki/products/plant-milks-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7c86557222b653c3923a7a4b280042860519b03883bd0b33ca0a6d33a787eb57
+source_page_sha256: b55dc02294f255e386373c5f5b62a32a5a5951448853bd6538ccd55f9481fdc6
 total_claims: 27
 cited_claims: 19
 uncited_claims: 8
-distinct_cited_targets: 3
-distinct_cited_sources: 3
+distinct_cited_targets: 4
+distinct_cited_sources: 4
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 209
+audit_log_total_rows: 479
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 27 |
 | cited claims | 19 |
 | uncited claims | 8 |
-| distinct cited targets | 3 |
-| distinct cited `sources/` pages | 3 |
+| distinct cited targets | 4 |
+| distinct cited `sources/` pages | 4 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 209 |
+| audit log rows read | 479 |
 
 ## Page-level audit rows
 
@@ -123,8 +123,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 ### Sources
 
 #### Claim `758 µg/L`
-- Context: `ry multi-metal occurrence source for the soy plant-milk row (Al group means 176–758 µg/L; most others <LOQ) | | 2 | [[so`
-- Cited targets (2):
+- Context: `ry multi-metal occurrence source for the soy plant-milk row (Al group means 176–758 µg/L; most others <LOQ) | | 3 | [[so`
+- Cited targets (3):
+  - `wiki/sources/hariono2023-soy-milk-cookware-metals\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages\.md` (page missing)
@@ -219,6 +221,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/sources/hariono2023-soy-milk-cookware-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` | sources | 0 | — | — |
 | `wiki/sources/milani2023-trace-elements-soy-based-beverages.md` | sources | 0 | — | — |
 | `wiki/sources/milani2023-trace-elements-soy-based-beverages\.md` | sources | 0 | — | — |

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/shaving-cream-gel-foam",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e7dee0ddac16f1ba98b4dd70e5f73132fc9ecf7251640d28fba2ec71f60de9f3",
-      "content_bytes": 8601,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "ac5761a37fc9e66ac9cf4d30a9287ddd03ffab3e75fb34139857480cfd7b603e",
+      "content_bytes": 8530,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/shaving-cream-gel-foam.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/shaving-cream-gel-foam.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "d23a1cb8b0039656d1a24d5a883752ef4113c8437cb82a7773e63e02bc228acd",
-          "content_bytes": 35443,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "28b18275d128f529c7d012c815f2395f7e526bb40c221407fcd289b2b2c64377",
+          "content_bytes": 35353,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -77,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "d6df7a7edc2162f5f1655e55e2d199a321240e7e6cd61ddaff57019a7b16ae77",
-          "content_bytes": 29212,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "127800466f8d5225343cf0555b8a0bb2501870162910a248efa9c9717b077297",
+          "content_bytes": 29122,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       }
     ]

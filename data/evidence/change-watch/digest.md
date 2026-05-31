@@ -1,7 +1,7 @@
 ---
 title: Change-watch digest
 noindex: true
-generated: 2026-05-30T19:50:16.241Z
+generated: 2026-05-31T16:38:28.779Z
 ---
 
 # Regulatory and literature change-watch
@@ -10,6 +10,14 @@ What moved in the regulation or the cited literature that touches a certified pr
 
 ## Most recent changes
 
+- **2026-05-31** · `synthesis_confidence_changed` — Cd in fruit-purees confidence null → low. _(touches: fruit-juice-not-canned, fruit-purees)_
+- **2026-05-31** · `synthesis_confidence_changed` — tAs in non-root-vegetable-purees confidence null → low.
+- **2026-05-31** · `synthesis_confidence_changed` — tHg in non-root-vegetable-purees confidence null → low.
+- **2026-05-31** · `synthesis_confidence_changed` — tHg in root-vegetable-purees confidence null → low.
+- **2026-05-31** · `synthesis_confidence_changed` — tAs in root-vegetable-purees confidence null → low.
+- **2026-05-31** · `synthesis_shift_up` — Pb in spices synthesis moved up 126.6x (typical [0.003,23.7]→[100,3000] ppb, p95 2411→null).
+- **2026-05-31** · `synthesis_shift_up` — Cd in spices synthesis moved up 6.2x (typical [0.001,80.8]→[30,500] ppb, p95 1023→null).
+- **2026-05-31** · `synthesis_confidence_changed` — Cd in spices confidence low → high.
 - **2026-05-30** · `synthesis_new` — Literature evidence first populated for Al in infant-formula (n=3, low confidence).
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for Al in cocoa (n=2, low confidence).
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for tAs in cocoa (n=1, low confidence).
@@ -32,14 +40,6 @@ What moved in the regulation or the cited literature that touches a certified pr
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for tAs in fruit (n=6, low confidence). _(touches: fruit-purees)_
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for tHg in fruit (n=5, low confidence).
 - **2026-05-16** · `synthesis_new` — Literature evidence first populated for Ni in fruit (n=5, low confidence). _(touches: fruit-juice-not-canned)_
-- **2026-05-16** · `synthesis_new` — Literature evidence first populated for Al in fruit (n=5, low confidence).
-- **2026-05-16** · `synthesis_shift_down` — Al in fruit synthesis moved down 6.7x (typical [100,4000]→[100,600] ppb).
-- **2026-05-16** · `synthesis_new` — Literature evidence first populated for Cr in fruit (n=5, low confidence).
-- **2026-05-16** · `synthesis_new` — Literature evidence first populated for Sn in fruit (n=4, low confidence).
-- **2026-05-16** · `synthesis_new` — Literature evidence first populated for Pb in shellfish (n=5, medium confidence).
-- **2026-05-16** · `synthesis_new` — Literature evidence first populated for Cd in shellfish (n=5, medium confidence).
-- **2026-05-16** · `synthesis_new` — Literature evidence first populated for iAs in shellfish (n=4, low confidence).
-- **2026-05-16** · `synthesis_new` — Literature evidence first populated for tHg in shellfish (n=5, medium confidence).
 
 ## Categories by change volume
 
@@ -51,15 +51,15 @@ What moved in the regulation or the cited literature that touches a certified pr
 - Baby cereals / grain products, dry (non-rice) — 19 event(s)
 - Meat and poultry purees — 16 event(s)
 - Teething & snacks (rice-based) — 16 event(s)
-- Fruit juice (not canned) — 14 event(s)
+- Fruit juice (not canned) — 15 event(s)
 - Infant formula, RTF liquid (non-soy) — 14 event(s)
 - Infant formula, RTF liquid (soy-based) — 14 event(s)
 - Non-root vegetable purees — 14 event(s)
 - Plant milks, rice-based — 14 event(s)
+- Fruit purees (general) — 12 event(s)
 - Infant formula, powder (soy-based) — 12 event(s)
 - Plant milks (almond, oat, coconut, other non-soy/non-rice) — 12 event(s)
 - Root-vegetable purees — 12 event(s)
-- Fruit purees (general) — 11 event(s)
 - Plant milks, soy-based — 9 event(s)
 - Fruit juices, apple-containing — 5 event(s)
 - Fruit juices, non-apple — 5 event(s)

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: childrens-lip-balm-plain
 public_page: products/childrens-lip-balm-plain
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Children's Lip Balm, Plain (uncolored, no SPF)

@@ -68,3 +68,14 @@ This source may support a narrow context note for soy milk and soy-based plant m
 ## Verification notes
 
 PDF extracted 2026-05-31 from the auto-fetched queue. Metadata are taken from the article front page: Aceh Nutrition Journal, DOI 10.30867/action.v8i4.925, received July 26, 2022, accepted May 18, 2023, published December 5, 2023. The filename was fetched under an aluminum-in-soy-products query, and the actual source is a soy-milk finished-product cookware comparison. Table 1 and Table 2 repeat the same metal values; the table transcription here preserves the source's comma decimals as decimal points. The paper uses "US" in one English methods sentence where the intended analyte is arsenic (As); this page treats it as total arsenic (tAs) because the abstract, Indonesian abstract, and tables consistently report As without speciation. Mercury is likewise total mercury (tHg), not methylmercury. Cr is named in methods but absent from results and therefore excluded from the `metals` frontmatter. The matrix terms `beverage` and `food-processing` are existing broad descriptors used to avoid inventing a source-specific `cookware-comparison` matrix while still preserving the study design.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f3839d2](https://github.com/paleofoundation/heavymetalindex/commit/f3839d2) | 2026-05-31 | apply audits auto-fetched 2026-05-31: 2 source pages |
+| [c138273](https://github.com/paleofoundation/heavymetalindex/commit/c138273) | 2026-05-31 | ingest auto-fetched 2026-05-31 1605 batch 1: 2 source pages |
+<!-- END: hmi-page-history -->

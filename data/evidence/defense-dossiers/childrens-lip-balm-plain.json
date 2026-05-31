@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-lip-balm-plain",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "10069f4d81725faac5864a67b3ba334eec1a70bc30799829eb67b19b6dc9117d",
-      "content_bytes": 10593,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "323328ae7de3af2d6b637f03075288eed79f60ef8a3952056314494707ab9878",
+      "content_bytes": 10522,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/childrens-lip-balm-plain.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/childrens-lip-balm-plain.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2021-lead-lip-cosmetics-china-ecommerce",
         "content_pin": {
-          "content_sha256": "6e79f38c24dd0b162a30cdb67bbaa441f268acb32d388fefe5db2f234c21e52e",
-          "content_bytes": 31236,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "3eac466e656a9eb4c5b8f1ef5199ef156c2dca13cf4231f7ba850ca2c3944f22",
+          "content_bytes": 31146,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/li2021-lead-lip-cosmetics-china-ecommerce.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/li2021-lead-lip-cosmetics-china-ecommerce.md | sha256sum"
         }
       },
       {
@@ -63,12 +63,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2025-methyl-salicylate-children-exposure-1676-25",
         "content_pin": {
-          "content_sha256": "9f2ab71c7d078196ec92eba0f6b7cb2129cf63ce812285aa14bc0bb54a5d461a",
-          "content_bytes": 22371,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "a765e5a16ba3f7c023676793490067dc304a406ca1d45b31af8233860d9cd1f5",
+          "content_bytes": 22281,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
         }
       }
     ]

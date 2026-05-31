@@ -69,3 +69,53 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/FDA Total Diet Study Report_ Fiscal Years 2018-2020 Elements Data.pdf`: pdf-already-ingested-clean fda-tds-elements-2018-2020 (sha256 match to raw/reports/2022_07_14_TDSElementsReport_1436.pdf; primary page updated 2026-05-20; audit completed 2026-05-20 verdict REVISE)
+
+## Tick 2026-05-31T16:00:14.425Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `mawari2022-heavy-metals-fruits-vegetables-india` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf)
+
+## Tick 2026-05-31T16:11:05.394Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Failed
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah City, Saudi Arabia.pdf`: unrecognized final line: "`STOP: pdf-already-ingested-clean farid2010-fruit-juices-jeddah-trace-elements (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit)`"
+
+## Tick 2026-05-31T16:14:53.032Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/Survey of total arsenic and inorganic arsenic in apple and pear juice.pdf`: pdf-already-ingested-clean fsanz2012-arsenic-apple-pear-juice-australia-nz (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit)
+
+## Tick 2026-05-31T16:18:56.321Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'.pdf`: pdf-already-ingested-clean mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit)
+
+## Tick 2026-05-31T16:21:43.794Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry.pdf`: pdf-already-ingested-clean trandafir2012-tin-canned-foods-icp-ms (SHA-identical to MFK_ root at `cf02363…fe8862`; existing page `wiki/sources/trandafir2012-tin-canned-foods-icp-ms.md` updated 2026-05-20 post-cutoff, audit-revised, routing clean — skill v2.0 Phase 1 step 1 skip rule)

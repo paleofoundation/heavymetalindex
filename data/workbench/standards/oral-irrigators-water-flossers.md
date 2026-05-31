@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: oral-irrigators-water-flossers
 public_page: products/oral-irrigators-water-flossers
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Oral irrigators/water flossers and tips (if included)

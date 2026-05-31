@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula-powder-non-soy
 public_page: products/infant-formula-powder-non-soy
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Infant formula, powder (non-soy)

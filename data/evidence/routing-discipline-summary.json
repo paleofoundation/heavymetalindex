@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-30T19:49:58.148Z",
-  "check_1_sources_scanned": 1152,
-  "check_1_sources_with_product_matrices": 453,
-  "check_1_failures": 0,
+  "generated_at": "2026-05-31T16:38:26.367Z",
+  "check_1_sources_scanned": 1160,
+  "check_1_sources_with_product_matrices": 459,
+  "check_1_failures": 2,
   "check_2_products_scanned": 355,
   "check_2_products_hmtc_locked": 325,
   "check_2_failures": 0,

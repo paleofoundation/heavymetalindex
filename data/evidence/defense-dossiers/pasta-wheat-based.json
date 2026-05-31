@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/pasta-wheat-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9fc84f7f458a385b10a9928021a23bf40f7d431be666cd465d1ec96490b2ea68",
-      "content_bytes": 8386,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "6f4a1d483d91c855c9754f8c009db51998e6ea0ddc6a902a47dff570928c165a",
+      "content_bytes": 8589,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/pasta-wheat-based.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/pasta-wheat-based.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 3,
+    "contributing_source_count": 4,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -58,12 +58,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "d45e268ee07e1de63e40d8fa29278cec90458e006140024c3ac41ea8722c4404",
-          "content_bytes": 10899,
-          "last_commit_sha": "743ed7c",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "ec38592a8a5b0a34d8a7b2136e6ead576c63a8360c0dafc39faadc9a4ab2676b",
+          "content_bytes": 10828,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 743ed7c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -79,12 +79,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "8f537fbad70deecf361c026ce08a4a4d42e985977982e45167cfa462e93c38f5",
-          "content_bytes": 7812,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "4e78ec4d128f444ccb6ec39cad69ed8e9bd928e730f8c8feb380198ed54573ed",
+          "content_bytes": 7722,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/katyal2020-instant-noodles-canada-metals",
+        "title": "Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/katyal2020-instant-noodles-canada-metals",
+        "content_pin": {
+          "content_sha256": "c31258f05991d4b058a4742fa69aea13780e5aa05aa6faeb995f26b2a2ceffb0",
+          "content_bytes": 4550,
+          "last_commit_sha": "d47f995",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d47f995:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
         }
       },
       {
@@ -99,12 +121,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2020-nickel-cereal-grains-poland",
         "content_pin": {
-          "content_sha256": "98abfbe6d41013659f15cf818c6b9a1a5eff2ad974fa3567ab03bd2c61b4192f",
-          "content_bytes": 7396,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "adebd1186ebab02a9a57a00e088af34e6c509c9e72eb2d374ba865c1f6ad5f6b",
+          "content_bytes": 7306,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
         }
       }
     ]

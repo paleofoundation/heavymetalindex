@@ -1,2 +1,3 @@
 check,target,detail,severity,note
-
+1_source_missing_products,wiki/sources/brum2025-flaxseeds-ptes-organic-conventional.md,brum2025-flaxseeds-ptes-organic-conventional,fail,"Source has matrices [seed] (product-shaped) but products: []. Declare products: with matching slug(s); if a slug has no matching page, run tools/autonomy/create-provisional-product-scaffold.mjs to create the routing destination. See docs/order-of-operations.md Phase 1."
+1_source_missing_products,wiki/sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone.md,dearing2025-nz-organic-nonorganic-vegetables-cyclone,fail,"Source has matrices [brassica-vegetable, allium-vegetable] (product-shaped) but products: []. Declare products: with matching slug(s); if a slug has no matching page, run tools/autonomy/create-provisional-product-scaffold.mjs to create the routing destination. See docs/order-of-operations.md Phase 1."

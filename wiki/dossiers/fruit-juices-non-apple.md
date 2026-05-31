@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `49ecdb7` (2026-05-30). The body hashes to `sha256:70dc0dfb2d9810b5fcadca59cb196541…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:bd76bfed7a38f08b8d479dc7985aea5e…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juices-non-apple&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juices-non-apple&download=1`.
 
@@ -39,6 +39,7 @@ Ranked by the literature-reported concentration of this category's declared ingr
 | Metal | Dominant ingredient driver | Share of ranked risk |
 |---|---|---|
 | Lead | fruit-purees | 51% |
+| Cadmium | fruit-purees | 100% |
 | Arsenic (total) | fruit-juice | 67% |
 
 The full driver ranking is available at `/api/risk-map?category=fruit-juices-non-apple`.

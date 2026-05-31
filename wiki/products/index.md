@@ -88,17 +88,17 @@ Contamination platform notes: Rice is a known contamination platform for iAs, Cd
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/flour-non-rice|Flour (wheat, corn, other)]] (8 sources)
-2. [[products/bread-and-baked-goods|Bread and baked goods]] (11 sources)
-3. [[products/pasta-wheat-based|Pasta (wheat-based)]] (3 sources)
+1. [[products/flour-non-rice|Flour (wheat, corn, other)]] (10 sources)
+2. [[products/bread-and-baked-goods|Bread and baked goods]] (12 sources)
+3. [[products/pasta-wheat-based|Pasta (wheat-based)]] (4 sources)
 4. [[products/pasta-rice-based|Pasta (rice-based)]] (0 sources)
 5. [[products/breakfast-cereal-non-rice|Breakfast cereal (non-rice)]] (0 sources)
 6. [[products/breakfast-cereal-rice-based|Breakfast cereal (rice-based)]] (0 sources)
-7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (25 sources)
+7. [[products/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] (27 sources)
 8. [[products/rice-snacks-crackers|Rice snacks/crackers]] (7 sources)
-9. [[products/rice-noodles|Rice noodles]] (0 sources)
+9. [[products/rice-noodles|Rice noodles]] (1 source)
 10. [[products/rice-beverages-rice-milk|Rice beverages (rice milk)]] (2 sources)
-11. [[products/other-grain-products|Other grain products (oat, millet, quinoa, barley)]] (5 sources)
+11. [[products/other-grain-products|Other grain products (oat, millet, quinoa, barley)]] (7 sources)
 
 Bridge / coarse-grained node (broad author-scope page spanning rows 5–6 above; surfaced so its evidence stays visible while the rice/non-rice split fills in):
 
@@ -108,16 +108,16 @@ Bridge / coarse-grained node (broad author-scope page spanning rows 5–6 above;
 
 These pages carry the Category 4 Step 0 lock (16 rows). Five within-row clean/contaminated splits document categorical metal-load differences: spinach (Cd) split from leafy vegetables; soy and peanut (each carrying their own platform load) split from legumes/pulses; cashew (Ni) and sunflower seed (Cd) each split from nuts and seeds; peanut butter and sunflower seed butter inherit from their whole-kernel parents within the nut and seed butters family.
 
-- [[products/fresh-fruit|Fresh and Frozen Fruits]] (37 sources)
+- [[products/fresh-fruit|Fresh and Frozen Fruits]] (38 sources)
 - [[products/dried-fruit|Dried Fruit]] (5 sources)
 - [[products/fruit-snacks|Fruit Snacks]] (1 source)
-- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (12 sources)
-- [[products/spinach|Spinach]] (9 sources)
-- [[products/non-root-vegetables|Non-Root Vegetables]] (25 sources)
-- [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (24 sources)
-- [[products/legumes-pulses-other|Legumes and Pulses, Other]] (6 sources)
-- [[products/soy-products|Soy Products]] (1 source)
-- [[products/peanuts|Peanuts]] (10 sources)
+- [[products/leafy-vegetables-other|Leafy / Green Vegetables, Other]] (15 sources)
+- [[products/spinach|Spinach]] (11 sources)
+- [[products/non-root-vegetables|Non-Root Vegetables]] (28 sources)
+- [[products/root-tuber-vegetables|Root and Tuber Vegetables]] (28 sources)
+- [[products/legumes-pulses-other|Legumes and Pulses, Other]] (9 sources)
+- [[products/soy-products|Soy Products]] (3 sources)
+- [[products/peanuts|Peanuts]] (12 sources)
 - [[products/nuts-seeds-other|Nuts and Seeds, Other]] (5 sources)
 - [[products/cashews|Cashews]] (6 sources)
 - [[products/sunflower-seeds|Sunflower Seeds]] (8 sources)
@@ -135,7 +135,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/vegetable-juices-non-root]] (2 sources)
 - [[products/vegetable-juices-root-vegetable-containing]] (0 sources)
 - [[products/plant-milks-non-soy-non-rice]] (2 sources)
-- [[products/plant-milks-soy-based]] (2 sources)
+- [[products/plant-milks-soy-based]] (3 sources)
 - [[products/plant-milks-rice-based]] (5 sources) — RETIRED, routes to Category 3 row 10 (Rice beverages) when built
 - [[products/flavored-waters]] (1 source)
 - [[products/sports-energy-drinks]] (0 sources)
@@ -144,7 +144,7 @@ These pages carry the first Category 5 beverage comparison layer. The locked row
 - [[products/matcha]] (1 source)
 - [[products/tea|Tea (coarse, all types — spans true-tea and herbal-infusion rows)]] (18 sources)
 - [[products/coffee]] (11 sources)
-- [[products/soft-drinks-carbonated-beverages]] (2 sources)
+- [[products/soft-drinks-carbonated-beverages]] (3 sources)
 - [[products/fermented-beverages-non-tea-based]] (2 sources)
 - [[products/kombucha-tea-based]] (1 source)
 - [[products/regulatory-crosswalk-field-findings]] (5 sources)
@@ -186,7 +186,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 7. [[products/chocolate|Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)]] (17 sources)
 8. [[products/spices|Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)]] (35 sources)
 9. [[products/salt|Salt (table, sea, Himalayan)]] (3 sources)
-10. [[products/snacks-general|Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)]] (0 sources)
+10. [[products/snacks-general|Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)]] (1 source)
    - [[products/snacks-crackers-biscuits|Crackers and biscuits]] (14 sources)
    - [[products/snack-bars-energy-bars|Snack and energy bars]] (2 sources)
    - [[products/biscuits|Biscuits]] (1 source)
@@ -253,11 +253,11 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 1. [[products/beef-product|Beef]] (11 sources)
 2. [[products/pork-product|Pork]] (5 sources)
-3. [[products/lamb-mutton|Lamb/mutton]] (3 sources)
+3. [[products/lamb-mutton|Lamb/mutton]] (4 sources)
 4. [[products/poultry-product|Poultry (chicken, turkey, duck)]] (28 sources)
 5. [[products/game-meats|Game meats (venison, bison, rabbit)]] (11 sources)
 6. [[products/eggs-product|Eggs]] (7 sources)
-7. [[products/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] (8 sources)
+7. [[products/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] (9 sources)
 8. [[products/canned-meats|Canned meats (with tin flag)]] (0 sources)
 
 ## HMTc Category 12: Household Cleaning and Dishwashing
@@ -532,20 +532,20 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 
 _Auto-managed by `tools/autonomy/link-orphans.mjs`. Pages listed here exist in this directory but were not yet placed in a curated index section above. A future structural pass relocates them to proper category sections._
 
-- [[products/cereal-meals|Cereal Meals]]
-- [[products/cereal-products|Cereal Products]]
-- [[products/dietary-supplements|Dietary Supplements]]
-- [[products/infant-and-child-foods-master|Infant And Child Foods Master]]
-- [[products/infant-cereal|Infant Cereal]]
-- [[products/infant-food-fruits|Infant Food Fruits]]
-- [[products/infant-food-powder|Infant Food Powder]]
-- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]]
-- [[products/infant-food-vegetables|Infant Food Vegetables]]
-- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]]
-- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]]
-- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]]
-- [[products/infant-formula-stage1|Infant Formula Stage1]]
-- [[products/nutritional-beverage-child|Nutritional Beverage Child]]
-- [[products/piercing-post-assemblies|Piercing Post Assemblies]]
-- [[products/tea-infusions|Tea Infusions]]
+- [[products/cereal-meals|Cereal Meals]] (1 source)
+- [[products/cereal-products|Cereal Products]] (2 sources)
+- [[products/dietary-supplements|Dietary Supplements]] (11 sources)
+- [[products/infant-and-child-foods-master|Infant And Child Foods Master]] (34 sources)
+- [[products/infant-cereal|Infant Cereal]] (12 sources)
+- [[products/infant-food-fruits|Infant Food Fruits]] (1 source)
+- [[products/infant-food-powder|Infant Food Powder]] (1 source)
+- [[products/infant-food-ready-to-eat|Infant Food Ready To Eat]] (1 source)
+- [[products/infant-food-vegetables|Infant Food Vegetables]] (1 source)
+- [[products/infant-formula-powder-dairy|Infant Formula Powder Dairy]] (2 sources)
+- [[products/infant-formula-rtf-dairy|Infant Formula Rtf Dairy]] (1 source)
+- [[products/infant-formula-rtf-soy|Infant Formula Rtf Soy]] (1 source)
+- [[products/infant-formula-stage1|Infant Formula Stage1]] (1 source)
+- [[products/nutritional-beverage-child|Nutritional Beverage Child]] (1 source)
+- [[products/piercing-post-assemblies|Piercing Post Assemblies]] (1 source)
+- [[products/tea-infusions|Tea Infusions]] (16 sources)
 <!-- END: hmi-auto-linked-stubs -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-detergents",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3b8870c6edb8c24b00b6409173ade36b7270404bff7be610f39b06290de4b6a1",
-      "content_bytes": 7714,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "4cd1c560efc8496fb0e4a55ef0b6a4772caaec312213ffe602b33a60022a77dc",
+      "content_bytes": 7624,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/laundry-detergents.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/laundry-detergents.md | sha256sum"
     }
   },
   "evidence_base": {

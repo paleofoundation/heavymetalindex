@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: bottled-drinking-water
 public_page: products/bottled-drinking-water
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Bottled drinking water (purified, spring, artesian)

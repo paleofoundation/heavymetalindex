@@ -1,10 +1,85 @@
 {
-  "generated_at": "2026-05-30T19:50:16.240Z",
+  "generated_at": "2026-05-31T16:38:28.778Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
-  "total_events": 708,
+  "total_events": 716,
   "categories_touched": 23,
   "recent_global": [
+    {
+      "id": "57bc94b8f1aa8b1e",
+      "date": "2026-05-31",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cd in fruit-purees confidence null → low.",
+      "affected_categories": [
+        "products/fruit-juice-not-canned",
+        "products/fruit-purees"
+      ],
+      "page_url": "https://heavymetalindex.com/ingredients/fruit-purees"
+    },
+    {
+      "id": "4cc85ff445b94da0",
+      "date": "2026-05-31",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tAs in non-root-vegetable-purees confidence null → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetable-purees"
+    },
+    {
+      "id": "3391e1315f9527ba",
+      "date": "2026-05-31",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in non-root-vegetable-purees confidence null → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetable-purees"
+    },
+    {
+      "id": "312f1b96b8d14cf8",
+      "date": "2026-05-31",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in root-vegetable-purees confidence null → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/root-vegetable-purees"
+    },
+    {
+      "id": "3fb359bd28bc9587",
+      "date": "2026-05-31",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tAs in root-vegetable-purees confidence null → low.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/root-vegetable-purees"
+    },
+    {
+      "id": "189c7405c3abafd8",
+      "date": "2026-05-31",
+      "scope": "synthesis",
+      "kind": "synthesis_shift_up",
+      "detail": "Pb in spices synthesis moved up 126.6x (typical [0.003,23.7]→[100,3000] ppb, p95 2411→null).",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/spices"
+    },
+    {
+      "id": "62d8fd6d0885ef2c",
+      "date": "2026-05-31",
+      "scope": "synthesis",
+      "kind": "synthesis_shift_up",
+      "detail": "Cd in spices synthesis moved up 6.2x (typical [0.001,80.8]→[30,500] ppb, p95 1023→null).",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/spices"
+    },
+    {
+      "id": "0dbe69401c47112f",
+      "date": "2026-05-31",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cd in spices confidence low → high.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/spices"
+    },
     {
       "id": "cf3203b10ccf9797",
       "date": "2026-05-30",
@@ -397,78 +472,6 @@
       "scope": "synthesis",
       "kind": "synthesis_new",
       "detail": "Literature evidence first populated for Pb in coffee (n=5, medium confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "f0148ba746d6ac20",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cd in coffee (n=5, medium confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "7dc1cd69565cc034",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Ni in coffee (n=4, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "75e40f338ada14c7",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Al in coffee (n=4, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "70e542d0aa450716",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tAs in coffee (n=3, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "246aa54136f2f466",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for Cr in coffee (n=3, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "87c8f3e1fa7115e5",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for iAs in coffee (n=2, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "e0092475f4af8146",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for tHg in coffee (n=2, low confidence).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/coffee"
-    },
-    {
-      "id": "b7bd3525ae988210",
-      "date": "2026-05-16",
-      "scope": "synthesis",
-      "kind": "synthesis_new",
-      "detail": "Literature evidence first populated for U in coffee (n=1, low confidence).",
       "affected_categories": [],
       "page_url": "https://heavymetalindex.com/ingredients/coffee"
     }
@@ -1690,8 +1693,20 @@
       "slug": "products/fruit-juice-not-canned",
       "label": "Fruit juice (not canned)",
       "category_label": "Infant and Child Foods",
-      "event_count": 14,
+      "event_count": 15,
       "recent_events": [
+        {
+          "id": "57bc94b8f1aa8b1e",
+          "date": "2026-05-31",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in fruit-purees confidence null → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-purees"
+        },
         {
           "id": "66bcd7c6fce6feb1",
           "date": "2026-05-16",
@@ -2002,8 +2017,20 @@
       "slug": "products/fruit-purees",
       "label": "Fruit purees (general)",
       "category_label": "Infant and Child Foods",
-      "event_count": 11,
+      "event_count": 12,
       "recent_events": [
+        {
+          "id": "57bc94b8f1aa8b1e",
+          "date": "2026-05-31",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in fruit-purees confidence null → low.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/fruit-purees"
+        },
         {
           "id": "66bcd7c6fce6feb1",
           "date": "2026-05-16",

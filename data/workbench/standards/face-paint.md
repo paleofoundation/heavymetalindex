@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: face-paint
 public_page: products/face-paint
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Face Paint

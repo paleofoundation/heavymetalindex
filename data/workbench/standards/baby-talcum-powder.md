@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-talcum-powder
 public_page: products/baby-talcum-powder
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Baby Talcum Powder

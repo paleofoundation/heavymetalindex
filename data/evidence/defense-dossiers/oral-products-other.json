@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/oral-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "97bc8994847ac08d8994f218dc5e259eceacd87a6d625e2cde99eb43f93d1b73",
-      "content_bytes": 7573,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "081328dcbfc01e4d8ece01c8fea2bb9909dd495a0dd2ad218d1c5bc5b291666e",
+      "content_bytes": 7483,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/oral-products-other.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/oral-products-other.md | sha256sum"
     }
   },
   "evidence_base": {

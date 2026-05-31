@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/appliance-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5a4663dd25af32e29982a3ecc723fff4e2001d87a1271137c3024e5b53434e4f",
-      "content_bytes": 7702,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "b96df63e57c87944ac9738f080d4f12c56842fe7ff439fe3813be2a0f6c78894",
+      "content_bytes": 7612,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/appliance-cleaners.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/appliance-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

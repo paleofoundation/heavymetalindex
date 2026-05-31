@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/anti-static-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "13ad167ae55cdbf99db6570594958828a45ae0d8b57582b720b02ff5d5784a47",
-      "content_bytes": 7627,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "0fb5e70548d857179e8ccb5c41ae9d064caf7ca0c38531d6b92dc228349ee4f1",
+      "content_bytes": 7537,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/anti-static-products.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/anti-static-products.md | sha256sum"
     }
   },
   "evidence_base": {

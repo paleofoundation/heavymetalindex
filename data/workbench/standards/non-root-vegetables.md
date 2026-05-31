@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: non-root-vegetables
 public_page: products/non-root-vegetables
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Non-Root Vegetables

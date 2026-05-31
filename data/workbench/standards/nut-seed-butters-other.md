@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: nut-seed-butters-other
 public_page: products/nut-seed-butters-other
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 # Workbench standards snapshot — Nut and Seed Butters, Other

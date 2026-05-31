@@ -13,18 +13,18 @@ One version-pinned evidence dossier per certified product category, assembling t
 
 - [[dossiers/cashews|Cashews]] — 6 contributing sources
 - [[dossiers/dried-fruit|Dried Fruit]] — 5 contributing sources
-- [[dossiers/fresh-fruit|Fresh Fruit]] — 36 contributing sources
+- [[dossiers/fresh-fruit|Fresh Fruit]] — 37 contributing sources
 - [[dossiers/fruit-snacks|Fruit Snacks]] — 1 contributing source
-- [[dossiers/leafy-vegetables-other|Leafy / Green Vegetables, Other]] — 12 contributing sources
-- [[dossiers/legumes-pulses-other|Legumes and Pulses, Other]] — 6 contributing sources
-- [[dossiers/non-root-vegetables|Non-Root Vegetables]] — 25 contributing sources
+- [[dossiers/leafy-vegetables-other|Leafy / Green Vegetables, Other]] — 15 contributing sources
+- [[dossiers/legumes-pulses-other|Legumes and Pulses, Other]] — 9 contributing sources
+- [[dossiers/non-root-vegetables|Non-Root Vegetables]] — 28 contributing sources
 - [[dossiers/nut-seed-butters-other|Nut and Seed Butters, Other]] — 1 contributing source
 - [[dossiers/nuts-seeds-other|Nuts and Seeds, Other]] — 5 contributing sources
 - [[dossiers/peanut-butter|Peanut Butter]] — 5 contributing sources
-- [[dossiers/peanuts|Peanuts]] — 10 contributing sources
-- [[dossiers/root-tuber-vegetables|Root and Tuber Vegetables]] — 24 contributing sources
-- [[dossiers/soy-products|Soy Products]] — 1 contributing source
-- [[dossiers/spinach|Spinach]] — 9 contributing sources
+- [[dossiers/peanuts|Peanuts]] — 12 contributing sources
+- [[dossiers/root-tuber-vegetables|Root and Tuber Vegetables]] — 28 contributing sources
+- [[dossiers/soy-products|Soy Products]] — 3 contributing sources
+- [[dossiers/spinach|Spinach]] — 11 contributing sources
 - [[dossiers/sunflower-seed-butter|Sunflower Seed Butter]] — 0 contributing sources
 - [[dossiers/sunflower-seeds|Sunflower Seeds]] — 8 contributing sources
 
@@ -91,7 +91,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/infant-bottle-nipples|Bottle nipples and spouts]] — 0 contributing sources
 - [[dossiers/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] — 9 contributing sources
 - [[dossiers/infant-bottles|Bottles (plastic, glass, stainless steel)]] — 0 contributing sources
-- [[dossiers/bread-and-baked-goods|Bread and baked goods]] — 11 contributing sources
+- [[dossiers/bread-and-baked-goods|Bread and baked goods]] — 12 contributing sources
 - [[dossiers/breath-fresheners|Breath fresheners (sprays/strips/lozenges)]] — 0 contributing sources
 - [[dossiers/butter-and-ghee|Butter and ghee]] — 3 contributing sources
 - [[dossiers/pet-supplements-calming-behavioral|Calming/behavioral supplements]] — 0 contributing sources
@@ -147,7 +147,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/floor-cleaners-hard-surface|Floor cleaners (hard surface)]] — 0 contributing sources
 - [[dossiers/floor-finishes-strippers|Floor finishes & strippers (if included in HMTc scope)]] — 0 contributing sources
 - [[dossiers/floss-interdental-cleaners|Floss and interdental cleaners (floss, picks, interdental brushes, woodsticks)]] — 0 contributing sources
-- [[dossiers/flour-non-rice|Flour (wheat, corn, other)]] — 8 contributing sources
+- [[dossiers/flour-non-rice|Flour (wheat, corn, other)]] — 10 contributing sources
 - [[dossiers/food-packaging-foils-wraps|Foils/wraps]] — 0 contributing sources
 - [[dossiers/food-prep-processor-bowls|Food processor bowls]] — 0 contributing sources
 - [[dossiers/supplements-bars-labeled|Food-like forms: bars (when labeled as supplement)]] — 0 contributing sources
@@ -183,7 +183,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/food-prep-kettle-interiors|Kettle interiors]] — 0 contributing sources
 - [[dossiers/kitchen-countertop-cleaners|Kitchen/countertop cleaners]] — 0 contributing sources
 - [[dossiers/kombucha-tea-based|kombucha-tea-based]] — 1 contributing source
-- [[dossiers/lamb-mutton|Lamb/mutton]] — 3 contributing sources
+- [[dossiers/lamb-mutton|Lamb/mutton]] — 4 contributing sources
 - [[dossiers/laundry-detergent-boosters-additives|Laundry detergent boosters/additives]] — 0 contributing sources
 - [[dossiers/laundry-detergents|Laundry detergents (liquid, powder, pods/sheets, delicates)]] — 0 contributing sources
 - [[dossiers/laundry-prewash-products|Laundry prewash products]] — 0 contributing sources
@@ -224,7 +224,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/supplements-oral-solids-tablets|Oral solids: tablets/caplets]] — 1 contributing source
 - [[dossiers/cooking-oils-other|Other cooking oils (canola, sunflower, coconut, avocado, sesame)]] — 9 contributing sources
 - [[dossiers/fabric-contact-products-other|Other fabric-contact home products (case-by-case)]] — 0 contributing sources
-- [[dossiers/other-grain-products|Other grain products (oat, millet, quinoa, barley)]] — 5 contributing sources
+- [[dossiers/other-grain-products|Other grain products (oat, millet, quinoa, barley)]] — 7 contributing sources
 - [[dossiers/home-air-emission-products-other|Other home-air emission products (case-by-case, inhalation prioritized)]] — 0 contributing sources
 - [[dossiers/household-specialty-cleaners-other|Other household specialty cleaners (by functional use-case)]] — 0 contributing sources
 - [[dossiers/leave-on-preparations-other|Other leave-on preparations (case-by-case)]] — 0 contributing sources
@@ -237,14 +237,14 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/pacifiers-and-sucking-teething-aids|Pacifiers and sucking/teething aids]] — 0 contributing sources
 - [[dossiers/food-packaging-paperboard-cartons|Paperboard cartons]] — 0 contributing sources
 - [[dossiers/pasta-rice-based|Pasta (rice-based)]] — 0 contributing sources
-- [[dossiers/pasta-wheat-based|Pasta (wheat-based)]] — 3 contributing sources
+- [[dossiers/pasta-wheat-based|Pasta (wheat-based)]] — 4 contributing sources
 - [[dossiers/period-underwear-reusable-garments|Period underwear and reusable menstrual garments]] — 0 contributing sources
 - [[dossiers/permanent-hair-dyes-tints|Permanent hair dyes/tints (remain in hair after application)]] — 2 contributing sources
 - [[dossiers/pet-chews-dental|Pet chews (including dental chews)]] — 0 contributing sources
 - [[dossiers/pet-treats-snacks|Pet treats/snacks]] — 0 contributing sources
 - [[dossiers/plant-milks-non-soy-non-rice|plant-milks-non-soy-non-rice]] — 2 contributing sources
 - [[dossiers/plant-milks-rice-based|plant-milks-rice-based]] — 5 contributing sources
-- [[dossiers/plant-milks-soy-based|plant-milks-soy-based]] — 2 contributing sources
+- [[dossiers/plant-milks-soy-based|plant-milks-soy-based]] — 3 contributing sources
 - [[dossiers/tableware-plastic-drinkware|Plastic drinkware]] — 0 contributing sources
 - [[dossiers/food-storage-plastic-containers|Plastic food storage containers]] — 0 contributing sources
 - [[dossiers/food-packaging-plastic-tubs|Plastic tubs]] — 0 contributing sources
@@ -256,14 +256,14 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/poultry-product|Poultry (chicken, turkey, duck)]] — 28 contributing sources
 - [[dossiers/pre-treaters-stain-removers|Pre-treaters (spray/gel/stick) and stand-alone stain/spot removers]] — 0 contributing sources
 - [[dossiers/pet-supplements-probiotics-digestive|Probiotics/digestive aids]] — 0 contributing sources
-- [[dossiers/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] — 8 contributing sources
+- [[dossiers/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] — 9 contributing sources
 - [[dossiers/toys-projectile-guns|Projectile toys and toy guns]] — 0 contributing sources
 - [[dossiers/toys-rattles|Rattles]] — 0 contributing sources
 - [[dossiers/pet-food-raw|Raw pet foods (frozen/chilled raw diets)]] — 0 contributing sources
 - [[dossiers/air-product-refill-materials|Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills)]] — 0 contributing sources
-- [[dossiers/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] — 25 contributing sources
+- [[dossiers/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] — 27 contributing sources
 - [[dossiers/rice-beverages-rice-milk|Rice beverages (rice milk)]] — 2 contributing sources
-- [[dossiers/rice-noodles|Rice noodles]] — 0 contributing sources
+- [[dossiers/rice-noodles|Rice noodles]] — 1 contributing source
 - [[dossiers/rice-snacks-crackers|Rice snacks/crackers]] — 7 contributing sources
 - [[dossiers/rinse-aids|Rinse aids]] — 0 contributing sources
 - [[dossiers/salt|Salt (table, sea, Himalayan)]] — 2 contributing sources
@@ -277,7 +277,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]] — 18 contributing sources
 - [[dossiers/food-storage-silicone|Silicone food storage]] — 0 contributing sources
 - [[dossiers/sippy-cups-toddler-drinkware|Sippy cups and toddler drinkware components]] — 0 contributing sources
-- [[dossiers/soft-drinks-carbonated-beverages|soft-drinks-carbonated-beverages]] — 2 contributing sources
+- [[dossiers/soft-drinks-carbonated-beverages|soft-drinks-carbonated-beverages]] — 3 contributing sources
 - [[dossiers/toys-sound-producing|Sound-producing toys]] — 0 contributing sources
 - [[dossiers/sparkling-carbonated-water|Sparkling/carbonated water (unflavored)]] — 0 contributing sources
 - [[dossiers/cookware-specialty-alloy|Specialty alloy cookware (copper, carbon steel)]] — 0 contributing sources

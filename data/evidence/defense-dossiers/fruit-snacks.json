@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fruit-snacks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1011390376d2e541d0a568301c8c623546d66042916ce68bfcf71b6eec56749e",
-      "content_bytes": 9362,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "eefeadf15e7c1fdacffa7d62a5a4112a96a1a54392bbcb93c739f8b0cca05141",
+      "content_bytes": 9272,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/fruit-snacks.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/fruit-snacks.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-arsenic-rice-cereal-analytic-results",
         "content_pin": {
-          "content_sha256": "32df69921f8c54ebd60eebcc9b73faef5b0f9de18f21505c569814d583d35d10",
-          "content_bytes": 5376,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "b1d9d02dbc19fb422b35835d80f499393f657fa950b610224e3ff9779829bbca",
+          "content_bytes": 5286,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/fda2016-arsenic-rice-cereal-analytic-results.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/fda2016-arsenic-rice-cereal-analytic-results.md | sha256sum"
         }
       }
     ]

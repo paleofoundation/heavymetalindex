@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/nut-seed-butters-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "415d90806089c0a9086519bcc3a44b349286235ff6cfaf8e2316c10a809fcb0e",
-      "content_bytes": 10311,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "635a0e9135d986b878915709cf55eacedb643d9255c4ff65550ac15d3a5c127e",
+      "content_bytes": 10221,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/nut-seed-butters-other.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/nut-seed-butters-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/potorti2026-tahini-quality-safety-inorganic-elements",
         "content_pin": {
-          "content_sha256": "f84d4d31c9f04adfafc92858702c7a0587f9f6340d9859adf106c88bc3183295",
-          "content_bytes": 11040,
-          "last_commit_sha": "9658f6b",
-          "last_commit_date": "2026-05-30",
+          "content_sha256": "a01a6c3fa5ac8b3c8f8509e937ad715812c0439ac286eb1b119017ccdab992c2",
+          "content_bytes": 10950,
+          "last_commit_sha": "22b1fec",
+          "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9658f6b:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
+          "verify_command": "git show 22b1fec:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
         }
       }
     ]

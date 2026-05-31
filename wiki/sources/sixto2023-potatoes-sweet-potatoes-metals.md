@@ -86,3 +86,12 @@ For standards and app work, the values should remain market-specific and basis-s
 - Basis: all concentration values are mg/kg fresh weight. The paper's peeled and whole product forms should remain distinct in any downstream pooling.
 - Geographic scope: Uruguay market samples from UAM; keep separate from US-market benchmark pools unless governance documents cross-market use.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d47f995](https://github.com/paleofoundation/heavymetalindex/commit/d47f995) | 2026-05-31 | ingest auto-fetched 2026-05-31 1634 batch 1: 2 source pages |
+<!-- END: hmi-page-history -->

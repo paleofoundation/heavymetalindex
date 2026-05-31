@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/walkers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ea7b1dcc922f017464e258d70cf752cf1dd0d336fc035b994bac9be65bdab57f",
-      "content_bytes": 7440,
-      "last_commit_sha": "9658f6b",
-      "last_commit_date": "2026-05-30",
+      "content_sha256": "2bce9e4b74dd2f00e66b84b80ede958d75f49350c8b366885784d003d08f2dec",
+      "content_bytes": 7350,
+      "last_commit_sha": "22b1fec",
+      "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9658f6b:wiki/products/walkers.md | sha256sum"
+      "verify_command": "git show 22b1fec:wiki/products/walkers.md | sha256sum"
     }
   },
   "evidence_base": {
