@@ -39,6 +39,31 @@ const sourcesDir = path.join(repoRoot, "wiki/sources")
 const registerPath = path.join(repoRoot, "data/evidence/remediation_register.jsonl")
 const schemaPath = path.join(repoRoot, "data/evidence/schemas/remediation-record.schema.json")
 
+// Single-writer lock. The daemon (Step 3c.6) and any manual run both append
+// to the register and both dedup by cite_key at START, so two concurrent runs
+// could pick the same next candidates and write colliding record_ids. This
+// lock serializes them (same pattern as codex-sprint.lock / daemon.lock).
+const lockDir = path.join(repoRoot, "data/evidence/autonomy")
+const lockPath = path.join(lockDir, "remediation-extract.lock")
+if (!dryRun && !listOnly) {
+  fs.mkdirSync(lockDir, { recursive: true })
+  if (fs.existsSync(lockPath)) {
+    try {
+      const otherPid = parseInt(fs.readFileSync(lockPath, "utf8").trim(), 10)
+      if (otherPid && process.kill(otherPid, 0)) {
+        console.log(`Another remediation extraction is running (PID ${otherPid}). Skipping.`)
+        process.exit(0)
+      }
+    } catch {}
+    try { fs.unlinkSync(lockPath) } catch {}
+  }
+  fs.writeFileSync(lockPath, String(process.pid), "utf8")
+  const release = () => { try { fs.unlinkSync(lockPath) } catch {} }
+  process.on("exit", release)
+  process.on("SIGINT", () => { release(); process.exit(1) })
+  process.on("SIGTERM", () => { release(); process.exit(1) })
+}
+
 // Signal terms that mark a source as likely to carry driver/intervention intel.
 const SIGNAL = /\b(remediat|mitigat|reduc(e|tion|ing)|amendment|biochar|liming|lime |wollastonite|phosphate|fertiliz|fertili[sz]ation|water management|wetting|drying|\bAWD\b|cultivar|genotype|microbiom|bacteri|inocul|rhizosard|silicon|foliar|uptake|translocation|transfer factor|bioavailab|bioaccessib|soil pH|redox|flooding|paddy|washing|soaking|cooking|processing|sourcing|seasonal|geolog|tailings|mining|irrigation)\b/i
 
