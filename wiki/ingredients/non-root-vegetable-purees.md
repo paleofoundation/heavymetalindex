@@ -19,7 +19,7 @@ contamination_profile:
     p95_ppb: 1.51
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-30
+    last_reviewed: 2026-05-31
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -29,18 +29,18 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 5]
+    p95_ppb: 5
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-31
   tHg:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 1.5]
+    p95_ppb: 1.5
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-31
   Ni:
     status: populated
     typical_ppb: [null, null]

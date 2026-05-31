@@ -52,11 +52,16 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import { randomUUID } from "node:crypto"
 
 const repoRoot = process.cwd()
 const aggregatePath = path.join(repoRoot, "data/evidence/hmtc_aggregate_distributions.csv")
 const ingredientsDir = path.join(repoRoot, "wiki/ingredients")
 const eventsLogPath = path.join(repoRoot, "data/evidence/review_events.jsonl")
+// Every automated wiki edit must leave a provenance row here (enforced by the
+// pre-commit write barrier). Synthesis is deterministic, so the row records the
+// pooling engine as the editor rather than an LLM.
+const wikiEditAuditPath = path.join(repoRoot, "data/evidence/wiki_edit_audit.jsonl")
 const today = new Date().toISOString().slice(0, 10)
 const autonomyDir = path.join(repoRoot, "data/evidence/autonomy")
 const reportPath = path.join(autonomyDir, `synthesis-report-${today}.md`)
@@ -87,11 +92,26 @@ for (const r of aggRows) {
 
 const events = []
 const pageChanges = []
+const reviewQueue = []
+const auditRows = []
 let pagesScanned = 0
 let pagesUpdated = 0
 let cellsUpdated = 0
 let cellsSkipped = 0
 let cellsUnchanged = 0
+let cellsReview = 0
+
+// A pooled cell whose reconstruction is at least this share weak single-value
+// methods is held back from public auto-publish and routed to staff review.
+const WEAK_RECON_MAX_SHARE = 0.5
+const WEAK_RECON_METHODS = new Set([
+  "single_point",
+  "uniform_max_only",
+  "uniform_range_only",
+  "lognormal_mean_only",
+  "lognormal_lod_censored_midpoint",
+])
+const reviewQueuePath = path.join(autonomyDir, `synthesis-review-required-${today}.csv`)
 
 for (const [slug, metalMap] of bySlug) {
   if (pagesUpdated >= maxPages) break
@@ -114,6 +134,7 @@ for (const [slug, metalMap] of bySlug) {
 
   let newCpBlock = cpBlock
   let pageHadChange = false
+  const changedMetals = []
 
   for (const [metal, row] of metalMap) {
     const decision = synthesisDecision(row)
@@ -153,6 +174,31 @@ for (const [slug, metalMap] of bySlug) {
       continue
     }
 
+    // Public-page conservatism: refuse to auto-publish a cell whose pooled
+    // distribution is dominated by weak single-value reconstructions
+    // (single_point, uniform_*_only, mean-only, lod-midpoint). Two reconstructed
+    // means do not make a defensible public percentile range even when the cell
+    // clears the engine's ≥2-distinct-source gate. Route these to staff review
+    // instead of a public ingredient page. The engine still marks them
+    // READY/PROVISIONAL so the staff workbench sees them; this guard governs
+    // only public auto-publish (OPERATING.md Part 6: no overstated confidence).
+    const weakShare = weakReconShare(row)
+    if (weakShare >= WEAK_RECON_MAX_SHARE) {
+      cellsReview += 1
+      reviewQueue.push({
+        slug,
+        metal,
+        verdict: row.verdict,
+        distinct_sources: decision.n_studies,
+        weak_recon_share: Number(weakShare.toFixed(2)),
+        pooled_p10: row.pooled_p10 ?? "",
+        pooled_p90: row.pooled_p90 ?? "",
+        pooled_p95: row.pooled_p95 ?? "",
+        reason: "weak_reconstruction_dominant",
+      })
+      continue
+    }
+
     const newSub = updateMetalSubBlock(metalSub.text, decision)
     if (newSub === metalSub.text) {
       cellsUnchanged += 1
@@ -162,6 +208,7 @@ for (const [slug, metalMap] of bySlug) {
     newCpBlock = newCpBlock.slice(0, metalSub.start) + newSub + newCpBlock.slice(metalSub.end)
     cellsUpdated += 1
     pageHadChange = true
+    changedMetals.push(metal)
 
     events.push({
       ts: new Date().toISOString(),
@@ -190,6 +237,19 @@ for (const [slug, metalMap] of bySlug) {
 
     pageChanges.push({ slug, pagePath, before: cpBlock, after: newCpBlock })
 
+    auditRows.push({
+      edit_id: randomUUID(),
+      page: `wiki/ingredients/${slug}.md`,
+      span_id: `contamination_profile:${changedMetals.join(",")}`,
+      source_document:
+        "hmtc-pooling-engine | data/evidence/hmtc_aggregate_distributions.csv",
+      retrieval_date: today,
+      models_used: ["deterministic/hmtc-pooling-engine"],
+      model_agreement_state: "not_applicable",
+      applied_at: new Date().toISOString(),
+      commit_sha: "pending",
+    })
+
     if (!dryRun) fs.writeFileSync(pagePath, newRaw, "utf8")
   }
 }
@@ -199,6 +259,36 @@ for (const [slug, metalMap] of bySlug) {
 if (!dryRun && events.length > 0) {
   fs.mkdirSync(path.dirname(eventsLogPath), { recursive: true })
   fs.appendFileSync(eventsLogPath, events.map((e) => JSON.stringify(e)).join("\n") + "\n", "utf8")
+}
+
+// ---------- Persist wiki-edit audit rows (provenance write barrier) ----------
+
+if (!dryRun && auditRows.length > 0) {
+  fs.appendFileSync(
+    wikiEditAuditPath,
+    auditRows.map((r) => JSON.stringify(r)).join("\n") + "\n",
+    "utf8",
+  )
+}
+
+// ---------- Persist review queue (weak-reconstruction cells held from publish) ----------
+
+if (!dryRun && reviewQueue.length > 0) {
+  fs.mkdirSync(autonomyDir, { recursive: true })
+  const headers = [
+    "slug",
+    "metal",
+    "verdict",
+    "distinct_sources",
+    "weak_recon_share",
+    "pooled_p10",
+    "pooled_p90",
+    "pooled_p95",
+    "reason",
+  ]
+  const lines = [headers.join(",")]
+  for (const r of reviewQueue) lines.push(headers.map((h) => csvCell(r[h])).join(","))
+  fs.writeFileSync(reviewQueuePath, lines.join("\n") + "\n", "utf8")
 }
 
 // ---------- Report ----------
@@ -214,6 +304,9 @@ const reportLines = [
   `- Cells updated: ${cellsUpdated}`,
   `- Cells unchanged (already matched pooled values): ${cellsUnchanged}`,
   `- Cells skipped (verdict BLOCKED, pool too thin, or no usable evidence): ${cellsSkipped}`,
+  `- Cells held for staff review (weak-reconstruction-dominant, not auto-published): ${cellsReview}`,
+  ``,
+  `Held cells are logged to \`${path.relative(repoRoot, reviewQueuePath)}\` when any exist.`,
   ``,
   `## Cells written this run`,
   ``,
@@ -233,9 +326,31 @@ console.log(reportLines.slice(0, 8).join("\n"))
 // helpers
 // ============================================================================
 
+function weakReconShare(row) {
+  let contribs
+  try {
+    contribs = JSON.parse(row.contribution_log || "[]")
+  } catch {
+    return 1 // unparseable provenance → treat as weak (conservative)
+  }
+  const admitted = contribs.filter((c) => c && c.admitted)
+  if (admitted.length === 0) return 1
+  const weak = admitted.filter((c) => WEAK_RECON_METHODS.has(c.reconstruction_method)).length
+  return weak / admitted.length
+}
+
+function csvCell(v) {
+  const s = v === null || v === undefined ? "" : String(v)
+  if (/[",\n\r]/.test(s)) return `"${s.replace(/"/g, '""')}"`
+  return s
+}
+
 function synthesisDecision(row) {
   const verdict = String(row.verdict || "")
-  const nContrib = Number(row.sources_contributing || 0)
+  // Prefer distinct_sources (independent studies) over sources_contributing
+  // (admitted rows, which over-counts a single paper's multiple cohorts). The
+  // pooling engine emits both; n_studies and confidence must reflect studies.
+  const nContrib = Number(row.distinct_sources || row.sources_contributing || 0)
   const p10 = numOrNull(row.pooled_p10)
   const p50 = numOrNull(row.pooled_p50)
   const p90 = numOrNull(row.pooled_p90)
