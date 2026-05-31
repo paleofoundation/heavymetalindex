@@ -216,14 +216,16 @@ High data-ink ratio; restraint on color and chrome; the data is the interface.
 
 ---
 
-## 10. Open decisions for Karen
+## 10. Decisions (resolved 2026-05-31 per Karen's green light: "deliver the most value to brands possible while adhering to the governing principles")
 
-1. **Freemium / pay-to-pass line** — confirm: free public comparator + free remediation levers *including the effort axis* for certified brands; paid tier = operational intelligence. (Partly a pricing call.)
-2. **Dual-role data agreement** (§4.2) — confirm HMTc as processor for raw lots / controller for de-identified derivatives, so the DPA + neutral-retention-with-litigation-hold-override can be drafted.
-3. **Counsel-review gating** (§9) — confirm benchmark go-live and supplier-node intelligence ship behind a flag pending sign-off.
-4. **Supplier-node default** — confirm node specificity defaults off, cross-brand signal only at de-identified ingredient/region level.
-5. **Pool participation** — opt-in vs default-on-with-opt-out; sets how fast benchmarking clears the ≥10 floor.
-6. **JFM editorial independence** — a strategic decision distinct from this build: do you want to charter JFM as an independent venue (which would, in time, unlock the closed-loop→literature path)? Until then the firewall default is absolute, which is safe and costs nothing now.
+1. **Freemium / pay-to-pass line** — RESOLVED: free public comparator + free remediation levers *including the effort axis* for certified brands; paid tier = operational intelligence (tracking, supplier intel, board PDFs). Maximizes brand value; keeps the answer-key out of the paywall (P2/P5).
+2. **Dual-role data agreement** (§4.2) — RESOLVED: HMTc is processor for raw lots / independent controller for de-identified derivatives. Counsel drafts the DPA + neutral-retention-with-litigation-hold-override.
+3. **Counsel-review gating** (§9) — RESOLVED: benchmark go-live and supplier-node intelligence are built now behind feature flags and flipped on only after counsel sign-off. Build proceeds; launch waits on counsel.
+4. **Supplier-node default** — RESOLVED: node specificity defaults off; cross-brand signal only at the de-identified ingredient/region level.
+5. **Pool participation** — RESOLVED: opt-in (most defensible, P4), with value-forward onboarding to drive enrollment so benchmarking clears the ≥10 floor.
+6. **JFM editorial independence** — RESOLVED: yes, charter JFM as an independent, audit-passing venue. See `docs/jfm-launch-plan.md`. Until the charter + outside replication exist, the closed-loop→literature firewall default stays absolute.
+
+These are locked for the build. Anything on the OPERATING.md Part 4 ask-first list (naming brands, setting certification thresholds, public commercial-framing changes, real-user contact) still returns to Karen regardless of this green light.
 
 ---
 
