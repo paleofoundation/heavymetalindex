@@ -247,3 +247,27 @@ destination folder it was moved to.
   review cost of triaging these dissertations and antioxidant studies
   exceeds the value of the rare true positive that the current loose
   filter might catch.
+
+---
+
+## STOP — already-ingested PDF (FDA TDS FY2018-FY2020, Kimi corruption folder, 01_Fruits_and_Fruit_Products)
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/FDA Total Diet Study Report_ Fiscal Years 2018-2020 Elements Data.pdf`
+
+**Suggested handle:** `KADC_fda-total-diet-study-report-fiscal-years-2018-2020`
+
+**Identity-check result:**
+- SHA-256 of the candidate PDF: `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef`
+- SHA-256 of `raw/reports/2022_07_14_TDSElementsReport_1436.pdf`: identical match (bit-for-bit duplicate).
+- Existing primary narrative source page: `wiki/sources/fda-tds-elements-2018-2020.md` carries `raw_handle: manual-fetch-kimi`, `sha256: ba1f8c1ed5...`, `updated: 2026-05-20`.
+- Companion source pages (already filed): `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` (CSV companion) and `wiki/sources/fda2022-tds-elements-analytical-key.md` (key-PDF companion). Both are referenced from the narrative page's `near_duplicates:` field.
+
+**Skill v2.0 Phase 1 step 1 outcome:** the primary page is post-2026-05-14 clean (updated 2026-05-20), not in `routing_unresolved.csv`, and the narrative source's cite-key is not in `routing_malformed.csv`. The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies.
+
+**Audit history:** `fda-tds-elements-2018-2020.md` already received the v2.0 subagent audit on 2026-05-20 (verdict REVISE; four findings applied, one false positive documented, all five checks subsequently clean per the page's Verification notes section). Re-running the audit here would either duplicate the prior verdict or surface only false positives.
+
+**Companion-page advisory flags (NOT this PDF):** `routing_malformed.csv` lists `fda2022-tds-elements-analytical-key` (missing `products;ingredients`) and `fda2022-tds-elements-fy2018-fy2020` (missing `matrices`) as `advisory` — fall-back-to-broad-scope, non-blocking. Those are the CSV and key-PDF companion pages, not the narrative report this PDF embodies. They are out of scope for this wrapper invocation.
+
+**Action taken:** none. No ingest, no merge-enhance, no audit, no commit. PDF logged here so the next /loop tick (or the daemon's manual-fetch ingester) skips it without re-scanning.
+
+**Final line:** `STOP: pdf-already-ingested-clean fda-tds-elements-2018-2020 (sha256 match to raw/reports/2022_07_14_TDSElementsReport_1436.pdf; primary page updated 2026-05-20; audit completed 2026-05-20 verdict REVISE)`

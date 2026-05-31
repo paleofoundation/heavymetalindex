@@ -40,7 +40,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
 | [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
 
 ## Operational reminders
 

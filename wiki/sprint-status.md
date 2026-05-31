@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-30T19:47:49.285Z
+updated: 2026-05-31T16:08:16.023Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -9,7 +9,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 ## Headline
 
-**1240 / 2650 cells done (46.8%)** — 1410 remaining
+**1236 / 2650 cells done (46.6%)** — 1414 remaining
 
 Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
@@ -17,26 +17,26 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | State | Count | Counts as |
 |---|---|---|
-| confidence: high | 433 | ✅ done |
-| populated n=0 (declared gap) | 807 | ✅ done |
-| confidence: medium | 327 | ⏳ needs more sources |
-| confidence: low | 484 | ⏳ needs more sources |
-| pending / missing | 580 | 🔴 needs first research |
+| confidence: high | 434 | ✅ done |
+| populated n=0 (declared gap) | 802 | ✅ done |
+| confidence: medium | 326 | ⏳ needs more sources |
+| confidence: low | 486 | ⏳ needs more sources |
+| pending / missing | 583 | 🔴 needs first research |
 | other / unknown | 19 | 🟡 audit |
 
 ## Pipeline health
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 45 min ago (stale) |
+| Daemon heartbeat | ⚠️ 46 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 0 ✅ |
+| Audit queue: pending | 2 ✅ |
 | Audit queue: pending-audit-spawn-failed | 80 (async lane) |
-| Wishlist: total downloaded historically | 7 |
-| Wishlist: total ingested historically | 12 |
+| Wishlist: total downloaded historically | 19 |
+| Wishlist: total ingested historically | 3 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 14 |
-| Commits last 24 hours | 132 |
+| Commits last 1 hour | 22 |
+| Commits last 24 hours | 74 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-3c019e0 18 seconds ago — track auto-fetched ingests 2026-05-30 2200: 10 source pages
+f3839d2 78 seconds ago — apply audits auto-fetched 2026-05-31: 2 source pages
 ```
 
 ## How to read this

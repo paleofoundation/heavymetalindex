@@ -52,14 +52,14 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
 | [[metals/chromium-hexavalent\|Cr-VI]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/tin\|Sn]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 
