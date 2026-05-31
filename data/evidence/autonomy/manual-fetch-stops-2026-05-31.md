@@ -584,3 +584,53 @@ Existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evi
 This is the third already-ingested-post-cutoff-clean PDF surfaced in the `07_Processed_Foods_Snacks_Beverages/` Kimi-corruption-folder drain in this session, after `Determination of aluminium concentrations in black, green, and white tea samples` (ozturk2024) and `Elemental Composition of Japanese Matcha Powder and Infusions` (szymczykowska2026). The pattern is now well-established: the Kimi corruption folder's 07_Processed_Foods subfolder contains multiple SHA-mirrors of MFK_ roots already processed in the 2026-05-20 batch. A pre-tick wrapper-side audit-queue + sources-folder dedupe filter would short-circuit these before the skill is invoked. Three back-to-back already-clean rejections in the same subfolder is a strong enough signal to consider a one-pass dedupe sweep over the Kimi-corruption 07_Processed_Foods subfolder before the next ingest tick.
 
 **Final line:** `STOP: already-ingested-post-cutoff-clean bfr2022-nickel-dietary-intake-germany-meal (SHA-identical to MFK_ root; wiki/sources page updated 2026-05-20, audit-queue status audited-revised 2026-05-20, not in routing_malformed or routing_unresolved; per v2.0 skill Phase 1 step 1 candidate-selection rule, PDFs whose existing pages are post-2026-05-14 clean and not in malformed are skipped)`
+
+---
+
+## `KADC_the-heavy-metals-analyses-in-canned-tomato-paste-r` — SHA-identical duplicate of MFK_ root (already ingested 2026-05-20)
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste (Romanian study on sauces).pdf`
+**Suggested handle:** `KADC_the-heavy-metals-analyses-in-canned-tomato-paste-r`
+**Existing wiki page:** `wiki/sources/david2008-heavy-metals-canned-tomato-paste-romania.md`
+**Existing page `updated:`** `2026-05-20`
+**Audit-queue status:** `audited-revised` (verdict QUARANTINE, 7/8 findings applied 2026-05-20)
+**Stop reason:** Skill v2.0 Phase 1 step 1 candidate-selection rule
+
+### Identity confirmation
+
+- SHA-256 collision check across the two parenthetical-distinguished filenames in the KADC 07_Processed_Foods subfolder:
+  - `The heavy metals analyses in canned tomato paste.pdf` → `42fb8a5a543a05cd16e00af9cc98bc010c729592`
+  - `The heavy metals analyses in canned tomato paste (Romanian study on sauces).pdf` → `42fb8a5a543a05cd16e00af9cc98bc010c729592`
+  - Same SHA, same byte length (204,873 B). The "(Romanian study on sauces)" parenthetical is a Kimi-agent-side filename annotation, not a different paper.
+- Title-substring grep on `wiki/sources/` confirms `david2008-heavy-metals-canned-tomato-paste-romania.md` is the canonical page; six sibling tomato-related sources cover different studies (Belabid 2025, Shavali-Gilani 2025, Grochowska-Niedworok 2020, Kangre 2024, CFS 2012) and do not collide.
+- The existing page's `raw_path:` already references the un-parenthesized canonical MFK_ root in `raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/...`, and the page's 2026-05-20 verification note explicitly records the identical-byte duplication: *"identical file present in the folder under both `The heavy metals analyses in canned tomato paste.pdf` and `The heavy metals analyses in canned tomato paste (Romanian study on sauces).pdf`; same byte length, same content."*
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+Existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evidence/routing_unresolved.csv`, not in `data/evidence/routing_malformed.csv`. Audit verdict QUARANTINE with 7 of 8 findings applied 2026-05-20 (5 Part-12 brand-firewall replacements, Part-2 wiki/HMTc-firewall rewrite, regulation slug fix, redundant matrix slug drop, method endpoint expansion, calibration R-value precision). The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. Re-ingesting via the KADC_ root would either duplicate the page or regress the 2026-05-20 merge-enhance + audit-revise work.
+
+### Action taken
+
+- No ingest, no merge-enhance, no audit, no commit.
+- Stop note recorded here.
+- Wiki source page not modified; the prior 2026-05-20 merge-enhance + audit-revise remains canonical.
+
+### Upstream signal
+
+This is the fourth already-ingested-post-cutoff-clean PDF surfaced in the `07_Processed_Foods_Snacks_Beverages/` Kimi-corruption-folder drain in this session, following `ozturk2024` (aluminium in tea), `szymczykowska2026` (matcha), and `bfr2022-nickel-dietary-intake-germany-meal`. The pattern is consistent: the Kimi corruption 07_Processed_Foods subfolder contains multiple SHA-mirrors of MFK_ roots already processed in the 2026-05-20 batch. A pre-tick wrapper-side audit-queue + sources-folder dedupe filter would short-circuit these before the skill is invoked. Four back-to-back already-clean rejections in the same subfolder strengthens the case for a one-pass dedupe sweep over the Kimi-corruption 07_Processed_Foods subfolder before the next ingest tick.
+
+**Final line:** `STOP: already-ingested-post-cutoff-clean david2008-heavy-metals-canned-tomato-paste-romania (SHA-identical to MFK_ root; wiki/sources page updated 2026-05-20, audit-queue status audited-revised 2026-05-20 with 7/8 findings applied, not in routing_malformed or routing_unresolved; per v2.0 skill Phase 1 step 1 candidate-selection rule)`
+
+---
+
+## `KADC_the-heavy-metals-analyses-in-canned-tomato-paste` — SHA-identical sibling of the parenthetical variant above
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste.pdf`
+**Suggested handle:** `KADC_the-heavy-metals-analyses-in-canned-tomato-paste`
+**SHA-256:** `d55ba8748cd2c467df61ffd0b3de7f3076d6faca578e73f29cbedc7d44f829e9` (byte-identical to the `(Romanian study on sauces).pdf` filename variant covered in the preceding stop entry; the prior entry's `42fb8a5a…` digest is SHA-1 of the same file, not a different file)
+**Existing wiki page:** `wiki/sources/david2008-heavy-metals-canned-tomato-paste-romania.md` — `updated: 2026-05-20`, audit-queue `audited-revised`, not in `routing_malformed.csv` or `routing_unresolved.csv`.
+**Stop reason:** Skill v2.0 Phase 1 step 1 candidate-selection rule (PDFs whose existing pages are post-2026-05-14 clean and not in malformed are skipped). The full rationale is in the preceding `(Romanian study on sauces)` entry; both KADC filenames map to the same canonical David et al. 2008 paper already canonicalised under the MFK_ root.
+
+**Action taken:** No ingest, no merge-enhance, no audit, no commit beyond this stop note. The 2026-05-20 merge-enhance + audit-revise on `david2008-heavy-metals-canned-tomato-paste-romania.md` remains canonical.
+
+**Final line:** `STOP: SHA-identical duplicate of MFK_ root (david2008-heavy-metals-canned-tomato-paste-romania already updated 2026-05-20, audited-revised 7/8)`
