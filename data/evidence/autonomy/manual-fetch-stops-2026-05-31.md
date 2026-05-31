@@ -1085,3 +1085,81 @@ The existing page is **post-2026-05-14 and substantively clean**. The advisory-o
 This is the same "KADC sibling resolves to an already-canonical MFK_ ingest" pattern seen across 03_Olives_and_Pickles. 04_Condiments_and_Sauces now has its first confirmed-clean KADC skip (this row). If subsequent 04 sub-tree PDFs continue to resolve to clean MFK_ canonical pages, the recovery yield from KADC condiment_papers/04 will also trend toward zero, consistent with the corpus-level signal that the KADC tree is largely a duplicate of canonical MFK_/MR_ coverage.
 
 **Final line:** `STOP: page-already-current KADC_exposure-assessment-of-dietary-cadmium-findings-fr (resolves to he2013-shanghai-cadmium.md, updated 2026-05-28, audited REVISE, advisory-only routing entry intentional for exposure-assessment design)`
+
+## KADC_heavy-metal-contamination-of-hot-sauce-and-chili-p — PAGE ALREADY CURRENT
+
+### Identity
+
+- **PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/Heavy Metal Contamination of Hot Sauce and Chili Powder.pdf`
+- **SHA-256:** `a59c8e9c1018049ea2407beb494838976bc283171620782fc23b9e53c58aa936`
+- **Slug intent:** SPEX/ZeptoMetrix application note on Pb, Cd, As, Cr in US-retail chili powders and hot sauces.
+- **Resolves to existing canonical page:** `wiki/sources/spex2023-hot-sauce-chili-powder-metals.md`
+
+### Why stopped
+
+KADC sibling is SHA-identical to the MFK_ root at `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Heavy Metal Contamination of Hot Sauce and Chili Powder.pdf`. The MFK_ root tracker row (295) was already stopped 2026-05-28 with the same rationale: the wiki source page `spex2023-hot-sauce-chili-powder-metals.md` is post-2026-05-14 clean (`updated: 2026-05-17`), not in `routing_malformed.csv`, not in `routing_unresolved.csv`. The audit-queue records a 2026-05-17 Codex cross-vendor audit (verdict REVISE, 6/6 findings applied — strict Part 12 firewall sweep, frontmatter slug correction, tHg scope addition).
+
+Per skill Phase 1 step 1: "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+### Verification
+
+PDF re-read in full (3 pages) and content spot-checked against the canonical page:
+
+- Sample sizes (7 chili powders incl. 1 organic; 6 hot sauces incl. 1 organic) ✓
+- Cr in chili powders 3.1–7.0 µg/g, highest in dollar-store sample ✓
+- Same dollar-store sample: Cd 1.2 µg/g, As 0.4 µg/g, Pb just under 1 µg/g ✓
+- Organic chili powder Pb 1.6 µg/g (highest chili-powder Pb) ✓
+- Chinese fast-food packet: 2 packets (20 g) = 20.6 µg Pb, 63 µg Cr (~30% adult daily limit comparison) ✓
+- Hg not significant in red pepper products ✓
+- Methods: Cryogenic grinding; CEM Mars 5 microwave digestion (0.2 g sample, 10 mL HNO₃, 15 min ramp to 210 °C, 15 min hold, HF for high-silica); Agilent ICP-MS 7700 (Meinhard nebulizer, cyclonic spray chamber); SPEX CertiPrep CLMS-1/2/3/4 standards ✓
+
+No defects identified. Page accurately reflects the source; no merge-enhance needed.
+
+### Action
+
+- Tracker row 949 (`KADC_heavy-metal-contamination-of-hot-sauce-and-chili-p`) flipped from `unprocessed` to `stopped`, with `cite_key=spex2023-hot-sauce-chili-powder-metals` recorded so future ticks can resolve the identity back to the canonical page.
+- No new ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit + this stop note.
+- The canonical `spex2023-hot-sauce-chili-powder-metals.md` page is unchanged; the 2026-05-17 Codex cross-vendor audit-application pass remains the canonical version.
+
+### Upstream signal
+
+Second confirmed-clean KADC skip in `04_Condiments_and_Sauces` (after `KADC_exposure-assessment-of-dietary-cadmium-findings-fr`). Pattern consistent with the corpus-level signal that the KADC tree is largely a SHA-duplicate of canonical MFK_/MR_ coverage.
+
+**Final line:** `STOP: page-already-current KADC_heavy-metal-contamination-of-hot-sauce-and-chili-p (resolves to spex2023-hot-sauce-chili-powder-metals.md, updated 2026-05-17, audited REVISE 6/6 findings applied)`
+
+## KADC_heavy-metal-migration-exposure-and-health-risk-thr — PAGE ALREADY CURRENT
+
+### Identity
+
+- **PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/Heavy metal migration, exposure, and health risk through canned tomato mix under different marketing.pdf`
+- **SHA-256:** `b77381cdb89f10d8c2d985ac23253e5f4b46bf4caba4a80bf780f72a735950aa`
+- **MFK_ root (SHA-identical):** `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/Heavy metal migration, exposure, and health risk through canned tomato mix under different marketing.pdf` (same SHA-256, verified via shasum 2026-05-31)
+- **Slug intent:** Kangre 2024 MPhil thesis (University of Education Winneba, Ghana) on Pb and Sn in canned tomato mix under sunlight-exposed vs enclosed-shop display models, with Monte Carlo ILCR/MoE risk modelling.
+- **Resolves to existing canonical page:** `wiki/sources/kangre2024-canned-tomato-pb-sn-ghana.md`
+
+### Why stopped
+
+KADC sibling is SHA-identical to the MFK_ root that was already ingested 2026-05-28 (tracker row 296) and merge-enhanced the same day as `kangre2024-canned-tomato-pb-sn-ghana`. The canonical page is post-2026-05-14 clean (`updated: 2026-05-28`), not in `data/evidence/routing_malformed.csv`, not in `data/evidence/routing_unresolved.csv`. The audit-queue records a 2026-05-28 v2-skill subagent audit verdict PROMOTE (0 findings; 0 applied; 0 rejected — clean across all five checks: numerical fidelity, slug vocabulary, speciation/methods, Part 12 brand firewall, Part 2 wiki/HMTc firewall).
+
+Per skill Phase 1 step 1: "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed."
+
+### Verification
+
+- Existing page read in full: extensive 2026-05-28 enhance pass already addressed SD→SE labelling, Pb display-model claim walked back from "significantly higher" to the source's non-significant t-test p>0.05, Sn numerics added from Tables 3/4, Pb max 0.51 mg/kg outlier surfaced, HQ-Sn / ILCR-by-gender×display / MoE blocks added in full, Tasty Tom brand scrubbed per Part 12, `products/canned-tomato` (invalid) + `products/tomato-sauce` (mismatched) replaced with `products/tomato-paste` + `products/canned-tomatoes`.
+- Routing audit clean: `grep -c kangre2024 routing_malformed.csv routing_unresolved.csv` → 0 / 0.
+- Audit-queue row exists for `kangre2024-canned-tomato-pb-sn-ghana`, status `audited-promote`, verdict `PROMOTE`, applied 2026-05-28.
+- SHA-256 of KADC sibling matches MFK_ root byte-for-byte (`b77381cd...`); no need to re-read PDF.
+
+No defects identified. Page accurately reflects the source; no merge-enhance needed.
+
+### Action
+
+- Tracker row 950 (`KADC_heavy-metal-migration-exposure-and-health-risk-thr`) flipped from `unprocessed` to `stopped`, with `cite_key=kangre2024-canned-tomato-pb-sn-ghana` recorded so future ticks can resolve the identity back to the canonical page.
+- No new ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit + this stop note.
+- The canonical `kangre2024-canned-tomato-pb-sn-ghana.md` page is unchanged.
+
+### Upstream signal
+
+Third confirmed-clean KADC skip in `04_Condiments_and_Sauces` (after `KADC_heavy-metal-contamination-of-hot-sauce-and-chili-p` and `KADC_exposure-assessment-of-dietary-cadmium-findings-fr`). Pattern consistent with the corpus-level signal that the KADC tree is largely a SHA-duplicate of canonical MFK_/MR_ coverage already cleanly ingested in the 2026-05 sweeps.
+
+**Final line:** `STOP: page-already-current KADC_heavy-metal-migration-exposure-and-health-risk-thr (resolves to kangre2024-canned-tomato-pb-sn-ghana.md, updated 2026-05-28, audited PROMOTE 0 findings)`
