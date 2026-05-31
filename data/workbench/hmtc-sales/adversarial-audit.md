@@ -28,3 +28,17 @@ Independent red-team (fresh-context agent) of the kit against the guardrails, fr
 ## Standing rule
 
 The whole program is sold on **defensibility**; a single overstated sentence in any asset undercuts the product. Candor is not a softener here — it is the strategy. Re-run this audit on every new asset (per-category one-pagers, decks) before it ships.
+
+## Round 2 — Retailer deck (2026-05-30)
+
+Independent fresh-context red-team of `retailer-deck.md`, with extra weight on antitrust/tying. **Verdict: shippable-with-fixes.** The antitrust framing (the asset's biggest risk) passed clean — consistent "approved-certification list among recognized equivalents / no exclusivity," USDA-Organic/Non-GMO as the equivalence model, no cross-retailer-coordination language. All five findings resolved:
+
+| # | Sev | Finding | Resolution |
+|---|---|---|---|
+| M1 | Major | **Regulatory inaccuracy:** "FDA's 2026 cadmium and inorganic-arsenic action levels" — but the program's own preprint states FDA has finalized only lead (and iAs in rice cereal/apple juice); cadmium and mercury are *forthcoming*. A retailer's legal team would catch it. | Slides 11 & 13 rewritten to the accurate Closer-to-Zero trajectory (lead/iAs finalized; Cd/Hg forthcoming). |
+| M2 | Major | **Persuasion mechanics in presenter notes** of the client-facing .pptx source ("loss aversion," "(Ch. 21)," "the sharpest hook") — discoverable if rendered to PowerPoint speaker notes. | Added a binding BUILD RULE; relabeled notes "Internal — strip before build"; the .pptx is built from hardcoded clean content only. **Verified by slide-XML extraction: zero mechanics in the rendered file.** |
+| m1 | Minor | "we map the standard to your bar" reads as per-customer standard-bending, undercutting the fixed-published-method authority. | Slides 9 & 12 → "published limits already meet FDA/AB899/EU — satisfy whichever bar your policy references." |
+| m2 | Minor | Not-legal-advice line only on slides 1 & 14, not the risk/economic slides. | Persistent footer on **all 14 slides**. |
+| m3 | Minor | Upstream `persuasion-playbook.md` still said "supplier **mandate**" (residue of Round-1 #8). | Reworded to "approved-supplier list, among recognized equivalents." |
+
+**Render note:** LibreOffice is unavailable in the build environment, so pixel-level visual QA (overflow/overlap/contrast) was done structurally (slide-XML content verification + geometry review of generous, non-overlapping boxes), not by image inspection. Final visual sign-off should be a quick pass in Keynote/PowerPoint before the deck is presented.

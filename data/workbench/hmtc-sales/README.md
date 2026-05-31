@@ -42,4 +42,5 @@ The **retailer** lane is the flywheel (one approved-certification listing lifts 
 - `outreach-sequences.md` — email sequences for brand GC, **defense counsel**, retailer, insurer.
 - `objection-handling-faq.md` — skeptical-GC objections + honest answers.
 - `target-segments.md` — who to target and how to source them.
-- `adversarial-audit.md` — red-team of the kit against the guardrails above.
+- `retailer-deck.md` + `retailer-deck.pptx` — the retailer flywheel deck (client-facing; 14 slides). The `.md` is the source of truth and carries internal rationale that is **stripped** from the `.pptx`; the rendered deck contains clean slides only (no persuasion mechanics), with a not-legal-advice footer on every slide.
+- `adversarial-audit.md` — red-team of the kit against the guardrails above (two rounds).

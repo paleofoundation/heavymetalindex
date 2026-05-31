@@ -38,7 +38,7 @@ Attach a reason to every ask ("a 30-day review, *because* the 2027 retailer buyi
 
 - **Brand GC:** moves 1–3, 9 (loss, anchor, action, candor). They detect overclaiming instantly; candor wins.
 - **Defense counsel:** moves 8–9. We *equip* counsel with a documented, third-party record — a certified client is a more defensible client. The confidential review reports to the client, not to counsel. Never imply we practice law or advise litigation strategy.
-- **Retailers:** move 1 reframed — *their* anchor-defendant exposure. A supplier mandate reduces the retailer's own risk.
+- **Retailers:** move 1 reframed — *their* anchor-defendant exposure. Adding an independent certification to the approved-supplier list, among recognized equivalents, reduces the retailer's own risk.
 - **Insurers:** risk-reduction pull — certified suppliers should carry lower loss ratios; offer to co-develop the actuarial case.
 - **Founders/marketing:** move 4 (trend) + channel access.
 
