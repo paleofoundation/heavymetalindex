@@ -634,3 +634,169 @@ This is the fourth already-ingested-post-cutoff-clean PDF surfaced in the `07_Pr
 **Action taken:** No ingest, no merge-enhance, no audit, no commit beyond this stop note. The 2026-05-20 merge-enhance + audit-revise on `david2008-heavy-metals-canned-tomato-paste-romania.md` remains canonical.
 
 **Final line:** `STOP: SHA-identical duplicate of MFK_ root (david2008-heavy-metals-canned-tomato-paste-romania already updated 2026-05-20, audited-revised 7/8)`
+
+## `KADC_p0306-metals-in-cow-milk-and-soy-beverages` — FILENAME/CONTENT MISMATCH (Kimi corruption)
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/P0306_Metals in Cow Milk and Soy Beverages.pdf`
+**Suggested handle:** `KADC_p0306-metals-in-cow-milk-and-soy-beverages`
+**SHA-256:** `2c04a540b11cf14800007c60f782b7dc9e6252abe19cade713b05439dffa490d`
+
+**Actual content of the PDF (verified pages 1-7):**
+- Title: "Prospective Associations between Dietary Patterns and Abdominal Obesity in Middle-Aged and Older Korean Adults"
+- Authors: Lee KW, Kang M-S, Lee SJ, Kim H-R, Jang K-A, Shin D
+- Journal: *Foods* 2023, 12(11), 2148
+- DOI: 10.3390/foods12112148
+- License: CC BY 4.0 (MDPI open access)
+- Topic: Factor-analysis dietary patterns (KoGES-HEXA cohort, n=48,037 Korean adults ≥40 y) and incidence of abdominal obesity over 4.89 y follow-up. Outcomes are HRs/95% CIs for waist circumference ≥90 cm (men) / ≥85 cm (women).
+
+**Stop reason:** Hard off-topic for the Heavy Metal Index corpus. The paper contains **zero heavy-metal measurements, zero analytical chemistry, zero food-occurrence data**. It is a nutritional epidemiology paper about dietary-pattern factor scores and abdominal obesity hazard ratios — the food groups (vegetables, fish, soy products, multi-grain rice, coffee, sweets) appear only as FFQ-derived loading variables, not as analytical matrices. The filename "Metals in Cow Milk and Soy Beverages" is a Kimi-Agent download corruption (the parent folder is literally `Kimi_Agent_Download Corruption Issue`); the file was saved under the intended slug but the bytes are an unrelated paper. Confirmed via SHA-256 + first-7-page text extract.
+
+**Action taken:** No ingest, no merge-enhance, no audit, no commit beyond this stop note. Lee et al. 2023 (Foods 12:2148) is not present in `wiki/sources/` (DOI grep returned 0 hits) and should not be added — it is out of scope per CLAUDE.md Part 25 (no medical claims / nutritional-epidemiology synthesis is not the wiki's job; the wiki tracks heavy-metal occurrence and exposure).
+
+**Upstream signal:** Same pattern as the other `Kimi_Agent_Download Corruption Issue` stops on this date. The Kimi auto-fetcher saved an arbitrary MDPI paper under the P0306 slug. Recommend that whatever bot or Karen-step assembled this folder eventually:
+1. Re-run the original P0306 fetch against the correct DOI for the intended "Metals in Cow Milk and Soy Beverages" paper (likely Bilandžić et al. or similar — needs Karen's source list to confirm).
+2. Delete or relocate this PDF to a `_corrupted-downloads/` quarantine so it stops re-entering the manual-fetch loop on every tick.
+
+**Final line:** `STOP: PDF content does not match filename (file is Lee et al. 2023 Foods 12:2148 on Korean dietary patterns and abdominal obesity — zero metals data, off-topic for HMI)`
+
+## P0314_Non-carcinogenic and carcinogenic health risk assessment of heavy metals in cooked beans and vegetables in Punjab, North India.pdf — KIMI AGENT DOWNLOAD CORRUPTION
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/`
+- **Filename promise:** Punjab/North India bean & vegetable heavy-metal risk assessment (P0314)
+- **Suggested handle:** `KADC_p0314-non-carcinogenic-and-carcinogenic-health-ris`
+- **Actual PDF content (verified across all 14 pages):** Nozadi SS, Li X, Kong X, Rennie B, Kanda D, MacKenzie D, Luo L, Posner J, Blackwell CK, Croen LA, Ferrara A, O'Connor TG, Zimmerman E, Ghassabian A, Leve LD, Elliott AJ, Schmidt RJ, Sprowles JLN, Lewis JL. "Effects of COVID-19 Financial and Social Hardships on Infants' and Toddlers' Development in the ECHO Program." *Int J Environ Res Public Health* 2023, 20, 1013. DOI: 10.3390/ijerph20021013. MDPI, CC BY 4.0.
+- Topic: Longitudinal ASQ-3 developmental screening of n=684 children in the NIH ECHO program, comparing pre- vs during-COVID-19 hardship exposure (parental job loss, household quarantining, reduced contact with extended family). Outcomes are odds ratios and z-score changes for communication, gross-motor, fine-motor, problem-solving, and personal-social ASQ domains.
+
+**Stop reason:** Hard off-topic for the Heavy Metal Index corpus. The paper contains **zero heavy-metal measurements, zero analytical chemistry, zero food-occurrence data, zero dietary-exposure assessment**. It is a pediatric developmental-screening epidemiology study about pandemic hardships and toddler development. The only intersection with HMI's domain is incidental keyword overlap from journal name (*Int J Environ Res Public Health*) and the word "exposure" (used in the social-science sense — exposure to pandemic hardships, not chemical exposure). The filename promising "Non-carcinogenic and carcinogenic health risk assessment of heavy metals in cooked beans and vegetables in Punjab" is the standard Kimi-Agent download corruption pattern (parent folder is literally `Kimi_Agent_Download Corruption Issue`): the file was saved under the intended P0314 slug but the bytes are an unrelated paper.
+
+**Identity checks:** Grep for DOI `10.3390/ijerph20021013` against `wiki/sources/` → 0 hits. Grep for "Punjab.*beans" / "P0314" → 0 hits. Neither paper (intended nor actual) is currently in the corpus.
+
+**Action taken:** No ingest, no merge-enhance, no audit, no commit beyond this stop note. The Nozadi et al. 2023 paper is out of scope per CLAUDE.md Part 25 and Part 12 (no pediatric developmental screening, no COVID-19 social-determinants epidemiology) and should not be added to the corpus.
+
+**Upstream signal:** Same Kimi corruption pattern as other entries on this date. Recommend that whatever bot or Karen-step assembled this folder eventually:
+1. Re-run the original P0314 fetch against the correct DOI for the intended Punjab beans/vegetables paper (Karen's source list would identify the right DOI).
+2. Delete or relocate this PDF to a `_corrupted-downloads/` quarantine so it stops re-entering the manual-fetch loop on every tick.
+
+**Final line:** `STOP: PDF content does not match filename (file is Nozadi et al. 2023 IJERPH 20:1013 on COVID-19 hardships and ASQ developmental screening — zero metals data, off-topic for HMI)`
+
+## determination-of-some-inorganic-metals-in-edible-vegetable-oils-by-icp-aes.pdf — ALREADY CLEANLY INGESTED
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/01_Oils/`
+- **PDF:** `Determination of some inorganic metals in edible vegetable oils by ICP-AES.pdf`
+- **Suggested handle:** `KADC_determination-of-some-inorganic-metals-in-edible-v`
+- **Existing page:** `wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md`
+- **Identity-check hits (all three):**
+  - DOI `10.3989/gya.2008.v59.i3.514` → existing page
+  - raw_handle `MFK_determination-of-some-inorganic-metals-in-edible-v` → existing page
+  - cite-key `pehlivan2008-vegetable-oils-turkey-icp-aes` → existing page
+- **Page status:** `updated: 2026-05-18` (post-2026-05-14 schema cutoff). Routing audit
+  reports it neither in `routing_unresolved.csv` nor in `routing_malformed.csv`.
+  Verification notes already document a 2026-05-17 Codex merge-enhance pass plus a
+  2026-05-18 cross-vendor (Codex) regulatory-framing audit.
+- **Why skipped:** Per v2 skill workflow Phase 1.1, PDFs whose existing pages are
+  post-2026-05-14 clean and not in malformed are skipped. Re-running ingest would
+  overwrite curated cross-vendor audit work for no gain.
+- **Action:** No commit, no audit-queue append, no subagent spawn. PDF remains in
+  place; the existing wiki source page is unchanged.
+- **Upstream signal:** The wrapper that fed this PDF into the loop is not gating on
+  "page exists, post-2026-05-14, not in malformed." If the Kimi-corruption-folder
+  drain script is iterating raw PDFs blind to existing-page state, it will keep
+  re-presenting already-ingested PDFs. Consider a pre-filter that grep-checks
+  `wiki/sources/` for `raw_path` or `raw_sha256` before queueing the PDF.
+
+**Final line:** `STOP: post-2026-05-14 clean page exists for this PDF (pehlivan2008-vegetable-oils-turkey-icp-aes, updated 2026-05-18, not in malformed/unresolved)`
+
+## Levels of Selected Heavy Metals in Varieties of Vegetable Oils Collected from Saudi Arabia.pdf — ALREADY-INGESTED CLEAN PAGE
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/01_Oils/`
+- **Suggested handle:** `KADC_levels-of-selected-heavy-metals-in-varieties-of-ve`
+- **Identity match:** `wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md`
+  - raw_handle in existing page: `MFK_levels-of-selected-heavy-metals-in-varieties-of-ve`
+  - The `KADC_` prefix on the Kimi-Agent-Download-Corruption-Issue folder PDF is the
+    same paper that was previously ingested from the `MFK_` (Manual Fetch Kimi)
+    folder; the file content is identical, only the parent folder name differs.
+- **Why skipped:** Per `ingest-next-manual-fetch-pdf` SKILL.md v2.0 Phase 1 step 1,
+  a PDF should be skipped when an existing page is "post-2026-05-14 clean and not
+  in malformed." All three criteria met:
+  - `updated: 2026-05-26` (post-2026-05-14 ✅)
+  - Not in `data/evidence/routing_malformed.csv` ✅
+  - Not in `data/evidence/routing_unresolved.csv` ✅
+  - Already carries a 2026-05-26 fresh-context subagent audit with PROMOTE verdict
+    (verification note line 100), with all five audit checks ✅ and two ⚠️
+    concerns resolved.
+- **Action:** No ingest, no audit re-run, no commit. The PDF in the
+  `Kimi_Agent_Download Corruption Issue/condiment_papers/01_Oils/` folder
+  duplicates a previously-ingested PDF; the existing wiki source page is the
+  canonical record.
+- **Upstream signal:** Same pattern as the prior `pehlivan2008` stop — the
+  Kimi-corruption-folder drain is presenting PDFs that re-duplicate already-
+  ingested MFK PDFs. The pre-queue filter suggestion (grep `raw_path` /
+  `raw_sha256` against `wiki/sources/` before enqueueing) would apply equally
+  here. A secondary check on file-content hash (raw_sha256) would catch this
+  even when the folder path differs.
+
+**Final line:** `STOP: post-2026-05-14 clean page exists for this PDF (ashraf2012-heavy-metals-vegetable-oils-saudi-arabia, updated 2026-05-26, not in malformed/unresolved, prior subagent PROMOTE on 2026-05-26)`
+
+## Report on a Total Diet Study carried out by the Food Safety Authority of Ireland (FSAI TDS).pdf — DUPLICATE OF PRIOR MFK INGEST
+
+- **Source folder:**
+  `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/01_Oils/`
+- **Suggested handle:** `KADC_report-on-a-total-diet-study-carried-out-by-the-fo`
+- **Existing cite-key:** `fsai2016-total-diet-study-ireland-2012-2014`
+- **Existing page:** `wiki/sources/fsai2016-total-diet-study-ireland-2012-2014.md`
+  - `updated: 2026-05-26` (post-2026-05-14 threshold)
+  - Not in `data/evidence/routing_malformed.csv`
+  - Not in `data/evidence/routing_unresolved.csv`
+  - Audit-queue: `audited-revised` verdict applied 2026-05-26 (commit `a8004ac`),
+    4 findings applied + 3 rejected per merge-enhance + audit subagent pass
+- **Why skipped:** Per the v2 skill candidate-selection rule, PDFs whose existing
+  wiki source page is post-2026-05-14 clean AND not in routing_malformed are
+  skipped. This PDF has both (clean post-2026-05-26 merge-enhance page; clean
+  audit subagent REVISE pass; no routing defects).
+- **Action:** No ingest, no audit re-run, no commit. The PDF in the
+  `Kimi_Agent_Download Corruption Issue/condiment_papers/01_Oils/` folder
+  duplicates a previously-ingested MFK PDF; the existing wiki source page
+  remains the canonical record. The legacy raw_path
+  (`raw/Manual Fetch Kimi /condiment_papers/01_Oils/...`) still resolves on
+  disk — both folders contain the FSAI PDF file.
+- **Upstream signal:** Same recurring pattern as the prior pehlivan2008 and
+  ashraf2012 stops in this file — the Kimi-corruption-folder drain is
+  presenting PDFs that re-duplicate already-ingested MFK PDFs (sibling
+  `Manual Fetch Kimi /` folder). A pre-queue filter that greps `raw_path` or
+  `raw_sha256` against `wiki/sources/` before enqueueing would short-circuit
+  the loop on this entire class of duplicate-folder presentations.
+
+**Final line:** `STOP: post-2026-05-14 clean page exists for this PDF (fsai2016-total-diet-study-ireland-2012-2014, updated 2026-05-26, not in malformed/unresolved, prior subagent REVISE applied on 2026-05-26)`
+
+## KADC_alarming-lead-arsenic-levels-found-in-popular-vine — SHA-IDENTICAL DUPLICATE / ALREADY INGESTED CLEAN
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/`
+- **PDF:** `Alarming Lead, Arsenic Levels Found in Popular Vinegar Brands - ESCP_Food & Water Watch Testing.pdf`
+- **KADC SHA256:** `92d83044ba16e14473fc442bbb22a2f072aa18f31c594f14ac27cd4793c1825f`
+- **MFK root path:** `raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Alarming Lead, Arsenic Levels Found in Popular Vinegar Brands - ESCP_Food & Water Watch Testing.pdf`
+- **MFK root SHA256:** `92d83044ba16e14473fc442bbb22a2f072aa18f31c594f14ac27cd4793c1825f` (byte-identical)
+- **Existing cite-key:** `escp2021-pb-as-balsamic-vinegar-fda-letter`
+- **Existing page path:** `wiki/sources/escp2021-pb-as-balsamic-vinegar-fda-letter.md`
+- **Existing page `updated:`** `2026-05-26` (post-2026-05-14 cutoff)
+
+### Why skipped
+
+Same duplicate-tree pattern as prior KADC_ entries in this log. The Kimi-Agent-Download-Corruption-Issue folder mirrors PDFs already filed under `raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/`. The MFK_ root copy of this PDF was ingested under legacy schema and merge-enhanced on 2026-05-26 through the v2.0 skill against the source PDF: cite_key and raw_handle canonicalized to `escp2021-pb-as-balsamic-vinegar-fda-letter` / `MFK_alarming-lead-arsenic-levels-found-in-popular-vine`, `matrices` corrected to drop the unsupported `wine-vinegar` inference and add the broader `vinegar` slug, Pb key-numbers softened to match the letter's actual "all but one" framing, As mean clarified as the mean of the positive subset, legacy `## Wiki pages updated on ingest` heading replaced with `## Verification notes` per current source-page convention, sample_population updated to record the 3 non-balsamic samples. Auto-audit subagent verdict on the same date was REVISE with 3 of 4 findings applied (µg/serving As intake numbers relabeled as wiki-derived arithmetic; HMTc directive recommendation removed from Implications per Part 2 firewall; Karavoltsos 2020 cross-source comparison removed and deferred to Part 9 synthesis). The KADC_ copy is byte-identical to the MFK_ root (SHA256 verified above).
+
+- Identity-check grep hits:
+  - Title-substring grep (`alarming-lead-arsenic`): single hit at `wiki/sources/escp2021-pb-as-balsamic-vinegar-fda-letter.md`
+  - DOI grep: paper has no DOI (`doi: null`, `no_doi_assigned: true`); identity via title + raw_handle + author + filing-date
+  - Authors grep (`Corrigan|Braiman|Chittenden|ESCP|Food & Water Watch`): hits the same page (and `efsa2021-aluminium-food-qa.md` for a `Food & Water` substring false positive on an unrelated paper)
+  - SHA256 collision against the MFK_ root: confirmed identical (`92d83044ba16e14473fc442bbb22a2f072aa18f31c594f14ac27cd4793c1825f`)
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+Existing page is post-2026-05-14 clean (`updated: 2026-05-26`), not in `data/evidence/routing_unresolved.csv`, not in `data/evidence/routing_malformed.csv`. The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. Re-ingesting via the KADC_ root would either (a) duplicate the prior page or (b) regress the 2026-05-26 merge-enhance + audit-revise work already verified by a fresh-context subagent against the same PDF five days ago.
+
+### Action taken
+
+- Tracker row for `KADC_alarming-lead-arsenic-levels-found-in-popular-vine` (line 924 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `skipped-duplicate` with existing cite-key populated so future wrapper ticks short-circuit on row read.
+- No ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit and this stop note.
+- The wiki source page was not modified; the prior 2026-05-26 merge-enhance + audit-revise is the canonical version.
+
+**Final line:** `STOP: pdf-already-ingested-clean escp2021-pb-as-balsamic-vinegar-fda-letter (SHA-identical to MFK_ root; existing page updated 2026-05-26 and clean per routing audit)`
