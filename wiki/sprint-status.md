@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T22:27:00.412Z
+updated: 2026-05-31T22:49:34.755Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 65 min**
+Velocity: **+0 cells in the last 66 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 65 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 425 min ago (stale) |
+| Daemon heartbeat | ⚠️ 447 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 2 ✅ |
+| Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 82 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 119 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 13 |
+| Commits last 24 hours | 125 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 65 min**
 ## Last commit
 
 ```
-a6c7ba0 4 minutes ago — ingest: johnson2012-cpsc-astm-f963-status [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers
+843fd75 9 minutes ago — audit-queue: seifi2026-iran-toys-pb-cr-hg → audited-promote/PROMOTE
 ```
 
 ## How to read this
