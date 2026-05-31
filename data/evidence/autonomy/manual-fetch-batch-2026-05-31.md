@@ -539,3 +539,33 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices.pdf`: KADC_technical-support-document-for-derivation-of-healt (page already current — nys-doh2019-metals-spices-guidance.md updated 2026-05-29, audited-revised, not malformed)
+
+## Tick 2026-05-31T19:54:24.128Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `onghena2016-baby-bottle-migration-duration-tests` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/01_2015_evaluation_of_the_migration_of_chemicals_from_baby_bottles_under_standardised_and_duration_testing_c.pdf)
+
+## Tick 2026-05-31T20:07:39.401Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `IMEKO-TC23-2016-038 (merged as near_duplicate into onghena2016-baby-bottle-migration-duration-tests)` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/02_2016_IMEKO-TC23-2016-038.pdf)
+
+## Tick 2026-05-31T20:13:17.179Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `houlihan2019-hbbf-whats-in-baby-food` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/03_2019_BabyFoodReport_EXEC-SUMM-ENGLISH_R6.pdf)

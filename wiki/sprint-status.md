@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T19:55:30.461Z
+updated: 2026-05-31T20:17:03.634Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 67 min**
+Velocity: **+0 cells in the last 66 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 67 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 273 min ago (stale) |
+| Daemon heartbeat | ⚠️ 295 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 82 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 8 |
-| Commits last 24 hours | 85 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 11 |
+| Commits last 24 hours | 91 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 67 min**
 ## Last commit
 
 ```
-9969d55 14 seconds ago — triage sweep 2026-05-31 22:45: 0 rollups + 1 skips
+d0918a2 28 seconds ago — ingest: HBBF-2019-EXEC-SUMM-ENGLISH-R6 near-duplicate merged into houlihan2019-hbbf-whats-in-baby-food
 ```
 
 ## How to read this
