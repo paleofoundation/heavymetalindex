@@ -12,10 +12,10 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-soy-products-cd-product_2025_10-20914-2310-1202-2025-1-86-92.pdf"
 raw_sha256: 436a8d5ad36bd4d2f0deaf1121443b927e50889c738b6a6c977dfbddc722f4ae
-metals: [Pb, Cd, As]
+metals: [Pb, Cd, tAs]
 ingredients: ["[[ingredients/meat]]"]
 products: ["[[products/lamb-mutton]]", "[[products/processed-meats]]", "[[products/snacks-general]]"]
-matrices: [lamb-meat, lamb-meat-snack, sheep-muscle-tissue]
+matrices: [meat, processed-meat]
 jurisdictions: [RU]
 near_duplicates: []
 sample_n: 40
@@ -57,8 +57,8 @@ This source contributes a small controlled-feeding lamb-meat occurrence point fo
 - [[ingredients/meat]]
 - [[metals/lead]]
 - [[metals/cadmium]]
-- [[metals/arsenic]]
+- [[metals/arsenic-total]]
 
 ## Verification notes
 
-PDF extracted 2026-05-31 from the auto-fetched queue. The downloaded filename incorrectly identifies the paper as a soy-products cadmium result; the article itself is a Russian lamb meat safety and meat-snack formulation study. Metadata are taken from the bilingual title page: Proceedings of VSUET, 2025, volume 87, issue 1, pages 86-92, DOI 10.20914/2310-1202-2025-1-86-92. Numerical values were transcribed from Table 1 and checked against the English and Russian abstracts. The table reports censored Cd and As as <0.01 mg/kg in both groups; this page preserves the censoring. No consumer brand contamination data are present; LaktuVet-1, Prestart FB SAZ, AQUASEARCHER, Kitfort, and GOST/TR TS references are feed additive, starter culture, instrument, equipment, and standards/method names used in methods, not consumer brand occurrence findings.
+PDF extracted 2026-05-31 from the auto-fetched queue. The downloaded filename incorrectly identifies the paper as a soy-products cadmium result; the article itself is a Russian lamb meat safety and meat-snack formulation study. Metadata are taken from the bilingual title page: Proceedings of VSUET, 2025, volume 87, issue 1, pages 86-92, DOI 10.20914/2310-1202-2025-1-86-92. Numerical values were transcribed from Table 1 and checked against the English and Russian abstracts. The table reports censored Cd and As as <0.01 mg/kg in both groups; this page preserves the censoring and treats As as total arsenic (tAs) because the paper does not speciate inorganic arsenic. Matrix terms are normalized to the existing broad descriptors `meat` and `processed-meat`; lamb-specific and sheep-muscle detail remains in `sample_population` and body text. No consumer brand contamination data are present; LaktuVet-1, Prestart FB SAZ, AQUASEARCHER, Kitfort, and GOST/TR TS references are feed additive, starter culture, instrument, equipment, and standards/method names used in methods, not consumer brand occurrence findings.

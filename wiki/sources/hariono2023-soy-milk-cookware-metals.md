@@ -12,14 +12,14 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-soy-products-al-product_2023_10-30867-action-v8i4-925.pdf"
 raw_sha256: 1c2e4c19d1828c814ef9ec2f97268e7cadde12ca38ca2e46ac4a4a77f05c2640
-metals: [Pb, Cu, Zn, Hg, As]
+metals: [Pb, Cu, Zn, tHg, tAs]
 ingredients: ["[[ingredients/soy-milk]]", "[[ingredients/soy]]"]
 products: ["[[products/plant-milks-soy-based]]", "[[products/soy-products]]"]
-matrices: [soy-milk, finished-beverage, cookware-comparison]
+matrices: [soy-milk, beverage, food-processing]
 jurisdictions: [ID]
 near_duplicates: []
 sample_n: 2
-sample_population: "Soy milk produced by PT Sehat Sejahtera Bersama in Sumbersari District, Jember Regency, East Java, Indonesia, compared after processing in aluminum and stainless-steel cooking vessels in July 2022."
+sample_population: "Soy milk from one industrial-scale producer in Sumbersari District, Jember Regency, East Java, Indonesia, compared after processing in aluminum and stainless-steel cooking vessels in July 2022."
 updated: 2026-05-31
 ---
 
@@ -39,7 +39,7 @@ Table 1 and Table 2 report the same metal concentrations in finished soy milk, i
 | Hg | 0.372 | 0.012 | ppm |
 | As | 0.079 | 0.107 | ppm |
 
-The paper compares Pb to an Indonesian BPOM ready-to-consume beverage limit of 0.05 mg/kg and states that both treatments exceed that threshold. It compares Cu to a cited minimum/normal reference range of 0.8-1.2 ppm and states that both treatments exceed that range. It compares Hg to a cited beverage threshold of 0.005 ppm and states that both treatments exceed that threshold. The paper states that the maximum As limit is 0.5 mg/kg, so both reported As values remain below that cited limit.
+The paper compares Pb to an Indonesian BPOM ready-to-consume beverage limit of 0.05 mg/kg and states that both treatments exceed that threshold. It compares Cu to a cited minimum/normal reference range of 0.8-1.2 ppm and states that both treatments exceed that range. It compares Hg to a cited beverage threshold of 0.005 ppm and states that both treatments exceed that threshold. The paper states that the maximum As limit is 0.05 mg/kg; both reported As values (0.079 and 0.107 ppm) exceed that cited limit.
 
 The same tables report proximate and pH values: total protein 2.590% in aluminum-pan soy milk and 2.340% in stainless-steel-pan soy milk; fat 0.190% and 0.47%; lactose 3.800% and 4.16%; solid non-fat 7.15% and 7.720%; pH 6.943 and 6.710.
 
@@ -47,7 +47,7 @@ The abstract also says cooking water contributed Pb 0.055 ppm, Cu 0.044 ppm, Zn 
 
 ## Methods (brief)
 
-The study used a descriptive comparison of soy milk processed in aluminum and stainless-steel cooking vessels. The sample was soy milk produced by PT Sehat Sejahtera Bersama in Sumbersari District, Jember Regency, with testing conducted at the Bioscience Academic Implementation Unit of Jember State Polytechnic on July 26, 2022. The paper states that metal analysis covered Cu, Pb, As, Cr, Zn, and Hg in soy milk, with atomic absorption spectroscopy using the Shimadzu Atomic Absorption Cook Book method; Cr is named in methods but not reported in the result table, so this source page does not list Cr as a measured result. The methods section does not disclose instrument model, digestion details, LOD/LOQ, blank handling, recovery, certified reference material, or replicate statistics.
+The study used a descriptive comparison of soy milk processed in aluminum and stainless-steel cooking vessels. The sample was soy milk from one industrial-scale producer in Sumbersari District, Jember Regency, with testing conducted at the Bioscience Academic Implementation Unit of Jember State Polytechnic on July 26, 2022. The paper states that metal analysis covered Cu, Pb, As, Cr, Zn, and Hg in soy milk, with atomic absorption spectroscopy using the Shimadzu Atomic Absorption Cook Book method; Cr is named in methods but not reported in the result table, so this source page does not list Cr as a measured result. The methods section does not disclose instrument model, digestion details, LOD/LOQ, blank handling, recovery, certified reference material, or replicate statistics.
 
 ## Implications
 
@@ -62,9 +62,9 @@ This source may support a narrow context note for soy milk and soy-based plant m
 - [[metals/lead]]
 - [[metals/copper]]
 - [[metals/zinc]]
-- [[metals/mercury]]
-- [[metals/arsenic]]
+- [[metals/mercury-total]]
+- [[metals/arsenic-total]]
 
 ## Verification notes
 
-PDF extracted 2026-05-31 from the auto-fetched queue. Metadata are taken from the article front page: Aceh Nutrition Journal, DOI 10.30867/action.v8i4.925, received July 26, 2022, accepted May 18, 2023, published December 5, 2023. The filename was fetched under an aluminum-in-soy-products query, and the actual source is a soy-milk finished-product cookware comparison. Table 1 and Table 2 repeat the same metal values; the table transcription here preserves the source's comma decimals as decimal points. The paper uses "US" in one English methods sentence where the intended analyte is arsenic (As); this page treats it as As because the abstract, Indonesian abstract, and tables consistently report As. Cr is named in methods but absent from results and therefore excluded from the `metals` frontmatter.
+PDF extracted 2026-05-31 from the auto-fetched queue. Metadata are taken from the article front page: Aceh Nutrition Journal, DOI 10.30867/action.v8i4.925, received July 26, 2022, accepted May 18, 2023, published December 5, 2023. The filename was fetched under an aluminum-in-soy-products query, and the actual source is a soy-milk finished-product cookware comparison. Table 1 and Table 2 repeat the same metal values; the table transcription here preserves the source's comma decimals as decimal points. The paper uses "US" in one English methods sentence where the intended analyte is arsenic (As); this page treats it as total arsenic (tAs) because the abstract, Indonesian abstract, and tables consistently report As without speciation. Mercury is likewise total mercury (tHg), not methylmercury. Cr is named in methods but absent from results and therefore excluded from the `metals` frontmatter. The matrix terms `beverage` and `food-processing` are existing broad descriptors used to avoid inventing a source-specific `cookware-comparison` matrix while still preserving the study design.
