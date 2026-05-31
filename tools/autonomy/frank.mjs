@@ -58,6 +58,14 @@ const CFG = {
 const NPM = "/opt/homebrew/bin/npm"
 const NODE = "/opt/homebrew/bin/node"
 
+// Drop zone: a new folder dropped here (loose PDFs or zips) is auto-extracted,
+// deduped, and ingested with no manual step. FRANK only touches a folder once
+// it has stopped changing for 5 min (so it isn't processed mid-copy), and
+// records handled folders so it never re-processes one.
+const DROP_ZONE = path.join(REPO, "raw/Manual Fetch Kimi ")
+const INTAKE_DONE = path.join(REPO, "data/evidence/autonomy/frank-intake-done.txt")
+const INTAKE_SETTLE_MS = 5 * 60 * 1000
+
 const RECENT = [] // last ~14 stage results, for the heartbeat table
 let cycle = 0
 let activeChild = null
@@ -289,6 +297,72 @@ async function runIngest() {
   return r
 }
 
+// Newest mtime anywhere under a folder — used to tell "still being copied" from
+// "settled and ready to process."
+function newestMtimeMs(root) {
+  let max = 0
+  const walk = (d) => {
+    let entries
+    try {
+      entries = fs.readdirSync(d, { withFileTypes: true })
+    } catch {
+      return
+    }
+    for (const e of entries) {
+      const full = path.join(d, e.name)
+      try {
+        const st = fs.statSync(full)
+        if (st.mtimeMs > max) max = st.mtimeMs
+        if (e.isDirectory()) walk(full)
+      } catch {}
+    }
+  }
+  walk(root)
+  return max
+}
+
+function intakeDone() {
+  try {
+    return new Set(fs.readFileSync(INTAKE_DONE, "utf8").split("\n").map((s) => s.trim()).filter(Boolean))
+  } catch {
+    return new Set()
+  }
+}
+
+// Auto-intake: extract + dedup any new, settled folder dropped into the drop
+// zone, so a freshly-dropped batch becomes ingestable with zero manual steps.
+async function runIntake() {
+  if (!fs.existsSync(DROP_ZONE)) return
+  let subdirs
+  try {
+    subdirs = fs.readdirSync(DROP_ZONE, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name)
+  } catch {
+    return
+  }
+  const done = intakeDone()
+  for (const name of subdirs) {
+    if (done.has(name)) continue
+    const full = path.join(DROP_ZONE, name)
+    const ageMs = Date.now() - newestMtimeMs(full)
+    if (ageMs < INTAKE_SETTLE_MS) {
+      log(`intake: "${name}" still settling (${Math.round(ageMs / 60000)}m) — will retry next pass`)
+      continue
+    }
+    heartbeat(`intaking new folder "${name}" — extract + dedup`)
+    log(`intake: processing "${name}"`)
+    const r = await runStage("intake", [NODE, "tools/autonomy/frank-intake.mjs", `--dir=${full}`], 12 * 60 * 1000)
+    r.summary = r.timedOut ? `⏱ intake timeout on "${name}"` : r.ok ? `✓ intaked "${name}"` : `intake exit ${r.code} on "${name}"`
+    RECENT.push(r)
+    log(`intake: ${r.summary}`)
+    // Mark done only on success so a transient failure retries next pass.
+    if (r.ok) {
+      try {
+        fs.appendFileSync(INTAKE_DONE, name + "\n")
+      } catch {}
+    }
+  }
+}
+
 // ------------------------------------------------------------- main loop
 
 async function main() {
@@ -320,6 +394,14 @@ async function main() {
   while (!stopRequested()) {
     cycle++
     log(`=== cycle ${cycle} ===`)
+
+    // INTAKE: auto-extract + dedup any newly-dropped, settled folder before
+    // ingest, so a fresh drop becomes ingestable with zero manual steps.
+    try {
+      await runIntake()
+    } catch (e) {
+      log(`intake stage threw (continuing): ${e.message}`)
+    }
 
     // INGEST first (every cycle) — the core deliverable. With a 274-paper
     // backlog we drain aggressively; fetch only needs to refill periodically.

@@ -64,6 +64,7 @@
     "wishlist:parse": "node tools/wishlist/parse-wishlist.mjs",
     "wishlist:fetch": "node tools/wishlist/parse-wishlist.mjs && node tools/wishlist/find-candidates.mjs",
     "wishlist:gap-driven": "node tools/wishlist/build-targeted-queries.mjs && node tools/wishlist/find-candidates.mjs",
+    "frank:intake": "node tools/autonomy/frank-intake.mjs",
     "wishlist:gap-queries": "node tools/wishlist/build-targeted-queries.mjs",
     "plan": "node tools/orchestrator/analyze-gaps.mjs",
     "night-loop": "node tools/orchestrator/night-loop.mjs",
