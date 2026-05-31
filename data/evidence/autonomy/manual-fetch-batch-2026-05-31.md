@@ -399,3 +399,53 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/03_Olives_and_Pickles/Investigation on the Concentration of Heavy Metals found in Olives and Olive Mill Waste.pdf`: pdf-already-ingested-clean vella2024-malta-olive-cultivars-aas (SHA-identical to MFK_ root; existing page updated 2026-05-28 and clean per routing audit)
+
+## Tick 2026-05-31T18:48:54.398Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/03_Olives_and_Pickles/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf`: kimi-corruption-wrong-pdf KADC_occurrence-and-exposure-assessment-of-nickel-in-zh (bytes are Messia 2023 gluten-free pasta; intended Han 2024 nickel paper already ingested clean at han2024-nickel-zhejiang-china.md from the genuine Manual Resourcing PDF)
+
+## Tick 2026-05-31T18:54:12.804Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/Dietary exposure to metals and other elements in the 2006 UK Total Diet Study.pdf`: byte-identical to fera2015-uk-tds-metals
+
+## Tick 2026-05-31T18:54:18.401Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/Exposure assessment of dietary cadmium_ findings from Shanghainese over 40 years, China.pdf`: page-already-current KADC_exposure-assessment-of-dietary-cadmium-findings-fr (resolves to he2013-shanghai-cadmium.md, updated 2026-05-28, audited REVISE, advisory-only routing entry intentional for exposure-assessment design)
+
+## Tick 2026-05-31T19:00:14.030Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/Heavy Metal Contamination of Hot Sauce and Chili Powder.pdf`: page-already-current KADC_heavy-metal-contamination-of-hot-sauce-and-chili-p (resolves to spex2023-hot-sauce-chili-powder-metals.md, updated 2026-05-17, audited REVISE 6/6 findings applied)
+
+## Tick 2026-05-31T19:04:28.721Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/Heavy metal migration, exposure, and health risk through canned tomato mix under different marketing.pdf`: page-already-current KADC_heavy-metal-migration-exposure-and-health-risk-thr (resolves to kangre2024-canned-tomato-pb-sn-ghana.md, updated 2026-05-28, audited PROMOTE 0 findings)
