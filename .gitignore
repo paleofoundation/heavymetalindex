@@ -65,3 +65,7 @@ data/evidence/autonomy/heartbeat.txt
 
 # HMTc commercial/marketing — private nested repo; never tracked or published by the wiki repo
 hmtc-commercial/
+
+# FRANK supervisor heartbeat + log (local liveness, not corpus state)
+data/evidence/autonomy/FRANK-status.md
+data/evidence/autonomy/frank.log
