@@ -183,7 +183,7 @@ Not applicable to cocoa Cd or Pb at meaningful magnitude. Cocoa is not canned in
 | Cocoa powder | 0.70 ± 0.83 | 0.11 ± 0.10 |
 | Cocoa nibs | 0.62 ± 0.38 | 0.003 ± 0.004 |
 
-Cd range across all 144 cocoa-and-chocolate samples: 0.004 to 3.15 mg/kg. Pb range: <LOD to 0.38 mg/kg. The 26 cocoa-powder samples with 100 percent cocoa content had a mean Cd of 0.99 ± 0.87 mg/kg. Cd was significantly higher in Latin American product than in African product. These values count as one literature evidence primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
+Cd range across all 144 cocoa-and-chocolate samples [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]]: 0.004 to 3.15 mg/kg. Pb range: <LOD to 0.38 mg/kg. The 26 cocoa-powder samples with 100 percent cocoa content had a mean Cd of 0.99 ± 0.87 mg/kg. Cd was significantly higher in Latin American product than in African product. These values count as one literature evidence primary source under [[methodology/persistent-wiki-ingest-rule]] synthesis discipline; Abt 2020 is a secondary citation that does not add new primary data.
 
 ## Lead in cocoa
 
@@ -269,9 +269,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [49ecdb7](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb7) | 2026-05-30 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-30T18-11-25Z |
+| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
-| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
-| [b6455e1](https://github.com/paleofoundation/heavymetalindex/commit/b6455e1) | 2026-05-17 | wiki: retire awaiting-synthesis caption from source-legend tables |
 <!-- END: hmi-page-history -->

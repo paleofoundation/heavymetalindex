@@ -1,44 +1,18 @@
 # Provenance audit — 2026-05-31
 
-Generated: 2026-05-31T04:32:57.471Z
+Generated: 2026-05-31T06:28:53.776Z
 
 ## Summary
 
 - Files scanned: 724
-- Files with unsourced claims: 126
-- Total unsourced claims: 183
+- Files with unsourced claims: 108
+- Total unsourced claims: 135
 
 ## Methodology
 
 Each non-table, non-marker paragraph containing a numerical claim (concentration with units, P-value with number, n= sample size, LOD/LOQ value) is checked for provenance in the same paragraph. Provenance forms recognized: a [[sources/...]] link, a [[regulations/...]] link, a footnote reference, an inline year citation, or a named regulatory instrument (Regulation (EU/EC) <num>, a <num>/<year> regulation number, Directive, 21 CFR, Codex STAN/CAC-GL, FDA Closer to Zero, Prop 65/OEHHA/MADL). A regulatory threshold's authoritative source is the regulation itself, so a claim naming or linking its regulation is sourced; a literature concentration claim still requires a [[sources/...]] link. Paragraphs with no provenance are flagged. Residual false positives remain on explanatory/hypothetical prose (e.g. 'a 20 ppb cereal can be...') and unit-definition arithmetic. Triage by priority: highest-traffic pages first.
 
 ## Files with unsourced claims
-
-### wiki/regulations/eu-reg-2022-617-mercury-fish.md (12)
-- line 17: claim `0.50 mg/kg`
-  > **Section 3.3.1 — General fishery products (0.50 mg/kg)**…
-- line 21: claim `1.0 mg/kg`
-  > **Section 3.3.2 — High-mercury species (1.0 mg/kg)**…
-- line 23: claim `1.0 mg/kg`
-  > The following 26 species or species groups are subject to the 1.0 mg/kg limit:…
-- line 54: claim `0.30 mg/kg`
-  > **Section 3.3.3 — Lower-mercury species (0.30 mg/kg)**…
-- line 56: claim `0.30 mg/kg`
-  > The following 19 species or species groups, plus cephalopods and marine gastropods, are subject to the 0.30 mg/kg limit:…
-- … 7 more on this page
-
-### wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md (7)
-- line 3: claim `1000 ppb`
-  > # Washington State Toxic-Free Cosmetics Act — Toothpaste Pb 1000 ppb statutory limit…
-- line 5: claim `1000 µg/kg`
-  > The Washington State Toxic-Free Cosmetics Act (TFCA) sets a 1000 µg/kg (1000 ppb, 1 ppm) statutory maximum for lead in toothpaste sold in Washington State, effective 2025-01-01. The TFCA is one of a s…
-- line 9: claim `1000 ppb`
-  > The TFCA covers cosmetic products including toothpastes, lipsticks, makeup, hair-care products, and other personal-care items sold in Washington State. The lead cap applies to finished product as sold…
-- line 13: claim `1000 µg/kg`
-  > Lead in toothpaste: 1000 µg/kg (1000 ppb, 1 mg/kg). The TFCA does not set toothpaste-specific limits for other heavy metals (Cd, Hg, As) at the same 1000 ppb level; those metals are addressed under se…
-- line 17: claim `1000 ppb`
-  > The TFCA does not specify a single official method but anticipates standard cosmetic-industry analytical practice: nitric acid + hydrogen peroxide microwave digestion followed by ICP-MS quantification…
-- … 2 more on this page
 
 ### wiki/metals/mercury-methyl.md (4)
 - line 21: claim `1.0 ppm`
@@ -58,22 +32,6 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 - line 68: claim `1.5 mg/kg`
   > The Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) sets specific provisions for corn oil: iron 1.5 mg/kg max (virgin), 1.5 mg/kg max (refined), copper 0.1 mg/kg max. The EU Regula…
 
-### wiki/ingredients/flavored-carbonated-bottled-waters.md (3)
-- line 38: claim `10 µg/L`
-  > Variation across flavored carbonated bottled water products is primarily driven by the geology of the source aquifer rather than by the flavoring system. Products sourced from deep granite formations …
-- line 52: claim `10 µg/L`
-  > Selecting source water from geological formations with documented low arsenic and lead concentrations is the primary mitigation for this commodity. For products that blend or treat source water, verif…
-- line 68: claim `1 µg/L`
-  > Routine ICP-MS or ICP-OES testing of source water and finished product at bottling for Pb, As, Cd, and U provides assurance against source-water variation and equipment-contact events. Given the low t…
-
-### wiki/ingredients/ketchup.md (3)
-- line 65: claim `200 mg/kg`
-  > Tomato concentration (cooking down tomato juice or puree to paste and then to ketchup) concentrates all non-volatile constituents, including metals, by a factor of approximately five relative to fresh…
-- line 83: claim `200 mg/kg`
-  > Use of lacquer-lined cans rather than bare tin-plate cans is the single most impactful processing lever for Sn in ketchup. Lacquer lining reduces Sn migration from the 100 to 200 mg/kg range (observed…
-- line 91: claim `22 ppb`
-  > Given the consistently detectable Cd (20 to 22 ppb) and Ni (98 to 130 ppb) in the TDS data, lot-level testing for these analytes is warranted. For products packaged in tin-lined cans, Sn monitoring is…
-
 ### wiki/ingredients/soybean-oil.md (3)
 - line 34: claim `50 ppb`
   > Cold-pressing (mechanical) retains a slightly higher metal load than solvent-extraction followed by refining. Solvent extraction (hexane-based, the dominant industrial method) does not introduce metal…
@@ -81,14 +39,6 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
   > Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), and Ni (≤ 10 ppb) is the standard intervention.…
 - line 68: claim `1.5 mg/kg`
   > The Codex Alimentarius Standard for Named Vegetable Oils (CXS 210-1999) sets specific provisions for soybean oil: iron 1.5 mg/kg max (virgin), 1.5 mg/kg max (refined), copper 0.1 mg/kg max. The EU Reg…
-
-### wiki/metals/arsenic.md (3)
-- line 70: claim `100 ppb`
-  > For infants: [[ingredients/rice|rice]] cereal as a first food is the highest-leverage exposure variable. Alternatives include oat cereal, multi-grain cereal that is not [[ingredients/rice|rice]]-domin…
-- line 118: claim `25 ppm`
-  > Germ-free and antibiotic-treated mouse data summarized in Coryell 2019 demonstrate that the microbiome causally contributes to arsenic excretion: antibiotic-treated mice excrete less arsenic in stool …
-- line 122: claim `10 ppb`
-  > ## Historical context: groundwater arsenic and the 10 ppb drinking water rule <!-- audience: educator, regulator -->…
 
 ### wiki/products/canned-fish.md (2)
 - line 80: claim `4.5 mg/kg`
@@ -108,18 +58,6 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 - line 81: claim `2.0 mg/kg`
   > - **Species selection — the dominant lever.** Avoiding large predatory species (Atlantic bluefin tuna, swordfish, shark, marlin, king mackerel, tilefish) shifts the central tendency of MeHg by roughly…
 
-### wiki/products/toothpaste.md (2)
-- line 9: claim `1000 ppb`
-  > Brand legal teams evaluating Cat 2 certification for toothpaste lines need to know the binding regulatory cap (Washington State Toxic-Free Cosmetics Act: 1000 ppb Pb in toothpaste, effective 2025) and…
-- line 73: claim `100 ppb`
-  > 1. **Sourcing levers** (highest impact): mineral abrasive (silica, calcium carbonate, baking soda) supplier selection. Cosmetic-grade silica from pre-screened sources runs Pb in single-digit ppb; indu…
-
-### wiki/ingredients/beans.md (2)
-- line 60: claim `5 ppb`
-  > Lot-level ICP-MS testing for Pb (detection floor ≤ 5 ppb), Cd (≤ 1 ppb), Sn (≤ 50 ppb for canned), and Ni (≤ 50 ppb) [[testing/icp-ms]] is the standard intervention.…
-- line 68: claim `0.10 mg/kg`
-  > The Codex Alimentarius General Standard CXS 193-1995 sets a Pb maximum of 0.10 mg/kg fresh weight for legumes (dry) and 0.10 mg/kg for canned vegetables; Cd at 0.10 mg/kg for legumes. The EU Regulatio…
-
 ### wiki/ingredients/cabbage.md (2)
 - line 30: claim `n=40`
   > The corpus covers cabbage from Iran (Behbahan, n=40 across lettuce-and-cabbage), Nigeria (Okonofua mining-pits, n=48 across water-vegetable-fish), Poland (Reczajska Cr panel, n=272 plant foods includi…
@@ -131,12 +69,6 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
   > Agronomic interventions reduce the baseline soil-uptake Pb and Cd (already low: 50-500 ppb in non-adulterated product) but do not address the dominant adulteration pathway.…
 - line 60: claim `50 ppb`
   > Lot-level XRF screening at intake catches the Pb-and-Cr adulteration pattern simultaneously and is fast enough for every-lot screening of ground cinnamon. Confirmatory ICP-MS testing for samples flagg…
-
-### wiki/ingredients/cocoa.md (2)
-- line 56: claim `12 µg/kg`
-  > Derivative products of cocoa redistribute cadmium between cocoa solids and cocoa butter during processing. Cocoa powder carries the highest cadmium concentration of common cocoa derivatives because th…
-- line 97: claim `3.15 mg/kg`
-  > Cd range across all 144 cocoa-and-chocolate samples: 0.004 to 3.15 mg/kg. Pb range: <LOD to 0.38 mg/kg. The 26 cocoa-powder samples with 100 percent cocoa content had a mean Cd of 0.99 ± 0.87 mg/kg. C…
 
 ### wiki/ingredients/crisped-rice-cereal.md (2)
 - line 78: claim `103 ppb`
@@ -155,6 +87,12 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
   > Variance within grape juice tracks grape species (Concord/Vitis labrusca grape juice has different per-mass profiles than Vitis vinifera grape juice reflecting different skin tannin and pigment conten…
 - line 75: claim `20 ppb`
   > **Testing and QC levers** ([[mitigation/testing-and-qc]]) are mature: lot-level Pb testing on incoming grape juice and concentrate against the FDA 2022 draft 20 ppb action level for non-apple juices, …
+
+### wiki/ingredients/ketchup.md (2)
+- line 65: claim `200 mg/kg`
+  > Tomato concentration (cooking down tomato juice or puree to paste and then to ketchup) concentrates all non-volatile constituents, including metals, by a factor of approximately five relative to fresh…
+- line 83: claim `200 mg/kg`
+  > Use of lacquer-lined cans rather than bare tin-plate cans is the single most impactful processing lever for Sn in ketchup. Lacquer lining reduces Sn migration from the 100 to 200 mg/kg range (observed…
 
 ### wiki/ingredients/olives.md (2)
 - line 60: claim `5 ppb`
@@ -204,17 +142,17 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 - line 61: claim `50 ppb`
   > **Sourcing levers** ([[mitigation/supply-chain-screening]]) are the dominant intervention for vitamin-mineral premix and the single most consequential brand-side decision for finished-formula Pb perfo…
 
-### wiki/ingredients/water.md (2)
-- line 42: claim `5 ppb`
-  > Municipal water treatment is the operative processing step for drinking water. Conventional surface-water treatment (coagulation, flocculation, sedimentation, filtration, chlorination) effectively rem…
-- line 60: claim `10 ppb`
-  > Point-of-use activated alumina, anion exchange, or reverse osmosis filtration is the most effective household-level intervention for iAs in drinking water. At the treatment plant level, coagulation wi…
-
 ### wiki/ingredients/wheat-cereal-biscuits.md (2)
 - line 9: claim `0.065 mg/kg`
   > Wheat cereal biscuits (typified by the Weetabix format) are whole-wheat products that retain the bran and germ fractions of the wheat grain. This is the defining characteristic for metal accumulation …
 - line 68: claim `0.10 mg/kg`
   > Lot-level ICP-MS testing of incoming whole-wheat flour for Cd is the most cost-effective quality gate for wheat cereal biscuit manufacturers. The EU ML of 0.10 mg/kg for Cd in cereals provides the ope…
+
+### wiki/metals/arsenic.md (2)
+- line 70: claim `100 ppb`
+  > For infants: [[ingredients/rice|rice]] cereal as a first food is the highest-leverage exposure variable. Alternatives include oat cereal, multi-grain cereal that is not [[ingredients/rice|rice]]-domin…
+- line 118: claim `25 ppm`
+  > Germ-free and antibiotic-treated mouse data summarized in Coryell 2019 demonstrate that the microbiome causally contributes to arsenic excretion: antibiotic-treated mice excrete less arsenic in stool …
 
 ### wiki/metals/tin-inorganic.md (2)
 - line 19: claim `2 ppm`
@@ -222,4 +160,32 @@ Each non-table, non-marker paragraph containing a numerical claim (concentration
 - line 59: claim `50 mg/kg`
   > What is the dietary tin intake for infants on heavy reliance on canned commercial baby food (versus home-prepared or pouched alternatives)? The 50 mg/kg EU canned-baby-food limit prevents acute exposu…
 
-_96 more files — see CSV._
+### wiki/products/baby-cereals-dry-non-rice.md (1)
+- line 111: claim `20 ppb`
+  > A 20 ppb cereal can be legally aligned while still not representing best-in-class occurrence if the category median is lower.…
+
+### wiki/products/cashews.md (1)
+- line 5: claim `434 µg/kg`
+  > Cashews (Anacardium occidentale) sold as raw, roasted, salted, unsalted, or with seasonings. Cashew butter routes to row 14 (nut and seed butters, other). Contaminated row of the Row 11 / Row 12 / Row…
+
+### wiki/products/coffee.md (1)
+- line 109: claim `0.791 mg/kg`
+  > **Evidence note:** n=8 is a small convenience sample from a single Polish study (2015–2018 collection, Lublin supermarkets and eastern Polish farms). The Pb range 0.021–0.791 mg/kg DM is notable for h…
+
+### wiki/products/flavored-waters.md (1)
+- line 92: claim `5 ppb`
+  > This page is for readers evaluating flavored-water products against the locked beverage row and the bottled-water lead standard. Brand legal and regulatory readers should focus on whether a cited find…
+
+### wiki/products/fruit-purees.md (1)
+- line 5: claim `p100`
+  > This page is a structural scaffold for HMTc Category 1 row 7. Value-level structured evidence now includes FDA compliance fruit samples, Chekri fruit-puree TDS rows, FSA/Fera fruit-based infant-food c…
+
+### wiki/products/glucose-solutions.md (1)
+- line 85: claim `p100`
+  > Keep these values separate from infant formula and food rows. They may matter for infant exposure context, but they should not be pooled into formula p90 or p100 calculations.…
+
+### wiki/products/infant-formula-powder-non-soy.md (1)
+- line 60: claim `LOD = 0`
+  > **Non-detect handling.** Where a source reports a value below its limit of detection (LOD) or limit of quantification (LOQ), this page preserves the source's reported handling. The 2026 FDA special su…
+
+_78 more files — see CSV._

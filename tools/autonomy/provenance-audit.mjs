@@ -83,6 +83,7 @@ const CLAIM_PATTERNS = [
 const PROVENANCE_PATTERNS = [
   /\[\[sources\/[^|\]#]+/,
   /\[\[regulations\/[^|\]#]+/, // regulatory claim traces to its regulation page
+  /\[\[testing\/[^|\]#]+/, // a method detection floor (LOD/LOQ) traces to its method page
   /\[\d+\]/, // footnote-style: [1], [42]
   /\(\d{4}[a-z]?\)/, // inline year-style citation: (2024), (2024a)
   // Named regulatory instrument — the regulation is the primary source for its
@@ -94,6 +95,8 @@ const PROVENANCE_PATTERNS = [
   /\bCodex\s*(?:STAN|CAC\/GL|GL\b)/i,
   /Closer[\s-]to[\s-]Zero|\bCtZ\b/i, // FDA Closer to Zero action-level program
   /\bProp(?:osition)?\s*65\b|\bOEHHA\b|\bMADL\b/i, // California Prop 65 instruments
+  /Toxic[\s-]Free Cosmetics|\bTFCA\b|Safe Cosmetics Act|Washington State.{0,30}Cosmetic/i, // state cosmetic acts
+  /drinking[\s-]water (?:rule|standard|limit)|maximum contaminant level|\bMCL\b/i, // EPA drinking-water MCL
   // Named toxicological reference value — sourced to the body that set it
   // (EFSA, JECFA, WHO, US EPA). Specific instrument acronyms/phrases only; a
   // literature concentration claim ("rice mean iAs 92 ppb") never contains these.
@@ -125,10 +128,23 @@ function scanFile(filepath, rel) {
   const text = fs.readFileSync(filepath, "utf8")
   // Strip frontmatter
   let body = text
+  let frontmatter = ""
   if (body.startsWith("---")) {
     const fmEnd = body.indexOf("\n---", 4)
-    if (fmEnd >= 0) body = body.slice(fmEnd + 4)
+    if (fmEnd >= 0) {
+      frontmatter = body.slice(0, fmEnd)
+      body = body.slice(fmEnd + 4)
+    }
   }
+
+  // A regulation page IS the primary source for the regulation it documents
+  // (same rationale as skipping wiki/sources/ pages: the page is the source).
+  // Its threshold values — often stated as terse section headings like
+  // "Section 3.3.1 ... (0.50 mg/kg)" — trace to that regulation by the page's
+  // own identity, so numeric claims on it are not provenance gaps. Cross-
+  // references to OTHER instruments on the page still carry their own named
+  // citation and are caught by the instrument patterns where they appear.
+  if (/^type:\s*regulation\s*$/m.test(frontmatter)) return
 
   // Split into paragraphs (blocks separated by blank lines).
   const paragraphs = body.split(/\n\s*\n/)
