@@ -184,3 +184,66 @@ destination folder it was moved to.
   do not carry heavy-metal occurrence data and should be deprioritized
   before download. Two consecutive false positives from the same
   auto-fetched batch is enough signal to act on.
+
+## auto-matcha-pb-product_2025_the-association-between-caffeinated-beverages-consumption-with-sociodemographic-.pdf
+
+- **Source folder:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/`
+- **Auto-fetch slug intent:** matcha × Pb × product-level occurrence
+- **DOI:** none (institutional-repository deposit)
+- **Source URL (per wishlist-fetch-audit):** http://eprints.usm.my/63512/1/NUR%20FARZANA%20MOHAMAD%20ZUBIR-E.pdf
+- **Actual paper:** Zubir NFM (2025). "The Association Between Caffeinated
+  Beverages Consumption with Sociodemographic Factors, Body Mass Index,
+  and Sleep Quality Among University Students in Health Campus of
+  Universiti Sains Malaysia." Bachelor of Health Science (Dietetics)
+  dissertation, School of Health Sciences, Universiti Sains Malaysia,
+  July 2025. Supervisor: Dr. Ruhaya Binti Hasan.
+- **Why rejected:** Off-topic. The dissertation is a cross-sectional
+  survey of 162 USM undergraduates (43 male, 119 female, ages 19–25)
+  from the Schools of Health Sciences, Medical Sciences, and Dental
+  Sciences. The instruments are a sociodemographic questionnaire, a
+  Caffeine Consumption Patterns questionnaire, and the Pittsburgh Sleep
+  Quality Index (PSQI). Analysis is descriptive statistics and Fisher's
+  Exact Test in SPSS v29.0. The primary findings are p-values testing
+  associations between caffeine-intake frequency and gender (p=0.351),
+  age (p=0.353), school (p=0.545), year of study (p=0.646), BMI
+  (p=0.198), sleep quality (p=0.692), and scholarship status (p=0.002,
+  the only significant association). The paper contains zero heavy-
+  metal measurements, zero analytical chemistry, zero food-occurrence
+  data, and zero quantification of Pb/Cd/As/Hg/Ni/Al/Cr/Sn/Sb anywhere.
+  "Matcha" appears only as one of six caffeinated-beverage categories
+  in the consumption survey ("coffee, tea, chocolate, matcha, soft
+  drinks, and energy drinks") — it is not the focus of measurement,
+  not analyzed separately for any contaminant, and is mentioned only
+  in the questionnaire-design and abstract narrative.
+- **Action:** Moved PDF to
+  `raw/manual-fetch/seasonal-geographic-variance/skipped/skip_no-heavy-metal-data/`.
+  Not ingested, not committed, no wiki source page created. Tracker
+  row updated to status=stopped.
+- **Upstream signal:** This is now the THIRD consecutive `auto-matcha-*`
+  false positive from the same auto-fetched batch (after
+  `ajlsi.v4i2.5050` DPPH antioxidant assay and `jos.ess22135` organic-
+  acid HPLC). The pattern is consistent: the discover scorer is
+  treating any paper that mentions matcha alongside food-chemistry,
+  nutrition, or consumer-behavior keywords as a candidate for
+  matcha × metal occurrence, without requiring any actual heavy-metal-
+  analyte language in the abstract. This Zubir paper has no metal
+  vocabulary anywhere — it is a behavioral/dietetics survey — yet was
+  pulled under a `matcha-pb-product` occurrence slug. Three consecutive
+  false positives from the same matcha-metal query strongly suggest
+  the upstream OpenAlex/discover query for matcha × heavy-metal
+  candidates is structurally broken: either the query terms are too
+  permissive, the slug-to-PDF matching is keyword-only without any
+  abstract-level analyte-presence verification, or the eprints.usm.my
+  institutional-repository indexing is producing matches that score
+  high on the "matcha" token without any metal-occurrence signal at
+  all. Recommended remediation: add a hard pre-download filter that
+  requires at least one of {Pb, lead, Cd, cadmium, As, arsenic, Hg,
+  mercury, heavy metal, trace element, contamination, ICP, AAS, AFS,
+  XRF, anodic stripping} as a literal substring in the candidate's
+  abstract or title before the matcha × Pb / matcha × Al / matcha × Cd
+  queries are allowed to enqueue. With three confirmed off-topic
+  pulls in a row, the discover pipeline is currently producing more
+  noise than signal for matcha-metal occurrence work, and the human-
+  review cost of triaging these dissertations and antioxidant studies
+  exceeds the value of the rare true positive that the current loose
+  filter might catch.
