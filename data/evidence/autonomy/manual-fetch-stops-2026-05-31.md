@@ -271,3 +271,125 @@ destination folder it was moved to.
 **Action taken:** none. No ingest, no merge-enhance, no audit, no commit. PDF logged here so the next /loop tick (or the daemon's manual-fetch ingester) skips it without re-scanning.
 
 **Final line:** `STOP: pdf-already-ingested-clean fda-tds-elements-2018-2020 (sha256 match to raw/reports/2022_07_14_TDSElementsReport_1436.pdf; primary page updated 2026-05-20; audit completed 2026-05-20 verdict REVISE)`
+
+
+## Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah City, Saudi Arabia.pdf
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`
+- **Wrapper-supplied handle:** `KADC_levels-of-trace-elements-in-commercial-fruit-juice`
+- **Stop reason:** byte-identical duplicate of an already-ingested PDF; existing wiki source page is post-2026-05-14 clean.
+
+### Identity evidence
+
+- SHA-256 of this PDF: `70a29cbe10755eaede9195b69fc188b862ae8d3a1a9261e1859beaecf359681d`
+- SHA-256 of `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Levels of Trace Elements in Commercial Fruit Juices Consumed in Jeddah City, Saudi Arabia.pdf`: `70a29cbe10755eaede9195b69fc188b862ae8d3a1a9261e1859beaecf359681d`
+- Existing wiki source page: `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements.md`
+  - `raw_handle: manual-fetch-kimi`
+  - `updated: 2026-05-20` (merge-enhance pass against the PDF, full verification notes recorded)
+  - `cite_key: farid2010-fruit-juices-jeddah-trace-elements`
+- Identity-check grep hits (DOI null on this paper; checked title-substring and cite-key paths): `farid2010-fruit-juices-jeddah-trace-elements.md`.
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+The existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evidence/routing_unresolved.csv`, and not in `data/evidence/routing_malformed.csv`. The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. Re-ingesting via the KADC_ root would either (a) duplicate the prior page or (b) regress merge-enhance work already verified against this same PDF a week ago.
+
+### Action taken
+
+- Tracker row for `KADC_levels-of-trace-elements-in-commercial-fruit-juice` (line 859 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `skipped-duplicate`, with the existing `cite_key` populated so future wrapper ticks short-circuit on the row read instead of re-discovering the SHA collision.
+- No ingest, no merge-enhance, no audit, no commit beyond the tracker edit.
+- The page itself was not modified; the prior 2026-05-20 merge-enhance is the canonical version.
+
+**Final line:** `STOP: pdf-already-ingested-clean farid2010-fruit-juices-jeddah-trace-elements (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit)`
+
+## KADC_survey-of-total-arsenic-and-inorganic-arsenic-in-a — PARALLEL-INGEST RACE / DUPLICATE PAPER
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`
+- **PDF:** `Survey of total arsenic and inorganic arsenic in apple and pear juice.pdf`
+- **Wrapper-supplied handle:** `KADC_survey-of-total-arsenic-and-inorganic-arsenic-in-a`
+- **Existing cite-key:** `fsanz2012-arsenic-apple-pear-juice-australia-nz`
+- **Authors / venue:** Food Standards Australia New Zealand (FSANZ), 2013 targeted analytical survey report (samples collected April/May 2012)
+- **SHA256 of both PDF copies:** `6bd162cc2e489587c62aa70e2ae6146311b73005dc41e81e53ca605a42669ca0`
+
+### Why this fired
+
+The Kimi-Agent-Download-Corruption-Issue folder is a duplicate tree containing copies of papers already filed under `raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/`. The MFK_ root copy of this PDF was ingested 2026-05-20 (tracker line 205) and the existing source page was merge-enhanced under the v2.0 skill the same day (subagent verdict REVISE, two ⚠️ findings, both addressed in the same commit). The KADC_ copy is byte-identical to the MFK_ original.
+
+- Identity-check grep hits:
+  - Title-substring grep: `fsanz2012-arsenic-apple-pear-juice-australia-nz.md` (single hit, exact title)
+  - DOI grep: paper has no DOI (`doi: null`, `no_doi_assigned: true`); identity established via title + raw_path + author
+  - SHA256 collision against the MFK_ root: confirmed via `shasum -a 256` on both file paths
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+The existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evidence/routing_unresolved.csv`, and not in `data/evidence/routing_malformed.csv`. The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. Re-ingesting via the KADC_ root would either (a) duplicate the prior page or (b) regress the 2026-05-20 merge-enhance work already verified by a fresh-context subagent against the same PDF.
+
+### Action taken
+
+- Tracker row for `KADC_survey-of-total-arsenic-and-inorganic-arsenic-in-a` (line 862 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `skipped-duplicate`, with the existing `cite_key` populated so future wrapper ticks short-circuit on the row read instead of re-discovering the SHA collision.
+- No ingest, no merge-enhance, no audit, no commit beyond the tracker edit.
+- The page itself was not modified; the prior 2026-05-20 merge-enhance is the canonical version.
+
+**Final line:** `STOP: pdf-already-ingested-clean fsanz2012-arsenic-apple-pear-juice-australia-nz (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit)`
+
+## KADC_cadmium-and-lead-in-wild-edible-mushrooms-from-the — KIMI-CORRUPTION DUPLICATE OF ALREADY-INGESTED MFK_ ROOT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`
+- **Filename:** `Cadmium and Lead in Wild Edible Mushrooms from the Eastern Region of Poland's 'Green Lungs'.pdf`
+- **SHA256:** `169923ea1feb51b63a9dd37049d480dd8d06aef31298e5c22a2c59d45d7bc0dc`
+- **Existing wiki source page:** `wiki/sources/mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland.md`
+- **Existing `cite_key`:** `mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland`
+- **Existing `raw_handle`:** `MFK_cadmium-and-lead-in-wild-edible-mushrooms-from-the`
+- **Existing `updated`:** `2026-05-20`
+
+### Why skipped
+
+Same duplicate-tree pattern as the prior KADC_ entries in this log. The Kimi-Agent-Download-Corruption-Issue folder is a duplicate tree mirroring papers already filed under `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/`. The MFK_ root copy of this PDF was ingested 2026-05-20 (tracker line 210) and the existing source page was merge-enhanced through the v2.0 skill with full numerical fidelity verification against the PDF (all 18 wild-species Pb DM/FM values, all 18 wild-species Cd DM/FM values, all 3 cultivated-species Pb/Cd values, Table 3 intake values, methods, and reference materials). The KADC_ copy is byte-identical to the MFK_ root (SHA256 verified).
+
+- Identity-check grep hits:
+  - Title-substring grep: `mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland.md` (single hit, exact title match in frontmatter)
+  - DOI grep: paper has no DOI (`doi: null`, `no_doi_assigned: true`); identity established via title + raw_path + author
+  - SHA256 collision against the MFK_ root: confirmed via `shasum -a 256` on both file paths (`169923ea…d7bc0dc`)
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+The existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evidence/routing_unresolved.csv`, and not in `data/evidence/routing_malformed.csv`. The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. Re-ingesting via the KADC_ root would either (a) duplicate the prior page or (b) regress the 2026-05-20 merge-enhance work already verified line-by-line against the same PDF.
+
+### Action taken
+
+- Tracker row for `KADC_cadmium-and-lead-in-wild-edible-mushrooms-from-the` (line 867 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `skipped-duplicate`, with the existing `cite_key` populated so future wrapper ticks short-circuit on the row read instead of re-discovering the SHA collision.
+- No ingest, no merge-enhance, no audit, no commit beyond the tracker edit.
+- The page itself was not modified; the prior 2026-05-20 merge-enhance is the canonical version.
+
+**Final line:** `STOP: pdf-already-ingested-clean mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit)`
+
+## KADC_determination-of-tin-in-canned-foods-by-inductivel — SHA-IDENTICAL DUPLICATE / ALREADY INGESTED CLEAN
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`
+- **PDF:** `Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry.pdf`
+- **KADC SHA256:** `cf02363493b9f24ba353e181ba3ac7fac20dea26b5356fec7584283be8fe8862`
+- **MFK root path:** `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry.pdf`
+- **MFK root SHA256:** `cf02363493b9f24ba353e181ba3ac7fac20dea26b5356fec7584283be8fe8862` (byte-identical)
+- **Existing cite-key:** `trandafir2012-tin-canned-foods-icp-ms`
+- **Existing page path:** `wiki/sources/trandafir2012-tin-canned-foods-icp-ms.md`
+- **Existing page `updated:`** `2026-05-20` (post-2026-05-14 cutoff)
+
+### Why skipped
+
+Same duplicate-tree pattern as prior KADC_ entries in this log. The Kimi-Agent-Download-Corruption-Issue folder mirrors PDFs already filed under `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/`. The MFK_ root copy of this PDF was ingested 2026-05-20 (tracker line 213) and the source page was merge-enhanced through the v2.0 skill with full numerical fidelity verification against the PDF: Table 3's 14 products × 2 fractions (28 mean ± SD values), Figure 1's post-opening kinetics, accuracy standards (0.505 at 0.5 ppm; 5.12 at 5 ppm; RSDs 2.42% and 1.87%), recovery range 91.3–105.2%, LOD ~0.01 ppb, calibration linearity, JECFA PTWI (14 mg/kg BW/week), EU 1881/2006 limits (200/100/50 mg/kg), and Codex 250 mg/kg. The KADC_ copy is byte-identical to the MFK_ root (SHA256 verified).
+
+- Identity-check grep hits:
+  - Title-substring grep: `trandafir2012-tin-canned-foods-icp-ms.md` (single hit)
+  - DOI grep: paper has no DOI (`doi: null`, `no_doi_assigned: true`); identity via title + raw_handle + author + journal-volume-page
+  - SHA256 collision against the MFK_ root: confirmed identical (`cf02363493b9f24ba353e181ba3ac7fac20dea26b5356fec7584283be8fe8862`)
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+Existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evidence/routing_unresolved.csv`, not in `data/evidence/routing_malformed.csv`. Audit verdict on the page was REVISE (one ❌ on Check 2 slug vocabulary applied 2026-05-20). The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. Re-ingesting via the KADC_ root would either duplicate the page or regress the 2026-05-20 merge-enhance + audit-revise work.
+
+### Action taken
+
+- Tracker row for `KADC_determination-of-tin-in-canned-foods-by-inductivel` (line 870 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `skipped-duplicate` with existing cite-key populated so future wrapper ticks short-circuit on row read.
+- No ingest, no merge-enhance, no audit, no commit beyond the tracker edit.
+- The wiki source page was not modified; the prior 2026-05-20 merge-enhance + audit-revise is the canonical version.
+
+**Final line:** `STOP: pdf-already-ingested-clean trandafir2012-tin-canned-foods-icp-ms (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit)`
