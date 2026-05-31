@@ -1163,3 +1163,61 @@ No defects identified. Page accurately reflects the source; no merge-enhance nee
 Third confirmed-clean KADC skip in `04_Condiments_and_Sauces` (after `KADC_heavy-metal-contamination-of-hot-sauce-and-chili-p` and `KADC_exposure-assessment-of-dietary-cadmium-findings-fr`). Pattern consistent with the corpus-level signal that the KADC tree is largely a SHA-duplicate of canonical MFK_/MR_ coverage already cleanly ingested in the 2026-05 sweeps.
 
 **Final line:** `STOP: page-already-current KADC_heavy-metal-migration-exposure-and-health-risk-thr (resolves to kangre2024-canned-tomato-pb-sn-ghana.md, updated 2026-05-28, audited PROMOTE 0 findings)`
+
+## KADC_the-first-hong-kong-total-diet-study-inorganic-ars — PAGE ALREADY CURRENT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/`
+- **PDF:** `The First Hong Kong Total Diet Study_ Inorganic Arsenic.pdf`
+- **Suggested handle:** `KADC_the-first-hong-kong-total-diet-study-inorganic-ars`
+- **Resolves to:** `wiki/sources/cfs2012-hktds-inorganic-arsenic.md` (updated 2026-05-28, audited-revised, REVISE verdict 2 applied / 0 rejected, routing clean, not in malformed)
+- **Why stopped:** v2 skill Phase 1 step 1 says "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." Existing page meets all three conditions: updated 2026-05-28; `grep cfs2012-hktds-inorganic-arsenic routing_malformed.csv routing_unresolved.csv` → 0 / 0; audit-queue row already `audited-revised`.
+
+### Verification
+
+- Existing page read in full. Recent 2026-05-28 enhance pass already fixed the soya/oyster sauce transposition (Appendix 1 p.34), narrowed `metals:` to `[iAs]` (HG-ICP-MS direct speciation), removed invalid `ingredients/condiments-sauces` slug (→ tomato-paste + ketchup), expanded the 15-row age-gender breakdown, the full 13-category food-group exposure table, Table 6 international comparison, Table 5 water-spinach cultivar table, and the source-stated Limitations section. Audit subagent's two Check 1 ⚠️ warnings (water-spinach composite-composition attribution; cooking-water "additional" framing) verified against the PDF and applied. Brand-firewall and HMTc-firewall scans both clean.
+- Routing audit clean: `grep cfs2012-hktds-inorganic-arsenic data/evidence/routing_malformed.csv data/evidence/routing_unresolved.csv` → 0 / 0.
+- Audit-queue row exists for `cfs2012-hktds-inorganic-arsenic`, status `audited-revised`, verdict `REVISE`, applied 2026-05-28.
+- SHA-256 of KADC sibling matches MFK_ root byte-for-byte (`c8928be404ddb48138cae46d71a67acdab47167fd3d22971c5083feb0bdb9a70`); no need to re-read PDF.
+
+No defects identified. Page accurately reflects the source; no merge-enhance needed.
+
+### Action
+
+- Tracker row 952 (`KADC_the-first-hong-kong-total-diet-study-inorganic-ars`) flipped from `unprocessed` to `stopped`, with `cite_key=cfs2012-hktds-inorganic-arsenic` recorded so future ticks can resolve the identity back to the canonical page.
+- No new ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit + this stop note.
+- The canonical `cfs2012-hktds-inorganic-arsenic.md` page is unchanged.
+
+### Upstream signal
+
+Fourth confirmed-clean KADC skip in `04_Condiments_and_Sauces` (after hot-sauce/chili-powder, Shanghainese dietary cadmium, and Ghana canned-tomato). Pattern is now consistent: the KADC tree appears to be a SHA-duplicate set of canonical MFK_/MR_ coverage already cleanly ingested+audited in the 2026-05 sweeps. The free-DOI dedup catches DOI-bearing duplicates; SHA-duplicates without DOIs (this paper has none) fall through to the per-PDF skill, which then resolves them on the post-2026-05-14-clean check. Working as intended; no upstream-tool change needed.
+
+**Final line:** `STOP: page-already-current KADC_the-first-hong-kong-total-diet-study-inorganic-ars (resolves to cfs2012-hktds-inorganic-arsenic.md, updated 2026-05-28, audited REVISE 2 applied/0 rejected)`
+
+## KADC_the-first-hong-kong-total-diet-study-metallic-cont — PAGE ALREADY CURRENT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/`
+- **PDF:** `The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`
+- **Suggested handle:** `KADC_the-first-hong-kong-total-diet-study-metallic-cont`
+- **Resolves to:** `wiki/sources/cfs2013-hktds-metallic-contaminants.md` (updated 2026-05-20, audited-promote, PROMOTE verdict 3 applied / 0 rejected, routing clean, not in malformed)
+- **Why stopped:** v2 skill Phase 1 step 1 says "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." Existing page meets all three conditions: updated 2026-05-20; `grep cfs2013-hktds-metallic-contaminants routing_malformed.csv routing_unresolved.csv` → 0 / 0; audit-queue row already `audited-promote`.
+
+### Verification
+
+- Existing page read in full. 2026-05-20 merge-enhance pass already added vanadium to `metals`, removed invented `products/mixed-dishes` and inappropriate `products/fruit-juices-non-apple`, corrected `ingredients/dairy` → `milk-and-dairy`, added `ingredients/eggs`, expanded Key numbers from bulleted prose to per-analyte body tables (Al, Cd, Pb, MeHg, plus combined Sb/Ni/Sn/V table and dietary-exposure benchmarks), and added `near_duplicates`/`related_sources` cross-link to `cfs2012-hktds-inorganic-arsenic`. Audit subagent's three Check 1 ⚠️ items about item-level Al ranges (Chinese spinach, deep-fried-dough, ear-fungus/cake/fermented-bean) were verified against Appendix I Table A; sourcing made explicit on the page. Brand-firewall and HMTc-firewall scans both clean.
+- Routing audit clean: `grep -c cfs2013-hktds-metallic-contaminants data/evidence/routing_malformed.csv data/evidence/routing_unresolved.csv` → 0 / 0.
+- Audit-queue row exists for `cfs2013-hktds-metallic-contaminants`, status `audited-promote`, verdict `PROMOTE`, applied 2026-05-20.
+- SHA-256 of KADC sibling matches MFK_ root byte-for-byte (`f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c`); no need to re-read PDF beyond the front-matter chapters already spot-checked.
+
+No defects identified. Page accurately reflects the source; no merge-enhance needed.
+
+### Action
+
+- Tracker row 953 (`KADC_the-first-hong-kong-total-diet-study-metallic-cont`) flipped from `unprocessed` to `stopped`, with `cite_key=cfs2013-hktds-metallic-contaminants` recorded so future ticks can resolve the identity back to the canonical page.
+- No new ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit + this stop note.
+- The canonical `cfs2013-hktds-metallic-contaminants.md` page is unchanged.
+
+### Upstream signal
+
+Fifth confirmed-clean KADC skip in `04_Condiments_and_Sauces` (after hot-sauce/chili-powder, Shanghainese dietary cadmium, Ghana canned-tomato, and HKTDS Inorganic Arsenic). The KADC tree continues to be a SHA-duplicate set of canonical MFK_/MR_ coverage already cleanly ingested+audited in the 2026-05 sweeps; no DOI exists for this report so free-DOI dedup cannot catch it upstream, but the per-PDF skill's post-2026-05-14-clean check resolves it correctly. Working as intended.
+
+**Final line:** `STOP: page-already-current KADC_the-first-hong-kong-total-diet-study-metallic-cont (resolves to cfs2013-hktds-metallic-contaminants.md, updated 2026-05-20, audited PROMOTE 3 applied/0 rejected)`
