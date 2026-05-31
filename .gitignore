@@ -62,3 +62,6 @@ data/evidence/autonomy/daemon-runs/
 # Daemon heartbeat — written every tick; tracking it self-blocks the daemon
 data/evidence/autonomy/heartbeat.txt
 .env.development
+
+# HMTc commercial/marketing — private nested repo; never tracked or published by the wiki repo
+hmtc-commercial/
