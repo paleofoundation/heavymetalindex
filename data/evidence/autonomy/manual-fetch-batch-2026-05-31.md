@@ -119,3 +119,43 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry.pdf`: pdf-already-ingested-clean trandafir2012-tin-canned-foods-icp-ms (SHA-identical to MFK_ root at `cf02363…fe8862`; existing page `wiki/sources/trandafir2012-tin-canned-foods-icp-ms.md` updated 2026-05-20 post-cutoff, audit-revised, routing clean — skill v2.0 Phase 1 step 1 skip rule)
+
+## Tick 2026-05-31T16:47:04.646Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/Distribution of Cadmium in Fresh Vegetables Marketed in the Yangtze River Delta Region and Health Risk Assessment.pdf`: kimi-corruption-off-topic-pdf skoko2022-patulin-polyphenol-croatian-apples (actual content is patulin+polyphenols in apples, not cadmium in vegetables; no heavy-metals data to ingest)
+
+## Tick 2026-05-31T16:50:48.064Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/Exposure to Lead and Cadmium in the Sixth Total Diet Study - China.pdf`: duplicate-source-pages KADC_exposure-to-lead-and-cadmium-in-the-sixth-total-di (DOI 10.46234/ccdcw2022.045 already exists on two wiki source pages with different cite-keys — `zhao2022-china-sixth-tds-pb-cd` and `zhao2022-china-tds6-lead-cadmium-exposure`; needs Karen to pick canonical cite-key and delete the other before any further ingest)
+
+## Tick 2026-05-31T16:53:56.421Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`: pdf-already-ingested-clean cfs2013-hktds-metallic-contaminants (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit; PROMOTE verdict)
+
+## Tick 2026-05-31T16:58:01.100Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/The Potential Health Risk Associated with Edible Vegetables Grown on Cr(VI) Polluted Soils.pdf`: kimi-corruption-off-topic-pdf li-zhang-han-2020-ijerph-online-health-community-price-premiums (actual content is Chinese online-doctor pricing econometrics, DOI 10.3390/ijerph17041326; no heavy-metals data to ingest)
