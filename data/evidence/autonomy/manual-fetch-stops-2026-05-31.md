@@ -64,13 +64,39 @@ destination folder it was moved to.
      notes; the other page may have different coverage of the source.
   3. Recommend retaining the audited-revised page and deleting the other
      (since the audit work is non-trivial to redo), but Karen's call.
-- **Action taken in this session:** Committed audit application to
+- **Action taken in the first session (a12d7a2 / wu2024-heavy-metals-…):**
+  Committed audit application to
   `wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md` only. Did NOT
   touch the parallel page or its unstaged modifications. Stopped per the
   skill's true-duplicate-conflict stop condition.
+- **Action taken in the second session (f86d57f / de5ba1c / wu2024-jiaozuo-china-…):**
+  This session (the "parallel" one named above) committed ingest at f86d57f
+  and audit application at de5ba1c (Phase-2 subagent verdict QUARANTINE; 7
+  findings applied — cereal range column-shift remapping Cr/Hg/Ni/Cu to the
+  page-186 narrative order, cereal Table 7 means restated from the SD columns,
+  single-factor pollution moderate bracket corrected from "Cr in peanuts" to
+  "Ni in peanuts" per page 191, bogus Hg mass-balance flag removed, three
+  source-internal narrative-vs-Table-7 inconsistencies surfaced; 1 finding
+  rejected — `ingredients/mushrooms` slug retained since
+  `wiki/ingredients/mushrooms.md` exists and routing audit resolved cleanly;
+  the 2026-05-18 taxonomy snapshot is stale). Did NOT modify the first
+  session's page. Stopping per this same true-duplicate-conflict condition.
+- **State after both sessions:** Both source pages are committed and audited
+  against their own subagent reports. Both have routing audit clean. Both
+  cover the same paper. Karen's decision still required:
+  1. Which cite-key wins.
+  2. Whether to merge specific verification notes from the loser into the
+     winner before retiring it (the column-shift correction in the second
+     session and the rice-Hg back-calc / vegetable Pb max / TCR typo / Nemerow
+     mung-bean clarifications in the first session may not fully overlap).
+  3. Recommended workflow: read both pages side-by-side, pick the better-
+     written one as the canonical, port any unique verification-notes content
+     from the other, delete the loser, rebuild routing audit.
 - **Upstream signal:** The autonomy/FRANK loops do not appear to lock against
   Karen-triggered `/ingest-next-manual-fetch-pdf` invocations. Either FRANK
   should respect a session-lock when Karen launches the skill manually, or
   the cite-key generation should use a stable derivation from DOI so parallel
   ingests of the same paper collide on filename rather than producing two
-  distinct files.
+  distinct files. Both sessions' DOI greps ran before the other's commit
+  landed, so the existing identity-check protocol cannot prevent this race
+  without filesystem-level coordination.
