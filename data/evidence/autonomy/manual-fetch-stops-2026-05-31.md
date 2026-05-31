@@ -1221,3 +1221,35 @@ No defects identified. Page accurately reflects the source; no merge-enhance nee
 Fifth confirmed-clean KADC skip in `04_Condiments_and_Sauces` (after hot-sauce/chili-powder, Shanghainese dietary cadmium, Ghana canned-tomato, and HKTDS Inorganic Arsenic). The KADC tree continues to be a SHA-duplicate set of canonical MFK_/MR_ coverage already cleanly ingested+audited in the 2026-05 sweeps; no DOI exists for this report so free-DOI dedup cannot catch it upstream, but the per-PDF skill's post-2026-05-14-clean check resolves it correctly. Working as intended.
 
 **Final line:** `STOP: page-already-current KADC_the-first-hong-kong-total-diet-study-metallic-cont (resolves to cfs2013-hktds-metallic-contaminants.md, updated 2026-05-20, audited PROMOTE 3 applied/0 rejected)`
+
+## KADC_aluminum-in-food-qa-sources-safety-and-regulations — PAGE ALREADY CURRENT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/`
+- **PDF:** `Aluminum in Food (Q&A)_ Sources, Safety and Regulations.pdf` (39 KB, 3 pages, EUFIC Q&A, last updated 2021-12-01)
+- **Resolves to existing page:** `wiki/sources/efsa2021-aluminium-food-qa.md`
+- **Why skipped:** Existing wiki page was merge-enhanced 2026-05-28 (Claude Opus 4.7) under the v2 EXISTING path. Verification notes document the full defect-fix list applied at that time: publisher corrected from EFSA to EUFIC, source_type ngo-report, evidence_tier dropped A→B with rationale, invalid `matrices` slugs (`dietary-intake`, `food-additives`, `cookware-migration`) removed, `products` field cleared (Q&A makes only a single passing reference to infant formula with no occurrence/exposure data), legacy `## Implications` and `## Wiki pages updated on ingest` sections removed, `raw_handle` updated to `MFK_aluminum-in-food-qa-sources-safety-and-regulations`, `raw_sha256` populated, `access_url` added. Page is post-2026-05-14 clean.
+- **Routing audit status:** Source appears in `routing_malformed.csv` at severity `advisory` — empty `products` and `matrices` fields are an intentional advisory state per the 2026-05-28 verification notes (no product- or matrix-tied occurrence data exists in the Q&A). Not a defect; no re-ingest warranted.
+- **Cite-key note (pre-existing, not actionable in this cycle):** The cite-key `efsa2021-aluminium-food-qa` embeds the original (wrong) attribution to EFSA. The 2026-05-28 pass preserved it deliberately because it is backlinked from the aluminium metal page, four infant-formula product pages, five ingredient pages, and several `data/evidence/` artifacts. A future cross-wiki rename pass would update inbound references atomically. This single-PDF cycle is not the place to do that.
+- **Action:** No ingest, no commit, no wiki edits.
+
+### Upstream signal
+
+Sixth confirmed-clean KADC skip in the condiment_papers tree (after 04_Condiments_and_Sauces × 5). The KADC corruption-folder PDF here is a SHA-duplicate of the canonical MFK_ ingest already merge-enhanced in 2026-05; the per-PDF skill's post-2026-05-14-clean check resolves it correctly. Free-DOI dedup cannot catch this upstream because EUFIC Q&A pages have no DOI. Working as intended.
+
+**Final line:** `STOP: page-already-current KADC_aluminum-in-food-qa-sources-safety-and-regulations (resolves to efsa2021-aluminium-food-qa.md, updated 2026-05-28, routing-malformed entry is advisory-tier by design)`
+
+## KADC_consumer-reports-heavy-metals-in-15-herbs-and-spic — PAGE ALREADY CURRENT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/`
+- **PDF:** `Consumer Reports_ Heavy Metals in 15 Herbs and Spices.pdf` (20.9 MB, Consumer Reports article by Lisa L. Gill & Tanya A. Christian, 2021)
+- **Resolves to existing page:** `wiki/sources/gill2021-consumer-reports-spices.md`
+- **Why skipped:** Existing wiki page was merge-enhanced 2026-05-28 under the v2 EXISTING path. Verification notes document the full defect-fix list applied at that time: corrected seven-no-concern-categories list (replaced "basil" with "black pepper" per the article's "Season Safely" summary on p.45), reframed the 31-products-lead-alone finding to "anyone" per article p.40, added FDA / NY State / California Prop 65 / FDA import-alert regulatory context from pp.42-44, added the no-brand-consistency and no-organic-protection findings from p.45, added co-author Tanya A. Christian per the joint byline on the DIY section (pp.46-47). 2026-05-28 audit-application also removed "allspice" from the baking-spice exclusion and stripped the "La Flor Ground Turmeric" brand attribution per Part 12 strict reading. Page is post-2026-05-14 clean.
+- **Routing audit status:** Source is NOT in `routing_malformed.csv` and NOT in `routing_unresolved.csv`. No re-ingest warranted.
+- **Cite-key note:** The KADC handle (`KADC_consumer-reports-heavy-metals-in-15-herbs-and-spic`) is the filesystem handle for the corruption-folder copy; the canonical cite-key is `gill2021-consumer-reports-spices`. Tracker row 304 (the original MFK_ ingest path) is already in `status=ingested` with this cite-key recorded.
+- **Action:** No ingest, no commit beyond the tracker edit + this stop note. The canonical `gill2021-consumer-reports-spices.md` page is unchanged.
+
+### Upstream signal
+
+Seventh confirmed-clean KADC skip in the condiment_papers tree. The KADC corruption-folder PDF here is a SHA-duplicate of the canonical MFK_ ingest already merge-enhanced + audited in 2026-05; the per-PDF skill's post-2026-05-14-clean check resolves it correctly. Free-DOI dedup cannot catch this upstream because the Consumer Reports article has `no_doi_assigned: true`. Working as intended.
+
+**Final line:** `STOP: page-already-current KADC_consumer-reports-heavy-metals-in-15-herbs-and-spic (resolves to gill2021-consumer-reports-spices.md, updated 2026-05-28, audited 2026-05-28 with brand-firewall correction applied)`
