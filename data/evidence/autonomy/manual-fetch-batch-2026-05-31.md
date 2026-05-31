@@ -619,3 +619,13 @@
 
 ### Succeeded
 - `cpsc1997-pvc-children-products` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/02_Pbcdtoys.pdf)
+
+## Tick 2026-05-31T21:15:45.730Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `bfr2009-lead-cadmium-toys` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/03_2009_lead_and_cadmium_do_not_belong_in_toys.pdf)

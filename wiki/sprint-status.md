@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T21:21:48.976Z
+updated: 2026-05-31T21:43:34.775Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 65 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 360 min ago (stale) |
+| Daemon heartbeat | ⚠️ 381 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 82 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 12 |
-| Commits last 24 hours | 104 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 13 |
+| Commits last 24 hours | 108 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 65 min**
 ## Last commit
 
 ```
-f5c5705 7 minutes ago — audit-queue: cpsc1997-pvc-children-products → audited-revised/REVISE
+f632ad8 18 minutes ago — audit-queue: bfr2009-lead-cadmium-toys → audited-revised/REVISE
 ```
 
 ## How to read this
