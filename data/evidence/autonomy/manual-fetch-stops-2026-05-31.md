@@ -850,3 +850,39 @@ Phase 1 step 2 (read PDF) was completed in full — all 7 pages including the ab
 This is now the **third** Kimi-folder PDF in the corruption-folder drain to show content/filename mismatch via wrong-paper substitution (cf. the skoko2022 patulin paper delivered under the Yangtze-cadmium slug, and the shimanoe2006 SnO2-STM paper delivered under the aluminum-leaching-into-vinegar slug). The third case has a distinct sub-pattern: the delivered paper is in the right domain (Turkish vinegar chemistry) and even cites the intended HMI paper in its references, but reports no heavy-metal data of its own. The first two wrong-PDF cases were total-domain mismatches (mycotoxins / surface physics); this one is a same-domain-but-no-metals mismatch and would be easier to misclassify as a "thin metals paper" on a cursory read — the only safeguard is reading the methods + results in full before committing. The pattern continues to support the prior recommendation: a one-pass verification script that opens each PDF in the Kimi corruption tree, extracts the actual title/DOI, and compares against the filename slug would surface every mis-fetched PDF in a single sweep rather than discovering them one-at-a-time across many autonomous ticks. Three of the eight 02_Vinegars Kimi files processed so far are now confirmed corrupt-by-wrong-PDF or duplicate (KADC_a-practical-method = duplicate-DOI of ozbek2016; KADC_alarming-lead-arsenic = SHA-identical duplicate of MFK_ root; KADC_aluminum-leaching = shimanoe2006 wrong PDF; KADC_determination-of-heavy-metal = duman-turkmen2024 wrong PDF) — the recovery yield from the Kimi corruption folder remains low and the case for a pre-pass verification sweep continues to strengthen.
 
 **Final line:** `STOP: kimi-corruption-off-topic-pdf duman-turkmen2024-vinegar-chemical-composition (actual content is Duman & Türkmen 2024 chemical composition of Turkish vinegars in African Journal of Biotechnology 23(12):354-360, doi 10.5897/AJB2021.17345; no heavy-metal concentrations measured in this paper; intended Tekin 2014 ICP-MS thesis remains unfetched)`
+
+## KADC_levels-of-cd-pb-and-ni-in-different-types-of-vineg — KIMI-CORRUPTION DUPLICATE OF ALREADY-INGESTED MFK_ ROOT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/`
+- **Filename:** `Levels of Cd, Pb, and Ni in Different Types of Vinegars.pdf`
+- **Wrapper-supplied handle:** `KADC_levels-of-cd-pb-and-ni-in-different-types-of-vineg`
+- **SHA256:** `30f32d201198bd038850f752d5dcb6aa7a788168597725f942d576f07172ea4a`
+- **Existing wiki source page:** `wiki/sources/acosta1993-cd-pb-ni-vinegar-types.md`
+- **Existing `cite_key`:** `acosta1993-cd-pb-ni-vinegar-types`
+- **Existing `raw_handle`:** `manual-fetch-kimi`
+- **Existing `updated`:** `2026-05-26`
+
+### Identity evidence
+
+- SHA-256 of this PDF (KADC_ tree): `30f32d201198bd038850f752d5dcb6aa7a788168597725f942d576f07172ea4a`
+- SHA-256 of `raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Levels of Cd, Pb, and Ni in Different Types of Vinegars.pdf`: `30f32d201198bd038850f752d5dcb6aa7a788168597725f942d576f07172ea4a` — byte-identical.
+- Identity-check grep hits:
+  - Title-substring grep: `acosta1993-cd-pb-ni-vinegar-types.md` (single hit; exact title in frontmatter).
+  - DOI grep: paper has no DOI (`doi: null`, `no_doi_assigned: true`); identity established via title + raw_path + SHA-256 collision.
+  - Cite-key grep: `acosta1993-cd-pb-ni-vinegar-types` already populated in `data/evidence/audit-queue.csv` (line 308), `data/evidence/product_source_routing_audit.csv`, and 19 other evidence files.
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+The existing page is post-2026-05-14 clean (`updated: 2026-05-26`), not in `data/evidence/routing_unresolved.csv`, and not in `data/evidence/routing_malformed.csv`. The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. The 2026-05-26 merge-enhance pass against this same PDF already populated `products: [vinegar]`, removed an unsupported FAO/WHO Codex reference, removed an unsupported Student-Newman-Keuls qualifier, added per-type SD values for all three metals, added brand-D mean Ni and brand-C mean Pb supporting figures, and tightened the recovery line with spike masses — full verification notes are recorded on the page. Re-ingesting via the KADC_ root would either (a) duplicate the prior page or (b) regress the verified merge-enhance work.
+
+### Action taken
+
+- Tracker row for `KADC_levels-of-cd-pb-and-ni-in-different-types-of-vineg` (line 931 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `skipped-duplicate`, with the existing `cite_key` populated so future wrapper ticks short-circuit on the row read instead of re-discovering the SHA collision.
+- No ingest, no merge-enhance, no audit, no commit beyond the tracker edit + this stop note.
+- The page itself was not modified; the 2026-05-26 merge-enhance is the canonical version.
+
+### Upstream signal
+
+This brings the 02_Vinegars Kimi-corruption-folder sub-tree to: four of nine processed PDFs are now confirmed wrong-PDF / duplicate (KADC_a-practical-method = duplicate-DOI of ozbek2016; KADC_alarming-lead-arsenic = SHA-identical duplicate of MFK_ root; KADC_aluminum-leaching = shimanoe2006 wrong PDF; KADC_determination-of-heavy-metal = duman-turkmen2024 wrong PDF) plus this fifth case (KADC_levels-of-cd-pb-and-ni = SHA-identical duplicate of MFK_ root). Two of the five are SHA-identical duplicates of the canonical MFK_ root tree (the pattern documented across prior KADC_ entries in this log). The recovery yield from the Kimi corruption folder for 02_Vinegars remains at zero net novel papers so far in this sweep.
+
+**Final line:** `STOP: pdf-already-ingested-clean acosta1993-cd-pb-ni-vinegar-types (SHA-identical to MFK_ root; existing page updated 2026-05-26 and clean per routing audit)`
