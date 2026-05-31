@@ -17,18 +17,39 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-substrate-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "31a74d339fba4ea6753cfc732030396939198eb67a5ef17486465e4f5d4484c9",
-      "content_bytes": 8375,
-      "last_commit_sha": "324868f",
+      "content_sha256": "ea9de25b3e182a6f9c5b04bbb0a84ef4378a6cefdcbaf4ec0f39046c61dab0e3",
+      "content_bytes": 9924,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/toys-substrate-materials.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/toys-substrate-materials.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/bfr2009-lead-cadmium-toys",
+        "title": "Lead and cadmium do not belong in toys",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bfr2009-lead-cadmium-toys",
+        "content_pin": {
+          "content_sha256": "3ffc075b9661edd235cb03e32b0f0c28ef63b3f3f5a46e089381686762b1ea7f",
+          "content_bytes": 23430,
+          "last_commit_sha": "e44f2a6",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e44f2a6:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/cephed2013-heavy-metals-childrens-toys-nepal",
         "title": "Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal",
@@ -44,12 +65,108 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cephed2013-heavy-metals-childrens-toys-nepal",
         "content_pin": {
-          "content_sha256": "00c2e34b4336c35403c97acc8239cd437591a00b168f64438987565aceacc9ac",
-          "content_bytes": 14859,
-          "last_commit_sha": "324868f",
+          "content_sha256": "42ced7e18a3c8cbdaf826974690fc3cb22bb1614f746ac21afe247eeb7785621",
+          "content_bytes": 14832,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cpsc1997-pvc-children-products",
+        "title": "CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cpsc1997-pvc-children-products",
+        "content_pin": {
+          "content_sha256": "c84fd3f0db0cb0c7507a8b773ebc9472288810cb8a4f98ac3498f92f43d8d8ce",
+          "content_bytes": 28906,
+          "last_commit_sha": "73ef631",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 73ef631:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/depa2015-cmr-toys",
+        "title": "CMR Substances in Toys – Market Surveillance and Risk Assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn",
+          "Al",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Sb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
+        "content_pin": {
+          "content_sha256": "c6402b8eb15a5b334235e9c549d0f705dd9923fac884a961ab507a6d6750d347",
+          "content_bytes": 40409,
+          "last_commit_sha": "3ce3e20",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ce3e20:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/fowles2021-lead-toys",
+        "title": "Health Risk Assessment: Lead in Children's Toys",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/fowles2021-lead-toys",
+        "content_pin": {
+          "content_sha256": "e1f5239e38eeb1586318941816175bd0279aa2bfe8e189ab76a363900d964fa7",
+          "content_bytes": 32625,
+          "last_commit_sha": "9a8e6f2",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9a8e6f2:wiki/sources/fowles2021-lead-toys.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/johnson2012-cpsc-astm-f963-status",
+        "title": "Status Report: Review of Metals in the Toy Safety Standard, ASTM F 963",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "iAs",
+          "Ba",
+          "Cd",
+          "Cr",
+          "Cr-VI",
+          "Pb",
+          "iHg",
+          "Se"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/johnson2012-cpsc-astm-f963-status",
+        "content_pin": {
+          "content_sha256": "536c1daa2114ae7b6eead71e2f3823b46a3190e5700f87d672ca0d96999ed07f",
+          "content_bytes": 41814,
+          "last_commit_sha": "c3e692a",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c3e692a:wiki/sources/johnson2012-cpsc-astm-f963-status.md | sha256sum"
         }
       }
     ]

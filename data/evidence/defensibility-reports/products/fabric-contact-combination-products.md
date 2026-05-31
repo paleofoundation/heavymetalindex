@@ -2,7 +2,7 @@
 source_page: wiki/products/fabric-contact-combination-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1f460f6f0ed5a86cef83f48ab5b5149445ebe6f89e8f183c5aa690129ef76fe4
+source_page_sha256: 0912afccd686e08a7d0d000cf91937803afc18c8faab34c6eb1c9dfaf6570789
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 492
+audit_log_total_rows: 502
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 492 |
+| audit log rows read | 502 |
 
 ## Page-level audit rows
 

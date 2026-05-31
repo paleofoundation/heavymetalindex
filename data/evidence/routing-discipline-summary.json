@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-31T17:40:44.779Z",
-  "check_1_sources_scanned": 1171,
-  "check_1_sources_with_product_matrices": 460,
+  "generated_at": "2026-05-31T23:21:42.767Z",
+  "check_1_sources_scanned": 1183,
+  "check_1_sources_with_product_matrices": 461,
   "check_1_failures": 2,
-  "check_2_products_scanned": 355,
-  "check_2_products_hmtc_locked": 325,
+  "check_2_products_scanned": 356,
+  "check_2_products_hmtc_locked": 326,
   "check_2_failures": 0,
-  "check_2_literature_scope_thin": 244,
+  "check_2_literature_scope_thin": 245,
   "check_2_provisional_pending_review": 1
 }

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `324868f` (2026-05-31). The body hashes to `sha256:31bf9f9a4c423cb96ed5408cb0704cb4…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `6461a39` (2026-05-31). The body hashes to `sha256:01dd4a314c173a8d15e4cec5028ef672…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=intimate-washes-cleansers&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/intimate-washes-cleansers&download=1`.
 

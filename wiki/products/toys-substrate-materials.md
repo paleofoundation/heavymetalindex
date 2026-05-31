@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 6
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,7 +106,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cephed2013-heavy-metals-childrens-toys-nepal\|Sah et al. 2013]]. *Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal*, Centre for Public Health and Environmental Development (CEPHED), Lalitpur, Nepal — July 2013 report | 2013 | NGO report | NP Pb, tHg, Cd, Cr occurrence in 100 children's toys/play-items purchased from markets across Kathmandu Valley (Banepa, Asan, Mahabauddha, Pulchowk, Baneshwor, Lagankhel, Balkumari) and Dhulikhel... (n=100) |
+| 1 | [[sources/fowles2021-lead-toys\|Fowles 2021]]. *Health Risk Assessment: Lead in Children's Toys*, ESR Client Report FW21014, prepared for the New Zealand Ministry of Health by the Institute of Environmental Science and Research Ltd (Risk Assessment & Social Systems Group), May 2021 | 2021 | Regulatory | *[awaiting synthesis]* |
+| 2 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | *[awaiting synthesis]* |
+| 3 | [[sources/cephed2013-heavy-metals-childrens-toys-nepal\|Sah et al. 2013]]. *Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal*, Centre for Public Health and Environmental Development (CEPHED), Lalitpur, Nepal — July 2013 report | 2013 | NGO report | NP Pb, tHg, Cd, Cr occurrence in 100 children's toys/play-items purchased from markets across Kathmandu Valley (Banepa, Asan, Mahabauddha, Pulchowk, Baneshwor, Lagankhel, Balkumari) and Dhulikhel... (n=100) |
+| 4 | [[sources/johnson2012-cpsc-astm-f963-status\|Johnson et al. 2012]]. *Status Report: Review of Metals in the Toy Safety Standard, ASTM F 963*, U.S. Consumer Product Safety Commission Status Report, Directorate for Health Sciences, 14 March 2012; bundles Versar/SRC final contractor report Contract CPSC-D-06-0006 Task Order 008 dated 16 July 2010 | 2012 | Regulatory | *[awaiting synthesis]* |
+| 5 | [[sources/bfr2009-lead-cadmium-toys\|(BfR) 2009]]. *Lead and cadmium do not belong in toys*, BfR Opinion No. 048/2009, 1 June 2009 (Federal Institute for Risk Assessment, Germany) | 2009 | Regulatory | *[awaiting synthesis]* |
+| 6 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
-| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 <!-- END: hmi-page-history -->

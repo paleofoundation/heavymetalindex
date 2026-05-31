@@ -162,3 +162,13 @@ The paper states (Conclusion, p. 47) that "Quantitative health risk assessment c
 - **Folder context vs paper scope.** The PDF lives under `_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/` in the Kimi corruption-issue raw tree. The paper itself is a general children's-toys survey, not a teether/pacifier-specific study — its 120-sample dataset is stratified by material (plastic, painted wood, rubber, plush), not by toy form, and teethers are named only in the inclusion-criteria language as one of several mouthing-pathway exemplars alongside dolls, squeeze toys, and building blocks. The `pacifiers-and-sucking-teething-aids` product slug is included in routing because mouthing/sucking is one of the central exposure pathways the EN-71-3 acid-extraction protocol is designed to model, not because the folder is named "Teethers/Pacifiers." Same folder-vs-scope handling as `fowles2021-lead-toys`.
 - **Raw integrity.** raw_sha256 = 317e288023ca46e3093e3c95bb3ef3268886bb4be1064edba3e7a2e27ac9d074 verified by `shasum -a 256` against the file at `raw_path` on 2026-06-01.
 - **Near-duplicates.** None identified in the corpus. Sibling toys-survey sources in the corpus (`igweze2020-china-toys-nigeria-pb-cd-as`, `fowles2021-lead-toys`, `bfr2009-lead-cadmium-toys`, `cpsc1997-pvc-children-products`, `johnson2012-cpsc-astm-f963-status`) address related questions but from different national-agency, regulatory, or country-of-sale frames and do not duplicate this paper's Iranian-retail-market dataset.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1cfd005](https://github.com/paleofoundation/heavymetalindex/commit/1cfd005) | 2026-06-01 | ingest: seifi2026-iran-toys-pb-cr-hg [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

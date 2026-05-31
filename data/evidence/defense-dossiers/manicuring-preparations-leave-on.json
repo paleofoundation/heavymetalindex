@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/manicuring-preparations-leave-on",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "334c26f8a57c23d0a50b0addf3e8e1ce649fe46ee666d74e9746fe9b554c3a01",
-      "content_bytes": 8580,
-      "last_commit_sha": "324868f",
+      "content_sha256": "c35d72a55ef82b535e59c534d4927ef5bfe906c64d0fd6b7044b49e3a012fc5f",
+      "content_bytes": 8555,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/manicuring-preparations-leave-on.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/manicuring-preparations-leave-on.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bashir2025-heavy-metals-cosmetics-kashmir",
         "content_pin": {
-          "content_sha256": "921e52428d930fb6b503556ef257a767233b7fca76a38f436c01ba798cddbb3d",
-          "content_bytes": 28287,
-          "last_commit_sha": "324868f",
+          "content_sha256": "7366d36ff615cb488bd47201ed3f737762832310fd2205bb89055445ef96c734",
+          "content_bytes": 28260,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/bashir2025-heavy-metals-cosmetics-kashmir.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/bashir2025-heavy-metals-cosmetics-kashmir.md | sha256sum"
         }
       }
     ]

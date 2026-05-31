@@ -133,3 +133,14 @@ This is a regulatory-opinion document. No primary analytical work was carried ou
   - Check 5 ⚠️ "BfR position prefigured the EU's eventual tightening...EFSA 2010 lead Contam Panel BMDL01 ≈0.5 µg/kg bw/day" — this was a cross-source synthesis sentence linking the BfR 2009 Opinion to the downstream EFSA 2010 lead Opinion (not cited in this BfR Opinion). Per Part 2 wiki/HMTc firewall and per the audit-prompt Check 5 explicit failure mode ("synthesis claims that compare this paper to other literature"), the forward-synthesis sentence was removed; the bullet now reports BfR's 2009 position as expressed in this Opinion only.
   - Check 5 also flagged the "HMTc audit implications" bullet as ⚠️ borderline because it names HMTc product slugs and the rationale-tag vocabulary. Not changed: the bullet describes what the source contributes to threshold work ("can cite this Opinion as the regulatory-alignment anchor") without proposing any threshold value, which is the allowed side of the Part 2 boundary per audit-prompt.md; matches the established precedent of `cpsc1997-pvc-children-products` (HMTc audit implications bullet using the same `regulatory-alignment` rationale-tag framing passed audit).
   - Checks 1 (remaining 30+ numerical values), 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall) all returned ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e44f2a6](https://github.com/paleofoundation/heavymetalindex/commit/e44f2a6) | 2026-06-01 | audit: bfr2009-lead-cadmium-toys [revised] |
+| [d4ba1cd](https://github.com/paleofoundation/heavymetalindex/commit/d4ba1cd) | 2026-06-01 | ingest: bfr2009-lead-cadmium-toys [fresh] from raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

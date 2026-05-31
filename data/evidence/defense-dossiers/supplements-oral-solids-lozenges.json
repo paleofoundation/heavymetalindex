@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-lozenges",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "dd34bfeaf525e7b84ad301dae56ce15eaab8a86b8ccdc600374534d408ad6991",
-      "content_bytes": 7358,
-      "last_commit_sha": "324868f",
+      "content_sha256": "0ddbe767a628b68a0002a305fe92d848891aabdaf0862bfee81a314a6fe7e9ff",
+      "content_bytes": 7331,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/supplements-oral-solids-lozenges.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/supplements-oral-solids-lozenges.md | sha256sum"
     }
   },
   "evidence_base": {

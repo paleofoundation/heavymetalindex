@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `324868f` (2026-05-31). The body hashes to `sha256:59bda243741f4570acf975281d9b927b…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `6461a39` (2026-05-31). The body hashes to `sha256:51effbb3b4f590347baf8d748b49c60f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=seaweed-kelp-foods&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/seaweed-kelp-foods&download=1`.
 

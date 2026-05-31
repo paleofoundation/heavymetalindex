@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-15
-sources: 8
+sources: 9
 ---
 
 # Herbal/Botanical Infusions
@@ -164,14 +164,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/feszterova2025-herbal-tea-risk-elements\|Melania et al. 2025]]. *Analysis of risk elements in herbal tea samples*, Journal of Microbiology, Biotechnology and Food Sciences | 2025 | Peer-reviewed | SK Cu, Pb, Ni, tAs occurrence in Six herbal tea materials from Slovakia prepared under three acid-extraction methods (n=18) |
-| 2 | [[sources/kowalski2024-herbal-tea-heavy-metals\|Maciej et al. 2024]]. *Assessment of heavy metal contamination and associated health risk indices in commercial herbal tea samples using inductively coupled plasma mass spectrometry*, International Journal of Advanced Chemistry Research | 2024 | Peer-reviewed | PL Pb, Cd, tAs, tHg, Cr occurrence in Commercial herbal tea samples purchased from Polish retail markets (n=48) |
-| 3 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | Cd and Cr in dried botanical plants (baobab, guava, papaya) from Northern Nigeria; health risk assessment (HQ and ILCR); anchors the page as the first contributing source but represents a narrow and geographically specific slice of the global herbal infusion supply chain |
-| 4 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | RU Al, V, Cr, Mn, Fe, Ni, Cu, Zn, Sr, Ba, tAs occurrence in Peppermint leaves and peppermint-based herbal products evaluated in Russia |
-| 5 | [[sources/bulduk2020-vicia-faba-elements\|Ibrahim 2020]]. *Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS*, Progress in Chemical and Biochemical Research | 2020 | Peer-reviewed | TR Cr, Fe, Zn, Al, Cu, Pb, Cd, Mn, Ni occurrence in Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey |
-| 6 | [[sources/fogarasi2019-tea-aluminum\|Erzsebet et al. 2019]]. *Aluminium contamination of several types of tea*, Orvostudomanyi Ertesito | 2019 | Peer-reviewed | RO Al occurrence in Green, black, fruit, and herbal tea infusions prepared from sampled tea materials (n=48) |
-| 7 | [[sources/santos2017-yerba-mate-metals\|Santos et al. 2017]]. *Arsenic, cadmium and lead concentrations in Yerba mate commercialized in Southern Brazil by inductively coupled plasma mass spectrometry*, Ciencia Rural | 2017 | Peer-reviewed | BR tAs, Cd, Pb occurrence in Yerba mate samples marketed in Parana, Santa Catarina, and Rio Grande do Sul, Brazil (n=104) |
-| 8 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
+| 1 | [[sources/bandara2025-bael-herbal-tea-minerals\|SMPP et al. 2025]]. *Formulation of Standardized Herbal Tea from Whole Flowers, Stamens and Immature Fruits of Bael (Aegle marmelos (L.) Corrêa)*, World Journal of Agricultural Research | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/feszterova2025-herbal-tea-risk-elements\|Melania et al. 2025]]. *Analysis of risk elements in herbal tea samples*, Journal of Microbiology, Biotechnology and Food Sciences | 2025 | Peer-reviewed | SK Cu, Pb, Ni, tAs occurrence in Six herbal tea materials from Slovakia prepared under three acid-extraction methods (n=18) |
+| 3 | [[sources/kowalski2024-herbal-tea-heavy-metals\|Maciej et al. 2024]]. *Assessment of heavy metal contamination and associated health risk indices in commercial herbal tea samples using inductively coupled plasma mass spectrometry*, International Journal of Advanced Chemistry Research | 2024 | Peer-reviewed | PL Pb, Cd, tAs, tHg, Cr occurrence in Commercial herbal tea samples purchased from Polish retail markets (n=48) |
+| 4 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | Cd and Cr in dried botanical plants (baobab, guava, papaya) from Northern Nigeria; health risk assessment (HQ and ILCR); anchors the page as the first contributing source but represents a narrow and geographically specific slice of the global herbal infusion supply chain |
+| 5 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | RU Al, V, Cr, Mn, Fe, Ni, Cu, Zn, Sr, Ba, tAs occurrence in Peppermint leaves and peppermint-based herbal products evaluated in Russia |
+| 6 | [[sources/bulduk2020-vicia-faba-elements\|Ibrahim 2020]]. *Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS*, Progress in Chemical and Biochemical Research | 2020 | Peer-reviewed | TR Cr, Fe, Zn, Al, Cu, Pb, Cd, Mn, Ni occurrence in Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey |
+| 7 | [[sources/fogarasi2019-tea-aluminum\|Erzsebet et al. 2019]]. *Aluminium contamination of several types of tea*, Orvostudomanyi Ertesito | 2019 | Peer-reviewed | RO Al occurrence in Green, black, fruit, and herbal tea infusions prepared from sampled tea materials (n=48) |
+| 8 | [[sources/santos2017-yerba-mate-metals\|Santos et al. 2017]]. *Arsenic, cadmium and lead concentrations in Yerba mate commercialized in Southern Brazil by inductively coupled plasma mass spectrometry*, Ciencia Rural | 2017 | Peer-reviewed | BR tAs, Cd, Pb occurrence in Yerba mate samples marketed in Parana, Santa Catarina, and Rio Grande do Sul, Brazil (n=104) |
+| 9 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -181,9 +182,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
-| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 <!-- END: hmi-page-history -->

@@ -17,18 +17,44 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-glassware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "de9af3d5cabdb954fbaf9ec71d222963e2ed9efcab2c619fc9859e905518f070",
-      "content_bytes": 7332,
-      "last_commit_sha": "324868f",
+      "content_sha256": "e2ee8ba58792faf9d4dffab8a5d115e503760a376cbb04508f618ce8a5d26ab3",
+      "content_bytes": 8015,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/tableware-glassware.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/tableware-glassware.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/cfs2012-baby-bottles-tableware",
+        "title": "Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Cr",
+          "Cr-VI",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
+        "content_pin": {
+          "content_sha256": "54b8c8f51ef9168f6dd21d6552707a9403be62e778d500bf12f2a83fe268a9bc",
+          "content_bytes": 18690,
+          "last_commit_sha": "1be9575",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1be9575:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

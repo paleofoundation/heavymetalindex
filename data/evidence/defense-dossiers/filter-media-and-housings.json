@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/filter-media-and-housings",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "67410c1fe49b1462e56b6b2cba1fa9abcab53434c3ca51ba11bd954ab8380bbd",
-      "content_bytes": 7436,
-      "last_commit_sha": "324868f",
+      "content_sha256": "29fd6e5324afed0bfd5cd48fa25422e5f6b8aa840fac33ee9fa2667e1726b9ec",
+      "content_bytes": 7409,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/filter-media-and-housings.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/filter-media-and-housings.md | sha256sum"
     }
   },
   "evidence_base": {

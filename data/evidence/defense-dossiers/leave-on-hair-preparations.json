@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/leave-on-hair-preparations",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "874ac2892733778084e1a5c5f5831566f0eeeef038f7162c97d9b06e70fdc7f5",
-      "content_bytes": 9020,
-      "last_commit_sha": "324868f",
+      "content_sha256": "957c1e8658d72b8d868a944850c022bd115a31ca00aa4a536331fba05c03837e",
+      "content_bytes": 8995,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/leave-on-hair-preparations.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/leave-on-hair-preparations.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "1b48eadc01670f2976f2fae1a2578adb2a143fc69cdbff6191249f36bcd3f42f",
-          "content_bytes": 35245,
-          "last_commit_sha": "324868f",
+          "content_sha256": "da1ac3203be1730a7d25835cc999e2e3a00a109b9aee8b637500e7a54e301bb1",
+          "content_bytes": 35218,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rbeida2023-heavy-metals-cosmetics-libya",
         "content_pin": {
-          "content_sha256": "a47f825ab25ff10dd528821faa91f29064f4fcf16f86668154555a9c9bc63718",
-          "content_bytes": 24933,
-          "last_commit_sha": "324868f",
+          "content_sha256": "20d928cef6ae9a4b5d4595743450935a9b3492cf2989ee7ebe7b542e063e0dcf",
+          "content_bytes": 24906,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md | sha256sum"
         }
       }
     ]

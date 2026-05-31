@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/leave-on-preparations-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "495bc6a0844303b9d19e7adc4c083451e8e07f1beb36853b47f87087ef396f26",
-      "content_bytes": 7482,
-      "last_commit_sha": "324868f",
+      "content_sha256": "95d6bb0569aea44ae4f35b8d5b1a69a6651d399992bea47d2ede82d4b82dd7d4",
+      "content_bytes": 7455,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/leave-on-preparations-other.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/leave-on-preparations-other.md | sha256sum"
     }
   },
   "evidence_base": {

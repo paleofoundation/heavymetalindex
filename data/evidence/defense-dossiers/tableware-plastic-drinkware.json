@@ -17,18 +17,44 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-plastic-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a7c66248574aed7d5323e3a6c34ac2a226266873e7cdff884b015f9a39f4a21e",
-      "content_bytes": 7404,
-      "last_commit_sha": "324868f",
+      "content_sha256": "36033617d9f40a782f957bd28119a80cbb5e11ed5898270fc9ad1bc7f12cf80f",
+      "content_bytes": 8087,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/tableware-plastic-drinkware.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/tableware-plastic-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/cfs2012-baby-bottles-tableware",
+        "title": "Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Cr",
+          "Cr-VI",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
+        "content_pin": {
+          "content_sha256": "54b8c8f51ef9168f6dd21d6552707a9403be62e778d500bf12f2a83fe268a9bc",
+          "content_bytes": 18690,
+          "last_commit_sha": "1be9575",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1be9575:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

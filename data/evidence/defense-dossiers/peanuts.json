@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/peanuts",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "00fb05fd30a653da2335f4114fa1db2b40618329bea338a8bf8fc780a7d5f163",
+      "content_sha256": "a30daa401cda9373b638cc33eddae46465005fbfed7f7a00598539190e478e99",
       "content_bytes": 15268,
-      "last_commit_sha": "324868f",
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/peanuts.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/peanuts.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alatise2025-fruit-nuts-metals",
         "content_pin": {
-          "content_sha256": "61ecfc9560b26cafdfb5d79c6e50d01d40b7801383c9bb34672333bd3292e4d0",
-          "content_bytes": 3026,
-          "last_commit_sha": "324868f",
+          "content_sha256": "4e96d23ee762218a2ae0798ff37f5f6bd565e1c43937c08ae850e645966797e2",
+          "content_bytes": 3173,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bazie2022-burkina-faso-foodstuffs-metals",
         "content_pin": {
-          "content_sha256": "a6c44d51187c36226c3d60c14ac2ef8cfa9ce48eab6e216d80e318eab8a03f81",
-          "content_bytes": 2713,
-          "last_commit_sha": "324868f",
+          "content_sha256": "fc87f291c35c30571a2401ddbcb148502136c3dc19b83f5a95aa65521aa27115",
+          "content_bytes": 2860,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/bazie2022-burkina-faso-foodstuffs-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/bazie2022-burkina-faso-foodstuffs-metals.md | sha256sum"
         }
       },
       {
@@ -96,12 +96,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/belew2024-peanuts-date-palm-metals",
         "content_pin": {
-          "content_sha256": "fd2383fd47524d8f98d207e8c885b483a30091884de1f919e531ccee9e9a3add",
-          "content_bytes": 2747,
-          "last_commit_sha": "324868f",
+          "content_sha256": "a5e095485c90af6b02bf585810a9765daee04fb4087af71649c7b5281a25cbfb",
+          "content_bytes": 2894,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/belew2024-peanuts-date-palm-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/belew2024-peanuts-date-palm-metals.md | sha256sum"
         }
       },
       {
@@ -121,12 +121,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chen2022-peanut-elements-china",
         "content_pin": {
-          "content_sha256": "1ead53640bff25613b16c63a1abc3dcd6d4aacccc5fe213460950aea0b7e187f",
-          "content_bytes": 15371,
-          "last_commit_sha": "324868f",
+          "content_sha256": "b9742d3f30b38c67300b14ee06f3578400147663785dd7950dc2aae4a2f19066",
+          "content_bytes": 15344,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/chen2022-peanut-elements-china.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/chen2022-peanut-elements-china.md | sha256sum"
         }
       },
       {
@@ -144,12 +144,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
         "content_pin": {
-          "content_sha256": "f035ff142c1442d9f87186b8634d71477695f9678fac6d4637b4506b630ac0dc",
-          "content_bytes": 5325,
-          "last_commit_sha": "324868f",
+          "content_sha256": "53f653e4b217e27520b383f31c83a166421a91fbc51f17c4733088356a7e47fe",
+          "content_bytes": 5298,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
         }
       },
       {
@@ -164,12 +164,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "1301cff55b389560968cdc286ea0cb64a9168c6e550c5b63619bd72d5543a528",
+          "content_sha256": "27f1a1ca35e43999151bb32c5d4878c48ecf49a3c4bcde4ed0d0f2064c29e489",
           "content_bytes": 30177,
-          "last_commit_sha": "324868f",
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -188,12 +188,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liu2025-nanyang-crops-heavy-metals",
         "content_pin": {
-          "content_sha256": "3206dc0efe1f7dd7a5f09cb0003a63936b22b4ece857a78b47aed9f986b8f905",
-          "content_bytes": 2770,
-          "last_commit_sha": "324868f",
+          "content_sha256": "d350e2f29700211e97d59ccda5b6471ebdeccb2f3b9491c5bbc940cfc49e78ce",
+          "content_bytes": 2917,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/liu2025-nanyang-crops-heavy-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/liu2025-nanyang-crops-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -212,12 +212,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masite2022-mopane-trace-metals",
         "content_pin": {
-          "content_sha256": "ef1000ce83787acf87211ff9fdae22d68831034d6b8f65c113adde3a33e3bd8e",
-          "content_bytes": 3115,
-          "last_commit_sha": "324868f",
+          "content_sha256": "eaaf9e8e9fa4563441b0272ad6077d7ae6641c667430455232fac67750c244ad",
+          "content_bytes": 3088,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/masite2022-mopane-trace-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/masite2022-mopane-trace-metals.md | sha256sum"
         }
       },
       {
@@ -240,12 +240,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/meng2023-electrochemical-sensors-food-heavy-metals",
         "content_pin": {
-          "content_sha256": "3cc298f440e2b67791af53bc92f7707b292974c986e88a77cf2fee79a5b17231",
-          "content_bytes": 15629,
-          "last_commit_sha": "324868f",
+          "content_sha256": "ff507ba2320bea527b2ad540565ac343252c84e9fc30b9b42ed1a10b0439cd77",
+          "content_bytes": 15602,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/meng2023-electrochemical-sensors-food-heavy-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/meng2023-electrochemical-sensors-food-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -267,12 +267,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
         "content_pin": {
-          "content_sha256": "f81bac2d980bc2617e44fbf270eee16157948e963d359cd931334070e9293bb9",
-          "content_bytes": 27007,
-          "last_commit_sha": "324868f",
+          "content_sha256": "48ad3df4bbcd5a3bedf9347e9a58e9b4ffe4987a21e9c1de0fb42400662aaac6",
+          "content_bytes": 27154,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
         }
       },
       {
@@ -294,12 +294,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
         "content_pin": {
-          "content_sha256": "87be170e1968d46333a4ffd5527f6a302a8025285944b55b4bd80036e0cebc31",
-          "content_bytes": 23665,
-          "last_commit_sha": "324868f",
+          "content_sha256": "3d606c1387ad22a4276a27f98be6d423b7cc5f20ac1415c33bccbeeffe26b4af",
+          "content_bytes": 23812,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -318,12 +318,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhang2026-trace-metals-five-crops-chongqing",
         "content_pin": {
-          "content_sha256": "8513e4e88c42c13243c5446d84b1455e2711a897b59a5ac5ae5446cbcbe7ea0f",
-          "content_bytes": 5221,
-          "last_commit_sha": "324868f",
+          "content_sha256": "bb33771100b16cf40b2cfb4d92f8c8578bf6a4ce47904a5544af4b1a2eef62ce",
+          "content_bytes": 5194,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md | sha256sum"
         }
       }
     ]

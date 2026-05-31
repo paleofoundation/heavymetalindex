@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-powder-cornstarch",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a38530702912c3ef3edc714ce60fdf52cdef7708c90b0d7d6ae61c2f1ce2aba2",
-      "content_bytes": 10031,
-      "last_commit_sha": "324868f",
+      "content_sha256": "291f15a0f322fd89fb350a3c5d11e06e3bc150370c207d2627fd02ef82a5d76e",
+      "content_bytes": 10004,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/baby-powder-cornstarch.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/baby-powder-cornstarch.md | sha256sum"
     }
   },
   "evidence_base": {

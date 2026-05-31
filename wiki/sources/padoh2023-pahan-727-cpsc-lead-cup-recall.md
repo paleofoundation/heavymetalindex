@@ -79,3 +79,13 @@ State public-health advisory transmitting three contemporaneous federal CPSC rec
 - **License.** `public-reference-only`: the PADOH advisory is a US-state-government public-health communication distributed for public alert and consumer education without an explicit license grant. US state government works are not automatically in the public domain in the same way US federal-government works are (the federal-government public-domain rule under 17 USC 105 does not extend to state governments); quotation for review and synthesis purposes is fair use, but re-hosting the full PDF requires permission from the Pennsylvania Department of Health.
 - **Related corpus pages.** `cfa2012-cpsia-lead-fact-sheet` is the closest existing corpus page (CPSIA Section 101 regulatory history). `onghena2016-baby-bottle-migration-duration-tests` is the only other source in the same `01_Bottles_Nipples_SippyCups` raw folder and addresses chemical (organic) migration from non-polycarbonate baby bottles rather than Pb in solder beads, so the two papers are complementary rather than overlapping.
 - **Near-duplicates.** None identified. The advisory is a specific PA-state communication; CPSC recall notices for the three brands are the underlying federal primary records, and they are linked from but not reproduced in the advisory PDF. No other PADOH advisory in this folder addresses the same three recalls.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [28ce054](https://github.com/paleofoundation/heavymetalindex/commit/28ce054) | 2026-05-31 | ingest: padoh2023-pahan-727-cpsc-lead-cup-recall fresh from Manual Fetch Kimi/_extracted_infantcontact_01_Bottles_Nipples_SippyCups |
+<!-- END: hmi-page-history -->

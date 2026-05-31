@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/face-paint",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d10040c754f5c570f2157e27a697a7b81506bbf8da8dc619e552a112b98709a6",
-      "content_bytes": 8386,
-      "last_commit_sha": "324868f",
+      "content_sha256": "1ca272884125aa91f382c0a03fdda2d5a9d97d47cda4bdcd68ae602fc3bfb9cf",
+      "content_bytes": 8361,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/face-paint.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/face-paint.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
         "content_pin": {
-          "content_sha256": "8d7d60e8686ea6580b836d1b1096314e7b78be7f1a15cea98d5de21c2430f009",
-          "content_bytes": 11705,
-          "last_commit_sha": "324868f",
+          "content_sha256": "8a45ffdd2f924fbca25bb5b4892a4d8ede49e64abbad6aaddd3d767a40e6f8e4",
+          "content_bytes": 11678,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
         }
       },
       {
@@ -75,12 +75,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "7635d17ff64e924bfc12be177f8cba71d48028d36807f42689755dcd86345d60",
-          "content_bytes": 29014,
-          "last_commit_sha": "324868f",
+          "content_sha256": "50d307cb110a0aa1c70cf5e135c457491689398d561e908aca7532ca01a669d1",
+          "content_bytes": 28987,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {
@@ -107,12 +107,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
         "content_pin": {
-          "content_sha256": "afbc69fdd1b654348613dabc8bef58478ea59ec5c8dde5ae6d205f951e7bdd4e",
-          "content_bytes": 11818,
-          "last_commit_sha": "324868f",
+          "content_sha256": "718b5191f62e2e9b66bb175ddc7cd1587dc3e7ba096701fe8b4a7079b469abec",
+          "content_bytes": 11791,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
         }
       },
       {
@@ -125,12 +125,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/medley2023-childrens-makeup-body-products-us-usage",
         "content_pin": {
-          "content_sha256": "139551ff9e6edc383595e0ddc2944a85058ca41e4fbf8630ff8538708c75ee57",
-          "content_bytes": 11917,
-          "last_commit_sha": "324868f",
+          "content_sha256": "01574075a19ccbf349fb25b903a795119cc9bf6df2cb82e019bc29347f9e4d69",
+          "content_bytes": 11890,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
         }
       },
       {
@@ -143,12 +143,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/oecd2024-crafts-toys-children-exposure",
         "content_pin": {
-          "content_sha256": "d92ce5ae0358a8ba4e9c6935c9003af991887c242acc62e0f96ca5b35170d579",
-          "content_bytes": 10435,
-          "last_commit_sha": "324868f",
+          "content_sha256": "fe285b5efb2145ed0fe04e2bfbf13e291f56055b7c6f6d4794daefc8b42225eb",
+          "content_bytes": 10408,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/oecd2024-crafts-toys-children-exposure.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/oecd2024-crafts-toys-children-exposure.md | sha256sum"
         }
       },
       {
@@ -174,12 +174,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salles2023-face-paints-pancakes-brazil-cancer-risk",
         "content_pin": {
-          "content_sha256": "416429f857bfb1cd95d50b3795c64f8c6065e7bf227fa5a70cef86530d7ef31c",
-          "content_bytes": 18349,
-          "last_commit_sha": "324868f",
+          "content_sha256": "b19987557ce1a4f42d4ca5859d3a9c9605e017073918457c40a1bbd340a1db74",
+          "content_bytes": 18322,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/salles2023-face-paints-pancakes-brazil-cancer-risk.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/salles2023-face-paints-pancakes-brazil-cancer-risk.md | sha256sum"
         }
       }
     ]

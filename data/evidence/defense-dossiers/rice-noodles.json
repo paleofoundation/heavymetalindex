@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-noodles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "30209101006afde860c07429439513d8efddeda3d624ebc9eb9e0c24c4a1886c",
-      "content_bytes": 7799,
-      "last_commit_sha": "324868f",
+      "content_sha256": "95659f4d0d0c862c894ebeac420bdbbedeaf88b5808ed23c671e5c6b82acc156",
+      "content_bytes": 7772,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/rice-noodles.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/rice-noodles.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/katyal2020-instant-noodles-canada-metals",
         "content_pin": {
-          "content_sha256": "ff26e7c8a9362803aa962ac61830ecc47e46bd437f6ff54d463bdeb0a4a1df1f",
-          "content_bytes": 4696,
-          "last_commit_sha": "324868f",
+          "content_sha256": "413d7c03d8d268e48d0e9bb3613ff87a652644e3dae96d8dbc839dd1dcb95fc8",
+          "content_bytes": 4843,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
         }
       }
     ]

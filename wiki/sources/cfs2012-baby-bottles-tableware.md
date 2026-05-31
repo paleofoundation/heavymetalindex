@@ -106,3 +106,14 @@ No analytical measurements of heavy metals are reported. The single piece of ori
 - **2026-05-31 audit-application (fresh-context subagent, verdict PROMOTE).** Subagent ran all five checks against the PDF. Checks 1, 2, 3, 5 were clean. Two ⚠️ items applied here:
   - CHECK 1 ⚠️ — the cadmium adverse-health-effect quote on the wiki page rendered "Chronic exposure affected kidney in humans." inside quotation marks, but the source Annex II row as printed on p. 49 contains a doubled word ("Chronic exposure affected affect kidney in humans"). Verified against the PDF independently; the source typo is real. Corrected the wiki quote to "Chronic exposure affected affect [sic] kidney in humans." and added a one-line in-Key-numbers note documenting that the doubled word is in the source.
   - CHECK 4 ⚠️ — Annex III photographs (p. 56–57) include visually identifiable licensed-character merchandise. Verified against the PDF; the captions name only the material type, not the brand or character. No brand or character text crosses into the wiki and no contamination value is attached to any depicted item. Tightened the brand-firewall verification note above to acknowledge the licensed-character merchandise explicitly rather than asserting the photographs are unbranded.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1be9575](https://github.com/paleofoundation/heavymetalindex/commit/1be9575) | 2026-05-31 | audit: cfs2012-baby-bottles-tableware promoted |
+| [9f8d4fe](https://github.com/paleofoundation/heavymetalindex/commit/9f8d4fe) | 2026-05-31 | ingest: cfs2012-baby-bottles-tableware fresh from Manual Fetch Kimi/_extracted_infantcontact_01_Bottles_Nipples_SippyCups |
+<!-- END: hmi-page-history -->

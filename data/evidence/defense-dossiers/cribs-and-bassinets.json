@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cribs-and-bassinets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "972eafe765183af3c3975d43e0b9b6cd2691a33b83550f8ea9d92af61ee9167d",
-      "content_bytes": 7350,
-      "last_commit_sha": "324868f",
+      "content_sha256": "81b613d579d14817f97c33fccb43d4e9256562f76718794a89d755c60953cc19",
+      "content_bytes": 7323,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/cribs-and-bassinets.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/cribs-and-bassinets.md | sha256sum"
     }
   },
   "evidence_base": {

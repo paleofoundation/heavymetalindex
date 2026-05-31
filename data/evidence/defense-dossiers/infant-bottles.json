@@ -17,18 +17,82 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-bottles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "20092c32e31e0d8ea0aab36b900ef7548f102c865b2fc04c03ee31ee1ce3b5ae",
-      "content_bytes": 7438,
-      "last_commit_sha": "324868f",
+      "content_sha256": "9a5836ca243fd8a54042a08bd215d6be55bf0b1e67236a463f15161ab08ed247",
+      "content_bytes": 8797,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/infant-bottles.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/infant-bottles.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/cfs2012-baby-bottles-tableware",
+        "title": "Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Cr",
+          "Cr-VI",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
+        "content_pin": {
+          "content_sha256": "54b8c8f51ef9168f6dd21d6552707a9403be62e778d500bf12f2a83fe268a9bc",
+          "content_bytes": 18690,
+          "last_commit_sha": "1be9575",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1be9575:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/onghena2016-baby-bottle-migration-duration-tests",
+        "title": "Evaluation of the migration of chemicals from baby bottles under standardised and duration testing conditions",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/onghena2016-baby-bottle-migration-duration-tests",
+        "content_pin": {
+          "content_sha256": "a45e88bedbd36d3d5fc0f2981fc60efc0928c537b542f009122659913b22194c",
+          "content_bytes": 30476,
+          "last_commit_sha": "5176ead",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5176ead:wiki/sources/onghena2016-baby-bottle-migration-duration-tests.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
+        "title": "Consumer Product Safety Commission (CPSC) Lead Recall: PandaEar, LAOION, and Green Sprouts Stainless Steel Bottles and Cups (PAHAN # 727-11-29-ADV)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
+        "content_pin": {
+          "content_sha256": "ab8d61b15cf405f04fb3a294763601be286f5369bb591b391f69daaf7ab30554",
+          "content_bytes": 17490,
+          "last_commit_sha": "28ce054",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 28ce054:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

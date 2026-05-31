@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-liquids-droppers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3a54d985baf918866d6c7bb7a970fca0a22aff44a0ea7ff15909da7cbd169a29",
-      "content_bytes": 7368,
-      "last_commit_sha": "324868f",
+      "content_sha256": "69d807f81331c9beccfa618277c02920618dca3f39b0eb627d19ddd31f1fd8b9",
+      "content_bytes": 7341,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/supplements-oral-liquids-droppers.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/supplements-oral-liquids-droppers.md | sha256sum"
     }
   },
   "evidence_base": {

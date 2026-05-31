@@ -17,18 +17,89 @@
     "canonical_url": "https://heavymetalindex.com/products/sippy-cups-toddler-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "934c649522724f92faf0a3c532b5a0ba3d7d1c19ce3b58c638501a46ee39e409",
-      "content_bytes": 7504,
-      "last_commit_sha": "324868f",
+      "content_sha256": "848870fe5617ff0ea3032842d3dbed09c5ecea61e42dd4d41beb6a584bdc6dec",
+      "content_bytes": 8865,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/sippy-cups-toddler-drinkware.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/sippy-cups-toddler-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/cfs2012-baby-bottles-tableware",
+        "title": "Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Ni",
+          "Cr",
+          "Cr-VI",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
+        "content_pin": {
+          "content_sha256": "54b8c8f51ef9168f6dd21d6552707a9403be62e778d500bf12f2a83fe268a9bc",
+          "content_bytes": 18690,
+          "last_commit_sha": "1be9575",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1be9575:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/masu2016-pacifiers-sippy-cups-my",
+        "title": "Comparative Testing: Baby Pacifier and Sippy Cups",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Sb",
+          "Cr",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/masu2016-pacifiers-sippy-cups-my",
+        "content_pin": {
+          "content_sha256": "ba52dda649097978694d705bbb6a75fb44b86d9028cb100d40787521f6e0d410",
+          "content_bytes": 23224,
+          "last_commit_sha": "fa644b4",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fa644b4:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
+        "title": "Consumer Product Safety Commission (CPSC) Lead Recall: PandaEar, LAOION, and Green Sprouts Stainless Steel Bottles and Cups (PAHAN # 727-11-29-ADV)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
+        "content_pin": {
+          "content_sha256": "ab8d61b15cf405f04fb3a294763601be286f5369bb591b391f69daaf7ab30554",
+          "content_bytes": 17490,
+          "last_commit_sha": "28ce054",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 28ce054:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

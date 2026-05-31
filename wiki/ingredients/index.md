@@ -91,7 +91,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/ground-beef|Ground beef]] (2 sources)
 - [[ingredients/half-and-half|Half and half]] (2 sources)
 - [[ingredients/ham|Ham]] (2 sources)
-- [[ingredients/herbal-botanicals|Herbal botanicals]] (37 sources)
+- [[ingredients/herbal-botanicals|Herbal botanicals]] (38 sources)
 - [[ingredients/honey|Honey]] (13 sources)
 - [[ingredients/iceberg-lettuce|Iceberg lettuce]] (2 sources)
 - [[ingredients/infant-cereal-ingredients|Infant Cereal Ingredients]] (4 sources)

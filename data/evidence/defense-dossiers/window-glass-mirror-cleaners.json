@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/window-glass-mirror-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "00ef16330d57a677f55dd8465a3db16892ca1590a3695ceb5c471cd48d89620c",
-      "content_bytes": 7408,
-      "last_commit_sha": "324868f",
+      "content_sha256": "2539676b8ece436516ad3f1d6cde01b21875530ecb6615dd563774b63943b7a1",
+      "content_bytes": 7381,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/window-glass-mirror-cleaners.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/window-glass-mirror-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

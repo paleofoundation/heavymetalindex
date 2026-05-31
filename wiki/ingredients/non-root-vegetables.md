@@ -183,9 +183,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [3f1f72d](https://github.com/paleofoundation/heavymetalindex/commit/3f1f72d) | 2026-05-31 | v0→v1 reconciliation complete: body-table regenerator (sources-preserving) + restore spices Pb + sync 242 tables |
 | [6f2afad](https://github.com/paleofoundation/heavymetalindex/commit/6f2afad) | 2026-05-31 | errata: public self-correction log (generated) + writer retraction logic + reconcile 6 v0-corrupted cells |
 | [4929e59](https://github.com/paleofoundation/heavymetalindex/commit/4929e59) | 2026-05-31 | extractor v1: fix systematic mis-grabs in the autonomy source-value extractor (Fe->Pb, comma truncation, matrix dumping) |
-| [49ecdb7](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb7) | 2026-05-30 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-30T18-11-25Z |
 <!-- END: hmi-page-history -->

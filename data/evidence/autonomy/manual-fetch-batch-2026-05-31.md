@@ -649,3 +649,43 @@
 
 ### Succeeded
 - `nelson2023-wa-childrens-jewelry-followup` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/07_2018_2303004.pdf)
+
+## Tick 2026-05-31T22:02:27.190Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `masu2016-pacifiers-sippy-cups-my` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/08_2016_pacifiers and sippy cup test report_final_blanked.pdf)
+
+## Tick 2026-05-31T22:13:30.861Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `johnson2012-cpsc-astm-f963-status` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/09_2012_blk_pdf_F963status03142012.pdf)
+
+## Tick 2026-05-31T22:29:36.977Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `seifi2026-iran-toys-pb-cr-hg` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/11_2024_article_238039_b48c8c496472bc2421b826e3e5e01149.pdf)
+
+## Tick 2026-05-31T22:42:03.631Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `depa2015-cmr-toys` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/12_2015_978-87-93352-79-7.pdf)

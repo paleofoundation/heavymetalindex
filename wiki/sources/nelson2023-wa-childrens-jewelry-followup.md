@@ -159,3 +159,13 @@ Component samples were prioritised for laboratory analysis using X-Ray Fluoresce
 - **Sample composite annotation.** Two samples (1903043-25 and 1903043-28) are pendant-front-plus-pendant-back and earring-decoration composites respectively, combined before submission to reach required digestion mass. The headline 966,000 ppm Cd finding is therefore a composite-sample measurement of two components from the same pendant, not a single-component measurement. The wiki page preserves the composite annotation throughout (Key numbers, sample-population, Table 3 transcription, extreme-value bullets).
 - **Near-duplicates.** None identified in the corpus at this writing. The 2015 predecessor study (Sekerak 2016, Publication 16-03-007) is referenced in this paper but is not yet ingested. The 2018 QAPP addendum (Sekerak 2018, Publication 18-03-113) is referenced as the project plan but is a procedural document, not an occurrence study. Neither is ingested in this commit.
 - **Raw integrity.** raw_sha256 = 089e91df9657b15c537ea05361c79ea21443926bdb61292eee1058e6fbfd4055 verified by `shasum -a 256` against the file at `raw_path`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7224c01](https://github.com/paleofoundation/heavymetalindex/commit/7224c01) | 2026-06-01 | ingest: nelson2023-wa-childrens-jewelry-followup [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

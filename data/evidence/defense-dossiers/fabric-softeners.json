@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-softeners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b936509b4b1ce5baaa23c1359f12f6c75a9163b8560a53941af6c0f76c85c147",
-      "content_bytes": 7398,
-      "last_commit_sha": "324868f",
+      "content_sha256": "6e0bf56a3763705360a02b78c7f3910b9661d62c6cd9b50abcb9fe4efb34f803",
+      "content_bytes": 7371,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/fabric-softeners.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/fabric-softeners.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-lotion-cream",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "992c24a419138662bf9e18f5561c43acc5ac4c233d9862703ada074da9b76d90",
-      "content_bytes": 12147,
-      "last_commit_sha": "324868f",
+      "content_sha256": "b53debf230ae9c97f5ef6afdc5d8594bd85a9f66588a1161acdcfe9bdd5ac480",
+      "content_bytes": 12122,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/baby-lotion-cream.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/baby-lotion-cream.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/arshad2020-heavy-metals-cosmetic-products-pakistan",
         "content_pin": {
-          "content_sha256": "994fdbc6d09dd0a49b0f3f471ac6f2a51d9e8593e5cdc3215bbb87f73906267a",
-          "content_bytes": 11001,
-          "last_commit_sha": "324868f",
+          "content_sha256": "22496a9af3b54137e62482bca466eb31161799f25a06db5c1bfc192d12e9e5ff",
+          "content_bytes": 10974,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/arshad2020-heavy-metals-cosmetic-products-pakistan.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/arshad2020-heavy-metals-cosmetic-products-pakistan.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
         "content_pin": {
-          "content_sha256": "8d7d60e8686ea6580b836d1b1096314e7b78be7f1a15cea98d5de21c2430f009",
-          "content_bytes": 11705,
-          "last_commit_sha": "324868f",
+          "content_sha256": "8a45ffdd2f924fbca25bb5b4892a4d8ede49e64abbad6aaddd3d767a40e6f8e4",
+          "content_bytes": 11678,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
         "content_pin": {
-          "content_sha256": "9f3e2fc12f76cb0992dc0c60a22ce82ca3a1e1b5c07ca37aa958894ed32960de",
-          "content_bytes": 8544,
-          "last_commit_sha": "324868f",
+          "content_sha256": "e1b360a6588d09ce7af89aa1ff3998f08d47e0a4e83d07a3eed0d914059853b0",
+          "content_bytes": 8517,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
         }
       },
       {
@@ -122,12 +122,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
         "content_pin": {
-          "content_sha256": "afbc69fdd1b654348613dabc8bef58478ea59ec5c8dde5ae6d205f951e7bdd4e",
-          "content_bytes": 11818,
-          "last_commit_sha": "324868f",
+          "content_sha256": "718b5191f62e2e9b66bb175ddc7cd1587dc3e7ba096701fe8b4a7079b469abec",
+          "content_bytes": 11791,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
         }
       },
       {
@@ -140,12 +140,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/oranges2015-skin-physiology-neonate-infant-clinical",
         "content_pin": {
-          "content_sha256": "33cc51aa69a5ed820a2989f828e86a5da9e41d8fd85e29f2d0736f28d14af6d7",
-          "content_bytes": 18240,
-          "last_commit_sha": "324868f",
+          "content_sha256": "6b7c9e1663eb22e8a14bdb955772d56ea4852910c9021f65f97479cdf6991601",
+          "content_bytes": 18213,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
         }
       },
       {
@@ -169,12 +169,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/poulsen2007-cosmetic-products-children-denmark",
         "content_pin": {
-          "content_sha256": "514641769a94068480bcedf936dc2f579d8d690c698b12fdf648ccb2b63eda4f",
-          "content_bytes": 22051,
-          "last_commit_sha": "324868f",
+          "content_sha256": "2ff72ccd1fcafae395a359128de4c00646ae1649916010a65e747236c7f59a5f",
+          "content_bytes": 22024,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/poulsen2007-cosmetic-products-children-denmark.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/poulsen2007-cosmetic-products-children-denmark.md | sha256sum"
         }
       },
       {
@@ -195,12 +195,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
         "content_pin": {
-          "content_sha256": "896538b0c204616e11ef0ff9e3c0f5bd91962f2d2fd7eba973ffc53008e9f067",
-          "content_bytes": 24350,
-          "last_commit_sha": "324868f",
+          "content_sha256": "057407163846a36121cafd7452ede1187907743f3c3934aebff396d42b0ab4a6",
+          "content_bytes": 24323,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
         }
       },
       {
@@ -213,12 +213,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2025-methyl-salicylate-children-exposure-1676-25",
         "content_pin": {
-          "content_sha256": "cfe1be1812e1e38e16c70fecd99f86f2bfefd5fedf955a5bb10ae8122ecf8082",
-          "content_bytes": 22173,
-          "last_commit_sha": "324868f",
+          "content_sha256": "f1bf3a26ad896f1f2801272bad4ecfe2a4e14f6a9bbfd020d4d76a2c7ad8ebf0",
+          "content_bytes": 22146,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
         }
       }
     ]

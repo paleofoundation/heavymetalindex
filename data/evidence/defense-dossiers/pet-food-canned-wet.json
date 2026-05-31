@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-canned-wet",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e91ef72c1ed90f443785a0437105cab981882daf0747a586d423c70240a6f867",
-      "content_bytes": 7967,
-      "last_commit_sha": "324868f",
+      "content_sha256": "b882edbd924c2d06a5a7a32c7eb32c401f666b326ca659cf7e2893c09aff7ca6",
+      "content_bytes": 7942,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/pet-food-canned-wet.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/pet-food-canned-wet.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/du2025-petfood-china-metals",
         "content_pin": {
-          "content_sha256": "93ea78f3a00e930783218dc4be270fcc38e0f78fafbba9a3195845d808dce096",
-          "content_bytes": 14991,
-          "last_commit_sha": "324868f",
+          "content_sha256": "454fe43f1c888c69eb35e9f83e890fd44dfd6f224d76e5ce9012d6911a31a613",
+          "content_bytes": 14964,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/du2025-petfood-china-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/du2025-petfood-china-metals.md | sha256sum"
         }
       }
     ]

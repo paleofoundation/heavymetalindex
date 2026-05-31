@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/floor-finishes-strippers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cab7d914a1d474dfba77f8ce83e6388fdf77ae57b80bc063d123fae300ee6094",
-      "content_bytes": 7522,
-      "last_commit_sha": "324868f",
+      "content_sha256": "afd25944cf9bf17f916ee3dc08bb30d6c47643f6f3bb6876a0b691634a73be0c",
+      "content_bytes": 7495,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/floor-finishes-strippers.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/floor-finishes-strippers.md | sha256sum"
     }
   },
   "evidence_base": {

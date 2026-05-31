@@ -17,18 +17,46 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-balloons",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b624a32169b311f9c52e110b91e0de2f6e9ed7ea693b15caf53ace93fc97df1f",
-      "content_bytes": 7249,
-      "last_commit_sha": "324868f",
+      "content_sha256": "74b2f240a5fe7fcf9a70eb048b0aca352fc6b3e11288898842ef5cab9e5c1d25",
+      "content_bytes": 7855,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/toys-balloons.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/toys-balloons.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/depa2015-cmr-toys",
+        "title": "CMR Substances in Toys – Market Surveillance and Risk Assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sn",
+          "Al",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Sb",
+          "tAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
+        "content_pin": {
+          "content_sha256": "c6402b8eb15a5b334235e9c549d0f705dd9923fac884a961ab507a6d6750d347",
+          "content_bytes": 40409,
+          "last_commit_sha": "3ce3e20",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 3ce3e20:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

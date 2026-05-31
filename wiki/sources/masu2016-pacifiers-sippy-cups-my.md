@@ -204,3 +204,14 @@ No heavy metal analysis was performed on the eight samples. The element migratio
 - **Near-duplicates.** None identified in the corpus at this writing. The Sen et al. PubMed citation in footnote 3 (non-volatile N-nitrosamines in baby bottle nipples) and the *Food and Chemical Toxicology* 1985 citation in footnote 2 are background literature references, not corpus entries; they are not ingested in this commit.
 - **Raw integrity.** raw_sha256 = 237ff89f151013e986450ee11f9d57ca8cbb8a1ef7f2e0f77edcae96186110f6 verified by `shasum -a 256` against the file at `raw_path`.
 - **Audit subagent (2026-06-01) flagged the analyte-panel counts; verified against Figure 1 (p. 12) — corrected to six phthalate esters (Dimethyl, Diethyl, Di-n-butyl, Butyl benzyl, Bis(2-ethylhexyl), Di-n-octyl) and ten nitrosamine compounds (N-Nitrosomethylethylamine, N-Nitrosodiethylamine, N-Nitrosopyrrolidine, N-Nitrosomorpholine, N-Nitrosodi-n-propylamine, N-Nitrosopiperidine, N-Nitrosodibutylamine, Diphenylamine, Diallate, Methapyrilene). The earlier draft asserted "seven phthalates" and "eleven nitrosamines" in prose, which conflicted with the body tables that already listed 6 and 10 respectively, and with the Figure 1 ANALYSIS RESULTS panel on p. 12.**
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fa644b4](https://github.com/paleofoundation/heavymetalindex/commit/fa644b4) | 2026-06-01 | audit: masu2016-pacifiers-sippy-cups-my [revised] |
+| [639dde4](https://github.com/paleofoundation/heavymetalindex/commit/639dde4) | 2026-06-01 | ingest: masu2016-pacifiers-sippy-cups-my [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

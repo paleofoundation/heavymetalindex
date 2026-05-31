@@ -6,7 +6,7 @@ name: Chromium, hexavalent
 species: [Cr6+, CrO4^2-, Cr2O7^2-]
 audience: [regulator, educator, consumer, researcher]
 microbiome_relevance: low
-sources: 32
+sources: 33
 wiki_doi: null
 updated: 2026-05-08
 status: scaffold
@@ -97,10 +97,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 19 | [[sources/ren2018-crvi-pork-electron-beam\|Ren et al. 2018]]. *One-Step and Nondestructive Reduction of Cr(VI) in Pork by High-Energy Electron Beam Irradiation*, Journal of Food Science | 2018 | Peer-reviewed | CN Cr-VI, Cr occurrence in Laboratory experiment using lean, fat, and marbled pork purchased from a market in Hefei, China; pork tissues (2... |
 | 20 | [[sources/stasinos2014-heavy-metals-tubers-review\|Stasinos et al. 2014]]. *The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review*, Journal of Food Science | 2014 | Review | GR/LV/US Pb, Cd, tAs, Cr, Cr-VI, Ni, Al, tHg, MeHg, Cu, Zn, Mn, Co occurrence in Narrative review compiling open-field and greenhouse studies of heavy-metal bioaccumulation in three root and tuber vegetables (Daucus carota,... |
 | 21 | [[sources/stefaniak2014-ni-be-cr-artificial-sweat\|Stefaniak et al. 2014]]. *Dissolution of the metal sensitizers Ni, Be, Cr in artificial sweat to improve estimates of dermal bioaccessibility*, Environmental Science: Processes & Impacts 16: 341-351 | 2014 | Peer-reviewed | US Ni, Be, Cr, Cr-VI occurrence in Triplicate samples of three metal-sensitizer powders (beryllium metal, nickel metal, chromium carbide Cr3C2) extracted in artificial sweat (pH... (n=9) |
-| 22 | [[sources/mahmud2011-crvi-chicken-pakistan\|Mahmud et al. 2011]]. *Estimation of Chromium (VI) in various body parts of Local Chicken*, Journal of the Chemical Society of Pakistan | 2011 | Peer-reviewed | PK Cr-VI occurrence in Local chicken parts (meat: sternum, leg, arm, gizzard, neck, heart, liver; bones: chest cage, neck, leg, head, arm)... |
-| 23 | [[sources/scher2010-toy-migration-limits-opinion\|EU Scientific Committee on 2010]]. *Evaluation of the Migration Limits for Chemical Elements in Toys (SCHER Opinion)*, European Commission DG Health & Consumers; SCHER Opinion adopted 1 July 2010 | 2010 | Government report | EU tAs, Cd, Cr-VI, Pb, tHg, Sn occurrence in Regulatory opinion evaluating EU Toys Safety Directive 2009/48/EC migration limits for 19 chemical elements |
-| 24 | [[sources/oehha2000-appendix-f-dermal-uptake-soil\|California Office of Environmental 2000]]. *Appendix F - Dermal Uptake of Chemicals from Soil (Technical Support Document for Exposure Assessment and Stochastic Analysis)*, Cal/EPA OEHHA Air Toxics Hot Spots Program - Technical Support Document for Exposure Assessment and Stochastic Analysis | 2000 | Government report | US tAs, Cd, Pb, tHg, Ni, Cr-VI, Be occurrence in Regulatory guidance; per-chemical dermal absorption fraction (ABS) point estimates derived from review of in-vivo and in-vitro percutaneous-absorption studies... |
-| 25 | [[sources/soares2000-chromium-vi-powdered-milk-formulas\|Soares et al. 2000]]. *Selective Determination of Chromium (VI) in Powdered Milk Infant Formulas by Electrothermal Atomization Atomic Absorption Spectrometry after Ion Exchange*, Journal of AOAC International 83(1):220-223 | 2000 | Peer-reviewed | Cr-VI concentrations in infant formula (n=20) |
+| 22 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
+| 23 | [[sources/johnson2012-cpsc-astm-f963-status\|Johnson et al. 2012]]. *Status Report: Review of Metals in the Toy Safety Standard, ASTM F 963*, U.S. Consumer Product Safety Commission Status Report, Directorate for Health Sciences, 14 March 2012; bundles Versar/SRC final contractor report Contract CPSC-D-06-0006 Task Order 008 dated 16 July 2010 | 2012 | Regulatory | *[awaiting synthesis]* |
+| 24 | [[sources/mahmud2011-crvi-chicken-pakistan\|Mahmud et al. 2011]]. *Estimation of Chromium (VI) in various body parts of Local Chicken*, Journal of the Chemical Society of Pakistan | 2011 | Peer-reviewed | PK Cr-VI occurrence in Local chicken parts (meat: sternum, leg, arm, gizzard, neck, heart, liver; bones: chest cage, neck, leg, head, arm)... |
+| 25 | [[sources/scher2010-toy-migration-limits-opinion\|EU Scientific Committee on 2010]]. *Evaluation of the Migration Limits for Chemical Elements in Toys (SCHER Opinion)*, European Commission DG Health & Consumers; SCHER Opinion adopted 1 July 2010 | 2010 | Government report | EU tAs, Cd, Cr-VI, Pb, tHg, Sn occurrence in Regulatory opinion evaluating EU Toys Safety Directive 2009/48/EC migration limits for 19 chemical elements |
+| 26 | [[sources/oehha2000-appendix-f-dermal-uptake-soil\|California Office of Environmental 2000]]. *Appendix F - Dermal Uptake of Chemicals from Soil (Technical Support Document for Exposure Assessment and Stochastic Analysis)*, Cal/EPA OEHHA Air Toxics Hot Spots Program - Technical Support Document for Exposure Assessment and Stochastic Analysis | 2000 | Government report | US tAs, Cd, Pb, tHg, Ni, Cr-VI, Be occurrence in Regulatory guidance; per-chemical dermal absorption fraction (ABS) point estimates derived from review of in-vivo and in-vitro percutaneous-absorption studies... |
+| 27 | [[sources/soares2000-chromium-vi-powdered-milk-formulas\|Soares et al. 2000]]. *Selective Determination of Chromium (VI) in Powdered Milk Infant Formulas by Electrothermal Atomization Atomic Absorption Spectrometry after Ion Exchange*, Journal of AOAC International 83(1):220-223 | 2000 | Peer-reviewed | Cr-VI concentrations in infant formula (n=20) |
 <!-- END: hmi-source-legend -->
 
 ## Total-chromium sources that explicitly do not speciate Cr-VI
@@ -121,9 +123,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [d26f8f1](https://github.com/paleofoundation/heavymetalindex/commit/d26f8f1) | 2026-05-30 | autonomy: checkpoint [deterministic-phase] 2026-05-30T04-02-50Z |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

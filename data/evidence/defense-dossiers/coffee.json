@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/coffee",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e455e06aa79c1345498331c1cc27196b71b77b8ac3dfc7b70dcb88775cd8198b",
-      "content_bytes": 20314,
-      "last_commit_sha": "324868f",
+      "content_sha256": "f9609a01d46c75135803cb4e917c8e4086cfa7fb91a37be8081f636422bec5cf",
+      "content_bytes": 20289,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/coffee.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/coffee.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abraheem2022-tea-coffee-lead-cadmium",
         "content_pin": {
-          "content_sha256": "b5f2aa259b0a991dd4c3e81dc83715dc550fbca358e76db01a05f36e2058ec05",
+          "content_sha256": "2df10059b87b51a7c50df4f6f9519b0f56a16ee5d3cab6088ed99edcf074db34",
           "content_bytes": 2939,
-          "last_commit_sha": "324868f",
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/adler2019-selected-metals-coffee-bosnia",
         "content_pin": {
-          "content_sha256": "f37e1b7ef8ca12dde811f2f8eb092e63448d6a2211b535fad4e6eac0a713bbe7",
-          "content_bytes": 6043,
-          "last_commit_sha": "324868f",
+          "content_sha256": "25e0053c21cd6b2d801bb94919eed6837db65d2cbbc253c8f2bf988aa26c1a95",
+          "content_bytes": 6016,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/adler2019-selected-metals-coffee-bosnia.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/adler2019-selected-metals-coffee-bosnia.md | sha256sum"
         }
       },
       {
@@ -98,12 +98,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/albals2021-coffee-jordan-icpms",
         "content_pin": {
-          "content_sha256": "f53325ca1418e030e8cd211971e43891eb0744e53e4147c4ca635e76baf225f5",
-          "content_bytes": 3301,
-          "last_commit_sha": "324868f",
+          "content_sha256": "8a3f7bc034ee96486d44c36274afb6843b6ca61fe98c7316c0c5729ce583193f",
+          "content_bytes": 3274,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/albals2021-coffee-jordan-icpms.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/albals2021-coffee-jordan-icpms.md | sha256sum"
         }
       },
       {
@@ -124,12 +124,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dasilva2017-heavy-metals-coffee-brazil",
         "content_pin": {
-          "content_sha256": "3e9233e26a098f028c42fefd5784b908e508cf1f4879be02e9295001e99cc29c",
-          "content_bytes": 9887,
-          "last_commit_sha": "324868f",
+          "content_sha256": "4b5d8a0ca382a0f3dda18ee0e976c055c6e65bdc34fca78baba95b90fc7d66a3",
+          "content_bytes": 9860,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/dasilva2017-heavy-metals-coffee-brazil.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/dasilva2017-heavy-metals-coffee-brazil.md | sha256sum"
         }
       },
       {
@@ -146,12 +146,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/demir2025-coffee-elements-turkiye",
         "content_pin": {
-          "content_sha256": "9f021111cf61b190cb2d7bc13f3c0a7363cf5f4d4f4e004cb3a5fd5236a729fd",
-          "content_bytes": 5076,
-          "last_commit_sha": "324868f",
+          "content_sha256": "146a48ae5cb90c13bd96586f0682813a0e1e186e45385afa9fd564b9aff71448",
+          "content_bytes": 5049,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/demir2025-coffee-elements-turkiye.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/demir2025-coffee-elements-turkiye.md | sha256sum"
         }
       },
       {
@@ -171,12 +171,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/domagalska2025-instant-coffee-heavy-metals",
         "content_pin": {
-          "content_sha256": "47252f93c5acd3d6454d3e333ff109c1cb5f63b9b2f6bb7b0b876233e502226b",
-          "content_bytes": 3058,
-          "last_commit_sha": "324868f",
+          "content_sha256": "36df4ba4086150882d6d60e1a6dc2d251922c43934ce5c104e81090dbc809d26",
+          "content_bytes": 3031,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/domagalska2025-instant-coffee-heavy-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/domagalska2025-instant-coffee-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -191,12 +191,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "1301cff55b389560968cdc286ea0cb64a9168c6e550c5b63619bd72d5543a528",
+          "content_sha256": "27f1a1ca35e43999151bb32c5d4878c48ecf49a3c4bcde4ed0d0f2064c29e489",
           "content_bytes": 30177,
-          "last_commit_sha": "324868f",
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -214,12 +214,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland",
         "content_pin": {
-          "content_sha256": "c51b3421426ab567be1091b4a6fb4f174fd6e3616ddd98935d9455b458b85a26",
-          "content_bytes": 17105,
-          "last_commit_sha": "324868f",
+          "content_sha256": "e55f9c49386030be3da21f9324222c2fcf6a10effa37bfbb49c176f357666fe8",
+          "content_bytes": 17088,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md | sha256sum"
         }
       },
       {
@@ -235,12 +235,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/noor2023-merapi-robusta-coffee-metals",
         "content_pin": {
-          "content_sha256": "fcf604be07b6a98c0f064ef3513b49ae5192115ce7f402ce17b0bae94522791c",
-          "content_bytes": 2963,
-          "last_commit_sha": "324868f",
+          "content_sha256": "1fb8b4e1191154cf6df1881b298f1075ff23584b0c99b7bb48a6bfa6d12b45f6",
+          "content_bytes": 3110,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/noor2023-merapi-robusta-coffee-metals.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/noor2023-merapi-robusta-coffee-metals.md | sha256sum"
         }
       },
       {
@@ -256,12 +256,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/winiarska-mieczan2022-cd-pb-instant-coffee-poland",
         "content_pin": {
-          "content_sha256": "0dd1565b1a487e552a8e6cad13d8f997a5ec2a8d9209aacb7f013a3983c729fc",
-          "content_bytes": 7955,
-          "last_commit_sha": "324868f",
+          "content_sha256": "47ca60a4ca8afb60c2e37d506ef2e6f781526984186e91c4182323dbe7a2b307",
+          "content_bytes": 7928,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/winiarska-mieczan2022-cd-pb-instant-coffee-poland.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/winiarska-mieczan2022-cd-pb-instant-coffee-poland.md | sha256sum"
         }
       },
       {
@@ -282,12 +282,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zergui2023-coffee-metals-origin-icp-ms",
         "content_pin": {
-          "content_sha256": "2a5baed739b5494d228f77f6411988e502d6e00ab501928fb823f973c136c8b0",
-          "content_bytes": 6007,
-          "last_commit_sha": "324868f",
+          "content_sha256": "54cff7f6ba35039021089e1473f2893da3533e1e949424df7d627bda0ec655df",
+          "content_bytes": 5980,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/zergui2023-coffee-metals-origin-icp-ms.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/zergui2023-coffee-metals-origin-icp-ms.md | sha256sum"
         }
       }
     ]

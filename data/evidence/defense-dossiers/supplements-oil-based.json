@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oil-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7284aa43e76c0c21c826c30ef6899a7bf7f639cd7fdd711fadf553d5e772f318",
-      "content_bytes": 8371,
-      "last_commit_sha": "324868f",
+      "content_sha256": "80e25068bab3327face5efeaad9c6f88a17a2bfb96f767e139bcbb70b7841a47",
+      "content_bytes": 8346,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/supplements-oil-based.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/supplements-oil-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brodziak-dopierala2023-mercury-oil-supplements-poland",
         "content_pin": {
-          "content_sha256": "e96f96517500cba08e2d8399e1f469ec894d93bda3c7f67b279272d6a2419ddc",
-          "content_bytes": 11685,
-          "last_commit_sha": "324868f",
+          "content_sha256": "267037cac895f899911d36505978d43c5fe1183d2bcb4ba541b55286cd879197",
+          "content_bytes": 11658,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/brodziak-dopierala2023-mercury-oil-supplements-poland.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/brodziak-dopierala2023-mercury-oil-supplements-poland.md | sha256sum"
         }
       }
     ]

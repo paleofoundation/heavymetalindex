@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-nail-polish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "26909332b985a25dc37a474d41f3bd426816f4f693e3d7a80f6c31e2c76f94f3",
-      "content_bytes": 10975,
-      "last_commit_sha": "324868f",
+      "content_sha256": "ed8104c139eb01cc4aa49545cf02b5617b9af3319f84fdc674ff776670862d08",
+      "content_bytes": 10950,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/childrens-nail-polish.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/childrens-nail-polish.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/medley2023-childrens-makeup-body-products-us-usage",
         "content_pin": {
-          "content_sha256": "139551ff9e6edc383595e0ddc2944a85058ca41e4fbf8630ff8538708c75ee57",
-          "content_bytes": 11917,
-          "last_commit_sha": "324868f",
+          "content_sha256": "01574075a19ccbf349fb25b903a795119cc9bf6df2cb82e019bc29347f9e4d69",
+          "content_bytes": 11890,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
         "content_pin": {
-          "content_sha256": "a58bddd65c6c17956394fadc058dbee3185bdb25fa297faaeb5980c4e93ec7b2",
-          "content_bytes": 19749,
-          "last_commit_sha": "324868f",
+          "content_sha256": "2a6c7c7ad9ede28b3bb73220511d0fa2133c410fa9a28573f883f9ee9e0c041a",
+          "content_bytes": 19722,
+          "last_commit_sha": "6461a39",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 324868f:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+          "verify_command": "git show 6461a39:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
         }
       }
     ]

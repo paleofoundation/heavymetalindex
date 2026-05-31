@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T22:49:34.755Z
+updated: 2026-05-31T23:19:04.442Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 66 min**
+Velocity: **+0 cells in the last 52 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 66 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 447 min ago (stale) |
+| Daemon heartbeat | ⚠️ 477 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
-| Audit queue: pending-audit-spawn-failed | 82 (async lane) |
-| Wishlist: total downloaded historically | 0 |
-| Wishlist: total ingested historically | 0 |
+| Audit queue: pending-audit-spawn-failed | 83 (async lane) |
+| Wishlist: total downloaded historically | 69 |
+| Wishlist: total ingested historically | 1 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 13 |
-| Commits last 24 hours | 125 |
+| Commits last 1 hour | 14 |
+| Commits last 24 hours | 132 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 66 min**
 ## Last commit
 
 ```
-843fd75 9 minutes ago — audit-queue: seifi2026-iran-toys-pb-cr-hg → audited-promote/PROMOTE
+6e9b2c4 21 seconds ago — codex auto-fetched dispositions 2026-05-31 23:35: 1 ingested + 38 skips
 ```
 
 ## How to read this

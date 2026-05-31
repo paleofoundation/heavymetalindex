@@ -286,3 +286,13 @@ The report explicitly states (Section 4.4.2): "the results of the quantitative a
 - **DMTC migration result data integrity.** The report states DMTC was "not found in quantities exceeding the detection limit of 60 mg/kg" in the migration fluid (Section 4.3.3, p. 56). The Phase 3 exposure calculation (Table 52, p. 69) uses Fc_prod = 0.00003 to back-calculate from the DL, implying a substance-amount-in-migration-fluid upper-bound of 60 mg/kg × 50 mL / 2,000,000 mg total product mass ≈ 1.5 µg per gram product. The 100%-migration worst-case calculation uses Fc_prod = 0.0012 = 1,200 mg/kg DMTC content. The ratio Fc_prod_migration / Fc_prod_total = 0.00003 / 0.0012 = 0.025, or a 40-fold reduction from worst-case to migration-bounded exposure dose. The Key numbers section transcribes both values verbatim from Table 52.
 - **Raw integrity.** raw_sha256 = 286607b1659bc5bcec87147a1537aaa5b7e78bbd9f46d4e22c5200f1bf830f97 verified by `shasum -a 256` against the file at `raw_path` on 2026-06-01.
 - **Near-duplicates.** None identified in the corpus. The sibling toys-surveillance sources `bfr2009-lead-cadmium-toys` (BfR opinion on Pb/Cd in toys), `fowles2021-lead-toys` (Pb in toys), `cpsc1997-pvc-children-products` (US CPSC on PVC children's products), `johnson2012-cpsc-astm-f963-status` (US CPSC/ASTM F963 status), and `seifi2026-iran-toys-pb-cr-hg` (Iranian-market toy survey) address adjacent questions from different regulatory or national frames and do not duplicate this report's Danish-EPA + RAPEX-EU surveillance dataset or its DMTC primary measurement.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3ce3e20](https://github.com/paleofoundation/heavymetalindex/commit/3ce3e20) | 2026-06-01 | ingest: depa2015-cmr-toys [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

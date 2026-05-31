@@ -165,3 +165,14 @@ Of the 26 products in Greenpeace's Table 1 cleared for public release at the tim
 - **Near-duplicates.** None identified. The 1997 Health Canada companion investigation referenced on p. 5 is not currently in the corpus. The Greenpeace upstream report (Di Gangi 1997) is not currently in the corpus.
 - **Raw integrity.** raw_sha256 = 19f5f56cd0120694442cf14fddfba495255c73771adc6d233158b2fc75e85e90 confirmed against the may21-kimi-novelty-2026-05-31.csv novelty-check record for this handle.
 - **Audit subagent findings applied (2026-06-01).** Fresh-context Agent subagent audit returned verdict REVISE with two ⚠️ concerns in Check 1 (numerical fidelity), both verified against the PDF and applied: (1) The Modular Phone Cord ivory-color 97.8 µg Pb/g extraction value was misattributed in the first commit to "6-hour saline extraction"; Table 1 footnote 5 actually identifies it as the 6-hour 0.07 N HCl extraction. Corrected. (2) The Gemini phone-cord Table 3 worked-example line previously stated "Stated daily Pb exposure 9.8 µg/day at realistic use"; the source pairs 9.8 µg/day with the 43-strokes/day threshold figure in Table 2 without explicitly labelling 9.8 µg/day as a realistic-use estimate, so the "at realistic use" framing was wiki interpretation. Reframed to report the Table 2 entry without the interpretive label. Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall, Exception 1 regulatory-event subject), and 5 (Part 2 wiki/HMTc firewall) returned ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [73ef631](https://github.com/paleofoundation/heavymetalindex/commit/73ef631) | 2026-06-01 | audit: cpsc1997-pvc-children-products [revised] |
+| [8f952cc](https://github.com/paleofoundation/heavymetalindex/commit/8f952cc) | 2026-06-01 | ingest: cpsc1997-pvc-children-products [fresh] from raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

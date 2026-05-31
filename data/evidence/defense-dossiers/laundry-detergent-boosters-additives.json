@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/laundry-detergent-boosters-additives",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "944c30fb11f9d7271e83feac47750931725387b45e00dccbed56f479d3907110",
-      "content_bytes": 7473,
-      "last_commit_sha": "324868f",
+      "content_sha256": "ef628402477763f84470ed3ddd861072cfada18611ceb8f8188860ca6d40a467",
+      "content_bytes": 7446,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/laundry-detergent-boosters-additives.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/laundry-detergent-boosters-additives.md | sha256sum"
     }
   },
   "evidence_base": {

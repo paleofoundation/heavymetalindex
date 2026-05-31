@@ -191,3 +191,14 @@ This is a generic toxicological risk-assessment report; no primary analytical wo
   - Check 5 ⚠️ "HMTc audit implications" bullet cross-referenced sibling cite-keys ("alongside the BfR 2009 Opinion (`bfr2009-lead-cadmium-toys`) and the CPSC 1997 PVC staff report (`cpsc1997-pvc-children-products`)") — the "alongside" clause is structurally a forward cross-source synthesis statement pre-bundling this report with sibling literature as a triangulation set, matching the failure mode the audit prompt Check 5 calls out ("synthesis claims that compare this paper to other literature"). Sibling source page `bfr2009-lead-cadmium-toys` does not cross-reference sibling source pages by cite-key in its corresponding Implications bullet; consistency favors keeping each source page strictly about what THAT source contributes, leaving cross-source triangulation to the Part 9 synthesis pass. The "alongside…" clause was removed; the bullet now reports what this report contributes to threshold-setting governance without naming sibling literature.
   - Check 1 (numerical fidelity) returned ⚠️ on two source-internal inconsistencies in the PDF itself — (i) Sahmel et al. cited as "2015" in the in-text paragraph p. 13 but "2016" in the in-box equations p. 13-14; (ii) ECHA 2013 release-rate criterion stated as "0.05 µg/cm² per hour (0.05 µg/g per hour)" with apparent unit-disagreement between cm² and g in the source itself. The wiki page faithfully reproduces the source's exact wording in both cases; not wiki defects.
   - Checks 2 (slug vocabulary), 3 (speciation and methods — Pb-only, total elemental, no speciation question), 4 (Part 12 brand firewall — Barbie™ phone cord and Trade Aid 2017 NZ recall both anchored under Exception 1 regulatory-event subject) all returned ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9a8e6f2](https://github.com/paleofoundation/heavymetalindex/commit/9a8e6f2) | 2026-06-01 | audit: fowles2021-lead-toys [revised] |
+| [721fc33](https://github.com/paleofoundation/heavymetalindex/commit/721fc33) | 2026-06-01 | ingest: fowles2021-lead-toys [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toy-pacifiers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "92c0c275ada5163c4d169e3898224c84e7db8f309a0fbf4dbea10aa472a6542a",
-      "content_bytes": 7358,
-      "last_commit_sha": "324868f",
+      "content_sha256": "cb4fe2c2b49ac80515b5e93f856974a0b8b838f867a0712733a4bb0f29e29461",
+      "content_bytes": 7331,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/toy-pacifiers.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/toy-pacifiers.md | sha256sum"
     }
   },
   "evidence_base": {

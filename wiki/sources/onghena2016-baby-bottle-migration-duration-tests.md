@@ -121,3 +121,16 @@ Regulatory framing: EU Regulation 10/2011 on plastic FCMs (European Union 2011b)
 ## Ingest log
 
 - 2026-05-31 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.1080/19440049.2016.1171914` not present; raw_handle `MFK_01-2015-evaluation-of-the-migration-of-chemicals-f` not present; cite-key stem `onghena2016` not present. PDF SHA-256 `43fd921d1b518d529c4aa1ffb3021a72998df6f6cb26713f7980ac5386671b31`. Paper measures organic FCM migrants only — zero heavy metals — ingested as methodology / out-of-core-scope reference per the lai2025 and aurisano2022 precedents. Routed to `[[products/infant-bottles]]` for discoverability as a baby-bottle FCM-migration reference but `metals: []` correctly reflects no metal occurrence data.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5176ead](https://github.com/paleofoundation/heavymetalindex/commit/5176ead) | 2026-06-01 | codex sprint 2026-06-01 0000: end-of-fire cleanup |
+| [1eee505](https://github.com/paleofoundation/heavymetalindex/commit/1eee505) | 2026-05-31 | ingest: IMEKO-TC23-2016-038 near-duplicate merged into onghena2016-baby-bottle-migration-duration-tests |
+| [459c252](https://github.com/paleofoundation/heavymetalindex/commit/459c252) | 2026-05-31 | audit: onghena2016-baby-bottle-migration-duration-tests promoted (two presentation fixes applied) |
+| [696eca2](https://github.com/paleofoundation/heavymetalindex/commit/696eca2) | 2026-05-31 | ingest: onghena2016-baby-bottle-migration-duration-tests fresh from MFK/_extracted_infantcontact_01_Bottles_Nipples_SippyCups |
+<!-- END: hmi-page-history -->

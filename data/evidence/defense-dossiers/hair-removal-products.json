@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-removal-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "26582279c49ae55b290e252a40710be82227e96a8f7bd4518b9b311147cf6eb4",
-      "content_bytes": 7454,
-      "last_commit_sha": "324868f",
+      "content_sha256": "1a07b775f41297f845f3647870586f2574543e325edab88070eda6d81b3a3a73",
+      "content_bytes": 7427,
+      "last_commit_sha": "6461a39",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 324868f:wiki/products/hair-removal-products.md | sha256sum"
+      "verify_command": "git show 6461a39:wiki/products/hair-removal-products.md | sha256sum"
     }
   },
   "evidence_base": {

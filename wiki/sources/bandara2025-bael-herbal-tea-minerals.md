@@ -78,3 +78,13 @@ Microbiome: No microbiome findings.
 - The DOI, title, author byline, journal, and year were read from the PDF first page and citation block.
 - The source reports As, Cd, and Hg as ND in all three bael tea preparations, but does not expose the non-detect threshold in the extracted pages.
 - The paper is a formulation study with three prepared bael tea matrices, not a retail surveillance study.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a18219d](https://github.com/paleofoundation/heavymetalindex/commit/a18219d) | 2026-06-01 | ingest auto-fetched 2026-05-31 23:28 batch 1: 1 source pages |
+<!-- END: hmi-page-history -->
