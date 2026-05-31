@@ -599,3 +599,23 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/07_2019_BabyFoodReport_FULLREPORT_ENGLISH_R5b.pdf`: R5b is earlier revision of same Oct 2019 HBBF report already ingested as houlihan2019-hbbf-whats-in-baby-food (post-2026-05-14 clean); registered as near_duplicates on existing page, no parallel ingest.
+
+## Tick 2026-05-31T20:55:00.036Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `onghena2016-phd-thesis (registered as near-duplicate superset of onghena2016-baby-bottle-migration-duration-tests; no new source page; no separate audit spawned per IMEKO/HBBF-exec-summ precedent)` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/08_133572.pdf)
+
+## Tick 2026-05-31T21:02:27.448Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cpsc1997-pvc-children-products` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/02_Pbcdtoys.pdf)
