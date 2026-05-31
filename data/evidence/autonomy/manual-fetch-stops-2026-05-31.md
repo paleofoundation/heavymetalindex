@@ -997,3 +997,44 @@ The existing page is post-2026-05-14 clean (`updated: 2026-05-28`), not in `data
 This is the third tracker hit for the same Vella et al. 2024 PDF across the Kimi sweep (after MFK_ root ingest 2026-05-28, and May 21 KADC tree de-dup 2026-05-31T17:59Z). Kimi bundled this paper into multiple download sub-folders, all SHA-identical. The 03_Olives_and_Pickles KADC sub-tree now has two confirmed SHA-identical duplicates of canonical MFK_ pages (FDA TDS, Vella olives); the recovery yield from this specific sub-tree continues to trend toward zero net novel pages.
 
 **Final line:** `STOP: pdf-already-ingested-clean vella2024-malta-olive-cultivars-aas (SHA-identical to MFK_ root; existing page updated 2026-05-28 and clean per routing audit)`
+
+
+## KADC_occurrence-and-exposure-assessment-of-nickel-in-zh (03_Olives_and_Pickles) — KIMI-CORRUPTION WRONG PDF (CONTENT IS MESSIA 2023 GLUTEN-FREE PASTA)
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/03_Olives_and_Pickles/`
+- **Filename:** `Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf`
+- **Wrapper-supplied handle:** `KADC_occurrence-and-exposure-assessment-of-nickel-in-zh`
+- **SHA256:** `834ecab662f8897599d6a8f6cd58f0cca26fca024643b1cc52a9d36c5ea7fbd8`
+- **Actual paper inside the PDF:** Messia MC, Cuomo F, Quiquero M, Verardo V, Marconi E (2023), "Assessment of Nutritional Value and Maillard Reaction in Different Gluten-Free Pasta," *Foods* 12, 1221 (DOI: 10.3390/foods12061221, CC BY).
+- **Intended (filename) paper:** Han et al. 2024 "Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China," *Toxics* 12, 169 (DOI: 10.3390/toxics12030169) — already ingested at `wiki/sources/han2024-nickel-zhejiang-china.md` via the Manual Resourcing copy (which carries the correct nickel-paper bytes).
+
+### Identity evidence
+
+- SHA-256 of this PDF (KADC_ condiment_papers/03_Olives_and_Pickles tree): `834ecab662f8897599d6a8f6cd58f0cca26fca024643b1cc52a9d36c5ea7fbd8`.
+- SHA-256 of `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf` (the MFK_ sibling): `834ecab662f8897599d6a8f6cd58f0cca26fca024643b1cc52a9d36c5ea7fbd8` — byte-identical. That sibling was already stopped 2026-05-28T10:46:05Z (tracker row 285) with stop reason "PDF mislabeled — filename claims Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China but the bytes are Messia et al. 2023 Assessment of Nutritional Value and Maillard Rea[ction]."
+- SHA-256 of `raw/Manual Resourcing/Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China.pdf` (which carries the actually-correct Han 2024 nickel paper): `738928b3b483ca864a71482a4f8eaba21ea642dd75b8aa299b0e30b54c131d02` — NOT identical to the Kimi copies. The Manual Resourcing PDF is the genuine paper; the two Kimi copies (MFK_ root and KADC_) share the corrupted mislabel.
+- Content verification of the KADC PDF: page 1 and page 11 (last page) both read out as the Messia 2023 gluten-free pasta paper — title "Assessment of Nutritional Value and Maillard Reaction in Different Gluten-Free Pasta," authors Messia/Cuomo/Quiquero/Verardo/Marconi, journal *Foods* 12:1221, citation DOI 10.3390/foods12061221, CC BY license. The entire 11-page document is Messia 2023; there is no partial nickel-paper content anywhere in the file.
+- Identity-check grep hits for the intended Han 2024 paper:
+  - Title-substring grep: `han2024-nickel-zhejiang-china.md` is the sole post-2026-05-14-clean page covering "Occurrence and Exposure Assessment of Nickel in Zhejiang Province, China."
+  - DOI grep (`10.3390/toxics12030169`): single hit in `wiki/sources/han2024-nickel-zhejiang-china.md`.
+  - Cite-key grep: `han2024-nickel-zhejiang-china` already populated in tracker row 324 (Manual Resourcing ingest 2026-05-29T05:17:44Z) and `data/evidence/audit-queue.csv`.
+- The existing `han2024-nickel-zhejiang-china.md` page is post-2026-05-14 clean (`updated: 2026-05-29`), not in `data/evidence/routing_unresolved.csv` (0 hits), and not in `data/evidence/routing_malformed.csv` (0 hits). The 2026-05-29 merge-enhance + fresh-context audit (verdict PROMOTE, 0 ❌ findings, 3 ⚠️ framing concerns all applied) is the canonical version.
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+Two independent reasons to skip:
+
+1. **Kimi-corruption wrong PDF.** The bytes do not match the filename — the file is Messia 2023 gluten-free pasta, not Han 2024 nickel. Ingesting under the KADC_occurrence-and-exposure-assessment-of-nickel-in-zh handle would either (a) create a `han2024-nickel-zhejiang-china` duplicate page sourced from the wrong PDF, or (b) create a `messia2023-gluten-free-pasta-maillard` page under a filename-derived cite-key that misrepresents the source folder, or (c) require a route to neither because the Messia gluten-free pasta paper is off-domain for the manual-fetch heavy-metals scope (gluten-free pasta nutritional quality and Maillard-reaction markers, no heavy-metal measurements anywhere — furosine/HMF/maltulose/glucosylisomaltol thermal-damage markers and amino-acid composition only). Precedent: e2e516d (KADC_determination-of-heavy-metal-contents-of-apple-and, Duman & Türkmen 2024 vinegar physicochemistry under a Tekin 2014 ICP-MS thesis filename) and 516983c (KADC_aluminum-leaching-from-cooking-pans-and-food-conta, Shimanoe 2006 SnO2-STM under an aluminum-leaching filename).
+2. **Intended paper already ingested clean.** Even if the KADC PDF carried the correct Han 2024 bytes, the canonical `han2024-nickel-zhejiang-china.md` page is post-2026-05-14 clean and audited PROMOTE; the skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule would apply.
+
+### Action taken
+
+- Tracker row for `KADC_occurrence-and-exposure-assessment-of-nickel-in-zh` (line 939 of `data/evidence/autonomy/manual-fetch-tracker.csv`, condiment_papers/03_Olives_and_Pickles path) flipped from `unprocessed` to `stopped`, with `cite_key` left empty (no wiki page corresponds to the actual file contents, since the off-domain Messia 2023 gluten-free pasta paper would not be ingested under any handle).
+- No ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit + this stop note.
+- The canonical `han2024-nickel-zhejiang-china.md` page was not modified; the 2026-05-29 merge-enhance + audit-application is the canonical version, sourced from the genuine Manual Resourcing PDF.
+
+### Upstream signal
+
+This is the third tracker hit for the same mislabeled Kimi copy of the "nickel-in-Zhejiang" filename (after the MFK_ root stop on 2026-05-28T10:46Z and the May 21 KADC tree de-dup row 1484 stop on 2026-05-31T17:59Z, both also SHA `834ecab6…fbd8`). The 03_Olives_and_Pickles KADC sub-tree now has three confirmed-skip PDFs in this single sweep (FDA TDS Elements SHA-collision, Vella olives SHA-collision, Han-named/Messia-content Kimi-corruption mislabel) and one Kimi-corruption wrong-PDF case; the recovery yield from this specific sub-tree continues to trend toward zero net novel pages — consistent with the broader signal that condiment_papers/03_Olives_and_Pickles is fully covered by canonical MFK_/MR_ ingests and the KADC copies are noise.
+
+**Final line:** `STOP: kimi-corruption-wrong-pdf KADC_occurrence-and-exposure-assessment-of-nickel-in-zh (bytes are Messia 2023 gluten-free pasta; intended Han 2024 nickel paper already ingested at han2024-nickel-zhejiang-china.md from the genuine Manual Resourcing PDF)`
