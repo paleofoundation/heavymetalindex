@@ -9,5 +9,6 @@ Supply-chain pages describe the paths by which heavy metals enter the food syste
 
 ## Supply-Chain Pages
 
-- [[supply-chain/aluminum-based-packaging]]
+- [[supply-chain/soil-to-plant-transfer]]
 - [[supply-chain/soil-nickel-screening]]
+- [[supply-chain/aluminum-based-packaging]]
