@@ -28,6 +28,15 @@
 //
 // Patterns that satisfy provenance:
 //   - [[sources/<slug>]] or [[sources/<slug>|N]] anywhere in the same paragraph
+//   - [[regulations/<slug>]] — a regulatory threshold's authoritative source IS
+//     the regulation; a claim that links its regulation page is sourced
+//   - A named regulatory instrument inline (Regulation (EU/EC) <num>, a
+//     <num>/<year> regulation number, Directive, 21 CFR, Codex STAN/CAC-GL, FDA
+//     Closer to Zero). Conservative: a bare agency name ("the FDA") or a bare
+//     "maximum level" phrase does NOT count, so unsourced synthesis claims that
+//     merely mention an agency stay flagged. A literature concentration claim
+//     still requires a [[sources/...]] link — naming a regulation cannot satisfy
+//     a "rice mean iAs 92 ppb" claim because no regulation is named in it.
 //   - A footnote-style reference like [N] when the paragraph names a study
 //   - Within a marker-managed block (the marker generator is the source of truth)
 //   - Inside a markdown table row (skip — see scope above)
@@ -73,8 +82,23 @@ const CLAIM_PATTERNS = [
 
 const PROVENANCE_PATTERNS = [
   /\[\[sources\/[^|\]#]+/,
+  /\[\[regulations\/[^|\]#]+/, // regulatory claim traces to its regulation page
   /\[\d+\]/, // footnote-style: [1], [42]
   /\(\d{4}[a-z]?\)/, // inline year-style citation: (2024), (2024a)
+  // Named regulatory instrument — the regulation is the primary source for its
+  // own threshold. Requires a SPECIFIC instrument, not a bare agency name.
+  /Regulation\s*\((?:EU|EC)\)/i, // "Regulation (EU) 2023/915", "Regulation (EC) No 1881/2006"
+  /\b(?:EU|EC)\)?\s*(?:No\.?\s*)?\d{2,4}\/\d{2,4}\b/, // "EU 2022/617" (YYYY/NNN) and "(EC) No 1881/2006" (NNNN/YYYY)
+  /\bDirective\s*\d/i,
+  /\b21\s*CFR\b/i,
+  /\bCodex\s*(?:STAN|CAC\/GL|GL\b)/i,
+  /Closer[\s-]to[\s-]Zero|\bCtZ\b/i, // FDA Closer to Zero action-level program
+  /\bProp(?:osition)?\s*65\b|\bOEHHA\b|\bMADL\b/i, // California Prop 65 instruments
+  // Named toxicological reference value — sourced to the body that set it
+  // (EFSA, JECFA, WHO, US EPA). Specific instrument acronyms/phrases only; a
+  // literature concentration claim ("rice mean iAs 92 ppb") never contains these.
+  /\b(?:TWI|PTWI|PTMI|TDI|RfD|MRL|BMDL(?:\d+)?)\b/,
+  /tolerable (?:weekly|daily|monthly) intake|benchmark dose|reference dose|provisional tolerable/i,
 ]
 
 const violations = []
@@ -176,7 +200,7 @@ const lines = [
   "",
   "## Methodology",
   "",
-  "Each non-table, non-marker paragraph containing a numerical claim (concentration with units, P-value with number, n= sample size, LOD/LOQ value) is checked for a [[sources/...]] link, footnote reference, or inline year citation in the same paragraph. Paragraphs with no provenance are flagged. False positives are likely on summary tables that span multiple paragraphs and frontmatter-derived prose. Triage by priority: highest-traffic pages first.",
+  "Each non-table, non-marker paragraph containing a numerical claim (concentration with units, P-value with number, n= sample size, LOD/LOQ value) is checked for provenance in the same paragraph. Provenance forms recognized: a [[sources/...]] link, a [[regulations/...]] link, a footnote reference, an inline year citation, or a named regulatory instrument (Regulation (EU/EC) <num>, a <num>/<year> regulation number, Directive, 21 CFR, Codex STAN/CAC-GL, FDA Closer to Zero, Prop 65/OEHHA/MADL). A regulatory threshold's authoritative source is the regulation itself, so a claim naming or linking its regulation is sourced; a literature concentration claim still requires a [[sources/...]] link. Paragraphs with no provenance are flagged. Residual false positives remain on explanatory/hypothetical prose (e.g. 'a 20 ppb cereal can be...') and unit-definition arithmetic. Triage by priority: highest-traffic pages first.",
   "",
   "## Files with unsourced claims",
   "",
