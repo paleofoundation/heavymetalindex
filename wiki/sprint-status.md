@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T19:10:52.536Z
+updated: 2026-05-31T19:55:30.461Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 68 min**
+Velocity: **+0 cells in the last 67 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 68 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 229 min ago (stale) |
+| Daemon heartbeat | ⚠️ 273 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 82 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 88 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 8 |
+| Commits last 24 hours | 85 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 68 min**
 ## Last commit
 
 ```
-a60e8d9 4 minutes ago — stop: KADC_heavy-metal-migration-exposure-and-health-risk-thr (page already current)
+9969d55 14 seconds ago — triage sweep 2026-05-31 22:45: 0 rollups + 1 skips
 ```
 
 ## How to read this

@@ -449,3 +449,93 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/Heavy metal migration, exposure, and health risk through canned tomato mix under different marketing.pdf`: page-already-current KADC_heavy-metal-migration-exposure-and-health-risk-thr (resolves to kangre2024-canned-tomato-pb-sn-ghana.md, updated 2026-05-28, audited PROMOTE 0 findings)
+
+## Tick 2026-05-31T19:22:32.361Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Inorganic Arsenic.pdf`: page-already-current KADC_the-first-hong-kong-total-diet-study-inorganic-ars (resolves to cfs2012-hktds-inorganic-arsenic.md, updated 2026-05-28, audited REVISE 2 applied/0 rejected)
+
+## Tick 2026-05-31T19:25:46.719Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`: page-already-current KADC_the-first-hong-kong-total-diet-study-metallic-cont (resolves to cfs2013-hktds-metallic-contaminants.md, updated 2026-05-20, audited PROMOTE 3 applied/0 rejected)
+
+## Tick 2026-05-31T19:28:54.592Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/Aluminum in Food (Q&A)_ Sources, Safety and Regulations.pdf`: page-already-current KADC_aluminum-in-food-qa-sources-safety-and-regulations (resolves to efsa2021-aluminium-food-qa.md, updated 2026-05-28, routing-malformed entry is advisory-tier by design)
+
+## Tick 2026-05-31T19:30:55.525Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/Consumer Reports_ Heavy Metals in 15 Herbs and Spices.pdf`: page-already-current KADC_consumer-reports-heavy-metals-in-15-herbs-and-spic (resolves to gill2021-consumer-reports-spices.md, updated 2026-05-28, audited 2026-05-28 with brand-firewall correction applied)
+
+## Tick 2026-05-31T19:32:39.030Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/Coordinated Sampling Project 41_ Microbial and Heavy Metal Detections in Herbs and Spices.pdf`: page-already-current KADC_coordinated-sampling-project-41-microbial-and-heav (resolves to lhaac2025-csp41-herbs-spices-wa.md, updated 2026-05-28, audited 2026-05-28 with REVISE verdict applied)
+
+## Tick 2026-05-31T19:34:05.783Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/Impact of source, packaging and presence of food safety management system on heavy metals levels in.pdf`: page-already-current KADC_impact-of-source-packaging-and-presence-of-food-sa (resolves to moussa2024-spices-herbs-lebanon.md, updated 2026-05-29, audited 2026-05-29 with PROMOTE verdict applied)
+
+## Tick 2026-05-31T19:50:02.259Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/Lead in Spices, Herbal Remedies, and Ceremonial Powders Sampled from Home Investigations for Children with Elevated Blood Lead Levels - North Carolina.pdf`: byte-identical to angelon-gaetz2018-lead-spices-north-carolina
+
+## Tick 2026-05-31T19:50:07.946Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/Survey of Aluminium Content of Processed Food Using Baking Powder (2015-2016).pdf`: page-already-current KADC_survey-of-aluminium-content-of-processed-food-usin (resolves to takanashi2018-aluminium-baking-powder-japan.md, updated 2026-05-29, audited 2026-05-29 with REVISE verdict applied)
+
+## Tick 2026-05-31T19:53:32.936Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices.pdf`: KADC_technical-support-document-for-derivation-of-healt (page already current — nys-doh2019-metals-spices-guidance.md updated 2026-05-29, audited-revised, not malformed)
