@@ -14,16 +14,16 @@ access_url: https://doi.org/10.1177/11786302221119151
 raw_path: raw/markdown/FM_9434655/FM_9434655.md
 metals: [Pb, Cd, tAs, tHg]
 ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/potatoes]]"]
-products: []
+products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]", "[[products/leafy-vegetables-other]]", "[[products/fresh-fruit]]"]
 matrices: [vegetables, fruits, soil]
 jurisdictions: [IN]
-near_duplicates: ["raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf"]
+near_duplicates: ["raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf", "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf"]
 sample_n: 24
 sample_population: "24 frequently consumed crop types — 11 vegetables and 13 fruits/legumes — collected from farms near Solapur, an industrialized city in Maharashtra state, India; 6 native soil sampling sites (SQ-1 through SQ-6) sampled in winter (January) and summer (April) 2017"
 wiki_doi: null
 sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-19
+sampling_year_range: 2017
+updated: 2026-05-31
 ---
 
 # Mawari et al. 2022 — Heavy metals in fruits, vegetables and soil, Solapur, Maharashtra, India
@@ -105,6 +105,11 @@ The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metal
 
 **Audit subagent 2026-05-19 (REVISE verdict, one ❌ finding):** The subagent flagged Potato HI = 0.916 as inconsistent with Table 4, asserting Table 4 reports Potato HI = 0.2958333. Verified against Table 4 directly (page 6): row 3 (Ginger) HI = 0.2958333; row 4 (Potato) HI = 0.9156667 ≈ 0.916. The 0.916 value in the wiki page is correct and confirmed by the row-level HRI sum (Potato: HRI Cd 0.115 + HRI Pb 0.6775 + HRI As 0.1166667 + HRI Hg 0.0065 = 0.9156667). The subagent's finding is a false positive caused by row mis-alignment between Ginger (row 3) and Potato (row 4). No change applied. The subagent's ⚠️ concerns about the Implications/App framing were considered — both are scoped as program-only/downstream-app context, not as wiki claims, and remain unchanged.
 
+**Merge-enhance re-pass 2026-05-31** (PDF re-encountered in `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/`, flagged via routing_malformed advisory "missing optional routing-input fields"):
+- **Products populated.** Prior frontmatter had `products: []` (advisory: routing layer falling back to broad scope via matrices only). The paper's 24 commodities map to four existing Cat 4 Step 0 Lock product rows: root-tuber-vegetables (potato, carrot, radish, garlic, ginger, onion), non-root-vegetables (brinjal, cucumber, tomato, okra, sugarcane, sorghum, broad/mung/cream beans, chickpea, red gram, green peas), leafy-vegetables-other (cabbage, fenugreek/methi leaves), fresh-fruit (apple, orange, papaya, tamarind). All four destinations are existing scaffolded pages; no new product pages created.
+- **Sampling year recorded.** `sampling_year_range: null` → `2017` (paper page 2, Materials and Methods: "winter (January) and summer (April) in the year 2017").
+- **Near-duplicate path added.** Kimi Agent Download Corruption Issue tree path added to `near_duplicates` so future identity checks resolve to this page.
+
 ## Wiki pages this source touches
 
 - [[metals/lead]]
@@ -114,6 +119,10 @@ The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metal
 - [[ingredients/vegetables]]
 - [[ingredients/fruit]]
 - [[ingredients/potatoes]]
+- [[products/root-tuber-vegetables]]
+- [[products/non-root-vegetables]]
+- [[products/leafy-vegetables-other]]
+- [[products/fresh-fruit]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
