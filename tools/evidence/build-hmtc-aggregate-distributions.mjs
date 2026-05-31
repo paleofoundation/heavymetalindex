@@ -39,6 +39,7 @@ const samplesCsvGlob = "data/evidence/category*_samples.csv"
 const gapReportPath = path.join(repoRoot, "data/evidence/hmtc_standards_gap_report.csv")
 const outputPath = path.join(repoRoot, "data/evidence/hmtc_aggregate_distributions.csv")
 const summaryOutputPath = path.join(repoRoot, "data/evidence/hmtc_aggregate_distributions_summary.json")
+const starvationAuditPath = path.join(repoRoot, "data/evidence/hmtc_pool_starvation_audit.csv")
 
 const args = parseArgs(process.argv.slice(2))
 const productFilter = args.get("product") ?? ""
@@ -55,6 +56,14 @@ const INDEPENDENT_TARGET_P = 0.97 // default for variant_type other than clean/d
 const DEFAULT_CV_FOR_MEAN_ONLY = 1.0 // EFSA/JECFA convention for contaminant data
 const BASIS_RECONSTITUTION_FACTOR = 7 // 1 g powder + 6 g water (1:7 dilution)
 const MAX_SOURCE_SHARE = 0.5      // no single source > 50% of pool weight
+// A pooled distribution whose p95 exceeds its p10 by more than this factor is
+// almost certainly contaminated by a unit mismatch among its source rows (e.g.
+// one source in mg/kg pooled with others in µg/kg) rather than a real
+// occurrence range — genuine LOD-censored contaminant distributions stay well
+// under 1e4. Such a pool cannot yield a defensible percentile for ANY consumer
+// (public synthesis or staff standards), so the engine blocks it outright. This
+// is a data-quality gate, not a change to the P97/P45 methodology.
+const MAX_INTERNAL_SPAN = 1e4
 
 // ---- Random number generator (deterministic, seeded for reproducibility)
 
@@ -575,13 +584,40 @@ function main() {
     samplesByKey.get(key).push(row)
   }
 
+  // Metals that actually have structured evidence, per slug. The pooling loop
+  // below iterates the UNION of each product's curated primary_metals_of_concern
+  // and the metals for which structured rows exist. Gating pools on the curated
+  // list alone stranded ~5,600 already-extracted rows: pages whose frontmatter
+  // listed a narrower analyte set (e.g. spices = [Pb, Cd, tAs, Cr] while the
+  // corpus holds Ni, Al, tHg, Cr-total data for spices) plus 239 product pages
+  // that carry an empty primary_metals_of_concern. The result was cells like
+  // baby-cereals-dry-rice-based × tAs (14 contributing sources) reported as
+  // "BLOCKED: no usable evidence" because tAs was absent from one frontmatter
+  // array. Per CLAUDE.md Part 2 the wiki reports what the literature supports;
+  // surfacing a metal the corpus actually measured moves toward the literature,
+  // not toward HMTc convenience, so the union is the faithful default. The
+  // metal_in_concern_list flag on each output row preserves the curated-emphasis
+  // signal for downstream ordering and audit.
+  const dataMetalsBySlug = new Map()
+  for (const r of [...summaryRows, ...sampleRows]) {
+    const slug = r.product_slug || r.row_slug
+    const metal = r.metal_species
+    if (!slug || !metal) continue
+    if (!dataMetalsBySlug.has(slug)) dataMetalsBySlug.set(slug, new Set())
+    dataMetalsBySlug.get(slug).add(metal)
+  }
+
   const outputRows = []
   const productSlugs = Object.keys(products).sort()
   for (const slug of productSlugs) {
     if (productFilter && slug !== productFilter) continue
     const product = products[slug]
     const target = targetForProduct(product)
-    for (const metal of product.primary_metals_of_concern ?? []) {
+    const curatedMetals = product.primary_metals_of_concern ?? []
+    const metalsToProcess = [
+      ...new Set([...curatedMetals, ...(dataMetalsBySlug.get(slug) ?? [])]),
+    ]
+    for (const metal of metalsToProcess) {
       if (metalFilter && metal !== metalFilter) continue
       const key = `${slug}::${metal}`
       const summaryRowsForCell = rowsByKey.get(key) ?? []
@@ -651,6 +687,17 @@ function main() {
       )
       assertPoolShareCap(contributions, slug, metal)
       const admittedCount = contributions.filter((c) => c.admitted).length
+      // Distinct *sources*, not admitted *rows*. One paper reporting several
+      // cohorts (per-brand, per-region) produces several rows but is not
+      // independent corroboration; e.g. vinegar × Al pooled four karavoltsos2020
+      // rows and read as "n=4, READY" when it is a single study. The verdict
+      // gate and the published n_studies must both reflect distinct sources or
+      // the wiki overstates its evidence base — a defensibility failure under
+      // OPERATING.md Part 6 (no overstated confidence) and a quote-mine opening
+      // for a plaintiff's expert.
+      const distinctSources = new Set(
+        contributions.filter((c) => c.admitted && c.source_id).map((c) => c.source_id),
+      ).size
       const sampleLevelCount = contributions.filter(
         (c) => c.admitted && c.reconstruction_method === "percentile_interpolation",
       ).length
@@ -704,10 +751,13 @@ function main() {
 
       const verdict = deriveVerdict({
         admittedCount,
+        distinctSources,
         sampleLevelCount,
         sensBand,
         regCap,
         pooled,
+        pooledP10: pooledStats.p10,
+        pooledP95: pooledStats.p95,
       })
 
       const out = {
@@ -721,6 +771,7 @@ function main() {
         role: target.role,
         sources_loaded: rowsForCell.length,
         sources_contributing: admittedCount,
+        distinct_sources: distinctSources,
         sample_level_contributing: sampleLevelCount,
         pooled_n: pooled.length,
         median_source_n: round(medianN ?? 0, 1),
@@ -747,6 +798,10 @@ function main() {
         candidate_value_ppb: round(candidate, 4),
         rationale_tag_auto: tag,
         verdict,
+        // Appended last so column positions stay stable for any positional
+        // consumer. true when this metal was in the page's curated
+        // primary_metals_of_concern; false when the union surfaced it from data.
+        metal_in_concern_list: curatedMetals.includes(metal),
         contribution_log: JSON.stringify(contributions),
       }
       outputRows.push(out)
@@ -759,6 +814,8 @@ function main() {
     }
   }
 
+  const starvation = buildStarvationAudit(summaryRows, sampleRows, products, outputRows)
+
   writeCsv(outputPath, outputRows)
   writeStableJsonSummary(summaryOutputPath, {
     generated_at: new Date().toISOString(),
@@ -769,6 +826,7 @@ function main() {
     cells_by_rationale: countBy(outputRows, (r) => r.rationale_tag_auto),
     cells_by_role: countBy(outputRows, (r) => r.role),
     sensitivity_band_distribution: countBy(outputRows, (r) => r.sens_band),
+    pool_starvation: starvation.summary,
     methodology: {
       clean_target: "P97 of pooled clean-subcategory distribution",
       dirty_target: "P45 of pooled dirty-subcategory distribution",
@@ -790,15 +848,95 @@ function main() {
 
   console.log(`Wrote ${outputRows.length} aggregate-distribution rows to ${path.relative(repoRoot, outputPath)}`)
   console.log(`Wrote summary to ${path.relative(repoRoot, summaryOutputPath)}`)
+  console.log(
+    `Pool starvation: ${starvation.summary.stranded_rows_total} stranded rows ` +
+      `(${starvation.summary.stranded_rows_carrying_a_statistic} carry a statistic) → ` +
+      `${path.relative(repoRoot, starvationAuditPath)}`,
+  )
 }
 
-function deriveVerdict({ admittedCount, sampleLevelCount, sensBand, regCap, pooled }) {
+function deriveVerdict({ admittedCount, distinctSources, sampleLevelCount, sensBand, regCap, pooled, pooledP10, pooledP95 }) {
   if (pooled.length === 0) return "BLOCKED: no usable evidence"
-  if (admittedCount < 2) return "BLOCKED: pool too thin (≥2 admitted sources required)"
+  if (distinctSources < 2) return "BLOCKED: pool too thin (≥2 distinct sources required)"
+  if (pooledP10 > 0 && pooledP95 / pooledP10 > MAX_INTERNAL_SPAN)
+    return "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units)"
   if (sensBand === "needs_review") return "BLOCKED: sensitivity unstable across parametric assumptions"
   if (sensBand === "provisional") return "PROVISIONAL: review sensitivity disagreement"
   if (regCap.value !== null) return "READY FOR REVIEW (regulatory cap applies)"
   return "READY FOR REVIEW"
+}
+
+// ---- Pool starvation audit
+//
+// After the union fix above, a structured row that still fails to reach a
+// pooled cell is an extraction-side defect, not an engine-side gate. This audit
+// makes those losses visible instead of silent — the routing-layer philosophy
+// in CLAUDE.md Part 5b, applied to the evidence register: the system surfaces
+// unrouted evidence rather than letting each session re-derive the bottleneck.
+// A row is stranded when it cannot reach ANY pooled cell. After the union fix,
+// that only happens for slug/analyte routing defects, not for thin statistics
+// (a thin row still lands in its cell and may be joined by others). Reasons:
+//   empty_slug        row carries data but no product slug was extracted
+//   unmatched_slug    slug names no product-category page (create or remap)
+//   no_metal_species  slug present but the analyte column is blank
+// Routed rows are omitted; only stranded ones are written, so the file IS the
+// work queue. has_usable_statistic annotates each stranded row so recovery can
+// prioritise rows that already carry a number. The summary block is folded into
+// the aggregate summary JSON.
+function buildStarvationAudit(summaryRows, sampleRows, products, _outputRows) {
+  const productSlugSet = new Set(Object.keys(products))
+  const auditRng = new SeededRng(1)
+  // Mirror the engine's two admission paths: summary rows reconstruct from
+  // moments/percentiles; sample rows carry raw value columns aggregated in the
+  // main loop. A row "carries a statistic" if either path yields a number.
+  const SAMPLE_VALUE_COLS = ["value_ppb", "numeric_lower_bound_ppb", "reported_value"]
+  const hasStat = (row) =>
+    reconstructPseudoSamples(row, auditRng).samples.length > 0 ||
+    SAMPLE_VALUE_COLS.some((c) => numberOrNull(row[c]) !== null)
+
+  const stranded = []
+  for (const row of [...summaryRows, ...sampleRows]) {
+    const slug = (row.product_slug || row.row_slug || "").trim()
+    const metal = (row.metal_species || "").trim()
+    let reason
+    if (slug === "") reason = "empty_slug"
+    else if (!productSlugSet.has(slug)) reason = "unmatched_slug"
+    else if (metal === "") reason = "no_metal_species"
+    else continue // routed to a cell — not stranded
+    stranded.push({
+      reason,
+      slug,
+      metal,
+      has_usable_statistic: hasStat(row),
+      source_id: row.source_id || "",
+      source_file: row._source_file || "",
+    })
+  }
+
+  const unmatchedSlugCounts = {}
+  for (const r of stranded) {
+    if (r.reason !== "unmatched_slug") continue
+    unmatchedSlugCounts[r.slug] = (unmatchedSlugCounts[r.slug] ?? 0) + 1
+  }
+  const topUnmatchedSlugs = Object.entries(unmatchedSlugCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 25)
+    .map(([slug, rows]) => ({ slug, rows }))
+
+  writeCsv(starvationAuditPath, stranded)
+
+  return {
+    summary: {
+      structured_rows_total: summaryRows.length + sampleRows.length,
+      stranded_rows_total: stranded.length,
+      stranded_rows_carrying_a_statistic: stranded.filter((r) => r.has_usable_statistic).length,
+      stranded_by_reason: countBy(stranded, (r) => r.reason),
+      top_unmatched_slugs: topUnmatchedSlugs,
+      note:
+        "Stranded rows never reach a pooled cell because of a slug/analyte routing defect (fix the slug or create the page). Routed rows — including thin ones — are omitted; this file is the work queue. has_usable_statistic marks rows that already carry a number and are therefore highest-value to recover.",
+    },
+    stranded,
+  }
 }
 
 // ---- Utilities
