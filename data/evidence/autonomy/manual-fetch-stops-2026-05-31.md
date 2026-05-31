@@ -886,3 +886,40 @@ The existing page is post-2026-05-14 clean (`updated: 2026-05-26`), not in `data
 This brings the 02_Vinegars Kimi-corruption-folder sub-tree to: four of nine processed PDFs are now confirmed wrong-PDF / duplicate (KADC_a-practical-method = duplicate-DOI of ozbek2016; KADC_alarming-lead-arsenic = SHA-identical duplicate of MFK_ root; KADC_aluminum-leaching = shimanoe2006 wrong PDF; KADC_determination-of-heavy-metal = duman-turkmen2024 wrong PDF) plus this fifth case (KADC_levels-of-cd-pb-and-ni = SHA-identical duplicate of MFK_ root). Two of the five are SHA-identical duplicates of the canonical MFK_ root tree (the pattern documented across prior KADC_ entries in this log). The recovery yield from the Kimi corruption folder for 02_Vinegars remains at zero net novel papers so far in this sweep.
 
 **Final line:** `STOP: pdf-already-ingested-clean acosta1993-cd-pb-ni-vinegar-types (SHA-identical to MFK_ root; existing page updated 2026-05-26 and clean per routing audit)`
+
+
+## KADC_metallic-contaminants-in-andalusian-vinegars — KIMI-CORRUPTION DUPLICATE OF ALREADY-INGESTED MFK_ ROOT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/`
+- **Filename:** `Metallic Contaminants in Andalusian Vinegars.pdf`
+- **Wrapper-supplied handle:** `KADC_metallic-contaminants-in-andalusian-vinegars`
+- **SHA256:** `859e8b195eff1d32772fb606ae3928c691172469441120a5765ed857e756768b`
+- **Existing wiki source page:** `wiki/sources/troncoso1988-metallic-contaminants-andalusian-vinegars.md`
+- **Existing `cite_key`:** `troncoso1988-metallic-contaminants-andalusian-vinegars`
+- **Existing `raw_handle`:** `MFK_metallic-contaminants-in-andalusian-vinegars`
+- **Existing `updated`:** `2026-05-28`
+
+### Identity evidence
+
+- SHA-256 of this PDF (KADC_ tree): `859e8b195eff1d32772fb606ae3928c691172469441120a5765ed857e756768b`
+- SHA-256 of `raw/Manual Fetch Kimi /condiment_papers/02_Vinegars/Metallic Contaminants in Andalusian Vinegars.pdf`: `859e8b195eff1d32772fb606ae3928c691172469441120a5765ed857e756768b` — byte-identical.
+- Identity-check grep hits:
+  - Title-substring grep: `troncoso1988-metallic-contaminants-andalusian-vinegars.md` (single hit; exact title in frontmatter).
+  - DOI grep: paper has no DOI (`doi: null`, `no_doi_assigned: true`); identity established via title + raw_path + SHA-256 collision plus `raw_sha256` field on the existing page that matches this PDF byte-for-byte.
+  - Cite-key grep: `troncoso1988-metallic-contaminants-andalusian-vinegars` already populated in `data/evidence/audit-queue.csv` and `data/evidence/autonomy/manual-fetch-tracker.csv` (line 278, original MFK_ ingest row).
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+The existing page is post-2026-05-14 clean (`updated: 2026-05-28`), not in `data/evidence/routing_unresolved.csv`, and not in `data/evidence/routing_malformed.csv`. The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. The 2026-05-28 merge-enhance pass against this same PDF already populated the canonical handle (`MFK_metallic-contaminants-in-andalusian-vinegars`), added `raw_sha256`, corrected the Cu range minimum from `0–6.14 ppm` to `0.07–6.14 ppm`, corrected the iron-exceedance count to two samples (no. 8 and 9) per the explicit page-745 statement, split the previously-conflated Spanish vs. Codex Zn/Cu limits into the two distinct citations the paper makes, added the mean Cu uncertainty (± 0.04 ppm), added the exceedance-sample lists for both Spanish combined limits, added the sample-4 As + Pb arithmetic (1.21 + 0.242 = 1.452 ppm), removed cross-source synthesis sentences that belong in synthesis pages, and expanded the Methods section with the Table 1 instrumental parameters. Verification of every change is recorded inline on the page. Re-ingesting via the KADC_ root would either (a) duplicate the prior page or (b) regress the verified merge-enhance work.
+
+### Action taken
+
+- Tracker row for `KADC_metallic-contaminants-in-andalusian-vinegars` (line 932 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `stopped`, with the existing `cite_key` populated so future wrapper ticks short-circuit on the row read instead of re-discovering the SHA collision.
+- No ingest, no merge-enhance, no audit, no commit beyond the tracker edit + this stop note.
+- The page itself was not modified; the 2026-05-28 merge-enhance is the canonical version.
+
+### Upstream signal
+
+This brings the 02_Vinegars Kimi-corruption-folder sub-tree to: six of ten processed PDFs are now confirmed wrong-PDF / duplicate (KADC_a-practical-method = duplicate-DOI of ozbek2016; KADC_alarming-lead-arsenic = SHA-identical duplicate of MFK_ root; KADC_aluminum-leaching = shimanoe2006 wrong PDF; KADC_determination-of-heavy-metal = duman-turkmen2024 wrong PDF; KADC_levels-of-cd-pb-and-ni = SHA-identical duplicate of MFK_ root; KADC_metallic-contaminants-in-andalusian = SHA-identical duplicate of MFK_ root). Three of the six are SHA-identical duplicates of the canonical MFK_ root tree — the duplicate-tree pattern now accounts for half the confirmed-skip cases in this folder. The recovery yield from the Kimi corruption folder for 02_Vinegars remains at zero net novel papers so far in this sweep. The pre-pass verification-script recommendation continues to gather supporting evidence.
+
+**Final line:** `STOP: pdf-already-ingested-clean troncoso1988-metallic-contaminants-andalusian-vinegars (SHA-identical to MFK_ root; existing page updated 2026-05-28 and clean per routing audit)`
