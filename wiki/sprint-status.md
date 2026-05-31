@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T20:38:42.871Z
+updated: 2026-05-31T21:00:21.718Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 66 min**
+Velocity: **+0 cells in the last 65 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 66 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 317 min ago (stale) |
+| Daemon heartbeat | ⚠️ 338 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 82 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 94 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 14 |
+| Commits last 24 hours | 100 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 66 min**
 ## Last commit
 
 ```
-0ce79c1 82 seconds ago — audit-queue: padoh2023-pahan-727-cpsc-lead-cup-recall → audited-promote
+8204e26 6 minutes ago — manual-fetch: register MFK 07_2019_BabyFoodReport_FULLREPORT_ENGLISH_R5b as near-duplicate of houlihan2019-hbbf
 ```
 
 ## How to read this

@@ -569,3 +569,33 @@
 
 ### Succeeded
 - `houlihan2019-hbbf-whats-in-baby-food` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/03_2019_BabyFoodReport_EXEC-SUMM-ENGLISH_R6.pdf)
+
+## Tick 2026-05-31T20:30:16.281Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `padoh2023-pahan-727-cpsc-lead-cup-recall` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/04_2023_2023-727-11-29-ADV-ToddlerCups.pdf)
+
+## Tick 2026-05-31T20:38:26.318Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cfs2012-baby-bottles-tableware` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/06_2012_programme_rafs_fcm_01_04_Report_e.pdf)
+
+## Tick 2026-05-31T20:50:12.606Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/07_2019_BabyFoodReport_FULLREPORT_ENGLISH_R5b.pdf`: R5b is earlier revision of same Oct 2019 HBBF report already ingested as houlihan2019-hbbf-whats-in-baby-food (post-2026-05-14 clean); registered as near_duplicates on existing page, no parallel ingest.
