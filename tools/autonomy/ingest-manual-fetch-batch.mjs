@@ -54,9 +54,24 @@ const rebuildTracker = args.has("rebuild-tracker")
 const maxPdfs = Number(args.get("max-pdfs") ?? 3)
 // Concurrency for parallel ingest workers (added 2026-05-28). Each worker
 // runs an independent claude --print spawn against a different PDF. They
-// share the tracker as the race-safe claim surface; git operations during
-// commit are protected by gitLock.
-const concurrency = Math.max(1, Number(args.get("concurrency") ?? 1))
+// share the tracker as the race-safe claim surface for WORK ASSIGNMENT, but
+// the per-PDF `git add`/`git commit` happens INSIDE each spawned claude child
+// (per the ingest skill workflow), NOT in this parent. There is no gitLock —
+// the old comment here claimed one, but none was ever implemented. At
+// concurrency>1 the children race on .git/index.lock with no retry: ~2/3 of
+// parallel workers exit 1, and the same paper can be processed twice (observed
+// 2026-05-30: cfs2019-organotin committed by both a daemon worker and Codex).
+// Because the commits live in the children, a parent-side mutex cannot wrap
+// them — so the only safe mode here is serial. Concurrency is hard-clamped to
+// 1. Restoring real parallelism requires moving commits to the parent so they
+// CAN be serialized (tracked as a follow-up); until then, do not un-clamp.
+const requestedConcurrency = Math.max(1, Number(args.get("concurrency") ?? 1))
+if (requestedConcurrency > 1) {
+  console.log(`WARNING: --concurrency=${requestedConcurrency} requested but CLAMPED to 1 — ` +
+    `per-child git commits race on .git/index.lock with no lock (see header comment). ` +
+    `This prevents exit-1 commit failures and double-processing.`)
+}
+const concurrency = 1
 const folderRestrict = args.get("folder") ?? null
 const model = args.get("model") ?? "claude-opus-4-7"
 
