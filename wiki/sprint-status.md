@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T20:17:03.634Z
+updated: 2026-05-31T20:38:42.871Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 66 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 295 min ago (stale) |
+| Daemon heartbeat | ⚠️ 317 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 82 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
 | Commits last 1 hour | 11 |
-| Commits last 24 hours | 91 |
+| Commits last 24 hours | 94 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 66 min**
 ## Last commit
 
 ```
-d0918a2 28 seconds ago — ingest: HBBF-2019-EXEC-SUMM-ENGLISH-R6 near-duplicate merged into houlihan2019-hbbf-whats-in-baby-food
+0ce79c1 82 seconds ago — audit-queue: padoh2023-pahan-727-cpsc-lead-cup-recall → audited-promote
 ```
 
 ## How to read this
