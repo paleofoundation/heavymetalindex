@@ -98,18 +98,18 @@ Drinking water does not accumulate heavy metals through the biological mechanism
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=6 | 0–9 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/dorevitch2024-drinking-water-lead-spikes\|2]], [[sources/levin2024-us-drinking-water-contaminants\|3]] |
-| Cd | n=6 | 0–0.3 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|3]] |
-| iAs | n=7 | 0–5 | medium | [[sources/epa-iris-inorganic-arsenic-2025\|1]], [[sources/zecchin2021-arsenic-groundwater-italy\|2]], [[sources/jecfa-82nd-arsenic\|3]] |
-| tAs | n=8 | 0–10 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/zecchin2021-arsenic-groundwater-italy\|3]] |
-| tHg | n=4 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
-| Ni | n=4 | 0–20 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
-| Al | n=4 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/atsdr-aluminum-toxprofile-2008\|3]] |
-| Cr | n=3 | 0–50 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
-| Sn | n=2 | 0 | low | [[sources/ufelle2021-metals-chapter\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| U | n=2 | 0–5 | low | [[sources/levin2024-us-drinking-water-contaminants\|1]], [[sources/ufelle2021-metals-chapter\|2]] |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=6 | 0–9 | 21.6 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/dorevitch2024-drinking-water-lead-spikes\|2]], [[sources/levin2024-us-drinking-water-contaminants\|3]] |
+| Cd | n=6 | 0–0.3 | 0.5 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|3]] |
+| iAs | n=7 | 0–5 | 6 | medium | [[sources/epa-iris-inorganic-arsenic-2025\|1]], [[sources/zecchin2021-arsenic-groundwater-italy\|2]], [[sources/jecfa-82nd-arsenic\|3]] |
+| tAs | n=8 | 0–10 | 50 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/zecchin2021-arsenic-groundwater-italy\|3]] |
+| tHg | n=4 | 0 | 0 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
+| Ni | n=4 | 0–20 | 70 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/efsa-nickel-contam-2020\|3]] |
+| Al | n=4 | 0 | 176.3 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/ufelle2021-metals-chapter\|2]], [[sources/atsdr-aluminum-toxprofile-2008\|3]] |
+| Cr | n=3 | 0–50 | 100 | medium | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|1]], [[sources/levin2024-us-drinking-water-contaminants\|2]], [[sources/ufelle2021-metals-chapter\|3]] |
+| Sn | n=2 | 0 | 3.1 | low | [[sources/ufelle2021-metals-chapter\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| U | n=2 | 0–5 | 30 | low | [[sources/levin2024-us-drinking-water-contaminants\|1]], [[sources/ufelle2021-metals-chapter\|2]] |
 
 ## Routing
 

@@ -94,18 +94,18 @@ This is a structural ingredient node created so product pages can link to a real
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=4 | 5–30 | medium | [[sources/kamouh2024-heavy-metals-chicken-meat-egypt\|1]], [[sources/pain2023-lead-pheasant-dogfood-uk\|2]], [[sources/apdraim2023-vermiculite-quail-meat\|3]] |
-| Cd | n=3 | 1–15 | low | [[sources/kamouh2024-heavy-metals-chicken-meat-egypt\|1]], [[sources/apdraim2023-vermiculite-quail-meat\|2]], [[sources/aljohani2023-heavy-metal-toxicity-poultry\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=2 | 1–20 | low | [[sources/aljohani2023-heavy-metal-toxicity-poultry\|1]], [[sources/lasky2013-arsenic-chicken-correspondence\|2]] |
-| tHg | data gap | — | — | — |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=4 | 5–30 | — | medium | [[sources/kamouh2024-heavy-metals-chicken-meat-egypt\|1]], [[sources/pain2023-lead-pheasant-dogfood-uk\|2]], [[sources/apdraim2023-vermiculite-quail-meat\|3]] |
+| Cd | n=3 | 1–15 | — | low | [[sources/kamouh2024-heavy-metals-chicken-meat-egypt\|1]], [[sources/apdraim2023-vermiculite-quail-meat\|2]], [[sources/aljohani2023-heavy-metal-toxicity-poultry\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=2 | 1–20 | — | low | [[sources/aljohani2023-heavy-metal-toxicity-poultry\|1]], [[sources/lasky2013-arsenic-chicken-correspondence\|2]] |
+| tHg | data gap | — | — | — | — |
+| Ni | data gap | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | data gap | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

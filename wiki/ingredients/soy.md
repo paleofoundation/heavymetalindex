@@ -32,18 +32,18 @@ Kazi et al. 2009 reports higher average Al, Cd, and Pb in soy-based infant formu
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=9 | 2–35 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
-| Cd | n=7 | 1–12 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/ibrahim2024-food-heavy-metals-nigeria\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=4 | 5–50 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
-| tHg | data gap | — | — | — |
-| Ni | n=6 | 4700–5900 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/milani2023-trace-elements-soy-based-beverages\|3]] |
-| Al | n=7 | 700–2300 | medium | [[sources/wang2023-toxic-metals-daily-diet-ningxia\|1]], [[sources/milani2023-trace-elements-soy-based-beverages\|2]], [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\|3]] |
-| Cr | n=3 | 5–2000 | medium | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/milani2023-trace-elements-soy-based-beverages\|3]] |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

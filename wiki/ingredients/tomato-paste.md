@@ -36,18 +36,18 @@ Source-grounded narrative on this page is populated incrementally from the route
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 5–15 | low | [[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland\|1]], [[sources/david2008-heavy-metals-canned-tomato-paste-romania\|2]] |
-| Cd | n=2 | 30–70 | low | [[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland\|1]], [[sources/david2008-heavy-metals-canned-tomato-paste-romania\|2]] |
-| iAs | data gap | — | — | — |
-| tAs | data gap | — | — | — |
-| tHg | data gap | — | — | — |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

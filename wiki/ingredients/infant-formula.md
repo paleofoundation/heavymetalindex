@@ -163,16 +163,16 @@ The table below is generated from this page's `contamination_profile` frontmatte
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
+| Pb | pending | — | — | — | — |
+| Cd | pending | — | — | — | — |
 | iAs | pending | — | — | — | — |
 | tAs | pending | — | — | — | — |
 | tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| Ni | pending | — | — | — | — |
+| Al | pending | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | pending | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

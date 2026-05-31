@@ -36,18 +36,18 @@ Source-grounded narrative on this page is populated incrementally from the route
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | data gap | — | — | — |
-| Cd | data gap | — | — | — |
-| iAs | data gap | — | — | — |
-| tAs | data gap | — | — | — |
-| tHg | data gap | — | — | — |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | n=2 | 50–200 | low | [[sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp\|1]], [[sources/kazimov2014-dietary-heavy-metals-azerbaijan\|2]] |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

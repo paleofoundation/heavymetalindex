@@ -98,18 +98,18 @@ Wheat cereal biscuits (typified by the Weetabix format) are whole-wheat products
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–15.4 | medium | — |
-| Cd | n=1 | 0–30 | high | — |
-| iAs | n=1 | 0–230 | high | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–1 | high | — |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 0–4292 | high | — |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 0–67.3 | high | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–15.4 | 20.5 | medium | — |
+| Cd | n=1 | 0–30 | 42 | high | — |
+| iAs | n=1 | 0–230 | 260 | high | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–1 | 2.3 | high | — |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 0–4292 | 6160 | high | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 0–67.3 | 267 | high | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

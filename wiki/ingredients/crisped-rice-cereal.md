@@ -104,18 +104,18 @@ The FDA TDS FY2018-FY2020 data for crisped rice cereal (n=3 composites, TDS Food
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 0–3.6 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Cd | n=2 | 12.4–34 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| iAs | n=2 | 86.7–100.5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tAs | n=2 | 138–202 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| tHg | n=2 | 0.6–3.9 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Ni | n=2 | 97.2–166 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | data gap | — | — | — |
-| Cr | n=2 | 10.8–90.8 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Sn | data gap | — | — | — |
-| U | n=2 | 0 | low | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=2 | 0–3.6 | 4.0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Cd | n=2 | 12.4–34 | 36.5 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| iAs | n=2 | 86.7–100.5 | 101.7 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tAs | n=2 | 138–202 | 206 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| tHg | n=2 | 0.6–3.9 | 4.0 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Ni | n=2 | 97.2–166 | 173 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | data gap | — | — | — | — |
+| Cr | n=2 | 10.8–90.8 | 95.4 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Sn | data gap | — | — | — | — |
+| U | n=2 | 0 | 0 | low | — |
 
 ## FDA TDS FY2018-FY2020 Evidence
 

@@ -32,18 +32,18 @@ Chekri et al. 2019 reports infant formulae, follow-on formulae, growing-up milks
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=20 | 1–15 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/ibrahim2025-metals-flavored-dairy-egypt\|2]], [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|3]] |
-| Cd | n=21 | 0–3 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/ibrahim2025-metals-flavored-dairy-egypt\|2]], [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|3]] |
-| iAs | n=6 | 4–20 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|2]], [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|3]] |
-| tAs | n=16 | 1–5 | high | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/yazdanian2025-camel-milk-heavy-metals-iran\|2]], [[sources/erol2025-turkish-cheese-metals\|3]] |
-| tHg | n=14 | 0–2 | high | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|2]], [[sources/erol2025-turkish-cheese-metals\|3]] |
-| Ni | n=11 | 25–50 | high | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|2]], [[sources/erol2025-turkish-cheese-metals\|3]] |
-| Al | n=12 | 130–700 | high | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/erol2025-turkish-cheese-metals\|2]], [[sources/alinezhad2024-heavy-metals-milk-systematic-review\|3]] |
-| Cr | n=9 | 10–30 | medium | [[sources/ibrahim2025-metals-flavored-dairy-egypt\|1]], [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|2]], [[sources/erol2025-turkish-cheese-metals\|3]] |
-| Sn | n=5 | 0–50 | medium | [[sources/meli2024-chemical-characterization-baby-food-italy\|1]], [[sources/capcarova2023-mozzarella-trace-elements-slovakia\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

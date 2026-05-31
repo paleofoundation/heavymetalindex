@@ -101,18 +101,18 @@ Dried herbs accumulate metals through two combined pathways: the live plant's so
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=7 | 100–2000 | high | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
-| Cd | n=6 | 50–500 | high | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
-| iAs | n=1 | 10–200 | low | — |
-| tAs | n=4 | 20–300 | medium | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]] |
-| tHg | n=3 | 1–50 | medium | [[sources/fischer2022-mercury-spice-plants-poland\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
-| Ni | n=2 | 200–3000 | low | — |
-| Al | n=2 | 1000–20000 | low | — |
-| Cr | n=2 | 50–1000 | low | — |
-| Sn | n=1 | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=7 | 100–2000 | 5000 | high | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
+| Cd | n=6 | 50–500 | 1200 | high | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
+| iAs | n=1 | 10–200 | — | low | — |
+| tAs | n=4 | 20–300 | — | medium | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|1]] |
+| tHg | n=3 | 1–50 | — | medium | [[sources/fischer2022-mercury-spice-plants-poland\|1]], [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland\|2]] |
+| Ni | n=2 | 200–3000 | — | low | — |
+| Al | n=2 | 1000–20000 | — | low | — |
+| Cr | n=2 | 50–1000 | — | low | — |
+| Sn | n=1 | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

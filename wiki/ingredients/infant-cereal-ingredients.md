@@ -32,18 +32,18 @@ Chekri et al. 2019 reports a cereal-based infant-food category and notes high al
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 23–54 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/original2020-original-a\|2]] |
-| Cd | n=3 | 3–13 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/original2020-original-a\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=3 | 3–16 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/original2020-original-a\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
-| tHg | data gap | — | — | — |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

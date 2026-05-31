@@ -101,18 +101,18 @@ Soybean oil enters the food system through soybean seed (Glycine max) production
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=5 | 5–100 | medium | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|2]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|3]] |
-| Cd | n=5 | 1–30 | medium | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|2]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=3 | 1–50 | low | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|2]], [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|3]] |
-| tHg | n=1 | — | — | [[sources/scutarasu2023-heavy-metals-foods-beverages\|1]] |
-| Ni | n=3 | 10–200 | low | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|2]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|3]] |
-| Al | data gap | — | — | — |
-| Cr | n=3 | 5–100 | low | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|2]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|3]] |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=5 | 5–100 | 250 | medium | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|2]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|3]] |
+| Cd | n=5 | 1–30 | — | medium | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/yohannes2024-vegetable-oils-ethiopia-gondar\|2]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=3 | 1–50 | — | low | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|2]], [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|3]] |
+| tHg | n=1 | — | — | — | — |
+| Ni | n=3 | 10–200 | — | low | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|2]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|3]] |
+| Al | data gap | — | — | — | — |
+| Cr | n=3 | 5–100 | — | low | [[sources/silva2025-edible-oils-health-sustainability\|1]], [[sources/scutarasu2023-heavy-metals-foods-beverages\|2]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|3]] |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

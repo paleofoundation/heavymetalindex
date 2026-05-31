@@ -102,18 +102,18 @@ The exception to this low-risk characterization is environmental contamination a
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=11 | 0 | high | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| Cd | n=9 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| iAs | n=4 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| tAs | n=9 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
-| tHg | n=9 | 0 | medium | [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|1]], [[sources/aendo2024-thailand-egg-metals-goldmine\|2]], [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|3]] |
-| Ni | n=3 | 0 | high | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| Al | n=2 | 0–1773 | low | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Cr | n=7 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/guo2024-duck-eggs-hg-mining-china\|2]], [[sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china\|3]] |
-| Sn | n=1 | 0–35.5 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
-| U | n=2 | 0 | high | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=11 | 0 | 0 | high | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
+| Cd | n=9 | 0 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
+| iAs | n=4 | 0 | 0 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| tAs | n=9 | 0 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/dai2024-chongqing-dietary-arsenic-exposure\|2]], [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|3]] |
+| tHg | n=9 | 0 | 0 | medium | [[sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs\|1]], [[sources/aendo2024-thailand-egg-metals-goldmine\|2]], [[sources/abedi2023-arsenic-mercury-hen-eggs-iran\|3]] |
+| Ni | n=3 | 0 | 0 | high | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/fda2022-tds-elements-fy2018-fy2020\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| Al | n=2 | 0–1773 | 2689 | low | [[sources/kim2022-bsf-larvae-oil-eggs-heavy-metals\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Cr | n=7 | 0 | 0 | medium | [[sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining\|1]], [[sources/guo2024-duck-eggs-hg-mining-china\|2]], [[sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china\|3]] |
+| Sn | n=1 | 0–35.5 | 47.2 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
+| U | n=2 | 0 | 0 | high | — |
 
 ## Routing
 

@@ -36,18 +36,18 @@ Source-grounded narrative on this page is populated incrementally from the route
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 10–130 | low | [[sources/tinggi2025-spices-herbs-queensland\|1]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| Cd | n=2 | 20–80 | low | [[sources/tinggi2025-spices-herbs-queensland\|1]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| iAs | data gap | — | — | — |
-| tAs | n=2 | 50–200 | low | [[sources/tinggi2025-spices-herbs-queensland\|1]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| tHg | n=2 | 1–10 | low | [[sources/tinggi2025-spices-herbs-queensland\|1]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| Ni | n=2 | 850–2080 | low | [[sources/tinggi2025-spices-herbs-queensland\|1]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| Al | n=2 | 10000–60000 | low | [[sources/tinggi2025-spices-herbs-queensland\|1]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| Cr | n=2 | 100–600 | low | [[sources/tinggi2025-spices-herbs-queensland\|1]], [[sources/cicero2022-minerals-spices-aromatic-herbs\|2]] |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

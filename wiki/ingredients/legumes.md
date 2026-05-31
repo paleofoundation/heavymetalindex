@@ -36,18 +36,18 @@ Source-grounded narrative on this page is populated incrementally from the route
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 5–35 | medium | [[sources/zhao2022-china-sixth-tds-pb-cd\|1]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
-| Cd | n=3 | 5–42 | medium | [[sources/zhao2022-china-sixth-tds-pb-cd\|1]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | data gap | — | — | — |
-| tHg | data gap | — | — | — |
-| Ni | n=4 | 813–3094 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/efsa2015-nickel-food-water\|2]], [[sources/khan2015-heavy-metals-food-plants-bioaccumulation\|3]] |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -100,18 +100,18 @@ Semolina is produced by milling durum wheat to separate the starchy endosperm fr
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–41 | high | [[sources/fera2015-uk-tds-metals\|1]] |
-| Cd | n=2 | 0–21.8 | low | [[sources/maccaferri2019-durum-wheat-genome-cadmium\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| iAs | n=1 | 0 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–3.3 | high | [[sources/fera2015-uk-tds-metals\|1]] |
-| Ni | n=2 | 260–1040 | low | [[sources/mania2020-nickel-cereal-grains-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| Al | n=1 | 873.4–4994 | high | [[sources/fera2015-uk-tds-metals\|1]] |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 6.9–480.9 | high | [[sources/fera2015-uk-tds-metals\|1]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–41 | 84 | high | [[sources/fera2015-uk-tds-metals\|1]] |
+| Cd | n=2 | 0–21.8 | 39.8 | low | [[sources/maccaferri2019-durum-wheat-genome-cadmium\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| iAs | n=1 | 0 | 0 | medium | [[sources/fera2015-uk-tds-metals\|1]] |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–3.3 | 17.9 | high | [[sources/fera2015-uk-tds-metals\|1]] |
+| Ni | n=2 | 260–1040 | 1790 | low | [[sources/mania2020-nickel-cereal-grains-poland\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
+| Al | n=1 | 873.4–4994 | 5503 | high | [[sources/fera2015-uk-tds-metals\|1]] |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 6.9–480.9 | 909.4 | high | [[sources/fera2015-uk-tds-metals\|1]] |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

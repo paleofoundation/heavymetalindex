@@ -98,18 +98,18 @@ Melon (cucurbit fruits including cantaloupe and honeydew) is among the lower-ris
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–4.8 | high | — |
-| Cd | n=1 | 0–10 | high | — |
-| iAs | data gap | — | — | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–0.1 | high | — |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–4.8 | 20.7 | high | — |
+| Cd | n=1 | 0–10 | 12.6 | high | — |
+| iAs | data gap | — | — | — | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–0.1 | 0.2 | high | — |
+| Ni | data gap | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | data gap | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

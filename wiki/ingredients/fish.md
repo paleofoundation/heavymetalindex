@@ -93,18 +93,18 @@ Fish is the dominant dietary source of methylmercury exposure for most populatio
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=49 | 5–50 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/balzani2026-fish-metals-dalyan-lake\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
-| Cd | n=48 | 10–200 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
-| iAs | n=18 | 0–15 | high | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| tAs | n=37 | 500–2500 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/balzani2026-fish-metals-dalyan-lake\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
-| tHg | n=70 | 30–300 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/lepak2026-mehg-depuration-fish-consumption\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
-| Ni | n=15 | 50–200 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
-| Al | n=11 | 200–1500 | high | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/suomi2023-finland-dietary-metals-cumulative\|3]] |
-| Cr | n=15 | 5–50 | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/ray2025-fish-chennai-metals\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| Sn | n=10 | 0–50 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hussein2024-toxic-metals-canned-fish-egypt\|3]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=49 | 5–50 | 300 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/balzani2026-fish-metals-dalyan-lake\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
+| Cd | n=48 | 10–200 | 2000 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|2]], [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|3]] |
+| iAs | n=18 | 0–15 | 74 | high | [[sources/xu2025-heavy-metals-aquatic-foods-global\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| tAs | n=37 | 500–2500 | 5000 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/balzani2026-fish-metals-dalyan-lake\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
+| tHg | n=70 | 30–300 | 1000 | high | [[sources/albuquerque2026-fish-toxic-elements-western-para\|1]], [[sources/lepak2026-mehg-depuration-fish-consumption\|2]], [[sources/xu2025-heavy-metals-aquatic-foods-global\|3]] |
+| Ni | n=15 | 50–200 | — | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
+| Al | n=11 | 200–1500 | — | high | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/suomi2023-finland-dietary-metals-cumulative\|3]] |
+| Cr | n=15 | 5–50 | — | high | [[sources/balzani2026-fish-metals-dalyan-lake\|1]], [[sources/ray2025-fish-chennai-metals\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| Sn | n=10 | 0–50 | — | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hussein2024-toxic-metals-canned-fish-egypt\|3]] |
+| U | data gap | — | — | — | — |
 
 ## Why this commodity accumulates heavy metals
 

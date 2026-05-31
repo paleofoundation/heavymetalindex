@@ -98,18 +98,18 @@ White bread is produced from refined wheat flour (typically enriched white flour
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=3 | 0–5.3 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Cd | n=3 | 21–33.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| iAs | n=2 | 0–230 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| tAs | n=2 | 3.3–6.8 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| tHg | n=3 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Ni | n=3 | 61.6–104 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
-| Al | n=1 | 0–4292 | high | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
-| Cr | n=3 | 0–61.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Sn | n=1 | 0–67.3 | high | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
-| U | n=2 | 1.3–11 | high | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=3 | 0–5.3 | 5.6 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Cd | n=3 | 21–33.4 | 35.4 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| iAs | n=2 | 0–230 | 260 | low | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| tAs | n=2 | 3.3–6.8 | 7.2 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| tHg | n=3 | 0 | 0 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Ni | n=3 | 61.6–104 | 117 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]] |
+| Al | n=1 | 0–4292 | 6160 | high | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
+| Cr | n=3 | 0–61.6 | 68.9 | high | [[sources/fda2022-tds-elements-fy2018-fy2020\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
+| Sn | n=1 | 0–67.3 | 267 | high | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
+| U | n=2 | 1.3–11 | 11.7 | high | — |
 
 ## Routing
 

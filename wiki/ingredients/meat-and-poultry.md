@@ -32,18 +32,18 @@ Chekri et al. 2019 reports meat/fish-based ready-to-eat infant meals as a combin
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=8 | 1–50 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
-| Cd | n=6 | 1–30 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=5 | 1–30 | medium | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/meligy2024-camel-meat-toxic-elements\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
-| tHg | n=5 | 0–20 | medium | [[sources/rabeey2025-bovine-meat-organs-hg-pb-cd-egypt\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/eccles2024-polar-bear-metals-traditional-food\|3]] |
-| Ni | n=5 | 50–250 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/eccles2024-polar-bear-metals-traditional-food\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
-| Al | n=3 | 300–600 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| Cr | n=4 | 10–70 | low | [[sources/meligy2024-camel-meat-toxic-elements\|1]], [[sources/kamaly2023-egypt-poultry-metals\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
-| Sn | n=2 | 0–50 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/fera2015-uk-tds-metals\|2]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

@@ -98,18 +98,18 @@ Carrot (Daucus carota) is a root vegetable that grows entirely underground, posi
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=4 | 9.5–27.5 | medium | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]] |
-| Cd | n=4 | 0–41 | medium | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]] |
-| iAs | n=1 | 3.3–239.4 | low | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–0.9 | high | [[sources/kurniawati2021-jakarta-staple-foods-naa\|1]] |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 0–1340 | medium | — |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 0–67.7 | medium | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=4 | 9.5–27.5 | 28.4 | medium | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]] |
+| Cd | n=4 | 0–41 | 57 | medium | [[sources/el-batal2023-carrot-wastewater-selenium-nanoparticles\|1]], [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|2]], [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland\|3]] |
+| iAs | n=1 | 3.3–239.4 | 384.2 | low | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–0.9 | 1.3 | high | [[sources/kurniawati2021-jakarta-staple-foods-naa\|1]] |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 0–1340 | 1468 | medium | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 0–67.7 | 73.7 | medium | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

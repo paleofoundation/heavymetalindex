@@ -98,18 +98,18 @@ White-fleshed fish (cod, haddock, pollock, tilapia, hake, sole, and related spec
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–60 | high | — |
-| Cd | n=1 | 0–70 | medium | — |
-| iAs | n=1 | 0 | high | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 4.9–570 | high | — |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 0–1752 | medium | — |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 0–30.8 | medium | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–60 | 80 | high | — |
+| Cd | n=1 | 0–70 | 130 | medium | — |
+| iAs | n=1 | 0 | 2.5 | high | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 4.9–570 | 900.3 | high | — |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 0–1752 | 2617 | medium | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 0–30.8 | 36.6 | medium | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

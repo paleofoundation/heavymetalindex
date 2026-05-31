@@ -93,18 +93,18 @@ Chocolate is a processed derivative of [[ingredients/cocoa]] and inherits cadmiu
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=6 | 10–100 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate\|3]] |
-| Cd | n=15 | 60–500 | high | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/bravo2024-cadmium-cacao-arauca\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=4 | 30–150 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
-| tHg | data gap | — | — | — |
-| Ni | n=2 | 700–1900 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/flyvholm1984-nickel-content-food-dietary-intake\|2]] |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=6 | 10–100 | 380 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate\|3]] |
+| Cd | n=15 | 60–500 | 2200 | high | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/bravo2024-cadmium-cacao-arauca\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=4 | 30–150 | 200 | medium | [[sources/hands2024-dark-chocolate-cocoa-heavy-metals-usa\|1]], [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
+| tHg | data gap | — | — | — | — |
+| Ni | n=2 | 700–1900 | — | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/flyvholm1984-nickel-content-food-dietary-intake\|2]] |
+| Al | data gap | — | — | — | — |
+| Cr | data gap | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

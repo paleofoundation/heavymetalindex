@@ -1,0 +1,210 @@
+#!/usr/bin/env node
+/**
+ * Ingredient body contamination-table regenerator.
+ *
+ * The "## Heavy metal contamination profile" table on each ingredient page is
+ * declared to be "derived from the machine-readable contamination_profile in
+ * the frontmatter," but no tool kept it in sync: sweep-ingredient-coverage.mjs
+ * only INSERTS a table when one is missing, it never REPLACES an existing one.
+ * So the body tables drifted from the frontmatter the app actually consumes —
+ * most visibly when the synthesis writer changed a frontmatter value (or
+ * retracted it) without the body following. This tool closes that gap: it
+ * regenerates the table from the current frontmatter on every run.
+ *
+ * It is surgical and loss-free:
+ *   - Only the markdown TABLE block under the heading is replaced; the heading,
+ *     the intro paragraph, and any per-metal prose sections are left untouched.
+ *   - The "Key sources" wikilinks are CARRIED FORWARD per metal from the
+ *     existing table, so source attributions are never stripped. (sweep blanked
+ *     them; regenerating with sweep would have lost them on 235 pages.) A cell
+ *     with no value — pending / data gap — shows no sources.
+ *
+ * Output: regenerated 6-column table (Analyte | Coverage | Typical | p95 |
+ * Confidence | Key sources). Legacy 5-column tables are normalised to 6 columns.
+ *
+ * Usage:
+ *   node tools/build-ingredient-contamination-tables.mjs            # report only
+ *   node tools/build-ingredient-contamination-tables.mjs --apply    # write
+ *   node tools/build-ingredient-contamination-tables.mjs --check    # fail if stale
+ */
+
+import fs from "node:fs"
+import path from "node:path"
+import { randomUUID } from "node:crypto"
+
+const INGREDIENTS_DIR = path.join(process.cwd(), "wiki/ingredients")
+const AUDIT_LOG = path.join(process.cwd(), "data/evidence/wiki_edit_audit.jsonl")
+const METALS = ["Pb", "Cd", "iAs", "tAs", "tHg", "Ni", "Al", "Cr", "Sn", "U"]
+const HEADING = "Heavy metal contamination profile"
+const APPLY = process.argv.includes("--apply")
+const CHECK = process.argv.includes("--check")
+
+const HEADER = "| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |"
+const SEP = "|---------|----------|---------------|-----------|------------|-------------|"
+
+let scanned = 0
+let changed = 0
+const changedFiles = []
+
+for (const file of fs.readdirSync(INGREDIENTS_DIR).filter((f) => f.endsWith(".md")).sort()) {
+  const filePath = path.join(INGREDIENTS_DIR, file)
+  const content = fs.readFileSync(filePath, "utf8")
+  const fm = content.match(/^---\n([\s\S]*?)\n---\n/)
+  if (!fm || !/^contamination_profile:/m.test(fm[1])) continue
+  scanned += 1
+
+  const next = regenerate(content)
+  if (next !== content) {
+    changed += 1
+    changedFiles.push(file)
+    if (APPLY) fs.writeFileSync(filePath, next, "utf8")
+  }
+}
+
+// Provenance: every automated wiki edit leaves an audit row (enforced by the
+// pre-commit barrier). The table is a deterministic view of the page's own
+// frontmatter, so the source is the page itself and no model is involved.
+if (APPLY && changedFiles.length > 0) {
+  const ts = new Date().toISOString()
+  const today = ts.slice(0, 10)
+  const rows = changedFiles.map((file) => ({
+    edit_id: randomUUID(),
+    page: `wiki/ingredients/${file}`,
+    span_id: "contamination-profile-table",
+    source_document: `frontmatter contamination_profile | wiki/ingredients/${file}`,
+    retrieval_date: today,
+    models_used: ["deterministic/contamination-table-generator"],
+    model_agreement_state: "not_applicable",
+    applied_at: ts,
+    commit_sha: "pending",
+  }))
+  fs.appendFileSync(AUDIT_LOG, rows.map((r) => JSON.stringify(r)).join("\n") + "\n", "utf8")
+}
+
+if (CHECK && changed > 0) {
+  console.error(`Body contamination tables stale on ${changed} pages. Run \`node tools/build-ingredient-contamination-tables.mjs --apply\`.`)
+  process.exit(1)
+}
+console.log(
+  `Ingredient contamination tables: ${scanned} scanned, ${changed} ${APPLY ? "regenerated" : "would change"}${CHECK ? " (check)" : ""}.`,
+)
+if (!APPLY && !CHECK && changed > 0) {
+  console.log("Sample:", changedFiles.slice(0, 8).join(", "))
+}
+
+// ---------------------------------------------------------------------------
+
+function regenerate(content) {
+  const headingRe = new RegExp(`^#{1,6}\\s+${escapeRegex(HEADING)}\\b.*$`, "m")
+  const hm = content.match(headingRe)
+  if (!hm) return content // no contamination-profile section on this page
+
+  const cp = extractContaminationProfile(content)
+  const afterHeading = hm.index + hm[0].length
+
+  // Locate the first markdown table block after the heading.
+  const region = content.slice(afterHeading)
+  const tableMatch = region.match(/\n(\|[^\n]*\|\n\|[\s|:-]+\|\n(?:\|[^\n]*\|\n?)*)/)
+
+  const existingSources = tableMatch ? extractKeySources(tableMatch[1]) : {}
+  const table = buildTable(cp, existingSources)
+
+  if (tableMatch) {
+    const tableStart = afterHeading + tableMatch.index + 1 // +1 to skip the leading \n captured group offset
+    const tableEnd = tableStart + tableMatch[1].length
+    return content.slice(0, tableStart) + table + "\n" + content.slice(tableEnd)
+  }
+  // No table present — insert immediately after the heading's following blank line.
+  return content.slice(0, afterHeading) + "\n\n" + table + "\n" + content.slice(afterHeading)
+}
+
+function buildTable(cp, existingSources) {
+  const lines = [HEADER, SEP]
+  for (const metal of METALS) {
+    const c = cp[metal] || {}
+    const coverage = renderCoverage(c)
+    const typical = renderTypical(c.typical_ppb)
+    const p95 = renderScalar(c.p95_ppb)
+    const confidence = renderScalar(c.confidence)
+    const hasValue = typical !== "—"
+    const sources = hasValue ? existingSources[metal] || "—" : "—"
+    lines.push(`| ${metal} | ${coverage} | ${typical} | ${p95} | ${confidence} | ${sources} |`)
+  }
+  return lines.join("\n")
+}
+
+function extractContaminationProfile(content) {
+  const fm = content.match(/^---\n([\s\S]*?)\n---\n/)[1]
+  const cpStart = fm.indexOf("contamination_profile:")
+  if (cpStart < 0) return {}
+  const after = fm.slice(cpStart)
+  const endRel = after.slice("contamination_profile:".length).search(/\n[A-Za-z][A-Za-z0-9_]*:/)
+  const block = endRel < 0 ? after : after.slice(0, "contamination_profile:".length + endRel)
+  const cp = {}
+  for (const metal of METALS) {
+    const m = block.match(new RegExp(`\\n  ${escapeRegex(metal)}:\\n([\\s\\S]*?)(?=\\n  [A-Za-z]|$)`))
+    if (!m) continue
+    const b = m[1]
+    cp[metal] = {
+      status: field(b, "status"),
+      typical_ppb: field(b, "typical_ppb"),
+      p95_ppb: field(b, "p95_ppb"),
+      confidence: field(b, "confidence"),
+      n_studies: field(b, "n_studies"),
+    }
+  }
+  return cp
+}
+
+function field(block, key) {
+  // The first sub-block field (status) has no leading newline in the captured
+  // block, so anchor on start-or-newline, not newline alone.
+  const m = block.match(new RegExp(`(?:^|\\n)[ \\t]*${escapeRegex(key)}:\\s*([^\\n]*)`))
+  return m ? m[1].trim() : null
+}
+
+function extractKeySources(tableText) {
+  // Map metal -> the last cell (Key sources) of its row in the existing table.
+  const out = {}
+  for (const line of tableText.split("\n")) {
+    if (!line.trim().startsWith("|")) continue
+    // Split on UNESCAPED pipes only — wikilink aliases use "\|" inside a cell
+    // ("[[sources/x\|1]]"), which a naive split on "|" would shred.
+    const cells = line.split(/(?<!\\)\|/).slice(1, -1).map((c) => c.trim())
+    if (cells.length < 2) continue
+    const metal = cells[0]
+    if (!METALS.includes(metal)) continue
+    out[metal] = cells[cells.length - 1] || "—"
+  }
+  return out
+}
+
+function renderCoverage(c) {
+  if (!c.status) return "—"
+  if (c.status === "pending") return "pending"
+  if (c.status === "in_progress") return `n=${c.n_studies} (in progress)`
+  if (c.status === "populated") return c.n_studies === "0" ? "data gap" : `n=${c.n_studies}`
+  return "—"
+}
+
+function renderTypical(raw) {
+  if (!raw || /^\[null,\s*null\]$/.test(raw)) return "—"
+  const m = raw.match(/^\[\s*([^,]+),\s*([^\]]+)\]$/)
+  if (!m) return raw
+  const a = m[1].trim()
+  const b = m[2].trim()
+  if (a === "null" && b === "null") return "—"
+  if (a === "null") return `up to ${b}`
+  if (b === "null") return a
+  if (a === b) return a
+  return `${a}–${b}`
+}
+
+function renderScalar(v) {
+  if (v === null || v === undefined || v === "null" || v === "") return "—"
+  return v
+}
+
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}

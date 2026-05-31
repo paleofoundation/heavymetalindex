@@ -100,18 +100,18 @@ The broader ingredient page for peaches (the common-name, non-TDS form) encompas
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–5 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| Cd | n=1 | 0–2 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| iAs | data gap | — | — | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–0.8 | high | — |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 299.6–1746 | low | — |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 0–26.5 | low | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–5 | 7.5 | low | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| Cd | n=1 | 0–2 | 3.9 | high | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| iAs | data gap | — | — | — | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–0.8 | 1.3 | high | — |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 299.6–1746 | 1808 | low | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 0–26.5 | 29.6 | low | — |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

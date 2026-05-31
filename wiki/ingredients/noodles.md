@@ -98,18 +98,18 @@ Noodles are a wheat-based or wheat-and-egg-based product whose heavy metal profi
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–41 | high | [[sources/lee2019-food-processing-heavy-metals-migration\|1]] |
-| Cd | n=1 | 0–21.8 | high | [[sources/lee2019-food-processing-heavy-metals-migration\|1]] |
-| iAs | n=1 | 0 | medium | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–3.3 | high | — |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 873.4–4994 | high | [[sources/lee2019-food-processing-heavy-metals-migration\|1]] |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 6.9–480.9 | high | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–41 | 84 | high | [[sources/lee2019-food-processing-heavy-metals-migration\|1]] |
+| Cd | n=1 | 0–21.8 | 39.8 | high | [[sources/lee2019-food-processing-heavy-metals-migration\|1]] |
+| iAs | n=1 | 0 | 0 | medium | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–3.3 | 17.9 | high | — |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 873.4–4994 | 5503 | high | [[sources/lee2019-food-processing-heavy-metals-migration\|1]] |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 6.9–480.9 | 909.4 | high | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

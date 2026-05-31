@@ -32,18 +32,18 @@ Chekri et al. 2019 reports soups/purees and vegetable-based ready-to-eat meals f
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=38 | 5–50 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
-| Cd | n=41 | 5–50 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
-| iAs | n=14 | 1–10 | high | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| tAs | n=30 | 5–30 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|3]] |
-| tHg | n=22 | 0–5 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
-| Ni | n=21 | 30–200 | high | [[sources/imongben2026-kaduna-vegetables-hra\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
-| Al | n=10 | 100–1000 | medium | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/suomi2023-finland-dietary-metals-cumulative\|3]] |
-| Cr | n=21 | 50–200 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/imongben2026-kaduna-vegetables-hra\|2]], [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone\|3]] |
-| Sn | n=8 | 5–30 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

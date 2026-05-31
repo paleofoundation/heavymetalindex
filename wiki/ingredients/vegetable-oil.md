@@ -36,18 +36,18 @@ Source-grounded narrative on this page is populated incrementally from the route
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=2 | 1–20 | low | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
-| Cd | n=2 | 0–5 | low | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
-| iAs | data gap | — | — | — |
-| tAs | n=2 | 0–10 | low | [[sources/fsai2016-total-diet-study-ireland-2012-2014\|1]] |
-| tHg | n=2 | 0.1–0.5 | low | [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]] |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

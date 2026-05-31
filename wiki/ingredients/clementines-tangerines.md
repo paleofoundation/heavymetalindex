@@ -98,18 +98,18 @@ Clementines and tangerines are thin-skinned citrus fruits that accumulate heavy 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 10.2–19.7 | medium | — |
-| Cd | n=1 | 0–2 | low | — |
-| iAs | n=1 | 0 | low | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–1 | high | — |
-| Ni | n=1 | 63 | low | — |
-| Al | n=1 | 95.7–861.3 | low | — |
-| Cr | n=1 | 30 | low | — |
-| Sn | n=1 | 3.7–6.8 | low | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 10.2–19.7 | 20.0 | medium | — |
+| Cd | n=1 | 0–2 | 4.8 | low | — |
+| iAs | n=1 | 0 | 0 | low | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–1 | 1 | high | — |
+| Ni | n=1 | 63 | 63 | low | — |
+| Al | n=1 | 95.7–861.3 | 909.1 | low | — |
+| Cr | n=1 | 30 | 30 | low | — |
+| Sn | n=1 | 3.7–6.8 | 7.0 | low | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

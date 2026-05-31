@@ -96,18 +96,18 @@ The cereals category is the dominant cadmium dietary-exposure pathway in EFSA an
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=20 | 10–70 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| Cd | n=23 | 20–70 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| iAs | n=10 | 5–30 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
-| tAs | n=12 | 5–50 | medium | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
-| tHg | n=8 | 0–5 | medium | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/codex-cccf17-2024\|3]] |
-| Ni | n=14 | 170–1160 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/han2024-nickel-zhejiang-china\|3]] |
-| Al | n=6 | 2400–5000 | medium | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
-| Cr | n=9 | 30–200 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|3]] |
-| Sn | n=5 | 0–20 | low | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=20 | 10–70 | 250 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| Cd | n=23 | 20–70 | 200 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| iAs | n=10 | 5–30 | 100 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
+| tAs | n=12 | 5–50 | 200 | medium | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/hao2024-amf-arsenic-plants-meta-analysis\|3]] |
+| tHg | n=8 | 0–5 | 20 | medium | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/codex-cccf17-2024\|3]] |
+| Ni | n=14 | 170–1160 | 3900 | high | [[sources/hernandez-montoya2026-heavy-metals-foods-review\|1]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|2]], [[sources/han2024-nickel-zhejiang-china\|3]] |
+| Al | n=6 | 2400–5000 | 7000 | medium | [[sources/suomi2023-finland-dietary-metals-cumulative\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|3]] |
+| Cr | n=9 | 30–200 | 600 | medium | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/oduro2023-cereal-breakfast-ghana-health-risk\|3]] |
+| Sn | n=5 | 0–20 | 50 | low | [[sources/mititelu2025-heavy-metal-food-contamination-review\|1]], [[sources/fsai2016-total-diet-study-ireland-2012-2014\|2]], [[sources/fera2015-uk-tds-metals\|3]] |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

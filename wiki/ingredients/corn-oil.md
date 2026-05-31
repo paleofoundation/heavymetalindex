@@ -101,18 +101,18 @@ Corn oil enters the food system through corn (Zea mays) seed production, wet- or
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=5 | 5–100 | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|2]], [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|3]] |
-| Cd | n=4 | 1–30 | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|2]], [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=3 | 1–50 | low | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]] |
-| tHg | n=1 | — | — | — |
-| Ni | n=3 | 10–200 | low | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
-| Al | data gap | — | — | — |
-| Cr | n=3 | 5–100 | low | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|1]] |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=5 | 5–100 | 250 | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|2]], [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|3]] |
+| Cd | n=4 | 1–30 | — | medium | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd\|1]], [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|2]], [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=3 | 1–50 | — | low | [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia\|1]] |
+| tHg | n=1 | — | — | — | — |
+| Ni | n=3 | 10–200 | — | low | [[sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review\|1]], [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|2]] |
+| Al | data gap | — | — | — | — |
+| Cr | n=3 | 5–100 | — | low | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|1]] |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

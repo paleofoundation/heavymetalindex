@@ -93,18 +93,18 @@ Rice is identified across [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] and 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=61 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
-| Cd | n=86 | 3.5–9.7 | high | [[sources/qin2026-rice-cadmium-liver-cancer-guangxi\|1]], [[sources/ji2026-agricultural-soil-metals-zhejiang\|2]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|3]] |
-| iAs | n=74 | 41.6 | high | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|1]], [[sources/yan2025-rice-heavy-metals-henan-china\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
-| tAs | n=95 | 30.2–62 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|2]], [[sources/xie2026-selenium-enriched-rice-china\|3]] |
-| tHg | n=45 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|3]] |
-| Ni | n=23 | 80–450 | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
-| Al | n=11 | 200–1500 | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
-| Cr | n=30 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
-| Sn | n=11 | 0–20 | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
-| U | n=4 | 0 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/gama2025-bvl-rice-trace-elements\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=61 | 0 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
+| Cd | n=86 | 3.5–9.7 | 19 | high | [[sources/qin2026-rice-cadmium-liver-cancer-guangxi\|1]], [[sources/ji2026-agricultural-soil-metals-zhejiang\|2]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|3]] |
+| iAs | n=74 | 41.6 | 41.6 | high | [[sources/damato2026-inorganic-arsenic-rice-based-beverages\|1]], [[sources/yan2025-rice-heavy-metals-henan-china\|2]], [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|3]] |
+| tAs | n=95 | 30.2–62 | 66.9 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|2]], [[sources/xie2026-selenium-enriched-rice-china\|3]] |
+| tHg | n=45 | 0 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|3]] |
+| Ni | n=23 | 80–450 | — | high | [[sources/zhang2026-trace-metals-five-crops-chongqing\|1]], [[sources/hernandez-montoya2026-heavy-metals-foods-review\|2]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|3]] |
+| Al | n=11 | 200–1500 | — | high | [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|1]], [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|2]], [[sources/garuba2024-heavy-metals-commercial-baby-foods\|3]] |
+| Cr | n=30 | 0 | 0 | high | [[sources/ji2026-agricultural-soil-metals-zhejiang\|1]], [[sources/rahati2026-infant-formula-baby-food-iran-health-risk\|2]], [[sources/zhang2026-trace-metals-five-crops-chongqing\|3]] |
+| Sn | n=11 | 0–20 | — | high | [[sources/uthayarajan2025-cdku-food-water-sri-lanka-review\|1]], [[sources/du2025-infant-thickener-urinary-arsenic\|2]], [[sources/mititelu2025-heavy-metal-food-contamination-review\|3]] |
+| U | n=4 | 0 | 0 | medium | [[sources/du2025-infant-thickener-urinary-arsenic\|1]], [[sources/gama2025-bvl-rice-trace-elements\|2]], [[sources/marques2021-trace-elements-milks-plant-based-drinks\|3]] |
 
 ## Why this commodity accumulates cadmium
 

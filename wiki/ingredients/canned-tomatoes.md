@@ -98,18 +98,18 @@ Canned tomatoes present a metal risk profile dominated by the interaction betwee
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–14.7 | medium | — |
-| Cd | n=1 | 0–14 | medium | — |
-| iAs | n=1 | 0 | medium | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–0.9 | low | — |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 0–2702 | medium | — |
-| Cr | data gap | — | — | — |
-| Sn | n=2 | 0–2439 | low | [[sources/atsdr2005-tin-toxicological-profile\|1]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|2]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–14.7 | 32.1 | medium | — |
+| Cd | n=1 | 0–14 | 21 | medium | — |
+| iAs | n=1 | 0 | 0 | medium | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–0.9 | 1 | low | — |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 0–2702 | 3037 | medium | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=2 | 0–2439 | 3949 | low | [[sources/atsdr2005-tin-toxicological-profile\|1]], [[sources/schafer1984-tin-toxic-heavy-metal-review\|2]] |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

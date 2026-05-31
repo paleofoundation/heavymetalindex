@@ -36,18 +36,18 @@ Source-grounded narrative on this page is populated incrementally from the route
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=4 | 1–15 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/munir2022-heavy-metals-natural-foods-review\|2]], [[sources/afonne2020-heavy-metals-plant-foods\|3]] |
-| Cd | n=4 | 1–10 | medium | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/munir2022-heavy-metals-natural-foods-review\|2]], [[sources/afonne2020-heavy-metals-plant-foods\|3]] |
-| iAs | n=2 | 0–5 | low | [[sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi\|1]], [[sources/cfs2012-hktds-inorganic-arsenic\|2]] |
-| tAs | n=3 | 1–5 | medium | [[sources/munir2022-heavy-metals-natural-foods-review\|1]], [[sources/afonne2020-heavy-metals-plant-foods\|2]], [[sources/cfs2012-hktds-inorganic-arsenic\|3]] |
-| tHg | data gap | — | — | — |
-| Ni | n=3 | 20–100 | medium | [[sources/han2024-nickel-zhejiang-china\|1]], [[sources/afonne2020-heavy-metals-plant-foods\|2]], [[sources/cfs2013-hktds-metallic-contaminants\|3]] |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

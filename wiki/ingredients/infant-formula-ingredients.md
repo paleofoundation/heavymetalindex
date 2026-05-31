@@ -32,18 +32,18 @@ Burrell and Exley 2010 argues that aluminum in infant formula is likely contamin
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=7 | 1–5 | medium | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|3]] |
-| Cd | n=7 | 0–5 | medium | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|3]] |
-| iAs | n=2 | 0–5 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| tAs | n=3 | 1–5 | low | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|3]] |
-| tHg | n=5 | 0–3 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/tatsuta2024-methylmercury-intake-children-duplicate-diet\|3]] |
-| Ni | n=2 | 10–80 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]] |
-| Al | n=7 | 150–1000 | medium | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|1]], [[sources/chuchu2013-aluminium-in-infant-formulas\|2]], [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|3]] |
-| Cr | n=2 | 5–35 | low | [[sources/hopfner2025-infant-formula-dietary-exposure-germany\|1]], [[sources/astolfi2021-italy-powdered-infant-formula-elements\|2]] |
-| Sn | n=2 | 0–50 | low | [[sources/astolfi2021-italy-powdered-infant-formula-elements\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

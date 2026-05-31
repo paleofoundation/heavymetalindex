@@ -93,18 +93,18 @@ Bivalve molluscs other than oysters are identified by [[sources/efsa-cadmium-con
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=7 | 100–500 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
-| Cd | n=10 | 300–2000 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
-| iAs | n=2 | 20–100 | low | [[sources/mancuso2024-food-contamination-cvd\|1]], [[sources/codex-cxs-193-1995\|2]] |
-| tAs | n=4 | 1000–8000 | medium | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/bao2024-sp-icp-ms-nps-mussels\|2]], [[sources/mancuso2024-food-contamination-cvd\|3]] |
-| tHg | n=9 | 10–80 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
-| Ni | n=2 | 200–1500 | low | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|2]] |
-| Al | data gap | — | — | — |
-| Cr | n=2 | 100–600 | low | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|2]] |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=7 | 100–500 | 1500 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
+| Cd | n=10 | 300–2000 | 5000 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
+| iAs | n=2 | 20–100 | — | low | [[sources/mancuso2024-food-contamination-cvd\|1]], [[sources/codex-cxs-193-1995\|2]] |
+| tAs | n=4 | 1000–8000 | — | medium | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/bao2024-sp-icp-ms-nps-mussels\|2]], [[sources/mancuso2024-food-contamination-cvd\|3]] |
+| tHg | n=9 | 10–80 | 150 | medium | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\|1]], [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|2]], [[sources/dogruyol2024-mediterranean-mussels-health-risk\|3]] |
+| Ni | n=2 | 200–1500 | — | low | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|2]] |
+| Al | data gap | — | — | — | — |
+| Cr | n=2 | 100–600 | — | low | [[sources/bruno2024-metals-mussels-clams-faro-lake-sicily\|1]], [[sources/onyegeme-okerenta2023-shellfish-nigeria\|2]] |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Why this commodity accumulates cadmium
 

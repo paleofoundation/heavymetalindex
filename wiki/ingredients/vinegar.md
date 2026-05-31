@@ -101,18 +101,18 @@ Vinegar's metal profile is shaped by substrate, vessel, and aging. The substrate
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=10 | 5–200 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/efsa2022-buffered-vinegar-food-additive-safety\|2]], [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|3]] |
-| Cd | n=6 | 1–50 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/efsa2022-buffered-vinegar-food-additive-safety\|2]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=6 | 5–100 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/efsa2022-buffered-vinegar-food-additive-safety\|2]], [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|3]] |
-| tHg | n=3 | 0–5 | low | [[sources/efsa2022-buffered-vinegar-food-additive-safety\|1]], [[sources/liu2010-mercury-white-vinegar-afs\|2]] |
-| Ni | n=3 | 10–200 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/acosta1993-cd-pb-ni-vinegar-types\|2]] |
-| Al | n=2 | 10–500 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
-| Cr | n=3 | 5–100 | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=10 | 5–200 | 500 | high | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/efsa2022-buffered-vinegar-food-additive-safety\|2]], [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|3]] |
+| Cd | n=6 | 1–50 | 100 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/efsa2022-buffered-vinegar-food-additive-safety\|2]], [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|3]] |
+| iAs | data gap | — | — | — | — |
+| tAs | n=6 | 5–100 | 300 | medium | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|1]], [[sources/efsa2022-buffered-vinegar-food-additive-safety\|2]], [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|3]] |
+| tHg | n=3 | 0–5 | — | low | [[sources/efsa2022-buffered-vinegar-food-additive-safety\|1]], [[sources/liu2010-mercury-white-vinegar-afs\|2]] |
+| Ni | n=3 | 10–200 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/acosta1993-cd-pb-ni-vinegar-types\|2]] |
+| Al | n=2 | 10–500 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
+| Cr | n=3 | 5–100 | — | low | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|1]], [[sources/ozbek2016-mip-oes-turkish-vinegars\|2]] |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

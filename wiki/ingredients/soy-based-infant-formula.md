@@ -115,16 +115,16 @@ The body-level analyte snapshot for soy-based formula follows the per-format pag
 
 | Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
 |---------|----------|---------------|-----------|------------|-------------|
-| Pb  | pending | — | — | — | — |
-| Cd  | pending | — | — | — | — |
+| Pb | data gap | — | — | — | — |
+| Cd | data gap | — | — | — | — |
 | iAs | n=3 | 7–12 | 12 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|5]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|4]], [[sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\|1]] |
 | tAs | n=4 | 7–12 | 12 | medium | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|5]], [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|4]], [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|3]] |
-| tHg | pending | — | — | — | — |
-| Ni  | pending | — | — | — | — |
-| Al  | pending | — | — | — | — |
-| Cr  | pending | — | — | — | — |
-| Sn  | pending | — | — | — | — |
-| U   | pending | — | — | — | — |
+| tHg | data gap | — | — | — | — |
+| Ni | data gap | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | data gap | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

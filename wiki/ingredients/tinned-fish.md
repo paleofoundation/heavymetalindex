@@ -98,18 +98,18 @@ Tinned fish is a broad category of heat-processed canned fish products including
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=4 | 0–60 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
-| Cd | n=4 | 0–73.2 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
-| iAs | n=1 | 0–66.5 | medium | — |
-| tAs | n=4 | 500–1500 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
-| tHg | n=5 | 0–72 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/blanco2023-mercury-fish-valencia\|3]] |
-| Ni | data gap | — | — | — |
-| Al | n=2 | 0–1752 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/kosker2023-canned-fish-turkey\|2]] |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 0–30.8 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=4 | 0–60 | 90.5 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
+| Cd | n=4 | 0–73.2 | 110 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
+| iAs | n=1 | 0–66.5 | 88.8 | medium | — |
+| tAs | n=4 | 500–1500 | 3000 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/kosker2023-canned-fish-turkey\|3]] |
+| tHg | n=5 | 0–72 | 110 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/chamorro2024-bluefin-tuna-mercury-review\|2]], [[sources/blanco2023-mercury-fish-valencia\|3]] |
+| Ni | data gap | — | — | — | — |
+| Al | n=2 | 0–1752 | 2617 | low | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]], [[sources/kosker2023-canned-fish-turkey\|2]] |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 0–30.8 | 36.6 | medium | [[sources/hussein2024-toxic-metals-canned-fish-egypt\|1]] |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

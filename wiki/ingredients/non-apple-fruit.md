@@ -100,18 +100,18 @@ This is a broad category page covering non-apple fruits that cannot be attribute
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–13.4 | low | — |
-| Cd | n=1 | 0–11.3 | high | — |
-| iAs | n=1 | 0 | medium | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–1.9 | high | — |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 0–3075 | low | — |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 53.5–32000 | low | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–13.4 | 15.6 | low | — |
+| Cd | n=1 | 0–11.3 | 17.9 | high | — |
+| iAs | n=1 | 0 | 0 | medium | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–1.9 | 9.4 | high | — |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 0–3075 | 3918 | low | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 53.5–32000 | 32900 | low | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

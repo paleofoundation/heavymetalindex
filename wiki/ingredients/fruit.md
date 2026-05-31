@@ -32,18 +32,18 @@ Chekri et al. 2019 reports a French infant fruit-puree category and identifies f
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=21 | 5–50 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|2]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|3]] |
-| Cd | n=21 | 5–50 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|2]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|3]] |
-| iAs | n=8 | 1–10 | medium | [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|1]], [[sources/ashley-martin2022-ias-biomonitoring-pregnancy\|2]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|3]] |
-| tAs | n=18 | 5–30 | high | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|2]], [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|3]] |
-| tHg | n=12 | 1–10 | high | [[sources/collado-lopez2025-heavy-metals-baby-food-formula\|1]], [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|2]], [[sources/meli2024-chemical-characterization-baby-food-italy\|3]] |
-| Ni | n=6 | 30–200 | medium | [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
-| Al | n=8 | 100–4000 | medium | [[sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
-| Cr | n=9 | 20–100 | medium | [[sources/hadi2025-dried-fruits-heavy-metals-iraq\|1]], [[sources/pulze2025-volcanic-eruptions-food-chain-metals\|2]], [[sources/mekonnen2024-ethiopia-fruit-metals\|3]] |
-| Sn | n=5 | 10–100 | medium | [[sources/ventura2025-portuguese-total-diet-study-trace-elements\|1]], [[sources/meli2024-chemical-characterization-baby-food-italy\|2]], [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|3]] |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

@@ -100,18 +100,18 @@ This is a broad category page. Individual pages for specific vegetables carry mo
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | pending | — | — | — |
-| Cd | pending | — | — | — |
-| iAs | n=1 | 9.4–125.3 | medium | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–0.2 | medium | — |
-| Ni | data gap | — | — | — |
-| Al | data gap | — | — | — |
-| Cr | data gap | — | — | — |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | pending | — | — | — | — |
+| Cd | pending | — | — | — | — |
+| iAs | n=1 | 9.4–125.3 | 150.2 | medium | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–0.2 | 2.7 | medium | — |
+| Ni | data gap | — | — | — | — |
+| Al | data gap | — | — | — | — |
+| Cr | data gap | — | — | — | — |
+| Sn | data gap | — | — | — | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

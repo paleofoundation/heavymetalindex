@@ -100,18 +100,18 @@ The FSA/Fera FS102048 survey ([[sources/fsa2016-infant-food-formula-metals-surve
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–7.6 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| Cd | n=1 | 0–7 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
-| iAs | n=1 | 0–6 | low | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–2 | high | — |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 0–1195 | medium | — |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 0–15.7 | medium | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–7.6 | 11.9 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| Cd | n=1 | 0–7 | 9.9 | medium | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|1]] |
+| iAs | n=1 | 0–6.0 | 7.3 | low | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–2 | 3 | high | — |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 0–1195 | 1568 | medium | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 0–15.7 | 25.4 | medium | — |
+| U | data gap | — | — | — | — |
 
 ## Ranges by source, region, and variety
 

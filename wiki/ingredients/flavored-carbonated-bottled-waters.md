@@ -98,18 +98,18 @@ Flavored carbonated bottled waters derive their metal burden principally from th
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 0–2 | high | — |
-| Cd | n=1 | 0 | high | — |
-| iAs | n=1 | 0–5 | high | — |
-| tAs | data gap | — | — | — |
-| tHg | n=1 | 0–0.1 | high | — |
-| Ni | data gap | — | — | — |
-| Al | n=1 | 0 | high | — |
-| Cr | data gap | — | — | — |
-| Sn | n=1 | 0–3.4 | high | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=1 | 0–2 | 2 | high | — |
+| Cd | n=1 | 0–0.0 | 1 | high | — |
+| iAs | n=1 | 0–5 | 6 | high | — |
+| tAs | data gap | — | — | — | — |
+| tHg | n=1 | 0–0.1 | 0.5 | high | — |
+| Ni | data gap | — | — | — | — |
+| Al | n=1 | 0 | 342.6 | high | — |
+| Cr | data gap | — | — | — | — |
+| Sn | n=1 | 0–3.4 | 5.9 | high | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

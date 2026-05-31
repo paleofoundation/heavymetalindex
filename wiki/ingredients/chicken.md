@@ -98,18 +98,18 @@ Chicken muscle meat is generally a low accumulator of heavy metals relative to p
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=5 | 0 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
-| Cd | n=5 | 0–3 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
-| iAs | n=1 | 0 | low | [[sources/lasky2013-arsenic-chicken-correspondence\|1]] |
-| tAs | n=2 | 1–20 | low | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/lasky2013-arsenic-chicken-correspondence\|2]] |
-| tHg | n=1 | 0–1 | high | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]] |
-| Ni | n=2 | 10–100 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|2]] |
-| Al | n=2 | 0–1065 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|2]] |
-| Cr | n=5 | 20–200 | low | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
-| Sn | n=1 | 0–27.8 | medium | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | n=5 | 0 | 10 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
+| Cd | n=5 | 0–3 | 6 | medium | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
+| iAs | n=1 | 0 | 0 | low | [[sources/lasky2013-arsenic-chicken-correspondence\|1]] |
+| tAs | n=2 | 1–20 | — | low | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]], [[sources/lasky2013-arsenic-chicken-correspondence\|2]] |
+| tHg | n=1 | 0–1 | 1.4 | high | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|1]] |
+| Ni | n=2 | 10–100 | — | low | [[sources/kamaly2023-egypt-poultry-metals\|1]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|2]] |
+| Al | n=2 | 0–1065 | 1300 | low | [[sources/kamaly2023-egypt-poultry-metals\|1]], [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|2]] |
+| Cr | n=5 | 20–200 | — | low | [[sources/altalib2025-frozen-meat-libya\|1]], [[sources/morshed2024-heavy-metals-poultry-organs-bangladesh\|2]], [[sources/kamaly2023-egypt-poultry-metals\|3]] |
+| Sn | n=1 | 0–27.8 | 28.6 | medium | — |
+| U | data gap | — | — | — | — |
 
 ## Routing
 

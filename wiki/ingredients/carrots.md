@@ -32,18 +32,18 @@ Chekri et al. 2019 identifies carrots as a high-barium example within vegetable 
 
 Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column shows the top 2-3 contributing sources by year and sample size, with numbered wikilink aliases.
 
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | n=10 | 5–30 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/fda-ctz-Pb-babyfood-2025\|2]], [[sources/malone2024-community-garden-soils-us\|3]] |
-| Cd | n=10 | 3–10 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/malone2024-community-garden-soils-us\|2]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|3]] |
-| iAs | data gap | — | — | — |
-| tAs | n=9 | 10–30 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/malone2024-community-garden-soils-us\|2]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|3]] |
-| tHg | n=3 | 0–1 | medium | [[sources/parker2022-baby-food-risk-assessment-as-cd-hg-pb\|1]], [[sources/bair2022-infant-toddler-food-heavy-metals-policy\|2]], [[sources/houlihan2019-hbbf-whats-in-baby-food\|3]] |
-| Ni | n=6 | 40–200 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
-| Al | n=2 | 500–2000 | low | [[sources/chekri2019-french-infant-toddler-tds-trace-elements\|1]], [[sources/stasinos2014-heavy-metals-tubers-review\|2]] |
-| Cr | n=7 | 10–100 | medium | [[sources/ccopi2026-heavy-metals-andean-crops-peru\|1]], [[sources/romero-crespo2023-trace-elements-crops-ecuador-mining\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
-| Sn | data gap | — | — | — |
-| U | data gap | — | — | — |
+| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |
+|---------|----------|---------------|-----------|------------|-------------|
+| Pb | — | — | — | — | — |
+| Cd | — | — | — | — | — |
+| iAs | — | — | — | — | — |
+| tAs | — | — | — | — | — |
+| tHg | — | — | — | — | — |
+| Ni | — | — | — | — | — |
+| Al | — | — | — | — | — |
+| Cr | — | — | — | — | — |
+| Sn | — | — | — | — | — |
+| U | — | — | — | — | — |
 
 ## Ranges by source, region, and variety
 
