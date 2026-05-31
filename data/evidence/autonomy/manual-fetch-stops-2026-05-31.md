@@ -1253,3 +1253,50 @@ Sixth confirmed-clean KADC skip in the condiment_papers tree (after 04_Condiment
 Seventh confirmed-clean KADC skip in the condiment_papers tree. The KADC corruption-folder PDF here is a SHA-duplicate of the canonical MFK_ ingest already merge-enhanced + audited in 2026-05; the per-PDF skill's post-2026-05-14-clean check resolves it correctly. Free-DOI dedup cannot catch this upstream because the Consumer Reports article has `no_doi_assigned: true`. Working as intended.
 
 **Final line:** `STOP: page-already-current KADC_consumer-reports-heavy-metals-in-15-herbs-and-spic (resolves to gill2021-consumer-reports-spices.md, updated 2026-05-28, audited 2026-05-28 with brand-firewall correction applied)`
+
+## KADC_coordinated-sampling-project-41-microbial-and-heav.pdf — PAGE ALREADY CURRENT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/`
+- **PDF filename:** `Coordinated Sampling Project 41_ Microbial and Heavy Metal Detections in Herbs and Spices.pdf`
+- **Suggested handle:** `KADC_coordinated-sampling-project-41-microbial-and-heav`
+- **Resolves to existing wiki source page:** `wiki/sources/lhaac2025-csp41-herbs-spices-wa.md`
+- **Existing page state:** `updated: 2026-05-28`, `raw_handle: MFK_coordinated-sampling-project-41-microbial-and-heav`, `raw_sha256: 8682a66d58047a1afae89ffa162ac5f8bb1844e0df74f7747425994ecdb9f899`.
+- **Routing audit status:** not in `routing_malformed.csv`, not in `routing_unresolved.csv`.
+- **Audit-queue status:** `audited-revised` (subagent verdict REVISE; 7 findings, 4 applied, 3 rejected; full Phase 1 + Phase 2 + Phase 3 v2.0 cycle completed 2026-05-28; commit `24ccdb0`).
+- **Why skipped:** Per the v2.0 skill's step-1 next-candidate rule, "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." The KADC corruption-folder PDF here is a SHA-duplicate of the canonical MFK_ ingest that has already been fully merge-enhanced and audit-applied on 2026-05-28; nothing remains to do.
+- **Action:** No commit. No edits to `wiki/sources/lhaac2025-csp41-herbs-spices-wa.md`. No new audit-queue row (existing row is current).
+- **Upstream signal:** Eighth confirmed-clean KADC skip in the condiment_papers tree (the seven prior entries above plus this one). Same pattern as the other condiment_papers KADC skips: corruption-folder duplicates that the per-PDF skill correctly resolves to their canonical MFK_ ingests. Working as intended.
+
+**Final line:** `STOP: page-already-current KADC_coordinated-sampling-project-41-microbial-and-heav (resolves to lhaac2025-csp41-herbs-spices-wa.md, updated 2026-05-28, audited 2026-05-28 with REVISE verdict applied)`
+
+## KADC_impact-of-source-packaging-and-presence-of-food-sa — PAGE ALREADY CURRENT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/`
+- **PDF filename:** `Impact of source, packaging and presence of food safety management system on heavy metals levels in.pdf` (1.26 MB, 16 pages)
+- **Suggested handle:** `KADC_impact-of-source-packaging-and-presence-of-food-sa`
+- **DOI:** `10.1371/journal.pone.0307884` (Moussa L, Hassan HF, Savvaidis IN, Karam L. 2024. *PLoS ONE* 19(8):e0307884.)
+- **Resolves to existing wiki source page:** `wiki/sources/moussa2024-spices-herbs-lebanon.md`
+- **Existing page state:** `updated: 2026-05-29`, `raw_handle: FM_11343411`, `cite_key: moussa2024-spices-herbs-lebanon`. Page already covers 96-composite Lebanese-market spices study (Pb 20% MPL exceedance, Cd 4%, As/Hg compliant) with full per-spice Table 2 breakdown, sampling-design paragraph, method detail (GF-AAS for Pb/Cd/As, DMA-80 for Hg), and the four-category source/packaging analysis (bulk / imported / FSMS / NFSMS).
+- **Routing audit status:** not in `routing_malformed.csv`, not in `routing_unresolved.csv`.
+- **Audit-queue status:** `audited-promote` (subagent verdict PROMOTE; full v2.0 Phase 1 + Phase 2 + Phase 3 cycle completed 2026-05-29 with BOECEL→BOECO vendor-name correction applied; row 348).
+- **Why skipped:** Per the v2.0 skill's step-1 next-candidate rule, "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." The KADC corruption-folder PDF here is a duplicate of the canonical FM_/MFK_ ingest that has already been fully merge-enhanced and audit-applied on 2026-05-29; nothing remains to do.
+- **Action:** No commit. No edits to `wiki/sources/moussa2024-spices-herbs-lebanon.md`. No new audit-queue row (existing row 348 is current).
+- **Upstream signal:** Ninth confirmed-clean KADC skip in the condiment_papers tree (the eight prior entries above plus this one). Same pattern as the other condiment_papers KADC skips: corruption-folder duplicates that the per-PDF skill correctly resolves to their canonical FM_/MFK_ ingests. The Free-DOI dedup upstream should be able to catch this one (DOI `10.1371/journal.pone.0307884` is present in the existing page's frontmatter); worth checking whether the dedup pre-pass is consulting wiki/sources/ frontmatter for KADC candidates or only the tracker, since DOI-bearing KADC duplicates should not be reaching the per-PDF skill at all.
+
+**Final line:** `STOP: page-already-current KADC_impact-of-source-packaging-and-presence-of-food-sa (resolves to moussa2024-spices-herbs-lebanon.md, updated 2026-05-29, audited 2026-05-29 with PROMOTE verdict applied)`
+
+## KADC_survey-of-aluminium-content-of-processed-food-usin — PAGE ALREADY CURRENT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/05_PB_Vanilla_Spices/`
+- **PDF filename:** `Survey of Aluminium Content of Processed Food Using Baking Powder (2015-2016).pdf` (488 KB)
+- **Suggested handle:** `KADC_survey-of-aluminium-content-of-processed-food-usin`
+- **DOI:** `10.3358/shokueishi.59.275` (Takanashi M et al. 2018. *Shokuhin Eiseigaku Zasshi (Food Hygiene and Safety Science)* — Tokyo Metropolitan Institute of Public Health survey of 123 baking-powder-containing processed foods.)
+- **Resolves to existing wiki source page:** `wiki/sources/takanashi2018-aluminium-baking-powder-japan.md`
+- **Existing page state:** `updated: 2026-05-29`, `raw_handle: MFK_survey-of-aluminium-content-of-processed-food-usin`, `cite_key: takanashi2018-aluminium-baking-powder-japan`, `raw_sha256: 6f74f4a2ab52ffe079fd5d4c25dc2da8442276a30347d3166040734848004a1f`. Page already covers the 123-product / 4-group Tokyo survey (bakery 15, confectionery 71, flour-processed 20, pre-mix powders 17) with the full 0.01–0.40 mg/g Al detection range, the 4 PTWI-exceeding samples with per-piece serving weights, the 5 PTWI-approaching samples, the 2009 → 2011–2014 → 2015–2016 trend, the China per-class limits the authors cite, the source-author 0.1 mg/g cap example, and the ICP-OES method detail (Milestone General ETHOS One digester, PerkinElmer Optima 7300DV ICP-OES, Wako Pure Chemical Industries HNO3, Kanto Chemical standard).
+- **Routing audit status:** `routing_malformed.csv` carries an **advisory** entry only (`takanashi2018-aluminium-baking-powder-japan,wiki/sources/takanashi2018-aluminium-baking-powder-japan.md,advisory,,,ingredients,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.`). The empty `ingredients: []` is a deliberate audit-subagent-applied decision from 2026-05-29 — there is no in-vocab ingredient slug for "baking powder" or "alum / aluminium-potassium-sulfate" and the paper does not measure metals in a commodity-level food ingredient (it measures Al in finished products whose leavening contains alum). Empty `ingredients` is correct under current taxonomy. Not in `routing_unresolved.csv`.
+- **Audit-queue status:** `audited-revised` (subagent verdict REVISE; 4 findings, 2 applied, 0 rejected, 2 noted-not-changed; full v2.0 Phase 1 + Phase 2 + Phase 3 cycle completed 2026-05-29; commit `cd9de2a`).
+- **Why skipped:** Per the v2.0 skill's step-1 next-candidate rule, "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." The advisory-tier malformed entry is the corpus-wide 603-paper backlog pattern that Karen has flagged as non-blocking pre-existing state, not a defect specific to this page. The KADC corruption-folder PDF here is a duplicate of the canonical MFK_ ingest that has already been fully merge-enhanced and audit-applied on 2026-05-29; nothing remains to do.
+- **Action:** No commit beyond the tracker edit + this stop note. No edits to `wiki/sources/takanashi2018-aluminium-baking-powder-japan.md`. No new audit-queue row (existing row is current).
+- **Upstream signal:** Tenth confirmed-clean KADC skip in the condiment_papers tree (the nine prior entries above plus this one). Same pattern as the other condiment_papers KADC skips: corruption-folder duplicates that the per-PDF skill correctly resolves to their canonical MFK_ ingests. The Free-DOI dedup upstream should be able to catch this one (DOI `10.3358/shokueishi.59.275` is present in the existing page's frontmatter); worth confirming whether the dedup pre-pass is consulting wiki/sources/ frontmatter DOIs for KADC candidates, since DOI-bearing KADC duplicates should not be reaching the per-PDF skill.
+
+**Final line:** `STOP: page-already-current KADC_survey-of-aluminium-content-of-processed-food-usin (resolves to takanashi2018-aluminium-baking-powder-japan.md, updated 2026-05-29, audited 2026-05-29 with REVISE verdict applied)`
