@@ -113,6 +113,29 @@ const WEAK_RECON_METHODS = new Set([
 ])
 const reviewQueuePath = path.join(autonomyDir, `synthesis-review-required-${today}.csv`)
 
+let cellsRetracted = 0
+const corrections = []
+
+// Writer-provenance map: the latest value THIS writer published per (slug,
+// metal), from the synthesis_write history. Used by the retraction pass to tell
+// a value this writer wrote (safe to retract when the engine stops supporting
+// it) from a direct-source-read synthesis value that happens to sit in the same
+// cell (must be left intact — the engine blocking a thin structured pool says
+// nothing about a value derived from a wider direct read).
+const lastWriterValue = new Map()
+if (fs.existsSync(eventsLogPath)) {
+  for (const line of fs.readFileSync(eventsLogPath, "utf8").split("\n")) {
+    if (!line.trim()) continue
+    let e
+    try { e = JSON.parse(line) } catch { continue }
+    if (e.op !== "synthesis_write" || !e.slug || !e.metal) continue
+    lastWriterValue.set(`${e.slug}::${e.metal}`, {
+      typical_ppb: e.typical_ppb,
+      n_studies: e.n_studies,
+    })
+  }
+}
+
 for (const [slug, metalMap] of bySlug) {
   if (pagesUpdated >= maxPages) break
   const pagePath = path.join(ingredientsDir, `${slug}.md`)
@@ -140,6 +163,44 @@ for (const [slug, metalMap] of bySlug) {
     const decision = synthesisDecision(row)
     if (decision.action === "skip") {
       cellsSkipped += 1
+      // Retraction pass: when the engine now BLOCKS a cell whose on-page value
+      // was published by THIS writer (matches the last synthesis_write), the
+      // value is no longer supported — retract it to pending and record a
+      // correction event for the public errata log. Direct-synthesis values
+      // (which do not match the writer's last write) are left intact.
+      if (/^BLOCKED/.test(String(row.verdict || ""))) {
+        const sub = locateMetalSubBlock(newCpBlock, metal)
+        const existing = sub ? parseExistingMetalBlock(sub.text) : null
+        const last = lastWriterValue.get(`${slug}::${metal}`)
+        if (sub && existing && existing.n_studies > 0 && last && writerValueMatches(existing, last)) {
+          const retracted = retractMetalSubBlock(sub.text)
+          if (retracted !== sub.text) {
+            newCpBlock = newCpBlock.slice(0, sub.start) + retracted + newCpBlock.slice(sub.end)
+            pageHadChange = true
+            changedMetals.push(metal)
+            cellsRetracted += 1
+            const corr = {
+              ts: new Date().toISOString(),
+              op: "correction",
+              kind: "retraction",
+              page: `wiki/ingredients/${slug}.md`,
+              slug,
+              metal,
+              target: `contamination_profile.${metal}`,
+              previous: {
+                typical_ppb: [numOrNullStr(existing.typical_lo), numOrNullStr(existing.typical_hi)],
+                n_studies: existing.n_studies,
+              },
+              current: null,
+              reason: retractionReason(String(row.verdict || "")),
+              trigger: "synthesis-writer-retraction",
+              commit_sha: "pending",
+            }
+            events.push(corr)
+            corrections.push(corr)
+          }
+        }
+      }
       continue
     }
 
@@ -305,6 +366,7 @@ const reportLines = [
   `- Cells unchanged (already matched pooled values): ${cellsUnchanged}`,
   `- Cells skipped (verdict BLOCKED, pool too thin, or no usable evidence): ${cellsSkipped}`,
   `- Cells held for staff review (weak-reconstruction-dominant, not auto-published): ${cellsReview}`,
+  `- Cells retracted (writer value no longer supported by v1; returned to pending): ${cellsRetracted}`,
   ``,
   `Held cells are logged to \`${path.relative(repoRoot, reviewQueuePath)}\` when any exist.`,
   ``,
@@ -442,6 +504,49 @@ function setField(block, key, value) {
   const re = new RegExp(`(\\n    ${escapeRegex(key)}:)\\s*[^\\n]*`)
   if (re.test(block)) return block.replace(re, `$1 ${value}`)
   return block
+}
+
+function writerValueMatches(existing, last) {
+  // True when the cell's current on-page value is the one THIS writer last
+  // published — so it is safe to retract. Compares n_studies and both typical
+  // bounds as strings (both sides come from the same rounding).
+  if (!last || !Array.isArray(last.typical_ppb)) return false
+  if (Number(existing.n_studies) !== Number(last.n_studies)) return false
+  return (
+    String(existing.typical_lo) === String(last.typical_ppb[0]) &&
+    String(existing.typical_hi) === String(last.typical_ppb[1])
+  )
+}
+
+function retractMetalSubBlock(subText) {
+  // Return the sub-block to pending: no value, no support, dated today.
+  let out = subText
+  out = setField(out, "status", "pending")
+  out = setField(out, "typical_ppb", "[null, null]")
+  out = setField(out, "p95_ppb", "null")
+  out = setField(out, "confidence", "null")
+  out = setField(out, "n_studies", "0")
+  out = setField(out, "last_reviewed", today)
+  return out
+}
+
+function retractionReason(verdict) {
+  if (/internally inconsistent/.test(verdict)) {
+    return "Unit-inconsistency artifact: the prior value came from a v0 autonomy-extractor pool whose distribution spanned more than four orders of magnitude (a mixed-unit signature). The cleaned v1 extraction does not support it. Cell returned to pending re-synthesis."
+  }
+  if (/too thin/.test(verdict)) {
+    return "Superseded: the cleaned v1 extraction supports fewer than two independent sources for this cell. The prior value is withdrawn pending additional evidence."
+  }
+  if (/sensitivity/.test(verdict)) {
+    return "Superseded: the pooled value is unstable across parametric assumptions under the cleaned v1 extraction. Withdrawn pending additional evidence."
+  }
+  return "Superseded: the cleaned v1 extraction no longer supports the prior value. Withdrawn pending re-synthesis."
+}
+
+function numOrNullStr(s) {
+  if (s === undefined || s === null || String(s).trim() === "" || String(s) === "null") return null
+  const n = Number(s)
+  return Number.isFinite(n) ? n : null
 }
 
 function escapeRegex(s) {

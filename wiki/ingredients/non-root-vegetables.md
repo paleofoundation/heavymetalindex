@@ -7,19 +7,19 @@ aliases: [broccoli, cucumber, peas, tomatoes, squash]
 category: vegetable
 contamination_profile:
   Pb:
-    status: populated
-    typical_ppb: [0.004, 11.4]
-    p95_ppb: 21.7
-    confidence: low
-    n_studies: 2
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
     last_reviewed: 2026-05-31
   Cd:
-    status: populated
-    typical_ppb: [0.007, 62]
-    p95_ppb: 224.3
-    confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-30
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-31
   iAs:
     status: populated
     typical_ppb: [9.4, 125.3]
@@ -102,8 +102,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 | Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
 |---------|----------|---------------|------------|-------------|
-| Pb | n=1 | 9.4–18.4 | medium | — |
-| Cd | n=1 | 0–91 | high | — |
+| Pb | pending | — | — | — |
+| Cd | pending | — | — | — |
 | iAs | n=1 | 9.4–125.3 | medium | — |
 | tAs | data gap | — | — | — |
 | tHg | n=1 | 0–0.2 | medium | — |

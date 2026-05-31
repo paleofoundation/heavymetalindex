@@ -28,12 +28,12 @@ contamination_profile:
     n_studies: 3
     last_reviewed: 2026-05-16
   tHg:
-    status: populated
-    typical_ppb: [112, 990.2]
-    p95_ppb: 1045
-    confidence: low
-    n_studies: 2
-    last_reviewed: 2026-05-30
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-31
   Ni:
     status: populated
     typical_ppb: [null, null]

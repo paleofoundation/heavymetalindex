@@ -73,12 +73,12 @@ contamination_profile:
     basis: null
     notes: null
   Al:
-    status: populated
-    typical_ppb: [9, 715.7]
-    p95_ppb: 802.9
-    confidence: low
-    n_studies: 3
-    last_reviewed: 2026-05-30
+    status: pending
+    typical_ppb: [null, null]
+    p95_ppb: null
+    confidence: null
+    n_studies: 0
+    last_reviewed: 2026-05-31
     basis: null
     notes: null
   Cr-VI:
