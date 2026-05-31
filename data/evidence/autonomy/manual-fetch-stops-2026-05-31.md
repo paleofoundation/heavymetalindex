@@ -960,3 +960,40 @@ The existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data
 This is the fourth tracker hit for the same FDA TDS PDF across the Kimi-corruption-folder sweep (after the MFK_ root ingest on 2026-05-19, the KADC_ papers/01_Fruits_and_Fruit_Products stop on 2026-05-31T15:57Z, and the May 21 KADC tree de-dup on 2026-05-31T15:57Z). The FDA bundled the same TDS narrative PDF into multiple Kimi download folders (01_Fruits_and_Fruit_Products, 03_Olives_and_Pickles, and the May 21 corruption-folder re-fetch), all SHA-identical. The recovery yield from this specific PDF across all KADC_ trees is zero net novel pages — the canonical page covers the entire FY2018–FY2020 TDS narrative regardless of which Kimi folder the duplicate appeared in.
 
 **Final line:** `STOP: pdf-already-ingested-clean fda-tds-elements-2018-2020 (SHA-identical to MFK_ root; canonical page updated 2026-05-20 and clean per routing audit)`
+
+
+## KADC_investigation-on-the-concentration-of-heavy-metals (03_Olives_and_Pickles) — KIMI-CORRUPTION DUPLICATE OF ALREADY-INGESTED MFK_ ROOT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/03_Olives_and_Pickles/`
+- **Filename:** `Investigation on the Concentration of Heavy Metals found in Olives and Olive Mill Waste.pdf`
+- **Wrapper-supplied handle:** `KADC_investigation-on-the-concentration-of-heavy-metals`
+- **SHA256:** `18db255da952c656b7048928a4893cda6345ab83539a2672334d8f741e37d137`
+- **Existing wiki source page:** `wiki/sources/vella2024-malta-olive-cultivars-aas.md`
+- **Existing `cite_key`:** `vella2024-malta-olive-cultivars-aas`
+- **Existing `raw_handle`:** `MFK_investigation-on-the-concentration-of-heavy-metals`
+- **Existing `updated`:** `2026-05-28`
+
+### Identity evidence
+
+- SHA-256 of this PDF (KADC_ condiment_papers/03_Olives_and_Pickles tree): `18db255da952c656b7048928a4893cda6345ab83539a2672334d8f741e37d137`.
+- SHA-256 of `raw/Manual Fetch Kimi /condiment_papers/03_Olives_and_Pickles/Investigation on the Concentration of Heavy Metals found in Olives and Olive Mill Waste.pdf` (named in the existing page's `raw_path` frontmatter): `18db255da952c656b7048928a4893cda6345ab83539a2672334d8f741e37d137` — byte-identical.
+- Identity-check grep hits:
+  - Title-substring grep: `vella2024-malta-olive-cultivars-aas.md` (sole hit; exact title `"Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS"` in frontmatter).
+  - DOI grep: paper has `doi: null` / `no_doi_assigned: true` (MCAST Journal of Applied Research & Practice, Vol. 8 Issue 2, 2024; no DOI assigned); identity established via title + raw_path + SHA-256 collision plus the `raw_handle: MFK_investigation-on-the-concentration-of-heavy-metals` field on the existing page, which derives from this PDF's filename.
+  - Cite-key grep: `vella2024-malta-olive-cultivars-aas` already populated in `data/evidence/autonomy/manual-fetch-tracker.csv` (line 283 original MFK_ ingest row 2026-05-28, and line 1482 May 21 KADC tree de-dup 2026-05-31T17:59Z).
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+The existing page is post-2026-05-14 clean (`updated: 2026-05-28`), not in `data/evidence/routing_unresolved.csv` (0 hits), and not in `data/evidence/routing_malformed.csv` (0 hits). The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. The 2026-05-28 merge-enhance pass against this same PDF already corrected a critical Cipressina-vs-Leccino skin-row transposition in the Key numbers table (verified against Table 3, page 11 of the PDF: row ordering is Carolea → Leccino → Cipressina → Bidni); removed `table-olives` from `matrices` per the paper's explicit statement that the olives were grown for oil production rather than as table olives; changed `products` from `non-root-vegetables` to `olive-oil` to reflect the actual product class of the sampled material; promoted the legacy `raw_handle: manual-fetch-kimi` to the canonical `MFK_investigation-on-the-concentration-of-heavy-metals` handle; corrected the truncated `raw_path` filename; expanded Key numbers to include pit and liquid-waste rows by cultivar with the Bidni-pit cadmium rejection asterisk surfaced; expanded Methods with sample masses (Table 2), instrument-specific operating parameters (burner geometry, gas flows, lamp modes), the explicit standard-error calculation equation, and the Shapiro–Wilk → ANOVA / Kruskal–Wallis statistical pipeline at α = 0.05; added the prior-literature comparison summarising Table 4 (Sahan 2007, Wilson & Pyatt 2007, Nedjimi 2020). Verification of every change is recorded inline on the page. Re-ingesting via the KADC_ root would either (a) duplicate the prior page or (b) regress the verified merge-enhance work.
+
+### Action taken
+
+- Tracker row for `KADC_investigation-on-the-concentration-of-heavy-metals` (line 937 of `data/evidence/autonomy/manual-fetch-tracker.csv`, condiment_papers/03_Olives_and_Pickles path) flipped from `unprocessed` to `stopped`, with the existing `cite_key` (`vella2024-malta-olive-cultivars-aas`) populated so future wrapper ticks short-circuit on the row read instead of re-discovering the SHA collision.
+- No ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit + this stop note.
+- The page itself was not modified; the 2026-05-28 merge-enhance is the canonical version.
+
+### Upstream signal
+
+This is the third tracker hit for the same Vella et al. 2024 PDF across the Kimi sweep (after MFK_ root ingest 2026-05-28, and May 21 KADC tree de-dup 2026-05-31T17:59Z). Kimi bundled this paper into multiple download sub-folders, all SHA-identical. The 03_Olives_and_Pickles KADC sub-tree now has two confirmed SHA-identical duplicates of canonical MFK_ pages (FDA TDS, Vella olives); the recovery yield from this specific sub-tree continues to trend toward zero net novel pages.
+
+**Final line:** `STOP: pdf-already-ingested-clean vella2024-malta-olive-cultivars-aas (SHA-identical to MFK_ root; existing page updated 2026-05-28 and clean per routing audit)`
