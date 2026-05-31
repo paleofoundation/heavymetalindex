@@ -424,6 +424,26 @@ if [[ "$MFETCH_ENABLED" == "1" ]]; then
     "--max-pdfs=$MFETCH_MAX" "--model=$MFETCH_MODEL" "--concurrency=$MFETCH_CONCURRENCY" || true
 fi
 
+# Step 3c.6: remediation-record extraction (added 2026-05-31). Captures the
+# DRIVER / INTERVENTION surface — what raises or lowers heavy-metal
+# contamination across the supply chain (soil pH, paddy water management,
+# amendments, microbial inoculation, cultivar, fertilizer inputs, regional
+# low-load anomalies) — from remediation-relevant source pages into
+# data/evidence/remediation_register.jsonl, graded A/B/C with confounders and
+# what-would-confirm on every lead. This serves HMTc Governing Principle 1
+# (drive contamination down through reformulation and sourcing improvement);
+# occurrence extraction alone discards it. Spawns claude --print like the
+# ingest step, so it is capped low (default 2/tick) and chews through the
+# ~661 remediation-relevant sources over time plus any newly ingested ones.
+# The dataset/page rebuild is deterministic and runs every tick so new
+# records surface immediately. Disable with HMI_REMEDIATION_EXTRACT=0.
+REMED_ENABLED="${HMI_REMEDIATION_EXTRACT:-1}"
+REMED_MAX="${HMI_REMEDIATION_MAX:-2}"
+if [[ "$REMED_ENABLED" == "1" ]]; then
+  run_step "remediation extract" node tools/evidence/extract-remediation-records.mjs "--max=$REMED_MAX" || true
+fi
+run_step "remediation dataset" node tools/evidence/build-remediation-dataset.mjs || true
+
 # Step 3c.5: completion-matrix snapshot — measures (ingredient × analyte)
 # cell progress toward the 95% confidence target. Drives the cell-targeted
 # wishlist generation downstream. Idempotent; <1s runtime.

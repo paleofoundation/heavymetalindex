@@ -13,6 +13,8 @@ Mitigation pages describe intervention strategies that reduce heavy metal concen
 
 The wiki distinguishes between contamination characterization (what concentration is present in a given commodity, covered on [[ingredients/index|ingredient]] and [[metals/index|metal]] pages) and mitigation (how producers, processors, and certifiers reduce that concentration, covered here). The two are linked: every ingredient page's Mitigation section cross-references the relevant strategy pages in this directory, and every strategy page identifies the ingredient and metal combinations where the strategy is best supported.
 
+The source-grounded efficacy evidence behind these strategies is compiled, graded, and kept current at [[mitigation/remediation-evidence|Remediation evidence: drivers and interventions]]. That page is generated from a structured register that the autonomous pipeline populates by extracting, from every remediation-relevant source, what raises or lowers contamination across the supply chain, with each finding graded A/B/C and each C-tier lead carrying the controlled comparison that would confirm it. It is the queryable substrate for remediation plans and sourcing analysis, and the mechanism by which the program stops discarding the intelligence that serves its first governing principle. The structured form is published at [/static/remediation.json](/static/remediation.json).
+
 ## Taxonomy
 
 The six primary mitigation classes correspond to six supply-chain intervention points.
