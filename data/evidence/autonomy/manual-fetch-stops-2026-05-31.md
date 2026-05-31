@@ -800,3 +800,28 @@ Existing page is post-2026-05-14 clean (`updated: 2026-05-26`), not in `data/evi
 - The wiki source page was not modified; the prior 2026-05-26 merge-enhance + audit-revise is the canonical version.
 
 **Final line:** `STOP: pdf-already-ingested-clean escp2021-pb-as-balsamic-vinegar-fda-letter (SHA-identical to MFK_ root; existing page updated 2026-05-26 and clean per routing audit)`
+
+## KADC_aluminum-leaching-from-cooking-pans-and-food-conta — KIMI CORRUPTION / WRONG PDF CONTENT
+
+- **Source PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/Aluminum Leaching from Cooking Pans and Food Containers into Vinegar.pdf`
+- **Suggested handle from wrapper:** `KADC_aluminum-leaching-from-cooking-pans-and-food-conta`
+- **Filename intent:** Aluminum leaching from cookware/containers into vinegar — an on-topic HMI paper (Al × vinegar × food-contact migration) that the Kimi-Agent batch was supposed to deliver.
+- **Actual PDF content:** Shimanoe K, Ikari K, Shimizu Y, Yamazoe N (2006). "STM observation of SnO2 (1 1 0) thermal-treated under oxidative condition." *Sensors and Actuators B: Chemical* 118: 90–93. DOI: 10.1016/j.snb.2006.04.081. Elsevier.
+- **Why rejected:** Off-topic for HMI. The paper is a four-page surface-physics study of tin dioxide (SnO2) single-crystal surfaces imaged by scanning tunneling microscopy (STM) after thermal treatment in oxygen at 350 °C / 13 Pa and 130 Pa, with hydrogen reduction control. The chemistry is gas-sensor electronic structure (O₂⁻ molecular adsorption vs O⁻ negatively-charged adsorption, in-plane oxygen vs bridging oxygen, density of states at the (110) surface). Reads in full (pp. 90–93 + biographies): no food matrix, no vinegar, no aluminum, no cookware, no leaching/migration data, no Pb/Cd/As/Hg/Ni/Al/Cr/Sn/Sb concentrations of any food product. The only "Sn" present is the lattice tin of the SnO₂ semiconductor substrate being probed by STM, not Sn-as-food-contaminant. The paper would belong in a gas-sensor / surface-physics database, not HMI.
+- **This is exactly the Kimi corruption case this folder is named for.** The Kimi-agent downloader fetched the wrong PDF for the aluminum-leaching-into-vinegar slug. The actual on-topic paper (likely a study of Al migration from aluminum cookware/foil into acidic foods such as vinegar/tomato/citrus) is unrelated to this file.
+
+### Skill v2.0 outcome
+
+Phase 1 step 2 (read PDF) was completed in full — all 4 pages including the abstract, introduction, experimental, results+discussion, conclusion, references, and author biographies. Phase 1 step 3 (write/merge source page) was NOT executed: there is no HMI source page to write because the paper has no HMI-relevant content to extract. Frontmatter would have `metals: []`, no `## Key numbers` could be populated, and a "stub source page about an off-topic paper" would itself be a defect.
+
+### Action taken
+
+- No wiki source page written, no commit, no routing audit run, no audit-queue entry, no audit subagent spawned. Per skill stop-condition "paper-internal data-integrity issue that's not the obvious mirroring pattern" — here the data-integrity issue is at the file level (wrong PDF behind the filename), not inside the paper itself.
+- Tracker row for `KADC_aluminum-leaching-from-cooking-pans-and-food-conta` (line 925 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `skipped-kimi-corruption` with a note pointing back to this entry so future wrapper ticks and the FRANK orchestrator short-circuit on row read instead of re-discovering the content mismatch.
+- The misnamed PDF stays in place under the Kimi corruption folder so the corruption-folder audit trail remains intact; a downstream pass can either (a) re-fetch the actually-intended Al-leaching-into-vinegar paper under the correct slug or (b) bulk-archive confirmed-corrupt PDFs once the pattern is fully mapped.
+
+### Upstream signal
+
+This is now the second Kimi-folder PDF in the corruption-folder drain that turned out to be content/filename mismatch via wrong-paper substitution (cf. the skoko2022 patulin paper delivered under the cadmium-in-Yangtze-vegetables slug above). Both deliver completely unrelated papers (mycotoxin chemistry in one case, surface-physics sensor chemistry here) rather than the on-topic HMI paper the slug implied. The recurrence supports the prior recommendation: a one-pass verification script that opens each PDF in the Kimi corruption tree, extracts the actual title/DOI, and compares against the filename slug would surface every mis-fetched PDF in a single sweep rather than discovering them one-at-a-time across many autonomous ticks. Note the contrast with the SHA-identical KADC duplicates higher in this log — those are the same paper twice, harmless; the wrong-PDF cases are the genuinely lossy corruption where the intended HMI paper was never delivered at all and the source slug is unresolved until someone re-fetches it.
+
+**Final line:** `STOP: kimi-corruption-off-topic-pdf shimanoe2006-stm-sno2-110-oxidative (actual content is SnO2 surface physics by STM, not Al leaching from cookware into vinegar; no heavy-metals-in-food data to ingest)`
