@@ -114,6 +114,15 @@ const MANUAL_FETCH_ROOTS = [
 const AUTO_FETCHED_PER_TICK_CAP = 3
 
 const PRIORITY_KEYWORDS = [
+  // May-21 Kimi infant CONTACT/DURABLE batch (added 2026-05-31). Karen
+  // manually fetched these and asked to "run the system" on them; without an
+  // explicit keyword they fall in the catch-all bucket and rank behind the
+  // ~274-paper OLD food backlog. The folder's base-six (papers/babycare/
+  // household/condiments/seafood) is byte-identical to the already-queued OLD
+  // Kimi folder and is fully skip-listed (manual-fetch-skip.csv), so this
+  // keyword only surfaces the 66 genuinely-new infant-product PDFs. Temporary:
+  // once they drain it matches nothing. Remove after the batch clears.
+  "May 21 Kimi_Agent",
   // Auto-fetched papers come from the wishlist fetcher which is already
   // gap-driven (each filename encodes the gap it was fetched for). Drain
   // these FIRST when present — they are the freshest evidence aligned to
