@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 27
+sources: 28
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -118,15 +118,16 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 16 | [[sources/palmieri2020-mercury-rice\|Palmieri et al. 2020]]. *Implications and Significance of Mercury in Rice*, Journal of Food Nutrition and Metabolism | 2020 | Peer-reviewed | TH/IN/CN tHg occurrence in 29 rice samples: 12 from Thailand, 6 from India, 6 from China, and 5 United States control samples;... (n=29) |
 | 17 | [[sources/pogoson2020-rice-cooking-cadmium-arsenic\|Pogoson et al. 2020]]. *Reducing the cadmium, inorganic arsenic and dimethylarsinic acid content of rice through food-safe chemical cooking pre-treatment*, Food Chemistry | 2020 | Peer-reviewed | GB Cd, iAs, DMA, tAs occurrence in Ten polished rice samples purchased from retail stores in Belfast, Northern Ireland |
 | 18 | [[sources/shi2020-rice-grain-cadmium-global-supply-chain\|Shi et al. 2020]]. *Rice Grain Cadmium Concentrations in the Global Supply-Chain*, Exposure and Health 12:869-876 | 2020 | Peer-reviewed | GLOBAL Cd occurrence in Global polished white market-rice supply-chain samples purchased from retailers across 32 countries on six continents; country-level n and... (n=2270) |
-| 19 | [[sources/welna2018-brown-rice-inorganic-arsenic\|Maja et al. 2018]]. *Non-chromatographic Speciation of Inorganic Arsenic in Rice by Hydride Generation Inductively Coupled Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2018 | Peer-reviewed | PL tAs, iAs occurrence in Nine brown rice samples sold in Poland, coded B1-B9 |
-| 20 | [[sources/fda2016-arsenic-rice-risk-assessment\|FDA 2016]]. *Arsenic in Rice and Rice Products Risk Assessment Report*, US Food and Drug Administration | 2016 | Government report | US iAs, tAs concentrations |
-| 21 | [[sources/llorente-mirandes2016-ias-food-analytical-review\|Llorente-Mirandes et al. 2016]]. *Inorganic Arsenic Determination in Food: A Review of Analytical Proposals and Quality Assessment Over the Last Six Years*, Applied Spectroscopy | 2016 | Peer-reviewed | EU/US/CN iAs, tAs concentrations |
-| 22 | [[sources/signes-pastor2016-iAs-rice-iberian-peninsula\|Signes-Pastor et al. 2016]]. *Geographical variation in inorganic arsenic in paddy field samples and commercial rice from the Iberian Peninsula*, Food Chemistry | 2016 | Peer-reviewed | ES/PT/EU iAs, tAs, Cd concentrations (n=164) |
-| 23 | [[sources/carey2015-rice-arsenic-percolating-cooking\|Manus et al. 2015]]. *Rethinking Rice Preparation for Highly Efficient Removal of Inorganic Arsenic Using Percolating Cooking Water*, PLOS ONE | 2015 | Peer-reviewed | GB/ES/IT iAs, tAs, DMA occurrence in Forty-one rice samples purchased from UK retailers in Belfast or via UK online retail; 13 wholegrain (unpolished) and... (n=41) |
-| 24 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | GB Al, Sb, tAs, iAs, Ba, Cd, Cr, Cu, Pb, Mn, tHg, Mo, Ni, Pd, Pt, Sn, Tl, Zn occurrence in 3312 retail food samples from 24 UK locations, combined into 138 prepared-as-consumed food-category composites and 28 food-group composites (n=3312) |
-| 25 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | US iAs, tAs concentrations (n=697) |
-| 26 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | US iAs, tAs concentrations (n=1300) |
-| 27 | [[sources/williams2007-rice-arsenic-us-market-basket\|Williams et al. 2007]]. *Market Basket Survey Shows Elevated Levels of As in South Central U.S. Processed Rice Compared to California: Consequences for Human Dietary Exposure*, Environmental Science and Technology | 2007 | Peer-reviewed | US tAs, iAs concentrations (n=134) |
+| 19 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 20 | [[sources/welna2018-brown-rice-inorganic-arsenic\|Maja et al. 2018]]. *Non-chromatographic Speciation of Inorganic Arsenic in Rice by Hydride Generation Inductively Coupled Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2018 | Peer-reviewed | PL tAs, iAs occurrence in Nine brown rice samples sold in Poland, coded B1-B9 |
+| 21 | [[sources/fda2016-arsenic-rice-risk-assessment\|FDA 2016]]. *Arsenic in Rice and Rice Products Risk Assessment Report*, US Food and Drug Administration | 2016 | Government report | US iAs, tAs concentrations |
+| 22 | [[sources/llorente-mirandes2016-ias-food-analytical-review\|Llorente-Mirandes et al. 2016]]. *Inorganic Arsenic Determination in Food: A Review of Analytical Proposals and Quality Assessment Over the Last Six Years*, Applied Spectroscopy | 2016 | Peer-reviewed | EU/US/CN iAs, tAs concentrations |
+| 23 | [[sources/signes-pastor2016-iAs-rice-iberian-peninsula\|Signes-Pastor et al. 2016]]. *Geographical variation in inorganic arsenic in paddy field samples and commercial rice from the Iberian Peninsula*, Food Chemistry | 2016 | Peer-reviewed | ES/PT/EU iAs, tAs, Cd concentrations (n=164) |
+| 24 | [[sources/carey2015-rice-arsenic-percolating-cooking\|Manus et al. 2015]]. *Rethinking Rice Preparation for Highly Efficient Removal of Inorganic Arsenic Using Percolating Cooking Water*, PLOS ONE | 2015 | Peer-reviewed | GB/ES/IT iAs, tAs, DMA occurrence in Forty-one rice samples purchased from UK retailers in Belfast or via UK online retail; 13 wholegrain (unpolished) and... (n=41) |
+| 25 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | GB Al, Sb, tAs, iAs, Ba, Cd, Cr, Cu, Pb, Mn, tHg, Mo, Ni, Pd, Pt, Sn, Tl, Zn occurrence in 3312 retail food samples from 24 UK locations, combined into 138 prepared-as-consumed food-category composites and 28 food-group composites (n=3312) |
+| 26 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | US iAs, tAs concentrations (n=697) |
+| 27 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | US iAs, tAs concentrations (n=1300) |
+| 28 | [[sources/williams2007-rice-arsenic-us-market-basket\|Williams et al. 2007]]. *Market Basket Survey Shows Elevated Levels of As in South Central U.S. Processed Rice Compared to California: Consequences for Human Dietary Exposure*, Environmental Science and Technology | 2007 | Peer-reviewed | US tAs, iAs concentrations (n=134) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -136,9 +137,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [d26f8f1](https://github.com/paleofoundation/heavymetalindex/commit/d26f8f1) | 2026-05-30 | autonomy: checkpoint [deterministic-phase] 2026-05-30T04-02-50Z |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
-| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 <!-- END: hmi-page-history -->

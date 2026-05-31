@@ -118,6 +118,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [bebfd4a](https://github.com/paleofoundation/heavymetalindex/commit/bebfd4a) | 2026-05-30 | audit: yildirim2021-humic-fulvic-cd-garden-cress revised |
 | [ddfd414](https://github.com/paleofoundation/heavymetalindex/commit/ddfd414) | 2026-05-30 | ingest: yildirim2021-humic-fulvic-cd-garden-cress fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |

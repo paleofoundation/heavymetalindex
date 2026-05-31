@@ -2,7 +2,7 @@
 source_page: wiki/products/peanut-butter.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5a0d308116d60894cb401ff050766a140ab18d43e91a1915cf8c180f5dc87f86
+source_page_sha256: e16a83068784a5f76d50e0fc1c6b7f0a96a501551ef66849d80527556a811ced
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 479
+audit_log_total_rows: 492
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 479 |
+| audit log rows read | 492 |
 
 ## Page-level audit rows
 

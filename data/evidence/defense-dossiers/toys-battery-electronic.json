@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-battery-electronic",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "48eb8f3aa6b06c9f66e8d20a93fa58e53877a36d0062b53464993f45d805cba3",
-      "content_bytes": 7516,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "e13232ce9b6ba68c3ec908509a4622753e8a69ae4c0130f4695a54ad65f3a047",
+      "content_bytes": 7408,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/toys-battery-electronic.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/toys-battery-electronic.md | sha256sum"
     }
   },
   "evidence_base": {

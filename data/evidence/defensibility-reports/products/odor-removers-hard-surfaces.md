@@ -2,7 +2,7 @@
 source_page: wiki/products/odor-removers-hard-surfaces.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5cc8e5f4dfcc194288b4bc8118fd50f4fb469c5f837ec499755008f7b6953500
+source_page_sha256: 7786e2eb7997087e0142cf5e9b8cf78ac6d5d91aea91f5c654f64013b6abf520
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 479
+audit_log_total_rows: 492
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 479 |
+| audit log rows read | 492 |
 
 ## Page-level audit rows
 

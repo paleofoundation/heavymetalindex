@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:c76c1e327cfcf52d5d9f50a7fb424f42…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `324868f` (2026-05-31). The body hashes to `sha256:4b4753456a86d6f84186e13c087d7781…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=automatic-puff-releasers&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/automatic-puff-releasers&download=1`.
 

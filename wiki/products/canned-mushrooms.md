@@ -12,7 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 1
+sources: 2
 wiki_doi: null
 updated: 2026-05-28
 ---
@@ -36,7 +36,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V occurrence in 100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted... (n=100) |
+| 1 | [[sources/usman2022-pleurotus-mushroom-substrates\|Usman et al. 2022]]. *Proximate composition and heavy metal content of Pleurotus tuberregium mushroom grown on different substrates in (Aba) Nigeria*, GSC Biological and Pharmaceutical Sciences | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V occurrence in 100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted... (n=100) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -88,9 +89,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [2fd42c4](https://github.com/paleofoundation/heavymetalindex/commit/2fd42c4) | 2026-05-29 | synth: canned-mushrooms replace 2 placeholder paragraph(s) |
-| [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 <!-- END: hmi-page-history -->

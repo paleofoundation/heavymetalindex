@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-decorative-decals-coatings",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "23296ed700d995548ac4930c466b566ad987659cd90eebb527f56390d7e11a58",
-      "content_bytes": 7658,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "563cbe362c529ec62837dbbc974ac7cc4c4b9e70699c95ab9d6a5613e044e4c3",
+      "content_bytes": 7550,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/tableware-decorative-decals-coatings.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/tableware-decorative-decals-coatings.md | sha256sum"
     }
   },
   "evidence_base": {

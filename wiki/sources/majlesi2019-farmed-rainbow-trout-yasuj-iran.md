@@ -115,6 +115,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [f332706](https://github.com/paleofoundation/heavymetalindex/commit/f332706) | 2026-05-30 | audit: majlesi2019-farmed-rainbow-trout-yasuj-iran revised |
 | [df28650](https://github.com/paleofoundation/heavymetalindex/commit/df28650) | 2026-05-30 | ingest: majlesi2019-farmed-rainbow-trout-yasuj-iran fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish |

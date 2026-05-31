@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/facial-cleansers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3f660076d269fe76950900102ec0268c4237223e5e9c9089a6b25abb46a01810",
-      "content_bytes": 8253,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "10b2b15ca94a82c79982394d139b61af928758b78c2b0939bd83f5881b275113",
+      "content_bytes": 8225,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/facial-cleansers.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/facial-cleansers.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "28b18275d128f529c7d012c815f2395f7e526bb40c221407fcd289b2b2c64377",
-          "content_bytes": 35353,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "1b48eadc01670f2976f2fae1a2578adb2a143fc69cdbff6191249f36bcd3f42f",
+          "content_bytes": 35245,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       }
     ]

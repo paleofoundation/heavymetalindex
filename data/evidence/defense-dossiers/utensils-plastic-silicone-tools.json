@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/utensils-plastic-silicone-tools",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2ddff303b501f45422186a4d207b235e8b47639e8a2c9bf4f57e8818ad720499",
-      "content_bytes": 7553,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "0878301793dcdae5cb838f47f2f645f437b840ee27c2f82d81a62e90c1a50bd8",
+      "content_bytes": 7445,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/utensils-plastic-silicone-tools.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/utensils-plastic-silicone-tools.md | sha256sum"
     }
   },
   "evidence_base": {

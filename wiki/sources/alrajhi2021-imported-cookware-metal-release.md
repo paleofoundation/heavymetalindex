@@ -66,3 +66,13 @@ For cookware and metal-utensil pages, this source provides Saudi-market migratio
 ## Verification notes
 
 The filename contains `10-20937-atm-53561`, but the PDF itself gives DOI `10.20937/RICA.53561`. The source page uses the DOI printed in the PDF and notes this as a filename/DOI mismatch, not a blocker.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8291a0d](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d) | 2026-05-31 | ingest auto-fetched 2026-05-31 17:46 batch 1: 11 source pages |
+<!-- END: hmi-page-history -->

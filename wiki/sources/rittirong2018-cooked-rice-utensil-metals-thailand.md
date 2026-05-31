@@ -71,3 +71,13 @@ For standards work, cooked-rice values must be kept on the study's dried cooked-
 ## Verification notes
 
 The abstract provides the headline concentrations and risk metrics. The source does not support an inorganic arsenic claim.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8291a0d](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d) | 2026-05-31 | ingest auto-fetched 2026-05-31 17:46 batch 1: 11 source pages |
+<!-- END: hmi-page-history -->

@@ -219,6 +219,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [de5ba1c](https://github.com/paleofoundation/heavymetalindex/commit/de5ba1c) | 2026-05-31 | audit: wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals revised |
 | [a12d7a2](https://github.com/paleofoundation/heavymetalindex/commit/a12d7a2) | 2026-05-31 | ingest: wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
 <!-- END: hmi-page-history -->

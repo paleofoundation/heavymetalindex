@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-treats-snacks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4452bb92c0f5bd00789cb23828d9f601af237a43da5c31ef43cb935460cd8fe4",
-      "content_bytes": 8930,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "f3017656eadcdc3b6b7acf54576f8456c087ed901ef55afbe45429bf7a8ec647",
+      "content_bytes": 8822,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/pet-treats-snacks.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/pet-treats-snacks.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -64,3 +64,13 @@ For metal-utensil and cookware pages, this source supports a conditional migrati
 ## Verification notes
 
 The extracted tables use mg/L migration-simulant units. Korean-language portions were not used to infer unexposed numbers beyond the visible table rows and English abstract.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8291a0d](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d) | 2026-05-31 | ingest auto-fetched 2026-05-31 17:46 batch 1: 11 source pages |
+<!-- END: hmi-page-history -->

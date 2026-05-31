@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:70819baae8a8db462e010f2d3351684c…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `324868f` (2026-05-31). The body hashes to `sha256:e27ccd30179a2a844a9fadc9def9af78…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=nebula-diffusers&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/nebula-diffusers&download=1`.
 

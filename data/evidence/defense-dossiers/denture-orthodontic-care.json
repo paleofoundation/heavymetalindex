@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/denture-orthodontic-care",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c71df254198e4d90946de2758690f52b5d7663162c67e38ffb2f7304433d4770",
-      "content_bytes": 7722,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "8b25d3b0b14d3df03194fc25d0c00a632ccf266d13b46353f8ff77142ffbdaae",
+      "content_bytes": 7614,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/denture-orthodontic-care.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/denture-orthodontic-care.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,18 +17,41 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-algae-seaweed-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "88a070ce4acd5d60b89b8d84f2726b236e10bd35905f1d29211c24c45abc2bd4",
-      "content_bytes": 8691,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "982e9dbba2da461cd21e1637e2241589192fa7805e6bc873f04739a56d3db1d2",
+      "content_bytes": 8863,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/supplements-algae-seaweed-based.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/supplements-algae-seaweed-based.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/aziz2021-gracilaria-seaweed-bangladesh",
+        "title": "Potential of Gracilaria tenuistipitata var. liui grown in Nuniachara, Cox's Bazar, Bangladesh",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "Cr",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/aziz2021-gracilaria-seaweed-bangladesh",
+        "content_pin": {
+          "content_sha256": "512a09b78b2794fc2a88451ca7fa4c1939a312b764db346a576b013588d74cd2",
+          "content_bytes": 2908,
+          "last_commit_sha": "8291a0d",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8291a0d:wiki/sources/aziz2021-gracilaria-seaweed-bangladesh.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/shaughnessy2023-sugar-kelp-new-england-metals",
         "title": "Evidence of elevated heavy metals concentrations in wild and farmed sugar kelp (Saccharina latissima) in New England",
@@ -45,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shaughnessy2023-sugar-kelp-new-england-metals",
         "content_pin": {
-          "content_sha256": "8cb62916f8054fa805e45e341213321485075d65d6e80d7ae12ec28ec900d241",
-          "content_bytes": 3548,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "e38c7084dbc6e8023c8eef5fdb7bd8543b4859eddb97f71c3f7c43cbe429e40c",
+          "content_bytes": 3694,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
         }
       },
       {
@@ -68,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sund2026-saccharina-pte-processing",
         "content_pin": {
-          "content_sha256": "dee97b5b63a381a7ba0c9905abd8e5d46e710467a0dcd5b458003b6539465c69",
-          "content_bytes": 3424,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "be69509b89a71223a4d362b06e280338418ed0cc9e5a794756a2c7ee9b4b499d",
+          "content_bytes": 3570,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
         }
       }
     ]

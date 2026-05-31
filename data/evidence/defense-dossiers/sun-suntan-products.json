@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sun-suntan-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fa8ad4566592c45afbd32ed642356b5c5a382f7f89b5b98849e73c361b2a7fed",
-      "content_bytes": 10157,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "7323ed15e1cb28bdcc9e720fe915885b0cbd2ab4f2e60a19929f21838a6089af",
+      "content_bytes": 10129,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/sun-suntan-products.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/sun-suntan-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "28b18275d128f529c7d012c815f2395f7e526bb40c221407fcd289b2b2c64377",
-          "content_bytes": 35353,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "1b48eadc01670f2976f2fae1a2578adb2a143fc69cdbff6191249f36bcd3f42f",
+          "content_bytes": 35245,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -76,12 +76,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms",
         "content_pin": {
-          "content_sha256": "7a5917992dbc3dd74e85c28efd2a3199811a85eb0a939ca74c5dfae34d4a5276",
-          "content_bytes": 28052,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "776b8f5527b7341b79924645f01eef041f718242c5736cefb2409f618cb757e6",
+          "content_bytes": 27944,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms.md | sha256sum"
         }
       },
       {
@@ -105,12 +105,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bashir2025-heavy-metals-cosmetics-kashmir",
         "content_pin": {
-          "content_sha256": "b0b732e044df2c4569107717390193ac91ac0c3fd9c32fc2e9a5681861cf4f2c",
-          "content_bytes": 28395,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "921e52428d930fb6b503556ef257a767233b7fca76a38f436c01ba798cddbb3d",
+          "content_bytes": 28287,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/bashir2025-heavy-metals-cosmetics-kashmir.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/bashir2025-heavy-metals-cosmetics-kashmir.md | sha256sum"
         }
       },
       {
@@ -131,12 +131,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "127800466f8d5225343cf0555b8a0bb2501870162910a248efa9c9717b077297",
-          "content_bytes": 29122,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "7635d17ff64e924bfc12be177f8cba71d48028d36807f42689755dcd86345d60",
+          "content_bytes": 29014,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       },
       {
@@ -155,12 +155,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "f7405418df06e0836dc28d105e50d5360864cc42b1357913fb6e675a747c4863",
-          "content_bytes": 28380,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "8dd6917c5dbb1f35438f026a9824ffca21e52cdb8e4ee769dfc01207aec36fba",
+          "content_bytes": 28272,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
         }
       }
     ]

@@ -178,9 +178,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [3f1f72d](https://github.com/paleofoundation/heavymetalindex/commit/3f1f72d) | 2026-05-31 | v0→v1 reconciliation complete: body-table regenerator (sources-preserving) + restore spices Pb + sync 242 tables |
 | [789dbf1](https://github.com/paleofoundation/heavymetalindex/commit/789dbf1) | 2026-05-31 | matrix-routing recovery: route 125 stranded extraction rows via matrix→product map; expand map; dedup starvation audit |
 | [7b3c5c5](https://github.com/paleofoundation/heavymetalindex/commit/7b3c5c5) | 2026-05-31 | synthesis writer: publish 9 pooled cells, hold weak-reconstruction cells, record edit provenance |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

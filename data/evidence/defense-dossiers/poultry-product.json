@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/poultry-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cd98a6237f0fc331855ff20f44a6f1b480463d2ba7fa9ee85215a32c48161afc",
-      "content_bytes": 18208,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "69fb86b94a2ae12532a1b5c00479a33369e7a2a42f52f21ab4005972aefc6767",
+      "content_bytes": 18207,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/poultry-product.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/poultry-product.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alam2021-bangladesh-poultry-feed-meat-metals",
         "content_pin": {
-          "content_sha256": "401454804e4db005418206a63c2caafb3cc9024abeb05d7d4c326206a162a1b3",
-          "content_bytes": 2759,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "ae6e43586269d4d2cd30413c4f63f58c8c5c4e56db4c1e0d96be6ca968911856",
+          "content_bytes": 2651,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/alam2021-bangladesh-poultry-feed-meat-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/alam2021-bangladesh-poultry-feed-meat-metals.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ali2020-chicken-liver-heavy-metals-erbil",
         "content_pin": {
-          "content_sha256": "06810a10094e50c447312562e130d034ecbe98a918341ad579ba19de251a05c1",
-          "content_bytes": 2685,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "13e0058f11ff96f457213ee12e4dc89655b8900c21d070ccaf08c107678e4cdb",
+          "content_bytes": 2577,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/ali2020-chicken-liver-heavy-metals-erbil.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/ali2020-chicken-liver-heavy-metals-erbil.md | sha256sum"
         }
       },
       {
@@ -95,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aljohani2023-heavy-metal-toxicity-poultry",
         "content_pin": {
-          "content_sha256": "f3737107ef67e46cd7bd99e6a14f3ce91bb28e17097ed872309d382ea2bcd10c",
-          "content_bytes": 3985,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "9f7b1400e34d391ab6fa217ae6bd872976ff97d2e98a3196bd0eaa0ec8f639d8",
+          "content_bytes": 3877,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/aljohani2023-heavy-metal-toxicity-poultry.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/aljohani2023-heavy-metal-toxicity-poultry.md | sha256sum"
         }
       },
       {
@@ -118,12 +118,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/altalib2025-frozen-meat-libya",
         "content_pin": {
-          "content_sha256": "0162db3f317cd635dd12f2d9e49da375acf279d649a82100a57c190f5e09dc3f",
-          "content_bytes": 7261,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "401bee9cbbd94ce1e068370ca1a06bcb11f90b9683554b92f7e50fc3e31347c8",
+          "content_bytes": 7153,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
         }
       },
       {
@@ -140,12 +140,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bazzaz2023-poultry-products-erbil-heavy-metals",
         "content_pin": {
-          "content_sha256": "d5ed9d9942f1c8276b116054f2a5fbfe5bdf68a8adfa7284b355a1d7cf2f8cbb",
-          "content_bytes": 3239,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "4560fee4c207ca58d2f5a4f289cfbf091940b69e914bacfa04d8080b1caf439e",
+          "content_bytes": 3131,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/bazzaz2023-poultry-products-erbil-heavy-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/bazzaz2023-poultry-products-erbil-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -160,12 +160,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ertas2021-poultry-calf-meat-arsenic",
         "content_pin": {
-          "content_sha256": "e347b231b7768fc34a2f306e5275e14909cd1a4cdda1312811e52521cdb6af4b",
-          "content_bytes": 2850,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "f3e3941533b9210893a4636d5e84d1552e01141c054668697f6ba2d1789c9406",
+          "content_bytes": 2742,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/ertas2021-poultry-calf-meat-arsenic.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/ertas2021-poultry-calf-meat-arsenic.md | sha256sum"
         }
       },
       {
@@ -182,12 +182,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ezike2024-nigerian-poultry-pte",
         "content_pin": {
-          "content_sha256": "07e26482240f31cfc6c709724c7cc0f08dae797faaca2f9b35a81f4248f7f670",
-          "content_bytes": 3125,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "2d0897def6b39f0c9df118b4b7d761972a7cf2c4449da555a9969f34bdfe4b50",
+          "content_bytes": 3017,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/ezike2024-nigerian-poultry-pte.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/ezike2024-nigerian-poultry-pte.md | sha256sum"
         }
       },
       {
@@ -204,12 +204,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gholami-ahangaran2021-chicken-meat-cadmium-zinc-silver",
         "content_pin": {
-          "content_sha256": "4de61797c416fc097b22d5b0874a8c871c20dd4ce800f8d27007ac7a923622c8",
-          "content_bytes": 3224,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "01d477233feaf8a1b49dd4e13752f41365a3484d0e212255487241147b829979",
+          "content_bytes": 3116,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/gholami-ahangaran2021-chicken-meat-cadmium-zinc-silver.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/gholami-ahangaran2021-chicken-meat-cadmium-zinc-silver.md | sha256sum"
         }
       },
       {
@@ -228,12 +228,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/guo2024-duck-eggs-hg-mining-china",
         "content_pin": {
-          "content_sha256": "3c055f5005a8d1efc7b8295345df9327fd12e7b3442875a9f0e2bbf6623325e2",
-          "content_bytes": 3239,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "29af7e7e1d339d38d0bcd969aaf7b975a98cf761a633722c2bbc6b29a6c8da82",
+          "content_bytes": 3131,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/guo2024-duck-eggs-hg-mining-china.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/guo2024-duck-eggs-hg-mining-china.md | sha256sum"
         }
       },
       {
@@ -252,12 +252,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china",
         "content_pin": {
-          "content_sha256": "323519bb24dc73e0565d91509fddcf66e9fca8646cea2d95436eefed472a6db2",
-          "content_bytes": 20383,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "4cd8e0aab13bd6ce54fd6045e6090d6c59dd3679613263a63f8f567e4fdfad62",
+          "content_bytes": 20275,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/guo2024-heavy-metals-duck-eggs-mercury-mine-china.md | sha256sum"
         }
       },
       {
@@ -274,12 +274,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hossain2023-bangladesh-chicken-metals",
         "content_pin": {
-          "content_sha256": "358e8067f6346e3e7575040e65738bf3572f8ec07e3cdfd0c21c4b25ffece506",
-          "content_bytes": 4973,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "782a9b95f685f78c0e50f844d5760e457084fcad6fb395ed1ac6d5f69a24bc02",
+          "content_bytes": 4865,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/hossain2023-bangladesh-chicken-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/hossain2023-bangladesh-chicken-metals.md | sha256sum"
         }
       },
       {
@@ -298,12 +298,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iqbal2023-poultry-feed-pakistan",
         "content_pin": {
-          "content_sha256": "8cfdd9875f65d385284758c48d1e55633d04ed498329154a2bee4e56695718d0",
-          "content_bytes": 9491,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "a147e3814a199a8845065ee623fac320310ded698ebc5caa6e70c646ad3716d4",
+          "content_bytes": 9467,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/iqbal2023-poultry-feed-pakistan.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/iqbal2023-poultry-feed-pakistan.md | sha256sum"
         }
       },
       {
@@ -322,12 +322,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kamaly2023-egypt-poultry-metals",
         "content_pin": {
-          "content_sha256": "ba1b0a591489d3fb597ce0831c7211f37739590be69a53a2285f84719c0ed092",
-          "content_bytes": 5819,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "145ae20a375427885cc9a3daff65508e494cf25430b9a990cbcb26193ce25185",
+          "content_bytes": 5711,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/kamaly2023-egypt-poultry-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/kamaly2023-egypt-poultry-metals.md | sha256sum"
         }
       },
       {
@@ -344,12 +344,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kamouh2024-heavy-metals-chicken-meat-egypt",
         "content_pin": {
-          "content_sha256": "d6cd4cf67773293c98c71998df7405fc3ac373f60aa8de456f0e6bbc6a7bf80c",
-          "content_bytes": 4949,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "d9cbf8e30f8ca9ea16d2fd8ebbb43194172b582f0a446016a3bc11e7320b7099",
+          "content_bytes": 4841,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/kamouh2024-heavy-metals-chicken-meat-egypt.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/kamouh2024-heavy-metals-chicken-meat-egypt.md | sha256sum"
         }
       },
       {
@@ -368,12 +368,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kim2022-bsf-larvae-oil-eggs-heavy-metals",
         "content_pin": {
-          "content_sha256": "871688ffcb61b887f3c11c4f636420f6e1900948e23bec40b2a8338f580831d0",
-          "content_bytes": 3893,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "ec24fde246e92be0e8e05d452b32412e870971c57490c1b1c440d3f6b57d9798",
+          "content_bytes": 3785,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/kim2022-bsf-larvae-oil-eggs-heavy-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/kim2022-bsf-larvae-oil-eggs-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -391,12 +391,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kurniawati2021-jakarta-staple-foods-naa",
         "content_pin": {
-          "content_sha256": "0937e5fa5f833acef29bc4d04a925e9611dbc6a8c04d956bee0ef30ac6437646",
-          "content_bytes": 13232,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "b94051645d06085e7e5e0ebb5e169a8fd30ceb40ab3137592b7ff4a711b066d6",
+          "content_bytes": 13204,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/kurniawati2021-jakarta-staple-foods-naa.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/kurniawati2021-jakarta-staple-foods-naa.md | sha256sum"
         }
       },
       {
@@ -412,12 +412,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lasky2013-arsenic-chicken-correspondence",
         "content_pin": {
-          "content_sha256": "a9a432451f40d058649f45be26a186429286c92614c32bf02ce185af45841b58",
-          "content_bytes": 4344,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "9bca92b1806ddea5f13009c846415c0b563a76aaefad8d504cbdb720957cb6d2",
+          "content_bytes": 4236,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/lasky2013-arsenic-chicken-correspondence.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/lasky2013-arsenic-chicken-correspondence.md | sha256sum"
         }
       },
       {
@@ -436,12 +436,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "d79f23b1a4a98d5f8f73bcd2f832de9b70970e7a046e36a22bddd14fb39ad584",
-          "content_bytes": 10178,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "55b3bd9b2b1f4658aa05a54b105b233ffa253f15afbf258d0ee7de122ce2ba60",
+          "content_bytes": 10070,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
         }
       },
       {
@@ -463,12 +463,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lukin2020-broiler-drumstick-minerals",
         "content_pin": {
-          "content_sha256": "0029862b34d4f14541a51802c6fa47c665f0f6fc5d17800b387d3eb2f68979cd",
-          "content_bytes": 3276,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "1220c192b5aaf374f60f70d04c81e45b85d8d12b958155033856b6a7e834b5c3",
+          "content_bytes": 3168,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/lukin2020-broiler-drumstick-minerals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/lukin2020-broiler-drumstick-minerals.md | sha256sum"
         }
       },
       {
@@ -486,12 +486,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lysenko2021-organic-broiler-meat-heavy-metals",
         "content_pin": {
-          "content_sha256": "1736e53ac49f4b770f6c343247d02e0dd5c93660df399851ee616c945ac623e1",
-          "content_bytes": 2923,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "29246217eceec3463deb57e9ffefc24fb2246359df3cfbdea100669f2ce91386",
+          "content_bytes": 2815,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/lysenko2021-organic-broiler-meat-heavy-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/lysenko2021-organic-broiler-meat-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -508,12 +508,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mahbub2018-poultry-feed-meat-eggs-metals",
         "content_pin": {
-          "content_sha256": "52b7871d4b1abbd9f9f474234286e2ec552b0e4c263dc7b1b82fb3bb1d675493",
-          "content_bytes": 3476,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "affa9ea5a94e9206baec757d8319ac50ce31eafa2abd0c670148dd92f19ca0cc",
+          "content_bytes": 3368,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/mahbub2018-poultry-feed-meat-eggs-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/mahbub2018-poultry-feed-meat-eggs-metals.md | sha256sum"
         }
       },
       {
@@ -528,12 +528,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mahmud2011-crvi-chicken-pakistan",
         "content_pin": {
-          "content_sha256": "8893500ee678da7d27068f0719185e111fc9c7086d8afff30ee9f577f20f95a8",
-          "content_bytes": 7162,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "b4f7845fb09cd5ee8faeca390187fdcb8aca1a6f7457660580fb6908204222e8",
+          "content_bytes": 7054,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/mahmud2011-crvi-chicken-pakistan.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/mahmud2011-crvi-chicken-pakistan.md | sha256sum"
         }
       },
       {
@@ -551,12 +551,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maikanov2021-meats-shuchinsk-burabay-metals",
         "content_pin": {
-          "content_sha256": "dec20250453a26b51e48bca5468091b611a4d73f9c3b2b2997fc7c844fd4c0c2",
-          "content_bytes": 2820,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "910362efba7ed780472713d9566a4d42d86032729117c40b1386d5300b3c2a9d",
+          "content_bytes": 2712,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
         }
       },
       {
@@ -571,12 +571,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/manfredi2025-nickel-meat-italy",
         "content_pin": {
-          "content_sha256": "3a8888df005d25b71db095ad979d9f154bcc2ae0bcdfe6368bd2ce3010b13313",
-          "content_bytes": 3177,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "aaec92b55bad99807ab1da7b3d2e81ceff75ef0b42a4d45896896d5d9c1e712d",
+          "content_bytes": 3069,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/manfredi2025-nickel-meat-italy.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/manfredi2025-nickel-meat-italy.md | sha256sum"
         }
       },
       {
@@ -593,12 +593,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/morshed2024-heavy-metals-poultry-organs-bangladesh",
         "content_pin": {
-          "content_sha256": "afdd38e25257dc092307c44501ad03fc8e33abdb8e3d3518849f0259febfb3f5",
-          "content_bytes": 8724,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "3f2d08acc640f23744aaad9351c69a97bdbd3c06ca00211f65459f875504a071",
+          "content_bytes": 8616,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/morshed2024-heavy-metals-poultry-organs-bangladesh.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/morshed2024-heavy-metals-poultry-organs-bangladesh.md | sha256sum"
         }
       },
       {
@@ -619,12 +619,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/okolo2022-chicken-drumstick-umuhia-heavy-metals",
         "content_pin": {
-          "content_sha256": "a8c180dc971662f149714fec331a425dcecb58d8af5e392ab37dde1f9f549867",
-          "content_bytes": 3259,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "998c3a4db2b110edf86e7317e7373ff270c4e9f0fbb0e9e27e494f5d9a7f098d",
+          "content_bytes": 3151,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/okolo2022-chicken-drumstick-umuhia-heavy-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/okolo2022-chicken-drumstick-umuhia-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -642,12 +642,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals",
         "content_pin": {
-          "content_sha256": "4074dbaa8260608f21151d1767eefe87763a427a0fdb7db49825c10d19cbd6cd",
-          "content_bytes": 3231,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "925a7810101992b34137092ad1631e16c3d68d25f01eecfef325ef72097ad940",
+          "content_bytes": 3123,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/omirzakov2024-poultry-meat-kazakhstan-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -665,12 +665,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/razanov2019-poultry-silicon-mineral-heavy-metals",
         "content_pin": {
-          "content_sha256": "97f5a3e46fc043c925482a54be734babf1d23ef28b0e41b22e68b3fa6b6baf88",
-          "content_bytes": 3615,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "b3a3d9ca911203eaea28010ab005df771e373836585da5608510ea9a9cd0b0f0",
+          "content_bytes": 3507,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/razanov2019-poultry-silicon-mineral-heavy-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/razanov2019-poultry-silicon-mineral-heavy-metals.md | sha256sum"
         }
       }
     ]

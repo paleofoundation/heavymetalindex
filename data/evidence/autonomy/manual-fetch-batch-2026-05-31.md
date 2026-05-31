@@ -159,3 +159,243 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/The Potential Health Risk Associated with Edible Vegetables Grown on Cr(VI) Polluted Soils.pdf`: kimi-corruption-off-topic-pdf li-zhang-han-2020-ijerph-online-health-community-price-premiums (actual content is Chinese online-doctor pricing econometrics, DOI 10.3390/ijerph17041326; no heavy-metals data to ingest)
+
+## Tick 2026-05-31T17:02:47.874Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia.pdf`: already-ingested-and-audited (aljedani2017-honeybee-honey-saudi-arabia, updated 2026-05-20, audit verdict PROMOTE)
+
+## Tick 2026-05-31T17:05:28.672Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/Determination of aluminium concentrations in black, green, and white tea samples_ effects of different infusion times and teapot species on aluminium.pdf`: already-ingested-post-cutoff-clean ozturk2024-al-tea-infusion-teapot (wiki/sources page updated 2026-05-20, audit-queue status audited-promote 2026-05-20, not in routing_malformed or routing_unresolved; per v2.0 skill Phase 1 step 1 candidate-selection rule, PDFs whose existing pages are post-2026-05-14 clean and not in malformed are skipped)
+
+## Tick 2026-05-31T17:24:47.456Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health.pdf`: already-ingested-post-cutoff-clean szymczykowska2026-matcha-elemental-composition (wiki/sources page updated 2026-05-20, audit-queue status audited-revised 2026-05-20, not in routing_malformed or routing_unresolved; per v2.0 skill Phase 1 step 1 candidate-selection rule, PDFs whose existing pages are post-2026-05-14 clean and not in malformed are skipped)
+
+## Tick 2026-05-31T17:27:58.573Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/Nickel_ estimate of long-term intake via food based on the BfR MEAL Study.pdf`: already-ingested-post-cutoff-clean bfr2022-nickel-dietary-intake-germany-meal (SHA-identical to MFK_ root; existing page updated 2026-05-20 with REVISE verdict applied; audit-queue audited-revised; not in routing_malformed or routing_unresolved)
+
+## Tick 2026-05-31T17:33:46.677Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/Occurrence, exposure and health risk assessment of heavy metals in green tea samples cultivated in Hangzhou area.pdf`: byte-identical to fan2025-hangzhou-green-tea-metals
+
+## Tick 2026-05-31T17:33:52.275Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste (Romanian study on sauces).pdf`: already-ingested-post-cutoff-clean david2008-heavy-metals-canned-tomato-paste-romania (SHA-identical to MFK_ root; wiki/sources page updated 2026-05-20, audit-queue status audited-revised 2026-05-20 with 7/8 findings applied, not in routing_malformed or routing_unresolved; per v2.0 skill Phase 1 step 1 candidate-selection rule)
+
+## Tick 2026-05-31T17:36:23.301Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/07_Processed_Foods_Snacks_Beverages/The heavy metals analyses in canned tomato paste.pdf`: SHA-identical duplicate of MFK_ root (david2008-heavy-metals-canned-tomato-paste-romania already updated 2026-05-20, audited-revised 7/8)
+
+## Tick 2026-05-31T17:40:07.253Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/P0306_Metals in Cow Milk and Soy Beverages.pdf`: PDF content does not match filename (file is Lee et al. 2023 Foods 12:2148 on Korean dietary patterns and abdominal obesity — zero metals data, off-topic for HMI)
+
+## Tick 2026-05-31T17:45:19.292Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/P0311_Ecological and Human Health Risk Assessment of Metals in Peruvian Avocados.pdf`: byte-identical to yoplac2026-peruvian-avocado-metals-health-risk
+
+## Tick 2026-05-31T17:45:24.870Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/P0314_Non-carcinogenic and carcinogenic health risk assessment of heavy metals in cooked beans and vegetables in Punjab, North India.pdf`: PDF content does not match filename (file is Nozadi et al. 2023 IJERPH 20:1013 on COVID-19 hardships and ASQ developmental screening — zero metals data, off-topic for HMI)
+
+## Tick 2026-05-31T17:47:11.981Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/P0315_Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods.pdf`: byte-identical to alzabadi2018-canned-foods-palestine-cd-pb-cu-zn
+
+## Tick 2026-05-31T17:47:17.216Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/P0316_Heavy Metals Burden in Drinking Water.pdf`: byte-identical to olowoyo2026-heavy-metals-drinking-water-global-review
+
+## Tick 2026-05-31T17:47:22.452Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/P0320_Speciation analysis of Cr(III) and Cr(VI) in bread and breakfast cereals.pdf`: byte-identical to saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp
+
+## Tick 2026-05-31T17:47:27.661Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/08_Nuts_Seeds_Legumes_and_Misc/P0323_Duplicate diet study to assess dietary exposure to metals in a Japanese population.pdf`: byte-identical to yoshinaga2025-japanese-duplicate-diet-metals
+
+## Tick 2026-05-31T17:59:53.024Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/01_Oils/Determination of some inorganic metals in edible vegetable oils by ICP-AES.pdf`: post-2026-05-14 clean page exists for this PDF (pehlivan2008-vegetable-oils-turkey-icp-aes, updated 2026-05-18, not in malformed/unresolved)
+
+## Tick 2026-05-31T18:01:31.985Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/01_Oils/Levels of Selected Heavy Metals in Varieties of Vegetable Oils Collected from Saudi Arabia.pdf`: post-2026-05-14 clean page exists for this PDF (ashraf2012-heavy-metals-vegetable-oils-saudi-arabia, updated 2026-05-26, not in malformed/unresolved, prior subagent PROMOTE on 2026-05-26)
+
+## Tick 2026-05-31T18:03:30.178Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/01_Oils/Report on a Total Diet Study carried out by the Food Safety Authority of Ireland (FSAI TDS).pdf`: post-2026-05-14 clean page exists for this PDF (fsai2016-total-diet-study-ireland-2012-2014, updated 2026-05-26, not in malformed/unresolved, prior subagent REVISE applied on 2026-05-26)
+
+## Tick 2026-05-31T18:06:37.522Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/Alarming Lead, Arsenic Levels Found in Popular Vinegar Brands - ESCP_Food & Water Watch Testing.pdf`: pdf-already-ingested-clean escp2021-pb-as-balsamic-vinegar-fda-letter (SHA-identical to MFK_ root; existing page updated 2026-05-26 and clean per routing audit)
+
+## Tick 2026-05-31T18:10:30.285Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/Aluminum Leaching from Cooking Pans and Food Containers into Vinegar.pdf`: kimi-corruption-off-topic-pdf shimanoe2006-stm-sno2-110-oxidative (filename declares Al-leaching-into-vinegar but actual PDF is a SnO2 surface-physics paper; no heavy-metals-in-food data to ingest)
+
+## Tick 2026-05-31T18:13:49.035Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/Determination of heavy metal contents of apple and grape vinegars by using ICP-MS (Inductively Coupl.pdf`: kimi-corruption-off-topic-pdf duman-turkmen2024-vinegar-chemical-composition (actual content is Duman & Türkmen 2024 chemical composition of Turkish vinegars in African Journal of Biotechnology 23(12):354-360, doi 10.5897/AJB2021.17345; no heavy-metal concentrations measured; intended Tekin 2014 ICP-MS thesis remains unfetched)
+
+## Tick 2026-05-31T18:17:38.305Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/Levels of Cd, Pb, and Ni in Different Types of Vinegars.pdf`: pdf-already-ingested-clean acosta1993-cd-pb-ni-vinegar-types (SHA-identical to MFK_ root; existing page updated 2026-05-26 and clean per routing audit)
+
+## Tick 2026-05-31T18:21:35.881Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/02_Vinegars/Metallic Contaminants in Andalusian Vinegars.pdf`: pdf-already-ingested-clean troncoso1988-metallic-contaminants-andalusian-vinegars (SHA-identical to MFK_ root; existing page updated 2026-05-28 and clean per routing audit)
+
+## Tick 2026-05-31T18:28:28.948Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/03_Olives_and_Pickles/FDA Total Diet Study Report - Fiscal Years 2018-2020.pdf`: pdf-already-ingested-clean fda-tds-elements-2018-2020 (SHA-identical to MFK_ root; canonical page updated 2026-05-20 and clean per routing audit)
+
+## Tick 2026-05-31T18:45:27.480Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/03_Olives_and_Pickles/Investigation on the Concentration of Heavy Metals found in Olives and Olive Mill Waste.pdf`: pdf-already-ingested-clean vella2024-malta-olive-cultivars-aas (SHA-identical to MFK_ root; existing page updated 2026-05-28 and clean per routing audit)

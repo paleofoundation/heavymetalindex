@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bottled-drinking-water",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "baf93a4d64f8cb874519b5a6a2a06d375ac6141385781bf2741fc14eb800acf2",
-      "content_bytes": 12492,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "84ff9d65e65257238867809f7842c1aa1da689b0fbf1e6d423b33ae7c8d0a08b",
+      "content_bytes": 12466,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/bottled-drinking-water.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/bottled-drinking-water.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brima2026-drinking-water-elements",
         "content_pin": {
-          "content_sha256": "b7fc29f936b6449d64ae604d41e7e8c2f2a4685b0409889a884652c616a03e30",
-          "content_bytes": 3032,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "a6e25270545965d91a10c5ca1f25e6a42656e09ce75d728b1096e0c47d60b266",
+          "content_bytes": 3178,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/brima2026-drinking-water-elements.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/brima2026-drinking-water-elements.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/decharat2020-school-drinking-water-pb-cd",
         "content_pin": {
-          "content_sha256": "f05df11b301b4e480340d7d49f42f3fc7c85dcbccb0537f1bb2917679c93c6e4",
-          "content_bytes": 2517,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "a4dbb8f465839ff333b913b65fac9cd4cf8c5e23bf51f1b7b1d2eec46027d743",
+          "content_bytes": 2663,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
         }
       },
       {
@@ -91,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/decharat2023-lead-cadmium-drinking-water-thailand",
         "content_pin": {
-          "content_sha256": "e97a4a83026165c1e528bbb8e427ae7e1d494d61279122115ec871f4e82024c0",
-          "content_bytes": 3457,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "7c1e4d890f5884a1f05e75197de87d833580d89619b89ae2fedf1a81536342b8",
+          "content_bytes": 3349,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/decharat2023-lead-cadmium-drinking-water-thailand.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/decharat2023-lead-cadmium-drinking-water-thailand.md | sha256sum"
         }
       },
       {
@@ -111,12 +111,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "3de6f5ab5c5974db9664c126c140f4b57b59c621d2409319bbbf5926ff73e744",
-          "content_bytes": 30205,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "1301cff55b389560968cdc286ea0cb64a9168c6e550c5b63619bd72d5543a528",
+          "content_bytes": 30177,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda-tds-elements-2018-2020",
         "content_pin": {
-          "content_sha256": "a4aab5d53bbad512d01e4f9e91113788365973fceced8d2c4729296fdec9bc9f",
-          "content_bytes": 26461,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "bbcbfbc09dd7fcaaf0cf246d58f02fddcbdb028773275bc114b473df81e4efd2",
+          "content_bytes": 26433,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/fda-tds-elements-2018-2020.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/fda-tds-elements-2018-2020.md | sha256sum"
         }
       },
       {
@@ -162,12 +162,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jabar2019-heavy-elements-water-diyala-iraq",
         "content_pin": {
-          "content_sha256": "1d212e281884c04edddf4bf0300eaee6855aee861d1900748a2613b2b334ed7d",
-          "content_bytes": 11221,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "f73f674ad773882c0c635761472ce9e024c95d9ef57cf9533cc632f019b2167f",
+          "content_bytes": 11367,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/jabar2019-heavy-elements-water-diyala-iraq.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/jabar2019-heavy-elements-water-diyala-iraq.md | sha256sum"
         }
       },
       {
@@ -188,12 +188,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kithure2021-bottled-water-nairobi",
         "content_pin": {
-          "content_sha256": "c905a9448c677454657e86d19ec88691dff9989f610b91c95e356b2566bf3812",
-          "content_bytes": 13534,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "48aa1a5660edf5da77ad8117d91f9730c87efa7e706374a66d07fcdd57766308",
+          "content_bytes": 13680,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/kithure2021-bottled-water-nairobi.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/kithure2021-bottled-water-nairobi.md | sha256sum"
         }
       },
       {
@@ -220,12 +220,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/olowoyo2026-heavy-metals-drinking-water-global-review",
         "content_pin": {
-          "content_sha256": "0e449f2651131f53c992404f7a63e4e4cda12e2ebc53446691886103c011ad64",
-          "content_bytes": 28291,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "d104e651e242923f203bf9f54d78a1e219fd763ef86a235101a18ab37d221a23",
+          "content_bytes": 28183,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/olowoyo2026-heavy-metals-drinking-water-global-review.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/olowoyo2026-heavy-metals-drinking-water-global-review.md | sha256sum"
         }
       },
       {
@@ -241,12 +241,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ranjbar2025-mineral-water-metals",
         "content_pin": {
-          "content_sha256": "77862ae742eac4c89923f354c53f617085fe8292e890334c49739f4a879c73a7",
-          "content_bytes": 2687,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "465f7edb4aafdd3f422ecb721430a66b3c928fd0a19da9e172b7625978dfcc8b",
+          "content_bytes": 2833,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/ranjbar2025-mineral-water-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/ranjbar2025-mineral-water-metals.md | sha256sum"
         }
       }
     ]

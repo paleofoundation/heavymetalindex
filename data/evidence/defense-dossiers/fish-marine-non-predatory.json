@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-marine-non-predatory",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3d278379fbcea7e6e3e242bd70a5dd2939047de723f1937ad450703d3c3dd130",
-      "content_bytes": 9197,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "6fc5ae1c9a205e5381e85a0912967cd0c597522edea7d280b7cb7cb109f4ac32",
+      "content_bytes": 9171,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/fish-marine-non-predatory.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/fish-marine-non-predatory.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dibella2020-augusta-meat-milk-seafood-metals",
         "content_pin": {
-          "content_sha256": "4d9a4c1919d1ee754618e3e73ee3e5716862658906d237bdad334254fc1ee25b",
-          "content_bytes": 4570,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "0e77876be3abf5976fc6b03580c6dd21640ba08a372e5dfaa981ea550ad0903e",
+          "content_bytes": 4542,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
         }
       },
       {
@@ -71,12 +71,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dineshkumar2025-fish-heavy-metals",
         "content_pin": {
-          "content_sha256": "463ef17f676d03fa9caf81747547245ff0c2853606d9ba6d5c3c46b45ff866a3",
-          "content_bytes": 3152,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "d6635f3755976b6cbed88f8ff278740da4cda728b3f7a48112865fd774b6b557",
+          "content_bytes": 3298,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/dineshkumar2025-fish-heavy-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/dineshkumar2025-fish-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -93,12 +93,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
         "content_pin": {
-          "content_sha256": "5e2d9b2299523cf1f809d38bbfef39396b7976be206b914713316376e0b88c4c",
-          "content_bytes": 17167,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "3d70be15eeeba40dcf014ca2dc0c42dc8fc5880d19b421b53e9b98ea08bb9164",
+          "content_bytes": 17159,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
         }
       }
     ]

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:e4de2656e20f18d2f2f79e53e71f90c7…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `324868f` (2026-05-31). The body hashes to `sha256:855592f799b6418daa63a3df26853cc1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=deep-conditioning-treatments-rinse-off&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/deep-conditioning-treatments-rinse-off&download=1`.
 

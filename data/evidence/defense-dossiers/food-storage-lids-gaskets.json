@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-storage-lids-gaskets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fce171df3a793987b722a21dac5b19347fec069166b52cb946dbb602a02e80fc",
-      "content_bytes": 7479,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "a718f8b777b6ae2dc7528fcaac6c029c42dbd614b0ed0336eb6c88dae329996e",
+      "content_bytes": 7371,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/food-storage-lids-gaskets.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/food-storage-lids-gaskets.md | sha256sum"
     }
   },
   "evidence_base": {

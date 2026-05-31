@@ -63,3 +63,13 @@ For lipstick and skin-lightening product pages, this source supports Nigeria-mar
 ## Verification notes
 
 The source contains a minor inconsistency: the abstract lists fairness-cream mercury values of 1.79, 1.52, and 0.10 ppm, while the results text reports a range of 0.10 to 2.52 ppm and names a highest detailed value of 1.97 ppm total Hg for one product. The page records both source statements rather than resolving brand-level values by hand.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8291a0d](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d) | 2026-05-31 | ingest auto-fetched 2026-05-31 17:46 batch 1: 11 source pages |
+<!-- END: hmi-page-history -->

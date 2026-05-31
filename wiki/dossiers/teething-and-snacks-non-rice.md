@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:4a104c63148cb1a49a52587e19a982d1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `324868f` (2026-05-31). The body hashes to `sha256:7cd2dc113e42d75111a41cbf01d38984…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=teething-and-snacks-non-rice&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/teething-and-snacks-non-rice&download=1`.
 

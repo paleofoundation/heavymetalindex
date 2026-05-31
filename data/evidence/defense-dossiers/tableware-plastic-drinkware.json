@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-plastic-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b620b2045595d1e537a4f559ad58b643c4953b8a02ab211a832f4297d3fde2aa",
-      "content_bytes": 7512,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "a7c66248574aed7d5323e3a6c34ac2a226266873e7cdff884b015f9a39f4a21e",
+      "content_bytes": 7404,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/tableware-plastic-drinkware.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/tableware-plastic-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {

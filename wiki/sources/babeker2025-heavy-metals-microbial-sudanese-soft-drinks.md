@@ -116,5 +116,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [1a5a1ec](https://github.com/paleofoundation/heavymetalindex/commit/1a5a1ec) | 2026-05-31 | ingest: babeker2025-heavy-metals-microbial-sudanese-soft-drinks fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
 <!-- END: hmi-page-history -->

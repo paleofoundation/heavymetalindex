@@ -87,7 +87,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/food-prep-blender-jars|Blender jars]] — 0 contributing sources
 - [[dossiers/body-wash-shower-gel|Body wash/shower gel]] — 0 contributing sources
 - [[dossiers/body-hand-leave-on-skin-care|Body/hand leave-on skin care]] — 5 contributing sources
-- [[dossiers/pet-supplements-botanical-herbal|Botanical/herbal blends]] — 0 contributing sources
+- [[dossiers/pet-supplements-botanical-herbal|Botanical/herbal blends]] — 1 contributing source
 - [[dossiers/infant-bottle-nipples|Bottle nipples and spouts]] — 0 contributing sources
 - [[dossiers/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] — 9 contributing sources
 - [[dossiers/infant-bottles|Bottles (plastic, glass, stainless steel)]] — 0 contributing sources
@@ -101,7 +101,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/car-seats|Car seats (if retained in HMTc scope)]] — 0 contributing sources
 - [[dossiers/carpet-cleaners|Carpet cleaners]] — 0 contributing sources
 - [[dossiers/carpet-spot-removers|Carpet spot removers]] — 0 contributing sources
-- [[dossiers/cookware-ceramic-coated|Ceramic-coated cookware]] — 0 contributing sources
+- [[dossiers/cookware-ceramic-coated|Ceramic-coated cookware]] — 1 contributing source
 - [[dossiers/tableware-ceramicware|Ceramicware]] — 0 contributing sources
 - [[dossiers/clasps-fasteners-infant-products|Clasps/fasteners (snaps, zippers, buttons) used in infant products]] — 0 contributing sources
 - [[dossiers/cleaning-wipes-household|Cleaning wipes (household surface wipes)]] — 0 contributing sources
@@ -147,7 +147,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/floor-cleaners-hard-surface|Floor cleaners (hard surface)]] — 0 contributing sources
 - [[dossiers/floor-finishes-strippers|Floor finishes & strippers (if included in HMTc scope)]] — 0 contributing sources
 - [[dossiers/floss-interdental-cleaners|Floss and interdental cleaners (floss, picks, interdental brushes, woodsticks)]] — 0 contributing sources
-- [[dossiers/flour-non-rice|Flour (wheat, corn, other)]] — 10 contributing sources
+- [[dossiers/flour-non-rice|Flour (wheat, corn, other)]] — 11 contributing sources
 - [[dossiers/food-packaging-foils-wraps|Foils/wraps]] — 0 contributing sources
 - [[dossiers/food-prep-processor-bowls|Food processor bowls]] — 0 contributing sources
 - [[dossiers/supplements-bars-labeled|Food-like forms: bars (when labeled as supplement)]] — 0 contributing sources
@@ -156,10 +156,10 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/pet-food-freeze-dried|Freeze-dried/dehydrated pet foods (including freeze-dried raw)]] — 0 contributing sources
 - [[dossiers/fruit-juices-apple-containing|fruit-juices-apple-containing]] — 20 contributing sources
 - [[dossiers/fruit-juices-non-apple|fruit-juices-non-apple]] — 23 contributing sources
-- [[dossiers/game-meats|Game meats (venison, bison, rabbit)]] — 11 contributing sources
+- [[dossiers/game-meats|Game meats (venison, bison, rabbit)]] — 12 contributing sources
 - [[dossiers/gel-diffusers|Gel diffusers]] — 0 contributing sources
 - [[dossiers/toys-painted|General toys with paint/surface coatings]] — 2 contributing sources
-- [[dossiers/food-storage-glass-containers|Glass food storage containers]] — 0 contributing sources
+- [[dossiers/food-storage-glass-containers|Glass food storage containers]] — 1 contributing source
 - [[dossiers/food-packaging-glass-jars|Glass jars]] — 0 contributing sources
 - [[dossiers/tableware-glassware|Glassware]] — 0 contributing sources
 - [[dossiers/hair-dye-rinse-off|Hair dye/color rinses (rinse-off after processing)]] — 1 contributing source
@@ -169,7 +169,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/herbal-botanical-infusions|herbal-botanical-infusions]] — 8 contributing sources
 - [[dossiers/high-chairs-and-booster-seats|High chairs and booster seats]] — 0 contributing sources
 - [[dossiers/incense-sticks-cones|Incense sticks/cones]] — 0 contributing sources
-- [[dossiers/supplements-algae-seaweed-based|Ingredient class — algae/seaweed-based]] — 2 contributing sources
+- [[dossiers/supplements-algae-seaweed-based|Ingredient class — algae/seaweed-based]] — 3 contributing sources
 - [[dossiers/supplements-amino-acids-isolates|Ingredient class — amino acids & isolates]] — 0 contributing sources
 - [[dossiers/supplements-botanicals-herbs|Ingredient class — botanicals/herbs/traditional formulas]] — 8 contributing sources
 - [[dossiers/supplements-enzymes|Ingredient class — enzymes]] — 0 contributing sources
@@ -199,14 +199,14 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/menstrual-discs|Menstrual discs]] — 0 contributing sources
 - [[dossiers/menstrual-pads|Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)]] — 1 contributing source
 - [[dossiers/menstrual-tampons|Menstrual tampons (scented/unscented; applicator tested as distinct component)]] — 0 contributing sources
-- [[dossiers/cookware-metal-alloy|Metal and alloy cookware (cast iron, stainless steel, aluminum)]] — 0 contributing sources
+- [[dossiers/cookware-metal-alloy|Metal and alloy cookware (cast iron, stainless steel, aluminum)]] — 4 contributing sources
 - [[dossiers/tableware-metal-bottles-tumblers|Metal bottles/tumblers]] — 0 contributing sources
-- [[dossiers/utensils-metal|Metal utensils]] — 0 contributing sources
+- [[dossiers/utensils-metal|Metal utensils]] — 4 contributing sources
 - [[dossiers/pet-milk-replacers-specialty-liquids|Milk replacers and specialty pet liquids]] — 0 contributing sources
 - [[dossiers/mineral-water|Mineral water]] — 2 contributing sources
 - [[dossiers/mouthwash-oral-rinse|Mouthwash/oral rinse]] — 1 contributing source
 - [[dossiers/nebula-diffusers|Nebula diffusers]] — 0 contributing sources
-- [[dossiers/cookware-nonstick-coated|Nonstick-coated cookware]] — 0 contributing sources
+- [[dossiers/cookware-nonstick-coated|Nonstick-coated cookware]] — 3 contributing sources
 - [[dossiers/odor-removers-hard-surfaces|Odor removers for hard surfaces]] — 0 contributing sources
 - [[dossiers/pet-supplements-oils|Oils (omega-3, fish oil, coconut oil)]] — 0 contributing sources
 - [[dossiers/olive-oil|Olive oil]] — 9 contributing sources
@@ -261,7 +261,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/toys-rattles|Rattles]] — 0 contributing sources
 - [[dossiers/pet-food-raw|Raw pet foods (frozen/chilled raw diets)]] — 0 contributing sources
 - [[dossiers/air-product-refill-materials|Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills)]] — 0 contributing sources
-- [[dossiers/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] — 27 contributing sources
+- [[dossiers/rice-bulk-grain|Rice (white, brown, wild — bulk grain)]] — 28 contributing sources
 - [[dossiers/rice-beverages-rice-milk|Rice beverages (rice milk)]] — 2 contributing sources
 - [[dossiers/rice-noodles|Rice noodles]] — 1 contributing source
 - [[dossiers/rice-snacks-crackers|Rice snacks/crackers]] — 7 contributing sources
@@ -269,7 +269,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/salt|Salt (table, sea, Himalayan)]] — 2 contributing sources
 - [[dossiers/scented-candles|Scented candles]] — 0 contributing sources
 - [[dossiers/scented-wax-blocks-melts|Scented wax blocks/wax melts]] — 0 contributing sources
-- [[dossiers/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] — 2 contributing sources
+- [[dossiers/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] — 3 contributing sources
 - [[dossiers/pet-food-semi-moist|Semi-moist pet foods]] — 0 contributing sources
 - [[dossiers/sensor-puff-releasers|Sensor puff releasers]] — 0 contributing sources
 - [[dossiers/shampoo-adult|Shampoo (general adult)]] — 1 contributing source
@@ -292,7 +292,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/tattoo-inks|Tattoo inks (permanent and temporary)]] — 0 contributing sources
 - [[dossiers/toilet-bowl-cleaners|Toilet bowl cleaners]] — 0 contributing sources
 - [[dossiers/tongue-cleaners-scrapers|Tongue cleaners/scrapers]] — 0 contributing sources
-- [[dossiers/toothbrushes|Toothbrushes (manual, electric heads)]] — 0 contributing sources
+- [[dossiers/toothbrushes|Toothbrushes (manual, electric heads)]] — 1 contributing source
 - [[dossiers/pet-toppers-mixers-broths|Toppers/mixers/broths]] — 0 contributing sources
 - [[dossiers/toy-chests|Toy chests]] — 0 contributing sources
 - [[dossiers/toy-pacifiers|Toy pacifiers (toy-designated)]] — 0 contributing sources
@@ -307,7 +307,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/pet-supplements-vitamin-mineral|Vitamin/mineral supplements]] — 0 contributing sources
 - [[dossiers/walkers|Walkers]] — 0 contributing sources
 - [[dossiers/water-filters|Water filters]] — 1 contributing source
-- [[dossiers/whitening-products|Whitening products (strips/gels/powders/pens)]] — 0 contributing sources
+- [[dossiers/whitening-products|Whitening products (strips/gels/powders/pens)]] — 2 contributing sources
 - [[dossiers/window-glass-mirror-cleaners|Window/glass/mirror cleaners]] — 0 contributing sources
 - [[dossiers/toys-yo-yo-elastic-tether|Yo-yo elastic tether toys]] — 0 contributing sources
 

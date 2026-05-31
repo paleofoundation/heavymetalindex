@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-31T18:03:16.079Z
+updated: 2026-05-31T18:48:46.981Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 60 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 60 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 161 min ago (stale) |
+| Daemon heartbeat | ⚠️ 207 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 82 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 5 |
-| Commits last 24 hours | 86 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 13 |
+| Commits last 24 hours | 88 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 60 min**
 ## Last commit
 
 ```
-ae42d96 24 minutes ago — skip: KADC_the-heavy-metals-analyses-in-canned-tomato-paste (SHA-identical duplicate of MFK_ root)
+de78b97 57 seconds ago — skip: KADC_investigation-on-the-concentration-of-heavy-metals (SHA-identical duplicate of MFK_ root)
 ```
 
 ## How to read this

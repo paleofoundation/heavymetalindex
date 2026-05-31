@@ -23,12 +23,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-lip-balm-mineral-bearing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7180000b02fb422091de07325da3f0b0b3c6f22a914e5ea3c4e6ce62c7d31a47",
-      "content_bytes": 12131,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "2a02043719f5a6d59fd8a2fc8958c9c76223984dcae157bee5dd5ed1e480002b",
+      "content_bytes": 12103,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/childrens-lip-balm-mineral-bearing.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/childrens-lip-balm-mineral-bearing.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
         "content_pin": {
-          "content_sha256": "94ca492d897d3fd5255d0034aff7eff0fd52ba9432a430fdb89048380f882d75",
-          "content_bytes": 11813,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "8d7d60e8686ea6580b836d1b1096314e7b78be7f1a15cea98d5de21c2430f009",
+          "content_bytes": 11705,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
         }
       },
       {
@@ -83,12 +83,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
         "content_pin": {
-          "content_sha256": "d5ff38ffc25bf3571e8616cf925947819e3226592b0b2c77bbe5f3a585b907e7",
-          "content_bytes": 11926,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "afbc69fdd1b654348613dabc8bef58478ea59ec5c8dde5ae6d205f951e7bdd4e",
+          "content_bytes": 11818,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
         }
       },
       {
@@ -103,12 +103,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2021-lead-lip-cosmetics-china-ecommerce",
         "content_pin": {
-          "content_sha256": "3eac466e656a9eb4c5b8f1ef5199ef156c2dca13cf4231f7ba850ca2c3944f22",
-          "content_bytes": 31146,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "cd381da8350febb453628679e2d760427f4448d9f0a5d61e5f1cb6506047406a",
+          "content_bytes": 31038,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/li2021-lead-lip-cosmetics-china-ecommerce.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/li2021-lead-lip-cosmetics-china-ecommerce.md | sha256sum"
         }
       }
     ]

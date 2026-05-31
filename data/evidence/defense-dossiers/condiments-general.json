@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/condiments-general",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d870e39874dbc5685167ec86c1211a9f8de0e8470f6328cd78226f447e2e0c2b",
-      "content_bytes": 11451,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "40297572bb12862887a2263c1c8e10dec06186f26c9b47dd82132b128f8f52f0",
+      "content_bytes": 11423,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/condiments-general.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/condiments-general.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-hktds-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "d6812b8acf43c81ac2a9b174f00afc3e16f4b46349b16909093f796136ebf5a1",
-          "content_bytes": 20648,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "7ae1fe1c3a83da87d2b5f21884a40b7e332b42e69b3f146f0b7539f245ab409b",
+          "content_bytes": 20540,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -63,12 +63,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chime2025-nigerian-spices-as-cd-pb",
         "content_pin": {
-          "content_sha256": "5b13af7500d25c8497dd2bae1bcd52268ed364baafa33072c70551581a192de1",
-          "content_bytes": 6006,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "1eccf28e470f06cff4a6dfa2930b72588bdd6dfe1a44ed2dd82df8683919353e",
+          "content_bytes": 5898,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/chime2025-nigerian-spices-as-cd-pb.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/chime2025-nigerian-spices-as-cd-pb.md | sha256sum"
         }
       },
       {
@@ -83,12 +83,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/divis2020-mercury-fish-sauce-dgt-tda-aas",
         "content_pin": {
-          "content_sha256": "6b0c794ce31de108578421e71d086ce2557bb9bcf647472399a92fa56b69fa5f",
-          "content_bytes": 13676,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "82f5d6c291f64ec07fe3773ad457854aae87725ee4c18c118956124b4bb5fdf7",
+          "content_bytes": 13568,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
         }
       },
       {
@@ -112,12 +112,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dokubo2023-nigeria-seasoning-powder",
         "content_pin": {
-          "content_sha256": "c739abfd30aed44a509d0bef96a39f6adaab369ed229f2fb91583f5500958909",
-          "content_bytes": 10244,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "7db9c389a9f61a5e59152a67a6c4f5c145a4d2bf50c350058edf45213381f62e",
+          "content_bytes": 10136,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/dokubo2023-nigeria-seasoning-powder.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/dokubo2023-nigeria-seasoning-powder.md | sha256sum"
         }
       },
       {
@@ -132,12 +132,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "3de6f5ab5c5974db9664c126c140f4b57b59c621d2409319bbbf5926ff73e744",
-          "content_bytes": 30205,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "1301cff55b389560968cdc286ea0cb64a9168c6e550c5b63619bd72d5543a528",
+          "content_bytes": 30177,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -169,12 +169,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "ec38592a8a5b0a34d8a7b2136e6ead576c63a8360c0dafc39faadc9a4ab2676b",
-          "content_bytes": 10828,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "17bfa99793c996a115262fec30062e132e93c4fd63a683205c09ec98ec2f9e65",
+          "content_bytes": 10800,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -190,12 +190,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland",
         "content_pin": {
-          "content_sha256": "7d196a84da8cca7600f77440b0515e3f522390fdcaf1edd6e32d66cc082f5e0a",
-          "content_bytes": 8262,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "9fca25ef35322ff0ee286c29a547d426ea808ca36b1c8dc18c55378b6d221dfd",
+          "content_bytes": 8154,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
         }
       },
       {
@@ -214,12 +214,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/spex2023-hot-sauce-chili-powder-metals",
         "content_pin": {
-          "content_sha256": "decfb06c1ec2c6b44b96f121a5f760cec0c477bb3743f5c2ac7d210f5c7ebb08",
-          "content_bytes": 6716,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "26df2c77fc420a4314473d1f2c80924d17e5aeecbaa0a5d754e5d49866aed959",
+          "content_bytes": 6608,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/spex2023-hot-sauce-chili-powder-metals.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/spex2023-hot-sauce-chili-powder-metals.md | sha256sum"
         }
       },
       {
@@ -235,12 +235,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd",
         "content_pin": {
-          "content_sha256": "f1bd09e7bce5991895df6da496d040131af95fc8bd051b19f74ed5bcff4502bd",
-          "content_bytes": 5389,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "53ada1e614229c44702a9be0ca2064790d6603266698c72156310dc3e5923bae",
+          "content_bytes": 5281,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd.md | sha256sum"
         }
       },
       {
@@ -256,12 +256,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2021-edible-salt-soy-sauce-pb-cd",
         "content_pin": {
-          "content_sha256": "53a9ea6298b2941e27155c06dad51619df6028f181338f7860e3d74146b4b70f",
-          "content_bytes": 3084,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "4b2a9b2ed4067394ec2b4cb209b709249e5eb08771a0cb23a0ac5ed9680c63a2",
+          "content_bytes": 3230,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
         }
       }
     ]

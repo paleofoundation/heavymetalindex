@@ -62,3 +62,13 @@ For product-category pages, this paper supports utensil-material differences in 
 ## Verification notes
 
 The source reports total elemental concentrations in ppm. `game-meats` is the closest existing broad meat product slug available; routing should be revisited if a general cooked-meat product page is later created.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8291a0d](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d) | 2026-05-31 | ingest auto-fetched 2026-05-31 17:46 batch 1: 11 source pages |
+<!-- END: hmi-page-history -->

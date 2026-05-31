@@ -63,3 +63,13 @@ For standards work, do not pool isotope ratios as concentration values. The pape
 ## Verification notes
 
 The filename route was toothbrush/Pb, but the paper also contains wheat and Miswak fruit. The source page keeps wheat and Miswak separated and does not convert isotope ratios into occurrence concentrations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8291a0d](https://github.com/paleofoundation/heavymetalindex/commit/8291a0d) | 2026-05-31 | ingest auto-fetched 2026-05-31 17:46 batch 1: 11 source pages |
+<!-- END: hmi-page-history -->

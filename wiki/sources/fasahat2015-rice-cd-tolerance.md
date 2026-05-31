@@ -90,6 +90,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [21e5a72](https://github.com/paleofoundation/heavymetalindex/commit/21e5a72) | 2026-05-30 | audit: fasahat2015-rice-cd-tolerance promoted |
 | [b92fef5](https://github.com/paleofoundation/heavymetalindex/commit/b92fef5) | 2026-05-30 | ingest: fasahat2015-rice-cd-tolerance fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |

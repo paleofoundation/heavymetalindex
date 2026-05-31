@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `22b1fec` (2026-05-31). The body hashes to `sha256:bf9d901df45f958d7dc421fc3b692385…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `324868f` (2026-05-31). The body hashes to `sha256:53d533774b66bf1d6cbdb8038c80e083…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=teething-and-snacks-rice-based&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/teething-and-snacks-rice-based&download=1`.
 
 ## Evidence base
 
-This category is supported by 19 contributing literature sources mapped by the routing layer, of which 3 carry structured concentration values. The page makes 277 numerical claims; 277 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 19 contributing literature sources mapped by the routing layer, of which 3 carry structured concentration values. The page makes 303 numerical claims; 303 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/teething-and-snacks-rice-based.md`.
 

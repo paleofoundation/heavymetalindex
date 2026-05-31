@@ -17,18 +17,64 @@
     "canonical_url": "https://heavymetalindex.com/products/whitening-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b90168ec79374e252d0a348b139d947c3836e69f4316da2b888eb81172781ca8",
-      "content_bytes": 7533,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "ede2ea540bcee26d4392f3e3f79b44b082979e2802f7192c317661b50ec096db",
+      "content_bytes": 8231,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/whitening-products.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/whitening-products.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/agustina2021-whitening-creams-pb-cd",
+        "title": "Analysis of Lead (Pb) and Cadmium (Cd) in Whitening Creams using Atomic Absorption Spectroscopy",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/agustina2021-whitening-creams-pb-cd",
+        "content_pin": {
+          "content_sha256": "2f40ce2591b38b55781cf6be1fe303ebe69001dcab31c6d4a19278d505f579ec",
+          "content_bytes": 2440,
+          "last_commit_sha": "8291a0d",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8291a0d:wiki/sources/agustina2021-whitening-creams-pb-cd.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dauda2023-cosmetics-heavy-metals",
+        "title": "Harmful effects of heavy metals in cosmetics",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tHg",
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dauda2023-cosmetics-heavy-metals",
+        "content_pin": {
+          "content_sha256": "711588f14f79e2941ec2a16ebabdfb2832f612de721683230e569dfc8364d12e",
+          "content_bytes": 3240,
+          "last_commit_sha": "8291a0d",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8291a0d:wiki/sources/dauda2023-cosmetics-heavy-metals.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

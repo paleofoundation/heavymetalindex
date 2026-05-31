@@ -17,18 +17,40 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-supplements-botanical-herbal",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5648a93ff7c92486a766acff8c3dd429b85ff81e490cce9dca401cf7efd37270",
-      "content_bytes": 7471,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "96e4bee6eead2473ccf4a0b6da795d1030b56620ce3e960fbe95901d7784847e",
+      "content_bytes": 7960,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/pet-supplements-botanical-herbal.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/pet-supplements-botanical-herbal.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/gao2025-cordyceps-arsenic-toxicity",
+        "title": "Wild Cordyceps sinensis exhibits far lower arsenic accumulation and hepatorenal toxicity in mice compared to equivalent dose of inorganic arsenic",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/gao2025-cordyceps-arsenic-toxicity",
+        "content_pin": {
+          "content_sha256": "7b1b9da80af37a08babef851bc77123e56659d1d5231c163dabe7937f419bd1e",
+          "content_bytes": 3504,
+          "last_commit_sha": "8291a0d",
+          "last_commit_date": "2026-05-31",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 8291a0d:wiki/sources/gao2025-cordyceps-arsenic-toxicity.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

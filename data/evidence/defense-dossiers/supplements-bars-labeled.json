@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-bars-labeled",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "81c09782589d848e1af3e3aca964046cb40a91dc40ee7eeb40b6e68a3752dc48",
-      "content_bytes": 7580,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "96f7c2e45ba2f075c4399248c1fca3c0b93c7b0a6b6f66e0d78610d9cc4e941e",
+      "content_bytes": 7472,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/supplements-bars-labeled.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/supplements-bars-labeled.md | sha256sum"
     }
   },
   "evidence_base": {

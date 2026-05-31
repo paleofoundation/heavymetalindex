@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/kitchen-countertop-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8bccdbb717635f918d065bd95b1685bf656e938427eaa24b3b69f167192212e9",
-      "content_bytes": 7507,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "e8a3b97ffb1fb26fef5b864451873fd85431bd7efb33c4a4f5a1db7c5516f0dd",
+      "content_bytes": 7399,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/kitchen-countertop-cleaners.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/kitchen-countertop-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

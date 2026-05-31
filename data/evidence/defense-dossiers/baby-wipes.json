@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-wipes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d36b2eb38b8341b8ddb02190199db2d4304f431f27e77853497b0aa8eda17e75",
-      "content_bytes": 10209,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "c5f21a91ebdb0c04d42bdd479ef1b67412428c1e56909b41a2eb264882e7af91",
+      "content_bytes": 10181,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/baby-wipes.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/baby-wipes.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
         "content_pin": {
-          "content_sha256": "81c7591348d4c56515167b53d513245242195eeabf8551dbb29954d02d62fcd4",
-          "content_bytes": 8652,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "9f3e2fc12f76cb0992dc0c60a22ce82ca3a1e1b5c07ca37aa958894ed32960de",
+          "content_bytes": 8544,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
         }
       },
       {
@@ -60,12 +60,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/rahma2022-infant-skin-barrier-function-review",
         "content_pin": {
-          "content_sha256": "f58a0ce7abbb830244ce1dafd95360b49fcee13b700da38516a4aa4765f1537c",
-          "content_bytes": 16071,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "929ccb2c07091415cba20f69f5ba52af6420cfc3a54e9f6631befe6f5271c795",
+          "content_bytes": 15963,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/rahma2022-infant-skin-barrier-function-review.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/rahma2022-infant-skin-barrier-function-review.md | sha256sum"
         }
       },
       {
@@ -86,12 +86,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
         "content_pin": {
-          "content_sha256": "f87849154617da369c18a19b643291abacac0714d6ab1e63349e6d26539f7ac3",
-          "content_bytes": 24458,
-          "last_commit_sha": "22b1fec",
+          "content_sha256": "896538b0c204616e11ef0ff9e3c0f5bd91962f2d2fd7eba973ffc53008e9f067",
+          "content_bytes": 24350,
+          "last_commit_sha": "324868f",
           "last_commit_date": "2026-05-31",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 22b1fec:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+          "verify_command": "git show 324868f:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
         }
       }
     ]

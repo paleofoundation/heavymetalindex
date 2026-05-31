@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-gummies",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cef24926aa9783d797e3ad4db192c73ba025053ca7a68c976872575c1bb21cb1",
-      "content_bytes": 7507,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "2a4f7d0fa368f051d5220dc2493f50553dac5a7eb17ff35bc6c445fe0bc3bfc1",
+      "content_bytes": 7399,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/supplements-oral-solids-gummies.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/supplements-oral-solids-gummies.md | sha256sum"
     }
   },
   "evidence_base": {

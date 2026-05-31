@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/art-craft-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "be7bd263c36e850ee153197246103c9767c2b1693188129f767ea4e47963e227",
-      "content_bytes": 8151,
-      "last_commit_sha": "22b1fec",
+      "content_sha256": "8ec67df32a1c606b9dcce27bb4cc85cab8246fc16681de96ee7b7c414b8680ea",
+      "content_bytes": 8043,
+      "last_commit_sha": "324868f",
       "last_commit_date": "2026-05-31",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 22b1fec:wiki/products/art-craft-materials.md | sha256sum"
+      "verify_command": "git show 324868f:wiki/products/art-craft-materials.md | sha256sum"
     }
   },
   "evidence_base": {

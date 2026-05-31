@@ -57,6 +57,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [a4dcf15](https://github.com/paleofoundation/heavymetalindex/commit/a4dcf15) | 2026-05-30 | autonomy: checkpoint [deterministic-phase] 2026-05-30T18-11-25Z |
 | [743ed7c](https://github.com/paleofoundation/heavymetalindex/commit/743ed7c) | 2026-05-30 | routing: fix product-index fan-out so coarse-slug evidence is surfaced |
