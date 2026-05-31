@@ -629,3 +629,23 @@
 
 ### Succeeded
 - `bfr2009-lead-cadmium-toys` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/03_2009_lead_and_cadmium_do_not_belong_in_toys.pdf)
+
+## Tick 2026-05-31T21:39:04.319Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `fowles2021-lead-toys` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/05_2021_FW21014-Lead-in-Toys-FINAL-30-June-2021.pdf)
+
+## Tick 2026-05-31T21:50:38.368Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `nelson2023-wa-childrens-jewelry-followup` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/07_2018_2303004.pdf)
