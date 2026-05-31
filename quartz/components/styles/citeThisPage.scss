@@ -2,8 +2,9 @@
   margin: 2rem 0 0.5rem;
   padding: 0.85rem 1rem;
   border: 1px solid var(--lightgray);
+  border-left: 3px solid var(--secondary);
   border-radius: 8px;
-  background: var(--light);
+  background: var(--highlight);
   font-size: 0.9rem;
 
   .hmi-cite-summary {

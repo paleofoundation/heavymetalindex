@@ -46,6 +46,7 @@ function bind(root: HTMLElement) {
       const expanded = toggle.getAttribute("aria-expanded") === "true"
       toggle.setAttribute("aria-expanded", String(!expanded))
       detail.hidden = expanded
+      toggle.textContent = expanded ? "Show citation" : "Hide citation"
     })
   }
 

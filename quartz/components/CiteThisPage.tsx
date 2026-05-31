@@ -108,8 +108,8 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
           </span>
         </div>
         <div class="hmi-cite-actions">
-          <button type="button" data-hmi-cite-toggle aria-expanded="false">
-            Show citation
+          <button type="button" data-hmi-cite-toggle aria-expanded="true">
+            Hide citation
           </button>
           <a
             class="hmi-cite-download"
@@ -121,7 +121,7 @@ const CiteThisPage: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
           </a>
         </div>
       </div>
-      <div data-hmi-cite-detail hidden>
+      <div data-hmi-cite-detail>
         <p data-hmi-cite-text>{citationLine}</p>
         <div class="hmi-cite-detail-copy">
           <button type="button" data-hmi-cite-copy>Copy citation</button>

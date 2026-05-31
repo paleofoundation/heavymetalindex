@@ -1990,3 +1990,82 @@ article > table {
     transform: none;
   }
 }
+
+/* -----------------------------------------------------------
+   Lead paragraph (standfirst)
+
+   Reference, metal, and synthesis pages open with an editorial
+   summary authored as a single italic paragraph. A long italic
+   run reads like a footnote and is genuinely hard to read,
+   especially on mobile. Present the opening paragraph as a
+   proper upright lead: a touch larger, full-strength color, and
+   not italicized when the whole paragraph is one emphasis span.
+   Scoped off the homepage (its hero is bespoke).
+   ----------------------------------------------------------- */
+
+body:not([data-slug="index"]) article > p:first-of-type {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--dark);
+}
+
+body:not([data-slug="index"]) article > p:first-of-type > em:only-child {
+  font-style: normal;
+}
+
+/* -----------------------------------------------------------
+   Data tables
+
+   Slightly stronger headers (10px light-gray was hard to read),
+   a quiet row-hover to track wide rows across columns, and
+   tabular figures so digits line up in the value columns.
+   ----------------------------------------------------------- */
+
+article thead th {
+  font-size: 11px;
+  color: var(--darkgray);
+}
+
+article tbody tr {
+  transition: background var(--duration-fast) var(--ease-out);
+}
+
+article tbody tr:hover {
+  background: var(--highlight);
+}
+
+article tbody td > code:only-child {
+  font-variant-numeric: tabular-nums;
+}
+
+/* -----------------------------------------------------------
+   Mobile header
+
+   The left sidebar collapses to a horizontal bar on mobile and
+   was overcrowded: the "Heavy Metal Index" wordmark wrapped to
+   three lines and the "Ask the Index" call to action was crushed
+   into a three-line chip. Tighten the wordmark and let the bar
+   wrap so Ask the Index drops onto its own full-width row.
+   ----------------------------------------------------------- */
+
+@media (max-width: 800px) {
+  .page-title {
+    font-size: 0.92rem;
+    letter-spacing: 0.03em;
+    line-height: 1.15;
+  }
+
+  .left.sidebar {
+    flex-wrap: wrap;
+  }
+
+  .left.sidebar > .ask-index {
+    flex: 1 0 100%;
+    order: 99;
+    margin: 0.6rem 0 0;
+  }
+
+  .ask-index-button {
+    white-space: nowrap;
+  }
+}
