@@ -8,11 +8,11 @@ category: vegetable
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [9.4, 18.4]
-    p95_ppb: 23.8
-    confidence: medium
-    n_studies: 1
-    last_reviewed: 2026-05-13
+    typical_ppb: [0.004, 11.4]
+    p95_ppb: 21.7
+    confidence: low
+    n_studies: 2
+    last_reviewed: 2026-05-31
   Cd:
     status: populated
     typical_ppb: [0.007, 62]

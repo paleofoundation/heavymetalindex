@@ -230,40 +230,81 @@ function extractSection(text, heading) {
 }
 
 function parseKeyNumbersBlock(block, ctx) {
-  // For each declared metal, find sentences mentioning the metal and try to
-  // extract N, mean, median, max, basis, and jurisdiction from the same
-  // sentence or adjacent context.
+  // Sentence-scoped extraction. v0 ran extractStats() over a whole paragraph for
+  // every metal the paragraph merely MENTIONED, so a sentence like "Fe median
+  // 68.80 mg/kg in dried fish" got attributed to Pb whenever a different
+  // sentence in the same paragraph said "Codex Pb maximum limit" — wrong metal,
+  // wrong matrix, ×1000 unit conversion turning it into 68,800 ppb. v1 extracts
+  // a value only from a sentence that unambiguously concerns EXACTLY ONE
+  // declared metal. Multi-metal sentences (e.g. "Pb 12, Cd 8") are skipped, not
+  // guessed — honoring this extractor's stated "ambiguous values are skipped,
+  // not guessed" principle, which v0 violated.
   const rows = []
-  // Split block into paragraphs separated by blank lines.
-  const paragraphs = block.split(/\n\n+/)
+  const lines = block.split(/\n/)
+  // A header line ("**Nickel concentrations by food group:**") sets a metal
+  // context that the bulleted values beneath it inherit; without this, splitting
+  // the header from its bullets severs the metal from its values and loses the
+  // whole list. Context resets on a blank line or the next header.
+  let contextMetals = []
 
-  for (const para of paragraphs) {
-    // For each declared metal, check if this paragraph references it.
-    for (const declared of ctx.declaredMetals) {
-      const metalCanonical = normalizeMetal(declared)
-      if (!metalCanonical) continue
+  for (const rawLine of lines) {
+    const sentence = rawLine.trim()
+    if (sentence === "") { contextMetals = []; continue }
 
-      if (!referencesMetal(para, metalCanonical, declared)) continue
+    const inLine = metalMentions(sentence, ctx.declaredMetals)
+    const uniqInLine = [...new Set(inLine.map((m) => m.canon))]
+    const labeled = extractLabeledWithPos(sentence)
 
-      // Try to extract numeric statistics from this paragraph.
-      const stats = extractStats(para)
-      if (Object.keys(stats).length === 0) continue
+    // Header: names metal(s), carries no values, looks like a heading.
+    if (labeled.length === 0 && uniqInLine.length >= 1 && isHeaderish(sentence)) {
+      contextMetals = uniqInLine
+      continue
+    }
 
-      const basis = extractBasis(para)
-      const productSlug = chooseProduct(para, ctx.declaredProducts)
-      const jurisdiction = chooseJurisdiction(para, ctx.declaredJurisdictions)
+    // Effective mentions: in-line if present, else an inherited single-metal
+    // context (synthetic index -1 means "all stats bind to the context metal").
+    let mentions = inLine
+    if (mentions.length === 0) {
+      if (contextMetals.length !== 1) continue
+      mentions = [{ canon: contextMetals[0], index: -1 }]
+    }
 
-      // Apply unit normalization to each statistic.
-      const unit = "ppb"  // we normalize everything to ppb in the output
+    // Each labeled stat (with its character position) is attributed to the
+    // NEAREST metal mention. This keeps legitimate multi-metal sentences
+    // ("Pb mean 12 ppb, Cd mean 8 ppb" → two correct rows) while fixing v0's
+    // cross-metal bleed ("Fe median 68.80 ... Codex Pb limit" → 68.80 binds to
+    // Fe, not Pb). When a sentence has one metal, every stat binds to it.
+    if (labeled.length === 0) continue
 
-      const row = {
+    const nMatch = sentence.match(/\b[Nn]\s*=\s*(\d+)|sample size\s*(?:of\s*)?(\d+)/)
+    const sentenceN = nMatch ? Number(nMatch[1] || nMatch[2]) : null
+    const basis = extractBasis(sentence)
+    const jurisdiction = chooseJurisdiction(sentence, ctx.declaredJurisdictions)
+
+    // Group stats by nearest metal.
+    const byMetal = new Map()
+    for (const stat of labeled) {
+      let nearest = mentions[0]
+      let best = Math.abs(stat.index - mentions[0].index)
+      for (const m of mentions) {
+        const d = Math.abs(stat.index - m.index)
+        if (d < best) { best = d; nearest = m }
+      }
+      if (!byMetal.has(nearest.canon)) byMetal.set(nearest.canon, {})
+      const slot = byMetal.get(nearest.canon)
+      if (slot[stat.key] == null) slot[stat.key] = stat.value // first wins (closest label of its kind)
+    }
+
+    for (const [metalCanonical, stats] of byMetal) {
+      const productSlug = chooseProduct(sentence, ctx.declaredProducts)
+      rows.push({
         source_id: ctx.sourceId,
         source_page: ctx.sourcePage,
         row_slug: productSlug || "",
         metal_species: metalCanonical,
         product_label: productSlug || "",
         basis: basis || "",
-        n: stats.n != null ? String(stats.n) : (ctx.sampleN != null ? String(ctx.sampleN) : ""),
+        n: sentenceN != null ? String(sentenceN) : (ctx.sampleN != null ? String(ctx.sampleN) : ""),
         mean_ppb: stats.mean != null ? String(stats.mean) : "",
         median_ppb: stats.median != null ? String(stats.median) : "",
         p50_ppb: stats.p50 != null ? String(stats.p50) : (stats.median != null ? String(stats.median) : ""),
@@ -272,73 +313,97 @@ function parseKeyNumbersBlock(block, ctx) {
         p100_ppb: stats.p100 != null ? String(stats.p100) : (stats.max != null ? String(stats.max) : ""),
         max_ppb: stats.max != null ? String(stats.max) : "",
         min_ppb: stats.min != null ? String(stats.min) : "",
-        unit,
-        statistic_scope: para.slice(0, 200).replace(/\n/g, " "),
+        unit: "ppb", // everything normalized to ppb in the output
+        statistic_scope: sentence.slice(0, 200).replace(/\n/g, " "),
         evidence_fitness_verdict: ctx.evidenceTier === "A" ? "EF-2" : "EF-3",
-        review_state: "autonomy_v0_extracted",
+        review_state: "autonomy_v1_extracted",
         row_fit: "literature_summary_row",
         jurisdiction,
-        extraction_method: "autonomy_v0_regex_keynumbers",
-        notes: "Auto-extracted from wiki/sources/ Key numbers section. Validate before promotion.",
-      }
-      rows.push(row)
+        extraction_method: "autonomy_v1_line_scoped_nearest_metal",
+        notes: "Auto-extracted; each value bound to its nearest metal mention on its line (header metal context inherited by bulleted values). Validate before promotion.",
+      })
     }
   }
   return rows
 }
 
-function referencesMetal(paragraph, canonical, originalDeclared) {
-  const lower = paragraph.toLowerCase()
-  if (lower.includes(canonical.toLowerCase())) return true
-  if (lower.includes(originalDeclared.toLowerCase())) return true
-  // Long-form matches
+function metalMentions(sentence, declaredMetals) {
+  // Every declared-metal mention with its character index, sorted by position.
+  // Bare "arsenic" is deliberately NOT a tAs needle: it is a substring of
+  // "inorganic arsenic" and conflating the two violates the non-negotiable
+  // iAs/tAs speciation rule (CLAUDE.md Part 14). Only explicit "total arsenic"
+  // / "tAs" bind to tAs.
   const longForms = {
     Pb: ["lead"], Cd: ["cadmium"], iAs: ["inorganic arsenic", "inorganic as"],
-    tAs: ["total arsenic", "arsenic"], MeHg: ["methylmercury", "methyl mercury"],
+    tAs: ["total arsenic"], MeHg: ["methylmercury", "methyl mercury"],
     tHg: ["total mercury", "mercury"], Ni: ["nickel"], Al: ["aluminum", "aluminium"],
-    "Cr-VI": ["chromium(vi)", "hexavalent chromium", "cr(vi)"],
+    "Cr-VI": ["chromium(vi)", "hexavalent chromium", "cr(vi)"], "Cr-total": ["chromium"],
     Sn: ["tin"], U: ["uranium"],
   }
-  const lf = longForms[canonical]
-  if (lf && lf.some((s) => lower.includes(s))) return true
-  return false
-}
-
-function extractStats(paragraph) {
-  const stats = {}
-  // N or n=X or N=X or sample size X
-  const nMatch = paragraph.match(/\b[Nn]\s*=\s*(\d+)|sample size\s*(?:of\s*)?(\d+)|n=(\d+)/i)
-  if (nMatch) {
-    stats.n = Number(nMatch[1] || nMatch[2] || nMatch[3])
-  }
-  // mean X, mean X.X ppb, mean of X.X µg/kg
-  stats.mean = extractValueLabeled(paragraph, ["mean", "average"])
-  stats.median = extractValueLabeled(paragraph, ["median", "p50", "50th percentile"])
-  stats.max = extractValueLabeled(paragraph, ["max", "maximum", "highest"])
-  stats.min = extractValueLabeled(paragraph, ["min", "minimum", "lowest"])
-  stats.p90 = extractValueLabeled(paragraph, ["p90", "90th percentile"])
-  stats.p95 = extractValueLabeled(paragraph, ["p95", "95th percentile"])
-  stats.p100 = extractValueLabeled(paragraph, ["p100", "100th percentile"])
-
-  // Filter undefined → null
-  for (const k of Object.keys(stats)) {
-    if (stats[k] === undefined) stats[k] = null
-  }
-  return stats
-}
-
-function extractValueLabeled(paragraph, labels) {
-  // Look for "<label> X.X <unit>" where unit normalizes to ppb.
-  for (const label of labels) {
-    const re = new RegExp(
-      `\\b${label.replace(/\\/g, "\\\\").replace(/\s+/g, "\\s+")}\\b\\s*(?:of\\s+)?(?:=\\s*)?(\\d+(?:\\.\\d+)?)\\s*(ppb|µg/kg|ug/kg|mcg/kg|ng/g|mg/kg|ppm|µg/g|µg/L|ng/mL|ng/L)?`,
-      "i",
+  const mentions = []
+  for (const declared of declaredMetals) {
+    const canon = normalizeMetal(declared)
+    if (!canon) continue
+    const needles = new Set(
+      [canon, String(declared), ...(longForms[canon] || [])]
+        .map((s) => s.toLowerCase())
+        .filter(Boolean),
     )
-    const m = paragraph.match(re)
-    if (!m) continue
-    return normalizeToPpb(Number(m[1]), m[2] || "ppb")
+    for (const needle of needles) {
+      // Custom word boundary: not flanked by a letter/digit, so "al" matches a
+      // standalone "Al" but not "metal"/"also", and "cr" not "across".
+      const re = new RegExp(
+        `(?<![a-z0-9])${escapeRegex(needle).replace(/\s+/g, "\\s+")}(?![a-z0-9])`,
+        "gi",
+      )
+      let m
+      while ((m = re.exec(sentence)) !== null) {
+        mentions.push({ canon, index: m.index })
+        if (m.index === re.lastIndex) re.lastIndex++ // guard against zero-width loop
+      }
+    }
   }
-  return null
+  return mentions.sort((a, b) => a.index - b.index)
+}
+
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+function extractLabeledWithPos(sentence) {
+  // [{key, value(ppb), index}] for each labeled statistic in the sentence.
+  const out = []
+  const labelGroups = {
+    mean: ["mean", "average"],
+    median: ["median", "p50", "50th percentile"],
+    max: ["max", "maximum", "highest"],
+    min: ["min", "minimum", "lowest"],
+    p90: ["p90", "90th percentile"],
+    p95: ["p95", "95th percentile"],
+    p100: ["p100", "100th percentile"],
+  }
+  for (const [key, labels] of Object.entries(labelGroups)) {
+    for (const label of labels) {
+      const re = new RegExp(
+        // Number may carry thousands-separator commas: 1,583 / 1,975. Capture the
+        // comma group and strip it before Number(), or it truncates to "1".
+        `\\b${label.replace(/\s+/g, "\\s+")}\\b\\s*(?:of\\s+)?(?:=\\s*)?(\\d[\\d,]*(?:\\.\\d+)?)\\s*(ppb|µg/kg|ug/kg|mcg/kg|ng/g|mg/kg|ppm|µg/g|µg/L|ng/mL|ng/L)?`,
+        "ig",
+      )
+      let m
+      while ((m = re.exec(sentence)) !== null) {
+        const value = normalizeToPpb(Number(m[1].replace(/,/g, "")), m[2] || "ppb")
+        if (Number.isFinite(value)) out.push({ key, value, index: m.index })
+      }
+    }
+  }
+  return out
+}
+
+function isHeaderish(line) {
+  // A heading that sets metal context for the bullets beneath it: ends with a
+  // colon (optionally inside trailing asterisks/bold) or is a fully bold line.
+  return /:\**\s*$/.test(line) || /^\*\*[^*]+\*\*:?\s*$/.test(line)
 }
 
 function normalizeToPpb(value, unit) {
@@ -369,8 +434,14 @@ function extractBasis(paragraph) {
 function chooseProduct(paragraph, declaredProducts) {
   if (declaredProducts.length === 0) return ""
   if (declaredProducts.length === 1) return declaredProducts[0]
-  // Pick the one whose slug words appear most in the paragraph.
-  let best = declaredProducts[0]
+  // Pick the declared product whose slug words appear most in the line. When a
+  // broad multi-matrix source (e.g. a TDS food-group breakdown) lists a value
+  // for a matrix that is NOT one of its declared products, no slug word matches;
+  // return "" so the row is stranded into the starvation audit for a proper
+  // matrix→product mapping rather than dumped onto declaredProducts[0]. Dumping
+  // grains/vegetable/fish values onto the first declared snack slug pollutes a
+  // real cell with the wrong matrix.
+  let best = ""
   let bestScore = 0
   const para = paragraph.toLowerCase()
   for (const product of declaredProducts) {
