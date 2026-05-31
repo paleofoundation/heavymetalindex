@@ -393,3 +393,104 @@ Existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evi
 - The wiki source page was not modified; the prior 2026-05-20 merge-enhance + audit-revise is the canonical version.
 
 **Final line:** `STOP: pdf-already-ingested-clean trandafir2012-tin-canned-foods-icp-ms (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit)`
+
+## KADC_distribution-of-cadmium-in-fresh-vegetables-market — KIMI CORRUPTION / OFF-TOPIC PDF
+
+- **Source PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/Distribution of Cadmium in Fresh Vegetables Marketed in the Yangtze River Delta Region and Health Risk Assessment.pdf`
+- **Suggested handle from wrapper:** `KADC_distribution-of-cadmium-in-fresh-vegetables-market`
+- **Filename intent:** Distribution of cadmium in fresh vegetables marketed in the Yangtze River Delta region + health risk assessment (a real, on-topic HMI paper this folder was supposed to backfill).
+- **Actual PDF content:** Skoko A-MG, Vilić R, Kovač M, Nevistić A, Šarkanj B, Lores M, Celeiro M, Skenderović Babojelić M, Kovač T, Lončarić A (2022). "Occurrence of Patulin and Polyphenol Profile of Croatian Traditional and Conventional Apple Cultivars during Storage." *Foods* 11(13): 1912. DOI: 10.3390/foods11131912. CC BY 4.0, MDPI.
+- **Why rejected:** Off-topic for HMI. The paper measures the mycotoxin patulin (a Penicillium expansum secondary metabolite) and 14 polyphenolic compounds (catechin, epicatechin, phloridzin, phloretin, procyanidins B1/B2/A2, quercetine and three glycosides, myricetin, chlorogenic acid, 4-hydroxycinnamic acid, 2,6-dimethoxybenzoic acid) in 9 Croatian apple cultivars across 0/3/6-month cold storage. Quantification is UHPLC-MS/MS for patulin and LC-DAD for polyphenols. Reads in full (pp. 1–15 incl. Appendices A/B): no Pb, Cd, As, Hg, Ni, Al, Cr, Sn, Sb, or U values; no ICP-MS/AAS; no soil-metal context; no heavy-metal regulatory comparison. The one regulatory-limit citation (25 µg/kg) is the EU patulin limit (Reg. EC 1881/2006), not a metals limit. The paper would belong in a mycotoxin database, not HMI.
+- **This is exactly the Kimi corruption case this folder is named for.** The Kimi-agent downloader fetched the wrong PDF for the cadmium-in-Yangtze-vegetables slug. The actual on-topic paper is unrelated to this file.
+
+### Skill v2.0 outcome
+
+Phase 1 step 2 (read PDF) was completed in full — abstract, introduction, methods, all seven results tables (polyphenol content per cultivar × storage month), Appendix A correlation matrix, Appendix B method validation tables, references. Phase 1 step 3 (write/merge source page) was NOT executed: there is no HMI source page to write because the paper has no HMI-relevant content to extract. Frontmatter would have `metals: []`, no `## Key numbers` could be populated, and a "stub source page about an off-topic paper" would itself be a defect.
+
+### Action taken
+
+- No wiki source page written, no commit, no routing audit run, no audit-queue entry, no audit subagent spawned. Per skill stop-condition "paper-internal data-integrity issue that's not the obvious mirroring pattern" — here the data-integrity issue is at the file level (wrong PDF behind the filename), not inside the paper.
+- The misnamed PDF stays in place under `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/` so the corruption-folder tracker continues to see it. Surfacing here (rather than moving to a `_skipped/` subfolder) preserves the audit trail of which Kimi-fetched slugs delivered wrong content; a downstream pass can either (a) re-fetch the actually-intended cadmium-in-Yangtze paper under the correct slug or (b) bulk-archive confirmed-corrupt PDFs once the pattern is fully mapped.
+
+### Upstream signal
+
+This is at least the second Kimi-folder PDF this session that turned out to be a content/filename mismatch (cf. the SHA-identical-to-MFK Trandafir tin paper above, which was a *different* kind of duplication issue but in the same parent corruption folder). The Kimi-agent batch needs systemic verification: a one-pass script that opens each PDF, extracts the actual title/DOI, and compares against the filename slug would surface every mis-fetched PDF in a single sweep rather than discovering them one-at-a-time across many autonomous ticks. Worth considering before continuing to drain this folder PDF-by-PDF.
+
+**Final line:** `STOP: kimi-corruption-off-topic-pdf skoko2022-patulin-polyphenol-croatian-apples (actual content is patulin+polyphenols in apples, not cadmium in vegetables; no heavy-metals data to ingest)`
+
+## KADC_exposure-to-lead-and-cadmium-in-the-sixth-total-di — TRUE DUPLICATE CONFLICT (recurrence of 2026-05-20 stop)
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`
+- **PDF:** `Exposure to Lead and Cadmium in the Sixth Total Diet Study - China.pdf`
+- **Suggested handle:** `KADC_exposure-to-lead-and-cadmium-in-the-sixth-total-di`
+- **Actual paper:** Zhao X, Shao Y, Ma L, Shang X, Zhao Y, Wu Y (2022). "Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019." *China CDC Weekly*. DOI 10.46234/ccdcw2022.045.
+
+### Conflict
+
+Two existing wiki source pages already cover this same DOI:
+
+  - `wiki/sources/zhao2022-china-sixth-tds-pb-cd.md`
+    — `updated: 2026-05-13`, `raw_handle: manual-fetch-kimi` (legacy non-prefixed handle)
+    — `raw_path: raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Exposure to Lead and Cadmium in the Sixth Total Diet Study - Chin.pdf`
+  - `wiki/sources/zhao2022-china-tds6-lead-cadmium-exposure.md`
+    — `updated: 2026-05-17`, `raw_handle: MFK_exposure-lead-cadmium-sixth-tds-china`
+    — `raw_path: raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Exposure to Lead and Cadmium in the Sixth Total Diet Study - China.pdf`
+
+Both pages have substantively the same content (overlapping Key numbers tables, identical Pb/Cd national means, identical Hunan finding); they were ingested under two different cite-key conventions on different days. This was already surfaced as a stop on 2026-05-20 (tracker.csv row 215, MFK_ handle), and the underlying duplicate-page conflict has not been resolved since.
+
+### Why this is a stop, not a merge-enhance
+
+The skill's EXISTING/merge-enhance path assumes a single existing page to enhance. With two pages claiming the same DOI, the merge target is ambiguous, and the resolution requires curatorial decisions Claude should not make autonomously:
+
+1. Which cite-key wins as canonical: `zhao2022-china-sixth-tds-pb-cd` or `zhao2022-china-tds6-lead-cadmium-exposure`. Both follow valid conventions; neither is "obviously wrong."
+2. Which `raw_handle` wins (legacy `manual-fetch-kimi` vs `MFK_exposure-lead-cadmium-sixth-tds-china` vs the new `KADC_...` suggested by the corruption-folder).
+3. Which page to delete and which inbound `[[wiki/sources/...]]` references to rewrite (likely none yet, given the routing layer fans out via cite-key, but a backlink sweep is needed).
+4. Whether to update the surviving page's `raw_path` to the corruption-folder copy or keep the original Manual Fetch Kimi path (filesystem path independence vs forensic provenance).
+
+Ingesting a third copy under `KADC_exposure-to-lead-and-cadmium-in-the-sixth-total-di` would compound the duplication, not resolve it.
+
+### Action taken
+
+- No wiki source page written, no commit, no routing audit run, no audit-queue entry, no audit subagent spawned.
+- Updating tracker.csv row 872 (the KADC_ entry) from `unprocessed` to `stopped` with this report's note.
+- Surfacing for Karen as a recurring duplicate-cite-key conflict in the corpus. Resolution path: pick one cite-key as canonical, delete the other source page, rerun `npm run evidence:source-routes` to confirm no orphaned references, and only then continue draining the KADC_ folder.
+
+### Upstream signal
+
+The duplicate-page problem here is a *corpus* issue, not a corruption-folder issue. The KADC_ tick correctly attempted to ingest this paper as if it were new because the tracker had no `KADC_` row for it yet; the deduper at the tick level checks the tracker, not the DOI grep across `wiki/sources/`. Adding a DOI-first dedup pass (grep `wiki/sources/` for the suggested DOI before queueing a tracker row) would catch this class of conflict at fetch time rather than at ingest time. Worth considering as a Codex micro-task: extend the manual-fetch pre-queue check with a `doi_present_in_corpus` filter.
+
+**Final line:** `STOP: duplicate-source-pages KADC_exposure-to-lead-and-cadmium-in-the-sixth-total-di (DOI 10.46234/ccdcw2022.045 already exists on two wiki source pages with different cite-keys; needs Karen to pick canonical cite-key and delete the other before any further ingest)`
+
+## KADC_the-first-hong-kong-total-diet-study-metallic-cont — SHA-IDENTICAL DUPLICATE / ALREADY INGESTED CLEAN
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/02_Vegetables_and_Vegetable_Products/`
+- **PDF:** `The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`
+- **KADC SHA256:** `f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c`
+- **MFK root path:** `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`
+- **MFK root SHA256:** `f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c` (byte-identical)
+- **Existing cite-key:** `cfs2013-hktds-metallic-contaminants`
+- **Existing page path:** `wiki/sources/cfs2013-hktds-metallic-contaminants.md`
+- **Existing page `updated:`** `2026-05-20` (post-2026-05-14 cutoff)
+
+### Why skipped
+
+Same duplicate-tree pattern as prior KADC_ entries in this log. The Kimi-Agent-Download-Corruption-Issue folder mirrors PDFs already filed under `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/`. The MFK_ root copy of this PDF was ingested then merge-enhanced 2026-05-20 (tracker line 222) with full numerical fidelity verification against the 111-page CFS Report No. 5: Tables 3.1, 4.1, 5.1, 6.1, 7.1, 8.1, 9.1, 10.1 (per-food-group means/ranges for Al, Sb, Cd, Pb, MeHg, Ni, Sn, V), all LOD/LOQ values, dietary-exposure benchmarks (PTWI/PTMI/TDI percentages), the 11%-of-childbearing-age-women-exceeding-1.6-PTWI MeHg figure, and the deep-fried-dough 250 mg/kg Al / oyster 1,300 µg/kg Cd / tuna 330 µg/kg MeHg / peanut 5,300 µg/kg Ni food-item anchors. Vanadium (Table 10.1) was added in the merge-enhance pass. Audit subagent (2026-05-20) returned PROMOTE verdict with a minor wording revision applied for the §3.8 vs Appendix I Table A Chinese-spinach range discrepancy. The KADC_ copy is byte-identical to the MFK_ root (SHA256 verified).
+
+- Identity-check grep hits:
+  - Title-substring grep on `wiki/sources/`: `cfs2013-hktds-metallic-contaminants.md` (single hit; the sibling `cfs2012-hktds-inorganic-arsenic.md` is a near-duplicate cross-reference, not the same paper)
+  - DOI grep: paper has no DOI (`doi: null`, `no_doi_assigned: true`); identity via title + raw_handle + author (Centre for Food Safety HK) + publication + report number
+  - SHA256 collision against the MFK_ root: confirmed identical (`f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c`)
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+Existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evidence/routing_unresolved.csv`, not in `data/evidence/routing_malformed.csv`. Audit verdict on the page was PROMOTE (one ⚠️ Chinese-spinach Appendix-I sourcing note applied 2026-05-20). The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. Re-ingesting via the KADC_ root would either duplicate the page or regress the 2026-05-20 merge-enhance + audit-promote work.
+
+Precedent for this exact PDF already exists on tracker line 299: `raw/Manual Fetch Kimi /condiment_papers/04_Condiments_and_Sauces/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf` was skipped 2026-05-28 under the same MFK_ handle for the same reason. The KADC_ tree is a third copy of the same PDF (the Kimi corruption folder bundled a fresh mirror of multiple Vegetables/Condiments subfolders).
+
+### Action taken
+
+- Tracker row for `KADC_the-first-hong-kong-total-diet-study-metallic-cont` (line 879 of `data/evidence/autonomy/manual-fetch-tracker.csv`) flipped from `unprocessed` to `stopped` with cite-key reference and SHA-identical-duplicate reasoning in the notes column so future wrapper ticks short-circuit on row read.
+- No ingest, no merge-enhance, no audit, no commit beyond the tracker edit.
+- The wiki source page was not modified; the prior 2026-05-20 merge-enhance + audit-promote is the canonical version.
+
+**Final line:** `STOP: pdf-already-ingested-clean cfs2013-hktds-metallic-contaminants (SHA-identical to MFK_ root; existing page updated 2026-05-20 and clean per routing audit; PROMOTE verdict)`
