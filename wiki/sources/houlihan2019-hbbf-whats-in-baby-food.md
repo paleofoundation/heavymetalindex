@@ -17,12 +17,13 @@ ingredients: ["[[ingredients/rice]]", "[[ingredients/carrots]]", "[[ingredients/
 products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/root-vegetable-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/fruit-purees]]", "[[products/fruit-juice-not-canned]]", "[[products/teething-and-snacks-rice-based]]", "[[products/teething-and-snacks-non-rice]]", "[[products/infant-formula-powder]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-and-child-foods-master]]", "[[products/snacks-crackers-biscuits]]"]
 matrices: [baby-food-puree, fruit-puree, vegetable-puree, baby-snack, fruit-juice, infant-formula]
 jurisdictions: [US]
+near_duplicates: ["HBBF-2019-EXEC-SUMM-ENGLISH-R6 (6-page executive summary, version R6 March 2020, © October 2019 HBBF and Virginia Organizing; same two authors Houlihan and Brody, same 168-baby-foods/61-brands/4-metals dataset, same Brooks Applied Labs testing, same Abt Associates IQ-loss model, same 5 safer-choice substitution recommendations, same 15-foods-account-for-55%-of-risk framing; strict content subset of the already-ingested full report — no numerical findings absent from the full report; PDF at raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_01_Bottles_Nipples_SippyCups/01_Bottles_Nipples_SippyCups/03_2019_BabyFoodReport_EXEC-SUMM-ENGLISH_R6.pdf (Kimi-corruption-recovery extract; duplicate copy also present under batch1_contact_products/01_Bottles_Nipples_SippyCups/)"]
 sample_n: 168
 sample_population: "168 commercial baby food containers, 61 brands, 13 food types; purchased from 14 US metropolitan areas and 15 retail chains in 2019"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-17
+updated: 2026-05-31
 ---
 
 # Houlihan and Brody 2019 — HBBF: What's in My Baby's Food?
@@ -118,6 +119,7 @@ Microbiome: Not addressed in this source.
 
 - This page was enhanced 2026-05-17 against the prior 2026-05-13 revision. Slug-vocabulary fixes only — the prior page's substantive content (Key numbers, Methods, Implications) was already strong and was preserved as-is. Defects corrected: (a) invalid product slugs `infant-formula` and `infant-rice-cereal` replaced with taxonomy-valid `infant-formula-powder`, `infant-formula-rtf-liquid-non-soy`, `baby-cereals-dry-rice-based`, `teething-and-snacks-rice-based`; (b) added missing valid slugs (`non-root-vegetable-purees`, `teething-and-snacks-non-rice`, `snacks-crackers-biscuits`, fruit ingredient `apple`); (c) matrices vocabulary replaced with system-prompt valid terms; (d) legacy `## Wiki pages updated on ingest` heading modernized; (e) metals page references expanded to include `arsenic-inorganic`, `arsenic-total`, `mercury-total` rather than the generic `arsenic` / `mercury` umbrella slugs (the report measures and reports speciated iAs separately for the 25 highest-arsenic foods).
 - Cross-vendor audit 2026-05-17 corrected the local `raw_path`, clarified that results are product-as-tested/as-sold rather than uniformly wet-weight, added Appendix C analytical-method detail, noted that the cereal safer-choice comparison is iAs-only, and reframed substitution/HMT&C/app implications to avoid wiki-side consumer guidance or threshold-setting claims.
+- 2026-05-31 near-duplicate registration (manual-fetch v2.0): the 6-page Executive Summary (`03_2019_BabyFoodReport_EXEC-SUMM-ENGLISH_R6.pdf`, version R6 March 2020) was encountered in a Kimi-corruption-recovery extract of `01_Bottles_Nipples_SippyCups`. Full-PDF read confirmed it is a strict content subset of the already-ingested full report: same authors, same 168-baby-foods Brooks Applied Labs dataset, same detection percentages (As 73%, Pb 94%, Cd 75%, Hg 32%; 95% one-or-more; 26% all-four), same Abt Associates IQ-loss commission (11+ million IQ points; rice-based foods ≈ one-fifth share; 15 foods drive 55% of risk), same 5 safer-choice substitution table (snacks 93%, teething 91%, cereal 84%, drinks 68%, fruits/veggies up to 73%), same FDA/Baby Food Council framing. No numerical findings, methods detail, or implications appear in the exec summary that are absent from the full report. Registered as a `near_duplicates` entry rather than ingested as a parallel source page, to preserve the one-study-equals-one-evidence-bearing-page invariant.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
