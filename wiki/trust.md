@@ -1,12 +1,12 @@
 ---
-title: Trust Centre
+title: Trust Center
 description: One-page navigator to every Heavy Metal Index trust artifact — methodology, editorial governance, conflicts of interest, errata, licensing, audits, and version history. The page a sophisticated reader (brand legal, regulator, journalist, peer reviewer) reaches first.
 audience: [regulator, brand-legal, brand-qa, researcher, journalist, ai-integrator]
 wiki_doi: null
 updated: 2026-05-28
 ---
 
-# Trust Centre
+# Trust Center
 
 This page is the single navigator a sophisticated reader can reach to confirm how the Heavy Metal Index is built, who is accountable for it, and what they can do with what they read here. It is intentionally one page and intentionally short. Each section names the canonical artifact and links straight to it; the depth lives on the linked pages, not here.
 
