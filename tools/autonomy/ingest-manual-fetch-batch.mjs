@@ -73,6 +73,12 @@ if (requestedConcurrency > 1) {
 }
 const concurrency = 1
 const folderRestrict = args.get("folder") ?? null
+// --exclude-roots=auto-fetched : skip PDFs whose path contains any listed
+// substring. Used to PARTITION engines: FRANK runs Opus with
+// --exclude-roots=auto-fetched so Codex/GPT-5.5 (free, on the ChatGPT Plus sub)
+// owns the high-volume auto-fetched stream exclusively, and the two never pick
+// the same paper. See tools/autonomy/ingest-with-codex.mjs.
+const excludeRoots = (args.get("exclude-roots") ?? "").split(",").map((s) => s.trim()).filter(Boolean)
 const model = args.get("model") ?? "claude-opus-4-7"
 
 const autonomyDir = path.join(repoRoot, "data/evidence/autonomy")
@@ -233,9 +239,13 @@ function walkPdfs() {
     walkPdfsRecursive(path.join(repoRoot, root.root), root.handlePrefix, all)
   }
   // Filter by folder restriction if set
-  const filtered = folderRestrict
+  let filtered = folderRestrict
     ? all.filter((p) => p.pdfPath.includes(folderRestrict))
     : all
+  // Engine partition: drop any root excluded via --exclude-roots.
+  if (excludeRoots.length) {
+    filtered = filtered.filter((p) => !excludeRoots.some((ex) => p.pdfPath.includes(ex)))
+  }
   // Sort by priority keyword order; PDFs matching earlier keywords come first
   filtered.sort((a, b) => priorityRank(a.pdfPath) - priorityRank(b.pdfPath))
   return filtered

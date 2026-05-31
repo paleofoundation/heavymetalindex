@@ -274,7 +274,15 @@ async function runFetch() {
 async function runIngest() {
   heartbeat(`ingesting a paper — full Cochrane workflow (started ${hhmm()}, hard-stop ${CFG.ingestTimeoutMs / 60000}m)`)
   log("stage ingest: start")
-  const r = await runStage("ingest", [NODE, "tools/autonomy/ingest-manual-fetch-batch.mjs", `--max-pdfs=${CFG.ingestPerCycle}`], CFG.ingestTimeoutMs)
+  // --exclude-roots=auto-fetched: Opus owns the curated manual folders; the
+  // Codex/GPT-5.5 engine (free, ChatGPT Plus) owns the auto-fetched bulk via
+  // its own launchd job. Partitioned so the two engines never pick the same
+  // paper. Don't spend paid Opus on the high-volume machine-fetched stream.
+  const r = await runStage(
+    "ingest",
+    [NODE, "tools/autonomy/ingest-manual-fetch-batch.mjs", `--max-pdfs=${CFG.ingestPerCycle}`, "--exclude-roots=auto-fetched"],
+    CFG.ingestTimeoutMs,
+  )
   r.summary = summarize(r)
   RECENT.push(r)
   log(`stage ingest: ${r.summary} (${Math.round(r.durMs / 1000)}s)`)
