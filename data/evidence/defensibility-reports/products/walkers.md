@@ -2,7 +2,7 @@
 source_page: wiki/products/walkers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9c2df074c555405ac85a0e11b4b2a94af451e1c9bd3a1cbac8cb8095f6054bfb
+source_page_sha256: 2d63386341980b0b0702734b78ba07f8b4007822f3bf2158ad6ee3ea18bd8903
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 

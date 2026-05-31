@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-food-semi-moist.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5c1affde7eff42d38f255ff6856e7064d03a7a1814147ae73ca82a7c24b2fa5c
+source_page_sha256: 4d32bf24aec8a012549f74c56eb1aea6adb6c78c34fb73f9b30fef5e09af77a3
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 

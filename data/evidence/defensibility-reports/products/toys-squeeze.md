@@ -2,7 +2,7 @@
 source_page: wiki/products/toys-squeeze.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a792da537567d4551e58c8c4dde5a0925d660d30d397414aefe931ec03b27c31
+source_page_sha256: b379bc808ac12fa563e9ddfebbfb94274fc1da8d33e6ec2d38410907ba37e494
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-powders.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d69b44134ace9079021a3a1715d59dcdd2845a6aa0d93da6ab496b11dbabd492
+source_page_sha256: 1b83034f7334a936d36895deb9ce67682382da417ca6544bc756778d734c82d0
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 

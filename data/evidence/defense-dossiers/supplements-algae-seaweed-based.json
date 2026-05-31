@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-algae-seaweed-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1ae709ea816aa714871db2d24d329cccc4bab9508bd236957969a962803ae95b",
-      "content_bytes": 7679,
+      "content_sha256": "d08552ce687e753f6f48f78e2d18d9a48a832ee32ce9c3a97da653f923ed9485",
+      "content_bytes": 8781,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -26,9 +26,57 @@
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/shaughnessy2023-sugar-kelp-new-england-metals",
+        "title": "Evidence of elevated heavy metals concentrations in wild and farmed sugar kelp (Saccharina latissima) in New England",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shaughnessy2023-sugar-kelp-new-england-metals",
+        "content_pin": {
+          "content_sha256": "c7748d5b1aecca8349de47690df6a19ffaabb211698afe5a666a7a01dd4253bc",
+          "content_bytes": 3365,
+          "last_commit_sha": "50ec0f0",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50ec0f0:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sund2026-saccharina-pte-processing",
+        "title": "Pulsed electric field processing as an alternative to warm water treatment for the reduction of potentially toxic elements in Saccharina latissima",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sund2026-saccharina-pte-processing",
+        "content_pin": {
+          "content_sha256": "55a653fc98f4df47a3afb63266bd594adb35ae06a7a9af98c54a81b4bbdfc763",
+          "content_bytes": 3241,
+          "last_commit_sha": "50ec0f0",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50ec0f0:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

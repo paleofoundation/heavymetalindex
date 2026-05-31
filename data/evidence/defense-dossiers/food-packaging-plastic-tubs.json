@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-plastic-tubs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5cf59b2018611075eeefb83ec7e9379184111ad233903842cb36cb95fa26d5b4",
-      "content_bytes": 7607,
+      "content_sha256": "1f7b3b256970eaae61b212a6c83955668b294ec09097f46b9bc4b23fdd8c65aa",
+      "content_bytes": 7576,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

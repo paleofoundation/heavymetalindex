@@ -2,7 +2,7 @@
 source_page: wiki/products/eggs-product.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3a16735a5463107d8fd48c42be5003b7a9fc0435db6df9201fa54d3f9712ef5e
+source_page_sha256: 7bf286ee006628c16e15b02c8924c34edbeeadc1f9cc71e1055ef989ef8f7316
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 

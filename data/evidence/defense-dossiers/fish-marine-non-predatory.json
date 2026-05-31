@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-marine-non-predatory",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f5f3fa1615defdf17d72b421b8357438f2d1c694899696fd119c534f788e4b40",
-      "content_bytes": 9287,
+      "content_sha256": "e8972e9cd50945f84f08128791d68cafea0a713292f160c2aba1dde982dc67e9",
+      "content_bytes": 9188,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -47,8 +47,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dibella2020-augusta-meat-milk-seafood-metals",
         "content_pin": {
-          "content_sha256": "87645dd5e9d31ea8cb1b3f2cc2c2907eb8a43f906b6b0383ab2946808deb96a1",
-          "content_bytes": 4766,
+          "content_sha256": "9357290517e4a8d16b2d8a745489bb1d2548d56b28d2ec85737f3b96beeac033",
+          "content_bytes": 4641,
           "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -71,8 +71,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dineshkumar2025-fish-heavy-metals",
         "content_pin": {
-          "content_sha256": "973854900cf13d217e1ab8124d3103c3d24503a9c71daceb47805e33ad04ea1f",
-          "content_bytes": 2814,
+          "content_sha256": "12b15a6912579727bc3181d10077ace3fe14dae4899e5c108f71a1f40642bbee",
+          "content_bytes": 2969,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -93,8 +93,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
         "content_pin": {
-          "content_sha256": "88b1d73aa256f56ef109f756191c57f398c196361c10a0868f3f1e36b7d77b9d",
-          "content_bytes": 17276,
+          "content_sha256": "78b1e5cd0b382a64000f2a5440948764ff2c0d2118e70d041786da1c8bf845e5",
+          "content_bytes": 17170,
           "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

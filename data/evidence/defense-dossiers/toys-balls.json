@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-balls",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b0ae7acab47da1b5ef9547d25411058565981147abaf012dbadb2581faf56a1f",
-      "content_bytes": 7451,
+      "content_sha256": "3c5af757ee8b810c36996d434249b5d3b4ae4980fb6790fe40d2593735ae9810",
+      "content_bytes": 7420,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

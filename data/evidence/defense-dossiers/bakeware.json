@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/bakeware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c3682346ce318e01462456f693ffb0934e0d4459bd12a5ff26d551ab435355dc",
-      "content_bytes": 7512,
+      "content_sha256": "004846e16df070b225748142334e57adb9bc31523c1ec5ab4258e887a36a29de",
+      "content_bytes": 7481,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

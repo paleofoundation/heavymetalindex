@@ -113,3 +113,14 @@ Fresh-context audit subagent (2026-05-30) verdict PROMOTE; all five checks clean
 - Check 3 (speciation/methods): tHg total-mercury convention correct (AMA 254, no MeHg speciation); the qualitative methylmercury mention in the source refers to other Czech localities, not these samples. Methods detail matches the source with no inventions.
 - Check 4 (Part 12 brand firewall): clean — no brand attached to contamination values; instrument/vendor/reference-material names fall under the methods-vendor exception.
 - Check 5 (Part 2 wiki/HMTc firewall): clean — no synthesis, no threshold proposals; consumer/risk statements are the authors' own attributed conclusions.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [627698b](https://github.com/paleofoundation/heavymetalindex/commit/627698b) | 2026-05-30 | audit: vicarova2016-common-carp-czech-reservoirs promoted |
+| [4a3b167](https://github.com/paleofoundation/heavymetalindex/commit/4a3b167) | 2026-05-30 | ingest: vicarova2016-common-carp-czech-reservoirs fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish |
+<!-- END: hmi-page-history -->

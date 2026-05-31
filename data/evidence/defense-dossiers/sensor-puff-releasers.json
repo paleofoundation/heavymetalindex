@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/sensor-puff-releasers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b6627a7cd1a3c91874a674f1cb59038c3969640c76154e42a6362dcd3a66c64a",
-      "content_bytes": 7563,
+      "content_sha256": "e39a9f0963a943a7ebbe9b956bb4acc1e0a6ac8f6ce0f3963aa1030b73fb87fe",
+      "content_bytes": 7532,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

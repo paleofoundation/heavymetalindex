@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:e902e8143dde912bc29f2808e66eca5b…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:afa29b5e82a8082c004dd54ce35eefc2…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=cribs-and-bassinets&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/cribs-and-bassinets&download=1`.
 

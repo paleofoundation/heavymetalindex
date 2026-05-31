@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:ad15480f256b52a1a45d17827c12b3d4…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:f02c18d97fdfd45cb9d61f55ff3310a5…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=denture-orthodontic-care&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/denture-orthodontic-care&download=1`.
 

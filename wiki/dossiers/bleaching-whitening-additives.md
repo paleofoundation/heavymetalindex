@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:1d7dc83cd328321946bb8cebf960cc1b…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:2b7244b4c765b28014b32d4adf048517…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=bleaching-whitening-additives&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/bleaching-whitening-additives&download=1`.
 

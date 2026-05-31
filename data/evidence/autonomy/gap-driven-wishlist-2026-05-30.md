@@ -3,51 +3,52 @@
 ## Summary
 
 - Path A (pooling-engine-driven thin cells): 1502 candidate queries
-- Path B (empty product + thin ingredient pages): 10809 candidate queries
-- Total candidates (after dedup): 16223
+- Path B (empty product + thin ingredient pages): 10769 candidate queries
+- Total candidates (after dedup): 16183
 - Dropped as low-yield by query-history filter: 0
-- Eligible after filtering: 16223
+- Eligible after filtering: 16183
 - Final wishlist (capped at 2500): 2500
 
 ### By priority
 
-- P1: 1384
-- P2: 1116
+- P1: 2031
+- P2: 437
+- P3: 32
 
 ### By source path
 
-- ingredient: 2500
+- product: 2500
 
 ## Query-history-aware deprioritization
 
 Threshold: a (query × cell) attempted >=5 times with <2 successful downloads is dropped from this run.
 
-Audit-log scale: 22 (query × cell) histories tracked.
+Audit-log scale: 174 (query × cell) histories tracked.
 
 ## Top 20 priority queries this run
 
 | Priority | Product/Ingredient × Metal | Query |
 |---|---|---|
-| P1 | ingredient:rapeseed-oil × Sn | rapeseed oil heavy metals tin contamination occurrence |
-| P1 | ingredient:dill-pickles × iAs | dill pickles heavy metals inorganic arsenic contamination occurrence |
-| P1 | ingredient:olives × Al | olives heavy metals aluminum contamination occurrence |
-| P1 | ingredient:soybean-oil × Al | soybean oil heavy metals aluminum contamination occurrence |
-| P1 | ingredient:soy-based-infant-formula × Sn | soy based infant formula tin contamination occurrence |
-| P1 | ingredient:rice-flour × Cr | rice flour heavy metals chromium contamination occurrence |
-| P1 | ingredient:soybean-oil × iAs | soybean oil inorganic arsenic contamination occurrence |
-| P1 | ingredient:skim-milk × Al | skim milk heavy metals aluminum contamination occurrence |
-| P1 | ingredient:reduced-fat-milk × Sn | reduced fat milk tin contamination occurrence |
-| P1 | ingredient:lima-beans × iAs | lima beans inorganic arsenic contamination occurrence |
-| P1 | ingredient:vegetable-purees × tHg | vegetable purees total mercury contamination occurrence |
-| P1 | ingredient:chapattis × Cr | chapattis chromium contamination occurrence |
-| P1 | ingredient:peanuts × Sn | peanuts tin contamination occurrence |
-| P1 | ingredient:meat-and-poultry-purees × Pb | meat and poultry purees heavy metals lead contamination occurrence |
-| P1 | ingredient:canned-tomatoes × Cr | canned tomatoes chromium contamination occurrence |
-| P1 | ingredient:apple-cider-vinegar × Sn | apple cider vinegar heavy metals tin contamination occurrence |
-| P1 | ingredient:hazelnuts × Al | hazelnuts heavy metals aluminum contamination occurrence |
-| P1 | ingredient:pork-sausages × iAs | pork sausages inorganic arsenic contamination occurrence |
-| P1 | ingredient:rice-flour × Cr | rice flour chromium contamination occurrence |
-| P1 | ingredient:orange-juice × tAs | orange juice heavy metals total arsenic contamination occurrence |
+| P1 | sippy-cups-toddler-drinkware × Cd | sippy cups and toddler drinkware components Cd |
+| P1 | feeding-accessories-child-sized × tAs | feeding accessories child sized arsenic |
+| P1 | feeding-accessories-child-sized × tHg | feeding accessories child sized total mercury |
+| P1 | feeding-accessories-child-sized × Cd | feeding accessories child sized cadmium |
+| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking teething aids heavy metals Pb occurrence |
+| P1 | sippy-cups-toddler-drinkware × Cd | sippy cups toddler drinkware Cd |
+| P1 | feeding-accessories-child-sized × tHg | feeding accessories (spoons, plates, bowls — child-sized) mercury |
+| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking/teething aids lead |
+| P1 | feeding-accessories-child-sized × tAs | feeding accessories child sized children product safety arsenic |
+| P1 | infant-bottles × tHg | infant bottles children product safety mercury |
+| P1 | pacifiers-and-sucking-teething-aids × Pb | pacifiers and sucking teething aids Pb occurrence |
+| P1 | pacifiers-and-sucking-teething-aids × Cd | pacifiers and sucking teething aids heavy metals Cd occurrence |
+| P1 | feeding-accessories-child-sized × tAs | feeding accessories (spoons, plates, bowls — child-sized) total arsenic |
+| P1 | infant-bottles × Pb | infant bottles Pb |
+| P1 | pacifiers-and-sucking-teething-aids × tAs | pacifiers and sucking teething aids arsenic occurrence |
+| P1 | infant-bottle-nipples × Cd | infant bottle nipples toy heavy metals Cd |
+| P1 | sippy-cups-toddler-drinkware × tAs | sippy cups toddler drinkware heavy metals total arsenic |
+| P1 | infant-bottles × Pb | infant bottles heavy metals Pb |
+| P1 | pacifiers-and-sucking-teething-aids × Cd | pacifiers and sucking teething aids heavy metals cadmium occurrence |
+| P1 | sippy-cups-toddler-drinkware × Pb | sippy cups toddler drinkware children product safety Pb |
 
 ## Coverage rotation
 

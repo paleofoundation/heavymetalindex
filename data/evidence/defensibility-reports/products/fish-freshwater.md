@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-freshwater.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 429d0c0576f86e66faf9914685f5b80c98a32a22dc08a92d8a5305f61af70084
+source_page_sha256: 096a858a495a7964144bad7d98503c1286fbfda89632b2906a027e3d39d21be4
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 10
-distinct_cited_sources: 10
+distinct_cited_targets: 12
+distinct_cited_sources: 12
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 1 |
 | cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 10 |
-| distinct cited `sources/` pages | 10 |
+| distinct cited targets | 12 |
+| distinct cited `sources/` pages | 12 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 
@@ -50,7 +50,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (10):
+- Cited targets (12):
   - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
     - audit rows: none
   - `wiki/sources/epa1999-mercury-update-fish-advisories\.md` (page missing)
@@ -61,7 +61,11 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/jesse2025-unknown\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/lehel2024-rainbow-trout-aquaculture-italy\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/majlesi2019-farmed-rainbow-trout-yasuj-iran\.md` (page missing)
     - audit rows: none
   - `wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\.md` (page missing)
     - audit rows: none
@@ -85,7 +89,9 @@ _All claims trace to at least one cited source._
 | `wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr\.md` | sources | 0 | — | — |
 | `wiki/sources/hoy2023-arsenic-speciation-freshwater-fish\.md` | sources | 0 | — | — |
 | `wiki/sources/jesse2025-unknown\.md` | sources | 0 | — | — |
+| `wiki/sources/lehel2024-rainbow-trout-aquaculture-italy\.md` | sources | 0 | — | — |
 | `wiki/sources/maikanov2020-fish-products-shuchinsk-burabay-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/majlesi2019-farmed-rainbow-trout-yasuj-iran\.md` | sources | 0 | — | — |
 | `wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\.md` | sources | 0 | — | — |
 | `wiki/sources/naseem2026-seasonal-heavy-metals-water-fish\.md` | sources | 0 | — | — |
 | `wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\.md` | sources | 0 | — | — |

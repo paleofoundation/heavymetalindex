@@ -77,7 +77,7 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">940</a></dd>
+      <dd><a href="sources/">956</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
@@ -89,11 +89,11 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">917</a></dd>
+      <dd><a href="sources/">929</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
-      <dd><a href="methodology/">618</a></dd>
+      <dd><a href="methodology/">629</a></dd>
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
@@ -101,11 +101,11 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Ingredient profiles</dt>
-      <dd><a href="ingredients/">264</a></dd>
+      <dd><a href="ingredients/">265</a></dd>
     </div>
     <div>
       <dt>Product categories</dt>
-      <dd><a href="products/">352</a></dd>
+      <dd><a href="products/">355</a></dd>
     </div>
     <div>
       <dt>Metal profiles</dt>
@@ -124,13 +124,13 @@ updated: 2026-04-30
 <!-- BEGIN: hmi-feature-grid -->
 <section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
   <div class="hmi-home-feature-card">
-    <span>352 pages</span>
+    <span>355 pages</span>
     <h2><a href="products/">Products</a></h2>
     <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
     <div class="hmi-home-card-meta">Consumer-facing categories</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>264 pages</span>
+    <span>265 pages</span>
     <h2><a href="ingredients/">Ingredients</a></h2>
     <p>Ingredient-level profiles for rice, cocoa, fish, vegetables, grains, and formula inputs.</p>
     <div class="hmi-home-card-meta">Commodity drivers</div>
@@ -148,7 +148,7 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Thresholds and agencies</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>1,136 pages</span>
+    <span>1,152 pages</span>
     <h2><a href="sources/">Sources</a></h2>
     <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
     <div class="hmi-home-card-meta">Traceable evidence</div>

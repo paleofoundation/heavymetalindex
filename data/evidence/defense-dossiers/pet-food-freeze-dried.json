@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-freeze-dried",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "396d723de3839308cba0111d8f1b6d0f45f01ee185bd919d3f95b6ebb83c78e8",
-      "content_bytes": 7712,
+      "content_sha256": "181e8dad8ab2a16bd710e9d74800ea660b21ce3d6b4b80b41ca1108bd5cc62c1",
+      "content_bytes": 7681,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:0758da8a53bcb3496b2be68e73605bfd…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:3d0f51425be3ab280b8b2ef2c12c1518…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=butter-and-ghee&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/butter-and-ghee&download=1`.
 

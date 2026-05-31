@@ -68,3 +68,12 @@ App: Supports a high-priority seaweed risk flag after synthesis, with species an
 
 The PDF text extraction surfaced narrative and regulatory comparisons but not all supplementary sample-level tables. This page preserves the routeable matrix and high-level numerical standards; audit should pull supplementary table values before benchmark-pool use.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50ec0f0](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f0) | 2026-05-30 | ingest auto-fetched 2026-05-30 2145 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

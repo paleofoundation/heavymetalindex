@@ -2079,6 +2079,16 @@ root-vegetables,Al,populated,medium,1,2026-05-13,10,9,0
 root-vegetables,Cr,populated,medium,7,2026-05-16,10,3,0
 root-vegetables,Sn,populated,low,2,2026-05-16,10,8,0
 root-vegetables,U,populated,null,0,2026-05-12,10,10,0
+salt,Pb,pending,null,0,null,10,10,0
+salt,Cd,pending,null,0,null,10,10,0
+salt,iAs,pending,null,0,null,10,10,0
+salt,tAs,pending,null,0,null,10,10,0
+salt,tHg,pending,null,0,null,10,10,0
+salt,Ni,pending,null,0,null,10,10,0
+salt,Al,pending,null,0,null,10,10,0
+salt,Cr,missing,null,0,,10,10,0
+salt,Sn,pending,null,0,null,10,10,0
+salt,U,missing,null,0,,10,10,0
 saltine-crackers,Pb,populated,low,2,2026-05-13,10,8,0
 saltine-crackers,Cd,populated,low,2,2026-05-13,10,8,0
 saltine-crackers,iAs,populated,null,0,2026-05-12,10,10,0

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:c6a5d1781615c9525a011f0e7ff372ab…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `9658f6b` (2026-05-30). The body hashes to `sha256:070b2873bf60dd4b653f1cfc575c5a12…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=vacuum-cleaner-fragrance-additives&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/vacuum-cleaner-fragrance-additives&download=1`.
 

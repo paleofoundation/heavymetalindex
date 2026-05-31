@@ -2,7 +2,7 @@
 source_page: wiki/products/plant-milks-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ba5dfbf51ff5fd1523356a84e6b7c47d55bdabbd81a413889514afebed130a3c
+source_page_sha256: 7c86557222b653c3923a7a4b280042860519b03883bd0b33ca0a6d33a787eb57
 total_claims: 27
 cited_claims: 19
 uncited_claims: 8
@@ -10,7 +10,7 @@ distinct_cited_targets: 3
 distinct_cited_sources: 3
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 3 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 

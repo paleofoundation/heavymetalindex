@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/scented-candles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d782fa678a59372b62ab8f3058ca1543583ad5399b6259ccb4d797bebfea896c",
-      "content_bytes": 7509,
+      "content_sha256": "de5c868414a79e1efe329a974eaa86f70bba3135fd570b9fa5b9279030cbc124",
+      "content_bytes": 7478,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

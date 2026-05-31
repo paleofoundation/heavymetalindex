@@ -107,3 +107,14 @@ Fresh-context audit subagent (2026-05-30) verdict REVISE; all five checks were c
 - Audit flagged matrices `fish-tissue` as not enumerated in the four-list taxonomy snapshot; verified — `fish-tissue` is an established bare-string matrices value used on 21 existing source pages (e.g. zolfaghari2018, melnyk2021). False positive; no change.
 - Audit flagged `WHO` in `jurisdictions:` as loose; verified — `WHO` is an established jurisdictions value across the corpus (e.g. zolfaghari2018, meng2023). False positive; no change.
 - Numerical fidelity (Tables 1–7), speciation (tHg, no MeHg), Methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all confirmed clean against the source PDF.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f332706](https://github.com/paleofoundation/heavymetalindex/commit/f332706) | 2026-05-30 | audit: majlesi2019-farmed-rainbow-trout-yasuj-iran revised |
+| [df28650](https://github.com/paleofoundation/heavymetalindex/commit/df28650) | 2026-05-30 | ingest: majlesi2019-farmed-rainbow-trout-yasuj-iran fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish |
+<!-- END: hmi-page-history -->

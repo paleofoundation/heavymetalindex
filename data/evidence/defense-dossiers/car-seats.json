@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/car-seats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d0e67d54423dc2fa444e5cbbc885523d3a0e42bbaa7799259b8d01bde51acce5",
-      "content_bytes": 7629,
+      "content_sha256": "81898afc1861cb3838a8813afc60b4a34ea3d07b785c207ed48929b6879e9355",
+      "content_bytes": 7598,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

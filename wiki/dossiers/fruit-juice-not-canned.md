@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `49ecdb7` (2026-05-30). The body hashes to `sha256:2aaa65b10d1a80b52aadace7c129982a…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `49ecdb7` (2026-05-30). The body hashes to `sha256:143afd8d24870379901960f985ea1dbb…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=fruit-juice-not-canned&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/fruit-juice-not-canned&download=1`.
 

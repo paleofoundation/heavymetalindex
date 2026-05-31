@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6497535d23938369aa7c197d65c3916cc599cd9ec6191d8deb8b1c627ca29ac0
+source_page_sha256: b319f572716bb8fe54985d8b84d58aa30279f782da643972add7304c19d2b9d6
 total_claims: 116
 cited_claims: 116
 uncited_claims: 0
-distinct_cited_targets: 109
-distinct_cited_sources: 104
+distinct_cited_targets: 111
+distinct_cited_sources: 106
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 116 |
 | cited claims | 116 |
 | uncited claims | 0 |
-| distinct cited targets | 109 |
-| distinct cited `sources/` pages | 104 |
+| distinct cited targets | 111 |
+| distinct cited `sources/` pages | 106 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 
@@ -1376,7 +1376,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `10 ppb`
 - Context: `and powdered infant formula (n=330 total; historical baseline; AAS method with 10 ppb LOD floor) | <!-- END: hmi-source`
-- Cited targets (85):
+- Cited targets (87):
   - `wiki/sources/abstract2020-content-dietary-exposure-toxic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin\.md` (page missing)
@@ -1392,6 +1392,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/arsenic2012-arsenic-organic-foods-brown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1428,6 +1430,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1669,6 +1673,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/arsenic2012-arsenic-organic-foods-brown\.md` | sources | 0 | — | — |
 | `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` | sources | 0 | — | — |
 | `wiki/sources/burrell2010-aluminium-in-infant-formulas.md` | sources | 0 | — | — |
@@ -1695,6 +1700,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/depa2019-baby-food-lead-cadmium\.md` | sources | 0 | — | — |
 | `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` | sources | 0 | — | — |
 | `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` | sources | 0 | — | — |
+| `wiki/sources/editor2019-manganese-levels-infant-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa-cadmium-contam-2009\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa2015-nickel-food-water\.md` | sources | 0 | — | — |
 | `wiki/sources/elsheikh2020-toxic-trace-elements-children-foods-infant-formulae-saudi\.md` | sources | 0 | — | — |

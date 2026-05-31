@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-30T18:31:46.050Z
+updated: 2026-05-30T19:47:49.285Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -9,7 +9,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 ## Headline
 
-**1240 / 2640 cells done (47.0%)** — 1400 remaining
+**1240 / 2650 cells done (46.8%)** — 1410 remaining
 
 Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
@@ -21,22 +21,22 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | populated n=0 (declared gap) | 807 | ✅ done |
 | confidence: medium | 327 | ⏳ needs more sources |
 | confidence: low | 484 | ⏳ needs more sources |
-| pending / missing | 570 | 🔴 needs first research |
+| pending / missing | 580 | 🔴 needs first research |
 | other / unknown | 19 | 🟡 audit |
 
 ## Pipeline health
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ✅ 20 min ago |
-| auto-fetched/ PDFs in queue | 135 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 1 ✅ |
-| Audit queue: pending-audit-spawn-failed | 70 (async lane) |
-| Wishlist: total downloaded historically | 23 |
-| Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 8 commit(s) ahead of origin/main |
-| Commits last 1 hour | 10 |
-| Commits last 24 hours | 116 |
+| Daemon heartbeat | ⚠️ 45 min ago (stale) |
+| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
+| Audit queue: pending | 0 ✅ |
+| Audit queue: pending-audit-spawn-failed | 80 (async lane) |
+| Wishlist: total downloaded historically | 7 |
+| Wishlist: total ingested historically | 12 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 14 |
+| Commits last 24 hours | 132 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-f77e3a7 4 minutes ago — audit-queue: fasahat2015-rice-cd-tolerance -> audited-promote (PROMOTE)
+3c019e0 18 seconds ago — track auto-fetched ingests 2026-05-30 2200: 10 source pages
 ```
 
 ## How to read this

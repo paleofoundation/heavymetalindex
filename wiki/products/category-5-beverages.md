@@ -110,3 +110,16 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 <!-- END: hmi-source-legend -->
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [49ecdb7](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb7) | 2026-05-30 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-30T18-11-25Z |
+| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
+| [d26f8f1](https://github.com/paleofoundation/heavymetalindex/commit/d26f8f1) | 2026-05-30 | autonomy: checkpoint [deterministic-phase] 2026-05-30T04-02-50Z |
+| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
+| [b40cb21](https://github.com/paleofoundation/heavymetalindex/commit/b40cb21) | 2026-05-29 | autonomy: daemon tick 2026-05-29T20-45-49Z — exit-trap recovery (exit_code=0) |
+<!-- END: hmi-page-history -->

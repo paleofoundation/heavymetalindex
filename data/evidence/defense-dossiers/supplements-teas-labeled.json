@@ -22,8 +22,8 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-teas-labeled",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f0d28ba7056e038ef0690d9d2b7d714f80d961a955fb2a2ce10430954ebf8b59",
-      "content_bytes": 9422,
+      "content_sha256": "dd40f813243911ee7300d00a14c01c10b1932332b54d4827d8e2cad4b56e4d12",
+      "content_bytes": 9398,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

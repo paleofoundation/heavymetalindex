@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `49ecdb7` (2026-05-30). The body hashes to `sha256:32f4cc332b9716451fd0ea543cbd0d6f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `49ecdb7` (2026-05-30). The body hashes to `sha256:38cb381e9ec8f7a1ecd8c624b64a8349…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=infant-formula-rtf-liquid-non-soy&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/infant-formula-rtf-liquid-non-soy&download=1`.
 

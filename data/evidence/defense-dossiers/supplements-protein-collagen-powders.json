@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-protein-collagen-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2beaac756b268486e6f79a0ae5f83875fe83e6ebac8c3fc49fba375de597c84b",
-      "content_bytes": 7724,
+      "content_sha256": "38b1b5fa4cdd32cfa56aada43e8c62a7e823c36335650ac37f0b7758e3cebc66",
+      "content_bytes": 7693,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

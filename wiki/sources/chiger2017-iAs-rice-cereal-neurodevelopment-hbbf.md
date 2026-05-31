@@ -207,9 +207,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [c82a3a7](https://github.com/paleofoundation/heavymetalindex/commit/c82a3a7) | 2026-05-29 | audit: chiger2017-iAs-rice-cereal-neurodevelopment-hbbf [revised] |
 | [51d45f2](https://github.com/paleofoundation/heavymetalindex/commit/51d45f2) | 2026-05-29 | ingest: chiger2017-iAs-rice-cereal-neurodevelopment-hbbf [enhanced] from Manual Fetch Kimi/ |
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
-| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 <!-- END: hmi-page-history -->

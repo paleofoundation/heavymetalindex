@@ -220,9 +220,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [743ed7c](https://github.com/paleofoundation/heavymetalindex/commit/743ed7c) | 2026-05-30 | routing: fix product-index fan-out so coarse-slug evidence is surfaced |
+| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [e302816](https://github.com/paleofoundation/heavymetalindex/commit/e302816) | 2026-05-29 | audit: garofalo2025-seafood-cd-pb-hg-italy-10yr [revised] |
 | [a7cb311](https://github.com/paleofoundation/heavymetalindex/commit/a7cb311) | 2026-05-29 | ingest: garofalo2025-seafood-cd-pb-hg-italy-10yr [enhanced] from Manual Fetch Kimi /loose |
-| [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
-| [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
 <!-- END: hmi-page-history -->

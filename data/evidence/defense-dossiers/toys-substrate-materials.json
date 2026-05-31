@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-substrate-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5978fd5f8e48311bf2557e9e813a7f7634b7401f0f79ccdd2cc729a2d7af1622",
-      "content_bytes": 8592,
+      "content_sha256": "0f7701085eda6b82f25317f4745b265dee48b91bb5528c65016b70be4cbee38b",
+      "content_bytes": 8474,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -44,8 +44,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cephed2013-heavy-metals-childrens-toys-nepal",
         "content_pin": {
-          "content_sha256": "c993e56e8256f697d4082d2e35400fc1a94ade3801a4c1f48632c78b30cc84d0",
-          "content_bytes": 15058,
+          "content_sha256": "93873cee0ff07beafb70ca611423a0b7312c3f9850a790524b359b7fe5f9db25",
+          "content_bytes": 15057,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

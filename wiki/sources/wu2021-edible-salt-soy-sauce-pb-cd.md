@@ -65,3 +65,13 @@ App: Can support a low-confidence high-salt-food evidence note if synthesis admi
 ## Verification notes
 
 The fetched filename correctly identifies salt Cd context, but the paper also covers soy sauce and Pb. The soy-sauce Cd spiked row was truncated in the extracted text and should be checked against the rendered PDF during audit before extracting a recovery value.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50ec0f0](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f0) | 2026-05-30 | ingest auto-fetched 2026-05-30 2145 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

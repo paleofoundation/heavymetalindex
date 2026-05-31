@@ -64,3 +64,12 @@ App: The values can inform a Brazil-specific yerba mate or herbal-botanical flag
 
 The wishlist filename misclassified this as mineral-water inorganic-arsenic evidence. The PDF is a yerba mate leaf occurrence study and reports total arsenic, not inorganic arsenic. State names and sample counts were taken from Table 2.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50ec0f0](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f0) | 2026-05-30 | ingest auto-fetched 2026-05-30 2145 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

@@ -32,22 +32,22 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
          │
          │  Papers from year ≥ 2020: 14,343
          ▼
-  Eligibility:    1137 source pages currently in wiki/sources/
+  Eligibility:    1153 source pages currently in wiki/sources/
          │
-         │    evidence_tier A: 917
+         │    evidence_tier A: 929
          │    evidence_tier A-tier: 1
-         │    evidence_tier B: 203
+         │    evidence_tier B: 207
          │    evidence_tier C: 14
          │    evidence_tier unknown: 2
          ▼
   Included:       Source pages routed to destination pages
          │
-         │  Routing rows in product_source_routing_audit.csv: 1173
+         │  Routing rows in product_source_routing_audit.csv: 1245
          ▼
   Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 1137 have been promoted to source pages — 4.9% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
+**Of the 23,260 papers identified in the literature search, 1153 have been promoted to source pages — 5.0% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -55,10 +55,10 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 1137 |
-| Ingredient profiles | 264 |
-| Product-category rows (total) | 352 |
-| Product-category rows (non-stub, has scaffold or content) | 126 |
+| Source pages | 1153 |
+| Ingredient profiles | 265 |
+| Product-category rows (total) | 355 |
+| Product-category rows (non-stub, has scaffold or content) | 129 |
 | Metal profiles | 36 |
 | Regulation pages | 57 |
 | Mitigation pages | 6 |
@@ -67,9 +67,9 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 ## HMTc Taxonomy v2.0 coverage
 
-Total subcategories defined by the taxonomy: **277**.  Pages scaffolded or content-filled against the taxonomy: **277** (100%).
+Total subcategories defined by the taxonomy: **277**.  Pages scaffolded or content-filled against the taxonomy: **274** (99%).
 
-Of the 277 matched: 260 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 17 are matched by slug-alias to legacy pages (frontmatter needs backfill).  Pages still to be created: **0**.
+Of the 274 matched: 260 carry exact hmtc_category + hmtc_row frontmatter (locked under Step 0 scaffolding); 14 are matched by slug-alias to legacy pages (frontmatter needs backfill).  Pages still to be created: **0**.
 
 | Cat | Name | Total | Exact | By alias | Missing | Coverage |
 |----:|------|------:|------:|---------:|--------:|---------:|
@@ -79,7 +79,7 @@ Of the 277 matched: 260 carry exact hmtc_category + hmtc_row frontmatter (locked
 | 4 | Fruits, Vegetables, and Produce | 9 | 9 | 0 | 0 | 100% |
 | 5 | Beverages | 9 | 9 | 0 | 0 | 100% |
 | 6 | Seafood | 6 | 5 | 1 | 0 | 100% |
-| 7 | Oils, Condiments, and Specialty Foods | 12 | 6 | 6 | 0 | 100% |
+| 7 | Oils, Condiments, and Specialty Foods | 12 | 6 | 3 | 0 | 75% |
 | 8 | Water and Water-Based Products | 4 | 3 | 1 | 0 | 100% |
 | 9 | Infant and Child Contact Products (Ages 0-5) | 8 | 6 | 2 | 0 | 100% |
 | 10 | Infant and Child Durable Goods and Textiles (Ages 0-5) | 12 | 11 | 1 | 0 | 100% |

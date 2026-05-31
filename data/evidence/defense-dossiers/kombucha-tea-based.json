@@ -21,8 +21,8 @@
     "canonical_url": "https://heavymetalindex.com/products/kombucha-tea-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9bbfd73020d56cda4ac579346958b9944e5125610fbd8fff0fd65c3bef756508",
-      "content_bytes": 17534,
+      "content_sha256": "f64d303abc7bb2a23e060cbddb4256e9aabdade58dab84cb7343351636b5f121",
+      "content_bytes": 17527,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -45,8 +45,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/munilla-garcia2023-lead-kombucha-ceramics",
         "content_pin": {
-          "content_sha256": "2804908bc16c6648fc079e9dc0241a536492f5540dcec49ee4633f707abbce49",
-          "content_bytes": 6018,
+          "content_sha256": "dac2f33ecac9bf7c9103b170f3d509ed68a288aa54916aee2b334b2f15bb0e6c",
+          "content_bytes": 5975,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

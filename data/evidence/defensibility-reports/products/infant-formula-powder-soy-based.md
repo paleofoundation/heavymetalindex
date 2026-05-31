@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 76a1fa9f7a7fc11b7224fe1f19fe8b27604be5da8929a8563c727ca4bf2e21cd
+source_page_sha256: f6f679b12b5a258757ae3a7e609ee68b444e67f77aaff561555ae019f115601a
 total_claims: 88
 cited_claims: 88
 uncited_claims: 0
-distinct_cited_targets: 76
-distinct_cited_sources: 71
+distinct_cited_targets: 78
+distinct_cited_sources: 73
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 88 |
 | cited claims | 88 |
 | uncited claims | 0 |
-| distinct cited targets | 76 |
-| distinct cited `sources/` pages | 71 |
+| distinct cited targets | 78 |
+| distinct cited `sources/` pages | 73 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 
@@ -896,7 +896,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2550 ppb`
 - Context: `8 | 2016 | Government report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), t`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -904,6 +904,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -936,6 +938,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1020,7 +1024,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11 ppb`
 - Context: `rnment report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1028,6 +1032,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1060,6 +1066,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1144,7 +1152,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.6 ppb`
 - Context: `| UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1152,6 +1160,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1184,6 +1194,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1267,8 +1279,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `7 ppb`
-- Context: `sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 44 | [[`
-- Cited targets (60):
+- Context: `sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 46 | [[`
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1276,6 +1288,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1308,6 +1322,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1391,8 +1407,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `200 ppb`
-- Context: `category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 44 | [[sources/pacq`
-- Cited targets (60):
+- Context: `category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 46 | [[sources/pacq`
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1400,6 +1416,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1432,6 +1450,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1516,7 +1536,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `756 ppb`
 - Context: `viewed | Al in UK powdered infant formulas including 2 soy-powder products; 656–756 ppb prepared estimate from powder fo`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1524,6 +1544,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1556,6 +1578,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1640,7 +1664,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/L`
 - Context: `viewed | tAs in soy toddler formula with organic brown rice syrup (1.5–2.5× the 10 µg/L drinking-water standard); highli`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1648,6 +1672,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1680,6 +1706,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1764,7 +1792,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `18.3 ppb`
 - Context: `on and Analysis | 2012 | Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy ba`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1772,6 +1800,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1804,6 +1834,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -1888,7 +1920,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `30.5 ppb`
 - Context: `| Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy basket higher than milk-f`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1896,6 +1928,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -1928,6 +1962,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -2011,8 +2047,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `1461 ppb`
-- Context: `formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 57 | [[sources`
-- Cited targets (60):
+- Context: `formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 59 | [[sources`
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2020,6 +2056,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -2052,6 +2090,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -2136,7 +2176,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `629 ppb`
 - Context: `trics | 2010 | Peer-reviewed | Al in UK infant formulas including 1 soy powder; 629 ppb prepared estimate for the soy po`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2144,6 +2184,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -2176,6 +2218,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -2259,8 +2303,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `2270 ppb`
-- Context: `nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 60 | [[sourc`
-- Cited targets (60):
+- Context: `nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 62 | [[sourc`
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2268,6 +2312,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -2300,6 +2346,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -2383,8 +2431,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `2720 ppb`
-- Context: `dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 60 | [[sources/dabeka1987-`
-- Cited targets (60):
+- Context: `dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 62 | [[sources/dabeka1987-`
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2392,6 +2440,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -2424,6 +2474,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -2508,7 +2560,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `35 ppb`
 - Context: `oy-base infant formula Cd distribution (n=15: mean 13.3, median 12.0, range 1.1–35 ppb) | <!-- END: hmi-source-legend --`
-- Cited targets (60):
+- Cited targets (62):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2516,6 +2568,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
@@ -2548,6 +2602,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
     - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
     - audit rows: none
@@ -2745,6 +2801,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` | sources | 0 | — | — |
 | `wiki/sources/burrell2010-aluminium-in-infant-formulas.md` | sources | 0 | — | — |
@@ -2766,6 +2823,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/depa2019-baby-food-lead-cadmium\.md` | sources | 0 | — | — |
 | `wiki/sources/dokhtkkhatibi2024-infant-formula-baby-food-zahedan\.md` | sources | 0 | — | — |
 | `wiki/sources/durovic2017-human-milk-infant-formula-microelements\.md` | sources | 0 | — | — |
+| `wiki/sources/editor2019-manganese-levels-infant-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa-cadmium-contam-2009\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa2015-nickel-food-water\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md` | sources | 0 | — | — |

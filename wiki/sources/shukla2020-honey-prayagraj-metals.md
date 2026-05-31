@@ -65,3 +65,12 @@ App: Supports a regional honey evidence point after synthesis.
 
 The PDF abstract appears to print "Pd" in the exception list despite introducing cadmium, lead, copper, and arsenic; because palladium is not otherwise part of the described heavy-metal panel, the values are treated as Pb with this discrepancy preserved for audit.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50ec0f0](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f0) | 2026-05-30 | ingest auto-fetched 2026-05-30 2145 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

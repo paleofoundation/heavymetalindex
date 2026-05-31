@@ -74,3 +74,13 @@ _The percentile arithmetic that informs HMTc thresholds for this product categor
 
 _Pending synthesis. Public-record regulatory events for this product category will be summarized here as the synthesis pass identifies them. Per CLAUDE.md Part 12, recalls are framed as regulatory events, not brand rankings._
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a4dcf15](https://github.com/paleofoundation/heavymetalindex/commit/a4dcf15) | 2026-05-30 | autonomy: checkpoint [deterministic-phase] 2026-05-30T18-11-25Z |
+| [743ed7c](https://github.com/paleofoundation/heavymetalindex/commit/743ed7c) | 2026-05-30 | routing: fix product-index fan-out so coarse-slug evidence is surfaced |
+<!-- END: hmi-page-history -->

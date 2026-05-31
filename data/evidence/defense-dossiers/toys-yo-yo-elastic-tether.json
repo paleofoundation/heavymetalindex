@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-yo-yo-elastic-tether",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d9e2406896ad14e2381f60efd00af3d8523588b76c2d11ccda7b762755058775",
-      "content_bytes": 7611,
+      "content_sha256": "5737a629ce9c54c880b62824d05cb744d2678c87674483c926fa9269ca36235d",
+      "content_bytes": 7580,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

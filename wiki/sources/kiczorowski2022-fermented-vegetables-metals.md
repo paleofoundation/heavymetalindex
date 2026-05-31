@@ -71,3 +71,12 @@ App: Supports a processing qualifier for fermented vegetables after synthesis.
 
 The source reports ug/g fresh matter for Pb and Cd. The Table 5 Cd standard-deviation formatting appears unusually large relative to the mean in the extracted PDF text; the values were preserved as printed and should be rechecked against the rendered table during audit.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50ec0f0](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f0) | 2026-05-30 | ingest auto-fetched 2026-05-30 2145 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

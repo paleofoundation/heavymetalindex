@@ -59,9 +59,9 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 7,"Oils, Condiments, and Specialty Foods",7,"Cocoa/chocolate products (cocoa powder, dark chocolate, milk chocolate, chocolate chips)",cocoa-chocolate-products,by_alias,chocolate.md,chocolate,,,
 7,"Oils, Condiments, and Specialty Foods",8,"Herbs/spices/dried seasonings (turmeric, cinnamon, paprika, oregano, cumin, chili powder, pepper)",herbs-spices-dried-seasonings,by_alias,spices.md,spices,,,
 7,"Oils, Condiments, and Specialty Foods",9,"Salt (table, sea, Himalayan)",salt,exact,salt.md,salt,7,9,scaffold
-7,"Oils, Condiments, and Specialty Foods",10,"Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)",snacks-general,by_alias,snacks-crackers-biscuits.md,snacks-crackers-biscuits,,,
-7,"Oils, Condiments, and Specialty Foods",11,"Canned foods, general (canned tomatoes, beans, soups — with tin flag)",canned-foods-general,by_alias,canned-fish.md,canned-fish,,,
-7,"Oils, Condiments, and Specialty Foods",12,"Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)",mixed-meals-prepared-foods,by_alias,mixed-meals-non-rice.md,mixed-meals-non-rice,1,12,
+7,"Oils, Condiments, and Specialty Foods",10,"Snacks (crackers, granola/snack bars, cookies, chips, popcorn — when not primarily a grain or produce product)",snacks-general,by_slug,snacks-general.md,snacks-general,NaN,NaN,
+7,"Oils, Condiments, and Specialty Foods",11,"Canned foods, general (canned tomatoes, beans, soups — with tin flag)",canned-foods-general,by_slug,canned-foods-general.md,canned-foods-general,NaN,NaN,
+7,"Oils, Condiments, and Specialty Foods",12,"Mixed meals/prepared foods (frozen dinners, boxed meals, ready-to-eat)",mixed-meals-prepared-foods,by_slug,mixed-meals-prepared-foods.md,mixed-meals-prepared-foods,NaN,NaN,
 8,Water and Water-Based Products,1,"Bottled drinking water (purified, spring, artesian)",bottled-drinking-water,exact,bottled-drinking-water.md,bottled-drinking-water,8,1,scaffold
 8,Water and Water-Based Products,2,Mineral water,mineral-water,exact,mineral-water.md,mineral-water,8,2,scaffold
 8,Water and Water-Based Products,3,Sparkling/carbonated water (unflavored),sparkling-carbonated-water,exact,sparkling-carbonated-water.md,sparkling-carbonated-water,8,3,scaffold

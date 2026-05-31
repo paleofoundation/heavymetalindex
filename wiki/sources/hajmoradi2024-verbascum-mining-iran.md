@@ -104,6 +104,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [cdf9cd0](https://github.com/paleofoundation/heavymetalindex/commit/cdf9cd0) | 2026-05-30 | ingest: hajmoradi2024-verbascum-mining-iran fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
 <!-- END: hmi-page-history -->

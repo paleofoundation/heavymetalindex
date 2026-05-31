@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/intimate-washes-cleansers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "db10c2e56ae383b3bbd5ef1435aea20b649e195820c3c4c8d7b8e3f10e546458",
-      "content_bytes": 7581,
+      "content_sha256": "a6eb5763ec1057ebddea7b7c9cd5afaf98dc6690876ad1f73a0367414dc4eb45",
+      "content_bytes": 7550,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

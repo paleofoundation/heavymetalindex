@@ -85,3 +85,14 @@ No brand-attributed contamination data. Methods name instrument category (flame 
 Audit subagent (2026-05-30) flagged two transposed values in `## Key numbers` (Cd accumulation leaf-Cd1 26% should be 23%; Cd concentration root values 30%/30% should be 26%/30% and leaf-Cd1 26% should be 30%); verified against PDF p.2 ("decreased by 20 and 19% in roots and 23 and 41% in leaves... Cd content was reduced by 26 and 30% in roots, and 30 and 65% in leaves") — both corrections applied.
 
 Audit subagent also flagged the Certification implication's "supplier specifications for low-Cd rice" framing as policy-flavored (Part 2 concern); softened to describe the paper's mechanistic contribution without prescribing a supplier-spec posture.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a7403a9](https://github.com/paleofoundation/heavymetalindex/commit/a7403a9) | 2026-05-30 | audit: mostofa2015-rice-h2s-cd-tolerance revised |
+| [4697ad7](https://github.com/paleofoundation/heavymetalindex/commit/4697ad7) | 2026-05-30 | ingest: mostofa2015-rice-h2s-cd-tolerance fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

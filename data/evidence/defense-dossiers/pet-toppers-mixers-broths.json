@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-toppers-mixers-broths",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6190e6d1f20514e05bd27699c59245c033afb6ce7530880cfb6eef5d27bac5f0",
-      "content_bytes": 7523,
+      "content_sha256": "60ad8637901e49ab1708f84459f55b3ea440fd48d09acf776323c8910b4301a7",
+      "content_bytes": 7492,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-refresher-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1bae9a9c05c8e2d8e23e13d835ce979e35fde7d67d6c3af1d01eba45df531323",
-      "content_bytes": 7603,
+      "content_sha256": "6f2c27317a9a9c6c67364ab6adf074ba6824e3a4abeea032cde21c093a20c80e",
+      "content_bytes": 7572,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

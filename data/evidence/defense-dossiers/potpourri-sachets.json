@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/potpourri-sachets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0400c834efb9bf6b8cd6a6c712eea66ade10c4092e039a4da926ae868bb2cd42",
-      "content_bytes": 7528,
+      "content_sha256": "64a839e48fb3dd45fb0b43017380815c349fc867fb92d496fec97e6f6661e9d6",
+      "content_bytes": 7497,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

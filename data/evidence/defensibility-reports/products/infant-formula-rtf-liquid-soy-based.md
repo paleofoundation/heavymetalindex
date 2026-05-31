@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-rtf-liquid-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8f33fbbdbb95e135f68ec18c672faa879a0349f323b98af74436270903912b2c
+source_page_sha256: 58675a51e7a23637de36458a6bb15b1f3f75f9ad31c2d569ff5d0ab523b72547
 total_claims: 43
 cited_claims: 43
 uncited_claims: 0
-distinct_cited_targets: 37
-distinct_cited_sources: 32
+distinct_cited_targets: 46
+distinct_cited_sources: 41
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 43 |
 | cited claims | 43 |
 | uncited claims | 0 |
-| distinct cited targets | 37 |
-| distinct cited `sources/` pages | 32 |
+| distinct cited targets | 46 |
+| distinct cited `sources/` pages | 41 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 
@@ -294,10 +294,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2860 µg/kg`
 - Context: `2020 | Peer-reviewed | Total Al by ICP-OES in Brazilian soy-based infant drink (2860 µg/kg) and fruit purees; also repor`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -313,13 +317,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -346,6 +362,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -354,10 +372,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `34 µg/L`
 - Context: `-reviewed | iAs by HPLC-ICP-MS in 5 hydrolysed rice formulas (EU): iAs range 10–34 µg/L as-prepared; context for rice-pr`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -373,13 +395,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -406,6 +440,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -414,10 +450,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2550 µg/kg`
 - Context: `infant formula samples; includes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg,`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -433,13 +473,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -466,6 +518,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -474,10 +528,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `7 µg/kg`
 - Context: `samples; includes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -493,13 +551,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -526,6 +596,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -534,10 +606,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.6 µg/kg`
 - Context: `udes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) di`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -553,13 +629,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -586,6 +674,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -594,10 +684,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11 µg/kg`
 - Context: `t soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) distinguishing s`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -613,13 +707,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -646,6 +752,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -654,10 +762,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `200 µg/kg`
 - Context: `ormula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) distinguishing soy from milk-`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -673,13 +785,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -706,6 +830,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -714,10 +840,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/L`
 - Context: `ce syrup; reconstituted soy-based formula showed iAs approximately 1.5–2.5× the 10 µg/L drinking-water standard, establi`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -733,13 +863,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -766,6 +908,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -774,10 +918,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `730 µg/kg`
 - Context: `asis by format and protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -793,13 +941,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -826,6 +986,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -834,10 +996,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.18 µg/kg`
 - Context: `protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with mea`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -853,13 +1019,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -886,6 +1064,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -893,11 +1073,15 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `1.45 µg/kg`
-- Context: `ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 27`
-- Cited targets (28):
+- Context: `ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 36`
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -913,13 +1097,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -946,6 +1142,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -954,10 +1152,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2.5 µg/kg`
 - Context: `9 | Government report | EFSA CONTAM Panel opinion establishing the EU Cd TWI of 2.5 µg/kg body weight per week; foundati`
-- Cited targets (28):
+- Cited targets (37):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` (page missing)
     - audit rows: none
@@ -973,13 +1175,25 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2019-baby-food-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/editor2019-manganese-levels-infant-formula\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/efsa-cadmium-contam-2009\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/efsa2015-nickel-food-water\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
     - audit rows: none
   - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
@@ -1006,6 +1220,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
     - audit rows: none
@@ -1035,6 +1251,8 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 0 | — | — |
 | `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
+| `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
 | `wiki/sources/bfr2022-nickel-dietary-intake-germany-meal\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` | sources | 0 | — | — |
@@ -1044,12 +1262,18 @@ _All claims trace to at least one cited source._
 | `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\.md` | sources | 0 | — | — |
 | `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility.md` | sources | 0 | — | — |
 | `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` | sources | 0 | — | — |
+| `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` | sources | 0 | — | — |
+| `wiki/sources/depa2019-baby-food-lead-cadmium\.md` | sources | 0 | — | — |
+| `wiki/sources/editor2019-manganese-levels-infant-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa-cadmium-contam-2009\.md` | sources | 0 | — | — |
+| `wiki/sources/efsa2015-nickel-food-water\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
+| `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` | sources | 0 | — | — |
+| `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` | sources | 0 | — | — |
 | `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` | sources | 0 | — | — |
 | `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` | sources | 0 | — | — |
 | `wiki/sources/keywords2019-appropriateness-essentials-trace-metals\.md` | sources | 0 | — | — |
@@ -1063,6 +1287,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` | sources | 0 | — | — |
 | `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` | sources | 0 | — | — |
+| `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |
 | `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` | sources | 0 | — | — |
 | `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` | sources | 0 | — | — |
 

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/butter-and-ghee",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0758da8a53bcb3496b2be68e73605bfd2ca4cebb32aef632e5ff23053d8a8e92",
-      "content_bytes": 8312,
+      "content_sha256": "3d0f51425be3ab280b8b2ef2c12c151880734f5d82105fb86d0139d6a3f01669",
+      "content_bytes": 8194,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -48,8 +48,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hasan2021-bangladesh-dairy-trace-elements",
         "content_pin": {
-          "content_sha256": "eb3a85be7aa1925b5a7faeb7f4f2fe1d568aea3361448a919019615993e1212a",
-          "content_bytes": 13928,
+          "content_sha256": "e9c9a5c6b017757cf018f7f7f1312b349d0e73d88dbb75d785ea004db01e921f",
+          "content_bytes": 14083,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -68,8 +68,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pankiewicz2012-thg-dairy-products-poland",
         "content_pin": {
-          "content_sha256": "02a666c69920ca9f54b1464193bbb2c0cf27a2d402e3c94429db2be189bd3839",
-          "content_bytes": 15095,
+          "content_sha256": "98ec2f8c6115ccc014262b01641cb4aa415717cadd3c9a64aa490633966711ac",
+          "content_bytes": 15098,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -91,8 +91,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/starska2011-noxious-elements-milk-products-poland",
         "content_pin": {
-          "content_sha256": "7a2135473d4cd1775174b60cbe444967f3c64bce1bce5df7a3c733074de2b240",
-          "content_bytes": 15711,
+          "content_sha256": "dbb3cbf15cfbb549153eca40fbb1cbbaa1cb90218429bdcfb1b91e4e4f51d5f8",
+          "content_bytes": 15543,
           "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

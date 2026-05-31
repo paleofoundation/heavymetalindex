@@ -60,3 +60,12 @@ App: Can support a processed-seaweed qualifier if synthesis distinguishes raw, P
 
 The DOI was minted with a 2025 identifier and the PDF was published online in 2025, but the journal issue is Journal of Applied Phycology 38:933-945 (2026); the frontmatter year follows the PDF issue year. The extracted text did not preserve all Table 3 PTE concentration rows cleanly, so those rows should be verified from the rendered PDF before structured benchmark pooling.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50ec0f0](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f0) | 2026-05-30 | ingest auto-fetched 2026-05-30 2145 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

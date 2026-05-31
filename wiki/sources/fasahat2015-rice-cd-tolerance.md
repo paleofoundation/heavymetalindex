@@ -82,3 +82,14 @@ Cadmium is reported throughout as total Cd; no inorganic vs. organo-Cd speciatio
 Tables and figures: Table 1 (QTL analysis of cadmium concentration in rice, p.97) was read in full; the QTL rows are summarised above and were cross-checked against the cited population, marker interval, and reference fields. Figure 1 (p.96, Cd transport schematic) is reproduced from Uraguchi and Fujiwara (2012) and contributes no original data.
 
 Audit subagent (2026-05-30) flagged the >80%-root-Cd attribution as ambiguous between Cui 2004 and Cui 2008; verified against PDF p.96 — Fasahat cites "(Cui et al., 2004; Liu et al., 2007;...)" for the >80% claim, while Cui 2008 is cited only for the adjacent "higher Cd remains in roots" statement. Wiki Key numbers corrected from "Cui et al., 2008" to "Cui et al., 2004" for the >80% figure.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21e5a72](https://github.com/paleofoundation/heavymetalindex/commit/21e5a72) | 2026-05-30 | audit: fasahat2015-rice-cd-tolerance promoted |
+| [b92fef5](https://github.com/paleofoundation/heavymetalindex/commit/b92fef5) | 2026-05-30 | ingest: fasahat2015-rice-cd-tolerance fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

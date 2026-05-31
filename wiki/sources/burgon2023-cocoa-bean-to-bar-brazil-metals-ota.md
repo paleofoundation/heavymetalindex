@@ -156,6 +156,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [95f6bf7](https://github.com/paleofoundation/heavymetalindex/commit/95f6bf7) | 2026-05-30 | audit: burgon2023-cocoa-bean-to-bar-brazil-metals-ota [revised] |
 | [7e144cd](https://github.com/paleofoundation/heavymetalindex/commit/7e144cd) | 2026-05-30 | ingest: burgon2023-cocoa-bean-to-bar-brazil-metals-ota [fresh] from manual-fetch/seasonal-geographic-variance/auto-fetched |
 <!-- END: hmi-page-history -->

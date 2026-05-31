@@ -17,7 +17,7 @@ review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-15
-sources: 7
+sources: 8
 ---
 
 # Herbal/Botanical Infusions
@@ -170,7 +170,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 4 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | RU Al, V, Cr, Mn, Fe, Ni, Cu, Zn, Sr, Ba, tAs occurrence in Peppermint leaves and peppermint-based herbal products evaluated in Russia |
 | 5 | [[sources/bulduk2020-vicia-faba-elements\|Ibrahim 2020]]. *Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS*, Progress in Chemical and Biochemical Research | 2020 | Peer-reviewed | TR Cr, Fe, Zn, Al, Cu, Pb, Cd, Mn, Ni occurrence in Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey |
 | 6 | [[sources/fogarasi2019-tea-aluminum\|Erzsebet et al. 2019]]. *Aluminium contamination of several types of tea*, Orvostudomanyi Ertesito | 2019 | Peer-reviewed | RO Al occurrence in Green, black, fruit, and herbal tea infusions prepared from sampled tea materials (n=48) |
-| 7 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
+| 7 | [[sources/santos2017-yerba-mate-metals\|Santos et al. 2017]]. *Arsenic, cadmium and lead concentrations in Yerba mate commercialized in Southern Brazil by inductively coupled plasma mass spectrometry*, Ciencia Rural | 2017 | Peer-reviewed | BR tAs, Cd, Pb occurrence in Yerba mate samples marketed in Parana, Santa Catarina, and Rio Grande do Sul, Brazil (n=104) |
+| 8 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -180,9 +181,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 | [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 | [676a09c](https://github.com/paleofoundation/heavymetalindex/commit/676a09c) | 2026-05-29 | daemon: empty-queue glob no longer aborts whole tick (12-hour silent death) |
 | [cae015c](https://github.com/paleofoundation/heavymetalindex/commit/cae015c) | 2026-05-29 | state sync: 13h of daemon-stalled work — page-history tables rolled forward |
 | [ce3e07c](https://github.com/paleofoundation/heavymetalindex/commit/ce3e07c) | 2026-05-28 | activation \| Vercel DATACITE env slots set, curators.md filled with founder entry + six scoped reviewer invitations, peer-review onboarding playbook drafted |
-| [10eef01](https://github.com/paleofoundation/heavymetalindex/commit/10eef01) | 2026-05-28 | 10-year architecture \| schema discipline + future-proofing slots + per-page changelog + licensing/errata/roadmap + contamination API skeleton + JSON-LD ScholarlyArticle markup |
 <!-- END: hmi-page-history -->

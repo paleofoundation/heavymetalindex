@@ -110,3 +110,14 @@ Harvest at day 50. Plant tissue dried at 70 °C for 48 h. Quadruplicate analyses
   - (b) Audit flagged that the abstract's Mn +143% / Cu +1% figures do not reconcile with Tables 4–5. Verified against PDF p.5 Table 5 (Mn cell 200/7000 = 16.93 vs 200/0 = 16.90 ≈ +0.2%; Cu cell 200/7000 = 7.90 vs 200/0 = 3.24 ≈ +144%) — confirmed Mn and Cu values are transposed in the abstract. Applied: corrected Key numbers paragraph to flag the transposition with cell-level values; preserved the abstract figures for traceability.
   - (c) Audit flagged Powhumus composition conflated "ash content (mass)" with "element content on ash-free basis" and truncated the "10–12% K2O" range to "12% K2O". Verified against PDF p.2 — confirmed. Applied: rewrote the Powhumus composition line to separate ash content (22.9%), Powhumus product element content (C 2, H 2.8, N 1.3 % mass), and ash-free element content (C 47.1, H 3.63, N 1.69, O 47.58 % wt), and restored the 10–12% K2O range.
 - Audit's three other checks (slug-validity, brand-firewall, HMTc-firewall) all returned ✅ with no findings. Numeric fidelity check otherwise ✅ across all 12 cells of Table 5, Tables 1–3 biomass/stress markers, soil characterization, and Cd reduction recomputations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bebfd4a](https://github.com/paleofoundation/heavymetalindex/commit/bebfd4a) | 2026-05-30 | audit: yildirim2021-humic-fulvic-cd-garden-cress revised |
+| [ddfd414](https://github.com/paleofoundation/heavymetalindex/commit/ddfd414) | 2026-05-30 | ingest: yildirim2021-humic-fulvic-cd-garden-cress fresh from manual-fetch/seasonal-geographic-variance/auto-fetched |
+<!-- END: hmi-page-history -->

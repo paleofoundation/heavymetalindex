@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-cans-lids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "49cea9633b67a0d03ae2a4558fd25caae8bb4e93b8791bcb9958955293ec1a8f",
-      "content_bytes": 7580,
+      "content_sha256": "9d5dc24bc7e27f74212f77dc7819ddad7b54b628bef125b2ad8a903915ac48be",
+      "content_bytes": 7549,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

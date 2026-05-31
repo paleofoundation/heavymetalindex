@@ -21,8 +21,8 @@
     "canonical_url": "https://heavymetalindex.com/products/herbal-botanical-infusions",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "541a3fd7e7b05e0b24e71df78b010396a77709c297973ed16042b00da67615e5",
-      "content_bytes": 19689,
+      "content_sha256": "eae0e2ee2dae12151a7f82867bc882572f0d97fb0afc279f5f2040f11e8f29a4",
+      "content_bytes": 19942,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -30,7 +30,7 @@
     }
   },
   "evidence_base": {
-    "contributing_source_count": 7,
+    "contributing_source_count": 8,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -53,8 +53,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bulduk2020-vicia-faba-elements",
         "content_pin": {
-          "content_sha256": "46c572d5e9aad47852358c943f46b143ca8c27fe7fa3371a5062ff47568fe628",
-          "content_bytes": 3664,
+          "content_sha256": "7bfe664b2124c3b1c56a9d9efbe242735d18746f765cd3ccafc3a6510901190a",
+          "content_bytes": 3568,
           "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -76,8 +76,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/feszterova2025-herbal-tea-risk-elements",
         "content_pin": {
-          "content_sha256": "28d28e242afe4c4ed6be6fb96f3282692f71e47e9f51d5feeaa3f2054d3d11b4",
-          "content_bytes": 3135,
+          "content_sha256": "e0ed709489fd17577949350c29556e16d908df467231c6bf4718825ed6ec7231",
+          "content_bytes": 3046,
           "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -96,8 +96,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fogarasi2019-tea-aluminum",
         "content_pin": {
-          "content_sha256": "8ece2c9dfe3ccf8e001ca36cfbd5c2200b9bf31ee2b5ec54212262bb18be2074",
-          "content_bytes": 3145,
+          "content_sha256": "62727205540a819317a2de3ff9ad49c45fb48cec80b4cb5a1d71efc92ed8f6a1",
+          "content_bytes": 3056,
           "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -120,8 +120,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kowalski2024-herbal-tea-heavy-metals",
         "content_pin": {
-          "content_sha256": "ac888431cb47634693deca27c19369cbec198fd5fc14789a093a8fcfecec400d",
-          "content_bytes": 3229,
+          "content_sha256": "dc786fbc4cc7b035d1d576455a6dc2a56562c3dfaa70fa21a6d3688f0cd0a33d",
+          "content_bytes": 3140,
           "last_commit_sha": "743ed7c",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -143,8 +143,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
         "content_pin": {
-          "content_sha256": "5f740b1b50f8edfc4ba655333d2847f63b63934e9d9429113efb426cb9193e81",
-          "content_bytes": 10483,
+          "content_sha256": "2bcc65ea9622443590435b8081bc8288b7c1f1de2762837dbc6be17711aadb39",
+          "content_bytes": 10507,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -164,12 +164,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/njinga2022-nigeria-herbal-cd-cr",
         "content_pin": {
-          "content_sha256": "ec1b142c4930890c3201070813ccfea5c4a2667cae0714d8876d215eba088ceb",
-          "content_bytes": 3320,
+          "content_sha256": "465e0414d558f8b9f62858cdf3911cd5fbc5b9b5aa575821d63b0ad0d548ba60",
+          "content_bytes": 3297,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
           "verify_command": "git show 9658f6b:wiki/sources/njinga2022-nigeria-herbal-cd-cr.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/santos2017-yerba-mate-metals",
+        "title": "Arsenic, cadmium and lead concentrations in Yerba mate commercialized in Southern Brazil by inductively coupled plasma mass spectrometry",
+        "route_kind": "direct_evidence",
+        "route_status": "missing_direct_product_route",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/santos2017-yerba-mate-metals",
+        "content_pin": {
+          "content_sha256": "2c2b2a17122a3dd7496e6c76ac28e28183e160e10247f1d5a38e1866dced6704",
+          "content_bytes": 3204,
+          "last_commit_sha": "50ec0f0",
+          "last_commit_date": "2026-05-30",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 50ec0f0:wiki/sources/santos2017-yerba-mate-metals.md | sha256sum"
         }
       },
       {
@@ -194,8 +216,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shchukin2022-mint-products-heavy-metals",
         "content_pin": {
-          "content_sha256": "d71070cb7e67e3ec3372824484fbe706f28ac9cbdfda88c25ec934c34471d064",
-          "content_bytes": 3882,
+          "content_sha256": "5ff84593b055893178920f053f864aa2aeb6c1f7e697d40961c5047f751e89d3",
+          "content_bytes": 3888,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

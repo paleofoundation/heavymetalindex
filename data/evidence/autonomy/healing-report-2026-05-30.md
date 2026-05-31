@@ -1,20 +1,15 @@
 # Heal-gaps report — 2026-05-30
 
-Generated: 2026-05-30T18:11:30.705Z
+Generated: 2026-05-30T19:02:33.178Z
 Mode: EXECUTED
 
 ## Summary
 
-- Fixes applied: 2
+- Fixes applied: 0
 - Queued for synthesis: 2
 - Routing typo proposals: 10
 - Provisional scaffolds created: 5
 - Items needing surfacing (regulation rule IDs, unknown target_kind): 239
-
-## Fixes applied
-
-- wiki/products/mixed-meals-prepared-foods.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `baby-mixed-meals`)
-- wiki/products/snacks-general.md: missing_primary_metals_of_concern; added analytes [Pb, Cd, iAs, tAs] (inferred from class `baby-teething`)
 
 ## Queued for synthesis (see data/evidence/autonomy/healing-queue.csv)
 

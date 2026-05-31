@@ -107,3 +107,14 @@ Fresh-context audit subagent (2026-05-30) verdict PROMOTE; all five checks clean
 - Audit noted the bottom heading is "Wiki pages updated on ingest" rather than the audit-prompt's expected "Wiki pages this source may touch"; verified — "Wiki pages updated on ingest" is the current template heading (docs/page-templates.md) used across the corpus. False positive; no change.
 - Audit noted the source prints its mussel reference material inconsistently (ERM-CE278k in the Methods text, ERM-CE287k in the Table 2 header); verified against PDF p6 vs p7 — correct, this is a typo in the source itself. Added a clarifying parenthetical to the Methods section so future readers do not flag the page's "278k" as an error. The wiki follows the Methods-prose form.
 - Numerical fidelity (Tables 1–3, text §3.1–3.5), speciation (tAs total with iAs estimated at 5%; tHg with no MeHg speciation), Methods, Part 12 brand firewall, and Part 2 wiki/HMTc firewall all confirmed clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3ba41eb](https://github.com/paleofoundation/heavymetalindex/commit/3ba41eb) | 2026-05-30 | audit: lehel2024-rainbow-trout-aquaculture-italy promoted |
+| [b1eb378](https://github.com/paleofoundation/heavymetalindex/commit/b1eb378) | 2026-05-30 | ingest: lehel2024-rainbow-trout-aquaculture-italy fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish |
+<!-- END: hmi-page-history -->

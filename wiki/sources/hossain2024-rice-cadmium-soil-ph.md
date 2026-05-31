@@ -64,3 +64,12 @@ App: Should not directly set consumer rice occurrence values, but can inform sou
 
 The fetched filename placed the paper in a salt Cd queue because "salt tolerant rice" appeared in the title. The actual matrix is rice grain from a controlled pot experiment. Table 3 text extraction truncates the later rows; audit should verify the full treatment table before structured expansion.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [50ec0f0](https://github.com/paleofoundation/heavymetalindex/commit/50ec0f0) | 2026-05-30 | ingest auto-fetched 2026-05-30 2145 batch 1: 10 source pages |
+<!-- END: hmi-page-history -->

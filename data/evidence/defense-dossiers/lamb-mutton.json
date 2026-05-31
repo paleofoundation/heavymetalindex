@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/lamb-mutton",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6d8ec8d55387bbe3f8a5261ba53346a44f8f693158f50545a3287eac1eca9af4",
-      "content_bytes": 9049,
+      "content_sha256": "a89a50ba51124e7e3dbc890c5fa9ceb5eabe9eafd164ca910db7363331e6951c",
+      "content_bytes": 8931,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -44,8 +44,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/altalib2025-frozen-meat-libya",
         "content_pin": {
-          "content_sha256": "bc2ee04d268e432d42b9f4353e6e92b39a08a4da8006064b7b0d85b28037c600",
-          "content_bytes": 7334,
+          "content_sha256": "92254a6f54289a27d7316bbc380ee62af8efa2b7485d84155b00749c9544d0e0",
+          "content_bytes": 7351,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -68,8 +68,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "fe824255aab13196afa5b580913b6a1cb384f5262f682e229ae7dbb58f3dcf44",
-          "content_bytes": 10266,
+          "content_sha256": "ff2d90bd8e220a3b2aba425b88ccf4f046217064475df75ede0ca188d51ffaf3",
+          "content_bytes": 10268,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -91,8 +91,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maikanov2021-meats-shuchinsk-burabay-metals",
         "content_pin": {
-          "content_sha256": "03f1684ef533dd8898cf692a06f9064c54dd241cb25e107ec248a82a25493ca7",
-          "content_bytes": 2916,
+          "content_sha256": "fdc7662b9b6283a98b90928ba963c526f289a9e27de492fe3889d6f070ff3124",
+          "content_bytes": 2910,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

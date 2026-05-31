@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 25a03f103f3a3c22ceb4be65037b653d36b1208e7e983f5990024eac6c2c63e0
+source_page_sha256: 61939ae837a02b1131cefb33b437f3b5a4bd1174596f73abdf93fb1d6a473583
 total_claims: 122
 cited_claims: 122
 uncited_claims: 0
-distinct_cited_targets: 43
-distinct_cited_sources: 37
+distinct_cited_targets: 44
+distinct_cited_sources: 38
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 122 |
 | cited claims | 122 |
 | uncited claims | 0 |
-| distinct cited targets | 43 |
-| distinct cited `sources/` pages | 37 |
+| distinct cited targets | 44 |
+| distinct cited `sources/` pages | 38 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 
@@ -1352,7 +1352,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `am | 2025 | Government guidance | FDA Closer to Zero final guidance setting the 10 ppb Pb action level for fruits, non-r`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1402,6 +1402,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1410,7 +1412,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `tions for 386 processed baby foods (FY2023) that directly underpin the FDA 2025 10 ppb Pb action level; includes fruit-b`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1460,6 +1462,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1468,7 +1472,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3.0 ppm`
 - Context: `ence to MMWR North Carolina WanaBana apple cinnamon outbreak investigation (1.9–3.0 ppm Pb in product, 190–300× the FDA`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1518,6 +1522,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1526,7 +1532,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `on outbreak investigation (1.9–3.0 ppm Pb in product, 190–300× the FDA proposed 10 ppb action level); identifies cinnamo`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1576,6 +1582,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1584,7 +1592,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `800 µg/kg`
 - Context: `WanaBana apple cinnamon fruit puree pouches to childhood Pb poisoning (1,900–5,800 µg/kg Pb); adulteration event docume`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1634,6 +1642,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1642,7 +1652,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `reviewed | IEUBK/ICRP/AALM biokinetic Monte Carlo evaluating FDA action levels (10 ppb fruits, 20 ppb root vegetables/ce`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1692,6 +1702,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1700,7 +1712,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `K/ICRP/AALM biokinetic Monte Carlo evaluating FDA action levels (10 ppb fruits, 20 ppb root vegetables/cereal); fruits,`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1750,6 +1762,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1758,7 +1772,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `139 µg/kg`
 - Context: `ready-to-eat baby foods; fruit mousse subcategory had highest reported Pb (max 139 µg/kg) among product groups tested |`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1808,6 +1822,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1816,7 +1832,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `500 µg/kg`
 - Context: `| ICP-OES total Al measurement in 15 Brazilian commercial fruit purees (up to 2,500 µg/kg) plus in vitro bioaccessibilit`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1866,6 +1882,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1873,8 +1891,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `424 µg/kg`
-- Context: `, and V in 291 infant foods; fruit puree category had highest reported Sn mean (424 µg/kg) among groups | | 21 | [[sourc`
-- Cited targets (27):
+- Context: `, and V in 291 infant foods; fruit puree category had highest reported Sn mean (424 µg/kg) among groups | | 22 | [[sourc`
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1924,6 +1942,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1932,7 +1952,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 µg/kg`
 - Context: `ke during weaning to elevated urinary iAs; cites prior data reporting iAs up to 20 µg/kg in fruit and vegetable purees,`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -1982,6 +2002,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -1990,7 +2012,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `125 µg/kg`
 - Context: `tals (including Al, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014`
-- Cited targets (27):
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -2040,6 +2062,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -2047,8 +2071,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `50 µg/kg`
-- Context: `l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 26 |`
-- Cited targets (27):
+- Context: `l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 27 |`
+- Cited targets (28):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -2098,6 +2122,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
     - audit rows: none
@@ -2153,6 +2179,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
+| `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |
 | `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
 

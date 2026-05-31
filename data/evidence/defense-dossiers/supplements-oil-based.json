@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oil-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "0dacb81b703aa38ea4bff62dff5de9f5430d744d7059d8e8cf878696d174a1fe",
-      "content_bytes": 8588,
+      "content_sha256": "8b6a4260a49c2d130d5b71fd4b430406cf8de6650a02dae71062f75377cb25fe",
+      "content_bytes": 8470,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -41,8 +41,8 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brodziak-dopierala2023-mercury-oil-supplements-poland",
         "content_pin": {
-          "content_sha256": "143d60d7e9b63d1beec7d29392423d42ce9adc6c2809087225ab6205ee28a850",
-          "content_bytes": 11893,
+          "content_sha256": "1e7068955f62d2c537dc4bfd4b99114fd42f516bd6733f65bcee394ab5635528",
+          "content_bytes": 11883,
           "last_commit_sha": "9658f6b",
           "last_commit_date": "2026-05-30",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",

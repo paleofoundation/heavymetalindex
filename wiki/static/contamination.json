@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T18:31:48.430Z",
+  "generated_at": "2026-05-30T19:50:14.907Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -1776,7 +1776,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/beet",
-      "sources_count": 5,
+      "sources_count": 6,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -3035,7 +3035,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/broccoli",
-      "sources_count": 6,
+      "sources_count": 7,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -4429,7 +4429,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/canned-tuna",
-      "sources_count": 12,
+      "sources_count": 13,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -4680,7 +4680,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/carrot",
-      "sources_count": 28,
+      "sources_count": 29,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -4807,7 +4807,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/carrots",
-      "sources_count": 28,
+      "sources_count": 29,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -7337,7 +7337,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/coffee",
-      "sources_count": 14,
+      "sources_count": 15,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -8473,7 +8473,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cucumber",
-      "sources_count": 5,
+      "sources_count": 6,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -12157,7 +12157,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/green-bell-pepper",
-      "sources_count": 2,
+      "sources_count": 3,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -12914,7 +12914,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/herbal-botanicals",
-      "sources_count": 35,
+      "sources_count": 36,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -13166,7 +13166,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/honey",
-      "sources_count": 11,
+      "sources_count": 12,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -14421,7 +14421,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/leafy-greens",
-      "sources_count": 34,
+      "sources_count": 35,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -14547,7 +14547,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/leafy-vegetables",
-      "sources_count": 63,
+      "sources_count": 64,
       "last_updated": "2026-05-15",
       "metals": {
         "Pb": {
@@ -22372,7 +22372,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/rice",
-      "sources_count": 197,
+      "sources_count": 198,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23245,7 +23245,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/root-vegetables",
-      "sources_count": 44,
+      "sources_count": 45,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23626,7 +23626,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/seaweed",
-      "sources_count": 14,
+      "sources_count": 16,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -24512,7 +24512,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/soy",
-      "sources_count": 15,
+      "sources_count": 16,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {

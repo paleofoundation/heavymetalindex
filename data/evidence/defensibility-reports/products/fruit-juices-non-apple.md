@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juices-non-apple.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ae9b5af7fa13aa2b729a8278f00169b7631df904afe24ea8e8b24f737f696dbe
+source_page_sha256: 9baa7a8672cc3293b3aed38b7196f654673f5254f13ef94a78fab4c42beb3a1c
 total_claims: 25
 cited_claims: 25
 uncited_claims: 0
-distinct_cited_targets: 27
-distinct_cited_sources: 24
+distinct_cited_targets: 28
+distinct_cited_sources: 25
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 194
+audit_log_total_rows: 209
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 25 |
 | cited claims | 25 |
 | uncited claims | 0 |
-| distinct cited targets | 27 |
-| distinct cited `sources/` pages | 24 |
+| distinct cited targets | 28 |
+| distinct cited `sources/` pages | 25 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 194 |
+| audit log rows read | 209 |
 
 ## Page-level audit rows
 
@@ -320,7 +320,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `115 ppb`
 - Context: `te and other non-apple juices; highest-reporting pomegranate samples reached 91–115 ppb Pb; primary Pb occurrence source`
-- Cited targets (22):
+- Cited targets (23):
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
     - audit rows: none
   - `wiki/sources/balalimood2018-fruit-juice-mashhad-pb-as\.md` (page missing)
@@ -330,6 +330,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` (page missing)
     - audit rows: none
   - `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` (page missing)
     - audit rows: none
   - `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` (page missing)
     - audit rows: none
@@ -382,6 +384,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
 | `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices\.md` | sources | 0 | — | — |
 | `wiki/sources/cfs2012-hktds-inorganic-arsenic\.md` | sources | 0 | — | — |
+| `wiki/sources/cfs2013-hktds-metallic-contaminants\.md` | sources | 0 | — | — |
 | `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md` | sources | 0 | — | — |

@@ -17,8 +17,8 @@
     "canonical_url": "https://heavymetalindex.com/products/gel-diffusers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "eabab44416368eb1c379d337a3bc174d7a464faed1da4b36877d14490199a8a1",
-      "content_bytes": 7491,
+      "content_sha256": "3ee8e2525593a98a6c9283ca42fdadce69d3028d0364d7d603ba9b17e817c0d7",
+      "content_bytes": 7460,
       "last_commit_sha": "9658f6b",
       "last_commit_date": "2026-05-30",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
