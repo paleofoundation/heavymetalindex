@@ -923,3 +923,40 @@ The existing page is post-2026-05-14 clean (`updated: 2026-05-28`), not in `data
 This brings the 02_Vinegars Kimi-corruption-folder sub-tree to: six of ten processed PDFs are now confirmed wrong-PDF / duplicate (KADC_a-practical-method = duplicate-DOI of ozbek2016; KADC_alarming-lead-arsenic = SHA-identical duplicate of MFK_ root; KADC_aluminum-leaching = shimanoe2006 wrong PDF; KADC_determination-of-heavy-metal = duman-turkmen2024 wrong PDF; KADC_levels-of-cd-pb-and-ni = SHA-identical duplicate of MFK_ root; KADC_metallic-contaminants-in-andalusian = SHA-identical duplicate of MFK_ root). Three of the six are SHA-identical duplicates of the canonical MFK_ root tree — the duplicate-tree pattern now accounts for half the confirmed-skip cases in this folder. The recovery yield from the Kimi corruption folder for 02_Vinegars remains at zero net novel papers so far in this sweep. The pre-pass verification-script recommendation continues to gather supporting evidence.
 
 **Final line:** `STOP: pdf-already-ingested-clean troncoso1988-metallic-contaminants-andalusian-vinegars (SHA-identical to MFK_ root; existing page updated 2026-05-28 and clean per routing audit)`
+
+
+## KADC_fda-total-diet-study-report-fiscal-years-2018-2020 (03_Olives_and_Pickles) — KIMI-CORRUPTION DUPLICATE OF ALREADY-INGESTED MFK_ ROOT
+
+- **Source folder:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiment_papers/03_Olives_and_Pickles/`
+- **Filename:** `FDA Total Diet Study Report - Fiscal Years 2018-2020.pdf`
+- **Wrapper-supplied handle:** `KADC_fda-total-diet-study-report-fiscal-years-2018-2020`
+- **SHA256:** `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef`
+- **Existing wiki source page:** `wiki/sources/fda-tds-elements-2018-2020.md`
+- **Existing `cite_key`:** `fda-tds-elements-2018-2020`
+- **Existing `raw_handle`:** `manual-fetch-kimi`
+- **Existing `updated`:** `2026-05-20`
+
+### Identity evidence
+
+- SHA-256 of this PDF (KADC_ condiment_papers/03_Olives_and_Pickles tree): `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef`.
+- SHA-256 of canonical `raw/reports/2022_07_14_TDSElementsReport_1436.pdf` (named in the existing page's `raw_path` and `sha256` frontmatter): `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef` — byte-identical.
+- Identity-check grep hits:
+  - Title-substring grep: `fda-tds-elements-2018-2020.md` is the only post-2026-05-14-clean page covering "Total Diet Study Report: Fiscal Years 2018–2020 Elements Data" (companion CSV/key pages `fda2022-tds-elements-fy2018-fy2020` and `fda2022-tds-elements-analytical-key` are scoped to the row-level dataset and the analytical key, not the narrative PDF).
+  - DOI grep: report has `doi: null` / `no_doi_assigned: true` (FDA government report); identity established via SHA-256 collision plus title and `sha256` field match.
+  - Cite-key grep: `fda-tds-elements-2018-2020` already populated in `data/evidence/audit-queue.csv` and `data/evidence/autonomy/manual-fetch-tracker.csv` (lines 198 original MFK_ ingest 2026-05-19, 281 first KADC_ condiment_papers tree stop 2026-05-28, 855 KADC_ papers/01_Fruits_and_Fruit_Products tree stop 2026-05-31T15:57Z, 1400 May 21 KADC tree de-dup 2026-05-31T15:57Z).
+
+### Skill v2.0 Phase 1 step 1 outcome
+
+The existing page is post-2026-05-14 clean (`updated: 2026-05-20`), not in `data/evidence/routing_unresolved.csv` (0 hits), and not in `data/evidence/routing_malformed.csv` (0 hits). The skill's "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed" rule applies. The 2026-05-20 merge-enhance pass against this same PDF already corrected the `metals:` array (removed unsupported `MeHg`/`Al`, added `U`/`Sb`), promoted nutrient elements to `other_elements_in_file`, added comprehensive Key numbers tables (Table 3 detection rates and ranges; Action Levels; Table 4 baby-food speciation; Figure 10 vegetable-Cd; Figure 12 fruit-tAs; §4.2.2 food-group bands), Methods (ICP-AES/ICP-MS/HPLC-ICP-MS instrumentation with EAM references and Agilent model numbers, reporting-limit ranges, speciation-trigger thresholds), populated `products`/`ingredients`/`matrices`/`near_duplicates`/`sample_n`/`sample_population`, and was subsequently audited by a fresh-context subagent (verdict REVISE) with all ❌ and ⚠️ findings either applied or rejected as false positives with documented reasoning (infant-vs-crisped rice cereal conflation fix, apple-juice Pb/iAs regulatory attribution split, FDA juice-HACCP → fda2022-draft-lead-juice slug correction, thallium narrative inversion fix, CPG 540.600 coverage gap addition). Re-ingesting via the KADC_ root would either (a) duplicate the prior page or (b) regress the verified merge-enhance + audit-application work.
+
+### Action taken
+
+- Tracker row for `KADC_fda-total-diet-study-report-fiscal-years-2018-2020` (line 935 of `data/evidence/autonomy/manual-fetch-tracker.csv`, condiment_papers/03_Olives_and_Pickles path) flipped from `unprocessed` to `stopped`, with the existing `cite_key` (`fda-tds-elements-2018-2020`) populated so future wrapper ticks short-circuit on the row read instead of re-discovering the SHA collision.
+- No ingest, no merge-enhance, no audit, no audit-queue update, no commit beyond the tracker edit + this stop note.
+- The page itself was not modified; the 2026-05-20 merge-enhance + audit-application is the canonical version.
+
+### Upstream signal
+
+This is the fourth tracker hit for the same FDA TDS PDF across the Kimi-corruption-folder sweep (after the MFK_ root ingest on 2026-05-19, the KADC_ papers/01_Fruits_and_Fruit_Products stop on 2026-05-31T15:57Z, and the May 21 KADC tree de-dup on 2026-05-31T15:57Z). The FDA bundled the same TDS narrative PDF into multiple Kimi download folders (01_Fruits_and_Fruit_Products, 03_Olives_and_Pickles, and the May 21 corruption-folder re-fetch), all SHA-identical. The recovery yield from this specific PDF across all KADC_ trees is zero net novel pages — the canonical page covers the entire FY2018–FY2020 TDS narrative regardless of which Kimi folder the duplicate appeared in.
+
+**Final line:** `STOP: pdf-already-ingested-clean fda-tds-elements-2018-2020 (SHA-identical to MFK_ root; canonical page updated 2026-05-20 and clean per routing audit)`
