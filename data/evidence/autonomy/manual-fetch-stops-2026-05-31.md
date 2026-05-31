@@ -100,3 +100,39 @@ destination folder it was moved to.
   distinct files. Both sessions' DOI greps ran before the other's commit
   landed, so the existing identity-check protocol cannot prevent this race
   without filesystem-level coordination.
+
+## auto-matcha-al-product_2025_10-54536-ajlsi-v4i2-5050.pdf
+
+- **Source folder:** `raw/manual-fetch/seasonal-geographic-variance/auto-fetched/`
+- **Auto-fetch slug intent:** matcha × Al × product-level occurrence
+- **DOI:** 10.54536/ajlsi.v4i2.5050
+- **Actual paper:** Perez JTV et al., Leong-On MSG (corresponding author)
+  (2025). "Antioxidant Activities of Selected Milk Teas and Fruit Teas Using
+  2,2-Diphenyl-1-Picrylhydrazyl (DPPH) Assay." *American Journal of Life
+  Science and Innovation* 4(2): 6–10. e-Palli Publishers. Article type:
+  original research (in vitro antioxidant assay).
+- **Why rejected:** Off-topic. The paper measures DPPH radical scavenging
+  activity (% scavenging) of six commercial milk-tea and fruit-tea
+  preparations (Matcha, Okinawa, Winter Melon, Green Apple, Kiwi, Lychee)
+  plus a "pure tea" reference and ascorbic-acid positive control. There are
+  zero heavy-metal measurements, zero analytical chemistry of metals, and
+  zero food-occurrence data. The only mention of "aluminum" in the entire
+  paper is "covered with aluminum foil for 30 minutes" — laboratory glassware
+  used to keep the photosensitive DPPH reagent in the dark during incubation.
+  The discover keyword matcher false-positived on the string "aluminum foil"
+  in the methods, generating the misleading `matcha-al-product` slug. No
+  aluminum-in-matcha occurrence data exists in this paper.
+- **Action:** Moved PDF to
+  `raw/manual-fetch/seasonal-geographic-variance/skipped/skip_no-heavy-metal-data/`.
+  Not ingested, not committed, no wiki source page created.
+- **Upstream signal:** The discover pipeline's metal-keyword matcher is
+  treating "aluminum foil" (labware) as evidence of aluminum-as-analyte. A
+  context-aware filter ("aluminum foil" / "aluminum block" / "aluminum
+  weighing dish" appearing only in methods labware context should not score
+  as Al-occurrence intent) would catch this pattern. If similar false
+  positives recur — particularly from DPPH/ABTS/FRAP antioxidant-assay
+  papers whose methods routinely use aluminum foil to dark-incubate the
+  reagent — the scorer should be tightened. The `matcha` element of the
+  slug was also misled: the paper studies *commercial milk-tea preparations
+  flavored as matcha*, not matcha powder itself, so even if Al data existed
+  it would not route cleanly to `ingredients/matcha`.
