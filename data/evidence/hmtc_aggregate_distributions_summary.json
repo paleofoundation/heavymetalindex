@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-05-31T06:16:47.063Z",
+  "generated_at": "2026-05-31T11:44:20.306Z",
   "product_filter": null,
   "metal_filter": null,
-  "cells_total": 629,
+  "cells_total": 644,
   "cells_by_verdict": {
-    "READY FOR REVIEW": 55,
+    "READY FOR REVIEW": 58,
     "READY FOR REVIEW (regulatory cap applies)": 17,
-    "BLOCKED: pool too thin (≥2 distinct sources required)": 177,
-    "BLOCKED: no usable evidence": 353,
-    "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units)": 7,
+    "BLOCKED: pool too thin (≥2 distinct sources required)": 202,
+    "BLOCKED: no usable evidence": 333,
+    "BLOCKED: pool internally inconsistent (p95/p10 > 1e4, likely mixed units)": 11,
     "BLOCKED: sensitivity unstable across parametric assumptions": 9,
-    "PROVISIONAL: review sensitivity disagreement": 11
+    "PROVISIONAL: review sensitivity disagreement": 14
   },
   "cells_by_rationale": {
-    "literature-baseline": 266,
+    "literature-baseline": 301,
     "regulatory-alignment": 10,
-    "no-data": 353
+    "no-data": 333
   },
   "cells_by_role": {
-    "clean_subcategory": 93,
-    "independent_clean_by_default": 536
+    "clean_subcategory": 95,
+    "independent_clean_by_default": 549
   },
   "sensitivity_band_distribution": {
-    "stable": 192,
-    "provisional": 51,
-    "no_data": 353,
+    "stable": 209,
+    "provisional": 69,
+    "no_data": 333,
     "needs_review": 33
   },
   "pool_starvation": {
-    "structured_rows_total": 6291,
-    "stranded_rows_total": 2487,
-    "stranded_rows_carrying_a_statistic": 681,
+    "structured_rows_total": 6416,
+    "stranded_rows_total": 2362,
+    "stranded_rows_carrying_a_statistic": 561,
     "stranded_by_reason": {
-      "empty_slug": 318,
+      "empty_slug": 193,
       "unmatched_slug": 371,
       "no_metal_species": 1798
     },

@@ -886,6 +886,18 @@ function deriveVerdict({ admittedCount, distinctSources, sampleLevelCount, sensB
 function buildStarvationAudit(summaryRows, sampleRows, products, _outputRows) {
   const productSlugSet = new Set(Object.keys(products))
   const auditRng = new SeededRng(1)
+  // Rows that were stranded by the extractor but later RECOVERED by the matrix
+  // router (route-stranded-extractions.mjs) reappear here twice: once as the
+  // inert empty-slug original in the extract, once as a slugged copy in the
+  // routed CSV. Don't double-count the original as stranded — it has been
+  // recovered. Match on (source_id, statistic_scope), preserved verbatim by the
+  // router's row spread.
+  const recoveredKeys = new Set()
+  for (const r of summaryRows) {
+    if (r.review_state === "autonomy_v1_matrix_routed") {
+      recoveredKeys.add(`${r.source_id || ""}||${r.statistic_scope || ""}`)
+    }
+  }
   // Mirror the engine's two admission paths: summary rows reconstruct from
   // moments/percentiles; sample rows carry raw value columns aggregated in the
   // main loop. A row "carries a statistic" if either path yields a number.
@@ -898,6 +910,8 @@ function buildStarvationAudit(summaryRows, sampleRows, products, _outputRows) {
   for (const row of [...summaryRows, ...sampleRows]) {
     const slug = (row.product_slug || row.row_slug || "").trim()
     const metal = (row.metal_species || "").trim()
+    // Skip an empty-slug original that the matrix router has since recovered.
+    if (slug === "" && recoveredKeys.has(`${row.source_id || ""}||${row.statistic_scope || ""}`)) continue
     let reason
     if (slug === "") reason = "empty_slug"
     else if (!productSlugSet.has(slug)) reason = "unmatched_slug"

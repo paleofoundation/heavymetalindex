@@ -15,11 +15,11 @@ contamination_profile:
     last_reviewed: 2026-05-31
   Cd:
     status: populated
-    typical_ppb: [null, null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: 2026-05-16
+    typical_ppb: [0, 2.81]
+    p95_ppb: 3.95
+    confidence: low
+    n_studies: 5
+    last_reviewed: 2026-05-31
   iAs:
     status: populated
     typical_ppb: [null, null]
@@ -64,10 +64,10 @@ contamination_profile:
     last_reviewed: 2026-05-16
   tAs:
     status: populated
-    typical_ppb: [0.056, 5]
+    typical_ppb: [0.057, 5]
     p95_ppb: 5
     confidence: medium
-    n_studies: 4
+    n_studies: 5
     last_reviewed: 2026-05-31
   U:
     status: populated

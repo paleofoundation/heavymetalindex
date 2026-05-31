@@ -443,6 +443,42 @@
     "sweet-potato-root"
   ],
   "_mappings": {
+    "brassica-vegetable": {
+      "products": [
+        "non-root-vegetables"
+      ],
+      "confidence": "high"
+    },
+    "allium-vegetable": {
+      "products": [
+        "non-root-vegetables"
+      ],
+      "confidence": "medium"
+    },
+    "seed": {
+      "products": [
+        "nuts-seeds-other"
+      ],
+      "confidence": "high"
+    },
+    "flaxseed": {
+      "products": [
+        "nuts-seeds-other"
+      ],
+      "confidence": "high"
+    },
+    "processed-pork": {
+      "products": [
+        "pork-product"
+      ],
+      "confidence": "high"
+    },
+    "marine-fish-muscle": {
+      "products": [
+        "fresh-fish"
+      ],
+      "confidence": "high"
+    },
     "seafood": {
       "products": [
         "seafood"
