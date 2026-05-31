@@ -14,7 +14,7 @@ access_url: https://doi.org/10.1177/11786302221119151
 raw_path: raw/markdown/FM_9434655/FM_9434655.md
 metals: [Pb, Cd, tAs, tHg]
 ingredients: ["[[ingredients/vegetables]]", "[[ingredients/fruit]]", "[[ingredients/potatoes]]"]
-products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]", "[[products/leafy-vegetables-other]]", "[[products/fresh-fruit]]"]
+products: ["[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]", "[[products/leafy-vegetables-other]]", "[[products/fresh-fruit]]", "[[products/legumes-pulses-other]]", "[[products/other-grain-products]]"]
 matrices: [vegetables, fruits, soil]
 jurisdictions: [IN]
 near_duplicates: ["raw/Manual Fetch Kimi /01_Fruits_and_Fruit_Products/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf", "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/papers/01_Fruits_and_Fruit_Products/Heavy Metal Accumulation in Fruits and Vegetables and Its Health Risk Assessment.pdf"]
@@ -110,6 +110,11 @@ The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metal
 - **Sampling year recorded.** `sampling_year_range: null` → `2017` (paper page 2, Materials and Methods: "winter (January) and summer (April) in the year 2017").
 - **Near-duplicate path added.** Kimi Agent Download Corruption Issue tree path added to `near_duplicates` so future identity checks resolve to this page.
 
+**Audit subagent 2026-05-31 (PROMOTE verdict, one ⚠️ routing-precision concern, verified and applied):**
+- Check 1 (numerical fidelity), Check 3 (speciation/methods), Check 4 (brand firewall), Check 5 (wiki/HMTc firewall): all ✅.
+- Check 2 (slug vocabulary): ⚠️ concern that the broad `non-root-vegetables` routing silently absorbed 6 legume commodities (broad beans, chickpea, mung beans, cream beans, green peas, red gram) and the grain crop sorghum that would route more accurately to `legumes-pulses-other` (Cat 4 Row 8) and `other-grain-products` (Cat 3 Row 11) respectively. Verified both destination pages exist with appropriate scope (legumes-pulses-other: "Beans, lentils, chickpeas, split peas"; other-grain-products: "oat, millet, quinoa, barley" — sorghum is a millet-adjacent cereal grain). Applied: added both to products array and to "Wiki pages this source touches." Non-root-vegetables retained as a wide-net catch for sugarcane (which has no clean product home), brinjal/eggplant, cucumber, tomato, okra. The product count moves from 4 → 6.
+- The audit also surfaced a 1-count minor discrepancy in the wiki page's "11 vegetables and 13 fruits/legumes" framing vs Table 1's actual split of 10 in the vegetable block / 14 in the fruit block (the paper itself oddly classifies brinjal, cucumber, okra as "fruits"). Not a wiki-side defect — the wiki summary aligns with biological vegetable/fruit classification rather than the paper's idiosyncratic table grouping. Left unchanged.
+
 ## Wiki pages this source touches
 
 - [[metals/lead]]
@@ -123,6 +128,8 @@ The Mawari et al. 2022 paper on drinking water (cite_key `mawari2022-heavy-metal
 - [[products/non-root-vegetables]]
 - [[products/leafy-vegetables-other]]
 - [[products/fresh-fruit]]
+- [[products/legumes-pulses-other]]
+- [[products/other-grain-products]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
