@@ -139,3 +139,33 @@
 
 ### Succeeded
 - `iso2020-8124-3-toy-migration-elements` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/06_ISO-8124-3-2020_2020.pdf)
+
+## Tick 2026-06-01T03:17:02.675Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `sgs2009-canada-toy-coating-heavy-metals` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/07_SGS-Safeguards-18109-Canada-Heavy-Metal-Toys_-EN-09_2009.pdf)
+
+## Tick 2026-06-01T03:25:47.518Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `hatlelid2009-cpsc-cpsia-lead-childrens-products` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/09_blk_media_toyweb4_en_2025.pdf)
+
+## Tick 2026-06-01T03:33:34.866Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `maine-pl-643-2008-toxic-chemicals-childrens-products` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/10_PUBLIC643_2016.pdf)

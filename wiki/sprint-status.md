@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T02:59:45.541Z
+updated: 2026-06-01T03:50:59.837Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 51 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 698 min ago (stale) |
-| auto-fetched/ PDFs in queue | 9 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 749 min ago (stale) |
+| auto-fetched/ PDFs in queue | 8 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
-| Wishlist: total downloaded historically | 63 |
-| Wishlist: total ingested historically | 2 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 17 |
-| Commits last 24 hours | 185 |
+| Wishlist: total downloaded historically | 10 |
+| Wishlist: total ingested historically | 0 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 13 |
+| Commits last 24 hours | 195 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-8549d21 16 seconds ago — triage sweep 2026-06-01 02:58: 0 rollups + 1 skips
+d89982a 5 minutes ago — audit-queue: maine-pl-643-2008-toxic-chemicals-childrens-products -> audited-revised (PROMOTE)
 ```
 
 ## How to read this
