@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T08:48:19.148Z
+updated: 2026-06-01T10:13:40.578Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 67 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 67 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1046 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1131 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 12 |
-| Commits last 24 hours | 250 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 11 |
+| Commits last 24 hours | 265 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 67 min**
 ## Last commit
 
 ```
-6de550c 2 minutes ago — feat: named authorship (Karen Pendergrass, ORCID) + Google Scholar PDFs
+e4f7500 2 minutes ago — audit-queue: oecd2024-crafts-toys-children-exposure -> audited-promote
 ```
 
 ## How to read this

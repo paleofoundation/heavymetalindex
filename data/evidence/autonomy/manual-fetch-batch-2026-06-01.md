@@ -379,3 +379,73 @@
 
 ### Succeeded
 - `cpsc2010-cadmium-childrens-metal-jewelry` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_04_Fasteners_Snaps_Zippers/04_Fasteners_Snaps_Zippers/blk_pdf_cadmiumjewelry.pdf)
+
+## Tick 2026-06-01T08:48:41.070Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `oeko-tex2024-new-limit-values` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH/New_regulations_2024_OEKO-TEX_Limit_values_EN.pdf)
+
+## Tick 2026-06-01T08:57:56.470Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cirs2023-reach-annex-xvii-restrictions` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH/cstduz9z51xc.pdf)
+
+## Tick 2026-06-01T09:16:52.563Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cpsc2011-cpsia-100ppm-tech-feasibility` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH/foia_lead100tech.pdf)
+
+## Tick 2026-06-01T09:31:15.367Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `ec2013-tsd-rev1-7-guidance` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH/tsd-rev1-7-explanatory-guidance-document-en.pdf)
+
+## Tick 2026-06-01T09:41:47.589Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/ATSDR_Exposure_Dose_Guidance_for_Soil_Sediment_Dermal_Absorption.pdf`: existing post-schema page (atsdr2023-soil-dermal-absorption-guidance, updated 2026-05-17) fully reconciles with source PDF; only malformed-CSV entry is the expected advisory for a methodology document with empty products/ingredients — re-ingest would inject incorrect routing
+
+## Tick 2026-06-01T09:46:52.840Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/Appendix_F_-_Dermal_Uptake_of_Chemicals_from_Soil_OEHHA.pdf`: oehha2000-appendix-f-dermal-uptake-soil — existing post-2026-05-14 wiki page (updated 2026-05-17), comprehensive Key-numbers coverage of all 7 inorganic metals + organic cross-references, already through Codex cross-vendor and Claude fresh-context subagent audits per its `## Verification notes`. Only routing-CSV entry is advisory-severity (missing optional `products`/`ingredients`), which is the expected end state for a Cal/EPA OEHHA soil-pathway methodology document with no product/ingredient occurrence data. Re-ingesting cannot improve the page without injecting incorrect frontmatter. Stop note appended to `data/evidence/autonomy/manual-fetch-stops-2026-06-01.md`, no ingest/commit/audit-queue changes. Same pattern as the ATSDR Soil/Sediment stop earlier in the same folder; same system-level fix recommendations apply.
+
+## Tick 2026-06-01T10:02:30.546Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `oecd2024-crafts-toys-children-exposure` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/Considerations_when_Estimating_Exposure_to_Crafts_and_Toys_in_Children.pdf)

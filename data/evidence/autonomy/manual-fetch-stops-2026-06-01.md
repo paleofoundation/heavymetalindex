@@ -235,3 +235,81 @@ This is parallel in failure mode to MFK_01 (PAH-only), MFK_03 (phthalates-only),
 **Folder note:** First evaluated PDF in `_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats`. The folder is plausibly mixed-scope: child car seats / high chairs / carriers are reasonable surfaces for Pb (paint), Cd (plastic stabilizers), Cr-VI (leather), Ni (metal frames). Other PDFs in the folder warrant individual evaluation; a flame-retardant paper landing first does not predict the rest of the folder will be similarly off-scope.
 
 **Recommendation for Karen:** Same standing recommendation as for MFK_01/03/05-dioxins/07 — either (a) move the five organics-only stops (MFK_01 PAH, MFK_03 phthalates, MFK_05-ehp0110 dioxins, MFK_07 melamine+formaldehyde, MFK_05-unknown FRs) to an `out-of-scope/organics-only/` pile so future Kimi sweeps skip them automatically, or (b) expand HMI's analyte vocabulary / define a "co-contaminant context" source-type tag so durable-product pages can carry a unified contaminant story (metals + brominated/organophosphate FRs + PAH + phthalates + dioxins + MFR monomers) paralleling EU REACH, ANSES, BfR, and Duke-lab dossiers. The pattern is now consistent across four folders (03_Diapers, 04_Feeding_Accessories, 02_Strollers_Walkers_Swings, 03_Carriers_HighChairs_CarSeats) and five contaminant classes — a single decision settles all of them and any future folder sweep.
+
+## STOP: atsdr2023-soil-dermal-absorption-guidance — existing post-schema page, no actionable defects
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/ATSDR_Exposure_Dose_Guidance_for_Soil_Sediment_Dermal_Absorption.pdf`
+
+**Suggested handle from wrapper:** KADC_atsdr-exposure-dose-guidance-for-soil-sediment-der
+
+**Existing wiki page:** `wiki/sources/atsdr2023-soil-dermal-absorption-guidance.md` (cite_key `atsdr2023-soil-dermal-absorption-guidance`, raw_handle `MFK_atsdr-exposure-dose-guidance-soil-sediment-dermal`, `updated: 2026-05-17`)
+
+**Reason for stop:** The PDF the wrapper picked is the same source already ingested under raw_handle `MFK_atsdr-exposure-dose-guidance-soil-sediment-dermal` from the prior copy of the same file in `Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/` (now relocated to the Kimi corruption folder structure). The existing page is post-2026-05-14 (updated 2026-05-17), comprehensive, and already audited twice (subagent + Codex cross-vendor) per its own Verification notes section.
+
+Full source-vs-page reconciliation (PDF read pp. 1–21 in two chunks):
+
+| Existing page claim | Source location | Reconciled |
+|---|---|---|
+| DAD equation form | p. 4 | ✓ |
+| Default soil AF: 0.2 child / 0.07 adult | p. 5 | ✓ |
+| Table 7 weighted child AFs (5 scenarios incl. mud-footnote-5) | p. 17 | ✓ |
+| Table 8 ABSd values (As 0.03, Cd 0.001, PCBs 0.14, PAHs 0.13, inorganic 0.01, VOC/SVOC defaults, TCDD 0.03/0.001 organic-content split) | p. 18 | ✓ |
+| Table 1 ABS_GI (all 18 inorganic entries incl. Cd 2.5%/5%, Cr-III 1.3%, Cr-VI 2.5%, Hg-Cl 7%, Hg-metallic 80%, MeHg 100%, Ni 4%, Ba 7%, Be 0.7%, Sb 15%, Cu 57%, Mn 6%, Se 30%, Ag 4%, Tl 100%, V 2.6%, Zn 100%) | p. 7 | ✓ |
+| Lead absent from Tables 1 & 8 | p. 7, 18 | ✓ |
+| Table 2 standard age groups SA + BW (7 rows, Adult 6,030 cm² / 80 kg) | p. 13 | ✓ |
+| Table 3 special groups SA + BW (14 rows incl. four infant sub-bands; worker/educator 80.6 kg) | p. 14 | ✓ |
+| ADAFs 10 / 3 / 1 by age band | p. 8 | ✓ |
+| CTE 12 yr, RME 33 yr, occupational 5/20 yr, AT 78 yr | pp. 3–4 | ✓ |
+| Appendix B Table 9 HQs (all 7 age groups; oral MRL 2E-5 mg/kg/day) | p. 20 | ✓ |
+| ABS_GI = 1.0 for PCBs in worked example | App. B Default/Site-Specific Value table p. 19 | ✓ |
+
+No transposed values, no invented method detail, no invalid slugs, no brand-firewall issue, no missing exposure-modeling tables, no legacy headings. The page's `## Verification notes` section already documents the May 17 audit-driven corrections (Ba added to `metals:`, Table 2 / Table 3 BW split corrected, EPA RAGS Part E source-attribution clarified, fabricated IEUBK/LeadSpread reference removed).
+
+**Routing-malformed advisory is the expected backlog state, not an actionable defect:** the page is in `data/evidence/routing_malformed.csv` at **advisory** severity only — `missing_advisory: products;ingredients`, note "Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible." That is correct for this source: it is a US-federal exposure-assessment methodology document about soil/sediment dermal absorption with no product or ingredient occurrence data. Setting `products:` or `ingredients:` to a non-empty value would invent routing the source does not support. The advisory severity is the known acceptable backlog state per the standing manual-fetch memory.
+
+**Per the v2 skill's entry rule** ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"): the strict reading is that any malformed-CSV entry — even advisory — disqualifies the skip, which is why the wrapper picked this PDF. The substantive reading is that advisory-severity malformed for a methodology document with no occurrence data is the intended end state, not a defect for the manual-fetch loop to fix. Re-ingesting this PDF cannot move the page toward a non-advisory malformed state without injecting incorrect frontmatter.
+
+**Identity checks:**
+- DOI grep: source has no DOI (gov-report, `no_doi_assigned: true`)
+- raw_handle grep `MFK_atsdr-exposure-dose-guidance-soil-sediment-dermal`: matches the existing page (line 3)
+- cite-key grep `atsdr2023-soil-dermal-absorption-guidance`: matches the existing page (line 4)
+
+The wrapper-suggested handle `KADC_atsdr-exposure-dose-guidance-for-soil-sediment-der` is a new prefix reflecting the relocated PDF path (Kimi_Agent_Download_Corruption → `KADC_`). Adopting that handle would either (a) require duplicating the existing source page under a new cite-key — which violates the deduplication discipline — or (b) require rewriting the existing page's `raw_handle` and `raw_path` to the relocated path. The path-relocation rewrite is a bulk-cleanup task across many sources, not per-PDF ingest work, and is not in this skill's scope.
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+**Folder note:** First evaluated PDF in `Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/`. The folder contains 21 PDFs; the other 20 should be evaluated individually. Several entries clearly cover heavy metals in cosmetics, infant clothing, or skin-care formulations (e.g., `An_Overview_of_Heavy_Metals_in_Cosmetic_Products...`, `Heavy_Metals_in_Infant_Clothing...`, `Evaluation_of_heavy_metals_in_cosmetic_products...`); these are likely in-scope and should drain through the loop normally. Several entries (parabens, phthalates from disposable diapers, methyl salicylate, dermal absorption modeling) are organic-contaminant or methodology references that may parallel this stop (existing-page already covers, or analyte-scope mismatch).
+
+**Recommendation for Karen:** Two possible system-level fixes so the wrapper does not re-pick already-comprehensive pages whose only malformed flag is advisory:
+1. Tighten the wrapper's "next PDF" selection to treat advisory-severity malformed for `source_type: gov-report` (and similar methodology source types) as not-malformed for picking purposes.
+2. Add an explicit `routing_intent: methodology-no-routing` (or similar) frontmatter signal that the audit recognizes as "advisory is the intended end state" so the page drops out of the malformed CSV entirely.
+Either fixes the loop; (2) is cleaner because it makes the per-source intent explicit. Until one is in place, this PDF will recur on every Kimi-folder sweep and stop here.
+
+## STOP: oehha2000-appendix-f-dermal-uptake-soil — existing post-schema page, no actionable defects
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/Appendix_F_-_Dermal_Uptake_of_Chemicals_from_Soil_OEHHA.pdf`
+
+**Suggested handle from wrapper:** KADC_appendix-f-dermal-uptake-of-chemicals-from-soil-oe
+
+**Existing wiki page:** `wiki/sources/oehha2000-appendix-f-dermal-uptake-soil.md` (cite_key `oehha2000-appendix-f-dermal-uptake-soil`, raw_handle `MFK_appendix-f-dermal-uptake-chemicals-soil-oehha`, `updated: 2026-05-17`)
+
+**Reason for stop:** The PDF the wrapper picked is the same source already ingested under raw_handle `MFK_appendix-f-dermal-uptake-chemicals-soil-oehha` from the prior copy of the same file in `Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/` (now relocated to the Kimi corruption-folder structure). The existing page is post-2026-05-14 (updated 2026-05-17), comprehensive (all 7 inorganic metals — As, Be, Cd, Cr-VI, Pb, Hg, Ni — plus organic cross-references PCBs, TCDD, BaP/PAHs, HCH, DEHP), and already audited twice per its `## Verification notes` section: a Codex cross-vendor pass (lead primary-study attribution tightened to Stauber 1994 only; HMTc-direction framing softened) and a Claude Opus 4.7 fresh-context subagent pass (REVISE verdict applied: Cd page reference tightened from F-11 to F-11–F-12; `Be` abbreviation false-positive documented).
+
+Source-vs-page reconciliation (PDF read pp. 1–5 in this session; pp. F-1 through F-5 cover §F.1.1 Introduction, §F.1.2.1–F.1.2.9 Risk Assessment Issues — definitions, soil contamination history, soil loading, soil condition, in vivo vs in vitro, species specificity, soil–chemical–tissue interaction, frequency/duration). The page's Methodological notes block matches every claim in the pages read: soil loading 0.2–1.0 mg/cm² typical vs 20–40 mg/cm² in studies (F.1.2.4 p. F-3 ✓), in vivo > in vitro preference (F.1.2.6 p. F-4 ✓), species rank rabbit > rat > pig ≈ monkey ≈ humans from Wester and Maibach 1975/1983 (F.1.2.7 p. F-4 ✓). The chemical list in §F.1.1 (4,4'-methylene dianiline, hexachlorocyclohexanes, DEHP, PCDD/PCDF as TCDD, pentachlorophenol, PAHs as BaP, and salts of arsenic, beryllium, cadmium, mercury, lead, nickel, chromium VI) is fully covered in the page's Key numbers and organics cross-reference blocks. No transposed values, no invented method detail, no invalid slugs, no brand-firewall issue, no legacy headings, no missing exposure-modeling tables. The full per-metal Key-numbers verification was performed in the 2026-05-17 subagent pass.
+
+**Routing-malformed advisory is the expected backlog state, not an actionable defect:** the page is in `data/evidence/routing_malformed.csv` at **advisory** severity only — `missing_advisory: products;ingredients`, note "Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible." That is correct for this source: it is a Cal/EPA OEHHA Air Toxics Hot Spots regulatory technical-support document about soil-pathway dermal absorption with no product or ingredient occurrence data. Setting `products:` or `ingredients:` to a non-empty value would invent routing the source does not support. The advisory severity is the known acceptable backlog state per the standing manual-fetch memory and parallel to the ATSDR stop earlier in this file.
+
+**Per the v2 skill's entry rule** ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"): the strict reading is that any malformed-CSV entry — even advisory — disqualifies the skip, which is why the wrapper picked this PDF. The substantive reading is that advisory-severity malformed for a methodology document with no occurrence data is the intended end state, not a defect for the manual-fetch loop to fix. Re-ingesting this PDF cannot move the page toward a non-advisory malformed state without injecting incorrect frontmatter.
+
+**Identity checks:**
+- DOI grep: source has no DOI (gov-report, `no_doi_assigned: true`)
+- raw_handle grep `MFK_appendix-f-dermal-uptake-chemicals-soil-oehha`: matches the existing page (line 3)
+- cite-key grep `oehha2000-appendix-f-dermal-uptake-soil`: matches the existing page (line 4); `wiki/sources/oehha2000-appendix-f-dermal-uptake-soil.md` is the only file matched
+
+The wrapper-suggested handle `KADC_appendix-f-dermal-uptake-of-chemicals-from-soil-oe` is the same Kimi_Agent_Download_Corruption (KADC_) relocation-prefix pattern flagged in the ATSDR stop above. Same logic applies: adopting it would either duplicate the source under a new cite-key (violates deduplication) or require a bulk path-relocation rewrite that is not per-PDF ingest work.
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+**Folder note:** Second evaluated PDF in `Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/` (after the ATSDR stop above). This is the same parallel-relocation problem and the same recommendation applies. The 19 remaining PDFs in this folder should be evaluated individually; cosmetics, infant clothing, and dermal-bioaccessibility entries are likely in-scope and will drain through normally, while skin-physiology / methyl-salicylate / paraben / phthalate-modeling entries may parallel this stop.
+
+**Recommendation for Karen:** Same two system-level fixes as the ATSDR stop above — (1) tighten wrapper's "next PDF" selection to treat advisory-severity malformed for `source_type: gov-report` as not-malformed for picking, or (2) add a `routing_intent: methodology-no-routing` frontmatter signal. Until one is in place, both ATSDR Soil/Sediment Guidance and OEHHA Appendix F (and likely SCHER Toy Migration Opinion, SCCS Notes of Guidance, EPA RAGS Part E, etc.) will recur on every Kimi-folder sweep and stop here.
