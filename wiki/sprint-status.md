@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T07:19:18.056Z
+updated: 2026-06-01T07:41:29.663Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 67 min**
+Velocity: **+0 cells in the last 66 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 67 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 957 min ago (stale) |
+| Daemon heartbeat | ⚠️ 979 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 233 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 10 |
+| Commits last 24 hours | 236 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 67 min**
 ## Last commit
 
 ```
-da6fc85 8 minutes ago — audit-queue: echa2023-cmr-childcare-articles -> audited-revised
+93b0fa4 2 minutes ago — audit-queue: stapleton2010-flame-retardants-baby-product-foam -> audited-promote
 ```
 
 ## How to read this

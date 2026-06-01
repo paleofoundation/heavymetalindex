@@ -197,3 +197,41 @@ Phthalates are organic plasticizers (di-ester compounds), not metals; they are n
 **Folder note:** Second out-of-scope stop in the `_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings` folder (after `09_Unknown.pdf`). The folder now has two confirmed misfilings: a CPSC crib-rule economic-review report (`09_Unknown.pdf`) and this WTC phthalates-in-toys advocacy report (`15_Unknown.pdf`). Other `*_Unknown.pdf` files in this folder are at elevated risk of being similarly off-scope and warrant individual evaluation rather than blanket processing.
 
 **Recommendation for Karen:** Same as MFK_03-new-diaper-study-final-2015 — this is an organics-only (phthalates) testing report with no metals analyte to anchor on. Either (a) expand HMI analyte vocabulary to include co-occurring plasticizers as cross-contaminant context (large policy decision; not recommended for one report), or (b) move `15_Unknown.pdf` to an `out-of-scope/phthalates-only/` review pile so it is not re-attempted. The brand-firewall concern is a secondary lock — even with a vocabulary expansion, this specific source is mostly unusable at the granularity its data is reported.
+
+## STOP: MFK_05-unknown (carriers/highchairs/carseats) — out of HMI analyte scope (flame retardants only)
+
+**PDF:** `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats/05_Unknown.pdf`
+
+**Suggested handle:** MFK_05-unknown
+
+**Citation:** Cooper EM, Kroeger G, Davis K, Clark CR, Ferguson PL, Stapleton HM. Results from Screening Polyurethane Foam Based Consumer Products for Flame Retardant Chemicals: Assessing Impacts on the Change in the Furniture Flammability Standards. Environ Sci Technol. 2016;50(19):10653–10660. DOI: 10.1021/acs.est.6b01602. Received 31 March 2016; revised 8 August 2016; accepted/published 23 August 2016. ACS AuthorChoice open access. Nicholas School of the Environment, Duke University. NIEHS grant P42ES010356.
+
+**Reason for stop:** Paper measures only seven additive **organic flame retardants** in polyurethane foam (PUF) from 1141 household samples submitted to Duke's free public screening service Feb 2014 – Jun 2016:
+- **PentaBDE** (commercial mixture: BDE congeners 47, 85, 99, 100, 153, 154 — polybrominated diphenyl ethers)
+- **Firemaster 550 / FM550** (mixture: TPHP, isopropylated TPHP isomers, TBB/EHTBB, TBPH/BEHTBP)
+- **Firemaster 600 / FM600** (V6 = 2,2-bis(chloromethyl)propane-1,3-diyl tetrakis[2-chloroethyl]bis[phosphate])
+- **TDCIPP** (tris(1,3-dichloroisopropyl)phosphate) — most frequently detected (24% of samples), Prop 65-listed
+- **TCIPP** (tris(1-chloro-2-propyl) phosphate)
+- **TBPP** (a nonhalogenated aryl phosphate mixture with mono- and tributylated TPHP)
+- **TPHP** (triphenyl phosphate)
+
+Headline findings (verified by reading all 8 pages including Table 1 product-category counts, Figure 1 product-by-FR pie charts, Figure 2 temporal trend stacked bars, Figure 3 sofa pre/post-2005 bar chart, Figure 4 pre/post-2014 sofa & car-seat charts, and the full references list pages 7–8): 52% of all 1141 samples contained an FR >1% by weight; among 7 major product categories n_chairs=130, n_mattress_pads=106, n_child_car_seats=98, n_mattresses=71, n_other_child_products=49, n_rocking_chairs_and_recliners=44, n_sofas_and_loveseats=451, n_child_mattresses=36; FR detection in child car seats decreased significantly from 91% (purchased 2009–2013) to 50% (purchased post-2014), p<0.0001. TDCIPP detection in child car seats decreased 77% → 48% pre/post-2014; TCIPP rose 29% → 52% as a likely TDCIPP replacement. Across sofas/loveseats, FR detection fell 60% (pre-2014) → 29% (post-2014) following TB-117-2013 amendment and 2011 Prop 65 listing of TDCIPP.
+
+None of the seven measured analytes (BDE-47, -85, -99, -100, -153, -154; TPHP; iso-TPHP; EHTBB; BEHTBP; V6; TDCIPP; TCIPP; TBPP) are in HMI's 10-analyte vocabulary (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn). Brominated diphenyl ethers contain bromine (a halogen, non-metal); organophosphate flame retardants contain phosphorus and chlorine — also non-metals. No metals analyte, no metals method, no metals quantification appears anywhere in the paper. The 34-citation reference list is uniformly flame-retardant / PBDE / TDCIPP toxicology and exposure work; not a single reference is a metals paper.
+
+This is parallel in failure mode to MFK_01 (PAH-only), MFK_03 (phthalates-only), MFK_05-ehp0110 (dioxins-only), MFK_07 (melamine + formaldehyde only): high-quality regulator- or academic-grade contaminant work on an organic-contaminant class outside HMI scope. Cooper et al. 2016 is a particularly strong piece of work — Duke's foam screening project is the canonical US dataset on organophosphate FR replacement of PentaBDE in residential furniture and child products — but its analyte vocabulary does not intersect HMI's.
+
+**Folder filing note:** PDF is correctly filed under `_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats/` (the paper does report on n=98 child car seats), but the contaminant class (FRs in PUF) is not what the HMI surface for car seats would draw on. The car-seat product page in scope for HMI would be metals in seat-fabric finishes, dye mordants, paint, plastic stabilizers (Cd, Pb, Sn), and possibly Cr-VI in leather — not bromine-based or organophosphate flame retardants in foam.
+
+**Identity checks (clean — no existing wiki page):**
+- DOI grep (`10.1021/acs.est.6b01602`): no matches in `wiki/sources/`
+- Author / title grep (`Cooper.*Stapleton`, `Cooper EM`, `Polyurethane Foam.*Flame Retardant`, `10653.*10660`): no matches
+- Suggested-handle / filename grep (`MFK_05-unknown`, `05_Unknown.pdf`, `03_Carriers_HighChairs_CarSeats.*05_Unknown`): no matches
+- Cite-key candidate grep (`cooper2016`, `cooper2016-fr-screening`, `cooper2016-puf-fr`): no matches
+- Analyte-corpus grep (`cooper|stapleton|flame.retard|tdcipp|fm550` in `wiki/sources/` filenames): no matches; the Heavy Metal Index corpus has no Stapleton-lab or flame-retardant papers, consistent with the analyte-scope boundary
+
+**Action taken:** No ingest. No commits. No audit queue append. Wrapper proceeds to next PDF.
+
+**Folder note:** First evaluated PDF in `_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats`. The folder is plausibly mixed-scope: child car seats / high chairs / carriers are reasonable surfaces for Pb (paint), Cd (plastic stabilizers), Cr-VI (leather), Ni (metal frames). Other PDFs in the folder warrant individual evaluation; a flame-retardant paper landing first does not predict the rest of the folder will be similarly off-scope.
+
+**Recommendation for Karen:** Same standing recommendation as for MFK_01/03/05-dioxins/07 — either (a) move the five organics-only stops (MFK_01 PAH, MFK_03 phthalates, MFK_05-ehp0110 dioxins, MFK_07 melamine+formaldehyde, MFK_05-unknown FRs) to an `out-of-scope/organics-only/` pile so future Kimi sweeps skip them automatically, or (b) expand HMI's analyte vocabulary / define a "co-contaminant context" source-type tag so durable-product pages can carry a unified contaminant story (metals + brominated/organophosphate FRs + PAH + phthalates + dioxins + MFR monomers) paralleling EU REACH, ANSES, BfR, and Duke-lab dossiers. The pattern is now consistent across four folders (03_Diapers, 04_Feeding_Accessories, 02_Strollers_Walkers_Swings, 03_Carriers_HighChairs_CarSeats) and five contaminant classes — a single decision settles all of them and any future folder sweep.
