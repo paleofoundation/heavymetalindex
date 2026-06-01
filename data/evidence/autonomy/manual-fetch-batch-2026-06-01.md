@@ -639,3 +639,23 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 1/Heavy-Metal-Removal-Using-Plant-Origin-Biomass-and-Agricultural-Waste-Derived-Biomass-from.pdf`: out-of-scope wastewater-remediation biosorption review (4th confirmation of the June 1 cluster pattern — Karen's standing recommendation is to sideline the cluster)
+
+## Tick 2026-06-01T12:17:53.618Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `idris2023-adsorption-techniques-wastewater-review` (raw/Manual Fetch Kimi /June 1/Introduction-of-adsorption-techniques-for-heavy-metals-remediation.pdf)
+
+## Tick 2026-06-01T12:32:10.135Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `saf2023-omw-fractions-uf-nf-agroecological` (raw/Manual Fetch Kimi /June 1/Investigation-of-the-agroecological-applications-of-olive-mill-wastewater-fractions-from.pdf)

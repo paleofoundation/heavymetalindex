@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T12:25:38.064Z
+updated: 2026-06-01T12:47:23.602Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 66 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1263 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1285 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 2 ✅ |
+| Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 15 |
-| Commits last 24 hours | 283 |
+| Commits last 1 hour | 12 |
+| Commits last 24 hours | 288 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 66 min**
 ## Last commit
 
 ```
-de76859 3 minutes ago — ingest: idris2023-adsorption-techniques-wastewater-review [fresh] from Manual Fetch Kimi /June 1
+807f6fe 30 seconds ago — audit-queue: saf2023-omw-fractions-uf-nf-agroecological -> audited-revised
 ```
 
 ## How to read this
