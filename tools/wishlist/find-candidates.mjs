@@ -70,6 +70,14 @@ const MAILTO = process.env.HMI_FETCH_MAILTO || "karen@paleofoundation.com"
 // the cap resets and the next run (with mailto) succeeds.
 const MAX_CONSECUTIVE_429 = 6
 let consecutive429 = 0
+// OpenAlex free tier is 10,000 requests/DAY (x-ratelimit-limit). The old code
+// fired 600-3000 queries/run across dozens of runs (~24,000+/day), blew the cap
+// in hours, then got 429'd the rest of the day. Read x-ratelimit-remaining off
+// each response and stop querying OpenAlex once we're near the floor, keeping a
+// reserve so a single run can never exhaust the day. PubMed (separate quota)
+// keeps producing after OpenAlex stops for the day.
+const OPENALEX_DAILY_RESERVE = Number(process.env.HMI_OPENALEX_RESERVE || "800")
+let openalexExhausted = false
 // Sprint mode: 8 → 25 candidates per OpenAlex query so each query produces
 // more material. Combined with concurrent fetches below, throughput target
 // is ~200-500 PDFs per fetch run.
@@ -720,38 +728,48 @@ for (let i = startIndex; i < queries.length; i += 1) {
   // matched as "coffee Pb concentration" under the old search), thin-film
   // transistor papers using metals as semiconductors, and clinical-mechanism
   // papers ("hepatoprotective coffee against Cd toxicity in rats").
-  const url = `${OPENALEX_BASE}?filter=title_and_abstract.search:${encodeURIComponent(searchTerms)},is_oa:true,from_publication_date:${FROM_YEAR}-01-01&per-page=${PER_QUERY_LIMIT}&mailto=${encodeURIComponent(MAILTO)}`
-  process.stderr.write(`[${q.id}] "${searchTerms}" ... `)
-
+  // OpenAlex pass — SKIPPED once the daily cap is hit (openalexExhausted), so
+  // the rest of the run falls straight through to PubMed (separate quota, still
+  // productive). We never `break`/`continue` past the PubMed pass below.
   let works = []
-  try {
-    const response = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } })
-    if (!response.ok) {
-      process.stderr.write(`HTTP ${response.status}\n`)
-      if (response.status === 429) {
-        consecutive429++
-        if (consecutive429 >= MAX_CONSECUTIVE_429) {
-          process.stderr.write(
-            `\n[rate-limit] ${consecutive429} consecutive 429s from OpenAlex — stopping this fetch run cleanly to let the cap reset (mailto polite-pool is set; next run should succeed).\n`,
-          )
-          break
+  if (!openalexExhausted) {
+    const url = `${OPENALEX_BASE}?filter=title_and_abstract.search:${encodeURIComponent(searchTerms)},is_oa:true,from_publication_date:${FROM_YEAR}-01-01&per-page=${PER_QUERY_LIMIT}&mailto=${encodeURIComponent(MAILTO)}`
+    process.stderr.write(`[${q.id}] "${searchTerms}" ... `)
+    try {
+      const response = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } })
+      if (!response.ok) {
+        process.stderr.write(`HTTP ${response.status}\n`)
+        if (response.status === 429) {
+          consecutive429++
+          if (consecutive429 >= MAX_CONSECUTIVE_429) {
+            process.stderr.write(
+              `\n[rate-limit] ${consecutive429} consecutive 429s — pausing OpenAlex for the rest of this run (daily cap likely hit); PubMed continues.\n`,
+            )
+            openalexExhausted = true
+          } else {
+            // Exponential backoff: 2s, 4s, 8s … capped at 30s.
+            await new Promise((r) => setTimeout(r, Math.min(2000 * 2 ** (consecutive429 - 1), 30000)))
+          }
+        } else {
+          await new Promise((r) => setTimeout(r, API_DELAY_MS))
         }
-        // Exponential backoff: 2s, 4s, 8s … capped at 30s.
-        await new Promise((r) => setTimeout(r, Math.min(2000 * 2 ** (consecutive429 - 1), 30000)))
       } else {
-        await new Promise((r) => setTimeout(r, API_DELAY_MS))
+        consecutive429 = 0 // a good response clears the breaker
+        const remaining = Number(response.headers.get("x-ratelimit-remaining"))
+        if (Number.isFinite(remaining) && remaining < OPENALEX_DAILY_RESERVE) {
+          process.stderr.write(
+            `\n[rate-limit] OpenAlex daily quota low (${remaining} left, reserve ${OPENALEX_DAILY_RESERVE}) — pausing OpenAlex for the rest of this run; PubMed continues.\n`,
+          )
+          openalexExhausted = true
+        }
+        const data = await response.json()
+        works = data.results ?? []
+        process.stderr.write(`${works.length} hits\n`)
+        totalFound += works.length
       }
-      continue
+    } catch (err) {
+      process.stderr.write(`error: ${err.message}\n`)
     }
-    consecutive429 = 0 // a good response clears the breaker
-    const data = await response.json()
-    works = data.results ?? []
-    process.stderr.write(`${works.length} hits\n`)
-    totalFound += works.length
-  } catch (err) {
-    process.stderr.write(`error: ${err.message}\n`)
-    await new Promise((r) => setTimeout(r, API_DELAY_MS))
-    continue
   }
 
   // Build candidate rows first (cheap, no I/O). Defer all PDF fetches to a
