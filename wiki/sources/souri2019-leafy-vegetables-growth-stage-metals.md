@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-formul
 metals: [Cd, Pb, Ni, tAs, Cr, Co, Cu, Mn, Zn]
 ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/fresh-herbs]]"]
 products: ["[[products/leafy-vegetables-other]]", "[[products/non-root-vegetables]]"]
-matrices: [leafy-vegetables, fresh-herbs]
+matrices: [leafy-vegetable, fresh-herb]
 jurisdictions: [IR]
 near_duplicates: []
 sample_n: 5
@@ -33,6 +33,7 @@ Souri et al. measured heavy metals in garden cress and sweet basil grown in wast
 - Garden cress edible leaves, seedlings (mg kg-1 dry weight, Table 2): Cd 4.43, Pb 40.4, Ni 5.8, As 2.4, Cr 12.0, Co 1.37, Zn 66.2, Cu 20.5, Mn 79.5.
 - Sweet basil edible leaves, mature plants (mg kg-1 dry weight, Table 2): Cd 1.66, Pb 17.3, Ni 1.9, As 0.73, Cr 5.3, Co 0.48, Zn 39.7, Cu 13.3, Mn 48.4.
 - Sweet basil edible leaves, seedlings (mg kg-1 dry weight, Table 2): Cd 0.90, Pb 11.7, Ni 2.2, As 0.62, Cr 4.2, Co 0.47, Zn 41.5, Cu 16.8, Mn 52.6.
+- Table 2 prints the post-Zn copper column with a repeated "Co" header; the methods and results identify Cu as a measured analyte, so the post-Zn values are recorded here as Cu and the earlier Co column is retained as cobalt.
 - In the hydroponic garden-cress Pb experiment, shoot Pb at 5 mg L-1 nutrient-solution Pb was 16.3 +/- 3.06 mg kg-1 DW in young plants and 10.8 +/- 1.9 mg kg-1 DW in mature plants; at 10 mg L-1 nutrient-solution Pb, shoot Pb was 27.8 +/- 3.12 mg kg-1 DW in young plants and 17.9 +/- 2.6 mg kg-1 DW in mature plants (Table 3).
 - In the hydroponic garden-cress Cd experiment, shoot Cd at 5 mg L-1 nutrient-solution Cd was 6.25 +/- 0.90 mg kg-1 DW in young plants and 4.55 +/- 0.68 mg kg-1 DW in mature plants; at 10 mg L-1 nutrient-solution Cd, shoot Cd was 11.25 +/- 1.4 mg kg-1 DW in young plants and 5.78 +/- 0.96 mg kg-1 DW in mature plants (Table 4).
 - The source-cited maximum allowable concentrations for leafy-vegetable tissues were Cd 2, Pb 5, As 4.3, Ni 15, Cr 5, Co 5, Zn 150, Cu 50, and Mn 150 mg kg-1 DW (Table 5).
