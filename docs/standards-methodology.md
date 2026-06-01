@@ -46,6 +46,26 @@ Counts are per row, and clean/dirty is a within-parent, per-analyte split, so th
 
 Commissioned data should be requested as sample-level values with LOD/LOQ reported per result, not as summary statistics. Summary-only data is admissible via the moment-matching expansion above, but it loses censoring handling and carries the "weak" flag; sample-level values with detection limits are what let the P97 survive scrutiny.
 
+### Validation use: checking realized pass rates, not setting limits
+
+A distinct purpose for commissioned data is to check whether a limit already set delivers its intended outcome, rather than to set the limit. The intended outcome is the row-level pass rate the calibration targets: approximately 90% of clean-subcategory products and 30% of dirty-subcategory products passing row-level certification. The validation question is whether the realized pass rate matches that target.
+
+The statistics differ from limit-setting. The binding quantity is a proportion (the pass rate), not a tail percentile, and a proportion's precision is governed by `p(1-p)/n`, which is largest near 50%. The clean-row target (90%) is therefore cheap to confirm and the dirty-row target (30%) is the expensive one, the reverse of the limit-setting case where P97 made the clean rows expensive. The sample unit is the product, scored as a single joint pass or fail across all ten analytes, so n products per subcategory yields n joint observations.
+
+95% confidence half-width on the realized pass rate, per subcategory:
+
+| n per subcategory | at the 90% clean target | at the 30% dirty target |
+|---|---|---|
+| 35 | ±10 pp | ±15 pp |
+| 70 | ±7 pp | ±11 pp |
+| 100 | ±6 pp | ±9 pp |
+| 150 | ±5 pp | ±7 pp |
+| 320 | ±3 pp | ±5 pp |
+
+The working target is n ≈ 100 per subcategory, which pins the clean mark to ±6 pp and the dirty mark to ±9 pp, enough to detect a decision-relevant miss (off target by ten points or more). Push a specific dirty row to ~150 for tighter confirmation; ~320 is only warranted for a flagship row expected to be defended publicly.
+
+Two requirements are non-negotiable for this use. The sample must be randomly or representatively drawn within each subcategory: a convenience sample of the cleanest products inflates the pass rate and voids the check. And the sample must be independent of whatever set the limit; using one draw both to set and to validate a limit is circular. Because HMT&C limits are literature-derived, a fresh randomized commissioned draw is independent by construction, provided that same draw is not later folded back into limit-setting. Per-product, per-analyte records additionally permit measuring the realized analyte correlation (the uplift calibration assumes approximately 0.6) and the per-analyte marginal pass rates, which localize the cause when a row misses its target. Anonymized records suffice for the entire validation workflow, since only the subcategory label and per-analyte values are needed, not brand attribution.
+
 ## Regulatory ceiling rule
 
 Final HMT&C values must not exceed the lowest applicable loaded regulatory cap regardless of where the pooled percentile falls. The cap is converted into the row's native basis if it was published in a different one. Intake and exposure estimates are not substitutes for product-occurrence distributions; intake tables inform exposure context only.
