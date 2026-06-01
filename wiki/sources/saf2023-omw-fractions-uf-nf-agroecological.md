@@ -49,7 +49,7 @@ Chemical composition of OMW fractions after UF (150 kDa ceramic, TiO₂-ZrO₂) 
 - Total sugars (g·L⁻¹): Feed 6.5 ± 0.6; UFR 7.8 ± 0.3; NFR 8.9 ± 0.1; NFP 1.26 ± 0.06
 - Total polyphenols (g·L⁻¹): Feed 4.2 ± 0.2; UFR 2.4 ± 0.1; NFR 5.6 ± 0.1; NFP 1.02 ± 0.05
 - K (mg·L⁻¹): Feed 6168 ± 84; UFR 6113 ± 79; NFR 13,232 ± 135; NFP 911 ± 15
-- P (mg·L⁻¹): Feed 516 ± 9; UFR 510 ± 10; NFR 1114 ± 14; NFP 67 ± 5
+- P (mg·L⁻¹): Feed 516 ± 9; UFR 510 ± 11; NFR 1114 ± 14; NFP 67 ± 5
 - Ca (mg·L⁻¹): Feed 250 ± 5; UFR 328 ± 4; NFR 521 ± 7; NFP 17.5 ± 0.6
 - Mg (mg·L⁻¹): Feed 191 ± 3; UFR 186 ± 2; NFR 438 ± 6; NFP 4.4 ± 0.3
 - Fe (mg·L⁻¹): Feed 49 ± 1; UFR 54.4 ± 0.6; NFR 105 ± 1; NFP <1
@@ -93,3 +93,5 @@ Limitations: the study reports K, P, Ca, Mg and Fe as nutrients but does not mea
 - No brand names appear in this paper. Equipment vendors named per Part 12 Exception 2 (Firmus pilot system, Orelis Kleansep UF membrane, Suez DK NF membrane, Ecograph T data acquisition by Endress+Hauser, HAWITA Gruppe potting soil, Murashige-Skoog medium from Duchefa biochimie, Sigma-Aldrich, BIO-RAD Bradford reagent, IBM SPSS Statistics v22).
 - DOI 10.1016/j.jenvman.2023.117467 verified against the journal-page banner on the first page of the PDF.
 - Funding acknowledged: PHC TOUBKAL program grant 19/77: 41474 PK; GESTAD UMR1347 AGROECOLOGIE INRAE Centre de Dijon (weed seed supply).
+- Audit subagent (2026-06-01) flagged P (UFR) SD as "510 ± 10"; verified against PDF Table 3 — corrected to "510 ± 11".
+- Audit subagent (2026-06-01) flagged a paper-internal contradiction: Section 3.3 (p. 5) states "no effect was observed for flax germination, highlighting the selectivity of the treatment" while Fig. 5b (captioned as flax seedlings) shows dose-dependent germination inhibition from ~87% (control) to ~73% / ~52% / ~23% at 1/125, 1/100, 1/75 NF retentate dilutions. The "15, 40, 73%" germination inhibition numbers in the same paragraph could plausibly be attributed to either S. arvensis (consistent with the "selectivity" claim) or flax (consistent with Fig. 5b). The Key numbers section attributes them to S. arvensis on the selectivity reading; any downstream synthesis that relies on this paper's S. arvensis vs flax germination distinction should treat the attribution as ambiguous in the source.
