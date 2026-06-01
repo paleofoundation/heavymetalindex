@@ -48,3 +48,16 @@
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+.hmi-related-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--gray);
+  text-transform: none;
+}
+
+.hmi-related-more:hover {
+  color: var(--secondary);
+}
