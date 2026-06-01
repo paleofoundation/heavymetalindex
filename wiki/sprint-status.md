@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T02:13:26.323Z
+updated: 2026-06-01T02:35:40.269Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 50 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 50 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 651 min ago (stale) |
+| Daemon heartbeat | ⚠️ 673 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 2 ✅ |
+| Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 63 |
 | Wishlist: total ingested historically | 2 |
-| Repo sync | ✅ synced |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
 | Commits last 1 hour | 14 |
-| Commits last 24 hours | 172 |
+| Commits last 24 hours | 178 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 50 min**
 ## Last commit
 
 ```
-5fdf2fc 27 seconds ago — triage sweep 2026-06-01 02:12: 0 rollups + 4 skips
+cc0d660 4 minutes ago — audit-queue: rebeniak2014-pb-cd-ceramics-glassware-poland -> audited-revised
 ```
 
 ## How to read this

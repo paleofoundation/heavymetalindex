@@ -89,3 +89,33 @@
 
 ### Succeeded
 - `hobbie2014-stainless-steel-ni-cr-leaching` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/05_Nickel-SOT2014_2013.pdf)
+
+## Tick 2026-06-01T02:03:22.742Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `pirg2010-trouble-in-toyland` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/06_2010-Toy-Report_2010.pdf)
+
+## Tick 2026-06-01T02:17:53.267Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/07_fillable-articles-made-from-melamine-formaldehyde-resin_2022.pdf`: out-of-scope (melamine + formaldehyde only; no HMI analytes)
+
+## Tick 2026-06-01T02:20:58.024Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `rebeniak2014-pb-cd-ceramics-glassware-poland` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/10_paper_2014.pdf)

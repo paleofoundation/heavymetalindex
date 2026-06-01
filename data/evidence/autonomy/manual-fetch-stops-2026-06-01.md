@@ -80,3 +80,29 @@ Parallel to the MFK_01 PAH-only stop and the MFK_03 phthalates-only stop in the 
 2. Expand HMI's analyte vocabulary or define a "co-contaminant context" source-type tag so diapers can carry a unified contaminant story (metals + PAH + phthalates + dioxins) on the product page, paralleling the way EU REACH and ANSES diaper dossiers treat them together.
 
 Either decision is fine; the current behavior (per-PDF stop notes accumulating) is the safe default until Karen picks one.
+
+## STOP: MFK_07-fillable-articles-made-from-melamine-formaldehy — out of HMI analyte scope (melamine + formaldehyde only)
+
+**PDF:** `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/07_fillable-articles-made-from-melamine-formaldehyde-resin_2022.pdf`
+
+**Suggested handle:** MFK_07-fillable-articles-made-from-melamine-formaldehy
+
+**Citation:** BfR (German Federal Institute for Risk Assessment). Fillable articles made from melamine formaldehyde resin, such as *coffee-to-go* cups sold as 'bambooware', may leak harmful substances into hot foods. BfR opinion No 046/2019 issued 25 November 2020. DOI 10.17590/20200123-134155.
+
+**Reason for stop:** Opinion is entirely about migration of melamine and formaldehyde — the two monomers of melamine formaldehyde resin (MFR) — from "conventional" MFR tableware and "bambooware" (MFR with bamboo-fibre, rice-husk, or coffee-residue fillers) into hot food simulants. Verified by reading pages 1–15 (subject of assessment, results, formaldehyde toxicological characterisation with TDI 0.6 mg/kg bw/day and C_max 10.4 mg/l, melamine toxicological characterisation with TDI 0.2 mg/kg bw/day) and pages 30–40 (risk characterisation for formaldehyde with Tables 14/15 of intake-vs-TDI, risk characterisation for melamine, derivation of revised SMLT of 6.0 mg/kg food for formaldehyde, repeated-migration tests Figures 4–5, recommendations).
+
+Migration evidence base: 366 MFR articles (138 'conventional' MFR, 228 'bambooware') tested for formaldehyde release; 291 articles (111 'conventional' MFR, 180 'bambooware') tested for melamine release; testing performed by German food monitoring authorities 2014–2019 under Regulation (EU) No 10/2011 hot-fill conditions (2 h at 70 °C with 3% acetic acid simulant). No heavy-metal analyte (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) is mentioned, measured, modelled, or referenced anywhere in the opinion. Melamine (1,3,5-triazine-2,4,6-triamine) is a heterocyclic organic compound; formaldehyde (methanal) is an organic carbonyl. Neither is in HMI's 10-analyte vocabulary.
+
+This is parallel to the previously-stopped MFK_01 (PAH-only), MFK_03 (phthalates-only), and MFK_05 (dioxins-only) entries — same pattern of high-quality regulator-grade FCM migration evidence on an organic contaminant class outside HMI scope. The precedent for partial-coverage ingest is `cfs2012-baby-bottles-tableware.md`, which was ingested because its Annex II carries an explicit Pb/Cd/Ni/Cr/Cr-VI/Al table; this BfR 046/2019 opinion has no analogous heavy-metals section.
+
+**Identity checks (clean — no existing wiki page):**
+- DOI grep (`10.17590/20200123-134155`, `046/2019`, `046-2019`): no matches
+- Filename grep (`07_fillable-articles-made-from-melamine`, `fillable.*melamine`): no matches
+- Suggested-handle grep (`MFK_07-fillable-articles-made-from-melamine`): no matches
+- Substance-context grep (`melamine`, `formaldehyde` across `wiki/sources/`): 9 files match, all peripheral mentions in heavy-metals contexts (e.g., diaper/FCM regulator dossiers); none is this BfR opinion
+
+**Action taken:** No ingest. No commits. No audit queue append. Wrapper proceeds to next PDF.
+
+**Folder note:** First out-of-scope stop in the `_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories` folder. Other PDFs in the folder should be evaluated individually; "feeding accessories" is a broad scope and some entries likely cover heavy metals (cutlery, plates, sippy cups, weaning sets are common Pb/Cd/Ni surfaces).
+
+**Recommendation for Karen:** Same standing recommendation as for MFK_01/03/05: either move the four organics-only stops (MFK_01 PAH, MFK_03 phthalates, MFK_05 dioxins, MFK_07 melamine+formaldehyde) to an `out-of-scope/` or `organics-context/` pile so future Kimi folder sweeps skip them automatically, or expand HMI's analyte vocabulary / define a "co-contaminant FCM context" source-type tag so feeding-accessory and diaper product pages can carry a unified contaminant story (metals + organics) paralleling EU REACH, ANSES, and BfR dossiers. The pattern is now consistent across two folders (03_Diapers and 04_Feeding_Accessories) and four contaminant classes (PAH, phthalates, dioxins, MFR monomers); a single decision settles both folders and any future folder sweep.
