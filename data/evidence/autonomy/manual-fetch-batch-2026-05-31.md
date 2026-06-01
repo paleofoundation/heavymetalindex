@@ -689,3 +689,33 @@
 
 ### Succeeded
 - `depa2015-cmr-toys` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/12_2015_978-87-93352-79-7.pdf)
+
+## Tick 2026-05-31T23:19:31.855Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `sekerak2016-wa-childrens-jewelry` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/13_2016_1603007.pdf)
+
+## Tick 2026-05-31T23:30:03.986Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `mohammed2020-tt-toys-baby-items` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/14_2020_fd8075463937.pdf)
+
+## Tick 2026-05-31T23:40:10.985Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `stone2021-wa-metals-childrens-consumer-products` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/15_2021_1404014.pdf)
