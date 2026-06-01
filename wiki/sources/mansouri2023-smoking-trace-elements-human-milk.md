@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-human-
 metals: [Mg, Mn, Fe, Co, Cu, Zn, tAs, Cd, Cr, tHg, Ni, Pb]
 ingredients: ["[[ingredients/human-milk]]", "[[ingredients/breastmilk]]"]
 products: ["[[products/infant-food-general]]"]
-matrices: [human-milk, breast-milk]
+matrices: [breast-milk]
 jurisdictions: [IR]
 near_duplicates: []
 sample_n: 100
@@ -61,8 +61,7 @@ The source supports human-milk occurrence evidence and exposure-factor context f
 - [[metals/arsenic]]
 - [[metals/mercury]]
 - [[metals/nickel]]
-- [[health/lead-infant-exposure]]
 
 ## Verification notes
 
-The PDF includes DOI, authors, journal, year, methods, and Table 2 concentration values. The source does not speciate arsenic or mercury, so this page uses tAs and tHg. The table reports breast-milk concentrations by smoking-exposure group; this page does not name individual participants or translate the group comparison into consumer advice.
+The PDF includes DOI, authors, journal, year, methods, and Table 2 concentration values. The source does not speciate arsenic or mercury, so this page uses tAs and tHg. The table reports breast-milk concentrations by smoking-exposure group; this page does not name individual participants or translate the group comparison into consumer advice. Both [[ingredients/human-milk]] and [[ingredients/breastmilk]] exist locally; the matrix term is normalized to breast-milk.

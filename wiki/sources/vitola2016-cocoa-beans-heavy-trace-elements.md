@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-human-
 metals: [tHg, tAs, Pb, Cd, Al, Zn, Se]
 ingredients: ["[[ingredients/cocoa]]"]
 products: ["[[products/chocolate]]"]
-matrices: [cocoa-beans, cocoa-shells, milk-chocolate-prototype]
+matrices: [cocoa, chocolate]
 jurisdictions: [CM, EC, NG, GH]
 near_duplicates: []
 sample_n: 4
@@ -41,12 +41,12 @@ The same table lists source comparison limits of 0.1 mg/kg for mercury, 1.0 mg/k
 
 Table 2 reports trace elements in cocoa kernels and shells as mg/kg:
 
-| Origin | Kernel Zn | Kernel Al | Shell Zn | Shell Al | Se |
-|---|---:|---:|---:|---:|---:|
-| Cameroon | 50 +/- 5 | 9.2 +/- 0.9 | 60 +/- 6 | 4.6 +/- 0.5 | <0.1 |
-| Ecuador | 58 +/- 6 | 12 +/- 1 | 190 +/- 20 | 9.1 +/- 0.9 | <0.1 |
-| Nigeria | 49 +/- 5 | 16 +/- 2 | 61 +/- 6 | 9.8 +/- 0.9 | <0.1 |
-| Ghana | 51 +/- 5 | 54 +/- 5 | 68 +/- 7 | 68 +/- 7 | <0.1 |
+| Origin | Kernel Se | Kernel Zn | Kernel Al | Shell Se | Shell Zn | Shell Al |
+|---|---:|---:|---:|---:|---:|---:|
+| Cameroon | <0.1 | 50 +/- 5 | 9.2 +/- 0.9 | <0.1 | 60 +/- 6 | 4.6 +/- 0.5 |
+| Ecuador | <0.1 | 58 +/- 6 | 12 +/- 1 | <0.1 | 190 +/- 20 | 9.1 +/- 0.9 |
+| Nigeria | <0.1 | 49 +/- 5 | 16 +/- 2 | <0.1 | 61 +/- 6 | 9.8 +/- 0.9 |
+| Ghana | <0.1 | 51 +/- 5 | 54 +/- 5 | <0.1 | 68 +/- 7 | 68 +/- 7 |
 
 ## Methods (brief)
 
@@ -64,8 +64,8 @@ The paper contributes origin-stratified cocoa ingredient occurrence data for Pb,
 - [[metals/cadmium]]
 - [[metals/arsenic]]
 - [[metals/mercury]]
-- [[metals/aluminium]]
+- [[metals/aluminum]]
 
 ## Verification notes
 
-The PDF filename suggested human milk, but the actual PDF is a cocoa/confectionery paper. The source reports arsenic and mercury without species separation, so this page uses tAs and tHg. The authors describe cocoa shells as possible confectionery additives, but the concentration tables are for cocoa beans, kernels, and shells rather than commercial branded chocolate products.
+The PDF filename suggested human milk, but the actual PDF is a cocoa/confectionery paper. The source reports arsenic and mercury without species separation, so this page uses tAs and tHg. The authors describe cocoa shells as possible confectionery additives, but the concentration tables are for cocoa beans, kernels, and shells rather than commercial branded chocolate products. Matrix frontmatter is normalized to the existing cocoa/chocolate vocabulary while Key numbers preserve the source's bean, kernel, and shell fractions.
