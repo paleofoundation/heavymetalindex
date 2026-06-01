@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T08:04:23.570Z
+updated: 2026-06-01T08:48:19.148Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 67 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1002 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1046 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 2 ✅ |
+| Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 9 |
-| Commits last 24 hours | 240 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 12 |
+| Commits last 24 hours | 250 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 67 min**
 ## Last commit
 
 ```
-e7f81a6 3 minutes ago — ingest: hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats
+6de550c 2 minutes ago — feat: named authorship (Karen Pendergrass, ORCID) + Google Scholar PDFs
 ```
 
 ## How to read this

@@ -349,3 +349,33 @@
 
 ### Succeeded
 - `allwood2024-cpsc-childrens-product-lead-recalls` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats/08_Unknown.pdf)
+
+## Tick 2026-06-01T07:52:57.619Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats/11_Unknown.pdf)
+
+## Tick 2026-06-01T08:07:53.748Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `hohenstein2023-en-1811-2023-nickel-release` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_04_Fasteners_Snaps_Zippers/04_Fasteners_Snaps_Zippers/Hohenstein_Technical_Bulletin_Nickel_Norm_2023-07.pdf)
+
+## Tick 2026-06-01T08:18:47.560Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cpsc2010-cadmium-childrens-metal-jewelry` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_04_Fasteners_Snaps_Zippers/04_Fasteners_Snaps_Zippers/blk_pdf_cadmiumjewelry.pdf)
