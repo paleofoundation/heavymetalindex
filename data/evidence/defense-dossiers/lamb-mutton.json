@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/lamb-mutton",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fd62358578de43a08b024f6772e26dd5d3f63ecb6f6eb9ede8ae8fb9f3ffcbb2",
-      "content_bytes": 9085,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "a9d2ad4add2ee9696afafc386f834f08668c45fa47ebd1ae8b3aba9c2c1114ea",
+      "content_bytes": 9049,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/lamb-mutton.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/lamb-mutton.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/altalib2025-frozen-meat-libya",
         "content_pin": {
-          "content_sha256": "e7268a7092a3c361461108ff2ab595f010ef5a42acaa87de4de8469a0383a02c",
-          "content_bytes": 7117,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2f15e61e2b108c080afc03767e749648eb20ddce968772d81b4370e470485c30",
+          "content_bytes": 7081,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gorbanov2025-lamb-meat-snacks-metals",
         "content_pin": {
-          "content_sha256": "ab9335eac4395f9995620f0f603d6c27404f5200351b2dfcedeecc184a39de5f",
-          "content_bytes": 5341,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "a7b9873eea5d327503ff5476d14dccaa5666b8a408946c341c281286b91ebac1",
+          "content_bytes": 5339,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/gorbanov2025-lamb-meat-snacks-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/gorbanov2025-lamb-meat-snacks-metals.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "f105cf8b71f377dcbbe7f29cd26bff4781b6e224cc12cabdb10ffbae6e8879df",
-          "content_bytes": 10034,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "7309345fe316897a0b82641c60009ac6ae7b915b0eff400cb60dd98de605732c",
+          "content_bytes": 9998,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
         }
       },
       {
@@ -113,12 +113,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maikanov2021-meats-shuchinsk-burabay-metals",
         "content_pin": {
-          "content_sha256": "bde6c9bbb987d9c49afa287861820a6ee9fcf18435b7b8cb77b35cb5f526dbca",
-          "content_bytes": 2676,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "a7858300b0b7b5e739355e9e916206d70de5da0ed91991c7ac54ae0eabcb9cd7",
+          "content_bytes": 2640,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
         }
       }
     ]

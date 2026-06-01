@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `b81f32c` (2026-06-01). The body hashes to `sha256:f6d71ffd5989d1e051b58ffcb21dd7b4…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `c660ae7` (2026-06-01). The body hashes to `sha256:689a5976d3285db1c7e1a126873e334c…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=cleaning-wipes-household&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/cleaning-wipes-household&download=1`.
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/infant-formula-rtf-liquid-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b9630b8d089b7b523d2b596e05f04493d481c1261dd80031b82ddf33927506d9
+source_page_sha256: 2776d6469bd89f12b966355859f2a48616460a2aa0d25f17af8b0c7e18196a51
 total_claims: 57
 cited_claims: 57
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 60
 distinct_cited_sources: 55
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 515
+audit_log_total_rows: 520
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 55 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 515 |
+| audit log rows read | 520 |
 
 ## Page-level audit rows
 

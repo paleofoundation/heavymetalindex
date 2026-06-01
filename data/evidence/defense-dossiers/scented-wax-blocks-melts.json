@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/scented-wax-blocks-melts",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c4efd0a0355c3939c69473aa385c9cad1d201e3c6197adf52583502471106b81",
-      "content_bytes": 7345,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "bf407b3d9d0cadcb9183b089b4aaf54c24634a02cd69b7abff8cbc2cac3ade3a",
+      "content_bytes": 7309,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/scented-wax-blocks-melts.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/scented-wax-blocks-melts.md | sha256sum"
     }
   },
   "evidence_base": {

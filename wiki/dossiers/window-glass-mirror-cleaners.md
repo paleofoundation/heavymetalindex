@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `b81f32c` (2026-06-01). The body hashes to `sha256:7a4de21670e858cc3735499001733388…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `c660ae7` (2026-06-01). The body hashes to `sha256:4af6a9601af659022fbb61ef98eca651…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=window-glass-mirror-cleaners&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/window-glass-mirror-cleaners&download=1`.
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/cutting-boards.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f579cd05d5800d0c6ff93e71fad7060271d42bf0eb29b8e4ccebc585429d4e3f
+source_page_sha256: beda380d99e9bfe512918d6e247793fb6e2d3153c22cca0791fa335a3e23ea3a
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 515
+audit_log_total_rows: 520
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 515 |
+| audit log rows read | 520 |
 
 ## Page-level audit rows
 

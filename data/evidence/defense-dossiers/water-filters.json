@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/water-filters",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5012ad93c3e30793bae3a5d4ba6f2f4819a3496484b55cda3c9daded6297926c",
-      "content_bytes": 9541,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "ca02bb0d04dcff48bdca9fce5b643e67dc101186782165afc51fca6d1a0d3249",
+      "content_bytes": 9505,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/water-filters.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/water-filters.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/decharat2020-school-drinking-water-pb-cd",
         "content_pin": {
-          "content_sha256": "a99324c8d0c971222b5c2efe900759439cdd52fca23de61c015da319b6cd7528",
-          "content_bytes": 2791,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "d2543397be06e846b69478bfcff3669988af9956f08552bcc0b76024927cf740",
+          "content_bytes": 2755,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/decharat2020-school-drinking-water-pb-cd.md | sha256sum"
         }
       }
     ]

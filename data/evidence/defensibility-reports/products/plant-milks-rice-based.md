@@ -2,7 +2,7 @@
 source_page: wiki/products/plant-milks-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 41fb7210f18f3e8d0b28a760436f3a11e05a74c0bbadb376752c621411c0f30c
+source_page_sha256: 0ad981d6efb979e83096ae6d16d14e7a25cfcd4446346badc4e970d8283a9d93
 total_claims: 20
 cited_claims: 17
 uncited_claims: 3
@@ -10,7 +10,7 @@ distinct_cited_targets: 7
 distinct_cited_sources: 6
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 515
+audit_log_total_rows: 520
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 6 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 515 |
+| audit log rows read | 520 |
 
 ## Page-level audit rows
 

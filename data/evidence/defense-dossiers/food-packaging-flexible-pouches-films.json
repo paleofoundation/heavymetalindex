@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-flexible-pouches-films",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3a096aff506bba8b6dcbd3402711a63b5a920399362555fdc3e8db7a234e20bd",
-      "content_bytes": 7432,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "63738c799435465b13fc796d66ae0cf5ee52fb3740eea0437802de84aec54203",
+      "content_bytes": 7396,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/food-packaging-flexible-pouches-films.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/food-packaging-flexible-pouches-films.md | sha256sum"
     }
   },
   "evidence_base": {

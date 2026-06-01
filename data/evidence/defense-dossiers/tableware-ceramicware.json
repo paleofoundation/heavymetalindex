@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-ceramicware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e5e06fd716eea00e9e7ea33701f3b0b0e74d6b1bcea782f4b4a9e16fa0eb3d5d",
-      "content_bytes": 8373,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "ebb64460f3348d581b46e4cf6f3e7847e4273a349c6f130147b06b9f3d53072a",
+      "content_bytes": 8608,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/tableware-ceramicware.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/tableware-ceramicware.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "51b50ff5475ec91e873b3312d2159cde7ffc069fdd0742173e75cb66e3cd877c",
-          "content_bytes": 18983,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5bfc7c7ed848e2bfc098eac35cbeb047a9723a1878ee9e684591c441cbbb65dd",
+          "content_bytes": 19130,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hsn2019-prop65-compliance-requirements",
+        "title": "California Proposition 65 Compliance Requirements",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hsn2019-prop65-compliance-requirements",
+        "content_pin": {
+          "content_sha256": "02cf813fc6402988ff70e48d111c7e1bacb99262a30cae6d42cb70bfa9f6eb1e",
+          "content_bytes": 29244,
+          "last_commit_sha": "def063b",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show def063b:wiki/sources/hsn2019-prop65-compliance-requirements.md | sha256sum"
         }
       },
       {
@@ -67,12 +88,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rebeniak2014-pb-cd-ceramics-glassware-poland",
         "content_pin": {
-          "content_sha256": "bdf976ac43fff6c43230ba2a3ad5863f2d29a728ea254c145c49ac9a97535ac3",
-          "content_bytes": 27982,
-          "last_commit_sha": "9f9e19f",
+          "content_sha256": "5257fab938e32b8ee8a0a1b35bc864063a749ae264955f0fc69357dac86285ee",
+          "content_bytes": 28129,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9f9e19f:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
         }
       }
     ]

@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fermented-beverages-non-tea-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "07b15280c91a464cf0e03fcad85c0a66cde961911ef33c0baa5e81f341561a49",
-      "content_bytes": 17150,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "50879377b1b8f0bddfc1b3b3654235a0e5b2a19b23d4a388617a6d699060b13c",
+      "content_bytes": 17114,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/fermented-beverages-non-tea-based.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/fermented-beverages-non-tea-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/munilla-garcia2023-lead-kombucha-ceramics",
         "content_pin": {
-          "content_sha256": "9dafb5894834978d84792398d1dccda9b0e3285b557ad4559aca8075671d2817",
-          "content_bytes": 5741,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "8f78269187d5eeadb95a48c9e7eb5213a10ebccd8b25b668c0bd9320a645e333",
+          "content_bytes": 5705,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/munilla-garcia2023-lead-kombucha-ceramics.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/munilla-garcia2023-lead-kombucha-ceramics.md | sha256sum"
         }
       },
       {
@@ -64,12 +64,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
         "content_pin": {
-          "content_sha256": "d739f26f2187c5f31a1939c843670e74f4d0c33f5d63be0189d09f1868d46e35",
-          "content_bytes": 10117,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "c74e7564d74e7727fc19d948b78b05baf6462f1dc78c94424dd483a3aafc2d14",
+          "content_bytes": 10081,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
         }
       }
     ]

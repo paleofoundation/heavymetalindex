@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/whitening-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "57fafa991fc630f5043cf8febe91d504056adfeae9fb360770ab111ba4f94fa2",
-      "content_bytes": 8195,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "c3297843ffbc5acfa33dcba7def5c78a471110e19b02c7f282b813f5b12e0474",
+      "content_bytes": 8159,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/whitening-products.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/whitening-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/agustina2021-whitening-creams-pb-cd",
         "content_pin": {
-          "content_sha256": "c55b483a7ef4b23df8954384265f5a528609d09a79583c0b9e6d4918c85305a9",
-          "content_bytes": 2880,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "a2795149258c55bbf569239b46f708ca3ab36b68c6cfd17efbe4d59730e1e74d",
+          "content_bytes": 3027,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/agustina2021-whitening-creams-pb-cd.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/agustina2021-whitening-creams-pb-cd.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dauda2023-cosmetics-heavy-metals",
         "content_pin": {
-          "content_sha256": "7c693965834d23f39ca10ca1de42174caaf839bb84b6fb06f4a7dd70a2dcea84",
-          "content_bytes": 3680,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "66d057262635b585a894f69cae50868993b1158566c7eed603a93f5fefa83bd7",
+          "content_bytes": 3827,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/dauda2023-cosmetics-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/dauda2023-cosmetics-heavy-metals.md | sha256sum"
         }
       }
     ]

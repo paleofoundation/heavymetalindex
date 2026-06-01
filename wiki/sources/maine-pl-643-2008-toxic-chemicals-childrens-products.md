@@ -99,3 +99,14 @@ App: Country-of-origin or state-of-sale "US-ME" plus product category "children'
 - **Speciation flag.** Not applicable; the statute does not specify analytical methods or speciation for any chemical.
 - **Companion sources in this corpus segment.** The Kimi `05_Regulatory_CPSIA_CPSC_FDA` folder contains companion regulatory sources covering overlapping subject matter under different jurisdictional frameworks: [[sources/hatlelid2009-cpsc-cpsia-lead-childrens-products]] (US federal CPSIA Section 101 lead-in-children's-products), [[sources/ny-dec-tccp-2023-chem-pqls-draft]] (NY state TCCP draft list and PQLs), [[sources/iso2020-8124-3-toy-migration-elements]] (international voluntary consensus toy-migration standard), [[sources/sgs2009-canada-toy-coating-heavy-metals]] (Canada Health Canada heavy-metal limits on toy surface coatings), and [[sources/hatlelid2009-cpsc-cpsia-lead-childrens-products]] (referenced above). Cross-comparison of these regimes is a synthesis-pass concern (Part 9), not an ingest-time concern; no synthesis is performed here per the Part 2 firewall.
 - **Maine downstream regulatory products not in corpus.** The chemicals-of-high-concern list (published by Maine DEP / MeCDC per the § 1693(1) deadline of 1 January 2010 and revised periodically per § 1693(2)), the priority-chemical designations under § 1694, the § 1696 sale-prohibition rules, the § 1695 disclosure rule, and the § 1697(6) mercury-added-products coordination rules are separate regulatory artefacts that descend from this statute. None are presently in the HMI corpus. When they enter, they should be ingested as separate source pages with their own cite-keys; this statute is the upstream authority and should be wikilinked from each.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [aa0d6dc](https://github.com/paleofoundation/heavymetalindex/commit/aa0d6dc) | 2026-06-01 | audit: maine-pl-643-2008-toxic-chemicals-childrens-products promoted |
+| [66af599](https://github.com/paleofoundation/heavymetalindex/commit/66af599) | 2026-06-01 | ingest: maine-pl-643-2008-toxic-chemicals-childrens-products [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA |
+<!-- END: hmi-page-history -->

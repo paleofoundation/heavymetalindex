@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-balloons",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d45bf7bb67527f76c5bccf078503e5d90023b29750e7f9851f66132559e92155",
-      "content_bytes": 7846,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "d9efd548c89e064b34c603ecde0d44d51d346b84e52a7c4148bbcd9af7127e1a",
+      "content_bytes": 7810,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/toys-balloons.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/toys-balloons.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "a664ad9b170afd08b9e4da6fb7004d1b46355a2c41739900b7e086eacfecf95c",
-          "content_bytes": 40702,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "b582a03557c77a348793b128006bda3cc6e552fb5b7a51e6c4904a0f50941112",
+          "content_bytes": 40849,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       }
     ]

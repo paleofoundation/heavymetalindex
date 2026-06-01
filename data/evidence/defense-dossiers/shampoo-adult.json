@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/shampoo-adult",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4b8a3ed0d006b161778c019efb64a74308745acc0bff56268759bb387e1caac6",
-      "content_bytes": 8029,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "8765e80e78b5c3702409c1ce9cac441ddab18b7f6897430bbfac1f36eb4783a4",
+      "content_bytes": 7993,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/shampoo-adult.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/shampoo-adult.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "168d43a47fba65079f59d8beb16729a1ef8a93a06506e634a365ac44f6668f80",
-          "content_bytes": 35209,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "3a75588ad312f7d3bcc9a21d94fee843258efa722e4fa6f425994137739058bd",
+          "content_bytes": 35173,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       }
     ]

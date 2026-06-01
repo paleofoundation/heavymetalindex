@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/matcha",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ae4f93c2809884592a58519e2a5688350e216980406f61a688795df5de5136d8",
-      "content_bytes": 11600,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "d2187481c1c6692ceb87395da90aa5fbd5698426f5ecc894ada5d64e7bfb602b",
+      "content_bytes": 11564,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/matcha.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/matcha.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/szymczykowska2026-matcha-elemental-composition",
         "content_pin": {
-          "content_sha256": "5082342bc8da16d7bc98a3da05a8852972eb92fb5fa431a00d031bd23a6aa177",
-          "content_bytes": 25968,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "580c0af30b7af8eb3b39efecdd6dc48859ef1619b21239f29e400cb59bda54f7",
+          "content_bytes": 25932,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/szymczykowska2026-matcha-elemental-composition.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/szymczykowska2026-matcha-elemental-composition.md | sha256sum"
         }
       }
     ]

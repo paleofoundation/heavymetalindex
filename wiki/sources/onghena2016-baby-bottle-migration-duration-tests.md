@@ -129,9 +129,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [5176ead](https://github.com/paleofoundation/heavymetalindex/commit/5176ead) | 2026-06-01 | codex sprint 2026-06-01 0000: end-of-fire cleanup |
 | [1eee505](https://github.com/paleofoundation/heavymetalindex/commit/1eee505) | 2026-05-31 | ingest: IMEKO-TC23-2016-038 near-duplicate merged into onghena2016-baby-bottle-migration-duration-tests |
-| [459c252](https://github.com/paleofoundation/heavymetalindex/commit/459c252) | 2026-05-31 | audit: onghena2016-baby-bottle-migration-duration-tests promoted (two presentation fixes applied) |
 <!-- END: hmi-page-history -->

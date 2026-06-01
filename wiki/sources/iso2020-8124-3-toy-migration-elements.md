@@ -169,5 +169,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [4275cd3](https://github.com/paleofoundation/heavymetalindex/commit/4275cd3) | 2026-06-01 | ingest: iso2020-8124-3-toy-migration-elements [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA |
 <!-- END: hmi-page-history -->

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 3
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,8 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/rebeniak2014-pb-cd-ceramics-glassware-poland\|Rebeniak et al. 2014]]. *Exposure to lead and cadmium released from ceramics and glassware intended to come into contact with food*, Roczniki Państwowego Zakładu Higieny / Annals of the National Institute of Hygiene 2014;65(4):301-309 | 2014 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/hsn2019-prop65-compliance-requirements\|Assurance 2019]]. *California Proposition 65 Compliance Requirements*, HSN internal supplier compliance specification (issued 4 December 2019; last updated 7 April 2021) | 2019 | Industry | *[awaiting synthesis]* |
+| 2 | [[sources/rebeniak2014-pb-cd-ceramics-glassware-poland\|Rebeniak et al. 2014]]. *Exposure to lead and cadmium released from ceramics and glassware intended to come into contact with food*, Roczniki Państwowego Zakładu Higieny / Annals of the National Institute of Hygiene 2014;65(4):301-309 | 2014 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
-| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 <!-- END: hmi-page-history -->

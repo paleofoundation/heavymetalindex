@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/oven-grill-bbq-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "adcdcb0b9e50c2c2096e95d9d35914efa749a301514c30dbaf4ecf4f03d37e2d",
-      "content_bytes": 7328,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "340aadbf32ff5c0faef41e4c5925de7c69bfcf9d57e68c5c3cf1c13dc35c23e6",
+      "content_bytes": 7292,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/oven-grill-bbq-cleaners.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/oven-grill-bbq-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

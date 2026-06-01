@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fruit-juice-not-canned",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ca64493abff11a46b9e7404006ac49713e3db9561210eab404d8b169f827f33b",
-      "content_bytes": 43903,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "c3e1db6617dc88db9551d65c7a090c3846020c86d8b77b2a6ad5dd0bd12dd620",
+      "content_bytes": 43867,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/fruit-juice-not-canned.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/fruit-juice-not-canned.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alzagtat2016-fruit-nectars-libya-heavy-metals",
         "content_pin": {
-          "content_sha256": "822180a00a24988141b501e4857f425d9ec011dff2d0152face83aec0bd0e93f",
-          "content_bytes": 2775,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "d4ebf3af46193f6ddb0bab4b3fbe2fac1ac8dbd4056b29cca7d4336acb673eef",
+          "content_bytes": 2739,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -71,12 +71,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/atsdr2005-tin-toxicological-profile",
         "content_pin": {
-          "content_sha256": "816af94269cccb43c164c39e3eca459e4e0b1e3f54bd965ba6078ef012227ea0",
-          "content_bytes": 7561,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "cdf6537ea4f80f312237a03f545872abaae2ace39bee2345a28293bbd87d9fef",
+          "content_bytes": 7525,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/atsdr2005-tin-toxicological-profile.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/atsdr2005-tin-toxicological-profile.md | sha256sum"
         }
       },
       {
@@ -95,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bair2022-infant-toddler-food-heavy-metals-policy",
         "content_pin": {
-          "content_sha256": "a526bab55507544a87e5fa08aa3cb07fea9f4f0fda8f9d88b8a0b86cba69af0f",
-          "content_bytes": 13940,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "e73ffde01f6b2fde4960b99f9c513bbef2394bd7c91af5e04797f4c5ad27c39a",
+          "content_bytes": 13904,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md | sha256sum"
         }
       },
       {
@@ -116,12 +116,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/balalimood2018-fruit-juice-mashhad-pb-as",
         "content_pin": {
-          "content_sha256": "0c685291a0bc81c76ae8d484bd74d94ec71fa4455e69fb4dfc1eb8e537771fc2",
-          "content_bytes": 6609,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "de5120f6164d3a274129511d18d22d2d0dd9d5d0ded48727884d14c6d5fb3f8d",
+          "content_bytes": 6573,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/balalimood2018-fruit-juice-mashhad-pb-as.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/balalimood2018-fruit-juice-mashhad-pb-as.md | sha256sum"
         }
       },
       {
@@ -142,12 +142,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barber2025-baby-food-elements-us",
         "content_pin": {
-          "content_sha256": "38596cdece46f8438679471a3d2795bffd3566c9da150fc47d397b2e3b2c8db5",
-          "content_bytes": 13628,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "b73d91b31af1f098ad28c2f4faac17f29a0775be104937c02ab758d529784425",
+          "content_bytes": 13592,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/barber2025-baby-food-elements-us.md | sha256sum"
         }
       },
       {
@@ -162,12 +162,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benoy1971-tin-toxicity-canned-fruit-juices",
         "content_pin": {
-          "content_sha256": "d302f9c800e553f87b304f21e83677163bc747bf38969d652f24db53b248f24b",
-          "content_bytes": 5503,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "17e4578cb8bc6de80d8cce261f2cdb7b11634385a2790139bb2d0547bd4125bc",
+          "content_bytes": 5467,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices.md | sha256sum"
         }
       },
       {
@@ -190,12 +190,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chekri2019-french-infant-toddler-tds-trace-elements",
         "content_pin": {
-          "content_sha256": "58550c98e112ea13ecf0cdf45c95e615be75588147a45775151050241c473033",
-          "content_bytes": 7773,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "aca2cd5aed53753d83e7b1aca4507921997486460b5dd138c53cd1c80614e62b",
+          "content_bytes": 7737,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md | sha256sum"
         }
       },
       {
@@ -224,12 +224,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/desouza2022-fruit-juice-trace-elements",
         "content_pin": {
-          "content_sha256": "3e0eef9580bf18d5700d3bea20cc67ba0e9dda82cff1650c9526270161e81d3d",
-          "content_bytes": 7661,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "385c4ac19fb8bdbf6139688bd39d02edc39635b92227404b0891444d685083a7",
+          "content_bytes": 7625,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/desouza2022-fruit-juice-trace-elements.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/desouza2022-fruit-juice-trace-elements.md | sha256sum"
         }
       },
       {
@@ -245,12 +245,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/farid2010-fruit-juices-jeddah-trace-elements",
         "content_pin": {
-          "content_sha256": "7d91134927f0bbd53db54671089a823421e5d6a99992eb1834c34f6a760560d1",
-          "content_bytes": 8396,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "0f29d052c1cb89dd1191a14b49fa1ba85f4a7b73b4541ed1f8181b34379f1381",
+          "content_bytes": 8360,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/farid2010-fruit-juices-jeddah-trace-elements.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/farid2010-fruit-juices-jeddah-trace-elements.md | sha256sum"
         }
       },
       {
@@ -265,12 +265,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2004-juice-haccp-lead",
         "content_pin": {
-          "content_sha256": "46caf850bd4207a4d7c1815c6683b40ab37dea19692ea7a5d671ddd2c955176e",
-          "content_bytes": 2307,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "198c8175dc955659c14bd356cd7edf55e6680282199fd1b68fe26baa5065f3e0",
+          "content_bytes": 2271,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2004-juice-haccp-lead.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2004-juice-haccp-lead.md | sha256sum"
         }
       },
       {
@@ -285,12 +285,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2011-apple-juice-arsenic-speciation",
         "content_pin": {
-          "content_sha256": "6639bbda572dd1392341a7df2b56e872e95e0467d790a7940a64df95f1e42f77",
-          "content_bytes": 3534,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5c76ca5b2d01db04894edf575fd323c64f0839d15a574363da3e18dac6cce900",
+          "content_bytes": 3498,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2011-apple-juice-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2011-apple-juice-arsenic-speciation.md | sha256sum"
         }
       },
       {
@@ -305,12 +305,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "554d4826b9a8ff7d10bc349c5ceb64adfda1b3633363ea5c909b611f25d8fa29",
-          "content_bytes": 7188,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5ea10de7d07e7e9a4eabbd0cd674537819acd11aa69c540707371c2eadb3a695",
+          "content_bytes": 7152,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -325,12 +325,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2018-lead-in-juice-fy2005-fy2018",
         "content_pin": {
-          "content_sha256": "ec528e7d513732abfa2db02fcd48a09af45e6c74c25d87a701b1ab09ca8610a3",
-          "content_bytes": 5598,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "d8fb84aa351a7ea90c2bebc9201c79284f21b7f034f8e2a2e0968f15288b4d66",
+          "content_bytes": 5562,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2018-lead-in-juice-fy2005-fy2018.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2018-lead-in-juice-fy2005-fy2018.md | sha256sum"
         }
       },
       {
@@ -345,12 +345,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2022-draft-lead-juice",
         "content_pin": {
-          "content_sha256": "c849108db2491dcf5be0fae3f3de4103a428838ec22ddf38851ea39a059e8cf9",
-          "content_bytes": 2203,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "8606e989b28cdceac918b7148c5b866db890a945e173f5062d7896a1e5ec8987",
+          "content_bytes": 2167,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2022-draft-lead-juice.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2022-draft-lead-juice.md | sha256sum"
         }
       },
       {
@@ -368,12 +368,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2022-tds-elements-fy2018-fy2020",
         "content_pin": {
-          "content_sha256": "008e545523f281a41cd54085f840b6e705da72422fbe279e7a52b7e813dad482",
-          "content_bytes": 10373,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2dc651b153b1816f9c9a36e1d6a8be92b31321a49529bf0738a48e2ad5cb030d",
+          "content_bytes": 10337,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2022-tds-elements-fy2018-fy2020.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2022-tds-elements-fy2018-fy2020.md | sha256sum"
         }
       },
       {
@@ -389,12 +389,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz",
         "content_pin": {
-          "content_sha256": "9c70c4662967c1c3a042ee8635226963f90298b91609ada0243881defc21cebf",
-          "content_bytes": 16485,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "f9a092f9e60e6ea0bd52cabd4ada1d090d8bfbde12ed72d4e03cd23d98a5d4d0",
+          "content_bytes": 16449,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz.md | sha256sum"
         }
       },
       {
@@ -413,12 +413,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/houlihan2019-hbbf-whats-in-baby-food",
         "content_pin": {
-          "content_sha256": "4e8fd5573b0d1c6fa909de55795f24d61ac6d774d81cbebb42bb1b1dc0731a65",
-          "content_bytes": 14302,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2cb0a8573bc8d925594ee12b3bf793ccd74f940c2b129225c3ae4187a4221ebc",
+          "content_bytes": 18306,
+          "last_commit_sha": "a34b9a7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/houlihan2019-hbbf-whats-in-baby-food.md | sha256sum"
+          "verify_command": "git show a34b9a7:wiki/sources/houlihan2019-hbbf-whats-in-baby-food.md | sha256sum"
         }
       },
       {
@@ -434,12 +434,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kubachka2019-arsenic-speciation-fruit-juice-fda",
         "content_pin": {
-          "content_sha256": "26fe733443df6d3e41b464a81ecda59a6523414199e11de10a28a30c99eb4abf",
-          "content_bytes": 4390,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "e7dece7e6db3dc52b9ccb277eb1705ace1f43247ebb41a8d69d2fe2510136867",
+          "content_bytes": 4354,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/kubachka2019-arsenic-speciation-fruit-juice-fda.md | sha256sum"
         }
       },
       {
@@ -462,12 +462,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/magdas2012-romanian-apple-juice-isotopic-elemental",
         "content_pin": {
-          "content_sha256": "57609b658367d27df6cc34f8a980745bf5a566e384cd4afd83b588834e74306d",
-          "content_bytes": 11877,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2e3193227d21f275a14ef85c4504db0c936f91242758251970a2842f2c046f95",
+          "content_bytes": 11841,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental.md | sha256sum"
         }
       },
       {
@@ -485,12 +485,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2015-toxic-elements-infant-food-poland",
         "content_pin": {
-          "content_sha256": "3c14d5cc9a9c0c64ff0941bd1b7dbad04eaa4babef9d1d21703f2a530889a995",
-          "content_bytes": 10273,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5ab3b9c3b48bd5a4a057d6c61e35349f00178ae8d698468c6e031aa73c477596",
+          "content_bytes": 10237,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/mania2015-toxic-elements-infant-food-poland.md | sha256sum"
         }
       },
       {
@@ -508,12 +508,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/paudel2024-packaged-fruit-juices-nepal",
         "content_pin": {
-          "content_sha256": "b2e6915a3b9841210d4c98cc1aee65d5ca3548c3ef16024443e4443cbe1a6789",
-          "content_bytes": 14602,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "206c3eea203b88a33f3863345a3b9dc4620478b640ae65aefb61abb28c193313",
+          "content_bytes": 14566,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/paudel2024-packaged-fruit-juices-nepal.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/paudel2024-packaged-fruit-juices-nepal.md | sha256sum"
         }
       },
       {
@@ -533,12 +533,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/paula2015-fruit-juices-elements-portugal",
         "content_pin": {
-          "content_sha256": "635544909daa84845a1a4c1420ad5b18f82044842cf954c8ed4574a193a69856",
-          "content_bytes": 6363,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5b0f939b697099ad3c8a880e54b15d63966ddce8d3370b2d8fe4792ded9325fc",
+          "content_bytes": 6327,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/paula2015-fruit-juices-elements-portugal.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/paula2015-fruit-juices-elements-portugal.md | sha256sum"
         }
       },
       {
@@ -553,12 +553,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
         "content_pin": {
-          "content_sha256": "d739f26f2187c5f31a1939c843670e74f4d0c33f5d63be0189d09f1868d46e35",
-          "content_bytes": 10117,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "c74e7564d74e7727fc19d948b78b05baf6462f1dc78c94424dd483a3aafc2d14",
+          "content_bytes": 10081,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
         }
       },
       {
@@ -574,12 +574,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
         "content_pin": {
-          "content_sha256": "9956cde8c243319d9890aabf5be0b299b450c9a90489f91fca44b27c03876409",
-          "content_bytes": 18535,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2f7af9ccc86619aa317c60983059f51aec1f8914527f40a2e4da397a5bca8fc8",
+          "content_bytes": 18499,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
         }
       },
       {
@@ -609,12 +609,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/savic2015-clear-orange-juice-minerals",
         "content_pin": {
-          "content_sha256": "e1b434d7df701041196c661826e70782017a27754d5bb8120aac643d6f2852c6",
-          "content_bytes": 6462,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "45ce722576f452628bda02da8a144228ee6c574e0bd441676279635bfba28f27",
+          "content_bytes": 6426,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/savic2015-clear-orange-juice-minerals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/savic2015-clear-orange-juice-minerals.md | sha256sum"
         }
       },
       {
@@ -629,12 +629,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran",
         "content_pin": {
-          "content_sha256": "06628fc9b9facd918b3a97eefbe8b027df01d0fb367b0cdedde45588fa68164a",
-          "content_bytes": 4868,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "3bd00f1ef5ed49ddd6558741dcccfe67ead5d0faa28173ec78315169f3ba1c0b",
+          "content_bytes": 4832,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran.md | sha256sum"
         }
       },
       {
@@ -650,12 +650,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/song2024-crvi-hplc-icpms-food-reduction",
         "content_pin": {
-          "content_sha256": "0f9e63c21c292406aed9098e819f48e9d6cc1330e88cdcbb88ccd15213906ee3",
-          "content_bytes": 13788,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "708aaef3b64626d62dfcd7388a299c30d5194e53736bfe19900ff317f3b10a76",
+          "content_bytes": 13752,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
         }
       },
       {
@@ -673,12 +673,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/subedi2022-fruit-juices-heavy-metals",
         "content_pin": {
-          "content_sha256": "c5dd2d664bef2a074a2046abf5b8e761454fcd7e2b708bca134f5d66c58a0c70",
-          "content_bytes": 2769,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "891cabb9ddb258d6b81119e6443002b0de377384af5f92b8f764adafb5c2f362",
+          "content_bytes": 2733,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/subedi2022-fruit-juices-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/subedi2022-fruit-juices-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -693,12 +693,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tarigan2016-factors-tin-released-canned-beverages",
         "content_pin": {
-          "content_sha256": "a74329128d8a16e11563afe80412f322c9623a01332b76cda78ae7c0e7f836c9",
-          "content_bytes": 4573,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "7a32b7dfbf78b4576afe5865a95cefcf9f0b7ef611331ac6eef9be11b3457251",
+          "content_bytes": 4537,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
         }
       },
       {
@@ -716,12 +716,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
         "content_pin": {
-          "content_sha256": "1a64c46c9f0f89ba51437c91d2215dfc952cf2ed4be49ed05ac76ba125ae6a75",
-          "content_bytes": 21558,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "3ab4ad54756ee459fdafb97ee2c0a90cd4490f7b5744e213fd81c11de40de5d2",
+          "content_bytes": 21522,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md | sha256sum"
         }
       },
       {
@@ -745,12 +745,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/youssao2018-fruit-juices-syrup-benin",
         "content_pin": {
-          "content_sha256": "46264bef51e93fb1bb93bb63286095b6e6e5a3fe2f71f84563a067a378e379b8",
-          "content_bytes": 8208,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "67b6bc472e5e209dfa12a73b211511c8b3ff2ba9db7637426b364d35b6b1bb84",
+          "content_bytes": 8172,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/youssao2018-fruit-juices-syrup-benin.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/youssao2018-fruit-juices-syrup-benin.md | sha256sum"
         }
       },
       {
@@ -768,12 +768,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zmudzinska2022-rte-baby-foods-poland",
         "content_pin": {
-          "content_sha256": "ca3670313bac682ead20df7001290581577c1405dc95989a2bcdf12b53a1eb1d",
-          "content_bytes": 15253,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "6088c6a561c9fffc9e2dc7eb09b0abed543a4244000a68c5dbcb29f7ccfdef2c",
+          "content_bytes": 15217,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/zmudzinska2022-rte-baby-foods-poland.md | sha256sum"
         }
       }
     ]

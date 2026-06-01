@@ -102,7 +102,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/carpet-cleaners|Carpet cleaners]] — 0 contributing sources
 - [[dossiers/carpet-spot-removers|Carpet spot removers]] — 0 contributing sources
 - [[dossiers/cookware-ceramic-coated|Ceramic-coated cookware]] — 1 contributing source
-- [[dossiers/tableware-ceramicware|Ceramicware]] — 2 contributing sources
+- [[dossiers/tableware-ceramicware|Ceramicware]] — 3 contributing sources
 - [[dossiers/clasps-fasteners-infant-products|Clasps/fasteners (snaps, zippers, buttons) used in infant products]] — 0 contributing sources
 - [[dossiers/cleaning-wipes-household|Cleaning wipes (household surface wipes)]] — 0 contributing sources
 - [[dossiers/infant-clothing|Clothing (onesies, pajamas, outerwear)]] — 4 contributing sources
@@ -158,10 +158,10 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/fruit-juices-non-apple|fruit-juices-non-apple]] — 23 contributing sources
 - [[dossiers/game-meats|Game meats (venison, bison, rabbit)]] — 12 contributing sources
 - [[dossiers/gel-diffusers|Gel diffusers]] — 0 contributing sources
-- [[dossiers/toys-painted|General toys with paint/surface coatings]] — 11 contributing sources
+- [[dossiers/toys-painted|General toys with paint/surface coatings]] — 13 contributing sources
 - [[dossiers/food-storage-glass-containers|Glass food storage containers]] — 1 contributing source
 - [[dossiers/food-packaging-glass-jars|Glass jars]] — 0 contributing sources
-- [[dossiers/tableware-glassware|Glassware]] — 2 contributing sources
+- [[dossiers/tableware-glassware|Glassware]] — 3 contributing sources
 - [[dossiers/hair-dye-rinse-off|Hair dye/color rinses (rinse-off after processing)]] — 1 contributing source
 - [[dossiers/hair-removal-products|Hair removal products (depilatory creams)]] — 0 contributing sources
 - [[dossiers/hand-soap|Hand soap (liquid and bar)]] — 0 contributing sources
@@ -296,7 +296,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/pet-toppers-mixers-broths|Toppers/mixers/broths]] — 0 contributing sources
 - [[dossiers/toy-chests|Toy chests]] — 0 contributing sources
 - [[dossiers/toy-pacifiers|Toy pacifiers (toy-designated)]] — 0 contributing sources
-- [[dossiers/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] — 10 contributing sources
+- [[dossiers/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] — 12 contributing sources
 - [[dossiers/toys-attached-cribs-playpens|Toys attached to cribs/playpens]] — 0 contributing sources
 - [[dossiers/toys-with-magnets|Toys with magnets]] — 0 contributing sources
 - [[dossiers/true-tea-camellia-sinensis|true-tea-camellia-sinensis]] — 8 contributing sources

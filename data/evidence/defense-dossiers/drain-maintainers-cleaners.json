@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/drain-maintainers-cleaners",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f16d7f261bb0208b303f394c091506c09cd77e74a6d11d91a8572e76efe006ff",
-      "content_bytes": 7500,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "250b8df144ebb8affcbca4069604c2d83482bc3c30d8c2447512a6778e028ac4",
+      "content_bytes": 7464,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/drain-maintainers-cleaners.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/drain-maintainers-cleaners.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/play-yards-and-gates",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "125b7f91443f6ecdb66514817f5a5c7408a3d0f405ec4b677b413d54b8043fdc",
-      "content_bytes": 7378,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "7564e07df48ed994b97755934f082ea8d11d64607903b18f90f3ce04f2c4763d",
+      "content_bytes": 7342,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/play-yards-and-gates.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/play-yards-and-gates.md | sha256sum"
     }
   },
   "evidence_base": {

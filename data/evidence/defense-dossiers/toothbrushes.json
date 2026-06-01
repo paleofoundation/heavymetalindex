@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toothbrushes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2046e49c8334aff149e3e79ae9e827de3a60dc39d75a882a6e32c341066cdc0d",
-      "content_bytes": 8282,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "8b4536f65d5391a4b5f2f6b38cd47567b07f19a948696b684a651daa7d38d5f4",
+      "content_bytes": 8246,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/toothbrushes.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/toothbrushes.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/althobiti2021-wheat-miswak-bioaccessible-lead",
         "content_pin": {
-          "content_sha256": "34f295b072a60a09169ce2c4275561fd8e64b8179ac240bedf717e0304ee8385",
-          "content_bytes": 4192,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "74d9e82c7a549dcf4c2697e57e5c2ad9da8d356d525d93c1ae1ea7c7c1263189",
+          "content_bytes": 4339,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/althobiti2021-wheat-miswak-bioaccessible-lead.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/althobiti2021-wheat-miswak-bioaccessible-lead.md | sha256sum"
         }
       },
       {
@@ -71,12 +71,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "43f01d3fe79dc2ce74fbffe4d95457a73a8790db211d562e83a877e9b421f402",
-          "content_bytes": 39134,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "301817810e4ff53ea7490ba5ed0e93f49f6f542107ddef27f726e14af0cf3ae7",
+          "content_bytes": 39281,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

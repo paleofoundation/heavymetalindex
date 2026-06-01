@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-plastic-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1dc0b62adfecf9355cdbd2ad7dd7042bbfec24752c27e8f897b9b83a32326f82",
-      "content_bytes": 8078,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "5004a84f17635f2c17fdffdffc1c253d939f9e415f7ceba9c3b7c7ace459c9ba",
+      "content_bytes": 8042,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/tableware-plastic-drinkware.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/tableware-plastic-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "51b50ff5475ec91e873b3312d2159cde7ffc069fdd0742173e75cb66e3cd877c",
-          "content_bytes": 18983,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5bfc7c7ed848e2bfc098eac35cbeb047a9723a1878ee9e684591c441cbbb65dd",
+          "content_bytes": 19130,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       }
     ]

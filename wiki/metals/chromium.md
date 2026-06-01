@@ -6,7 +6,7 @@ name: Chromium
 species: [Cr3+, Cr6+]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
-sources: 224
+sources: 225
 wiki_doi: null
 updated: 2026-05-08
 status: stub
@@ -389,11 +389,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 351 | [[sources/shue2012-bivalves-tapeng-taiwan\|Shue et al. 2012]]. *Seasonal variations of heavy metals in the bivalve's mollusks from Ta-Peng Bay lagoon in southwestern Taiwan*, Advanced Materials Research | 2012 | Peer-reviewed | TW Pb, Cd, Cu, Zn, Ni, Cr occurrence in Six bivalve species (Katelysia hiantina, Anomalocardia squamosa, Perna viridis, Anadara antiquata, Paphia undulata, Sanguinolaria diphos) collected from Ta-Peng... (n=72) |
 | 352 | [[sources/farid2010-fruit-juices-jeddah-trace-elements\|Farid et al. 2010]]. *Levels of Trace Elements in Commercial Fruit Juices in Jeddah, Saudi Arabia*, Medical Journal of Islamic World Academy of Sciences | 2010 | Peer-reviewed | SA Cr, Ni occurrence in 129 commercial fruit juice samples (42 apple, 45 orange, 42 mango) of 15 brands purchased from supermarkets in... (n=129) |
 | 353 | [[sources/konuspayeva2010-camel-milk-kazakhstan\|Konuspayeva et al. 2009]]. *Pollution of Camel Milk by Heavy Metals in Kazakhstan*, The Open Environmental Pollution & Toxicology Journal | 2009 | Peer-reviewed | KZ Pb, tAs, Cr, Cu, Fe, Mn, Zn occurrence in Two sub-studies in Kazakhstan: (i) 8 farms across 4 regions (Almaty, Aral, Atyrau, Shymkent) sampled for water, fodder,... (n=71) |
-| 354 | [[sources/david2008-heavy-metals-canned-tomato-paste-romania\|David et al. 2008]]. *The heavy metals analyses in canned tomato paste*, Journal of Agroalimentary Processes and Technologies | 2008 | Peer-reviewed | RO/IT Pb, Cd, Sn, Al, Cr, Fe, Zn, tAs occurrence in Five commercial canned tomato paste and tomato sauce products tested in Romania: two Romanian-branded products in metal cans,... (n=5) |
-| 355 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn occurrence in 17 edible vegetable oil samples from Turkish food markets: soybean, hazelnut, almond, natural olive, riviera olive (3 types),... (n=17) |
-| 356 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
-| 357 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, wheat grains collected in 2001 from three agricultural regions of Poland; plus commercially purchased juices,... (n=272) |
-| 358 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | Cr concentrations in dry pet food (n=49) |
+| 354 | [[sources/sgs2009-canada-toy-coating-heavy-metals\|Services 2009]]. *Canada Publishes Legislated Heavy Metal Requirements for Toys Containing Surface Coating Materials*, SGS SafeGuards Bulletin No. 181/09, Hardlines, Softlines, Electrical & Electronic, October 2009 | 2009 | Trade publication | *[awaiting synthesis]* |
+| 355 | [[sources/david2008-heavy-metals-canned-tomato-paste-romania\|David et al. 2008]]. *The heavy metals analyses in canned tomato paste*, Journal of Agroalimentary Processes and Technologies | 2008 | Peer-reviewed | RO/IT Pb, Cd, Sn, Al, Cr, Fe, Zn, tAs occurrence in Five commercial canned tomato paste and tomato sauce products tested in Romania: two Romanian-branded products in metal cans,... (n=5) |
+| 356 | [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes\|Pehlivan et al. 2008]]. *Determination of some inorganic metals in edible vegetable oils by inductively coupled plasma atomic emission spectroscopy (ICP-AES)*, Grasas y Aceites | 2008 | Peer-reviewed | TR Pb, Cd, Cu, Fe, Mn, Co, Cr, Ni, Zn occurrence in 17 edible vegetable oil samples from Turkish food markets: soybean, hazelnut, almond, natural olive, riviera olive (3 types),... (n=17) |
+| 357 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
+| 358 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, wheat grains collected in 2001 from three agricultural regions of Poland; plus commercially purchased juices,... (n=272) |
+| 359 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | Cr concentrations in dry pet food (n=49) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -403,9 +404,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
-| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 <!-- END: hmi-page-history -->

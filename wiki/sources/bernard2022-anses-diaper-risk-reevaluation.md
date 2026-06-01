@@ -236,6 +236,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [ff1fa2b](https://github.com/paleofoundation/heavymetalindex/commit/ff1fa2b) | 2026-06-01 | audit: bernard2022-anses-diaper-risk-reevaluation revised |
 | [c2a7248](https://github.com/paleofoundation/heavymetalindex/commit/c2a7248) | 2026-06-01 | ingest: bernard2022-anses-diaper-risk-reevaluation fresh from MFK/03_Diapers |
 <!-- END: hmi-page-history -->

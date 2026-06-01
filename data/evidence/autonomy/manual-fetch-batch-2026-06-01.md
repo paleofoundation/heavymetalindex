@@ -169,3 +169,23 @@
 
 ### Succeeded
 - `maine-pl-643-2008-toxic-chemicals-childrens-products` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/10_PUBLIC643_2016.pdf)
+
+## Tick 2026-06-01T03:46:58.822Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `vermont-chcc-2016-guidance` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/15_VTGuidance_2016.pdf)
+
+## Tick 2026-06-01T03:56:42.989Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `houlihan2019-hbbf-whats-in-baby-food` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/16_What's_in_My_Baby's_Food__2019.pdf)

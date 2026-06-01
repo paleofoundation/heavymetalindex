@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/eggs-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1e401a79453b3adaff34e943acf37b1a6939d70c2fdfc9a361e0363aabdaa47b",
-      "content_bytes": 9624,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "4569f8ae783b301c1d582f05b9aba5b5f7e0ae9cd9d5862f27ee9c2068dfe284",
+      "content_bytes": 9588,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/eggs-product.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/eggs-product.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bazzaz2023-poultry-products-erbil-heavy-metals",
         "content_pin": {
-          "content_sha256": "2c86ee55b88ee7d8127da84972bee4b7648210a9b287004d84e78000f1874044",
-          "content_bytes": 3095,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "cd202ef66d7c459863ab31480aa2ec9724f8c80de3609c8768b93c88ea615b15",
+          "content_bytes": 3059,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/bazzaz2023-poultry-products-erbil-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/bazzaz2023-poultry-products-erbil-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ezike2024-nigerian-poultry-pte",
         "content_pin": {
-          "content_sha256": "748c8a2b2f274b0f5c2d5e5f46a658834c2dfb72e07a7270684d82609e2ad9e3",
-          "content_bytes": 2981,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "057ea642648f5f25e630217fb856b7cbb6406764508d4d8c1fc8bf28fad02a44",
+          "content_bytes": 2945,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/ezike2024-nigerian-poultry-pte.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/ezike2024-nigerian-poultry-pte.md | sha256sum"
         }
       },
       {
@@ -102,12 +102,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "97377f9646e5fd7d5ea78d26ad9b256f483fe1bf446eeab5c201d8640894d5f5",
-          "content_bytes": 10771,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "3310cd2d5efe47da930ed58b54cdcada549a6294933d6264f2a77679a5f19ac5",
+          "content_bytes": 10735,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -125,12 +125,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs",
         "content_pin": {
-          "content_sha256": "7ad82ff4bf2497fd1a7c25e86fdbc848468569b7f085f6b85d66d3d505ad1b6a",
-          "content_bytes": 5091,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "887d6291a60d3108f1b75dfdf0f8c40ab8d4b434695282f90686d53ca5e6339a",
+          "content_bytes": 5055,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs.md | sha256sum"
         }
       },
       {
@@ -149,12 +149,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iqbal2023-poultry-feed-pakistan",
         "content_pin": {
-          "content_sha256": "d370b9c99f9d8b733daef073d381f9943d042504415b1626213f58e9bb478af3",
-          "content_bytes": 9460,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "b324a0b8a9b45c3f27c8ebdee4d5ad37e5306b43f4f90e9407ed0c5b0c6410b0",
+          "content_bytes": 9424,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/iqbal2023-poultry-feed-pakistan.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/iqbal2023-poultry-feed-pakistan.md | sha256sum"
         }
       },
       {
@@ -173,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining",
         "content_pin": {
-          "content_sha256": "9daf534070e23ee0d781b3484a73c40c5e53e706301a5b3d21635d9d0e50db46",
-          "content_bytes": 14443,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2220381adc31005f8bff1c0d15057b2bd944d2053f181c7c849a7d9b0357eff4",
+          "content_bytes": 14407,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/li2026-heavy-metals-chinese-chicken-eggs-urban-mining.md | sha256sum"
         }
       },
       {
@@ -195,12 +195,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mahbub2018-poultry-feed-meat-eggs-metals",
         "content_pin": {
-          "content_sha256": "7975fa94db9a50e47fdda24396043cf071fc26f95ff361aa45d7f73379b7f421",
-          "content_bytes": 3332,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "58c11b3f4e592bd14504ad9d473c881ec655099219f43609760c80cffd81ddf4",
+          "content_bytes": 3296,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/mahbub2018-poultry-feed-meat-eggs-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/mahbub2018-poultry-feed-meat-eggs-metals.md | sha256sum"
         }
       }
     ]

@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-makeup",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "886be7827980e0ea041747daacd03b8613ec94702c49967665439212399d60bb",
-      "content_bytes": 13194,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "9d0645c6ec1ad0b149e3d5afa17d10825e6ed8b81ef01c5648ede55790003ebe",
+      "content_bytes": 13158,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/childrens-makeup.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/childrens-makeup.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/arshad2020-heavy-metals-cosmetic-products-pakistan",
         "content_pin": {
-          "content_sha256": "b526caad759a447cd88ad829db377ec8278d801292d963029cf68452b4bda454",
-          "content_bytes": 10965,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "76d5d28abefb7bed6210adc6da8518dda613838d43d14781f84f12bf6ec32512",
+          "content_bytes": 10929,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/arshad2020-heavy-metals-cosmetic-products-pakistan.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/arshad2020-heavy-metals-cosmetic-products-pakistan.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
         "content_pin": {
-          "content_sha256": "b7f1a8631e875f9211b7eb80de5740da728cdc0f1ae48865672a26c32face1dc",
-          "content_bytes": 11669,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "8335cf1de6c32c4234d4f297f4a86e7851bca2e00588eec3839c93ba263b30ee",
+          "content_bytes": 11633,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
         }
       },
       {
@@ -100,12 +100,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "a664ad9b170afd08b9e4da6fb7004d1b46355a2c41739900b7e086eacfecf95c",
-          "content_bytes": 40702,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "b582a03557c77a348793b128006bda3cc6e552fb5b7a51e6c4904a0f50941112",
+          "content_bytes": 40849,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       },
       {
@@ -132,12 +132,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
         "content_pin": {
-          "content_sha256": "90eebc4f32dc0ffece05fbe0287320f3df36ea301d8af00ebd9669ea2925a30a",
-          "content_bytes": 11782,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "161c247afaaa150ad2b6fc94a2adaabebf7857e164f0723dd3a8ed47fd1de138",
+          "content_bytes": 11746,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
         }
       },
       {
@@ -150,12 +150,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/medley2023-childrens-makeup-body-products-us-usage",
         "content_pin": {
-          "content_sha256": "5c4614eff5853ae838c2c15791cde94c5e895995db46609a24964bf4412e0fd3",
-          "content_bytes": 11881,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "6430d670bbcf34e91e6a962c59554c37c3d60cf7994d8f0ff3e3c1c913c9e5be",
+          "content_bytes": 11845,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
         }
       },
       {
@@ -183,12 +183,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mercan2024-istanbul-toy-makeup-14-elements",
         "content_pin": {
-          "content_sha256": "9ca43c5044a6a2fa46de7af052ac40c3474c3800d381e349f79d7ea1c815256c",
-          "content_bytes": 18798,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "e81858cecdda26aa2f9a5ce2e8d704079f50aa51a9af11a936696492145f3ae8",
+          "content_bytes": 18762,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/mercan2024-istanbul-toy-makeup-14-elements.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/mercan2024-istanbul-toy-makeup-14-elements.md | sha256sum"
         }
       },
       {
@@ -221,12 +221,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
         "content_pin": {
-          "content_sha256": "481ab3e6873237303422f8bbbccd5e629401c6478401cd77b1d912e205aeccbc",
-          "content_bytes": 19713,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "b1f45d1a148c381bb4dffb0d3b57899b93578f2133462d1b1f15c3df889bce89",
+          "content_bytes": 19677,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
         }
       },
       {
@@ -252,12 +252,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salles2023-face-paints-pancakes-brazil-cancer-risk",
         "content_pin": {
-          "content_sha256": "15ca2fc8e4b6c5593027001f3e019430bf15f19371f6d22fe446c727e8d46d91",
-          "content_bytes": 18313,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5da0f06a2c3c6fe5f792ddff7b45fdd386625898169636b944c694740b45e956",
+          "content_bytes": 18277,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/salles2023-face-paints-pancakes-brazil-cancer-risk.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/salles2023-face-paints-pancakes-brazil-cancer-risk.md | sha256sum"
         }
       },
       {
@@ -281,12 +281,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "43f01d3fe79dc2ce74fbffe4d95457a73a8790db211d562e83a877e9b421f402",
-          "content_bytes": 39134,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "301817810e4ff53ea7490ba5ed0e93f49f6f542107ddef27f726e14af0cf3ae7",
+          "content_bytes": 39281,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dusting-talc-powders-adult",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4bea012df1b1f393838d573b2a85f28e240bb617f14d73961069eb0be4eb12c4",
-      "content_bytes": 8080,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "c7f36a4bec82d83b41078595aa9990a41fa8e1f0e79e2f5df06449bd173ae3ab",
+      "content_bytes": 8044,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/dusting-talc-powders-adult.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/dusting-talc-powders-adult.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hepp2014-fda-cosmetics-seven-elements",
         "content_pin": {
-          "content_sha256": "8a1b021f8868267acdaf3fe6bea2037bdf7cdc8ffa1a4dc13db83124930a72f3",
-          "content_bytes": 28978,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "dfd0c1f01ac378d16c9b5ca2e108f4212cfb55ac49d74db1ef8c1b7698086276",
+          "content_bytes": 28942,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/hepp2014-fda-cosmetics-seven-elements.md | sha256sum"
         }
       }
     ]

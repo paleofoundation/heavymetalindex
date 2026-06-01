@@ -6,7 +6,7 @@ name: Mercury, total
 species: [Hg0, Hg2+, MeHg, EtHg, phenyl-Hg]
 audience: [regulator, educator, researcher]
 microbiome_relevance: medium
-sources: 145
+sources: 147
 wiki_doi: null
 updated: 2026-05-02
 status: scaffold
@@ -422,11 +422,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 380 | [[sources/starska2011-noxious-elements-milk-products-poland\|Starska et al. 2011]]. *Noxious Elements in Milk and Milk Products in Poland*, Polish Journal of Environmental Studies | 2011 | Peer-reviewed | PL Pb, Cd, tHg, tAs occurrence in 483 milk and dairy product samples from all 16 Polish voivodships (2006–2007); 92% domestic production, 8% other EU... (n=483) |
 | 381 | [[sources/liu2010-mercury-white-vinegar-afs\|Liu 2010]]. *Direct determination of mercury in white vinegar by matrix assisted photochemical vapor generation atomic fluorescence spectrometry detection*, Spectrochimica Acta Part B | 2010 | Peer-reviewed | CN tHg occurrence in 3 commercial white vinegar samples from local markets in Beijing, China (n=3) |
 | 382 | [[sources/scher2010-toy-migration-limits-opinion\|EU Scientific Committee on 2010]]. *Evaluation of the Migration Limits for Chemical Elements in Toys (SCHER Opinion)*, European Commission DG Health & Consumers; SCHER Opinion adopted 1 July 2010 | 2010 | Government report | EU tAs, Cd, Cr-VI, Pb, tHg, Sn occurrence in Regulatory opinion evaluating EU Toys Safety Directive 2009/48/EC migration limits for 19 chemical elements |
-| 383 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
-| 384 | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|Shim et al. 2004]]. *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*, Journal of Food Science | 2004 | Peer-reviewed | US tHg occurrence in 240 canned tuna samples (5 brands × 4 types × 3 lots × 2 composites), 16 canned salmon... (n=272) |
-| 385 | [[sources/oehha2000-appendix-f-dermal-uptake-soil\|California Office of Environmental 2000]]. *Appendix F - Dermal Uptake of Chemicals from Soil (Technical Support Document for Exposure Assessment and Stochastic Analysis)*, Cal/EPA OEHHA Air Toxics Hot Spots Program - Technical Support Document for Exposure Assessment and Stochastic Analysis | 2000 | Government report | US tAs, Cd, Pb, tHg, Ni, Cr-VI, Be occurrence in Regulatory guidance; per-chemical dermal absorption fraction (ABS) point estimates derived from review of in-vivo and in-vitro percutaneous-absorption studies... |
-| 386 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
-| 387 | [[sources/mahaffey1975-fda-total-diet-study-heavy-metals\|Mahaffey et al. 1975]]. *Heavy Metal Exposure from Foods*, Environmental Health Perspectives | 1975 | Peer-reviewed | US Pb, Cd, tHg, tAs, Zn occurrence in FDA Total Diet Study (Market Basket Survey) 1965–1974; 30 market baskets per year collected from US retail stores... |
+| 383 | [[sources/sgs2009-canada-toy-coating-heavy-metals\|Services 2009]]. *Canada Publishes Legislated Heavy Metal Requirements for Toys Containing Surface Coating Materials*, SGS SafeGuards Bulletin No. 181/09, Hardlines, Softlines, Electrical & Electronic, October 2009 | 2009 | Trade publication | *[awaiting synthesis]* |
+| 384 | [[sources/maine-pl-643-2008-toxic-chemicals-childrens-products\|State of Maine 2008]]. *An Act To Protect Children's Health and the Environment from Toxic Chemicals in Toys and Children's Products*, Public Law, Chapter 643 (LD 2048, HP 1432, LR 2877); enacts 38 MRSA Chapter 16-D §§ 1691-1699-B (State of Maine) | 2008 | Regulation | *[awaiting synthesis]* |
+| 385 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
+| 386 | [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel\|Shim et al. 2004]]. *Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel*, Journal of Food Science | 2004 | Peer-reviewed | US tHg occurrence in 240 canned tuna samples (5 brands × 4 types × 3 lots × 2 composites), 16 canned salmon... (n=272) |
+| 387 | [[sources/oehha2000-appendix-f-dermal-uptake-soil\|California Office of Environmental 2000]]. *Appendix F - Dermal Uptake of Chemicals from Soil (Technical Support Document for Exposure Assessment and Stochastic Analysis)*, Cal/EPA OEHHA Air Toxics Hot Spots Program - Technical Support Document for Exposure Assessment and Stochastic Analysis | 2000 | Government report | US tAs, Cd, Pb, tHg, Ni, Cr-VI, Be occurrence in Regulatory guidance; per-chemical dermal absorption fraction (ABS) point estimates derived from review of in-vivo and in-vitro percutaneous-absorption studies... |
+| 388 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
+| 389 | [[sources/mahaffey1975-fda-total-diet-study-heavy-metals\|Mahaffey et al. 1975]]. *Heavy Metal Exposure from Foods*, Environmental Health Perspectives | 1975 | Peer-reviewed | US Pb, Cd, tHg, tAs, Zn occurrence in FDA Total Diet Study (Market Basket Survey) 1965–1974; 30 market baskets per year collected from US retail stores... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -436,9 +438,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
-| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 <!-- END: hmi-page-history -->

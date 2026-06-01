@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-vitamin-mineral",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "51a52615fcf1468b30db37bfc08df4c8de7ffa3f5e9ef00ff6c4e7fc97122b4c",
-      "content_bytes": 7613,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "93497f5abc49bab64e8fefe80a0b258be343aaa0b04d4e79d1d3783df29f262a",
+      "content_bytes": 7577,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/supplements-vitamin-mineral.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/supplements-vitamin-mineral.md | sha256sum"
     }
   },
   "evidence_base": {

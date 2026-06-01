@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fresh-fruit",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "29f9bcd030dc7f825e3342289d9ea5ac11031625d4883b3cb5da16801f9156e3",
-      "content_bytes": 21744,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "ef5acfa54dae8858779bc2d0037f3f45d05d6e7266b6f4b6c0b486f9900667ce",
+      "content_bytes": 21708,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/fresh-fruit.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/fresh-fruit.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abdullahi2019-fruits-vegetables-heavy-metals",
         "content_pin": {
-          "content_sha256": "c892081a76432659698ab1290a52254089a7185f5d7e75b34519a6db7fd0847c",
-          "content_bytes": 2689,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "74edd1be75892a40e1cea61ecde6b1e923929451302a2a632b2b4fea56120f58",
+          "content_bytes": 2653,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/abdullahi2019-fruits-vegetables-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/abdullahi2019-fruits-vegetables-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/afrin2020-heavy-metals-fruits-dhaka",
         "content_pin": {
-          "content_sha256": "338777b9e6f340d543877afd61cb673ee748dbd15fefbcac2588d80359c8c449",
-          "content_bytes": 6671,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "893d30520a37458ed5f1293f6847b7a07b957785070ca7a003d996745a68b963",
+          "content_bytes": 6635,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/afrin2020-heavy-metals-fruits-dhaka.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/afrin2020-heavy-metals-fruits-dhaka.md | sha256sum"
         }
       },
       {
@@ -98,12 +98,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/amer2019-egyptian-fruits-heavy-metals",
         "content_pin": {
-          "content_sha256": "a67dc8acab32d19d881e7be577e55e4073e3f8b7135c2610741b6f7e8be7845a",
-          "content_bytes": 9312,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "4222fbc28da17c66c4c20e524630741be5905a1705c9669e42c25db9fdb23769",
+          "content_bytes": 9276,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/amer2019-egyptian-fruits-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/amer2019-egyptian-fruits-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -123,12 +123,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf",
         "content_pin": {
-          "content_sha256": "dae93e79bfeabfb0272ff5376c4c0c1b6ac8f62d997cc7e0651230a871491720",
-          "content_bytes": 14525,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "cbb408c2ebdd67aa06103e3ffe1fdbac76260204704dbceef89fa55e7d0aa6c5",
+          "content_bytes": 14489,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf.md | sha256sum"
         }
       },
       {
@@ -148,12 +148,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/apilux2023-rayong-tropical-fruits-metals",
         "content_pin": {
-          "content_sha256": "ff257224632087cc2fa112114b671fee7bd072ad5d41497311b4e47d971bb947",
-          "content_bytes": 3224,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "6aded38f20ae577bf3d9400986af600ba23d3508f6d172da512ad54732c49194",
+          "content_bytes": 3188,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/apilux2023-rayong-tropical-fruits-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/apilux2023-rayong-tropical-fruits-metals.md | sha256sum"
         }
       },
       {
@@ -172,12 +172,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bedoya-perales2023-moquegua-peru-mining-dataset",
         "content_pin": {
-          "content_sha256": "da6e9905c5462bbf3abee50ba38fd70b969c88af89ef33f4f0973394e5eb1cdf",
-          "content_bytes": 5218,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2ba94cf2b6895013a0354e6b2ad474023b69743a65d75f083792ce8ab59520f9",
+          "content_bytes": 5182,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/bedoya-perales2023-moquegua-peru-mining-dataset.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/bedoya-perales2023-moquegua-peru-mining-dataset.md | sha256sum"
         }
       },
       {
@@ -192,12 +192,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benoy1971-tin-toxicity-canned-fruit-juices",
         "content_pin": {
-          "content_sha256": "d302f9c800e553f87b304f21e83677163bc747bf38969d652f24db53b248f24b",
-          "content_bytes": 5503,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "17e4578cb8bc6de80d8cce261f2cdb7b11634385a2790139bb2d0547bd4125bc",
+          "content_bytes": 5467,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices.md | sha256sum"
         }
       },
       {
@@ -215,12 +215,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
         "content_pin": {
-          "content_sha256": "a4af05ad25e857a8b1a1d8aa3f91c4879000c240e9f78907443785da76bbbb18",
-          "content_bytes": 21711,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "fdbb80442494c1057b221424ba1588a17c9ddd8505ebb89b38d58f23c345a7fe",
+          "content_bytes": 21675,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
         }
       },
       {
@@ -236,12 +236,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chaleshtori2019-watermelon-carrot-pb-cd",
         "content_pin": {
-          "content_sha256": "ddce8ed80c7bf8d3c3e865cd3cc24597056305cb578416c38cf8af7faf1e1a7e",
-          "content_bytes": 2820,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "e583c6ebb5d6c0b78571b7c426ac0023454e2be610fc0cffec0af172618791b9",
+          "content_bytes": 2784,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/chaleshtori2019-watermelon-carrot-pb-cd.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/chaleshtori2019-watermelon-carrot-pb-cd.md | sha256sum"
         }
       },
       {
@@ -256,12 +256,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil",
         "content_pin": {
-          "content_sha256": "57ded723d53fa834cbe2c1f0e1f57961ca148f046eb9ddf98b4d9274694e04f3",
-          "content_bytes": 10278,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "056a954d42152ae14648ba7508a64ccf9f7ced7909f632ca138c3c2033893ca6",
+          "content_bytes": 10242,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/depaiva2020-aluminum-cereal-based-baby-foods-brazil.md | sha256sum"
         }
       },
       {
@@ -283,12 +283,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/elbagory2025-toxic-elements-melon-ganges-yamuna",
         "content_pin": {
-          "content_sha256": "984dd8ba4d6df7daf715b5deb762ed55f6e10aef507308987ebfcd04be84b687",
-          "content_bytes": 13545,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "69e8a20c67df2ba09f3d5561d1b68fbeb3a18cf76362f5ea7940bd3b0fb72cbb",
+          "content_bytes": 13509,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/elbagory2025-toxic-elements-melon-ganges-yamuna.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/elbagory2025-toxic-elements-melon-ganges-yamuna.md | sha256sum"
         }
       },
       {
@@ -303,12 +303,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2011-arsenic-apple-juice-2005-2011",
         "content_pin": {
-          "content_sha256": "98bc95c64fd3ef55906e81f93d45457313e52a27547f4b6d38b5bdb69d359679",
-          "content_bytes": 5262,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2a0136865133ec139d64905e70679021c80e309dfdaf7f2da161bc163ff4861a",
+          "content_bytes": 5226,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2011-arsenic-apple-juice-2005-2011.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2011-arsenic-apple-juice-2005-2011.md | sha256sum"
         }
       },
       {
@@ -324,12 +324,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "554d4826b9a8ff7d10bc349c5ceb64adfda1b3633363ea5c909b611f25d8fa29",
-          "content_bytes": 7188,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5ea10de7d07e7e9a4eabbd0cd674537819acd11aa69c540707371c2eadb3a695",
+          "content_bytes": 7152,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -345,12 +345,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2018-iAs-infant-rice-cereals-fy2018",
         "content_pin": {
-          "content_sha256": "ab5848eb10e2dd481d047b1a0807889483e087af1f768ecd7c153b7772458726",
-          "content_bytes": 5774,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2c36135a5a3020a229f66238529e821fe1981e4fa47f1535833e40ac76cc1439",
+          "content_bytes": 5738,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2018-iAs-infant-rice-cereals-fy2018.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2018-iAs-infant-rice-cereals-fy2018.md | sha256sum"
         }
       },
       {
@@ -366,12 +366,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2023-ias-apple-juice-guidance",
         "content_pin": {
-          "content_sha256": "401ceff2cb5c9e2df16108b7b3a6c1014f7b8de5d42056bcdff3f0f1f9083f9b",
-          "content_bytes": 10830,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "71a56bb77004a0c143bc463c616ea51e0cfb35c644855551889725bb1d856f23",
+          "content_bytes": 10794,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fda2023-ias-apple-juice-guidance.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fda2023-ias-apple-juice-guidance.md | sha256sum"
         }
       },
       {
@@ -387,12 +387,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz",
         "content_pin": {
-          "content_sha256": "9c70c4662967c1c3a042ee8635226963f90298b91609ada0243881defc21cebf",
-          "content_bytes": 16485,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "f9a092f9e60e6ea0bd52cabd4ada1d090d8bfbde12ed72d4e03cd23d98a5d4d0",
+          "content_bytes": 16449,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz.md | sha256sum"
         }
       },
       {
@@ -415,12 +415,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/islam2024-heavy-metals-bangladeshi-fruits-review",
         "content_pin": {
-          "content_sha256": "80eff76ca6ad6366af8fabbd4e1138786f6c95acb382366c6b354e6951508b6e",
-          "content_bytes": 7486,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5b61df260ea5df5e3735f17bd2bc2bff3250ffe11d1be7fdacc60ef13c76614c",
+          "content_bytes": 7450,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/islam2024-heavy-metals-bangladeshi-fruits-review.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/islam2024-heavy-metals-bangladeshi-fruits-review.md | sha256sum"
         }
       },
       {
@@ -441,12 +441,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lee2023-south-korea-fresh-fruits-seven-metals",
         "content_pin": {
-          "content_sha256": "7720afa9eb3b49f61da0eba1ad01f60dc40c21da1848765a8ab5cde68af8fd5b",
-          "content_bytes": 18002,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "ae8dabc725360dcbf67b0feef5a006064437a938f3c16f2cd90ce6daa81584d9",
+          "content_bytes": 17966,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/lee2023-south-korea-fresh-fruits-seven-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/lee2023-south-korea-fresh-fruits-seven-metals.md | sha256sum"
         }
       },
       {
@@ -465,12 +465,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "f105cf8b71f377dcbbe7f29cd26bff4781b6e224cc12cabdb10ffbae6e8879df",
-          "content_bytes": 10034,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "7309345fe316897a0b82641c60009ac6ae7b915b0eff400cb60dd98de605732c",
+          "content_bytes": 9998,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
         }
       },
       {
@@ -489,12 +489,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland",
         "content_pin": {
-          "content_sha256": "11675826b613f1e130d5cfc4d1dd143e329c6927551be9b66072add6eccf97f9",
-          "content_bytes": 12477,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5329bef500216349a9dd0a9c015ecf49083203c62d1dd8925ca6fcf65ead52c6",
+          "content_bytes": 12441,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland.md | sha256sum"
         }
       },
       {
@@ -512,12 +512,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mawari2022-heavy-metals-fruits-vegetables-india",
         "content_pin": {
-          "content_sha256": "080628a68aaf4eda0aa8a5d067da4a5b79ffb21e2a13a07bb9885d948aa79bf5",
-          "content_bytes": 15246,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "e85825f32969fd2b2f6f4035b376826ed1eb1ac80684e894fbbff79d58b62966",
+          "content_bytes": 15211,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
         }
       },
       {
@@ -534,12 +534,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mekonnen2024-ethiopia-fruit-metals",
         "content_pin": {
-          "content_sha256": "ca172d6b1978d14308a4fa630e248e3bb1f61bed5c4b48375a0964f4a449c932",
-          "content_bytes": 4275,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "4248e84fc5c7bd48397236aea55dce56f49332b2dde0092cf2232b49927a64af",
+          "content_bytes": 4239,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/mekonnen2024-ethiopia-fruit-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/mekonnen2024-ethiopia-fruit-metals.md | sha256sum"
         }
       },
       {
@@ -563,12 +563,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ozbek2016-mip-oes-turkish-vinegars",
         "content_pin": {
-          "content_sha256": "888ac3b31628c73ecc20d63bc1b8c16f8b41621d981d794937a0656b18b93ae6",
-          "content_bytes": 9901,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "14e4465251ab3dfa7876da4749dd17d7d37da1bdcd8819ce0b9f33541765191a",
+          "content_bytes": 9865,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/ozbek2016-mip-oes-turkish-vinegars.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/ozbek2016-mip-oes-turkish-vinegars.md | sha256sum"
         }
       },
       {
@@ -587,12 +587,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rahim2020-toxic-heavy-metals-fruits-pakistan",
         "content_pin": {
-          "content_sha256": "f17952432b3b789e60c3c17332981b73e153b266084f5176f09fb0d302ae1c56",
-          "content_bytes": 10609,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "7ddec7928a71ad6f35007a78cc82eee65233b231c7ac1e244fcd50bc00723731",
+          "content_bytes": 10573,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/rahim2020-toxic-heavy-metals-fruits-pakistan.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/rahim2020-toxic-heavy-metals-fruits-pakistan.md | sha256sum"
         }
       },
       {
@@ -616,12 +616,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rashid2015-metals-rock-melon-malaysia",
         "content_pin": {
-          "content_sha256": "4a7a59f207d173d16db4a7c736bf72fdbcbcc246e2d7564b904617c9dd0bf460",
-          "content_bytes": 8818,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "a0cee2dac3629c062098edfa4452d5e25b8c0c5713603a63b655e55564f88d47",
+          "content_bytes": 8782,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/rashid2015-metals-rock-melon-malaysia.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/rashid2015-metals-rock-melon-malaysia.md | sha256sum"
         }
       },
       {
@@ -636,12 +636,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/reczajska2005-chromium-plant-foods-poland",
         "content_pin": {
-          "content_sha256": "d739f26f2187c5f31a1939c843670e74f4d0c33f5d63be0189d09f1868d46e35",
-          "content_bytes": 10117,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "c74e7564d74e7727fc19d948b78b05baf6462f1dc78c94424dd483a3aafc2d14",
+          "content_bytes": 10081,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/reczajska2005-chromium-plant-foods-poland.md | sha256sum"
         }
       },
       {
@@ -660,12 +660,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rezaei2020-fruits-markazi-essential-elements",
         "content_pin": {
-          "content_sha256": "da9ae97d5de77eef67d0d46a425d6f197cf9b40aa3f7d9d5c7683c4984719c13",
-          "content_bytes": 5671,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "001bba36bf0b692712c127c046a4b16e906defb84d38dceffddd17978b6d6b56",
+          "content_bytes": 5635,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/rezaei2020-fruits-markazi-essential-elements.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/rezaei2020-fruits-markazi-essential-elements.md | sha256sum"
         }
       },
       {
@@ -681,12 +681,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
         "content_pin": {
-          "content_sha256": "9956cde8c243319d9890aabf5be0b299b450c9a90489f91fca44b27c03876409",
-          "content_bytes": 18535,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "2f7af9ccc86619aa317c60983059f51aec1f8914527f40a2e4da397a5bca8fc8",
+          "content_bytes": 18499,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
         }
       },
       {
@@ -704,12 +704,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars",
         "content_pin": {
-          "content_sha256": "639534ff139d4145dec91a14cacb25352fa1692d92d01ba3b368b07e87fcd890",
-          "content_bytes": 12977,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "c66dd840ac74c9c3b49d7953a4c83a977734e99324cc838871ab7944f8eb9f8e",
+          "content_bytes": 12941,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md | sha256sum"
         }
       },
       {
@@ -728,12 +728,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salhotra2017-vegetables-fruits-heavy-metals",
         "content_pin": {
-          "content_sha256": "d187b55e0fe88a42a050a940b9fe154061b4e80f89889ada11b1fd95630797f7",
-          "content_bytes": 2543,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "c4e717570e4d2dcc7f8ff0e9095dfdc9589dc96adf189064c76dcbd3f1169e83",
+          "content_bytes": 2507,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/salhotra2017-vegetables-fruits-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/salhotra2017-vegetables-fruits-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -751,12 +751,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/samitha2021-pineapple-kerala-heavy-metals",
         "content_pin": {
-          "content_sha256": "14382c0b164c50a6b2508854b4c5b9f1ec519d0fb95d3f707499ade92dbedc9b",
-          "content_bytes": 2602,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "e25fb7dd7905a15874647296930a764e6ae0a6fba83d8a9e4013752f23dc2ba9",
+          "content_bytes": 2566,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/samitha2021-pineapple-kerala-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/samitha2021-pineapple-kerala-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -772,12 +772,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits",
         "content_pin": {
-          "content_sha256": "9f2efd4008f25c6fb593b18e919ad5fc5a0d300124626a653bb6f47389dcb215",
-          "content_bytes": 15738,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "af2597d9a5f9b275e2f08b967fc719625cff313c785feeb6b4174aa7ebfbcdbb",
+          "content_bytes": 15702,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits.md | sha256sum"
         }
       },
       {
@@ -798,12 +798,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/uchenna2023-ihiala-fruits-heavy-metals",
         "content_pin": {
-          "content_sha256": "2969c478881434649b3e67a53c3e70e5d054cc5b1ceb97f3899d02f27564a891",
-          "content_bytes": 2873,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "1109bac3b44593b23cc32f33dbc1b36b36b1fe9444c4d16ba1bf41e8a536e7ec",
+          "content_bytes": 2837,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/uchenna2023-ihiala-fruits-heavy-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/uchenna2023-ihiala-fruits-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -820,12 +820,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/unaegbu2016-fruit-heavy-metals-enugu",
         "content_pin": {
-          "content_sha256": "32aa20665fc3c140cf10f86f5ede20ce61c4bcbf8825c6527c5cec46ef0d6fcf",
-          "content_bytes": 4727,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "c9eea6ff60ca5efce002828464ab95cd2a92ec2fcc582a32e854fb9dcfa4f912",
+          "content_bytes": 4691,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/unaegbu2016-fruit-heavy-metals-enugu.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/unaegbu2016-fruit-heavy-metals-enugu.md | sha256sum"
         }
       },
       {
@@ -843,12 +843,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals",
         "content_pin": {
-          "content_sha256": "1a64c46c9f0f89ba51437c91d2215dfc952cf2ed4be49ed05ac76ba125ae6a75",
-          "content_bytes": 21558,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "3ab4ad54756ee459fdafb97ee2c0a90cd4490f7b5744e213fd81c11de40de5d2",
+          "content_bytes": 21522,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md | sha256sum"
         }
       },
       {
@@ -863,12 +863,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ye2026-tin-foods-dietary-exposure-zhejiang",
         "content_pin": {
-          "content_sha256": "42cbcf64d73fc133c99853d05855e9983c3350c4facf512d323e39a0b0928f83",
-          "content_bytes": 25000,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "09592c5a803044e6b38817eca4a8d63d96cd3080aa3a4f358f90f8d0a132ab0f",
+          "content_bytes": 24964,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/ye2026-tin-foods-dietary-exposure-zhejiang.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/ye2026-tin-foods-dietary-exposure-zhejiang.md | sha256sum"
         }
       },
       {
@@ -888,12 +888,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yoplac2026-peruvian-avocado-metals-health-risk",
         "content_pin": {
-          "content_sha256": "ff3e2a034a9f29997c157c44b06810108647dd522403d0d63858fada0fd984e4",
-          "content_bytes": 13603,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "83d48caa9aad75725b1b8f69f30bcadd317d5d4952f6c5aedca2c7265260ac8e",
+          "content_bytes": 13567,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/yoplac2026-peruvian-avocado-metals-health-risk.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/yoplac2026-peruvian-avocado-metals-health-risk.md | sha256sum"
         }
       }
     ]

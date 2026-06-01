@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/floor-cleaners-hard-surface",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9c3965d1964a6637bbe773e3dc79bcd67058d267a4e1b97a3324ddf07e52331b",
-      "content_bytes": 7373,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "985bafcb0e5d128e8548be7f2344c10d2ea3f30b91e99215cfff339c1b0b92aa",
+      "content_bytes": 7337,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/floor-cleaners-hard-surface.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/floor-cleaners-hard-surface.md | sha256sum"
     }
   },
   "evidence_base": {

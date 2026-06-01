@@ -6,7 +6,7 @@ name: Antimony
 species: [Sb, antimony-compounds]
 audience: [regulator, educator, researcher]
 microbiome_relevance: unknown
-sources: 32
+sources: 33
 wiki_doi: null
 updated: 2026-04-30
 status: stub
@@ -84,7 +84,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 54 | [[sources/cfs2013-hktds-metallic-contaminants\|Centre for Food Safety 2013]]. *The First Hong Kong Total Diet Study: Metallic Contaminants*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2013 | Government report | HK Al, Sb, Cd, Pb, MeHg, Ni, Sn occurrence in Hong Kong general adult population; 150 TDS food items purchased on 4 occasions (March 2010 to February 2011),... (n=1800) |
 | 55 | [[sources/johnson2012-cpsc-astm-f963-status\|Johnson et al. 2012]]. *Status Report: Review of Metals in the Toy Safety Standard, ASTM F 963*, U.S. Consumer Product Safety Commission Status Report, Directorate for Health Sciences, 14 March 2012; bundles Versar/SRC final contractor report Contract CPSC-D-06-0006 Task Order 008 dated 16 July 2010 | 2012 | Regulatory | *[awaiting synthesis]* |
 | 56 | [[sources/pirg2010-trouble-in-toyland\|Hitchcock et al. 2010]]. *Trouble in Toyland: The 25th Annual Survey of Toy Safety*, U.S. PIRG Education Fund, November 2010 | 2010 | NGO report | *[awaiting synthesis]* |
-| 57 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
+| 57 | [[sources/sgs2009-canada-toy-coating-heavy-metals\|Services 2009]]. *Canada Publishes Legislated Heavy Metal Requirements for Toys Containing Surface Coating Materials*, SGS SafeGuards Bulletin No. 181/09, Hardlines, Softlines, Electrical & Electronic, October 2009 | 2009 | Trade publication | *[awaiting synthesis]* |
+| 58 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -94,9 +95,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
-| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 <!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/art-craft-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "48cf94cf5a2bbad516531eea3fc3399408dc10821ae8cf9cf75d21202099db19",
-      "content_bytes": 8682,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "69d6fab5d9a3992e2325c42f7c041da1412a7c846c7e1c433afead8fa654bf80",
+      "content_bytes": 8646,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/art-craft-materials.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/art-craft-materials.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iso2020-8124-3-toy-migration-elements",
         "content_pin": {
-          "content_sha256": "dc30966491979b539a5ec2c5714e347dee356938d32b8b9ab3c7f2c585bcc5e3",
-          "content_bytes": 33168,
-          "last_commit_sha": "4275cd3",
+          "content_sha256": "ed677f77759c14439ffd92715981755fa2052f8b527e2e21805ef3efd477c2a5",
+          "content_bytes": 33315,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 4275cd3:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
         }
       }
     ]

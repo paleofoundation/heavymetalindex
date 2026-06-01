@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-storage-silicone",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "21a374f50743122f29a5bbce9823f24bc4a6c872354e5c2e7cee4fec898eeb3e",
-      "content_bytes": 7364,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "1f915cf9dc47cc1088596fc9e544a61968048ea797a316c4b74d176e87cbc160",
+      "content_bytes": 7328,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/food-storage-silicone.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/food-storage-silicone.md | sha256sum"
     }
   },
   "evidence_base": {

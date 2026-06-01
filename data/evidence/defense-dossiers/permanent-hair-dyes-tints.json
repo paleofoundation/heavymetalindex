@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/permanent-hair-dyes-tints",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5ea12c29a54958be7847f199659fe82a062dc25b699e4eb8336c9540a9ea5dd4",
-      "content_bytes": 8695,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "da8b285f4855da7eb67ff3a5a60b36b020667655878fc1ec56748bd299b86a6d",
+      "content_bytes": 8659,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/permanent-hair-dyes-tints.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/permanent-hair-dyes-tints.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "168d43a47fba65079f59d8beb16729a1ef8a93a06506e634a365ac44f6668f80",
-          "content_bytes": 35209,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "3a75588ad312f7d3bcc9a21d94fee843258efa722e4fa6f425994137739058bd",
+          "content_bytes": 35173,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benabbes2021-morocco-hair-dyes-pb-cd",
         "content_pin": {
-          "content_sha256": "2070a2bd142662641ffb13d214b188978008818c24fbeb7ccd796d0ce370c088",
-          "content_bytes": 21349,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "455f11a71e2ea503b9c5741e9e483239710d02128a992a4c31b96a8ddce033f2",
+          "content_bytes": 21313,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
         }
       }
     ]

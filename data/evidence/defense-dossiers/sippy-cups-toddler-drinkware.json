@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sippy-cups-toddler-drinkware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "925cc9cba66f18d5080e30fcfe05fc955b6775f34768e320937ea82a17c04c73",
-      "content_bytes": 9131,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "b4d96353e559fc370365ef17ab413a91c4c52397ae19f6185694599c4169e948",
+      "content_bytes": 9095,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/sippy-cups-toddler-drinkware.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/sippy-cups-toddler-drinkware.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "51b50ff5475ec91e873b3312d2159cde7ffc069fdd0742173e75cb66e3cd877c",
-          "content_bytes": 18983,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "5bfc7c7ed848e2bfc098eac35cbeb047a9723a1878ee9e684591c441cbbb65dd",
+          "content_bytes": 19130,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       },
       {
@@ -71,12 +71,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masu2016-pacifiers-sippy-cups-my",
         "content_pin": {
-          "content_sha256": "1e213eaa15d4f7f09c7ae89565895cb320c3dfcb49204c74cd6b25d919c20c26",
-          "content_bytes": 23517,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "ce2533be57019712faf5e13f166a0eb1a6ec4ae07c0371ddef4d49e59bc8e3cb",
+          "content_bytes": 23664,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
         }
       },
       {
@@ -96,12 +96,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "70b58e960f47eff2f6c2678da43384b44b13c4bd861cee9193ba10ff106ca8a1",
-          "content_bytes": 29425,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "67a7c97a79491e1bbeea1b2cfa07d319aab87cc29827b1fb8e50b89aada2ce2a",
+          "content_bytes": 29572,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -116,12 +116,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
         "content_pin": {
-          "content_sha256": "cca758abd7e68b46ef0f2f46d9b01ac518a5fef47b8da74db7fb54c549418400",
-          "content_bytes": 17783,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "48d0e0e9e4f728d998320203cfd5cfcdd9244c426d2b856ffac3aedc62574d7f",
+          "content_bytes": 17930,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
         }
       }
     ]

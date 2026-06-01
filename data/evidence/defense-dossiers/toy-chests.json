@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toy-chests",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e6f906b8d977efef37f708a62857bad9492a9bba7ee2736059176c6cff1bc266",
-      "content_bytes": 7211,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "40a8f1e9a8981fc95020bf1159f0c50a1db3f8241e955dca7b091405d83c14f7",
+      "content_bytes": 7175,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/toy-chests.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/toy-chests.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T03:50:59.837Z
+updated: 2026-06-01T04:13:57.600Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 51 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 51 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 749 min ago (stale) |
+| Daemon heartbeat | ⚠️ 772 min ago (stale) |
 | auto-fetched/ PDFs in queue | 8 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 10 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 13 |
-| Commits last 24 hours | 195 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 16 |
+| Commits last 24 hours | 203 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 51 min**
 ## Last commit
 
 ```
-d89982a 5 minutes ago — audit-queue: maine-pl-643-2008-toxic-chemicals-childrens-products -> audited-revised (PROMOTE)
+915f28e 8 minutes ago — audit-queue: houlihan2019-hbbf-whats-in-baby-food -> audited-revised (REVISE)
 ```
 
 ## How to read this

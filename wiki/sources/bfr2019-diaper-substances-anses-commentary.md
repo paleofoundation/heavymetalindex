@@ -81,5 +81,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [6aa6375](https://github.com/paleofoundation/heavymetalindex/commit/6aa6375) | 2026-06-01 | ingest: bfr2019-diaper-substances-anses-commentary fresh from MFK/03_Diapers |
 <!-- END: hmi-page-history -->

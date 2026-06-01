@@ -174,6 +174,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [ee4990c](https://github.com/paleofoundation/heavymetalindex/commit/ee4990c) | 2026-06-01 | audit: cot2013-uk-aluminium-infant-diet revised |
 | [0a4868a](https://github.com/paleofoundation/heavymetalindex/commit/0a4868a) | 2026-06-01 | ingest: cot2013-uk-aluminium-infant-diet fresh from MFK/04_Feeding_Accessories |
 <!-- END: hmi-page-history -->

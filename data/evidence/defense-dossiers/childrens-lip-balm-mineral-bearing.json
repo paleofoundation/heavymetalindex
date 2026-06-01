@@ -23,12 +23,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-lip-balm-mineral-bearing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "aecfdf90666dd8f3d86c0fc322c42daa34338c31c84a804a017bd8cc4987500d",
-      "content_bytes": 12383,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "6151fd8674a6737fb9c334cca8f39f427569b6450b31d8b8fd1c61768fb8507a",
+      "content_bytes": 12347,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/childrens-lip-balm-mineral-bearing.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/childrens-lip-balm-mineral-bearing.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
         "content_pin": {
-          "content_sha256": "b7f1a8631e875f9211b7eb80de5740da728cdc0f1ae48865672a26c32face1dc",
-          "content_bytes": 11669,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "8335cf1de6c32c4234d4f297f4a86e7851bca2e00588eec3839c93ba263b30ee",
+          "content_bytes": 11633,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
         }
       },
       {
@@ -83,12 +83,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
         "content_pin": {
-          "content_sha256": "90eebc4f32dc0ffece05fbe0287320f3df36ea301d8af00ebd9669ea2925a30a",
-          "content_bytes": 11782,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "161c247afaaa150ad2b6fc94a2adaabebf7857e164f0723dd3a8ed47fd1de138",
+          "content_bytes": 11746,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
         }
       },
       {
@@ -103,12 +103,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2021-lead-lip-cosmetics-china-ecommerce",
         "content_pin": {
-          "content_sha256": "85b669a8d895cc0a4313f77f7b80a5c44d9f456fe2c4a73d35eaceb3068bddba",
-          "content_bytes": 31002,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "42a40cdce0ce48683ce51342ef8312a433319db77178b7ef2cf1aca4e233c44c",
+          "content_bytes": 30966,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/li2021-lead-lip-cosmetics-china-ecommerce.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/li2021-lead-lip-cosmetics-china-ecommerce.md | sha256sum"
         }
       },
       {
@@ -132,12 +132,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "43f01d3fe79dc2ce74fbffe4d95457a73a8790db211d562e83a877e9b421f402",
-          "content_bytes": 39134,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "301817810e4ff53ea7490ba5ed0e93f49f6f542107ddef27f726e14af0cf3ae7",
+          "content_bytes": 39281,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

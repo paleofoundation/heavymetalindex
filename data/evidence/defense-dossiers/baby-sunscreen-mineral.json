@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-sunscreen-mineral",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3d01d0af1e601bd1da30ec641283dac023c35024948e4ff1f4d7253e52f8accc",
-      "content_bytes": 12878,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "09b03799bc665216339d061f6a65d79c132bba39a59b9a38ffaf12180685b6f7",
+      "content_bytes": 12842,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/baby-sunscreen-mineral.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/baby-sunscreen-mineral.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
         "content_pin": {
-          "content_sha256": "b7f1a8631e875f9211b7eb80de5740da728cdc0f1ae48865672a26c32face1dc",
-          "content_bytes": 11669,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "8335cf1de6c32c4234d4f297f4a86e7851bca2e00588eec3839c93ba263b30ee",
+          "content_bytes": 11633,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms",
         "content_pin": {
-          "content_sha256": "89f9e762eff4d16196f859774af06f7cafb3a29c26df0f378aed3e388b3cded7",
-          "content_bytes": 27908,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "44164deca422b170213a1cc8a16e1ca028d2954dc0a1c292fa595ad21146c92d",
+          "content_bytes": 27872,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms.md | sha256sum"
         }
       },
       {
@@ -95,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/druml2023-sunscreen-label-marketing-pediatric-populations",
         "content_pin": {
-          "content_sha256": "2d3e7377dd5cd38ad46d0e59812c3c3372c79ee7634d6884d7dfc8677ccbd041",
-          "content_bytes": 15087,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "fa6e25bf60bd82ed1a8d7120a33d907a3a4fc5771ae73c19a00c84bcc8a4956f",
+          "content_bytes": 15051,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/druml2023-sunscreen-label-marketing-pediatric-populations.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/druml2023-sunscreen-label-marketing-pediatric-populations.md | sha256sum"
         }
       },
       {
@@ -113,12 +113,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
         "content_pin": {
-          "content_sha256": "9a7adf9c50ef716314a2a20c0068f6c0e062080767ce56a55e7ebb70a70d153c",
-          "content_bytes": 8508,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "88af5d072f7ae0725f1c3693e3cd990ae4b66dfcce32672d8e376eff4ca1f216",
+          "content_bytes": 8472,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
         }
       },
       {
@@ -145,12 +145,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
         "content_pin": {
-          "content_sha256": "90eebc4f32dc0ffece05fbe0287320f3df36ea301d8af00ebd9669ea2925a30a",
-          "content_bytes": 11782,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "161c247afaaa150ad2b6fc94a2adaabebf7857e164f0723dd3a8ed47fd1de138",
+          "content_bytes": 11746,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
         }
       },
       {
@@ -171,12 +171,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
         "content_pin": {
-          "content_sha256": "f80f403425c49a5a236c0a945eda1f456ac2eef58234da3c1b0942c6d4903f14",
-          "content_bytes": 24314,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "8a56016ecb33ae1a73649c3e59cbe7e3e47d3a4868add6ad3c5f2042c915dc6b",
+          "content_bytes": 24278,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
         }
       }
     ]

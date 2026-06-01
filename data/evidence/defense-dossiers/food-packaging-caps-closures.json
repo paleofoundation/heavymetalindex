@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-caps-closures",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cd9f49e210d6ffd4cef7c7fd9f1032ed050acced4a5dbee1dcec25eef7cdb2bb",
-      "content_bytes": 7351,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "c3396cb3eb53f31a156b081ddffe0654663b4c87b27bccbeb995338e3bcd956f",
+      "content_bytes": 7315,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/food-packaging-caps-closures.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/food-packaging-caps-closures.md | sha256sum"
     }
   },
   "evidence_base": {

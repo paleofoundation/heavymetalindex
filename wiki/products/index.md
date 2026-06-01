@@ -237,8 +237,8 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 5. [[products/swings-and-bouncers|Swings and bouncers]] (0 sources)
 6. [[products/infant-carriers|Infant carriers (wraps, structured carriers)]] (0 sources)
 7. [[products/high-chairs-and-booster-seats|High chairs and booster seats]] (0 sources)
-8. [[products/car-seats|Car seats (if retained in HMTc scope)]] (0 sources)
-9. [[products/infant-clothing|Clothing (onesies, pajamas, outerwear)]] (5 sources)
+8. [[products/car-seats|Car seats (if retained in HMTc scope)]] (1 source)
+9. [[products/infant-clothing|Clothing (onesies, pajamas, outerwear)]] (7 sources)
 10. [[products/bibs|Bibs]] (1 source)
 11. [[products/blankets-and-sleep-sacks|Blankets and sleep sacks]] (0 sources)
 12. [[products/clasps-fasteners-infant-products|Clasps/fasteners (snaps, zippers, buttons) used in infant products]] (0 sources)
@@ -445,8 +445,8 @@ Exposure pathway: **Oral (mouthing) + dermal (handling) + incidental ingestion (
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/toys-painted|General toys with paint/surface coatings]] (12 sources)
-2. [[products/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] (10 sources)
+1. [[products/toys-painted|General toys with paint/surface coatings]] (16 sources)
+2. [[products/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] (14 sources)
 3. [[products/toys-stuffed-bean-bag|Stuffed toys and bean bag-type toys]] (4 sources)
 4. [[products/toys-stuffing-materials|Stuffing materials]] (0 sources)
 5. [[products/toys-rattles|Rattles]] (2 sources)
@@ -506,8 +506,8 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 9. [[products/food-storage-glass-containers|Glass food storage containers]] (1 source)
 10. [[products/food-storage-silicone|Silicone food storage]] (0 sources)
 11. [[products/food-storage-lids-gaskets|Lids/gaskets]] (0 sources)
-12. [[products/tableware-ceramicware|Ceramicware]] (2 sources)
-13. [[products/tableware-glassware|Glassware]] (2 sources)
+12. [[products/tableware-ceramicware|Ceramicware]] (3 sources)
+13. [[products/tableware-glassware|Glassware]] (3 sources)
 14. [[products/tableware-metal-bottles-tumblers|Metal bottles/tumblers]] (2 sources)
 15. [[products/tableware-plastic-drinkware|Plastic drinkware]] (1 source)
 16. [[products/tableware-decorative-decals-coatings|Decorative decals/coatings on tableware]] (2 sources)

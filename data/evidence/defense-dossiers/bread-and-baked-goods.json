@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bread-and-baked-goods",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7c97a1225b5b356e1612f3de3540ebce73a96e6c4c0cde3a8a63046147561f9f",
-      "content_bytes": 12066,
-      "last_commit_sha": "b81f32c",
+      "content_sha256": "649fc9d3030dcc6cd7466cd204eecd154ca1f0fc08a036037cb503d3b8912447",
+      "content_bytes": 12030,
+      "last_commit_sha": "c660ae7",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b81f32c:wiki/products/bread-and-baked-goods.md | sha256sum"
+      "verify_command": "git show c660ae7:wiki/products/bread-and-baked-goods.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/asaditouranlou2025-bread-iran-montecarlo",
         "content_pin": {
-          "content_sha256": "dc4ad05122abc18ab5106d6448f3b8aa70bb13a65398e2bee6b4fc943ade9080",
-          "content_bytes": 9420,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "b5caad85627f3b06176a0460f1f33b89513f2fa0d9a3a32756e2da55e31e911d",
+          "content_bytes": 9384,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/asaditouranlou2025-bread-iran-montecarlo.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/asaditouranlou2025-bread-iran-montecarlo.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/asaditouranlou2025-bread-wheat-mashhad",
         "content_pin": {
-          "content_sha256": "fa264ebb5612a49df6f5cb2af9e4334b36d13115b73eb1ffb9003b75a3ea25b3",
-          "content_bytes": 8837,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "b66ff58caeb65137147fd11da603cc1b4421c814cab07f59a412f59cb44ed2b1",
+          "content_bytes": 8801,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/asaditouranlou2025-bread-wheat-mashhad.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/asaditouranlou2025-bread-wheat-mashhad.md | sha256sum"
         }
       },
       {
@@ -101,12 +101,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "c53745270e591ee282b3927ed17169d53edc8bb49bd333e2c93c787588f252f3",
-          "content_bytes": 30148,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "cfe6228a3210fc32f8fa99e0a46f32f3e3b084ba3bc63ca9e927be00fafd6300",
+          "content_bytes": 30112,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -138,12 +138,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "97377f9646e5fd7d5ea78d26ad9b256f483fe1bf446eeab5c201d8640894d5f5",
-          "content_bytes": 10771,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "3310cd2d5efe47da930ed58b54cdcada549a6294933d6264f2a77679a5f19ac5",
+          "content_bytes": 10735,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -159,12 +159,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gacal2023-cadmium-lead-bread-gluten-free-poland",
         "content_pin": {
-          "content_sha256": "56139e667d377c171878e853be5e0187e980ebb28b190c45b49d332074e6ec0d",
-          "content_bytes": 7733,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "b426068b2aae6f9f4c52b8eb0d0e8d6c57e5b9562df4aa0ac3ca5b32070f6545",
+          "content_bytes": 7697,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/gacal2023-cadmium-lead-bread-gluten-free-poland.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/gacal2023-cadmium-lead-bread-gluten-free-poland.md | sha256sum"
         }
       },
       {
@@ -180,12 +180,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/haider2022-biscuits-basrah-iraq-safety",
         "content_pin": {
-          "content_sha256": "949017d52df22f5db9f345a9c200a315a53868c46729a2852550159120519057",
-          "content_bytes": 14102,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "8a239a709b335a9283286dbcb1d40a4ed41be380f379e4a66972af045e1b400c",
+          "content_bytes": 14066,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/haider2022-biscuits-basrah-iraq-safety.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/haider2022-biscuits-basrah-iraq-safety.md | sha256sum"
         }
       },
       {
@@ -202,12 +202,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france",
         "content_pin": {
-          "content_sha256": "943239de3cf5a04f9f20320c3c1b69154d928edaf9b12ab3dc15a0450e057eae",
-          "content_bytes": 13600,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "ac5faca86841e03d42d8ef31226615b9d2d2d7184be35a370695e86c9a8214a7",
+          "content_bytes": 13564,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.md | sha256sum"
         }
       },
       {
@@ -227,12 +227,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oduro2023-cereal-breakfast-ghana-health-risk",
         "content_pin": {
-          "content_sha256": "f543ef27fedc5ace43d7717d58e014c48a69d37ea672b1b8bdb392b9492e9171",
-          "content_bytes": 10258,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "de5baa715a35373cbb5afc2b79f9207fc6073a18ae5bbdd60a404dd010d777be",
+          "content_bytes": 10222,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/oduro2023-cereal-breakfast-ghana-health-risk.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/oduro2023-cereal-breakfast-ghana-health-risk.md | sha256sum"
         }
       },
       {
@@ -248,12 +248,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp",
         "content_pin": {
-          "content_sha256": "f15c6de44fd55bf33d392d102beda360f4534b6faf0243f27f2e8baa8d932208",
-          "content_bytes": 20068,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "af766874ad518b7f78ee2e498417ed2f62895ba2d6900a1cb9d4c514e51bd9c9",
+          "content_bytes": 20032,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp.md | sha256sum"
         }
       },
       {
@@ -271,12 +271,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sofyan2023-banana-steamed-cake-metals-indonesia",
         "content_pin": {
-          "content_sha256": "8d22d990e19825b64a2d779ea1d0d6e63cb8fa70d8817260b025aa229edb3bc7",
-          "content_bytes": 10091,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "4128fb62d400810dfb9b3b6ecc49227521684e1dbabddd9a1dc0973f027d6332",
+          "content_bytes": 10055,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/sofyan2023-banana-steamed-cake-metals-indonesia.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/sofyan2023-banana-steamed-cake-metals-indonesia.md | sha256sum"
         }
       },
       {
@@ -292,12 +292,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/song2024-crvi-hplc-icpms-food-reduction",
         "content_pin": {
-          "content_sha256": "0f9e63c21c292406aed9098e819f48e9d6cc1330e88cdcbb88ccd15213906ee3",
-          "content_bytes": 13788,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "708aaef3b64626d62dfcd7388a299c30d5194e53736bfe19900ff317f3b10a76",
+          "content_bytes": 13752,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
         }
       },
       {
@@ -312,12 +312,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/takanashi2018-aluminium-baking-powder-japan",
         "content_pin": {
-          "content_sha256": "2741c1280b3cc0cd9ff0211a32911de0c4a7569019b4632878ce9c253be79ad1",
-          "content_bytes": 12929,
-          "last_commit_sha": "b81f32c",
+          "content_sha256": "bf750927f53c2b66b35aca04890aa6482c3f474d0638efe9874f9bdadef7d49f",
+          "content_bytes": 12893,
+          "last_commit_sha": "c660ae7",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b81f32c:wiki/sources/takanashi2018-aluminium-baking-powder-japan.md | sha256sum"
+          "verify_command": "git show c660ae7:wiki/sources/takanashi2018-aluminium-baking-powder-japan.md | sha256sum"
         }
       }
     ]
