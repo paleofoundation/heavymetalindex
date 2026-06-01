@@ -589,3 +589,33 @@
 
 ### Succeeded
 - `llorent-martinez2014-olive-oil-extraction-metals-fate` (raw/Manual Fetch Kimi /June 1/10.1007@s11746-014-2511-5 (1).pdf)
+
+## Tick 2026-06-01T11:41:26.582Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 1/Cellulose-Based-Adsorbents-for-Heavy-Metal-Removal.pdf`: out-of-scope wastewater-remediation review (Nag & Biswas 2021, cellulose adsorbents)
+
+## Tick 2026-06-01T11:43:09.401Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 1/Chelated-heavy-metals-removal-by-in-situ-formed-Fe-II-and-Fe-III-iron-oxy-hydroxides-Mechanism.pdf`: MFK_chelated-heavy-metals-removal-by-in-situ-formed-fe out-of-scope wastewater-remediation Cu(II)-EDTA paper
+
+## Tick 2026-06-01T11:46:25.443Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 1/Demolition-waste-for-adsorption-of-metals-A-step-towards-the-circular-economy.pdf`: out-of-HMI-scope (industrial-wastewater-remediation cluster; 3rd predicted cluster member; Cu/Ni/Zn adsorbent study with no food matrix, no consumer-product matrix, no human exposure pathway).

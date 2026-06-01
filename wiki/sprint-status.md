@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T11:41:03.238Z
+updated: 2026-06-01T12:03:41.793Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 66 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1219 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1242 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 5 commit(s) ahead of origin/main |
-| Commits last 1 hour | 14 |
-| Commits last 24 hours | 278 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 15 |
+| Commits last 24 hours | 280 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 66 min**
 ## Last commit
 
 ```
-592d094 43 seconds ago — audit-queue: llorent-martinez2014-olive-oil-extraction-metals-fate -> audited-revised
+ab45809 10 minutes ago — fetch: fix the silent 0-downloads — OpenAlex daily-cap exhaustion + 429 storm
 ```
 
 ## How to read this
