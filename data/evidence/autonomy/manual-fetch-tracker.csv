@@ -1962,16 +1962,16 @@ raw/Manual Fetch Kimi /June 1/naseri2015.pdf,MFK_naseri2015,ingested,2026-06-01T
 raw/Manual Fetch Kimi /June 1/nejabat2017.pdf,MFK_nejabat2017,ingested,2026-06-01T16:37:53.076Z,nejabat2017-iran-golestan-wheat-metals,Ingested 2026-06-01T16:37:53.076Z
 raw/Manual Fetch Kimi /June 1/norouzirad2018.pdf,MFK_norouzirad2018,ingested,2026-06-01T16:47:56.643Z,norouzirad2018-iran-khuzestan-oilfield-milk-pb-cd,Ingested 2026-06-01T16:47:56.643Z
 raw/Manual Fetch Kimi /June 1/nourmoradi2013.pdf,MFK_nourmoradi2013,ingested,2026-06-01T17:01:30.224Z,nourmoradi2013-iran-isfahan-cosmetics-pb-cd,Ingested 2026-06-01T17:01:30.224Z
-raw/Manual Fetch Kimi /June 1/pera2010.pdf,MFK_pera2010,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/petrella2019.pdf,MFK_petrella2019,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/pirsaheb2015.pdf,MFK_pirsaheb2015,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/roya2016.pdf,MFK_roya2016,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/s13197-025-06246-7 (1).pdf,MFK_s13197-025-06246-7-1,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/s13197-025-06246-7 (2).pdf,MFK_s13197-025-06246-7-2,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/s13197-025-06246-7.pdf,MFK_s13197-025-06246-7,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/salehi2013.pdf,MFK_salehi2013,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/salehipour2015.pdf,MFK_salehipour2015,unprocessed,,,
-raw/Manual Fetch Kimi /June 1/sharafatichaleshtori2016.pdf,MFK_sharafatichaleshtori2016,unprocessed,,,
+raw/Manual Fetch Kimi /June 1/pera2010.pdf,MFK_pera2010,ingested,2026-06-01T17:11:49.925Z,la-pera2010-sicily-olive-oil-metals-selenium,Ingested 2026-06-01T17:11:49.925Z
+raw/Manual Fetch Kimi /June 1/petrella2019.pdf,MFK_petrella2019,stopped,2026-06-01T17:44:24.128Z,,Stop: MFK_petrella2019 — out of HMI scope (wastewater-remediation packed-bed-column biosorption; 5th cluster confirmation)
+raw/Manual Fetch Kimi /June 1/pirsaheb2015.pdf,MFK_pirsaheb2015,ingested,2026-06-01T17:48:31.455Z,pirsaheb2015-iran-kermanshah-cereals-metals,Ingested 2026-06-01T17:48:31.455Z
+raw/Manual Fetch Kimi /June 1/roya2016.pdf,MFK_roya2016,ingested,2026-06-01T17:59:04.430Z,roya2016-iran-torbat-heidarieh-rice-metals,Ingested 2026-06-01T17:59:04.430Z
+raw/Manual Fetch Kimi /June 1/s13197-025-06246-7 (1).pdf,MFK_s13197-025-06246-7-1,stopped,2026-06-01T18:12:46.154Z,,Skip-list: duplicate_doi:10.1007/s13197-025-06246-7 -> charfi2026-olive-oil-packaging-heavy-metals-phthalates
+raw/Manual Fetch Kimi /June 1/s13197-025-06246-7 (2).pdf,MFK_s13197-025-06246-7-2,stopped,2026-06-01T18:12:46.154Z,,Skip-list: duplicate_in_folder -> raw/Manual Fetch Kimi /June 1/s13197-025-06246-7 (1).pdf
+raw/Manual Fetch Kimi /June 1/s13197-025-06246-7.pdf,MFK_s13197-025-06246-7,stopped,2026-06-01T18:12:46.154Z,,Skip-list: duplicate_in_folder -> raw/Manual Fetch Kimi /June 1/s13197-025-06246-7 (1).pdf
+raw/Manual Fetch Kimi /June 1/salehi2013.pdf,MFK_salehi2013,ingested,2026-06-01T18:12:46.154Z,salehi2013-iran-isfahan-lenjanat-vegetables-cd-pb,Ingested 2026-06-01T18:12:46.154Z
+raw/Manual Fetch Kimi /June 1/salehipour2015.pdf,MFK_salehipour2015,ingested,2026-06-01T18:19:22.298Z,salehipour2015-iran-isfahan-cereals-vegetables-metals,Ingested 2026-06-01T18:19:22.298Z
+raw/Manual Fetch Kimi /June 1/sharafatichaleshtori2016.pdf,MFK_sharafatichaleshtori2016,ingested,2026-06-01T18:31:48.049Z,sharafatichaleshtori2016-iran-rice-heavy-metals-review,Ingested 2026-06-01T18:31:48.049Z
 raw/Manual Fetch Kimi /June 1/sharafi2019.pdf,MFK_sharafi2019,unprocessed,,,
 raw/Manual Fetch Kimi /June 1/shirani2017.pdf,MFK_shirani2017,unprocessed,,,
 raw/Manual Fetch Kimi /June 1/tajdar-oranj2018.pdf,MFK_tajdar-oranj2018,unprocessed,,,
@@ -2081,28 +2081,12 @@ raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-pb_2019
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-pb_2024_10-1007-s44187-024-00154-z.pdf,AUTO_ing-pineapple-pb-2024-10-1007-s44187-024-00154-z,claimed-by-codex,2026-06-01T16:02:11.965Z,,Codex snapshot claim codex-snapshot-1780329624.txt
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-pb_2025_10-34044-j-anres-2025-59-1-10.pdf,AUTO_ing-pineapple-pb-2025-10-34044-j-anres-2025-59-1-10,claimed-by-codex,2026-06-01T16:02:11.965Z,,Codex snapshot claim codex-snapshot-1780329624.txt
 raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-pineapple-sn_2025_10-2320-matertrans-mt-c2025002.pdf,AUTO_ing-pineapple-sn-2025-10-2320-matertrans-mt-c2025002,claimed-by-codex,2026-06-01T16:02:11.965Z,,Codex snapshot claim codex-snapshot-1780329624.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-cd_2024_10-1007-s42773-024-00313-6.pdf,AUTO_ing-rice-milk-cd-2024-10-1007-s42773-024-00313-6,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-pb_2017_10-5539-jas-v9n12p302.pdf,AUTO_ing-rice-milk-pb-2017-10-5539-jas-v9n12p302,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-pb_2022_10-20998-2413-4295-2022-02-13.pdf,AUTO_ing-rice-milk-pb-2022-10-20998-2413-4295-2022-02-13,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-tas_2019_10-1201-9781351046633-120.pdf,AUTO_ing-rice-milk-tas-2019-10-1201-9781351046633-120,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-tas_2024_10-1201-9781003317395-87.pdf,AUTO_ing-rice-milk-tas-2024-10-1201-9781003317395-87,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-cd_2017_10-1021-acs-analchem-7b00400.pdf,AUTO_ing-salt-cd-2017-10-1021-acs-analchem-7b00400,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-cd_2020_10-22079-jmsr-2020-120669-1336.pdf,AUTO_ing-salt-cd-2020-10-22079-jmsr-2020-120669-1336,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-cd_2022_10-1038-s41467-022-30554-7.pdf,AUTO_ing-salt-cd-2022-10-1038-s41467-022-30554-7,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-cd_2022_10-1038-s41598-022-13140-1.pdf,AUTO_ing-salt-cd-2022-10-1038-s41598-022-13140-1,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-cd_2023_10-31015-jaefs-2023-4-8.pdf,AUTO_ing-salt-cd-2023-10-31015-jaefs-2023-4-8,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ias_2016_10-3133-sir20165073.pdf,AUTO_ing-salt-ias-2016-10-3133-sir20165073,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ias_2018_10-14393-ufu-te-2018-811.pdf,AUTO_ing-salt-ias-2018-10-14393-ufu-te-2018-811,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ias_2022_10-2116-bunsekikagaku-71-77.pdf,AUTO_ing-salt-ias-2022-10-2116-bunsekikagaku-71-77,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ias_2023_10-15864-ajabtr-412.pdf,AUTO_ing-salt-ias-2023-10-15864-ajabtr-412,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ias_2024_10-3389-fenvs-2024-1507095.pdf,AUTO_ing-salt-ias-2024-10-3389-fenvs-2024-1507095,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ias_2024_10-47470-0869-7922-2024-32-6-357-363.pdf,AUTO_ing-salt-ias-2024-10-47470-0869-7922-2024-32-6-357-363,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-mehg_2023_10-2172-2318972.pdf,AUTO_ing-salt-mehg-2023-10-2172-2318972,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-mehg_2023_10-3133-sir20225113.pdf,AUTO_ing-salt-mehg-2023-10-3133-sir20225113,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-mehg_2026_10-3389-fenvs-2026-1796600.pdf,AUTO_ing-salt-mehg-2026-10-3389-fenvs-2026-1796600,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ni_2016_10-22079-jmsr-2016-15873.pdf,AUTO_ing-salt-ni-2016-10-22079-jmsr-2016-15873,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ni_2016_10-30509-pccc-2016-75883.pdf,AUTO_ing-salt-ni-2016-10-30509-pccc-2016-75883,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-pb_2017_10-1038-ncomms15654.pdf,AUTO_ing-salt-pb-2017-10-1038-ncomms15654,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-pb_2017_10-1172-jci88532.pdf,AUTO_ing-salt-pb-2017-10-1172-jci88532,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-pb_2017_10-3389-fpls-2017-01739.pdf,AUTO_ing-salt-pb-2017-10-3389-fpls-2017-01739,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-pb_2021_10-1038-s41467-020-20272-3.pdf,AUTO_ing-salt-pb-2021-10-1038-s41467-020-20272-3,claimed-by-codex,2026-06-01T17:18:19.918Z,,Codex snapshot claim codex-snapshot-1780334183.txt
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-formula-cd_2019_10-1186-s40538-019-0170-3.pdf,AUTO_ing-formula-cd-2019-10-1186-s40538-019-0170-3,ingested-by-codex,2026-06-01T18:52:00Z,souri2019-leafy-vegetables-growth-stage-metals,Committed in c575f74
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-human-milk-pb_2019_10-29252-nfsr-6-2-29.pdf,AUTO_ing-human-milk-pb-2019-10-29252-nfsr-6-2-29,stopped,2026-06-01T18:52:00Z,,skip:incomplete-metadata; DOI not present in PDF text or PDF metadata
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-pb_2017_10-5539-jas-v9n12p302.pdf,AUTO_ing-rice-milk-pb-2017-10-5539-jas-v9n12p302,stopped,2026-06-01T18:52:00Z,,skip:no-heavy-metal-data
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-rice-milk-tas_2019_10-1201-9781351046633-120.pdf,AUTO_ing-rice-milk-tas-2019-10-1201-9781351046633-120,stopped,2026-06-01T18:52:00Z,,skip:no-primary-data
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-cd_2017_10-1021-acs-analchem-7b00400.pdf,AUTO_ing-salt-cd-2017-10-1021-acs-analchem-7b00400,stopped,2026-06-01T18:52:00Z,,skip:not-food-occurrence
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ias_2024_10-3389-fenvs-2024-1507095.pdf,AUTO_ing-salt-ias-2024-10-3389-fenvs-2024-1507095,stopped,2026-06-01T18:52:00Z,,skip:review-only-no-primary-data
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ni_2016_10-22079-jmsr-2016-15873.pdf,AUTO_ing-salt-ni-2016-10-22079-jmsr-2016-15873,stopped,2026-06-01T18:52:00Z,,skip:not-food-occurrence
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-ni_2016_10-30509-pccc-2016-75883.pdf,AUTO_ing-salt-ni-2016-10-30509-pccc-2016-75883,stopped,2026-06-01T18:52:00Z,,skip:not-food-occurrence
+raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-salt-pb_2021_10-1038-s41467-020-20272-3.pdf,AUTO_ing-salt-pb-2021-10-1038-s41467-020-20272-3,stopped,2026-06-01T18:52:00Z,,skip:not-food-occurrence
