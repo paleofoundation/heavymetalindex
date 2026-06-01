@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T05:24:31.454Z
+updated: 2026-06-01T05:46:55.453Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 69 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 842 min ago (stale) |
+| Daemon heartbeat | ⚠️ 865 min ago (stale) |
 | auto-fetched/ PDFs in queue | 8 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 214 |
+| Commits last 1 hour | 13 |
+| Commits last 24 hours | 220 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-6a3e8f2 9 minutes ago — audit-queue: cpsc2009-cpsia-101-procedures-npr -> audited-promote
+86c8f55 20 seconds ago — audit-queue: villarreal2021-ic-icpms-cr-vi-toys -> audited-promote
 ```
 
 ## How to read this
