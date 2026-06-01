@@ -42,7 +42,7 @@ Heavy metal concentrations by ICP-OES (Table 2, p. 252; Table 3, p. 252):
 - OMWW, modern extraction: Cd <0.1 ppm; Pb <LOD (ND); As <LOD (ND); Hg <LOD (ND)
 - OMWW, traditional extraction: Cd <0.1 ppm; Pb <LOD (ND); As <LOD (ND); Hg <LOD (ND)
 
-Detection threshold: methods text (p. 251) states LOD <0.01 ppm for all four metals analyzed; Table 3 lists the cadmium detection limit as 0.1 ppm. The paper does not reconcile this internal inconsistency. Per Table 2's wording, "<0.1 ppm" should be read as the operational reporting limit for cadmium in this study.
+Detection threshold: methods text (p. 251) states LOD <0.01 ppm for all four metals analyzed. Table 2 (oil + OMWW heavy-metal table) reports Cd as "<0.1 ppm" in all four sample rows. Table 3 (OMWW-only table) lists 0.1 ppm in its dedicated detection-limit column for Cd, with the Pb/As/Hg detection-limit cells left blank. The paper does not reconcile the methods-text claim (<0.01 ppm LOD) with the tables' "<0.1 ppm" reporting convention. The page reports "<0.1 ppm" as the paper's reporting notation for Cd in both matrices; whether 0.1 ppm is the analytical LOD or only the reporting precision is unclear from the source.
 
 Qualitative OMWW comparison (Table 3, p. 252): traditional-mill OMWW showed "slightly higher" turbidity and visual coloration than modern-mill OMWW; the paper interprets this as a proxy for higher organic load and possible greater metal retention in traditional effluent, but does not quantify it.
 
@@ -62,6 +62,18 @@ Fatty acid composition by GC-FID (Table 1, p. 251) — modern vs traditional, %:
 - Linolenic acid (C18:3): 0.43 vs 0.24
 
 Sampling design: triplicates per facility per matrix; n=3 oil samples and n=3 OMWW samples per facility; one traditional + one modern facility. Statistical analysis by one-way ANOVA in SPSS v26 at p<0.05.
+
+Physicochemical parameters (Discussion p. 253; the values Figure 2 actually plots despite its heavy-metal caption) — modern vs traditional:
+
+- Saponification value: 201 vs 197.7
+- pH: 6.03 vs 5.92
+- Density: 0.918 vs 0.913 g/cm³
+- Peroxide value: 9.83 vs 9.71 meq O₂/kg
+- UV absorbance at 232 nm: 2.3 vs 2.28
+- UV absorbance at 270 nm: 0.21 vs 0.19
+- Iodine value: 80.3 vs 80.0
+
+These are not on a numbered table in the paper; they appear only in the Discussion text and in Figure 2 (which is mis-captioned as a heavy-metal figure but plots these seven physicochemical parameters as a grouped bar chart).
 
 ## Methods
 
@@ -103,6 +115,7 @@ Speciation caution: All four analytes are reported as totals (ICP-OES inherently
 - Paper-internal inconsistency 2 (oleic acid in Results text): Page 251 Results paragraph quotes "oleic acid (C18:1) at 57.76%" as the modern-extraction value, but Table 1 on the same page lists modern=59.01% and traditional=57.03%. The Abstract (p. 248) and Discussion (p. 253) both cite 59.01% and 57.03%. The 57.76% figure in the Results paragraph appears to be a typo for the modern value. The wiki page uses the Table 1 / Abstract / Discussion values (59.01 / 57.03) and flags the Results-text figure as inconsistent.
 - Paper-internal inconsistency 3 (palmitic acid in Results text): Page 251 Results paragraph quotes palmitic acid at 19.07%; Table 1 modern row lists 20.32% and traditional row 16.15%. The wiki page uses the Table 1 values.
 - Paper-internal inconsistency 4 (linoleic acid in Results text): Page 251 Results paragraph quotes linoleic acid at 16.41%; Table 1 modern row lists 16.72% and traditional row 19.45%. The wiki page uses the Table 1 values.
+- Paper-internal inconsistency 4b (additional Results-text vs Table-1 fatty-acid mismatches, surfaced by 2026-06-01 audit subagent): Page 251 Results paragraph also quotes palmitoleic acid (C16:1) at 2.46%, stearic acid (C18:0) at 2.77%, and linolenic acid (C18:3) at 0.83% as the modern-extraction values. Table 1 modern column lists 2.00%, 2.50%, and 0.43% for these same three acids. The page Key numbers section uses the Table 1 values throughout; the Results-text figures appear to be alternate-reading or earlier-draft values that the authors did not reconcile with the final table.
 - Paper-internal inconsistency 5 (Figure 2 caption): Figure 2 (p. 252) is captioned "Heavy Metal Concentrations in Olive Oil Samples Extracted by Modern and Traditional Methods (ppm)" but the bar chart it shows displays physicochemical parameters (Saponification Value, pH, Density, Peroxide Value, UV 232 nm, UV 270 nm, Iodine Value), not heavy metal concentrations. The heavy metal data are in Table 2 only. Caption/figure mismatch noted; the page uses Table 2 for heavy metals as Tables are the authoritative report.
 - Paper-internal inconsistency 6 (arachidic acid in traditional oil): Table 1 reports C20:0 = 0.00% for traditional but Results text (p. 251) lists arachidic acid among "minor components ... detected" in trace amounts (<0.5%). The page reproduces the table value as written.
 - Mercury at trace levels via ICP-OES: ICP-OES sensitivity for Hg is generally inferior to cold-vapor AAS or AFS. The paper claims LOD <0.01 ppm for Hg without showing Hg-specific method validation. The Verification note flags this but the page preserves the source's claim.
@@ -110,3 +123,4 @@ Speciation caution: All four analytes are reported as totals (ICP-OES inherently
 - Sample size n=12 (3 oil + 3 OMWW per facility × 2 facilities). The Key numbers section notes the small n and single-facility design as material limitations.
 - Slug check against taxonomy snapshot (2026-05-18): `olive-oil` exists in both ingredients and products; `olives` exists in ingredients; `lead`, `cadmium`, `arsenic-total`, `mercury-total` exist in metals. `olive-mill-wastewater` is used as a matrix descriptor only (matrices is bare strings, not wikilinks).
 - Evidence tier C rationale: regional journal (NAJSP, founded 2023, modest indexing); very small sample (n=3 replicates × 2 facilities × 2 matrices); single-facility-per-category design; multiple text/table/figure-caption inconsistencies within the paper (see notes above); all heavy metals at or below stated detection thresholds (null findings only). Contribution to the corpus is confirmatory regional context rather than primary literature.
+- 2026-06-01 audit application (Claude Opus, this session, applying findings from a fresh-context general-purpose audit subagent): subagent verdict REVISE, with three ⚠️ concerns and no ❌ definite errors. Findings applied: (a) added the Discussion's seven physicochemical parameters (saponification, pH, density, peroxide, UV232, UV270, iodine — values Figure 2 actually plots despite its heavy-metal caption) to the Key numbers section, closing the figure-caption reporting gap; (b) tightened the Cd LOD framing in Key numbers to acknowledge that Table 3's 0.1 ppm column is the OMWW table's detection-limit column, and that whether 0.1 ppm is the analytical LOD or only the reporting precision is unclear from the source; (c) added three additional Results-text vs Table-1 fatty-acid inconsistencies (palmitoleic 2.46% vs 2.00%, stearic 2.77% vs 2.50%, linolenic 0.83% vs 0.43%) to the existing inconsistency-4 verification note. Findings rejected (false positives): none. The Check-5 soft observation on "Achak et al. 2009; Tarchouna et al. 2010" being paper-own references rather than wiki-side synthesis was already correctly handled in the source page (those citations sit in the App paragraph as the paper's own context, not as wiki-side synthesis), so no change was needed.
