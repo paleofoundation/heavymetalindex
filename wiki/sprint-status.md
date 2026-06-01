@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T04:13:57.600Z
+updated: 2026-06-01T05:01:23.443Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 772 min ago (stale) |
+| Daemon heartbeat | ⚠️ 819 min ago (stale) |
 | auto-fetched/ PDFs in queue | 8 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 1 ✅ |
+| Audit queue: pending | 2 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
-| Wishlist: total downloaded historically | 10 |
+| Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 16 |
-| Commits last 24 hours | 203 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 10 |
+| Commits last 24 hours | 208 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-915f28e 8 minutes ago — audit-queue: houlihan2019-hbbf-whats-in-baby-food -> audited-revised (REVISE)
+04cbe23 4 minutes ago — ingest: cpsc2009-cpsia-101b-inaccessibility-rule [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA
 ```
 
 ## How to read this

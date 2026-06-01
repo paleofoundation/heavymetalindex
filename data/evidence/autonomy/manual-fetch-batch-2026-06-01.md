@@ -189,3 +189,23 @@
 
 ### Succeeded
 - `houlihan2019-hbbf-whats-in-baby-food` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/16_What's_in_My_Baby's_Food__2019.pdf)
+
+## Tick 2026-06-01T04:07:14.262Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `hsn2019-prop65-compliance-requirements` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/17_01_Prop65Guide_Updates_12-4-2019_2019.pdf)
+
+## Tick 2026-06-01T04:32:39.029Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cpsc2012-cpsia-101b-functional-purpose-exception` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/18_Products_Covered_2011.pdf)
