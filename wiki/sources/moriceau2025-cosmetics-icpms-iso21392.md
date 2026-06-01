@@ -15,8 +15,8 @@ access_url: "https://www.thermofisher.com/icp-ms"
 raw_path: "raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_03_Powder_Lotion_Oil_Diaper/03_Powder_Lotion_Oil_Diaper/Thermo_Fisher_Heavy_Metals_Cosmetics.pdf"
 metals: [Pb, Cd, tAs, tHg, Cr, Ni, Sb, Al, Sn, Co, Mn, Fe, Zn, Be, Se, Tl, Ti, W, Pt]
 ingredients: []
-products: ["[[products/toothpaste]]", "[[products/lipstick]]"]
-matrices: []
+products: ["[[products/toothpaste]]", "[[products/lipstick]]", "[[products/fragrance-preparations]]"]
+matrices: [cosmetic-finished-product, cosmetic-personal-care]
 jurisdictions: [EU, FR]
 near_duplicates: []
 sample_n: 27
@@ -24,7 +24,7 @@ sample_population: "17 finished cosmetic products sold on the French and Europea
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-18
+updated: 2026-06-01
 ---
 
 # Moriceau and Naëls 2025 — ICP-MS heavy-metals measurement in cosmetic raw materials and finished products per ISO/DIS 21392:2021
@@ -93,6 +93,7 @@ Limitations: (1) Sample selection is convenience, not representative — 25 samp
 - [[metals/tin]]
 - [[products/toothpaste]]
 - [[products/lipstick]]
+- [[products/fragrance-preparations]]
 
 ## Verification notes
 
@@ -112,6 +113,7 @@ Limitations: (1) Sample selection is convenience, not representative — 25 samp
 - Audit subagent (2026-05-18) flagged [[products/makeup-foundation-powders-blush]] as an "invented slug" not in the taxonomy snapshot — VERIFIED FALSE POSITIVE: the slug exists as a real wiki product page at `wiki/products/makeup-foundation-powders-blush.md`; the `docs/gpt-collaboration/taxonomy-snapshot.md` file is stale (generated 2026-05-17 from commit e442cbe and does not include the page). No change to wiki page; this is a taxonomy-snapshot-refresh hygiene issue, not a slug error.
 - Audit subagent (2026-05-18) flagged 50 mL (Methods narrative) vs 200 mL (Table 3) as a ⚠️ source-internal contradiction — VERIFIED FALSE POSITIVE: the two figures are arithmetically consistent (50 mL initial transfer × 4 further dilution = 200 mL final volume per Table 3). Key numbers and Methods sections reworded to make the relationship explicit ("digestate transferred to 50 mL with ultrapure water then 4× further dilution to 200 mL final volume").
 - Audit subagent (2026-05-18) flagged W and Pt missing from frontmatter metals despite being measured/reported — applied: added W and Pt to the metals array.
+- 2026-06-01 merge-enhance pass: the same PDF was duplicated into the `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/` folder (SHA256 identical to the existing raw_path). No content change to the underlying source; treated as the same artifact, raw_handle and raw_path preserved per skill rules. The merge resolves the pre-existing routing-discipline advisory by populating `matrices: [cosmetic-finished-product, cosmetic-personal-care]` (food-ingredient slugs intentionally empty — cosmetics are out of the food-ingredient taxonomy per CLAUDE.md Part 6) and adding `[[products/fragrance-preparations]]` to `products:` to route the seven perfume/cologne/eau-de-toilette/eau-de-parfum/perfume-mist samples in Table 2 to the existing fragrance-preparations product page as direct evidence (was previously omitted because the slug was not flagged in 2026-05-18; `wiki/products/fragrance-preparations.md` exists and is the correct routing destination).
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
