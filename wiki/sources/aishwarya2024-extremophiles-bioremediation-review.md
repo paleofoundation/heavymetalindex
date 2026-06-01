@@ -13,7 +13,7 @@ evidence_tier: C
 license: "Springer Nature copyright (book chapter behind publisher paywall; chapter metadata open access)"
 raw_path: "raw/Manual Fetch Kimi /June 1/Role-of-Extremophiles-in-the-Removal-of-Heavy-Metal-and-E-Waste.pdf"
 raw_sha256: 47389bb49debe47b2ec66b768044ae77090c67e77953e641a74a6fc5948ddd1e
-metals: [Pb, Cd, Cr, Cr-VI, Ni, Cu, Hg, MeHg, As, Zn]
+metals: [Pb, Cd, Cr, Cr-VI, Ni, Cu, tHg, tAs, Zn]
 ingredients: []
 products: []
 matrices: [contaminated-soil, mine-drainage, e-waste, bacterial-cell]
@@ -94,6 +94,7 @@ Narrative book-chapter review of secondary literature on extremophiles and heavy
 C-tier review with no primary data. The text contains several internal weaknesses that limit its citeability:
 
 - Several genus-level claims are tagged with primary-reference citations the chapter does not always represent accurately on close reading — for example, the chapter says *Klebsiella* sp. USL2S "Orji et al. 2021" biosorbs Hg at 85 %, Pb at 97.13 %, Cd at 73.33 %, and Ni at 86.06 % (Table 1), but does not state the experimental conditions (pH, contact time, initial concentration) under which those efficiencies were measured, which materially affects comparability. Cross-check against the primary reference before any quantitative use.
+- Table 1 row for the second *Klebsiella* entry prints the species as "*Klebsiellap enumoniae*" (broken word-spacing in the PDF rendering); the plausible normalization is *Klebsiella pneumoniae*, but the chapter's typesetting is ambiguous enough that the actual species name should be verified against Khan et al. 2015 before any downstream citation.
 - The chapter does not distinguish between % removal efficiency (Table 1's apparent metric for biosorption) and adsorption capacity in mg/g, which is the standard biosorption-engineering figure. Without the underlying concentration and biomass dose, the efficiency figures cannot be ranked across substrates.
 - The biosorption-vs-bioaccumulation contrast in Table 3 ("modest temperature range" for biosorption vs "inhibited at low temperatures" for bioaccumulation) is presented without temperature thresholds, which is the operationally useful detail.
 - English-language editing is uneven (e.g., "may include these elements in a similar range of quantities," "the system including bacterial mercury resistance and its organic derivatives has been investigated at the genetic and biochemical levels," paragraph-level subject-verb agreement drift). Genus names occasionally appear with inconsistent italicization.
@@ -122,3 +123,8 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 - [[metals/mercury-methyl]]
 - [[metals/arsenic]]
 - [[metals/zinc]]
+
+## Verification notes
+
+- Frontmatter `metals:` uses `tAs` (not `As`) and `tHg` (not separate `Hg` + `MeHg`) per Part 14 speciation discipline: the chapter discusses arsenite As(III) and arsenate As(V) without measuring iAs specifically, and references methylmercury only mechanistically as a MerB organomercurial-lyase substrate without speciated MeHg measurement. The `[[metals/mercury-methyl]]` wikilink at the bottom is retained because the chapter does discuss methylmercury mechanism (p. 363), even though no MeHg measurement is reported. Correction applied during the 2026-06-01 audit-subagent pass.
+- Frontmatter `matrices:` uses `[contaminated-soil, mine-drainage, e-waste, bacterial-cell]`. `bacterial-cell` is precedented (see [[sources/chandrangsu2017-metal-homeostasis-resistance-bacteria]]). `contaminated-soil`, `mine-drainage`, and `e-waste` are descriptive environmental-matrix slugs new to this source page; they are plausible analogues to existing slugs (`industrial-soil`, `agro-industrial-waste`, `leachate`) but should be confirmed against the matrices controlled vocabulary on the next Karen review.
