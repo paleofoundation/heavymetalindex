@@ -339,3 +339,13 @@
 
 ### Succeeded
 - `stapleton2010-flame-retardants-baby-product-foam` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats/07_Unknown.pdf)
+
+## Tick 2026-06-01T07:40:44.419Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `allwood2024-cpsc-childrens-product-lead-recalls` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats/08_Unknown.pdf)
