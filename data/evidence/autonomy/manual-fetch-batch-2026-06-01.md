@@ -209,3 +209,33 @@
 
 ### Succeeded
 - `cpsc2012-cpsia-101b-functional-purpose-exception` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/18_Products_Covered_2011.pdf)
+
+## Tick 2026-06-01T04:47:09.619Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cpsc2009-cpsia-101b-inaccessibility-rule` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/22_blk_pdf_leadinaccessguide_2009.pdf)
+
+## Tick 2026-06-01T05:04:55.058Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cpsc2009-cpsia-101-procedures-npr` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/23_blk_pdf_leadprocedures_2009.pdf)
+
+## Tick 2026-06-01T05:16:54.652Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures/06_Unknown.pdf`: out-of-scope (CPSIA §104 physical-safety crib NPR; no usable heavy-metals analyte content beyond one anecdotal incident-report paragraph mentioning lead paint)

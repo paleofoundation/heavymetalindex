@@ -81,6 +81,38 @@ Parallel to the MFK_01 PAH-only stop and the MFK_03 phthalates-only stop in the 
 
 Either decision is fine; the current behavior (per-PDF stop notes accumulating) is the safe default until Karen picks one.
 
+## STOP: MFK_06-unknown — out of HMI scope (CPSIA §104 physical-safety crib NPR, not chemical)
+
+**PDF:** `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures/06_Unknown.pdf`
+
+**Suggested handle:** MFK_06-unknown
+
+**Citation:** U.S. Consumer Product Safety Commission. Briefing package and draft Notice of Proposed Rulemaking — Proposed Standards for Full-Size and Non-Full-Size Cribs under Section 104 of the Consumer Product Safety Improvement Act. CPSC Office of the General Counsel (Falvey, Chao, Pollitzer) and Directorate for Engineering Sciences (Howell, Edwards). Cleared for public release 30 June 2010 under CPSA 6(b)(1). Decision meeting scheduled 14 July 2010.
+
+**Reason for stop:** Document is the CPSC staff briefing package + draft NPR for **physical/mechanical** crib safety under **CPSIA Section 104** (durable infant and toddler products). This is a different rulemaking from CPSIA Section 101 (lead content in children's products), which is what the recent on-topic CPSIA ingests covered (`cpsc2009-cpsia-101-procedures-npr`, `cpsc2009-cpsia-101b-inaccessibility-rule`). The proposed rule would adopt ASTM F 1169-10 (full-size cribs) and ASTM F 406-10 (non-full-size cribs) with modifications, and revoke 16 CFR parts 1508 and 1509.
+
+Substantive content (verified by reading pages 1–11 of 11+ ; the appendix tabs extend the document further but follow the same physical-safety framing):
+- Slat disengagement, drop-side hardware failures, mattress support integrity, wood-screw loosening, mis-assembly of key components, sharp points / scissoring openings, slat strength, cyclic side (shake) tests (Health Canada SOR/86-962 adaptation), mattress support vertical impact test, slat/spindle torque, dimensional requirements for full-size vs non-full-size cribs.
+- Incident-data narrative: 3,584 EWS crib incidents Nov 2007 – Apr 2010; 153 fatalities (111 sleep-environment, 36 structural/entrapment, 6 unknown circumstances); 1,703 non-fatal injuries; hazard-pattern categories of falls, drop-side problems, limb-between-slats entrapment, wood-related breakage, mattress-support failure, mattress-fit, paint/finish, and miscellaneous structural issues.
+- ANPR stakeholder comments (JPMA, Pacific Rim Woodworking, AAP, Kids In Danger / Consumers Union / CFA / Keeping Babies Safe / USPIRG, ASTM F15.18 chair), April 2009 CPSC Crib Roundtable presentations, and 2002–2008 CPSC↔ASTM correspondence — all on the physical-safety topics above.
+
+**Only heavy-metals-adjacent content in the entire document** (page 11): "Another three percent of the reports were complaints of paint-related issues. The vast majority reported concerns for a possible choking hazard or lead exposure resulting from children chewing on paint chips that came off easily from the crib surface. Five cases reported a positive lead test result: two were associated with cribs that were recalled for the presence of lead paint, two did not specify the lead level that was detected by consumers who were using home test kits, and one reported an increased lead level in the child but there was no indication that it was related to the crib." That is the full extent of heavy-metals signal — no quantitative measurement, no analytical method, no contamination distribution, no exposure calculation. Five anecdotal consumer reports out of 3,584 (~0.14 %) referenced lead, three of which are unverified home-test-kit reports. There is nothing in the document that would support a `Key numbers` block or an evidence-register row for any HMI analyte.
+
+This is a different failure mode from the MFK_01/03/05/07 organics-only stops above. Those papers do quantitative chemical work, just on the wrong analytes. This paper does no chemical work at all — it is a regulatory-process document about mechanical safety standards. Ingesting it as an HMI source would require either (a) fabricating chemical content not present in the source, or (b) creating a regulatory-context page whose body would be ~99 % off-topic and would dilute the corpus without supporting any wiki claim.
+
+**Identity checks (clean — no existing wiki page):**
+- Folder-substring grep (`Cribs_Bassinets_Enclosures`, `06_Unknown`): no matches
+- Suggested-handle grep (`MFK_06-unknown`): no matches
+- ASTM-standard grep (`F 1169-10`, `F1169-10`, `ASTM F 406-10`): no matches
+- CPSIA-§104 grep (`cpsia.*section.104`, `section 104.*cpsia`): no matches
+- The two related on-topic CPSIA ingests (`cpsc2009-cpsia-101-procedures-npr`, `cpsc2009-cpsia-101b-inaccessibility-rule`) are §101 documents about lead content; this June 2010 §104 NPR is a separate rulemaking thread and is not redundant with them.
+
+**Action taken:** No ingest. No commits. No audit queue append. Wrapper proceeds to next PDF.
+
+**Folder note:** First evaluated PDF in `_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures`. Remaining PDFs in the folder are `00_Products Covered.pdf`, `03_Unknown.pdf`, `07__Toxic Chemicals in Toys and Packaging - Toys.pdf`, `08_Unknown.pdf`. The `07_` filename strongly suggests it is on-topic (toxic chemicals in toys, parallel to CPSIA §101 lead content); the three `Unknown` PDFs need individual evaluation. The folder is plausibly mixed-scope: some CPSC §101 (lead) documents would be on-topic; CPSC §104 (physical safety) documents like this one are not.
+
+**Recommendation for Karen:** Treat CPSIA §104 documents as out of scope for HMI by default. §104 governs mechanical safety of durable infant products; HMI cares about §101 (lead) and §108 (phthalates is also organic, so still out unless analyte vocabulary expands). If `03_Unknown.pdf` and `08_Unknown.pdf` are also §104 NPRs / briefing packages for other durable-infant categories (toddler beds, high chairs, bath seats, gates, play yards, etc.), they will hit the same stop. A quick way to filter the folder is to skip any CPSC document whose subject line says "Section 104" without also touching paint, lead content, or another HMI analyte — `00_Products Covered.pdf` is probably a §104 scope-list document and likewise out of scope.
+
 ## STOP: MFK_07-fillable-articles-made-from-melamine-formaldehy — out of HMI analyte scope (melamine + formaldehyde only)
 
 **PDF:** `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/07_fillable-articles-made-from-melamine-formaldehyde-resin_2022.pdf`

@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T05:01:23.443Z
+updated: 2026-06-01T05:24:31.454Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 819 min ago (stale) |
+| Daemon heartbeat | ⚠️ 842 min ago (stale) |
 | auto-fetched/ PDFs in queue | 8 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 2 ✅ |
+| Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 10 |
-| Commits last 24 hours | 208 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 11 |
+| Commits last 24 hours | 214 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-04cbe23 4 minutes ago — ingest: cpsc2009-cpsia-101b-inaccessibility-rule [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA
+6a3e8f2 9 minutes ago — audit-queue: cpsc2009-cpsia-101-procedures-npr -> audited-promote
 ```
 
 ## How to read this
