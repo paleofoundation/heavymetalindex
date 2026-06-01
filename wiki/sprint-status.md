@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T13:57:18.365Z
+updated: 2026-06-01T14:21:22.436Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 70 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 70 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1355 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1379 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 2 ✅ |
+| Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 3 commit(s) ahead of origin/main |
-| Commits last 1 hour | 14 |
-| Commits last 24 hours | 300 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 16 |
+| Commits last 24 hours | 307 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 70 min**
 ## Last commit
 
 ```
-cd2665c 3 minutes ago — ingest: uddin2023-wastewater-treatment-landfill-leachate-review [fresh] from Manual Fetch Kimi /June 1
+295dc50 2 minutes ago — audit-queue: alimohammadi2018-tehran-supermarket-vegetables -> audited-revised
 ```
 
 ## How to read this

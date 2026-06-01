@@ -659,3 +659,73 @@
 
 ### Succeeded
 - `saf2023-omw-fractions-uf-nf-agroecological` (raw/Manual Fetch Kimi /June 1/Investigation-of-the-agroecological-applications-of-olive-mill-wastewater-fractions-from.pdf)
+
+## Tick 2026-06-01T12:48:01.361Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `lin2024-edible-oils-taiwan-12-metals` (raw/Manual Fetch Kimi /June 1/JSFA Reports - 2024 - Lin - Determination  distribution  and health risk assessment of 12 heavy metals in various edible.pdf)
+
+## Tick 2026-06-01T13:05:57.701Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `sallam2025-olive-oil-libya-traditional-modern` (raw/Manual Fetch Kimi /June 1/NAJSP32025-54T2.pdf)
+
+## Tick 2026-06-01T13:30:25.686Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `moussa2022-clays-phosphogypsum-tunisia` (raw/Manual Fetch Kimi /June 1/Natural-Clays-as-Adsorbents-for-the-Removal-of-Heavy-Metals-from-Phosphogypsum.pdf)
+
+## Tick 2026-06-01T13:41:14.167Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `aishwarya2024-extremophiles-bioremediation-review` (raw/Manual Fetch Kimi /June 1/Role-of-Extremophiles-in-the-Removal-of-Heavy-Metal-and-E-Waste.pdf)
+
+## Tick 2026-06-01T13:49:56.433Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `uddin2023-wastewater-treatment-landfill-leachate-review` (raw/Manual Fetch Kimi /June 1/The-Role-of-Wastewater-Treatment-Technologies-in-Municipal-Landfill-Leachate-Treatment.pdf)
+
+## Tick 2026-06-01T13:59:04.663Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `acar2012-vegetable-oils-olives-turkey-etaas` (raw/Manual Fetch Kimi /June 1/acar2012 (1).pdf)
+
+## Tick 2026-06-01T14:10:43.097Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `alimohammadi2018-tehran-supermarket-vegetables` (raw/Manual Fetch Kimi /June 1/alimohammadi2018.pdf)
