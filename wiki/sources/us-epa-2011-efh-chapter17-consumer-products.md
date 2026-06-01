@@ -38,7 +38,7 @@ Chapter 17 of the U.S. EPA's 2011 Exposure Factors Handbook (EFH) compiles consu
 
 | Product | Amount per application (g) | Avg frequency (per day) CTFA / Cosmetic Co. / Market Research Bureau | Upper 90th percentile frequency (per day) CTFA / Cosmetic Co. / Market Research Bureau |
 | --- | --- | --- | --- |
-| Baby lotion — baby use | 1.4 | 0.38 / 1.0 / — | 0.57 / 2.0 / — |
+| Baby lotion — baby use | 1.4 | 0.38 / 1.0 / — | 0.57 / 2.0 / 1.0ᵈ |
 | Baby lotion — adult use | 1.0 | 0.22 / 0.19 / 0.24 | 0.86 / 1.0 / 1.0 |
 | Baby oil — baby use | 1.3 | 0.14 / 1.2 / — | 0.14 / 3.0 / — |
 | Baby oil — adult use | 5.0 | 0.06 / 0.13 / — | 0.29 / 0.57 / — |
@@ -186,12 +186,20 @@ Population: 84 male (52 %) / 79 female (48 %); age strata 2-8 mo (26 %), 9-16 mo
 
 **Household cleaning products — Weegels and van Veen 2001, n=30 Delft households (Table 17-37 of EFH):**
 
-| Product | Mean frequency (per day) | SD | Mean duration of contact (min) | Mean amount per contact (g) |
-| --- | --- | --- | --- | --- |
-| Dishwashing liquid | 0.63 | 0.79 | 11 | 5 |
-| All-purpose cleaner | 0.35 | 0.70 | 20 | 27 |
-| Toilet cleaner | 0.28 | 0.55 | 74 | — |
-| Hair spray | 0.76 | 0.68 | release 11 sec; nebula contact 23 sec | — |
+| Product | Mean frequency of use per day (SD) | Mean duration of contact in minutes (SD) | Mean amount used per contact in grams (SD) |
+| --- | --- | --- | --- |
+| Dishwashing liquid | 0.63 (0.79) | 11 (5) | 5 (3) |
+| All-purpose cleaner | 0.35 (0.70) | 20 (22) | 27 (30) |
+| Toilet cleaner | 0.28 (0.55) | 74 (204; durations >30 min excluded) | — |
+
+**Hair spray — Weegels and van Veen 2001 (Table 17-37 of EFH; hair spray uses different metrics):**
+
+| Statistic | Mean | SD | Min | Max | Subjects | Events |
+| --- | --- | --- | --- | --- | --- | --- |
+| Frequency of use per day | 0.76 | 0.68 | 0 | 3 | 9 | 143 |
+| Duration of release (seconds) | 11 | 6 | 5 | 25 | 12 | — |
+| Duration of contact with nebula (seconds) | 23 | 11 | 5 | 41 | 12 | — |
+| Duration of contact with nebula × gram released (seconds × grams) | 48 | 48 | 5 | 150 | 10 | — |
 
 ## Methods (brief)
 
@@ -207,7 +215,7 @@ Population: 84 male (52 %) / 79 female (48 %); age strata 2-8 mo (26 %), 9-16 mo
 - Bass et al. 2001 — Arizona household survey of pesticide use, n=107 households (predominantly Hispanic) with children <10 yr, March 1999; response rate ~74 %.
 - Weegels and van Veen 2001 — Dutch household study, n=30 households in Delft using dishwashing detergent / all-purpose cleaner / hair-styling products with in-home observation, diaries, video, and direct product-mass measurement over 3 weeks.
 - Loretz et al. 2005 — nationwide diary survey, n=360 women ages 19-65 in 10 U.S. cities (Atlanta, Boston, Chicago, Denver, Houston, Minneapolis, St. Louis, San Bernardino, Tampa Bay, Seattle), 2-week diary with returned-and-weighed product mass for lipstick, body lotion, face cream.
-- Loretz et al. 2006 — same diary methodology, n=360 women, 2000-2001, for hairspray, spray perfume, liquid foundation, shampoo, body wash, solid antiperspirant; completion rates 83-91 % depending on product.
+- Loretz et al. 2006 — same diary methodology, n=360 women, 2000-2001, for hairspray, spray perfume, liquid foundation, shampoo, body wash, solid antiperspirant; completion rates 91-94 % depending on product (91 % hairspray; 91 % spray perfume; 94 % liquid foundation; 94 % shampoo, body wash, solid antiperspirant).
 - Hall et al. 2007 — European cosmetic-manufacturer probabilistic model from market-information databases and a controlled product-use study of 44,100 households / 18,057 individuals across 15 EU countries (sample representative of 249 million inhabitants); covers body lotion, deodorant/antiperspirant, lipstick, facial moisturizer, shampoo, toothpaste.
 - Loretz et al. 2008 — same diary methodology, n=295-299 women ages 18-69 in four U.S. Census regions, 2-week diary for facial cleanser, hair conditioner, eye shadow.
 - Sathyanarayana et al. 2008 — Future Families cohort study of n=163 infants born 2000-2005 in Los Angeles / Minneapolis / Columbia (MO); questionnaire data on baby lotion, baby powder, baby shampoo, diaper cream, baby wipes use; study purpose was phthalate exposure, but the EFH cites it for baby-product use prevalence.
@@ -226,7 +234,7 @@ No analytical chemistry is performed in this chapter. No metals concentrations a
 
 **Speciation caution:** None applicable — this chapter reports no chemical-concentration data.
 
-**Limitations for downstream pooling:** The chapter pools surveys spanning 1983-2008. CTFA 1983 baby-product frequency values (e.g., baby powder 5.36/day mean) reflect 1980s baby-care practice; baby-powder use has declined substantially since then (the chapter explicitly notes EPA 1987 household-product list compilation may overstate current practice). For HMI EDI calculations, the Loretz 2005-2008 and Sathyanarayana 2008 datasets are the most recent and the most useful; CTFA 1983 should be downweighted for current-practice estimates.
+**Limitations for downstream pooling:** The chapter pools surveys spanning 1983-2008. CTFA 1983 baby-product frequency values (e.g., baby powder 5.36/day mean) reflect 1980s baby-care practice. The chapter at §17.1.2 explicitly notes that the EPA 1987 household-product list (Table 17-1) "may have declined (e.g., aerosol products may have declined)" — the example EPA gives is aerosol products, not baby powder; HMI's own downweighting judgment on CTFA 1983 baby-product frequencies is based on the >20-year gap rather than a direct EPA statement about that specific product class. For HMI EDI calculations, the Loretz 2005-2008 and Sathyanarayana 2008 datasets are the most recent and the most useful; CTFA 1983 should be downweighted for current-practice estimates on independent grounds (data age) rather than on the basis of an EPA statement that does not specifically address baby products.
 
 ## Wiki pages this source may touch
 
@@ -277,3 +285,4 @@ No analytical chemistry is performed in this chapter. No metals concentrations a
 - Tables included in the Key numbers section: 17-3 (CTFA cosmetic and baby product amount/frequency), 17-4 selected entries (Westat 1987a household solvents — relevant to home-environment exposure context only, not direct HMI scope), 17-37 (Weegels and van Veen 2001 Dutch household), 17-38 (Loretz 2005 cosmetic frequency), 17-39 (Loretz 2005 lipstick/body lotion/face cream amount), 17-40 (Loretz 2006 personal care frequency), 17-41 (Loretz 2006 personal care amount per application), 17-42 (Loretz 2006 personal care amount per use day), 17-43-50 (Hall 2007 EU model — body lotion / deodorant spray under arms only / deodorant spray torso+arms / deodorant non-spray / lipstick / facial moisturizer / shampoo / toothpaste; selected mean/median/95th/99th percentile in g/day and mg/kg-day; full p01-p99.9 percentile distributions are in the underlying PDF Tables 17-43-50), 17-51-53 (Loretz 2008 facial cleanser / hair conditioner / eye shadow), 17-54 (Sathyanarayana 2008 baby-care product use prevalence). Tables 17-1 (consumer-product household-inventory list from EPA 1987), 17-2 (Simmons Study product category list), 17-5-17-7 (Westat 1987a exposure time / amount / time exposed after use for solvent products), 17-8-17-12 (Westat 1987c cleaning-product exposure time and frequency), 17-13-17-15 (Westat 1987b interior-painting frequency / time / amount), 17-16-17-21 (Abt 1992 methylene-chloride product use: adhesive removers / spray paint / paint removers/strippers), 17-22-17-35 (EPA 1996 NHAPS minutes-near-product data for microwave ovens / freshly applied paints / cleaning agents / floor wax / glue / solvents / stain removers / gasoline / pesticides / fragrances / aerosol products / humidifiers / professional vs consumer pesticide application), 17-36 (Bass 2001 pesticide use demographics) are not transcribed in Key numbers as they are out of HMI's primary scope (home solvents, paints, pesticides, household cleaning), but are accessible in the raw PDF for any future exposure-pathway extension into those domains.
 - Jurisdictions: [US, EU] — the chapter is U.S. EPA-published but the Hall et al. 2007 underlying study is European; the chapter explicitly cites both U.S. and EU underlying data.
 - The matrices field uses `[cosmetic-personal-care, cosmetics, childrens-cosmetic]` from the existing wiki/sources matrices vocabulary. This is an exposure-factors reference at the product-class level, not a per-matrix contamination measurement.
+- 2026-06-01 audit application (Claude Opus, this session, applying findings from a fresh-context general-purpose audit subagent): subagent verdict REVISE. Two ❌ findings on Check 1 (numerical fidelity), one ❌ finding on Check 3 (methods fidelity), and one ⚠️ formatting issue on Check 1. All four verified by independent re-read of PDF pages 13 (Table 17-3), 17-7 (§17.3.10 Loretz 2006), 17-1 (§17.1.2), and 17-35 (Table 17-37). Findings applied: (a) Table 17-3 "Baby lotion — baby use" Upper 90th Market Research Bureau column corrected from "—" to "1.0ᵈ" (footnote d = "Usage data reflects entire household use for both baby lotion and baby oil"; PDF p17-13 reads "1.0ᵈ" not "—"); (b) Loretz 2006 completion-rate range corrected from "83-91 %" to "91-94 %" with the four-product breakdown (91 % hairspray, 91 % spray perfume, 94 % liquid foundation, 94 % shampoo/body wash/solid antiperspirant); the prior "83-91 %" appears to have been confused with Loretz 2005's completion rates (86.4/83.3/85.6 %); (c) Limitations-for-downstream-pooling paragraph corrected: PDF §17.1.2 specifically names "aerosol products" as the example of declining use after the 1987 EPA list compilation, not baby powder. The wiki now attributes the baby-powder downweighting to data age (>20 years) rather than misquoting EPA as having directly addressed baby-powder use specifically; (d) Table 17-37 hair-spray row split out of the household-cleaning-products table into its own sub-table, because the PDF Table 17-37 hair spray section has three distinct duration measurements (release seconds, nebula contact seconds, nebula × gram released seconds × grams) plus frequency, and a "Mean duration of contact (min)" column-label was unit-inconsistent for any of them. The new sub-table preserves all four PDF rows for hair spray with explicit units, and the household-cleaning sub-table now uses "(SD)" inline notation to also include SD values for amount and duration (5(3), 27(30), 11(5), 20(22), 74(204)) that the previous version had omitted. Findings rejected (false positives): none — all four findings verified against the PDF and applied as-is.
