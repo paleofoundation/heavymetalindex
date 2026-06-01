@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `6461a39` (2026-05-31). The body hashes to `sha256:afd25944cf9bf17f916ee3dc08bb30d6…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8cae8bf` (2026-06-01). The body hashes to `sha256:f58071db8d6f1b73d2c44aa1df45e882…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=floor-finishes-strippers&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/floor-finishes-strippers&download=1`.
 

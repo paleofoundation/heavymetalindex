@@ -2,7 +2,7 @@
 source_page: wiki/products/pet-food-freeze-dried.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3f5a74fc469eac84ff6a1dd309a92e01e681bb32bfdd354a5c3ae41a95a8058e
+source_page_sha256: 734b0b55675f58556621a0f35bc7d0555a68c072d5f714a6474f6b417146cffa
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 502
+audit_log_total_rows: 509
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 502 |
+| audit log rows read | 509 |
 
 ## Page-level audit rows
 

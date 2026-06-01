@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/beef-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fd1340a439352d141fdf0e6ba413d84537cf8f11b2c55438ab09186ba9e6b38b",
-      "content_bytes": 11303,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "content_sha256": "a91678c200601035908734975c1980228ae8668994c3a0a0c9b0212b2f1861b8",
+      "content_bytes": 11290,
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/beef-product.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/beef-product.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/altalib2025-frozen-meat-libya",
         "content_pin": {
-          "content_sha256": "950e3a7134eb57d635fecf03330931630684e894a0d1a0ceb4e54937c7d323a8",
+          "content_sha256": "e11cbb2333d0d7f73359b7e1f4afb33512df2567b03300b1f2343ac27481966f",
           "content_bytes": 7126,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/altalib2025-frozen-meat-libya.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dibella2020-augusta-meat-milk-seafood-metals",
         "content_pin": {
-          "content_sha256": "fede063243f2f20a5add844bd1695fa1a539d06716e8dcb41259e037880e935d",
-          "content_bytes": 4542,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "4c6589930036d185d62752b6eb861add2e3413b51170a1d00ee3f5003922a083",
+          "content_bytes": 4534,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ertas2021-poultry-calf-meat-arsenic",
         "content_pin": {
-          "content_sha256": "c9d8a84b5dc5dcba4664865be2bbb5e410f4b5c55618a8a4f02fac2fe35c0cb1",
+          "content_sha256": "7eba59da5ff0f90cb35172d144830c67d9c829b59ee3cfd5d1e499bca549a058",
           "content_bytes": 2715,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/ertas2021-poultry-calf-meat-arsenic.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/ertas2021-poultry-calf-meat-arsenic.md | sha256sum"
         }
       },
       {
@@ -114,12 +114,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "92ea91590df8226a02bbdce62d2621af92a7478f178a86804656e14fe936997d",
+          "content_sha256": "2ab704698465bff80ec49f26ed841506b0f8a299842992983427d361f0f8e09c",
           "content_bytes": 10043,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
         }
       },
       {
@@ -137,12 +137,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maikanov2021-meats-shuchinsk-burabay-metals",
         "content_pin": {
-          "content_sha256": "1abd3d11cd777378bfb1870e3587907e7afe4ba5ed19ec94e52d60aca7fd8d62",
+          "content_sha256": "216bf802d49d18b48cb5deca24ff442065e8b9f45deff52affcd6797db7f0648",
           "content_bytes": 2685,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
         }
       },
       {
@@ -161,12 +161,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/meligy2024-camel-meat-toxic-elements",
         "content_pin": {
-          "content_sha256": "1712c217ffc1451dca2c0818afdbb07119ffff461f15c8de38d1ef8b8d86e3f2",
+          "content_sha256": "c5d4a60995539bcf43fc0915397ee57ffb774fa987763388eb91bb10d4e9d012",
           "content_bytes": 3719,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/meligy2024-camel-meat-toxic-elements.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/meligy2024-camel-meat-toxic-elements.md | sha256sum"
         }
       },
       {
@@ -183,12 +183,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rabeey2025-bovine-hg-pb-cd-egypt",
         "content_pin": {
-          "content_sha256": "45a4b80bd1e3cfc3b5f0e1a8dfc7e70aa750cf68718305960da3b7b9b310baf8",
+          "content_sha256": "0fd870777a6c541835e400620eeb527089b866d19be9a4911ca96f229785fd82",
           "content_bytes": 7095,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/rabeey2025-bovine-hg-pb-cd-egypt.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/rabeey2025-bovine-hg-pb-cd-egypt.md | sha256sum"
         }
       },
       {
@@ -205,12 +205,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france",
         "content_pin": {
-          "content_sha256": "8254eb74d49e3916ba4fe77fec437c654fa4f39ee0bda5cb1e54bb35716b65f4",
+          "content_sha256": "0c8e028d938ee78ff0a02d8bfa5ece147184993f2b31d8c73d724f3d3696b215",
           "content_bytes": 11609,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france.md | sha256sum"
         }
       },
       {
@@ -226,12 +226,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt",
         "content_pin": {
-          "content_sha256": "be48e200ef8068d2d1d0d75f6bb8ce3a0ca97179f006a157876d8a67a60875a3",
+          "content_sha256": "8766e316ea49382061652aa06fe079749a2595dca07540f6fcdc1587128af44a",
           "content_bytes": 11488,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt.md | sha256sum"
         }
       },
       {
@@ -249,12 +249,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhao2024-toxic-metals-metalloids-food-review",
         "content_pin": {
-          "content_sha256": "9c280e7eae31237c6663b55edf16cae82aeb55224b5b3788964410c864bfe31c",
+          "content_sha256": "16ffb4815b8fe8e8e65e7a7aa8598c5234aef529fd612d1b4c57b546936fb58a",
           "content_bytes": 7467,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/zhao2024-toxic-metals-metalloids-food-review.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/zhao2024-toxic-metals-metalloids-food-review.md | sha256sum"
         }
       }
     ]

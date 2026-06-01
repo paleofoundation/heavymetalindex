@@ -2,7 +2,7 @@
 source_page: wiki/products/rice-snacks-crackers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 0beba609bde0e9a8009ba5b2bf94e06da254d7265d821487da9c540682ac207a
+source_page_sha256: 686d0e6f1eb93e21831e0f5166065b3766191a2436f501ed5853e307f6476210
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 502
+audit_log_total_rows: 509
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 502 |
+| audit log rows read | 509 |
 
 ## Page-level audit rows
 

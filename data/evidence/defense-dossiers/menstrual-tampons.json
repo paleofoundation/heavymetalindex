@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-tampons",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d6676162d3a798df05f2786eea4fe256ee594e5c00e23ea37cd7c0271e124c4d",
+      "content_sha256": "2cdc97362c741a210386b4091b021050f4415bc87152f85008b2c37e3ed9acd6",
       "content_bytes": 7558,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/menstrual-tampons.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/menstrual-tampons.md | sha256sum"
     }
   },
   "evidence_base": {

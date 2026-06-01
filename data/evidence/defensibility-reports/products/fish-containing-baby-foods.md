@@ -2,7 +2,7 @@
 source_page: wiki/products/fish-containing-baby-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 252cef0e5ec71553f3392ced2c85c391f2732e9ed4e89a17a48edcde0149d812
+source_page_sha256: 2f30490337101f0048734e867b508cc6adf6cc27dce4117af377e9232dff5def
 total_claims: 53
 cited_claims: 53
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 23
 distinct_cited_sources: 17
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 502
+audit_log_total_rows: 509
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 17 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 502 |
+| audit log rows read | 509 |
 
 ## Page-level audit rows
 

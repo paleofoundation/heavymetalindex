@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: soft-drinks-carbonated-beverages
 public_page: products/soft-drinks-carbonated-beverages
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Soft drinks/carbonated beverages

@@ -15,13 +15,13 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `6461a39` (2026-05-31). The body hashes to `sha256:e7755a50e8746f38e904edb3922fc768…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8cae8bf` (2026-06-01). The body hashes to `sha256:e1cf4b0d5431942e973a65f4eb978480…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=bottled-drinking-water&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/bottled-drinking-water&download=1`.
 
 ## Evidence base
 
-This category is supported by 9 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
+This category is supported by 10 contributing literature sources mapped by the routing layer, of which 0 carry structured concentration values. The page makes 0 numerical claims; 0 of them trace to an in-section cited source, so every numerical claim on the page is source-traceable.
 
 The claim-by-claim provenance report is generated at `data/evidence/defensibility-reports/products/bottled-drinking-water.md`.
 

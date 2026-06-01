@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 2
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -107,6 +107,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/althobiti2021-wheat-miswak-bioaccessible-lead\|Althobiti et al. 2021]]. *An Isotopic Study of Bio-accessible Lead in Wheat, Miswak Toothbrush and Miswak Fruit Using the Continuous On-line Leaching Method with Inductively Coupled Plasma Mass Spectrometry*, Atomic Spectroscopy | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +117,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

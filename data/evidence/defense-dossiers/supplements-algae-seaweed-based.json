@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-algae-seaweed-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3fba57356361764fb3af76ffe8d401933d2241a6846d80bbdd5948fc12ba7cf9",
+      "content_sha256": "83fa498d6df8a465f290a00a64c8c7bdca21332e76b6975dc6f2181520159c25",
       "content_bytes": 8836,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/supplements-algae-seaweed-based.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/supplements-algae-seaweed-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aziz2021-gracilaria-seaweed-bangladesh",
         "content_pin": {
-          "content_sha256": "5cef1622732a850cb632608dc2891f46b07e61c24565b3ca59dd84554062f3c6",
-          "content_bytes": 3055,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "ba4f70c2b89bd5760f71a8c1ac2ab0d61303e11714803c2425b04e8c86fcbd40",
+          "content_bytes": 3202,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/aziz2021-gracilaria-seaweed-bangladesh.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/aziz2021-gracilaria-seaweed-bangladesh.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shaughnessy2023-sugar-kelp-new-england-metals",
         "content_pin": {
-          "content_sha256": "d2f62167d195c335180b4544812f5cf0c64ce800fcb854eebc24c1d4ea192ce7",
-          "content_bytes": 3841,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "b3e2f790a0f7959ec6f52bf46575d2b00a629192933a2496626c72ad2f961b37",
+          "content_bytes": 3988,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
         }
       },
       {
@@ -91,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sund2026-saccharina-pte-processing",
         "content_pin": {
-          "content_sha256": "208b0af36eec1d61e46fa8bee07b131bb409ed0d98bebba5bf5eb95dcddb2d75",
-          "content_bytes": 3717,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "02365bf1776d638038175e79914f785519920a1650005d9bde90a950e1c8fae4",
+          "content_bytes": 3864,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
         }
       }
     ]

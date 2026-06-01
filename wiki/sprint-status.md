@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T00:06:32.435Z
+updated: 2026-06-01T00:36:19.160Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 52 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 524 min ago (stale) |
+| Daemon heartbeat | ⚠️ 554 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 2 ✅ |
-| Audit queue: pending-audit-spawn-failed | 83 (async lane) |
-| Wishlist: total downloaded historically | 69 |
-| Wishlist: total ingested historically | 1 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 16 |
-| Commits last 24 hours | 145 |
+| Audit queue: pending | 1 ✅ |
+| Audit queue: pending-audit-spawn-failed | 85 (async lane) |
+| Wishlist: total downloaded historically | 58 |
+| Wishlist: total ingested historically | 2 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 13 |
+| Commits last 24 hours | 150 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-fde2464 50 seconds ago — audit: digangi1997-greenpeace-vinyl-children-products [revised]
+bcbc5b3 12 seconds ago — record auto-fetched tracker 2026-06-01 00:55 batch 1
 ```
 
 ## How to read this

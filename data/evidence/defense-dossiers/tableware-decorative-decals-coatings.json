@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-decorative-decals-coatings",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f7caafa480243ae726bcc2fa8b7db8da30fcf82af6a0922f8cde3d2155ba15a4",
+      "content_sha256": "90bc2cb14f99ed6f4409b917e4fd91838e0c9d4f43055ac2b7ebb8c50740de49",
       "content_bytes": 8233,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/tableware-decorative-decals-coatings.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/tableware-decorative-decals-coatings.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "54b8c8f51ef9168f6dd21d6552707a9403be62e778d500bf12f2a83fe268a9bc",
-          "content_bytes": 18690,
-          "last_commit_sha": "1be9575",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "4d061050e7e13cbfa7df256c1adb03607abf5614c8b1d4ac3f00e91c8eb4c872",
+          "content_bytes": 18837,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1be9575:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       }
     ]

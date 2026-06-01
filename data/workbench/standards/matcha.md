@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: matcha
 public_page: products/matcha
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Matcha

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: root-tuber-vegetables
 public_page: products/root-tuber-vegetables
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Root and Tuber Vegetables

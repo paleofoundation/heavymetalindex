@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: herbal-botanical-infusions
 public_page: products/herbal-botanical-infusions
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Herbal/botanical infusions

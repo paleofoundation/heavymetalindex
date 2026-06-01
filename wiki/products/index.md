@@ -68,17 +68,17 @@ Cat 2 dose pathway differs from Cat 1: dermal absorption, accidental aspiration 
 3. [[products/baby-powder-cornstarch|Baby powder, cornstarch base]] (0 sources)
 4. [[products/baby-talcum-powder|Baby talcum powder]] (4 sources)
 5. [[products/baby-shampoo-body-wash|Baby shampoo and body wash]] (6 sources)
-6. [[products/baby-wipes|Baby wipes]] (3 sources)
+6. [[products/baby-wipes|Baby wipes]] (4 sources)
 7. [[products/diaper-cream-non-zno|Diaper cream, non-ZnO]] (3 sources)
 8. [[products/diaper-cream-zno|Diaper cream, ZnO-based]] (3 sources)
 9. [[products/baby-sunscreen-chemical|Baby sunscreen, chemical UV filters]] (5 sources)
 10. [[products/baby-sunscreen-mineral|Baby sunscreen, mineral UV filters]] (6 sources)
 11. [[products/toothpaste|Children's toothpaste]] (11 sources)
-12. [[products/face-paint|Children's face paint]] (6 sources)
-13. [[products/childrens-makeup|Children's makeup]] (9 sources)
-14. [[products/childrens-nail-polish|Children's nail polish]] (3 sources)
+12. [[products/face-paint|Children's face paint]] (7 sources)
+13. [[products/childrens-makeup|Children's makeup]] (10 sources)
+14. [[products/childrens-nail-polish|Children's nail polish]] (4 sources)
 15. [[products/childrens-lip-balm-plain|Children's lip balm, plain]] (3 sources)
-16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (4 sources)
+16. [[products/childrens-lip-balm-mineral-bearing|Children's lip balm, mineral-bearing]] (5 sources)
 
 ## HMTc Category 3: Grains, Cereals, and Rice Products
 
@@ -161,7 +161,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 2. [[products/fish-marine-non-predatory|Fish — marine, non-predatory (sardines, anchovies, salmon, cod)]] (3 sources)
 3. [[products/fish-marine-predatory|Fish — marine, predatory (tuna, swordfish, shark, king mackerel)]] (5 sources)
 4. [[products/shellfish|Shellfish (shrimp, crab, lobster, clams, oysters, mussels)]] (19 sources)
-5. [[products/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] (3 sources)
+5. [[products/seaweed-kelp-foods|Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)]] (4 sources)
 6. [[products/canned-fish|Canned seafood/fish (with tin flag)]] (25 sources)
 
 Bridge / coarse-grained nodes (broad author-scope pages that span several rows above; listed so their accumulated evidence stays visible while the fine-grained rows fill in):
@@ -204,7 +204,7 @@ Exposure pathway: **Ingestion (oral, high-volume daily consumption)**.  Regulato
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] (9 sources)
+1. [[products/bottled-drinking-water|Bottled drinking water (purified, spring, artesian)]] (10 sources)
 2. [[products/mineral-water|Mineral water]] (2 sources)
 3. [[products/sparkling-carbonated-water|Sparkling/carbonated water (unflavored)]] (0 sources)
 4. [[products/infant-nursery-water|Infant water / nursery water (if not routed to Category 1 by age-marketing)]] (0 sources)
@@ -216,9 +216,9 @@ Exposure pathway: **Oral (mouthing) + dermal (contact with mucous membranes, sal
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
 1. [[products/infant-bottles|Bottles (plastic, glass, stainless steel)]] (3 sources)
-2. [[products/infant-bottle-nipples|Bottle nipples and spouts]] (1 source)
-3. [[products/sippy-cups-toddler-drinkware|Sippy cups and toddler drinkware components]] (3 sources)
-4. [[products/pacifiers-and-sucking-teething-aids|Pacifiers and sucking/teething aids]] (4 sources)
+2. [[products/infant-bottle-nipples|Bottle nipples and spouts]] (2 sources)
+3. [[products/sippy-cups-toddler-drinkware|Sippy cups and toddler drinkware components]] (4 sources)
+4. [[products/pacifiers-and-sucking-teething-aids|Pacifiers and sucking/teething aids]] (6 sources)
 5. [[products/teething-toys-teethers|Teething toys/teethers]] (0 sources)
 6. [[products/infant-food-storage-items|Infant food-storage items (milk storage bags/containers)]] (0 sources)
 7. [[products/diapers-and-components|Diapers and diaper components]] (4 sources)
@@ -238,8 +238,8 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 6. [[products/infant-carriers|Infant carriers (wraps, structured carriers)]] (0 sources)
 7. [[products/high-chairs-and-booster-seats|High chairs and booster seats]] (0 sources)
 8. [[products/car-seats|Car seats (if retained in HMTc scope)]] (0 sources)
-9. [[products/infant-clothing|Clothing (onesies, pajamas, outerwear)]] (2 sources)
-10. [[products/bibs|Bibs]] (0 sources)
+9. [[products/infant-clothing|Clothing (onesies, pajamas, outerwear)]] (4 sources)
+10. [[products/bibs|Bibs]] (1 source)
 11. [[products/blankets-and-sleep-sacks|Blankets and sleep sacks]] (0 sources)
 12. [[products/clasps-fasteners-infant-products|Clasps/fasteners (snaps, zippers, buttons) used in infant products]] (0 sources)
 
@@ -431,7 +431,7 @@ These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source inges
 1. [[products/dentifrices|Dentifrices (toothpaste, gel, powder, tablets)]] (0 sources)
 2. [[products/mouthwash-oral-rinse|Mouthwash/oral rinse]] (1 source)
 3. [[products/breath-fresheners|Breath fresheners (sprays/strips/lozenges)]] (0 sources)
-4. [[products/toothbrushes|Toothbrushes (manual, electric heads)]] (1 source)
+4. [[products/toothbrushes|Toothbrushes (manual, electric heads)]] (2 sources)
 5. [[products/floss-interdental-cleaners|Floss and interdental cleaners (floss, picks, interdental brushes, woodsticks)]] (0 sources)
 6. [[products/oral-irrigators-water-flossers|Oral irrigators/water flossers and tips (if included)]] (0 sources)
 7. [[products/whitening-products|Whitening products (strips/gels/powders/pens)]] (2 sources)
@@ -445,19 +445,19 @@ Exposure pathway: **Oral (mouthing) + dermal (handling) + incidental ingestion (
 
 These pages are scaffolded against HMTc Taxonomy v2.0 (2026-03-30). Source ingest into each row is in progress; rows are routing destinations for source-page declarations of the row slug. Pages with `(0 sources)` have not yet accumulated contributing source evidence.
 
-1. [[products/toys-painted|General toys with paint/surface coatings]] (8 sources)
-2. [[products/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] (6 sources)
-3. [[products/toys-stuffed-bean-bag|Stuffed toys and bean bag-type toys]] (2 sources)
+1. [[products/toys-painted|General toys with paint/surface coatings]] (9 sources)
+2. [[products/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] (8 sources)
+3. [[products/toys-stuffed-bean-bag|Stuffed toys and bean bag-type toys]] (3 sources)
 4. [[products/toys-stuffing-materials|Stuffing materials]] (0 sources)
-5. [[products/toys-rattles|Rattles]] (1 source)
-6. [[products/toys-squeeze|Squeeze toys]] (1 source)
+5. [[products/toys-rattles|Rattles]] (2 sources)
+6. [[products/toys-squeeze|Squeeze toys]] (2 sources)
 7. [[products/toy-pacifiers|Toy pacifiers (toy-designated)]] (0 sources)
 8. [[products/toys-battery-electronic|Battery-operated/electronic toys]] (0 sources)
 9. [[products/toys-sound-producing|Sound-producing toys]] (0 sources)
 10. [[products/toys-with-magnets|Toys with magnets]] (0 sources)
 11. [[products/toys-projectile-guns|Projectile toys and toy guns]] (0 sources)
 12. [[products/toys-balloons|Balloons]] (1 source)
-13. [[products/toys-balls|Balls]] (1 source)
+13. [[products/toys-balls|Balls]] (2 sources)
 14. [[products/toys-marbles|Marbles]] (0 sources)
 15. [[products/toys-yo-yo-elastic-tether|Yo-yo elastic tether toys]] (1 source)
 16. [[products/toys-pompoms-fibrous-craft|Pompoms and similar small fibrous craft items]] (0 sources)

@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 9
+sources: 10
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
@@ -117,12 +117,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/brima2026-drinking-water-elements\|Brima et al. 2026]]. *Analysis of essential and toxic elements in tap and bottled water from the UK and its comparison with literature data for drinking water from African countries: implications for human health*, African Journal of Agriculture and Food Science | 2026 | Peer-reviewed | GB Cd, Pb, tAs, tHg occurrence in 45 bottled drinking water and 48 tap drinking water samples from Leicester, UK (n=93) |
 | 2 | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review\|Olowoyo et al. 2026]]. *Heavy Metals Burden in Drinking Water: Global Patterns, Sources, and Public Health Implications*, Water 18(8): 886 | 2026 | Review | global Pb, Cd, tAs, tHg, Ni, Cr, Al occurrence in Systematic review of peer-reviewed studies published 2015–2024 on heavy metals in four water source types globally |
 | 3 | [[sources/ranjbar2025-mineral-water-metals\|Ranjbar et al. 2025]]. *Machine learning models for water safety enhancement*, Scientific Reports | 2025 | Peer-reviewed | IR Pb, Cr occurrence in mineral water consumable at Arak City, Iran (n=not reported in abstract) |
-| 4 | [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|Decharat et al. 2023]]. *Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand* | 2023 | Peer-reviewed | TH Pb, Cd occurrence in Drinking water samples (bottled, tap, filtered, raw) from child development centres, Phatthalung province, southern Thailand (n=210) |
-| 5 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
-| 6 | [[sources/kithure2021-bottled-water-nairobi\|Kithure et al. 2021]]. *How Safe is the Water Consumed in Different Parts of Nairobi, Kenya?*, International Journal of Research and Innovation in Applied Science (IJRIAS) | 2021 | Peer-reviewed | KE Pb, Cd, Sb, Cu, Cr, Mn, Zn occurrence in Seven commercial PET-bottled drinking water brands purchased from supermarkets in Nairobi County, Kenya; sampling carried out 2019–2020; brands... (n=7) |
-| 7 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | TH Pb, Cd occurrence in drinking water used by 44 primary schools in Nakhon Si Thammarat Province, Thailand (n=146) |
-| 8 | [[sources/jabar2019-heavy-elements-water-diyala-iraq\|Abdul et al. 2019]]. *Determination of Heavy Elements (Pb, Cd, Cu and Cr) Concentration in Some Water Sources*, Chemistry & Chemical Technology | 2019 | Peer-reviewed | IQ Pb, Cd, Cu, Cr occurrence in Water samples from Diyala Governorate, Iraq, collected between August 2016 and February 2017. Sites include the Diyala River... |
-| 9 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 4 | [[sources/abou-abbass2023-drinking-water-lebanon-metals\|Fatima et al. 2023]]. *Assessment of Chemical and Microbiological Drinking Water of Beirut and Mount Lebanon*, Journal of Environment and Earth Science | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/decharat2023-lead-cadmium-drinking-water-thailand\|Decharat et al. 2023]]. *Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand* | 2023 | Peer-reviewed | TH Pb, Cd occurrence in Drinking water samples (bottled, tap, filtered, raw) from child development centres, Phatthalung province, southern Thailand (n=210) |
+| 6 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
+| 7 | [[sources/kithure2021-bottled-water-nairobi\|Kithure et al. 2021]]. *How Safe is the Water Consumed in Different Parts of Nairobi, Kenya?*, International Journal of Research and Innovation in Applied Science (IJRIAS) | 2021 | Peer-reviewed | KE Pb, Cd, Sb, Cu, Cr, Mn, Zn occurrence in Seven commercial PET-bottled drinking water brands purchased from supermarkets in Nairobi County, Kenya; sampling carried out 2019–2020; brands... (n=7) |
+| 8 | [[sources/decharat2020-school-drinking-water-pb-cd\|Decharat et al. 2020]]. *Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand*, Environmental Analysis Health and Toxicology | 2020 | Peer-reviewed | TH Pb, Cd occurrence in drinking water used by 44 primary schools in Nakhon Si Thammarat Province, Thailand (n=146) |
+| 9 | [[sources/jabar2019-heavy-elements-water-diyala-iraq\|Abdul et al. 2019]]. *Determination of Heavy Elements (Pb, Cd, Cu and Cr) Concentration in Some Water Sources*, Chemistry & Chemical Technology | 2019 | Peer-reviewed | IQ Pb, Cd, Cu, Cr occurrence in Water samples from Diyala Governorate, Iraq, collected between August 2016 and February 2017. Sites include the Diyala River... |
+| 10 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -132,9 +133,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [49ecdb7](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb7) | 2026-05-30 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-30T18-11-25Z |
-| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 <!-- END: hmi-page-history -->

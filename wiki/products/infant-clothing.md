@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -107,7 +107,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/xiong2025-heavy-metals-infant-clothing\|Xiong et al. 2025]]. *Heavy Metals in Infant Clothing: Assessing Dermal Exposure Risks and Pathways for Sustainable Textile Policies*, Toxics 13: 622 | 2025 | Peer-reviewed | CN tAs, Cd, Cr, Cu, Mn, Ni, Pb, Zn, Fe occurrence in 33 cost-effective unwashed clothing samples randomly purchased from online market platforms in China (Yunnan / Kunming research base);... (n=33) |
-| 2 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
+| 2 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
+| 3 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
+| 4 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `6461a39` (2026-05-31). The body hashes to `sha256:77d4a5a6699d8028f0209200e3b9329a…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8cae8bf` (2026-06-01). The body hashes to `sha256:6e09befc06f71a2d07198a83db2e83c1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=supplements-bars-labeled&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/supplements-bars-labeled&download=1`.
 

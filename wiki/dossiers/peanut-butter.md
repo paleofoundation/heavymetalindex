@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `6461a39` (2026-05-31). The body hashes to `sha256:3a763a743ba9947e0ec69b912b496442…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `8cae8bf` (2026-06-01). The body hashes to `sha256:9a9279afd1f14e67682768de931e018d…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=peanut-butter&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/peanut-butter&download=1`.
 

@@ -15,7 +15,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 3
+sources: 4
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Wipes
@@ -93,7 +93,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
 | 2 | [[sources/rahma2022-infant-skin-barrier-function-review\|Rahma et al. 2022]]. *Skin Barrier Function in Infants: Update and Outlook*, Pharmaceutics 14: 433 | 2022 | Peer-reviewed | This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharmacy; Lane at UCL School of Pharmacy) surveys... |
-| 3 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 3 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
+| 4 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -103,9 +104,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

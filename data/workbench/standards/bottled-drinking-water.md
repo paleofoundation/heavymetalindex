@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: bottled-drinking-water
 public_page: products/bottled-drinking-water
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Bottled drinking water (purified, spring, artesian)
@@ -43,7 +43,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
 
 ## Operational reminders
 

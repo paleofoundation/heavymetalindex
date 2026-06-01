@@ -3,7 +3,7 @@ title: "Regulations by jurisdiction"
 description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-05-31
+updated: 2026-06-01
 noindex: false
 ---
 

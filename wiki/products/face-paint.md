@@ -17,7 +17,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-14
-sources: 6
+sources: 7
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -92,7 +92,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/medley2023-childrens-makeup-body-products-us-usage\|Medley et al. 2023]]. *Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures*, International Journal of Environmental Research and Public Health 20(3): 2114 | 2023 | Peer-reviewed | This Columbia/Earthjustice mixed-methods survey of 207 US parents/guardians (reporting on 312 children ≤12 years) characterizes the use, frequency, duration, and... |
 | 4 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles et al. 2023]]. *Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk*, International Journal of Environmental Research and Public Health 20:531 | 2023 | Peer-reviewed | BR/US Al, tAs, Cd, Cr, Cr-VI, Ni, Pb, Sb, Sn occurrence in 95 samples of face paints (n=90) and pancakes (n=5) purchased at the largest high-street commercial center in São... (n=95) |
 | 5 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
-| 6 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 6 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
+| 7 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -102,9 +103,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

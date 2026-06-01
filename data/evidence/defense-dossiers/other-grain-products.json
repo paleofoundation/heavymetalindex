@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/other-grain-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a919e97ac46c457e5864ec2b9eb4dbb8054c22b95847cdc3e39a925922c1c17f",
-      "content_bytes": 9500,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "content_sha256": "8cddd0f9b06ba42199d148f676f4c74ad5aa0d5945a13a38cd871bf6a9169724",
+      "content_bytes": 9487,
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/other-grain-products.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/other-grain-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2021-chronic-exposure-iAs",
         "content_pin": {
-          "content_sha256": "c08c80aaab63d8807f555a97bdb7b2dd0b70d70c1a0b878dd60ec1c17618eea9",
+          "content_sha256": "94914a3e1eb4b467aa1106263b0e522969f939f90f5f26d99bd5674dbbebba0a",
           "content_bytes": 6650,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
         }
       },
       {
@@ -63,12 +63,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2024-risk-assessment-iAs-update",
         "content_pin": {
-          "content_sha256": "38c5ef780a4c7ed5067dc684b183177eb70c889f9ae21c6fd501e45e2f7d509d",
+          "content_sha256": "5b10e7b57b353bd66e2c1ee9e8b8f9925796f9dc4d5bfbf930c829f5c23086ef",
           "content_bytes": 7483,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
         }
       },
       {
@@ -87,12 +87,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hbbf2025-rice-arsenic-cadmium-145-samples",
         "content_pin": {
-          "content_sha256": "a4dbf6ca10c3a607d11195fd7912bfa5436e1ede54e19161bdd40de51dd89c3d",
+          "content_sha256": "5919e0d1542f3e6e31ce15481eaa3ec8f6c28535f3ee04c32a2c1f0eae359aef",
           "content_bytes": 11893,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
         }
       },
       {
@@ -107,12 +107,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2020-nickel-cereal-grains-poland",
         "content_pin": {
-          "content_sha256": "13c027155198fa6ac50f37c0f69be6368bc84a3d3d08216ed0e1cf1a297e3066",
+          "content_sha256": "8e089352bd7e7e55ae5451e1e5c020a50d84808f54a2a4a9086c9c60373c9da9",
           "content_bytes": 7171,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
         }
       },
       {
@@ -130,12 +130,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mawari2022-heavy-metals-fruits-vegetables-india",
         "content_pin": {
-          "content_sha256": "844d5dabe45d670f9e34a9e6e2b7ce1aa2af560457502557c6fa91c68659381f",
-          "content_bytes": 15388,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "529d004fa78bc549e36430d3707681baf99ddcb2a7e95df8e8ce90fa2e76f6c0",
+          "content_bytes": 15352,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
         }
       },
       {
@@ -153,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/slepecka2017-ecological-cereal-heavy-metals-poland",
         "content_pin": {
-          "content_sha256": "ac2d45a7b53cfd5d6306731a5c054263f5bd79bd97eb5c3b6d469c9e227ad7de",
+          "content_sha256": "fbe53620f99df4f47478289741773903809a7b5310418e583a01e42bf4564aea",
           "content_bytes": 8471,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/slepecka2017-ecological-cereal-heavy-metals-poland.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/slepecka2017-ecological-cereal-heavy-metals-poland.md | sha256sum"
         }
       },
       {
@@ -180,12 +180,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
         "content_pin": {
-          "content_sha256": "48ad3df4bbcd5a3bedf9347e9a58e9b4ffe4987a21e9c1de0fb42400662aaac6",
-          "content_bytes": 27154,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "e2f57436e6bde2bad470fd0bcaa4cde0626dc0dc8f0a6268d3422b0b42134f9c",
+          "content_bytes": 27301,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
         }
       }
     ]

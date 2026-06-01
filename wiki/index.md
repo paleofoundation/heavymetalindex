@@ -77,7 +77,7 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">978</a></dd>
+      <dd><a href="sources/">981</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
@@ -89,11 +89,11 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">953</a></dd>
+      <dd><a href="sources/">958</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
-      <dd><a href="methodology/">629</a></dd>
+      <dd><a href="methodology/">639</a></dd>
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
@@ -116,7 +116,7 @@ updated: 2026-04-30
       <dd><a href="regulations/">55</a></dd>
     </div>
   </dl>
-  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-05-31. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
+  <p class="hmi-home-corpus-counter-meta">Counts refreshed automatically from on-disk frontmatter and the structured evidence layer on every build. Last refresh: 2026-06-01. Source-type counts are normalized across spelling variants; "Programmatic databases indexed" is a separate count for recurring monitoring data and is also counted under government reports. The full source archive lives at <a href="sources/">sources</a>.</p>
 </section>
 <!-- END: hmi-corpus-counter -->
 
@@ -148,7 +148,7 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Thresholds and agencies</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>1,183 pages</span>
+    <span>1,189 pages</span>
     <h2><a href="sources/">Sources</a></h2>
     <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
     <div class="hmi-home-card-meta">Traceable evidence</div>

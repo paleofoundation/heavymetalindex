@@ -22,16 +22,16 @@
     "canonical_url": "https://heavymetalindex.com/products/pacifiers-and-sucking-teething-aids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f8e12ecdc4ac51f79d0814da8216f4f6ae97396693a754cc78ea7d63d81b4e3e",
-      "content_bytes": 10535,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "content_sha256": "c2556bc3a94cd76e1a587a7b6b48060a06804b9d2d79fc5b7d3761f5ae258a81",
+      "content_bytes": 11124,
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/pacifiers-and-sucking-teething-aids.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/pacifiers-and-sucking-teething-aids.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2009-lead-cadmium-toys",
         "content_pin": {
-          "content_sha256": "3ffc075b9661edd235cb03e32b0f0c28ef63b3f3f5a46e089381686762b1ea7f",
-          "content_bytes": 23430,
-          "last_commit_sha": "e44f2a6",
+          "content_sha256": "572a606442a122af65d2b69c92592efd3f0447a9a48b704f083e676bc4e6d3dd",
+          "content_bytes": 23577,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show e44f2a6:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fowles2021-lead-toys",
         "content_pin": {
-          "content_sha256": "e1f5239e38eeb1586318941816175bd0279aa2bfe8e189ab76a363900d964fa7",
-          "content_bytes": 32625,
-          "last_commit_sha": "9a8e6f2",
+          "content_sha256": "8986b44d8a1ad2a323934e4c0942940c5e27de1bd6d302af2a7ac88f15901bbd",
+          "content_bytes": 32772,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9a8e6f2:wiki/sources/fowles2021-lead-toys.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/fowles2021-lead-toys.md | sha256sum"
         }
       },
       {
@@ -92,12 +92,37 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masu2016-pacifiers-sippy-cups-my",
         "content_pin": {
-          "content_sha256": "ba52dda649097978694d705bbb6a75fb44b86d9028cb100d40787521f6e0d410",
-          "content_bytes": 23224,
-          "last_commit_sha": "fa644b4",
+          "content_sha256": "0a804be89906d7a50a6ac4340d73cd212d299c73043362eaab2d0ba1dbe965b7",
+          "content_bytes": 23371,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show fa644b4:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mohammed2020-tt-toys-baby-items",
+        "title": "Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Cu",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
+        "content_pin": {
+          "content_sha256": "c21c39e6d64b96d9f80a53cc4ceac54be9a332ec69d88cbe4c3068be1c784d53",
+          "content_bytes": 29279,
+          "last_commit_sha": "a002dc7",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a002dc7:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -116,12 +141,41 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/seifi2026-iran-toys-pb-cr-hg",
         "content_pin": {
-          "content_sha256": "c0424b174bd0b6342ce101873de931a5aa427f548827eb8620decd853b9de07d",
-          "content_bytes": 28577,
-          "last_commit_sha": "1cfd005",
+          "content_sha256": "03875f4afb2374a9b49e983d91c40ed92dc7035b6956a240d59c76423025be39",
+          "content_bytes": 28724,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1cfd005:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stone2021-wa-metals-childrens-consumer-products",
+        "title": "Metals in Children's and Consumer Products and Packaging",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Cu",
+          "Pb",
+          "tHg",
+          "Mo",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
+        "content_pin": {
+          "content_sha256": "e9a204660e8f501852723408f0a3715ce8a840f8f949dbea864859f67e756efb",
+          "content_bytes": 38988,
+          "last_commit_sha": "651b046",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 651b046:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

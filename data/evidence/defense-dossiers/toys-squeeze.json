@@ -17,18 +17,43 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-squeeze",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "687637a36ba52b4bc497be6e70bfa77b70385148e17b481cc99faf3956df7df2",
-      "content_bytes": 7779,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "content_sha256": "99352d3dac7a7b0ecc5ca2a92298109e2f79f19173bdbc53ccbe5a8a04bea44f",
+      "content_bytes": 8054,
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/toys-squeeze.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/toys-squeeze.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/mohammed2020-tt-toys-baby-items",
+        "title": "Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Cu",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
+        "content_pin": {
+          "content_sha256": "c21c39e6d64b96d9f80a53cc4ceac54be9a332ec69d88cbe4c3068be1c784d53",
+          "content_bytes": 29279,
+          "last_commit_sha": "a002dc7",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a002dc7:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/seifi2026-iran-toys-pb-cr-hg",
         "title": "Investigation of the concentration of chemical compounds in toys",
@@ -45,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/seifi2026-iran-toys-pb-cr-hg",
         "content_pin": {
-          "content_sha256": "c0424b174bd0b6342ce101873de931a5aa427f548827eb8620decd853b9de07d",
-          "content_bytes": 28577,
-          "last_commit_sha": "1cfd005",
+          "content_sha256": "03875f4afb2374a9b49e983d91c40ed92dc7035b6956a240d59c76423025be39",
+          "content_bytes": 28724,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1cfd005:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
         }
       }
     ]

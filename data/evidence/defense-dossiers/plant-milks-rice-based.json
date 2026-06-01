@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-rice-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "696198231bd28a13d4c65366962e82aac648650807bcaac53e328ea2cc8f2b5b",
+      "content_sha256": "157ab56521008b5d7ee95e6982cbdcc887337eae06c55458cfb867da7264f2de",
       "content_bytes": 19242,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/plant-milks-rice-based.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/plant-milks-rice-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brombach2017-methylmercury-european-commercial-rice",
         "content_pin": {
-          "content_sha256": "31ecdbc946221ef7994e3938eafeacdeb4b1d73984cb07aeeb9a8d334db8e38e",
+          "content_sha256": "9c12a8e7c167711e7f20e890baa6046b5c9bed7ef5ac9371b3ba7da95b49f5e8",
           "content_bytes": 12585,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/brombach2017-methylmercury-european-commercial-rice.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/brombach2017-methylmercury-european-commercial-rice.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/damato2026-inorganic-arsenic-rice-based-beverages",
         "content_pin": {
-          "content_sha256": "de15266d37cfcdc63e889a6eb2272aa592c8defb378a25838fe7aec4960329c9",
+          "content_sha256": "7205419aa05ca26d688c8dfae734027e4b0399b9213600f99bcdc234d2238ad7",
           "content_bytes": 5094,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md | sha256sum"
         }
       },
       {
@@ -88,12 +88,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "25847d7482f387e108ba12e2624e2472a39ff1cdd3d0f68ed8b0c53bf9c18667",
+          "content_sha256": "87f2e4a5ea972a25284261e6719b0d0e853a6f3b784128edf31beff2891fd3af",
           "content_bytes": 7587,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       },
       {
@@ -111,12 +111,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marques2021-trace-elements-milks-plant-based-drinks",
         "content_pin": {
-          "content_sha256": "0d5035657fcb33e335ac3afd8af45304a804c5f8530f6f2889af78bad83d1dc4",
+          "content_sha256": "0b2e4fd54aff62d350607c81f12a23263825d55bb5e4b60b7bc1e4fa9d520440",
           "content_bytes": 5174,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
         }
       },
       {
@@ -132,12 +132,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shi2020-rice-based-infant-food-cadmium-arsenic",
         "content_pin": {
-          "content_sha256": "75ae787abe47b073a348583d58e243928d38651eb2b2904f751f5f27ce35a092",
-          "content_bytes": 5759,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "9b97888b1ac9fc55c4c80f734d8706f50901c025800225992de4cddc99b90933",
+          "content_bytes": 5751,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/shi2020-rice-based-infant-food-cadmium-arsenic.md | sha256sum"
         }
       }
     ]

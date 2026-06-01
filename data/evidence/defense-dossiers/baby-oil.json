@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-oil",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "44bee909fda26204bcb2e3e5e2b1581917331ee9b5c616eb717a646194b503dd",
+      "content_sha256": "d15dfdba1dc3802fc25a16a0d3c0623d294704ee1b3941bab875686cf250466a",
       "content_bytes": 9797,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/baby-oil.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/baby-oil.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -54,12 +54,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "da1ac3203be1730a7d25835cc999e2e3a00a109b9aee8b637500e7a54e301bb1",
+          "content_sha256": "0546069f38a26cc75e6dfa17f1f9947de5e75efc6d9ba70e76f59127c0ed92e7",
           "content_bytes": 35218,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/oranges2015-skin-physiology-neonate-infant-clinical",
         "content_pin": {
-          "content_sha256": "6b7c9e1663eb22e8a14bdb955772d56ea4852910c9021f65f97479cdf6991601",
+          "content_sha256": "b23b13e057f5cbfaa3c5c44f0ff881cdec798689182be34cc1102743887f94f5",
           "content_bytes": 18213,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
         }
       }
     ]

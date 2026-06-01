@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: leafy-vegetables-other
 public_page: products/leafy-vegetables-other
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Leafy / Green Vegetables, Other

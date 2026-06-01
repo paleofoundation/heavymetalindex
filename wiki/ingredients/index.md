@@ -179,7 +179,7 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 - [[ingredients/vegetable-purees|Vegetable Purees]] (0 sources)
 - [[ingredients/vegetables|Vegetables]] (79 sources)
 - [[ingredients/vitamin-mineral-premix|Vitamin Mineral Premix]] (0 sources)
-- [[ingredients/water|Water]] (30 sources)
+- [[ingredients/water|Water]] (31 sources)
 - [[ingredients/watermelon|Watermelon]] (6 sources)
 - [[ingredients/wheat|Wheat]] (62 sources)
 - [[ingredients/wheat-cereal-biscuits|Wheat cereal biscuits]] (0 sources)

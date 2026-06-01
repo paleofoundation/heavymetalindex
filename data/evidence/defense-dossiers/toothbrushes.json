@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/toothbrushes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7b749ceabc8c51c06d3950d28efec8086f6805ad7afc38f76dc6293082ae4f7a",
-      "content_bytes": 7977,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "content_sha256": "5b7f853887d3ecf091e83c627ca3864d1ca7f43dbc8e35db171a2d1955a460de",
+      "content_bytes": 8291,
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/toothbrushes.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/toothbrushes.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -42,12 +42,41 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/althobiti2021-wheat-miswak-bioaccessible-lead",
         "content_pin": {
-          "content_sha256": "e206c5180a8c4d663f73f9aea6b332cc448eed7018a1887a11d2db456511ae62",
-          "content_bytes": 3899,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "e0d717be91e7d40a9f465a11a2eb885725b50a08877c6446425ad43d05178c98",
+          "content_bytes": 4046,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/althobiti2021-wheat-miswak-bioaccessible-lead.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/althobiti2021-wheat-miswak-bioaccessible-lead.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stone2021-wa-metals-childrens-consumer-products",
+        "title": "Metals in Children's and Consumer Products and Packaging",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Cu",
+          "Pb",
+          "tHg",
+          "Mo",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
+        "content_pin": {
+          "content_sha256": "e9a204660e8f501852723408f0a3715ce8a840f8f949dbea864859f67e756efb",
+          "content_bytes": 38988,
+          "last_commit_sha": "651b046",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 651b046:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

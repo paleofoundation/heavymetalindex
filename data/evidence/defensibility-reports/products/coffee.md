@@ -2,7 +2,7 @@
 source_page: wiki/products/coffee.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 277d4ea2b761e726a6f8e60d7a49cc4153ead379fd9f8cff046d6514a12a5ef5
+source_page_sha256: ddd51e9e888e08c2451ade36f5ad2c34070f30c57bc654cb9f4c217f342c8db6
 total_claims: 7
 cited_claims: 7
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 1
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 502
+audit_log_total_rows: 509
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 1 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 502 |
+| audit log rows read | 509 |
 
 ## Page-level audit rows
 

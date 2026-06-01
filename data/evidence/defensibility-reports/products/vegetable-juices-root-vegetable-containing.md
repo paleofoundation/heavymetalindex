@@ -2,7 +2,7 @@
 source_page: wiki/products/vegetable-juices-root-vegetable-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ed6f96fa3e9ec7fa0178d7785a2162094e40a8ace5c12b8b16b790dd38383b89
+source_page_sha256: d64f7e9564562570e0ec8190f5dda2f71715721c96fe301410cba0f985eeacb8
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 502
+audit_log_total_rows: 509
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 502 |
+| audit log rows read | 509 |
 
 ## Page-level audit rows
 

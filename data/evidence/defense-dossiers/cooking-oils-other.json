@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cooking-oils-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fa0f3bf1d3bc4c6ff1bbdb227b13dac68587549460c72d2d29597cbcce4b928d",
-      "content_bytes": 11053,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "content_sha256": "22b9f3f75ae87609581d62f9156d090fbf19bd031717f977b42906940bc0b965",
+      "content_bytes": 11045,
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/cooking-oils-other.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/cooking-oils-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia",
         "content_pin": {
-          "content_sha256": "b80088957cec6477c425f13c2aa93f2ccd429f985609f0594a402d130b73f665",
+          "content_sha256": "59365c5cf15f55c2a54469480f4da85215706a6fdb9fc7a85d093e8a2c4330d8",
           "content_bytes": 11586,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review",
         "content_pin": {
-          "content_sha256": "2dd160255c4cf3adc45b03b66d874235113429723f09542e6a6bdcfe8b4ebb72",
+          "content_sha256": "fc5df5885258b1faa76d67fc27e06c6a566a8926cc229ebc8ea4fb0063096c55",
           "content_bytes": 7611,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md | sha256sum"
         }
       },
       {
@@ -96,12 +96,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mehri2024-vegetable-oils-iran-hamadan-ptes",
         "content_pin": {
-          "content_sha256": "de29990825094109d52aaac0ccd9ff839b92a7d68cca503347e8800cdc9f2e51",
+          "content_sha256": "4cdf281541afb0860aec732587d40d6056671380063d32a7d76e537a4a7c22b0",
           "content_bytes": 7446,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/mehri2024-vegetable-oils-iran-hamadan-ptes.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/mehri2024-vegetable-oils-iran-hamadan-ptes.md | sha256sum"
         }
       },
       {
@@ -124,12 +124,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nazari2023-heavy-metals-seed-crops-oil-products-review",
         "content_pin": {
-          "content_sha256": "ef38a53de3a921c1b7b480658d569db5ac85a67a20123322ea0c684156a078e2",
+          "content_sha256": "a9396105de4bba8ed2c64eba6fba750aa3d97d055fdb36367456cbafa1811a29",
           "content_bytes": 16418,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
         }
       },
       {
@@ -152,12 +152,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pehlivan2008-vegetable-oils-turkey-icp-aes",
         "content_pin": {
-          "content_sha256": "c5e8af69abd57f7abb70a18ed393ed862f1d3c7331b7790a3b78f2f2b80ef341",
-          "content_bytes": 8679,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "824c3fcb943dbafe48debb96dafc2082e1f9743d94b9e4cc91b05f84a48352c9",
+          "content_bytes": 8671,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
         }
       },
       {
@@ -180,12 +180,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/scutarasu2023-heavy-metals-foods-beverages",
         "content_pin": {
-          "content_sha256": "eed01e8f82c5f0b98312e673b0709852fdd29338236621c4ebeb6ed4eac0ee7c",
+          "content_sha256": "9572969aff9c7ddaca9b28efbf71f117c9e6ab7d5e1d9b98f670810375ea3617",
           "content_bytes": 8979,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/scutarasu2023-heavy-metals-foods-beverages.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/scutarasu2023-heavy-metals-foods-beverages.md | sha256sum"
         }
       },
       {
@@ -201,12 +201,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tayeb2025-olive-corn-oil-iran-pb-cd",
         "content_pin": {
-          "content_sha256": "ab1944f6236e7d3f5a04c10c5bc9603876f2584f62519b04db2a0358c34bb4d2",
+          "content_sha256": "a7c9573793bcc537dd914c2e01f3d36d35d86c5d4041811733cb1b7d69e15090",
           "content_bytes": 6600,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/tayeb2025-olive-corn-oil-iran-pb-cd.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/tayeb2025-olive-corn-oil-iran-pb-cd.md | sha256sum"
         }
       },
       {
@@ -225,12 +225,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yohannes2024-vegetable-oils-ethiopia-gondar",
         "content_pin": {
-          "content_sha256": "b2e168f804af516b6d7b02f58a5cb4fb43b436d02c8c0f1e5d917e422ac5202a",
+          "content_sha256": "f2216f7cf42fb61b784156b6ab6da0d373e70cdaec244e73e6a5a1948ae964b7",
           "content_bytes": 6712,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/yohannes2024-vegetable-oils-ethiopia-gondar.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/yohannes2024-vegetable-oils-ethiopia-gondar.md | sha256sum"
         }
       },
       {
@@ -248,12 +248,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ziarati2019-iranian-italian-flavoured-olive-oil",
         "content_pin": {
-          "content_sha256": "52bde784b0877de8976bbffe94d75cbcca50920567e4fc85f24d0b9cb5d472d2",
-          "content_bytes": 8372,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "content_sha256": "ab40f1b5413641142d655ce1dfab95c35154b70d08d87e5331fe8544a61a44b5",
+          "content_bytes": 8364,
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/ziarati2019-iranian-italian-flavoured-olive-oil.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/ziarati2019-iranian-italian-flavoured-olive-oil.md | sha256sum"
         }
       }
     ]

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: supplements-teas-labeled
 public_page: products/supplements-teas-labeled
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Food-like forms: teas (when labeled as supplement)

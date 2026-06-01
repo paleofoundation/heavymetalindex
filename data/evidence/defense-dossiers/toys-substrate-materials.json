@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-substrate-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ea9de25b3e182a6f9c5b04bbb0a84ef4378a6cefdcbaf4ec0f39046c61dab0e3",
-      "content_bytes": 9924,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "content_sha256": "97212710db3e52dacb77af2d3b98426c85f5e743df0d76237959542e6a3bf961",
+      "content_bytes": 10469,
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/toys-substrate-materials.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/toys-substrate-materials.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 6,
+    "contributing_source_count": 8,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2009-lead-cadmium-toys",
         "content_pin": {
-          "content_sha256": "3ffc075b9661edd235cb03e32b0f0c28ef63b3f3f5a46e089381686762b1ea7f",
-          "content_bytes": 23430,
-          "last_commit_sha": "e44f2a6",
+          "content_sha256": "572a606442a122af65d2b69c92592efd3f0447a9a48b704f083e676bc4e6d3dd",
+          "content_bytes": 23577,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show e44f2a6:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cephed2013-heavy-metals-childrens-toys-nepal",
         "content_pin": {
-          "content_sha256": "42ced7e18a3c8cbdaf826974690fc3cb22bb1614f746ac21afe247eeb7785621",
+          "content_sha256": "83a7e0c591793b780d76844eb64f353a7a5541d4cbca5bbfacb98bce1ae63463",
           "content_bytes": 14832,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal.md | sha256sum"
         }
       },
       {
@@ -86,12 +86,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc1997-pvc-children-products",
         "content_pin": {
-          "content_sha256": "c84fd3f0db0cb0c7507a8b773ebc9472288810cb8a4f98ac3498f92f43d8d8ce",
-          "content_bytes": 28906,
-          "last_commit_sha": "73ef631",
+          "content_sha256": "a5d84b7cfa969496d2678f89584886e3551e1101ffed46684c092bcfced19530",
+          "content_bytes": 29053,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 73ef631:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -113,12 +113,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "c6402b8eb15a5b334235e9c549d0f705dd9923fac884a961ab507a6d6750d347",
-          "content_bytes": 40409,
-          "last_commit_sha": "3ce3e20",
+          "content_sha256": "c59f9555aa42b33f5385647f9a85b1df6055726b0651e6946b64cf7b06e6c9ec",
+          "content_bytes": 40556,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 3ce3e20:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/digangi1997-greenpeace-vinyl-children-products",
+        "title": "Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/digangi1997-greenpeace-vinyl-children-products",
+        "content_pin": {
+          "content_sha256": "fcc351ab9b93c5fe33cdc123b341e9a956a54535d4161ac88660dd2a24725e94",
+          "content_bytes": 38341,
+          "last_commit_sha": "fde2464",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fde2464:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
         }
       },
       {
@@ -133,12 +154,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fowles2021-lead-toys",
         "content_pin": {
-          "content_sha256": "e1f5239e38eeb1586318941816175bd0279aa2bfe8e189ab76a363900d964fa7",
-          "content_bytes": 32625,
-          "last_commit_sha": "9a8e6f2",
+          "content_sha256": "8986b44d8a1ad2a323934e4c0942940c5e27de1bd6d302af2a7ac88f15901bbd",
+          "content_bytes": 32772,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9a8e6f2:wiki/sources/fowles2021-lead-toys.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/fowles2021-lead-toys.md | sha256sum"
         }
       },
       {
@@ -161,12 +182,37 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/johnson2012-cpsc-astm-f963-status",
         "content_pin": {
-          "content_sha256": "536c1daa2114ae7b6eead71e2f3823b46a3190e5700f87d672ca0d96999ed07f",
-          "content_bytes": 41814,
-          "last_commit_sha": "c3e692a",
+          "content_sha256": "6ca716d919a9b401f58548e62e9e344c985b7dfc952c1b7f7bf5e1b59f875d11",
+          "content_bytes": 41961,
+          "last_commit_sha": "8cae8bf",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3e692a:wiki/sources/johnson2012-cpsc-astm-f963-status.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/johnson2012-cpsc-astm-f963-status.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/mohammed2020-tt-toys-baby-items",
+        "title": "Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Cu",
+          "Mn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
+        "content_pin": {
+          "content_sha256": "c21c39e6d64b96d9f80a53cc4ceac54be9a332ec69d88cbe4c3068be1c784d53",
+          "content_bytes": 29279,
+          "last_commit_sha": "a002dc7",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show a002dc7:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       }
     ]

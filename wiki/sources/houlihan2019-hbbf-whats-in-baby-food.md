@@ -129,9 +129,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [8204e26](https://github.com/paleofoundation/heavymetalindex/commit/8204e26) | 2026-05-31 | manual-fetch: register MFK 07_2019_BabyFoodReport_FULLREPORT_ENGLISH_R5b as near-duplicate of houlihan2019-hbbf |
 | [d0918a2](https://github.com/paleofoundation/heavymetalindex/commit/d0918a2) | 2026-05-31 | ingest: HBBF-2019-EXEC-SUMM-ENGLISH-R6 near-duplicate merged into houlihan2019-hbbf-whats-in-baby-food |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
-| [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 <!-- END: hmi-page-history -->

@@ -2,7 +2,7 @@
 source_page: wiki/products/herbal-botanical-infusions.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 63ec45f41ba607b62d32b808b075e55f8518a6732d1bb72b951354ff213d84f7
+source_page_sha256: 05b75e11d39f6644ba0dcdadd7ea759acd0a71866f91f24c594895e6521f5bd8
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 2
 distinct_cited_sources: 2
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 502
+audit_log_total_rows: 509
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 502 |
+| audit log rows read | 509 |
 
 ## Page-level audit rows
 

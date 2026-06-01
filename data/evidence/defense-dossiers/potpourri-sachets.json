@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/potpourri-sachets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b1ded8d0cd3e21ae1270fbe38c4fa97e8cc3b01c4d69cf19191bdee24b01dfd2",
+      "content_sha256": "ef012f797b7ef60be7074beeaa00b08978b8cfa2e75d93cd4446ab98ea563fbd",
       "content_bytes": 7272,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/potpourri-sachets.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/potpourri-sachets.md | sha256sum"
     }
   },
   "evidence_base": {

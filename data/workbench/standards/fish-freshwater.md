@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fish-freshwater
 public_page: products/fish-freshwater
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Fish — freshwater (tilapia, catfish, trout)

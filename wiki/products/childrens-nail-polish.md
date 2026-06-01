@@ -18,7 +18,7 @@ audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
 literature_scope: thin
-sources: 3
+sources: 4
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Nail Polish (ages 0-5)
@@ -106,6 +106,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/moriceau2025-cosmetics-icpms-iso21392\|Moriceau et al. 2025]]. *Measurement of traces of heavy metals in cosmetic raw materials and finished products according to ISO/DIS 21392:2021 using triple quadrupole ICP-MS*, Thermo Fisher Scientific Application Note 003602 | 2025 | Industry | EU/FR Pb, Cd, tAs, tHg, Cr, Ni, Sb, Al, Sn, Co, Mn, Fe, Zn, Be, Se, Tl, Ti, W, Pt occurrence in 17 finished cosmetic products sold on the French and European market (creams, gels, pastes, liquids, varnishes, solids) plus... (n=27) |
 | 2 | [[sources/medley2023-childrens-makeup-body-products-us-usage\|Medley et al. 2023]]. *Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures*, International Journal of Environmental Research and Public Health 20(3): 2114 | 2023 | Peer-reviewed | This Columbia/Earthjustice mixed-methods survey of 207 US parents/guardians (reporting on 312 children ≤12 years) characterizes the use, frequency, duration, and... |
+| 3 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -115,9 +116,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

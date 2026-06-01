@@ -61,3 +61,13 @@ Microbiome: No microbiome endpoint was measured.
 - The PDF repeatedly discusses pollution in both pipeline and bottled water, but the numeric tables are site-level drinking-water summaries rather than product-labeled bottled-water records. Routing should therefore remain broad drinking-water context unless a later source recovers sample-type rows.
 - The arsenic mean is internally inconsistent: the text states 0.007 ppm, while Table 5 gives 0.07791 ppm. The table value is recorded in Key numbers because the table is the structured result field.
 - Arsenic and mercury are routed as total species because the ICP-OES method does not provide speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [799138c](https://github.com/paleofoundation/heavymetalindex/commit/799138c) | 2026-06-01 | ingest auto-fetched 2026-06-01 00:50 batch 1: 2 source pages |
+<!-- END: hmi-page-history -->

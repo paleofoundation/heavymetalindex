@@ -174,3 +174,14 @@ Reporting limits: 1.0 ppm for antimony, arsenic, cadmium, cobalt, lead, and moly
 - **Sample-population scope.** The wiki `sample_n` field is 38 (the laboratory sample frame), matching the corpus convention used for the 2018 follow-up. The Summary-and-Conclusions p. 6 overall-corpus detection counts (16% Cd / 23% Pb of 159 products) are also preserved in the Key numbers section because they support the broader category-level signal.
 - **Near-duplicates.** [[sources/nelson2023-wa-childrens-jewelry-followup]] is the 2018 follow-up to this 2015 baseline study (re-uses the XRF prioritisation, MEL ICP-MS confirmation, and CSPA/CHCC compliance-reference frame). The two studies are methodological near-duplicates and category-level continuation, not data-duplicates: separate product frames, separate purchasing windows, separate sample IDs.
 - **Raw integrity.** raw_sha256 = 868c8f6397dc98c25cbcd3c284bc27aed614be02cac66fb456a29a4d06da82eb verified by `shasum -a 256` against the file at `raw_path`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [182f6c7](https://github.com/paleofoundation/heavymetalindex/commit/182f6c7) | 2026-06-01 | audit: sekerak2016-wa-childrens-jewelry [promoted] |
+| [783d6cc](https://github.com/paleofoundation/heavymetalindex/commit/783d6cc) | 2026-06-01 | ingest: sekerak2016-wa-childrens-jewelry [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

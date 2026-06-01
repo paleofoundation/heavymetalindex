@@ -18,7 +18,7 @@ pair_row: 15
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 4
+sources: 5
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Lip Balm, Mineral-Bearing (tinted or SPF)
@@ -105,6 +105,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | EU/US/CA Pb, Cd, tHg, tAs, iAs, Cr, Cr-VI, Ni, Al, Fe, Cu, Zn, Co occurrence in Narrative review of heavy-metal contamination in cosmetics; literature 1990 - November 2025 retrieved via PubMed, Web of Science,... |
 | 2 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
 | 3 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | CN Pb occurrence in 34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) from JingDong (Chinese top-10 e-commerce market),... (n=34) |
+| 4 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -114,9 +115,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

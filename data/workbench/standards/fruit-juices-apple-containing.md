@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-juices-apple-containing
 public_page: products/fruit-juices-apple-containing
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Fruit juices, apple-containing

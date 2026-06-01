@@ -245,3 +245,13 @@ This study supports compliance assessment under three Washington State statutory
 - **Sample-population scope.** The wiki `sample_n` field is 150 (the laboratory children's-product sample frame, matching the agency's primary count), reported as the headline frame in the source. The 26-sample packaging frame and 149-sample Cu/Zn frame are documented in the page body and Key numbers section. The 1,614-component XRF-screened total is the upstream prioritisation pool, not the laboratory frame.
 - **Near-duplicates.** [[sources/sekerak2016-wa-childrens-jewelry]] and [[sources/nelson2023-wa-childrens-jewelry-followup]] are the 2015 baseline and 2018 follow-up surveys of children's jewelry, methodologically continuous with this 2012–2013 multi-category screening. The three studies are methodological near-duplicates and category-level continuation, not data-duplicates: separate sample frames, separate purchasing windows, separate sample IDs, separate metal-suite scopes (this study: 10 metals; Sekerak 2016 and Nelson 2023: 7 CHCC metals).
 - **Raw integrity.** raw_sha256 = 36db43e9ef72c0b4265062c9fd1c249262fea8d00be51c6ffe11dbae8c1ba3e9 verified by `shasum -a 256` against the file at `raw_path`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [651b046](https://github.com/paleofoundation/heavymetalindex/commit/651b046) | 2026-06-01 | ingest: stone2021-wa-metals-childrens-consumer-products [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

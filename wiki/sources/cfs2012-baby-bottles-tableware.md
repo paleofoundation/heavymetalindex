@@ -114,6 +114,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [1be9575](https://github.com/paleofoundation/heavymetalindex/commit/1be9575) | 2026-05-31 | audit: cfs2012-baby-bottles-tableware promoted |
 | [9f8d4fe](https://github.com/paleofoundation/heavymetalindex/commit/9f8d4fe) | 2026-05-31 | ingest: cfs2012-baby-bottles-tableware fresh from Manual Fetch Kimi/_extracted_infantcontact_01_Bottles_Nipples_SippyCups |
 <!-- END: hmi-page-history -->

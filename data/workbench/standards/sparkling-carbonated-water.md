@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: sparkling-carbonated-water
 public_page: products/sparkling-carbonated-water
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Sparkling/carbonated water (unflavored)

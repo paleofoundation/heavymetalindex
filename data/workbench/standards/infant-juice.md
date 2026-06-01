@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-juice
 public_page: products/infant-juice
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Infant Juice

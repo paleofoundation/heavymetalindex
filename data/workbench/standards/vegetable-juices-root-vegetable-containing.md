@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: vegetable-juices-root-vegetable-containing
 public_page: products/vegetable-juices-root-vegetable-containing
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Vegetable juices, root-vegetable-containing

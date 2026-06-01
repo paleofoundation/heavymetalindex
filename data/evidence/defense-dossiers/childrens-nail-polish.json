@@ -21,16 +21,16 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-nail-polish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ed8104c139eb01cc4aa49545cf02b5617b9af3319f84fdc674ff776670862d08",
-      "content_bytes": 10950,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "content_sha256": "3fba7e428940634642411a511acb07ccdb133d7810949e058d09a503def79966",
+      "content_bytes": 11264,
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/childrens-nail-polish.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/childrens-nail-polish.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 2,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -43,12 +43,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/medley2023-childrens-makeup-body-products-us-usage",
         "content_pin": {
-          "content_sha256": "01574075a19ccbf349fb25b903a795119cc9bf6df2cb82e019bc29347f9e4d69",
+          "content_sha256": "60f472e63374bc1dc17d22ad17f3263611f94e4fb3a5669676666e737fecfe44",
           "content_bytes": 11890,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,41 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
         "content_pin": {
-          "content_sha256": "2a6c7c7ad9ede28b3bb73220511d0fa2133c410fa9a28573f883f9ee9e0c041a",
+          "content_sha256": "b9c36b7606c433f8bb3f4e93955a32ffa0b4e18ddc0b05f50d3524babe5d899e",
           "content_bytes": 19722,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stone2021-wa-metals-childrens-consumer-products",
+        "title": "Metals in Children's and Consumer Products and Packaging",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Sb",
+          "tAs",
+          "Cd",
+          "Cr",
+          "Co",
+          "Cu",
+          "Pb",
+          "tHg",
+          "Mo",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
+        "content_pin": {
+          "content_sha256": "e9a204660e8f501852723408f0a3715ce8a840f8f949dbea864859f67e756efb",
+          "content_bytes": 38988,
+          "last_commit_sha": "651b046",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 651b046:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

@@ -61,3 +61,13 @@ Microbiome: No direct microbiome endpoint was measured.
 - The file arrived under a mineral-water/Pb wishlist filename, but the PDF is a seaweed biomonitoring and food-exposure paper; it was routed by PDF content, not filename.
 - The paper's table heading places "wet weight" before "dry weight", but the surrounding text and conversion formula identify the larger values as dry-weight concentrations and the smaller values as wet-weight conversions. This page preserves that interpretation explicitly.
 - Arsenic is routed as total arsenic because the EDXRF method does not speciate inorganic arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [799138c](https://github.com/paleofoundation/heavymetalindex/commit/799138c) | 2026-06-01 | ingest auto-fetched 2026-06-01 00:50 batch 1: 2 source pages |
+<!-- END: hmi-page-history -->

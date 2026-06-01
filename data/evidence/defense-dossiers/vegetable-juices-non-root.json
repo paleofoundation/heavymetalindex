@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/vegetable-juices-non-root",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "caa03bdc87cbaa31a5466d8e648ff4af2107ec74d60d30c1c464dc1d4640b07a",
+      "content_sha256": "404528f0b184acf049dc9ae7fb972e556fa5cc56728d9bd0f31f5e654ff3713e",
       "content_bytes": 10625,
-      "last_commit_sha": "6461a39",
-      "last_commit_date": "2026-05-31",
+      "last_commit_sha": "8cae8bf",
+      "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 6461a39:wiki/products/vegetable-juices-non-root.md | sha256sum"
+      "verify_command": "git show 8cae8bf:wiki/products/vegetable-juices-non-root.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dhawale2025-benzidine-chemosensor-mercury-vegetable-juice",
         "content_pin": {
-          "content_sha256": "10ea94319df34f377a16857700128e277a73adb0cf60caf2a17083b98afcf0a4",
+          "content_sha256": "647948231b5a0cdbedd7033b1a1766076ac300f86d1ae0448a0eac84549417a9",
           "content_bytes": 2711,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/dhawale2025-benzidine-chemosensor-mercury-vegetable-juice.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/dhawale2025-benzidine-chemosensor-mercury-vegetable-juice.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland",
         "content_pin": {
-          "content_sha256": "29fea75f5056b11a3c3bfe8eafaae08bd4ab33e151f5b40ca8bb7beacba98648",
+          "content_sha256": "7bf87e1ebb6101d398e0a78c66b15a0500c3cd775cb4ac7c75070dc3466b0b40",
           "content_bytes": 8127,
-          "last_commit_sha": "6461a39",
-          "last_commit_date": "2026-05-31",
+          "last_commit_sha": "8cae8bf",
+          "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6461a39:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
+          "verify_command": "git show 8cae8bf:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
         }
       }
     ]

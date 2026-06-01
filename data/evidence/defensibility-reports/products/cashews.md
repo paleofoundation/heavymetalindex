@@ -2,7 +2,7 @@
 source_page: wiki/products/cashews.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: feb68c56c480d727d3e1c7324799c91923bd99526fcf83b5f80bfe7616294d2c
+source_page_sha256: 7d40dc5b7f33e5638036ab14b47c07afe4300c84aa97a4bb571d7068a0de3fd7
 total_claims: 3
 cited_claims: 1
 uncited_claims: 2
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 502
+audit_log_total_rows: 509
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 502 |
+| audit log rows read | 509 |
 
 ## Page-level audit rows
 

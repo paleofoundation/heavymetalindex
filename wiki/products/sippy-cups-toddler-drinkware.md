@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 3
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -107,8 +107,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/padoh2023-pahan-727-cpsc-lead-cup-recall\|Pennsylvania Department of Health 2023]]. *Consumer Product Safety Commission (CPSC) Lead Recall: PandaEar, LAOION, and Green Sprouts Stainless Steel Bottles and Cups (PAHAN # 727-11-29-ADV)*, Pennsylvania Department of Health, Health Alert Network (PAHAN) Advisory | 2023 | Regulatory | *[awaiting synthesis]* |
-| 2 | [[sources/masu2016-pacifiers-sippy-cups-my\|Users 2016]]. *Comparative Testing: Baby Pacifier and Sippy Cups*, Malaysian Association of Standards Users (Standards Users), Petaling Jaya, Malaysia. Comparative testing report (undated; filename year 2016). | 2016 | NGO report | *[awaiting synthesis]* |
-| 3 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/mohammed2020-tt-toys-baby-items\|Mohammed et al. 2020]]. *Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago*, Journal of Environmental Chemistry and Ecotoxicology 12(1):59-64 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/masu2016-pacifiers-sippy-cups-my\|Users 2016]]. *Comparative Testing: Baby Pacifier and Sippy Cups*, Malaysian Association of Standards Users (Standards Users), Petaling Jaya, Malaysia. Comparative testing report (undated; filename year 2016). | 2016 | NGO report | *[awaiting synthesis]* |
+| 4 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -118,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

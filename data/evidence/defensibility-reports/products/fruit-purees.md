@@ -2,7 +2,7 @@
 source_page: wiki/products/fruit-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d90087add88736a837da866a5cf2adb9dee08eb4261f1a6444f3cb2370879703
+source_page_sha256: 94d96d4129716975d6be4bc5512eb337ae328e7684ea165cb49774581cf22f1e
 total_claims: 122
 cited_claims: 122
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 44
 distinct_cited_sources: 38
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 502
+audit_log_total_rows: 509
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 38 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 502 |
+| audit log rows read | 509 |
 
 ## Page-level audit rows
 

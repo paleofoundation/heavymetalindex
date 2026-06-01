@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: snack-bars-energy-bars
 public_page: products/snack-bars-energy-bars
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Snack Bars Energy Bars

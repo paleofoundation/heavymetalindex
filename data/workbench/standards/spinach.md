@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: spinach
 public_page: products/spinach
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Workbench standards snapshot — Spinach

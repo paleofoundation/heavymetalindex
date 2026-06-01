@@ -209,3 +209,14 @@ These are external-study transcriptions for context, not measurements made in th
 - **Near-duplicates.** None identified in the corpus at this writing. The closest precedents are Igweze et al. 2020 (Nigeria Chinese-import toys, FAAS, paint scrapes only, Pb/Cd/As panel; `igweze2020-china-toys-nigeria-pb-cd-as.md`) and Masu 2016 (Malaysia pacifiers/sippy cups, NGO comparative testing for BPA/phthalates/nitrosamines with no metals measurements; `masu2016-pacifiers-sippy-cups-my.md`). Neither overlaps in sample identity or in analyte panel with the present Trinidad and Tobago paper.
 - **Raw integrity.** raw_sha256 = 0a0b5d1790e3b78d6560f5a6efeab22866700cd9db59870b6d12d4392a34be04 verified by `shasum -a 256` against the file at `raw_path`.
 - **Folder context.** PDF lives in `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers/` — the Kimi download-corruption-issue folder for the infant-contact pacifiers/teethers subtree. The filename `14_2020_fd8075463937.pdf` encodes (sequence 14, publication year 2020, Academic Journals article number fd8075463937).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a002dc7](https://github.com/paleofoundation/heavymetalindex/commit/a002dc7) | 2026-06-01 | audit: mohammed2020-tt-toys-baby-items [promoted] |
+| [36e05d4](https://github.com/paleofoundation/heavymetalindex/commit/36e05d4) | 2026-06-01 | ingest: mohammed2020-tt-toys-baby-items [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

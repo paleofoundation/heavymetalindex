@@ -223,3 +223,14 @@ Greenpeace calculated the 90th-percentile aged-product exposure by adding (z₁.
   - ⚠️ Rejected as false positive: "more than half exceeded the 1978 CPSC 600-ppm paint-Pb regulatory limit" is source-stated, not Claude's inference. PDF p.6 (Summary) reads "More than half of these lead-containing vinyl products contained over 600 ppm lead and therefore would have been illegal and recalled if they had been made out of a regulated material like painted wood." No change.
   - ⚠️ Rejected as false positive: "24 of 28 (≈86%) exceeded the CPSC staff-recommended 200-ppm vinyl-miniblind limit" is source-stated, not Claude's inference. PDF p.11 (Results and Discussion) reads "Eighty-six percent of the lead-containing items in Table 1 exceeded the 200 ppm standard for lead in vinyl proposed by Consumer Product Safety Commission staff." 86% of 28 = 24.08 ≈ 24. No change.
   - Checks 2 (slug vocabulary), 4 (Part 12 brand firewall, Exception 1 regulatory-event subject), and 5 (Part 2 wiki/HMTc firewall) returned ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fde2464](https://github.com/paleofoundation/heavymetalindex/commit/fde2464) | 2026-06-01 | audit: digangi1997-greenpeace-vinyl-children-products [revised] |
+| [93f87eb](https://github.com/paleofoundation/heavymetalindex/commit/93f87eb) | 2026-06-01 | ingest: digangi1997-greenpeace-vinyl-children-products [fresh] from raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
+<!-- END: hmi-page-history -->

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 8
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -114,6 +114,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/johnson2012-cpsc-astm-f963-status\|Johnson et al. 2012]]. *Status Report: Review of Metals in the Toy Safety Standard, ASTM F 963*, U.S. Consumer Product Safety Commission Status Report, Directorate for Health Sciences, 14 March 2012; bundles Versar/SRC final contractor report Contract CPSC-D-06-0006 Task Order 008 dated 16 July 2010 | 2012 | Regulatory | *[awaiting synthesis]* |
 | 7 | [[sources/bfr2009-lead-cadmium-toys\|(BfR) 2009]]. *Lead and cadmium do not belong in toys*, BfR Opinion No. 048/2009, 1 June 2009 (Federal Institute for Risk Assessment, Germany) | 2009 | Regulatory | *[awaiting synthesis]* |
 | 8 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
+| 9 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -123,9 +124,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
 | [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
-| [70ae1cc](https://github.com/paleofoundation/heavymetalindex/commit/70ae1cc) | 2026-05-30 | codex sprint 2026-05-30 22:30: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
