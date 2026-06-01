@@ -2,7 +2,7 @@
 source_page: wiki/products/food-storage-glass-containers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c4ac3f0e502fe4c6d3e5d09e8ca4bb0c003e1015494d1919b491b646e60e24c3
+source_page_sha256: 6a9107a83e8f0c170401a398799f0500ef0b091ec9364fc8949ee616b9acef9b
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 

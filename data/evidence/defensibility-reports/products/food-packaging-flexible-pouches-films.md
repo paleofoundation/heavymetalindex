@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-flexible-pouches-films.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 54806a66ed6d182962c784bd62619f95732f5a2625f8fd3262647915c1cd7143
+source_page_sha256: 965c1beafbbf8c697e5776f4b54dc3fb6a3e6a420d09733d252c9c22490759f9
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 

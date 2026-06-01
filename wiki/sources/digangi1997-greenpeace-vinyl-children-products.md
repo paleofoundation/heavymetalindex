@@ -231,6 +231,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [fde2464](https://github.com/paleofoundation/heavymetalindex/commit/fde2464) | 2026-06-01 | audit: digangi1997-greenpeace-vinyl-children-products [revised] |
 | [93f87eb](https://github.com/paleofoundation/heavymetalindex/commit/93f87eb) | 2026-06-01 | ingest: digangi1997-greenpeace-vinyl-children-products [fresh] from raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |
 <!-- END: hmi-page-history -->

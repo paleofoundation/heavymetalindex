@@ -2,7 +2,7 @@
 source_page: wiki/products/food-prep-processor-bowls.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: f5ac8fff2a698a0fd5388c6a4da1c7600216e4cf64a03b9bde5a2850866f5153
+source_page_sha256: b993eb500c1362d06e03286d4ec2b416028179eab8c6c617f8d70de454f43112
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-capsules.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 78e0e209fc356b824175e8f9695e15436ddaddaaf4bd475136646bb9c4ee2a18
+source_page_sha256: 4adafbe1d07b3ec7beeb6f03ea8912d567bc743b49795747e8c79853afd0a537
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 

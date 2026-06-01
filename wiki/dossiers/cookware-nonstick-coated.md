@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8cae8bf` (2026-06-01). The body hashes to `sha256:d906edf0b18de209ec6248d0ace7bb4f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `b81f32c` (2026-06-01). The body hashes to `sha256:378e36d1336e3c05f2bbb38ac3a68bcb…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=cookware-nonstick-coated&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/cookware-nonstick-coated&download=1`.
 

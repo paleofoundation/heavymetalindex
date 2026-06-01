@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T00:38:59.178Z",
+  "generated_at": "2026-06-01T03:02:39.428Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -2910,7 +2910,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/breastmilk",
-      "sources_count": 31,
+      "sources_count": 32,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -9493,7 +9493,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fish",
-      "sources_count": 192,
+      "sources_count": 193,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -11281,7 +11281,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fruit-purees",
-      "sources_count": 1,
+      "sources_count": 2,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -13673,7 +13673,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/infant-formula-ingredients",
-      "sources_count": 12,
+      "sources_count": 13,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -15935,7 +15935,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/meat",
-      "sources_count": 47,
+      "sources_count": 48,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -16066,7 +16066,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/meat-and-poultry",
-      "sources_count": 79,
+      "sources_count": 80,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -17454,7 +17454,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/non-soy-infant-formula",
-      "sources_count": 14,
+      "sources_count": 15,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -24515,7 +24515,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/soy-based-infant-formula",
-      "sources_count": 9,
+      "sources_count": 10,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -26284,7 +26284,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/tomato",
-      "sources_count": 30,
+      "sources_count": 31,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -28046,7 +28046,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/water",
-      "sources_count": 31,
+      "sources_count": 32,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {

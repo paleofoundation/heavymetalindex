@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/sports-energy-drinks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f6330a0ac3edc8fa35d3460e98dec4203f663ddf6be4f5b0d19dbd9fc0b9769d",
-      "content_bytes": 7417,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "171739da2731f416881e7ba387d30de382a3ac4e505774d4235d002f8211235d",
+      "content_bytes": 7408,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/sports-energy-drinks.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/sports-energy-drinks.md | sha256sum"
     }
   },
   "evidence_base": {

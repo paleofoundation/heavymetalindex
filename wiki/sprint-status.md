@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T02:35:40.269Z
+updated: 2026-06-01T02:59:45.541Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 673 min ago (stale) |
-| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 698 min ago (stale) |
+| auto-fetched/ PDFs in queue | 9 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 63 |
 | Wishlist: total ingested historically | 2 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 14 |
-| Commits last 24 hours | 178 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 17 |
+| Commits last 24 hours | 185 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-cc0d660 4 minutes ago — audit-queue: rebeniak2014-pb-cd-ceramics-glassware-poland -> audited-revised
+8549d21 16 seconds ago — triage sweep 2026-06-01 02:58: 0 rollups + 1 skips
 ```
 
 ## How to read this

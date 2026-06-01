@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-ceramicware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ed403f1f77367583bbb02a6df3cef8abefd3fff04deca9cb0d89d4d9af99b2a2",
-      "content_bytes": 8033,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "e5e06fd716eea00e9e7ea33701f3b0b0e74d6b1bcea782f4b4a9e16fa0eb3d5d",
+      "content_bytes": 8373,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/tableware-ceramicware.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/tableware-ceramicware.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -46,12 +46,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "4d061050e7e13cbfa7df256c1adb03607abf5614c8b1d4ac3f00e91c8eb4c872",
-          "content_bytes": 18837,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "51b50ff5475ec91e873b3312d2159cde7ffc069fdd0742173e75cb66e3cd877c",
+          "content_bytes": 18983,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rebeniak2014-pb-cd-ceramics-glassware-poland",
+        "title": "Exposure to lead and cadmium released from ceramics and glassware intended to come into contact with food",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rebeniak2014-pb-cd-ceramics-glassware-poland",
+        "content_pin": {
+          "content_sha256": "bdf976ac43fff6c43230ba2a3ad5863f2d29a728ea254c145c49ac9a97535ac3",
+          "content_bytes": 27982,
+          "last_commit_sha": "9f9e19f",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9f9e19f:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
         }
       }
     ]

@@ -161,3 +161,13 @@ ISO 8124-3:2020 specifies a stomach-acid simulation extraction followed by quant
 - **Date and unit conventions.** Migration limits are reported in mg/kg of toy material (= ppm = µg/g) per Table 1 caption ("Values in milligrams per kilogram of toy material"). Analytical correction is in percent per Table 2. Daily bioavailability budget is reported in µg/day per element per the Introduction. Reagent concentrations are reported in mol/L per §6. Apparatus tolerances follow ISO conventions: e.g., centrifuge capable of (5 000 ± 500) g, temperature (37 ± 2) °C, sieve nominal aperture 0.5 mm with tolerances per Annex A Table A.1 (not visible in preview).
 - **Folder context vs paper scope.** The PDF lives under `_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/` in the Kimi corruption-issue raw tree. The folder name suggests U.S. CPSC / CPSIA / FDA regulatory context, but the document itself is an international ISO standard, not a U.S. federal regulatory document. The folder name reflects the Kimi-agent's batch-organization scheme during the May 2025 corruption-extraction recovery, not the document's actual jurisdictional origin. Jurisdictions frontmatter is set to `[international]` reflecting the document's actual scope.
 - **Raw integrity.** raw_sha256 = 545309862fa30ebf52c1e7d21c729a7273fe47d587a28c893e24fa602c0e4d73 confirmed against the file via shasum -a 256. PDF is 451 676 bytes (≈441 KB) and 12 pages (the iTeh preview length). The "iTeh STANDARD PREVIEW (standards.iteh.ai)" watermark and the embedded reference URL `https://standards.iteh.ai/catalog/standards/sist/99ac88c1-7054-45ef-aa4b-7ff9f8cab043/iso-8124-3-2020` appear on every page; this is the iTeh AG catalog preview, not the official ISO-published full standard.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4275cd3](https://github.com/paleofoundation/heavymetalindex/commit/4275cd3) | 2026-06-01 | ingest: iso2020-8124-3-toy-migration-elements [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA |
+<!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-marine-predatory",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "184d42951fa96c0247a9c4c7238cc015c267525146f7c548b55cf1ed11c77ccf",
-      "content_bytes": 9842,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "527efe7a53cc1c772fdd1d20c26030a42924d95ae0f4c4ede6584eb8939d7ce3",
+      "content_bytes": 9833,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/fish-marine-predatory.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/fish-marine-predatory.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bhoyroo2015-scombrids-heavy-metals-mauritius",
         "content_pin": {
-          "content_sha256": "4b726a7b8cb455999dbeca6552b79902a8525d8a7487d9963f8fadf79385bc93",
-          "content_bytes": 5392,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "1158c107617f7429a87aa972f46abac669d1401478475b21e52b76bb4de0d99a",
+          "content_bytes": 5383,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/bhoyroo2015-scombrids-heavy-metals-mauritius.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/bhoyroo2015-scombrids-heavy-metals-mauritius.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
         "content_pin": {
-          "content_sha256": "d3a0207dae0c22353b37851b79bf2ead76751e007c1fc7e61ec4943e45d3f985",
-          "content_bytes": 17151,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "69a4ebbf7f73f36863708bddc916758f2b1938098dc40db267a7045c2573a243",
+          "content_bytes": 17130,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
         }
       },
       {
@@ -91,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/harding2018-bay-fundy-methylmercury",
         "content_pin": {
-          "content_sha256": "e3e27cdd05ae3f10e8251e3e9d98aaeb0249ba13c6a6fe4e13c482b8527902ef",
-          "content_bytes": 3122,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "bf1f8204f021d05a5e457d82e234ed3015d03ba6e84b0f422e9ba20ca50b4aa8",
+          "content_bytes": 3113,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/harding2018-bay-fundy-methylmercury.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/harding2018-bay-fundy-methylmercury.md | sha256sum"
         }
       },
       {
@@ -113,12 +113,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/smolikova2016-heavy-metals-fish-czech",
         "content_pin": {
-          "content_sha256": "db3d102adb9da421304cfba35e7e7f227396c7da8f1b58d58bd0627998fe90da",
-          "content_bytes": 6626,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "8ffdd8a58aedca8e76f44bc2cb82d68ee8e99799298003287a26e251874c6146",
+          "content_bytes": 6617,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/smolikova2016-heavy-metals-fish-czech.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/smolikova2016-heavy-metals-fish-czech.md | sha256sum"
         }
       },
       {
@@ -136,12 +136,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/xu2025-heavy-metals-aquatic-foods-global",
         "content_pin": {
-          "content_sha256": "4b5f4ff96de6057d42ac2b8d5a266495881a6441bc41f630b5b0db1f625d20ec",
-          "content_bytes": 25808,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "09d4dddc60f71ddd1e8c3f6585ba481bc21164b8468e089f6bb8ade12c5142b5",
+          "content_bytes": 25799,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/xu2025-heavy-metals-aquatic-foods-global.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/xu2025-heavy-metals-aquatic-foods-global.md | sha256sum"
         }
       }
     ]

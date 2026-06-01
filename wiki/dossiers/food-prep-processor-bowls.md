@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8cae8bf` (2026-06-01). The body hashes to `sha256:8aca5be1ae430704ee2e912596ac19d8…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `b81f32c` (2026-06-01). The body hashes to `sha256:f7dc2c6dd2339c1f20b21e1376f2cae1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=food-prep-processor-bowls&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/food-prep-processor-bowls&download=1`.
 

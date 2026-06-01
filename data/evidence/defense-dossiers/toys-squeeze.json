@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-squeeze",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "99352d3dac7a7b0ecc5ca2a92298109e2f79f19173bdbc53ccbe5a8a04bea44f",
-      "content_bytes": 8054,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "89072a02bf4ec84bd2cb499e3563dbc1ed79978215a5ecb634064568481a0e8e",
+      "content_bytes": 8045,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/toys-squeeze.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/toys-squeeze.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "c21c39e6d64b96d9f80a53cc4ceac54be9a332ec69d88cbe4c3068be1c784d53",
-          "content_bytes": 29279,
-          "last_commit_sha": "a002dc7",
+          "content_sha256": "70b58e960f47eff2f6c2678da43384b44b13c4bd861cee9193ba10ff106ca8a1",
+          "content_bytes": 29425,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show a002dc7:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/seifi2026-iran-toys-pb-cr-hg",
         "content_pin": {
-          "content_sha256": "03875f4afb2374a9b49e983d91c40ed92dc7035b6956a240d59c76423025be39",
-          "content_bytes": 28724,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "1db5dc772842a14d23831f5635c6c16ce79397c4c104b3217828b33d247c93c1",
+          "content_bytes": 28870,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
         }
       }
     ]

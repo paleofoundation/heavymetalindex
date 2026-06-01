@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `8cae8bf` (2026-06-01). The body hashes to `sha256:f1012e554e3c4203724e48c3011fd10b…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `b81f32c` (2026-06-01). The body hashes to `sha256:2339940d74fc36eee747947ad8706868…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=non-root-vegetables&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/non-root-vegetables&download=1`.
 

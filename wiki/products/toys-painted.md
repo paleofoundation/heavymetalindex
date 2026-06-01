@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 9
+sources: 12
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -109,12 +109,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/seifi2026-iran-toys-pb-cr-hg\|Seifi 2026]]. *Investigation of the concentration of chemical compounds in toys*, Environmental Health and Pollution Research, 2026, 1(1), 43-48 | 2026 | Peer-reviewed | *[awaiting synthesis]* |
 | 2 | [[sources/fowles2021-lead-toys\|Fowles 2021]]. *Health Risk Assessment: Lead in Children's Toys*, ESR Client Report FW21014, prepared for the New Zealand Ministry of Health by the Institute of Environmental Science and Research Ltd (Risk Assessment & Social Systems Group), May 2021 | 2021 | Regulatory | *[awaiting synthesis]* |
 | 3 | [[sources/igweze2020-china-toys-nigeria-pb-cd-as\|Igweze et al. 2020]]. *A pediatric health risk assessment of children's toys imported from China into Nigeria*, Heliyon 6 (2020) e03732 | 2020 | Peer-reviewed | NG/CN/EU Pb, Cd, As occurrence in Thirty low-cost 'made in China' children's toys purchased January–February 2018 via market-basket sampling from supermarkets and street vendors... (n=30) |
-| 4 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | *[awaiting synthesis]* |
-| 5 | [[sources/cephed2013-heavy-metals-childrens-toys-nepal\|Sah et al. 2013]]. *Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal*, Centre for Public Health and Environmental Development (CEPHED), Lalitpur, Nepal — July 2013 report | 2013 | NGO report | NP Pb, tHg, Cd, Cr occurrence in 100 children's toys/play-items purchased from markets across Kathmandu Valley (Banepa, Asan, Mahabauddha, Pulchowk, Baneshwor, Lagankhel, Balkumari) and Dhulikhel... (n=100) |
-| 6 | [[sources/johnson2012-cpsc-astm-f963-status\|Johnson et al. 2012]]. *Status Report: Review of Metals in the Toy Safety Standard, ASTM F 963*, U.S. Consumer Product Safety Commission Status Report, Directorate for Health Sciences, 14 March 2012; bundles Versar/SRC final contractor report Contract CPSC-D-06-0006 Task Order 008 dated 16 July 2010 | 2012 | Regulatory | *[awaiting synthesis]* |
-| 7 | [[sources/bfr2009-lead-cadmium-toys\|(BfR) 2009]]. *Lead and cadmium do not belong in toys*, BfR Opinion No. 048/2009, 1 June 2009 (Federal Institute for Risk Assessment, Germany) | 2009 | Regulatory | *[awaiting synthesis]* |
-| 8 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
-| 9 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
+| 4 | [[sources/iso2020-8124-3-toy-migration-elements\|International Organization for Standardization, 2020]]. *ISO 8124-3:2020 — Safety of toys — Part 3: Migration of certain elements (Third edition, 2020-03)*, International Organization for Standardization, Geneva, Switzerland; ISO 8124-3:2020(E), Third edition 2020-03 | 2020 | Regulatory | *[awaiting synthesis]* |
+| 5 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | *[awaiting synthesis]* |
+| 6 | [[sources/cephed2013-heavy-metals-childrens-toys-nepal\|Sah et al. 2013]]. *Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal*, Centre for Public Health and Environmental Development (CEPHED), Lalitpur, Nepal — July 2013 report | 2013 | NGO report | NP Pb, tHg, Cd, Cr occurrence in 100 children's toys/play-items purchased from markets across Kathmandu Valley (Banepa, Asan, Mahabauddha, Pulchowk, Baneshwor, Lagankhel, Balkumari) and Dhulikhel... (n=100) |
+| 7 | [[sources/johnson2012-cpsc-astm-f963-status\|Johnson et al. 2012]]. *Status Report: Review of Metals in the Toy Safety Standard, ASTM F 963*, U.S. Consumer Product Safety Commission Status Report, Directorate for Health Sciences, 14 March 2012; bundles Versar/SRC final contractor report Contract CPSC-D-06-0006 Task Order 008 dated 16 July 2010 | 2012 | Regulatory | *[awaiting synthesis]* |
+| 8 | [[sources/pirg2010-trouble-in-toyland\|Hitchcock et al. 2010]]. *Trouble in Toyland: The 25th Annual Survey of Toy Safety*, U.S. PIRG Education Fund, November 2010 | 2010 | NGO report | *[awaiting synthesis]* |
+| 9 | [[sources/bfr2009-lead-cadmium-toys\|(BfR) 2009]]. *Lead and cadmium do not belong in toys*, BfR Opinion No. 048/2009, 1 June 2009 (Federal Institute for Risk Assessment, Germany) | 2009 | Regulatory | *[awaiting synthesis]* |
+| 10 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
+| 11 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -124,9 +126,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
-| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 <!-- END: hmi-page-history -->

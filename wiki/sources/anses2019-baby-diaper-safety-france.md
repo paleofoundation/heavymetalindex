@@ -175,3 +175,14 @@ ANSES's conclusion explicitly lists substances where no exceedance was found acr
 ## Ingest log
 
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill). NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI (ANSES opinions are not DOI-assigned); raw_handle `MFK_07-conso2017sa0019en-2019` not present; cite-key stem `anses2019` not present. PDF SHA-256 `602c3dd29a079409d12d5fdf3e38d91f3aec58fea531648b9161d52906e3327a`. Folder: `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/`. Source is a national-agency regulatory opinion (32 pp.); `metals: []` reflects that the opinion does not name or quantify any specific heavy metal — heavy metals were on INC's screening panel but are absent from the inventory of detected/quantified substances, the QHRA, and the recommendations. Routed to `[[products/diapers-and-components]]` per `matrices: [diaper]`, following the lai2025 precedent for ingesting diaper papers without metal occurrence data as out-of-core-scope regulatory/methodology context.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a24503b](https://github.com/paleofoundation/heavymetalindex/commit/a24503b) | 2026-06-01 | audit: anses2019-baby-diaper-safety-france revised |
+| [c8a48a3](https://github.com/paleofoundation/heavymetalindex/commit/c8a48a3) | 2026-06-01 | ingest: anses2019-baby-diaper-safety-france fresh from MFK/03_Diapers |
+<!-- END: hmi-page-history -->

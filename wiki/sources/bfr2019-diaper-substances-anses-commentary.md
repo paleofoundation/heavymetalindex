@@ -73,3 +73,13 @@ The BfR communication is qualitative throughout; no exposure doses, hazard quoti
 ## Ingest log
 
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill). NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI (BfR communications are not DOI-assigned); raw_handle `MFK_09-preliminary-estimation-of-undesired-substances-` not present; cite-key stem `bfr2019-diaper` not present (existing `bfr2019-*` and `bfr*-diaper-*` searches returned no matches). PDF SHA-256 `3b96d6f4845e4c2af20f101279302b0714e2ea31ecafc60207c63d806c4f2641`. Folder: `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/`. Source is a 3-page national-agency regulatory commentary; `metals: []` reflects that no specific heavy metal is named, screened, or evaluated in the document. Routed to `[[products/diapers-and-components]]` per `matrices: [diaper]`, following the sibling diaper-source precedent (anses2019, lai2025) for ingesting diaper papers without metal occurrence data as out-of-core-scope regulatory context. Marked `near_duplicates: [[[anses2019-baby-diaper-safety-france]]]` because the BfR communication is wholly downstream of the ANSES opinion.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6aa6375](https://github.com/paleofoundation/heavymetalindex/commit/6aa6375) | 2026-06-01 | ingest: bfr2019-diaper-substances-anses-commentary fresh from MFK/03_Diapers |
+<!-- END: hmi-page-history -->

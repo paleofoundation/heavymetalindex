@@ -31,15 +31,15 @@ One version-pinned evidence dossier per certified product category, assembling t
 ## Infant and Child Foods
 
 - [[dossiers/baby-cereals-dry-non-rice|Baby Cereals / Grain Products, Dry (Non-Rice)]] — 34 contributing sources
-- [[dossiers/baby-cereals-dry-rice-based|Baby Cereals / Grain Products, Dry (Rice-Based)]] — 65 contributing sources
-- [[dossiers/fish-containing-baby-foods|Fish-Containing Baby Foods]] — 12 contributing sources
+- [[dossiers/baby-cereals-dry-rice-based|Baby Cereals / Grain Products, Dry (Rice-Based)]] — 66 contributing sources
+- [[dossiers/fish-containing-baby-foods|Fish-Containing Baby Foods]] — 13 contributing sources
 - [[dossiers/fruit-juice-not-canned|Fruit Juice (Not Canned)]] — 32 contributing sources
-- [[dossiers/fruit-purees|Fruit Purees]] — 28 contributing sources
-- [[dossiers/infant-formula-powder-non-soy|Infant Formula, Powder (Non-Soy)]] — 87 contributing sources
-- [[dossiers/infant-formula-powder-soy-based|Infant Formula, Powder (Soy-Based)]] — 62 contributing sources
-- [[dossiers/infant-formula-rtf-liquid-non-soy|Infant Formula, RTF Liquid (Non-Soy)]] — 48 contributing sources
+- [[dossiers/fruit-purees|Fruit Purees]] — 29 contributing sources
+- [[dossiers/infant-formula-powder-non-soy|Infant Formula, Powder (Non-Soy)]] — 88 contributing sources
+- [[dossiers/infant-formula-powder-soy-based|Infant Formula, Powder (Soy-Based)]] — 63 contributing sources
+- [[dossiers/infant-formula-rtf-liquid-non-soy|Infant Formula, RTF Liquid (Non-Soy)]] — 49 contributing sources
 - [[dossiers/infant-formula-rtf-liquid-soy-based|Infant Formula, RTF Liquid (Soy-Based)]] — 37 contributing sources
-- [[dossiers/meat-and-poultry-purees|Meat and Poultry Purees]] — 14 contributing sources
+- [[dossiers/meat-and-poultry-purees|Meat and Poultry Purees]] — 15 contributing sources
 - [[dossiers/mixed-meals-non-rice|Mixed Meals, Non-Rice]] — 18 contributing sources
 - [[dossiers/mixed-meals-rice-containing|Mixed Meals, Rice-Containing]] — 16 contributing sources
 - [[dossiers/non-root-vegetable-purees|Non-Root Vegetable Purees]] — 16 contributing sources
@@ -72,7 +72,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/anti-static-products|Anti-static products (liquid and sheets)]] — 0 contributing sources
 - [[dossiers/anti-wrinkle-wrinkle-release-products|Anti-wrinkle/wrinkle-release products]] — 0 contributing sources
 - [[dossiers/appliance-cleaners|Appliance cleaners (including stainless steel cleaners)]] — 0 contributing sources
-- [[dossiers/art-craft-materials|Art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits)]] — 0 contributing sources
+- [[dossiers/art-craft-materials|Art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits)]] — 1 contributing source
 - [[dossiers/automatic-dishwasher-detergents|Automatic dishwasher detergents]] — 0 contributing sources
 - [[dossiers/automatic-puff-releasers|Automatic puff releasers]] — 0 contributing sources
 - [[dossiers/bakeware|Bakeware]] — 0 contributing sources
@@ -102,7 +102,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/carpet-cleaners|Carpet cleaners]] — 0 contributing sources
 - [[dossiers/carpet-spot-removers|Carpet spot removers]] — 0 contributing sources
 - [[dossiers/cookware-ceramic-coated|Ceramic-coated cookware]] — 1 contributing source
-- [[dossiers/tableware-ceramicware|Ceramicware]] — 1 contributing source
+- [[dossiers/tableware-ceramicware|Ceramicware]] — 2 contributing sources
 - [[dossiers/clasps-fasteners-infant-products|Clasps/fasteners (snaps, zippers, buttons) used in infant products]] — 0 contributing sources
 - [[dossiers/cleaning-wipes-household|Cleaning wipes (household surface wipes)]] — 0 contributing sources
 - [[dossiers/infant-clothing|Clothing (onesies, pajamas, outerwear)]] — 4 contributing sources
@@ -114,13 +114,13 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/conditioner-adult-rinse-out|Conditioner (general adult, rinse-out)]] — 0 contributing sources
 - [[dossiers/cribs-and-bassinets|Cribs and bassinets]] — 0 contributing sources
 - [[dossiers/cutting-boards|Cutting boards (wood, plastic)]] — 0 contributing sources
-- [[dossiers/tableware-decorative-decals-coatings|Decorative decals/coatings on tableware]] — 1 contributing source
+- [[dossiers/tableware-decorative-decals-coatings|Decorative decals/coatings on tableware]] — 2 contributing sources
 - [[dossiers/deep-conditioning-treatments-rinse-off|Deep conditioning treatments/hair masks (rinse-off)]] — 0 contributing sources
 - [[dossiers/degreasers|Degreasers]] — 0 contributing sources
 - [[dossiers/denture-orthodontic-care|Denture and orthodontic-appliance care (adhesives, cleaning tablets/solutions)]] — 0 contributing sources
 - [[dossiers/deodorants|Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)]] — 1 contributing source
 - [[dossiers/descalers|Descalers]] — 0 contributing sources
-- [[dossiers/diapers-and-components|Diapers and diaper components]] — 4 contributing sources
+- [[dossiers/diapers-and-components|Diapers and diaper components]] — 8 contributing sources
 - [[dossiers/dish-soaps-manual|Dish soaps (manual dishwashing)]] — 0 contributing sources
 - [[dossiers/douches-vaginal-irrigation|Douches and vaginal irrigation solutions/apparatus components]] — 0 contributing sources
 - [[dossiers/drain-maintainers-cleaners|Drain maintainers/cleaners (including biological-based)]] — 0 contributing sources
@@ -158,10 +158,10 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/fruit-juices-non-apple|fruit-juices-non-apple]] — 23 contributing sources
 - [[dossiers/game-meats|Game meats (venison, bison, rabbit)]] — 12 contributing sources
 - [[dossiers/gel-diffusers|Gel diffusers]] — 0 contributing sources
-- [[dossiers/toys-painted|General toys with paint/surface coatings]] — 9 contributing sources
+- [[dossiers/toys-painted|General toys with paint/surface coatings]] — 11 contributing sources
 - [[dossiers/food-storage-glass-containers|Glass food storage containers]] — 1 contributing source
 - [[dossiers/food-packaging-glass-jars|Glass jars]] — 0 contributing sources
-- [[dossiers/tableware-glassware|Glassware]] — 1 contributing source
+- [[dossiers/tableware-glassware|Glassware]] — 2 contributing sources
 - [[dossiers/hair-dye-rinse-off|Hair dye/color rinses (rinse-off after processing)]] — 1 contributing source
 - [[dossiers/hair-removal-products|Hair removal products (depilatory creams)]] — 0 contributing sources
 - [[dossiers/hand-soap|Hand soap (liquid and bar)]] — 0 contributing sources
@@ -199,7 +199,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/menstrual-discs|Menstrual discs]] — 0 contributing sources
 - [[dossiers/menstrual-pads|Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)]] — 1 contributing source
 - [[dossiers/menstrual-tampons|Menstrual tampons (scented/unscented; applicator tested as distinct component)]] — 0 contributing sources
-- [[dossiers/cookware-metal-alloy|Metal and alloy cookware (cast iron, stainless steel, aluminum)]] — 4 contributing sources
+- [[dossiers/cookware-metal-alloy|Metal and alloy cookware (cast iron, stainless steel, aluminum)]] — 5 contributing sources
 - [[dossiers/tableware-metal-bottles-tumblers|Metal bottles/tumblers]] — 2 contributing sources
 - [[dossiers/utensils-metal|Metal utensils]] — 5 contributing sources
 - [[dossiers/pet-milk-replacers-specialty-liquids|Milk replacers and specialty pet liquids]] — 0 contributing sources
@@ -257,7 +257,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/pre-treaters-stain-removers|Pre-treaters (spray/gel/stick) and stand-alone stain/spot removers]] — 0 contributing sources
 - [[dossiers/pet-supplements-probiotics-digestive|Probiotics/digestive aids]] — 0 contributing sources
 - [[dossiers/processed-meats|Processed meats (sausage, deli meat, bacon, hot dogs)]] — 9 contributing sources
-- [[dossiers/toys-projectile-guns|Projectile toys and toy guns]] — 0 contributing sources
+- [[dossiers/toys-projectile-guns|Projectile toys and toy guns]] — 1 contributing source
 - [[dossiers/toys-rattles|Rattles]] — 2 contributing sources
 - [[dossiers/pet-food-raw|Raw pet foods (frozen/chilled raw diets)]] — 0 contributing sources
 - [[dossiers/air-product-refill-materials|Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills)]] — 0 contributing sources
@@ -285,7 +285,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/toys-squeeze|Squeeze toys]] — 2 contributing sources
 - [[dossiers/toys-stroller-carriage|Stroller/carriage toys]] — 0 contributing sources
 - [[dossiers/strollers|Strollers]] — 0 contributing sources
-- [[dossiers/toys-stuffed-bean-bag|Stuffed toys and bean bag-type toys]] — 3 contributing sources
+- [[dossiers/toys-stuffed-bean-bag|Stuffed toys and bean bag-type toys]] — 4 contributing sources
 - [[dossiers/toys-stuffing-materials|Stuffing materials]] — 0 contributing sources
 - [[dossiers/sun-suntan-products|Sun/suntan products (including spray, self-tan, airbrush)]] — 5 contributing sources
 - [[dossiers/swings-and-bouncers|Swings and bouncers]] — 0 contributing sources
@@ -296,7 +296,7 @@ One version-pinned evidence dossier per certified product category, assembling t
 - [[dossiers/pet-toppers-mixers-broths|Toppers/mixers/broths]] — 0 contributing sources
 - [[dossiers/toy-chests|Toy chests]] — 0 contributing sources
 - [[dossiers/toy-pacifiers|Toy pacifiers (toy-designated)]] — 0 contributing sources
-- [[dossiers/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] — 8 contributing sources
+- [[dossiers/toys-substrate-materials|Toy substrate materials (accessible plastics/metals/woods/rubbers)]] — 10 contributing sources
 - [[dossiers/toys-attached-cribs-playpens|Toys attached to cribs/playpens]] — 0 contributing sources
 - [[dossiers/toys-with-magnets|Toys with magnets]] — 0 contributing sources
 - [[dossiers/true-tea-camellia-sinensis|true-tea-camellia-sinensis]] — 8 contributing sources

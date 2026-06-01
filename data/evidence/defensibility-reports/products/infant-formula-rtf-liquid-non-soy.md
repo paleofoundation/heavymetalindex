@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-rtf-liquid-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 925d6d0963a4c4afc7e65865ad8e2735064c99bda49c1c59723dd34d3d8e650e
+source_page_sha256: b9630b8d089b7b523d2b596e05f04493d481c1261dd80031b82ddf33927506d9
 total_claims: 57
 cited_claims: 57
 uncited_claims: 0
-distinct_cited_targets: 59
-distinct_cited_sources: 54
+distinct_cited_targets: 60
+distinct_cited_sources: 55
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 57 |
 | cited claims | 57 |
 | uncited claims | 0 |
-| distinct cited targets | 59 |
-| distinct cited `sources/` pages | 54 |
+| distinct cited targets | 60 |
+| distinct cited `sources/` pages | 55 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 
@@ -372,7 +372,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.049 µg/kg`
 - Context: `S Cr speciation in 10 infant formula milk samples: Cr(VI) not quantified at LOQ 0.049 µg/kg; Cr is present exclusively a`
-- Cited targets (48):
+- Cited targets (49):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -392,6 +392,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -472,7 +474,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.3 µg/kg`
 - Context: `S Cr speciation in 68 French milk and dairy samples: Cr(VI) not detected at LOD 0.3 µg/kg in any sample; provides chemis`
-- Cited targets (48):
+- Cited targets (49):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -492,6 +494,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -572,7 +576,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1956 µg/L`
 - Context: `cription infant formulas (ready-to-drink and powdered); ready-to-drink range 50–1956 µg/L, demonstrating the upper bound`
-- Cited targets (48):
+- Cited targets (49):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -592,6 +596,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -672,7 +678,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `34 µg/L`
 - Context: `d | iAs by HPLC-ICP-MS in 5 hydrolysed rice formula products (EU): iAs range 10–34 µg/L as-prepared, substantially above`
-- Cited targets (48):
+- Cited targets (49):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -692,6 +698,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -772,7 +780,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `430 µg/L`
 - Context: `-reviewed | Al by TH-GFAAS in 10 UK ready-to-drink infant formula products (100–430 µg/L) and 20 powdered formulas; sepa`
-- Cited targets (48):
+- Cited targets (49):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -792,6 +800,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -872,7 +882,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `12 ppb`
 - Context: `s | 2012 | Peer-reviewed | tAs and iAs ICP-MS in 15 standard infant formulas (2–12 ppb tAs powder) and 2 organic brown-r`
-- Cited targets (48):
+- Cited targets (49):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -892,6 +902,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -972,7 +984,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `700 µg/L`
 - Context: `by TH-GFAAS in 15 UK infant formula products comparing ready-made liquids (176–700 µg/L) with powdered formulas and one`
-- Cited targets (48):
+- Cited targets (49):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -992,6 +1004,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -1072,7 +1086,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2.5 µg/kg`
 - Context: `9 | Government report | EFSA CONTAM Panel opinion establishing the EU Cd TWI of 2.5 µg/kg body weight per week; foundati`
-- Cited targets (48):
+- Cited targets (49):
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/amarh2023-ghana-infant-food-heavy-metals\.md` (page missing)
@@ -1092,6 +1106,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -1234,6 +1250,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/chuchu2013-aluminium-in-infant-formulas\.md` | sources | 0 | — | — |
 | `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
+| `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\.md` | sources | 0 | — | — |

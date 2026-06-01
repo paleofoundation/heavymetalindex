@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 176e310bc2cb3ac9963f1386acf0ed39f91131aa1668f8bf169f51dc6f657c41
+source_page_sha256: 78b5d470fd3d1e7975a4b84c97bd72cfae80e92fdf7e04df80b1c15fa4469d35
 total_claims: 116
 cited_claims: 116
 uncited_claims: 0
-distinct_cited_targets: 111
-distinct_cited_sources: 106
+distinct_cited_targets: 112
+distinct_cited_sources: 107
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 116 |
 | cited claims | 116 |
 | uncited claims | 0 |
-| distinct cited targets | 111 |
-| distinct cited `sources/` pages | 106 |
+| distinct cited targets | 112 |
+| distinct cited `sources/` pages | 107 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 
@@ -1376,7 +1376,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `10 ppb`
 - Context: `and powdered infant formula (n=330 total; historical baseline; AAS method with 10 ppb LOD floor) | <!-- END: hmi-source`
-- Cited targets (87):
+- Cited targets (88):
   - `wiki/sources/abstract2020-content-dietary-exposure-toxic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin\.md` (page missing)
@@ -1416,6 +1416,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` (page missing)
     - audit rows: none
@@ -1691,6 +1693,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/chung2021-china-infant-formula-toxic-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
+| `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md` | sources | 0 | — | — |

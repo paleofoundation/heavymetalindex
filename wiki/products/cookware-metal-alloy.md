@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 4
+sources: 5
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -110,6 +110,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/alrajhi2021-imported-cookware-metal-release\|Alrajhi et al. 2021]]. *Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia*, Revista Internacional de Contaminacion Ambiental | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 | 3 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | *[awaiting synthesis]* |
 | 4 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/hobbie2014-stainless-steel-ni-cr-leaching\|Hobbie et al. 2014]]. *Stainless Steel Leaches Nickel and Chromium into Foods During Cooking*, Society of Toxicology 2014 Annual Meeting (poster) | 2014 | Conference proceedings | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
-| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 <!-- END: hmi-page-history -->

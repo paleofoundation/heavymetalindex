@@ -80,7 +80,7 @@ used_in_products: [infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 14
+sources: 15
 ---
 
 # Non-soy Infant Formula
@@ -106,8 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 10 | [[sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation\|Pacquette et al. 2016]]. *Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation*, Journal of AOAC International, Vol. 99, No. 3, pp. 766-779 | 2016 | Peer-reviewed | Single-laboratory ICP-MS method validation for simultaneous determination of As, Cd, Hg, and Pb in raw ingredients (acid casein, maltodextrin, skim milk powder), nutritional products, and infant formula; validated against NIST SRM 1548a, 1577c, and 1568b; analytical method basis for infant formula occurrence surveillance |
 | 11 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 | 2015 | Peer-reviewed | iAs and tAs exposure estimated by urinary biomarker and dietary intake in breastfed versus formula-fed US infants (Dartmouth New Hampshire Birth Cohort); formula-fed infants had higher urinary arsenic biomarkers than breastfed infants, establishing the US cohort evidence base for formula-associated infant As exposure |
 | 12 | [[sources/odhiambo2015-infant-formula-nairobi-trace-elements\|Odhiambo et al. 2015]]. *Toxic trace elements in different brands of milk infant formulae in Nairobi market, Kenya*, African Journal of Food Science | 2015 | Peer-reviewed | KE Al, Cd, Pb, Ni occurrence in Seven imported cow-milk infant formula powder products for infants aged 0-6 months, purchased from stores in Nairobi County,... (n=7) |
-| 13 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|Jackson et al. 2012]]. *Arsenic concentration and speciation in infant formulas and first foods*, Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 | 2012 | Peer-reviewed | tAs and iAs with full speciation (arsenite, arsenate, MMA, DMA) in US infant formulas and first foods by HPLC-ICP-MS; rice-component formulas carry substantially higher iAs than non-rice formulas; primary US speciation dataset for infant formula iAs assessment |
-| 14 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | UK Al occurrence in Fifteen commercial infant formula products on the UK market; ready-made liquid and powdered formats; cow-milk-based and soya-based; first-infant,... (n=15) |
+| 13 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | *[awaiting synthesis]* |
+| 14 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|Jackson et al. 2012]]. *Arsenic concentration and speciation in infant formulas and first foods*, Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 | 2012 | Peer-reviewed | tAs and iAs with full speciation (arsenite, arsenate, MMA, DMA) in US infant formulas and first foods by HPLC-ICP-MS; rice-component formulas carry substantially higher iAs than non-rice formulas; primary US speciation dataset for infant formula iAs assessment |
+| 15 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | UK Al occurrence in Fifteen commercial infant formula products on the UK market; ready-made liquid and powdered formats; cow-milk-based and soya-based; first-infant,... (n=15) |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -177,9 +178,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [3f1f72d](https://github.com/paleofoundation/heavymetalindex/commit/3f1f72d) | 2026-05-31 | v0→v1 reconciliation complete: body-table regenerator (sources-preserving) + restore spices Pb + sync 242 tables |
-| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 <!-- END: hmi-page-history -->

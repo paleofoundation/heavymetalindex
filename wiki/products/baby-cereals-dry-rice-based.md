@@ -30,7 +30,7 @@ cc_relationship:
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-03
-sources: 65
+sources: 66
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)
@@ -358,9 +358,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 60 | [[sources/mania2015-toxic-elements-infant-food-poland\|Mania et al. 2015]]. *Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland*, Polish Journal of Environmental Studies | 2015 | Peer-reviewed | PL/EU Pb, Cd, tAs, tHg occurrence in Approximately 1,000 commercial infant-food samples collected from retail markets in all Polish provinces during the 2009-2013 sanitary-epidemiological monitoring... (n=1000) |
 | 61 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | B-tier: iAs in 697-sample composite (FDA data + CR 2012 + 2014); documents geographic origin effect (US Arkansas/Louisiana/Texas highest; California basmati lowest) and that alternative grains carry substantially less iAs than rice |
 | 62 | [[sources/sipahi2014-toxic-metals-infant-formulas-turkey\|Sipahi et al. 2014]]. *Safety assessment of essential and toxic metals in infant formulas*, The Turkish Journal of Pediatrics 56(4):385-391 | 2014 | Peer-reviewed | Pb, Cd, Al, Mn, Cr, Co by GFAAS in 63 Turkish infant foods (n=23 cereal-based, n=28 milk-based, n=12 mixed); Cd significantly higher in cereal-based vs milk-based; Al unit ambiguity flagged in source page |
-| 63 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | iAs survey in ~1,300 US rice and rice-product samples; infant cereal (n=69) average 1.8 µg iAs/serving; largest US market survey of rice iAs at time of publication; geographic origin effect confirmed |
-| 64 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|Jackson et al. 2012]]. *Arsenic concentration and speciation in infant formulas and first foods*, Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 | 2012 | Peer-reviewed | Dartmouth group iAs speciation by HPLC-ICP-MS in US infant formulas and first foods; rice-containing formulas substantially higher iAs than dairy-based; As(V) dominant inorganic species; foundational speciation reference for infant-food As |
-| 65 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | Historical baseline: Cd, Cr, Pb, Ni, Co in 330 Canadian baby-food samples (1975 market) by AAS; LOD 10 ppb precludes modern percentile math; principal value is documenting the ~75× Pb reduction trajectory from 1980 (30 ppb mean prepared formula) to present |
+| 63 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | *[awaiting synthesis]* |
+| 64 | [[sources/fda2013-ias-rice-products-sampling\|FDA 2013]]. *Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013*, U.S. Food and Drug Administration | 2013 | Regulation | iAs survey in ~1,300 US rice and rice-product samples; infant cereal (n=69) average 1.8 µg iAs/serving; largest US market survey of rice iAs at time of publication; geographic origin effect confirmed |
+| 65 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods\|Jackson et al. 2012]]. *Arsenic concentration and speciation in infant formulas and first foods*, Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 | 2012 | Peer-reviewed | Dartmouth group iAs speciation by HPLC-ICP-MS in US infant formulas and first foods; rice-containing formulas substantially higher iAs than dairy-based; As(V) dominant inorganic species; foundational speciation reference for infant-food As |
+| 66 | [[sources/kirkpatrick1980-trace-elements-canadian-baby-foods\|Kirkpatrick et al. 1980]]. *The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants*, Canadian Institute of Food Science and Technology Journal 13(4):154-161 | 1980 | Peer-reviewed | Historical baseline: Cd, Cr, Pb, Ni, Co in 330 Canadian baby-food samples (1975 market) by AAS; LOD 10 ppb precludes modern percentile math; principal value is documenting the ~75× Pb reduction trajectory from 1980 (30 ppb mean prepared formula) to present |
 <!-- END: hmi-source-legend -->
 ## Historical recalls and enforcement
 
@@ -373,9 +374,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
-| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 <!-- END: hmi-page-history -->

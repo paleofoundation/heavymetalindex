@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bibs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d04a4df6afca6f660885111e9f08fd2efbbeff0e52f3626dadde4b88ca40eee1",
-      "content_bytes": 7804,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "0650dae826234e59bcd8c8e20b810c789aa56fdfca83390278ca0718599f4695",
+      "content_bytes": 7795,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/bibs.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/bibs.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "e9a204660e8f501852723408f0a3715ce8a840f8f949dbea864859f67e756efb",
-          "content_bytes": 38988,
-          "last_commit_sha": "651b046",
+          "content_sha256": "43f01d3fe79dc2ce74fbffe4d95457a73a8790db211d562e83a877e9b421f402",
+          "content_bytes": 39134,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 651b046:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

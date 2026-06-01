@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-dry-kibble",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6f40ec21ea2324b2b4fa49293744cdbdab862f220b9e0dbbf018863b12796006",
-      "content_bytes": 9368,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "2f51dd54eacf7bebb323d1470d36773495d2a537bcd5ebf89f4c42bdffb0d13d",
+      "content_bytes": 9359,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/pet-food-dry-kibble.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/pet-food-dry-kibble.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/du2025-petfood-china-metals",
         "content_pin": {
-          "content_sha256": "7b4b6de5dd013256dfd42ba7c38da7ba0bef02b0ae2d583654051e618b3cee0b",
-          "content_bytes": 14964,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "572cb50eedaaebf9e59b945da1ffcf6656026d67fd55efdca9c525ce80ca51fb",
+          "content_bytes": 14955,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/du2025-petfood-china-metals.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/du2025-petfood-china-metals.md | sha256sum"
         }
       },
       {
@@ -69,12 +69,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/haydous2025-pet-food-metals-lebanon-uae",
         "content_pin": {
-          "content_sha256": "0f78b525b428c347038ecd850d404bbf30372dda97cf253aa42ad8c5c522d2bb",
-          "content_bytes": 5599,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "9d6c4f8faf723b83a3e0edb09a19cd5d1265faac0bbbc28af1fdae5151b38460",
+          "content_bytes": 5590,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/haydous2025-pet-food-metals-lebanon-uae.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/haydous2025-pet-food-metals-lebanon-uae.md | sha256sum"
         }
       },
       {
@@ -97,12 +97,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kalicharan2025-heavy-metals-pet-food-south-africa",
         "content_pin": {
-          "content_sha256": "6e75636e48d69b09d9a7bf9bb1143df5c0d65d438e5c99b5f28ae4c55415b577",
-          "content_bytes": 11844,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "367451b12d3b3301d73c885917102a98bee10e2d146932952c7b406d66831e7b",
+          "content_bytes": 11835,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/kalicharan2025-heavy-metals-pet-food-south-africa.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/kalicharan2025-heavy-metals-pet-food-south-africa.md | sha256sum"
         }
       },
       {
@@ -119,12 +119,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kim-unknown-dog-food-trace-minerals",
         "content_pin": {
-          "content_sha256": "983dfff78cc07ec590eb7bf70c26b619a920bbdb89a47ed9e21f1def0f9eb465",
-          "content_bytes": 3814,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "120bf38f2e906f91b3df60f6e616217617fb4cc84d386a60a6ad19ee785f54d8",
+          "content_bytes": 3805,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/kim-unknown-dog-food-trace-minerals.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/kim-unknown-dog-food-trace-minerals.md | sha256sum"
         }
       },
       {
@@ -142,12 +142,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kim2018-dry-dog-food-heavy-metals",
         "content_pin": {
-          "content_sha256": "db9e1aef95f851e0a5b361e60007c8db82de394021000052a8c53a006cbf2eef",
-          "content_bytes": 12468,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "0019df2bb18a012b327a5fed9580ed367f721995f644915df13abb81a4598c2f",
+          "content_bytes": 12459,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/kim2018-dry-dog-food-heavy-metals.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/kim2018-dry-dog-food-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -162,12 +162,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pain2023-lead-pheasant-dogfood-uk",
         "content_pin": {
-          "content_sha256": "722466ffbb3ac468acfdc1bf251714a0a3cad49e6880988798c1cb133c5c47a4",
-          "content_bytes": 4807,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "850c1e2273c967570b7747a81bad4efd6ac1db7c2ee993b73a376556593f9233",
+          "content_bytes": 4798,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
         }
       }
     ]

@@ -2,7 +2,7 @@
 source_page: wiki/products/toothpaste.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9def2b21d9d5400e64c4c9370a368fc4b272adeb47fbcf53ab778fc3a47ab70c
+source_page_sha256: 0ad68b016372ebee43c6be0b7ac2729f350a53493706a226f6a77b75f75f5b53
 total_claims: 7
 cited_claims: 1
 uncited_claims: 6
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 1
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 1 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 

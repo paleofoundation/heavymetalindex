@@ -87,6 +87,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [28ce054](https://github.com/paleofoundation/heavymetalindex/commit/28ce054) | 2026-05-31 | ingest: padoh2023-pahan-727-cpsc-lead-cup-recall fresh from Manual Fetch Kimi/_extracted_infantcontact_01_Bottles_Nipples_SippyCups |
 <!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/hand-soap",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6333d11c01cb0fc8166ac2905b351a92bdc852ffff545c443e697cb52b5f6295",
-      "content_bytes": 7304,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "ae032231c08328a620cd8e0ebb83170d73c9b804cc5b32787879594fa7ec6aff",
+      "content_bytes": 7295,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/hand-soap.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/hand-soap.md | sha256sum"
     }
   },
   "evidence_base": {

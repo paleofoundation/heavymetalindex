@@ -87,7 +87,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 30
+sources: 31
 ---
 
 # Tomato
@@ -224,7 +224,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 27 | [[sources/salhotra2017-vegetables-fruits-heavy-metals\|Salhotra et al. 2017]]. *Determination of heavy metals contamination in some vegetables and fruits samples from the market of Jagdalpur, Chhattisgarh State*, IOSR Journal of Applied Chemistry | 2017 | Peer-reviewed | IN Pb, Cd, Cu, Fe, Co occurrence in vegetable and fruit samples from Jagdalpur market, Chhattisgarh State, India (n=ten vegetables and fruits) |
 | 28 | [[sources/jaishree2015-effluent-irrigated-crops-metals\|Jaishree et al. 2015]]. *Heavy metal accumulation in vegetables irrigated with industrial effluent*, International Journal of Innovative Research in Science, Engineering and Technology | 2015 | Peer-reviewed | IN Cd, Ni, Pb, Cu, Cr, Mn, Zn occurrence in Vegetables and wheat grown under industrial-effluent irrigation conditions in India |
 | 29 | [[sources/mohod2015-spinach-tomato-metals\|Mohod 2015]]. *A review on the concentration of the heavy metals in vegetable samples like spinach and tomato grown near the area of Amba Nalla of Amravati City*, International Journal of Innovative Research in Science, Engineering and Technology | 2015 | Peer-reviewed | IN Pb, Cd, Cu, Zn occurrence in spinach leaf and tomato grown near Amba Nalla, Amravati City, India (n=not reported in abstract) |
-| 30 | [[sources/david2008-heavy-metals-canned-tomato-paste-romania\|David et al. 2008]]. *The heavy metals analyses in canned tomato paste*, Journal of Agroalimentary Processes and Technologies | 2008 | Peer-reviewed | RO/IT Pb, Cd, Sn, Al, Cr, Fe, Zn, tAs occurrence in Five commercial canned tomato paste and tomato sauce products sampled from the Romanian retail market in 2008: three... (n=5) |
+| 30 | [[sources/hobbie2014-stainless-steel-ni-cr-leaching\|Hobbie et al. 2014]]. *Stainless Steel Leaches Nickel and Chromium into Foods During Cooking*, Society of Toxicology 2014 Annual Meeting (poster) | 2014 | Conference proceedings | *[awaiting synthesis]* |
+| 31 | [[sources/david2008-heavy-metals-canned-tomato-paste-romania\|David et al. 2008]]. *The heavy metals analyses in canned tomato paste*, Journal of Agroalimentary Processes and Technologies | 2008 | Peer-reviewed | RO/IT Pb, Cd, Sn, Al, Cr, Fe, Zn, tAs occurrence in Five commercial canned tomato paste and tomato sauce products sampled from the Romanian retail market in 2008: three... (n=5) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -234,9 +235,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [3f1f72d](https://github.com/paleofoundation/heavymetalindex/commit/3f1f72d) | 2026-05-31 | v0→v1 reconciliation complete: body-table regenerator (sources-preserving) + restore spices Pb + sync 242 tables |
-| [49ecdb7](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb7) | 2026-05-30 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-30T18-11-25Z |
 <!-- END: hmi-page-history -->

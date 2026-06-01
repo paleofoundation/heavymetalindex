@@ -69,5 +69,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [799138c](https://github.com/paleofoundation/heavymetalindex/commit/799138c) | 2026-06-01 | ingest auto-fetched 2026-06-01 00:50 batch 1: 2 source pages |
 <!-- END: hmi-page-history -->

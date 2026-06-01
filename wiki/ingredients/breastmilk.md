@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 31
+sources: 32
 ---
 
 # Breastmilk (Human Milk)
@@ -145,7 +145,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 17 | [[sources/klein2017-human-milk-trace-elements\|Klein et al. 2017]]. *Concentrations of trace elements in human milk: Comparisons among women in Argentina, Namibia, Poland, and the United States*, PLOS ONE | 2017 | Peer-reviewed | AR/NA/PL Pb, tAs occurrence in lactating mothers from Argentina, Namibia, Poland, and the United States (n=70) |
 | 18 | [[sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\|Carignan et al. 2016]]. *Contribution of breast milk and formula to arsenic exposure during the first year of life in a U.S. prospective cohort*, Journal of Exposure Science and Environmental Epidemiology, Vol. 26, No. 5, pp. 452-457 | 2016 | Peer-reviewed | Prospective U.S. cohort quantifying iAs/tAs exposure from human milk vs formula across the first year of life; feeding mode and rice-cereal introduction are primary exposure determinants |
 | 19 | [[sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\|Carignan et al. 2015]]. *Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort*, Environmental Health Perspectives, Vol. 123, No. 5, pp. 500-506 | 2015 | Peer-reviewed | U.S. infant cohort study using urinary As biomarkers to compare arsenic exposure in breastfed vs formula-fed infants; formula-fed infants had higher urinary As levels, establishing feeding mode as a key determinant |
-| 20 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR Al toxicological profile covering dietary exposure routes including human milk and infant formula; includes Al MRL derivation and infant-exposure context |
+| 20 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | *[awaiting synthesis]* |
+| 21 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR Al toxicological profile covering dietary exposure routes including human milk and infant formula; includes Al MRL derivation and infant-exposure context |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -198,9 +199,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [3f1f72d](https://github.com/paleofoundation/heavymetalindex/commit/3f1f72d) | 2026-05-31 | v0→v1 reconciliation complete: body-table regenerator (sources-preserving) + restore spices Pb + sync 242 tables |
-| [49ecdb7](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb7) | 2026-05-30 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-30T18-11-25Z |
 <!-- END: hmi-page-history -->

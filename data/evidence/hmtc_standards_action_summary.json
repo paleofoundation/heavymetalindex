@@ -1,112 +1,109 @@
 {
-  "generated_at": "2026-06-01T00:38:28.696Z",
+  "generated_at": "2026-06-01T03:02:20.125Z",
   "product_filter": "all",
-  "total_action_rows": 88,
+  "total_action_rows": 83,
   "by_action_priority": {
-    "P0": 7,
     "P1": 15,
-    "P2": 66
+    "P2": 68
   },
   "by_action_type": {
-    "extract-local-source-values": 7,
     "confirm-local-pdf-match": 12,
     "resolve-species-specific-gap": 3,
-    "find-or-route-fit-source-evidence": 66
+    "find-or-route-fit-source-evidence": 68
   },
   "by_aggregate_status": {
-    "BLOCKED: local extraction pending": 7,
     "BLOCKED: PDF match review pending": 12,
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: no structured evidence loaded": 66
+    "BLOCKED: no structured evidence loaded": 68
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 73,
+    "independent_p97_pooled": 68,
     "clean_p97_pooled": 15
   },
   "top_actions": [
     {
       "action_order": 1,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "baby-wipes",
-      "metal_species": "Pb; Cd"
-    },
-    {
-      "action_order": 2,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "bottled-drinking-water",
-      "metal_species": "tAs"
-    },
-    {
-      "action_order": 3,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "childrens-lip-balm-mineral-bearing",
-      "metal_species": "Pb; Cd; Cr"
-    },
-    {
-      "action_order": 4,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "childrens-makeup",
-      "metal_species": "Pb; Cr"
-    },
-    {
-      "action_order": 5,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "childrens-nail-polish",
-      "metal_species": "Pb; Cr"
-    },
-    {
-      "action_order": 6,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "face-paint",
-      "metal_species": "Pb; Cd; tAs"
-    },
-    {
-      "action_order": 7,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "pacifiers-and-sucking-teething-aids",
-      "metal_species": "Pb; Cd; tAs"
-    },
-    {
-      "action_order": 8,
       "action_priority": "P1",
       "action_type": "confirm-local-pdf-match",
       "product_slug": "cashews",
       "metal_species": "Pb; Cd; Ni"
     },
     {
-      "action_order": 9,
+      "action_order": 2,
       "action_priority": "P1",
       "action_type": "confirm-local-pdf-match",
       "product_slug": "dried-fruit",
       "metal_species": "tAs"
     },
     {
-      "action_order": 10,
+      "action_order": 3,
       "action_priority": "P1",
       "action_type": "confirm-local-pdf-match",
       "product_slug": "fresh-fruit",
       "metal_species": "tAs"
     },
     {
-      "action_order": 11,
+      "action_order": 4,
       "action_priority": "P1",
       "action_type": "confirm-local-pdf-match",
       "product_slug": "infant-food-puree",
       "metal_species": "Pb; Cd; iAs; tAs"
     },
     {
-      "action_order": 12,
+      "action_order": 5,
       "action_priority": "P1",
       "action_type": "confirm-local-pdf-match",
       "product_slug": "infant-formula",
       "metal_species": "Pb; Cd; iAs"
+    },
+    {
+      "action_order": 6,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "infant-formula-dairy",
+      "metal_species": "tAs"
+    },
+    {
+      "action_order": 7,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "infant-formula-dairy-free",
+      "metal_species": "tAs"
+    },
+    {
+      "action_order": 8,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "infant-rice-cereal",
+      "metal_species": "iAs"
+    },
+    {
+      "action_order": 9,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "nuts-seeds-other",
+      "metal_species": "Pb; Cd; Ni"
+    },
+    {
+      "action_order": 10,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "peanuts",
+      "metal_species": "Pb; Cd; Ni"
+    },
+    {
+      "action_order": 11,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "snack-bars-energy-bars",
+      "metal_species": "tAs"
+    },
+    {
+      "action_order": 12,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "teething-and-snacks-non-rice",
+      "metal_species": "iAs"
     }
   ]
 }

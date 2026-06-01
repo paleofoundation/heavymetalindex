@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-wipes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "18d6e636ea20f59efdc925623907dd1d140ed2a8aedc1d7e386201779b400b7f",
-      "content_bytes": 10470,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "69af858844fc6818ded685f1bd0d78064dd103a5eb9ab413a260e1335b2d8acb",
+      "content_bytes": 10461,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/baby-wipes.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/baby-wipes.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
         "content_pin": {
-          "content_sha256": "1e7b0c553399b2327150270759d96d199710d21028fe383dddec26c919634af2",
-          "content_bytes": 8517,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "9a7adf9c50ef716314a2a20c0068f6c0e062080767ce56a55e7ebb70a70d153c",
+          "content_bytes": 8508,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
         }
       },
       {
@@ -60,12 +60,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/rahma2022-infant-skin-barrier-function-review",
         "content_pin": {
-          "content_sha256": "f78b48912139e53da21f6919a4b3daf5605a2020ff080fd2051460d6b2c4d067",
-          "content_bytes": 15936,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "ede6a26d3f8686663f97015681d71b148650820a8a1e3cbd30bd1d2af9e7fd00",
+          "content_bytes": 15927,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/rahma2022-infant-skin-barrier-function-review.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/rahma2022-infant-skin-barrier-function-review.md | sha256sum"
         }
       },
       {
@@ -86,12 +86,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
         "content_pin": {
-          "content_sha256": "2dc8401f7950e244d2da36d6e04fccbd6b8fad1eaa60b2096c4e07a3e8ed0594",
-          "content_bytes": 24323,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "f80f403425c49a5a236c0a945eda1f456ac2eef58234da3c1b0942c6d4903f14",
+          "content_bytes": 24314,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
         }
       },
       {
@@ -115,12 +115,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "e9a204660e8f501852723408f0a3715ce8a840f8f949dbea864859f67e756efb",
-          "content_bytes": 38988,
-          "last_commit_sha": "651b046",
+          "content_sha256": "43f01d3fe79dc2ce74fbffe4d95457a73a8790db211d562e83a877e9b421f402",
+          "content_bytes": 39134,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 651b046:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

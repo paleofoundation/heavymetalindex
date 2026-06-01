@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 4
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -108,8 +108,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/lai2025-infant-diaper-phthalate-dna-oxidation\|Lai et al. 2025]]. *Infants' Dermal Exposure to Phthalates from Disposable Baby Diapers and Its Association with DNA Oxidative Damage*, Toxics 13(3): 218 | 2025 | Peer-reviewed | This Toxics paper quantifies six phthalates (DEP, DiBP, DnBP, DEHP, and two non-detectable isomers) in inner-layer disposable-diaper samples from 66... |
 | 2 | [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde\|Nyamukamba et al. 2023]]. *Determination of Selected Harmful Substances in Baby Diapers Available on the South African Market*, International Journal of Environmental Research and Public Health 20(2): 1023 | 2023 | Peer-reviewed | ZA/CN/PL Pb, Cu, tAs, Zn, Co, Ni, Cr, Cd, Mn, Se occurrence in 20 disposable baby diapers procured in Cape Town, South Africa, across three retail tiers: high-end (H1-H5, n=5), medium-end... (n=20) |
-| 3 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers,... |
-| 4 | [[sources/smajgl2015-tin-baby-diapers-croatia\|Šmajgl et al. 2015]]. *Occurrence of tin in disposable baby diapers*, X-Ray Spectrometry | 2015 | Peer-reviewed | HR/EU Sn occurrence in 6 brands of disposable baby diapers purchased in Croatia 2012-2014. Top sheet and adhesive tape system analyzed separately... (n=6) |
+| 3 | [[sources/bernard2022-anses-diaper-risk-reevaluation\|Bernard 2022]]. *Dermal Exposure to Hazardous Chemicals in Baby Diapers: A Re-Evaluation of the Quantitative Health Risk Assessment Conducted by The French Agency for Food, Environmental and Occupational Health and Safety (ANSES)*, International Journal of Environmental Research and Public Health 2022, 19(7), 4159. MDPI. Review article. Received 29 July 2021; accepted 25 September 2021; published 31 March 2022. | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/anses2019-baby-diaper-safety-france\|ANSES 2019]]. *Opinion of the French Agency for Food, Environmental and Occupational Health & Safety on the safety of baby diapers (revised opinion, Request No 2017-SA-0019)*, ANSES Opinion, Request No 2017-SA-0019, Maisons-Alfort, 17 January 2019 (revised; cancels and replaces Opinion of 6 December 2018). English translation of the original French opinion. | 2019 | Regulatory | *[awaiting synthesis]* |
+| 5 | [[sources/bfr2019-diaper-substances-anses-commentary\|BfR 2019]]. *Preliminary estimation of undesired substances in diapers*, BfR Communication No. 005/2019 of 01 March 2019, Bundesinstitut für Risikobewertung (German Federal Institute for Risk Assessment), Berlin. English translation of the original German communication. | 2019 | Regulatory | *[awaiting synthesis]* |
+| 6 | [[sources/bae2018-absorbent-hygiene-pads-safety-review\|Bae et al. 2018]]. *Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods*, Sustainability 10(11): 4146 | 2018 | Peer-reviewed | This Sustainability review article describes the exposure-based quantitative risk-assessment (QRA) framework applied to disposable absorbent hygiene pads — baby diapers,... |
+| 7 | [[sources/smajgl2015-tin-baby-diapers-croatia\|Šmajgl et al. 2015]]. *Occurrence of tin in disposable baby diapers*, X-Ray Spectrometry | 2015 | Peer-reviewed | HR/EU Sn occurrence in 6 brands of disposable baby diapers purchased in Croatia 2012-2014. Top sheet and adhesive tape system analyzed separately... (n=6) |
+| 8 | [[sources/anderson2002-uk-us-diaper-voc-emissions-mice\|Anderson et al. 2002]]. *Toxic Emissions from British and American Brands of Disposable Diapers*, Proceedings: Indoor Air 2002, pp. 636-640 (paper CIB6678) | 2002 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +123,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
-| [9658f6b](https://github.com/paleofoundation/heavymetalindex/commit/9658f6b) | 2026-05-30 | codex sprint 2026-05-30 1055: post-ingest generated checks |
 <!-- END: hmi-page-history -->

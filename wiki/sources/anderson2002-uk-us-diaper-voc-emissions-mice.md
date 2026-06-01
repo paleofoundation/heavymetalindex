@@ -103,3 +103,13 @@ Four disposable-diaper samples (two unnamed brand lines, one British-manufacture
 ## Ingest log
 
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, single-PDF invocation): NEW path. Three identity checks against `wiki/sources/` returned no hits: no DOI to check (paper has none); raw_handle `MFK_12-cib6678-2000` absent; cite-key stem `anderson2002` absent (other Anderson*-authored sources in the corpus are Hands 2024 / Han 2024 / Carey 2015 / no name overlap). PDF SHA-256 `84df660bbe90c84c868e83388b5eae109bebc4358eea14f0f4edaa8eab6a4447` matches the tracker entry. Paper measures only TVOC and mouse-bioassay endpoints — zero heavy metals — ingested as out-of-core-scope methodology / exposure-pathway reference per the `lai2025` and `lea2018` precedents. Routed to `[[products/diapers-and-components]]` (HMTc Cat 9 Row 7 scaffold) so the source is discoverable on the diaper page; `metals: []` correctly reflects no metal-occurrence contribution.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [22f7457](https://github.com/paleofoundation/heavymetalindex/commit/22f7457) | 2026-06-01 | ingest: anderson2002-uk-us-diaper-voc-emissions-mice fresh from MFK/03_Diapers |
+<!-- END: hmi-page-history -->

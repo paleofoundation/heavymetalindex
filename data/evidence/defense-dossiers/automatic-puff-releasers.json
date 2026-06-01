@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/automatic-puff-releasers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e6caff001fd007d62581a7c80570def51d5d863c4ab3bd9c6619cd548848e614",
-      "content_bytes": 7334,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "df5783820c95f7f6878094145ba9028014c48f58a3f12052215d4f1321c7c70d",
+      "content_bytes": 7325,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/automatic-puff-releasers.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/automatic-puff-releasers.md | sha256sum"
     }
   },
   "evidence_base": {

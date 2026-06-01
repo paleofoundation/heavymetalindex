@@ -2,7 +2,7 @@
 source_page: wiki/products/sunflower-seeds.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 078d439aec35e3ca160a384a539cf86e55cbee3b87a98fd09de8c1c2288a1b3c
+source_page_sha256: 40376248c65662b9ce1845daa13ecf8a56b62d1eeece99b156ed0e657c33738e
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 

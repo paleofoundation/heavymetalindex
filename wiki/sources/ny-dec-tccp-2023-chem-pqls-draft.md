@@ -132,3 +132,14 @@ App: Country-of-origin or state-of-sale "US-NY" plus product category "children'
 - Product scope: ECL § 37-0901 et seq. applies to all consumer products primarily intended for children aged twelve and under. The `products:` array was scoped to the HMI taxonomy product slugs most directly matched by the regulation's coverage (children's personal care, cosmetics, baby-care personal-care, diaper-care, painted toys, pacifiers, infant clothing). Other potentially in-scope children's product categories (cribs, strollers, car seats, high chairs, bibs, blankets) were not added because the regulation does not single them out from the general "children's product" class and broad enumeration would over-fan-out the routing layer beyond the heavy-metals-relevant subset. The matrices field carries the broader scope (`childrens-product-finished-good`).
 - No brand-by-brand contamination data appears in this document (it is a regulatory chemical list, not a product-testing study). Brand names appearing in the document — AFIRM members (Apparel & Footwear International RSL Management Working Group), Bed Bath & Beyond, Columbia Sportswear, Deckers Brands, Nike, Peak Performance, Tesco — are referenced as Restricted Substances List authorities the agency consulted to derive PQLs. These are method-source attributions per the Part 12 Exception 2 ("Scientific-method vendor/material names") carve-out, not brand-attributed contamination measurements. They appear in the Methods (brief) section without violation.
 - Audit subagent (2026-06-01) flagged one ⚠️ prose contradiction in Implications: the prior phrasing "one order of magnitude looser than the WA TFCA 2023 toothpaste cap of 1000 µg/kg (= 1.0 ppm)" was self-contradictory, since 1 ppm = 1000 µg/kg. Verified against unit arithmetic; corrected by rewriting the clause to state the two regulations land at the same per-product level for lead and showing the unit conversion explicitly. Checks 1-5 otherwise ✅; subagent verdict PROMOTE with optional prose polish.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [56d93c6](https://github.com/paleofoundation/heavymetalindex/commit/56d93c6) | 2026-06-01 | audit: ny-dec-tccp-2023-chem-pqls-draft revised |
+| [f9dd3ea](https://github.com/paleofoundation/heavymetalindex/commit/f9dd3ea) | 2026-06-01 | ingest: ny-dec-tccp-2023-chem-pqls-draft fresh from MFK/05_Regulatory_CPSIA_CPSC_FDA |
+<!-- END: hmi-page-history -->

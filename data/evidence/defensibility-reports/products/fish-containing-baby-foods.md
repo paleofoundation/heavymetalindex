@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-containing-baby-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2f30490337101f0048734e867b508cc6adf6cc27dce4117af377e9232dff5def
+source_page_sha256: aeaf7fc88eced5999934760e8f029a6ae03294d843fd7d33daf54a51f92142bb
 total_claims: 53
 cited_claims: 53
 uncited_claims: 0
-distinct_cited_targets: 23
-distinct_cited_sources: 17
+distinct_cited_targets: 24
+distinct_cited_sources: 18
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 509
+audit_log_total_rows: 515
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 53 |
 | cited claims | 53 |
 | uncited claims | 0 |
-| distinct cited targets | 23 |
-| distinct cited `sources/` pages | 17 |
+| distinct cited targets | 24 |
+| distinct cited `sources/` pages | 18 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 509 |
+| audit log rows read | 515 |
 
 ## Page-level audit rows
 
@@ -594,12 +594,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.008 mg/kg`
 - Context: `Hg detection rates and medians; fish mixes had the highest reported Pb median (0.008 mg/kg) among all baby-food categor`
-- Cited targets (12):
+- Cited targets (13):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
     - audit rows: none
@@ -622,12 +624,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20.15 µg/kg`
 - Context: `h ready-to-eat baby foods; fish dinner subcategory had highest reported Cd (max 20.15 µg/kg) among product groups tested`
-- Cited targets (12):
+- Cited targets (13):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
     - audit rows: none
@@ -650,12 +654,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.0 µg/g`
 - Context: `a (1969–2014); 30% exceed EPA Fish Tissue Residue Criterion and 3.9% exceed FDA 1.0 µg/g action level, anchoring upstrea`
-- Cited targets (12):
+- Cited targets (13):
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
     - audit rows: none
   - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
     - audit rows: none
@@ -695,6 +701,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
+| `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |

@@ -83,7 +83,7 @@ used_in_products: [flavored-waters]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 31
+sources: 32
 ---
 
 # Water
@@ -192,13 +192,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 22 | [[sources/jecfa-82nd-arsenic\|JECFA 2017]]. *Safety Evaluation of Certain Food Additives (Arsenic), 82nd Meeting of JECFA*, WHO Food Additives Series 73 | 2017 | Government report | JECFA arsenic monograph confirming the BMDL01 framework for iAs risk characterization, with drinking water the canonical human exposure route for dose-response anchoring |
 | 23 | [[sources/unknown2016-risk-arsenic-rice-cereal\|Shibata et al. 2016]]. *Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S.*, International Journal of Environmental Research and Public Health | 2016 | Peer reviewed journal | Cited reference from International Journal of Environmental Research and Public Health |
 | 24 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples from 15 European countries (2003–2012) (n=18885) |
-| 25 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | European iAs occurrence across 100,000+ data points with water as a significant exposure pathway; European dietary iAs ranges 0.13–0.56 µg/kg b.w./day with children exposed at 2–3× adult per-kg rates |
-| 26 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR MRL of 1 mg Al/kg/day for chronic oral Al exposure, with water identified as a background Al exposure route alongside infant formula and food |
-| 27 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal (2008) 754, 1-34 | 2008 | Government report | EFSA TWI of 1 mg Al/kg b.w./week, noting water as a contributing Al exposure pathway in addition to food additives and infant formula |
-| 28 | [[sources/atsdr-arsenic-toxprofile-2007\|ATSDR 2007]]. *Toxicological Profile for Arsenic*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2007 | Government report | Comprehensive iAs toxicology synthesis with MRL derivation, using drinking water as the primary human exposure route for dose-response anchoring |
-| 29 | [[sources/epa-arsenic-drinking-water-mcl\|EPA 2001]]. *EPA Drinking Water Arsenic MCL Rule (10 ppb)*, U.S. Environmental Protection Agency | 2001 | Government report | The US EPA MCL of 10 ppb for iAs in drinking water, the operational regulatory limit directly applicable to municipal and bottled water |
-| 30 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd, Pb, Hg, and iAs across food and feed matrices, including limits applicable to natural mineral waters |
-| 31 | [[sources/epa-iris-cadmium-1989\|EPA 1989]]. *Cadmium (CASRN 7440-43-9) — IRIS Chemical Assessment Summary*, U.S. Environmental Protection Agency, Integrated Risk Information System | 1989 | Government report | EPA IRIS RfD for Cd from drinking water (5×10⁻⁴ mg/kg/day), a route-specific value reflecting higher Cd absorption from water than from food |
+| 25 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | *[awaiting synthesis]* |
+| 26 | [[sources/efsa-arsenic-contam-2009\|EFSA 2009]]. *Scientific Opinion on Arsenic in Food*, EFSA Journal 2009;7(10):1351 | 2009 | Government report | European iAs occurrence across 100,000+ data points with water as a significant exposure pathway; European dietary iAs ranges 0.13–0.56 µg/kg b.w./day with children exposed at 2–3× adult per-kg rates |
+| 27 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR MRL of 1 mg Al/kg/day for chronic oral Al exposure, with water identified as a background Al exposure route alongside infant formula and food |
+| 28 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal (2008) 754, 1-34 | 2008 | Government report | EFSA TWI of 1 mg Al/kg b.w./week, noting water as a contributing Al exposure pathway in addition to food additives and infant formula |
+| 29 | [[sources/atsdr-arsenic-toxprofile-2007\|ATSDR 2007]]. *Toxicological Profile for Arsenic*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2007 | Government report | Comprehensive iAs toxicology synthesis with MRL derivation, using drinking water as the primary human exposure route for dose-response anchoring |
+| 30 | [[sources/epa-arsenic-drinking-water-mcl\|EPA 2001]]. *EPA Drinking Water Arsenic MCL Rule (10 ppb)*, U.S. Environmental Protection Agency | 2001 | Government report | The US EPA MCL of 10 ppb for iAs in drinking water, the operational regulatory limit directly applicable to municipal and bottled water |
+| 31 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | International Codex MLs for Cd, Pb, Hg, and iAs across food and feed matrices, including limits applicable to natural mineral waters |
+| 32 | [[sources/epa-iris-cadmium-1989\|EPA 1989]]. *Cadmium (CASRN 7440-43-9) — IRIS Chemical Assessment Summary*, U.S. Environmental Protection Agency, Integrated Risk Information System | 1989 | Government report | EPA IRIS RfD for Cd from drinking water (5×10⁻⁴ mg/kg/day), a route-specific value reflecting higher Cd absorption from water than from food |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -208,9 +209,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [3f1f72d](https://github.com/paleofoundation/heavymetalindex/commit/3f1f72d) | 2026-05-31 | v0→v1 reconciliation complete: body-table regenerator (sources-preserving) + restore spices Pb + sync 242 tables |
-| [49ecdb7](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb7) | 2026-05-30 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-30T18-11-25Z |
 <!-- END: hmi-page-history -->

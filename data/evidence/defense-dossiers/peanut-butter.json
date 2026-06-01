@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/peanut-butter",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9a9279afd1f14e67682768de931e018d868c2ff8da36bcfa82d3c752a6c38f72",
-      "content_bytes": 12089,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "d9f915ba146738134ed3178458243beab487acd231979b999dbdb5cdeab7b16f",
+      "content_bytes": 12080,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/peanut-butter.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/peanut-butter.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "a1b725a07bd2d519e1a3c827253dbb505f37aeba061b3e0bfb14b1c8a50bc8f8",
-          "content_bytes": 30169,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "c53745270e591ee282b3927ed17169d53edc8bb49bd333e2c93c787588f252f3",
+          "content_bytes": 30148,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "009466d0d682b3a1458759b2f4ecee181830ca8fa0aa90bdd05caa8413eebab4",
-          "content_bytes": 7197,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "554d4826b9a8ff7d10bc349c5ceb64adfda1b3633363ea5c909b611f25d8fa29",
+          "content_bytes": 7188,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -103,12 +103,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "e3a91d38c9ad101d2aa0c6688fc904840c1e3dee428727793eb57f9a7cbaf5bb",
-          "content_bytes": 10792,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "97377f9646e5fd7d5ea78d26ad9b256f483fe1bf446eeab5c201d8640894d5f5",
+          "content_bytes": 10771,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -124,12 +124,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hovanec2004-peanut-butter-arsenic-speciation",
         "content_pin": {
-          "content_sha256": "79f9f301c0b19bec37727bd4cc163b3f4841573cf39a36dc43d2594c8949f177",
-          "content_bytes": 10165,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "dfb1134735db4bad1fc6fb7397affc92e7dea9c4c29aef0e2f90f4012c9032f2",
+          "content_bytes": 10156,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/hovanec2004-peanut-butter-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/hovanec2004-peanut-butter-arsenic-speciation.md | sha256sum"
         }
       },
       {
@@ -144,12 +144,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schaefer2020-cadmium-mitigation-strategies",
         "content_pin": {
-          "content_sha256": "a423cd3bc932b92d5f74dcc5610aedb385eb44ecfe410401695c9e3c0c399919",
-          "content_bytes": 10348,
-          "last_commit_sha": "8cae8bf",
+          "content_sha256": "53393afbc7e69d1744c5361614a811dcfa3e281895e2719e8d414ee8462dbf6c",
+          "content_bytes": 10327,
+          "last_commit_sha": "b81f32c",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 8cae8bf:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
+          "verify_command": "git show b81f32c:wiki/sources/schaefer2020-cadmium-mitigation-strategies.md | sha256sum"
         }
       }
     ]

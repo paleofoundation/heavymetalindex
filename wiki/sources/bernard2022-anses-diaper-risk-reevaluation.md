@@ -228,3 +228,14 @@ Under fractional-absorption recomputation, HQ values are largely below 0.1 for l
 ## Ingest log
 
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill). NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.3390/ijerph19074159` not present; raw_handle `MFK_11-ijerph-19-04159-2022` not present; cite-key stem `bernard2022` not present. PDF SHA-256 `e45478f7fffbeb2d3a1cea1ab69a5da57d7415812bd8deb665e2847d578080ec`. Folder: `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/`. Source is an industry-funded (EDANA) single-author peer-reviewed re-evaluation of the ANSES 2019 baby-diaper safety opinion (18 pp.); `metals: []` reflects that the paper does not engage heavy metals at any point (paper scope is restricted to substances for which ANSES reported HRV exceedances: PAHs, PCDD/Fs, DL-PCBs, formaldehyde, fragrances). Routed to `[[products/diapers-and-components]]` per `matrices: [diaper]`. `near_duplicates` flags the upstream ANSES opinion ([[anses2019-baby-diaper-safety-france]]) and the parallel BfR commentary ([[bfr2019-diaper-substances-anses-commentary]]); the three pages together cover the regulatory-and-industry-counter-position triangle on this dossier as of 2026-06-01.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ff1fa2b](https://github.com/paleofoundation/heavymetalindex/commit/ff1fa2b) | 2026-06-01 | audit: bernard2022-anses-diaper-risk-reevaluation revised |
+| [c2a7248](https://github.com/paleofoundation/heavymetalindex/commit/c2a7248) | 2026-06-01 | ingest: bernard2022-anses-diaper-risk-reevaluation fresh from MFK/03_Diapers |
+<!-- END: hmi-page-history -->

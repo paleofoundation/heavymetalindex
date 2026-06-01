@@ -43,7 +43,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 
 ## Operational reminders
 

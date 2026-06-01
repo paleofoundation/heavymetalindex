@@ -77,11 +77,11 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">981</a></dd>
+      <dd><a href="sources/">984</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">111</a></dd>
+      <dd><a href="sources/">113</a></dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
@@ -89,7 +89,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">958</a></dd>
+      <dd><a href="sources/">963</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
@@ -97,7 +97,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">155</a></dd>
+      <dd><a href="regulations/">156</a></dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
@@ -148,7 +148,7 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Thresholds and agencies</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>1,189 pages</span>
+    <span>1,199 pages</span>
     <h2><a href="sources/">Sources</a></h2>
     <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
     <div class="hmi-home-card-meta">Traceable evidence</div>

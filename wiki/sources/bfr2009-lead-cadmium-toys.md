@@ -141,6 +141,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [e44f2a6](https://github.com/paleofoundation/heavymetalindex/commit/e44f2a6) | 2026-06-01 | audit: bfr2009-lead-cadmium-toys [revised] |
 | [d4ba1cd](https://github.com/paleofoundation/heavymetalindex/commit/d4ba1cd) | 2026-06-01 | ingest: bfr2009-lead-cadmium-toys [fresh] from raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_02_Teethers_Pacifiers/02_Teethers_Pacifiers |

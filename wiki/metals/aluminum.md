@@ -9,7 +9,7 @@ microbiome_relevance: low
 wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-04-30
-sources: 95
+sources: 96
 ---
 
 # Aluminum
@@ -329,17 +329,18 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 138 | [[sources/carroquino-posada-landrigan-environmental-toxicology-children-at-risk\|Carroquino et al. 2013]]. *Environmental Toxicology: Children at Risk*, Encyclopedia of Sustainability Science and Technology, Chapter 11 (Springer) | 2013 | Peer-reviewed | Toxicology reference text on aluminum: mechanisms of toxicity, target organs, and clinical manifestations |
 | 139 | [[sources/cfs2013-hktds-metallic-contaminants\|Centre for Food Safety 2013]]. *The First Hong Kong Total Diet Study: Metallic Contaminants*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region | 2013 | Government report | HK Al, Sb, Cd, Pb, MeHg, Ni, Sn occurrence in Hong Kong general adult population; 150 TDS food items purchased on 4 occasions (March 2010 to February 2011),... (n=1800) |
 | 140 | [[sources/chuchu2013-aluminium-in-infant-formulas\|Chuchu et al. 2013]]. *The aluminium content of infant formulas remains too high*, BMC Pediatrics | 2013 | Peer-reviewed | Al concentrations in infant formula (n=30) |
-| 141 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
-| 142 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
-| 143 | [[sources/yuan2012-aluminum-oxidative-stress-neonatal-rats\|Yuan et al. 2012]]. *Aluminum Overload Increases Oxidative Stress in Four Functional Brain Areas of Neonatal Rats*, Journal of Biomedical Science 19(1):51 | 2012 | Peer-reviewed | Al toxicological mechanisms, target organ effects, and dose-response evidence |
-| 144 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | Al concentrations in infant formula (n=243) |
-| 145 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | Al concentrations in infant formula (n=15) |
-| 146 | [[sources/kazi2009-toxic-elements-in-infant-formulae\|Kazi et al. 2009]]. *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*, Food and Chemical Toxicology | 2009 | Peer-reviewed | Al concentrations in infant formula (n=17) |
-| 147 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR toxicological profile for aluminum: exposure routes, health effects, dose-response, and MRL derivation |
-| 148 | [[sources/david2008-heavy-metals-canned-tomato-paste-romania\|David et al. 2008]]. *The heavy metals analyses in canned tomato paste*, Journal of Agroalimentary Processes and Technologies | 2008 | Peer-reviewed | RO/IT Pb, Cd, Sn, Al, Cr, Fe, Zn, tAs occurrence in Five commercial canned tomato paste and tomato sauce products tested in Romania: two Romanian-branded products in metal cans,... (n=5) |
-| 149 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal (2008) 754, 1-34 | 2008 | Government report | EFSA 2008 scientific opinion on Al: tolerable weekly intake of 1 mg/kg bw/week, neurotoxicity basis, and dietary exposure |
-| 150 | [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|Islam EU 2007]]. *Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops*, Journal of Zhejiang University Science B | 2007 | Review | CN/UK/US Pb, Cd, Cr, tAs, Al occurrence in Review with primary data from Zhejiang University pot/greenhouse experiments on Chinese cabbage, winter greens, pakchoi, and celery; supplemented... |
-| 151 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | Al concentrations in dry pet food (n=49) |
+| 141 | [[sources/cot2013-uk-aluminium-infant-diet\|UK Committee on Toxicity 2013]]. *Statement on the potential risks from aluminium in the infant diet*, Committee on Toxicity (COT), Statement 2013/01, June 2013 | 2013 | Government report | *[awaiting synthesis]* |
+| 142 | [[sources/arsenic2012-arsenic-organic-foods-brown\|Arsenic 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US/EU iAs, tAs, DMA, MMA, Al, U concentrations (n=200) |
+| 143 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
+| 144 | [[sources/yuan2012-aluminum-oxidative-stress-neonatal-rats\|Yuan et al. 2012]]. *Aluminum Overload Increases Oxidative Stress in Four Functional Brain Areas of Neonatal Rats*, Journal of Biomedical Science 19(1):51 | 2012 | Peer-reviewed | Al toxicological mechanisms, target organ effects, and dose-response evidence |
+| 145 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\|Dabeka et al. 2011]]. *Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions*, Food Additives & Contaminants: Part A | 2011 | Peer-reviewed | Al concentrations in infant formula (n=243) |
+| 146 | [[sources/burrell2010-aluminium-in-infant-formulas\|Burrell et al. 2010]]. *There is (still) too much aluminium in infant formulas*, BMC Pediatrics | 2010 | Peer-reviewed | Al concentrations in infant formula (n=15) |
+| 147 | [[sources/kazi2009-toxic-elements-in-infant-formulae\|Kazi et al. 2009]]. *Determination of toxic elements in infant formulae by using electrothermal atomic absorption spectrometer*, Food and Chemical Toxicology | 2009 | Peer-reviewed | Al concentrations in infant formula (n=17) |
+| 148 | [[sources/atsdr-aluminum-toxprofile-2008\|ATSDR 2008]]. *Toxicological Profile for Aluminum*, U.S. Department of Health and Human Services, Public Health Service, Agency for Toxic Substances and Disease Registry | 2008 | Government report | ATSDR toxicological profile for aluminum: exposure routes, health effects, dose-response, and MRL derivation |
+| 149 | [[sources/david2008-heavy-metals-canned-tomato-paste-romania\|David et al. 2008]]. *The heavy metals analyses in canned tomato paste*, Journal of Agroalimentary Processes and Technologies | 2008 | Peer-reviewed | RO/IT Pb, Cd, Sn, Al, Cr, Fe, Zn, tAs occurrence in Five commercial canned tomato paste and tomato sauce products tested in Romania: two Romanian-branded products in metal cans,... (n=5) |
+| 150 | [[sources/efsa-aluminium-afc-2008\|EFSA 2008]]. *Safety of Aluminium from Dietary Intake*, The EFSA Journal (2008) 754, 1-34 | 2008 | Government report | EFSA 2008 scientific opinion on Al: tolerable weekly intake of 1 mg/kg bw/week, neurotoxicity basis, and dietary exposure |
+| 151 | [[sources/islam2007-dietary-toxicity-vegetables-food-crops\|Islam EU 2007]]. *Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops*, Journal of Zhejiang University Science B | 2007 | Review | CN/UK/US Pb, Cd, Cr, tAs, Al occurrence in Review with primary data from Zhejiang University pot/greenhouse experiments on Chinese cabbage, winter greens, pakchoi, and celery; supplemented... |
+| 152 | [[sources/kim-unknown-dog-food-trace-minerals\|Kim et al.]]. *Evaluation of selected ultra-trace minerals in commercially available dry dog foods*, Veterinary Medicine: Research and Reports | — | Peer-reviewed | Al concentrations in dry pet food (n=49) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -349,9 +350,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 | [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 | [22b1fec](https://github.com/paleofoundation/heavymetalindex/commit/22b1fec) | 2026-05-31 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-31T15-22-11Z |
-| [49ecdb7](https://github.com/paleofoundation/heavymetalindex/commit/49ecdb7) | 2026-05-30 | autonomy: self-heal recovery of prior tick's uncommitted work — 2026-05-30T18-11-25Z |
 <!-- END: hmi-page-history -->

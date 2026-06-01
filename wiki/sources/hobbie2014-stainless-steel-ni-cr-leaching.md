@@ -76,3 +76,13 @@ Brand attribution: the four commercial tomato sauces are labelled only as "sauce
 Total chromium is reported by ICP-MS without Cr-VI/Cr-III speciation. The `metals:` frontmatter lists Cr (total chromium), not Cr-VI.
 
 Sample sizes vary by trial (n=4 versus n=5) and there is no single `sample_n` value; the field is left null and the structure is described in `sample_population` and the methods section instead.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [06cbd89](https://github.com/paleofoundation/heavymetalindex/commit/06cbd89) | 2026-06-01 | ingest: hobbie2014-stainless-steel-ni-cr-leaching fresh from MFK/04_Feeding_Accessories |
+<!-- END: hmi-page-history -->

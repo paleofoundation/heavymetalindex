@@ -119,3 +119,23 @@
 
 ### Succeeded
 - `rebeniak2014-pb-cd-ceramics-glassware-poland` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/10_paper_2014.pdf)
+
+## Tick 2026-06-01T02:32:46.464Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `ny-dec-tccp-2023-chem-pqls-draft` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/01_tccp_chem_lists_2021.pdf)
+
+## Tick 2026-06-01T02:43:57.146Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `iso2020-8124-3-toy-migration-elements` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA/06_ISO-8124-3-2020_2020.pdf)

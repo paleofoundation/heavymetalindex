@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/anti-wrinkle-wrinkle-release-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "26589b4e779e59dc3381c9c42c1118bb6635e15b3b96e7ada5fa8958ac8407ec",
-      "content_bytes": 7455,
-      "last_commit_sha": "8cae8bf",
+      "content_sha256": "d1a26ff126405b11ddcca0d6d00d618441c5c69f5b118e74edaa5b46820899d5",
+      "content_bytes": 7446,
+      "last_commit_sha": "b81f32c",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 8cae8bf:wiki/products/anti-wrinkle-wrinkle-release-products.md | sha256sum"
+      "verify_command": "git show b81f32c:wiki/products/anti-wrinkle-wrinkle-release-products.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -166,3 +166,14 @@ Statement is published under the UK Open Government Licence by the UK Committee 
   - Check 2 ❌ flagged `[[products/biscuits]]` as missing from the 2026-05-18 taxonomy snapshot, suggesting retarget to `snacks-crackers-biscuits`. **Verified false positive**: `wiki/products/biscuits.md` exists in the current wiki as a provisional scaffold created 2026-05-19 (post-snapshot, via heal-gaps from `original2020-original-a` declaration). The routing audit routes this source to `products/biscuits` cleanly as `locked_hmtc_row direct_evidence`. No change applied to the wiki page; the taxonomy snapshot itself is stale and should be regenerated separately.
   - Check 5 ⚠️ flagged "Drinking water rarely binds for infant Al exposure" in the Certification block as an HMTc-mechanics paraphrase that overreaches paragraph 50. **Verified concern correct**: paragraph 50 states "even unusually high concentrations of aluminium in public water are unlikely to take total intake above the PTWI." Implications/Certification paragraph revised to attribute the claim to paragraph 50 directly and to use the source's own wording.
 - Checks 1, 3, 4 returned ✅ clean; numerical fidelity verified across Tables 1–8 and conclusion paragraphs 49–51 / 58–61.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ee4990c](https://github.com/paleofoundation/heavymetalindex/commit/ee4990c) | 2026-06-01 | audit: cot2013-uk-aluminium-infant-diet revised |
+| [0a4868a](https://github.com/paleofoundation/heavymetalindex/commit/0a4868a) | 2026-06-01 | ingest: cot2013-uk-aluminium-infant-diet fresh from MFK/04_Feeding_Accessories |
+<!-- END: hmi-page-history -->
