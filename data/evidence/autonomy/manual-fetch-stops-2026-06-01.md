@@ -432,3 +432,41 @@ This is a different failure mode from the prior MFK_01/03/05/07 organics-only st
 2. **No attributable provenance.** Manufacturer-supplied spec sheets (technical data sheets, certificates of conformity, B2B sales collateral) lack the citable authorship and venue that Part 13 evidence grading requires.
 
 Both issues are categorical — the document type is wrong, not the analyte. Recommend moving manufacturer/B2B technical data sheets to `out-of-scope/commercial-spec-sheets/` so they are not re-attempted; they are not source-grade material for HMI regardless of analyte vocabulary or product category. If Karen wants to capture petroleum-jelly contamination data, the right inputs are FDA/USP monographs (USP–NF Petrolatum monograph, EP Vaselinum album), peer-reviewed analytical surveys, or third-party testing reports (CR/HBBF/EWG) — not vendor spec sheets. The PDF can be physically moved out of the manual-fetch corruption folder or tagged with a `.skip` marker; either prevents wrapper re-pick.
+
+---
+
+## STOP: Heavy_Metals_in_Cosmetics.pdf — already clean-ingested
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Heavy_Metals_in_Cosmetics.pdf`
+**Suggested handle:** `KADC_heavy-metals-in-cosmetics`
+**Existing wiki page:** `wiki/sources/attard2022-heavy-metals-cosmetics-review.md`
+**Folder:** `manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen`
+**Date:** 2026-06-01
+
+### Identity check
+
+DOI grep / cite-key grep / raw_handle grep against `wiki/sources/` resolves to a single existing page:
+
+- `wiki/sources/attard2022-heavy-metals-cosmetics-review.md`
+- `cite_key: attard2022-heavy-metals-cosmetics-review`
+- `raw_handle: kimi-children-personal-care-attard2022`
+- `doi: 10.5772/intechopen.102406`
+- `updated: 2026-05-18` (post the 2026-05-14 merge-enhance cutoff)
+- `raw_path` points to the original Kimi-Children-Personal-Care copy of the same PDF; the corruption-folder copy is a duplicate of the same paper
+
+### Routing audit state
+
+- `data/evidence/routing_unresolved.csv`: 0 entries for this source.
+- `data/evidence/routing_malformed.csv`: 1 entry, **severity `advisory`** — `ingredients;matrices` empty. This is the intended state: the page is a cosmetic-only review (Attard & Attard 2022 IntechOpen book chapter), and per the page's own Implications note "Cosmetics are outside the food-ingredient taxonomy; no `contamination_profile` rollup is appropriate." Empty `ingredients:` and `matrices:` reflect that the source legitimately has nothing to route into the food-ingredient layer; the advisory is informational and will persist until/unless a cosmetics-ingredient taxonomy is added. Not a defect.
+
+### Skill decision
+
+Per `.claude/skills/ingest-next-manual-fetch-pdf/SKILL.md` Phase 1 step 1:
+
+> Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed.
+
+The page is post-2026-05-14 clean. The `malformed.csv` entry is advisory-only and reflects an intentional/structural empty (cosmetics outside food-ingredient taxonomy), not a defect the merge-enhance path could repair. Re-ingesting via the corruption-folder copy would either (a) write the identical content (waste), or (b) overwrite the 2026-05-18 merge-enhanced page including its v0→v1 verification notes (regression). Neither is desirable.
+
+### Recommendation for wrapper
+
+Mark `Heavy_Metals_in_Cosmetics.pdf` as already-covered in the Kimi-Agent-Download-Corruption-Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen sub-drain. Either move it to a `_already-ingested/` sibling folder or add a `.skip` marker so it is not re-picked on the next tick. The wiki has a complete Cochrane-quality page for this paper already.

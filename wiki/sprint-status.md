@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T10:35:20.641Z
+updated: 2026-06-01T10:57:32.789Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 65 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1153 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1175 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 7 |
-| Commits last 24 hours | 266 |
+| Commits last 1 hour | 6 |
+| Commits last 24 hours | 268 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-51618b0 21 minutes ago — codex sprint 2026-06-01 1313: end-of-fire cleanup
+84f04e2 14 minutes ago — audit-queue: moriceau2025-cosmetics-icpms-iso21392 -> audited-promote
 ```
 
 ## How to read this

@@ -519,3 +519,43 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/Survey_Health_Assessment_Cosmetic_Children_Denmark.pdf`: byte-identical to poulsen2007-cosmetic-products-children-denmark
+
+## Tick 2026-06-01T10:36:01.218Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `moriceau2025-cosmetics-icpms-iso21392` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/Thermo_Fisher_Heavy_Metals_Cosmetics.pdf)
+
+## Tick 2026-06-01T10:44:33.593Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/A_Feasibility_Study_Investigating_Action_Limits_for_Certain_Heavy_Metal_Impuriti.pdf`: byte-identical to opss2023-feasibility-action-limits-cosmetics-uk
+
+## Tick 2026-06-01T10:44:39.525Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Heavy_Metals_in_Cosmetics.pdf`: already-clean-ingested as attard2022-heavy-metals-cosmetics-review
+
+## Tick 2026-06-01T10:47:02.606Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Heavy_metal_contamination_in_commonly_used_baby_talcum_powders_in_India.pdf`: byte-identical to rashmi2020-baby-talcum-powder-heavy-metals-india
