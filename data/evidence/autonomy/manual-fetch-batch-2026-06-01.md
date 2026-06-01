@@ -959,3 +959,43 @@
 
 ### Succeeded
 - `waecology2024-interim-policy-lead-cosmetics` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-013_WA_Ecology_2025_Interim_Policy_Lead_Cosmetics_TFCA.pdf)
+
+## Tick 2026-06-01T22:26:15.460Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `stone2012-wa-qapp-parabens-metals-childrens-cosmetics` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-015_WA_Ecology_2012_QAPP_Parabens_Metals_Childrens_Cosmetics.pdf)
+
+## Tick 2026-06-01T22:38:52.046Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `trumbull2017-wa-childrens-seasonal-products-2014-2015` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-016_WA_Ecology_2016_Childrens_Seasonal_Products.pdf)
+
+## Tick 2026-06-01T22:58:36.630Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `campaignsafecosmetics2009-pretty-scary-face-paints` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-024_CampaignSafeCosmetics_2009_Pretty_Scary_Face_Paints.pdf)
+
+## Tick 2026-06-01T23:12:55.100Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `campaignsafecosmetics2016-pretty-scary-2-kids-makeup` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-025_CampaignSafeCosmetics_2016_Pretty_Scary_2_Kids_Makeup.pdf)
