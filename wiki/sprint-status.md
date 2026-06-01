@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T10:13:40.578Z
+updated: 2026-06-01T10:35:20.641Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1131 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1153 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 265 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 7 |
+| Commits last 24 hours | 266 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-e4f7500 2 minutes ago — audit-queue: oecd2024-crafts-toys-children-exposure -> audited-promote
+51618b0 21 minutes ago — codex sprint 2026-06-01 1313: end-of-fire cleanup
 ```
 
 ## How to read this

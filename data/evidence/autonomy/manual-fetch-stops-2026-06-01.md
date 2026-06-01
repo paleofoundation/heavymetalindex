@@ -313,3 +313,122 @@ The wrapper-suggested handle `KADC_appendix-f-dermal-uptake-of-chemicals-from-so
 **Folder note:** Second evaluated PDF in `Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/` (after the ATSDR stop above). This is the same parallel-relocation problem and the same recommendation applies. The 19 remaining PDFs in this folder should be evaluated individually; cosmetics, infant clothing, and dermal-bioaccessibility entries are likely in-scope and will drain through normally, while skin-physiology / methyl-salicylate / paraben / phthalate-modeling entries may parallel this stop.
 
 **Recommendation for Karen:** Same two system-level fixes as the ATSDR stop above — (1) tighten wrapper's "next PDF" selection to treat advisory-severity malformed for `source_type: gov-report` as not-malformed for picking, or (2) add a `routing_intent: methodology-no-routing` frontmatter signal. Until one is in place, both ATSDR Soil/Sediment Guidance and OEHHA Appendix F (and likely SCHER Toy Migration Opinion, SCCS Notes of Guidance, EPA RAGS Part E, etc.) will recur on every Kimi-folder sweep and stop here.
+
+## STOP: sccs2023-notes-of-guidance-cosmetic-ingredients-v12 — existing post-schema page, no actionable defects
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/SCCS_Notes_of_Guidance_for_the_Testing_of_Cosmetic_Ingredients_12th_Revision.pdf`
+
+**Suggested handle from wrapper:** `KADC_sccs-notes-of-guidance-for-the-testing-of-cosmetic`
+
+**Existing wiki page:** `wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md` (cite_key `sccs2023-notes-of-guidance-cosmetic-ingredients-v12`, raw_handle `MFK_sccs-notes-of-guidance-for-the-testing-of-cosmetic`, `updated: 2026-05-17`, ingest commit `f0494b7` "ingest: sccs2023-notes-of-guidance-cosmetic-ingredients-v12 fresh from Manual Fetch Kimi/Children Personal Care Papers/babycare_01_Exposure_Pathways")
+
+**Reason for stop:** Same parallel-relocation pattern as the ATSDR and OEHHA Appendix F stops earlier in this file. MD5 hash of the wrapper-picked file `c9ce24a093d2a6795fe3a40439c657db` is byte-identical to the file already ingested from `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_01_Exposure_Pathways/01_Exposure_Pathways/SCCS_Notes_of_Guidance_for_the_Testing_of_Cosmetic_Ingredients_12th_Revision.pdf` (confirmed via `md5` on both paths). Same source, two filesystem locations after the Kimi corruption-folder relocation.
+
+The existing page is post-2026-05-14 (updated 2026-05-17), comprehensive (15+ Key-numbers blocks covering Table 3A/3B daily exposures, Table 4 skin surface areas, Table 5 aggregate preservative panel = 17.4 g/d / 269 mg/kg bw/d, the sunscreen 18.0 g/d MoS default, EFSA 2012a child body weights 8.8/11.9/23.1/43.4/61.3 kg, Renwick 1998 child:adult SSA/BW ratios, the children-by-age product class table Appendix 7 A.7.2, pediatric toothpaste/mouthwash retention factors, aerosol/spray MMAD deposition thresholds, EN ISO 17516:2014 microbiological limits Category 1/2, the tiered deterministic/probabilistic assessment framework, hair-dye intermittent-exposure arithmetic, OECD TG 428 skin-absorption compartments, the Appendix 6 CofA "Heavy metals" requirement, and the aggregate-exposure CMR rule), and carries 10 verification notes explaining its routing scope, the umbrella `As`/`tHg`/`Cr`/`Sb` choices, the EU-only jurisdiction, the explicit out-of-scope status of premature neonates, the pending Cosmetics Europe Crème Global 0–3 year update, and the missing `regulations/eu-1223-2009` routing target. No transposed values, no invented method detail, no invalid slugs, no brand-firewall issue, no legacy headings — the page is the canonical EU regulatory-science methodology reference for this wiki and was written cleanly under the v2 skill on first ingest.
+
+**Routing-malformed advisory is the expected backlog state, not an actionable defect:** the page is in `data/evidence/routing_malformed.csv` at **advisory** severity only — `missing_advisory: ingredients`, note "Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible." That is correct for this source: it is the SCCS 12th-revision Notes of Guidance (SCCS/1647/22), a regulatory methodology document with zero ingredient-level occurrence data. Setting `ingredients:` to a non-empty value would invent routing the source does not support. 652 of the 653 entries in `routing_malformed.csv` are advisory; only 1 is `strict`. Advisory is the corpus-wide baseline for methodology and exposure-modeling sources, not a defect for the manual-fetch loop to fix.
+
+**Per the v2 skill's entry rule** ("Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed"): the strict reading is that any malformed-CSV entry — even advisory — disqualifies the skip, which is why the wrapper picked this PDF. The substantive reading is that advisory-severity malformed for a methodology document with no occurrence data is the intended end state, not a defect for the manual-fetch loop to fix. Re-ingesting this PDF cannot move the page toward a non-advisory malformed state without injecting incorrect frontmatter.
+
+**Identity checks:**
+- DOI grep: source has no DOI (`no_doi_assigned: true`, `gov-report`)
+- raw_handle grep `MFK_sccs-notes-of-guidance-for-the-testing-of-cosmetic`: matches the existing page (line 3); only match
+- cite-key grep `sccs2023-notes-of-guidance-cosmetic-ingredients-v12`: matches the existing page (line 4); `wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md` is the only file matched
+
+The wrapper-suggested handle `KADC_sccs-notes-of-guidance-for-the-testing-of-cosmetic` is the same Kimi_Agent_Download_Corruption (KADC_) relocation-prefix pattern flagged in the ATSDR and OEHHA Appendix F stops above. Same logic applies: adopting it would either duplicate the source under a new cite-key (violates deduplication) or require a bulk path-relocation rewrite that is not per-PDF ingest work.
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+**Folder note:** Third evaluated PDF in `Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/` (after the ATSDR Soil/Sediment Guidance and OEHHA Appendix F stops above), all three landing on the same parallel-relocation + advisory-malformed pattern. The OEHHA stop note explicitly forecast that "SCCS Notes of Guidance" would recur here next; that prediction now confirmed. The 19 remaining PDFs in this folder should be evaluated individually — cosmetics-occurrence (Borowska 2021, Salama 2016, Iqbal 2020, Khan 2022, Akhtar 2023, the in-vitro zeolite-adsorption QbD paper), infant clothing (Heavy_Metals_in_Infant_Clothing), and dermal-bioaccessibility (Stefaniak, Midander artificial-sweat) entries are likely in-scope and should drain through normally; SCCS Methyl Salicylate (SCCS/1654/23) may have an existing page (verified earlier today: `sccs2025-methyl-salicylate-children-exposure-1676-25.md` exists but cite-key suggests SCCS/1676/25 — needs per-PDF check for whether SCCS/1654/23 is a separate opinion); skin-physiology, parabens-aggregate-modeling, baby-powder-inhalation, and phthalate-DNA-oxidative-damage entries may parallel this stop if they are methodology/review documents rather than occurrence studies.
+
+**Recommendation for Karen:** Same two system-level fixes as the ATSDR and OEHHA stops above — (1) tighten wrapper's "next PDF" selection to treat advisory-severity malformed for `source_type: gov-report` (and by extension `source_type: review` for methodology/synthesis documents with no original measurements) as not-malformed for picking, or (2) add a `routing_intent: methodology-no-routing` frontmatter signal that the routing audit recognises as expected-empty for `products:`/`ingredients:`. Both are infrastructure changes outside the per-PDF ingest scope; both would let this folder drain to its actually-in-scope cosmetics-occurrence and dermal-bioaccessibility PDFs without further stop-note overhead.
+
+## STOP: KADC_sccs-scientific-advice-on-children-exposure-to-met — true duplicate (already ingested + audited 2026-05-17)
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/SCCS_Scientific_Advice_on_Children_Exposure_to_Methyl_Salicylate_SCCS_1654_23.pdf`
+
+**Suggested handle:** `KADC_sccs-scientific-advice-on-children-exposure-to-met`
+
+**Citation:** Scientific Committee on Consumer Safety (SCCS). Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25). European Commission, Directorate-General for Health and Food Safety, adopted by written procedure 30 April 2025. No DOI.
+
+**Reason for stop:** Same paper has an existing v2.0-standard wiki page at `wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md` (created/enhanced 2026-05-17). The existing page already documents that the PDF filename references SCCS/1654/23 because the file was retrieved from the EU publications page for the 2023 opinion, but the actual document inside is the SCCS/1676/25 Final revision (adopted 2025-04-30) which supersedes 1654/23. The cite-key encodes 1676-25 to disambiguate from the superseded opinion.
+
+**Identity checks — all hit the existing page:**
+- DOI grep: N/A (`no_doi_assigned: true` on existing page; "Doi ND" on PDF p.5)
+- raw_handle grep `MFK_sccs-scientific-advice-on-children-exposure-to-met` → matches `sccs2025-methyl-salicylate-children-exposure-1676-25.md` line 3 (the suggested KADC_ prefix is the Kimi_Agent_Download_Corruption relocation-prefix variant of the same handle stem)
+- cite-key grep `sccs2025-methyl-salicylate-children-exposure-1676-25` → matches the existing page
+- Folder-prefix-independent grep `methyl[- ]?salicylate` → single hit at the existing page
+
+**Audit-queue prior entry (line 64):** `sccs2025-methyl-salicylate-children-exposure-1676-25,babycare_01_Exposure_Pathways,MFK_sccs-scientific-advice-on-children-exposure-to-met,09e7e95,2026-05-17T20:00:00Z,audited-revised,REVISE,2026-05-17` — autonomous v2.0 ingest + subagent audit already complete; verdict REVISE; 2 ⚠️ findings (Check 1 768 mg attribution clarity; Check 5 borderline methodology-inheritance language); 1 applied, 0 rejected; routing-gaps already surfaced (fragrance-products slug, hair-conditioner slug, regulations/EC-1223-2009-annex-III-324 page).
+
+**Malformed-CSV entry (line 518):** advisory-severity only — `ingredients;metals` empty because methyl salicylate is an organic substance (methyl 2-hydroxybenzoate, CAS 119-36-8), not a heavy metal. The existing page's verification notes explicitly justify the empty arrays as correct: "The frontmatter `metals:` field is therefore `[]`. Relevance to the Heavy Metal Index is methodological infrastructure: the document is a worked-example application of the SCCS Notes-of-Guidance framework (SCCS/1647/22) for children 0–3 years, providing the product-use amounts, retention factors, dermal-absorption defaults, child body weights, and aggregate-exposure arithmetic that any heavy-metal MoS calculation for children's-personal-care HMTc category-setting must use as inputs." Re-ingest would not change these fields — methyl salicylate cannot acquire a metal slug — so the advisory-malformed flag is permanent and intentional.
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+**Folder note:** Fourth evaluated PDF in `Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/` (after ATSDR Soil/Sediment, OEHHA Appendix F, and SCCS Notes-of-Guidance stops above). The OEHHA stop note forecast that this SCCS Methyl Salicylate entry would land on either the SCCS-Notes-of-Guidance pattern (advisory-malformed methodology) or be confirmed as a separate opinion needing its own page; this stop confirms it's the former — same parallel-relocation + advisory-malformed pattern, NOT a separate opinion. SCCS/1654/23 (the filename) and SCCS/1676/25 (the actual document) are not two separate opinions; the 2025 revision supersedes and replaces the 2023 version, and the existing wiki page correctly cite-keys the operative current revision.
+
+**Recommendation for Karen:** Same two system-level fixes as ATSDR/OEHHA/SCCS-NoG stops above — (1) advisory-severity malformed entries for `source_type: gov-report` with intentionally-empty `metals`/`ingredients` should not flag the source as a candidate for re-ingest under skill v2.0 step 1's "in malformed" criterion, or (2) add a `routing_intent: methodology-no-routing` (or `routing_intent: organic-substance-not-in-vocabulary`) frontmatter signal so the routing audit recognises these as expected-empty. This is the fourth consecutive PDF in this folder hitting this exact pattern; the wrapper is burning per-PDF cycles on already-audited methodology documents that cannot be enhanced further. The remaining ~19 PDFs in this folder may have a substantial run of cosmetics-occurrence + dermal-bioaccessibility entries that ARE in-scope and would drain normally once the wrapper skips past the advisory-malformed methodology docs.
+
+## STOP: KADC_cpsia-and-lead-fact-sheet — true duplicate, already audited
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/02_Regulatory_Reports/CPSIA_and_Lead_Fact_Sheet.pdf`
+
+**Suggested handle (this drain pass):** KADC_cpsia-and-lead-fact-sheet
+
+**Existing page:** `wiki/sources/cfa2012-cpsia-lead-fact-sheet.md` (updated 2026-05-17; raw_handle `MFK_cpsia-and-lead-fact-sheet`)
+
+**Reason for stop:** Same PDF, byte-identical to the already-ingested copy under the original Manual Fetch Kimi tree. sha256 confirmation:
+
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/02_Regulatory_Reports/CPSIA_and_Lead_Fact_Sheet.pdf` → `097a3918da5e01c7b5d3d4568a9217f5c6eb07370b2b5730637bf60de88a8f68`
+- `raw/Manual Fetch Kimi /Children Personal Care Papers/babycare_02_Regulatory_Reports/02_Regulatory_Reports/CPSIA_and_Lead_Fact_Sheet.pdf` → `097a3918da5e01c7b5d3d4568a9217f5c6eb07370b2b5730637bf60de88a8f68`
+
+**Identity checks (existing page detected):**
+- raw_handle grep `MFK_cpsia-and-lead-fact-sheet` → single hit at `wiki/sources/cfa2012-cpsia-lead-fact-sheet.md`
+- cite-key grep `cfa2012-cpsia-lead-fact-sheet` → single hit at the existing page
+
+**Audit-queue prior entry:** `cfa2012-cpsia-lead-fact-sheet,wiki/sources,MFK_cpsia-and-lead-fact-sheet,99ba482,2026-05-17T23:30:00Z,audited-promote,PROMOTE,2026-05-17` — autonomous v2.0 ingest + subagent audit already complete; verdict PROMOTE; 0 findings; 0 applied; 0 rejected; no audit-application commit needed.
+
+**Malformed-CSV entry:** advisory-severity only — `ingredients;matrices` empty because the source is a two-page consumer-advocacy regulatory summary with no primary measurements (lead-content statutory thresholds, not occurrence data). The existing page's verification notes explicitly justify the empty arrays as correct: "Frontmatter `matrices: []` is correct — no measurements are reported in any matrix; the document is about statutory thresholds on lead **content** in children's products, not about measured occurrence data."
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+**Folder note:** First evaluated PDF in `Kimi_Agent_Download Corruption Issue/babycare_papers/02_Regulatory_Reports/`. The remaining PDF in this subfolder is `TCCP_Chemical_Lists_NY.pdf` (NY TCCP chemical list — likely in scope, evaluate on next tick).
+
+**Recommendation for Karen:** Same system-level fix as the 01_Exposure_Pathways stops above (ATSDR/OEHHA/SCCS-NoG/SCCS-MeSal) — advisory-severity malformed entries for `source_type: ngo-report`/`gov-report`/`gov-guidance` with intentionally-empty `ingredients`/`matrices` (or `metals`) should not flag the source as a candidate for re-ingest under skill v2.0 step 1's "in malformed" criterion. This is the fifth corruption-folder PDF burning a cycle on an already-audited regulatory-summary page that is permanently advisory-malformed by design.
+
+## STOP: KADC_petroleum-jelly-vaseline-specification — not source-grade content (commercial product spec sheet, no measurements)
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/Petroleum_Jelly_Vaseline_Specification.pdf`
+
+**Suggested handle:** `KADC_petroleum-jelly-vaseline-specification`
+
+**Citation:** Unidentified petroleum-jelly manufacturer (Iranian; only inferable from the use of ISIRI-3949 = Institute of Standards and Industrial Research of Iran method 3949 for arsenic and heavy-metal testing). No author, no organization name, no publication venue, no year, no DOI, no contact information visible on any of the 4 pages. The document is a four-grade commercial product specification sheet for "Ultra Snow White Petroleum Jelly (Cosmetic Grade)," "Snow White Petroleum Jelly (Pharmaceutical Grade)," "Snow White Petroleum Jelly (Cosmetic Grade)," and "Industrial White Petroleum Jelly."
+
+**Reason for stop:** Document is a commercial/B2B product-data-sheet, not source-grade evidence. Verified by reading all 4 pages in full. Each grade is a 12-row (industrial: 8-row) specification table giving acceptance ranges for **physical-chemical product attributes** — Appearance per BP 2013; Penetration (consistency) ASTM D-937; Color (Lovibond) IP-17; Kinematic viscosity ASTM D-445; Drop melting point ASTM D-127; Congealing ASTM D-938; UV absorbance 290 nm BP-2012; Acidity/alkalinity (pH) BP-2012; Polycyclic aromatic hydrocarbons BP-2012; Sulphated ash BP-2012; Arsenic ISIRI-3949; Heavy metal (Pb) ISIRI-3949.
+
+**Heavy-metals content is purely a Pass/Fail declaration with no numerical value:**
+- Arsenic — Result: "Passed", Method: ISIRI-3949, Unit: %w/w (heading only)
+- Heavy Metal (Pb) — Result: "Passed", Method: ISIRI-3949, Unit: %w/w (heading only)
+
+No detection limit, no measured concentration, no sample count, no batch identifier, no analytical conditions, no spike/recovery, no LOD/LOQ. "Passed" against the unstated ISIRI-3949 acceptance threshold is the only datum. Even if ISIRI-3949's threshold were knowable (typically ~10 ppm As / ~10 ppm Pb for cosmetics-grade petrolatum in older Iranian standards), this PDF does not state it, and the document supports no Key-numbers block, no `contamination_profile` value, no exposure calculation, no synthesis input. The PAH and acidity rows are likewise Pass/Fail. The only quantitative content is for product-engineering attributes (penetration, viscosity, melting point, congealing point, density, flash point, sulphated ash) which are not in any HMI analyte vocabulary or downstream-page surface.
+
+This is a different failure mode from the prior MFK_01/03/05/07 organics-only stops (wrong analyte class with quantitative data) and from the MFK_06/09 mechanical-safety stops (wrong subject matter entirely). Here the analyte vocabulary is right (As, Pb), but the source provides only a Pass/Fail flag against an unstated threshold — no usable measurement. It is also distinct from the parallel-relocation advisory-malformed stops earlier in this file (ATSDR/OEHHA/SCCS — those are comprehensive methodology documents already ingested; this is not source-grade material in the first place).
+
+**Provenance failure independent of analyte question:** Even if the document carried a numerical Pb value, the source is unattributable. There is no manufacturer name visible on any page (the document header is just "Petroleum Jelly (Vaseline) Specification"), no website, no document control number, no issue date, no revision, no signature, no QA stamp. A wiki source page requires a citable provenance (`source` field, `authors`, `year`, `access_url` or `publisher`); none of these can be filled from the document. Citing the file as "Unknown Iranian petroleum-jelly manufacturer, undated" would not survive the audit-queue's evidence-tier discipline (Part 13: A/B/C-tier all require attributable provenance).
+
+**Identity checks (clean — no existing wiki page):**
+- DOI grep: source has no DOI
+- Suggested-handle grep `KADC_petroleum-jelly-vaseline-specification`: no matches
+- Filename grep `Petroleum_Jelly_Vaseline_Specification`, `petroleum-jelly`, `ultra-snow-white`, `Ultra Snow White`: no matches in `wiki/sources/`
+- Method grep `ISIRI-3949`, `ISIRI.?3949`: no matches in `wiki/sources/`
+- Substance grep `petroleum.?jelly`, `vaseline` (case-insensitive): 3 false-positive hits (`li2021-lead-lip-cosmetics-china-ecommerce.md`, `balogun2024-body-creams-delta-nigeria.md`, `aldayel2018-facial-cosmetics-saudi-arabia.md`) — all are cosmetics studies that mention petroleum jelly peripherally as an ingredient context, not as the subject of analysis. None covers this spec sheet.
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+**Folder note:** First evaluated PDF in `Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/`. Remaining PDFs in the folder: `Children_Makeup_Body_Products_US.pdf`, `Feasibility_Study_Action_Limits_Cosmetics_UK.pdf`, `Health_Risks_Heavy_Metals_Online_Market.pdf`, `Heavy_Metals_Body_Creams_Delta_Nigeria.pdf` (may match the existing `balogun2024` page above — duplicate check needed), `Lead_Cadmium_Mercury_Baby_Talcum_India.pdf`, `Overview_Heavy_Metals_Cosmetics_Toxicological.pdf`, `Quality_Control_Cosmetics_Libya.pdf`, `Survey_Health_Assessment_Cosmetic_Children_Denmark.pdf`, `Thermo_Fisher_Heavy_Metals_Cosmetics.pdf`. All filenames suggest in-scope heavy-metals cosmetics studies — this folder should drain through to ingestable material on the next several ticks, with at most one or two more spec-sheet-style stops possible (the Thermo Fisher entry is the most likely candidate for a vendor-marketing analyzer brochure rather than primary research; the remainder look like academic occurrence studies).
+
+**Recommendation for Karen:** This stop is structurally distinct from the prior 01_Exposure_Pathways advisory-malformed loop and from the organics-only analyte-scope stops. Two issues compound:
+1. **No usable measurement.** Pass/Fail declarations against an unstated threshold (ISIRI-3949) cannot be ingested as evidence-register rows or `contamination_profile` values. Even with a stated threshold, "the product met the unstated spec" is not occurrence data.
+2. **No attributable provenance.** Manufacturer-supplied spec sheets (technical data sheets, certificates of conformity, B2B sales collateral) lack the citable authorship and venue that Part 13 evidence grading requires.
+
+Both issues are categorical — the document type is wrong, not the analyte. Recommend moving manufacturer/B2B technical data sheets to `out-of-scope/commercial-spec-sheets/` so they are not re-attempted; they are not source-grade material for HMI regardless of analyte vocabulary or product category. If Karen wants to capture petroleum-jelly contamination data, the right inputs are FDA/USP monographs (USP–NF Petrolatum monograph, EP Vaselinum album), peer-reviewed analytical surveys, or third-party testing reports (CR/HBBF/EWG) — not vendor spec sheets. The PDF can be physically moved out of the manual-fetch corruption folder or tagged with a `.skip` marker; either prevents wrapper re-pick.

@@ -449,3 +449,73 @@
 
 ### Succeeded
 - `oecd2024-crafts-toys-children-exposure` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/Considerations_when_Estimating_Exposure_to_Crafts_and_Toys_in_Children.pdf)
+
+## Tick 2026-06-01T10:12:21.362Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/SCCS_Notes_of_Guidance_for_the_Testing_of_Cosmetic_Ingredients_12th_Revision.pdf`: sccs2023-notes-of-guidance-cosmetic-ingredients-v12 (existing post-schema page, advisory-only malformed, no actionable defects)
+
+## Tick 2026-06-01T10:16:04.677Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/01_Exposure_Pathways/SCCS_Scientific_Advice_on_Children_Exposure_to_Methyl_Salicylate_SCCS_1654_23.pdf`: true duplicate — existing page sccs2025-methyl-salicylate-children-exposure-1676-25 covers this PDF
+
+## Tick 2026-06-01T10:19:37.458Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/02_Regulatory_Reports/CPSIA_and_Lead_Fact_Sheet.pdf`: KADC_cpsia-and-lead-fact-sheet duplicate of cfa2012-cpsia-lead-fact-sheet (already PROMOTE-audited 2026-05-17)
+
+## Tick 2026-06-01T10:21:28.247Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/Feasibility_Study_Action_Limits_Cosmetics_UK.pdf`: byte-identical to opss2023-feasibility-action-limits-cosmetics-uk
+
+## Tick 2026-06-01T10:21:34.102Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/Heavy_Metals_Body_Creams_Delta_Nigeria.pdf`: byte-identical to balogun2024-body-creams-delta-nigeria
+
+## Tick 2026-06-01T10:33:51.005Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/Petroleum_Jelly_Vaseline_Specification.pdf`: not source-grade content — commercial petroleum-jelly product spec sheet with Pass/Fail-only heavy-metals declarations and no attributable provenance.
+
+## Tick 2026-06-01T10:35:55.317Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/03_Powder_Lotion_Oil_Diaper/Survey_Health_Assessment_Cosmetic_Children_Denmark.pdf`: byte-identical to poulsen2007-cosmetic-products-children-denmark
