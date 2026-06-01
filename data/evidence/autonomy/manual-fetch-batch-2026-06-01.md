@@ -29,3 +29,13 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/05_ehp0110-000023_2002.pdf`: MFK_05-ehp0110-000023-2002 — out of HMI analyte scope (dioxins-only paper, no metals data)
+
+## Tick 2026-06-01T00:37:47.509Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `anses2019-baby-diaper-safety-france` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/07_CONSO2017SA0019EN_2019.pdf)
