@@ -619,3 +619,23 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /June 1/Demolition-waste-for-adsorption-of-metals-A-step-towards-the-circular-economy.pdf`: out-of-HMI-scope (industrial-wastewater-remediation cluster; 3rd predicted cluster member; Cu/Ni/Zn adsorbent study with no food matrix, no consumer-product matrix, no human exposure pathway).
+
+## Tick 2026-06-01T12:06:32.761Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `mohammadi2024-champa-rice-southwest-iran-carcinogenic-risk` (raw/Manual Fetch Kimi /June 1/Evaluation-of-carcinogenic-risk-of-heavy-metals-due-to-consumption-of-rice-in-Southwestern.pdf)
+
+## Tick 2026-06-01T12:14:13.083Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 1/Heavy-Metal-Removal-Using-Plant-Origin-Biomass-and-Agricultural-Waste-Derived-Biomass-from.pdf`: out-of-scope wastewater-remediation biosorption review (4th confirmation of the June 1 cluster pattern — Karen's standing recommendation is to sideline the cluster)

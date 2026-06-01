@@ -550,3 +550,33 @@ This is the third confirmed stop in the June 1 wastewater-remediation cluster (`
 **Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
 
 **Recommendation for Karen:** Same as the two prior cluster stops — move the 9-PDF June 1 wastewater-remediation cluster to `raw/_out-of-scope/wastewater-remediation/` so subsequent ticks skip them. Three-paper confirmation of the pattern is now in place; per-PDF stop notes on the remaining 6 cluster members would be pure redundancy and would burn an autonomy tick per file. The substantive in-scope papers in the June 1 folder (the rice carcinogenic-risk paper, the olive-oil food-safety paper, the JSFA edible-12-metals paper, NAJSP32025-54T2, and any others not yet evaluated) will drain normally after the cluster is sidelined.
+
+## STOP: MFK_heavy-metal-removal-using-plant-origin-biomass-and — out of HMI scope (wastewater-remediation biosorption review; 4th cluster confirmation)
+
+**PDF:** `raw/Manual Fetch Kimi /June 1/Heavy-Metal-Removal-Using-Plant-Origin-Biomass-and-Agricultural-Waste-Derived-Biomass-from.pdf`
+
+**Suggested handle:** MFK_heavy-metal-removal-using-plant-origin-biomass-and
+
+**Citation:** Paranjape P, Sadgir P. Heavy Metal Removal Using Plant Origin Biomass and Agricultural Waste-Derived Biomass from Aqueous Media: a Review. Water Conservation Science and Engineering. 2023;8:9. DOI: 10.1007/s41101-023-00177-0. Received 1 May 2022; revised 16 December 2022; accepted 19 December 2022; published online 1 February 2023. Department of Civil Engineering, College of Engineering, Pune, Maharashtra, India 411005. Springer Nature Singapore Pte Ltd.
+
+**Reason for stop:** Fourth confirmation of the June 1 wastewater-remediation cluster pattern. 21-page review of biosorption methods for removing **copper, aluminum, and iron** from contaminated **water and wastewater** using plant-origin biomass (leaves, seeds, peels, roots) and agricultural waste-derived biomass (husks, shells, fibers). Verified by reading pages 1–5 (abstract, introduction, mechanism of biosorption, isotherm modeling, analytical techniques, opening of removal-by-Cu section through Table 4) and pages 18–21 (entirely references — 150 citations, all biosorption/wastewater-treatment/isotherm-modeling work).
+
+Scope-of-evidence content:
+- Abstract: maximum removal efficacies 50–100% across natural low-cost adsorbents; optimal pH 4–9 for Cu, 2–8 for Fe/Al; contact time 20 min–24 h; pseudo-second-order kinetics and Langmuir isotherm as dominant models; thermodynamics 25–60 °C Cu, 25–50 °C Al, 30–70 °C Fe.
+- Isotherm models tabulated (Henry's, Freundlich, Langmuir, BET, Temkin, Toth, Dubinin-Radushkevich) — water-treatment engineering, not food-contamination assessment.
+- Analytical techniques tabulated (ESR, NMR, Raman, FT-IR, XAS/EXAFS/XANES) — all for characterizing bioadsorbent functional groups and metal-binding sites, not food-matrix metal quantification.
+- Example bioadsorbents discussed: Iraqi palm leaves ash, modified tea leaves, palm leaf ash, watermelon rind, Bengal-gram husk, banana peel, orange peel, rice husk, neem leaves, coconut shell, sawdust, biochar from various agricultural residues.
+
+The only HMI-adjacent content in the entire review is one paragraph on p. 2 listing food sources of copper exposure: "Copper can be found in food, particularly shellfish, liver, nuts, chocolate, and mushrooms" — a single sentence with no quantitative data, no source citation specific to those foods, and no contribution to any product-page or ingredient-page evidence register. No analyte in the review's primary scope intersects HMI's 10-analyte vocabulary (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) except for **Al**, which appears here only as a wastewater contaminant being removed, not as a food contamination signal.
+
+Parallel in failure mode to the three prior cluster stops (`MFK_cellulose-based-adsorbents`, `MFK_chelated-heavy-metals-removal-by-in-situ-formed-fe`, `MFK_demolition-waste-for-adsorption-of-metals-a-step-t`) and is one of the "6 remaining cluster members" explicitly anticipated in the prior `demolition-waste` stop note. The cluster boundary is the recurring distinction between wastewater-treatment R&D and food-contamination evidence: HMI's strategic frame (CLAUDE.md Part 1) is "the complete heavy metals food-and-supply-chain literature" — not environmental-remediation engineering.
+
+**Identity checks (clean — no existing wiki page):**
+- DOI grep `10.1007/s41101-023-00177-0`, `s41101.023.00177`: no matches
+- Author grep `paranjape`, `sadgir`, `paranjape2023`: no matches
+- Handle grep `MFK_heavy-metal-removal-using-plant-origin-biomass`, `Heavy-Metal-Removal-Using-Plant-Origin-Biomass`: no matches
+- Title-substring grep `Heavy.Metal.Removal.Using.Plant`: no matches
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+**Recommendation for Karen:** Standing cluster recommendation now has four-paper confirmation. Five remaining cluster members (Introduction-of-adsorption-techniques-for-heavy-metals-remediation, Investigation-of-the-agroecological-applications-of-olive-mill-wastewater-fractions, Natural-Clays-as-Adsorbents-for-the-Removal-of-Heavy-Metals-from-Phosphogypsum, Role-of-Extremophiles-in-the-Removal-of-Heavy-Metal-and-E-Waste, The-Role-of-Wastewater-Treatment-Technologies-in-Municipal-Landfill-Leachate-Treatment) will hit the same stop on subsequent ticks. Moving the full June 1 wastewater-remediation cluster to `raw/_out-of-scope/wastewater-remediation/` (or equivalent sideline location) drains the autonomy loop onto the substantive in-scope June 1 papers without burning a tick per cluster member.
