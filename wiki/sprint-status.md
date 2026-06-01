@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T06:57:23.346Z
+updated: 2026-06-01T07:19:18.056Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 67 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 935 min ago (stale) |
+| Daemon heartbeat | ⚠️ 957 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 12 |
-| Commits last 24 hours | 229 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 11 |
+| Commits last 24 hours | 233 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-fd3bdb4 10 minutes ago — audit-queue: kjolholt2015-car-safety-seats-childrens-textiles -> audited-revised
+da6fc85 8 minutes ago — audit-queue: echa2023-cmr-childcare-articles -> audited-revised
 ```
 
 ## How to read this
