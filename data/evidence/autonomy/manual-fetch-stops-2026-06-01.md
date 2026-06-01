@@ -138,3 +138,62 @@ This is parallel to the previously-stopped MFK_01 (PAH-only), MFK_03 (phthalates
 **Folder note:** First out-of-scope stop in the `_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories` folder. Other PDFs in the folder should be evaluated individually; "feeding accessories" is a broad scope and some entries likely cover heavy metals (cutlery, plates, sippy cups, weaning sets are common Pb/Cd/Ni surfaces).
 
 **Recommendation for Karen:** Same standing recommendation as for MFK_01/03/05: either move the four organics-only stops (MFK_01 PAH, MFK_03 phthalates, MFK_05 dioxins, MFK_07 melamine+formaldehyde) to an `out-of-scope/` or `organics-context/` pile so future Kimi folder sweeps skip them automatically, or expand HMI's analyte vocabulary / define a "co-contaminant FCM context" source-type tag so feeding-accessory and diaper product pages can carry a unified contaminant story (metals + organics) paralleling EU REACH, ANSES, and BfR dossiers. The pattern is now consistent across two folders (03_Diapers and 04_Feeding_Accessories) and four contaminant classes (PAH, phthalates, dioxins, MFR monomers); a single decision settles both folders and any future folder sweep.
+
+## STOP: MFK_09-unknown — out of HMI subject-matter scope (mechanical safety regulatory economics)
+
+**PDF:** `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/09_Unknown.pdf`
+
+**Suggested handle:** MFK_09-unknown
+
+**Citation:** Industrial Economics, Incorporated (IEc) for U.S. Consumer Product Safety Commission. *Full-Size Cribs and Non-Full-Size Cribs Standards Rule Review: Final Contractor Technical Report.* Cambridge, MA: IEc; August 2020. Contract CPSC-D-15-004, Task Order 61320619F1109. (Summary Report dated May 27, 2020.) No DOI; agency-commissioned technical report.
+
+**Reason for stop:** Document is a 71-page Regulatory Flexibility Act §610 retrospective review of CPSC's 2010 mandatory mechanical-safety standards for full-size cribs (16 CFR 1219) and non-full-size cribs (16 CFR 1220), promulgated under §104 of the Consumer Product Safety Improvement Act of 2008 (the Danny Keysar Child Product Safety Notification Act). It analyses the *economic burden of the mechanical rule* on small-business crib suppliers — slat strength requirements, drop-side elimination, mattress-support strength, label/warning changes, third-party-testing intervals, and record-keeping. Evidence base: interviews with 9 current/former crib suppliers (6 phone, 3 written) drawn from a frame of 89 firms.
+
+Verified across pages 1–30 (cover, executive summary, Chapter 1 introduction & methodology, Chapter 2 affected-supplier characterisation, Chapter 3 §3.1–3.2 sample summary and Exhibit 3-3 supplier responses, §3.2.1–3.2.5 counterfactual/responses/testing/market/suggestions, §3.3 conclusions, appendix Q&A for Supplier 1). No heavy-metal analyte (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) is measured, modelled, quantified, or used to set any threshold. The acronyms list (p. ii) contains `XRF — X-ray fluorescence`, but the only in-body uses of XRF are:
+- §3.2.5 (p. 3-11): "considering other types of testing machines that would reduce the overall cost of testing (e.g., X-ray fluorescence [XRF] tester)" — suggestion to substitute XRF for destructive mechanical testing.
+- Exhibit 3-3 row 2 (p. 3-5): "Consider allowing certain types of machines that are cheaper for testing (e.g., XRF tester)."
+
+Footnote 17 (p. 3-4) mentions "testing requirements, such as testing for phthalates and lead, as well as testing component parts" — a single passing reference noting CPSIA's separate lead/phthalates rules, *not* lead measurements in cribs. No lead values, no migration data, no exposure calculation, no regulatory threshold for any metal appears in the report.
+
+The folder context `_extracted_infantdurable_02_Strollers_Walkers_Swings` is also a misfile — the document is about cribs, not strollers/walkers/swings. But regardless of product-category mislabelling, the document's subject (mechanical safety standards economic-impact review) is structurally outside HMI's analyte and synthesis scope.
+
+This is parallel to the MFK_01/03/05/07 organics-only stops in pattern but distinct in failure mode: those four documents are high-quality contaminant studies on non-metal analytes; this one is a regulatory-economic interview report with no contaminant data at all. The CPSC regulatory layer that *would* be in scope (16 CFR Part 1303 lead-in-paint, 16 CFR Part 1500 lead-content limits under CPSIA §101, CPSC's children's-product lead and phthalate testing rule 16 CFR 1107) is referenced only obliquely in footnotes 16–17 as "other federal rules" the suppliers also comply with; the substantive content of those rules is not analysed here.
+
+**Identity checks (clean — no existing wiki page):**
+- DOI / contract-ID grep (`CPSC-D-15-004`, `61320619F1109`, `Full-Size Cribs and Non-Full-Size Cribs Standards Rule Review`): no matches
+- Suggested-handle / filename grep (`MFK_09-unknown`, `09_Unknown.pdf`, `02_Strollers_Walkers_Swings.*09_Unknown`): no matches
+- Cite-key candidate grep (`iec2020-cpsc-crib-rule-review`, `cpsc2020-crib-rule`, `industrial-economics.*crib`): no matches
+- 16 CFR rule grep (`16 CFR 1219`, `16 CFR 1220` across `wiki/sources/`): no matches; these mechanical-safety rules are not currently referenced anywhere in the wiki corpus
+
+**Action taken:** No ingest. No commits. No audit queue append. Wrapper proceeds to next PDF.
+
+**Folder note:** First out-of-scope stop in the `_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings` folder. The folder label suggests stroller / walker / swing content, so other PDFs may also be misfiled — but each should be evaluated individually before being skipped. Infant durables (cribs, strollers, walkers, swings, high chairs) are plausible Pb/Cd/Cr surfaces (paint, coatings, plastic, fabric) and the folder is worth working through.
+
+**Recommendation for Karen:** This stop is structurally different from the four MFK organics-only stops. The MFK_01/03/05/07 stops can be resolved by an analyte-scope decision; this one cannot, because no analyte is measured at all. Two options: (a) move `09_Unknown.pdf` to an `out-of-scope/` pile alongside the organics-only stops with a different sub-tag (e.g., `regulatory-economic-context/`) so it is not re-attempted; (b) leave it in the Kimi corruption folder and accept that the next sweep over this folder will land on it again and re-stop. Option (a) avoids re-work; option (b) preserves the raw filesystem layout. No content decision needed.
+
+## STOP: MFK_15-unknown — out of HMI analyte scope (phthalates-only) + brand-firewall
+
+**PDF:** `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/15_Unknown.pdf`
+
+**Suggested handle:** MFK_15-unknown
+
+**Citation:** Schreder E. Not So Squeaky Clean: A Study of Phthalates in Toys. Washington Toxics Coalition, for the Toxic-Free Legacy Coalition. 2008. www.watoxics.org / www.toxicfreelegacy.org. ~8-page advocacy/testing report; no DOI.
+
+**Reason for stop:** Paper measures only phthalates (DEHP, BBP, DBP, DNOP, DEP, DIBP, DIDP, DINP, DMP, plus one unidentified octyl C8 phthalate) by GC/MS in 20 PVC toys. The handheld Innov-X XRF analyzer mentioned in Appendix I is described as capable of detecting Pb, Cd, Cl, Br, Sn, Sb, but per the methods text the XRF was used *only* to identify PVC presence via chlorine detection — no heavy-metals quantification is reported. The Executive Summary mentions Pb and Cd as co-occurring contaminants in PVC toys but explicitly attributes that finding to a different 2007 Ecology Center study (cited at footnote 1, `www.healthytoys.org`), not to this report's own testing. Verified by reading the cover, acknowledgments, Executive Summary, Key Findings, Phthalates: Hidden Danger in the Toy Box, Phthalate Testing Results (Table 1 + Table 2), Results, Solutions, Appendix I: Methods, and References.
+
+Phthalates are organic plasticizers (di-ester compounds), not metals; they are not in HMI's 10-analyte vocabulary (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn). This is the same failure mode as MFK_03-new-diaper-study-final-2015 (also phthalates-only).
+
+**Secondary firewall concern:** Table 1 is structured as a brand-ranking table — every quantitative phthalate value is attached to a specific named brand/manufacturer (Mattel/Fisher-Price, Mattel/Disney Princess, Götz, Target, NA, Hasbro/My Little Pony, Geoffrey/Toys R Us, Wal-Mart, Kmart/Just Kidz, Hasbro/Playskool, Learning Resources, Lakeshore Learning, Fred Meyer purchase points). Per Part 12 brand-firewall, even if the analytes were in scope, the only quantitative content available for extraction is brand-by-brand and could not be reproduced verbatim. Only category-level summaries would be permissible — but at the category level the data reduces to "9/20 PVC toys contain phthalates at 0.4–47.5%," which carries no metals signal.
+
+**Folder filing mismatch:** PDF is filed under `_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/` but the report's subjects are toys (dolls, balls, squeeze toys, dinosaur figurine, Tinkertoys, Tonka car, play food) — not strollers, walkers, or swings. The Kimi extractor appears to have misclassified the file. The product-category surface this paper would touch (if it were in scope) is `wiki/products/toys-*` or a children's-product page, not stroller/walker/swing pages.
+
+**Identity checks (clean — no existing wiki page):**
+- Author / title grep (`Squeaky Clean`, `Schreder`, `Washington Toxics Coalition.*phthalate`, `Not So Squeaky`): no matches
+- Suggested-handle / filename grep (`MFK_15-unknown`, `15_Unknown.pdf`, `15-unknown`, `02_Strollers_Walkers_Swings.*15`): no matches
+- No DOI to grep (advocacy report)
+
+**Action taken:** No ingest. No commits. No audit queue append. Wrapper proceeds to next PDF.
+
+**Folder note:** Second out-of-scope stop in the `_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings` folder (after `09_Unknown.pdf`). The folder now has two confirmed misfilings: a CPSC crib-rule economic-review report (`09_Unknown.pdf`) and this WTC phthalates-in-toys advocacy report (`15_Unknown.pdf`). Other `*_Unknown.pdf` files in this folder are at elevated risk of being similarly off-scope and warrant individual evaluation rather than blanket processing.
+
+**Recommendation for Karen:** Same as MFK_03-new-diaper-study-final-2015 — this is an organics-only (phthalates) testing report with no metals analyte to anchor on. Either (a) expand HMI analyte vocabulary to include co-occurring plasticizers as cross-contaminant context (large policy decision; not recommended for one report), or (b) move `15_Unknown.pdf` to an `out-of-scope/phthalates-only/` review pile so it is not re-attempted. The brand-firewall concern is a secondary lock — even with a vocabulary expansion, this specific source is mostly unusable at the granularity its data is reported.

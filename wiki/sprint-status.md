@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T06:11:53.677Z
+updated: 2026-06-01T06:35:31.663Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,7 +28,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 890 min ago (stale) |
+| Daemon heartbeat | ⚠️ 913 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
@@ -36,7 +36,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
 | Commits last 1 hour | 12 |
-| Commits last 24 hours | 223 |
+| Commits last 24 hours | 225 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-bf5bcb8 28 seconds ago — triage sweep 2026-06-01 0912: 0 rollups + 2 skips
+4f1ae83 53 seconds ago — audit-queue: stringer2001-greenpeace-pvc-children-products -> audited-revised
 ```
 
 ## How to read this

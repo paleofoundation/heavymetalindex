@@ -239,3 +239,63 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures/06_Unknown.pdf`: out-of-scope (CPSIA §104 physical-safety crib NPR; no usable heavy-metals analyte content beyond one anecdotal incident-report paragraph mentioning lead paint)
+
+## Tick 2026-06-01T05:20:53.438Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `schade2010-toxic-toys-r-us-pvc` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures/07__ Toxic Chemicals in Toys and Packaging - Toys.pdf)
+
+## Tick 2026-06-01T05:37:15.143Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `villarreal2021-ic-icpms-cr-vi-toys` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures/08_Unknown.pdf)
+
+## Tick 2026-06-01T05:59:42.068Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/09_Unknown.pdf`: MFK_09-unknown — out of HMI subject-matter scope (CPSC/IEc 2020 crib-rule §610 review; mechanical safety economics, no heavy-metals analytes)
+
+## Tick 2026-06-01T06:03:14.409Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `ul2012-chemicals-childrens-toys` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/11_Unknown.pdf)
+
+## Tick 2026-06-01T06:17:11.000Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/15_Unknown.pdf`: MFK_15-unknown — phthalates-only, no metals data + brand-firewall
+
+## Tick 2026-06-01T06:20:48.984Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `stringer2001-greenpeace-pvc-children-products` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings/16_Unknown.pdf)
