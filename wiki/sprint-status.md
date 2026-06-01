@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T22:57:41.978Z
+updated: 2026-06-01T23:21:00.566Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 53 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1896 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1919 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
-| Audit queue: pending | 1 ✅ |
+| Audit queue: pending | 2 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 26 |
 | Wishlist: total ingested historically | 17 |
-| Repo sync | ⚠️ 3 commit(s) ahead of origin/main |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 305 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 14 |
+| Commits last 24 hours | 307 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-10e82f9 16 seconds ago — audit-queue: trumbull2017-wa-childrens-seasonal-products-2014-2015 audited-promote
+e8fa7a4 26 seconds ago — ingest: campaignsafecosmetics2016-pretty-scary-2-kids-makeup fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports
 ```
 
 ## How to read this
