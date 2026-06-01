@@ -68,7 +68,7 @@ This 47-page Center for Health, Environment & Justice (CHEJ) PVC Campaign and Te
 ### Round 1 packaging results (n=7, Table 2)
 
 - **Chlorine >LOD: 100% (7/7) at 550,000 ppm** (the XRF Cl upper-reporting bound) on every packaging sample.
-- **Tin >LOD: 100% (7/7).** Range 980 to 2,359 ppm; max on a buzz-lightyear-themed figurine packaging.
+- **Tin >LOD: 100% (7/7).** Range 980 to 2,359 ppm; max on a figurine-toy packaging in the Round 1 tie-in cohort.
 - **Pb >LOD: 0/7. Cd >LOD: 0/7.**
 
 ### Round 2 toy results (Fall 2010, n=60, Table 3)
@@ -77,11 +77,11 @@ This 47-page Center for Health, Environment & Justice (CHEJ) PVC Campaign and Te
 - **Tin >LOD: 23.3% (14/60)** indicating likely organotin stabilizer use.
 - **Of tin-positive toys, 85.7% (12/14) also contained high chlorine,** indicating tin co-occurs with PVC.
 - **Pb >LOD: 5% (3/60).** Per-item values from Table 3:
-  - A hamster-themed plush-toy fur component (Round 2): **9 ppm Pb.**
+  - A robotic hamster-toy fur-covered exterior component (Round 2): **9 ppm Pb.**
   - A baby-feeding table-topper orange-plastic placemat (Round 2): **12 ppm Pb.**
   - A stretchy-dragon animal toy underside (Round 2): **51 ppm Pb.**
 - **Cd >LOD: 0% (0/60).**
-- **Highest Cl values in Round 2 (Table 3): 550,000 ppm** (XRF Cl upper bound) on a dora-the-explorer-themed reach-for-the-stars bag, a soccer ball (mini) white section, and a generic "Baby on the Go" tote bag.
+- **Highest Cl values in Round 2 (Table 3): 550,000 ppm** (XRF Cl upper bound) on a licensed-character reach-for-the-stars tote bag (flesh-coloured face component), a mini soccer ball (white section), and a "Baby on the Go" generic tote bag.
 
 ### Round 2 toy results by product type (Table 4, % >LOD)
 
@@ -195,3 +195,9 @@ Age groupings as labeled on the toy packaging.
 - **Folder context vs paper scope.** The PDF lives under `_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures/` in the Kimi corruption-issue raw tree, but the paper itself does not test cribs, bassinets, or sleep enclosures. The folder name reflects the Kimi-agent's batch-organisation scheme, not the paper's content. The paper's scope is toys and toy packaging at Toys "R" Us / Babies "R" Us; the folder misfile does not affect the routing decisions above, which are driven by paper scope rather than folder name.
 - **Date and unit conventions.** All Pb, Cd, and Sn substrate concentrations are reported in ppm (mg/kg) of the XRF-scanned material by weight. Chlorine is reported in ppm or percent (Appendix A Cl LOD = 2.80%; in Tables 1–6 the upper-reporting bound for Cl is 550,000 ppm = 55%, which is the elemental Cl content of pure PVC by mass and corresponds to "the XRF reported saturation" on a pure-PVC sample). Comparison limits referenced: CPSIA Section 101 substrate Pb 90 ppm in surface coatings, 300 ppm in substrate (effective August 2009) tightening to 100 ppm (effective August 2011); CPSIA-prohibited phthalates DEHP, DBP, BBP (effective February 2009). No HMTc threshold is referenced in this paper.
 - **Raw integrity.** `raw_sha256: 8a73163bf7b5f59cfeb76b1b0db4ff23b0eb76b8cbf044cbc62d720745be5673` confirmed against the PDF at the raw path.
+- **Audit subagent findings applied (2026-06-01).** Fresh-context Agent subagent audit (general-purpose, Opus 4.7) returned verdict REVISE with 0 ❌ findings and 3 ⚠️ concerns. Verified each against the PDF and applied all three:
+  - ⚠️ Applied (Check 1): The Round 2 Pb-positive Zhu Zhu Hamster V4 component had been described as "a hamster-themed plush-toy fur component." Zhu Zhu Pets are battery-operated robotic hamster toys with fur-covered exteriors rather than pure plush dolls; "Hamster Fur" is the source's verbatim component test-area name (Table 3, p. 23). Reworded to "a robotic hamster-toy fur-covered exterior component" to match the actual format.
+  - ⚠️ Applied (Check 4): Round 2 max-Cl bullet had described one of the 550,000 ppm items as "a dora-the-explorer-themed reach-for-the-stars bag." "Dora the Explorer" is a Nickelodeon licensed character; attaching the character name to a contamination value in a results section is at the edge of the Part 12 Exception 1 scope (it is not a brand-by-brand ranking, but the same descriptive content can be carried by the product-form descriptor alone). Reworded to "a licensed-character reach-for-the-stars tote bag (flesh-coloured face component)" — the form-and-component descriptor preserves the routeable category and the flesh-coloured-plastic test surface without naming the licensed character.
+  - ⚠️ Applied (Check 4): Round 1 packaging max-Sn bullet had described the 2,359 ppm item as "a buzz-lightyear-themed figurine packaging." Buzz Lightyear is a Pixar/Disney licensed character; same Part 12 reasoning as the Dora bullet. Reworded to "a figurine-toy packaging in the Round 1 tie-in cohort" — the per-item identifier is dropped, the cohort context (the Round 1 cohort is the licensed-film tie-in cohort described in the sampling-frame bullet) remains.
+  - Checks 2 (slug vocabulary), 3 (speciation and methods), and 5 (Part 2 wiki/HMTc firewall) returned ✅ clean.
+  - Check 1 numerical fidelity returned exact matches on all denominator-and-percentage values verified against Tables 1–6, Appendix A LODs, and the Discussion and Executive Summary narratives.
