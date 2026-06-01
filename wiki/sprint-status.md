@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T10:57:32.789Z
+updated: 2026-06-01T11:41:03.238Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 65 min**
+Velocity: **+0 cells in the last 66 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 65 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1175 min ago (stale) |
+| Daemon heartbeat | ⚠️ 1219 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 6 |
-| Commits last 24 hours | 268 |
+| Repo sync | ⚠️ 5 commit(s) ahead of origin/main |
+| Commits last 1 hour | 14 |
+| Commits last 24 hours | 278 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 65 min**
 ## Last commit
 
 ```
-84f04e2 14 minutes ago — audit-queue: moriceau2025-cosmetics-icpms-iso21392 -> audited-promote
+592d094 43 seconds ago — audit-queue: llorent-martinez2014-olive-oil-extraction-metals-fate -> audited-revised
 ```
 
 ## How to read this

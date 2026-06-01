@@ -559,3 +559,33 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Heavy_metal_contamination_in_commonly_used_baby_talcum_powders_in_India.pdf`: byte-identical to rashmi2020-baby-talcum-powder-heavy-metals-india
+
+## Tick 2026-06-01T10:58:38.595Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Failed
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Inductively_coupled_plasma-mass_spectrometry_ICP-MS_detection_of_trace_metal_c.pdf`: unrecognized final line: "- Three commits: ingest (2db2c8e), audit application (f2b10ac), audit-queue update (7731e30)."
+
+## Tick 2026-06-01T11:12:19.398Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review` (raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Neurotoxic_effect_of_active_ingredients_in_sunscreen_products_a_contemporary_re.pdf)
+
+## Tick 2026-06-01T11:32:35.945Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `llorent-martinez2014-olive-oil-extraction-metals-fate` (raw/Manual Fetch Kimi /June 1/10.1007@s11746-014-2511-5 (1).pdf)

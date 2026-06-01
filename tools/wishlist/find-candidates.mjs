@@ -58,6 +58,18 @@ const PMC_FULLTEXT_URL = "https://www.ncbi.nlm.nih.gov/pmc/articles" // /<PMCID>
 const NCBI_API_KEY = process.env.NCBI_API_KEY || ""
 const PUBMED_ENABLED = (process.env.HMI_PUBMED_ENABLED ?? "1") !== "0"
 const USER_AGENT = "HeavyMetalIndex/0.1 (https://heavymetalindex.com; karen@paleofoundation.com)"
+// OpenAlex grants the "polite pool" (far higher, more stable rate limits) ONLY
+// when you pass a mailto. Without it you're in the common pool and get HTTP 429
+// under any sustained load — which is exactly what silently killed fetch (608
+// queries/run, every one 429'd, 0 downloads, for days). The User-Agent email is
+// NOT enough; OpenAlex keys off the mailto query param.
+const MAILTO = process.env.HMI_FETCH_MAILTO || "karen@paleofoundation.com"
+// 429 circuit-breaker: once the API starts rate-limiting, hammering through it
+// only deepens the throttle and wastes the whole budget producing nothing. Back
+// off exponentially, and after MAX_CONSECUTIVE_429 give up this run cleanly —
+// the cap resets and the next run (with mailto) succeeds.
+const MAX_CONSECUTIVE_429 = 6
+let consecutive429 = 0
 // Sprint mode: 8 → 25 candidates per OpenAlex query so each query produces
 // more material. Combined with concurrent fetches below, throughput target
 // is ~200-500 PDFs per fetch run.
@@ -708,7 +720,7 @@ for (let i = startIndex; i < queries.length; i += 1) {
   // matched as "coffee Pb concentration" under the old search), thin-film
   // transistor papers using metals as semiconductors, and clinical-mechanism
   // papers ("hepatoprotective coffee against Cd toxicity in rats").
-  const url = `${OPENALEX_BASE}?filter=title_and_abstract.search:${encodeURIComponent(searchTerms)},is_oa:true,from_publication_date:${FROM_YEAR}-01-01&per-page=${PER_QUERY_LIMIT}`
+  const url = `${OPENALEX_BASE}?filter=title_and_abstract.search:${encodeURIComponent(searchTerms)},is_oa:true,from_publication_date:${FROM_YEAR}-01-01&per-page=${PER_QUERY_LIMIT}&mailto=${encodeURIComponent(MAILTO)}`
   process.stderr.write(`[${q.id}] "${searchTerms}" ... `)
 
   let works = []
@@ -716,9 +728,22 @@ for (let i = startIndex; i < queries.length; i += 1) {
     const response = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } })
     if (!response.ok) {
       process.stderr.write(`HTTP ${response.status}\n`)
-      await new Promise((r) => setTimeout(r, API_DELAY_MS))
+      if (response.status === 429) {
+        consecutive429++
+        if (consecutive429 >= MAX_CONSECUTIVE_429) {
+          process.stderr.write(
+            `\n[rate-limit] ${consecutive429} consecutive 429s from OpenAlex — stopping this fetch run cleanly to let the cap reset (mailto polite-pool is set; next run should succeed).\n`,
+          )
+          break
+        }
+        // Exponential backoff: 2s, 4s, 8s … capped at 30s.
+        await new Promise((r) => setTimeout(r, Math.min(2000 * 2 ** (consecutive429 - 1), 30000)))
+      } else {
+        await new Promise((r) => setTimeout(r, API_DELAY_MS))
+      }
       continue
     }
+    consecutive429 = 0 // a good response clears the breaker
     const data = await response.json()
     works = data.results ?? []
     process.stderr.write(`${works.length} hits\n`)
