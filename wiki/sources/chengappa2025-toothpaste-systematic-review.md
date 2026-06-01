@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/03_Contamination_Data/CONT-011_Chengappa_2025_Heavy_Metals_Toothpaste_SystematicReview.pdf"
 raw_sha256: dc2a116e1898f5d1e168610fe5591d37d4922d4a87cb7ad41c4aade12a7e295d
 access_url: https://doi.org/10.3389/fdmed.2025.1543972
-metals: [Pb, Cd, tAs, tHg, Ni, Cr, Cu, Zn, Fe, Co, Ag]
+metals: [Pb, Cd, tAs, tHg, Ni, Cr, Cu, Zn, Fe, Co, Ag, Al, Mn]
 ingredients: []
 products: ["[[products/toothpaste]]"]
 matrices: [cosmetic-personal-care]
@@ -31,7 +31,7 @@ created_by: claude_opus_47_session
 
 # Chengappa et al. 2025 — Systematic review of heavy metals in over-the-counter toothpastes (11 in vitro studies)
 
-This Frontiers in Dental Medicine PRISMA 2020 systematic review compiles in vitro evidence on the presence and concentration of heavy metals in over-the-counter toothpastes from 11 primary studies published between 2013 and 2023, screened from 9,409 database records via Google Scholar, PubMed, Scopus, Springer Link, Embase, and Web of Science. All 11 included studies reported the presence of one or more heavy metals — toxic (Pb, Cd, tAs, tHg, Ag) and essential (Co, Zn, Cr, Cu, Fe, Ni, Sn) — in the toothpastes analysed. Eight of the eleven studies used flame or graphite-furnace atomic absorption spectrophotometry (AAS); two used ICP-MS; one used microwave plasma-atomic emission spectrometry (MP-AES). Quality assessment with the Quality Assessment Tool for in vitro Studies (QUIN) returned a high risk of bias for seven of the eleven studies and a medium risk for the remaining four (no study met the low-risk threshold). The review identifies regulatory-limit fragmentation across jurisdictions and a near-absence of toothpaste-specific occurrence data from North America, Europe (outside Malta), East Asia, and South America as the primary literature gaps.
+This Frontiers in Dental Medicine PRISMA 2020 systematic review compiles in vitro evidence on the presence and concentration of heavy metals in over-the-counter toothpastes from 11 primary studies published between 2013 and 2023, screened from 9,409 database records via Google Scholar, PubMed, Scopus, Springer Link, Embase, and Web of Science. All 11 included studies reported the presence of one or more heavy metals — toxic (Cd, Pb, tHg, tAs, Ag) and essential (Co, Zn, Cr, Cu, Fe, Ni) per the review's classification — in the toothpastes analysed. Eight of the eleven studies used atomic absorption spectrophotometry (AAS; several specified flame AAS in Table 1); two used ICP-MS; one used microwave plasma-atomic emission spectrometry (MP-AES). Quality assessment with the Quality Assessment Tool for in vitro Studies (QUIN) returned a high risk of bias for seven of the eleven studies and a medium risk for the remaining four (no study met the low-risk threshold). The review identifies regulatory-limit fragmentation across jurisdictions and a near-absence of toothpaste-specific occurrence data from North America, Europe (outside Malta), East Asia, and South America as the primary literature gaps.
 
 ## Key numbers
 
@@ -90,11 +90,10 @@ Cited regulatory limits the review compiles (Discussion, pp. 5-6):
 | Body | tAs | Pb | Cd | tHg | Cr | Notes |
 |---|---:|---:|---:|---:|---:|---|
 | US FDA (cosmetics, ref 26) | 3 ppm | 20 ppm | — | 1 ppm | 50 ppm | "limitations" framing |
-| WHO (ref 27) | 0.1 ppm | 10 ppm | 0.3 ppm | 1 ppm | 1.0 ppm | EU values reported as: Pb 0.5, Hg 0.5, As 0.1, Cr 1.0 ppm |
+| WHO (ref 27) | — | 10 ppm | 0.3 ppm | 1 ppm | — | Source p. 6 attributes only Pb, Cd, Hg to WHO |
+| EU (ref 7) | 0.1 ppm | 0.5 ppm | — | 0.5 ppm | 1.0 ppm | Source p. 6: "EU has set limits of 0.5 for lead and mercury, 0.1 for arsenic and 1.0 ppm for chromium" |
 | Government of Canada / Health Canada (ref 28; cosmetics) | 5 ppm | 20 ppm | 5 ppm | 1 ppm | — | Toothpaste-specific: Pb 1 ppm, As 0.5 ppm, Cd 0.1 ppm, Hg 0.2 ppm |
 | India BIS 6356:2017 (ref 29; toothpaste) | — | — | — | — | — | "Maximum limit of heavy metals in toothpaste should not exceed 20 ppm" |
-
-(The review text on p. 6 attributes WHO Hg=1 ppm to ref 27 and EU Hg=0.5 ppm to ref 7; these are distinct values for distinct standards. The summary table above preserves both.)
 
 Quality assessment (QUIN tool, Table 2, p. 6):
 
@@ -138,9 +137,11 @@ App: Not directly applicable. Toothpaste is outside the consumer-app scope (focu
 - [[metals/zinc]]
 - [[metals/iron]]
 - [[metals/silver]]
+- [[metals/aluminum]]
+- [[metals/manganese]]
 - [[products/toothpaste]]
-- [[regulations/eu-ec-1223-2009-cosmetics]]
-- [[regulations/india-bis-6356-toothpaste]]
+- [[regulations/eu-ec-1223-2009-cosmetics]] (proposed; not yet in regulation taxonomy)
+- [[regulations/india-bis-6356-toothpaste]] (proposed; not yet in regulation taxonomy)
 
 ## Verification notes
 
@@ -157,3 +158,8 @@ App: Not directly applicable. Toothpaste is outside the consumer-app scope (focu
 - Generative AI statement (p. 8): "The author(s) declare that no Generative AI was used in the creation of this manuscript."
 - Funding statement (p. 8): "The author(s) declare that no financial support was received for the research and/or publication of this article."
 - Conflict-of-interest statement (p. 8): "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
+- Audit subagent (2026-06-02) flagged the WHO row in the regulatory-limit table as misattributing EU values (tAs 0.1 ppm, Cr 1.0 ppm) to WHO — verified against source p. 6: "WHO for lead at 10 ppm, cadmium at 0.3 ppm and mercury at 1 ppm (27). The EU has set limits of 0.5 for lead and mercury, 0.1 for arsenic and 1.0 ppm for chromium (7)." Corrected: split the WHO and EU values into two separate rows; WHO row now em-dashed for tAs and Cr.
+- Audit subagent (2026-06-02) flagged "graphite-furnace AAS" in the opening paragraph as a methods-attribution slip — verified against source: PDF Table 1 specifies "Flame AAS" or generic "AAS" for the eight AAS studies; no included study uses graphite-furnace AAS. Corrected to "atomic absorption spectrophotometry (AAS; several specified flame AAS in Table 1)".
+- Audit subagent (2026-06-02) flagged the `metals:` frontmatter array as omitting Al and Mn — verified against source p. 5 Table 1 Salama row ("Lead, aluminium, cadmium, cobalt, chromium, copper, manganese, nickel, mercury, and arsenic"): both Al and Mn are present in the included corpus via Salama 2016. Added Al and Mn to the frontmatter `metals:` array and to the "Wiki pages this source may touch" list.
+- Audit subagent (2026-06-02) flagged that `[[regulations/eu-ec-1223-2009-cosmetics]]` and `[[regulations/india-bis-6356-toothpaste]]` are not in the current regulation-page taxonomy — confirmed: both regulation pages do not yet exist in `wiki/regulations/`. Both are bona-fide regulations cited multiple times across the toothpaste corpus (e.g., on the companion source page [[sources/chengappa2025-toothpaste-india-aas]]) and are appropriate candidates for new regulation pages via Karen's regulation-page workflow. Marked as `(proposed; not yet in regulation taxonomy)` rather than removing the wikilinks, to preserve the routing signal for the future regulation pages.
+- Audit subagent (2026-06-02) flagged the opening paragraph's "essential (Co, Zn, Cr, Cu, Fe, Ni, Sn)" classification as adding Sn to the essential category, where the source p. 4 classifies only "Cobalt, zinc, chromium, copper, iron, and nickel" as essential (Sn is detected by Vella & Attard but not categorically classified in the source's essential/toxic schema). Corrected to "essential (Co, Zn, Cr, Cu, Fe, Ni) per the review's classification".
