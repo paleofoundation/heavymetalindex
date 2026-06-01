@@ -78,31 +78,49 @@ Two scenarios (worst-case and refined), six age strata (0-6, 6-12, 13-18, 19-24,
 
 The most realistic scenario is **scenario 2.2** (whole-diaper extraction with urine simulant), because the capacity to extract substances from diaper to urine is measured rather than modelled (no skin-transfer T modelling needed) and only substances actually appearing in pressed urine output are quantified (no reflux ratio R needed).
 
-### QHRA findings — Scenario 2.2 (whole diaper + urine simulant, SCL 2018), HQ > 1 for any 0-36 month age class (Annex 3, p. 26-28)
+### QHRA findings — Scenario 2.2 (whole diaper + urine simulant, SCL 2018) (Annex 3, p. 20-28)
 
-Hazard-quotient exceedances (threshold effects) in the realistic scenario:
-- **Benzo[a]pyrene:** HQ 25.1-66.3 (all ages exceed); also IER 2.47e-3 to 1.42e-3 (no-threshold carcinogenic risk above 10⁻⁶ for all ages)
-- **Dibenzo[a,h]anthracene:** HQ 19.3-51 (all ages exceed)
-- **Benzo[k]fluoranthene:** HQ 2.28-6.03 (all ages exceed)
-- **Benzo[j]fluoranthene:** HQ 2.28-6.03 (all ages exceed)
-- **Benzo[b]fluoranthene:** HQ 2.36-6.24 (all ages exceed)
-- **Cyclopenta[c,d]pyrene:** HQ 1.93-5.10 (all ages exceed)
-- **Chrysene:** HQ 20.22 for 13-18 months only (other ages 0.15-0.41, below 1)
-- **PCB-126:** HQ 1.57-4.16 (all ages exceed)
-- **Sum of DL-PCBs (quantified):** HQ 1.69-4.46 (all ages exceed)
-- **Sum of dioxins + furans + DL-PCBs:** HQ 1.73-4.58 (all ages exceed)
-- **Hydroxyisohexyl 3-cyclohexene carboxaldehyde (Lyral®):** MOEref/MOE 1.72 (0-6 mo); 1.10 (6-12 mo); 0.65-0.93 (13-36 mo)
-- **Butylphenyl methylpropional (Lilial®):** MOEref/MOE 1.72 (0-6 mo); 1.10 (6-12 mo); 0.65-0.93 (13-36 mo)
+This is the most realistic scenario per the CES (p. 8). HQ > 1 (threshold effects) or IER > 10⁻⁶ (no-threshold carcinogenic effects) findings for any 0-36 month age class:
 
-Carcinogenic individual excess risk (IER > 10⁻⁶, no-threshold) findings in the realistic scenario apply to 10 PAHs (per text, p. 11): benzo[g,h,i]perylene, benzo[b]fluoranthene, cyclopenta[c,d]pyrene, chrysene, 5-methylchrysene, benzo[k]fluoranthene, benzo[j]fluoranthene, benzo[e]pyrene, benzo[a]pyrene, dibenzo[a,h]anthracene.
+- **Benzo[a]pyrene:** HQ 25.1-66.3 (all ages exceed); IER 1.42e-3 (0-6 mo), 1.82e-3 (6-12), 2.30e-3 (13-18), 2.99e-3 (19-24, maximum), 2.91e-3 (25-30), 2.47e-3 (31-36) — all ages above the 10⁻⁶ acceptable-risk threshold (p. 23)
+- **Dibenzo[a,h]anthracene:** HQ 19.3-51 (all ages exceed); IER 1.09e-3 to 2.30e-3 (all ages above 10⁻⁶) (p. 23)
+- **Benzo[k]fluoranthene:** HQ 2.28-6.03 (all ages exceed); IER 1.29e-4 to 2.72e-4 (all ages above 10⁻⁶) (p. 22)
+- **Benzo[j]fluoranthene:** HQ 2.28-6.03 (all ages exceed); IER 1.29e-4 to 2.72e-4 (p. 22)
+- **Benzo[b]fluoranthene:** HQ 2.36-6.24 (all ages exceed); IER 1.34e-4 to 2.82e-4 (p. 21)
+- **Cyclopenta[c,d]pyrene:** HQ 1.93-5.10 (all ages exceed); IER 1.09e-4 to 2.30e-4 (p. 21)
+- **Chrysene:** HQ 20.22 for 13-18 months only (other ages 0.15-0.41, below 1); IER 8.75e-6 to 1.84e-5 across all ages (above 10⁻⁶) (p. 22)
+- **PCB-126:** HQ 1.57-4.16 (all ages exceed) (p. 27)
+- **Sum of DL-PCBs (quantified):** HQ 1.69-4.46 (all ages exceed) (p. 28)
+- **Sum of dioxins + furans + DL-PCBs:** HQ 1.73-4.58 (all ages exceed) (p. 28)
+- **Benzo[g,h,i]perylene, 5-methylchrysene, benzo[e]pyrene** — Scenario 2.2 HQ < 1 across all ages but IER > 10⁻⁶ for at least one age (per text p. 11 listing the 10 PAHs with IER exceedances).
 
-### QHRA findings — substances where no exceedance was found (p. 13)
+Scenario 2.2 substances with HQ < 1 and IER ≤ 10⁻⁶ across all ages (no exceedance under the realistic scenario):
+- **Formaldehyde:** HQ 0.34-0.9 across age strata (p. 20).
+- **Sum of dioxins and furans (quantified):** HQ 0.23-0.62 (p. 27).
+- Specific dioxin/furan congeners measured in Scenario 2.2 (1,2,3,6,7,8-HxCDD, 1,2,3,4,6,7,8-HpCDD, 2,3,7,8-TCDF, 2,3,4,7,8-PeCDF, 1,2,3,4,7,8-HxCDF, 1,2,3,4,6,7,8-HpCDF, OCDF, 2,3,4,6,7,8-HxCDF) all HQ in the 10⁻³ to 10⁻⁴ range (p. 26-27).
 
-- Other fragrances (benzyl alcohol, coumarin, limonene, linalool, alpha-isomethyl ionone — all HQ < 1 across all ages)
+### QHRA findings — Scenario 1 (solvent extraction from shredded whole diapers, INC 2017/2018 + SCL 2017) (Annex 3)
+
+Solvent extraction is a worst-case-of-bioavailability scenario; the CES treats Scenario 2.2 as more realistic. Scenario 1 findings flagged:
+
+- **Hydroxyisohexyl 3-cyclohexene carboxaldehyde (Lyral®):** MOEref/MOE 1.72 (0-6 mo, red); 1.10 (6-12 mo, red); 0.93 (13-18 mo); 0.91 (19-24 mo); 0.82 (25-30 mo); 0.65 (31-36 mo) (p. 25). Two youngest age classes exceed the reference margin.
+- **Butylphenyl methylpropional (Lilial®):** MOEref/MOE 1.72 (0-6 mo, red); 1.10 (6-12 mo, red); 0.93 (13-18 mo); 0.91 (19-24 mo); 0.82 (25-30 mo); 0.65 (31-36 mo) (p. 25). Same exceedance pattern as Lyral®.
+- **Hexachlorobenzene (pesticide):** HQ 3.71e-2 to 9.82e-2 across age strata (all below 1); IER 8.84e-8 (0-6 mo, green) through 2.00e-7 (31-36 mo, orange) — orange in older age classes (between 10⁻⁷ and 10⁻⁶) (p. 20).
+- **Sum of DL-PCBs (Scenario 1):** HQ 8.05e-2 to 0.21 across age strata (0-6 mo orange) (p. 28).
+- **Sum of dioxins + furans + DL-PCBs (Scenario 1):** HQ 0.11 to 0.29 (p. 28).
+- **Benzo[a]pyrene Scenario 1 (diaper parts shredded, elastics):** IER 6.14e-11 to 1.07e-9 (all green) (p. 21).
+- **VOCs:** 1,2,3-trichlorobenzene HQ 4.06e-2 to 0.11 (0-6 mo orange, others green); 1,2,4-trichlorobenzene HQ 9.00e-3 to 2.38e-2 (green) with IER 6.13e-8 to 1.46e-7 (orange in older age classes); 1,3,5-trimethylbenzene HQ 1.56e-2 to 4.13e-2 (all green) (p. 23). None exceed HQ = 1.
+- **Other fragrances (Scenario 1):** Coumarin HQ 0.33-0.86 (all orange); Limonen [sic, Limonene] HQ 0.33-0.86 (all orange); Lyral/Lilial above; alpha-isomethyl ionone MOEref/MOE 6.49e-3 to 0.17 (green to orange); benzyl alcohol HQ 6.49e-3 to 1.72e-2 (green); benzyl salicylate MOEref/MOE 6.49e-3 to 0.17 (orange in 0-6 / 6-12 mo); linalol [sic, linalool] HQ 6.49e-3 to 1.72e-2 (green) (p. 24-25).
+- **Formaldehyde (Scenario 1):** HQ 9.71e-3 to 2.57e-2 across age strata (all green, no exceedance) (p. 20). The much higher Scenario 2.2 HQ (0.34-0.9) is reported in the Scenario 2.2 section above.
+
+### QHRA findings — substances explicitly stated to have no exceedance (p. 13, Agency conclusions)
+
+ANSES's conclusion explicitly lists substances where no exceedance was found across the QHRA:
+- Other fragrances (benzyl alcohol, coumarin, limonene, linalool, alpha-isomethyl ionone — none of these substances triggered HQ > 1; coumarin and limonene have orange-band HQs in Scenario 1 for older age classes but none above 1)
 - Prohibited pesticides (the majority found are EU-prohibited: lindane and quintozene since 2000, hexachlorobenzene since 2004)
-- Glyphosate or its metabolite AMPA (HQ < 1)
-- VOCs (1,2,3-trichlorobenzene HQ 4.06e-2 to 0.11; 1,2,4-trichlorobenzene HQ 9.00e-3 to 2.38e-2; 1,3,5-trimethylbenzene HQ 1.56e-2 to 4.13e-2 — all below 1)
-- Formaldehyde (HQ 9.71e-3 to 0.9 in scenario 2.2; threshold carcinogenic, no exceedance)
+- Glyphosate or its metabolite AMPA
+- VOCs (none exceed HQ = 1)
+- Formaldehyde (no exceedance — but see Scenario 2.2 HQ 0.34-0.9, orange in younger age classes)
 
 ### Population frame (p. 3)
 
@@ -149,6 +167,10 @@ Carcinogenic individual excess risk (IER > 10⁻⁶, no-threshold) findings in t
 - **Footnote 7 — endocrine-disruption databases consulted (p. 6).** "Classifications of the European Commission (BKH, 2000 and 2002; DHI, 2007), the US EPA and the Illinois EPA and inclusion on the TEDX (The Endocrine Disruption Exchange Inc) and SIN (Substitute It Now) lists" — these classifications "were not analysed by ANSES as part of this expert appraisal" per footnote 16 (added in the 08/01/2019 revision).
 - **Recommendation on chlorinated dioxin/furan/DL-PCB congener limits.** The CES recommends setting a maximum concentration "not to be exceeded for each chlorinated dioxin and furan and DL-PCB congener that would be of the same order of magnitude as the limit of quantification. Initially, the lowest LQ used in this expert appraisal (around 0.02 ng/kg) could be proposed. This value is not a health threshold" (p. 13). This is a precautionary regulatory anchor at LQ, not a health-based threshold.
 - **Routing destination check.** `products/diapers-and-components` exists as `wiki/products/diapers-and-components.md` (HMTc Cat 9 Row 7 scaffold, consistent with the routing destination used by the three sibling diaper sources [[nyamukamba2023-south-africa-diapers-metals-formaldehyde]], [[lai2025-infant-diaper-phthalate-dna-oxidation]], and [[smajgl2015-tin-baby-diapers-croatia]]).
+- **Audit subagent (2026-06-01, fresh-context general-purpose agent) — three findings applied.**
+  - ❌ Finding 1 (verified correct): Benzo[a]pyrene Scenario 2.2 IER range was stated as "2.47e-3 to 1.42e-3", which used only the first and last age-stratum values and missed the non-monotonic peak. Verified against PDF Annex 3 p. 23: the six age-stratum IER values are 1.42e-3 (0-6 mo), 1.82e-3 (6-12), 2.30e-3 (13-18), 2.99e-3 (19-24, true maximum), 2.91e-3 (25-30), 2.47e-3 (31-36). Corrected to list per-age values explicitly so readers see the 19-24 month peak.
+  - ❌ Finding 2 (verified correct): Formaldehyde HQ range was stated as "9.71e-3 to 0.9 in scenario 2.2", which conflated the Scenario 1 31-36-month value (9.71e-3) with the Scenario 2.2 range. Verified against PDF Annex 3 p. 20: Scenario 2.2 HQ is 0.34-0.9; Scenario 1 HQ is 9.71e-3 to 2.57e-2. Corrected by splitting into the Scenario 2.2 and Scenario 1 sections, each with its own range.
+  - ⚠️ Finding 3 (verified correct): The original "Scenario 2.2" findings section grouped Lyral®/Lilial® MOEs and VOC HQs under a Scenario 2.2 banner. Verified against PDF Annex 3: Lyral/Lilial MOE values appear only in the Scenario 1 column (p. 25); VOC HQs appear only in the Scenario 1 column (p. 23); other fragrances appear only in the Scenario 1 column (p. 24). Restructured into separate Scenario 2.2 and Scenario 1 findings subsections per audit recommendation. Section now distinguishes which scenario each finding belongs to and adds the IER columns for the Scenario 2.2 PAHs that the original section omitted.
 
 ## Ingest log
 
