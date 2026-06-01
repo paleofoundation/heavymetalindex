@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T01:01:27.947Z
+updated: 2026-06-01T01:46:50.721Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: **+0 cells in the last 55 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: **+0 cells in the last 55 min**
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 579 min ago (stale) |
-| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 625 min ago (stale) |
+| auto-fetched/ PDFs in queue | 3 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 58 |
 | Wishlist: total ingested historically | 2 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 12 |
-| Commits last 24 hours | 156 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 15 |
+| Commits last 24 hours | 167 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 55 min**
 ## Last commit
 
 ```
-c0a1db4 3 minutes ago — audit-queue: bfr2019-diaper-substances-anses-commentary -> audited-promote
+f06e0ca 27 seconds ago — triage sweep 2026-06-01 04:46: 0 rollups + 1 skips
 ```
 
 ## How to read this

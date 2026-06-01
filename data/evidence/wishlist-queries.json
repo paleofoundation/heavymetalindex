@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T00:13:41.878Z",
+  "generated_at": "2026-06-01T01:37:06.280Z",
   "source": "gap-driven (build-targeted-queries.mjs)",
   "total_candidates": 3003,
   "emitted": 3000,
@@ -650,7 +650,7 @@
         "kind": "product",
         "slug": "baby-wipes",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -679,7 +679,7 @@
         "kind": "product",
         "slug": "baby-wipes",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -799,7 +799,7 @@
         "kind": "product",
         "slug": "bottled-drinking-water",
         "metal": "tAs",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -915,7 +915,7 @@
         "kind": "product",
         "slug": "childrens-lip-balm-mineral-bearing",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -944,7 +944,7 @@
         "kind": "product",
         "slug": "childrens-lip-balm-mineral-bearing",
         "metal": "Cr",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1033,7 +1033,7 @@
         "kind": "product",
         "slug": "childrens-lip-balm-mineral-bearing",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1149,7 +1149,7 @@
         "kind": "product",
         "slug": "childrens-makeup",
         "metal": "Cr",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1207,7 +1207,7 @@
         "kind": "product",
         "slug": "childrens-makeup",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1236,7 +1236,7 @@
         "kind": "product",
         "slug": "childrens-nail-polish",
         "metal": "Cr",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1294,7 +1294,7 @@
         "kind": "product",
         "slug": "childrens-nail-polish",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1620,7 +1620,7 @@
         "kind": "product",
         "slug": "face-paint",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1649,7 +1649,7 @@
         "kind": "product",
         "slug": "face-paint",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -1680,7 +1680,7 @@
         "kind": "product",
         "slug": "face-paint",
         "metal": "tAs",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6233,7 +6233,7 @@
         "kind": "product",
         "slug": "pacifiers-and-sucking-teething-aids",
         "metal": "Cd",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6293,7 +6293,7 @@
         "kind": "product",
         "slug": "pacifiers-and-sucking-teething-aids",
         "metal": "Pb",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },
@@ -6324,7 +6324,7 @@
         "kind": "product",
         "slug": "pacifiers-and-sucking-teething-aids",
         "metal": "tAs",
-        "reason": "BLOCKED: no structured evidence loaded",
+        "reason": "BLOCKED: local extraction pending",
         "regulatory_cap": ""
       }
     },

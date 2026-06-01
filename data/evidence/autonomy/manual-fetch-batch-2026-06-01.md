@@ -49,3 +49,33 @@
 
 ### Succeeded
 - `bfr2019-diaper-substances-anses-commentary` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/09_preliminary-estimation-of-undesired-substances-in-diapers_2019.pdf)
+
+## Tick 2026-06-01T00:59:15.725Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `bernard2022-anses-diaper-risk-reevaluation` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/11_ijerph-19-04159_2022.pdf)
+
+## Tick 2026-06-01T01:17:39.168Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `anderson2002-uk-us-diaper-voc-emissions-mice` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_03_Diapers/03_Diapers/12_CIB6678_2000.pdf)
+
+## Tick 2026-06-01T01:27:17.446Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `cot2013-uk-aluminium-infant-diet` (raw/Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_04_Feeding_Accessories/04_Feeding_Accessories/03_statealuminium_2013.pdf)
