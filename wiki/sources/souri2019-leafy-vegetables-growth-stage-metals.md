@@ -10,7 +10,7 @@ doi: "10.1186/s40538-019-0170-3"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
-raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-formula-cd_2019_10-1186-s40538-019-0170-3.pdf"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/ingested/ing-formula-cd_2019_10-1186-s40538-019-0170-3.pdf"
 metals: [Cd, Pb, Ni, tAs, Cr, Co, Cu, Mn, Zn]
 ingredients: ["[[ingredients/leafy-vegetables]]", "[[ingredients/fresh-herbs]]"]
 products: ["[[products/leafy-vegetables-other]]", "[[products/non-root-vegetables]]"]
