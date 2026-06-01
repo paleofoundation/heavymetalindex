@@ -1,0 +1,163 @@
+---
+type: source
+raw_handle: MFK_salehipour2015
+cite_key: salehipour2015-iran-isfahan-cereals-vegetables-metals
+title: "Health Risks from Heavy Metals via Consumption of Cereals and Vegetables in Isfahan Province, Iran"
+authors: ["Mitra Salehipour", "Hadi Ghorbani", "Hossein Kheirabadi", "Majid Afyuni"]
+year: 2015
+publication: "Human and Ecological Risk Assessment: An International Journal"
+doi: "10.1080/10807039.2014.1002292"
+access_url: "https://doi.org/10.1080/10807039.2014.1002292"
+source_type: peer-reviewed
+evidence_tier: B
+license: "publisher copyright (Taylor & Francis, subscription; accepted manuscript)"
+raw_path: "raw/Manual Fetch Kimi /June 1/salehipour2015.pdf"
+raw_sha256: fbb40971a6a99641aa1cf10744958828850e1e40d398f64adffa2653d538a5d5
+metals: [Pb, tAs, Ni, Zn, Cu]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/carrot]]", "[[ingredients/lettuce]]", "[[ingredients/onions]]", "[[ingredients/potatoes]]", "[[ingredients/fresh-herbs]]", "[[ingredients/vegetables]]", "[[ingredients/cereals]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/root-vegetables]]", "[[ingredients/non-root-vegetables]]"]
+products: ["[[products/rice-bulk-grain]]", "[[products/other-grain-products]]", "[[products/root-tuber-vegetables]]", "[[products/leafy-vegetables-other]]"]
+matrices: [rice-grain, wheat-grain, potato, onion, leek, lettuce, basil, spearmint, carrot, vegetable, cereal-grain]
+jurisdictions: [IR]
+near_duplicates: []
+sample_n: 70
+sample_population: "Seventy edible-part samples of nine commodities — onion (Allium cepa), leek (Allium ampeloprasum), potato (Solanum tuberosum), lettuce (Lactuca sativa), spearmint (Mentha arvensis), basil (Ocimum basilicum), carrot (Daucus carota), rice (Oryza sativa), and wheat (Triticum aestivum) — collected from wholesaler outlets and supermarkets in six urban cities of Isfahan province, central Iran (Isfahan, Najafabad, Shahinshahr, Zarinshahr, Falavarjan, Dorcheh). Eight composite samples per commodity for all but rice (n=6); three subsamples per plant per outlet. Per-commodity counts (Table 2): basil 8, carrot 8, leek 8, lettuce 8, onion 8, potato 8, spearmint 8, rice 6, wheat 8. The paper does not state the sampling year or whether samples were drawn within a single growing season."
+sampling_locations: [Isfahan-province-Iran, Isfahan, Najafabad, Shahinshahr, Zarinshahr, Falavarjan, Dorcheh]
+sampling_year_range: null
+updated: 2026-06-01
+ingest_method: manual_phase1_priority
+created_by: claude_opus_47_session
+---
+
+# Salehipour, Ghorbani, Kheirabadi & Afyuni 2015 — Total Pb, As, Ni, Zn, Cu in nine Isfahan-market cereals and vegetables (central Iran) by ICP-OES with multi-cohort exposure and cancer-risk assessment
+
+This Iranian market-basket survey quantifies total lead, arsenic, nickel, zinc, and copper in 70 edible-part samples of nine commodities — onion, leek, potato, lettuce, spearmint, basil, carrot, rice, and wheat — collected from wholesaler outlets and supermarkets across six urban cities of Isfahan province, central Iran. Samples were washed, oven-dried at 70 °C, dry-ashed at 550 °C for 8 h, dissolved in 2 M HCl, and quantified on a PerkinElmer Optima 7300 DV ICP-OES; concentrations are reported on a fresh-weight basis as 95 % upper confidence limits on the means (Pro UCL v4.00.02). The 95 % UCL Pb concentrations in carrot (0.8 mg/kg), leek (0.76 mg/kg), lettuce (0.79 mg/kg), spearmint (1.71 mg/kg), and basil (1.55 mg/kg) exceeded the 0.3 mg/kg WHO/FAO permissible limit cited by the authors; rice As (0.25 mg/kg) exceeded the 0.15 mg/kg Iranian Institute of Standards and Industrial Research (ISIRI) limit cited by the authors; all Ni, Zn, and Cu values fell below the cited WHO/FAO permissible limits. USEPA-style multi-cohort exposure and risk assessment across 10 receptor groups (children <6 girls/boys; 7–14 girls/boys; 14–18 girls/boys; adult women/men 18–54; >55 women/men) yielded total non-carcinogenic hazard quotients > 1 for both As and Pb across all age groups, and total carcinogenic risk for As slightly > 1×10⁻⁴ for all age groups, with wheat contributing 75–80 % of total As intake and 75–79 % of total Ni and Zn intake.
+
+## Key numbers
+
+95 % upper confidence limits on mean fresh-weight concentrations (mg/kg) by commodity and metal (Table 2, p. 24):
+
+| Commodity | n | Ni | Zn | Cu | Pb | As |
+|---|---:|---:|---:|---:|---:|---:|
+| Basil | 8 | 1.44 | 31.92 | 17.29 | 1.55 | N.D. |
+| Carrot | 8 | 0.76 | 13.5 | 8.9 | 0.8 | N.D. |
+| Leek | 8 | 0.86 | 28.15 | 49.09 | 0.76 | N.D. |
+| Lettuce | 8 | 1.11 | 26.25 | 12.27 | 0.79 | N.D. |
+| Onion | 8 | 0.72 | 22.03 | 10.76 | 0.25 | 0.85 |
+| Potato | 8 | 0.27 | 15.28 | 5.17 | 0.1 | N.D. |
+| Spearmint | 8 | 1.65 | 28.94 | 20.33 | 1.71 | N.D. |
+| Rice | 6 | 0.27 | 53.56 | 0.85 | 0.25 | 0.25 |
+| Wheat | 8 | 0.91 | 30.53 | 5.68 | N.D. | 0.25 |
+
+Reference values cited by the authors for benchmark comparison (Results and Discussion, p. 8):
+
+- WHO/FAO permissible limits cited for Pb, Zn, Cu, and Ni: 0.3, 99.40, 73.30, and 67.9 mg/kg, respectively.
+- ISIRI permissible limit for As cited at 0.15 mg/kg (Institute of Standards and Industrial Research of Iran 2010, p. 9).
+- Pb exceedances of the 0.3 mg/kg WHO/FAO limit: carrot (0.8), leek (0.76), lettuce (0.79), spearmint (1.71), basil (1.55) mg/kg.
+- As exceedance of the 0.15 mg/kg ISIRI limit: rice (0.25 mg/kg).
+- Ni, Zn, and Cu in all nine commodities below the respective WHO/FAO limits.
+
+Oral reference doses and slope factors used (Methods, p. 7):
+
+- RfD (mg/kg/day): Ni 0.02, As 0.0003, Pb 0.00035 (USEPA 2003, 2007).
+- Cancer slope factor (mg/kg/day)⁻¹: As 1.5, Pb 8.5×10⁻³ (USEPA 2005).
+
+Total non-carcinogenic hazard quotient (THQ; sum across nine commodities) by metal and receptor group, read from Figure 1 (p. 28):
+
+- Pb: girls 7–14 ≈ 4.8–5.8; boys 7–14 ≈ 5.8 (highest); all other adult groups ≈ 2.2–3.0; all groups > 1.
+- As: girls/boys 7–14 ≈ 10–11 (highest); all other groups ≈ 4.2–4.5 children, 3.8–10.1 adults; all groups > 1.
+- Ni: all groups < 1.0 (range ≈ 0.1–0.55).
+
+Total cancer risk by metal and receptor group (Figure 2, p. 29):
+
+- Pb: total cancer risk across all groups < 3.0×10⁻⁶ (within acceptable 10⁻⁶ to 10⁻⁴ band); for children <6 and 14–18 cohorts, total Pb cancer risk < 1×10⁻⁶.
+- As: total cancer risk for adults ≈ 1.3×10⁻⁴ to 8.4×10⁻⁴; for children ≈ 1×10⁻⁴; for several adult cohorts (girls/boys 7–14, girls 14–18, average women/men, >55 women/men) As cancer risk from wheat consumption alone > 1×10⁻⁴.
+
+Receptor-group exposure ranking and dominant pathways (Daily Intakes section, pp. 9–11):
+
+- Wheat is the main route for Zn intake in all receptor groups, contributing approximately 75–79 % of total daily dietary Zn.
+- Wheat is the main route for Ni intake in all receptor groups, contributing approximately 75–79 % of total daily dietary Ni.
+- Wheat contributes approximately 75–80 % of total daily dietary As intake; rice ≈ 15 %; onion ≈ 5–9 %.
+- Daily Zn ranking (children): wheat > rice > potato > lettuce > onion > basil > spearmint > carrot > leek.
+- Daily Zn ranking (adults): wheat > rice > potato > lettuce > leek > onion > spearmint > carrot > basil.
+- Children: rice and lettuce are main contributors to total Pb intake.
+
+Dietary intake comparisons (Daily Intakes section, pp. 9–10):
+
+- Adult Pb dietary intake from cereals + vegetables less than the FAO/WHO 1991 tolerable daily Pb intake of 3.57 µg/kg bw/day (cited).
+- Children Ni dietary intake less than the ATSDR 2000 reference dose of 0.017 mg/kg bw/day.
+- As intake less than the WHO/FAO 2011 provisional tolerable daily intake of 3 µg/kg bw/day.
+- Total Cu intake higher than the NRC 2001 RDA but less than the tolerable upper intake level (3–10 mg/day across receptor groups).
+- Vegetables alone supply approximately 19.5 %, 53.6 %, 47.6 %, 39 %, and 53.6 % of the Zn RDA for children <6, 7–14 years, girls 14–18, and male and female adults, respectively (NRC 2001).
+
+Exposure parameters used (Table 1, pp. 22–23):
+
+- Exposure duration: children <6 = 4 y; 7–14 = 7 y; 14–18 = 4 y; adults 18–54 = 27 y; >55 = 15 y.
+- Exposure frequency: 365 d/y across all cohorts.
+- Bodyweight (kg): children <6 girls 17.5 / boys 18.7; 7–14 girls 35 / boys 29; 14–18 girls 56 / boys 59.1; adults women 61 / men 76.4; >55 women 60.6 / men 65.1.
+- Ingestion rate, children <6 vs adult (g/d): rice 27 vs 110; wheat 151.9 vs 531.51; potato 35 vs 123.29; onion 2.9 vs 19.2; carrot 2.9 vs 8; leek 1 vs 19.9; lettuce 7.3 vs 29.3; spearmint 2 vs 9; basil 2 vs 9.
+- Adult Zn RDA = 11 mg/d (men), 8 mg/d (women); Cu RDA = 0.9 mg/d (NRC 2001).
+
+## Methods (brief)
+
+Sample collection. Seventy edible-part composite samples from nine commodities (onion, leek, potato, lettuce, spearmint, basil, carrot, rice, wheat) were collected from wholesaler outlets and supermarkets in six urban cities of Isfahan province, central Iran (Isfahan, Najafabad, Shahinshahr, Zarinshahr, Falavarjan, Dorcheh). Three subsamples were collected from different outlets for the same plant. Per-commodity counts: 8 composites for all commodities except rice (6 composites). Sampling year is not stated in the published text. The paper does not state whether samples were drawn within one growing season or across multiple seasons, and does not state composite mass or subsample protocols beyond the three-subsample-per-plant statement.
+
+Sample preparation. Vegetable samples were washed several times with tap water and final-rinsed with distilled water. Samples were oven-dried at 70 °C to constant weight. Dry samples were combusted at 550 °C for 8 h. The resulting ash was dissolved in 2 M HCl (Chapman and Pratt 1961 cited for the dry-ashing protocol). The paper does not state explicit digest volumes, dilution factors, or moisture-content conversion factors.
+
+Instrumentation. Total Ni, Zn, Cu, Pb, and As in the digest solution were determined by inductively-coupled plasma optical emission spectrometry on a PerkinElmer Optima 7300 DV ICP-OES (USA). The paper does not state ICP-OES wavelengths, certified reference materials, method detection limits beyond the qualitative "N.D." indicator in Table 2, recovery values, or replicate-precision statistics.
+
+Statistical analysis. Concentrations reported as 95 % upper confidence limits on the means of the per-commodity composite samples, computed in Pro UCL version 4.00.02. Descriptive statistics other than the 95 % UCL means are not published. Inferential tests and inter-commodity statistical comparisons are not reported.
+
+Exposure and risk assessment. Daily intake of each metal was computed via the USEPA 1989 ingestion equation Intake = (C × IR × FI × EF × ED)/(BW × AT) where C is contaminant concentration in food (mg/g), IR is ingestion rate (g/d), FI is fraction ingested from contaminated source (set to 0.5 in this study to account for un-modeled water, soil-ingestion, and inhalation pathways), EF is exposure frequency (d/y), ED is exposure duration (y), BW is bodyweight (kg), and AT is averaging time (365 × ED for non-carcinogenic, 365 × 70 for cancer assessment). Non-carcinogenic hazard quotient (HQ) was computed as HQ = intake / RfD using USEPA RfDs 0.02 (Ni), 0.0003 (As), 0.00035 (Pb) mg/kg/day. Total non-carcinogenic risk was computed as sum HQ_i across the nine commodities (USEPA 2007 cumulative-risk framework). Cancer risk was computed as Risk = CDI × SF using cancer slope factors of 1.5 (As) and 8.5×10⁻³ (Pb) (mg/kg/day)⁻¹ from USEPA 2005. Ten receptor cohorts were modelled: children <6 (girls / boys); children 7–14 (girls / boys); teenagers 14–18 (girls / boys); average adults 18–54 (women / men); old adults >55 (women / men). Exposure-parameter sources are Yeganeh et al. 2012 (exposure duration, frequency, rice/wheat/potato ingestion rates), USEPA 1997 (bodyweights), Chavoshi et al. 2011 (onion/carrot/leek/lettuce/spearmint/basil ingestion rates), and NRC 2001 (RDA Zn and Cu). Vegetable Zn and Cu daily intakes compared against NRC 2001 RDA tabulated in Table 1.
+
+Speciation. ICP-OES quantifies total elemental concentrations; no As speciation (no iAs/tAs separation), no Hg measurement, no Cr speciation. The `metals:` field uses `tAs` for total arsenic, `Pb` for total lead, `Ni`, `Zn`, `Cu` per CLAUDE.md Part 14 abbreviation vocabulary.
+
+Reference values used by the authors. WHO/FAO permissible limits for Pb (0.3), Zn (99.40), Cu (73.30), Ni (67.9) mg/kg (citation attribution as published — the paper cites these as WHO/FAO limits without specifying the underlying document; FAO/WHO 1991 Codex Alimentarius Vol. XII Supplement 4 and FAO/WHO 2001 / 2011 Codex Food Additives and Contaminants documents are cited in the References). ISIRI 12968 (Institute of Standards and Industrial Research of Iran 2010) cited for the 0.15 mg/kg As limit. FAO/WHO 1991 tolerable daily Pb intake of 3.57 µg/kg bw/day cited. ATSDR 2000 Ni reference 0.017 mg/kg bw/day cited. WHO/FAO 2011 provisional tolerable daily As intake of 3 µg/kg bw/day cited. USEPA 1989, 1997, 1998, 1999, 2003, 2005, 2007 cited for the risk-assessment framework, exposure parameters, RfDs, and slope factors.
+
+## Implications
+
+This source contributes Iranian market-basket occurrence data for total Pb, total As, Ni, Zn, and Cu in nine cereal and vegetable commodities purchased from wholesalers and supermarkets in six urban cities of Isfahan province, central Iran, with USEPA-style multi-cohort exposure and risk assessment across ten receptor groups. Principal contributions to the wiki evidence pool:
+
+- A Pb 95 % UCL signal exceeding the 0.3 mg/kg WHO/FAO permissible limit cited by the authors in five of nine commodities — carrot (0.8 mg/kg), leek (0.76 mg/kg), lettuce (0.79 mg/kg), spearmint (1.71 mg/kg), and basil (1.55 mg/kg) — and a Pb signal in rice at 0.25 mg/kg (below the cited limit). The 95 % UCL basis means these are upper-bound estimates of the mean, not per-sample maxima.
+- A total As (tAs) 95 % UCL signal of 0.25 mg/kg in both rice and wheat (above the 0.15 mg/kg ISIRI Iranian standard cited by the authors) and 0.85 mg/kg in onion, with non-detects in basil, carrot, leek, lettuce, potato, and spearmint. No speciation was performed; the dataset cannot distinguish iAs from organic arsenic, which limits its applicability to the iAs-focused regulatory thresholds typical of rice-as-grain frameworks.
+- A Ni, Zn, and Cu signal in all nine commodities below the WHO/FAO permissible limits cited by the authors. The Cu value of 49.09 mg/kg in leek is the highest single per-commodity value in the dataset and is well below the cited 73.30 mg/kg WHO/FAO Cu limit but is high relative to typical Cu concentrations in non-allium vegetables.
+- A multi-cohort total non-carcinogenic hazard assessment with THQ > 1 for both As and Pb across all ten receptor cohorts (highest Pb THQ in 7–14 year-old children at 4.8–5.8; highest As THQ in 7–14 year-old children at 10–11). The authors interpret this as a population-level health risk signal.
+- A total cancer risk for As marginally above 1×10⁻⁴ across all cohorts, with wheat consumption alone driving As cancer risk > 1×10⁻⁴ for the majority of cohorts. The authors interpret this as a possible cancer risk to local consumers; the wheat-dominance of As intake is consistent with the high per-capita wheat ingestion in Iranian dietary patterns (151.9 g/d for children <6 and 531.51 g/d for adults per the cited Yeganeh 2012 figures).
+- A small-panel (n=70 composites, 6 cities, no sampling year), peer-reviewed (Taylor & Francis) dataset with no certified-reference-material recovery values, no method detection limits beyond qualitative N.D., no As speciation, no per-sample raw data, and a 95 % UCL-only summary statistic. The B-tier classification reflects these limitations; the source should pool with other Iranian market-basket surveys for occurrence-distribution purposes rather than anchor any standalone characterisation.
+- Companion to [[wiki/sources/salehi2013-iran-isfahan-lenjanat-vegetables-cd-pb]] (Cd and Pb in Lenjanat agricultural soils and vegetables) and [[wiki/sources/moradi2015-iran-isfahan-soil-crops-metals]] (heavy metals in Isfahan industrial-site soils and crops) for Isfahan-province occurrence pooling.
+
+## Wiki pages this source may touch
+
+- [[metals/lead]]
+- [[metals/arsenic-total]]
+- [[metals/nickel]]
+- [[metals/zinc]]
+- [[metals/copper]]
+- [[ingredients/rice]]
+- [[ingredients/wheat]]
+- [[ingredients/carrot]]
+- [[ingredients/lettuce]]
+- [[ingredients/onions]]
+- [[ingredients/potatoes]]
+- [[ingredients/fresh-herbs]]
+- [[ingredients/vegetables]]
+- [[ingredients/cereals]]
+- [[ingredients/leafy-vegetables]]
+- [[ingredients/root-vegetables]]
+- [[products/rice-bulk-grain]]
+- [[products/other-grain-products]]
+- [[products/root-tuber-vegetables]]
+- [[products/leafy-vegetables-other]]
+
+## Verification notes
+
+- **Identity checks.** DOI grep (`10.1080/10807039.2014.1002292`), raw_handle grep (`MFK_salehipour2015`), and cite-key prefix grep (`salehipour2015`) against `wiki/sources/` all returned zero hits prior to ingest. NEW path applied.
+- **Frontmatter discipline.** All ingredient, product, metal, matrix, and jurisdiction slugs verified against the 2026-05-18 taxonomy snapshot. Ingredient slugs `rice`, `wheat`, `carrot`, `lettuce`, `onions`, `potatoes`, `fresh-herbs`, `vegetables`, `cereals`, `leafy-vegetables`, `root-vegetables`, `non-root-vegetables` all present in the snapshot. Product slugs `rice-bulk-grain`, `other-grain-products`, `root-tuber-vegetables`, `leafy-vegetables-other` all present in the snapshot. Basil, spearmint, and leek do not have dedicated ingredient pages; per CLAUDE.md Part 5b the routing layer fans broader scopes (`fresh-herbs`, `vegetables`) out to siblings, so the frontmatter uses those broader slugs rather than overspecifying. Matrix slugs use the matrix vocabulary found across the corpus (rice-grain, wheat-grain, potato, onion, leek, lettuce, basil, spearmint, carrot, vegetable, cereal-grain).
+- **Speciation discipline (Part 14).** ICP-OES quantifies total elemental concentrations. The `metals:` field uses `tAs` for total arsenic (no inorganic-vs-total speciation reported), `Pb` for total lead, and standard symbols `Ni`, `Zn`, `Cu`. The `## Wiki pages this source may touch` section uses `[[metals/arsenic-total]]` (not `[[metals/arsenic-inorganic]]`) consistent with the no-speciation methods.
+- **Basis (Part 14).** All 95 % UCL concentrations in Table 2 are reported on a fresh-weight basis per the explicit table caption ("mg/kg⁻¹ fresh weight"). Sample preparation involves oven-drying and dry-ashing, but the authors apply moisture-content correction to express the final concentration on a fresh-weight basis; the wiki page reports the values as the authors publish them (fresh-weight).
+- **Sample size attribution.** Per Table 2: 8 composites for basil, carrot, leek, lettuce, onion, potato, spearmint, and wheat; 6 composites for rice. Total n = 70. The "three subsamples per plant" statement in the Methods refers to the within-composite subsampling protocol at the wholesaler/supermarket level, not the per-commodity n. The frontmatter `sample_n: 70` reflects the composite count, consistent with the authors' framing.
+- **Brand firewall (Part 12).** The paper names no commercial vegetable, cereal, or producer brands. The PerkinElmer Optima 7300 DV ICP-OES is named as the analytical instrument (permitted under the 2026-05-17 Exception 2 — scientific-method vendor name attached to a method, not a contamination value). Pro UCL is named as the statistical software. No brand-firewall edits required.
+- **Wiki/HMTc firewall (Part 2).** No threshold proposals, no consumer-audience advisories, no synthesis claims about how this paper relates to the broader literature beyond descriptive band-placement against the paper's own internal reference frame (the 0.3 mg/kg WHO/FAO Pb limit, the 0.15 mg/kg ISIRI As limit, and the various USEPA RfDs and slope factors are reported as the paper publishes them). No cross-paper synthesis to update ingredient `contamination_profile` blocks or metal-page narrative summaries is performed here; that is the Part 9 synthesis workflow's job.
+- **Paper-internal data structure.** Table 2 publishes per-commodity 95 % UCL on mean concentrations only; per-sample raw values are not published. Table 3 publishes per-cohort, per-commodity daily intake values; per-cohort daily intake values are read verbatim where transcribed. Figures 1 and 2 publish stacked-bar non-carcinogenic and cancer-risk decompositions across cohorts and commodities; numerical THQ and cancer-risk values quoted in the wiki page are read from the figures as approximate band-placements where the figure resolution permits, and from the Results-and-Discussion prose where the authors quote them numerically (e.g., 4.2–4.5 children, 3.8–10.1 adults for total As HQ).
+- **Sampling-year ambiguity.** The paper does not state the year of sample collection. The manuscript was received 26 May 2014 and accepted 18 December 2014, with online publication 7 January 2015; the sampling year is left null in `sampling_year_range` rather than guessed.
+- **Manuscript stage.** The PDF in `raw/Manual Fetch Kimi /June 1/salehipour2015.pdf` is the Taylor & Francis "accepted manuscript" version (each page bears the "ACCEPTED MANUSCRIPT" watermark). Pagination, figure resolution, and minor formatting may differ from the final published Version of Record (VoR); numerical values transcribed verbatim from this accepted-manuscript version are assumed to match the VoR but have not been independently verified against the VoR.
+- **Data integrity.** All values in the Key numbers section transcribed verbatim from Table 2 (95 % UCL concentrations), the Methods section (RfDs, slope factors, exposure equation), Table 1 (exposure-parameter table), the Daily Intakes prose section (75–80 % wheat contribution to Zn, Ni, As; the daily intake rankings; the dietary intake comparisons), and the Results-and-Discussion prose (WHO/FAO and ISIRI limit citations, exceedance lists, Pb cancer-risk band, As cancer-risk band, total THQ ranges). The figure-derived approximate THQ ranges are flagged as figure-read in the prose. No paper-internal contradictions identified beyond the unstated sampling year, the absence of CRM recovery and MDL reporting, the absence of As speciation, and the figure-resolution limits on per-cohort numerical THQ and cancer-risk extraction (catalogued above and reflected in the B-tier classification and the null `sampling_year_range`).
