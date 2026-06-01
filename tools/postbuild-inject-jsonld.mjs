@@ -40,6 +40,16 @@ const PUBLISHER = {
   name: "Paleo Foundation",
   url: "https://paleofoundation.com",
 }
+// Named, ORCID-identified author of the Index's own content — the human
+// accountability signal Google E-E-A-T and the scholarly graph reward.
+const AUTHOR = {
+  "@type": "Person",
+  name: "Karen Pendergrass",
+  "@id": "https://orcid.org/0000-0002-2348-7259",
+  identifier: "https://orcid.org/0000-0002-2348-7259",
+  sameAs: ["https://orcid.org/0000-0002-2348-7259"],
+  affiliation: { "@type": "Organization", name: "Paleo Foundation" },
+}
 const REFERENCE_WORK = {
   "@type": "WebSite",
   name: "Heavy Metal Index",
@@ -136,6 +146,11 @@ function buildJsonLd(category, slug, fm, meta) {
     inLanguage: "en",
     license: "https://heavymetalindex.com/licensing",
   }
+
+  // The Index's own analytical/reference pages are authored (and editorially
+  // owned) by the named author; source pages describe an external paper, so
+  // their author belongs in `about`, not at the page level.
+  if (category !== "sources") ld.author = AUTHOR
 
   if (fm.updated) ld.dateModified = toIso(fm.updated)
   if (fm.description) ld.description = String(fm.description).slice(0, 500)

@@ -43,6 +43,20 @@ export default (() => {
     const type = asString(fm.type)
     const slug = fileData.slug ?? ""
 
+    // Named, ORCID-identified authorship — the human accountability signal.
+    const byline = (
+      <div class="hmi-evidence-row">
+        <span class="hmi-evidence-key">Author</span>
+        <span class="hmi-evidence-value">
+          Karen Pendergrass{" · "}
+          <a href="https://orcid.org/0000-0002-2348-7259" target="_blank" rel="noopener noreferrer">
+            ORCID
+          </a>
+          {" · Heavy Metal Index, Paleo Foundation"}
+        </span>
+      </div>
+    )
+
     if (type === "synthesis") {
       const anchors = asList(fm.anchor_sources)
         .map(parseWikilink)
@@ -54,6 +68,7 @@ export default (() => {
 
       return (
         <section class="hmi-evidence-header" aria-label="Evidence basis">
+          {byline}
           {metals.length > 0 ? (
             <div class="hmi-evidence-row">
               <span class="hmi-evidence-key">Metals</span>
@@ -89,12 +104,15 @@ export default (() => {
       const symbol = asString(fm.symbol)
       if (!count) return null
       return (
-        <section class="hmi-evidence-header hmi-evidence-inline" aria-label="Evidence basis">
-          <span class="hmi-evidence-key">Evidence base</span>
-          <span class="hmi-evidence-value">
-            <a href="/sources">{count}</a> corpus sources report on this metal
-            {symbol ? ` (${symbol})` : ""}.
-          </span>
+        <section class="hmi-evidence-header" aria-label="Evidence basis">
+          {byline}
+          <div class="hmi-evidence-row">
+            <span class="hmi-evidence-key">Evidence base</span>
+            <span class="hmi-evidence-value">
+              <a href="/sources">{count}</a> corpus sources report on this metal
+              {symbol ? ` (${symbol})` : ""}.
+            </span>
+          </div>
         </section>
       )
     }

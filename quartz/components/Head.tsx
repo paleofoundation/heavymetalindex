@@ -90,10 +90,15 @@ function CitationMetadata({
       frontmatterString(frontmatter.updated) ??
       frontmatterString(frontmatter.created)
     const wikiDoi = frontmatterString(frontmatter.wiki_doi)
+    const isSynthesis = frontmatter.type === "synthesis" || slugStr.startsWith("synthesis/")
     return (
       <>
         <meta name="citation_title" content={citationTitle} />
-        <meta name="citation_author" content="Heavy Metal Index" />
+        <meta name="citation_author" content="Pendergrass, Karen" />
+        <meta
+          name="citation_author_institution"
+          content="Heavy Metal Index, Paleo Foundation"
+        />
         <meta name="citation_publisher" content="Paleo Foundation" />
         <meta
           name="citation_technical_report_institution"
@@ -104,6 +109,8 @@ function CitationMetadata({
         )}
         <meta name="citation_abstract_html_url" content={socialUrl} />
         <meta name="citation_fulltext_html_url" content={socialUrl} />
+        {/* Google Scholar strongly prefers a PDF; synthesis pages ship one. */}
+        {isSynthesis && <meta name="citation_pdf_url" content={`${socialUrl}.pdf`} />}
         {wikiDoi && <meta name="citation_doi" content={wikiDoi} />}
       </>
     )
