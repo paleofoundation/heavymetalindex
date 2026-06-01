@@ -28,6 +28,24 @@ A spread within ±25% is "stable," 25-50% is "provisional," >50% is "needs revie
 
 This is standard practice in environmental exposure assessment (WHO/JECFA pooled TDS methodology; EFSA Scientific Opinions on Pb and Cd in food). The novelty is only in formalizing it as deterministic code rather than doing it ad hoc per cell.
 
+## Minimum sample size for percentile estimation
+
+The pool admission rules above never gate on count; they admit weak data with a flag rather than excluding it. That is correct for opportunistic literature pooling, where the alternative to a weak source is no source. It is the wrong posture when commissioning data, where the count is a design choice. This section gives the guidance for that case: how many randomly-selected products to request per row when the data is being commissioned (for example a randomized brand-product survey) to set a limit.
+
+The binding constraint is the clean-row statistic, P97. The dirty-row statistic, P45, is near-central and stable from 20 to 30 samples; an independent or clean row's P97 depends on the top 3% of the distribution, so it governs the request. Size for P97 and P45 takes care of itself.
+
+The sample unit is the independent product or lot, not the analytical replicate. Repeated assays of one lot count as one observation for an occurrence distribution. A single physical sample assayed for all ten analytes yields one observation per analyte simultaneously, so the count below is per row, not per (row, analyte). Random selection across the market, rather than convenience sampling, is what protects the percentile from selection bias and is the property that makes the resulting limit defensible.
+
+Reading the count off the order-statistic expectation (expected observations above P97 is `0.03n`):
+
+- **n = 30 to 35** is the floor at which P97 is defined at all. The estimate is effectively the sample maximum; it is parametric-only and carries the "weak" flag. Use only when more is unavailable, and label the row provisional.
+- **n ≈ 100** yields roughly three observations above P97, a stable log-normal estimate, and a meaningful three-way sensitivity band (the ±25% / 25-50% / >50% thresholds above). This is the working target for a commissioned survey.
+- **n ≈ 150 to 200** puts five or six observations above P97, so the nonparametric reconstruction stands on its own data rather than leaning on the parametric fit. This is the litigation-grade tier; reserve it for high-volume or high-scrutiny rows.
+
+Counts are per row, and clean/dirty is a within-parent, per-analyte split, so the per-row count applies per subcategory that will carry its own limit. Total commissioned volume is therefore (number of rows or subcategories to be certified) × the per-row count, not multiplied by analyte count.
+
+Commissioned data should be requested as sample-level values with LOD/LOQ reported per result, not as summary statistics. Summary-only data is admissible via the moment-matching expansion above, but it loses censoring handling and carries the "weak" flag; sample-level values with detection limits are what let the P97 survive scrutiny.
+
 ## Regulatory ceiling rule
 
 Final HMT&C values must not exceed the lowest applicable loaded regulatory cap regardless of where the pooled percentile falls. The cap is converted into the row's native basis if it was published in a different one. Intake and exposure estimates are not substitutes for product-occurrence distributions; intake tables inform exposure context only.
