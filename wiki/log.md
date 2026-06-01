@@ -2,6 +2,10 @@
 noindex: true
 ---
 
+## [2026-06-01] batch | auto-fetched stale-claim drain — 3 source pages, 2 rollups, 50 skips
+Pages touched: [[sources/hanc2021-amanita-muscaria-hg-se]], [[sources/hossain2016-bangladesh-vegetables-pb-cd-cr]], [[sources/yamanaka2025-tinplate-pineapple-cans]]
+Notes: Drained the 2026-06-01 21:44 Codex auto-fetched snapshot after reclaiming stale `claimed-by-codex` rows from prior fires. Triage found 50 false-positive skips already recorded in `wishlist-fetch-audit.csv`, 2 DOI rollups already indexed ([[sources/mohammadi2025-iran-carrot-cucumber-metals]], [[sources/emmanuel2025-kano-urban-vegetables-metals]]), and 3 real ingests. New pages add wild-mushroom total-Hg/Se dry-weight data, Bangladesh vegetable Pb/Cd/Cr dry-weight summary statistics, and accelerated tinplate-to-pineapple-syrup Sn migration evidence.
+
 ## [2026-05-30] ingest | AUTO_GAP-coffee-tAs — coffee-extract cosmetic heavy metals
 Pages touched: [[sources/chaiyasut2018-coffee-cosmetic-heavy-metals]]
 Notes: Ingested Chaiyasut 2018 from the auto-fetched seasonal/geographic variance queue as a personal-care source, not coffee food evidence. The paper reports lead not detected, arsenic <0.16 mg/kg, and mercury <0.09 mg/kg in body lotion and <0.09-0.28 mg/kg in hand moisturizing cream after 3 months at 40°C; 16 false-positive auto-fetched PDFs were dispositioned in the wishlist audit.
