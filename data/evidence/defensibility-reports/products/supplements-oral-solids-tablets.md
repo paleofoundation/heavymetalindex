@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-solids-tablets.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a1fd728e4d083dd22d57453d0b22d0d8b637a139fff3210bd2ca43be28e0bbe8
+source_page_sha256: 5ea774725d52c9bb7d65c6cfa5e792ef4fbf0208fa51544a2b2ef8e8063395b6
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

@@ -2,7 +2,7 @@
 source_page: wiki/products/deodorants.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 342fe5a341d0ac89b0a86dd5e53757a59d593efda4d544f88f1d2a002f31831b
+source_page_sha256: ae4576572aa909cf83748d936c793a318172e9b4c671b7d1ee5d1d22f7ee446f
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

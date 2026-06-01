@@ -2,15 +2,15 @@
 source_page: wiki/products/fish-freshwater.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ec4573e2a34d7dfd6bb29df1d93146565e14688f42ea156703ca74509a99cb78
+source_page_sha256: 26d421cdfeb07dfe9decd874e2e0d9ea7578c822790156f9e8c4509115e36e2f
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 12
-distinct_cited_sources: 12
+distinct_cited_targets: 13
+distinct_cited_sources: 13
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 1 |
 | cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 12 |
-| distinct cited `sources/` pages | 12 |
+| distinct cited targets | 13 |
+| distinct cited `sources/` pages | 13 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 
@@ -50,7 +50,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.3 mg/L`
 - Context: `romis niloticus, 45–50 g) in four groups (n=30/group in triplicate), exposed to 0.3 mg/L HgCl2 sub-lethal... (n=120) | |`
-- Cited targets (12):
+- Cited targets (13):
   - `wiki/sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\.md` (page missing)
     - audit rows: none
   - `wiki/sources/epa1999-mercury-update-fish-advisories\.md` (page missing)
@@ -72,6 +72,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/naseem2026-seasonal-heavy-metals-water-fish\.md` (page missing)
     - audit rows: none
   - `wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zahran2023-mercury-tilapia-nannochloropsis\.md` (page missing)
     - audit rows: none
@@ -95,5 +97,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry\.md` | sources | 0 | — | — |
 | `wiki/sources/naseem2026-seasonal-heavy-metals-water-fish\.md` | sources | 0 | — | — |
 | `wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/subhanullah2024-panjkora-fish-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/zahran2023-mercury-tilapia-nannochloropsis\.md` | sources | 0 | — | — |
 

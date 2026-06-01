@@ -69,3 +69,14 @@ The paper contributes origin-stratified cocoa ingredient occurrence data for Pb,
 ## Verification notes
 
 The PDF filename suggested human milk, but the actual PDF is a cocoa/confectionery paper. The source reports arsenic and mercury without species separation, so this page uses tAs and tHg. The authors describe cocoa shells as possible confectionery additives, but the concentration tables are for cocoa beans, kernels, and shells rather than commercial branded chocolate products. Matrix frontmatter is normalized to the existing cocoa/chocolate vocabulary while Key numbers preserve the source's bean, kernel, and shell fractions.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2ccf94f](https://github.com/paleofoundation/heavymetalindex/commit/2ccf94f) | 2026-06-01 | audit revise auto-fetched 2026-06-01 15:39 batch 1 |
+| [c63b031](https://github.com/paleofoundation/heavymetalindex/commit/c63b031) | 2026-06-01 | audit: ghasemidehkordi2018-markazi-vegetables-pb-hg [promoted] |
+<!-- END: hmi-page-history -->

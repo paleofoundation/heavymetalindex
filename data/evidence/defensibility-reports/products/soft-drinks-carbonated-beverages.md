@@ -2,7 +2,7 @@
 source_page: wiki/products/soft-drinks-carbonated-beverages.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4c649efb1a1a8924e3f5d9222a00903c2d30ac733ffb352b083db2ad13cca3d2
+source_page_sha256: 070ec34204b23ad2541cd7430a1bd0108ad77cec54362d7058741b2fb2c74cb5
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

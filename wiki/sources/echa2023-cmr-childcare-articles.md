@@ -256,3 +256,14 @@ ECHA's age-of-children scope aligns with the Toys Safety Directive (2009/48/EC) 
   - ⚠️ #5 (612 → ~608 entries arithmetic). VERIFIED: 39 % of 1,559 = 607.5, which rounds to 608, not 612. **Correction applied in tier_rationale and in Key numbers Distribution by chemical group (measurement entries) bullet** — "≈ 612 entries" replaced by "≈ 608 entries" in both locations; per p. 21 the explicit breakdown is Co 373 + Pb 164 = 537 entries for the two most-reported metal classes, with the remaining ≈ 71 entries split across all other CMR-classified metals (Cr-VI compounds, organotins, mercury, etc.).
   - ⚠️ #6 (Table 3 page-citation precision). Note that Table 3 spans pp. 34–35 rather than just p. 34; the Lead, Mercury, Nitrosamines, Organic dyes, Organotins, PAHs, Pesticides, PFAS, Phthalates, and Quinolines rows are on p. 35. **Correction applied in the metals-limits-table heading** — heading now cites "Table 3, pp. 34–35" rather than "Table 3, p. 34."
   - No false-positive subagent findings. All six findings applied. Audit-application commit follows; routing-audit re-run remained clean (16 product-source routing rows unchanged; no new routing_unresolved or routing_malformed entries).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [df568bd](https://github.com/paleofoundation/heavymetalindex/commit/df568bd) | 2026-06-01 | audit: echa2023-cmr-childcare-articles [revised] |
+| [b502f16](https://github.com/paleofoundation/heavymetalindex/commit/b502f16) | 2026-06-01 | ingest: echa2023-cmr-childcare-articles [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats |
+<!-- END: hmi-page-history -->

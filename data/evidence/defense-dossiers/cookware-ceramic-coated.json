@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cookware-ceramic-coated",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "23c9eaf56a1a21ef33fa9358cff6d63993d6d6977e7f6c3ba5ffae92f23b374e",
+      "content_sha256": "dbc6a5f8e1096fc239749ee536d0db296d9841b7373ab567969b43f4b7391f58",
       "content_bytes": 7898,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/cookware-ceramic-coated.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/cookware-ceramic-coated.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/esoyan2024-matsoun-ceramic-packaging",
         "content_pin": {
-          "content_sha256": "dcb17735db15bbe48d75860cbe846dc8a4a32aabdcd51d04628ab3893bed0910",
-          "content_bytes": 3861,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "f70d6ffbc4845a792e5211877e5a29d41684fb6a081bf80157076d1c52881228",
+          "content_bytes": 3849,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/esoyan2024-matsoun-ceramic-packaging.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/esoyan2024-matsoun-ceramic-packaging.md | sha256sum"
         }
       }
     ]

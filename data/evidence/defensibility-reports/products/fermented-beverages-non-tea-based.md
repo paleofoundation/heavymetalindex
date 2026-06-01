@@ -2,7 +2,7 @@
 source_page: wiki/products/fermented-beverages-non-tea-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8bd2f0636db2be7a77756ac87bb6adf7353bc0b3bcf1d68f77cf95b1e8ae8568
+source_page_sha256: bae33693178b99422a114e59fa43b52b90b42922e8bd1566b675aec0c9471556
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 1
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 1 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

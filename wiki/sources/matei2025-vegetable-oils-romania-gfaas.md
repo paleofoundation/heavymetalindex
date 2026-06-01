@@ -196,3 +196,13 @@ No speciation: total Pb, total Cd, total Cr (not Cr-VI), total Co, total Mn, tot
 - The paper cites several regulatory benchmarks (FAO/WHO 2002 limits at 0.1 mg/kg Cu and Pb; Codex CXS 210-1999 for physicochemical indices; WHO 0.2% moisture cap; EU 2023/915 for Cd in foods generally). Of these, only [[regulations/eu-2023-915-cadmium]] is in the current taxonomy snapshot; the other limits are preserved in prose without wikilinks rather than asserted as cross-page facts.
 - Author affiliation: Department of Chemistry and Chemical Engineering, Ovidius University Constanta, 124 Mamaia Blvd., 900527 Constanta, Romania. Correspondence: sbirghila@univ-ovidius.ro (S.B.); asoceanu@univ-ovidius.ro (A.S.).
 - Article metadata: Applied Sciences 2025, 15, 6269. Received 23 April 2025; revised 28 May 2025; accepted 2 June 2025; published 3 June 2025. DOI 10.3390/app15116269. CC BY 4.0 (MDPI standard, confirmed in copyright statement: "open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license").
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f93b189](https://github.com/paleofoundation/heavymetalindex/commit/f93b189) | 2026-06-01 | ingest: matei2025-vegetable-oils-romania-gfaas [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

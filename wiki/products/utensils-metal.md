@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 5
+sources: 6
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,11 +106,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/alrajhi2021-imported-cookware-metal-release\|Alrajhi et al. 2021]]. *Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia*, Revista Internacional de Contaminacion Ambiental | 2021 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
+| 1 | [[sources/allwood2024-cpsc-childrens-product-lead-recalls\|Allwood et al. 2024]]. *Recently Recalled Children's Products Due to Lead Hazards*, Pediatrics | 2024 | Regulatory | *[awaiting synthesis]* |
+| 2 | [[sources/mahdi2024-meat-cooked-utensils-metals\|Mahdi et al. 2024]]. *Detection of some heavy metals in meat cooked in different utensils*, Samarra Journal of Pure and Applied Science | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/alrajhi2021-imported-cookware-metal-release\|Alrajhi et al. 2021]]. *Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia*, Revista Internacional de Contaminacion Ambiental | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/rittirong2018-cooked-rice-utensil-metals-thailand\|Rittirong et al. 2018]]. *Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment*, Emirates Journal of Food and Agriculture | 2018 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/lee2017-camping-cooking-utensils-metal-migration\|Lee et al. 2017]]. *Influence of usage environment from camping cooking utensils on migration of hazardous metals*, Korean Journal of Food Preservation | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/cfs2012-baby-bottles-tableware\|Centre for Food Safety 2012]]. *Safety Issues of Baby Bottles and Children's Tableware (Risk Assessment Studies Report No. 47)*, Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong Special Administrative Region. Risk Assessment Studies Report No. 47, January 2012 | 2012 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -120,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

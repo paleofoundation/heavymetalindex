@@ -95,3 +95,14 @@ Limitations: the study reports K, P, Ca, Mg and Fe as nutrients but does not mea
 - Funding acknowledged: PHC TOUBKAL program grant 19/77: 41474 PK; GESTAD UMR1347 AGROECOLOGIE INRAE Centre de Dijon (weed seed supply).
 - Audit subagent (2026-06-01) flagged P (UFR) SD as "510 ± 10"; verified against PDF Table 3 — corrected to "510 ± 11".
 - Audit subagent (2026-06-01) flagged a paper-internal contradiction: Section 3.3 (p. 5) states "no effect was observed for flax germination, highlighting the selectivity of the treatment" while Fig. 5b (captioned as flax seedlings) shows dose-dependent germination inhibition from ~87% (control) to ~73% / ~52% / ~23% at 1/125, 1/100, 1/75 NF retentate dilutions. The "15, 40, 73%" germination inhibition numbers in the same paragraph could plausibly be attributed to either S. arvensis (consistent with the "selectivity" claim) or flax (consistent with Fig. 5b). The Key numbers section attributes them to S. arvensis on the selectivity reading; any downstream synthesis that relies on this paper's S. arvensis vs flax germination distinction should treat the attribution as ambiguous in the source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [312c036](https://github.com/paleofoundation/heavymetalindex/commit/312c036) | 2026-06-01 | audit: saf2023-omw-fractions-uf-nf-agroecological [revised] |
+| [6cd1cdf](https://github.com/paleofoundation/heavymetalindex/commit/6cd1cdf) | 2026-06-01 | ingest: saf2023-omw-fractions-uf-nf-agroecological [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

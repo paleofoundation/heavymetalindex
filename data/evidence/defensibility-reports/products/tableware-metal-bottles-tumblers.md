@@ -2,7 +2,7 @@
 source_page: wiki/products/tableware-metal-bottles-tumblers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b13c160f6e19b8bcdc3eacfc18857bfa4fdd0b5439bddf57066f4a1448c92f3f
+source_page_sha256: 6ac464940a01a9ee8c98ff00c12af6fcd002723fda469ddb17568cfb9924d9d0
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

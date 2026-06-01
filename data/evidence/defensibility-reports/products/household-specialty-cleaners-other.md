@@ -2,7 +2,7 @@
 source_page: wiki/products/household-specialty-cleaners-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 48a9575107681669ca53d52a7b54cae3418026f7c5cb9fa07b1dbb0f8282f877
+source_page_sha256: 2fc922cd5ef5c21e5ad3986504f4b6d1d90d8ad09988629a5e9a78c94184ed57
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

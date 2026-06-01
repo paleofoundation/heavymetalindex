@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-botanicals-herbs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8f4f8cef381b0778ee304b87a800b6d79b1a62913e4e7a215ba4b0bdb82b852a",
+      "content_sha256": "9b8d62c9aeed7dc982b7572098dc40cb17000e357e5c372a9c57b0070888eaca",
       "content_bytes": 10050,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/supplements-botanicals-herbs.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/supplements-botanicals-herbs.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bulduk2020-vicia-faba-elements",
         "content_pin": {
-          "content_sha256": "41a86afbaab4fe946b23c11a7d8a8cf90becd891086b3362acf506cf8bdfe0cf",
+          "content_sha256": "4e2f5162c632b5ebd91df438dd60c4340e84a6ef19c9e0436e36a894a5b9ccbc",
           "content_bytes": 3404,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/bulduk2020-vicia-faba-elements.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/bulduk2020-vicia-faba-elements.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/inada2023-herbal-medicine-heavy-metal-regulations",
         "content_pin": {
-          "content_sha256": "02fd6ea4cea21523eeb0828fbe8f8e6c152689fdd3c47df10e74d328b8a17f7e",
+          "content_sha256": "68636e517d97bba953ccfec819d03c999289871567852bf10fea34d1ace76d75",
           "content_bytes": 3145,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations.md | sha256sum"
         }
       },
       {
@@ -92,12 +92,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jurowski2022-chromium-peppermint-tincture",
         "content_pin": {
-          "content_sha256": "35fe2d4e4bf1a46fb6c4fa957e8b594175bb520c9a15d283c0d71bf2bc1ecd10",
+          "content_sha256": "0423ec59c898fd22158889e80dbae5d209f69c1e9cc0e1be3d1d94c8cf5d6dfc",
           "content_bytes": 4028,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/jurowski2022-chromium-peppermint-tincture.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/jurowski2022-chromium-peppermint-tincture.md | sha256sum"
         }
       },
       {
@@ -113,12 +113,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/njinga2022-nigeria-herbal-cd-cr",
         "content_pin": {
-          "content_sha256": "f466e31b7e21b5fa8623a2a2a7d1d61a473090c3b6d9518bde0d289393a126cb",
+          "content_sha256": "e1889dfd8516a234af21d9844a950c3c8f6163d1325de129dacdb8161f815cc3",
           "content_bytes": 3027,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/njinga2022-nigeria-herbal-cd-cr.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/njinga2022-nigeria-herbal-cd-cr.md | sha256sum"
         }
       },
       {
@@ -136,12 +136,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/porwollik2026-rhodiola-supplements-us-market",
         "content_pin": {
-          "content_sha256": "de621169e81ca0fae2a7d68161f453fc5db248cb719f67e1a8ba491edf61ae19",
+          "content_sha256": "93ee641baef97c278879ac91405c2a55fa3abd75100db716cadeb6655bf6dbdd",
           "content_bytes": 4801,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/porwollik2026-rhodiola-supplements-us-market.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/porwollik2026-rhodiola-supplements-us-market.md | sha256sum"
         }
       },
       {
@@ -166,12 +166,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shchukin2022-mint-products-heavy-metals",
         "content_pin": {
-          "content_sha256": "94ef470c64243efd4cb3214561633ff15eef97a956d8aa8167a5847272825189",
+          "content_sha256": "2ca19034d559e3f67c2c4af627ba63acb69f43abf3af3ba1bf96e031d5b6861b",
           "content_bytes": 3618,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/shchukin2022-mint-products-heavy-metals.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/shchukin2022-mint-products-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -186,12 +186,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yang2024-libs-cd-panax-notoginseng",
         "content_pin": {
-          "content_sha256": "c2bfbbc68207f142de206f7fd07dae032111e6f5086072f314ac2009872dec4b",
+          "content_sha256": "e1e92cbd900dfa0593e426dd4a71852c5ae2634877c0db55ca13454dcd2f7629",
           "content_bytes": 2284,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/yang2024-libs-cd-panax-notoginseng.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/yang2024-libs-cd-panax-notoginseng.md | sha256sum"
         }
       },
       {
@@ -213,12 +213,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zafeiraki2021-hemp-cannabis-metals-greece",
         "content_pin": {
-          "content_sha256": "6fb7aebb9be08326261841d1dd60d1cfd9d175aaeb0a37ebe4c7e2207d311707",
+          "content_sha256": "70deb0355da9bd424c16beef8c4fee54306c7c66a6f11138721e6363e441b14a",
           "content_bytes": 4445,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/zafeiraki2021-hemp-cannabis-metals-greece.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/zafeiraki2021-hemp-cannabis-metals-greece.md | sha256sum"
         }
       }
     ]

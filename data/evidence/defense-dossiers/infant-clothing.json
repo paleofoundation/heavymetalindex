@@ -17,18 +17,65 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-clothing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ce3f70a673a92a01046df3886759479477e5c766e1cb2187e846e96474c62d23",
-      "content_bytes": 8947,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "0d3b8de96a33a246494bcf962efa00e6b264565eb972b948bbba11d8e985315c",
+      "content_bytes": 10618,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/infant-clothing.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/infant-clothing.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 8,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/allwood2024-cpsc-childrens-product-lead-recalls",
+        "title": "Recently Recalled Children's Products Due to Lead Hazards",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/allwood2024-cpsc-childrens-product-lead-recalls",
+        "content_pin": {
+          "content_sha256": "cbb75abc61b15834e09b14c80e61750cc8511e636027095dd32b32bb210306c5",
+          "content_bytes": 26793,
+          "last_commit_sha": "ed60faf",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ed60faf:wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/cirs2023-reach-annex-xvii-restrictions",
+        "title": "REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "iHg",
+          "Cr-VI",
+          "Ni",
+          "tAs",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
+        "content_pin": {
+          "content_sha256": "4910e737e852800fe3399e4b2ca8867aea20dfc2cd868ee6c632e25e33341693",
+          "content_bytes": 33923,
+          "last_commit_sha": "121cbf8",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 121cbf8:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/cpsc1997-pvc-children-products",
         "title": "CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products",
@@ -42,12 +89,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc1997-pvc-children-products",
         "content_pin": {
-          "content_sha256": "b51f8b8de835aa25d067d9822f6565efebbd4620d5ea1da477390ecad4ca8289",
-          "content_bytes": 29346,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "e658e22137bdf297f0ef53af0f50e53aef0ea276b7e8c2e38b5ca25f69e6a76e",
+          "content_bytes": 29208,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/cpsc1997-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -63,12 +110,39 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/digangi1997-greenpeace-vinyl-children-products",
         "content_pin": {
-          "content_sha256": "cc4b9091cdc523befe02b48f6e9927445a45845b059cd137ee5ca9c03b88bb11",
-          "content_bytes": 38634,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "ccd43d002e72b4ef8cad3e0c67ed7bb27dbae44de2578db70ef47e1088daee34",
+          "content_bytes": 38780,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/digangi1997-greenpeace-vinyl-children-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/oeko-tex2024-new-limit-values",
+        "title": "OEKO-TEX® Limit values: New regulations 2024",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Sb",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
+        "content_pin": {
+          "content_sha256": "0235af2fe754f9e51285861139ca68a21974b3e59819f639ebbe04421313058a",
+          "content_bytes": 21976,
+          "last_commit_sha": "2228e31",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2228e31:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
         }
       },
       {
@@ -92,12 +166,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "301817810e4ff53ea7490ba5ed0e93f49f6f542107ddef27f726e14af0cf3ae7",
-          "content_bytes": 39281,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "fd8dcdec802cf870a8dd9718ebabbe21cd39106b66fac2eca3b43e9dd3977e67",
+          "content_bytes": 39427,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stringer2001-greenpeace-pvc-children-products",
+        "title": "Toxic chemicals in a child's world: an investigation into PVC plastic products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
+        "content_pin": {
+          "content_sha256": "eb95a3a28207959b98748bfdd1bfa10b9f28d073597861a3ac6a1933d955d547",
+          "content_bytes": 32741,
+          "last_commit_sha": "f9253af",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show f9253af:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -120,12 +216,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/xiong2025-heavy-metals-infant-clothing",
         "content_pin": {
-          "content_sha256": "8f72962a3f2fc0921dff45cd34da65e0c7eeb5c067cb75923c403d87f2c9d4bf",
+          "content_sha256": "7c9349bf51a209731fdd1724c43eaff40a5fb16b1af3d46a8ca7a2c5e9cc8730",
           "content_bytes": 20116,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/xiong2025-heavy-metals-infant-clothing.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/xiong2025-heavy-metals-infant-clothing.md | sha256sum"
         }
       }
     ]

@@ -67,3 +67,13 @@ App: Supports fish and freshwater-fish contaminant context, not infant-formula o
 - The auto-fetched filename labels this as formula/cadmium, but the PDF is a freshwater-fish and river-water study.
 - Arsenic is total As; the paper does not provide inorganic arsenic speciation.
 - The source has an internal basis ambiguity: methods dry the fish tissue before digestion, while the risk equation labels fish concentration as mg/kg wet weight. This page preserves the source-reported units and flags the ambiguity for pooling.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

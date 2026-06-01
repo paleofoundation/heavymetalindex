@@ -71,3 +71,13 @@ Cans were stored in a thermohygrostat at 43 C and removed after 1, 2, 3, 4, and 
 - Values are accelerated-storage values at 43 C; route them with the storage-condition caveat.
 - `metals: [Sn, Fe]` reflects total tin and iron measured in the pineapple syrup by ICP-MS. The toxicologically relevant food-packaging metal for this ingest is Sn; Fe is captured because the source uses Fe dissolution to identify late-stage base-steel corrosion.
 - The PDF is an advance-view manuscript from Materials Transactions, published July 4, 2025. No open license statement was visible in the PDF text.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

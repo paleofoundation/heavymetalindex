@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c660ae7` (2026-06-01). The body hashes to `sha256:b8bdcc29fca2a7e01133c0c4aa055a73…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:d47f1dba0a3e5760e66199dbe16ba7fb…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=menstrual-cups&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/menstrual-cups&download=1`.
 

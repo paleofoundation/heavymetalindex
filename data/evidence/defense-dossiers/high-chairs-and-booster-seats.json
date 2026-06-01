@@ -17,18 +17,69 @@
     "canonical_url": "https://heavymetalindex.com/products/high-chairs-and-booster-seats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f7fbcad8312845ada1825fff07b4e70558907f397dd09c8db6b91b74ed87e519",
-      "content_bytes": 7368,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "c081af1d6066ec9e922d1d1ab5686741a1b149a732e73e91084c17f07f553339",
+      "content_bytes": 8467,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/high-chairs-and-booster-seats.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/high-chairs-and-booster-seats.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/echa2023-cmr-childcare-articles",
+        "title": "Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr-VI",
+          "Co",
+          "tAs",
+          "tHg",
+          "Sn",
+          "Li",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
+        "content_pin": {
+          "content_sha256": "45fe8bf1f16a065da9951cf78d550643ba09b25815d51908f05fb3255dd4b27f",
+          "content_bytes": 59019,
+          "last_commit_sha": "df568bd",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show df568bd:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stringer2001-greenpeace-pvc-children-products",
+        "title": "Toxic chemicals in a child's world: an investigation into PVC plastic products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
+        "content_pin": {
+          "content_sha256": "eb95a3a28207959b98748bfdd1bfa10b9f28d073597861a3ac6a1933d955d547",
+          "content_bytes": 32741,
+          "last_commit_sha": "f9253af",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show f9253af:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

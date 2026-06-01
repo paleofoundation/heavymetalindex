@@ -580,3 +580,30 @@ Parallel in failure mode to the three prior cluster stops (`MFK_cellulose-based-
 **Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
 
 **Recommendation for Karen:** Standing cluster recommendation now has four-paper confirmation. Five remaining cluster members (Introduction-of-adsorption-techniques-for-heavy-metals-remediation, Investigation-of-the-agroecological-applications-of-olive-mill-wastewater-fractions, Natural-Clays-as-Adsorbents-for-the-Removal-of-Heavy-Metals-from-Phosphogypsum, Role-of-Extremophiles-in-the-Removal-of-Heavy-Metal-and-E-Waste, The-Role-of-Wastewater-Treatment-Technologies-in-Municipal-Landfill-Leachate-Treatment) will hit the same stop on subsequent ticks. Moving the full June 1 wastewater-remediation cluster to `raw/_out-of-scope/wastewater-remediation/` (or equivalent sideline location) drains the autonomy loop onto the substantive in-scope June 1 papers without burning a tick per cluster member.
+
+## STOP: MFK_petrella2019 — out of HMI scope (wastewater-remediation packed-bed-column biosorption study; 5th cluster confirmation)
+
+**PDF:** `raw/Manual Fetch Kimi /June 1/petrella2019.pdf`
+
+**Suggested handle:** MFK_petrella2019
+
+**Citation:** Petrella A, Spasiano D, Rizzi V, Cosma P, Race M, De Vietro N. Thermodynamic and kinetic investigation of heavy metals sorption in packed bed columns by recycled lignocellulosic materials from olive oil production. Chem Eng Commun. 2019. DOI: 10.1080/00986445.2019.1574768. Published online 21 Feb 2019. Politecnico di Bari (DICATECh), Università di Bari (Chemistry), Università di Cassino e del Lazio Meridionale (DICEM), and CNR Nanotec.
+
+**Reason for stop:** Fifth confirmation of the June 1 wastewater-remediation cluster pattern. Same failure mode as `MFK_cellulose-based-adsorbents`, `MFK_chelated-heavy-metals-removal-by-in-situ-formed-fe`, `MFK_demolition-waste-for-adsorption-of-metals-a-step-t`, and `MFK_heavy-metal-removal-using-plant-origin-biomass-and` documented above.
+
+The paper studies HCl/NaOH-pretreated, oven-dried, crushed olive-pomace particles (1–3 mm) — "BOP" (Biosorbent from Olive oil Production) — packed into 1 cm × 50 cm glass columns and eluted with **synthetic distilled-water nitrate solutions** of Pb(NO₃)₂, Cd(NO₃)₂·4H₂O, and Ni(NO₃)₂·7H₂O at 3, 6, and 10 mg·Me⁺²/L influent concentrations and 0.3–0.7 L/h flow rates, generating C/C₀ breakthrough curves (Figures 3–9), kinetic half-exchange times t₀.₅, and sorbent retention capacities Q_exp (Tables 1–6). Headline outcomes (verified by reading all 14 pages including the abstract, Experimental Section, Column Tests, Results & Discussion, all 8 tables, all 12 figures, the Conclusions, and the references list): selectivity order Pb²⁺ > Cd²⁺ > Ni²⁺; maximum capacities 8.15 / 3.5 / 2.9 mg/g_sorbent for Pb / Cd / Ni in the 10 mg/L multimetal solution with 8 g BOP at 0.3 L/h; film-diffusion control in the Nernst stationary liquid film identified as the rate-determining step; exhausted BOP characterized by FTIR-ATR + SEM-EDX (Figures 10–11, Table 7); spent metal-laden BOP encapsulated into CEM II A-LL cement mortars + recycled porous waste glass (Figure 12, Table 8) to obtain lightweight composites with thermal conductivity 0.16 W/m·K and compression strength 3.15 N/mm² for construction-industry reuse, with metals retained in the cement matrix below Italian-standardization leaching limits.
+
+Two stacked scope mismatches with HMI:
+
+1. **Subject-matter scope failure (wastewater engineering + cement-mortar circular-economy, not food/personal-care contamination):** The conclusions explicitly frame the work as "wastewater engineering as alternative materials for the selective removal of HM (Pb⁺², Ni⁺², Cd⁺²)" and note that "the concentrations of the influent solutions were measured in mg/L because … the regulation thresholds for the wastewater discharge are actually measured in mg/L." Matrix is synthetic aqueous metal-nitrate solution mimicking industrial-effluent loading; the downstream pathway is encapsulating the metal-laden sorbent into cement composites for construction-industry plaster/panel applications. No food matrix, no ingredient, no consumer product, no food-contact material, no human-exposure pathway, no commodity HMI tracks.
+
+2. **No olive-oil-occurrence data despite the olive-oil-production substrate:** BOP is an industrial wastewater-treatment sorbent engineered from olive-mill solid residues (with HCl + NaOH pretreatment) — not olive pomace as feed or food. The paper measures sorption capacity of the **engineered sorbent**, never measures heavy-metal **content** of olive pomace itself as a feed or food matrix, and never characterizes olive-oil contamination. The la-pera2010 olive-oil paper (already ingested 2026-06-01 at commit `9156c44` and audited-promote at `aba6e1b`) is the on-topic olive-oil literature; this Petrella paper does not advance that thread.
+
+**Identity checks (clean — no existing wiki page):**
+- DOI grep `10.1080/00986445.2019.1574768` against `wiki/sources/`: no matches
+- Author grep `petrella`, `petrella2019`, `spasiano`, `de.vietro` against `wiki/sources/`: no matches
+- Handle grep `MFK_petrella2019`, `petrella2019` against `wiki/sources/`: no matches
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+**Recommendation for Karen:** Cluster pattern is now five-paper-confirmed. Remaining members of the June 1 wastewater-remediation set (the four originally listed plus any sibling biosorption / column-sorption / cement-encapsulation papers in the same folder) will hit the same stop on subsequent ticks. Moving the cluster to `raw/_out-of-scope/wastewater-remediation/` continues to be the cheap-and-correct sideline action. The substantive in-scope June 1 papers (mushroom-mercury, milk-metals, olive-oil-metals, cosmetics-Pb/Cd, etc.) continue to drain normally on parallel ticks.

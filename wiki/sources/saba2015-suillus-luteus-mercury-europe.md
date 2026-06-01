@@ -55,3 +55,12 @@ This is a high-sample-count source for [[metals/mercury-total]] in wild edible m
 - Values are dry matter and cap/stem specific. Any fresh-weight use requires an explicit conversion.
 - The source has soil rows, but food-occurrence routing should use mushroom cap/stem rows, not soil concentrations.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

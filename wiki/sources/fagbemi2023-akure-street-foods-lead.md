@@ -75,3 +75,13 @@ App: Supports broad food-route context for mixed meals, fruit, cucumber/non-root
 - The auto-fetched filename labels the file as a metal-utensil lead product hit, but the PDF is a street-hawked food study.
 - Table 1 labels units as mg/100 g, while the text discusses some element ranges as mg/kg. Values above follow the table label and should not be silently converted without a unit audit.
 - Product names are generic food categories, not consumer brands.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

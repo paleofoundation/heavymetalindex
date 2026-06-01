@@ -74,3 +74,13 @@ Microbiome: The paper includes microbial safety data, but this page only routes 
 - Speciation: the paper reports total elemental concentrations and does not speciate chromium, arsenic, or mercury. This page records Cr, not Cr-VI.
 - Table 6 reports Cd standard deviations that are much larger than the means for variants II-IV. Values are transcribed as printed, and the anomaly should be treated as a source-level reporting issue rather than corrected by inference.
 - The fetched filename suggested rice milk, but the PDF is a black soldier fly larvae paper. The source page follows the actual PDF title, DOI, byline, and matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6937864](https://github.com/paleofoundation/heavymetalindex/commit/6937864) | 2026-06-01 | audit: us-epa-2011-efh-chapter17-consumer-products revised |
+<!-- END: hmi-page-history -->

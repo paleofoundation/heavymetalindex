@@ -88,4 +88,12 @@ OECD WPEA-led methodology and decision-tree development. The decision tree (Figu
 - 2026-06-01 audit subagent (fresh-context Agent, general-purpose) verdict PROMOTE. One ⚠️ concern in Check 1: child-air-intake bullet was attributed to "Section 3, Discussion p. 16," but the passage sits in Section 2 (Decision Tree) prose on p. 16, not Section 3 (Case Studies, begins p. 19) or Section 4 (Discussion and Conclusion, begins p. 25). Verified independently against source pp. 14–20; finding correct. Corrected attribution to "Section 2 Decision Tree discussion, p. 16". One ⚠️ concern in Check 2 noted that `international` is not strictly in the taxonomy snapshot's jurisdiction vocabulary; precedent established by sibling [[oecd2024-crafts-toys-children-exposure]]; left as-is and surfaced for next taxonomy-snapshot refresh. 0 ❌ definite-error findings.
 
 <!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2fd48f1](https://github.com/paleofoundation/heavymetalindex/commit/2fd48f1) | 2026-06-01 | audit: oecd2019-childrens-exposure-chemicals-products promoted |
+| [d3b1e7a](https://github.com/paleofoundation/heavymetalindex/commit/d3b1e7a) | 2026-06-01 | ingest: oecd2019-childrens-exposure-chemicals-products fresh from Manual Fetch Kimi/June 1/01_Exposure_Pathways |
 <!-- END: hmi-page-history -->

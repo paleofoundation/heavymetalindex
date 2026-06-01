@@ -71,3 +71,13 @@ The study used Russian sturgeon fillets from aquaculture. Total As during frozen
 - The auto-fetched filename/wishlist target was `salt iAs`, but the PDF measures fish fillets and processed fish products. The paper explicitly notes that arsenic in the salt used for selected processed products was below the detection limit.
 - Total As storage data are reported as mg/kg dry weight; species data are reported as ug/kg in the table. These should not be pooled without a logged basis/unit conversion.
 - The paper's sample scope is one fish species, Russian sturgeon, from aquaculture; it is not a broad market survey of fish or seafood.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bd42001](https://github.com/paleofoundation/heavymetalindex/commit/bd42001) | 2026-06-01 | audit: norouzirad2018-iran-khuzestan-oilfield-milk-pb-cd [revised] |
+<!-- END: hmi-page-history -->

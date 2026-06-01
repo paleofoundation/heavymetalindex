@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-soy-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "47ded181ef964701b5479fe81ec97aadc8764ce3a3a6908a830d884fb7afae51",
+      "content_sha256": "426c2dd1228ce0ac8846f97fb6d3eb81785ebc899ad8e8dad7d424e752b5c2a2",
       "content_bytes": 17319,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/plant-milks-soy-based.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/plant-milks-soy-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hariono2023-soy-milk-cookware-metals",
         "content_pin": {
-          "content_sha256": "db99d0f4364ff235b47c875e3adc41d7fe6cad0204f338ff77b456c393e45ec3",
+          "content_sha256": "f2c24bbd47f2c49dbf624b4a49b56cfb5333a79c4d3919660fe32104c5080140",
           "content_bytes": 6109,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
         }
       },
       {
@@ -72,12 +72,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marques2021-trace-elements-milks-plant-based-drinks",
         "content_pin": {
-          "content_sha256": "c31503cea3598406d047df3da5cd4b6ec0592e337e81d46a2a807754a5f667b4",
+          "content_sha256": "a40cb60363a43d73e42bf5e28201541117ae957e720cb9c5d7ad73c02f0f523b",
           "content_bytes": 5129,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
         }
       },
       {
@@ -99,12 +99,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/milani2023-trace-elements-soy-based-beverages",
         "content_pin": {
-          "content_sha256": "95e5a89f165dd5233b2aeb63ff78ce197cd4d3a0d7ea2b2e43f5bf0985b87bd4",
+          "content_sha256": "c9880e8230511203ee530caacd87ba736eca824027a2eda87834c31915b13d39",
           "content_bytes": 5902,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/milani2023-trace-elements-soy-based-beverages.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/milani2023-trace-elements-soy-based-beverages.md | sha256sum"
         }
       }
     ]

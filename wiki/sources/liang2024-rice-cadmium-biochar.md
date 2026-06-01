@@ -63,3 +63,13 @@ The pot trial used Cd-polluted paddy soil with six amendment treatments and four
 - The auto-fetched filename/wishlist cell was `rice milk Cd`, but the PDF measures paddy soil, rice tissues, and brown rice. No rice milk or plant beverage matrix is present.
 - The paper's extractable text reports the brown-rice Cd percentage reductions and threshold comparison; exact absolute brown-rice concentrations are plotted in Figure 3 but not printed as text.
 - The source is a remediation pot experiment with four replicates per treatment, not a retail or field-market occurrence survey.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bd42001](https://github.com/paleofoundation/heavymetalindex/commit/bd42001) | 2026-06-01 | audit: norouzirad2018-iran-khuzestan-oilfield-milk-pb-cd [revised] |
+<!-- END: hmi-page-history -->

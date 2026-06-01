@@ -160,3 +160,14 @@ The policy does NOT support:
 - **Jurisdictions.** US-WA only. The policy is a Washington-state-specific enforcement framework. Federal FDA recommendations (10 ppm cosmetic-lead-impurity maximum) and the German and UK product-testing data are cited as context but the policy itself binds only manufacturers selling cosmetics in or into Washington State.
 - **DOI / publisher.** No DOI; Washington State government publication identified as Publication 24-04-036 and indexed at apps.ecology.wa.gov/publications/SummaryPages/2404036.html. The `access_url` points to the report's summary page (canonical and stable across PDF revisions).
 - **Raw path / handle.** Filed under `raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-013_WA_Ecology_2025_Interim_Policy_Lead_Cosmetics_TFCA.pdf`. The "Infant cosmetics" folder name does not match this policy's scope — the interim policy applies to all cosmetics regardless of age tier, with no children-specific provisions. Folder placement is preserved as-is per raw-tree immutability; routing reflects the actual content (broad cosmetic-category scope, both adult and child-marketed cosmetics).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e0ed377](https://github.com/paleofoundation/heavymetalindex/commit/e0ed377) | 2026-06-02 | audit: waecology2024-interim-policy-lead-cosmetics promoted |
+| [a596229](https://github.com/paleofoundation/heavymetalindex/commit/a596229) | 2026-06-02 | ingest: waecology2024-interim-policy-lead-cosmetics fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |
+<!-- END: hmi-page-history -->

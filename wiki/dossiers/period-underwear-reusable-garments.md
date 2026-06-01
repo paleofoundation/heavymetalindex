@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c660ae7` (2026-06-01). The body hashes to `sha256:6c16d6c9bbb9beb97f647de913ee98dd…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:3e496ef4b65b3ea39e714d0b5aeb64bd…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=period-underwear-reusable-garments&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/period-underwear-reusable-garments&download=1`.
 

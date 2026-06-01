@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c660ae7` (2026-06-01). The body hashes to `sha256:6ad3fecaed2c30b5cafea8cc66bd8b7a…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:949dc8ac915f4d18f03e29ddb1721a14…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=anti-wrinkle-wrinkle-release-products&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/anti-wrinkle-wrinkle-release-products&download=1`.
 

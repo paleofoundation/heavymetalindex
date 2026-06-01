@@ -75,9 +75,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1e9ee5b](https://github.com/paleofoundation/heavymetalindex/commit/1e9ee5b) | 2026-06-01 | ingest: oecd2024-crafts-toys-children-exposure [enhanced] from Manual Fetch Kimi/babycare_papers/01_Exposure_Pathways |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

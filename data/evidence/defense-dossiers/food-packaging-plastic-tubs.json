@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-plastic-tubs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f5f6ba55a14cb64b8e06226d52ddcf13f23330ddbdc6fea0c527e5d201fee357",
+      "content_sha256": "a6bca2ecd740aa1fc4258a408fe22d3d2337475024071e79d8846b087ae03bdf",
       "content_bytes": 7306,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/food-packaging-plastic-tubs.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/food-packaging-plastic-tubs.md | sha256sum"
     }
   },
   "evidence_base": {

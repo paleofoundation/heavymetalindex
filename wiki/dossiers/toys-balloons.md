@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c660ae7` (2026-06-01). The body hashes to `sha256:d9efd548c89e064b34c603ecde0d44d5…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:00ddd08de280126ca0040614b3153f7a…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=toys-balloons&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/toys-balloons&download=1`.
 

@@ -60,3 +60,12 @@ This source contributes Ethiopia-market and wild/cultivated edible mushroom data
 - Basis is dry weight. Downstream pooling must convert basis explicitly before combining with fresh mushroom or as-consumed values.
 - The source is a food occurrence paper, not a soil-only paper, because edible mushroom concentrations are tabulated.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

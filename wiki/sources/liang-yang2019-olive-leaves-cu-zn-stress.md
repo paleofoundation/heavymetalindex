@@ -160,3 +160,13 @@ Speciation: Cu²⁺ and Zn²⁺ as sulfate-salt soil spikes. No fractionation or
 - Brand firewall (CLAUDE.md Part 12): the paper does not name any brand, mill, or commercial product. The plant material is described by cultivar ('Foao') and origin (Lizhou Town nursery). No brand-firewall edits required.
 - Wiki/HMTc firewall (CLAUDE.md Part 2): no synthesis claims, no HMTc threshold references, no consumer risk advisories were drafted into this page. The Implications section frames the paper as mechanistic phytotox context with explicit "not relevant to" caveats for certification, app, and consumer-exposure use cases.
 - Slug check against taxonomy snapshot (2026-05-18): `olives` and `olive-oil` exist in ingredients; `copper` and `zinc` exist in metals. The page uses `Cu` and `Zn` in the frontmatter `metals:` array per the abbreviation vocabulary, and `[[metals/copper]]` / `[[metals/zinc]]` in the bottom-of-page wikilinks section per the page-slug convention.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a3ec965](https://github.com/paleofoundation/heavymetalindex/commit/a3ec965) | 2026-06-01 | ingest: liang-yang2019-olive-leaves-cu-zn-stress [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

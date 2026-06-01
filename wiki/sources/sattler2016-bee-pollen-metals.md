@@ -72,3 +72,13 @@ App: The source can support bee-pollen matrix warnings or gap flags if a bee-pro
 - The auto-fetched filename routes this to a vitamin/mineral supplement product query, but the PDF matrix is dried bee pollen.
 - The PDF gives total elemental chromium only; it does not support Cr(VI) routing.
 - No ingredient page for bee pollen exists at ingest time, so frontmatter uses existing supplement product pages and source-specific matrix terms without inventing an ingredient slug.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

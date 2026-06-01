@@ -78,3 +78,14 @@ Minimal direct value for the Heavy Metal Index. The wiki's scope is heavy-metal 
 - **Wiki/HMTc firewall (Part 2).** No synthesis claims, no HMTc threshold proposals, no consumer translations. Implications section is scoped to supply-chain provenance and adsorbent-material leads, not to "what this means for any specific food category".
 - **License.** Springer Nature exclusive license (©The Author(s), under exclusive license to Springer Nature Switzerland AG 2022). Not open access; treat full-text reuse beyond fair-use quotation as license-restricted.
 - **Numerical fidelity.** All quantitative statements in this page that originate in the source chapter are restatements of qualitative/descriptive text or of single named numbers (1430 cm⁻¹ FT-IR band, the three clay-deposit names, the 2018 sampling year, the eight-reference list). The chapter does not print mg/kg tables for input or output streams; this page therefore does not assert mg/kg occurrence values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f7eb87b](https://github.com/paleofoundation/heavymetalindex/commit/f7eb87b) | 2026-06-01 | audit: moussa2022-clays-phosphogypsum-tunisia [revised] |
+| [0f80527](https://github.com/paleofoundation/heavymetalindex/commit/0f80527) | 2026-06-01 | ingest: moussa2022-clays-phosphogypsum-tunisia [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

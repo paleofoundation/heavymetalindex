@@ -174,3 +174,14 @@ This is a narrative review article. The authors describe their selection methodo
 - 2017-05-27 (publication): Toxicology Reports 4 (2017) 245-259. Received 31 March 2017; revised 19 May 2017; accepted 25 May 2017. CC BY-NC-ND 4.0.
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` (DOI grep `10.1016/j.toxrep.2017.05.006`, raw_handle grep `KADC_neurotoxic-effect-of-active-ingredients-in-sunscre`, cite-key grep `ruszkiewicz2017`) returned zero matches. PDF read in three chunks (pages 1-5, 6-10, 11-15) via the `pages` parameter. Source page written, routing audit refresh executed, audit-queue appended.
 - 2026-06-01 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict QUARANTINE. Eight Check-1 numerical-fidelity findings independently verified against PDF and applied (BP-3/4-MBC/OMC source-order re-mapping for the 10%-each repeated-application study, ref [65] vs [8] for BP-3 Danish children, ref [20] vs [70] for 4-MBC urine/plasma, Majorca Ti/Zn unit and compound correction including removing fabricated EHMC, Swiss-rivers refs [10]/[11] split into two bullets and fish/cormorants 337/701 misattribution corrected, Yeh 120 g→120 µg unit-rendering fix, Kuschner 1 h → 10-30 min duration, refs [135]/[136] regimen+concentration unswap, Ti-brain ICP-MS direction inversion). One audit Check-1 finding rejected as false positive: the audit's claim that OMC M plasma should be 300 and 4-MBC M plasma should be 20 assumed compound order OMC/BP-3/4-MBC; PDF source order is BP-3/4-MBC/OMC, so the corrected mapping puts 300 → BP-3 (not OMC) and 20 → 4-MBC (not OMC). Two Check-2 ⚠️ findings (`metals: [Zn, Ti]` and `matrices: [cosmetic-personal-care]`) accepted as flagged per barabash2025 precedent. Checks 3, 4, 5 clean. Post-application status: page is no longer in QUARANTINE-worthy state; updated audit-queue verdict to audited-revised.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [694e2f8](https://github.com/paleofoundation/heavymetalindex/commit/694e2f8) | 2026-06-01 | audit: ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review [revised] |
+| [716fa81](https://github.com/paleofoundation/heavymetalindex/commit/716fa81) | 2026-06-01 | ingest: ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen |
+<!-- END: hmi-page-history -->

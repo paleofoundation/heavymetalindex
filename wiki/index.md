@@ -77,27 +77,27 @@ updated: 2026-04-30
   <dl class="hmi-home-corpus-counter-grid">
     <div>
       <dt>Peer-reviewed studies</dt>
-      <dd><a href="sources/">984</a></dd>
+      <dd><a href="sources/">1,051</a></dd>
     </div>
     <div>
       <dt>Government reports and datasets</dt>
-      <dd><a href="sources/">116</a></dd>
+      <dd><a href="sources/">127</a></dd>
     </div>
     <div>
       <dt>Programmatic databases indexed</dt>
-      <dd><a href="sources/">42</a></dd>
+      <dd><a href="sources/">43</a></dd>
     </div>
     <div>
       <dt>A-tier curated sources</dt>
-      <dd><a href="sources/">966</a></dd>
+      <dd><a href="sources/">1,019</a></dd>
     </div>
     <div>
       <dt>Structured evidence records</dt>
-      <dd><a href="methodology/">639</a></dd>
+      <dd><a href="methodology/">689</a></dd>
     </div>
     <div>
       <dt>Jurisdictions covered</dt>
-      <dd><a href="regulations/">158</a></dd>
+      <dd><a href="regulations/">161</a></dd>
     </div>
     <div>
       <dt>Ingredient profiles</dt>
@@ -105,7 +105,7 @@ updated: 2026-04-30
     </div>
     <div>
       <dt>Product categories</dt>
-      <dd><a href="products/">356</a></dd>
+      <dd><a href="products/">358</a></dd>
     </div>
     <div>
       <dt>Metal profiles</dt>
@@ -124,7 +124,7 @@ updated: 2026-04-30
 <!-- BEGIN: hmi-feature-grid -->
 <section class="hmi-home-feature-grid" aria-label="Heavy Metal Index sections">
   <div class="hmi-home-feature-card">
-    <span>356 pages</span>
+    <span>358 pages</span>
     <h2><a href="products/">Products</a></h2>
     <p>Risk profiles for infant and child foods, formula, cereals, purees, snacks, and related categories.</p>
     <div class="hmi-home-card-meta">Consumer-facing categories</div>
@@ -148,7 +148,7 @@ updated: 2026-04-30
     <div class="hmi-home-card-meta">Thresholds and agencies</div>
   </div>
   <div class="hmi-home-feature-card">
-    <span>1,204 pages</span>
+    <span>1,302 pages</span>
     <h2><a href="sources/">Sources</a></h2>
     <p>The source archive behind the index, with linked methods, extracted values, and page cross-references.</p>
     <div class="hmi-home-card-meta">Traceable evidence</div>

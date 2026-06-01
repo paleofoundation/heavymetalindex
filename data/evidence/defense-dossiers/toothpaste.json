@@ -22,16 +22,16 @@
     "canonical_url": "https://heavymetalindex.com/products/toothpaste",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fa8f6ec9e7619331edfbcd4da0b19ec09e78a453148722817ac21b2955d3dc37",
-      "content_bytes": 17564,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "800b8dd2d0fd511f026534cebb983884d6731e36f87abf93839d9e32e501f0a6",
+      "content_bytes": 18830,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/toothpaste.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/toothpaste.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 10,
+    "contributing_source_count": 13,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -56,12 +56,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "3a75588ad312f7d3bcc9a21d94fee843258efa722e4fa6f425994137739058bd",
+          "content_sha256": "91b18321828c576ca0e88f7f3c7123c85fb0b728dbe6d9d123f1c5f6d9af1842",
           "content_bytes": 35173,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -80,12 +80,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/attard2022-heavy-metals-cosmetics-review",
         "content_pin": {
-          "content_sha256": "8335cf1de6c32c4234d4f297f4a86e7851bca2e00588eec3839c93ba263b30ee",
+          "content_sha256": "72adb414f873a362b00efa4ed295764de8605d223ac5c8679d89ca74ff785771",
           "content_bytes": 11633,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/attard2022-heavy-metals-cosmetics-review.md | sha256sum"
         }
       },
       {
@@ -103,12 +103,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chengappa2025-toothpaste-india-aas",
         "content_pin": {
-          "content_sha256": "361d664ac66ff88fc11bec244fe45a990813607f1b3dc3cb1ab7dcf73a2cf1bc",
+          "content_sha256": "ceffc694cfa4ff3c28a7d86f2dbf423daadd8618587df5c64d9aa9557f28f5e9",
           "content_bytes": 18784,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/chengappa2025-toothpaste-india-aas.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/chengappa2025-toothpaste-india-aas.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
+        "title": "Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
+        "content_pin": {
+          "content_sha256": "3f34496e1571bf2a4d62256dd171c012ce113307e674a94a3178902458577aac",
+          "content_bytes": 23960,
+          "last_commit_sha": "169c016",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 169c016:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
         }
       },
       {
@@ -121,12 +142,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/gosens2014-parabens-aggregate-exposure-children",
         "content_pin": {
-          "content_sha256": "88af5d072f7ae0725f1c3693e3cd990ae4b66dfcce32672d8e376eff4ca1f216",
+          "content_sha256": "504e86f67dab789eadda6eb25845c2a1e8ccb4da44fffc8eb93d9e9010935aa6",
           "content_bytes": 8472,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/gosens2014-parabens-aggregate-exposure-children.md | sha256sum"
         }
       },
       {
@@ -153,12 +174,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jitareanu2025-heavy-metals-cosmetics-overview",
         "content_pin": {
-          "content_sha256": "161c247afaaa150ad2b6fc94a2adaabebf7857e164f0723dd3a8ed47fd1de138",
+          "content_sha256": "5e7cc0859eb66354f634cd86cd91920e6fb12257d774a2f97de1ff5917215ab8",
           "content_bytes": 11746,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md | sha256sum"
         }
       },
       {
@@ -176,12 +197,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/massarsky2025-heavy-metals-toothpaste-health-risk",
         "content_pin": {
-          "content_sha256": "3291a93ddb54688c50626cbe5d5493a167509d75d3677052d8c903e14d7fb795",
+          "content_sha256": "698c0e7d86ade2eda15849a005340d07b3f41d5562ee298b706ecbd8fc4a3ea6",
           "content_bytes": 24881,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk.md | sha256sum"
         }
       },
       {
@@ -214,12 +235,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/moriceau2025-cosmetics-icpms-iso21392",
         "content_pin": {
-          "content_sha256": "b1f45d1a148c381bb4dffb0d3b57899b93578f2133462d1b1f15c3df889bce89",
-          "content_bytes": 19677,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "96304695451719be6281d40d7521865fe7df2f4b1ab2e6016ad0d999252081d8",
+          "content_bytes": 20823,
+          "last_commit_sha": "0e4b6da",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
+          "verify_command": "git show 0e4b6da:wiki/sources/moriceau2025-cosmetics-icpms-iso21392.md | sha256sum"
         }
       },
       {
@@ -238,12 +259,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "bd0529fa07948093400b00fbe4c5e5d20a94d903e85843d48b5eb81a959bfa0c",
+          "content_sha256": "168371ef52b0a03e89afad33f4eb0db3d035766b45e2bc1fc0b516c79a7ae492",
           "content_bytes": 28200,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
         }
       },
       {
@@ -264,12 +285,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12",
         "content_pin": {
-          "content_sha256": "8a56016ecb33ae1a73649c3e59cbe7e3e47d3a4868add6ad3c5f2042c915dc6b",
+          "content_sha256": "eb995ab6b6a05f4a7c8c6bae8526a37a719e95dba641911d96dd991cbb76107c",
           "content_bytes": 24278,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md | sha256sum"
         }
       },
       {
@@ -282,12 +303,50 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/sccs2025-methyl-salicylate-children-exposure-1676-25",
         "content_pin": {
-          "content_sha256": "3871fbf007fbc037e401a59d43dfca631e4a0c9706572e36876f9636a98e8f07",
+          "content_sha256": "ad1b180400470f7149e02b76175a82eb482fe8b2ea82a2521ccfa9ad9cec6f63",
           "content_bytes": 22101,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/us-epa-2011-efh-chapter17-consumer-products",
+        "title": "Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
+        "content_pin": {
+          "content_sha256": "71224bf0e2f0ebb19b74ed18c7411f6db0960f7e1f5fc4fecd03df8c40a678b6",
+          "content_bytes": 30672,
+          "last_commit_sha": "6937864",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6937864:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/waecology2024-interim-policy-lead-cosmetics",
+        "title": "Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/waecology2024-interim-policy-lead-cosmetics",
+        "content_pin": {
+          "content_sha256": "7ab55c568d711348ba9c18a0a677a807a65b5d1212317f722b5f3ae03574e4d0",
+          "content_bytes": 27955,
+          "last_commit_sha": "e0ed377",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e0ed377:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
         }
       }
     ]

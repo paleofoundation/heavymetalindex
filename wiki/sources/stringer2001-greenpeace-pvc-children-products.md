@@ -160,3 +160,14 @@ This 22-page Greenpeace Research Laboratories technical report by Ruth Stringer,
   - ⚠️ Applied: Sn section contained a typo "Italian Mexican syrup-bottle (CW0006b) 28.5 mg/kg" — CW0006b is the Mexican maize-syrup bottle (the Italian item is CW0140 spoon and CW0140b is the soft handle, listed separately). Corrected to "Mexican maize-syrup bottle (CW0006b) 28.5 mg/kg."
   - Subagent self-corrected its initially-flagged ❌ on the "predominant organotin species" tally (six dibutyltin / five dioctyltin / two tributyltin) after re-reading source p.9 — count is correct as on the page.
   - Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all returned ✅ clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f9253af](https://github.com/paleofoundation/heavymetalindex/commit/f9253af) | 2026-06-01 | audit: stringer2001-greenpeace-pvc-children-products [revised] |
+| [2fb80c7](https://github.com/paleofoundation/heavymetalindex/commit/2fb80c7) | 2026-06-01 | ingest: stringer2001-greenpeace-pvc-children-products [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings |
+<!-- END: hmi-page-history -->

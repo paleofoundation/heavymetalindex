@@ -2,7 +2,7 @@
 source_page: wiki/products/leafy-vegetables-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 94a4c0c6e22653f06da96aea1ec0f95ad0a5802697c0361637503652605b67ae
+source_page_sha256: 7a73acf58529b9469ecdbb93cfc8ff0131cd57733891afdd6b91df1ed659d678
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

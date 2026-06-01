@@ -86,3 +86,14 @@ The survey selected products for chemical analysis via questionnaire to 11 Danis
 
 - [[metals/tin]]
 - [[products/car-seats]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [48af3f3](https://github.com/paleofoundation/heavymetalindex/commit/48af3f3) | 2026-06-01 | audit: kjolholt2015-car-safety-seats-childrens-textiles [revised] |
+| [5148336](https://github.com/paleofoundation/heavymetalindex/commit/5148336) | 2026-06-01 | ingest: kjolholt2015-car-safety-seats-childrens-textiles [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats |
+<!-- END: hmi-page-history -->

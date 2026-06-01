@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c660ae7` (2026-06-01). The body hashes to `sha256:6605ec00bf5a9b11fac9648d7ba04019…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:d65c50c2f1dd2c026d31ece55e7653c1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=toys-attached-cribs-playpens&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/toys-attached-cribs-playpens&download=1`.
 

@@ -112,3 +112,14 @@ Six vegetable types (Lactuca sativa, Brassica oleracea var. capitata, Solanum ly
 - Audit subagent (2026-06-01) flagged `[[ingredients/non-root-vegetables]]` as an invented slug not in the taxonomy snapshot — verified against `docs/gpt-collaboration/taxonomy-snapshot.md` line 40 and `wiki/ingredients/non-root-vegetables.md`; both confirm the slug exists. False positive; no change applied.
 - Audit subagent (2026-06-01) recommended rewording the "consistent with Paltseva 2018 and Gorospe 2012 patterns reported elsewhere" parenthetical for unambiguous attribution; reworded to make clear the comparison is the source's own framing (PDF p. 4 §3.1) and not a wiki-side cross-source synthesis.
 - Audit subagent (2026-06-01) noted that the Ni-in-potato autumn 2.115 mg/kg exceedance call is faithful to Table 5 (bolded cell, 1.5 mg/kg parenthetical limit) but is the wiki's inference from the table rather than direct §3.1 prose. Acceptable as-is per subagent; no change applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bff6681](https://github.com/paleofoundation/heavymetalindex/commit/bff6681) | 2026-06-01 | audit: alimohammadi2018-tehran-supermarket-vegetables [revised] |
+| [074f058](https://github.com/paleofoundation/heavymetalindex/commit/074f058) | 2026-06-01 | ingest: alimohammadi2018-tehran-supermarket-vegetables [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

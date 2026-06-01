@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 7
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
@@ -121,11 +121,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/seifi2026-iran-toys-pb-cr-hg\|Seifi 2026]]. *Investigation of the concentration of chemical compounds in toys*, Environmental Health and Pollution Research, 2026, 1(1), 43-48 | 2026 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/fowles2021-lead-toys\|Fowles 2021]]. *Health Risk Assessment: Lead in Children's Toys*, ESR Client Report FW21014, prepared for the New Zealand Ministry of Health by the Institute of Environmental Science and Research Ltd (Risk Assessment & Social Systems Group), May 2021 | 2021 | Regulatory | *[awaiting synthesis]* |
-| 3 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
-| 4 | [[sources/mohammed2020-tt-toys-baby-items\|Mohammed et al. 2020]]. *Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago*, Journal of Environmental Chemistry and Ecotoxicology 12(1):59-64 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 5 | [[sources/masu2016-pacifiers-sippy-cups-my\|Users 2016]]. *Comparative Testing: Baby Pacifier and Sippy Cups*, Malaysian Association of Standards Users (Standards Users), Petaling Jaya, Malaysia. Comparative testing report (undated; filename year 2016). | 2016 | NGO report | *[awaiting synthesis]* |
-| 6 | [[sources/bfr2009-lead-cadmium-toys\|(BfR) 2009]]. *Lead and cadmium do not belong in toys*, BfR Opinion No. 048/2009, 1 June 2009 (Federal Institute for Risk Assessment, Germany) | 2009 | Regulatory | *[awaiting synthesis]* |
+| 2 | [[sources/echa2023-cmr-childcare-articles\|ECHA 2023]]. *Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)*, European Chemicals Agency (ECHA), Helsinki, Finland. Investigation report version 2.0 (Final), 31 October 2023, prepared at the request of the European Commission under REACH Article 68(2). | 2023 | Regulatory agency report | *[awaiting synthesis]* |
+| 3 | [[sources/fowles2021-lead-toys\|Fowles 2021]]. *Health Risk Assessment: Lead in Children's Toys*, ESR Client Report FW21014, prepared for the New Zealand Ministry of Health by the Institute of Environmental Science and Research Ltd (Risk Assessment & Social Systems Group), May 2021 | 2021 | Regulatory | *[awaiting synthesis]* |
+| 4 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
+| 5 | [[sources/mohammed2020-tt-toys-baby-items\|Mohammed et al. 2020]]. *Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago*, Journal of Environmental Chemistry and Ecotoxicology 12(1):59-64 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/masu2016-pacifiers-sippy-cups-my\|Users 2016]]. *Comparative Testing: Baby Pacifier and Sippy Cups*, Malaysian Association of Standards Users (Standards Users), Petaling Jaya, Malaysia. Comparative testing report (undated; filename year 2016). | 2016 | NGO report | *[awaiting synthesis]* |
+| 7 | [[sources/bfr2009-lead-cadmium-toys\|(BfR) 2009]]. *Lead and cadmium do not belong in toys*, BfR Opinion No. 048/2009, 1 June 2009 (Federal Institute for Risk Assessment, Germany) | 2009 | Regulatory | *[awaiting synthesis]* |
+| 8 | [[sources/stringer2001-greenpeace-pvc-children-products\|Stringer et al. 2001]]. *Toxic chemicals in a child's world: an investigation into PVC plastic products*, Greenpeace Research Laboratories, University of Exeter (UK); June 2001 | 2001 | NGO report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -135,9 +137,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

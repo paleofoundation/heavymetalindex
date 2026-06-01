@@ -83,7 +83,7 @@ used_in_products: [infant-formula-concentrated-liquid-non-soy, infant-formula-po
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 2
+sources: 3
 ---
 
 # Non Soy Protein Source
@@ -122,8 +122,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/sim2024-inorganic-arsenic-seaweed-hplc\|Sim et al. 2024]]. *Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach*, Food Chemistry | 2024 | Peer-reviewed | HPLC-ICP-MS validated iAs method applied to insect-protein samples as a non-soy protein matrix |
-| 2 | [[sources/masite2022-mopane-trace-metals\|Masite et al. 2022]]. *Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts*, International Journal of Food Science | 2022 | Peer-reviewed | tAs, Cd, Cr, Ni, and Pb in roasted mopane worms as an edible-insect alternative-protein source from the South African market |
+| 1 | [[sources/barborakova2024-black-soldier-fly-larvae-metals\|Barborakova et al. 2024]]. *Safety of black soldier fly larvae: microbial and heavy metal risks*, Journal of Microbiology, Biotechnology and Food Sciences | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/sim2024-inorganic-arsenic-seaweed-hplc\|Sim et al. 2024]]. *Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach*, Food Chemistry | 2024 | Peer-reviewed | HPLC-ICP-MS validated iAs method applied to insect-protein samples as a non-soy protein matrix |
+| 3 | [[sources/masite2022-mopane-trace-metals\|Masite et al. 2022]]. *Trace Metals, Crude Protein, and TGA-FTIR Analysis of Evolved Gas Products in the Thermal Decomposition of Roasted Mopane Worms, Sweet Corn, and Peanuts*, International Journal of Food Science | 2022 | Peer-reviewed | tAs, Cd, Cr, Ni, and Pb in roasted mopane worms as an edible-insect alternative-protein source from the South African market |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -177,9 +178,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

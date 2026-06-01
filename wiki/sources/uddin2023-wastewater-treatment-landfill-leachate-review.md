@@ -101,3 +101,13 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 - Frontmatter `matrices:` uses `[landfill-leachate, municipal-solid-waste]`. These are descriptive environmental-matrix slugs new to this source page; they are plausible analogues to existing slugs (`leachate`, `industrial-waste`, `e-waste` precedented elsewhere) but should be confirmed against the matrices controlled vocabulary on the next Karen review.
 - `ingredients: []`, `products: []`, `jurisdictions: []` are intentionally empty: the chapter is a treatment-engineering review with no food-supply-chain, food-product, or jurisdiction-specific occurrence findings.
 - `sample_n: null`, `sample_population` is the review's authorship/affiliation framing rather than a sample-size claim (no primary measurement in the chapter).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cd2665c](https://github.com/paleofoundation/heavymetalindex/commit/cd2665c) | 2026-06-01 | ingest: uddin2023-wastewater-treatment-landfill-leachate-review [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

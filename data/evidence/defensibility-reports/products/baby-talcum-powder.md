@@ -2,15 +2,15 @@
 source_page: wiki/products/baby-talcum-powder.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9dda63e00b05009f857070af9b665053fc83bd80c2136e48b20a7ae2e781deba
+source_page_sha256: 88ef1e0377b8ddea46a480d2a0fcf00826852f1a42202d58dceae58b497b3043
 total_claims: 7
 cited_claims: 6
 uncited_claims: 1
-distinct_cited_targets: 5
-distinct_cited_sources: 5
+distinct_cited_targets: 7
+distinct_cited_sources: 7
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 7 |
 | cited claims | 6 |
 | uncited claims | 1 |
-| distinct cited targets | 5 |
-| distinct cited `sources/` pages | 5 |
+| distinct cited targets | 7 |
+| distinct cited `sources/` pages | 7 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 
@@ -76,38 +76,50 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.430 ppm`
 - Context: `urnal for Young Scientists, Vol. X, pp. 25–29 | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-`
-- Cited targets (4):
+- Cited targets (6):
   - `wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/moon2011-baby-powder-inhalation-risk-assessment\.md` (page missing)
     - audit rows: none
   - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` (page missing)
     - audit rows: none
   - `wiki/sources/rbeida2023-heavy-metals-cosmetics-libya\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-epa-2011-efh-chapter17-consumer-products\.md` (page missing)
     - audit rows: none
 
 #### Claim `0.027 ppm`
 - Context: `ntists, Vol. X, pp. 25–29 | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three I`
-- Cited targets (4):
+- Cited targets (6):
   - `wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/moon2011-baby-powder-inhalation-risk-assessment\.md` (page missing)
     - audit rows: none
   - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` (page missing)
     - audit rows: none
   - `wiki/sources/rbeida2023-heavy-metals-cosmetics-libya\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-epa-2011-efh-chapter17-consumer-products\.md` (page missing)
     - audit rows: none
 
 #### Claim `0.025 ppm`
 - Context: `25–29 | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby ta`
-- Cited targets (4):
+- Cited targets (6):
   - `wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/moon2011-baby-powder-inhalation-risk-assessment\.md` (page missing)
     - audit rows: none
   - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` (page missing)
     - audit rows: none
   - `wiki/sources/rbeida2023-heavy-metals-cosmetics-libya\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-epa-2011-efh-chapter17-consumer-products\.md` (page missing)
     - audit rows: none
 
 ## Uncited claims
@@ -121,8 +133,10 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms\.md` | sources | 0 | — | — |
+| `wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\.md` | sources | 0 | — | — |
 | `wiki/sources/moon2011-baby-powder-inhalation-risk-assessment\.md` | sources | 0 | — | — |
 | `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md` | sources | 0 | — | — |
 | `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` | sources | 0 | — | — |
 | `wiki/sources/rbeida2023-heavy-metals-cosmetics-libya\.md` | sources | 0 | — | — |
+| `wiki/sources/us-epa-2011-efh-chapter17-consumer-products\.md` | sources | 0 | — | — |
 

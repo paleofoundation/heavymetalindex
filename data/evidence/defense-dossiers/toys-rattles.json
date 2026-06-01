@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-rattles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fc769b2d5f176665f6b91fca034e679088e50cf20231414b93b2cba5186cbf5f",
+      "content_sha256": "bef7627854a80924dde2771bd668e01a9a7b37dbc211a6d14c3c671f7677b87f",
       "content_bytes": 8075,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/toys-rattles.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/toys-rattles.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "b582a03557c77a348793b128006bda3cc6e552fb5b7a51e6c4904a0f50941112",
-          "content_bytes": 40849,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "81b4f22da2de871a230fc441180e03ef12fc5c8842fe6c1300f9dc17939ac233",
+          "content_bytes": 40995,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "67a7c97a79491e1bbeea1b2cfa07d319aab87cc29827b1fb8e50b89aada2ce2a",
-          "content_bytes": 29572,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "8f4abbae81daa4e2e1ee1976a85820b2445bf7392828ba9817c09967f846db4b",
+          "content_bytes": 29718,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       }
     ]

@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 6
+sources: 13
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,12 +106,18 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/kicinska2025-cosmetics-online-market-heavy-metals\|Kicińska et al. 2025]]. *Health risks from heavy metals in cosmetic products available in the online consumer market*, Scientific Reports 15: 316 | 2025 | Peer-reviewed | PL/EU/US Cr, Fe, Mn, Ni, Zn occurrence in 23 cosmetic products purchased from the online consumer market: 4 foundations, 4 blushes, 4 lipsticks, 4 face creams,... (n=23) |
-| 2 | [[sources/birsan2023-cosmetics-mercury\|Bîrsan et al. 2023]]. *Mercury exposure in cosmetics and human health risk*, Farmacia | 2023 | Peer-reviewed | RO/PL tHg occurrence in seven high-demand cosmetic product categories, seven products per category (n=49) |
-| 3 | [[sources/opss2023-feasibility-action-limits-cosmetics-uk\|Axford et al. 2023]]. *A Feasibility Study Investigating Action Limits for Certain Heavy Metal Impurities in Cosmetic Products*, UK Office for Product Safety and Standards (OPSS), BEIS/OPSS Contract Ref FM21190; report prepared by LGC | 2023 | Government report | UK/EU/US Sb, tAs, Cd, Pb, tHg occurrence in 91 cosmetic products purchased from UK high-street stores and online retailers (~70/30 split) across low, mid and high... (n=91) |
-| 4 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | LY Pb, tAs, Cd, Ni occurrence in 12 cosmetic samples from public markets in Tripoli, Libya (winter 2022): 3 brands of Henna leaves (LEAV1-3), 3... (n=12) |
-| 5 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
-| 6 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 1 | [[sources/alblooshi2025-perfumes-cosmetics-health-review\|Alblooshi 2025]]. *The impact of perfumes and cosmetic products on human health: a narrative review*, Frontiers in Toxicology 7:1646075 (Frontiers in Toxicology; published 29 August 2025; corrected 16 December 2025) | 2025 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/kicinska2025-cosmetics-online-market-heavy-metals\|Kicińska et al. 2025]]. *Health risks from heavy metals in cosmetic products available in the online consumer market*, Scientific Reports 15: 316 | 2025 | Peer-reviewed | PL/EU/US Cr, Fe, Mn, Ni, Zn occurrence in 23 cosmetic products purchased from the online consumer market: 4 foundations, 4 blushes, 4 lipsticks, 4 face creams,... (n=23) |
+| 3 | [[sources/kopru2024-children-cosmetics-icpms\|Kopru et al. 2024]]. *Inductively coupled plasma-mass spectrometry (ICP-MS) detection of trace metal contents of children cosmetics*, Optical and Quantum Electronics 56(8):399 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/waecology2024-chemicals-cosmetics-phase2\|Tuladhar et al. 2024]]. *Chemicals in Cosmetics Used by Washington Residents: Phase Two Results — Report to the Legislature Pursuant to ESSB 5693 (2022) Section 302 (56)*, Washington State Department of Ecology, Publication 24-04-022 (May 2024) | 2024 | Government report | *[awaiting synthesis]* |
+| 5 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | *[awaiting synthesis]* |
+| 6 | [[sources/birsan2023-cosmetics-mercury\|Bîrsan et al. 2023]]. *Mercury exposure in cosmetics and human health risk*, Farmacia | 2023 | Peer-reviewed | RO/PL tHg occurrence in seven high-demand cosmetic product categories, seven products per category (n=49) |
+| 7 | [[sources/opss2023-feasibility-action-limits-cosmetics-uk\|Axford et al. 2023]]. *A Feasibility Study Investigating Action Limits for Certain Heavy Metal Impurities in Cosmetic Products*, UK Office for Product Safety and Standards (OPSS), BEIS/OPSS Contract Ref FM21190; report prepared by LGC | 2023 | Government report | UK/EU/US Sb, tAs, Cd, Pb, tHg occurrence in 91 cosmetic products purchased from UK high-street stores and online retailers (~70/30 split) across low, mid and high... (n=91) |
+| 8 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | LY Pb, tAs, Cd, Ni occurrence in 12 cosmetic samples from public markets in Tripoli, Libya (winter 2022): 3 brands of Henna leaves (LEAV1-3), 3... (n=12) |
+| 9 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
+| 10 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 11 | [[sources/nourmoradi2013-iran-isfahan-cosmetics-pb-cd\|Nourmoradi et al. 2013]]. *Assessment of Lead and Cadmium Levels in Frequently Used Cosmetic Products in Iran*, Journal of Environmental and Public Health (Hindawi), Article ID 962727, 5 pages | 2013 | Peer-reviewed | *[awaiting synthesis]* |
+| 12 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -121,9 +127,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

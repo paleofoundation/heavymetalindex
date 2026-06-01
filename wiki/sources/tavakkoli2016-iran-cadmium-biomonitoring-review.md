@@ -156,3 +156,13 @@ This source is a narrative systematic review aggregating Iranian human biomonito
 - **Sampling year range.** The earliest constituent study with a stated sampling year is Vigeh 2003-2004 (ref 34); the latest is Ebrahim 2011-2012 (ref 17, with Ebrahim & Ashtarinejad's 2015 publication year cited in the Discussion as the 2015 publication of those 2011-2012 data). Several constituent studies (Pashmi, Nazarpour, Nejadchehrazi, Tadayon ref 30, Farzin) report "year not reported" in Table 1. The 2003-2015 range in the frontmatter reflects the stated-sampling-year coverage; the actual data-collection envelope may extend slightly outside that range for the year-not-reported entries.
 - **Data integrity.** All values in the Key numbers section transcribed from Table 1 (constituent-study figures, pp. 459-460), the Introduction reference-value paragraph (p. 457), the Discussion-section comparative figures (England, Iraq hair Cd; pre-eclampsia smoker/non-smoker percentages; pp. 461-462), and the Results-section corpus summary (p. 458). The four anomaly catalogue entries above are the only paper-internal inconsistencies observed; none requires the source to be quarantined or held back from ingest. Constituent-study figures should be cross-verified against the original papers if those papers are independently ingested.
 - **Downstream pooling caveat.** Because this is a narrative review aggregating prior values rather than a primary measurement source, the Part 9 synthesis workflow should treat per-study values surfaced by Table 1 as pointers to the constituent paper (the cited study should be ingested individually for authoritative per-study figures), not as independent quantitative observations. The review's value to the wiki is as (a) a corpus pointer for Iranian Cd biomonitoring literature 2003-2015, (b) a consolidated Iran-specific occupational-vs-environmental gradient, and (c) a smoking-Cd and transplacental-Cd-transfer signal corroborated across multiple Iranian cohorts.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4e5c6e6](https://github.com/paleofoundation/heavymetalindex/commit/4e5c6e6) | 2026-06-01 | ingest: tavakkoli2016-iran-cadmium-biomonitoring-review fresh from Manual Fetch Kimi/June 1 |
+<!-- END: hmi-page-history -->

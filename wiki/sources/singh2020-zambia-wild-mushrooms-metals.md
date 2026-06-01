@@ -68,3 +68,12 @@ Samples were collected from Solwezi forests in the Copperbelt mining region and 
 - products: [] is intentional because the PDF is an occurrence study of freshly collected wild edible mushrooms, not a packaged mushroom product.
 - The source cites FAO/WHO comparison values directly; this page records those as source-reported comparators and does not treat them as HMTc standards.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

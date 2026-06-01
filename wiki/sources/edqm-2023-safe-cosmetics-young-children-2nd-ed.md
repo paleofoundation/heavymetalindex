@@ -177,3 +177,14 @@ Audit subagent (2026-06-02, fresh-context general-purpose Agent) returned verdic
 - Refs [63] and [64] (cited in wiki sun-protection section as "SCCS Final Opinion SCCS/1625/20, 2021; Calafat et al. NHANES 2003-2004"): verified against EDQM References p. 56 as Calafat AM, Wong LY, Ye X, et al. Concentrations of the sunscreen agent benzophenone-3 in residents of the United States: National Health and Nutrition Examination Survey 2003-2004. *Environ Health Perspect* 2008;116(7):893-7; and Scientific Committee on Consumer Safety. SCCS Final Opinion on Benzophenone-3. SCCS/1625/20; 2021. NHANES 2003-2004 cycle, SCCS/1625/20 opinion number, and 2021 year are correct.
 
 No content changes were applied as a result of the audit. The PROMOTE verdict stands.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [169c016](https://github.com/paleofoundation/heavymetalindex/commit/169c016) | 2026-06-02 | audit: edqm-2023-safe-cosmetics-young-children-2nd-ed promoted |
+| [50e211e](https://github.com/paleofoundation/heavymetalindex/commit/50e211e) | 2026-06-02 | ingest: edqm-2023-safe-cosmetics-young-children-2nd-ed fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |
+<!-- END: hmi-page-history -->

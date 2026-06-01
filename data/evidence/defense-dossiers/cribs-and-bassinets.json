@@ -17,18 +17,47 @@
     "canonical_url": "https://heavymetalindex.com/products/cribs-and-bassinets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3189162d3c17af4109c296179e424ea3caa83dc373fbe2e459116f124aeb9eac",
-      "content_bytes": 7278,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "89c3c70bd37ae277b7a5cd5c51e9bdb071919e06d82217a1ecb7ae79d0e42508",
+      "content_bytes": 8090,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/cribs-and-bassinets.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/cribs-and-bassinets.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/echa2023-cmr-childcare-articles",
+        "title": "Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr-VI",
+          "Co",
+          "tAs",
+          "tHg",
+          "Sn",
+          "Li",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
+        "content_pin": {
+          "content_sha256": "45fe8bf1f16a065da9951cf78d550643ba09b25815d51908f05fb3255dd4b27f",
+          "content_bytes": 59019,
+          "last_commit_sha": "df568bd",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show df568bd:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

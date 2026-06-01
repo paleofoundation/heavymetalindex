@@ -75,3 +75,15 @@ The auto-fetched filename describes formula cadmium, but the actual PDF is a lea
 Arsenic is treated as total arsenic because the source reports As without inorganic-arsenic speciation. Chromium is total chromium, not Cr-VI.
 
 Table 2 appears to print the second copper column as "Co"; the methods and results text state that Cu was measured and discuss Cu leaf values. This page treats the second post-Zn column in Table 2 as Cu and records cobalt from the earlier Co column.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [90371ac](https://github.com/paleofoundation/heavymetalindex/commit/90371ac) | 2026-06-01 | codex sprint 2026-06-01 21:49: end-of-fire cleanup |
+| [e8fef7d](https://github.com/paleofoundation/heavymetalindex/commit/e8fef7d) | 2026-06-01 | audit revise souri2019 leafy vegetables source |
+| [c575f74](https://github.com/paleofoundation/heavymetalindex/commit/c575f74) | 2026-06-01 | ingest auto-fetched 2026-06-01 18:52 batch 1: 1 source pages |
+<!-- END: hmi-page-history -->

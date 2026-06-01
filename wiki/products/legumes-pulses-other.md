@@ -17,7 +17,7 @@ pair_rows: [9, 10]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 9
+sources: 11
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 
@@ -109,7 +109,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/galal2021-heavy-metals-pisum-sativum\|Galal et al. 2021]]. *Heavy metals uptake by the global economic crop (Pisum sativum L.) grown in contaminated soils and its associated health risks*, PLoS ONE | 2021 | Peer-reviewed | EG Pb, Cd, As, Cr, Ni, Fe, Mn, Zn, Cu, Ag, Co, V occurrence in Pisum sativum (garden pea) plants from 2 non-polluted farms and 2 polluted farms (5 quadrats per farm, 1... (n=20) |
 | 7 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | PE tAs, Cd, Sn, Pb, tHg concentrations (n=53) |
 | 8 | [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn\|Al et al. 2018]]. *Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods*, Agriculture & Food Security 7:50 | 2018 | Peer-reviewed | PS Cd, Pb, Cu, Zn occurrence in 16 canned food samples (4 brand-product combinations each of beans, chickpeas, corn, mushroom) purchased from a single supermarket... (n=16) |
-| 9 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 9 | [[sources/ataee2016-iran-cereals-pb-cd\|Ataee et al. 2016]]. *Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products*, International Journal of Environmental Analytical Chemistry 96(3):271-283 | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 11 | [[sources/pirsaheb2015-iran-kermanshah-cereals-metals\|Pirsaheb et al. 2015]]. *Essential and toxic heavy metals in cereals and agricultural products marketed in Kermanshah, Iran, and human health risk assessment*, Food Additives & Contaminants: Part B, Surveillance | 2015 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

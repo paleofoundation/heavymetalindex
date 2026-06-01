@@ -17,18 +17,66 @@
     "canonical_url": "https://heavymetalindex.com/products/clasps-fasteners-infant-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "096ea028a81c2326a1fddc5acc6a1d6bd98d1b36e892944eb447a3cb3550f595",
-      "content_bytes": 7566,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "42b03c9122d3f1a6235535f200b258c6995f7b42b6b8c1052d208c3404226a8f",
+      "content_bytes": 8778,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/clasps-fasteners-infant-products.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/clasps-fasteners-infant-products.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/cirs2023-reach-annex-xvii-restrictions",
+        "title": "REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "iHg",
+          "Cr-VI",
+          "Ni",
+          "tAs",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
+        "content_pin": {
+          "content_sha256": "4910e737e852800fe3399e4b2ca8867aea20dfc2cd868ee6c632e25e33341693",
+          "content_bytes": 33923,
+          "last_commit_sha": "121cbf8",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 121cbf8:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/hohenstein2023-en-1811-2023-nickel-release",
+        "title": "EU Releases New Standard For Nickel EN 1811:2023",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/hohenstein2023-en-1811-2023-nickel-release",
+        "content_pin": {
+          "content_sha256": "77a52607b6f464952195be9810cc83642c780aae1bf2533a6d1cd5a740a50bb2",
+          "content_bytes": 12926,
+          "last_commit_sha": "af41d42",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show af41d42:wiki/sources/hohenstein2023-en-1811-2023-nickel-release.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

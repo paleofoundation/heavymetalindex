@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 1
+sources: 3
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,7 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/iso2020-8124-3-toy-migration-elements\|International Organization for Standardization, 2020]]. *ISO 8124-3:2020 — Safety of toys — Part 3: Migration of certain elements (Third edition, 2020-03)*, International Organization for Standardization, Geneva, Switzerland; ISO 8124-3:2020(E), Third edition 2020-03 | 2020 | Regulatory | *[awaiting synthesis]* |
+| 1 | [[sources/villarreal2021-ic-icpms-cr-vi-toys\|Villarreal et al. 2021]]. *Ensuring toy safety from hexavalent chromium to meet European regulations using IC-ICPMS quantification*, Thermo Fisher Scientific Application Brief AB000383, EMEA Customer Solution Center, Paris, France | 2021 | Industry | *[awaiting synthesis]* |
+| 2 | [[sources/iso2020-8124-3-toy-migration-elements\|International Organization for Standardization, 2020]]. *ISO 8124-3:2020 — Safety of toys — Part 3: Migration of certain elements (Third edition, 2020-03)*, International Organization for Standardization, Geneva, Switzerland; ISO 8124-3:2020(E), Third edition 2020-03 | 2020 | Regulatory | *[awaiting synthesis]* |
+| 3 | [[sources/ul2012-chemicals-childrens-toys\|UL 2012]]. *Chemicals in Children's Toys: Addressing Stricter Limits and Environmental Concerns*, UL LLC White Paper (UL Environment), 8 pp. | 2012 | Industry | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -116,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

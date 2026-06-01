@@ -62,3 +62,12 @@ This source contributes Bangladesh edible mushroom dry-basis occurrence data for
 - Cd and As are censored at the paper's stated detection limit of 0.01 ug/g.
 - The table appears to provide sample/group entries rather than a retail-market probability sample, so downstream use should preserve the source's Bangladesh collection-frame context.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

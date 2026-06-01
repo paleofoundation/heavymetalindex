@@ -79,3 +79,12 @@ Carrot and cucumber samples were purchased from supermarkets in seven cities in 
 - The paper's abstract reports carcinogenic risks of 2.32E-05 for cucumber and 1.00E-04 for carrot, while later results/conclusion text reports 3.01E-04 and 2.56E-04. Concentration tables are internally usable; carcinogenic-risk values should be treated as source-discrepant until re-audit.
 - The source is not a US-market benchmark source. Jurisdiction should remain visible if these values are admitted into any pooled product-category distribution.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

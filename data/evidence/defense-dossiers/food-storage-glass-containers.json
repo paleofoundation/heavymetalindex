@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-storage-glass-containers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "965ce856020520dbd75280d2a982ac86b54bfa6dde3db7beeaa5af6b91f5ebec",
+      "content_sha256": "ea9892e7390177d8b918b439d40c749721937bc7a4236ce2dfdf13ea76451da9",
       "content_bytes": 7951,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/food-storage-glass-containers.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/food-storage-glass-containers.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/esoyan2024-matsoun-ceramic-packaging",
         "content_pin": {
-          "content_sha256": "dcb17735db15bbe48d75860cbe846dc8a4a32aabdcd51d04628ab3893bed0910",
-          "content_bytes": 3861,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "f70d6ffbc4845a792e5211877e5a29d41684fb6a081bf80157076d1c52881228",
+          "content_bytes": 3849,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/esoyan2024-matsoun-ceramic-packaging.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/esoyan2024-matsoun-ceramic-packaging.md | sha256sum"
         }
       }
     ]

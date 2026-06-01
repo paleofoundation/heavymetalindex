@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T04:14:34.407Z",
+  "generated_at": "2026-06-01T22:30:23.879Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -1530,7 +1530,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/beans",
-      "sources_count": 27,
+      "sources_count": 29,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -1776,7 +1776,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/beet",
-      "sources_count": 6,
+      "sources_count": 7,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -2910,7 +2910,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/breastmilk",
-      "sources_count": 32,
+      "sources_count": 36,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -3418,7 +3418,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cabbage",
-      "sources_count": 17,
+      "sources_count": 19,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -4051,7 +4051,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/canned-mushrooms",
-      "sources_count": 16,
+      "sources_count": 28,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -4680,7 +4680,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/carrot",
-      "sources_count": 31,
+      "sources_count": 36,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -4807,7 +4807,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/carrots",
-      "sources_count": 31,
+      "sources_count": 36,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -5435,7 +5435,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cereals",
-      "sources_count": 45,
+      "sources_count": 51,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -7084,7 +7084,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cocoa",
-      "sources_count": 41,
+      "sources_count": 42,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -7589,7 +7589,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/corn",
-      "sources_count": 29,
+      "sources_count": 32,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -7968,7 +7968,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/corn-oil",
-      "sources_count": 7,
+      "sources_count": 10,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -8473,7 +8473,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cucumber",
-      "sources_count": 8,
+      "sources_count": 11,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -9493,7 +9493,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fish",
-      "sources_count": 193,
+      "sources_count": 196,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -10380,7 +10380,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fresh-herbs",
-      "sources_count": 6,
+      "sources_count": 9,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -10508,7 +10508,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/freshwater-fish",
-      "sources_count": 55,
+      "sources_count": 56,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -10901,7 +10901,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fruit",
-      "sources_count": 67,
+      "sources_count": 69,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -11404,7 +11404,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fruits",
-      "sources_count": 15,
+      "sources_count": 16,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -12031,7 +12031,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/green-beans",
-      "sources_count": 4,
+      "sources_count": 5,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -12157,7 +12157,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/green-bell-pepper",
-      "sources_count": 3,
+      "sources_count": 4,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -13040,7 +13040,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/herbs-and-spices",
-      "sources_count": 17,
+      "sources_count": 18,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -14424,7 +14424,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/leafy-vegetables",
-      "sources_count": 66,
+      "sources_count": 72,
       "last_updated": "2026-05-15",
       "metals": {
         "Pb": {
@@ -14549,7 +14549,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/legumes",
-      "sources_count": 17,
+      "sources_count": 19,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -14674,7 +14674,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/lentils",
-      "sources_count": 15,
+      "sources_count": 17,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -14802,7 +14802,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/lettuce",
-      "sources_count": 19,
+      "sources_count": 23,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -15177,7 +15177,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/maize",
-      "sources_count": 15,
+      "sources_count": 19,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -16445,7 +16445,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/milk-and-dairy",
-      "sources_count": 69,
+      "sources_count": 71,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -17328,7 +17328,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/non-root-vegetables",
-      "sources_count": 7,
+      "sources_count": 12,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -17577,7 +17577,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/non-soy-protein-source",
-      "sources_count": 2,
+      "sources_count": 3,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -17702,7 +17702,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/noodles",
-      "sources_count": 2,
+      "sources_count": 3,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -18208,7 +18208,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/olive-oil",
-      "sources_count": 12,
+      "sources_count": 21,
       "last_updated": "2026-05-15",
       "metals": {
         "Pb": {
@@ -18334,7 +18334,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/olives",
-      "sources_count": 4,
+      "sources_count": 9,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -18461,7 +18461,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/onions",
-      "sources_count": 18,
+      "sources_count": 22,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -19098,7 +19098,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/parsley",
-      "sources_count": 6,
+      "sources_count": 7,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -19845,7 +19845,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/peanut-oil",
-      "sources_count": 4,
+      "sources_count": 6,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -21236,7 +21236,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/potatoes",
-      "sources_count": 35,
+      "sources_count": 39,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -21867,7 +21867,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/rapeseed-oil",
-      "sources_count": 5,
+      "sources_count": 8,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -22249,7 +22249,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/rice",
-      "sources_count": 202,
+      "sources_count": 220,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -22372,7 +22372,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/rice-bran-oil",
-      "sources_count": 2,
+      "sources_count": 4,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -22743,7 +22743,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/rice-flour",
-      "sources_count": 7,
+      "sources_count": 8,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23122,7 +23122,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/root-vegetables",
-      "sources_count": 47,
+      "sources_count": 53,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23503,7 +23503,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/seaweed",
-      "sources_count": 18,
+      "sources_count": 19,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -23755,7 +23755,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/sesame-oil",
-      "sources_count": 8,
+      "sources_count": 10,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -24764,7 +24764,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/soybean-oil",
-      "sources_count": 6,
+      "sources_count": 9,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -25020,7 +25020,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/spinach",
-      "sources_count": 30,
+      "sources_count": 33,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -25523,7 +25523,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/sunflower-oil",
-      "sources_count": 9,
+      "sources_count": 13,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -26284,7 +26284,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/tomato",
-      "sources_count": 31,
+      "sources_count": 33,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -27289,7 +27289,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/vegetable-oils",
-      "sources_count": 8,
+      "sources_count": 12,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -27541,7 +27541,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/vegetables",
-      "sources_count": 79,
+      "sources_count": 85,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -27919,7 +27919,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/walnuts",
-      "sources_count": 6,
+      "sources_count": 7,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -28046,7 +28046,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/water",
-      "sources_count": 32,
+      "sources_count": 34,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -28309,7 +28309,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/wheat",
-      "sources_count": 62,
+      "sources_count": 70,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {
@@ -28935,7 +28935,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/whole-milk",
-      "sources_count": 5,
+      "sources_count": 6,
       "last_updated": "2026-05-13",
       "metals": {
         "Pb": {
@@ -29319,7 +29319,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/wild-mushrooms",
-      "sources_count": 11,
+      "sources_count": 14,
       "last_updated": "2026-05-16",
       "metals": {
         "Pb": {

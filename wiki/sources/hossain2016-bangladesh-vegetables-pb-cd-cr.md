@@ -76,3 +76,13 @@ Sampling covered five vegetable categories: tuber (white potato), brassica (gree
 - White radish does not currently have a dedicated ingredient page; this page routes it to the existing `[[ingredients/root-vegetables]]` slug.
 - The PDF's license statement identifies Creative Commons Attribution 4.0.
 - This source is summary-statistic-rich but not sample-level extractable from the PDF alone; the detailed sample table is in Additional file 1, not embedded in the PDF text.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

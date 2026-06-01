@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/feminine-deodorants",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "bb91f4453736f234260b1052060352a52606b8a26697dda73821cacb84433437",
+      "content_sha256": "e258cc6db056e9f076ae09f0d470dd62504421107580065338ad56c076ad4b7a",
       "content_bytes": 7351,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/feminine-deodorants.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/feminine-deodorants.md | sha256sum"
     }
   },
   "evidence_base": {

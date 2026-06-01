@@ -2,7 +2,7 @@
 source_page: wiki/products/legumes-pulses-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c86c41eabe259775ee570c3f628626abef9b22060080f9c226fbc740b7292cbb
+source_page_sha256: 14f3370cf708e18792ea7e12bf4c08934beafd562c6730fb9a14227c7deb167e
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

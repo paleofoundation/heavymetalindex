@@ -61,3 +61,13 @@ App: Supports warnings and data gaps for cosmetic-product lead exposure without 
 - The PDF table lists consumer brand names, but this page omits them under the brand firewall and reports only product-type ranges.
 - The abstract and methods give slightly different product counts by type. This page preserves the abstract counts in the key-number table and notes the methods-count discrepancy.
 - The source is product occurrence plus biomarker context. Blood, serum, scalp-hair, and nail values should not be routed into product benchmark distributions.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rinse-aids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "558ef35c72c86ec7134821310e0c95122675a6915bdbcc0729c283abd06001c9",
+      "content_sha256": "9e2cd57e38c7b899fdbc84988cbd1912a0a5500645ba120d38a4b5e9e0fc2fa1",
       "content_bytes": 7175,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/rinse-aids.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/rinse-aids.md | sha256sum"
     }
   },
   "evidence_base": {

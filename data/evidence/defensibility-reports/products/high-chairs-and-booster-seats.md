@@ -2,7 +2,7 @@
 source_page: wiki/products/high-chairs-and-booster-seats.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4be7a0014cb8a777f5e8b0c3a25fa0eff5c4ac60fbf06b2dcab295e23d85c289
+source_page_sha256: d661455f9ad3a8d77a1b5ab522bb0c0ef8bfcb8fb9249fe4159a0e91e240f5c2
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

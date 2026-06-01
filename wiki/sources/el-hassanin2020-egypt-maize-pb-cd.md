@@ -176,3 +176,13 @@ Sample size is small (n = 27 per matrix; 9 sites × 3 replicates), but ICP-OES w
   - No correction has been applied; values are recorded exactly as printed. Synthesis passes consuming this source should weight these two Cd-total values with appropriate uncertainty until a corrigendum or author clarification is obtained.
 - **Risk-assessment internal arithmetic spot-check.** Using the authors' formula DIM = (C × 0.085 × D) / B with C = 0.55 mg/kg (Kafr-Dokhmais Pb), D = 0.345 kg/day, B = 70.0 kg: DIM_adults = (0.55 × 0.085 × 0.345) / 70.0 = 2.304 × 10⁻⁴ mg/kg·day, matching the table value 0.00023. HRI = DIM / RfD = 2.304E-04 / 0.0035 = 0.06582, matching the table value 0.065832. Formula and parameter set are internally consistent for the spot-checked cell.
 - **Data integrity.** All 36 water cells (Table 2), 36 soil cells (Table 3), 56 maize Pb/risk cells (Table 4), and 56 maize Cd/risk cells (Table 5) transcribed from the source PDF and verified against the original rendered tables. Two paper-internal inconsistencies in the Cd-total column of Table 3 flagged above; no other transcription discrepancies identified.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cafbb59](https://github.com/paleofoundation/heavymetalindex/commit/cafbb59) | 2026-06-01 | ingest: el-hassanin2020-egypt-maize-pb-cd [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

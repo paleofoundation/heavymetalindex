@@ -245,3 +245,14 @@ No metal pages, no ingredient pages, no regulation pages are touched. FMVSS 302 
 ## Ingest log
 
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill, single-PDF invocation): NEW path. Three identity checks against `wiki/sources/` returned no hits: DOI `10.1021/acs.est.3c10440` absent; raw_handle `MFK_11-unknown` absent (a different paper, `ul2012-chemicals-childrens-toys`, also carries `MFK_11-unknown` from a different Kimi sub-folder, `02_Strollers_Walkers_Swings`, but a different `raw_path` and a different DOI/topic so not a true duplicate); cite-key stem `hoehn2024` absent. PDF SHA-256 `0cb548091c60cc1eb20c9c2e180333a9bd14e72d31df3d152a254869e5d482a2` confirmed against the file. Paper measures only organic flame-retardant additives (49 targets: 48 by GC/MS, 1 by LC/MS) in silicone passive samplers and vehicle-seat polyurethane foam from US personal vehicles — zero heavy metals — ingested as out-of-core-scope vehicle-cabin built-environment exposure reference per the `stapleton2010-flame-retardants-baby-product-foam.md` (same first-author lab, baby-product foam FRs) and `anderson2002-uk-us-diaper-voc-emissions-mice.md` (diaper VOC emissions) precedents. Routed to `[[products/car-seats]]` for discoverability as cabin-environment exposure context (infant car-seats are deployed inside the cabin-air environment characterised here); indirect-relevance routing flagged in Verification notes. `metals: []` correctly reflects no metal-occurrence contribution. Folder-context note: source PDF is filed in the Carriers_HighChairs_CarSeats Kimi sub-folder but the paper's actual scope is adult-owned US personal vehicles; the relevance bridge to infant car-seats is environmental (infants ride in vehicles inside car-seats) rather than direct product measurement.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6890517](https://github.com/paleofoundation/heavymetalindex/commit/6890517) | 2026-06-01 | audit: hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature [revised] |
+| [e7f81a6](https://github.com/paleofoundation/heavymetalindex/commit/e7f81a6) | 2026-06-01 | ingest: hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats |
+<!-- END: hmi-page-history -->

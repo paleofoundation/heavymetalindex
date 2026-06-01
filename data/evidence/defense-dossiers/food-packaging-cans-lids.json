@@ -17,18 +17,40 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-cans-lids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3930611459b1dd7e219238d4ced940ccc635898b07b1fdde0829cfff6e6a3801",
-      "content_bytes": 7279,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "5f0a89ae81740ff4d6667fe7916e5d9aa12de301cfb4b2459a8e4af1981e3ec5",
+      "content_bytes": 7810,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/food-packaging-cans-lids.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/food-packaging-cans-lids.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
-    "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_source_count": 1,
+    "sources_with_structured_values": 1,
+    "contributing_sources": [
+      {
+        "slug": "sources/yamanaka2025-tinplate-pineapple-cans",
+        "title": "Corrosion Behavior of the Inner Surface of Unlacquered Tinplate Cans for Fruit Use",
+        "route_kind": "direct_evidence",
+        "route_status": "structured_values_present",
+        "evidence_use": "structured_value_candidate",
+        "value_record_count": 2,
+        "metal_species": [
+          "Fe",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/yamanaka2025-tinplate-pineapple-cans",
+        "content_pin": {
+          "content_sha256": "c6b99130e63f66145bf4a078fdd0b0630942c52d381f23b46681d92ff1104b2c",
+          "content_bytes": 4785,
+          "last_commit_sha": "6c37981",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6c37981:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

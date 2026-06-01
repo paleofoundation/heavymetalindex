@@ -69,3 +69,13 @@ The thesis validates in-situ solid-phase extraction using tetra-n-butylammonium 
 - The source title and text are in Portuguese; metadata comes from the PDF catalog page and DOI line.
 - The auto-fetched filename/wishlist target was `salt iAs`, but the PDF is a rice-flour analytical-method thesis. No salt matrix is measured.
 - Because the source uses a certified reference material rather than sampled commercial rice, it should route mainly as testing/method evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bd42001](https://github.com/paleofoundation/heavymetalindex/commit/bd42001) | 2026-06-01 | audit: norouzirad2018-iran-khuzestan-oilfield-milk-pb-cd [revised] |
+<!-- END: hmi-page-history -->

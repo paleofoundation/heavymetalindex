@@ -150,3 +150,14 @@ Basis: wet weight throughout (page 387, section 3.4: "All metal concentrations f
 - 2026-06-01 Audit ⚠️ on Pb-in-oils literature attribution verified against PDF Table 4 and applied: Zhu et al. 2011 (0.009–0.0074 mg/kg) and Pehlivan et al. 2008 (0–0.0074 mg/kg) are separate Table 4 entries, not co-attributed. Split into two entries in the comparison sentence.
 - 2026-06-01 Audit ⚠️ on matrices vocabulary noted as advisory only: bare-string matrices slugs (`olive-oil`, `sunflower-oil`, `corn-oil`, `soybean-oil`, `edible-oil`, `table-olives`) are not in the taxonomy-snapshot four-list (which covers ingredients/products/metals/regulations only) but are consistent with prior-ingest convention ([[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]], [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives]]); no change required.
 - 2026-06-01 Audit confirmed all 55 numeric cells in Table 3 (oils and olives), all SRM 1577b recoveries, all LODs, characteristic masses, calibration ranges, RSDs, ETAAS heating-program temperatures, modifier composition, and microwave digestion conditions are faithful to the source. Checks 2 (slug vocabulary), 3 (speciation/methods), 4 (brand firewall — only Exception 2 scientific vendor names), and 5 (wiki/HMTc firewall) all clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5c4f971](https://github.com/paleofoundation/heavymetalindex/commit/5c4f971) | 2026-06-01 | audit: acar2012-vegetable-oils-olives-turkey-etaas [revised] |
+| [8db654b](https://github.com/paleofoundation/heavymetalindex/commit/8db654b) | 2026-06-01 | ingest: acar2012-vegetable-oils-olives-turkey-etaas [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

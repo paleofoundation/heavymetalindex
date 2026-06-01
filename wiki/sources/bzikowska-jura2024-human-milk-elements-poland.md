@@ -67,3 +67,14 @@ The source supports human-milk occurrence evidence and infant-exposure context f
 ## Verification notes
 
 The PDF includes DOI, authors, journal, year, methods, LOD/LOQ table, and Table 3 concentration values. The authors state that results are expressed in mg/kg wet weight in the methods paragraph, but the occurrence table itself is labeled ug/L; this page preserves the table's ug/L basis. Table 5 infant-intake rows appear vulnerable to extraction/OCR ambiguity, so this page uses Table 3 concentrations and Table 2 milk-intake metadata as the primary occurrence facts. Both [[ingredients/human-milk]] and [[ingredients/breastmilk]] exist locally; the matrix term is normalized to breast-milk.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2ccf94f](https://github.com/paleofoundation/heavymetalindex/commit/2ccf94f) | 2026-06-01 | audit revise auto-fetched 2026-06-01 15:39 batch 1 |
+| [c63b031](https://github.com/paleofoundation/heavymetalindex/commit/c63b031) | 2026-06-01 | audit: ghasemidehkordi2018-markazi-vegetables-pb-hg [promoted] |
+<!-- END: hmi-page-history -->

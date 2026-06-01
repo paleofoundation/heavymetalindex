@@ -15,7 +15,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 7
+sources: 12
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Shampoo / Baby Body Wash
@@ -92,10 +92,14 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/sccs2025-methyl-salicylate-children-exposure-1676-25\|Scientific Committee on Consumer 2025]]. *SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25)*, European Commission, Directorate-General for Health and Food Safety | 2025 | Government report | This is the EU regulatory-science re-assessment of children's aggregate exposure to Methyl Salicylate (CAS 119-36-8; methyl 2-hydroxybenzoate) in cosmetic products... |
-| 2 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
-| 3 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology,... |
-| 4 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
-| 5 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
+| 2 | [[sources/waecology2024-chemicals-cosmetics-phase2\|Tuladhar et al. 2024]]. *Chemicals in Cosmetics Used by Washington Residents: Phase Two Results — Report to the Legislature Pursuant to ESSB 5693 (2022) Section 302 (56)*, Washington State Department of Ecology, Publication 24-04-022 (May 2024) | 2024 | Government report | *[awaiting synthesis]* |
+| 3 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | *[awaiting synthesis]* |
+| 4 | [[sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\|Committee of Ministers of 2023]]. *Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.*, European Directorate for the Quality of Medicines & HealthCare (EDQM), Council of Europe, Strasbourg, France. 2nd edition. ISBN 978-92-871-9360-5. 56 pages. | 2023 | Government guidance | *[awaiting synthesis]* |
+| 5 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
+| 6 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology,... |
+| 7 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 8 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
+| 9 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -105,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

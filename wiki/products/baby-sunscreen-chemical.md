@@ -17,7 +17,7 @@ pair_row: 10
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 6
+sources: 9
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Sunscreen, Chemical
@@ -98,9 +98,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/jitareanu2025-heavy-metals-cosmetics-overview\|Jităreanu et al. 2025]]. *An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact*, Applied Sciences 15: 12883 | 2025 | Review | EU/US/CA Pb, Cd, tHg, tAs, iAs, Cr, Cr-VI, Ni, Al, Fe, Cu, Zn, Co occurrence in Narrative review of heavy-metal contamination in cosmetics; literature 1990 - November 2025 retrieved via PubMed, Web of Science,... |
 | 2 | [[sources/druml2023-sunscreen-label-marketing-pediatric-populations\|Druml et al. 2023]]. *Sunscreen Label Marketing Towards Pediatric Populations: Guidance for Navigating Sunscreen Choice*, Cureus 15(10): e46785 | 2023 | Peer-reviewed | US Ti, Zn occurrence in 410 distinct sunscreen products cataloged from four major retail outlets (CVS, Walgreens, Target, Wegmans) in the Philadelphia area... (n=410) |
-| 3 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
-| 4 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Narrative review with multivariate meta-analysis across 16 cosmetic formulation categories drawn from the published literature on Pb, Cd,... |
-| 5 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 3 | [[sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\|Committee of Ministers of 2023]]. *Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.*, European Directorate for the Quality of Medicines & HealthCare (EDQM), Council of Europe, Strasbourg, France. 2nd edition. ISBN 978-92-871-9360-5. 56 pages. | 2023 | Government guidance | *[awaiting synthesis]* |
+| 4 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
+| 5 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Narrative review with multivariate meta-analysis across 16 cosmetic formulation categories drawn from the published literature on Pb, Cd,... |
+| 6 | [[sources/ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review\|Ruszkiewicz et al. 2017]]. *Neurotoxic effect of active ingredients in sunscreen products, a contemporary review*, Toxicology Reports 4:245-259 | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -110,9 +112,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

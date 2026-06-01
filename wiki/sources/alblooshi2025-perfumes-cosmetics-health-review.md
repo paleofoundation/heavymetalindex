@@ -119,3 +119,13 @@ Microbiome: Not addressed in the heavy-metal context. Section 3.5 (allergies) di
 - Part 2 firewall: Implications explicitly mark the review as framing context, not occurrence evidence, and decline to translate Table 1's basisless averages into any HMTc threshold proposal. The Table 2 regulatory comparison is reported as comparative regulatory framing only.
 - Two declared limitations of the review (Section 4): "Most existing studies are observational, limiting causal inference due to potential confounding and exposure misclassification"; "There is also a lack of standardized biomarkers and biomonitoring data specific to cosmetic-related compounds." Both are consistent with the C-tier rating.
 - Correction note on the manuscript itself: "A correction has been made to this article. Details can be found at: 10.3389/ftox.2025.1713750." The corrected version (16 December 2025) is what is in `raw_path`; the correction notice does not flag any heavy-metal section as affected.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4dd3800](https://github.com/paleofoundation/heavymetalindex/commit/4dd3800) | 2026-06-01 | ingest: alblooshi2025-perfumes-cosmetics-health-review fresh from Manual Fetch Kimi/June 1/01_Exposure_Pathways |
+<!-- END: hmi-page-history -->

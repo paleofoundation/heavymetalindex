@@ -130,3 +130,14 @@ Audit findings reviewed and judged not to require changes:
 
 - Frontmatter metals `Be`, `Se`, `Sr`, `Tl`, `Zr` are not on the canonical HMI 12-analyte abbreviation list (which targets the food-contamination panel: Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U). For this regulation the first-encounter signal is more useful preserved than dropped; routing audit does not block on unrecognized metals (verified: no `routing_unresolved` row was generated for any of these). Per Part 10, future metal pages can be created when corpus frequency warrants. `tellurium.md` and other rare-element pages already exist.
 - The lead paragraph and Routing Rationale section make legal-architecture statements about how downstream EU heavy-metal-in-cosmetics literature operates under Article 17. The subagent flagged this as edging toward synthesis framing. Judged acceptable: these statements are about the regulation's legal structure (which is the source's own subject matter), not about heavy-metal contamination synthesis across multiple primary studies. No HMTc threshold is proposed and the wiki/HMTc firewall is preserved.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [321e6ac](https://github.com/paleofoundation/heavymetalindex/commit/321e6ac) | 2026-06-02 | audit: eu-2009-1223-cosmetic-products-regulation revised |
+| [ea9a9ee](https://github.com/paleofoundation/heavymetalindex/commit/ea9a9ee) | 2026-06-02 | ingest: eu-2009-1223-cosmetic-products-regulation fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |
+<!-- END: hmi-page-history -->

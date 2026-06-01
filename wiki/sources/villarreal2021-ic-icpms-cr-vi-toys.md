@@ -149,3 +149,13 @@ This Brief is a vendor application note providing methodological demonstration a
 - **Date and unit conventions.** Cr(VI) concentrations in the migration extract reported in µg/L per Tables 1 and 2 of the Brief. Cr(VI) in toy material reported in mg/kg per the EN 71-3:2019 regulatory framing. The conversion factor between extract µg/L and toy-material mg/kg follows the EN 71-3 extraction stoichiometry (the Brief states 0.002 µg/L extract corresponds to 0.25 µg/kg toy material, implying a 125× extract-to-substrate ratio at the working level). Method quantification limit BEC = 0.002 µg/L is also reported in extract concentration units. IDL = 0.35 ng/L is reported in nanogram/liter, equivalent to 0.00035 µg/L. Detection-limit basis is 3σ.
 - **Raw integrity.** raw_sha256 = 76479bea170a670d5979bb84bc7c377842acdaf650565c9c36a50a69e8ee27a1 confirmed against the file via shasum -a 256. PDF is 2,022,490 bytes (≈1.93 MB) and 5 pages. The original filename "08_Unknown.pdf" reflects the Kimi-agent's filename-loss during the May 2025 corruption-extraction recovery; the document's actual title and authorship were recovered by direct PDF read.
 - **References cited in the Brief.** Reference 1: EN 71-3:2019, Safety of Toys – Part 3: Migration of certain elements (the European Committee for Standardization standard the Brief implements). Reference 2: Alvarez CC, Gómez MEB, Zavala AH (2021), "Hexavalent chromium: Regulation and health effects," Journal of Trace Elements in Medicine and Biology, article 126729 — the toxicological-basis citation underpinning the Brief's tighter-limit rationale. Reference 3: Thermo Fisher Scientific Application Note 43175 — the longer companion methods publication that this Brief presents in updated form. None of these three references are currently in the HMI source corpus.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [885b217](https://github.com/paleofoundation/heavymetalindex/commit/885b217) | 2026-06-01 | ingest: villarreal2021-ic-icpms-cr-vi-toys [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures |
+<!-- END: hmi-page-history -->

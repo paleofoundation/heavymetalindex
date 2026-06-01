@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T18:48:56.793Z
+updated: 2026-06-01T22:27:37.332Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1647 min ago (stale) |
-| auto-fetched/ PDFs in queue | 69 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 1865 min ago (stale) |
+| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
-| Wishlist: total downloaded historically | 21 |
-| Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 17 |
-| Commits last 24 hours | 309 |
+| Wishlist: total downloaded historically | 26 |
+| Wishlist: total ingested historically | 17 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 10 |
+| Commits last 24 hours | 307 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-e8fef7d 59 seconds ago — audit revise souri2019 leafy vegetables source
+e0ed377 3 minutes ago — audit: waecology2024-interim-policy-lead-cosmetics promoted
 ```
 
 ## How to read this

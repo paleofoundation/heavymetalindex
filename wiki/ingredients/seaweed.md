@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 18
+sources: 19
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10
@@ -179,6 +179,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 14 | [[sources/rakib2021-macroalgae-bangladesh-metals\|Jahan et al. 2021]]. *Macroalgae in biomonitoring of metal pollution in the Bay of Bengal coastal waters of Cox's Bazar and surrounding areas*, Scientific Reports | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 | 15 | [[sources/asni2020-pb-seaweed-bantaeng\|Asni et al. 2020]]. *Pb heavy metal distribution patterns in seaweed (Kappaphycus alvarezii) cultivation locations by season in Bantaeng Waters, South Sulawesi*, IOP Conference Series: Earth and Environmental Science | 2020 | Peer-reviewed | Indonesian farmed-seaweed seasonal Pb-distribution data |
 | 16 | [[sources/hardisson2017-aluminium-dietary-exposure-review\|Hardisson et al. 2017]]. *Aluminium Exposure Through the Diet*, HSOA Journal of Food Science and Nutrition | 2017 | Review | ES/DE/AU Al occurrence in Compiled literature review of Al concentrations across food groups and drinks; intake estimated against Spanish population consumption data... |
+| 17 | [[sources/razi-parjikolaei2016-red-macroalgae-metals\|Parjikolaei et al. 2016]]. *Valuable Biomolecules from Nine North Atlantic Red Macroalgae: Amino Acids, Fatty Acids, Carotenoids, Minerals and Metals*, Natural Resources | 2016 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -188,9 +189,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

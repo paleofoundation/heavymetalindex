@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 3
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,8 +106,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
-| 2 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
+| 1 | [[sources/schade2010-toxic-toys-r-us-pvc\|Schade 2010]]. *Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys*, Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs (Washington, DC / Falls Church, VA), November 2010, 47 pp. | 2010 | NGO report | *[awaiting synthesis]* |
+| 2 | [[sources/cpsc1997-pvc-children-products\|U.S. Consumer Product Safety 1997]]. *CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products*, U.S. Consumer Product Safety Commission Staff Report | 1997 | Regulatory | *[awaiting synthesis]* |
+| 3 | [[sources/digangi1997-greenpeace-vinyl-children-products\|Di Gangi 1997]]. *Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé*, Greenpeace USA (Washington, DC); ERIC document ED 414 034 / PS 026 006 | 1997 | NGO report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

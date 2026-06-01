@@ -17,7 +17,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-14
-sources: 5
+sources: 8
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care
@@ -111,10 +111,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | LY Pb, tAs, Cd, Ni occurrence in 12 cosmetic samples from public markets in Tripoli, Libya (winter 2022): 3 brands of Henna leaves (LEAV1-3), 3... (n=12) |
-| 2 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
-| 3 | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi 2020]]. *Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder*, IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby talcum powder brands; AAS/CVAAS quantification; n=3 |
-| 4 | [[sources/moon2011-baby-powder-inhalation-risk-assessment\|Moon et al. 2011]]. *Risk Assessment of Baby Powder Exposure through Inhalation*, Toxicological Research 27(3): 137-141 | 2011 | Peer-reviewed | This Toxicological Research mini-review and exposure-assessment study simulates a routine baby-powder application episode in a residential setting to estimate airborne... |
+| 1 | [[sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\|Committee of Ministers of 2023]]. *Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.*, European Directorate for the Quality of Medicines & HealthCare (EDQM), Council of Europe, Strasbourg, France. 2nd edition. ISBN 978-92-871-9360-5. 56 pages. | 2023 | Government guidance | *[awaiting synthesis]* |
+| 2 | [[sources/rbeida2023-heavy-metals-cosmetics-libya\|Rbeida et al. 2023]]. *Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization*, Mediterranean Journal of Pharmacy & Pharmaceutical Sciences 3(3):1-8 (Article 117) | 2023 | Peer-reviewed | LY Pb, tAs, Cd, Ni occurrence in 12 cosmetic samples from public markets in Tripoli, Libya (winter 2022): 3 brands of Henna leaves (LEAV1-3), 3... (n=12) |
+| 3 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
+| 4 | [[sources/rashmi2020-baby-talcum-powder-heavy-metals-india\|Rashmi 2020]]. *Determination of Toxic Heavy Metals in Commercially available brands of Baby Talcum Powder*, IRIS – Journal for Young Scientists, Vol. X, pp. 25–29 | 2020 | Peer-reviewed | Pb 0.240-0.430 ppm, Cd 0.015-0.027 ppm, Hg 0.005-0.025 ppm in three Indian-market baby talcum powder brands; AAS/CVAAS quantification; n=3 |
+| 5 | [[sources/moon2011-baby-powder-inhalation-risk-assessment\|Moon et al. 2011]]. *Risk Assessment of Baby Powder Exposure through Inhalation*, Toxicological Research 27(3): 137-141 | 2011 | Peer-reviewed | This Toxicological Research mini-review and exposure-assessment study simulates a routine baby-powder application episode in a residential setting to estimate airborne... |
+| 6 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -124,9 +126,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

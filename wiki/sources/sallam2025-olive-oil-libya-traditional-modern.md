@@ -124,3 +124,14 @@ Speciation caution: All four analytes are reported as totals (ICP-OES inherently
 - Slug check against taxonomy snapshot (2026-05-18): `olive-oil` exists in both ingredients and products; `olives` exists in ingredients; `lead`, `cadmium`, `arsenic-total`, `mercury-total` exist in metals. `olive-mill-wastewater` is used as a matrix descriptor only (matrices is bare strings, not wikilinks).
 - Evidence tier C rationale: regional journal (NAJSP, founded 2023, modest indexing); very small sample (n=3 replicates × 2 facilities × 2 matrices); single-facility-per-category design; multiple text/table/figure-caption inconsistencies within the paper (see notes above); all heavy metals at or below stated detection thresholds (null findings only). Contribution to the corpus is confirmatory regional context rather than primary literature.
 - 2026-06-01 audit application (Claude Opus, this session, applying findings from a fresh-context general-purpose audit subagent): subagent verdict REVISE, with three ⚠️ concerns and no ❌ definite errors. Findings applied: (a) added the Discussion's seven physicochemical parameters (saponification, pH, density, peroxide, UV232, UV270, iodine — values Figure 2 actually plots despite its heavy-metal caption) to the Key numbers section, closing the figure-caption reporting gap; (b) tightened the Cd LOD framing in Key numbers to acknowledge that Table 3's 0.1 ppm column is the OMWW table's detection-limit column, and that whether 0.1 ppm is the analytical LOD or only the reporting precision is unclear from the source; (c) added three additional Results-text vs Table-1 fatty-acid inconsistencies (palmitoleic 2.46% vs 2.00%, stearic 2.77% vs 2.50%, linolenic 0.83% vs 0.43%) to the existing inconsistency-4 verification note. Findings rejected (false positives): none. The Check-5 soft observation on "Achak et al. 2009; Tarchouna et al. 2010" being paper-own references rather than wiki-side synthesis was already correctly handled in the source page (those citations sit in the App paragraph as the paper's own context, not as wiki-side synthesis), so no change was needed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0f2f5e5](https://github.com/paleofoundation/heavymetalindex/commit/0f2f5e5) | 2026-06-01 | audit: sallam2025-olive-oil-libya-traditional-modern [revised] |
+| [b152f23](https://github.com/paleofoundation/heavymetalindex/commit/b152f23) | 2026-06-01 | ingest: sallam2025-olive-oil-libya-traditional-modern [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

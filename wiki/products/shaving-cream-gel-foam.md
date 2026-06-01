@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 2
+sources: 4
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,8 +106,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
-| 2 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 1 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
+| 3 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 4 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +119,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

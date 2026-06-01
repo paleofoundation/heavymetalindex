@@ -149,3 +149,14 @@ The directive itself is silent on which analytical instruments are required; the
 - Part 12 brand-firewall: no brand attribution risk (regulatory text, no products are measured).
 - Part 2 wiki/HMTc firewall: no HMTc threshold proposals in the body. The "half of considered safe" derivation is the directive's own design principle, reported as such; no HMTc value is suggested.
 - Audit subagent (2026-06-01) verdict PROMOTE; all five checks clean except two ⚠️ slug-vocabulary concerns in Check 2. Verified against `docs/gpt-collaboration/taxonomy-snapshot.md`: `metals/cobalt` and `metals/manganese` ARE in the snapshot's Metals list — those subagent findings were false positives (the subagent misread the snapshot). The other elements the subagent named (`metals/boron`, `metals/selenium`, `metals/strontium`) are correctly absent from the snapshot, but this page references those metals only via standard chemical-symbol abbreviations (B, Se, Sr) in the frontmatter `metals:` array, not as page-slug wikilinks in the body, so no actual slug-vocabulary violation. The B/Se/Sr abbreviations follow the standard chemical-symbol convention used elsewhere in the corpus for elements outside the CLAUDE.md Part 14 explicitly-enumerated abbreviation set; consider expanding Part 14's vocabulary spec to formally cover the additional TSD elements.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3a80318](https://github.com/paleofoundation/heavymetalindex/commit/3a80318) | 2026-06-01 | audit: ec2013-tsd-rev1-7-guidance [promoted] |
+| [dcf7ad8](https://github.com/paleofoundation/heavymetalindex/commit/dcf7ad8) | 2026-06-01 | ingest: ec2013-tsd-rev1-7-guidance [fresh] from Manual Fetch Kimi/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH |
+<!-- END: hmi-page-history -->

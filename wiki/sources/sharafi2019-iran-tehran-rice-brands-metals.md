@@ -188,3 +188,14 @@ This source contributes Iranian household-purchased retail-market occurrence dat
   - **Check 1 ⚠️ #1 applied.** Implications first bullet was originally drafted with a fabricated IN-rice Pb brand-range "0.230-1.78 mg/kg dw range" that did not appear in the paper text (only the panel mean 0.770 ± 0.529 mg/kg is published; individual brand values appear in Fig. 1 without numeric labels). The fabricated range was removed and the bullet now reports only the published panel mean and SD with an explicit note that individual brand values are not numerically published. This was a wiki-side hallucination caught by the subagent's read of the actual text.
   - **Check 1 ⚠️ #2 applied.** TTHQ-sum column in the per-country THQ table is wiki-computed from THQ_As + THQ_Pb + THQ_Cd per Equation 4; the paper's p. 20 publishes only the three component THQ values and states qualitatively that point-estimate TTHQ > 1 only for IN rice. The table caption and column header were updated to label the column "TTHQ (wiki-computed sum)" and the caption now explicitly states the row values are paper-published while the sum column is wiki-derived.
   - Audit Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (brand firewall), and 5 (wiki/HMTc firewall) were clean per the subagent's report and required no changes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e59ea58](https://github.com/paleofoundation/heavymetalindex/commit/e59ea58) | 2026-06-01 | audit: sharafi2019-iran-tehran-rice-brands-metals promoted |
+| [08b94a9](https://github.com/paleofoundation/heavymetalindex/commit/08b94a9) | 2026-06-01 | ingest: sharafi2019-iran-tehran-rice-brands-metals fresh from Manual Fetch Kimi/June 1 |
+<!-- END: hmi-page-history -->

@@ -111,3 +111,13 @@ This source contributes Iranian agricultural-land occurrence data for total Cd a
 - **Sampling-year ambiguity.** The paper does not state the year the soil and vegetable samples were collected. ICHMET 2012 was held in September 2012; the paper was published in 2013 as part of E3S Web of Conferences. The sampling year is left null in frontmatter rather than guessed.
 - **Conference-proceedings tier.** E3S Web of Conferences is an open-access proceedings volume associated with the International Conference on Heavy Metals in the Environment (ICHMET 2012). The CC BY 2.0 licence is noted on the article's first page. Evidence tier B reflects the conference-proceedings provenance, the absence of CRM-recovery and method-detection-limit reporting, the lack of per-species vegetable stratification, and the small (n = 50) vegetable panel; the source remains a credible Iranian regional-occurrence data point but is not anchor-grade.
 - **Data integrity.** All values in the Key numbers section transcribed verbatim from Table 1 (Mean, Min, Max, Variance, CV %, Skewness, Threshold) and the Results and discussion prose on p. 2 of the PDF. No paper-internal contradictions identified beyond the unstated sampling-year, unstated FAAS instrument detail, and unstated vegetable-species composition (catalogued above and reflected in the B-tier classification and the null `sampling_year_range`).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5acbbf](https://github.com/paleofoundation/heavymetalindex/commit/f5acbbf) | 2026-06-01 | ingest: salehi2013-iran-isfahan-lenjanat-vegetables-cd-pb [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

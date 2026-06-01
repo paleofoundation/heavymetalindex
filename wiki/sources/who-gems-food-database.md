@@ -32,3 +32,13 @@ The June 2026 export covers Pb, Cd, tHg, iAs/tAs, Al, Cr, Ni, and Sn across the 
 ## How GEMS feeds contamination profiles
 
 GEMS distributions are pooled, per the synthesis methodology, into the `contamination_profile` blocks on ingredient and product pages: the detected-value percentiles supply `typical_ppb` and `p95_ppb`, the record count supplies sample weight, and the censoring fraction and per-region/per-year spread supply the geographic and temporal variance the defensibility argument relies on. The GEMS food taxonomy maps to wiki ingredient/product slugs through the food crosswalk before any value lands on a page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c91a748](https://github.com/paleofoundation/heavymetalindex/commit/c91a748) | 2026-06-01 | gems: structured-data adapter + source registration (stage 1 of the GEMS path) |
+<!-- END: hmi-page-history -->

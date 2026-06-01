@@ -183,6 +183,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [a24503b](https://github.com/paleofoundation/heavymetalindex/commit/a24503b) | 2026-06-01 | audit: anses2019-baby-diaper-safety-france revised |
 | [c8a48a3](https://github.com/paleofoundation/heavymetalindex/commit/c8a48a3) | 2026-06-01 | ingest: anses2019-baby-diaper-safety-france fresh from MFK/03_Diapers |

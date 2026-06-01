@@ -116,3 +116,14 @@ The paper does not propose certification thresholds, does not measure individual
 - Audit subagent (2026-06-01) flagged `[[ingredients/olives]]` as not in the taxonomy snapshot. Verified against `docs/gpt-collaboration/taxonomy-snapshot.md` line 40 — `olives` IS in the Ingredients snapshot and `wiki/ingredients/olives.md` exists. Finding rejected as false positive; slug retained.
 - Audit subagent (2026-06-01) flagged the Arbequina natural-baseline pomace rows (Cu 2,380 ± 80 ng/g, Fe 9,900 ± 300 ng/g, both with VOO <MDL) as omitted from Key numbers; verified against Table 5 and added.
 - Audit subagent (2026-06-01) flagged "consistent with prior reports of higher Cu in pomace oils than in VOO" in Implications as cross-source synthesis; verified against the paper's own Discussion (p. 1829) where the authors cite their 2011 paper (ref [7]) for exactly this comparison. Rewritten to attribute the comparison explicitly to the source's own citation, removing the wiki-side synthesis framing.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ed28f05](https://github.com/paleofoundation/heavymetalindex/commit/ed28f05) | 2026-06-01 | audit: llorent-martinez2014-olive-oil-extraction-metals-fate [revised] |
+| [f602238](https://github.com/paleofoundation/heavymetalindex/commit/f602238) | 2026-06-01 | ingest: llorent-martinez2014-olive-oil-extraction-metals-fate [fresh] from Manual Fetch Kimi/June 1 |
+<!-- END: hmi-page-history -->

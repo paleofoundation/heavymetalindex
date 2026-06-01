@@ -2,15 +2,15 @@
 source_page: wiki/products/mixed-meals-rice-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6c4876b8cf258d9c550d7eb9c0144b046a81fa3bf893bba04580c0b1eea00b80
+source_page_sha256: 43e5a4bf3bbdaea378b8ee81e4f724c5ab32d93a0fae1818ece667d63b584ba9
 total_claims: 82
 cited_claims: 82
 uncited_claims: 0
-distinct_cited_targets: 29
-distinct_cited_sources: 23
+distinct_cited_targets: 30
+distinct_cited_sources: 24
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 82 |
 | cited claims | 82 |
 | uncited claims | 0 |
-| distinct cited targets | 29 |
-| distinct cited `sources/` pages | 23 |
+| distinct cited targets | 30 |
+| distinct cited `sources/` pages | 24 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 
@@ -784,7 +784,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `8 ppb`
 - Context: `r-reviewed | Global scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exc`
-- Cited targets (16):
+- Cited targets (17):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -798,6 +798,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -820,7 +822,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `48 ppb`
 - Context: `scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exceeding the Pb maximu`
-- Cited targets (16):
+- Cited targets (17):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -834,6 +836,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -856,7 +860,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `ood rows, the most recent analytical dataset supporting the 2025 final guidance 10 ppb action level for mixtures | | 5 |`
-- Cited targets (16):
+- Cited targets (17):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -870,6 +874,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -892,7 +898,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppb`
 - Context: `ren 0–6; canonical NGO/policy reference behind cost-benefit arguments for FDA's 100 ppb iAs action level on rice-cereal-`
-- Cited targets (16):
+- Cited targets (17):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -906,6 +912,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -928,7 +936,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `6.45 µg/kg`
 - Context: `in 87 European rice products including baby-food rice, finding MeHg range 0.11-6.45 µg/kg; provides the mercury occurre`
-- Cited targets (16):
+- Cited targets (17):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -942,6 +950,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -964,7 +974,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9 ppb`
 - Context: `102048 | 2016 | Government report | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) fo`
-- Cited targets (16):
+- Cited targets (17):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -978,6 +988,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1000,7 +1012,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `6 | Government report | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) for UK other s`
-- Cited targets (16):
+- Cited targets (17):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1014,6 +1026,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1036,7 +1050,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `5 ppb`
 - Context: `rt | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) for UK other savoury infant foods`
-- Cited targets (16):
+- Cited targets (17):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1050,6 +1064,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
     - audit rows: none
@@ -1093,6 +1109,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
+| `wiki/sources/fagbemi2023-akure-street-foods-lead\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md` | sources | 0 | — | — |

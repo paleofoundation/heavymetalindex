@@ -146,3 +146,14 @@ This source contributes Iranian retail-market occurrence data for total As, tota
   - **Check 4 ❌ #3 applied.** Anomaly note 4 heading renamed from "Kimia-origin Pb EWI rounding" to "Indian-origin Pb EWI rounding" (origin descriptor retained, brand name removed). Body unchanged.
   - **Check 5 ⚠️ partial pushback with reframing.** Subagent flagged the two cross-source comparisons to [[sources/pirsaheb2015-iran-kermanshah-cereals-metals]] as wiki-side synthesis on the premise that "Roya 2016 does not cite Pirsaheb 2015." Verified against Roya 2016's reference list (p. 5): the paper cites "Pirsaheb M, Fattahi N, Sharafi K, Khamotian R, Atafar Z. 2016. ... Food Addit Contam Part B. 9:15-20" — the same paper as wiki cite-key `pirsaheb2015` (DOI 10.1080/19393210.2015.1099570; online publication year 2015, print issue year 2016). The wikilink target IS source-cited. However, the broader Part 2 point about quantitative comparative judgement ("a stronger single-commodity Pb-exposure signal than") is fair and was softened to descriptive band-placement language ("brackets the single-EWI value reported by the parallel Kermanshah-market rice work"). The "consistent with prior Iranian work" phrasing was reframed to attribute the comparison to the source's own reference list. The wikilinks were retained. The Wiki/HMTc firewall verification note was updated to acknowledge the cite-year duality.
   - Audit Checks 2 (slug vocabulary) and 3 (speciation and methods) were clean per the subagent's report and required no changes.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [89203cc](https://github.com/paleofoundation/heavymetalindex/commit/89203cc) | 2026-06-01 | audit: roya2016-iran-torbat-heidarieh-rice-metals [revised] |
+| [63fcd09](https://github.com/paleofoundation/heavymetalindex/commit/63fcd09) | 2026-06-01 | ingest: roya2016-iran-torbat-heidarieh-rice-metals [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

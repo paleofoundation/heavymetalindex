@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 4
+sources: 5
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -110,6 +110,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 2 | [[sources/shaughnessy2023-sugar-kelp-new-england-metals\|Shaughnessy et al. 2023]]. *Evidence of elevated heavy metals concentrations in wild and farmed sugar kelp (Saccharina latissima) in New England*, Scientific Reports | 2023 | Peer-reviewed | US tAs, iAs, Cd, Pb, tHg occurrence in Farmed sugar-kelp blades plus wild sugar-kelp sites in Massachusetts and southern New England (n=12) |
 | 3 | [[sources/aziz2021-gracilaria-seaweed-bangladesh\|Aziz et al. 2021]]. *Potential of Gracilaria tenuistipitata var. liui grown in Nuniachara, Cox's Bazar, Bangladesh*, Bangladesh Journal of Scientific and Industrial Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 | 4 | [[sources/rakib2021-macroalgae-bangladesh-metals\|Jahan et al. 2021]]. *Macroalgae in biomonitoring of metal pollution in the Bay of Bengal coastal waters of Cox's Bazar and surrounding areas*, Scientific Reports | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/razi-parjikolaei2016-red-macroalgae-metals\|Parjikolaei et al. 2016]]. *Valuable Biomolecules from Nine North Atlantic Red Macroalgae: Amino Acids, Fatty Acids, Carotenoids, Minerals and Metals*, Natural Resources | 2016 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

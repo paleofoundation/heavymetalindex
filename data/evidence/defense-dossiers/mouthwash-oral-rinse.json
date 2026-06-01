@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/mouthwash-oral-rinse",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c47ea49a6918b6b0d972b9721d5820bfd42e4f13a69d358bc7e1f3878432e198",
-      "content_bytes": 8041,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "e9964f32b8701cfbced688777bba09347e8dcb2de8ba847c0f96e2c4da6a8cc6",
+      "content_bytes": 8335,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/mouthwash-oral-rinse.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/mouthwash-oral-rinse.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -45,12 +45,30 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "bd0529fa07948093400b00fbe4c5e5d20a94d903e85843d48b5eb81a959bfa0c",
+          "content_sha256": "168371ef52b0a03e89afad33f4eb0db3d035766b45e2bc1fc0b516c79a7ae492",
           "content_bytes": 28200,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/us-epa-2011-efh-chapter17-consumer-products",
+        "title": "Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
+        "content_pin": {
+          "content_sha256": "71224bf0e2f0ebb19b74ed18c7411f6db0960f7e1f5fc4fecd03df8c40a678b6",
+          "content_bytes": 30672,
+          "last_commit_sha": "6937864",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6937864:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

@@ -17,18 +17,48 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-vitamin-mineral",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "93497f5abc49bab64e8fefe80a0b258be343aaa0b04d4e79d1d3783df29f262a",
-      "content_bytes": 7577,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "e0dbe11a50059fbe7a01ff9ee9ecde5fe480e2221b9171fd1883a5ad5f605030",
+      "content_bytes": 8185,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/supplements-vitamin-mineral.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/supplements-vitamin-mineral.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/sattler2016-bee-pollen-metals",
+        "title": "Essential minerals and inorganic contaminants (barium, cadmium, lithium, lead and vanadium) in dried bee pollen produced in Rio Grande do Sul State, Brazil",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ba",
+          "Cd",
+          "Pb",
+          "V",
+          "Cr",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Mo",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
+        "content_pin": {
+          "content_sha256": "5fa5a614559bfaaa2cd4b640b48c2017c020bb6f87a1e890e1ae18fbc3772457",
+          "content_bytes": 4006,
+          "last_commit_sha": "6c37981",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6c37981:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/game-meats",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b6c2484067a60c786635d3aadd6abfb83c930e44b52938517bc2a8fc51f67204",
+      "content_sha256": "c897030346ba58d6a50a4a67856ee264c1123bd8093885f21b46dff943067535",
       "content_bytes": 11361,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/game-meats.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/game-meats.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/boisteanu2024-wild-boar-romania-metals",
         "content_pin": {
-          "content_sha256": "f7a49f84d160a9acf4d4cf87192849754b04a56fcb49a93b421248beb55cf67b",
+          "content_sha256": "f56a304c599d200f44be88046564a9e1488b960949df93641d5009cb0403721d",
           "content_bytes": 3598,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/boisteanu2024-wild-boar-romania-metals.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/boisteanu2024-wild-boar-romania-metals.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gasparik2017-wild-boar-slovakia-metals",
         "content_pin": {
-          "content_sha256": "69d96ca027ec11eb488e45ae1b12060cdcfaa52fb5574a0cb8fc9133ff2d908d",
+          "content_sha256": "cbecd8b4bd4e6ab208bf301426f0c0650a8335309597bc576a24dc4fb9f4b1d7",
           "content_bytes": 16480,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/gasparik2017-wild-boar-slovakia-metals.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/gasparik2017-wild-boar-slovakia-metals.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gerofke2018-wild-game-lead",
         "content_pin": {
-          "content_sha256": "877f3715eb7eb4b45426213bbdbf22a555e0d087994fd5f1d5ed3dcd10f200c4",
+          "content_sha256": "ced35de8f6623c790796a42047710f8eb4ac93358c494c76904bc19ec2b046a8",
           "content_bytes": 3072,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/gerofke2018-wild-game-lead.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/gerofke2018-wild-game-lead.md | sha256sum"
         }
       },
       {
@@ -115,12 +115,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/joyce2016-bush-meat-cooking-ghana",
         "content_pin": {
-          "content_sha256": "354cf965707181d90772be190d66c0ea2c6f304a0729a06e8f6d6fb0054eb6ba",
+          "content_sha256": "c950c740001245cc823e033b3a3c0dd5e01700d8c7267949743787034c8cbf8c",
           "content_bytes": 7318,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/joyce2016-bush-meat-cooking-ghana.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/joyce2016-bush-meat-cooking-ghana.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lenart2023-wild-boar-metals",
         "content_pin": {
-          "content_sha256": "1d2a265a382269ca6310b015cc29aa6fa37d270e44ad45aa1238aa231a59c9a4",
+          "content_sha256": "b80d5268e3679ab5eb99e8ae4380b360516326ea6941158ca5dae0781ce12f6f",
           "content_bytes": 3398,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/lenart2023-wild-boar-metals.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/lenart2023-wild-boar-metals.md | sha256sum"
         }
       },
       {
@@ -164,12 +164,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mahdi2024-meat-cooked-utensils-metals",
         "content_pin": {
-          "content_sha256": "bc45fbc699915757255c22e45b7238134d08f3678dd564a80889740c1010e78f",
-          "content_bytes": 3713,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "594f46576cc174bc39a67fad39d444d703dde72ea1616975fc96ac41f6cbe69c",
+          "content_bytes": 3701,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/mahdi2024-meat-cooked-utensils-metals.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/mahdi2024-meat-cooked-utensils-metals.md | sha256sum"
         }
       },
       {
@@ -187,12 +187,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mesinger2021-red-deer-heavy-metals",
         "content_pin": {
-          "content_sha256": "ab9418c78285078f9d8981b74c25ad99f504acfdc23ff08f0517ffdb0a0b5802",
+          "content_sha256": "eaa3fb9ffa424077d5895876a6d111ac9011a5db8d659d8cb008ba2347eceb9d",
           "content_bytes": 3307,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/mesinger2021-red-deer-heavy-metals.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/mesinger2021-red-deer-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -207,12 +207,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pain2023-lead-pheasant-dogfood-uk",
         "content_pin": {
-          "content_sha256": "6e8d17f2beddc3c740bcce9df1e1f23e7ef3527d71822b8f548ba98a5e28b752",
+          "content_sha256": "56596448a445d7940740c368a57246fd0e935cf9ed0b134b3b1d903c5119064b",
           "content_bytes": 4762,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/pain2023-lead-pheasant-dogfood-uk.md | sha256sum"
         }
       },
       {
@@ -229,12 +229,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/paulsen2015-game-meat-metal-bioaccessibility",
         "content_pin": {
-          "content_sha256": "2a13df480677efab1c50103df857d67a9166466a76bfa0d7832d249d12669794",
+          "content_sha256": "76a2cd3e96a2776c9d53fe5899aa63c5f5e195d4a856fb1cceb08c29c578e2d7",
           "content_bytes": 3183,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/paulsen2015-game-meat-metal-bioaccessibility.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/paulsen2015-game-meat-metal-bioaccessibility.md | sha256sum"
         }
       },
       {
@@ -253,12 +253,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/prevendar-crnic2022-rasa-coal-birds-htes",
         "content_pin": {
-          "content_sha256": "3ce23f4dcf93273355b7b621b2aad59372da7d9fdd6467e4f4f2f2b0f711c596",
+          "content_sha256": "bd7abe5ddd26c34a6f1d33a63df6f17f5dcc3fb23c27dca990c1ead3f63769e1",
           "content_bytes": 19071,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/prevendar-crnic2022-rasa-coal-birds-htes.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/prevendar-crnic2022-rasa-coal-birds-htes.md | sha256sum"
         }
       },
       {
@@ -276,12 +276,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rudy2019-hunted-animals-toxic-elements-review",
         "content_pin": {
-          "content_sha256": "780b31b6c6696c5cb9633683b7d5b2cabdc953a5fff659eb8ee3085976a94c9b",
+          "content_sha256": "5690c5f01d5b65c78db2ad4860c4e50186563c8f5d9d900e5ef3d333e8a3d877",
           "content_bytes": 28497,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/rudy2019-hunted-animals-toxic-elements-review.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/rudy2019-hunted-animals-toxic-elements-review.md | sha256sum"
         }
       },
       {
@@ -296,12 +296,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zarski2017-mallard-mercury",
         "content_pin": {
-          "content_sha256": "3abf1b1969c2f3155bcc252d166fa352e0617922fbaa66052abb2b53ad6f3de7",
+          "content_sha256": "8e40d6c00678414fc49c38c5eb52d0f317e38ce4d619519ff62b3dc7582fb32a",
           "content_bytes": 2771,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/zarski2017-mallard-mercury.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/zarski2017-mallard-mercury.md | sha256sum"
         }
       }
     ]

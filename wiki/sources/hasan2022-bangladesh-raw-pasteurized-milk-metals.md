@@ -64,3 +64,12 @@ The source contributes Bangladesh-market cow milk occurrence data for [[metals/l
 - Arsenic is total As only. It must not be routed as inorganic arsenic.
 - The raw and pasteurized matrices are reported separately in the paper and should remain separated during pooling unless a downstream milk category explicitly admits both forms.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

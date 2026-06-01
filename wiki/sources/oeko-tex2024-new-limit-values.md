@@ -113,3 +113,13 @@ The document is a customer-information notice publishing the OEKO-TEX Associatio
 - **Folder context vs paper scope.** The PDF lives under `_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH/` in the Kimi corruption-issue raw tree, with neighbouring documents in ASTM and REACH regulatory scope. The folder name reflects the Kimi-agent's batch-organization scheme aggregating regulatory and industry-standard documents relevant to infant durable goods. The OEKO-TEX notice itself is industry-standard scope across textile and leather production for the OEKO-TEX label family, not infant-durables-specific; the children's-textile products slugs reflect the HMI scope for which OEKO-TEX is a relevant industry-standard anchor, not a claim that the notice is exclusively about infant durables.
 - **Near-duplicates.** None identified. The notice is a stand-alone annual customer-information update; prior-year and subsequent-year OEKO-TEX limit-value updates are separate documents and not present in the corpus at this writing.
 - **Raw integrity.** raw_sha256 = 5a3a8d1f23ffefe355064418a5f54917d4185faa96fcf578e97dc0fae9483d06 verified by `shasum -a 256` against the file at `raw_path`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2228e31](https://github.com/paleofoundation/heavymetalindex/commit/2228e31) | 2026-06-01 | ingest: oeko-tex2024-new-limit-values [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH |
+<!-- END: hmi-page-history -->

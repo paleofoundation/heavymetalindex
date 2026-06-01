@@ -22,16 +22,16 @@
     "canonical_url": "https://heavymetalindex.com/products/pacifiers-and-sucking-teething-aids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2b69b20230e6f84b3adaab992ce98eaed3c5feda07cb78a5ef6ea824a60b26ed",
-      "content_bytes": 11079,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "1fa77f543a037e61652e2f1f52c8c984077bb89a3b5afc99fa64ad815b543166",
+      "content_bytes": 11877,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/pacifiers-and-sucking-teething-aids.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/pacifiers-and-sucking-teething-aids.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 6,
+    "contributing_source_count": 8,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -47,12 +47,40 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2009-lead-cadmium-toys",
         "content_pin": {
-          "content_sha256": "db588ca9457def3a695c63d193c6f155458e09054904501b23d83e0f59fc8f6a",
-          "content_bytes": 23870,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "b20b7eaca8f939d1e7aa28b3fa9aea760460502361de0cb5eb4df065f4883455",
+          "content_bytes": 23737,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/bfr2009-lead-cadmium-toys.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/echa2023-cmr-childcare-articles",
+        "title": "Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr-VI",
+          "Co",
+          "tAs",
+          "tHg",
+          "Sn",
+          "Li",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
+        "content_pin": {
+          "content_sha256": "45fe8bf1f16a065da9951cf78d550643ba09b25815d51908f05fb3255dd4b27f",
+          "content_bytes": 59019,
+          "last_commit_sha": "df568bd",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show df568bd:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -67,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fowles2021-lead-toys",
         "content_pin": {
-          "content_sha256": "829be40125e75747e9f1c6035b78cd0c2b66a4be9b27764955935fd66a2b4d6b",
-          "content_bytes": 33065,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "8bdcef20ddbf254124352e848728a5163c89a7695738d4a4d59862fbe25115b7",
+          "content_bytes": 32941,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/fowles2021-lead-toys.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/fowles2021-lead-toys.md | sha256sum"
         }
       },
       {
@@ -92,12 +120,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/masu2016-pacifiers-sippy-cups-my",
         "content_pin": {
-          "content_sha256": "ce2533be57019712faf5e13f166a0eb1a6ec4ae07c0371ddef4d49e59bc8e3cb",
-          "content_bytes": 23664,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "3f102504f0ccfc54f050238fa5a2581287eb8b4d817ebe5ae47fe21f95caf1d8",
+          "content_bytes": 23528,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/masu2016-pacifiers-sippy-cups-my.md | sha256sum"
         }
       },
       {
@@ -117,12 +145,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "67a7c97a79491e1bbeea1b2cfa07d319aab87cc29827b1fb8e50b89aada2ce2a",
-          "content_bytes": 29572,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "8f4abbae81daa4e2e1ee1976a85820b2445bf7392828ba9817c09967f846db4b",
+          "content_bytes": 29718,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -141,12 +169,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/seifi2026-iran-toys-pb-cr-hg",
         "content_pin": {
-          "content_sha256": "794ea19dbd28a8370ee566c7ccfc1d9f83cc30d2f6e694b3af373dd6ca716d51",
-          "content_bytes": 29017,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "73aba5e5f522a172f415c941a63b4bd9fb3bd62ebc0e664a1cf3550395f56a1a",
+          "content_bytes": 29163,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/seifi2026-iran-toys-pb-cr-hg.md | sha256sum"
         }
       },
       {
@@ -170,12 +198,34 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "301817810e4ff53ea7490ba5ed0e93f49f6f542107ddef27f726e14af0cf3ae7",
-          "content_bytes": 39281,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "fd8dcdec802cf870a8dd9718ebabbe21cd39106b66fac2eca3b43e9dd3977e67",
+          "content_bytes": 39427,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/stringer2001-greenpeace-pvc-children-products",
+        "title": "Toxic chemicals in a child's world: an investigation into PVC plastic products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
+        "content_pin": {
+          "content_sha256": "eb95a3a28207959b98748bfdd1bfa10b9f28d073597861a3ac6a1933d955d547",
+          "content_bytes": 32741,
+          "last_commit_sha": "f9253af",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show f9253af:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       }
     ]

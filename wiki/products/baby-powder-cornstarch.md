@@ -18,7 +18,7 @@ audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
 literature_scope: thin
-sources: 1
+sources: 4
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Powder, Cornstarch-Based
@@ -100,11 +100,12 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-_Auto-generated from source-page frontmatter, with the "Used on this page for" column populated by per-page synthesis._
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-
+| 1 | [[sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\|Committee of Ministers of 2023]]. *Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.*, European Directorate for the Quality of Medicines & HealthCare (EDQM), Council of Europe, Strasbourg, France. 2nd edition. ISBN 978-92-871-9360-5. 56 pages. | 2023 | Government guidance | *[awaiting synthesis]* |
+| 2 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -114,9 +115,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/degreasers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1ccacaae462559e7c78cea326d18e1fbfde44dcf645efde6ba2c5e7674e8291e",
+      "content_sha256": "d5b625588705783ec6412cf5e3b927e631da3f775bc9d7f61070e0f29d3817ed",
       "content_bytes": 7175,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/degreasers.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/degreasers.md | sha256sum"
     }
   },
   "evidence_base": {

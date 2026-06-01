@@ -18,7 +18,7 @@ pair_row: 7
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 4
+sources: 6
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Diaper Cream, ZnO-Based
@@ -99,9 +99,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
-| 2 | [[sources/rahma2022-infant-skin-barrier-function-review\|Rahma et al. 2022]]. *Skin Barrier Function in Infants: Update and Outlook*, Pharmaceutics 14: 433 | 2022 | Peer-reviewed | This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharmacy; Lane at UCL School of Pharmacy) surveys... |
-| 3 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 1 | [[sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\|Committee of Ministers of 2023]]. *Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.*, European Directorate for the Quality of Medicines & HealthCare (EDQM), Council of Europe, Strasbourg, France. 2nd edition. ISBN 978-92-871-9360-5. 56 pages. | 2023 | Government guidance | *[awaiting synthesis]* |
+| 2 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
+| 3 | [[sources/rahma2022-infant-skin-barrier-function-review\|Rahma et al. 2022]]. *Skin Barrier Function in Infants: Update and Outlook*, Pharmaceutics 14: 433 | 2022 | Peer-reviewed | This Pharmaceutics narrative review (Rahma at ITB Bandung / UCL School of Pharmacy; Lane at UCL School of Pharmacy) surveys... |
+| 4 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 5 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -111,9 +113,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

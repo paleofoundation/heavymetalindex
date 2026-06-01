@@ -166,3 +166,13 @@ The report does NOT support:
 - **Jurisdictions.** US only. Unlike Phase 1, Phase 2 does NOT cite EU 1223/2009 or Germany BVL technically-avoidable values as comparators — Phase 2's regulatory frame is FDA + Washington state (Safer Products for Washington, Chapter 70A.560 RCW, FDA Modernization of Cosmetics Regulation Act 2022, FDA 2022 talc-asbestos testing). The `jurisdictions:` array reflects this.
 - **DOI / publisher.** No DOI; Washington State government publication identified as Publication 24-04-022 and indexed at apps.ecology.wa.gov/publications/summarypages/2404022.html. The `access_url` points to the report's summary page (canonical and stable across PDF revisions).
 - **Raw path / handle.** Filed under `raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/`. The "Infant cosmetics" folder name is a slight mis-categorisation for this particular file — Phase 2 is primarily an adult-cosmetic testing study (the only children's-marketed product across the entire Phase 2 dataset is one variety cosmetics pack, WM-54-3, contributing eyeshadow material to the asbestos panel; the 4 baby washes in the phthalate panel are children's-tier products but are null-result and serve as marketing-claim verification, not children's contamination findings). Folder placement is preserved as-is for raw-tree immutability; routing reflects the actual content (adult Cat 13 leave-on manicuring + Cat 13 hair + Cat 2 intimate-washes / body-wash / baby-shampoo-body-wash + Cat 13 makeup blush/eye + Cat 2 children's-makeup data point).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [43be086](https://github.com/paleofoundation/heavymetalindex/commit/43be086) | 2026-06-02 | ingest: waecology2024-chemicals-cosmetics-phase2 fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |
+<!-- END: hmi-page-history -->

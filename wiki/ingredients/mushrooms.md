@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 12
+sources: 24
 wiki_doi: null
 updated: 2026-05-28
 ---
@@ -126,10 +126,22 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180-200 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
 | 2 | [[sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals\|Wu 2024]]. *Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment*, International Journal of Natural Resources and Environmental Studies, 2(1): 180–202 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/usman2022-pleurotus-mushroom-substrates\|Usman et al. 2022]]. *Proximate composition and heavy metal content of Pleurotus tuberregium mushroom grown on different substrates in (Aba) Nigeria*, GSC Biological and Pharmaceutical Sciences | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/efsa2021-aluminium-food-qa\|EUFIC 2021]]. *Aluminium in Food (Q&A): Sources, Safety and Regulations*, European Food Information Council (EUFIC) | 2021 | NGO report | EU Al occurrence in null |
-| 5 | [[sources/jasinska2019-mushroom-cadmium\|Jasińska et al. 2019]]. *Relationship between zinc and cadmium contents and cultivating conditions of gourmet and medicinal mushroom Agaricus subrufescens*, International Journal of Horticultural Science | 2019 | Peer-reviewed | PL Cd, Zn occurrence in Agaricus subrufescens cultivated under experimental substrate conditions |
-| 6 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V occurrence in 100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted... (n=100) |
+| 3 | [[sources/unguryanu2023-arkhangelsk-wild-mushrooms-berries-metals\|Unguryanu et al. 2023]]. *Assessment of the chemical and radiological safety of wild mushrooms and berries growing in the Arkhangelsk region*, Ekologiya cheloveka (Human Ecology) | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/usman2022-pleurotus-mushroom-substrates\|Usman et al. 2022]]. *Proximate composition and heavy metal content of Pleurotus tuberregium mushroom grown on different substrates in (Aba) Nigeria*, GSC Biological and Pharmaceutical Sciences | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/efsa2021-aluminium-food-qa\|EUFIC 2021]]. *Aluminium in Food (Q&A): Sources, Safety and Regulations*, European Food Information Council (EUFIC) | 2021 | NGO report | EU Al occurrence in null |
+| 6 | [[sources/falandysz2021-boletus-edulis-braising-mercury\|Falandysz et al. 2021]]. *Total mercury and methylmercury (MeHg) in braised and crude Boletus edulis carpophores during various developmental stages*, Environmental Science and Pollution Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 7 | [[sources/hanc2021-amanita-muscaria-hg-se\|Hanc et al. 2021]]. *Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria*, Environmental Science and Pollution Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/singh2020-zambia-wild-mushrooms-metals\|Singh et al. 2020]]. *Quantification of Heavy Metal Accumulation in Edible Wild-Mushrooms in Copperbelt and Western Provinces of Zambia*, Journal of Environmental Protection | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/janco2019-boletus-reticulatus-slovakia-cd-pb-hg\|Janco et al. 2019]]. *The relationship between risk elements contamination of wild edible mushrooms (Boletus reticulatus Schaeff.) and underlying soil substrate*, Journal of Microbiology, Biotechnology and Food Sciences | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/jasinska2019-mushroom-cadmium\|Jasińska et al. 2019]]. *Relationship between zinc and cadmium contents and cultivating conditions of gourmet and medicinal mushroom Agaricus subrufescens*, International Journal of Horticultural Science | 2019 | Peer-reviewed | PL Cd, Zn occurrence in Agaricus subrufescens cultivated under experimental substrate conditions |
+| 11 | [[sources/mititelu2019-romania-wild-edible-mushrooms-metals\|Mititelu et al. 2019]]. *The Influence of Heavy Metals Contamination in Soil on the Composition of Some Wild Edible Mushrooms*, Farmacia | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 12 | [[sources/pankavec2019-pickled-mushrooms-poland-minerals\|Pankavec et al. 2019]]. *Mineral Constituents of Conserved White Button Mushrooms: Similarities and Differences*, Roczniki Państwowego Zakładu Higieny (Annals of the National Institute of Hygiene) | 2019 | Peer-reviewed | PL/EU Pb, Cd, tHg, tAs, Ag, Sb, Tl, U, Ni, Al, Cr, Co, Cu, Zn, Mn, Mg, Se, Li, Cs, Ba, V occurrence in 100 unit packages of commercially available pickled/conserved white button mushrooms (Agaricus bisporus) from 6 manufacturers (brand identifiers omitted... (n=100) |
+| 13 | [[sources/siric2019-croatia-cultivated-mushrooms-metals\|Siric et al. 2019]]. *Heavy metals concentrations in cultivated mushroom species*, Journal of Central European Agriculture | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 14 | [[sources/lalotra2016-jammu-wild-mushrooms-heavy-metals\|Lalotra et al. 2016]]. *Bioaccumulation of heavy metals in the sporocarps of some wild mushrooms*, Current Research in Environmental & Applied Mycology | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 15 | [[sources/mleczek2015-cultivated-mushrooms-arsenic-substrate\|Mleczek et al. 2015]]. *Importance of low substrate arsenic content in mushroom cultivation and safety of final food product*, European Food Research and Technology | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 16 | [[sources/mohiuddin2015-bangladesh-edible-mushrooms-metals\|Mohiuddin et al. 2015]]. *Assessment of nutritional composition and heavy metal content in some edible mushroom varieties collected from different areas of Bangladesh*, Asian Journal of Medical and Biological Research | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 17 | [[sources/saba2015-suillus-luteus-mercury-europe\|Saba et al. 2015]]. *Accumulation and distribution of mercury in fruiting bodies by fungus Suillus luteus foraged in Poland, Belarus and Sweden*, Environmental Science and Pollution Research | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 18 | [[sources/woldegiorgis2015-ethiopian-edible-mushrooms-minerals\|Woldegiorgis et al. 2015]]. *Major, Minor and Toxic Minerals and Anti-Nutrients Composition in Edible Mushrooms Collected from Ethiopia*, Journal of Food Processing & Technology | 2015 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -149,9 +161,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

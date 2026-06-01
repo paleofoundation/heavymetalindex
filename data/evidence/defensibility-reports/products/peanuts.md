@@ -2,7 +2,7 @@
 source_page: wiki/products/peanuts.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8230a02818d9520ed78da8eec687122e8e6715ce3b9758f540d55afa895c162b
+source_page_sha256: 59d47da75a06bdda97a511f44f69a3c875d384c2965fd681aef0001d6538ab01
 total_claims: 2
 cited_claims: 1
 uncited_claims: 1
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 

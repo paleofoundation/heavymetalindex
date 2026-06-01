@@ -76,3 +76,13 @@ Soil samples were collected from 0-20 cm depth at 81 sites, with crop grains col
 - The wishlist row was `salt Cd`, but the PDF contains crop-grain and soil data only. It should not route to salt.
 - The paper provides exceedance proportions and some crop-specific maxima in text; Figure 4 contains crop-grain distributions, but the extracted text does not print every individual grain concentration.
 - The evidence is China-specific and mining-adjacent; do not pool silently with US-market crop-grain distributions.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bd42001](https://github.com/paleofoundation/heavymetalindex/commit/bd42001) | 2026-06-01 | audit: norouzirad2018-iran-khuzestan-oilfield-milk-pb-cd [revised] |
+<!-- END: hmi-page-history -->

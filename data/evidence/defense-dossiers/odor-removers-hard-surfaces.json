@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/odor-removers-hard-surfaces",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c57e7656422efc7670478adcad4d72ace73ce85fb8172c31aeef3b89130b5557",
+      "content_sha256": "02b85d89817f875afd89a0b67b01d32438199536634698663f52de6272531a09",
       "content_bytes": 7348,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/odor-removers-hard-surfaces.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/odor-removers-hard-surfaces.md | sha256sum"
     }
   },
   "evidence_base": {

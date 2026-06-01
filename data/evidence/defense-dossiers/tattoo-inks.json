@@ -17,18 +17,46 @@
     "canonical_url": "https://heavymetalindex.com/products/tattoo-inks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "cd1eae4006d03478e7ce8889176d37a1784d960bbd14665706894f9febabe746",
-      "content_bytes": 7321,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "92e484b0409278df69cacec344e89306839c3e5635d5d06841d5a036ea3a507a",
+      "content_bytes": 8293,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/tattoo-inks.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/tattoo-inks.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/cirs2023-reach-annex-xvii-restrictions",
+        "title": "REACH ANNEX XVII — Restrictions on the Manufacture, Placing on the Market and Use of Certain Dangerous Substances, Mixtures and Articles",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "iHg",
+          "Cr-VI",
+          "Ni",
+          "tAs",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
+        "content_pin": {
+          "content_sha256": "4910e737e852800fe3399e4b2ca8867aea20dfc2cd868ee6c632e25e33341693",
+          "content_bytes": 33923,
+          "last_commit_sha": "121cbf8",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 121cbf8:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/art-craft-materials",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "69d6fab5d9a3992e2325c42f7c041da1412a7c846c7e1c433afead8fa654bf80",
-      "content_bytes": 8646,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "2ca924a99f795319d393e9b654b6b427666a6477e4dc5af17d398903a4b1a1a3",
+      "content_bytes": 9209,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/art-craft-materials.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/art-craft-materials.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 3,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -48,12 +48,59 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/iso2020-8124-3-toy-migration-elements",
         "content_pin": {
-          "content_sha256": "ed677f77759c14439ffd92715981755fa2052f8b527e2e21805ef3efd477c2a5",
-          "content_bytes": 33315,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "c0049ba70e1bbf8d7eac3898391d9addcacf4118c0a5665a95c1652a55f3a5e2",
+          "content_bytes": 33461,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/iso2020-8124-3-toy-migration-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/ul2012-chemicals-childrens-toys",
+        "title": "Chemicals in Children's Toys: Addressing Stricter Limits and Environmental Concerns",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "Al",
+          "Sb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
+        "content_pin": {
+          "content_sha256": "1626a1271c6824ca66d816fbdc36994e5a728124ac7e43c1e21b284196041106",
+          "content_bytes": 31363,
+          "last_commit_sha": "1455c9b",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 1455c9b:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/villarreal2021-ic-icpms-cr-vi-toys",
+        "title": "Ensuring toy safety from hexavalent chromium to meet European regulations using IC-ICPMS quantification",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/villarreal2021-ic-icpms-cr-vi-toys",
+        "content_pin": {
+          "content_sha256": "b4191b5546b86c18fbaedc7ab0b4af2fbcca4c041e330e7d0b0901c79395338d",
+          "content_bytes": 24398,
+          "last_commit_sha": "885b217",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 885b217:wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md | sha256sum"
         }
       }
     ]

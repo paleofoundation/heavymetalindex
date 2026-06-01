@@ -84,7 +84,7 @@ lower_risk_variants: []
 higher_risk_variants: ["[[ingredients/cocoa-powder]]", "[[ingredients/high-cocoa-solid-dark-chocolate]]"]
 used_in_products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[products/cocoa-baked-goods]]", "[[products/confectionery]]", "[[products/baby-food-flavor]]", "[[products/nutritional-supplements]]"]
 audience: [regulator, educator, consumer, app]
-sources: 41
+sources: 42
 wiki_doi: null
 updated: 2026-05-16
 ---
@@ -255,11 +255,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 33 | [[sources/arevalo-gardini2017-peru-cacao-regional-metals\|Arévalo-Gardini et al. 2017]]. *Heavy metal accumulation in leaves and beans of cacao (Theobroma cacao L.) in major cacao growing regions in Peru*, Science of the Total Environment | 2017 | Peer-reviewed | Cd, Pb, Cr, Ni, and other metals in cacao beans and leaves across 70 Peruvian plantations; >57% of beans exceeded EU Cd limit of 0.8 µg/g, with Amazonas, Piura, and Tumbes as primary exceedance regions |
 | 34 | [[sources/scheer2017-aluminium-tolerable-intake-toys\|SCHEER 2017]]. *Final Opinion on tolerable intake of aluminium with regards to adapting the migration limits for aluminium in toys*, Scientific Committee on Health, Environmental and Emerging Risks (SCHEER), European Commission | 2017 | Government report | EU Al occurrence in Review of regulatory opinions and dietary exposure data for children and adults |
 | 35 | [[sources/ramtahal2016-cacao-cadmium-trinidad\|Ramtahal et al. 2016]]. *Relationships between cadmium in tissues of cacao trees and soils in plantations of Trinidad and Tobago*, Food and Nutrition Sciences | 2016 | Peer-reviewed | Cd in cacao tissues and soils from 45 Trinidad and Tobago plantations; leaf and pod Cd correlate significantly with bean Cd, enabling pre-harvest screening for Cd compliance before harvest |
-| 36 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples from 15 European countries (2003–2012) (n=18885) |
-| 37 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical textbook chapter on Cd toxicology covering toxicokinetics, renal endpoint, carcinogenicity, and risk assessment — provides the health-effects framework underlying regulatory limits cited on this page |
-| 38 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA 2009 Cd risk assessment establishing TWI of 2.5 µg/kg bw/week; includes cocoa and chocolate in the European dietary Cd exposure model used to derive the EU regulatory framework |
-| 39 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex General Standard — sets matrix-specific Cd MLs cited in the regulatory limits section, including 2.0 mg/kg for 100% cocoa powder and graduated limits by cocoa-solid percentage for chocolate |
-| 40 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni content dataset (2,221 samples) reporting cocoa mean Ni at 9.8 µg/g (range 8.2–12.0 µg/g), the highest of any food matrix — primary source for the Nickel in cocoa section |
+| 36 | [[sources/vitola2016-cocoa-beans-heavy-trace-elements\|Vitola et al. 2016]]. *The Effect of Cocoa Beans Heavy and Trace Elements on Safety and Stability of Confectionery Products*, Rural Sustainability Research 35(330):19-23 | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 37 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples from 15 European countries (2003–2012) (n=18885) |
+| 38 | [[sources/nordberg2015-cadmium-chapter\|Nordberg et al. 2015]]. *Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals*, Academic Press / Elsevier, Amsterdam | 2015 | Textbook chapter | Canonical textbook chapter on Cd toxicology covering toxicokinetics, renal endpoint, carcinogenicity, and risk assessment — provides the health-effects framework underlying regulatory limits cited on this page |
+| 39 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EFSA 2009 Cd risk assessment establishing TWI of 2.5 µg/kg bw/week; includes cocoa and chocolate in the European dietary Cd exposure model used to derive the EU regulatory framework |
+| 40 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | Codex General Standard — sets matrix-specific Cd MLs cited in the regulatory limits section, including 2.0 mg/kg for 100% cocoa powder and graduated limits by cocoa-solid percentage for chocolate |
+| 41 | [[sources/flyvholm1984-nickel-content-food-dietary-intake\|Flyvholm et al. 1984]]. *Nickel Content of Food and Estimation of Dietary Intake*, Zeitschrift für Lebensmittel-Untersuchung und -Forschung 179(6):427-431 | 1984 | Peer-reviewed | Foundational Ni content dataset (2,221 samples) reporting cocoa mean Ni at 9.8 µg/g (range 8.2–12.0 µg/g), the highest of any food matrix — primary source for the Nickel in cocoa section |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -269,9 +270,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

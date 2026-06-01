@@ -174,3 +174,14 @@ Sample size is moderate (n=100 vegetable composites across 10 species × 5 sites
 - **Data integrity.** All 22 vegetable/soil/water rows in Table 3 (Pb panel and Hg panel), all 36 cells in Table 4 (urban + rural × 6 age groups × 3 metrics), Table 1 (linear equations), Table 2 (recovery and RSD), and all parameter values in §2.11.2 transcribed from the source PDF and verified against the rendered tables. The seven paper-internal inconsistencies above are flagged in this section; no other transcription discrepancies identified.
 - **Audit subagent (2026-06-01) flagged `[[ingredients/leafy-vegetables]]` as not in the taxonomy snapshot; verified against source — finding was a false positive because** the 2026-05-18 taxonomy snapshot (`docs/gpt-collaboration/taxonomy-snapshot.md`) contains both `leafy-greens` and `leafy-vegetables` in its ingredient slug list (line 40: "...leafy-greens,leafy-vegetables,legumes..."), and both `wiki/ingredients/leafy-greens.md` and `wiki/ingredients/leafy-vegetables.md` exist as canonical pages. The slug is valid; no change required. All other audit checks (numerical fidelity, speciation/methods, brand firewall, wiki/HMTc firewall) passed.
 - **Audit subagent (2026-06-01) flagged the across-vegetable pooled means (Pb 1095 ± 722.07 µg/kg; tHg 47.30 ± 23.35 µg/kg from §3.2 narrative) as a completeness gap;** verified against source — values added to the Key numbers section under Table 3 as an "across-vegetable pooled means" line. This is a useful cross-paper-synthesis input that complements the per-species means.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c63b031](https://github.com/paleofoundation/heavymetalindex/commit/c63b031) | 2026-06-01 | audit: ghasemidehkordi2018-markazi-vegetables-pb-hg [promoted] |
+| [f9fd799](https://github.com/paleofoundation/heavymetalindex/commit/f9fd799) | 2026-06-01 | ingest: ghasemidehkordi2018-markazi-vegetables-pb-hg [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

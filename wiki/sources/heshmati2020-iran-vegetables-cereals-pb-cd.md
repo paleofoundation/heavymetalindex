@@ -197,3 +197,13 @@ Sample size is moderate (50 composites per commodity, triplicate measurements). 
 - **Regulatory citations.** The paper cites EU Commission Regulation 1881/2006 (Off. J. Eur. Union L 364, 5; ref [15]) for vegetable and cereal MAC values; JECFA 2010 WHO TRS 960 (ref [32]) for the Cd PTMI of 25 µg/kg bw/month and for the withdrawal of the Pb PTWI in favour of the 1.2 µg/kg bw/day MOE comparator. EU 1881/2006 is captured in the wiki page's regulatory-context routing as `eu-1881-2006-contaminants-superseded` (superseded by EU 2023/915 in 2023; the paper's sampling window predates the supersession, so the cited values were operative at the time of the survey).
 - **Pb wavelength.** Paper reports 217 nm (Pb) and 228.8 nm (Cd). 217.0 nm is a recognized secondary Pb GF-AAS line (the primary is 283.3 nm); the paper does not justify the choice but the calibration r² of 0.9987 and the 95–107 % recovery support the working selection. Documented for downstream method-comparison cross-reference.
 - **Data integrity.** All 8 commodity × 2 metal × (mean ww, SD ww, mean dw, SD dw, range min, range max, n below MAC, n above MAC) = 128 Table 2/3 cells transcribed from the original PDF (pages 103, 104). All Table 4 cells (8 commodities × 7 columns + TTHQ) likewise transcribed. Table 1 method-validation cells (Cd and Pb × 5 columns) likewise transcribed. EDI = C × FIR / bw recomputed verbatim for all eight commodities and both metals against the Table 4 column inputs, with no internal arithmetic discrepancies in Table 4 itself. The 332-vs-322 g/day discrepancy and the EDI rank-order statements are the two paper-internal contradictions identified; both flagged above. No other contradictions.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ed45f34](https://github.com/paleofoundation/heavymetalindex/commit/ed45f34) | 2026-06-01 | ingest: heshmati2020-iran-vegetables-cereals-pb-cd [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

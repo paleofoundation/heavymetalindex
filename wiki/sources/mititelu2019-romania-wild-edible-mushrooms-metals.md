@@ -60,3 +60,12 @@ This source adds Romania-context wild edible mushroom occurrence data for [[meta
 - The PDF table formatting is compact; numeric rows were read as dry-weight ug/g values and summarized without recalculating derived ratios.
 - Soil data are not food occurrence rows. They are kept only to explain the mushroom values and source design.
 
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

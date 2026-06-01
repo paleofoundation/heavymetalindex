@@ -135,3 +135,13 @@ Source contributes:
 - `products/rice-bulk-grain` is the closest current product taxonomy slug for raw post-husking rice purchased from farmers; the paper measures the cultivated grain (post-harvest, post-husking) before commercial milling/packing, so the bulk-grain product slug is the routing destination. `products/rice-noodles`, `products/rice-snacks-crackers`, and `products/rice-bran-oil` are not relevant.
 - Codex cereal Ni limit of 10 mg/kg cited by the paper does not have a current regulation slug in the snapshot; not linked.
 - Iranian National Standard No. 12968 (rice contaminants) does not have a current regulation slug in the snapshot; not linked.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f5b23d1](https://github.com/paleofoundation/heavymetalindex/commit/f5b23d1) | 2026-06-01 | ingest: mohammadi2024-champa-rice-southwest-iran-carcinogenic-risk [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 4
+sources: 9
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
@@ -163,10 +163,15 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|Shavali-gilani et al. 2025]]. *Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers*, Scientific Reports | 2025 | Peer-reviewed | Canned-olive Pb elevation above the Codex 0.10 mg/kg limit in Iranian-market product; Sn and tHg in the canned-olive matrix |
-| 2 | [[sources/shavalig2025-canned-tomato-olives-pickles-iran\|Shavali-gilani et al. 2025]]. *Investigation of heavy metal levels in canned tomato paste, olives, and pickled*, Scientific Reports | 2025 | Peer-reviewed | IR Cd, Cu, tAs, Fe, Pb, Sn, Zn, tHg occurrence in 49 canned samples (tomato paste, olives, pickled cucumbers) from five popular brands in Tehran, Iran (n=49) |
-| 3 | [[sources/vella2024-malta-olive-cultivars-aas\|Vella et al. 2024]]. *Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS*, MCAST Journal of Applied Research & Practice, Vol. 8, Issue 2 | 2024 | Peer-reviewed | Maltese cultivar-vs-fraction Ni, Cu, Cr distribution across skin, pit, solid waste, and liquid waste; demonstrates processing-fraction lever |
-| 4 | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|Karatasli 2018]]. *Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey*, Nuclear Technology & Radiation Protection | 2018 | Peer-reviewed | Turkish-Mediterranean table-olive Pb, Ni, Cr, and trace-metal occurrence distribution across 26 districts |
+| 1 | [[sources/sallam2025-olive-oil-libya-traditional-modern\|Sallam et al. 2025]]. *Traditional vs. Modern Olive Oil Extraction in Libya: A Comparative Study of Fatty Acids and Heavy Metal Contamination*, The North African Journal of Scientific Publishing (NAJSP) | 2025 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran\|Shavali-gilani et al. 2025]]. *Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers*, Scientific Reports | 2025 | Peer-reviewed | Canned-olive Pb elevation above the Codex 0.10 mg/kg limit in Iranian-market product; Sn and tHg in the canned-olive matrix |
+| 3 | [[sources/shavalig2025-canned-tomato-olives-pickles-iran\|Shavali-gilani et al. 2025]]. *Investigation of heavy metal levels in canned tomato paste, olives, and pickled*, Scientific Reports | 2025 | Peer-reviewed | IR Cd, Cu, tAs, Fe, Pb, Sn, Zn, tHg occurrence in 49 canned samples (tomato paste, olives, pickled cucumbers) from five popular brands in Tehran, Iran (n=49) |
+| 4 | [[sources/vella2024-malta-olive-cultivars-aas\|Vella et al. 2024]]. *Investigation on the Concentration of Heavy Metals found in Local Olives and Waste Material through AAS*, MCAST Journal of Applied Research & Practice, Vol. 8, Issue 2 | 2024 | Peer-reviewed | Maltese cultivar-vs-fraction Ni, Cu, Cr distribution across skin, pit, solid waste, and liquid waste; demonstrates processing-fraction lever |
+| 5 | [[sources/liang-yang2019-olive-leaves-cu-zn-stress\|Liang et al. 2019]]. *Effects of Zinc and Copper Stress on Antioxidant System of Olive Leaves*, IOP Conference Series: Earth and Environmental Science | 2019 | Peer-reviewed | *[awaiting synthesis]* |
+| 6 | [[sources/karatasli2018-radionuclide-heavy-metal-turkey-olives\|Karatasli 2018]]. *Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey*, Nuclear Technology & Radiation Protection | 2018 | Peer-reviewed | Turkish-Mediterranean table-olive Pb, Ni, Cr, and trace-metal occurrence distribution across 26 districts |
+| 7 | [[sources/llorent-martinez2014-olive-oil-extraction-metals-fate\|Llorent-Martínez et al. 2014]]. *Quantitation of Metals During the Extraction of Virgin Olive Oil from Olives Using ICP-MS after Microwave-assisted Acid Digestion*, Journal of the American Oil Chemists' Society | 2014 | Peer-reviewed | *[awaiting synthesis]* |
+| 8 | [[sources/acar2012-vegetable-oils-olives-turkey-etaas\|Acar 2012]]. *Evaluation of cadmium, lead, copper, iron and zinc in Turkish dietary vegetable oils and olives using electrothermal and flame atomic absorption spectrometry*, Grasas y Aceites | 2012 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/la-pera2010-sicily-olive-oil-metals-selenium\|La et al. 2010]]. *Classification of Sicilian Olive Oils According to Heavy Metal and Selenium Levels Using Canonical Discriminant Analysis (CDA)*, Olives and Olive Oil in Health and Disease Prevention (Elsevier, ISBN 978-0-12-374420-3), Chapter 18, pp. 155–163 | 2010 | Book chapter | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -176,9 +181,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

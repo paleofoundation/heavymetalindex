@@ -83,7 +83,7 @@ used_in_products: [baby-cereals-dry-rice-based, mixed-meals-rice-containing, tee
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 7
+sources: 8
 ---
 
 # Rice Flour
@@ -127,7 +127,8 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics 12(5): 325 | 2024 | Peer-reviewed | HPLC-ICP-MS Cr-VI speciation method validated on rice flour with Cr-VI not detected and rapid conversion to Cr-III in food matrices |
 | 4 | [[sources/gacal2023-cadmium-lead-bread-gluten-free-poland\|Gacal et al. 2023]]. *Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers*, Annales Academiae Medicae Silesiensis | 2023 | Peer-reviewed | Cd and Pb in gluten-free Polish bread made with rice or maize flour, providing rice-flour-based finished-product distribution evidence |
 | 5 | [[sources/editor2019-manganese-levels-infant-formula\|Editor 2019]]. *Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France*, Unknown | 2019 | Journal article | US/FR Mn occurrence in Commercial infant formulas and nutritional beverages marketed in the United States and France (n=Unknown) |
-| 6 | [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\|Chiger et al. 2017]]. *Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment*, Abt Associates report prepared for Healthy Babies Bright Futures | 2017 | Agency report | Modeled IQ-loss and benefit-cost analysis of reducing iAs in rice-flour-based infant cereal |
+| 6 | [[sources/costa2018-rice-arsenic-speciation\|Costa 2018]]. *Especiacao quimica de arsenio em amostras de arroz empregando extracao por fase solida in-situ e determinacao por FI-HG AAS*, Tese de Doutorado, Universidade Federal de Uberlandia | 2018 | Thesis | *[awaiting synthesis]* |
+| 7 | [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf\|Chiger et al. 2017]]. *Effects of Inorganic Arsenic in Infant Rice Cereal on Children's Neurodevelopment*, Abt Associates report prepared for Healthy Babies Bright Futures | 2017 | Agency report | Modeled IQ-loss and benefit-cost analysis of reducing iAs in rice-flour-based infant cereal |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -176,9 +177,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

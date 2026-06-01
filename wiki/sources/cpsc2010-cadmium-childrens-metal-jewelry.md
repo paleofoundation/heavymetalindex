@@ -149,3 +149,14 @@ The peer-review comments addressed in TAB A include (verbatim or in summary): th
 - **Near-duplicates.** None identified in the current corpus. The companion CPSC document referenced in the cover letter ("Staff Report on Toy Standard Test Methods with Data from Testing Metal Jewelry and Other Materials," dated August 2010) is not in the corpus and would be a complementary source if added later; the corpus's existing CPSC staff documents (`hatlelid2009-cpsc-cpsia-lead-childrens-products`, `cpsc2009-cpsia-101-procedures-npr`, `cpsc2009-cpsia-101b-inaccessibility-rule`, `cpsc2012-cpsia-101b-functional-purpose-exception`, `johnson2012-cpsc-astm-f963-status`, `cpsc1997-pvc-children-products`) cover lead in children's products and related FHSA/CPSIA framework rather than cadmium in metal jewelry specifically, so no near-duplicates are claimed.
 - **Raw integrity.** raw_sha256 = eb72509f53a5cf8c9bfde121a6b0b04deb90c38fb74fffcbf1221a40c05896f0 verified by `shasum -a 256` against the file at `raw_path`.
 - **Funding and conflicts.** Not applicable: U.S. federal-agency staff communication; no funding disclosure or conflict-of-interest statement applies to a CPSC staff report. The staff caveat ("These comments are those of the CPSC staff and have not been reviewed or approved by, and may not necessarily reflect the views of, the Commission"), which appears on the cover letter, on the Staff Report, on TAB A, and on TAB B, is the relevant institutional disclaimer.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [60c4407](https://github.com/paleofoundation/heavymetalindex/commit/60c4407) | 2026-06-01 | audit: cpsc2010-cadmium-childrens-metal-jewelry [revised] |
+| [ce2159a](https://github.com/paleofoundation/heavymetalindex/commit/ce2159a) | 2026-06-01 | ingest: cpsc2010-cadmium-childrens-metal-jewelry [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_04_Fasteners_Snaps_Zippers/04_Fasteners_Snaps_Zippers |
+<!-- END: hmi-page-history -->

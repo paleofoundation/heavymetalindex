@@ -128,3 +128,14 @@ The chapter does not provide primary contamination data on any food matrix, ingr
 
 - Frontmatter `metals:` uses `tAs` (not `As`) and `tHg` (not separate `Hg` + `MeHg`) per Part 14 speciation discipline: the chapter discusses arsenite As(III) and arsenate As(V) without measuring iAs specifically, and references methylmercury only mechanistically as a MerB organomercurial-lyase substrate without speciated MeHg measurement. The `[[metals/mercury-methyl]]` wikilink at the bottom is retained because the chapter does discuss methylmercury mechanism (p. 363), even though no MeHg measurement is reported. Correction applied during the 2026-06-01 audit-subagent pass.
 - Frontmatter `matrices:` uses `[contaminated-soil, mine-drainage, e-waste, bacterial-cell]`. `bacterial-cell` is precedented (see [[sources/chandrangsu2017-metal-homeostasis-resistance-bacteria]]). `contaminated-soil`, `mine-drainage`, and `e-waste` are descriptive environmental-matrix slugs new to this source page; they are plausible analogues to existing slugs (`industrial-soil`, `agro-industrial-waste`, `leachate`) but should be confirmed against the matrices controlled vocabulary on the next Karen review.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [922a9c6](https://github.com/paleofoundation/heavymetalindex/commit/922a9c6) | 2026-06-01 | audit: aishwarya2024-extremophiles-bioremediation-review [revised] |
+| [04c340c](https://github.com/paleofoundation/heavymetalindex/commit/04c340c) | 2026-06-01 | ingest: aishwarya2024-extremophiles-bioremediation-review [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

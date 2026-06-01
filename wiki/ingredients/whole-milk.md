@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
-sources: 5
+sources: 6
 ---
 
 # Whole milk
@@ -193,9 +193,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus\|Yildiz et al. 2024]]. *Determination of Some Minerals and Heavy metals in Raw Cow's Milk Collected from Different Regions of Muş Province*, Afyon Kocatepe University – Journal of Science and Engineering (AKU J. Sci. Eng.) | 2024 | Peer-reviewed | TR Pb, Cd, Fe, Cu, Mn, Mg, Zn occurrence in 10 raw cow milk samples from different regions of Muş province, eastern Turkey (n=10) |
 | 2 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | FDA TDS FY2018–FY2020 Cd, Cr, Ni, Pb, U, tAs, tHg occurrence distributions for Milk, whole, fluid (n=27); all analytes reported as zero (BDL) |
-| 3 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | Pb, tHg, Ni, and U in Spanish retail whole cow milk by ICP-MS; Pb detected in non-organic whole milk; finished-milk matrix context supplementing FDA TDS data |
-| 4 | [[sources/pankiewicz2012-thg-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A | 2012 | Peer-reviewed | PL tHg occurrence in 48 dairy products (milk, kefir, natural and flavoured yogurt, cream, cream cheese, cottage cheese, butter, milk powder, buttermilk,... (n=48) |
-| 5 | [[sources/starska2011-noxious-elements-milk-products-poland\|Starska et al. 2011]]. *Noxious Elements in Milk and Milk Products in Poland*, Polish Journal of Environmental Studies | 2011 | Peer-reviewed | PL Pb, Cd, tHg, tAs occurrence in 483 milk and dairy product samples from all 16 Polish voivodships (2006–2007); 92% domestic production, 8% imported from... (n=483) |
+| 3 | [[sources/hasan2022-bangladesh-raw-pasteurized-milk-metals\|Hasan et al. 2022]]. *Determination of heavy metals in raw and pasteurized liquid milk of Bangladesh to assess the potential health risks*, Food Research | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/marques2021-trace-elements-milks-plant-based-drinks\|Marques et al. 2021]]. *Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks*, Biological Trace Element Research | 2021 | Peer-reviewed | Pb, tHg, Ni, and U in Spanish retail whole cow milk by ICP-MS; Pb detected in non-organic whole milk; finished-milk matrix context supplementing FDA TDS data |
+| 5 | [[sources/pankiewicz2012-thg-dairy-products-poland\|Pankiewicz 2012]]. *Monitoring of total mercury level in selected dairy products from the south-east regions of Poland*, Ecological Chemistry and Engineering A | 2012 | Peer-reviewed | PL tHg occurrence in 48 dairy products (milk, kefir, natural and flavoured yogurt, cream, cream cheese, cottage cheese, butter, milk powder, buttermilk,... (n=48) |
+| 6 | [[sources/starska2011-noxious-elements-milk-products-poland\|Starska et al. 2011]]. *Noxious Elements in Milk and Milk Products in Poland*, Polish Journal of Environmental Studies | 2011 | Peer-reviewed | PL Pb, Cd, tHg, tAs occurrence in 483 milk and dairy product samples from all 16 Polish voivodships (2006–2007); 92% domestic production, 8% imported from... (n=483) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -205,9 +206,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

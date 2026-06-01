@@ -218,3 +218,14 @@ The authors describe lead exposure across all 22 eye shadows in 3 brands and acr
 - 2024-01-22 (publication): Optical and Quantum Electronics 56(8):399. Received 24 Nov 2023, accepted 19 Dec 2023, published online 22 Jan 2024. CC BY 4.0. Subsequently retracted (date and grounds not visible in supplied PDF).
 - 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` (DOI grep, raw_handle grep, cite-key grep) returned zero matches. PDF read in three chunks (pages 1-8, 9-16, 17-20) via the `pages` parameter; all of abstract, introduction, methods (instrumentation, reagents, calibration, sample collection, digestion), Table 1 (ICP-MS operating conditions), Table 2 (CRM recoveries), Table 3 (LOD/LOQ), Table 4 (Brand 1 results), Table 5 (Brand 2 + Brand 3 results), discussion (p. 12-15), conclusion, and references read in full. RETRACTED status surfaced as primary metadata. Source page written, routing audit refreshed (4 product routes, 0 unresolved, advisory-only ingredients-empty note), ingest committed, audit queued.
 - 2026-06-01 Phase 2 audit (fresh-context Agent subagent, general-purpose): Verdict REVISE. Three numerical-fidelity findings (one ❌ on a panel-maxima narrative misattribution, one ⚠️ on an imputed value not in source, one ⚠️ raising two additional discussion-vs-table contradictions). Two of three findings confirmed and applied; one ⚠️ sub-claim (Pb 10.7 vs 12.2 for Brand 1) verified as a false positive (different product forms) and rejected with documentation. Checks 2-5 (slug vocabulary, speciation/methods, brand firewall, wiki-HMTc firewall) all clean. No changes to per-product Tables 4-5 transcription (verified clean cell-by-cell against the source PDF).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f2b10ac](https://github.com/paleofoundation/heavymetalindex/commit/f2b10ac) | 2026-06-01 | audit: kopru2024-children-cosmetics-icpms [revised] |
+| [2db2c8e](https://github.com/paleofoundation/heavymetalindex/commit/2db2c8e) | 2026-06-01 | ingest: kopru2024-children-cosmetics-icpms [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen |
+<!-- END: hmi-page-history -->

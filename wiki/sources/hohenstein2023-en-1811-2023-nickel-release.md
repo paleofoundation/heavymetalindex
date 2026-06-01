@@ -83,3 +83,14 @@ The bulletin is a one-page derivative communication summarising four operative c
 - **Audit subagent (2026-06-01) flagged `childrens-jewelry` as not in the 2026-05-18 taxonomy snapshot.** Verified against `wiki/products/childrens-jewelry.md`: the slug is a live wiki product page created 2026-05-31 as a `provisional_scaffold: true` by ingest of `nelson2023-wa-childrens-jewelry-followup`, post-dating the snapshot's generation date. The routing audit accepts `childrens-jewelry` as a valid routing target (this source contributes a direct_evidence row to that product page). Finding was a false positive because the taxonomy snapshot is a static 2026-05-18 export, not the live wiki state; the live product page exists and the routing layer routes to it correctly. No change to `products:` array.
 - **Audit subagent (2026-06-01) flagged the `1 week` exposure-duration row in Key numbers as not stated by this source.** Verified against the bulletin: the bulletin does not state exposure duration. Row removed from the Key numbers table; the wiki retains exposure-duration attribution on the [[testing/en-1811-nickel-release]] method page via [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] as the source-of-record for that value.
 - **Audit subagent (2026-06-01) flagged `matrices: [skin-contact-article]` as not on the controlled matrices vocabulary.** Verified against precedent: the existing [[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]] source page uses `matrices: [skin-contact-article, piercing-post-assembly, stainless-steel, artificial-sweat, blood-plasma, urine]`, establishing `skin-contact-article` as the corpus convention for non-food dermal-exposure sources. Finding was a low-severity vocabulary concern; the corpus convention is followed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [af41d42](https://github.com/paleofoundation/heavymetalindex/commit/af41d42) | 2026-06-01 | audit: hohenstein2023-en-1811-2023-nickel-release [revised] |
+| [ffce325](https://github.com/paleofoundation/heavymetalindex/commit/ffce325) | 2026-06-01 | ingest: hohenstein2023-en-1811-2023-nickel-release [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_04_Fasteners_Snaps_Zippers/04_Fasteners_Snaps_Zippers |
+<!-- END: hmi-page-history -->

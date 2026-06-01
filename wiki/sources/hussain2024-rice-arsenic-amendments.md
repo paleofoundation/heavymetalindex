@@ -66,3 +66,13 @@ The authors grew two contrasting rice genotypes in an amendment experiment with 
 - The text layer has OCR ambiguity for some shoot As values in Table 1, so this page anchors only the legible grain As values and the abstract's shoot-range statement.
 - The conclusion section appears to contain a copy-editing carryover about mushroom fruit bodies; this conflicts with the rest of the chapter and is not used for routing.
 - The source reports total As only. It cannot support an inorganic-arsenic row without a separate speciation assumption, which is not allowed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bd42001](https://github.com/paleofoundation/heavymetalindex/commit/bd42001) | 2026-06-01 | audit: norouzirad2018-iran-khuzestan-oilfield-milk-pb-cd [revised] |
+<!-- END: hmi-page-history -->

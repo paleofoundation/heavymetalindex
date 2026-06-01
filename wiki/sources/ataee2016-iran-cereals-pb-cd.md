@@ -139,3 +139,13 @@ The single-province sampling footprint (three markets in Kermanshah) and small p
 - **Basis.** Dry weight as analysed (1.0 g oven-dried at 50 °C for 2 h, then dry-ashed at 500 °C for 12 h). All Table 4 values are on the dry-as-sold basis of the bulk grain commodities. No conversion to as-consumed or wet-weight basis is needed for the values reported; if downstream synthesis requires a wet-basis conversion, the paper does not provide moisture content for each commodity and a literature value would be required.
 - **Sampling year.** Not stated; manuscript received 30 September 2015 and accepted 29 January 2016, so sampling likely occurred in 2014–2015. Left null in frontmatter.
 - **Data integrity.** All 42 commodity×market×metal cells transcribed from Table 4 (pp. 279–280) and verified against the original PDF. Spike-recovery section (Market 1 only) and CRM results (§3.9) likewise transcribed and verified. No paper-internal contradictions identified.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e186249](https://github.com/paleofoundation/heavymetalindex/commit/e186249) | 2026-06-01 | ingest: ataee2016-iran-cereals-pb-cd [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

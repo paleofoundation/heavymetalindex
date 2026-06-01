@@ -17,18 +17,39 @@
     "canonical_url": "https://heavymetalindex.com/products/other-grain-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "19efe20d10470fbce699c06a5b6a728b818a52966143f0642daa977abdf852f5",
-      "content_bytes": 9442,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "84d1b9ba3f96e0133a7c0079efd21ec6696ec85355e35116dbf99f427e752661",
+      "content_bytes": 11776,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/other-grain-products.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/other-grain-products.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 7,
+    "contributing_source_count": 14,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/ataee2016-iran-cereals-pb-cd",
+        "title": "Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ataee2016-iran-cereals-pb-cd",
+        "content_pin": {
+          "content_sha256": "3ac41e85fbc35d315a54b7e40421d5f63f3e9a23303bb25352b5ff6d147e98ed",
+          "content_bytes": 12416,
+          "last_commit_sha": "e186249",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e186249:wiki/sources/ataee2016-iran-cereals-pb-cd.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/efsa2021-chronic-exposure-iAs",
         "title": "Chronic dietary exposure to inorganic arsenic",
@@ -42,12 +63,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2021-chronic-exposure-iAs",
         "content_pin": {
-          "content_sha256": "cbac2bafcc11b7c019f7aadc602d9a42f881a2609314365f59d1fd8ce7633737",
+          "content_sha256": "bbf8ee86cf58700ee8d0e07ab0d72d163b95a57a44251feca8dddbef6ce57126",
           "content_bytes": 6605,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/efsa2021-chronic-exposure-iAs.md | sha256sum"
         }
       },
       {
@@ -63,12 +84,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2024-risk-assessment-iAs-update",
         "content_pin": {
-          "content_sha256": "935e1b701b02aa294c62afc800cbfb3030ccc97bf2cd2b595458688e86875509",
+          "content_sha256": "3733dd4506a049d78ac4d8432736a6aad7689261e2b296ff11f54a962d3e9779",
           "content_bytes": 7438,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/efsa2024-risk-assessment-iAs-update.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/el-hassanin2020-egypt-maize-pb-cd",
+        "title": "Risk assessment of human exposure to lead and cadmium in maize grains cultivated in soils irrigated either with low-quality water or freshwater",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/el-hassanin2020-egypt-maize-pb-cd",
+        "content_pin": {
+          "content_sha256": "2d6586fbf9026274b3c5561e3b309b4a039fbadf14d4fc93cc61d52c7958df9c",
+          "content_bytes": 21499,
+          "last_commit_sha": "cafbb59",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cafbb59:wiki/sources/el-hassanin2020-egypt-maize-pb-cd.md | sha256sum"
         }
       },
       {
@@ -87,12 +129,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hbbf2025-rice-arsenic-cadmium-145-samples",
         "content_pin": {
-          "content_sha256": "d91cd919023cbcdf79bde2513f001ee18d5579c1516ca43133306727f839a2e3",
+          "content_sha256": "72873a143d3f481b67ea7ace77ee25d936115bcb3b6dff3f6d72cf65d96048d7",
           "content_bytes": 11848,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/hbbf2025-rice-arsenic-cadmium-145-samples.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/heshmati2020-iran-vegetables-cereals-pb-cd",
+        "title": "Concentration and Risk Assessment of Potentially Toxic Elements, Lead and Cadmium, in Vegetables and Cereals Consumed in Western Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/heshmati2020-iran-vegetables-cereals-pb-cd",
+        "content_pin": {
+          "content_sha256": "60366db299580596367af5b68bbe5b4de314d9672f298689293ab08451eefce4",
+          "content_bytes": 22213,
+          "last_commit_sha": "ed45f34",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ed45f34:wiki/sources/heshmati2020-iran-vegetables-cereals-pb-cd.md | sha256sum"
         }
       },
       {
@@ -107,12 +170,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2020-nickel-cereal-grains-poland",
         "content_pin": {
-          "content_sha256": "b3cf6ec819f1f539b6436d1db8fd4f7197222c12879aeefb86575ad1cd1a8ad5",
+          "content_sha256": "f2cda3d341daa33d40429af869316e295d956e49dfca892168ea2c5a2749c332",
           "content_bytes": 7126,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/mania2020-nickel-cereal-grains-poland.md | sha256sum"
         }
       },
       {
@@ -130,12 +193,108 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mawari2022-heavy-metals-fruits-vegetables-india",
         "content_pin": {
-          "content_sha256": "e85825f32969fd2b2f6f4035b376826ed1eb1ac80684e894fbbff79d58b62966",
+          "content_sha256": "e25def1c25b148d151af5e968ff196e7f9da845645cbb7344b789e689f2669e9",
           "content_bytes": 15211,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/moradi2015-iran-isfahan-soil-crops-metals",
+        "title": "A Human Health Risk Assessment of Soil and Crops Contaminated by Heavy Metals in Industrial Regions, Central Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Ni",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/moradi2015-iran-isfahan-soil-crops-metals",
+        "content_pin": {
+          "content_sha256": "a5bffa4eb407a6f5c6ccdfb96b0fdb3346b039dd11238a298707e15e4069eda4",
+          "content_bytes": 33000,
+          "last_commit_sha": "05880fa",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 05880fa:wiki/sources/moradi2015-iran-isfahan-soil-crops-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/nejabat2017-iran-golestan-wheat-metals",
+        "title": "Health risk assessment of heavy metals via dietary intake of wheat in Golestan Province, Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cu",
+          "Fe",
+          "Zn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/nejabat2017-iran-golestan-wheat-metals",
+        "content_pin": {
+          "content_sha256": "b6b02ef4d77541f96b93b877e50f5c344311593860c90595cab4811767b74c46",
+          "content_bytes": 26506,
+          "last_commit_sha": "9b3a0f5",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 9b3a0f5:wiki/sources/nejabat2017-iran-golestan-wheat-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pirsaheb2015-iran-kermanshah-cereals-metals",
+        "title": "Essential and toxic heavy metals in cereals and agricultural products marketed in Kermanshah, Iran, and human health risk assessment",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr",
+          "Ni",
+          "Zn",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pirsaheb2015-iran-kermanshah-cereals-metals",
+        "content_pin": {
+          "content_sha256": "7fbf9cd0c9cdb7440f32a6c30dc61f2d94286e82f6fce4e558642dcb4a847317",
+          "content_bytes": 20089,
+          "last_commit_sha": "0c00555",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 0c00555:wiki/sources/pirsaheb2015-iran-kermanshah-cereals-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/salehipour2015-iran-isfahan-cereals-vegetables-metals",
+        "title": "Health Risks from Heavy Metals via Consumption of Cereals and Vegetables in Isfahan Province, Iran",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tAs",
+          "Ni",
+          "Zn",
+          "Cu"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals",
+        "content_pin": {
+          "content_sha256": "95dd25d3d32f363f9c12139bb4c3b7bdd2ab6bccb94fcde63c215c4882ab7ccf",
+          "content_bytes": 23032,
+          "last_commit_sha": "472e3af",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 472e3af:wiki/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals.md | sha256sum"
         }
       },
       {
@@ -153,12 +312,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/slepecka2017-ecological-cereal-heavy-metals-poland",
         "content_pin": {
-          "content_sha256": "3feef1850ad72482cbc332a6a718e539c704c6138f5c9de9e3b6f7bd9b84741a",
+          "content_sha256": "e9c4e3a79ae1f0e57aa8a3018916914066ee4a57c1fc3b6f3d2e5d8c9867bc5b",
           "content_bytes": 8426,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/slepecka2017-ecological-cereal-heavy-metals-poland.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/slepecka2017-ecological-cereal-heavy-metals-poland.md | sha256sum"
         }
       },
       {
@@ -180,12 +339,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
         "content_pin": {
-          "content_sha256": "d796af4d58edfee27be56b90571ecda93ee63594409db45bab538517a1caa4a2",
+          "content_sha256": "dfccb88b2dd2f29a27742b595342a1270015b811f0e93dac83469324fa080543",
           "content_bytes": 27197,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
         }
       }
     ]

@@ -17,18 +17,46 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-contact-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5141e4c2a477e181e7f21f0036229466de536f39cdd7b51505ac154108fdcf04",
-      "content_bytes": 7439,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "e97b2145162daed8dc53d6ceb328e057417036b6e7149929bd9e71f75ddc409e",
+      "content_bytes": 8246,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/fabric-contact-products-other.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/fabric-contact-products-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/oeko-tex2024-new-limit-values",
+        "title": "OEKO-TEX® Limit values: New regulations 2024",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Sb",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
+        "content_pin": {
+          "content_sha256": "0235af2fe754f9e51285861139ca68a21974b3e59819f639ebbe04421313058a",
+          "content_bytes": 21976,
+          "last_commit_sha": "2228e31",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2228e31:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

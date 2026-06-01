@@ -190,3 +190,14 @@ The CIRS reproduction is a third-party consolidation; the canonical citation for
 - **Routing scope.** The reproduction's product scope is broader than the HMI wiki product taxonomy (which is primarily food and personal-care focused with selected childcare-article slugs). The frontmatter routes to the eight existing product slugs whose scope intersects with the reproduction's heavy-metal entries: `childrens-jewelry` (entries 23.10, 27.1(b), 63.1), `piercing-post-assemblies` (entry 27.1(a)), `clasps-fasteners-infant-products` (entry 27.1(b) for rivets/zippers/metal marks in garments), `diapers-and-components` (entry 20.6 DOT in nappies), `infant-clothing` (entry 20.6 DOT in textile articles intended for skin contact; entry 47.5/47.6 Cr-VI in leather parts of children's footwear and clothing accessories), `toys-painted` (entry 23.2 Cd in painted articles; entry 63.7 Pb in articles for general public placed in mouth by children), `toys-substrate-materials` (entry 23.1 Cd in plastic materials; entry 63.7 Pb in articles placed in mouth by children; entry 20.6 DOT in childcare articles), and `tattoo-inks` (entry 75 CMR tattoo-ink restriction including the nickel/chromium-VI labelling clauses). This routing treats the source as `regulatory_context` for product pages whose scope intersects the entries; the source is not direct contamination evidence (no measurements) for any of these product categories.
 - **Matrices.** The reproduction is not a food or skin-contact-material measurement study; `matrices: []` is correct.
 - **Jurisdictions.** EU only; the restrictions apply throughout the European Economic Area via the REACH framework.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [121cbf8](https://github.com/paleofoundation/heavymetalindex/commit/121cbf8) | 2026-06-01 | audit: cirs2023-reach-annex-xvii-restrictions [revised] |
+| [b0f7f45](https://github.com/paleofoundation/heavymetalindex/commit/b0f7f45) | 2026-06-01 | ingest: cirs2023-reach-annex-xvii-restrictions [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH |
+<!-- END: hmi-page-history -->

@@ -729,3 +729,233 @@
 
 ### Succeeded
 - `alimohammadi2018-tehran-supermarket-vegetables` (raw/Manual Fetch Kimi /June 1/alimohammadi2018.pdf)
+
+## Tick 2026-06-01T16:47:56.643Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `norouzirad2018-iran-khuzestan-oilfield-milk-pb-cd` (raw/Manual Fetch Kimi /June 1/norouzirad2018.pdf)
+
+## Tick 2026-06-01T17:01:30.224Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `nourmoradi2013-iran-isfahan-cosmetics-pb-cd` (raw/Manual Fetch Kimi /June 1/nourmoradi2013.pdf)
+
+## Tick 2026-06-01T17:11:49.925Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `la-pera2010-sicily-olive-oil-metals-selenium` (raw/Manual Fetch Kimi /June 1/pera2010.pdf)
+
+## Tick 2026-06-01T17:44:24.128Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/Manual Fetch Kimi /June 1/petrella2019.pdf`: MFK_petrella2019 — out of HMI scope (wastewater-remediation packed-bed-column biosorption; 5th cluster confirmation)
+
+## Tick 2026-06-01T17:48:31.455Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `pirsaheb2015-iran-kermanshah-cereals-metals` (raw/Manual Fetch Kimi /June 1/pirsaheb2015.pdf)
+
+## Tick 2026-06-01T17:59:04.430Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `roya2016-iran-torbat-heidarieh-rice-metals` (raw/Manual Fetch Kimi /June 1/roya2016.pdf)
+
+## Tick 2026-06-01T18:12:46.154Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `salehi2013-iran-isfahan-lenjanat-vegetables-cd-pb` (raw/Manual Fetch Kimi /June 1/salehi2013.pdf)
+
+## Tick 2026-06-01T18:19:22.298Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `salehipour2015-iran-isfahan-cereals-vegetables-metals` (raw/Manual Fetch Kimi /June 1/salehipour2015.pdf)
+
+## Tick 2026-06-01T18:31:48.049Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `sharafatichaleshtori2016-iran-rice-heavy-metals-review` (raw/Manual Fetch Kimi /June 1/sharafatichaleshtori2016.pdf)
+
+## Tick 2026-06-01T19:01:11.918Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `sharafi2019-iran-tehran-rice-brands-metals` (raw/Manual Fetch Kimi /June 1/sharafi2019.pdf)
+
+## Tick 2026-06-01T19:12:52.810Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `shirani2017-iran-mashhad-rice-metals` (raw/Manual Fetch Kimi /June 1/shirani2017.pdf)
+
+## Tick 2026-06-01T19:20:12.294Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `tajdar-oranj2018-iran-instant-noodles-metals` (raw/Manual Fetch Kimi /June 1/tajdar-oranj2018.pdf)
+
+## Tick 2026-06-01T19:29:25.283Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `tavakkoli2016-iran-cadmium-biomonitoring-review` (raw/Manual Fetch Kimi /June 1/tavakkoli2016.pdf)
+
+## Tick 2026-06-01T19:39:50.800Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `vatanpour2020-iran-tajan-rice-heavy-metals` (raw/Manual Fetch Kimi /June 1/vatanpour2020.pdf)
+
+## Tick 2026-06-01T19:56:25.826Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `zhu2011-edible-vegetable-oils-china-8-metals` (raw/Manual Fetch Kimi /June 1/zhu2011.pdf)
+
+## Tick 2026-06-01T20:25:28.445Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `us-epa-2011-efh-chapter17-consumer-products` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/01_Exposure_Pathways/EP-010_US_EPA_EFH_Chapter17_Consumer_Products_2025.pdf)
+
+## Tick 2026-06-01T20:41:09.350Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `oecd2019-childrens-exposure-chemicals-products` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/01_Exposure_Pathways/EP-012_OECD_2019_Childrens_Exposure_Factors.pdf)
+
+## Tick 2026-06-01T20:51:46.760Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `alblooshi2025-perfumes-cosmetics-health-review` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/01_Exposure_Pathways/EP-028_Alblooshi_2025_Perfumes_Cosmetics_Health.pdf)
+
+## Tick 2026-06-01T21:01:21.558Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `eu-2009-1223-cosmetic-products-regulation` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-006_EU_Regulation_1223_2009_Cosmetics.pdf)
+
+## Tick 2026-06-01T21:21:59.086Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `edqm-2023-safe-cosmetics-young-children-2nd-ed` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-007_EDQM_2023_Safe_Cosmetics_Young_Children_2nd_Ed.pdf)
+
+## Tick 2026-06-01T21:33:45.667Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `waecology2023-chemicals-cosmetics-phase1` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-011_WA_Ecology_2023_Chemicals_Cosmetics_Phase1.pdf)
+
+## Tick 2026-06-01T22:01:48.959Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `waecology2024-chemicals-cosmetics-phase2` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-012_WA_Ecology_2024_Chemicals_Cosmetics_Phase2.pdf)
+
+## Tick 2026-06-01T22:13:34.242Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `waecology2024-interim-policy-lead-cosmetics` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-013_WA_Ecology_2025_Interim_Policy_Lead_Cosmetics_TFCA.pdf)

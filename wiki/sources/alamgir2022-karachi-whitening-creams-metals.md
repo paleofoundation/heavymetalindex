@@ -66,3 +66,13 @@ App: Supports the whitening-products page and consumer-product gap tracking for 
 - The source measures unbranded whitening creams, not named consumer brands.
 - Arsenic and chromium are total element measurements; the source does not support inorganic arsenic or Cr(VI) routing.
 - Values are preserved in the source's ppm unit. For these cream matrices, ppm is equivalent to mg/kg when treated as mass fraction.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
+<!-- END: hmi-page-history -->

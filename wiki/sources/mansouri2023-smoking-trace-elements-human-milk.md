@@ -65,3 +65,14 @@ The source supports human-milk occurrence evidence and exposure-factor context f
 ## Verification notes
 
 The PDF includes DOI, authors, journal, year, methods, and Table 2 concentration values. The source does not speciate arsenic or mercury, so this page uses tAs and tHg. The table reports breast-milk concentrations by smoking-exposure group; this page does not name individual participants or translate the group comparison into consumer advice. Both [[ingredients/human-milk]] and [[ingredients/breastmilk]] exist locally; the matrix term is normalized to breast-milk.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2ccf94f](https://github.com/paleofoundation/heavymetalindex/commit/2ccf94f) | 2026-06-01 | audit revise auto-fetched 2026-06-01 15:39 batch 1 |
+| [c63b031](https://github.com/paleofoundation/heavymetalindex/commit/c63b031) | 2026-06-01 | audit: ghasemidehkordi2018-markazi-vegetables-pb-hg [promoted] |
+<!-- END: hmi-page-history -->

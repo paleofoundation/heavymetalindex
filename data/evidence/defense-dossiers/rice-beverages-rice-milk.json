@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-beverages-rice-milk",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5d1c20ede80990a25f67696d392b6749d51ebc1b130ae26d20c20be51e9e6115",
+      "content_sha256": "2a18a8c2079d1c0d5edc4f163acc6ad807ec56c77e9b40df049c5f3a4577f39b",
       "content_bytes": 7601,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/rice-beverages-rice-milk.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/rice-beverages-rice-milk.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2013-ias-rice-products-sampling",
         "content_pin": {
-          "content_sha256": "3f780335e92db66a2d25fa205041789b78195ff8e968d09d6fdc38394209c88b",
+          "content_sha256": "183c4c5565b30e6b8c9413e22cb046d517e7c148e5ea1443144cece6b11647f8",
           "content_bytes": 6300,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/fda2013-ias-rice-products-sampling.md | sha256sum"
         }
       },
       {
@@ -63,12 +63,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gu2020-arsenic-rice-infant-food-australia",
         "content_pin": {
-          "content_sha256": "053a06b5b34871e84658b01bc285947b958f6546ee3e3431cee006240a408800",
+          "content_sha256": "fdcdbb8303d2cb37d5bc9b7088ab529775f0c35b762efdfbe315d1e559f84db9",
           "content_bytes": 7542,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/gu2020-arsenic-rice-infant-food-australia.md | sha256sum"
         }
       }
     ]

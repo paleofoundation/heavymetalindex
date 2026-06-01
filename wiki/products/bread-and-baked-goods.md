@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 12
+sources: 13
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -108,10 +108,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/sofyan2023-banana-steamed-cake-metals-indonesia\|Sofyan 2023]]. *Uji Cemaran Mikroba Dan Cemaran Logam Bolu Kukus Berbasis Pisang Ambon (Musa acuminta Colla) Sebagai Camilan Alternatif Pada Pasien Hipertensi*, JP: Jurnal Pharmacopoeia, 2(1): 23-32 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 | 7 | [[sources/haider2022-biscuits-basrah-iraq-safety\|Haider et al. 2022]]. *Nutritional Quality and Safety Characteristics of Imported Biscuits Marketed in Basrah, Iraq*, Applied Sciences | 2022 | Peer-reviewed | IQ/ES/IR Pb, Cd occurrence in 36 imported biscuit samples (9 brands per country of origin × 4 countries: Spain, Iran, Turkey, UAE) sold... (n=36) |
 | 8 | [[sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp\|Saraiva et al. 2021]]. *Speciation analysis of Cr(III) and Cr(VI) in bread and breakfast cereals using species-specific isotope dilution and HPLC-ICP-MS*, Journal of Food Composition and Analysis | 2021 | Peer-reviewed | FR/DK/EU Cr, Cr-VI occurrence in 22 retail samples — 11 breads (Danish rye/rugbrød, malt flour, wheat 'burger' buns, spelt, wheat 'pita', wheat baguette,... (n=22) |
-| 9 | [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\|Hernandez et al. 2019]]. *Cr(VI) and Cr(III) in milk, dairy and cereal products and dietary exposure assessment*, Food Additives & Contaminants Part B: Surveillance | 2019 | Peer-reviewed | FR/EU Cr-VI, Cr-III, Cr-total occurrence in Sixty-eight food samples representing the French population's national milk, dairy, and cereal product consumption: 38 dairy products (8... (n=68) |
-| 10 | [[sources/takanashi2018-aluminium-baking-powder-japan\|Takanashi et al. 2018]]. *Survey of Aluminium Content of Processed Food Using Baking Powder (2015–2016)*, Shokuhin Eiseigaku Zasshi (Food Hygiene and Safety Science) | 2018 | Peer-reviewed | JP Al occurrence in Japanese confectionery, baked goods, flour-processed foods, and pre-mix powders distributed in Tokyo-area markets, 2015–2016; potentially containing aluminium-potassium-sulfate (alum)... (n=123) |
-| 11 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
-| 12 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | GB Al, Sb, tAs, iAs, Ba, Cd, Cr, Cu, Pb, Mn, tHg, Mo, Ni, Pd, Pt, Sn, Tl, Zn occurrence in 3312 retail food samples from 24 UK locations, combined into 138 prepared-as-consumed food-category composites and 28 food-group composites (n=3312) |
+| 9 | [[sources/el-hassanin2020-egypt-maize-pb-cd\|El-Hassanin et al. 2020]]. *Risk assessment of human exposure to lead and cadmium in maize grains cultivated in soils irrigated either with low-quality water or freshwater*, Toxicology Reports 7:10-15 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 10 | [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france\|Hernandez et al. 2019]]. *Cr(VI) and Cr(III) in milk, dairy and cereal products and dietary exposure assessment*, Food Additives & Contaminants Part B: Surveillance | 2019 | Peer-reviewed | FR/EU Cr-VI, Cr-III, Cr-total occurrence in Sixty-eight food samples representing the French population's national milk, dairy, and cereal product consumption: 38 dairy products (8... (n=68) |
+| 11 | [[sources/takanashi2018-aluminium-baking-powder-japan\|Takanashi et al. 2018]]. *Survey of Aluminium Content of Processed Food Using Baking Powder (2015–2016)*, Shokuhin Eiseigaku Zasshi (Food Hygiene and Safety Science) | 2018 | Peer-reviewed | JP Al occurrence in Japanese confectionery, baked goods, flour-processed foods, and pre-mix powders distributed in Tokyo-area markets, 2015–2016; potentially containing aluminium-potassium-sulfate (alum)... (n=123) |
+| 12 | [[sources/efsa2015-nickel-food-water\|EFSA 2015]]. *Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water*, EFSA Journal 2015;13(2):4002, 202 pp. | 2015 | Government report | EU Ni occurrence in 18,885 food samples and 25,700 drinking water samples (final dataset after exclusions) submitted to EFSA from 15 European... (n=18885) |
+| 13 | [[sources/fera2015-uk-tds-metals\|Baxter et al. 2015]]. *Total Diet Study of metals and other elements in food*, Food and Environment Research Agency report for the UK Food Standards Agency, Fera report 15/06, project FS102081 | 2015 | Government report | GB Al, Sb, tAs, iAs, Ba, Cd, Cr, Cu, Pb, Mn, tHg, Mo, Ni, Pd, Pt, Sn, Tl, Zn occurrence in 3312 retail food samples from 24 UK locations, combined into 138 prepared-as-consumed food-category composites and 28 food-group composites (n=3312) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -121,9 +122,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

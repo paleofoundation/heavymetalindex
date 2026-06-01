@@ -201,3 +201,14 @@ Age groupings as labeled on the toy packaging.
   - ⚠️ Applied (Check 4): Round 1 packaging max-Sn bullet had described the 2,359 ppm item as "a buzz-lightyear-themed figurine packaging." Buzz Lightyear is a Pixar/Disney licensed character; same Part 12 reasoning as the Dora bullet. Reworded to "a figurine-toy packaging in the Round 1 tie-in cohort" — the per-item identifier is dropped, the cohort context (the Round 1 cohort is the licensed-film tie-in cohort described in the sampling-frame bullet) remains.
   - Checks 2 (slug vocabulary), 3 (speciation and methods), and 5 (Part 2 wiki/HMTc firewall) returned ✅ clean.
   - Check 1 numerical fidelity returned exact matches on all denominator-and-percentage values verified against Tables 1–6, Appendix A LODs, and the Discussion and Executive Summary narratives.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4a7d5be](https://github.com/paleofoundation/heavymetalindex/commit/4a7d5be) | 2026-06-01 | audit: schade2010-toxic-toys-r-us-pvc [revised] |
+| [de50e8a](https://github.com/paleofoundation/heavymetalindex/commit/de50e8a) | 2026-06-01 | ingest: schade2010-toxic-toys-r-us-pvc [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures |
+<!-- END: hmi-page-history -->

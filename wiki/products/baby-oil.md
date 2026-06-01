@@ -16,7 +16,7 @@ audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
 literature_scope: thin
-sources: 3
+sources: 7
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Oil
@@ -97,8 +97,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
-| 2 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology,... |
+| 1 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | *[awaiting synthesis]* |
+| 2 | [[sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\|Committee of Ministers of 2023]]. *Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.*, European Directorate for the Quality of Medicines & HealthCare (EDQM), Council of Europe, Strasbourg, France. 2nd edition. ISBN 978-92-871-9360-5. 56 pages. | 2023 | Government guidance | *[awaiting synthesis]* |
+| 3 | [[sources/almukainzi2022-saudi-topical-cosmetics-icpms\|Almukainzi et al. 2022]]. *Quality and safety investigation of commonly used topical cosmetic preparations*, Scientific Reports 12:18299 | 2022 | Peer-reviewed | SA/US/EU Pb, Cd, tAs, Al, Cr, Cu, Ni, Fe, Zn, Mn, Co occurrence in Twenty-one topical cosmetic products purchased from local markets and drug stores in Riyadh, Saudi Arabia. Product selection was... (n=21) |
+| 4 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology,... |
+| 5 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -108,9 +111,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 | [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
-| [324868f](https://github.com/paleofoundation/heavymetalindex/commit/324868f) | 2026-05-31 | codex sprint 2026-05-31 1639: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

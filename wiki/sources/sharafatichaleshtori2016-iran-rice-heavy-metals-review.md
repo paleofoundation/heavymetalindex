@@ -159,3 +159,13 @@ This source is a systematic literature review that aggregates province-level Ira
 - **Basis.** Concentration values in the review's Table 1 are reported in µg/g (mg/kg) on a dry-weight basis as the constituent studies publish them; the review does not re-state the wet-vs-dry basis explicitly but the constituent papers cited (e.g., Naseri et al. 2015, Rahman et al. 2009) report dry weight. EWI calculations apply these dry-weight per-rice concentrations against the 165 g/day per-capita rice consumption, which is on an as-purchased basis; the review does not adjust for the dry-vs-cooked rice mass conversion.
 - **Data integrity.** All values in the Key numbers section transcribed from Table 1 (province-level concentrations, p. 3), Table 2 (EWI summary, p. 4), and the prose on pp. 2-5 (Iranian standards, PTWI references, exceedance counts, search-and-inclusion summary). The four anomaly catalogue entries above are the only paper-internal inconsistencies observed; none requires the source to be quarantined or held back from ingest. Constituent-study figures should be cross-verified against the original papers if those papers are independently ingested.
 - **Downstream pooling caveat.** Because this is a review aggregating prior values rather than a primary measurement source, the Part 9 synthesis workflow should treat per-study values surfaced by Table 1 as pointers to the constituent paper (the cited study should be ingested individually for authoritative per-study figures), not as independent quantitative observations. The review's value to the wiki is as (a) a corpus pointer for Iranian rice heavy-metals literature 2005-2016, (b) an Iran-wide PTWI-exceedance flag for Hg from rice, and (c) a consolidated Iranian-standard reference table for rice.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [657c7b0](https://github.com/paleofoundation/heavymetalindex/commit/657c7b0) | 2026-06-01 | ingest: sharafatichaleshtori2016-iran-rice-heavy-metals-review [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

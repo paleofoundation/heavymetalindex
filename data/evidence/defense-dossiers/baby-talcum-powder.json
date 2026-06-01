@@ -24,16 +24,16 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-talcum-powder",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "58852b80857448fa7fb195ec1e30887165106500a56b883d7e2c0859728b5f88",
-      "content_bytes": 13576,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "26f3b5e60f0897198b8832e9a64a7abd63882930c55ea80753c912e4080dc7ce",
+      "content_bytes": 14391,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/baby-talcum-powder.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/baby-talcum-powder.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 6,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -58,12 +58,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "3a75588ad312f7d3bcc9a21d94fee843258efa722e4fa6f425994137739058bd",
+          "content_sha256": "91b18321828c576ca0e88f7f3c7123c85fb0b728dbe6d9d123f1c5f6d9af1842",
           "content_bytes": 35173,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
+        "title": "Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants.",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
+        "content_pin": {
+          "content_sha256": "3f34496e1571bf2a4d62256dd171c012ce113307e674a94a3178902458577aac",
+          "content_bytes": 23960,
+          "last_commit_sha": "169c016",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 169c016:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
         }
       },
       {
@@ -76,12 +97,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/moon2011-baby-powder-inhalation-risk-assessment",
         "content_pin": {
-          "content_sha256": "a7778b5b8f3ae8eaaeda0af2125b637c074dcc0600c2c63039a0429ff9a41a26",
+          "content_sha256": "766a85432b2c7faf6347ef4eb6d18ebea54cdc5398b5ce8ed6a7477dbfd2b280",
           "content_bytes": 15434,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/moon2011-baby-powder-inhalation-risk-assessment.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/moon2011-baby-powder-inhalation-risk-assessment.md | sha256sum"
         }
       },
       {
@@ -98,12 +119,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rashmi2020-baby-talcum-powder-heavy-metals-india",
         "content_pin": {
-          "content_sha256": "bda4cc94a9973bd570905da00c381fa502ee6445f4423e8c6e85f639b7072fb6",
+          "content_sha256": "9fb96b7365e42f701405dcd5edaceedbe6b48aa8c5ebed52849fa670b17f5300",
           "content_bytes": 15529,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md | sha256sum"
         }
       },
       {
@@ -121,12 +142,30 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rbeida2023-heavy-metals-cosmetics-libya",
         "content_pin": {
-          "content_sha256": "bc76b6686e02e21ce175c930cc8f570f741e8ae9d13eef7141ecd65e03e8f318",
+          "content_sha256": "82b59b78081f8b967defdc3dbf46f13f545b646b9cbd4ba9d42858282a0b9f10",
           "content_bytes": 24861,
-          "last_commit_sha": "c660ae7",
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/us-epa-2011-efh-chapter17-consumer-products",
+        "title": "Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [],
+        "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
+        "content_pin": {
+          "content_sha256": "71224bf0e2f0ebb19b74ed18c7411f6db0960f7e1f5fc4fecd03df8c40a678b6",
+          "content_bytes": 30672,
+          "last_commit_sha": "6937864",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6937864:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]
@@ -142,7 +181,7 @@
     "total_claims": 7,
     "cited_claims": 6,
     "uncited_claims": 1,
-    "distinct_cited_sources": 5,
+    "distinct_cited_sources": 7,
     "audit_rows_on_cited_targets": 0,
     "provenance_complete": false
   }

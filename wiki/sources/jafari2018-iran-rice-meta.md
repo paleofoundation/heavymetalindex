@@ -186,3 +186,13 @@ This is a B-tier source: peer-reviewed in Data in Brief (CC BY 4.0 open access),
 - **Double-counting risk.** Several constituent studies in this systematic review are independently ingested elsewhere in the wiki (Naseri 2015 Shiraz, Falahi 2010, possibly others). This is the principal downstream-routing concern: this source's value is its pooled-mean summary, not its underlying primary data. Synthesis sessions should treat Table 3 as one row in the Iranian-rice pool and not also count each constituent study row separately when computing weighted means.
 - **Regulatory citations.** The paper cites the FAO/WHO PTWI values for Cd (7), Pb (25), tAs (15), Cr (23.3), Zn (420), Ni (35), Cu (500), and the MTDI for Co (700) in µg/kg BW per week. JECFA Cd PTMI and the withdrawn JECFA Pb PTWI are routed via `regulations/jecfa-cadmium-ptmi` and `regulations/jecfa-lead-ptwi-withdrawn`. The paper also references "ISRI (No: 12968)" (Iranian Standard for Industrial Research) as a footnote in Table 4 without specifying which value it provides; ISIRI 12968 is the same Iranian per-capita food consumption standard cited by Heshmati et al. 2020.
 - **Data integrity.** All Table 1 (7 rows × 10 columns), Table 2 (6 rows × 10 columns), Table 3 (16 rows × 7 columns), and Table 4 (8 rows × 5 columns) cells transcribed from the original PDF (pages 456-458). Pooled N sums verified for Cd (Iranian 295 = 45+30+7+99+15+99 ✓; imported 160 = 81+30+14+35 ✓), Pb (Iranian 295 = 45+30+7+99+15+99 ✓; imported 320 = 100+81+60+30+14+35 ✓), and Zn (Iranian 144 = 45+99 ✓; imported 100 = 100 ✓). The paper-internal label-vs-reference mismatches in Tables 1-2 are documented above and do not affect the pooled values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [a186ad5](https://github.com/paleofoundation/heavymetalindex/commit/a186ad5) | 2026-06-01 | ingest: jafari2018-iran-rice-meta [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

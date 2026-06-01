@@ -111,3 +111,13 @@ All concentrations are in **µg/kg (= ppb) on a whole-oil basis** as reported in
 - **Metals frontmatter.** Includes Se because the paper measures it; no `metals/selenium` wiki page exists in the current taxonomy snapshot, so no `[[metals/selenium]]` wikilink appears in the source-touches section. Routing-audit may treat this as soft-unmatched; the analyte should still appear in the frontmatter for correct routing coverage.
 - **Brand firewall.** No brand names appear in source; cultivar names (Nocellara del Belice, Biancolilla, Cerasuola) and PDO zones (Valle del Belice, Val di Mazara, Valli Trapanesi) are botanical/geographic, not brand identifiers.
 - **Regulation page reference.** EC 466/2001 is cited by the paper as setting Pb at 0.1 mg/kg for olive oil; the wiki regulation slug `eu-466-2001-contaminants-superseded` is the correct (now-superseded) referent. The current EU regulation on Pb in olive oil is captured separately and is outside this paper's scope.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9156c44](https://github.com/paleofoundation/heavymetalindex/commit/9156c44) | 2026-06-01 | ingest: la-pera2010-sicily-olive-oil-metals-selenium [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

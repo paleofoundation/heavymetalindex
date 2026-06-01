@@ -81,3 +81,13 @@ This source has minimal direct value for the Heavy Metal Index. The wiki's scope
 - [[metals/zinc]]
 - [[metals/cobalt]]
 - [[metals/uranium]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [de76859](https://github.com/paleofoundation/heavymetalindex/commit/de76859) | 2026-06-01 | ingest: idris2023-adsorption-techniques-wastewater-review [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->

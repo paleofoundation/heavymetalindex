@@ -82,3 +82,13 @@ Microbiome: Not applicable.
 - Speciation: the paper reports mercury and arsenic without species separation, so this page uses tHg and tAs. It does not support methylmercury or inorganic arsenic values.
 - Basis: the source records concentrations in mg/kg raw weight. No dry-weight conversion was applied.
 - Product routing: no exact product page exists for fresh or wild mushrooms; this page routes mushrooms through ingredient and matrix fields and routes berries to the existing fresh-fruit product page.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6937864](https://github.com/paleofoundation/heavymetalindex/commit/6937864) | 2026-06-01 | audit: us-epa-2011-efh-chapter17-consumer-products revised |
+<!-- END: hmi-page-history -->

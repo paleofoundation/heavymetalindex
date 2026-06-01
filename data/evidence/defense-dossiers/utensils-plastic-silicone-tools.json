@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/utensils-plastic-silicone-tools",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b5f22fbdc7dcc645532668c4c8bce65de70a08ec142207dfb60763e5046f5aa1",
+      "content_sha256": "f0a1ccee5628e2c4130acb8ef080ccf1a8f7df39f06c3056e5e8249e0a395036",
       "content_bytes": 8083,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/utensils-plastic-silicone-tools.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/utensils-plastic-silicone-tools.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "5bfc7c7ed848e2bfc098eac35cbeb047a9723a1878ee9e684591c441cbbb65dd",
-          "content_bytes": 19130,
-          "last_commit_sha": "c660ae7",
+          "content_sha256": "ca3cafed903c3eff2fd3bf8d653e615a5d168d508531f3fbbac3b8ff54afd199",
+          "content_bytes": 19058,
+          "last_commit_sha": "1c410cb",
           "last_commit_date": "2026-06-01",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c660ae7:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show 1c410cb:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       }
     ]

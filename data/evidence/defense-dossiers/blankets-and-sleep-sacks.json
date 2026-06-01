@@ -17,18 +17,74 @@
     "canonical_url": "https://heavymetalindex.com/products/blankets-and-sleep-sacks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "83f1db448f5cf9fa99f5c09e68d431eaa493f64fc779669d42401d6161bdc389",
-      "content_bytes": 7324,
-      "last_commit_sha": "c660ae7",
+      "content_sha256": "2029066b9b3e9dbf6ae38a763865b02f2f505399f06a69eb8036e87468a4adaa",
+      "content_bytes": 8642,
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/blankets-and-sleep-sacks.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/blankets-and-sleep-sacks.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/echa2023-cmr-childcare-articles",
+        "title": "Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2)",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr-VI",
+          "Co",
+          "tAs",
+          "tHg",
+          "Sn",
+          "Li",
+          "V"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
+        "content_pin": {
+          "content_sha256": "45fe8bf1f16a065da9951cf78d550643ba09b25815d51908f05fb3255dd4b27f",
+          "content_bytes": 59019,
+          "last_commit_sha": "df568bd",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show df568bd:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/oeko-tex2024-new-limit-values",
+        "title": "OEKO-TEX® Limit values: New regulations 2024",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Sb",
+          "Cr",
+          "Cr-VI",
+          "Ni",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
+        "content_pin": {
+          "content_sha256": "0235af2fe754f9e51285861139ca68a21974b3e59819f639ebbe04421313058a",
+          "content_bytes": 21976,
+          "last_commit_sha": "2228e31",
+          "last_commit_date": "2026-06-01",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 2228e31:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

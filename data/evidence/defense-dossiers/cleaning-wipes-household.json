@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cleaning-wipes-household",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "689a5976d3285db1c7e1a126873e334cc4e624000670ebbc3b184ef1c7e1376e",
+      "content_sha256": "caf030c797635c76b8cfc801898690a259e9a0ba89119e3d7291c062e79cd25b",
       "content_bytes": 7381,
-      "last_commit_sha": "c660ae7",
+      "last_commit_sha": "1c410cb",
       "last_commit_date": "2026-06-01",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c660ae7:wiki/products/cleaning-wipes-household.md | sha256sum"
+      "verify_command": "git show 1c410cb:wiki/products/cleaning-wipes-household.md | sha256sum"
     }
   },
   "evidence_base": {

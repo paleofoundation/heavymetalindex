@@ -213,3 +213,13 @@ The report does NOT support:
 - **Children's safe-products context.** The CSPA / Chemicals of High Concern to Children list is the legal mechanism by which Ecology receives the company self-reported chemical-use data summarised in Tables 3-4. This is regulatory-mechanism context, not children's-product testing data per se; the Phase 1 testing did NOT enrich for children's-marketed products (only one product in the Phase 1 set — DT-32-8 — was explicitly marketed for children's use, and that product was selected because it listed DMDM hydantoin as an ingredient and was in the leave-in-conditioner category).
 - **DOI / publisher.** No DOI; this is a US state government publication identified by Publication 23-04-007 and indexed at apps.ecology.wa.gov. The `access_url` points to the report's summary page (canonical and stable across PDF revisions).
 - **Raw path / handle.** Filed under `raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/`. The "Infant cosmetics" folder name is a slight mis-categorisation for this particular file — Phase 1 of the WA Ecology report is primarily an adult-cosmetic testing study (the legislative directive targeted "people of color, including adults and children" and the cosmetic selection skewed adult-market, with only one explicitly children's-marketed product included). Folder placement is preserved as-is for raw-tree immutability; routing reflects the actual content (adult Cat 13 cosmetics + one children's data point flagged in the leave-in conditioner Key numbers).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [12bfa0c](https://github.com/paleofoundation/heavymetalindex/commit/12bfa0c) | 2026-06-02 | ingest: waecology2023-chemicals-cosmetics-phase1 fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |
+<!-- END: hmi-page-history -->

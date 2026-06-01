@@ -2,15 +2,15 @@
 source_page: wiki/products/toys-substrate-materials.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 3dc9f9ac2d417f6152fe9af1bb89689d0246112768b9e096b034e33676aa00ac
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 8d798fc4924e89547dadcc4ecc2c916315646eb40e95388affbb41452a29293a
+total_claims: 2
+cited_claims: 2
 uncited_claims: 0
-distinct_cited_targets: 0
-distinct_cited_sources: 0
+distinct_cited_targets: 22
+distinct_cited_sources: 22
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 520
+audit_log_total_rows: 591
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 2 |
+| cited claims | 2 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
-| distinct cited `sources/` pages | 0 |
+| distinct cited targets | 22 |
+| distinct cited `sources/` pages | 22 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 520 |
+| audit log rows read | 591 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,103 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Sources
+
+#### Claim `100 ppm`
+- Context: `fety 2011]]. *Children's Products Containing Lead; Technological Feasibility of 100 ppm for Lead Content; Notice of Effe`
+- Cited targets (22):
+  - `wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2009-lead-cadmium-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cirs2023-reach-annex-xvii-restrictions\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc1997-pvc-children-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc2009-cpsia-101-procedures-npr\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc2012-cpsia-101b-functional-purpose-exception\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2015-cmr-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/digangi1997-greenpeace-vinyl-children-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fowles2021-lead-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iso2020-8124-3-toy-migration-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/johnson2012-cpsc-astm-f963-status\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mohammed2020-tt-toys-baby-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pirg2010-trouble-in-toyland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/schade2010-toxic-toys-r-us-pvc\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sgs2009-canada-toy-coating-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stringer2001-greenpeace-pvc-children-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ul2012-chemicals-childrens-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/villarreal2021-ic-icpms-cr-vi-toys\.md` (page missing)
+    - audit rows: none
+
+#### Claim `100 ppm`
+- Context: `hnological Feasibility of 100 ppm for Lead Content; Notice of Effective Date of 100 ppm Lead Content Limit in Children's`
+- Cited targets (22):
+  - `wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/bfr2009-lead-cadmium-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cirs2023-reach-annex-xvii-restrictions\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc1997-pvc-children-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc2009-cpsia-101-procedures-npr\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cpsc2012-cpsia-101b-functional-purpose-exception\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/depa2015-cmr-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/digangi1997-greenpeace-vinyl-children-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fowles2021-lead-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/iso2020-8124-3-toy-migration-elements\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/johnson2012-cpsc-astm-f963-status\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/mohammed2020-tt-toys-baby-items\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pirg2010-trouble-in-toyland\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/schade2010-toxic-toys-r-us-pvc\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/sgs2009-canada-toy-coating-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/stringer2001-greenpeace-pvc-children-products\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/ul2012-chemicals-childrens-toys\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/villarreal2021-ic-icpms-cr-vi-toys\.md` (page missing)
+    - audit rows: none
 
 ## Uncited claims
 
@@ -54,5 +150,28 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls\.md` | sources | 0 | — | — |
+| `wiki/sources/bfr2009-lead-cadmium-toys\.md` | sources | 0 | — | — |
+| `wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal\.md` | sources | 0 | — | — |
+| `wiki/sources/cirs2023-reach-annex-xvii-restrictions\.md` | sources | 0 | — | — |
+| `wiki/sources/cpsc1997-pvc-children-products\.md` | sources | 0 | — | — |
+| `wiki/sources/cpsc2009-cpsia-101-procedures-npr\.md` | sources | 0 | — | — |
+| `wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule\.md` | sources | 0 | — | — |
+| `wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility\.md` | sources | 0 | — | — |
+| `wiki/sources/cpsc2012-cpsia-101b-functional-purpose-exception\.md` | sources | 0 | — | — |
+| `wiki/sources/depa2015-cmr-toys\.md` | sources | 0 | — | — |
+| `wiki/sources/digangi1997-greenpeace-vinyl-children-products\.md` | sources | 0 | — | — |
+| `wiki/sources/fowles2021-lead-toys\.md` | sources | 0 | — | — |
+| `wiki/sources/hatlelid2009-cpsc-cpsia-lead-childrens-products\.md` | sources | 0 | — | — |
+| `wiki/sources/iso2020-8124-3-toy-migration-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/johnson2012-cpsc-astm-f963-status\.md` | sources | 0 | — | — |
+| `wiki/sources/mohammed2020-tt-toys-baby-items\.md` | sources | 0 | — | — |
+| `wiki/sources/pirg2010-trouble-in-toyland\.md` | sources | 0 | — | — |
+| `wiki/sources/schade2010-toxic-toys-r-us-pvc\.md` | sources | 0 | — | — |
+| `wiki/sources/sgs2009-canada-toy-coating-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/stringer2001-greenpeace-pvc-children-products\.md` | sources | 0 | — | — |
+| `wiki/sources/ul2012-chemicals-childrens-toys\.md` | sources | 0 | — | — |
+| `wiki/sources/villarreal2021-ic-icpms-cr-vi-toys\.md` | sources | 0 | — | — |
 

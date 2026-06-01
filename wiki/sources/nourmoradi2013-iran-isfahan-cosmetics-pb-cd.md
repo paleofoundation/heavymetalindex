@@ -143,3 +143,13 @@ Speciation: total Pb and total Cd only; no inorganic-vs-organic speciation step.
   - Reference [22] in the paper cites Khalid et al. lipstick Pb at "87–123 µg/g" (Discussion, p. 3) but reference [22] full citation lists "International Journal of Biology, Pharmacy and Allied Sciences, vol. 1, no. 2, pp. 263–271, 2013". The 87–123 µg/g range is reproduced from the paper's narrative; the wiki does not independently verify the cited Khalid et al. value.
 - Data availability: no explicit data-availability statement and no supplementary materials linked in the article. Raw per-sample values are not published; only per-brand and per-color min/max/SD/average are tabulated.
 - 2013 ingest reflects 2013-vintage analytical practice and 2013-vintage regulatory comparators (the FDA 20 µg/g cosmetic-Pb guidance and the CSC 0.1 µg/g advocacy comparator both predate FDA's 2022 Final Guidance on Lead in Cosmetic Lip Products of 10 µg/g; that 2022 guidance is not in scope here because the paper is from 2013).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [be866fe](https://github.com/paleofoundation/heavymetalindex/commit/be866fe) | 2026-06-01 | ingest: nourmoradi2013-iran-isfahan-cosmetics-pb-cd [fresh] from Manual Fetch Kimi /June 1 |
+<!-- END: hmi-page-history -->
