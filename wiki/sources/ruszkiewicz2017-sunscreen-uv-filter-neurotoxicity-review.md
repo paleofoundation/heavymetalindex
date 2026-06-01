@@ -1,0 +1,160 @@
+---
+type: source
+raw_handle: KADC_neurotoxic-effect-of-active-ingredients-in-sunscre
+cite_key: ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review
+title: "Neurotoxic effect of active ingredients in sunscreen products, a contemporary review"
+authors: [Ruszkiewicz JA, Pinkas A, Ferrer B, Peres TV, Tsatsakis A, Aschner M]
+year: 2017
+publication: "Toxicology Reports 4:245-259"
+doi: 10.1016/j.toxrep.2017.05.006
+access_url: "https://doi.org/10.1016/j.toxrep.2017.05.006"
+source_type: peer-reviewed
+evidence_tier: C
+license: "CC BY-NC-ND 4.0"
+raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Neurotoxic_effect_of_active_ingredients_in_sunscreen_products_a_contemporary_re.pdf"
+raw_sha256: 227b056d509c9d50604c95a81bff01d77c38e5aa31d882ee04ab44f7519e12b8
+metals: [Zn, Ti]
+ingredients: []
+products: ["[[products/sun-suntan-products]]", "[[products/baby-sunscreen-mineral]]", "[[products/baby-sunscreen-chemical]]"]
+matrices: [cosmetic-personal-care]
+jurisdictions: [US, EU]
+near_duplicates: []
+sample_n: null
+sample_population: "Narrative review of published literature on the neurotoxicity of six organic UV filters (octyl methoxycinnamate / OMC, benzophenone-3 / BP-3, benzophenone-4 / BP-4, 4-methylbenzylidene camphor / 4-MBC, 3-benzylidene camphor / 3-BC, octocrylene / OC) and two inorganic UV filters (zinc oxide / ZnO and titanium dioxide / TiO2) used in commercial sunscreen products. The review synthesizes in vitro (neuronal cell lines including SH-SY5Y, PC12, neural stem cells; glial cells; primary astrocytes and neurons) and in vivo (Wistar rats, Sprague-Dawley rats, Long Evans rats, Swiss/C57BL/6J mice, Danio rerio zebrafish, Caenorhabditis elegans, Cyprinus carpio, Prochilodus lineatus, Apis mellifera honeybees) studies, as well as available human exposure and biomonitoring data. Funded by NIEHS grants R01ES07331, R01ES10563, R01ES020852."
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
+updated: 2026-06-01
+ingest_method: autonomy_v2_manual_fetch
+created_by: claude-opus-4-7
+---
+
+# Ruszkiewicz et al. 2017 — Neurotoxic effect of active ingredients in sunscreen products, a contemporary review
+
+This open-access narrative review in Toxicology Reports surveys the neurotoxicology literature on UV filters used in commercial sunscreens, covering six organic filters (octyl methoxycinnamate / OMC, benzophenone-3 / BP-3, benzophenone-4 / BP-4, 4-methylbenzylidene camphor / 4-MBC, 3-benzylidene camphor / 3-BC, octocrylene / OC) and two inorganic filters (zinc oxide / ZnO and titanium dioxide / TiO2). The review is structured into sections per compound class with three summary tables (Table 1: nomenclature of organic UV filters by INCI / USAN / other names; Table 2: neurotoxic effects of organic UV filters across exposure model, design, effect, and reference; Table 3: neurotoxic effects of ZnO nanoparticles; Table 4: neurotoxic effects of TiO2 nanoparticles). The two compound classes HMI tracks in this review are ZnO (source of Zn²⁺ exposure) and TiO2 (source of Ti exposure); the organic UV filters are not heavy-metal-bearing themselves but are co-formulated with the mineral filters in many sunscreen products and so define the broader exposure context for the products this review addresses. The review reports human-exposure occurrence data for the organic filters (urine, blood, plasma, breast milk, placenta levels), environmental occurrence data (river, lake, sea water, fish, cormorants, coral reef levels), dermal absorption percentages, occupational inhalation exposures for ZnO and TiO2 nanoparticles, and brain translocation evidence across the blood-brain barrier and via olfactory routes. It does not report original measurements; all numerical values are cited from prior primary studies.
+
+## Key numbers
+
+Page citations refer to the published PDF (Toxicology Reports 4 (2017) 245-259). All values are reported as the review reports them; no unit conversions applied. Where the review cites a primary study, the reference number in brackets is the review's bibliography number.
+
+### Market prevalence of UV filters in sunscreens (review's introduction, p. 245-246)
+
+- Sunscreens are usually formulated with more than one filter type — organic, inorganic, or a mixture of both (p. 245).
+- 2003 data: over 80% of sunscreen products contained OMC; 60% contained BP-3; 20% contained octocrylene (OC) or homosalate (HMS); inorganic filters were present in around 20% of products (p. 247, citing ref [39]).
+- Maximum allowed concentrations in sunscreens (p. 247-249): BP-3 up to 6% in the US (in nail polish, lotions, lipsticks; 2.2 BP-3 section); BP-4 up to 10% (2.3 BP-4 section); 4-MBC up to 4% in countries that permit it (4-MBC is not approved by the US FDA; 2.4 section); 3-BC up to 2% in the EU (2.5 section); OC up to 10% (2.6 section); ZnO permitted up to 25% as inorganic filter (3.0 introduction, p. 250); TiO2 nanoparticles permitted as sunscreen additives up to 25% (3.2 TiO2 section, p. 253).
+- Typically recommended sunscreen application: 2 mg/cm² (p. 246, citing ref [13]). For an average adult male (78 kg, 2 m² body surface), this implies a single dose of ~40 g of product. With a typical 10% active concentration, maximum exposure is ~50 mg/kg body weight per application. Calculations assume up to 5% skin penetration for some organic filters and yield total absorbed amounts up to ~200 mg or ~2.56 mg/kg bw per application (p. 246, citing refs [14], [15]). Actual sunscreen application is typically thinner than recommended: Australian sunbather median 0.79 mg/cm² (ref [8]); Danish sunbather mean 0.5 mg/cm² (ref [9]).
+
+### Human exposure and biomonitoring — organic UV filters (Section 1.1, p. 246-247)
+
+- BP-3 was detected in 97% of 2,517 urine samples from the US general population (NHANES 2003-2004, ref [16]) at mean concentration 22.9 ng/mL and 95th percentile 1,040 ng/mL (p. 246).
+- BP-3 levels in urine samples collected 2007-2009 from Californian females were ~9× higher than the NHANES 2003-2004 mean — up to 13,000 ng/mL, average around 200 ng/mL (p. 246, citing ref [18]).
+- Couples' urinary BP-3 and sex-ratio study: BP-type UV filters detected in samples (Michigan and Texas, 2005-2009) at means 0.05-8.65 ng/mL, with BP-3 most predominant (p. 246, citing ref [17]).
+- BP-3 in 80% of urine samples of healthy Danish children and adolescents; median 0.92 ng/mL (p. 247, citing ref [8]).
+- Repeated topical application study (cream containing 10% OMC, 4 days, 2 mg/cm²): mean urine concentrations of OMC, BP-3, and 4-MBC reached 60 ng/mL (females) and 140 ng/mL (males) for OMC, 5 ng/mL and 7 ng/mL for BP-3, and 8 ng/mL and 8 ng/mL for 4-MBC respectively. Maximum plasma concentrations 3-4 h after application were 200 ng/mL (females) and 20 ng/mL (males) for OMC; 10 ng/mL (females) and 20 ng/mL (males) for BP-3; 5 ng/mL (females) and 5 ng/mL (males) for 4-MBC (p. 247, citing ref [19]). The repeated-applications context is OMC 10% formulation applied to entire body (40 g) for 1 week.
+- A 4-day repeat-exposure study reported plasma detections of UV filters at 2 h post-application; both organic and inorganic filters were detectable (p. 247, citing ref [20]).
+- Repeated (4 days) topical application of a 2 mg/cm² sunscreen formulation containing 4% BP-3 (5 days): mean urine concentrations up to 81 ng/mL; plasma concentrations up to 238 ng/mL (p. 249, citing ref [20]). For 4-MBC: 2 mg/cm² topical 4 days → urine up to 4 ng/mL; plasma up to 18 ng/mL (p. 249, citing ref [70]).
+- Breast-milk biomonitoring (cohort 2004-2006, 54 milk samples, ref [23]): UV filters detected in 46 of 54 samples. EHMC (ethylhexyl methoxycinnamate) and OC the most prevalent (42 and 36 positive samples respectively), with an average of 7 positive samples for the other three (BP-3, 4-MBC, HMS). Concentrations of EHMC, octocrylene, 4-MBC, HMS, and BP-3 ranged 2.10-134.95 ng/g lipid (p. 246).
+- Maternal urine BP-3 (gestational weeks 6-30): positively correlated with infant overall body weight and head circumference (p. 246, citing ref [24]).
+- Human placenta BP-4 detection 0.25-5.41 ng/g (p. 249, citing ref [70]). 4-MBC found in placenta at 4 ng/mL after repeated 2 mg/cm² topical applications, plasma levels up to 18 ng/mL (p. 249, citing ref [70]). 3-BC found in placenta (p. 250, citing ref [70]); 3-BC not detectable in urine of Danish children (ref [66]).
+- 4-MBC in human milk: maximal concentration reported as 19 ng/g lipid (p. 249, citing ref [55]).
+
+### Environmental occurrence — organic UV filters (Section 1.1, p. 247)
+
+- UV filters detected ubiquitously in aquatic systems and aquatic organisms. Recent reviews indicated highest UV-filter concentrations in rivers reach 0.3 mg/L for benzophenone derivatives (e.g., BP-3) and few ng/L to µg/L range in lakes and sea water (p. 247, citing refs [27-29, 31]).
+- Organic UV filters accumulate in wastewater treatment plants up to mg/L concentrations (p. 247).
+- Swimming-pool sinks for UV filters: chlorine-byproducts of UV filters at µg/L range or higher (p. 247).
+- Small urban swimming-pool samples: contained significantly higher than natural-water levels of UV filters: 2.85, 1.9, 1.78, and 0.95 g/L for EHMC, OC, 4-MBC, and BP-3 respectively (p. 247, citing ref [30]). (The review reports these as g/L — extremely high, the review notes these as concentration-questioning levels.)
+- Nearshore waters around Majorca Island: BP-3 53.6-577.5 ng/L; 4-MBC 51.4-113.4 ng/L; EHMC 6.9-37.6 ng/L; Ti 1.0-3.3 µg/L; Zn detected at unspecified concentrations (p. 247, citing ref).
+- Swiss lakes and rivers: BP-3, 4-MBC, EHMC, OC ranged 2-35 ng/L in water; concentrations in fish 3-60 ng/g with concentrations reaching 166 ng/g for 4-MBC (LOD lower limit of detection in fish at the low end). Later study reported higher levels of BP-3, 4-MBC, and EHMC (range 6-68 ng/g) in Swiss river. Substantial EHMC in cormorants up to 337 ng/g and in cormorants 701 ng/g, suggesting food-chain accumulation (p. 247, citing ref [10]).
+- BP-3 contamination of coral reefs: US Virgin Islands 75-1400 µg/L; Hawaii 0.8-19.2 µg/L. Reported LC50 values for several coral species 8-340 µg/L; LC20 values 0.062-8 µg/L (4 h exposure) (p. 247, citing ref [33]).
+
+### Inorganic UV filters — ZnO nanoparticles (Section 3.1, p. 250-253)
+
+- ZnO normal pigment size range: 200-400 nm. ZnO permitted up to 25% as sunscreen UV filter (p. 250).
+- Dermal absorption: most studies demonstrated ZnO NPs did not penetrate into deeper layers of the stratum corneum (SC) (p. 250, citing refs [83, 84, 22, 85, 86]). Human in vivo: a small increase of zinc ions (Zn²⁺) in blood and urine was observed in humans exposed to ZnO NPs-containing sunscreen products for five consecutive days via healthy skin (p. 250, citing ref [87]). Human in vitro showed 0.34% of ZnO NP absorbed after 72 h (p. 250, citing ref [88]). Penetration ability of ZnO NPs increases when the skin barrier is damaged (sunburn, skin disease, or physical damage) (p. 250, citing refs [85, 89]).
+- Inhalation: Kao et al. observed translocation of ZnO NPs into the brain following nasal administration (6 h airborne exposure) in Sprague-Dawley rats (p. 250, citing ref [91]). Healthy human adults inhaling 500 µg/m³ of ZnO NPs for 2 h: results below threshold for acute systemic effects on respiratory, hematologic, and cardiovascular endpoints (p. 250, citing ref [92]). BBB was found intact in rats after 28 days repeated oral administrations of ZnO NPs (500 mg/kg), however presence of ZnO NPs in the rat brain was observed after oral administration for 21 days (500 mg/kg) (p. 250, citing refs [94, 95]).
+- Brain accumulation in animal models: Yeh et al. (2012) showed increased ⁶⁵Zn accumulation in mouse brain up to 10 days after single-dose (120 g) intravenous injection of small (10 nm) ⁶⁵ZnO NPs. In adult mice, neuronal ZnO NP localization was observed for several days after single oral (gavage) administration of 3 mg fluorescent ZnO NP (p. 250-251, citing refs [96, 97]).
+- Mechanistic note from the review: most data suggest ZnO NPs decompose in medium or in cells and release Zn²⁺ that is responsible for the toxic effects (p. 251). The review notes the question of long-term exposure and absorption via healthy versus damaged skin remains to be established.
+- Environmental ZnO NP estimate: ZnO NPs in the environment 0.7-24.5 µg/L for Ti, up to 76 µg/L for Zn (note: review presents these jointly in the inorganic-filters general section, p. 250).
+- Industrial / occupational exposure: ZnO NPs found in industrial-scale paint manufacturing in Japan; respirable ZnO concentration in workers' breathing zone may reach 150 µg/m³ for TiO2 (p. 250, citing ref [26] for TiO2; ZnO exposure also occupational). High-dose acute inhalation of 20-45 mg/m³ ZnO NPs aerosol (1 h) increased inflammatory cytokines IL-6, IL-8, and tumor necrosis factor α (TNF-α) in bronchoalveolar lavage fluid within 3 h post-exposure in humans (Kuschner et al. 1997, cited in review p. 250).
+- Neurotoxicity in vivo (selected entries from Table 3, p. 251-252): intraperitoneal ZnO NPs (4 mg/kg biweekly, 8 weeks) in Wistar rats attenuated spatial cognition and enhanced long-term potentiation. Intraperitoneal 5.6 mg/kg three times per week, 4 weeks in C57BL/6J mice impaired learning and memory and suppressed cAMP/CREB signaling. Subcutaneous gestational ZnO NP administration in ICR pregnant mice (100 µg/day GD 5, 8, 11, 14, 17) altered dopamine, 5-hydroxytryptamine, and metabolite levels in 6-week-old offspring (review cites ref [106]). Oral 600 mg/kg, 7 days in male Wistar rats elevated TNF-α, IL-1β, IL-6, CRP, MDA and decreased GSH, SOD, CAT, GPx levels (review cites ref [102]). Oral 134.2, 268.4, 536.8 mg/kg/day in Sprague-Dawley rats (13 weeks) increased Zn levels in brain of male rats (review cites ref [103]).
+
+### Inorganic UV filters — TiO2 nanoparticles (Section 3.2, p. 253-255)
+
+- TiO2 normal pigment size range: 150-300 nm. TiO2 nanoparticles permitted up to 25% as sunscreen additive (p. 253).
+- TiO2 crystal forms relevant to skin exposure: anatase (tetragonal), rutile (tetragonal), and brookite (orthorhombic). Anatase and rutile both have tetragonal structure but the TiO₆ octahedron of anatase is distorted to be larger than that of the rutile phase. When TiO2 is at nanoscale (diameter < 100 nm), bioactivity and physicochemical properties differ from bulk analogue (p. 253, citing refs [127, 128]).
+- Dermal penetration: most studies demonstrated TiO2 NPs cannot permeate intact and damaged skin and are found only in the stratum corneum and epidermis, without reaching the brain or peripheral organs (p. 254, citing refs [159-158]). Low cytotoxicity in human HaCaT keratinocytes also suggests low toxic potential at the skin level.
+- Brain translocation in animal models: long-term oral intake of TiO2 NPs (1 or 2 mg/kg TiO2 suspension per day for 5 consecutive days) in rats; sex-specific effect on villus cells proliferation observed in male rats, indicating potential role of TiO2 NPs for the endocrine system. Oxidative stress in intestinal cells was transient and decreased after 24 h (p. 254, citing ref [162]).
+- Intratracheal administration of 3 nm diameter TiO2 NPs (4 mg/kg) via instillation: 4 weeks in mice produced inflammatory cell aggregation and neuron necrosis. Amount of Ti in brain tissue measured by ICP-MS 3 days after a single instillation of 4 mg/kg TiO2: found to be upregulated by 100% (120 ng/g Ti in treated animals vs 240 ng/g in controls — the review reports 100% upregulation; primary source [131] should be checked for direction) (p. 255, citing ref [131]).
+- In rats treated with TiO2 NPs (0.1, 1, 10 mg/kg) suspension of different diameters (10, 20, 200 nm) intratracheally: 72 h later, TiO2 NPs with diameters of 10 and 20 nm were both transported into the brain, despite the dose-dependent alteration in pro-inflammatory markers (TNF-α, IL-1β, IL-10). TiO2 NPs of 200 nm did not cause significant alterations in the brain (p. 255, citing ref [132]).
+- BBB model based on rat primary endothelial cells (BECs) and astrocytes: TiO2 NPs (acute exposure for 24 h with 0-500 µg/mL or chronic exposure for 5 days with 0-100 µg/mL) could not only pass through the BBB but also disrupt its integrity by reducing the expression of P-glycoprotein (P-gp), claudin 5, caveolin-1, and caveolin-2 (p. 255, citing ref [133]).
+- Single intravenous injection of TiO2 NPs (1 mg/kg) in Fisher F344 male rats: did not show Ti accumulation in brain after 24 h. Upregulation of P-gp mRNA, modulation of P-gp expression, persistent brain inflammation markers IL-1β, IP-10, GFAP, and CXCL1 (p. 255, citing ref [134]).
+- Intranasal TiO2 NPs (anatase, 2.5, 5.0, 10 mg/kg) every other day for 2, 10, 20, 30 days in mice: Ti accumulation in the brain (range 0.13 to 0.3 µg/mL with highest accumulation in hippocampus). Microarray analysis showed significant alterations of 249 gene expressions involved in oxidative stress, apoptosis, memory and learning, brain development, lipid metabolism, DNA repair, inflammation, immune response (p. 255, citing ref [135]).
+- Female mice intranasally instilled with 500 µg of well-characterized rutile (i.e., 80 nm) or anatase (155 nm) TiO2 every other day for 2, 10, 20, or 30 days: high Ti accumulation in hippocampus after 30 days of rutile exposure (range 0.05-0.15 µg/mL in brain), with histological analysis revealing irregular arrangement and loss of neurons, morphological changes, and oxidative damage. Increased TNF-α and IL-1β levels also observed (p. 255, citing ref [136]).
+- Industrial / occupational TiO2 NP exposure: NIOSH 2011 intelligence bulletin; no occupational or environmental exposure limits for TiO2 NPs have been set by any other regulatory agency. The number of workers exposed to TiO2 dust is not available (p. 253, end of section). Respirable TiO2 concentration in workers' breathing zone may reach 150 µg/m³ (p. 250, citing ref [26]).
+- Environmental TiO2 NP estimate: TiO2 NPs in environment in range 0.7-24.5 µg/L (p. 250).
+
+### Cell-line and animal-model neurotoxicity (Tables 2, 3, 4)
+
+The review's Tables 2 (organic UV filters), 3 (ZnO NPs), and 4 (TiO2 NPs) summarize neurotoxic effects across in vitro and in vivo exposure models. Representative HMI-relevant entries:
+
+- ZnO NPs (Table 3) — Wistar rats, IV single dose 25 mg/kg: no changes in neurotransmitter levels or behavior. IP 25 mg/kg/day 10 days in male Wistar rats: decreased iron and calcium but not Zn, sodium, or potassium levels in rat brain homogenates; unchanged emotional behavior. Oral 600 mg/kg 7 days in male Wistar rats: elevated TNF-α, IL-1β, IL-6, CRP, MDA, decreased GSH and SOD levels, CAT, GPx activity. Honeybees (Apis mellifera carnica) — 0.8 mg Zn/mL in food 10 days: decreased brain weight, increased brain AChE and GST activity. SH-SY5Y human neuroblastoma — 6, 12, 24 h, 5-30 mg/mL ZnO NPs: concentration- and time-dependent decrease in cell viability; apoptosis via PI3 K/Akt/caspase-3/7 pathway and necrosis by LOX-mediated ROS production (p. 251-252, references in table).
+- TiO2 NPs (Table 4) — mice intratracheal 13.2 mg/kg once per week 4 weeks: inflammatory cell aggregation and neuron necrosis. Wistar male rats intratracheal 0.1, 1.0, 10.0 mg/kg: Ti accumulation in brain dose-dependent. PC12 rat pheochromocytoma — 24 h, 1-125 µg/ml: decreased cell viability, mitochondrial impairment, decreased DA levels (p. 254, references in table).
+
+## Methods
+
+This is a narrative review article. The authors describe their selection methodology only briefly: "data regarding the neurotoxicity of several organic filters ... and two allowed inorganic filters ... is presented and discussed" (Abstract, p. 245). No systematic search protocol, inclusion/exclusion criteria, study-quality assessment, or risk-of-bias assessment is reported. References cover 1986-2017 (171 references in total).
+
+**Article structure:**
+- Section 1 (Introduction, p. 245-247): UV-radiation context, types of UV filters, human exposure and detrimental effects, environmental occurrence
+- Section 2 (Organic filters, p. 247-250): six sub-sections on OMC (2.1), BP-3 (2.2), BP-4 (2.3), 4-MBC (2.4), 3-BC (2.5), OC (2.6), with Table 1 (organic UV filter nomenclature) and Table 2 (neurotoxic effects of organic UV filters)
+- Section 3 (Inorganic filters, p. 250-256): two sub-sections on ZnO (3.1) and TiO2 (3.2), each with sub-sub-sections on absorption / BBB transport, in vivo neurotoxicity, in vitro neurotoxicity. Tables 3 (ZnO NPs) and 4 (TiO2 NPs)
+- Section 4 (Conclusions and future perspectives, p. 256)
+- References (p. 256-259)
+
+**Disclosed funding and conflict of interest:** Supported by NIH/NIEHS grant numbers R01ES07331, R01ES10563, R01ES020852. The authors declare no conflict of interest.
+
+**Author affiliations:** Department of Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, NY, US (J.A. Ruszkiewicz corresponding, joruszkiewicz@gmail.com / joanna.ruszkiewicz@einstein.yu.edu; A. Pinkas, B. Ferrer, T.V. Peres, M. Aschner). Department of Forensic Sciences and Toxicology, University of Crete, Heraklion, Crete, Greece (A. Tsatsakis).
+
+**Publication metadata:** Received 31 March 2017; received in revised form 19 May 2017; accepted 25 May 2017; available online 27 May 2017. CC BY-NC-ND 4.0 license. Published by Elsevier Ireland Ltd on behalf of the Toxicology Reports journal.
+
+## Implications
+
+**Certification (HMTc).** This is a narrative review (evidence_tier C) of neurotoxicity literature for UV filters in sunscreens. It does not report original heavy-metal contamination data for sunscreen products and does not measure the HMTc analytes (Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn) in the product matrix. Its HMI relevance is via Zn (from ZnO mineral-filter actives) and Ti (from TiO2 mineral-filter actives), neither of which is on the HMTc 10-analyte list but both of which have wiki pages and warrant routing. The review's most directly threshold-adjacent finding is the human in vivo evidence that ZnO NPs in sunscreen, applied to healthy skin for five consecutive days, produced a small but detectable increase of Zn²⁺ in blood and urine (review p. 250, citing primary ref [87]) — this is dermal-exposure pharmacokinetics for an active ingredient, not a contamination value. It does not feed Step 0 Lock work for sun-suntan-products, baby-sunscreen-mineral, or baby-sunscreen-chemical rows. Occurrence data for human urine BP-3 (NHANES 22.9 ng/mL mean; 1040 ng/mL P95) and the maternal-urine-BP-3-vs-infant-anthropometry correlation are useful context for endocrine-disruption concerns adjacent to the certification program but are not directly threshold-relevant for heavy-metal analytes.
+
+**Courses.** Useful for any course covering UV-filter chemistry, dermal-absorption pharmacokinetics for cosmetic actives, nanoparticle skin penetration (intact vs damaged barrier), olfactory and BBB translocation routes for nanoscale ZnO and TiO2, and the biomonitoring evidence base for parents-and-pregnancy exposure to sunscreen actives. The summary tables (Table 1 nomenclature; Table 2-4 effects-by-exposure-model) are a worked example of evidence-tabulation for cosmetic-actives neurotoxicology.
+
+**App.** Limited direct relevance. The paper does not characterize finished sunscreen contamination by HMTc analytes and so does not feed the consumer-app ingredient-level or product-level contamination score for sunscreens. The human-biomonitoring summary (urine, breast milk, placenta detection of organic UV filters) is at the cohort-aggregate level and not product-specific.
+
+**Microbiome.** Not addressed in this review.
+
+## Wiki pages this source may touch
+
+- [[metals/zinc]]
+- [[metals/titanium]]
+- [[products/sun-suntan-products]]
+- [[products/baby-sunscreen-mineral]]
+- [[products/baby-sunscreen-chemical]]
+
+## Verification notes
+
+- **2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill).** New page; no prior wiki revision. DOI grep (10.1016/j.toxrep.2017.05.006), raw_handle grep (KADC_neurotoxic-effect-of-active-ingredients-in-sunscre), and `ruszkiewicz2017` cite-key grep against `wiki/sources/` all returned zero matches before ingest. PDF read in three 5-page chunks via the `pages` parameter (pages 1-5, 6-10, 11-15); abstract, full body of sections 1-4, Tables 1-4, conclusions, and references read in full.
+- **Source-type and evidence-tier.** Narrative review. evidence_tier: C per CLAUDE.md Part 13 / docs/conventions (narrative reviews are not systematic and do not carry an explicit search protocol or quality-assessment framework, so they sit below B-tier where regulator/industry-funded testing studies sit, and below A-tier where systematic reviews and primary peer-reviewed contamination studies sit). The review is useful for occurrence/exposure context but its synthesis statements should not be treated as the wiki's own synthesis.
+- **Brand-firewall compliance (Part 12 strict, 2026-05-17 lock).** The review does not name any specific commercial sunscreen brands. It refers to the active ingredients (OMC, BP-3, ZnO, TiO2, etc.) and the market share of UV filters in sunscreen products as a class. No brand attribution appears in the wiki page. Scientific-method vendor names ARE preserved per the 2026-05-17 carve-out (the review itself names ICP-MS as the analytical instrument for measuring Ti in brain tissue, ref [131]; no other instrument/material vendor names are reported in the review beyond the generic technique). Cell line names (SH-SY5Y, PC12, Neuro-2a, etc.) and animal model strains (Wistar, Sprague-Dawley, Long Evans, C57BL/6J, Swiss albino, ICR, Danio rerio, etc.) are scientific-method identifiers, not brands.
+- **Wiki/HMTc firewall (Part 2).** The review itself contains synthesis statements ("studies suggest...", "data suggest...", "this raises concerns regarding..."). The wiki page reports what THIS source surveys and what numbers the review cites from primary studies, without adopting the review's interpretive synthesis as our own. No HMTc threshold proposals, no consumer risk advisories, and no comparisons to other corpus sources appear in the page body. The Implications section is explicit that this review does NOT contribute HMTc-relevant contamination data on the 10-analyte list for sunscreen products.
+- **Routing scope.** Routed to `[[products/sun-suntan-products]]` (the broader sun-product umbrella), `[[products/baby-sunscreen-mineral]]` (ZnO/TiO2 mineral-filter formulations), and `[[products/baby-sunscreen-chemical]]` (organic-filter formulations). The review treats organic and inorganic UV filters distinctly, so both child-facing product slugs are routing destinations. The PDF lives in the babycare_papers/04_Shampoo_Wipes_Sunscreen folder, indicating Karen's selection was driven by pediatric/developmental exposure relevance; the review reports developmental and gestational exposure data (rat dam offspring spatial learning, prenatal ZnO NP exposure altering monoaminergic neurotransmitter levels in mouse offspring, BP-3 maternal-urine correlation with infant anthropometry).
+- **Matrices.** `cosmetic-personal-care` captures the sunscreen product matrix. The review also reports environmental occurrence (river/lake/sea water, fish, coral reef) and human-biological-matrix occurrence (urine, blood, plasma, breast milk, placenta), but these are biomonitoring/environmental contexts rather than the product matrices the wiki tracks; not declared as additional matrices on this page.
+- **Speciation and metal vocabulary.** `metals: [Zn, Ti]` reflects the two heavy-metal-bearing actives the review addresses. Zinc is reported as Zn²⁺ ions released from ZnO and as elemental Zn (⁶⁵Zn isotope tracer in primary ref [96]). Titanium is reported as total Ti measured by ICP-MS in brain tissue (primary ref [131]). The review does not distinguish Cr, As, or Hg species and does not report Pb, Cd, Ni, Al, Cr-VI, or Sn data, so these are not declared.
+- **Sample size and population.** `sample_n: null` because this is a narrative review with no single sample size; the review draws on 171 primary references spanning rat, mouse, zebrafish, C. elegans, honeybee, coral, fish, and human studies. `sample_population` describes the literature surveyed.
+- **License.** The first page footer states "© 2017 The Authors. Published by Elsevier Ireland Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)." License set as `CC BY-NC-ND 4.0`.
+- **DOI verified.** DOI printed on first page footer as "http://dx.doi.org/10.1016/j.toxrep.2017.05.006".
+- **Authors verified against PDF byline.** Joanna A. Ruszkiewicz (corresponding), Adi Pinkas, Beatriz Ferrer, Tanara V. Peres (Albert Einstein College of Medicine, Bronx, NY); Aristides Tsatsakis (University of Crete); Michael Aschner (Albert Einstein College of Medicine).
+- **Publication metadata.** Received 31 March 2017; revised 19 May 2017; accepted 25 May 2017; available online 27 May 2017. Toxicology Reports, 4 (2017) 245-259. ISSN 2214-7500.
+- **Funding.** NIH/NIEHS grants R01ES07331, R01ES10563, R01ES020852.
+- **What this page does NOT report.** Original heavy-metal contamination data (Pb, Cd, As, Hg, Ni, Al, Cr-VI, Sn) for sunscreen products — these analytes are out of scope for this review. The review's HMI-relevant data is via Zn (active ingredient ZnO) and Ti (active ingredient TiO2), neither on the HMTc 10-analyte list. Mechanistic neurotoxicity tables (Tables 2, 3, 4) are summarized at scope-level rather than transcribed cell-line-by-cell-line, since the wiki's focus is occurrence/exposure rather than mechanistic toxicology.
+- **Potential primary-source check needed on Ti-brain upregulation.** The review (p. 255) states "the amount of Ti in the brain was measured by inductively coupled plasma mass spectrometry (ICP-MS) 3 days after a single instillation of 4 mg/kg TiO₂ and found to be upregulated by 100% (120 ng/g Ti in controls, compared to 240 ng/g in treated animals)" — the wording in the original PDF reads "120 ng/g Ti in controls, compared to 240 ng/g in treated animals", confirming the direction (control < treated). Cited as ref [131]. Page corrected at first writing to match this exact direction (treated higher than controls, 100% upregulation).
+
+## Ingest log
+
+- 2017-05-27 (publication): Toxicology Reports 4 (2017) 245-259. Received 31 March 2017; revised 19 May 2017; accepted 25 May 2017. CC BY-NC-ND 4.0.
+- 2026-06-01 fresh ingest (Claude Opus 4.7, autonomous v2.0 manual-fetch skill): NEW path. Three identity checks against `wiki/sources/` (DOI grep `10.1016/j.toxrep.2017.05.006`, raw_handle grep `KADC_neurotoxic-effect-of-active-ingredients-in-sunscre`, cite-key grep `ruszkiewicz2017`) returned zero matches. PDF read in three chunks (pages 1-5, 6-10, 11-15) via the `pages` parameter. Source page written. Routing audit refresh queued. Audit-queue append queued. Phase 2 audit subagent to follow.
