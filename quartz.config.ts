@@ -105,6 +105,9 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
+      // Auto-link first prose mention of unambiguous metals; must run before
+      // CrawlLinks so the inserted links are resolved + counted in the graph.
+      Plugin.AutoLink(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),

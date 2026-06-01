@@ -41,32 +41,75 @@ function CitationMetadata({
   title: string
   socialUrl: string
 }) {
-  const isSourcePage = frontmatter?.type === "source" || slug?.startsWith("sources/")
-  if (!frontmatter || !isSourcePage) return null
+  if (!frontmatter) return null
+  const slugStr = (slug ?? "") as string
 
-  const citationTitle = frontmatterString(frontmatter.title) ?? title
-  const authors = frontmatterStringArray(frontmatter.authors)
-  const publicationDate =
-    frontmatterString(frontmatter.year) ??
-    frontmatterString(frontmatter.published) ??
-    frontmatterString(frontmatter.created)
-  const publication = frontmatterString(frontmatter.publication)
-  const doi = frontmatterString(frontmatter.doi)
-  const canonicalSourceUrl = frontmatterString(frontmatter.access_url)
+  // Source pages represent the underlying paper — emit its real bibliographic
+  // record (author, journal, the paper's own DOI).
+  const isSourcePage = frontmatter.type === "source" || slugStr.startsWith("sources/")
+  if (isSourcePage) {
+    const citationTitle = frontmatterString(frontmatter.title) ?? title
+    const authors = frontmatterStringArray(frontmatter.authors)
+    const publicationDate =
+      frontmatterString(frontmatter.year) ??
+      frontmatterString(frontmatter.published) ??
+      frontmatterString(frontmatter.created)
+    const publication = frontmatterString(frontmatter.publication)
+    const doi = frontmatterString(frontmatter.doi)
+    const canonicalSourceUrl = frontmatterString(frontmatter.access_url)
+    return (
+      <>
+        <meta name="citation_title" content={citationTitle} />
+        {authors.map((author, index) => (
+          <meta key={`citation-author-${index}`} name="citation_author" content={author} />
+        ))}
+        {publicationDate && <meta name="citation_publication_date" content={publicationDate} />}
+        {publication && <meta name="citation_journal_title" content={publication} />}
+        {doi && <meta name="citation_doi" content={doi} />}
+        <meta name="citation_abstract_html_url" content={socialUrl} />
+        {canonicalSourceUrl && <meta name="citation_fulltext_html_url" content={canonicalSourceUrl} />}
+      </>
+    )
+  }
 
-  return (
-    <>
-      <meta name="citation_title" content={citationTitle} />
-      {authors.map((author, index) => (
-        <meta key={`citation-author-${index}`} name="citation_author" content={author} />
-      ))}
-      {publicationDate && <meta name="citation_publication_date" content={publicationDate} />}
-      {publication && <meta name="citation_journal_title" content={publication} />}
-      {doi && <meta name="citation_doi" content={doi} />}
-      <meta name="citation_abstract_html_url" content={socialUrl} />
-      {canonicalSourceUrl && <meta name="citation_fulltext_html_url" content={canonicalSourceUrl} />}
-    </>
-  )
+  // The wiki's own analytical work — synthesis pages and the comprehensive
+  // metal reviews — emitted as Highwire / Google Scholar citation metadata so
+  // Scholar can index them as original technical reports from the Index. Framed
+  // honestly as an institutional report (not a journal article); the
+  // page-level DOI flows in automatically once wiki_doi is minted. Category
+  // pages and stubs are intentionally excluded to avoid overclaiming.
+  const isWikiScholarly =
+    frontmatter.type === "synthesis" ||
+    frontmatter.type === "metal" ||
+    slugStr.startsWith("synthesis/") ||
+    slugStr.startsWith("metals/")
+  if (isWikiScholarly) {
+    const citationTitle = frontmatterString(frontmatter.title) ?? title
+    const pubDate =
+      frontmatterString(frontmatter.established) ??
+      frontmatterString(frontmatter.updated) ??
+      frontmatterString(frontmatter.created)
+    const wikiDoi = frontmatterString(frontmatter.wiki_doi)
+    return (
+      <>
+        <meta name="citation_title" content={citationTitle} />
+        <meta name="citation_author" content="Heavy Metal Index" />
+        <meta name="citation_publisher" content="Paleo Foundation" />
+        <meta
+          name="citation_technical_report_institution"
+          content="Heavy Metal Index, Paleo Foundation"
+        />
+        {pubDate && (
+          <meta name="citation_publication_date" content={pubDate.replace(/-/g, "/")} />
+        )}
+        <meta name="citation_abstract_html_url" content={socialUrl} />
+        <meta name="citation_fulltext_html_url" content={socialUrl} />
+        {wikiDoi && <meta name="citation_doi" content={wikiDoi} />}
+      </>
+    )
+  }
+
+  return null
 }
 
 export default (() => {
