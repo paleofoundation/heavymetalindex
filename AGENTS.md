@@ -99,6 +99,7 @@ Report pages touched, evidence rows generated, product or ingredient pages updat
 Do not silently drop source data because a destination page is missing.
 Do not require individual studies to report any specific percentile.
 Do not exclude summary-only sources (mean, median, range, IQR, max, lb/ub) from the HMTc pooling math; they contribute via documented moment-matching pseudo-sample expansion per CLAUDE.md Part 19.
+Do not end a commit with a bare `git commit` or `git commit -a`. Declare the files and commit by pathspec — `git commit -- <files>` or `tools/commit-scoped.sh -m "msg" -- <files>` — or FRANK's `git add -A` rides along into your commit. See OPERATING.md Part 5 ("Scoped commits").
 Do not treat a source-reported percentile from one paper as the HMTc aggregate percentile. Clean per-analyte standards = pooled P97; dirty per-analyte standards = pooled P45; both with sensitivity bands. Final HMTc values must not exceed the lowest applicable loaded regulatory cap, expressed in the row's native basis.
 Do not silently pool samples across jurisdictions, markets, time periods, bases, product forms, or analyte species. If the benchmark target is jurisdiction-specific, document why each non-target-market source is included, excluded, or retained as context.
 Do not write standards arithmetic (P-value computations, pooling math, sensitivity bands, candidate values) into `wiki/`. That content lives in `data/workbench/standards/` and on the local staff Standards Workbench tool. The wiki is the public literature evidence layer only.
