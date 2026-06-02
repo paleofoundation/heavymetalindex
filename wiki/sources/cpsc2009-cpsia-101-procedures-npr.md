@@ -98,5 +98,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [827ca6b](https://github.com/paleofoundation/heavymetalindex/commit/827ca6b) | 2026-06-01 | ingest: cpsc2009-cpsia-101-procedures-npr [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA |
 <!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/salt",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "29a973fd2d0518f174f8153a4f3a3717b7ac2ca624045725917db17dba598955",
+      "content_sha256": "6f8ffe9a68db7741c74f809823a5c427e1ff52b314f2462da0010ec44d7fb446",
       "content_bytes": 8141,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/salt.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/salt.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/samsiyah2019-indonesia-salt-lead",
         "content_pin": {
-          "content_sha256": "152e24b4f7468721829b820525491efadd7ec4846671efab6fd5e2099f8f2f44",
+          "content_sha256": "e11ee028251039e0fe0b6b73c1efc380909708cf005d622e0f16fa147049ea2c",
           "content_bytes": 2888,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/samsiyah2019-indonesia-salt-lead.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/samsiyah2019-indonesia-salt-lead.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2021-edible-salt-soy-sauce-pb-cd",
         "content_pin": {
-          "content_sha256": "be16250a5368b68700dc7969711a4a0b31a8180fb32bd66c60eb7857123a5d2f",
+          "content_sha256": "ea460021655220773529d0bfb40c6c76a4a0cecf30ed3f0d4b235ac497e6c67c",
           "content_bytes": 3477,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
         }
       }
     ]

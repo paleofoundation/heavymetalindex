@@ -109,5 +109,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [cd2665c](https://github.com/paleofoundation/heavymetalindex/commit/cd2665c) | 2026-06-01 | ingest: uddin2023-wastewater-treatment-landfill-leachate-review [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

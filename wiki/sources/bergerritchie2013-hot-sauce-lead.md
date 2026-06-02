@@ -155,3 +155,14 @@ Not appropriate for:
 - [[products/food-packaging-plastic-tubs]]
 - Future [[products/hot-sauce]] (does not yet exist; condiments-general is the current routing destination)
 - Future [[ingredients/chili-pepper]] (does not yet exist; spices is the current routing destination)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4e77a7f](https://github.com/paleofoundation/heavymetalindex/commit/4e77a7f) | 2026-06-02 | audit: bergerritchie2013-hot-sauce-lead revised |
+| [be50f7b](https://github.com/paleofoundation/heavymetalindex/commit/be50f7b) | 2026-06-02 | ingest: bergerritchie2013-hot-sauce-lead fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
+<!-- END: hmi-page-history -->

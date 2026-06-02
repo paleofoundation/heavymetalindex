@@ -154,6 +154,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [89203cc](https://github.com/paleofoundation/heavymetalindex/commit/89203cc) | 2026-06-01 | audit: roya2016-iran-torbat-heidarieh-rice-metals [revised] |
 | [63fcd09](https://github.com/paleofoundation/heavymetalindex/commit/63fcd09) | 2026-06-01 | ingest: roya2016-iran-torbat-heidarieh-rice-metals [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

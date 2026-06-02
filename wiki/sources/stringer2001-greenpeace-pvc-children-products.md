@@ -168,6 +168,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [f9253af](https://github.com/paleofoundation/heavymetalindex/commit/f9253af) | 2026-06-01 | audit: stringer2001-greenpeace-pvc-children-products [revised] |
 | [2fb80c7](https://github.com/paleofoundation/heavymetalindex/commit/2fb80c7) | 2026-06-01 | ingest: stringer2001-greenpeace-pvc-children-products [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_02_Strollers_Walkers_Swings/02_Strollers_Walkers_Swings |
 <!-- END: hmi-page-history -->

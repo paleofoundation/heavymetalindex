@@ -2,7 +2,7 @@
 source_page: wiki/products/game-meats.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 19e3b06f77d71997cf0c0e3365c5623046191ece295faa926af4ff038b4ffa4c
+source_page_sha256: c8d1e6ef47b6cdea1343ba58d2bccee93c7f6eab02a56a14262a7b3329c14443
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 591
+audit_log_total_rows: 611
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 591 |
+| audit log rows read | 611 |
 
 ## Page-level audit rows
 

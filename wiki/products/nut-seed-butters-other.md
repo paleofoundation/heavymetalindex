@@ -17,7 +17,7 @@ pair_rows: [15, 16]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 1
+sources: 2
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 
@@ -101,6 +101,7 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/potorti2026-tahini-quality-safety-inorganic-elements\|Potortì et al. 2026]]. *Chemical Composition and Nutritional Quality of Commercial Tahini*, Applied Sciences | 2026 | Peer-reviewed | IT/TR/IL Pb, Cd, tAs, tHg, Ni occurrence in Seven commercial tahini brands purchased online for Italian market in 2025, from Turkey (T-1), Israel (T-2), Germany (T-3),... (n=7) |
+| 2 | [[sources/sadeghi2021-tahini-heavy-metals-voltammetry\|Sadeghi et al. 2021]]. *Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry*, Journal of Human, Health and Halal Metrics | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -110,9 +111,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

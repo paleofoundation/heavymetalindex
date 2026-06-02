@@ -136,6 +136,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [922a9c6](https://github.com/paleofoundation/heavymetalindex/commit/922a9c6) | 2026-06-01 | audit: aishwarya2024-extremophiles-bioremediation-review [revised] |
 | [04c340c](https://github.com/paleofoundation/heavymetalindex/commit/04c340c) | 2026-06-01 | ingest: aishwarya2024-extremophiles-bioremediation-review [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

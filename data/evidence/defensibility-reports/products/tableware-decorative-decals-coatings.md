@@ -2,7 +2,7 @@
 source_page: wiki/products/tableware-decorative-decals-coatings.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c257c916fbcb312a09048d0dd11696755d662862023f0015e3565f3eca8aa4ec
+source_page_sha256: d2fe0a7f8225a74d2a7b19cf008d4a1d10c65071128af7771cf68e1a38978d33
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 591
+audit_log_total_rows: 611
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 591 |
+| audit log rows read | 611 |
 
 ## Page-level audit rows
 

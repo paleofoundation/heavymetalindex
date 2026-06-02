@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:7467cbbf85fccd30082fe5a9e68ba54c…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:55159d0afdb23017e4a31a82125d20f3…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=kitchen-countertop-cleaners&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/kitchen-countertop-cleaners&download=1`.
 

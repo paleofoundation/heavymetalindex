@@ -120,3 +120,14 @@ Brand firewall: per Part 12, no brand names are disclosed in the source — samp
 Ingredient slug note: `[[ingredients/sesame]]` and `[[ingredients/tahini]]` are declared as routing destinations matching the precedent set by [[sources/potorti2026-tahini-quality-safety-inorganic-elements|Potortì et al. 2026]]. Neither page currently exists in wiki/ingredients/; both are tolerated by the routing audit and will be auto-stubbed when ingredient frequency crosses the ≥freq-2 threshold (this is the second tahini-specific paper to declare them, so they should auto-stub on the next create-missing-pages.mjs run).
 
 Regulation slug note: the paper cites "Codex" maximum levels for Zn (4 mg/kg), Cu (2 mg/kg), and Pb/Cd (both 0.01 mg/kg) in tahini. The closest existing regulation page in the current taxonomy is [[regulations/codex-cxs-193-1995-tin-canned-foods]] (the Codex General Standard for Contaminants and Toxins in Food and Feed, CXS 193-1995, which contains the metal MLs across food categories). The taxonomy snapshot does not yet contain a tahini- or sesame-specific Codex MLs slug; the existing CXS 193 page is the correct routing target for these limits.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bf39b5c](https://github.com/paleofoundation/heavymetalindex/commit/bf39b5c) | 2026-06-02 | audit: sadeghi2021-tahini-heavy-metals-voltammetry revised |
+| [d0ed270](https://github.com/paleofoundation/heavymetalindex/commit/d0ed270) | 2026-06-02 | ingest: sadeghi2021-tahini-heavy-metals-voltammetry fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
+<!-- END: hmi-page-history -->

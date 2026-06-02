@@ -18,7 +18,7 @@ audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
 literature_scope: thin
-sources: 8
+sources: 10
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Nail Polish (ages 0-5)
@@ -109,7 +109,9 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | *[awaiting synthesis]* |
 | 4 | [[sources/medley2023-childrens-makeup-body-products-us-usage\|Medley et al. 2023]]. *Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures*, International Journal of Environmental Research and Public Health 20(3): 2114 | 2023 | Peer-reviewed | This Columbia/Earthjustice mixed-methods survey of 207 US parents/guardians (reporting on 312 children ≤12 years) characterizes the use, frequency, duration, and... |
 | 5 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
-| 6 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
+| 6 | [[sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup\|Engel et al. 2016]]. *Pretty Scary 2: Unmasking Toxic Chemicals in Kids' Makeup*, Breast Cancer Fund; Campaign for Safe Cosmetics (October 2016) | 2016 | Nonprofit | *[awaiting synthesis]* |
+| 7 | [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics\|Stone 2012]]. *Quality Assurance Project Plan: Parabens and Metals in Children's Cosmetic and Personal Care Products*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 12-07-021 (February 2012) | 2012 | Regulatory | *[awaiting synthesis]* |
+| 8 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

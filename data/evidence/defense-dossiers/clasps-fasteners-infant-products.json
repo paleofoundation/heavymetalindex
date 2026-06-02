@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/clasps-fasteners-infant-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "42b03c9122d3f1a6235535f200b258c6995f7b42b6b8c1052d208c3404226a8f",
+      "content_sha256": "4b7bee44a12ae948f0bd9b1a3f5c14b85e8dd6adfac23c8190089a86d0f57bd2",
       "content_bytes": 8778,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/clasps-fasteners-infant-products.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/clasps-fasteners-infant-products.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
         "content_pin": {
-          "content_sha256": "4910e737e852800fe3399e4b2ca8867aea20dfc2cd868ee6c632e25e33341693",
-          "content_bytes": 33923,
-          "last_commit_sha": "121cbf8",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "b00e1735bfb4babf9425acf29183ab5314af1f187f1db604fb38460d83bafb7b",
+          "content_bytes": 34070,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 121cbf8:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hohenstein2023-en-1811-2023-nickel-release",
         "content_pin": {
-          "content_sha256": "77a52607b6f464952195be9810cc83642c780aae1bf2533a6d1cd5a740a50bb2",
-          "content_bytes": 12926,
-          "last_commit_sha": "af41d42",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "a42c19f1ab4b6be8e7ffc8a130d63c4847473d50ac11cdd1bf9ac4d6e3e57867",
+          "content_bytes": 13073,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show af41d42:wiki/sources/hohenstein2023-en-1811-2023-nickel-release.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/hohenstein2023-en-1811-2023-nickel-release.md | sha256sum"
         }
       }
     ]

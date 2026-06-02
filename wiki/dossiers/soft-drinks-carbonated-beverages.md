@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:5e9b1111479e35d1a0a6269c9cc23325…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:56c1735249f3f32a6bef762a9c1e939b…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=soft-drinks-carbonated-beverages&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/soft-drinks-carbonated-beverages&download=1`.
 

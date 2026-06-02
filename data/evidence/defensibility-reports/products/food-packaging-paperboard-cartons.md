@@ -2,7 +2,7 @@
 source_page: wiki/products/food-packaging-paperboard-cartons.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 38cc674e8b3e9f7d25f111988999c693aa32b5d8fcba8d3f2a6278313a5a4ccc
+source_page_sha256: f674d159d95d11b9ca935843737bef2bf9997749e9f57726b66795f2bc4ba921
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 591
+audit_log_total_rows: 611
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 591 |
+| audit log rows read | 611 |
 
 ## Page-level audit rows
 

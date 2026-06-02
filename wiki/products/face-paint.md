@@ -17,7 +17,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-14
-sources: 10
+sources: 14
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
@@ -95,7 +95,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/salles2023-face-paints-pancakes-brazil-cancer-risk\|Salles et al. 2023]]. *Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk*, International Journal of Environmental Research and Public Health 20:531 | 2023 | Peer-reviewed | BR/US Al, tAs, Cd, Cr, Cr-VI, Ni, Pb, Sb, Sn occurrence in 95 samples of face paints (n=90) and pancakes (n=5) purchased at the largest high-street commercial center in São... (n=95) |
 | 7 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
 | 8 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
-| 9 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 9 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | *[awaiting synthesis]* |
+| 10 | [[sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup\|Engel et al. 2016]]. *Pretty Scary 2: Unmasking Toxic Chemicals in Kids' Makeup*, Breast Cancer Fund; Campaign for Safe Cosmetics (October 2016) | 2016 | Nonprofit | *[awaiting synthesis]* |
+| 11 | [[sources/hepp2014-fda-cosmetics-seven-elements\|Hepp et al. 2014]]. *Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content*, Journal of Cosmetic Science 65: 125-145 (May/June 2014) | 2014 | Peer-reviewed | US tAs, Cd, Cr, Co, Pb, tHg, Ni occurrence in 150 cosmetic products of 12 types sold on the U.S. market, purchased April 22 - August 16, 2011... (n=150) |
+| 12 | [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics\|Stone 2012]]. *Quality Assurance Project Plan: Parabens and Metals in Children's Cosmetic and Personal Care Products*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 12-07-021 (February 2012) | 2012 | Regulatory | *[awaiting synthesis]* |
+| 13 | [[sources/campaignsafecosmetics2009-pretty-scary-face-paints\|Sarantis et al. 2009]]. *Pretty Scary: Could Halloween Face Paint Cause Lifelong Health Problems? A Report on Heavy Metals in Face Paints*, Campaign for Safe Cosmetics; Breast Cancer Fund; Commonwealth (October 2009) | 2009 | Nonprofit | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -105,9 +109,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

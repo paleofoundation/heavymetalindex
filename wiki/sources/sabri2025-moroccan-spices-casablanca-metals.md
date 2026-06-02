@@ -121,3 +121,13 @@ Three black-pepper ranges in Table 3 (Pb, tAs, Ni) cannot contain their reported
 - **Total arsenic, total chromium, no mercury.** The five toxic elements are reported as total concentrations. There is no inorganic-As / organic-As speciation, no Cr-VI / Cr-III speciation, and no mercury measurement (neither tHg nor MeHg). For any HMI analyte requiring speciation, this paper is a tAs and total-Cr source only.
 - **No geographic-origin metadata within Morocco.** Samples are described as bulk market spices in Greater Casablanca; the paper does not record country/region of cultivation, supplier identity, organic vs conventional status, or harvest year. Geographic-variance entries in downstream ingredient pages should treat this as one Greater-Casablanca-market dataset.
 - **License terms.** Scienceline Publication (publisher of *World's Veterinary Journal*) operates open-access journals, but the PDF does not carry an explicit CC licence statement. Treat as open-access cite-and-link until the journal's terms are confirmed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e0cf74f](https://github.com/paleofoundation/heavymetalindex/commit/e0cf74f) | 2026-06-02 | ingest: sabri2025-moroccan-spices-casablanca-metals fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt |
+<!-- END: hmi-page-history -->

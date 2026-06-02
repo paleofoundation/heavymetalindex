@@ -131,3 +131,14 @@ The document is an industry-government GMP source on equipment-mediated lead con
 - [[products/cookware-metal-alloy]] (pathway context for bronze, brass, terneplate, and pre-1995 lead-soldered stainless steel as lead-contributing materials in food-contact equipment)
 - Future [[products/maple-syrup]] (does not yet exist; Step 0 Lock pending)
 - Future [[ingredients/maple-syrup]] (does not yet exist; pancake-syrup is not a substitute)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d864a1a](https://github.com/paleofoundation/heavymetalindex/commit/d864a1a) | 2026-06-02 | audit: imsi2015-gmp-maple-syrup-lead promoted |
+| [2fe7267](https://github.com/paleofoundation/heavymetalindex/commit/2fe7267) | 2026-06-02 | ingest: imsi2015-gmp-maple-syrup-lead fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/02_Honey_Syrups_Vinegar |
+<!-- END: hmi-page-history -->

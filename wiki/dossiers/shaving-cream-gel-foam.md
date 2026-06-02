@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:4d83e7a8bc5ffafbc4c98a8b828acd9e…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:4cf19b05a2a134a239b920d8c3b07d3f…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=shaving-cream-gel-foam&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/shaving-cream-gel-foam&download=1`.
 

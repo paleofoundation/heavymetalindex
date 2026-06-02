@@ -168,3 +168,14 @@ For the EU regulatory-framework timeline, the article is the 2024 trade-side con
 - Regulation (EU) 2023/1115 (EU Deforestation-Free Products Regulation, EUDR), in force 29 June 2023, applying from 30 December 2024.
 - Council Directive 2009/32/EC on the approximation of the laws of the Member States on extraction solvents used in the production of foodstuffs and food ingredients.
 - Regulation (EC) No 1935/2004 of the European Parliament and of the Council on materials and articles intended to come into contact with food.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [56e4ad2](https://github.com/paleofoundation/heavymetalindex/commit/56e4ad2) | 2026-06-02 | audit: cbi2024-cocoa-eu-market-requirements audited-promote |
+| [fd52f3c](https://github.com/paleofoundation/heavymetalindex/commit/fd52f3c) | 2026-06-02 | ingest: cbi2024-cocoa-eu-market-requirements fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt |
+<!-- END: hmi-page-history -->

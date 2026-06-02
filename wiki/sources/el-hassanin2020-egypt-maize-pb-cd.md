@@ -184,5 +184,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [cafbb59](https://github.com/paleofoundation/heavymetalindex/commit/cafbb59) | 2026-06-01 | ingest: el-hassanin2020-egypt-maize-pb-cd [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

@@ -14,7 +14,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 34
+sources: 35
 created_by: cat4_step0_scaffold_2026_05_16
 ---
 
@@ -123,11 +123,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 27 | [[sources/khalil2017-snacks-peshawar-pakistan-heavy-metals\|Khalil et al. 2017]]. *Heavy Metals Toxicity: Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan*, Professional Medical Journal | 2017 | Peer-reviewed | PK Pb, Cd, Cr occurrence in 96 samples (29 branded, 67 non-branded/local) of potato- and corn-based snacks from four towns of district Peshawar, Pakistan;... (n=96) |
 | 28 | [[sources/pal2017-wastewater-vegetables-heavy-metals\|Jitender et al. 2017]]. *Heavy Metals in Soil and Vegetables and their Effect on Health*, International Journal of Engineering Science Technologies | 2017 | Peer-reviewed | IN Cd, Pb, Cu, Zn, Cr, Ni occurrence in Vegetables grown on domestic-wastewater-irrigated farmland around Hisar district, Haryana, India |
 | 29 | [[sources/hossain2016-bangladesh-vegetables-pb-cd-cr\|AMMM et al. 2016]]. *Environmental surveillance of commonly-grown vegetables for investigating potential lead and chromium contamination intensification in Bangladesh*, SpringerPlus | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 30 | [[sources/jaishree2015-effluent-irrigated-crops-metals\|Jaishree et al. 2015]]. *Heavy metal accumulation in vegetables irrigated with industrial effluent*, International Journal of Innovative Research in Science, Engineering and Technology | 2015 | Peer-reviewed | IN Cd, Ni, Pb, Cu, Cr, Mn, Zn occurrence in Vegetables and wheat grown under industrial-effluent irrigation conditions in India |
-| 31 | [[sources/moradi2015-iran-isfahan-soil-crops-metals\|Moradi et al. 2015]]. *A Human Health Risk Assessment of Soil and Crops Contaminated by Heavy Metals in Industrial Regions, Central Iran*, Human and Ecological Risk Assessment: An International Journal (accepted manuscript, 29 Sep 2015) | 2015 | Peer-reviewed | *[awaiting synthesis]* |
-| 32 | [[sources/salehipour2015-iran-isfahan-cereals-vegetables-metals\|Salehipour et al. 2015]]. *Health Risks from Heavy Metals via Consumption of Cereals and Vegetables in Isfahan Province, Iran*, Human and Ecological Risk Assessment: An International Journal | 2015 | Peer-reviewed | *[awaiting synthesis]* |
-| 33 | [[sources/stasinos2014-heavy-metals-tubers-review\|Stasinos et al. 2014]]. *The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review*, Journal of Food Science | 2014 | Review | GR/LV/US Pb, Cd, tAs, Cr, Ni, Al occurrence in Review of global studies on carrots, onions, and potatoes from polluted irrigation water contexts |
-| 34 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, and wheat grains collected in 2001 from commercial plantations in three Polish provinces (Mazowieckie, Lubelskie,... (n=272) |
+| 30 | [[sources/sharma2016-spinach-wastewater-metals\|Sharma et al. 2016]]. *Heavy metals in vegetables: screening health risks involved in cultivation along wastewater drain and irrigating with wastewater*, SpringerPlus | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 31 | [[sources/jaishree2015-effluent-irrigated-crops-metals\|Jaishree et al. 2015]]. *Heavy metal accumulation in vegetables irrigated with industrial effluent*, International Journal of Innovative Research in Science, Engineering and Technology | 2015 | Peer-reviewed | IN Cd, Ni, Pb, Cu, Cr, Mn, Zn occurrence in Vegetables and wheat grown under industrial-effluent irrigation conditions in India |
+| 32 | [[sources/moradi2015-iran-isfahan-soil-crops-metals\|Moradi et al. 2015]]. *A Human Health Risk Assessment of Soil and Crops Contaminated by Heavy Metals in Industrial Regions, Central Iran*, Human and Ecological Risk Assessment: An International Journal (accepted manuscript, 29 Sep 2015) | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 33 | [[sources/salehipour2015-iran-isfahan-cereals-vegetables-metals\|Salehipour et al. 2015]]. *Health Risks from Heavy Metals via Consumption of Cereals and Vegetables in Isfahan Province, Iran*, Human and Ecological Risk Assessment: An International Journal | 2015 | Peer-reviewed | *[awaiting synthesis]* |
+| 34 | [[sources/stasinos2014-heavy-metals-tubers-review\|Stasinos et al. 2014]]. *The Bioaccumulation and Physiological Effects of Heavy Metals in Carrots, Onions, and Potatoes and Dietary Implications for Cr and Ni: A Review*, Journal of Food Science | 2014 | Review | GR/LV/US Pb, Cd, tAs, Cr, Ni, Al occurrence in Review of global studies on carrots, onions, and potatoes from polluted irrigation water contexts |
+| 35 | [[sources/reczajska2005-chromium-plant-foods-poland\|Reczajska et al. 2005]]. *Determination of Chromium Content of Food and Beverages of Plant Origin*, Polish Journal of Food and Nutrition Sciences | 2005 | Peer-reviewed | PL Cr occurrence in Fresh fruits, vegetables, and wheat grains collected in 2001 from commercial plantations in three Polish provinces (Mazowieckie, Lubelskie,... (n=272) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -137,9 +138,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

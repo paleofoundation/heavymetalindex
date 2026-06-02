@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/menstrual-pads",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d60b47ecd03aa804ad9c23aa95c44e1cd022514b7f583420f9f4654f1e2c3305",
+      "content_sha256": "b391f67aa3f36e19ca41bdad7071ab35cce8503759a9be544b0f020be07f89cb",
       "content_bytes": 8241,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/menstrual-pads.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/menstrual-pads.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -39,12 +39,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/bae2018-absorbent-hygiene-pads-safety-review",
         "content_pin": {
-          "content_sha256": "37547531072278b33f1e940631e021bbfcf185307fb078d28e58cdd3cbe91afb",
+          "content_sha256": "2b93a48dd638dc2fb4729ea92d8bdaf5ede32ff4cb0023cbe8f35d97a9090dcc",
           "content_bytes": 18021,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md | sha256sum"
         }
       }
     ]

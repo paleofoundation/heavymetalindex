@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:7f18b9d5960da3a806a813cc93c7b724…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:7afa54b4d09d571894b4e9a4b4876072…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=laundry-detergent-boosters-additives&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/laundry-detergent-boosters-additives&download=1`.
 

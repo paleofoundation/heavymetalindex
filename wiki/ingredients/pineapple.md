@@ -100,7 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
-sources: 13
+sources: 14
 wiki_doi: null
 updated: 2026-05-19
 ---
@@ -131,12 +131,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 5 | [[sources/apilux2023-rayong-tropical-fruits-metals\|Apilux et al. 2023]]. *Determination of Heavy Metal Residues in Tropical Fruits near Industrial Estates in Rayong Province, Thailand: A Risk Assessment Study*, Environment and Natural Resources Journal | 2023 | Peer-reviewed | TH tAs, Cd, Cu, tHg, Pb, Zn occurrence in Tropical fruits from three districts and markets in Rayong Province, Thailand |
 | 6 | [[sources/lee2023-south-korea-fresh-fruits-seven-metals\|Lee et al. 2023]]. *Occurrence and health risk assessment of antimony, arsenic, barium, cadmium, chromium, nickel, and lead in fresh fruits consumed in South Korea*, Applied Biological Chemistry | 2023 | Peer-reviewed | KR tAs, Sb, Ba, Cd, Cr, Ni, Pb occurrence in Fresh fruits collected from supermarkets in six South Korean regions (Seoul, Gyeonggi-do, Chungcheong-do, Jeolla-do, Kyungsang-do, Gangwon-do), 14 fruit... (n=207) |
 | 7 | [[sources/uchenna2023-ihiala-fruits-heavy-metals\|Uchenna et al. 2023]]. *Assessment of Heavy Metals in Edible Fruits Sold in Selected Markets in Ihiala Local Government Area, Anambra State*, Journal of Sustainability and Environmental Management | 2023 | Peer-reviewed | NG Zn, Ni, Cu, Pb, Cr, tAs, Fe occurrence in Edible fruits from selected markets in Ihiala Local Government Area, Anambra State, Nigeria |
-| 8 | [[sources/subedi2022-fruit-juices-heavy-metals\|Subedi et al. 2022]]. *Determination of heavy metals in varieties of fresh and packaged fruit juices along with powdered fruit drink mixes in Kathmandu Valley*, Journal of Balkumari College | 2022 | Peer-reviewed | NP Fe, Mn, Zn, Pb occurrence in Fresh juices, packaged juices, and powdered fruit drink mixes sold in Kathmandu Valley, Nepal |
-| 9 | [[sources/samitha2021-pineapple-kerala-heavy-metals\|Samitha et al. 2021]]. *Monitoring Heavy Metal Contamination in the Pineapple (Ananas comosus) Cultivated tracts of Kerala, India*, International Journal of Current Science Research and Review | 2021 | Peer-reviewed | IN Pb, Ni, Cd, Fe occurrence in Pineapple cultivated tracts in Ernakulam district, Kerala, India |
-| 10 | [[sources/abdullahi2019-fruits-vegetables-heavy-metals\|Abdullahi 2019]]. *Analysis and Evaluation of the Effect of Heavy Metals in Fruits and Vegetables*, International Journal of Trend in Scientific Research and Development | 2019 | Peer-reviewed | NG Zn, Cu, Fe, Cd, Ni, Pb occurrence in Orange, pineapple, waterleaf, and pumpkin leaf samples from a local market in Nigeria |
-| 11 | [[sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg\|Mariadi et al. 2017]]. *Removal lead (Pb) and mercury (Hg) from juaro fish (Pangasius polyuranodon) using citric acid from pineapple extract (Ananas comosus) as chelating agent*, Science and Technology Indonesia | 2017 | Peer-reviewed | ID Pb, tHg occurrence in Juaro fish treated with citric acid from pineapple extract |
-| 12 | [[sources/alzagtat2016-fruit-nectars-libya-heavy-metals\|Alzagtat et al. 2016]]. *Conformity of Fruit Nectar Samples to Libyan Specification Standards*, Turkish Journal of Agriculture - Food Science and Technology | 2016 | Peer-reviewed | LY Cu, Zn, Fe, tAs, Pb, Cd occurrence in Local and imported fruit nectar samples from Libyan markets |
-| 13 | [[sources/unaegbu2016-fruit-heavy-metals-enugu\|Unaegbu et al. 2016]]. *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*, International Journal of Food Contamination | 2016 | Peer-reviewed | NG/US/ZA Ni, Cd, Pb occurrence in Ten fruit samples representing apple, pineapple, orange, watermelon, and banana sold in Ogbete market, Enugu, Nigeria; source table... (n=10) |
+| 8 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 9 | [[sources/subedi2022-fruit-juices-heavy-metals\|Subedi et al. 2022]]. *Determination of heavy metals in varieties of fresh and packaged fruit juices along with powdered fruit drink mixes in Kathmandu Valley*, Journal of Balkumari College | 2022 | Peer-reviewed | NP Fe, Mn, Zn, Pb occurrence in Fresh juices, packaged juices, and powdered fruit drink mixes sold in Kathmandu Valley, Nepal |
+| 10 | [[sources/samitha2021-pineapple-kerala-heavy-metals\|Samitha et al. 2021]]. *Monitoring Heavy Metal Contamination in the Pineapple (Ananas comosus) Cultivated tracts of Kerala, India*, International Journal of Current Science Research and Review | 2021 | Peer-reviewed | IN Pb, Ni, Cd, Fe occurrence in Pineapple cultivated tracts in Ernakulam district, Kerala, India |
+| 11 | [[sources/abdullahi2019-fruits-vegetables-heavy-metals\|Abdullahi 2019]]. *Analysis and Evaluation of the Effect of Heavy Metals in Fruits and Vegetables*, International Journal of Trend in Scientific Research and Development | 2019 | Peer-reviewed | NG Zn, Cu, Fe, Cd, Ni, Pb occurrence in Orange, pineapple, waterleaf, and pumpkin leaf samples from a local market in Nigeria |
+| 12 | [[sources/mariadi2017-juaro-fish-pineapple-extract-pb-hg\|Mariadi et al. 2017]]. *Removal lead (Pb) and mercury (Hg) from juaro fish (Pangasius polyuranodon) using citric acid from pineapple extract (Ananas comosus) as chelating agent*, Science and Technology Indonesia | 2017 | Peer-reviewed | ID Pb, tHg occurrence in Juaro fish treated with citric acid from pineapple extract |
+| 13 | [[sources/alzagtat2016-fruit-nectars-libya-heavy-metals\|Alzagtat et al. 2016]]. *Conformity of Fruit Nectar Samples to Libyan Specification Standards*, Turkish Journal of Agriculture - Food Science and Technology | 2016 | Peer-reviewed | LY Cu, Zn, Fe, tAs, Pb, Cd occurrence in Local and imported fruit nectar samples from Libyan markets |
+| 14 | [[sources/unaegbu2016-fruit-heavy-metals-enugu\|Unaegbu et al. 2016]]. *Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria*, International Journal of Food Contamination | 2016 | Peer-reviewed | NG/US/ZA Ni, Cd, Pb occurrence in Ten fruit samples representing apple, pineapple, orange, watermelon, and banana sold in Ogbete market, Enugu, Nigeria; source table... (n=10) |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -159,9 +160,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

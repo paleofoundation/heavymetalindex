@@ -109,3 +109,14 @@ Method limitations: Cr is reported as total Cr; the cancer-risk calculation assu
 - Evidence tier: B. Preprint, not peer-reviewed at time of upload to medRxiv. Sample size n=1 per spice category with triplicate analytical replication. No CRM reported. Single-region (Noakhali) sampling limits transferability.
 - Source SD-precision disagreement (carried through verbatim in Key numbers): the abstract reports Cd in coriander leaf as 1.65 ± 0.011 and Fe in black pepper as 9.29 ± 1.71; the Results paragraph reports the same data points as 1.65 ± 0.01 and 9.29 ± 1.72. The wiki uses the Results-paragraph precision (± 0.01, ± 1.72) in the Highest-concentration table for consistency. The abstract figures (± 0.011, ± 1.71) reflect the source's own internal SD-rounding mismatch, not a wiki transcription error.
 - Audit subagent (general-purpose fresh context, 2026-06-02) flagged an ❌ on the original cancer-risk sample list, which had included S-10 (coriander powder) alongside the eight samples the authors explicitly enumerate. Verified against the page-14 narrative ("CR of Cr and Cd for both branded and unbranded turmeric and chili powder, green chili, masala mix, ginger, and coriander leaf were higher than 1E-04") and Figure 3 (S-10 Cr and Cd CR values both ~5–8×10⁻⁵, below the 1×10⁻⁴ benchmark). S-10 removed from the list; corrected to the eight samples the authors enumerate.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f496c6c](https://github.com/paleofoundation/heavymetalindex/commit/f496c6c) | 2026-06-02 | audit: islam2023-noakhali-spices-bangladesh promoted-with-notes |
+| [bf502fe](https://github.com/paleofoundation/heavymetalindex/commit/bf502fe) | 2026-06-02 | ingest: islam2023-noakhali-spices-bangladesh fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt |
+<!-- END: hmi-page-history -->

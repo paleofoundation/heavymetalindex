@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `1c410cb` (2026-06-01). The body hashes to `sha256:9f1a5dca9c5dac063750980a546dfde9…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:54c6d7be0ebd6daecffe0d64e1dcee17…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=pet-food-canned-wet&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/pet-food-canned-wet&download=1`.
 

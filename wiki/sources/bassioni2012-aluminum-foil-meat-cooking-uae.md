@@ -84,3 +84,14 @@ App: The aluminum contamination_profile cell for the foils/wraps product row and
 - Folder placement note: this PDF was filed by the upstream sorter into `02_Honey_Syrups_Vinegar/`. The paper itself is about aluminum-foil leaching during meat cooking; "apple vinegar" appears only as one acidifier among several. The folder location is preserved (immutable per Part 4) but is not load-bearing for routing — routing follows the source's actual content (foils/wraps, cookware, meat, tomato, salt, spices, vinegar).
 - Matrices vocabulary: `cooked-meat`, `food-contact-materials`, and `baked-food` are corpus-convention matrices labels rather than entries in the system-prompt's enumerated matrices vocabulary; `baked-food` follows the precedent established on [[sources/dordevic2019-aluminum-foil-culinary-baking-czech]] for foil-contact baking exposures.
 - Audit subagent (2026-06-02, general-purpose fresh context) verdict REVISE; 0 ❌ findings, 3 ⚠️ concerns. Applied: (1) the "~9× the TDI" wiki-derived multiplier for Solution (5) 537.2 mg/person was wiki arithmetic the source did not perform — replaced with the source's own published characterisation of Solution (4) 465 mg/person as a seven-day-equivalent meal (§3.1, p. 4504) and a note that the 537.2 figure is the largest in the dataset without a source-stated TDI comparison; (2) `baked-food` matrices label flagged as not in the formal snapshot — verified as corpus convention via Dordevic 2019 precedent and documented above; (3) "higher-tier complement" phrasing in §Implications approached a tier-ranking synthesis claim — neutralised to a methodology-descriptive cross-reference. Zero findings rejected.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c23efb5](https://github.com/paleofoundation/heavymetalindex/commit/c23efb5) | 2026-06-02 | audit: bassioni2012-aluminum-foil-meat-cooking-uae revised |
+| [93662df](https://github.com/paleofoundation/heavymetalindex/commit/93662df) | 2026-06-02 | ingest: bassioni2012-aluminum-foil-meat-cooking-uae fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/02_Honey_Syrups_Vinegar |
+<!-- END: hmi-page-history -->

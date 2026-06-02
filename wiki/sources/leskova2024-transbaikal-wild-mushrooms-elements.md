@@ -79,3 +79,13 @@ The source adds Russia/Transbaikal geographic context for wild edible mushrooms 
 ## Verification notes
 
 Evidence Fitness: routeable for wild edible mushroom element occurrence and geographic-variance context on a dry-weight basis; not routeable for cultivated mushrooms, canned mushrooms, or fresh-weight standards without conversion. The PDF includes an English title, author list, abstract, keywords, methods, and table captions, so no human-only translation blocker applies. The PDF does not state a license. The PDF SHA-256 at ingest was `a1ad5dbd8cfb997d4fef3baaa943053a3c0d94dc00d7bcd6f3fa148b020d5d9e`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [92fd08b](https://github.com/paleofoundation/heavymetalindex/commit/92fd08b) | 2026-06-02 | ingest auto-fetched 2026-06-02 05:09 batch 1: 4 source pages |
+<!-- END: hmi-page-history -->

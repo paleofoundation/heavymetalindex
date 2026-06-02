@@ -203,3 +203,14 @@ Volatile organic compounds are organic chemicals (not heavy metals) and the per-
   - Audit flagged heat-map per-color row counts: wiki said n=14 BLACK and n=11 BLUE; auditor recounted to n=13 BLACK and n=9 BLUE. Verified against heat-map p. 24 — auditor counts confirmed (BLACK rows: ABBEY BOMINABLE, BATMAN, FACE PAINT, HALLOWEEN PALETTE, HORROR VALUE, HOWLEEN WOLF, LIPS 'N LASHES, PAW PATROL, SCARY CLOWN, SPIRIT MAKEUP CRAYON, ZOMBIE, ZOMBIE BOYS, ZOMBIE KIDS = 13; BLUE rows: ABBEY BOMINABLE, BATMAN, FACE PAINT, FACE PAINT CRAYON, HALLOWEEN PALETTE, HORROR VALUE CRAYON x2, SPIRIT CLOWN, SPIRIT MAKEUP CRAYON = 9). Wiki Key-numbers Heat-map section updated from 14 → 13 BLACK and 11 → 9 BLUE.
   - Audit flagged "scary clown kit color" and "character-licensed kit" descriptors as borderline brand-firewall narrowing: "SCARY CLOWN" is the verbatim kit-identifier on the heat map (p. 24) and "character-licensed" narrows the field to ~5 BATMAN / PAW PATROL / Monster High rows. Verified — strict Part 12 reading 2026-05-17 prohibits even narrowing identifiers in body text when they map 1:1 to heat-map rows. Wiki tightened: "scary clown" descriptor removed, "character-licensed kit" qualifier dropped; per-color findings now refer to color/format only without kit-theme identifiers.
 - **Audit subagent 2026-06-02 — findings rejected:** none. All three ⚠️ concerns were verified correct and applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [21915a1](https://github.com/paleofoundation/heavymetalindex/commit/21915a1) | 2026-06-02 | audit: campaignsafecosmetics2016-pretty-scary-2-kids-makeup audited-revised |
+| [e8fa7a4](https://github.com/paleofoundation/heavymetalindex/commit/e8fa7a4) | 2026-06-02 | ingest: campaignsafecosmetics2016-pretty-scary-2-kids-makeup fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |
+<!-- END: hmi-page-history -->

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toothbrushes",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "26034f439d7e3b42ca99527736edd12500732ad77545d0949f7adc6e8001a5bf",
+      "content_sha256": "019f2b7db8143f3db0cdfd1066fcc126f38290286461b4980ccaddb56c36b717",
       "content_bytes": 8533,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/toothbrushes.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/toothbrushes.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/althobiti2021-wheat-miswak-bioaccessible-lead",
         "content_pin": {
-          "content_sha256": "75bac8d94c6aff9d712afad4a601a7289fb0dc72adb8f8c1647752d1e6685367",
+          "content_sha256": "fccedb8676d34759327b35de7f1d9dfe4e8cb3d768a73fc6b1b6cfbfd2536593",
           "content_bytes": 4327,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/althobiti2021-wheat-miswak-bioaccessible-lead.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/althobiti2021-wheat-miswak-bioaccessible-lead.md | sha256sum"
         }
       },
       {
@@ -71,12 +71,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "fd8dcdec802cf870a8dd9718ebabbe21cd39106b66fac2eca3b43e9dd3977e67",
-          "content_bytes": 39427,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "653ecbf55186069256109145af3a553be798ab53f29e69b666bd153c1b5d5632",
+          "content_bytes": 39574,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       },
       {
@@ -93,12 +93,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
         "content_pin": {
-          "content_sha256": "eb95a3a28207959b98748bfdd1bfa10b9f28d073597861a3ac6a1933d955d547",
-          "content_bytes": 32741,
-          "last_commit_sha": "f9253af",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "54b71cc3663119364f694b74b0f4201884d5262a1d01de7a77a23f8049cf810d",
+          "content_bytes": 32888,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show f9253af:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       }
     ]

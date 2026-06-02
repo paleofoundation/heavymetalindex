@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/mouthwash-oral-rinse",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e9964f32b8701cfbced688777bba09347e8dcb2de8ba847c0f96e2c4da6a8cc6",
+      "content_sha256": "2abe5b42b805324aeec4cd7635b7821bc715cf5e5c38831c2264e56a9f534268",
       "content_bytes": 8335,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/mouthwash-oral-rinse.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/mouthwash-oral-rinse.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/opss2023-feasibility-action-limits-cosmetics-uk",
         "content_pin": {
-          "content_sha256": "168371ef52b0a03e89afad33f4eb0db3d035766b45e2bc1fc0b516c79a7ae492",
+          "content_sha256": "d5c1730bb0ff510d951cc9cc2c948f8f2aa9ce8f57d6822cc551b5af3ae1dc46",
           "content_bytes": 28200,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md | sha256sum"
         }
       },
       {
@@ -63,12 +63,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "71224bf0e2f0ebb19b74ed18c7411f6db0960f7e1f5fc4fecd03df8c40a678b6",
-          "content_bytes": 30672,
-          "last_commit_sha": "6937864",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "12ac2697b7e4ed9df28677691dd078b1d637ea60ffab13e7d5971f47f3666f1c",
+          "content_bytes": 30819,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6937864:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

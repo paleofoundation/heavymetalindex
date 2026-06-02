@@ -72,3 +72,14 @@ The authors washed edible vegetable portions with distilled water, air-dried the
 - The abstract reports the highest copper value as 81.33 mg/kg, while the Results prose reports spinach from Site 1 at 80.33 mg/kg. This page uses the Results prose value and records the discrepancy for audit traceability.
 - The source covers leafy, root, fruiting, and bulb vegetables, but `matrices` is limited to current common matrix terms. The broader non-root and mixed-vegetable scope is carried by ingredient and product slugs.
 - This is not a retail-market or US-market survey. Route as contaminated-site / wastewater-irrigation context unless governance explicitly admits it into a separate contaminated-site sensitivity pool.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eb580ee](https://github.com/paleofoundation/heavymetalindex/commit/eb580ee) | 2026-06-02 | audit revise spinach auto-fetched sources |
+| [3b13399](https://github.com/paleofoundation/heavymetalindex/commit/3b13399) | 2026-06-02 | ingest auto-fetched 2026-06-02 05:58 batch 1: 2 source pages |
+<!-- END: hmi-page-history -->

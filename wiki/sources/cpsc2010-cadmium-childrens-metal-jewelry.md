@@ -157,6 +157,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [60c4407](https://github.com/paleofoundation/heavymetalindex/commit/60c4407) | 2026-06-01 | audit: cpsc2010-cadmium-childrens-metal-jewelry [revised] |
 | [ce2159a](https://github.com/paleofoundation/heavymetalindex/commit/ce2159a) | 2026-06-01 | ingest: cpsc2010-cadmium-childrens-metal-jewelry [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_04_Fasteners_Snaps_Zippers/04_Fasteners_Snaps_Zippers |
 <!-- END: hmi-page-history -->

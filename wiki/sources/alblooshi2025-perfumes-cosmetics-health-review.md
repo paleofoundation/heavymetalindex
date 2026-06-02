@@ -127,5 +127,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [4dd3800](https://github.com/paleofoundation/heavymetalindex/commit/4dd3800) | 2026-06-01 | ingest: alblooshi2025-perfumes-cosmetics-health-review fresh from Manual Fetch Kimi/June 1/01_Exposure_Pathways |
 <!-- END: hmi-page-history -->

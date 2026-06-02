@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/automatic-dishwasher-detergents",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "563db6a572c0d357d9236a25a769eb8737b35327829a06dd16e1643ec091f320",
+      "content_sha256": "efa5512a8bec2c2cbce66848e87f993492cccf452f0db259d3e75ff658ae61c7",
       "content_bytes": 7364,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/automatic-dishwasher-detergents.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/automatic-dishwasher-detergents.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -17,7 +17,7 @@ platform_metals: [Pb, Ni, Cr]
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 18
+sources: 22
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Makeup (ages 0-5)
@@ -111,8 +111,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 11 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Multi-variate meta-analysis of published studies covering 16 cosmetic formulation categories |
 | 12 | [[sources/stone2021-wa-metals-childrens-consumer-products\|Stone 2021]]. *Metals in Children's and Consumer Products and Packaging*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) | 2021 | Regulatory | *[awaiting synthesis]* |
 | 13 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan\|Arshad et al. 2020]]. *Evaluation of heavy metals in cosmetic products and their health risk assessment*, Saudi Pharmaceutical Journal 28(2020):779-790 | 2020 | Peer-reviewed | PK Cd, Cr, Fe, Ni, Pb occurrence in 189 cosmetic samples (63 unique brands × 3 triplicates) from local community markets in Abbottabad, Haripur, and Mansehra,... (n=189) |
-| 14 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | *[awaiting synthesis]* |
-| 15 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
+| 14 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | *[awaiting synthesis]* |
+| 15 | [[sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup\|Engel et al. 2016]]. *Pretty Scary 2: Unmasking Toxic Chemicals in Kids' Makeup*, Breast Cancer Fund; Campaign for Safe Cosmetics (October 2016) | 2016 | Nonprofit | *[awaiting synthesis]* |
+| 16 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | *[awaiting synthesis]* |
+| 17 | [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics\|Stone 2012]]. *Quality Assurance Project Plan: Parabens and Metals in Children's Cosmetic and Personal Care Products*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 12-07-021 (February 2012) | 2012 | Regulatory | *[awaiting synthesis]* |
+| 18 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
+| 19 | [[sources/campaignsafecosmetics2009-pretty-scary-face-paints\|Sarantis et al. 2009]]. *Pretty Scary: Could Halloween Face Paint Cause Lifelong Health Problems? A Report on Heavy Metals in Face Paints*, Campaign for Safe Cosmetics; Breast Cancer Fund; Commonwealth (October 2009) | 2009 | Nonprofit | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -122,9 +126,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -77,3 +77,13 @@ This source supports buffalo-milk and dairy occurrence evidence for Pb, Cd, tota
 Evidence Fitness: routeable for buffalo-milk and dairy occurrence evidence in Pakistan, with source-reported liquid-milk ranges and feed-category context. Not routeable for human milk, infant formula, US-market dairy benchmark pools, inorganic arsenic, or methylmercury.
 
 The PDF first page provides the title, authors, journal, year, DOI, and abstract ranges. The license statement identifies CC BY-NC-ND 4.0. The PDF SHA-256 at ingest was `fe665ee9176b6d47aa752be43bfab1e075dec339dd8d58742cb79e63b8c55fa4`. The paper reports As and Hg without speciation; this page records them as tAs and tHg.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [92fd08b](https://github.com/paleofoundation/heavymetalindex/commit/92fd08b) | 2026-06-02 | ingest auto-fetched 2026-06-02 05:09 batch 1: 4 source pages |
+<!-- END: hmi-page-history -->

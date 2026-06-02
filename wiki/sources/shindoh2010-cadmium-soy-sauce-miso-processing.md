@@ -207,3 +207,13 @@ Not appropriate for:
 - Future [[products/miso]] (does not yet exist; soy-products is the current routing destination)
 - Future [[ingredients/soybean]] (does not yet exist; soy is the current routing destination)
 - Future [[ingredients/rice-koji]] (does not yet exist; rice is the current routing destination)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7c116b0](https://github.com/paleofoundation/heavymetalindex/commit/7c116b0) | 2026-06-02 | ingest: shindoh2010-cadmium-soy-sauce-miso-processing fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
+<!-- END: hmi-page-history -->

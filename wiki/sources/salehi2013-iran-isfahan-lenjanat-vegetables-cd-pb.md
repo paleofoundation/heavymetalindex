@@ -119,5 +119,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [f5acbbf](https://github.com/paleofoundation/heavymetalindex/commit/f5acbbf) | 2026-06-01 | ingest: salehi2013-iran-isfahan-lenjanat-vegetables-cd-pb [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

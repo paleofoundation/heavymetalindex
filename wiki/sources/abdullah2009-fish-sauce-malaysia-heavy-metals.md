@@ -78,3 +78,13 @@ This page records what the abstract of a 2009 UiTM B.Sc. final-year project stat
 - Metals frontmatter: Pb, Cd, Zn, Al — the four elements the abstract names. Zn and Al are nutritionally essential / non-HMTc-panel elements but are recorded because the source measured them.
 - Evidence tier: C (not B) because the source is an undergraduate B.Sc. thesis without peer review, with n=3, and because the methods/results chapters that would normally support a tier-B grading are not available in the PDF copy under review. The implausibly high per-sample Cd and Pb values relative to peer-reviewed baselines are flagged in `tier_rationale` and in `## Implications` rather than silently averaged into any downstream synthesis.
 - Sample C Pb and Cd values are not reported in the abstract. The Key numbers table records "not stated in abstract" for both rather than guessing from the relative-rank language ("highest aluminium, lowest zinc"). The full Chapter 4 results table would have these values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ea2a836](https://github.com/paleofoundation/heavymetalindex/commit/ea2a836) | 2026-06-02 | ingest: abdullah2009-fish-sauce-malaysia-heavy-metals fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
+<!-- END: hmi-page-history -->

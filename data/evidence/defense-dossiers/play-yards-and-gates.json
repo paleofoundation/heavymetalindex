@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/play-yards-and-gates",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "723242b25548bb9d894f664c70830fe33167f092f90ebac1149c4fe8c3982845",
+      "content_sha256": "a8d2e6b7dffe14dca2004756435eaa595dd484322b0ebf292542103de2598f82",
       "content_bytes": 8154,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/play-yards-and-gates.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/play-yards-and-gates.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "45fe8bf1f16a065da9951cf78d550643ba09b25815d51908f05fb3255dd4b27f",
-          "content_bytes": 59019,
-          "last_commit_sha": "df568bd",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "c631d01228baca6d1e77c9ea769d4547ef90c60b37761e77ac91b5f64726796e",
+          "content_bytes": 59166,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show df568bd:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       }
     ]

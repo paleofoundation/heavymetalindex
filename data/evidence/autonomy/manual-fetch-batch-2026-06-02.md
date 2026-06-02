@@ -319,3 +319,23 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FSANZ_25th_Australian_Total_Diet_Study.pdf`: byte-identical to fsanz2019-25th-australian-total-diet-study
+
+## Tick 2026-06-02T06:33:07.409Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Failed
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/HealthCanada_Toxic_Metals_Targeted_Survey_2018-2019.pdf`: exit 1:
+
+## Tick 2026-06-02T06:56:34.387Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/HongKong_CFS_1st_HKTDS_Metallic_Contaminants.pdf`: cfs2013-hktds-metallic-contaminants — byte-identical duplicate of already-ingested canonical page (sha256 `f87da014…`, updated 2026-05-20→2026-06-02 via metadata-only `duplicate_filesystem_copies` enhancement, commit `1e52d64`); fourth Kimi-folder duplicate today in `condiments2_papers/05_Snacks_Canned_Prepared`.

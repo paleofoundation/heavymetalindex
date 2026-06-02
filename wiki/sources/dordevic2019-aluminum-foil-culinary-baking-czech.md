@@ -82,3 +82,14 @@ App: The aluminum contamination_profile cell for the foils/wraps product row rec
 - [[ingredients/chicken]]
 - [[ingredients/poultry]]
 - [[ingredients/tomato]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ff65af5](https://github.com/paleofoundation/heavymetalindex/commit/ff65af5) | 2026-06-02 | audit: dordevic2019-aluminum-foil-culinary-baking-czech revised |
+| [4ae43f2](https://github.com/paleofoundation/heavymetalindex/commit/4ae43f2) | 2026-06-02 | ingest: dordevic2019-aluminum-foil-culinary-baking-czech fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/02_Honey_Syrups_Vinegar |
+<!-- END: hmi-page-history -->

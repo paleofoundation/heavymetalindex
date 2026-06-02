@@ -83,7 +83,7 @@ used_in_products: ["[[products/fish-containing-baby-foods]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 56
+sources: 57
 ---
 
 # Freshwater Fish
@@ -184,10 +184,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 50 | [[sources/melnyk2021-mercury-anadromous-fish-penobscot\|Melnyk et al. 2021]]. *Risks from mercury in anadromous fish collected from Penobscot River, Maine*, Science of the Total Environment | 2021 | Peer-reviewed | US tHg occurrence in Composite samples of 6 anadromous fish species (alewife, American shad, blueback herring, rainbow smelt, striped bass, sea lamprey)... (n=75) |
 | 51 | [[sources/majlesi2019-farmed-rainbow-trout-yasuj-iran\|Majlesi et al. 2019]]. *Heavy metal content in farmed rainbow trout in relation to aquaculture area and feed pellets*, Foods and Raw Materials | 2019 | Peer-reviewed | *[awaiting synthesis]* |
 | 52 | [[sources/rajeshkumar2018-taihu-lake-fish-oyster-metals\|Rajeshkumar et al. 2018]]. *Studies on seasonal pollution of heavy metals in water, sediment, fish and oyster from the Meiliang Bay of Taihu Lake in China*, Chemosphere | 2018 | Peer-reviewed | Seasonal Pb, Cd, Cr, and Cu in crucian carp tissues across four seasons and seven sites in Meiliang Bay (Taihu Lake, China), with winter/summer concentrations significantly higher and Pb dominating in fish tissues |
-| 53 | [[sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\|Eagles-Smith et al. 2016]]. *Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada*, Science of The Total Environment (2016, in press 2015) | 2016 | Peer-reviewed | USGS-led synthesis of THg in 96,310 individual freshwater fish from 4,262 locations across the Western US and Canada (206 species, 1969–2014), with 30% of fish samples and 17% of site means exceeding the EPA 0.30 µg/g ww MeHg Fish Tissue Residue Criterion |
-| 54 | [[sources/vicarova2016-common-carp-czech-reservoirs\|Vičarová et al. 2016]]. *Heavy metals in the common carp (Cyprinus carpio L.) from three reservoirs in the Czech Republic*, Czech Journal of Food Sciences | 2016 | Peer-reviewed | *[awaiting synthesis]* |
-| 55 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
-| 56 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | EPA-822-R-97-003 baseline anchoring the speciation point that over 95% of marine fish and shellfish arsenic is organoarsenic (primarily arsenobetaine), with freshwater fish carrying a higher iAs fraction relative to tAs and corresponding dietary exposure scenarios |
+| 53 | [[sources/song2017-china-dietary-cadmium-exposure\|Song et al. 2017]]. *Dietary cadmium exposure assessment among the Chinese population*, PLoS ONE 12(5): e0177978 | 2017 | Peer-reviewed | *[awaiting synthesis]* |
+| 54 | [[sources/eaglessmith2016-freshwater-fish-mercury-western-us-canada\|Eagles-Smith et al. 2016]]. *Spatial and temporal patterns of mercury concentrations in freshwater fish across the Western United States and Canada*, Science of The Total Environment (2016, in press 2015) | 2016 | Peer-reviewed | USGS-led synthesis of THg in 96,310 individual freshwater fish from 4,262 locations across the Western US and Canada (206 species, 1969–2014), with 30% of fish samples and 17% of site means exceeding the EPA 0.30 µg/g ww MeHg Fish Tissue Residue Criterion |
+| 55 | [[sources/vicarova2016-common-carp-czech-reservoirs\|Vičarová et al. 2016]]. *Heavy metals in the common carp (Cyprinus carpio L.) from three reservoirs in the Czech Republic*, Czech Journal of Food Sciences | 2016 | Peer-reviewed | *[awaiting synthesis]* |
+| 56 | [[sources/epa1999-mercury-update-fish-advisories\|EPA 1999]]. *Mercury Update: Impact on Fish Advisories*, US EPA Fact Sheet EPA-823-F-99-016 | 1999 | Government report | US tHg, MeHg occurrence in 1,931 state-issued fish-consumption advisories in 40 states as of December 1998; cited fish-tissue mercury data drawn from EPA... (n=1931) |
+| 57 | [[sources/epa1997-arsenic-fish-shellfish\|EPA 1997]]. *Arsenic and Fish Consumption*, US EPA Office of Water | 1997 | Government report | EPA-822-R-97-003 baseline anchoring the speciation point that over 95% of marine fish and shellfish arsenic is organoarsenic (primarily arsenobetaine), with freshwater fish carrying a higher iAs fraction relative to tAs and corresponding dietary exposure scenarios |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -248,9 +249,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

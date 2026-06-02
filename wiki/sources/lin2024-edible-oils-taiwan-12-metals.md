@@ -148,6 +148,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [8668f9a](https://github.com/paleofoundation/heavymetalindex/commit/8668f9a) | 2026-06-01 | audit: lin2024-edible-oils-taiwan-12-metals [revised] |
 | [f0b84e6](https://github.com/paleofoundation/heavymetalindex/commit/f0b84e6) | 2026-06-01 | ingest: lin2024-edible-oils-taiwan-12-metals [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

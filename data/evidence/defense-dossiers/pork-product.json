@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pork-product",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "52b5f7e87e48567f27dbaa361828ba8b55aa567f42a4ada3db987893c6bd5d60",
+      "content_sha256": "4549fbf101ce290cbe60a417adde334a8eb8ac6eb0ca99485a7969ab2e37531b",
       "content_bytes": 9060,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/pork-product.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/pork-product.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dibella2020-augusta-meat-milk-seafood-metals",
         "content_pin": {
-          "content_sha256": "9a9b78c75375f058294f53ace0cdf910dc1ad075a9b491f2df0990c890def234",
+          "content_sha256": "40a13c6d7a2bc9a640d52ba3faa48f7e66c054c919586ffce4c1594024254b46",
           "content_bytes": 4477,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hoha2014-pork-pb-cd-cu-zn-romania",
         "content_pin": {
-          "content_sha256": "f8dcbe2d293a46ced7ee7e439c508a050347323a9548e41d261527a7165cc04d",
+          "content_sha256": "ce9901234f588ec9f5b1d5ce293d038bf89e93eeb722837a282d51f03a549866",
           "content_bytes": 6643,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/hoha2014-pork-pb-cd-cu-zn-romania.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/hoha2014-pork-pb-cd-cu-zn-romania.md | sha256sum"
         }
       },
       {
@@ -94,12 +94,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "d3e04f7ef1e7574d3df93dc49ec5adde5ea81d7f6c672d388fba22fdcfd27797",
+          "content_sha256": "8131016449545e8dad6c1ecb340d4e6d6043445ff5e39e0a41b9173b9acdbda2",
           "content_bytes": 9998,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
         }
       },
       {
@@ -117,12 +117,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maikanov2021-meats-shuchinsk-burabay-metals",
         "content_pin": {
-          "content_sha256": "b4a50d095bbd59c32a571d2db99bcfdfdcb25d4ee127efd1cca20dbbd1397a21",
+          "content_sha256": "d80c4f920c76d6ec7ed8b6f0c9fe629d12af6993bedd915003ce7f7a87dd1e50",
           "content_bytes": 2640,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/maikanov2021-meats-shuchinsk-burabay-metals.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/paulsen2015-game-meat-metal-bioaccessibility",
         "content_pin": {
-          "content_sha256": "76a2cd3e96a2776c9d53fe5899aa63c5f5e195d4a856fb1cceb08c29c578e2d7",
+          "content_sha256": "1703fb3ca7f22eee1b53ee0f3051468bb4227a57d4717eb7984e0d1fc3fe60d4",
           "content_bytes": 3183,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/paulsen2015-game-meat-metal-bioaccessibility.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/paulsen2015-game-meat-metal-bioaccessibility.md | sha256sum"
         }
       }
     ]

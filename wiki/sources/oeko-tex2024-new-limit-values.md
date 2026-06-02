@@ -121,5 +121,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [2228e31](https://github.com/paleofoundation/heavymetalindex/commit/2228e31) | 2026-06-01 | ingest: oeko-tex2024-new-limit-values [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH |
 <!-- END: hmi-page-history -->

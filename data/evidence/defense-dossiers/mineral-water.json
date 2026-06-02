@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/mineral-water",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "94c8c9b0a481ef63b8fef2d994750a30ddff770c8012624ecc90c8a2a4cedbaf",
+      "content_sha256": "655e53be5d70ebd1bbc2723b013b49295be26e2d470af058aa2ee028fb1e5579",
       "content_bytes": 9732,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/mineral-water.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/mineral-water.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "79b148deef37361f4c3a47512f74037081b5770bbfc467c40d9e3d3c618d3281",
+          "content_sha256": "ad9358db2769bc938c669cbf823cc217aa20914abad12e38b2da5a06687794b9",
           "content_bytes": 30112,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ranjbar2025-mineral-water-metals",
         "content_pin": {
-          "content_sha256": "5bd6919ee3cac59a51079f9ca7fc8ee41c585cc6715ff2bcbf10042078bc839c",
+          "content_sha256": "ed83e1d504aa3b9b22b0c7a50c69b28c8b86120ae5f0bd595ce63e5aff06847c",
           "content_bytes": 2925,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/ranjbar2025-mineral-water-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/ranjbar2025-mineral-water-metals.md | sha256sum"
         }
       }
     ]

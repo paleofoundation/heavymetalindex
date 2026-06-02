@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 5
+sources: 6
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -108,9 +108,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/seifi2026-iran-toys-pb-cr-hg\|Seifi 2026]]. *Investigation of the concentration of chemical compounds in toys*, Environmental Health and Pollution Research, 2026, 1(1), 43-48 | 2026 | Peer-reviewed | *[awaiting synthesis]* |
 | 2 | [[sources/mohammed2020-tt-toys-baby-items\|Mohammed et al. 2020]]. *Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago*, Journal of Environmental Chemistry and Ecotoxicology 12(1):59-64 | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | *[awaiting synthesis]* |
-| 4 | [[sources/ul2012-chemicals-childrens-toys\|UL 2012]]. *Chemicals in Children's Toys: Addressing Stricter Limits and Environmental Concerns*, UL LLC White Paper (UL Environment), 8 pp. | 2012 | Industry | *[awaiting synthesis]* |
-| 5 | [[sources/pirg2010-trouble-in-toyland\|Hitchcock et al. 2010]]. *Trouble in Toyland: The 25th Annual Survey of Toy Safety*, U.S. PIRG Education Fund, November 2010 | 2010 | NGO report | *[awaiting synthesis]* |
+| 3 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | *[awaiting synthesis]* |
+| 4 | [[sources/depa2015-cmr-toys\|Heckmann et al. 2015]]. *CMR Substances in Toys – Market Surveillance and Risk Assessment*, Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7. | 2015 | Regulatory agency report | *[awaiting synthesis]* |
+| 5 | [[sources/ul2012-chemicals-childrens-toys\|UL 2012]]. *Chemicals in Children's Toys: Addressing Stricter Limits and Environmental Concerns*, UL LLC White Paper (UL Environment), 8 pp. | 2012 | Industry | *[awaiting synthesis]* |
+| 6 | [[sources/pirg2010-trouble-in-toyland\|Hitchcock et al. 2010]]. *Trouble in Toyland: The 25th Annual Survey of Toy Safety*, U.S. PIRG Education Fund, November 2010 | 2010 | NGO report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -120,9 +121,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

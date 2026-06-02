@@ -112,3 +112,14 @@ For the EU regulatory-framework timeline page (see [[synthesis/eu-regulatory-fra
 - Commission Regulation (EC) No 1881/2006 of 19 December 2006 setting maximum levels for certain contaminants in foodstuffs. OJ L 364, 20.12.2006, p. 5.
 - EFSA Panel on Contaminants in the Food Chain (CONTAM). 2009. Scientific opinion on cadmium in food. EFSA Journal 980, 1–139.
 - Codex Alimentarius Commission. General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995, as amended).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [38e81d2](https://github.com/paleofoundation/heavymetalindex/commit/38e81d2) | 2026-06-02 | audit: ec2019-cadmium-chocolate-leaflet audited-revised |
+| [ca33392](https://github.com/paleofoundation/heavymetalindex/commit/ca33392) | 2026-06-02 | ingest: ec2019-cadmium-chocolate-leaflet fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt |
+<!-- END: hmi-page-history -->

@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 11
+sources: 12
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10
@@ -163,17 +163,18 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics 12(5): 325 | 2024 | Peer-reviewed | CN Cr-VI, Cr occurrence in Seven commercially purchased food samples from a local supermarket in Nanjing, China — milk powder, rice flour, whole... (n=7) |
-| 2 | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|Bora et al. 2022]]. *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*, Horticulturae | 2022 | Peer-reviewed | Vinegar baseline characterization within fruit-vegetable wash intervention study (n=80) |
-| 3 | [[sources/efsa2022-buffered-vinegar-food-additive-safety\|EFSA 2022]]. *Safety evaluation of buffered vinegar as a food additive*, EFSA Journal | 2022 | Government report | EU EFSA buffered-vinegar food-additive safety assessment with embedded heavy-metals analysis |
-| 4 | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|Corrigan et al. 2021]]. *Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA*, Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter | 2021 | NGO report | US-market balsamic-vinegar Pb and tAs at regulatory-concern levels (n=24); FDA petition policy anchor |
-| 5 | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|Karavoltsos et al. 2020]]. *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*, Molecules | 2020 | Peer-reviewed | Greek balsamic-vs-common-vinegar 7-metal panel (n=43); aging-driven metal accumulation evidence |
-| 6 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek et al. 2016]]. *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2016 | Peer-reviewed | Turkish vinegar 5-metal panel (n=32) including Al rarely measured elsewhere |
-| 7 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi et al. 2012]]. *Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry*, Food Analytical Methods | 2012 | Peer-reviewed | Iranian commercial-market vinegar Pb-Cd-Cu-Zn by stripping chronopotentiometry (n=96) |
-| 8 | [[sources/liu2010-mercury-white-vinegar-afs\|Liu 2010]]. *Direct determination of mercury in white vinegar by matrix assisted photochemical vapor generation atomic fluorescence spectrometry detection*, Spectrochimica Acta Part B | 2010 | Peer-reviewed | Chinese white-vinegar mercury method development (n=3); rare tHg-specific measurement |
-| 9 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | Methodological evaluation of vinegar Pb-analysis sample-preparation procedures (n=59) |
-| 10 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta et al. 1993]]. *Levels of Cd, Pb, and Ni in Different Types of Vinegars*, Bulletin of Environmental Contamination and Toxicology | 1993 | Peer-reviewed | Four-country (ES, DE, GB) white/red/sherry/balsamic vinegar 3-metal panel (n=52); within-type variance evidence |
-| 11 | [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars\|Troncoso et al. 1988]]. *Metallic contaminants in Andalusian vinegars*, Die Nahrung | 1988 | Peer-reviewed | Pb, tAs, Zn, Cu, and Fe in Andalusian white wine and sherry vinegars by direct flame AAS, the baseline Spanish vinegar metals dataset |
+| 1 | [[sources/pribil2025-hot-sauce-food-safety-review\|Pribil et al. 2025]]. *Food safety considerations in hot sauce production: hazards, regulations, and industry challenges*, MOJ Food Processing & Technology | 2025 | Review | *[awaiting synthesis]* |
+| 2 | [[sources/song2024-crvi-hplc-icpms-food-reduction\|Song et al. 2024]]. *Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods*, Toxics 12(5): 325 | 2024 | Peer-reviewed | CN Cr-VI, Cr occurrence in Seven commercially purchased food samples from a local supermarket in Nanjing, China — milk powder, rice flour, whole... (n=7) |
+| 3 | [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing\|Bora et al. 2022]]. *Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania*, Horticulturae | 2022 | Peer-reviewed | Vinegar baseline characterization within fruit-vegetable wash intervention study (n=80) |
+| 4 | [[sources/efsa2022-buffered-vinegar-food-additive-safety\|EFSA 2022]]. *Safety evaluation of buffered vinegar as a food additive*, EFSA Journal | 2022 | Government report | EU EFSA buffered-vinegar food-additive safety assessment with embedded heavy-metals analysis |
+| 5 | [[sources/escp2021-pb-as-balsamic-vinegar-fda-letter\|Corrigan et al. 2021]]. *Letter to FDA: Dangerously high levels of arsenic and lead found in many vinegar products require action by the FDA*, Empire State Consumer Project / Food & Water Watch — FDA Citizen Petition Letter | 2021 | NGO report | US-market balsamic-vinegar Pb and tAs at regulatory-concern levels (n=24); FDA petition policy anchor |
+| 6 | [[sources/karavoltsos2020-copper-trace-metals-vinegars-greece\|Karavoltsos et al. 2020]]. *Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter*, Molecules | 2020 | Peer-reviewed | Greek balsamic-vs-common-vinegar 7-metal panel (n=43); aging-driven metal accumulation evidence |
+| 7 | [[sources/ozbek2016-mip-oes-turkish-vinegars\|Ozbek et al. 2016]]. *A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry*, Food Analytical Methods | 2016 | Peer-reviewed | Turkish vinegar 5-metal panel (n=32) including Al rarely measured elsewhere |
+| 8 | [[sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars\|Saei-Dehkordi et al. 2012]]. *Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry*, Food Analytical Methods | 2012 | Peer-reviewed | Iranian commercial-market vinegar Pb-Cd-Cu-Zn by stripping chronopotentiometry (n=96) |
+| 9 | [[sources/liu2010-mercury-white-vinegar-afs\|Liu 2010]]. *Direct determination of mercury in white vinegar by matrix assisted photochemical vapor generation atomic fluorescence spectrometry detection*, Spectrochimica Acta Part B | 2010 | Peer-reviewed | Chinese white-vinegar mercury method development (n=3); rare tHg-specific measurement |
+| 10 | [[sources/ndungu2004-lead-vinegar-icpms-gfaas\|Ndung'u et al. 2004]]. *Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures*, Talanta | 2004 | Peer-reviewed | Methodological evaluation of vinegar Pb-analysis sample-preparation procedures (n=59) |
+| 11 | [[sources/acosta1993-cd-pb-ni-vinegar-types\|Acosta et al. 1993]]. *Levels of Cd, Pb, and Ni in Different Types of Vinegars*, Bulletin of Environmental Contamination and Toxicology | 1993 | Peer-reviewed | Four-country (ES, DE, GB) white/red/sherry/balsamic vinegar 3-metal panel (n=52); within-type variance evidence |
+| 12 | [[sources/troncoso1988-metallic-contaminants-andalusian-vinegars\|Troncoso et al. 1988]]. *Metallic contaminants in Andalusian vinegars*, Die Nahrung | 1988 | Peer-reviewed | Pb, tAs, Zn, Cu, and Fe in Andalusian white wine and sherry vinegars by direct flame AAS, the baseline Spanish vinegar metals dataset |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -183,9 +184,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

@@ -17,18 +17,61 @@
     "canonical_url": "https://heavymetalindex.com/products/condiments-general",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7e67e745e15e42dbd93256e950822774447b6503d32600bc3b63401033064ca6",
-      "content_bytes": 11353,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "content_sha256": "12cdd3f825cba6e165653ef5d98bbae8bc0375ce75085bf5e43b4f471d8b0c16",
+      "content_bytes": 13347,
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/condiments-general.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/condiments-general.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 10,
+    "contributing_source_count": 17,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/abdullah2009-fish-sauce-malaysia-heavy-metals",
+        "title": "Determination of Heavy Metals in Selected Fish Sauce",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Zn",
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/abdullah2009-fish-sauce-malaysia-heavy-metals",
+        "content_pin": {
+          "content_sha256": "d5d5736189c8f0cf42ee8f919141a99818ff124e12adbfc79ff3116d81177975",
+          "content_bytes": 8642,
+          "last_commit_sha": "ea2a836",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ea2a836:wiki/sources/abdullah2009-fish-sauce-malaysia-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/bergerritchie2013-hot-sauce-lead",
+        "title": "An evaluation of lead concentrations in imported hot sauces",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bergerritchie2013-hot-sauce-lead",
+        "content_pin": {
+          "content_sha256": "2239a333f6681776a936c1ecdd61e59bb40e3acf282227a236beb977bc84b431",
+          "content_bytes": 24112,
+          "last_commit_sha": "4e77a7f",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 4e77a7f:wiki/sources/bergerritchie2013-hot-sauce-lead.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/cfs2012-hktds-inorganic-arsenic",
         "title": "The First Hong Kong Total Diet Study: Inorganic Arsenic",
@@ -41,12 +84,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-hktds-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "054ce296112e5f8761d7016f580292397d11f8a32a82d02a9e6028d34158a38f",
+          "content_sha256": "7b9740c2742b3d8b253517ed4df02dde52d759efb1822251bdbc689c71ac0793",
           "content_bytes": 20468,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/cfs2012-hktds-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -63,12 +106,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/chime2025-nigerian-spices-as-cd-pb",
         "content_pin": {
-          "content_sha256": "e419d578354a827259f0f8576328150f9db57757ae1dcaab237ef97b7cb961ee",
+          "content_sha256": "e9f0ba500d0f55fb47cc900617a972437764478c333a4b6c90556593e97095b7",
           "content_bytes": 5826,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/chime2025-nigerian-spices-as-cd-pb.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/chime2025-nigerian-spices-as-cd-pb.md | sha256sum"
         }
       },
       {
@@ -83,12 +126,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/divis2020-mercury-fish-sauce-dgt-tda-aas",
         "content_pin": {
-          "content_sha256": "4c7ec03b2f320b03e5460d50c34c9cdee781f8dcceb8685d0c4edec54a1e5bb1",
+          "content_sha256": "70d7d09620a06e75be3a410517b0290077d7160d0c8d7cef4cab80f1107e4b89",
           "content_bytes": 13496,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
         }
       },
       {
@@ -112,12 +155,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dokubo2023-nigeria-seasoning-powder",
         "content_pin": {
-          "content_sha256": "48a02a686fe200c84eea64b2c4cfa5626c50c9bbb72132a911a8b93a26ec7e26",
+          "content_sha256": "1fdbdff988e670790d62cb3772e8c430256a98e69f89c84c170f7cbcf5b555b2",
           "content_bytes": 10064,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/dokubo2023-nigeria-seasoning-powder.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/dokubo2023-nigeria-seasoning-powder.md | sha256sum"
         }
       },
       {
@@ -132,12 +175,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "79b148deef37361f4c3a47512f74037081b5770bbfc467c40d9e3d3c618d3281",
+          "content_sha256": "ad9358db2769bc938c669cbf823cc217aa20914abad12e38b2da5a06687794b9",
           "content_bytes": 30112,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -169,12 +212,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "42203cead222d41cd4822f944a26e4efe8a4457433f09c3eb00023df5aad0a58",
+          "content_sha256": "20dbd53243f6bab78d57cc0499fb0e8995bc7434b8c1ab36852edec71dd19a9a",
           "content_bytes": 10735,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -190,12 +233,119 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland",
         "content_pin": {
-          "content_sha256": "1ee7c2a958a7b675389afba47e076da5ad9662dc6bd596e07bd72289217b6001",
+          "content_sha256": "ba104986a6eba178f7800fc99334753461da57e4a5bfae55d184d522eab27d46",
           "content_bytes": 8082,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/islam2023-noakhali-spices-bangladesh",
+        "title": "Heavy Metals Induced Health Risk Assessment Through Consumption of Selected Commercially Available Spices in Noakhali District of Bangladesh",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/islam2023-noakhali-spices-bangladesh",
+        "content_pin": {
+          "content_sha256": "ee315c99bf5570fded91780904977ae0685db58e81ad01632c040a8038477e45",
+          "content_bytes": 12785,
+          "last_commit_sha": "f496c6c",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show f496c6c:wiki/sources/islam2023-noakhali-spices-bangladesh.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/pribil2025-hot-sauce-food-safety-review",
+        "title": "Food safety considerations in hot sauce production: hazards, regulations, and industry challenges",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/pribil2025-hot-sauce-food-safety-review",
+        "content_pin": {
+          "content_sha256": "25916352a7da722398ca11c54a4e64c2ae18466b096f5288666f25c0466c7d60",
+          "content_bytes": 8067,
+          "last_commit_sha": "df071f7",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show df071f7:wiki/sources/pribil2025-hot-sauce-food-safety-review.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/rodriguez2009-fish-sauce-arsenic-speciation",
+        "title": "Arsenic speciation in fish sauce samples determined by HPLC coupled to inductively coupled plasma mass spectrometry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "iAs"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/rodriguez2009-fish-sauce-arsenic-speciation",
+        "content_pin": {
+          "content_sha256": "882586fc45648e221dce351d79a60bb9d23c6dc831d7446463f60438c05ad015",
+          "content_bytes": 21025,
+          "last_commit_sha": "fb729e7",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show fb729e7:wiki/sources/rodriguez2009-fish-sauce-arsenic-speciation.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sabri2025-moroccan-spices-casablanca-metals",
+        "title": "Essential and Toxic Element Profiles in Selected Spices from Greater Casablanca, Morocco",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tAs",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sabri2025-moroccan-spices-casablanca-metals",
+        "content_pin": {
+          "content_sha256": "cc137167a60efde5ef2ccc2a63ea174b48e4bae9c59f92ac8a3e5ab475dab64d",
+          "content_bytes": 13670,
+          "last_commit_sha": "e0cf74f",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show e0cf74f:wiki/sources/sabri2025-moroccan-spices-casablanca-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/shindoh2010-cadmium-soy-sauce-miso-processing",
+        "title": "Changes in Cadmium Content when Processing Soybean to Miso and Soy Sauce",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shindoh2010-cadmium-soy-sauce-miso-processing",
+        "content_pin": {
+          "content_sha256": "69264b9eae9ad9c20c5a4b912831f0b5802d9ecf87073ff92f9acf1ecd39c6af",
+          "content_bytes": 27504,
+          "last_commit_sha": "7c116b0",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 7c116b0:wiki/sources/shindoh2010-cadmium-soy-sauce-miso-processing.md | sha256sum"
         }
       },
       {
@@ -214,12 +364,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/spex2023-hot-sauce-chili-powder-metals",
         "content_pin": {
-          "content_sha256": "1da7e922f43921c6ada66bb40dc79b88aae0142f0b30f7edc6416b04fab78ab9",
+          "content_sha256": "7c153f348b183deedd83e26417ebc8143e29a6467bb886dfa6c86857a99ce378",
           "content_bytes": 6536,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/spex2023-hot-sauce-chili-powder-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/spex2023-hot-sauce-chili-powder-metals.md | sha256sum"
         }
       },
       {
@@ -235,12 +385,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd",
         "content_pin": {
-          "content_sha256": "7d9c28d507774ae86b9fc3fe1877d691981a406b2de3fb1c7b1e89b94e15b9f0",
+          "content_sha256": "e3db703aff8abc26749e74f001e383fad5b333c980598b7dd737169d4f933cca",
           "content_bytes": 5209,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd.md | sha256sum"
         }
       },
       {
@@ -256,12 +406,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2021-edible-salt-soy-sauce-pb-cd",
         "content_pin": {
-          "content_sha256": "be16250a5368b68700dc7969711a4a0b31a8180fb32bd66c60eb7857123a5d2f",
+          "content_sha256": "ea460021655220773529d0bfb40c6c76a4a0cecf30ed3f0d4b235ac497e6c67c",
           "content_bytes": 3477,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
         }
       }
     ]

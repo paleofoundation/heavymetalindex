@@ -101,6 +101,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [ed60faf](https://github.com/paleofoundation/heavymetalindex/commit/ed60faf) | 2026-06-01 | audit: allwood2024-cpsc-childrens-product-lead-recalls [revised] |
 | [24ed99b](https://github.com/paleofoundation/heavymetalindex/commit/24ed99b) | 2026-06-01 | ingest: allwood2024-cpsc-childrens-product-lead-recalls [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats |
 <!-- END: hmi-page-history -->

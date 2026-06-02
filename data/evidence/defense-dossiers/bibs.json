@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bibs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ef9a60d4d400d03066ace8b301191cdcae14fc6f778642d5f1ed027e912884d5",
+      "content_sha256": "aca8ef1eda164c77ebe20ec0e21c98eaaca842c9ae74ee128213372afffe9077",
       "content_bytes": 9465,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/bibs.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/bibs.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "45fe8bf1f16a065da9951cf78d550643ba09b25815d51908f05fb3255dd4b27f",
-          "content_bytes": 59019,
-          "last_commit_sha": "df568bd",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "c631d01228baca6d1e77c9ea769d4547ef90c60b37761e77ac91b5f64726796e",
+          "content_bytes": 59166,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show df568bd:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -76,12 +76,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
         "content_pin": {
-          "content_sha256": "0235af2fe754f9e51285861139ca68a21974b3e59819f639ebbe04421313058a",
-          "content_bytes": 21976,
-          "last_commit_sha": "2228e31",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "f8d55f8c0d322db5c0096d4d2c5f9a9beb9687fd9c9a34f69c95d4caaca9326f",
+          "content_bytes": 22123,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 2228e31:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
         }
       },
       {
@@ -98,12 +98,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/schade2010-toxic-toys-r-us-pvc",
         "content_pin": {
-          "content_sha256": "0fe44ac5d79c296e1a52e9756677a3c09363606a758f93ba01c30689bda78105",
-          "content_bytes": 33095,
-          "last_commit_sha": "4a7d5be",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "a1515e08fff24312501122315d3d45fb6c3285eaf988aa2cc5d4ff1b5521884d",
+          "content_bytes": 33242,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 4a7d5be:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/schade2010-toxic-toys-r-us-pvc.md | sha256sum"
         }
       },
       {
@@ -127,12 +127,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "fd8dcdec802cf870a8dd9718ebabbe21cd39106b66fac2eca3b43e9dd3977e67",
-          "content_bytes": 39427,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "653ecbf55186069256109145af3a553be798ab53f29e69b666bd153c1b5d5632",
+          "content_bytes": 39574,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       },
       {
@@ -149,12 +149,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
         "content_pin": {
-          "content_sha256": "eb95a3a28207959b98748bfdd1bfa10b9f28d073597861a3ac6a1933d955d547",
-          "content_bytes": 32741,
-          "last_commit_sha": "f9253af",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "54b71cc3663119364f694b74b0f4201884d5262a1d01de7a77a23f8049cf810d",
+          "content_bytes": 32888,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show f9253af:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       }
     ]

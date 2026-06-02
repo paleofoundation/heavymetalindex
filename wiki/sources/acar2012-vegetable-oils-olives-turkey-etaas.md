@@ -158,6 +158,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [5c4f971](https://github.com/paleofoundation/heavymetalindex/commit/5c4f971) | 2026-06-01 | audit: acar2012-vegetable-oils-olives-turkey-etaas [revised] |
 | [8db654b](https://github.com/paleofoundation/heavymetalindex/commit/8db654b) | 2026-06-01 | ingest: acar2012-vegetable-oils-olives-turkey-etaas [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

@@ -220,3 +220,14 @@ Limitations the report itself names:
   - Audit raised a concern that the wiki attributed the $270-per-sample cost to a personal communication with Mark Valentini. Verified against the source-page text — the $270/sample cost is in one bullet (cost framing, source p. 4) and the Valentini personal-communication acknowledgement is a separate, distinct bullet (source reference [38], September 25, 2009). The wiki does not actually attribute the cost to Valentini; the two facts are presented separately. Concern was a misread of the page structure, not a fidelity error in the page itself. No change applied.
   - Audit raised a concern that "ICP-OES" was an overspecification of the source's "ICP" language and explicitly flagged the parenthetical "total reflection method-equivalent ICP-OES" as invented. Verified — "total reflection method-equivalent ICP-OES" was indeed an invented embellishment (that phrasing refers to TXRF, not ICP-OES), and has been removed. The plain inference that EPA Method 6010 = ICP-OES / ICP-AES family is defensible analytical convention but is not what the source says; the methods table and prose now name the technique as "ICP" with a parenthetical clarifying that EPA Method 6010 corresponds to the ICP-OES / AES family, rather than asserting OES outright.
 - **Halloween-store label scan kept as label-disclosed only:** the three additional products documented in the "What Else Is in the Halloween Store?" chapter (neon hair-color spray, black-light hair spray, fake-skin liquid latex) are NOT included in the metals tables or the sample-frame statistics because they were not laboratory-tested for metals; they are documented above as label-disclosed ingredient observations only. Likewise, the "Multiple Chemicals in Cosmetics" sidebar (p. 21) names additional label-disclosed organic ingredients on the 10 tested products (BHA, methylparaben, diazolidinyl urea, propylene glycol, fragrance); these are organic-chemical disclosures and are out of scope for HMI's heavy-metals focus but documented for downstream reference.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [371049b](https://github.com/paleofoundation/heavymetalindex/commit/371049b) | 2026-06-02 | audit: campaignsafecosmetics2009-pretty-scary-face-paints revised |
+| [d4bc45d](https://github.com/paleofoundation/heavymetalindex/commit/d4bc45d) | 2026-06-02 | ingest: campaignsafecosmetics2009-pretty-scary-face-paints fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |
+<!-- END: hmi-page-history -->

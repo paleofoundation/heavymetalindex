@@ -17,7 +17,7 @@ pair_row: 16
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 6
+sources: 9
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Children's Lip Balm, Plain (uncolored, no SPF)
@@ -100,7 +100,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/sccs2025-methyl-salicylate-children-exposure-1676-25\|Scientific Committee on Consumer 2025]]. *SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25)*, European Commission, Directorate-General for Health and Food Safety | 2025 | Government report | This is the EU regulatory-science re-assessment of children's aggregate exposure to Methyl Salicylate (CAS 119-36-8; methyl 2-hydroxybenzoate) in cosmetic products... |
 | 2 | [[sources/waecology2024-interim-policy-lead-cosmetics\|Washington State Department of 2024]]. *Policy Statement: Interim Policy on Lead in Cosmetics — enforcement discretion under the Washington Toxic-Free Cosmetics Act (Chapter 70A.560 RCW)*, Washington State Department of Ecology, Publication 24-04-036 (issued December 19, 2024; minor revisions and clarifications January 15, 2025) | 2024 | Government report | *[awaiting synthesis]* |
 | 3 | [[sources/li2021-lead-lip-cosmetics-china-ecommerce\|Li et al. 2021]]. *Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis*, Frontiers in Public Health 9:766984 | 2021 | Peer-reviewed | CN Pb occurrence in 34 best-selling lip cosmetics (12 lipsticks, 13 lip glosses, 9 lip balms) from JingDong (Chinese top-10 e-commerce market),... (n=34) |
-| 4 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
+| 4 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | *[awaiting synthesis]* |
+| 5 | [[sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup\|Engel et al. 2016]]. *Pretty Scary 2: Unmasking Toxic Chemicals in Kids' Makeup*, Breast Cancer Fund; Campaign for Safe Cosmetics (October 2016) | 2016 | Nonprofit | *[awaiting synthesis]* |
+| 6 | [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics\|Stone 2012]]. *Quality Assurance Project Plan: Parabens and Metals in Children's Cosmetic and Personal Care Products*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 12-07-021 (February 2012) | 2012 | Regulatory | *[awaiting synthesis]* |
+| 7 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -110,9 +113,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

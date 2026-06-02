@@ -17,18 +17,59 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-foils-wraps",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "50f99eb7453d94e69dc750ebcafc522d2e8a551d860bae7ce8e8a7c0a901e273",
-      "content_bytes": 7297,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "content_sha256": "9263e574e1e439c4cde3f6cae820bb0c15fb29740cdabd926755c7e409816b82",
+      "content_bytes": 8129,
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/food-packaging-foils-wraps.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/food-packaging-foils-wraps.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/bassioni2012-aluminum-foil-meat-cooking-uae",
+        "title": "Risk Assessment of Using Aluminum Foil in Food Preparation",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/bassioni2012-aluminum-foil-meat-cooking-uae",
+        "content_pin": {
+          "content_sha256": "cf629894a9210c1e0333e63e195b930afc5504dcee1d9749f685decd1e620827",
+          "content_bytes": 16479,
+          "last_commit_sha": "c23efb5",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c23efb5:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/dordevic2019-aluminum-foil-culinary-baking-czech",
+        "title": "Aluminum contamination of food during culinary preparation: Case study with aluminum foil and consumers' preferences",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Al"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/dordevic2019-aluminum-foil-culinary-baking-czech",
+        "content_pin": {
+          "content_sha256": "8842a5248948b3006638a3a2de8b5c12e4b5b57e9eef171398da8d9474ac0597",
+          "content_bytes": 14477,
+          "last_commit_sha": "ff65af5",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ff65af5:wiki/sources/dordevic2019-aluminum-foil-culinary-baking-czech.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

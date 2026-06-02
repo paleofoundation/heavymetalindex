@@ -83,7 +83,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 7
+sources: 9
 ---
 
 # Quinoa
@@ -129,8 +129,10 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 3 | [[sources/gul2024-quinoa-cadmium-lead-stress\|Gül et al. 2024]]. *Effects of cadmium and lead stress on quinoa (Chenopodium quinoa Willd.) plant growth and antioxidant enzyme activities*, Turkish Journal of Nature and Science | 2024 | Peer-reviewed | Greenhouse pot study on Cd and Pb phytotoxicity and tissue accumulation in quinoa under spiked-soil conditions; phytotoxicity framing rather than ambient occurrence |
 | 4 | [[sources/bedoya-perales2023-moquegua-peru-mining-dataset\|Bedoya-Perales et al. 2023]]. *Dataset of metals and metalloids in food crops and soils sampled across the mining region of Moquegua in Peru*, Scientific Data | 2023 | Peer-reviewed | Open-access occurrence dataset for tAs, Cd, Pb, Cu, and Zn in food crops and soils from Moquegua mining region, Peru (341 sites); includes quinoa samples |
 | 5 | [[sources/rosales-huamani2023-quinoa-peru-ptes\|Rosales-Huamani et al. 2023]]. *Determination of Potentially Toxic Elements in Quinoa Crops Located in the Huacaybamba-Huanuco-Peru Area*, International Journal of Membrane Science and Technology | 2023 | Peer-reviewed | Measured tAs, Pb, Cd, Cu, and Zn in 50 agricultural soil samples from a quinoa-producing area in Huancaybamba, Peru; 100% of Cd samples exceeded Peruvian soil quality standards |
-| 6 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | Measured tAs, Cd, Sn, Pb, and tHg in quinoa and rice grains plus processed grain products from Arequipa, Peru (n=53); Pb dramatically elevated in processed vs raw grain |
-| 7 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | 697-sample iAs/tAs dataset covering rice types and alternative grains; quinoa showed significantly lower inorganic arsenic than rice of any type tested |
+| 6 | [[sources/eu-2021-1323-cadmium-foodstuffs-amendment\|EU 2021]]. *Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs*, Official Journal of the European Union (OJ L 288, 11.8.2021, p. 13–18) | 2021 | Regulation | *[awaiting synthesis]* |
+| 7 | [[sources/roman-ochoa2021-arequipa-grains-health-risk\|Román-Ochoa et al. 2021]]. *Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru*, Chemosphere | 2021 | Peer-reviewed | Measured tAs, Cd, Sn, Pb, and tHg in quinoa and rice grains plus processed grain products from Arequipa, Peru (n=53); Pb dramatically elevated in processed vs raw grain |
+| 8 | [[sources/cr-fsasc2014-arsenic-rice-grains\|CR 2014]]. *Analysis of Arsenic in Rice and Other Grains*, Consumer Reports Food Safety and Sustainability Center | 2014 | Industry | 697-sample iAs/tAs dataset covering rice types and alternative grains; quinoa showed significantly lower inorganic arsenic than rice of any type tested |
+| 9 | [[sources/codex-cxs-193-1995\|Codex 1995]]. *General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)*, Codex Alimentarius (Joint FAO/WHO Food Standards Programme) | 1995 | Government report | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 ## Why this commodity accumulates heavy metals
 
@@ -178,9 +180,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

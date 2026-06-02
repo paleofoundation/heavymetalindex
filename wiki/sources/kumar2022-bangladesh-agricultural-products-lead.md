@@ -101,3 +101,13 @@ This source provides broad Bangladesh-market lead context across cereals, pulses
 ## Verification notes
 
 Evidence Fitness: routeable for Bangladesh agricultural-food lead occurrence and geographic context, with source-reported fresh-weight summary values and the authors' cross-source conversions. Not routeable as sample-level primary data from a single laboratory campaign; not a US-market benchmark pool source without explicit governance rationale. The PDF first page provides title, authors, journal, year, and DOI. The open-access statement identifies CC BY 4.0. The PDF SHA-256 at ingest was `501e513e2d32e8d572ee7ee00a85bf9c0483b10a8286af79f3f182a3c8e9c5cd`.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [92fd08b](https://github.com/paleofoundation/heavymetalindex/commit/92fd08b) | 2026-06-02 | ingest auto-fetched 2026-06-02 05:09 batch 1: 4 source pages |
+<!-- END: hmi-page-history -->

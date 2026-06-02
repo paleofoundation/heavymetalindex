@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/nuts-seeds-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c6382643bc025e9b67bc0be85f037ec994e9f11360b67dc472bf4d0e1728a5d5",
+      "content_sha256": "7bca39a2102ef8aeceae6ac457df0ec4500f0ebf7025e1e8ee33b0d786c69246",
       "content_bytes": 11949,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/nuts-seeds-other.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/nuts-seeds-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alatise2025-fruit-nuts-metals",
         "content_pin": {
-          "content_sha256": "18eabef495718209cfeda2fb06cde1c74300e664257e41dbfea13d9b93bbe91f",
+          "content_sha256": "922a03ae2931eb9f94ce7b1e46d1b176d787d8fdfa5e597226d68ef04a9cdd95",
           "content_bytes": 3118,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
         "content_pin": {
-          "content_sha256": "157b51482acb622cc932a45741985410e6ed6899b3a59b8bbc41a7df512f2dee",
+          "content_sha256": "fe7d72b356cbbd8bca59907b6bdcdbdc78d0cd17a6c0524f2d57f0b39f5bf78c",
           "content_bytes": 5253,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
         }
       },
       {
@@ -110,12 +110,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "42203cead222d41cd4822f944a26e4efe8a4457433f09c3eb00023df5aad0a58",
+          "content_sha256": "20dbd53243f6bab78d57cc0499fb0e8995bc7434b8c1ab36852edec71dd19a9a",
           "content_bytes": 10735,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -138,12 +138,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nazari2023-heavy-metals-seed-crops-oil-products-review",
         "content_pin": {
-          "content_sha256": "4387622ca6295583c5dc775552ac6ed79218f29b07a16656bb3ccd9dc42ae1e7",
+          "content_sha256": "8f683dcda2f43de73cdf500988869a1f5bb92e1af516e8304453d38ff410bb1a",
           "content_bytes": 16373,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
         }
       },
       {
@@ -166,12 +166,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pehlivan2008-vegetable-oils-turkey-icp-aes",
         "content_pin": {
-          "content_sha256": "90f2e521c567c803e78838e591bcc4b5e292cca1d4ec63a0aef9455bbeaf8dac",
+          "content_sha256": "225b7e54814734c60478c366ab52bd659d401a5a0095293400aef808c37e5393",
           "content_bytes": 8614,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
         }
       }
     ]

@@ -17,18 +17,38 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-cans-lids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5f0a89ae81740ff4d6667fe7916e5d9aa12de301cfb4b2459a8e4af1981e3ec5",
-      "content_bytes": 7810,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "content_sha256": "731a0ab4a1d349405dc8a42d94210e15be08a2ba363a9bbcd9c937c5955e50ac",
+      "content_bytes": 8072,
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/food-packaging-cans-lids.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/food-packaging-cans-lids.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 1,
     "contributing_sources": [
+      {
+        "slug": "sources/imsi2015-gmp-maple-syrup-lead",
+        "title": "North American Good Manufacturing Practices to Avoid Lead Contamination of Maple Syrup",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/imsi2015-gmp-maple-syrup-lead",
+        "content_pin": {
+          "content_sha256": "ae90e5f808ec56a020fb7fcd5923e36213d18d607b5230b05065bb811404df83",
+          "content_bytes": 20658,
+          "last_commit_sha": "d864a1a",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show d864a1a:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/yamanaka2025-tinplate-pineapple-cans",
         "title": "Corrosion Behavior of the Inner Surface of Unlacquered Tinplate Cans for Fruit Use",
@@ -42,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/yamanaka2025-tinplate-pineapple-cans",
         "content_pin": {
-          "content_sha256": "c6b99130e63f66145bf4a078fdd0b0630942c52d381f23b46681d92ff1104b2c",
-          "content_bytes": 4785,
-          "last_commit_sha": "6c37981",
+          "content_sha256": "c8de6c3be4ce99ee728899c2590d855e2db7126eae040948da0693bc3dd1f80b",
+          "content_bytes": 4932,
+          "last_commit_sha": "c3909aa",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6c37981:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/yamanaka2025-tinplate-pineapple-cans.md | sha256sum"
         }
       }
     ]

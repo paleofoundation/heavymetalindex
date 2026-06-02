@@ -157,6 +157,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [3a80318](https://github.com/paleofoundation/heavymetalindex/commit/3a80318) | 2026-06-01 | audit: ec2013-tsd-rev1-7-guidance [promoted] |
 | [dcf7ad8](https://github.com/paleofoundation/heavymetalindex/commit/dcf7ad8) | 2026-06-01 | ingest: ec2013-tsd-rev1-7-guidance [fresh] from Manual Fetch Kimi/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH |
 <!-- END: hmi-page-history -->

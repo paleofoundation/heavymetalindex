@@ -20,16 +20,16 @@
     "canonical_url": "https://heavymetalindex.com/products/leafy-vegetables-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f66fae7e853eecd8dac7cf96c128089dd4506f40ad3e20ffa19a70d6aa85e43e",
-      "content_bytes": 16932,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "content_sha256": "786264418d85ed62a7ef92cde9bb6ece4e5904bc2a2842824d0d98db30e1c026",
+      "content_bytes": 17492,
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/leafy-vegetables-other.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/leafy-vegetables-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 21,
+    "contributing_source_count": 23,
     "sources_with_structured_values": 2,
     "contributing_sources": [
       {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ahmed2017-bangladesh-vegetable-arsenic",
         "content_pin": {
-          "content_sha256": "5dcc7b825a7c1d32e2b3301527dd94c6cee254e1ad81a6336dd07f2e024dba87",
+          "content_sha256": "2c20dd1be2a24bbc9c431de62f33a6798a07191cff1b018286162fd64347090d",
           "content_bytes": 3116,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/ahmed2017-bangladesh-vegetable-arsenic.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/ahmed2017-bangladesh-vegetable-arsenic.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bambara2023-loumbila-vegetables-heavy-metals",
         "content_pin": {
-          "content_sha256": "97e468d77ffaca4ba06daf642d39b009c82234cc65d20392326f82b14d5a17dc",
+          "content_sha256": "5a3f07e75c35e4f76918443700505b4a5de2439f98a652b0d4e50e295491c744",
           "content_bytes": 2953,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/bambara2023-loumbila-vegetables-heavy-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/bambara2023-loumbila-vegetables-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -91,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing",
         "content_pin": {
-          "content_sha256": "28b697cc31fc2669312900c9c3f2ac6603212edba27f7b779bbecfccd54442d4",
+          "content_sha256": "67529146970c451c43915cf478f1e344ae567cbfbe4995b1eba899f90539cbaa",
           "content_bytes": 21675,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md | sha256sum"
         }
       },
       {
@@ -111,12 +111,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/emmanuel2025-kano-urban-vegetables-metals",
         "content_pin": {
-          "content_sha256": "9d9c46e23d50f164e274934cbc1aecab468849146a8797db3c0d0857d02fa4a8",
-          "content_bytes": 4397,
-          "last_commit_sha": "6c37981",
+          "content_sha256": "f9c56dd1156213542fb35b2207daab8120e1d3e5aad7cc54d038636b43cdfd58",
+          "content_bytes": 4544,
+          "last_commit_sha": "c3909aa",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6c37981:wiki/sources/emmanuel2025-kano-urban-vegetables-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/emmanuel2025-kano-urban-vegetables-metals.md | sha256sum"
         }
       },
       {
@@ -132,12 +132,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ghasemidehkordi2018-markazi-vegetables-pb-hg",
         "content_pin": {
-          "content_sha256": "a6d74c126de09f0b7e20cd0acbfe249b1ce089bcf1795df7f3b81b5359b5eeb7",
-          "content_bytes": 25055,
-          "last_commit_sha": "c63b031",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "eae26c098f2073f03b412a1e7b78f5ac1542f9f6b407cf9fc502dd24176e5580",
+          "content_bytes": 25202,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c63b031:wiki/sources/ghasemidehkordi2018-markazi-vegetables-pb-hg.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/ghasemidehkordi2018-markazi-vegetables-pb-hg.md | sha256sum"
         }
       },
       {
@@ -153,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/heshmati2020-iran-vegetables-cereals-pb-cd",
         "content_pin": {
-          "content_sha256": "60366db299580596367af5b68bbe5b4de314d9672f298689293ab08451eefce4",
-          "content_bytes": 22213,
-          "last_commit_sha": "ed45f34",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "5ed27336c93446814dd3fe088b8b9913e98da0e84ae44d4069c3fd25d659df48",
+          "content_bytes": 22360,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show ed45f34:wiki/sources/heshmati2020-iran-vegetables-cereals-pb-cd.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/heshmati2020-iran-vegetables-cereals-pb-cd.md | sha256sum"
         }
       },
       {
@@ -174,12 +174,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hossain2016-bangladesh-vegetables-pb-cd-cr",
         "content_pin": {
-          "content_sha256": "9cf5e55c597bfd8a227df810428c90bb17f8da51567f98075f6a54408c6217fb",
-          "content_bytes": 5480,
-          "last_commit_sha": "6c37981",
+          "content_sha256": "7540fa31c4cbb62e78b43961591da7fedcf8cdb6ed01d5a23dd4e26f062bc2a2",
+          "content_bytes": 5627,
+          "last_commit_sha": "c3909aa",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6c37981:wiki/sources/hossain2016-bangladesh-vegetables-pb-cd-cr.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/hossain2016-bangladesh-vegetables-pb-cd-cr.md | sha256sum"
         }
       },
       {
@@ -199,12 +199,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kim2024-metals-kale-urban-rural-maryland",
         "content_pin": {
-          "content_sha256": "a8aa7f35424434301199b605d4f7d9c7c4a79e8e69c3c0bfce750357115f3907",
+          "content_sha256": "350b2cc15f0f345bd2a800dddc190e09633581148585412973e81bb51d10fe4f",
           "content_bytes": 5046,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/kim2024-metals-kale-urban-rural-maryland.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/kim2024-metals-kale-urban-rural-maryland.md | sha256sum"
         }
       },
       {
@@ -222,12 +222,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mawari2022-heavy-metals-fruits-vegetables-india",
         "content_pin": {
-          "content_sha256": "e25def1c25b148d151af5e968ff196e7f9da845645cbb7344b789e689f2669e9",
+          "content_sha256": "e2812fdf09894bff4f419a95848e1babe7edc88f476ecfd079182d3657e2b729",
           "content_bytes": 15211,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/mawari2022-heavy-metals-fruits-vegetables-india.md | sha256sum"
         }
       },
       {
@@ -244,12 +244,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ngodhe2018-kale-soil-sludge-kisumu-heavy-metals",
         "content_pin": {
-          "content_sha256": "97c67b3a20966aa6a86404b6a29871a17d4e57690e322a87de2ebf698eaa1c77",
+          "content_sha256": "3e6ade97e83a668699692d1b166c5ec1770f6685721dea5d55c031ee111269a4",
           "content_bytes": 2526,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/ngodhe2018-kale-soil-sludge-kisumu-heavy-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/ngodhe2018-kale-soil-sludge-kisumu-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -269,12 +269,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/osuolale2025-leafy-vegetables-ondo-trace-elements",
         "content_pin": {
-          "content_sha256": "11414fe88f4ec5ce5c02f8fca5b71169e7816ac212e500f6979ce5762b99f007",
+          "content_sha256": "3b986d36ec32df2a2c5eaa0c9b32974e6226c5ccf3167e10365e7b79f081bd1a",
           "content_bytes": 2912,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/osuolale2025-leafy-vegetables-ondo-trace-elements.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/osuolale2025-leafy-vegetables-ondo-trace-elements.md | sha256sum"
         }
       },
       {
@@ -294,12 +294,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pal2017-wastewater-vegetables-heavy-metals",
         "content_pin": {
-          "content_sha256": "25448bfeafc81087e083bb240f04bd68047e6991a1bd41a2402985c092be5ac0",
+          "content_sha256": "c19dea38297132fc29711b841a585339fe3bf986ad2c1f7bea65b3e706ba74a9",
           "content_bytes": 3780,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/pal2017-wastewater-vegetables-heavy-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/pal2017-wastewater-vegetables-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -318,12 +318,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadee2022-erbil-vegetables",
         "content_pin": {
-          "content_sha256": "eb0316d6a4aadb602d1c74ba8fe7e9377f31ba46b30ab4094c379b10ed20b508",
+          "content_sha256": "22ce3ee0fd598f71dcb84032d6bef71a5d03e99064bff077517954a149cfeaa0",
           "content_bytes": 3232,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/sadee2022-erbil-vegetables.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/sadee2022-erbil-vegetables.md | sha256sum"
         }
       },
       {
@@ -342,12 +342,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals",
         "content_pin": {
-          "content_sha256": "95dd25d3d32f363f9c12139bb4c3b7bdd2ab6bccb94fcde63c215c4882ab7ccf",
-          "content_bytes": 23032,
-          "last_commit_sha": "472e3af",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "4a53bc5457843088a40bb4f8d92db4cc51a97a24de12c0b1b29f8064a9422ea0",
+          "content_bytes": 23179,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 472e3af:wiki/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/salehipour2015-iran-isfahan-cereals-vegetables-metals.md | sha256sum"
         }
       },
       {
@@ -367,12 +367,36 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/see2025-malaysia-leafy-vegetables-icp-oes",
         "content_pin": {
-          "content_sha256": "2f72b76b6444cc401d93d637d2e37901a0d0ebf2ec3e6bb603213d17fd325319",
+          "content_sha256": "43c4dcfe1617702747f12cc68b784139180d9b0db80769a40b5e8af8174194a1",
           "content_bytes": 17892,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/see2025-malaysia-leafy-vegetables-icp-oes.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/see2025-malaysia-leafy-vegetables-icp-oes.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sharma2016-spinach-wastewater-metals",
+        "title": "Heavy metals in vegetables: screening health risks involved in cultivation along wastewater drain and irrigating with wastewater",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Pb",
+          "Cu",
+          "Co",
+          "Fe"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sharma2016-spinach-wastewater-metals",
+        "content_pin": {
+          "content_sha256": "b061f5a44f925fa2c2d9cb7be7e8256401ad0ee93a4441af3c883987a659e1a4",
+          "content_bytes": 6366,
+          "last_commit_sha": "eb580ee",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show eb580ee:wiki/sources/sharma2016-spinach-wastewater-metals.md | sha256sum"
         }
       },
       {
@@ -395,12 +419,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/souri2019-leafy-vegetables-growth-stage-metals",
         "content_pin": {
-          "content_sha256": "9ec070be7d5522298e4b70161ebf297e178c484107da4334d1fe7d4e1ce992cb",
-          "content_bytes": 6090,
-          "last_commit_sha": "90371ac",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "01fd76489012fe29bfb86519334e4cbc0f7d93d7e6e04e27d7d74a7bf7fe32dc",
+          "content_bytes": 6237,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 90371ac:wiki/sources/souri2019-leafy-vegetables-growth-stage-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/souri2019-leafy-vegetables-growth-stage-metals.md | sha256sum"
         }
       },
       {
@@ -422,12 +446,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sultana2022-dhaka-root-leafy-vegetables",
         "content_pin": {
-          "content_sha256": "ecd0cffd3144a7820a5abc57dd6dda966cfe4e30786822e09426773f9179f24f",
+          "content_sha256": "a21c9aca15423a1ed2dfc56f7adbee13c535ceb413167d3c4975a4f6e0deaf04",
           "content_bytes": 22019,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/sultana2022-dhaka-root-leafy-vegetables.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/sultana2022-dhaka-root-leafy-vegetables.md | sha256sum"
         }
       },
       {
@@ -443,12 +467,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/vela2023-quito-vegetables-cd-pb",
         "content_pin": {
-          "content_sha256": "7638e415effdbb9edffd57d92f46b8cab95a1f5df72c66b309e794f1bc210a4f",
+          "content_sha256": "77fe9e3fc24a5e961a57392502c71c7e54424ebea68d4f5833006eb07aba17cf",
           "content_bytes": 3029,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/vela2023-quito-vegetables-cd-pb.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/vela2023-quito-vegetables-cd-pb.md | sha256sum"
         }
       },
       {
@@ -464,12 +488,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wang2021-houttuynia-mercury-china",
         "content_pin": {
-          "content_sha256": "6bdd0e1519a5864effbc8bfb853a96b65179f789656a2be66001ae45b007ecf1",
+          "content_sha256": "2a64383fe12b6e5dec4f81b5664d127d8d9666a7a5cbc2d79ef097daf5bb6856",
           "content_bytes": 3674,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/wang2021-houttuynia-mercury-china.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/wang2021-houttuynia-mercury-china.md | sha256sum"
         }
       },
       {
@@ -491,12 +515,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo",
         "content_pin": {
-          "content_sha256": "dfccb88b2dd2f29a27742b595342a1270015b811f0e93dac83469324fa080543",
+          "content_sha256": "c9680980069cc8abf130233df8e3855e7904e9177281a91d96b006d988fb6679",
           "content_bytes": 27197,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md | sha256sum"
         }
       },
       {
@@ -518,12 +542,32 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals",
         "content_pin": {
-          "content_sha256": "aaa93631bbc90e837b7514813241ca4a860c15a1bd302f437fd3703b1b795f4b",
+          "content_sha256": "14b4ab63938abd00a4b43b027bf6e5923b6864ff36c8289c5ef7fa632bfa4d27",
           "content_bytes": 23849,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/wu2024-jiaozuo-china-cereals-vegetables-legumes-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/zemanova2015-spinach-cadmium-amino-fatty-acids",
+        "title": "Changes in the contents of amino acids and the profile of fatty acids in response to cadmium contamination in spinach",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/zemanova2015-spinach-cadmium-amino-fatty-acids",
+        "content_pin": {
+          "content_sha256": "20b7cb9952bb70686e6363c21e9a3a9782f067ab99f51c1aa7c7c74db5e8ec43",
+          "content_bytes": 5459,
+          "last_commit_sha": "eb580ee",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show eb580ee:wiki/sources/zemanova2015-spinach-cadmium-amino-fatty-acids.md | sha256sum"
         }
       }
     ]

@@ -163,3 +163,14 @@ App: Not directly applicable. Toothpaste is outside the consumer-app scope (focu
 - Audit subagent (2026-06-02) flagged the `metals:` frontmatter array as omitting Al and Mn — verified against source p. 5 Table 1 Salama row ("Lead, aluminium, cadmium, cobalt, chromium, copper, manganese, nickel, mercury, and arsenic"): both Al and Mn are present in the included corpus via Salama 2016. Added Al and Mn to the frontmatter `metals:` array and to the "Wiki pages this source may touch" list.
 - Audit subagent (2026-06-02) flagged that `[[regulations/eu-ec-1223-2009-cosmetics]]` and `[[regulations/india-bis-6356-toothpaste]]` are not in the current regulation-page taxonomy — confirmed: both regulation pages do not yet exist in `wiki/regulations/`. Both are bona-fide regulations cited multiple times across the toothpaste corpus (e.g., on the companion source page [[sources/chengappa2025-toothpaste-india-aas]]) and are appropriate candidates for new regulation pages via Karen's regulation-page workflow. Marked as `(proposed; not yet in regulation taxonomy)` rather than removing the wikilinks, to preserve the routing signal for the future regulation pages.
 - Audit subagent (2026-06-02) flagged the opening paragraph's "essential (Co, Zn, Cr, Cu, Fe, Ni, Sn)" classification as adding Sn to the essential category, where the source p. 4 classifies only "Cobalt, zinc, chromium, copper, iron, and nickel" as essential (Sn is detected by Vella & Attard but not categorically classified in the source's essential/toxic schema). Corrected to "essential (Co, Zn, Cr, Cu, Fe, Ni) per the review's classification".
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [99b61ee](https://github.com/paleofoundation/heavymetalindex/commit/99b61ee) | 2026-06-02 | audit: chengappa2025-toothpaste-systematic-review revised |
+| [b54a9c7](https://github.com/paleofoundation/heavymetalindex/commit/b54a9c7) | 2026-06-02 | ingest: chengappa2025-toothpaste-systematic-review fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/03_Contamination_Data |
+<!-- END: hmi-page-history -->

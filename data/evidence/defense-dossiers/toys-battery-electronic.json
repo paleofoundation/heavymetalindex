@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-battery-electronic",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fa1dad14776fddb007094125a60b4b1603ea10b9237d61dd6ac28149e7ade2d5",
+      "content_sha256": "4d8191177e3836e083e6555d1bca63a613c37d9aa6a6865dc3855e7cc737dd57",
       "content_bytes": 8402,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/toys-battery-electronic.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/toys-battery-electronic.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2009-cpsia-101b-inaccessibility-rule",
         "content_pin": {
-          "content_sha256": "86119af492cd0b92d688effa13f563d152c68c6d2b5f60280829b7f1e5354ab8",
-          "content_bytes": 31294,
-          "last_commit_sha": "894d69e",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "8e72e53cf12efcb6364e37f388a17c8d9f17b9d5edaeeabda4535b8a7b33beab",
+          "content_bytes": 31441,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 894d69e:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
         }
       }
     ]

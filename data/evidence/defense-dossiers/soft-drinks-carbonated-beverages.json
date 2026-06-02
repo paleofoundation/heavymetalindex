@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/soft-drinks-carbonated-beverages",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5e9b1111479e35d1a0a6269c9cc23325b32abc7f782e59589f8c7bd4c5f4a869",
+      "content_sha256": "56c1735249f3f32a6bef762a9c1e939b95da8311fb4b0c7a69d18b95d768c982",
       "content_bytes": 11271,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/soft-drinks-carbonated-beverages.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/soft-drinks-carbonated-beverages.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks",
         "content_pin": {
-          "content_sha256": "c8d8a07fa3e34b22788f20641cb321f8efe7b98ebcebe72dbe09609ee0d9f34e",
+          "content_sha256": "974500dca0192efcbf5811017ec49c40dc195db920e5a4d7ff03f81620defe29",
           "content_bytes": 15962,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks.md | sha256sum"
         }
       },
       {
@@ -81,12 +81,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/deka2023-monitoring-strategies-heavy-metals-chapter",
         "content_pin": {
-          "content_sha256": "d87c38876f4994caf4bc1987d37e3bff2add2b5eec6ba3c3039bfacaa3848f0f",
+          "content_sha256": "0aad97eab1c596b55db7bffcfec4ef32ab8fe78799ef4f99527d5e5d0f567582",
           "content_bytes": 10243,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md | sha256sum"
         }
       },
       {
@@ -101,12 +101,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/tarigan2016-factors-tin-released-canned-beverages",
         "content_pin": {
-          "content_sha256": "aaa20c76a672caf95776579bc4f8eca5e95fedc477a3e81458234b1282200f6b",
+          "content_sha256": "b39efb92cdc8b5f7703a7ed18700366f95a99689315f741db50ffe0fa117aa13",
           "content_bytes": 4537,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/tarigan2016-factors-tin-released-canned-beverages.md | sha256sum"
         }
       }
     ]

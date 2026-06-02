@@ -15,7 +15,7 @@ applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-16
-sources: 14
+sources: 16
 created_by: cat2_step0_scaffold_2026_05_16
 ---
 # Baby Lotion / Baby Cream
@@ -98,10 +98,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 5 | [[sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12\|Scientific Committee on Consumer 2023]]. *The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22)*, European Commission, Directorate-General for Health and Food Safety | 2023 | Government report | EU Pb, Cd, As, tHg, Ni, Cr, Sb occurrence in Regulatory guidance document; no original sampling. Synthesises default exposure parameters from prior SCCS/SCCNFP opinions (notably SCCNFP/0321/00 retention factors,... |
 | 6 | [[sources/attard2022-heavy-metals-cosmetics-review\|Attard et al. 2022]]. *Heavy Metals in Cosmetics*, Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) | 2022 | Review | US/EU/WHO Pb, Cd, Ni, tHg, tAs occurrence in Narrative review with multivariate meta-analysis across 16 cosmetic formulation categories drawn from the published literature on Pb, Cd,... |
 | 7 | [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan\|Arshad et al. 2020]]. *Evaluation of heavy metals in cosmetic products and their health risk assessment*, Saudi Pharmaceutical Journal 28(2020):779-790 | 2020 | Peer-reviewed | PK Cd, Cr, Fe, Ni, Pb occurrence in 189 cosmetic samples (63 unique brands × 3 triplicates) from local community markets in Abbottabad, Haripur, and Mansehra,... (n=189) |
-| 8 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology,... |
-| 9 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
-| 10 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
-| 11 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
+| 8 | [[sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\|Trumbull et al. 2017]]. *Children's Seasonal Products Report 2014-2015*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 16-04-029 (January 2017) | 2017 | Regulatory | *[awaiting synthesis]* |
+| 9 | [[sources/oranges2015-skin-physiology-neonate-infant-clinical\|Oranges et al. 2015]]. *Skin Physiology of the Neonate and Infant: Clinical Implications*, Advances in Wound Care 4(10): 587-595 | 2015 | Peer-reviewed | This Advances in Wound Care "Critical Reviews" article (Oranges, Dini, Romanelli at the Wound Healing Research Unit, Department of Dermatology,... |
+| 10 | [[sources/gosens2014-parabens-aggregate-exposure-children\|Gosens et al. 2014]]. *Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old*, Journal of Exposure Science and Environmental Epidemiology 24: 208-214 | 2014 | Peer-reviewed | This Journal of Exposure Science and Environmental Epidemiology paper compares deterministic (tier 1) and person-oriented probabilistic (tier 2) approaches for... |
+| 11 | [[sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics\|Stone 2012]]. *Quality Assurance Project Plan: Parabens and Metals in Children's Cosmetic and Personal Care Products*, Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 12-07-021 (February 2012) | 2012 | Regulatory | *[awaiting synthesis]* |
+| 12 | [[sources/us-epa-2011-efh-chapter17-consumer-products\|U.S. Environmental Protection Agency, 2011]]. *Exposure Factors Handbook: 2011 Edition — Chapter 17, Consumer Products*, U.S. Environmental Protection Agency, EPA/600/R-09/052F | 2011 | Government report | *[awaiting synthesis]* |
+| 13 | [[sources/poulsen2007-cosmetic-products-children-denmark\|Poulsen et al. 2007]]. *A survey and health assessment of cosmetic products for children*, Survey of Chemical Substances in Consumer Products, No. 88, 2007 (Danish Ministry of the Environment, Environmental Protection Agency) | 2007 | Government report | DK/EU Pb, Cd, tHg, tAs, Cr, Ni, Sn, Sb, Ba, Se occurrence in 10 cosmetic-product packaging materials selected from 208 children's cosmetic products (ages 3-14) mapped on the Danish market April-June... (n=10) |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -111,9 +113,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

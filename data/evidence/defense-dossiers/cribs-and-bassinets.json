@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cribs-and-bassinets",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "89c3c70bd37ae277b7a5cd5c51e9bdb071919e06d82217a1ecb7ae79d0e42508",
+      "content_sha256": "d1239a392be74349df13eb019912aecea9adbfa6e8c933f527dcd3de44163cb4",
       "content_bytes": 8090,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/cribs-and-bassinets.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/cribs-and-bassinets.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "45fe8bf1f16a065da9951cf78d550643ba09b25815d51908f05fb3255dd4b27f",
-          "content_bytes": 59019,
-          "last_commit_sha": "df568bd",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "c631d01228baca6d1e77c9ea769d4547ef90c60b37761e77ac91b5f64726796e",
+          "content_bytes": 59166,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show df568bd:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       }
     ]

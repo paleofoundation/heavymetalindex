@@ -86,6 +86,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [f7eb87b](https://github.com/paleofoundation/heavymetalindex/commit/f7eb87b) | 2026-06-01 | audit: moussa2022-clays-phosphogypsum-tunisia [revised] |
 | [0f80527](https://github.com/paleofoundation/heavymetalindex/commit/0f80527) | 2026-06-01 | ingest: moussa2022-clays-phosphogypsum-tunisia [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

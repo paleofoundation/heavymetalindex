@@ -204,5 +204,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [f93b189](https://github.com/paleofoundation/heavymetalindex/commit/f93b189) | 2026-06-01 | ingest: matei2025-vegetable-oils-romania-gfaas [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

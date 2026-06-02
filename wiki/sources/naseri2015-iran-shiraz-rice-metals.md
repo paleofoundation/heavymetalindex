@@ -183,6 +183,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [f051900](https://github.com/paleofoundation/heavymetalindex/commit/f051900) | 2026-06-01 | audit: naseri2015-iran-shiraz-rice-metals [revised] |
 | [8009b5d](https://github.com/paleofoundation/heavymetalindex/commit/8009b5d) | 2026-06-01 | ingest: naseri2015-iran-shiraz-rice-metals [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

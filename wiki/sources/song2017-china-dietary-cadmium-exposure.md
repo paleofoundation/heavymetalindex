@@ -196,3 +196,14 @@ The 32-category coverage means this paper is also a routing fan-out source for i
 - Censoring methodology: middle-bound (½ LOD) for most groups, upper-bound (LOD) for milk and fresh eggs (>60% <LOD). This is faithfully reproduced in the Key numbers narrative and Methods section.
 - Evidence tier: A (peer-reviewed national exposure assessment from CFSA, published in PLOS ONE 2017, n=228,687 food samples × n=67,608 dietary survey subjects, GFAAS per national standard GB/T 5009.15–2003). The 24-hour-recall consumption data from 2002 is the most-cited limitation the authors raise; it is a known constraint of the assessment, not a methodological flaw warranting a tier downgrade.
 - Audit subagent (2026-06-02, fresh general-purpose context) flagged "The Chinese general-population mean exceeds the EU mean by approximately 2×" as wiki arithmetic (15.3/7.6 = 2.01) on source-stated numbers, not as a claim the source itself asserts. Verified correct on re-read of the Discussion (p.8): the authors give the Chinese 15.3 and EU 7.6 µg/kg BW/month separately without asserting a ratio. Sentence reworded to flag the ratio as wiki-derived arithmetic on source numbers per Cochrane-quality fidelity discipline.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9426986](https://github.com/paleofoundation/heavymetalindex/commit/9426986) | 2026-06-02 | audit: song2017-china-dietary-cadmium-exposure promoted-with-notes |
+| [1d3a63a](https://github.com/paleofoundation/heavymetalindex/commit/1d3a63a) | 2026-06-02 | ingest: song2017-china-dietary-cadmium-exposure fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
+<!-- END: hmi-page-history -->

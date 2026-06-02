@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dried-fruit",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "426571009ba22ade865be42c3172442b3a6db876838b784f267162849f8166fb",
+      "content_sha256": "1bab126cb7acc485e39c469e4b2b4776f129b0ee35235bec8d57383b295b7dcd",
       "content_bytes": 10851,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/dried-fruit.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/dried-fruit.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fda2016-infant-toddler-foods-inorganic-arsenic",
         "content_pin": {
-          "content_sha256": "e1d0358704577c4eaeddd35ac6e4a9ffdd82360033b02b8d97f449b7599dbcc5",
+          "content_sha256": "e366476ff5168f012bdc076568af9ff9101b447151d9b2390fb8f144bccb137c",
           "content_bytes": 7152,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mahmood2025-dried-fruit-metals",
         "content_pin": {
-          "content_sha256": "6e774702b892060691b12ffa92d511628a231fdb7ca07a5ee9ad81e65d0f7f08",
+          "content_sha256": "e6fb3b22a52d97c1c0755a8592923406d1900d4537f05cf6ac85cd0e211c338c",
           "content_bytes": 2817,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/mahmood2025-dried-fruit-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/mahmood2025-dried-fruit-metals.md | sha256sum"
         }
       },
       {
@@ -92,12 +92,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland",
         "content_pin": {
-          "content_sha256": "a2be02ecc4254127030f2834f0942a0d10572fe862e140e4145ef0d1e0dce7b5",
+          "content_sha256": "d0bf88909dc0aaf74fb0a9b300ac54be6adf13411eb4e0bc9a95cbf87fc4b966",
           "content_bytes": 12441,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland.md | sha256sum"
         }
       },
       {
@@ -113,12 +113,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rusin2021-vegetables-fruits-cadmium-lead-poland",
         "content_pin": {
-          "content_sha256": "341205ce6a93e9e4b355c01da6b50fde12e8ed9152ac1afcc0da85eb89922b33",
+          "content_sha256": "fe58333f77587cd20528a0fb496e00382b1a08bc2e84fde114b04581dc2dfc83",
           "content_bytes": 18499,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/rusin2021-vegetables-fruits-cadmium-lead-poland.md | sha256sum"
         }
       },
       {
@@ -136,12 +136,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars",
         "content_pin": {
-          "content_sha256": "ed231273d4d146c3d0401cfa974f283e1611e823f3d8d0cb311bd4638b03f1b0",
+          "content_sha256": "ba09232f2152100a1c1a4e6bff435fa01664a0028cfb1b8e276e4ae9dc05f526",
           "content_bytes": 12941,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md | sha256sum"
         }
       }
     ]

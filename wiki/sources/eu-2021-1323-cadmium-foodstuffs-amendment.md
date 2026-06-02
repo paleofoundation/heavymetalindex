@@ -216,3 +216,14 @@ For HMTc category work, the regulation supplies:
 - EFSA. 2012. Scientific report on cadmium dietary exposure in the European population. EFSA Journal 10(1), 2551 (37 pp.).
 - Commission Regulation (EU) No 488/2014 of 12 May 2014 (the predecessor cadmium amendment of 1881/2006). OJ L 138, 13.5.2014, p. 75.
 - Commission Recommendation 2014/193/EU of 4 April 2014 on the reduction of the presence of cadmium in foodstuffs. OJ L 104, 8.4.2014, p. 80.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f61cce5](https://github.com/paleofoundation/heavymetalindex/commit/f61cce5) | 2026-06-02 | audit: eu-2021-1323-cadmium-foodstuffs-amendment audited-revised |
+| [3ca5216](https://github.com/paleofoundation/heavymetalindex/commit/3ca5216) | 2026-06-02 | ingest: eu-2021-1323-cadmium-foodstuffs-amendment fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt |
+<!-- END: hmi-page-history -->

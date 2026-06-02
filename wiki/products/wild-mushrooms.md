@@ -12,7 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 1
+sources: 5
 updated: 2026-06-01
 ---
 
@@ -35,7 +35,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/hanc2021-amanita-muscaria-hg-se\|Hanc et al. 2021]]. *Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria*, Environmental Science and Pollution Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/leskova2024-transbaikal-wild-mushrooms-elements\|Leskova et al. 2024]]. *Content of some chemical elements in wild mushrooms of the Transbaikal Territory*, Innovations and Food Safety 3(45):75-83 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/keles2023-turkiye-wild-mushrooms-elements\|Keles et al. 2023]]. *Wild mushrooms from Eastern Black Sea Region (Turkiye): Element concentrations and their health risk assessment*, Anatolian Journal of Botany 7(1):50-59 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/hanc2021-amanita-muscaria-hg-se\|Hanc et al. 2021]]. *Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria*, Environmental Science and Pollution Research | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland\|Brzezicha-Cirocka et al. 2016]]. *Bio- and toxic elements in edible wild mushrooms from two regions of potentially different environmental conditions in eastern Poland*, Environmental Science and Pollution Research | 2016 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -45,5 +49,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [6c37981](https://github.com/paleofoundation/heavymetalindex/commit/6c37981) | 2026-06-02 | ingest auto-fetched 2026-06-01 21:52 batch 1: 23 source pages |
 <!-- END: hmi-page-history -->

@@ -119,5 +119,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [9156c44](https://github.com/paleofoundation/heavymetalindex/commit/9156c44) | 2026-06-01 | ingest: la-pera2010-sicily-olive-oil-metals-selenium [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

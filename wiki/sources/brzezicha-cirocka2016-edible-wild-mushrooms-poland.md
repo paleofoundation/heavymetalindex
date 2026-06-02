@@ -77,3 +77,13 @@ App: The source supports the existing wild-mushroom Cd concern, especially for B
 ## Verification notes
 
 The DOI, title, author list, journal, year, and open-access license were taken from the PDF first page and license statement. The PDF SHA-256 at ingest was `3cd39bcddd9479c5c348c7e630068352a9e36803461a57ba4dc53616544539ad`. Table 2 is the source of all transcribed Cd and Ag values. The source reports total Cd and total Ag by AAS; it does not report arsenic, mercury, lead, or chromium, and it does not speciate cadmium or silver. The paper contains a typo in the table species row as "Lecinum versipelle"; the source title, abstract, and surrounding text identify the species as Leccinum versipelle.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c393165](https://github.com/paleofoundation/heavymetalindex/commit/c393165) | 2026-06-02 | ingest auto-fetched 2026-06-02 01:05 batch 1: 1 source pages |
+<!-- END: hmi-page-history -->

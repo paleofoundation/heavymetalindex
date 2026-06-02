@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/feeding-accessories-child-sized",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4a667133a4003446a222042e7d90d7f43bcdfb17669d5e8b8cb17bdca6d008ab",
+      "content_sha256": "8ef817be9c92eb2eb2af582c6ba5d7a1a0e0f3189eef2e0780a45f54d08fc435",
       "content_bytes": 7524,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/feeding-accessories-child-sized.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/feeding-accessories-child-sized.md | sha256sum"
     }
   },
   "evidence_base": {

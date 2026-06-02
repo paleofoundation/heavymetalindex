@@ -87,7 +87,7 @@ used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 13
+sources: 14
 ---
 
 # Honey
@@ -203,11 +203,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 6 | [[sources/margaoan2024-bee-products-heavy-metals\|Margaoan et al. 2024]]. *Environmental pollution effect on honey bees and their derived products: a comprehensive analysis*, Environmental Science and Pollution Research | 2024 | Peer-reviewed | Pb, Cd, Hg, As, Cr, Ni occurrence in Review study; synthesizes literature on heavy metals and other contaminants in honey, pollen, beeswax, and other bee products;... |
 | 7 | [[sources/si2024-nanomaterial-detection-heavy-metals-food\|Si et al. 2024]]. *Research progress in the detection of trace heavy metal ions in food samples*, Frontiers in Chemistry | 2024 | Review | CN Pb, Cd, tHg, Cr-VI, Cu, Zn, Fe occurrence in Mini-review of nanomaterial-based analytical methods for trace heavy-metal detection in food samples; covers electrochemical, colorimetric, and fluorescence sensing... |
 | 8 | [[sources/zhang2024-mip-pb-honey-cyprus\|Zhang 2024]]. *Molecularly imprinted polymer electrochemical sensor for lead detection in honey*, unknown | 2024 | Peer-reviewed | MIP electrochemical sensor development and Pb validation in honey matrix (Cyprus context); analytical method paper, occurrence data require full-paper confirmation |
-| 9 | [[sources/sofyan2023-banana-steamed-cake-metals-indonesia\|Sofyan 2023]]. *Uji Cemaran Mikroba Dan Cemaran Logam Bolu Kukus Berbasis Pisang Ambon (Musa acuminta Colla) Sebagai Camilan Alternatif Pada Pasien Hipertensi*, JP: Jurnal Pharmacopoeia, 2(1): 23-32 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 10 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in honey (TDS Food 172; n=3 per analyte); all analytes at or near reporting limit |
-| 11 | [[sources/manouchehri2021-honey-heavy-metals-review\|Manouchehri et al. 2021]]. *The Possible Effects of Heavy Metals in Honey as Toxic and Carcinogenic Substances on Human Health: A Systematic Review*, Arı Dergisi / Uludag Bee Journal | 2021 | Review | Cross-country review of Pb, Cd, tHg, Cr, Ni, and Al in honey with bee uptake pathways and industrial-proximity contamination patterns |
-| 12 | [[sources/shukla2020-honey-prayagraj-metals\|Shukla et al. 2020]]. *Melissopalynological and physicochemical analysis of honey samples from Prayagraj District, Uttar Pradesh*, Acta Palaeobotanica | 2020 | Peer-reviewed | *[awaiting synthesis]* |
-| 13 | [[sources/aljedani2017-honeybee-honey-saudi-arabia\|Aljedani 2017]]. *Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia*, Entomology and Applied Science Letters | 2017 | Peer-reviewed | Pb, Cd, Cr, and Ni in Saudi Arabian honey from four agricultural regions, providing a clean rural-baseline reference distant from industrial sources |
+| 9 | [[sources/eu-2023-915-contaminants-maximum-levels\|EU 2023]]. *Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006*, Official Journal of the European Union | 2023 | Regulation | *[awaiting synthesis]* |
+| 10 | [[sources/sofyan2023-banana-steamed-cake-metals-indonesia\|Sofyan 2023]]. *Uji Cemaran Mikroba Dan Cemaran Logam Bolu Kukus Berbasis Pisang Ambon (Musa acuminta Colla) Sebagai Camilan Alternatif Pada Pasien Hipertensi*, JP: Jurnal Pharmacopoeia, 2(1): 23-32 | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 11 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Primary occurrence data for Pb, Cd, Ni, Cr, U, tAs, and tHg in honey (TDS Food 172; n=3 per analyte); all analytes at or near reporting limit |
+| 12 | [[sources/manouchehri2021-honey-heavy-metals-review\|Manouchehri et al. 2021]]. *The Possible Effects of Heavy Metals in Honey as Toxic and Carcinogenic Substances on Human Health: A Systematic Review*, Arı Dergisi / Uludag Bee Journal | 2021 | Review | Cross-country review of Pb, Cd, tHg, Cr, Ni, and Al in honey with bee uptake pathways and industrial-proximity contamination patterns |
+| 13 | [[sources/shukla2020-honey-prayagraj-metals\|Shukla et al. 2020]]. *Melissopalynological and physicochemical analysis of honey samples from Prayagraj District, Uttar Pradesh*, Acta Palaeobotanica | 2020 | Peer-reviewed | *[awaiting synthesis]* |
+| 14 | [[sources/aljedani2017-honeybee-honey-saudi-arabia\|Aljedani 2017]]. *Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia*, Entomology and Applied Science Letters | 2017 | Peer-reviewed | Pb, Cd, Cr, and Ni in Saudi Arabian honey from four agricultural regions, providing a clean rural-baseline reference distant from industrial sources |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -217,9 +218,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
 | [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
-| [6461a39](https://github.com/paleofoundation/heavymetalindex/commit/6461a39) | 2026-05-31 | codex sprint 2026-05-31 21:48: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

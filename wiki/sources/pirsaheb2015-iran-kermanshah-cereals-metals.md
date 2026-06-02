@@ -177,6 +177,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [0c00555](https://github.com/paleofoundation/heavymetalindex/commit/0c00555) | 2026-06-01 | audit: pirsaheb2015-iran-kermanshah-cereals-metals [revised] |
 | [c546ac0](https://github.com/paleofoundation/heavymetalindex/commit/c546ac0) | 2026-06-01 | ingest: pirsaheb2015-iran-kermanshah-cereals-metals [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

@@ -174,6 +174,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [331f16c](https://github.com/paleofoundation/heavymetalindex/commit/331f16c) | 2026-06-01 | audit: hsn2019-prop65-compliance-requirements revised |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [def063b](https://github.com/paleofoundation/heavymetalindex/commit/def063b) | 2026-06-01 | ingest: hsn2019-prop65-compliance-requirements [fresh] from Manual Fetch Kimi/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA |

@@ -196,6 +196,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [e59ea58](https://github.com/paleofoundation/heavymetalindex/commit/e59ea58) | 2026-06-01 | audit: sharafi2019-iran-tehran-rice-brands-metals promoted |
 | [08b94a9](https://github.com/paleofoundation/heavymetalindex/commit/08b94a9) | 2026-06-01 | ingest: sharafi2019-iran-tehran-rice-brands-metals fresh from Manual Fetch Kimi/June 1 |
 <!-- END: hmi-page-history -->

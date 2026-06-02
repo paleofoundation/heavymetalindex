@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/bleaching-whitening-additives",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "799abf0c65a0a15cee16662653a9fc580313bab260961a9ba59010686012cae2",
+      "content_sha256": "3de5c19e1dfa82ead0a92a5ed0ad49c7d9b9bcb01c7db129337f256efcd28cdc",
       "content_bytes": 7338,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/bleaching-whitening-additives.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/bleaching-whitening-additives.md | sha256sum"
     }
   },
   "evidence_base": {

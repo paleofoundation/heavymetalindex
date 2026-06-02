@@ -65,3 +65,14 @@ App: Supports a contaminated-soil context warning for spinach, with explicit dry
 - The paper's Figure 2 shows Cd accumulation by treatment and harvest time, but the PDF text extraction does not expose exact bar values. This page therefore records the source-stated 0.60-72.38 mg/kg dry-matter range and prose values rather than estimating from the graph.
 - Evidence fitness: controlled Cd soil-dose experiment in the Czech Republic. Route as spinach/leafy-vegetable Cd context; do not silently pool with retail-market spinach occurrence or US-market benchmark distributions.
 - The controlled pot experiment is recorded in `sample_population` and Verification notes rather than `matrices`; source-page `matrices` is limited to the physical leafy-vegetable matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eb580ee](https://github.com/paleofoundation/heavymetalindex/commit/eb580ee) | 2026-06-02 | audit revise spinach auto-fetched sources |
+| [3b13399](https://github.com/paleofoundation/heavymetalindex/commit/3b13399) | 2026-06-02 | ingest auto-fetched 2026-06-02 05:58 batch 1: 2 source pages |
+<!-- END: hmi-page-history -->

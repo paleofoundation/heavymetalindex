@@ -78,3 +78,14 @@ EFSA's Environmental Scanning and Strategic Options Definition process runs two 
 ## Verification notes
 
 - 2026-06-02 — Fresh-context audit subagent (verdict REVISE) flagged that the Figure 3 description omitted Hg from the heavy-metals dot label and placed the dot too centrally in the 33-66% band. Verified independently against p. 14 of the source PDF: the figure label is in fact "Heavy metals as As, Pb, Cd, Hg" (Mercury is bundled into the same dot) and the dot sits in the upper portion of the 33-66% band near the 66-90% boundary. Corrected the Figure 3 sentence accordingly.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [daa8e0b](https://github.com/paleofoundation/heavymetalindex/commit/daa8e0b) | 2026-06-02 | audit: efsa2024-emerging-chemical-risks-food-feed revised |
+| [d15ff93](https://github.com/paleofoundation/heavymetalindex/commit/d15ff93) | 2026-06-02 | ingest: efsa2024-emerging-chemical-risks-food-feed fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
+<!-- END: hmi-page-history -->

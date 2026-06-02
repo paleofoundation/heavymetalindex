@@ -75,3 +75,13 @@ The source strengthens wild-mushroom Cd, Ni, and Pb evidence with species-specif
 ## Verification notes
 
 Evidence Fitness: routeable for wild edible mushroom occurrence evidence on a dry-weight basis; not routeable for cultivated mushroom products, canned mushrooms, or fresh-weight standards without conversion. The PDF first page provides the title, authors, journal, year, DOI, and CC BY 4.0 license statement. The PDF SHA-256 at ingest was `a280dedba4f6eae67627687972c167f404f6206eafb236fcdd30af0ba80f8691`. The source reports total elemental concentrations and does not report arsenic, mercury, or chromium speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [92fd08b](https://github.com/paleofoundation/heavymetalindex/commit/92fd08b) | 2026-06-02 | ingest auto-fetched 2026-06-02 05:09 batch 1: 4 source pages |
+<!-- END: hmi-page-history -->

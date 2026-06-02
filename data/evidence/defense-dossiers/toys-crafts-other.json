@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/toys-crafts-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "e3f4507609025379806a67df820fee7bbe48fcef9cb04d095928af2c641db429",
+      "content_sha256": "d12939918b6a36aa55946ff2591483741fb8ec073477ce6e4438f3bbc60e7a69",
       "content_bytes": 7946,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/toys-crafts-other.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/toys-crafts-other.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/depa2015-cmr-toys",
         "content_pin": {
-          "content_sha256": "81b4f22da2de871a230fc441180e03ef12fc5c8842fe6c1300f9dc17939ac233",
-          "content_bytes": 40995,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "0c4ef5847b131d8a10c35774bee064b1d10d3197fcf2a99aae7e4a4e0663f032",
+          "content_bytes": 40875,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/depa2015-cmr-toys.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/depa2015-cmr-toys.md | sha256sum"
         }
       }
     ]

@@ -2,15 +2,15 @@
 source_page: wiki/products/toys-painted.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d28a4bf9c87f4b4d8a33b7d4bcc6d12f2b5e23da0936f4148b5a43c4d39a9ff3
+source_page_sha256: 6144c24f8413ca88bfd730eee74b09bf66c8a3e844f4cc6651b5c33e5b4d2cbb
 total_claims: 2
 cited_claims: 2
 uncited_claims: 0
-distinct_cited_targets: 22
-distinct_cited_sources: 22
+distinct_cited_targets: 23
+distinct_cited_sources: 23
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 591
+audit_log_total_rows: 611
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 2 |
 | cited claims | 2 |
 | uncited claims | 0 |
-| distinct cited targets | 22 |
-| distinct cited `sources/` pages | 22 |
+| distinct cited targets | 23 |
+| distinct cited `sources/` pages | 23 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 591 |
+| audit log rows read | 611 |
 
 ## Page-level audit rows
 
@@ -50,7 +50,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppm`
 - Context: `fety 2011]]. *Children's Products Containing Lead; Technological Feasibility of 100 ppm for Lead Content; Notice of Effe`
-- Cited targets (22):
+- Cited targets (23):
   - `wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2009-lead-cadmium-toys\.md` (page missing)
@@ -90,6 +90,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/seifi2026-iran-toys-pb-cr-hg\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sgs2009-canada-toy-coating-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ul2012-chemicals-childrens-toys\.md` (page missing)
     - audit rows: none
@@ -98,7 +100,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppm`
 - Context: `hnological Feasibility of 100 ppm for Lead Content; Notice of Effective Date of 100 ppm Lead Content Limit in Children's`
-- Cited targets (22):
+- Cited targets (23):
   - `wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bfr2009-lead-cadmium-toys\.md` (page missing)
@@ -138,6 +140,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/seifi2026-iran-toys-pb-cr-hg\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sgs2009-canada-toy-coating-heavy-metals\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\.md` (page missing)
     - audit rows: none
   - `wiki/sources/ul2012-chemicals-childrens-toys\.md` (page missing)
     - audit rows: none
@@ -172,6 +176,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/schade2010-toxic-toys-r-us-pvc\.md` | sources | 0 | — | — |
 | `wiki/sources/seifi2026-iran-toys-pb-cr-hg\.md` | sources | 0 | — | — |
 | `wiki/sources/sgs2009-canada-toy-coating-heavy-metals\.md` | sources | 0 | — | — |
+| `wiki/sources/trumbull2017-wa-childrens-seasonal-products-2014-2015\.md` | sources | 0 | — | — |
 | `wiki/sources/ul2012-chemicals-childrens-toys\.md` | sources | 0 | — | — |
 | `wiki/sources/villarreal2021-ic-icpms-cr-vi-toys\.md` | sources | 0 | — | — |
 

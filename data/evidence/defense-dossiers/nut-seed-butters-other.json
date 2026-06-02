@@ -21,16 +21,16 @@
     "canonical_url": "https://heavymetalindex.com/products/nut-seed-butters-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "250aaa1de43a0c68c6c2fa11b287661f3bbf7654484cc2bb24929a4a91bfb149",
-      "content_bytes": 10041,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "content_sha256": "2c73c605e9d735f63aa770d5c94142713ac2aea9e516af50bbf2363cd92f43f3",
+      "content_bytes": 10306,
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/nut-seed-butters-other.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/nut-seed-butters-other.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -49,12 +49,33 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/potorti2026-tahini-quality-safety-inorganic-elements",
         "content_pin": {
-          "content_sha256": "2888552e0ff8c73782b3609f2b746dc77567b1e7ad4cd391d7f36f2bf1d8869e",
+          "content_sha256": "a8b5b9fdb922e2938aa02cdf0da0fc040f025f60ca63903d6eb2f9972e84fd6d",
           "content_bytes": 10770,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/potorti2026-tahini-quality-safety-inorganic-elements.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/sadeghi2021-tahini-heavy-metals-voltammetry",
+        "title": "Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/sadeghi2021-tahini-heavy-metals-voltammetry",
+        "content_pin": {
+          "content_sha256": "de4c56737d9d6f04eee2da354427d9be4c2d96bd1337eba9e692df17ac502714",
+          "content_bytes": 14859,
+          "last_commit_sha": "bf39b5c",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show bf39b5c:wiki/sources/sadeghi2021-tahini-heavy-metals-voltammetry.md | sha256sum"
         }
       }
     ]

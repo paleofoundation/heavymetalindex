@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-02T06:37:36.131Z
+updated: 2026-06-02T07:03:39.972Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 2355 min ago (stale) |
+| Daemon heartbeat | ⚠️ 2381 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 17 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 19 |
-| Commits last 24 hours | 299 |
+| Commits last 1 hour | 15 |
+| Commits last 24 hours | 297 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-7fc69ba 21 seconds ago — triage sweep 2026-06-02 09:37: 0 rollups + 2 skips
+1e52d64 20 seconds ago — ingest: cfs2013-hktds-metallic-contaminants duplicate_filesystem_copies path from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared
 ```
 
 ## How to read this

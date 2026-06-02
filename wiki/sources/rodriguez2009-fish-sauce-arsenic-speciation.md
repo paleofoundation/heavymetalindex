@@ -160,3 +160,13 @@ Not appropriate for:
 - Future [[products/fish-sauce]] (does not yet exist; condiments-general is the current routing destination)
 - Future [[ingredients/fish-sauce]] (does not yet exist; fish + seafood are the current routing destinations)
 - Future [[ingredients/anchovy]] (does not yet exist; fish is the current routing destination)
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fb729e7](https://github.com/paleofoundation/heavymetalindex/commit/fb729e7) | 2026-06-02 | ingest: rodriguez2009-fish-sauce-arsenic-speciation fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
+<!-- END: hmi-page-history -->

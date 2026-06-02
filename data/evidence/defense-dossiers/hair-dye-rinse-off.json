@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/hair-dye-rinse-off",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5771f639e3ec5c88f2f71a239d1a2a5907a34dd20a65692e5a3c07df82184a01",
+      "content_sha256": "7c68584937c8b6f12ab5edf31c3b52da040d23432715a31c2405100a8e815a48",
       "content_bytes": 8444,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/hair-dye-rinse-off.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/hair-dye-rinse-off.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -42,12 +42,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/benabbes2021-morocco-hair-dyes-pb-cd",
         "content_pin": {
-          "content_sha256": "1444029aa6a0d5bfc78366459113aa8529799b7f6ad50549b097020eafa3f7e3",
+          "content_sha256": "2029241a31e53e8f001edc61d5602b9b2b1d07bf640920a380ae4abb8fd72441",
           "content_bytes": 21313,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md | sha256sum"
         }
       },
       {
@@ -60,12 +60,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "71224bf0e2f0ebb19b74ed18c7411f6db0960f7e1f5fc4fecd03df8c40a678b6",
-          "content_bytes": 30672,
-          "last_commit_sha": "6937864",
-          "last_commit_date": "2026-06-01",
+          "content_sha256": "12ac2697b7e4ed9df28677691dd078b1d637ea60ffab13e7d5971f47f3666f1c",
+          "content_bytes": 30819,
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 6937864:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       }
     ]

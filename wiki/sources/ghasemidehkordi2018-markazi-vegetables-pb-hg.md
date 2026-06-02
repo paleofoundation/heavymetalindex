@@ -182,6 +182,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [c63b031](https://github.com/paleofoundation/heavymetalindex/commit/c63b031) | 2026-06-01 | audit: ghasemidehkordi2018-markazi-vegetables-pb-hg [promoted] |
 | [f9fd799](https://github.com/paleofoundation/heavymetalindex/commit/f9fd799) | 2026-06-01 | ingest: ghasemidehkordi2018-markazi-vegetables-pb-hg [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

@@ -124,6 +124,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [ed28f05](https://github.com/paleofoundation/heavymetalindex/commit/ed28f05) | 2026-06-01 | audit: llorent-martinez2014-olive-oil-extraction-metals-fate [revised] |
 | [f602238](https://github.com/paleofoundation/heavymetalindex/commit/f602238) | 2026-06-01 | ingest: llorent-martinez2014-olive-oil-extraction-metals-fate [fresh] from Manual Fetch Kimi/June 1 |
 <!-- END: hmi-page-history -->

@@ -12,6 +12,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
+sources: 0
 updated: 2026-06-02
 ---
 
@@ -33,3 +34,13 @@ Sources routing to this page appear in `data/evidence/product_source_routing_aud
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5ee1765](https://github.com/paleofoundation/heavymetalindex/commit/5ee1765) | 2026-06-02 | codex sprint 2026-06-02 09:30: end-of-fire cleanup |
+<!-- END: hmi-page-history -->

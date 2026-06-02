@@ -242,3 +242,14 @@ For the California-Prop 65 regulatory-context surface, this report establishes t
 - CODEX. 2020. CX/CF 20/14/7. Proposed Draft Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans. 48 pp. Joint FAO/WHO Food Standards Programme.
 - Meter, A., et al. 2019. [referenced by the Committee as a prior-art source on Cd in cocoa].
 - Ramtahal, G., et al. 2022. [Surface application of hydrated lime / biochar / ZnSO₄ on field-grown cocoa, referenced by Chaney's affirmative conclusion].
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [beb2e42](https://github.com/paleofoundation/heavymetalindex/commit/beb2e42) | 2026-06-02 | audit: asyousow2022-expert-investigation-cocoa-chocolate-products promoted |
+| [635915a](https://github.com/paleofoundation/heavymetalindex/commit/635915a) | 2026-06-02 | ingest: asyousow2022-expert-investigation-cocoa-chocolate-products fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt |
+<!-- END: hmi-page-history -->

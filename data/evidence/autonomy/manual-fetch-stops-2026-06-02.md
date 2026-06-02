@@ -156,3 +156,29 @@ Per skill Phase 1 step 1: "Skip PDFs whose existing pages are post-2026-05-14 cl
 
 **Wrapper observation (not blocking):** mirrors the EU 2023/915 stop note immediately above. The manual-fetch wrapper's "next candidate" selection still does not consult sha256 dedup against either the canonical `raw_path` `sha256:` field or the new `duplicate_filesystem_copies` block. A wrapper enhancement that pre-filters candidate PDFs against both fields across `wiki/sources/*.md` would prevent further byte-identical duplicate ticks (this is the third Kimi-folder byte-identical duplicate encountered today: Codex CXS 193, EU 2023/915, and now FDA TDS FY2018-FY2020 Elements report — all three filed in `05_Snacks_Canned_Prepared` as cross-reference copies). Not in scope for this per-PDF skill cycle.
 
+
+## STOP: KADC_hongkong-cfs-1st-hktds-metallic-contaminants — byte-identical duplicate of already-ingested page
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/HongKong_CFS_1st_HKTDS_Metallic_Contaminants.pdf`
+
+**Suggested handle:** KADC_hongkong-cfs-1st-hktds-metallic-contaminants
+
+**Citation:** Centre for Food Safety, Food and Environmental Hygiene Department, Government of the Hong Kong SAR. *The First Hong Kong Total Diet Study: Metallic Contaminants* (Report No. 5 of the TDS series). January 2013.
+
+**Reason for stop:** Byte-identical duplicate of the canonical source page `wiki/sources/cfs2013-hktds-metallic-contaminants.md`. Three-axis identity-check evidence:
+
+- DOI: report has `no_doi_assigned: true` (HK government work, no DOI minted).
+- raw_handle / cite-key grep (`HongKong_CFS_1st_HKTDS`, `HKTDS`, `1st Hong Kong Total Diet Study`, `First Hong Kong Total Diet Study`): canonical page hit (`cfs2013-hktds-metallic-contaminants`) plus the inorganic-arsenic companion (`cfs2012-hktds-inorganic-arsenic`) and the unrelated baby-bottles page (`cfs2012-baby-bottles-tableware`); the two HKTDS reports form a near-duplicate pair already cross-linked via `near_duplicates`/`related_sources`. No other matches.
+- sha256 `f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c`: identical to the canonical raw_path PDF at `raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf`; now also recorded in the canonical page's new `duplicate_filesystem_copies` block (commit `1e52d64`).
+
+**Canonical-page state:**
+- `updated: 2026-06-02` (post-2026-05-14 clean threshold per skill Phase 1 step 1; bumped today by the metadata-only filesystem-copy enhancement; pre-bump value was 2026-05-20)
+- Not in `data/evidence/routing_unresolved.csv`
+- Not in `data/evidence/routing_malformed.csv`
+- Last full audit cycle: 2026-05-20 audit-subagent pass; verdict PROMOTE; three ⚠️ findings (Appendix I Table A item-level Al ranges) applied as a sourcing-clarification wording revision; the underlying numbers were verified correct against Tables 3.1, 4.1, 5.1, 6.1, 7.1, 8.1, 9.1, 10.1 and Appendix I Table A.
+
+Per skill Phase 1 step 1: "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." Both conditions are satisfied.
+
+**Action taken:** Metadata-only enhancement committed (`1e52d64`): added a `duplicate_filesystem_copies` block to the canonical page frontmatter recording the second filesystem path + sha256 + note, and appended a one-paragraph Verification-notes update describing the second-copy provenance. Schema-clean: the existing wikilink-form `near_duplicates` field (which holds the wikilink to the inorganic-arsenic companion source page) was preserved as-is; `duplicate_filesystem_copies` is a separate field for byte-identical filesystem copies of the same source file, with distinct semantics from `near_duplicates`. No claim, slug, value, exposure number, HMTc-firewall, or Key-numbers change. No audit subagent cycle spawned because no body or evidence-bearing frontmatter changed. No audit-queue.csv row appended for the same reason (the existing row already covers this cite-key with PROMOTE-applied status; appending a second row would double-count the audit verdict).
+
+**Wrapper observation (not blocking):** mirrors the Codex CXS 193, EU 2023/915, and FDA TDS FY2018-FY2020 stop notes above. The manual-fetch wrapper's "next candidate" selection still does not consult sha256 dedup against either the canonical `raw_path` `sha256:` field or the new `duplicate_filesystem_copies` block. This is now the fourth Kimi-folder byte-identical duplicate encountered today, all four filed in `condiments2_papers/05_Snacks_Canned_Prepared` as cross-reference copies. A wrapper enhancement that pre-filters candidate PDFs against both fields across `wiki/sources/*.md` would prevent further byte-identical duplicate ticks. Not in scope for this per-PDF skill cycle.

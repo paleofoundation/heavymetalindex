@@ -132,6 +132,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [0f2f5e5](https://github.com/paleofoundation/heavymetalindex/commit/0f2f5e5) | 2026-06-01 | audit: sallam2025-olive-oil-libya-traditional-modern [revised] |
 | [b152f23](https://github.com/paleofoundation/heavymetalindex/commit/b152f23) | 2026-06-01 | ingest: sallam2025-olive-oil-libya-traditional-modern [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

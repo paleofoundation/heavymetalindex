@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cashews",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "477cb2b501c7a23350c249cad1284e4b3ba698fd7ec8bdf1d313dd634811a775",
+      "content_sha256": "b0d3502632de55a107c70c3da1bc12dd208bf4bc36c086eb82031a9eb27a7fd3",
       "content_bytes": 12675,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/cashews.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/cashews.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alatise2025-fruit-nuts-metals",
         "content_pin": {
-          "content_sha256": "18eabef495718209cfeda2fb06cde1c74300e664257e41dbfea13d9b93bbe91f",
+          "content_sha256": "922a03ae2931eb9f94ce7b1e46d1b176d787d8fdfa5e597226d68ef04a9cdd95",
           "content_bytes": 3118,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/alatise2025-fruit-nuts-metals.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2022-nickel-dietary-intake-germany-meal",
         "content_pin": {
-          "content_sha256": "a395b210893aabb7de7c8c600432800229935e1fecfe2464050d5e0563338f24",
+          "content_sha256": "4d2fa33e52ea5c3fee3c9c74849e612e0b3fd75168452e94c7ec9a91a2cc931e",
           "content_bytes": 22998,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/bfr2022-nickel-dietary-intake-germany-meal.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/bfr2022-nickel-dietary-intake-germany-meal.md | sha256sum"
         }
       },
       {
@@ -93,12 +93,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
         "content_pin": {
-          "content_sha256": "313843f7b54263aed8546f4f718455d21876d539ca48da40b2f81298d6d9431b",
+          "content_sha256": "a146e89e5eedeaf186562e9860a775e1c83b738ebba92baf4965b9a449f253f1",
           "content_bytes": 5355,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
         }
       },
       {
@@ -116,12 +116,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland",
         "content_pin": {
-          "content_sha256": "157b51482acb622cc932a45741985410e6ed6899b3a59b8bbc41a7df512f2dee",
+          "content_sha256": "fe7d72b356cbbd8bca59907b6bdcdbdc78d0cd17a6c0524f2d57f0b39f5bf78c",
           "content_bytes": 5253,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/cwielagniec2025-nuts-cd-pb-cr-ni-poland.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany",
         "content_pin": {
-          "content_sha256": "e8be6305e0f9408adebcf2ad4d79361b5eed10170a5517634143039d8fceb570",
+          "content_sha256": "5ebe30a90321a4cb37de19c36300b3d893a11c387ba7c62e407f6e279a88f630",
           "content_bytes": 11656,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany.md | sha256sum"
         }
       },
       {
@@ -161,12 +161,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nkwocha2021-cashew-nuts-metals",
         "content_pin": {
-          "content_sha256": "f98ce9e79e82e02543c2e99f77ffc81e6e2267bd16fbfd4df7352d1168da2490",
+          "content_sha256": "9df40ffc7005e761c8e75f41841b51e5b60e7ca6d7382019c1cada6aac900e66",
           "content_bytes": 2769,
-          "last_commit_sha": "1c410cb",
-          "last_commit_date": "2026-06-01",
+          "last_commit_sha": "c3909aa",
+          "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 1c410cb:wiki/sources/nkwocha2021-cashew-nuts-metals.md | sha256sum"
+          "verify_command": "git show c3909aa:wiki/sources/nkwocha2021-cashew-nuts-metals.md | sha256sum"
         }
       }
     ]

@@ -151,5 +151,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [be866fe](https://github.com/paleofoundation/heavymetalindex/commit/be866fe) | 2026-06-01 | ingest: nourmoradi2013-iran-isfahan-cosmetics-pb-cd [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

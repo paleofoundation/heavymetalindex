@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/oral-irrigators-water-flossers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "35127289ac20f1e29a7ff87cf7389ba94002609139a1cf9e1bd98773475dcd40",
+      "content_sha256": "745246a61627fe56d9bc80a4f7357ad6afc1105450a4419b93ce47423c911bc7",
       "content_bytes": 9188,
-      "last_commit_sha": "1c410cb",
-      "last_commit_date": "2026-06-01",
+      "last_commit_sha": "c3909aa",
+      "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 1c410cb:wiki/products/oral-irrigators-water-flossers.md | sha256sum"
+      "verify_command": "git show c3909aa:wiki/products/oral-irrigators-water-flossers.md | sha256sum"
     }
   },
   "evidence_base": {

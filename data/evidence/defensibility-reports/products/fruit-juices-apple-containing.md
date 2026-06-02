@@ -2,7 +2,7 @@
 source_page: wiki/products/fruit-juices-apple-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9528c95a5fe1132392ccc5bff3c99e4a60ef3fafdf3a6ffc46c0545efc69eb24
+source_page_sha256: 44f0a7b6ca04b4505a171520c3d001bd72b5cf9e80f0dc2bffbb1358c1dd3122
 total_claims: 46
 cited_claims: 44
 uncited_claims: 2
@@ -10,7 +10,7 @@ distinct_cited_targets: 5
 distinct_cited_sources: 2
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 591
+audit_log_total_rows: 611
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 591 |
+| audit log rows read | 611 |
 
 ## Page-level audit rows
 

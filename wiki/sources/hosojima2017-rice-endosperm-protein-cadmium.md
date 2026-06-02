@@ -62,3 +62,14 @@ Microbiome: Not applicable.
 - Provenance: raw PDF path is preserved in frontmatter. SHA-256 checked during ingest: `51093cb633dcf907af519f858678b389c86b4e99e450a6ce8d118d09ff675bad`.
 - Matrix vocabulary: frontmatter uses existing broader matrix descriptors `rice-protein-powder` and `dietary-supplement`; the source-specific material is rice endosperm protein powder prepared for the trial.
 - License: the PDF states that the article is licensed under Creative Commons Attribution 4.0 International License.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [9749959](https://github.com/paleofoundation/heavymetalindex/commit/9749959) | 2026-06-02 | codex sprint 2026-06-02 04:35: end-of-fire cleanup |
+| [f182129](https://github.com/paleofoundation/heavymetalindex/commit/f182129) | 2026-06-02 | ingest auto-fetched 2026-06-02 00:16 batch 1: 1 source pages |
+<!-- END: hmi-page-history -->

@@ -92,3 +92,14 @@ The review notes that 21 CFR 114 "does not explicitly address physical and chemi
 - No brand-level metals data is reported in this paper; the brand names that do appear (Trini & Carmen's, Castleberry's, Komera Inc., Benny T's Vesta) are all in the context of public-record microbial / allergen recalls and are not abstracted to HMI ingredient or product pages.
 - Matrix slugs `hot-sauce` and `condiment` are established by corpus convention (used by `[[sources/bergerritchie2013-hot-sauce-lead]]` and 9 other source pages respectively). The taxonomy snapshot's illustrative matrix list is non-exhaustive; these slugs are accepted matrix vocabulary by convention.
 - Audit subagent (2026-06-02) returned PROMOTE with one ⚠️ on matrix-slug enumeration (false positive — slugs are corpus-established, see line above). All other four checks clean ✅.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [df071f7](https://github.com/paleofoundation/heavymetalindex/commit/df071f7) | 2026-06-02 | audit: pribil2025-hot-sauce-food-safety-review promoted-with-notes |
+| [bcd8955](https://github.com/paleofoundation/heavymetalindex/commit/bcd8955) | 2026-06-02 | ingest: pribil2025-hot-sauce-food-safety-review fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
+<!-- END: hmi-page-history -->
