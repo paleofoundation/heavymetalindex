@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-02T07:26:58.837Z
+updated: 2026-06-02T10:59:09.284Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -9,9 +9,9 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 ## Headline
 
-**1236 / 2660 cells done (46.5%)** — 1424 remaining
+**1236 / 2680 cells done (46.1%)** — 1444 remaining
 
-Velocity: **+0 cells in the last 51 min**
+Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 ## Cell state distribution
 
@@ -21,22 +21,22 @@ Velocity: **+0 cells in the last 51 min**
 | populated n=0 (declared gap) | 802 | ✅ done |
 | confidence: medium | 326 | ⏳ needs more sources |
 | confidence: low | 486 | ⏳ needs more sources |
-| pending / missing | 593 | 🔴 needs first research |
+| pending / missing | 613 | 🔴 needs first research |
 | other / unknown | 19 | 🟡 audit |
 
 ## Pipeline health
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 2405 min ago (stale) |
-| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ unknown |
+| auto-fetched/ PDFs in queue | 134 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
-| Wishlist: total downloaded historically | 17 |
+| Wishlist: total downloaded historically | 5 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 8 |
-| Commits last 24 hours | 295 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 38 |
+| Commits last 24 hours | 332 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: **+0 cells in the last 51 min**
 ## Last commit
 
 ```
-566c7b2 22 minutes ago — codex sprint 2026-06-02 10:03: end-of-fire cleanup
+69c750b 36 seconds ago — a11y: fix accessible names + invalid TOC aria-controls in header/nav components
 ```
 
 ## How to read this
