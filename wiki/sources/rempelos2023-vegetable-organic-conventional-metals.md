@@ -47,7 +47,7 @@ All toxic-metal values below are Table 10 main-effect means +/- SE in ug/kg fres
 | Onion bulbs | Ni | 37 +/- 2 | 35 +/- 2 | 38 +/- 2 | 34 +/- 2 |
 | Onion bulbs | Pb | 13.5 +/- 1.8 | 14.3 +/- 2.6 | 14.5 +/- 2.5 | 13.4 +/- 2.0 |
 
-Fertilization was the strongest agronomic toxic-metal lever in the ANOVA: mineral NPK fertilization increased Cd in all four crops and increased Ni in potato, cabbage, and onion. Reported relative Cd increases under NPK versus farmyard manure were 50% in potato, 46% in onion, 25% in lettuce, and 17% in cabbage. Pb was not significantly affected by crop protection, fertilization, or pre-crop.
+Fertilization was the strongest agronomic toxic-metal lever in the ANOVA: mineral NPK fertilization increased Cd in all four crops and increased Ni in potato, cabbage, and onion. Computed from the Table 10 main-effect means, mineral NPK raised Cd above farmyard manure by 63% in potato, 46% in onion, 25% in lettuce, and 17% in cabbage. Pb was not significantly affected by crop protection, fertilization, or pre-crop.
 
 ### Pre-crop contrast
 
@@ -99,3 +99,5 @@ App: Route to vegetable ingredient pages as UK fresh-weight occurrence context f
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/agronomy13051225`; no DOI conflict was observed. Brand and supplier names used for seed/transplant sources are omitted under the brand firewall. The source reports Cd, Ni, and Pb only; no arsenic, mercury, chromium, or aluminum concentrations are reported for harvested crops. All toxic-metal values are fresh-weight main-effect means from Table 10, not sample-level rows. Because the source does not publish individual concentration records in the PDF and states that data are available on reasonable request, `sample_n` is left null and the multi-year scope is described in `sample_population` and Methods.
+
+Merge-enhance pass 2026-06-02 (Claude): corrected the potato Cd NPK-vs-FYM relative increase from "50%" to "63%" (Table 10 means 39 vs 24 µg/kg fresh weight give a 62.5% rise above the FYM baseline; the prior figure did not match the reported numbers). Reworded the surrounding sentence from "Reported relative Cd increases" to "Computed from the Table 10 main-effect means" because Section 4.3 describes the NPK > FYM contrast qualitatively but does not state the per-crop percentages explicitly.
