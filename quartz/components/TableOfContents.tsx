@@ -84,7 +84,6 @@ export default ((opts?: Partial<Options>) => {
         <button
           type="button"
           class={fileData.collapseToc ? "collapsed toc-header" : "toc-header"}
-          aria-controls={id}
           aria-expanded={!fileData.collapseToc}
         >
           <h3>{i18n(cfg.locale).components.tableOfContents.title}</h3>

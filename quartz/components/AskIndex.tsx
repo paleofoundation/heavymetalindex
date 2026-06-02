@@ -9,7 +9,7 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     <div class={classNames(displayClass, "ask-index")}>
       <button type="button" class="ask-index-button" aria-haspopup="dialog" aria-expanded="false">
         <svg
-          role="img"
+          aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="18"
           height="18"
@@ -20,7 +20,6 @@ const AskIndex: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <title>Ask the Index</title>
           <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" />
           <path d="M8 9h8" />
           <path d="M8 13h5" />

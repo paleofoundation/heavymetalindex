@@ -81,6 +81,7 @@ export default ((userOpts?: Partial<Options>) => {
           class="explorer-toggle mobile-explorer hide-until-loaded"
           data-mobile={true}
           aria-controls={id}
+          aria-label={opts.title ?? i18n(cfg.locale).components.explorer.title}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -91,6 +92,7 @@ export default ((userOpts?: Partial<Options>) => {
             stroke-linecap="round"
             stroke-linejoin="round"
             class="lucide-menu"
+            aria-hidden="true"
           >
             <line x1="4" x2="20" y1="12" y2="12" />
             <line x1="4" x2="20" y1="6" y2="6" />
