@@ -2,7 +2,7 @@
 source_page: wiki/products/supplements-oral-liquids-droppers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8f804601210a6fa1ed0e35df85fa17bab4fb847825a3e2d98e88d33d7b31bc68
+source_page_sha256: f89412b130fbc9d1a9d8e73f49fa575acda569bb6b7ccbb5abbdce1dfd11e733
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 

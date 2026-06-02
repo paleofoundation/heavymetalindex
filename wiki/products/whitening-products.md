@@ -14,7 +14,7 @@ audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
 literature_scope: thin
-sources: 4
+sources: 5
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -106,10 +106,11 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/afridi2023-cosmetics-lead-dermatitis\|Afridi et al. 2023]]. *Effect of Lead on the Skin and Health of Female Dermatitis Patients Through Cosmetics*, Journal of Ayub Medical College Abbottabad | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 2 | [[sources/dauda2023-cosmetics-heavy-metals\|Dauda et al. 2023]]. *Harmful effects of heavy metals in cosmetics*, World Journal of Advanced Engineering Technology and Sciences | 2023 | Peer-reviewed | *[awaiting synthesis]* |
-| 3 | [[sources/alamgir2022-karachi-whitening-creams-metals\|Alamgir et al. 2022]]. *Quantitative Analysis of Heavy Metals in Unbranded Whitening Creams Sold in Karachi*, Pak-Euro Journal of Medical and Life Sciences | 2022 | Peer-reviewed | *[awaiting synthesis]* |
-| 4 | [[sources/agustina2021-whitening-creams-pb-cd\|Agustina et al. 2021]]. *Analysis of Lead (Pb) and Cadmium (Cd) in Whitening Creams using Atomic Absorption Spectroscopy*, Indonesian Journal of Chemistry and Environment | 2021 | Peer-reviewed | *[awaiting synthesis]* |
+| 1 | [[sources/oviri2024-nigeria-bathing-soaps-metals\|Oviri et al. 2024]]. *Assessment of the concentrations and human exposure to heavy metals in bathing soaps in Nigeria*, FUDMA Journal of Sciences 8(3 Special Issue): 422-430 | 2024 | Peer-reviewed | *[awaiting synthesis]* |
+| 2 | [[sources/afridi2023-cosmetics-lead-dermatitis\|Afridi et al. 2023]]. *Effect of Lead on the Skin and Health of Female Dermatitis Patients Through Cosmetics*, Journal of Ayub Medical College Abbottabad | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 3 | [[sources/dauda2023-cosmetics-heavy-metals\|Dauda et al. 2023]]. *Harmful effects of heavy metals in cosmetics*, World Journal of Advanced Engineering Technology and Sciences | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 4 | [[sources/alamgir2022-karachi-whitening-creams-metals\|Alamgir et al. 2022]]. *Quantitative Analysis of Heavy Metals in Unbranded Whitening Creams Sold in Karachi*, Pak-Euro Journal of Medical and Life Sciences | 2022 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/agustina2021-whitening-creams-pb-cd\|Agustina et al. 2021]]. *Analysis of Lead (Pb) and Cadmium (Cd) in Whitening Creams using Atomic Absorption Spectroscopy*, Indonesian Journal of Chemistry and Environment | 2021 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -119,9 +120,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
-| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

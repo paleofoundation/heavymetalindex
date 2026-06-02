@@ -168,6 +168,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [e0ed377](https://github.com/paleofoundation/heavymetalindex/commit/e0ed377) | 2026-06-02 | audit: waecology2024-interim-policy-lead-cosmetics promoted |
 | [a596229](https://github.com/paleofoundation/heavymetalindex/commit/a596229) | 2026-06-02 | ingest: waecology2024-interim-policy-lead-cosmetics fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |

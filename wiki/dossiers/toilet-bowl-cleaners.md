@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:da5c9da83fbcfdb0453f2be67e19a2c1…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:7868cdc95b2377f6b3b01ffbe9108bf8…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=toilet-bowl-cleaners&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/toilet-bowl-cleaners&download=1`.
 

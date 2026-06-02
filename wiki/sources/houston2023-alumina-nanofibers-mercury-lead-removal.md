@@ -86,3 +86,13 @@ Courses: Useful for distinguishing sorbent capacity, removal percentage, pH-depe
 ## Verification notes
 
 This page was built from the full PDF, including Table 1 comparator adsorbents, synthesis and adsorption methods, characterization sections, Figure 4 concentration-response discussion, Figure 5 pH response, Figure 6 contact-time results, Table 2 kinetic parameters, Figure 8 selectivity discussion, Figure 9 desorption discussion, conclusion, supplementary-materials note, and data-availability statement. Products and ingredients are intentionally empty because all measured concentrations come from controlled aqueous solutions. The source reports Hg(II) and Pb(II); this page preserves ion-state specificity in prose while using broad Hg and Pb frontmatter metals.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [46f2491](https://github.com/paleofoundation/heavymetalindex/commit/46f2491) | 2026-06-02 | ingest June 2: houston2023-alumina-nanofibers-mercury-lead-removal |
+<!-- END: hmi-page-history -->

@@ -83,3 +83,14 @@ Microbiome: Not addressed.
 - `matrices: [spices]` is used rather than a packaging-specific term or a basis label. The unpackaged retail sample frame and dry/as-sold spice basis are documented in the opening prose, Key numbers, and Methods sections.
 - The source reports `As` without species separation. This page uses `tAs` and links only to total arsenic, not inorganic arsenic.
 - The paper does not name consumer brands. It samples unpackaged spices from shops and markets, so no brand-firewall redaction is needed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [43efd96](https://github.com/paleofoundation/heavymetalindex/commit/43efd96) | 2026-06-02 | audit auto-fetched 2026-06-02: cumin spice source pages revised |
+| [e5206a4](https://github.com/paleofoundation/heavymetalindex/commit/e5206a4) | 2026-06-02 | ingest auto-fetched 2026-06-02: mercan-yucel2022-van-spices-heavy-metals |
+<!-- END: hmi-page-history -->

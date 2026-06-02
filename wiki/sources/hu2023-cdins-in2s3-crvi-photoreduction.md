@@ -77,3 +77,13 @@ App: Route to testing/remediation context and Cr(VI) metal context. Do not route
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/catal13050826`; no DOI conflict was observed. The Cr(VI) values are from a synthetic laboratory challenge solution, not natural water, food, or product occurrence. Cadmium appears as a component of the CdIn2S4 photocatalyst and in catalyst characterization; the paper does not report cadmium contamination in the treated water or in consumer goods.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [59e5a0c](https://github.com/paleofoundation/heavymetalindex/commit/59e5a0c) | 2026-06-02 | ingest June 2: hu2023-cdins-in2s3-crvi-photoreduction |
+<!-- END: hmi-page-history -->

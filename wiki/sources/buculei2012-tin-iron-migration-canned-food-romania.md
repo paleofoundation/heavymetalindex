@@ -130,3 +130,14 @@ Experimental design: four canned product types (peas, tomato paste, pork in own 
 - Wiki/HMTc firewall (Part 2): the Implications section reports the literature observation that tomato Sn migration reaches ~9–23 mg/kg at 36 months under the three varnish systems tested and notes the relationship to the Codex CXS 193-1995 ceilings without proposing an HMTc threshold value.
 - 2026-06-02 — Audit subagent (general-purpose) flagged Check 1 (numerical fidelity) with seven ⚠️ concerns on regression-equation digits in Figures 3, 4, 5, 6 where the subagent's read disagreed with the initial transcription. Re-read Figures 3 and 4 (PDF p. 3) and Figures 5 and 6 (PDF p. 3) at higher attention; the subagent was correct on six of seven and false-positive on one. Corrections applied: Figure 3 Tomato V1 Fe intercept 12.064 → 12.456; Figure 3 Tomato V3 Fe R² 0.9425 → 0.9725; Figure 4 Tomato V2 Sn equation 4.036·x − 4.503 → 4.426·x − 4.901 and R² 0.6595 → 0.7104; Figure 5 Pork V1 Fe R² 0.7794 → 0.7796; Figure 5 Pork V2 Fe intercept 11.127 → 10.127; Figure 6 Pork V1 Sn R² 0.6312 → 0.8327; Figure 6 Pork V2 Sn equation 0.215·x + 0.179 → 0.242·x + 0.179 and R² 0.8427 → 0.827. False positive (subagent uncertain, re-read confirmed original): Figure 8 Liver pate V2 Sn R² remains 0.93; the rendered figure label reads 0.93, not 0.63. Day-0 / day-1080 visual reads were not affected; the corrections are to the printed regression equations themselves, not to the plotted scatter points used for the endpoint approximations.
 - 2026-06-02 — Audit subagent Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) returned ✅. No changes required.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [87acb21](https://github.com/paleofoundation/heavymetalindex/commit/87acb21) | 2026-06-02 | audit: buculei2012-tin-iron-migration-canned-food-romania revised |
+| [f48a6e6](https://github.com/paleofoundation/heavymetalindex/commit/f48a6e6) | 2026-06-02 | ingest: buculei2012-tin-iron-migration-canned-food-romania fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
+<!-- END: hmi-page-history -->

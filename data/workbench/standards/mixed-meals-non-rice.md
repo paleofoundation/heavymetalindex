@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: mixed-meals-non-rice
 public_page: products/mixed-meals-non-rice
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Mixed meals, non-rice

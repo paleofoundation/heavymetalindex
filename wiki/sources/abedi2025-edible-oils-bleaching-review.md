@@ -140,3 +140,14 @@ App: No ingredient `contamination_profile` impact. The review contributes no con
 - `evidence_tier: B` reflects the review-of-reviews / narrative-review character of this source. `evidence_fitness: EF-4` (Context only) and `public_evidence_label: Context only` reflect that the source contributes no primary heavy-metal occurrence values.
 - 2026-06-02 fresh-context audit (general-purpose subagent) — verdict REVISE. Two ❌ findings on Check 1 numerical fidelity, both targeting the Silva et al. 2014 palm oil row in Section 2.4. Independent re-verification via `pdftotext -layout` extraction of page 8 resolves the exact source text as: *"Silva et al. (2014) reported a reduction in phosphorus (to 2.7 ± 0.1 mg/kg) and iron (to 0.2 ± 0.1 mg/kg) contents after bleaching crude palm oil with 3% acid-activated bleaching clay."* The "to" sits inside the parenthetical and specifies the post-bleaching final value, not a from→to range across crude/bleached; the ± is a real standard deviation. The original wiki page misread this as a from→to range between P (2.7) and Fe (0.2) values; the audit subagent misread it as a from-to range "2.7 to 0.1" / "0.2 to 0.1" within each element. Both readings were wrong. Corrected to the actual reading: P post-bleaching 2.7 ± 0.1 mg/kg; Fe post-bleaching 0.2 ± 0.1 mg/kg; pre-bleaching crude values are not quoted in this review. Consistent with Table 1's "phosphorus (<3 mg/kg) and iron (<0.3 mg/kg)" entries for the same Silva et al. 2014 row.
 - All other audit checks returned ✅ on substantive findings: slug vocabulary clean (Check 2), speciation and methods clean (Check 3), Part 12 brand firewall clean with Exception 2 correctly invoked for the bleaching-clay material names (Check 4), Part 2 wiki/HMTc firewall clean (Check 5). One minor ⚠️ on `matrices: edible-oil` (not in the standard matrices vocabulary but plausible as a parent of `vegetable-oil`) — retained without change pending matrices-vocabulary review.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [8944265](https://github.com/paleofoundation/heavymetalindex/commit/8944265) | 2026-06-02 | audit: abedi2025-edible-oils-bleaching-review revised |
+| [bfd34e4](https://github.com/paleofoundation/heavymetalindex/commit/bfd34e4) | 2026-06-02 | ingest: abedi2025-edible-oils-bleaching-review fresh from Manual Fetch Kimi /June 1 more |
+<!-- END: hmi-page-history -->

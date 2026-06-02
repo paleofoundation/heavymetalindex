@@ -121,3 +121,13 @@ Courses: Useful for teaching why sample matrix, exposure route, basis, and popul
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, sampling description, ICP-OES validation table, exposure equations, Tables 2-17, discussion, conclusions, supplementary-material note, and data-availability statement. Products and ingredients are intentionally empty because the source is an environmental child-exposure study. The paper repeatedly describes the third locality as Piekary Slaskie-Brzeziny, while the Table 7 footnote labels PS as Piekary Slaskie-Orzel Bialy; this page uses the abstract and methods locality name and treats the table-footnote wording as an internal location-label inconsistency.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3564f26](https://github.com/paleofoundation/heavymetalindex/commit/3564f26) | 2026-06-02 | ingest June 2: dziubanek2025-upper-silesia-child-soil-metals |
+<!-- END: hmi-page-history -->

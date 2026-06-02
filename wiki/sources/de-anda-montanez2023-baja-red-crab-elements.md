@@ -100,3 +100,14 @@ App: Route as shellfish and broader seafood context, with the Mexico Pacific coa
 The PDF has author attribution and DOI `10.3390/ani13050822`; no DOI conflict was observed. The source reports total element concentrations only; it does not speciate arsenic, chromium, or mercury (none of which were among the measured analytes). Pb is censored as below the 0.07 ug/g quantification limit in every reported group. Values on this page come from the PDF tables rather than the abstract. The table values are dry-weight whole-organism results; any wet-weight comparison would require an explicit conversion using the paper's moisture range (73.8-79.4%) and an audit trail.
 
 2026-06-02 merge-enhance: added instrument vendor and model identifiers (Mars 5x CEM microwave, GBS Scientific AVANTA AAS), reference material identifiers (TORT-2, DORM-2, DORM-4 from NRCC), and statistical-method summary, per the scientific-method vendor/material exception to the brand firewall. No numerical values changed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cd700b2](https://github.com/paleofoundation/heavymetalindex/commit/cd700b2) | 2026-06-02 | ingest: de-anda-montanez2023-baja-red-crab-elements enhanced from Manual Fetch Kimi/June 2 Manual Fetches |
+| [04eb973](https://github.com/paleofoundation/heavymetalindex/commit/04eb973) | 2026-06-02 | ingest June 2: de-anda-montanez2023-baja-red-crab-elements |
+<!-- END: hmi-page-history -->

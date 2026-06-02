@@ -17,18 +17,41 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-protein-collagen-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f9ca88af3a38457275efa6e1bee814a25141e4b987ee9ceae418e2f8b6251f46",
-      "content_bytes": 8010,
-      "last_commit_sha": "c3909aa",
+      "content_sha256": "7ba092550ed4aa75229bc5ae6a49ff094a3ede800a9ce424f6a3f878e4ee93d4",
+      "content_bytes": 8295,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/supplements-protein-collagen-powders.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/supplements-protein-collagen-powders.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 1,
+    "contributing_source_count": 2,
     "sources_with_structured_values": 0,
     "contributing_sources": [
+      {
+        "slug": "sources/cfia2020-toxic-metals-selected-foods-2018-19",
+        "title": "Toxic Metals in Selected Foods – April 1, 2018 to March 31, 2019: Food chemistry – Targeted surveys – Final report",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "tAs",
+          "Cd",
+          "Pb",
+          "tHg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/cfia2020-toxic-metals-selected-foods-2018-19",
+        "content_pin": {
+          "content_sha256": "835ae06f3e49cef069d15269ff999d1576331aa072c75396247654b69a441805",
+          "content_bytes": 10399,
+          "last_commit_sha": "ee7adcf",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show ee7adcf:wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md | sha256sum"
+        }
+      },
       {
         "slug": "sources/hosojima2017-rice-endosperm-protein-cadmium",
         "title": "A Randomized, Double-Blind, Crossover Pilot Trial of Rice Endosperm Protein Supplementation in Maintenance Hemodialysis Patients",
@@ -41,12 +64,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hosojima2017-rice-endosperm-protein-cadmium",
         "content_pin": {
-          "content_sha256": "398b35dab7a16dbf7c7e19bd4e1a218539b83dc07f18c0b30be7c41402f59dcf",
-          "content_bytes": 5041,
-          "last_commit_sha": "9749959",
+          "content_sha256": "99e901c9ebcce85a80eccdb5925fd9256218f534742eeaddce378d7f18eb6481",
+          "content_bytes": 5188,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9749959:wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md | sha256sum"
         }
       }
     ]

@@ -141,3 +141,13 @@ Courses: Useful for teaching why total sediment concentration, sequential extrac
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, study-area description, sampling method, aqua regia extraction method, sequential extraction method, RAC definition, Tables 1-3, Figures 1-8, Results sections 3.1-3.5, Conclusions, and data-availability statement. Products and ingredients are intentionally empty because no food, crop, ingredient, product, fish, or drinking-water sample was analyzed. Lead fraction results are not transcribed because the paper states that Pb was below detection limits in some sequential-extraction fractions and therefore does not present those fraction results.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fc42e25](https://github.com/paleofoundation/heavymetalindex/commit/fc42e25) | 2026-06-02 | ingest June 2: son2021-nakdong-weir-sediment-metals |
+<!-- END: hmi-page-history -->

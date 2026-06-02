@@ -140,9 +140,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [56d93c6](https://github.com/paleofoundation/heavymetalindex/commit/56d93c6) | 2026-06-01 | audit: ny-dec-tccp-2023-chem-pqls-draft revised |
-| [f9dd3ea](https://github.com/paleofoundation/heavymetalindex/commit/f9dd3ea) | 2026-06-01 | ingest: ny-dec-tccp-2023-chem-pqls-draft fresh from MFK/05_Regulatory_CPSIA_CPSC_FDA |
 <!-- END: hmi-page-history -->

@@ -81,3 +81,13 @@ App: Route to chitosan ingredient context and shellfish-derived additive context
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/app13053360`; no DOI conflict was observed. The source spells the crayfish genus as `Actacus` in the title/abstract/methods text; this page preserves that spelling rather than silently correcting it. The `RU` jurisdiction reflects the Russian laboratory and local-market sampling context; the PDF does not provide a more granular market location. Table 1 visually confirms that only Fe, Cr, and Ni are printed as numeric ICP-MS columns; Cd, Pb, Hg, and As are covered by text statements and pharmacopeial limits, not numeric concentration columns. The `chitosan` ingredient page was created as a provisional scaffold during this ingest because no existing ingredient slug covered purified chitosan/oligochitosan derivatives.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2b356c7](https://github.com/paleofoundation/heavymetalindex/commit/2b356c7) | 2026-06-02 | ingest June 2: bezrodnykh2023-crayfish-chitosan-residual-metals |
+<!-- END: hmi-page-history -->

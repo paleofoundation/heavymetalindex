@@ -111,3 +111,13 @@ Courses: Useful as a mechanistic example showing why adsorption-capacity numbers
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, Materials and Methods, Tables 1-4, Figures 3-7, conclusions, supplementary-materials note, and data-availability statement. Products and ingredients are intentionally empty because the study used laboratory-prepared Iris sibirica biochars and Cd(II)-spiked aqueous solutions, not food, ingredients, or consumer products.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [f536dfc](https://github.com/paleofoundation/heavymetalindex/commit/f536dfc) | 2026-06-02 | ingest June 2: li2025-iris-sibirica-biochar-cadmium |
+<!-- END: hmi-page-history -->

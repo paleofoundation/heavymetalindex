@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:3ab2678d8c2389ccc6f057a6b0dba5c9…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:58e0a61fdcc020bf181d5c84d61d072d…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=high-chairs-and-booster-seats&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/high-chairs-and-booster-seats&download=1`.
 

@@ -94,6 +94,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [48af3f3](https://github.com/paleofoundation/heavymetalindex/commit/48af3f3) | 2026-06-01 | audit: kjolholt2015-car-safety-seats-childrens-textiles [revised] |
 | [5148336](https://github.com/paleofoundation/heavymetalindex/commit/5148336) | 2026-06-01 | ingest: kjolholt2015-car-safety-seats-childrens-textiles [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats |

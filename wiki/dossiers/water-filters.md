@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:a6cb257e71faae58c587ab22fec7c88d…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:30fbce1f8630f4f0e305020e423ea4c5…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=water-filters&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/water-filters&download=1`.
 

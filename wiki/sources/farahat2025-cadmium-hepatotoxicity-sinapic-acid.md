@@ -90,3 +90,13 @@ App: Route to cadmium health context only. Do not translate the sinapic-acid int
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/biomedicines13051065`; no DOI conflict was observed. Figure 1 contains liver Cd bars and axis units but no printed numeric labels, so liver Cd concentrations are recorded as graph-read approximations and not treated as exact sample values. The study reports a cadmium chloride toxicology challenge, not food-chain Cd occurrence. The paper mentions sinapic acid as a plant-derived compound found in foods, but it does not measure metals in foods, ingredients, supplements, or consumer products.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d258d7b](https://github.com/paleofoundation/heavymetalindex/commit/d258d7b) | 2026-06-02 | ingest June 2: farahat2025-cadmium-hepatotoxicity-sinapic-acid |
+<!-- END: hmi-page-history -->

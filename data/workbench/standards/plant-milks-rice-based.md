@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: plant-milks-rice-based
 public_page: products/plant-milks-rice-based
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Plant milks, rice-based

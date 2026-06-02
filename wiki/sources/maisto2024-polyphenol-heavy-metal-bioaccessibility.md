@@ -97,3 +97,15 @@ The PDF has author attribution and DOI `10.3390/antiox13050610`; no DOI conflict
 Merge-enhance pass 2026-06-02: matrices field normalized from study-specific descriptors to neighbor-consistent vocabulary (standardized-water, in-vitro-digestion, polyphenol-formulation), aligning with related in-vitro bioaccessibility sources (liu2023-arsenic-seafood-digestion, de-paiva-2020-aluminium-infant-foods-bioaccessibility, nencioni2026-zeolite-cream-metal-adsorption). Empty products and ingredients arrays are correct: the source uses artificial standardized metal-spiked water, not a food, ingredient, or product sample, so routing-malformed advisory severity is the appropriate steady state for this page.
 
 Audit subagent (2026-06-02) flagged the calibration-range sentence as ambiguous; verified against Table 1 — only Cd uses the 0-10 ppb linear range while Hg, As, Cu, Pb, Sb, Zn, and Fe all use 0-20 ppb. Sentence rewritten to state ranges precisely.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [81ae93e](https://github.com/paleofoundation/heavymetalindex/commit/81ae93e) | 2026-06-02 | audit: maisto2024-polyphenol-heavy-metal-bioaccessibility promoted |
+| [7f30262](https://github.com/paleofoundation/heavymetalindex/commit/7f30262) | 2026-06-02 | ingest: maisto2024-polyphenol-heavy-metal-bioaccessibility enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
+| [657ade3](https://github.com/paleofoundation/heavymetalindex/commit/657ade3) | 2026-06-02 | ingest June 2: maisto2024-polyphenol-heavy-metal-bioaccessibility |
+<!-- END: hmi-page-history -->

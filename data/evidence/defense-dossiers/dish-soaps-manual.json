@@ -17,18 +17,42 @@
     "canonical_url": "https://heavymetalindex.com/products/dish-soaps-manual",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8b234ed893990ba5de36a53c7031cc68cc57562e28dafb9934cd55fce2e8558e",
-      "content_bytes": 7308,
-      "last_commit_sha": "c3909aa",
+      "content_sha256": "2351b0b927601121b44eaca9c48b7932be325eab3020a97d58066791d6c99097",
+      "content_bytes": 7912,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/dish-soaps-manual.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/dish-soaps-manual.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
+        "title": "Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Ni",
+          "Co",
+          "Cr",
+          "Cr-VI"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/ecetoc1992-tr045-ni-co-cr-consumer-products",
+        "content_pin": {
+          "content_sha256": "346ea13869cd274f66f4e4c4e776b3cba12307ae82dd1f82a6dccd3549d02fca",
+          "content_bytes": 28293,
+          "last_commit_sha": "c036da0",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show c036da0:wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

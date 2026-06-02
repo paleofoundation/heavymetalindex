@@ -78,3 +78,13 @@ Microbiome: Not addressed.
 - The source includes ginger, but no existing `wiki/ingredients/ginger.md` slug is present in this repo. Ginger is therefore documented in the body table but omitted from frontmatter ingredient routing.
 - Suran is mapped to the existing broad `[[ingredients/yam]]` slug. The source does not provide enough taxonomy detail in the frontmatter layer to create a more specific suran or elephant-foot-yam route during this fire.
 - Evidence Fitness: EF-2 for quantified Cu, Zn, and Fe in three plant materials; EF-3 screening context for Pb, Cr, Cd, and Ni because the paper reports ND without LOD/LOQ. The source should not be used as a distribution-capable benchmark source for Pb, Cr, Cd, or Ni.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [b0d7176](https://github.com/paleofoundation/heavymetalindex/commit/b0d7176) | 2026-06-02 | ingest auto-fetched 2026-06-02: patel2023-singrauli-herbal-plants-metals |
+<!-- END: hmi-page-history -->

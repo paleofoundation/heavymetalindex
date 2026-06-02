@@ -90,6 +90,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [ff65af5](https://github.com/paleofoundation/heavymetalindex/commit/ff65af5) | 2026-06-02 | audit: dordevic2019-aluminum-foil-culinary-baking-czech revised |
 | [4ae43f2](https://github.com/paleofoundation/heavymetalindex/commit/4ae43f2) | 2026-06-02 | ingest: dordevic2019-aluminum-foil-culinary-baking-czech fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/02_Honey_Syrups_Vinegar |
 <!-- END: hmi-page-history -->

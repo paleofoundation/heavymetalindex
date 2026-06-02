@@ -40,6 +40,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [c91a748](https://github.com/paleofoundation/heavymetalindex/commit/c91a748) | 2026-06-01 | gems: structured-data adapter + source registration (stage 1 of the GEMS path) |
 <!-- END: hmi-page-history -->

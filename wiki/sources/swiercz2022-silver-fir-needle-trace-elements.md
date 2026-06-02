@@ -96,3 +96,13 @@ Courses: Useful for explaining environmental bioindicators, historical-method co
 ## Verification notes
 
 The main source values are contained within the article. Table 3 gives extractable soil concentrations; Figures 2-5 show full needle concentration distributions, but the PDF text extraction exposes only the narrative maxima and trends, so this page does not estimate individual bar heights from the figures. The conclusion/abstract wording says Cd, Cu, Mn, and Zn in three-year-old needles showed a "significant increase" as an indicator, while the Results text states those same elements in three-year-old needles decreased from 1986 to 2018; this page records the explicit Results trend and flags the wording tension rather than deriving a new percent change.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3b7f1d3](https://github.com/paleofoundation/heavymetalindex/commit/3b7f1d3) | 2026-06-02 | ingest June 2: swiercz2022-silver-fir-needle-trace-elements |
+<!-- END: hmi-page-history -->

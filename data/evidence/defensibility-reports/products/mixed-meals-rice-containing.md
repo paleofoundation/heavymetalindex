@@ -2,15 +2,15 @@
 source_page: wiki/products/mixed-meals-rice-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 274d892bc0ad359c0d72e600f9bf15d787dfa01442bc245eaa51c52eb33fca29
+source_page_sha256: 56821f495b0782a45a0ac8d366a79c0a0c165cf5f31e61f3c9a518c190ff5375
 total_claims: 82
 cited_claims: 82
 uncited_claims: 0
-distinct_cited_targets: 30
-distinct_cited_sources: 24
+distinct_cited_targets: 31
+distinct_cited_sources: 25
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 82 |
 | cited claims | 82 |
 | uncited claims | 0 |
-| distinct cited targets | 30 |
-| distinct cited `sources/` pages | 24 |
+| distinct cited targets | 31 |
+| distinct cited `sources/` pages | 25 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -784,7 +784,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `8 ppb`
 - Context: `r-reviewed | Global scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exc`
-- Cited targets (17):
+- Cited targets (18):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -816,13 +816,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `48 ppb`
 - Context: `scoping review reporting rice/rice-mix baby foods median Pb 8 ppb and median As 48 ppb, with 31% exceeding the Pb maximu`
-- Cited targets (17):
+- Cited targets (18):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -854,13 +856,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 ppb`
 - Context: `ood rows, the most recent analytical dataset supporting the 2025 final guidance 10 ppb action level for mixtures | | 5 |`
-- Cited targets (17):
+- Cited targets (18):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -892,13 +896,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `100 ppb`
 - Context: `ren 0–6; canonical NGO/policy reference behind cost-benefit arguments for FDA's 100 ppb iAs action level on rice-cereal-`
-- Cited targets (17):
+- Cited targets (18):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -930,13 +936,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `6.45 µg/kg`
 - Context: `in 87 European rice products including baby-food rice, finding MeHg range 0.11-6.45 µg/kg; provides the mercury occurre`
-- Cited targets (17):
+- Cited targets (18):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -968,13 +976,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `9 ppb`
 - Context: `102048 | 2016 | Government report | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) fo`
-- Cited targets (17):
+- Cited targets (18):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1006,13 +1016,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 ppb`
 - Context: `6 | Government report | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) for UK other s`
-- Cited targets (17):
+- Cited targets (18):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1044,13 +1056,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `5 ppb`
 - Context: `rt | UK survey providing category-average iAs (7-9 ppb), Cd (10 ppb), and Pb (3-5 ppb) for UK other savoury infant foods`
-- Cited targets (17):
+- Cited targets (18):
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1082,6 +1096,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
@@ -1123,5 +1139,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 0 | — | — |
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |
+| `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
 

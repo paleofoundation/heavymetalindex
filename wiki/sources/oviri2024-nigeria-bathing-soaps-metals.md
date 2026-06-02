@@ -107,3 +107,13 @@ Microbiome: No microbiome data.
 - The wishlist filename routed this PDF through `whitening-products-cd-product`, but the current `[[products/whitening-products]]` slug is an oral-care tooth-whitening row. This PDF is about skin and bath soaps, so it is not routed to oral-care whitening products. The three skin-whitening soap samples are routed as context for the existing skin-lightening product/advisory surface.
 - Brand names listed in source Table 1 are intentionally omitted. The source page preserves anonymous sample IDs and category labels only, under CLAUDE.md Part 12 brand-firewall rules.
 - Evidence Fitness: EF-2 / routeable small-panel occurrence evidence for finished bathing soaps and skin-whitening soaps. Limitations: n=17 total, no LOD/LOQ reported, chromium not speciated, and sampling is local to one Nigerian market area.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6809e03](https://github.com/paleofoundation/heavymetalindex/commit/6809e03) | 2026-06-02 | ingest auto-fetched 2026-06-02 08:02 batch 1: 1 source page |
+<!-- END: hmi-page-history -->

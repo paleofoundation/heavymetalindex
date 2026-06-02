@@ -94,6 +94,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [2fd48f1](https://github.com/paleofoundation/heavymetalindex/commit/2fd48f1) | 2026-06-01 | audit: oecd2019-childrens-exposure-chemicals-products promoted |
 | [d3b1e7a](https://github.com/paleofoundation/heavymetalindex/commit/d3b1e7a) | 2026-06-01 | ingest: oecd2019-childrens-exposure-chemicals-products fresh from Manual Fetch Kimi/June 1/01_Exposure_Pathways |

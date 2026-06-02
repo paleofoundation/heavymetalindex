@@ -226,6 +226,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [f2b10ac](https://github.com/paleofoundation/heavymetalindex/commit/f2b10ac) | 2026-06-01 | audit: kopru2024-children-cosmetics-icpms [revised] |
 | [2db2c8e](https://github.com/paleofoundation/heavymetalindex/commit/2db2c8e) | 2026-06-01 | ingest: kopru2024-children-cosmetics-icpms [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen |

@@ -182,6 +182,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [694e2f8](https://github.com/paleofoundation/heavymetalindex/commit/694e2f8) | 2026-06-01 | audit: ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review [revised] |
 | [716fa81](https://github.com/paleofoundation/heavymetalindex/commit/716fa81) | 2026-06-01 | ingest: ruszkiewicz2017-sunscreen-uv-filter-neurotoxicity-review [fresh] from manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen |

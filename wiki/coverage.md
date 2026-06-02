@@ -32,22 +32,22 @@ The Cochrane-equivalent search-protocol publication — the 10 academic database
          │
          │  Papers from year ≥ 2020: 14,343
          ▼
-  Eligibility:    1336 source pages currently in wiki/sources/
+  Eligibility:    1421 source pages currently in wiki/sources/
          │
-         │    evidence_tier A: 1037
+         │    evidence_tier A: 1111
          │    evidence_tier A-tier: 1
-         │    evidence_tier B: 263
-         │    evidence_tier C: 33
+         │    evidence_tier B: 271
+         │    evidence_tier C: 36
          │    evidence_tier unknown: 2
          ▼
   Included:       Source pages routed to destination pages
          │
-         │  Routing rows in product_source_routing_audit.csv: 1716
+         │  Routing rows in product_source_routing_audit.csv: 1792
          ▼
   Synthesized:    Ingredient cells, product rows, metal pages, regulation pages
 ```
 
-**Of the 23,260 papers identified in the literature search, 1336 have been promoted to source pages — 5.7% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
+**Of the 23,260 papers identified in the literature search, 1421 have been promoted to source pages — 6.1% of the universe.** The remaining papers are tiered by priority (P1 HMT&C Path A candidates, P2 LOQ source candidates, P3 agency-affiliated, P4 high-evidence peer-reviewed 2020+, P5 everything else); ingest is in priority order per CLAUDE.md Part 11.
 
 This is a deliberately small fraction: depth over breadth. The defensibility argument is not 'we ingested 23,000 papers,' it is 'every wiki claim traces to a peer-reviewed source page whose values match the source PDF on audit.' The ingest pipeline is sized to maintain that property.
 
@@ -55,10 +55,10 @@ This is a deliberately small fraction: depth over breadth. The defensibility arg
 
 | Page type | Count |
 |---|---:|
-| Source pages | 1336 |
-| Ingredient profiles | 266 |
-| Product-category rows (total) | 359 |
-| Product-category rows (non-stub, has scaffold or content) | 133 |
+| Source pages | 1421 |
+| Ingredient profiles | 269 |
+| Product-category rows (total) | 360 |
+| Product-category rows (non-stub, has scaffold or content) | 134 |
 | Metal profiles | 36 |
 | Regulation pages | 57 |
 | Mitigation pages | 7 |

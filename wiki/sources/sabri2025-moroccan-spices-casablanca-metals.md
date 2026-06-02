@@ -129,5 +129,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [e0cf74f](https://github.com/paleofoundation/heavymetalindex/commit/e0cf74f) | 2026-06-02 | ingest: sabri2025-moroccan-spices-casablanca-metals fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt |
 <!-- END: hmi-page-history -->

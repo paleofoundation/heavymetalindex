@@ -87,3 +87,13 @@ Courses: Useful for teaching why a familiar food-derived material can be a remed
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, reagents and synthesis protocol, characterization methods, Table 1 textural properties, Figure 4 copper/iron removal kinetics, Table 2 methylene blue kinetic parameters, Table 3 dye-removal capacity and activation energy comparison, Figure 6 dose/pH/water/reuse results, XPS mechanism discussion, conclusions, and data-availability statement. The paper is internally inconsistent about iron species: the abstract and FeCl3.6H2O method identify Fe3+, while Section 3.2 and Figure 4 captions refer to Fe2+. The source page therefore uses broad Fe in frontmatter and notes the discrepancy rather than treating either label as resolved. Products and ingredients are intentionally empty because this is a coffee-waste remediation study, not a coffee-food occurrence study.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [29d9f50](https://github.com/paleofoundation/heavymetalindex/commit/29d9f50) | 2026-06-02 | ingest June 2: lin2025-coffee-waste-metal-dye-removal |
+<!-- END: hmi-page-history -->

@@ -104,3 +104,13 @@ Speciation: arsenic is reported as total arsenic; no inorganic/organic speciatio
 - Sample-collection year is inferred (2018) from the "Proceedings of the Summer Crash Course Programme 2018" framing; not source-stated. `sampling_year_range` left as `[2018, 2018]` with this caveat in Limitations.
 - No regulation slugs declared in `## Wiki pages this source may touch`: the Codex comparator the authors used is CXS 193-1995 (matches `regulations/codex-cxs-193-1995-tin-canned-foods` only in number, not in substance — that wiki regulation page is the tin-in-canned-foods standard, not the general contaminants standard, so adding it would be wrong). The current contaminants standard the paper actually references is the 2015 General Standard for Contaminants and Toxins in Food and Feed (Codex Stan 193-1995, rev. 2015); no current wiki regulation page covers this generally. Surfaced for future regulation-page proposal but not declared as a wikilink here.
 - Brand firewall: no brand names appear in the source paper. No redaction needed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7edbd28](https://github.com/paleofoundation/heavymetalindex/commit/7edbd28) | 2026-06-02 | ingest: shamsani2019-instant-noodles-heavy-metals-malaysia fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
+<!-- END: hmi-page-history -->

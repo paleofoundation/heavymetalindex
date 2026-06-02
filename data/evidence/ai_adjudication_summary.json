@@ -1,24 +1,27 @@
 {
-  "generated_at": "2026-06-01T03:02:20.201Z",
+  "generated_at": "2026-06-02T13:42:00.274Z",
   "product_filter": "all",
   "total_adjudication_rows": 83,
   "by_priority": {
-    "P1": 15,
-    "P2": 68
+    "P0": 4,
+    "P1": 14,
+    "P2": 65
   },
   "by_machine_task": {
+    "extract_local_source_to_structured_rows": 4,
     "discover_or_route_species_specific_source": 3,
-    "verify_pdf_provenance_before_extraction": 12,
-    "find_or_route_fit_product_evidence": 68
+    "retrieve_source_document_or_record_gap": 11,
+    "find_or_route_fit_product_evidence": 65
   },
   "by_aggregate_status": {
+    "BLOCKED: local extraction pending": 4,
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: PDF match review pending": 12,
-    "BLOCKED: no structured evidence loaded": 68
+    "BLOCKED: source document missing": 11,
+    "BLOCKED: no structured evidence loaded": 65
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 68,
-    "clean_p97_pooled": 15
+    "clean_p97_pooled": 15,
+    "independent_p97_pooled": 68
   },
   "public_claim_blockers": 83,
   "hmtc_threshold_blockers": 83,
@@ -26,87 +29,87 @@
   "top_adjudications": [
     {
       "adjudication_order": 1,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "leafy-vegetables-other",
+      "metal_species": "Cd"
+    },
+    {
+      "adjudication_order": 2,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "rice-snacks-crackers",
+      "metal_species": "Pb; Cd; iAs; tAs"
+    },
+    {
+      "adjudication_order": 3,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "teething-and-snacks-non-rice",
+      "metal_species": "Pb; Cd; iAs"
+    },
+    {
+      "adjudication_order": 4,
+      "priority": "P0",
+      "machine_task": "extract_local_source_to_structured_rows",
+      "product_slug": "true-tea-camellia-sinensis",
+      "metal_species": "Pb; Cd; Al"
+    },
+    {
+      "adjudication_order": 5,
       "priority": "P1",
       "machine_task": "discover_or_route_species_specific_source",
       "product_slug": "fish-containing-baby-foods",
       "metal_species": "MeHg"
     },
     {
-      "adjudication_order": 2,
+      "adjudication_order": 6,
       "priority": "P1",
       "machine_task": "discover_or_route_species_specific_source",
       "product_slug": "infant-formula-powder-non-soy",
       "metal_species": "MeHg"
     },
     {
-      "adjudication_order": 3,
+      "adjudication_order": 7,
       "priority": "P1",
       "machine_task": "discover_or_route_species_specific_source",
       "product_slug": "infant-formula-rtf-liquid-soy-based",
       "metal_species": "iAs"
     },
     {
-      "adjudication_order": 4,
+      "adjudication_order": 8,
       "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
+      "machine_task": "retrieve_source_document_or_record_gap",
       "product_slug": "cashews",
       "metal_species": "Pb; Cd; Ni"
     },
     {
-      "adjudication_order": 5,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "dried-fruit",
-      "metal_species": "tAs"
-    },
-    {
-      "adjudication_order": 6,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "fresh-fruit",
-      "metal_species": "tAs"
-    },
-    {
-      "adjudication_order": 7,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "infant-food-puree",
-      "metal_species": "Pb; Cd; iAs; tAs"
-    },
-    {
-      "adjudication_order": 8,
-      "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "infant-formula",
-      "metal_species": "Pb; Cd; iAs"
-    },
-    {
       "adjudication_order": 9,
       "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "infant-formula-dairy",
+      "machine_task": "retrieve_source_document_or_record_gap",
+      "product_slug": "dried-fruit",
       "metal_species": "tAs"
     },
     {
       "adjudication_order": 10,
       "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "infant-formula-dairy-free",
+      "machine_task": "retrieve_source_document_or_record_gap",
+      "product_slug": "fresh-fruit",
       "metal_species": "tAs"
     },
     {
       "adjudication_order": 11,
       "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "infant-rice-cereal",
-      "metal_species": "iAs"
+      "machine_task": "retrieve_source_document_or_record_gap",
+      "product_slug": "infant-food-puree",
+      "metal_species": "Pb; Cd; iAs; tAs"
     },
     {
       "adjudication_order": 12,
       "priority": "P1",
-      "machine_task": "verify_pdf_provenance_before_extraction",
-      "product_slug": "nuts-seeds-other",
-      "metal_species": "Pb; Cd; Ni"
+      "machine_task": "retrieve_source_document_or_record_gap",
+      "product_slug": "infant-formula",
+      "metal_species": "Pb; Cd; iAs"
     }
   ]
 }

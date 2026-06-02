@@ -113,3 +113,13 @@ Courses: Useful for teaching how plant tissue concentrations, enrichment coeffic
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, study-site description, Tables 1-3, Figures 1-5, sampling and ICP-MS methods, remediation equations, economic estimate, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source is a contaminated-field phytoremediation trial, not a market-sampled herbal, tea, or supplement occurrence study.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [88e5ac3](https://github.com/paleofoundation/heavymetalindex/commit/88e5ac3) | 2026-06-02 | ingest June 2: lu2025-chrysanthemum-cadmium-phytoremediation |
+<!-- END: hmi-page-history -->

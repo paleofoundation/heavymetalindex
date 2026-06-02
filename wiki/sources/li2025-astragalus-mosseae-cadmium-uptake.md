@@ -81,3 +81,13 @@ This page was built from the full PDF, including the experimental design, growth
 The layout extraction duplicated portions of the results section and produced one artifact reading of the Cu root-length effect as 621.12%; the raw text and second layout instance read 21.12%, which is retained here. The PDF's starting total-phosphorus unit is printed as 588.01 g/kg, which is implausible for soil and therefore noted but not used as a key evidence value.
 
 Speciation is not at issue for the reported Cd and Cu values. The study uses total cadmium and total copper in plant/soil matrices and does not report arsenic, mercury, or chromium species. No brand names are used for evidence routing; the seed supplier and instrument vendor are method/procurement context, not contamination-value brands.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [384f8e3](https://github.com/paleofoundation/heavymetalindex/commit/384f8e3) | 2026-06-02 | ingest June 2: li2025-astragalus-mosseae-cadmium-uptake |
+<!-- END: hmi-page-history -->

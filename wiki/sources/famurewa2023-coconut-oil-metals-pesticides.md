@@ -114,3 +114,13 @@ Microbiome: Not addressed.
 - `sample_n: 3` counts the three oil samples. The source separately reports triplicate determinations for the analytical measurements.
 - The source reports arsenic and mercury as elemental ICP-OES results without speciation; frontmatter therefore uses `tAs` and `tHg`, and the page does not route these values as inorganic arsenic or methylmercury.
 - The source compares values to FAO/WHO reference limits for oils but does not conduct a dietary exposure or health-risk assessment.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bbf4c32](https://github.com/paleofoundation/heavymetalindex/commit/bbf4c32) | 2026-06-02 | ingest June 2: famurewa2023-coconut-oil-metals-pesticides |
+<!-- END: hmi-page-history -->

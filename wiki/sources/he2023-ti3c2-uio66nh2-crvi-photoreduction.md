@@ -76,3 +76,13 @@ App: Route to Cr(VI), chromium, titanium/materials, and testing/remediation cont
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/catal13050876`; no DOI conflict was observed. The source reports synthetic potassium dichromate treatment experiments, not natural water, food, ingredient, or product concentrations. Titanium is part of the catalyst material, not a contaminant result.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [aea3747](https://github.com/paleofoundation/heavymetalindex/commit/aea3747) | 2026-06-02 | ingest June 2: he2023-ti3c2-uio66nh2-crvi-photoreduction |
+<!-- END: hmi-page-history -->

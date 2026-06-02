@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-vitamin-mineral",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "99d06e600fe4cb8782a6fcc5655ef1ecd15c9c6638325ad53ec7337eaf17e8d4",
+      "content_sha256": "4c45333fdbeda6957a21ec133539e6252d98297fee07c95fde6791a55266beab",
       "content_bytes": 8185,
-      "last_commit_sha": "c3909aa",
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/supplements-vitamin-mineral.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/supplements-vitamin-mineral.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sattler2016-bee-pollen-metals",
         "content_pin": {
-          "content_sha256": "0d33b1766d1e712949fcd85b019963f81a7253d0ad42d7d8819f76303609f1c3",
-          "content_bytes": 4153,
-          "last_commit_sha": "c3909aa",
+          "content_sha256": "32d8aac00b0aca6cab3c79161413b03bb8267e932c6784cb27925eda3cc24210",
+          "content_bytes": 4300,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/sattler2016-bee-pollen-metals.md | sha256sum"
         }
       }
     ]

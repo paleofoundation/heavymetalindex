@@ -97,3 +97,13 @@ The "food as sold" basis means powder protein and powder formula values cannot b
 - The "average" values in Tables 2 and 3 are computed only over quantifiable samples, not over all samples in the cell. This convention inflates means versus a standard left-censored arithmetic mean and is preserved verbatim in the Key numbers table; downstream synthesis passes should not treat these means as ND-inclusive arithmetic means.
 - Brand firewall: the survey reports values only at the product-category level (no brand names in the source PDF), so no brand redaction was required.
 - Speciation: arsenic and mercury are total-only in this report (no iAs/MeHg breakout). Chromium and tin were not measured.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ee7adcf](https://github.com/paleofoundation/heavymetalindex/commit/ee7adcf) | 2026-06-02 | ingest: cfia2020-toxic-metals-selected-foods-2018-19 fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
+<!-- END: hmi-page-history -->

@@ -105,3 +105,13 @@ App: Route as context for waste-derived soil amendments and soil-to-plant transf
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/app13053246`; no DOI conflict was observed. Names in the frontmatter are ASCII transliterations of the byline. The PDF labels the article type as "Review," and the tables cite prior literature rather than reporting new samples. Table 5's heading prints the ash dose as "t/h," while the surrounding text describes t/ha; this page uses t/ha and flags the source as secondary context. Table 1's unit column is blank for several minor elements, including Hg, Mn, B, and Se; this page treats them as part of the table's concentration context rather than as product-benchmark values. The review uses total elemental symbols without speciation; `tAs` and `tHg` in frontmatter mean unspecified total arsenic and total mercury, not inorganic arsenic or methylmercury.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0abe8c7](https://github.com/paleofoundation/heavymetalindex/commit/0abe8c7) | 2026-06-02 | ingest June 2: rusanescu2023-mswi-fly-ash-agriculture |
+<!-- END: hmi-page-history -->

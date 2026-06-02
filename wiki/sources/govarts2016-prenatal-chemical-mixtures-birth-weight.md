@@ -73,3 +73,13 @@ Courses: Useful for teaching the distinction between biomarker concentration, pr
 ## Verification notes
 
 This page was built from the full PDF, including the exposure-methods section, Table 1, Table 2, the single-pollutant regression results, the mixture-model results, and the conclusions. The source is primary data, but it is context-only for HMI product routing because all routeable concentration values are biological biomarkers. The authors note that cord-blood arsenic speciation was not available; this page therefore records the arsenic biomarker as total arsenic and does not infer inorganic arsenic.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [80e1469](https://github.com/paleofoundation/heavymetalindex/commit/80e1469) | 2026-06-02 | ingest June 2: govarts2016-prenatal-chemical-mixtures-birth-weight |
+<!-- END: hmi-page-history -->

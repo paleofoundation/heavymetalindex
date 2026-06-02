@@ -95,3 +95,13 @@ Courses: Useful for teaching arsenate speciation, pH/PZC effects, Freundlich ver
 ## Verification notes
 
 This page was built from the full PDF, including Table 1 comparator capacities, Table 2 BET properties, XRD/FTIR/zeta discussion, batch adsorption methods, Table 4 kinetic parameters, Table 5 Weber-Morris/Elovich parameters, Table 6 isotherm fits, Table 7 separation factors, pH and dosage figures, regeneration discussion, and the conclusion. The source tests As(V)/arsenate only; frontmatter uses the repo's broader inorganic-arsenic slug while this page preserves the pentavalent arsenic species in prose. Products and ingredients are intentionally empty because no food, ingredient, drinking-water field sample, or consumer-product matrix was sampled.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [96715ef](https://github.com/paleofoundation/heavymetalindex/commit/96715ef) | 2026-06-02 | ingest June 2: mehanathan2023-magnesium-oxide-arsenate-remediation |
+<!-- END: hmi-page-history -->

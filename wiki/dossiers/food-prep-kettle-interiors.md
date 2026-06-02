@@ -15,7 +15,7 @@ This page assembles the Heavy Metal Index evidence behind one product category i
 
 ## Cite this dossier as published
 
-The page this dossier summarizes is pinned at commit `c3909aa` (2026-06-02). The body hashes to `sha256:1c66018a6b81e3556f66bc3f9bb824cf…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
+The page this dossier summarizes is pinned at commit `566c7b2` (2026-06-02). The body hashes to `sha256:32a75aa8b81962ad2010161372dfb103…`. Any party can clone the repository at that commit, hash the named page, and confirm the match.
 
 Machine-verifiable downloads: the full per-category packet is at `/api/defense-dossier?slug=food-prep-kettle-interiors&download=1`, and the single-page evidence packet (with the Daubert attestation block) is at `/api/evidence-packet?slug=products/food-prep-kettle-interiors&download=1`.
 

@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/shellfish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c4838a384c5ff6162ca8eb7510c47f3c8752aa84d53bca2e25cfb52aa2058397",
-      "content_bytes": 14974,
-      "last_commit_sha": "c3909aa",
+      "content_sha256": "a5b041a3dce4f54bf84c7a9dcb3badc41a929049e633ccadab783d618f324667",
+      "content_bytes": 15287,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/shellfish.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/shellfish.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 18,
+    "contributing_source_count": 19,
     "sources_with_structured_values": 0,
     "contributing_sources": [
       {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bjerregaard2023-mercury-mussels-denmark",
         "content_pin": {
-          "content_sha256": "7dc7c911cf150cac54ccdc8a862ba9ebcf386c0f3ac27f81f263097a5723709b",
+          "content_sha256": "0d3f078055fbb60001463d86831a1c7d7b5eb010968811d287298ee2a9a795e1",
           "content_bytes": 5589,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/bjerregaard2023-mercury-mussels-denmark.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/bjerregaard2023-mercury-mussels-denmark.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bruno2024-metals-mussels-clams-faro-lake-sicily",
         "content_pin": {
-          "content_sha256": "78bddc7d7f058b98276a4dc7eba5922072214cdc20ffe1243d1906f782925119",
+          "content_sha256": "648ec2875385d5166f1d47aceeba2e12e1233c505e694a86625d6f1ec871e1c7",
           "content_bytes": 4752,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/bruno2024-metals-mussels-clams-faro-lake-sicily.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/bruno2024-metals-mussels-clams-faro-lake-sicily.md | sha256sum"
         }
       },
       {
@@ -86,12 +86,40 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2019-organotin-aquatic-hongkong",
         "content_pin": {
-          "content_sha256": "9bc2008bc390f65f37a804e7b0101b00aa702c4fbbb2bba6afd860d4952decd7",
+          "content_sha256": "3c3cfc74be9168abe84eccfc9c03a62b3a21324de9cc10b6bf669c526cf0288e",
           "content_bytes": 8200,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/cfs2019-organotin-aquatic-hongkong.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/cfs2019-organotin-aquatic-hongkong.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/de-anda-montanez2023-baja-red-crab-elements",
+        "title": "Spatial and Temporal Variability of Trace and Macro Elements in the Red Crab Pleuroncodes planipes in the Pacific Coast of the Baja California Peninsula, Mexico",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cd",
+          "Cu",
+          "Fe",
+          "Mn",
+          "Ni",
+          "Pb",
+          "Zn",
+          "Ca",
+          "Mg"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/de-anda-montanez2023-baja-red-crab-elements",
+        "content_pin": {
+          "content_sha256": "898cb177cf1a8e56ef1492165e3324645e2eccdf7e2eefd8e9f641b7ca1f442c",
+          "content_bytes": 8461,
+          "last_commit_sha": "cd700b2",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show cd700b2:wiki/sources/de-anda-montanez2023-baja-red-crab-elements.md | sha256sum"
         }
       },
       {
@@ -112,12 +140,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dibella2020-augusta-meat-milk-seafood-metals",
         "content_pin": {
-          "content_sha256": "40a13c6d7a2bc9a640d52ba3faa48f7e66c054c919586ffce4c1594024254b46",
+          "content_sha256": "27e60f373aeb48755ea394c024f1301fefec946e08e384d1a867116b256e9eba",
           "content_bytes": 4477,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md | sha256sum"
         }
       },
       {
@@ -149,12 +177,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/fera2015-uk-tds-metals",
         "content_pin": {
-          "content_sha256": "20dbd53243f6bab78d57cc0499fb0e8995bc7434b8c1ab36852edec71dd19a9a",
+          "content_sha256": "8a692a82c8f544a2639fd9e000bc48656207af058b1a154945fb0f9c23b6af99",
           "content_bytes": 10735,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/fera2015-uk-tds-metals.md | sha256sum"
         }
       },
       {
@@ -171,12 +199,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr",
         "content_pin": {
-          "content_sha256": "20845584db5425770e3becc7015ca936e4b03f35969d3743e4da0c5746e445af",
+          "content_sha256": "a46b4250d6a8b6eeb0b010a030396dcaa434063c6215fd72c9a1de4452280b54",
           "content_bytes": 17094,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/garofalo2025-seafood-cd-pb-hg-italy-10yr.md | sha256sum"
         }
       },
       {
@@ -198,12 +226,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gongora-gomez2017-oysters-gulf-california-metals",
         "content_pin": {
-          "content_sha256": "719da534648ff4c88dd9105d324d24c82699dc62d8be62c8c43100881262ff52",
+          "content_sha256": "26d7941d44f2c7d970dc65f3d502cc12b04e4ce98b9f60894df0ce8b03b366ff",
           "content_bytes": 2937,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/gongora-gomez2017-oysters-gulf-california-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/gongora-gomez2017-oysters-gulf-california-metals.md | sha256sum"
         }
       },
       {
@@ -225,12 +253,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gongora-gomez2018-pen-shell-seasonal-metals",
         "content_pin": {
-          "content_sha256": "7ecec41cc18f859dca84314a961e6a5fda008eea800db6fe5274e79bbfbcfc1b",
+          "content_sha256": "686374c5741cc61853b4924475287a097931b269d86c743141e4507636b8b043",
           "content_bytes": 3096,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/gongora-gomez2018-pen-shell-seasonal-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/gongora-gomez2018-pen-shell-seasonal-metals.md | sha256sum"
         }
       },
       {
@@ -246,12 +274,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hall2023-methylmercury-tidal-marsh",
         "content_pin": {
-          "content_sha256": "fd16fb9b856f7c177f33505157f04e39245767827873d175535412db45c74bbc",
+          "content_sha256": "ad61085eb19bb8f26c8972982691c5e03c5a6d31e724751dd1f68e91d94900ce",
           "content_bytes": 4496,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/hall2023-methylmercury-tidal-marsh.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/hall2023-methylmercury-tidal-marsh.md | sha256sum"
         }
       },
       {
@@ -267,12 +295,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/harding2018-bay-fundy-methylmercury",
         "content_pin": {
-          "content_sha256": "b4fe34964899694acbd763cd11dfdca5cffc03ecff85e673d460ec6509b16665",
+          "content_sha256": "0748c993e10a36d43e3e834a67687f43a8d5c9c342d64a602d6324079ecfe6b0",
           "content_bytes": 3077,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/harding2018-bay-fundy-methylmercury.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/harding2018-bay-fundy-methylmercury.md | sha256sum"
         }
       },
       {
@@ -288,12 +316,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/leclerc2023-methylmercury-periphyton-river",
         "content_pin": {
-          "content_sha256": "b805c758196502619393beed0d1f9f61af8b065705727bd101a67aa8d089ceac",
+          "content_sha256": "4b8f4c352b60f11299cb8d68a569ff455166178f5c39aa1eb259ad2072dea1ba",
           "content_bytes": 4384,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/leclerc2023-methylmercury-periphyton-river.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/leclerc2023-methylmercury-periphyton-river.md | sha256sum"
         }
       },
       {
@@ -312,12 +340,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang2019-beijing-foodstuffs-health-risk",
         "content_pin": {
-          "content_sha256": "8131016449545e8dad6c1ecb340d4e6d6043445ff5e39e0a41b9173b9acdbda2",
+          "content_sha256": "8b691400c4cf832a0d47eed9d422ea7e80caaffa871803818a5e1b3b48463f7a",
           "content_bytes": 9998,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/liang2019-beijing-foodstuffs-health-risk.md | sha256sum"
         }
       },
       {
@@ -336,12 +364,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/onyegeme-okerenta2023-shellfish-nigeria",
         "content_pin": {
-          "content_sha256": "d085decd3e5248c559948100548edec3c9d83f04321a0feecd6afa5eadd2c9ae",
+          "content_sha256": "d57bc1e7d315defc15a8105086d9562e44d4af52351af2fd28a745f99013dd74",
           "content_bytes": 4662,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/onyegeme-okerenta2023-shellfish-nigeria.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/onyegeme-okerenta2023-shellfish-nigeria.md | sha256sum"
         }
       },
       {
@@ -359,12 +387,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals",
         "content_pin": {
-          "content_sha256": "d5fec9d71bbe7cf628837761d20eab946fbdd74f0d40b3e6f22347e6d865d8e3",
+          "content_sha256": "146a489dfd68756d2609c609e42340f43f7258acc66f3758f67e2cc0fa8fbcd6",
           "content_bytes": 24440,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals.md | sha256sum"
         }
       },
       {
@@ -380,12 +408,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/raju2021-bivalves-cagayan-philippines",
         "content_pin": {
-          "content_sha256": "bf34b32d7097d6d7d36ad4d76549085f17c4992e9f24a44054a12c8a369d4c74",
+          "content_sha256": "c836a116b7fbd0aa38fa2e3c265d07d7be2fb55b75fc7d0448802d5695cccde0",
           "content_bytes": 5361,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/raju2021-bivalves-cagayan-philippines.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/raju2021-bivalves-cagayan-philippines.md | sha256sum"
         }
       },
       {
@@ -407,12 +435,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sepulveda2020-callista-clam-metals",
         "content_pin": {
-          "content_sha256": "07be40cf7c4076d528dfc03ffd1c642068aa95bff1e2674f9b5c43c1d14eb3e9",
+          "content_sha256": "5ee564aa17b4533e1cde81d48883efe2b74f45ae94de35a43293ea3abde4f443",
           "content_bytes": 3097,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/sepulveda2020-callista-clam-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/sepulveda2020-callista-clam-metals.md | sha256sum"
         }
       },
       {
@@ -432,12 +460,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shue2012-bivalves-tapeng-taiwan",
         "content_pin": {
-          "content_sha256": "2f3e910edf3177943659f83fce8c82719812092b76ced3f63cd3047c2d71124c",
+          "content_sha256": "0b5cae58bfea4dbce0324e82363a9ca6af84fb17bdc387d5a145dff7d95573a7",
           "content_bytes": 15408,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/shue2012-bivalves-tapeng-taiwan.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/shue2012-bivalves-tapeng-taiwan.md | sha256sum"
         }
       },
       {
@@ -455,12 +483,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/xu2025-heavy-metals-aquatic-foods-global",
         "content_pin": {
-          "content_sha256": "1aa1ba54c3f5e0cc55c42646d791786683b336eb508b468541e5a9645442cfe2",
+          "content_sha256": "e611451e556c6552b755ccdc3d6c184caf18b394f5fff4a28a2f891d0d64df7a",
           "content_bytes": 25763,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/xu2025-heavy-metals-aquatic-foods-global.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/xu2025-heavy-metals-aquatic-foods-global.md | sha256sum"
         }
       }
     ]

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: sports-energy-drinks
 public_page: products/sports-energy-drinks
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Sports/energy drinks

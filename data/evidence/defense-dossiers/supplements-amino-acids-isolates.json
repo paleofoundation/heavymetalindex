@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-amino-acids-isolates",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ad33c981c8f467b147d36938082377b392e832f12cde5347dc541eae97c4ff03",
+      "content_sha256": "565944cabbe1305b761d8fffb393d41fb7ab8353f60b2a20b3ce66935ae30459",
       "content_bytes": 7397,
-      "last_commit_sha": "c3909aa",
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/supplements-amino-acids-isolates.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/supplements-amino-acids-isolates.md | sha256sum"
     }
   },
   "evidence_base": {

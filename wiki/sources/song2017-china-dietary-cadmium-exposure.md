@@ -204,6 +204,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [9426986](https://github.com/paleofoundation/heavymetalindex/commit/9426986) | 2026-06-02 | audit: song2017-china-dietary-cadmium-exposure promoted-with-notes |
 | [1d3a63a](https://github.com/paleofoundation/heavymetalindex/commit/1d3a63a) | 2026-06-02 | ingest: song2017-china-dietary-cadmium-exposure fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
 <!-- END: hmi-page-history -->

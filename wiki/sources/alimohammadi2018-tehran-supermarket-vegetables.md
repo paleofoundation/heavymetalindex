@@ -120,6 +120,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [bff6681](https://github.com/paleofoundation/heavymetalindex/commit/bff6681) | 2026-06-01 | audit: alimohammadi2018-tehran-supermarket-vegetables [revised] |
 | [074f058](https://github.com/paleofoundation/heavymetalindex/commit/074f058) | 2026-06-01 | ingest: alimohammadi2018-tehran-supermarket-vegetables [fresh] from Manual Fetch Kimi /June 1 |

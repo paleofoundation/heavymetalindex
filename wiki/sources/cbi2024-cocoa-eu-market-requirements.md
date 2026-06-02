@@ -176,6 +176,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [56e4ad2](https://github.com/paleofoundation/heavymetalindex/commit/56e4ad2) | 2026-06-02 | audit: cbi2024-cocoa-eu-market-requirements audited-promote |
 | [fd52f3c](https://github.com/paleofoundation/heavymetalindex/commit/fd52f3c) | 2026-06-02 | ingest: cbi2024-cocoa-eu-market-requirements fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt |
 <!-- END: hmi-page-history -->

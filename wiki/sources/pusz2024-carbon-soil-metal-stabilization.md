@@ -152,3 +152,13 @@ Courses: Useful for teaching the difference between total soil metal concentrati
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, pot-experiment design, analytical methods, Tables 1-6, Figures 3-7, discussion, conclusions, and data-availability statement. A paper-internal inconsistency was noted: Table 2 reports SC control-soil totals as Cu 13.1, Pb 14.8, Zn 49.1, Cd 0.34, Cr 7.51, and Ni 12.4 mg/kg dry matter, while Section 3.2 states Cu 17.2, Pb 23.1, Zn 61.1, Cd 0.72, Cr 10.4, and Ni 15.9 mg/kg dry matter for SC. The table values are used in Key numbers because the table is the primary data display. Products and ingredients are intentionally empty because the source analyzes industrial soils, amendments, and a test plant grown in contaminated pots, not market foods or consumer products.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [61f0b46](https://github.com/paleofoundation/heavymetalindex/commit/61f0b46) | 2026-06-02 | ingest June 2: pusz2024-carbon-soil-metal-stabilization |
+<!-- END: hmi-page-history -->

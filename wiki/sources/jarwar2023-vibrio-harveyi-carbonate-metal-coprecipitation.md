@@ -82,3 +82,13 @@ Courses: Useful for teaching why remediation capacity, dissolved supernatant con
 ## Verification notes
 
 This page was built from the full PDF, including the isolation methods, metal-resistance screening, precipitation test design, Table 1 supernatant concentrations, XRD discussion, SEM/EDX sections for Cd, Cr, Pb, and Zn, the Pb ICP-AES note, controls, and conclusion. The paper's Table 1 prints day-10 Cr as 0.53 mg/L and 9.30% remaining; those two values are internally inconsistent with each other and with the prose statement that day-10 Cr was 15.5 times higher than day-2 Cr, so the table is preserved as printed rather than repaired. The source uses broad chromium notation in its results and does not provide a product-relevant chromium species split; route as chromium context only, not Cr(VI) occurrence evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6d13cb0](https://github.com/paleofoundation/heavymetalindex/commit/6d13cb0) | 2026-06-02 | ingest June 2: jarwar2023-vibrio-harveyi-carbonate-metal-coprecipitation |
+<!-- END: hmi-page-history -->

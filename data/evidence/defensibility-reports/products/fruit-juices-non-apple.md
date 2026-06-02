@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juices-non-apple.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 828618c2eec4f87b1870116aa575e80a23706d762d58f26203fccca8fea84d74
+source_page_sha256: 28d7c4c17dfc0da2f96bf61865e4c293261ffbb88e11d076098e00d0c12258e4
 total_claims: 25
 cited_claims: 25
 uncited_claims: 0
-distinct_cited_targets: 28
-distinct_cited_sources: 25
+distinct_cited_targets: 29
+distinct_cited_sources: 26
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 25 |
 | cited claims | 25 |
 | uncited claims | 0 |
-| distinct cited targets | 28 |
-| distinct cited `sources/` pages | 25 |
+| distinct cited targets | 29 |
+| distinct cited `sources/` pages | 26 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -320,7 +320,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `115 ppb`
 - Context: `te and other non-apple juices; highest-reporting pomegranate samples reached 91–115 ppb Pb; primary Pb occurrence source`
-- Cited targets (23):
+- Cited targets (24):
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
     - audit rows: none
   - `wiki/sources/balalimood2018-fruit-juice-mashhad-pb-as\.md` (page missing)
@@ -360,6 +360,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -401,6 +403,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` | sources | 0 | — | — |
 | `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` | sources | 0 | — | — |
+| `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/youssao2018-fruit-juices-syrup-benin\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |

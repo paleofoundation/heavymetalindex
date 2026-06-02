@@ -94,3 +94,13 @@ Courses: Useful for teaching condition optimization, membrane adsorbent design, 
 ## Verification notes
 
 This page was built from the full PDF, including Table 1 membrane recipes, SEM/FTIR/TGA characterization, Table 2 capacity comparison, Cu2+ and Pb2+ condition-optimization sections, Tables 3 and 4 time-fraction summaries, intraparticle-diffusion discussion, conclusion, and supplementary-materials note. The source reports Cu2+ and Pb2+ adsorption capacities in prepared aqueous systems only. Products and ingredients are intentionally empty because no food, ingredient, drinking-water field sample, or consumer-product matrix was sampled.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ad5622a](https://github.com/paleofoundation/heavymetalindex/commit/ad5622a) | 2026-06-02 | ingest June 2: wu2023-hybrid-membranes-lead-copper-adsorption |
+<!-- END: hmi-page-history -->

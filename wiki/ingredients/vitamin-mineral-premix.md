@@ -83,7 +83,7 @@ used_in_products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, infan
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
-sources: 0
+sources: 1
 ---
 
 # Vitamin Mineral Premix
@@ -115,9 +115,16 @@ This node is linked from [[products/baby-cereals-dry-non-rice]], [[products/baby
 
 The machine-readable contamination profile is `pending`. Ingredient-level values belong here once parsed; finished-product values belong on the relevant product-category page.
 
+<!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-No source pages are currently cited for this ingredient node.
+_Auto-generated from source-page frontmatter. The "Used on this page for" column is populated by the orchestrator's POPULATE-SOURCE-LEGEND action; pending entries appear as `*[awaiting synthesis]*`._
+
+| # | Citation | Year | Type | Used on this page for |
+| --- | --- | ---: | --- | --- |
+| 1 | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\|U.S. House of Representatives, 2021]]. *Baby Foods Are Tainted with Dangerous Levels of Arsenic, Lead, Cadmium, and Mercury*, Staff Report | 2021 | Gray literature | *[awaiting synthesis]* |
+<!-- END: hmi-source-legend -->
+
 ## Why this commodity accumulates heavy metals
 
 Vitamin-mineral premix is the fortification blend added to infant cereals, infant formulas, and many adult nutritional products to provide micronutrients at label-declared levels. It is a manufactured ingredient assembled from individual vitamin compounds and mineral salts (calcium phosphate, iron sulfate or iron pyrophosphate, zinc sulfate or zinc oxide, copper sulfate, sodium selenite, magnesium oxide, manganese sulfate, sodium molybdate, and others depending on the product specification). Heavy-metal contamination in the premix originates from the mineral-salt precursors: the calcium phosphate component carries trace [[metals/lead|Pb]] and [[metals/cadmium|Cd]] from the source phosphate rock (phosphate rock geology naturally contains co-mineralized Pb and Cd at variable levels depending on the deposit); the iron salts carry trace Pb and [[metals/nickel|Ni]] from the source iron-ore refining process; the magnesium and manganese salts carry trace [[metals/aluminum|Al]] and [[metals/chromium|Cr]] from refining-residue inheritance.
@@ -171,9 +178,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
-| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

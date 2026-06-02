@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-algae-seaweed-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d3df24efbd7c7daebb5b5bf401f4f5b653a55e21712342e36dea2e110e30a60c",
+      "content_sha256": "b40afed8c809206b3945f7d94d5c05e1a2a9c0ea11c0720cdc2796d228c9b324",
       "content_bytes": 9071,
-      "last_commit_sha": "c3909aa",
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/supplements-algae-seaweed-based.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/supplements-algae-seaweed-based.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/aziz2021-gracilaria-seaweed-bangladesh",
         "content_pin": {
-          "content_sha256": "70e22f472fef280dc4d7d61da7b0e8c3ef60c1232b118eee73e5589f9eb578d1",
+          "content_sha256": "2f8e15e2fe7a2efa31cde34de61e5bba98aea53ee6ed44f1a5d6615106fad03c",
           "content_bytes": 3483,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/aziz2021-gracilaria-seaweed-bangladesh.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/aziz2021-gracilaria-seaweed-bangladesh.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/razi-parjikolaei2016-red-macroalgae-metals",
         "content_pin": {
-          "content_sha256": "75cb7aa4dec758afe8328e950bd465f893d46baca17c6c5de222d3366491b9ec",
-          "content_bytes": 3818,
-          "last_commit_sha": "c3909aa",
+          "content_sha256": "d4da64d1fdbab8868ea18c8e6c72b0e62de98d0cb4ee5273fbb0c46656625095",
+          "content_bytes": 3965,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/razi-parjikolaei2016-red-macroalgae-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/razi-parjikolaei2016-red-macroalgae-metals.md | sha256sum"
         }
       },
       {
@@ -97,12 +97,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shaughnessy2023-sugar-kelp-new-england-metals",
         "content_pin": {
-          "content_sha256": "d05da639ee6572f250b0007308ab4d9029115bee633d1abbf503f4ff51ca5e75",
+          "content_sha256": "21e5710442f93d8ef5173464ae4c76cbd39f22486ee1ac845989a0c0282931b3",
           "content_bytes": 3941,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/shaughnessy2023-sugar-kelp-new-england-metals.md | sha256sum"
         }
       },
       {
@@ -120,12 +120,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sund2026-saccharina-pte-processing",
         "content_pin": {
-          "content_sha256": "efc5dcf8e31d09a45335f02d4e45f5e65bb7c8cff4b8269ce04457f4bf823e3b",
+          "content_sha256": "b9b0d5f91d0cd4bb602a3c3277c94ca00c21cb17791d99c56af11c5ffd7b2dd8",
           "content_bytes": 3817,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/sund2026-saccharina-pte-processing.md | sha256sum"
         }
       }
     ]

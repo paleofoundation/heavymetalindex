@@ -102,3 +102,13 @@ App: Route as soil-management context for cadmium, chromium, nickel, lead, coppe
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/agriculture13050968`; no DOI conflict was observed. The source reports soil concentrations only, even though maize was used as the pot-test crop. No food, ingredient, plant-tissue, grain, or product concentration row should be extracted from this paper. The soil-origin locality is not specified beyond the Polish research setting; `jurisdictions: [PL]` is used as the experimental jurisdiction, not a food-market jurisdiction. All table values above follow the source's mg/kg dry-matter basis; no wet/dry or as-sold conversion was performed.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [0d08bd6](https://github.com/paleofoundation/heavymetalindex/commit/0d08bd6) | 2026-06-02 | ingest June 2: wyszkowski2023-soils-nitrogen-humic-acids |
+<!-- END: hmi-page-history -->

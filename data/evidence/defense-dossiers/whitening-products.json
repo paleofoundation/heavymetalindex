@@ -17,16 +17,16 @@
     "canonical_url": "https://heavymetalindex.com/products/whitening-products",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "38ba8071c2592cd9347de85bdf206af57f8abc6ee09b97ef1d64951f0fccfd8d",
-      "content_bytes": 8684,
-      "last_commit_sha": "c3909aa",
+      "content_sha256": "83d85f48b146cd34911ce1eb5fe9550b044b6b4e9d53ec7bf9aa9a3023305c73",
+      "content_bytes": 8964,
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/whitening-products.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/whitening-products.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 4,
+    "contributing_source_count": 5,
     "sources_with_structured_values": 2,
     "contributing_sources": [
       {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/afridi2023-cosmetics-lead-dermatitis",
         "content_pin": {
-          "content_sha256": "a84ca070d52c644e8b0700f441b7eb547763a42f2026b2e3df40a835d9967fab",
-          "content_bytes": 3664,
-          "last_commit_sha": "c3909aa",
+          "content_sha256": "408737080e12e3f9dbfbe85a6a5a68f4acec412ba756b1dc7731d77df317bfeb",
+          "content_bytes": 3811,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/afridi2023-cosmetics-lead-dermatitis.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/afridi2023-cosmetics-lead-dermatitis.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/agustina2021-whitening-creams-pb-cd",
         "content_pin": {
-          "content_sha256": "af509b0021fe5e5b8db0be340682e88ac145917f3c6aec9038e2b5b9245cbcc1",
+          "content_sha256": "eec95546800d06015709450196f07428afd1d9cf01111d3ccde157e9f1f21dcd",
           "content_bytes": 3015,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/agustina2021-whitening-creams-pb-cd.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/agustina2021-whitening-creams-pb-cd.md | sha256sum"
         }
       },
       {
@@ -84,12 +84,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alamgir2022-karachi-whitening-creams-metals",
         "content_pin": {
-          "content_sha256": "8f7c18c4988fde78763a2cbd1338c75082aa6071acb0508129b87ac41a478fcd",
-          "content_bytes": 3249,
-          "last_commit_sha": "c3909aa",
+          "content_sha256": "f2dd522078abad502052d27bbcecc7feb9c39e97b6e3238df6fc4b0b1afc230f",
+          "content_bytes": 3396,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/alamgir2022-karachi-whitening-creams-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/alamgir2022-karachi-whitening-creams-metals.md | sha256sum"
         }
       },
       {
@@ -108,12 +108,37 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dauda2023-cosmetics-heavy-metals",
         "content_pin": {
-          "content_sha256": "b58554c43b820b9e56438e80d8efd94d84e517811066527ab7adb19e55759332",
+          "content_sha256": "0c5d1fdfe3629484a56fa3c565d7c1d524ef67231cc3f4674c6233ee3805c7a6",
           "content_bytes": 3815,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/dauda2023-cosmetics-heavy-metals.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/dauda2023-cosmetics-heavy-metals.md | sha256sum"
+        }
+      },
+      {
+        "slug": "sources/oviri2024-nigeria-bathing-soaps-metals",
+        "title": "Assessment of the concentrations and human exposure to heavy metals in bathing soaps in Nigeria",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Ni",
+          "Zn",
+          "Co",
+          "Cd",
+          "Cr"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/oviri2024-nigeria-bathing-soaps-metals",
+        "content_pin": {
+          "content_sha256": "d471753a87dacebb624903e8724b45cf44b8a2623d245656acaa22e27c240a97",
+          "content_bytes": 8006,
+          "last_commit_sha": "6809e03",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 6809e03:wiki/sources/oviri2024-nigeria-bathing-soaps-metals.md | sha256sum"
         }
       }
     ]

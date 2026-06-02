@@ -92,6 +92,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [a847427](https://github.com/paleofoundation/heavymetalindex/commit/a847427) | 2026-06-01 | audit: cpsc2012-cpsia-101b-functional-purpose-exception promoted |
 | [c806553](https://github.com/paleofoundation/heavymetalindex/commit/c806553) | 2026-06-01 | ingest: cpsc2012-cpsia-101b-functional-purpose-exception [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantcontact_05_Regulatory/05_Regulatory_CPSIA_CPSC_FDA |

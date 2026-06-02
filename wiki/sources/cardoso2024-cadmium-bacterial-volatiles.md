@@ -67,3 +67,13 @@ App: Keep as context for cadmium, microbiome, and soil-remediation narratives. D
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/antiox13050565`; no DOI conflict was observed. This source does not report food, product, ingredient, or field-soil Cd occurrence measurements. The primary concentration values are experimental Cd treatment concentrations: 100 uM Cd for growth/biochemical assays and 1 mM Cd for volatile profiling. The results are mainly figure-based rather than table-based; this page records the quantitative percentages and variance explained that are stated in the text and figure captions. The text reports two strains with significantly lower growth, seven not significantly influenced, and five significantly higher under Rhizobium volatile exposure, which sums to 14 despite the described 13-strain panel; this page preserves the named strain findings and flags the count mismatch for downstream audit.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3967806](https://github.com/paleofoundation/heavymetalindex/commit/3967806) | 2026-06-02 | ingest June 2: cardoso2024-cadmium-bacterial-volatiles |
+<!-- END: hmi-page-history -->

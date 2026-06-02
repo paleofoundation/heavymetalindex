@@ -115,3 +115,13 @@ Courses: Useful for teaching separation between environmental amendment data, so
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, wastewater-treatment and sludge-management background, Materials and Methods sections 2.1-2.3, Tables 1-5, Figures 1-7, Discussion, Conclusions, and data-availability statement. Products and ingredients are intentionally empty because no food, crop, ingredient, or consumer-product samples were analyzed. The PDF mentions Pb, Zn, Cd, and Hg as metals that can require monitoring in sewage-sludge programs, and Figure 1's EDX spectrum labels several elemental peaks, but the paper's routeable quantitative sludge/soil metal results are presented for Cr, Cu, and Ni. Figure 3 has unlabeled bars, and Figure 5 has map-legend bins rather than a site-level concentration table; those figure limitations are preserved here rather than inventing exact sludge or point-sample concentrations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4f31cc6](https://github.com/paleofoundation/heavymetalindex/commit/4f31cc6) | 2026-06-02 | ingest June 2: iticescu2021-sewage-sludge-agricultural-land |
+<!-- END: hmi-page-history -->

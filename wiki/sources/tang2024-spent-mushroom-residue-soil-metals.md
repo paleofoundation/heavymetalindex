@@ -101,3 +101,13 @@ Courses: Useful for teaching why agronomic yield trials must be separated from f
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, Table 1 yield values, Figure 1 soil-fertility summary, Figure 2 heavy-metal relative changes and RI index, Figure 3 correlations, field-design methods, Table 2 mushroom-residue properties and application rates, soil-sampling and analytical methods, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source measures soil metals and residue input metals only; it does not report rice-grain or wheat-grain metal concentrations. The PDF extraction duplicates some figure captions and the peer-review layout, so numeric values were checked against the raw text where possible.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fafca28](https://github.com/paleofoundation/heavymetalindex/commit/fafca28) | 2026-06-02 | ingest June 2: tang2024-spent-mushroom-residue-soil-metals |
+<!-- END: hmi-page-history -->

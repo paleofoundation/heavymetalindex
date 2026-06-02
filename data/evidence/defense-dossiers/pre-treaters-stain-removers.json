@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pre-treaters-stain-removers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "f462081c7170bf96de463e52fb003f4e2f6aba08dac522a606f01939070ef3af",
+      "content_sha256": "be06bf67d15c8af364c5b3a51a813de232140429971bf46e2087bc999312bb76",
       "content_bytes": 7515,
-      "last_commit_sha": "c3909aa",
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/pre-treaters-stain-removers.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/pre-treaters-stain-removers.md | sha256sum"
     }
   },
   "evidence_base": {

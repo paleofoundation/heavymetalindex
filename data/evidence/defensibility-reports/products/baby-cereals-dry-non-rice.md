@@ -2,15 +2,15 @@
 source_page: wiki/products/baby-cereals-dry-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e2782ef8aea3c51bd82327c7e5c992e224615f9ed76bd6ad1a443821180ba00e
+source_page_sha256: a83db8d941583c9e0e8e00d1d075b5f67b3bd7c382d52a79903e3a906b1b9e86
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0
-distinct_cited_targets: 50
-distinct_cited_sources: 44
+distinct_cited_targets: 51
+distinct_cited_sources: 45
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 125 |
 | cited claims | 125 |
 | uncited claims | 0 |
-| distinct cited targets | 50 |
-| distinct cited `sources/` pages | 44 |
+| distinct cited targets | 51 |
+| distinct cited `sources/` pages | 45 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -1058,7 +1058,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4 ppb`
 - Context: `dairy-free infant porridges by ICP-AES and Hg-AAS; all concentrations low (Pb 2–4 ppb wet weight, Cd <1–3 ppb) and withi`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1124,13 +1124,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `3 ppb`
 - Context: `ges by ICP-AES and Hg-AAS; all concentrations low (Pb 2–4 ppb wet weight, Cd <1–3 ppb) and within EU limits; contributes`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1196,13 +1198,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `0.013 mg/kg`
 - Context: `(75 studies, 580 baby foods); cereals highest Cd median among baby-food groups (0.013 mg/kg) with 17% exceedance rate; r`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1268,13 +1272,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `20 ppb`
 - Context: `am | 2025 | Government guidance | FDA final Closer to Zero guidance setting the 20 ppb Pb action level for dry infant ce`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1340,13 +1346,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `20 ppb`
 - Context: `all processed baby-food categories; guidance-basis empirical foundation for the 20 ppb dry-cereal action level applicabl`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1412,13 +1420,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `37.8 ppb`
 - Context: `d Hg in FY2009–FY2024 FDA dry infant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1484,13 +1494,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `8 ppb`
 - Context: `2024 FDA dry infant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb | | 9 | [[sources`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1556,13 +1568,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `27.4 ppb`
 - Context: `nfant cereals with no rice named (n=25); tAs p90 37.8 ppb, Pb p90 8 ppb, Cd p90 27.4 ppb | | 9 | [[sources/meli2024-chem`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1628,13 +1642,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `35.2 ppb`
 - Context: `in 111 Saudi baby food products (2020 NFMP); cereal-based meals (n=33) mean Pb 35.2 ppb and Cd 5.18 ppb dry weight; inc`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1700,13 +1716,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `5.18 ppb`
 - Context: `by food products (2020 NFMP); cereal-based meals (n=33) mean Pb 35.2 ppb and Cd 5.18 ppb dry weight; includes wheat-base`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1772,13 +1790,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `920 ppb`
 - Context: `flour-only composition (non-rice) routes to this row; corn-flour cereal Al mean 920 ppb, the lowest of all compositions`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1844,13 +1864,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `680 ppb`
 - Context: `rn-meal (n=10) categories; non-rice cereal-based context; cereal-based mean tAs 680 ppb notably elevated vs milk-based |`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1916,13 +1938,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `269 ppb`
 - Context: `rms food-matrix chromium is essentially Cr(III); total Cr breakfast-cereal mean 269 ppb; extends by mechanism to non-ric`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1988,13 +2012,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `20 ppb`
 - Context: `r cohort linking rice cereal to urinary As increase at weaning; cites iAs up to 20 ppb in mixed-cereal weaning foods and`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2060,13 +2086,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `49 ppb`
 - Context: `ease at weaning; cites iAs up to 20 ppb in mixed-cereal weaning foods and up to 49 ppb in mixed cereals as the non-rice`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2132,13 +2160,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `6 ppb`
 - Context: `ice infant cereals (n=30, oats/corn/wheat/multigrain with no rice); highest iAs 6 ppb; structured data extracted to `dat`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2204,13 +2234,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 ppb`
 - Context: `nt report | UK multi-metal category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 pp`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2276,13 +2308,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `6 ppb`
 - Context: `multi-metal category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2348,13 +2382,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `3 ppb`
 - Context: `al category-level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2420,13 +2456,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `1 ppb`
 - Context: `level survey; cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice status not i`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2492,13 +2530,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `127 ppb`
 - Context: `cereal-based infant foods tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Pb 0–1 ppb, Ni 124–127 ppb; rice status not isolated within`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2564,13 +2604,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `0.96 ppb`
 - Context: `/corn/oat); cereal-based group Cd significantly higher than milk-based (8.88 vs 0.96 ppb); rice/non-rice composition not`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2636,13 +2678,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 ppb`
 - Context: `Canadian baby-food samples (1975 market) including cereal category by AAS; LOD 10 ppb precludes modern percentile math;`
-- Cited targets (34):
+- Cited targets (35):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -2708,6 +2752,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
@@ -2841,5 +2887,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |
 | `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` | sources | 0 | — | — |
+| `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
 

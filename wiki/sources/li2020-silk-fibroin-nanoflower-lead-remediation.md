@@ -95,3 +95,13 @@ Courses: Useful for teaching adsorbent selectivity, pH/precipitation control, an
 ## Verification notes
 
 This page was built from the full PDF, including the self-assembly synthesis method, pH optimization section, adsorption kinetics, Table 2 kinetic parameters, Table 3 isotherm parameters, selectivity experiment, FTIR/zeta/XRD mechanism discussion, conclusion, and supplementary-materials note. The source is specific to Pb(II) adsorption, with Cd(II) and Ni(II) used for selectivity comparison. Products and ingredients are intentionally empty because no food, ingredient, drinking-water sample, or consumer-product matrix was sampled.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e17005e](https://github.com/paleofoundation/heavymetalindex/commit/e17005e) | 2026-06-02 | ingest June 2: li2020-silk-fibroin-nanoflower-lead-remediation |
+<!-- END: hmi-page-history -->

@@ -121,3 +121,14 @@ The PDF has author attribution and DOI `10.3390/agronomy13051282`; no DOI confli
 Source-internal K_L unit inconsistency: Table 2 header reports K_L in L/kg, while the Methods equation glossary (Equation 1) labels K_L as mg/L. The wiki tables reproduce the K_L numeric values but do not assert a unit, since the source itself is inconsistent.
 
 Audit subagent 2026-06-02 flagged Table 1 column header "C=O / -COO in C 1s (%)" as misleading — verified against PDF Table 1 (C 1s panel has columns C=C, C-C, C-O, -COO, π-π only; C=O appears only in O 1s deconvolution); corrected header to "-COO in C 1s (%)". Audit also flagged `[[supply-chain/soil-to-plant-transfer]]` as a slug outside the taxonomy snapshot — verified against `wiki/supply-chain/soil-to-plant-transfer.md`; finding was a false positive because the snapshot enumerates only ingredients/products/metals/regulations and `supply-chain/` is its own valid directory.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [97161e6](https://github.com/paleofoundation/heavymetalindex/commit/97161e6) | 2026-06-02 | audit: zhao2023-rice-straw-biochar-copper-lead-sorption revised |
+| [1f103c5](https://github.com/paleofoundation/heavymetalindex/commit/1f103c5) | 2026-06-02 | ingest June 2: zhao2023-rice-straw-biochar-copper-lead-sorption |
+<!-- END: hmi-page-history -->

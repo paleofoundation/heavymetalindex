@@ -264,6 +264,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [df568bd](https://github.com/paleofoundation/heavymetalindex/commit/df568bd) | 2026-06-01 | audit: echa2023-cmr-childcare-articles [revised] |
 | [b502f16](https://github.com/paleofoundation/heavymetalindex/commit/b502f16) | 2026-06-01 | ingest: echa2023-cmr-childcare-articles [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_03_Carriers_HighChairs_CarSeats/03_Carriers_HighChairs_CarSeats |

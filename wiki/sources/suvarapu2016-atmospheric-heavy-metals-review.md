@@ -148,3 +148,14 @@ Filter materials catalogued: quartz fibre filter (QFF), glass fibre filter (GFF)
 - [[metals/manganese]]
 - [[metals/vanadium]]
 - [[metals/cobalt]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c8a0328](https://github.com/paleofoundation/heavymetalindex/commit/c8a0328) | 2026-06-02 | audit: suvarapu2016-atmospheric-heavy-metals-review promoted |
+| [41749ed](https://github.com/paleofoundation/heavymetalindex/commit/41749ed) | 2026-06-02 | synthesis: fix page identity + relocate internal ingest-tracking off public index |
+<!-- END: hmi-page-history -->

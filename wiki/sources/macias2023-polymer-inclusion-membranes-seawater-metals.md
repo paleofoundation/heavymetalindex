@@ -93,3 +93,13 @@ Courses: Useful for teaching the distinction between occurrence data and separat
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, seawater-matrix description, transport-cell methods, Table 2 selectivity design, Table 3 Cd(II) membrane optimization, Pb(II) plasticizer selection, NaCl and pH effects, separation-factor discussion for commercial Gulf of California and Tecolutla seawater matrices, stability/preconcentration discussion, FTIR stability tables, and the conclusion. Brand names for commercial seawater and analytical materials are intentionally omitted under the brand firewall. Products and ingredients are intentionally empty because no food, ingredient, drinking-water field sample, or consumer-product matrix was sampled.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cadcfb2](https://github.com/paleofoundation/heavymetalindex/commit/cadcfb2) | 2026-06-02 | ingest June 2: macias2023-polymer-inclusion-membranes-seawater-metals |
+<!-- END: hmi-page-history -->

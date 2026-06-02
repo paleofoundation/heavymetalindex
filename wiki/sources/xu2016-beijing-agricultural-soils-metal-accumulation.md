@@ -80,3 +80,13 @@ Courses: Useful for teaching matrix fit, dry-weight soil basis, total-metal dige
 ## Verification notes
 
 This page was built from the full PDF, including the sampling and metals-analysis methods, Table 1, Table 4, land-use results, MANOVA discussion, and conclusion. The objective statement mentions chromium, but the reported descriptive tables, result narrative, and conclusion summarize As, Cd, Cu, Hg, Ni, Pb, and Zn only; this page therefore does not invent chromium values. Arsenic and mercury are total digestion/element measures, not species-specific iAs or methylmercury. No crop, food, ingredient, product, or brand concentration data are reported.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3b061de](https://github.com/paleofoundation/heavymetalindex/commit/3b061de) | 2026-06-02 | ingest June 2: xu2016-beijing-agricultural-soils-metal-accumulation |
+<!-- END: hmi-page-history -->

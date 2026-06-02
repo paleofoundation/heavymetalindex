@@ -121,3 +121,14 @@ Microbiome: Not addressed beyond the noted role of trace elements (Mn, Fe, Ca, M
 - No brand names are reported in the review; method/instrument vendor names are not referenced in detail in this review either, so no Part 12 firewall calls were required during ingest.
 - Audit subagent (2026-06-02) flagged Table 4 citation-value pairings on PV, Fe, Cu rows where values had been re-sorted low-to-high but cited-source columns left in source-publication order. Independently verified against source p. 203; the audit was correct. Same issue extended to the FFA row (audit did not flag but it had the same defect). All four rows corrected so that the value order matches the citation order as printed in source Table 4 (Kheang 2013; Moshi 2017; Kheang 2006; Huang & Chang 2010 left-to-right). Phosphorus, beta-carotene, and total vitamin E rows were already correctly paired and were not changed.
 - Audit subagent (2026-06-02) flagged the "(Loh et al. 2015)" attribution on the 1.5-2.0 Mt SBE / 128.2 Mt cooking-oil figure as over-specified. Independently verified against source p. 191; the global tonnage figure is printed in the review text without an immediate in-text citation, while the adjacent Loh et al. 2015 cite anchors specifically to the Malaysia 170,000-tonne figure. The Key numbers process-context bullet was corrected to attribute the global figure to the review text (unattributed in source) and to attach Loh et al. 2015 only to the Malaysia-specific number.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [3d4b648](https://github.com/paleofoundation/heavymetalindex/commit/3d4b648) | 2026-06-02 | audit: sigauke2024-spent-bleaching-earth-review revised |
+| [17f97d0](https://github.com/paleofoundation/heavymetalindex/commit/17f97d0) | 2026-06-02 | ingest: sigauke2024-spent-bleaching-earth-review fresh from Manual Fetch Kimi/June 1 more |
+<!-- END: hmi-page-history -->

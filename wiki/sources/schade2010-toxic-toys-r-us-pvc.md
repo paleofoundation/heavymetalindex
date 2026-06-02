@@ -209,6 +209,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [4a7d5be](https://github.com/paleofoundation/heavymetalindex/commit/4a7d5be) | 2026-06-01 | audit: schade2010-toxic-toys-r-us-pvc [revised] |
 | [de50e8a](https://github.com/paleofoundation/heavymetalindex/commit/de50e8a) | 2026-06-01 | ingest: schade2010-toxic-toys-r-us-pvc [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_01_Cribs_Bassinets_Enclosures/01_Cribs_Bassinets_Enclosures |

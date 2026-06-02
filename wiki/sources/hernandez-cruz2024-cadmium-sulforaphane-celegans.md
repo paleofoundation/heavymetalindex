@@ -88,3 +88,15 @@ Merge-enhance 2026-06-02 (Claude Opus 4.7): corrected the first LC50 95% confide
 Matrix-slug convention used here for non-food mechanistic toxicology in model organisms: `caenorhabditis-elegans` (specific model), `nematode-model` (broader class), `mechanistic-toxicology` (study-type descriptor). The standard food-matrices vocabulary (rice, infant-formula, fish, etc.) does not apply because no food, ingredient, or product was measured. The routing layer correctly treats empty `products`/`ingredients` as advisory not blocking for this source class.
 
 Fresh-context audit subagent (2026-06-02, Agent tool, general-purpose): verdict PROMOTE. All numerical, methodological, brand-firewall, and Part 2 firewall checks were independently confirmed against the PDF including the corrected LC50 interval. Two advisory concerns raised: (a) the model-organism matrix slugs above, addressed in this verification note; (b) the `[[health/index]]` link — verified post-audit to exist at `wiki/health/index.md`, so this was an audit false positive (the snapshot the subagent consulted does not list the `health/` namespace).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [80150df](https://github.com/paleofoundation/heavymetalindex/commit/80150df) | 2026-06-02 | audit: hernandez-cruz2024-cadmium-sulforaphane-celegans promoted |
+| [f4c9c11](https://github.com/paleofoundation/heavymetalindex/commit/f4c9c11) | 2026-06-02 | ingest: hernandez-cruz2024-cadmium-sulforaphane-celegans enhanced from Manual Fetch Kimi /June 2 Manual Fetches |
+| [c6649eb](https://github.com/paleofoundation/heavymetalindex/commit/c6649eb) | 2026-06-02 | ingest June 2: hernandez-cruz2024-cadmium-sulforaphane-celegans |
+<!-- END: hmi-page-history -->

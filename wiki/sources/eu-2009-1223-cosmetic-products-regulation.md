@@ -138,6 +138,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [321e6ac](https://github.com/paleofoundation/heavymetalindex/commit/321e6ac) | 2026-06-02 | audit: eu-2009-1223-cosmetic-products-regulation revised |
 | [ea9a9ee](https://github.com/paleofoundation/heavymetalindex/commit/ea9a9ee) | 2026-06-02 | ingest: eu-2009-1223-cosmetic-products-regulation fresh from Manual Fetch Kimi/June 1 Infant cosmetics metals papers/02_Regulatory_Reports |

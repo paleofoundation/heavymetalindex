@@ -86,3 +86,13 @@ Courses: Useful for teaching how a treatment can increase metal translocation wh
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, problem formulation, materials and methods, Tables 1-4, Figures 1-9, discussion, conclusions, and conflict statement. Products and ingredients are intentionally empty because the source reports simulated-soil phytoextraction and white-clover tissue concentrations only. The reported metal values are total elemental concentrations in plant organs after acid digestion; no speciation split is provided for Cd, Ni, or Cu.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e4e75bb](https://github.com/paleofoundation/heavymetalindex/commit/e4e75bb) | 2026-06-02 | ingest June 2: makarova2021-trifolium-phytoextraction-amendments |
+<!-- END: hmi-page-history -->

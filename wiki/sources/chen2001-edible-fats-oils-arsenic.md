@@ -104,3 +104,14 @@ Microbiome: Not addressed.
 - Source-internal spike-level label ambiguity: the abstract reports recovery spike levels as "0.05, 0.10 and 0.20 ppm," while the Materials and Methods section reports spikes as "1 mL of arsenic standards of various concentrations (0.025, 0.05, or 0.1 µg/mL)" added to "0.5 g" of oil. The Materials and Methods values resolve mathematically to 0.05, 0.10, and 0.20 ppm in the spiked sample, matching the abstract. Table 2's column header reads "Added(ppm)" with the values 0.025, 0.050, and 0.100, which corresponds to the standard-solution concentrations from Materials and Methods rather than the final spiked-sample concentrations from the abstract. This page reproduces Table 2 as the paper printed it; readers comparing spike levels across studies should treat the spiked-sample concentrations (0.05, 0.10, 0.20 ppm) as the meaningful values.
 - Calibration-coefficient precision: the body text on page 124 reports the calibration curve as `Y = 0.215X + 0.645`, while Figure 4 prints `Y = 0.2154X + 0.645`. This page reproduces the more precise Figure 4 value.
 - Matrices vocabulary: the `matrices:` array lists thirteen source-specific oil and fat descriptors plus `edible-fats-and-oils`. Several entries (`salad-oil`, `teaseed-oil`, `winter-oil`, `lard`) are source-specific descriptors that do not have wiki ingredient or product pages of their own; they are preserved in matrices for source-fidelity and are recognized as a known limitation rather than invented controlled-vocabulary slugs.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [aa4d396](https://github.com/paleofoundation/heavymetalindex/commit/aa4d396) | 2026-06-02 | audit: chen2001-edible-fats-oils-arsenic revised |
+| [6ea337a](https://github.com/paleofoundation/heavymetalindex/commit/6ea337a) | 2026-06-02 | ingest June 2: chen2001-edible-fats-oils-arsenic |
+<!-- END: hmi-page-history -->

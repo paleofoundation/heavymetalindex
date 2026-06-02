@@ -116,3 +116,13 @@ Courses: Useful for teaching how cultivar selection, soil chemistry, selenium/si
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, Tables 1-8, Figures 3-8, rice and soil collection methods, digestion and analytical methods, health-risk equations, discussion, conclusions, and data-availability statement. The source reports total Hg, Cd, total As, Pb, and total Cr in husked/milled rice grain; it does not separate inorganic arsenic, methylmercury, or chromium species. Several Hg/Cd treatment results are reported as source-text reductions rather than extractable numeric concentration tables because the underlying Figure 3, Figure 4, and Figure 6 values are plotted graphically in the PDF. D1, D2, D3, D4, and Y1-Y4 are source treatment labels, not product brands. This page omits brand names and uses category-level conditioner labels.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bbc6d2a](https://github.com/paleofoundation/heavymetalindex/commit/bbc6d2a) | 2026-06-02 | ingest June 2: fu2025-low-accumulation-rice-hg-cd |
+<!-- END: hmi-page-history -->

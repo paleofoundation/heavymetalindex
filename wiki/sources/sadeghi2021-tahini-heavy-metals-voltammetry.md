@@ -128,6 +128,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [bf39b5c](https://github.com/paleofoundation/heavymetalindex/commit/bf39b5c) | 2026-06-02 | audit: sadeghi2021-tahini-heavy-metals-voltammetry revised |
 | [d0ed270](https://github.com/paleofoundation/heavymetalindex/commit/d0ed270) | 2026-06-02 | ingest: sadeghi2021-tahini-heavy-metals-voltammetry fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
 <!-- END: hmi-page-history -->

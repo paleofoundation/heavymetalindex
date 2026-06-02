@@ -120,3 +120,13 @@ Courses: Useful for teaching why "bioavailable soil fraction," "root concentrati
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, soil and biochar preparation, pot experiment design, rhizosphere sampling method, ICP-MS/ICP-OES methods, Figures 1-5, Results and Discussion sections 3.1-3.5, Conclusions, supplementary-material note, and data-availability statement. Product routes are intentionally empty because the study is not retail or market rice occurrence evidence. Antimony speciation is not separated into Sb(III) and Sb(V); the authors identify this as a limitation and report total Sb/fractions rather than species-specific edible-grain Sb.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [98f4945](https://github.com/paleofoundation/heavymetalindex/commit/98f4945) | 2026-06-02 | ingest June 2: huang2025-biochar-antimony-rice-rhizosphere |
+<!-- END: hmi-page-history -->

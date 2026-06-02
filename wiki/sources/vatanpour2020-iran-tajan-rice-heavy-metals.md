@@ -178,6 +178,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [2e7183c](https://github.com/paleofoundation/heavymetalindex/commit/2e7183c) | 2026-06-01 | audit: vatanpour2020-iran-tajan-rice-heavy-metals revised |
 | [64907d2](https://github.com/paleofoundation/heavymetalindex/commit/64907d2) | 2026-06-01 | ingest: vatanpour2020-iran-tajan-rice-heavy-metals fresh from Manual Fetch Kimi/June 1 |

@@ -94,3 +94,14 @@ Microbiome: No microbiome data.
 - Frontmatter preserves source-reported Te, Bi, Nb, and Ta because the paper reports them in the product matrices. `[[metals/tellurium]]` exists as a source-map stub; Bi, Nb, and Ta do not yet have dedicated metal pages, so they are not listed under "Wiki pages this source may touch" until routing vocabulary expands.
 - `matrices: [cosmetic-personal-care]` follows the established cosmetic-source convention used by sibling personal-care source pages, even though that bare-string matrix is not represented in the public taxonomy snapshot.
 - Evidence Fitness: EF-2 / routeable small-panel occurrence evidence for finished cosmetic products. Limitations: n=10, unclear sampling frame, no LOD/LOQ, XRF method only, and no mercury or arsenic speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [af80083](https://github.com/paleofoundation/heavymetalindex/commit/af80083) | 2026-06-02 | audit revise haji2025 creams foundations source |
+| [dfd45d4](https://github.com/paleofoundation/heavymetalindex/commit/dfd45d4) | 2026-06-02 | ingest auto-fetched 2026-06-02: haji2025-creams-foundations-toxic-elements |
+<!-- END: hmi-page-history -->

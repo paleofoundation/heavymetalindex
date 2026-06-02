@@ -118,3 +118,13 @@ Courses: Useful for teaching why adsorption capacity, initial challenge concentr
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, Methods and Materials sections 2.1-2.6, Tables 1-4, Figures 1-9, Results and Discussion sections 3.1-3.6, Conclusions, and data-availability statement. The page keeps products and ingredients empty because the study is a synthetic aqueous adsorption experiment. Copper, lead, and cadmium are reported as Cu(II), Pb(II), and Cd(II) challenge ions; the page does not convert those adsorption capacities into occurrence concentrations or infer performance for real wastewater without field validation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [e4827bd](https://github.com/paleofoundation/heavymetalindex/commit/e4827bd) | 2026-06-02 | ingest June 2: deng2021-magnesium-biochar-copper-lead-cadmium |
+<!-- END: hmi-page-history -->

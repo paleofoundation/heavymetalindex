@@ -96,3 +96,14 @@ Microbiome: Not addressed.
 - Audit subagent (2026-06-02) returned QUARANTINE because the first ingest mislabeled the source table's carcinogenic-risk (`CR`) values as target-hazard-quotient (`THQ`) values. The exposure table now carries separate THQ and CR columns from the source table.
 - Speciation is straightforward: lead is reported as Pb only. No arsenic, cadmium, mercury, nickel, chromium, tin, aluminum, uranium, or antimony values are measured in this source.
 - The source has category labels for branded and nonbranded products but does not disclose consumer brand names. The page therefore remains brand-firewall compliant.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [43efd96](https://github.com/paleofoundation/heavymetalindex/commit/43efd96) | 2026-06-02 | audit auto-fetched 2026-06-02: cumin spice source pages revised |
+| [e410161](https://github.com/paleofoundation/heavymetalindex/commit/e410161) | 2026-06-02 | ingest auto-fetched 2026-06-02: alam2022-dhaka-spices-lead |
+<!-- END: hmi-page-history -->

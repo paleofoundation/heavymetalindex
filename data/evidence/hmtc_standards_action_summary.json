@@ -1,108 +1,111 @@
 {
-  "generated_at": "2026-06-01T03:02:20.125Z",
+  "generated_at": "2026-06-02T13:42:00.213Z",
   "product_filter": "all",
   "total_action_rows": 83,
   "by_action_priority": {
-    "P1": 15,
-    "P2": 68
+    "P0": 4,
+    "P1": 14,
+    "P2": 65
   },
   "by_action_type": {
-    "confirm-local-pdf-match": 12,
+    "extract-local-source-values": 4,
+    "find-source-document": 11,
     "resolve-species-specific-gap": 3,
-    "find-or-route-fit-source-evidence": 68
+    "find-or-route-fit-source-evidence": 65
   },
   "by_aggregate_status": {
-    "BLOCKED: PDF match review pending": 12,
+    "BLOCKED: local extraction pending": 4,
+    "BLOCKED: source document missing": 11,
     "BLOCKED: species-specific evidence missing": 3,
-    "BLOCKED: no structured evidence loaded": 68
+    "BLOCKED: no structured evidence loaded": 65
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 68,
-    "clean_p97_pooled": 15
+    "clean_p97_pooled": 15,
+    "independent_p97_pooled": 68
   },
   "top_actions": [
     {
       "action_order": 1,
-      "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "cashews",
-      "metal_species": "Pb; Cd; Ni"
+      "action_priority": "P0",
+      "action_type": "extract-local-source-values",
+      "product_slug": "leafy-vegetables-other",
+      "metal_species": "Cd"
     },
     {
       "action_order": 2,
-      "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "dried-fruit",
-      "metal_species": "tAs"
+      "action_priority": "P0",
+      "action_type": "extract-local-source-values",
+      "product_slug": "rice-snacks-crackers",
+      "metal_species": "Pb; Cd; iAs; tAs"
     },
     {
       "action_order": 3,
-      "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "fresh-fruit",
-      "metal_species": "tAs"
+      "action_priority": "P0",
+      "action_type": "extract-local-source-values",
+      "product_slug": "teething-and-snacks-non-rice",
+      "metal_species": "Pb; Cd; iAs"
     },
     {
       "action_order": 4,
-      "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "infant-food-puree",
-      "metal_species": "Pb; Cd; iAs; tAs"
+      "action_priority": "P0",
+      "action_type": "extract-local-source-values",
+      "product_slug": "true-tea-camellia-sinensis",
+      "metal_species": "Pb; Cd; Al"
     },
     {
       "action_order": 5,
       "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "infant-formula",
-      "metal_species": "Pb; Cd; iAs"
+      "action_type": "find-source-document",
+      "product_slug": "cashews",
+      "metal_species": "Pb; Cd; Ni"
     },
     {
       "action_order": 6,
       "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "infant-formula-dairy",
+      "action_type": "find-source-document",
+      "product_slug": "dried-fruit",
       "metal_species": "tAs"
     },
     {
       "action_order": 7,
       "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "infant-formula-dairy-free",
+      "action_type": "find-source-document",
+      "product_slug": "fresh-fruit",
       "metal_species": "tAs"
     },
     {
       "action_order": 8,
       "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "infant-rice-cereal",
-      "metal_species": "iAs"
+      "action_type": "find-source-document",
+      "product_slug": "infant-food-puree",
+      "metal_species": "Pb; Cd; iAs; tAs"
     },
     {
       "action_order": 9,
       "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "nuts-seeds-other",
-      "metal_species": "Pb; Cd; Ni"
+      "action_type": "find-source-document",
+      "product_slug": "infant-formula",
+      "metal_species": "Pb; Cd; iAs"
     },
     {
       "action_order": 10,
       "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "peanuts",
-      "metal_species": "Pb; Cd; Ni"
+      "action_type": "find-source-document",
+      "product_slug": "infant-formula-dairy",
+      "metal_species": "tAs"
     },
     {
       "action_order": 11,
       "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "snack-bars-energy-bars",
+      "action_type": "find-source-document",
+      "product_slug": "infant-formula-dairy-free",
       "metal_species": "tAs"
     },
     {
       "action_order": 12,
       "action_priority": "P1",
-      "action_type": "confirm-local-pdf-match",
-      "product_slug": "teething-and-snacks-non-rice",
+      "action_type": "find-source-document",
+      "product_slug": "infant-rice-cereal",
       "metal_species": "iAs"
     }
   ]

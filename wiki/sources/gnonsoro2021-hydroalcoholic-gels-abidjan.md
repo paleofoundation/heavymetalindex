@@ -137,3 +137,13 @@ Microbiome: No microbiome data in this source.
 - [[metals/cadmium]]
 - [[metals/mercury]]
 - [[metals/mercury-total]]
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [130d229](https://github.com/paleofoundation/heavymetalindex/commit/130d229) | 2026-06-02 | ingest: gnonsoro2021-hydroalcoholic-gels-abidjan fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/01_AP_Countertop_Tile_Floor |
+<!-- END: hmi-page-history -->

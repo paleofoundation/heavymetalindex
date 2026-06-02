@@ -89,6 +89,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [de76859](https://github.com/paleofoundation/heavymetalindex/commit/de76859) | 2026-06-01 | ingest: idris2023-adsorption-techniques-wastewater-review [fresh] from Manual Fetch Kimi /June 1 |
 <!-- END: hmi-page-history -->

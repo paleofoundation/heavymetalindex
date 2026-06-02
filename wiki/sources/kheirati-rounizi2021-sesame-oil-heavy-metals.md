@@ -77,3 +77,13 @@ Courses: Useful for teaching processing effects, seed-to-oil contaminant partiti
 ## Verification notes
 
 This page was built from the full PDF, including the sample-preparation methods, microwave digestion section, Table 2 recovery data, Table 5 heavy-metal concentrations, Table 6 EDI/HQ/HI values, and the discussion/conclusion. The source reports total arsenic only; no arsenic speciation was performed. The paper contains an internal Pb concentration conflict: Table 5 reports Pb in Ardeh, virgin sesame, and refined sesame oil as 0.37, 0.25, and 0.20 mg/kg, and Table 6 EDI/HQ values are consistent with those Table 5 concentrations. The narrative text instead says 3.72, 2.59, and 2.33 ppm. This page follows Table 5 and the internally consistent risk table, while flagging the conflict for audit.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [012e2a5](https://github.com/paleofoundation/heavymetalindex/commit/012e2a5) | 2026-06-02 | ingest June 2: kheirati-rounizi2021-sesame-oil-heavy-metals |
+<!-- END: hmi-page-history -->

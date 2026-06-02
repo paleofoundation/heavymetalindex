@@ -94,3 +94,14 @@ The PDF has author attribution and DOI `10.3390/app13052806`; no DOI conflict wa
 Matrices vocabulary: `pet-treat` and `dog-snack-prototype` are bare-string additions outside the human-food-centric matrices list in `docs/gpt-collaboration/system-prompt.md`. No standard term covers self-produced experimental pet-treat prototypes, so these two are proposed novel matrices flagged here per the system-prompt guidance. Earlier process- and formulation-specific tokens (`extruded-dog-snack`, `baked-dog-snack`, `insect-meal-formulation`, `spirulina-formulation`) were removed as over-granular for a four-prototype study without per-formulation metal contrasts.
 
 Audit subagent (2026-06-02) flagged two ⚠️ concerns: matrices over-granularity (applied — collapsed to `pet-treat` plus `dog-snack-prototype` and flagged as novel-vocabulary proposals) and incomplete Methods statement on the toxic-metal analytical gap (applied — Methods now states explicitly that the paper describes no analytical procedure or LOD for Cd/Pb/Co/Cr/Ni or Mo). Numerical fidelity, brand firewall, and HMTc firewall checks were clean.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4b6fbe2](https://github.com/paleofoundation/heavymetalindex/commit/4b6fbe2) | 2026-06-02 | audit: kepinska-pacelik2023-dog-snacks-trace-elements revised |
+| [5799787](https://github.com/paleofoundation/heavymetalindex/commit/5799787) | 2026-06-02 | ingest June 2: kepinska-pacelik2023-dog-snacks-trace-elements |
+<!-- END: hmi-page-history -->

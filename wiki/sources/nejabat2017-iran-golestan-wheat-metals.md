@@ -153,6 +153,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [9b3a0f5](https://github.com/paleofoundation/heavymetalindex/commit/9b3a0f5) | 2026-06-01 | audit: nejabat2017-iran-golestan-wheat-metals [revised] |
 | [c9cffb8](https://github.com/paleofoundation/heavymetalindex/commit/c9cffb8) | 2026-06-01 | ingest: nejabat2017-iran-golestan-wheat-metals [fresh] from Manual Fetch Kimi /June 1 |

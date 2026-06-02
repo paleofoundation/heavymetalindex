@@ -89,3 +89,13 @@ Courses: Useful example for distinguishing raw-material characterization and ads
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, chitin-isolation procedure table, nickel-sorption methods, Table 2 isolation yields, microscopy/XRPD/TGA/FTIR results, Figure 6 isotherm, Table 3 isotherm parameters, Table 4 EDX composition, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source uses black soldier fly exuviae as a chitin source and tests aqueous Ni2+ sorption; it does not quantify metals in edible insect material, animal feed, or consumer products.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7b14b5d](https://github.com/paleofoundation/heavymetalindex/commit/7b14b5d) | 2026-06-02 | ingest June 2: zlotko2021-black-soldier-fly-chitin-nickel-sorption |
+<!-- END: hmi-page-history -->

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: soy-products
 public_page: products/soy-products
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Soy Products

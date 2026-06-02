@@ -133,3 +133,15 @@ The PDF has author attribution and DOI `10.4314/jasem.v29i10.32`; no DOI conflic
 2026-06-02 fresh-context audit subagent (Agent tool, general-purpose, agent ID aa96f64c7a143f163) returned REVISE with two findings. One applied: palm-oil Cu range discrepancy added below for parallelism with the existing Cr discrepancies. One rejected as false positive: subagent flagged `palm-oil` ingredient slug as missing from the taxonomy snapshot, but `wiki/ingredients/palm-oil.md` exists as a live page; the GPT-drafting snapshot is stale relative to live wiki state, and slug validity for an existing-page merge-enhance is checked against the live `wiki/ingredients/` directory per docs/gpt-collaboration/verification-checklist.md. Snapshot refresh is separate work and does not affect this page. Checks 3 (speciation/methods), 4 (Part 12 brand firewall — brand codes EF/G/B/CA correctly omitted, Agilent vendor name permitted under Exception 2), and 5 (Part 2 wiki/HMTc firewall — no threshold proposals, no consumer advisories, no cross-source synthesis) returned clean.
 
 Additional source-internal discrepancy noted: palm-oil Cu range is reported as 1.10-1.65 ug/g in the abstract and 1.01-1.65 ug/g in the results prose on page 5. This page uses the abstract figure for parallelism with the Cr-range handling above.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [420b234](https://github.com/paleofoundation/heavymetalindex/commit/420b234) | 2026-06-02 | audit: ntigoroku2025-delta-state-edible-oils-metals revised |
+| [d592c94](https://github.com/paleofoundation/heavymetalindex/commit/d592c94) | 2026-06-02 | ingest: ntigoroku2025-delta-state-edible-oils-metals enhanced from Manual Fetch Kimi/June 2 Manual Fetches |
+| [5a91e56](https://github.com/paleofoundation/heavymetalindex/commit/5a91e56) | 2026-06-02 | ingest June 2: ntigoroku2025-delta-state-edible-oils-metals |
+<!-- END: hmi-page-history -->

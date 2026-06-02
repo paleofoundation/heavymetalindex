@@ -2,15 +2,15 @@
 source_page: wiki/products/teething-and-snacks-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 94e2c62d9f41d8e104a436038c251a9edd4bf799ec5fb9be05b120477add1adb
+source_page_sha256: 9d0893228922f811a186aad30e7339c98d321efa2400082332e0e86504b98ac2
 total_claims: 69
 cited_claims: 69
 uncited_claims: 0
-distinct_cited_targets: 20
-distinct_cited_sources: 17
+distinct_cited_targets: 21
+distinct_cited_sources: 18
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 69 |
 | cited claims | 69 |
 | uncited claims | 0 |
-| distinct cited targets | 20 |
-| distinct cited `sources/` pages | 17 |
+| distinct cited targets | 21 |
+| distinct cited `sources/` pages | 18 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -688,7 +688,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `185 µg/kg`
 - Context: `K FSA survey reporting multi-metal category-level means in snack products (Al 5,185 µg/kg, tAs 98 µg/kg, iAs 58–62 µg/kg`
-- Cited targets (11):
+- Cited targets (12):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -708,13 +708,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `98 µg/kg`
 - Context: `porting multi-metal category-level means in snack products (Al 5,185 µg/kg, tAs 98 µg/kg, iAs 58–62 µg/kg, Cd 24 µg/kg,`
-- Cited targets (11):
+- Cited targets (12):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -734,13 +736,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `62 µg/kg`
 - Context: `al category-level means in snack products (Al 5,185 µg/kg, tAs 98 µg/kg, iAs 58–62 µg/kg, Cd 24 µg/kg, Pb 10 µg/kg, Ni 2`
-- Cited targets (11):
+- Cited targets (12):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -760,13 +764,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `24 µg/kg`
 - Context: `evel means in snack products (Al 5,185 µg/kg, tAs 98 µg/kg, iAs 58–62 µg/kg, Cd 24 µg/kg, Pb 10 µg/kg, Ni 292 µg/kg); di`
-- Cited targets (11):
+- Cited targets (12):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -786,13 +792,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 µg/kg`
 - Context: `snack products (Al 5,185 µg/kg, tAs 98 µg/kg, iAs 58–62 µg/kg, Cd 24 µg/kg, Pb 10 µg/kg, Ni 292 µg/kg); direct snack-ca`
-- Cited targets (11):
+- Cited targets (12):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -812,13 +820,15 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
 
 #### Claim `292 µg/kg`
 - Context: `ts (Al 5,185 µg/kg, tAs 98 µg/kg, iAs 58–62 µg/kg, Cd 24 µg/kg, Pb 10 µg/kg, Ni 292 µg/kg); direct snack-category occurr`
-- Cited targets (11):
+- Cited targets (12):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
@@ -838,6 +848,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
     - audit rows: none
@@ -869,5 +881,6 @@ _All claims trace to at least one cited source._
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` | sources | 0 | — | — |
+| `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
 

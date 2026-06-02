@@ -104,3 +104,13 @@ Courses: Useful for teaching the separation between exposure concentration, inte
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, clinoptilolite selection and preparation methods, animal-exposure design, analytical methods, Tables 1-4, Figures 1-7, discussion, conclusions, supplementary-materials note, and data-availability statement. Main-text trace-element values for the clinoptilolite material are limited to below-limit/below-detection statements; exact multi-element concentrations are in Supplementary Table S1. Products and ingredients are intentionally empty because no existing clinoptilolite ingredient page exists and the source is not a market occurrence study.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [1a64d2f](https://github.com/paleofoundation/heavymetalindex/commit/1a64d2f) | 2026-06-02 | ingest June 2: beltcheva2025-clinoptilolite-cadmium-mice |
+<!-- END: hmi-page-history -->

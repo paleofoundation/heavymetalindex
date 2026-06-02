@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: childrens-lip-balm-mineral-bearing
 public_page: products/childrens-lip-balm-mineral-bearing
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Children's Lip Balm, Mineral-Bearing (tinted or SPF)

@@ -240,9 +240,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [46367af](https://github.com/paleofoundation/heavymetalindex/commit/46367af) | 2026-06-02 | ingest: eu-2023-915-contaminants-maximum-levels near_duplicate path from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
 | [921d404](https://github.com/paleofoundation/heavymetalindex/commit/921d404) | 2026-06-02 | ingest: eu-2023-915-contaminants-maximum-levels enhanced from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
-| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

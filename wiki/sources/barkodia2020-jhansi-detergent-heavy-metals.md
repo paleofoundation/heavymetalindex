@@ -139,3 +139,14 @@ The wiki has not independently verified the Allen 1995 numbers; they appear in t
 - Audit subagent (2026-06-02) flagged Implications bullet 4 ("strengthening confidence that laundry-detergent product matrices are not a meaningful exposure source for the HMTc analytes Pb, Cd or As") as cross-source synthesis on the source page (Part 9 workflow scope), and internally inconsistent because neither this study nor the cited ECETOC 1992 dataset measures Pb, Cd or As. Verified — the conclusion does not follow from the premises stated. Rewrote the bullet to defer cross-source synthesis to the Part 9 workflow.
 - Audit subagent (2026-06-02) flagged Implications bullet 3 ("would reduce a 0.69 mg/kg per-product copper concentration to roughly 7 µg/L at-skin / at-fabric — comfortably below the 0.05 mg/L drinking-water cap") as wiki-generated risk arithmetic that goes beyond reporting what the literature supports. Verified — the source mentions a 2.5-3.5% detergent concentration only in the context of fish mortality, not a 1% in-use wash dilution; the 7 µg/L number and the "comfortably below" framing are wiki-side. Rewrote the bullet as a methodological note that the source does not perform the in-use dilution step required to compare the per-product Cu concentration against a per-volume water limit.
 - Audit subagent (2026-06-02) flagged `metals: [Fe, Cu, Mn, Zn]` as missing from the CLAUDE.md Part 14 canonical-abbreviation list and `matrices: [laundry-detergent, household-cleaning-product]` as not visibly in the taxonomy snapshot. Verified — element-symbol slugs Fe/Cu/Mn/Zn are consistent with the symbol convention used elsewhere in the corpus (e.g., Co, Mo) and CLAUDE.md Part 14 enumerates *priority* analytes rather than an exhaustive permitted-abbreviation list. The matrices `laundry-detergent` and `household-cleaning-product` are both used in [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]] frontmatter, which is precedent in the corpus. Finding rejected as a false positive on the precedent basis; no slug change applied.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [bb51519](https://github.com/paleofoundation/heavymetalindex/commit/bb51519) | 2026-06-02 | audit: barkodia2020-jhansi-detergent-heavy-metals revised |
+| [d01a7f7](https://github.com/paleofoundation/heavymetalindex/commit/d01a7f7) | 2026-06-02 | ingest: barkodia2020-jhansi-detergent-heavy-metals fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/01_AP_Countertop_Tile_Floor |
+<!-- END: hmi-page-history -->

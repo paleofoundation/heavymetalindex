@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-sources: 8
+sources: 9
 wiki_doi: null
 updated: 2026-05-17
 ---
@@ -103,11 +103,12 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | 1 | [[sources/porwollik2026-rhodiola-supplements-us-market\|Porwollik et al. 2026]]. *The quality and safety of Rhodiola rosea supplements on the U.S. market: An analysis of biomarkers, heavy metals, and pesticide residues*, PLoS One | 2026 | Peer-reviewed | US Pb, Cd, tAs, tHg occurrence in Ten commercially available Rhodiola rosea supplement products (7 capsular, 3 tinctures) purchased on the U.S. market in 2024 (n=10) |
 | 2 | [[sources/yang2024-libs-cd-panax-notoginseng\|Yang 2024]]. *LIBS detection of cadmium in Panax notoginseng*, unknown | 2024 | Peer-reviewed | CN Cd occurrence in Panax notoginseng (tienchi ginseng) botanical samples analysed for Cd by laser-induced breakdown spectroscopy (LIBS) |
 | 3 | [[sources/inada2023-herbal-medicine-heavy-metal-regulations\|Inada 2023]]. *Comparison of heavy metal regulations for herbal medicines across pharmacopoeias*, Journal of Natural Medicines | 2023 | Peer-reviewed | JP/EU/US Pb, Cd, Hg, As occurrence in Regulatory limit compilation across 9 pharmacopoeias (Japanese, European, USP, Chinese, Korean, Taiwanese, Indian, British, WHO) |
-| 4 | [[sources/jurowski2022-chromium-peppermint-tincture\|Jurowski et al. 2022]]. *Chromium impurities in peppermint tinctures from Polish pharmacies: speciation and health implications*, unknown | 2022 | Peer-reviewed | PL Cr occurrence in Peppermint tinctures from Polish pharmacies |
-| 5 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | NG Cd, Cr occurrence in Dried plant material of Adansonia digitata (baobab), Psidium guajava (guava), and Carica papaya (papaya) collected from Northern Nigeria... (n=3) |
-| 6 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | RU Al, V, Cr, Mn, Fe, Ni, Cu, Zn, Sr, Ba, tAs occurrence in Peppermint leaves and peppermint-based herbal products evaluated in Russia |
-| 7 | [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|Zafeiraki et al. 2021]]. *Macro and Trace Elements in Hemp (Cannabis sativa L.) Cultivated in Greece: Risk Assessment of Toxic Elements*, Frontiers in Chemistry | 2021 | Peer-reviewed | GR/EU Pb, Cd, tAs, tHg, Cr, Ni, Al, Sn occurrence in 90 Cannabis sativa L. leaf/flower samples from 9 varieties cultivated across 13 regions in Greece, collected 2018-2019; 21... (n=90) |
-| 8 | [[sources/bulduk2020-vicia-faba-elements\|Ibrahim 2020]]. *Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS*, Progress in Chemical and Biochemical Research | 2020 | Peer-reviewed | TR Cr, Fe, Zn, Al, Cu, Pb, Cd, Mn, Ni occurrence in Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey |
+| 4 | [[sources/patel2023-singrauli-herbal-plants-metals\|Patel et al. 2023]]. *Evaluation of heavy metals in herbal plants growing in Singrauli Region of Madhya Pradesh*, International Journal of Chemical and Biological Sciences | 2023 | Peer-reviewed | *[awaiting synthesis]* |
+| 5 | [[sources/jurowski2022-chromium-peppermint-tincture\|Jurowski et al. 2022]]. *Chromium impurities in peppermint tinctures from Polish pharmacies: speciation and health implications*, unknown | 2022 | Peer-reviewed | PL Cr occurrence in Peppermint tinctures from Polish pharmacies |
+| 6 | [[sources/njinga2022-nigeria-herbal-cd-cr\|Njinga et al. 2022]]. *Major chemical carcinogens and health exposure risks in some therapeutic herbal plants in Nigeria*, PLOS ONE | 2022 | Peer-reviewed | NG Cd, Cr occurrence in Dried plant material of Adansonia digitata (baobab), Psidium guajava (guava), and Carica papaya (papaya) collected from Northern Nigeria... (n=3) |
+| 7 | [[sources/shchukin2022-mint-products-heavy-metals\|Shchukin et al. 2022]]. *Evaluation of Elemental Impurities in Peppermint Herb and Peppermint-Based Herbal Products*, Regulatory Research and Medicine Evaluation | 2022 | Peer-reviewed | RU Al, V, Cr, Mn, Fe, Ni, Cu, Zn, Sr, Ba, tAs occurrence in Peppermint leaves and peppermint-based herbal products evaluated in Russia |
+| 8 | [[sources/zafeiraki2021-hemp-cannabis-metals-greece\|Zafeiraki et al. 2021]]. *Macro and Trace Elements in Hemp (Cannabis sativa L.) Cultivated in Greece: Risk Assessment of Toxic Elements*, Frontiers in Chemistry | 2021 | Peer-reviewed | GR/EU Pb, Cd, tAs, tHg, Cr, Ni, Al, Sn occurrence in 90 Cannabis sativa L. leaf/flower samples from 9 varieties cultivated across 13 regions in Greece, collected 2018-2019; 21... (n=90) |
+| 9 | [[sources/bulduk2020-vicia-faba-elements\|Ibrahim 2020]]. *Determination of trace element levels in flowers and leaves of vicia faba by ICP-MS*, Progress in Chemical and Biochemical Research | 2020 | Peer-reviewed | TR Cr, Fe, Zn, Al, Cu, Pb, Cd, Mn, Ni occurrence in Dried Vicia faba flowers and leaves analyzed as medicinal plant material in Turkey |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -117,9 +118,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
-| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

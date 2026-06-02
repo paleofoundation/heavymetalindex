@@ -97,3 +97,13 @@ App: Route as Cr(VI) wastewater remediation context. Do not apply the 80 mg/L sy
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/app13053309`; no DOI conflict was observed. The PDF text extraction duplicates some two-column lines, but the numeric table values are visible in the repeated table blocks and agree with the abstract/conclusion for the headline 520 mV, 93.73% COD removal, and 97.77% Cr(VI) removal. Methods describe direct measurement of Cr(VI) and total Cr; the Cr(III) values are reported in the paper's tables and are interpreted here as the study's reported species balance rather than independently speciated isotope-dilution Cr(III). This is synthetic wastewater remediation evidence, not food or consumer-water occurrence evidence.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [abce584](https://github.com/paleofoundation/heavymetalindex/commit/abce584) | 2026-06-02 | ingest June 2: shi2023-leersia-crvi-cwmfc |
+<!-- END: hmi-page-history -->

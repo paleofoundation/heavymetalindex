@@ -92,6 +92,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c23efb5](https://github.com/paleofoundation/heavymetalindex/commit/c23efb5) | 2026-06-02 | audit: bassioni2012-aluminum-foil-meat-cooking-uae revised |
 | [93662df](https://github.com/paleofoundation/heavymetalindex/commit/93662df) | 2026-06-02 | ingest: bassioni2012-aluminum-foil-meat-cooking-uae fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/02_Honey_Syrups_Vinegar |
 <!-- END: hmi-page-history -->

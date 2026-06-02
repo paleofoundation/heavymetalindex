@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juice-not-canned.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: dece1c1b2dbd07652b7d4f9799fe77edf6abc50b1dedb81f869b47abab88f513
+source_page_sha256: 4f6d27d27f0f989c45bb2cd3dc00bf689cc8d362e46d1d709c8d7cc04c2e9f39
 total_claims: 125
 cited_claims: 125
 uncited_claims: 0
-distinct_cited_targets: 48
-distinct_cited_sources: 41
+distinct_cited_targets: 49
+distinct_cited_sources: 42
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 51
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 125 |
 | cited claims | 125 |
 | uncited claims | 0 |
-| distinct cited targets | 48 |
-| distinct cited `sources/` pages | 41 |
+| distinct cited targets | 49 |
+| distinct cited `sources/` pages | 42 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 51 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -1699,7 +1699,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `Industry | 2022 | Government guidance | FDA April 2022 draft guidance proposing 10 ppb Pb for single-strength apple juic`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1757,6 +1757,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -1767,7 +1769,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `ril 2022 draft guidance proposing 10 ppb Pb for single-strength apple juice and 20 ppb for other single-strength juices,`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1825,6 +1827,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -1835,7 +1839,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `on reference method (AOAC First Action 2016.04) for fruit juices; validates the 10 ppb iAs action level analytical basis`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1893,6 +1897,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -1903,7 +1909,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.24 mg/L`
 - Context: `ckaged cherry, mango, orange, and pineapple juice Al concentrations (n=48; mean 1.24 mg/L, range 0.10–3.30 mg/L), docume`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1961,6 +1967,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -1971,7 +1979,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3.30 mg/L`
 - Context: `orange, and pineapple juice Al concentrations (n=48; mean 1.24 mg/L, range 0.10–3.30 mg/L), documenting Al-leaching from`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2029,6 +2037,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2039,7 +2049,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11.2 ppb`
 - Context: `1 grape and grape-containing juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), t`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2097,6 +2107,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2107,7 +2119,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `22.6 ppb`
 - Context: `ape-containing juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), the grape-categ`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2165,6 +2177,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2175,7 +2189,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `49.6 ppb`
 - Context: `juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), the grape-category subcategor`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2233,6 +2247,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2243,7 +2259,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11.3 µg/kg`
 - Context: `e juices and 4 pear juices reporting tAs and speciated iAs (apple iAs range 2.5–11.3 µg/kg in samples >LOR; AsV predomin`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2301,6 +2317,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2311,7 +2329,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `e 2.5–11.3 µg/kg in samples >LOR; AsV predominant), directly supporting the FDA 10 ppb iAs apple-juice action-level basi`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2369,6 +2387,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2379,7 +2399,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.9 ppb`
 - Context: `dataset | 94-sample FDA single-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2437,6 +2457,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2447,7 +2469,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `7.7 ppb`
 - Context: `sample FDA single-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the direct specie`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2505,6 +2527,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2515,7 +2539,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9.8 ppb`
 - Context: `ngle-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the direct species-specific ap`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2573,6 +2597,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2583,7 +2609,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `8 µg/L`
 - Context: `and mango commercial juice Cr (total) and Ni concentrations by GFAAS (means ~5–8 µg/L); no Pb, Cd, As, Hg, or Sn measur`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2641,6 +2667,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2651,7 +2679,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `50 ppb`
 - Context: `| Government guidance | FDA Juice HACCP guidance recommending lead controls at 50 ppb for ready-to-drink fruit juices;`
-- Cited targets (32):
+- Cited targets (33):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2709,6 +2737,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` (page missing)
     - audit rows: none
@@ -2769,6 +2799,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/song2024-crvi-hplc-icpms-food-reduction\.md` | sources | 0 | — | — |
 | `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` | sources | 0 | — | — |
+| `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md` | sources | 1 | 2026-05-30 | 2026-05-30 |
 | `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/youssao2018-fruit-juices-syrup-benin\.md` | sources | 0 | — | — |

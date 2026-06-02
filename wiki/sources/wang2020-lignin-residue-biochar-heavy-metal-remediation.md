@@ -96,3 +96,13 @@ Courses: Useful for teaching the distinction between sorbent capacity and occurr
 ## Verification notes
 
 This page was built from the full PDF, including the synthesis methods, adsorption-experiment design, Table 1 biochar properties, Table 2 Pb(II) kinetic fits, Table 3 isotherm fits for Cu(II), Cd(II), and Pb(II), Table 4 Pb(II) comparator capacities, the conclusion, and the supplementary-materials note. The source uses dissolved Pb(II), Cd(II), and Cu(II) nitrate solutions; frontmatter uses the repo's broader Pb, Cd, and Cu metal slugs while this page preserves ion-state specificity in prose and tables. Products and ingredients are intentionally empty because no food, ingredient, or consumer-product matrix was sampled.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [aa6cbef](https://github.com/paleofoundation/heavymetalindex/commit/aa6cbef) | 2026-06-02 | ingest June 2: wang2020-lignin-residue-biochar-heavy-metal-remediation |
+<!-- END: hmi-page-history -->

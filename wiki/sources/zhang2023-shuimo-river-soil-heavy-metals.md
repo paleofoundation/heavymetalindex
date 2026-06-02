@@ -81,3 +81,13 @@ This page was built from the full PDF text, including the sampling-method sectio
 Speciation is not reported. Arsenic is routed as total arsenic, chromium as total chromium, and mercury as total mercury. The source states that Cd and Hg values were low or not detectable, but does not provide censoring limits or a numerical Cd/Hg table; the Cd/tHg frontmatter entry marks screening coverage only, not benchmark-ready occurrence values.
 
 No brand names are present. Instrument and vendor names are analytical-method identifiers and are retained as scientific context. The data availability statement says the study data are available on request from the corresponding author and are not publicly available because they involve environmental-status information for Urumqi.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [70b02d3](https://github.com/paleofoundation/heavymetalindex/commit/70b02d3) | 2026-06-02 | ingest June 2: zhang2023-shuimo-river-soil-heavy-metals |
+<!-- END: hmi-page-history -->

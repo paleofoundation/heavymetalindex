@@ -104,3 +104,13 @@ Microbiome: Not addressed.
 - The PDF uses sample labels and mentions calibration plots from two olive oil samples. This page keeps the neutral sample labels and does not reproduce any brand names.
 - The non-detect finding is not a zero value. The page records it as censored evidence bounded by the method's LOD/LOQ.
 - The method determines arsenite directly and total inorganic arsenic after prereduction. It should not be treated as total arsenic across organic arsenic species.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [cfa5610](https://github.com/paleofoundation/heavymetalindex/commit/cfa5610) | 2026-06-02 | ingest June 2: bodur2023-olive-oil-inorganic-arsenic-speciation |
+<!-- END: hmi-page-history -->

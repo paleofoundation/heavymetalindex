@@ -86,6 +86,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [daa8e0b](https://github.com/paleofoundation/heavymetalindex/commit/daa8e0b) | 2026-06-02 | audit: efsa2024-emerging-chemical-risks-food-feed revised |
 | [d15ff93](https://github.com/paleofoundation/heavymetalindex/commit/d15ff93) | 2026-06-02 | ingest: efsa2024-emerging-chemical-risks-food-feed fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared |
 <!-- END: hmi-page-history -->

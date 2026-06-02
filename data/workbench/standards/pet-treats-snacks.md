@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: pet-treats-snacks
 public_page: products/pet-treats-snacks
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Pet treats/snacks

@@ -106,6 +106,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [15a39ba](https://github.com/paleofoundation/heavymetalindex/commit/15a39ba) | 2026-06-01 | audit: cpsc2011-cpsia-100ppm-tech-feasibility [revised] |
 | [b4b26a1](https://github.com/paleofoundation/heavymetalindex/commit/b4b26a1) | 2026-06-01 | ingest: cpsc2011-cpsia-100ppm-tech-feasibility [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH |

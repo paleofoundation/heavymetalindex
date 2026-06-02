@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: dc2e81789264744f3aeb368d8e7ed4baa7b19bf5e66d05f289d1fba7907bb608
+source_page_sha256: 559314f47b7daf8bf20b0df37095e971fee2c8059889ff987e8c2d8e430c3fe6
 total_claims: 88
 cited_claims: 88
 uncited_claims: 0
-distinct_cited_targets: 79
-distinct_cited_sources: 74
+distinct_cited_targets: 80
+distinct_cited_sources: 75
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 88 |
 | cited claims | 88 |
 | uncited claims | 0 |
-| distinct cited targets | 79 |
-| distinct cited `sources/` pages | 74 |
+| distinct cited targets | 80 |
+| distinct cited `sources/` pages | 75 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -896,7 +896,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `2550 ppb`
 - Context: `8 | 2016 | Government report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), t`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -916,6 +916,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1026,7 +1028,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11 ppb`
 - Context: `rnment report | UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1046,6 +1048,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1156,7 +1160,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.6 ppb`
 - Context: `| UK dry soy-based formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1176,6 +1180,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1285,8 +1291,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `7 ppb`
-- Context: `sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 46 | [[`
-- Cited targets (63):
+- Context: `sed formula category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 47 | [[`
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1306,6 +1312,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1415,8 +1423,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `200 ppb`
-- Context: `category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 46 | [[sources/pacq`
-- Cited targets (63):
+- Context: `category values for Al (2550 ppb), Cd (11 ppb), iAs (4.6 ppb), tAs (7 ppb), Ni (200 ppb), and Pb | | 47 | [[sources/pacq`
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1436,6 +1444,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1546,7 +1556,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `756 ppb`
 - Context: `viewed | Al in UK powdered infant formulas including 2 soy-powder products; 656–756 ppb prepared estimate from powder fo`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1566,6 +1576,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1676,7 +1688,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 µg/L`
 - Context: `viewed | tAs in soy toddler formula with organic brown rice syrup (1.5–2.5× the 10 µg/L drinking-water standard); highli`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1696,6 +1708,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1806,7 +1820,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `18.3 ppb`
 - Context: `on and Analysis | 2012 | Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy ba`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1826,6 +1840,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1936,7 +1952,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `30.5 ppb`
 - Context: `| Peer-reviewed | EU pooled soy formula baskets Cd (15.8–18.3 ppb) and Pb (20.1–30.5 ppb); soy basket higher than milk-f`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -1956,6 +1972,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2065,8 +2083,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `1461 ppb`
-- Context: `formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 60 | [[sources`
-- Cited targets (63):
+- Context: `formula as-consumed summary statistics for Al (n=15: mean 733, median 713, max 1461 ppb), Cd, and Pb | | 61 | [[sources`
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2086,6 +2104,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2196,7 +2216,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `629 ppb`
 - Context: `trics | 2010 | Peer-reviewed | Al in UK infant formulas including 1 soy powder; 629 ppb prepared estimate for the soy po`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2216,6 +2236,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2325,8 +2347,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `2270 ppb`
-- Context: `nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 63 | [[sourc`
-- Cited targets (63):
+- Context: `nfant formula dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 64 | [[sourc`
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2346,6 +2368,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2455,8 +2479,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `2720 ppb`
-- Context: `dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 63 | [[sources/dabeka1987-`
-- Cited targets (63):
+- Context: `dried-powder Al, Cd, and Pb concentrations (n=4 soy rows; mean Al 2270 ppb, max 2720 ppb) | | 64 | [[sources/dabeka1987-`
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2476,6 +2500,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2586,7 +2612,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `35 ppb`
 - Context: `oy-base infant formula Cd distribution (n=15: mean 13.3, median 12.0, range 1.1–35 ppb) | <!-- END: hmi-source-legend --`
-- Cited targets (63):
+- Cited targets (64):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/alyasiri2024-infant-formula-heavy-metals\.md` (page missing)
@@ -2606,6 +2632,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -2836,6 +2864,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/burrell2010-aluminium-in-infant-formulas\.md` | sources | 0 | — | — |
 | `wiki/sources/cantoral2024-lead-levels-mexican-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants\.md` | sources | 0 | — | — |
+| `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md` | sources | 0 | — | — |
 | `wiki/sources/chuchu2013-aluminium-in-infant-formulas\.md` | sources | 0 | — | — |

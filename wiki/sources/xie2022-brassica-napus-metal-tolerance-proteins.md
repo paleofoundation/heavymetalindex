@@ -104,3 +104,13 @@ Courses: Useful for teaching the difference between metal-exposure treatment dos
 ## Verification notes
 
 The PDF contains no measured crop or food concentration table. Metal values in this page are treatment concentrations used to provoke gene-expression responses and must not be interpreted as rapeseed occurrence values. The paper's group-count wording is internally awkward in the extracted text around group 7/AtMTP7; this page preserves the higher-confidence cluster counts from the Discussion and avoids using the inconsistent group-7 sentence as a routing fact.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c90d709](https://github.com/paleofoundation/heavymetalindex/commit/c90d709) | 2026-06-02 | ingest June 2: xie2022-brassica-napus-metal-tolerance-proteins |
+<!-- END: hmi-page-history -->

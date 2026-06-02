@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: sunflower-seeds
 public_page: products/sunflower-seeds
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Sunflower Seeds

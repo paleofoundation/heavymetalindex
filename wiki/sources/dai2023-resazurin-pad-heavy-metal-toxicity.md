@@ -83,3 +83,13 @@ App: Route to testing context and to the Cu, Zn, and Pb metal pages as a screeni
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/bios13050523`; no DOI conflict was observed. The source reports Cu2+, Zn2+, and Pb2+ spike concentrations in bacterial culture but no original environmental, food, ingredient, product, or human exposure measurements. Brand and supplier names for reagents and paper are omitted under the brand firewall because they do not identify contaminated products.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5d5a7ad](https://github.com/paleofoundation/heavymetalindex/commit/5d5a7ad) | 2026-06-02 | ingest June 2: dai2023-resazurin-pad-heavy-metal-toxicity |
+<!-- END: hmi-page-history -->

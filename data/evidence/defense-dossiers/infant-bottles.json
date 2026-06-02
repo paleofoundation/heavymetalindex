@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-bottles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "ede6c808e190d98be77640248a02ae935d9d3b3456db7b92337fb40aa2a4d736",
+      "content_sha256": "aed7354c528f33e0d250fea8b9e6a13c659db3404d897116d7a78695c7edc99f",
       "content_bytes": 9263,
-      "last_commit_sha": "c3909aa",
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/infant-bottles.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/infant-bottles.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "00e7ec9d495913436d7674d8b685794368ac2988a5f9fa4ecf2093060fd13c75",
+          "content_sha256": "c0be594a19efa67be4258e230df818a48ff57af5684fd74bb8a4fccb73514e3b",
           "content_bytes": 19062,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "c631d01228baca6d1e77c9ea769d4547ef90c60b37761e77ac91b5f64726796e",
-          "content_bytes": 59166,
-          "last_commit_sha": "c3909aa",
+          "content_sha256": "01d473df4008624112e8b94dab0cc5810244592263abcbdc551db479e1af1a5a",
+          "content_bytes": 59313,
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -92,12 +92,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/onghena2016-baby-bottle-migration-duration-tests",
         "content_pin": {
-          "content_sha256": "11cbf7277debad6da097c99d607e93019c59339fda70c438952f5aab3bae2dfd",
+          "content_sha256": "e077581e93e61801c28b14500a429ee87f48e36558622763b592ca960aee7782",
           "content_bytes": 30447,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/onghena2016-baby-bottle-migration-duration-tests.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/onghena2016-baby-bottle-migration-duration-tests.md | sha256sum"
         }
       },
       {
@@ -112,12 +112,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/padoh2023-pahan-727-cpsc-lead-cup-recall",
         "content_pin": {
-          "content_sha256": "8daba526eb816d310476472c7ec984864accf6558d17cfd6f01154c1a757d545",
+          "content_sha256": "6bc4006663a656e13cc333ae6ee5237e5b775f96bfc8032cda492538eefc28ab",
           "content_bytes": 17995,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md | sha256sum"
         }
       }
     ]

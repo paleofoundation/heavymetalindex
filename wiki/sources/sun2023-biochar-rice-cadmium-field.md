@@ -122,3 +122,13 @@ App: Route as rice and soil-to-rice transfer context for cadmium. Flag contamina
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/agronomy13051335`; no DOI conflict was observed. The paper reports total cadmium only, so no species substitution issue arises. The brown-rice values are from a field experiment in Cd-contaminated paddy soil, not from retail rice sampling. Values are reported on the study's oven-dried plant-tissue basis. The biochar supplier name is omitted under the brand firewall. Exact brown-rice Cd concentrations are included only where the text reports numeric values; Figure 2 is graphical and is used for trend/significance statements rather than hand-read bar values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [5f73e04](https://github.com/paleofoundation/heavymetalindex/commit/5f73e04) | 2026-06-02 | ingest June 2: sun2023-biochar-rice-cadmium-field |
+<!-- END: hmi-page-history -->

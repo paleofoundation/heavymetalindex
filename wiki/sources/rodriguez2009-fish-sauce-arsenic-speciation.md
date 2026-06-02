@@ -168,5 +168,6 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [fb729e7](https://github.com/paleofoundation/heavymetalindex/commit/fb729e7) | 2026-06-02 | ingest: rodriguez2009-fish-sauce-arsenic-speciation fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
 <!-- END: hmi-page-history -->

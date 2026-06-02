@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: coffee
 public_page: products/coffee
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 # Workbench standards snapshot — Coffee

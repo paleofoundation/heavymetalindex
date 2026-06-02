@@ -23,12 +23,12 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-non-soy-non-rice",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "8b1e33d99fb3652edd1e3fe730207a74f559da759f57640c5278c43cf72c9caa",
+      "content_sha256": "ec7249e0ae180fb436f28bf230b244c5e40ece9379695708322697bbfccf8a7d",
       "content_bytes": 16305,
-      "last_commit_sha": "c3909aa",
+      "last_commit_sha": "566c7b2",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/plant-milks-non-soy-non-rice.md | sha256sum"
+      "verify_command": "git show 566c7b2:wiki/products/plant-milks-non-soy-non-rice.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marques2021-trace-elements-milks-plant-based-drinks",
         "content_pin": {
-          "content_sha256": "0691f195df1ff40c54f59c2bc87fc94b8ce36aad74b72b44cae0dbbc7bbf70e7",
+          "content_sha256": "83514099247caafbe941a8291e6652955e3f1701c7650f7256301fca67cd7e0c",
           "content_bytes": 5129,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/song2024-crvi-hplc-icpms-food-reduction",
         "content_pin": {
-          "content_sha256": "82909456c7eeaf4db9e57174f2b68836f1a741ef4849e859658fd833960deae8",
+          "content_sha256": "c0585dc8e4faa6e7d02ee7e72926879c9b7bde3a6ddb7f399c32ac7d6fdfcec9",
           "content_bytes": 13752,
-          "last_commit_sha": "c3909aa",
+          "last_commit_sha": "566c7b2",
           "last_commit_date": "2026-06-02",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show c3909aa:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
+          "verify_command": "git show 566c7b2:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
         }
       }
     ]

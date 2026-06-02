@@ -2,15 +2,15 @@
 source_page: wiki/products/baby-cereals-dry-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4fbd954ad78921a78a16ad3d3ddbfec7106e98579bd76985a4dee6d6ff320d8b
+source_page_sha256: d844007c8f31d9ad4afb1bc5da7ac1ded9f1a452143121b468f3fcd543a48aa3
 total_claims: 172
 cited_claims: 171
 uncited_claims: 1
-distinct_cited_targets: 89
-distinct_cited_sources: 81
+distinct_cited_targets: 90
+distinct_cited_sources: 82
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 172 |
 | cited claims | 171 |
 | uncited claims | 1 |
-| distinct cited targets | 89 |
-| distinct cited `sources/` pages | 81 |
+| distinct cited targets | 90 |
+| distinct cited `sources/` pages | 82 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -2122,7 +2122,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `am | 2025 | Government guidance | FDA final Closer to Zero guidance setting the 20 ppb Pb action level for dry infant ce`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -2250,6 +2250,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -2258,7 +2260,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `005 ppb`
 - Context: `AAS; infant rice cereal (Brand 2) returned the highest single-sample value at 1,005 ppb Pb, exceeding FAO/WHO ML fivefol`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -2386,6 +2388,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -2394,7 +2398,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `0.06 µg/kg`
 - Context: `t report | EFSA CONTAM Panel updated iAs risk assessment establishing BMDL₀₅ of 0.06 µg/kg bw/day from skin cancer endpo`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -2522,6 +2526,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -2530,7 +2536,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `d as the empirical basis for the January 2025 final action levels including the 20 ppb dry-cereal level | | 15 | [[sourc`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -2658,6 +2664,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -2666,7 +2674,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `135 ppb`
 - Context: `Pb, Cd, and Hg in FY2009–FY2024 FDA dry infant cereals with rice named (tAs p90 135 ppb, Pb p90 19.2 ppb, Cd p90 22 ppb;`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -2794,6 +2802,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -2802,7 +2812,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `19.2 ppb`
 - Context: `n FY2009–FY2024 FDA dry infant cereals with rice named (tAs p90 135 ppb, Pb p90 19.2 ppb, Cd p90 22 ppb; n=252–256) | |`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -2930,6 +2940,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -2938,7 +2950,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `22 ppb`
 - Context: `DA dry infant cereals with rice named (tAs p90 135 ppb, Pb p90 19.2 ppb, Cd p90 22 ppb; n=252–256) | | 16 | [[sources/ga`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -3066,6 +3078,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -3074,7 +3088,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `40 ppb`
 - Context: `Pb below LOD in all samples; mercury signal in cereal-cream/grain products (max 40 ppb tHg) | | 18 | [[sources/toledo202`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -3202,6 +3216,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -3210,7 +3226,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `142 ppb`
 - Context: `Brazilian infant cereals by ICP-MS/HPLC-ICP-MS; rice-based pool (n=14) tAs p90 142 ppb with rice/non-rice subcategory b`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -3338,6 +3354,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -3346,7 +3364,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `249 ppb`
 - Context: `30 Austrian market rice and rice products (including infant rice); iAs range 60–249 ppb; 22 of 30 samples would exceed t`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -3474,6 +3492,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -3482,7 +3502,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppb`
 - Context: `including infant rice); iAs range 60–249 ppb; 22 of 30 samples would exceed the 100 ppb infant ML; reference method vali`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -3610,6 +3630,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -3618,7 +3640,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `85 ppb`
 - Context: `independent primary data; cites Clean Label Project survey reporting iAs up to 85 ppb in infant rice cereals | | 25 | [`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -3746,6 +3768,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -3754,7 +3778,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `90.4 ppb`
 - Context: `group (n=9, mostly rice-containing) reported highest total arsenic values: mean 90.4 ppb, median 126 ppb, max 132 ppb |`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -3882,6 +3906,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -3890,7 +3916,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `126 ppb`
 - Context: `y rice-containing) reported highest total arsenic values: mean 90.4 ppb, median 126 ppb, max 132 ppb | | 26 | [[sources/`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -4018,6 +4044,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -4026,7 +4054,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `132 ppb`
 - Context: `ning) reported highest total arsenic values: mean 90.4 ppb, median 126 ppb, max 132 ppb | | 26 | [[sources/parker2022-ba`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -4154,6 +4182,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -4162,7 +4192,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `820 ppb`
 - Context: `six compositions including rice-flour and multicereal variants; Al range 920–8,820 ppb; rice-containing compositions ro`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -4290,6 +4320,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -4298,7 +4330,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppb`
 - Context: `(Docket FDA-2016-D-1099) | 2020 | Government report | FDA final action level of 100 ppb iAs for infant rice cereals (dry`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -4426,6 +4458,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -4434,7 +4468,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppb`
 - Context: `fant foods including rice cereal (n=12); ~75% of rice-based samples exceeded EU 100 ppb iAs ML; rice cereal mean tAs 134`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -4562,6 +4596,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -4569,8 +4605,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `134 ppb`
-- Context: `2); ~75% of rice-based samples exceeded EU 100 ppb iAs ML; rice cereal mean tAs 134 ppb | | 39 | [[sources/shi2020-rice-`
-- Cited targets (66):
+- Context: `2); ~75% of rice-based samples exceeded EU 100 ppb iAs ML; rice cereal mean tAs 134 ppb | | 40 | [[sources/shi2020-rice-`
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -4698,6 +4734,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -4706,7 +4744,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `269 ppb`
 - Context: `ts; Cr(VI) not detected in any sample; breakfast cereals highest total Cr (mean 269 ppb); confirms food-matrix Cr is ess`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -4834,6 +4872,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -4842,7 +4882,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppb`
 - Context: `| 2018 | Peer-reviewed | iAs in UK infant rice-based foods before and after EU 100 ppb ML implementation; 2017 pure bab`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -4970,6 +5010,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -4978,7 +5020,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `66 ppb`
 - Context: `ore and after EU 100 ppb ML implementation; 2017 pure baby rice porridge median 66 ppb (down from 127 ppb in 2014); mult`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -5106,6 +5148,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -5114,7 +5158,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `127 ppb`
 - Context: `00 ppb ML implementation; 2017 pure baby rice porridge median 66 ppb (down from 127 ppb in 2014); multi-grain porridge m`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -5242,6 +5286,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -5250,7 +5296,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `porridge median 66 ppb (down from 127 ppb in 2014); multi-grain porridge median 10 ppb; non-labelled general rice cakes`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -5378,6 +5424,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -5385,8 +5433,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `120 ppb`
-- Context: `n 2014); multi-grain porridge median 10 ppb; non-labelled general rice cakes at 120 ppb remain a risk vector | | 46 | [[`
-- Cited targets (66):
+- Context: `n 2014); multi-grain porridge median 10 ppb; non-labelled general rice cakes at 120 ppb remain a risk vector | | 47 | [[`
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -5514,6 +5562,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -5522,7 +5572,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `85 ppb`
 - Context: `speciation ICP-MS in 149 US infant rice cereals (rice as only grain); mean iAs 85 ppb, range 22–142 ppb; all samples be`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -5650,6 +5700,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -5658,7 +5710,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `142 ppb`
 - Context: `S in 149 US infant rice cereals (rice as only grain); mean iAs 85 ppb, range 22–142 ppb; all samples below FDA proposed`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -5786,6 +5838,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -5794,7 +5848,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `100 ppb`
 - Context: `only grain); mean iAs 85 ppb, range 22–142 ppb; all samples below FDA proposed 100 ppb action level; primary empirical`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -5922,6 +5976,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -5930,7 +5986,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `323 ppb`
 - Context: `troduction to elevated urinary iAs and organic arsenic species; cites iAs up to 323 ppb and DMA up to 297 ppb in rice pr`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -6058,6 +6114,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -6066,7 +6124,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `297 ppb`
 - Context: `urinary iAs and organic arsenic species; cites iAs up to 323 ppb and DMA up to 297 ppb in rice products eaten during we`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -6194,6 +6252,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -6202,7 +6262,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `180 ppb`
 - Context: `ce-based infant/toddler products (Spain/UK/Italy); infant rice cereal means 115–180 ppb; dietary exposure modeling shows`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -6330,6 +6390,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -6338,7 +6400,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.71 ppb`
 - Context: `commercial rice products including 9 baby-food rice items; baby-rice mean MeHg 1.71 ppb; not significantly different fr`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -6466,6 +6528,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -6474,7 +6538,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `g, Ni, Sn) category-level survey in 297 samples; cereal-based infant foods: tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Ni 124–12`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -6602,6 +6666,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -6610,7 +6676,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `6 ppb`
 - Context: `egory-level survey in 297 samples; cereal-based infant foods: tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Ni 124–127 ppb; rice vs`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -6738,6 +6804,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -6746,7 +6814,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3 ppb`
 - Context: `l survey in 297 samples; cereal-based infant foods: tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Ni 124–127 ppb; rice vs non-rice`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -6874,6 +6942,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -6882,7 +6952,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `127 ppb`
 - Context: `7 samples; cereal-based infant foods: tAs 10 ppb, iAs 5–6 ppb, Cd 3 ppb, Ni 124–127 ppb; rice vs non-rice not separated`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -7010,6 +7080,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -7017,8 +7089,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `283 ppb`
-- Context: `her foods; not a primary concentration source; modeled rice-cereal iAs range 23–283 ppb | | 58 | [[sources/signes-pastor`
-- Cited targets (66):
+- Context: `her foods; not a primary concentration source; modeled rice-cereal iAs range 23–283 ppb | | 59 | [[sources/signes-pastor`
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -7146,6 +7218,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -7154,7 +7228,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `121 ppb`
 - Context: `t iAs occurrence in EU and US baby rice and rice cereals; baby rice medians 114–121 ppb; rice cereal medians 75–91 ppb;`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -7282,6 +7356,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -7290,7 +7366,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `91 ppb`
 - Context: `by rice and rice cereals; baby rice medians 114–121 ppb; rice cereal medians 75–91 ppb; highest rice cereal value 323 pp`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -7418,6 +7494,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -7426,7 +7504,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `323 ppb`
 - Context: `e medians 114–121 ppb; rice cereal medians 75–91 ppb; highest rice cereal value 323 ppb; primary iAs occurrence source f`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -7554,6 +7632,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -7562,7 +7642,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `Cd, Cr, Pb, Ni, Co in 330 Canadian baby-food samples (1975 market) by AAS; LOD 10 ppb precludes modern percentile math;`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -7690,6 +7770,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -7698,7 +7780,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `30 ppb`
 - Context: `ath; principal value is documenting the ~75× Pb reduction trajectory from 1980 (30 ppb mean prepared formula) to present`
-- Cited targets (66):
+- Cited targets (67):
   - `wiki/sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/arsenic2025-unknown\.md` (page missing)
@@ -7826,6 +7908,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` (page missing)
     - audit rows: none
   - `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` (page missing)
     - audit rows: none
@@ -7928,6 +8012,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/sipahi2014-toxic-metals-infant-formulas-turkey\.md` | sources | 0 | — | — |
 | `wiki/sources/su2023-arsenic-brown-rice-benefits-risks\.md` | sources | 0 | — | — |
 | `wiki/sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\.md` | sources | 0 | — | — |
+| `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/wehmeier2023-ias-rice-cola-field-method\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |
 | `wiki/testing/icp-ms.md` | testing | 0 | — | — |

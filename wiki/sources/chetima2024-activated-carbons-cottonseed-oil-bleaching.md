@@ -148,3 +148,14 @@ Microbiome: Not addressed.
 - Langmuir and Freundlich parameter values in Table 4 include several entries with negative K_L or K_F (e.g., AC1 K_L = −0.293 at 70 °C; AC2 K_F = −95.35 at 70 °C). Negative isotherm constants are physically meaningless and indicate poor model fit at the low-temperature end. The R² values reported for the same rows (0.979 and 0.915) suggest the linearized regression converged on a mathematical fit that does not correspond to a meaningful adsorption model. Reproduced as printed; the authors' own discussion (Section 3.3.2) acknowledges that Freundlich n less than 1 implies weak adsorbate-adsorbent forces but does not directly address the negative-constant entries.
 - Jurisdictions are left empty. The study is performed in Cameroon (University of Maroua, University of Bamenda) but the conclusions are framed as a general process recommendation for cottonseed-oil refining, not a Cameroon-specific regulatory claim.
 - Near-duplicates: none identified. The same author group's prior paper (Chetima et al. 2018, *Processes* 6(3)) on activated-carbon decolorization of cottonseed oil is cited as Reference [24] but is a distinct earlier study using different activation methods; not present in the wiki corpus at the time of this ingest.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4273f5b](https://github.com/paleofoundation/heavymetalindex/commit/4273f5b) | 2026-06-02 | audit: chetima2024-activated-carbons-cottonseed-oil-bleaching revised |
+| [02f806e](https://github.com/paleofoundation/heavymetalindex/commit/02f806e) | 2026-06-02 | ingest: chetima2024-activated-carbons-cottonseed-oil-bleaching fresh from Manual Fetch Kimi /June 1 more |
+<!-- END: hmi-page-history -->

@@ -99,3 +99,13 @@ Courses: Useful for teaching dry-leaf versus brewed-residue basis, LOD substitut
 ## Verification notes
 
 The source identifies samples by generic tea type, origin, and acronym, not brand names; this page therefore preserves category-level origin/sample labels only. The main-text concentration figures are not extractable as a complete numeric per-sample table from the PDF text, so this page records the printed narrative ranges and the exact Table 3 LODs and Table 4 THQ values rather than estimating graph coordinates. The paper contains a small internal inconsistency: the Results text says Pb was below LOD in all samples, while the THQ section says Pb was substituted at the LOD for almost all samples; this page treats Pb as non-detect/LOD-substituted unless a later supplemental data file provides exact measured values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [71a4a99](https://github.com/paleofoundation/heavymetalindex/commit/71a4a99) | 2026-06-02 | ingest June 2: grzadka2024-tea-radioisotopes-heavy-metals |
+<!-- END: hmi-page-history -->

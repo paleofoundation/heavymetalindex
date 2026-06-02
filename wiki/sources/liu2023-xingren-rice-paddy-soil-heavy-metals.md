@@ -105,3 +105,13 @@ This page was built from the full PDF, including the sampling section, chemical 
 Speciation guardrails: the source reports total As and total Hg, not inorganic arsenic or methylmercury. The source explicitly says its Cr concentration is total Cr even though it uses Cr(VI) toxicity factors for risk assessment; this page routes chromium as total/broad Cr and does not treat the study as Cr(VI) occurrence evidence.
 
 Paper-internal caution: Figure 2/table text shows Pb soil SD as 38.20 mg/kg in the repeated caption, while one prose extraction line renders 36.57 mg/kg. The repeated Figure 2 caption value is used here and the discrepancy is flagged rather than silently harmonized. The abstract/conclusion also refer to risk caused by ingesting "rice husk," although the methods state that husks were removed before grain analysis; this page treats the concentration values as dehulled rice-grain data because that is the stated analytical matrix.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7e58115](https://github.com/paleofoundation/heavymetalindex/commit/7e58115) | 2026-06-02 | ingest June 2: liu2023-xingren-rice-paddy-soil-heavy-metals |
+<!-- END: hmi-page-history -->

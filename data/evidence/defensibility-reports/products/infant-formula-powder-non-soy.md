@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-powder-non-soy.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 9d5fa79699c7e28606e17fbb667da9fcaf9ecdf190fb70e5d5499ba1fe0360fa
+source_page_sha256: 5b012ab1b2315bb52e46268c66ed36cf08fef55d60248aab408ab319c8019f1f
 total_claims: 116
 cited_claims: 116
 uncited_claims: 0
-distinct_cited_targets: 112
-distinct_cited_sources: 107
+distinct_cited_targets: 113
+distinct_cited_sources: 108
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 611
+audit_log_total_rows: 635
 noindex: true
 ---
 
@@ -32,11 +32,11 @@ This report joins every numerical claim on the page to its citation chain and th
 | total claims | 116 |
 | cited claims | 116 |
 | uncited claims | 0 |
-| distinct cited targets | 112 |
-| distinct cited `sources/` pages | 107 |
+| distinct cited targets | 113 |
+| distinct cited `sources/` pages | 108 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 611 |
+| audit log rows read | 635 |
 
 ## Page-level audit rows
 
@@ -1376,7 +1376,7 @@ This report joins every numerical claim on the page to its citation chain and th
 
 #### Claim `10 ppb`
 - Context: `and powdered infant formula (n=330 total; historical baseline; AAS method with 10 ppb LOD floor) | <!-- END: hmi-source`
-- Cited targets (88):
+- Cited targets (89):
   - `wiki/sources/abstract2020-content-dietary-exposure-toxic\.md` (page missing)
     - audit rows: none
   - `wiki/sources/akhtar2017-pakistan-infant-formula-nickel-aflatoxin\.md` (page missing)
@@ -1408,6 +1408,8 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk\.md` (page missing)
     - audit rows: none
   - `wiki/sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
     - audit rows: none
@@ -1685,6 +1687,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk.md` | sources | 0 | — | — |
 | `wiki/sources/carignan2015-arsenic-infancy-well-water-breast-milk\.md` | sources | 0 | — | — |
 | `wiki/sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort\.md` | sources | 0 | — | — |
+| `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md` | sources | 0 | — | — |

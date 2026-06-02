@@ -81,3 +81,13 @@ Courses: Useful for teaching environmental matrix fit, total-element versus spec
 ## Verification notes
 
 This page was built from the full PDF text, including Table 2, Table 4, and Appendix Table A1. The concentration table is primary analytical data for settled dust and is retained as context-only evidence because the matrix is not a product, food, ingredient, or consumer-goods material. The source reports arsenic as total As by digestion/ICP-MS; it does not provide inorganic arsenic speciation. No brand names or product labels are present.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4c9bd4a](https://github.com/paleofoundation/heavymetalindex/commit/4c9bd4a) | 2026-06-02 | ingest June 2: wan2016-beijing-settled-dust-potentially-toxic-elements |
+<!-- END: hmi-page-history -->

@@ -105,3 +105,13 @@ Courses: Useful for teaching why environmental source data and food-occurrence d
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, study-area description, hazardous-waste source table, sampling and analytical methods, Tables 2-5, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source analyzes closed-dump solid urban waste, not foods or consumer products. Arsenic is recorded as total arsenic in frontmatter because the source does not report inorganic arsenic speciation.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [fbdb9d1](https://github.com/paleofoundation/heavymetalindex/commit/fbdb9d1) | 2026-06-02 | ingest June 2: gonzalez-arqueros2021-morelia-dump-metals |
+<!-- END: hmi-page-history -->

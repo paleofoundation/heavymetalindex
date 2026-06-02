@@ -86,3 +86,14 @@ Microbiome: Not addressed.
 - Table 1 gives Pb calibration R2 as 0.9987, while the discussion text describes Pb R2 as 0.9889. This page follows Table 1 for the calibration summary and records the discussion value as a source-internal inconsistency.
 - Table 1 also prints Pb LOQ as 0.015 mg/kg, below the Pb LOD of 0.016 mg/kg. The Methods section therefore quotes Cd LOD/LOQ and avoids using the anomalous Pb LOQ as a quality-control anchor.
 - The paper describes 81 samples overall and reports district means as mean +/- SD with n=3 in Table 3. The frontmatter `sample_n` captures the overall sample count; the table note captures the district-mean reporting basis.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [43efd96](https://github.com/paleofoundation/heavymetalindex/commit/43efd96) | 2026-06-02 | audit auto-fetched 2026-06-02: cumin spice source pages revised |
+| [84a519d](https://github.com/paleofoundation/heavymetalindex/commit/84a519d) | 2026-06-02 | ingest auto-fetched 2026-06-02: bekalu2025-black-cumin-heavy-metals-ethiopia |
+<!-- END: hmi-page-history -->

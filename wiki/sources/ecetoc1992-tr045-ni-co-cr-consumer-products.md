@@ -197,3 +197,14 @@ The report also reviews the dermatology literature on ACD epidemiology (Tables 1
 - Audit subagent (2026-06-02) flagged Implications #3 (Danish 0.5 µg/cm²/week vs ECETOC ≤1 ppm parallel) as asserting equivalence in wiki voice; verified that ECETOC's own framing in Section 5 / Section 7 is what supports the parallel and the two limits are not numerically equivalent. Rewrote the bullet to attribute the parallel to ECETOC's framing and note that the wiki has not independently verified equivalence.
 - Audit subagent (2026-06-02) flagged Mascaras "2 Unilever mascaras" phrasing as borderline brand-attribution; tightened to "2 mascaras (Unilever industry dataset, 1990; Austrian-market sampling)" to make the data-source-attribution framing unambiguous per Part 12 firewall.
 - Audit also flagged ACD prevalence anchors (Moeller 1990 "one in four women" Swedish quote; cobalt and chromium prevalence trend characterisations) as unverified from the pages re-checked. These remain in the wiki as paraphrases of the ECETOC report's own narrative summary in Section 3.2.2.4 and Tables 1-2; the quantitative figures are sourced from the cohort-by-cohort rows of Tables 1-2 rather than from a single quote and are not the primary contribution of this source page to HMI (the contamination-data tables are). Flagging for future fact-check pass without altering the paraphrase.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c036da0](https://github.com/paleofoundation/heavymetalindex/commit/c036da0) | 2026-06-02 | audit: ecetoc1992-tr045-ni-co-cr-consumer-products revised |
+| [7984e0a](https://github.com/paleofoundation/heavymetalindex/commit/7984e0a) | 2026-06-02 | ingest: ecetoc1992-tr045-ni-co-cr-consumer-products fresh from manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/01_AP_Countertop_Tile_Floor |
+<!-- END: hmi-page-history -->

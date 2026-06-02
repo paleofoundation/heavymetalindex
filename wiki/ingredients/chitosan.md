@@ -100,6 +100,7 @@ contamination_profile:
     basis: null
     notes: null
 literature_scope: thin
+sources: 1
 updated: 2026-06-02
 ---
 
@@ -124,3 +125,13 @@ _Auto-generated from source-page frontmatter. The "Used on this page for" column
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/bezrodnykh2023-crayfish-chitosan-residual-metals\|Bezrodnykh et al. 2023]]. *A Walkway from Crayfish to Oligochitosan*, Applied Sciences | 2023 | Peer-reviewed | *[awaiting synthesis]* |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [2b356c7](https://github.com/paleofoundation/heavymetalindex/commit/2b356c7) | 2026-06-02 | ingest June 2: bezrodnykh2023-crayfish-chitosan-residual-metals |
+<!-- END: hmi-page-history -->

@@ -89,3 +89,13 @@ Courses: Useful for teaching Cr(VI) versus total Cr, AC versus DC electrochemica
 ## Verification notes
 
 This page was built from the full PDF, including the electrode synthesis and characterization methods, batch adsorption protocol, flow-through AC device methods, Figure 3 adsorption kinetics/isotherms, Figure 4 bias/duty/flow parameter results, Figure 5 pH/coexisting-ion tests, Figure 6 DC/AC comparison and durability test, Figure 7 mechanism discussion, conclusion, supplementary-materials note, and data-availability statement. Products and ingredients are intentionally empty because the paper measures prepared Cr(VI) wastewater solutions. The title uses "Alternative Current" as printed by the source.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [ea8db66](https://github.com/paleofoundation/heavymetalindex/commit/ea8db66) | 2026-06-02 | ingest June 2: yang2023-amidoxime-carbon-felt-crvi-removal |
+<!-- END: hmi-page-history -->

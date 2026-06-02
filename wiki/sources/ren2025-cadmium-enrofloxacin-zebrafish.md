@@ -136,3 +136,13 @@ Courses: Useful for teaching mixture-toxicology adjudication, especially the dis
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, Methods sections 2.1-2.3, acute and chronic exposure descriptions, Figures 1-8, Results sections 3.1-3.4, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source is a laboratory zebrafish ecotoxicology experiment. The abstract describes the mixture as having "significant synergistic effects," but the Results section reports MDR = 0.96 within a 0.58-1.04 confidence interval and classifies the mixture effect as additive; the Conclusions section also says additive. This page follows the Results/Conclusion classification and records the abstract wording as an internal inconsistency. The ENR-only acute concentration list in the text omits the 200 mg/L point shown in Figure 1b, so the page preserves both observations without inferring missing mortality values.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [81d2c82](https://github.com/paleofoundation/heavymetalindex/commit/81d2c82) | 2026-06-02 | ingest June 2: ren2025-cadmium-enrofloxacin-zebrafish |
+<!-- END: hmi-page-history -->

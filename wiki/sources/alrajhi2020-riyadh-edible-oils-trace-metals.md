@@ -78,3 +78,13 @@ Courses: Useful for teaching non-detect notation, table-vs-text contradictions, 
 ## Verification notes
 
 This page was built from the full PDF, including Table I sample rows and summary statistics, the digestion and ICP-OES method description, the discussion sections for each metal, Table II correlations, and the conclusion. Two internal inconsistencies were retained rather than silently corrected: Table I reports an average Cr concentration of 0.072 mg/kg while the discussion text gives 0.026 mg/kg, and the Pb discussion says "16 of the 37 samples" although the study and Table I describe 54 samples. This page follows the Table I summary statistics for concentration values and flags both conflicts for audit.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d86ebb7](https://github.com/paleofoundation/heavymetalindex/commit/d86ebb7) | 2026-06-02 | ingest June 2: alrajhi2020-riyadh-edible-oils-trace-metals |
+<!-- END: hmi-page-history -->

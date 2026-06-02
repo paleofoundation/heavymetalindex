@@ -102,3 +102,13 @@ Courses: Useful for teaching why metal concentration in a leachate column, regul
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, study-area selection, column setup, leachate preparation and sampling, ICP-MS/ICP-OES methods, Table 1, Table 2, Figures 7-12, C&DW-content and gypsum-effect discussions, conclusions/recommendations, and data-availability statement. Arsenic and mercury are recorded as total arsenic and total mercury because the source does not report species-specific As or Hg chemistry.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [eecf17f](https://github.com/paleofoundation/heavymetalindex/commit/eecf17f) | 2026-06-02 | ingest June 2: molla2025-cdw-fines-landfill-leachate-metals |
+<!-- END: hmi-page-history -->

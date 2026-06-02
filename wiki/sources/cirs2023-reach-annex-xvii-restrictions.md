@@ -198,6 +198,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [121cbf8](https://github.com/paleofoundation/heavymetalindex/commit/121cbf8) | 2026-06-01 | audit: cirs2023-reach-annex-xvii-restrictions [revised] |
 | [b0f7f45](https://github.com/paleofoundation/heavymetalindex/commit/b0f7f45) | 2026-06-01 | ingest: cirs2023-reach-annex-xvii-restrictions [fresh] from Manual Fetch Kimi /May 21 Kimi_Agent_Download Corruption Issue/_extracted_infantdurable_05_Regulatory_ASTM_OEKOTEX_REACH/05_Regulatory_ASTM_OEKOTEX_REACH |

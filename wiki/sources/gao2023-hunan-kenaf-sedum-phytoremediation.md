@@ -97,3 +97,14 @@ App: Route as contaminated-farmland and phytoremediation context for Cd, Cu, Pb,
 The PDF has author attribution and DOI `10.3390/agronomy13051231`; no DOI conflict was observed. This is a primary field study, but the matrices are contaminated soil and non-food phytoremediation biomass, not food, feed, or consumer-product matrices. No ingredients or products are listed in frontmatter for that reason. The source uses total elemental Cd, Cu, Pb, and Zn; no speciation issue arises. Values from Figures 1-4 are partly graphical; the page quotes exact numeric values only where the PDF text or Table 2 provides them directly.
 
 2026-06-02 enhancement: replaced non-standard matrix slugs (`contaminated-farmland-soil`, `phytoremediation-biomass`, `kenaf`, `sedum-plumbizincicola`) with the recognized vocabulary entries `agricultural-soil` and `plant-tissue`. Both terms appear in the `_no_route` block of `data/evidence/matrix-to-product-map.json`, so the routing layer correctly ignores them rather than emitting false product routes. Plant-species identifiers (kenaf, Sedum plumbizincicola) are not matrix categories and have been dropped from frontmatter; the species names remain in the body where they belong.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7b9326c](https://github.com/paleofoundation/heavymetalindex/commit/7b9326c) | 2026-06-02 | ingest: gao2023-hunan-kenaf-sedum-phytoremediation enhanced from Manual Fetch Kimi/June 2 Manual Fetches |
+| [32608a9](https://github.com/paleofoundation/heavymetalindex/commit/32608a9) | 2026-06-02 | ingest June 2: gao2023-hunan-kenaf-sedum-phytoremediation |
+<!-- END: hmi-page-history -->

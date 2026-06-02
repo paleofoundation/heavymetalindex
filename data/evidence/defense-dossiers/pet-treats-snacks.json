@@ -22,18 +22,48 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-treats-snacks",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1f3fdb5a96a3b1d3dcb7822a267279e7dfa6e0aa6e63ca68f1913003261a6cc0",
-      "content_bytes": 8750,
-      "last_commit_sha": "c3909aa",
+      "content_sha256": "90134abe83f39fe66f0e4882fc6d5c2c8404c7467df9867db769633e0c4f41bb",
+      "content_bytes": 9295,
+      "last_commit_sha": "5799787",
       "last_commit_date": "2026-06-02",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show c3909aa:wiki/products/pet-treats-snacks.md | sha256sum"
+      "verify_command": "git show 5799787:wiki/products/pet-treats-snacks.md | sha256sum"
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/kepinska-pacelik2023-dog-snacks-trace-elements",
+        "title": "Chemical Composition and Palatability of Nutraceutical Dog Snacks",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Cu",
+          "Fe",
+          "Mn",
+          "Zn",
+          "Co",
+          "Cd",
+          "Pb",
+          "Mo",
+          "Cr",
+          "Ni"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/kepinska-pacelik2023-dog-snacks-trace-elements",
+        "content_pin": {
+          "content_sha256": "653bb49e5ddc0b6f3e17abe38fe679eedf4f3073a736ac0663cf14ec62dcbed7",
+          "content_bytes": 8335,
+          "last_commit_sha": "4b6fbe2",
+          "last_commit_date": "2026-06-02",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 4b6fbe2:wiki/sources/kepinska-pacelik2023-dog-snacks-trace-elements.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

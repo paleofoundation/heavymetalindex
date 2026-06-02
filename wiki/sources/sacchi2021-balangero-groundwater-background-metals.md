@@ -123,3 +123,13 @@ Courses: Useful for teaching why total Cr and Cr(VI) must remain separate, why n
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, study-area geology, hydrogeological setting, Materials and Methods, sampling and analytical methods, Tables 1-9, the natural-background-level discussion, conclusions, supplementary-material description, and data-availability statement. Products and ingredients are intentionally empty because no food, crop, ingredient, consumer product, bottled water, or finished drinking-water sample was analyzed. Cr(VI) is kept separate from total Cr. The proposed NBL values are the paper's environmental background estimates and are not HMTc standards or pooled benchmark percentiles.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [d354275](https://github.com/paleofoundation/heavymetalindex/commit/d354275) | 2026-06-02 | ingest June 2: sacchi2021-balangero-groundwater-background-metals |
+<!-- END: hmi-page-history -->

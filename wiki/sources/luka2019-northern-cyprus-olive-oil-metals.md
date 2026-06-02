@@ -98,3 +98,13 @@ Microbiome: Not addressed.
 - `sample_n: 15` records the fifteen Table 5 observations. Table 5 reports each as mean +/- SD with n=3.
 - The discussion says the As range is 0.03-0.75 ug/g and also states that values are below CODEX STAN 193-1995 at 0.1 mg/kg for As, Pb, and Cd. Because 1 ug/g is equivalent to 1 mg/kg, several Table 5 As and Pb values are above 0.1 mg/kg. This page preserves Table 5 and treats the broad "below Codex" statement as a source-side inconsistency.
 - The source reports total arsenic and total chromium. These values must not be used as inorganic arsenic or Cr(VI).
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [6694ac7](https://github.com/paleofoundation/heavymetalindex/commit/6694ac7) | 2026-06-02 | ingest June 2: luka2019-northern-cyprus-olive-oil-metals |
+<!-- END: hmi-page-history -->

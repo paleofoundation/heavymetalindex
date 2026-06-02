@@ -105,3 +105,13 @@ Courses: Useful for teaching the difference between occurrence concentration in 
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, materials and methods, orthogonal design, Tables 1-5, Figures 1-8, conclusions, supplementary-materials note, and data-availability statement. The paper reports primary Pb(II) adsorption and residual-solution measurement data, but no food, ingredient, consumer-product, or market-sampling concentrations. Reagent and instrument brand names were omitted from this page under the brand firewall.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [7f1bbdf](https://github.com/paleofoundation/heavymetalindex/commit/7f1bbdf) | 2026-06-02 | ingest June 2: pan2021-lignosulfonate-chitosan-lead |
+<!-- END: hmi-page-history -->

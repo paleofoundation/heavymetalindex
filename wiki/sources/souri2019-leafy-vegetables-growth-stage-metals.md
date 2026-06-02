@@ -83,6 +83,7 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
+| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [90371ac](https://github.com/paleofoundation/heavymetalindex/commit/90371ac) | 2026-06-01 | codex sprint 2026-06-01 21:49: end-of-fire cleanup |
 | [e8fef7d](https://github.com/paleofoundation/heavymetalindex/commit/e8fef7d) | 2026-06-01 | audit revise souri2019 leafy vegetables source |

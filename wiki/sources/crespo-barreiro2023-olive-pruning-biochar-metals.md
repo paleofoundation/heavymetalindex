@@ -115,3 +115,14 @@ The PDF has author attribution and DOI `10.3390/agriculture13051064`; no DOI con
 Audit subagent (2026-06-02) flagged the BMEC Zn entry `51.31 +/- 51.31` as a paper-internal oddity: Table 4 in the published PDF prints mean and SD as the same numeric, which is almost certainly a source typo (the other four Zn rows have SD values one to two orders of magnitude smaller than the mean). The wiki page faithfully reproduces what the source prints; downstream synthesis should treat the BMEC Zn uncertainty as unreliable rather than as a genuine +/- 51.31 mg/kg interval.
 
 Audit subagent (2026-06-02) also flagged that the `matrices:` entries (`biochar`, `olive-pruning-biochar`, `agricultural-soil-amendment`) are not in the example matrices vocabulary in `docs/gpt-collaboration/system-prompt.md`. Matrices is documented as an open-ended bare-string controlled vocabulary, and these slugs are the most accurate broad-scope descriptors for this agricultural-input source; they are proposed for inclusion if/when the matrices vocabulary is formalized. The `[[supply-chain/soil-to-plant-transfer]]` link in `## Wiki pages this source may touch` is verified to exist at `wiki/supply-chain/soil-to-plant-transfer.md` and is not a missing slug; the audit's concern was triggered by the taxonomy-snapshot.md covering only ingredients/products/metals/regulations.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [4c89e25](https://github.com/paleofoundation/heavymetalindex/commit/4c89e25) | 2026-06-02 | audit: crespo-barreiro2023-olive-pruning-biochar-metals revised |
+| [6b423a8](https://github.com/paleofoundation/heavymetalindex/commit/6b423a8) | 2026-06-02 | ingest June 2: crespo-barreiro2023-olive-pruning-biochar-metals |
+<!-- END: hmi-page-history -->

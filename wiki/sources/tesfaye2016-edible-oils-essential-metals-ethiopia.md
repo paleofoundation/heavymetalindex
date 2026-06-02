@@ -89,3 +89,13 @@ Microbiome: Not addressed.
 - The abstract reports Cu and Zn values as "mg", while Table 5 labels the concentration columns as mg/L. This page follows Table 5 and treats mg/L as the source-reported unit.
 - `sample_n: 4` counts the four market oil samples; the analytical measurements were performed in triplicate.
 - Provisional ingredient scaffolds were created for [[ingredients/palm-oil]] and [[ingredients/niger-seed-oil]] because neither exact ingredient slug existed before this ingest.
+
+<!-- BEGIN: hmi-page-history -->
+## Page history
+
+The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+
+| Commit | Date | Description |
+| --- | --- | --- |
+| [c70fc46](https://github.com/paleofoundation/heavymetalindex/commit/c70fc46) | 2026-06-02 | ingest June 2: tesfaye2016-edible-oils-essential-metals-ethiopia |
+<!-- END: hmi-page-history -->
