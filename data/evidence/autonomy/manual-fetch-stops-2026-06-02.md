@@ -129,3 +129,30 @@ Per skill Phase 1 step 1: "Skip PDFs whose existing pages are post-2026-05-14 cl
 
 **Wrapper observation (not blocking):** the manual-fetch wrapper's "next candidate" selection apparently does not consult existing pages' `near_duplicates` sha256 lists before passing a PDF to this skill. A wrapper enhancement that pre-filters candidate PDFs against the set of recorded `near_duplicates` sha256s across `wiki/sources/*.md` would prevent further byte-identical duplicate ticks (this candidate is the second Kimi-folder duplicate encountered today on the same regulation PDF). Not in scope for this per-PDF skill cycle.
 
+## STOP: KADC_fda-tds-fy2018-2020-elements-report — byte-identical duplicate of already-ingested canonical FDA TDS PDF
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FDA_TDS_FY2018-2020_Elements_Report.pdf`
+
+**Suggested handle:** KADC_fda-tds-fy2018-2020-elements-report
+
+**Citation:** U.S. Food and Drug Administration. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data.* July 2022, 83 pp. Center for Food Safety and Applied Nutrition / Office of Food Safety. Public-domain US Government work. Access: https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results
+
+**Reason for stop:** True duplicate. The candidate PDF's sha256 is `ba1f8c1ed5a35fe4faef6e48db6c4490d88405739a4480e623fdbc3097e9f1ef`, byte-identical to the canonical raw_path of the existing wiki source page [[wiki/sources/fda-tds-elements-2018-2020]] (`raw/reports/2022_07_14_TDSElementsReport_1436.pdf`, same sha256). The Kimi agent filed the same July 2022 FDA TDS narrative report PDF in the `05_Snacks_Canned_Prepared` subfolder of the corruption-issue folder tree as a cross-reference copy. Note: the parallel `03_Condiments/07_FDA_TDS_FY2018-2020_elements.pdf` copy is a DIFFERENT sha256 (`f4c28e22c3bbeb083b9be60303b6ee20d141f29d9cd2c6d9b7630c0df8fa11a3`) — that file is the printed summary-statistics supplement and is recorded on the companion CSV page [[wiki/sources/fda2022-tds-elements-fy2018-fy2020]] as `supplement_pdf_path`. Only this 05_Snacks copy is byte-identical to the canonical narrative report.
+
+**Identity checks:**
+- DOI: report has `no_doi_assigned: true` (US-government work, no DOI minted); FDA TDS results landing URL `https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results` resolves to the canonical narrative page; the FY2018-FY2020 results page (FDA 2022c) is the dataset destination.
+- raw_handle / cite-key grep (`fda-tds-elements`, `fda-tds-fy2018`, `FY2018-2020 Elements`, `TDSElementsReport_1436`): canonical page hit (`fda-tds-elements-2018-2020`) plus the CSV companion (`fda2022-tds-elements-fy2018-fy2020`) plus the analytical-key companion (`fda2022-tds-elements-analytical-key`); the three pages form a near-duplicate trio explicitly recorded in each other's `near_duplicates` blocks. No other matches.
+- sha256 `ba1f8c1e...`: identical to canonical `raw_path` sha256; now also recorded in the canonical page's new `duplicate_filesystem_copies` block (commit `c6f2117`).
+
+**Canonical-page state:**
+- `updated: 2026-06-02` (post-2026-05-14 clean threshold per skill Phase 1 step 1; bumped today by the metadata-only filesystem-copy enhancement)
+- Not in `data/evidence/routing_unresolved.csv`
+- Not in `data/evidence/routing_malformed.csv`
+- Last full audit cycle: 2026-05-20 audit-subagent pass; verdict REVISE; four findings applied (one ⚠️ false positive rejected); page in a known-clean state since.
+
+Per skill Phase 1 step 1: "Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed." Both conditions are satisfied.
+
+**Action taken:** Metadata-only enhancement committed (`c6f2117`): added a `duplicate_filesystem_copies` block to the canonical page frontmatter recording the second filesystem path + sha256 + note, and appended a one-paragraph Verification-notes update describing the second-copy provenance. Schema-clean: the existing wikilink-form `near_duplicates` field (which holds wikilinks to the two companion source pages) was preserved as-is; `duplicate_filesystem_copies` is a separate field for byte-identical filesystem copies of the same source file, with distinct semantics from `near_duplicates`. No claim, slug, value, exposure number, HMTc-firewall, or Key-numbers change. No audit subagent cycle spawned because no body or evidence-bearing frontmatter changed. No audit-queue.csv row appended for the same reason (the existing row already covers this cite-key with REVISE-applied status; appending a second row would double-count the audit verdict).
+
+**Wrapper observation (not blocking):** mirrors the EU 2023/915 stop note immediately above. The manual-fetch wrapper's "next candidate" selection still does not consult sha256 dedup against either the canonical `raw_path` `sha256:` field or the new `duplicate_filesystem_copies` block. A wrapper enhancement that pre-filters candidate PDFs against both fields across `wiki/sources/*.md` would prevent further byte-identical duplicate ticks (this is the third Kimi-folder byte-identical duplicate encountered today: Codex CXS 193, EU 2023/915, and now FDA TDS FY2018-FY2020 Elements report — all three filed in `05_Snacks_Canned_Prepared` as cross-reference copies). Not in scope for this per-PDF skill cycle.
+
