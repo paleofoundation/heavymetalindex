@@ -90,7 +90,7 @@ Headline values at day 45:
 | WBC (10^9/L) | 6.6 +/- 3.2 | 7.8 +/- 2.7 | 8.1 +/- 7.4 | 10.1 +/- 3.1 |
 | LYM (10^9/L) | 4.2 +/- 2.7 | 4.4 +/- 1.5 | 3.3 +/- 2.5 | 4.2 +/- 1.0 |
 | GR (10^9/L) | 4.0 +/- 2.9 | 2.7 +/- 0.8 | 1.9 +/- 1.5 | 3.2 +/- 1.2 |
-| MO (10^9/L) | 4.1 +/- 0.26 | 1.1 +/- 0.07 | 12.4 +/- 0.18 | 2.2 +/- 0.06 |
+| MO (10^8/L) | 4.1 +/- 0.26 | 1.1 +/- 0.07 | 12.4 +/- 0.18 | 2.2 +/- 0.06 |
 | RBC (10^12/L) | 0.9 +/- 2.6 | 4.2 +/- 1.0 | 1.8 +/- 1.2 | 5.3 +/- 3.5 |
 | Hb (g/L) | 82.9 +/- 37.3 | 89.3 +/- 10.6 | 22.7 +/- 11.7 | 69.9 +/- 14.4 |
 | Hct (L/L) | 0.26 +/- 0.011 | 0.21 +/- 0.05 | 0.24 +/- 0.15 | 0.07 +/- 0.04 |
@@ -171,3 +171,5 @@ Page built from the full PDF including the abstract, Sections 2.1-2.9 (clinoptil
 The paper-internal GSH wording "falling by 185.71% and 235.04%" in the Section 3.6 Results is reproduced verbatim above with a parenthetical reframing (roughly 2.9-fold and 3.4-fold reductions) for clarity; this is not a wiki-side numerical correction.
 
 Brand-firewall scan: the source does not name any consumer-product brands attached to contamination values. All vendor names retained in the page (PerkinElmer ELAN DRC-e, Perkin Elmer SCIEX DRC-e, PANalytical EMPYREAN, Malvern Panalytical, ZEISS EVO 25LS, EDAX Trident, Brookhaven Bi-90 plus, Mastersizer 3000, Micromeritics 3Flex, MindRay BC-30Vet, OPTIKA B-383 FL, Merck/Merck KGaA reagent catalogues, IAEA-H-8 and NIES N6 reference materials, GraphPad Prism, G*Power, GOLDSPAN bedding, Tecniplast ULTEM caging) refer to scientific instruments, reagents, reference materials, software, or husbandry materials and are permitted per Part 12 Exception 2 (scientific-method vendor/material names).
+
+Audit subagent (2026-06-02) flagged two units concerns; both verified against PDF p. 13 Table 4 header. Applied: MO column units corrected from `MO (10^9/L)` to `MO (10^8/L)` to match the source header. Documented: the wiki's WBC column units `(10^9/L)` are a silent normalisation of the source's `WBC (g/L)` (clearly a source-side typo, since g/L is a protein-concentration unit and the other leucocyte columns in the same table use 10^x/L); the underlying numerical values are unchanged. The source also reports an anomalous RBC value for the C (control) group at day 45 of 0.9 +/- 2.6 (mean smaller than SD, and an order of magnitude below the C group's day-30 RBC of 5.3 +/- 2.0); the wiki reproduces this verbatim because the auditor confirmed it is in the source as printed, but downstream synthesis passes should treat the C day-45 RBC datum as a likely source-side transcription error.
