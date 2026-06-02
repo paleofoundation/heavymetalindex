@@ -11,7 +11,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
 raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-whitening-products-cd-product_2025_10-37871-jbres2072.pdf
-metals: [Cu, Cd, tHg, Pb, tAs, Sb]
+metals: [Cu, Cd, tHg, Pb, tAs, Sb, Te, Bi, Nb, Ta]
 ingredients: []
 products: ["[[products/skin-lightening-cream]]", "[[products/makeup-foundation-powders-blush]]", "[[products/face-neck-leave-on-skin-care]]"]
 matrices: [cosmetic-personal-care]
@@ -79,15 +79,18 @@ Microbiome: No microbiome data.
 - [[products/skin-lightening-cream]]
 - [[products/makeup-foundation-powders-blush]]
 - [[products/face-neck-leave-on-skin-care]]
-- [[metals/mercury]]
+- [[metals/mercury-total]]
 - [[metals/lead]]
 - [[metals/cadmium]]
 - [[metals/arsenic-total]]
 - [[metals/copper]]
+- [[metals/tellurium]]
 
 ## Verification notes
 
 - DOI and citation metadata were verified from the PDF first page: DOI `10.37871/jbres2072`, Journal of Biomedical Research & Environmental Sciences, volume 6 issue 2, February 2025, pages 197-203.
 - The source reports brand names for individual cosmetics. This page does not reproduce brand-level tables and instead preserves category-level findings and source-reported maxima, consistent with the brand firewall.
 - The PDF has internal wording errors and one likely abstract typo stating the highest Bi value was found in a cream while also naming a different product; the numerical maxima are retained as reported.
+- Frontmatter preserves source-reported Te, Bi, Nb, and Ta because the paper reports them in the product matrices. `[[metals/tellurium]]` exists as a source-map stub; Bi, Nb, and Ta do not yet have dedicated metal pages, so they are not listed under "Wiki pages this source may touch" until routing vocabulary expands.
+- `matrices: [cosmetic-personal-care]` follows the established cosmetic-source convention used by sibling personal-care source pages, even though that bare-string matrix is not represented in the public taxonomy snapshot.
 - Evidence Fitness: EF-2 / routeable small-panel occurrence evidence for finished cosmetic products. Limitations: n=10, unclear sampling frame, no LOD/LOQ, XRF method only, and no mercury or arsenic speciation.
