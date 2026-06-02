@@ -14,8 +14,8 @@ raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_pap
 sha256: 5adf44c2d50c2cf6fa2f8cafac9db379fda930f6337c2d8dfe0e2fcddf8534dc
 access_date: 2026-04-25
 license: public-redistribute
-metals: [Cd, Pb, Hg, MeHg, iAs, Sn]
-ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/fruit]]", "[[ingredients/vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/root-vegetables]]", "[[ingredients/broccoli]]", "[[ingredients/onions]]", "[[ingredients/lentils]]", "[[ingredients/celery]]", "[[ingredients/fish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/seafood]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/organ-meats]]", "[[ingredients/meat]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/infant-formula-ingredients]]", "[[ingredients/rice-cereal]]", "[[ingredients/water]]", "[[ingredients/quinoa]]"]
+metals: [Cd, Pb, Hg, MeHg, iAs, tAs, Sn]
+ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/fruit]]", "[[ingredients/vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/root-vegetables]]", "[[ingredients/fish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/seafood]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/organ-meats]]", "[[ingredients/meat]]", "[[ingredients/milk-and-dairy]]", "[[ingredients/infant-formula-ingredients]]", "[[ingredients/rice-cereal]]", "[[ingredients/water]]", "[[ingredients/quinoa]]"]
 matrices: [cereal-grains, rice, wheat, quinoa, leafy-vegetables, brassica-vegetables, bulb-vegetables, fruiting-vegetables, root-and-tuber-vegetables, pulses, legume-vegetables, stalk-and-stem-vegetables, marine-bivalve-molluscs, cephalopods, fish, predatory-fish, infant-formula, infant-cereal, cereal-based-foods-infants-young-children, ready-to-eat-meals-infants-young-children, follow-up-formula, milks, cocoa-powder, chocolate, fruit-juices, grape-juice, canned-fruits, canned-vegetables, edible-fats-and-oils, vegetable-oils, salt-food-grade, natural-mineral-waters, meat, edible-offal]
 products: []
 jurisdictions: [international]
@@ -46,19 +46,20 @@ Related codes of practice: CXC 49-2001 (Source-directed measures), CXC 81-2022 (
 | --- | --- | --- |
 | Brassica vegetables | 0.05 | ML does not apply to Brassica leafy vegetables |
 | Bulb vegetables | 0.05 |  |
-| Fruiting vegetables | 0.05 | ML does not apply to tomatoes and edible fungi |
+| Fruiting vegetables, cucurbits | 0.05 |  |
+| Fruiting vegetables, other than cucurbits | 0.05 | Excluding tomatoes and edible fungi |
 | Leafy vegetables | 0.2 | Includes Brassica leafy vegetables |
 | Legume vegetables | 0.1 |  |
-| Pulses | 0.1 | ML does not apply to soybeans (dry) |
+| Pulses | 0.1 | Excluding soya bean (dry) |
 | Root and tuber vegetables | 0.1 | Excluding potato and celeriac |
 | Potato | 0.1 | Peeled |
 | Stalk and stem vegetables | 0.1 |  |
-| Cereal grains (general) | 0.1 | ML does not apply to buckwheat, cañihua, quinoa, wheat, and rice |
+| Cereal grains (general) | 0.1 | Excluding buckwheat, cañihua, quinoa, wheat, rice, and bran and germ |
 | Rice, polished | 0.4 |  |
-| Wheat | 0.2 | Common wheat, durum, spelt, emmer |
+| Wheat | 0.2 |  |
 | Quinoa | 0.15 | Adopted at CCCF17 2024; relevant standard CXS 333-2019 |
-| Marine bivalve molluscs | 2 | ML applies to clams, cockles, mussels; not oysters or scallops |
-| Cephalopods | 2 | Cuttlefishes, octopuses, squids without viscera |
+| Marine bivalve molluscs | 2 | Excluding oysters and scallops |
+| Cephalopods | 2 | Without viscera |
 | Natural mineral waters | 0.003 | Expressed in mg/L |
 | Salt, food grade | 0.5 |  |
 | Chocolates <30 percent cocoa solids | 0.3 | Including milk chocolate and similar |
@@ -82,7 +83,7 @@ Related codes of practice: CXC 56-2004 (Prevention and reduction of lead contami
 | Currants | 0.2 | Fruit with stem |
 | Elderberry | 0.2 |  |
 | Fruits (general) | 0.1 | Excluding cranberry, currant, elderberry |
-| Brassica vegetables | 0.1 | Excluding kale and leafy Brassica vegetables |
+| Brassica vegetables | 0.1 | Excluding kale |
 | Bulb vegetables | 0.1 |  |
 | Fruiting vegetables | 0.05 | ML does not apply to fungi and mushrooms |
 | Leafy vegetables | 0.3 | Includes leafy Brassica vegetables; excludes spinach |
@@ -106,17 +107,42 @@ Related codes of practice: CXC 56-2004 (Prevention and reduction of lead contami
 | Infant formula and follow-up formula | 0.01 | As consumed; tightened from 0.02 mg/kg in 2009-amended snapshot via subsequent CCCF amendments |
 | Ready-to-eat meals for infants and young children | 0.02 |  |
 | Quinoa | 0.2 |  |
-| Fish | 0.3 | After removing digestive tract |
-| Meat of cattle, pigs, sheep | 0.1 | Without bones; also applies to fat |
-| Meat and fat of poultry | 0.1 |  |
-| Cattle, edible offal of | 0.2 | Brain, head, heart, kidney, liver, tongue, stomach |
-| Pig, edible offal of | 0.15 | Blood, heart, kidney, liver, tongue |
-| Poultry, edible offal of | 0.1 | Heart, kidney, liver, stomach, thymus |
+| Fish | 0.3 |  |
+| Meat of cattle, pigs, sheep | 0.1 | Also applies to fat from meat |
+| Poultry meat | 0.1 |  |
+| Cattle, edible offal of | 0.2 |  |
+| Pig, edible offal of | 0.15 |  |
+| Poultry, edible offal of | 0.1 |  |
 | Edible fats and oils | 0.08 |  |
 | Fat spreads and blended spreads | 0.04 |  |
 | Milk | 0.02 |  |
 
 (The Pb ML table extends through additional matrices including salt, processed cereals, wine, juices for special use; the entries above cover the most-cited and policy-consequential matrices.)
+
+## Key numbers — Arsenic MLs
+
+JECFA reference: 5 (1960), 10 (1967), 27 (1983), 33 (1988). At JECFA 33 (1988), the Committee established the PTWI for inorganic arsenic at 0.015 mg/kg b.w.; this value was subsequently withdrawn by JECFA 72 (2010) as no longer health-protective, with the BMDL01 of 3.0 µg/kg b.w./day (range 2–7) identified for a 0.5% increased incidence of lung cancer, but the standard's Arsenic schedule retains the 1988 PTWI as the cited toxicological-guidance value for its 2009 amendments.
+
+Residue definition: arsenic, total (As-tot) when not otherwise mentioned; inorganic arsenic (As-in); or other specification.
+
+Related code of practice: CXC 49-2001 (Source-directed measures).
+
+The Arsenic schedule in CXS 193 is narrow relative to Cd and Pb; the MLs concentrate on fats/oils, salt, and water rather than on plant or animal matrices (the iAs in rice schedule for polished rice is established under CXS 193 via the CCCF8 2014 amendment, with subsequent amendments for husked rice and rice-based products; the 2009 snapshot does not contain the iAs in rice MLs).
+
+| Commodity / Product | Analyte | Level (mg/kg) | Type | Notes |
+| --- | --- | --- | --- | --- |
+| Edible fats and oils not covered by individual standards | As, total | 0.1 | ML |  |
+| Margarine | As, total | 0.1 | ML | CS 32-1981 |
+| Minarine | As, total | 0.1 | ML | CS 135-1981 |
+| Named animal fats (lard, rendered pork fat, premier jus, edible tallow) | As, total | 0.1 | ML | CS 211-1999 |
+| Olive oil (refined, virgin, residue/pomace) | As, total | 0.1 | ML | CS 33-1981 |
+| Vegetable oils, crude and edible (arachis, babassu, coconut, cottonseed, grapeseed, maize, mustardseed, palm kernel, palm, rapeseed, safflowerseed, sesameseed, soya bean, sunflowerseed, palm olein, stearin, superolein) | As, total | 0.1 | ML | CS 210-1999 |
+| Natural mineral waters | As, total | 0.01 | ML | Expressed in mg/L; CS 108-1981 |
+| Salt, food grade | As, total | 0.5 | ML | CS 150-1985 |
+| Polished rice | iAs | 0.2 | ML | Added at CCCF8 (2014); not in 2009 snapshot |
+| Husked rice | iAs | 0.35 | ML | Added at CCCF9 (2015); not in 2009 snapshot |
+
+The 2009 snapshot's Arsenic schedule expresses MLs as **total arsenic** (As-tot) by default, with PTWI calibrated against **inorganic arsenic**. The subsequent CCCF rice iAs MLs were the first Codex MLs expressed as inorganic arsenic specifically and reflect the JECFA 72 (2010) update placing iAs as the primary toxicologically relevant species.
 
 ## Key numbers — Mercury and methylmercury MLs
 
@@ -164,15 +190,58 @@ The canned meats are the only Codex matrices with a paired tinplate-vs-other-con
 
 ## Snapshot context
 
-This source page synthesizes Codex CXS 193-1995 *inclusive of CCCF amendments through CCCF17 (April 2024)*, which is the form in which the standard is most often cited in current regulatory and certification work. The PDF at `raw_path` is the 2009-amended snapshot (footer: "Adopted 1995; Revised 1997, 2006, 2008, 2009; Amended 2009"); its hash is recorded for archival reproducibility. The 2009 snapshot is the operative reference for the Sn MLs and the methylmercury GLs (these have not been substantively amended since), and for the Cd PTWI of 0.007 mg/kg b.w. that was the operative toxicological reference value before JECFA 73 (2010) replaced it with the PTMI of 25 µg/kg b.w. per month. Differences between the 2009 snapshot and the current standard that are material to wiki claims:
+This source page synthesizes Codex CXS 193-1995 *inclusive of CCCF amendments through CCCF17 (April 2024)*, which is the form in which the standard is most often cited in current regulatory and certification work. The PDF at `raw_path` is the 2009-amended snapshot (footer: "Adopted 1995; Revised 1997, 2006, 2008, 2009; Amended 2009"); its hash is recorded for archival reproducibility. The 2009 snapshot is the operative reference for the Sn MLs and the methylmercury GLs (these have not been substantively amended since), and for the Cd PTWI of 0.007 mg/kg b.w. that was the operative toxicological reference value before JECFA 73 (2010) replaced it with the PTMI of 25 µg/kg b.w. per month.
 
-- Cd PTWI 0.007 mg/kg b.w. (2009 snapshot, JECFA 64 2005) → Cd PTMI 25 µg/kg b.w./month (JECFA 73 2010, withdrew the PTWI). Current page reflects PTMI.
-- Pb PTWI 0.025 mg/kg b.w. (2009 snapshot, JECFA 53 1999) → PTWI withdrawn at JECFA 73 (2010). Current page reflects withdrawal.
-- Pb infant formula 0.02 mg/kg (2009 snapshot, ready-to-use basis) → 0.01 mg/kg as-consumed (current, tightened via CCCF amendments).
-- Quinoa Cd ML 0.15 mg/kg (CCCF17 2024) and quinoa Pb ML 0.2 mg/kg are not in the 2009 snapshot. Current page reflects CCCF17.
-- Cocoa-powder Cd ML 2.0 mg/kg and chocolate-by-cocoa-solids percentage Cd MLs are CCCF amendments after 2009 (CCCF11–13). Current page reflects current standard.
+### Toxicological reference values — deltas
 
-For values that are unchanged between the 2009 snapshot and current CXS 193 (Cd MLs for the brassica/bulb/fruiting/leafy/legume/pulses/root-and-tuber/stalk-and-stem categories; Cd MLs for marine bivalve molluscs and cephalopods; Cd ML for rice polished and wheat; all Sn MLs; all MeHg GLs; Hg MLs for mineral waters and salt; the JECFA-meeting reference history through the relevant meeting for each contaminant), the 2009 snapshot is the archival primary source recorded here.
+- **Cd**: PTWI 0.007 mg/kg b.w. (2009 snapshot, JECFA 64 2005) → PTMI 25 µg/kg b.w./month (JECFA 73 2010, withdrew the PTWI). Current page reflects PTMI.
+- **Pb**: PTWI 0.025 mg/kg b.w. (2009 snapshot, JECFA 53 1999) → PTWI withdrawn at JECFA 73 (2010). Current page reflects withdrawal.
+- **As**: PTWI 0.015 mg/kg b.w. for iAs (2009 snapshot, JECFA 33 1988) → withdrawn at JECFA 72 (2010); BMDL01 3.0 µg/kg b.w./day for 0.5% increased lung cancer incidence is the current toxicologically-anchored value. Current page reflects withdrawal.
+- **Hg total, MeHg, Sn**: unchanged from 2009 snapshot.
+
+### Cd-side ML deltas (2009 snapshot → current)
+
+- **Quinoa**: 0.15 mg/kg ML added at CCCF17 (2024). Not in 2009 snapshot.
+- **Chocolate by cocoa-solids percentage**: 0.3 (<30%), 0.7 (30–50%), 0.8 (50–<70%), 0.9 (≥70%) — all added via CCCF11–13 (2017–2019). Not in 2009 snapshot.
+- **Cocoa powder (100% cocoa solids, dry matter basis)**: 2.0 mg/kg added at CCCF13 (2019). Not in 2009 snapshot.
+- All Cd MLs for vegetable categories (brassica/bulb/fruiting/leafy/legume/pulses/root-and-tuber/stalk-and-stem), rice polished, wheat, marine bivalve molluscs, cephalopods, natural mineral waters, and salt food grade are **unchanged** between the 2009 snapshot and current standard.
+
+### Pb-side ML deltas (2009 snapshot → current)
+
+The Pb schedule was substantively tightened across many matrices via CCCF11–CCCF17 amendments. Where wiki value differs from PDF value, the wiki value reflects current standard:
+
+- **Berries and other small fruits**: 0.2 (2009) → 0.1 mg/kg (current, with cranberry/currant/elderberry split out at 0.2 each).
+- **Cranberry, currants, elderberry**: added at 0.2 mg/kg each (CCCF amendments).
+- **Fruiting vegetables, other than cucurbits**: 0.1 (2009) → 0.05 mg/kg (current, excluding fungi and mushrooms).
+- **Fresh farmed mushrooms (Agaricus, shiitake, oyster)**: 0.3 mg/kg added (CCCF amendments).
+- **Legume vegetables**: 0.2 (2009) → 0.1 mg/kg (current).
+- **Pulses**: 0.2 (2009) → 0.1 mg/kg (current).
+- **Canned fruits (generic)**: individual canned-fruit MLs at 1 mg/kg in the 2009 snapshot (canned fruit cocktail, grapefruit, mandarin oranges, mangoes, pineapple, raspberries, strawberries, tropical fruit salad — each at 1) → generic canned fruits ML 0.1 mg/kg (current).
+- **Jams (fruit preserves), jellies, marmalades**: 1 (2009, jams and jellies only) → 0.4 mg/kg (current, with marmalades added).
+- **Mango chutney**: 1 (2009) → 0.4 mg/kg (current).
+- **Table olives**: 1 (2009) → 0.4 mg/kg (current).
+- **Canned vegetables (generic)**: individual canned-vegetable MLs at 1 mg/kg in the 2009 snapshot (asparagus, carrots, green beans/wax beans, green peas, mature processed peas, mushrooms, palmito, sweet corn, tomatoes — each at 1) → generic canned vegetables ML 0.1 mg/kg (current).
+- **Preserved tomatoes**: 0.05 mg/kg added (current; the 2009 snapshot had Canned tomatoes 1 and Processed tomato concentrates 1.5 with no "Preserved tomatoes" row).
+- **Pickled cucumbers**: 1 (2009) → 0.1 mg/kg (current).
+- **Canned chestnuts and chestnut puree**: 1 (2009) → 0.05 mg/kg (current).
+- **Fruit juices**: 0.05 mg/kg ready-to-drink including nectars (2009) → 0.03 mg/kg (current, excluding juices exclusively from berries; applies to juices for infants and young children).
+- **Fruit juices exclusively from berries and small fruits**: 0.05 mg/kg added (current).
+- **Grape juice**: 0.04 mg/kg added (current).
+- **Cereal-based foods for infants and young children**: 0.02 mg/kg added (current).
+- **Infant formula and follow-up formula**: 0.02 mg/kg ready-to-use (2009) → 0.01 mg/kg as-consumed (current).
+- **Ready-to-eat meals for infants and young children**: 0.02 mg/kg added (current).
+- **Quinoa**: 0.2 mg/kg Pb ML added (current; not in 2009 snapshot).
+- **Cattle edible offal**: 0.5 (2009) → 0.2 mg/kg (current).
+- **Pig edible offal**: 0.5 (2009) → 0.15 mg/kg (current).
+- **Poultry edible offal**: 0.5 (2009) → 0.1 mg/kg (current).
+- **Edible fats and oils**: 0.1 (2009) → 0.08 mg/kg (current).
+- **Fat spreads and blended spreads**: 0.04 mg/kg added (current).
+
+Pb MLs unchanged between the 2009 snapshot and current standard: brassica vegetables, bulb vegetables, fruiting vegetables (cucurbits), leafy vegetables, root and tuber vegetables (including peeled potatoes), cereal grains, meat of cattle/pigs/sheep, poultry meat, fish, milks, natural mineral waters, salt food grade, wine, vegetable oils, named animal fats, olive oil.
+
+### Sn, Hg, MeHg, As
+
+All Sn MLs, Hg MLs, MeHg GLs, and the 2009 snapshot's As MLs (fats/oils, mineral waters, salt) are substantively unchanged between the 2009 snapshot and the current standard. The iAs in rice MLs (polished 0.2; husked 0.35) were added at CCCF8–CCCF9 (2014–2015) and are not in the 2009 snapshot.
 
 ## Provenance notes
 
@@ -182,9 +251,9 @@ The standard is periodically amended. The values in this source page reflect the
 
 ## Implications
 
-- Certification: this standard is the international anchor for matrix-specific Cd and Pb MLs. HMT&C threshold-setting for product categories should reference these MLs for matrices in scope. Codex MLs are minimum harmonized values; many national jurisdictions (EU under Regulation 2023/915, US FDA via CTZ, China via GB 2762) set domestic MLs equal to or tighter than Codex.
+- Certification: this standard is the international anchor for matrix-specific Cd and Pb MLs. Codex MLs are minimum harmonized values; many national jurisdictions (EU under Regulation 2023/915, US FDA via CTZ, China via GB 2762) set domestic MLs equal to or tighter than Codex. The values here form a literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall (CLAUDE.md Part 2).
 - Courses: the multi-matrix structure of CXS 193 (with separate MLs for cocoa powder vs chocolate by cocoa-solid percentage, for offal by species, for infant foods at age-specific tighter levels) is a teachable model of contaminant-management standardization.
-- App: every commodity-by-commodity ML in this standard is a potential app benchmark. Cocoa powder Cd ML of 2.0 mg/kg, dark chocolate (≥70 percent solids) Cd ML of 0.9 mg/kg, polished rice Cd ML of 0.4 mg/kg, leafy vegetables Cd ML of 0.2 mg/kg, infant formula Pb ML of 0.01 mg/kg, infant cereal-based foods Pb ML of 0.02 mg/kg are the operationally most-cited values for consumer-facing comparison.
+- App: every commodity-by-commodity ML in this standard is a candidate app benchmark. Commonly-referenced examples include the cocoa powder Cd ML of 2.0 mg/kg, dark chocolate (≥70 percent solids) Cd ML of 0.9 mg/kg, polished rice Cd ML of 0.4 mg/kg, leafy vegetables Cd ML of 0.2 mg/kg, infant formula Pb ML of 0.01 mg/kg, and infant cereal-based foods Pb ML of 0.02 mg/kg.
 
 ## Wiki pages updated on ingest
 
@@ -197,10 +266,10 @@ The standard is periodically amended. The values in this source page reflect the
 - [[ingredients/chocolate]]
 - [[ingredients/spinach]]
 - [[ingredients/potatoes]]
-- [[ingredients/sunflower-seeds]]
 - [[ingredients/organ-meats]]
 - [[ingredients/bivalve-molluscs]]
 - [[ingredients/wild-mushrooms]]
+- [[ingredients/quinoa]]
 
 ## Verification notes
 
@@ -220,6 +289,29 @@ Merge-enhance pass 2026-06-02 against the 2009-amended PDF snapshot at `raw_path
 Preserved fields per merge-enhance discipline: `cite_key`, `access_url`, `license`, `no_doi_assigned`, `access_date`, `evidence_tier`, `source_type`, `superseded_by`, `wiki_doi`, `sampling_locations`, `sampling_year_range`, all existing wiki-pages-updated-on-ingest links, and all existing Cd/Pb body content not specifically corrected above.
 
 The routing-audit advisory entry "missing optional routing-input fields products;matrices" partially clears with this pass (matrices now populated); the `products: []` half persists as the steady-state convention for international Codex regulatory sources (sibling Codex pages codex-cccf17-2024 and codex-cxc-81-2022 carry the same advisory by design — per CLAUDE.md Part 12 brand firewall and the routing-layer convention that regulations route to product-category pages via the `regulations/codex-cadmium-mls` regulation page rather than declaring products at the source level).
+
+### Audit subagent pass 2026-06-02
+
+Fresh-context audit subagent (general-purpose, no shared context) returned verdict REVISE against the 2009-amended PDF snapshot. Findings verified independently and applied:
+
+- ❌ **Numerical-fidelity Pb deltas**: subagent flagged 16+ wiki Pb values as disagreeing with PDF (canned fruits 0.1 vs PDF 1; canned vegetables 0.1 vs PDF 1; jams 0.4 vs PDF 1; mango chutney 0.4 vs PDF 1; table olives 0.4 vs PDF 1; pickled cucumbers 0.1 vs PDF 1; canned chestnuts 0.05 vs PDF 1; edible fats/oils 0.08 vs PDF 0.1; fruiting vegetables non-cucurbits 0.05 vs PDF 0.1; legume vegetables 0.1 vs PDF 0.2; pulses 0.1 vs PDF 0.2; berries 0.1 vs PDF 0.2; fruit juices 0.03 vs PDF 0.05; offal 0.2/0.15/0.1 by species vs PDF 0.5 across species). Verified — all are real PDF-vs-current deltas; all reflect CCCF11–CCCF17 (2017–2024) Pb tightenings that have occurred since the 2009 snapshot. Applied: Snapshot context Pb-delta enumeration expanded from five delta classes to a complete listing of all 20+ Pb-side amendments, so the page is now internally honest about every value that traces to current standard rather than the 2009 PDF.
+- ❌ **Cd Fruiting vegetables row collapsed across cucurbits/non-cucurbits**: verified — PDF Schedule I p.32 has VC 0045 Fruiting vegetables, cucurbits (no note) and VO 0050 Fruiting vegetables, other than cucurbits (excluding tomatoes and edible fungi) as two separate rows. Applied: split into two rows.
+- ❌ **Cd Cereal grains note missing "and bran and germ" exclusion**: verified — PDF GC 0081 remark explicitly says "Excluding wheat and rice; and bran and germ". Applied: added.
+- ❌ **Cd Wheat "Common wheat, durum, spelt, emmer" descriptor not in PDF**: verified — PDF GC 0654 row has no descriptor. Applied: dropped the invented descriptor.
+- ❌ **Cd Marine bivalve molluscs invented positive list ("ML applies to clams, cockles, mussels")**: verified — PDF IM 0151 says only "Excluding oysters and scallops". Applied: dropped positive list.
+- ❌ **Pb Brassica vegetables "and leafy Brassica vegetables" not in PDF**: verified — PDF VB 0040 says only "Excluding kale". Applied: dropped invented addition.
+- ❌ **Pb Fish "After removing digestive tract" qualifier not in PDF**: verified — PDF Fish row has no note. Applied: dropped qualifier. (If the current standard adds this qualifier, it would be added to Snapshot context as a delta; absent independent verification of current standard, the qualifier is dropped.)
+- ❌ **Pb Meat of cattle/pigs/sheep "Without bones" qualifier not in PDF**: verified — PDF MM 0097 row says only "Also applies to the fat from meat". Applied: dropped "Without bones"; tightened note to PDF wording.
+- ❌ **Pb offal organ lists not in PDF**: verified — PDF MO 0812 / MO 0818 / PO 0111 rows have no organ enumeration. Applied: dropped all three organ lists.
+- ❌ **`iAs` declared in metals: with no Arsenic body section**: verified — PDF Schedule I p.31 contains a substantive Arsenic schedule (PTWI, residue definition, MLs for fats/oils, vegetable oils, mineral waters, salt). Applied: added new `## Key numbers — Arsenic MLs` section covering the 2009 snapshot's full Arsenic schedule plus the post-2009 CCCF iAs in rice MLs (polished 0.2, husked 0.35); added `tAs` to `metals:` alongside `iAs` (the 2009 snapshot's Arsenic MLs are total As by default; PTWI is for iAs; both species are in scope).
+- ⚠️ **Over-specified ingredient slugs (broccoli, onions, lentils, celery)**: verified — CXS 193 sets MLs at the category level (Brassica vegetables, Bulb vegetables, Pulses, Stalk and stem vegetables), not at the commodity level. Per CLAUDE.md Part 5b ("if a source touches infant formula generally without specifying soy vs non-soy, the frontmatter should say `matrices: [infant-formula]`, not `matrices: [infant-formula-powder-non-soy]`"), broad routing is the discipline. Applied: dropped broccoli, onions, lentils, celery from `ingredients:`; retained the category-level slugs that CXS 193 directly addresses (leafy-greens, root-vegetables, vegetables).
+- ⚠️ **Sunflower-seeds in "Pages updated on ingest" but not grounded**: verified — CXS 193 sets MLs for sunflowerseed oil (under vegetable oils CS 210-1999), not for sunflower seeds as a commodity. Applied: dropped sunflower-seeds; added quinoa to the pages-updated list to reflect the quinoa Cd/Pb MLs that CCCF17 introduced.
+- ⚠️ **Implications HMTc bullet ("HMT&C threshold-setting...should reference these MLs")**: subagent flagged borderline Check 5 (Part 2 wiki/HMTc firewall). Verified — the should-statement directed at HMTc behavior is on the wrong side of the firewall per "The wiki says what the literature supports, honestly. HMT&C certification pages reference the wiki for the literature baseline." Applied: softened to "literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall."
+- ⚠️ **Implications App bullet "operationally most-cited"**: subagent flagged editorial weighting. Verified — the wiki should report values; weighting which are "most-cited" is interpretation. Applied: softened to "commonly-referenced examples include..." and prefixed with "candidate" rather than asserting.
+
+No findings rejected as false positives. Subagent verdict REVISE → wiki-side disposition: audited-revised (all ❌ findings applied, ⚠️ findings applied where verified).
+
+The audit subagent did NOT flag the post-routing `products: []` advisory (instructed to skip per audit prompt), the snapshot-context CCCF17 quinoa/cocoa-powder deltas (instructed to skip), or the page's intentional current-standard-vs-2009-PDF scope (instructed to treat as known).
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
