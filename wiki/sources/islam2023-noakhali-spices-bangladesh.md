@@ -43,10 +43,10 @@ Sample-level concentrations cannot be tabulated exhaustively from the source as 
 | Metal | Highest in | Reported value (mg/kg) |
 |-------|------------|------------------------|
 | Pb | Cardamom (S-7, non-branded) | 15.47 ± 1.93 |
-| Cd | Coriander leaf (S-17, non-branded) | 1.65 ± 0.011 |
+| Cd | Coriander leaf (S-17, non-branded) | 1.65 ± 0.01 |
 | Cr (total) | Bay leaf (S-18, non-branded) | 31.99 ± 3.97 |
 | Cu | Dried chili (S-6, non-branded) | 18.84 ± 1.97 |
-| Fe | Black pepper (S-19, non-branded) | 9.29 ± 1.71 |
+| Fe | Black pepper (S-19, non-branded) | 9.29 ± 1.72 |
 
 **Other narrative concentrations stated in Results:**
 
@@ -61,7 +61,7 @@ Sample-level concentrations cannot be tabulated exhaustively from the source as 
 - EDI order across spices: Fe > Cr > Cu > Pb > Cd.
 - Reference doses used (mg/kg-day): Pb 0.0035, Cd 0.0005, Cr 0.0003, Cu 0.04, Fe 0.007.
 - TTHQ > 1 (potential non-carcinogenic health risk): S-1 non-branded chili powder (4.59), S-2 non-branded turmeric powder (3.51), S-3 branded chili powder (2.72), S-4 branded turmeric powder (1.70), S-5 green chili (5.55), S-11 ginger (2.21), S-17 coriander leaf (8.33). Cr THQ is the dominant driver in each.
-- Cancer risk (CR > 1×10⁻⁴) for Cr and/or Cd: S-1, S-2, S-3, S-4, S-5, S-8 (masala mix), S-10 (coriander powder), S-11, S-17 by inspection of Figure 3 and the authors' Result narrative.
+- Cancer risk (CR > 1×10⁻⁴) for Cr and/or Cd in the eight samples explicitly enumerated by the authors (Results, page 14, just before Figure 3): "both branded and unbranded turmeric and chili powder, green chili, masala mix, ginger, and coriander leaf" → S-1, S-2, S-3, S-4, S-5, S-8 (masala mix), S-11 (ginger), S-17 (coriander leaf). Figure 3 visual inspection is consistent with this list and does not add other samples to the >1E-04 set.
 
 **Permissible limits cited by the authors (Mg/Kg/Day):**
 
@@ -107,3 +107,5 @@ Method limitations: Cr is reported as total Cr; the cancer-risk calculation assu
 - The paper labels the cancer-risk line for Pb as "CR of Pd" in Figure 3 — read as a typographical error for Pb. The Pb cancer-risk line in Figure 3 sits near zero across all samples.
 - Ingredients other than turmeric, cinnamon, and black pepper (cardamom, coriander, ginger, cumin, fenugreek, clove, bay-leaf, chili-pepper, masala-mix) are routed to the umbrella `[[ingredients/spices]]` and `[[ingredients/herbs-and-spices]]` slugs per the existing taxonomy; per-spice ingredient pages are not created here (auto-stub freq-≥2 handles that downstream).
 - Evidence tier: B. Preprint, not peer-reviewed at time of upload to medRxiv. Sample size n=1 per spice category with triplicate analytical replication. No CRM reported. Single-region (Noakhali) sampling limits transferability.
+- Source SD-precision disagreement (carried through verbatim in Key numbers): the abstract reports Cd in coriander leaf as 1.65 ± 0.011 and Fe in black pepper as 9.29 ± 1.71; the Results paragraph reports the same data points as 1.65 ± 0.01 and 9.29 ± 1.72. The wiki uses the Results-paragraph precision (± 0.01, ± 1.72) in the Highest-concentration table for consistency. The abstract figures (± 0.011, ± 1.71) reflect the source's own internal SD-rounding mismatch, not a wiki transcription error.
+- Audit subagent (general-purpose fresh context, 2026-06-02) flagged an ❌ on the original cancer-risk sample list, which had included S-10 (coriander powder) alongside the eight samples the authors explicitly enumerate. Verified against the page-14 narrative ("CR of Cr and Cd for both branded and unbranded turmeric and chili powder, green chili, masala mix, ginger, and coriander leaf were higher than 1E-04") and Figure 3 (S-10 Cr and Cd CR values both ~5–8×10⁻⁵, below the 1×10⁻⁴ benchmark). S-10 removed from the list; corrected to the eight samples the authors enumerate.
