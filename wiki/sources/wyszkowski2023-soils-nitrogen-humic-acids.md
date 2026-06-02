@@ -1,0 +1,104 @@
+---
+type: source
+raw_handle: MFK_agriculture-13-00968
+cite_key: wyszkowski2023-soils-nitrogen-humic-acids
+title: "Trace Element Content in Soils with Nitrogen Fertilisation and Humic Acids Addition"
+authors: ["Miroslaw Wyszkowski", "Natalia Kordala", "Marzena S. Brodowska"]
+year: 2023
+publication: "Agriculture"
+doi: "10.3390/agriculture13050968"
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY 4.0"
+raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/agriculture-13-00968.pdf"
+metals: [Cd, Pb, Cr, Ni, Zn, Cu, Mn, Fe, Co]
+ingredients: []
+products: []
+matrices: [soil, sand, loamy-sand, maize-pot-soil]
+jurisdictions: [PL]
+near_duplicates: []
+sample_n: 72
+sample_population: "Three-factor pot experiment with sand and loamy-sand soils, three nitrogen fertiliser forms, four humic-acid doses, and three replicates; maize was grown to tassel emergence before soil trace elements were measured."
+updated: 2026-06-02
+---
+
+# Wyszkowski et al. 2023 - Humic acids and nitrogen fertiliser effects on soil trace elements
+
+Wyszkowski, Kordala, and Brodowska measured cadmium, lead, chromium, nickel, zinc, copper, manganese, iron, and cobalt in two soils after a controlled maize pot experiment with three nitrogen fertiliser forms and four humic-acid doses. The source is primary concentration evidence for agricultural soil and soil-management context, not food occurrence evidence: the paper reports soil trace-element concentrations after the maize growth period, but it does not report maize grain, leaf, or edible-product concentrations.
+
+## Key numbers
+
+All concentration values below are reported by the source as mg/kg dry matter unless otherwise noted.
+
+### Starting soil characteristics
+
+Table 1 reports total trace-element contents in the two starting soils:
+
+| Element | Sand | Loamy sand |
+| --- | ---: | ---: |
+| Cd | 0.602 | 0.850 |
+| Pb | 10.26 | 11.97 |
+| Cr | 22.68 | 22.47 |
+| Ni | 22.60 | 26.78 |
+| Zn | 21.16 | 21.09 |
+| Cu | 4.685 | 4.236 |
+| Mn | 223.6 | 284.3 |
+| Fe | 8754 | 9998 |
+| Co | 3.205 | 3.626 |
+
+The sand had pH 6.47 in KCl and CEC 76.11 mM(+)/kg; the loamy sand had pH 6.33 in KCl and CEC 82.41 mM(+)/kg.
+
+### Treatment means from Table 2
+
+Table 2 reports concentration by humic-acid dose, nitrogen fertiliser form, and soil type. The treatment means across the four humic-acid doses were:
+
+| Element | Sand + ammonium nitrate | Sand + urea | Sand + UAN | Sand mean | Loamy sand + ammonium nitrate | Loamy sand + urea | Loamy sand + UAN | Loamy sand mean |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Cd | 0.626 | 0.430 | 0.206 | 0.420 | 0.758 | 0.719 | 0.500 | 0.659 |
+| Pb | 11.36 | 11.17 | 7.21 | 9.92 | 13.12 | 13.36 | 13.68 | 13.39 |
+| Cr | 21.48 | 12.85 | 4.43 | 12.92 | 19.35 | 10.22 | 13.41 | 14.32 |
+| Ni | 23.95 | 22.94 | 19.40 | 22.09 | 31.13 | 30.81 | 20.46 | 27.47 |
+| Zn | 24.01 | 21.13 | 20.21 | 21.78 | 23.04 | 20.23 | 19.45 | 20.91 |
+| Cu | 5.609 | 4.446 | 3.940 | 4.665 | 4.488 | 4.026 | 4.028 | 4.181 |
+| Mn | 245.8 | 232.6 | 247.5 | 242.0 | 318.2 | 334.4 | 319.0 | 323.9 |
+| Fe | 9117 | 8676 | 9057 | 8950 | 10,473 | 10,655 | 10,135 | 10,421 |
+| Co | 3.630 | 3.101 | 3.646 | 3.459 | 3.748 | 4.122 | 3.289 | 3.720 |
+
+The loamy sand means were higher than sand for Cd, Pb, Cr, Ni, Mn, Fe, and Co, while sand means were higher for Zn and Cu. Relative to ammonium nitrate, urea reduced Cd, Cr, Cu, and Zn in both soils, while UAN reduced Cd, Cr, Cu, Ni, and Zn in both soils and reduced Pb in sand.
+
+### Humic-acid response
+
+The highest humic-acid dose under ammonium nitrate reduced Cd by 14% and Cr by 19% in sand; in loamy sand it reduced Cd by 28%, Cr by 22%, Ni by 12%, and Cu and Co by 13%, while Pb increased by 14%. Under urea, humic acids reduced Cd by up to 23%, Ni by 33%, Cu by 36%, Pb by 44%, and Cr by 54% in sand, and reduced Co by 26%, Pb and Cr by 27%, and Cd by 31% in loamy sand. Under UAN, humic acids reduced Zn by 15%, Ni by 19%, Pb by 29%, Cr by 52%, and Cd by 58% in sand, and reduced Zn and Co by 28%, Cd by 34%, and Cr by 63% in loamy sand.
+
+Figure 3 attributes the largest observed-variance share to soil type for Pb (41.3%), Fe (86.9%), Mn (95.4%), and Cd (34.1%); to nitrogen fertiliser form for Zn (40.3%), Ni (42.0%), Cu (43.4%), Cd (47.5%), and Cr (60.9%); and to humic acids for Co (20.6%), Cr (12.6%), and Cd (11.5%).
+
+## Methods (brief)
+
+The authors ran a three-factor pot experiment in triplicate. Factors were soil texture class (sand and loamy sand), nitrogen fertiliser form (ammonium nitrate, urea, and urea ammonium nitrate solution), and humic-acid dose (0, 0.05, 0.10, and 0.15 g/kg soil applied three times). All pots received 160 mg N/kg soil, 60 mg P/kg soil, and 170 mg K/kg soil. Each pot contained 9 kg soil and six maize plants. Soil moisture was held at 60% of maximum capacity, and soil was sampled when maize reached tassel emergence (BBCH 59).
+
+Soils were digested with concentrated hydrochloric and nitric acids using a microwave digestion procedure aligned with US EPA Method 3051. Trace elements were measured by atomic absorption spectrometry. The source reports use of element-specific Fluka reference materials and Soil S-1 Certified Analytical Reference Material.
+
+## Implications
+
+Certification: This source supports supply-chain questions about fertiliser form, soil texture, and humic-acid amendment as upstream controls on soil trace-element availability. It should not be used to benchmark edible maize or any other product row, because no edible crop concentration values are reported.
+
+Courses: Useful for explaining why "soil metal concentration" is not a single static number: nitrogen chemistry, organic amendments, and soil texture changed the measured soil concentrations after one controlled growth cycle.
+
+App: Route as soil-management context for cadmium, chromium, nickel, lead, copper, zinc, manganese, iron, and cobalt. Keep it separate from product-occurrence pools.
+
+## Wiki pages this source may touch
+
+- [[metals/cadmium]]
+- [[metals/lead]]
+- [[metals/chromium]]
+- [[metals/nickel]]
+- [[metals/copper]]
+- [[metals/zinc]]
+- [[metals/manganese]]
+- [[metals/iron]]
+- [[metals/cobalt]]
+- [[supply-chain/soil-to-plant-transfer]]
+
+## Verification notes
+
+The PDF has author attribution and DOI `10.3390/agriculture13050968`; no DOI conflict was observed. The source reports soil concentrations only, even though maize was used as the pot-test crop. No food, ingredient, plant-tissue, grain, or product concentration row should be extracted from this paper. The soil-origin locality is not specified beyond the Polish research setting; `jurisdictions: [PL]` is used as the experimental jurisdiction, not a food-market jurisdiction. All table values above follow the source's mg/kg dry-matter basis; no wet/dry or as-sold conversion was performed.
