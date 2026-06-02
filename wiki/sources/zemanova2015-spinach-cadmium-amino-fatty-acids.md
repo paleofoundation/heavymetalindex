@@ -14,7 +14,7 @@ raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-spinac
 metals: [Cd]
 ingredients: ["[[ingredients/spinach]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/non-root-vegetables]]"]
 products: ["[[products/spinach]]", "[[products/leafy-vegetables-other]]", "[[products/non-root-vegetables]]"]
-matrices: [spinach, leafy-vegetable, controlled-pot-experiment]
+matrices: [leafy-vegetable]
 jurisdictions: [CZ]
 near_duplicates: []
 sample_n: 96
@@ -30,7 +30,7 @@ Zemanova, Pavlik, Pavlikova, and Kyjakova measured cadmium accumulation in spina
 
 - Experimental design: spinach cv. Matador was grown in pots containing 5 kg Chernozem soil; Cd was added as Cd(NO3)2*4H2O at Cd1 = 30 mg/kg soil, Cd2 = 60 mg/kg soil, and Cd3 = 90 mg/kg soil, alongside an untreated control.
 - Sampling times: spinach plants were sampled 25, 40, 55, and 75 days after sowing. Each treatment was performed in three replications every year, and the paper reports data averaged across two experimental years.
-- Sample accounting for Cd/yield endpoints: four treatments x four harvest times x three replications x two years = 96 treatment-time pot observations, with 10 plants per pot after thinning.
+- Derived sample accounting for Cd/yield endpoints: four treatments x four harvest times x six replicate-year observations = 96 treatment-time pot observations, with 10 plants per pot after thinning. The source reports three replications every year, data averaged across two years, and Figure 1 caption gives n = 6 for treatment x growing-period means.
 - Cadmium in leaves: the abstract reports Cd content in leaves from 0.60 to 72.38 mg/kg dry matter across the experiment.
 - End-of-experiment response: at 75 days, increasing Cd soil dose was associated with aboveground dry-matter biomass declining from 23.5 g per pot to 6.3 g per pot, while leaf Cd rose to the reported maximum of 72.38 mg/kg dry matter.
 - The paper reports that the Cd3 treatment reduced aboveground biomass to about 27% of the untreated control and increased Cd content in aboveground biomass up to 120-fold.
@@ -64,3 +64,4 @@ App: Supports a contaminated-soil context warning for spinach, with explicit dry
 - Author names are transliterated without diacritics in frontmatter for ASCII consistency; the PDF byline uses Zemanova, Pavlik, Pavlikova, and Kyjakova with Czech diacritics.
 - The paper's Figure 2 shows Cd accumulation by treatment and harvest time, but the PDF text extraction does not expose exact bar values. This page therefore records the source-stated 0.60-72.38 mg/kg dry-matter range and prose values rather than estimating from the graph.
 - Evidence fitness: controlled Cd soil-dose experiment in the Czech Republic. Route as spinach/leafy-vegetable Cd context; do not silently pool with retail-market spinach occurrence or US-market benchmark distributions.
+- The controlled pot experiment is recorded in `sample_population` and Verification notes rather than `matrices`; source-page `matrices` is limited to the physical leafy-vegetable matrix.
