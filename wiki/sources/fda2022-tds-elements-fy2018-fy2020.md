@@ -8,12 +8,16 @@ publication: "FDA Total Diet Study"
 source_type: gov-data
 no_doi_assigned: true
 evidence_tier: A
+license: us-government-work
+raw_handle: KADC_07-fda-tds-fy2018-2020-elements
 raw_path: raw/reports/fda-tds-elements-fy2018-fy2020-results.csv
 pdf_path: raw/reports/fda-tds-elements-analytical-results-key-fy2018-fy2020.pdf
+supplement_pdf_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/07_FDA_TDS_FY2018-2020_elements.pdf"
+access_url: https://www.fda.gov/food/total-diet-study/total-diet-study-results
 data_path: data/evidence/fda_tds_fy2018_2020_element_results_samples.csv
 summary_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
-metals: [Pb, Cd, tAs, iAs, tHg, Ni, Cr]
-other_elements_in_file: [Calcium, Copper, Iodine, Iron, Magnesium, Manganese, Molybdenum, Phosphorus, Potassium, Selenium, Sodium, Strontium, Uranium, Vanadium, Zinc]
+metals: [Pb, Cd, tAs, iAs, tHg, Ni, Cr, U]
+other_elements_in_file: [Calcium, Copper, Iodine, Iron, Magnesium, Manganese, Molybdenum, Phosphorus, Potassium, Selenium, Sodium, Strontium, Vanadium, Zinc]
 ingredients:
   - apple
   - apple-juice
@@ -110,11 +114,12 @@ product_metal_scope:
   fruit-juice-not-canned: [Pb, Cd, tAs, Ni]
   fruit-juices-apple-containing: [Pb, tAs]
   fruit-juices-non-apple: [Pb, tAs]
+matrices: [total-diet-study-prepared-food]
 jurisdictions: [US-FDA]
 wiki_doi: null
-sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-03
+sampling_locations: [US-Regional-3-cities-per-region, US-National-KCL]
+sampling_year_range: 2017-2020
+updated: 2026-06-02
 ---
 
 # FDA 2022 - TDS Elements Analytical Results FY2018-FY2020
@@ -271,6 +276,10 @@ The public CSV does not include brand names, lot identifiers, lab replicate meta
 - [[ingredients/whole-milk]]
 - [[ingredients/whole-wheat-bread]]
 - [[ingredients/winter-squash]]
+
+## Verification notes
+
+2026-06-02 (manual-fetch v2 ingest, KADC handle `KADC_07-fda-tds-fy2018-2020-elements`): merge-enhance pass against the official FDA "Total Diet Study (TDS) FY2018-FY2020 Report Supplement: Summary of Analytical Results" PDF (July 2022, 83 pages, 2.8 MB) fetched into `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/07_FDA_TDS_FY2018-2020_elements.pdf`. The PDF is FDA's printed summary-statistics supplement (N of detects/non-detects, mean, std. dev., min/max, reporting limit per TDS-food × analyte cell) — the same statistical view that this page's `summary_path` already exposes from the underlying analytical-results CSV. No new structured data layer is added; the supplement PDF is recorded as a corroborating artifact via `supplement_pdf_path`. Frontmatter modernization in this pass: added `raw_handle`, `license: us-government-work` (matching the sibling key page), `access_url` to the FDA TDS results landing page, `matrices: [total-diet-study-prepared-food]` (matching the sibling key page convention), and U to the `metals:` list (uranium is in the body's per-metal highlights table and in the "9,714 HMI-relevant rows" count but had been omitted from frontmatter). Uranium removed from `other_elements_in_file` since it now belongs in `metals`. `sampling_year_range: 2017-2020` and regional/national `sampling_locations` populated per the analytical-key methodology. No changes to ingredient/product routing, narrative body, key numbers, or structured-data references.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
