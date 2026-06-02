@@ -185,30 +185,9 @@ When a synthesis page identifies implications for downstream wiki pages, the ses
 
 ## Part 10 — Page creation and naming
 
-New-page proposals (ingredient, product, regulation) surface from two places: the routing audit's `routing_unresolved.csv` when a source's frontmatter declares a page that does not exist, and the model's own pattern-noticing when a sub-variant accumulates enough independent evidence to warrant its own page. Either way, Karen approves before pages are created; the model does not silently invent ingredient or product pages mid-ingest.
+See [[docs/page-creation]] for the full policy (per-type thresholds, provisional-scaffold mechanics, the 2026-05-14 incident, merging, orphan prevention).
 
-**Ingredients:** create a new page when 5 or more papers treat the sub-variant as a distinct commodity with its own risk profile. Below that threshold, add the variant as an `aliases` entry on the parent page with a short note in the page body. Example: 3 papers mention "rice bran" alongside rice papers → rice bran goes in `ingredients/rice.md` aliases. 10 papers focus specifically on rice bran contamination distinct from whole rice → create `ingredients/rice-bran.md`. When the threshold is crossed, propose the new page in the batch report.
-
-**Products:** product pages are auto-created as routing destinations whenever a source declares a slug with no matching page. Two entry points produce these:
-
-- `tools/autonomy/create-missing-pages.mjs` (frequency-driven, batch) handles slugs that have accumulated freq >= 2 across the corpus.
-- `tools/autonomy/create-provisional-product-scaffold.mjs` (single-slug, on-demand) handles slugs the active ingest session encounters mid-run, including freq-1.
-
-Both tools mark the page `provisional_scaffold: true` plus `hmtc_category: pending_taxonomy_review` and `hmtc_row: pending_taxonomy_review` in frontmatter, and log creation to `data/evidence/provisional-product-scaffolds.jsonl`. **The flag is the governance signal:** the page exists so sources route somewhere defined, but HMTc category assignment, within-row clean/dirty splits, contamination-platform classification, and certification thresholds do not derive from the page until a Step 0 Lock is authored (see `tools/autonomy/cat<N>-step0-scaffold.mjs`; the Cat 2 scaffold is the reference exemplar). Scaffolding promotes the stub to a locked row, clearing the `provisional_scaffold` flag.
-
-The pre-2026-05-17 flag name `pending_category_lock: true` is the predecessor of `provisional_scaffold: true`. Both are recognized by audit-routing-discipline and the orchestrator for back-compat; new pages use `provisional_scaffold`. The pre-2026-05-17 policy of writing unresolved product slugs to `data/evidence/autonomy/product-stub-proposals-pending.csv` instead of creating pages is preserved as the `--no-products` flag for one-off cases. The default is to create the routing destination immediately.
-
-The 2026-05-14 incident (face-paint, lipstick, skin-lightening-cream auto-stubs retired the next day by the Cat 2 scaffold) was caused by stubs being created *without* a provisional flag — they looked like full product pages with HMTc bindings. The flag prevents that failure mode.
-
-**Ingredients (2026-05-17 update):** ingredient pages get the same treatment. Slugs at freq >= 2 are auto-stubbed by `create-missing-pages.mjs`; freq-1 slugs an active ingest declares are created via `tools/autonomy/create-provisional-ingredient-scaffold.mjs` with `provisional_scaffold: true` and `literature_scope: thin`. The 5-paper-threshold rule still applies to *promotion*: a provisional scaffold is the routing destination; it becomes a full ingredient page (with populated `contamination_profile`) once the literature crosses the threshold and the synthesis pass runs.
-
-**Regulations:** create a new regulation page on first encounter. Regulations have hard identifiers (rule numbers, official names) and benefit from being captured immediately.
-
-**Metals:** create a new metal page on first encounter, but only for metals that appear in the corpus with reasonable frequency. Exotic or trace metals stay as notes on related metal pages until they accumulate their own evidence base.
-
-**Merging.** Pages should occasionally be merged. If `ingredients/carrots.md` and `ingredients/root-vegetables.md` end up covering substantially the same literature with different framings, propose a merge in the next batch report. Claude does not merge pages autonomously.
-
-**Orphan prevention.** New pages must be linked from `index.md` on creation. They must also be linked from at least one parent category page (metal, ingredient, product, regulation, testing method) or they become orphans.
+Load-bearing rules a session must not violate: new pages surface from the routing audit's `routing_unresolved.csv` and from the model noticing a sub-variant has crossed its evidence threshold. Provisional product and ingredient scaffolds are auto-created as routing destinations and carry `provisional_scaffold: true`; HMTc category, clean/dirty splits, and thresholds do not derive from a page until a Step 0 Lock clears that flag. The 5-paper rule governs *promotion* of a scaffold to a full page. The model does not silently invent full ingredient or product pages mid-ingest, and does not merge pages autonomously; both are proposed in the batch report for Karen. New pages are linked from `index.md` and at least one parent category page on creation, or they become orphans.
 
 ## Part 11 — Priority ordering for bulk ingest
 
@@ -250,49 +229,9 @@ See [[docs/conventions]] for index and log structures.
 
 ## Part 18 — Lint
 
-When Karen (or Karen's Lab) runs lint across the wiki, the lint pass checks for:
+See [[docs/lint]] for the complete check list, the audit script behind each check, and which failures block the build.
 
-**Contradictions:** claims across pages that disagree. List with page references.
-
-**Stale claims:** pages that cite only pre-2020 sources in fast-moving areas, or pages not updated after a newer source was ingested that should have touched them.
-
-**Orphans:** pages with no inbound links.
-
-**Missing frontmatter:** required fields absent or malformed.
-
-**Regulatory-value drift:** any regulation page whose `limit_value` differs from what the agency source currently states. Run automatically when any agency source is newly ingested.
-
-**Silent threshold deviation:** certification pages that cite different values than the referenced wiki pages without stating a rationale (precautionary, market-ratcheting, feasibility-driven, regulatory-alignment). This is the wiki/HMT&C drift check from Part 2.
-
-**Evidence-tier mismatch:** synthesis claims supported only by B-tier or C-tier sources when A-tier sources exist in the corpus.
-
-**Provenance gaps:** wiki claims that do not trace to a specific source page. Every numerical claim in the wiki must link to a source; claims without provenance are a lint failure.
-
-**Routing audit unresolved:** `data/evidence/routing_unresolved.csv` is non-empty. A source's frontmatter declares products, ingredients, or matrices that do not match any existing target page. Each unresolved entry is either a frontmatter correction or a new-page proposal (see Part 10).
-
-**Ingredient coverage asymmetry:** ingredient pages where some `contamination_profile` sub-blocks are `in_progress` or `populated` while others remain `pending`. Per the coverage rule, any ingest that touches an ingredient page must advance all ten sub-blocks out of `pending`. Mixed-state pages indicate an ingest that addressed some analytes and silently skipped others. All-`pending` stubs (untouched) are not flagged. Run via `node tools/audit-ingredient-metal-coverage.mjs`.
-
-**Ingredient body-table presence:** ingredient pages whose frontmatter has any sub-block at `populated` or `in_progress` but whose body lacks the "Heavy metal contamination profile" table.
-
-**Ingredient mandatory sections:** non-stub ingredient pages missing any of the eight `## H2` section headings required (see [[docs/page-templates]]). Stubs are exempt. Audit: `tools/audit-ingredient-mandatory-sections.mjs`. Failures surface as `COMPLETE-INGREDIENT-SECTIONS`.
-
-**Product-page mandatory sections:** non-stub product-category pages missing any of the ten `## H2` section headings required (see [[docs/page-templates]]). Stubs (zero contributing sources) are exempt. Audit: `tools/audit-product-mandatory-sections.mjs`. The Levers section is the brand-legal-actionable surface; pages missing it specifically are escalated rather than just flagged.
-
-**Routing audit malformed:** `data/evidence/routing_malformed.csv` is non-empty. Source page missing required frontmatter (`cite_key`, `products`, `ingredients`, `matrices`, `metals`, `jurisdictions`, `source_type`, `evidence_tier`).
-
-**Routing audit stale:** routing audit last-modified older than any file in `wiki/sources/`. Re-run `tools/evidence/build-routing-audit.mjs`.
-
-**Orphaned routing reference:** product-category page references a source whose routing row was removed.
-
-**Source missing products field on food/personal-care paper:** source has populated `matrices:` with product-shaped slugs but `products: []` and no `provisional_scaffold`/`pending_category_lock` flag. Run via `node tools/audit-routing-discipline.mjs`. Currently `--warn-only`; flip to fail-on-error after Phase 1 frontmatter discipline stabilizes. See `docs/order-of-operations.md` Phase 1.
-
-**HMTc-locked product page has zero routed sources:** product page has both `hmtc_category` and `hmtc_row` but no source declares it. Either the scaffold has not yet received its Phase 1 ingest, or sources declare incorrect slugs. `--warn-only`. See `docs/order-of-operations.md` Phase 5.
-
-**Source declares product page requiring Step 0 Lock:** `routing_unresolved.csv` row whose `target_kind` is `product` and `declared_target` corresponds to a not-yet-locked HMTc category. The provisional-product-scaffold tool creates the routing destination immediately so ingest continues. Step 0 Lock then promotes the provisional scaffold to a locked HMTc row in a separate governance pass.
-
-**Product page exists but lacks Step 0 Lock:** `provisional_scaffold: true` (or legacy `pending_category_lock: true`) is in the frontmatter. Surfaced in the morning report so Step 0 Locks can be prioritized for the categories with the most pulled-through evidence. Not a build-blocking lint failure — the provisional state is intentional and reversible. The audit `tools/autonomy/audit-pending-locks.mjs` counts these and ranks by routed-source count.
-
-Lint results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`. Lint entries in `log.md` use `op: lint`. Routing lint failures should block builds, not just produce reports, because routing drift propagates silently.
+Lint runs across the wiki and checks: contradictions, stale claims, orphans, missing/malformed frontmatter, regulatory-value drift, silent threshold deviation (the Part 2 wiki/HMT&C drift check), evidence-tier mismatch, provenance gaps, the full routing-audit family (unresolved, malformed, stale, orphaned reference, missing-products, zero-routed-source, Step 0 Lock pending), the ingredient coverage/body-table/mandatory-section audits, the product-page mandatory-section audit, and the language-judgment checks (em dashes, inline bold, prose-vs-bullets, undefined consumer qualifiers) that run as the delegated sweep in [[docs/tasks/prose-style-sweep]]. Results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`; log entries use `op: lint`. Routing lint failures block builds, not just produce reports, because routing drift propagates silently.
 
 ## Part 19 — HMT&C threshold-setting workflow (staff-only outputs)
 

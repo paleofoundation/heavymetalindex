@@ -1,0 +1,58 @@
+# Lint — Heavy Metal Index Wiki
+
+This is the full lint check list, split out of CLAUDE.md Part 18 to keep the operating manual under the context-budget threshold. CLAUDE.md Part 18 carries the summary and points here for the complete enumeration.
+
+When Karen (or Karen's Lab) runs lint across the wiki, the lint pass checks for:
+
+**Contradictions:** claims across pages that disagree. List with page references.
+
+**Stale claims:** pages that cite only pre-2020 sources in fast-moving areas, or pages not updated after a newer source was ingested that should have touched them.
+
+**Orphans:** pages with no inbound links.
+
+**Missing frontmatter:** required fields absent or malformed.
+
+**Regulatory-value drift:** any regulation page whose `limit_value` differs from what the agency source currently states. Run automatically when any agency source is newly ingested.
+
+**Silent threshold deviation:** certification pages that cite different values than the referenced wiki pages without stating a rationale (precautionary, market-ratcheting, feasibility-driven, regulatory-alignment). This is the wiki/HMT&C drift check from Part 2.
+
+**Evidence-tier mismatch:** synthesis claims supported only by B-tier or C-tier sources when A-tier sources exist in the corpus.
+
+**Provenance gaps:** wiki claims that do not trace to a specific source page. Every numerical claim in the wiki must link to a source; claims without provenance are a lint failure.
+
+**Routing audit unresolved:** `data/evidence/routing_unresolved.csv` is non-empty. A source's frontmatter declares products, ingredients, or matrices that do not match any existing target page. Each unresolved entry is either a frontmatter correction or a new-page proposal (see [[docs/page-creation]]).
+
+**Ingredient coverage asymmetry:** ingredient pages where some `contamination_profile` sub-blocks are `in_progress` or `populated` while others remain `pending`. Per the coverage rule, any ingest that touches an ingredient page must advance all ten sub-blocks out of `pending`. Mixed-state pages indicate an ingest that addressed some analytes and silently skipped others. All-`pending` stubs (untouched) are not flagged. Run via `node tools/audit-ingredient-metal-coverage.mjs`.
+
+**Ingredient body-table presence:** ingredient pages whose frontmatter has any sub-block at `populated` or `in_progress` but whose body lacks the "Heavy metal contamination profile" table.
+
+**Ingredient mandatory sections:** non-stub ingredient pages missing any of the eight `## H2` section headings required (see [[docs/page-templates]]). Stubs are exempt. Audit: `tools/audit-ingredient-mandatory-sections.mjs`. Failures surface as `COMPLETE-INGREDIENT-SECTIONS`.
+
+**Product-page mandatory sections:** non-stub product-category pages missing any of the ten `## H2` section headings required (see [[docs/page-templates]]). Stubs (zero contributing sources) are exempt. Audit: `tools/audit-product-mandatory-sections.mjs`. The Levers section is the brand-legal-actionable surface; pages missing it specifically are escalated rather than just flagged.
+
+**Routing audit malformed:** `data/evidence/routing_malformed.csv` is non-empty. Source page missing required frontmatter (`cite_key`, `products`, `ingredients`, `matrices`, `metals`, `jurisdictions`, `source_type`, `evidence_tier`).
+
+**Routing audit stale:** routing audit last-modified older than any file in `wiki/sources/`. Re-run `tools/evidence/build-routing-audit.mjs`.
+
+**Orphaned routing reference:** product-category page references a source whose routing row was removed.
+
+**Source missing products field on food/personal-care paper:** source has populated `matrices:` with product-shaped slugs but `products: []` and no `provisional_scaffold`/`pending_category_lock` flag. Run via `node tools/audit-routing-discipline.mjs`. Currently `--warn-only`; flip to fail-on-error after Phase 1 frontmatter discipline stabilizes. See `docs/order-of-operations.md` Phase 1.
+
+**HMTc-locked product page has zero routed sources:** product page has both `hmtc_category` and `hmtc_row` but no source declares it. Either the scaffold has not yet received its Phase 1 ingest, or sources declare incorrect slugs. `--warn-only`. See `docs/order-of-operations.md` Phase 5.
+
+**Source declares product page requiring Step 0 Lock:** `routing_unresolved.csv` row whose `target_kind` is `product` and `declared_target` corresponds to a not-yet-locked HMTc category. The provisional-product-scaffold tool creates the routing destination immediately so ingest continues. Step 0 Lock then promotes the provisional scaffold to a locked HMTc row in a separate governance pass.
+
+**Product page exists but lacks Step 0 Lock:** `provisional_scaffold: true` (or legacy `pending_category_lock: true`) is in the frontmatter. Surfaced in the morning report so Step 0 Locks can be prioritized for the categories with the most pulled-through evidence. Not a build-blocking lint failure — the provisional state is intentional and reversible. The audit `tools/autonomy/audit-pending-locks.mjs` counts these and ranks by routed-source count.
+
+## Writing-style and consumer-language checks (language-judgment, no .mjs tool)
+
+These categories require reading judgment rather than a structural script, so they have no `.mjs` audit. They are run as a delegated sweep (see `docs/tasks/prose-style-sweep.md`) that writes a findings report to `wiki/lint/<YYYY-MM-DD>-prose-style-sweep.md`; the report is triaged and applied by an editing-capable session, never auto-applied.
+
+- **Em dashes in new prose:** em dashes outside direct quotes and citation text. Per [[docs/writing-style]], use commas, semicolons, periods, or parentheticals instead.
+- **Inline bold for emphasis:** bolded words inside running prose. Bold is reserved for headings and explicit definition labels.
+- **Bullets where prose is required:** study summaries, mechanism explanations, synthesis paragraphs, consumer risk explanations, and implications sections rendered as bullet lists instead of prose.
+- **Undefined consumer qualifiers:** "small," "trace," "safe," "dangerous," "high," "low" and similar used without a quantitative anchor (dose, population, consumption frequency). Per Part 7 and [[docs/conventions]], consumer translations must specify dose, population, and frequency.
+
+## Output and log conventions
+
+Lint results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`. Lint entries in `log.md` use `op: lint`. Routing lint failures should block builds, not just produce reports, because routing drift propagates silently.
