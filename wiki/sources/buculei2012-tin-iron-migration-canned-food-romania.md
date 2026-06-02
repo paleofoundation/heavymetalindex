@@ -43,11 +43,11 @@ All concentrations are reported in mg/kg of product as sampled (the source uses 
 |---|---|---|---|
 | Peas, Varnish 1 (universal) | y = 1.105·x + 11.165 | 0.6874 | ~12 / ~17 |
 | Peas, Varnish 2 (epoxyphenolic) | y = 0.811·x + 11.891 | 0.9665 | ~12 / ~16 |
-| Tomato paste, Varnish 1 | y = 1.778·x + 12.064 | 0.9917 | ~14 / ~21 |
+| Tomato paste, Varnish 1 | y = 1.778·x + 12.456 | 0.9917 | ~14 / ~21 |
 | Tomato paste, Varnish 2 | y = 1.472·x + 12.568 | 0.9761 | ~14 / ~20 |
-| Tomato paste, Varnish 3 | y = 1.13·x + 12.008 | 0.9425 | ~14 / ~19 |
-| Pork in own juice, Varnish 1 | y = 0.913·x + 11.749 | 0.7794 | ~12 / ~15 |
-| Pork in own juice, Varnish 2 (sulfur-resistant) | y = 0.985·x + 11.127 | 0.0378 | ~12 / ~14 |
+| Tomato paste, Varnish 3 | y = 1.13·x + 12.008 | 0.9725 | ~14 / ~19 |
+| Pork in own juice, Varnish 1 | y = 0.913·x + 11.749 | 0.7796 | ~12 / ~15 |
+| Pork in own juice, Varnish 2 (sulfur-resistant) | y = 0.985·x + 10.127 | 0.0378 | ~12 / ~14 |
 | Pork liver pate, Varnish 1 | y = 9.489·x + 127.03 | 0.913 | ~127 / ~155 |
 | Pork liver pate, Varnish 2 (sulfur-resistant) | y = 8.405·x + 124.67 | 0.9572 | ~125 / ~150 |
 
@@ -60,10 +60,10 @@ Authors' notes on the Fe values: the iron content of canned peas, tomato paste, 
 | Peas, Varnish 1 (universal) | y = 0.092·x + 0.068 | 0.8048 | ~0.1 / ~0.5 |
 | Peas, Varnish 2 (epoxyphenolic) | y = 0.084·x + 0.056 | 0.2353 | ~0.1 / ~0.6 |
 | Tomato paste, Varnish 1 | y = 6.185·x − 5.985 | 0.8769 | ~0 / ~23 |
-| Tomato paste, Varnish 2 | y = 4.036·x − 4.503 | 0.6595 | ~0 / ~16 |
+| Tomato paste, Varnish 2 | y = 4.426·x − 4.901 | 0.7104 | ~0 / ~16 |
 | Tomato paste, Varnish 3 | y = 2.12·x − 1.701 | 0.8907 | ~0 / ~9 |
-| Pork in own juice, Varnish 1 | y = 0.225·x + 0.179 | 0.6312 | ~0.2 / ~1.2 |
-| Pork in own juice, Varnish 2 (sulfur-resistant) | y = 0.215·x + 0.179 | 0.8427 | ~0.2 / ~1.0 |
+| Pork in own juice, Varnish 1 | y = 0.225·x + 0.179 | 0.8327 | ~0.2 / ~1.2 |
+| Pork in own juice, Varnish 2 (sulfur-resistant) | y = 0.242·x + 0.179 | 0.827 | ~0.2 / ~1.0 |
 | Pork liver pate, Varnish 1 | y = 0.731·x − 0.477 | 0.5346 | ~0 / ~1.1 |
 | Pork liver pate, Varnish 2 (sulfur-resistant) | y = 0.092·x + 0.003 | 0.93 | ~0 / ~0.4 |
 
@@ -128,3 +128,5 @@ Experimental design: four canned product types (peas, tomato paste, pork in own 
 - The source's Conclusion bullet on tomato paste introduces "white Lake" and "yellow Lake" varnish identifiers not defined elsewhere in the paper; these have been treated as transcription artefacts of the source's English and have not been propagated to this page.
 - Brand-firewall (Part 12): the source does not name any commercial brands of the four canned products tested; the cans appear to have been produced experimentally or by the authors' affiliated facility. No brand-firewall redactions were required.
 - Wiki/HMTc firewall (Part 2): the Implications section reports the literature observation that tomato Sn migration reaches ~9–23 mg/kg at 36 months under the three varnish systems tested and notes the relationship to the Codex CXS 193-1995 ceilings without proposing an HMTc threshold value.
+- 2026-06-02 — Audit subagent (general-purpose) flagged Check 1 (numerical fidelity) with seven ⚠️ concerns on regression-equation digits in Figures 3, 4, 5, 6 where the subagent's read disagreed with the initial transcription. Re-read Figures 3 and 4 (PDF p. 3) and Figures 5 and 6 (PDF p. 3) at higher attention; the subagent was correct on six of seven and false-positive on one. Corrections applied: Figure 3 Tomato V1 Fe intercept 12.064 → 12.456; Figure 3 Tomato V3 Fe R² 0.9425 → 0.9725; Figure 4 Tomato V2 Sn equation 4.036·x − 4.503 → 4.426·x − 4.901 and R² 0.6595 → 0.7104; Figure 5 Pork V1 Fe R² 0.7794 → 0.7796; Figure 5 Pork V2 Fe intercept 11.127 → 10.127; Figure 6 Pork V1 Sn R² 0.6312 → 0.8327; Figure 6 Pork V2 Sn equation 0.215·x + 0.179 → 0.242·x + 0.179 and R² 0.8427 → 0.827. False positive (subagent uncertain, re-read confirmed original): Figure 8 Liver pate V2 Sn R² remains 0.93; the rendered figure label reads 0.93, not 0.63. Day-0 / day-1080 visual reads were not affected; the corrections are to the printed regression equations themselves, not to the plotted scatter points used for the endpoint approximations.
+- 2026-06-02 — Audit subagent Checks 2 (slug vocabulary), 3 (speciation and methods), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) returned ✅. No changes required.
