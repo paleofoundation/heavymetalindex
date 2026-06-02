@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/antioxidants-13-00584.pd
 metals: [Cd]
 ingredients: []
 products: []
-matrices: [caenorhabditis-elegans, nematode-model, cadmium-chloride-exposure, sulforaphane-pre-exposure]
+matrices: [caenorhabditis-elegans, nematode-model, mechanistic-toxicology]
 jurisdictions: [MX]
 near_duplicates: []
 sample_n: null
@@ -30,7 +30,7 @@ Hernandez-Cruz and colleagues tested whether sulforaphane pre-exposure reduces c
 
 ### Exposure concentrations and survival
 
-The authors exposed L1-stage C. elegans to CdCl2 concentrations from 300 to 6000 uM for 24 hours. The 300 uM CdCl2 dose decreased survival by 7%, while 6000 uM decreased survival by 73%. Two LC50 calculations were reported: 4858 uM with a printed 95% interval of 4707-4019 uM, and 4857 uM with a 95% interval of 4719-4996 uM. The 4600 uM CdCl2 dose, described as close to the lower LC50 limit, was selected for the remaining experiments.
+The authors exposed L1-stage C. elegans to CdCl2 concentrations from 300 to 6000 uM for 24 hours. The 300 uM CdCl2 dose decreased survival by 7%, while 6000 uM decreased survival by 73%. Two LC50 calculations were reported: 4858 uM with a 95% confidence interval of 4707-5019 uM by simple logistic regression in Prism 10, and 4857 uM with a 95% confidence interval of 4719-4996 uM by Probit analysis. The 4600 uM CdCl2 dose, described as close to the lower LC50 limit, was selected for the remaining experiments.
 
 Sulforaphane alone was tested at 25, 50, 100, and 200 uM for 48 hours and did not significantly affect survival. In the combined protocol, nematodes received sulforaphane for 24 hours followed by sulforaphane plus 4600 uM CdCl2 for 24 hours. Pre-exposure to 50 and 100 uM sulforaphane increased survival by 27.45% and 34.01%, respectively, versus CdCl2 alone; 100 uM sulforaphane achieved 90.5% survival and was used for subsequent assays.
 
@@ -81,4 +81,6 @@ App: Keep as cadmium health/toxicology context. Do not route to broccoli, cabbag
 
 ## Verification notes
 
-The PDF has author attribution and DOI `10.3390/antiox13050584`; no DOI conflict was observed. The source reports experimental CdCl2 treatment concentrations, not environmental, dietary, food, or product cadmium occurrence. The first LC50 confidence interval is printed as 4707-4019 uM, which is internally reversed or otherwise inconsistent; this page preserves the printed values and treats the selected 4600 uM CdCl2 dose as the operative downstream exposure. Brand and supplier names for reagents and instruments are omitted except where the method class is necessary to understand the assay.
+The PDF has author attribution and DOI `10.3390/antiox13050584`; no DOI conflict was observed. The source reports experimental CdCl2 treatment concentrations, not environmental, dietary, food, or product cadmium occurrence. Brand and supplier names for reagents and instruments are omitted except where the method class is necessary to understand the assay.
+
+Merge-enhance 2026-06-02 (Claude Opus 4.7): corrected the first LC50 95% confidence interval from "4707-4019 uM" to "4707-5019 uM" — verified against Figure 2A inset in the PDF, which prints "Confidence intervals 95%: 4707 to 5019 µM" for the simple-logistic-regression LC50 of 4858 uM. The prior page text described this interval as "internally reversed or otherwise inconsistent," but the source is consistent (4858 uM falls inside 4707-5019 uM); the inconsistency was a transcription error in the prior ingest. Also trimmed two invented matrix slugs (`cadmium-chloride-exposure`, `sulforaphane-pre-exposure`) — those describe experimental treatments, not biological sample matrices — and added `mechanistic-toxicology` to align with the convention used in `balali-mood2021-toxic-mechanisms-five-heavy-metals`.
