@@ -17,7 +17,7 @@ related_urls:
 raw_sha256: "cfbd76d5d1ea56123e5c2dcf9b623548c3b17e77f7b5ddde7bb7dd8a144930d3"
 near_duplicates: []
 metals: [Pb, Cd]
-matrices: [cocoa, chocolate, dark-chocolate, milk-chocolate, cocoa-powder, cocoa-nibs, cocoa-shell, cocoa-liquor, cocoa-bean]
+matrices: [cocoa, chocolate, dark-chocolate, milk-chocolate, cocoa-powder, cocoa-nibs, cocoa-shells, cocoa-liquor, cocoa-beans]
 products: ["[[products/chocolate]]"]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 jurisdictions: [US-CA, US, EC, CO, PE, TT, HN, GH, CI, ID, BR]
@@ -153,8 +153,8 @@ The Final Report includes 2-page individually-authored affirmative conclusions f
 
 Several factual claims relevant to the chocolate product category emerge from the Final Report and are useful inputs to the wiki:
 
-- The cocoa market consists of two product categories based on bean type: "fine flavor" and "bulk or common." Fine-flavor accounts for approximately 10-15% of world cocoa exports. Latin America and the Caribbean account for approximately 90% of fine-flavor cocoa production.
-- At Consent Judgment current Cd trigger levels, approximately 60% of chocolate liquor from the LAC region exceeds the trigger; at the drop-down Cd trigger levels, this rises to approximately 70%.
+- The cocoa market consists of two product categories based on bean type: "fine flavor" and "bulk or common." Fine-flavor accounts for approximately 10-15% of world cocoa exports. Latin America and the Caribbean account for approximately 90% of fine-flavor cocoa production (Ahn §3.1).
+- Ahn (§3.1) reports that at Consent Judgment current Cd trigger levels, approximately 60% of chocolate liquor from the LAC region exceeds the trigger; at the drop-down Cd trigger levels, this rises to approximately 70%. This is an individually-authored affirmative-conclusion finding from Ahn, not a Committee consensus statement.
 - The chocolate industry obtains certified analysis of whole-bean Cd and Pb prior to purchase, but cocoa-bean shell is significantly higher in Cd than the nib. Beans with lower nib-Cd may be rejected based on irrelevant whole-bean Cd measurements; the Nib-Cd/Shell-Cd ratio varies genetically. This is a market inefficiency the Committee documents.
 - Pre-export bean cleaning and packaging facilities in Ecuador were observed during the Committee's field trip; drying practices on roadsides, concrete patios, drying tables, and plastic tarps in direct contact with the ground are documented as observed real-world practices generating post-harvest Pb contamination.
 - Fermentation occurs in bags, covered piles, and wooden boxes "exposed to exterior elements" — these are the venues at which post-harvest Pb exposure begins.
@@ -174,7 +174,7 @@ The reduction-strategy scoring was conducted three times by individual Committee
 - Fraction of nib Pb concentration attributed to contact during bean-breaking and winnowing: approximately 70%.
 - Pb concentration of fine material removed during bean cleaning via aspiration and sieving, relative to shell: approximately 10× higher.
 - Pre-harvest Pb in cocoa nibs and shells sampled directly from pods (Rankin et al. 2005; Manton 2010): less than 3 ppb dry weight.
-- Pb in commercial cocoa beans as observed in market-collected samples: as high as >1,000 ppb dry weight.
+- Pb in cocoa beans demonstrated in commercial markets: as high as >1,000 ppb dry weight.
 - Pb gain in beans grown on uncontaminated soils, Chaney's estimate: ~100 ng Pb/g (~100 ppb).
 - Highest documented bean Cd in LAC growing regions (Chaney §3.2): up to 10 mg Cd/kg vs the 0.8 mg Cd/kg EU limit.
 - Documented Colombian topsoil Cd anomaly: 27 mg Cd/kg, 100-fold background.
@@ -231,7 +231,7 @@ For the California-Prop 65 regulatory-context surface, this report establishes t
 - Geography and sampling-locations: The report's evidence base spans California (AYS market testing of finished chocolate products sold in California), Ecuador (Committee field trip and bean sampling), Trinidad & Tobago (Ramtahal's research base), Colombia (Chaney's documented 27 mg/kg topsoil location), Peru, Honduras (Chaney's high-Cd:Zn problem-soils list), Brazil (Ahn's Mars experience), Indonesia (Ahn's Mars experience), Ghana (Ahn's Mars experience), and Côte d'Ivoire (Ahn's Mars experience). `sampling_year_range: [2014, 2021]` reflects AYS market testing 2014-2017 plus the Committee's evidence-gathering and field-work window 2018-2021. `sampling_locations` is intentionally left empty as the report does not present a single coherent sampling-location array — the Committee's evidence is multi-source, multi-method, and not reducible to a discrete sampling-locations list.
 - Provisional-scaffold posture for chocolate: The chocolate product page exists ([[products/chocolate]]). This source's `products` field declares `[[products/chocolate]]` only. No new product page is created. Ramtahal's report-internal "fine flavor" and "bulk or common" distinction is documented in the body and Key numbers but is NOT promoted to a separate product slug; that would be a Step 0 Lock decision outside this ingest's scope.
 - Ingredient routing: `ingredients` declares `[[ingredients/cocoa]]` and `[[ingredients/chocolate]]`. Both pages exist (verified via Bash ls at ingest time). The cocoa-nibs, cocoa-shell, cocoa-liquor, and cocoa-bean matrix values are recorded in the matrices array but no separate ingredient pages are proposed by this ingest.
-- Audit subagent (2026-06-02, fresh-context general-purpose) verdict and audit-application findings will be appended in a subsequent commit per the v2.0 skill's Phase 3 protocol.
+- Audit subagent (2026-06-02, fresh-context general-purpose) verdict PROMOTE. The subagent independently re-verified ~25 numerical values against the PDF source — including the Bean Cleaning and Winnowing Study (95.2 → 39.7 ppb, 58% reduction, 70% nib Pb), the pre-harvest <3 ppb dry-weight clean-room result, the 10 mg Cd/kg LAC bean and 27 mg Cd/kg Colombian topsoil figures, the AYS ~600-product market-test count, the Group distribution (40%/48%/12%), the >95%/>81% status-quo Pb/Cd compliance figures, the full Pb Table 3 and Cd Table 4 verbatim values for all four Experts across all three cacao-content Groups, and the 15/5/10 confidence-tier strategy counts — all match exactly. Checks 3 (speciation/methods/units), 4 (Part 12 brand firewall), and 5 (Part 2 wiki/HMTc firewall) all clean. Two ⚠️ concerns raised on Check 1 plus one ⚠️ on Check 2, all three applied: (a) Industry-context observation regarding LAC chocolate-liquor exceedance percentages (60% current / 70% drop-down Cd triggers) re-attributed to Ahn §3.1 individually rather than to the Committee consensus, since this is an individually-authored affirmative-conclusion finding; (b) Key-numbers line on commercial-market bean Pb tightened from "market-collected samples" paraphrase to "demonstrated in commercial markets" to track the source language; (c) matrices vocabulary plural-form alignment: `cocoa-shell` → `cocoa-shells`, `cocoa-bean` → `cocoa-beans`, consistent with the corpus precedent in [[sources/oliveira2021-cocoa-beans-cd-pb-brazil-processing]] (`matrices: [cocoa-beans, cocoa-liquor, cocoa-butter, cocoa-powder, cocoa-shells, chocolate]`). No false positives recorded.
 
 ## Sources
 
