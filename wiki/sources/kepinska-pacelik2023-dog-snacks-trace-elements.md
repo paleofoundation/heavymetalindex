@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/applsci-13-02806.pdf"
 metals: [Cu, Fe, Mn, Zn, Co, Cd, Pb, Mo, Cr, Ni]
 ingredients: []
 products: [pet-treats-snacks]
-matrices: [pet-treat, dog-snack-prototype, extruded-dog-snack, baked-dog-snack, insect-meal-formulation, spirulina-formulation]
+matrices: [pet-treat, dog-snack-prototype]
 jurisdictions: [PL]
 near_duplicates: []
 sample_n: 4
@@ -64,7 +64,7 @@ In the ten-dog two-bowl palatability tests, S1 versus S2 was 50%/50%; S3 versus 
 
 ## Methods (brief)
 
-The authors prepared two extruded and two baked dog-snack prototypes and ground samples for proximate and mineral analysis. Proximate composition followed AOAC methods. Ca, K, Mg, Na, Fe, Mn, Zn, and Cu were measured after wet mineralization by atomic absorption spectrometry; phosphorus was measured colorimetrically. The abstract states that mineral and heavy-metal content was analyzed by colorimetry and mass spectrometry, while the methods section provides the most detail for AAS and phosphorus colorimetry. A certified skimmed-milk-powder reference material was used for analytical verification. Palatability was tested with ten adult dogs in a two-bowl design.
+The authors prepared two extruded and two baked dog-snack prototypes and ground samples for proximate and mineral analysis. Proximate composition followed AOAC methods. Ca, K, Mg, Na, Fe, Mn, Zn, and Cu were measured after wet mineralization in nitric and perchloric acids by atomic absorption spectrometry; phosphorus was measured colorimetrically by the Egner-Riehm method. A certified skimmed-milk-powder reference material (ERM-BD151) was used for analytical verification. The Methods section describes analytical procedures only for the eight macromineral and micronutrient elements above plus phosphorus; it does not describe any analytical procedure, instrument, digestion protocol, or limit of detection for the toxic-metal panel (Cd, Pb, Co, Cr, Ni) or for Mo, whose nondetects and detected values are reported in Table 5. The abstract states that mineral and heavy-metal content was analyzed by colorimetry and mass spectrometry, but the methods section provides no mass-spectrometry detail. Palatability was tested with ten adult dogs in a two-bowl design.
 
 ## Implications
 
@@ -90,3 +90,7 @@ App: Surface as context that insect-meal/spirulina pet-treat prototypes measured
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/app13052806`; no DOI conflict was observed. Names in the frontmatter are ASCII transliterations of the byline. The source reports dry-matter concentrations as mg/100 g DM; this page converts to mg/kg DM by multiplying by 10 and preserves the native units beside each conversion. The paper does not report arsenic or mercury in the trace-element table. It reports Cd, Pb, Co, Cr, and Ni as `nd` but does not provide LOD/LOQ, so downstream routing should keep those as nondetect-without-limit rather than numeric censored rows.
+
+Matrices vocabulary: `pet-treat` and `dog-snack-prototype` are bare-string additions outside the human-food-centric matrices list in `docs/gpt-collaboration/system-prompt.md`. No standard term covers self-produced experimental pet-treat prototypes, so these two are proposed novel matrices flagged here per the system-prompt guidance. Earlier process- and formulation-specific tokens (`extruded-dog-snack`, `baked-dog-snack`, `insect-meal-formulation`, `spirulina-formulation`) were removed as over-granular for a four-prototype study without per-formulation metal contrasts.
+
+Audit subagent (2026-06-02) flagged two ⚠️ concerns: matrices over-granularity (applied — collapsed to `pet-treat` plus `dog-snack-prototype` and flagged as novel-vocabulary proposals) and incomplete Methods statement on the toxic-metal analytical gap (applied — Methods now states explicitly that the paper describes no analytical procedure or LOD for Cd/Pb/Co/Cr/Ni or Mo). Numerical fidelity, brand firewall, and HMTc firewall checks were clean.
