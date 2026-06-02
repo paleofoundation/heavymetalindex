@@ -62,11 +62,11 @@ Compiled by the review authors from Kheang et al. 2013, Kheang et al. 2006, Mosh
 
 | Parameter | Reported value(s) | Cited source |
 | --- | --- | --- |
-| Free fatty acids, FFA (%) | 11.5; 12.6; 13.01; 24.1 | Kheang et al. 2013; Moshi 2017; Kheang et al. 2006; Huang & Chang 2010 |
-| Peroxide value, PV (meq/kg) | 2.98; 3.1; 3.4 | Kheang et al. 2013; Moshi 2017; Kheang et al. 2006 |
+| Free fatty acids, FFA (%) | 12.6; 13.01; 11.5; 24.1 | Kheang et al. 2013; Moshi 2017; Kheang et al. 2006; Huang & Chang 2010 |
+| Peroxide value, PV (meq/kg) | 3.4; 2.98; 3.1 | Kheang et al. 2013; Moshi 2017; Kheang et al. 2006 |
 | Phosphorus, P (mg/kg) | 18.7; 19.3 | Kheang et al. 2013; Kheang et al. 2006 |
-| Iron, Fe (mg/kg) | 0.22; 1.24 | Kheang et al. 2013; Kheang et al. 2006 |
-| Copper, Cu (mg/kg) | 0.32; 0.38 | Kheang et al. 2013; Kheang et al. 2006 |
+| Iron, Fe (mg/kg) | 1.24; 0.22 | Kheang et al. 2013; Kheang et al. 2006 |
+| Copper, Cu (mg/kg) | 0.38; 0.32 | Kheang et al. 2013; Kheang et al. 2006 |
 | beta-carotene (mg/kg) | 0.401; 3; 6 | Moshi 2017; Kheang et al. 2006; Kheang et al. 2013 |
 | Total vitamin E (mg/kg) | 0; 38.8; 39.03 | Kheang et al. 2006; Kheang et al. 2013; Moshi 2017 |
 
@@ -76,7 +76,7 @@ Compiled by the review authors from Kheang et al. 2013, Kheang et al. 2006, Mosh
 - "Disposing of SBE in landfills causes environmental pollution problems emanating from residual oil content, water content, leachable trace heavy metal, degradation of organic compounds and is a source of odours" (p. 190).
 - "The acidic, catalytic properties and trace heavy metals in the clay speed up the decomposition of hydroperoxides in residual oil" (p. 200).
 - The authors cite Tang et al. 2015, "One-step calcination of the spent bleaching earth for the efficient removal of heavy metal ions" (ACS Sustainable Chemistry and Engineering 3(6):1125-1131), as a reference treatment-of-SBE study but do not report quantitative heavy-metal removal performance values for that work in the review text.
-- World SBE generation is estimated as 1.5-2.0 million tonnes/year against global cooking-oil production of 128.2 million tonnes (Loh et al. 2015), with palm-oil refining as the largest single contributor.
+- World SBE generation is estimated as 1.5-2.0 million tonnes/year against global cooking-oil production of 128.2 million metric tonnes in 2007 (review text, p. 191, unattributed in source); the same paragraph cites Loh et al. 2015 for the Malaysia-specific figure of up to 170,000 tonnes of SBE per annum from crude palm oil refining.
 
 The review does not report measurements of lead, cadmium, arsenic (total or inorganic), mercury (total or methyl), nickel, aluminum, chromium (total or hexavalent), tin, antimony, or uranium in SBE, in residual oil, or in finished edible oils.
 
@@ -119,3 +119,5 @@ Microbiome: Not addressed beyond the noted role of trace elements (Mn, Fe, Ca, M
 - Jurisdictions are left empty: this is a global narrative review citing primary studies from Malaysia, Saudi Arabia, Algeria, Poland, Japan, Iran, Iraq, China, Brazil, Indonesia, Botswana, and elsewhere. The Botswana institutional affiliation of the authors does not bound the scope of the review.
 - The review covers cottonseed, sunflower, palm, niger seed, soya bean, and colza oils within its bleaching-process tables, but does not break the SBE composition tables down by source oil. Frontmatter therefore uses the umbrella `vegetable-oil` / `vegetable-oils` ingredient slugs rather than per-oil slugs.
 - No brand names are reported in the review; method/instrument vendor names are not referenced in detail in this review either, so no Part 12 firewall calls were required during ingest.
+- Audit subagent (2026-06-02) flagged Table 4 citation-value pairings on PV, Fe, Cu rows where values had been re-sorted low-to-high but cited-source columns left in source-publication order. Independently verified against source p. 203; the audit was correct. Same issue extended to the FFA row (audit did not flag but it had the same defect). All four rows corrected so that the value order matches the citation order as printed in source Table 4 (Kheang 2013; Moshi 2017; Kheang 2006; Huang & Chang 2010 left-to-right). Phosphorus, beta-carotene, and total vitamin E rows were already correctly paired and were not changed.
+- Audit subagent (2026-06-02) flagged the "(Loh et al. 2015)" attribution on the 1.5-2.0 Mt SBE / 128.2 Mt cooking-oil figure as over-specified. Independently verified against source p. 191; the global tonnage figure is printed in the review text without an immediate in-text citation, while the adjacent Loh et al. 2015 cite anchors specifically to the Malaysia 170,000-tonne figure. The Key numbers process-context bullet was corrected to attribute the global figure to the review text (unattributed in source) and to attach Loh et al. 2015 only to the Malaysia-specific number.
