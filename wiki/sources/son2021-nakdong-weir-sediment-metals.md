@@ -10,7 +10,9 @@ doi: "10.3390/w13050684"
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
+access_url: "https://doi.org/10.3390/w13050684"
 raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/water-13-00684.pdf"
+raw_sha256: "581e79a078f55bf818f78ac0deef166b95bddbed85587430874578edebbaeb28"
 metals: [Cu, Zn, Pb]
 ingredients: []
 products: []
@@ -19,7 +21,7 @@ jurisdictions: [KR]
 near_duplicates: []
 sample_n: 6
 sample_population: "Six upper-sediment samples from two Nakdong River sites north of the Hapcheon-Changnyeong weir, South Korea: ND1 at 1 km and ND2 at 5 km from the weir, sampled on 23 July, 13 August, and 19 September 2019, with duplicate aqua-regia and sequential-extraction analyses."
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 # Son et al. 2021 - Nakdong River weir sediment metals
@@ -118,9 +120,15 @@ Against Korea NIER sediment criteria, Zn and Pb were grade 1, while Cu ranged fr
 
 ## Methods (brief)
 
-Sediment cores were collected by an experienced diver, transported at 4 degrees C, dried, and sieved. Aqua regia extraction used 1 g dried sediment with 10 mL aqua regia, heated first at 40 degrees C for 1 h and then at 140 degrees C for 4 h. Extracts were vacuum-filtered and diluted to 100 mL.
+Sediment cores were collected by an experienced diver using an acrylic core (5 cm diameter, 22 cm height), transported in an icebox at 4 degrees C, dried to constant weight (top 2 cm), and sieved through a 0.5 mm sieve (Section 2.2). In situ water-column pH and dissolved oxygen were measured with a multiparameter probe (YSI Professional Plus, USA). Total organic carbon of freeze-dried sediment was measured by elemental analyzer (EA 1110, FV Instruments, UK) after carbonate removal with 1.0 N HCl. Particle size was measured by laser diffraction (Mastersizer 2000, Malvern, UK) after organic and carbonate removal with 10% H2O2 and 0.1 N HCl (Section 2.3).
 
-Sequential extraction used the modified Tessier method: exchangeable ions, carbonates, iron-manganese oxides, sulfides/organics, and residuals. The fifth step used aqua regia rather than perchloric or hydrofluoric acid. Extracted Cu, Zn, and Pb were measured by ICP-OES. Detection limits were 0.001 mg/L for Cu, 0.001 mg/L for Zn, and 0.003 mg/L for Pb; calibration R2 values were 0.999 for all three metals.
+Aqua regia extraction (Section 2.4) used 1 g dried sediment with 10 mL aqua regia (HCl:HNO3, 3:1), heated first at 40 degrees C for 1 h and then at 140 degrees C for 4 h. Each sample was duplicated. Extracts were vacuum-filtered and diluted to 100 mL.
+
+Sequential extraction used the modified Tessier method (Section 2.5): exchangeable ions in 1 M MgCl2 at pH 7 for 1 h; carbonates in 1 M CH3COOH at pH 5 for 5 h; iron-manganese oxides in 0.04 M NH2OH.HCl in 25% CH3COOH at 95 degrees C; sulfides and organics in 0.02 M HNO3 + 30% H2O2 at 85 degrees C followed by CH3COONH4 in 20% HNO3 at room temperature; residuals in 10 mL aqua regia at 40 degrees C for 1 h then 140 degrees C for 4 h. The fifth step used aqua regia rather than perchloric or hydrofluoric acid to enable direct comparison with the aqua regia totals. Effluents were filtered through Whatman 40 paper, diluted to 100 mL, and analyzed by the same ICP-OES instrument as the aqua regia totals.
+
+Extracted Cu, Zn, and Pb were measured by inductively coupled plasma optical emission spectrometry (ICP-OES; ICP-5800, Agilent, USA) at the National Instrumentation Center for Environmental Management (NICEM), Seoul National University. Calibration used reference solution from Inorganic Ventures. Detection limits were 0.001 mg/L for Cu, 0.001 mg/L for Zn, and 0.003 mg/L for Pb; calibration R2 values were 0.999 for all three metals. The metals reported are total Cu, total Zn, and total Pb; no isotopic or oxidation-state speciation was performed.
+
+The Risk Assessment Code (RAC, Section 2.6) was calculated as the ratio of (exchangeable + carbonate fractions) to total metal, expressed as percent; the five-class scheme defines no risk (RAC <= 1), light risk (1 < RAC <= 10), medium risk (10 < RAC <= 30), high risk (30 < RAC <= 50), and very high risk (RAC > 50).
 
 ## Implications
 
@@ -141,6 +149,8 @@ Courses: Useful for teaching why total sediment concentration, sequential extrac
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, study-area description, sampling method, aqua regia extraction method, sequential extraction method, RAC definition, Tables 1-3, Figures 1-8, Results sections 3.1-3.5, Conclusions, and data-availability statement. Products and ingredients are intentionally empty because no food, crop, ingredient, product, fish, or drinking-water sample was analyzed. Lead fraction results are not transcribed because the paper states that Pb was below detection limits in some sequential-extraction fractions and therefore does not present those fraction results.
+
+2026-06-03 merge-enhance pass: added `access_url` and `raw_sha256` to frontmatter; expanded `## Methods (brief)` with field instrument details (acrylic-core dimensions, YSI Professional Plus multiparameter probe, EA 1110 FV Instruments elemental analyzer for TOC, Mastersizer 2000 Malvern laser-diffraction particle sizer), the explicit Tessier-step reagent matrix, the Whatman 40 filtration step, ICP-OES instrument model and analytical lab (ICP-5800 Agilent at NICEM, Seoul National University), Inorganic Ventures calibration source, and an explicit note that the metals reported are total Cu/Zn/Pb with no isotopic or oxidation-state speciation. Vendor and instrument names are retained per the Part 12 brand-firewall Exception 2 (scientific-method vendor/material names, locked 2026-05-17). The RAC classification scheme thresholds were also moved from Section 2 into the Methods section so the RAC narrative in Key numbers is self-contained.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
