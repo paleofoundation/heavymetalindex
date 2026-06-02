@@ -104,11 +104,10 @@ Selected entries as tabulated (HM dose / phytohormone dose / response, cited pri
 | Valerianella locusta | 5 µM | Flavonoids and phenolics | Improved growth and antioxidant activity | [162] |
 
 **Author-stated single-point quantitative claims (selected, pages 5–14)**
-- 2 µM Se "improved root growth and decreased oxidative stress in Al-treated Lolium perenne" (cited to ref [84]).
-- 4 µM Se "alleviated Zn stress by improving growth and photosynthesis in Billbergia zebrina" (cited to ref [96]).
+- 2 µM Se "improved root growth and decreased oxidative stress in Al-treated Lolium perenne" (cited to ref [84], page 5 prose). **Source-internal discrepancy:** Table 1 (page 6) reports the same Lolium perenne / ref [84] entry as 5 µM Se reducing lipid peroxidation under 0.2 µM Al, not 2 µM. The wiki preserves both figures as the review reports them; the underlying primary study (ref [84], Cartes et al. 2010 in Ann. Appl. Biol.) would need to be consulted directly to resolve which dose corresponds to which endpoint.
+- 4 µM Se "alleviated Zn stress by improving growth and photosynthesis in Billbergia zebrina" (cited to ref [96], page 6).
 - SeMT 3 µM "mitigated Cd toxicity in mustard species by enhancing enzymatic antioxidants and preventing Cd aggregation in cell organelles" (cited to ref [89]).
 - Leaf spraying of Se (10, 20, 40 µM) "reduced Cd toxicity by limiting Cd uptake by roots and improved photosynthetic attributes, osmoprotectants and antioxidant levels in Satureja hortensis" (cited to ref [90]).
-- Foliar 4 µM Se "alleviated Zn stress by improving growth and photosynthesis in Billbergia zebrina" (cited to ref [96]).
 - Foliar Se in wheat leaves "inhibited metal uptake and enhanced nutritional status of wheat by accumulating more Se in the grains" (cited to ref [38]).
 
 ## Methods (brief)
@@ -143,6 +142,7 @@ This is a narrative agronomic-mitigation review; it contributes context rather t
 - **Sample-size.** `sample_n: null` is correct for a narrative review; the bibliometric counts in Figures 1–2 (e.g., 423 HM publications in 2022) reflect Dimensions search-result totals, not a defined sample frame for evidence extraction.
 - **License.** MDPI Agriculture publishes under Creative Commons Attribution (CC BY 4.0) license per MDPI's standard open-access policy. DOI 10.3390/agriculture13051083 resolves to the open-access article.
 - **Funding statement (page 15):** "This research received no external funding." No conflict-of-interest concerns declared by the authors.
+- Audit subagent (2026-06-02) flagged Check 1 ⚠️ on a duplicate Billbergia zebrina / ref [96] bullet (4 µM Se / Zn stress) appearing twice in Author-stated single-point quantitative claims; verified against source page 6 — claim appears once in the source, the duplicate was a wiki-side formatting artifact. Removed the duplicate; one canonical entry retained. Also flagged Check 1 ⚠️ on a source-internal Lolium perenne / ref [84] dose discrepancy (page 5 prose says 2 µM Se, Table 1 row says 5 µM Se for the same primary reference). Verified against source — both numbers are present in the review, attributed to the same primary citation. Added an explicit source-internal-discrepancy flag to the Author-stated bullet preserving both figures rather than silently picking one. Audit's verdict was REVISE; both findings applied; no other ❌ or ⚠️ findings.
 
 ## Ingest log
 
