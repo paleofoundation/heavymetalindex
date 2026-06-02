@@ -71,17 +71,17 @@ Soil-side heavy metal mapping (Figure 5, p. 8) is presented only as colour-grade
 
 ### Regulatory ceilings cited
 
-For sewage sludge applied to agricultural land, Romanian Order 344/2004 (implementing Council Directive 86/278/EEC) sets the following maximum permitted heavy-metal concentrations in the receiving soil (p. 8):
+For sewage sludge applied to agricultural land, Romanian Order 344/2004 (implementing Council Directive 86/278/EEC) sets the following maximum permitted heavy-metal concentrations in the sludge itself (p. 8):
 
-- Cr³⁺: 500 mg·kg⁻¹ dry soil.
-- Ni²⁺: 100 mg·kg⁻¹ dry soil.
-- Cu²⁺: 500 mg·kg⁻¹ dry soil.
+- Cr³⁺: 500 mg·kg⁻¹ dry sludge.
+- Ni²⁺: 100 mg·kg⁻¹ dry sludge.
+- Cu²⁺: 500 mg·kg⁻¹ dry sludge.
 
-The authors state all measured sludge and soil values fall below these ceilings (pp. 8, 11).
+These are sludge-side ceilings, not soil-side ceilings; the corresponding Romanian soil ceilings under Order 344/2004 are tighter (Cr 100, Ni 50, Cu 100 mg·kg⁻¹ DS) but are not cited in this paper. The authors state all measured sludge values fall well below the 500/100/500 sludge ceilings, and that the sludge-amended soils are within "EU and national legislation" without specifying which soil ceiling is being compared against (pp. 8, 11).
 
 ## Methods (brief)
 
-Sludge and soil sampling was performed in conformity with national reference methods listed by code only (Table 1, p. 3, and Table 2, p. 4). Heavy metal determinations used energy-dispersive X-ray spectroscopy (EDX) for qualitative element identification and atomic absorption spectroscopy (AAS) for Cu, alongside electrometric and spectrophotometric methods for the other parameters (p. 3). Specific standards invoked include SR EN 16192:2012 (Cr-total, Ni²⁺), SR 13179/93 (Cu²⁺), SR EN 12176 (pH), and SR ISO 11261:2000 (N-total).
+Sludge and soil sampling was performed in conformity with national reference methods listed by code only (Table 1, p. 3, and Table 2, p. 4). Heavy metal levels in the sludge were determined using atomic absorption spectroscopy (AAS), X-ray fluorescence (XRF), and spectrophotometric methods (p. 5); energy-dispersive X-ray spectroscopy (EDX) was used for qualitative elemental identification of the sludge solids (Figure 1, p. 5). Electrometric methods were used for pH and for additional physico-chemical parameters (p. 3). Specific standards invoked include SR EN 16192:2012 (Cr-total, Ni²⁺), SR 13179/93 (Cu²⁺), SR EN 12176 (pH), and SR ISO 11261:2000 (N-total).
 
 Reported speciation: chromium is reported as Cr-total (the regulatory ceiling itself is written as Cr³⁺ but the analytical method given, SR EN 16192:2012, returns total Cr); Cu and Ni are reported as Cu²⁺ and Ni²⁺ in the regulatory language but the analytical methods listed (AAS, ICP-style standards) measure total metal. No mercury speciation was performed; mercury is mentioned only as one of the seven heavy metals required to be monitored under the implementing legislation, not as a measured value.
 
@@ -103,6 +103,7 @@ App: No direct ingredient-level data — the study measures sludge and soil, not
 - Matrices `sewage-sludge` and `agricultural-soil` follow the existing controlled vocabulary used by sources such as `[[sources/de-silva2023-industrial-waste-land-application-soil]]` and `[[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]`.
 - Evidence tier B: peer-reviewed open-access journal article, but the analytical reporting is thin (no LOD/LOQ, no replicate statistics, heavy-metal values published only in bar-chart and county-map form rather than tables), which keeps it below A-tier.
 - Heavy-metal values in this page are read from Figure 3 of the article; the article does not publish a numerical table for those values. Spot-check by a second reader is welcome; flag any disagreement against the printed bars.
+- 2026-06-03 audit (fresh-context subagent) flagged two items, both verified and applied: (a) the cited 500/100/500 mg·kg⁻¹ DS ceilings were originally framed as receiving-soil limits; the paper text on p. 8 actually frames them as sludge-side limits applied "to the sewage sludge used on agricultural land", and the 500/100/500 values themselves match Romanian Order 344/2004 SLUDGE limits (not soil limits), so the section was rewritten. (b) XRF was omitted from the Methods list; the paper p. 5 explicitly names AAS + XRF + spectrophotometric as the heavy-metal methods; XRF added. One audit finding (`Cu` not in metals vocabulary list) was a false positive — `Cu` is the standard chemical symbol and matches usage on sources such as `[[sources/de-silva2023-industrial-waste-land-application-soil]]`; no change applied.
 
 ## Wiki pages updated on ingest
 
