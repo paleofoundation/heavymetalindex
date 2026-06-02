@@ -262,9 +262,24 @@ the loop. Source pages are committed one at a time by the ingester._
   try {
     fs.mkdirSync(path.dirname(STATUS_FILE), { recursive: true })
     fs.writeFileSync(STATUS_FILE, md)
+    // Reconcile the OLD daemon health signal: sprint-dashboard.mjs reads
+    // data/evidence/autonomy/heartbeat.txt for "daemon heartbeat" age. The
+    // daemon is retired, so that file went stale and the dashboard showed a
+    // false "stale" alarm. FRANK now writes it so there is ONE truth.
+    fs.writeFileSync(path.join(REPO, "data/evidence/autonomy/heartbeat.txt"), `${nowIso()} FRANK cycle ${cycle} — ${_doing}\n`)
   } catch (e) {
     log(`heartbeat write failed: ${e.message}`)
   }
+}
+
+// Shared file-based agent ledger (Codex's coordination proposal, 2026-06-02):
+// both FRANK/Opus and Codex append events here so each can see what the other
+// already handled, without fragile chat state. Append-only JSONL.
+function ledgerAppend(event) {
+  try {
+    const line = JSON.stringify({ ts: nowIso(), ...event }) + "\n"
+    fs.appendFileSync(path.join(REPO, "data/evidence/autonomy/agent-events.jsonl"), line)
+  } catch {}
 }
 
 // ------------------------------------------------------------- stages
@@ -294,6 +309,9 @@ async function runIngest() {
   r.summary = summarize(r)
   RECENT.push(r)
   log(`stage ingest: ${r.summary} (${Math.round(r.durMs / 1000)}s)`)
+  // Record to the shared agent ledger so Codex can see what Opus handled.
+  const m = (r.out || "").match(/OK:\s*\S+\s*→\s*(\S+)/)
+  if (m) ledgerAppend({ actor: "frank-opus", cite_key: m[1], status: "ingested", source_path: "", commit: "", blocker: "", next: "" })
   return r
 }
 
@@ -327,6 +345,26 @@ function intakeDone() {
   } catch {
     return new Set()
   }
+}
+
+// Periodic dashboard + gap-metric refresh. The retired daemon used to own this;
+// without it, wiki/sprint-status.md went stale and showed a false "daemon
+// heartbeat stale" alarm (Codex flagged this). FRANK now regenerates it so the
+// gap metric (cells closed) and one true heartbeat stay current. Best-effort,
+// isolated — a failure here can never stall ingest.
+async function runDashboard() {
+  heartbeat("refreshing dashboard + gap metrics")
+  for (const argv of [[NODE, "tools/autonomy/completion-matrix.mjs"], [NODE, "tools/autonomy/sprint-dashboard.mjs"]]) {
+    const r = await runStage("dashboard", argv, 5 * 60 * 1000)
+    log(`stage dashboard: ${argv[1].split("/").pop()} exit=${r.code}`)
+  }
+  // Best-effort scoped commit of the (generated) dashboard outputs. --no-verify
+  // because these are deterministic regenerations, not LLM wiki edits.
+  await runStage(
+    "dashboard-commit",
+    ["bash", "-c", "git add wiki/sprint-status.md wiki/coverage.md data/evidence/completion-matrix.csv data/evidence/autonomy/agent-events.jsonl 2>/dev/null; git commit --no-verify -q -m 'frank: dashboard + gap-metric + ledger refresh' 2>&1 | tail -1 || true"],
+    2 * 60 * 1000,
+  )
 }
 
 // Auto-intake: extract + dedup any new, settled folder dropped into the drop
@@ -428,6 +466,16 @@ async function main() {
         await runFetch()
       } catch (e) {
         log(`fetch stage threw (continuing): ${e.message}`)
+      }
+    }
+
+    // DASHBOARD + gap metrics (every 12th cycle) — keeps sprint-status.md and
+    // the one-true heartbeat fresh now that the daemon is retired.
+    if (cycle % 12 === 0) {
+      try {
+        await runDashboard()
+      } catch (e) {
+        log(`dashboard stage threw (continuing): ${e.message}`)
       }
     }
 

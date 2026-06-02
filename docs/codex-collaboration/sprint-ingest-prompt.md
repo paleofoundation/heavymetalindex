@@ -9,7 +9,16 @@ The prompt below is the canonical version. Karen pastes it verbatim. The 25–30
 ## The prompt (paste this)
 
 ```
-GOAL: drain raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ to 0 PDFs. The wishlist fetcher in the daemon is producing 100–250 PDFs/hour into this folder. You are the primary consumer alongside the Claude/Opus daemon, which picks up residuals at a hard per-tick cap of 3 PDFs as of 2026-05-28 (see tools/autonomy/ingest-manual-fetch-batch.mjs). Stop only when the folder is empty OR a named hard blocker fires (see ESCALATION below). No time budget. No "feels enough." No self-invented stop criteria. The earlier "drain to ≤10" threshold (pre-2026-05-28) left residuals stuck indefinitely: Codex would no-op on every fire whenever the queue dropped below 10, while the daemon also skipped this folder. Both ends now drain to zero.
+GOAL (TRANSACTIONAL — rewritten 2026-06-02): ingest a SMALL, bounded batch of auto-fetched PDFs and COMMIT EACH ONE before moving on. You run inside a hard 18-minute wrapper timeout (`tools/autonomy/ingest-with-codex.mjs --timeout-mins=18`); the old "No time budget / drain to 0" instruction contradicted that and got you killed mid-sweep with ~1 committed page per 6 hours. Do NOT try to drain the folder. The auto-fetched folder is FRANK's continuous queue; the Claude/Opus engine deliberately EXCLUDES auto-fetched (`--exclude-roots=auto-fetched`), so this folder is yours, and the next fire (every 20 min) continues where you stopped. Leftover PDFs are expected and correct.
+
+YOUR CONTRACT THIS FIRE:
+  - Process AT MOST 3 real-ingest PDFs. Commit + push after EACH page individually (not in batches). One page = one commit.
+  - If you've committed 3 pages, STOP — do not start a 4th. If a single page is taking long, finish it, commit, and stop.
+  - REASONING EFFORT: use standard/medium effort for routine ingest. Reserve maximum reasoning ONLY for a paper-internal contradiction or an audit dispute (see ESCALATION). Do not deep-reason every routine page.
+
+AGENT LEDGER (shared coordination, file-based — no chat):
+  - START: read the last ~50 lines of data/evidence/autonomy/agent-events.jsonl to see what Claude/Opus and prior Codex fires already ingested, skipped, or flagged. Skip anything already handled.
+  - AFTER EACH PAGE: append ONE json line: {"ts":"<iso>","actor":"codex","source_path":"<pdf>","cite_key":"<key>","status":"ingested|skip:<reason>|escalated","commit":"<sha>","blocker":"","next":""}. Commit it with the page.
 
 STEP 1 — SNAPSHOT. First tool call:
   ls raw/manual-fetch/seasonal-geographic-variance/auto-fetched/*.pdf > /tmp/codex-snapshot-$(date +%s).txt
@@ -18,7 +27,7 @@ That list is your scope. New PDFs the daemon adds mid-fire are the NEXT fire's j
 
 STEP 2 — RACE-SAFE CLAIM. Before processing any PDF, check data/evidence/autonomy/manual-fetch-tracker.csv. If a row matches the PDF's filename AND status starts with "claimed" or "ingested", SKIP it (daemon may be mid-process). Otherwise add a row with status="claimed-by-codex" + a timestamp before touching the PDF. This prevents double-ingest races.
 
-STEP 3 — TRIAGE-FIRST. Open every PDF in your snapshot in parallel batches of 10 (single tool message, 10 Read calls). Classify each as:
+STEP 3 — TRIAGE A SMALL SLICE. Do NOT open all PDFs. Open only the FIRST ~5 unclaimed PDFs from your snapshot (skip any the ledger or tracker shows already handled). Classify each — you only need up to 3 in the (a) real-ingest pile to fill your contract; stop triaging once you have 3. Classify as:
   (a) real-ingest — measures heavy metals in food/personal-care matrix with extractable concentration data
   (b) dedup-rollup — DOI already exists in wiki/sources/*.md (grep the doi: field across wiki/sources/); fold into existing canonical page, mark wishlist row "ingested"
   (c) skip:<reason> — false positive. Use existing vocabulary in data/evidence/wishlist-fetch-audit.csv (skip:no-heavy-metal-data / skip:not-target-cell / skip:not-food-occurrence / skip:review-only-no-primary-data / skip:not-pdf:<content-type>)
@@ -44,23 +53,18 @@ Frontmatter discipline per CLAUDE.md Part 5:
   - metals: [Pb, Cd, iAs, tAs, ...] at the specificity the source actually states (broad scopes are fine; routing layer fans out)
   - ingredients/products/matrices/jurisdictions: only existing slugs (check wiki/ingredients/, wiki/products/ — autonomy stub creation is handled separately via provisional-scaffold tools, see PROHIBITIONS)
 
-Batch-commit every ~10 source pages with message:
-  ingest auto-fetched <date> <time> batch N: K source pages
-
-PUSH after each batch commit (sprint mode 2026-05-25 lifted the no-push prohibition):
+COMMIT + PUSH AFTER EACH PAGE (not in batches — a batch you don't finish is lost when the timeout fires):
+  git add <the source page> data/evidence/autonomy/manual-fetch-tracker.csv data/evidence/autonomy/agent-events.jsonl
+  git commit -m "ingest auto-fetched <date>: <cite-key>"
   git push origin main
+Then append the agent-events.jsonl ledger line for that page (see AGENT LEDGER above), and move to the next of your ≤3.
 
-STEP 5 — UPDATE TRACKER. After each source page is committed, update its row in data/evidence/autonomy/manual-fetch-tracker.csv to status="ingested-by-codex" with the commit hash.
+STEP 5 — UPDATE TRACKER. As part of each page's single commit (above), set its row in data/evidence/autonomy/manual-fetch-tracker.csv to status="ingested-by-codex" with the commit hash.
 
 STEP 6 — AUDIT (best-effort). After each batch, try to spawn fresh-context audits per docs/gpt-collaboration/audit-prompt.md (5 checks: numerical fidelity, slug vocabulary, speciation/methods, brand firewall, wiki/HMTc firewall). If `agent thread limit reached`, write each page's audit-queue row with status=pending-audit-spawn-failed and CONTINUE. NEVER stop on spawn failure — Claude drains the async-audit lane separately.
 
-STEP 7 — END-OF-FIRE CLEANUP (run once, after all batches committed):
-  node tools/autonomy/auto-fetched-hygiene.mjs --report
-  npm run evidence:source-routes
-  node tools/autonomy/completion-matrix.mjs
-  node tools/autonomy/sprint-dashboard.mjs
-  git add -A && git commit -m "codex sprint <date> <time>: end-of-fire cleanup" --allow-empty
-  git push origin main
+STEP 7 — END-OF-FIRE CLEANUP (SKIP unless you finished your ≤3 pages with time to spare). FRANK now owns periodic regeneration of the routing audit, completion-matrix, and sprint-dashboard — do NOT spend your limited budget on them. The ONLY thing you must do every fire is commit + push each page individually (done in STEP 4) so nothing is lost when the timeout fires. If and only if you have clear time left after your pages:
+  npm run evidence:source-routes && git add -A && git commit -m "codex sprint <date>: routing refresh" --allow-empty && git push origin main
 
 ESCALATION RULES — exercise AI judgment first. Only escalate what NO AI agent could resolve:
   • Paper-internal contradiction (abstract n=200 but Table 1 n=152): prefer tables over abstract; note discrepancy in source-page Verification notes; continue.
