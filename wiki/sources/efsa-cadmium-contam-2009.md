@@ -1,5 +1,6 @@
 ---
 type: source
+raw_handle: KADC_08b-efsa-cadmium-food-2009-alt
 cite_key: efsa-cadmium-contam-2009
 title: "Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food"
 authors: ["EFSA Panel on Contaminants in the Food Chain (CONTAM)"]
@@ -10,25 +11,28 @@ source_type: gov-report
 evidence_tier: A
 raw_path: raw/reports/EFSA_Cadmium_ScientificOpinion.pdf
 sha256: f543117e83bb7ff2918ced4c6b50a53c51709e98f5994997d613daf0b590420a
+near_duplicates:
+  - path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/08b_EFSA_cadmium_food_2009_alt.pdf"
+    sha256: 98bf02ae6ea70d67126784a130b686f30d19dc83fea7d7eeefb6a2d968971581
+    note: "Same EFSA Journal 980 opinion, redownloaded by the Kimi agent into the condiments2 folder; merged via the manual-fetch ingest skill."
 access_date: 2026-04-24
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/980
 license: public-reference-only
 metals: [Cd]
 ingredients: ["[[ingredients/cereals]]", "[[ingredients/rice]]", "[[ingredients/wheat]]", "[[ingredients/leafy-greens]]", "[[ingredients/root-vegetables]]", "[[ingredients/potatoes]]", "[[ingredients/peanuts]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/lentils]]", "[[ingredients/chocolate]]", "[[ingredients/cocoa]]", "[[ingredients/shellfish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/fish]]", "[[ingredients/meat]]", "[[ingredients/organ-meats]]", "[[ingredients/seafood]]", "[[ingredients/wild-mushrooms]]", "[[ingredients/spinach]]"]
 products: ["[[products/infant-formula]]", "[[products/sunflower-seeds]]"]
+matrices: [dietary-intake, urine]
 jurisdictions: [EU]
 superseded_by: null
 wiki_doi: null
 sampling_locations: []
-sampling_year_range: null
-updated: 2026-04-24
+sampling_year_range: [2003, 2007]
+updated: 2026-06-02
 ---
 
 # EFSA CONTAM 2009 — Cadmium in Food
 
-## Summary
-
-This is the European Food Safety Authority Panel on Contaminants in the Food Chain Scientific Opinion on cadmium in food, adopted 30 January 2009 in response to Question No EFSA-Q-2007-138 from the European Commission. It establishes the EU tolerable weekly intake for cadmium at 2.5 µg per kilogram body weight per week, superseding the long-standing Joint FAO/WHO Expert Committee on Food Additives provisional tolerable weekly intake of 7 µg/kg b.w./week. The derivation anchors on renal tubular dysfunction measured via urinary beta-2-microglobulin through a group-based BMDL5 of 4 µg cadmium per gram creatinine, a chemical-specific adjustment factor of 3.9, and a one-compartment kinetic model fit to non-smoking Swedish women that translates a critical urinary cadmium of 1.0 µg/g creatinine into a daily dietary intake of 0.36 µg/kg b.w., rounded to a weekly intake of 2.5 µg/kg b.w. The Panel concluded that mean European adult exposure is close to or slightly exceeding the TWI, with subgroups including vegetarians, children, smokers, and residents of highly contaminated areas exceeding the TWI by approximately twofold, and recommended that population-level exposure be reduced.
+The European Food Safety Authority Panel on Contaminants in the Food Chain Scientific Opinion on cadmium in food, adopted 30 January 2009 in response to Question No EFSA-Q-2007-138 from the European Commission. It establishes the EU tolerable weekly intake for cadmium at 2.5 µg per kilogram body weight per week, superseding the long-standing Joint FAO/WHO Expert Committee on Food Additives provisional tolerable weekly intake of 7 µg/kg b.w./week. The derivation anchors on renal tubular dysfunction measured via urinary beta-2-microglobulin through a group-based BMDL5 of 4 µg cadmium per gram creatinine, a chemical-specific adjustment factor of 3.9, and a one-compartment kinetic model fit to non-smoking Swedish women that translates a critical urinary cadmium of 1.0 µg/g creatinine into a daily dietary intake of 0.36 µg/kg b.w., rounded to a weekly intake of 2.5 µg/kg b.w. The Panel concluded that mean European adult exposure is close to or slightly exceeding the TWI, with subgroups including vegetarians, children, smokers, and residents of highly contaminated areas exceeding the TWI by approximately twofold, and recommended that population-level exposure be reduced.
 
 ## Key numbers
 
@@ -51,7 +55,7 @@ Derivation parameters (p. 107–108):
 | Chemical-specific adjustment factor (inter-individual variation in U-Cd) | 3.9 |
 | Reference point (target U-Cd) | 1.0 µg Cd/g creatinine |
 | Policy target | 95 percent of the population remain below the reference point by age 50 |
-| Kinetic model basis | One-compartment model fit to non-smoking Swedish women, age 58-70 |
+| Kinetic model basis | One-compartment model fit to non-smoking Swedish women, age 58–70 |
 
 European dietary cadmium exposure estimates, adults (p. 107):
 
@@ -105,22 +109,20 @@ Limitations the opinion itself flags: the Italian children data set is small (n 
 
 ## Implications
 
-- Certification: this is the EU reference value against which HMT&C cadmium thresholds should be calibrated for products entering or made in the European market. The TWI of 2.5 µg/kg b.w./week is the tighter of the two major international reference values for cadmium; JECFA's 2010 PTMI corresponds to a higher weekly-equivalent value. HMT&C must decide whether to calibrate to EFSA or JECFA and name the rationale per the CLAUDE.md firewall rule. Calibrating to EFSA is the more conservative and more EU-market-compatible posture; calibrating to JECFA would need explicit rationale.
-- Courses: the EFSA derivation is a clean teachable example of biomarker-anchored risk assessment (urinary B2M as the early tubular damage signal, U-Cd as the exposure metric, a toxicokinetic model to back-translate to dietary intake). The contrast with EPA IRIS (US) and ATSDR (US) derivations, pending ingest, will highlight how different agency procedures can produce different reference values from overlapping literature.
-- App: the 140,000-sample occurrence dataset and the food-group contribution breakdowns seed high-confidence ingredient-level contamination profiles for cereals, leafy vegetables, root vegetables, potatoes, nuts, oilseeds, pulses, meat and offal, fish, molluscs, chocolate, and mushrooms. These should be attached as ingredient pages and their `contamination_profile` blocks populated on the next ingest wave. Subgroup exposure data (vegetarians at 5.4 µg/kg b.w./week, bivalve consumers at 4.6, mushroom consumers at 4.3) justifies `vulnerable_population_flags` entries in the app layer.
-- Microbiome: not specifically addressed in this opinion; the broader microbiome-cadmium literature will enter through the Handbook on the Toxicology of Metals chapter ingest and dedicated microbiome-ingest work later.
+- Reference value: this opinion establishes the EU reference value for cadmium dietary exposure (TWI 2.5 µg/kg b.w./week). The TWI is the tighter of the two major international cadmium reference values; the 2010 JECFA PTMI corresponds to a higher weekly-equivalent dose.
+- Occurrence base: the 140,000-sample EU occurrence dataset and the food-group contribution breakdowns are a high-confidence input for ingredient-level cadmium contamination profiles across cereals, leafy vegetables, root vegetables, potatoes, nuts, oilseeds, pulses, meat, offal, fish, molluscs, chocolate, and mushrooms when synthesis runs.
+- Subgroup exposure: the subgroup exposure estimates (vegetarians at 5.4, bivalve consumers at 4.6, wild-mushroom consumers at 4.3 µg/kg b.w./week) and the child-vs-adult ratio (~60 percent higher relative exposure for children ≤12) are the per-population values the dietary-pattern sections of ingredient and product pages should cite.
+- Microbiome: not specifically addressed in this opinion; broader microbiome-cadmium literature enters through other ingest tracks.
 
 ## Provenance notes
 
 License class `public-reference-only`. EFSA's scientific opinions are publicly available but not licensed for redistribution; the raw PDF is held privately under `raw/` and the `access_url` points to the EFSA Journal landing page for verification. The DOI `10.2903/j.efsa.2009.980` resolves through doi.org to the same record.
 
-A 2011 EFSA statement reaffirmed this TWI after JECFA published a divergent provisional tolerable monthly intake in 2010. That 2011 statement is not in the current raw corpus and is not represented by a source page yet; the regulation page [[regulations/efsa-cadmium-twi]] flags it as pending and will be updated when the 2011 document is ingested. The TWI established here remains the operative EU reference value regardless of the 2011 reaffirmation, because the 2011 statement did not change the numeric value.
+A 2011 EFSA statement reaffirmed this TWI after JECFA published a divergent provisional tolerable monthly intake in 2010. The 2011 statement has its own source page at [[sources/efsa-cadmium-2011-statement]] and did not change the numeric TWI value.
 
-## Wiki pages updated on ingest
+## Verification notes
 
-- [[metals/cadmium]]
-- [[regulations/efsa-cadmium-twi]]
-- [[synthesis]]
+2026-06-02 — Merge-enhance via `/ingest-next-manual-fetch-pdf` from `manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/08b_EFSA_cadmium_food_2009_alt.pdf`. The Kimi alt PDF is the same EFSA Journal 980 opinion already on file at `raw/reports/EFSA_Cadmium_ScientificOpinion.pdf` (DOI match, byte length within 1 byte, content identical on spot-checks of pp. 1–3, 48, 107–108); recorded under `near_duplicates`. Numerical values (TWI 2.5 µg/kg b.w./week, BMDL5 4 µg U-Cd/g creatinine, CSAF 3.9, reference U-Cd 1.0 µg/g creatinine, Italian Table 28 means and P95s, adult mean exposure 2.3 µg/kg b.w./week, vegetarian 5.4, bivalve 4.6, mushroom 4.3) re-verified against the alt PDF and unchanged. Schema fixes applied: added `raw_handle: KADC_08b-efsa-cadmium-food-2009-alt`; added `matrices: [dietary-intake, urine]` (clears the routing_malformed advisory); added `sampling_year_range: [2003, 2007]`; removed legacy `## Summary` heading (current schema uses un-headed opening prose under H1); removed legacy `## Wiki pages updated on ingest` list; rewrote `## Implications` to drop Part 2 wiki/HMTc-firewall violations (the prior version contained HMTc threshold-calibration reasoning — "HMT&C must decide whether to calibrate to EFSA or JECFA" and "Calibrating to EFSA is the more conservative posture" — which is HMTc policy work that does not belong on a source page). No source-content claims were changed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
