@@ -39,10 +39,10 @@ This open-access-style narrative review in *Toxicology and Industrial Health* su
 
 ### Carcinogen classification of the heavy metals discussed (attributed to IARC)
 
-- Group 1 (carcinogenic to humans): hexavalent Cr (IARC 1990), metallic Ni and its compounds (IARC 1990), As and its compounds (IARC 2012), Cd and its compounds (IARC 2012).
+- Group 1 (carcinogenic to humans): hexavalent Cr, metallic Ni and its compounds, As and its compounds, Cd and its compounds — all attributed by the review body to IARC 2012.
 - Group 2A (probably carcinogenic): inorganic Pb compounds (IARC 2006).
 - Group 2B (possibly carcinogenic): metallic Pb (IARC 1987), methyl mercury (IARC 1993).
-- Group 3 (not classifiable): trivalent Cr (IARC 1990), metallic Hg (IARC 1993), organic Pb compounds.
+- Group 3 (not classifiable): metallic Cr and trivalent Cr (IARC 1990), metallic Hg (IARC 1993), organic Pb compounds (no year attribution in body text).
 
 ### Long-term temporal trends (attributed to Cho et al. 2011; Martin et al. 2015)
 
@@ -129,6 +129,8 @@ Filter materials catalogued: quartz fibre filter (QFF), glass fibre filter (GFF)
 - Speciation flags: the metals array includes both tHg and MeHg because the review explicitly discusses IARC classification of methyl mercury (Group 2B) separately from metallic Hg (Group 3), and discusses gaseous elemental Hg measurement (TGM) at site level. It includes both Cr and Cr-VI because the review devotes a paragraph to the hexavalent-Cr speciation challenge and names studies that specifically determined Cr-VI. tAs is used because the review discusses As speciation only in a single Rodas et al. (2007) reference (As(III) vs As(V) at one Spanish site); the bulk of the cited corpus measured total As.
 - Jurisdictions reflect the geographic spread of the reviewed-paper site list as named in the body text (China, India, Korea, Japan, USA, Spain, Italy, France, Turkey, Iran, Brazil, Egypt, Pakistan, Australia, Mexico, Serbia, Greece, Austria, Sweden, Denmark). Not all of these countries have city-level data inside the review; some appear only in passing.
 - License: SAGE journal publication. Article shows standard SAGE reprints-and-permissions notice; copyright line reads "© The Author(s) 2016." Open-access status not explicitly stated on the PDF; access terms to verify if linked from the public wiki build.
+- 2026-06-02 (Claude Code, audit applied from fresh-context audit subagent ID af6d0f93ac047d538): audit flagged misattribution of IARC year citations in the Group 1 list. Original wiki page wrote "hexavalent Cr (IARC 1990), metallic Ni and its compounds (IARC 1990)" in Group 1; the review's body text (p. 79) actually attributes Group 1 carcinogens (hexavalent Cr, metallic Ni, As, Cd) to IARC 2012, and the IARC 1990 citation is for metallic Cr / trivalent Cr in Group 3. Verified against PDF p. 79 ("hexavalent Cr and metallic Ni and its compounds are group 1 carcinogens for humans through the inhalation and ingestion routes... (IARC, 2012)" and "Metallic Cr, trivalent Cr (IARC, 1990)") — corrected.
+- 2026-06-02 (Claude Code, audit applied): audit subagent flagged that the matrices vocabulary `ambient-air` and `particulate-matter` are not in the documented matrices controlled list (which is food-centric). `atmospheric-deposition` is already in use on sonke2023-mercury-global-change. Recording the proposed matrices-vocabulary extension here: `ambient-air` (gas-phase plus suspended particulate fraction not size-separated), `particulate-matter` (size-fractionated airborne particulate — TSPM, PM10, PM2.5), and `atmospheric-deposition` (already in use). All three are upstream-pathway matrices applicable to crop and biomonitor source pages where atmospheric input is the contamination route into food. The closed system-prompt matrices list should be extended formally before broad adoption.
 
 ## Wiki pages this source may touch
 
