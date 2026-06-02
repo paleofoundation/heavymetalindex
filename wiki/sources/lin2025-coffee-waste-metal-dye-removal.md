@@ -1,0 +1,89 @@
+---
+type: source
+raw_handle: MFK_processes-13-01364
+cite_key: lin2025-coffee-waste-metal-dye-removal
+title: "Sustainable Bio-Adsorbent Generated from Coffee Waste for Dual Application in Heavy Metal and Dye Removal"
+authors: ["Jia-Yin Lin", "Pei-Tzu Chang", "Jun-Ren Shi", "Fu-Chen Liu", "Chih-Ying Wang", "Nai-Wen Tsao"]
+year: 2025
+publication: "Processes"
+doi: "10.3390/pr13051364"
+source_type: peer-reviewed
+evidence_tier: A
+license: "CC BY 4.0"
+raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/processes-13-01364.pdf"
+metals: [Cu, Fe]
+ingredients: []
+products: []
+matrices: [coffee-powder-trimmings, spent-coffee-grounds, biochar, aqueous-metal-solution, wastewater-remediation]
+jurisdictions: [TW]
+near_duplicates: []
+sample_n: 1
+sample_population: "Coffee Powder Trimmings supplied by CH Biotech in Taiwan; laboratory adsorption and pyrolysis experiments using Cu and Fe chloride solutions, CPT-derived biochar composites, and methylene blue test solutions."
+updated: 2026-06-02
+---
+
+# Lin et al. 2025 - Coffee waste bio-adsorbent for metal and dye removal
+
+Lin and colleagues used Coffee Powder Trimmings (CPT), including spent coffee grounds and dried coffee-processing residues, as a bio-adsorbent for copper and iron ions before converting the metal-loaded material into biochar composites for methylene blue removal. This is primary remediation/materials evidence, not coffee-ingredient occurrence evidence: the source reports engineered adsorption and biochar performance rather than metals measured in coffee as consumed.
+
+## Key numbers
+
+### Metal adsorption and biochar synthesis
+
+The methods describe rinsed and dried CPT mixed with either FeCl3.6H2O at 0.05 g/L in 100 mL DI water or CuCl2.2H2O at 0.03 g/L in 100 mL DI water. Six grams of dried CPT were stirred with the metal solution at room temperature for 3 h, then dried and pyrolyzed at 750 degrees C for 3 h at a 5 degrees C/min ramp to generate Fe/CB or Cu/CB.
+
+The abstract reports that CPT removed more than 95% of Cu2+ and Fe3+ through chelation. Section 3.2 and the Figure 4 captions then label the iron removal experiment as Fe2+ rather than Fe3+; see the verification notes for this source-internal inconsistency.
+
+Kinetic fitting for the metal-removal step favored the pseudo-second-order model. The paper reports R2 = 0.998 for Cu2+ and R2 = 0.999 for iron in the PSO plots, while the PFO fit was weaker for Cu2+ (R2 = 0.883) and stronger for iron (R2 = 0.997). The authors state that both metals reached rapid removal within the first 20 min and approached equilibrium afterward.
+
+### Textural properties of CPT-derived biochars
+
+Table 1 reports surface area, pore volume, and Raman ID/IG values:
+
+| Material | BET surface area (m2/g) | Pore volume (cc/g) | ID/IG |
+| --- | ---: | ---: | ---: |
+| CPT | 15.230 | 0.015 | not reported |
+| CB | 450.493 | 0.025 | 1.18 |
+| Cu/CB | 559.213 | 0.029 | 1.15 |
+| Fe/CB | 492.097 | 0.020 | 1.19 |
+
+EDS results in the text report CPT as 51.58 wt% carbon and 47.56 wt% oxygen, with minor sulfur at 0.39 wt% and calcium at 0.47 wt%. After pyrolysis, CB carbon increased to 87.30 wt%. Cu/CB contained Cu at 0.02 wt%, and Fe/CB contained Fe at 0.10 wt%; after methylene blue adsorption, the used materials showed 0.12 wt% Cu and 2.34 wt% Fe.
+
+### Dye-removal performance after metal loading
+
+Although dye removal is not HMTc occurrence evidence, it is part of the source's primary dual-use remediation claim. Table 2 reports methylene blue kinetic parameters at 30 degrees C, initial dye concentration 10 mg/L, adsorbent dosage 6 g, and solution volume 0.1 L:
+
+| Material | Experimental qe (mg/g) | PFO qe (mg/g) | PFO k1 (min^-1) | PFO R2 | PSO qe (mg/g) | PSO k2 (g/mg min) | PSO R2 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| CB | 41.086 | 47.050 | -0.032 | 0.973 | 44.316 | 0.002 | 0.948 |
+| Cu/CB | 52.520 | 64.846 | -0.046 | 0.978 | 55.431 | 0.002 | 0.985 |
+| Fe/CB | 55.242 | 46.610 | -0.035 | 0.976 | 57.607 | 0.003 | 0.990 |
+
+Table 3 compares room-temperature methylene blue adsorption capacity and activation energy, reporting qe = 41.086 mg/g and Ea = 53.7 kJ/mol for CB, qe = 52.520 mg/g and Ea = 35.6 kJ/mol for Cu/CB, and qe = 55.242 mg/g and Ea = 48.4 kJ/mol for Fe/CB.
+
+Fe/CB was the best-performing dye-removal material. Figure 6 reports methylene blue removal from 34.5% at 30 mg Fe/CB to 97.8% at 150 mg Fe/CB; maximum pH-condition removal of 95.2% at pH 4; 100% removal in tested lake, rain, tap, and seawater matrices; and recyclability of 100% for the first three cycles, 97.98% in cycle 4, and 86.88% in cycle 5.
+
+## Methods (brief)
+
+Coffee Powder Trimmings were supplied by CH Biotech in Nantou, Taiwan, rinsed with deionized water, dried, and used first as a metal adsorbent and then as a pyrolysis precursor. Metal ions were quantified by ICP-MS. Methylene blue was quantified by UV-Vis absorbance at 664 +/- 1 nm. Materials were characterized with SEM/EDS, TEM, XRD, BET gas adsorption, FTIR, XPS, Raman spectroscopy, and TGA/DTG.
+
+The metal-removal step used metal chloride solutions under laboratory conditions, not environmental or food samples. The biochar step used the metal-loaded CPT after pyrolysis and evaluated dye removal across contact time, temperature, pH, dose, water body, and reuse cycles.
+
+## Implications
+
+Certification: Do not use this source in coffee, coffee ingredient, coffee beverage, or product occurrence pools. It does not measure Cu or Fe in coffee for consumption; it uses coffee-processing waste as a remediation material.
+
+App: Context for remediation and circular-material notes involving spent coffee grounds, coffee waste biochar, copper/iron adsorption, and dye removal.
+
+Courses: Useful for teaching why a familiar food-derived material can be a remediation matrix without becoming food-contaminant occurrence evidence.
+
+## Wiki pages this source may touch
+
+- [[mitigation/remediation-evidence]]
+- [[metals/copper]]
+- [[metals/iron]]
+- [[testing/index]]
+
+## Verification notes
+
+This page was built from the full PDF, including the abstract, reagents and synthesis protocol, characterization methods, Table 1 textural properties, Figure 4 copper/iron removal kinetics, Table 2 methylene blue kinetic parameters, Table 3 dye-removal capacity and activation energy comparison, Figure 6 dose/pH/water/reuse results, XPS mechanism discussion, conclusions, and data-availability statement. The paper is internally inconsistent about iron species: the abstract and FeCl3.6H2O method identify Fe3+, while Section 3.2 and Figure 4 captions refer to Fe2+. The source page therefore uses broad Fe in frontmatter and notes the discrepancy rather than treating either label as resolved. Products and ingredients are intentionally empty because this is a coffee-waste remediation study, not a coffee-food occurrence study.
