@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-02T03:43:58.057Z",
+  "generated_at": "2026-06-02T06:16:59.613Z",
   "source": "gap-driven (build-targeted-queries.mjs)",
-  "total_candidates": 3003,
+  "total_candidates": 3012,
   "emitted": 3000,
   "cap": 3000,
   "breakdown": {
     "hmtc_blocked": 284,
     "autonomy_gap_driven": 2500,
-    "ingredient_pending": 219
+    "ingredient_pending": 228
   },
   "queries": [
     {
@@ -85550,6 +85550,275 @@
       }
     },
     {
+      "id": "ING-cumin-Al",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin aluminum concentration",
+      "search_query_full": "cumin aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "metal_search_terms": [
+          "aluminum",
+          "aluminium",
+          "Al"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "Al",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-cumin-Cd",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin cadmium concentration",
+      "search_query_full": "cumin cadmium OR Cd (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "cadmium",
+          "Cd"
+        ],
+        "metal_search_terms": [
+          "cadmium",
+          "Cd"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "Cd",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-cumin-iAs",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin inorganic arsenic concentration",
+      "search_query_full": "cumin inorganic arsenic OR arsenic OR As (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "inorganic arsenic",
+          "arsenic",
+          "As"
+        ],
+        "metal_search_terms": [
+          "inorganic arsenic",
+          "arsenic",
+          "As"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "iAs",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-cumin-MeHg",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin methylmercury concentration",
+      "search_query_full": "cumin methylmercury OR MeHg (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "methylmercury",
+          "MeHg"
+        ],
+        "metal_search_terms": [
+          "methylmercury",
+          "MeHg"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "MeHg",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-cumin-Ni",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin nickel concentration",
+      "search_query_full": "cumin nickel OR Ni (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "nickel",
+          "Ni"
+        ],
+        "metal_search_terms": [
+          "nickel",
+          "Ni"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "Ni",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-cumin-Pb",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin lead concentration",
+      "search_query_full": "cumin lead OR Pb (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "lead",
+          "Pb"
+        ],
+        "metal_search_terms": [
+          "lead",
+          "Pb"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "Pb",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-cumin-Sn",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin tin concentration",
+      "search_query_full": "cumin tin OR Sn (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "tin",
+          "Sn"
+        ],
+        "metal_search_terms": [
+          "tin",
+          "Sn"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "Sn",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-cumin-tAs",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin arsenic concentration",
+      "search_query_full": "cumin arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "arsenic",
+          "total arsenic",
+          "As"
+        ],
+        "metal_search_terms": [
+          "arsenic",
+          "total arsenic",
+          "As"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "tAs",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
+      "id": "ING-cumin-tHg",
+      "section": "ingredient-cell-pending",
+      "priority": "medium",
+      "search_query_core": "cumin mercury concentration",
+      "search_query_full": "cumin mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence)",
+      "extracted": {
+        "crops": [
+          "cumin"
+        ],
+        "regions": [],
+        "metals": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "metal_search_terms": [
+          "mercury",
+          "total mercury",
+          "Hg"
+        ],
+        "periods": []
+      },
+      "target": {
+        "kind": "ingredient",
+        "slug": "cumin",
+        "metal": "tHg",
+        "status": "pending",
+        "n_studies": 0
+      }
+    },
+    {
       "id": "ING-formula-Al",
       "section": "ingredient-cell-pending",
       "priority": "medium",
@@ -90653,275 +90922,6 @@
       "target": {
         "kind": "ingredient",
         "slug": "swordfish",
-        "metal": "Pb",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-swordfish-Sn",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "swordfish tin concentration",
-      "search_query_full": "swordfish tin OR Sn (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "swordfish"
-        ],
-        "regions": [],
-        "metals": [
-          "tin",
-          "Sn"
-        ],
-        "metal_search_terms": [
-          "tin",
-          "Sn"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "swordfish",
-        "metal": "Sn",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-swordfish-tAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "swordfish arsenic concentration",
-      "search_query_full": "swordfish arsenic OR total arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "swordfish"
-        ],
-        "regions": [],
-        "metals": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "arsenic",
-          "total arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "swordfish",
-        "metal": "tAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-swordfish-tHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "swordfish mercury concentration",
-      "search_query_full": "swordfish mercury OR total mercury OR Hg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "swordfish"
-        ],
-        "regions": [],
-        "metals": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "metal_search_terms": [
-          "mercury",
-          "total mercury",
-          "Hg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "swordfish",
-        "metal": "tHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-Al",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed aluminum concentration",
-      "search_query_full": "vegetables mixed aluminum OR aluminium OR Al (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "aluminum",
-          "aluminium",
-          "Al"
-        ],
-        "metal_search_terms": [
-          "aluminum",
-          "aluminium",
-          "Al"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
-        "metal": "Al",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-Cd",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed cadmium concentration",
-      "search_query_full": "vegetables mixed cadmium OR Cd (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "cadmium",
-          "Cd"
-        ],
-        "metal_search_terms": [
-          "cadmium",
-          "Cd"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
-        "metal": "Cd",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-iAs",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed inorganic arsenic concentration",
-      "search_query_full": "vegetables mixed inorganic arsenic OR arsenic OR As (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "metal_search_terms": [
-          "inorganic arsenic",
-          "arsenic",
-          "As"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
-        "metal": "iAs",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-MeHg",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed methylmercury concentration",
-      "search_query_full": "vegetables mixed methylmercury OR MeHg (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "metal_search_terms": [
-          "methylmercury",
-          "MeHg"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
-        "metal": "MeHg",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-Ni",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed nickel concentration",
-      "search_query_full": "vegetables mixed nickel OR Ni (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "nickel",
-          "Ni"
-        ],
-        "metal_search_terms": [
-          "nickel",
-          "Ni"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
-        "metal": "Ni",
-        "status": "pending",
-        "n_studies": 0
-      }
-    },
-    {
-      "id": "ING-vegetables-mixed-Pb",
-      "section": "ingredient-cell-pending",
-      "priority": "medium",
-      "search_query_core": "vegetables mixed lead concentration",
-      "search_query_full": "vegetables mixed lead OR Pb (concentration OR content OR level OR occurrence)",
-      "extracted": {
-        "crops": [
-          "vegetables mixed"
-        ],
-        "regions": [],
-        "metals": [
-          "lead",
-          "Pb"
-        ],
-        "metal_search_terms": [
-          "lead",
-          "Pb"
-        ],
-        "periods": []
-      },
-      "target": {
-        "kind": "ingredient",
-        "slug": "vegetables-mixed",
         "metal": "Pb",
         "status": "pending",
         "n_studies": 0

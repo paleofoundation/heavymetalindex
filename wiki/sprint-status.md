@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-02T04:00:28.611Z
+updated: 2026-06-02T06:29:24.508Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -9,7 +9,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 ## Headline
 
-**1236 / 2650 cells done (46.6%)** — 1414 remaining
+**1236 / 2660 cells done (46.5%)** — 1424 remaining
 
 Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
@@ -21,22 +21,22 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | populated n=0 (declared gap) | 802 | ✅ done |
 | confidence: medium | 326 | ⏳ needs more sources |
 | confidence: low | 486 | ⏳ needs more sources |
-| pending / missing | 583 | 🔴 needs first research |
+| pending / missing | 593 | 🔴 needs first research |
 | other / unknown | 19 | 🟡 audit |
 
 ## Pipeline health
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 2198 min ago (stale) |
-| auto-fetched/ PDFs in queue | 103 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 2347 min ago (stale) |
+| auto-fetched/ PDFs in queue | 3 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
-| Wishlist: total downloaded historically | 56 |
-| Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 14 |
-| Commits last 24 hours | 294 |
+| Wishlist: total downloaded historically | 0 |
+| Wishlist: total ingested historically | 1 |
+| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
+| Commits last 1 hour | 17 |
+| Commits last 24 hours | 299 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-86a7a09 2 minutes ago — triage sweep 2026-06-02 0658: 0 rollups + 21 skips
+622c8f8 3 minutes ago — triage sweep 2026-06-02 09:26: 0 rollups + 9 skips
 ```
 
 ## How to read this

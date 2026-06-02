@@ -759,6 +759,16 @@ cucumbers,Al,missing,null,0,,10,10,0
 cucumbers,Cr,missing,null,0,,10,10,0
 cucumbers,Sn,missing,null,0,,10,10,0
 cucumbers,U,missing,null,0,,10,10,0
+cumin,Pb,pending,null,0,null,10,10,0
+cumin,Cd,pending,null,0,null,10,10,0
+cumin,iAs,pending,null,0,null,10,10,0
+cumin,tAs,pending,null,0,null,10,10,0
+cumin,tHg,pending,null,0,null,10,10,0
+cumin,Ni,pending,null,0,null,10,10,0
+cumin,Al,pending,null,0,null,10,10,0
+cumin,Cr,missing,null,0,,10,10,0
+cumin,Sn,pending,null,0,null,10,10,0
+cumin,U,missing,null,0,,10,10,0
 custard,Pb,populated,high,1,2026-05-13,10,9,0
 custard,Cd,populated,medium,1,2026-05-13,10,9,0
 custard,iAs,populated,low,1,2026-05-13,10,9,0
