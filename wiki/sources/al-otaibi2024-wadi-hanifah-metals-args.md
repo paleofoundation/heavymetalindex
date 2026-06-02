@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/antibiotics-13-00426.pdf
 metals: [Li, Be, Cr, Co, tAs, Cd, Sn, tHg, Pb]
 ingredients: []
 products: []
-matrices: [surface-water, wadi-water, environmental-water, antibiotic-resistance-gene-screening]
+matrices: [surface-water, environmental-water]
 jurisdictions: [SA]
 near_duplicates: []
 sample_n: 18
@@ -96,3 +96,5 @@ App: Keep the source visible as context for environmental water and AMR. Do not 
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/antibiotics13050426`; no DOI conflict was observed. Arsenic and mercury are total-element ICP-MS results, not inorganic arsenic or methylmercury. The source reports surface water from Wadi Hanifah, not finished drinking water, bottled water, irrigation water applied to a named crop, or a food matrix. The abstract's all-site means and Table 4's upstream/downstream means are not fully reconciled by a simple site-weighted calculation, so this page uses Table 4 for routeable concentration values and records the abstract means separately. Table 3 prints LOQ values above several reported Table 4 means and omits Sn/Hg QC rows; those method-reporting issues should be preserved in any downstream audit.
+
+**2026-06-02 (Claude session, merge-enhance after routing_malformed advisory):** PDF re-read end-to-end against the existing page. Frontmatter `matrices` was `[surface-water, wadi-water, environmental-water, antibiotic-resistance-gene-screening]`; the two invented slugs were removed. `wadi-water` had no corpus precedent outside this page; `antibiotic-resistance-gene-screening` is a screening modality, not a sample matrix. Retained `surface-water` (13 corpus uses) and `environmental-water` (11 corpus uses) as established matrix vocabulary for environmental-water studies. `products`/`ingredients` remain empty (advisory-level routing_malformed entry); this is environmental surface water, not a food or product matrix, so the empty arrays are the honest declaration, not a defect. The paper's own statement that catII was present in 72.2% of sites while listing 14 specific positive sites (1, 3, 4, 5, 6, 9, 10, 12, 13, 14, 15, 16, 17, 18; 14/18 = 77.7%) and that "sites # 12–18 from downstream points" conflicts with the paper's own upstream/downstream split (sites 1-12 upstream, 13-18 downstream) is a minor paper-internal inconsistency in the ARG reporting; the page records the paper's stated aggregate percentage (72.2%) rather than recomputing from the site list. The heavy-metal values in Table 4 are internally consistent and are the routeable record for this page.
