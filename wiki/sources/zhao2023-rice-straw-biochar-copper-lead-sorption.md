@@ -38,7 +38,7 @@ The batch sorption test used separate Cu(NO3)2 and Pb(NO3)2 solutions diluted to
 
 Table 1 reports XPS C 1s and O 1s peak fractions. Selected sorption-relevant values:
 
-| Biochar | C=O / -COO in C 1s (%) | C-O in C 1s (%) | C-O in O 1s (%) | O=C-O in O 1s (%) |
+| Biochar | -COO in C 1s (%) | C-O in C 1s (%) | C-O in O 1s (%) | O=C-O in O 1s (%) |
 | --- | ---: | ---: | ---: | ---: |
 | O300 | 7.84 | 22.8 | 57.9 | 9.75 |
 | O500 | 6.10 | 4.49 | 54.9 | 18.0 |
@@ -117,3 +117,7 @@ App: Route as context for soil-remediation, biochar amendment evaluation, and me
 ## Verification notes
 
 The PDF has author attribution and DOI `10.3390/agronomy13051282`; no DOI conflict was observed. This is primary laboratory evidence, but not food-occurrence evidence. `ingredients` and `products` are intentionally empty because the paper does not measure edible rice, infant cereal, rice-based products, or any consumer product matrix. The source specifies Cu(II) and Pb(II) in aqueous nitrate solutions; frontmatter uses the repo's broader Cu and Pb metal slugs while this page preserves oxidation-state specificity in prose and tables. The paper's supplementary Table S1 specific-surface-area values are cited by the authors but not reproduced in the PDF text extracted here, so the source page records the qualitative SSA finding rather than inventing values.
+
+Source-internal K_L unit inconsistency: Table 2 header reports K_L in L/kg, while the Methods equation glossary (Equation 1) labels K_L as mg/L. The wiki tables reproduce the K_L numeric values but do not assert a unit, since the source itself is inconsistent.
+
+Audit subagent 2026-06-02 flagged Table 1 column header "C=O / -COO in C 1s (%)" as misleading — verified against PDF Table 1 (C 1s panel has columns C=C, C-C, C-O, -COO, π-π only; C=O appears only in O 1s deconvolution); corrected header to "-COO in C 1s (%)". Audit also flagged `[[supply-chain/soil-to-plant-transfer]]` as a slug outside the taxonomy snapshot — verified against `wiki/supply-chain/soil-to-plant-transfer.md`; finding was a false positive because the snapshot enumerates only ingredients/products/metals/regulations and `supply-chain/` is its own valid directory.
