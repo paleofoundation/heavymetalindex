@@ -36,8 +36,8 @@ Table 2 reports mean +/- SD in ug/g. The source's WHO comparator row is retained
 | --- | ---: | ---: | ---: | ---: |
 | Sunflower oil | 0.06 +/- 0.03 | 0.06 +/- 0.03 | 0.06 +/- 0.02 | 0.18 +/- 0.09 |
 | Soybean oil | 0.06 +/- 0.02 | 0.05 +/- 0.02 | 0.04 +/- 0.01 | 0.58 +/- 0.97 |
-| Olive oil | 0.06 +/- 0.02 | 0.05 +/- 0.02 | 0.05 +/- 0.09 | 0.90 +/- 0.34 |
-| Palm oil | 0.08 +/- 0.05 | 0.07 +/- 0.05 | 0.04 +/- 0.02 | 1.29 +/- 0.20 |
+| Olive oil | 0.06 +/- 0.02 | 0.06 +/- 0.02 | 0.05 +/- 0.09 | 0.90 +/- 0.34 |
+| Palm oil | 0.08 +/- 0.05 | 0.07 +/- 0.05 | 0.04 +/- 0.02 | 1.29 +/- 2.2 |
 | WHO standard cited by source | 0.05 | 0.05 | 0.10 | 0.50 |
 
 The abstract and results text report category ranges:
@@ -94,7 +94,7 @@ Table 5 reports estimated daily intake (EDI) and incremental lifetime cancer ris
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Sunflower oil | 0.0000014 +/- 0.000005 | 0.000013 +/- 0.000003 | 0.000014 +/- 0.000004 | 0.000005 +/- 0.000002 | 0.0000002 +/- 0.0000001 | 0.0000068 +/- 0.0000019 |
 | Soybean oil | 0.000019 +/- 0.000005 | 0.000009 +/- 0.000002 | 0.000012 +/- 0.000004 | 0.000005 +/- 0.000002 | 0.00000008 +/- 0.00000001 | 0.000006 +/- 0.000002 |
-| Olive oil | 0.000013 +/- 0.000003 | 0.000024 +/- 0.000022 | 0.000011 +/- 0.000002 | 0.000005 +/- 0.000001 | 0.00000009 +/- 0.000000002 | 0.000006 +/- 0.0000014 |
+| Olive oil | 0.000013 +/- 0.000003 | 0.000024 +/- 0.000022 | 0.000011 +/- 0.000002 | 0.000005 +/- 0.000001 | 0.00000009 +/- 0.000000002 | 0.000006 +/- 0.000014 |
 | Palm oil | 0.000017 +/- 0.000009 | 0.0000096 +/- 0.000003 | 0.000017 +/- 0.000009 | 0.0000006 +/- 0.000004 | 0.0000002 +/- 0.0000001 | 0.000008 +/- 0.000004 |
 
 ## Methods (brief)
@@ -127,3 +127,5 @@ App: Route sunflower, soybean, and palm oil findings to other cooking oils; rout
 ## Verification notes
 
 The PDF has author attribution and DOI `10.4314/jasem.v29i10.32`; no DOI conflict was observed. The article gives slightly different chromium ranges in the abstract and results prose: palm oil is 0.038-0.169 ug/g in the abstract and 0.038-0.167 ug/g in the results prose, while olive oil is 0.050-0.076 ug/g in the abstract and 0.037-0.076 ug/g in the results prose. This page uses the abstract's full range table and notes the discrepancies rather than adjudicating the last digit or substituting a prose-only value. The child-HI table reports palm-oil Pb as 0.0023 +/- 0.0066; given the adult table and body-weight scaling, this may be a decimal-place error, but it is preserved as printed. Brand/sample codes are omitted under the brand firewall.
+
+2026-06-02 merge-enhance pass corrected three transcription errors against PDF Table 2 and Table 5: Olive oil Cr mean restored to 0.06 +/- 0.02 ug/g (was 0.05 +/- 0.02); Palm oil Cu SD restored to 1.29 +/- 2.2 ug/g (was 1.29 +/- 0.20, an order-of-magnitude SD compression); Olive oil ILCR(Cr) SD restored to 0.000006 +/- 0.000014 (was 0.000006 +/- 0.0000014, an extra-zero error). PDF page 6 (Table 2) and page 7 (Table 5) verified for all four oil categories on this pass.
