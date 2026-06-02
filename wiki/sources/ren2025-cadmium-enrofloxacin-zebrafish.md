@@ -3,146 +3,110 @@ type: source
 raw_handle: MFK_toxics-13-00378-v2
 cite_key: ren2025-cadmium-enrofloxacin-zebrafish
 title: "Toxicological Effects of Combined Exposure of Cadmium and Enrofloxacin on Zebrafish"
-authors: ["Lingfei Ren", "Yu He", "Chao Hou", "Chaoxuan Liao", "Miao Chen"]
+authors: [Ren L, He Y, Hou C, Liao C, Chen M]
 year: 2025
 publication: "Toxics"
-doi: "10.3390/toxics13050378"
+doi: 10.3390/toxics13050378
+access_url: https://doi.org/10.3390/toxics13050378
 source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/toxics-13-00378-v2.pdf"
+raw_sha256: f430f71e253ad683638859c46c934bc5f4b410482ef82b86464185271b68ba2a
 metals: [Cd]
 ingredients: []
 products: []
-matrices: [zebrafish, freshwater-ecotoxicology, cadmium-enrofloxacin-co-exposure, zebrafish-liver, zebrafish-intestine, zebrafish-muscle, zebrafish-gut-microbiome]
+matrices: [fish-tissue]
 jurisdictions: [CN]
 near_duplicates: []
-sample_n: 6000
-sample_population: "AB-strain zebrafish aged 3-4 months purchased for laboratory acute and chronic Cd/enrofloxacin exposure experiments; acute tests used 10 fish per replicate across concentration groups, and chronic tests allocated 3900 acclimatized fish across five groups with three replicate tanks of 260 fish each."
+sample_n: null
+sample_population: "Controlled-exposure zebrafish (Danio rerio, AB strain, 3–4 months old) model-organism study; acute 96-h LC50 used 360 fish across six concentration gradients in triplicate; chronic 20-d co-exposure used 3,900 fish across five treatment groups (CK, L-Cd 0.046 mg/L, H-Cd 0.46 mg/L, L-CE 0.046 mg/L Cd + 0.099 mg/L ENR, H-CE 0.46 mg/L Cd + 0.99 mg/L ENR), three replicates per group, 260 fish per tank"
+wiki_doi: null
+sampling_locations: []
+sampling_year_range: null
+access_date: 2026-06-02
 updated: 2026-06-02
 ---
 
-# Ren et al. 2025 - cadmium and enrofloxacin co-exposure in zebrafish
+# Ren et al. 2025 — Cadmium–enrofloxacin co-exposure toxicology in zebrafish
 
-Ren and colleagues tested acute and chronic co-exposure of cadmium (Cd) and the fluoroquinolone antibiotic enrofloxacin (ENR) in zebrafish. The paper reports Cd and ENR exposure concentrations, 96 h LC50 values, tissue-specific Cd accumulation in liver, intestine, and muscle, liver oxidative-stress biomarkers, and gut-microbiome changes. This is primary aquatic ecotoxicology and microbiome evidence, not food, ingredient, or consumer-product occurrence evidence.
+Controlled-exposure zebrafish study (AB strain, n≈10,000 across acute and chronic arms) characterizing the joint toxicity of cadmium (Cd) and the fluoroquinolone antibiotic enrofloxacin (ENR) at acute (96-h) and chronic (20-d) timescales. Co-exposure approximately doubled acute lethality of each compound (LC50 Cd 89.12 mg/L → 46.35 mg/L; LC50 ENR 190.11 mg/L → 99.39 mg/L) with the Concentration Addition model classifying the interaction as additive (MDR 0.96, 95% CI 0.58–1.04). Under chronic exposure, ENR enhanced Cd accumulation in zebrafish liver, intestine, and muscle by 1.11–2.33-fold over single-Cd controls and exacerbated hepatic oxidative stress (SOD, CAT, GSH-Px elevated 1.34–7.06-fold at day 8 then declining 9.9–48.98% by day 20; MDA rising to 4.06-fold above controls). 16S rRNA sequencing of gut microbiota showed Cd alone reduced α-diversity (Shannon −57 to −63%) with a 16–20% drop in beneficial *Cetobacterium* and a 44–114% increase in *Aeromonas*; co-exposure further amplified the dysbiosis. The paper measures no food-matrix contamination; its HMI relevance is mechanistic (Cd toxicokinetics, antibiotic-driven Cd bioavailability enhancement, and Cd-driven gut dysbiosis).
 
 ## Key numbers
 
-### Acute toxicity design and LC50s
+All Cd and ENR values below are exposure concentrations (mg/L water-borne) or tissue accumulations (ng/g wet weight) measured in zebrafish under controlled laboratory conditions, not food-matrix contamination. Page and figure references are to Toxics 2025, 13, 378 (21 pp.).
 
-The acute test followed the Chinese fish acute-toxicity test method GB/T 27861-2011. Cd chloride and ENR were tested singly and in combination for 96 h, with triplicate groups and 10 zebrafish per replicate.
+**Acute 96-h LC50 (Section 3.1, Figure 1, p. 6):**
 
-Cd-only exposure concentrations were 31, 49, 68, 86, 104, and 122 mg/L. The text lists ENR-only concentrations as 120, 160, 240, 280, and 320 mg/L; Figure 1 also shows a 200 mg/L ENR point. The combined-exposure concentration pairs were:
+- Cd alone: 96-h LC50 = 89.12 mg/L (six exposure concentrations 31–122 mg/L, n = 30 fish per concentration in triplicate).
+- ENR alone: 96-h LC50 = 190.11 mg/L (six exposure concentrations 120–320 mg/L).
+- Combined Cd + ENR at fixed Cd:ENR ratio 1:2.1: 96-h LC50 for the Cd component = 46.35 mg/L; for the ENR component = 99.39 mg/L. Combined exposure was 1.92× more toxic than Cd alone and 1.91× more toxic than ENR alone.
+- Concentration Addition model predicted combined effect concentration = 139.91 mg/L (sum); Model Deviation Ratio (MDR) = 0.96 with 95% CI 0.58–1.04 — classifies the interaction as **additive**, not synergistic, by the CA criterion. (Note: the abstract's phrase "synergistic effects" describes the empirical LC50 shift; the formal CA/MDR classification in Section 3.1 is additive.)
 
-| Pair | Cd mg/L | ENR mg/L |
-| --- | ---: | ---: |
-| 1 | 18 | 37 |
-| 2 | 27 | 56 |
-| 3 | 40 | 84 |
-| 4 | 60 | 126 |
-| 5 | 90 | 190 |
-| 6 | 135 | 285 |
+**Chronic 20-d exposure design (Section 2.2, pp. 3–4):**
 
-The reported 96 h LC50 values were:
+- Five groups: CK (control); L-Cd (Cd 0.046 mg/L); H-Cd (Cd 0.46 mg/L); L-CE (Cd 0.046 + ENR 0.099 mg/L); H-CE (Cd 0.46 + ENR 0.99 mg/L). Co-exposure ratios set at 1/100 and 1/1000 of the combined 96-h LC50.
+- 3,900 fish total; three replicates per group; 260 fish per tank; water replaced every 4 days; Cd by ICP-MS (Agilent 7800), ENR by UHPLC-MS/MS (Agilent 1290-6470A); experimental concentrations held within 80–120% of theoretical values; controls below instrument detection limits.
 
-| Exposure | Cd LC50 mg/L | ENR LC50 mg/L | Notes |
-| --- | ---: | ---: | --- |
-| Cd alone | 89.12 | not applicable | Cd single exposure |
-| ENR alone | not applicable | 190.11 | ENR single exposure |
-| Cd + ENR mixture | 46.35 | 99.39 | Co-exposure values for the paired mixture |
+**Cd tissue accumulation under chronic co-exposure (Section 3.2, Figure 2, p. 7):**
 
-The authors state that the combined-exposure toxicity was 1.92 times that of Cd alone and 1.91 times that of ENR alone. Using the concentration-addition model, the predicted combined-effect concentration was 139.91 mg/L. The model-deviation ratio (MDR) was 0.96, within the reported confidence interval of 0.58 to 1.04, so the Results section classifies the Cd-ENR combined effect as additive.
+- Tissue accumulation rank order at day 20: intestine > liver > muscle.
+- Cd-only liver at day 20: rose with prolonged exposure; the H-Cd liver accumulated ≈1,700 ng/g at day 20 (Figure 2a bar chart).
+- Cd-only intestine at day 20: H-Cd intestine ≈50,000 ng/g (Figure 2b bar chart).
+- Cd-only muscle at day 20: H-Cd muscle ≈1,150 ng/g (Figure 2c bar chart).
+- Co-exposure vs single-Cd at day 20, low-concentration arm (L-CE vs L-Cd): liver +1.13-fold, intestine +1.20-fold, muscle +1.27-fold.
+- Co-exposure vs single-Cd at day 20, high-concentration arm (H-CE vs H-Cd): liver +2.33-fold, intestine +2.20-fold, muscle +2.26-fold.
+- Overall co-exposure increased Cd accumulation 1.11–2.33-fold across tissues and time points relative to single Cd; tissue concentrations of Cd in the intestine at day 20 were 9.54–31.60 times those in liver and 16.93–38.49 times those in muscle (Section 4.1, p. 14); liver Cd 1.22–1.77 times muscle Cd.
 
-### Chronic exposure design
+**Hepatic oxidative-stress markers (Section 3.3, Figure 3, p. 7; days 1, 8, 20):**
 
-The 20 d chronic experiment used five groups:
+- All exposure groups had significantly elevated SOD, CAT, GSH-Px activities and MDA content vs CK (p < 0.05); the three enzymes showed a biphasic time course (initial rise then decline); MDA accumulated monotonically.
+- Initial elevation across all exposure groups (paper-level summary, abstract and Section 3.3): SOD ×1.34–7.06, GSH-Px ×0.98–3.28, CAT ×1.53–3.65 at day 8.
+- Later decline at day 20: SOD, CAT, GSH-Px reduced 9.9–48.98% relative to day-8 peaks.
+- MDA at day 20: up to 4.06-fold above controls.
+- Low-concentration co-exposure increment (L-CE vs L-Cd) at days 1/8/20: SOD activity +20.36%, +36.62%, +28.82%; CAT +11.24% to +17.15%; GSH-Px +20.78% to +28.53%; MDA +12.37% to +14.40%.
+- High-concentration co-exposure increment (H-CE vs H-Cd) at the same time points: SOD +15.12% to +33.80%; CAT +29.87% to +31.06%; GSH-Px +18.80% to +25.11%; MDA +16.66% to +34.45%.
+- Abstract-level summary: co-exposure elevated oxidative stress 11.24–34.48% relative to single exposures.
 
-| Group | Cd mg/L | ENR mg/L |
-| --- | ---: | ---: |
-| CK control | 0 | 0 |
-| L-Cd | 0.046 | 0 |
-| H-Cd | 0.46 | 0 |
-| L-CE | 0.046 | 0.099 |
-| H-CE | 0.46 | 0.99 |
+**Gut microbiota — α-diversity and composition (Section 3.4, Figures 4–7, pp. 9–11):**
 
-The chronic experiment used 3900 zebrafish, randomly allocated to experimental tanks with three replicates per group and 260 fish per tank. Rearing water was changed every four days. Cd was measured by ICP-MS and ENR by UHPLC-MS/MS in water samples before and after water changes; the authors report that treatment concentrations remained within 80% to 120% of theoretical values, and both Cd and ENR were below detection limits in the control group.
-
-Samples were collected on days 0, 1, 2, 4, 6, 8, 12, 16, and 20 for Cd in zebrafish tissues; on days 1, 8, and 20 for liver antioxidant biomarkers; and on day 20 for gut-microbiome sequencing.
-
-### Tissue Cd accumulation
-
-Figure 2 reports Cd concentrations in zebrafish liver, intestine, and muscle. The point values are plotted graphically rather than tabulated, so this page records only the exact text-reported comparisons.
-
-The tissue-order pattern was intestine > liver > muscle. Cd content increased with exposure time and with exposure concentration. For the same exposure duration, tissue Cd concentrations in the combined Cd+ENR groups were higher than in the Cd-only groups.
-
-At 20 d in the low-concentration groups, adding ENR increased Cd accumulation relative to Cd-only exposure by:
-
-| Tissue | L-CE vs L-Cd fold increase |
-| --- | ---: |
-| Liver | 1.13-fold |
-| Intestine | 1.20-fold |
-| Muscle | 1.27-fold |
-
-At 20 d in the high-concentration groups, adding ENR increased Cd accumulation relative to Cd-only exposure by:
-
-| Tissue | H-CE vs H-Cd fold increase |
-| --- | ---: |
-| Liver | 2.33-fold |
-| Intestine | 2.20-fold |
-| Muscle | 2.26-fold |
-
-In the discussion, the authors add that after 20 d, intestinal Cd accumulation was 9.54-31.60 times liver Cd and 16.93-38.49 times muscle Cd, while liver Cd was 1.22-1.77 times muscle Cd.
-
-### Oxidative-stress biomarkers
-
-The liver oxidative-stress biomarkers were SOD, CAT, GSH-Px, MDA, and total protein. Compared with controls, all exposure groups had significantly elevated SOD, CAT, GSH-Px, and MDA (p < 0.05). The authors describe a biphasic enzyme pattern: SOD, GSH-Px, and CAT rose early and then declined with longer exposure, while MDA accumulated over time.
-
-The abstract reports that at day 8, SOD, GSH-Px, and CAT activities initially increased by 1.34-7.06-fold, 0.98-3.28-fold, and 1.53-3.65-fold, respectively, followed by 9.9-48.98% reductions after 20 d exposure. MDA reached up to 4.06-fold higher than controls.
-
-Relative to Cd-only exposure, co-exposure elevated oxidative-stress indicators by 11.24-34.48%. In the low-concentration comparison (L-Cd vs L-CE), SOD activity increased by 20.36%, 36.62%, and 28.82% after 1, 8, and 20 d, respectively; CAT increased by 11.24-17.15%; GSH-Px increased by 20.78-28.53%; and MDA increased by 12.37-14.40%. In the high-concentration comparison (H-Cd vs H-CE), SOD increased by 15.12-33.80%, CAT by 29.87-31.06%, GSH-Px by 18.80-25.11%, and MDA by 16.66-34.45%.
-
-### Gut microbiome
-
-The 16S rRNA analysis used 15 intestinal samples and produced 263,591 optimized sequences, 55,328,742 base pairs, an average sequence length of 1049 bp, and 541 OTUs. The annotation summary included 14 phyla, 28 classes, 79 orders, 123 families, 258 genera, and 407 species.
-
-The abstract states that Cd exposure reduced the Shannon index by 57-63%, reduced beneficial *Cetobacterium* by 16-20%, and increased pathogenic *Aeromonas* abundance by 44-114%. In the Results section, combined Cd+ENR exposure increased Chao, ACE, and Shannon relative to single Cd exposure while decreasing Simpson, which the authors interpret as dysbiosis rather than a protective diversity gain.
-
-At the phylum level, *Fusobacteriota* dominated the CK and L-Cd groups at 49.80% and 41.72%, respectively. *Pseudomonadota* dominated H-Cd, L-CE, and H-CE at 40.64%, 49.53%, and 40.44%, respectively. The dominant genera were *Aeromonas*, *Cetobacterium*, and ZOR0006.
-
-Beta-diversity analysis found separation between L-Cd and L-CE and between H-Cd and H-CE. PCA reported R2 = 0.6588 and p = 0.002, with PC1 accounting for 39.41% of variance. PCoA reported PERMANOVA R2 = 0.6692 and p = 0.002, with PCo1 explaining 60.84% and PCo2 explaining 28.10%.
-
-Network analysis found 50 nodes and 183 edges in the CK group. Exposure-group network counts were L-Cd 43 nodes and 197 edges, L-CE 41 nodes and 119 edges, H-Cd 45 nodes and 155 edges, and H-CE 43 nodes and 162 edges.
+- 15 samples sequenced; 263,591 optimized sequences, 55,328,742 bp; average read 1,049 bp; 1 domain, 1 kingdom, 14 phyla, 28 classes, 79 orders, 123 families, 258 genera, 407 species, 541 OTUs.
+- Shannon α-diversity index decreased in single-Cd groups (L-Cd, H-Cd) vs CK; increased in combined groups (L-CE, H-CE) vs single Cd. Simpson index dropped further in combined groups than in single Cd. Chao and ACE indices rose under co-exposure (H-CE highest).
+- Abstract-level summary: Cd exposure reduced α-diversity Shannon index by 57–63% relative to control.
+- PCA: significant separation between L-Cd vs L-CE and H-Cd vs H-CE (R² = 0.6588, p = 0.002); PC1 explained 39.41%.
+- PCoA / PERMANOVA between single and combined exposure groups: R² = 0.6692, p = 0.002; PCo1 60.84%, PCo2 28.10% (cumulative 88.94%).
+- Phylum-level dominants: *Pseudomonadota* (≡*Proteobacteria*), *Fusobacteriota*, *Bacillota* (≡*Firmicutes*), *Actinomycetota* (≡*Actinobacteriota*), *Bacteroidota* (≡*Bacteroidota*).
+- CK and L-Cd groups dominated by *Fusobacteriota* (49.80% and 41.72% respectively); H-Cd, L-CE, H-CE dominated by *Pseudomonadota* (40.64%, 49.53%, 40.44%).
+- Compared to CK, *Fusobacteriota* decreased and *Bacillota* increased in Cd-alone groups. L-CE vs L-Cd showed increases in *Pseudomonadota* and *Actinomycetota* and decreases in *Fusobacteriota* and *Bacillota*; H-CE vs H-Cd showed a significant decrease in *Fusobacteriota* and increases in *Bacillota* and *Actinomycetota*.
+- Top genera: *Aeromonas*, *Cetobacterium*, *ZOR0006*, *Shewanella*, *Mycoplasma*.
+- Abstract-level summary: 16–20% reduction in beneficial *Cetobacterium*; 44–114% increase in pathogenic *Aeromonas* under Cd exposure; co-exposure exacerbated this dysbiosis.
+- Genus-level comparisons: vs CK, *Aeromonas* and *ZOR0006* increased and *Cetobacterium* decreased in Cd-alone groups. L-CE vs L-Cd: *Aeromonas* and *ZOR0006* increased, *Cetobacterium* decreased. H-CE vs H-Cd: *Aeromonas* and *Cetobacterium* decreased significantly, *ZOR0006* increased significantly.
+- LEfSe (LDA > 3.0): 40 indicator species identified — CK (10), L-Cd (5), H-Cd (7), L-CE (8), H-CE (10).
+- Co-occurrence network: CK 50 nodes/183 edges (modularity 0.59); L-Cd 43/197 (0.60); L-CE 41/119 (0.50); H-Cd 45/155 (0.48); H-CE 43/162 (0.51). Network degree and centrality decreased under most exposures vs CK (except low-Cd group); network complexity rose under combined exposure (Figure 8H).
 
 ## Methods (brief)
 
-AB-strain zebrafish aged 3-4 months were acclimatized for 15 d at 25 +/- 1 degrees C, pH 7.2-7.5, and a 14 h light:10 h dark cycle. Acute exposure used static glass-tank tests with mortality recorded at 24, 48, 72, and 96 h. Chronic exposure used waterborne Cd and Cd+ENR groups for 20 d, with periodic water replacement and analytical verification of water concentrations.
+Static-renewal aquatic-toxicology design under China's "Chemicals — Acute Toxicity Test for Fish" GB/T 27861-2011 protocol (Approval No. BMY-ZY-202402, Guizhou Provincial Analytical Testing Research Institute). Zebrafish (AB strain, 3–4 months) acclimatized 15 days; rearing water aerated 48 h, quartz-filtered, UV-sterilized; 25 ± 1 °C; pH 7.2–7.5; 14 h light/10 h dark. Acute test: 96-h static exposure, six concentration gradients per compound and per mixture, 10 fish per replicate × 3 replicates per concentration, mortality scored at 24, 48, 72, 96 h, LC50 via probit-concentration regression and Fieller's theorem in SPSS 2019. Chronic test: 20-d exposure at 1/100 and 1/1000 of combined LC50; water replaced every 4 days; Cd in tissues by Agilent 7800 ICP-MS after polytetrafluoroethylene-vessel microwave digestion (Mars 6, CEM) in 8 mL HNO₃ + 2 mL H₂O₂ for 4 h; ENR by Agilent 1290-6470A UHPLC-MS/MS. Antioxidant enzymes (SOD, CAT, GSH-Px), MDA, and total protein measured on 10% liver homogenates (Sorvall Legend Micro 21R, Thermo Fisher) using Nanjing Jiancheng Bioengineering Institute kits read on a Multiskan GO microplate reader (Thermo Fisher). 16S rRNA V3–V4 region (primers 338F/806R, Sangon Biotech) amplified, library-prepped, sequenced on Illumina NextSeq2000 (Majorbio); OTUs clustered at 97% UPARSE; taxonomy annotated against SILVA v138; analyses in R packages vegan (α-diversity), PCA/PCoA (β-diversity), LEfSe (LDA > 3.0, p < 0.05), and Hmisc + igraph for Spearman co-occurrence networks (|r| > 0.6, p < 0.05). Concentration Addition model and Model Deviation Ratio used to classify joint toxicity. Joint toxicity assessment formulas:  EC<sub>x,mix</sub> = (Σ pᵢ / EC<sub>x,i</sub>)⁻¹; MDR = EC<sub>x,PRE</sub> / EC<sub>x,OBS</sub>; MDR<sub>Upper</sub> = EC<sub>x,Upper</sub>/EC<sub>x,OBS</sub>; MDR<sub>Lower</sub> = EC<sub>x,Lower</sub>/EC<sub>x,OBS</sub>. Synergy if MDR > MDR<sub>Upper</sub>; antagonism if MDR < MDR<sub>Lower</sub>; addition otherwise.
 
-Tissues were dissected on ice after euthanasia. Liver, intestine, and muscle samples were microwave-digested with nitric acid and hydrogen peroxide, then Cd was measured by ICP-MS. Antioxidant biomarkers were measured in liver homogenates using commercial SOD, CAT, GSH-Px, MDA, and total-protein assay kits. Gut microbiota was characterized by V3-V4 16S rRNA amplicon sequencing on an Illumina NextSeq2000 platform, OTU clustering at 97% similarity, SILVA v138 annotation, alpha- and beta-diversity analysis, LEfSe biomarker screening, and Spearman co-occurrence networks.
+Limitations the authors acknowledge: exposure concentrations are higher than typical environmental levels (the cited environmental ENR range is 0.019–11.9 µg/L; Cd freshwater EU limit 0.25 µg/L); zebrafish responses extrapolate to other teleosts and humans only with caution; no molecular-mechanism work was performed.
 
 ## Implications
 
-Certification: Do not use this source in HMTc food, ingredient, or product occurrence pools. The measured matrix is experimentally exposed zebrafish tissue from a laboratory Cd/antibiotic co-exposure study, not market fish, feed, water, or consumer products.
-
-App: Context for combined-pollutant risk. The source supports the principle that antibiotic co-contamination can increase Cd bioaccumulation and toxicity in aquatic organisms relative to Cd-only exposure, so single-contaminant risk models may understate ecological risk in polluted waters.
-
-Courses: Useful for teaching mixture-toxicology adjudication, especially the distinction between an exposure concentration, an LC50, tissue accumulation, oxidative-stress endpoints, and microbiome dysbiosis.
+- Certification (HMTc): The paper measures no food-matrix Cd contamination and proposes no certification threshold. The relevance to HMTc is indirect — it documents an antibiotic-driven mechanism (Cd-ENR complexation enhancing Cd absorption 1.11–2.33-fold) that strengthens the case for considering co-pollutant context when interpreting Cd biomonitoring data from aquaculture-sourced ingredients. No threshold contribution.
+- Courses: Teachable as a case study in joint-toxicity classification (CA model vs empirical LC50 doubling) and in the distinction between "synergistic" as a colloquial descriptor and as a formal CA/MDR classification.
+- App: Does not contribute primary occurrence values to any ingredient's `contamination_profile`. Belongs in the cadmium mechanism evidence layer, not the contamination layer.
+- Microbiome: Direct evidence for Cd-driven gut microbial dysbiosis in a teleost model (Shannon −57 to −63% under Cd; *Cetobacterium* −16 to −20%; *Aeromonas* +44 to +114%). Relevant to [[microbiome/cadmium-gut-axis]] crosswalk for WikiBiome federation and to the broader Cd-microbiome literature accumulating on this wiki.
 
 ## Wiki pages this source may touch
 
 - [[metals/cadmium]]
-- [[microbiome/index]]
-- [[testing/icp-ms]]
+- [[microbiome/cadmium-gut-axis]]
 
 ## Verification notes
 
-This page was built from the full PDF, including the abstract, Methods sections 2.1-2.3, acute and chronic exposure descriptions, Figures 1-8, Results sections 3.1-3.4, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source is a laboratory zebrafish ecotoxicology experiment. The abstract describes the mixture as having "significant synergistic effects," but the Results section reports MDR = 0.96 within a 0.58-1.04 confidence interval and classifies the mixture effect as additive; the Conclusions section also says additive. This page follows the Results/Conclusion classification and records the abstract wording as an internal inconsistency. The ENR-only acute concentration list in the text omits the 200 mg/L point shown in Figure 1b, so the page preserves both observations without inferring missing mortality values.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [81d2c82](https://github.com/paleofoundation/heavymetalindex/commit/81d2c82) | 2026-06-02 | ingest June 2: ren2025-cadmium-enrofloxacin-zebrafish |
-<!-- END: hmi-page-history -->
+- The paper's abstract calls the joint toxicity "synergistic" based on the LC50 doubling, but Section 3.1 explicitly classifies the interaction as additive under the Concentration Addition model (MDR 0.96, within the 0.58–1.04 confidence band). Both phrasings are preserved here verbatim; the apparent contradiction is internal to the source.
+- No food matrix is measured; `ingredients: []` and `products: []` reflect the controlled model-organism scope. `matrices: [fish-tissue]` captures the analytical matrix (zebrafish liver, intestine, muscle) without overspecifying.
+- Speciation: total Cd (Cd²⁺ from CdCl₂ AR-grade dosing, ICP-MS detection of total Cd in digested tissue). No Cd species fractionation; this is total Cd throughout.
+- No brand names attached to contamination values (per Part 12). Scientific instrument/reagent vendor names retained per the Exception 2 carve-out: Agilent 7800 ICP-MS, Agilent 1290-6470A UHPLC-MS/MS, CEM Mars 6 microwave digestion, Sorvall Legend Micro 21R, Thermo Fisher Multiskan GO, Nanjing Jiancheng Bioengineering Institute assay kits, Shanghai Macklin Biochemical Co., Tianjin Komiou Chemical Reagent Co., Sinopharm Chemical Reagent Co., Shanghai Hongye Ornamental Fish Farm, Sangon Biotech, Illumina NextSeq2000, Majorbio Cloud Platform, SILVA v138, SPSS 2019, Origin 2020.
+- Cite key derived from first author + year + topic (Ren + 2025 + cadmium-enrofloxacin-zebrafish). No triage-manifest cite key was pre-populated.
+- Jurisdiction: CN (Guizhou University and Guizhou Academy of Testing and Analysis, Guiyang). Funding/approval at Guizhou Provincial Analytical Testing Research Institute (Approval No. BMY-ZY-202402).
