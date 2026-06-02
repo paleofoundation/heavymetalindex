@@ -96,7 +96,7 @@ Starting material: 2 kg Bahia bean batch with 0.113 ± 0.003 mg/kg Cd, processed
 
 Cd mass balance reported in §3.3: during grinding, 59 % of bean Cd was retained in the mill residue (a viscous residue inside the Melanger mill), 35 % was transferred into the liquor, and 6 % remained in the shell. During pressing, all of the liquor Cd transferred into the cocoa powder; cocoa butter and the pressing residue (cake-derived) were Cd-free at the LOD. The shell value (0.124 mg/kg) is slightly higher than the bean (0.113 mg/kg) because the shell mass is small and absorbs the Cd lost from the nib during conching/winnowing; the mass-fraction figure (6 %) is the correct interpretation. Pb partition could not be quantified because Pb was below LOQ in every derivative except the shell.
 
-This paper's Cd-stays-in-the-non-lipid-fraction finding is consistent with the bean-to-powder concentration argument cited by [[sources/cbi2024-cocoa-eu-market-requirements]] (CBI 2024 reports a roughly two-fold concentration on going from bean to cocoa powder); here the partitioning is reported at the unit-process level rather than the steady-state level.
+The paper reports the partitioning at the unit-process level (grinding step / pressing step mass-balance fractions). The bean-to-powder steady-state concentration framing reported by [[sources/cbi2024-cocoa-eu-market-requirements]] (CBI 2024) operates at a different level of abstraction — the two views are not directly comparable here and any cross-source reconciliation belongs in a synthesis pass on the cocoa-Cd partitioning question.
 
 ### Dietary exposure assessment (§3.4, Table 4)
 
@@ -140,7 +140,7 @@ Limitations: (i) the processing-partition study uses a single Bahia bean batch i
 
 ## Implications
 
-**Certification:** For HMTc chocolate workups (CLAUDE.md Part 19 row-based scaffolding), this paper supplies (a) a contemporary literature-baseline Cd distribution for cocoa beans by producing region, including the Ecuador-Amazon high-Cd signal that drives the cocoa-powder Cd ceiling, and (b) a unit-process partitioning argument that locates almost all the Cd in the non-lipid (cocoa-solid) fraction — i.e. the cocoa-powder row of the EU 488/2014 ladder is doing real work on actual chemistry, not just on consumption-pattern proxy. The Pb signal in Brazilian beans (66 % of all batches above the Brazil/Mercosul cocoa-liquor Pb 0.5 mg/kg ceiling, with PA and BA reaching >2 mg/kg) is the more arresting finding: it has no analogue in the EU 488/2014 framework (EU sets no Pb maximum for cocoa beans or cocoa products), so a within-row HMTc clean/dirty subcategory analysis for chocolate would have Brazil-origin beans as a dirty-subcategory candidate for Pb on this evidence alone. The 8 %/66 % overall exceedance figures (Cd/Pb) belong in the chocolate product-page Levers section as a baseline-non-compliance signal.
+**Certification:** For HMTc chocolate workups, this paper contributes (a) a contemporary literature-baseline Cd distribution for cocoa beans by producing region, including the Ecuador-Amazon high-Cd signal, and (b) a unit-process partitioning data point that locates almost all the Cd in the non-lipid (cocoa-solid) fraction at the pilot-scale grinding step. The Pb signal in Brazilian beans is geographically structured: mean Pb is above 0.5 mg/kg in all four Brazilian states sampled here (BA 0.727, PA 0.985, ES 0.533, RO 0.397 — the RO mean is below 0.5 but 63 % of RO batches exceed the 0.5 mg/kg cocoa-liquor MTL individually), while Ecuador beans cluster near LOQ for Pb. EU 488/2014 sets no Pb maximum for cocoa beans or finished cocoa products, so the Pb signal sits outside the existing EU regulatory frame; whether this evidence supports any within-row subcategory work for chocolate is a Standards Workbench decision and is left to that workflow. The 8 % overall Cd exceedance and 66 % overall Pb exceedance against the Brazil/Mercosul cocoa-liquor MTLs are the headline occurrence figures from this paper.
 
 **Courses:** The processing-partition figure (cocoa butter Cd <0.0015 mg/kg vs cocoa powder 0.111 mg/kg from a 0.113 mg/kg starting bean) is the cleanest single number we have for the "white-chocolate-is-low-Cd, dark-chocolate-is-high-Cd" pattern. The 59 %/35 %/6 % mill-residue/liquor/shell mass balance is the single-paragraph mechanistic explainer that should accompany any chocolate-category educator module.
 
@@ -156,3 +156,12 @@ Limitations: (i) the processing-partition study uses a single Bahia bean batch i
 - [[products/chocolate]]
 - [[regulations/jecfa-cadmium-ptmi]]
 - [[regulations/efsa-lead-contam-2010]]
+- [[regulations/eu-1881-2006-contaminants-superseded]]
+- [[regulations/eu-2021-1323-cadmium-cereals-superseded]]
+- [[regulations/eu-2023-915-cadmium]]
+- [[regulations/china-gb-2762-2012-contaminants-superseded]]
+- [[regulations/codex-cadmium-mls]]
+
+## Verification notes
+
+- 2026-06-02 — Fresh-context audit subagent (general-purpose) returned REVISE with two ⚠️ in Check 2 and three ⚠️ in Check 5. Applied: (i) softened the cross-source "consistent with" framing in §3.3 to an observational note that defers cross-source reconciliation to a synthesis pass; (ii) reworded the Implications/Certification block to remove a clean/dirty subcategory pre-decision (Part 19 / Part 2 firewall — clean/dirty designations are Standards Workbench outputs and do not live in `wiki/`) and to remove a prescriptive "belongs in chocolate Levers section" implication-list line; (iii) added regulation wikilinks for EU 1881/2006, EU 2021/1323, EU 2023/915, China GB 2762-2012, and Codex Cd MLs to fan the source to those pages. Findings rejected as false positives: none. Matrices vocabulary (`cocoa-beans, cocoa-liquor, cocoa-butter, cocoa-powder, cocoa-shells, chocolate`) is intentionally form-specific because the paper operationally distinguishes these as separate sample forms with separate measured values; sibling source `cbi2024-cocoa-eu-market-requirements` uses overlapping vocabulary (`cocoa, chocolate, cocoa-powder, dark-chocolate, milk-chocolate`).
