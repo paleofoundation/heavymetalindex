@@ -46,6 +46,8 @@
     "freshwater",
     "marine",
     "wastewater",
+    "landfill-leachate",
+    "construction-demolition-waste",
     "wet-weight",
     "dry-weight",
     "exposure-modeling",
