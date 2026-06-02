@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-02T22:18:08.151Z
+updated: 2026-06-02T23:58:54.356Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -35,8 +35,8 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 14 |
-| Commits last 24 hours | 367 |
+| Commits last 1 hour | 6 |
+| Commits last 24 hours | 360 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-8d48ed3 44 seconds ago — STOPPED EARLY - no eligible unclaimed auto-fetched PDFs
+478d674 13 minutes ago — codex fire 2026-06-03 0246: tracker-blocked snapshot
 ```
 
 ## How to read this
