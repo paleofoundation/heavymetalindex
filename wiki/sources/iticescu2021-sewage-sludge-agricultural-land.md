@@ -3,125 +3,110 @@ type: source
 raw_handle: MFK_water-13-00585-v2
 cite_key: iticescu2021-sewage-sludge-agricultural-land
 title: "Optimal Solutions for the Use of Sewage Sludge on Agricultural Lands"
-authors: ["Catalina Iticescu", "Puiu-Lucian Georgescu", "Maxim Arseni", "Adrian Rosu", "Mihaela Timofti", "Gabriel Carp", "Lucian-Ionel Cioca"]
+authors: [Iticescu C, Georgescu PL, Arseni M, Rosu A, Timofti M, Carp G, Cioca LI]
 year: 2021
 publication: "Water"
-doi: "10.3390/w13050585"
+doi: 10.3390/w13050585
+access_url: "https://doi.org/10.3390/w13050585"
 source_type: peer-reviewed
-evidence_tier: A
+evidence_tier: B
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/water-13-00585-v2.pdf"
-metals: [Cr, Ni, Cu]
+raw_sha256: 1e35a8aacb77462a2bce8fb62e1cbe30b937f54bc245f58e101569660c4ef95a
+metals: [Cr, Cu, Ni]
 ingredients: []
 products: []
-matrices: [municipal-sewage-sludge, agricultural-soil, sludge-amended-soil, calcareous-amendment, wastewater-treatment-plant-sludge]
+matrices: [sewage-sludge, agricultural-soil]
 jurisdictions: [RO, EU]
 near_duplicates: []
 sample_n: 8
-sample_population: "Eight sewage-sludge monitoring sets from the Galati, Romania wastewater treatment station during February-March 2017, September-October 2017, February-March 2018, and August-September 2018, plus agricultural-soil characterization for an initial 40 ha sludge-application area in Galati County."
-updated: 2026-06-02
+sample_population: "Eight quarterly sludge sample sets from the Galati municipal Wastewater Treatment Station, Romania, collected Feb 2017 – Sep 2018; sets 1–4 sampled before anaerobic digestion, sets 5–8 after digestion. Agricultural soils in Galati County receiving the sludge were also characterised."
+sampling_locations: ["Galati Wastewater Treatment Station, Romania", "Agricultural lands of Galati County, Romania"]
+sampling_year_range: "2017-2018"
+wiki_doi: null
+updated: 2026-06-03
 ---
 
-# Iticescu et al. 2021 - Galati sewage sludge on agricultural land
+# Iticescu et al. 2021 — Heavy metals in Galati sewage sludge for Romanian agricultural use
 
-Iticescu and colleagues measured physico-chemical parameters and selected metals in municipal sewage sludge from the Galati wastewater treatment station in Romania and in agricultural soils targeted for sludge application. This is primary environmental and soil-amendment evidence for sewage sludge management. It is not food, ingredient, or consumer-product occurrence evidence, and it does not measure edible crop tissue.
+A characterisation study of municipal sewage sludge from the Galati Wastewater Treatment Station (south-east Romania) intended for application as an agricultural soil amendment, sampled quarterly across 2017–2018 in eight sets (four undigested, four post-anaerobic-digestion). The authors monitored sludge pH, nutrients, and the three heavy metals required by national rules for agricultural reuse (Cr, Cu, Ni), and characterised the two soil types receiving the sludge before and after calcareous amendment. Reported metal concentrations in sludge and in receiving soils are well below the Romanian and EU regulatory ceilings for agricultural land application; the authors attribute this to the loss of heavy industry from the Galati municipal catchment after 1990.
 
 ## Key numbers
 
-### Sludge and application frame
+Reported values are read from the published figures and tables; the article does not include a numerical table of per-set heavy metal concentrations (Figure 3, p. 6) and the authors only summarise the soil dispersion through a county map (Figure 5, p. 8) rather than a numerical table.
 
-The study covered the Galati wastewater treatment station during 2017-2018. The station produced about 3200 tons of sludge per year. Sludge sampling covered four seasonal monitoring windows: February-March 2017, September-October 2017, February-March 2018, and August-September 2018. The authors describe sample sets 1-4 as undigested sludge before the digester and sample sets 5-8 as digested sludge after anaerobic digestion.
+### Sludge characterisation
 
-The sludge was intended for agricultural land application twice per year, with at least six months between applications. In the field plan, about 1.5 t sewage sludge/ha and 1.55-1.85 t calcareous amendments/ha were applied twice yearly, depending on the crop planned for the land.
+- Quarterly sample sets `n=8`: Feb–Mar 2017; Sep–Oct 2017; Feb–Mar 2018; Aug–Sep 2018; sets 1–4 undigested, sets 5–8 anaerobically digested (p. 3).
+- WWTS Galati produces approximately 3,200 t sludge per year (p. 3).
+- Sludge pH range across the eight sets: 7.76–8.85 upH (p. 6).
+- Heavy metal content in sludge (mg·kg⁻¹ dry substance, Figure 3 bar chart, qualitative read):
+  - Ni: range across sets approximately 1.10–2.00 mg·kg⁻¹ d.s.; highest in sets 7 and 8 (post-digestion, summer 2018).
+  - Cu: range approximately 0.45–0.95 mg·kg⁻¹ d.s.
+  - Cr: range approximately 0.45–1.05 mg·kg⁻¹ d.s.
+- Qualitative EDX spectrum (Figure 1, p. 5) additionally identified Fe, Mg, Na, K, Ca, S, P, Ti, Mn, Co, Zn, Sn, and Pb peaks; no quantitative values for these elements are reported.
+- The Pearson correlation matrix for the sludge variables (Table 5, p. 10) shows weak inter-metal correlations: Cr³⁺–Ni²⁺ r = −0.31, Cr³⁺–Cu r = +0.37, Ni²⁺–Cu r = +0.34; the strongest correlations in the dataset are pH–N-total (r = +0.52) and N-total–K (r = +0.49).
 
-The pH of the analyzed sludge ranged from 7.76 to 8.85 pH units. The authors recommend sludge pH above 6.5 before agricultural use because acidic conditions increase metal mobility into plants.
+### Agricultural soil characterisation (Galati County)
 
-### Metals in sludge and agricultural soil
+Two soil types received the sludge; the cited values are averages across the 5-hectare collection units.
 
-The paper focuses its source-reported metal results on chromium, copper, and nickel. The relevant sludge and soil units are reported as mg/kg dry solids (`mg/kg s.u.` in the PDF).
+| Parameter | Soil 1 (sand clay, "U") | Soil 2 (sandy clay, "S") |
+| --- | --- | --- |
+| pH, pre-amendment | 6.05 | 6.38 |
+| pH, post-amendment (Table 4, p. 7) | 6.67 | 6.83 |
+| Humus % | 0.57 → 1.32 | 0.15 → 0.82 |
+| Nitrogen index | 0.78% → 0.89% | 0.14% → 0.43% |
+| N-total | 0.040% → 0.062% | 0.008% → 0.029% |
+| P-mobile (ppm) | 43.2 → 57.2 | 40 → 51.3 |
+| K-mobile (ppm) | 134 → 142 | 104 → 118 |
 
-Figure 3 reports quarterly average Cr, Cu, and Ni concentrations in sewage sludge. The chart has no printed numeric data labels, so the exact sludge concentrations are not transcribed here as table values. Visually, all bars remain far below the regulatory comparison values discussed in the paper. The authors state that all analyzed sludge samples were below Directive 86/278/EEC maximum values.
+Soil-side heavy metal mapping (Figure 5, p. 8) is presented only as colour-graded county maps; the published legends bin the dispersion values into narrow ranges that the authors state fall within the regulatory ceilings cited below. Per-parcel numerical values are not provided.
 
-The paper cites Romanian national maximum concentrations for sludge used on agricultural land:
+### Sludge application protocol
 
-| Metal ion | Maximum concentration allowed |
-| --- | ---: |
-| Cr3+ | 500 mg/kg dry solids |
-| Ni2+ | 100 mg/kg dry solids |
-| Cu2+ | 500 mg/kg dry solids |
+- Approximately 1.5 t sludge per hectare per application; 1.55–1.85 t calcareous amendment (calcite + dolomite mixture) per hectare per application; two applications per year on the same parcels (pp. 6, 11).
+- Calcareous co-amendment is used as a CaCO₃–Ca(HCO₃)₂ buffer system (pKa ≈ 7.48) to keep amended-soil pH above 6.5 and so suppress heavy-metal mobility into crops (p. 11).
+- Initial study area: 40 ha (p. 6).
 
-Figure 5 maps the studied agricultural soils in Galati County and gives source-legend ranges for metals. The map legends label these as `Value [mg/kg] DS x10^5`; the paper does not provide a separate site-level table, so these are retained as source-legend values rather than converted:
+### Regulatory ceilings cited
 
-| Soil metal map | Source-legend range |
-| --- | ---: |
-| Cr3+ | 1.40-1.74 |
-| Ni2+ | 1.50-1.68 |
-| Cu2+ | 3.599-4.526 |
+For sewage sludge applied to agricultural land, Romanian Order 344/2004 (implementing Council Directive 86/278/EEC) sets the following maximum permitted heavy-metal concentrations in the receiving soil (p. 8):
 
-The authors state that soil Cr, Ni, and Cu fell within EU and Romanian limits.
+- Cr³⁺: 500 mg·kg⁻¹ dry soil.
+- Ni²⁺: 100 mg·kg⁻¹ dry soil.
+- Cu²⁺: 500 mg·kg⁻¹ dry soil.
 
-### Soil-condition changes after sludge plus calcareous amendment
-
-The study initially covered 40 ha of agricultural land and identified two main soil types. Table 3 reports pre-application soil characteristics:
-
-| Characteristic | Soil type 1 | Soil type 2 |
-| --- | ---: | ---: |
-| pH | 6.05 | 6.38 |
-| Humus | 0.57 | 0.15 |
-| Nitrogen index | 0.78% | 0.14% |
-| Total nitrogen | 0.040% | 0.008% |
-| Mobile phosphorus | 43.2 ppm | 40 ppm |
-| Mobile potassium | 134 ppm | 104 ppm |
-| Degree of saturation in bases | 81.67 | 90.66 |
-
-After sewage sludge and calcareous amendments, Table 4 reports:
-
-| Characteristic | Soil type 1 | Soil type 2 |
-| --- | ---: | ---: |
-| pH | 6.67 | 6.83 |
-| Humus | 1.32 | 0.82 |
-| Nitrogen index | 0.89% | 0.43% |
-| Total nitrogen | 0.062% | 0.029% |
-| Mobile phosphorus | 57.2 ppm | 51.3 ppm |
-| Mobile potassium | 142 ppm | 118 ppm |
-| Degree of saturation in bases | 78.35 | 83.65 |
-
-The authors interpret the amendment approach as improving degraded soil fertility while keeping monitored metal concentrations below legal limits.
+The authors state all measured sludge and soil values fall below these ceilings (pp. 8, 11).
 
 ## Methods (brief)
 
-Sludge samples were collected from the Galati wastewater treatment station before and after anaerobic digestion. The study determined sludge pH, total nitrogen, ammonium, total phosphorus, and Cr, Cu, and Ni using standards listed in the paper. The metal analyses used EDX and atomic absorption spectroscopy/spectrophotometric methods, with sample processing according to Romanian and European standards.
+Sludge and soil sampling was performed in conformity with national reference methods listed by code only (Table 1, p. 3, and Table 2, p. 4). Heavy metal determinations used energy-dispersive X-ray spectroscopy (EDX) for qualitative element identification and atomic absorption spectroscopy (AAS) for Cu, alongside electrometric and spectrophotometric methods for the other parameters (p. 3). Specific standards invoked include SR EN 16192:2012 (Cr-total, Ni²⁺), SR 13179/93 (Cu²⁺), SR EN 12176 (pH), and SR ISO 11261:2000 (N-total).
 
-Agricultural soil samples were collected as average samples from 20-25 cm depth, with each average sample representing a 5 ha area. Soil characterization included texture, bulk density, pH, humus, nitrogen index, C:N ratio, total nitrogen, mobile phosphorus, mobile potassium, exchange bases, hydrolytic acidity, and base saturation. Spatial mapping and principal component analysis were used to evaluate nutrient and metal distributions.
+Reported speciation: chromium is reported as Cr-total (the regulatory ceiling itself is written as Cr³⁺ but the analytical method given, SR EN 16192:2012, returns total Cr); Cu and Ni are reported as Cu²⁺ and Ni²⁺ in the regulatory language but the analytical methods listed (AAS, ICP-style standards) measure total metal. No mercury speciation was performed; mercury is mentioned only as one of the seven heavy metals required to be monitored under the implementing legislation, not as a measured value.
 
-The pH-management intervention used calcite/dolomite amendments to form a CaCO3-Ca(HCO3)2 buffer system after soil contact.
+Limits of detection, limits of quantification, recovery for certified reference materials, replicate counts within each sample set, and analytical uncertainty are not reported. Statistical analysis used Principal Component Analysis (PCA) on the normalised dataset (Shapiro–Wilk for normality, log transformation otherwise) and Pearson correlation (Section 2.3, p. 4; Figures 6–7 and Table 5, pp. 9–10).
 
 ## Implications
 
-Certification: Do not use this source in HMTc food, ingredient, or product occurrence pools. It measures sewage sludge and agricultural soil, not foods or finished products.
+Certification: Provides a worked example, in a post-industrial Eastern European catchment, of municipal sludge entering the agricultural supply chain at heavy-metal concentrations well below the EU Sewage Sludge Directive ceilings. Useful background for HMT&C supplier-questionnaire design on soil-amendment history, but the per-element values reported here are too coarse (bar-chart reads, no LOD reporting, no replicate uncertainty) to anchor any quantitative supply-chain risk threshold.
 
-App: Useful as upstream context for soil-amendment risk assessment, especially supplier questions about sewage-sludge application history, soil pH management, and whether metal monitoring is conducted before sludge is applied to crop land.
+Courses: Supports the "Why do agricultural soils contain heavy metals?" module as an illustrative case for the role of municipal wastewater de-industrialisation in lowering sludge-borne metal loadings. The CaCO₃–Ca(HCO₃)₂ buffer-system framing on pp. 11 is a useful classroom anchor for pH-driven metal mobility.
 
-Courses: Useful for teaching separation between environmental amendment data, soil chemistry, regulatory sludge limits, and edible-crop occurrence. The paper is also a practical example of why pH management can change metal mobility risk without changing the underlying total-metal burden.
+App: No direct ingredient-level data — the study measures sludge and soil, not finished foods. No ingredient `contamination_profile` contribution.
 
-## Wiki pages this source may touch
+## Verification notes
+
+- 2026-06-03 merge-enhance pass on the June-2 initial ingest (`iticescu2021-sewage-sludge-agricultural-land`, committed in 4f31cc6). Preserved the original `cite_key`, `raw_handle`, `raw_path`, and `doi`. Replaced bespoke matrix slugs (`municipal-sewage-sludge`, `sludge-amended-soil`, `calcareous-amendment`, `wastewater-treatment-plant-sludge`) with controlled-vocabulary `[sewage-sludge, agricultural-soil]` per the system-prompt vocabulary; precedent set by `[[sources/de-silva2023-industrial-waste-land-application-soil]]` and `[[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]`. Reformatted author list to `Lastname I` convention (was full first names). Downgraded `evidence_tier` from A to B given the absence of numerical heavy-metal tables, LOD/LOQ, and replicate statistics (Figure 3 reports metals only as an unlabelled bar chart). Added the post-amendment soil table, Pearson-correlation read-outs from Table 5, and the explicit regulatory citation (Directive 86/278/EEC + Romanian Order 344/2004).
+- Frontmatter `metals: [Cr, Cu, Ni]` reflects what was quantitatively measured; the regulatory text on pp. 2–3 lists seven monitored elements (Cr, Cu, Ni, Pb, Zn, Cd, Hg) but only Cr, Cu, and Ni have reported values. Pb and other elements appear only as unlabelled peaks in the EDX spectrum (Figure 1).
+- Frontmatter `ingredients: []` and `products: []`: this is a sludge/soil characterisation paper, not a foodstuff measurement, and so does not contribute direct evidence to any ingredient or product page.
+- Matrices `sewage-sludge` and `agricultural-soil` follow the existing controlled vocabulary used by sources such as `[[sources/de-silva2023-industrial-waste-land-application-soil]]` and `[[sources/mozdzer2023-sludge-ash-granulates-crop-metals]]`.
+- Evidence tier B: peer-reviewed open-access journal article, but the analytical reporting is thin (no LOD/LOQ, no replicate statistics, heavy-metal values published only in bar-chart and county-map form rather than tables), which keeps it below A-tier.
+- Heavy-metal values in this page are read from Figure 3 of the article; the article does not publish a numerical table for those values. Spot-check by a second reader is welcome; flag any disagreement against the printed bars.
+
+## Wiki pages updated on ingest
 
 - [[metals/chromium]]
 - [[metals/copper]]
 - [[metals/nickel]]
-- [[supply-chain/soil-to-plant-transfer]]
-- [[testing/index]]
-
-## Verification notes
-
-This page was built from the full PDF, including the abstract, wastewater-treatment and sludge-management background, Materials and Methods sections 2.1-2.3, Tables 1-5, Figures 1-7, Discussion, Conclusions, and data-availability statement. Products and ingredients are intentionally empty because no food, crop, ingredient, or consumer-product samples were analyzed. The PDF mentions Pb, Zn, Cd, and Hg as metals that can require monitoring in sewage-sludge programs, and Figure 1's EDX spectrum labels several elemental peaks, but the paper's routeable quantitative sludge/soil metal results are presented for Cr, Cu, and Ni. Figure 3 has unlabeled bars, and Figure 5 has map-legend bins rather than a site-level concentration table; those figure limitations are preserved here rather than inventing exact sludge or point-sample concentrations.
-
-<!-- BEGIN: hmi-page-history -->
-## Page history
-
-The five most recent substantive edits to this page. The full version history lives in [git](https://github.com/paleofoundation/heavymetalindex); when DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
-
-| Commit | Date | Description |
-| --- | --- | --- |
-| [4f31cc6](https://github.com/paleofoundation/heavymetalindex/commit/4f31cc6) | 2026-06-02 | ingest June 2: iticescu2021-sewage-sludge-agricultural-land |
-<!-- END: hmi-page-history -->
+- [[supply-chain/soil-contamination-sources]]
