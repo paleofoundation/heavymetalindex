@@ -14,7 +14,7 @@ raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-cumin-c
 metals: [Pb, Cd, Fe, Cu, Zn]
 ingredients: ["[[ingredients/cumin]]", "[[ingredients/spices]]", "[[ingredients/herbs-and-spices]]"]
 products: ["[[products/spices]]", "[[products/condiments-general]]"]
-matrices: [black-cumin-seeds, medicinal-plant-seeds, dry-weight]
+matrices: [spices]
 jurisdictions: [ET]
 near_duplicates: []
 sample_n: 81
@@ -50,7 +50,7 @@ Table 3 reports mean +/- SD in mg/kg dry weight for black cumin seed samples.
 
 ## Methods (brief)
 
-The study sampled Nigella sativa seeds from Dejen, Gozamen, and Sinan districts in East Gojjam, Ethiopia. Samples were subjected to microwave-assisted acid digestion and analyzed by flame atomic absorption spectrometry. Calibration standards for Fe, Cu, Zn, Pb, and Cd were prepared from 1 g/L reference solutions. Calibration R2 values were Fe 0.9991, Cu 0.9982, Zn 0.9987, Pb 0.9987, and Cd 0.9983. Spike recoveries were 94.8-108% across the measured metals. The paper reports low LOD/LOQ values for Pb and Cd, including Cd LOD 0.045 mg/kg and LOQ 0.15 mg/kg.
+The study sampled Nigella sativa seeds from Dejen, Gozamen, and Sinan districts in East Gojjam, Ethiopia. Samples were subjected to microwave-assisted acid digestion and analyzed by flame atomic absorption spectrometry. Calibration standards for Fe, Cu, Zn, Pb, and Cd were prepared from 1 g/L reference solutions. Calibration R2 values were Fe 0.9991, Cu 0.9982, Zn 0.9987, Pb 0.9987, and Cd 0.9983. Spike recoveries were 94.8-108% across the measured metals. The paper reports LOD/LOQ values in Table 1, including Cd LOD 0.045 mg/kg and LOQ 0.15 mg/kg.
 
 The matrix is black cumin seed on a dry-weight basis. The measured toxic metals are total Pb and total Cd; no arsenic, mercury, chromium, tin, aluminum, uranium, or antimony values are measured.
 
@@ -80,6 +80,9 @@ Microbiome: Not addressed.
 ## Verification notes
 
 - The PDF prints DOI `10.1007/s44371-025-00300-1`, journal Discover Chemistry, and article metadata for Bekalu et al. (2025) 2:223. The PDF states open access under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+- `matrices: [spices]` is used as the broad routed matrix for black cumin seeds because the source describes Nigella sativa as a culinary and medicinal seed. Dry-weight basis is documented in Key numbers and Methods rather than in frontmatter `matrices`.
 - Table 3 prints Sinan Cu as 22.24 +/- 2.03 mg/kg, and the abstract repeats the Cu range as 9.18 +/- 0.22 to 22.24 +/- 2.03. Some discussion passages later state 18.24 +/- 2.03 for Sinan Cu. This page follows Table 3 and the abstract, and treats the 18.24 value as a paper-side text inconsistency.
 - The source text contains one apparent decimal typo in discussion, describing Cd as 1.2 +/- 0.04 in Gozamen. Table 3 gives 0.12 +/- 0.004 mg/kg, which is also consistent with the abstract range and with the cited WHO Cd limit comparison. This page uses Table 3.
+- Table 1 gives Pb calibration R2 as 0.9987, while the discussion text describes Pb R2 as 0.9889. This page follows Table 1 for the calibration summary and records the discussion value as a source-internal inconsistency.
+- Table 1 also prints Pb LOQ as 0.015 mg/kg, below the Pb LOD of 0.016 mg/kg. The Methods section therefore quotes Cd LOD/LOQ and avoids using the anomalous Pb LOQ as a quality-control anchor.
 - The paper describes 81 samples overall and reports district means as mean +/- SD with n=3 in Table 3. The frontmatter `sample_n` captures the overall sample count; the table note captures the district-mean reporting basis.

@@ -14,7 +14,7 @@ raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-cumin-p
 metals: [Pb]
 ingredients: ["[[ingredients/spices]]", "[[ingredients/herbs-and-spices]]", "[[ingredients/cumin]]", "[[ingredients/turmeric]]"]
 products: ["[[products/spices]]", "[[products/condiments-general]]"]
-matrices: [powdered-spices, dry-as-sold]
+matrices: [spices]
 jurisdictions: [BD]
 near_duplicates: []
 sample_n: 72
@@ -51,16 +51,16 @@ The abstract gives the clearest complete per-spice ranges for lead, in mg/kg on 
 
 The extracted table text reports these estimated daily intake entries for branded and nonbranded spice groups. Units are as printed by the paper's EDI/THQ table; downstream use should return to the PDF table before treating them as occurrence values.
 
-| Category | Spice | EDI, source table | THQ, source table |
-| --- | --- | ---: | ---: |
-| Branded | Cumin powder | 0.046 | 3.89E-07 |
-| Branded | Red pepper powder | 0.052 | 4.40E-07 |
-| Branded | Turmeric powder | 0.20 | 1.72E-06 |
-| Branded | Coriander powder | 0.068 | 5.76E-07 |
-| Nonbranded | Cumin powder | 0.083 | 7.08E-07 |
-| Nonbranded | Red pepper powder | 0.25 | 2.12E-06 |
-| Nonbranded | Turmeric powder | 0.62 | 5.25E-06 |
-| Nonbranded | Coriander powder | 0.02 | 1.73E-07 |
+| Category | Spice | EDI, source table | THQ, source table | CR, source table |
+| --- | --- | ---: | ---: | ---: |
+| Branded | Cumin powder | 0.046 | 0.011 | 3.89E-07 |
+| Branded | Red pepper powder | 0.052 | 0.013 | 4.40E-07 |
+| Branded | Turmeric powder | 0.20 | 0.051 | 1.72E-06 |
+| Branded | Coriander powder | 0.068 | 0.017 | 5.76E-07 |
+| Nonbranded | Cumin powder | 0.083 | 0.021 | 7.08E-07 |
+| Nonbranded | Red pepper powder | 0.25 | 0.063 | 2.12E-06 |
+| Nonbranded | Turmeric powder | 0.62 | 0.15 | 5.25E-06 |
+| Nonbranded | Coriander powder | 0.02 | 0.0051 | 1.73E-07 |
 
 ## Methods (brief)
 
@@ -92,5 +92,7 @@ Microbiome: Not addressed.
 
 - The PDF is a Research Square preprint posted September 22, 2022, with DOI `10.21203/rs.3.rs-2087533/v1` and CC BY 4.0 license text in the PDF. The wishlist audit also contained skip rows for a later published DOI candidate, `10.1007/s12011-022-03553-4`; this source page is based on the actual PDF in the auto-fetched folder and uses the DOI printed in that PDF.
 - The full Table 2 extraction is not clean enough to reconstruct every individual sample cell without visual PDF review, so the Key numbers section uses the complete lead ranges stated in the abstract and body narrative. This is a source-ingest limitation, not a reason to drop the source, because the PDF provides extractable concentration ranges and category-level occurrence findings.
+- `matrices: [spices]` is used rather than `powdered-spices` or a basis label. The source basis is powdered spice as sold; basis is documented in the Key numbers and Methods sections instead of being placed in frontmatter `matrices`.
+- Audit subagent (2026-06-02) returned QUARANTINE because the first ingest mislabeled the source table's carcinogenic-risk (`CR`) values as target-hazard-quotient (`THQ`) values. The exposure table now carries separate THQ and CR columns from the source table.
 - Speciation is straightforward: lead is reported as Pb only. No arsenic, cadmium, mercury, nickel, chromium, tin, aluminum, uranium, or antimony values are measured in this source.
 - The source has category labels for branded and nonbranded products but does not disclose consumer brand names. The page therefore remains brand-firewall compliant.
