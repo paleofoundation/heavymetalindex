@@ -207,6 +207,7 @@ For HMTc category work, the regulation supplies:
 - Decimal commas in the maximum-level column are preserved verbatim from the Official Journal text. No silent conversion to decimal points or to µg/kg was performed.
 - No brand names appear in this regulation; no Part 12 redaction was required.
 - No HMTc threshold inference or synthesis claim added. The `## Implications` section describes occurrence-data routing and product-page-split alignment, not HMTc threshold proposals.
+- Audit subagent (2026-06-02) flagged `[[ingredients/salt]]` as a possible missing-slug proposal; verified against `wiki/ingredients/salt.md` (page exists on disk) and `docs/gpt-collaboration/taxonomy-snapshot.md` (the slug `salt` is present in the ingredients comma-separated list, immediately before `saltine-crackers`) — finding was a false positive. The slug is valid and is retained.
 
 ## Sources
 
