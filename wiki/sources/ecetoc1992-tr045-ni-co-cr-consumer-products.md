@@ -48,9 +48,9 @@ ECETOC Technical Report No. 45 is an industry-consortium review prepared by a Eu
 | E (Spain) | 3/1 | 4 | 0.1 | 1.3 | 0.6 ± 0.5 | — | — | — | — | — | — | Vilaplana et al., 1987 |
 | F (France) | p | 15 | <0.02 | 4.3 | 1.36 ± 1.12 | — | — | — | — | — | — | Barriere et al., 1979 |
 | GB | p | 6 | <10 | <10 | <10 (4.7) | — | — | — | — | — | — | Wells, 1956 |
-| I (Italy) | p | 1 | 0.0 | 18.5 (footnote 8: 3 outliers 22.8/22.8/25.7) | 6.3 ± 7.1 | — | 3.9 | — | 0.8 | 6.4 | 2.8 ± 1.9 | Kokelj et al., 1984 |
-| I | 12/2 | 14 | 0.0 | 18.5 (footnote 8) | 6.3 ± 7.1 | — | — | — | 0.0 | 8.7 | 3.0 ± 2.8 | Nava et al., 1987 |
-| IL (Israel) | ? | 14 | — | — | — | — | — | — | 0.4 | 9.0 (footnote 11: 4 outliers 14.2-77.1) | 4.0 ± 3.1 | Feuerman, 1971 |
+| I (Italy) | p | 7 | 0.0 | 18.5 | 6.3 ± 7.1 | — | 3.9 | — | 0.8 | 6.4 | 2.8 ± 1.9 | Kokelj et al., 1984 |
+| I | 12/2 | 14 | 0.0 | 18.5 (footnote 8: 3 outliers 22.8/22.8/25.7 ppm Ni) | 6.3 ± 7.1 | — | — | — | 0.0 | 8.7 | 3.0 ± 2.8 | Nava et al., 1987 |
+| IL (Israel) | ? | 14 | — | — | — | — | — | — | 0.4 | 9.0 (footnote 11: additional outlier 21.4 ppm Cr) | 4.0 ± 3.1 | Feuerman, 1971 |
 | NL | ? | 11 | <0.5 | 5.7 | — | <0.5 | — | — | <0.3 | 6.4 | 3.3 ± 2.7 | Nater, 1963 |
 | NL | ? | 19 | <0.5 | <1.0 | — | — | — | — | 0.3 | 2.9 | — | Wahlberg et al., 1977 |
 | S (Sweden) | ? | 71/93 (footnote 12) | 1.0 | 2.0 | — | — | — | — | 1.0 | <1.0 | — | Burrows, 1983 |
@@ -66,14 +66,14 @@ ECETOC Technical Report No. 45 is an industry-consortium review prepared by a Eu
 | EU | p | 1 | — | 2.5 | — | — | 7 | — | — | <2 | — | P. & G., 1989 |
 | EU | p | 6 | <1 | <2 | — | <2 | 7 | — | — | <2 | — | P. & G., 1990 |
 
-Table 6 footnote 8: in the I/Nava et al. 1987 row "additional three outliers of 22.8, 22.8 and 25.7 ppm" were observed and excluded from the mean. Footnote 11: in the IL/Feuerman 1971 row "additional one outlier of 21.4 ppm" (Cr); a second analysis of the same products gave outliers 14.2 and 0.21 ppm respectively, and "the high value of 77 ppm" reported by Nava et al. for Ni in one hard-surface cleaner from the Italian market "could not be reproduced." Footnote 13: 213 EU products = samples taken from 15 European countries. Footnote 14: additional one outlier of 21.4 ppm. Footnote 15: additional one outlier of 20 ppm (Ni), with a second analysis giving 14.2 and 0.21 ppm. Footnote 16: additional two outliers of the same product 0.23 ppm Cr were found.
+Table 6 footnote 8: "additional three outliers of 22.8, 22.8 and 25.7 ppm" were observed in the Nava et al. 1987 detergent dataset and excluded from the mean. Footnote 11: in the IL/Feuerman 1971 detergent row, "additional one outlier of 21.4 ppm" (Cr). Footnote 13: 213 EU products = samples taken from 15 European countries (Unilever 1990 dataset). Footnote 14 (Kokelj 1984 dishwashing row): "additional one outlier of 21.4 ppm" (Ni). Footnote 15 (Kokelj+Nava cleaners row, Cr column): "additional one outlier of 20 ppm, but in a second analysis of the same products 14.2 and 0.21 ppm respectively were found" (Ni). Footnote 16 (Kokelj+Nava cleaners row, Cr column): "additional two outliers of the same product 0.23 ppm Cr were found" — applies to chromium, not to the Ni column where the marker was placed in the printed table. Footnote 77 ppm Ni outlier: discussed only in the Comment to Table 6 (p. 51), assigned to Nava et al. 1987 for one hard-surface cleaner from the Italian market; "could not be reproduced" on re-analysis. Distinct from the Feuerman Cr outlier in footnote 11.
 
 **Nickel, cobalt and chromium in non-detergent consumer products — Table 6 cont., ECETOC 1992 (units ppm):**
 
 | Product type | Country | p/l | n | Ni min | Ni max | Ni mean ± SD | Co min | Co max | Co mean ± SD | Cr min | Cr max | Cr mean ± SD | Reference |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Dishwashing liquids | A | l | 9 | 0 | 5.0 | 1.2 ± 1.6 | — | 0.16 | 0.09 ± 0.08 | 0.1 | 3.5 | 1.0 ± 1.3 | Ebner et al., 1978 |
-| Dishwashing liquids | E | l | 3 | 0.2 | 1.0 | 0.7 ± 0.5 | — | — | — | — | 4.7 | 2.6 ± 1.6 | Vilaplana et al., 1987 |
+| Dishwashing liquids | E | l | 3 | 0.2 | 1.0 | 0.7 ± 0.5 | — | — | — | 0.9 | 4.7 | 2.6 ± 1.6 | Vilaplana et al., 1987 |
 | Dishwashing liquids | I | ? | 6 | 0.0 | 8.5 (footnote 14) | 4.5 ± 3.1 | — | — | — | 0.9 | 7.8 | 2.6 ± 2.4 | Kokelj et al., 1984 |
 | Dishwashing liquids | I | 5/4 | 9 | — | — | — | — | 0.5 | — | 0.00 | 7.8 | 1.6 ± 2.4 | Nava et al., 1987 |
 | Dishwashing liquids | EU | l | 39 | <0.2 | 0.8 | 0.25 ± 0.36 | <0.1 | 0.25 | 0.24 ± 0.36 | <0.2 | 1.4 | 0.36 | Unilever, 1990 |
@@ -81,7 +81,7 @@ Table 6 footnote 8: in the I/Nava et al. 1987 row "additional three outliers of 
 | Cleaners (scouring agents) | D | ? | 4 | — | — | — | — | — | — | 0.15 | 0.58 | — | Weiler & Ruessel, 1986 |
 | Cleaners (scouring agents) | E | ? | 13 | 0 | 1.1 | 0.4 ± 0.4 | — | 0.5 | 0.2 ± 0.2 | — | — | — | Vilaplana et al., 1987 |
 | Cleaners (scouring agents) | F | l | 6 | <0.02 | 0.98 | 0.2 ± 0.4 | — | — | — | 0.8 | 3.2 | 1.7 ± 0.9 | Barriere et al., 1979 |
-| Cleaners (scouring agents) | I | ? | 6 | 0.4 | 10.0 (footnote 16: outlier 0.23 ppm) | 3.1 ± 4.7 | — | <0.25 | — | 0.04 | 10.0 (footnote 15) | 3.6 ± 4.2 | Kokelj et al., 1984; Nava et al., 1987 |
+| Cleaners (scouring agents) | I | ? | 6 | 0.4 | 10.0 (footnote 15 attaches to Ni: outlier 20 ppm; second analysis 14.2 and 0.21 ppm) | 3.1 ± 4.7 | — | <0.25 | — | 0.04 | 10.0 (footnote 16 attaches to Cr per footnote text: 0.23 ppm low outlier) | 3.6 ± 4.2 | Kokelj et al., 1984; Nava et al., 1987 |
 | Cleaners (scouring agents) | EU | ? | 8 | <0.13 | 0.3 | 0.24 | <0.25 | <0.25 | <0.25 | 0.4 | 0.8 | 0.52 | Unilever, 1990 |
 | Bleaches | E | l | 2 | 1.2 | 1.7 | — | 1.1 | 1.4 | — | 0.1 | 0.7 | 0.4 ± 0.3 | Vilaplana et al., 1987 |
 | Bleaches | USA | l | 5 | 0.03 | 0.17 | 0.08 ± 0.05 | — | — | — | <0.1 | <0.3 (footnote 17) | — | Hostynek & Maibach, 1988 |
@@ -89,9 +89,9 @@ Table 6 footnote 8: in the I/Nava et al. 1987 row "additional three outliers of 
 | Textile softener | D | l | 5 | 0.2 | 0.8 | 0.4 ± 0.6 | — | 0 | — | 0.1 | 0.3 | 0.2 | Kalveram & Forck, 1977 |
 | Textile softener | E | l | 1 | — | 0 | — | — | <0.25 | — | — | <0.2 | — | Vilaplana et al., 1987 |
 | Textile softener | EU | l | 2 | <0.2 | <0.2 | <0.2 | — | <0.25 | — | — | <0.2 | — | Unilever, 1990 |
-| Cosmetics (footnote 18) | EU | l | 42 | <1 | <1 | <1 | <1 | <1 | <1 | <1 | 1.2 | <0.1 | Unilever, 1990 |
+| Cosmetics (footnote 18) | EU | l | 42 | <1 | <1 | <1 | <1 | <1 | <1 | 1.0 | 1.2 | <0.1 | Unilever, 1990 |
 | Shampoos | EU | l | 8 | <0.01 | <0.01 | <0.01 | — | <0.01 | — | — | <0.01 | — | Lindemayr, 1984 |
-| Mascaras | EU | l | 2 | 5.6 | 13.7 | 9.7 | 4.5 | 9.0 | 6.8 | 1.0 | 1.7 | 1.4 | Unilever, 1990 |
+| Mascaras | A | — | 2 | 5.6 | 13.7 | 9.7 | 4.5 | 9.0 | 6.8 | 1.0 | 1.7 | 1.4 | Unilever, 1990 |
 
 Table 6 footnote 18 (Cosmetics): "two outliers between 15 and 20 ppm for chromium were found." Footnote 17: "below the detection limit." The Cosmetics row aggregates 42 Unilever products comprising "11 (hand) creams, 6 shampoos, 3 conditioners, 4 toothpastes, 6 stick deos, 6 aerosol deos, 3 roll on deos, 1 facial wash, 1 liquid soap, 1 hair dye, 1 nail varnish, 1 lipstick" per footnote 18.
 
@@ -128,7 +128,7 @@ The report also reviews the dermatology literature on ACD epidemiology (Tables 1
 
 - The compiled mean concentrations of Ni, Co and Cr in modern (1985-1990) European consumer products are typically <1-5 ppm per metal, with the highest values seen in cosmetics-class outliers (mascaras at ~10-14 ppm Ni and 4.5-9 ppm Co) and a single Belgian bleach historical outlier (83 ppm Cr in "Eau de Javel" pre-1976, since reformulated).
 - The minimum eliciting concentration of ~1 ppm under standardised 48-hour occluded patch testing means trace levels in modern consumer products *can* elicit reactions in already-sensitised individuals, particularly for leave-on cosmetic categories such as mascara and lipstick where in-use dilution does not apply and contact is prolonged. ECETOC's dilution-and-occlusion arguments for rinse-off detergents (0.05 ppm Ni at-skin from 5 ppm in 1% detergent solution) do not extend to leave-on products. The report acknowledges this exception (Section 6, p. 33: "where significant levels of transition metal do occur in such products, problems may be expected, as has occurred with eyeshadow and mascara").
-- The ≤1 ppm ultimate-target benchmark articulated here is the consumer-product analogue of the Danish 0.5 µg/cm²/week skin-contact metal-release limit (the basis of EU Directive 94/27/EC). Both reflect the ~1 ppm patch-test eliciting threshold from the same dermatology literature.
+- ECETOC frames its ≤1 ppm ultimate-target benchmark for finished consumer products as analogous in intent to the Danish 0.5 µg/cm²/week skin-contact metal-release limit (the basis of the then-pending EU Directive 94/27/EC). The two limits are not numerically equivalent — they regulate concentration in a bulk product and release rate from a metal surface respectively — but ECETOC argues both derive from the same patch-test dermatology literature anchoring an elicitation threshold around ~1 ppm under standardised occluded patch conditions. The wiki treats this as ECETOC's framing rather than independently verified equivalence.
 - The report's framing — that consumer products are "not an important source" of Ni/Co/Cr contact and that regulatory attention should shift to jewellery and metal objects — is an industry-Task-Force advocacy position rather than a neutral toxicological conclusion. The underlying analytical data (Table 6) support that conclusion for rinse-off detergents but do not unambiguously support it for leave-on cosmetic categories or for the small subset of products with outlier Ni or Cr concentrations.
 - For HMI synthesis purposes, the analytical data in Table 6 provide a pre-1992 European baseline for Ni/Co/Cr in personal-care and household-cleaning products. Modern (post-2010) studies (e.g., Bocca et al., Gnonsoro et al., JETIR 2020, Jang 2024 in the corpus) provide the current view. Note that ECETOC TR 045 reports total Cr; Cr⁶⁺ is the toxicologically relevant species for ACD elicitation and for HMTc analyte vocabulary.
 - The report does not address ingestion exposure, infant or child populations specifically, or co-exposure with food. It is exclusively a dermal-contact ACD risk assessment for the adult general population.
@@ -177,10 +177,23 @@ The report also reviews the dermatology literature on ACD epidemiology (Tables 1
 - [[products/deodorants]] — 6 stick + 6 aerosol + 3 roll-on Unilever deodorants.
 - [[products/toothpaste]] — 4 Unilever toothpastes in the cosmetics aggregate.
 - [[products/lipstick]] — 1 Unilever lipstick in the cosmetics aggregate.
-- [[products/eye-makeup]] — 2 Unilever mascaras with elevated Ni (9.7 ppm mean) and Co (6.8 ppm mean).
+- [[products/eye-makeup]] — 2 mascaras (Unilever industry dataset, 1990; Austrian-market sampling) with elevated Ni (9.7 ppm mean) and Co (6.8 ppm mean) relative to other consumer-product categories in Table 6.
 - [[products/makeup-foundation-powders-blush]] — discussed in §6 ("eyeshadow and mascara" exception to rinse-off dilution argument).
 - [[products/manicuring-preparations-leave-on]] — 1 Unilever nail varnish in the cosmetics aggregate.
 - [[products/permanent-hair-dyes-tints]] — 1 Unilever hair dye in the cosmetics aggregate.
 - [[products/leave-on-hair-preparations]] — leave-on hair products discussed.
 - [[products/household-specialty-cleaners-other]] — hard-surface cleaner with disputed 77 ppm Ni outlier (Italian market, Nava et al. 1987).
 - [[regulations/eu-nickel-directive-94-27-ec]] — the 0.5 µg/cm²/week skin-contact metal-release limit foreshadowed in this report (Section 5, p. 30: "The EC (1991) is preparing a similar Directive").
+
+## Verification notes
+
+- Audit subagent (2026-06-02) flagged D/Mueller 1985 (n=19) detergent row Cr max as 0.6; verified against PDF p. 48 — Cr max for that row is **0.4** (mean 0.4±0.2). The 0.6 Cr max belongs to the *second* Mueller 1985 row (D 10/2, n=12), which is correctly transcribed. Finding was a false positive; no change applied.
+- Audit subagent (2026-06-02) flagged I/Kokelj 1984 detergent row sample size as n=1; verified against PDF p. 48 — n is **7** (a row with n=1 cannot have a mean±SD). Corrected to n=7.
+- Audit subagent (2026-06-02) flagged conflation of Feuerman 1971 Cr outlier 21.4 ppm (footnote 11) with Nava 1987 Ni 77 ppm hard-surface-cleaner outlier (Comment to Table 6, p. 51); verified against PDF — these are separate outliers from separate studies and metals. Corrected the footnote-11 annotation and rewrote the Table 6 footnote summary to keep the two outlier sets distinct.
+- Audit subagent (2026-06-02) flagged Dishwashing/E/Vilaplana 1987 Cr min as missing (—); verified against PDF p. 49 — Cr min is **0.9** (mean 2.6±1.6, max 4.7). Corrected.
+- Audit subagent (2026-06-02) flagged Mascaras row country code as A (Austria), not EU; verified against PDF p. 49 — country code is indeed **A** with blank p/l column. Corrected.
+- Audit subagent (2026-06-02) flagged Cosmetics row Cr min as 1.0, not <1; verified against PDF p. 49 — printed value is **1.0** without the "<" prefix (the Ni and Co columns clearly carry "<1"). Corrected. Note that mean Cr <0.1 with min 1.0 and max 1.2 is internally surprising but matches the printed table; the two between-15-and-20-ppm Cr outliers in footnote 18 are excluded.
+- Audit subagent (2026-06-02) flagged footnote 16 attribution to Ni column in Kokelj+Nava cleaners row; verified against PDF p. 50 — footnote 16 text reads "additional two outliers of the same product 0.23 ppm Cr were found", which is a Cr-column outlier. The printed table marker placement is ambiguous; corrected the wiki annotation to attribute footnote 16 to the Cr column per the footnote text, with footnote 15 (Ni outlier) attached to the Ni column.
+- Audit subagent (2026-06-02) flagged Implications #3 (Danish 0.5 µg/cm²/week vs ECETOC ≤1 ppm parallel) as asserting equivalence in wiki voice; verified that ECETOC's own framing in Section 5 / Section 7 is what supports the parallel and the two limits are not numerically equivalent. Rewrote the bullet to attribute the parallel to ECETOC's framing and note that the wiki has not independently verified equivalence.
+- Audit subagent (2026-06-02) flagged Mascaras "2 Unilever mascaras" phrasing as borderline brand-attribution; tightened to "2 mascaras (Unilever industry dataset, 1990; Austrian-market sampling)" to make the data-source-attribution framing unambiguous per Part 12 firewall.
+- Audit also flagged ACD prevalence anchors (Moeller 1990 "one in four women" Swedish quote; cobalt and chromium prevalence trend characterisations) as unverified from the pages re-checked. These remain in the wiki as paraphrases of the ECETOC report's own narrative summary in Section 3.2.2.4 and Tables 1-2; the quantitative figures are sourced from the cohort-by-cohort rows of Tables 1-2 rather than from a single quote and are not the primary contribution of this source page to HMI (the contamination-data tables are). Flagging for future fact-check pass without altering the paraphrase.
