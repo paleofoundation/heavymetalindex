@@ -309,3 +309,13 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FDA_TDS_FY2018-2020_Elements_Report.pdf`: byte-identical duplicate of canonical FDA TDS FY2018-FY2020 Elements report (cite-key fda-tds-elements-2018-2020); 05_Snacks copy recorded in canonical page's new duplicate_filesystem_copies block (commit c6f2117) and stop note appended (commit d851638)
+
+## Tick 2026-06-02T06:33:01.164Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/FSANZ_25th_Australian_Total_Diet_Study.pdf`: byte-identical to fsanz2019-25th-australian-total-diet-study

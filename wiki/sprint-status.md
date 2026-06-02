@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-02T06:29:24.508Z
+updated: 2026-06-02T06:37:36.131Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -28,14 +28,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 2347 min ago (stale) |
-| auto-fetched/ PDFs in queue | 3 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 2355 min ago (stale) |
+| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
-| Wishlist: total downloaded historically | 0 |
-| Wishlist: total ingested historically | 1 |
-| Repo sync | ⚠️ 1 commit(s) ahead of origin/main |
-| Commits last 1 hour | 17 |
+| Wishlist: total downloaded historically | 17 |
+| Wishlist: total ingested historically | 0 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 19 |
 | Commits last 24 hours | 299 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-622c8f8 3 minutes ago — triage sweep 2026-06-02 09:26: 0 rollups + 9 skips
+7fc69ba 21 seconds ago — triage sweep 2026-06-02 09:37: 0 rollups + 2 skips
 ```
 
 ## How to read this
