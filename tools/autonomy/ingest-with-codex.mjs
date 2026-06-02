@@ -74,9 +74,13 @@ const promptBody = pasteBlockMatch[1].trim()
 console.log(`Prompt body extracted: ${promptBody.length} chars`)
 console.log(`Log will be written to: ${path.relative(repoRoot, logFile)}`)
 
+// Reasoning effort (see the cliArgs note below). Defined here so the dry-run
+// print reflects it accurately.
+const reasoningEffort = args.get("reasoning-effort") ?? process.env.CODEX_REASONING_EFFORT ?? "medium"
+
 if (dryRun) {
   console.log("\nDRY RUN — would spawn:")
-  console.log(`  ${codexBinary} exec --dangerously-bypass-approvals-and-sandbox --skip-git-repo-check -C ${repoRoot} --add-dir ${repoRoot} <prompt via stdin>`)
+  console.log(`  ${codexBinary} exec -c model_reasoning_effort="${reasoningEffort}" --dangerously-bypass-approvals-and-sandbox --skip-git-repo-check -C ${repoRoot} --add-dir ${repoRoot} <prompt via stdin>`)
   console.log("\nPrompt preview (first 200 chars):")
   console.log(promptBody.slice(0, 200) + "...")
   process.exit(0)
@@ -111,7 +115,7 @@ process.on("SIGTERM", () => { releaseLock(); process.exit(1) })
 // config override `-c model_reasoning_effort="…"` (gpt-5.5 levels: low, medium,
 // high, xhigh). Default routine fires to "medium"; reserve xhigh for
 // contradiction/audit fires via --reasoning-effort=xhigh or CODEX_REASONING_EFFORT.
-const reasoningEffort = args.get("reasoning-effort") ?? process.env.CODEX_REASONING_EFFORT ?? "medium"
+// (reasoningEffort is defined above so the dry-run print reflects it.)
 const cliArgs = [
   "exec",
   "-c", `model_reasoning_effort="${reasoningEffort}"`,
