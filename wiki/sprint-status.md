@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-02T19:55:27.318Z
+updated: 2026-06-02T22:18:08.151Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 263 (fresh work for Codex/daemon ingest) |
+| auto-fetched/ PDFs in queue | 265 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 86 (async lane) |
 | Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 19 |
-| Commits last 24 hours | 356 |
+| Commits last 1 hour | 14 |
+| Commits last 24 hours | 367 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-dcb6e12 11 minutes ago — codex fire 2026-06-02 1944 summary
+8d48ed3 44 seconds ago — STOPPED EARLY - no eligible unclaimed auto-fetched PDFs
 ```
 
 ## How to read this
