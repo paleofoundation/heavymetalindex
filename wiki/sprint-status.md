@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-01T23:45:19.344Z
+updated: 2026-06-02T01:33:00.777Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2650 cells done (46.6%)** — 1414 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 69 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 1943 min ago (stale) |
-| auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
+| Daemon heartbeat | ⚠️ 2051 min ago (stale) |
+| auto-fetched/ PDFs in queue | 38 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
-| Wishlist: total downloaded historically | 0 |
-| Wishlist: total ingested historically | 0 |
+| Wishlist: total downloaded historically | 33 |
+| Wishlist: total ingested historically | 2 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 11 |
-| Commits last 24 hours | 302 |
+| Commits last 1 hour | 12 |
+| Commits last 24 hours | 300 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-6376ca3 17 minutes ago — audit-queue: campaignsafecosmetics2016-pretty-scary-2-kids-makeup audited-revised
+f68afae 56 seconds ago — triage sweep 2026-06-02 04:31: 2 rollups + 44 skips
 ```
 
 ## How to read this

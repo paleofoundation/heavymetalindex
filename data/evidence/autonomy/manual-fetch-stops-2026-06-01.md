@@ -607,3 +607,89 @@ Two stacked scope mismatches with HMI:
 **Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
 
 **Recommendation for Karen:** Cluster pattern is now five-paper-confirmed. Remaining members of the June 1 wastewater-remediation set (the four originally listed plus any sibling biosorption / column-sorption / cement-encapsulation papers in the same folder) will hit the same stop on subsequent ticks. Moving the cluster to `raw/_out-of-scope/wastewater-remediation/` continues to be the cheap-and-correct sideline action. The substantive in-scope June 1 papers (mushroom-mercury, milk-metals, olive-oil-metals, cosmetics-Pb/Cd, etc.) continue to drain normally on parallel ticks.
+
+---
+
+## STOP: Association_between_heavy_metals_exposure_cadmium_lead_arsenic_mercury_and.pdf — already clean-ingested + audit-revised
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/05_Other_Categories/Association_between_heavy_metals_exposure_cadmium_lead_arsenic_mercury_and.pdf`
+**Suggested handle:** `KADC_association-between-heavy-metals-exposure-cadmium-`
+**Existing wiki page:** `wiki/sources/ding2023-heavy-metals-asd-meta-analysis.md`
+**Folder:** `manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/05_Other_Categories`
+**Date:** 2026-06-02
+
+### Identity check
+
+DOI grep / handle grep / cite-key grep against `wiki/sources/` resolves to a single existing page:
+
+- `wiki/sources/ding2023-heavy-metals-asd-meta-analysis.md`
+- `cite_key: ding2023-heavy-metals-asd-meta-analysis`
+- `doi: 10.3389/fped.2023.1169733`
+- `raw_handle: MFK_association-between-heavy-metals-exposure-cadmium-`
+- `updated: 2026-05-18` (post the 2026-05-14 merge-enhance cutoff)
+- `raw_path` points to the original Kimi Children Personal Care copy of the same PDF; the corruption-folder copy is a duplicate of the same paper (Ding et al. 2023, Frontiers in Pediatrics, systematic review and meta-analysis of Cd/Pb/As/Hg biomarker levels in autistic children vs healthy controls, 53 studies / 5,054 participants).
+
+### Routing audit state
+
+- `data/evidence/routing_unresolved.csv`: 0 entries for this source.
+- `data/evidence/routing_malformed.csv`: 1 entry, **severity `advisory`** — `products;ingredients` empty. This is the intended state: the page is a biomarker meta-analysis (hair/blood/urine concentrations in autistic vs control children), not a food-occurrence or personal-care contamination paper. The existing page's verification notes already document this: "Products and ingredients are both empty because no food product or ingredient is measured. This source contributes exposure/health-outcomes evidence to the four metal pages only." The advisory is informational and will persist as long as biomarker-only systematic reviews remain in the corpus.
+
+### Skill decision
+
+Per `.claude/skills/ingest-next-manual-fetch-pdf/SKILL.md` Phase 1 step 1:
+
+> Skip PDFs whose existing pages are post-2026-05-14 clean and not in malformed.
+
+The page is post-2026-05-14 clean (updated 2026-05-18) and the malformed.csv entry is advisory-only and reflects an intentional/structural empty (biomarker review outside the food/personal-care product taxonomy), not a defect the merge-enhance path could repair.
+
+Spot-checked the existing page's `## Key numbers` against the PDF before stopping (Ding 2023, pages 1–8 plus Table 2 on page 8):
+
+- Overall pooled SMDs: Cd 0.17 (−0.18, 0.51); Pb 1.16 (0.76, 1.55); As 1.40 (0.75, 2.05); Hg 0.74 (0.44, 1.03). ✅ all match.
+- Heterogeneity I²: Cd 92.1%, Pb 96.7%, As 97.3%, Hg 94.6%. ✅ all match.
+- All Table 2 subgroup rows (region + detection source × four metals) reproduced exactly. ✅
+- Publication bias: Pb Begg's P=0.002 / Egger's P<0.001; Hg Begg's P=0.002 / Egger's P=0.008. ✅ match (the 2026-05-18 audit already corrected the Hg values from an earlier transposition).
+- PRISMA counts: 1,374 records (372/341/645/16), 574 duplicates, 800 screened, 89 retrieved, 53 included, 5,054 participants (2,533 ASD + 2,521 control). ✅
+- Geographic distribution of studies (12 NA / 19 Asia / 20 Europe / 1 Australia / 1 Africa), NOS mean 7.1. ✅
+- Speciation: `metals: [Cd, Pb, tAs, tHg]` is correct — included primary studies predominantly measured total arsenic and total mercury, not iAs/MeHg.
+- Verification notes already document the two paper-internal inconsistencies (the Australia/North America Cd label swap and the section 3.6 "As concentration"/"Hg concentration" typo).
+
+Re-ingesting the duplicate PDF would either (a) write the identical content (waste), or (b) regress the 2026-05-18 audit-revised page including its two prior audit-subagent correction notes. Neither is desirable.
+
+### Recommendation for wrapper
+
+Mark `Association_between_heavy_metals_exposure_cadmium_lead_arsenic_mercury_and.pdf` as already-covered in the Kimi-Agent-Download-Corruption-Issue/babycare_papers/05_Other_Categories sub-drain. Either move it to a `_already-ingested/` sibling folder or add a `.skip` marker so it is not re-picked on the next tick. The wiki has a complete Cochrane-quality page for this paper already.
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.
+
+## STOP: ricketts2020-mercury-skin-lightening-jamaica — already post-2026-05-14 clean
+
+**PDF:** `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/05_Other_Categories/Mercury_Exposure_Associated_with_Use_of_Skin_Lightening_Products_in_Jamaica.pdf`
+
+**Suggested handle:** KADC_mercury-exposure-associated-with-use-of-skin-light
+
+**Existing page:** `wiki/sources/ricketts2020-mercury-skin-lightening-jamaica.md` — `updated: 2026-05-18`, cite-key `ricketts2020-mercury-skin-lightening-jamaica`, raw_handle `kimi-children-personal-care-ricketts2020`.
+
+**Reason for stop:** Identity check on the slug derived from the suggested handle hit a strong match. Reading the existing page confirms it has already been through the full v2.0 manual-fetch ingest pipeline on 2026-05-18: merge-enhance against the PDF, Phase 2 fresh-context audit subagent (verdict REVISE), and Phase 3 audit-finding application. The page already addresses every defect class the v2.0 skill targets:
+
+- Brand-firewall stripping (Idole Lotion / Bio Claire / Caro White / spike-recovery matrix brand identifier removed, category-level summary preserved)
+- Speciation correction (`metals` corrected from `[tHg, MeHg]` to `[tHg]` — both XRF and CVAAS measure total Hg only)
+- Speculative slug removal (`products/skin-lightening-lotion`, `products/skin-lightening-soap`, `regulations/fda-cosmetic-mercury-1ppm` removed; routing consolidated to retired `products/skin-lightening-cream` → `advisory/skin-lightening-products`)
+- All five source tables transcribed (Tables 2, 3, 4, 5 plus user-survey numbers)
+- Wiki/HMTc firewall observed in Implications section (no threshold-proposing language)
+- License corrected to CC BY 3.0 per PDF copyright page
+- Source's own internal inconsistency on the panel maximum (17,547 / 17,345 / "up to 17,000") documented in Verification notes rather than silently reconciled
+
+**Routing malformed status:** `data/evidence/routing_malformed.csv` lists this source at severity=advisory with `missing_advisory: ingredients`. The empty `ingredients: []` is intentional and correct — skin-lightening products are formulated finished cosmetics with no raw HMI-taxonomy ingredient slugs to declare. The advisory-level malformed flag is the routing layer's expected behavior for cosmetic/personal-care sources, not a defect to fix. This matches the pre-existing advisory backlog noted in the `project_kimi_corruption_drain.md` memory ("malformed=603 is pre-existing advisory backlog").
+
+**Identity checks:**
+- raw_handle `kimi-children-personal-care-ricketts2020` → 1 match (the existing page; correct identity)
+- cite-key `ricketts2020-mercury-skin-lightening-jamaica` → 1 match (same page)
+- DOI grep: source has no assigned DOI (`no_doi_assigned: true`); reference 11 in the source carries DOI `10.5696/2156-9614-5-9.33` suggesting an analogous pattern may exist for the present paper but cross-vendor DOI verification remains deferred (documented in the page's Verification notes)
+
+Re-ingesting would either (a) regenerate the same content (waste) or (b) regress the 2026-05-18 audit-revised page including its two prior audit-subagent correction notes (the Table 5 17,345 transcription fix and the Implications-section governance-state rewrite). Neither is desirable.
+
+### Recommendation for wrapper
+
+Mark `Mercury_Exposure_Associated_with_Use_of_Skin_Lightening_Products_in_Jamaica.pdf` as already-covered in the Kimi-Agent-Download-Corruption-Issue/babycare_papers/05_Other_Categories sub-drain. Either move it to a `_already-ingested/` sibling folder or add a `.skip` marker so it is not re-picked on the next tick. The advisory-level `routing_malformed.csv` entry for empty `ingredients` is correct (finished cosmetic, no raw ingredient slugs apply) and should not trigger re-ingest.
+
+**Action taken:** No ingest. No commits. No audit queue append. No frontmatter edits. Wrapper proceeds to next PDF.

@@ -999,3 +999,53 @@
 
 ### Succeeded
 - `campaignsafecosmetics2016-pretty-scary-2-kids-makeup` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/02_Regulatory_Reports/REG-025_CampaignSafeCosmetics_2016_Pretty_Scary_2_Kids_Makeup.pdf)
+
+## Tick 2026-06-01T23:44:23.103Z
+
+- Candidates this tick: 1
+- Succeeded: 1
+- Stopped (need Karen): 0
+- Failed: 0
+
+### Succeeded
+- `chengappa2025-toothpaste-systematic-review` (raw/Manual Fetch Kimi /June 1 Infant cosmetics metals papers/03_Contamination_Data/CONT-011_Chengappa_2025_Heavy_Metals_Toothpaste_SystematicReview.pdf)
+
+## Tick 2026-06-01T23:55:04.009Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Survey_of_Chemical_Substances_in_Consumer_Products_No_88_-_A_survey_and_health.pdf`: byte-identical to poulsen2007-cosmetic-products-children-denmark
+
+## Tick 2026-06-01T23:55:10.149Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/04_Shampoo_Wipes_Sunscreen/Survey_of_cosmetics_for_arsenic_cadmium_chromium_cobalt_lead_mercury_and_n.pdf`: byte-identical to hepp2014-fda-cosmetics-seven-elements
+
+## Tick 2026-06-01T23:55:15.888Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/05_Other_Categories/Association_between_heavy_metals_exposure_cadmium_lead_arsenic_mercury_and.pdf`: KADC_association-between-heavy-metals-exposure-cadmium- (already clean-ingested as ding2023-heavy-metals-asd-meta-analysis)
+
+## Tick 2026-06-01T23:59:30.065Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 1
+- Failed: 0
+
+### Stopped — needs specific information (not blanket approval)
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/babycare_papers/05_Other_Categories/Mercury_Exposure_Associated_with_Use_of_Skin_Lightening_Products_in_Jamaica.pdf`: ricketts2020-mercury-skin-lightening-jamaica already post-2026-05-14 clean (updated 2026-05-18 with merge-enhance + Phase 2 audit applied); routing_malformed entry is severity=advisory only (empty `ingredients` is correct for a finished-cosmetic source)
