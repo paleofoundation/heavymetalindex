@@ -104,8 +104,17 @@ process.on("SIGINT", () => { releaseLock(); process.exit(1) })
 process.on("SIGTERM", () => { releaseLock(); process.exit(1) })
 
 // ─── Spawn Codex ──────────────────────────────────────────────────────
+// Reasoning effort: Karen's ~/.codex/config.toml defaults to "xhigh", so
+// UNATTENDED fires were inheriting xhigh — deep-reasoning every routine ingest,
+// producing ~25k-line sprints that died at the 18-min timeout with ~1 page/6h.
+// Codex confirmed `codex exec` has no --reasoning-effort flag but accepts the
+// config override `-c model_reasoning_effort="…"` (gpt-5.5 levels: low, medium,
+// high, xhigh). Default routine fires to "medium"; reserve xhigh for
+// contradiction/audit fires via --reasoning-effort=xhigh or CODEX_REASONING_EFFORT.
+const reasoningEffort = args.get("reasoning-effort") ?? process.env.CODEX_REASONING_EFFORT ?? "medium"
 const cliArgs = [
   "exec",
+  "-c", `model_reasoning_effort="${reasoningEffort}"`,
   "--dangerously-bypass-approvals-and-sandbox",
   "--skip-git-repo-check",
   "-C", repoRoot,
