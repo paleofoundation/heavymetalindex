@@ -339,3 +339,13 @@
 
 ### Stopped — needs specific information (not blanket approval)
 - `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/HongKong_CFS_1st_HKTDS_Metallic_Contaminants.pdf`: cfs2013-hktds-metallic-contaminants — byte-identical duplicate of already-ingested canonical page (sha256 `f87da014…`, updated 2026-05-20→2026-06-02 via metadata-only `duplicate_filesystem_copies` enhancement, commit `1e52d64`); fourth Kimi-folder duplicate today in `condiments2_papers/05_Snacks_Canned_Prepared`.
+
+## Tick 2026-06-02T07:05:18.317Z
+
+- Candidates this tick: 1
+- Succeeded: 0
+- Stopped (need Karen): 0
+- Failed: 1
+
+### Failed
+- `raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/HongKong_Guidelines_Metallic_Contamination.pdf`: exit 1: 

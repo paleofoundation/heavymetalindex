@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-02T07:03:39.972Z
+updated: 2026-06-02T07:26:58.837Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -11,7 +11,7 @@ _Auto-regenerated every daemon tick. Open in Obsidian for the live view._
 
 **1236 / 2660 cells done (46.5%)** — 1424 remaining
 
-Velocity: (insufficient history; need 1+ hour of dashboard runs)
+Velocity: **+0 cells in the last 51 min**
 
 ## Cell state distribution
 
@@ -28,15 +28,15 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 
 | Component | State |
 |---|---|
-| Daemon heartbeat | ⚠️ 2381 min ago (stale) |
+| Daemon heartbeat | ⚠️ 2405 min ago (stale) |
 | auto-fetched/ PDFs in queue | 0 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
 | Audit queue: pending-audit-spawn-failed | 85 (async lane) |
 | Wishlist: total downloaded historically | 17 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
-| Commits last 1 hour | 15 |
-| Commits last 24 hours | 297 |
+| Repo sync | ✅ synced |
+| Commits last 1 hour | 8 |
+| Commits last 24 hours | 295 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-1e52d64 20 seconds ago — ingest: cfs2013-hktds-metallic-contaminants duplicate_filesystem_copies path from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared
+566c7b2 22 minutes ago — codex sprint 2026-06-02 10:03: end-of-fire cleanup
 ```
 
 ## How to read this
