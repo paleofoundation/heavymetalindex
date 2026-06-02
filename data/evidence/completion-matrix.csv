@@ -239,16 +239,6 @@ bread,Al,missing,null,0,,10,10,0
 bread,Cr,missing,null,0,,10,10,0
 bread,Sn,missing,null,0,,10,10,0
 bread,U,missing,null,0,,10,10,0
-breast milk,Pb,missing,null,0,,10,10,0
-breast milk,Cd,missing,null,0,,10,10,0
-breast milk,iAs,missing,null,0,,10,10,0
-breast milk,tAs,missing,null,0,,10,10,0
-breast milk,tHg,missing,null,0,,10,10,0
-breast milk,Ni,missing,null,0,,10,10,0
-breast milk,Al,missing,null,0,,10,10,0
-breast milk,Cr,missing,null,0,,10,10,0
-breast milk,Sn,missing,null,0,,10,10,0
-breast milk,U,missing,null,0,,10,10,0
 breastmilk,Pb,populated,medium,10,2026-05-16,10,0,0
 breastmilk,Cd,populated,medium,9,2026-05-16,10,1,0
 breastmilk,iAs,populated,null,0,2026-05-16,10,10,0
@@ -399,16 +389,6 @@ carrot,Al,populated,medium,1,2026-05-13,10,9,0
 carrot,Cr,populated,null,0,2026-05-16,10,10,0
 carrot,Sn,populated,medium,1,2026-05-13,10,9,0
 carrot,U,populated,null,0,2026-05-12,10,10,0
-carrots,Pb,missing,null,0,,10,10,0
-carrots,Cd,missing,null,0,,10,10,0
-carrots,iAs,missing,null,0,,10,10,0
-carrots,tAs,missing,null,0,,10,10,0
-carrots,tHg,missing,null,0,,10,10,0
-carrots,Ni,missing,null,0,,10,10,0
-carrots,Al,missing,null,0,,10,10,0
-carrots,Cr,missing,null,0,,10,10,0
-carrots,Sn,missing,null,0,,10,10,0
-carrots,U,missing,null,0,,10,10,0
 casein,Pb,pending,null,0,null,10,10,0
 casein,Cd,pending,null,0,null,10,10,0
 casein,iAs,pending,null,0,null,10,10,0
@@ -419,16 +399,6 @@ casein,Al,pending,null,0,null,10,10,0
 casein,Cr,missing,null,0,,10,10,0
 casein,Sn,pending,null,0,null,10,10,0
 casein,U,missing,null,0,,10,10,0
-cashew-nuts,Pb,missing,null,0,,10,10,0
-cashew-nuts,Cd,missing,null,0,,10,10,0
-cashew-nuts,iAs,missing,null,0,,10,10,0
-cashew-nuts,tAs,missing,null,0,,10,10,0
-cashew-nuts,tHg,missing,null,0,,10,10,0
-cashew-nuts,Ni,missing,null,0,,10,10,0
-cashew-nuts,Al,missing,null,0,,10,10,0
-cashew-nuts,Cr,missing,null,0,,10,10,0
-cashew-nuts,Sn,missing,null,0,,10,10,0
-cashew-nuts,U,missing,null,0,,10,10,0
 cashews,Pb,missing,null,0,,10,10,0
 cashews,Cd,missing,null,0,,10,10,0
 cashews,iAs,missing,null,0,,10,10,0
@@ -559,6 +529,16 @@ chili-con-carne-with-beans,Al,populated,null,0,2026-05-12,10,10,0
 chili-con-carne-with-beans,Cr,populated,low,2,2026-05-13,10,8,0
 chili-con-carne-with-beans,Sn,populated,null,0,2026-05-12,10,10,0
 chili-con-carne-with-beans,U,populated,low,2,2026-05-13,10,8,0
+chitosan,Pb,pending,null,0,null,10,10,0
+chitosan,Cd,pending,null,0,null,10,10,0
+chitosan,iAs,pending,null,0,null,10,10,0
+chitosan,tAs,pending,null,0,null,10,10,0
+chitosan,tHg,pending,null,0,null,10,10,0
+chitosan,Ni,pending,null,0,null,10,10,0
+chitosan,Al,pending,null,0,null,10,10,0
+chitosan,Cr,missing,null,0,,10,10,0
+chitosan,Sn,pending,null,0,null,10,10,0
+chitosan,U,missing,null,0,,10,10,0
 chocolate-cake,Pb,populated,high,2,2026-05-13,10,8,0
 chocolate-cake,Cd,populated,high,2,2026-05-13,10,8,0
 chocolate-cake,iAs,populated,null,0,2026-05-12,10,10,0
@@ -749,16 +729,6 @@ cucumber,Al,populated,medium,1,2026-05-13,10,9,0
 cucumber,Cr,populated,high,3,2026-05-13,10,7,0
 cucumber,Sn,populated,medium,1,2026-05-13,10,9,0
 cucumber,U,populated,high,2,2026-05-13,10,8,0
-cucumbers,Pb,missing,null,0,,10,10,0
-cucumbers,Cd,missing,null,0,,10,10,0
-cucumbers,iAs,missing,null,0,,10,10,0
-cucumbers,tAs,missing,null,0,,10,10,0
-cucumbers,tHg,missing,null,0,,10,10,0
-cucumbers,Ni,missing,null,0,,10,10,0
-cucumbers,Al,missing,null,0,,10,10,0
-cucumbers,Cr,missing,null,0,,10,10,0
-cucumbers,Sn,missing,null,0,,10,10,0
-cucumbers,U,missing,null,0,,10,10,0
 cumin,Pb,pending,null,0,null,10,10,0
 cumin,Cd,pending,null,0,null,10,10,0
 cumin,iAs,pending,null,0,null,10,10,0
@@ -889,16 +859,6 @@ flour-tortilla,Al,populated,null,0,2026-05-12,10,10,0
 flour-tortilla,Cr,populated,high,2,2026-05-13,10,8,0
 flour-tortilla,Sn,populated,null,0,2026-05-12,10,10,0
 flour-tortilla,U,populated,high,2,2026-05-13,10,8,0
-formula,Pb,pending,null,0,null,10,10,0
-formula,Cd,pending,null,0,null,10,10,0
-formula,iAs,pending,null,0,null,10,10,0
-formula,tAs,pending,null,0,null,10,10,0
-formula,tHg,pending,null,0,null,10,10,0
-formula,Ni,pending,null,0,null,10,10,0
-formula,Al,pending,null,0,null,10,10,0
-formula,Cr,missing,null,0,,10,10,0
-formula,Sn,pending,null,0,null,10,10,0
-formula,U,missing,null,0,,10,10,0
 frankfurter,Pb,populated,medium,2,2026-05-13,10,8,0
 frankfurter,Cd,populated,medium,2,2026-05-13,10,8,0
 frankfurter,iAs,populated,null,0,2026-05-12,10,10,0
@@ -999,16 +959,6 @@ fruit,Al,missing,null,0,,10,10,0
 fruit,Cr,missing,null,0,,10,10,0
 fruit,Sn,missing,null,0,,10,10,0
 fruit,U,missing,null,0,,10,10,0
-fruits,Pb,missing,null,0,,10,10,0
-fruits,Cd,missing,null,0,,10,10,0
-fruits,iAs,missing,null,0,,10,10,0
-fruits,tAs,missing,null,0,,10,10,0
-fruits,tHg,missing,null,0,,10,10,0
-fruits,Ni,missing,null,0,,10,10,0
-fruits,Al,missing,null,0,,10,10,0
-fruits,Cr,missing,null,0,,10,10,0
-fruits,Sn,missing,null,0,,10,10,0
-fruits,U,missing,null,0,,10,10,0
 grape-juice,Pb,populated,null,0,2026-05-16,10,10,0
 grape-juice,Cd,populated,null,0,2026-05-16,10,10,0
 grape-juice,iAs,populated,null,0,2026-05-16,10,10,0
@@ -1149,16 +1099,6 @@ honey,Al,populated,low,3,2026-05-16,10,7,0
 honey,Cr,populated,medium,6,2026-05-16,10,4,0
 honey,Sn,populated,null,0,2026-05-12,10,10,0
 honey,U,populated,low,2,2026-05-13,10,8,0
-human-milk,Pb,pending,null,0,null,10,10,0
-human-milk,Cd,pending,null,0,null,10,10,0
-human-milk,iAs,pending,null,0,null,10,10,0
-human-milk,tAs,pending,null,0,null,10,10,0
-human-milk,tHg,pending,null,0,null,10,10,0
-human-milk,Ni,pending,null,0,null,10,10,0
-human-milk,Al,pending,null,0,null,10,10,0
-human-milk,Cr,missing,null,0,,10,10,0
-human-milk,Sn,pending,null,0,null,10,10,0
-human-milk,U,missing,null,0,,10,10,0
 iceberg-lettuce,Pb,populated,high,2,2026-05-13,10,8,0
 iceberg-lettuce,Cd,populated,high,2,2026-05-13,10,8,0
 iceberg-lettuce,iAs,populated,null,0,2026-05-12,10,10,0
@@ -1169,16 +1109,6 @@ iceberg-lettuce,Al,populated,null,0,2026-05-12,10,10,0
 iceberg-lettuce,Cr,populated,high,2,2026-05-13,10,8,0
 iceberg-lettuce,Sn,populated,null,0,2026-05-12,10,10,0
 iceberg-lettuce,U,populated,high,2,2026-05-13,10,8,0
-infant formula,Pb,missing,null,0,,10,10,0
-infant formula,Cd,missing,null,0,,10,10,0
-infant formula,iAs,missing,null,0,,10,10,0
-infant formula,tAs,missing,null,0,,10,10,0
-infant formula,tHg,missing,null,0,,10,10,0
-infant formula,Ni,missing,null,0,,10,10,0
-infant formula,Al,missing,null,0,,10,10,0
-infant formula,Cr,missing,null,0,,10,10,0
-infant formula,Sn,missing,null,0,,10,10,0
-infant formula,U,missing,null,0,,10,10,0
 infant-cereal-ingredients,Pb,missing,null,0,,10,10,0
 infant-cereal-ingredients,Cd,missing,null,0,,10,10,0
 infant-cereal-ingredients,iAs,missing,null,0,,10,10,0
@@ -1369,16 +1299,6 @@ macaroni-and-cheese,Al,populated,null,0,2026-05-12,10,10,0
 macaroni-and-cheese,Cr,populated,low,2,2026-05-13,10,8,0
 macaroni-and-cheese,Sn,populated,null,0,2026-05-12,10,10,0
 macaroni-and-cheese,U,populated,low,2,2026-05-13,10,8,0
-maize,Pb,missing,null,0,,10,10,0
-maize,Cd,missing,null,0,,10,10,0
-maize,iAs,missing,null,0,,10,10,0
-maize,tAs,missing,null,0,,10,10,0
-maize,tHg,missing,null,0,,10,10,0
-maize,Ni,missing,null,0,,10,10,0
-maize,Al,missing,null,0,,10,10,0
-maize,Cr,missing,null,0,,10,10,0
-maize,Sn,missing,null,0,,10,10,0
-maize,U,missing,null,0,,10,10,0
 mango-juice,Pb,missing,null,0,,10,10,0
 mango-juice,Cd,missing,null,0,,10,10,0
 mango-juice,iAs,missing,null,0,,10,10,0
@@ -1459,16 +1379,6 @@ meat-and-poultry,Al,missing,null,0,,10,10,0
 meat-and-poultry,Cr,missing,null,0,,10,10,0
 meat-and-poultry,Sn,missing,null,0,,10,10,0
 meat-and-poultry,U,missing,null,0,,10,10,0
-meat-poultry,Pb,pending,null,0,null,10,10,0
-meat-poultry,Cd,pending,null,0,null,10,10,0
-meat-poultry,iAs,pending,null,0,null,10,10,0
-meat-poultry,tAs,pending,null,0,null,10,10,0
-meat-poultry,tHg,pending,null,0,null,10,10,0
-meat-poultry,Ni,pending,null,0,null,10,10,0
-meat-poultry,Al,pending,null,0,null,10,10,0
-meat-poultry,Cr,missing,null,0,,10,10,0
-meat-poultry,Sn,pending,null,0,null,10,10,0
-meat-poultry,U,missing,null,0,,10,10,0
 meat,Pb,populated,high,15,2026-05-16,10,0,0
 meat,Cd,populated,high,15,2026-05-16,10,0,0
 meat,iAs,populated,medium,6,2026-05-16,10,4,0
@@ -1789,16 +1699,6 @@ peach,Al,populated,null,0,2026-05-12,10,10,0
 peach,Cr,populated,high,2,2026-05-13,10,8,0
 peach,Sn,populated,null,0,2026-05-12,10,10,0
 peach,U,populated,high,2,2026-05-13,10,8,0
-peaches,Pb,populated,low,1,2026-05-13,10,9,0
-peaches,Cd,populated,high,1,2026-05-13,10,9,0
-peaches,iAs,populated,null,0,2026-05-16,10,10,0
-peaches,tAs,populated,null,0,2026-05-12,10,10,0
-peaches,tHg,populated,high,1,2026-05-13,10,9,0
-peaches,Ni,populated,null,0,2026-05-16,10,10,0
-peaches,Al,populated,low,1,2026-05-13,10,9,0
-peaches,Cr,populated,null,0,2026-05-16,10,10,0
-peaches,Sn,populated,low,1,2026-05-13,10,9,0
-peaches,U,populated,null,0,2026-05-12,10,10,0
 peanut-butter,Pb,populated,low,2,2026-05-13,10,8,0
 peanut-butter,Cd,populated,low,2,2026-05-13,10,8,0
 peanut-butter,iAs,populated,low,2,2026-05-16,10,8,0
@@ -1849,16 +1749,6 @@ pear,Al,populated,null,0,2026-05-12,10,10,0
 pear,Cr,populated,high,2,2026-05-13,10,8,0
 pear,Sn,populated,null,0,2026-05-12,10,10,0
 pear,U,populated,high,2,2026-05-13,10,8,0
-pears,Pb,populated,medium,1,2026-05-13,10,9,0
-pears,Cd,populated,medium,1,2026-05-13,10,9,0
-pears,iAs,populated,low,1,2026-05-13,10,9,0
-pears,tAs,populated,null,0,2026-05-12,10,10,0
-pears,tHg,populated,high,1,2026-05-13,10,9,0
-pears,Ni,populated,null,0,2026-05-16,10,10,0
-pears,Al,populated,medium,1,2026-05-13,10,9,0
-pears,Cr,populated,null,0,2026-05-16,10,10,0
-pears,Sn,populated,medium,1,2026-05-13,10,9,0
-pears,U,populated,null,0,2026-05-12,10,10,0
 pineapple,Pb,pending,null,0,null,10,10,0
 pineapple,Cd,pending,null,0,null,10,10,0
 pineapple,iAs,pending,null,0,null,10,10,0
@@ -2449,16 +2339,6 @@ vegetable-juice,Al,populated,null,0,2026-05-16,10,10,0
 vegetable-juice,Cr,populated,null,0,2026-05-16,10,10,0
 vegetable-juice,Sn,populated,null,0,2026-05-16,10,10,0
 vegetable-juice,U,populated,null,0,2026-05-16,10,10,0
-vegetable-oil,Pb,missing,null,0,,10,10,0
-vegetable-oil,Cd,missing,null,0,,10,10,0
-vegetable-oil,iAs,missing,null,0,,10,10,0
-vegetable-oil,tAs,missing,null,0,,10,10,0
-vegetable-oil,tHg,missing,null,0,,10,10,0
-vegetable-oil,Ni,missing,null,0,,10,10,0
-vegetable-oil,Al,missing,null,0,,10,10,0
-vegetable-oil,Cr,missing,null,0,,10,10,0
-vegetable-oil,Sn,missing,null,0,,10,10,0
-vegetable-oil,U,missing,null,0,,10,10,0
 vegetable-oils,Pb,populated,high,6,2026-05-16,10,4,0
 vegetable-oils,Cd,populated,high,6,2026-05-16,10,4,0
 vegetable-oils,iAs,populated,null,0,2026-05-16,10,10,0
