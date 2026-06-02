@@ -66,7 +66,7 @@ The leaflet's accompanying caption is "The darker the chocolate, the higher the 
 
 ## Methods (brief)
 
-This is a Commission communication, not an empirical study. No analytical method, sampling regime, or LOD/LOQ is specified in the leaflet itself. The cited maximum levels were administratively set in 488/2014 on the basis of the EFSA CONTAM 2009 cadmium opinion (tolerable weekly intake 2,5 µg/kg body weight), Member-State occurrence-monitoring data, and alignment with Codex Alimentarius. The official-control sampling and analysis rules sit in separate Commission implementing regulations, not in the leaflet or in 488/2014.
+This is a Commission communication, not an empirical study. No analytical method, sampling regime, or LOD/LOQ is specified in the leaflet itself. The leaflet's framing of the regulatory basis is brief: it states that the EU "undertook a risk analysis" and that the levels are in line with Codex Alimentarius standards, without citing specific EFSA opinions, TWI values, or occurrence-monitoring datasets by name. The cited maximum levels were administratively set in 488/2014 on the basis of the EFSA CONTAM 2009 cadmium opinion (tolerable weekly intake 2,5 µg/kg body weight), Member-State occurrence-monitoring data, and alignment with Codex Alimentarius — these specific underlying references come from the regulatory-historical record for 488/2014 and EFSA, not from the leaflet itself. The official-control sampling and analysis rules sit in separate Commission implementing regulations, not in the leaflet or in 488/2014.
 
 ## Key numbers
 
@@ -103,6 +103,7 @@ For the EU regulatory-framework timeline page (see [[synthesis/eu-regulatory-fra
 - No HMTc threshold inference or synthesis claim added. The `## Implications` section describes regulatory-context routing for chocolate and cocoa pages, not HMTc threshold proposals.
 - No DOI assigned to the leaflet (Commission consumer-information document, not a peer-reviewed publication). `no_doi_assigned: true` is recorded in frontmatter.
 - The leaflet was likely also issued in other EU languages; only the English version is ingested here.
+- Audit subagent (2026-06-02, fresh-context general-purpose) verdict PROMOTE. Two ⚠️ housekeeping concerns raised: (1) `## Methods (brief)` should more explicitly flag that the EFSA CONTAM 2009 TWI (2,5 µg/kg bw) and Codex-alignment details come from the regulatory-historical record for 488/2014 rather than from the leaflet's own text — applied: a one-clause aside was added clarifying that the leaflet's own framing is the brief "EU undertook a risk analysis / in line with Codex" wording and the specific underlying references are from the regulatory-historical record; (2) `[[synthesis/eu-regulatory-framework-timeline]]` wikilink was flagged as a possible orphan reference because the auditor could not verify it against the closed taxonomy snapshot (which lists only ingredients/products/metals/regulations, not synthesis pages) — verified false positive against `wiki/synthesis/eu-regulatory-framework-timeline.md` (page exists on disk); the synthesis namespace is intentionally out of the taxonomy snapshot's scope and the wikilink is retained.
 
 ## Sources
 
