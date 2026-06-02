@@ -52,7 +52,7 @@ The review tabulates published Cd dietary exposure guidelines based on kidney an
 
 ### Effect of normalization choice on Cd-eGFR association (Tables 3 and 4, p.8-10)
 
-Both tables are reanalyses of data from 917 subjects (562 females, 355 males), aged 16-87 years, drawn from Satarug et al. 2024 [76]. Low eGFR is defined as eGFR <=60 mL/min/1.73 m^2.
+Table 3 (low eGFR per doubling of Cd excretion) is a reanalysis of data from 917 subjects (562 females, 355 males), aged 16-87 years, drawn from Satarug et al. 2024 [76]. Table 4 (low eGFR and proteinuria per 10-fold rise in Cd excretion) is a reanalysis of data from 405 subjects (208 females, 197 males), drawn from Satarug 2024 [80]. Low eGFR is defined as eGFR <=60 mL/min/1.73 m^2.
 
 Table 3 — odds of low eGFR per doubling of Cd excretion under two normalization schemes.
 
@@ -63,7 +63,7 @@ Table 3 — odds of low eGFR per doubling of Cd excretion under two normalizatio
 
 Age categories were strong predictors in both models (POR 14.23 for 46-55 y, 141.2 for 66-87 y in Model A; 9.951 for 46-55 y, 198.6 for 66-87 y in Model B; all p<=0.027). BMI >=24 was associated with POR 2.810 (p=0.028) in Model A and 3.150 (p=0.022) in Model B.
 
-Table 4 — odds of low eGFR and proteinuria per 10-fold rise in Cd excretion. n=405 subjects (208 females, 197 males) from Satarug 2024 [80].
+Table 4 — odds of low eGFR and proteinuria per 10-fold rise in Cd excretion.
 
 | Outcome / Model | Cd metric | POR (95% CI) | p |
 | --- | --- | ---: | ---: |
@@ -152,12 +152,11 @@ Certification: The review provides multiple lines of evidence that current JECFA
 
 Courses: Useful as a recent (2025) reference for the BMD methodology section of any Cd dose-response course module, including the distinction between continuous and quantal BMD modeling, the role of the BMDU/BMDL ratio in characterizing statistical uncertainty, and the comparison of PROAST and BMDS software. It is also a teaching reference for the Ecr-vs-Ccr normalization debate. The breast cancer (Larsson 2015, Lin 2016), prediabetes/diabetes (Schwartz 2003, Wallia 2010, Jiang 2018), and osteoporosis (Kunioka 2022, Wallin 2013) epidemiology summarized in Sections 3.2 and 5 supplies course-grade examples of low-dose Cd effects below the 5.24 microg/g creatinine threshold.
 
-App: This review does not measure foods, so it does not contribute occurrence values to the contamination_profile of any ingredient. It does support vulnerable-population flagging for groups with low iron stores (premenopausal women, adolescent girls, pregnant women) and low zinc intake on Cd-bearing food categories. It also supports the case for tighter Cd thresholds in the I and C (infant and child) product rows where the JECFA TWI is least protective.
+App: This review does not measure foods, so it does not contribute occurrence values to the contamination_profile of any ingredient. It contributes vulnerable-population evidence (children and adolescent females [49,50]; women of reproductive age [51,52]) that low body iron stores are associated with elevated blood and urinary Cd, and it contributes occurrence-of-effect data on tubular and glomerular endpoints relevant to infant-and-child Cd threshold work.
 
 ## Wiki pages this source may touch
 
 - [[metals/cadmium]]
-- [[health/cadmium-developmental-toxicity]]
 - [[regulations/jecfa-cadmium-ptmi]]
 - [[regulations/efsa-cadmium-twi]]
 - [[regulations/epa-iris-cadmium-rfd]]
@@ -174,3 +173,5 @@ All instrument and software vendor names retained in the Methods section fall un
 Multiple cohort datasets are named (Sweden Suwazono 2006 n=790; Jiangshan China Wang 2016 n=934; Japan Hayashi 2024 n=112; Thailand Satarug 2022 n=734; Thailand Satarug 2024 n=405; Switzerland Xie 2024 n=4704; combined n=917 and n=603 reanalyses) but these are review references, not the present paper's primary subjects; `sample_n: null` and the sample_population field documents that this is a review.
 
 The age-category POR values in Table 3 (e.g., 141.2 for the 66-87 y group, 95% CI 17.87-1116) are taken verbatim from the PDF and are extremely wide because the youngest age group (16-45 y) has very few low-eGFR cases. The 95% CIs are wide but the values are as printed.
+
+Fresh-context audit subagent (2026-06-02) returned REVISE verdict; Checks 1 (numerical fidelity, all tabulated values cross-checked against pp.3-15), 3 (speciation/methods), and 4 (Part 12 brand firewall) clean. Findings applied: (a) Table 3/4 framing — verified against PDF p.9 footnote (Table 3 n=917 from [76]) and p.10 footnote (Table 4 n=405 from [80]); the prior overarching sentence "Both tables are reanalyses of data from 917 subjects" was wrong and was rewritten to distinguish the two tables. (b) `[[health/cadmium-developmental-toxicity]]` removed from "Wiki pages this source may touch" — verified that `wiki/health/cadmium-developmental-toxicity.md` does not exist (the sibling chandravanshi2021 review wikilinks the same slug, suggesting the target page should exist but is missing; flagged as a separate issue, not for this page to create). (c) Implications App paragraph — softened "supports the case for tighter Cd thresholds in the I and C product rows" to "contributes occurrence-of-effect data on tubular and glomerular endpoints relevant to infant-and-child Cd threshold work" to stay on the contributes-data side of the Part 2 boundary; replaced "premenopausal women, adolescent girls, pregnant women" with the source-faithful "children and adolescent females [49,50]; women of reproductive age [51,52]" per PDF p.5. Findings retained as flagged (not rejected, not modified): Check 2 ⚠️ on matrices vocabulary (`urine`, `blood`, `kidney`, `bone`, `dietary-intake`, `risk-assessment-methodology`) — the standard matrices vocabulary is scoped to consumer-food matrices; review-type sources extend it to subject-matter matrices, precedented by sibling reviews. Flagged for Karen's confirmation if the matrices vocabulary should be formally extended. Check 5 ⚠️ on Implications Certification paragraph noting HMTc product categories that drive dietary Cd burden — retained because the page stays on "contributes occurrence-of-effect data for category X" wording, the allowed side of the Part 2 boundary.
