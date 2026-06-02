@@ -51,12 +51,12 @@ This study measured cadmium, lead, and zinc in 77 surface soil samples collected
 - Per-metal MPC exceedance: Cd 58/77 (75.32 percent); Pb 46/77 (59.74 percent); Zn 44/77 (57.14 percent).
 - Across the three districts, mean ranges are Cd 4.09-20.94 mg/kg dry mass, Pb 161.70-1027.68 mg/kg dry mass, Zn 577.76-1475.93 mg/kg dry mass.
 
-**Table 7 — Maximum reported per-district per-area-type concentrations (mg/kg dry mass):**
+**Table 7 — Per-district per-area-type mean concentrations and selected maxima (mg/kg dry mass):**
 
-- Highest Cd and Pb playground concentrations were measured in Katowice-Szopienice (Cd mean 7.75 mg/kg; Pb mean 513.67 mg/kg with maximum 4930.10 mg/kg).
-- Highest Zn playground concentration was measured in Piekary Śląskie (mean 1077.80 mg/kg dry mass).
-- The "other" (urban squares, parks, green-area) category in Piekary Śląskie carried the maximum across all categories: Cd 20.94 mg/kg, Pb 1027.68 mg/kg (district mean 463.63 mg/kg), Zn 2859.65 mg/kg dry mass.
-- Sports-field and gym soils in Świętochłowice-Lipiny carried the highest Zn mean for that area type (1598.53 mg/kg dry mass).
+- Highest Cd and Pb playground mean concentrations were measured in Katowice-Szopienice (n=24; Cd x̄ 7.75 mg/kg; Pb x̄ 513.67 mg/kg with maximum 4930.10 mg/kg).
+- Highest Zn playground mean was measured in Piekary Śląskie (n=13; Zn x̄ 1077.80 mg/kg dry mass; maximum 3528.37 mg/kg).
+- The "other" (urban squares, parks, green-area) category in Piekary Śląskie (n=3) carried the highest district-area means: Cd x̄ 20.94 mg/kg (max 27.97), Pb x̄ 1027.68 mg/kg (SD 463.63; max 1594.04), Zn x̄ 2859.65 mg/kg dry mass (max 4159.05).
+- Sports-field and gym soils in Świętochłowice-Lipiny carried the highest Zn mean for that area type (n=3; Zn x̄ 1598.53 mg/kg dry mass).
 
 **Table 8 — Kruskal-Wallis ANOVA across districts and area types (p-values):**
 
@@ -66,7 +66,7 @@ This study measured cadmium, lead, and zinc in 77 surface soil samples collected
 
 - Cd HQ: maximum 0.087 (S3 across all locations) — below 1; no significant Cd risk.
 - Pb HQ: total-samples S3 HQ = 3.029; Katowice S3 HQ = 3.029 (driven by playground maxima at Szopienice; HQ > 3 for preschool ingestion at the worst-case playground). Świętochłowice S3 HQ = 0.522. Piekary Śląskie S3 HQ = 0.979 (close to but below the threshold).
-- Pb scenario S2 (mean) HQ for preschool: range 0.24-0.97 across districts.
+- Pb scenario S2 (mean) HQ for preschool by district (Table 9): Total Samples 0.2372, KT 0.2770, SW 0.1373, PS 0.2849 — none crosses 1; source p. 9 prose paraphrases this as "about half of the reference dose" (the source's claimed "HQ range from 0.2 to 0.56, respectively, in SW-KT" does not match the Table 9 S2 row and appears to mix S2 means with the higher S3 PS value 0.9794; the tabulated S2 values are reported here as authoritative).
 - Zn HQ: maximum 0.034 (S3); no significant Zn risk in any scenario.
 
 **Table 10 — Younger school children (6 to <12 y):**
@@ -84,11 +84,11 @@ This study measured cadmium, lead, and zinc in 77 surface soil samples collected
 - Younger school children: HI(S3) = 1.382 across all locations; HI(S3) = 1.382 at Katowice; HI(S3) ≤ 0.469 at the other two districts.
 - Older school children: HI(S3) maximum 0.258; no scenario crosses the HI = 1 threshold.
 
-**Table 15 — Dermal exposure daily dose (negligible across all age groups):**
+**Table 15 — Dermal exposure daily dose (negligible across all age groups; range spans the per-age-group min to max):**
 
-- Cd: 3.3 to 6.3 × 10⁻⁸ µg/kg/day across age groups.
-- Pb: 1.09 × 10⁻⁸ to 7.72 × 10⁻⁶ µg/kg/day.
-- Zn: 4.65 × 10⁻¹¹ to 7.43 × 10⁻⁹ mg/kg/day.
+- Cd: 2.4 × 10⁻¹⁰ to 6.3 × 10⁻⁸ µg/kg/day (preschool 3.5 × 10⁻¹⁰ to 6.3 × 10⁻⁸; younger school 3.3 × 10⁻¹⁰ to 5.87 × 10⁻⁸; older school 2.4 × 10⁻¹⁰ to 4.2 × 10⁻⁸).
+- Pb: 7.82 × 10⁻⁹ to 7.72 × 10⁻⁶ µg/kg/day (preschool 1.15 × 10⁻⁸ to 7.72 × 10⁻⁶; younger school 1.09 × 10⁻⁸ to 7.19 × 10⁻⁶; older school 7.82 × 10⁻⁹ to 5.17 × 10⁻⁶).
+- Zn: 4.65 × 10⁻¹¹ to 7.43 × 10⁻⁹ mg/kg/day (preschool 6.83 × 10⁻¹¹ to 7.43 × 10⁻⁹; younger school 6.52 × 10⁻¹¹ to 6.92 × 10⁻⁹; older school 4.65 × 10⁻¹¹ to 4.98 × 10⁻⁹).
 - Authors conclude dermal route contributes negligibly to total non-dietary exposure.
 
 **Table 16 — Inhalation exposure from PM10 (National Environmental Monitoring data, Katowice station, 2023 and 2024):**
@@ -139,6 +139,9 @@ EF-3 (Geographic exposure context). This source supplies recreational-soil occur
 - Sampling year range (2023-2024) is inferred from the inhalation-exposure section, which uses 2023 and 2024 National Environmental Monitoring data for the Katowice PM10 monitoring station. The paper was received 12 March 2025, revised 25 April 2025, accepted 2 May 2025, and published 6 May 2025, consistent with sampling completed by early 2024.
 - The paper compares its results with prior studies (Mohammadi 2020 Khayyam industrial zone Iran; Bratislava kindergartens and parks; Yangtze River Delta; Penteado 2021 Rio Grande City urban parks; Zhao 2024 Chenzhou and Hengyang mining areas China; Accra Ghana playgrounds; US EPA TRW residential soil lead action levels). Those cross-study comparisons are summarized in the source as discussion context and are not synthesized into the wiki page per Part 2.
 - One paper-internal note: section 3.1 reports "average contents of Cd, Pb, and Zn in samples taken from recreational areas are in the ranges of 4.09-20.94 mg Cd/kg d.m., 161.70-1027.68 mg Pb/kg d.m., and 577.76-1475.93 mg Zn/kg d.m." These ranges describe the per-district means across the three districts (KT, SW, PS) for the all-samples-in-town aggregation, not the per-sample min-to-max range. The all-samples per-sample min-max from Table 6 is the wider 0.23-40.25 mg Cd/kg / 7.50-4930.10 mg Pb/kg / 43.66-4743.33 mg Zn/kg envelope. Both readings are retained on this page in their correct contexts.
+- Source-internal LOQ contradiction: Section 2.3 prose gives LOQ as 0.18 mg/kg Cd, 15.0 mg/kg Pb, 3.9 mg/kg Zn, while Table 1 lists LOQ as 0.15 mg/kg Cd, 12.68 mg/kg Pb, 3.28 mg/kg Zn. The Table 1 values are reported on this page because the table tabulates them at the same precision as the LOD entries and is the more granular source; the section 2.3 prose appears to be a rounded restatement. The discrepancy is small in absolute terms and does not affect any reported per-sample value (all samples are well above either LOQ).
+- Matrix vocabulary proposal: `urban-soil` is precedented elsewhere in `wiki/sources/`. `recreational-soil` and `playground-soil` are not yet established matrix terms. They are used here as descriptive matrix labels for child-recreational soil sampling and should be considered candidates for the controlled matrices vocabulary, or be collapsed to `urban-soil` alone at the next vocabulary refresh.
+- Audit subagent (2026-06-02) findings applied: (i) Table 15 dermal-dose ranges corrected — Cd lower bound was wrongly typed as 3.3×10⁻⁸ when it should span down to ~2.4×10⁻¹⁰ across age groups; Pb lower bound was wrongly typed as 1.09×10⁻⁸ when it should span down to 7.82×10⁻⁹ (older-school min); verified against PDF Table 15 on page 13. (ii) Table 7 paragraph reframed — the values 20.94 / 1027.68 / 2859.65 in the PS-"other" row are means (x̄), not maxima; the prior wording labeled them "maximum reported" and additionally mislabeled the Pb SD value 463.63 as a "district mean". Verified against PDF Table 7 on page 10. (iii) Preschool Pb S2 HQ range — the prior "0.24-0.97" range conflated the S2 table values (Total 0.2372, KT 0.2770, SW 0.1373, PS 0.2849) with the higher PS S3 value 0.9794 and with a separate paper-prose paraphrase "0.2 to 0.56 in SW-KT" that itself does not exactly match Table 9. The Table 9 S2 values are now reported directly with the paper-prose discrepancy noted. (iv) Source-internal LOQ contradiction and matrix-vocabulary proposal documented above.
 
 ## Wiki pages updated on ingest
 
