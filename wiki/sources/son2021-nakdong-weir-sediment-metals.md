@@ -124,7 +124,7 @@ Sediment cores were collected by an experienced diver using an acrylic core (5 c
 
 Aqua regia extraction (Section 2.4) used 1 g dried sediment with 10 mL aqua regia (HCl:HNO3, 3:1), heated first at 40 degrees C for 1 h and then at 140 degrees C for 4 h. Each sample was duplicated. Extracts were vacuum-filtered and diluted to 100 mL.
 
-Sequential extraction used the modified Tessier method (Section 2.5): exchangeable ions in 1 M MgCl2 at pH 7 for 1 h; carbonates in 1 M CH3COOH at pH 5 for 5 h; iron-manganese oxides in 0.04 M NH2OH.HCl in 25% CH3COOH at 95 degrees C; sulfides and organics in 0.02 M HNO3 + 30% H2O2 at 85 degrees C followed by CH3COONH4 in 20% HNO3 at room temperature; residuals in 10 mL aqua regia at 40 degrees C for 1 h then 140 degrees C for 4 h. The fifth step used aqua regia rather than perchloric or hydrofluoric acid to enable direct comparison with the aqua regia totals. Effluents were filtered through Whatman 40 paper, diluted to 100 mL, and analyzed by the same ICP-OES instrument as the aqua regia totals.
+Sequential extraction used the modified Tessier method (Section 2.5): exchangeable ions in 1 M MgCl2 adjusted to pH 7 with CH3COOH for 1 h at room temperature; carbonates in 1 M CH3COONa adjusted to pH 5 with CH3COOH for 5 h at room temperature; iron-manganese oxides in 0.04 M NH2OH.HCl in 25% CH3COOH at 95 degrees C; sulfides and organics in 0.02 M HNO3 + 30% H2O2 at 85 degrees C followed by 3.2 M CH3COONH4 in 20% HNO3 at room temperature; residuals in 10 mL aqua regia at 40 degrees C for 1 h then 140 degrees C for 4 h. The fifth step used aqua regia rather than perchloric or hydrofluoric acid to enable direct comparison with the aqua regia totals. Effluents were filtered through Whatman 40 paper, diluted to 100 mL, and analyzed by the same ICP-OES instrument as the aqua regia totals.
 
 Extracted Cu, Zn, and Pb were measured by inductively coupled plasma optical emission spectrometry (ICP-OES; ICP-5800, Agilent, USA) at the National Instrumentation Center for Environmental Management (NICEM), Seoul National University. Calibration used reference solution from Inorganic Ventures. Detection limits were 0.001 mg/L for Cu, 0.001 mg/L for Zn, and 0.003 mg/L for Pb; calibration R2 values were 0.999 for all three metals. The metals reported are total Cu, total Zn, and total Pb; no isotopic or oxidation-state speciation was performed.
 
@@ -144,13 +144,22 @@ Courses: Useful for teaching why total sediment concentration, sequential extrac
 - [[metals/lead]]
 - [[metals/zinc]]
 - [[testing/index]]
-- [[supply-chain/soil-to-plant-transfer]]
 
 ## Verification notes
 
 This page was built from the full PDF, including the abstract, study-area description, sampling method, aqua regia extraction method, sequential extraction method, RAC definition, Tables 1-3, Figures 1-8, Results sections 3.1-3.5, Conclusions, and data-availability statement. Products and ingredients are intentionally empty because no food, crop, ingredient, product, fish, or drinking-water sample was analyzed. Lead fraction results are not transcribed because the paper states that Pb was below detection limits in some sequential-extraction fractions and therefore does not present those fraction results.
 
 2026-06-03 merge-enhance pass: added `access_url` and `raw_sha256` to frontmatter; expanded `## Methods (brief)` with field instrument details (acrylic-core dimensions, YSI Professional Plus multiparameter probe, EA 1110 FV Instruments elemental analyzer for TOC, Mastersizer 2000 Malvern laser-diffraction particle sizer), the explicit Tessier-step reagent matrix, the Whatman 40 filtration step, ICP-OES instrument model and analytical lab (ICP-5800 Agilent at NICEM, Seoul National University), Inorganic Ventures calibration source, and an explicit note that the metals reported are total Cu/Zn/Pb with no isotopic or oxidation-state speciation. Vendor and instrument names are retained per the Part 12 brand-firewall Exception 2 (scientific-method vendor/material names, locked 2026-05-17). The RAC classification scheme thresholds were also moved from Section 2 into the Methods section so the RAC narrative in Key numbers is self-contained.
+
+2026-06-03 audit application (subagent verdict REVISE, 2 findings applied, 0 rejected):
+
+- **Check 3 ⚠️ Tessier step-2 reagent.** Audit subagent flagged that Methods (brief) said "carbonates in 1 M CH3COOH at pH 5 for 5 h"; the actual reagent is sodium acetate (CH3COONa). Verified independently by reading PDF p.4: the body text contains an apparent typo ("1 M CH3COOH adjusted to pH 5 with CH3COOH", which is chemically impossible — pure 1 M acetic acid cannot be pH-adjusted to 5 with itself), but Figure 2 (the Tessier flow chart on p.4) unambiguously labels step 2 as "pH5 1M CH3COONa 8ml at room temperature." Corrected step 2 to "1 M CH3COONa adjusted to pH 5 with CH3COOH for 5 h at room temperature." While applying, also added the missing "adjusted to pH 7 with CH3COOH" detail to step 1 (paper p.4) and the missing "3.2 M" concentration prefix to CH3COONH4 in step 4 (paper p.4).
+
+- **Check 2 ⚠️ `[[supply-chain/soil-to-plant-transfer]]` overreach.** Audit subagent flagged that this routing link overreaches the source's scope because the paper measures river sediment only, not plant uptake, agricultural soils, or crop transfer. Verified by re-reading the abstract, introduction, methods, results, and conclusions: no plant, soil, crop, or transfer-coefficient measurement appears. Removed `[[supply-chain/soil-to-plant-transfer]]` from `## Wiki pages this source may touch`. The remaining four entries (`metals/copper`, `metals/lead`, `metals/zinc`, `testing/index`) accurately reflect the paper's metals scope and analytical-method relevance.
+
+Findings retained as informational (not applied):
+
+- Check 2 minor note that the `matrices:` array uses non-food descriptive slugs (`river-sediment`, `weir-impounded-river`, `surface-water-quality`, `sequential-extraction`, `aqua-regia-extraction`) outside the food-matrix controlled vocabulary. This is the same posture established for non-food environmental and remediation sources (e.g., [[sources/deng2021-mg-corncob-biochar-cu-pb-cd-remediation]], [[sources/wang2020-lignin-residue-biochar-heavy-metal-remediation]]); the routing-audit advisory row in `routing_malformed.csv` already records the empty `products`/`ingredients` arrays, which is the correct surfacing channel for this scope.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
