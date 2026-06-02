@@ -3,28 +3,33 @@ type: source
 raw_handle: MFK_sustainability-13-02557-v3
 cite_key: gonzalez-arqueros2021-morelia-dump-metals
 title: "Hazardous Solid Waste Confined in Closed Dump of Morelia: An Urgent Environmental Liability to Attend in Developing Countries"
-authors: ["M. Lourdes Gonzalez-Arqueros", "Gabriela Dominguez-Vazquez", "Ruth Alfaro-Cuevas-Villanueva", "Isabel Israde-Alcantara", "Otoniel Buenrostro-Delgado"]
+authors: ["M. Lourdes González-Arqueros", "Gabriela Domínguez-Vázquez", "Ruth Alfaro-Cuevas-Villanueva", "Isabel Israde-Alcántara", "Otoniel Buenrostro-Delgado"]
 year: 2021
 publication: "Sustainability"
 doi: "10.3390/su13052557"
+access_url: "https://doi.org/10.3390/su13052557"
 source_type: peer-reviewed
-evidence_tier: A
+evidence_tier: B
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /June 2 Manual Fetches/sustainability-13-02557-v3.pdf"
+raw_sha256: 273e6e0d5661225a72877202262f0563c97c1b746b69c37ce7f35cba9009a080
 metals: [Pb, Cu, Ni, Zn, Cr, Fe, tAs]
 ingredients: []
 products: []
-matrices: [urban-solid-waste, closed-dump, hazardous-waste, landfill-solid-sample, opencast-well]
+matrices: [municipal-solid-waste, groundwater]
 jurisdictions: [MX]
 near_duplicates: []
 sample_n: 8
-sample_population: "Eight opencast-well solid urban-waste samples from the closed dump of Morelia, Michoacan, Mexico, split across 5-year and 10-year confinement periods; samples were collected in the dry season at three-meter depth."
+sample_population: "Eight opencast-well solid urban-waste samples from the closed dump of Morelia, Michoacán, Mexico, split across 5-year and 10-year confinement periods; samples were collected in the dry season at three-meter depth; analyses performed in duplicate."
+wiki_doi: null
+sampling_locations: [Morelia, Michoacán, Mexico]
+sampling_year_range: null
 updated: 2026-06-02
 ---
 
-# Gonzalez-Arqueros et al. 2021 - Morelia closed-dump metals
+# González-Arqueros et al. 2021 — Morelia closed-dump metals
 
-Gonzalez-Arqueros and colleagues sampled urban solid waste from eight opencast wells in the closed dump of Morelia, Mexico, to test whether hazardous waste had been illegally confined with urban solid waste. This is primary environmental solid-waste evidence for metals and arsenic in landfill material, not occurrence evidence for food, ingredients, or consumer products.
+González-Arqueros and colleagues sampled urban solid waste (USW) from eight opencast wells in the closed dump of Morelia, Michoacán, Mexico, to test whether hazardous waste had been illegally co-confined with USW during the dump's 1997-2007 operational life. The closed site sits in the Trans-Mexican Volcanic Belt over a fractured, permeable recharge zone of an overexploited aquifer that supplies water to more than 120,000 people. This is primary environmental solid-waste evidence for metals and arsenic in landfill material, not occurrence evidence for food, ingredients, or consumer products.
 
 ## Key numbers
 
@@ -75,13 +80,25 @@ Table 5 compares Mexican limits for sludge/biosolids and contaminated soils. The
 | Fe | not included | not included |
 | As | 41 | 22 |
 
-The authors also cite earlier Morelia leachate work as context, reporting Pb 1102 mg/L, Cu 2403 mg/L, Ni 10,678 mg/L, Cr 47,731 mg/L, and As 0.302 mg/L in leachate samples. Those values are not the primary solid-waste dataset in this paper.
+The authors also cite earlier Morelia leachate work as context (their reference [9], Israde-Alcántara et al. 2005), reporting Pb 1102 mg/L, Cu 2403 mg/L, Ni 10,678 mg/L, Cr 47,731 mg/L, and As 0.302 mg/L in leachate samples. Those values are reproduced from this paper's discussion verbatim; the Pb, Cu, Ni and Cr magnitudes are physically extraordinary for aqueous leachate (Pb solubility in landfill leachate chemistries is typically bounded well below 1 g/L) and very likely reflect a unit-labelling error in the original or the quotation. Not the primary solid-waste dataset here; do not use those leachate numbers as primary evidence without going back to Israde-Alcántara et al. 2005 directly.
+
+### Sources of hazardous waste co-disposed at the site
+
+Eighteen distinct sources of hazardous waste were identified at the site by visual inspection (Table 1), including agricultural-equipment stores (plaguicides, fertilizers); hospitals, clinics, doctor's offices and clinical/radiological labs (sharps, human waste, healing-material wastes, syringes, developing-plate residues); research labs (reagent containers, organism remains); veterinary clinics (dead animals, healing materials); photographic developing workshops; computer/printer maintenance shops (ink and toner cartridges, photocopier oil); beauty salons and slaughterhouses (dye residues, animal waste); housing (household cleaners, medicines, cosmetics, pesticides, batteries); sand and coal mines; electrical workshops (lamps, light bulbs, batteries); paint stores (paint, solvents, thinner, turpentine, gasoline residues); gas stations (oil and cleaning-material residues); hardware stores (solvent containers); car-parts stores; auto body shops; garages; paper industry (wastewater-treatment solids, paper-manufacturing waste); and construction companies (cement waste, lime residues, tile-glue residues). Most frequent generators were medical offices (25 %), automotive maintenance shops (21 %), construction (14 %), and industry/garages (12 %).
 
 ## Methods (brief)
 
-The closed dump was divided into four quadrants. Eight opencast wells were selected so that half represented 5-year confinement and half 10-year confinement. Wells were dug to three meters during the dry season, and about 3 kg of solid urban waste was collected from each well.
+Study area: closed Morelia dump (~128 km²) in the Trans-Mexican Volcanic Belt, Michoacán-Guanajuato volcanic complex; permeable geology with a regional fault system (Morelia-Acambay) including the "El Cerrito" and "Cointzio" faults; aquifer recharge zone serving >120,000 people. The dump operated 1997-2007 as an open-air site without a liner, receiving ~900 t/d of USW; closure consisted of slope stabilisation, compaction and an ~10 cm cover of clay plus tezontle (volcanic rock).
 
-Waste by-products were manually separated into organic and inorganic fractions, then the organic fraction was classified by degradability. Physicochemical parameters included moisture, pH, total solids, and volatile solids. Metal concentrations were measured from 1 g aliquots by acid digestion of sediments followed by flame atomic absorption spectrophotometry under EPA Method 3050B. Arsenic was measured by hydride generation following Mexican Official Norm NMX-AA-051-SCFI-2016. Analyses were performed in duplicate.
+Sampling: site divided into four SW-NE quadrants; eight wells randomly sited so that half represented ~5-year confinement and half ~10-year confinement. Opencast wells were dug to three meters with a backhoe loader (Case 2002®) during the dry season; ~3 kg of solid USW per well was collected into black polythene bags and kept on ice. In-well temperature was measured with a digital thermometer at the time of sampling.
+
+Sample characterisation followed Mexican Official Norms: NMX-AA-022-1985 (composition by manual separation into organic and inorganic fractions, with the organic fraction further classified by degradability per the reference [15] system); NMX-AA-052-1985 (sample preparation; ground in an analytical mill MF 10® through a 1 mm sieve and frozen at -4 °C in plastic jars); NMX-AA-016-1984 (moisture); NMX-AA-25-1984 (pH); volatile solids by Standard Methods 2540G (APHA, 23rd ed.).
+
+Heavy-metal analysis: 1 g aliquots subjected to acid digestion per EPA Method 3050B; quantification by flame atomic absorption spectrophotometry (FLAA). Arsenic determined by hydride generation per Mexican Official Norm NMX-AA-051-SCFI-2016. All metal analyses run in duplicate.
+
+Statistics: descriptive statistics and one-way ANOVA across confinement-age groups using JMP 8; Kruskal-Wallis test across wells reported in the discussion for heavy-metal heterogeneity (p = 0.01).
+
+Funding: National Council for Science and Technology of Mexico (Project Grant No. 62100) and the Universidad Michoacana de San Nicolás de Hidalgo Coordination of Scientific Research (Project Grant No. 5.9). Authors declare no conflicts of interest. Article published 26 February 2021 under CC BY 4.0.
 
 ## Implications
 
@@ -104,7 +121,11 @@ Courses: Useful for teaching why environmental source data and food-occurrence d
 
 ## Verification notes
 
-This page was built from the full PDF, including the abstract, study-area description, hazardous-waste source table, sampling and analytical methods, Tables 2-5, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source analyzes closed-dump solid urban waste, not foods or consumer products. Arsenic is recorded as total arsenic in frontmatter because the source does not report inorganic arsenic speciation.
+This page was built from the full PDF, including the abstract, study-area description, hazardous-waste source table, sampling and analytical methods, Tables 2-5, discussion, conclusions, and data-availability statement. Products and ingredients are intentionally empty because the source analyzes closed-dump solid urban waste, not foods or consumer products. Arsenic is recorded as `tAs` in frontmatter because the source labels its analyte simply "arsenic" without distinguishing species; the hydride-generation method per NMX-AA-051-SCFI-2016 is selective for inorganic As and a stricter reading would justify `iAs` — flagged here so synthesis can decide.
+
+Merge-enhance 2026-06-02 (Claude, re-ingest under the v2 audit pipeline): matrices were rewritten from the original page's invented slug set (`urban-solid-waste, closed-dump, hazardous-waste, landfill-solid-sample, opencast-well` — none of which exist in the canonical matrices vocabulary surveyed across `wiki/sources/*.md`) to the canonical pair `[municipal-solid-waste, groundwater]`. Author character encoding restored to the Spanish-language originals (González, Domínguez-Vázquez, Israde-Alcántara). Frontmatter expanded with `access_url`, `raw_sha256`, `sampling_locations`, `sampling_year_range`, `wiki_doi`. Evidence tier downgraded A→B (single-site n=8 environmental characterisation with no replication is B-tier per the conventions, not gold-standard A). Added the 18-source hazardous-waste co-disposal context (paper's Table 1, omitted from the initial ingest) and a leachate-anomaly caveat on the cited Israde-Alcántara et al. 2005 leachate values (Pb 1102 mg/L etc.) which are physically implausible and should not be quoted from this paper without going back to the original. Cite-key, raw_handle, raw_path, license, DOI preserved.
+
+The cite-key `gonzalez-arqueros2021-morelia-dump-metals` is preserved per merge-enhance discipline; an earlier in-session attempt under a different cite-key was discarded once it became clear the original committed page (commit fbdb9d1) had been deleted from disk in the working tree without being staged, producing a false-negative on the initial DOI grep.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
