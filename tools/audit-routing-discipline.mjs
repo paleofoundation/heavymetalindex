@@ -204,6 +204,8 @@ const broadScopeExempt = new Set([
   // Cat 7 sub-variants aliased up to parent rows via inheritedProductRoutes.
   "canned-tomatoes","canned-vegetables","canned-fruit","tomato-paste","tomato-sauce",
   "snacks-crackers-biscuits",
+  // Cat 6 broad-scope parents fanning to species rows.
+  "seafood","fresh-fish",
 ])
 
 for (const file of productFiles) {

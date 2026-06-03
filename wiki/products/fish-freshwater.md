@@ -11,12 +11,18 @@ exposure_pathway: "Ingestion (oral)"
 regulatory_jurisdiction: "FDA, EU, Codex"
 panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
-products_status: scaffold
-splits_locked: false
+products_status: locked
+splits_locked: true
 sources: 13
 wiki_doi: null
-updated: 2026-05-17
-primary_metals_of_concern: [Pb, Cd, iAs, tAs]
+updated: 2026-06-02
+primary_metals_of_concern: [Hg, MeHg, Pb]
+variant_type: independent
+step0_lock_date: 2026-06-02
+step0_lock_doc: docs/governance/category-6-step0-lock.md
+step0_basis: "literature-baseline (Hg/MeHg·Pb); regulatory-alignment (Cd·iAs·rest)"
+step0_confidence: medium
+across_row_review_hook: "predatory freshwater species (pike, bass) bioaccumulate more MeHg — review for a freshwater-predatory sub-split"
 ---
 # Fish — freshwater (tilapia, catfish, trout)
 
@@ -136,9 +142,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->

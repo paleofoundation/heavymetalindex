@@ -187,6 +187,23 @@ const inheritedProductRoutes = new Map([
     { route_kind: "broad_product_context", product_slugs: ["snacks-general"],
       route_note: "Crackers/biscuits evidence routed to the snacks row (Row 10); review rice-based vs non-rice fit during synthesis." },
   ],
+  // Cat 6 (Seafood) broad-scope fan-out (Karen, 2026-06-02). seafood and
+  // fresh-fish are broad parents that fan down to multiple species rows; they
+  // stay broad context until species and MeHg/tHg speciation fit are resolved.
+  // canned-fish is a synonym of canned-seafood (Row 6) and resolves via that
+  // row's aliases, so it is not listed here.
+  [
+    "seafood",
+    { route_kind: "broad_product_context",
+      product_slugs: ["fish-freshwater","fish-marine-non-predatory","fish-marine-predatory","shellfish","seaweed-kelp-foods","canned-seafood"],
+      route_note: "Broad seafood declaration; fans to all six Cat 6 rows as context until species, predatory status, and MeHg/tHg speciation are resolved." },
+  ],
+  [
+    "fresh-fish",
+    { route_kind: "broad_product_context",
+      product_slugs: ["fish-freshwater","fish-marine-non-predatory","fish-marine-predatory"],
+      route_note: "Broad fresh (non-canned) fish declaration; fans to the three fish rows as context until freshwater/marine and predatory status are resolved." },
+  ],
 ])
 
 const productPages = new Map(

@@ -121,6 +121,9 @@ const broadProductScopes = new Set([
   "tomato-paste",
   "tomato-sauce",
   "snacks-crackers-biscuits",
+  // Cat 6 broad-scope parents fanning to species rows (inheritedProductRoutes).
+  "seafood",
+  "fresh-fish",
 ])
 
 // Required frontmatter fields for a source page to be placeable by the
