@@ -2381,8 +2381,8 @@ raw/Manual Fetch Kimi /June 3 Folder/scheer_o_009_0 2.pdf,MFK_scheer-o-009-0-2,s
 raw/Manual Fetch Kimi /June 3 Folder/scheer_o_009_0.pdf,MFK_scheer-o-009-0,stopped,2026-06-03T14:47:38.640Z,scheer2017-aluminium-tolerable-intake-toys,Stop: byte-identical duplicate of existing source page scheer2017-aluminium-tolerable-intake-toys; no separate ingest.
 raw/Manual Fetch Kimi /June 3 Folder/tfacts55 2.pdf,MFK_tfacts55-2,stopped,2026-06-03T14:56:24.798Z,atsdr2005-tin-toxicological-profile,Stop: byte-identical duplicate of tfacts55.pdf; derivative of existing atsdr2005-tin-toxicological-profile.
 raw/Manual Fetch Kimi /June 3 Folder/tfacts55.pdf,MFK_tfacts55,stopped,2026-06-03T14:56:24.798Z,atsdr2005-tin-toxicological-profile,Stop: ATSDR Tin ToxFAQs derivative fact sheet; canonical ATSDR 2005 tin toxicological profile is already ingested and carries the primary MRL/context values.
-raw/Manual Fetch Kimi /June 3 Folder/tp22 2.pdf,MFK_tp22-2,claimed-by-codex,2026-06-03T14:43:43.514Z,,June 3 manual fetch claimed by Codex for ingest/accounting
-raw/Manual Fetch Kimi /June 3 Folder/tp22.pdf,MFK_tp22,claimed-by-codex,2026-06-03T14:43:43.514Z,,June 3 manual fetch claimed by Codex for ingest/accounting
+raw/Manual Fetch Kimi /June 3 Folder/tp22 2.pdf,MFK_tp22-2,stopped,2026-06-03T15:05:29.514Z,atsdr-aluminum-toxprofile-2008,Duplicate of June 3 ATSDR aluminum profile canonical PDF commit pending
+raw/Manual Fetch Kimi /June 3 Folder/tp22.pdf,MFK_tp22,ingested-by-codex,2026-06-03T15:05:29.514Z,atsdr-aluminum-toxprofile-2008,June 3 ATSDR aluminum profile provenance repaired by Codex commit pending
 raw/Manual Fetch Kimi /June 3 Folder/tp55 (1) 2.pdf,MFK_tp55-1-2,claimed-by-codex,2026-06-03T14:43:43.514Z,,June 3 manual fetch claimed by Codex for ingest/accounting
 raw/Manual Fetch Kimi /June 3 Folder/tp55 (1).pdf,MFK_tp55-1,claimed-by-codex,2026-06-03T14:43:43.514Z,,June 3 manual fetch claimed by Codex for ingest/accounting
 raw/Manual Fetch Kimi /June 3 Folder/tp55 2.pdf,MFK_tp55-2,claimed-by-codex,2026-06-03T14:43:43.514Z,,June 3 manual fetch claimed by Codex for ingest/accounting

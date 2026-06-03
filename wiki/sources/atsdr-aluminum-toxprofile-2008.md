@@ -1,5 +1,6 @@
 ---
 type: source
+raw_handle: MFK_tp22
 cite_key: atsdr-aluminum-toxprofile-2008
 title: "Toxicological Profile for Aluminum"
 authors: ["Agency for Toxic Substances and Disease Registry"]
@@ -10,8 +11,8 @@ no_doi_assigned: true
 access_url: "https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf"
 source_type: gov-report
 evidence_tier: A
-raw_path: null
-sha256: null
+raw_path: "raw/Manual Fetch Kimi /June 3 Folder/tp22.pdf"
+raw_sha256: f959d09859641c06040b2ab1fbd280bb8de0f30adb0bf6be1980d5d915833b42
 access_date: 2026-04-25
 license: us-government-work
 metals: [Al]
@@ -22,12 +23,13 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-25
+near_duplicates: []
+sample_n: null
+sample_population: "ATSDR toxicological profile compiling aluminum toxicology, exposure, regulatory, and environmental fate evidence; not a new primary sampling study."
+updated: 2026-06-03
 ---
 
 # ATSDR 2008 — Toxicological Profile for Aluminum
-
-## Summary
 
 The September 2008 ATSDR Toxicological Profile for Aluminum is the comprehensive US toxicology synthesis for aluminum, prepared under CERCLA Section 104(i) authority. It supersedes the September 2006 draft for public comment. ATSDR derives Minimal Risk Levels for intermediate-duration oral exposure (15 to 364 days) at **1 mg Al/kg/day** and chronic-duration oral exposure (≥1 year) at **1 mg Al/kg/day**, both anchored on neurotoxic effects in lifetime-exposed mice, with a composite uncertainty factor of 100 applied to a LOAEL of 100 mg/kg/day (Golub et al. 2000). An acute-duration oral MRL was not derived because the available data were considered inadequate.
 
@@ -68,11 +70,9 @@ Reference daily intake context (relative to MRL of 1 mg Al/kg/day = 70 mg Al/day
 | Breast milk concentration | 0.0092 to 0.049 mg/L |
 | Milk-based infant formula concentration | 0.058 to 0.15 mg/L |
 
-## Provenance notes
+## Methods (brief)
 
-License `us-government-work`. The PDF was retrieved from ATSDR's canonical web URL (`atsdr.cdc.gov/toxprofiles/tp22.pdf`) via WebFetch on 2026-04-25; SHA-256 of the raw PDF is pending future ingestion when the document is added to `raw/reports/`. The agency-website reference is a sufficient primary-source citation for the values recorded above because the ATSDR website is the official publication channel for Toxicological Profiles.
-
-The 2008 profile is the operative ATSDR aluminum reference; ATSDR has not published a finalized post-2008 update, so the September 2008 values remain in force.
+This is an ATSDR toxicological profile rather than a single experimental paper. The profile reviews human, animal, mechanistic, exposure, toxicokinetic, environmental fate, and regulatory literature for aluminum and aluminum compounds. Its oral MRL derivation focuses on neurotoxicity endpoints in animal studies, especially lifetime mouse exposure evidence, then applies ATSDR's standard MRL uncertainty-factor framework. The profile also compiles dietary, drinking-water, infant-formula, medication, and consumer-product exposure information; these are exposure-context values and literature summaries, not a new ATSDR sampling campaign.
 
 ## Implications
 
@@ -80,10 +80,16 @@ The 2008 profile is the operative ATSDR aluminum reference; ATSDR has not publis
 - Courses: the route- and duration-specific MRL structure for aluminum is a teachable example of how ATSDR addresses contaminants where renal-impaired subpopulations have substantially different risk profiles from general consumers.
 - App: the chronic oral MRL of 1 mg Al/kg/day (70 mg Al/day for 70 kg adult) is the operationally relevant value. For users on aluminum-containing antacids, the antacid contribution alone (100 to 1000 mg/day) exceeds this MRL; the app should query antacid use as a separate input.
 
-## Wiki pages updated on ingest
+## Wiki pages this source may touch
 
 - [[metals/aluminum]]
 - [[regulations/atsdr-aluminum-mrls]]
+
+## Verification notes
+
+The June 3 manual-fetch PDF was checked against ATSDR's canonical `tp22.pdf` title metadata and text extraction. Page count is 357. The canonical raw file `raw/Manual Fetch Kimi /June 3 Folder/tp22.pdf` and duplicate file `raw/Manual Fetch Kimi /June 3 Folder/tp22 2.pdf` are byte-identical with SHA-256 `f959d09859641c06040b2ab1fbd280bb8de0f30adb0bf6be1980d5d915833b42`; the duplicate is recorded in the tracker as a duplicate rather than a second source. No DOI is assigned. The ATSDR website is the official publication channel for Toxicological Profiles, and the access URL remains the canonical agency PDF URL.
+
+The 2008 profile is the operative ATSDR aluminum toxicological profile; no finalized post-2008 replacement was identified in the existing corpus at this ingest point. This page records MRL and exposure-context values only. It should not be used as an aluminum occurrence dataset for food, infant formula, drinking water, antacids, or cookware.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
