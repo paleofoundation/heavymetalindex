@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Routing-discipline lint per docs/order-of-operations.md Phase 5.
 //
-// Two checks:
+// Three checks (Check 3 is warn-level; only Checks 1-2 gate the build):
 //
 // 1. Sources missing `products:` declaration on food/personal-care papers.
 //    A source page with populated `matrices:` containing product-shaped slugs
@@ -62,6 +62,19 @@ const summary = {
   check_2_products_scanned: 0,
   check_2_products_hmtc_locked: 0,
   check_2_failures: 0,
+  check_3_pages_without_hmtc_row: 0,
+  check_3_failures: 0,
+}
+
+// Accumulated during Check 1: how many sources declare each product slug in
+// their `products:` field. Feeds Check 3 (silent-underroute detection).
+const declaredProductSlugs = new Map()
+function recordDeclaredProduct(entry) {
+  // entry forms: "[[products/chocolate]]", "[[products/chocolate|Label]]", "chocolate"
+  const m = String(entry).match(/products\/([^|\]]+)/)
+  const slug = (m ? m[1] : String(entry)).trim().toLowerCase()
+  if (!slug) return
+  declaredProductSlugs.set(slug, (declaredProductSlugs.get(slug) ?? 0) + 1)
 }
 
 // ---------- Check 1: Source pages missing products: on food papers ----------
@@ -79,6 +92,7 @@ for (const file of sourceFiles) {
 
   const matrices = asStringArray(parsed.data.matrices).map((m) => m.toLowerCase().trim())
   const products = asStringArray(parsed.data.products)
+  for (const p of products) recordDeclaredProduct(p)
   // Back-compat: pending_category_lock is the predecessor of provisional_scaffold.
   // Either flag exempts a source from the missing-products check.
   const pendingLock = parsed.data.pending_category_lock || parsed.data.provisional_scaffold
@@ -154,6 +168,75 @@ for (const file of productFiles) {
   }
 }
 
+// ---------- Check 3: product pages declared by sources but lacking hmtc_row ----------
+// The silent-underroute blind spot. A page that EXISTS but has no hmtc_row is
+// not a recognized routing target, so sources declaring it have their
+// declaration dropped — and because the page exists, it never appears in
+// routing_unresolved.csv. This is how honey/chocolate/spices and the
+// canned-*/tomato-* sub-pages stranded their evidence. Check 2 skips these
+// pages (it `continue`s when hmtc_row is undefined); Check 3 catches them.
+//
+// A page is NOT flagged if it is an alias of a page that DOES carry hmtc_row
+// (declarations resolve up to the locked parent and are not stranded), or if
+// it is retired.
+const lockedAliasSlugs = new Set()
+for (const file of productFiles) {
+  const parsed = matter(fs.readFileSync(path.join(productDir, file), "utf8"))
+  if (parsed.data.hmtc_row === undefined) continue
+  for (const a of asStringArray(parsed.data.aliases)) {
+    lockedAliasSlugs.add(String(a).trim().toLowerCase())
+  }
+}
+
+// Intentional non-rows that should NOT flag: broad-scope routing tokens (the
+// routing layer fans these out to sibling rows rather than treating them as a
+// destination) and base/bridge context pages. This set mirrors
+// broadProductScopes in tools/evidence/build-routing-audit.mjs — keep in sync.
+const broadScopeExempt = new Set([
+  "infant-formula","infant-formula-powder","infant-formula-rtf-liquid","baby-cereals",
+  "rice-cereal","mixed-cereals","vegetable-purees","meat-and-fish-baby-foods","mixed-meals",
+  "snacks","rice-based-snacks","teething-biscuits","fruit-juice","packaged-fruit-juice",
+  "infant-foods","infant-food","baby-foods","baby-food-purees","baby-drinks","jars-first-meals",
+  "pouches","kids-meals","toddler-formula","toddler-meals","growing-up-milk",
+  "rice-containing-products","canned-foods","canned-meat","processed-meat","pork-products",
+  "cooking-oils","milk-powder","yoghurt","vinegar","tomato-juice","hot-sauce","fish-sauce",
+  "confectionery","bakery","cereal","disposable-baby-diapers","whitening-cream",
+])
+
+for (const file of productFiles) {
+  const fullPath = path.join(productDir, file)
+  const parsed = matter(fs.readFileSync(fullPath, "utf8"))
+  const slug = String(parsed.data.category || file.replace(/\.md$/, "")).toLowerCase()
+  // Only pages that are NOT recognized routing targets.
+  if (parsed.data.hmtc_row !== undefined) continue
+  if (parsed.data.retired === true) continue
+  // Exempt intentional non-rows: broad-scope tokens, base/bridge context pages,
+  // and category-master pages (the routing layer fans these out, or they are
+  // navigational, rather than being a leaf routing destination).
+  const variantType = String(parsed.data.variant_type || "")
+  const title = String(parsed.data.title || "")
+  const isMaster = /-master$/.test(slug) || /master/i.test(title)
+  if (broadScopeExempt.has(slug) || variantType === "base" || variantType === "bridge" || isMaster) {
+    summary.check_3_exempt_non_rows = (summary.check_3_exempt_non_rows ?? 0) + 1
+    continue
+  }
+  summary.check_3_pages_without_hmtc_row += 1
+  // If a locked page claims this slug as an alias, declarations resolve up.
+  if (lockedAliasSlugs.has(slug)) continue
+
+  const declaredBy = declaredProductSlugs.get(slug) ?? 0
+  if (declaredBy > 0) {
+    summary.check_3_failures += 1
+    rows.push({
+      check: "3_declared_page_without_hmtc_row",
+      target: `wiki/products/${file}`,
+      detail: `declared_by=${declaredBy} sources; hmtc_row absent`,
+      severity: "warn",
+      note: `Page exists and is declared in the products: field of ${declaredBy} source(s), but has no hmtc_row, so the routing layer silently drops those declarations and they never appear in routing_unresolved.csv. Resolve by EITHER (a) giving it a routable provisional scaffold lock (hmtc_category + hmtc_row, products_status: scaffold) so the data accumulates visibly while the threshold/split decision waits, OR (b) adding it as an alias on the locked parent row it belongs under so declarations resolve up. See docs/order-of-operations.md and the Cat 7 Step 0 lock for the routable-scaffold-vs-threshold-lock distinction.`,
+    })
+  }
+}
+
 // ---------- Write outputs ----------
 const csvHeader = "check,target,detail,severity,note"
 const csvBody = rows
@@ -172,6 +255,9 @@ console.log(`  Check 2 (HMTc-locked products with zero routed sources):`)
 console.log(`    Products scanned: ${summary.check_2_products_scanned}`)
 console.log(`    HMTc-locked products: ${summary.check_2_products_hmtc_locked}`)
 console.log(`    Failures: ${summary.check_2_failures}`)
+console.log(`  Check 3 (pages declared by sources but lacking hmtc_row — silent underroute):`)
+console.log(`    Pages without hmtc_row: ${summary.check_3_pages_without_hmtc_row}`)
+console.log(`    Flagged (declared-but-unroutable): ${summary.check_3_failures} [warn]`)
 console.log("")
 console.log(`Wrote ${path.relative(repoRoot, outputPath)}`)
 console.log(`Wrote ${path.relative(repoRoot, summaryPath)}`)
