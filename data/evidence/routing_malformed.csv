@@ -220,7 +220,6 @@ efsa-arsenic-contam-2009,wiki/sources/efsa-arsenic-contam-2009.md,advisory,,,pro
 efsa-cadmium-2011-statement,wiki/sources/efsa-cadmium-2011-statement.md,advisory,,,products;ingredients;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa-chromium-contam-2014,wiki/sources/efsa-chromium-contam-2014.md,advisory,,,products,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa-food-safety-research-needs-2030,wiki/sources/efsa-food-safety-research-needs-2030.md,advisory,,,products;ingredients;matrices;metals,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
-efsa-lead-contam-2010,wiki/sources/efsa-lead-contam-2010.md,advisory,,,products;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa-mercury-methylmercury-2012,wiki/sources/efsa-mercury-methylmercury-2012.md,advisory,,,products;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa-nickel-contam-2020,wiki/sources/efsa-nickel-contam-2020.md,advisory,,,products;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
 efsa2021-aluminium-food-qa,wiki/sources/efsa2021-aluminium-food-qa.md,advisory,,,products;matrices,Source is missing optional routing-input fields; the routing layer falls back to broad scope where possible.
