@@ -10,7 +10,7 @@ source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0
 metals: [Pb, Cd, tHg, iAs, tAs, Sn]
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
-updated: 2026-05-02
+updated: 2026-06-03
 ---
 
 # EU Regulation 2023/915 Maximum Levels
@@ -41,8 +41,12 @@ Values below are normalized to `ug/kg` for comparison tables. The regulation its
 | Baby food and processed cereal-based food for infants and young children | 20 | 40 | 20 for baby food |  | Product as placed on market. The iAs row is listed for "baby food"; processed cereal-based food should not be inferred where the row text does not say so. |
 | Canned infant formula, canned follow-on formula, canned young-child formula |  |  |  | 50000 | Except canned dried and canned powdered products. |
 | Canned baby food and canned processed cereal-based food |  |  |  | 50000 | Except canned dried and canned powdered products. |
+| Canned foods other than canned beverages |  |  |  | 200000 | Inorganic tin. Except canned dried and canned powdered products. The general canned-food tin ceiling. |
+| Canned beverages, including canned fruit and vegetable juices |  |  |  | 100000 | Inorganic tin. Except canned dried and canned powdered products. |
 | Fruit juices and fruit nectars | 30 for juices other than exclusively berries/small fruits; 50 for berries/small fruits |  | 20 |  | Wet weight; concentrated juice applies as reconstituted. |
 | Non-alcoholic rice-based drinks |  |  | 30 |  | Current rice-drink iAs page: [[regulations/eu2023-arsenic-rice-based-drinks]]. |
+
+_Inorganic-tin rows (200 mg/kg canned foods other than beverages, 100 mg/kg canned beverages, 50 mg/kg canned infant/follow-on/young-child formula and canned baby food, shown above normalized to ug/kg) from Commission Regulation (EU) 2023/915 Annex I; the values are carried forward unchanged from Reg (EC) 1881/2006 section 3.4 and were verified 2026-06-03 against the legislation.gov.uk retained-EU-law reproduction of the identical Annex. All exclude canned dried and canned powdered products. The 200 and 100 mg/kg general rows were previously missing from this page and are the highest-volume tin ceilings._
 
 ## Ingredient And Commodity Metal Limits
 
@@ -76,6 +80,17 @@ Selected HMTc-relevant commodity rows:
 | Oyster and shiitake mushroom | Cd | 0.15 mg/kg | 150 ug/kg | Wet weight; after washing and edible-part separation. |
 | Liver of bovine animals, sheep, pig, poultry, horse | Cd | 0.50 mg/kg | 500 ug/kg | Animal-origin commodity row. |
 | Kidney of bovine animals, sheep, pig, poultry, horse | Cd | 1.0 mg/kg | 1000 ug/kg | Animal-origin commodity row. |
+| Fats and oils, including milk fat | Pb | 0.10 mg/kg | 100 ug/kg | Covers olive oil, vegetable/cooking oils, and the milk-fat fraction of butter/ghee. Product as placed on market. HMTc Cat 7 rows: olive-oil, cooking-oils-other, butter-and-ghee. |
+| Salt | Pb / Cd | 1.0 / 0.50 mg/kg | 1000 / 500 ug/kg | General food-grade salt. Cd row also listed on [[regulations/eu-2023-915-cadmium]]. HMTc Cat 7 row: salt. |
+| Unrefined salt (fleur de sel, grey salt, manually harvested) | Pb | 2.0 mg/kg | 2000 ug/kg | Higher allowance for traditional unrefined salt. |
+| Fruit spices | Pb | 0.60 mg/kg | 600 ug/kg | Dried spice botanical category (e.g., paprika, allspice). HMTc Cat 7 row: spices. |
+| Root and rhizome spices | Pb | 1.50 mg/kg | 1500 ug/kg | Dried spice botanical category (e.g., turmeric, ginger). HMTc Cat 7 row: spices. |
+| Bark spices | Pb | 2.0 mg/kg | 2000 ug/kg | Dried spice botanical category (e.g., cinnamon, cassia). HMTc Cat 7 row: spices. |
+| Bud spices | Pb | 1.0 mg/kg | 1000 ug/kg | Dried spice botanical category (e.g., cloves). HMTc Cat 7 row: spices. |
+| Flower pistil spices | Pb | 1.0 mg/kg | 1000 ug/kg | Dried spice botanical category (e.g., saffron). HMTc Cat 7 row: spices. |
+| Seed spices | Pb | 0.90 mg/kg | 900 ug/kg | Dried spice botanical category (e.g., cumin, coriander, fennel). HMTc Cat 7 row: spices. |
+
+_Cat 7 Pb rows (fats/oils, salt, spice botanical tiers) and salt Cd transcribed from Commission Regulation (EU) 2023/915 Annex I via EUR-Lex (eli/reg/2023/915), 2026-06-02; cross-checked against Eurofins regulatory summary for the spice tiers. Pending human spot-check against the consolidated Annex._
 
 ## Why This Matters For Product Pages
 
@@ -99,9 +114,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
