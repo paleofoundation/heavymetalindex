@@ -41,7 +41,7 @@ Table 2 reports all toxic-metal concentrations in mg/kg honey.
 | TC | 2.42 +/- 0.26 | 0.142 +/- 0.014 | 0.014 +/- 0.03 | 0.010 +/- 0.03 |
 | TE | 8.10 +/- 1.58 | 0.125 +/- 0.000 | 0.100 +/- 0.04 | 0.012 +/- 0.04 |
 
-The abstract summarizes the same ranges as Pb 2.42-10.98 mg/kg, Cd 0.125-0.150 mg/kg, Hg 0.021-0.10 mg/kg, and As 0.006-0.018 mg/kg. Essential-element means were also reported: potassium 1120.1-1980.6 mg/kg, sodium 506.8-804.6 mg/kg, and calcium 923.92-1117.5 mg/kg.
+The abstract summarizes ranges as Pb 2.42-10.98 mg/kg, Cd 0.125-0.150 mg/kg, Hg 0.021-0.10 mg/kg, and As 0.006-0.018 mg/kg. Table 2 includes a lower Hg location mean of 0.014 mg/kg for TC, so the table range is 0.014-0.100 mg/kg. Essential-element means were also reported: potassium 1120.1-1980.6 mg/kg, sodium 506.8-804.6 mg/kg, and calcium 923.92-1117.5 mg/kg in the abstract; Table 2 includes an MS calcium mean of 1133.8 mg/kg.
 
 ## Methods (brief)
 

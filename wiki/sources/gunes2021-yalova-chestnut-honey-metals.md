@@ -14,7 +14,7 @@ raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-honey-c
 metals: [tAs, Pb, Cd, tHg]
 ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
-matrices: [chestnut-honey, honey]
+matrices: [honey]
 jurisdictions: [TR]
 near_duplicates: []
 sample_n: 27
@@ -66,4 +66,4 @@ Microbiome (if applicable): Not addressed.
 
 ## Verification notes
 
-The PDF title, author, DOI, year, journal, license notice, methods, and heavy-metal values were read from the auto-fetched PDF. The paper's table labels As and Hg without speciation, so they are treated as total arsenic and total mercury rather than iAs or MeHg.
+The PDF title, author, DOI, year, journal, license notice, methods, and heavy-metal values were read from the auto-fetched PDF. The paper's table labels As and Hg without speciation, so they are treated as total arsenic and total mercury rather than iAs or MeHg. The source is internally inconsistent on the analytical instrument: the methods section and instrument table describe ICP-OES, while the results prose says ICP-MS. This source page follows the methods section and instrument table. The source is also internally inconsistent on the regulatory frame: the abstract says residues were below Turkish Food Codex limits, while later discussion says there is no designated maximum honey limit in the Turkish Food Codex.
