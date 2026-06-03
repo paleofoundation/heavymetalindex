@@ -206,6 +206,8 @@ const broadScopeExempt = new Set([
   "snacks-crackers-biscuits",
   // Cat 6 broad-scope parents fanning to species rows.
   "seafood","fresh-fish",
+  // Remaining broad pages fanned to locked rows across Cat 1/3/5/16.
+  "infant-cereal","tea","tea-infusions","breakfast-cereals","dietary-supplements",
 ])
 
 for (const file of productFiles) {

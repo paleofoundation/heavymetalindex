@@ -204,6 +204,34 @@ const inheritedProductRoutes = new Map([
       product_slugs: ["fish-freshwater","fish-marine-non-predatory","fish-marine-predatory"],
       route_note: "Broad fresh (non-canned) fish declaration; fans to the three fish rows as context until freshwater/marine and predatory status are resolved." },
   ],
+  // Remaining Check-3 backlog resolved (Karen, 2026-06-02): broad pages fanned
+  // to their locked rows across Cat 1, Cat 3, Cat 5, Cat 16.
+  [
+    "infant-cereal",
+    { route_kind: "broad_product_context", product_slugs: ["baby-cereals-dry-rice-based","baby-cereals-dry-non-rice"],
+      route_note: "Broad infant-cereal declaration; fans to the locked baby-cereal split rows (Cat 1) until rice/non-rice fit is resolved." },
+  ],
+  [
+    "tea",
+    { route_kind: "broad_product_context", product_slugs: ["true-tea-camellia-sinensis"],
+      route_note: "Broad tea declaration; routed to the locked true-tea row (Cat 5 Row 11); review herbal-infusion vs true-tea fit during synthesis." },
+  ],
+  [
+    "tea-infusions",
+    { route_kind: "broad_product_context", product_slugs: ["true-tea-camellia-sinensis"],
+      route_note: "Tea infusions routed to the true-tea row (Cat 5 Row 11); herbal (non-camellia) infusions flagged for a future herbal-infusion row." },
+  ],
+  [
+    "breakfast-cereals",
+    { route_kind: "broad_product_context", product_slugs: ["breakfast-cereal-non-rice","breakfast-cereal-rice-based"],
+      route_note: "Broad breakfast-cereal declaration; fans to the Cat 3 breakfast-cereal rows until rice/non-rice fit is resolved." },
+  ],
+  [
+    "dietary-supplements",
+    { route_kind: "broad_product_context",
+      product_slugs: ["supplements-vitamin-mineral","supplements-botanicals-herbs","supplements-amino-acids-isolates","supplements-algae-seaweed-based","supplements-protein-collagen-powders","supplements-oil-based"],
+      route_note: "Generic dietary-supplement declaration; fans to the Cat 16 ingredient-class rows that carry the heavy-metal load (botanicals, algae, protein/collagen, oil-based, etc.) until form/ingredient fit is resolved." },
+  ],
 ])
 
 const productPages = new Map(

@@ -124,6 +124,12 @@ const broadProductScopes = new Set([
   // Cat 6 broad-scope parents fanning to species rows (inheritedProductRoutes).
   "seafood",
   "fresh-fish",
+  // Remaining broad pages fanned to locked rows across Cat 1/3/5/16.
+  "infant-cereal",
+  "tea",
+  "tea-infusions",
+  "breakfast-cereals",
+  "dietary-supplements",
 ])
 
 // Required frontmatter fields for a source page to be placeable by the

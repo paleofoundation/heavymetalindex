@@ -43,10 +43,10 @@ Concentration ranges (or single bulked values, marked `*`) per location, with re
 | Species / Site | Cd (mg/kg FW) | RSD % | Accuracy % | Cr (mg/kg FW) | RSD % | Accuracy % | Pb (mg/kg FW) | RSD % | Accuracy % |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | *A. tuberculosa* — E1 Estero Hondo | 0.346* | 4.08 | 114.38 | 0.059* | 6.93 | 94.12 | 0.381* | 4.90 | 97.17 |
-| *A. tuberculosa* — E2 Playa la Tumba | 0.560* | 4.05 | 98.04 | 0.038* | 10.83 | 94.66 | 0.311* | 5.39 | 98.26 |
+| *A. tuberculosa* — E2 Playa la Tumba | 0.560* | 4.05 | 98.04 | 0.038* | 10.83 | 94.66 | 0.311* | 3.94 | 98.26 |
 | *A. tuberculosa* — E3 Playa al otro lado | 0.211–0.321 | 1.97–4.00 | 86.31–113.33 | 0.238–0.634 | 3.03–5.58 | 86.01–100.78 | 0.067–0.923 | 1.42–6.19 | 87.47–95.78 |
 | *A. tuberculosa* — E4 Estero la Caleta | 0.245–0.531 | 0.75–3.98 | 92.95–104.58 | 0.306–0.405 | 3.63–5.81 | 93.03–100.32 | 0.304–0.512 | 4.03–4.87 | 93.27–99.46 |
-| *A. similis* — E3 Playa al otro lado | 0.243–0.439 | 2.44–4.32 | 90.91–106.67 | 0.310–0.503 | 2.96–4.06 | 91.01–100.11 | 0.164–0.908 | 3.13–4.83 | 91.92–97.33 |
+| *A. similis* — E3 Playa al otro lado | 0.243–0.439 | 2.44–4.32 | 90.91–106.67 | 0.310–0.503 | 2.96–4.06 | 91.01–100.00 | 0.164–0.908 | 3.13–4.83 | 91.92–97.33 |
 | *A. similis* — E4 Estero la Caleta | 0.330–0.948 | 3.56–4.58 | 89.51–114.38 | 0.668–0.730 | 3.95–5.49 | 90.64–100.11 | 0.483–0.545 | 4.35–4.81 | 91.67–98.04 |
 
 `*` = a single bulked composite at that site (no within-site range). *A. similis* was not available at E1 or E2.
@@ -61,7 +61,7 @@ Cell-level highs and lows:
 
 Other bivalve species collected (single composites, not used for the human-health calculations):
 
-- *Prototheca asperrima*: Cd 0.15, Cr 0.41, Pb 0.49 mg/kg FW.
+- *Protothaca asperrima*: Cd 0.15, Cr 0.41, Pb 0.49 mg/kg FW.
 - *Polymesoda inflata*: Cd 0.27, Cr 0.74, Pb 0.36 mg/kg FW.
 
 ### Sediment and mangrove leaves
@@ -69,7 +69,7 @@ Other bivalve species collected (single composites, not used for the human-healt
 Mean values across the four locations (no per-location breakdown for the means; RSD 5.53/2.65/2.93 % for Cd/Cr/Pb sediments; recoveries 80.07–104.58 %).
 
 - Sediment means (mg/kg): Cd **2.14**; Cr **29.99**; Pb **12.37**. Location E3 returned the highest sediment values. Pb was below the quantification limit in three of the four sediment samples; all four leaf samples were below the quantification limit for Cr and Pb, so those concentrations are estimates extrapolated from fortification recoveries.
-- *Rhizophora mangle* leaves (mg/kg, three location-specific means reported in the text): Cd **2.21 / 2.23 / 4.38**; Cr **4.22**; Pb **3.29 / 3.35**. RSDs 5.88/5.83/5.00 % for Cd/Cr/Pb, recoveries 80.89–106.10 %. The text states sediment and leaf concentrations were highest at locations E1, E2, and E3 for Pb, Cr, and Cd respectively, and that neither matrix correlated with bivalve tissue concentrations (Pearson r 0.0731–0.0778 across the three metals in *A. tuberculosa*; in *A. similis* r 0.3356 / 0.8393 / 0.0105 for Cd/Cr/Pb).
+- *Rhizophora mangle* leaves (mg/kg). The paper reports the leaf means in two places that disagree by small amounts: the body Discussion (p. 6) gives **Cd 2.21, Cr 4.38, Pb 3.29 mg/kg**; the Abstract (p. 1) gives **Cd 2.23, Cr 4.22, Pb 3.35 mg/kg**. RSDs 5.88 / 5.83 / 5.00 % for Cd / Cr / Pb (body), recoveries 80.89–106.10 %. The text states the leaf concentrations were highest at locations E1, E2, and E3 for Pb, Cr, and Cd respectively, and neither leaf nor sediment correlated with bivalve tissue concentrations (Pearson r 0.0731 / 0.0722 / 0.0778 across Cd / Cr / Pb in *A. tuberculosa*; r 0.3356 / 0.8393 / 0.0105 for Cd / Cr / Pb in *A. similis*).
 
 Regulatory comparators discussed by the authors:
 
@@ -104,7 +104,7 @@ The authors conclude that Cd is the dominant risk metal: even at minimum tissue 
 
 Sampling sites: four locations across the Santa Rosa community within the REMACAM concession (Esmeraldas Province, northwestern Ecuador). Local community members harvested bivalves by hand for 1 h per session using their normal harvesting technique, without size pre-selection. Fifty composite samples (~10 specimens each) were formed across the four sites and two species. Four sediment subsurface samples (~30 cm depth) were extracted with a stainless steel scoop per US EPA SESDPROC-200-R3 procedure, and four *Rhizophora mangle* leaf samples were collected per location.
 
-Samples were stored in self-sealing plastic bags, refrigerated, and transferred to the Environmental Management Laboratory of Pontificia Universidad Católica del Ecuador, Esmeraldas (PUCE-Esmeraldas) for classification by species/length/width into 18 subgroups. Soft tissues were dissected, washed with high-quality reagent water (18.2 MΩ·cm at 25 °C), oven-dried at 60 °C to constant weight after 72 h (water content also measured at 105 °C), and milled. About 0.5 g of milled tissue was digested in 7 mL of 65% HNO₃ (Fisher Chemical) in Teflon vials in a CEM MARS 6 microwave digester per method IPN AC-06-00 (CIIEMAD-IPN 2011), then filtered and brought to 25 cm³ final volume. Metals were quantified by flame atomic absorption spectrophotometry on a Perkin Elmer AAnalyst 400. Calibration covered 0.01–1.00 mg/L for Cd and 0.3–5.0 mg/L for Cr and Pb. Triplicate analyses, fortifications, and certified reference material DORM-4 (National Research Council Canada fish protein) provided quality control. Sediments were processed per US EPA Method 3051A and leaves per the in-house natural-flour method validated for plant tissues (Romero-Estévez et al. 2019). Both environmental matrices were analyzed on the same FAAS instrument.
+Samples were stored in self-sealing plastic bags, refrigerated, and transferred to the Environmental Management Laboratory of Pontificia Universidad Católica del Ecuador, Esmeraldas (PUCE-Esmeraldas) for classification by species/length/width into 18 subgroups. Soft tissues were dissected, washed with high-quality reagent water (18.2 MΩ·cm at 25 °C), oven-dried at 60 °C to constant weight after 72 h (water content also measured at 105 °C), and milled. About 0.5 g of milled tissue was digested in 7 mL of 65% HNO₃ (Fisher Chemical) in Teflon vials in a CEM MARS 6 microwave digester per method IPN AC-06-00 (CIIEMAD-IPN 2011), then filtered and brought to 25 cm³ final volume. Metals were quantified by flame atomic absorption spectrophotometry on a Perkin Elmer AAnalyst 400. Calibration covered 0.01–1.00 mg/L for Cd and 0.3–5.0 mg/L for Cr and Pb. Triplicate analyses, fortifications, and certified reference material DORM-4 (National Research Council Canada fish protein) provided quality control. Sediments were processed per US EPA Method 3051A and leaves per the natural food method validated for plant tissues (Romero-Estévez et al. 2019). Both environmental matrices were analyzed on the same FAAS instrument.
 
 Detection limits (analytical): Cd 0.15 mg/kg, Cr 0.55 mg/kg, Pb 0.45 mg/L (the paper states mg/L for the Pb detection limit; both Cr and Pb LOQs are 15.0 mg/kg). Quantification limits: Cd 0.5 mg/kg, Cr 15.0 mg/kg, Pb 15.0 mg/kg. AOAC 2002 quality criteria: RSD acceptance limit 11 %, accuracy acceptance limits 80–115 %. The certified reference material recoveries reported were 84.91 % (Cd), 86.19 % (Cr), and 91.59 % (Pb).
 
@@ -138,7 +138,7 @@ For routing purposes, the source belongs to bivalve-molluscs, shellfish, and sea
 - [[metals/lead]]
 - [[regulations/eu-1881-2006-contaminants-superseded]]
 - [[regulations/epa-iris-cadmium-rfd]]
-- [[regulations/epa-iris-lead-rfd]]
+- [[regulations/codex-cadmium-mls]]
 
 ## Sources
 
@@ -153,4 +153,13 @@ For routing purposes, the source belongs to bivalve-molluscs, shellfish, and sea
 - Pb and Cr tissue concentrations are below the analytical quantification limit of 15 mg/kg; reported values are extrapolated from fortification recoveries (authors' explicit acknowledgment). This is flagged in the Key numbers section and in Limitations rather than presented as direct quantification.
 - The 1881/2006 cross-link is to the superseded EU contaminants framework because that is the version the paper itself cites (the paper is from 2020; EU 2023/915 came after publication).
 - Sediment and *Rhizophora mangle* leaves are environmental matrices, not food. They are included in Key numbers because they are part of the paper's Cd / Cr / Pb story and inform the discussion of bioaccumulation pathways, but they do not route to product or ingredient pages.
-- Bivalve species *Prototheca asperrima* and *Polymesoda inflata* are mentioned in the Results as single-composite passing samples; they are not assessed for human-health risk and the page records them as a single bullet under "Other bivalve species" rather than treating them as quantitative occurrence data.
+- Bivalve species *Protothaca asperrima* and *Polymesoda inflata* are mentioned in the Results as single-composite passing samples; they are not assessed for human-health risk and the page records them as a single bullet under "Other bivalve species" rather than treating them as quantitative occurrence data.
+- 2026-06-03 Claude audit subagent (fresh context) verdict: REVISE. Three findings applied:
+  - Check 1 — *Protothaca asperrima* spelling: subagent flagged the Key numbers bullet and an earlier Verification note as "*Prototheca asperrima*" (typo); verified against PDF p. 5 — the paper reads "*Protothaca asperrima*". Frontmatter `sample_population` already used the correct spelling. Body and notes corrected.
+  - Check 1 — *Rhizophora mangle* leaf means: subagent flagged the prior rendering "Cd 2.21 / 2.23 / 4.38; Cr 4.22; Pb 3.29 / 3.35" as confusing (the "4.38" is in fact the body-text Cr mean, not a Cd value). Verified against PDF p. 1 (Abstract) and p. 6 (Discussion) — the two passages give slightly different leaf means (body Cd 2.21 / Cr 4.38 / Pb 3.29; abstract Cd 2.23 / Cr 4.22 / Pb 3.35). Rewritten to state both source passages explicitly and to attribute each value to the right analyte.
+  - Check 2 — `[[regulations/epa-iris-lead-rfd]]` cross-link: the source explicitly states "There is no US EPA RfD value for Pb" (PDF p. 2) and uses the FDA 2019 interim reference level (0.003 mg/day children, 0.0125 mg/day adults) as its Pb comparator. The EPA IRIS Pb RfD page is therefore not the right routing target. Removed the cross-link. No `regulations/fda-pb-interim-reference-level` slug exists in the current taxonomy snapshot; flagging here for Karen's review as a candidate regulation page rather than inventing a slug.
+- 2026-06-03 Claude audit subagent (second pass, fresh context) verdict: REVISE. Four findings applied:
+  - Check 1 — Pb RSD at *A. tuberculosa* E2 "Playa la Tumba": prior version recorded **5.39**; verified against PDF p. 5, Table 1 — the cell reads "0.311* 3.94 98.26". Corrected to **3.94**.
+  - Check 1 — Cr accuracy upper bound at *A. similis* E3 "Playa al otro lado": prior version recorded **100.11**; verified against PDF p. 5, Table 1 — the Cr accuracy column reads "91.01–100.00". Corrected to **100.00**.
+  - Check 3 — Methods terminology: prior version said "in-house natural-flour method"; verified against PDF p. 4 — the paper reads "natural food method validated for its use in plant tissues (Romero-Estévez et al., 2019)". Corrected to "natural food method".
+  - Check 2 — Routing destinations: prior version omitted `[[regulations/codex-cadmium-mls]]`; the paper explicitly cites the FAO/WHO Codex CXS 193 Cd 2.0 mg/kg fresh-weight bivalve threshold on p. 2. Added.
