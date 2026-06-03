@@ -15,6 +15,9 @@ near_duplicates:
   - path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/08b_EFSA_cadmium_food_2009_alt.pdf"
     sha256: 98bf02ae6ea70d67126784a130b686f30d19dc83fea7d7eeefb6a2d968971581
     note: "Same EFSA Journal 980 opinion, redownloaded by the Kimi agent into the condiments2 folder; merged via the manual-fetch ingest skill."
+  - path: "raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2009 -  - Cadmium in food ‐ Scientific opinion of the Panel on Contaminants in the Food Chain.pdf"
+    sha256: 8e3676280e99b6fcef52bae5613106c1bdd567966f242b07a6a5a5fb31acc839
+    note: "Same EFSA Journal 980 opinion, redownloaded by the Kimi agent into the June 3 Folder; recorded via the manual-fetch ingest skill. Content identical on spot-checks of pp. 1–3 against the canonical raw_path."
 access_date: 2026-04-24
 access_url: https://www.efsa.europa.eu/en/efsajournal/pub/980
 license: public-reference-only
@@ -27,7 +30,7 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: [2003, 2007]
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 # EFSA CONTAM 2009 — Cadmium in Food
@@ -126,6 +129,8 @@ A 2011 EFSA statement reaffirmed this TWI after JECFA published a divergent prov
 
 2026-06-02 — Audit subagent (general-purpose, fresh context) verdict REVISE. Checks 1, 3, 4, 5 all ✅ (numerical fidelity verified table-by-table against the PDF; methods/speciation accurate; brand firewall clean; wiki/HMTc firewall clean). Check 2 ⚠️ flagged `products: [infant-formula]` as not in the taxonomy snapshot — verified false positive: `wiki/products/infant-formula.md` exists in the live wiki, and the routing audit resolves the slug cleanly (one `direct_evidence` row for `infant-formula` plus four `broad_formula_context` rows fanning to the form-specific siblings, which is the Part 5b broad-scope pattern). The snapshot at `docs/gpt-collaboration/taxonomy-snapshot.md` is stale relative to the live wiki for this slug. No page change applied. The matrices entries `dietary-intake` and `urine` are also not enumerated in the snapshot's matrices section but are accepted by routing (the advisory flag has cleared); they describe the actual analytical scope of this opinion.
 
+2026-06-03 — Third copy of the same EFSA Journal 980 opinion surfaced in `raw/Manual Fetch Kimi /June 3 Folder/EFSA Journal - 2009 -  - Cadmium in food ‐ Scientific opinion of the Panel on Contaminants in the Food Chain.pdf` (sha256 8e367628…). DOI grep, raw_handle grep, and cite-key grep all confirm this is the same paper already at `efsa-cadmium-contam-2009`. Spot-checked pp. 1–3 of the June 3 PDF against the existing page's Key numbers — TWI 2.5 µg/kg b.w./week, daily intake 0.36, BMDL5 4 µg U-Cd/g creatinine, CSAF 3.9, reference U-Cd 1.0, adult mean 2.3 (range 1.9–3.0), high consumer 3.0 (range 2.5–3.9), vegetarian 5.4, bivalve 4.6, wild mushroom 4.3, 140,000 samples 2003–2007 from 20 EU Member States — all match. Recorded the June 3 PDF as a third `near_duplicates` entry; no page content changed.
+
 <!-- BEGIN: hmi-page-history -->
 ## Page history
 
@@ -133,9 +138,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [7cef04d](https://github.com/paleofoundation/heavymetalindex/commit/7cef04d) | 2026-06-02 | audit: efsa-cadmium-contam-2009 promoted-with-notes |
 | [4cb451f](https://github.com/paleofoundation/heavymetalindex/commit/4cb451f) | 2026-06-02 | ingest: efsa-cadmium-contam-2009 enhanced from manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
+| [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
