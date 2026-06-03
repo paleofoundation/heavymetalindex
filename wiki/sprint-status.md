@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-03T09:14:37.818Z
+updated: 2026-06-03T13:06:36.530Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -29,14 +29,14 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Component | State |
 |---|---|
 | Daemon heartbeat | ⚠️ unknown |
-| auto-fetched/ PDFs in queue | 428 (fresh work for Codex/daemon ingest) |
+| auto-fetched/ PDFs in queue | 451 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
-| Audit queue: pending-audit-spawn-failed | 94 (async lane) |
-| Wishlist: total downloaded historically | 0 |
+| Audit queue: pending-audit-spawn-failed | 95 (async lane) |
+| Wishlist: total downloaded historically | 8 |
 | Wishlist: total ingested historically | 0 |
-| Repo sync | ✅ synced |
-| Commits last 1 hour | 19 |
-| Commits last 24 hours | 409 |
+| Repo sync | ⚠️ 2 commit(s) ahead of origin/main |
+| Commits last 1 hour | 20 |
+| Commits last 24 hours | 341 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-0361ed7 9 minutes ago — codex run 2026-06-03 0908: auto-fetched partial fire
+dfdb5ef 7 minutes ago — fix(data): add EU 2023/915 inorganic-tin 200/100 mg/kg rows to regulatory_limits.csv
 ```
 
 ## How to read this
