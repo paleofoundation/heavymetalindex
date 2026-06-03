@@ -21,7 +21,7 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-04-25
+updated: 2026-06-03
 ---
 
 # EFSA CONTAM 2020 — Nickel in Food and Drinking Water
@@ -29,6 +29,10 @@ updated: 2026-04-25
 ## Summary
 
 The EFSA CONTAM Panel update of the risk assessment of nickel in food and drinking water (adopted September 2020, EFSA Journal 2020;18(11):6268) establishes a tolerable daily intake (TDI) for chronic oral nickel exposure of **13 µg Ni/kg body weight per day**, anchored on increased post-implantation loss in rats with a BMDL10 of 1.3 mg Ni/kg/day as the reference point. For acute oral exposure, the Panel identified eczematous flare-up reactions in nickel-sensitized humans (systemic contact dermatitis) as the critical effect, with a LOAEL of 4.3 µg Ni/kg bw. The Panel applied a margin-of-exposure approach for acute exposure with MOE ≥ 30 considered low concern. The assessment used more than 47,000 European nickel occurrence data points.
+
+The assessment's central regulatory conclusion is an exceedance: estimated chronic dietary nickel exposure exceeds the TDI in the youngest consumers. The 95th-percentile chronic exposure generally exceeded the TDI in toddlers and other children, and in infants in some surveys, while remaining below or at the TDI in adolescents and adults. The Panel concluded this exceedance may raise health concerns in those young age groups, noting that even though the post-implantation-loss endpoint that anchors the TDI is not itself relevant to children, the TDI is also protective for effects that are, such as neurotoxic effects. For the roughly 15 percent of the population who are nickel-sensitized, the margin of exposure of 30 needed to protect against acute eczematous flare-up reactions (systemic contact dermatitis) is not achieved at mean or 95th-percentile exposure, which the Panel concluded raises an acute health concern. This exceedance is the scientific basis the European Commission cited when it set maximum levels for nickel in food and issued [[regulations/eu-2024-907-nickel-monitoring|Commission Recommendation (EU) 2024/907]] directing Member States to monitor nickel across chocolate, cereals, tea, soy, nuts and other high-nickel foods through 2027.
+
+_Provenance note (2026-06-03): the canonical ingested PDF is at the `raw_path` above (sha256 dd04aab…). A second identical copy of this opinion was supplied 2026-06-03 at `raw/Manual Fetch Kimi /June 3 Folder/EFS2-18-e06268.pdf` (sha256 b83f35fd…); it is the same EFSA Journal 2020;18(11):6268 and required no separate ingest._
 
 | Parameter | Value |
 | --- | --- |
@@ -39,6 +43,9 @@ The EFSA CONTAM Panel update of the risk assessment of nickel in food and drinki
 | Acute LOAEL | 4.3 µg Ni/kg b.w. |
 | MOE threshold for low concern | ≥ 30 |
 | Occurrence dataset | More than 47,000 European data points |
+| Chronic exposure vs TDI | 95th-percentile exposure exceeds the TDI in toddlers, other children, and some infants |
+| Nickel-sensitized population | ~15%; acute MOE of 30 not achieved at mean or 95th-percentile exposure |
+| Downstream EU action | Maximum levels established for nickel in food; monitoring directed by Recommendation (EU) 2024/907 |
 
 ## Wiki pages updated on ingest
 
@@ -52,9 +59,9 @@ The five most recent substantive edits to this page. The full version history li
 
 | Commit | Date | Description |
 | --- | --- | --- |
-| [566c7b2](https://github.com/paleofoundation/heavymetalindex/commit/566c7b2) | 2026-06-02 | codex sprint 2026-06-02 10:03: end-of-fire cleanup |
 | [c3909aa](https://github.com/paleofoundation/heavymetalindex/commit/c3909aa) | 2026-06-02 | codex sprint 2026-06-02 01:35: end-of-fire cleanup |
 | [1c410cb](https://github.com/paleofoundation/heavymetalindex/commit/1c410cb) | 2026-06-01 | codex sprint 2026-06-01 0715: end-of-fire cleanup |
 | [c660ae7](https://github.com/paleofoundation/heavymetalindex/commit/c660ae7) | 2026-06-01 | codex sprint 2026-06-01 03:04: end-of-fire cleanup |
 | [b81f32c](https://github.com/paleofoundation/heavymetalindex/commit/b81f32c) | 2026-06-01 | codex sprint 2026-06-01 0339: end-of-fire cleanup |
+| [8cae8bf](https://github.com/paleofoundation/heavymetalindex/commit/8cae8bf) | 2026-06-01 | codex sprint 2026-05-31 23:45: end-of-fire cleanup |
 <!-- END: hmi-page-history -->
