@@ -16,8 +16,8 @@ license: "BfR open publication"
 raw_path: "raw/Manual Fetch Kimi /June 3 Folder/[AUTO-DE] FAQs about aluminium in food and products intended for consumers.pdf"
 raw_sha256: "1463cb4028e009ef6d51c8076a320b6fcd0f2da59850c80f737c4f2f96193816"
 metals: [Al]
-ingredients: ["[[ingredients/tea]]", "[[ingredients/cocoa]]", "[[ingredients/bread]]"]
-products: ["[[products/deodorants]]", "[[products/lipstick]]", "[[products/toothpaste]]", "[[products/sun-suntan-products]]", "[[products/infant-formula-powder]]", "[[products/cookware-metal-alloy]]", "[[products/food-packaging-foils-wraps]]"]
+ingredients: ["[[ingredients/tea]]", "[[ingredients/cocoa]]", "[[ingredients/bread]]", "[[ingredients/vegetables]]"]
+products: ["[[products/deodorants]]", "[[products/lipstick]]", "[[products/toothpaste]]", "[[products/sun-suntan-products]]", "[[products/infant-formula-powder]]", "[[products/cookware-metal-alloy]]", "[[products/food-packaging-foils-wraps]]", "[[products/bread-and-baked-goods]]"]
 matrices: []
 jurisdictions: [DE, EU]
 near_duplicates: []
@@ -85,13 +85,28 @@ The German Federal Institute for Risk Assessment (BfR) issued this consumer-faci
 
 ## Practical exposure-reduction guidance issued
 
-The FAQ records the BfR's consumer guidance on reducing avoidable aluminium exposure:
+The FAQ records the BfR's consumer-facing positions on reducing avoidable aluminium exposure:
 
-- Do not store, heat, or keep warm acidic or salty foods in aluminium foil, uncoated aluminium grill trays, uncoated aluminium food trays, or uncoated aluminium cooking pots and pressure cookers. Listed acidic/salty examples include cut apples, tomatoes, rhubarb, salted herring, marinated fish, cheese, apple purée, tomato purée. Stainless steel or coated alternatives are preferable.
-- For grilling, the BfR considers aluminium-tray use justifiable because it prevents fat-dripping-induced PAH formation, but grilled meat should only be salted and seasoned after cooking; non-aluminium trays (stainless steel, ceramic) are alternatives.
-- Aluminium espresso makers contribute only a small share of total exposure and may be used; the BfR recommends not washing them in a dishwasher (which removes the protective oxide layer). Aluminium espresso capsules are coated on the inside and do not release aluminium into the beverage. Thermal flasks generally do not expose liquid to aluminium parts.
-- Reducing or omitting whitening (abrasive) toothpaste reduces aluminium absorption from cosmetics.
-- The general dietary recommendation to vary food sources reduces partial exposure to any single contaminant, including aluminium.
+- The BfR states that acidic or salty foods should not be stored, heated, or kept warm in aluminium foil, uncoated aluminium grill trays, uncoated aluminium food trays, or uncoated aluminium cooking pots and pressure cookers, because aluminium solubility increases under acid and salt exposure. Examples the BfR lists include cut apples, tomatoes, rhubarb, salted herring, marinated fish, cheese, apple purée, and tomato purée. The FAQ identifies reusable stainless steel trays and coated aluminium trays as the BfR's recommended alternatives.
+- The BfR considers aluminium-tray use for grilling justifiable because it prevents fat-dripping-induced PAH formation; the FAQ recommends salting and seasoning grilled meat only after cooking, and notes stainless steel or ceramic grill trays as alternatives.
+- The BfR records that aluminium espresso makers contribute only a small share of total exposure and sees no reason to advise against their use, but recommends not washing them in a dishwasher (which removes the protective oxide layer). The FAQ states that aluminium espresso capsules are coated on the inside and do not release aluminium into the beverage, and that thermal flasks are generally constructed so that aluminium parts do not contact the liquid.
+- The BfR states that reducing or omitting whitening (abrasive) toothpaste use reduces aluminium absorption from cosmetics.
+- The BfR's general dietary recommendation in the FAQ is variety of food sources to reduce partial exposure to any single contaminant, including aluminium.
+
+## Verification notes
+
+Routing-frontmatter decisions made during ingest:
+
+- **`products: bread-and-baked-goods` added** to route the FAQ's substantive lye-pretzels finding (BfR detection of >10 mg/kg in baked lye products, with the 2002 reduction recommendation not yet fully implemented) onto the broad baked-goods product page rather than only the bread ingredient page. The taxonomy snapshot has no `pretzel`-specific or `lye-pastry` slug; `bread-and-baked-goods` is the appropriate umbrella.
+- **`ingredients: vegetables` added** for the BfR's "mixed raw vegetable salads (8%)" finding among top adult dietary Al contributors. The taxonomy snapshot offers `vegetables`, `leafy-vegetables`, `non-root-vegetables`, and several specific vegetables; the BfR's "Rohkostsalat" framing covers a heterogeneous raw-vegetable category (not exclusively leafy), so the broadest accurate slug `vegetables` is chosen.
+- **`infant-formula-powder` only** (not soy/non-soy split) — the BfR FAQ contrasts breast milk vs infant/follow-on formula in general, and notes that "specially adapted baby foods (soy-based, lactose-free, hypoallergenic) can contain significantly higher amounts of aluminium" without giving a soy-vs-non-soy split for standard infant formula. The routing audit's broad-powder-context rows for both soy/non-soy locked rows are appropriate; this source does not itself resolve the soy/non-soy row split.
+- **`matrices: []`** — this is a risk-communication FAQ with no analytical matrix of its own; the analytical matrices are in the underlying BfR opinions, not in this document. Leaving the matrices array empty triggers an advisory-severity malformed entry in the routing audit, consistent with Karen's standing decision to treat optional-routing-input absence as advisory rather than blocking.
+
+Audit-application notes:
+
+- Audit subagent (2026-06-03) flagged missing `[[products/bread-and-baked-goods]]` slug; verified against PDF p.5 lye-pretzels section — added.
+- Audit subagent (2026-06-03) flagged missing vegetable ingredient slug for the "mixed raw vegetable salads (8%)" finding; verified against PDF p.3 — added `[[ingredients/vegetables]]`.
+- Audit subagent (2026-06-03) flagged that the Practical exposure-reduction guidance bullets read as wiki-voice imperatives rather than BfR-attributed positions; verified against PDF pp.2-3, p.5, p.7 — bullets reframed to clearly attribute each recommendation to the BfR.
 
 ## Methods (brief)
 
