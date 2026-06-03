@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-03T05:00:24.899Z
+updated: 2026-06-03T07:17:04.339Z
 ---
 
 # Sprint Status — 95% Confidence Push
@@ -31,12 +31,12 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 | Daemon heartbeat | ⚠️ unknown |
 | auto-fetched/ PDFs in queue | 428 (fresh work for Codex/daemon ingest) |
 | Audit queue: pending | 1 ✅ |
-| Audit queue: pending-audit-spawn-failed | 87 (async lane) |
-| Wishlist: total downloaded historically | 34 |
+| Audit queue: pending-audit-spawn-failed | 88 (async lane) |
+| Wishlist: total downloaded historically | 0 |
 | Wishlist: total ingested historically | 0 |
 | Repo sync | ✅ synced |
-| Commits last 1 hour | 15 |
-| Commits last 24 hours | 384 |
+| Commits last 1 hour | 18 |
+| Commits last 24 hours | 391 |
 
 ## Most-needy ingredients (top 10 by total source-delta)
 
@@ -56,7 +56,7 @@ Velocity: (insufficient history; need 1+ hour of dashboard runs)
 ## Last commit
 
 ```
-6604a49 3 minutes ago — codex run 2026-06-03 0504: auto-fetched ingest report
+4fde098 16 minutes ago — audit: majlesi2017-khersan-river-fish-iran [promoted]
 ```
 
 ## How to read this
