@@ -152,6 +152,41 @@ const inheritedProductRoutes = new Map([
         "Source is declared for packaged fruit juice; keep contextual until canned status, juice type, and analyte species are resolved.",
     },
   ],
+  // Cat 7 sub-variants aliased up to their locked parent rows (Karen, 2026-06-02).
+  // These were autonomy_v0 stub pages without hmtc_row, so the routing layer
+  // silently dropped their declarations (Check 3 backlog). They are not their
+  // own HMTc rows; their evidence is broad context for the parent row until row
+  // fit (e.g., tin vs tomato-Cd) is resolved during synthesis.
+  [
+    "canned-tomatoes",
+    { route_kind: "broad_product_context", product_slugs: ["canned-foods-general"],
+      route_note: "Canned tomato evidence routed to the canned-foods row (Row 11); review tin vs tomato-Cd/Pb fit during synthesis." },
+  ],
+  [
+    "canned-vegetables",
+    { route_kind: "broad_product_context", product_slugs: ["canned-foods-general"],
+      route_note: "Canned vegetable evidence routed to the canned-foods row (Row 11); review row fit during synthesis." },
+  ],
+  [
+    "canned-fruit",
+    { route_kind: "broad_product_context", product_slugs: ["canned-foods-general"],
+      route_note: "Canned fruit evidence routed to the canned-foods row (Row 11); review row fit during synthesis." },
+  ],
+  [
+    "tomato-paste",
+    { route_kind: "broad_product_context", product_slugs: ["canned-foods-general"],
+      route_note: "Tomato paste evidence routed to the canned-foods row (Row 11); review row fit during synthesis." },
+  ],
+  [
+    "tomato-sauce",
+    { route_kind: "broad_product_context", product_slugs: ["canned-foods-general"],
+      route_note: "Tomato sauce evidence routed to the canned-foods row (Row 11); a future condiments split may reclaim it." },
+  ],
+  [
+    "snacks-crackers-biscuits",
+    { route_kind: "broad_product_context", product_slugs: ["snacks-general"],
+      route_note: "Crackers/biscuits evidence routed to the snacks row (Row 10); review rice-based vs non-rice fit during synthesis." },
+  ],
 ])
 
 const productPages = new Map(

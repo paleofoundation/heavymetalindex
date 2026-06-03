@@ -112,6 +112,15 @@ const broadProductScopes = new Set([
   "cereal",
   "disposable-baby-diapers",
   "whitening-cream",
+  // Cat 7 sub-variants aliased up to parent rows (see inheritedProductRoutes in
+  // tools/audit-product-source-routing.mjs). Declared by sources but not their
+  // own HMTc rows; their evidence fans out to canned-foods-general / snacks-general.
+  "canned-tomatoes",
+  "canned-vegetables",
+  "canned-fruit",
+  "tomato-paste",
+  "tomato-sauce",
+  "snacks-crackers-biscuits",
 ])
 
 // Required frontmatter fields for a source page to be placeable by the

@@ -201,6 +201,9 @@ const broadScopeExempt = new Set([
   "rice-containing-products","canned-foods","canned-meat","processed-meat","pork-products",
   "cooking-oils","milk-powder","yoghurt","vinegar","tomato-juice","hot-sauce","fish-sauce",
   "confectionery","bakery","cereal","disposable-baby-diapers","whitening-cream",
+  // Cat 7 sub-variants aliased up to parent rows via inheritedProductRoutes.
+  "canned-tomatoes","canned-vegetables","canned-fruit","tomato-paste","tomato-sauce",
+  "snacks-crackers-biscuits",
 ])
 
 for (const file of productFiles) {
