@@ -22,7 +22,7 @@ jurisdictions: [EU]
 superseded_by: efsa2021-chronic-exposure-iAs
 sample_n: 103773
 wiki_doi: null
-sampling_locations: [AT, BE, CY, CZ, DE, DK, EE, ES, FI, FR, GR, HU, IE, IT, LT, NL, NO, PL, PT, SE, SI, SK, UK]
+sampling_locations: [AT, BE, CY, CZ, DE, DK, EE, ES, FI, FR, GR, HU, IE, IT, LT, NO, PL, PT, SI, SK, UK]
 sampling_year_range: [2003, 2012]
 updated: 2026-06-03
 ---
@@ -88,8 +88,8 @@ Mean iAs in selected high-exposure food groups (Tables 4, 20, 21, pp. 18–19, 3
 | Follow-on formulae, powder (unspecified) | 17 | 25.7 | 30.8 | 35.8 |
 | Fibre supplements (based on rice) | 14 (8) | 1486.0 | 1486.0 | 1486.0 |
 | Algae formula (e.g. Spirulina, Chlorella) | 134 (1) | 6132.5 | 6133.8 | 6135.0 |
-| Hijiki seaweed (excluded from exposure assessment) | 10 (9) | 66700 | 77400 | 96100 |
-| Tap water (mean) | – | 1.3 | 1.6 | 2.0 |
+| Hijiki seaweed (excluded from exposure assessment; min / mean / max raw, not LB/MB/UB) | 10 (9) | 66700 (min) | 77400 (mean) | 96100 (max) |
+| Tap water (mean) | 15383 | 1.1 | 1.6 | 2.0 |
 
 Rice-based infant food exposure at three 30-g portions (90 g/day) for an infant of 6 months and 6.1 kg body weight (Table 27, p. 51):
 
@@ -173,7 +173,7 @@ The Panel notes that mean adult exposure in this 2014 report (0.09–0.38 µg/kg
 
 ## Methods (brief)
 
-Occurrence data were assembled from EFSA's continuous annual call for chemical occurrence data (Evidence Management Unit) plus the dedicated 2008 arsenic data call that supported the 2009 EFSA CONTAM Opinion. Data were extracted from the EFSA chemical occurrence database in August 2013 covering sampling years 2003–2012. Cleaning excluded 6,554 results: pre-2003 samples (≈4,325 records); 700 results lacking both LOD and LOQ; 309 'suspect samples'; 931 results with LOQ above the 200 µg/kg cut-off for tAs (cut-off not applied to iAs because LOQ influence on UB was negligible); 172 'Grains as crops' results without identifiable end-use; and nine analytical results 2–3 orders of magnitude above adjacent same-category samples that could not be confirmed with the data provider. Of the 107,646 records retained, 108 (samples collected outside Europe, reported by Spain from Bolivia and Argentina) were excluded from exposure calculations.
+Occurrence data were assembled from EFSA's continuous annual call for chemical occurrence data (Evidence Management Unit) plus the dedicated 2008 arsenic data call that supported the 2009 EFSA CONTAM Opinion. Data were extracted from the EFSA chemical occurrence database in August 2013 covering sampling years 2003–2012. Cleaning excluded 6,554 results: 700 pre-2003 samples (sampling restricted to 2003–2012); 4,325 results lacking both LOD and LOQ; 309 'suspect samples'; 931 results with LOQ above the 200 µg/kg cut-off for tAs (cut-off not applied to iAs because LOQ influence on UB was negligible); 172 'Grains as crops' results without identifiable end-use; and nine analytical results 2–3 orders of magnitude above adjacent same-category samples that could not be confirmed with the data provider. Of the 107,646 records retained, 108 (samples collected outside Europe, reported by Spain from Bolivia and Argentina) were excluded from exposure calculations.
 
 Reported food samples were classified using FoodEx revision 1 (EFSA, 2011a), which contains 20 first-level food groups subdivided to about 1,800 fourth-level end-points. Results reported on a dry-matter basis were converted to whole-weight using sample-specific moisture data. Left-censored data were treated by the substitution method (WHO/IPCS, 2009; EFSA, 2010) at three bounds: LB (<LOD/LOQ set to zero), MB (<LOD/LOQ set to LOD/2 or LOQ/2), and UB (<LOD set to LOD, <LOQ but >LOD set to LOQ). For tAs, minimum and maximum reported LOQs were 0.001 µg/kg (drinking water) and 9,000 µg/kg (tea infusion). For iAs, the range was 0.02 µg/kg (a cucumber sample) to 1,000 µg/kg (one unspecified Snacks, desserts and other foods sample).
 
@@ -209,3 +209,15 @@ The Panel concludes that, overall, the dietary exposure to iAs calculated in thi
 - [[regulations/efsa-arsenic-contam-2009]]
 - [[regulations/eu-2015-1006-iAs-rice]]
 - [[sources/efsa2021-chronic-exposure-iAs]] (superseding update)
+
+## Verification notes
+
+Fresh-context audit subagent (2026-06-03, REVISE verdict) flagged five Check 1 items, two Check 2 items, plus borderline items. Applied corrections after independent re-verification against the PDF:
+
+- Audit subagent flagged tap-water mean LB as 1.3 µg/kg; verified against PDF Table 18 (p. 34: Tap water LB/MB/UB = 1.1 / 1.6 / 2.0, n=15,383) — corrected LB to 1.1 and added the N. The 1.3 value belonged to Drinking water (unspecified).
+- Audit subagent flagged the Hijiki seaweed row as labelling 66,700 / 77,400 / 96,100 µg/kg under LB/MB/UB columns when PDF p. 20 reports those as min / mean / max of the raw distribution ("from 66.7 mg/kg to 96.1 mg/kg, mean = 77.4 mg/kg"); verified — relabelled the row to make min/mean/max explicit. The 11,000 µg/kg LB=MB=UB value in the Table 26 high-consumer scenario (sourced from FSA 2004) remains separate and correct.
+- Audit subagent flagged the data-cleaning narrative for swapping 700 (pre-2003 exclusions) with 4,325 (no-LOD/LOQ exclusions); verified against PDF p. 9 ("Only the most recent occurrence data were used (sampling years 2003-2012), resulting in the exclusion of 700 analytical results. Some 4 325 analytical results were also excluded as they provided neither a limit of detection (LOD) nor a limit of quantification (LOQ)") — corrected the attribution.
+- Audit subagent flagged sampling_locations as containing 23 ISO codes including NL and SE while PDF Figure 1 (p. 10) shows 21 occurrence-data countries; verified — removed NL and SE, which are consumption-survey countries (per Table 2 p. 16) but not occurrence-data reporting countries.
+- Audit subagent flagged the "65 % objective sampling / 28 % no sampling-strategy" claim as unverified; verified against PDF p. 53 ("In this report, 65 % of the samples were collected using objective sampling (random sampling). However, for 28 % of the samples included in the final dataset no information on the sampling strategy was provided") — finding was a false positive, the claim is sourced.
+- Audit subagent flagged `products/infant-formula-rtf-dairy` and `products/milk-and-dairy` as invented slugs not in `docs/gpt-collaboration/taxonomy-snapshot.md`; verified by listing `wiki/products/` — both pages exist (`wiki/products/infant-formula-rtf-dairy.md`, `wiki/products/milk-and-dairy.md`) and the routing audit accepts the references cleanly. False positives caused by a stale taxonomy snapshot; no changes applied.
+- Audit subagent flagged matrices vocabulary item `dietary-intake` as a concept rather than a food medium; left in place — the predecessor source page ([[sources/efsa2021-chronic-exposure-iAs]]) uses the same convention, and changing it here without a taxonomy-level fix would create a single-page divergence.
