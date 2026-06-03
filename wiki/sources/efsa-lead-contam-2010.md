@@ -43,15 +43,15 @@ Critical endpoints and Benchmark Dose Lower Confidence Limits (Section 8.6, Tabl
 
 | Endpoint | Population | Blood-lead BMDL | Equivalent dietary intake (µg/kg b.w./day) |
 | --- | --- | --- | --- |
-| Developmental neurotoxicity (Full Scale IQ, BMR = 1 IQ point) | Children 4–10 y, piecewise-linear model | BMDL₀₁ = 12 µg/L B-Pb (also BMDL₀₁ = 8.1 µg/g tibia bone) | 0.50 (IEUBK model, 20 kg child) |
-| Systolic blood pressure (BMR = 1.2 mmHg ≈ 1 % SBP rise) | Adults | BMDL₀₁ = 36 µg/L B-Pb (arithmetic mean of four studies, range 16–78) | 1.50 (Carlisle and Wade 1992, 60 kg adult) |
+| Developmental neurotoxicity (Full Scale IQ, BMR = 1 IQ point) | Children 4–10 y, piecewise-linear model | BMDL₀₁ = 12 µg/L B-Pb | 0.50 (IEUBK model, 20 kg child) |
+| Systolic blood pressure (BMR = 1.2 mmHg ≈ 1 % SBP rise) | Adults | BMDL₀₁ = 36 µg/L B-Pb (arithmetic mean of four B-Pb studies, range 16–78); BMDL₀₁ = 8.1 µg/g tibia bone (TB-Pb, mean of Cheng 2001 and Glenn 2003) | 1.50 (Carlisle and Wade 1992, 60 kg adult) |
 | Chronic kidney disease (BMR = 10 % rise in CKD prevalence) | Adults | BMDL₁₀ = 15 µg/L B-Pb (log-probit and multistage models on NHANES 1999–2006, n=14,778) | 0.63 (Carlisle and Wade 1992, 60 kg adult) |
 
 Lower-bound (LB) and upper-bound (UB) dietary lead exposures by population subgroup (Table 29, Sections 7.2–7.4):
 
 | Population | Mean exposure (µg/kg b.w./day) | High consumer (µg/kg b.w./day) | Source / cohort |
 | --- | --- | --- | --- |
-| Adults (19 EU countries) | 0.36 (LB) to 1.24 (UB) | 0.73 (LB) to 2.43 (UB) | Table 22, n = 41,628 subjects pooled |
+| Adults (19 EU countries) | 0.36 (LB) to 1.24 (UB) | 0.73 (LB) to 2.43 (UB) | Table 22, n = 37,599 subjects pooled |
 | Women 20–40 y | 0.38 (LB) to 1.28 (UB) | 0.68 (LB) to 2.60 (UB) | Table 28 |
 | Vegetarians (lacto-ovo) | 0.46 (LB) to 1.25 (UB) | 0.80 (LB) to 2.24 (UB) | n = 65 across 5 countries |
 | High game-meat consumer (200 g/week) | 1.98 (LB) to 2.44 (UB) | — | Section 7.4.5 specific diet |
@@ -105,8 +105,8 @@ EU-pooled occurrence statistics for the largest food categories (adjusted means 
 | Infant and follow-on formulae (423) | 0.0044 / 0.0143 | 0.0197 / 0.0800 | 0.055 | 55.3 |
 | Other infant food (947) | 0.0370 / 0.0701 | 0.1000 / 0.1000 | 20.00 (one supplement, retained) | 71.6 |
 | Algae as food (60) | 0.1526 / 0.3000 | 1.099 / 1.099 | 1.500 | 30.0 |
-| Dry herbs (132) | 0.5500 / 0.5500 | 3.542 / 3.542 | 10.50 | 13.6 |
-| Spices (763) | 0.1380 / 0.2000 | 0.6036 / 0.9592 | 34.88 | 32.2 |
+| Dry herbs (132) | 0.8809 / 0.8896 | 3.542 / 3.542 | 10.50 | 13.6 |
+| Spices (763) | 0.3313 / 0.3644 | 0.9592 / 0.9592 | 34.88 | 32.2 |
 
 Breast-milk and infant-formula occurrence (Section 5.7):
 
@@ -125,7 +125,7 @@ Toxicokinetic anchors (Section 8.1):
 | Adult absorption with meal | 3–21 % (mean ≈ 8 %) | Heard and Chamberlain, 1982 |
 | Infant rat / juvenile primate absorption | 40–50 × adult-rat rate; 38 % juvenile vs 26 % adult Rhesus | Aungst 1981; Pounds 1978 |
 | Body burden in adults | ≈ 90 % in bone | Various; ATSDR 2007 |
-| Body burden in children | ≈ 70 % in bone | Aufderheide and Wittmers, 1992 |
+| Body burden in children | ≈ 70 % in bone, rising with age | Section 8.1.2 p. 66; Aufderheide and Wittmers, 1992 is cited there only for trabecular-vs-cortical distribution |
 | Half-life in blood | ≈ 30 days | Rabinowitz, 1991 |
 | Half-life in bone | 10–30 years | Rabinowitz, 1991 |
 | Fetal/maternal cord B-Pb ratio | ≈ 0.9 (cord/maternal 0.93 over 30–400 µg/L range, n = 888 pairs) | Graziano et al., 1990 |
@@ -133,7 +133,7 @@ Toxicokinetic anchors (Section 8.1):
 | Estimated dietary contribution to infant B-Pb (breast-fed) | 36–80 % at 60–90 d postpartum | Gulson et al., 1998 |
 | Estimated formula contribution to formula-fed infant B-Pb | 24–68 % | Gulson et al., 1998 |
 | Air→B-Pb conversion (adult) | +16.4 µg/L per +1 µg/m³ air Pb | CDC, 1991 |
-| Soil→B-Pb conversion (child) | +1.6 µg/L per 1 µg/day from soil | Carlisle and Wade, 1992 |
+| Diet- or water-Pb→B-Pb conversion | +1.6 µg/L per 1 µg/day in children; +0.4 µg/L per 1 µg/day in adults | Carlisle and Wade, 1992 (cited p. 68) |
 
 Non-dietary exposure summary (Table 29):
 
@@ -172,6 +172,20 @@ Microbiome: Not directly addressed by this opinion.
 - Game-meat numbers retain the source's own attribution as "high consumer" exposures rather than category means — the 867 mg/kg maximum is for wild pig muscle near a shot wound (sample retained by EFSA after removal of a 3,090 mg/kg outlier). This is the cleanest defensible reading of Table 14 and the surrounding paragraph.
 - No brand names appear in this source (it is a pooled regulatory occurrence assessment), so the Part 12 firewall is not engaged.
 - No HMTc threshold proposals or consumer-translation language added; opinion's published conclusions on PTWI inappropriateness are quoted but not extended.
+
+### 2026-06-03 audit-subagent corrections applied
+
+Fresh-context general-purpose audit subagent (verdict REVISE) flagged six numerical / attribution defects; all six were independently re-verified against the source PDF and corrected:
+
+- BMDL₀₁ = 8.1 µg/g tibia bone moved from the developmental-neurotoxicity row to the SBP row. Verified against PDF p. 99 ("Effects on SBP in adults: BMDL₀₁ = 8.1 µg/g (TB-Pb)") and Table 34 p. 97 (TB-Pb BMDL₀₁ derived from Cheng 2001 = 6.5 and Glenn 2003 = 9.7, arithmetic mean 8.1, both for SBP not IQ). The 12 µg/L B-Pb is the only BMDL for developmental neurotoxicity.
+- Dry herbs mean corrected from 0.5500/0.5500 (LB/UB) to 0.8809/0.8896. The 0.5500 figures are the medians per Table 18 p. 44; the means are 0.8809 LB and 0.8896 UB.
+- Spices mean corrected from 0.1380/0.2000 to 0.3313/0.3644. The 0.1380/0.2000 figures are the medians per Table 18; the means are 0.3313 LB and 0.3644 UB.
+- Spices P95 corrected from 0.6036/0.9592 to 0.9592/0.9592. The 0.6036 value is the P95 LB for the Salt row in Table 18, not Spices.
+- Adult pooled exposure sample size corrected from "n = 41,628" to "n = 37,599". The latter is the actual sum of country N values in Table 22 (p. 51); 41,628 was not supported by the source.
+- Diet/water-Pb→B-Pb conversion row reworded from "Soil→B-Pb conversion (child) +1.6 µg/L per 1 µg/day from soil" to "Diet- or water-Pb→B-Pb conversion: +1.6 µg/L per 1 µg/day in children; +0.4 µg/L per 1 µg/day in adults (Carlisle and Wade, 1992, cited p. 68)." The original wording misattributed the pathway as soil; the source p. 68 specifies diet or water for the 1.6 / 0.4 µg/L coefficients.
+- Bone-burden row attribution reworded to cite Section 8.1.2 p. 66 (where the 70 % figure appears with no inline citation) and to clarify that Aufderheide and Wittmers (1992) is cited there only for the trabecular-vs-cortical distribution.
+
+Subagent's minor-stylistic concerns about children's survey-count attributions ("9 surveys" for 1–3 y, "9–13 surveys" for 4–7 y) and vegetarian "5 countries" were retained as-is after independent verification: Table 24 actually shows surveys per age 1=6, 2=8, 3=9 and 4=13, 5=13, 6=13, 7=9, so the wiki ranges reflect endpoint counts, which is conventional rather than incorrect; and Section 6.3 p. 48 confirms 65 lacto-ovo-vegetarians from 5 countries (DK was the sixth language-screened country and contributed zero). Subagent's audit did not flag any wiki/HMTc, brand-firewall, or speciation issues; verdict was REVISE only on numerical fidelity.
 
 <!-- BEGIN: hmi-page-history -->
 ## Page history
