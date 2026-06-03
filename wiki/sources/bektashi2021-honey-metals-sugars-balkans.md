@@ -1,0 +1,73 @@
+---
+type: source
+raw_handle: AUTO_gap-honey-ni-2021-10-55302-jafes21752037lb
+cite_key: bektashi2021-honey-metals-sugars-balkans
+title: "Characterization of honey: determination of metal and sugar content"
+authors: [Limani Bektashi N, Abazi D, Popovska O, Latifi A, Reka AA]
+year: 2021
+publication: "Journal of Agricultural, Food and Environmental Sciences"
+doi: 10.55302/JAFES21752037lb
+source_type: peer-reviewed
+evidence_tier: A
+license: "not stated"
+raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-honey-ni_2021_10-55302-jafes21752037lb.pdf
+metals: [Pb, Cd, tAs, Fe, Mn, Al, Cu, Zn, Se, Cr, Ni]
+ingredients: ["[[ingredients/honey]]"]
+products: ["[[products/honey]]"]
+matrices: [honey]
+jurisdictions: [MK, RS]
+near_duplicates: []
+sample_n: 5
+sample_population: "Five unprocessed flower-honey samples from Skopje and Kumanovo in North Macedonia and Preshevo in Serbia, including four beekeeper samples and one supermarket sample"
+updated: 2026-06-03
+---
+
+# Limani Bektashi et al. 2021 - Balkan honey metals and sugars
+
+Limani Bektashi et al. measured metals, sugars, moisture, and acidity in five honey samples from North Macedonia and Serbia. The paper is direct honey occurrence evidence for Pb, Cd, total arsenic, Cr, Ni, and several nutritional elements on an as-sold honey basis. Lead was detected in all five samples at 0.033-0.055 mg/kg; cadmium was detected in one sample at 0.040 mg/kg; arsenic, nickel, and selenium were not detected.
+
+## Key numbers
+
+Table 1 reports metals in mg/kg honey.
+
+| Sample | Origin | Pb | Cd | As | Fe | Mn | Al | Cu | Zn | Se | Cr | Ni |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | Beekeeper 1, Kumanovo | 0.042 | 0.040 | nd | 1.152 | 0.071 | 2.133 | 0.113 | 0.080 | nd | 0.005 | nd |
+| 2 | Beekeeper, Skopje | 0.039 | nd | nd | 2.498 | 0.171 | 3.474 | 0.348 | nd | nd | 0.019 | nd |
+| 3 | Beekeeper, Preshevo | 0.055 | nd | nd | 0.783 | 0.377 | 2.938 | 1.034 | 0.067 | nd | 0.014 | nd |
+| 4 | Beekeeper 2, Kumanovo | 0.033 | nd | nd | 0.886 | 0.063 | 2.973 | 0.107 | 0.085 | nd | nd | nd |
+| 5 | Supermarket, Skopje | 0.051 | nd | nd | 0.610 | 0.052 | 3.406 | 0.060 | 0.083 | nd | nd | nd |
+
+The authors summarize concentration ranges as Pb 0.033-0.055 mg/kg, Fe 0.610-2.498 mg/kg, Mn 0.052-0.377 mg/kg, Al 2.133-3.474 mg/kg, Cu 0.060-1.034 mg/kg, Cr 0.005-0.019 mg/kg, and Zn 0.067-0.085 mg/kg. They state that Macedonian limits for Pb, Cd, As, Fe, Cu, and Zn in honey are 0.5, 0.03, 0.5, 20, 1, and 10 mg/kg, respectively; the detected cadmium in sample 1 and copper in sample 3 exceeded those cited limits.
+
+Table 2 reports honey characterization values: moisture 16.60-17.60%, acids 9-28 mEq/kg, sucrose 2.41-7.81%, glucose 22.59-33.17%, fructose 33.05-44.63%, and total reducing sugars 55.64-73.36%.
+
+## Methods (brief)
+
+The study analyzed five unprocessed flower-honey samples, four from beekeepers and one from a Skopje supermarket. Metals were measured by atomic absorption spectrometry after nitric-acid microwave digestion. Sugars were measured by HPLC with refractive-index detection. Moisture was measured by refractometer, and acidity was measured by volumetric titration.
+
+## Implications
+
+Certification: This is routeable honey occurrence evidence, with sample-level values for Pb and other metals and clear non-detects for total arsenic, nickel, and selenium. Values are mg/kg honey and should be converted before comparison with ug/kg-only datasets.
+
+Courses: The paper is useful for showing that honey metal findings can vary by origin and beekeeping context even within a small regional sample.
+
+App: The honey ingredient/product profile can use this as non-US context for Pb, Cd, Cr, Cu, Al, Mn, Fe, and Zn, with non-detect context for arsenic and nickel.
+
+Microbiome (if applicable): Not addressed.
+
+## Wiki pages this source may touch
+
+- [[products/honey]]
+- [[ingredients/honey]]
+- [[metals/lead]]
+- [[metals/cadmium]]
+- [[metals/arsenic]]
+- [[metals/chromium]]
+- [[metals/nickel]]
+- [[metals/copper]]
+- [[metals/zinc]]
+
+## Verification notes
+
+The PDF title, authors, DOI, journal, year, sample origins, methods, Table 1 metals, and Table 2 honey-characterization values were read from the auto-fetched PDF. The source reports arsenic as total arsenic by AAS and does not provide inorganic arsenic speciation; chromium is total chromium, not Cr(VI).
