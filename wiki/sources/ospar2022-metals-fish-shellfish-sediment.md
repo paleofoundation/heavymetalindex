@@ -16,7 +16,7 @@ access_url: "https://oap.ospar.org/en/ospar-assessments/quality-status-reports/q
 raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/02_Marine_Nonpredatory/Metals (Lead, Cadmium and Mercury) in Fish, Shellfish and Sediment - OSPAR Quality Status Report 202.pdf"
 raw_sha256: "b6d98033961871426387e403da8ca25392d3ed004b09a1fcfd31b5c38c98f852"
 access_date: 2026-06-03
-metals: [Pb, Cd, tHg, Cu, Zn, Cr, Ni, tAs, Co, Ag, Sn, Se]
+metals: [Pb, Cd, tHg, Cu, Zn, Cr, Ni, tAs, Co, Ag, Sn]
 ingredients: ["[[ingredients/fish]]", "[[ingredients/white-fish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/seafood]]"]
 products: ["[[products/fish-marine-non-predatory]]", "[[products/shellfish]]", "[[products/seafood]]"]
 matrices: [fish-muscle, mussel-soft-tissue, sediment]
@@ -118,7 +118,7 @@ Modelled yearly change in concentration from 2000-2020 (or 2010-2020 for the hea
 
 - Mercury in fish and shellfish: no decreasing trends in any subregion; increasing trends of approximately 2 to 4% yearly change in the Southern North Sea, English Channel, and Northern Bay of Biscay.
 - Lead in fish and shellfish: increasing approximately 4% yearly change in the English Channel; approximately 1.5% yearly change in the Southern North Sea and Northern Bay of Biscay.
-- Cadmium in fish and shellfish: increasing approximately 2.5 to 3.5% yearly change in the Channel and Southern North Sea and Northern Bay of Biscay.
+- Cadmium in fish and shellfish: increasing approximately 2.5 to 3.5% yearly change in the Channel; approximately 1.5% yearly change in the Southern North Sea and Northern Bay of Biscay.
 
 The increasing biota trend in the Southern North Sea is mainly driven by the Wadden Sea area; the Channel and Northern Bay of Biscay trends are mainly along the French coast.
 
@@ -175,6 +175,13 @@ PDF retrieved as part of the Kimi Agent Download Corruption Issue manual-fetch b
 The report is the OSPAR-area sibling to [[sources/helcom2017-core-indicator-metals-baltic]] (HELCOM Core Indicator for the Baltic Sea, 2011-2015 assessment period). Where both sources cover Region II (Greater North Sea) and the Kattegat (an OSPAR Skagerrak-and-Kattegat subregion that is also in HELCOM's southwestern Baltic), they describe the same monitoring sites under different intergovernmental commissions; downstream synthesis should treat the two reports as overlapping rather than independent for those subregions.
 
 Sediment threshold values are reported with European-style decimal commas in the original Table a (e.g., "0,31" for Cd BAC in mg/kg dw); these have been faithfully transcribed using standard decimal points in this page (0.31 mg/kg dw, etc.) following CLAUDE.md Part 14 number convention.
+
+## Verification notes
+
+- Audit subagent (2026-06-03) flagged the cadmium trend attribution in "Trend results — fish and shellfish" as incorrectly stretching the 2.5-3.5% yearly-change rate to the Channel + Southern North Sea + Northern Bay of Biscay collectively; verified against PDF page 14 ("around 2,5 to 3,5% yearly change for cadmium and 4% yearly change for lead in the Channel and ~1,5% yearly change in the Southern North Sea and Northern Bay of Biscay"). The 2.5-3.5% rate applies to cadmium in the Channel only; the Southern North Sea and Northern Bay of Biscay rate is ~1.5%. Corrected.
+- Audit subagent (2026-06-03) flagged `Se` (selenium) in frontmatter `metals:` as outside the closed slug vocabulary (no `wiki/metals/selenium.md` page exists). Verified: confirmed absent from taxonomy snapshot and from `wiki/metals/` directory. Dropped `Se` from frontmatter. The report discusses selenium briefly in Figure e (page 17) and the extended results (Northern Bay of Biscay increasing trend for selenium-zinc-nickel-copper-chromium; Channel and Southern North Sea increasing trends for zinc-selenium-copper-arsenic) but the absence of a taxonomy slug means the source's selenium contribution is not routed to a metal page. Surface to Karen as a candidate for taxonomy expansion if downstream synthesis identifies further selenium-relevant sources.
+- Audit subagent (2026-06-03) suggested extending `matrices:` to include `whole-fish` since the QS_sp comparison is stated for "whole fish"; verified against PDF — false positive. Actual CEMP measurements are fish muscle, with shellfish statistically adjusted to fish levels via a model. `fish-muscle` is the faithful measurement-basis matrix; `whole-fish` would imply a measurement basis not present in the underlying data.
+- Audit subagent (2026-06-03) noted Figure 3 mercury/QS_sp ratios are visual reads from a log-scale plot; preserved as approximate ranges and flagged in the Key numbers table caption.
 
 ## Wiki pages updated on ingest
 
