@@ -70,4 +70,4 @@ Microbiome (if applicable): Not addressed.
 
 ## Verification notes
 
-The PDF title, authors, DOI, journal, year, sample origins, methods, Table 1 metals, and Table 2 honey-characterization values were read from the auto-fetched PDF. The source reports arsenic as total arsenic by AAS and does not provide inorganic arsenic speciation; chromium is total chromium, not Cr(VI).
+The PDF title, authors, DOI, journal, year, sample origins, methods, Table 1 metals, and Table 2 honey-characterization values were read from the auto-fetched PDF. The source reports arsenic as total arsenic by AAS and does not provide inorganic arsenic speciation; chromium is total chromium, not Cr(VI). `matrices: [honey]` is a source-specific matrix flag for controlled-vocabulary review.
