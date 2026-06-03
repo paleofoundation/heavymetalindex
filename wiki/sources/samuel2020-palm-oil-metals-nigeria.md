@@ -34,7 +34,7 @@ Samuel and colleagues measured physicochemical quality, microbial load, and sele
 - Metal method scope: Cd, As, Hg, and Pb in palm oil after nitric-acid digestion and instrumental analysis.
 - Cd in palm oil, Table 3: 0.001 ± 0.02 ppm in Tarauni to 0.019 ± 0.01 ppm in Galadima.
 - As in palm oil, Table 3: 0.008 ± 0.01 ppm in Yan-kura to 0.047 ± 0.01 ppm in Galadima. The source reports arsenic as As, not inorganic arsenic.
-- Hg in palm oil, Table 3: 0.01 ± 0.03 ppm in Kogi, 0.011 ± 0.03 ppm in Edo, and up to 0.19 ± 0.01 ppm in Galadima. The source reports mercury as Hg, not methylmercury.
+- Hg in palm oil, Table 3: 0.01 ± 0.03 ppm in Kogi, approximately 0.01 ± 0.03 ppm in Edo, and up to 0.19 ± 0.01 ppm in Galadima. The source reports mercury as Hg, not methylmercury.
 - Pb in palm oil, Table 3: 0.041 ± 0.02 ppm in Edo and 0.05 ± 0.01 ppm in Kogi to 0.93 ± 0.03 ppm in Yan-kura. The discussion summarizes the Pb range as 0.05 ppm in Kogi to 0.18 ppm in Galadima, but the table lists Yan-kura as 0.93 ppm.
 - The abstract summarizes ranges as Cd 0.001-0.019 ppm, As 0.01-0.047 ppm, Hg 0.01-0.19 ppm, and Pb 0.05-0.18 ppm; the source page preserves Table 3 values where they conflict with the abstract/discussion.
 
@@ -66,5 +66,8 @@ Microbiome: No direct microbiome endpoint.
 - The source table header appears to read `Pd (ppm)`, but the abstract, discussion, and method scope identify the fourth metal as lead/Pb. This source page treats the fourth column as Pb and records the table-header defect for audit.
 - There is an internal discrepancy for Pb: Table 3 lists Yan-kura at 0.93 ± 0.03 ppm, while the abstract and discussion summarize Pb as 0.05-0.18 ppm. The candidate rows preserve the table maximum and note the contradiction.
 - Arsenic is reported as total/unspecified As; it is not evidence for inorganic arsenic. Mercury is reported as total/unspecified Hg; it is not evidence for methylmercury.
+- The Edo Hg table cell prints as `0.01l ± 0.03` in PDF text extraction, while the abstract and discussion summarize Edo as 0.01 ppm. This page treats the Edo value as approximately 0.01 ppm rather than resolving the final character as a digit.
+- `[[ingredients/palm-oil]]` exists as a live ingredient page but is absent from the current GPT-collaboration taxonomy snapshot; this is a snapshot-staleness issue, not a missing destination page.
+- Matrix labels `palm-oil`, `edible-oil`, and `vegetable-oil` are source-specific routing descriptors for this source page. The controlled routeable destinations are `[[ingredients/palm-oil]]` and `[[products/cooking-oils-other]]`.
 - Values are source-reported ppm in palm oil. No conversion to ppb, wet weight, or as-consumed mass basis is made here.
 - The source is not brand-specific and does not identify consumer brands.
