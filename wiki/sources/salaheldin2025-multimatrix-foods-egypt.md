@@ -28,7 +28,7 @@ updated: 2026-06-03
 
 # Salahel din et al. 2025 — Multi-matrix heavy metals in Egyptian foods, Qena
 
-This study quantified Pb, Cd, Cr, and total As in 54 food and beverage samples from five categories (beverages, processed cereals, milk and dairy products, fish and meat products, and table salt) collected during 2022 from local markets in Qena Governorate, southern Egypt. Pb dominated the overall heavy-metals burden at 72% of detected mass, with the highest mean concentration in canned fish and meat products (221.5 ± 39.9 µg/kg). Health-risk metrics (hazard quotient, hazard index, and carcinogenic risk) computed against EFSA, USEPA, and JECFA reference values stayed within acceptable ranges, but Pb exceeded the EFSA 10 µg/kg threshold in 79% of carbonated and energy drinks, 50% of milk and dairy samples, and 100% of canned beef and luncheon samples, and Cd exceeded 10 µg/kg in 29% of carbonated and energy drinks and 100% of luncheon samples.
+This study quantified Pb, Cd, Cr, and total As in 54 food and beverage samples from five categories (beverages, processed cereals, milk and dairy products, fish and meat products, and table salt) collected during 2022 from local markets in Qena Governorate, southern Egypt. Pb dominated the overall heavy-metals burden at 72% of detected mass, with the highest mean concentration in canned fish and meat products (221.5 ± 39.9 µg/kg). Health-risk metrics (hazard quotient, hazard index, and carcinogenic risk) computed against EFSA, USEPA, and JECFA reference values stayed within acceptable ranges, but Pb exceeded the EFSA 10 µg/kg limit in 79% of carbonated and energy drinks, the 20 µg/kg limit in 50% of milk and dairy samples, and the 100 µg/kg limit in 100% of canned beef and luncheon samples; Cd exceeded the 10 µg/kg limit in 29% of carbonated and energy drinks and the 50 µg/kg limit in 100% of luncheon samples; and tAs exceeded the 10 µg/kg limit in 50% of luncheon samples.
 
 ## Key numbers
 
@@ -51,7 +51,7 @@ Processed cereals (n=18):
 
 Milk and dairy products (n=6):
 - Milk (n=4): Pb 20.8 ± 6.6 (12–30); Cd 6.3 ± 2.8 (3–9); Cr 5.3 ± 1.9 (3–8); tAs 1.8 ± 0.4 (1–2).
-- Dairy milk (cheese and yogurt) (n=2): Pb 25 ± 15 (10–40); Cd 6.5 ± 1.5 (5–8); Cr 4.0 ± 0.8 (3–5); tAs 4.0 ± 0.5 (3.5–4.5).
+- Dairy milk (cheese and yogurt) (n=2): Pb 25 ± 15 (10–40); Cd 6.5 ± 1.5 (5–8); Cr 4.0 ± 0.8 (3–5); tAs 4.0 ± 0.5 (range reported as "4" in Table 1).
 - All milk/dairy combined (n=6): Pb 22.2 ± 10.4 (10–40); Cd 6.3 ± 2.4 (3–9); Cr 5.3 ± 1.6 (3–8); tAs 2.5 ± 1.1 (1–4).
 
 Fish and meat products (n=6):
@@ -66,7 +66,7 @@ Overall (n=54): total detected mass = 5118 µg/kg; Pb 3685 (72.0%); Cd 659 (12.9
 
 Regulatory permissible limits cited in Table 1 (EFSA references, µg/kg): Pb 10 (CSD), 500 (tea), 200 (cereals), 20 (milk), 300 (canned fish), 100 (canned meat, luncheon), 2000 (table salt); Cd 10 (CSD, energy drinks), 100 (cereals), 10 (milk), 50 (canned fish, canned meat), 500 (table salt); Cr 50 (CSD), 200 (cereals), 150 (milk), 100 (canned fish, canned meat); tAs 10 (CSD, energy drinks), 10–100 (cereals), 10 (milk), 100 (canned fish, canned meat, luncheon).
 
-Exceedance counts reported in the text (p. 5): Pb exceeded the 10 µg/kg EFSA limit in 79% of carbonated and energy drinks, 50% of milk and dairy samples, and 100% of canned beef and luncheon samples. Cd above the 10 µg/kg limit in 29% of carbonated and energy drink samples and 100% of luncheon samples. Cr above the 50 µg/kg limit in 100% of luncheon samples.
+Exceedance counts reported in the text (p. 5): Pb exceeded the 10 µg/kg EFSA limit in 79% of carbonated and energy drink samples, the 20 µg/kg limit in 50% of milk and dairy samples, and the 100 µg/kg limit in 100% of canned beef and luncheon samples. Cd exceeded the 10 µg/kg limit in 29% of carbonated and energy drink samples and the 50 µg/kg limit in 100% of luncheon samples. tAs exceeded the 10 µg/kg limit in 50% of luncheon samples.
 
 Method performance (p. 2): recovery 85–96%; replicate analysis (n=3) RSD <10%. LOD/LOQ in µg/kg: Pb LOD 0.1–0.5, LOQ 0.3–1.5; Cd LOD 0.05–0.1, LOQ 0.15–0.3; Cr LOD 0.2–0.5, LOQ 0.6–1.5; As LOD 0.1–0.5, LOQ 0.3–1.5.
 
@@ -91,7 +91,7 @@ Risk-assessment parameters: EDI computed against an average adult body weight of
 
 ## Implications
 
-Certification (HMTc): Contributes occurrence and EDI data for Pb, Cd, Cr, and tAs across carbonated and energy beverages, tea and coffee, wheat flour, bread, pasta/macaroni, instant noodles, corn-based products, milk, cheese/yogurt, canned fish, canned beef, luncheon meat, and table salt sampled in southern Egypt during 2022. Documents Pb exceedances above the EFSA 10 µg/kg threshold in 100% of canned beef and luncheon samples and Cd exceedances above 10 µg/kg in 100% of luncheon samples for the studied locale.
+Certification (HMTc): Contributes occurrence and EDI data for Pb, Cd, Cr, and tAs across carbonated and energy beverages, tea and coffee, wheat flour, bread, pasta/macaroni, instant noodles, corn-based products, milk, cheese/yogurt, canned fish, canned beef, luncheon meat, and table salt sampled in southern Egypt during 2022. Documents Pb exceedances above the category-specific EFSA limits (100 µg/kg) in 100% of canned beef and luncheon samples, Cd exceedances above the 50 µg/kg limit in 100% of luncheon samples, and tAs exceedances above 10 µg/kg in 50% of luncheon samples for the studied locale.
 
 Courses: Suitable case material for regulatory affairs and brand QA audiences covering health-risk assessment methodology (EDI, HQ, HI, CR), the use of JECFA blood-pressure and UCd biomarker models for downstream interpretation of Pb and Cd intake, and the application of EFSA HBGVs to multi-category market surveys in lower-regulation markets.
 
@@ -136,3 +136,6 @@ App: Adds occurrence data points for the following ingredient-metal pairs in Egy
 - Total mass percentages in Table 1's "Overall heavy metals content" row are computed across all 54 samples; Pb 72% + Cd 12.9% + Cr 10.7% + tAs 4.5% = 100.1% (rounding artifact in source).
 - Arsenic is reported as total As only; no inorganic speciation, so `tAs` used throughout. Chromium total only; no Cr-VI speciation.
 - LOQ of As applied where As was undetected in HQ/CR calculations (Tables 3 and 4 footnote).
+- Audit subagent (2026-06-03) flagged the abstract paragraph and exceedance recap as misattributing the 10 µg/kg threshold to all three Pb categories; verified against PDF p. 5 — the threshold is category-specific (Pb 10 µg/kg in CSD/ED, 20 µg/kg in milk/dairy, 100 µg/kg in canned beef/luncheon; Cd 10 µg/kg in CSD/ED, 50 µg/kg in luncheon; tAs 10 µg/kg in luncheon). Corrected.
+- Audit subagent flagged a Cr/As metal mix-up: the page originally stated "Cr above the 50 µg/kg limit in 100% of luncheon samples." PDF p. 5 actually says "As exceeded limits (10 µg/kg) in 50% of luncheon samples." Corrected.
+- Audit subagent flagged dairy-milk tAs range "3.5–4.5" as fabricated; verified Table 1 reports range as "4" only. Corrected.
