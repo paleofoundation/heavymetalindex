@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:42:00.137Z",
+  "generated_at": "2026-06-03T10:19:38.169Z",
   "product_filter": "all",
   "include_queue_only_metals": false,
   "dirty_standard_percentile": "p45",
@@ -10,30 +10,31 @@
     "data/evidence/category5_plant_milk_occurrence_summary.csv",
     "data/evidence/category5_tds_finished_food_occurrence_summary.csv",
     "data/evidence/category5_apple_juice_arsenic_speciation_summary.csv",
-    "data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv"
+    "data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv",
+    "data/evidence/category6_occurrence_summary.csv",
+    "data/evidence/category7_occurrence_summary.csv"
   ],
-  "total_gap_rows": 567,
-  "rows_in_locked_hmtc_scope": 439,
-  "rows_outside_locked_hmtc_scope": 128,
+  "total_gap_rows": 610,
+  "rows_in_locked_hmtc_scope": 517,
+  "rows_outside_locked_hmtc_scope": 93,
   "by_aggregate_status": {
-    "POOLING ENGINE PENDING: process local extraction backlog first": 33,
-    "POOLING ENGINE PENDING: single poolable source": 83,
-    "BLOCKED: no structured evidence loaded": 248,
-    "OUT OF SCOPE: not a locked HMTc standards row": 102,
-    "BLOCKED: source document missing": 22,
-    "POOLING ENGINE PENDING: ready for pooling math": 39,
+    "POOLING ENGINE PENDING: ready for pooling math": 88,
+    "POOLING ENGINE PENDING: single poolable source": 127,
+    "BLOCKED: local extraction pending": 22,
+    "BLOCKED: no structured evidence loaded": 254,
+    "OUT OF SCOPE: not a locked HMTc standards row": 67,
+    "BLOCKED: PDF match review pending": 23,
     "BLOCKED: species-specific evidence missing": 3,
-    "CONTEXT ONLY: not a locked HMTc standards row": 26,
-    "BLOCKED: local extraction pending": 11
+    "CONTEXT ONLY: not a locked HMTc standards row": 26
   },
   "by_standard_percentile_target": {
     "clean_p97_pooled": 91,
-    "independent_p97_pooled": 348,
-    "not_applicable": 128
+    "independent_p97_pooled": 426,
+    "not_applicable": 93
   },
-  "rows_with_pending_local_extracts": 57,
-  "rows_with_missing_pdfs": 33,
-  "rows_with_local_candidate_values": 0,
+  "rows_with_pending_local_extracts": 22,
+  "rows_with_missing_pdfs": 1,
+  "rows_with_local_candidate_values": 4,
   "rows_with_context_dispositions": 0,
   "rows_with_tds_product_route_candidates": 8
 }

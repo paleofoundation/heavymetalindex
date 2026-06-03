@@ -13,6 +13,11 @@ const occurrenceSummaryFiles = [
   "data/evidence/category5_tds_finished_food_occurrence_summary.csv",
   "data/evidence/category5_apple_juice_arsenic_speciation_summary.csv",
   "data/evidence/category5_grape_juice_inorganic_arsenic_summary.csv",
+  // Commodity-synthesis summary-grade rows (build-category-occurrence-summary.mjs).
+  // summary_or_range only — percentile columns are blank by design, so these do
+  // NOT count as distribution_capable; they make the synthesized literature visible.
+  "data/evidence/category6_occurrence_summary.csv",
+  "data/evidence/category7_occurrence_summary.csv",
 ]
 const crosswalkPath = path.join(repoRoot, "data/evidence/product_regulatory_crosswalk.csv")
 const queuePath = path.join(repoRoot, "data/evidence/local_reingest_queue.csv")
